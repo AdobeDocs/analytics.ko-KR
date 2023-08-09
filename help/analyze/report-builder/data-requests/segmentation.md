@@ -4,10 +4,10 @@ title: 세그먼트 관리 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 91%
+source-wordcount: '1008'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ Report Builder에서 Adobe Analytics 세그먼트 추가, 편집, 적용 및 필
 
 Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 제공합니다. 이 패널에서 다음을 수행할 수 있습니다. 세그먼트를 만들고 관리합니다.
 
-![](assets/seg_dialog.png)
+![세그먼트 추가, 편집 또는 지우기 옵션을 보여주고 제어, 필터 및 새로 고침 아이콘을 강조 표시하는 스크린샷입니다.](assets/seg_dialog.png)
 
 ## 세그먼트 추가 또는 편집 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -41,7 +41,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 1. 세그먼트로 전환할 보고서 출력 항목을 선택합니다.
 1. 마우스 오른쪽 버튼을 클릭하여 **[!UICONTROL 컨텍스트 내 세그먼트 만들기]**&#x200B;를 선택하고 적절한 컨테이너(히트 컨테이너, 방문 컨테이너, 방문자 컨테이너)를 지정합니다.
 
-   ![](assets/seg_in_context.png)
+   ![선택하고 사용 가능한 컨테이너 옵션에서 컨텍스트 내 세그먼트 만들기 를 보여 주는 스크린샷입니다.](assets/seg_in_context.png)
 
    컨테이너에 대한 자세한 내용은 [세그멘테이션 가이드](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오.
 
@@ -58,9 +58,9 @@ Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모�
 
 1. **[!UICONTROL 세그먼트]** 드롭다운 목록으로 이동한 후 **[!UICONTROL 세그먼트 선택]** 상자의 작은 아래쪽 화살표를 클릭하여 모든 세그먼트를 표시합니다.
 
-   ![](assets/seg_list.png)
+1. 적용할 세그먼트를 선택합니다.
 
-2. 적용할 세그먼트를 선택합니다.
+   ![선택한 세그먼트를 보여 주는 스크린샷입니다.](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -88,18 +88,20 @@ Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모�
 
 1. Control 아이콘 클릭 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 세그먼트 드롭다운 옆에 있습니다.
 
-   ![](assets/seg_control.png)
+1. 세그먼트 컨트롤에 표시할 모든 세그먼트를 선택하거나 **[!UICONTROL 모두 선택]**&#x200B;을 선택합니다.
 
-2. 세그먼트 컨트롤에 표시할 모든 세그먼트를 선택하거나 **[!UICONTROL 모두 선택]**&#x200B;을 선택합니다.
-3. **[!UICONTROL 연결된 요청을 항목 선택에 따라 자동으로 새로 고칩니다.]** 옵션을 확인합니다.
+   ![모든 세그먼트가 선택된 상태로 [컨트롤 설정] 대화 상자의 스크린샷입니다.](assets/seg_control.png)
+
+1. **[!UICONTROL 연결된 요청을 항목 선택에 따라 자동으로 새로 고칩니다.]** 옵션을 확인합니다.
 
    * 이 옵션이 선택되어 있으면 이 컨트롤을 사용하는 모든 요청이 새로 고쳐집니다.
    * 이 옵션이 선택되어 있지 않으면 연결된 요청 매개 변수가 업데이트되지만 요청은 새로 고쳐지지 않습니다.
 
-4. 세그먼트 컨트롤의 왼쪽 위 셀 위치를 지정합니다.
-5. **[!UICONTROL 확인]**&#x200B;을 클릭하면 지정된 위치에 세그먼트 컨트롤이 나타납니다.
+1. 세그먼트 컨트롤의 왼쪽 위 셀 위치를 지정합니다.
 
-   ![](assets/seg_control2.png)
+1. **[!UICONTROL 확인]**&#x200B;을 클릭하면 지정된 위치에 세그먼트 컨트롤이 나타납니다.
+
+   ![세그먼트 선택 필드 드롭다운 필드를 보여 주는 스크린샷입니다.](assets/seg_control2.png)
 
 ## 세그먼트 목록 새로 고침 {#section_22E4A86789444B4A998532396B476EFB}
 
@@ -114,7 +116,7 @@ Report Builder 5.4에서는 여러 요청에 대해 세그먼트 추가, 제거,
 1. 통합 문서에서 여러 요청을 선택합니다.
 1. 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 요청 편집]** > **[!UICONTROL 세그먼트 기준]**&#x200B;을 선택합니다.
 
-   ![](assets/edit_by_segment.png)
+   ![선택한 세그먼트별 및 편집 요청을 보여 주는 스크린샷입니다.](assets/edit_by_segment.png)
 
 1. 그룹 편집 대화 상자에서 다음 네 가지 옵션 중 하나를 선택합니다.
 

@@ -5,10 +5,10 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,10 @@ AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등
 
 1. 요청을 만들거나 편집하고 [!UICONTROL 요청 마법사: 2단계]로 진행합니다.
 
-   ![단계 정보](/help/admin/admin/assets/filter.png)
+1. [!UICONTROL 요청 마법사: 2단계]에서 그리드에서 차원 옆에 있는 링크를 클릭한 다음 **[!UICONTROL 필터]**&#x200B;를 선택합니다.
 
-1. [!UICONTROL 요청 마법사: 2단계]에서, 그리드에서 차원 옆에 있는 링크를 클릭한 다음 **[!UICONTROL 필터]**&#x200B;를 선택합니다.
+   ![애플리케이션, 사용자 및 프로젝트별로 필터링할 수 있는 옵션이 있는 필터 정의 대화 상자를 표시하는 스크린샷입니다.](/help/admin/admin/assets/filter.png)
+
 1.  [!UICONTROL 페이지 선택] 양식에서 **[!UICONTROL 가장 자주 사용]**&#x200B;을 활성화한 후 다음 선택 사항을 구성합니다.
 
    **시작 등급:** 차원의 시작 등급. 기본 등급 1은 보고된 데이터 목록에서 맨 위에 있는 항목을 가리킵니다. 예를 들어 [!UICONTROL 페이지] 차원의 경우, 시작 표시 1은 사이트에서 가장 요청을 많이 받는 한 페이지임을 가리킵니다. 10 또는 다른 값을 시작 등급 셀로 지정할 수 있으며 이렇게 되면 최상위 보고서로서 10으로 시작하는 보고서가 만들어집니다. 지표는 활동이 가장 큰 라인 항목이 목록에서 먼저 보고되도록 내림차순으로 배열됩니다. 하나의 요청에 50,000개가 넘는 페이지 이름이 필요하지만 보고할 페이지는 수천 개만 보유하고 있을 경우 요청을 복사하고 시작 등급을 변경하여 50,000개의 블록에서 적절한 데이터를 검색할 수 있습니다.
@@ -39,17 +40,18 @@ AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등
 
 1. 검색 표현식을 만들려면 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
-   ![단계 정보](assets/expressions_define_filter.png)
-
 1. [!UICONTROL 필터 정의] 양식에서 필요한 조건을 적절히 구성합니다.
 
-   ![select_cell_icon.png](assets/select_cell_icon.png): 셀의 값에 정의된 조건을 찾을 수 있도록 해줍니다.
 
-   **조건 추가:** 표현식에 조건을 추가합니다. 추가할 수 있는 조건 수에는 제한이 없습니다.
+   ![필터 정의 대화 상자를 표시하는 스크린샷입니다.](assets/expressions_define_filter.png)
+
+   셀 선택 아이콘을 사용하면 셀 값에 정의된 조건을 찾을 수 있습니다. ![셀 선택 아이콘](assets/select_cell_icon.png)
+
+   다음 **조건 추가** 링크를 사용하여 표현식에 조건을 추가할 수 있습니다. 추가할 수 있는 조건 수에는 제한이 없습니다.
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
-   ![단계 정보](assets/choose_page_02.png)
+   ![오른쪽 하단에 확인 버튼이 있는 필터 정의 대화 상자의 스크린샷입니다.](assets/choose_page_02.png)
 
 1. [!UICONTROL 페이지 선택] 양식에서 **[!UICONTROL 저장]**&#x200B;을 클릭하여 표현식을 저장합니다.
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.

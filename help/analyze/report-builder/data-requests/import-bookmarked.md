@@ -4,10 +4,10 @@ title: 북마크가 지정된 보고서 및 대시보드 리포트릿 가져오�
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 요청 마법사 1단계에는 다음과 같이 대시보드 및 해당 Reportlet이 표시됩니다.
 
-![](assets/import_dashboard_reportlet.png)
+![대시보드 검색 및 책갈피 검색 을 강조 표시하는 요청 마법사 1단계/2를 보여 주는 스크린샷입니다.](assets/import_dashboard_reportlet.png)
 
 **[!UICONTROL [대시보드 검색]]**&#x200B;이나 **[!UICONTROL [책갈피 검색]]**&#x200B;을 클릭하면, 기존 대시보드 및/또는 책갈피 데이터가 검색되고 워크시트에 붙여넣어집니다.
 

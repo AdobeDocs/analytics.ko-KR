@@ -5,10 +5,10 @@ uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
 role: User, Admin
 exl-id: 0986b6e3-8708-4513-af8d-523fe7e616a3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 86%
 
 ---
 
@@ -18,4 +18,4 @@ Report Builder에서 필터나 다른 매개 변수를 저장하고 다른 워�
 
 필터를 만들면 [!UICONTROL 페이지 선택] 양식에서 필터를 저장합니다. 이 절차의 예가 필요하면 [특정 필터](/help/analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 
-![](assets/choose_page_saved.png)
+![최고 인기, 특정 및 저장된 필터 페이지에 대한 페이지 선택 양식 및 옵션 스크린샷입니다.](assets/choose_page_saved.png)

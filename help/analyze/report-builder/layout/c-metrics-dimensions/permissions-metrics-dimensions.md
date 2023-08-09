@@ -5,22 +5,22 @@ uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
 role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 71%
 
 ---
 
 # 차원 및 지표의 사용자 액세스 권한
 
-이제 Adobe Report Builder에는 Analytics 관리 도구의 권한 부여 설정과 유사한 권한 부여 설정이 포함됩니다.
+Adobe Report Builder에는 Analytics 관리 도구의 권한 설정과 유사한 권한 설정이 있습니다.
 
 관리자가 아닌 사용자는 이전에 액세스 권한이 없는 차원 및 지표를 가리키는 요청이 있는 통합 문서를 만들었을 수 있습니다. 이러한 권한이 이제 적용됩니다.
 
-예를 들어 액세스 권한이 없는 차원이나 지표를 포함하는 요청을 새로 고치면 제한된 권한 오류가 나타납니다.
+예를 들어 액세스 권한이 없는 차원 또는 지표가 포함된 요청을 새로 고치면 제한된 권한 오류가 발생합니다. 오류 메시지에는 관리자 권한으로 인해 사용자 계정에 요청을 사용할 수 없다고 표시됩니다.
 
-![](assets/arb_restrc_perm.png)
+![제한된 권한 오류 메시지를 보여 주는 스크린샷입니다.](assets/arb_restrc_perm.png)
 
 유지 관리하는 **각** Report Builder 통합 문서에 대한 다음 지침을 따르십시오.
 

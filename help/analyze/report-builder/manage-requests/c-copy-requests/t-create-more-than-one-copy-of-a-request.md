@@ -1,14 +1,14 @@
 ---
-description: 셀의 선택 영역을 채울 만큼 많은 수의 요청 사본을 만드는 방식으로 원래 요청의 사본을 두 개 이상 만들 수 있습니다.
-title: 두 개 이상의 요청 사본 만들기
+description: 요청을 두 개 이상 복사하는 방법을 알아봅니다.
+title: 두 개 이상의 요청 사본을 만드는 방법
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 feature: Report Builder
 role: User, Admin
 exl-id: 5b929821-e7ca-48e4-9196-0a6734a9566e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 81%
 
 ---
 

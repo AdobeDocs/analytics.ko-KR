@@ -1,14 +1,14 @@
 ---
-description: 보고서의 이름을 지정하고 행 및 열 머리글이 표시되는 방식을 구성할 수 있습니다. 피벗 및 사용자 지정 레이아웃 유형에 [서식 선택 사항] 링크를 사용할 수 있습니다.
-title: 머리글 표시 형식 지정
+description: 보고서 이름을 지정하고 행 및 열 머리글을 표시하는 방법을 구성하는 방법을 알아봅니다.
+title: 표시 머리글 서식 지정 방법
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 94%
 
 ---
 

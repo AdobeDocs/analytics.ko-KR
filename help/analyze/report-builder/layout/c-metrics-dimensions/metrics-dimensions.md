@@ -5,16 +5,16 @@ uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
 role: User, Admin
 exl-id: 6c56a8e5-07c0-4dc4-b40b-94a07b783514
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 91%
 
 ---
 
 # 지표 및 차원 개요
 
-지표 및 차원을 요청 마법사 2단계에 추가하여 요청에서 데이터의 분석 레이아웃을 정의할 수 있습니다. Report Builder의 지표 및 차원 목록은 Reports &amp; Analytics에 표시된 메뉴 레이아웃 다음에 나옵니다.
+요청 마법사: 2단계에서 지표 및 차원을 추가하여 요청에서 데이터의 Analytics 레이아웃을 정의합니다. Report Builder의 지표 및 차원 목록은 Reports &amp; Analytics에 표시된 메뉴 레이아웃 다음에 나옵니다.
 
 지표는 숫자 값입니다. 이것은 [!UICONTROL 페이지 뷰 수], [!UICONTROL 방문자 프로필], [!UICONTROL 클릭스루], [!UICONTROL 다시 로드], [!UICONTROL 평균 체류 시간], [!UICONTROL 날짜], [!UICONTROL 단위] 등과 같은, 웹사이트에서의 활동에 대한 수량 정보로 구성됩니다. 리포트 빌더는 Analytics의 표준 그룹화 방법에 따라 지표를 몇 개의 그룹으로 분류합니다.
 

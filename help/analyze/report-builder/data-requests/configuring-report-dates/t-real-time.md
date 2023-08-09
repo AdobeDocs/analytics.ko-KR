@@ -5,10 +5,10 @@ uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 1. 분 또는 시간 단위로 위를 선택합니다.
 
-   ![단계 결과](assets/real_time_select_date.png)
+   ![최근 60분이 선택된 시간 범위 선택 옵션을 보여 주는 스크린샷입니다.](assets/real_time_select_date.png)
 
    실시간 보고는 지난 20시간 동안에만 사용할 수 있습니다. 세부기간의 경우 1분에서 30분까지 선택하는 옵션이 있습니다.
 1. **[!UICONTROL 다음]**&#x200B;을 클릭하고 [요청 레이아웃 구성](/help/analyze/report-builder/layout/layout.md)을 계속합니다.

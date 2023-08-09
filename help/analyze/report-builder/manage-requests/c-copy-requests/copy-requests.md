@@ -1,14 +1,14 @@
 ---
-description: 두 개 이상의 요청과 매핑된 셀을 복사하고 그 내용을 스프레드시트의 비어 있는 선택된 영역에 붙여넣을 수 있습니다.
-title: 요청 복사 개요
+description: 두 개 이상의 요청으로 매핑된 셀을 복사하고 붙여넣는 방법을 알아봅니다.
+title: 요청 복사 방법 개요
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
 role: User, Admin
 exl-id: 14578c79-a9e6-4587-b91b-f590453df347
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 87%
 
 ---
 

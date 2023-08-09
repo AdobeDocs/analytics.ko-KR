@@ -4,10 +4,10 @@ title: 요청 마법사를 사용하여 폴아웃 보고서 필터링
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 91%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 1. 적절한 보고서 세트를 선택합니다.
 1. 왼쪽의 트리 보기에서 **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 페이지 폴아웃]**&#x200B;을 선택합니다.
 
-   ![](assets/page_fallout.png)
+   ![Report Builder 디렉토리에 대한 Windows 트리 보기를 보여 주는 스크린샷입니다. 페이지 폴아웃이 선택되어 있습니다.](assets/page_fallout.png)
 
 1. 적절한 [날짜 범위](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)를 구성합니다.
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. 마법사 2단계의 **[!UICONTROL 행 레이블]**&#x200B;에서 **[!UICONTROL 체크포인트 정의]** 링크를 클릭합니다. 폴아웃 보고서에서는 패턴이 미리 정의된 경로 보고서와 달리 항상 경로 요소를 정의해야 합니다.
 
-   ![](assets/define_checkpoints.png)
+   ![체크포인트 정의 링크를 보여주는 스크린샷](assets/define_checkpoints.png)
 
 1. **[!UICONTROL 필터]** 옵션을 선택합니다.
 

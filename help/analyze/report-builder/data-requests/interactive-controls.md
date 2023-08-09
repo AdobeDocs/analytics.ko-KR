@@ -4,10 +4,10 @@ title: 양방향 컨트롤
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 100%
 >* Mac에서 Excel을 실행하고 있는 경우 제어의 값을 변경하면 다음 메시지가 표시됩니다. &quot;매크로 ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’를 찾을 수 없습니다.&quot;
 >
 
-
 >[!WARNING]
 >
 >제어의 이름은 함부로 변경하지 마십시오. (이 이름을 보려면 제어에 초점을 둡니다. 그러면 왼쪽 위의 Excel 표 바로 위에 제어 이름이 나타납니다.)
@@ -37,11 +36,11 @@ ht-degree: 100%
 1. 예를 들어 요청 마법사의 1단계에서 **[!UICONTROL 페이지]** 보고서를 선택합니다.
 1. **[!UICONTROL 일반적으로 사용되는 날짜]** 드롭다운 옆에 있는 **[!UICONTROL 컨트롤 설정]** 아이콘을 클릭합니다.
 
-   ![](assets/date_range_control.png)
+   ![제어 설정 아이콘을 강조 표시하는 요청 마법사 1단계의 스크린샷입니다. ](assets/date_range_control.png)
 
 1. 컨트롤 설정 대화 상자에서 양방향 컨트롤에 표시할 모든 날짜 범위 항목을 선택합니다. 또한 컨트롤의 왼쪽 위 셀 위치를 지정합니다.
 
-   ![](assets/control_settings.png)
+   ![선택한 날짜 범위 항목과 왼쪽 위 셀 위치를 보여 주는 스크린샷입니다.](assets/control_settings.png)
 
 1. 옵션 &quot;연결된 요청을 항목 선택에 따라 자동으로 새로 고칩니다”를 확인합니다.
 
@@ -50,18 +49,19 @@ ht-degree: 100%
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다. 지정한 셀 위치에 제어가 나타납니다.
 
-   ![](assets/date_range_control_interactive.png)
-
 1. 이제 날짜 범위를 변경할 수 있습니다. 그러면 요청은 해당 날짜 범위로 새로 고쳐집니다.
+
+   ![선택한 날짜 범위를 보여 주는 스크린샷입니다.](assets/date_range_control_interactive.png)
+
 1. 요청을 복사하고 마우스 오른쪽 버튼을 클릭하여 두 개의 요청 붙여넣기 옵션 중 하나를 사용할 수 있습니다.
 
    * **[!UICONTROL 요청 붙여넣기]** > **[!UICONTROL 절대 입력 셀 사용]** 이것은 복사한 요청이 원본 요청과 동일한 양방향 날짜 범위 제어를 가리키게 됨을 의미합니다.
 
    * **[!UICONTROL 요청 붙여넣기]** > **[!UICONTROL 상대 입력 셀 사용]** 이것은 복사한 요청이 자체 컨트롤을 지시함을 의미합니다.
 
-      >[!NOTE]
-      >
-      >일반 Microsoft Excel 잘라내기/복사/붙여넣기 컨트롤 기능을 사용할 수 있습니다. Report Builder는 새로 추가한 컨트롤을 자동으로 인식합니다.
+     >[!NOTE]
+     >
+     >일반 Microsoft Excel 잘라내기/복사/붙여넣기 컨트롤 기능을 사용할 수 있습니다. Report Builder는 새로 추가한 컨트롤을 자동으로 인식합니다.
 
 ## 양방향 세그먼트 컨트롤 구현 {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
@@ -69,12 +69,12 @@ ht-degree: 100%
 
 1. 요청 마법사의 1단계에서 **[!UICONTROL 세그먼트]** 드롭다운 목록 옆에 있는 세그먼트 컨트롤 설정 아이콘을 선택합니다.
 
-   ![](assets/segment_interactive_1.png)
+   ![세그먼트 컨트롤 설정 아이콘의 스크린샷.](assets/segment_interactive_1.png)
 
 1. 세그먼트 컨트롤 설정 대화 상자에서 드롭다운에 포함할 세그먼트를 선택합니다. 또한 컨트롤의 왼쪽 위 셀 위치를 지정합니다.
 
-   ![](assets/segment_drop_down_properties.png)
+   ![선택한 세그먼트와 셀 위치를 포함하는 세그먼트 제어 설정을 보여 주는 스크린샷입니다.](assets/segment_drop_down_properties.png)
 
 1. 이제 새 양방향 컨트롤이 통합 문서에 나타납니다.
 
-   ![](assets/segment_interactive_3.png)
+   ![선택한 새 대화형 컨트롤을 보여 주는 스크린샷입니다.](assets/segment_interactive_3.png)

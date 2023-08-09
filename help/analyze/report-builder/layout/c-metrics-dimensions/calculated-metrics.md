@@ -4,10 +4,10 @@ title: 계산된 지표
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 87%
 
 ---
 
@@ -25,13 +25,13 @@ Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를 지원합니
 
 ## 계산된 지표 필터링 {#section_376E986D3E684999A7CDB08E53854159}
 
-아이콘을 클릭하여 계산된 지표를 **필터링**&#x200B;합니다.![](/help/admin/admin/assets/filter.png)
+**필터** 필터 아이콘을 클릭하여 계산된 지표:  ![애플리케이션, 사용자, 프로젝트 필드를 보여주는 필터 옵션의 스크린샷입니다.](/help/admin/admin/assets/filter.png)
 
-. 고급 필터 대화 상자는 표준 지표와 계산된 지표로 채워집니다.
+고급 필터 대화 상자는 표준 지표와 계산된 지표로 채워집니다.
 
 사용 가능한 필터:
 
-![](assets/advanced_filters.png)
+![다음 표에 설명된 고급 필터 옵션을 보여 주는 스크린샷입니다.](assets/advanced_filters.png)
 
 | 필터 이름 | 설명 |
 |---|---|
@@ -47,4 +47,4 @@ Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를 지원합니
 
 필터를 선택한 다음 **[!UICONTROL 적용]**&#x200B;을 클릭하여 필터를 요청에 적용합니다. 이제 선택된 필터가 보고서 레이아웃에 추가됩니다.
 
-![](assets/filtering_for_metric.png)
+![요청 마법사 2단계 - 사이트 총계가 고급 필터 창 및 적용된 보고서 지표를 나타내는 스크린샷입니다.](assets/filtering_for_metric.png)

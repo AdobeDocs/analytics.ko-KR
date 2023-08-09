@@ -1,14 +1,14 @@
 ---
-description: 한 스프레드시트를 동일한 통합 문서에 있는 다른 스프레드시트로 복사합니다.
-title: 워크시트 복사
+description: 동일한 통합 문서에서 한 스프레드시트를 다른 스프레드시트로 복사하는 방법에 대해 알아봅니다.
+title: Report Builder에서 워크시트를 복사하는 방법
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
 role: User, Admin
 exl-id: 51785d9a-fdd1-42f1-8f44-4ca135d97d99
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '139'
+ht-degree: 86%
 
 ---
 
