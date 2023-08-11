@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics에 대한 기술 설명서 업데이트
-description: Adobe Analytics 설명서 세트에 대한 업데이트 내용입니다.
+description: Adobe Analytics 설명서 세트에 대한 주요 업데이트 내용입니다.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
 source-wordcount: '4891'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 95%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 8월** | |
-| 구현 방법 비교 | 서로 다른 구현 방법을 비교하는 설명서를 업데이트했습니다. [자세히 알아보기](../implement/prepare/comparison.md) |
+| 구현 방법 비교 | 다양한 구현 방법을 비교하는 설명서가 업데이트되었습니다. [자세히 알아보기](../implement/prepare/comparison.md) |
 | 데이터 피드에 대해 SFTP를 구성하는 데 Adobe 고객 지원이 필요하지 않음을 명확히 했습니다. | 데이터 피드에 대해 SFTP를 구성하기 위해 고객이 Adobe 고객 지원에 참여할 필요가 없음을 [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)에서 명확히 했습니다. <p>또한 SFTP는 더 이상 권장되지 않으며 고객은 데이터 피드를 구성할 때 클라우드 대상을 사용해야 한다는 메모를 추가했습니다.</p> |
-| 스트리밍 미디어에 대한 설명서 개선 사항 | 스트리밍 미디어에 대해 다음과 같은 설명서 개선이 이루어졌습니다. <ul><li>을(를) 업데이트함 [일반 개요](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR) 명확성을 개선하고 Customer Journey Analytics 관련 정보를 포함합니다.</li><li>을(를) 업데이트함 [구현 개요](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) 를 사용하여 Edge 구현과 Analytics 전용 구현을 명확하게 구분할 수 있습니다. 다양한 구현 방법을 설명하는 다이어그램을 포함했습니다.</li><li>에 해당하는 사전 요구 사항이 추가되었습니다. [Edge 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en) 및 [Analytics 전용 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en). 이(가) [일반 사전 요구 사항](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en).</li><li>에서 업데이트된 표 [Media SDK, 태그를 사용한 확장 기능 및 OTT SDK 가져오기](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) 새 열을 포함할 문서 *지원되는 솔루션* 및 *구현 방법*.</li><li>에서 문서의 컨텐츠 및 구성 간소화 [구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) 문서 영역입니다. 여기에는 Edge 구현 및 Analytics 전용 구현별로 구현을 분류하는 작업이 포함되었습니다.</li><li>아래에 필요하지 않은 추가 수준의 계층 구조를 제거했습니다. [추적](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en) 및 이 섹션에서 변경된 URL에 대한 리디렉션을 추가했습니다.</li><ul> |
+| 스트리밍 미디어에 대한 설명서 개선 사항 | 스트리밍 미디어에 대해 다음 설명서가 개선되었습니다. <ul><li>명확성을 개선하고 Customer Journey Analytics와 관련된 정보를 포함하도록 [일반적인 개요](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)가 업데이트되었습니다.</li><li>Edge 구현과 Analytics 전용 구현을 명확하게 구분되도록 [구현 개요](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en)가 업데이트되었습니다. 다양한 구현 방법을 설명하는 다이어그램도 포함되었습니다.</li><li>[Edge 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en) 및 [Analytics 전용 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en)에 대한 사전 요구 사항이 추가되었습니다. [일반적인 사전 요구 사항](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en)도 업데이트되었습니다.</li><li>*지원되는 솔루션* 및 *구현 방법*&#x200B;에 대한 새 열을 포함하도록 [미디어 SDK 가져오기, 태그를 사용한 확장 및 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) 문서의 테이블이 업데이트되었습니다.</li><li>문서의 [구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) 영역에서 문서의 콘텐츠 및 구성이 간소화되었습니다. Edge 구현 및 Analytics 전용 구현별 구현 분류가 포함되었습니다.</li><li>[추적](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en)에서 필요하지 않은 추가 계층 구조가 제거되었으며 이 섹션에서 변경된 URL에 대한 리디렉션이 추가되었습니다.</li><ul> |
 | **2023년 7월** | |
 | Adobe Experience Platform Edge Network Server API | [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md)를 사용하여 Adobe Analytics로 데이터 수집을 구현하는 시기와 방법에 대한 보다 포괄적인 설명서가 추가되었습니다. 예를 들어 데스크탑 애플리케이션, IoT 디바이스, 셋톱 박스에서 Adobe Analytics로 데이터 수집을 구현합니다. |
 | 글로벌 회사 ID | 로그인한 Analytics 회사의 [글로벌 회사 ID를 찾는 방법](../admin/admin/company/web-services-admin.md)이 문서화되었습니다. 이 ID는 Analytics 2.0 API에 필요합니다. |
