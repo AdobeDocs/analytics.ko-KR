@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: ht
-source-wordcount: '724'
+source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
+workflow-type: tm+mt
+source-wordcount: '726'
 ht-degree: 100%
 
 ---
@@ -273,6 +273,7 @@ ht-degree: 100%
    + [클라우드 가져오기 계정](/help/components/locations/configure-import-accounts.md)
    + [클라우드 가져오기 위치](/help/components/locations/configure-import-locations.md)
 + [달력 이벤트](t-calendar-event.md)
++ [예약된 프로젝트](scheduled-projects-manager.md)
 + [예약된 보고서 대기열](scheduled-reports-admin.md)
 + 실시간 보고 {#real-time-reporting}
    + [실시간 보고 개요](c-real-time-reporting/realtime.md)
