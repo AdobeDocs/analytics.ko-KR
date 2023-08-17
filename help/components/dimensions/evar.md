@@ -3,10 +3,10 @@ title: eVar(차원)
 description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 391d4378a360270acb40cbd9ddb2be3cd315d11c
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 97%
+source-wordcount: '823'
+ht-degree: 89%
 
 ---
 
@@ -14,7 +14,11 @@ ht-degree: 97%
 
 *이 도움말 페이지에서는 eVar가 차원으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)[!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다]. 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)[!UICONTROL 에서 만료와 할당을 사용자 정의할 수 있습니다].
+eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 다음 항목이 있는 경우: [솔루션 디자인 문서](/help/implement/prepare/solution-design.md), 조직 고유의 차원은 대부분 다음으로 끝남 [!UICONTROL eVar], &#39;페이지 이름&#39;, &#39;참조 도메인&#39;, &#39;채널&#39;과 같은 Adobe Analytics에서 사용할 수 있는 기본 차원에 대한 추가 사항입니다. 다음을 참조하십시오 [Dimension 개요](overview.md) 추가 정보.
+
+기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)[!UICONTROL 에서 만료와 할당을 사용자 정의할 수 있습니다]. 전환 변수 UI의 eVar 정의에 대한 예는 아래를 참조하십시오.
+
+![Evar 예](assets/evars-sample.png)
 
 사용 가능한 eVar의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 250개의 eVar를 사용할 수 있습니다.
 
@@ -51,12 +55,12 @@ eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각
 
 | `visitor_id` | `pagename` | `evar1` | `post_evar1` | `event_list` |
 | --- | --- | --- | --- | --- |
-| `examplevisitor_987` | `Home page` |  |  |  |
+| `examplevisitor_987` | `Home page` | | | |
 | `examplevisitor_987` | `Search results` | `cats` | `cats` | `event1` |
-| `examplevisitor_987` | `Product page` |  | `cats` | `prodView` |
-| `examplevisitor_987` | `Cart` |  | `cats` | `scAdd` |
-| `examplevisitor_987` | `Checkout` |  | `cats` | `scCheckout` |
-| `examplevisitor_987` | `Purchase confirmation` |  | `cats` | `purchase` |
+| `examplevisitor_987` | `Product page` | | `cats` | `prodView` |
+| `examplevisitor_987` | `Cart` | | `cats` | `scAdd` |
+| `examplevisitor_987` | `Checkout` | | `cats` | `scCheckout` |
+| `examplevisitor_987` | `Purchase confirmation` | | `cats` | `purchase` |
 
 * `visitor_id` 열은 히트를 동일한 방문자에게 연결합니다. 실제 원시 데이터에서 `visid_high`와 `visid_low`의 연결된 값이 방문자 ID를 결정합니다.
 * `pagename` 열은 페이지 차원을 채웁니다.

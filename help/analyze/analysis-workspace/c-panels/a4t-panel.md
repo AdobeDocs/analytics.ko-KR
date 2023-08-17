@@ -4,10 +4,10 @@ title: A4T(Analytics for Target) 패널
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 32dfab4b10d3637aba53081f747d2650fc33a8f0
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 99%
+source-wordcount: '1127'
+ht-degree: 87%
 
 ---
 
@@ -49,10 +49,10 @@ Analytics for Target 패널은 Adobe Target 활동 및 경험의 성과를 더 �
 | 성공 지표 | 빌더에서 선택한 지표 |
 | 전환율 | 성공 지표/정규화 지표 |
 | 상승도 | 통제 경험을 기준으로 각 경험의 전환율을 비교합니다. 참고: 상승도는 Target 경험에 대해 &quot;잠긴 지표&quot;입니다. 분류하거나 다른 차원과 함께 사용할 수 없습니다. |
-| 상승도 (하한) | 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 최악의 상승도를 나타냅니다.<br>계산: (x/y ± 1.96 std_err (x,y)) / (x_control/y_control ∓ 1.96 std_err(x_control,y_control)). 여기서 std_err (x,y)는 sqrt (xx/y – (x/y)^2)이며, 여기서 xx는 제곱합을 나타냅니다. |
-| 상승도 (중간) | 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 중간 상승도를 나타냅니다. Reports &amp; Analytics의 &quot;상승도&quot;입니다.<br>계산: (x/y)/(x_control/y_control) – 1 |
-| 상승도 (상한) | 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 최고의 상승도를 나타냅니다.<br>계산: 상승도 (하한) 참조. |
-| 신뢰도 | 학생 T-테스트에서는 다시 테스트를 실행하면 결과가 복제될 가능성을 나타내는 신뢰 수준을 계산합니다. 고정 조건부 서식 범위 (75%/85%/95%)가 지표에 적용되었습니다. 열 설정에서 필요한 경우 이 형식을 사용자 지정할 수 있습니다. 참고: 신뢰도는 Target 경험에 대해 &quot;잠긴 지표&quot;입니다. 분류하거나 다른 차원과 함께 사용할 수 없습니다.<br>계산: x/y가 _control/y_control과 같은지 p- 값을 찾기 위해 자유도가 y+y_control-2인 양측 T-테스트를 적용합니다. T-스코어를 계산합니다. 여기서 stderr은 sqrt((xx/y- (x/y)^2)/y + (xx_control/y_control- (x_control/y_control)^2)/y_control)입니다. 서로 다름을 나타내는 신뢰도로 1-p가 반환됩니다. |
+| 상승도 (하한) | 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 최악의 상승도를 나타냅니다.<br>다음을 참조하십시오 [통계적 계산](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 및 [완료 신뢰도 계산기](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel 파일 을 참조하십시오. |
+| 상승도 (중간) | 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 중간 상승도를 나타냅니다. Reports &amp; Analytics의 &quot;상승도&quot;입니다.<br>다음을 참조하십시오 [통계적 계산](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 및 [완료 신뢰도 계산기](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel 파일 을 참조하십시오. |
+| 상승도 (상한) | 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 최고의 상승도를 나타냅니다.<br>다음을 참조하십시오 [통계적 계산](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 및 [완료 신뢰도 계산기](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel 파일 을 참조하십시오. |
+| 신뢰도 | 학생 T-테스트에서는 다시 테스트를 실행하면 결과가 복제될 가능성을 나타내는 신뢰 수준을 계산합니다. 고정 조건부 서식 범위 (75%/85%/95%)가 지표에 적용되었습니다. 열 설정에서 필요한 경우 이 형식을 사용자 지정할 수 있습니다. 참고: 신뢰도는 Target 경험에 대해 &quot;잠긴 지표&quot;입니다. 분류하거나 다른 차원과 함께 사용할 수 없습니다.<br>다음을 참조하십시오 [통계적 계산](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 및 [완료 신뢰도 계산기](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel 파일 을 참조하십시오. |
 
 Analysis Workspace의 모든 패널과 마찬가지로 Adobe Target 활동을 분석하는 데 도움이 되는 추가 테이블 및 [시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR)를 추가하여 분석을 계속할 수 있습니다. 패널 수준 또는 자유형 테이블 내에서 세그먼트를 적용할 수도 있습니다. 자유형 테이블 내에 추가하는 경우 상승도 및 신뢰도 계산을 유지하기 위해 전체 테이블에 오버레이해야 합니다. 현재 열 수준 세그먼트는 지원되지 않습니다.
 
