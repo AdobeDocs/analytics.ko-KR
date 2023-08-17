@@ -5,7 +5,7 @@ user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터를 내보내고 Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색하는 방법에 대해 알아봅니다. FTP와 SFTP를 사용하여 파일을 전송하는 방법에 대해 알아봅니다.
 source-git-commit: 78ec6e91e64791d2f8a5386518d3d64403b2170a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
    + [Data Warehouse 개요](data-warehouse/data-warehouse.md)
    + [Data Warehouse 사용자 그룹 추가](data-warehouse/t-dw-group.md)
    + [Data Warehouse 요청 만들기](data-warehouse/t-dw-create-request.md)
-   + [배달 시간 요청](data-warehouse/delivery-time.md)
+   + [게재 시간 요청](data-warehouse/delivery-time.md)
    + [타블로 데이터 파일](data-warehouse/t-tableau.md)
    + [지표로 정렬](data-warehouse/sorting-by-metric.md)
    + [반복 요청 예약](data-warehouse/dw-schedule-recurring.md)
@@ -54,7 +54,7 @@ ht-degree: 100%
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [데이터 피드](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Data Warehouse 게재된 보고서](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
-      + [Report Builder 배달된 보고서](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
+      + [Report Builder 게재된 보고서](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [FTP로 엔지니어링 서비스 참여](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
    + [FTP 제한 및 데이터 유지](ftp-and-sftp/ftp-limits.md)
    + [FTP 데이터 및 FTP 계정 삭제](ftp-and-sftp/ftp-delete.md)
