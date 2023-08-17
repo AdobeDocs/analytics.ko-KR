@@ -4,14 +4,14 @@ title: 프로젝트 만들기
 feature: Workspace Basics
 role: User, Admin
 exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
-source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
+source-git-commit: fabe043264e4567d54dc497897fff0aaad77eaaf
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 5%
+source-wordcount: '705'
+ht-degree: 14%
 
 ---
 
-# 프로젝트 만들기
+# Analysis Workspace에서 프로젝트 만들기
 
 [프로젝트](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) Analysis Workspace에서는 조직 내부 또는 외부의 관련자와 공유할 수 있는 비즈니스 크리티컬 분석을 볼 수 있습니다.
 
@@ -110,6 +110,6 @@ Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입�
 
 ## 프로젝트 저장 및 공유
 
-Analysis Workspace에서 분석을 만들 때 작업은 다음과 같습니다. [자동으로 저장됨](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+Analysis Workspace에서 분석을 만들면 작업이 [자동으로 저장됩니다](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-프로젝트 빌드를 완료하고 실행 가능한 통찰력을 수집하는 경우 프로젝트를 다른 사용자가 사용할 준비가 되었습니다. 조직의 사용자 및 그룹 또는 조직 외부의 사용자와 프로젝트를 공유할 수 있습니다. 프로젝트 공유에 대한 자세한 내용은 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+프로젝트 빌드를 완료하고 프로젝트에서 실행 가능한 인사이트를 수집하면 다른 사람이 프로젝트를 사용할 준비가 된 것입니다. 조직의 사용자 및 그룹은 물론 조직 외부의 사람들과도 프로젝트를 공유할 수 있습니다. 프로젝트 공유에 대한 내용은 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md)를 참조하십시오.

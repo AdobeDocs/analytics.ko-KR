@@ -3,10 +3,10 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
-workflow-type: ht
-source-wordcount: '1163'
-ht-degree: 100%
+source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 99%
 
 ---
 
@@ -30,17 +30,22 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 * UI에서 실시간 데이터에 액세스하려는 경우
 * 달력 이벤트를 설정하려는 경우
 * 대상을 설정하려는 경우
-* 보트 보고를 보려는 경우
 * Video Daypart 및 Viewer Drop-off의 고유한 비디오 시각화에 액세스하려는 경우
+
+>[!IMPORTANT]
+>
+>**2023년 12월 31일**&#x200B;부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. 해당 시점에 Reports &amp; Analytics 및 모든 관련 보고서와 일정이 작동 중단될 예정입니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 Reports &amp; Analytics 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. 이 공지 사항은 서비스 종료 프로세스에 대해 설명합니다.
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ko-KR)**&#x200B;는 다음 경우에 사용합니다.
 
-* 가장 유연한 Analytics 도구 옵션 (방문자 수준, 히트 수준 분석까지).
-* CRM에서 POS 웹에 이르는 온라인 및 오프라인 상호 작용의 다중 채널 데이터 세트 생성.
-* 고급 속성 (규칙 기반 및 알고리즘 모델).
 * 예측, 통계 모델링 (성향 점수, 클러스터링, 상관 관계 등).
 * 지연 분석 (이벤트 전/후 시간).
 * Adobe Experience Cloud에서 복잡한 세그먼트를 식별 및 내보내기.
+
+>[!IMPORTANT]
+>
+>Data Workbench에 대해 자세히 알아보기 [서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+
 
 ## Adobe Analytics로 데이터 가져오기 {#import}
 

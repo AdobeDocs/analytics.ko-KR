@@ -4,9 +4,9 @@ title: Adobe Analytics 개요
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d5a7dfe720cc84b67208e7d30434295caf1e2aac
+source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3101'
 ht-degree: 32%
 
 ---
@@ -104,7 +104,7 @@ Adobe Analytics 인터페이스는 다음 기본 영역으로 구성됩니다.
 
    ![작업 영역 탭](assets/components-tab.png)
 
-2. 다음 제품 기능 중 하나를 선택하여 구성하십시오. 권한에 따라 모든 기능이 표시되지 않을 수 있습니다.
+2. 다음 제품 기능 중 하나를 선택하여 구성합니다.
 
 
    | 제품 기능 | 함수 | 추가 정보 |
