@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
+source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
 workflow-type: tm+mt
-source-wordcount: '4891'
-ht-degree: 100%
+source-wordcount: '4924'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 8월** | |
+| 예약된 프로젝트 관리에 대한 콘텐츠 이동됨 | Analytics Components 안내서에서 라는 새 문서를 만들었습니다. [예약된 프로젝트](/help/components/scheduled-projects-manager.md). 이 콘텐츠는 이전에 [프로젝트 예약](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) Analytics 도구 안내서의 문서입니다. |
 | 구현 방법 비교 | 다양한 구현 방법을 비교하는 설명서가 업데이트되었습니다. [자세히 알아보기](../implement/prepare/comparison.md) |
 | 데이터 피드에 대해 SFTP를 구성하는 데 Adobe 고객 지원이 필요하지 않음을 명확히 했습니다. | 데이터 피드에 대해 SFTP를 구성하기 위해 고객이 Adobe 고객 지원에 참여할 필요가 없음을 [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)에서 명확히 했습니다. <p>또한 SFTP는 더 이상 권장되지 않으며 고객은 데이터 피드를 구성할 때 클라우드 대상을 사용해야 한다는 메모를 추가했습니다.</p> |
 | 스트리밍 미디어에 대한 설명서 개선 사항 | 스트리밍 미디어에 대해 다음 설명서가 개선되었습니다. <ul><li>명확성을 개선하고 Customer Journey Analytics와 관련된 정보를 포함하도록 [일반적인 개요](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)가 업데이트되었습니다.</li><li>Edge 구현과 Analytics 전용 구현을 명확하게 구분되도록 [구현 개요](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en)가 업데이트되었습니다. 다양한 구현 방법을 설명하는 다이어그램도 포함되었습니다.</li><li>[Edge 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en) 및 [Analytics 전용 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en)에 대한 사전 요구 사항이 추가되었습니다. [일반적인 사전 요구 사항](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en)도 업데이트되었습니다.</li><li>*지원되는 솔루션* 및 *구현 방법*&#x200B;에 대한 새 열을 포함하도록 [미디어 SDK 가져오기, 태그를 사용한 확장 및 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) 문서의 테이블이 업데이트되었습니다.</li><li>문서의 [구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) 영역에서 문서의 콘텐츠 및 구성이 간소화되었습니다. Edge 구현 및 Analytics 전용 구현별 구현 분류가 포함되었습니다.</li><li>[추적](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en)에서 필요하지 않은 추가 계층 구조가 제거되었으며 이 섹션에서 변경된 URL에 대한 리디렉션이 추가되었습니다.</li><ul> |
