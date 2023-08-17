@@ -3,10 +3,10 @@ title: purchaseID
 description: 고유 구매 식별자를 기반으로 히트를 중복 제거합니다.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: befa9b1e17a07160fd29feef1676832164bec3fb
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 Adobe가 히트를 중복 구매로 인식하면 모든 전환 데이터 (예: eVar 및 이벤트)가 보고에 표시되지 않습니다. 데이터 피드에서 `duplicate_purchase` 열은 `1`로 설정됩니다.
 
-구매 ID는 모든 방문자에게 적용되며 만료되지 않습니다. 한 방문자가 주어진 구매 ID를 설정한 다음, 다른 방문자가 1년 후 동일한 구매 ID를 설정하면 두 번째 구매는 중복 제거됩니다.
+구매 ID는 모든 방문자에게 적용되며 37개월 후에 만료됩니다. 한 방문자가 주어진 구매 ID를 설정한 다음, 다른 방문자가 1년 후 동일한 구매 ID를 설정하면 두 번째 구매는 중복 제거됩니다.
 
 ## 웹 SDK를 사용한 구매 ID
 
