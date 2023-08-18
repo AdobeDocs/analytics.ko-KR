@@ -5,7 +5,7 @@ user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
 source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
    + [봇 이름](dimensions/bot-name.md)
    + [브라우저 높이](dimensions/browser-height.md)
    + [브라우저 유형](dimensions/browser-type.md)
-   + [브라우저 너비](dimensions/browser-width.md)
+   + [브라우저 폭](dimensions/browser-width.md)
    + [브라우저](dimensions/browser.md)
    + [캠페인](dimensions/campaigns.md)
    + [카테고리](dimensions/category.md)
@@ -113,7 +113,7 @@ ht-degree: 100%
    + [평균 세션 길이](metrics/average-session-length.md)
    + [사이트의 평균 시간](metrics/average-time-on-site.md)
    + [봇 발생 횟수](metrics/bot-occurrences.md)
-   + [봇 페이지 보기](metrics/bot-page-views.md)
+   + [봇 페이지 조회수](metrics/bot-page-views.md)
    + [바운스 비율](metrics/bounce-rate.md)
    + [바운스 수](metrics/bounces.md)
    + [장바구니 추가](metrics/cart-additions.md)
