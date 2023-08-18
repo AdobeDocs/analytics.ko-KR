@@ -1,13 +1,13 @@
 ---
-description: Adobe Analytics에 대한 일반 개요 정보
+description: Analytics 인터페이스에 대한 정보는 물론 관리자, 분석가, 사용자 및 개발자를 위한 시작 정보를 포함하여 Adobe Analytics에 대한 일반 개요 정보입니다.
 title: Adobe Analytics 개요
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
+source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
 workflow-type: tm+mt
-source-wordcount: '3101'
-ht-degree: 32%
+source-wordcount: '5049'
+ht-degree: 41%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics은 웹 사이트 트래픽을 분석하기 위한 다음과 같�
 
 * [흐름 분석](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [고급 세분화](/https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+* [고급 세분화](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
 
 ### 마케팅 분석
 
@@ -82,7 +82,7 @@ Adobe Analytics 인터페이스는 다음 기본 영역으로 구성됩니다.
 
 ### 작업 영역 탭
 
-다음 [!UICONTROL 작업 영역] 탭에는 Analysis Workspace 프로젝트 목록이 표시됩니다.
+다음 [!UICONTROL 작업 영역] 탭에는 [!UICONTROL 프로젝트] 기본적으로 회사 폴더, 사용자가 만든 모든 개인 폴더, 프로젝트 및 모바일 스코어카드를 표시하는 영역입니다.
 
 1. Adobe Analytics에서 [!UICONTROL **작업 영역**] 탭.
 
@@ -112,7 +112,7 @@ Adobe Analytics 인터페이스는 다음 기본 영역으로 구성됩니다.
    | 세그먼트 | Adobe Analytics를 사용하여 강력한 집중 대상 세그먼트를 작성하고 관리하고 공유하고 Analytics 기능, Adobe Experience Cloud, Adobe Target 및 기타 통합 Adobe 제품을 통해 보고서에 적용할 수 있습니다. | [Analytics 세그먼테이션](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko-KR) |
    | 계산된 지표 | 계산 및 고급 계산(또는 파생) 지표는 기존 지표에서 만들 수 있는 사용자 지정 지표입니다.  이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 Analytics 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. | [계산 및 고급 계산(파생) 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=en) |
    | 날짜 범위 | Analysis Workspace에는 사용자가 분석을 작성할 때 사용할 수 있는 기본 날짜 범위 목록이 포함되어 있습니다. 또한 사용자 지정 날짜 범위를 만들어 Analysis Workspace의 사용자가 사용할 수 있도록 할 수 있습니다. | [사용자 정의 날짜 범위 만들기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ko) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
-   | 가상 보고서 세트 |  |  |
+   | 가상 보고서 세트 | 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼트로 분할하므로 각 세그먼트에 대한 액세스를 제어할 수 있습니다. | [가상 보고서 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ko-KR) |
    | 경고 | 지능형 경고를 사용하면 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다. | [지능형 경고](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=en) |
    | 타겟 | 대상을 사용하면 웹 사이트 성능을 측정하고 대상이 되는 목표를 기준으로 진행 상황을 추적할 수 있습니다. 대상을 만들 때 측정하려는 지표 또는 eVar을 선택하거나 선택한 지표에 대해 전체 사이트를 측정하도록 선택할 수 있습니다. <p>대상은 Reports &amp; Analytics의 일부입니다. Reports &amp; Analytics [서비스 종료 공지](https://express.adobe.com/page/6WnF8JK6IRDhf/)에 대해 자세히 알아보십시오.</p> | [타겟](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/targets.html?lang=en) |
    | 달력 이벤트 | 시간 경과에 따른 트렌드 보고서의 경우, 달력 이벤트를 그래픽으로 표시하고 캠페인이나 다른 이벤트가 사이트 트래픽, 매출 또는 기타 지표에 영향을 미치는지 여부를 확인할 수 있습니다. | [달력 이벤트](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=en) |
@@ -130,7 +130,7 @@ Adobe Analytics 인터페이스는 다음 기본 영역으로 구성됩니다.
 
 ### [도구] 탭
 
-도구 탭 ...
+<!-- The Tools tab ... -->
 
 1. Adobe Analytics에서 [!UICONTROL **도구**] 탭을 선택한 다음 를 선택합니다 [!UICONTROL **모든 도구**].
 
@@ -142,23 +142,76 @@ Adobe Analytics 인터페이스는 다음 기본 영역으로 구성됩니다.
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 정의 보고서에 대한 Analytics 데이터 사본을 의미합니다. <p>요청 관리자에서 요청을 보고, 복제하고, 요청의 우선순위를 변경할 수 있습니다.</p> | [Data Warehouse 요청 관리](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=en) |
    | Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급을 매기고 실시간 분석 대시보드를 제공하여 웹 페이지의 대상 참여를 모니터링하도록 설계되었습니다. 고객 활동의 가속화를 시각적으로 식별하고, 마케팅 이니셔티브를 수치화하고, 대상의 요구 사항과 행동에 따라 작동하도록 다양한 보기를 설정할 수 있습니다. | [Activity Map 개요](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ko) |
-   | Recommendations Classic |  |  |
+   | Recommendations Classic | Recommendations은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자의 흥미를 끌 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시하는 Adobe Target 기능입니다. | [추천 항목](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en) |
    | Search&amp;Promote |  |  |
    | 모바일 서비스 |  |  |
-   | Analytics 대시보드 (모바일 앱) |  |  |
-   | Report Builder |  |  |
+   | Analytics 대시보드 (모바일 앱) | Adobe Analytics 대시보드 앱은 Adobe Analytics을 통해 언제 어디서나 통찰력을 제공합니다. 앱을 통해 사용자는 Adobe Analytics 데스크탑 UI를 사용하여 만든 직관적인 스코어카드를 볼 수 있습니다. | iOS App Store 또는 Google Play 스토어의 Adobe Analytics 대시보드 앱 |
+   | Report Builder | Adobe Report Builder는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 지정할 수 있습니다. | [Report Builder란 무엇입니까?](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=ko) |
 
    {style="table-layout:auto"}
 
 ### 관리 탭
 
-관리 탭 ...
+관리 탭에는 Adobe Analytics을 관리하는 기능과 구성 옵션이 포함되어 있습니다.
 
 1. Adobe Analytics에서 [!UICONTROL **관리자**] 탭을 선택한 다음 를 선택합니다 [!UICONTROL **모든 관리자**].
 
    ![작업 영역 탭](assets/admin-tab.png)
 
-## 관리자, 분석가 및 최종 사용자를 위한 시작하기
+2. 다음 제품 기능 중 하나를 선택하여 구성합니다.
+
+   | 제품 기능 | 함수 | 추가 정보 |
+   |---------|----------|----------|
+   | Analytics 사용자 및 자산 | 대부분의 사용자 및 제품 관리 기능은 이제 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html), 사용자 계정의 만료 날짜를 설정하고 한 사용자에서 다른 사용자로 자산을 전송하는 관리 기능은 Adobe Analytics 관리 영역에서만 사용할 수 있습니다. | [사용자 자산 전송 또는 계정 만료 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) |
+   | 사용자 ID 마이그레이션 | Analytics 사용자 ID 마이그레이션을 통해 관리자는 Analytics 사용자 관리에서 Adobe Admin Console로 사용자 계정을 쉽게 마이그레이션할 수 있습니다. | [Adobe Admin Console로 Analytics 사용자 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=ko) |
+   | 사용자 관리 홈(기존) | 사용자 및 제품 관리 기능은 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자에 대한 사용자 권한 관리를 시작합니다. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
+   | 그룹 (기존) | 그룹 관리가 Adobe Admin Console으로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics에 대한 그룹 관리를 시작합니다. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
+   | 보고서 세트 액세스 권한 | 보고서 세트 도구에 대한 액세스 권한을 부여하는 방법이 Adobe Admin Console으로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자에게 보고서 세트 액세스 권한을 부여합니다. | [보고서 세트 도구에 대한 제품 프로필 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=en) |
+   | 관리 도구 홈 |  |  |
+   | 보고서 세트 | 보고서 세트에서 데이터가 처리되는 방식을 제어하는 규칙을 정의할 수 있습니다. | [보고서 세트 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=en) |
+   | Analytics 사용자 및 자산 | 사용자 및 에셋 관리가 Adobe Admin Console으로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자에 대한 사용자 권한 관리를 시작합니다. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
+   | 분류 가져오기 | 가져오기 도구를 사용하여 분류를 Adobe Analytics에 업로드합니다. 데이터를 가져오기 전에 업데이트를 위해 데이터를 내보낼 수도 있습니다. | [분류 가져오기 개요](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=en) |
+   | 분류 규칙 빌더 | 코드 변경을 추적할 때마다 분류를 유지 관리하고 업로드하는 대신 규칙 기반의 자동 분류를 만들어 여러 보고서 세트에 적용할 수 있습니다. | [분류 규칙 빌더 워크플로](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html?lang=en) |
+   | 데이터 소스  | 데이터 소스 관리자를 사용하여 데이터 소스를 만들거나 편집하거나 비활성화합니다. 이 인터페이스를 사용하여 데이터 소스 FTP 위치에 업로드된 파일의 상태를 추적할 수도 있습니다. | [데이터 소스 관리](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html?lang=en) |
+   | 코드 관리자 | 코드 관리자에서는 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 수 있습니다 | [코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko-KR) |
+   | 트래픽 관리 | 트래픽 관리 페이지에서 예상되는 트래픽 볼륨 변경을 지정할 수 있습니다. 이러한 설정을 통해 Adobe는 적절한 리소스를 할당하여 적시에 트래픽을 추적하고 처리할 수 있습니다. | [트래픽 관리 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html?lang=en) |
+   | 서버 호출 사용량 | 서버 호출은 데이터를 처리할 수 있도록 Adobe 서버로 보내는 인스턴스로서, &quot;히트&quot; 또는 &quot;이미지 요청&quot;이라고도 합니다. 서버 호출 사용량 데이터를 추적하고 이를 계약 제한과 비교하는 서버 호출 사용량 대시보드를 사용할 수 있습니다. 초과 사용을 방지하기 위해 경고를 설정할 수 있습니다. | [서버 호출 사용량 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
+   | 로그 | 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일입니다. | [로그](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=ko) |
+   | Advertising Analytics | 모든 Google 및 Bing 유료 검색 데이터를 나란히 표시하도록 Adobe Analytics을 구성합니다. | [Advertising Analytics 구성](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=en) |
+   | 데이터 피드 | 데이터 피드는 Adobe Analytics에서 원시 데이터를 가져오는 강력한 방법입니다. 이러한 원시 데이터는 Adobe 외부의 다른 플랫폼에서 조직의 재량에 따라 사용할 수 있습니다. | [Analytics 데이터 피드 개요](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ko-KR) |
+   | IP 주소별 제외 | 보고서에서 내부 웹 사이트 활동, 사이트 테스트 및 직원 사용과 같은 특정 IP 주소의 데이터를 제거할 수 있습니다. IP 주소 데이터를 제외하여 데이터를 제외하면 보고서 정확도가 향상됩니다. 또한 보고서 데이터를 왜곡할 수 있는 서비스 거부나 기타 악의적인 이벤트의 데이터를 제거할 수 있습니다. 방화벽을 사용하여 제외를 구성할 수 있습니다. | [IP 주소별 제외](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
+   | 게시 위젯 |  |  |
+   | 보고 활동 관리자 | 보고 활동 관리자를 사용하면 조직의 각 보고서 세트에 대한 보고 용량을 확인할 수 있습니다. 보고 사용량에 대한 상세한 가시성을 제공하며 최대 보고 시간 동안 용량 문제를 쉽게 진단하고 해결할 수 있도록 도와줍니다. | [보고 활동 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
+   | 데이터 거버넌스 프라이버시 라벨링 | 보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. | [보고서 세트 데이터에 레이블 지정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) |
+   | 회사 설정 홈 | 회사 설정 페이지에서는 조직에서 관리하는 모든 보고서 세트에 적용되는 설정을 구성할 수 있습니다. | [회사 설정 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en) |
+   | 보안 관리자 | 보안 관리자를 사용하여 보고 데이터에 대한 액세스를 제어할 수 있습니다. 강력한 암호, 암호 만료일, IP 로그인 제한 및 이메일 도메인 제한 옵션이 제공됩니다. | [보안 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=en) |
+   | 지원 정보 | 지원 정보 페이지는 Reports &amp; Analytics 전체에 표시되는 지원 정보를 관리합니다. Reports &amp; Analytics. <p>2023년 12월 31일부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. Reports &amp; Analytics [서비스 종료 공지](https://www.adobe.com/go/analytics_rnaeol_kr)에 대해 자세히 알아보십시오.</p> |  |
+   | 웹 서비스 | 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다. | [웹 서비스](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=en) |
+   | Report Builder 보고서 | Report Builder 사용자에 할당된 라이선스 관리 | [Report Builder 보고서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=en) |
+   | Single Sign-On 서비스 | Adobe Experience Cloud의 단일 사인온은 Admin Console을 통해 구현됩니다. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
+   | Adobe Experience Cloud 공동 브랜딩 | 공동 브랜딩 이미지 관리 페이지에서는 Reports &amp; Analytics에서 다운로드한 보고서 및 기존 대시보드에 회사 로고를 표시할 수 있습니다. 공동 브랜딩은 Analysis Workspace에서 사용되지 않습니다.<p>2023년 12월 31일부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. Reports &amp; Analytics [서비스 종료 공지](https://www.adobe.com/go/analytics_rnaeol_kr)에 대해 자세히 알아보십시오.</p> | [공동 브랜딩](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/co-branding-admin.html?lang=en) |
+   | 보고서 세트 숨기기 | 사용자와 사용자가 보고서 세트를 더 이상 사용할 수 없게 하려는 경우 Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 수 있습니다. | [보고서 세트 숨기기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=en) |  |
+
+   {style="table-layout:auto"}
+
+### Analysis Workspace
+
+Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 드래그하여 놓기 브라우저를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
+
+다음 이미지와 함께 제공되는 표에서는 Analysis Workspace의 주요 영역 중 일부를 설명합니다.
+
+Analysis Workspace에 대한 자세한 개요는 를 참조하십시오. [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md).
+
+![Analysis Workspace 개요](assets/analysis-workspace-overvew.png)
+
+| 이미지의 위치 | 이름 및 기능 |
+|---------|----------|
+| A | **맨 왼쪽 레일:** Analysis Workspace에 패널, 시각화 및 구성 요소를 추가하기 위한 탭이 포함되어 있습니다. 데이터 사전을 여는 데 사용되는 데이터 사전 아이콘도 포함되어 있습니다. |
+| B | **왼쪽 레일:** 맨 왼쪽 레일에서 선택한 탭에 따라 이 영역에는 개별 패널, 시각화 또는 구성 요소가 포함됩니다. |
+| C | **캔버스:** 왼쪽 레일에서 콘텐츠를 드래그하여 프로젝트를 빌드하는 기본 영역입니다. 패널, 시각화 및 구성 요소를 캔버스에 추가하면 프로젝트가 동적으로 업데이트됩니다. |
+| D | **보고서 세트 드롭다운 메뉴:** Analysis Workspace의 각 패널에 대해 보고서 세트 드롭다운 메뉴를 사용하면 데이터 소스로 사용할 보고서 세트를 선택할 수 있습니다. |
+
+## 관리자, 분석가, 최종 사용자 및 개발자를 위한 시작하기
 
 일반적인 조직에는 관리자, 분석가 및 최종 사용자의 3가지 유형의 Adobe Analytics 사용자가 있습니다.
 
@@ -170,7 +223,7 @@ Adobe Analytics 인터페이스는 다음 기본 영역으로 구성됩니다.
 
 Analytics 관리자는 조직에 가장 적합한 구현 방법을 선택할 책임이 있습니다.
 
-Adobe Analytics이 구현된 후 관리자는 분석가 및 최종 사용자가 Adobe Analytics에서 모든 가치를 얻을 수 있도록 다양한 구성 작업을 수행해야 합니다.
+Adobe Analytics이 구현된 후 관리자는 분석가 및 최종 사용자가 Adobe Analytics에서 모든 가치를 얻을 수 있도록 다양한 구성 작업을 수행해야 합니다. 또한 관리자는 정기적으로 분석 환경을 모니터링하여 시스템이 효율적으로 실행되고 있는지 확인해야 합니다.
 
 #### 수집해야 하는 데이터 유형 결정
 
@@ -217,12 +270,25 @@ Analytics 관리자는 조직의 사용자가 Adobe Analytics을 사용할 수 �
 | 데이터 가져오기 | Adobe Analytics 데이터 소스를 사용하면 보고를 위해 추가 온라인 또는 오프라인 데이터를 가져올 수 있습니다. | [데이터 소스 개요](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
 | 분류를 사용하여 데이터 분류 | 분류를 사용하면 변수를 더 잘 활용하도록 데이터를 분류하여 더 많은 콘텐츠를 단일 변수에 포함할 수 있습니다. | |
 | 구성 요소 관리 | 각 구성 요소 유형의 데이터 사전 및 관리 영역을 사용하여 Analytics 구현에서 사용할 수 있는 구성 요소와 조직에 대해 승인된 구성 요소를 정의합니다.<p>구성 요소가 조직에서 효과적으로 사용되고 있는지 확인하기 위해 진행 중인 활동이어야 합니다. </p> | <ul><li>[데이터 사전 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=ko)</li><li>[계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[세그먼트 관리](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ko)</li><li>[사용자 지정 날짜 범위 만들기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ko)</li></ul> |
-| 예외 항목 탐지 및 기여도 분석 | | |
-| 고급 세분화 | | |
+| 이상 현상 발견 | 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. | [예외 항목 탐지 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ko) |
+| 기여도 분석 | 기여도 분석은 사용자 데이터 안에서 숨겨진 패턴을 발견하여 통계적 예외 항목을 설명하고 전체 수렴된 대상 세그먼트에서 선택된 지표에 대해 예상치 못한 고객 작업, 범위를 벗어나는 값, 급증 또는 급감 뒤의 상관관계를 식별합니다. | [기여도 분석 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ko) |
+| Analytics 세분화 | Analytics 기능, Adobe Experience Cloud, Adobe Target 및 기타 통합 Adobe 제품을 사용하여 강력하고 집중된 대상 세그먼트를 작성하고 관리하고 공유하고 보고서에 적용할 수 있습니다. | [Analytics 세그먼테이션](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko-KR) |
 | Audience Manager에 대상 게시 | | |
-| 기여도 분석 | | |
-| 보고 활동 관리자 | | |
 | 통합 | Adobe Analytics의 다른 응용 프로그램에서 정보를 표시할 수 있습니다. <p>다음은 몇 가지 일반적인 통합입니다.</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Target용 Analytics</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR">미디어 분석</a></li> | |
+
+{style="table-layout:auto"}
+
+#### Adobe Analytics 모니터링
+
+Adobe Analytics 환경을 모니터링하는 데 도움이 되는 다양한 기능을 사용할 수 있습니다.
+
+Analytics 관리자는 Analytics 환경의 중요한 측면을 모니터링하는 데 도움이 되는 다음 기능에 대해 알고 있어야 합니다.
+
+| 작업 | 의도한 사용 | 추가 정보 |
+|---------|----------|---------|
+| 보고 활동 관리자 | 보고 활동 관리자를 사용하면 조직의 각 보고서 세트에 대한 보고 용량을 확인할 수 있습니다. 보고 사용량에 대한 상세한 가시성을 제공하며 최대 보고 시간 동안 용량 문제를 쉽게 진단하고 해결할 수 있도록 도와줍니다. | [보고 활동 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
+| 서버 호출 사용량 | 서버 호출은 데이터를 처리할 수 있도록 Adobe 서버로 보내는 인스턴스로서, &quot;히트&quot; 또는 &quot;이미지 요청&quot;이라고도 합니다. 서버 호출 사용량 데이터를 추적하고 이를 계약 제한과 비교하는 서버 호출 사용량 대시보드를 사용할 수 있습니다. 초과 사용을 방지하기 위해 경고를 설정할 수 있습니다. | [서버 호출 사용량 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
+| 로그 파일 | 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일입니다. | [로그](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=ko) |
 
 {style="table-layout:auto"}
 
@@ -238,7 +304,7 @@ Analytics 관리자는 조직의 사용자가 Adobe Analytics을 사용할 수 �
 | 기여도 분석 | 분석가는 Analysis Workspace에서 다양한 속성 모델과 전환 확인 기간을 사용하여 차원 항목이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 정의할 수 있습니다.<p>선형 속성 모델은 전환으로 이어지는 모든 터치 포인트에 동일한 크레딧을 제공하는 반면, 첫 번째 터치는 첫 번째 터치 포인트에 전체 크레딧을 제공합니다. 통계적 기법을 사용하여 크레딧의 최적 할당을 동적으로 결정하는 알고리즘 모델을 포함하여 다른 많은 속성 모델을 사용할 수 있습니다. </p> | [속성 모델 및 전환 확인 기간](/help/analyze/analysis-workspace/attribution/models.md) |
 | 이상 현상 발견 | Analysis Workspace의 통계 모델링은 지표를 분석하고 값의 하한, 상한 및 예상 범위를 확인하여 데이터에서 예기치 않은 트렌드를 자동으로 찾습니다. 예상치 않은 급등이나 하락이 발생하면 보고서에 경고가 표시됩니다. | [예외 항목 탐지 개요](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) |
 | 기여도 분석 | Analysis Workspace을 사용하여 데이터 내에서 숨겨진 패턴을 발견하여 통계적 예외 항목을 설명하고 대상 세그먼트 전반에 걸쳐 지표에 대한 예상치 못한 고객 작업, 범위를 벗어나는 값, 갑작스러운 급증 또는 급감 뒤의 상관 관계를 식별합니다. | [기여도 분석 개요](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) |
-| 지능형 경고 | 데이터 예외 항목 및 하나의 경고에서 여러 지표를 캡처하는 &quot;누적된&quot; 경고를 기반으로 경고를 생성하고 관리합니다. | [지능형 경고 개요](help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
+| 지능형 경고 | 데이터 예외 항목 및 하나의 경고에서 여러 지표를 캡처하는 &quot;누적된&quot; 경고를 기반으로 경고를 생성하고 관리합니다. | [지능형 경고 개요](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
 | 데이터 내보내기 | Data Warehouse 및 데이터 피드를 사용하면 Google Cloud Platform, Azure RBAC, Azure SAS 및 Amazon S3와 같은 다양한 클라우드 대상으로 데이터를 내보낼 수 있습니다. | [Analytics 내보내기 안내서](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=ko-KR) |
 | Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급을 매기고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상 참여를 모니터링하도록 설계된 Adobe Analytics 애플리케이션입니다.<p>Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고 대상의 필요 사항과 행동에 따라 대응할 수 있습니다.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
 | Report Builder | Report Builder는 Microsoft Excel용 추가 기능입니다. Report Builder를 사용하면 Excel 워크시트에 삽입되는 Adobe Analytics 데이터에서 사용자 지정 요청을 작성할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 지정할 수 있습니다. | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |

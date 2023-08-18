@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: a653d60fd423d2853254a8c96252a39f08f9a3b4
-workflow-type: ht
-source-wordcount: '1098'
+source-git-commit: 6cf07b816723ce0d5adb9183215e331c7656d928
+workflow-type: tm+mt
+source-wordcount: '1100'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 100%
 + [Analytics 툴 안내서](home.md)
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
+   + [Analytics 개요](get-started/analytics-overview.md)
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](get-started/which-analytics-tool.md)
    + [Analytics 제품 비교 및 요구 사항](get-started/analytics-product-comparison.md)
    + [시스템 요구 사항](get-started/sys-reqs.md)
