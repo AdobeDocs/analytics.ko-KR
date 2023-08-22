@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
+source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
 workflow-type: tm+mt
-source-wordcount: '4940'
+source-wordcount: '4954'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 8월** | |
+| Experience Edge 데이터 처리 | Adobe Analytics에 추가된 콘텐츠 [experience Edge에서 데이터 처리](../implement/aep-edge/overview.md). |
 | 미디어 재생 소요 시간 패널 | 콘텐츠 업데이트됨  [미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 가독성을 향상시키십시오. |
 | 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 문서에 있었습니다. |
 | 구현 방법 비교 | 다양한 구현 방법을 비교하는 설명서가 업데이트되었습니다. [자세히 알아보기](../implement/prepare/comparison.md) |
