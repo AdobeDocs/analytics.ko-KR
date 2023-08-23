@@ -4,9 +4,9 @@ title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 * 쉽게 탐색할 수 있는 사전 빌드된 보고에 액세스해야 하는 초보 사용자가 사용해야 합니다.
 * UI에서 실시간 데이터에 액세스하려는 경우
-* 달력 이벤트를 설정하려는 경우
+* 캘린더 이벤트를 설정하려는 경우
 * 대상을 설정하려는 경우
 * Video Daypart 및 Viewer Drop-off의 고유한 비디오 시각화에 액세스하려는 경우
 
@@ -44,7 +44,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 >[!IMPORTANT]
 >
->Data Workbench에 대해 자세히 알아보기 [서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+>Data Workbench의 [서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ko)에 대해 자세히 살펴보십시오.
 
 
 ## Adobe Analytics로 데이터 가져오기 {#import}
@@ -54,7 +54,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 * eVar, Prop, 마케팅 채널 등의 수집 값에 연결하려는 메타데이터가 있는 경우
 * 옵션:
 
-   * 규칙 빌더: 구분된 값과 같이 예측 가능한 형식으로 된 값의 변수를 수집할 때 사용합니다. 이 방법을 통해 규칙을 한 번 설정하면 대부분 &quot;설정해 놓고 잊어도 됩니다&quot;.
+   * 규칙 빌더: 구분된 값과 같이 예측 가능한 형식으로 된 값의 변수를 수집할 때 사용합니다. 이 방법을 통해 규칙을 한 번 설정하면 대부분 “설정해 놓고 잊어도 됩니다”.
    * 브라우저 가져오기: 예측 가능한 값이 없거나 일회성 업데이트가 필요한 유한 값 목록이 있는 경우에 사용합니다. 이 방법에서는 새 값에 대한 분류를 지속적으로 모니터링해야 합니다.
 
 **[Data Sources](/help/import/data-sources/overview.md)**&#x200B;는 다음 경우에 사용합니다.
@@ -85,7 +85,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* 인구 통계학적 정보(예: 성별 또는 수입 수준), 대상 데이터(예: 인구 통계 정보), 사이코그래프 정보(예: 관심사 및 취미), CRM 데이터 또는 광고 노출 데이터와 같은 Adobe Audience Manager 대상 데이터를 Analytics 워크플로에 통합하려는 경우.
+* 인구 통계학적 정보(예: 성별 또는 수입 수준), 대상 데이터(예: 인구 통계 정보), 사이코그래픽 정보(예: 관심사 및 취미), CRM 데이터 또는 광고 노출 데이터와 같은 Adobe Audience Manager 대상 데이터를 Analytics 워크플로에 통합하려는 경우.
 * 이 통합에서는 새 정보를 조회수별로 Analytics에 전송하므로 업로드한 CRM 데이터를 시간 기반으로 변환하려는 경우.
 
 ## Adobe Analytics에서 데이터 내보내기 {#export}
@@ -104,7 +104,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 * UI보다 세부적인 데이터에 액세스 (비정규화된 표 보기)
 * 피벗 테이블 입력에 적합한 형식으로 데이터 다운로드
 * 클라이언트에서 Adobe 데이터를 서드파티 데이터 시각화 도구에 입력하려는 경우 (히트 수준은 아니며 약간 요약됨)
-* Adobe Analytics에서 &quot;낮은 트래픽&quot;으로 실행 중인 경우 모든 고유 차원 항목에 액세스
+* Adobe Analytics에서 “낮은 트래픽”으로 실행 중인 경우 모든 고유 차원 항목에 액세스
 
 **[Analytics 데이터 피드](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**&#x200B;는 다음 경우에 사용합니다.
 
