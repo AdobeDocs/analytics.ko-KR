@@ -3,8 +3,8 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
-workflow-type: ht
+source-git-commit: 2232778be91502eca2ecdc2c9598b8a3375abb8b
+workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 현재 Adobe Analytics 릴리스 정보 (2023년 8월)
 
-**마지막 업데이트**: 2023년 8월 9일
+**마지막 업데이트**: 2023년 8월 24일
 
 이 릴리스 정보는 2023년 8월 9일부터 9월 13일까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,8 +20,8 @@ ht-degree: 100%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0의 분류 세트** | 분류 세트 데이터의 저장, 삭제, 검색, 가져오기 및 내보내기를 위한 Adobe Analytics API 2.0 메서드를 제공합니다. | 해당 사항 없음 | 2023년 8월 31일 |
-| **보고 활동 관리자** | 보고 활동 관리자는 관리자에게 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다. [자세히 알아보기](/help/admin/admin/reporting-activity.md) | 해당 사항 없음 | 2023년 9월 6일 |
+| **API 2.0의 분류 세트** | 분류 세트 데이터의 저장, 삭제, 검색, 가져오기 및 내보내기를 위한 Adobe Analytics API 2.0 메서드를 제공합니다. | 해당 사항 없음 | 2023년 8월 30일 |
+| **보고 활동 관리자** | 보고 활동 관리자는 관리자에게 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다. [자세히 알아보기](/help/admin/admin/reporting-activity.md) | 해당 사항 없음 | 2023년 9월 12일 |
 
 {style="table-layout:auto"}
 
