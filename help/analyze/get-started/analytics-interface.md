@@ -4,10 +4,10 @@ title: Analytics 인터페이스 이해
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '2682'
-ht-degree: 72%
+source-wordcount: '2816'
+ht-degree: 71%
 
 ---
 
@@ -82,8 +82,8 @@ Adobe Analytics 인터페이스는 Analysis Workspace에서 프로젝트 관리,
    | Data Warehouse | Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 정의 보고서에 대한 Analytics 데이터 사본을 의미합니다. <p>요청 관리자에서 요청을 보고, 복제하고, 요청의 우선순위를 변경할 수 있습니다.</p> | [Data Warehouse 요청 관리](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ko) |
    | Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크에 대한 등급을 지정하고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상자 참여를 모니터링하도록 설계되었습니다. 이를 통해 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고, 대상자의 필요 사항과 행동에 따라 대응할 수 있습니다. | [Activity Map 개요](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ko) |
    | Recommendations Classic | Recommendations은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자의 흥미를 끌 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시하는 Adobe Target 기능입니다. | [추천 항목](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en) |
-   | Search &amp; Promote |  |  |
-   | 모바일 서비스 |  |  |
+   | Search &amp; Promote | 이 기능은 더 이상 지원되지 않습니다. |  |
+   | 모바일 서비스 | 이 기능은 더 이상 지원되지 않습니다. |  |
    | Analytics 대시보드 (모바일 앱) | Adobe Analytics 대시보드 앱은 Adobe Analytics을 통해 언제 어디서나 통찰력을 제공합니다. 앱을 통해 사용자는 Adobe Analytics 데스크탑 UI를 사용하여 만든 직관적인 스코어카드를 볼 수 있습니다. | iOS App Store 또는 Google Play 스토어의 Adobe Analytics 대시보드 앱 |
    | Report Builder | Adobe Report Builder는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder란 무엇입니까?](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=ko) |
 
@@ -106,7 +106,7 @@ Adobe Analytics 인터페이스는 Analysis Workspace에서 프로젝트 관리,
    | 사용자 관리 홈(기존) | 사용자 및 제품 관리 기능은 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자에 대한 사용자 권한 관리를 시작합니다. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
    | 그룹 (기존) | 그룹 관리가 Adobe Admin Console으로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics에 대한 그룹 관리를 시작합니다. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
    | 보고서 세트 액세스 권한 | 보고서 세트 도구에 대한 액세스 권한을 부여하는 방법이 Adobe Admin Console으로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자에게 보고서 세트 액세스 권한을 부여합니다. | [보고서 세트 도구에 대한 제품 프로필 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=en) |
-   | 관리 도구 홈 |  |  |
+   | 관리 도구 홈 | Analytics 관리 도구 영역은 Adobe Analytics 인스턴스를 관리하는 기본 영역으로서, 대부분의 관리 작업을 수행할 수 있습니다. | [관리 도구 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html?lang=en) |
    | 보고서 세트 | 보고서 세트에서 데이터가 처리되는 방식을 제어하는 규칙을 정의할 수 있습니다. | [보고서 세트 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=en) |
    | Analytics 사용자 및 자산 | 사용자 및 에셋 관리가 Adobe Admin Console으로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자에 대한 사용자 권한 관리를 시작합니다. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
    | 분류 가져오기 | 가져오기 도구를 사용하여 분류를 Adobe Analytics에 업로드합니다. 데이터를 가져오기 전에 업데이트를 위해 데이터를 내보낼 수도 있습니다. | [분류 가져오기 개요](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=en) |
@@ -119,7 +119,7 @@ Adobe Analytics 인터페이스는 Analysis Workspace에서 프로젝트 관리,
    | Advertising Analytics | 모든 Google 및 Bing 유료 검색 데이터를 나란히 표시하도록 Adobe Analytics을 구성합니다. | [Advertising Analytics 구성](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=en) |
    | 데이터 피드 | 데이터 피드는 Adobe Analytics에서 원시 데이터를 가져오는 강력한 방법입니다. 이러한 원시 데이터는 Adobe 외부의 다른 플랫폼에서 조직의 재량에 따라 사용할 수 있습니다. | [Analytics 데이터 피드 개요](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ko-KR) |
    | IP 주소별 제외 | 보고서에서 내부 웹 사이트 활동, 사이트 테스트 및 직원 사용과 같은 특정 IP 주소의 데이터를 제거할 수 있습니다. IP 주소 데이터를 제외하여 데이터를 제외하면 보고서 정확도가 향상됩니다. 또한 보고서 데이터를 왜곡할 수 있는 서비스 거부나 기타 악의적인 이벤트의 데이터를 제거할 수 있습니다. 방화벽을 사용하여 제외를 구성할 수 있습니다. | [IP 주소별 제외](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
-   | 게시 위젯 |  |  |
+   | 게시 위젯 | 웹 페이지에 Reports &amp; Analytics 시각화를 포함할 수 있습니다. <p>2023년 12월 31일부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. Reports &amp; Analytics [서비스 종료 공지](https://www.adobe.com/go/analytics_rnaeol_kr)에 대해 자세히 알아보십시오.</p><p>이제 이 기능에 대한 대체 요소로 다음 작업을 수행할 수 있습니다 [모든 사용자 내에서 프로젝트 공유](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko#share-public-link) 로그인 없이도 가능합니다.</p> <p>관리자는에서 이 기능을 구성할 수 있습니다. [회사 환경 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=ko#company-preferences)</p> |  |
    | 보고 활동 관리자 | 보고 활동 관리자를 사용하면 조직의 각 보고서 세트에 대한 보고 용량을 확인할 수 있습니다. 보고 사용량에 대한 상세한 가시성을 제공하며 최대 보고 시간 동안 용량 문제를 쉽게 진단하고 해결할 수 있도록 도와줍니다. | [보고 활동 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
    | 데이터 거버넌스 프라이버시 라벨링 | 보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. | [보고서 세트 데이터에 레이블 지정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) |
    | 회사 설정 홈 | 회사 설정 페이지에서는 조직에서 관리하는 모든 보고서 세트에 적용되는 설정을 구성할 수 있습니다. | [회사 설정 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=ko) |

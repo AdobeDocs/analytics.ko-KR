@@ -4,18 +4,24 @@ title: 관리자, 분석가, 최종 사용자 및 개발자를 위한 시작하�
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 88%
+source-wordcount: '1901'
+ht-degree: 83%
 
 ---
 
 # 관리자, 분석가, 최종 사용자 및 개발자를 위한 시작하기
 
-일반적인 조직에는 3가지 유형(관리자, 분석가 및 최종 사용자)의 Adobe Analytics 사용자가 있습니다.
+일반적인 조직에는 네 가지 유형의 Adobe Analytics 사용자가 있습니다.
 
-관리자는 Adobe Analytics를 구현하고 구성합니다. 분석가는 Analysis Workspace를 사용하여 프로젝트를 설정하고 분석을 생성하며, 최종 사용자는 직접 분석을 생성하거나 분석가와 협력하여 분석을 생성함으로써 고객에 대한 실행 가능한 인사이트를 얻습니다.
+* **관리자:** Adobe Analytics 구현 및 구성
+
+* **분석가:** Analysis Workspace을 사용하여 프로젝트 설정 및 분석 만들기
+
+* **최종 사용자:** 자체 분석을 만들거나 분석가와 협력하여 고객을 만들면 고객에 대한 실용적인 통찰력을 얻을 수 있습니다
+
+* **개발자:** Adobe Analytics 2.0 API를 사용하여 Adobe 서버를 직접 호출하여 탐색할 보고서 만들기, 인사이트 가져오기 또는 데이터에 대한 중요한 질문 답변과 같이 사용자 인터페이스에서 수행할 수 있는 거의 모든 작업을 수행할 수 있습니다.
 
 아래 정보는 이러한 각 사용자가 Adobe Analytics을 시작하는 방법을 간략하게 설명합니다.
 
@@ -68,13 +74,13 @@ Analytics 관리자는 조직의 사용자가 Adobe Analytics를 사용할 수 �
 | 권한 정의 | Analytics 관리자는 Admin Console에서 Adobe Analytics, 보고서 세트 도구 및 Analytics 도구에 대해 제품 프로필을 할당해야 합니다. | [Admin Console의 Analytics 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=ko-KR) |
 | 보고서 세트 설정 및 회사에 대한 설정 정의 | 보고서 세트는 Adobe Analytics가 보고서를 생성하는 데 사용하는 데이터의 사일로입니다.<p>관리자는 [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ko-KR)를 설정하여 데이터를 더욱 세분화할 수도 있습니다.</p> | <ul><li>[보고서 세트 만들기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=ko)</li><li>[회사 설정 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=ko)</li></ul> |
 | 데이터 가져오기 | Adobe Analytics 데이터 소스를 사용하면 추가적인 온라인 또는 오프라인 데이터를 가져와서 보고에 사용할 수 있습니다. | [데이터 소스 개요](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=ko) |
-| 분류를 사용하여 데이터 분류 | 분류를 사용하면 데이터를 분류하여 변수를 더 잘 활용할 수 있으므로 단일 변수에 더 많은 콘텐츠를 포함할 수 있습니다. | |
+| 분류를 사용하여 데이터 분류 | 분류를 사용하면 데이터를 분류하여 변수를 더 잘 활용할 수 있으므로 단일 변수에 더 많은 콘텐츠를 포함할 수 있습니다. | [분류 개요](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko-KR) |
 | 구성 요소 관리 | 각 구성 요소 유형에 대한 데이터 사전 및 관리 영역을 사용하여 Analytics 구현에서 사용할 수 있는 구성 요소와 조직에 대해 승인된 구성 요소를 정의합니다.<p>이 활동은 구성 요소가 조직에서 효과적으로 사용되고 있는지 확인하기 위해 지속적으로 수행되어야 합니다. </p> | <ul><li>[데이터 사전 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=ko)</li><li>[계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=ko)</li><li>[세그먼트 관리](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ko)</li><li>[사용자 정의 날짜 범위 만들기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ko)</li></ul> |
 | 이상 현상 발견 | 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다. | [예외 항목 탐지 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ko) |
 | 기여도 분석 | 기여도 분석은 사용자 데이터 안에서 숨겨진 패턴을 발견하여 통계적 예외 항목을 설명하고 전체 수렴된 대상 세그먼트에서 선택된 지표에 대해 예상치 못한 고객 작업, 범위를 벗어나는 값, 급증 또는 급감 뒤의 상관관계를 식별합니다. | [기여도 분석 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ko) |
 | Analytics 세분화 | Analytics 기능, Adobe Experience Cloud, Adobe Target 및 기타 통합 Adobe 제품을 사용하여 강력하고 집중된 대상 세그먼트를 작성하고 관리하고 공유하고 보고서에 적용할 수 있습니다. | [Analytics 세분화](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko-KR) |
-| Audience Manager에 대상자 게시 | | |
-| 통합 | Adobe Analytics에서 다른 애플리케이션의 정보를 표시할 수 있습니다. <p>다음은 몇 가지 일반적인 통합입니다.</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ko">Target용 Analytics</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR">미디어 분석</a></li> | |
+| Audience Manager에 대상자 게시 | Adobe Audience Manager은 퍼스트 파티, 세컨드 파티(파트너) 및 서드 파티 데이터 통합에서 고유한 대상 프로필을 구축할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. | [Audience Analytics 개요](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ko) |
+| 통합 | Adobe Analytics에서 다른 애플리케이션의 정보를 표시할 수 있습니다. <p>다음은 몇 가지 일반적인 통합입니다.</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ko">Target용 Analytics</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR">미디어 분석</a></li> | [Analytics 통합](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=en) |
 
 {style="table-layout:auto"}
 

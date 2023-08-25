@@ -4,9 +4,9 @@ title: Analytics 활용 사례
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '291'
 ht-degree: 89%
 
 ---
@@ -34,7 +34,7 @@ Adobe Analytics는 웹 사이트 트래픽을 분석하기 위해 다음과 같�
 
 Adobe Analytics의 다음 주요 기능은 이러한 마케팅 기능을 제공합니다.
 
-* 멀티채널 데이터 수집
+* [멀티채널 데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR)
 
 * [오프라인 데이터 통합](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=ko)
 
