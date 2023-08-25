@@ -2,9 +2,7 @@
 description: Analytics 인터페이스에 대한 정보는 물론 관리자, 분석가, 사용자 및 개발자를 위한 시작 정보를 포함하여 Adobe Analytics에 대한 일반 개요 정보입니다.
 title: 관리자, 분석가, 최종 사용자 및 개발자를 위한 시작하기
 feature: Analytics Basics
-hide: true
-hidefromtoc: true
-source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
+source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 83%
