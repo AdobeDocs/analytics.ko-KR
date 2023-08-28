@@ -3,10 +3,10 @@ description: Analysis Workspace, Reports & Analytics, Report Builder, Data Wareh
 title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: 71ebabf7efca70c0cbd2489dc538f7f10cae16cb
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 97%
 
 ---
 
@@ -37,5 +37,5 @@ ht-degree: 100%
 | **큐레이션** <br> [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/curate.md) | 예 - 프로젝트 및 VRS | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 - VRS만 |
 | **프로젝트 공유** <br> [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 예. 프로젝트 역할 사용 | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
 | **예약된 게재** | 예 | 예 | 예 | 예 | 아니요 | 예 | 아니요 |
-| **게재 대상** | 이메일 | 이메일 | 이메일, FTP, SFTP, [Microsoft PowerBI에 게시](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 이메일, FTP. SFTP, Azure Blob, Amazon S3 등 추가적인 대상 지원을 받으려면 고객 지원 센터에 문의하십시오. | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
+| **게재 대상** | 이메일 | 이메일 | 이메일, FTP, SFTP, [Microsoft PowerBI에 게시](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 이메일, FTP. SFTP, Azure Blob, Amazon S3 등 추가적인 대상 지원을 받으려면 고객 지원 센터에 문의하십시오. | - | Amazon S3, Azure RBAC, Azure SAS 및 Google 클라우드 플랫폼 | - |
 | **VRS 보고서 시간 처리** <br> [자세히 알아보기](/help/components/vrs/vrs-report-time-processing.md) | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 |
