@@ -3,10 +3,10 @@ description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작
 title: 세그먼트 정보
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
+source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -239,7 +239,7 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 이 비디오는 세그먼트 컨테이너가 정의와 사용 방법에 대한 간략한 개요를 제공합니다.
 
-![](https://video.tv.adobe.com/v/25401)
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
 
 ## 세그먼테이션 도구 액세스 {#access}
@@ -252,7 +252,7 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 - 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.  ![추가 버튼](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
-   또는
+  또는
 
 - 세그먼트 관리자에서 기존 세그먼트 제목을 클릭하여 세그먼트 빌더에서 세그먼트를 편집합니다.
 
