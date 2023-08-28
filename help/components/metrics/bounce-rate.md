@@ -3,7 +3,7 @@ title: 바운스 비율
 description: 여러 항목에 대해 정확히 하나의 히트가 있는 방문 비율입니다.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
-source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
+source-git-commit: 9185ef6c570dd2fb0e54ce89f9833001d3e71b60
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 45%
