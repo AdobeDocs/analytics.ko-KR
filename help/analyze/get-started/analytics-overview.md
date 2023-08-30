@@ -1,11 +1,12 @@
 ---
-description: 'Adobe Analytics에 대한 일반적인 개요 정보: Analytics 인터페이스에 대한 정보와 관리자, 분석가, 사용자 및 개발자를 위한 시작 정보를 포함합니다.'
+description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Analytics 인터페이스에 대한 정보와 관리자, 분석가, 사용자 및 개발자를 위한 시작 정보가 포함됩니다.
+short-description: 분석가, 최종 사용자 및 관리자의 주요 기능, 일반적인 사용 사례 및 첫 번째 단계에 대해 알아봅니다.
 title: Adobe Analytics 개요
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
+source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 76%
+source-wordcount: '461'
+ht-degree: 96%
 
 ---
 
@@ -20,12 +21,12 @@ ht-degree: 76%
 
 | 설명서 리소스 | 함수 |
 |---------|----------|
-| [시작(역할별)](/help/analyze/get-started/get-started-by-role.md) | 관리자, 분석가, 최종 사용자 또는 개발자 등 사용자가 알아야 할 주요 기능 및 작업을 설명하는 자세한 정보를 제공합니다. |
-| [Analytics 인터페이스 이해](/help/analyze/get-started/analytics-interface.md) | Analytics 인터페이스의 주요 영역을 간략하게 설명합니다. |
-| [사용 사례](/help/analyze/get-started/use-cases.md) | 조직에서 고객에게 더 나은 서비스를 제공하기 위해 Adobe Analytics을 통해 중요한 통찰력을 얻는 몇 가지 주요 방법에 대해 설명합니다. |
+| [시작하기(역할별)](/help/analyze/get-started/get-started-by-role.md) | 관리자, 분석가, 최종 사용자 또는 개발자가 모두 알아야 할 주요 기능과 작업에 대해 설명하는 자세한 정보를 제공합니다. |
+| [Analytics 인터페이스 이해](/help/analyze/get-started/analytics-interface.md) | Analytics 인터페이스의 주요 영역에 대해 설명합니다. |
+| [사용 사례](/help/analyze/get-started/use-cases.md) | Adobe Analytics에서 조직이 고객에게 더 나은 서비스를 제공하기 위해 중요한 통찰력을 얻을 수 있는 몇 가지 주요 방법에 대해 설명합니다. |
 | [어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/analyze/get-started/which-analytics-tool.md) | 각 Adobe Analytics 도구에 대한 권장 사용 사례가 포함되어 있습니다. |
 | [Analytics 제품 비교 및 요구 사항](/help/analyze/get-started/analytics-product-comparison.md) | 사용 가능한 다양한 Adobe Analytics 제품을 비교합니다. |
-| [시스템 요구 사항](/help/analyze/get-started/sys-reqs.md) | Adobe Analytics 구현 및 사용을 위한 사전 요구 사항 및 시스템 요구 사항에 대해 설명합니다. |
+| [시스템 요구 사항](/help/analyze/get-started/sys-reqs.md) | Adobe Analytics를 구현하고 사용하기 위한 사전 요구 사항과 시스템 요구 사항에 대해 설명합니다. |
 
 ## 비디오 개요
 
@@ -49,5 +50,5 @@ Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Ex
 
 * **크로스 보고서 세트 데이터**: 여러 데이터 세트의 기존 구현을 Platform에 결합할 수 있습니다.
 
-자세한 내용은 [Customer Journey Analytics 개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)를 참조하십시오.
+자세한 내용은 [Customer Journey Analytics 개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en)를 참조하십시오.
 
