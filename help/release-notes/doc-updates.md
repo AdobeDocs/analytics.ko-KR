@@ -26,7 +26,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 8월** | |
-| 데이터 피드 설명 | 업데이트됨 [시작 및 종료 날짜의 정의](/help/export/analytics-data-feed/create-feed.md) 이전 데이터에 대한 데이터 피드를 처리할 때 시작 날짜를 데이터가 수집되는 과거의 날짜로 설정할 수 있음을 명확히 하기 위해 |
+| 데이터 피드 설명 | 내역 데이터에 대한 데이터 피드를 처리할 때 데이터 수집 시 시작 일자를 원하는 과거의 일자로 설정할 수 있도록 [시작 및 종료 일자 정의](/help/export/analytics-data-feed/create-feed.md)가 업데이트되었습니다. |
 | Experience Edge 데이터 처리 | Adobe Analytics에서 [Experience Edge의 데이터를 처리](../implement/aep-edge/overview.md)하는 방법에 대한 콘텐츠를 추가합니다. |
 | 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
 | 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 문서에 있었습니다. |

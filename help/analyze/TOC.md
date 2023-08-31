@@ -61,8 +61,8 @@ ht-degree: 99%
       + 세그먼트 {#segments}
          + [세그먼트 만들기](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [빠른 세그먼트](analysis-workspace/components/segments/quick-segments.md)
-      + 달력 및 날짜 범위 {#calendar-date-ranges}
-         + [달력 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
+      + 캘린더 및 날짜 범위 {#calendar-date-ranges}
+         + [캘린더 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [사용자 정의 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [날짜 비교](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
       + 데이터 사전 {#data-dictionary}
@@ -115,7 +115,7 @@ ht-degree: 99%
       + [속성 패널](analysis-workspace/c-panels/attribution.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
-      + [미디어 분당 평균 시청 시간 패널](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [미디어 대상자 평균 시간 패널](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [미디어 동시 뷰어 패널](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + 미디어 재생 소요 시간 {#media-playback-timespent}
          + [개요](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
@@ -210,7 +210,7 @@ ht-degree: 99%
             + [고려 사항](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
          + [셀의 날짜](report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
          + [세부 기간](report-builder/data-requests/configuring-report-dates/granularity.md)
-         + [사용자 정의 달력](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+         + [사용자 정의 캘린더](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [양방향 컨트롤](report-builder/data-requests/interactive-controls.md)
    + 레이아웃 - 요청 마법사 2단계 {#layout}
       + [레이아웃 개요](report-builder/layout/layout.md)
@@ -273,7 +273,7 @@ ht-degree: 99%
       + [Power BI에 게시 - 개요](report-builder/c-publish-power-bi/power-bi.md)
       + [제한 사항 및 사양](report-builder/c-publish-power-bi/specifications-limits.md)
       + [수동으로 Power BI에 데이터 가져오기](report-builder/c-publish-power-bi/bi-manually-import-data.md)
-      + [게시된 에셋을 Power BI Desktop에 가져오기](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
+      + [게시된 자산을 Power BI Desktop에 가져오기](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
       + [모범 사례](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI 통합 문제 해결](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Power BI용 Adobe Analytics 콘텐츠 팩](report-builder/c-publish-power-bi/integration-power-bi.md)
@@ -339,7 +339,7 @@ ht-degree: 99%
    + [지표](reports-analytics/metrics.md)
    + [타겟](reports-analytics/targets.md)
    + [경고](reports-analytics/alerts.md)
-   + [달력 이벤트](reports-analytics/t-calendar-event.md)
+   + [캘린더 이벤트](reports-analytics/t-calendar-event.md)
    + [자주 묻는 질문](reports-analytics/frequently-asked-questions.md)
    + [문제 해결](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics 대시보드 {#mobapp}
