@@ -1,20 +1,20 @@
 ---
-description: 이메일을 통해 Analysis Workspace 프로젝트를 보내거나 게재할 일정을 예약합니다.
+description: 이메일을 사용하여 Analysis Workspace 프로젝트를 보내거나 전달할 일정을 예약합니다.
 keywords: Analysis Workspace
 title: 프로젝트 예약
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 73%
+source-wordcount: '315'
+ht-degree: 51%
 
 ---
 
 # 프로젝트 예약
 
-작업 영역 **공유 메뉴**&#x200B;에서 이메일을 통해 선택한 수신자에게 Analysis Workspace 프로젝트를 보낼 수 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
+작업 공간에서 **공유 메뉴**, 이메일을 사용하여 선택한 수신자에게 Analysis Workspace 프로젝트를 보낼 수 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다. 예약된 프로젝트를 공유한 후 예약된 프로젝트 관리자를 사용하여 빈도, 수신자 목록 또는 파일 유형을 수정하도록 예약 설정을 편집할 수 있습니다.
 
 ## 지금 파일 보내기
 
@@ -46,6 +46,14 @@ ht-degree: 73%
 ![](assets/send-on-schedule.png)
 
 ## 예약된 프로젝트 관리
+
+예약된 프로젝트를 관리할 때 반복되는 프로젝트 일정을 편집하고 삭제할 수 있습니다.
+
+* 파일 유형(.csv 또는 PDF) 변경
+* 프로젝트 설명 업데이트
+* 수신자 추가 또는 제거
+* 빈도 변경
+
 
 예약된 Analysis Workspace 프로젝트는 **Analytics > 구성 요소 > 예약된 프로젝트**&#x200B;에서 관리할 수 있습니다.
 
