@@ -1,15 +1,15 @@
 ---
-description: Analytics 인터페이스에 대한 정보는 물론 관리자, 분석가, 사용자 및 개발자를 위한 시작 정보를 포함하여 Adobe Analytics에 대한 일반 개요 정보입니다.
-title: Analytics 활용 사례
+description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Analytics 인터페이스에 대한 정보와 관리자, 분석가, 사용자 및 개발자를 위한 시작 정보가 포함됩니다.
+title: Analytics 사용 사례
 feature: Analytics Basics
 source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Analytics 활용 사례
+# Analytics 사용 사례
 
 다음은 Adobe Analytics에서 조직이 고객에게 더 나은 서비스를 제공하기 위해 중요한 통찰력을 얻을 수 있는 몇 가지 주요 방법입니다.
 
@@ -32,7 +32,7 @@ Adobe Analytics는 웹 사이트 트래픽을 분석하기 위해 다음과 같�
 
 Adobe Analytics의 다음 주요 기능은 이러한 마케팅 기능을 제공합니다.
 
-* [멀티채널 데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR)
+* [멀티채널 데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko)
 
 * [오프라인 데이터 통합](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=ko)
 
@@ -50,7 +50,7 @@ Adobe Analytics의 다음 주요 기능은 이러한 마케팅 기능을 제공�
 
 Adobe Analytics의 다음 주요 기능은 이러한 예측 기능을 제공합니다.
 
-* [이상 현상 발견](#anomaly-detection)
+* [예외 항목 탐지](#anomaly-detection)
 
 * [기여도 분석](#contribution-analysis)
 
