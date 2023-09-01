@@ -1,14 +1,14 @@
 ---
-description: 정의한 시간 및 파일 형식에 따라 보고서를 전송하도록 예약할 수 있습니다.
-title: 데이터 요청 예약
+description: 보고서를 예약하는 방법을 알아봅니다.
+title: 데이터 요청을 예약하는 방법
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '999'
+ht-degree: 96%
 
 ---
 
@@ -34,17 +34,15 @@ ht-degree: 100%
 > * 스케줄러가 사용하는 **다운스트림 서비스의 문제**&#x200B;는 통합 문서 게재에 영향을 줄 수 있습니다. 예를 들어 통합 문서를 실행하고 API 요청 큐를 작성하는 데 API를 독립적으로 사용하는 경우 예약된 통합 문서는 해당 리소스에 대해 경쟁하는 동안 느리게 전달될 수 있습니다.
 > * **보고서 세트 지연**(데이터 수집의 지연)도 일부 예약된 통합 문서를 지연시킬 수 있습니다.
 
-
 ## 통합 문서 예약
 
 1. 통합 문서를 생성하여 저장합니다.
 1. Report Builder 도구 모음에서 **[!UICONTROL 예약]**&#x200B;을 클릭합니다.
 
    [!UICONTROL 예약된 보고서] 탭에 남은 작업의 수는 물론 생성한 모든 작업이 요약됩니다.
-1. **[!UICONTROL 예약된 보고서]** 탭에서 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
-1. 기본 예약 마법사가 표시됩니다.
+1. **[!UICONTROL 예약된 보고서]** 탭에서 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다. 기본 예약 마법사에는 예약된 보고서를 정의하는 데 사용되는 옵션이 표시됩니다.
 
-   ![](assets/simple-schedule-wizard.png)
+   ![기본 예약 마법사를 보여 주는 스크린샷입니다.](assets/simple-schedule-wizard.png)
 
 1. [!UICONTROL 기본 예약 마법사]에서 다음 옵션을 구성합니다.
 

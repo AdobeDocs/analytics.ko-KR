@@ -1,52 +1,44 @@
 ---
-description: Report Builder 업그레이드 절차 및 고려 사항입니다.
-title: Report Builder 업그레이드
+description: Report Builder 업그레이드 방법을 알아봅니다.
+title: Report Builder 업그레이드 방법
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
 role: User, Admin
 exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 53%
 
 ---
 
 # Report Builder 업그레이드
 
-Report Builder 업그레이드 절차 및 고려 사항입니다.
+Report Builder을 업그레이드할 때 다음 지침에 유의하십시오.
 
-## 업그레이드 FAQ {#section_AFE40FF5544C418790A1C298C25CC18A}
+* 이전 버전이 제거됩니다.
 
-**Q: 업그레이드 시 이전 버전의 Report Builder는 유지됩니까?**
+* 기존의 모든 보고서는 계속 작동합니다.
 
-A: 아니요. 이전 버전은 제거됩니다.
+* 인증 설정을 포함한 모든 개인 설정은 계속 작동합니다.
 
-**Q: 기존 보고서를 잃게 됩니까?**
-
-A: 아니요. 기존 보고서 모두 계속 작동합니다.
-
-**Q: 새 버전으로 다시 인증해야 합니까?**
-
-A: 아니요. 인증 설정을 포함한 모든 설정이 계속 작동합니다.
-
-## 업그레이드 지침 {#section_73B8110A619549189A30079735E81867}
+Report Builder을 업그레이드하려면
 
 1. 현재 버전의 Report Builder에 로그인합니다.
 1. **[!UICONTROL [옵션]]** 메뉴로 이동하여 최신 버전으로 업그레이드합니다. 현재 버전 번호는 [옵션] 대화 상자의 하단 쪽에 표시됩니다.
 
-   ![](assets/upgrade.png)
+   ![옵션 대화 상자 및 현재 버전과 새 버전을 보여 주는 스크린샷입니다.](assets/upgrade.png)
 
-1. 새 버전을 사용할 수 있으면 **[!UICONTROL [업데이트...]]**&#x200B;를 클릭합니다. 이 단추는 &quot;버전 5.0.50으로 업데이트&quot;처럼 업데이트하게 될 버전을 보여줍니다.
+1. 새 버전을 사용할 수 있으면 **[!UICONTROL [업데이트...]]**&#x200B;를 클릭합니다. 버튼에는 다음과 같이 업데이트할 버전이 표시됩니다. *버전 5.0.50으로 업데이트*
 
    >[!NOTE]
    >
    >이 단추가 회색으로 표시되면 사용 가능한 Report Builder의 새 버전이 없다는 뜻입니다.
 
-1. 선택 사항으로 **[!UICONTROL 새 버전을 사용할 수 있으면 업데이트]** 확인란을 선택할 수 있습니다. 이렇게 하면 나중에 사용 가능한 새 버전이 있을 때 업데이트 프로세스가 자동으로 시작됩니다.
+1. (선택 사항) **[!UICONTROL 새 버전을 사용할 수 있을 때 업데이트]** 확인란. 이렇게 하면 나중에 사용 가능한 새 버전이 있을 때 업데이트 프로세스가 자동으로 시작됩니다.
 1. 설치 화면이 나타나면 **[!UICONTROL 다음 >]**&#x200B;을 클릭합니다.
 
-   ![](assets/setup.png)
+   ![Report Builder 설정 화면을 보여 주는 스크린샷입니다.](assets/setup.png)
 
 1. 업그레이드가 완료되면 다시 Report Builder에 로그인합니다.
 

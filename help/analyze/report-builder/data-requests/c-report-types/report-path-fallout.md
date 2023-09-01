@@ -1,19 +1,19 @@
 ---
-description: Report Builder가 경로 지정 및 폴아웃 보고서를 지원하는 방법과 해당 구현이 Reports & Analytics와 어떻게 다른지를 설명합니다.
+description: Report Builder이 경로 지정 및 폴아웃 보고서를 지원하는 방법 및 구현이 Reports & Analytics와 어떻게 다른지 설명합니다.
 title: Report Builder의 경로 및 경로 폴아웃 보고서
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Report Builder의 경로 및 경로 폴아웃 보고서
 
-Report Builder가 경로 지정 및 폴아웃 보고서를 지원하는 방법과 해당 구현이 Reports &amp; Analytics와 어떻게 다른지를 설명합니다.
+Report Builder이 경로 지정 및 폴아웃 보고서를 지원하는 방법 및 구현이 Reports &amp; Analytics와 어떻게 다른지 설명합니다.
 
 | Reports &amp; Analytics의 경로 보고서 이름(경로 > 차원 >) | Report Builder에서 지원 여부 |
 |--- |--- |

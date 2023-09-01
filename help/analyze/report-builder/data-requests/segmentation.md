@@ -4,10 +4,10 @@ title: 세그먼트 관리 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
 >[!NOTE]
 >
->세그먼트를 추가하거나 편집할 수 있게 Report Builder 세그먼트 인터페이스는 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션은 활성 상태를 유지합니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
+>세그먼트를 추가하거나 편집할 수 있게 Report Builder 세그먼트 인터페이스는 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션이 활성 상태로 유지됩니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
 
 1. 요청 마법사 1단계의 세그먼트 패널에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [분석 세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오.
@@ -47,7 +47,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
 1. 이제 세그먼트 빌더 UI가 Internet Explorer에서 시작됩니다. 세그먼트 빌더 UI는 사용자가 지정한 컨테이너 및 필터로 초기화됩니다.
 1. 세그먼트에 이름 및 설명을 추가한 후에 저장합니다.
-1. Report Builder로 돌아간 후 새로 고침 아이콘을 클릭하여 세그먼트 목록을 새로 고칩니다.
+1. Report Builder으로 돌아가서 새로 고침 아이콘을 클릭하여 세그먼트 목록을 새로 고칩니다.
 1. 이제 이 세그먼트를 적용할 수 있습니다.
 
 ## 세그먼트 검색 및 적용 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
@@ -76,7 +76,7 @@ Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모�
 |---|---|
 | 태그 | 특정 태그가 있는 세그먼트만 필터링할 수 있습니다. 태그 필터는 AND 연산자를 사용합니다. 두 태그를 선택하면 오른쪽 창에 **두** 태그가 모두 지정된 세그먼트가 표시됩니다. |
 | 소유자 | 소유자별로 세그먼트를 필터링할 수 있습니다. 소유자 필터는 OR 연산자를 사용합니다. 두 명의 소유자를 선택하면 오른쪽 창에 **둘 중 하나의** 소유자가 소유한 세그먼트가 표시됩니다. |
-| 기타 필터 > *보고서 세트 이름*&#x200B;만 | *의 세그먼트 빌더에서 &quot;*&#x200B;보고서 세트 이름[!DNL marketing reports & analytics]만&quot; 필터를 적용한 다음 [!DNL report builder]에 고급 필터를 표시하면 고급 필터에 선택한 보고서 세트에 대한 세그먼트만 표시됩니다. |
+| 기타 필터 > *보고서 세트 이름*&#x200B;만 | *의 세그먼트 빌더에서 &quot;*&#x200B;보고서 세트 이름[!DNL marketing reports & analytics]만&quot; 필터를 적용한 다음 [!DNL Report Builder]에 고급 필터를 표시하면 고급 필터에 선택한 보고서 세트에 대한 세그먼트만 표시됩니다. |
 | 기타 필터 > 내 소유 | 소유한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 나와 공유 | 다른 사람이 사용자와 공유한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 즐겨찾기 | 즐겨찾기로 표시한 모든 세그먼트를 표시합니다. |

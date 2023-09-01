@@ -1,14 +1,14 @@
 ---
-description: Adobe Report Builder는 매크로가 활성화된 통합 문서를 예약할 수 있도록 하는 .xlsm 형식을 지원합니다.
-title: 매크로가 활성화된 통합 문서 예약
+description: 매크로가 활성화된 통합 문서를 예약하는 방법에 대해 알아봅니다.
+title: 매크로가 활성화된 통합 문서 예약 정보
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
 role: User, Admin
 exl-id: 34b8ffc7-646a-4472-a99a-4b8876ea7b16
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 100%
+source-wordcount: '104'
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Report Builder는 매크로가 활성화된 통합 문서를 예약할 수 있도록 하는 .xlsm 형식을 지원합니다.
 
-이 기능은 매크로가 활성화된 통합 문서를 안전하게 예약, 처리 및 수신해야 하는 경우에 유용할 수 있습니다.
+이 기능은 매크로가 활성화된 통합 문서를 안전하게 예약, 처리 및 수신해야 하는 경우에 유용합니다.
 
 >[!IMPORTANT]
 >

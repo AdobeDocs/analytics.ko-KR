@@ -1,30 +1,30 @@
 ---
-description: Report Builder의 요청 관리를 위한 필드 설명
-title: 요청 관리 - 정의
+description: Report Builder의 요청 관리에 대한 필드 설명에 대해 알아봅니다.
+title: Report Builder에서 요청을 관리하는 방법
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 78%
 
 ---
 
 # 요청 관리 - 정의
 
-Report Builder의 요청 관리를 위한 필드 설명
+요청 상태에 대한 세부 정보를 보고 필드 설명을 사용하여 Report Builder에서 요청을 관리합니다.
 
 ## 개요 {#section_75C288C945FA4781A4EDF806711A5660}
 
-[!UICONTROL 요청 관리자]는 활성 통합 문서의 모든 시트 또는 단 한 시트에 대해 만든 모든 요청의 상태를 자세히 볼 수 있도록 해줍니다. 이전 요청이 들어 있는 Excel 스프레드시트에서 사용할 수 있는 셀을 마우스 오른쪽 단추로 클릭하여 요청을 추가, 편집, 새로 고침 및 삭제(일반적으로 [!UICONTROL 요청 마법사] 및 [!UICONTROL 요청 관리자]와 연관된 기능들)할 수도 있습니다.
+다음 [!UICONTROL 요청 관리자] 은 활성 통합 문서의 모든 시트 또는 한 시트에만 빌드한 모든 요청의 상태에 대한 세부 보기를 제공합니다. 요청을 추가, 편집, 새로 고침 및 삭제할 수도 있습니다. 이러한 함수는 일반적으로 [!UICONTROL 요청 마법사] 및 [!UICONTROL 요청 관리자] 이전 요청이 들어 있는 Excel 스프레드시트에서 사용 가능한 셀을 마우스 오른쪽 단추로 클릭합니다.
 
-[!UICONTROL 요청 관리자]는 **[!UICONTROL 관리]**(Report Builder 도구 모음에서 ![](assets/edit_request.gif))를 클릭하면 표시됩니다.
+다음 [!UICONTROL 요청 관리자] 을 클릭하면 표시됩니다. **[!UICONTROL 관리]**  ![](assets/edit_request.gif) Report Builder 도구 모음에서 를 클릭합니다.
 
 >[!NOTE]
 >
->Adobe Report Builder에서는 여러 워크시트에서가 아니라 동일한 워크시트 내에서만 요청 종속성을 적용합니다. 단일 워크시트 내의 종속성으로 제한하면 신속하게 실행할 수 있습니다.
+>Adobe Report Builder에서는 여러 워크시트에서가 아니라 동일한 워크시트 내에서만 요청 종속성을 적용합니다. 단일 워크시트 내의 종속성으로 제한하면 실행 적시성이 보장됩니다.
 
 ## 정의 {#section_FD29D8614DE74F32A0027FA130F40304}
 

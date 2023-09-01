@@ -5,10 +5,10 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>일반적으로 사용되는 날짜 </p> </td> 
-   <td colname="col2"> <p>가장 자주 사용된 날짜 범위를 표시합니다. 이 설정은 새 요청을 만들면 기본적으로 활성화됩니다. 통합 문서에 요청이 하나 이상 있으면, Report Builder는 기존 요청의 날짜를 기본 설정으로 사용합니다. </p> </td> 
+   <td colname="col2"> <p>가장 자주 사용된 날짜 범위를 표시합니다. 이 설정은 새 요청을 만들면 기본적으로 활성화됩니다. 통합 문서에 요청이 하나 이상 있는 경우 Report Builder은 기존 요청의 날짜를 기본 설정으로 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 저장한 날짜 템플릿 </p> </td> 

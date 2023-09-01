@@ -5,10 +5,10 @@ uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
 role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 48%
+source-wordcount: '251'
+ht-degree: 36%
 
 ---
 
@@ -20,11 +20,13 @@ ht-degree: 48%
 
 Report Builder에 로그인하려면 Experience Cloud 로그인 계정을 사용하십시오.
 
-## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+## Adobe Experience Cloud에 로그인합니다 {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-Experience Cloud 로그인을 통해 Enterprise ID(이메일 및 암호)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다. **[!UICONTROL 로그인]** > **[!UICONTROL Enterprise ID로 로그인]**&#x200B;을 클릭하여 회사의 Single Sign-On으로 리디렉션할 수 있습니다. Enterprise ID에 대한 자세한 내용을 보려면 [여기](https://helpx.adobe.com/kr/enterprise/kb/enterprise-id-faq.html#whatis)를 클릭하십시오.
+Experience Cloud 로그인을 통해 Enterprise ID(이메일 및 암호)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다.
 
-![](assets/adobe_id_login.png)
+**[!UICONTROL 로그인]** > **[!UICONTROL Enterprise ID로 로그인]**&#x200B;을 클릭하여 회사의 Single Sign-On으로 리디렉션할 수 있습니다. Enterprise ID에 대한 자세한 내용은 [회사 또는 학교 계정에 로그인](https://helpx.adobe.com/kr/enterprise/kb/enterprise-id-faq.html#whatis).
+
+![Adobe ID 사용 또는 사용 안 함 로그인 옵션을 보여 주는 Adobe Experience Cloud 로그인 창을 보여 주는 스크린샷](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
@@ -35,10 +37,10 @@ Experience Cloud 로그인을 통해 Enterprise ID(이메일 및 암호)를 사�
 Report Builder에 로그인하려면
 
 1. Excel에서 **[!UICONTROL 추가 기능]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 다음과 같은 방법으로 로그인할 수도 있습니다.
+1. **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 다음 방법을 사용하여 서명할 수도 있습니다.
 
    * **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
-   * [요청 관리자에서 요청 선택](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)을 클릭한 다음 을 클릭합니다 **[!UICONTROL 추가]** 또는 **[!UICONTROL 관리]**.
+   * 요청 관리자에서 요청을 선택한 다음 **[!UICONTROL 추가]** 또는 **[!UICONTROL 관리]**. 자세한 내용은 [요청 관리자에서 요청 선택](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)
    * Excel에서 요청을 두 번 클릭합니다.
 
 1. [!UICONTROL 로그인] 페이지에서 필드를 완료한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.

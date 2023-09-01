@@ -1,14 +1,14 @@
 ---
-description: 시스템 권장 사항 및 필수 조건입니다.
-title: Report Builder을 위한 시스템 요구 사항
+description: Report Builder을 위한 시스템 권장 사항 및 사전 요구 사항에 대해 알아봅니다.
+title: Report Builder을 위한 시스템 요구 사항 정보
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin
 exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 92%
+source-wordcount: '74'
+ht-degree: 79%
 
 ---
 

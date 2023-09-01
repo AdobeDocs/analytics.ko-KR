@@ -1,14 +1,14 @@
 ---
-description: 요청의 보고서 세트, 세부기간 및 날짜 범위를 기반으로 몇 개의 요청을 동시에 변경할 수 있습니다.
-title: 여러 요청 편집
+description: 여러 요청을 동시에 변경하는 방법에 대해 알아봅니다.
+title: 여러 요청을 편집하는 방법
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '312'
+ht-degree: 90%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 95%
    * **세그먼트**: 세그먼트 이름을 기준으로 요청을 그룹화합니다.
 
       * **세그먼트 선택**: 요청에 대한 세그먼트가 없는 경우 표시합니다. 세그먼트를 추가하려면 **[!UICONTROL 그룹 편집]**&#x200B;을 클릭하고 [!UICONTROL 그룹 편집] 패널에서 세그먼트를 선택합니다.
+
    * **지표별:** [복수 요청의 지표 편집](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)을 참조하십시오.
 
    * **날짜 범위 및 세부기간:** 날짜 범위 및 세부기간을 기준으로 요청을 그룹화하여 표시합니다.
    * **그룹:** 그룹화 요청 세트를 기준으로 요청을 그룹화하여 표시합니다.
-
 
 1. [!UICONTROL 복수 요청 편집] 양식에서, **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 

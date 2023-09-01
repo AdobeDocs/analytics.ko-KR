@@ -1,25 +1,27 @@
 ---
-title: Report Builder의 Visual Basic 매크로
-description: VBA를 사용하여 Excel 통합 문서와 Report Builder의 기능을 확장합니다.
+title: Report Builder에서 Visual Basic 매크로를 사용하는 방법
+description: VBA 매크로를 사용하여 Excel 통합 문서와 Report Builder의 기능을 확장하는 방법을 알아봅니다.
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 68%
 
 ---
 
 # Report Builder의 Visual Basic 매크로
 
-Visual Basic 매크로라고도 하는 VBA 매크로를 사용하면 Microsoft Excel만으론 할 수 없는 방식으로 통합 문서를 조작할 수 있습니다. Visual Basic은 통합 문서와 Excel은 물론 Windows에도 액세스할 수 있습니다.
+VBA 매크로는 Excel 통합 문서를 새로 고치는 데 도움이 되는 기능을 제공합니다. Visual Basic에서는 통합 문서, Excel 및 Windows에 액세스할 수 있습니다.
 
-Adobe에서는 세 가지 Report Builder API 메서드를 지원합니다. 매크로를 실행하려면 먼저 최신 버전의 Report Builder가 설치되어 있는지 확인하고 로그인합니다.
+VBA 매크로를 실행하려면 먼저 최신 버전의 Report Builder을 실행하고 로그인해야 합니다.
 
 >[!IMPORTANT]
 >
 >보안상의 이유로 매크로를 포함하는 통합 문서는 예약할 수 없습니다.
+
+Adobe에서는 세 가지 Report Builder API 메서드를 지원합니다.
 
 ## `RefreshAllReportBuilderRequests()`
 

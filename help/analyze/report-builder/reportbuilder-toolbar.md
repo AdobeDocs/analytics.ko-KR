@@ -1,14 +1,14 @@
 ---
-description: Report Builder 도구 모음에 있는 단추들의 기능을 이해하는 데 도움이 되는 정보
-title: Report Builder 도구 모음
+description: Report Builder 도구 모음 버튼의 기능에 대해 알아봅니다.
+title: Report Builder 도구 모음 사용 방법
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
 role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 93%
+source-wordcount: '304'
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ Report Builder 도구 모음에 있는 단추들의 기능을 이해하는 데 �
 
 Report Builder를 설치하고 Excel을 실행한 후 **[!UICONTROL 추가 기능]**&#x200B;을 클릭합니다.
 
-![](assets/report_builder_toolbar.png)
+![Report Builder 도구 모음 아이콘](assets/report_builder_toolbar.png)
 
 **로그인:** 다음을 표시합니다. [!UICONTROL 로그인] 자격 증명을 사용하여 로그인하거나 다른 사용자로 로그인할 수 있도록 양식을 작성합니다. 또한 로그인 후 회사 이름이 표시됩니다. See [Report Builder 로그인](/help/analyze/report-builder/setup/login.md).
 
@@ -32,7 +32,7 @@ Report Builder를 설치하고 Excel을 실행한 후 **[!UICONTROL 추가 기�
 
 **예약:** 정의하는 시간 및 파일 형식에 따라 보고서를 전송하도록 예약할 수 있습니다. [보고서 요청 예약](/help/analyze/report-builder/schedule-report-requests.md)을 참조하십시오.
 
-**라이브러리:**&#x200B;공유할 Report Builder Excel 통합 문서를 업로드할 수 있도록 [!UICONTROL 통합 문서 라이브러리]를 실행합니다. 공유 통합 문서를 다운로드 및 편집할 수 있습니다. [통합 문서 라이브러리 사용](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)을 참조하십시오.
+**라이브러리:** 를 실행합니다. [!UICONTROL 통합 문서 라이브러리] 공유할 Report Builder Excel 통합 문서를 업로드할 수 있습니다. 공유 통합 문서를 다운로드 및 편집할 수 있습니다. [통합 문서 라이브러리 사용](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)을 참조하십시오.
 
 **선택 사항:** 요청을 새로 고칠 때 **[!UICONTROL 기준]**(지금) 날짜를 묻는 메시지를 표시할지를 지정하고 문제 해결 목적으로 로깅을 활성화할 수 있습니다. [선택 사항](/help/analyze/report-builder/options.md)을 참조하십시오.
 

@@ -1,13 +1,13 @@
 ---
-description: 예약된 작업 관리자에 대한 필드 설명입니다.
-title: 예약된 작업 관리자
+description: 예약된 작업 관리자의 필드 설명에 대해 알아봅니다.
+title: 예약된 작업 관리자 정보
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 98%
+source-wordcount: '774'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 
 | 필드 | 설명 |
 | --- | --- |
-| **[!UICONTROL 예약된 보고서 탭]** |  |
+| **[!UICONTROL 예약된 보고서 탭]** | |
 | [!UICONTROL 보고서 이름] | 예약된 작업의 이름을 나타냅니다. |
 | [!UICONTROL 이메일/FTP] | 수신자의 이메일 또는 FTP 주소입니다. **참고:** [이메일]을 선택한 경우, 1MB가 넘는 보고서는 자동으로 이메일에 .zip 파일로 첨부됩니다. 이 기능은 첨부 파일의 크기를 작게 유지하는 데 도움이 되며, 비활성화할 수 없습니다. |
 | [!UICONTROL 게시 옵션] | [Power BI 게시 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html?lang=ko-KR)중 하나를 선택한 경우 이 열에 Power BI가 나열됩니다. |
@@ -44,10 +44,10 @@ ht-degree: 98%
 | [!UICONTROL 파일 형식] | Excel, PDF, HTML 등과 같은 보고서의 전달 형식입니다. |
 | [!UICONTROL 다시 활성화] | 예약된 통합 문서가 실행되지 않으면 Report Builder는 15분마다 두 번 더 통합 문서 실행을 시도합니다. 세 번의 실행 시도를 실패하면 Report Builder는 예약을 비활성화하고 [다시 활성화] 버튼을 표시합니다. 통합 문서를 다시 활성화하면 예약된 전달이 비활성화된 시점부터 다시 시작됩니다.<p>예를 들어 예약된 통합 문서가 14일 전에 비활성화되었고 오늘 다시 활성화하면 모든 누락된 날들에 대해 실행되고 14회 전달됩니다. 통합 문서가 누락된 날들에 대해 전달되기를 원하지 않을 경우 예약된 통합 문서를 삭제한 다음 동일한 예약 매개 변수를 사용하여 새로운 예약된 통합 문서를 만들 수 있습니다.<p>**참고:** 시스템이 통합 문서를 비활성화한 원인을 알 수 없는 경우 통합 문서를 다시 활성화하지 마십시오. 문제를 해결하려면 비활성화된 통합 문서를 다운로드한 다음 클라이언트측에서 해당 통합 문서를 새로 고침하십시오. 오류가 표시되지 않는다면 다시 활성화할 수 있습니다. |
 | [!UICONTROL 마지막으로 전송함] | 보고서를 마지막으로 전송한 날짜 및 시간입니다. |
-| **수신자 탭** |  |
+| **수신자 탭** | |
 | [!UICONTROL 수신자 이메일] | 보고서 수신자의 이메일입니다. |
 | [!UICONTROL 보고서] | 각 수신자에게 전송된 보고서입니다. |
-| **보고서 내역 탭** |  |
+| **보고서 내역 탭** | |
 | [!UICONTROL 파일 이름] | 예약된 작업의 이름을 나타냅니다. |
 | [!UICONTROL 날짜] | 보고서를 마지막으로 전송한 날짜 및 시간입니다. |
 | [!UICONTROL 상태] | 보고서가 전송되었는지 또는 전송되지 않았는지를 나타냅니다. |

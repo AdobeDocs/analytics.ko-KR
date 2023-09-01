@@ -1,14 +1,14 @@
 ---
-description: Adobe Report Builder 제거 방법을 설명하는 절차입니다.
-title: Report Builder 제거
+description: Adobe Report Builder 제거 방법을 알아봅니다.
+title: Report Builder 제거 방법
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
 role: User, Admin
 exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 

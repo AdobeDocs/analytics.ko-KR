@@ -4,10 +4,10 @@ title: 요청 마법사를 사용하여 경로 보고서 필터링
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 67%
+ht-degree: 62%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 67%
 
    ![](assets/select_a_pattern.png)
 
-   일부 패턴인 시작 경로의 다음 항목 패턴, 종료 경로의 이전 항목 패턴, 다음 항목 패턴은 Report Builder에만 국한됩니다.
+   일부 패턴인 시작 경로의 다음 항목 패턴, 종료 경로의 이전 항목 패턴, 다음 항목 패턴은 Report Builder에 따라 다릅니다.
 
 ## 미리 정의된 패턴을 편집하려면
 
