@@ -7,7 +7,7 @@ user-guide-description: Analysis Workspace, Analytics 대시보드, Report Build
 source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
-   + [시작(역할별)](get-started/get-started-by-role.md)
+   + [시작하기(역할별)](get-started/get-started-by-role.md)
    + [Analytics 인터페이스 이해](get-started/analytics-interface.md)
    + [사용 사례](get-started/use-cases.md)
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](get-started/which-analytics-tool.md)
@@ -310,7 +310,7 @@ ht-degree: 99%
    + [Activity Map 설정 구성](activity-map/activitymap-overlay-settings.md)
    + [Activity Map 사용자 인터페이스](activity-map/activitymap-user-interface.md)
    + [Analytics에서의 Activity Map 보고](activity-map/activitymap-reporting-analytics.md)
-   + [브라우저 확장 문제 해결](activity-map/troubleshooting-browser-extensions.md)
+   + [브라우저 확장 기능 문제 해결](activity-map/troubleshooting-browser-extensions.md)
    + [데이터 수집 문제 해결](activity-map/troubleshoot-data-collection.md)
 + Reports &amp; Analytics {#reports-analytics}
    + [Reports &amp; Analytics 시작하기](reports-analytics/getting-started.md)
