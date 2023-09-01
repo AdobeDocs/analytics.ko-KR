@@ -4,9 +4,9 @@ title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 71ebabf7efca70c0cbd2489dc538f7f10cae16cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 97%
 | **표시 행 제한 (페이지 매김 전)** | 400 | 200 | 50000 | 제한 없음 | 제한 없음 | 제한 없음 | 50000 |
 | **여러 보고서 세트** | [예](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 예. 제한 사항 있음 | 예 | 아니요 | 예 | 아니요 | 예 |
 | **분류 수** | 제한 없음 | 최대 2 | 최대 2 | 제한 없음 | 제한 없음 | 제한 없음 | 제한 없음, 여러 쿼리에서 실행 |
-| **세그먼테이션** <br> [자세히 알아보기](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 예 | 예 | 예 | 예. [제한 사항](/help/components/segmentation/seg-reference/seg-compatibility.md) 있음 | 예 | 아니요 | 예 |
-| **계산된 지표** <br> [자세히 알아보기](/help/components/c-calcmetrics/cm-overview.md) | 예. [속성 IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 예 | 예 | 아니요 | 예 | 아니요 | 예. [속성 IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
+| **세분화** <br> [자세히 알아보기](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 예 | 예 | 예 | 예. [제한 사항](/help/components/segmentation/seg-reference/seg-compatibility.md) 있음 | 예 | 아니요 | 예 |
+| **계산된 지표** <br> [자세히 알아보기](/help/components/c-calcmetrics/cm-overview.md) | 예. [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 예 | 예 | 아니요 | 예 | 아니요 | 예. [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
 | **마케팅 채널** <br> [자세히 알아보기](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 예 | 예 | 예 | 예 | 예 | 예 - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 예 |
 | **집단 분석** | [예](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 아니요 | 아니요 | 아니요 | 예 | 아니요 | 아니요 |
-| **속성** | 예. [속성 IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 제한적 | 제한적 | 아니요 | 예 | 아니요 | 예. [속성 IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
+| **속성** | 예. [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 제한적 | 제한적 | 아니요 | 예 | 아니요 | 예. [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
 | **가상 분석가 기능** <br> [자세히 알아보기](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 |
 | **큐레이션** <br> [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/curate.md) | 예 - 프로젝트 및 VRS | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 - VRS만 |
 | **프로젝트 공유** <br> [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 예. 프로젝트 역할 사용 | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
 | **예약된 게재** | 예 | 예 | 예 | 예 | 아니요 | 예 | 아니요 |
-| **게재 대상** | 이메일 | 이메일 | 이메일, FTP, SFTP, [Microsoft PowerBI에 게시](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 이메일, FTP. SFTP, Azure Blob, Amazon S3 등 추가적인 대상 지원을 받으려면 고객 지원 센터에 문의하십시오. | - | Amazon S3, Azure RBAC, Azure SAS 및 Google 클라우드 플랫폼 | - |
+| **게재 대상** | 이메일 | 이메일 | 이메일, FTP, SFTP, [Microsoft PowerBI에 게시](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 이메일, FTP. SFTP, Azure Blob, Amazon S3 등 추가적인 대상 지원을 받으려면 고객 지원 센터에 문의하십시오. | - | Amazon S3, Azure RBAC, Azure SAS 및 Google Cloud Platform | - |
 | **VRS 보고서 시간 처리** <br> [자세히 알아보기](/help/components/vrs/vrs-report-time-processing.md) | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 |
