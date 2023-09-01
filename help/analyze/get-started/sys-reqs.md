@@ -4,15 +4,15 @@ description: Adobe Analytics를 사용하기 위한 시스템 요구 사항입�
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 시스템 요구 사항 및 사전 요구 사항
 
-Adobe Analytics을 관리자로 구현하거나 분석가 또는 최종 사용자로 사용하기 전에 먼저 다음 사전 요구 사항과 시스템 요구 사항을 숙지해야 합니다.
+관리자가 Adobe Analytics를 구현하거나 분석가 또는 최종 사용자가 이를 사용하기 전에는 먼저 다음 사전 요구 사항과 시스템 요구 사항을 숙지해야 합니다.
 
 ## Adobe Analytics 사용을 위한 사전 요구 사항
 
@@ -30,7 +30,7 @@ Adobe Analytics를 사용하려면 먼저 다음 항목을 보유해야 합니�
 
 ## 시스템 요구 사항
 
-대부분의 Adobe Analytics 솔루션은 브라우저에서 실행됩니다. 다음 정보는 브라우저 및 클라이언트 솔루션 모두에 대한 시스템 요구 사항을 제공합니다.
+대부분의 Adobe Analytics 솔루션은 브라우저에서 실행됩니다. 다음 정보에는 브라우저 및 클라이언트 솔루션 모두에 대한 시스템 요구 사항이 포함되어 있습니다.
 
 ### 브라우저 기반 솔루션을 위한 시스템 요구 사항
 
