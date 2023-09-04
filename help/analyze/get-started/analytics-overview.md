@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Analytics 인터페이스에 대한 정보와 관리자, 분석가, 사용자 및 개발자를 위한 시작 정보가 포함됩니다.
-short-description: 분석가, 최종 사용자 및 관리자의 주요 기능, 일반적인 사용 사례 및 첫 번째 단계에 대해 알아봅니다.
+description: Adobe Analytics에 대한 일반적인 개요 정보이며, 여기에는 Analytics 인터페이스에 대한 정보와 관리자, 분석가, 사용자 및 개발자를 위한 시작 정보가 포함됩니다.
+short-description: 분석가, 최종 사용자 및 관리자를 위한 주요 기능, 일반적인 사용 사례 및 첫 번째 단계를 살펴보십시오.
 title: Adobe Analytics 개요
 feature: Analytics Basics
 source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
