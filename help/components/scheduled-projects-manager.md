@@ -3,9 +3,9 @@ description: 조직 전체에서 예약된 보고서를 보고 관리합니다.
 title: 예약된 프로젝트 관리자
 feature: Admin Tools
 source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 86%
 
 예약된 프로젝트를 관리할 때 반복되는 프로젝트 일정을 편집하고 삭제할 수 있습니다.
 
-* 파일 유형(.csv 또는 PDF) 변경
+* 파일 유형 변경 (.csv 또는 PDF)
 * 프로젝트 설명 업데이트
 * 수신자 추가 또는 제거
 * 빈도 변경
 
 예약된 프로젝트를 수정하려면
 
-1. 선택 **Analytics > 구성 요소 > 예약된 프로젝트**.
-1. 검색 창에서 또는 왼쪽 레일의 필터 옵션을 사용하여 예약을 검색하십시오. [!UICONTROL 태그], [!UICONTROL 소유자], [!UICONTROL  즐겨찾기] 등을 기준으로 필터링할 수 있습니다.
+1. **Analytics > 구성 요소 > 예약된 프로젝트**&#x200B;를 선택합니다.
+1. 검색 창에서 또는 왼쪽 레일의 필터 옵션을 사용하여 예약을 검색하십시오. [!UICONTROL 태그], [!UICONTROL 소유자], [!UICONTROL 즐겨찾기] 등을 기준으로 필터링할 수 있습니다.
 
-![제목, 소유자, 태그, 게재 대상 및 [사용 가능한 열] 섹션에 설명된 기타 열이 표시된 예약된 프로젝트 목록을 보여 주는 스크린샷입니다.](assets/scheduled-project-manager2.png)
+![제목, 소유자, 태그, 전달 대상 및 사용 가능한 열 섹션에 설명된 기타 열을 표시하는 열이 있는 예약된 프로젝트 목록을 보여 주는 스크린샷](assets/scheduled-project-manager2.png)
 
 ## 사용 가능한 열
 
