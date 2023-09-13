@@ -2,9 +2,9 @@
 description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입니다.
 title: Data Warehouse 요청 일반 설정
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: ea4c1ae21f2c83bad92723e6ffd2e706fac5e1e8
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '354'
 ht-degree: 27%
 
 ---
@@ -38,7 +38,7 @@ Data Warehouse 요청에 대한 일반 설정을 구성하려면 다음 작업�
    | 옵션 | 함수 |
    |---------|----------|
    | 요청 이름 | 이 이름은 요청을 관리할 때 기본 Data Warehouse 페이지에 표시됩니다. |
-   | 날짜 범위 | 보고서에 포함할 날짜 범위를 선택합니다. <p>사용자 지정 날짜 또는 사전 설정된 날짜 범위를 선택할 수 있습니다. 사전 설정 범위는 보고서를 보낸 날짜를 기준으로 합니다.</p><p>다음 사전 설정 옵션을 사용할 수 있습니다.</p><ul><li>오늘</li><li>어제</li><li>지난 7일</li><li>지난 30일</li><li>이번 주</li><li>지난주</li><li>지난 2주</li><li>지난 3주</li><li>지난 4주</li><li>이번 달</li><li>지난 달</li><li>지난 시간</li><li>오늘</li><li>오늘</li></ul> |
+   | 날짜 범위 | 보고서에 포함할 날짜 범위를 선택합니다. <p>사용자 지정 날짜 또는 사전 설정된 날짜 범위를 선택할 수 있습니다. 사전 설정 범위는 보고서를 보낸 날짜를 기준으로 합니다.</p><p>다음 사전 설정 옵션을 사용할 수 있습니다.</p><ul><li>오늘</li><li>어제</li><li>지난 7일</li><li>지난 30일</li><li>이번 주</li><li>지난주</li><li>지난 2주</li><li>지난 3주</li><li>지난 4주</li><li>이번 달</li><li>지난 달</li><li>지난 시간</li></ul> |
    | 세부 기간 | <!--what does this setting do? It's not the schedule/frequency... --> 시간 세부기간입니다. 유효한 값은 없음, 시간대별, 일일, 주간, 월간, 분기별 및 연간입니다.<p>세부기간별로 보고하려면 추가 처리 시간이 필요합니다. 1년의 월간 세부기간을 보고하는 경우 매달 보고서 요청을 제출하면 보고서가 훨씬 더 빠르게 처리됩니다.</p> |
 
    {style="table-layout:auto"}
