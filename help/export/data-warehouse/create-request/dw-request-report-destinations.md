@@ -2,10 +2,10 @@
 description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입니다.
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 8%
+source-wordcount: '2084'
+ht-degree: 16%
 
 ---
 
@@ -59,13 +59,13 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       | 필드 | 함수 |
       |---------|----------|
-      | [!UICONTROL **계정 유형**] | 클라우드 계정 유형을 선택합니다. 각 계정 유형에 대해 해당 계정 내에서 필요에 따라 여러 위치가 있는 단일 계정을 사용하는 것이 좋습니다. <p>계정 유형을 선택하면 해당 계정 유형과 관련된 필드가 표시됩니다. 각 계정 유형에 대한 구성 지침을 보려면 선택한 항목에 해당하는 아래 섹션을 확장합니다. </p> |
+      | [!UICONTROL **계정 유형**] | 클라우드 계정 유형을 선택합니다. 각 계정 유형에 대해 해당 계정 내에서 필요에 따라 여러 위치가 있는 단일 계정을 사용하는 것이 좋습니다. <p>계정 유형을 선택하면 해당 계정 유형과 관련된 필드가 표시됩니다. </p> |
       | [!UICONTROL **계정 이름**] | 계정 이름을 지정합니다. 이 이름은 위치를 만들 때 나타납니다. <!-- true? --> |
       | [!UICONTROL **계정 설명**] | 동일한 계정 유형의 다른 계정과 구분하는 데 도움이 되도록 계정에 대한 간단한 설명을 입력합니다. |
 
       구성 지침을 보려면 아래에 있는 해당 섹션을 확장합니다. [!UICONTROL **계정 유형**] 을(를) 선택합니다.
 
-      보고서 대상을 구성할 때 다음 계정 유형을 사용하십시오. 구성 지침을 보려면 계정 유형을 확장합니다. (추가 레거시 대상 <!-- add link --> 사용할 수도 있지만 권장되지는 않습니다.)
+      보고서 대상을 구성할 때 다음 계정 유형을 사용하십시오. 구성 지침을 보려면 계정 유형을 확장합니다. (추가 [이전 대상](#legacy-destinations) 사용할 수도 있지만 권장되지는 않습니다.)
 
       +++Amazon S3
 
@@ -134,7 +134,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
    1. 다음에서 [!UICONTROL **위치 속성**] 섹션에서 위치 계정의 계정 유형과 관련된 정보를 지정합니다.
 
-      구성 지침을 보려면 이전에 선택한 계정 유형에 해당하는 아래 섹션을 확장합니다.
+      구성 지침을 보려면 아래에 있는 해당 섹션을 확장합니다. [!UICONTROL **계정 유형**] 을(를) 이전에 선택했습니다.
 
       +++Amazon S3
 
@@ -194,3 +194,67 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
       이제 구성한 계정 및 위치로 데이터를 가져올 수 있습니다.
 
 1. 에서 Data Warehouse 요청 구성 계속 [!UICONTROL **보고서 옵션**] 탭. 자세한 내용은 [Data Warehouse 요청에 대한 보고서 옵션 구성](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+
+## 이전 대상
+
+>[!IMPORTANT]
+>
+>이 섹션에 설명된 대상은 기존 대상이며, 권장되지 않습니다. 대신 데이터 웨어하우스 대상을 만들 때 Amazon S3, Google Cloud Platform, Azure RBAC, Azure SAS 또는 이메일 대상 중 하나를 사용합니다. 이러한 각 권장 대상에 대한 자세한 내용은 위의 정보를 참조하십시오.
+
+다음 정보는 각 기존 대상에 대한 구성 정보를 제공합니다.
+
+### FTP
+
+Data Warehouse 데이터는 Adobe 또는 고객 호스팅 FTP 위치로 배달될 수 있습니다. FTP 호스트, 사용자 이름 및 암호가 필요합니다. 폴더에 피드 파일을 배치하려면 경로 필드를 사용하십시오. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않을 경우 피드에서 오류가 발생합니다.
+
+사용 가능한 필드를 완성할 때 다음 정보를 사용하십시오.
+
+* [!UICONTROL **호스트**]: 원하는 FTP 대상 URL을 입력합니다. (예: `ftp://ftp.omniture.com`)
+* [!UICONTROL **경로**]: 비워 둘 수 있음
+* [!UICONTROL **사용자 이름**]: FTP 사이트에 로그인할 사용자 이름을 입력합니다.
+* [!UICONTROL **암호 및 암호 확인**]: FTP 사이트에 로그인할 암호를 입력합니다.
+
+### SFTP
+
+Data Warehouse에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RSA 또는 DSA 공개 키를 포함하기 위해 SFTP 호스트, 사용자 이름 및 대상 사이트가 필요합니다. Data Warehouse 대상을 만들 때 적절한 공개 키를 다운로드할 수 있습니다.
+
+### S3
+
+웨어하우스 데이터를 Amazon S3 버킷으로 직접 보낼 수 있습니다. 이 대상 유형에는 버킷 이름, 액세스 키 ID 및 보안 키가 필요합니다. 자세한 내용은 Amazon S3 문서 내의 [Amazon S3 버킷 이름 지정 요구 사항](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)을 참조하십시오.
+
+Data Warehouse 데이터 업로드를 위해 제공한 사용자에는 다음 항목이 있어야 합니다 [권한](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+다음 16개의 표준 AWS 지역이 지원됩니다(필요한 경우 적절한 서명 알고리즘 사용).
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>cn-north-1 지역은 지원되지 않습니다.
+
+### Azure Blob
+
+Data Warehouse는 Azure Blob 대상을 지원합니다. 컨테이너, 계정 및 키가 필요합니다. Amazon은 데이터를 사용하지 않을 때 자동으로 암호화합니다. 데이터를 다운로드할 때 데이터 암호화는 자동으로 해제됩니다. 자세한 내용은 Microsoft Azure 문서 내에서 [저장소 계정 만들기](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)를 참조하십시오.
+
+>[!NOTE]
+>
+>Data Warehouse 대상의 디스크 공간을 관리하려면 자체 프로세스를 구현해야 합니다. Adobe는 서버에서 데이터를 삭제하지 않습니다.

@@ -2,7 +2,7 @@
 description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입니다.
 title: Data Warehouse 요청에 대한 보고서 옵션 구성
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 15%
@@ -37,8 +37,8 @@ Data Warehouse 요청에 대한 알림 이메일을 구성하려면 다음 작�
 
    | 옵션 | 함수 |
    |---------|----------|
-   | 다음으로 알림 이메일 보내기 | 보고서를 전송할 때 이메일 알림을 받을 사람의 이메일 주소를 지정합니다. <p>단일 이메일 주소 또는 쉼표로 구분된 이메일 주소 목록을 지정할 수 있습니다.</p> |
-   | 고급 옵션 | 알림을 전송할 때 이메일의 제목과 메모를 포함하려면 이 옵션을 선택하십시오. |
+   | [!UICONTROL **다음으로 알림 이메일 보내기**] | 보고서를 전송할 때 이메일 알림을 받을 사람의 이메일 주소를 지정합니다. <p>단일 이메일 주소 또는 쉼표로 구분된 이메일 주소 목록을 지정할 수 있습니다.</p> |
+   | [!UICONTROL **고급 옵션**] | 알림을 전송할 때 이메일의 제목과 메모를 포함하려면 이 옵션을 선택하십시오. |
 
    {style="table-layout:auto"}
 
