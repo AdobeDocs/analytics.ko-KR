@@ -3,10 +3,10 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 81f30a16fce33350aaf02fd8c6cf5011489c8250
+source-git-commit: bd73793e865ce73affc5536b2e95aae143f99a04
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 69%
+source-wordcount: '800'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0의 분류 세트** | 분류 세트 데이터의 저장, 삭제, 검색, 가져오기 및 내보내기를 위한 Adobe Analytics API 2.0 메서드를 제공합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 해당 사항 없음 | 2023년 9월 13일 |
+| **API 2.0의 분류** | 분류 세트 데이터의 저장, 삭제, 검색, 가져오기 및 내보내기를 위한 Adobe Analytics API 2.0 메서드를 제공합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 해당 사항 없음 | 2023년 9월 13일 |
 | **신규 지원 `correlationID` A4T 분류를 위한 필드** | 다음 `_experience.decisioning.propositions.scopeDetails.correlationID` 이제 Adobe Analytics 소스 커넥터 스키마에서 필드를 사용할 수 있습니다. Adobe Target 활동 및 경험 이벤트에 대한 분류 데이터를 쉽게 조인할 수 있도록 이 ID를 추가하고 있습니다. | 해당 사항 없음 | 2023년 9월 13일 |
 | **데이터 웨어하우스 개선 사항** | 이제 Data Warehouse 요청을 만들 때 를 보고서 대상으로 사용하도록 클라우드 계정을 구성할 수 있습니다. 데이터를 전송하는 데 다음 클라우드 계정 유형을 사용할 수 있습니다.<ul><li>Amazon S3</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li><li>이메일(이 옵션은 이전에 사용할 수 있었습니다.)</li></ul>FTP, SFTP, Azure Blob 및 S3는 여전히 보고서 대상으로 사용할 수 있지만 더 이상 권장되지 않습니다.<p>Data Warehouse 요청을 만들고 관리할 때의 사용자 경험도 개선되었습니다. 자세한 내용은 [Data Warehouse 요청 만들기](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html) 및 [Data Warehouse 요청 관리](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ko-KR). | 2023년 9월 13일 | 2023년 10월 4일 |
 
