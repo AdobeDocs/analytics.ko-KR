@@ -3,7 +3,7 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d4868971596c43721e0d642ae3ad91c316fc6908
+source-git-commit: 81f30a16fce33350aaf02fd8c6cf5011489c8250
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 69%
@@ -12,7 +12,7 @@ ht-degree: 69%
 
 # 현재 Adobe Analytics 릴리스 정보 (2023년 9월)
 
-**마지막 업데이트**: 2023년 9월 6일
+**마지막 업데이트**: 2023년 9월 13일
 
 9월 릴리스 정보는 2023년 9월 13일부터 2023년 10월 3일까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
