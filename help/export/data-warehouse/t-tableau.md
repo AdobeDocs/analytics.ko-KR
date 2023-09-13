@@ -3,26 +3,15 @@ description: Data Warehouse는 보고서를 Adobe Analytics의 외부에서 데�
 title: 타블로 데이터 파일
 feature: Data Warehouse
 exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 4243f10376e5e33c1d9bd439042b396bd4747f1f
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '98'
+ht-degree: 42%
 
 ---
 
-# 타블로 데이터 파일
+# Tableau용 Data Warehouse 보고서 구성
 
-Data Warehouse는 보고서를 Adobe Analytics의 외부에서 데이터와 레이어를 추가적인 데이터로 시각화할 수 있도록 해주는 TDE(타블로 데이터 추출) 파일 형식으로 제공할 수 있습니다. 이 정보는 이메일로 전송하거나 FTP로 FTP 사이트에 전송할 수 있습니다.
+Data Warehouse은 보고서를 TDE(Tableau Data Extract) 파일 형식으로 제공할 수 있으며, 이 파일 형식을 사용하여 Tableau 내에서 추가 데이터로 데이터 및 레이어를 시각화할 수 있습니다.
 
-자세한 내용은 [타블로와 Adobe Analytics](https://www.tableausoftware.com/about/blog/2014/3/tableau-and-adobe-analytics-digital-marketing-gets-even-more-awesome-29491)를 참조하십시오.
-
-1. Data Warehouse 요청 탭에서, 보고서 정의를 설정한 다음, **[!UICONTROL 배달 예약]** > **[!UICONTROL 고급 배달 옵션]**&#x200B;으로 이동합니다.
-1. **[!UICONTROL 고급 배달 옵션]** 페이지의 **[!UICONTROL 보고서 형식]**&#x200B;에서 **[!UICONTROL 타블로 형식(TDE)]**&#x200B;을 선택합니다.
-1. 이 보고서를 압축 파일로 전송할지를 선택합니다.
-1. 보고서를 이메일이나 FTP로 전송합니다.
-
-1. **[!UICONTROL 배달 예약]** > **[!UICONTROL 고급 배달 옵션]**&#x200B;으로 이동합니다.
-1. **[!UICONTROL 보고서 대상]** 아래에서 **[!UICONTROL FTP]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 호스트]**, **[!UICONTROL 디렉토리]**, **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]**&#x200B;를 입력합니다.
-
-   기본 포트 번호는 21입니다. 1. **[!UICONTROL 보내기]**&#x200B;를 클릭합니다.
+TDE 형식으로 게재되도록 Data Warehouse 보고서를 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Data Warehouse 요청에 대한 보고서 옵션 구성](/help/export/data-warehouse/create-request/dw-request-report-options.md).

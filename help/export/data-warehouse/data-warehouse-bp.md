@@ -5,18 +5,16 @@ title: Data Warehouse 우수 사례
 feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 98%
+source-wordcount: '291'
+ht-degree: 89%
 
 ---
 
 # Data Warehouse 우수 사례
 
-Data Warehouse는 사용자 지정 보고서를 실행할 수 있는 유연한 인터페이스를 제공합니다. 다음 지침을 따르면 데이터를 검색할 때 소요되는 시간을 줄이는 데 도움이 될 수 있습니다.
-
-
+Data Warehouse는 사용자 지정 보고서를 실행할 수 있는 유연한 인터페이스를 제공합니다. 다음 지침을 사용하여 데이터를 검색하는 데 걸리는 시간을 줄일 수 있습니다.
 
 | 지침 | 설명 |
 |--- |--- |

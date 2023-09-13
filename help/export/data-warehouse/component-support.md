@@ -3,32 +3,32 @@ title: Data Warehouse의 구성 요소 지원
 description: Data Warehouse에서 사용할 수 있는 추가 차원 및 지표와 지원되지 않는 항목을 알아봅니다.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 65%
 
 ---
 
 # Data Warehouse의 구성 요소 지원
 
-Data Warehouse의 고유한 처리 아키텍처를 통해 일반적으로 Adobe Analytics의 다른 기능에서 사용할 수 없는 일부 구성 요소를 사용할 수 있습니다. 고유한 아키텍처로 인해 일부 구성 요소는 보고서나 세그먼트에서 사용할 수 없습니다. 이 페이지에서 사용할 수 있는 것과 사용할 수 없는 것을 파악합니다.
+Data Warehouse 아키텍처의 고유한 처리를 통해 Adobe Analytics의 다른 기능에서 일반적으로 사용할 수 없는 일부 구성 요소를 사용할 수 있습니다. 고유한 아키텍처로 인해 일부 구성 요소는 보고서나 세그먼트에서 사용할 수 없습니다. 이 페이지에서 사용할 수 있는 것과 사용할 수 없는 것을 파악합니다.
 
 ## Data Warehouse에 고유한 구성 요소
 
-일부 차원 및 지표는 Data Warehouse에서 사용할 수 있지만 Adobe Analytics의 다른 기능을 사용할 수 없습니다.
+Adobe Analytics에서 다른 기능을 사용할 때는 Data Warehouse에 사용할 수 있는 일부 차원과 지표를 사용할 수 없습니다.
 
 ### 전용 차원 지원
 
-* Experience Cloud ID: ECID(Experience Cloud ID Service)를 사용하는 구현의 경우 연결된 두 개의 64비트 숫자로 구성된 128비트 숫자를 19자리로 채워줍니다.
-* 페이지 URL: 히트가 발생한 페이지 URL입니다.
-* 구매 ID: purchaseID 변수를 사용하여 설정한 구매에 대한 고유 식별자입니다.
-* 방문자 ID: 방문자에 대한 고유 식별자를 제공합니다. 이 값은 데이터 피드에서 `visid_high` 및 `visid_low` 열의 연결된 값과 동일합니다. 자세한 내용은 데이터 피드 아래의 [데이터 열 참조](../analytics-data-feed/c-df-contents/datafeeds-reference.md)를 참조하십시오.
+* **EXPERIENCE CLOUD ID**: ECID(Experience Cloud ID 서비스)를 사용하는 구현의 경우, 연결된 두 개의 64비트 숫자로 구성된 128비트 숫자를 19자리로 채워줍니다.
+* **페이지 URL**: 히트가 발생한 페이지 URL입니다.
+* **구매 ID**: purchaseID 변수를 사용하여 설정한 구매에 대한 고유 식별자입니다.
+* **방문자 ID**: 방문자에 대한 고유 식별자를 제공합니다. 이 값은 데이터 피드에서 `visid_high` 및 `visid_low` 열의 연결된 값과 동일합니다. 자세한 내용은 데이터 피드 아래의 [데이터 열 참조](../analytics-data-feed/c-df-contents/datafeeds-reference.md)를 참조하십시오.
 
 ### 전용 지원 지표
 
-* 방문 횟수: Data Warehouse 컨텍스트에서 이 지표는 비영구 쿠키 방문 횟수를 제외합니다.
-* 방문 횟수 - 전체 방문자 수: Data Warehouse 컨텍스트에서 이 지표는 Adobe Analytics 내에 있는 다른 도구의 방문 횟수 지표와 더 가깝게 일치합니다.
+* **방문 횟수**: Data Warehouse 컨텍스트에서 이 지표는 비영구 쿠키 방문을 제외합니다.
+* **방문 횟수 - 모든 방문자 수**: Data Warehouse 컨텍스트에서 이 지표는 Adobe Analytics 내의 다른 도구에 있는 방문 지표와 더 가깝게 일치합니다.
 
 ## Data Warehouse에서 지원되지 않는 구성 요소
 

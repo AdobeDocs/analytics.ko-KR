@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터를 내보내고 Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색하는 방법에 대해 알아봅니다. FTP와 SFTP를 사용하여 파일을 전송하는 방법에 대해 알아봅니다.
-source-git-commit: 78ec6e91e64791d2f8a5386518d3d64403b2170a
-workflow-type: ht
-source-wordcount: '295'
+source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
+workflow-type: tm+mt
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -36,11 +36,17 @@ ht-degree: 100%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 개요](data-warehouse/data-warehouse.md)
    + [Data Warehouse 사용자 그룹 추가](data-warehouse/t-dw-group.md)
-   + [Data Warehouse 요청 만들기](data-warehouse/t-dw-create-request.md)
+   + Data Warehouse 요청 만들기 {#dw-create-request}
+      + [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md)
+      + [일반 설정](/help/export/data-warehouse/create-request/dw-general-settings.md)
+      + [보고서 작성](/help/export/data-warehouse/create-request/dw-request-build-report.md)
+      + [보고서 대상](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+      + [보고서 옵션](/help/export/data-warehouse/create-request/dw-request-report-options.md)
+      + [예약 옵션](/help/export/data-warehouse/create-request/dw-request-scheduling.md)
+      + [알림 이메일](/help/export/data-warehouse/create-request/dw-request-email.md)
    + [게재 시간 요청](data-warehouse/delivery-time.md)
    + [타블로 데이터 파일](data-warehouse/t-tableau.md)
    + [지표로 정렬](data-warehouse/sorting-by-metric.md)
-   + [반복 요청 예약](data-warehouse/dw-schedule-recurring.md)
    + [Data Warehouse 요청 관리](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse에서 지원되는 구성 요소](data-warehouse/component-support.md)
    + [Data Warehouse FAQ](data-warehouse/faq.md)
