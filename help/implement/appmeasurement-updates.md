@@ -3,10 +3,10 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 96%
+source-wordcount: '2414'
+ht-degree: 95%
 
 ---
 
@@ -17,6 +17,13 @@ JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 에서 최신 버전의 AppMeasurement을 다운로드할 수 있습니다. [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## 버전 2.25.0
+
+릴리스 일자: **2023년 9월 12일**
+
+* 선택적 구성(`bufferRequests`) 를 사용하면 브라우저가 비콘 API를 제대로 지원하지 않거나 페이지를 언로드할 때 요청을 취소할 수 있는 시나리오에서 요청 캡처의 안정성을 향상시킬 수 있습니다.
+* 단일 추적 요청에 대한 여러 추적 후 콜백을 방지하는 보호 장치가 추가되었습니다.
 
 ## 버전 2.24.0
 
