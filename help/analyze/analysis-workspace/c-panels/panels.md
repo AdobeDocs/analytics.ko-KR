@@ -4,7 +4,7 @@ title: 패널 개요
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 57%
@@ -28,7 +28,7 @@ Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 | [자유 형식 패널](freeform-panel.md) | 무제한 비교 및 분석을 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
 | [미디어 분당 평균 시청 시간 패널](average-minute-audience-panel.md) | 시간 경과에 따른 분당 평균 시청 시간을 분석하고 최대 조회수에 대한 세부 정보와 분류 및 비교 기능을 제공합니다. |
 | [미디어 동시 뷰어 패널](media-concurrent-viewers.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
-| [미디어 재생 소요 시간 패널](media-playback-timespent/media-playback-time-spent.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
+| [미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
 | [세그먼트 비교 패널](c-segment-comparison/segment-comparison.md) | 모든 데이터 포인트에서 두 세그먼트를 빠르게 비교하여 관련 차이점을 자동으로 찾습니다. |
 
 ![](assets/panel-overview.png)
@@ -50,7 +50,7 @@ Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 패널 달력은 패널 내의 테이블 및 시각화에 대한 보고 범위를 제어합니다.
 
 >[!NOTE]
->&#x200B;(보라색) 날짜 범위 구성 요소가 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 경우 패널 달력을 재정의합니다.
+>(보라색) 날짜 범위 구성 요소가 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 경우 패널 달력을 재정의합니다.
 
 ![](assets/panel-calendar.png)
 

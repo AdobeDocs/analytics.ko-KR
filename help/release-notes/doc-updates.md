@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
-workflow-type: ht
-source-wordcount: '5089'
-ht-degree: 100%
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+workflow-type: tm+mt
+source-wordcount: '5136'
+ht-degree: 99%
 
 ---
 
@@ -26,12 +26,13 @@ ht-degree: 100%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 9월** | |
+| 미디어 재생 소요 시간 패널에 대한 문서 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 폴더 콘텐츠를 단일 문서로 결합했습니다. [미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>이 변경 사항은 다른 패널에 대한 설명서와 더 일치합니다.</p> |
 | 시작 콘텐츠 개선 사항 | 관리자, 분석가, 최종 사용자 및 개발자를 위한 주요 시작 작업 및 리소스에 대해 간략하게 설명하는 정보가 추가되었습니다. 이제 다음 문서를 사용할 수 있습니다. <ul><li>[시작하기 (역할별)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics 인터페이스 이해](/help/analyze/get-started/analytics-interface.md)<li>[사용 사례](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Media Analytics 보고 설명서 개선 | API 설명서를 자체 섹션에 통합하고 일부 문서의 순서를 조정하는 것을 포함하여 스트리밍 미디어 안내서의 보고 섹션에 있는 일부 콘텐츠를 재구성했습니다. <p>제품 내 이름과 보다 일치하도록 Media Workspace 템플릿 문서의 이름을 [Workspace의 미디어 보고서](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html)로 변경했습니다. </p> |
 | **2023년 8월** | |
 | 데이터 피드 설명 | 내역 데이터에 대한 데이터 피드를 처리할 때 데이터 수집 시 시작 일자를 원하는 과거의 일자로 설정할 수 있도록 [시작 및 종료 일자 정의](/help/export/analytics-data-feed/create-feed.md)가 업데이트되었습니다. |
 | Experience Edge 데이터 처리 | Adobe Analytics에서 [Experience Edge의 데이터를 처리](../implement/aep-edge/overview.md)하는 방법에 대한 콘텐츠를 추가합니다. |
-| 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
+| 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
 | 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 문서에 있었습니다. |
 | 구현 방법 비교 | 다양한 구현 방법을 비교하는 설명서가 업데이트되었습니다. [자세히 알아보기](../implement/prepare/comparison.md) |
 | 데이터 피드에 대해 SFTP를 구성하는 데 Adobe 고객 지원이 필요하지 않음을 명확히 했습니다. | 데이터 피드에 대해 SFTP를 구성하기 위해 고객이 Adobe 고객 지원에 참여할 필요가 없음을 [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)에서 명확히 했습니다. <p>또한 SFTP는 더 이상 권장되지 않으며 고객은 데이터 피드를 구성할 때 클라우드 대상을 사용해야 한다는 메모를 추가했습니다.</p> |

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1105'
 ht-degree: 100%
 
 ---
@@ -117,10 +117,7 @@ ht-degree: 100%
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [미디어 대상자 평균 시간 패널](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [미디어 동시 뷰어 패널](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + 미디어 재생 소요 시간 {#media-playback-timespent}
-         + [개요](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [입력 및 출력 설정](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [FAQ](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [미디어 재생 소요 시간 패널](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [다음 또는 이전 항목 패널](analysis-workspace/c-panels/next-previous.md)
       + [페이지 요약 패널](analysis-workspace/c-panels/page-summary.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
