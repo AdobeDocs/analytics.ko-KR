@@ -78,7 +78,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud 플랫폼
 
@@ -90,7 +90,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -106,7 +106,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -120,7 +120,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++이메일
 
@@ -147,7 +147,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud 플랫폼
 
@@ -160,7 +160,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -173,7 +173,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -187,7 +187,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
    1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
