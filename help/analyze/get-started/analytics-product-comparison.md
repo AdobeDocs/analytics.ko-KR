@@ -4,9 +4,9 @@ title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 0579715d33db28f1741eed2b1aa1520d3beb757b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
