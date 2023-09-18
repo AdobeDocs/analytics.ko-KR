@@ -4,9 +4,9 @@ title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 8507ce3f7e4d09956ad88c2be5335b68c8e3b8a0
+source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '781'
 ht-degree: 18%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->모든 고객이 곧 사용할 수 있는 새로운 Data Warehouse 경험이 조직에 아직 없는 경우 의 정보를 사용하십시오. [Data Warehouse 요청 관리(이전 경험)](#manage-data-warehouse-requests-old-experience)
+>모든 고객이 곧 사용할 수 있는 새로운 Data Warehouse 경험이 조직에 아직 없는 경우 의 정보를 사용하십시오. [Data Warehouse 요청 관리(이전 경험)](#manage-data-warehouse-requests-old-experience) 이 페이지의 맨 아래에 있습니다.
 
 
 수행한 Data Warehouse 요청을 관리할 수 있습니다. 다음 섹션에서는 요청을 관리할 때 수행할 수 있는 활동에 대해 설명합니다. <!-- just those you have made? I think you can see other people's requests (you can filter by them). What can you do with other people's requests? Just view them?-->
