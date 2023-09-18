@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: Adobe에 히트를 보낸 후 콜백 함수를 만듭니다.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 79%
+ht-degree: 72%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 >[!WARNING]
 >
->[`t()`](t-method.md) 변수 내에서 [`tl()`](tl-method.md) 또는 `registerPostTrackCallback` 같은 추적 호출을 호출하지 마십시오. 이 변수에서 추적 함수를 사용하면 이미지 요청의 무한 루프가 발생합니다.
+>다음과 같은 추적 호출을 하지 마십시오. [`t()`](t-method.md) 또는 [`tl()`](tl-method.md) 의 내부 `registerPostTrackCallback` 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다. 이 변수에서 추적 호출을 설정하면 이미지 요청의 무한 루프가 발생합니다.
 
 `registerPostTrackCallback` 변수를 호출할 때마다 이미지 요청이 성공적으로 전송된 직후 해당 함수를 실행하도록 후크합니다. 동일한 페이지 로드에서 동일한 함수를 여러 번 등록하지 마십시오.
 
@@ -73,7 +73,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-## 사용 사례 예
+## 사용 사례
 
 사후 추적 콜백의 [`clearVars()`](clearvars.md) 함수를 등록하는 것은 단일 페이지 애플리케이션에 유익할 수 있습니다. 히트를 Adobe에 성공적으로 보낼 때마다 `clearVars()` 함수가 실행됩니다. 그러면 구현 시 값이 잘못 유지될 염려없이 변수를 다시 정의할 수 있습니다.
 

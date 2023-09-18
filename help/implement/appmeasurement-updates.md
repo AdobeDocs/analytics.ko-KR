@@ -3,10 +3,10 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
+source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 92%
 
 ---
 
@@ -22,14 +22,14 @@ JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 
 릴리스 일자: **2023년 9월 12일**
 
-* 선택적 구성(`bufferRequests`) 를 사용하면 브라우저가 비콘 API를 제대로 지원하지 않거나 페이지를 언로드할 때 요청을 취소할 수 있는 시나리오에서 요청 캡처의 안정성을 향상시킬 수 있습니다.
+* 선택적 메서드를 추가했습니다. [`bufferRequests()`](vars/functions/bufferrequests.md) 브라우저가 비콘 API를 지원하지 않거나 페이지 언로드 시 요청을 취소하는 경우 요청 캡처의 안정성을 향상시킵니다.
 * 단일 추적 요청에 대한 여러 추적 후 콜백을 방지하는 보호 장치가 추가되었습니다.
 
 ## 버전 2.24.0
 
 릴리스 일자: **2023년 7월 18일**
 
-* 선택적 구성(`decodeLinkParameters` - 기본값 = false), 더블바이트로 인코딩된 문자가 포함된 링크 URL을 디코딩합니다.
+* 선택적 구성 변수를 추가했습니다. [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) 더블바이트로 인코딩된 문자가 포함된 링크 URL을 디코딩합니다.
 * 높은 엔트로피 사용자 에이전트 클라이언트 힌트 API가 잘못된 브라우저에 대한 추가 오류 처리가 추가되었습니다.
 * 사용할 POST Content-Type 헤더를 변경했습니다. `x-www-form-urlencoded` 기본적으로.
 
@@ -37,25 +37,25 @@ JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 
 릴리스 일자: **2022년 9월 23일**
 
-* AppMeasurement는 이제 Chromium 브라우저(Google Chrome 및 Microsoft Edge)가 디바이스 정보를 제공하는 데 사용하는 높은 엔트로피 사용자 에이전트 클라이언트 힌트 수집을 지원합니다. 태그를 통해 클라이언트 힌트를 구성하거나 “collectHighEntropyUserAgentHints” 플래그를 사용할 수 있습니다. 높은 엔트로피 힌트 수집은 기본적으로 꺼져 있습니다. 사용자 에이전트 [클라이언트 힌트](/help/technotes/client-hints.md)에 대해 자세히 알아보십시오.
+* AppMeasurement는 이제 Chromium 브라우저(Google Chrome 및 Microsoft Edge)가 디바이스 정보를 제공하는 데 사용하는 높은 엔트로피 사용자 에이전트 클라이언트 힌트 수집을 지원합니다. 태그를 통해 클라이언트 힌트를 구성하거나 [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) 구성 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다. 높은 엔트로피 힌트 수집은 기본적으로 비활성화되어 있습니다. 사용자 에이전트 [클라이언트 힌트](/help/technotes/client-hints.md)에 대해 자세히 알아보십시오.
 
 ## 버전 2.22.4
 
 릴리스 일자: **2022년 1월 18일**
 
-* 링크 추적 호출 `s.tl()`은(는) 이제 전달된 오브젝트에 유형 `string`의 `href` 속성이 포함되어 있는지 확인합니다. `string`이(가) 아닌 경우 실패하는 대신 `href` 속성을 정상적으로 무시합니다. 이는 `svg` 오브젝트를 링크 추적 호출에 전달할 때 발생할 수 있습니다.
+* 링크 추적 호출 `s.tl()`은(는) 이제 전달된 오브젝트에 유형 `string`의 `href` 속성이 포함되어 있는지 확인합니다. 가 아닌 경우 `string`를 입력하면 를 정상적으로 무시합니다. `href` 실패하는 대신 속성을 사용합니다. 이 시나리오는 다음을 통과할 때 발생할 수 있습니다. `svg` 링크 추적 호출에 대한 개체입니다.
 
 ## 버전 2.22.3
 
 릴리스 일자: **2021년 10월 11일**
 
-* 현재 도움말 위치를 가리키도록 도움말 설명서를 참조하는 파일을 업데이트했습니다.
+* 설명서를 가리키는 파일의 링크가 업데이트되었습니다.
 
 ## 버전 2.22.2
 
 릴리스 일자: **2021년 9월 7일**
 
-* 이 업데이트로 인해 링크를 추적할 때 `opt.dmp` 및 `opt.sell`가 항상 포함됩니다. 다음은 [동의 변수의 전체 목록](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=ko-KR)입니다.
+* 이 업데이트로 인해 링크를 추적할 때 `opt.dmp` 및 `opt.sell`가 항상 포함됩니다. 다음을 참조하십시오. [개인 정보 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 자세한 내용은 관리자 안내서를 참조하십시오.
 
 ## 버전 2.22.1
 
