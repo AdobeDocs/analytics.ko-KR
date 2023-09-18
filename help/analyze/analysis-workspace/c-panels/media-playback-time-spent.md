@@ -4,7 +4,7 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 23f34a5588abc125427346ead3f49a25d178aa7f
+source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -76,7 +76,7 @@ Media Analytics 고객은 재생 시간을 분석하여 콘텐츠 품질 및 시
 |---|---|
 | 재생 소요 시간 | 일시 중지, 버퍼 및 시작 시간을 포함하여 선택한 세부 기간 동안 시청한 콘텐츠의 총 시간:minutes:초(또는 분)입니다. |
 
-### FAQ
+## FAQ
 
 | 질문 | 답변 |
 |---|---|
