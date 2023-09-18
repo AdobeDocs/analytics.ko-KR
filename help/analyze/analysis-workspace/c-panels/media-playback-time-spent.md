@@ -4,7 +4,7 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
+source-git-commit: 95f28d537e6e7538133ebd04d185ebcfd28a13d4
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -32,13 +32,10 @@ Media Analytics 고객은 재생 시간을 분석하여 콘텐츠 품질 및 시
 ## 미디어 재생 소요 시간 패널 사용
 
 1. Media Analytics 구성 요소가 활성화된 보고서 세트로 이동합니다.
-
 1. 맨 왼쪽에서 패널 아이콘을 선택한 다음 패널을 Analysis Workspace 프로젝트로 드래그합니다.
-
 1. 다음 섹션으로 계속 진행하여 미디어 재생 소요 시간 패널을 사용자 정의합니다
 
    * [패널 입력](#panel-inputs)
-
    * [패널 출력](#panel-output)
 
 ## 패널 입력 {#Input}
