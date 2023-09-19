@@ -2,10 +2,10 @@
 description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입니다.
 title: Data Warehouse 요청에 대한 보고서 옵션 구성
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 19%
+source-wordcount: '532'
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ Data Warehouse 요청에 대한 보고서 옵션을 구성하려면 다음 작�
 
    | 옵션 | 함수 |
    |---------|----------|
-   | [!UICONTROL **파일 이름**] | 보고서를 식별합니다. |
+   | [!UICONTROL **파일 이름**] | 보고서를 식별합니다. <p>파일 이름에 다음 특수 문자가 사용되는 경우 요청을 저장할 수 없습니다. <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>% 문자 뒤에는 다음과 같이 &quot;R&quot;, &quot;rsid&quot; 또는 &quot;id&quot;가 와야 사용할 수 있습니다. <code>%R</code>, <code>%rsid</code>, 및 <code>%id</code>.</p> |
    | [!UICONTROL **파일 이름에 보고서 날짜 범위 추가**] | 보고서 파일 이름에 날짜 범위를 추가합니다. <p>예를 들어 2024년 5월 1일부터 2024년 5월 7일까지의 데이터를 요청하는 경우 파일 이름에 20240501 - 20240507 날짜 범위가 포함됩니다.</p> |
    | [!UICONTROL **CSV**] | 스프레드시트에서 데이터를 보기 위해 보고서를 CSV 파일 형식으로 전달합니다. |
    | [!UICONTROL **타블로(TDE)**] | 보고서를 TDE(타블로 데이터 추출) 파일 형식으로 전달합니다. 이 파일 형식은 타블로 내에서 추가 데이터로 데이터와 레이어를 시각화하는 데 사용할 수 있습니다. |
