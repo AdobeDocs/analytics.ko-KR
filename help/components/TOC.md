@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
-workflow-type: ht
-source-wordcount: '726'
-ht-degree: 100%
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 98%
 
 ---
 
@@ -171,6 +171,7 @@ ht-degree: 100%
       + [세그먼트 필터링](segmentation/segmentation-workflow/t-seg-filter.md)
       + [세그먼트를 즐겨찾기로 표시](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [세그먼트 삭제](segmentation/segmentation-workflow/seg-delete.md)
+      + [세그먼트 복사](segmentation/segmentation-workflow/seg-copy.md)
       + [세그먼트 관리](segmentation/segmentation-workflow/seg-manage.md)
    + 세그먼트 참조 {#segment-reference}
       + [세그먼트의 비교 연산자](segmentation/seg-reference/seg-operators.md)
@@ -195,8 +196,11 @@ ht-degree: 100%
       + [필터 및 가중치가 적용된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [함수 사용](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [계산된 지표에 태그 지정](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [계산된 지표 필터링](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+      + [계산된 지표를 즐겨찾기로 표시](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [계산된 지표 승인](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [계산된 지표 공유](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [계산된 지표 복사](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [계산된 지표 관리자](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 지표 참조 {#calcmetrics-reference}
       + [참조: 기본 함수](c-calcmetrics/cm-reference/cm-functions.md)

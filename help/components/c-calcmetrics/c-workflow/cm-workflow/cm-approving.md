@@ -3,10 +3,10 @@ description: 계산된 지표 관리자 내에서 다양한 애플리케이션 �
 title: 계산된 지표 승인
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 17%
+source-wordcount: '238'
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 
 계산된 지표를 승인된 것으로 표시하려면 다음을 수행합니다.
 
-1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **계산된 지표**] 계산된 지표 관리자로 이동합니다.
+1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **계산된 지표**].
 
 1. 계산된 지표 관리자에서 승인됨으로 표시할 지표 왼쪽에 있는 확인란을 선택합니다.
 
