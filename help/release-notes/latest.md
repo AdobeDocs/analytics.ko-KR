@@ -4,9 +4,9 @@ description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 95e4a3254bafed8ac4cb59625e6f5ba2fb3b1ad0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 69%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0의 분류** | 분류 세트 데이터의 저장, 삭제, 검색, 가져오기 및 내보내기를 위한 Adobe Analytics API 2.0 메서드를 제공합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 해당 사항 없음 | 2023년 9월 13일 |
-| **신규 지원 `correlationID` A4T 분류를 위한 필드** | 다음 `_experience.decisioning.propositions.scopeDetails.correlationID` 이제 Adobe Analytics 소스 커넥터 스키마에서 필드를 사용할 수 있습니다. Adobe Target 활동 및 경험 이벤트에 대한 분류 데이터를 쉽게 조인할 수 있도록 이 ID를 추가하고 있습니다. | 해당 사항 없음 | 2023년 9월 13일 |
-| **데이터 웨어하우스 개선 사항** | 이제 Data Warehouse 요청을 만들 때 를 보고서 대상으로 사용하도록 클라우드 계정을 구성할 수 있습니다. 데이터를 전송하는 데 다음 클라우드 계정 유형을 사용할 수 있습니다.<ul><li>Amazon S3</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li><li>이메일(이 옵션은 이전에 사용할 수 있었습니다.)</li></ul>FTP, SFTP, Azure Blob 및 S3는 여전히 보고서 대상으로 사용할 수 있지만 더 이상 권장되지 않습니다.<p>Data Warehouse 요청을 만들고 관리할 때의 사용자 경험도 개선되었습니다. 자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md) 및 [Data Warehouse 요청 관리](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ko-KR). | 2023년 9월 13일 | 2023년 10월 4일 |
+| **API 2.0에서의 분류** | 분류 세트 데이터의 저장, 삭제, 검색, 가져오기 및 내보내기를 위한 Adobe Analytics API 2.0 메서드를 제공합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 해당 사항 없음 | 2023년 9월 13일 |
+| **A4T 분류를 위한 새로운 `correlationID` 필드 지원** | 이제 Adobe Analytics 소스 커넥터 스키마에서 `_experience.decisioning.propositions.scopeDetails.correlationID` 필드를 사용할 수 있습니다. Adobe Target 활동 및 경험 이벤트에 대한 분류 데이터를 쉽게 결합하기 위해 이 ID를 추가하고 있습니다. | 해당 사항 없음 | 2023년 9월 13일 |
+| **Data Warehouse 개선 사항** | Data Warehouse 요청을 만들 때 이제 보고서 대상으로 사용할 클라우드 계정을 구성할 수 있습니다. 다음 클라우드 계정 유형을 데이터 전송에 사용할 수 있습니다.<ul><li>Amazon S3</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li><li>이메일(이 옵션은 이전에 사용 가능했음)</li></ul>FTP, SFTP, Azure Blob 및 S3는 여전히 보고서 대상으로 사용할 수 있지만 더 이상 권장되지 않습니다.<p>Data Warehouse 요청을 생성하고 관리할 때의 사용자 경험도 개선되었습니다. 자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md) 및 [Data Warehouse 요청 관리](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ko-KR)를 참조하십시오. | 2023년 9월 13일 | 2023년 10월 4일 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics의 수정 사항
 
-* 작업 영역에 분류 데이터가 표시되지 않는 문제를 해결했습니다. (AN-326827)
+* 분류 데이터가 Workspace에 표시되지 않는 문제가 해결되었습니다. (AN-326827)
 
 ## 기타 수정 사항
 
-AN-314882, AN-315591, AN-318165, AN-318559, AN-319031, AN-319244, AN-321657, AN-321759, AN-323099, AN-323596, AN-323640, AN-324442, 324921, AN-324953, AN-324977, AN-324979, AN-325124, AN-325395, AN-325433, AN-325535, AN-325693, AN-325720, AN-325835, AN-325880, AN-325957, AN-325984, 326054, AN-326065, AN-326136, AN-326155, AN-326162, AN-326235, AN-326317, AN-326344, AN-326357, AN-326359, AN-326433, AN-326438, AN-326440, AN-326461, AN-326464, AN-326523, AN-326553, AN-326606, AN-326635, AN-326642, AN-326652, AN-326678, AN-326769, AN-326777, AN-326830, AN-326938, AN-326949, AN-327081, AN-327082, AN-327085, AN-327103, 327198, AN-327225, AN-327275, AN-327358, 327423, AN-327561, AN-327755, AN-327896 327922 328128 328300 328428 328518 328554
+AN-314882; AN-315591; AN-318165; AN-318559; AN-319031; AN-319244; AN-321657; AN-321759; AN-323099; AN-323596; AN-323640; AN-324442; AN-324921; AN-324953; AN-324977; AN-324979; AN-325124; AN-325395; AN-325433; AN-325535; AN-325693; AN-325720; AN-325835; AN-325880; AN-325957; AN-325984; AN-326054; AN-326065; AN-326136; AN-326155; AN-326162; AN-326235; AN-326317; AN-326344; AN-326357; AN-326359; AN-326433; AN-326438; AN-326440; AN-326461; AN-326464; AN-326523; AN-326553; AN-326606; AN-326635; AN-326642; AN-326652; AN-326678; AN-326769; AN-326777; AN-326830; AN-326938; AN-326949; AN-327081; AN-327082; AN-327085; AN-327103; AN-327198; AN-327225; AN-327275; AN-327358; AN-327423; AN-327561; AN-327755; AN-327896; AN-327922; AN-328128; AN-328300; AN-328428; AN-328518; AN-328554
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
@@ -47,7 +47,7 @@ AN-314882, AN-315591, AN-318165, AN-318559, AN-319031, AN-319244, AN-321657, AN-
 | EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
 | **Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션** | 2023년 5월 11일 | Adobe I/O JWT 자격 증명을 사용하는 Adobe Analytics API 및 Livestream 고객은 **2025년 1월 1일**&#x200B;까지 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 2024년 5월 1일부터는 Adobe I/O를 사용하여 새 JWT 자격 증명을 만들 수 없습니다. JWT를 사용하는 고객은 OAuth 서버 간 자격 증명을 새로 만들거나 기존 JWT 자격 증명을 OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 또한 고객은 새 OAuth 서버 간 자격 증명을 사용하려면 클라이언트 애플리케이션을 업데이트해야 합니다. <ul><li>[서비스 계정(JWT) 자격 증명에서 마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth를 사용한 신규 및 기존 애플리케이션 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[새 OAuth 서버 간 자격 증명 사용](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
-| **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2023년 3월 7일 | **2023년 12월 31일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다.<p>2023년 12월 31일에 예약된 보고서, 데이터 추출, DL 보고서를 포함하되 이에 국한되지 않는 많은 관련 Reports &amp; Analytics 기능이 종료됩니다. 2023년 12월 31일 이후에는 예약된 보고서가 더 이상 전송되지 않습니다. 위치 **2023년 4월**, 2023년 12월 31일 이후에 만료되도록 예약된 모든 보고서는 자동으로 업데이트되어 2023년 12월 31일에 만료되도록 되돌렸습니다. 또한 2023년 12월 31일 이후에는 더 이상 향후 보고서를 예약할 수 없습니다. |
+| **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2023년 3월 7일 | **2023년 12월 31일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다.<p>2023년 12월 31일에 예약된 보고서, 데이터 추출, DL 보고서를 포함하되 이에 국한되지 않는 많은 관련 Reports &amp; Analytics 기능이 종료됩니다. 2023년 12월 31일 이후에는 예약된 보고서가 더 이상 전송되지 않습니다. **2023년 4월**, 2023년 12월 31일 이후에 만료되도록 예정된 모든 보고서가 자동으로 업데이트되고 2023년 12월 31일에 만료되도록 되돌려집니다. 또한 2023년 12월 31일 이후에는 더 이상 향후 보고서를 예약할 수 없습니다. |
 | **[!UICONTROL 게시 목록] 기능의 EOL** | 2022년 9월 29일 | Reports &amp; Analytics EOL의 일환으로 [!UICONTROL 게시 목록]은 **2023년 12월**&#x200B;에 서비스가 종료됩니다. [!UICONTROL Analysis Workspace] 프로젝트를 보내거나 예약하기 위해 새 게시 목록을 만들거나 기존 [!UICONTROL 게시 목록]에 액세스할 수 없습니다. |
 | **Data Workbench용 EOL** | 2022년 9월 14일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench의 서비스를 종료할 예정입니다. 자세한 내용은 [Data Workbench 서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html)를 참조하십시오. 문의 사항이 있으면 조직의 Adobe 계정 관리자에게 문의하십시오. |
 
