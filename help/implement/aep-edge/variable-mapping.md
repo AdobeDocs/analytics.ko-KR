@@ -3,7 +3,7 @@ title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: b6a92b8ca79422d2ba857cd98c172a824658a7a6
+source-git-commit: f790407b5495d5fad679a2980c951b2247971069
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 96%
@@ -113,7 +113,7 @@ ht-degree: 96%
 | `placeContext.localTime` | Report &amp; Analytics에서 [시간대](/help/analyze/reports-analytics/reports.md)를 채우는 데 도움이 됩니다. [데이터 피드](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 `t_time_info`로 표시됩니다. |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | [제품 구문](../vars/page-vars/products.md) 머천다이징을 eVar에 적용합니다. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | [제품 구문](../vars/page-vars/products.md) 머천다이징을 이벤트에 적용합니다. |
-| `productListItems[].lineItemId` | [범주](../../components/dimensions/category.md) 차원. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. |
+| `productListItems[].productCategories[].categoryID` | [범주](../../components/dimensions/category.md) 차원. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. |
 | `productListItems[].name` | [제품](../../components/dimensions/product.md) 차원. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. `productListItems[].SKU` 및 `productListItems[].name`에 모두 데이터가 포함되어 있으면 `productListItems[].SKU`의 값이 사용됩니다. |
 | `productListItems[].priceTotal` | [매출](../../components/metrics/revenue.md) 지표를 확인하는 데 도움이 됩니다. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. |
 | `productListItems[].quantity` | [단위](../../components/metrics/units.md) 지표를 확인하는 데 도움이 됩니다. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. |
