@@ -3,16 +3,16 @@ title: 검색 키워드
 description: 방문자가 사이트에 도달하기 위해 사용한 검색 키워드입니다.
 feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 검색 키워드
 
-검색 키워드 차원은 방문자가 사이트에 도달하기 위해 사용하는 검색 키워드를 보고합니다.
+&#39;검색 키워드&#39; [차원](overview.md) 방문자가 사이트에 도달하기 위해 사용하는 검색 키워드를 보고합니다.
 
 >[!IMPORTANT]
 >

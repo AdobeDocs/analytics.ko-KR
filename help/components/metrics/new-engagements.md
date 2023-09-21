@@ -3,16 +3,16 @@ title: 새 참여 횟수
 description: 첫 번째 터치 채널이 설정되는 횟수입니다.
 feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # 새 참여 횟수
 
-새 참여 지표는 방문자가 참여하는 기간에 처음으로 마케팅 채널과 일치하는 횟수를 보여줍니다. 이 지표는 마케팅 채널 처리 규칙과 처음 일치하는 방문자와 차원을 비교하려는 경우 유용합니다.
+&#39;새 참여&#39; [지표](overview.md) 방문자가 참여하는 기간에 처음으로 마케팅 채널과 일치하는 횟수를 보여줍니다. 이 지표는 마케팅 채널 처리 규칙과 처음 일치하는 방문자와 차원을 비교하려는 경우 유용합니다.
 
 ## 이 지표의 계산 방법
 

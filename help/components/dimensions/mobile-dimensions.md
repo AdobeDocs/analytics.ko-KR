@@ -3,10 +3,10 @@ title: 모바일 차원
 description: 디바이스의 IP 주소를 기반으로 하는 차원입니다.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *이 페이지는 웹 사이트에 액세스하는 모바일 디바이스의 속성을 참조합니다. 모바일 앱에서 디바이스를 추적하려면 구현 사용자 안내서에서 [모바일 디바이스용 Analytics 구현](/help/implement/mobile-device-sdk.md)을 참조하십시오.*
 
-모바일 차원은 사이트를 방문하는 모바일 디바이스의 속성에 대한 통찰력을 제공합니다. 이 차원을 사용하여 모바일 디바이스가 지원하는 기능을 이해할 수 있습니다.
+모바일 [치수](overview.md) 사이트를 방문하는 모바일 장치의 속성에 대한 통찰력을 제공합니다. 이 차원을 사용하여 모바일 디바이스가 지원하는 기능을 이해할 수 있습니다.
 
 ## 데이터로 이 차원 채우기
 
@@ -60,10 +60,10 @@ iPhone 디바이스 버전을 수집하려는 경우 이 제한을 피할 수 �
 * **iOS SDK 사용**: 모바일 SDK에는 보고 시 사용할 디바이스 버전을 표시하는 차원이 포함되어 있습니다. 이 방법은 웹 사이트보다 모바일 앱에 더 적합합니다.
 * **JavaScript를 통해 사용할 수 있는 다른 변수 사용**: `screen.height` 및 `screen.width`와 같은 일부 변수를 사용하여 디바이스 버전을 유추할 수 있습니다. 예를 들어 사이트에서 다음 코드 조각을 사용할 수 있습니다.
 
-   ```js
-   if (navigator.userAgent.indexOf('iPhone') > -1) {
-     s.eVarXX = screen.width + "x" + screen.height;
-     }
-   ```
+  ```js
+  if (navigator.userAgent.indexOf('iPhone') > -1) {
+    s.eVarXX = screen.width + "x" + screen.height;
+    }
+  ```
 
-   이 코드 블록은 먼저 디바이스가 iPhone인지 감지합니다. iPhone인 경우 코드는 JavaScript를 사용하여 화면 해상도를 eVar에 가져옵니다. 이 방법을 사용하면 화면 해상도가 고유한 경우 디바이스 버전을 대략 감지할 수 있습니다.
+  이 코드 블록은 먼저 디바이스가 iPhone인지 감지합니다. iPhone인 경우 코드는 JavaScript를 사용하여 화면 해상도를 eVar에 가져옵니다. 이 방법을 사용하면 화면 해상도가 고유한 경우 디바이스 버전을 대략 감지할 수 있습니다.

@@ -3,16 +3,16 @@ title: 히트 유형
 description: 히트가 전경 히트인지 배경 히트인지 확인합니다.
 feature: Dimensions
 exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # 히트 유형
 
-히트 유형 차원은 히트를 Adobe 데이터 수집 서버에 보냈을 때 모바일 앱이 전경과 배경 중 어디에 있었는지를 파악합니다. 이 차원은 모바일 애플리케이션용 데이터가 포함된 보고서 세트에만 관련이 있습니다. AppMeasurement를 통해 수집된 브라우저 데이터는 항상 히트를 &quot;전경&quot;으로 보고합니다.
+&#39;히트 유형&#39; [차원](overview.md) 히트가 Adobe 데이터 수집 서버로 전송되었을 때 모바일 앱이 전경과 배경 중 어디에 있었는지를 확인합니다. 이 차원은 모바일 애플리케이션용 데이터가 포함된 보고서 세트에만 관련이 있습니다. AppMeasurement를 통해 수집된 브라우저 데이터는 항상 히트를 &quot;전경&quot;으로 보고합니다.
 
 ## 이 차원을 데이터로 채우기
 

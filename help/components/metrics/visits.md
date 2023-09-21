@@ -3,16 +3,16 @@ title: 방문 횟수
 description: 중단 없는 일련의 페이지 보기입니다.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # 방문 횟수
 
-방문 횟수 지표는 사이트의 모든 방문자에 대한 세션의 수를 보여 줍니다.
+방문 횟수&#39; [지표](overview.md) 사이트의 모든 방문자에 대한 세션 수를 표시합니다.
 
 ## 이 지표의 계산 방법
 

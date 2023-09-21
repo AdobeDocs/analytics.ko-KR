@@ -3,16 +3,16 @@ title: 미확인된 사용자
 description: 디바이스 간 분석으로 식별되지 않는 방문자의 수.
 feature: Metrics
 exl-id: 00df1a5a-1a99-4783-acf6-8d8ab0293e6f
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 100%
+ht-degree: 70%
 
 ---
 
 # 미확인된 사용자
 
-‘미확인된 사용자’ 지표는 CDA로 식별할 수 없는 방문자의 수를 계산하는 [디바이스 간 분석](../cda/overview.md) 지표입니다.
+&#39;미확인된 사용자&#39; [지표](overview.md) 다음 값: [크로스 디바이스 분석](../cda/overview.md) CDA로 식별할 수 없는 방문자의 수를 계산하는 지표.
 
 ## 이 지표의 계산 방법
 

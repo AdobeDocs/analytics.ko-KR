@@ -3,16 +3,16 @@ title: 동의 관리 옵트인
 description: 방문자가 옵트인한 개인 정보 설정을 확인합니다.
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 동의 관리 옵트인
 
-&#39;동의 관리 옵트인&#39; 차원에서는 방문자가 옵트인한 개인 정보 설정이 표시됩니다. 이 차원을 사용하여 개인 정보 설정을 기반으로 데이터를 필터링하거나 가장 일반적인 개인 정보 옵트인 이유를 확인할 수 있습니다.
+&#39;동의 관리 옵트인&#39; [차원](overview.md) 방문자가 옵트인한 개인 정보 설정을 표시합니다. 이 차원을 사용하여 개인 정보 설정을 기반으로 데이터를 필터링하거나 가장 일반적인 개인 정보 옵트인 이유를 확인할 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 

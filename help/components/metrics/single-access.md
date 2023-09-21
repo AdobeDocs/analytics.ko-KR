@@ -3,16 +3,16 @@ title: 단일 액세스
 description: 방문에서 차원 항목이 변경되지 않은 횟수입니다.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 단일 액세스
 
-단일 액세스 지표는 전체 방문에 대해 차원 항목에 하나의 고유 값만 포함된 방문의 수를 보여줍니다. 이 지표는 방문 중 어느 차원 항목이 정체되어 있는지 알려는 임의의 차원 컨텍스트에서 유용합니다.
+단일 액세스 [지표](overview.md) 전체 방문에 대해 차원 항목에 단일 고유 값만 포함된 방문의 수를 표시합니다. 이 지표는 방문 중 어느 차원 항목이 정체되어 있는지 알려는 임의의 차원 컨텍스트에서 유용합니다.
 
 ## 이 지표의 계산 방법
 

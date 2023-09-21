@@ -3,16 +3,16 @@ title: 장바구니
 description: 방문자가 장바구니에 첫 번째 제품을 추가한 히트의 수입니다.
 feature: Metrics
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 56%
+ht-degree: 45%
 
 ---
 
 # 장바구니
 
-‘장바구니’ 지표에 방문자가 장바구니에 첫 번째 제품을 추가한 히트의 수가 표시됩니다.
+장바구니 수 [지표](overview.md) 방문자가 장바구니에 첫 번째 제품을 추가한 히트의 수를 보여줍니다.
 
 ## 이 지표의 계산 방법
 

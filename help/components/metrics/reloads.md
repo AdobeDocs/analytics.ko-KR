@@ -3,16 +3,16 @@ title: 다시 로드
 description: 페이지를 다시 로드한 횟수입니다.
 feature: Metrics
 exl-id: 9539a733-9e9f-48b3-b8ab-8d969de27f87
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 100%
+ht-degree: 74%
 
 ---
 
 # 다시 로드
 
-다시 로드 지표는 다시 로드 중 차원 항목이 있었던 횟수를 보여줍니다. 방문자가 브라우저를 새로 고치는 것이 다시 로드를 트리거하는 가장 일반적인 방법입니다.
+&#39;다시 로드&#39; [지표](overview.md) 다시 로드 중 차원 항목이 있었던 횟수를 보여줍니다. 방문자가 브라우저를 새로 고치는 것이 다시 로드를 트리거하는 가장 일반적인 방법입니다.
 
 ## 이 지표의 계산 방법
 

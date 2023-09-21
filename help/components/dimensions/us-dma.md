@@ -3,16 +3,16 @@ title: US DMA
 description: 히트의 지정 시장권 (DMA)입니다.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 85%
+ht-degree: 80%
 
 ---
 
 # US DMA
 
-US DMA 차원은 방문자의 지정된 시장권 (DMA)을 보고합니다. 이 차원은 [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/)이 만든 미디어 시장을 기반으로 합니다.
+&#39;US DMA&#39; [차원](overview.md) 방문자의 지정된 시장권(DMA)을 보고합니다. 이 차원은 [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/)이 만든 미디어 시장을 기반으로 합니다.
 
 ## 이 차원을 데이터로 채우기
 

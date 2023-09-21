@@ -3,16 +3,16 @@ title: 검색 엔진
 description: 방문자가 사이트에 도달하기 위해 사용한 검색 엔진입니다.
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 검색 엔진
 
-검색 엔진 차원은 방문자가 사이트에 도달하기 위해 사용하는 검색 엔진을 보고합니다. 레퍼러는 다음 두 항목을 모두 충족해야 검색 엔진으로 분류할 수 있습니다.
+검색 엔진 [차원](overview.md) 방문자가 사이트에 도달하기 위해 사용하는 검색 엔진을 보고합니다. 레퍼러는 다음 두 항목을 모두 충족해야 검색 엔진으로 분류할 수 있습니다.
 
 * 참조 도메인이 Adobe에 의해 유효한 검색 엔진으로 인식됩니다.
 * 키워드 쿼리 문자열 매개 변수가 참조 URL에 있습니다. 쿼리 문자열 매개 변수는 비워 둘 수 있습니다 (개인 정보 보호 방침으로 인해 여러 검색 엔진이 있는 경우).

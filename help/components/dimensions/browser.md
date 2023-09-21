@@ -3,7 +3,7 @@ title: 브라우저
 description: 사용된 브라우저의 이름 및 버전입니다.
 feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: 39f1ac66fb6374c62f790f9a38a52fba3bf9bda1
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 38%
@@ -12,7 +12,7 @@ ht-degree: 38%
 
 # 브라우저
 
-&#39;[!UICONTROL 브라우저]&#39; 차원은 히트를 전송하는 브라우저의 이름과 버전을 보고합니다. 이 차원은 방문자가 사용하는 가장 일반적인 브라우저를 이해하는 데 유용합니다. 사이트의 새 버전을 테스트할 때 이 차원의 상위 브라우저에서 이러한 테스트를 실행하여 품질 관리 노력을 극대화할 수 있습니다.
+&#39;[!UICONTROL 브라우저]&#39; [차원](overview.md) 히트를 전송하는 브라우저의 이름과 버전을 보고합니다. 이 차원은 방문자가 사용하는 가장 일반적인 브라우저를 이해하는 데 유용합니다. 사이트의 새 버전을 테스트할 때 이 차원의 상위 브라우저에서 이러한 테스트를 실행하여 품질 관리 노력을 극대화할 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 

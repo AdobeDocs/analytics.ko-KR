@@ -3,16 +3,16 @@ title: 색상 깊이
 description: 디바이스의 색상 깊이입니다.
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 색상 깊이
 
-색상 깊이 차원은 디바이스가 지원하는 색상의 수를 보고합니다. 이 차원은 1,600만 색상을 지원하지 않는 디바이스에서 트래픽이 발생하는 정도를 파악하는 데 유용합니다. 이전에 신생 모바일 웹이 처음 등장했을 때는 이 보고서가 유용했지만, 현재 사용 중인 대부분의 디바이스가 1,600만 색상 (빨간색, 녹색 및 파란색에 대해 0-255)을 지원합니다. <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+&#39;색상 깊이&#39; [차원](overview.md) 장치가 지원하는 색상의 수를 보고합니다. 이 차원은 1,600만 색상을 지원하지 않는 디바이스에서 트래픽이 발생하는 정도를 파악하는 데 유용합니다. 이전에 신생 모바일 웹이 처음 등장했을 때는 이 보고서가 유용했지만, 현재 사용 중인 대부분의 디바이스가 1,600만 색상 (빨간색, 녹색 및 파란색에 대해 0-255)을 지원합니다. <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## 이 차원을 데이터로 채우기
 

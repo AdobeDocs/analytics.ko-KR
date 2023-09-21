@@ -1,22 +1,22 @@
 ---
-title: 보트 페이지 보기 수
+title: 봇 페이지 조회수
 description: 보트 규칙과 일치하는 페이지 보기 수입니다.
 feature: Metrics
 exl-id: 9b1efcb1-10ca-40fb-8f20-e6da105366d9
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
-# 보트 페이지 보기 수
+# 봇 페이지 조회수
 
-보트 페이지 보기 수 지표는 일치하는 페이지 히트의 수를 보여줍니다 [보트 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+&#39;보트 페이지 보기 수&#39; [지표](overview.md) 일치하는 페이지 조회수를 표시합니다. [보트 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 보트 보고는 보고서 세트의 나머지 데이터와 분리되므로 이 지표는 다음 차원에서만 작동합니다.
 
-* [보트 이름](../dimensions/bot-name.md)
+* [봇 이름](../dimensions/bot-name.md)
 * [페이지](../dimensions/page.md)
 * 시간 기반 차원 (예: [일](../dimensions/day.md), [주](../dimensions/week.md), 또는 [월](../dimensions/month.md))
 

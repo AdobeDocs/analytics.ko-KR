@@ -3,16 +3,16 @@ title: 서버
 description: 서버 이름입니다.
 feature: Dimensions
 exl-id: c2454c0d-497e-46f8-8569-7d0517097cab
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # 서버
 
-서버 차원은 일반적으로 사이트의 호스트 이름을 나열합니다. 여러 도메인 또는 하위 도메인을 결합하는 보고서 세트의 경우, 이 차원은 성과가 가장 좋은 도메인이나 하위 도메인을 확인하는 데 중요합니다.
+&#39;서버&#39; [차원](overview.md) 일반적으로 사이트의 호스트 이름을 나열합니다. 여러 도메인 또는 하위 도메인을 결합하는 보고서 세트의 경우, 이 차원은 성과가 가장 좋은 도메인이나 하위 도메인을 확인하는 데 중요합니다.
 
 이 차원은 [페이지](page.md) 및 [사이트 섹션](site-section.md) 차원과 관련되어 있습니다. 페이지는 가장 세분화된 차원이고, 서버는 가장 덜 세분화된 차원이며, 사이트 섹션은 그 둘의 사이에 있습니다.
 

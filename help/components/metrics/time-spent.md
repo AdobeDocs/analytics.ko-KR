@@ -3,7 +3,7 @@ title: Adobe Analytics에서 체류 시간을 계산하는 방법
 description: 체류 시간 차원 및 지표가 집계된 페이지입니다.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: e2128ef18a62832a9740a4cb610685f351c7db19
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 80%
@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # 체류 시간 개요
 
-Adobe Analytics 제품 전체에서 다양한 [!UICONTROL &#39;체류 시간&#39;] 지표 및 차원이 제공됩니다.
+Adobe Analytics 제품 전체에서 다양한 [!UICONTROL &#39;체류 시간&#39;] 지표 및 차원이 제공됩니다.[](overview.md)
 
 ## &#39;체류 시간&#39; 지표
 

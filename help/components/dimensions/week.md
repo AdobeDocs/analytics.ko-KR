@@ -3,16 +3,16 @@ title: 주
 description: 지표가 발생한 주입니다.
 feature: Dimensions
 exl-id: 944ec843-998c-473f-b8e6-16cf126745b4
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # 주
 
-주 차원은 주어진 지표가 발생한 주를 보고합니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 주이고 마지막 차원 항목은 날짜 범위에서 마지막 주입니다. 이 차원은 시간에 따른 지표를 볼 수 있으므로 트렌드 보고서에 필수적입니다.
+주&#39; [차원](overview.md) 주어진 지표가 발생한 주를 보고합니다. 첫 번째 차원 항목은 날짜 범위에서 첫 번째 주이고 마지막 차원 항목은 날짜 범위에서 마지막 주입니다. 이 차원은 시간에 따른 지표를 볼 수 있으므로 트렌드 보고서에 필수적입니다.
 
 ## 이 차원을 데이터로 채우기
 

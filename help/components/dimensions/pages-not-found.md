@@ -3,7 +3,7 @@ title: 페이지를 찾을 수 없음 (치수)
 description: 사이트에서 오류를 반환하는 URL입니다.
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 페이지를 찾을 수 없음
 
-*이 도움말 페이지에서는 &#39;페이지를 찾을 수 없음&#39;이 차원으로 작동하는 방식을 설명합니다. 자세한 내용은 [페이지를 찾을 수 없음](../metrics/pages-not-found.md) 지표를 참조하십시오.*
+*[이 도움말 페이지에서는 &#39;페이지를 찾을 수 없음&#39;이 차원으로 작동하는 방식을 설명합니다](overview.md). 자세한 내용은 [페이지를 찾을 수 없음](../metrics/pages-not-found.md) 지표를 참조하십시오.*
 
 페이지를 찾을 수 없음 차원은 오류가 포함된 URL을 보여 줍니다. 이 차원은 방문자가 사이트에서 받은 오류의 수를 줄이려 할 때 유용합니다.
 

@@ -3,16 +3,16 @@ title: 영구적 쿠키 지원
 description: 방문자가 영구 쿠키를 지원할 수 있는지 확인합니다.
 feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 영구적 쿠키 지원
 
-“영구적 쿠키 지원” 차원은 히트가 영구 소스에서 가져온 방문자 식별자를 사용했는지 여부를 보여 줍니다. 가장 일반적인 영구 소스는 쿠키에서 가져오지만 모바일 헤더 및 기타 소스를 사용할 수도 있습니다.
+&quot;영구적 쿠키 지원&quot; [차원](overview.md) 히트가 영구 소스에서 가져온 방문자 식별자를 사용했는지 여부를 보여 줍니다. 가장 일반적인 영구 소스는 쿠키에서 가져오지만 모바일 헤더 및 기타 소스를 사용할 수도 있습니다.
 
 ## 이 차원을 데이터로 채우기
 

@@ -3,10 +3,10 @@ title: 계층
 description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
 exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->이 차원은 사용이 중단되었으며 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. Adobe에서는 대신 [eVar](evar.md) 및 분류를 사용하는 것이 좋습니다.
+>이 차원은 사용이 중단되었으며 사용할 수 없습니다. [차원](overview.md) Analysis Workspace. Adobe에서는 대신 [eVar](evar.md) 및 분류를 사용하는 것이 좋습니다.
 
 계층은 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. prop이 설정된 히트 이후에는 지속되지 않습니다. Adobe와의 계약이 지원하는 경우 최대 5개의 계층을 사용할 수 있습니다.
 

@@ -3,16 +3,16 @@ title: 검색 결과
 description: 히트가 외부 검색 기준과 일치한 횟수입니다.
 feature: Metrics
 exl-id: b84c895d-e678-47a1-9e41-500970e0a80c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 검색 결과
 
-검색 지표는 Adobe의 외부 검색 감지와 일치하는 히트의 수를 보여줍니다. 이 지표는 비검색 차원 항목을 보고 이 값이 검색 엔진 트래픽에 어떻게 기여했는지 보려는 경우 유용합니다.
+&#39;검색&#39; [지표](overview.md) Adobe의 외부 검색 감지와 일치하는 히트의 수를 보여줍니다. 이 지표는 비검색 차원 항목을 보고 이 값이 검색 엔진 트래픽에 어떻게 기여했는지 보려는 경우 유용합니다.
 
 ## 이 지표의 계산 방법
 

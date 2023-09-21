@@ -3,7 +3,7 @@ title: 방문당 체류 시간 (차원)
 description: 방문이 걸린 총 시간입니다.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 방문당 체류 시간
 
-*이 도움말 페이지에서는 &#39;방문당 체류 시간&#39;이 각각의 해당 차원으로 작동하는 방식을 설명합니다. 자세한 내용은 [방문당 체류 시간](../metrics/time-spent-per-visit.md) 지표를 참조하십시오.*
+*[이 도움말 페이지에서는 &#39;방문당 체류 시간&#39;이 각각의 해당 차원으로 작동하는 방식을 설명합니다](overview.md). 자세한 내용은 [방문당 체류 시간](../metrics/time-spent-per-visit.md) 지표를 참조하십시오.*
 
 방문당 체류 시간 차원은 방문자가 전체 방문에서 보낸 시간을 기록합니다. 다음 절차를 사용하여 계산을 측정합니다.
 

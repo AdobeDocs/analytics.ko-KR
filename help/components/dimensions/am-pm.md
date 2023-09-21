@@ -3,16 +3,16 @@ title: 오전/오후
 description: 히트가 오전과 오후 중 언제 발생했는지를 확인합니다.
 feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 # 오전/오후
 
-오전/오후 차원은 히트가 오전과 오후 중 언제 발생했는지 알려줍니다. 히트 시간은 [보고서 세트의 시간대](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)를 기반으로 합니다.
+오전/오후 [차원](overview.md) 히트가 오전과 오후 중 언제 발생했는지에 대한 통찰력을 제공합니다. 히트 시간은 [보고서 세트의 시간대](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)를 기반으로 합니다.
 
 ## 이 차원을 데이터로 채우기
 

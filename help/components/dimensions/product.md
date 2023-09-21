@@ -3,16 +3,16 @@ title: 제품
 description: 제품의 이름입니다.
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 제품
 
-제품 차원은 히트에 있는 제품 이름을 보고합니다. 이 차원은 `products` 변수를 사용하고 최상위 판매자나 가장 많이 본 항목과 같은 제품 관련 지표를 보려는 구현에 유용합니다. 사이트에 제품이 없을 경우 의도적으로 이 차원을 비워 둘 수 있습니다.
+&#39;제품&#39; [차원](overview.md) 히트에서 제품 이름을 보고합니다. 이 차원은 `products` 변수를 사용하고 최상위 판매자나 가장 많이 본 항목과 같은 제품 관련 지표를 보려는 구현에 유용합니다. 사이트에 제품이 없을 경우 의도적으로 이 차원을 비워 둘 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 

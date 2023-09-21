@@ -3,16 +3,16 @@ title: Experience Cloud ID를 가진 방문자
 description: Adobe Experience Cloud ID 서비스를 사용하는 고유 방문자의 수입니다.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Experience Cloud ID를 가진 방문자
 
-Experience Cloud ID를 가진 방문자 지표는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하여 Adobe가 식별한 고유 방문자 수를 보여 줍니다. 이 지표는 사이트 방문자의 대다수가 이 ID 서비스를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 상당수가 이 ID 서비스 쿠키를 사용하지 않다면 구현 내의 문제를 나타낼 수 있습니다.
+&#39;Experience Cloud ID를 가진 방문자&#39; [지표](overview.md) 를 사용하여 Adobe으로 식별된 고유 방문자 수를 표시합니다. [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR). 이 지표는 사이트 방문자의 대다수가 이 ID 서비스를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 상당수가 이 ID 서비스 쿠키를 사용하지 않다면 구현 내의 문제를 나타낼 수 있습니다.
 
 >[!NOTE]
 >

@@ -3,7 +3,7 @@ title: eVar(차원)
 description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 391d4378a360270acb40cbd9ddb2be3cd315d11c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 89%
@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # eVar
 
-*이 도움말 페이지에서는 eVar가 차원으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
+*[이 도움말 페이지에서는 eVar가 차원으로 작동하는 방식을 설명합니다](overview.md). eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
 eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 다음 항목이 있는 경우: [솔루션 디자인 문서](/help/implement/prepare/solution-design.md), 조직 고유의 차원은 대부분 다음으로 끝남 [!UICONTROL eVar], &#39;페이지 이름&#39;, &#39;참조 도메인&#39;, &#39;채널&#39;과 같은 Adobe Analytics에서 사용할 수 있는 기본 차원에 대한 추가 사항입니다. 다음을 참조하십시오 [Dimension 개요](overview.md) 추가 정보.
 

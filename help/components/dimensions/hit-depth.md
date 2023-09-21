@@ -3,16 +3,16 @@ title: 히트 깊이
 description: 방문의 히트 수입니다.
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 히트 깊이
 
-히트 깊이 차원은 주어진 히트가 방문으로 이어질 때까지의 깊이를 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 중요합니다. 히트 깊이는 페이지 보기 ([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트 ([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
+&#39;히트 깊이&#39; [차원](overview.md) 주어진 히트가 방문까지 도달하는 거리를 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 중요합니다. 히트 깊이는 페이지 보기 ([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트 ([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
 
 ## 이 차원을 데이터로 채우기
 

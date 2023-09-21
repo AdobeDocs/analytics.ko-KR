@@ -3,16 +3,16 @@ title: 종료 링크
 description: 종료 링크의 이름입니다.
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 종료 링크
 
-종료 링크 차원은 사이트에 구현된 종료 링크의 이름을 보고합니다. 이 차원은 사이트 외부의 도메인을 가리키는 가장 인기 있는 링크를 이해하려 할 때 유용합니다.
+종료 링크 [차원](overview.md) 사이트에 구현된 종료 링크의 이름을 보고합니다. 이 차원은 사이트 외부의 도메인을 가리키는 가장 인기 있는 링크를 이해하려 할 때 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 

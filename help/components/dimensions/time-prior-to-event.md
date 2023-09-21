@@ -3,16 +3,16 @@ title: 이벤트까지 남은 시간
 description: 방문의 첫 번째 히트와 지표 사이의 시간입니다.
 feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # 이벤트까지 남은 시간
 
-이벤트까지 남은 시간 차원은 방문의 첫 번째 히트와 원하는 지표 사이에 경과된 시간을 보고합니다. 이 차원은 양식 제출이나 구매와 같은 성공 이벤트에 도달하는 데 걸리는 시간을 파악하는 데 유용합니다.
+이벤트까지 남은 시간 [차원](overview.md) 방문의 첫 번째 히트와 원하는 지표 사이에 경과된 시간을 보고합니다. 이 차원은 양식 제출이나 구매와 같은 성공 이벤트에 도달하는 데 걸리는 시간을 파악하는 데 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 

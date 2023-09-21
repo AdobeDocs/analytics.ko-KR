@@ -3,16 +3,16 @@ title: 발생 횟수
 description: 변수가 설정되었거나 지속된 히트의 수입니다.
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
-source-git-commit: 1be9a8ceb03f8102a0799f4518db35c1e8cd7b14
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 74%
+ht-degree: 64%
 
 ---
 
 # 발생 횟수
 
-발생 횟수 지표는 주어진 차원이 설정되거나 지속된 히트의 수를 보여줍니다. Workspace의 차원을 빈 캔버스로 드래그하면 이 지표가 프로젝트에 자동으로 적용됩니다.
+&#39;발생 횟수&#39; [지표](overview.md) 주어진 차원이 설정되거나 지속된 히트의 수를 보여줍니다. Workspace의 차원을 빈 캔버스로 드래그하면 이 지표가 프로젝트에 자동으로 적용됩니다.
 
 ## 이 지표의 계산 방법
 
@@ -21,4 +21,4 @@ ht-degree: 74%
 ## 유사한 지표와 비교
 
 * **발생 횟수와 [인스턴스](instances.md)** 비교: 발생 횟수는 차원 항목이 설정되어 있거나 지속된 히트를 계산합니다. 인스턴스는 차원 항목이 지속되는 히트를 포함하지 않습니다.
-* **발생 횟수와 발생 횟수 비교 [페이지 보기 수](page-views.md)**: 발생 횟수에는 페이지 보기 추적 호출([`t()`](/help/implement/vars/functions/t-method.md)), 링크 추적 호출( )[`tl()`](/help/implement/vars/functions/tl-method.md)) 및 의 데이터를 요약하여 [데이터 소스](/help/import/data-sources/overview.md). 페이지 보기 수 지표에는 링크 추적 호출 및 요약 데이터 소스를 제외하고 페이지 보기 추적 호출만 포함됩니다.
+* **발생 횟수와 [페이지 보기 수](page-views.md)**: 발생 횟수에는 페이지 보기 추적 호출( )을 포함하여 모든 히트 유형이 포함됩니다.[`t()`](/help/implement/vars/functions/t-method.md)), 링크 추적 호출([`tl()`](/help/implement/vars/functions/tl-method.md)) 및 요약의 데이터 [데이터 소스](/help/import/data-sources/overview.md). 페이지 보기 수 지표에는 링크 추적 호출 및 요약 데이터 소스를 제외한 페이지 보기 추적 호출만 포함됩니다.

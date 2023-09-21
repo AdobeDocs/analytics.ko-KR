@@ -3,16 +3,16 @@ title: 유료 검색
 description: 유료 검색과 자연어 검색 지표를 구분합니다.
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # 유료 검색
 
-유료 검색 차원을 사용하면 특정 지표를 기준으로 보고, 유료 검색과 자연어 검색 간 해당 지표를 비교할 수 있습니다. 검색 엔진 외부의 다른 모든 히트는 생략됩니다. 이 차원은 유료 검색 노력에서 유기 검색과 비교하는 방식을 이해하는 데 유용합니다.
+유료 검색&#39; [차원](overview.md) 모든 지표를 보고 유료 검색과 자연어 검색 간에 비교할 수 있습니다. 검색 엔진 외부의 다른 모든 히트는 생략됩니다. 이 차원은 유료 검색 노력에서 유기 검색과 비교하는 방식을 이해하는 데 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 

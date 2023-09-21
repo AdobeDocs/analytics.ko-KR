@@ -4,22 +4,22 @@ description: 시작 차원 및 그 사용을 나열합니다.
 keywords: 시작 페이지, 시작 사이트 섹션, 시작 서버, 시작 고객 인사이트
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
 # 시작 차원
 
-*이 도움말 페이지에서는 시작이 차원으로 작동하는 방식을 설명합니다. 시작이 지표로 작동하는 방식에 대한 자세한 내용은 [시작](../metrics/entries.md) 지표를 참조하십시오.*
+*[이 도움말 페이지에서는 시작이 차원으로 작동하는 방식을 설명합니다](overview.md). 시작이 지표로 작동하는 방식에 대한 자세한 내용은 [시작](../metrics/entries.md) 지표를 참조하십시오.*
 
 시작 차원은 [방문 기반](../metrics/visits.md). 첫 번째 차원 항목을 기록하고 해당 방문의 전체 기간 동안 유지합니다. 시작 차원은 보고서 세트 설정의 [트래픽 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 아래에서 경로 지정이 활성화된 모든 변수에 사용할 수 있습니다.
 
 ## 데이터로 시작 차원 채우기
 
-주어진 시작 차원은 연결된 트래픽 변수를 기반으로 합니다. 시작이 아닌 변수에 데이터가 있는 경우 해당 관련 시작 차원도 데이터를 포함합니다. 트래픽 변수에 데이터가 포함된 경우 시작 차원에 대한 구현 변경은 필요하지 않습니다.
+특정 항목 [차원](overview.md) 는 연결된 트래픽 변수를 기반으로 합니다. 시작이 아닌 변수에 데이터가 있는 경우 해당 관련 시작 차원도 데이터를 포함합니다. 트래픽 변수에 데이터가 포함된 경우 시작 차원에 대한 구현 변경은 필요하지 않습니다.
 
 ## 차원 항목
 

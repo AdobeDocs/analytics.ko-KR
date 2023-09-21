@@ -3,16 +3,16 @@ title: 다운로드 링크
 description: 다운로드 링크의 이름입니다.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # 다운로드 링크
 
-다운로드 링크 차원은 사이트에 구현된 다운로드 링크의 이름을 보고합니다. 이 차원은 다음과 같이 다운로드 링크에 대한 방문자 행동에 대해 자세히 알고 싶을 때 중요합니다.
+다운로드 링크 [차원](overview.md) 사이트에 구현된 다운로드 링크의 이름을 보고합니다. 이 차원은 다음과 같이 다운로드 링크에 대한 방문자 행동에 대해 자세히 알고 싶을 때 중요합니다.
 
 * 사이트에서 가장 자주 다운로드되는 파일을 확인합니다.
 * 특정 기간에 더 자주 다운로드되는 파일이 있는지 확인합니다.

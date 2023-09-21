@@ -3,16 +3,16 @@ title: 시간
 description: 지표가 발생한 시간입니다.
 feature: Dimensions
 exl-id: 323c46dd-87d0-487a-b954-e5ccbc1b919d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 시간
 
-시간 차원은 주어진 지표가 발생한 시간을 보고합니다 (내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 시간이고 마지막 차원 항목은 날짜 범위에서 마지막 시간입니다. 이 차원은 시간에 따른 지표를 볼 수 있으므로 트렌드 보고서에 중요합니다.
+시간 [차원](overview.md) 주어진 지표가 발생한 시간을 보고합니다(내림). 첫 번째 차원 항목은 날짜 범위에서 첫 번째 시간이고 마지막 차원 항목은 날짜 범위에서 마지막 시간입니다. 이 차원은 시간에 따른 지표를 볼 수 있으므로 트렌드 보고서에 중요합니다.
 
 ## 이 차원을 데이터로 채우기
 

@@ -3,16 +3,16 @@ title: 우편 번호
 description: 방문자의 우편 번호입니다.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 우편 번호
 
-우편 번호 차원은 방문자의 우편 번호를 보고합니다. 이 차원을 사용하면 성공적인 로컬 광고에 대해 더 깊이 이해하거나 전 세계에서 사이트 성과가 가장 좋은 곳을 알 수 있습니다.
+&#39;우편 번호&#39; [차원](overview.md) 방문자의 우편 번호를 보고합니다. 이 차원을 사용하면 성공적인 로컬 광고에 대해 더 깊이 이해하거나 전 세계에서 사이트 성과가 가장 좋은 곳을 알 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 

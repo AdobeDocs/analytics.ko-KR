@@ -3,16 +3,16 @@ title: Java 활성화
 description: 브라우저에서 Java가 활성화되어 있는지 여부를 결정합니다.
 feature: Dimensions
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Java 활성화
 
-Java 활성화 차원은 현재 브라우저에 Java가 활성화되어 있는지 여부를 결정합니다. 사이트에 Java 기반 기능을 도입하고 Java가 이미 활성화된 방문자의 수를 알고 싶은 경우 유용합니다. Java를 비활성화한 사용자를 위해 활성화 방법에 대한 지침이나 대안을 제공할 수 있습니다.
+&#39;Java 활성화&#39; [차원](overview.md) 현재 브라우저에 Java가 활성화되어 있는지 여부를 결정합니다. 사이트에 Java 기반 기능을 도입하고 Java가 이미 활성화된 방문자의 수를 알고 싶은 경우 유용합니다. Java를 비활성화한 사용자를 위해 활성화 방법에 대한 지침이나 대안을 제공할 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 

@@ -3,16 +3,16 @@ title: 제품 보기
 description: 제품 페이지를 본 횟수입니다.
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-source-git-commit: eb13c3e828bc6d4c547f4529ee7a15182bbbf046
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 88%
+ht-degree: 72%
 
 ---
 
 # 제품 보기
 
-제품 보기 지표는 제품을 본 횟수를 보여줍니다. 이 지표는 가장 많이 본 제품을 보거나 시간에 따른 총 제품 보기 횟수의 트렌드를 알려는 경우에 유용합니다.
+제품 보기 [지표](overview.md) 제품을 본 횟수를 보여줍니다. 이 지표는 가장 많이 본 제품을 보거나 시간에 따른 총 제품 보기 횟수의 트렌드를 알려는 경우에 유용합니다.
 
 ## 이 지표의 계산 방법
 

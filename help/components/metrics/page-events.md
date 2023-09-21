@@ -3,16 +3,16 @@ title: 페이지 이벤트
 description: 트리거된 링크 추적 작업의 수입니다.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 60%
+ht-degree: 50%
 
 ---
 
 # 페이지 이벤트
 
-페이지 이벤트 지표는 링크 추적 호출이 수행된 횟수를 보여줍니다. 이 지표는 가장 매력적인 콘텐츠가 있는 페이지를 알려 할 때 유용합니다. 이 지표에 대한 측정은 방문자가 새 페이지로 이동하지 않고 페이지에서 작업을 수행할 수 있을 때 가장 중요합니다.
+페이지 이벤트 [지표](overview.md) 링크 추적 호출이 수행된 횟수를 보여줍니다. 이 지표는 가장 매력적인 콘텐츠가 있는 페이지를 알려 할 때 유용합니다. 이 지표에 대한 측정은 방문자가 새 페이지로 이동하지 않고 페이지에서 작업을 수행할 수 있을 때 가장 중요합니다.
 
 ## 이 지표의 계산 방법
 

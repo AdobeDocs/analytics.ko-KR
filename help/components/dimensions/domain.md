@@ -3,16 +3,16 @@ title: 도메인
 description: 방문자가 인터넷에 액세스하는 데 사용하는 조직 또는 ISP입니다.
 feature: Dimensions
 exl-id: 292dc256-e9e7-47be-8586-774f1c047011
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # 도메인
 
-“도메인” 차원은 방문자가 인터넷에 액세스하는 데 사용하는 액세스 포인트를 보고합니다.
+&#39;도메인&#39; [차원](overview.md) 방문자가 인터넷에 액세스하는 데 사용하는 액세스 포인트를 보고합니다.
 
 ## 이 차원을 데이터로 채우기
 

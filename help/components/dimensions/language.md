@@ -3,16 +3,16 @@ title: 언어
 description: 브라우저의 기본 언어 설정입니다.
 feature: Dimensions
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 언어
 
-언어 차원은 방문자가 콘텐츠를 볼 때 선호하는 상위 언어들을 보여 줍니다. 이 차원은 현지화 작업에 도움이 되도록 방문자가 가장 자주 사용하는 선호 언어를 알려는 경우 중요합니다.
+언어&#39; [차원](overview.md) 방문자가 콘텐츠를 볼 때 선호하는 상위 언어들을 표시합니다. 이 차원은 현지화 작업에 도움이 되도록 방문자가 가장 자주 사용하는 선호 언어를 알려는 경우 중요합니다.
 
 >[!NOTE]
 >

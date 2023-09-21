@@ -3,16 +3,16 @@ title: 쿠키 지원
 description: 브라우저가 쿠키를 지원하는지 여부를 결정합니다.
 feature: Dimensions
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # 쿠키 지원
 
-쿠키 지원 차원은 브라우저가 주어진 히트에 대한 쿠키를 지원하는지 여부를 보고합니다. 쿠키를 지원하는 브라우저를 사용하는 방문자와 쿠키를 의도적으로 비활성화하는 방문자의 비율을 파악하는 것이 유용합니다.
+&#39;쿠키 지원&#39; [차원](overview.md) 브라우저가 주어진 히트에 대한 쿠키를 지원하는지 여부를 보고합니다. 쿠키를 지원하는 브라우저를 사용하는 방문자와 쿠키를 의도적으로 비활성화하는 방문자의 비율을 파악하는 것이 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 

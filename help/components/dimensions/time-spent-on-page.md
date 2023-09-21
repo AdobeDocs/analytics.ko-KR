@@ -3,16 +3,16 @@ title: 페이지에서 보낸 시간
 description: 방문자가 페이지에서 보낸 시간입니다.
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
-source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 91%
+ht-degree: 85%
 
 ---
 
 # 페이지에서 보낸 시간
 
-페이지에서 보낸 시간 차원은 방문자가 페이지에서 체류한 시간을 기록합니다. 다음 절차를 사용하여 계산을 측정합니다.
+페이지에서 보낸 시간&#39; [차원](overview.md) 방문자가 페이지에서 보낸 시간을 기록합니다. 다음 절차를 사용하여 계산을 측정합니다.
 
 1. 주어진 히트의 타임스탬프를 확인합니다.
 2. 이 히트를 방문에서 다음 히트의 타임스탬프와 비교합니다. 페이지 보기와 링크 추적 히트가 모두 계산됩니다.

@@ -3,16 +3,16 @@ title: 사이트의 평균 시간
 description: 히트 사이에 주어진 차원 항목이 존재했던 평균 시간입니다.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 사이트의 평균 시간
 
-사이트의 평균 시간 지표는 주어진 차원 항목에 대해 히트 사이에 경과된 시간을 보여 줍니다. 이 지표는 특정 차원 항목에 대한 평균 체류 시간을 보려 할 때 유용합니다. 시간에 따른 이 지표의 트렌드를 표시하여 전체 체류 시간이 어떻게 변경되는지 확인할 수도 있습니다. 이 지표는 `HH:MM:SS` 형식으로 표시됩니다.
+사이트의 평균 시간 [지표](overview.md) 주어진 차원 항목에 대해 히트 사이에 경과된 시간을 표시합니다. 이 지표는 특정 차원 항목에 대한 평균 체류 시간을 보려 할 때 유용합니다. 시간에 따른 이 지표의 트렌드를 표시하여 전체 체류 시간이 어떻게 변경되는지 확인할 수도 있습니다. 이 지표는 `HH:MM:SS` 형식으로 표시됩니다.
 
 이 지표는 [방문당 체류 시간](../dimensions/time-spent-per-visit.md) 차원과 관련되어 있습니다.
 

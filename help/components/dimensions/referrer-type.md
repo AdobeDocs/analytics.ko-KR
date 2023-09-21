@@ -3,16 +3,16 @@ title: 레퍼러 유형
 description: 방문자가 어디에서 왔는지에 따른 레퍼러 유형입니다.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 61a8aec9bbd6102dd3c0eb60362e02d553e1ebd2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 레퍼러 유형
 
-레퍼러 유형 차원은 방문자가 사이트에 도달하기 위해 클릭스루한 일반 채널을 보고합니다. Adobe는 조직이 각 채널에 대한 규칙을 유지 관리하는 [마케팅 채널](marketing-channel.md)과 달리 각 차원 항목에 대한 규칙을 유지 관리합니다.
+&#39;레퍼러 유형&#39; [차원](overview.md) 방문자가 사이트에 도달하기 위해 클릭스루한 일반 채널을 보고합니다. Adobe는 조직이 각 채널에 대한 규칙을 유지 관리하는 [마케팅 채널](marketing-channel.md)과 달리 각 차원 항목에 대한 규칙을 유지 관리합니다.
 
 ## 이 차원을 데이터로 채우기
 

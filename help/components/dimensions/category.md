@@ -3,16 +3,16 @@ title: 카테고리
 description: 히트의 제품 카테고리입니다.
 feature: Dimensions
 exl-id: 3517b417-1a44-4d3e-ac16-93fdc5f36404
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 카테고리
 
-카테고리 차원은 히트의 제품 카테고리를 보고합니다. 이 차원은 `products` 변수를 사용하고 최상위 판매자나 가장 많이 본 항목과 같은 제품 카테고리 관련 지표를 보려는 구현에 유용합니다. 사이트에 제품이 없을 경우 의도적으로 이 차원을 비워 둘 수 있습니다.
+&#39;카테고리&#39; [차원](overview.md) 히트의 제품 카테고리를 보고합니다. 이 차원은 `products` 변수를 사용하고 최상위 판매자나 가장 많이 본 항목과 같은 제품 카테고리 관련 지표를 보려는 구현에 유용합니다. 사이트에 제품이 없을 경우 의도적으로 이 차원을 비워 둘 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 

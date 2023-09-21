@@ -3,16 +3,16 @@ title: 총 체류 시간 (초)
 description: 차원 항목에서 보낸 총 시간 (초)입니다.
 feature: Metrics
 exl-id: 02302982-ce8c-44e9-9967-0a4f226f5e9e
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 총 체류 시간 (초)
 
-총 체류 시간 (초) 지표는 방문자가 주어진 차원 항목에서 보낸 총 시간 (초)을 보여줍니다. 이 지표는 주어진 차원 항목에서 보낸 원시 시간 크기를 원하는 경우 유용하며 지표가 제공하는 다른 체류 시간과 같은 평균은 아닙니다.
+총 체류 시간(초) [지표](overview.md) 방문자가 주어진 차원 항목에서 보낸 총 시간(초)을 보여줍니다. 이 지표는 주어진 차원 항목에서 보낸 원시 시간 크기를 원하는 경우 유용하며 지표가 제공하는 다른 체류 시간과 같은 평균은 아닙니다.
 
 Report Builder에서는 이 지표를 &#39;총 체류 시간&#39;이라고 합니다.
 

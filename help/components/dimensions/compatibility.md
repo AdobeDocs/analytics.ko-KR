@@ -3,16 +3,16 @@ title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Analytics 차원 호환성
 
-이 페이지에는 각각의 Analytics 기능에서 지원되는 차원이 나열됩니다.
+이 페이지에는 다음이 나열됩니다. [치수](overview.md) 해당 Analytics 기능에서 지원됩니다.
 
 >[!NOTE]
 >

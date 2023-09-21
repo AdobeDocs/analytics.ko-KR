@@ -3,16 +3,16 @@ title: 페이지
 description: 페이지 이름.
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 페이지
 
-페이지 차원은 사이트의 페이지 이름을 나열합니다. 사이트의 어느 페이지가 가장 성과가 좋은지 알 수 있도록 해주므로, Adobe Analytics에서 사용되는 가장 일반적인 차원 중 하나입니다.
+&#39;페이지&#39; [차원](overview.md) 사이트에 있는 페이지의 이름을 나열합니다. 사이트의 어느 페이지가 가장 성과가 좋은지 알 수 있도록 해주므로, Adobe Analytics에서 사용되는 가장 일반적인 차원 중 하나입니다.
 
 이 차원은 [사이트 섹션](site-section.md) 및 [서버](server.md) 차원과 관련되어 있습니다. 페이지는 가장 세분화된 차원이고, 서버는 가장 덜 세분화된 차원이며, 사이트 섹션은 그 둘의 사이에 있습니다.
 

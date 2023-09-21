@@ -3,16 +3,16 @@ title: 일 (한 해 기준)
 description: 연도에 상관없이 그 해의 숫자 일입니다.
 feature: Dimensions
 exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # 일 (한 해 기준)
 
-일 (한 해 기준) 차원은 주어진 연도의 숫자 일을 차원 항목으로 보고합니다. 이 보고서는 일 (한 해 기준)별로 구분된 보고서가 필요하지만 차원 항목으로 정적 날짜를 원하지 않는 경우 유용합니다.
+일(한 해 기준) [차원](overview.md) 주어진 연도의 숫자 일을 차원 항목으로 보고합니다. 이 보고서는 일 (한 해 기준)별로 구분된 보고서가 필요하지만 차원 항목으로 정적 날짜를 원하지 않는 경우 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 

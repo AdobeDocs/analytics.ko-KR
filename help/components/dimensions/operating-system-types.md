@@ -3,16 +3,16 @@ title: 운영 체제 유형
 description: 버전에 관계없이 운영 체제를 보여 줍니다.
 feature: Dimensions
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # 운영 체제 유형
 
-운영 체제 유형 차원은 특정 버전에 관계없이 방문자가 사용한 지배적인 OS를 보여 줍니다. 이 차원은 가장 일반적인 특정 운영 체제와 버전뿐만 아니라 방문자가 사용하는 일반적인 OS 플랫폼을 파악하는 데 유용합니다.
+운영 체제 유형 [차원](overview.md) 특정 버전에 관계없이 방문자가 사용한 지배적인 OS를 보여줍니다. 이 차원은 가장 일반적인 특정 운영 체제와 버전뿐만 아니라 방문자가 사용하는 일반적인 OS 플랫폼을 파악하는 데 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 

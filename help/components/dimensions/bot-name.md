@@ -1,18 +1,18 @@
 ---
-title: 보트 이름
+title: 봇 이름
 description: 보트 규칙과 일치하는 보트의 이름입니다.
 exl-id: 668c1dce-c603-477a-9df7-dacb649bbf63
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# 보트 이름
+# 봇 이름
 
-보트 이름 차원은 다음을 사용하여 감지된 보트의 이름을 보여줍니다. [보트 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md). 이러한 규칙은 기본 IAB 규칙 또는 조직에서 구성하는 사용자 지정 보트 규칙일 수 있습니다. 이 메서드는 사이트를 방문하는 보트나 가장 많은 트래픽을 발생시키는 봇에 대해 자세히 알아보고자 하는 경우에 유용합니다.
+&#39;보트 이름&#39; [차원](overview.md) 다음을 사용하여 감지된 봇의 이름을 표시합니다. [보트 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md). 이러한 규칙은 기본 IAB 규칙 또는 조직에서 구성하는 사용자 지정 보트 규칙일 수 있습니다. 이 메서드는 사이트를 방문하는 보트나 가장 많은 트래픽을 발생시키는 봇에 대해 자세히 알아보고자 하는 경우에 유용합니다.
 
 일치하는 히트 수 [!UICONTROL 보트 규칙] 이 차원을 제외하고 모든 Analytics 보고에서 자동으로 필터링됩니다. [봇 발생 횟수](../metrics/bot-occurrences.md), 및 [보트 페이지 보기 수](../metrics/bot-page-views.md). 이 차원과 이 두 지표를 사용하여 나머지 보고서에서 제외되는 보트 데이터를 확인할 수 있습니다.
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 * [페이지](page.md)
 * 시간 기반 차원 (예: [일](day.md), [주](week.md), 또는 [월](month.md))
 * [봇 발생 횟수](../metrics/bot-occurrences.md)
-* [보트 페이지 보기 수](../metrics/bot-page-views.md)
+* [봇 페이지 조회수](../metrics/bot-page-views.md)
 
 이 차원과 함께 다른 차원 또는 지표를 사용하면 데이터가 반환되지 않습니다.
 

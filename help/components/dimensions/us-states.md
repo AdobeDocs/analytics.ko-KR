@@ -3,16 +3,16 @@ title: 미국 주
 description: 방문자의 미국 주입니다.
 feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 89%
+ht-degree: 85%
 
 ---
 
 # 미국 주
 
-미국 주 차원은 미국에 있는 방문자의 주를 보고합니다. 이 차원은 미국에만 해당된다는 점을 제외하면 [지역](regions.md) 차원과 유사합니다. 이 차원을 사용하는 것은 [국가](countries.md)보다 세부적인 통찰력을 원하지만 [도시](cities.md)만큼 세부적인 것을 원하지는 않는 경우 유용합니다.
+&#39;미국 주&#39; [차원](overview.md) 미국 내 방문자의 상태를 보고합니다. 이 차원은 미국에만 해당된다는 점을 제외하면 [지역](regions.md) 차원과 유사합니다. 이 차원을 사용하는 것은 [국가](countries.md)보다 세부적인 통찰력을 원하지만 [도시](cities.md)만큼 세부적인 것을 원하지는 않는 경우 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 

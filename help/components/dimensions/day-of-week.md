@@ -3,16 +3,16 @@ title: 요일
 description: 요일 (날짜 범위와 상관없이)입니다.
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 요일
 
-요일 차원은 히트가 발생한 요일을 보고합니다. 이 보고서는 주별로 구분된 보고서가 필요하지만 차원 항목으로 정적 일 수를 원하지 않는 경우 유용합니다. 이 차원은 어떤 날짜 범위에든 작동하므로 특히나 예약된 보고서에서 차원으로서 중요합니다.
+요일 [차원](overview.md) 히트가 발생한 요일을 보고합니다. 이 보고서는 주별로 구분된 보고서가 필요하지만 차원 항목으로 정적 일 수를 원하지 않는 경우 유용합니다. 이 차원은 어떤 날짜 범위에든 작동하므로 특히나 예약된 보고서에서 차원으로서 중요합니다.
 
 ## 이 차원을 데이터로 채우기
 

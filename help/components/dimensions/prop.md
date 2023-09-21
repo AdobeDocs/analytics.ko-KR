@@ -3,7 +3,7 @@ title: Prop
 description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 95%
@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # Prop
 
-*이 도움말 페이지에서는 prop이 차원으로 작동하는 방식을 설명합니다. prop 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [prop](/help/implement/vars/page-vars/prop.md)을 참조하십시오.*
+*[이 도움말 페이지에서는 prop이 차원으로 작동하는 방식을 설명합니다](overview.md). prop 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [prop](/help/implement/vars/page-vars/prop.md)을 참조하십시오.*
 
 prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. prop이 설정된 히트 이후에는 지속되지 않습니다.
 

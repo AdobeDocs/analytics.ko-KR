@@ -3,16 +3,16 @@ title: 인스턴스
 description: 변수가 설정된 (지속되지 않음) 히트의 수입니다.
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 65%
+ht-degree: 57%
 
 ---
 
 # 인스턴스
 
-인스턴스 지표는 이미지 요청에서 차원이 명시적으로 정의된 횟수를 보여줍니다. [eVar](../dimensions/evar.md)와 같은 일부 차원은 이 차원이 설정된 히트 이후에 차원 항목을 유지합니다. 이 지표는 해당 값이 지속된 히트가 없는 상태에서 차원 항목이 설정된 횟수를 보려는 경우에 유용합니다.
+&#39;인스턴스&#39; [지표](overview.md) 이미지 요청에서 차원이 명시적으로 정의된 횟수를 보여줍니다. [eVar](../dimensions/evar.md)와 같은 일부 차원은 이 차원이 설정된 히트 이후에 차원 항목을 유지합니다. 이 지표는 해당 값이 지속된 히트가 없는 상태에서 차원 항목이 설정된 횟수를 보려는 경우에 유용합니다.
 
 ## 이 지표의 계산 방법
 

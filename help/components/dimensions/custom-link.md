@@ -3,16 +3,16 @@ title: 사용자 지정 링크
 description: 사용자 지정 링크의 이름입니다.
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 사용자 지정 링크
 
-사용자 지정 링크 차원은 사이트에 구현된 사용자 지정 링크의 이름을 보고합니다. 이 차원은 방문자가 가장 많이 클릭하는 링크 유형을 이해하려 할 때 유용합니다.
+&#39;사용자 지정 링크&#39; [차원](overview.md) 사이트에 구현된 사용자 지정 링크의 이름을 보고합니다. 이 차원은 방문자가 가장 많이 클릭하는 링크 유형을 이해하려 할 때 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 

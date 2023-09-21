@@ -3,16 +3,16 @@ title: 첫 구매까지 소요된 일 수
 description: 방문자의 첫 방문과 첫 번째 구매 사이의 일 수입니다.
 feature: Dimensions
 exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # 첫 구매까지 소요된 일 수
 
-첫 구매까지 소요된 일 수 차원은 방문자가 처음 사이트에 도달하고 구매하기까지 경과되는 일 수를 보고합니다. 예를 들어 방문자가 처음 방문한 다음 하루 후에 구매한다면 그 이후의 모든 방문 또는 이벤트는 &quot;1일&quot; 차원 항목에 속합니다.
+첫 구매까지 소요된 일 수 [차원](overview.md) 방문자가 사이트에 처음 도달하고 구매하기까지 경과되는 일 수를 보고합니다. 예를 들어 방문자가 처음 방문한 다음 하루 후에 구매한다면 그 이후의 모든 방문 또는 이벤트는 &quot;1일&quot; 차원 항목에 속합니다.
 
 방문자는 처음 구매한 후 방문자의 남은 쿠키 수명 동안 동일한 차원 항목에 속합니다.
 

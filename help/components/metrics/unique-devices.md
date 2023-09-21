@@ -3,16 +3,16 @@ title: 고유 디바이스
 description: 고유 디바이스의 수입니다.
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 고유 디바이스
 
-“고유 디바이스” 지표는 미확인된 고유 디바이스 및 가상 고유 디바이스의 수를 계산하는 [디바이스 간 분석](../cda/overview.md) 지표입니다. 미확인된 디바이스는 익명 히트를 생성한 디바이스입니다. 가상 고유 디바이스는 디바이스별로 확인된 고유 사용자입니다.
+&quot;고유 디바이스&quot; [지표](overview.md) 다음 값: [크로스 디바이스 분석](../cda/overview.md) 미확인된 고유 디바이스 및 가상 고유 디바이스의 수를 계산하는 지표. 미확인된 디바이스는 익명 히트를 생성한 디바이스입니다. 가상 고유 디바이스는 디바이스별로 확인된 고유 사용자입니다.
 
 ## 이 지표의 계산 방법
 
