@@ -3,10 +3,10 @@ title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+source-git-commit: 19bb3da46637bf8afc4e5723e2fa28b490e09c88
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 71%
+source-wordcount: '660'
+ht-degree: 68%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 71%
 
 제품: [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 XDM 필드 아래에서:
 
-* 범주가 다음에 매핑됨 `productListItems[].lineItemId`.
+* 범주가 다음에 매핑됨 `productListItems[].productCategories[].categoryID`. 에서 첫 번째 항목을 사용합니다. `productCategories[]` 배열입니다. `lineItemId` 또한 올바르게 매핑되지만 다음을 권장합니다. `categoryID` 표준 XDM이므로. 두 XDM 필드가 모두 있는 경우 `lineItemId` 을 우선으로 합니다.
 * 제품이 매핑된 대상 `productListItems[].SKU` 또는 `productListItems[].name`. 두 XDM 필드가 모두 있는 경우 `productListItems[].SKU` 를 사용합니다.
 * 수량이 매핑됨 `productListItems[].quantity`.
 * 가격이 매핑됩니다. `productListItems[].priceTotal`.
