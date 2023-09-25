@@ -5,9 +5,9 @@ user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
 source-git-commit: dc84909f9c19681adfd28696495b667837056146
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -195,7 +195,7 @@ ht-degree: 98%
       + [세그먼트 스택 및 바꾸기](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [필터 및 가중치가 적용된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [함수 사용](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [계산된 지표에 태그 지정](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [계산된 지표 태그 지정](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [계산된 지표 필터링](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
       + [계산된 지표를 즐겨찾기로 표시](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [계산된 지표 승인](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
