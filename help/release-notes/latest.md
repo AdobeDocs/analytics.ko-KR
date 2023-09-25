@@ -4,9 +4,9 @@ description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 2998ab3ecb83e14be38333a2836f863667babfee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '899'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 88%
 | **API 2.0에서의 분류** | 분류 세트 데이터의 저장, 삭제, 검색, 가져오기 및 내보내기를 위한 Adobe Analytics API 2.0 메서드를 제공합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 해당 사항 없음 | 2023년 9월 13일 |
 | **A4T 분류를 위한 새로운 `correlationID` 필드 지원** | 이제 Adobe Analytics 소스 커넥터 스키마에서 `_experience.decisioning.propositions.scopeDetails.correlationID` 필드를 사용할 수 있습니다. Adobe Target 활동 및 경험 이벤트에 대한 분류 데이터를 쉽게 결합하기 위해 이 ID를 추가하고 있습니다. | 해당 사항 없음 | 2023년 9월 13일 |
 | **Data Warehouse 개선 사항** | Data Warehouse 요청을 만들 때 이제 보고서 대상으로 사용할 클라우드 계정을 구성할 수 있습니다. 다음 클라우드 계정 유형을 데이터 전송에 사용할 수 있습니다.<ul><li>Amazon S3</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li><li>이메일(이 옵션은 이전에 사용 가능했음)</li></ul>FTP, SFTP, Azure Blob 및 S3는 여전히 보고서 대상으로 사용할 수 있지만 더 이상 권장되지 않습니다.<p>Data Warehouse 요청을 생성하고 관리할 때의 사용자 경험도 개선되었습니다. 자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md) 및 [Data Warehouse 요청 관리](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ko-KR)를 참조하십시오. | 2023년 9월 13일 | 2023년 10월 4일 |
-| **구성 요소 관리 시 사용할 수 있는 새 열** | 이제 구성 요소를 관리할 때 다음과 같은 새 열을 사용할 수 있습니다.<ul><li>다음에서 사용됨<p>이 열은 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>마지막 사용<p>이 열은 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)및 [경고 관리자](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 가치가 있는지, 사용 위치 및 삭제하거나 수정해야 하는지 여부를 확인하는 데 도움이 됩니다. 이 정보와 함께 데이터 사전을 사용하면 구성 요소가 조직에서 사용되는 방식을 추적하고 더 잘 이해할 수 있습니다.</p> | 2023년 9월 20일 | 2023년 10월 4일 |
+| **구성 요소 관리 시 새로운 열 사용 가능** | 이제 구성 요소를 관리할 때 다음과 같은 새로운 열을 사용할 수 있습니다.<ul><li>다음에서 사용<p>이 열은 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에서 사용할 수 있습니다.</p></li><li>마지막 사용<p>이 열은 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md) 및 [경고 관리자](/help/components/c-alerts/alert-manager.md)에서 사용할 수 있습니다.</p></li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다. 이 정보와 함께 데이터 사전을 사용하면 조직에서 구성 요소가 사용되는 방식을 지속적으로 추적하고 보다 명확하게 파악할 수 있습니다.</p> | 2023년 9월 20일 | 2023년 10월 4일 |
 
 {style="table-layout:auto"}
 
