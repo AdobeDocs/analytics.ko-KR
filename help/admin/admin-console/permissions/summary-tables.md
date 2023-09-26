@@ -3,7 +3,7 @@ title: Adobe Analytics Permissions - 요약 표
 description: Adobe Admin Console의 사용 가능한 Adobe Analytics Permissions을 요약하는 표입니다.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 98%
@@ -70,6 +70,8 @@ ht-degree: 98%
 | 비디오 설정 |  |  |  | x | 사용되지 않습니다. |
 | 웹 리소스 |  |  |  | x | 사용되지 않습니다. |
 
+{style="table-layout:auto"}
+
 ## Analytics 도구
 
 | Analytics 도구 | 관리 | Access Controls | 보고 전용 기능 | 사용하지 않음 | 설명 |
@@ -110,3 +112,5 @@ ht-degree: 98%
 | 권한 (쓰기) - 웹 서비스 |  |  |  | x | 더 이상 사용되지 않습니다. 사용자가 관리 API를 사용하여 이전 Analytics 권한을 편집할 수 있습니다. Adobe Admin Console을 대신 사용합니다. |
 | 환경 설정 |  |  |  | x | 사용되지 않습니다. |
 | SSO(Single Sign-On) |  |  |  | x | 더 이상 사용되지 않습니다. 더 이상 사용되지 않는 SSO(Single Sign-On) 서비스에 대한 액세스 권한을 부여합니다. |
+
+{style="table-layout:auto"}
