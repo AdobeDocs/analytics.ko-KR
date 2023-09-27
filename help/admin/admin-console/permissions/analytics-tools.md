@@ -3,9 +3,9 @@ title: Analytics 도구에 대한 제품 프로필 권한
 description: Analytics 도구 권한 항목을 사용하여 Adobe Analytics 내의 기능에 액세스 권한을 부여합니다.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '491'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | Analytics 도구 권한 항목 | 설명 |
 |----|----|
 | [!UICONTROL Activity Map] | 도구 > Activity Map에 대한 액세스 권한을 부여합니다. 사용자가 Activity Map 확장 기능을 사용할 수 있습니다. |
-| [!UICONTROL Advertising Analytics 관리] | 사용되지 않습니다. |
+| [!UICONTROL Advertising Analytics 관리] | 사용자가 광고 검색 계정을 설정/편집/볼 수 있습니다. |
 | [!UICONTROL Analysis Workspace 액세스] | Analysis Workspace에 대한 액세스 권한 부여. Adobe Analytics를 사용하려면 사용자가 이 그룹 (기본 설정) 또는 Reports &amp; Analytics 액세스 그룹에 속해야 합니다. |
 | [!UICONTROL Analysis Workspace: 템플릿으로 저장] | Analysis Workspace 내의 프로젝트 > 템플릿으로 저장에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 주석 작성] | 주석을 작성할 수 있는 권한을 부여합니다. |
