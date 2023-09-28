@@ -4,10 +4,12 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+hide: true
+hidefromtoc: true
+source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 98%
+source-wordcount: '633'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +34,7 @@ ht-degree: 98%
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [로그](admin/logs.md)
    + [보고 활동 관리자](admin/reporting-activity.md)
+   + [구성 요소 마이그레이션](admin/component-migration.md)
    + 보고서 세트 관리자 {#manage-report-suites}
       + 보고서 세트의 설정 편집 {#edit-report-suite}
          + 일반 {#report-suite-general}
@@ -171,7 +174,7 @@ ht-degree: 98%
       + [서버 호출 사용량 FAQ](admin/c-server-call-usage/overage-faq.md)
    + 사용자 및 제품 관리(기존) {#user-product-management}
       + [사용자 및 제품 관리(기존)](admin/user-management2/user-management.md)
-      + [사용자 자산 이전 또는 계정 만료 설정](admin/user-management2/users-assets.md)
+      + [사용자 자산 전송 또는 계정 만료 설정](admin/user-management2/users-assets.md)
       + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
          + [Admin Console로 Analytics 사용자 마이그레이션](admin/user-management2/user-migration/c-migration-tool.md)
          + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](admin/user-management2/user-migration/t-migrate-users.md)
