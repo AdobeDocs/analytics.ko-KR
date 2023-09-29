@@ -4,16 +4,16 @@ title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 94041993f624fc5253929a92475842311c125799
+source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 8%
+source-wordcount: '1784'
+ht-degree: 7%
 
 ---
 
 # Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 
-Adobe Analytics 관리자는 Adobe Analytics 구성 요소 및 프로젝트를 Customer Journey Analytics으로 마이그레이션할 수 있습니다.
+Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics으로 마이그레이션할 수 있습니다.
 
 마이그레이션 프로세스에는 다음이 포함됩니다.
 
@@ -21,15 +21,17 @@ Adobe Analytics 관리자는 Adobe Analytics 구성 요소 및 프로젝트를 C
 
 * Adobe Analytics 보고서 세트의 차원 및 지표를 Customer Journey Analytics 데이터 보기의 차원 및 지표에 매핑합니다.
 
-  일부 차원 및 지표는 자동으로 매핑되며, 다른 차원은 마이그레이션 프로세스의 일부로 수동으로 매핑해야 합니다.
+  일부 차원 및 지표는 자동으로 매핑되며, 다른 차원은 마이그레이션 프로세스의 일부로 수동으로 매핑해야 합니다. 세그먼트도 마이그레이션되지만 마이그레이션 프로세스의 일부로 매핑할 필요는 없습니다.
+
+  마이그레이션이 완료되면 마이그레이션된 모든 구성 요소가 마이그레이션 요약에 표시됩니다.
 
 ## 마이그레이션 준비
 
-조직에서 프로젝트 마이그레이션을 시작하기 전에 사전 요구 사항을 완료하고 마이그레이션되는 항목과 마이그레이션되지 않는 항목을 배우고 조직에 대한 마이그레이션 계획을 만드십시오.
+조직의 누군가가 프로젝트 마이그레이션을 시작하기 전에 다음 섹션을 완료하십시오.
 
 ### 사전 요구 사항
 
-프로젝트와 관련 차원 및 지표를 마이그레이션할 준비가 되기 전에 먼저 다음을 수행해야 합니다.
+프로젝트 및 관련 구성 요소를 마이그레이션할 준비가 되기 전에 먼저 다음을 수행해야 합니다.
 
 * Analytics 소스 커넥터를 사용하여 Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터를 볼 수 있습니다. 이를 위해서는 다음을 수행해야 합니다.
 
@@ -49,28 +51,70 @@ Adobe Analytics 관리자는 Adobe Analytics 구성 요소 및 프로젝트를 C
 
 다음 표에서는 마이그레이션에 포함된 프로젝트 및 구성 요소의 요소를 간략하게 설명합니다.
 
+#### 마이그레이션된 구성 요소
 
-|  | 프로젝트 | Dimension 및 지표 |
-|---------|----------|---------|
-| **날짜 범위** | 예 | 해당 사항 없음 |
-| **세그먼트** | 예 | 해당 사항 없음 |
-| **빠른 세그먼트** | 예 | 해당 사항 없음 |
-| **패널** | 예 | 해당 사항 없음 |
-| **시각화** | 예 | 해당 사항 없음 |
-| **소유자** | (마이그레이션을 수행하는 사용자에 의해 정의됨) | ? |
-| **큐레이션** | 아니요 | 해당 없음 |
-| **공유(프로젝트 역할)** | 아니요 | 아니요 |
-| **주석** | 아니요 | 해당 없음 |
-| **폴더 구조** | 아니요 | 해당 없음 |
-| **설명** | 예 | ? |
-| **태그** | ? | ? |
-| **일정** | ? | 해당 사항 없음 |
-| **속성(차원)** | 해당 사항 없음 | ? |
-| **예외 항목 탐지** | ? | 해당 사항 없음 |
-| **기여도 분석** | ? | 해당 사항 없음 |
-| **경고** | ? | 해당 사항 없음 |
+|  | [마이그레이션됨] |
+|---------|---------|
+| **[소유자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
+| **[공유](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 아니요 |
+| **[설명](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
+| **[태그](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 아니요 |
+| **[속성(차원)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
+
+#### 마이그레이션된 프로젝트 요소
+
+|  | [마이그레이션됨] |
+|---------|----------|
+| **[날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
+| **[세그먼트](/help/components/segmentation/seg-overview.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
+| **[빠른 세그먼트](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
+| **[차원](/help/components/dimensions/overview.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) 자동 또는 수동으로 매핑됨 |
+| **[지표](/help/components/metrics/overview.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) 자동 또는 수동으로 매핑됨 |
+| **[패널](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
+| **[시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
+| **[소유자](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) 마이그레이션을 수행하는 사용자가 정의함 |
+| **[큐레이션](/help/analyze/analysis-workspace/curate-share/curate.md)** | 아니요 |
+| **[공유(프로젝트 역할)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 아니요 |
+| **[공유(모든 사람 링크와 공유)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[주석](/help/analyze/analysis-workspace/components/annotations/overview.md)** | 아니요 |
+| **[폴더 구조](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | 아니요 |
+| **[설명](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
+| **[태그](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | 아니요 |
+| **[일정](/help/components/scheduled-projects-manager.md)** | 아니요 |
+| **[예외 항목 탐지](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
+| **[즐겨찾기](/help/analyze/landing.md)** | ? |
+
+{style="table-layout:auto"}
+
+### 오류를 일으키는 지원되지 않는 요소 이해
+
+다음 시각화, 패널 및 기능은 Customer Journey Analytics에서 지원되지 않습니다. 이러한 요소가 마이그레이션 전에 프로젝트에 포함되면 마이그레이션에 실패하거나 프로젝트가 마이그레이션된 후 오류가 발생할 수 있습니다.
+
+프로젝트를 Adobe Analytics으로 마이그레이션하기 전에 Customer Journey Analytics 프로젝트에서 이러한 요소를 제거하십시오. 마이그레이션이 실패하면 마이그레이션을 다시 시도하기 전에 이러한 요소를 제거하십시오.
+
+#### 지원되지 않는 시각화
+
+* [맵](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
+
+#### 지원되지 않는 패널
+
+* [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+
+* [세그먼트 비교](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+* [미디어 대상 평균 시간](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+
+* [다음 또는 이전 항목](/help/analyze/analysis-workspace/c-panels/next-previous.md)
+
+* [페이지 요약](/help/analyze/analysis-workspace/c-panels/page-summary.md)
+
+#### 지원되지 않는 기능
+
+* [기여도 분석](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+
+* [경고](/help/components/c-alerts/intellligent-alerts.md)
 
 ### 조직으로 마이그레이션 계획 만들기
 
