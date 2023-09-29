@@ -4,10 +4,10 @@ title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
+source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 7%
+source-wordcount: '1974'
+ht-degree: 8%
 
 ---
 
@@ -116,11 +116,89 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
 * [경고](/help/components/c-alerts/intellligent-alerts.md)
 
-### 조직으로 마이그레이션 계획 만들기
+### 지원되지 않는 구성 요소를 매핑할 방법을 조직으로 결정
 
-주어진 프로젝트 마이그레이션에 대해 매핑된 구성 요소는 전체 조직의 향후 프로젝트 마이그레이션에 적용되므로 조직에서 모든 프로젝트 마이그레이션을 미리 계획하는 것이 중요합니다.
+>[!IMPORTANT]
+>
+>마이그레이션 프로세스는 Customer Journey Analytics의 구성 요소에 자동으로 매핑될 수 없는 Adobe Analytics 프로젝트의 구성 요소를 식별하며, 이러한 구성 요소를 수동으로 매핑할 수 있도록 해줍니다.
+>
+>**한 프로젝트에서 수행된 모든 매핑은 마이그레이션을 수행하는 사용자에 관계없이 전체 조직의 모든 향후 프로젝트에 적용됩니다. 이러한 매핑은 고객 지원 센터에 문의하는 경우를 제외하고는 수정하거나 취소할 수 없습니다.**
+>
+>따라서 프로젝트가 마이그레이션되기 전에 조직에서 차원과 지표를 매핑하는 방법을 결정하는 것이 중요합니다. 이렇게 하면 개별 관리자가 단일 프로젝트만 고려할 때 사일로에서 결정을 내리는 것을 방지할 수 있습니다.
+>
+>다음은 프로젝트에 차원 및 지표가 있을 경우 수동으로 매핑해야 하는 목록입니다. 마이그레이션 전에 이 목록을 검토하는 것이 좋습니다. 이러한 구성 요소가 프로젝트에 있는 경우 해당 구성 요소를 매핑할 Customer Journey Analytics 구성 요소를 결정하십시오.
 
-차원 및 지표를 매핑할 방법을 조직으로 결정해야 합니다. 이렇게 하면 개별 관리자가 단일 프로젝트만 고려할 때 사일로에서 결정을 내리는 것을 방지할 수 있습니다.
+
+#### 지원되지 않는 차원
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* visitnumber
+* timeprior
+* timespent
+* category
+* connectiontype
+* customerloyalty
+* customlink
+* downloadlink
+* exitlink
+* hitdepth
+* hittype
+* pathlength
+* daysbeforefirstpurchase
+* dayssincelastpurchase
+* dayssincelastvisit
+* identificationstate
+* optoutreason
+* persistentcookie
+* returnfrequency
+* searchenginenatural
+* searchenginenaturalkeyword
+* mobilecarrier
+* monitorresolution
+* surveybase
+* mcaudiences
+* tntbase
+* targetraw
+
+
+#### 지원되지 않는 지표
+
+* timespentvisit
+* timespentvisitor
+* 다시 로드
+* bounces
+* 튀김-
+* pageevents
+* pageviewspervisit
+* orderspervisit
+* averagepagedepth
+* averagetimespentonsite
+* exitlinkinstances
+* customlinkinstance
+* downloadlinkinstances
+* darkvisitors
+* singlepagevisits
+* singlevaluevisits
+* visitorhome
+* visitorsmcvisid
+* pagesnotfound
+* 새 참여 횟수
+* time_granularity
+* concurrent_viewers_visitors
+* concurrent_viewers_occurrences
+* 장치
+* 예상 사용자
+* playback_time_spent_seconds
+* playback_time_spent_minutes
+* average_minute_audience_time_based
+* average_minute_audience_media_time
+* average_minute_audience_content_time
+* video_length
+* targetconversion
+* targetimpression
+
 
 ## Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션
 
@@ -214,11 +292,13 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
 마이그레이션이 실패하면 마이그레이션을 다시 시도할 수 있습니다.
 
-다음 방법 중 하나로 실패한 마이그레이션을 다시 시도할 수 있습니다.
+실패한 마이그레이션을 다시 시도하기 전에 다음을 제거해야 합니다. [지원되지 않는 요소](#understand-unsupported-elements-that-cause-errors) 프로젝트에서 가져왔습니다.
 
 >[!NOTE]
 >
 >마이그레이션을 다시 시도한 후에도 계속 실패하는 경우 프로젝트 ID를 사용하여 고객 지원 센터에 문의하십시오. 프로젝트 ID는 마이그레이션 상태 페이지에서 찾을 수 있습니다. <!-- when does this page display? How can they get there -->
+
+실패한 마이그레이션을 다시 시도하려면 다음 작업을 수행하십시오.
 
 1. Adobe Analytics에서 [!UICONTROL **관리**] 탭을 선택한 다음 [!UICONTROL **모든 관리자**]&#x200B;를 선택합니다.
 
