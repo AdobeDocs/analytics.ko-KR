@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 94041993f624fc5253929a92475842311c125799
+source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '628'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 99%
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
    + [Adobe Analytics의 관리자 역할](admin-console/admin-roles-in-analytics.md)
    + Analytics 도구 권한 요약 {#permissions}
-      + [Admin Console의 Analytics 권한](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
       + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
       + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
