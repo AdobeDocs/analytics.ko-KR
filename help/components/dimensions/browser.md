@@ -3,48 +3,26 @@ title: 브라우저
 description: 사용된 브라우저의 이름 및 버전입니다.
 feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 206df584deab5f6f9b8eeb09d9c8ad4983424eea
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 38%
+source-wordcount: '201'
+ht-degree: 59%
 
 ---
 
 # 브라우저
 
-&#39;[!UICONTROL 브라우저]&#39; [차원](overview.md) 히트를 전송하는 브라우저의 이름과 버전을 보고합니다. 이 차원은 방문자가 사용하는 가장 일반적인 브라우저를 이해하는 데 유용합니다. 사이트의 새 버전을 테스트할 때 이 차원의 상위 브라우저에서 이러한 테스트를 실행하여 품질 관리 노력을 극대화할 수 있습니다.
+&#39;[!UICONTROL 브라우저]&#39; [차원](overview.md) 히트를 전송하는 브라우저의 이름과 버전을 보고합니다. 이 차원은 방문자가 사용하는 가장 일반적인 브라우저를 측정하려는 경우에 유용합니다. 사이트의 새 버전을 테스트할 때 이 차원의 상위 브라우저에서 이러한 테스트를 실행하여 품질 관리 노력을 극대화할 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 Adobe 내부의 조회 테이블을 참조합니다. 조회 값은 이미지 요청에 있는 `User-Agent` HTTP 헤더를 기반으로 합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 이 차원은 즉시 작동합니다.
+이 차원은 Adobe 내부의 조회 테이블을 참조합니다. 조회 값은 이미지 요청에 있는 `User-Agent` HTTP 헤더를 기반으로 합니다. 와 파트너 Adobe [DeviceAtlas](https://deviceatlas.com/) 사용자 에이전트와 브라우저 간 조회를 유지 관리합니다.
+
+* AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
+* 웹 SDK 구현의 경우 다음을 활성화합니다 [!UICONTROL 장치 조회] 조건 [데이터스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR).
 
 ## 차원 항목
 
 차원 항목에는 사용된 브라우저 이름과 버전이 포함됩니다. 동일한 브라우저의 다른 버전은 별도의 차원 항목입니다.
 
-일부 차원 항목은 버전 번호 대신 `"(unknown version)"`을 포함합니다. 이 차원 항목은 Adobe가 조회 테이블에 추가하지 않은 최근 브라우저 릴리스를 참조합니다. 브라우저는 자주 업데이트되므로 주어진 브라우저에 대해 `"(unknown version)"`은 일반적이고 일시적입니다. Adobe는 일반적으로 월별 유지 관리 릴리스 동안 조회 테이블을 업데이트합니다.
-
-## 레이블 지정 및 정의 변경
-
-다음은 보고에서 브라우저가 표시되는 방식에 대한 변경 사항 목록입니다. 이러한 변경 사항은 보고 또는 이러한 값에 의존하는 모든 논리(예: 세그먼트)에 영향을 줄 수 있습니다.
-
-### 브라우저에서 회사 제거 중
-
-Chrome, Edge 및 Firefox 브라우저용 버전 100부터 회사 이름이 더 이상 브라우저 앞에 표시되지 않습니다. 이 경우 브라우저의 이름을 기반으로 하는 세그먼트 정의가 있는 사용자에게 영향을 줄 수 있습니다. 예를 들어 &quot;브라우저에 Google이 포함되어 있음&quot;이라는 정의가 포함된 세그먼트는 버전 110부터 더 이상 Chrome 브라우저를 식별하지 않습니다.
-
-예:
-
-Chrome 버전 109는 &quot;Google Chrome 109&quot;로 표시됩니다.
-Chrome 버전 110은 &quot;Chrome 109&quot;로 표시됩니다.
-
-### Chrome에서 모바일과 비모바일의 구분 제거
-
-Chrome 110부터 모바일 버전과 비모바일 버전 모두 동일한 레이블이 지정됩니다. 현재, 모바일 버전과 비모바일 버전은 각각 레이블이 지정됩니다. 중요한 것은 이것이 &quot;모바일&quot;이 없는 이름의 의미를 변경시킨다는 것입니다. &quot;Chrome 109&quot;는 비모바일(즉, 데스크탑)이며 &quot;Chrome 110&quot;은 모바일 및 비모바일입니다. 브라우저 이름에 &quot;모바일&quot;을 참조하는 세그먼트 정의가 있는 경우 이러한 정의가 더 이상 예상대로 작동하지 않을 수 있습니다. 모바일 세분화 및 분류 를 사용하여 모바일과 비모바일 트래픽을 비교할 수 있습니다.
-
-예:
-
-Mobile Chrome 109는 &quot;Chrome Mobile 109&quot;로 표시됩니다.
-비 모바일 Chrome 109는 &quot;Chrome 109&quot;로 표시됩니다.
-
-Mobile Chrome 110은 &quot;Chrome 110&quot;으로 표시됩니다.
-비 모바일 Chrome 110은 &quot;Chrome 110&quot;으로 표시됩니다.
+일부 차원 항목은 버전 번호 대신 `"(unknown version)"`을 포함합니다. 이 차원 항목은 Adobe이 조회 테이블에 아직 추가하지 않은 최근 브라우저 릴리스를 참조합니다. 브라우저는 자주 업데이트되므로 주어진 브라우저에 대해 `"(unknown version)"`은 일반적이고 일시적입니다. Adobe는 일반적으로 월별 유지 관리 릴리스 동안 조회 테이블을 업데이트합니다.

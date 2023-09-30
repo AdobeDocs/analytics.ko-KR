@@ -3,10 +3,10 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 100%
+source-wordcount: '2549'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 * **로그인 회사:** 조직에서 사용한 보고서 세트들의 모음입니다. 일부 조직에는 조직의 여러 부분에 해당되는 여러 로그인 회사가 있습니다.
 * **마케팅 채널:** 히트가 사이트에 도착한 방법별로 히트를 분류하는 Adobe Analytics의 기능입니다. 히트를 분류하는 데 사용되는 로직은 마케팅 채널 처리 규칙을 사용하여 사용자 지정할 수 있습니다. 구성 요소 사용 안내서에서 [마케팅 채널 시작하기](/help/components/c-marketing-channels/c-getting-started-mchannel.md)를 참조하십시오.
 * **지표:** 수량 데이터를 포함하는 구성 요소 유형입니다. 지표 값에는 일반적으로 페이지 보기 수, 방문 횟수 및 매출과 같은 숫자가 포함됩니다. 차원은 일반적으로 차원 상대가 있습니다.
-* **Mobile Services:** Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해 줍니다. [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) 개요를 참조하십시오.
+* **Mobile Services:** Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 함께 제공하는 폐기된 Adobe 제품으로, 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해 줍니다.
 * **다중 세트 태깅:** 동일한 히트를 여러 보고서 세트로 보내는 방법입니다. 가상 보고서 세트를 도입하면서 이 방법은 더 이상 필요하지 않습니다. 대부분의 다중 세트 태깅 작업은 전역 보고서 세트를 만드는 데 도움이 됩니다.
 * **표준화:** 모든 지표를 가져와 동일한 비율로 적용함으로써 트렌드를 보다 쉽게 비교할 수 있도록 시각화를 구성하는 방법입니다.
 * **발생 횟수:** 차원 항목이 설정되거나 지속된 히트 수를 보여 주는 지표 유형입니다. 구성 요소 사용 안내서에서 [발생 횟수](/help/components/metrics/occurrences.md) 지표를 참조하십시오.

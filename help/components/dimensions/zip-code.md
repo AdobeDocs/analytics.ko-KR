@@ -3,10 +3,10 @@ title: 우편 번호
 description: 방문자의 우편 번호입니다.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 94%
+source-wordcount: '271'
+ht-degree: 80%
 
 ---
 
@@ -19,13 +19,14 @@ ht-degree: 94%
 이 차원은 데이터로 채우는 여러 가지 방법을 포함하고 있다는 점에서 독특합니다. 다음 중 하나를 사용하거나 두 가지를 조합하여 사용할 수 있습니다.
 
 * `zip` 변수를 사용하여 바로 우편 번호를 설정합니다. 또는
-* 지리 특성 데이터에서 가져오도록 구성합니다.
+* 지리적 위치 데이터에서 가져오도록 구성합니다.
 
 [!UICONTROL 일반 계정 설정] 아래의 [Zip 옵션](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)은 이 차원을 채울 방법을 제어합니다.
 
->[!IMPORTANT]
->
->이 차원을 채우는 방법을 완전히 제어하려는 경우 보고서 세트 설정이 필수적입니다.
+geo zip 과 관련된 옵션을 사용하도록 선택하는 경우:
+
+* AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
+* 웹 SDK 구현의 경우 다음을 활성화합니다 [!UICONTROL 지역 조회] 조건 [데이터스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR).
 
 ## 차원 항목
 

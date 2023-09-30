@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
-workflow-type: ht
-source-wordcount: '739'
-ht-degree: 100%
+source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+workflow-type: tm+mt
+source-wordcount: '750'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,8 @@ ht-degree: 100%
    + [마케팅 채널](dimensions/marketing-channel.md)
    + [마케팅 채널 세부 사항](dimensions/marketing-detail.md)
    + [분](dimensions/minute.md)
-   + [모바일 차원](dimensions/mobile-dimensions.md)
+   + [모바일 라이프사이클 차원](dimensions/lifecycle-dimensions.md)
+   + [모바일 조회 차원](dimensions/mobile-dimensions.md)
    + [모니터 해상도](dimensions/monitor-resolution.md)
    + [월(연 기준)](dimensions/month-of-year.md)
    + [월](dimensions/month.md)
@@ -99,6 +100,7 @@ ht-degree: 100%
    + [옵트아웃 이유 추적](dimensions/tracking-opt-out-reason.md)
    + [US DMA](dimensions/us-dma.md)
    + [미국 주](dimensions/us-states.md)
+   + [음성 차원](dimensions/voice-dimensions.md)
    + [방문 깊이](dimensions/visit-depth.md)
    + [방문 횟수](dimensions/visit-number.md)
    + [주](dimensions/week.md)
@@ -127,6 +129,7 @@ ht-degree: 100%
    + [종료](metrics/exits.md)
    + [확인된 사용자](metrics/identified-people.md)
    + [인스턴스](metrics/instances.md)
+   + [모바일 라이프사이클 지표](metrics/lifecycle-metrics.md)
    + [모바일 보기 개수](metrics/mobile-views.md)
    + [새 참여 횟수](metrics/new-engagements.md)
    + [발생 횟수](metrics/occurrences.md)
@@ -151,6 +154,7 @@ ht-degree: 100%
    + [고유 디바이스](metrics/unique-devices.md)
    + [고유 방문자 수](metrics/unique-visitors.md)
    + [판매량](metrics/units.md)
+   + [음성 지표](metrics/voice-metrics.md)
    + [Experience Cloud ID를 가진 방문자](metrics/visitors-with-ecid.md)
    + [방문 횟수](metrics/visits.md)
 + 세분화 {#segmentation}

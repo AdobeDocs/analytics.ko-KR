@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: b8a71d9b351368721909d1580a690bf924eb39fb
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '632'
 ht-degree: 99%
 
 ---
@@ -106,7 +106,9 @@ ht-degree: 99%
             + [스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [영구 트래픽](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [기본 지표](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
-         + [앱 관리](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + 앱 관리 {#app-management}
+            + [앱 보고](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
+            + [앱 분류](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
          + [미디어 관리](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
