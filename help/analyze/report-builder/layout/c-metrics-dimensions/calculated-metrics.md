@@ -4,16 +4,16 @@ title: 계산된 지표
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
 # 계산된 지표
 
-Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를 지원합니다. 가장 주목할 만한 혁신 사항은 모든 계산된 지표에는 전역 ID가 있으며 이것이 계산된 지표가 더 이상 하나의 보고서 세트로 제한되지 않음을 의미한다는 것입니다.
+Report Builder 5.2는 Adobe Analytics 통합 계산된 지표를 지원합니다. 가장 주목할 만한 혁신 사항은 모든 계산된 지표에는 전역 ID가 있으며 이것이 계산된 지표가 더 이상 하나의 보고서 세트로 제한되지 않음을 의미한다는 것입니다.
 
 >[!NOTE]
 >

@@ -3,10 +3,10 @@ description: '[계산된 지표 빌더]를 사용하면 [고급 계산 지표]�
 title: 참조 기본 함수
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -281,4 +281,4 @@ VARIANCE(metric)
 
 3
 
-이 열의 평균은 2입니다. 열의 변량은 (1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3입니다.
+이 열의 평균은 2입니다. 열의 변량은 (1 - 2)가 됩니다.<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.
