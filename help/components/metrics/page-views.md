@@ -4,7 +4,7 @@ description: 차원 항목이 Adobe Analytics에서 설정되거나 지속된 �
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 페이지 조회수
 
-**[!UICONTROL 페이지 조회수]** 지표는 페이지에서 주어진 차원 항목(차원 값)이 정의되거나 유지된 횟수(예: 만료 시)를 표시합니다. [](overview.md) 이는 보고서에서 가장 일반적이고 기본적인 지표 중 하나입니다.
+**[!UICONTROL 페이지 조회수]** [지표](overview.md)는 페이지에서 주어진 차원 항목(차원 값)이 정의되거나 유지된 횟수(예: 만료 시)를 표시합니다. 이는 보고서에서 가장 일반적이고 기본적인 지표 중 하나입니다.
 
 예를 들어 [!UICONTROL 요일] 차원은 일요일, 월요일, 화요일, 수요일, 목요일, 금요일 및 토요일의 차원 항목으로 구성됩니다.
 
