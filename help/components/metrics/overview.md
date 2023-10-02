@@ -4,9 +4,9 @@ description: 시간에 따른 차원 항목 또는 데이터의 수량을 봅니
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Analytics 관리자는 보고서 세트 내에서 또는 Analysis Workspace 내�
 
 ## Analysis Workspace에서 지표 사용
 
-Analysis Workspace에서 지표를 사용하는 방법에 대한 자세한 내용은 [Analysis Workspace에서 지표 사용](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Analysis Workspace에서 지표를 사용하는 방법에 대한 자세한 내용은 [Analysis Workspace에서 지표 사용](/help/analyze/analysis-workspace/components/apply-create-metrics.md)을 참조하십시오.
