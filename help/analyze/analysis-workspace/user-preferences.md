@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 및 프로젝트 환경은 물론 어두
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
-workflow-type: ht
-source-wordcount: '3063'
-ht-degree: 100%
+source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
+workflow-type: tm+mt
+source-wordcount: '3156'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 일반 환경 설정�
 
 {style="table-layout:auto"}
 
-## 프로젝트 환경 설정
+## 프로젝트 및 분석 환경 설정
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
@@ -73,7 +73,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 | --- | --- | --- |
 | **표시** | | |
 |  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
-| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | Analysis Workspace에 사용되는 시각화 색상 팔레트를 선택합니다. <ul><li>Adobe 제공 팔레트 (기본값)</li><li>조건부 서식 팔레트 </li><li>위/아래 팔레트 (분기)<li>사용자 정의 팔레트</li></ul> |
+| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | Analysis Workspace에 사용되는 시각화 색상 팔레트를 선택합니다.<ul><li>**범주형 팔레트**: Analysis Workspace의 많은 시각화에 적용됩니다. 각 색상은 고유한 범주별 값을 나타냅니다. Adobe 제공 옵션 중에서 선택하거나, 쉼표로 구분된 16진수 값으로 정의된 사용자 지정 팔레트를 입력하십시오.</li><li>**발산 팔레트**: Analysis Workspace의 집단 테이블에 적용됩니다. 이 팔레트에는 두 가지 극단의 숫자 의미와 중간에 기준선이 있습니다.</li><li>**연속 팔레트**: 빈도 트렌드(스택 막대) 안내가 있는 분석에 적용됩니다. 이 팔레트는 밝은 색에서 어두운 색에 대한 숫자 의미를 포함합니다.</li></ul> |
 | **데이터** | | |
 |  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
 |  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |
@@ -112,10 +112,11 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | **[행](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 위치별 분류 | 분류를 항목 자체가 아닌 항목 위치로 유지하려면 이 옵션을 선택합니다. 분류에 대한 자세한 내용은 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오. |
 | | 백분율 계산 | <ul><li>열</li><li>행</li></ul> |
+| | 열 합계 (정적 행만) | <ul><li>행 합계 표시: 개별 라인 항목의 합계를 표시합니다. </li><li>총계 표시: 중복 제거된 행 합계를 표시합니다.</li></ul> |
 
 ## 시각화 환경 설정
 
-Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
+Analysis Workspace에서 만드는 모든 새 프로젝트에 대한 시각화 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
 개별 시각화에 맞게 동일한 환경 설정 중 일부를 사용자 정의할 수도 있습니다.
 
