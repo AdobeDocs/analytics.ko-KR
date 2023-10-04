@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: b8a71d9b351368721909d1580a690bf924eb39fb
+source-git-commit: 31487111111575e267306d5f68eede23276e79a8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 99%
+source-wordcount: '637'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,9 @@ ht-degree: 99%
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [로그](admin/logs.md)
    + [보고 활동 관리자](admin/reporting-activity.md)
-   + [구성 요소 마이그레이션](admin/component-migration.md)
+   + 구성 요소 마이그레이션 {#component-migration}
+      + [마이그레이션 준비](admin/component-migration/prepare-component-migration.md)
+      + [마이그레이션 워크플로](admin/component-migration/component-migration.md)
    + 보고서 세트 관리자 {#manage-report-suites}
       + 보고서 세트의 설정 편집 {#edit-report-suite}
          + 일반 {#report-suite-general}
