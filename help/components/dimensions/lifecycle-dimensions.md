@@ -2,10 +2,11 @@
 title: 모바일 라이프사이클 차원
 description: Mobile SDK를 사용하여 수집된 데이터를 기반으로 한 Dimension.
 feature: Dimensions
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
+source-git-commit: d940428e1cbe1be6d8263e986e8b641ec18aace1
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 55%
+source-wordcount: '145'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 55%
 
 | 라이프사이클 차원 이름 | 설명 | 컨텍스트 데이터 변수 |
 | --- | --- | --- |
-| [!UICONTROL 첫 번째 실행 날짜] | | TBD(설치 날짜입니까?) |
+| [!UICONTROL 첫 번째 실행 날짜] | | TBD |
 | [!UICONTROL 디바이스 이름 (SDK)] | | `a.DeviceName` |
 | [!UICONTROL 운영 체제 버전 (SDK)] | | `a.OSVersion` |
 | [!UICONTROL 해결 방법(SDK)] | | `a.Resolution` |
