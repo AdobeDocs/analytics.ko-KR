@@ -3,10 +3,10 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 084a9e9d2794ece4ddbb4296eee107bbdb451813
+source-git-commit: 5785629376b8ae528535629a77a29dcdd2ca80b8
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 62%
+source-wordcount: '1215'
+ht-degree: 61%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 62%
 
 **마지막 업데이트**: 2023년 10월 4일
 
-10월 릴리스 정보는 2023년 10월 4일부터 2023년 10월 24일까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+10월 릴리스 정보는 2023년 10월 4일부터 2023년 10월 25일까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
@@ -23,7 +23,7 @@ ht-degree: 62%
 | **구성 요소 관리 시 새로운 열 사용 가능** | 이제 구성 요소를 관리할 때 다음과 같은 새로운 열을 사용할 수 있습니다.<ul><li>다음에서 사용<p>이 열은 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에서 사용할 수 있습니다.</p></li><li>마지막 사용<p>이 열은 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md) 및 [경고 관리자](/help/components/c-alerts/alert-manager.md)에서 사용할 수 있습니다.</p></li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다. 이 정보와 함께 데이터 사전을 사용하면 조직에서 구성 요소가 사용되는 방식을 지속적으로 추적하고 보다 명확하게 파악할 수 있습니다.</p> | 2023년 9월 20일 | 2023년 10월 4일 |
 | **보고 활동 관리자 개선 사항** | 보고 활동 관리자를 사용하면 조직의 각 보고서 세트에 대한 보고 용량을 확인할 수 있습니다.  관리자는 보고 사용량에 대해 자세히 파악할 수 있으므로 최대 보고 시간 동안 용량 문제를 쉽게 진단하고 해결할 수 있습니다. 다음은 이제 보고 활동 관리자에서 사용할 수 있는 몇 가지 개선 사항입니다. <ul><li>후속 요청 제한: 이제 관리자는 현재 요청을 취소할 수 있을 뿐만 아니라 정의된 기간 동안 요청을 제한할 수도 있습니다. 관리자는 요청, 프로젝트 및 사용자별로 요청을 제한할 수 있습니다.</li><li>이제 활용률 및 용량 지표 외에도 보고 활동 관리자에는 보고 활동에 대한 더 많은 데이터(복잡성 열, 사용자 열 및 연결 열)가 포함됩니다.</li><li>이제 보고 활동 관리자에서 수행한 모든 취소 및 제한 사항이 감사 로그에 표시됩니다. 관리자는 감사 로그를 사용하여 현재 취소된 사항을 볼 수 있습니다. 보고 활동 관리자 또는 감사 로그에서 취소를 되돌릴 수 없습니다.</li></ul>자세히 알아보기(곧 제공 예정) | 2023년 10월 17일 | 2023년 10월 23일 |
 | **Data Warehouse 개선 사항** | Data Warehouse 요청을 만들 때 이제 보고서 대상으로 사용할 클라우드 계정을 구성할 수 있습니다. 다음 클라우드 계정 유형을 데이터 전송에 사용할 수 있습니다.<ul><li>Amazon S3</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li><li>이메일(이 옵션은 이전에 사용 가능했음)</li></ul>FTP, SFTP, Azure Blob 및 S3는 여전히 보고서 대상으로 사용할 수 있지만 더 이상 권장되지 않습니다.<p>Data Warehouse 요청을 생성하고 관리할 때의 사용자 경험도 개선되었습니다. 자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md) 및 [Data Warehouse 요청 관리](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ko-KR)를 참조하십시오. | 2023년 9월 12일 | 2023년 10월 25일 |
-| **Adobe Analytics 프로젝트 및 포함된 모든 구성 요소를 Customer Journey Analytics으로 마이그레이션** | 이제 Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션할 수 있습니다. 이 프로세스를 통해 Adobe Analytics에서 Customer Journey Analytics으로 간편하게 전환할 수 있습니다. 프로젝트를 Customer Journey Analytics으로 마이그레이션하면 자산이 Adobe Analytics 보고서 세트에서 Customer Journey Analytics 데이터 보기로 매핑됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | 해당 사항 없음 | 2023년 10월 4일 |
+| **Adobe Analytics 프로젝트 및 포함된 모든 구성 요소를 Customer Journey Analytics으로 마이그레이션** | 이제 Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션할 수 있습니다. 이 프로세스를 통해 Adobe Analytics에서 Customer Journey Analytics으로 간편하게 전환할 수 있습니다. 프로젝트를 Customer Journey Analytics으로 마이그레이션하면 자산이 Adobe Analytics 보고서 세트에서 Customer Journey Analytics 데이터 보기로 매핑됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | 2023년 10월 11일 | 2023년 10월 25일 |
 
 {style="table-layout:auto"}
 
