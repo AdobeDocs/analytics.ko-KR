@@ -3,10 +3,10 @@ description: 경고 관리.
 title: 경고 관리자 개요
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
+source-git-commit: cfae0661dfa9c61daea33c3a52204793ce3d35c1
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 33%
+source-wordcount: '423'
+ht-degree: 41%
 
 ---
 
@@ -61,6 +61,6 @@ ht-degree: 33%
    | 태그 | 사용자 또는 사용자와 경고를 공유한 사람이 경고에 적용한 태그를 표시합니다. |
    | 다음 사용자와 공유 | 경고를 공유한 개인 또는 그룹 (관리자만) 또는 모두 (관리자만)를 표시합니다. |
    | 수정한 날짜 | 경고가 마지막으로 수정된 날짜를 나타냅니다. |
-   | 마지막 사용 | **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 자세한 내용은 [Adobe Analytics 기능 릴리스](/help/release-notes/releases.md).<p>경고가 마지막으로 사용된 날짜를 표시합니다.</p> <p>이 정보는 구성 요소가 조직의 사용자에게 가치가 있는지, 사용 위치 및 삭제하거나 수정해야 하는지 여부를 확인하는 데 도움이 됩니다.</p><p>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</p> |
+   | 마지막 사용 | 경고가 마지막으로 사용된 날짜를 표시합니다. <p>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다.</p><p>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</p> |
 
    {style="table-layout:auto"}

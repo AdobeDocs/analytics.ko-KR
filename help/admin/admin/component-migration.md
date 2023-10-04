@@ -2,12 +2,10 @@
 description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트를 마이그레이션하는 방법에 대해 설명합니다.
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 feature: Admin Tools
-hide: true
-hidefromtoc: true
-source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
+source-git-commit: e32b239fd64eea4516bc73b934b10346832f2bab
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 8%
+source-wordcount: '2051'
+ht-degree: 7%
 
 ---
 
@@ -53,13 +51,15 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
 #### 마이그레이션된 구성 요소
 
+Dimension 및 지표는에 설명된 매핑 프로세스의 일부로 마이그레이션됩니다. [Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션](#migrate-adobe-analytics-projects-to-customer-journey-analytics)와 달리 세그먼트와 날짜 범위는 Customer Journey Analytics에서
+
 |  | [마이그레이션됨] |
 |---------|---------|
-| **[소유자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
-| **[공유](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 아니요 |
-| **[설명](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
-| **[태그](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 아니요 |
-| **[속성(차원)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
+| **[소유자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimension 및 지표: 아니요<p>세그먼트 및 날짜 범위: ![확인 표시](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[공유](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimension 및 지표: 아니요<p>세그먼트 및 날짜 범위: 아니요</p> |
+| **[설명](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimension 및 지표: 아니요<p>세그먼트 및 날짜 범위: ![확인 표시](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[태그](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimension 및 지표: 아니요<p>세그먼트 및 날짜 범위: 아니요</p> |
+| **[속성(차원)](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimension 및 지표: 아니요<p>세그먼트 및 날짜 범위: 아니요</p> |
 
 {style="table-layout:auto"}
 
@@ -76,17 +76,16 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 | **[시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
 | **[소유자](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) 마이그레이션을 수행하는 사용자가 정의함 |
 | **[큐레이션](/help/analyze/analysis-workspace/curate-share/curate.md)** | 아니요 |
-| **[공유(프로젝트 역할)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 아니요 |
-| **[공유(모든 사람 링크와 공유)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[공유(프로젝트 역할)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 아니요 <!-- Add info on Share with Anyone? Is it the same?--> |
 | **[주석](/help/analyze/analysis-workspace/components/annotations/overview.md)** | 아니요 |
 | **[폴더 구조](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | 아니요 |
 | **[설명](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
 | **[태그](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | 아니요 |
 | **[일정](/help/components/scheduled-projects-manager.md)** | 아니요 |
-| **[예외 항목 탐지](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
-| **[즐겨찾기](/help/analyze/landing.md)** | ? |
 
 {style="table-layout:auto"}
+
+<!-- What about Anomaly Detection and Favorites? -->
 
 ### 오류를 일으키는 지원되지 않는 요소 이해
 
@@ -116,7 +115,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
 * [경고](/help/components/c-alerts/intellligent-alerts.md)
 
-### 지원되지 않는 구성 요소를 매핑할 방법을 조직으로 결정
+### 구성 요소를 매핑할 방법을 조직으로 결정
 
 >[!IMPORTANT]
 >
@@ -129,7 +128,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 >다음은 프로젝트에 차원 및 지표가 있을 경우 수동으로 매핑해야 하는 목록입니다. 마이그레이션 전에 이 목록을 검토하는 것이 좋습니다. 이러한 구성 요소가 프로젝트에 있는 경우 해당 구성 요소를 매핑할 Customer Journey Analytics 구성 요소를 결정하십시오.
 
 
-#### 지원되지 않는 차원
+#### 수동으로 매핑해야 하는 Dimension
 
 * averagepagetime
 * pagetimeseconds
@@ -163,7 +162,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 * targetraw
 
 
-#### 지원되지 않는 지표
+#### 수동으로 매핑해야 하는 지표
 
 * timespentvisit
 * timespentvisitor
