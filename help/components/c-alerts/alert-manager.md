@@ -3,10 +3,10 @@ description: 경고 관리.
 title: 경고 관리자 개요
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: cfae0661dfa9c61daea33c3a52204793ce3d35c1
+source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 41%
+source-wordcount: '448'
+ht-degree: 39%
 
 ---
 
@@ -61,6 +61,6 @@ ht-degree: 41%
    | 태그 | 사용자 또는 사용자와 경고를 공유한 사람이 경고에 적용한 태그를 표시합니다. |
    | 다음 사용자와 공유 | 경고를 공유한 개인 또는 그룹 (관리자만) 또는 모두 (관리자만)를 표시합니다. |
    | 수정한 날짜 | 경고가 마지막으로 수정된 날짜를 나타냅니다. |
-   | 마지막 사용 | 경고가 마지막으로 사용된 날짜를 표시합니다. <p>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다.</p><p>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</p> |
+   | 마지막 사용 | 경고가 마지막으로 사용된 날짜를 표시합니다. <p>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다.</p><p>이 열을 볼 때는 다음 사항을 고려하십시오.</p><ul><li>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</li><li>일부 구성 요소의 경우 구성 요소가 2023년 9월 이전에 마지막으로 사용된 경우 이 열에 데이터가 포함되지 않을 수 있습니다.</li></ul> |
 
    {style="table-layout:auto"}
