@@ -2,10 +2,11 @@
 description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입니다.
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
-source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
+source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 16%
+source-wordcount: '2255'
+ht-degree: 15%
 
 ---
 
@@ -78,7 +79,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud 플랫폼
 
@@ -90,7 +91,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -106,7 +107,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -120,7 +121,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++이메일
 
@@ -147,7 +148,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud 플랫폼
 
@@ -160,7 +161,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -173,7 +174,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -187,7 +188,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       {style="table-layout:auto"}
 
-      +++
++++
 
    1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
@@ -209,14 +210,59 @@ Data Warehouse 데이터는 Adobe 또는 고객 호스팅 FTP 위치로 배달�
 
 사용 가능한 필드를 완성할 때 다음 정보를 사용하십시오.
 
-* [!UICONTROL **호스트**]: 원하는 FTP 대상 URL을 입력합니다. (예: `ftp://ftp.omniture.com`)
-* [!UICONTROL **경로**]: 비워 둘 수 있음
+#### 계정 필드
+
+* [!UICONTROL **계정 이름**]: FTP 계정의 이름입니다.
+
+* [!UICONTROL **계정 설명**]: FTP 계정에 대한 설명입니다.
+
+* [!UICONTROL **호스트 이름**]: 원하는 FTP 대상 URL을 입력합니다. (예: `ftp.company.com`)
+
+  >[!NOTE]
+  >
+  >  포함하지 않음 `ftp://` 를 입력합니다.
+
 * [!UICONTROL **사용자 이름**]: FTP 사이트에 로그인할 사용자 이름을 입력합니다.
+
 * [!UICONTROL **암호 및 암호 확인**]: FTP 사이트에 로그인할 암호를 입력합니다.
+
+#### 위치 필드
+
+* [!UICONTROL **위치 이름**]: 파일을 전송할 FTP 계정의 위치 이름입니다.
+
+* [!UICONTROL **위치 설명**]: FTP 계정의 위치에 대한 설명입니다.
+
+* [!UICONTROL **디렉터리 경로**]: FTP 계정의 위치에 대한 경로입니다.
 
 ### SFTP
 
 Data Warehouse에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RSA 또는 DSA 공개 키를 포함하기 위해 SFTP 호스트, 사용자 이름 및 대상 사이트가 필요합니다. Data Warehouse 대상을 만들 때 적절한 공개 키를 다운로드할 수 있습니다.
+
+사용 가능한 필드를 완성할 때 다음 정보를 사용하십시오.
+
+#### 계정 필드
+
+* [!UICONTROL **계정 이름**]: FTP 계정의 이름입니다.
+
+* [!UICONTROL **계정 설명**]: FTP 계정에 대한 설명입니다.
+
+* [!UICONTROL **호스트 이름**]: 원하는 SFTP 대상 URL을 입력합니다. (예: `sftp.company.com`)
+
+  >[!NOTE]
+  >
+  >  포함하지 않음 `sftp://` 를 입력합니다.
+
+* [!UICONTROL **사용자 이름**]: SFTP 사이트에 로그인할 사용자 이름을 입력합니다.
+
+* [!UICONTROL **공개 키**]: Data Warehouse 대상을 만들 때 적절한 공개 키를 다운로드합니다.
+
+#### 위치 필드
+
+* [!UICONTROL **위치 이름**]: 파일을 전송하려는 SFTP 계정의 위치 이름입니다.
+
+* [!UICONTROL **위치 설명**]: SFTP 계정의 위치에 대한 설명입니다.
+
+* [!UICONTROL **디렉터리 경로**]: SFTP 계정의 위치에 대한 경로입니다.
 
 ### S3
 
