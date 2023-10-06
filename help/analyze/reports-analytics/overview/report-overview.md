@@ -5,9 +5,9 @@ uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,6 @@ ht-degree: 100%
 도구 모음, 달력 및 세부 사항 테이블을 포함한 보고서 기능에 대한 소개입니다.
 
 이 예는 [!UICONTROL 페이지 보고서]를 보여줍니다. 구성 옵션은 실행하는 보고서에 따라 달라질 수 있습니다. 예를 들어, [!UICONTROL 사이트 컨텐츠] 보고서에서 트렌드나 등급을 선택하는 대신 세부기간을 지정하고 [!UICONTROL 사이트 지표] 보고서의 이름을 지정할 수 있습니다.
-
->[!IMPORTANT]
->**2023년 12월 31일**&#x200B;부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. 해당 시점에 Reports &amp; Analytics 및 모든 관련 보고서와 일정이 작동 중단될 예정입니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 Reports &amp; Analytics 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. 이 공지 사항은 서비스 종료 프로세스에 대해 설명합니다.
 
 ## 페이지 보고서 예 {#section_288CC85536684C2DB184141358481EF0}
 

@@ -4,7 +4,7 @@ title: 실시간 보고 개요
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # 실시간 보고 개요
+
+{{ra-eol}}
 
 실시간 보고는 웹 페이지 트래픽을 표시하며 실시간으로 페이지 보기 수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
 

@@ -5,9 +5,9 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '766'
 ht-degree: 100%
 
 ---
@@ -17,9 +17,6 @@ ht-degree: 100%
 {{ra-eol}}
 
 Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
-
->[!IMPORTANT]
->**2023년 12월 31일**&#x200B;부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. 해당 시점에 Reports &amp; Analytics 및 모든 관련 보고서와 일정이 작동 중단될 예정입니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 Reports &amp; Analytics 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. 이 공지 사항은 서비스 종료 프로세스에 대해 설명합니다.
 
 보고서 메뉴에서 제공하는 사항:
 

@@ -4,19 +4,18 @@ title: Reports and Analytics 시작하기
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '695'
 ht-degree: 95%
 
 ---
 
 # Reports &amp; Analytics 시작하기
 
-Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법을 이해합니다.
+{{ra-eol}}
 
->[!IMPORTANT]
->**2023년 12월 31일**&#x200B;부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. 해당 시점에 Reports &amp; Analytics 및 모든 관련 보고서와 일정이 작동 중단될 예정입니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 Reports &amp; Analytics 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. 이 공지 사항은 서비스 종료 프로세스에 대해 설명합니다.
+Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법을 이해합니다.
 
 보고 기능을 통해 모바일, 비디오 및 소셜 네트워킹과 같이 계속 변화하는 채널을 물론 종래의 웹 기반 채널들에 대해서도 통찰력을 가질 수 있습니다. 보고서의 몇 가지 예는 다음과 같습니다.
 
@@ -44,7 +43,7 @@ Reports &amp; Analytics 인터페이스에 로그인하기 위한 브라우저 �
 
 ## Experience Cloud를 사용하여 로그인
 
-Adobe Experience Cloud을 통해 로그인하려면:
+Adobe Experience Cloud을 통해 로그인하려면 다음을 수행하십시오.
 
 1. 인터넷에 액세스할 수 있는 컴퓨터에서 브라우저를 시작합니다.
 1. [!DNL https://login.experiencecloud.adobe.com/] 으로 이동합니다.

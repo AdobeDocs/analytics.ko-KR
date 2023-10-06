@@ -6,19 +6,18 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1655'
 ht-degree: 98%
 
 ---
 
 # 보고서 예약 및 배포
 
-보고서 예약, 다운로드 및 배포에 대한 정보입니다.
+{{ra-eol}}
 
->[!IMPORTANT]
->2022년 4월 21일에 이전에 발표된 Reports &amp; Analytics의 서비스 종료에 대비하여 예약된 보고서와 관련된 몇 가지 기능의 사용 중단을 발표했습니다. 이러한 기능에는 새 보고서와 새 데이터 추출을 예약하는 기능이 포함되었습니다. 확장을 원하는 고객의 요청에 따라 Reports &amp; Analytics에서 쉽게 전환할 수 있도록 이러한 기능에 대한 액세스를 2023년 1월 31일까지 연장하기로 결정했습니다. 보고서와 데이터 추출의 만료 기간은 계속 9개월로 제한됩니다. 보고서 및 데이터 추출 게재는 일정이 다시 활성화되지 않는 한 이 기간이 끝나면 일시 중지됩니다. [자세히 알아보기](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+보고서 예약, 다운로드 및 배포에 대한 정보입니다.
 
 Adobe Analytics 애플리케이션에서 보고서 배달을 예약할 때 예약 및 배포 도구를 사용하여 어느 파일이 자동으로 전송되었는지 보고 배달을 수정하거나 종료할 수 있습니다.
 

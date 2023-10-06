@@ -3,7 +3,7 @@ description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # 실시간 보고서 구성
+
+{{ra-eol}}
 
 실시간 보고서를 설정하는 관리 단계입니다.
 
