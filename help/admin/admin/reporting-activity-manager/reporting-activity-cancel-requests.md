@@ -2,9 +2,9 @@
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 title: 보고 활동 관리자에서 보고 요청 취소
 feature: Admin Tools
-source-git-commit: dc09510ea1d97c39d00df309faf85f90003b50fa
+source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '937'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 ## 특정 요청 취소
 
-취소할 특정 요청을 선택할 수 있습니다.
+보고 용량이 큰 개별 요청을 취소할 수 있습니다.
 
 1. Adobe Analytics에서 **[!UICONTROL 관리자]** > **[!UICONTROL 활동 관리자 보고]**.
 
@@ -41,7 +41,7 @@ ht-degree: 7%
 
 1. 선택 [!UICONTROL **요청 취소**].
 
-   다음 [!UICONTROL **x 보고서 요청 취소**] 대화 상자가 표시됩니다.
+   다음 [!UICONTROL **취소 _x_ 보고서 요청**] 대화 상자가 표시됩니다.
 
 1. 취소 메시지 필드에는 요청이 취소될 때 사용자에게 표시되는 메시지가 표시됩니다. 기본 메시지가 제공됩니다. 기본 메시지를 업데이트하여 추가 세부 정보를 제공할 수 있습니다.
 
@@ -76,7 +76,7 @@ ht-degree: 7%
 
 1. 선택 [!UICONTROL **요청 취소**].
 
-   다음 [!UICONTROL **x 사용자의 x 보고서 요청 취소**] 대화 상자가 표시됩니다.
+   다음 [!UICONTROL **취소 _x_ x 사용자의 보고서 요청**] 대화 상자가 표시됩니다.
 
 1. 취소 메시지 필드에는 요청이 취소될 때 사용자에게 표시되는 메시지가 표시됩니다. 기본 메시지가 제공됩니다. 기본 메시지를 업데이트하여 추가 세부 정보를 제공할 수 있습니다.
 
@@ -111,7 +111,7 @@ ht-degree: 7%
 
 1. 선택 [!UICONTROL **요청 취소**].
 
-   다음 [!UICONTROL **x 프로젝트에서 x 보고서 요청 취소**] 대화 상자가 표시됩니다.
+   다음 [!UICONTROL **취소 _x_ x 프로젝트의 보고서 요청**] 대화 상자가 표시됩니다.
 
 1. 취소 메시지 필드에는 요청이 취소될 때 사용자에게 표시되는 메시지가 표시됩니다. 기본 메시지가 제공됩니다. 기본 메시지를 업데이트하여 추가 세부 정보를 제공할 수 있습니다.
 
@@ -132,6 +132,6 @@ ht-degree: 7%
 
 ## 사용자가 취소된 보고서에 액세스할 때의 경험
 
-Analysis Workspace에서 취소된 보고서에 액세스하려고 하면 다음과 같은 메시지가 표시됩니다.
+Analysis Workspace에서 사용자가 관리자가 취소한 보고서에 액세스하려고 하면 다음과 같은 메시지가 표시됩니다.
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
