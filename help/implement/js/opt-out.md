@@ -3,14 +3,16 @@ title: 옵트아웃 링크
 description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 92%
 
 ---
 
 # 구현 옵트아웃 링크
+
+*이 도움말 페이지에서는 Adobe Analytics 고객에게 옵트아웃 링크를 제공할 수 있는 기능을 제공합니다. Adobe Analytics 고객이 아닌 경우 다음을 참조하십시오 [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html) Adobe이 정보를 사용하는 방법을 제어합니다.*
 
 >[!IMPORTANT]
 >
@@ -38,7 +40,7 @@ ht-degree: 99%
    1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
    1. `trackingServer` 변수 값을 확인합니다.
 
-* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR) 사용:
+* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html) 사용:
    1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
    1. Experience Cloud Debugger를 열고 [!UICONTROL 네트워크 탭]으로 이동합니다.
    1. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
