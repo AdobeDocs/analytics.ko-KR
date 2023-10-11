@@ -3,10 +3,10 @@ title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 85%
+source-wordcount: '933'
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 **웹 사이트**&#x200B;의 경우 다음 구현 방법을 사용할 수 있습니다.
 
-* **Web SDK 확장**: 새 고객을 위한 Adobe Analytics 구현에 권장되는 표준화된 방법입니다. 설치 **Adobe Experience Platform 웹 SDK 확장** Adobe Experience Platform 데이터 수집 **태그**: 각 페이지에서 로더 태그를 사용하고 데이터를 Adobe Experience Platform에 보냅니다. **에지 네트워크** 조직에 편리한 형식으로. Edge Network는 들어오는 데이터를 올바른 형식으로 Adobe Analytics에 전달합니다.
+* **Web SDK 확장**: 새 고객을 위한 Adobe Analytics 구현에 권장되는 표준화된 방법입니다. 설치 **Adobe Experience Platform 웹 SDK 확장** Adobe Experience Platform 데이터 수집 **태그**, 각 페이지에 포함 코드(Javascript 로더 태그)를 배치하고 데이터를 Adobe Experience Platform에 보냅니다 **에지 네트워크** 조직에 편리한 형식으로. Edge Network는 들어오는 데이터를 올바른 형식으로 Adobe Analytics에 전달합니다.
   ![Web SDK 확장](./assets/websdk-extension-implementation.png)
 다음을 참조하십시오 [Adobe Experience Platform Web SDK 확장을 사용하여 Adobe Analytics을 구현하는 방법입니다.](./aep-edge/overview.md)를 참조하십시오.
 
@@ -42,7 +42,7 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 다음을 참조하십시오 [Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics을 구현하는 방법](./aep-edge/overview.md) 추가 정보.
 
 
-* **Analytics 확장**: Adobe Experience Platform 데이터 수집 **태그**&#x200B;에서 **Adobe Analytics 확장**을 설치합니다. 각 페이지에 로더 태그를 배치하고 Adobe Analytics 확장을 사용하여 각 변수가 정의되는 방식을 결정합니다. 태그의 편리함을 원하지만 Edge Network 인프라는 사용하고자 하지 않는 경우 이 구현 방법을 사용하십시오.
+* **Analytics 확장**: Adobe Experience Platform 데이터 수집 **태그**&#x200B;에서 **Adobe Analytics 확장**을 설치합니다. 각 페이지에 포함 코드(Javascript 로더 태그)를 배치하고 Adobe Analytics 확장 기능을 사용하여 각 변수가 정의되는 방식을 결정합니다. 태그의 편리함을 원하지만 Edge Network 인프라는 사용하고자 하지 않는 경우 이 구현 방법을 사용하십시오.
   ![Adobe Analytics 확장](./assets/analytics-extension-implementation.png)
 다음을 참조하십시오 [Analytics 확장을 사용하여 Adobe Analytics을 구현하는 방법](launch/overview.md) 추가 정보.
 
