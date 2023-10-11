@@ -4,10 +4,10 @@ title: 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 95%
+source-wordcount: '497'
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 | 세그먼트 유형 | 생성되는 영역은? | 적용 가능한 영역은? | 사용 시기 |
 | --- | --- | --- | --- |
 | 구성 요소 목록 세그먼트 | +를 클릭하면 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)로 이동합니다. | 모든 작업 영역 프로젝트 | 복잡한 세그먼트의 경우는 순차적 세그먼트 |
-| 빠른 세그먼트 | [빠른 세그먼트 빌더](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 프로젝트만 저장하고 세그먼트 목록에 추가할 수 있습니다. | 임시 단일 규칙 세그먼트(드래그 앤 드롭 사용)나 여러 규칙 추가/편집(세그먼트 아이콘 클릭)에 사용할 수 있습니다 |
+| 빠른 세그먼트 | [빠른 세그먼트 빌더](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 프로젝트만 저장하고 세그먼트 목록에 추가할 수 있습니다. | 임시 단일 규칙 세그먼트(끌어다 놓기 사용)에 사용하거나, 여러 규칙(세그먼트 아이콘 클릭)을 추가/편집하는 데 사용할 수 있습니다 |
 | 계산된 지표 기반 세그먼트 | [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=ko-KR) | 계산된 개별 지표에 | 지표 정의 내 세그먼트 적용 |
-| VRS 기반 세그먼트 | [가상 보고서 세트 빌더](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ko-KR) | 개별 가상 보고서 세트에 | VRS 정의 내 세그먼트 적용 |
+| 가상 보고서 세트 기반 세그먼트 | [가상 보고서 세트 빌더](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ko-KR) | 개별 가상 보고서 세트에 | 가상 보고서 세트 정의 내 세그먼트 적용 |
 
 ## 비디오
 

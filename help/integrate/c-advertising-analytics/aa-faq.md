@@ -3,10 +3,10 @@ description: Advertising Analytics에 대해 자주 묻는 질문입니다.
 title: Advertising Analytics에 대해 자주 묻는 질문
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 100%
+source-wordcount: '1419'
+ht-degree: 93%
 
 ---
 
@@ -94,8 +94,8 @@ ht-degree: 100%
    <td colname="col2"> <p>A: Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 보고서 세트를 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >Advertising Analytics 보고용으로 프로비저닝</a>해야 합니다. </p> <p>이 작업은 별도 관리 페이지에서 수행합니다. 이 페이지는 <span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">[Experience Cloud 지원 보고서 세트 선택]</span> &gt; <span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">Advertising Analytics 구성</span></span>에서 액세스할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Q: <b>가상 보고서 세트</b> (VRS)를 Advertising Analytics 계정에 지정할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>A: 가상 보고서 세트는 데이터를 수집하지 않으므로 Advertising Analytics 계정을 VRS에 직접 매핑할 수 없습니다. </p> <p>하지만 데이터를 표시할 VRS의 상위 보고서 세트에 Advertising Analytics 계정을 매핑할 수 있습니다. </p> <p>AMO ID (또는 해당 분류)를 기반으로 세그먼트 논리에 “or” 조건을 포함하지 않으면 검색 엔진 지표 (클릭/비용/노출 수)가 VRS에 표시되지 않을 수 있습니다. 예: “AMO ID가 있는 모든 조회 수”를 추가하면 세그먼트에 검색 엔진 지표가 포함됩니다. </p> </td> 
+   <td colname="col1"> <p>Q: 를 지정할 수 있습니까? <b>가상 보고서 세트</b> Advertising Analytics 계정에 연결하시겠습니까? </p> </td> 
+   <td colname="col2"> <p>A: 가상 보고서 세트는 데이터를 수집하지 않으므로 Advertising Analytics 계정을 가상 보고서 세트에 직접 매핑할 수 없습니다. </p> <p>그러나 Advertising Analytics 계정을 데이터를 보려는 가상 보고서 세트의 상위 보고서 세트에 매핑할 수 있습니다. </p> <p>AMO ID(또는 해당 분류)를 기반으로 세그먼트 논리에 "or" 조건을 포함하지 않으면 검색 엔진 지표(클릭/비용/노출 수)가 가상 보고서 세트에 표시되지 않을 수 있습니다. 예: “AMO ID가 있는 모든 조회 수”를 추가하면 세그먼트에 검색 엔진 지표가 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>마케팅 채널</b> 보고서에 Advertising Analytics 지표를 보고할 수 있습니까? </p> </td> 

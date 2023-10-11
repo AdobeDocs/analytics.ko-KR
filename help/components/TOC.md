@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
-workflow-type: ht
-source-wordcount: '750'
-ht-degree: 100%
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 97%
 
 ---
 
@@ -219,9 +219,9 @@ ht-degree: 100%
    + [컨텍스트 인식 세션](vrs/vrs-mobile-visit-processing.md)
    + [보고서 처리 시간](vrs/vrs-report-time-processing.md)
    + [A4T 고려 사항](vrs/vrs-a4t.md)
-   + [VRS FAQ](vrs/vrs-faq.md)
-   + [VRS 및 글로벌/다중 세트 태그 지정 고려 사항](vrs/vrs-considerations.md)
-   + VRS 작업 과정 {#vrs-workflow}
+   + [가상 보고서 세트 FAQ](vrs/vrs-faq.md)
+   + [가상 보고서 세트 및 글로벌/다중 세트 태그 지정 고려 사항](vrs/vrs-considerations.md)
+   + 가상 보고서 세트 작업 과정 {#vrs-workflow}
       + [가상 보고서 세트 작업 과정](vrs/c-workflow-vrs/vrs-workflow.md)
       + [가상 보고서 세트 만들기](vrs/c-workflow-vrs/vrs-create.md)
       + [가상 보고서 세트 관리](vrs/c-workflow-vrs/vrs-manage.md)
@@ -233,7 +233,7 @@ ht-degree: 100%
    + [크로스 디바이스 분석 설정](cda/setup.md)
    + [재생 작동 방식](cda/replay.md)
    + [CDA 작업 영역 템플릿](cda/workspace-template.md)
-   + [VRS를 특정 날짜로 제한](cda/limit-vrs-date.md)
+   + [가상 보고서 세트를 특정 날짜로 제한](cda/limit-vrs-date.md)
    + [크로스 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
    + [지능형 경고](c-alerts/intellligent-alerts.md)

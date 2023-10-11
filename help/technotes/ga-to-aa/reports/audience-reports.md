@@ -3,10 +3,10 @@ title: Adobe Analytics의 대상 보고서
 description: Analysis Workspace를 사용하여 대상 기반 보고서를 만드는 방법을 알아봅니다.
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1715'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Google Analytics의 대상 보고서를 사용하려면 대상을 설정해야 �
 
 인구 분포 및 관심 분야 데이터는 사이트 사용자의 연령, 성별 및 관심 분야에 대한 정보를 제공합니다. Google은 사이트 간 추적 기능을 통해 이 데이터를 수집합니다.
 
-Adobe에서는 인구 분포 및 관심 분야 데이터를 자동으로 수집하지 않습니다. 그러나 조직에서 이 데이터를 가져오면 Adobe Experience Cloud 플랫폼 내에 있는 기능인 고객 특성을 사용할 수 있습니다. 이 기능은 특성별 데이터 구성을 완벽하게 제어할 수 있으며 인구 분포나 관심 분야에만 국한되지 않습니다.
+Adobe에서는 인구 분포 및 관심 분야 데이터를 자동으로 수집하지 않습니다. 그러나 조직에서 이 데이터를 가져오면 Adobe Experience Cloud 플랫폼 내에 있는 기능인 고객 속성을 사용할 수 있습니다. 이 기능은 특성별 데이터 구성을 완벽하게 제어할 수 있으며 인구 분포나 관심 분야에만 국한되지 않습니다.
 
 자세한 내용은 고객 특성 도움말을 참조하십시오.
 

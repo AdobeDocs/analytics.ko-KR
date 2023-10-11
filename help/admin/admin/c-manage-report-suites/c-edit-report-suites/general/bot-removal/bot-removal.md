@@ -3,10 +3,10 @@ title: Adobe Analytics에서 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 방법
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 ## Adobe 도구의 조합 사용
 
-또한 보트가 빠르게 변형되기 때문에 Adobe는 적절하게 정기적으로 조합해서 사용하면 이런 데이터 품질의 장애물을 제거하는 데 도움이 되는 몇 가지 강력한 기능도 제공합니다. 그러한 기능에는 Experience Cloud ID 서비스, 세그먼테이션, Data Warehouse, 사용자 특성 및 가상 보고서 세트가 있습니다. 이러한 도구를 활용하는 방법을 간략하게 살펴보겠습니다.
+또한 보트가 빠르게 변형되기 때문에 Adobe는 적절하게 정기적으로 조합해서 사용하면 이런 데이터 품질의 장애물을 제거하는 데 도움이 되는 몇 가지 강력한 기능도 제공합니다. 이러한 기능에는 Experience Cloud ID 서비스, 세그먼테이션, Data Warehouse, 고객 속성 및 가상 보고서 세트가 있습니다. 이러한 도구를 활용하는 방법을 간략하게 살펴보겠습니다.
 
 ### 1단계: 방문자의 Experience Cloud ID를 새로 선언된 ID에 전달
 
@@ -66,14 +66,14 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 Experience Cloud 방문자 ID를 차원으로 사용하고 &#39;보트&#39; 세그먼트를 적용해야 합니다.
 
-### 4단계: 이 목록을 다시 Adobe에 사용자 특성으로 전달
+### 4단계: 이 목록을 다시 Adobe에 고객 속성으로 전달
 
 Data Warehouse 보고서가 도착하면 내역 데이터에서 필터링해야 하는 ECID 목록이 제공됩니다. 이러한 ECID를 복사하여 ECID 열과 보트 플래그 열만 있는 빈 .CSV 파일에 붙여넣습니다.
 
 * **ECID**: 이 열 헤더가 위에서 선언한 새 ID에 지정한 이름과 일치하는지 확인합니다.
-* **보트 플래그**: &#39;보트 플래그&#39;를 사용자 특성 스키마 차원으로 추가합니다.
+* **보트 플래그**: &#39;보트 플래그&#39;를 고객 속성 스키마 차원으로 추가합니다.
 
-이 .CSV 파일을 사용자 특성 가져오기 파일로 사용한 다음 이 [블로그 게시물](https://theblog.adobe.com/link-digital-behavior-customers)에 설명된 대로 보고서 세트를 사용자 특성에 구독합니다.
+이 .CSV 파일을 사용자 특성 가져오기 파일로 사용한 다음 이 문서에 설명된 대로 보고서 세트를 사용자 특성에 구독합니다 [블로그 게시물](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -85,7 +85,7 @@ Data Warehouse 보고서가 도착하면 내역 데이터에서 필터링해야 
 
 ### 6단계: 이 세그먼트를 가상 보고서 세트 필터로 사용
 
-마지막으로 이 세그먼트를 활용하는 [가상 보고서 세트](/help/components/vrs/vrs-about.md)를 생성하여 식별된 보트를 필터링합니다.
+마지막으로 [가상 보고서 세트](/help/components/vrs/vrs-about.md) 는 이 세그먼트를 사용하여 식별된 보트를 필터링합니다.
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

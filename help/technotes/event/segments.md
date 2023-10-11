@@ -3,9 +3,9 @@ title: 분석에서 특정 날짜 제외
 description: 날짜 또는 날짜 범위를 보고서에 포함하지 않으려는 경우 제외하기 위한 팁입니다.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 feature: Event, Segmentation
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Workspace 프로젝트에 &#39;영향을 받는 일 제외&#39; 세그먼트를 
 
 ### 가상 보고서 세트에서 제외 세그먼트 사용 {#use-vrs}
 
-다음에서 세그먼트를 사용할 수 있습니다. [가상 보고서 세트](/help/components/vrs/vrs-about.md) 더 편리하게 데이터를 제외하기 위해. 이 옵션은 영향을 받는 날짜 범위를 포함하는 각 보고서에 대한 세그먼트를 적용하지 않아도 된다는 점에서 이상적입니다. 이미 가상 보고서 세트를 기본 데이터 소스로 사용하는 경우 기존 VRS에 세그먼트를 추가할 수 있습니다.
+다음에서 세그먼트를 사용할 수 있습니다. [가상 보고서 세트](/help/components/vrs/vrs-about.md) 더 편리하게 데이터를 제외하기 위해. 이 옵션은 영향을 받는 날짜 범위를 포함하는 각 보고서에 대한 세그먼트를 적용하지 않아도 된다는 점에서 이상적입니다. 이미 가상 보고서 세트를 기본 데이터 소스로 사용하는 경우 기존 가상 보고서 세트에 세그먼트를 추가할 수 있습니다.
 
 1. 다음으로 이동 **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**.
 2. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
@@ -81,4 +81,4 @@ Workspace 프로젝트에 &#39;영향을 받는 일 제외&#39; 세그먼트를 
 4. 제외 세그먼트를 레이블이 지정된 영역으로 드래그합니다. **[!UICONTROL 세그먼트 추가]**.
 5. 클릭 **[!UICONTROL 계속]** 오른쪽 상단에서 **[!UICONTROL 저장]**.
 
-![VRS에 적용된 세그먼트](assets/exclude_segment_vrs.png)
+![가상 보고서 세트에 적용된 세그먼트](assets/exclude_segment_vrs.png)

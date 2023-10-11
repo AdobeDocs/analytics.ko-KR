@@ -4,10 +4,10 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트 워크플로
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [하나 이상의 세그먼트를 상위 보고서 세트에 적용하여 가상 보고서 세트를 만듭니다](/help/components/vrs/c-workflow-vrs/vrs-create.md).
 
-가상 보고서 세트는 가상 보고서 세트 관리자에서 만듭니다 (구성 요소 > 가상 보고서 세트).
+가상 보고서 세트는 가상 보고서 세트 관리자에서 생성되며 다음을 통해 사용할 수 있습니다. **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**.
 
 가상 보고서 세트가 만들어지면 UI에서 기본 보고서 세트처럼 처리되고 일반적으로 가장 확장된 기능에 대해 지원됩니다. 예를 들어 가상 보고서 세트는 보고서 세트 선택기에 표시되며 다른 보고서 세트처럼 개별적으로 선택할 수 있습니다.
 

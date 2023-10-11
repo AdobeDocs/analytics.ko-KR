@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics에 대해 자주 묻는 질문
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -146,7 +146,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Adobe Audience Manager에서 통합된 고객 속성과 고객 데이터의 차이점은 무엇입니까?</b> </p> </td> 
-   <td colname="col2"> <p>고객 속성은 시간을 기반으로 하지 않으며, 소급하여 적용하고 진행합니다. Adobe Audience Manager 통합 데이터는 시간 기반이며 앞으로 나아갈 때에만 사용됩니다. 또한 고객 속성은 Experience Cloud 방문자 ID에 대한 조회 테이블이지만, Adobe Audience Manager 통합은 방문자에 대한 각 히트에 결합된 데이터입니다. </p> </td> 
+   <td colname="col2"> <p>고객 속성은 시간을 기반으로 하지 않습니다. 소급하여 적용됩니다. Adobe Audience Manager 통합 데이터는 시간 기반이며 앞으로 나아갈 때에만 사용됩니다. 또한 고객 속성은 Experience Cloud 방문자 ID에 대한 조회 테이블이지만, Adobe Audience Manager 통합은 방문자에 대한 각 히트에 결합된 데이터입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 이전 Beta 또는 컨설팅 플러그인 쿠키 대상 등, 이 문제에 대한 기존 접근 방법은 무엇입니까?</b> </p> </td> 

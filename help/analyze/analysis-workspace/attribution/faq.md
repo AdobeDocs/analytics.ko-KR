@@ -4,10 +4,10 @@ description: 속성과 관련하여 자주 묻는 질문에 대한 답변을 얻
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: aeb5558c85286c069b49663919fdbb15853bf88e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 73%
+source-wordcount: '1222'
+ht-degree: 71%
 
 ---
 
@@ -146,7 +146,7 @@ Analytics의 일부 차원은 하나의 히트에 여러 값을 포함할 수 �
 
 속성은 항상 세그먼테이션 전에 실행되며, 세그먼테이션은 보고서 필터가 적용되기 전에 실행됩니다. 이 개념은 세그먼트를 사용하는 가상 보고서 세트에도 적용됩니다.
 
-예를 들어 &quot;디스플레이 히트&quot; 세그먼트가 적용된 VRS를 만드는 경우 일부 속성 모델을 사용하여 테이블에서 다른 채널을 볼 수도 있습니다.
+예를 들어 &quot;디스플레이 히트&quot; 세그먼트가 적용된 가상 보고서 세트를 만드는 경우 일부 속성 모델을 사용하여 테이블에서 다른 채널을 볼 수도 있습니다.
 
 ![디스플레이 전용 가상 보고서 세트](assets/vrs-aiq-example.png)
 

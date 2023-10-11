@@ -3,10 +3,10 @@ description: Analysis Workspace, Reports & Analytics, Report Builder, Data Wareh
 title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0579715d33db28f1741eed2b1aa1520d3beb757b
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 96%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 100%
 | **집단 분석** | [예](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 아니요 | 아니요 | 아니요 | 예 | 아니요 | 아니요 |
 | **속성** | 예. [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 제한적 | 제한적 | 아니요 | 예 | 아니요 | 예. [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
 | **가상 분석가 기능** <br> [자세히 알아보기](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 |
-| **큐레이션** <br> [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/curate.md) | 예 - 프로젝트 및 VRS | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 - VRS만 |
+| **큐레이션** <br> [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/curate.md) | 예 - 프로젝트 및 가상 보고서 세트 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 - 가상 보고서 세트만 |
 | **프로젝트 공유** <br> [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 예. 프로젝트 역할 사용 | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
 | **예약된 게재** | 예 | 예 | 예 | 예 | 아니요 | 예 | 아니요 |
 | **게재 대상** | 이메일 | 이메일 | 이메일, FTP, SFTP, [Microsoft PowerBI에 게시](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC 및 이메일 | - | Amazon S3, Azure RBAC, Azure SAS 및 Google Cloud Platform | - |
-| **VRS 보고서 시간 처리** <br> [자세히 알아보기](/help/components/vrs/vrs-report-time-processing.md) | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 |
+| **가상 보고서 세트 보고서 처리 시간** <br> [자세히 알아보기](/help/components/vrs/vrs-report-time-processing.md) | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 |

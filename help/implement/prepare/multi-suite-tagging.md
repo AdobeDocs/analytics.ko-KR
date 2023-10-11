@@ -3,10 +3,10 @@ description: 다중 세트 태그 지정을 구현하여 여러 보고서 세트
 title: 다중 세트 태그 지정 구현
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -36,4 +36,4 @@ ht-degree: 100%
 
 다중 세트 태그 지정 대신 가상 보고서 세트를 사용하는 것이 모범 사례인 경우가 많지만 조직에 가장 적합한 보고서 세트 접근 방식을 비즈니스 요구 사항에 의해 결정됩니다.
 
-가상 보고서 세트가 최상의 접근 방식인지 파악하려면 “[가상 보고서 세트 및 다중 세트 태그 지정 고려 사항](/help/components/vrs/vrs-considerations.md)”을 참조하십시오. 다중 세트 태그 지정과 가상 보고서 세트 기능을 비교하려면 “[가상 보고서 세트 vs. 다중 세트 태그 지정](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)”도 참조하십시오.
+가상 보고서 세트가 최상의 접근 방식인지 파악하려면 “[가상 보고서 세트 및 다중 세트 태그 지정 고려 사항](/help/components/vrs/vrs-considerations.md)”을 참조하십시오. 참조: &quot;[가상 보고서 세트와 다중 세트 태깅 비교](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot;다중 세트 태그 지정 및 가상 보고서 세트 기능을 비교합니다.
