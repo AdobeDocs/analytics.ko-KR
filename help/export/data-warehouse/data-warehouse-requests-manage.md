@@ -4,10 +4,10 @@ title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
+source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 16%
+source-wordcount: '1262'
+ht-degree: 13%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 16%
 
 ## 요청 내역 보기
 
-실행된 보고서의 내역을 볼 수 있습니다.
+수행한 Data Warehouse 요청 내역을 볼 수 있습니다.
 
 1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**].
 
@@ -74,9 +74,26 @@ ht-degree: 16%
 
 1. 선택 [!UICONTROL **내역 보기**].
 
-   다음 [!UICONTROL **Data Warehouse 요청 보기**] 페이지에는 개별 보고서 게재 목록이 표시됩니다.
+   다음 [!UICONTROL **Data Warehouse 요청 보기**] 이 페이지에는 요청과 연결된 개별 보고서 게재 목록이 표시됩니다.
+
+   다음 항목 선택 **열 구성** 아이콘 ![열 구성 아이콘](assets/configure-column-icon.png) 열을 숨기거나 기본적으로 표시되지 않는 열을 표시합니다.
 
    ![요청 기록 페이지](assets/dw-request-history.png)
+
+   다음 열을 사용할 수 있습니다.
+
+   | 열 | 설명 |
+   |---------|----------|
+   | [!UICONTROL **제작일**] | 보고서가 생성된 날짜와 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **시작 일자**] | 보고서가 시작된 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **완료 일자**] | 보고서가 완료된 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **업데이트 일자**] | 보고서를 마지막으로 업데이트한 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **상태**] | 보고서 게재의 상태입니다. 가능한 상태는 다음과 같습니다.<ul><li>[!UICONTROL **생성됨**]: 보고서가 생성되었지만 아직 처리되지 않았습니다.</li><li>[!UICONTROL **보류 중**]: 보고서가 처리 대기 중입니다.</li><li>[!UICONTROL **처리 중**]: 보고서가 현재 처리 중입니다.</li><li>[!UICONTROL **완료됨**]: 보고서가 완료되었으며 이제 사용할 수 있습니다.</li><li>[!UICONTROL **예약됨**]: 보고서가 예약되었지만 아직 시작되지 않았습니다.</li><li>[!UICONTROL **취소됨**]: 사용자가 보고서를 취소했습니다.</li><li>[!UICONTROL **오류 - 처리 중**:] 처리하는 동안 보고서에 오류가 발생했습니다. 보고서를 다시 실행하여 다시 시도하십시오.</li><li>[!UICONTROL **오류 - 전송 실패**]: 보고서가 생성되었지만 게재할 수 없습니다. 다음 확인: [대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)를 클릭한 다음 보고서를 다시 보냅니다.</li></ul>. |
+   | [!UICONTROL **From**] | 보고서에 포함된 전체 시간대의 시작 일자.<p>보고서 세트의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **종료**] | 보고서에 포함된 전체 시간대의 종료 일자. <p>보고서 세트의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **레거시 요청 ID**] | 기존 Data Warehouse 인터페이스에서 보고서를 식별하는 데 사용되는 ID입니다. 이 ID는 Adobe 고객 지원 센터에 문의할 때 필요할 수 있습니다. |
+   | [!UICONTROL **보고서 ID**] | 현재 Data Warehouse 인터페이스에서 보고서를 식별하는 데 사용되는 ID입니다. 이 ID는 Adobe 고객 지원 센터에 문의할 때 필요할 수 있습니다. |
+
 
 1. 보고서 배달을 선택한 후 다음 옵션 중 하나를 선택합니다.
 
