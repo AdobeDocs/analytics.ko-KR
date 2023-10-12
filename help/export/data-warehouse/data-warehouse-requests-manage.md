@@ -4,10 +4,10 @@ title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
+source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 18%
+source-wordcount: '927'
+ht-degree: 16%
 
 ---
 
@@ -73,6 +73,19 @@ ht-degree: 18%
    ![요청 관리](assets/dw-manage-request.png)
 
 1. 선택 [!UICONTROL **내역 보기**].
+
+   다음 [!UICONTROL **Data Warehouse 요청 보기**] 페이지에는 개별 보고서 게재 목록이 표시됩니다.
+
+   ![요청 기록 페이지](assets/dw-request-history.png)
+
+1. 보고서 배달을 선택한 후 다음 옵션 중 하나를 선택합니다.
+
+   | 옵션 | 함수 |
+   |---------|----------|
+   | [!UICONTROL **대상 세부 정보**] | 요청과 연결된 계정 및 위치 세부 정보를 표시합니다. 에 설명된 대로 이전에 구성된 계정 및 위치입니다. [Data Warehouse 요청에 대한 보고서 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **보고서 취소**] | 보고서를 취소합니다. 상태가 인 보고서는 취소할 수 없습니다. [!UICONTROL **완료됨**] 또는 [!UICONTROL **취소됨**]. |
+   | [!UICONTROL **보고서 재실행**] | 데이터를 원래 보냈을 때의 상태로 보고서를 다시 실행합니다. 다음 상태의 보고서를 다시 실행할 수 있습니다. [!UICONTROL **취소됨**], [!UICONTROL **완료됨**], [!UICONTROL **오류 - 처리 중**], 또는 [!UICONTROL **오류 - 전송 실패**]. |
+   | [!UICONTROL **보고서 재전송**] | 이전에 생성된 보고서 파일을 다시 보냅니다. 다음 상태의 보고서를 다시 보낼 수 있습니다. [!UICONTROL **완료됨**] 또는 [!UICONTROL **오류 - 전송 실패**]. |
 
 ## 요청 복사
 

@@ -2,10 +2,11 @@
 description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트를 마이그레이션하기 위해 준비하는 데 필요한 준비 사항에 대해 설명합니다.
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비
 feature: Admin Tools
-source-git-commit: cbd991821dc1eefa458ec5d92b75f9b4dfcc9fa0
+exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
+source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 15%
+source-wordcount: '939'
+ht-degree: 14%
 
 ---
 
@@ -54,7 +55,9 @@ ht-degree: 15%
 
 ### 마이그레이션된 구성 요소
 
-Dimension 및 지표는에 설명된 매핑 프로세스의 일부로 마이그레이션됩니다. [Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션](#migrate-adobe-analytics-projects-to-customer-journey-analytics)와 달리 세그먼트와 날짜 범위는 Customer Journey Analytics에서
+Dimension 및 지표는에 설명된 매핑 프로세스의 일부로 마이그레이션됩니다. [Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+
+Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 범위 및 계산된 지표는 매핑된 차원 및 지표를 기반으로 세그먼트, 날짜 범위 및 계산된 지표에서 다시 만들어집니다.
 
 |  | [마이그레이션됨] |
 |---------|---------|
@@ -92,7 +95,7 @@ Dimension 및 지표는에 설명된 매핑 프로세스의 일부로 마이그�
 
 ## 오류를 일으키는 지원되지 않는 요소 이해
 
-다음 시각화, 패널 및 기능은 Customer Journey Analytics에서 지원되지 않습니다. 이러한 요소가 마이그레이션 전에 프로젝트에 포함되면 마이그레이션에 실패하거나 프로젝트가 마이그레이션된 후 오류가 발생할 수 있습니다.
+다음 시각화 및 패널은 Customer Journey Analytics에서 지원되지 않습니다. 이러한 요소가 마이그레이션 전에 프로젝트에 포함되면 마이그레이션에 실패하거나 프로젝트가 마이그레이션된 후 오류가 발생할 수 있습니다.
 
 프로젝트를 Adobe Analytics으로 마이그레이션하기 전에 Customer Journey Analytics 프로젝트에서 이러한 요소를 제거하십시오. 마이그레이션이 실패하면 마이그레이션을 다시 시도하기 전에 이러한 요소를 제거하십시오.
 
@@ -112,11 +115,7 @@ Dimension 및 지표는에 설명된 매핑 프로세스의 일부로 마이그�
 
 * [페이지 요약](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-### 지원되지 않는 기능
-
 * [기여도 분석](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-
-* [경고](/help/components/c-alerts/intellligent-alerts.md)
 
 ## 구성 요소를 매핑할 방법을 조직으로 결정
 

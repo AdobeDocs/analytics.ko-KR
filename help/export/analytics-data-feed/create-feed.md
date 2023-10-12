@@ -3,9 +3,9 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '3175'
+source-wordcount: '3163'
 ht-degree: 20%
 
 ---
@@ -117,9 +117,9 @@ ht-degree: 20%
 
    +++Azure RBAC
 
-   RBAC 인증을 사용하여 Azure 컨테이너로 직접 피드를 보낼 수 있습니다. 이 대상 유형에는 버킷 이름, 응용 프로그램 ID, 테넌트 ID 및 비밀 키가 필요합니다.
+   RBAC 인증을 사용하여 Azure 컨테이너로 직접 피드를 보낼 수 있습니다. 이 대상 유형에는 응용 프로그램 ID, 테넌트 ID 및 암호가 필요합니다.
 
-   Azure RBAC 버킷을 데이터 피드의 대상으로 구성하려면 다음을 수행합니다.
+   Azure RBAC 계정을 데이터 피드의 대상으로 구성하려면 다음을 수행합니다.
 
    1. 아직 인증하지 않았다면 Adobe Analytics에서 인증에 사용할 수 있는 Azure 애플리케이션을 만든 다음 IAM(액세스 제어)에서 액세스 권한을 부여합니다.
 
@@ -177,9 +177,9 @@ ht-degree: 20%
 
    +++Azure SAS
 
-   SAS 인증을 사용하여 Azure 컨테이너로 직접 피드를 보낼 수 있습니다. 이 대상 유형에는 버킷 이름, 응용 프로그램 ID, 테넌트 ID, 주요 자격 증명 모음 URI, 주요 자격 증명 모음 암호 이름 및 비밀 키가 필요합니다.
+   SAS 인증을 사용하여 Azure 컨테이너로 직접 피드를 보낼 수 있습니다. 이 대상 유형에는 응용 프로그램 ID, 테넌트 ID, 키 저장소 URI, 키 저장소 암호 이름 및 암호가 필요합니다.
 
-   Azure SAS 버킷을 데이터 피드의 대상으로 구성하려면:
+   Azure SAS를 데이터 피드의 대상으로 구성하려면:
 
    1. Adobe Analytics에서 인증에 사용할 수 있는 Azure 애플리케이션을 아직 만들지 않은 경우 만듭니다.
 

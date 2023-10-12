@@ -3,9 +3,9 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2304'
 ht-degree: 15%
 
 ---
@@ -254,6 +254,8 @@ Data Warehouse에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RS
 
 * [!UICONTROL **사용자 이름**]: SFTP 사이트에 로그인할 사용자 이름을 입력합니다.
 
+* [!UICONTROL **업로드 중 임시 파일 확장자 사용**]: 활성화되면 `.part` 업로드 프로세스 중에 파일 확장자가 사용됩니다. 업로드가 완료된 후 SFTP 서버에서 파일 이름 변경을 제한하지 않는 한 이 옵션을 활성화한 상태로 유지합니다.
+
 * [!UICONTROL **공개 키**]: Data Warehouse 대상을 만들 때 적절한 공개 키를 다운로드합니다.
 
 #### 위치 필드
@@ -263,6 +265,8 @@ Data Warehouse에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RS
 * [!UICONTROL **위치 설명**]: SFTP 계정의 위치에 대한 설명입니다.
 
 * [!UICONTROL **디렉터리 경로**]: SFTP 계정의 위치에 대한 경로입니다.
+
+SFTP 구성에 대한 자세한 내용은 [SFTP 서버로 Data Warehouse 요청 보내기](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 
