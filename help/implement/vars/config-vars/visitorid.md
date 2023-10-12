@@ -3,10 +3,10 @@ title: visitorID
 description: 사용자 지정 방문자 ID를 사용합니다.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
+source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 93%
+source-wordcount: '356'
+ht-degree: 71%
 
 ---
 
@@ -44,3 +44,7 @@ s.visitorID = "abc123";
 >[!CAUTION]
 >
 >사용자 지정 방문자 ID가 잘못 구현되면 데이터가 올바르지 않고 보고 성능이 저하될 수 있습니다. 이 변수에 기본값 (예: `"0"` 또는 `"NULL"`)이 포함되어 있으면 Adobe는 이러한 히트를 동일한 방문자인 것처럼 취급합니다. 이 경우 방문자 수가 적고 방문자 수준 세그먼트가 예상대로 작동하지 않아 올바르지 않은 데이터가 발생합니다. 사용자 지정 방문자 ID를 잘못 구현하면 처리 서버에 대한 부하도 커져서 [지연](/help/technotes/latency.md)이 증가하고 보고서 성능이 저하됩니다.
+
+## 웹 SDK 및 Experience Edge를 사용하는 방문자 ID
+
+Experience Edge에서는 XDM을 사용하여 여러 식별자를 제공할 수 있습니다 [ID 맵](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). ID 맵의 각 ID에는 다른 네임스페이스가 있습니다. 의 일부로 방문자 ID에 사용할 네임스페이스를 지정할 수 있습니다. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR#analytics). 이 기능이 구성되면 이 네임스페이스에 대해 지정된 값으로 이벤트를 보낼 때 Analytics에서 방문자 ID로 자동으로 사용됩니다.
