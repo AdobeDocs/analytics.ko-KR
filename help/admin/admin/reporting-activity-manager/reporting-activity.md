@@ -4,10 +4,10 @@ title: 활동 관리자 보고
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
+source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 19%
+source-wordcount: '1761'
+ht-degree: 18%
 
 ---
 
@@ -96,31 +96,27 @@ ht-degree: 19%
 
   ![고유 사용자 그래프](assets/distinct-users-graph.png)
 
-<!--
+#### 요청 그래프
 
-#### Requests graph
+요청 그래프는 지난 2시간 동안 선택한 보고서 세트에 대해 처리 및 완료된 요청 수를 보여 줍니다.
 
-The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+차트 위로 마우스를 가져가면 해당 분 동안 최대 요청 수가 가장 많았던 시점을 볼 수 있습니다.
 
-Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+* **X축**: 지난 2시간 동안 처리 및 완료된 요청 수입니다.
+* **Y축**: 처리된 요청(자주색) 및 완료된 요청(녹색) 수(분)입니다.
 
-* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
-* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
+  ![고유 사용자 그래프](assets/requests-graph.png)
 
-   ![Distinct Users graph](assets/requests-graph.png)
+#### 큐 그래프
 
-#### Queueing graph
+큐 그래프는 지난 2시간 동안 선택한 보고서 세트에 대한 요청 보고에 대한 평균 큐 대기 시간(초)을 보여 줍니다.
 
-The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+차트 위로 마우스를 가져가면 해당 분에 대한 최대 평균 대기 시간이 가장 긴 시점을 볼 수 있습니다.
 
-Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+* **X축**: 지난 2시간 동안의 보고 요청에 대한 평균 큐 대기 시간입니다.
+* **Y축**: 평균 대기 시간(초)입니다.
 
-* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
-* **Y-axis**: The average wait time (in seconds).
-
-   ![Distinct Users graph](assets/queueing-graph.png)
-
--->
+  ![고유 사용자 그래프](assets/queueing-graph.png)
 
 ### 테이블 보기 {#view-table}
 
