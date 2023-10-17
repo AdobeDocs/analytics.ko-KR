@@ -2,10 +2,10 @@
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 title: 활동 관리자 보고 개요
 feature: Admin Tools
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '271'
+ht-degree: 23%
 
 ---
 
@@ -41,10 +41,3 @@ ht-degree: 29%
 
 보고 활동 관리자에서 보고 요청을 취소하는 방법에 대한 자세한 내용은 [보고 활동 관리자에서 보고 요청 취소](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## FAQ {#faq}
-
-| 질문 | 답변 |
-| --- | --- |
-| 보고 용량을 추가로 구매할 수 있습니까? | 이 기능은 가까운 시일 내에 사용할 수 있습니다. |
-
-{style="table-layout:auto"}
