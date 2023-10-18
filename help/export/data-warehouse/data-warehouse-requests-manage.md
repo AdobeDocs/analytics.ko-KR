@@ -4,9 +4,9 @@ title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 02e743892d3e476a5614d9ad912523ce6315fe62
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1280'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 13%
 >모든 고객이 곧 사용할 수 있는 새로운 Data Warehouse 경험이 조직에 아직 없는 경우 의 정보를 사용하십시오. [Data Warehouse 요청 관리(이전 경험)](#manage-data-warehouse-requests-old-experience) 이 페이지의 맨 아래에 있습니다.
 
 
-수행한 Data Warehouse 요청을 관리할 수 있습니다. 다음 섹션에서는 요청을 관리할 때 수행할 수 있는 활동에 대해 설명합니다. <!-- just those you have made? I think you can see other people's requests (you can filter by them). What can you do with other people's requests? Just view them?-->
+수행한 Data Warehouse 요청을 보고 관리할 수 있습니다. 관리자만 관리 권한이 있는 조직의 다른 사용자가 수행한 요청을 보고 관리할 수 있습니다.
+
+다음 섹션에서는 요청을 관리할 때 수행할 수 있는 활동에 대해 설명합니다.
 
 ## 요청 보기
 
@@ -91,7 +93,7 @@ ht-degree: 13%
    | [!UICONTROL **상태**] | 보고서 게재의 상태입니다. 가능한 상태는 다음과 같습니다.<ul><li>[!UICONTROL **생성됨**]: 보고서가 생성되었지만 아직 처리되지 않았습니다.</li><li>[!UICONTROL **보류 중**]: 보고서가 처리 대기 중입니다.</li><li>[!UICONTROL **처리 중**]: 보고서가 현재 처리 중입니다.</li><li>[!UICONTROL **완료됨**]: 보고서가 완료되었으며 이제 사용할 수 있습니다.</li><li>[!UICONTROL **예약됨**]: 보고서가 예약되었지만 아직 시작되지 않았습니다.</li><li>[!UICONTROL **취소됨**]: 사용자가 보고서를 취소했습니다.</li><li>[!UICONTROL **오류 - 처리 중**:] 보고서에 오류가 발생하여 처리할 수 없습니다.</li><li>[!UICONTROL **오류 - 전송 실패**]: 보고서가 생성되었지만 게재할 수 없습니다. 다음 확인: [대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)를 클릭한 다음 보고서를 다시 보냅니다.</li></ul>. |
    | [!UICONTROL **From**] | 보고서에 포함된 전체 시간대의 시작 일자.<p>보고서 세트의 시간대에 표시됩니다.</p> |
    | [!UICONTROL **종료**] | 보고서에 포함된 전체 시간대의 종료 일자. <p>보고서 세트의 시간대에 표시됩니다.</p> |
-   | [!UICONTROL **레거시 요청 ID**] | 기존 Data Warehouse 인터페이스에서 보고서를 식별하는 데 사용되는 ID입니다. 이 ID는 Adobe 고객 지원 센터에 문의할 때 필요할 수 있습니다. |
+   | [!UICONTROL **기존 요청 ID**] | 기존 Data Warehouse 인터페이스에서 보고서를 식별하는 데 사용되는 ID입니다. 이 ID는 Adobe 고객 지원 센터에 문의할 때 필요할 수 있습니다. |
    | [!UICONTROL **보고서 ID**] | 현재 Data Warehouse 인터페이스에서 보고서를 식별하는 데 사용되는 ID입니다. 이 ID는 Adobe 고객 지원 센터에 문의할 때 필요할 수 있습니다. |
 
 

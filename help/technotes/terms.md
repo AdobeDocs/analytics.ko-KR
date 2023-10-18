@@ -3,10 +3,10 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 98%
+source-wordcount: '2577'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 98%
 * **클릭스트림 데이터 피드:** 데이터 피드를 참조하십시오.
 * **집단:** 주어진 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 분석 사용 안내서에서 [집단 분석이란?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)을 참조하십시오.
 * **수집 서버:** 데이터 수집 서버를 참조하십시오.
+* **구성 요소:** Analysis Workspace의 구성 요소는 프로젝트에 드래그하여 놓을 수 있는 차원, 지표, 세그먼트 및 날짜 범위로 구성됩니다. 다음을 참조하십시오 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) ( 분석 사용 안내서)를 참조하십시오.
 * **컨텍스트 데이터 변수:** 처리 규칙에만 사용되는 임시 변수입니다. 처리 규칙이 컨텍스트 데이터 변수 값을 전환 또는 트래픽 변수에 복사하지 않으면 이 값이 영구적으로 손실됩니다. 구현 사용 안내서에서 [컨텍스트 데이터 변수](../implement/vars/page-vars/contextdata.md)를 참조하십시오.
 * **전환 변수:** eVar라고도 합니다. 사용자 지정 값을 저장하고 만료될 때까지 변수 값을 유지합니다. 구성 요소 사용 안내서에서 [eVar](/help/components/dimensions/evar.md) 차원을 참조하십시오.
 * **상관 관계:** 더 이상 사용하지 않는 용어입니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
