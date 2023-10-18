@@ -3,10 +3,10 @@ title: timestamp
 description: 히트의 타임스탬프를 수동으로 설정합니다.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
+source-git-commit: 4f9af1b3a1337b0e24b718362a502ff3f0acb5ef
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 86%
+source-wordcount: '278'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니�
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.timestamp
 
-`s.timestamp` 변수는 히트의 날짜 및 시간을 포함하는 문자열입니다. 유효한 타임스탬프 형식에는 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 및 [Unix 시간](https://en.wikipedia.org/wiki/Unix_time)이 포함됩니다.
+`s.timestamp` 변수는 히트의 날짜 및 시간을 포함하는 문자열입니다. 유효한 타임스탬프 형식은 다음과 같습니다. [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 및 [Unix 시간](https://en.wikipedia.org/wiki/Unix_time) 초 단위입니다.
 
 ```js
 // Timestamp using ISO 8601
