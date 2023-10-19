@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8268'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -196,7 +196,7 @@ ht-degree: 99%
 
 | 기능 | 설명 |
 |--- |--- |
-| [가상 보고서 세트 및 프로젝트 큐레이션 - 개선 사항](/help/analyze/analysis-workspace/curate-share/curate.md) | 이러한 변경 사항은 실제로 2018년 10월에 소개되었습니다. 구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 작업 공간 프로젝트 및 조정된 가상 보고서 세트에서 볼 수 있게 변경되었습니다. <br> 이전에는 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. 업데이트된 조정 환경에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.</br> |
+| [가상 보고서 세트 및 프로젝트 큐레이션 - 개선 사항](/help/analyze/analysis-workspace/curate-share/curate.md) | 이러한 변경 사항은 실제로 2018년 10월에 소개되었습니다. 구성 요소 관리자 및 비관리자가 선별된 Workspace 프로젝트 및 선별된 가상 보고서 세트에서 볼 수 있도록 변경되었습니다. <br> 이전에는 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. 업데이트된 조정 환경에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.</br> |
 
 ## 2018년 10월
 
@@ -970,8 +970,8 @@ ht-degree: 99%
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > 플로우 시각화 </a></b> </td>
    <td colname="col2"> <p>새로운 플로우 기능을 사용하면 Analysis Workspace의 새롭고 업데이트된 유연한 시각화를 통해 사이트/앱을 이동하는 고객을 봄으로써 고객이 어떻게 사이트/앱에서 이동하고 진행해 가는지를 알 수 있습니다. 플로우를 사용하면 다음 작업을 수행할 수 있습니다. </p> <p> </p>
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC">
-     <li id="li_0F7AF953EAB746DC95032FF9A533E560">자산 간의 고객 이동 시각화 </li>
-     <li id="li_697A47BE06CF4284ACA3DBE4CA4012BF">고객 이동 경로에 있는 시작, 종료 또는 특정 차원 항목으로부터 바로 다음 단계 분석 </li>
+     <li id="li_0F7AF953EAB746DC95032FF9A533E560">자산 간의 고객 여정 시각화 </li>
+     <li id="li_697A47BE06CF4284ACA3DBE4CA4012BF">고객 여정에서의 시작, 종료 또는 특정 차원 항목으로부터 바로 다음 단계 분석 </li>
      <li id="li_D13AD928AC434D599D43836FB334B14D">선택한 경로에서 특정 지점을 지정하여 사용자 세그먼트를 동적으로 생성 </li>
     </ul> <p><img placement="break"  src="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td>
   </tr>
@@ -1032,7 +1032,7 @@ ht-degree: 99%
 2016년 6월 16일 릴리스된 새로운 기능:
 
 * 관리자가 **[!UICONTROL 분석]** > **[!UICONTROL 작업 영역]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ko-KR) 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
-*   [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스할 수 있는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다.
+*  [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스할 수 있는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다.
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 패널, 시각화, 구성 요소
 * 최대 3개의 세그먼트 및 지표를 드래그하고 벤 다이어그램을 작성할 수 있는 새로운 [](/help/analyze/analysis-workspace/visualizations/venn.md)벤 시각화 유형
@@ -1117,7 +1117,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->회사에서 Single Sign-On을 사용하는 경우 (기존 Single Sign-On을 사용하고 Experience Cloud를 통해 로그인) 보고서 링크를 공유할 수 없습니다.
+>회사에서 SSO(Single Sign-On)를 사용하는 경우 (기존 SSO를 사용하고 Experience Cloud를 통해 로그인) 보고서 링크를 공유할 수 없습니다.
 
 ## 글머리 기호 그래프, 산포도, 트리맵 시각화 {#section_B19EA50EBF5546E99D3A142827153FD6}
 
