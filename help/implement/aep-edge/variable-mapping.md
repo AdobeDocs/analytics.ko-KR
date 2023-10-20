@@ -3,7 +3,7 @@ title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 83%
@@ -106,8 +106,8 @@ ht-degree: 83%
 | `media.mediaTimed.thirdQuartiles.value` | Media Analytics 지표 [75% 진행률 마커](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#seventy-five-progress-marker). |
 | `media.mediaTimed.timePlayed.value` | Media Analytics 지표 [콘텐츠 체류 시간](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#content-time-spent). |
 | `media.mediaTimed.totalTimePlayed.value` | Media Analytics 지표 [미디어 사용 시간](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#media-time-spent). |
-| `placeContext.geo.latitude` | 모바일 차원 위도. |
-| `placeContext.geo.longitude` | 모바일 차원 경도. |
+| `placeContext.geo._schema.latitude` | 모바일 차원 위도. |
+| `placeContext.geo._schema.longitude` | 모바일 차원 경도. |
 | `placeContext.geo.postalCode` | [우편번호](../../components/dimensions/zip-code.md) 차원. |
 | `placeContext.geo.stateProvince` | [미국 주](../../components/dimensions/us-states.md) 차원. |
 | `placeContext.localTime` | Report &amp; Analytics에서 [시간대](/help/analyze/reports-analytics/reports.md)를 채우는 데 도움이 됩니다. [데이터 피드](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 `t_time_info`로 표시됩니다. |
