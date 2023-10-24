@@ -4,7 +4,7 @@ title: 활동 관리자 보고
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: de0d103a2b4cd1827b2c9a93aa140a9c5e44584e
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 15%
@@ -12,8 +12,6 @@ ht-degree: 15%
 ---
 
 # 보고 활동 관리자에서 보고 활동 보기
-
-{{release-limited-testing}}
 
 다음 [!UICONTROL 활동 관리자 보고] 최대 보고 시간 동안 보고 용량 문제를 신속하게 진단하고 해결할 수 있습니다.
 

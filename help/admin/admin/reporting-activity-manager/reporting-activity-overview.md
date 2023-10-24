@@ -2,7 +2,7 @@
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 title: 활동 관리자 보고 개요
 feature: Admin Tools
-source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 23%
@@ -10,8 +10,6 @@ ht-degree: 23%
 ---
 
 # 보고 활동 관리자 개요
-
-{{release-limited-testing}}
 
 다음 [!UICONTROL 활동 관리자 보고] 는 관리자가 사용할 수 있습니다.
 
