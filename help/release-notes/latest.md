@@ -3,41 +3,41 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 69cffe2bc97a81cb9e4b989f2193dc2deb6e8d22
+source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 99%
+source-wordcount: '1134'
+ht-degree: 88%
 
 ---
 
-# 현재 Adobe Analytics 릴리스 정보 (2023년 10월)
+# 현재 Adobe Analytics 릴리스 정보 (2023년 10월/11월)
 
-**마지막 업데이트**: 2023년 10월 19일
+**마지막 업데이트**: 2023년 10월 25일
 
-10월 릴리스 정보에는 2023년 10월 4일부터 2023년 10월 25일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 노트는 2023년 10월 23일부터 2023년 11월 말까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **구성 요소 관리 시 새로운 열 사용 가능** | 이제 구성 요소를 관리할 때 다음과 같은 새로운 열을 사용할 수 있습니다.<ul><li>다음에서 사용<p>이 열은 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에서 사용할 수 있습니다.</p></li><li>마지막 사용<p>이 열은 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md) 및 [경고 관리자](/help/components/c-alerts/alert-manager.md)에서 사용할 수 있습니다.</p></li></ul><p>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다. 이 정보와 함께 데이터 사전을 사용하면 조직에서 구성 요소가 사용되는 방식을 지속적으로 추적하고 보다 명확하게 파악할 수 있습니다.</p> | 2023년 9월 20일 | 2023년 10월 4일 |
 | **보고 활동 관리자 개선 사항** | 보고 활동 관리자를 사용하면 조직의 각 보고서 세트에 대한 보고 용량을 확인할 수 있습니다.  이는 관리자에게 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다. 이제 보고 활동 관리자에서 사용할 수 있는 몇 가지 개선 사항은 다음과 같습니다. <ul><li>후속 요청 제한: 현재 요청을 취소하는 것 외에도 관리자는 이제 정의된 기간 동안 요청을 제한할 수 있습니다. 관리자는 요청, 프로젝트 및 사용자별로 요청을 제한할 수 있습니다.</li><li>활용성 및 용량 지표 외에도 이제 보고 활동 관리자에는 보고 활동에 대한 추가 데이터(복잡성 열, 사용자 열, 연결 열)가 포함됩니다.</li><li>이제 보고 활동 관리자에서 이루어진 모든 취소 및 제한 사항이 감사 로그에 표시됩니다. 관리자는 감사 로그를 사용하여 현재 취소된 내용을 확인할 수 있습니다. 취소는 보고 활동 관리자 또는 감사 로그에서 되돌릴 수 없습니다.</li></ul><p>자세한 내용은 [보고 활동 관리자 개요](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오.</p> | 2023년 10월 17일 | 2023년 10월 24일 |
 | **Data Warehouse 개선 사항** | Data Warehouse 요청을 만들 때 이제 보고서 대상으로 사용할 클라우드 계정을 구성할 수 있습니다. 다음 클라우드 계정 유형을 데이터 전송에 사용할 수 있습니다.<ul><li>Amazon S3</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li><li>이메일(이 옵션은 이전에 사용 가능했음)</li></ul>FTP, SFTP, Azure Blob 및 S3는 여전히 보고서 대상으로 사용할 수 있지만 더 이상 권장되지 않습니다.<p>Data Warehouse 요청을 생성하고 관리할 때의 사용자 경험도 개선되었습니다. 자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md) 및 [Data Warehouse 요청 관리](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ko-KR)를 참조하십시오. | 2023년 9월 12일 | 2023년 11월 8일 또는 그 이전 |
-| **Adobe Analytics 프로젝트 및 포함된 모든 구성 요소를 Customer Journey Analytics로 마이그레이션** | 이제 Adobe Analytics 프로젝트를 Customer Journey Analytics로 마이그레이션할 수 있습니다. 이 프로세스는 Adobe Analytics에서 Customer Journey Analytics로의 전환을 간소화합니다. <p>프로젝트를 Customer Journey Analytics로 마이그레이션하면 자산이 Adobe Analytics 보고서 세트에서 Customer Journey Analytics 데이터 보기로 매핑됩니다.</p> <p>Adobe Analytics 인터페이스에서 Customer Journey Analytics로 프로젝트를 마이그레이션합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | 해당 사항 없음 | 2023년 10월 9일 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics의 수정 사항
 
-* A4T 보고서가 Target/Analytics UI에 표시되지 않는 문제가 해결되었습니다. (AN-329375, AN-329745, AN-330026)
+* 이러한 Analytics 처리 및 보고 엔진 변경 사항은 10월 마지막 주 동안 배포됩니다. 페이지 또는 링크 차원의 레이블이 로 잘못 표시되는 문제를 해결합니다 `Unknown`. 수정 전, `Unknown` 히트에서 페이지 이름 또는 링크 이름이 전달되지 않을 때 레이블이 잘못 표시되어 기본값이 로 설정됩니다. [!UICONTROL 페이지 URL] 및 [!UICONTROL 링크 URL], 각각 이러한 차원은 대/소문자를 구분하지 않도록 구성되었습니다. 이 수정 사항을 적용하면 앞으로 진행될 보고서가 정확합니다. 그러나 내역 데이터에 대한 보고서의 경우 일부 보고서 결과는 여전히 로 잘못 표시될 수 있습니다. `Unknown`. (AN-328030)
 
-AN-313983; AN-324189; AN-325095; AN-325677; AN-325886; AN-326068; AN-326360; AN-326458; AN-327290; AN-327315; AN-327353; AN-327505; AN-327589; AN-327609; AN-327922; AN-328110; AN-328222; AN-328261; AN-328496; AN-328577; AN-328629; AN-328736; AN-328888; AN-328899; AN-328902; AN-328921; AN-328958; AN-329208; AN-329277; AN-329332; AN-329334; AN-329335; AN-329336; AN-329357; AN-329385; AN-329387; AN-329397; AN-329463; AN-329501; AN-329504; AN-329505; AN-329515; AN-329524; AN-329526; AN-329534; AN-329539; AN-329541; AN-329543; AN-329545; AN-329564; AN-329570; AN-329623; AN-329624; AN-329636; AN-329646; AN-329647; AN-329668; AN-329701; AN-329737; AN-329741; AN-329751; AN-329812; AN-329813; AN-329821; AN-329824; AN-329833; AN-329848; AN-329852; AN-329861; AN-329863; AN-329874; AN-329882; AN-329911; AN-329917; AN-329942; AN-329954; AN-329968; AN-329971; AN-329982; AN-330044; AN-330052; AN-330131; AN-330132; AN-330230; AN-330352; AN-330367; AN-330541; AN-330599
+### 기타 수정 사항
+
+-315676; AN-; AN-323398; AN-326209; AN-328178; AN-328261; AN-328395; AN-328671; AN-329282; AN-329330; AN-329355; AN-329506; AN-329516; AN-329738; AN-329769; AN-329771; AN-329816; AN-329877; AN-329928; AN-329957; AN-329962; AN-329966; AN-330023; AN-330081; AN-330083; AN-330105; AN-330138; AN-330140; AN-330165; AN-330241; AN-330359; AN-330366; AN-330427; AN-330438; AN-330442; AN-330534; AN-330616; AN-330654; AN-330783; AN-330879; AN-330881; AN-330883; AN-330887; AN-330888; AN-330955; AN-330979; AN-331031; AN-331053; AN-331068; AN-331071; AN-331074; AN-331075; AN-331076; AN-331078; AN-331085; AN-331093; AN-331167; AN-331171; AN-331181; AN-331196; AN-331226; AN-331258; AN-331260; AN-331279; AN-331286; AN-331290; AN-331365; AN-331375; AN-331376; AN-331454; AN-331519; AN-331570; AN-331590; AN-331593; AN-331603; AN-331751; AN-331816; AN-331897; AN-331900; AN-331906; AN-331926; AN-331929; AN-332031; AN-332067; AN-332101; AN-332114; AN-332156; AN-332201; AN-332225; AN-332253; AN-332277; AN-332361; AN-332370; AN-332386
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **Adobe Experience Edge 히트에 대한 전체 IP 난독화** | 2023년 9월 27일 | Experience Edge에서 발생한 히트에 대한 IP 난독화는 2023년 10월 말에 업데이트될 예정입니다. Experience Edge에는 IP 주소를 난독화할 수 있는 기능이 4월에 추가되었습니다. 해당 시점에 Analytics가 Experience Edge의 히트를 처리하는 방식으로 인해 Adobe Analytics에서는 IP의 부분적인 난독화만 지원되었습니다. 고객이 Experience Edge에 대해 전체 난독화를 선택한 경우 Analytics는 부분적으로 난독화된 IP만 수신했습니다. 이 변경 사항이 구현되면 Analytics는 전체 난독화된 IP를 수신하게 됩니다. |
+| **Adobe Experience Edge 히트에 대한 전체 IP 난독화** | 2023년 9월 27일 | Experience Edge에서 발생하는 히트에 대한 IP 난독화는 2023년 10월 말에 업데이트됩니다. Experience Edge에는 IP 주소를 난독화할 수 있는 기능이 2023년 4월에 추가되었습니다. 해당 시점에 Analytics가 Experience Edge의 히트를 처리하는 방식으로 인해 Adobe Analytics에서는 IP의 부분적인 난독화만 지원되었습니다. 고객이 Experience Edge에 대해 전체 난독화를 선택한 경우 Analytics는 부분적으로 난독화된 IP만 수신했습니다. 이 변경 사항이 구현되면 Analytics는 전체 난독화된 IP를 수신하게 됩니다. |
 | **Adobe Analytics 라이브스트림 - Analytics 2.0 API** | 2023년 9월 27일 | 이제 고객은 1.4 API를 사용하는 이전 위치 대신 Adobe Analytics 2.0 API에서 [Adobe Analytics 라이브스트림용 엔드포인트 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/)에 액세스할 수 있습니다. Adobe I/O JWT 자격 증명을 사용하는 고객은 2025년 1월 1일까지 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. (아래 EOL 공지의 세부 사항을 확인하십시오.) |
 
 {style="table-layout:auto"}
