@@ -4,9 +4,9 @@ title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1293'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 13%
 >모든 고객이 곧 사용할 수 있는 새로운 Data Warehouse 경험이 조직에 아직 없는 경우 의 정보를 사용하십시오. [Data Warehouse 요청 관리(이전 경험)](#manage-data-warehouse-requests-old-experience) 이 페이지의 맨 아래에 있습니다.
 
 
-수행한 Data Warehouse 요청을 보고 관리할 수 있습니다. 관리자만 관리 권한이 있는 조직의 다른 사용자가 수행한 요청을 보고 관리할 수 있습니다.
+수행한 Data Warehouse 요청을 보고 관리할 수 있습니다. 관리자만 조직의 다른 사용자가 수행한 요청을 보고 관리할 수 있습니다.
 
 다음 섹션에서는 요청을 관리할 때 수행할 수 있는 활동에 대해 설명합니다.
 
@@ -47,6 +47,8 @@ ht-degree: 13%
 * 일정에 따라 실행되도록 구성된 요청만 편집할 수 있습니다.
 
 * 요청과 연결된 일부 필드는 편집할 수 없습니다. 편집할 수 없는 필드는 흐리게 표시됩니다.
+
+* 다른 사용자의 요청을 편집하는 관리자는 액세스할 수 있는 새 계정 및 위치를 선택해야 합니다.
 
 예약된 요청을 편집하려면:
 
