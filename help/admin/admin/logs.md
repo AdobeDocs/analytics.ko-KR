@@ -3,10 +3,10 @@ description: 사용자가 로그인하는 시점, 사용자의 사용, 액세스
 title: 로그
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 67%
+source-wordcount: '603'
+ht-degree: 66%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 67%
 | 범주 없음 | 모든 이벤트 유형일 수 있습니다. |
 | 로그인 실패 | 사용자 로그인 프로세스가 실패했습니다. |
 | 로그인 성공 | 사용자가 로그인되었습니다. |
-| 관리 작업 | 보고서 세트 편집, 회사 설정 변경, 사용자 만들기 등과 같은 관리 작업이 발생했습니다. |
+| 관리 작업 | 보고서 세트 편집, 회사 설정 변경, 사용자 만들기, 보고 요청 취소 등과 같은 관리 작업이 발생했습니다. |
 | 보안 설정 변경 | 보안 설정이 변경되었습니다. |
 | 보고서 조회함 | Reports &amp; Analytics 보고서를 보았습니다. |
 | 보고서 다운로드됨 | Reports &amp; Analytics 보고서가 다운로드되었습니다. |

@@ -2,9 +2,9 @@
 description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안 용량 문제를 진단하고 해결하는 방법에 대해 알아봅니다.
 title: 보고 활동 관리자에서 보고 요청 취소
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1417'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 15%
 
 * 특정 요청을 취소하거나 특정 사용자의 모든 요청을 취소하거나 특정 프로젝트와 관련된 모든 요청을 취소할 수 있습니다.
 
+  요청을 취소하면 작업이 [로그](/help/admin/admin/logs.md). 다음 [!UICONTROL **이벤트 유형**] 열이 다음으로 표시됨 [!UICONTROL **관리 작업**], 그리고 취소에 대한 설명은 [!UICONTROL **이벤트**] 열.
+
 * 요청을 취소할 때 주어진 기간 동안 후속 요청을 제한하도록 선택할 수도 있습니다.
+
+  후속 요청을 제한하면 작업이 다음에 기록됩니다. [로그](/help/admin/admin/logs.md). 다음 [!UICONTROL **이벤트 유형**] 열이 다음으로 표시됨 [!UICONTROL **관리 작업**], 그리고 제한에 대한 설명은 [!UICONTROL **이벤트**] 열.
 
 * 다음과 같은 경우에는 요청을 취소할 수 없습니다. [!UICONTROL **사용자**] 요청의 열이 다음으로 표시됨 [!UICONTROL **인식되지 않음**]. 이 경우 사용자가 관리 권한이 없는 로그인 회사에 속해 있음을 의미합니다.
 

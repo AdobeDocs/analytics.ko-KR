@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
-workflow-type: ht
-source-wordcount: '5136'
-ht-degree: 100%
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+workflow-type: tm+mt
+source-wordcount: '5165'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2023년 10월** | |
+| 보고 활동 관리자에 로그 정보가 추가되었습니다. | 다음에 대한 정보가 추가되었습니다. [보고 활동의 취소 및 후속 제한](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) 보고 활동 관리자는에서 캡처됩니다. [로그](/help/admin/admin/logs.md). |
 | **2023년 9월** | |
 | 미디어 재생 소요 시간 패널에 대한 문서의 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 해당 폴더의 내용을 단일 문서([미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))로 결합했습니다. <p>이 변경 사항으로 다른 패널의 설명서와 함께 더 일관된 형태를 갖추게 되었습니다.</p> |
 | 시작 콘텐츠 개선 사항 | 관리자, 분석가, 최종 사용자 및 개발자를 위한 주요 시작 작업 및 리소스에 대해 간략하게 설명하는 정보가 추가되었습니다. 이제 다음 문서를 사용할 수 있습니다. <ul><li>[시작하기 (역할별)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics 인터페이스 이해](/help/analyze/get-started/analytics-interface.md)<li>[사용 사례](/help/analyze/get-started/use-cases.md)</li></ul> |
