@@ -3,9 +3,10 @@ description: 분류 데이터를 업로드할 수 있는 클라우드 가져오�
 keywords: Analysis Workspace
 title: 클라우드 가져오기 계정 구성
 feature: Classifications
-source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
+exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '901'
 ht-degree: 5%
 
 ---
@@ -39,7 +40,6 @@ ht-degree: 5%
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **역할 ARN**] | Adobe이 Amazon S3 계정에 대한 액세스 권한을 받는 데 사용할 수 있는 역할 ARN(Amazon 리소스 이름)을 제공해야 합니다. 이렇게 하려면 소스 계정에 대한 IAM 권한 정책을 만들고, 이 정책을 사용자에게 연결한 다음 대상 계정에 대한 역할을 만듭니다. 자세한 내용은 다음을 참조하십시오. [이 AWS 설명서](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-   | [!UICONTROL **사용자 ARN**] | Adobe ARN(Amazon 리소스 이름)은 사용자가 제공합니다. 이 사용자를 생성한 정책에 첨부해야 합니다. |
 
    {style="table-layout:auto"}
 
@@ -90,4 +90,3 @@ ht-degree: 5%
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
 1. 계속 [클라우드 가져오기 위치 구성](/help/components/locations/configure-import-locations.md).
-

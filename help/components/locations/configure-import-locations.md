@@ -3,9 +3,10 @@ description: 분류 데이터를 업로드할 수 있는 클라우드 가져오�
 keywords: Analysis Workspace
 title: 클라우드 가져오기 위치 구성
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '543'
 ht-degree: 8%
 
 ---
@@ -38,7 +39,7 @@ ht-degree: 8%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내의 버킷입니다. Adobe이 제공한 사용자 ARN이 이 버킷에 파일을 업로드할 수 있는 액세스 권한이 있는지 확인하십시오. |
+   | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내의 버킷입니다. |
    | [!UICONTROL **키 접두사**] | 데이터를 저장할 버킷 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예: folder_name/ |
 
    {style="table-layout:auto"}
