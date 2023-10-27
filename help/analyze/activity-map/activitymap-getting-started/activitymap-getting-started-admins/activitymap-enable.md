@@ -5,10 +5,10 @@ uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: 87c2f559990674ee738e1ad57166cf192d58232c
+source-git-commit: d4caf0ddc5cf5402bfef94a64db1c00e1c725658
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 66%
+ht-degree: 74%
 
 ---
 
@@ -19,26 +19,26 @@ Analytics 관리자가 Activity Map 링크 컬렉션 및 사용자 다운로드�
 ## 1단계. 구현 코드 업데이트 {#section_5D1586289DF2489289B1B6C1C80C300D}
 
 Activity Map 모듈은 AppMeasurement.js 및 Web SDK(버전 2.15.0 이상)의 일부입니다.
-AppMeasurement 라이브러리 또는 Web SDK는 인스턴스화될 때 Activity Map 모듈을 로드합니다.
+AppMeasurement 라이브러리 또는 Web SDK는 인스턴스화할 때 Activity Map 모듈을 로드합니다.
 
 >[!NOTE]
 >
->로 업데이트하지 않으면 Activity Map 데이터를 수집할 수 없습니다 **AppMeasurement** **버전 1.6** 이상 또는 **웹 SDK** **버전 2.15.0** 이상
+>을(를) 업데이트하지 않으면 Activity Map 데이터를 수집할 수 없습니다. **AppMeasurement** **버전 1.6** 또는 이상 **웹 SDK** **버전 2.15.0** 또는 그 이상
 
 
-1. AppMeasurement 또는 Web SDK를 사용하는지에 따라 최신 Javascript 라이브러리를 다운로드합니다.
+1. AppMeasurement 또는 웹 SDK 사용 여부에 따라 최신 Javascript 라이브러리를 다운로드합니다.
 
-   - **AppMeasurement** 로 이동하여 코드(AppMeasurement_Javascript-1.6.zip)  **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 코드 관리자]** 및 [구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
+   - **AppMeasurement** 로 이동하여 코드(AppMeasurement_Javascript-1.6.zip)  **[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 코드 관리자]** 및 [구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
 
-      Adobe에서는 Activity Map 모듈을 포함하여 코드에 수행한 변경 작업을 시각화하는 데 도움이 되기 위해 [샘플 구현 코드](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)를 일부 포함했습니다.
+     Adobe에서는 Activity Map 모듈을 포함하여 코드에 수행한 변경 작업을 시각화하는 데 도움이 되기 위해 [샘플 구현 코드](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)를 일부 포함했습니다.
 
-   - **웹 SDK** 코드(alloy.js). 자세한 내용은 [SDK 설치 - 옵션 2: 사전 빌드된 독립형 버전 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR#option-2%3A-installing-the-prebuilt-standalone-version) 추가 정보. 버전 2.15 이상을 사용하는지 확인하십시오.
+   - **웹 SDK** 코드(alloy.js). 다음을 참조하십시오 [SDK 설치 - 옵션 2: 사전 설치된 독립 실행형 버전 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR#option-2%3A-installing-the-prebuilt-standalone-version) 추가 정보. 버전 2.15 이상을 사용해야 합니다.
 
-      자세한 내용은 [링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 링크 추적을 구현하는 방법 및 캡처하여 활동 매핑을 활성화하는 방법에 대한 정보 `region` 클릭한 HTML 요소의 수입니다.
+     다음을 참조하십시오 [링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 를 캡처하여 링크 추적을 구현하는 방법 및 활동 매핑을 활성화하는 방법에 대한 자세한 내용을 보려면 `region` HTML 를 클릭합니다.
 
-      >[!NOTE]
-      >
-      >웹 SDK를 사용하여 링크 추적을 활성화하면 고객이 한 페이지에서 다음 페이지로 이동할 때 링크 이벤트를 보냅니다. 이는 AppMeasurement 작동 방식과 다르며, 이로 인해 Adobe에 전송된 추가 청구 가능한 히트가 발생할 수 있습니다.
+     >[!NOTE]
+     >
+     >Web SDK로 링크 추적을 활성화하면 현재 고객이 하나의 페이지에서 다음 페이지로 이동할 때 링크 이벤트를 전송합니다. 이는 AppMeasurement가 작동하는 방식과 다르며 잠재적으로 Adobe로 전송되는 추가 청구 가능 히트를 초래할 수 있습니다.
 
 
 1. 구현의 유효성을 검사합니다.
