@@ -3,10 +3,10 @@ title: 구현 방법 비교
 description: Adobe Analytics로 데이터를 전송하는 각 방법의 이점을 확인하십시오.
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
-source-git-commit: 61264d9f4ff2f1e961a613b81461efa826bc3d23
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 64%
+ht-degree: 61%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics를 구현하는 각 방법을 서로 비교하는 방법을 확�
 
 >[!CAUTION]
 >
->버전 4 Mobile SDK에 대한 지원은 2021년 8월 31일에 종료되었습니다. 자세한 내용은 [버전 4 Mobile SDK의 지원 종료 FAQ](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)를 참조하십시오.
+>버전 4 Mobile SDK에 대한 지원은 2021년 8월 31일에 종료되었습니다. 다음을 참조하십시오 [Adobe Mobile Services 사용 종료 FAQ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) 추가 정보.
 
 
 | | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [서버 API](/help/implement/aep-edge/server-api/overview.md) |

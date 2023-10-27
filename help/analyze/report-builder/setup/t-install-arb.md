@@ -5,7 +5,7 @@ uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 90441e102ddaf367555e278bda8ca51c7bfeae34
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 60%
@@ -16,7 +16,7 @@ ht-degree: 60%
 
 Report Builder를 설치하려면 다음 작업을 수행합니다.
 
-1. 클릭 **[Adobe Experience Cloud](http://experience.adobe.com/)** > **[!UICONTROL 분석]** > **[!UICONTROL 도구]** > **[!UICONTROL Report Builder]**.
+1. 클릭 **[Adobe Experience Cloud](https://experience.adobe.com/)** > **[!UICONTROL 분석]** > **[!UICONTROL 도구]** > **[!UICONTROL Report Builder]**.
 1. **[!UICONTROL 지금 다운로드]**&#x200B;를 클릭하여 32비트 또는 64비트 버전(설치된 MS Excel 버전에 따라)을 다운로드합니다.
 1. 다운로드한 설치 관리자 패키지를 엽니다.
 1. 설치 마법사를 따라 설치합니다.

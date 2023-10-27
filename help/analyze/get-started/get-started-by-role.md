@@ -2,9 +2,10 @@
 description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Analytics 인터페이스에 대한 정보와 관리자, 분석가, 사용자 및 개발자를 위한 시작 정보가 포함됩니다.
 title: 관리자, 분석가, 최종 사용자 및 개발자용 시작하기
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: ht
-source-wordcount: '1901'
+exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+workflow-type: tm+mt
+source-wordcount: '1891'
 ht-degree: 100%
 
 ---
@@ -69,7 +70,7 @@ Analytics 관리자는 조직의 사용자가 Adobe Analytics를 사용할 수 �
 | 작업 | 용도 | 추가 정보 |
 |---------|----------|---------|
 | 관리자 역할 정의 | Adobe Analytics는 다양한 유형의 관리자를 지원합니다 | [Adobe Analytics의 관리자 역할](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/admin-roles-in-analytics.html?lang=ko) |
-| 권한 정의 | Analytics 관리자는 Admin Console에서 Adobe Analytics, 보고서 세트 도구 및 Analytics 도구에 대해 제품 프로필을 할당해야 합니다. | [Admin Console의 Analytics 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=ko) |
+| 권한 정의 | Analytics 관리자는 Admin Console에서 Adobe Analytics, 보고서 세트 도구 및 Analytics 도구에 대해 제품 프로필을 할당해야 합니다. | [Admin Console의 Analytics 권한](/help/admin/admin-console/permissions/analytics-tools.md) |
 | 보고서 세트 설정 및 회사에 대한 설정 정의 | 보고서 세트는 Adobe Analytics가 보고서를 생성하는 데 사용하는 데이터의 사일로입니다.<p>관리자는 [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ko)를 설정하여 데이터를 더욱 세분화할 수도 있습니다.</p> | <ul><li>[보고서 세트 만들기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=ko)</li><li>[회사 설정 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=ko)</li></ul> |
 | 데이터 가져오기 | Adobe Analytics 데이터 소스를 사용하면 추가적인 온라인 또는 오프라인 데이터를 가져와서 보고에 사용할 수 있습니다. | [데이터 소스 개요](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=ko) |
 | 분류를 사용하여 데이터 분류 | 분류를 사용하면 데이터를 분류하여 변수를 더 잘 활용할 수 있으므로 단일 변수에 더 많은 콘텐츠를 포함할 수 있습니다. | [분류 개요](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko) |

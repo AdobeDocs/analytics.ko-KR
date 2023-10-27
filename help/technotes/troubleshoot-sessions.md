@@ -3,10 +3,10 @@ title: Adobe Analytics의 세션 문제 해결
 description: Adobe Analytics에서 로그아웃되는 것과 관련된 문제를 해결하는 방법을 알아봅니다.
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 97%
 
 ---
 
@@ -34,5 +34,5 @@ Adobe는 Adobe에 요청할 때 인증 헤더를 사용합니다. Edge Secure We
 
 프록시 및 인증 헤더에 대한 정보는 다음에서 찾을 수 있습니다.
 
-* [ProxySG 또는 ASG 어플라이언스에서 프록시 체인 배포에 업스트림 프록시 인증 구성](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [ProxySG 또는 ASG 어플라이언스에서 프록시 체인 배포에 업스트림 프록시 인증 구성](https://techdocs.broadcom.com/us/en/symantec-security-software/web-and-network-security/edge-swg/7-3/authentication_co.html)
 * [ProxySG 어플라이언스 뒤의 서버에 사용자 자격 증명을 전달하는 방법](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)

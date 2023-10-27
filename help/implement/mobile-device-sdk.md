@@ -3,10 +3,10 @@ title: 모바일 디바이스용 Analytics 구현
 description: 사용할 모바일 AppMeasurement 라이브러리를 결정합니다.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: cf55284ec2fd01949107f8b16e25977fd80c758f
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 60%
+ht-degree: 42%
 
 ---
 
@@ -24,5 +24,5 @@ ht-degree: 60%
 
 >[!CAUTION]
 >
->버전 4 Mobile SDK에 대한 지원은 2021년 8월 31일에 종료되었습니다. 자세한 내용은 [버전 4 Mobile SDK의 지원 종료 FAQ](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)를 참조하십시오.
+>버전 4 Mobile SDK에 대한 지원은 2021년 8월 31일에 종료되었습니다. 다음을 참조하십시오 [Adobe Mobile Services 사용 종료 FAQ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) 추가 정보.
 
