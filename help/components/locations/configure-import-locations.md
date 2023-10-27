@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 위치 구성
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '584'
+ht-degree: 7%
 
 ---
 
@@ -88,4 +88,11 @@ ht-degree: 8%
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
-   이제 구성한 계정 및 위치로 데이터를 가져올 수 있습니다.
+   이제 구성한 계정 및 위치에서 데이터를 가져올 수 있습니다.
+
+   데이터는 가져온 후 클라우드 대상에서 삭제되지 않습니다.
+
+   >[!NOTE]
+   >
+   >   이전에 을 사용한 경우 [분류를 가져오는 FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) Adobe Analytics에 FIN 파일을 업로드해야 했습니다. 클라우드 계정에서 가져올 때는 이 FIN 파일이 필요하지 않습니다.
+

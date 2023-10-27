@@ -3,7 +3,7 @@ description: FTP를 통해 데이터 파일을 업로드하는 방법.
 title: FTP 가져오기
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 91%
@@ -18,7 +18,7 @@ ht-degree: 91%
 >
 >FTP는 파일을 공유하는 암호화되지 않은 방법이므로 권장하지 않습니다. 즉, 계정에 사용되는 사용자 이름과 암호뿐만 아니라 파일 내용을 누구든지 가로챌 수 있습니다.
 >
->대신,에 설명된 대로 클라우드 계정을 구성합니다 [클라우드 가져오기 위치 구성](/help/components/locations/configure-import-accounts.md).
+>대신,에 설명된 대로 클라우드 계정을 구성합니다 [클라우드 가져오기 계정 구성](/help/components/locations/configure-import-accounts.md).
 
 FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
 
