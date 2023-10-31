@@ -3,10 +3,10 @@ title: Data Warehouse의 구성 요소 지원
 description: Data Warehouse에서 사용할 수 있는 추가 차원 및 지표와 지원되지 않는 항목을 알아봅니다.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 65%
+source-wordcount: '402'
+ht-degree: 56%
 
 ---
 
@@ -40,17 +40,7 @@ Adobe Analytics에서 다른 기능을 사용할 때는 Data Warehouse에 사용
 
 ### 차원이 지원되지 않음
 
-* 다음을 포함한 일부 시간 기반 차원:
-   * 오전/오후
-   * 날짜(월 기준)
-   * 요일
-   * 일(한 해 기준)
-   * 시간
-   * 분
-   * 월
-   * 사분기
-   * 평일/주말
-   * 년
+* 오전/오후
 * 다음을 포함한 일부 경로 지정 기반 차원:
    * 시작 페이지를 제외한 모든 시작 차원
    * 종료 페이지 및 종료 링크를 제외한 모든 종료 차원
@@ -59,7 +49,6 @@ Adobe Analytics에서 다른 기능을 사용할 때는 Data Warehouse에 사용
    * 이벤트까지 남은 시간
    * 페이지 체류 시간 - 버킷 지정됨
    * 방문당 체류 시간 - 그룹화됨
-   * 방문 깊이
 * 모든 검색 페이지 등급
 * 계층 변수
 * 히트 유형
@@ -78,4 +67,16 @@ Adobe Analytics에서 다른 기능을 사용할 때는 Data Warehouse에 사용
    * 다시 로드
    * 단일 액세스
    * 체류 시간 지표
+* 기여도 지표 (에 설명됨) [&quot;기여도&quot; 지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
+### 다른 방식으로 지원되는 Dimension
+
+다음 시간 기반 차원이 지원됩니다. 그러나 이러한 차원을 사용할 때는 날짜 출력이 표준이 아닙니다. 구체적으로 해당 연도는 1900년까지 상쇄되며, 월은 0을 기준으로 한다.
+
+* 년
+* 분기
+* 월
+* 주
+* 일
+* 시간
+* 분
