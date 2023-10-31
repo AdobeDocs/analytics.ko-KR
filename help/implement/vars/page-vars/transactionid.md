@@ -3,7 +3,7 @@ title: transactionID
 description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 함께 연결합니다.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: ccdeaf341cf9a603da857d9425d3a2196d0f67f4
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 96%
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ## Web SDK를 사용한 거래 ID
 
-거래 ID는 XDM 필드 `commerce.order.transactionID` 아래에서 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
+거래 ID는 XDM 필드 `commerce.order.payments[0].transactionID` 아래에서 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
 
 ## Adobe Analytics 확장을 사용한 거래 ID
 
@@ -34,7 +34,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 거�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 설정 [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics 및 [!UICONTROL 작업 유형] to [!UICONTROL 변수 설정].
+5. 설정 [!UICONTROL 확장] Adobe Analytics 드롭다운 목록 [!UICONTROL 작업 유형] 끝 [!UICONTROL 변수 설정].
 6. [!UICONTROL 거래 ID] 섹션을 찾습니다.
 
 거래 ID를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
@@ -53,6 +53,6 @@ s.transactionID = "ABC123";
 s.transactionID = "ABC123,XYZ456";
 ```
 
->[!NOTE]
+>[!TIP]
 >
 >이 변수를 사용하여 여러 오프라인 채널을 통합하는 경우 다른 채널이 거래 ID와 겹치지 않도록 하십시오. 예를 들어 `1234`라는 콜 센터 거래 ID 값과 `1234`라는 영업 리드 거래 ID 값이 있는 경우, 이 값들이 충돌하여 예상치 않은 결과가 발생할 수 있습니다. 거래 ID에 각 오프라인 채널에 대해 고유한 형식이 포함되어 있는지 확인하고 필요한 경우 구분해야 합니다. 예를 들어 Data Sources와 AppMeasurement 모두에서 콜 센터 거래 ID를 `call_1234`로 설정하고 영업 리드 거래 ID를 `lead_1234`로 설정합니다.
