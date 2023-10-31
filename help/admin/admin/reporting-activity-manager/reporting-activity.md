@@ -4,9 +4,9 @@ title: 활동 관리자 보고
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1921'
 ht-degree: 16%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 16%
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. 각 보고서 세트에 대한 사용률 정보를 봅니다. 열 머리글을 선택하여 해당 열을 기준으로 테이블을 정렬할 수 있습니다.
+1. 각 보고서 세트에 대한 사용률 정보를 봅니다. 표에 표시된 데이터는 페이지가 마지막으로 로드되었을 때 보고서 세트에 대한 보고 활동을 나타냅니다.
 
    다음 열을 사용할 수 있습니다.
 
@@ -46,7 +46,7 @@ ht-degree: 16%
    | **[!UICONTROL 용량 활용성]** | 실시간으로 사용 중인 보고서 세트의 보고 용량의 비율입니다. <p>**참고** 사용 용량이 100%라고 해서 보고 요청 취소를 바로 시작해야 하는 것은 아닙니다. 평균 대기 시간이 적절하다면 100% 사용 용량은 적절할 수 있습니다. 반면에 100% 사용 용량은 큐에 있는 요청 수가 증가하는 경우에도 문제를 시사할 수 있습니다.</p> |
    | **[!UICONTROL 대기 중인 요청]** | 처리 대기 중인 요청 수입니다. <!-- ??? --> |
    | **[!UICONTROL 대기열 대기 시간]** | 요청 처리를 시작하기 전 평균 대기 시간입니다. <!-- ???? --> |
-   | **[!UICONTROL 상태]** | 가능한 상태는 다음과 같습니다. <ul><li>[!UICONTROL **활성**] (파란색): 보고서가 보고서 세트에서 실행되었으며 활동에 대해 모니터링 중입니다.</li><li>[!UICONTROL **비활성**] (회색): 보고서 세트에서 실행된 보고서가 없습니다. 이 상태는 보고서 세트를 처음 만들 때만 표시됩니다.</li></ul> |
+   | **[!UICONTROL 상태]** | 가능한 상태는 다음과 같습니다. <ul><li>[!UICONTROL **활성**] (파란색): 보고서가 지난 2시간 동안 보고서 세트에서 실행되었습니다. 표에 표시된 데이터는 페이지가 마지막으로 로드되었을 때 보고서 세트에 대한 보고 용량을 나타냅니다.</li><li>[!UICONTROL **비활성**] (회색): 지난 2시간 동안 보고서 세트에서 실행된 보고서가 없으므로 보고서 세트에 대한 데이터가 표시되지 않습니다.</li></ul> |
 
    {style="table-layout:auto"}
 
