@@ -4,7 +4,7 @@ description: 구현에서 ClickMap을 활성화하거나 비활성화합니다.
 keywords: clickmap 비활성화
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
-source-git-commit: a3df69f7de45ba3694e1212e5c16a10bb4602cd6
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 31%
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 >[!IMPORTANT]
 >
->이 변수는 사용이 중단되었습니다. 다음을 참조하십시오 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 대신,
+>이 변수는 사용이 중단되었습니다. 다음을 참조하십시오 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) 대신,
 
 ClickMap은 방문자가 클릭하는 위치와 클릭하는 내용에 대한 데이터를 수집하는 Adobe Analytics의 폐기된 기능입니다. 기능이 (으)로 대체되었습니다. [Activity Map](/help/analyze/activity-map/activity-map.md).
 

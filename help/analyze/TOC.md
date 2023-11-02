@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
-workflow-type: ht
-source-wordcount: '1105'
+source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+workflow-type: tm+mt
+source-wordcount: '1094'
 ht-degree: 100%
 
 ---
@@ -280,12 +280,9 @@ ht-degree: 100%
 + Activity Map {#activity-map}
    + [Activity Map 개요](activity-map/activity-map.md)
    + 시작하기 {#getting-started}
-      + 관리자용 시작하기 {#get-started-admins}
-         + [Activity Map 활성화](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Activity Map 구현](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + 사용자용 시작하기 {#get-started-users}
-         + [Activity Map 브라우저 플러그인 설치](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Activity Map 실행](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+      + [Activity Map 활성화](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Activity Map 브라우저 플러그인 설치](activity-map/activitymap-getting-started/activitymap-install.md)
+      + [Activity Map 실행](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [강력한 링크 추적](activity-map/lnk-tracking-overview.md)
    + 링크 추적 {#link-tracking}
       + [링크 추적 방식](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
