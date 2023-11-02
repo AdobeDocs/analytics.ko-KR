@@ -3,10 +3,10 @@ title: 운영 체제
 description: 방문자의 운영 체제입니다.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 24972ec79cb42224a97dda6b073b517b301113ba
+source-git-commit: 9c3e65392d6e5929ce1ecefbc460c1fd5576aed8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 21%
+source-wordcount: '171'
+ht-degree: 45%
 
 ---
 
@@ -23,33 +23,8 @@ ht-degree: 21%
 
 ## 차원 항목
 
-차원 항목에는 방문자가 사용하는 운영 체제가 포함됩니다. 예로는 `"Windows 10"`, `"OS X 10.15"` 및 `"Android 9"`가 있습니다.
+차원 항목에는 방문자가 사용하는 운영 체제가 포함됩니다. 예로는 `"Windows 10"`, `"OS X 10.15.7"` 및 `"Android 9"`가 있습니다.
 
-## 레이블 지정 및 정의 변경
+## 정확한 OS 버전 추적
 
-다음은 사용자 에이전트 및 Adobe Analytics 보고에서 운영 체제가 표시되는 방식과 관련된 특정 문제 목록입니다.
-
-### 운영 체제의 세부 기간 변경
-
-2023년 3월 2일에 운영 체제에 더 자세한 내용을 포함하도록 보고를 업데이트했습니다. 이 날짜 이후에는 운영 체제 패치 버전이 포함됩니다. 따라서 예를 들어 OS X 10.15.7을 사용하는 사용자는 3월 2일 이전에 &quot;OS X 10.15&quot;로 표시되었을 것입니다. 3월 2일 이후에는 &quot;OS X 10.15.7&quot;로 표시됩니다.
-
-### Apple 운영 체제에 대한 명명 규칙 변경:
-
-버전 11부터는 OS X 대신 MacOS을 사용하여 Apple 운영 체제를 참조합니다.
-
-예:
-
-* &quot;OS X 10.15&quot;(UA 문자열의 표현보다 버전 10.15.7에 대한 아래 참고 사항 참조)
-* &quot;MacOS 11.0.0
-
-### 버전 10.15.7 이후의 사용자 에이전트에서 Mac OS 버전이 올바르지 않음 
-
-Apple 컴퓨터의 사용자 에이전트는 최신 버전의 경우에도 OS 버전을 10.15.7로 표시합니다. 이는 UA에서 버전 11을 포함하는 것이 일부 웹 사이트에 문제를 일으켰기 때문에 수행되었습니다. 다음에 대해 true입니다. *모든 브라우저* 및 는 Chromium 브라우저에서 Google의 사용자 에이전트 &#39;중단&#39;과 관련이 없습니다.
-
-클라이언트 힌트에는 플랫폼 버전 힌트에 올바른 버전이 포함되어 있습니다(&quot;Sec-CH-UA-Platform-Version&quot;). 이는 높은 엔트로피 힌트이므로 Adobe에 의해 자동으로 수집되지 않습니다. 다음을 참조하십시오. [Adobe Analytics 힌트 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 높은 엔트로피 힌트를 수집하는 방법에 대한 자세한 정보입니다.
-
-### Windows 11로 시작하는 사용자 에이전트에서 Windows 버전이 올바르지 않음
-
-2023년 1월 현재 모든 브라우저의 사용자 에이전트는 Windows 11을 Windows 10으로 표시합니다.
-
-클라이언트 힌트에는 플랫폼 버전 힌트에 올바른 버전이 포함되어 있습니다(&quot;Sec-CH-UA-Platform-Version&quot;). 이는 높은 엔트로피 힌트이므로 Adobe에 의해 자동으로 수집되지 않습니다. 다음을 참조하십시오. [Adobe Analytics 힌트 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 높은 엔트로피 힌트를 수집하는 방법에 대한 자세한 정보입니다.
+업계에서 클라이언트 힌트로 전환함에 따라 일부 운영 체제 버전이 잠재적으로 혼동될 수 있습니다. 예를 들어 높은 엔트로피 클라이언트 힌트를 수집하지 않는 경우 &quot;Windows 10&quot; 및 &quot;Windows 11&quot;을 모두 &quot;Windows 10&quot; 아래에 그룹화할 수 있습니다. 다음을 참조하십시오 [클라이언트 힌트](/help/technotes/client-hints.md) 자세한 내용은 Technotes 안내서를 참조하십시오.
