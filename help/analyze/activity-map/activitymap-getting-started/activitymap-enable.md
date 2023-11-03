@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 43371b5e7e7e251f0d7eeb41a7215b8c1aa1535f
+source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '465'
 ht-degree: 40%
 
 ---
@@ -19,19 +19,17 @@ Analytics 관리자가 Activity Map 링크 컬렉션 및 사용자 다운로드�
 
 ## 1단계. Activity Map 활성화 {#update_code}
 
-Activity Map 모듈은 AppMeasurement.js, Adobe Experience Platform 태그 및 웹 SDK(alloy.js)의 일부입니다. 을(를) 업데이트하지 않으면 Activity Map 데이터를 수집할 수 없습니다. **Adobe Analytics 태그 확장 v1.90** 또는 그 이상 **AppMeasurement 버전 1.6** 또는 이상 **Web SDK 버전 2.15.0** 또는 그 이상
+Activity Map 모듈은 AppMeasurement.js, Adobe Experience Platform 태그 및 웹 SDK(alloy.js)의 일부입니다. 을(를) 업데이트하지 않으면 Activity Map 데이터를 수집할 수 없습니다. **Web SDK 버전 2.15.0** 또는 그 이상 **Adobe Analytics 태그 확장 v1.90** 또는 그 이상 **AppMeasurement 버전 1.6** 또는 그 이상
 
-### Adobe Experience Platform 태그 {#tags}
-
-Adobe Experience Platform 태그에서 Analytics를 구현하는 속성으로 이동합니다. 다음에서 [!UICONTROL 확장 설치] 대화 상자, 선택 **[!UICONTROL Activity Map 사용]**.
-
-![](assets/aa_extension.png)
-
-### 웹 SDK 코드 {#web_sdk}
++++Web SDK (태그 확장)
 
 Adobe Experience Platform 태그에서 Analytics를 구현하는 속성으로 이동합니다. 아래 [!UICONTROL 확장] -> [!UICONTROL Adobe Experience Platform 웹 SDK], 선택 **[!UICONTROL 클릭 데이터 수집 활성화]** 아래에 강조 표시된 대로. 그런 다음 변경 사항을 사용하여 라이브러리를 빌드하고 라이브러리를 프로덕션에 게시합니다.
 
 ![](assets/web_sdk.png)
+
++++
+
++++수동 웹 SDK 구현
 
 다음을 참조하십시오 [링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 를 캡처하여 링크 추적을 구현하는 방법 및 활동 매핑을 활성화하는 방법에 대한 자세한 내용을 보려면 `region` HTML 를 클릭합니다.
 
@@ -39,10 +37,23 @@ Adobe Experience Platform 태그에서 Analytics를 구현하는 속성으로 �
 >
 >Web SDK로 링크 추적을 활성화하면 현재 고객이 하나의 페이지에서 다음 페이지로 이동할 때 링크 이벤트를 전송합니다. 이는 AppMeasurement가 작동하는 방식과 다르며 잠재적으로 Adobe로 전송되는 추가 청구 가능 히트를 초래할 수 있습니다.
 
-### AppMeasurement {#appmeasurement}
++++
 
-AppMeasurement 또는 웹 SDK 사용 여부에 따라 최신 Javascript 라이브러리를 다운로드합니다.
-다음으로 이동 **[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 코드 관리자]** 및 [구현](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
++++Analytics 확장 프로그램 (Adobe Experience Platform 태그)
+
+Adobe Experience Platform 태그에서 Analytics를 구현하는 속성으로 이동합니다. 다음에서 [!UICONTROL 확장 설치] 대화 상자, 선택 **[!UICONTROL Activity Map 사용]**.
+
+![](assets/aa_extension.png)
+
++++
+
++++AppMeasurement
+
+1. AppMeasurement을 위한 최신 Javascript 라이브러리를 다운로드합니다.
+다음으로 이동 **[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 코드 관리자]**.
+1. 다음을 통해 구현 [이 지침](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
+
++++
 
 ## 2단계. Activity Map 보고서 활성화 {#enable}
 
