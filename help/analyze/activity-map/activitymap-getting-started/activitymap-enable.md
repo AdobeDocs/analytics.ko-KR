@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
+source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ Analytics 관리자가 Activity Map 링크 컬렉션 및 사용자 다운로드�
 
 Activity Map 모듈은 AppMeasurement.js, Adobe Experience Platform 태그 및 웹 SDK(alloy.js)의 일부입니다. 을(를) 업데이트하지 않으면 Activity Map 데이터를 수집할 수 없습니다. **Web SDK 버전 2.15.0** 또는 그 이상 **Adobe Analytics 태그 확장 v1.90** 또는 그 이상 **AppMeasurement 버전 1.6** 또는 그 이상
 
-+++Web SDK (태그 확장)
++++Web SDK (Adobe Experience Platform 태그 확장)
 
 Adobe Experience Platform 태그에서 Analytics를 구현하는 속성으로 이동합니다. 아래 [!UICONTROL 확장] -> [!UICONTROL Adobe Experience Platform 웹 SDK], 선택 **[!UICONTROL 클릭 데이터 수집 활성화]** 아래에 강조 표시된 대로. 그런 다음 변경 사항을 사용하여 라이브러리를 빌드하고 라이브러리를 프로덕션에 게시합니다.
 
@@ -57,7 +57,7 @@ Adobe Experience Platform 태그에서 Analytics를 구현하는 속성으로 �
 
 ## 2단계. Activity Map 보고서 활성화 {#enable}
 
-먼저, 보고서 세트 수준에서 Activity Map 보고서를 활성화해야 합니다.
+보고서 세트 수준에서 Activity Map 보고서를 활성화해야 합니다.
 
 1. Adobe Analytics에 로그인하고 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > 보고서 세트 선택 > **[!UICONTROL 설정 편집]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 보고]**&#x200B;로 이동합니다.
 
