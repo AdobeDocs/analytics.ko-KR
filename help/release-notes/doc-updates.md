@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5296'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 | --- | --- |
 | **2023년 10월** | |
 | 보고 활동 관리자에 로그 정보가 추가되었습니다. | 보고 활동 관리자에서 [보고 활동의 취소 및 이후 제한 사항](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)이 [로그](/help/admin/admin/logs.md)에 캡처된다는 정보를 추가했습니다. |
-| Data Warehouse 구성 요소 지원에 대한 업데이트 | 일부 구성 요소에 대한 가용성을 추가하고 다른 구성 요소에 대한 Data Warehouse을 제거했습니다. 이러한 변경 사항은에 반영됩니다. [Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md). <ul><li>방문 깊이 차원에 대한 지원이 추가되었습니다(지원되지 않는 차원 목록에서 방문 깊이가 제거됨).</li><li>기여도 지표에 대한 지원이 제거되었습니다(지원되지 않는 지표 목록에 기여도 지표가 추가됨).</li><li>연도, 분기, 월, 주, 일, 시간 및 분(지원되지 않는 차원 목록에서 이러한 차원을 제거함)의 시간 기반 차원에 대한 지원이 추가되었습니다. <p>이전에는 세부기간을 선택한 경우 Data Warehouse에서 자유 형식 테이블의 첫 번째 열에서만 이러한 차원을 지원했습니다. 이제 이러한 차원이 항상 지원됩니다.</p><p>그러나 이러한 차원을 사용할 때는 날짜 출력이 표준이 아닙니다. 연도는 1900년까지 상계되고 월은 0을 기준으로 합니다.</li></ul> |
+| Data Warehouse 구성 요소 지원 업데이트 | Data Warehouse의 일부 구성 요소에 대한 가용성을 추가하고 다른 구성 요소의 가용성을 제거했습니다. 이들 변경 사항은 [Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md)에 반영됩니다. <ul><li>방문 깊이 차원에 대한 지원 추가됨 (지원되지 않는 차원 목록에서 방문 깊이가 제거됨)</li><li>참여도 지표에 대한 지원 제거됨 (지원되지 않는 지표 목록에 참여도 지표 추가됨)</li><li>연도, 분기, 월, 주, 일, 시간 및 분과 같은 시간 기반 차원에 대한 지원 추가됨 (지원되지 않는 차원 목록에서 이들 차원 제거됨) <p>이전에는 Data Warehouse가 세부 기간이 선택된 경우 자유 형식 테이블의 첫 번째 열에서만 이들 차원을 지원했습니다. 이제 이들 차원이 항상 지원됩니다.</p><p>단, 이들 차원을 사용할 때 날짜 출력은 표준이 아닙니다. 연도는 1900으로 오프셋되고 월은 0부터 시작합니다.</li></ul> |
 | **2023년 9월** | |
 | 미디어 재생 소요 시간 패널에 대한 문서의 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 해당 폴더의 내용을 단일 문서([미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))로 결합했습니다. <p>이 변경 사항으로 다른 패널의 설명서와 함께 더 일관된 형태를 갖추게 되었습니다.</p> |
 | 시작 콘텐츠 개선 사항 | 관리자, 분석가, 최종 사용자 및 개발자를 위한 주요 시작 작업 및 리소스에 대해 간략하게 설명하는 정보가 추가되었습니다. 이제 다음 문서를 사용할 수 있습니다. <ul><li>[시작하기 (역할별)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics 인터페이스 이해](/help/analyze/get-started/analytics-interface.md)<li>[사용 사례](/help/analyze/get-started/use-cases.md)</li></ul> |
@@ -148,7 +148,7 @@ ht-degree: 97%
 | 2021년 8월 18일 | [속성 모범 사례](/help/analyze/analysis-workspace/attribution/best-practices.md)에 대한 새 주제 |
 | 2021년 8월 5일 | [반복 인스턴스 계산](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)에 대한 새 주제 |
 | 2021년 8월 5일 | [템플릿](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html), [브라우저 가져오기](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html) 및 [브라우저 내보내기](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html)에 대한 분류 설명서를 업데이트하여 새 분류 아키텍처에 대해 활성화된 보고서 세트에 사용할 수 없는 옵션을 나타냅니다. |
-| 2021년 8월 2일 | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)의 브랜드 변경을 반영하도록 여러 페이지 업데이트 |
+| 2021년 8월 2일 | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)의 리브랜딩을 반영하도록 여러 페이지 업데이트 |
 | **2021년 7월** |  |
 | 2021년 7월 23일 | [머천다이징 eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html)에 대한 새로운 심층 토론 |
 | 2021년 7월 15일 | 새 [Adobe Analytics 랜딩 페이지](/help/analyze/landing.md)에 새 설명서 추가 |
