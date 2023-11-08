@@ -5,9 +5,9 @@ user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
 source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1096'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 99%
 + Activity Map {#activity-map}
    + [Activity Map 개요](activity-map/activity-map.md)
    + 시작하기 {#getting-started}
-      + [Activity Map 활성화 및 활성화](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Activity Map 활성화](activity-map/activitymap-getting-started/activitymap-enable.md)
       + [Activity Map 브라우저 플러그인 설치](activity-map/activitymap-getting-started/activitymap-install.md)
       + [Activity Map 실행](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [강력한 링크 추적](activity-map/lnk-tracking-overview.md)
