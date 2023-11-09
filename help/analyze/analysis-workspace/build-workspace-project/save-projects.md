@@ -4,10 +4,10 @@ title: 프로젝트 저장
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
+source-git-commit: a6f49d0c66ff92eff850a330c35e4979275e3c92
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '728'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Analysis Workspace에서 프로젝트가 수동으로 저장되면 다양한 옵
    | **[!UICONTROL 저장]** | 프로젝트에 변경 사항을 저장합니다. 프로젝트가 공유되면 프로젝트의 수신자도 변경 내용을 보게 됩니다. 프로젝트를 처음 저장할 때 프로젝트에 이름, 설명(선택 사항) 및 태그를 추가(선택 사항)하라는 메시지가 표시됩니다. |
    | **[!UICONTROL 메모와 함께 저장]** | 프로제트를 저장하기 전에 프로젝트의 변경 내용에 대한 메모를 추가합니다. 메모는 프로젝트 버전과 함께 저장되고 [!UICONTROL 프로젝트] > [!UICONTROL 이전 버전 열기]에서 모든 편집자들이 사용할 수 있습니다. |
    | **[!UICONTROL 다른 이름으로 저장]** | 프로젝트의 복제본을 만듭니다. 원본 프로젝트는 영향을 받지 않습니다. |
-   | **[!UICONTROL 템플릿으로 저장]** | 프로젝트를 **[!UICONTROL 프로젝트 > 새로 만들기]** 아래에서 조직에서 사용할 수 있게 되는 [사용자 정의 템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR)으로 저장합니다. |
+   | **[!UICONTROL 회사 보고서로 저장]** | 프로젝트를 다음으로 저장 [회사 보고서](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR) 다음 기간 내에 조직에서 사용할 수 있게 됩니다. **[!UICONTROL 프로젝트 > 새로 만들기]** |
 
 ## 자동 저장 {#Autosave}
 
@@ -38,9 +38,9 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 
 * **새 프로젝트:** 새 프로젝트가 자동으로 저장되더라도 처음에는 새 프로젝트를 각각 수동으로 저장해야 합니다. 다른 프로젝트로 전환하거나 브라우저 탭을 닫는 등의 경우 Analysis Workspace에 새 프로젝트를 수동으로 저장하라는 메시지가 표시됩니다.
 
-   어떤 이유로든 새로 만들어진 프로젝트를 수동으로 저장하기 전에 예기치 않게 액세스할 수 없을 경우 프로젝트의 복구 버전이 `Recovered Projects (Last 7 Days)` 폴더의 Analysis Workspace 랜딩 페이지에 저장됩니다. 복구된 프로젝트를 복원하고 원하는 위치에 수동으로 저장해야 합니다.
+  어떤 이유로든 새로 만들어진 프로젝트를 수동으로 저장하기 전에 예기치 않게 액세스할 수 없을 경우 프로젝트의 복구 버전이 `Recovered Projects (Last 7 Days)` 폴더의 Analysis Workspace 랜딩 페이지에 저장됩니다. 복구된 프로젝트를 복원하고 원하는 위치에 수동으로 저장해야 합니다.
 
-   복구된 프로젝트를 복원하는 경우:
+  복구된 프로젝트를 복원하는 경우:
 
    1. Analysis Workspace 랜딩의 [!UICONTROL **복구된 프로젝트**] 폴더로 이동합니다.
 
@@ -50,7 +50,7 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 
 * **기존 프로젝트:** 어떤 이유로든 아직 자동으로 저장되지 않은 변경 사항이 포함된 프로젝트를 종료할 경우 Analysis Workspace에 변경 사항을 저장하거나 경고 메시지를 입력하라는 메시지가 표시됩니다.
 
-   다음은 몇 가지 일반적인 시나리오입니다.
+  다음은 몇 가지 일반적인 시나리오입니다.
 
 ### 다른 Analysis 프로젝트 열기
 

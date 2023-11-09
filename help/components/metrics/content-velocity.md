@@ -3,19 +3,59 @@ title: 콘텐츠 속도
 description: 콘텐츠 속도는 콘텐츠가 다운스트림 콘텐츠에 미치는 영향을 측정합니다.
 feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 26e166e065df90cb327fe1106542e17831069141
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 66%
+source-wordcount: '290'
+ht-degree: 19%
 
 ---
 
 # 콘텐츠 속도
 
-&#39;컨텐츠 속도&#39;는 계산된 속도입니다. [지표](overview.md) 차원이 다운스트림 콘텐츠에 미치는 영향을 측정하는 데 도움이 되는 템플릿 이 템플릿은 `Page views (Visit participation) divided by Visits` 공식을 사용합니다.
+콘텐츠 속도 계산된 지표는 차원 (일반적으로) 측정 방법을 측정하는 데 도움이 됩니다 [[!UICONTROL 페이지]](/help/components/dimensions/page.md))은 웹 사이트 또는 앱에서 시간을 보내는 사용자에게 기여합니다.
+
+이 지표는 다음을 사용합니다. [기여도 속성](/help/analyze/analysis-workspace/attribution/models.md) 다음에 있음 [페이지 보기 수](page-views.md) 지표를 계산의 일부로 사용합니다. 방문 참여에 따라 페이지가 조회될 때마다 동일한 방문 동안 이전에 조회된 모든 페이지도 페이지 조회수에 대한 크레딧을 받습니다. 일반적으로 이 공식은 방문 중 페이지가 조기에 히트될수록 더 많은 크레딧을 받음을 의미합니다. (참조: [페이지 조회수(기여도) | 방문) 또는 &#39;방문 기여도&#39;](#page-views-participation--visit-or-visit-participation) 을 참조하십시오.)
+
+## 계산
+
+&#39;컨텐츠 속도&#39;는 기본 계산됨 [지표](overview.md) 그리고 공식을 사용합니다 `Page views (Visit participation)` 다음으로 나눔 `Visits`.
 
 ![](assets/cont-velo-1.png)
+
+## 일반적인 사용
 
 [!UICONTROL 콘텐츠 속도]는 [!UICONTROL 페이지 보기 수], [!UICONTROL 방문 횟수] 및 [!UICONTROL 바운스 비율]과 같은 다른 주요 지표와 함께 흔히 콘텐츠 분석에 사용됩니다.
 
 ![](assets/cont-velo-3.png)
+
+## 예
+
+다음 예제에서는 컨텐츠 속도 의 두 부분을 분류합니다. &#39;페이지 보기 수 (기여도 | 방문)&#39; 및 &#39;방문&#39;.
+
+### 페이지 조회수(기여도) | 방문) 또는 &#39;방문 기여도&#39;
+
+방문 참여가 속성에 미치는 영향의 다음 예를 생각해 보십시오.
+
+웹 사이트에서 사용자는 다음 페이지를 순서대로 방문합니다.
+
+* 페이지 A
+* 페이지 B
+* 페이지 C
+* 페이지 D
+
+위의 예에서 페이지 A는 4개의 히트에 대해, 페이지 B는 3개의 히트에 대해, 페이지 C는 2개의 히트에 대해, 페이지 D는 1개의 히트에 대해 크레딧을 받습니다.
+
+다음 예제는 동일한 원칙을 보여 주지만 일부 페이지는 두 번 이상 방문됩니다.
+
+* 페이지 A
+* 페이지 B
+* 페이지 C
+* 페이지 B
+* 페이지 D
+* 페이지 A
+
+위의 예에서 페이지 A는 7개 히트, 페이지 B는 8개 히트, 페이지 C는 4개 히트, 페이지 D는 2개 히트에 대한 크레딧을 받습니다.
+
+### 방문 횟수
+
+방문 참여도가 계산된 후에 결과는 방문 횟수로 나눠집니다.
