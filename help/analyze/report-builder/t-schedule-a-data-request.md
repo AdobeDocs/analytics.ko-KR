@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '985'
 ht-degree: 96%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 96%
 | 사용자 정의 | 날짜 형식을 사용자 정의할 수 있습니다. |
 | 종료 | 사용할 수 있을 경우 Outlook 주소록을 표시합니다. |
 | 수신인: 이메일 | 통합 문서의 이메일 수신자. |
-| 수신인: 게시 목록 | 이 회사용의 사용 가능한 배포 목록의 목록을 표시합니다. |
 | Power BI | 자세한 내용은 [Microsoft Power BI에 통합 문서 게시](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md)를 참조하십시오. |
 | 제목 | 사용자 정의 설명. |
 | 예약 | 통합 문서를 보낼 시기를 지정할 수 있습니다. (즉시, 시간별, 일별, 주별, 월별 및 연도별.) |
