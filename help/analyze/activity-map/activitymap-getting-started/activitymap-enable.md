@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
+source-git-commit: ae1c2ff1987e2fe5d147bfe74874b53492d48b5e
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -40,7 +40,7 @@ Developer Console 네트워크 탭을 사용하여 호출 상호 작용:
 
 Adobe Experience Platform Debugger:
 
-1. 다운로드 및 설치 [Adobe Experience Platform 디버거](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. 다운로드 및 설치 [Adobe Experience Platform 디버거](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. 다음으로 이동 [!UICONTROL 로그] > [!UICONTROL Edge] > [!UICONTROL Edge에 연결].
 
    ![](assets/validation2.jpg)
