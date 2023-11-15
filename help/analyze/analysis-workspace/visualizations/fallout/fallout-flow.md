@@ -4,9 +4,9 @@ title: 폴아웃 개요
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 다음은 폴아웃 시각화에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
 
 폴아웃 시각화 요소를 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -36,28 +36,3 @@ ht-degree: 100%
 * 사이트의 특정 프로세스를 통한 전환율 (예: 구매 또는 등록 프로세스)
 * 일반적이고 폭 넓은 범위의 트래픽 플로우: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
 * 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인정보 처리방침을 본 방문자 중 제품을 구매한 비율을 보여 줍니다.
-
-## 플로우 및 폴아웃을 위한 기초로서의 세그먼테이션 {#section_654F37A398C24DDDB1552A543EE29AA9}
-
-Analysis Workspace 패널에 적용된 세그먼트는 Reports &amp; Analytics의 폴아웃 및 플로우 보고서에 적용되는 세그먼트와 약간 다르게 작동합니다. 대부분의 경우 이 세그먼트들은 정확히 동일한 결과를 제공하지만 주요 차이점은 Reports &amp; Analytics의 경우 시퀀스의 각 단계에서 세그먼트를 적용한다는 것입니다. 이로 인해 결과가 다소 다를 수 있습니다.
-
-다음 두 단계를 사용하여 폴아웃의 예를 살펴보겠습니다.
-
-![](assets/fallout_segments1.png)
-
-그런 다음 작업 영역 패널 수준에서 세그먼트를 적용하는 경우 세그먼트는 다음과 같이 폴아웃과 결합합니다.
-
-![](assets/fallout_seg.png)
-
-그와 대조적으로 Reports &amp; Analytics의 경우 세그먼트를 계산할 때 세그먼트는 다음과 같이 결합됩니다.
-
-![](assets/fallout_segments3.png)
-
-Reports &amp; Analytics은 세그먼트를 각 단계와 결합합니다. 컨테이너가 폴아웃과 동일한 수준에 있으면 (예: 방문 또는 방문자 수준) 방문 또는 방문자 수가 일치하게 됩니다.
-
-그러나 패널에 적용된 세그먼트가 폴아웃의 수준보다 작으면 (예: 히트 수준) 세그먼트는 보고서에서 결합된 방식으로 인해 다른 결과를 보여 줍니다. 다시 말하자면, 대부분의 경우 Analysis Workspace의 수치는 Reports &amp; Analytics의 수치와 일치합니다. 이 숫자들은 아래의 모든 경우가 참인 경우에만 일치하지 **않습니다**.
-
-* 세그먼트가 폴아웃과 같은 수준에 있지 않습니다.
-* 방문/방문자에 여러 값이 있는 세그먼트에는 변수가 있습니다.
-
-드물지만 Analysis Workspace에서 세그먼트를 폴아웃/플로우 적용하는 Reports &amp; Analytics 방식을 일치시켜야 할 경우에는 세그먼트를 Workspace의 각 폴아웃 단계에 놓기만 하면 동일한 숫자가 생성됩니다.
