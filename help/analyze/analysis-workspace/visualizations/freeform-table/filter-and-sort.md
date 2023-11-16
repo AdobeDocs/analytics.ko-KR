@@ -4,9 +4,9 @@ title: 자유 형식 테이블 필터링 및 정렬
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '920'
 ht-degree: 68%
 
 ---
@@ -32,7 +32,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 - 표 필터
 - 세그먼테이션
 
-각 메서드가 어떻게 영향을 주는지 반드시 읽어 보십시오 [자유 형식 테이블 합계](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+각 메서드가 어떻게 영향을 주는지 반드시 읽어 보십시오 [자유 형식 테이블 합계](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### 테이블에서 특정 행을 빠르게 제외
 
@@ -89,7 +89,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 ### 세그먼테이션
 
-다음 참조: [세그먼테이션 설명서](https://docs.adobe.com/help/ko-KR/analytics/components/segmentation/seg-home.html) 을 참조하십시오.
+다음 참조: [세그먼테이션 설명서](/help/components/segmentation/seg-home.md) 을 참조하십시오.
 
 ## 테이블 정렬
 
