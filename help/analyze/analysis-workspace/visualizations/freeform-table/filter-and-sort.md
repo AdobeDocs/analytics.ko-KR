@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspace에서 테이블을 필터링하고 정렬하는 방법에 대해 설명하는 설명서입니다.
-title: 테이블 필터링 및 정렬
+title: 자유 형식 테이블 필터링 및 정렬
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 76%
+source-wordcount: '938'
+ht-degree: 68%
 
 ---
 
-# 테이블 필터링 및 정렬
+# 자유 형식 테이블 필터링 및 정렬
 
 Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 위한 기반입니다. 그에 따라 자유 형식 테이블은 수천 개의 정보 행을 포함할 수 있습니다. 데이터를 필터링하고 정렬하는 것은 가장 중요한 정보를 효율적으로 표시하는 데 필수적인 부분이 될 수 있습니다.
 
@@ -22,6 +22,17 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 >[!NOTE]
 >
 > 이 섹션에 설명된 대로 동적 차원 항목만 필터링할 수 있습니다. 정적 차원 항목은 필터링할 수 없습니다. 자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+## 자유 형식 테이블 행 필터링
+
+여러 메서드를 사용하여 자유 형식 테이블에서 행을 필터링할 수 있습니다. 
+
+- 행에서 &#39;X&#39;를 클릭합니다
+- 마우스 오른쪽 단추 클릭 > 선택한 삭제된 행
+- 표 필터
+- 세그먼테이션
+
+각 메서드가 어떻게 영향을 주는지 반드시 읽어 보십시오 [자유 형식 테이블 합계](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
 
 ### 테이블에서 특정 행을 빠르게 제외
 
@@ -35,7 +46,14 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 1. 제외할 행을 마우스로 가리킨 다음 x 아이콘을 선택합니다.
 
-   범위 행을 선택하려면 Shift 키를 누른 채 선택하거나 여러 행을 선택하려면 Command 키(Mac) 또는 Ctrl 키(Windows)를 누른 채 선택합니다.
+   Shift 키를 누른 상태로 행 범위를 선택하거나 Command 키(Mac) 또는 Ctrl 키(Windows)를 누른 상태로 여러 행을 선택합니다.
+
+### 마우스 오른쪽 단추 클릭 > 선택한 행 삭제
+
+1. 1개 이상의 행을 선택합니다.
+1. 마우스 오른쪽 단추를 클릭하고 선택 **[!UICONTROL 선택한 행 삭제]**.
+
+   이 작업을 수행하면 테이블에서 행이 제거되고 테이블 필터가 적용됩니다.
 
 ### 표에 단순 또는 고급 필터 적용
 
@@ -69,9 +87,13 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
    테이블에 필터가 적용되면 **필터** 아이콘(![파란색 필터 아이콘 필터링된 테이블](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg))이 파란색으로 바뀝니다.
 
+### 세그먼테이션
+
+다음 참조: [세그먼테이션 설명서](https://docs.adobe.com/help/ko-KR/analytics/components/segmentation/seg-home.html) 을 참조하십시오.
+
 ## 테이블 정렬
 
-Analysis Workspace의 지표 열을 기준으로 자유 형식 테이블의 데이터를 정렬할 수 있습니다.
+지표가 되는 Analysis Workspace의 열을 기준으로 자유 형식 테이블의 데이터를 정렬할 수 있습니다.
 
 아래쪽 화살표 아이콘(![아래쪽 화살표 아이콘 정렬된 테이블 열](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg))은 데이터가 현재 정렬되는 열의 헤더에 표시됩니다.
 
