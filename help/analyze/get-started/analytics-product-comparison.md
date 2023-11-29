@@ -3,10 +3,10 @@ description: Analysis Workspace, Reports & Analytics, Report Builder, Data Wareh
 title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '432'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 97%
 
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 100%
 | **여러 보고서 세트** | [예](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 예. 제한 사항 있음 | 예 | 아니요 | 예 | 아니요 | 예 |
 | **분류 수** | 제한 없음 | 최대 2 | 최대 2 | 제한 없음 | 제한 없음 | 제한 없음 | 제한 없음, 여러 쿼리에서 실행 |
 | **세분화** <br> [자세히 알아보기](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 예 | 예 | 예 | 예. [제한 사항](/help/components/segmentation/seg-reference/seg-compatibility.md) 있음 | 예 | 아니요 | 예 |
-| **계산된 지표** <br> [자세히 알아보기](/help/components/c-calcmetrics/cm-overview.md) | 예. [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 예 | 예 | 아니요 | 예 | 아니요 | 예. [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
+| **계산된 지표** <br> [자세히 알아보기](/help/components/c-calcmetrics/cm-overview.md) | 예, 포함 [속성](/help/analyze/analysis-workspace/attribution/overview.md) | 예 | 예 | 아니요 | 예 | 아니요 | 예, 포함 [속성](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **마케팅 채널** <br> [자세히 알아보기](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 예 | 예 | 예 | 예 | 예 | 예 - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 예 |
 | **집단 분석** | [예](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 아니요 | 아니요 | 아니요 | 예 | 아니요 | 아니요 |
-| **속성** | 예. [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 제한적 | 제한적 | 아니요 | 예 | 아니요 | 예. [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
-| **가상 분석가 기능** <br> [자세히 알아보기](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 |
+| **속성** | 예, 포함 [속성](/help/analyze/analysis-workspace/attribution/overview.md) | 제한적 | 제한적 | 아니요 | 예 | 아니요 | 예, 포함 [속성](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **큐레이션** <br> [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/curate.md) | 예 - 프로젝트 및 가상 보고서 세트 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 - 가상 보고서 세트만 해당 |
 | **프로젝트 공유** <br> [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 예. 프로젝트 역할 사용 | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
 | **예약된 게재** | 예 | 예 | 예 | 예 | 아니요 | 예 | 아니요 |

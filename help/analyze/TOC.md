@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
-workflow-type: ht
-source-wordcount: '1097'
+source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
+workflow-type: tm+mt
+source-wordcount: '1080'
 ht-degree: 100%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 100%
       + [보기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
       + [프로젝트 예약](analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution IQ {#attribution}
+   + 기여도 분석 {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
       + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
@@ -141,17 +141,12 @@ ht-degree: 100%
       + [FAQ](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [세그먼트 IQ](analysis-workspace/segment-iq.md)
-   + 가상 분석가 {#virtual-analyst}
-      + [Virtual Analyst 개요](analysis-workspace/virtual-analyst/overview.md)
-      + 예외 항목 탐지 {#anomaly-detection}
-         + [예외 항목 탐지 개요](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [Analysis Workspace에서 예외 항목 보기](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [예외 항목 탐지 해제](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
-         + [예외 항목 탐지에서 사용된 통계 기법](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-      + 기여도 분석 {#contribution-analysis}
-         + [기여도 분석 개요](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-         + [기여도 분석 실행](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
-         + [기여도 분석에 사용된 통계 기법](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
+   + 예외 항목 탐지 {#anomaly-detection}
+      + [예외 항목 탐지 개요](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Analysis Workspace에서 예외 항목 보기](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [예외 항목 탐지 해제](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
+      + [기여도 분석 실행](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [예외 항목 탐지에서 사용된 통계 기법](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + 지능형 경고 {#intelligent-alerts}
          + [지능형 경고 개요](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [경고 빌더](analysis-workspace/c-intelligent-alerts/alert-builder.md)

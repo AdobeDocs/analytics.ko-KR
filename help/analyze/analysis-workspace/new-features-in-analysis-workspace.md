@@ -5,10 +5,10 @@ title: Analysis Workspace의 새로운 기능
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '8268'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '8261'
+ht-degree: 99%
 
 ---
 
@@ -72,8 +72,8 @@ ht-degree: 100%
 
 | 기능 | 설명 |
 |--- |--- |
-| Attribution IQ: 알고리즘 속성 | Analysis Workspace의 알고리즘 속성 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko-KR) |
-| 속성 IQ: 사용자 정의 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 IQ에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| 속성: 알고리즘 속성 | Analysis Workspace의 알고리즘 속성 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko-KR) |
+| 속성: 사용자 지정 전환 확인 기간 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 공유 Workspace 프로젝트에 대한 프로젝트 역할 | 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 보기 전용 Workspace 프로젝트 | Workspace 프로젝트는 “보기 가능”으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Workspace 프로젝트 공동 편집 기능 | “편집 가능” 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) |
@@ -187,7 +187,7 @@ ht-degree: 100%
 |--- |--- |
 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
-| [속성 IQ에서 여러 값 변수 지원](attribution/overview.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVars 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 속성 IQ를 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
+| [속성에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution/overview.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVar 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace을 사용하면 히트 수준에서 이러한 유형의 변수에 속성을 적용할 수 있습니다. |
 | 성능 향상 | 분류 속도 개선으로 분류가 많은 프로젝트가 더 빠르게 로드됩니다. |
 
 ## 2018년 11월
@@ -270,8 +270,8 @@ ht-degree: 100%
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > 속성 IQ </a> </b> </p> </td>
-   <td colname="col2"> <p>속성 IQ를 사용하면 마케팅 성과에 대해 보다 정교하고 지능적인 분석을 수행할 수 있습니다. 새 속성 모델은 Analysis Workspace의 지표 (표 또는 분류) 및 계산된 지표에서 사용할 수 있습니다. 새로운 [속성 패널]을 사용하면 더 나은 시각화 및 비교가 가능합니다. </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > 속성 </a> </b> </p> </td>
+   <td colname="col2"> <p>속성을 사용하면 마케팅 성과에 대해 보다 정교하고 지능적인 분석을 수행할 수 있습니다. 새 속성 모델은 Analysis Workspace의 지표 (표 또는 분류) 및 계산된 지표에서 사용할 수 있습니다. 새로운 [속성 패널]을 사용하면 더 나은 시각화 및 비교가 가능합니다. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> 왼쪽 레일 개선 사항 </b> </p> </td>
@@ -348,7 +348,7 @@ ht-degree: 100%
    <td colname="col2"> <p>구성 요소를 새 위치로 드래그하는 동안 위아래로 스크롤할 수 있습니다. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 예외 항목</a></b>에 대한 추가 정보 </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > 예외 항목</a></b>에 대한 추가 정보 </p> </td>
    <td colname="col2"> <p>라인 차트에서 예외 항목에 커서를 가져가면 이제 정보에는 예외 항목의 날짜 및 원시 값이 표시됩니다. </p> </td>
   </tr>
  </tbody>
@@ -379,7 +379,7 @@ ht-degree: 100%
    <td colname="col2"> <p>스택 영역/스택 막대/가로 막대형 스택 시각화에 대한 새로운 시각화 설정은 차트를 "100% 스택" 시각화로 바꾸므로 상대 비율을 측정할 수 있습니다. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >예외 항목 탐지 및 기여도 분석</a>은 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  >예외 항목 탐지 및 기여도 분석</a>은 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> </td>
    <td colname="col2"> <p>예외 항목 탐지 및 기여도 분석은 Reports &amp; Analytics 기능 세트에서 제거되었으며 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> <p>Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 작업 영역의 "일별 세부 기간" 예외 항목 탐지에만 액세스할 수 있습니다. </p> </td>
   </tr>
  </tbody>
@@ -610,7 +610,7 @@ ht-degree: 100%
     </ul> <p>예를 들어 "시간"을 테이블에 끌어다 놓으면 오전 12시부터 오후 11시까지 정렬됩니다. 지표 열을 기준으로 정렬할 수 있습니다. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 차트의 크기 조절의 신뢰 구간을 허용하는 선택 사항 </a> </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > 차트의 크기 조절의 신뢰 구간을 허용하는 선택 사항 </a> </p> </td>
    <td colname="col2"> <p>예외 항목 탐지 신뢰 구간은 차트를 읽기 쉽게 만들기 위해 시각화의 y축 크기를 자동으로 조절하지 않습니다. </p> <p>이제 신뢰 구간에서 차트의 크기를 조정할 수 있습니다. </p> </td>
   </tr>
   <tr>
@@ -671,7 +671,7 @@ ht-degree: 100%
    <td colname="col1"> <p> 세그먼트 비교 및 기여도 분석에 대한 <span class="uicontrol">모두 지우기</span> 버튼 </p> </td>
    <td colname="col2"> <p>이제 각 요소를 수동으로 삭제하는 대신, 다음 작업 영역에서 모든 요소를 지울 수 있습니다. </p>
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3">
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 기여도 분석 제외된 구성 요소 </a> </li>
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > 기여도 분석 제외된 구성 요소 </a> </li>
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> 세그먼트 비교 제외된 구성 요소 </a> </li>
     </ul> </td>
   </tr>
@@ -754,7 +754,7 @@ ht-degree: 100%
    <td colname="col2"> <p>데이터 소스(시각화를 가능하게 함)를 관리하는 방법을 재개발했습니다. 데이터 소스를 테이블에 잠그면 더 이상 별도의 숨겨진 테이블이 없습니다. </p> <p>대신 해당 보기를 이것으로 만든 테이블에 계속 연결하게 됩니다. 이렇게 하면 세부 기간을 변경한 후 다음 프로젝트로드 시 이전 세부 기간으로 되돌리는 실시간 연결 테이블의 버그도 해결됩니다. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > 특정 예외 항목을 강조 표시하는 기능 </a></b> </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > 특정 예외 항목을 강조 표시하는 기능 </a></b> </p> </td>
    <td colname="col2"> <p>이제 기여도 분석 내에서 파란색 점이 있는 예외 항목과 이 항목에 연결된 지능형 경고 프로젝트가 강조 표시됩니다. 이렇게 하면 분석되는 예외 항목이 더 명확히 표시됩니다. </p> </td>
   </tr>
   <tr>
@@ -986,7 +986,7 @@ ht-degree: 100%
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > 예외 항목 탐지 및 기여도 분석 </a></b> </td>
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > 예외 항목 탐지 및 기여도 분석 </a></b> </td>
    <td colname="col2"> <p>트렌드 데이터의 변경 사항이 중요한지 여부와 변경 사항을 초래한 원인을 알려 줍니다. </p> <p>이제 Analysis Workspace에서 예외 항목 탐지 및 기여도 분석 기능은 모두 핵심 워크플로입니다. </p> <p>중요: 기여도 분석은 Adobe Analytics Premium 고객만 사용할 수 있습니다. </p> <p>: </p> <p> </p>
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6">
      <li id="li_787236BB5EA545B8833B311C06C24337">사용자의 데이터에 있는 통계적으로 중요한 데이터 예외 항목을 자동으로 탐지할 수 있습니다. </li>
@@ -1032,7 +1032,7 @@ ht-degree: 100%
 2016년 6월 16일 릴리스된 새로운 기능:
 
 * 관리자가 **[!UICONTROL 분석]** > **[!UICONTROL 작업 영역]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ko-KR) 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
-*  [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스할 수 있는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다.
+*   [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스할 수 있는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다.
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 패널, 시각화, 구성 요소
 * 최대 3개의 세그먼트 및 지표를 드래그하고 벤 다이어그램을 작성할 수 있는 새로운 [](/help/analyze/analysis-workspace/visualizations/venn.md)벤 시각화 유형

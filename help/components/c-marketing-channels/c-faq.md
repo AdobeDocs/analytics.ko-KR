@@ -3,9 +3,9 @@ title: 마케팅 채널 FAQ
 description: 마케팅 채널에 대한 FAQ입니다.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1500'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
+>Attribution 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 >
 >Analytics 관리자는 [마케팅 채널 관리](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)에 설명된 대로 조직의 마케팅 채널을 관리할 수 있습니다.
 
@@ -112,7 +112,7 @@ ht-degree: 100%
    3. 이 사용자는 며칠 후 자연어 검색을 통해 다시 돌아와 구매를 합니다.
    4. 이메일 채널은 첫 번째 터치 크레딧을 받고 자연어 검색은 마지막 터치 크레딧을 받습니다.
 
-   처리 규칙을 변경한 후 며칠이 지났는데도 데이터가 여전히 잘못된 첫 번째 터치 채널에서 수집될 수 있습니다. 첫 번째 터치 데이터는 모든 사용자의 방문자 참여가 만료될 때까지 계속 잘못된 채널에서 수집됩니다.
+  처리 규칙을 변경한 후 며칠이 지났는데도 데이터가 여전히 잘못된 첫 번째 터치 채널에서 수집될 수 있습니다. 첫 번째 터치 데이터는 모든 사용자의 방문자 참여가 만료될 때까지 계속 잘못된 채널에서 수집됩니다.
 
 이러한 불일치를 해결하는 가장 좋은 방법은 다음 중 하나 또는 둘 모두를 수행하는 것입니다.
 

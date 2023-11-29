@@ -4,9 +4,9 @@ title: 패널 개요
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1436'
 ht-degree: 57%
 
 ---
@@ -33,7 +33,7 @@ Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL 빠른 인사이트], [!UICONTROL 빈] 패널 및 [!UICONTROL 자유 형식] 패널은 분석을 시작하기에 좋은 위치이며 [!UICONTROL Analytics for Target], [!UICONTROL Attribution IQ], [!UICONTROL 미디어 동시 뷰어 ] 및 [!UICONTROL 세그먼트 비교]는 보다 고급 분석에 적합합니다. 프로젝트에서 `"+"` 버튼을 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
+[!UICONTROL 빠른 인사이트], [!UICONTROL 빈] 패널 및 [!UICONTROL 자유 형식] 패널은 분석을 시작하기에 좋은 위치이며 [!UICONTROL Analytics for Target], [!UICONTROL Attribution ], [!UICONTROL 미디어 동시 뷰어 ] 및 [!UICONTROL 세그먼트 비교]는 보다 고급 분석에 적합합니다. 프로젝트에서 `"+"` 버튼을 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
 
 기본 시작 패널은 [!UICONTROL 자유 형식] 패널이지만 [빈 패널](/help/analyze/analysis-workspace/c-panels/blank-panel.md)도 기본값으로 설정할 수 있습니다.
 

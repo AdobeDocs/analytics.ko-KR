@@ -3,7 +3,7 @@ description: 지능형 경고 시스템은 경고를 더욱 세밀하게 제어�
 title: 지능형 경고
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
@@ -37,19 +37,19 @@ ht-degree: 100%
 
 * Analysis Workspace에서 다음의 단축키 사용:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * 경고 빌더로 이동: **[!UICONTROL 작업 영역]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 경고]**.
 * 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 버튼으로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기 선택]**. 이렇게 하면 경고 빌더가 열리고, 테이블에서 적용된 적절한 지표와 필터로 빌더가 사전에 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다.
 
-   ![](assets/create-alert-from-selection.png)
+  ![](assets/create-alert-from-selection.png)
 
 * [!UICONTROL Reports &amp; Analytics] 보고서에서 **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;로 이동합니다. 이렇게 하면 새 경고 빌더가 열리고, 보고서에서 적용된 적절한 지표와 필터로 빌더가 사전에 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다.
 
-   ![](assets/add-alert.png)
+  ![](assets/add-alert.png)
 
 ## FAQ: 경보가 계산되고 트리거되는 방식 {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-% 임계값은 표준 편차입니다. 예를 들어, 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 단위에 따라 [다양한 모델](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)을 사용하여 각 데이터 포인트가 기준 (norm)에서 얼마나 떨어져 있는지 (표준 편차 수) 계산합니다. 낮은 임계값(예: 90%)을 설정하면 높은 임계값(99%)을 설정하는 경우보다 많은 예외 항목이 생깁니다. 99.75% 및 99.99% 임계값은 많은 예외 항목을 트리거되지 않도록 시간 단위용으로 특별히 도입되었습니다.
+% 임계값은 표준 편차입니다. 예를 들어, 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 단위에 따라 [다양한 모델](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)을 사용하여 각 데이터 포인트가 기준 (norm)에서 얼마나 떨어져 있는지 (표준 편차 수) 계산합니다. 낮은 임계값(예: 90%)을 설정하면 높은 임계값(99%)을 설정하는 경우보다 많은 예외 항목이 생깁니다. 99.75% 및 99.99% 임계값은 많은 예외 항목을 트리거되지 않도록 시간 단위용으로 특별히 도입되었습니다.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -61,7 +61,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: 경고의 예외 항목 탐지에서 데이터 예외 항목을 판단하려면 얼마나 되돌아갑니까? </b> </p> </td> 
-   <td colname="col2"> <p>교육 기간은 선택한 세부기간에 따라 다릅니다. 자세한 내용은 <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">예외 항목 탐지</a>에서 사용되는 통계 기법을 참조하십시오. 다음은 요약입니다. </p> 
+   <td colname="col2"> <p>교육 기간은 선택한 세부기간에 따라 다릅니다. 자세한 내용은 <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">예외 항목 탐지</a>에서 사용되는 통계 기법을 참조하십시오. 다음은 요약입니다. </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">월 단위 = 15개월 + 지난 해와 동일한 범위 </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">주 단위 = 15주 + 지난 해와 동일한 범위 </li> 

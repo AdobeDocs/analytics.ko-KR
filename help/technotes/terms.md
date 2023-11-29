@@ -3,7 +3,7 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 97%
@@ -20,7 +20,7 @@ ht-degree: 97%
    * 제품 액세스가 프로비저닝되고 사용자 권한이 관리되는 Adobe Admin Console. 관리 사용 안내서에서 [Admin Console](/help/admin/admin-console/home.md)을 참조하십시오.
 * **할당:** 전환 변수가 방문 중에 두 개 이상의 값을 발견하는 경우 변수의 할당 설정에 따라 보존되는 값이 결정됩니다. 관리 사용 안내서에서 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 * **Analysis Workspace:** 강력한 사용자 지정 분석 프로젝트를 구축하고 통찰력을 보여 주기 위한 브라우저 솔루션입니다. Reports and Analytics보다 더 많은 보고서 유연성을 제공합니다.
-* **예외 항목:** 데이터에서 예기치 않은 트렌드를 자동으로 찾기 위해 통계적 모델링 방법을 사용하여 탐지합니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상치 않은 범위를 파악합니다. 분석 사용 안내서에서 [예외 항목 탐지](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)를 참조하십시오.
+* **예외 항목:** 데이터에서 예기치 않은 트렌드를 자동으로 찾기 위해 통계적 모델링 방법을 사용하여 탐지합니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상치 않은 범위를 파악합니다. 분석 사용 안내서에서 [예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)를 참조하십시오.
 * **AppMeasurement:** 데이터를 수집하여 Adobe로 전송하는 데 사용되는 코드 라이브러리. 구현 사용 안내서의 [홈 페이지](/help/implement/home.md)를 참조하십시오.
 * **ASI 슬롯:** 더 이상 존재하지 않습니다. 이전 버전의 Adobe Analytics에서 ASI 슬롯은 세그먼트화된 데이터를 보기 위한 임시 보고서 세트 컨테이너를 제공했습니다. 현재 Adobe Analytics 버전에서는 세그먼트를 모든 보고서에 즉시 적용할 수 있습니다.
 * **분류:** 다른 차원의 컨텍스트 내에서 차원을 볼 수 있습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.

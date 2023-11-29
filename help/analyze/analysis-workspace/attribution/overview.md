@@ -4,10 +4,10 @@ description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 95%
+source-wordcount: '461'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 95%
 
 일부 보고서에서는 유료 검색으로 인한 주문을 원할 수 있습니다. 다른 보고서에서는 Social에 속하는 순서를 원할 수도 있습니다. 속성을 사용하면 보고의 이러한 측면을 제어할 수 있습니다. Adobe Analytics Ultimate, Prime, Select 및 Foundation을 사용하는 모든 조직에서 사용할 수 있습니다. Adobe과 어떤 유형의 계약을 체결했는지 확실하지 않은 경우 조직의 Adobe 계정 팀에 문의하십시오.
 
-## Attribution IQ 값
+## 속성 값
 
 지정된 고객 여정은 선형적이지 않고 종종 예측할 수 없습니다. 각 고객은 작자의 진도에 따라 수익을 창출합니다. 고객은 종종 되돌아가거나 시간을 끌거나 다시 시작하거나 다른 비선형 동작에 참여합니다. 이러한 자연스러운 동작은 고객 여정 전반에서 마케팅 노력이 미치는 영향을 알기 어렵게 합니다. 또한 여러 채널의 데이터를 함께 통합하려는 노력에 방해가 됩니다.
 
-![Attribution IQ 문제](assets/attribution_iq_problem.png)
+![속성 문제](assets/attribution_iq_problem.png)
 
 Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
@@ -39,7 +39,7 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
 ## 기능
 
-Attribution IQ는 다음 기능으로 구성됩니다.
+속성은 다음 기능으로 구성됩니다.
 
 * [속성 패널](../c-panels/attribution.md): 모든 차원과 지표를 가져와 다양한 속성 모델과 신속하게 비교할 수 있습니다.
 * [지표에 속성 적용](../visualizations/freeform-table/column-row-settings/column-settings.md): 프로젝트의 모든 지표에 대해 기본이 아닌 속성을 사용합니다.
@@ -48,22 +48,22 @@ Attribution IQ는 다음 기능으로 구성됩니다.
 
 ## 비디오
 
-자유 양식 표의 Attribution IQ
+자유 양식 표의 Attribution 
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-계산된 지표의 Attribution IQ
+계산된 지표의 Attribution 
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Attribution IQ 패널 사용:
+기여도 분석 패널 사용:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Attribution IQ 모델의 병렬 비교 추가
+Attribution 모델의 병렬 비교 추가
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Attribution IQ를 지원하지 않는 Adobe Analytics 도구
+## 속성을 지원하지 않는 Adobe Analytics 도구
 
-Report Builder와 같이 Analytics 2.0 API를 지원하지 않는 도구는 Attribution IQ를 지원하지 않습니다.
+Analytics 2.0 API를 지원하지 않는 도구(예: Report Builder)는 기여도 분석을 지원하지 않습니다.

@@ -3,9 +3,9 @@ title: 마케팅 채널의 처리 규칙
 description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1889'
 ht-degree: 76%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 76%
 
 * [마케팅 채널 시작](/help/components/c-marketing-channels/c-getting-started-mchannel.md)에서 개념 정보를 검토하십시오.
 * 규칙을 할당할 수 있도록 하나 이상의 채널을 만듭니다. [마케팅 채널 추가](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)를 참조하십시오.
-* [!UICONTROL 마케팅 채널]을 [!UICONTROL Attribution IQ]와 함께 사용하기 위한 모범 사례를 검토하십시오.
+* [!UICONTROL 마케팅 채널]을 [!UICONTROL Attribution ]와 함께 사용하기 위한 모범 사례를 검토하십시오.
 
 ## 마케팅 채널 처리 규칙 만들기
 

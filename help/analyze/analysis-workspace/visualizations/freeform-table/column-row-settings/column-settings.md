@@ -5,7 +5,7 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 2525180898d8f4cf29df891a5f228cfd82e6ffc2
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 100%
@@ -43,10 +43,10 @@ ht-degree: 100%
 | **합계 셀** |  |
 | 합계 표시 | 이 합계는 일반적으로 [!UICONTROL 총 합계]와 같거나 그 하위 집합입니다. [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다. |
 | 합계 표시 | 이 합계는 수집 된 모든 히트 수를 나타내며 “보고서 세트 합계”라고도 합니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 히트를 반영하도록 조정됩니다. [정적 행](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)이 있는 테이블 또는 분류에서는 총 합계가 지원되지 않습니다. |
-| **테이블 셀** |  |
+| **테이블 셀** |   |
 | 숫자 | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 숫자 값은 행 항목에 대한 페이지 조회수입니다. |
 | 비율 | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확하게 말하자면 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열의 너비를 크게 늘릴 수 있도록 상한을 1,000%로 옮겼습니다. |
-| 예외 항목 | 이 열의 값에 대해 예외 항목 탐지가 실행되는지 여부를 결정합니다. 자세한 내용은 [Analysis Workspace에서 예외 항목 보기](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)를 참조하십시오. |
+| 예외 항목 | 이 열의 값에 대해 예외 항목 탐지가 실행되는지 여부를 결정합니다. 자세한 내용은 [Analysis Workspace에서 예외 항목 보기](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)를 참조하십시오. |
 | 머리글 텍스트 줄바꿈 | 자유 형식 테이블의 머리글 텍스트를 줄바꿈하여 머리글을 더 읽기 쉽게 하고 테이블을 더 공유하기 쉽게 할 수 있습니다. 이 기능은 .pdf 렌더링 및 긴 이름을 사용하는 지표에 유용합니다. 기본적으로 사용됩니다. |
 | 0을 값없음으로 해석 | 값이 0인 셀에 대해, 0을 표시할지 아니면 빈 셀을 표시할지를 결정합니다. 달의 각 날에 대한 데이터를 보고 일부 날은 아직 일어나지 않은 경우 유용합니다.  차후의 날짜에 대해 0을 표시하는 대신 빈 셀을 표시할 수 있습니다. 차트에 이 설정도 적용됩니다(즉, 이 설정을 선택한 경우 차트에 값이 0인 줄 또는 막대가 표시되지 않습니다). |
 | 배경 | 막대 그래프 및 조건부 서식을 포함하여, 셀에 모든 셀 서식을 표시할지 또는 숨길지를 결정합니다. |
@@ -83,7 +83,6 @@ Analysis Workspace는 거의 모든 지표에 대한 [속성](/help/analyze/anal
 >[!MORELIKETHIS]
 >
 >* [데이터 소스 관리](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
-
 
 ## 동적 열
 

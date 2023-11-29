@@ -4,9 +4,9 @@ title: Analysis Workspace의 알려진 제한 사항
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '411'
 ht-degree: 90%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 90%
 ## 구성 요소 > 세그먼트
 
 * 특정 지표 및 차원은 [!UICONTROL 발생 횟수], [!UICONTROL 고유 방문자 수] 등과 같이 세그먼테이션할 수 없습니다.
-* 에서 만들어진 임시 세그먼트 [패널 드롭존](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR) 는 빠른 필터 유형입니다. Workspace나 세그먼트 구성 요소 관리자의 왼쪽 레일에는 공개하지 않습니다. 자세한 내용은 [빠른 세그먼트](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* 에서 생성된 임시 세그먼트 [패널 드롭 영역](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR) 는 빠른 필터의 유형입니다. 이러한 구성 요소는 공개하지 않는 한 작업 영역 또는 세그먼트 구성 요소 관리자의 왼쪽 레일에 표시되지 않습니다. 자세한 내용은 [빠른 세그먼트](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## 구성 요소 > 계산된 지표
 
@@ -56,6 +56,6 @@ ht-degree: 90%
 
 * [!UICONTROL 보고서 설정] 페이지의 일부 설정은 적용되지 않습니다. Analysis Workspace는 맨 아래에 있는 [!UICONTROL 언어/통화/인코딩] 설정인 [!UICONTROL 천 단위 구분 문자], [!UICONTROL 예약된 보고서 인코딩] 및 [!UICONTROL CSV 구분 문자]만 사용합니다.
 
-## Attribution IQ
+## 속성
 
-* 지표의 하위 세트는 [!UICONTROL Attribution IQ]에서 지원되지 않습니다. 전체 목록이 필요하면 [Attribution IQ FAQ](../attribution/faq.md)를 참조하십시오.
+* 지표의 하위 세트는 [!UICONTROL Attribution ]에서 지원되지 않습니다. 전체 목록이 필요하면 [Attribution FAQ](/help/analyze/analysis-workspace/attribution/faq.md)를 참조하십시오.

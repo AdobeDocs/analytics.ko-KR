@@ -3,9 +3,9 @@ description: 알아보기
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '464'
 ht-degree: 73%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 73%
 
 ## 선형 할당 작동 방식
 
-[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 은 계산된 지표의 할당 모델을 평가하는 방법입니다.
+[속성](/help/analyze/analysis-workspace/attribution/overview.md) 은 계산된 지표의 할당 모델을 평가하는 방법입니다.
 
 기본이 아닌 기여도 분석 모델 및 지원되는 전환 확인 기간의 전체 목록에 대해서는 [기여도 분석 모델 및 전환 확인 기간](/help/analyze/analysis-workspace/attribution/models.md)을 참조하십시오.
 
 다음 예에서는 선형 할당이 있는 계산된 지표가 보고에서 작동하는 방식을 보여 줍니다.
 
-|  | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 | 히트 6 | 히트 7 |
+| | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 | 히트 6 | 히트 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 데이터가 전송됨 | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
 | 마지막 터치 eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
@@ -51,4 +51,4 @@ ht-degree: 73%
 이 두 도구 간에 선형 속성이 작동하는 방식에는 몇 가지 차이점이 있습니다.
 
 * Reports &amp; Analytics에서 (처리된) 선형 속성은 항상 방문을 기준으로 하는 반면 Workspace에서는 방문 또는 방문자를 기반으로 할 수 있습니다.
-* Reports &amp; Analytics에서는 방문의 첫 번째 히트에서 값이 전달되지 않으면 (초기) 값이 이전 방문부터 지속됩니다. Analysis Workspace (속성 IQ)에서는 그렇지 않습니다. 방문의 첫 번째 히트에서 값이 전달되지 않으면 &#39;없음&#39;이 초기 값입니다.
+* Reports &amp; Analytics에서는 방문의 첫 번째 히트에서 값이 전달되지 않으면 (초기) 값이 이전 방문부터 지속됩니다. Workspace(기여도 분석)에서는 그렇지 않습니다. 방문의 첫 번째 히트에서 값이 전달되지 않으면 &#39;없음&#39;이 초기 값입니다.

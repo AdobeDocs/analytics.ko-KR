@@ -3,7 +3,7 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요�
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 14%
@@ -89,7 +89,7 @@ Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 �
 | **[태그](/help/analyze/landing.md)** | 아니요 |
 | **[즐겨찾기](/help/analyze/landing.md)** | 아니요 |
 | **[일정](/help/components/scheduled-projects-manager.md)** | 아니요 |
-| **[예외 항목 탐지](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
+| **[예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
 
 {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 �
 
 * [페이지 요약](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-* [기여도 분석](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+* [기여도 분석](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
 
 ## 구성 요소를 매핑할 방법을 조직으로 결정
 

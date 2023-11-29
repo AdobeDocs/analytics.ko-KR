@@ -4,16 +4,16 @@ description: Analysis Workspace에서 속성 패널을 사용하고 해석하는
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '441'
 ht-degree: 97%
 
 ---
 
 # 속성 패널
 
-[!UICONTROL 속성] 패널은 다양한 속성 모델을 비교하는 분석을 쉽게 구축할 수 있는 방법입니다. 속성 모델을 사용하고 비교할 수 있는 전용 작업 영역을 제공하는 [Attribution IQ](../attribution/overview.md)의 기능입니다.
+[!UICONTROL 속성] 패널은 다양한 속성 모델을 비교하는 분석을 쉽게 구축할 수 있는 방법입니다. 속성 모델을 사용하고 비교할 수 있는 전용 작업 영역을 제공하는 [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md)의 기능입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 

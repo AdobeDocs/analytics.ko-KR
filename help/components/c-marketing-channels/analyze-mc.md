@@ -3,9 +3,9 @@ title: 마케팅 채널 분석
 description: Workspace에서 마케팅 채널 차원을 사용하는 방법을 알아봅니다.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '413'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
+>Attribution 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 >
 >Analytics 관리자는 [마케팅 채널 관리](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)에 설명된 대로 조직의 마케팅 채널을 관리할 수 있습니다.
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 | 차원/지표 | 정의 |
 | --- | --- |
-| 마케팅 채널 | 권장 마케팅 채널 차원입니다. 런타임 시 속성 IQ 모델을 적용할 수 있습니다. 이 차원은 마지막 터치 채널 차원과 동일하게 동작하지만 다른 속성 모델과 함께 이 차원을 사용할 때 혼동을 방지하기 위해 레이블이 다르게 지정됩니다. |
+| 마케팅 채널 | 권장 마케팅 채널 차원입니다. 런타임 시 속성 모델을 적용할 수 있습니다. 이 차원은 마지막 터치 채널 차원과 동일하게 동작하지만 다른 속성 모델과 함께 이 차원을 사용할 때 혼동을 방지하기 위해 레이블이 다르게 지정됩니다. |
 | 마지막 터치 채널 | 마지막 터치 속성 모델이 사전 적용되어 변경할 수 없는 기존 차원입니다. |
 | 첫 번째 터치 채널 | 첫 번째 터치 속성 모델이 사전 적용되어 변경할 수 없는 기존 차원입니다. |
 | 마케팅 채널 인스턴스 | 이 지표는 표준 페이지 보기 수 및 사용자 지정 링크 호출을 포함하여 마케팅 채널이 이미지 요청에 정의된 횟수를 측정합니다. 지속되는 값을 포함하지 않습니다. |
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ## 속성 모델 적용
 
-[속성 IQ](/help/analyze/analysis-workspace/attribution/overview.md)를 사용하여 다른 속성 모델을 즉시 적용할 수 있습니다.
+[속성 ](/help/analyze/analysis-workspace/attribution/overview.md)를 사용하여 다른 속성 모델을 즉시 적용할 수 있습니다.
 
 ![](assets/mc-viz5.png)
 
