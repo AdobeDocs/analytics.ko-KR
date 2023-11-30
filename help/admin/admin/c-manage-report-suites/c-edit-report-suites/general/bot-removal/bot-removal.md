@@ -3,9 +3,9 @@ title: Adobe Analytics에서 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 방법
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '795'
 ht-degree: 84%
 
 ---
@@ -73,7 +73,7 @@ Data Warehouse 보고서가 도착하면 내역 데이터에서 필터링해야 
 * **ECID**: 이 열 헤더가 위에서 선언한 새 ID에 지정한 이름과 일치하는지 확인합니다.
 * **보트 플래그**: &#39;보트 플래그&#39;를 고객 속성 스키마 차원으로 추가합니다.
 
-이 .CSV 파일을 사용자 특성 가져오기 파일로 사용한 다음 이 문서에 설명된 대로 보고서 세트를 사용자 특성에 구독합니다 [블로그 게시물](https://theblog.adobe.com/link-digital-behavior-customers).
+이 .CSV 파일을 사용자 특성 가져오기 파일로 사용한 다음 이 문서에 설명된 대로 보고서 세트를 사용자 특성에 구독합니다 [블로그 게시물](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 

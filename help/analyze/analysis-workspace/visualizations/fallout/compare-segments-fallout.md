@@ -5,10 +5,10 @@ title: 폴아웃 분석에서 세그먼트 적용
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ## 폴아웃에서 세그먼트 비교 {#section_E0B761A69B1545908B52E05379277B56}
 
-폴아웃 시각화에서는 세그먼트를 무제한으로 비교할 수 있습니다.
+폴아웃 시각화에서는 세그먼트를 무제한으로 비교할 수 있습니다. (아래 비디오에는 최대 3개의 세그먼트를 비교할 수 있다고 나와 있는데, 이는 잘못된 것입니다.)
 
 다음은 폴아웃에서의 세그먼트 비교에 대한 비디오입니다.
 
