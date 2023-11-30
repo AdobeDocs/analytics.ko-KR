@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
+source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 99%
 
 ---
 
@@ -44,6 +44,9 @@ ht-degree: 100%
       + [핫키 (단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
+   + 보고서 {#reports}
+      + [미리 작성된 보고서 사용](analysis-workspace/reports/use-reports.md)
+      + [회사 보고서 만들기 및 관리](analysis-workspace/reports/create-company-reports.md)
    + 구성 요소 {#components}
       + [구성 요소 개요](analysis-workspace/components/analysis-workspace-components.md)
       + [구성 요소 설명 추가](analysis-workspace/components/add-component-descriptions.md)
@@ -307,7 +310,6 @@ ht-degree: 100%
       + [데이터 수집 정보](reports-analytics/overview/overview-data-collection.md)
       + [보고서 메뉴](reports-analytics/overview/reports-menu.md)
       + [보고서 기능](reports-analytics/overview/report-overview.md)
-      + [공통 용어](reports-analytics/overview/overview-common-terms.md)
    + [보고서 표시 설정 및 탐색](reports-analytics/report-settings.md)
    + [보고서 예약 및 배포](reports-analytics/scheduling.md)
    + [예약된 보고서에 대한 서비스 종료](reports-analytics/scheduled-reports-eol.md)

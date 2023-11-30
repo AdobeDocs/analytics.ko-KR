@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 2bb3cc1ce46fc8e5f7e15291401fce1c4d8cb839
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 97%
+source-wordcount: '1069'
+ht-degree: 94%
 
 ---
 
@@ -16,28 +16,38 @@ ht-degree: 97%
 
 {{ra-eol}}
 
-다른 보고서 유형을 실행하는 단계.
+Analysis Workspace에서 다양한 유형의 보고서를 실행할 수 있습니다. 다음은 몇 가지 예입니다.
 
-## 등급 보고서 실행 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
+사용 가능한 사전 작성된 보고서 유형의 전체 목록에 대해서는 다음을 참조하십시오. [미리 작성된 보고서 사용](/help/analyze/analysis-workspace/reports/use-reports.md)
 
-등급 보고서의 테이블은 숫자나 백분율에 따라 해당 지표와 관련된 보고서 페이지의 등급을 보여줍니다. 등급 보고서는 한 보고서에 여러 지표를 표시할 수 있습니다.
+<!-- How do you do a Ranked Report in Workspace?
 
-1. [!UICONTROL 페이지 보고서] (**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**)와 같은 보고서를 생성합니다. 
-1. 보고서 헤더에서 **[!UICONTROL 등급]**&#x200B;을 클릭합니다.
-1. 보고서의 등급을 지정하려면 테이블의 열 제목을 클릭합니다.
+## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-   등급 보고서의 테이블에는 최대 200개의 항목(예: 제품, 카테고리, 웹 페이지 등)과 10개의 지표(매출액, 주문, 보기 등)를 표시할 수 있습니다.
+In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
 
-## 트렌드 보고서 실행 {#task_F03B4E760B9E4EA29FC3F654E6316887}
+1. Generate a report, such as a [!UICONTROL Pages Report] ( [!UICONTROL **Workspace**] > **[!UICONTROL Engagement]** > **[!UICONTROL Pages]**).
+1. In the report header, click **[!UICONTROL Ranked.]**
+1. To rank the report, click a column heading in the table.
 
-트렌드 보고서는 일정 기간 동안의 지표를 표시합니다. 한 기간에서 다음 기간까지 세그먼트 성과를 조회하고 싶을 때 이 유형의 보고서를 사용합니다.
+   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on).
 
-대부분의 전환 및 트래픽 보고서에서 트렌드 보기를 사용할 수 있습니다. [!UICONTROL 달력]을 사용하면 매달 지정된 일, 연중 주간, 분기별 주간, 연중 월간 등을 포함하여 세부 분류된 기간에 따른 개선 사항을 표시할 수 있습니다. 트렌드 보고서는 최대 5개 항목(예: 제품, 카테고리, 웹 페이지 등)에 대한 1개의 지표(매출, 주문, 보기 등)에 대한 트렌드를 보여줍니다.
+-->
 
-**트렌드 보고서를 실행하려면**
+<!-- Can you do a Trended report? 
 
-1. **[!UICONTROL 보고서]** > **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**&#x200B;와 같은 전환 또는 트래픽 보고서를 실행합니다.
-1. **[!UICONTROL 보고서 유형]** 아래에서 **[!UICONTROL 트렌드]**&#x200B;를 클릭합니다.
+## Run a trended report {#task_F03B4E760B9E4EA29FC3F654E6316887}
+
+Trended reports display metrics over time. You use this report type when you want to see how a segment performs from one time period to the next.
+
+Most Conversion and Traffic reports have a Trended view available. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Trended reports show trends for a single metric (revenue, orders, views, and so on) for up to five items (such as products, categories, web pages, and so on).
+
+**To run a trended report** 
+
+1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+
+-->
 
 ## 폴아웃 보고서 실행 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -48,20 +58,14 @@ Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.c
 1. [!UICONTROL Adobe Analytics]에서 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 폴아웃]**&#x200B;을 클릭합니다.
 1. [!UICONTROL 폴아웃 보고서] 페이지에서 **[!UICONTROL 폴아웃 보고서 빌더 시작]**&#x200B;을 클릭합니다. 
 
-   ![단계 결과](assets/fallout_add_items.png)
-
 1. [!UICONTROL 체크포인트 정의] 페이지에서 보고서에 사용할 체크포인트를 지정합니다.
 1. **[!UICONTROL 보고서 실행]**&#x200B;을 클릭합니다.
-
-   ![단계 결과](assets/fallout_report.png)
 
 ## 페이지 흐름 보고서 실행 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 페이지 흐름 보고서는 방문자가 페이지를 액세스하여 사이트를 탐색하는 순서를 보여줍니다. 이 보고서는 응답하는 데 도움이 됩니다.
 
-다음을 확인하십시오. [플로우 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) Analysis Workspace에서
-
-예를 들어 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 다음 페이지 흐름]**&#x200B;을 클릭합니다.
+예를 들어 **[!UICONTROL 작업 영역]** > **[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 다음 및 이전 페이지 흐름]**.
 
 ## 마케팅 채널 보고서 실행 {#task_64ADED5CC75248319E06E3E029B47F78}
 

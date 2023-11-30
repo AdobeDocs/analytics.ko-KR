@@ -5,20 +5,18 @@ uuid: a67ce302-fae1-434a-b662-91672e85cab3
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
 
 # 전환 단계
 
-{{ra-eol}}
-
 전환 비율은 일반적으로 시작, 종료 및 중대한 이벤트 사이의 전환이나 전환 프로세스의 지점을 측정합니다. 사이트에 성공 이벤트를 코딩하고 나면 보고서가 이러한 여러 성공 이벤트 사이의 비율을 생성하고 전환 단계 보고서에 표시합니다.
 
-사용할 수 있는 단계 보고서:
+다음 단계 보고서를 사용할 수 있습니다.
 
 * [!UICONTROL 구매 전환 단계]: 방문 횟수(보고서 특정), 장바구니, 주문, 판매량 및 매출을 보여줍니다.
 * [!UICONTROL 장바구니 전환 단계]: 방문 횟수(보고서 특정), 장바구니, 체크아웃, 주문 및 매출을 표시합니다.

@@ -6,20 +6,18 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 91%
+source-wordcount: '843'
+ht-degree: 88%
 
 ---
 
 # 경고
 
-{{ra-eol}}
-
 ## 경고 {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-모든 Adobe Analytics에 대한 새 경고 시스템으로 지능형 경고를 사용하여 경고를 생성하고 관리할 수 있으며, 경고 미리 보기 및 규칙 기여도와 함께 완료할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
+모든 Adobe Analytics에 대한 경고 시스템으로 지능형 경고를 사용하여 경고를 생성하고 관리할 수 있으며, 경고 미리 보기 및 규칙 기여도에 대한 기능을 제공할 수도 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
 
 * 예외 항목을 기반으로 한 경고를 만듭니다(90%, 95% 또는 99% 임계값, % 변경, 초과/미만).
 * 경고가 트리거되는 빈도를 미리 봅니다.

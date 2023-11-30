@@ -3,32 +3,32 @@ description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 78%
 
 ---
 
 # 실시간 보고서 구성
 
-{{ra-eol}}
+다음 정보에는 실시간 보고서를 설정하는 관리 단계가 포함되어 있습니다.
 
-실시간 보고서를 설정하는 관리 단계입니다.
-
-[!UICONTROL Reports &amp; Analytics] 내에서 실시간 보고서를 설정하는 절차에는 보고서 세트를 선택하는 것과 이 보고서 세트에 대해 최대 3개의 보고서를 구성하는 일로 이루어집니다.
+보고서 세트를 선택하는 것과 이 보고서 세트에 대해 최대 3개의 보고서를 구성하는 것으로 구성됩니다.
 
 1. 실시간 보고서를 활성화할 보고서 세트를 선택합니다.
 
-   **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL 모두 보고서 보기 > 사이트 지표]** > **[!UICONTROL 실시간]**&#x200B;으로 이동하고 맨 위의 드롭다운에서 보고서 세트를 선택합니다.
+   1. Analysis Workspace에서 [!UICONTROL **작업 영역**] 탭을 선택한 다음 를 선택합니다 [!UICONTROL **보고서**] > [!UICONTROL **참여**] > **[!UICONTROL 실시간]**.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+   1. 맨 위의 드롭다운에서 보고서 세트를 선택합니다.
 
-   실시간 보고에 대해 설정되지 않은 보고서 세트에 대한 실시간 보고서를 보려고 하면 보고서 세트를 설정할 수 있다는 메시지가 표시됩니다.
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+      실시간 보고에 대해 설정되지 않은 보고서 세트에 대한 실시간 보고서를 보려고 하면 보고서 세트를 설정할 수 있다는 메시지가 표시됩니다.
 
-1. **[!UICONTROL 구성]** (톱니바퀴 아이콘)을 클릭하여 [!UICONTROL 보고서 세트 관리자]를 실행합니다.
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+
+1. 선택 **[!UICONTROL 구성]** 을(를) 실행하려면 [!UICONTROL 보고서 세트 관리자].
 
    (**[!UICONTROL Analytics]** > **[!UICONTROL 관리 > 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 실시간에서도 이용 가능합니다]**.)
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. **[!UICONTROL 저장]**&#x200B;이나 **[!UICONTROL 보고서 저장 및 보기]**&#x200B;를 클릭합니다.
+1. 선택 **[!UICONTROL 저장]** 또는 **[!UICONTROL 보고서 저장 및 보기]**.
 
    이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터는 데이터를 즉시 사용할 수 있습니다. 실시간 보고서 보기에 대한 자세한 내용은 [실시간 보고서 실행](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=ko-KR)을 참조하십시오.
 

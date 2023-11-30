@@ -4,16 +4,14 @@ title: 실시간 보고 개요
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 92%
 
 ---
 
 # 실시간 보고 개요
-
-{{ra-eol}}
 
 실시간 보고는 웹 페이지 트래픽을 표시하며 실시간으로 페이지 보기 수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
 
@@ -21,7 +19,13 @@ ht-degree: 100%
 >
 >실시간 보고서는 추가적인 구현이나 태깅을 필요로 하지 않으며, 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-**[!UICONTROL 사이트 지표]** > **[!UICONTROL 실시간]**
+## 실시간 보고 액세스
+
+1. Analysis Workspace에서 [!UICONTROL **작업 영역**] 탭.
+
+1. 선택 [!UICONTROL **보고서**] > [!UICONTROL **참여**] > **[!UICONTROL 실시간]**.
+
+## 실시간 보고 이해
 
 실시간 보고서는 사이트 트렌드는 무엇이며 그러한 트렌드의 이유는 무엇인가와 같은 질문들에 대해 대답해 줍니다. 실시간 보고서를 사용하면 마케터로서 신속히 대응하고 마케팅 콘텐츠와 캠페인의 성능을 관리할 수 있습니다. 보고서의 실시간 데이터는 2분 미만으로 잠재해 있다가 분 단위로 자동 업데이트됩니다.
 
@@ -55,7 +59,7 @@ Adobe [!DNL Target]에서 A4T 통합이 활성화되면 Adobe Analytics에서 5~
 
 추가적인 지연 시간은 라이브 스트림 및 실시간 보고를 비롯하여 모든 Adobe Analytics 서비스 및 도구에서 반영되며 다음과 같은 시나리오에서 적용됩니다.
 
-* 라이브 스트림, 실시간 보고서 및 API 요청, 트래픽 변수의 현재 데이터의 경우 보충 데이터 ID가 있는 히트 수만 지연됩니다.
+* 라이브 스트림, 실시간 보고서 및 API 요청, 트래픽 변수에 대한 현재 데이터의 경우 보조 데이터 ID가 있는 히트만 지연됩니다.
 * 전환 지표의 현재 데이터, 완료된 데이터, 데이터 피드의 경우 모든 히트 수가 추가적으로 5-7분 지연됩니다.
 
 이 통합을 완전히 구현하지 않았더라도 ID 서비스를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.

@@ -6,7 +6,7 @@ uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
@@ -14,8 +14,6 @@ ht-degree: 100%
 ---
 
 # 북마크 관리자
-
-{{ra-eol}}
 
 책갈피를 이용하여 가장 많이 사용하는 보고서에 액세스할 수 있습니다. 사용자가 만드는 책갈피는 Experience Cloud에 추가되고 Data Connectors와 같은 통합 기능에서 사용할 수 있습니다.
 
