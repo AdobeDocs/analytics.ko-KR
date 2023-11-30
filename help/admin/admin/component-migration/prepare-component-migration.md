@@ -3,7 +3,7 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요�
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: cc7267cc7f6d0223d151fb6378fce149742258d7
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 14%
@@ -51,7 +51,7 @@ ht-degree: 14%
 
 ## 마이그레이션에 포함된 내용 이해
 
-다음 표에서는 마이그레이션에 포함된 프로젝트 및 구성 요소의 요소를 간략하게 설명합니다.
+다음 표는 마이그레이션에 포함되는 프로젝트 및 구성 요소의 요소를 간략하게 설명합니다.
 
 ### 마이그레이션된 구성 요소
 
