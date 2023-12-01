@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '5323'
-ht-degree: 99%
+source-wordcount: '5424'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 99%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2023년 12월** | |
+| 새 보고서 섹션 | 에 대한 정보를 포함하는 새 보고서 섹션이 추가되었습니다. [미리 작성된 보고서 사용](/help/analyze/analysis-workspace/reports/use-reports.md) 및 [회사 보고서 생성 및 관리](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| 예외 항목 탐지 및 기여도 분석 설명서 업데이트 | 예외 항목 탐지 및 기여도 분석에 대한 설명서는 이전에 Virtual Analyst에 대한 섹션에 있었습니다. 다음과 같이 변경되었습니다. <ul><li>설명서에서 Virtual Analyst라는 용어를 제거했습니다.</li><li>다음에 대한 섹션: [예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li><li>기여도 분석 설명서가 예외 항목 탐지 설명서에 병합되었습니다.</li></ul> |
+| &quot;Attribution IQ &quot;가 &quot;기여도 분석&quot;으로 변경됨 | &quot;Attribution IQ&quot;의 모든 인스턴스가 &quot;(으)로 변경됨[속성](/help/analyze/analysis-workspace/attribution/overview.md)설명서 전체에서 &quot;&quot; |
 | **2023년 11월** | |
 | Activity Map 활성화/활성화 항목 업데이트 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=ko)(수동 및 Adobe Experience Platform 태그 확장을 통해) 콘텐츠가 추가되었습니다. |
 | **2023년 10월** | |
