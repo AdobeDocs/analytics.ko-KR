@@ -6,8 +6,8 @@ breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
 source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 99%
+source-wordcount: '1084'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + 작업 영역의 폴더 {#workspace-folders}
          + [작업 영역의 폴더 정보](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [폴더 만들기 및 하위 폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [폴더 및 하위 폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 삭제](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [프로젝트 추가](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [프로젝트 제거](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
@@ -136,7 +136,7 @@ ht-degree: 99%
       + [보기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
       + [프로젝트 예약](analysis-workspace/curate-share/t-schedule-report.md)
-   + 기여도 분석 {#attribution}
+   + 속성 {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
       + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
@@ -178,7 +178,7 @@ ht-degree: 99%
       + [데이터 요청 만들기](report-builder/data-requests/t-create-a-data-request.md)
       + 보고서 세트 {#report-suites}
          + [보고서 세트 선택](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [보고서 세트 선택 Excel에 있는 기존의 요청에서](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [Excel의 기존 요청에서 보고서 세트 선택](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel을 사용하여 보고서 세트 ID 찾기](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [세그먼트 관리](report-builder/data-requests/segmentation.md)
       + 보고서 유형 {#report-types}
@@ -328,7 +328,7 @@ ht-degree: 99%
    + [대시보드 관리자](reports-analytics/dashboard-manage.md)
    + [유입 경로 보고서](reports-analytics/funnels.md)
    + [지표](reports-analytics/metrics.md)
-   + [타겟](reports-analytics/targets.md)
+   + [대상](reports-analytics/targets.md)
    + [경고](reports-analytics/alerts.md)
    + [캘린더 이벤트](reports-analytics/t-calendar-event.md)
    + [자주 묻는 질문](reports-analytics/frequently-asked-questions.md)

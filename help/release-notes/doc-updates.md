@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '5424'
+source-wordcount: '4914'
 ht-degree: 97%
 
 ---
@@ -206,8 +206,8 @@ ht-degree: 97%
 | **2020년 6월** | |
 | 2020년 6월 25일 | 작업 영역의 [빠른 인사이트 패널](/help/analyze/analysis-workspace/c-panels/quickinsight.md)에 대한 새로운 설명서입니다. Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. |
 | 2020년 6월 25일 | 작업 영역의 [Analytics for Target 패널](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)에 대한 새로운 설명서입니다. 이를 통해 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. |
-| 2020년 6월 18일 | 에 대한 새로운 설명서 [속성: 알고리즘 속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| 2020년 6월 18일 | 에 대한 새로운 설명서 [속성: 사용자 지정 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| 2020년 6월 18일 | [속성: 알고리즘 속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html)에 대한 새로운 설명서 |
+| 2020년 6월 18일 | [속성: 사용자 정의 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows)에 대한 새로운 설명서 |
 | 2020년 6월 18일 | 공유 Workspace 프로젝트의 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)에 대한 새로운 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). |
 | 2020년 6월 18일 | [“보기 전용” Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html)에 대한 새로운 설명서입니다. 프로젝트는 “조회 가능”으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. |
 | 2020년 6월 18일 | 공유 Workspace 프로젝트의 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)에 대한 새로운 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). |
@@ -280,4 +280,4 @@ ht-degree: 97%
 | 2019년 2월 1일 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 구현 플러그인에 대한 주요 업데이트입니다. |
 | 2019년 1월 17일 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 집단 분석의 주요 개선 사항을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
 | 2019년 1월 17일 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
-| 2019년 1월 17일 | [속성에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution/overview.md). Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVar 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace을 사용하면 히트 수준에서 이러한 유형의 변수에 속성을 적용할 수 있습니다. |
+| 2019년 1월 17일 | [속성에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution/overview.md). Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVar 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 속성을 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
