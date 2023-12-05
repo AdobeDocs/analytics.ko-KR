@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8261'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 |--- |--- |
 | 속성: 알고리즘 속성 | Analysis Workspace의 알고리즘 속성 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko-KR) |
-| 속성: 사용자 지정 전환 확인 기간 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| 속성: 사용자 정의 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 공유 Workspace 프로젝트에 대한 프로젝트 역할 | 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 보기 전용 Workspace 프로젝트 | Workspace 프로젝트는 “보기 가능”으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Workspace 프로젝트 공동 편집 기능 | “편집 가능” 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) |
@@ -187,7 +187,7 @@ ht-degree: 99%
 |--- |--- |
 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
-| [속성에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution/overview.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVar 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace을 사용하면 히트 수준에서 이러한 유형의 변수에 속성을 적용할 수 있습니다. |
+| [속성에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution/overview.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVar 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 속성을 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
 | 성능 향상 | 분류 속도 개선으로 분류가 많은 프로젝트가 더 빠르게 로드됩니다. |
 
 ## 2018년 11월
@@ -462,8 +462,8 @@ ht-degree: 99%
    <td colname="col2"> <p>자유 형식 테이블 내 조건부 서식 (예: 색상)은 이제 "사용자 정의" 제한을 선택하지 않은 경우 분류에서 자동으로 적용할 수 있게 됩니다. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p>기본 <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > 달력 </a> 보기 변경 사항 </p> </td>
-   <td colname="col2"> <p>이제 작업 영역 달력에는 현재 달과 다음 달 대신 현재 달과 마지막 달이 기본적으로 표시됩니다. </p> </td>
+   <td colname="col1"> <p>기본 <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > 캘린더 </a> 보기 변경 사항 </p> </td>
+   <td colname="col2"> <p>이제 작업 영역 캘린더에는 현재 달과 다음 달 대신 현재 달과 마지막 달이 기본적으로 표시됩니다. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>작업 영역 테이블에서 마우스 오버/선택 색상 개선 </p> </td>
@@ -921,7 +921,7 @@ ht-degree: 99%
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 테이블의 각 열에 기간 추가 </a> </p> </td>
-   <td colname="col2"> <p>이제 테이블의 각 열에 기간을 추가하여 달력에 설정된 기간과 다른 기간을 추가할 수 있습니다. 이 기능은 날짜를 비교할 수 있는 다른 방법입니다. 또한 각 열의 날짜가 같은 행에서 시작하도록 맞출 수 있습니다. </p> </td>
+   <td colname="col2"> <p>이제 테이블의 각 열에 기간을 추가하여 캘린더에 설정된 기간과 다른 기간을 추가할 수 있습니다. 이 기능은 날짜를 비교할 수 있는 다른 방법입니다. 또한 각 열의 날짜가 같은 행에서 시작하도록 맞출 수 있습니다. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -1011,7 +1011,7 @@ ht-degree: 99%
     <ul id="ul_2585F74DC7754C819017F280E16BF06F">
      <li id="li_412446013E7F42DBB1BF50F9E2C4D92F">
       <!--AN-124610: -->프로젝트 수준 설정으로서 "반복 인스턴스 계산"을 추가했습니다(<span class="uicontrol">프로젝트</span> &gt; <span class="uicontrol">프로젝트 정보 및 설정 </span>). 이 설정은 보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다. 동일한 변수에 대해 순차적인 여러 개의 값을 가지고 있으면 변수에 대해 하나 또는 여러 개의 인스턴스로 계산할 수 있습니다. </li>
-     <li id="li_480E1B307C62418CBC2F50ADE32B9EE9">달력에서 "취소" 및 "실행" 옆에 "모든 패널에 적용"이라는 새 버튼을 추가했습니다. "실행"을 "적용"으로 변경했습니다. 새 버튼을 클릭하면 현재 패널에 대한 선택된 날짜 범위를 변경할 뿐만 아니라 프로젝트 내의 모든 다른 패널에 대한 선택된 날짜 범위도 변경하게 됩니다. </li>
+     <li id="li_480E1B307C62418CBC2F50ADE32B9EE9">캘린더에서 "취소" 및 "실행" 옆에 "모든 패널에 적용"이라는 새 버튼을 추가했습니다. "실행"을 "적용"으로 변경했습니다. 새 버튼을 클릭하면 현재 패널에 대한 선택된 날짜 범위를 변경할 뿐만 아니라 프로젝트 내의 모든 다른 패널에 대한 선택된 날짜 범위도 변경하게 됩니다. </li>
      <li id="li_4D10DFE307344D06AA60792FABE5B57E">
       <!--AN-124168: -->다음과 같은 작업을 하는 기능인 태그, 즐겨찾기, 승인, <b>공유 (새로운 기능!)"작업" 버튼을 왼쪽 내비게이션 레일에 추가했습니다.</b>, <b>삭제 (새로운 기능!)</b>과 같은 작업을 포함하는 왼쪽 탐색 레일에 "작업" 버튼을 추가했습니다. </li>
      <li id="li_946EC05568D4447193E9307546DF6F9B">태그, 즐겨찾기, 승인된 항목 및 구성 요소에 대해 필터링할 수 있도록 해 주는 검색 막대에 필터를 추가했습니다. </li>
@@ -1032,7 +1032,7 @@ ht-degree: 99%
 2016년 6월 16일 릴리스된 새로운 기능:
 
 * 관리자가 **[!UICONTROL 분석]** > **[!UICONTROL 작업 영역]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ko-KR) 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
-*   [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스할 수 있는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다.
+*  [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스할 수 있는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다.
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 패널, 시각화, 구성 요소
 * 최대 3개의 세그먼트 및 지표를 드래그하고 벤 다이어그램을 작성할 수 있는 새로운 [](/help/analyze/analysis-workspace/visualizations/venn.md)벤 시각화 유형
