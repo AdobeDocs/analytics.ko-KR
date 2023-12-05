@@ -5,9 +5,9 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,9 +67,9 @@ ht-degree: 97%
 
    * 녹색 선으로 표시되는 예상 값보다 위 또는 아래 값의 백분율 값
 
-   * 기여도 분석을 시작하는 분석 링크
+   * 기여도 분석을 시작하기 위한 분석 링크
 
-     (참조: [예외 항목 탐지 개요](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) 을 참조하십시오.)
+     (자세한 내용은 [예외 항목 탐지 개요](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)를 참조하십시오.)
 
 
 
