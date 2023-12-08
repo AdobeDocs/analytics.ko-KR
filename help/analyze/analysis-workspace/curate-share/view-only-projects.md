@@ -5,16 +5,18 @@ title: 보기 전용 프로젝트
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 82%
+source-wordcount: '238'
+ht-degree: 75%
 
 ---
 
 # 보기 전용 프로젝트
 
-[프로젝트 공유 워크플로](/help/analyze/analysis-workspace/curate-share/share-projects.md)를 통해 받는 사람에게 프로젝트를 &quot;보기 전용&quot;으로 공유할 수 있습니다. 볼 수 있음 역할에 배치된 수신자에게는 보다 제한된 프로젝트 경험이 제공됩니다. 일반적으로 조직의 데이터 구조에 익숙하지 않지만 Analysis Workspace 또는 Adobe Analytics에서 안전한 환경에서 데이터와 통찰력을 소비하려는 사용자에게 프로젝트를 공유하는 경우 이러한 작업이 필요할 수 있습니다.
+[프로젝트 공유 워크플로](/help/analyze/analysis-workspace/curate-share/share-projects.md)를 통해 받는 사람에게 프로젝트를 &quot;보기 전용&quot;으로 공유할 수 있습니다. 볼 수 있음 역할에 배치된 수신자에게는 보다 제한된 프로젝트 경험이 제공됩니다. 일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Adobe Analytics에 익숙하지 않지만 안전한 환경에서 데이터와 통찰력을 소비하려는 사용자에게 프로젝트를 공유하는 경우 이러한 작업이 필요할 수 있습니다.
+
+보기 전용 프로젝트에서도 패널 달력 날짜 범위를 편집할 수 있습니다.
 
 ![](assets/view-only-project.png)
 
@@ -28,7 +30,6 @@ ht-degree: 82%
 
 * 숨겨진 왼쪽 레일
 * 보고서 세트
-* 패널 달력 날짜 범위입니다. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 제공되는 드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)에 추가합니다.
 * 자유 형식 필터링
 * 보이는 행의 자유 형식 수
 * 자유 형식 행, 열 또는 시각화 설정
