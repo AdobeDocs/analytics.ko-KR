@@ -3,10 +3,10 @@ title: 개발 구현 유효성 검사 및 프로덕션에 퍼블리싱
 description: Adobe Experience Platform 태그를 사용하여 Adobe Analytics를 프로덕션 환경에 배포하는 방법에 대해 알아봅니다.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 91%
+source-wordcount: '622'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그를 표시하는 확장 프로그램입니다.
 
-1. [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 또는 [Firefox](https://addons.mozilla.org/ko-KR/firefox/addon/adobe-experience-platform-dbg/)용 확장 프로그램을 설치합니다.
+1. 다음 중 하나에 대한 확장 설치 [크롬](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 또는 Firefox입니다.
 2. 태그를 구현한 개발 웹 사이트로 이동합니다.
 3. 브라우저에 있는 Adobe Experience Cloud 디버거 아이콘을 클릭합니다.
 4. 모든 항목이 올바르게 구현되면 Adobe Analytics 내 콘텐츠, 태그 및 Adobe Experience Cloud 방문자 ID 서비스가 표시됩니다.
@@ -34,11 +34,11 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 사이트에서 구현할 태그 속성을 클릭합니다.
 1. **[!UICONTROL 퍼블리싱]** 탭을 클릭하고 개발 열에서 라이브러리를 찾습니다.
-1. 라이브러리에서 드롭다운 목록을 클릭한 다음 을 선택합니다 **[!UICONTROL 승인을 위한 제출]**. 모달 창에서 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
-1. 라이브러리의 드롭다운 목록을 다시 클릭하고(이제 제출됨 열에서) 을 선택합니다 **[!UICONTROL 스테이징용 빌드]**.
+1. 라이브러리에서 드롭다운 목록을 클릭한 다음 을(를) 선택합니다 **[!UICONTROL 승인을 위해 제출]**. 모달 창에서 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+1. 이번엔 제출됨 열에서 한 번 더 라이브러리의 드롭다운 목록을 클릭한 다음, **[!UICONTROL 스테이징용 빌드]**.
 1. 잠시 후에 라이브러리의 노란색 색상 표시등이 빌드가 성공했음을 나타내는 녹색으로 바뀝니다.
-1. 라이브러리의 드롭다운 목록을 다시 클릭하고 을 선택합니다 **[!UICONTROL 게시 승인]**.
-1. 라이브러리의 드롭다운 목록을 다시 클릭합니다(이제 [!UICONTROL 승인됨] 열), **[!UICONTROL 빌드 및 프로덕션에 게시]**.
+1. 라이브러리의 드롭다운 목록을 다시 클릭하고 을(를) 선택합니다 **[!UICONTROL 게시를 위해 승인]**.
+1. 라이브러리의 드롭다운 목록을 다시 클릭합니다(이제 [!UICONTROL 승인됨] 열), 선택 **[!UICONTROL 빌드 및 프로덕션에 게시]**.
 1. 환경 탭으로 이동한 다음 **[!UICONTROL 프로덕션 환경]**&#x200B;을 클릭합니다.
 1. 프로덕션 설치 코드를 복사하여 웹 사이트 소유자에게 제공합니다. 사이트의 프로덕션 환경에서 이 코드를 구현하도록 요청합니다.
 
