@@ -4,15 +4,15 @@ title: 보고서 사용
 feature: Analysis Workspace
 role: User, Admin
 source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
 # 회사 보고서 만들기 및 관리
 
-사용자 정의 보고서를 만들어 로그인 회사의 다른 사람이 사용할 수 있도록 저장할 수 있습니다. 에 설명된 대로 프로젝트를 만들 때 회사 보고서를 선택할 수 있습니다. [빈 프로젝트 또는 보고서에서 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) 이 문서에서, [Analysis Workspace에서 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+사용자 정의 보고서를 만들고 로그인 회사의 다른 사람들이 사용할 수 있도록 저장할 수 있습니다. [Analysis Workspace에서 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 문서의 [빈 프로젝트 또는 보고서에서 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report)에 설명된 대로 프로젝트를 만들 때 회사 보고서를 선택할 수 있습니다.
 
 ## 사용자 정의 회사 보고서 만들기
 
