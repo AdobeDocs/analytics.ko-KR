@@ -3,16 +3,16 @@ title: Adobe Analytics에서 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 방법
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 84%
+source-wordcount: '763'
+ht-degree: 81%
 
 ---
 
 # Adobe Analytics에서 보트 제거
 
-Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가지 옵션이 있습니다.
+Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션을 제공합니다.
 
 ## 보트 규칙 사용
 
@@ -23,7 +23,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 | 표준 IAB 보트 규칙 | **[!UICONTROL IAB 보트 필터링 규칙 사용]**&#x200B;을 선택하면 [IAB](https://www.iab.com/) (International Advertising Bureau) International Spiders &amp; Bots List를 사용하여 보트 트래픽을 제거합니다. 대부분의 고객은 최소한 이 옵션을 선택합니다. |
 | 사용자 정의 보트 규칙 | 사용자 에이전트, IP 주소 또는 IP 범위를 기반으로 하여 사용자 정의 보트 규칙을 정의하고 추가할 수 있습니다. |
 
-자세한 내용은 [보트 규칙 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)를 참조하십시오.
+자세한 내용은 [보트 규칙 이해 및 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## [!UICONTROL websiteBot] 플러그인을 사용하여 보트를 식별합니다
 

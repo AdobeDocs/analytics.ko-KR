@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
+source-git-commit: 52631b840ed04856480a2c9dae365ae46c844a97
 workflow-type: tm+mt
-source-wordcount: '4914'
-ht-degree: 97%
+source-wordcount: '4959'
+ht-degree: 99%
 
 ---
 
@@ -26,9 +26,10 @@ ht-degree: 97%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 12월** | |
-| 새 보고서 섹션 | 에 대한 정보를 포함하는 새 보고서 섹션이 추가되었습니다. [미리 작성된 보고서 사용](/help/analyze/analysis-workspace/reports/use-reports.md) 및 [회사 보고서 생성 및 관리](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
-| 예외 항목 탐지 및 기여도 분석 설명서 업데이트 | 예외 항목 탐지 및 기여도 분석에 대한 설명서는 이전에 Virtual Analyst에 대한 섹션에 있었습니다. 다음과 같이 변경되었습니다. <ul><li>설명서에서 Virtual Analyst라는 용어를 제거했습니다.</li><li>다음에 대한 섹션: [예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li><li>기여도 분석 설명서가 예외 항목 탐지 설명서에 병합되었습니다.</li></ul> |
-| &quot;Attribution IQ &quot;가 &quot;기여도 분석&quot;으로 변경됨 | &quot;Attribution IQ&quot;의 모든 인스턴스가 &quot;(으)로 변경됨[속성](/help/analyze/analysis-workspace/attribution/overview.md)설명서 전체에서 &quot;&quot; |
+| 보트 규칙 설명서 개선 | 의 업데이트된 정보 [보트 규칙 이해 및 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) 명확성을 개선합니다.<p>향상된 기능은 다음과 같습니다.</p> <ul><li>더 설명적인 문서 제목을 업데이트했습니다.</li><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계가 추가되었습니다.</li><li>보트 규칙을 업로드할 때 CSV 파일 요구 사항에 대한 자세한 내용을 추가했습니다</li></ul> |
+| 새 보고서 섹션 | [사전 작성된 보고서 사용](/help/analyze/analysis-workspace/reports/use-reports.md) 및 [회사 보고서 만들기 및 관리](/help/analyze/analysis-workspace/reports/create-company-reports.md)에 대한 정보가 포함된 새 보고서 섹션이 추가되었습니다. |
+| 예외 항목 탐지 및 기여도 분석 설명서 업데이트 | 예외 항목 탐지 및 기여도 분석에 대한 설명서는 가상 분석가와 관련된 이전 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li><li>기여도 분석 설명서가 예외 항목 탐지 설명서에 병합되었습니다.</li></ul> |
+| “Attribution IQ”가 “속성”으로 변경되었습니다. | 설명서 내용 전체에서 “Attribution IQ”의 모든 인스턴스를 “[속성](/help/analyze/analysis-workspace/attribution/overview.md)”으로 변경했습니다. |
 | **2023년 11월** | |
 | Activity Map 활성화/활성화 항목 업데이트 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=ko)(수동 및 Adobe Experience Platform 태그 확장을 통해) 콘텐츠가 추가되었습니다. |
 | **2023년 10월** | |
@@ -190,7 +191,7 @@ ht-degree: 97%
 | 2020년 11월 12일 | 상속된 [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html)에 대한 새 페이지입니다. |
 | 2020년 11월 2일 | [분류용 FTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html)에 대한 설명서를 업데이트했습니다. |
 | **2020년 10월** | |
-| 2020년 10월 23일 | 작업 영역 라인 시각화: [평균 트렌드 라인 이동 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): 이 설정은 [!UICONTROL 라인] 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트(**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
+| 2020년 10월 23일 | 작업 영역 라인 시각화: [이동 평균 트렌드 라인 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): 이 설정은 [!UICONTROL 라인] 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트(**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
 | 2020년 10월 23일 | Analysis Workspace [성능 도움말 페이지](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html)에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. |
 | 2020년 10월 23일 | Adobe Analytics 대시보드 설명서에 개선 사항이 추가되었습니다. 작업 영역의 모바일 스코어카드에서 스코어카드의 스타일이 앱과 일치합니다. |
 | **2020년 9월** | |

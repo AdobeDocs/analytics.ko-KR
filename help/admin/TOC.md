@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 97%
+source-wordcount: '641'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
    + [데이터 소스](admin/data-sources.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [로그](admin/logs.md)
-   + 보고 활동 관리자 {#reporting-activity-manager}
+   + 활동 관리자 보고 {#reporting-activity-manager}
       + [개요](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [보고 활동 보기](admin//reporting-activity-manager/reporting-activity.md)
       + [보고 요청 취소](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -71,7 +71,7 @@ ht-degree: 97%
                + [처리 규칙 팁과 트릭](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + 보트 규칙 {#bot-removal}
                + [보트 제거](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [보트 규칙 개요](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [보트 규칙 이해 및 구성](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [일반 보트 서명](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [보트 제외 방법](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [개인정보 보호 설정](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -158,7 +158,7 @@ ht-degree: 97%
       + [환경 설정 관리자](admin/company/preferences-manager.md)
       + [보류 중인 작업](admin/company/pending-actions-admin.md)
       + [기능 액세스 수준](admin/company/feature-access-levels.md)
-   + 데이터 거버넌스 프라이버시 라벨링 {#data-governance}
+   + 데이터 거버넌스 개인 정보 보호 레이블 {#data-governance}
       + [Adobe Analytics 데이터 개인정보 보호 워크플로](admin/c-data-governance/an-gdpr-workflow.md)
       + [자주 묻는 질문](admin/c-data-governance/gdpr-faq.md)
       + 데이터 레이블 지정 {#data-labels}
