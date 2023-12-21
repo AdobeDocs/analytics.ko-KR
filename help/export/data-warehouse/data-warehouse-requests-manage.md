@@ -4,21 +4,14 @@ title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 13%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
 # Data Warehouse 요청 관리
-
-{{release-limited-testing}}
-
->[!NOTE]
->
->모든 고객이 곧 사용할 수 있는 새로운 Data Warehouse 경험이 조직에 아직 없는 경우 의 정보를 사용하십시오. [Data Warehouse 요청 관리(이전 경험)](#manage-data-warehouse-requests-old-experience) 이 페이지의 맨 아래에 있습니다.
-
 
 수행한 Data Warehouse 요청을 보고 관리할 수 있습니다. 관리자만 조직의 다른 사용자가 수행한 요청을 보고 관리할 수 있습니다.
 
@@ -88,14 +81,14 @@ ht-degree: 13%
 
    | 열 | 설명 |
    |---------|----------|
-   | [!UICONTROL **제작일**] | 보고서가 생성된 날짜와 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
-   | [!UICONTROL **시작 일자**] | 보고서가 시작된 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
-   | [!UICONTROL **완료 일자**] | 보고서가 완료된 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
-   | [!UICONTROL **업데이트 일자**] | 보고서를 마지막으로 업데이트한 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **만든 날짜**] | 보고서가 생성된 날짜와 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **시작 날짜**] | 보고서가 시작된 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **완료 날짜**] | 보고서가 완료된 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **날짜 업데이트됨**] | 보고서를 마지막으로 업데이트한 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
    | [!UICONTROL **상태**] | 보고서 게재의 상태입니다. 가능한 상태는 다음과 같습니다.<ul><li>[!UICONTROL **생성됨**]: 보고서가 생성되었지만 아직 처리되지 않았습니다.</li><li>[!UICONTROL **보류 중**]: 보고서가 처리 대기 중입니다.</li><li>[!UICONTROL **처리 중**]: 보고서가 현재 처리 중입니다.</li><li>[!UICONTROL **완료됨**]: 보고서가 완료되었으며 이제 사용할 수 있습니다.</li><li>[!UICONTROL **예약됨**]: 보고서가 예약되었지만 아직 시작되지 않았습니다.</li><li>[!UICONTROL **취소됨**]: 사용자가 보고서를 취소했습니다.</li><li>[!UICONTROL **오류 - 처리 중**:] 보고서에 오류가 발생하여 처리할 수 없습니다.</li><li>[!UICONTROL **오류 - 전송 실패**]: 보고서가 생성되었지만 게재할 수 없습니다. 다음 확인: [대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)를 클릭한 다음 보고서를 다시 보냅니다.</li></ul>. |
-   | [!UICONTROL **From**] | 보고서에 포함된 전체 시간대의 시작 일자.<p>보고서 세트의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **시작**] | 보고서에 포함된 전체 시간대의 시작 일자.<p>보고서 세트의 시간대에 표시됩니다.</p> |
    | [!UICONTROL **종료**] | 보고서에 포함된 전체 시간대의 종료 일자. <p>보고서 세트의 시간대에 표시됩니다.</p> |
-   | [!UICONTROL **기존 요청 ID**] | 기존 Data Warehouse 인터페이스에서 보고서를 식별하는 데 사용되는 ID입니다. 이 ID는 Adobe 고객 지원 센터에 문의할 때 필요할 수 있습니다. |
+   | [!UICONTROL **레거시 요청 ID**] | 기존 Data Warehouse 인터페이스에서 보고서를 식별하는 데 사용되는 ID입니다. 이 ID는 Adobe 고객 지원 센터에 문의할 때 필요할 수 있습니다. |
    | [!UICONTROL **보고서 ID**] | 현재 Data Warehouse 인터페이스에서 보고서를 식별하는 데 사용되는 ID입니다. 이 ID는 Adobe 고객 지원 센터에 문의할 때 필요할 수 있습니다. |
 
 
@@ -103,10 +96,10 @@ ht-degree: 13%
 
    | 옵션 | 함수 |
    |---------|----------|
-   | [!UICONTROL **대상 세부 정보**] | 요청과 연결된 계정 및 위치 세부 정보를 표시합니다. 에 설명된 대로 이전에 구성된 계정 및 위치입니다. [Data Warehouse 요청에 대한 보고서 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **대상 세부 사항**] | 요청과 연결된 계정 및 위치 세부 정보를 표시합니다. 에 설명된 대로 이전에 구성된 계정 및 위치입니다. [Data Warehouse 요청에 대한 보고서 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **보고서 취소**] | 보고서를 취소합니다. 상태가 인 보고서는 취소할 수 없습니다. [!UICONTROL **완료됨**] 또는 [!UICONTROL **취소됨**]. |
-   | [!UICONTROL **보고서 재실행**] | 데이터를 원래 보냈을 때의 상태로 보고서를 다시 실행합니다. 다음 상태의 보고서를 다시 실행할 수 있습니다. [!UICONTROL **취소됨**], [!UICONTROL **완료됨**], [!UICONTROL **오류 - 처리 중**], 또는 [!UICONTROL **오류 - 전송 실패**]. |
-   | [!UICONTROL **보고서 재전송**] | 이전에 생성된 보고서 파일을 다시 보냅니다. 다음 상태의 보고서를 다시 보낼 수 있습니다. [!UICONTROL **완료됨**] 또는 [!UICONTROL **오류 - 전송 실패**]. |
+   | [!UICONTROL **보고서 다시 실행**] | 데이터를 원래 보냈을 때의 상태로 보고서를 다시 실행합니다. 다음 상태의 보고서를 다시 실행할 수 있습니다. [!UICONTROL **취소됨**], [!UICONTROL **완료됨**], [!UICONTROL **오류 - 처리 중**], 또는 [!UICONTROL **오류 - 전송 실패**]. |
+   | [!UICONTROL **보고서 다시 보내기**] | 이전에 생성된 보고서 파일을 다시 보냅니다. 다음 상태의 보고서를 다시 보낼 수 있습니다. [!UICONTROL **완료됨**] 또는 [!UICONTROL **오류 - 전송 실패**]. |
 
 ## 요청 복사
 
@@ -179,31 +172,3 @@ ht-degree: 13%
 1. Data Warehouse 페이지 상단의 검색 필드에서 보려는 요청 이름을 지정합니다.
 
    요청은 사용자가 입력하는 대로 필터링됩니다.
-
-## Data Warehouse 요청 관리(이전 경험)
-
->[!NOTE]
->
->다음 정보는 조직에 모든 Analytics 고객이 곧 사용할 수 있는 새로운 Data Warehouse 경험이 아직 없는 경우에만 적용됩니다.
-
-
-요청 관리자에서 요청을 보고, 복제하고, 요청의 우선순위를 변경할 수 있습니다.
-
-Data Warehouse에서 **[!UICONTROL 요청 관리자]** 탭을 선택합니다.
-
-이 탭에서 작업할 때 가능한 사항
-
-* 보고서 이름, 적용된 세그먼트, 요청자, 요청 날짜 및 상태별로 최근 보고서 요청 보기.
-* 요청 복제. 요청 옆에 있는 **[!UICONTROL 복제]**&#x200B;를 클릭합니다.
-
-  >[!NOTE]
-  >
-  >이 작업에서는 일정이나 배달 세부 정보는 복제되지 않고 요청만 복제됩니다.
-
-* 보고서 이름이나 요청자의 로그인 이름을 사용한 보고서 검색.
-* 큐 내의 새 위치로 보고서를 드래그해다 놓는 방법으로 보고서 우선 순위 변경.
-* 요청 처리가 언제 시작되었는지 보려면 예약된 요청 ID를 클릭하고 열리는 팝업을 확인합니다.
-
-해당 작업에 대한 개별 요청을 보려면 작업을 클릭합니다.
-
-* 제한적 평가: 조직에서 실행 중인 Data Warehouse 요청이 너무 많습니다. 다른 데이터 요청이 완료될 때까지 요청이 일시 중지됩니다.
