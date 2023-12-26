@@ -7,7 +7,7 @@ user-guide-description: Analysis Workspace, Analytics 대시보드, Report Build
 source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 98%
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
    + 보고서 {#reports}
-      + [미리 작성된 보고서 사용](analysis-workspace/reports/use-reports.md)
+      + [사전 작성된 보고서 사용](analysis-workspace/reports/use-reports.md)
       + [회사 보고서 만들기 및 관리](analysis-workspace/reports/create-company-reports.md)
    + 구성 요소 {#components}
       + [구성 요소 개요](analysis-workspace/components/analysis-workspace-components.md)
