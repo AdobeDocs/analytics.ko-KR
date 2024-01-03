@@ -3,24 +3,24 @@ title: 옵트아웃 링크
 description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 92%
+source-wordcount: '563'
+ht-degree: 71%
 
 ---
 
 # 구현 옵트아웃 링크
 
-*이 도움말 페이지에서는 Adobe Analytics 고객에게 옵트아웃 링크를 제공할 수 있는 기능을 제공합니다. Adobe Analytics 고객이 아닌 경우 다음을 참조하십시오 [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html) Adobe이 정보를 사용하는 방법을 제어합니다.*
-
 >[!IMPORTANT]
 >
->특히 GDPR 관련 조직의 경우 옵트인 서비스를 사용하는 것이 좋습니다. Experience Cloud ID 서비스 사용 안내서의 [옵트인 서비스 개요](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)를 참조하십시오.
+> **이 도움말 페이지에서는 Adobe Analytics 고객에게 옵트아웃 링크를 제공할 수 있는 기능을 제공합니다. Adobe Analytics 고객이 아닌 경우 다음을 참조하십시오 [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html) Adobe이 정보를 사용하는 방법을 제어합니다.**
 
-웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe에서는 웹 사이트 방문자가 정보 수집을 옵트아웃할 수 있는 기능을 제공합니다. 모든 구현 유형이 수용됩니다. 조직은 자체 개인정보 처리방침과 서명한 약관 준수 유지에 대한 책임을 져야 합니다.
+웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe은 웹 사이트 방문자에게 분석 대상 정보를 옵트아웃할 수 있는 수단을 제공하는 기능을 제공합니다.
 
-방문자가 옵트아웃 URL에 도달하면 옵트아웃 쿠키를 설치하라는 메시지가 표시됩니다. 사용자가 추적되지 않도록 선택하고 옵트아웃 쿠키가 설정된 경우 JavaScript 파일이 계속해서 Adobe 서버에 데이터를 보냅니다. 하지만 이 데이터는 처리되거나 보고서에 포함되지 않습니다.
+옵트아웃 링크는 웹 사이트 방문자가 Analytics 보고에서 데이터를 생략하도록 허용하는 방법입니다. 이러한 링크는 AppMeasurement 구현으로 제한됩니다. Adobe은 [Adobe Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR) 대신, 옵트인 서비스는 보다 강력하며 Adobe Analytics 및 AppMeasurement을 포함한 여러 Adobe Experience Cloud 제품에서 작동합니다.
+
+방문자가 옵트아웃 URL에 도달하면 옵트아웃 쿠키를 설치하라는 메시지가 표시됩니다. 사용자가 추적되지 않도록 선택하고 옵트아웃 쿠키가 설정된 경우 AppMeasurement은 Adobe에게 데이터를 계속 전송합니다. 하지만 이 데이터는 처리되거나 보고서에 포함되지 않습니다.
 
 >[!TIP]
 >
@@ -58,34 +58,30 @@ ht-degree: 92%
 
 `locale` 쿼리 문자열 매개 변수를 포함하여 옵트아웃 페이지의 언어를 자동으로 전환하십시오. 이 쿼리 문자열 매개 변수는 다음 값 중 하나를 지정합니다.
 
-* en_US (영어, 기본값)
-* bg_BG (불가리아어)
-* zh_CN (중국어 간체)
-* zh_TW (중국어 번체)
-* cs_CZ (체코어)
-* da_NK (덴마크어)
-* nl_NL (네덜란드어)
-* et_EE (에스토니아어)
-* fi_FI (핀란드어)
-* fr_FR (프랑스어)
-* de_DE (독일어)
-* el_GR (그리스어)
-* it_IT (이탈리아어)
-* jp_JP (일본어)
-* ko_KR (한국어)
-* lv_LV (라트비아어)
-* lt_LT (리투아니아어)
-* nb_NO (노르웨이어)
-* pl_PL (폴란드어)
-* pt_BR (포르투갈어)
-* sk_SK (슬로바키아어)
-* es_ES (스페인어)
+* `en_US` (영어, 기본값)
+* `bg_BG` (불가리아어)
+* `zh_CN` (중국어 간체)
+* `zh_TW` (중국어 번체)
+* `cs_CZ` (체코어)
+* `da_NK` (덴마크어)
+* `nl_NL` (네덜란드어)
+* `et_EE` (에스토니아어)
+* `fi_FI` (핀란드어)
+* `fr_FR` (프랑스어)
+* `de_DE` (독일어)
+* `el_GR` (그리스어)
+* `it_IT` (이탈리아어)
+* `jp_JP` (일본어)
+* `ko_KR` (한국어)
+* `lv_LV` (라트비아어)
+* `lt_LT` (리투아니아어)
+* `nb_NO` (노르웨이어)
+* `pl_PL` (폴란드어)
+* `pt_BR` (포르투갈어)
+* `sk_SK` (슬로바키아어)
+* `es_ES` (스페인어)
 
 예를 들어 `https://example.data.adobedc.net/optout.html?locale=ko_KR`은 옵트아웃 페이지를 한국어로 로드합니다.
-
->[!TIP]
->
->기본적으로 페이지가 영어로 로드되므로 `en_US` 쿼리 문자열 값은 필요하지 않습니다.
 
 ### 팝업
 

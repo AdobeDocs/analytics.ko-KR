@@ -3,10 +3,10 @@ title: 페이지 이벤트
 description: 트리거된 링크 추적 작업의 수입니다.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a7434f72159a575f9ad7bf29644cb17777382df7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 50%
+source-wordcount: '146'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 50%
 
 ## 이 지표의 계산 방법
 
-이 지표는 모두 계산합니다. [링크 추적 호출 (`tl()`)](/help/implement/vars/functions/tl-method.md) 를 참조하십시오. 모든 링크 유형이 포함됩니다 (사용자 지정 링크, 다운로드 링크 및 종료 링크). 이 호에는 다음의 것을 포함하지 아니한다. [페이지 보기 추적 호출 (`t()`)](/help/implement/vars/functions/t-method.md).
+이 지표는 모두 계산합니다. [링크 추적 호출 (`tl()`)](/help/implement/vars/functions/tl-method.md) 를 참조하십시오. 모든 링크 유형은 이 지표에 포함됩니다(특히 [사용자 지정 링크](../dimensions/custom-link.md), [다운로드 링크](../dimensions/download-link.md), 및 [종료 링크](../dimensions/exit-link.md). 이 호에는 다음의 것을 포함하지 아니한다. [페이지 보기 추적 호출 (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## 유사한 지표와 비교
 
