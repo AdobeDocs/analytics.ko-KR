@@ -4,9 +4,9 @@ title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 4%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 4%
    | 보고서 세트 | 요청과 연결된 보고서 세트입니다. |
    | 요청자 | 요청을 만든 사용자입니다. |
    | 요청 일자 | 요청이 수행된 날짜. |
-   | 상태 | 다음 상태를 사용할 수 있습니다.<ul><li><p>**완료됨**: 요청이 정상적으로 실행되었습니다.</p></li><li><p>**취소됨**: 사용자가 요청을 취소했습니다.</p></li><li><p>**예약됨**: 요청이 일정에 따라 실행되도록 구성되었습니다.</p></li><!-- Are there other statuses? Failed? --> |
+   | 상태 | 다음 상태를 사용할 수 있습니다.<ul><li><p>**완료됨**: 요청이 정상적으로 실행되었습니다.</p></li><li><p>**취소됨**: 사용자가 요청을 취소했습니다.</p></li><li><p>**예약됨**: 요청이 일정에 따라 실행되도록 구성되었습니다.</p></li><li><p>**실패**: 요청을 완료하지 못했습니다. 요청이 계속 실패하는 경우 고객 지원 센터에 문의하십시오.</p></li></ul> |
 
    {style="table-layout:auto"}
 

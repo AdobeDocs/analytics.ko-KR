@@ -3,9 +3,9 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2167'
 ht-degree: 10%
 
 ---
@@ -38,7 +38,9 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
    ![보고서 대상 탭](assets/dw-report-destination.png)
 
-1. (조건부) 보고서 대상으로 사용할 계정(및 해당 계정의 대상)을 이전에 구성한 경우:
+1. (조건부) 보고서 대상으로 사용할 계정(및 해당 계정의 대상)이 이미 구성된 경우:
+
+   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
 
    1. 에서 계정 선택 [!UICONTROL **계정 선택**] 드롭다운 메뉴.
 
@@ -123,7 +125,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
       |---------|----------|
       | [!UICONTROL **수신자**] | 보고서를 전송할 때 특정 사용자에게 이메일 알림을 전송할 수 있습니다. 단일 이메일 주소 또는 쉼표로 구분된 이메일 주소 목록을 지정합니다. <!-- How does this differ from the Notification email tab? --> |
 
-   1. 선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  | | [!UICONTROL **설명**] | 같은 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. | | [!UICONTROL **위치 계정**] | 만든 위치 계정 선택 [계정 추가](#add-an-account). |
+   1. 선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  | | [!UICONTROL **설명**] | 동일한 계정 유형의 다른 계정과 구분하는 데 도움이 되도록 계정에 대한 간단한 설명을 입력합니다. | | [!UICONTROL **위치 계정**] | 만든 위치 계정 선택 [계정 추가](#add-an-account). |
 
    1. 다음에서 [!UICONTROL **위치 속성**] 섹션에서 위치 계정의 계정 유형과 관련된 정보를 지정합니다.
 
