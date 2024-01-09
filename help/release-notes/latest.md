@@ -3,10 +3,10 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 90%
+source-wordcount: '1002'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Warehouse 업데이트** | 이제 다음 Data Warehouse 개선 사항을 사용할 수 있습니다.<ul><li>이제 Data Warehouse 요청을 만들 때 다음과 같은 새 토글을 활성화하여 조직의 모든 사용자가 요청을 사용할 수 있도록 할 수 있습니다. [!UICONTROL **조직의 사용자가 사용할 수 있도록 설정**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>이제 시스템 관리자는 Data Warehouse 보고서 대상을 만들거나 관리할 때, [!UICONTROL **모든 대상 표시**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | 해당 사항 없음 | 2024년 1월 10일 목요일 |
+| **Data Warehouse 업데이트** | 이제 다음 Data Warehouse 개선 사항을 사용할 수 있습니다.<ul><li>이제 Data Warehouse 요청을 만들 때 다음과 같은 새 토글을 활성화하여 조직의 모든 사용자가 요청을 사용할 수 있도록 할 수 있습니다. [!UICONTROL **조직의 사용자가 사용할 수 있도록 설정**].<p>자세한 내용은 [Data Warehouse 요청 일반 설정](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>이제 시스템 관리자는 Data Warehouse 보고서 대상을 만들거나 관리할 때, [!UICONTROL **모든 대상 표시**].<p>자세한 내용은 [Data Warehouse 요청에 대한 보고서 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | 해당 사항 없음 | 2024년 1월 10일 목요일 |
 
 {style="table-layout:auto"}
 
