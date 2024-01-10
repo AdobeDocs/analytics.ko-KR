@@ -3,55 +3,57 @@ title: getPageLoadTime
 description: 페이지를 로드하는 데 걸리는 시간을 추적합니다.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: dd9046bbb8d640d7392cddfab7ce34c4310e6eb7
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 86%
+source-wordcount: '34'
+ht-degree: 41%
 
 ---
 
 # Adobe 플러그인: getPageLoadTime
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 더 이상 지원되지 않습니다. 이 코드는 MDN에 따라 다음과 같은 performance.timing 메서드를 사용합니다. [더 이상 사용되지 않음](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming).
 
-`getPageLoadTime` 플러그인은 JavaScript 성능 오브젝트를 사용하여 페이지를 완전히 로드하는 데 걸리는 시간을 측정할 수 있도록 해 줍니다. 페이지를 로드하는 데 걸리는 시간을 측정하려면 이 플러그인을 사용하는 것이 좋습니다.
+<!-- The `getPageLoadTime` plug-in uses the JavaScript performance object to allow you to measure the amount of time a page takes to completely load. Adobe recommends using this plug-in if you want to measure how long pages take to load.
 
->참고/경고: 이전 버전에서 이 플러그인을 업그레이드하는 경우 이 기능을 호출하는 코드도 변경해야 할 수 있습니다.  프로덕션에 배포하기 전에 구현 및 테스트를 철저히 확인하십시오.
+>NOTE/WARNING: If you are upgrading this plugin from a previous version, you will most likely need to change the code that calls this function as well.  Please check your implementation and test thoroughly before deploying to production.
 
-## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
+## Install the plug-in using the Web SDK or Web SDK extension
 
-이 플러그인은 아직 웹 SDK에서 사용할 수 없습니다.
+This plug-in is supported for use within the Web SDK.
 
-## Adobe Analytics 확장을 사용하여 플러그인 설치
+## Install the plug-in using the Adobe Analytics extension
 
-Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장을 제공합니다.
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
 
-1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
-1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 버튼을 클릭합니다.
-1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
-1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
-   * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
-1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
-   * 확장: 일반적인 Analytics 플러그인
-   * 작업 유형: getPageLoadTime 초기화
-1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getPageLoadTime
+1. Save and publish the changes to the rule.
 
-## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## Install the plug-in using custom code editor
 
-일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려면 사용자 지정 코드 편집기를 사용할 수 있습니다.
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
-1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
-1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
-1. [!UICONTROL 사용자 정의 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
-1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
-1. 변경 사항을 저장하고 Analytics 확장에 게시합니다.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click on the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
+1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
+1. Save and publish the changes to the Analytics extension.
 
-## AppMeasurement를 사용하여 플러그인 설치
+## Install the plug-in using AppMeasurement
 
-Analytics 추적 오브젝트가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 댓글 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,22 +62,22 @@ Analytics 추적 오브젝트가 인스턴스화 ([`s_gi`](../functions/s-gi.md)
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 플러그인 사용
+## Use the plug-in
 
-`getPercentPageViewed` 함수에서는 다음 인수를 사용합니다.
+The `getPercentPageViewed` function uses the following arguments:
 
-* **`pv`**(선택 사항, 문자열): 페이지 로드 시간을 연관시킬 차원입니다.  이 값은 페이지 자체를 식별하는 값과 같아야 합니다. 설정되지 않은 경우 이 인수는 Adobe AppMeasurement pageName 변수(예: s.pageName) 또는 s.pageName이 설정되지 않은 경우 URL로 기본 설정됩니다.
+* **`pv`** (optional, string):  The dimension to correlate the page load time with.  This value should be equal to a value that identifies the page itself. When not set, this argument defaults to the Adobe AppMeasurement pageName variable (i.e. s.pageName) or the URL when s.pageName is not set 
 
-이 함수를 호출하면 아무 것도 반환되지 않습니다. 대신 다음 변수를 설정합니다.
+Calling this function returns nothing; instead, it sets the following variables:
 
-* `window._pltPreviousPage`: 이전 페이지의 값(즉, pv 인수로 전달된 값)
-* `window._pltLoadTime`: 이전 페이지가 로드되는 데 걸린 시간(초)을 설정합니다.
+* `window._pltPreviousPage`: The value of the previous page (i.e. what was passed into the pv argument)
+* `window._pltLoadTime`: The time in seconds that the previous page took to load
 
-getPageLoadTime 플러그인은 다음과 같이 한 개의 자사 쿠키를 만듭니다.
+The getPageLoadTime plug-in creates one first-party cookie:
 
-* `s_plt`: 이전 페이지가 로드되는 데 걸린 시간(초)입니다.  pv 인수로 전달된 값도 포함합니다.  브라우저 세션이 끝날 때 만료됩니다.
+* `s_plt`: The time, in seconds, that the previous page took to load.  Also contains the value of what was passed into the pv argument.  Expires at the end of the browser session.
 
-## 예
+## Example
 
 ```js
 // 1. Run the getPageLoadTime function if the pageName variable is set
@@ -92,23 +94,23 @@ if(window._pltPreviousPage)
 }
 ```
 
-## 버전 내역
+## Version History
 
-### 3.0(2022년 12월 6일)
+### 3.0 (December 6, 2022)
 
-* 솔루션에 구애받지 않도록 플러그인을 완전히 재작성합니다.  예를 들어 이제 Adobe Experience Platform 웹 SDK와 호환됩니다
-* AppMeasurement 오브젝트가 아닌 창 오브젝트에 `_pltPreviousPage`및 `_pltLoadTime` 변수를 생성합니다.
-* s_pltp 쿠키의 필요성 제거 - 이제 모든 항목이 s_plt 쿠키에만 저장됩니다.
-* 문제 해결에 도움이 되는 getVersion 기능이 포함됩니다.
+* Complete rewrite of plugin to make it solution-agnostic.  For instance, this is now compatible with the Adobe Experience Platform Web SDK.
+* Creates the `_pltPreviousPage` and `_pltLoadTime` variables in the window object (rather than in the AppMeasurement s object)
+* Removes the need for the s_pltp cookie - everything is now stored in only the s_plt cookie
+* Includes the getVersion function to help with troubleshooting
 
-### 2.0.1(2021년 3월 26일)
+### 2.0.1 (March 26, 2021)
 
-* 플러그인이 오브젝트 값을 제대로 설정하지 못하는 문제가 수정되었습니다.
+* Fixed issue where plugin was not correctly setting values on the s object.
 
-### 2.0 (2021년 3월 19일)
+### 2.0 (March 19, 2021)
 
-* 버전 번호를 컨텍스트 데이터로 추가했습니다.
+* Added version number as context data.
 
-### 1.0 (2018년 5월 22일)
+### 1.0 (May 22, 2018)
 
-* 초기 릴리스.
+* Initial release.-->
