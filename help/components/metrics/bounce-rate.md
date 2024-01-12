@@ -3,10 +3,10 @@ title: 바운스 비율
 description: 여러 항목에 대해 정확히 하나의 히트가 있는 방문 비율입니다.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: b9073cdb6e47358c4f60922dcbed798cd955c29e
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 30%
+source-wordcount: '161'
+ht-degree: 11%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 30%
 
 ## 이 지표의 계산 방법
 
-이 지표는 공식을 사용하여 계산됩니다 [`Bounces`](bounces.md) `divided by` [`Entries`](entries.md).
+이 지표는 공식을 사용하여 계산됩니다 [바운스](bounces.md) 다음으로 나눔 [항목](entries.md).
