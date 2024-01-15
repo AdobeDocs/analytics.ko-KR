@@ -3,11 +3,11 @@ description: 처리 규칙은 컨텍스트 데이터 변수에 따라 이벤트�
 subtopic: Processing rules
 title: 컨텍스트 데이터 변수를 사용하여 이벤트 설정
 feature: Admin Tools
-uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
+role: Admin
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '156'
 ht-degree: 100%
 
 ---

@@ -2,10 +2,11 @@
 description: 데이터 거버넌스를 위한 개인정보 보호 레이블 지정 대화 상자는 보고서 세트의 개인정보 보호 레이블 및 네임스페이스에 대한 개요를 제공합니다. 여기에서 설정을 .csv 파일로 내보낼 수도 있습니다.
 title: 데이터 거버넌스를 위한 개인정보 보호 레이블 지정 보기/관리
 feature: Data Governance
+role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '820'
 ht-degree: 95%
 
 ---

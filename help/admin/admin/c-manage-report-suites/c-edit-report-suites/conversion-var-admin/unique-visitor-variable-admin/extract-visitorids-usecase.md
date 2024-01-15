@@ -2,11 +2,12 @@
 description: Data Warehouse는 방문자 ID 목록을 추출할 수 있는 기능을 제공합니다. 이러한 ID는 쿠키 ID가 아니고 전환 변수 중 하나에서 캡처한 ID입니다. 이 정보를 다른 방법으로 얻을 수도 있지만, 다음 방법을 사용하면 간단하게 Data Warehouse 요청을 생성할 수 있습니다.
 title: 사용 사례 - 방문자 ID 추출
 feature: Admin Tools
+role: Admin
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 Data Warehouse는 방문자 ID 목록을 추출할 수 있는 기능을 제공합니다. 이러한 ID는 쿠키 ID가 아니고 전환 변수 중 하나에서 캡처한 ID입니다. 이 정보를 다른 방법으로 얻을 수도 있지만, 다음 방법을 사용하면 간단하게 Data Warehouse 요청을 생성할 수 있습니다.
 
-예를 들어, 비즈니스에서 고객과 잠재고객에게 마케팅 이메일을 보내는 경우를 가정할 수 있습니다. 각 이메일 수신자에게는 이메일 시스템에서 고유한 ID가 지정됩니다( *`EMAIL Contact ID`*). 연락처에서 이메일을 받고 링크를 클릭한 방문자는 캠페인 ID와 고유한 이메일 연락처 ID가 지정된 상태로 웹 사이트에 도착합니다. 예를 들어 이메일 링크는 다음과 같이 확인될 수 있습니다.
+예를 들어, 비즈니스에서 고객과 잠재고객에게 마케팅 이메일을 보내는 경우를 가정할 수 있습니다. 이러한 각 전자 메일 수신자는 전자 메일 시스템에서 고유한 ID를 갖습니다(예: *`EMAIL Contact ID`*). 연락처에서 이메일을 받고 링크를 클릭한 방문자는 캠페인 ID와 고유한 이메일 연락처 ID가 지정된 상태로 웹 사이트에 도착합니다. 예를 들어 이메일 링크는 다음과 같이 확인될 수 있습니다.
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

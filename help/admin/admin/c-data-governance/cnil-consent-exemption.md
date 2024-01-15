@@ -2,11 +2,12 @@
 description: 디바이스 또는 브라우저에서 필수적이지 않은 쿠키를 저장하거나 읽기 위한 사용자 동의에 대한 가이드라인 및 권장 사항에 대해 살펴보십시오.
 title: 사용자 동의 및 쿠키에 대한 CNIL 가이드라인은 무엇입니까
 feature: Data Governance
+role: Admin
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 100%
 * 13개월 쿠키 제한.  `cookieLifetime` 변수를 사용하여 분석 쿠키 만료를 재정의할 수 있습니다. Analytics, ECID가 포함된 Experience Cloud 쿠키로 인해 방문할 때마다 쿠키 만료일이 연장됩니다.  고정적이고 비순환하는 쿠키 만료일을 설정하려면 (1) 사용자 정의 코드를 작성하여 쿠키를 삭제할 날짜를 설정하거나 (2) CMP를 시용하여 쿠키 재설정 날짜를 제어합니다.   [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=ko-KR) 및 [Experience Cloud 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ko-KR#ec-cookies)
 * 제한적 범위. 쿠키의 범위는 단일 사이트 또는 애플리케이션으로 제한되어야 합니다. [브라우저 쿠키](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html?lang=ko-KR#third-party-cookie-limitations)
 * 익명화. IP 주소의 마지막 옥텟을 익명화합니다. [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
-* 보고에서 방문자 ID를 숨깁니다.  방문자 ID는 기본적으로 Adobe Workspace 및 Adobe Reports &amp; Analytics에 표시되지 않습니다.  방문자 ID는 데이터 피드 및 Data Warehouse에서 제공됩니다.  데이터 피드 및 Data Warehouse에 대한 액세스는 [Admin Console의 액세스 권한](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR)에 의해 제한될 수 있습니다. 및 [데이터 피드 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR#columns%2C-descriptions%2C-and-data-types)
+* 보고에서 방문자 ID를 숨깁니다.  방문자 ID는 기본적으로 Adobe Workspace 및 Adobe Reports &amp; Analytics에 표시되지 않습니다.  방문자 ID는 데이터 피드 및 Data Warehouse에서 제공됩니다.  데이터 피드 및 Data Warehouse에 대한 액세스는 다음으로 제한할 수 있습니다. [Admin Console의 액세스 권한](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) 및 [데이터 피드 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko-KR#columns%2C-descriptions%2C-and-data-types)
 * 지리적 위치 매개변수. 지리적 위치는 우편번호 수준보다 정확할 수 없습니다. [우편번호 옵션](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=ko-KR) 및 [일반 계정 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=ko-KR)
 * 옵트인 옵션 설정.  옵트인 서비스를 사용하면 방문자가 사용자의 사이트를 방문할 때 사용자의 디바이스 또는 브라우저에 쿠키를 설정할 수 있는지 확인할 수 있도록 프로토콜을 설정할 수 있습니다. [옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)
 * 데이터 공유 방지.  Adobe Audience Manager에 대한 데이터 공유를 금지하려면 `opt.dmp` [개인정보 보고 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)에 대해 컨텍스트 변수를 사용하여 히트가 공유되지 않도록 차단합니다.

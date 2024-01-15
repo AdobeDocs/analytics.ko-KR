@@ -2,10 +2,11 @@
 description: eVar, prop, 분류 및 이벤트에 대한 사용자 정의 보고서 설명을 입력할 수 있습니다. 설명은 모든 최종 사용자에게 표시됩니다.
 title: 사용자 정의 보고서 설명
 feature: Admin Tools
+role: Admin
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
@@ -29,8 +30,8 @@ eVar, prop, 분류 및 이벤트에 대한 사용자 정의 보고서 설명을 
 
 * 해당 보고서의 제목 표시줄에:
 
-   ![](/help/admin/admin/assets/report_description_2.png)
+  ![](/help/admin/admin/assets/report_description_2.png)
 
 * 왼쪽 탐색 창에서 마우스로 보고서를 가리키면 툴팁으로:
 
-   ![](/help/admin/admin/assets/report_description_3.png)
+  ![](/help/admin/admin/assets/report_description_3.png)

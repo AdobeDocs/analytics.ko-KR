@@ -3,10 +3,11 @@ description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명�
 subtopic: Processing rules
 title: 처리 규칙에 사용 가능한 차원
 feature: Processing Rules
+role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -84,7 +85,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>보고서 세트 ID (읽기 전용) </p> </td> 
+   <td colname="col1"> <p>보고서 세트 ID(읽기 전용) </p> </td> 
    <td colname="col2"> <p>처리 규칙이 실행되는 보고서 세트. 이것은 AppMeasurement에서 지정된 원본 보고서 세트가 아닐 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -208,7 +209,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Event 1-1000 </p> <p>(SiteCatalyst 15 고객이면 이벤트 1-100) </p> </td> 
+   <td colname="col1"> <p>이벤트 1-1000 </p> <p>(SiteCatalyst 15 고객이면 이벤트 1-100) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 

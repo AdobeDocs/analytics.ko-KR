@@ -2,10 +2,11 @@
 description: Adobe Analytics 변수에 대한 데이터 개인정보 레이블의 예
 title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
+role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '3578'
+source-wordcount: '3576'
 ht-degree: 99%
 
 ---
@@ -52,7 +53,7 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 
 | 레이블 | 정의 | 기타 요구 사항 |
 | --- | --- | --- |
-| 없음 | 이 변수에 데이터 개인정보 보호 액세스 요청의 일부로 데이터 주체에게 반환되는 데이터에 포함해야 하는 데이터가 포함되지 않은 경우 이 옵션을 선택합니다. |  |
+| 없음 | 이 변수에 데이터 개인정보 보호 액세스 요청의 일부로 데이터 주체에게 반환되는 데이터에 포함해야 하는 데이터가 포함되지 않은 경우 이 옵션을 선택합니다. | |
 | ACC-ALL | 이 필드의 값은 모든 데이터 개인정보 보호 액세스 요청에 포함해야 합니다. 이 히트가 여러 개인이 공유한 디바이스에서 발생한 경우, 이 레이블을 적용하면 사용자가 데이터 컨트롤러로서 공유된 디바이스에 액세스한 개별 사용자와 이 필드의 데이터를 공유하는 것을 허용한다는 것을 나타냅니다. | 모든 데이터 개인정보 보호 요청에 대해 이 레이블이 있는 필드가 반환됩니다. |
 | ACC-PERSON | 이 필드의 값은 ID-PERSON 필드의 값과 일치하는 데이터 개인 정보 보호 요청 ID에 의해 결정된 대로 데이터 주체에서 히트가 결정된다고 합리적으로 추정되는 경우, 데이터 개인 정보 보호 액세스 요청용으로만 포함되어야 합니다. | 이 보고서 세트 내의 일부 변수에 ID-PERSON 레이블이 설정되어 있어야 하며 해당 ID를 사용하여 요청을 제출해야 합니다. 그렇지 않으면 이 레이블이 적용되지 않습니다. |
 
@@ -136,7 +137,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 | <ul><li>사용자 정의 성공 이벤트</li><li>머천다이징 eVar</li><li>다중 값 변수 (mvVars)</li><li>계층 변수</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | 분류 | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>트래픽 변수 (Prop)</li><li>상거래 변수 (비머천다이징 eVar)</li></ul> | 모든 레이블 | - |
-| 대부분의 다른 변수  (*예외 사항은 아래 표 참조*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| 기타 대부분 변수(*예외 사항은 아래 표 참조*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 

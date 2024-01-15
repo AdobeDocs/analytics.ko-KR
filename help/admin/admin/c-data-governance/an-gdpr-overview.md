@@ -2,11 +2,12 @@
 description: 이 문서에서는 데이터 주체의 GDPR 액세스 및 삭제 권한을 지원하기 위해 Adobe Analytics에서 수행해야 하는 작업에 대해 설명합니다.
 title: Adobe Analytics 및 GDPR
 feature: Data Governance
+role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 97%
+source-wordcount: '581'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +41,7 @@ GDPR 준비 단계 및 Adobe Experience Cloud GDPR API와 통합하는 방법에
 
 이를 위해 Adobe Analytics는 사용자가 데이터 제어자로서 Analytics 보고서 세트와 그러한 보고서 세트의 모든 차원과 지표에 대한 [개인정보 레이블](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)을 설정할 수 있는 데이터 거버넌스 사용자 인터페이스를 제공합니다. 사용자는 직접 식별 가능한 데이터 또는 간접적으로 식별 가능한 데이터가 포함된 데이터 세트의 열을 식별할 수 있으므로 액세스 및 삭제 요청을 제출하여 해당 데이터를 처리할 수 있습니다. 각 요청마다 Analytics 데이터 거버넌스 사용자 인터페이스에 정의된 레이블이 해당 요청에 해당하는 특정 식별자에 대해 적용됩니다.
 
-레이블을 설정하는 방법에 대한 자세한 내용은 [보고서 세트 데이터에 레이블 지정](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)을 참조하십시오.
+다음을 참조하십시오 [보고서 세트 데이터에 레이블 지정](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) 레이블 설정 방법에 대한 자세한 내용을 보려면 을 클릭하십시오.
 
 ## 사전 요구 사항 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
@@ -48,9 +49,9 @@ GDPR 준비 단계 및 Adobe Experience Cloud GDPR API와 통합하는 방법에
 * Experience Cloud 조직에 로그인 회사를 연결하지 않은 경우 연결합니다. Adobe 고객 지원 센터에 문의하여 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ko-KR)을 참조하십시오.
 * GDPR 삭제 및 액세스 요청을 적용할 수 있도록 각 보고서 세트에 대한 데이터 보존 정책을 설정합니다.
 
-   >[!NOTE]
-   >
-   >데이터 보존 기간을 Adobe Analytics에 설정하지 않은 경우 Adobe Analytics에서 GDPR API에 대한 요청 처리, 즉 최종 사용자로부터 받은 액세스 또는 삭제 요청 처리를 지원할 수 없습니다. 데이터 보존 기간을 설정하려면 Adobe 계정 팀에 문의하십시오.
+  >[!NOTE]
+  >
+  >데이터 보존 기간을 Adobe Analytics에 설정하지 않은 경우 Adobe Analytics에서 GDPR API에 대한 요청 처리, 즉 최종 사용자로부터 받은 액세스 또는 삭제 요청 처리를 지원할 수 없습니다. 데이터 보존 기간을 설정하려면 Adobe 계정 팀에 문의하십시오.
 
 * 사용 권한을 확인합니다. Adobe Analytics의 데이터 거버넌스 관리 인터페이스를 사용하려면 Adobe Analytics 관리자여야 합니다.
 

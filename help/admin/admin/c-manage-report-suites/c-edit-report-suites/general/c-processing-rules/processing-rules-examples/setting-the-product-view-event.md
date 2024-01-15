@@ -3,11 +3,11 @@ description: 이벤트를 페이지 값 또는 변수의 특정 값을 기준으
 subtopic: Processing rules
 title: 제품 개요 페이지에서 제품 보기 이벤트 설정
 feature: Admin Tools
-uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
+role: Admin
 exl-id: 63e139e1-d325-4650-9d2a-19ab3f91818e
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '75'
 ht-degree: 100%
 
 ---

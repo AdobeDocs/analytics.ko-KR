@@ -3,11 +3,12 @@ description: 처리 규칙은 보고서 세트에서 설정합니다.
 subtopic: Processing rules
 title: 처리 규칙 만들기
 feature: Processing Rules
+role: Admin
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -28,4 +29,4 @@ ht-degree: 100%
 
    여러 규칙이 있는 경우 페이지로 해당 규칙을 드래그하여 놓아 처리 순서를 변경합니다.
 
-   만들 수 있는 규칙의 종류에 대한 자세한 내용은 [처리 규칙 예](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)를 참조하십시오.
+   다음을 참조하십시오 [처리 규칙 예](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) 를 참조하십시오.

@@ -2,11 +2,12 @@
 title: 목록 변수
 description: 보고에 사용할 목록 변수를 만들고 구성합니다.
 feature: Admin Tools
+role: Admin
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 92%
 
 보고에 사용할 목록 변수를 만들고 구성합니다. 구분 기호, 만료, 할당 및 최대값을 설정합니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 검색 방법]**
+**[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 검색 방법]**
 
 * **이름**: 구분 기호로 구분된 각 값에는 최대 255자를 포함할 수 있습니다 (멀티바이트 문자를 사용하는 경우 더 적음). 이것은 각 요소의 최대 길이입니다.
 * **값 구분 기호**: 목록 변수에서 값을 구분하는 데 사용되는 문자입니다. 일반적으로 쉼표, 콜론, 파이프 또는 그와 비슷한 것이 사용됩니다.

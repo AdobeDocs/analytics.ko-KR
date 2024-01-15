@@ -2,17 +2,18 @@
 title: 다양한 봇 제외 방법 비교
 description: 봇을 제외하는 다양한 방법을 비교할 수 있습니다.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
+role: Admin
 feature: Bot Removal
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 94%
 
 ---
 
 # 다양한 봇 제외 방법 비교
 
-다음 표는 봇을 제외하는 다양한 방법과 어떻게 서로 견줄 만한지 보여 줍니다.
+다음 표는 봇을 제외하는 다양한 방법과 어떻게 서로 비교하는지를 보여 줍니다.
 
 | 메서드 | 보트 규칙 | IP 주소로 제외 | 사용자 속성 | 세그먼테이션 | 서드파티 채점 + 세분 | 런타임 시 봇에 대한 서버 호출 억제 | 사용자 지정 DB VISTA 규칙 |
 | --- | --- | --- | --- | --- | --- | --- | --- |

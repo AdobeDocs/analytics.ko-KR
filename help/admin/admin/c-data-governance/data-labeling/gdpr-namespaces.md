@@ -2,10 +2,11 @@
 description: 검색할 수 있도록 하려는 각 ID에는 네임스페이스가 지정됩니다. 이 네임스페이스는 모든 보고서 세트에서 해당 ID가 사용되는 변수에 있는 각 ID를 식별하는 사용자 정의 문자열입니다.
 title: 네임스페이스
 feature: Data Governance
+role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '881'
 ht-degree: 100%
 
 ---
