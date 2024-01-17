@@ -4,9 +4,9 @@ keywords: 개인정보 보호
 title: 개인정보 보호 개요
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 266c354cdc17e99d847ce57c1e6261386299a8cf
+source-git-commit: cc64a52d4e0dd2eef0b6dc1e1d2f01ab81147a3b
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '978'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Adobe Analytics은 다음 유형의 데이터를 수집할 수 있습니다.
 | 외부 검색어 | 외부 검색 데이터에는 검색 엔진에서 생성된 키워드가 포함됩니다. 데이터 수집 라이브러리는 참조 URL을 기반으로 이 데이터를 찾습니다. 그러나 많은 최신 검색 엔진은 더 이상 이 정보를 포함하지 않습니다. | [검색 키워드](../components/dimensions/search-keyword.md) |
 | 내부 검색어 | 내부 검색 데이터에는 웹 사이트 또는 앱의 검색 기능 내에서 생성된 키워드가 포함됩니다. Adobe은 내부 검색 데이터를 자동으로 수집하지 않습니다. 그러나 구현을 사용자 지정하여 이 데이터를 수집할 수 있습니다. 이 방법은 Adobe Analytics을 사용하는 조직에 일반적입니다. | [eVar](../components/dimensions/evar.md) |
 | 컴퓨터 및 브라우저 사양 | 데이터 수집 라이브러리는 브라우저 유형, 운영 체제 유형 및 디바이스가 데스크톱이나 모바일인 경우 등의 낮은 엔트로피 브라우저 힌트를 자동으로 수집합니다. 브라우저의 특정 버전/빌드, 디바이스 모델 또는 운영 체제 버전과 같은 높은 엔트로피 힌트를 수집하려면 사용자 지정 구성이 필요합니다. 다음을 참조하십시오 [클라이언트 힌트 개요](client-hints.md) 추가 정보. | [브라우저](../components/dimensions/browser.md), [운영 체제](../components/dimensions/operating-systems.md), [모바일 차원](../components/dimensions/mobile-dimensions.md), [모니터 해상도](../components/dimensions/monitor-resolution.md) |
-| 지리적 위치 정보 | Adobe은 (보고서 세트 수준에서) 각 웹 사이트 또는 앱에 대한 지리적 위치 데이터 수집을 활성화하거나 비활성화하는 기능을 제공합니다. 지리적 위치 데이터 수집은 기본적으로 활성화되어 있습니다. | [도시](../components/dimensions/cities.md), [지역](../components/dimensions/regions.md), [국가](../components/dimensions/countries.md) |
+| 지리적 위치 정보 | Adobe은 IP 주소의 마지막 옥텟을 0으로 설정하여 자세한 지역 위치를 방지하는 기능을 제공합니다. 이렇게 하면 지역 정보가 덜 정확해지고 [보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html?lang=en). | [도시](../components/dimensions/cities.md), [지역](../components/dimensions/regions.md), [국가](../components/dimensions/countries.md) |
 | IP 주소 | Adobe은 이 데이터를 저장할 때 방문자의 IP 주소를 난독(해시)하거나 완전히 제거하는 기능을 제공합니다. EMEA 고객은 일반적으로 기본적으로 IP 주소 설정을 난독화합니다. IP 주소는 난독화 설정에 관계없이 Analysis Workspace에서 차원으로 사용할 수 없으며 에만 포함됩니다. [데이터 피드](../export/analytics-data-feed/data-feed-overview.md). 다음을 참조하십시오 [일반 계정 설정](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) 사용 가능한 난독화 설정에 대한 자세한 내용은 관리자 안내서를 참조하십시오. | 없음 |
 | 사이트에 제공된 양식 정보 | 이 데이터를 수집하려면 모든 구현 유형을 구성해야 합니다. 이 데이터를 사용자 지정 변수에 포함할 수 있습니다. | [eVar](../components/dimensions/evar.md) |
 | 사이트에서 광고 또는 링크를 클릭함 | 다음과 같은 경우 수집됨 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) 또는 [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) 이(가) 활성화되었습니다. Activity Map을 활성화하면 클릭 위치와 같은 추가 정보를 사용할 수 있습니다. | [Activity Map](../analyze/activity-map/activity-map.md), [종료 링크](../components/dimensions/exit-link.md), [다운로드 링크](../components/dimensions/download-link.md) |
