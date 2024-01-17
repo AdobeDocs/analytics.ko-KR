@@ -3,41 +3,49 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
+source-git-commit: c3f59a07d51f5e6a73fa87aed573450c133d5bd6
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 100%
+source-wordcount: '1112'
+ht-degree: 50%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2024년 1월)
 
-**마지막 업데이트**: 2024년 1월 8일
+**마지막 업데이트**: 2024년 1월 10일 목요일
 
-이 릴리스 정보에는 2024년 1월의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2024년 1월부터 2024년 2월 13일까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Data Warehouse 업데이트** | 이제 다음과 같은 Data Warehouse 개선 기능을 사용할 수 있습니다.<ul><li>Data Warehouse 요청을 생성할 때 사용자는 [!UICONTROL **조직의 사용자들이 사용할 수 있도록 설정**]&#x200B;이라는 새 토글을 활성화하여 조직의 모든 사용자가 사용할 수 있는 요청을 만들 수 있습니다.<p>자세한 내용은 [Data Warehouse 요청 일반 설정](/help/export/data-warehouse/create-request/dw-general-settings.md)을 참조하십시오.</p></li><li>Data Warehouse 보고 대상을 생성하거나 관리할 때 이제 시스템 관리자는 [!UICONTROL **모든 대상 표시**]&#x200B;라는 토글을 활성화하여 조직의 사용자가 생성한 계정과 위치를 표시할 수 있습니다.<p>자세한 내용은 [Data Warehouse 요청에 대한 보고 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을 참조하십시오.</p></li> | 해당 사항 없음 | 2024년 1월 10일 |
+| **주요 지표 요약 시각화 업데이트** | 주요 지표 요약 시각화를 사용할 때 이제 선택한 비교 날짜 범위 옵션이 기본 날짜 범위에 상대적인지 아니면 고정적인지에 따라 비교 날짜 범위를 자동으로 업데이트할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 해당 사항 없음 | 2024년 1월 17일 목요일 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics의 수정 사항
 
-* 이들 Analytics 처리 및 보고 엔진 변경 사항은 10월 마지막 주에 배포될 예정이며, 페이지 또는 링크 차원의 레이블이 `Unknown`과 같이 잘못 표시되는 문제를 해결할 예정입니다. 수정 작업이 완료되기 전까지는 히트 시 페이지 이름 또는 링크 이름이 전달되지 않았을 때 `Unknown` 레이블이 잘못 표시될 수 있으며, 기본값은 각각 [!UICONTROL 페이지 URL]과 [!UICONTROL 링크 URL]이 됩니다. 이들 차원은 대소문자를 구분하지 않도록 구성되었습니다. 이번 수정을 통해 향후 보고서는 정확해질 것입니다. 단, 내역 데이터에 대한 보고서의 경우 일부 보고서 결과는 여전히 `Unknown`으로 잘못 표시될 수 있습니다. (AN-328030)
+* AN-314821, AN-326839, AN-332079, AN-332704, AN-332812, AN-332902, AN-332975, AN-333300, AN-333023, AN-333033, AN-333174, AN-333910, 334097, AN-334208, AN-334373, AN-334439, AN-334698, AN-334838, AN-334848, AN-334987, AN-335046, AN-335082, AN-335202, AN-335203, AN-335254, AN-335322, 335552, AN-335591, AN-335603, AN-335610, AN-335617, AN-335699, AN-335891, AN-335901, AN-336063, AN-336072, AN-336193, AN-336479, AN-336684, AN-336801, AN-337370, AN-337398, AN-, AN-
+* 분류 규칙 빌더 문제: AN-332390, AN-332573, AN-332718, AN-332927, AN-333248, AN-333953, AN-334647, AN-334736, AN-334910, AN-335642, AN-335683, AN-335811, AN-336033, AN-336569, AN-336852, AN-336875, AN-336902, AN-337190, AN-,
+* A4T 문제인 AN-334564; AN-336178;가 해결되었습니다.
+* AN-332568; AN-333105; AN-333167; AN-333983; AN-334209; AN-334278 서버 호출 사용 문제가 해결되었습니다.
+* Data Warehouse AN-333010, AN-333076, AN-330227, AN-331580, AN-333350, AN-334291, AN-334283, AN-334287, AN-334301, AN-334385, AN-334453, AN-334977, AN-335079, AN-335171, AN-335245, AN-335426, AN-335680, AN-335818, AN-336087, AN-337308, AN-, AN-,
+* AN-332241, AN-332366, AN-332617, AN-332654, AN-332702, AN-332723, AN-333014, AN-333166, AN-334037, AN-334125, AN-334211, AN-334216, 334235, AN-334976, AN-335158, AN-335368, AN-335408, AN-335468, AN-335471, AN-335528, AN-335596, AN-335662, AN-335733, AN-335883, AN-335894, AN-335968, 336098, AN-336192, AN-336243, AN-336659, AN-336977, AN-337117, AN-337219, AN-AN-337262, 337393, AN-337462, AN-337854, AN-, AN-, AN-
+* AN-335246; AN-336311; Report Builder 문제가 해결되었습니다.
+* Analysis Workspace 문제: AN-323760; AN-324191; AN-324913; AN-330126; AN-332808; AN-333168; AN-333382; AN-334839; AN-336040; AN-337043;
 
 ### 기타 수정 사항
 
--315676; AN-; AN-323398; AN-326209; AN-328178; AN-328261; AN-328395; AN-328671; AN-329282; AN-329330; AN-329355; AN-329506; AN-329516; AN-329738; AN-329769; AN-329771; AN-329816; AN-329877; AN-329928; AN-329957; AN-329962; AN-329966; AN-330023; AN-330081; AN-330083; AN-330105; AN-330138; AN-330140; AN-330165; AN-330241; AN-330359; AN-330366; AN-330427; AN-330438; AN-330442; AN-330534; AN-330616; AN-330654; AN-330783; AN-330879; AN-330881; AN-330883; AN-330887; AN-330888; AN-330955; AN-330979; AN-331031; AN-331053; AN-331068; AN-331071; AN-331074; AN-331075; AN-331076; AN-331078; AN-331085; AN-331093; AN-331167; AN-331171; AN-331181; AN-331196; AN-331226; AN-331258; AN-331260; AN-331279; AN-331286; AN-331290; AN-331365; AN-331375; AN-331376; AN-331454; AN-331519; AN-331570; AN-331590; AN-331593; AN-331603; AN-331751; AN-331816; AN-331897; AN-331900; AN-331906; AN-331926; AN-331929; AN-332031; AN-332067; AN-332101; AN-332114; AN-332156; AN-332201; AN-332225; AN-332253; AN-332277; AN-332361; AN-332370; AN-332386
+AN-323975, AN-325383, AN-325809, AN-326787, AN-331611, AN-331818, AN-332124, AN-332272, AN-332911, AN-333070, AN-333302, AN-333377, AN-333904, AN-333928, AN-333968, AN-334056, AN-334099, AN-334191, AN-334207, AN-334776, AN-335206, AN-335294, AN-335320, AN-335394, AN-335443, AN-335967, AN-336099, AN-337452, AN-337463
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **Adobe Experience Edge 히트에 대한 전체 IP 난독화** | 2023년 9월 27일 | Experience Edge에서 발생한 히트에 대한 IP 난독화는 2023년 10월 말경에 업데이트될 예정입니다. Experience Edge에는 IP 주소를 난독화할 수 있는 기능이 2023년 4월에 추가되었습니다. 해당 시점에 Analytics가 Experience Edge의 히트를 처리하는 방식으로 인해 Adobe Analytics에서는 IP의 부분적인 난독화만 지원되었습니다. 고객이 Experience Edge에 대해 전체 난독화를 선택한 경우 Analytics는 부분적으로 난독화된 IP만 수신했습니다. 이 변경 사항이 구현되면 Analytics는 전체 난독화된 IP를 수신하게 됩니다. |
-| **Adobe Analytics 라이브스트림 - Analytics 2.0 API** | 2023년 9월 27일 | 이제 고객은 1.4 API를 사용하는 이전 위치 대신 Adobe Analytics 2.0 API에서 [Adobe Analytics 라이브스트림용 엔드포인트 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/)에 액세스할 수 있습니다. Adobe I/O JWT 자격 증명을 사용하는 고객은 2025년 1월 1일까지 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. (아래 EOL 공지의 세부 사항을 확인하십시오.) |
+| Adobe API 개체 멤버 추가 | 2024년 1월 17일 목요일 | Adobe은 버전 관리를 예고하거나 변경하지 않고 선택적 요청 및 응답 멤버(이름/값 쌍)를 기존 API 객체에 추가할 수 있습니다. 이러한 추가 사항은 구현에 대한 끊김 없는 변경 사항이어야 합니다. Adobe은 API와 통합하는 모든 서드파티 도구의 API 설명서를 참조하여 이해할 수 없는 경우 처리 시 이러한 추가 사항이 무시되도록 할 것을 권장합니다. Adobe은 먼저 릴리스 정보를 통해 표준 알림을 제공하지 않으면 매개 변수를 제거하거나 필수 매개 변수를 추가하지 않습니다. |
+| `getPageLoadTime` 더 이상 사용되지 않는 플러그인 | 2024년 1월 10일 | 이 플러그인은 더 이상 지원되지 않습니다. 이 코드는 MDN에 따라 다음과 같은 performance.timing 메서드를 사용합니다. [더 이상 사용되지 않음](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). 업데이트된 플러그인에 대한 작업이 시작되었습니다. |
 
 {style="table-layout:auto"}
 
@@ -45,10 +53,10 @@ ht-degree: 100%
 
 | EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
-| **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2023년 12월 13일 | **2024년 1월 17일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다.<p>2023년 12월 31일에 예약된 보고서, 데이터 추출, DL 보고서를 포함하되 이에 국한되지 않는 많은 관련 Reports &amp; Analytics 기능이 종료됩니다. 2023년 12월 31일 이후에는 예약된 보고서가 더 이상 전송되지 않습니다. **2023년 4월**, 2023년 12월 31일 이후에 만료되도록 예정된 모든 보고서가 자동으로 업데이트되었으며 2023년 12월 31일에 만료되도록 되돌려졌습니다. 또한 2023년 12월 31일 이후에는 더 이상 향후 보고서를 예약할 수 없습니다. |
-| **[!UICONTROL 게시 목록] 기능의 EOL** | 2023년 12월 13일 | Reports &amp; Analytics EOL의 일환으로 [!UICONTROL 게시 목록]은 **2024년 1월 17일**&#x200B;에 서비스가 종료됩니다. [!UICONTROL Analysis Workspace] 프로젝트를 보내거나 예약하기 위해 새 게시 목록을 만들거나 기존 [!UICONTROL 게시 목록]에 액세스할 수 없습니다. |
+| **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2024년 1월 10일 | **2024년 1월 17일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다.<p>2023년 12월 31일에 예약된 보고서, 데이터 추출, DL 보고서를 포함하되 이에 국한되지 않는 많은 관련 Reports &amp; Analytics 기능이 종료됩니다. 2023년 12월 31일 이후에는 예약된 보고서가 더 이상 전송되지 않습니다. **2023년 4월**, 2023년 12월 31일 이후에 만료되도록 예정된 모든 보고서가 자동으로 업데이트되었으며 2023년 12월 31일에 만료되도록 되돌려졌습니다. 또한 2023년 12월 31일 이후에는 더 이상 향후 보고서를 예약할 수 없습니다. |
+| **[!UICONTROL 게시 목록] 기능의 EOL** | 2024년 1월 10일 | Reports &amp; Analytics EOL의 일환으로 [!UICONTROL 게시 목록]은 **2024년 1월 17일**&#x200B;에 서비스가 종료됩니다. [!UICONTROL Analysis Workspace] 프로젝트를 보내거나 예약하기 위해 새 게시 목록을 만들거나 기존 [!UICONTROL 게시 목록]에 액세스할 수 없습니다. |
+| **Data Workbench에 대한 EOL** | 2024년 1월 2일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench 서비스를 종료했습니다. 자세한 내용은 [Data Workbench 서비스 종료 공지](https://express.adobe.com/page/GSu6oKOD88GAj/)를 참조하십시오. 문의 사항이 있으면 조직의 Adobe 계정 관리자에게 문의하십시오. |
 | **Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션** | 2023년 5월 11일 | Adobe I/O JWT 자격 증명을 사용하는 Adobe Analytics API 및 Livestream 고객은 **2025년 1월 1일**&#x200B;까지 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 2024년 5월 1일부터는 Adobe I/O를 사용하여 새 JWT 자격 증명을 만들 수 없습니다. JWT를 사용하는 고객은 OAuth 서버 간 자격 증명을 새로 만들거나 기존 JWT 자격 증명을 OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 또한 고객은 새 OAuth 서버 간 자격 증명을 사용하려면 클라이언트 애플리케이션을 업데이트해야 합니다. <ul><li>[서비스 계정(JWT) 자격 증명에서 마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth를 사용한 신규 및 기존 애플리케이션 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[새 OAuth 서버 간 자격 증명 사용](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
-| **Data Workbench에 대한 EOL** | 2024년 1월 2일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench 서비스를 종료했습니다. 자세한 내용은 [Data Workbench 서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html)를 참조하십시오. 문의 사항이 있으면 조직의 Adobe 계정 관리자에게 문의하십시오. |
 
 {style="table-layout:auto"}
 
@@ -59,7 +67,7 @@ AppMeasurement 릴리스(버전 2.25.0)에 대한 최신 업데이트는 [JavaSc
 
 ## 관련 리소스
 
-* [2022년 이전 릴리스 정보](/help/release-notes/2022.md)
+* [2023년 이전 릴리스 정보](/help/release-notes/2023.md)
 * [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 * [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
