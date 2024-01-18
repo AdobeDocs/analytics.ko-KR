@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4994'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 1월** | |
-| 미디어 분당 평균 시청 시간 설명서 업데이트 | 의 업데이트된 정보 [미디어 분당 평균 시청 시간 패널](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) 명확성을 개선합니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li></ul> |
+| 미디어 분당 평균 시청 시간 설명서 업데이트 | 명확성을 높이기 위해 [미디어 분당 평균 시청 시간 패널](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)의 정보를 업데이트했습니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li></ul> |
 
 ### 2023 {#23}
 
@@ -38,7 +38,7 @@ ht-degree: 99%
 | 예외 항목 탐지 및 기여도 분석 설명서 업데이트 | 예외 항목 탐지 및 기여도 분석에 대한 설명서는 가상 분석가와 관련된 이전 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li><li>기여도 분석 설명서가 예외 항목 탐지 설명서에 병합되었습니다.</li></ul> |
 | “Attribution IQ”가 “속성”으로 변경되었습니다. | 설명서 내용 전체에서 “Attribution IQ”의 모든 인스턴스를 “[속성](/help/analyze/analysis-workspace/attribution/overview.md)”으로 변경했습니다. |
 | **2023년 11월** | |
-| Activity Map 활성화/활성화 항목 업데이트 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=ko)(수동 및 Adobe Experience Platform 태그 확장을 통해) 콘텐츠가 추가되었습니다. |
+| Activity Map 활성화/활성화 항목 업데이트 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=ko-KR)(수동 및 Adobe Experience Platform 태그 확장을 통해) 콘텐츠가 추가되었습니다. |
 | **2023년 10월** | |
 | 보고 활동 관리자에 로그 정보가 추가되었습니다. | 보고 활동 관리자에서 [보고 활동의 취소 및 이후 제한 사항](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)이 [로그](/help/admin/admin/logs.md)에 캡처된다는 정보를 추가했습니다. |
 | Data Warehouse 구성 요소 지원 업데이트 | Data Warehouse의 일부 구성 요소에 대한 가용성을 추가하고 다른 구성 요소의 가용성을 제거했습니다. 이들 변경 사항은 [Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md)에 반영됩니다. <ul><li>방문 깊이 차원에 대한 지원 추가됨 (지원되지 않는 차원 목록에서 방문 깊이가 제거됨)</li><li>참여도 지표에 대한 지원 제거됨 (지원되지 않는 지표 목록에 참여도 지표 추가됨)</li><li>연도, 분기, 월, 주, 일, 시간 및 분과 같은 시간 기반 차원에 대한 지원 추가됨 (지원되지 않는 차원 목록에서 이들 차원 제거됨) <p>이전에는 Data Warehouse가 세부 기간이 선택된 경우 자유 형식 테이블의 첫 번째 열에서만 이들 차원을 지원했습니다. 이제 이들 차원이 항상 지원됩니다.</p><p>단, 이들 차원을 사용할 때 날짜 출력은 표준이 아닙니다. 연도는 1900으로 오프셋되고 월은 0부터 시작합니다.</li></ul> |
@@ -53,7 +53,7 @@ ht-degree: 99%
 | 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 문서에 있었습니다. |
 | 구현 방법 비교 | 다양한 구현 방법을 비교하는 설명서가 업데이트되었습니다. [자세히 알아보기](../implement/prepare/comparison.md) |
 | 데이터 피드에 대해 SFTP를 구성하는 데 Adobe 고객 지원이 필요하지 않음을 명확히 했습니다. | 데이터 피드에 대해 SFTP를 구성하기 위해 고객이 Adobe 고객 지원에 참여할 필요가 없음을 [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)에서 명확히 했습니다. <p>또한 SFTP는 더 이상 권장되지 않으며 고객은 데이터 피드를 구성할 때 클라우드 대상을 사용해야 한다는 메모를 추가했습니다.</p> |
-| 스트리밍 미디어에 대한 설명서 개선 사항 | 스트리밍 미디어에 대해 다음 설명서가 개선되었습니다. <ul><li>명확성을 개선하고 Customer Journey Analytics와 관련된 정보를 포함하도록 [일반적인 개요](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko)가 업데이트되었습니다.</li><li>Edge 구현과 Analytics 전용 구현을 명확하게 구분되도록 [구현 개요](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ko)가 업데이트되었습니다. 다양한 구현 방법을 설명하는 다이어그램도 포함되었습니다.</li><li>[Edge 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=ko) 및 [Analytics 전용 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=ko)에 대한 사전 요구 사항이 추가되었습니다. [일반적인 사전 요구 사항](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=ko)도 업데이트되었습니다.</li><li>*지원되는 솔루션* 및 *구현 방법*&#x200B;에 대한 새 열을 포함하도록 [미디어 SDK 가져오기, 태그를 사용한 확장 및 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=ko) 문서의 테이블이 업데이트되었습니다.</li><li>문서의 [구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ko) 영역에서 문서의 콘텐츠 및 구성이 간소화되었습니다. Edge 구현 및 Analytics 전용 구현별 구현 분류가 포함되었습니다.</li><li>[추적](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=ko)에서 필요하지 않은 추가 계층 구조가 제거되었으며 이 섹션에서 변경된 URL에 대한 리디렉션이 추가되었습니다.</li><ul> |
+| 스트리밍 미디어에 대한 설명서 개선 사항 | 스트리밍 미디어에 대해 다음 설명서가 개선되었습니다. <ul><li>명확성을 개선하고 Customer Journey Analytics와 관련된 정보를 포함하도록 [일반적인 개요](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)가 업데이트되었습니다.</li><li>Edge 구현과 Analytics 전용 구현을 명확하게 구분되도록 [구현 개요](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ko-KR)가 업데이트되었습니다. 다양한 구현 방법을 설명하는 다이어그램도 포함되었습니다.</li><li>[Edge 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=ko-KR) 및 [Analytics 전용 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=ko-KR)에 대한 사전 요구 사항이 추가되었습니다. [일반적인 사전 요구 사항](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=ko-KR)도 업데이트되었습니다.</li><li>*지원되는 솔루션* 및 *구현 방법*&#x200B;에 대한 새 열을 포함하도록 [미디어 SDK 가져오기, 태그를 사용한 확장 및 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=ko-KR) 문서의 테이블이 업데이트되었습니다.</li><li>문서의 [구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ko-KR) 영역에서 문서의 콘텐츠 및 구성이 간소화되었습니다. Edge 구현 및 Analytics 전용 구현별 구현 분류가 포함되었습니다.</li><li>[추적](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=ko-KR)에서 필요하지 않은 추가 계층 구조가 제거되었으며 이 섹션에서 변경된 URL에 대한 리디렉션이 추가되었습니다.</li><ul> |
 | **2023년 7월** | |
 | Adobe Experience Platform Edge Network Server API | [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md)를 사용하여 Adobe Analytics로 데이터 수집을 구현하는 시기와 방법에 대한 보다 포괄적인 설명서가 추가되었습니다. 예를 들어 데스크탑 애플리케이션, IoT 디바이스, 셋톱 박스에서 Adobe Analytics로 데이터 수집을 구현합니다. |
 | 글로벌 회사 ID | 로그인한 Analytics 회사의 [글로벌 회사 ID를 찾는 방법](../admin/admin/company/web-services-admin.md)이 문서화되었습니다. 이 ID는 Analytics 2.0 API에 필요합니다. |
