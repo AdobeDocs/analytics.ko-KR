@@ -4,10 +4,10 @@ keywords: ftp, sftp
 title: Secure File Transfer Protocol - 개요
 feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: 04ece4265ff270cc221a79def9494a95d0fdbb0e
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 88%
 
 ---
 
@@ -21,11 +21,7 @@ SFTP는 본인을 제외한 누구도 본인의 데이터를 볼 수 없도록 �
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 및 [Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ko-KR)는 SFTP를 통해 데이터를 푸시할 수 있습니다.
 
-SFTP를 통해 데이터를 푸시할 수 **없는** Analytics 도구는 다음과 같습니다.
-
-* Reports &amp; Analytics
-* Ad Hoc Analysis
-* Report Builder
+Report Builder **할 수 없음** SFTP를 통해 데이터를 푸시합니다.
 
 ## 배달 가져오기 {#section_FA29FAEF02FE40B8B32452146A036F48}
 

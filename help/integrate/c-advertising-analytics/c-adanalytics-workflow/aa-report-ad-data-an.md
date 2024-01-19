@@ -1,18 +1,18 @@
 ---
-description: Analysis Workspace 템플릿과 Reports & Analytics 및 Report Builder의 보고에 대한 세부 사항입니다.
+description: Analysis Workspace 템플릿에 대한 세부 사항 및 Report Builder의 보고.
 title: Adobe Analytics의 광고 데이터에 대한 보고서
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 93%
 
 ---
 
 # Adobe Analytics의 광고 데이터에 대한 보고서
 
-Analysis Workspace 템플릿과 Reports &amp; Analytics 및 Report Builder의 보고에 대한 세부 사항입니다.
+Analysis Workspace 템플릿에 대한 세부 사항 및 Report Builder의 보고.
 
 >[!NOTE]
 >
@@ -43,12 +43,6 @@ Analysis Workspace 템플릿과 Reports &amp; Analytics 및 Report Builder의 �
 | 광고 총계 | 연관된 지표로 분류된 최상위 광고의 자유 형식 테이블. |
 | 키워드 | 모든 키워드/일치 유형 조합에 대한 노출 횟수, 클릭 수 및 비용의 분산형 차트. |
 | 키워드 총계 | 연관된 지표로 분류된 최상위 키워드/일치 유형 조합의 자유 형식 테이블. |
-
-## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
-
-Advertising Analytics 계정을 설정하면 바로 Advertising Analytics 보고서를 사용할 수 있습니다.
-
-![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

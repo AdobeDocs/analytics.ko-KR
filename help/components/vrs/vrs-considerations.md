@@ -4,10 +4,10 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트와 다중 세트 태깅 고려 사항
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 86%
+source-wordcount: '1652'
+ht-degree: 85%
 
 ---
 
@@ -30,12 +30,6 @@ ht-degree: 86%
 가상 보고서 세트에서 Adobe Experience Cloud에 세그먼트를 공유하는 기능은 지원되지 않습니다. Experience Cloud에 세그먼트를 공유하려는 사용자는 소스 보고서 세트에 액세스할 수 있어야 합니다.
 
 아직은 개인화 및 타기팅을 위해 세그먼트를 가상 보고서 세트에서 Adobe Experience Cloud에 게시할 수 없습니다. 이러한 목적을 위해서는 세그먼트를 게시하는 모든 사용자가 소스 보고서 세트에 액세스해야 합니다. 예를 들어 지리적 영역에 대한 데이터에만 액세스할 수 있는 사용자가 Adobe Target에 타기팅할 세그먼트를 Adobe Analytics에서 만들고 Adobe Experience Cloud에 공유하도록 할 수 있습니다. 이 경우 다중 세트 태깅을 사용하는 것이 좋습니다. 사용자가 글로벌 보고서 세트에 액세스할 수 있어도 괜찮거나 다른 솔루션에서 사용할 세그먼트를 게시할 필요가 없는 경우 가상 보고서 세트를 사용할 수 있습니다.
-
-### 실시간 및 현재 데이터
-
-실시간 보고서는 데이터가 세그먼트화되므로 가상 보고서 세트에서 지원되지 않습니다. 현재 데이터는 세그먼테이션을 지원하지 않으므로 가상 보고서 세트에서도 지원되지 않습니다. 이 두 기능은 모두 Reports &amp; Analytics에만 적용됩니다.
-
-[실시간 보고서](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) 및 [현재 데이터](/help/technotes/latency.md)는 가상 보고서 세트에서 사용할 수 없습니다. 이것은 데이터 수집 후 몇 초 또는 2~3분 내에 Reports &amp; Analytics에 표시되는 트렌드에 응답하는 사용자에게 영향을 줍니다. 예를 들어 실시간 콘텐츠 소비를 기반으로 헤드라인을 조정하는 뉴스룸 편집자가 여기에 포함될 수 있습니다. 개별 보고서 세트에 맞는 중요한 실시간 데이터가 필요한 경우 다중 세트 태깅 사용을 고려해 보십시오. 실시간 및 현재 데이터는 여전히 글로벌 보고서 세트에서 사용할 수 있습니다.
 
 ### 고유한 제한 사항
 

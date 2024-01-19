@@ -3,9 +3,9 @@ description: 세그먼트와 관련된 문제를 해결 및 수정합니다.
 title: 세그먼테이션 문제 해결
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '220'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,6 @@ ht-degree: 100%
 가능한 원인:
 
 * 일부 차원은 세그먼트 관리자에서는 사용할 수 없고 Data Warehouse에서만 사용할 수 있습니다.
-* 세그먼트가 Reports &amp; Analytics과 호환하지 않습니다.
 * 세그먼트가 특정 보고서 세트에 대해서만 확인됩니다.
 * 공유 세그먼트가 다른 사용자에 의해 삭제되었을 수 있습니다.
 * 데이터 센터나 브라우저 캐시 문제로 인해 세그먼트를 로드할 수 없습니다.

@@ -3,10 +3,10 @@ title: 서드파티 분석 플랫폼에서 Adobe Analytics로 전환
 description: Google Analytics 같은 다른 플랫폼에 익숙한 사용자에 초점을 맞춰, 보고서를 얻기 위한 주요 개념을 알아봅니다.
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 90%
 
 ---
 
@@ -16,12 +16,7 @@ ht-degree: 100%
 
 Google Analytics와 Adobe Analytics는 모두 웹 사이트 성능에 대한 중요한 통찰력을 얻을 수 있는 강력한 플랫폼입니다. 각 플랫폼에는 고유한 이점을 가진 자체 처리 아키텍처와 사용자 인터페이스가 있습니다. 이 안내서는 Google Analytics 사용 경험이 있는 사용자가 Adobe Analytics를 습득하는 데 도움을 주기 위해 설계되었습니다.
 
-Adobe Analytics에는 Adobe Experience Cloud에 로그인한 후 기본 보고서를 가져오는 두 가지 기본 방법이 있습니다.
-
-* **Reports &amp; Analytics**&#x200B;는 기본 보고서를 가져오는 이전 방법입니다. 왼쪽 메뉴에 미리 작성된 보고서 목록이 표시되어 사용자가 원하는 보고서를 탐색하고 데이터를 가져올 수 있습니다. 세그먼트와 지표는 추가 사용자 정의를 제공할 수 있습니다. Google Analytics 보고서를 사용한 적이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
-* **Analysis Workspace**&#x200B;는 현재 대부분의 보고서를 가져오는 데 권장되는 방법입니다. 왼쪽 메뉴를 사용하여 사용자는 구성 요소를 끌어 놓아 자신의 보고서를 작성할 수 있습니다. 이렇게 하면 훨씬 자유롭게 정확한 보고 요구 사항을 충족할 수 있습니다. Google Analytics 대시보드 및 사용자 정의 보고서를 만든 경험이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
-
-대부분의 보고서는 [!UICONTROL Reports &amp; Analytics]와 [!UICONTROL Analysis Workspace] 모두에서 만들 수 있습니다. 그러나 일부 보고서는 한 플랫폼 또는 다른 플랫폼을 사용해서만 가져올 수 있습니다. 특정 기능을 [!UICONTROL Reports &amp; Analytics]에서만 사용할 수 있는 경우가 아니라면 대부분의 경우 [!UICONTROL Analysis Workspace]를 사용하는 것이 좋습니다.
+Adobe Analytics에서 Adobe Experience Cloud에 로그인한 후 기본 보고서를 가져오는 주요 방법은 를 사용하는 것입니다 **Analysis Workspace**. 왼쪽 메뉴를 사용하여 사용자는 구성 요소를 끌어 놓아 자신의 보고서를 작성할 수 있습니다. 이를 통해 보다 자유롭게 정확한 보고 요구 사항을 충족할 수 있습니다. Google Analytics 대시보드 및 사용자 정의 보고서를 만든 경험이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
 
 ## 권장 학습 경로
 

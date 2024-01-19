@@ -3,9 +3,9 @@ title: 페이지
 description: 페이지 이름.
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '186'
 ht-degree: 94%
 
 ---
@@ -28,4 +28,4 @@ AppMeasurement는 [`pageName`](/help/implement/vars/page-vars/pagename.md) 변�
 
 >[!NOTE]
 >
->Reports &amp; Analytics에서 전환 지표는 이 차원에 대한 선형 속성을 사용합니다. 예를 들어, 매출은 `purchase` 이벤트 전에 방문에서 본 모든 페이지 간에 분할됩니다. Analysis Workspace는 기본적으로 임의의 속성 모델을 사용하는 옵션과 함께 마지막 속성을 사용합니다.
+>Analysis Workspace는 기본적으로 임의의 속성 모델을 사용하는 옵션과 함께 마지막 속성을 사용합니다.

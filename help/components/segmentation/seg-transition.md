@@ -3,10 +3,10 @@ description: 기존 세그먼트 관리에 대한 FAQ입니다.
 title: 기존 세그먼트에 대한 FAQ
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 91%
+source-wordcount: '1445'
+ht-degree: 88%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 91%
 
 +++ **기존 세그먼트에 발생한 결과**
 
-기존 세그먼트는 계속해서 이전과 동일하게 작동합니다. 이러한 세그먼트가 적용된 모든 보고서는 계속 제대로 작동합니다. [더 보기...](/help/components/segmentation/seg-transition.md)
+기존 세그먼트는 계속해서 이전과 동일하게 작동합니다. 이러한 세그먼트가 적용된 모든 보고서는 계속 제대로 작동합니다. [자세히...](/help/components/segmentation/seg-transition.md)
 
-대부분의 이전에 미리 정의된 세트 세그먼트는 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 세그먼트 템플릿은 공통 대상을 갖는 사용자 정의 세그먼트를 빠르게 작성하는 데 사용됩니다. 세그먼트 템플릿을 보고서에 직접 적용할 수는 없지만 사용자 정의 세그먼트로 쉽게 저장할 수 있습니다.
+이전에 미리 정의된 대부분의 세트 세그먼트는 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 세그먼트 템플릿은 공통 대상을 갖는 사용자 정의 세그먼트를 빠르게 작성하는 데 사용됩니다. 세그먼트 템플릿을 보고서에 직접 적용할 수는 없지만 사용자 정의 세그먼트로 쉽게 저장할 수 있습니다.
 
 세그먼트 템플릿은 세그먼트 빌더에서 특수 아이콘으로 표시됩니다.
 
@@ -44,7 +44,7 @@ ht-degree: 91%
 
 +++ **Data Warehouse 세그먼트에 발생한 결과**
 
-모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 Data Warehouse 세그먼트는 Analysis Workspace 및 Reports &amp; Analytics와 같은 다른 구성 요소에서도 작동합니다.
+모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 Data Warehouse 세그먼트는 Analysis Workspace과 같은 다른 구성 요소에서도 작동합니다.
 
 세그먼트 빌더/관리자에서 새 Data Warehouse 세그먼트를 만들거나 편집할 수 있습니다. 세그먼트 빌더의 제품 호환성 메커니즘은 세그먼트가 Data Warehouse와 호환되는지의 여부를 자동으로 확인합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 91%
 * 보유한 세그먼트를 검토합니다.
 * 적용 가능한 경우 세그먼트 라이브러리에 추가합니다.
 * 표준 세그먼트를 승인합니다.
-* 세그먼트를 [모범 사례에 따라 태깅합니다](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* 세그먼트에 태깅 [우수 사례](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 

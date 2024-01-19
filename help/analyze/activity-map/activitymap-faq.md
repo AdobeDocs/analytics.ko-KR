@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ Activity Map은 2초마다 다음과 같은 웹 페이지 상태의 변경 사�
 +++
 
 +++세그먼트는 라이브 모드에서 작동합니까?
-아니요. 세그먼트는 라이브 모드에서 작동하지 않습니다. 이 기능은 세분화를 지원하지 않는 Reports &amp; Analytics의 실시간 보고 기능과 동일합니다.
+아니요. 세그먼트는 라이브 모드에서 작동하지 않습니다.
 +++
 
 +++Activity Map은 가상 보고서 세트와 호환합니까?
@@ -89,9 +89,9 @@ Activity Map은 2초마다 다음과 같은 웹 페이지 상태의 변경 사�
 * JS 파일에서 `AppMeasurement_Module_ActivityMap` 함수 삭제
 * 위의 함수를 빈 본문으로 재작성하는 사용자 정의 코드 추가, 예:
 
-   ```js
-   function AppMeasurement_Module_ActivityMap() {}
-   ```
+  ```js
+  function AppMeasurement_Module_ActivityMap() {}
+  ```
 
 * `s.trackClickMap` 및 `s.trackInlineStats`를 `false`로 설정하여 AppMeasurement 구성
 +++

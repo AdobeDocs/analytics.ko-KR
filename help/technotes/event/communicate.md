@@ -3,10 +3,10 @@ title: 사용자에게 영향 전달
 description: 조직에서 이벤트가 미치는 영향을 알리는 효과적인 방법을 알아봅니다.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 4%
+source-wordcount: '346'
+ht-degree: 1%
 
 ---
 
@@ -57,12 +57,3 @@ Workspace의 트렌드 시각화의 경우 영향을 받는 날짜 범위를 나
 
    ![정보 아이콘](assets/calcmetric_infoicon.png)
 
-## Reports &amp; Analytics에서 달력 이벤트 사용
-
-Reports &amp; Analytics를 사용하는 경우 [달력 이벤트](/help/components/t-calendar-event.md) 트렌드 보고서에서 영향을 받는 일을 강조 표시합니다. 이 방법은 Analysis Workspace에는 적용되지 않습니다.
-
-1. 다음으로 이동 **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 달력 이벤트]**.
-2. 원하는 제목, 날짜 범위 및 참고 텍스트를 입력합니다.
-3. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-![달력 이벤트](assets/exclude_calendar_event.png)

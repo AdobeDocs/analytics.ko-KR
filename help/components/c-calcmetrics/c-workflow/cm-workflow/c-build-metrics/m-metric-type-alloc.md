@@ -3,10 +3,10 @@ description: 알아보기
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 73%
+source-wordcount: '383'
+ht-degree: 69%
 
 ---
 
@@ -46,9 +46,3 @@ ht-degree: 73%
 
 이 예에서, 값 A, B, C는 히트 7에서 $10를 구매하기 전에 히트 1, 3, 4, 6에 있는 변수로 전송되었습니다. 두 번째 행에서 그러한 값은 마지막 터치 방문을 기준으로 하여 히트에서 유지됩니다. 세 번째 행은 첫 번째 터치 방문 지속성을 보여 줍니다. 마지막으로, 마지막 행은 지속성이 없는 prop에 대해 데이터가 기록되는 방식을 보여 줍니다.
 
-## Reports &amp; Analytics와 Workspace에서 선형 할당이 작동하는 방식의 차이
-
-이 두 도구 간에 선형 속성이 작동하는 방식에는 몇 가지 차이점이 있습니다.
-
-* Reports &amp; Analytics에서 (처리된) 선형 속성은 항상 방문을 기준으로 하는 반면 Workspace에서는 방문 또는 방문자를 기반으로 할 수 있습니다.
-* Reports &amp; Analytics에서는 방문의 첫 번째 히트에서 값이 전달되지 않으면 (초기) 값이 이전 방문부터 지속됩니다. Workspace(기여도 분석)에서는 그렇지 않습니다. 방문의 첫 번째 히트에서 값이 전달되지 않으면 &#39;없음&#39;이 초기 값입니다.

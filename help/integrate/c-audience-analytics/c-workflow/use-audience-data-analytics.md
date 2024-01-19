@@ -4,16 +4,16 @@ solution: Experience Cloud
 title: Analytics에서 대상 데이터 사용
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 90%
+source-wordcount: '573'
+ht-degree: 89%
 
 ---
 
 # Analytics에서 대상 데이터 사용
 
-Analytics 전체에서 Adobe Audience Manager 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 &quot;mc_audiences&quot; 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.:
+Analytics 전체에서 Adobe Audience Manager 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 &quot;mc_audiences&quot; 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
@@ -81,9 +81,3 @@ Analytics에서 수집한 동작 정보와 함께 Analytics [세그먼트 빌더
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics 및 Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
-
-1. Analytics 보고서를 보려면 **[!UICONTROL 보고서]** > **[!UICONTROL 방문자 프로필]** > **[!UICONTROL 대상 ID 보고서]**&#x200B;로 이동합니다.
-1. 이 폴더에서 대상 ID 및 대상 이름 차원에 모두 액세스할 수 있습니다.
-
-   ![](assets/mc-audiences.png)

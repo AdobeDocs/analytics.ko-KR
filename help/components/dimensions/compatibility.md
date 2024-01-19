@@ -3,10 +3,10 @@ title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,7 @@ ht-degree: 98%
 >
 >사용자 정의 변수 이름, 분류 및 방문자 속성은 이 목록에서 생략됩니다. 이러한 차원 항목은 개별 보고서 세트에 따라 다릅니다.
 
->[!NOTE]
->
->Analytics 도구에서 유사한 차원에 대해 다른 용어를 사용하는 공통 부분이 있습니다. 예를 들어 Reports &amp; Analytics는 `browserwidth`를 사용하는 반면 Analysis Workspace에서는 `browserwidthbucketed`를 사용합니다.
-
-## Reports &amp; Analytics와 Analysis Workspace에서 모두 지원되는 차원
+## Analysis Workspace에서 지원되는 Dimension
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |---|---|
@@ -101,11 +97,6 @@ ht-degree: 98%
 | 방문 깊이 | `pathlength` |
 | 방문 횟수 | `visitnumber` |
 | 우편번호 | `zip` |
-
-## Analysis Workspace에서만 지원되는 차원
-
-| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
-|--- |--- |
 | 오전/오후 | `timepartampm` |
 | 브라우저 높이 - 전체기간 | `browserheightbucketed` |
 | 브라우저 너비 - 전체기간 | `browserwidthbucketed` |
@@ -164,24 +155,7 @@ ht-degree: 98%
 | Channel 채널 자산 | `nielsenchannelasset` |
 | Nielsen 콘텐츠 유형 | `nielsencontenttype` |
 
-## Reports &amp; Analytics에서만 지원되는 차원
-
-| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
-|--- |--- |
-| 브라우저 높이 | `browserheight` |
-| 브라우저 너비 | `browserwidth` |
-| 일별 고유 고객 수 | `dailyuniquecustomers` |
-| JavaScript | `javascriptsupport` |
-| JavaScript 버전 | `javascriptversion` |
-| 월간 고유 고객 수 | `monthlyuniquecustomers` |
-| 분기별 고유 고객 수 | `quarterlyuniquecustomers` |
-| 시간대 | `timezone` |
-| 최상위 수준 도메인 | `topleveldomain` |
-| 방문자 주 | `legacystate` |
-| 주간 고유 고객 수 | `weeklyuniquecustomers` |
-| 연간 고유 고객 수 | `yearlyuniquecustomers` |
-
-## Reports &amp; Analytics와 Analysis Workspace에서 모두 지원되는 콘텐츠 인식 차원
+## Analysis Workspace에서 지원하는 컨텐츠 인식 차원
 
 ### 비디오 (Media Analytics)
 

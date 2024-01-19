@@ -3,10 +3,10 @@ description: 마케팅 채널 보고서를 실행하고, 보고서에 대한 제
 title: 마케팅 채널 권한
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Attribution 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
+>기여도 분석 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 다음을 게시했습니다 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Analytics 관리자는 [마케팅 채널 관리](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)에 설명된 대로 조직의 마케팅 채널을 관리할 수 있습니다.
 
@@ -24,7 +24,6 @@ ht-degree: 100%
 |---|---|---|
 | 보고서 세트 도구 | 채널 | 마케팅 채널 관리자, 마케팅 채널 처리 규칙 및 보고서 세트 관리자의 마케팅 채널 만료를 비롯하여 마케팅 채널에 대한 액세스 권한을 부여합니다. |
 | 보고서 세트 도구 | 비용 | 보고서 세트 관리자에서 마케팅 채널 > 마케팅 채널 비용에 대한 액세스 권한을 부여합니다. |
-| 보고서 세트 도구 | 채널 보고서 | Reports &amp; Analytics의 마케팅 채널 > 채널 개요 보고서에 대한 액세스 권한을 부여합니다. |
 | 보고서 세트 도구 | 분류 | 마케팅 채널 > 마케팅 채널 분류를 비롯하여 보고서 세트 관리자의 모든 분류 설정에 대한 액세스 권한을 부여합니다. |
 | Analytics 도구 | Analysis Workspace 액세스 | Analysis Workspace에 대한 액세스 권한 부여. Workspace에서 마케팅 채널 차원을 사용하려면 사용자가 이 그룹 (기본 설정) 또는 Reports &amp; Analytics 액세스 권한에 속해야 합니다. |
 | Analytics 도구 | Reports and Analytics 액세스 | Reports and Analytics에 대한 액세스 권한을 부여합니다. Adobe Analytics를 사용하려면 사용자가 이 그룹 또는 Analysis Workspace 액세스 그룹 (기본 설정)에 속해야 합니다. |

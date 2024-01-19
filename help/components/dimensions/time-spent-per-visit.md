@@ -3,16 +3,16 @@ title: 방문당 체류 시간 (차원)
 description: 방문이 걸린 총 시간입니다.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 100%
+source-wordcount: '302'
+ht-degree: 92%
 
 ---
 
 # 방문당 체류 시간
 
-*[이 도움말 페이지에서는 &#39;방문당 체류 시간&#39;이 각각의 해당 차원으로 작동하는 방식을 설명합니다](overview.md). 자세한 내용은 [방문당 체류 시간](../metrics/time-spent-per-visit.md) 지표를 참조하십시오.*
+*이 도움말 페이지에서는 &#39;방문당 체류 시간&#39;이 각각의 해당 시간으로 작동하는 방식을 설명합니다 [치수](overview.md). 자세한 내용은 [방문당 체류 시간](../metrics/time-spent-per-visit.md) 지표를 참조하십시오.*
 
 방문당 체류 시간 차원은 방문자가 전체 방문에서 보낸 시간을 기록합니다. 다음 절차를 사용하여 계산을 측정합니다.
 
@@ -39,6 +39,6 @@ ht-degree: 100%
 방문당 체류 시간에 대해 여러 차원이 존재합니다.
 
 * **방문당 체류 시간 - 그룹**: 시간이 버킷됩니다. 차원 항목의 범위는 `"Less than 1 minute"`부터 `"More than 15 hours"`까지 입니다. 일반적으로 방문은 12시간 이상 지속되지 않습니다. 하지만 타임스탬프가 지정된 히트나 데이터 소스를 사용하는 경우 방문이 12시간을 초과할 수 있습니다.
-* **방문당 체류 시간 - 세부기간**: 각각의 초 수는 고유한 차원 항목입니다. 이 차원은 Reports &amp; Analytics 또는 Data Warehouse에서 사용할 수 없습니다.
+* **방문당 체류 시간 - 세부기간**: 각각의 초 수는 고유한 차원 항목입니다. 이 차원은 Data Warehouse에서 사용할 수 없습니다.
 
 체류 시간에 대한 일반적인 정보가 필요하면 [체류 시간 개요](../metrics/time-spent.md)를 참조하십시오.

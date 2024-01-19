@@ -3,10 +3,10 @@ description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작
 title: 세그먼트 정보
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 79%
+source-wordcount: '1148'
+ht-degree: 75%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 세그먼트는 를 기반으로 합니다. [!UICONTROL 방문자], [!UICONTROL 방문], 및 [!UICONTROL 히트] 중첩된 컨테이너 모델을 사용하여 레벨 계층 구조. 중첩된 컨테이너를 사용하여 컨테이너 간 규칙 및 컨테이너 내부 규칙에 따라 방문자 속성 및 작업을 정의할 수 있습니다. Analytics 세그먼트는 [!DNL Adobe Experience Cloud]의 여러 제품 및 기능에서 작성, 승인, 공유, 저장 및 실행할 수 있습니다. 보고서에서 세그먼트를 생성하거나, 대시보드 보고서로 작성하거나, 빠른 액세스를 위해 책갈피를 지정할 수 있습니다.
 
-세그먼트 빌더에서 세그먼트를 작성하고 저장하거나 폴아웃 보고서 ( Analysis Workspace)에서 세그먼트를 생성할 수 있습니다. 중첩된 컨테이너 간 특정 규칙에 따라 미리 작성한 세그먼트를 사용 및 확장하고 결과를 필터링하여 보고서에 적용할 수 있습니다. 또한 세그먼트를 [스택 세그먼트](/help/components/segmentation/segmentation-workflow/seg-workflow.md)로 함께 사용할 수도 있습니다.
+세그먼트 빌더에서 세그먼트를 작성하고 저장하거나 폴아웃 보고서 ( Analysis Workspace)에서 세그먼트를 생성할 수 있습니다. 중첩된 컨테이너 간 특정 규칙에 따라 미리 작성한 세그먼트를 사용 및 확장하고 결과를 필터링하여 보고서에 적용할 수 있습니다. 또한 세그먼트를 다음과 같이 함께 사용할 수 있습니다. [스택 세그먼트](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 세그먼트 식별
 
@@ -126,7 +126,7 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 ## Adobe 제공 세그먼트
 
-화면 왼쪽의 구성 요소 레일에는 사용자와 회사가 만든 세그먼트와 즉시 제공되는 Adobe 세그먼트가 표시됩니다. **[!UICONTROL 모두 표시]**&#x200B;를 클릭하면 이러한 세그먼트는 일반적으로 목록 하단에 표시되며 오른쪽의 Adobe 로고로 식별됩니다.
+화면 왼쪽의 구성 요소 레일에는 사용자와 회사가 만든 세그먼트와 즉시 제공되는 Adobe 세그먼트가 표시됩니다. 다음을 클릭: **[!UICONTROL 모두 표시]**, 이러한 세그먼트는 일반적으로 목록의 맨 아래에 표시되며 오른쪽에 있는 Adobe 로고로 식별됩니다.
 
 ## 순차적 세그먼트 {#sequential}
 
@@ -282,7 +282,7 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 +++ **회사의 세그먼트를 볼 수 있습니까?**
 
-예. 관리자는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics] 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
+예, 관리자는 [!DNL Analysis Workspace] 사용자 인터페이스.
 
 Report Builder는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트를 표시합니다.
 
@@ -292,7 +292,7 @@ Report Builder는 사용자가 소유한 세그먼트와 사용자와 공유된 
 
 예. 모든 세그먼트는 세그먼트 관리자에서 관리할 수 있습니다. 세그먼트 관리자는 소유자 (세그먼트를 만든 사용자), 공유 사용자 및 관리 사용자가 볼 수 있는 세그먼트를 표시합니다. 세그먼트 선택기는 사용자가 소유하고 사용자와 공유된 세그먼트를 표시합니다.
 
-관리자는 Analysis Workspace 및[!DNL Reports & Analytics] 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
+관리자는 Analysis Workspace 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
 
 Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 공유한 세그먼트만 표시합니다.
 

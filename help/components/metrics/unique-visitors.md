@@ -3,9 +3,9 @@ title: 고유 방문자 수
 description: 고유 방문자 ID의 수입니다.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: ht
-source-wordcount: '556'
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 [디바이스 간 분석](../cda/overview.md)을 사용하는 경우 지표는 [고유 디바이스](unique-devices.md) 지표로 대체됩니다.
 
 ## 일별, 주별, 월별, 분기별 및 연간 고유 방문자 수
-
-Reports &amp; Analytics는 일별, 주별, 월별, 분기별 및 연간 고유 방문자 수에 대한 옵션을 제공합니다. 고유 방문자 수는 전체 기간 동안 한 명의 고유 방문자를 계산하지 않고 선택한 지표를 기반으로 계산됩니다. 예를 들어 사이트에 대한 일별 고유 방문자 수를 확인하려고 합니다. 방문자가 아침과 밤에 사이트를 방문한다면 이 방문자는 한 명의 일별 고유 방문자로 계산됩니다. 방문자가 월요일과 화요일에 사이트를 방문한다면 2명의 일별 고유 방문자로 계산됩니다.
 
 Analysis Workspace는 보고서의 세부기간을 기준으로 고유 방문자를 처리합니다. 예를 들어 [일](../dimensions/day.md) 차원을 사용하는 경우 각 차원 항목에 대한 일별 고유 방문자 수를 보게 됩니다. 하지만 보고서 합계의 경우에는 자유 형식 테이블의 날짜 범위에 대해 중복이 제거된 고유 방문자 수입니다.
 

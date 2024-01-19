@@ -3,10 +3,10 @@ description: 가져오기를 사용하여 분석 보고에 대한 분류 데이�
 title: 분류 데이터 파일
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 98%
+source-wordcount: '1768'
+ht-degree: 96%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 98%
 * 분류의 값은 0일 수 없습니다.
 * 가져오기 및 내보내기 열의 수는 30개로 제한하는 것이 좋습니다.
 * 업로드한 파일은 BOM 문자 인코딩 없이 UTF-8을 사용해야 합니다.
-* v2.1 파일 형식이 지정되고 셀이 적절히 [이스케이프](/help/components/classifications/importer/t-classifications-escape-data.md) 처리된 경우, 탭, 새 줄 및 인용 부호와 같은 특수 문자를 셀 내에 임베드할 수 있습니다. 특수 문자에는 다음이 포함됩니다.
+* v2.1 파일 형식이 지정되어 있고 셀이 제대로 되어 있는 경우 탭, 줄바꿈, 따옴표와 같은 특수 문자를 셀 내에 포함할 수 있습니다 [이스케이프 처리됨](/help/components/classifications/importer/t-classifications-escape-data.md). 특수 문자에는 다음이 포함됩니다.
 
-   ```text
-   \t     tab character 
-   \r     form feed character 
-   \n    newline character 
-   "       double quote
-   ```
+  ```text
+  \t     tab character 
+  \r     form feed character 
+  \n    newline character 
+  "       double quote
+  ```
 
-   쉼표는 특수 문자가 아닙니다.
+  쉼표는 특수 문자가 아닙니다.
 
 * 삽입 기호(^)는 하위 분류를 나타내는 데 사용되므로 분류 이름에 포함할 수 없습니다.
 * 하이픈(-)을 사용할 때 주의하십시오. 예를 들어 Social 용어에서 하이픈(-)을 사용하는 경우, Social은 하이픈을 [!DNL Not] 연산자(빼기 기호)로 인식합니다. 예를 들어 가져오기를 사용하여 *`fragrance-free`*&#x200B;를 용어로 지정할 경우 Social은 이 용어를 fragrance *`minus`* free로 인식하고 *`fragrance`*&#x200B;가 아닌 *`free`*&#x200B;를 언급한 게시물을 수집합니다.
@@ -94,7 +94,6 @@ ht-degree: 98%
 >
 >* [일반적인 업로드 문제](https://helpx.adobe.com/kr/analytics/kb/common-saint-upload-issues.html)
 
-
 ## 열 제목 형식
 
 >[!NOTE]
@@ -109,11 +108,9 @@ ht-degree: 98%
 
 ### 분류 열 제목
 
-예: Reports &amp; Analytics 구현에는 다음 두 가지 분류가 자동으로 포함됩니다. [!UICONTROL 캠페인] 변수: [!UICONTROL 캠페인] 및 [!UICONTROL 크리에이티브 요소]. [!UICONTROL 캠페인] 분류에 데이터를 추가하려면 분류 데이터 파일의 열 제목이 [!UICONTROL 캠페인]이어야 합니다.
-
 >[!NOTE]
 >
->[!UICONTROL 분류] 열 제목의 값은 분류 명명 규칙과 정확히 일치해야 하며, 그렇지 않은 경우 가져오기에 실패합니다. 예를 들어 관리자가 [!UICONTROL 캠페인]을 [!UICONTROL 캠페인 설정 관리자]의 [!UICONTROL 내부 캠페인 이름]으로 변경하는 경우 파일 열 제목을 일치하도록 변경해야 합니다. &quot;Key&quot;는 예약된 분류(헤더) 값입니다. &quot;키&quot;라는 새 분류는 지원되지 않습니다.
+>[!UICONTROL 분류] 열 제목의 값은 분류 명명 규칙과 정확히 일치해야 하며, 그렇지 않은 경우 가져오기에 실패합니다. 예를 들어 관리자가 [!UICONTROL 캠페인] 끝 [!UICONTROL 내부 캠페인 이름] 다음에서 [!UICONTROL 캠페인 설정 관리자], 파일 열 머리글은 일치하도록 변경되어야 합니다. &quot;Key&quot;는 예약된 분류(헤더) 값입니다. &quot;키&quot;라는 새 분류는 지원되지 않습니다.
 
 또한 데이터 파일은 다음 추가 제목 규칙이 하위 분류와 기타 특수 데이터 열과 일치하도록 지원합니다.
 

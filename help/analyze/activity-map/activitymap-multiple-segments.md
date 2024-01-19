@@ -5,10 +5,10 @@ uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 feature: Activity Map
 role: User, Admin
 exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 83%
+source-wordcount: '178'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ Activity Map에서 여러 세그먼트 필터를 적용해봅니다.
 >
 >Adobe Analytics 플랫폼에서는 실시간 데이터에 대한 세그멘테이션을 지원하지 않으므로 표준 모드에서만 세그먼트를 제어할 수 있습니다.
 
-아래 표시된 **[!UICONTROL 세그먼트]** 드롭다운 메뉴에서 하나 또는 여러 개의 세그먼트를 선택할 수 있습니다. 나열된 세그먼트는 선택한 보고서 세트에 대해, Reports &amp; Analytics을 통해 사용자에게 공유되었거나 사용자가 소유하는 세그먼트와 동일합니다.
+아래 표시된 **[!UICONTROL 세그먼트]** 드롭다운 메뉴에서 하나 또는 여러 개의 세그먼트를 선택할 수 있습니다. 나열된 세그먼트는 선택한 보고서 세트에 대해 사용자가 소유하거나 사용자와 공유된 세그먼트와 동일합니다.
 
 ![](assets/segments.png)
 
