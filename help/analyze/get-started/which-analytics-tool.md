@@ -3,10 +3,10 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '1227'
-ht-degree: 100%
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 98%
 
 ---
 
@@ -24,28 +24,9 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)**&#x200B;는 모든 보고 및 분석 요구를 위해 꼭 이용하는 사용자 인터페이스여야 합니다. Adobe는 이 제품에 대한 투자와 월별 업데이트 릴리스를 계속 수행합니다. Analysis Workspace에서 작업을 수행할 수 없는 경우 아래의 다른 인터페이스를 고려하십시오.**
 
-**[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**&#x200B;는 다음 경우에 사용합니다.
+**[Report Builder](/help/analyze/report-builder/home.md)** 는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
 
-* 쉽게 탐색할 수 있는 사전 빌드된 보고에 액세스해야 하는 초보 사용자가 사용해야 합니다.
-* UI에서 실시간 데이터에 액세스하려는 경우
-* 캘린더 이벤트를 설정하려는 경우
-* 대상을 설정하려는 경우
-* Video Daypart 및 Viewer Drop-off의 고유한 비디오 시각화에 액세스하려는 경우
-
->[!IMPORTANT]
->
->**2023년 12월 31일**&#x200B;부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. 해당 시점에 Reports &amp; Analytics 및 모든 관련 보고서와 일정이 작동 중단될 예정입니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 Reports &amp; Analytics 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. 이 공지 사항은 서비스 종료 프로세스에 대해 설명합니다.
-
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ko-KR)**&#x200B;는 다음 경우에 사용합니다.
-
-* 예측, 통계 모델링 (성향 점수, 클러스터링, 상관 관계 등).
-* 지연 분석 (이벤트 전/후 시간).
-* Adobe Experience Cloud에서 복잡한 세그먼트를 식별 및 내보내기.
-
->[!IMPORTANT]
->
->Data Workbench의 [서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ko)에 대해 자세히 살펴보십시오.
-
+**[Adobe Analytics 대시보드](/help/analyze/mobile-app/home.md)** 는 사용자가 모바일에서 직관적인 스코어카드에 액세스할 수 있도록 합니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
 ## Adobe Analytics로 데이터 가져오기 {#import}
 

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
+source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1008'
 ht-degree: 100%
 
 ---
@@ -304,35 +304,6 @@ ht-degree: 100%
    + [Analytics에서의 Activity Map 보고](activity-map/activitymap-reporting-analytics.md)
    + [브라우저 확장 기능 문제 해결](activity-map/troubleshooting-browser-extensions.md)
    + [데이터 수집 문제 해결](activity-map/troubleshoot-data-collection.md)
-+ Reports &amp; Analytics {#reports-analytics}
-   + [Reports &amp; Analytics 시작하기](reports-analytics/getting-started.md)
-   + 보고 인터페이스 개요 {#reporting-interface}
-      + [데이터 수집 정보](reports-analytics/overview/overview-data-collection.md)
-      + [보고서 메뉴](reports-analytics/overview/reports-menu.md)
-      + [보고서 기능](reports-analytics/overview/report-overview.md)
-   + [보고서 표시 설정 및 탐색](reports-analytics/report-settings.md)
-   + [보고서 예약 및 배포](reports-analytics/scheduling.md)
-   + [예약된 보고서에 대한 서비스 종료](reports-analytics/scheduled-reports-eol.md)
-   + [보고서 유형](reports-analytics/reports.md)
-   + [다른 보고서 유형 실행](reports-analytics/t-running-report-types.md)
-   + 보고서 사용자 정의 {#customize-reports}
-      + [보고서 사용자 정의 개요](reports-analytics/reports-customize/customizing-reports-overview.md)
-      + [보고서 그래프 변경](reports-analytics/reports-customize/t-reports-graphs.md)
-      + [분류](reports-analytics/reports-customize/breakdowns.md)
-      + [하위 관계](reports-analytics/reports-customize/subrelations.md)
-      + [보고서 데이터 필터링](reports-analytics/reports-customize/t-reports-filter-options.md)
-   + [Analytics 세분화](reports-analytics/segmentation.md)
-   + [북마크 관리자](reports-analytics/bookmarks.md)
-   + [현재 데이터](reports-analytics/current-data.md)
-   + [대시보드 및 리포트릿](reports-analytics/dashboard.md)
-   + [대시보드 관리자](reports-analytics/dashboard-manage.md)
-   + [유입 경로 보고서](reports-analytics/funnels.md)
-   + [지표](reports-analytics/metrics.md)
-   + [대상](reports-analytics/targets.md)
-   + [경고](reports-analytics/alerts.md)
-   + [캘린더 이벤트](reports-analytics/t-calendar-event.md)
-   + [자주 묻는 질문](reports-analytics/frequently-asked-questions.md)
-   + [문제 해결](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics 대시보드 {#mobapp}
    + [Adobe Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 인트로](mobile-app/curator.md)

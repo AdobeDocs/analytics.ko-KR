@@ -3,9 +3,9 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2535'
 ht-degree: 97%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 97%
 * **컨텍스트 데이터 변수:** 처리 규칙에만 사용되는 임시 변수입니다. 처리 규칙이 컨텍스트 데이터 변수 값을 전환 또는 트래픽 변수에 복사하지 않으면 이 값이 영구적으로 손실됩니다. 구현 사용 안내서에서 [컨텍스트 데이터 변수](../implement/vars/page-vars/contextdata.md)를 참조하십시오.
 * **전환 변수:** eVar라고도 합니다. 사용자 지정 값을 저장하고 만료될 때까지 변수 값을 유지합니다. 구성 요소 사용 안내서에서 [eVar](/help/components/dimensions/evar.md) 차원을 참조하십시오.
 * **상관 관계:** 더 이상 사용하지 않는 용어입니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
-* **현재 데이터:** 아직 완전히 처리되지 않은, 최근 수집된 데이터를 포함할 수 있는 일부 보고서의 옵션입니다. 분석 사용 안내서에서 [현재 데이터](/help/analyze/reports-analytics/current-data.md)를 참조하십시오.
 * **사용자 지정 링크:** 페이지 보기 데이터가 아닌 데이터가 포함된 히트 유형입니다. 구현 사용 안내서에서 [s.tl () 함수](../implement/vars/functions/tl-method.md)를 참조하십시오. 히트도 참조하십시오.
 * **고객 속성:** 속성 데이터를 업로드할 수 있는 Experience Cloud 기능입니다. 핵심 서비스 사용 안내서에서 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)을 참조하십시오.
 * **고객 지원 담당자:** Adobe 고객 지원 팀과 직접 상호 작용할 수 있는 권한이 있는 지정된 사용자입니다. Experience Cloud 기술 자료에서 [고객 지원 담당자](https://helpx.adobe.com/kr/experience-cloud/supported-users.html)를 참조하십시오.
