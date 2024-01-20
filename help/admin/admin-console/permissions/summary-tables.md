@@ -3,9 +3,9 @@ title: Adobe Analytics Permissions - 요약 표
 description: Adobe Admin Console의 사용 가능한 Adobe Analytics Permissions을 요약하는 표입니다.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1130'
 ht-degree: 98%
 
 ---
@@ -44,13 +44,6 @@ ht-degree: 98%
 | 예외 항목 탐지 |  | x |  |  | Analysis Workspace에서 예외 항목 탐지에 대한 액세스 권한을 부여합니다. |
 | 기여도 분석 |  | x |  |  | Analysis Workspace의 마우스 오른쪽 버튼 클릭 메뉴 &#39;기여도 분석 실행&#39;에 대한 액세스 권한을 부여합니다. |
 | 사용자 정의 Data Warehouse 보고서 |  | x |  |  | Analytics 상단 탐색의 도구 > Data Warehouse에 대한 액세스 권한을 부여합니다. |
-| 보트 페이지 |  |  | x |  | Reports &amp; Analytics의 사이트 지표 > 보트 > 보트 페이지 보고서에 대한 액세스 권한을 부여합니다. |
-| 보트 |  |  | x |  | Reports &amp; Analytics의 사이트 지표 > 보트 > 보트 보고서에 대한 액세스 권한을 부여합니다. |
-| 채널 보고서 |  |  | x |  | Reports &amp; Analytics의 마케팅 채널 > 채널 개요 보고서에 대한 액세스 권한을 부여합니다. |
-| 일별 재방문 |  |  | x |  | Reports &amp; Analytics의 방문자 유지 > 일별 재방문에 대한 액세스 권한을 부여합니다. |
-| 내 권장 보고서 |  |  | x |  | Reports &amp; Analytics의 사이트 지표 > 내 권장 보고서에 대한 액세스 권한을 부여합니다. |
-| 실시간 보고서 |  |  | x |  | Reports &amp; Analytics의 사이트 지표 > 실시간에 대한 액세스 권한을 부여합니다. 권한 항목 &#39;실시간 보고서 구성&#39;을 사용하여 이 보고서 설정에 대한 액세스 권한을 부여합니다. |
-| 재방문 |  |  | x |  | Reports &amp; Analytics의 방문자 유지 > 재방문에 대한 액세스 권한을 부여합니다. |
 | Advertising Analytics 구성 |  |  |  | x | 사용되지 않습니다. |
 | 회사 요약 리포트릿 |  |  |  | x | 사용되지 않습니다. |
 | Data Warehouse |  |  |  | x | 사용되지 않습니다. 대신 &#39;사용자 정의 Data Warehouse 보고서&#39;를 사용합니다. |
@@ -94,7 +87,7 @@ ht-degree: 98%
 | 모든 사용자와 프로젝트 링크 공유 | x |  |  |  | Workspace 프로젝트 -> 공유 -> 모든 사용자와 공유할 수 있는 액세스 권한을 사용자에게 부여합니다. |
 | Activity Map |  | x |  |  | 도구 > Activity Map에 대한 액세스 권한을 부여합니다. 사용자가 Activity Map 확장 기능을 사용할 수 있습니다. |
 | Ad Hoc Analysis 라이선스 사용자 |  | x |  |  | Ad Hoc Analysis 서비스가 중단되었습니다. [추가 정보](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
-| Analysis Workspace 액세스 |  | x |  |  | Analysis Workspace에 대한 액세스 권한 부여. Adobe Analytics를 사용하려면 사용자가 이 그룹 (기본 설정) 또는 Reports &amp; Analytics 액세스 그룹에 속해야 합니다. |
+| Analysis Workspace 액세스 |  | x |  |  | Analysis Workspace에 대한 액세스 권한을 부여합니다. |
 | Analysis Workspace: 템플릿으로 저장 |  | x |  |  | Analysis Workspace 내의 프로젝트 > 템플릿으로 저장에 대한 액세스 권한을 부여합니다. |
 | 계산된 지표 생성 |  | x |  |  | 모든 Analytics 기능에 대해 계산된 지표를 만들 수 있는 기능을 부여합니다. |
 | Labs 액세스 |  | x |  |  | Labs에 대한 액세스 권한을 부여합니다. |
@@ -102,8 +95,6 @@ ht-degree: 98%
 | 세그먼트 생성 |  | x |  |  | 모든 Analytics 기능에 대해 세그먼트를 만들고 공유할 수 있는 기능을 부여합니다. |
 | 세그먼트 게시 |  | x |  |  | 세그먼트를 만들거나 편집할 때 세그먼트를 Experience Cloud 대상자로 만들 수 있는 기능을 부여합니다. |
 | 웹 서비스 액세스 |  | x |  |  | 서드파티 사이트에서의 인증 및 API 호출 전송을 포함하여 API를 사용할 수 있는 권한을 부여합니다. |
-| 현재 데이터 |  |  | x |  | Reports &amp; Analytics 보고서에서 현재 데이터를 보는 옵션을 활성화합니다. |
-| Reports &amp; Analytics 액세스 |  |  | x |  | Reports &amp; Analytics에 액세스할 권한을 부여합니다. Adobe Analytics를 사용하려면 사용자가 이 그룹 또는 Analysis Workspace 액세스 그룹 (기본 설정)에 속해야 합니다. |
 | Advertising Analytics 관리 |  |  |  | x | 사용되지 않습니다. |
 | 공동 브랜딩 |  |  |  | x | 더 이상 사용되지 않습니다. 관리자 > 모든 관리자 > 회사 설정 > 공동 브랜딩에 대한 액세스 권한을 부여합니다. |
 | Excel 라이선스 사용자 |  |  |  | x | 사용되지 않습니다. |

@@ -4,16 +4,16 @@ title: 페이지 요약 패널
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 8%
+source-wordcount: '444'
+ht-degree: 9%
 
 ---
 
 # 페이지 요약 패널
 
-다음 [!UICONTROL 페이지 요약] 패널은 Reports &amp; Analytics의 보고서 > 참여 > 페이지 분석 > 페이지 요약에서 보고서로 시작되었습니다. 이제 작업 영역 패널이기도 합니다. 이 패널을 통해 특정 페이지에 대한 주요 통계를 쉽게 탐색할 수 있습니다.
+이 패널을 통해 특정 페이지에 대한 주요 통계를 쉽게 탐색할 수 있습니다.
 
 ## 패널 액세스
 

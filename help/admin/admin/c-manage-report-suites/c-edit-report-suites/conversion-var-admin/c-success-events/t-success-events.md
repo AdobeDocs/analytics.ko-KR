@@ -4,9 +4,9 @@ title: 성공 이벤트 구성
 feature: Event
 role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 100%
 
    | 설정 | 표시되는 위치 | 표시되지 않는 위치 |
    |---------|----------|---------|
-   | [!UICONTROL **항상 표시**] | <ul><li>Reports &amp; Analytics (메뉴 및 지표 선택기)</li><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> | 해당 없음 |
-   | [!UICONTROL **빌더**] | <ul><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> | <ul><li>Reports &amp; Analytics (메뉴 및 지표 선택기)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **항상 숨김**] | 해당 없음 | <ul><li>Reports &amp; Analytics (메뉴 및 지표 선택기)</li><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> |
+   | [!UICONTROL **항상 표시**] | <ul><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> | 해당 없음 |
+   | [!UICONTROL **빌더**] | <ul><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **항상 숨김**] | 해당 사항 없음 | <ul><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> |
 
 1. 설명을 제공합니다.
 1. 이벤트를 항상 기록할 것인지 여부를 확인합니다.

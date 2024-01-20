@@ -4,10 +4,10 @@ title: FAQ 및 Analysis Workspace 문제 해결
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 5bad2982cc8883701be3c63a6ca179933fb59d2a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 �
 +++
 
 +++Analysis Workspace이 Adobe Analytics에서 사전 구성된 보고서를 변경합니까?
-아니요. 이는 별도의 환경이므로, Adobe Analytics에서 기존의 보고서나 사전 구성된 보고서에 대한 변경 사항이 없습니다. 여전히 Analysis Workspace을 사용하여 표준 Reports &amp; Analytics과 Report Builder 보고서를 채택할 수 있습니다.
+아니요. 이는 별도의 환경이므로, Adobe Analytics에서 기존의 보고서나 사전 구성된 보고서에 대한 변경 사항이 없습니다. Analysis Workspace을 사용하여 표준 Report Builder 보고서를 계속 사용할 수 있습니다.
 +++
 
 +++Data Warehouse에 Analysis Workspace을 사용할 수 있습니까?

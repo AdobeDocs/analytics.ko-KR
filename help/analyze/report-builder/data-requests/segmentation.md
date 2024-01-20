@@ -1,13 +1,13 @@
 ---
 description: Report Builder에서 Adobe Analytics 세그먼트 추가, 편집, 적용 및 필터링 방법
-title: 세그먼트 관리 (Report Builder)
+title: 세그먼트 관리(Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 85%
+source-wordcount: '959'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 Report Builder에서 Adobe Analytics 세그먼트 추가, 편집, 적용 및 필터링 방법
 
-Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 제공합니다. 이 패널에서 다음을 수행할 수 있습니다. 세그먼트를 만들고 관리합니다.
+Report Builder은 세그먼트를 만들고 관리할 수 있도록 하는 요청 마법사의 1단계에 있는 세그멘테이션 패널을 제공합니다.
 
 ![세그먼트 추가, 편집 또는 지우기 옵션을 보여주고 제어, 필터 및 새로 고침 아이콘을 강조 표시하는 스크린샷입니다.](assets/seg_dialog.png)
 
@@ -50,9 +50,9 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 1. Report Builder으로 돌아가서 새로 고침 아이콘을 클릭하여 세그먼트 목록을 새로 고칩니다.
 1. 이제 이 세그먼트를 적용할 수 있습니다.
 
-## 세그먼트 검색 및 적용 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## 세그먼트 검색 및 적용 {#search}
 
-Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘을 클릭합니다 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Reports &amp; Analytics(이제 서비스 종료), Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘을 클릭합니다 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 지정된 요청에 하나 또는 여러 개의 세그먼트를 적용할 수 있습니다. 여기에는 순차적 세그먼트가 포함됩니다.
 
@@ -64,9 +64,9 @@ Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모�
 
 >[!NOTE]
 >
->관리자이든, 관리자가 아니든, Report Builder에서 소유하는 세그먼트와 다른 사용자와 공유하는 세그먼트만 볼 수 있습니다. (마케팅 Reports &amp; Analytics 사용자 인터페이스에서 관리자는 조직의 모든 세그먼트를 볼 수 있습니다.)
+>관리자이든, 관리자가 아니든, Report Builder에서 소유하는 세그먼트와 다른 사용자와 공유하는 세그먼트만 볼 수 있습니다.
 
-## 세그먼트 필터링 {#section_376E986D3E684999A7CDB08E53854159}
+## 세그먼트 필터링 {#filter}
 
 **필터** 필터 아이콘을 클릭하여 세그먼트를 만듭니다.  ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
@@ -76,13 +76,13 @@ Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모�
 |---|---|
 | 태그 | 특정 태그가 있는 세그먼트만 필터링할 수 있습니다. 태그 필터는 AND 연산자를 사용합니다. 두 태그를 선택하면 오른쪽 창에 **두** 태그가 모두 지정된 세그먼트가 표시됩니다. |
 | 소유자 | 소유자별로 세그먼트를 필터링할 수 있습니다. 소유자 필터는 OR 연산자를 사용합니다. 두 명의 소유자를 선택하면 오른쪽 창에 **둘 중 하나의** 소유자가 소유한 세그먼트가 표시됩니다. |
-| 기타 필터 > *보고서 세트 이름*&#x200B;만 | *의 세그먼트 빌더에서 &quot;*&#x200B;보고서 세트 이름[!DNL marketing reports & analytics]만&quot; 필터를 적용한 다음 [!DNL Report Builder]에 고급 필터를 표시하면 고급 필터에 선택한 보고서 세트에 대한 세그먼트만 표시됩니다. |
+| 기타 필터 > *보고서 세트 이름*&#x200B;만 | 다음을 적용하는 경우 *보고서 세트 이름*&quot;Adobe Analytics의 세그먼트 빌더에서 을 필터링한 다음 고급 필터를 표시합니다. [!DNL Report Builder]고급 필터에 선택한 보고서 세트에 대한 세그먼트만 표시됩니다. |
 | 기타 필터 > 내 소유 | 소유한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 나와 공유 | 다른 사람이 사용자와 공유한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 즐겨찾기 | 즐겨찾기로 표시한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 승인됨 | 공식적으로 승인한 모든 세그먼트를 표시합니다. |
 
-## 통합 문서에 세그먼트 컨트롤 추가 {#section_E3E5149A8464441FA5445A98DBD520AC}
+## 통합 문서에 세그먼트 컨트롤 추가 {#segment-control}
 
 세그먼트 컨트롤을 추가하면 요청 마법사로 이동할 필요 없이 통합 문서 내에서 세그먼트 간을 전환할 수 있습니다.
 
@@ -103,11 +103,11 @@ Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모�
 
    ![세그먼트 선택 필드 드롭다운 필드를 보여 주는 스크린샷입니다.](assets/seg_control2.png)
 
-## 세그먼트 목록 새로 고침 {#section_22E4A86789444B4A998532396B476EFB}
+## 세그먼트 목록 새로 고침 {#refresh}
 
 언제든지 새 세그먼트를 추가하거나 기존 세그먼트를 편집할 때는 새로 고침 아이콘을 클릭해야 합니다 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 캐시된 세그먼트 목록을 새로 고칩니다.
 
-## 요청에 있는 세그먼트 관리 {#section_C3D63FCBE1A94369A319243313B03C93}
+## 요청에 있는 세그먼트 관리 {#manage}
 
 Report Builder v5.4 이전에는 여러 요청에서 세그먼트를 변경했습니다. 그렇지만 이 프로세스를 수행하면 항상 기존 세그먼트가 변경되었습니다. 사용자가 각 요청에 새 세그먼트를 한 개 추가하려고 해도 세그먼트를 추가하면 각 요청에 이미 할당된 이전 세그먼트 집합이 삭제되므로 이 방법을 사용할 수 없었습니다.
 
@@ -122,7 +122,7 @@ Report Builder 5.4에서는 여러 요청에 대해 세그먼트 추가, 제거,
 
    | 옵션 | 설명 |
    |---|---|
-   | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 세그먼트 | 현재 세그먼트 목록에 추가할 세그먼트를 한 개 이상 선택합니다. |
+   | 세그먼트 추가 | 현재 세그먼트 목록에 추가할 세그먼트를 한 개 이상 선택합니다. |
    | 세그먼트 바꾸기 | 한 개 이상의 세그먼트로 교체할 세그먼트를 선택합니다. |
    | 다음으로 모든 세그먼트를 바꾸기 | 현재 세그먼트를 대체할 한 개 이상의 세그먼트를 선택합니다. |
    | 세그먼트 제거 | 요청에서 세그먼트를 제거합니다. |

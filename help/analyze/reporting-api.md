@@ -5,10 +5,10 @@ uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
 feature: API
 role: Developer
 exl-id: 003a8b83-6ef0-4313-903a-b76078558d55
-source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 100%
+source-wordcount: '131'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Analytics API에 대한 설명서는 [Adobe Developer](https://developer.a
 | **설명** | 모든 Analytics 인터페이스에서 사용할 수 있는 완료된 데이터로, 완전히 처리되었습니다. | 컬렉션이 발생하면 바로 사용할 수 있는 제한된 지표로, 부분적으로 처리되었습니다. | 컬렉션이 발생하면 바로 사용할 수 있는 히트 데이터로, 부분적으로 처리되었습니다. | 가져온 대용량 데이터 내보내기에 사용되는 완료된 데이터로, 완전히 처리되었습니다. |
 | [**지연**](/help/technotes/latency.md) | 30~90분 | 수 초 ~ 10분 | 수 초 ~ 10분 | 90분 이상 |
 | **처리 완료** | 전체 | 부분 | 부분 | 전체 |
-| **보고 인터페이스** | Analysis Workspace, Reports &amp; Analytics, Report Builder, API | Reports &amp; Analytics, Report Builder, 1.4 API의 실시간 보고서 | API 전용 | Data Warehouse, API |
+| **보고 인터페이스** | Analysis Workspace, Report Builder, API | Report Builder, 1.4 API의 실시간 보고서 | API 전용 | Data Warehouse, API |
 | **데이터 세부기간** | 요약 | 요약 | 히트 수준 | 요약 |
 | **방문자 프로필 처리** | 예 | 아니요 | 아니요 | 예 |
 | **세그먼트 지원** | 예 | 아니요 | 아니요 | 부분 |

@@ -1,14 +1,13 @@
 ---
 description: 실시간 요청 날짜를 구성하는 방법을 설명하는 단계.
 title: 실시간 요청 구성
-uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 90%
+source-wordcount: '113'
+ht-degree: 80%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 90%
 
 실시간 요청을 구성하려면 다음 작업을 수행합니다.
 
-1. 마케팅 분석의 [관리 도구](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=ko-KR)에서 실시간 보고가 활성화되어 있는지 확인합니다.
+1. 에서 실시간 보고가 활성화되어 있는지 확인합니다. [관리 도구](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=ko-KR).
 1. [!UICONTROL 요청 마법사: 1단계]에서 **[!UICONTROL 실시간 보고서]** > **[!UICONTROL `<report type>`]**&#x200B;를 클릭합니다.
 
    예를 들어 트래픽 보고서를 선택합니다. 실시간 보고서 유형을 선택하면 [!UICONTROL 시간 범위 선택] 옵션이 표시됩니다.

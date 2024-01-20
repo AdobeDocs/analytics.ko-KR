@@ -4,9 +4,9 @@ title: 경고 빌더 (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 100%
 
 * Analysis Workspace에서 다음의 단축키 사용:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * **[!UICONTROL 작업 영역]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 경고]**&#x200B;로 이동.
 * 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 버튼으로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기 선택]**.
-* Reports &amp; Analytics 보고서에서, **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;로 이동.
 
 ## 경고 작성
 
@@ -70,7 +69,7 @@ ht-degree: 100%
 
 * 트리거를 추가하는 지표를 캔버스에 드래그하여 놓습니다.
 
-   경고에 뜬 모든 구성 요소 (지표/차원/세그먼트) 중 일부가 현재 선택된 보고서 세트와 호환하지 않을 경우 **&quot;호환하지 않는 구성 요소&quot;** 메시지가 표시됩니다.
+  경고에 뜬 모든 구성 요소 (지표/차원/세그먼트) 중 일부가 현재 선택된 보고서 세트와 호환하지 않을 경우 **&quot;호환하지 않는 구성 요소&quot;** 메시지가 표시됩니다.
 * 경고를 설정하기 전에 지표가 초과되는 임계값을 결정합니다. 이 값을 임계값으로 설정한 후 다음 조건 중 하나로 설정할 수 있습니다.
 
    * 예외 항목이 있음
@@ -81,7 +80,7 @@ ht-degree: 100%
    * 변경
    * 90%, 95%, 99%, 99.75% 및 99.9%의 임계값을 설정할 수 있습니다.
 
-   계산된 지표를 사용할 수도 있습니다.
+  계산된 지표를 사용할 수도 있습니다.
 
 *... 다음 필터 사용*
 

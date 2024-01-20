@@ -4,10 +4,10 @@ title: 종속 요청을 추가하여 경로 보고서 필터링
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 85%
+source-wordcount: '172'
+ht-degree: 62%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 85%
 
 미리 정의한 필터로 경로 보고서를 만드는 방법을 설명합니다.
 
-마케팅 Reports &amp; Analytics은 [!UICONTROL 다음] 및 [!UICONTROL 이전 사이트 섹션] 보고서, 시작 및 [!UICONTROL 종료 사이트 섹션] 보고서, [!UICONTROL 단일 사이트 섹션] 보고서와 같이 미리 정의된 필터가 있는 상위 경로 보고서에 해당하는 일부 독립 실행형 보고서를 제공합니다.
-
-Report Builder는 이러한 보고서를 독립 실행형 보고서로 제공하지 않으며 **[!UICONTROL 종속적 요청 추가]** > **[!UICONTROL 경로]** 컨텍스트 메뉴에서 이러한 보고서를 만들 수 있습니다. 다음 보고서를 사용할 수 있습니다.
+Report Builder은 경로 보고서를 독립 실행형 보고서로 제공하지 않지만 **[!UICONTROL 종속 요청 추가]** > **[!UICONTROL 경로]** 상황에 맞는 메뉴입니다. 다음 보고서를 사용할 수 있습니다.
 
 * 경로 > 페이지 폴아웃
 * 경로 > 시작 경로
@@ -29,7 +27,7 @@ Report Builder는 이러한 보고서를 독립 실행형 보고서로 제공하
 * 경로 > 시작 경로 > 시작 페이지로
 * 경로 > 종료 경로 > 종료 페이지로
 
-1. 기존 요청에서 여러 행을 선택하고 **[!UICONTROL 종속적 요청 추가]** > **[!UICONTROL 경로]**&#x200B;를 마우스 오른쪽 단추로 클릭합니다. 행을 보려면 행을 세 개 이상 선택해야 합니다. **[!UICONTROL 페이지 폴아웃]** 메뉴 항목.
+1. 기존 요청에서 여러 행을 선택한 다음 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL 종속 요청 추가]** > **[!UICONTROL 경로]**. 행을 보려면 행을 세 개 이상 선택해야 합니다. **[!UICONTROL 페이지 폴아웃]** 메뉴 항목.
 
    ![종속 요청 추가 옵션이 선택된 세 개의 선택한 행을 보여 주는 스크린샷.](assets/dependen_request.png)
 

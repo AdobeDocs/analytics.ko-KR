@@ -4,10 +4,10 @@ title: Analytics에서의 Activity Map 보고
 feature: Activity Map
 role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 92%
+source-wordcount: '233'
+ht-degree: 79%
 
 ---
 
@@ -34,6 +34,6 @@ Analytics에서 사용할 수 있는 사용 권한 및 차원을 설정하는 �
 | Activity Map 링크 및 영역 | 전체 웹 사이트에서 해당 영역과 함께 수집된 모든 링크를 나열합니다. |
 | Activity Map XY | 사용 안 함 |
 
-* 이러한 차원은 Analysis Workspace, Reports &amp; Analytics, Report Builder에서 사용할 수 있어야 합니다(Analytics 구현이 [Activity Map에 활성화된 경우](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md)).
-* Reports &amp; Analytics에서 **[!UICONTROL 모든 보고서 보기]** > **[!UICONTROL Activity Map]**&#x200B;으로 이동합니다.
+* Analytics 구현이 다음과 같은 경우 Analysis Workspace 및 Report Builder에서 이러한 차원을 사용할 수 있어야 합니다. [Activity Map 활성화됨](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
+* Analysis Workspace에서 Activitymap 관련 차원을 보고서로 가져옵니다.
 * 특정 페이지에 대한 링크 및 영역을 보기 위해 해야 할 일은 원하는 Activity Map 페이지의 분류를 Activity Map 링크 및 영역에 만드는 것입니다.

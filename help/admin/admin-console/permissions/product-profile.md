@@ -3,10 +3,10 @@ title: Adobe Analytics의 제품 프로필
 description: 제품 관리자가 조직 내부에서 사용자에게 할당할 수 있는 권한 사전 설정으로 제품 프로필을 활용할 수 있는 방법에 대해 알아봅니다.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 1a7b853d6f5fc627223ea69e64b4a240c61aef2a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 98%
+source-wordcount: '673'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 Adobe Analytics에 액세스하기 위해 제품 프로필에 필요한 최소 권한은 다음과 같습니다.
 
 * 제품 프로필에 하나 이상의 보고서 세트에 대한 액세스 권한이 있어야 합니다.
-* 제품 프로필이 Analytics 도구 권한 항목 **Analysis Workspace 액세스** (또는 **Reports &amp; Analytics 액세스**)에 속해 있어야 합니다.
+* 제품 프로필이 Analytics 도구 권한 항목에 속해야 합니다. **Analysis Workspace 액세스**.
 
 ### 보고서 세트
 
@@ -41,13 +41,13 @@ Analytics 조직에 속한 보고서 세트에 대한 액세스 권한을 부여
 
 ### 지표
 
-보고서 세트의 지표에 대한 액세스 권한을 부여합니다. 지표는 Analysis Workspace에서 해당 구성 요소로 나열되거나, 지표를 Reports &amp; Analytics에서 사용할 수 있는 경우 사이트 지표 아래의 메뉴 항목으로 사용할 수 있습니다.
+보고서 세트의 지표에 대한 액세스 권한을 부여합니다. 지표는 Analysis Workspace에서 해당 구성 요소로 나열됩니다.
 
 사용자 정의 지표는 보고서 세트와 독립적으로 유지하도록 &#39;사용자 정의 이벤트 1-1000&#39; 레이블이 지정됩니다. 사용자 정의 이벤트 1이 활성화된 사용 권한 항목인 경우 해당 사용자는 제품 프로필의 모든 보고서 세트에 있는 event1에 액세스할 수 있습니다.
 
 ### 차원
 
-보고서 세트의 차원에 대한 액세스 권한을 부여합니다. 차원은 Analysis Workspace에서 해당 구성 요소로 나열되거나, Reports &amp; Analytics에서 차원을 사용할 수 있는 경우에는 메뉴 항목으로 사용할 수 있습니다.
+보고서 세트의 차원에 대한 액세스 권한을 부여합니다. Dimension은 Analysis Workspace에서 해당 구성 요소로 나열됩니다.
 
 eVar와 같은 사용자 정의 변수는 보고서 세트와 독립적으로 유지하도록 &#39;사용자 정의 전환 1-250&#39; 레이블이 지정됩니다. 사용자 정의 전환 1이 활성화된 사용 권한 항목인 경우 해당 사용자는 제품 프로필의 모든 보고서 세트에 있는 eVar1에 액세스할 수 있습니다.
 

@@ -4,21 +4,21 @@ title: Report Builder의 경로 및 경로 폴아웃 보고서
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 88%
+source-wordcount: '294'
+ht-degree: 84%
 
 ---
 
 # Report Builder의 경로 및 경로 폴아웃 보고서
 
-Report Builder이 경로 지정 및 폴아웃 보고서를 지원하는 방법 및 구현이 Reports &amp; Analytics와 어떻게 다른지 설명합니다.
+Report Builder이 경로 지정 및 폴아웃 보고서를 지원하는 방법과 Reports &amp; Analytics와 구현 차이가 나는 방법(현재 서비스 종료)에 대해 설명합니다.
 
 | Reports &amp; Analytics의 경로 보고서 이름(경로 > 차원 >) | Report Builder에서 지원 여부 |
 |--- |--- |
 | 다음/이전 차원 흐름 | 독립 실행형 보고서로 제공되지 않습니다. 필터를 사용하여 경로 차원이 있는 여러 개의 보고서로 재현할 수 있습니다. |
-| 다음/이전  차원 | 독립 실행형 보고서로 제공되지 않습니다. 필터를 사용하여 경로 보고서 하나로 재현할 수 있습니다. |
+| 다음/이전 차원 | 독립 실행형 보고서로 제공되지 않습니다. 필터를 사용하여 경로 보고서 하나로 재현할 수 있습니다. |
 | 폴아웃 | 독립형 보고서로 지원되고 제공됩니다(경로 > 차원 > 차원 폴아웃). |
 | 전체 경로 | 지원되지 않음. |
 | 경로 탐색 | 독립 실행형 보고서로 제공되지 않습니다. 필터를 사용하여 단일 경로 보고서로 재현할 수 있습니다. |

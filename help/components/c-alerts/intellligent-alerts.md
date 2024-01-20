@@ -3,10 +3,10 @@ description: 지능형 경고 시스템은 경고를 더욱 세밀하게 제어�
 title: 지능형 경고
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 경고 시스템의 구성 요소에는 경고 빌더, 경고 관리자, 경고 미리보기 및 경고 작성에 대한 더 나은 컨텍스트 내 액세스 기능이 포함됩니다. 이전 경고 시스템 사용자 인터페이스는 더 이상 사용할 수 없지만, 경고는 마이그레이션됩니다. 일부 이전 경고 기능은 [더 이상 사용할 수 없습니다](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=ko-KR).
 
-경고 빌더를 여는 방법에는 네 가지가 있습니다.
+경고 빌더로 이동하는 방법에는 세 가지가 있습니다.
 
 * Analysis Workspace에서 다음의 단축키 사용:
 
@@ -43,13 +43,10 @@ ht-degree: 100%
 
   ![](assets/create-alert-from-selection.png)
 
-* [!UICONTROL Reports &amp; Analytics] 보고서에서 **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;로 이동합니다. 이렇게 하면 새 경고 빌더가 열리고, 보고서에서 적용된 적절한 지표와 필터로 빌더가 사전에 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다.
 
-  ![](assets/add-alert.png)
+## FAQ: 경보가 계산되고 트리거되는 방식 {#trigger}
 
-## FAQ: 경보가 계산되고 트리거되는 방식 {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
-
-% 임계값은 표준 편차입니다. 예를 들어, 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 단위에 따라 [다양한 모델](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)을 사용하여 각 데이터 포인트가 기준 (norm)에서 얼마나 떨어져 있는지 (표준 편차 수) 계산합니다. 낮은 임계값(예: 90%)을 설정하면 높은 임계값(99%)을 설정하는 경우보다 많은 예외 항목이 생깁니다. 99.75% 및 99.99% 임계값은 많은 예외 항목을 트리거되지 않도록 시간 단위용으로 특별히 도입되었습니다.
+% 임계값은 표준 편차입니다. 예를 들어 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 세부기간에 따라 [다른 모델](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) 는 각 데이터 포인트가 기준(norm)에서 얼마나 떨어져 있는지(표준 편차 수) 계산하는 데 사용됩니다. 낮은 임계값(예: 90%)을 설정하면 높은 임계값(99%)을 설정하는 경우보다 많은 예외 항목이 생깁니다. 99.75% 및 99.99% 임계값은 많은 예외 항목을 트리거되지 않도록 시간 단위용으로 특별히 도입되었습니다.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
