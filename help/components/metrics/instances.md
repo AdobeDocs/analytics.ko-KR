@@ -3,10 +3,10 @@ title: 인스턴스
 description: 변수가 설정된 (지속되지 않음) 히트의 수입니다.
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 813d209980ad02c412970a698c282c1358921ed6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '263'
+ht-degree: 44%
 
 ---
 
@@ -20,4 +20,9 @@ ht-degree: 57%
 
 예를 들어 방문자가 사이트에 도달하여 내부 검색을 사용합니다. eVar 1에서 내부 검색을 추적합니다. 내부 검색을 한 번 사용한 후에는 떠나기 전에 5페이지를 더 방문합니다.
 
-Workspace에서 보고서를 보면 eVar 1 인스턴스 1개와 발생 횟수 6개가 표시됩니다. 발생 횟수는 초기 값과 지속된 값을 계산하지만, 검색 결과 페이지에서 트리거된 인스턴스는 한 개 입니다.
+Workspace에서 보고서를 보면 eVar 1 인스턴스 1개와 발생 횟수 6개가 표시됩니다. 한 인스턴스는 검색 결과 페이지에서 계산되지만 발생 횟수 지표는 초기 값과 후속 지속 값을 계산합니다.
+
+## 유사한 지표와 비교
+
+* **인스턴스와 [발생 횟수](occurrences.md)**: 인스턴스는 차원 항목이 지속되는 히트를 포함하지 않습니다. 발생 횟수는 차원 항목이 설정되어 있거나 지속된 히트를 계산합니다.
+* **인스턴스와 [페이지 보기 수](page-views.md)**: 인스턴스에는 페이지 보기 추적 호출 ( )을 포함하여 모든 히트 유형이 포함됩니다.[`t()`](/help/implement/vars/functions/t-method.md)), 링크 추적 호출([`tl()`](/help/implement/vars/functions/tl-method.md)) 및 요약의 데이터 [데이터 소스](/help/import/data-sources/overview.md). 페이지 보기 수 지표에는 링크 추적 호출 및 요약 데이터 소스를 제외한 페이지 보기 추적 호출만 포함됩니다.
