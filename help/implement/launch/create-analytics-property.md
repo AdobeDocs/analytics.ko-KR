@@ -1,11 +1,11 @@
 ---
 title: 태그에 Analytics 속성 만들기
 description: 태그를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
-feature: Launch Implementation
+feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
@@ -47,9 +47,9 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
    * 데이터 요소 유형: JavaScript 변수
    * JavaScript 변수 이름: `window.document.title`
 
-      >[!NOTE]
-      >
-      >이 값은 시작하는 데 도움이 되는 예제입니다. 조직에서 페이지 이름에 데이터 계층 값과 같은 값을 정의한 경우 해당 값을 여기에 입력할 수 있습니다.
+     >[!NOTE]
+     >
+     >이 값은 시작하는 데 도움이 되는 예제입니다. 조직에서 페이지 이름에 데이터 계층 값과 같은 값을 정의한 경우 해당 값을 여기에 입력할 수 있습니다.
    * 텍스트 정리 선택
    * 저장소 유지 시간: 없음
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

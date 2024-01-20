@@ -1,11 +1,11 @@
 ---
 title: 데이터 레이어 오브젝트를 데이터 요소에 매핑
 description: 데이터 레이어에서 읽을 태그를 구성합니다.
-feature: Launch Implementation
+feature: Tags
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 94%
 
 ---
@@ -29,8 +29,8 @@ ht-degree: 94%
    ![데이터 요소 만들기](assets/createelement.png)
 
 1. 데이터 요소의 이름을 입력합니다. 추적하려는 데이터 레이어의 JavaScript 변수에 해당하는 간단한 레이블이 될 수 있습니다.
-1. 아래에 **[!UICONTROL 확장]** 드롭다운 목록에서 **[!UICONTROL 코어]**.
-1. 아래에 **[!UICONTROL 데이터 요소 유형]** 드롭다운 목록에서 **[!UICONTROL JavaScript 변수]**. 이 데이터 요소에 매핑할 JavaScript 변수를 입력할 수 있는 텍스트 필드가 오른쪽에 나타납니다.
+1. 아래 **[!UICONTROL 확장]** 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 코어]**.
+1. 아래 **[!UICONTROL 데이터 요소 유형]** 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL JavaScript 변수]**. 이 데이터 요소에 매핑할 JavaScript 변수를 입력할 수 있는 텍스트 필드가 오른쪽에 나타납니다.
 1. 원하는 Javascript 변수를 일반적으로 데이터 레이어 내에 입력합니다. 예를 들어 조직의 데이터 레이어가 Adobe의 권장 방식과 거의 일치하는 경우 값은 `digitalData.page.pageInfo.pageName`가 될 수 있습니다. 브라우저의 콘솔을 사용하여 JavaScript 변수 구문 및 값의 유효성을 확인할 수 있습니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
