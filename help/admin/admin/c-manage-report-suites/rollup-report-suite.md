@@ -3,10 +3,10 @@ description: 보고서 세트 유형에 대한 설명과 글로벌 보고서 세
 title: 보고서 세트 접근 방식
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 93%
+source-wordcount: '448'
+ht-degree: 89%
 
 ---
 
@@ -44,38 +44,38 @@ ht-degree: 93%
 >
 >[!DNL Reports & Analytics] 은 롤업 보고서를 지원하는 유일한 도구입니다. Reports &amp; Analytics는 2024년 1월 17일에 사용이 중단되었습니다.
 
-### 롤업 보고서의 제한 사항 {#limitations-rollups}
+<!---### Limitations of Rollup Reports {#limitations-rollups}
 
-* 롤업은 총 데이터는 제공하지만 보고서의 개별 값을 보고하지는 않습니다. 예를 들어 eVar1 값은 포함되지 않지만 집계된 총합은 포함될 수 있습니다.
-* 롤업이 보고서 세트 간에 데이터를 결합할 때 데이터는 중복 제거되지 않습니다.
-* 롤업은 매일 자정에 실행됩니다.
-* 기존 롤업에 보고서 세트를 추가하면 내역 데이터는 롤업에 포함되지 않습니다.
-* 롤업이 작동하려면 모든 하위 보고서 세트에 데이터가 있어야 합니다. 새 보고서 세트가 롤업에 포함되는 경우 최소한 하나의 페이지 조회수를 해당 보고서 세트 각각에 보내야 합니다.
-* 롤업 보고서 세트에는 최대 40개의 하위 보고서 세트가 포함될 수 있습니다.
-* 롤업 보고서 세트에는 최대 100개의 이벤트가 포함될 수 있습니다.
-* 롤업 보고서 세트에 포함된 데이터는 분류 또는 세그먼트를 지원하지 않습니다.
-* 페이지 보고서는 하위 세트 수준에서 지표에 대해 보고하는 가장 방문 빈도가 높은 사이트 보고서로 대체됩니다.
+* Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
+* Data is not deduplicated when the rollup combines data across report suites.
+* Rollups run nightly at midnight.
+* When you add a report suite to an existing rollup, historical data is not included in the rollup.
+* All child report suites must have data in them for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to each of those report suites.
+* Rollup report suites can include a maximum of 40 child report suites.
+* Rollup report suites can include a maximum of 100 events.
+* Data contained in rollup report suites does not support breakdowns or segments.
+* The Pages report is replaced with the Most Popular Sites report, which reports on metrics at the child-suite level.
 
-## 글로벌 보고서 세트 및 롤업 보고서 기능 비교
+## Comparison of Global Report Suite and Rollup Report  Features
 
-**보조 서버 호출**: 롤업은 단일 보고서 세트에서 수집하는 것 이외에 추가적인 서버 호출을 발생시키지 않습니다. 조직에서 다중 세트 태깅을 사용하는 경우 이미지 요청에 포함된 각 추가 보고서 세트에 대해 보조 서버 호출이 수행됩니다.
+**Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
 
 >[!TIP]
 >
->[가상 보고서 세트](/help/components/vrs/vrs-considerations.md)와 함께 글로벌 보고서 세트만 사용하면 보조 서버 호출이 필요하지 않습니다.
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
-**구현 변경**: 롤업은 구현 변경이 필요하지 않지만 글로벌 보고서 세트는 구현에 글로벌 보고서 세트 ID를 포함할 것을 요구합니다.
+**Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 
-**복제**: 글로벌 보고서 세트는 고유 방문자 수를 중복 제거하는 반면, 롤업은 그렇지 않습니다. 예를 들면 한 사용자가 같은 날 도메인을 3번 방문한 경우 롤업은 일일 고유 방문자 3명을 계산합니다. 글로벌 보고서 세트는 한 명의 고유 방문자를 기록합니다.
+**Duplication**: Global report suites deduplicate unique visitors, while rollups do not. For example, if a user visits three of your domains in the same day, rollups would count three daily unique visitors. Global report suites would record one unique visitor.
 
-**기간**: 롤업은 매일 자정에만 처리되는 반면, 글로벌 보고서 세트는 표준 지연이 포함된 데이터를 보고합니다.
+**Time frame**: Rollups are only processed at midnight each night, while global report suites report data with standard latency.
 
-**폭**: 롤업에는 보고서 세트 간에 통신할 수 있는 방법이 없습니다. 글로벌 보고서 세트는 보고서 세트 간의 전환 변수에 크레딧을 적용하고 보고서 세트 전반에 걸쳐 경로를 제공할 수 있습니다.
+**Breadth**: Rollups have no way to communicate between report suites. Global report suites can attribute credit to conversion variables between report suites and provide pathing across report suites.
 
-**내역 데이터**: 롤업은 내역 데이터를 집계하는 반면, 글로벌 보고서 세트는 구현된 지점에서만 데이터를 보고합니다.
+**Historical data**: Rollups can aggregate historical data, while global report suites only report data from the point they were implemented.
 
-**보고서**: 글로벌 보고서 세트는 모든 차원에 대한 데이터를 제공하는 반면, 롤업은 높은 수준의 보고서에만 집계 데이터를 제공합니다.
+**Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**지원되는 제품**: 롤업은 Reports &amp; Analytics에서만 사용할 수 있습니다. Analysis Workspace 또는 Data Warehouse에서는 지원되지 않습니다. 글로벌 보고서 세트는 모든 제품에서 사용할 수 있습니다.
+**Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**집계된 보고서 세트 수**: 롤업은 최대 40개의 하위 보고서 세트만 지원합니다. 글로벌 보고서 세트는 소유하고 있는 도메인 또는 앱에서 그 수에 상관없이 구현할 수 있습니다.
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->

@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '633'
 ht-degree: 94%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 94%
             + 유료 검색 감지 {#paid-search-detection}
                + [유료 검색 감지 개요](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [유료 검색 감지 구성](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [메뉴 사용자 지정](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + 처리 규칙 {#c-processing-rules}
                + [처리 규칙 개요](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + 처리 규칙 {#c-processing-rules-configuration}
@@ -133,7 +132,6 @@ ht-degree: 94%
       + [보고서 세트 설정 다운로드](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 새 보고서 세트 {#c-new-report-suite}
          + [보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [롤업 보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [보고서 세트 그룹 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [새 보고서 세트 - 설정](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [소스 보고서 세트에서 복사되지 않은 설정](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -153,7 +151,6 @@ ht-degree: 94%
       + [웹 서비스](admin/company/web-services-admin.md)
       + [Report Builder 보고서](admin/company/report-builder-reports-admin.md)
       + [SSO(Single Sign-On)](admin/company/single-signon-admin.md)
-      + [공동 브랜딩](admin/company/co-branding-admin.md)
       + [보고서 세트 숨기기](admin/company/c-hide-report-suites.md)
       + [환경 설정 관리자](admin/company/preferences-manager.md)
       + [보류 중인 작업](admin/company/pending-actions-admin.md)

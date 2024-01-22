@@ -3,9 +3,9 @@ description: 조직에서 관리하는 모든 보고서 세트에 적용되는 �
 title: 회사 설정 개요
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: 09f44ce0b89acf70499e2bcdaa31307028d2fe92
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '62'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,5 @@ ht-degree: 100%
 + [Report Builder 보고서](report-builder-reports-admin.md)
 + [SSO(Single Sign-On)](single-signon-admin.md)
 + [보류 중인 작업](pending-actions-admin.md)
-+ [공동 브랜딩](co-branding-admin.md)
 + [보고서 세트 숨기기](c-hide-report-suites.md)
 + [보안 관리자](security-manager.md)
