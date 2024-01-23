@@ -3,10 +3,10 @@ title: Adobe Experience Platform Mobile SDK를 사용하여 Adobe Analytics 구�
 description: Adobe Experience Platform 데이터 수집에서 Mobile SDK 확장 기능을 사용하여 Adobe Analytics로 데이터를 전송합니다.
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
-source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
+source-git-commit: 032237734ebd397374c171bfc4504124cea3d8c1
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 99%
+source-wordcount: '520'
+ht-degree: 98%
 
 ---
 
@@ -105,8 +105,8 @@ Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience 
 
 <tr>
 <td>2</td>
-<td><b>스키마 및 데이터 세트를 설정합니다</b>. Adobe Experience Platform을 활용하는 애플리케이션 전체에서 사용할 데이터 수집을 표준화하기 위해, Adobe는 개방적이고 공개적으로 문서화된 표준인 XDM(경험 데이터 모델)을 만들었습니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko-KR">스키마 UI 개요</a> 및 <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko-KR">데이터 세트 UI 개요</a></td>
+<td><b>스키마 설정</b>. Adobe Experience Platform을 활용하는 애플리케이션 전체에서 사용할 데이터 수집을 표준화하기 위해, Adobe는 개방적이고 공개적으로 문서화된 표준인 XDM(경험 데이터 모델)을 만들었습니다.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko-KR">스키마 UI 개요</a></td>
 </tr>
 
 <tr>
