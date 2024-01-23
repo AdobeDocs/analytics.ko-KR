@@ -3,10 +3,10 @@ title: Adobe Experience Platform Edge Network Server API를 사용하여 Adobe A
 description: Adobe Experience Platform Edge Network Server API를 사용하여 Adobe Analytics으로 데이터를 전송합니다.
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
-source-git-commit: 5a57f4d2d73f16a72fbe8b198b1609a8bffc38b6
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 40%
+source-wordcount: '260'
+ht-degree: 33%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 40%
 
 <tr>
 <td>2</td>
-<td><b>스키마 및 데이터 세트를 설정합니다</b>. Adobe Experience Platform을 활용하는 애플리케이션 전체에서 사용할 데이터 수집을 표준화하기 위해, Adobe는 개방적이고 공개적으로 문서화된 표준인 XDM(경험 데이터 모델)을 만들었습니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko-KR">스키마 UI 개요</a> 및 <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko-KR">데이터 세트 UI 개요</a></td>
+<td><b>스키마 설정</b>. Adobe Experience Platform을 활용하는 애플리케이션 전체에서 사용할 데이터 수집을 표준화하기 위해, Adobe는 개방적이고 공개적으로 문서화된 표준인 XDM(경험 데이터 모델)을 만들었습니다.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko-KR">스키마 UI 개요</a></td>
 </tr>
 
 <tr>
 <td>3</td>
 <td><b>데이터스트림을 구성합니다</b>. 데이터 스트림은 Adobe Experience Platform Edge Network API의 API를 사용할 때 서버측 구성을 나타냅니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko">데이터스트림 구성<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR">데이터스트림 구성<a></td> 
 </tr>
 
 <tr>
