@@ -5,10 +5,10 @@ uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
 role: User, Admin
 exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e54b63bdfc32cf628ea1c6456df421b2d3d23b2c
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 78%
 
 ---
 
@@ -19,5 +19,11 @@ ht-degree: 100%
 **셀에서 날짜를 구성하는 방법**
 
 1. [!UICONTROL 요청 마법사: 1단계]에서, **[!UICONTROL 셀의 날짜]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 시작]** 및 **[!UICONTROL 종료]** 필드에 셀 참조를 입력하거나, 선택기를 클릭하고 시작 및 종료 날짜가 있는 요청이 들어 있는 셀을 선택합니다.
-예를 들어 날짜 범위가 &quot;어제&quot;로 설정된 Report Builder 요청을 만들고 동일한 셀의 요청 날짜를 &quot;today()-1&quot;로 출력합니다.
+1. 에 셀 참조 입력 **[!UICONTROL 출처:]** 및 **[!UICONTROL 종료]** 필드 또는 선택기를 클릭하고 시작 및 종료 날짜가 있는 요청이 들어 있는 셀을 선택합니다.
+
+   예를 들어 날짜 범위가 &quot;어제&quot;로 설정된 Report Builder 요청을 만들고 동일한 셀의 요청 날짜를 &quot;today()-1&quot;로 출력합니다.
+
+다음은 지원되는 날짜 형식 목록입니다.
+
+![지원되는 날짜 형식을 보여 주는 스크린샷입니다.](assets/date-formats.png)
+
