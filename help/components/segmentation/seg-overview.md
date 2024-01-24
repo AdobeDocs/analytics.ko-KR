@@ -3,10 +3,10 @@ description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작
 title: 세그먼트 정보
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 75%
 
 세그먼트는 를 기반으로 합니다. [!UICONTROL 방문자], [!UICONTROL 방문], 및 [!UICONTROL 히트] 중첩된 컨테이너 모델을 사용하여 레벨 계층 구조. 중첩된 컨테이너를 사용하여 컨테이너 간 규칙 및 컨테이너 내부 규칙에 따라 방문자 속성 및 작업을 정의할 수 있습니다. Analytics 세그먼트는 [!DNL Adobe Experience Cloud]의 여러 제품 및 기능에서 작성, 승인, 공유, 저장 및 실행할 수 있습니다. 보고서에서 세그먼트를 생성하거나, 대시보드 보고서로 작성하거나, 빠른 액세스를 위해 책갈피를 지정할 수 있습니다.
 
-세그먼트 빌더에서 세그먼트를 작성하고 저장하거나 폴아웃 보고서 ( Analysis Workspace)에서 세그먼트를 생성할 수 있습니다. 중첩된 컨테이너 간 특정 규칙에 따라 미리 작성한 세그먼트를 사용 및 확장하고 결과를 필터링하여 보고서에 적용할 수 있습니다. 또한 세그먼트를 다음과 같이 함께 사용할 수 있습니다. [스택 세그먼트](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+세그먼트 빌더에서 세그먼트를 작성하고 저장하거나 폴아웃 보고서( )에서 세그먼트를 생성할 수 있습니다 [!UICONTROL Analysis Workspace]). 중첩된 컨테이너 간 특정 규칙에 따라 미리 작성한 세그먼트를 사용 및 확장하고 결과를 필터링하여 보고서에 적용할 수 있습니다. 또한 세그먼트를 다음과 같이 함께 사용할 수 있습니다. [스택 세그먼트](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 세그먼트 식별
 
