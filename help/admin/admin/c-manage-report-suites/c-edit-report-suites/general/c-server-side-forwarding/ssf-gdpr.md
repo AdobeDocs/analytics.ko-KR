@@ -3,10 +3,11 @@ description: EU 쿠키 규정 준수에 의해 촉발된 서버측 전달 개선
 title: GDPR/ePrivacy 준수 및 서버측 전달
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 60%
+source-wordcount: '564'
+ht-degree: 55%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 60%
 
 구현 방법에 따라 다음 단계를 수행하십시오.
 
-| 구현 방법 | 단계 |
+| 구현 방식 | 단계 |
 |--- |--- |
 | Adobe Experience Platform의 태그 | Adobe Analytics 확장이 설치되어 있다고 가정할 경우 규칙의 작업 구성 내에서 다음 컨텍스트 데이터 변수 정의를 사용자 정의 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
 | AppMeasurement | 컨텍스트 데이터 변수 정의를 AppMeasurement.js 파일에 추가합니다.  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |

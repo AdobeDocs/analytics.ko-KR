@@ -1,13 +1,13 @@
 ---
 description: 실시간 보고서에서 지원하는 지표와 차원을 나열합니다. 분류를 정의했을 경우 분류도 지원됩니다.
-title: 지원되는 실시간 지표 및 차원 (관리)
+title: 지원되는 실시간 지표 및 차원(관리)
 feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 실시간 보고서에서 지원하는 지표와 차원을 나열합니다. 분류를 정의했을 경우 분류도 지원됩니다.
 
-## 지원되는 지표 {#section_514ED8B382494C47BFC0657894D1AF94}
+## 지원되는 지표 {#metrics}
 
 * 수입
 * 주문
@@ -28,7 +28,7 @@ ht-degree: 100%
 * 인스턴스
 * 사용자 정의 이벤트 1-100 (보고서 세트에 활성화되어 있을 경우)
 
-## 지원되는 차원 {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## 지원되는 차원 {#dimensions}
 
 * 페이지
 * 검색 키워드

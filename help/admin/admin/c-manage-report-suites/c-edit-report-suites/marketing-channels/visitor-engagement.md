@@ -4,10 +4,11 @@ subtopic: Marketing channels
 title: 마케팅 채널 만료
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 >
 > 마케팅 채널에 대한 일반 정보는 [마케팅 채널 시작하기](/help/components/c-marketing-channels/c-getting-started-mchannel.md)를 참조하십시오.
 >
-> Attribution 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
+> 기여도 분석 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 다음을 게시했습니다 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL 분석]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 만료]**.
 

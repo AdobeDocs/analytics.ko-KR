@@ -1,12 +1,13 @@
 ---
-description: 양력 모델이 아닌 달력 옵션입니다. 해당 옵션에는 4-4-5, 4-5-4 및 5-4-4 달력 모델이 있으며 모든 모델이 소매 산업의 표준으로 사용됩니다. 또한 보고 기능은 사용자가 모든 항목을 직접 설정할 수 있는 사용자 정의 가능 달력 옵션을 제공합니다.
+description: 양력 모델이 아닌 달력 옵션입니다. 해당 옵션에는 4-4-5, 4-5-4 및 5-4-4 달력 모델이 있으며 모든 모델이 소매 산업의 표준으로 사용됩니다. 또한 보고 기능은 사용자가 직접 설정할 수 있는 사용자 지정 가능 달력을 제공합니다.
 title: 사용자 정의 달력
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 97%
 
 ---
 

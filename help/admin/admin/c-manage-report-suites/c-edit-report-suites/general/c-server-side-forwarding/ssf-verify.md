@@ -1,19 +1,20 @@
 ---
-description: 서버측 전달이 제대로 활성화되었는지 확인하려면 Analytics 추적 요청에서 HTTP 응답을 검사해야 합니다. 이 작업은 브라우저의 개발자 도구를 사용하거나 Charles Web Debugger와 같은 프록시 도구를 사용하여 수행할 수 있습니다. 다음 지시 사항은 서버측 전달이 제대로 작동하도록 하기 위해 어떤 표시가 있어야 하는지를 보여 줍니다.
+description: 서버측 전달이 제대로 활성화되었는지 확인하려면 Analytics 추적 요청에서 HTTP 응답을 검사해야 합니다. 이 지침은 서버측 전달이 제대로 활성화되도록 하기 위해 존재해야 하는 지표를 보여 줍니다.
 solution: Analytics
 title: 서버측 전달 구현 확인 방법
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 86%
 
 ---
 
 # 서버측 전달 구현 확인 방법
 
-서버측 전달이 제대로 활성화되었는지 확인하려면 Analytics 추적 요청에서 HTTP 응답을 검사해야 합니다. 이 작업은 브라우저의 개발자 도구를 사용하거나 Charles Web Debugger와 같은 프록시 도구를 사용하여 수행할 수 있습니다. 다음 지시 사항은 서버측 전달이 제대로 작동하도록 하기 위해 어떤 표시가 있어야 하는지를 보여 줍니다.
+서버측 전달이 제대로 활성화되었는지 확인하려면 Analytics 추적 요청에서 HTTP 응답을 검사해야 합니다. 이 작업은 브라우저의 개발자 도구를 사용하거나 Charles Web Debugger와 같은 프록시 도구를 사용하여 수행할 수 있습니다. 다음 지침은 서버측 전달이 제대로 활성화되도록 하기 위해 존재해야 하는 표시기를 보여 줍니다.
 
 서버측 전달의 상태를 확인하려면 다음 작업을 수행하십시오.
 
@@ -30,4 +31,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
-
