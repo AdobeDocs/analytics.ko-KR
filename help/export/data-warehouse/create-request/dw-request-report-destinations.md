@@ -3,9 +3,9 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
+source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2188'
 ht-degree: 10%
 
 ---
@@ -22,11 +22,10 @@ Data Warehouse 요청을 만들 때 사용할 수 있는 구성 옵션은 다양
 >
 >* 보고서 대상에 클라우드 계정 또는 이메일을 사용하는 것이 좋습니다. 기존 FTP 및 SFTP 계정은 사용할 수 있지만 권장되지 않습니다.
 >
->* Data Warehouse 요청은 Adobe Analytics 사용자 계정과 연결됩니다. 기본적으로 다른 사용자는 사용자가 구성한 요청을 사용하거나 볼 수 없습니다. 다음을 활성화하여 조직의 다른 사용자가 Data Warehouse 요청을 사용할 수 있도록 할 수 있습니다. **모든 대상 표시** 에 설명된 대로 전환 [Data Warehouse 요청 일반 설정](/help/export/data-warehouse/create-request/dw-general-settings.md).
+>* 이전에 구성한 모든 클라우드 계정 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 또는 [Adobe Analytics 분류 데이터 가져오기](/help/components/locations/locations-manager.md) Data Warehouse에 사용할 수 있습니다. 하지만 분류 데이터를 가져오도록 구성된 위치는 사용할 수 없습니다.
 >
->* 이전에 소유한 모든 클라우드 계정 [데이터 피드에 대해 구성됨](/help/export/analytics-data-feed/create-feed.md) Data Warehouse에 사용할 수 있습니다.
+>* 클라우드 계정은 Adobe Analytics 사용자 계정과 연결되어 있습니다. 다른 사용자는 사용자가 구성한 클라우드 계정을 사용하거나 볼 수 없습니다.
 >
->* 다음에 대해 구성된 클라우드 계정 [Adobe Analytics 분류 데이터 가져오기](/help/components/locations/locations-manager.md) 클라우드 대상의 은(는) 보고서 대상을 구성할 때 사용할 수 있습니다. 하지만 분류 데이터를 가져오도록 구성된 위치는 사용할 수 없습니다.
 
 Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을 수행하십시오.
 
