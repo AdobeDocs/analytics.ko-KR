@@ -3,10 +3,10 @@ description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
+source-git-commit: f1dde3a475fe1276fd9abbe1bdafd6723701f2cb
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 86%
+source-wordcount: '219'
+ht-degree: 77%
 
 ---
 
@@ -18,19 +18,10 @@ Adobe Analytics에서 실시간 보고서를 설정하는 절차에는 보고서
 
 1. 실시간 보고서를 활성화할 보고서 세트를 선택합니다.
 
-   **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL 모두 보고서 보기 > 사이트 지표]** > **[!UICONTROL 실시간]**&#x200B;으로 이동하고 맨 위의 드롭다운에서 보고서 세트를 선택합니다.
+   다음으로 이동 **[!UICONTROL 분석]** > **[!UICONTROL 관리자 > 보고서 세트]**.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+1. 클릭 **[!UICONTROL 설정 편집]** > **[!UICONTROL 실시간]**.
 
-   실시간 보고에 대해 설정되지 않은 보고서 세트에 대한 실시간 보고서를 보려고 하면 보고서 세트를 설정할 수 있다는 메시지가 표시됩니다.
-
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
-
-1. **[!UICONTROL 구성]** (톱니바퀴 아이콘)을 클릭하여 [!UICONTROL 보고서 세트 관리자]를 실행합니다.
-
-   (**[!UICONTROL Analytics]** > **[!UICONTROL 관리 > 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 실시간에서도 이용 가능합니다]**.)
-
-1. **[!UICONTROL 실시간 활성화]** 설정을 켭니다.
 1. 최대 3개의 보고서 (보고서당 지표 한 개와 차원 또는 분류 세 개가 있음)에 대한 실시간 데이터 수집을 설정합니다.
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
