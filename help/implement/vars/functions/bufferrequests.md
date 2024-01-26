@@ -2,10 +2,12 @@
 title: 버퍼요청 수
 description: 페이지를 즉시 언로드하는 브라우저에 대한 링크 추적 요청 캡처의 안정성을 향상시킵니다.
 feature: Variables
-source-git-commit: 58a82151a8cbc80318e4f4ab4186fcabef3f35ab
+exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 6%
+source-wordcount: '443'
+ht-degree: 5%
 
 ---
 

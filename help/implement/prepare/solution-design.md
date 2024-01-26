@@ -3,7 +3,8 @@ title: 솔루션 디자인 문서 만들기
 description: 솔루션 디자인 문서가 무엇이고 솔루션 디자인 문서를 조직에서 사용하는 방법을 알아봅니다.
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 97%

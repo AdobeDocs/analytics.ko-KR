@@ -3,9 +3,10 @@ title: getTimeBetweenEvents
 description: 두 이벤트 사이의 시간을 측정합니다.
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 91%
 
 ---
@@ -18,11 +19,11 @@ ht-degree: 91%
 
 ## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
 
-이 플러그인은 아직 웹 SDK 내에서 사용할 수 없습니다.
+이 플러그인은 아직 웹 SDK에서 사용할 수 없습니다.
 
 ## Adobe Analytics 확장을 사용하여 플러그인 설치
 
-Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해주는 확장을 제공합니다.
+Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장을 제공합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
@@ -38,7 +39,7 @@ Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인�
 
 ## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
-일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
+일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려면 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
@@ -66,9 +67,9 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 * **`stp`** (필수, 문자열): 타이머 중지 이벤트. 타이머를 중지하는 Analytics 이벤트들을 쉼표로 구분한 문자열입니다.
 * **`res`** (필수, 부울): 타이머 재설정 옵션. 타이머가 시작된 이후의 시간을 기록하고 타이머가 중지된 후에 재설정하려면 `true`로 설정하십시오. 시간을 기록하되 타이머를 중지하지 않으려면 `false`로 설정하십시오. `false`로 설정하면 이벤트 변수가 중지 이벤트를 기록한 후에도 타이머가 계속 실행됩니다.
 
-   >[!TIP]
-   >
-   >이 인수를 `false`로 설정하면 아래의 `rte` 인수를 설정하는 것이 좋습니다.
+  >[!TIP]
+  >
+  >이 인수를 `false`로 설정하면 아래의 `rte` 인수를 설정하는 것이 좋습니다.
 * **`cn`** (선택 사항, 문자열): 첫 번째 이벤트의 시간이 저장되는 쿠키 이름입니다. 기본값은 `"s_tbe"`입니다.
 * **`etd`** (선택 사항, 정수): 일 단위의 쿠키 만료 시간입니다. 브라우저 세션이 끝날 때 만료되도록 하려면 `0`으로 설정하십시오. 설정하지 않으면 기본값이 1일로 설정됩니다.
 * **`fmt`** (선택 사항, 문자열): 초 수가 반환되는 시간 형식(기본값은 nothing)입니다.

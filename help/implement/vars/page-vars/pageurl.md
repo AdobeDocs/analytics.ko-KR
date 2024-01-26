@@ -3,10 +3,11 @@ title: pageUrl
 description: 사이트에서 자동으로 수집된 페이지 URL을 무시합니다.
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 80%
+source-wordcount: '305'
+ht-degree: 79%
 
 ---
 
@@ -20,17 +21,17 @@ AppMeasurement는 각 히트에서 페이지 URL을 자동으로 수집합니다
 
 ## 웹 SDK를 사용한 페이지 URL
 
-페이지 URL은 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `web.webPageDetails.URL`.
+페이지 URL: [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `web.webPageDetails.URL`.
 
-## Adobe Analytics 확장을 사용하는 페이지 URL
+## Adobe Analytics 확장을 사용한 페이지 URL
 
-Adobe Experience Platform 데이터 컬렉션의 Analytics 확장은 페이지 URL을 자동으로 채웁니다. 하지만 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 페이지 URL 재정의를 설정할 수 있습니다.
+Adobe Experience Platform 데이터 수집의 Analytics 확장은 페이지 URL을 자동으로 채웁니다. 하지만 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 페이지 URL 재정의를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
 3. **[!UICONTROL 규칙]** 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. **[!UICONTROL 작업]**&#x200B;에서 기존 **[!UICONTROL Adobe Analytics - 변수 설정]** 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 설정 **[!UICONTROL 확장]** 드롭다운 목록을 Adobe Analytics 및 **[!UICONTROL 작업 유형]** to **[!UICONTROL 변수 설정]**.
+5. 설정 **[!UICONTROL 확장]** Adobe Analytics 드롭다운 목록 **[!UICONTROL 작업 유형]** 끝 **[!UICONTROL 변수 설정]**.
 6. **[!UICONTROL 페이지 URL]** 섹션을 찾습니다.
 
 페이지 URL을 어떤 문자열 값으로든 설정할 수 있습니다.

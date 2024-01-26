@@ -3,9 +3,10 @@ title: campaign
 description: '''추적 코드'' 차원을 채웁니다.'
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '239'
 ht-degree: 93%
 
 ---
@@ -28,7 +29,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 캠�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 설정 [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics 및 [!UICONTROL 작업 유형] to [!UICONTROL 변수 설정].
+5. 설정 [!UICONTROL 확장] Adobe Analytics 드롭다운 목록 [!UICONTROL 작업 유형] 끝 [!UICONTROL 변수 설정].
 6. [!UICONTROL 캠페인] 섹션을 찾습니다.
 
 캠페인을 값 또는 쿼리 문자열 매개 변수로 설정할 수 있습니다.

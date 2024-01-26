@@ -3,7 +3,8 @@ title: Adobe Experience Platform Mobile SDK를 사용하여 Adobe Analytics 구�
 description: Adobe Experience Platform 데이터 수집에서 Mobile SDK 확장 기능을 사용하여 Adobe Analytics로 데이터를 전송합니다.
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
-source-git-commit: ebdf52c4b42e4a443284d285e79e949ac6646078
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 98%

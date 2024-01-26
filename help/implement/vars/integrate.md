@@ -3,9 +3,10 @@ title: 모듈 통합
 description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '883'
 ht-degree: 98%
 
 ---

@@ -3,10 +3,11 @@ title: visitorID
 description: 사용자 지정 방문자 ID를 사용합니다.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 71%
+source-wordcount: '333'
+ht-degree: 72%
 
 ---
 
@@ -47,4 +48,4 @@ s.visitorID = "abc123";
 
 ## 웹 SDK 및 Experience Edge를 사용하는 방문자 ID
 
-Experience Edge에서는 XDM을 사용하여 여러 식별자를 제공할 수 있습니다 [ID 맵](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). ID 맵의 각 ID에는 다른 네임스페이스가 있습니다. 의 일부로 방문자 ID에 사용할 네임스페이스를 지정할 수 있습니다. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR#analytics). 이 기능이 구성되면 이 네임스페이스에 대해 지정된 값으로 이벤트를 보낼 때 Analytics에서 방문자 ID로 자동으로 사용됩니다.
+Experience Edge에서는 XDM을 사용하여 여러 식별자를 제공할 수 있습니다 [ID 맵](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). ID 맵의 각 ID에는 다른 네임스페이스가 있습니다. 의 일부로 방문자 ID에 사용할 네임스페이스를 지정할 수 있습니다. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). 이 기능이 구성되면 이 네임스페이스에 대해 지정된 값으로 이벤트를 보낼 때 Analytics에서 방문자 ID로 자동으로 사용됩니다.

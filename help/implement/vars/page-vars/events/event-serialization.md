@@ -3,9 +3,10 @@ title: 이벤트 직렬화
 description: 사이트의 지표 중복 제거에 도움이 됩니다.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '419'
 ht-degree: 96%
 
 ---
@@ -46,7 +47,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에 포함�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 설정 [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics 및 [!UICONTROL 작업 유형] to [!UICONTROL 변수 설정].
+5. 설정 [!UICONTROL 확장] Adobe Analytics 드롭다운 목록 [!UICONTROL 작업 유형] 끝 [!UICONTROL 변수 설정].
 6. 각 이벤트에 [!UICONTROL 이벤트 ID] 필드가 포함된 [!UICONTROL 이벤트] 섹션을 찾습니다.
 
 유효한 값은 최대 20바이트 길이의 영숫자 문자입니다. 20바이트보다 긴 값을 입력하면 시스템이 처음 20바이트로 잘라냅니다.

@@ -3,9 +3,10 @@ title: 데이터 수집 쿼리 매개변수
 description: 이미지 요청에 사용된 모든 쿼리 문자열 매개변수를 나열합니다.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '722'
 ht-degree: 100%
 
 ---

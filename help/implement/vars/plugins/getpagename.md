@@ -3,10 +3,11 @@ title: getPageName
 description: 현재 웹 사이트 경로에서 읽기 쉬운 pageName을 만듭니다.
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 76%
+source-wordcount: '684'
+ht-degree: 75%
 
 ---
 
@@ -16,28 +17,28 @@ ht-degree: 76%
 
 `getPageName` 플러그인을 사용하면 현재 URL의 읽기 쉽고 친숙한 형식의 버전을 만들 수 있습니다. 보고 시 쉽게 설정하고 이해할 수 있는 [`pageName`](../page-vars/pagename.md) 값을 원하는 경우 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 데이터 계층 사용과 같이 `pageName` 변수에 대한 이름 지정 구조를 이미 가지고 있는 경우에는 불필요하고, `pageName` 변수를 설정하는 다른 해결 방법이 없을 때 사용하는 것이 가장 좋습니다.
 
-## 웹 SDK 확장을 사용하여 플러그인 설치
+## Web SDK 확장을 사용하여 플러그인 설치
 
-Adobe은 Web SDK에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해주는 확장을 제공합니다.
+Adobe은 Web SDK에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장을 제공합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 클릭 **[!UICONTROL 태그]** 왼쪽에서 원하는 태그 속성을 클릭합니다.
-1. 클릭 **[!UICONTROL 확장]** 왼쪽에서 **[!UICONTROL 카탈로그]** 탭
-1. 을(를) 찾아 설치합니다 **[!UICONTROL 일반 웹 SDK 플러그인]** 확장.
+1. 클릭 **[!UICONTROL 확장]** 왼쪽에서 을(를) 클릭한 다음 **[!UICONTROL 카탈로그]** 탭
+1. 을(를) 찾아 설치합니다. **[!UICONTROL 일반 웹 SDK 플러그인]** 확장명.
 1. 클릭 **[!UICONTROL 데이터 요소]** 왼쪽에서 원하는 데이터 요소를 클릭합니다.
 1. 다음 구성으로 원하는 데이터 요소 이름을 설정합니다.
-   * 확장: 일반 웹 SDK 플러그인
+   * 확장: 일반적인 웹 SDK 플러그인
    * 데이터 요소: `getPageName`
 1. 오른쪽에서 원하는 매개 변수를 설정합니다.
 1. 변경 사항을 저장하고 데이터 요소에 게시합니다.
 
-## 수동으로 Web SDK 구현 플러그인 설치
+## 웹 SDK를 수동으로 구현하여 플러그인 설치
 
 이 플러그인은 아직 웹 SDK의 수동 구현 내에서 사용할 수 없습니다.
 
 ## Adobe Analytics 확장을 사용하여 플러그인 설치
 
-Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해주는 확장을 제공합니다.
+Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장을 제공합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
@@ -53,7 +54,7 @@ Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인�
 
 ## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
-일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
+일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려면 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.

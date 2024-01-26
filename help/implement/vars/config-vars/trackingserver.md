@@ -3,10 +3,11 @@ title: trackingServer
 description: 이미지 요청이 전송되는 위치를 파악합니다.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 74%
+source-wordcount: '540'
+ht-degree: 72%
 
 ---
 

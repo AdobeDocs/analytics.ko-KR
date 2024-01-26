@@ -3,7 +3,8 @@ title: 레퍼러
 description: 히트에 대해 자동으로 수집된 레퍼러를 무시합니다.
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-source-git-commit: a37d6b26c2789211a9ed5602b708ef72768e289c
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 80%

@@ -3,7 +3,8 @@ title: 태그에 Analytics 속성 만들기
 description: 태그를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%

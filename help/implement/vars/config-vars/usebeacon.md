@@ -3,10 +3,11 @@ title: useBeacon
 description: useBeacon을 사용하면 AppMeasurement에서 브라우저 sendBeacon API를 사용하도록 할 수 있습니다.
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 61%
+source-wordcount: '391'
+ht-degree: 62%
 
 ---
 
@@ -22,22 +23,22 @@ ht-degree: 61%
 
 방문자가 `useBeacon`을 지원하지 않는 브라우저를 사용하면 `navigator.sendBeacon()` 변수는 무시됩니다. 이 변수를 사용하려면 AppMeasurement 2.16.0 이상이 필요합니다.
 
-## 웹 SDK 확장을 사용하여 sendBeacon API 사용
+## Web SDK 확장을 사용하여 sendBeacon API 사용
 
-다음 **[!UICONTROL 문서가 언로드됨]** 작업 구성 내의 확인란은 Adobe으로 전송된 데이터가 sendBeacon API를 사용하는지 여부를 결정합니다.
+다음 **[!UICONTROL 문서가 언로드됩니다.]** 작업 구성 내의 확인란은 Adobe에 전송된 데이터가 sendBeacon API를 사용하는지 여부를 결정합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. 로 이동합니다. [!UICONTROL 규칙] 탭을 클릭한 다음 원하는 규칙을 클릭합니다.
-1. 아래 [!UICONTROL 작업]를 클릭하고 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘을 클릭하여 새 작업을 추가합니다.
-1. 설정 [!UICONTROL 확장] 드롭다운 목록 **[!UICONTROL Adobe Experience Platform Web SDK]** 그리고 [!UICONTROL 작업 유형] to **[!UICONTROL 이벤트 보내기]**
-1. 확인란을 클릭합니다 **[!UICONTROL 문서가 언로드됨]** 오른쪽에 있습니다.
+1. 로 이동 [!UICONTROL 규칙] 탭을 클릭한 다음 원하는 규칙을 클릭합니다.
+1. 아래 [!UICONTROL 작업]을 클릭하고 원하는 작업을 클릭하거나 **&#39;+&#39;** 새 작업을 추가하는 아이콘.
+1. 설정 [!UICONTROL 확장] 드롭다운 목록 **[!UICONTROL Adobe Experience Platform 웹 SDK]** 및 [!UICONTROL 작업 유형] 끝 **[!UICONTROL 이벤트 보내기]**
+1. 확인란을 클릭합니다. **[!UICONTROL 문서가 언로드됩니다.]** 오른쪽.
 
-이 확인란을 선택하면 sendBeacon API를 사용하여 데이터가 Adobe으로 전송됩니다. 기본적으로 선택되어 있지 않습니다.
+이 상자를 선택하면 데이터가 sendBeacon API를 사용하여 Adobe으로 전송됩니다. 기본적으로 선택되어 있지 않습니다.
 
-## 웹 SDK를 수동으로 구현하는 sendBeacon API 사용
+## Web SDK를 수동으로 구현하기 위해 sendBeacon API 사용
 
-설정 `documentUnloading` to `true` 이벤트 보내기 설정하지 않으면 기본값은 입니다 `false`.
+설정 `documentUnloading` 끝 `true` 이벤트를 보낼 때. 설정하지 않으면 기본값은 입니다. `false`.
 
 ```json
 alloy("sendEvent", {
@@ -46,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-자세한 내용은 [sendBeacon API 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) 를 참조하십시오.
+다음을 참조하십시오 [sendBeacon API 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) 자세한 내용은 Web SDK 설명서 를 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 비콘 사용
 

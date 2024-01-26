@@ -3,9 +3,10 @@ title: 다양한 구현 유형 추적
 description: 서로 다른 구현 유형을 사용하고 이러한 유형 간에 방문자를 원활하게 추적합니다.
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '357'
 ht-degree: 100%
 
 ---

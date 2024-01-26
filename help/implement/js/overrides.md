@@ -3,7 +3,8 @@ title: 변수 무시
 description: 변수 무시는 하나의 추적 또는 추적 링크 호출에 대한 변수 값을 변경할 수 있도록 해줍니다.
 feature: Implementation Basics
 exl-id: e297ef94-c5f7-42b1-a9d0-57e073f0d1a9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%

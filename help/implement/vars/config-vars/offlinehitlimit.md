@@ -3,7 +3,8 @@ title: offlineHitLimit
 description: 오프라인 추적을 위해 큐에 추가할 최대 히트 수를 결정합니다.
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 88%

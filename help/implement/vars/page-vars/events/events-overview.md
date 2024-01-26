@@ -3,9 +3,10 @@ title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 90%
 
 ---

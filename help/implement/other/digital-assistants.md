@@ -3,10 +3,11 @@ title: Analytics for Digital Assistants 구현
 description: Amazon Alexa 또는 Google Home과 같은 Digital Assistant에 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1258'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +112,7 @@ Cache-Control: no-cache
 
 각 Digital Assistant에는 의도를 감지한 다음 &quot;앱&quot;에 그 의도를 전달하는 알고리즘이 있으므로 앱이 수행할 작업을 알고 있습니다. 이러한 의도는 요청의 간결한 표현입니다.
 
-예를 들어 사용자가 &quot;Siri야, 내 뱅킹 앱에서 어제 저녁 값으로 존에게 20달러 보내 줘.&quot;라고 말하면 의도는 *sendMoney*.
+예를 들어 사용자가 &quot;Siri야, 내 뱅킹 앱에서 어제 저녁 값으로 존에게 20달러 보내 줘.&quot;라고 말하면 의도는 다음과 같을 수 있습니다. *sendMoney*.
 
 이러한 각 요청을 eVar로 보냄으로써, 대화형 앱에 대해 각 의도에 대한 경로 지정 보고서를 실행할 수 있습니다. 앱에서 의도하지 않은 요청도 처리할 수 있는지 확인하십시오. 변수를 생략하는 대신 “지정된 의도 없음”을 의도 컨텍스트 데이터 변수에 전달하는 것이 좋습니다.
 

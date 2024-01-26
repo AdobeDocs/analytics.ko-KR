@@ -3,7 +3,8 @@ title: trackOffline
 description: 오프라인 추적을 활성화하거나 비활성화하여 AppMeasurement가 데이터를 수집하는 방식을 변경합니다.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 89%

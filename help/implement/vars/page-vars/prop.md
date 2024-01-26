@@ -3,9 +3,10 @@ title: prop
 description: 구현에 사용할 수 있는 사용자 정의 변수입니다.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '602'
 ht-degree: 94%
 
 ---
@@ -18,7 +19,7 @@ prop은 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. 
 
 >[!TIP]
 >
->대부분의 경우 [eVar](evar.md)를 사용하는 것이 좋습니다. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe은 이제 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
+>대부분의 경우 [eVar](evar.md)를 사용하는 것이 좋습니다. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe은 이제 prop에 대한 거의 모든 사용 사례를 충족할 정도로 eVar가 개선되었습니다.
 
 [솔루션 설계 문서](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 정의 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
 
@@ -34,7 +35,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 prop�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 설정 [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics 및 [!UICONTROL 작업 유형] to [!UICONTROL 변수 설정].
+5. 설정 [!UICONTROL 확장] Adobe Analytics 드롭다운 목록 [!UICONTROL 작업 유형] 끝 [!UICONTROL 변수 설정].
 6. [!UICONTROL prop] 섹션을 찾습니다.
 
 prop을 값 또는 데이터 요소로 설정할 수 있습니다. 다른 Analytics 변수에서 값을 복사할 수도 있습니다.

@@ -3,9 +3,10 @@ title: cleanStr
 description: 문자열에서 모든 불필요한 문자를 제거하거나 바꿉니다.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 68%
 
 ---
@@ -14,15 +15,15 @@ ht-degree: 68%
 
 {{plug-in}}
 
-`cleanStr` 플러그인은 HTML 태그 문자, 추가 공백, 탭, 줄바꿈/캐리지 리턴 등 문자열에서 불필요한 모든 문자를 제거하거나 대체합니다. 또한 왼쪽/오른쪽 작은 따옴표를 곧은 작은 따옴표(`'`). Adobe은 변수 값에서 불필요한 문자를 제거하려 하는데 Adobe Experience Platform 데이터 컬렉션의 &#39;텍스트 정리&#39; 기능이 구현 요구 사항을 충족하지 않는 경우 이 플러그인을 사용하는 것이 좋습니다. 수집된 데이터에 불필요한 문자가 포함되어 있지 않거나 Adobe Experience Platform 데이터 컬렉션의 &#39;텍스트 정리&#39; 기능으로 충분한 경우 이 플러그인은 필요하지 않습니다.
+`cleanStr` 플러그인은 HTML 태그 문자, 추가 공백, 탭, 줄바꿈/캐리지 리턴 등 문자열에서 불필요한 모든 문자를 제거하거나 대체합니다. 또한 왼쪽/오른쪽 작은 따옴표를 곧은 작은 따옴표(`'`). Adobe 값에서 불필요한 문자를 제거하려 하는데 Adobe Experience Platform 데이터 수집의 &#39;텍스트 정리&#39; 기능이 구현 요구 사항을 충족하지 않는 경우 이 플러그인을 사용하는 것이 좋습니다. 수집된 데이터에 불필요한 문자가 포함되어 있지 않거나 Adobe Experience Platform 데이터 수집에서 &#39;텍스트 정리&#39; 기능으로 충분한 경우 이 플러그인은 필요하지 않습니다.
 
 ## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
 
-이 플러그인은 아직 웹 SDK 내에서 사용할 수 없습니다.
+이 플러그인은 아직 웹 SDK에서 사용할 수 없습니다.
 
 ## Adobe Analytics 확장을 사용하여 플러그인 설치
 
-Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해주는 확장을 제공합니다.
+Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장을 제공합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
@@ -38,7 +39,7 @@ Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인�
 
 ## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
-일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
+일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려면 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.

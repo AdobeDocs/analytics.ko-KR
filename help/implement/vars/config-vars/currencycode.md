@@ -3,9 +3,10 @@ title: currencyCode 변수는 무엇이며 어떻게 사용할 수 있습니까?
 description: 전자 상거래 사이트의 경우 페이지에서 취급하는 통화를 설정합니다.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '945'
 ht-degree: 100%
 
 ---

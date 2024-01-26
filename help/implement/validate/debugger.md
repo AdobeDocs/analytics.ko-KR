@@ -3,9 +3,10 @@ title: 기존 Adobe Experience Cloud Debugger
 description: 기존 Adobe Experience Cloud Debugger를 설치합니다. 이 디버거는 Analytics, Target, Advertising Cloud, Identity Service, 데이터 수집 태그를 검사합니다.
 feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '678'
 ht-degree: 100%
 
 ---

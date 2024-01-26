@@ -3,10 +3,11 @@ title: getPageLoadTime
 description: 페이지를 로드하는 데 걸리는 시간을 추적합니다.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: dd9046bbb8d640d7392cddfab7ce34c4310e6eb7
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 41%
+ht-degree: 61%
 
 ---
 

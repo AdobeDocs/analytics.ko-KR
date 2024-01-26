@@ -3,9 +3,10 @@ title: pageName
 description: 사이트에 있는 페이지의 이름입니다.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '257'
 ht-degree: 81%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 81%
 
 ## 웹 SDK를 사용한 페이지 이름
 
-페이지: [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `web.webPageDetails.name`.
+페이지 [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `web.webPageDetails.name`.
 
 ## Adobe Analytics 확장을 사용한 페이지 이름
 
@@ -32,7 +33,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 페�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 설정 [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics 및 [!UICONTROL 작업 유형] to [!UICONTROL 변수 설정].
+5. 설정 [!UICONTROL 확장] Adobe Analytics 드롭다운 목록 [!UICONTROL 작업 유형] 끝 [!UICONTROL 변수 설정].
 6. [!UICONTROL 페이지 이름] 섹션을 찾습니다.
 
 페이지 이름을 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.

@@ -3,10 +3,11 @@ title: 기존 Adobe Analytics 구현 관리
 description: 기존 Adobe Analytics 구현을 처음 사용하는 관리자를 위한 지침입니다.
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
-source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 87%
+source-wordcount: '161'
+ht-degree: 71%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 87%
 
 ![플레이북](assets/inherited-impl-playbook.png)
 
-동료 기술 소유자인 Sarah Owen이 알려 주는 팁을 확인해 보십시오. Sarah는 Adobe Analytics 챔피언이며 기존 구현을 맡아서 관리하는 데 인계된 구현 플레이북을 활용하는 방법에 대한 아이디어를 공유합니다.
+동료 기술 소유자인 Sarah Owen이 알려 주는 팁을 확인해 보십시오. Sarah는 Adobe Analytics 챔피언 이며 기존 구현을 맡아서 관리하는 데 인계된 구현 플레이북을 활용하는 방법에 대한 아이디어를 공유합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 

@@ -3,10 +3,11 @@ title: registerPreTrackCallback
 description: Adobe에 히트를 보내기 전 콜백 함수를 만듭니다.
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 58%
+source-wordcount: '417'
+ht-degree: 55%
 
 ---
 
@@ -30,7 +31,7 @@ ht-degree: 58%
 
 1. 에 로그인합니다 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) AdobeID 자격 증명을 사용하는 UI.
 1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Experience Platform Web SDK 아래의 **[!UICONTROL 구성]**[!UICONTROL  버튼을 클릭합니다].
+1. 로 이동 [!UICONTROL 확장] 탭을 클릭한 다음 **[!UICONTROL 구성]** 아래에 있는 단추 [!UICONTROL Adobe Experience Platform 웹 SDK].
 1. 아래 [!UICONTROL 데이터 수집]를 클릭하고 **[!UICONTROL 이벤트 전송 전 콜백 코드 편집]** 단추를 클릭합니다.
 1. 편집기에 원하는 코드를 넣습니다.
 

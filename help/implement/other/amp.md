@@ -3,10 +3,11 @@ title: AMP를 사용한 구현
 description: AMP 페이지에서 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-source-git-commit: 4c75275f9abbff6b9a5a25be370eabc2801eb7fb
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 72%
+source-wordcount: '919'
+ht-degree: 70%
 
 ---
 
@@ -25,7 +26,7 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 
 다음 표에서는 이 두 방법을 비교합니다.
 
-|   | **`"adobeanalytics"`편집** | **`"adobeanalytics_nativeConfig"`편집** |
+|   | **`"adobeanalytics"`템플릿** | **`"adobeanalytics_nativeConfig"`템플릿** |
 |---|---|---|
 | 기존 보고서 세트의 방문자/방문수 | 높은 인플레이션 | 최소한의 인플레이션 |
 | 별도의 보고서 세트 사용 | 권장 | 불필요 |
@@ -146,7 +147,7 @@ Adobe는 내장된 AMP 함수를 사용하여 방문자를 식별하고 쿠키 `
 
 이 접근 방법에서는 `iframeMessage` 요청 매개 변수에 추가된 쿼리 문자열 매개 변수를 통해 데이터를 유틸리티 웹 페이지에 보냅니다. 이러한 쿼리 문자열 매개 변수의 이름은 `stats.html` 페이지가 이 매개 변수에서 데이터를 수집하도록 구성되어 있는 한 원하는 방식대로 지정할 수 있습니다.
 
-`"adobeanalytics_nativeConfig"` 템플릿에서도 태그의 `extraUrlParams` 섹션에 나열된 변수를 기반으로 쿼리 문자열 매개 변수를 추가합니다. `<amp-analytics>` 위의 예에는 `pageName` 및 `v1` 매개 변수가 포함되어 있습니다.
+다음 `"adobeanalytics_nativeConfig"` 또한 템플릿은에 나열된 변수를 기반으로 쿼리 문자열 매개 변수를 추가합니다. `extraUrlParams` 의 섹션 `<amp-analytics>` 태그에 가깝게 배치하십시오. 위의 예에는 `pageName` 및 `v1` 매개 변수가 포함되어 있습니다.
 
 >[!IMPORTANT]
 >

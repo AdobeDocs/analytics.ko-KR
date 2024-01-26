@@ -3,9 +3,10 @@ title: H 코드 JavaScript 구현 개요
 description: 사이트에서 H 코드를 구현하는 워크플로에 대해 알아봅니다.
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '382'
 ht-degree: 100%
 
 ---

@@ -3,9 +3,10 @@ title: cookieDomainPeriods
 description: 도메인의 접미사에 마침표가 있는 경우 쿠키를 저장할 도메인을 AppMeasurement가 이해하도록 도와줍니다.
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 88%
 
 ---
@@ -39,7 +40,7 @@ Web SDK는 이 변수 없이 올바른 쿠키 스토리지 도메인을 결정�
 
 접미사에 마침표를 포함하는 도메인에서만 이 필드를 `3`으로 설정하십시오. 다른 경우에는 이 필드를 비워 둘 수 있습니다.
 
-## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.cookieDomainPeriods
+## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.cookieDomainPeriods
 
 `cookieDomainPeriods` 변수는 일반적으로 접미사에 마침표를 포함하는 도메인에서만 `"3"`으로 설정되는 문자열입니다. 기본값은 `"2"`이고, 이렇게 하면 대부분의 도메인이 포함됩니다.
 

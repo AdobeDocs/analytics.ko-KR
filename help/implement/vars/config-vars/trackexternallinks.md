@@ -3,10 +3,11 @@ title: trackExternalLinks
 description: 종료 링크에 대한 자동 링크 추적을 활성화하거나 비활성화합니다.
 feature: Variables
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 59%
+source-wordcount: '324'
+ht-degree: 60%
 
 ---
 

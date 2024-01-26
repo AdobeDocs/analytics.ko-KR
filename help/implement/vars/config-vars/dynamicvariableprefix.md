@@ -3,9 +3,10 @@ title: dynamicVariablePrefix
 description: 동적 변수를 식별하는 문자열을 사용자 지정할 수 있습니다.
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '255'
 ht-degree: 76%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 76%
 
 ## 웹 SDK를 사용하는 동적 변수 접두사
 
-Web SDK는 동적 변수 형식을 사용하지 않습니다. 대신 데이터 스트림 매핑을 사용하여 단일 소스 필드를 사용하여 여러 Target 필드를 채울 수 있습니다. 다음을 참조하십시오 [웹 SDK를 사용하는 동적 변수](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) 추가 정보.
+Web SDK는 동적 변수 형식을 사용하지 않습니다. 대신 데이터 스트림 매핑을 사용하여 단일 소스 필드를 사용하여 여러 대상 필드를 채울 수 있습니다. 다음을 참조하십시오 [웹 SDK를 사용하는 동적 변수](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) 추가 정보.
 
 ## Adobe Analytics 확장을 사용하는 동적 변수 접두사
 

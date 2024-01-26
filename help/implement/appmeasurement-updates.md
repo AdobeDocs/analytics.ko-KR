@@ -3,10 +3,11 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 92%
+source-wordcount: '2618'
+ht-degree: 90%
 
 ---
 
@@ -20,14 +21,14 @@ JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 
 ## 버전 2.25.0
 
-릴리스 일자: **2023년 9월 12일**
+릴리스 일자: **2023년 9월 12일 수요일**
 
 * 선택적 메서드를 추가했습니다. [`bufferRequests()`](vars/functions/bufferrequests.md) 브라우저가 비콘 API를 지원하지 않거나 페이지 언로드 시 요청을 취소하는 경우 요청 캡처의 안정성을 향상시킵니다.
 * 단일 추적 요청에 대한 여러 추적 후 콜백을 방지하는 보호 장치가 추가되었습니다.
 
 ## 버전 2.24.0
 
-릴리스 일자: **2023년 7월 18일**
+릴리스 일자: **2023년 7월 18일 수요일**
 
 * 선택적 구성 변수를 추가했습니다. [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) 더블바이트로 인코딩된 문자가 포함된 링크 URL을 디코딩합니다.
 * 높은 엔트로피 사용자 에이전트 클라이언트 힌트 API가 잘못된 브라우저에 대한 추가 오류 처리가 추가되었습니다.
@@ -354,7 +355,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 릴리스 일자: **2015년 5월 21일**
 
 * iOS SDK 버전 4.5부터 새로운 iOS 확장을 사용하면 Apple Watch 앱, 오늘 위젯, 사진 편집 위젯 및 기타 모든 iOS 확장 앱의 사용 데이터를 수집할 수 있습니다.
-* Android SDK 버전 4.5에서 시작하는 새 Android 확장 기능을 사용하면 Android 웨어러블 앱의 데이터를 수집할 수 있습니다.
+* Android SDK 버전 4.5부터 새로운 Android 확장을 사용하여 Android 웨어러블 앱에서 데이터를 수집할 수 있습니다.
 * 방문자 API 1.4 포함.
 * DIL 버전 6.0을 사용하도록 AudienceManagement 모듈을 업데이트했습니다.
 
@@ -374,8 +375,8 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 
 릴리스 일자: **2015년 2월 19일**
 
-* 지연된 추적 호출의 모든 처리가 일관되도록 했습니다. 이에 따라 클릭한 개체와 같이 지연 동안 백업한 변수 관련 문제가 수정되었습니다.
-* 첫 번째 추적 호출 전에 *`s.referrer`*&#x200B;가 수동으로 설정되었을 때 두 번째, 세 번째 등의 추적 호출(일반적으로 링크 추적)에서 레퍼러가 두 번 계산되지 않도록 첫 번째 추적 호출 이후에 자동 레퍼러 추적을 수행하지 않도록 변경되었습니다.
+* 지연된 추적 호출의 모든 처리가 일관되도록 했습니다. 이에 따라 클릭한 오브젝트와 같이 지연 동안 백업한 변수 관련 문제가 수정되었습니다.
+* 두 번째, 세 번째 등의 추적 호출(일반적으로 링크 추적)이 두 번 계산되지 않도록 첫 번째 추적 호출 이후에 자동 레퍼러 추적을 수행하지 않도록 변경되었습니다. *`s.referrer`* 가 수동으로 설정되었을 때 두 번째, 세 번째 등의 추적 호출 (일반적으로 링크 추적)에서 레퍼러가 두 번 계산되지 않도록 첫 번째 추적 호출 이후에 자동 레퍼러 추적을 수행하지 않도록 변경되었습니다.
 * 배포 zip이 방문자 API 1.3.5를 포함하도록 업데이트되었습니다.
 
 ## 버전 1.4.2

@@ -3,16 +3,17 @@ title: linkDownloadFileTypes
 description: 다운로드 링크로 자동 추적되는 파일 확장자를 결정합니다.
 feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 56%
+source-wordcount: '392'
+ht-degree: 55%
 
 ---
 
 # linkDownloadFileTypes
 
-날짜 [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) 또는 [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK)가 활성화되고 방문자가 링크를 클릭하면 AppMeasurement가 파일 유형 확장자에 대한 링크의 URL을 검사합니다. 링크 URL에 일치하는 파일 유형이 포함되어 있으면 다운로드 링크 이미지 요청이 자동으로 전송됩니다.
+날짜 [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) 또는 [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK)가 활성화되고 방문자가 링크를 클릭하면 AppMeasurement이 파일 유형 확장자에 대한 링크의 URL을 확인합니다. 링크 URL에 일치하는 파일 유형이 포함되어 있으면 다운로드 링크 이미지 요청이 자동으로 전송됩니다.
 
 다운로드 링크로 카운트할 파일 확장자를 사용자 지정하려면 `linkDownloadFileTypes` 를 사용하십시오.
 

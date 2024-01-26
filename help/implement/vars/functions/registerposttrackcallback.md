@@ -3,9 +3,10 @@ title: registerPostTrackCallback
 description: Adobe에 히트를 보낸 후 콜백 함수를 만듭니다.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '349'
 ht-degree: 72%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 72%
 
 ## Web SDK 확장을 사용한 사후 추적 콜백
 
-준비 중!
+곧 출시 예정!
 
 ## 웹 SDK를 수동으로 구현하는 사후 추적 콜백
 

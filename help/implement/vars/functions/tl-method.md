@@ -3,9 +3,10 @@ title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '701'
 ht-degree: 80%
 
 ---
@@ -18,11 +19,11 @@ ht-degree: 80%
 
 ## 웹 SDK를 사용한 링크 추적
 
-웹 SDK는 페이지 보기 호출과 링크 추적 호출을 구별하지 않습니다. 둘 다 `sendEvent` 명령. Adobe Analytics에서 주어진 XDM 이벤트를 링크 추적 호출로 계산하도록 하려면 XDM 데이터가 포함되거나 매핑되어 있는지 확인합니다 `web.webInteraction.name`, `web.webInteraction.URL`, 및 `web.webInteraction.type`.
+웹 SDK는 페이지 보기 호출과 링크 추적 호출을 구분하지 않으며, 둘 다 `sendEvent` 명령입니다. Adobe Analytics이 주어진 XDM 이벤트를 링크 추적 호출로 계산하도록 하려면 XDM 데이터에 가 포함되어 있는지 또는 가 매핑되어 있는지 확인하십시오 `web.webInteraction.name`, `web.webInteraction.URL`, 및 `web.webInteraction.type`.
 
-* 링크 이름은 다음에 매핑됩니다. `web.webInteraction.name`.
-* 링크 URL이 `web.webInteraction.URL`.
-* 링크 유형은 `web.webInteraction.type`. 유효한 값에는 `other`(사용자 정의 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다.
+* 링크 이름이 다음에 매핑됨 `web.webInteraction.name`.
+* 링크 URL 매핑 대상 `web.webInteraction.URL`.
+* 링크 유형이 다음에 매핑됨 `web.webInteraction.type`. 유효한 값에는 `other`(사용자 정의 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다.
 
 ```js
 alloy("sendEvent", {
@@ -40,16 +41,16 @@ alloy("sendEvent", {
 
 ## Adobe Analytics 확장을 사용한 링크 추적
 
-Adobe Analytics 확장에는 링크 추적 호출을 설정하는 전용 위치가 있습니다.
+Adobe Analytics 확장에는 링크 추적 호출을 설정할 수 있는 전용 위치가 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-1. 아래 [!UICONTROL 작업]를 클릭하고, 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘을 클릭하여 작업을 추가합니다.
-1. 설정 [!UICONTROL 확장] 드롭다운 목록 **[!UICONTROL Adobe Analytics]**, 및 [!UICONTROL 작업 유형] to **[!UICONTROL 비콘 보내기]**.
+1. 아래 [!UICONTROL 작업]를 클릭하고 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘 을 클릭하여 작업을 추가합니다.
+1. 설정 [!UICONTROL 확장] 드롭다운 목록 **[!UICONTROL Adobe Analytics]**&#x200B;및 [!UICONTROL 작업 유형] 끝 **[!UICONTROL 비콘 보내기]**.
 1. `s.tl()` 라디오 버튼을 클릭합니다.
 
-Analytics 확장에서 선택적 인수를 설정할 수 없습니다.
+Analytics 확장에서는 선택적 인수를 설정할 수 없습니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.tl() 메서드
 
@@ -78,7 +79,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### 링크 유형 (필수)
+### 링크 유형(필수)
 
 링크 유형 인수는 링크 추적 호출 유형을 결정하는 단일 문자 문자열로서, 3개의 유효한 값이 있습니다.
 

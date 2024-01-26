@@ -3,7 +3,8 @@ title: 전체 검토
 description: 6개월마다 구현을 검토하여 비즈니스 요구 사항과 KPI에 맞게 계속 조정할 수 있습니다.
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
+role: Admin, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 80%

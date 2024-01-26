@@ -3,16 +3,17 @@ title: abort
 description: abort 변수는 히트가 Adobe 데이터 수집 서버에 전송되지 않도록 하는 부울입니다.
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 48%
+source-wordcount: '331'
+ht-degree: 44%
 
 ---
 
 # abort
 
-`abort` 변수는 그 다음 추적 호출이 Adobe에 전송되지 않도록 하는 부울입니다. 웹 SDK에 유사한 기능이 있으므로 다음을 반환할 수 있습니다. `false` xdm 이벤트를 보내기 전에.
+다음 `abort` 변수는 그 다음 추적 호출이 Adobe으로 전송되지 않도록 하는 부울입니다. 웹 SDK에 유사한 기능이 있으므로 다음을 반환할 수 있습니다. `false` xdm 이벤트를 보내기 전에.
 
 ## 웹 SDK 확장을 사용하여 이벤트 보내기 취소
 

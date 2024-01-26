@@ -3,10 +3,11 @@ title: trackingServerSecure
 description: HTTPS 페이지에서 이미지 요청이 전송되는 위치를 파악합니다.
 feature: Variables
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 68%
+source-wordcount: '431'
+ht-degree: 66%
 
 ---
 

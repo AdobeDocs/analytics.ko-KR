@@ -3,9 +3,10 @@ title: inList
 description: 값이 다른 문자로 구분된 값에 포함되어 있는지 확인합니다.
 feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '530'
 ht-degree: 87%
 
 ---
@@ -18,11 +19,11 @@ ht-degree: 87%
 
 ## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
 
-이 플러그인은 아직 웹 SDK 내에서 사용할 수 없습니다.
+이 플러그인은 아직 웹 SDK에서 사용할 수 없습니다.
 
 ## Adobe Analytics 확장을 사용하여 플러그인 설치
 
-Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해주는 확장을 제공합니다.
+Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장을 제공합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
@@ -38,7 +39,7 @@ Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인�
 
 ## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
-일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
+일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려면 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.

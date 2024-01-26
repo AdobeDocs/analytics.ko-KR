@@ -3,10 +3,11 @@ title: JavaScript용 AppMeasurement을 사용하여 Adobe Analytics 구현
 description: 태그 관리 시스템 없이 JavaScript를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 56%
+ht-degree: 42%
 
 ---
 
@@ -25,7 +26,7 @@ AppMeasurement for JavaScript는 지금까지 Adobe Analytics를 구현하는 �
 </tr>
 
 <tr>
-<td>1</td><td><b>보고서 세트를 정의</b>했는지 확인합니다</td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
+<td>1</td><td>다음을 수행했는지 확인 <b>보고서 세트 정의</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
 </tr>
 
 <tr>
@@ -46,7 +47,7 @@ AppMeasurement for JavaScript는 지금까지 Adobe Analytics를 구현하는 �
 </tr>
 
 <tr>
-<td>4</td><td><b><code>AppMeasurement.js</code></b> 내에서 구성 변수를 정의하십시오. Analytics 개체가 인스턴스화될 때 이러한 변수는 데이터 수집 설정이 올바른지 확인합니다.
+<td>4</td><td><b>내에서 구성 변수 정의 <code>AppMeasurement.js</code></b>. Analytics 개체가 인스턴스화될 때 이러한 변수는 데이터 수집 설정이 올바른지 확인합니다.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -61,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>사이트의 페이지 코드 내에서 페이지 수준 변수를 정의하십시오</b>. 이 변수가 Adobe에 전송되는 특정 차원과 지표를 결정합니다.
+<td>5</td><td><b>사이트의 페이지 코드 내에서 페이지 수준 변수 정의</b>. 이러한 변수는 Adobe으로 전송되는 특정 차원과 지표를 결정합니다.
 
 ```js
 s.pageName = "Example page";

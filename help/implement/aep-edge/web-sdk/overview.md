@@ -3,7 +3,8 @@ title: Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics 구현
 description: Adobe Experience Platform 데이터 수집에서 Web SDK 확장 기능을 사용하여 Adobe Analytics로 데이터를 전송합니다.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 91%
