@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '4994'
-ht-degree: 99%
+source-wordcount: '5047'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 1월** | |
+| 구성 요소 마이그레이션은 개별 IMS 조직에 적용됩니다. | 을(를) 명확히 했습니다. [구성 요소 마이그레이션](/help/admin/admin/component-migration/component-migration.md) 은(는) IMS 간 조직 마이그레이션을 지원하지 않습니다. |
+| 특정 정보는 관리자만 사용할 수 있음을 명확히 했습니다. | 에 설명된 &quot;마지막으로 사용됨&quot; 및 &quot;사용됨&quot; 열을 설명하는 정보가 추가되었습니다. [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md) 시스템 관리자만 사용할 수 있습니다. |
 | 미디어 분당 평균 시청 시간 설명서 업데이트 | 명확성을 높이기 위해 [미디어 분당 평균 시청 시간 패널](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)의 정보를 업데이트했습니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li></ul> |
 
 ### 2023 {#23}
@@ -142,7 +144,7 @@ ht-degree: 99%
 | Adobe Analytics 랜딩 페이지 업데이트 | 작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지 [업데이트](/help/analyze/landing.md)로 유용성이 향상되고 탐색이 간편해졌습니다. |
 | [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | 이 패널을 통해 선택한 차원 항목의 다음 또는 이전 항목을 탐색할 수 있습니다. |
 | [!UICONTROL 페이지 요약] 작업 영역 패널 | 이 패널은 선택한 페이지에 대한 심도 있는 분석을 제공합니다. |
-| 이전 예약된 보고서 일시 중지에 대한 새로운 항목 | 유효 **2022년 4월 15일**, Adobe은 생성일이 2년 이상인 모든 예약된 보고서를 일시 중지합니다. |
+| 이전 예약된 보고서 일시 중지에 대한 새로운 항목 | **2022년 4월 15일**&#x200B;부터 Adobe는 2년 이상 전에 생성된 모든 예약된 보고서를 일시 중지할 예정입니다. |
 | **2022년 2월** |
 | 모바일 스코어카드 프로젝트 미리보기 모드 | [미리보기 모드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#preview)에서는 스코어카드를 저장하고 공유하기 전에 환경을 미리 확인할 수 있습니다. |
 | API 프로젝트 엔드포인트 | API를 사용하여 Analysis Workspace 프로젝트를 추가, 편집 또는 삭제합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |

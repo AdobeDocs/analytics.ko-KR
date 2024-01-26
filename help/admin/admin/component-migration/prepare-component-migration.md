@@ -3,10 +3,10 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요�
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: cc7267cc7f6d0223d151fb6378fce149742258d7
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 14%
+source-wordcount: '872'
+ht-degree: 9%
 
 ---
 
@@ -16,38 +16,38 @@ ht-degree: 14%
 
 ## 사전 요구 사항
 
-프로젝트 및 관련 구성 요소를 마이그레이션할 준비가 되기 전에 먼저 다음을 수행해야 합니다.
+프로젝트 및 관련 구성 요소를 마이그레이션할 준비가 되기 전에 먼저 의 단계를 따라야 합니다 [Adobe Analytics의 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ko-KR) Adobe Customer Journey Analytics 안내서에서 확인할 수 있습니다. 이러한 단계는 다음과 같습니다.
 
-* Adobe Analytics 보고서 세트 데이터를 Customer Journey Analytics에서 보려면 다음 방법 중 하나를 사용하여 데이터를 Adobe Experience Platform에 수집합니다.
+1. Adobe Analytics 보고서 세트 데이터를 Customer Journey Analytics에서 보려면 다음 방법 중 하나를 사용하여 데이터를 Adobe Experience Platform에 수집합니다.
 
-  >[!NOTE]
-  >
-  >  WebSDK를 사용하여 데이터를 수집하는 경우 모든 스키마 필드를 수동으로 매핑해야 합니다. 매핑 프로세스에 대한 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](/help/admin/admin/component-migration/component-migration.md))
+   >[!NOTE]
+   >
+   >  WebSDK를 사용하여 데이터를 수집하는 경우 모든 스키마 필드를 수동으로 매핑해야 합니다. 매핑 프로세스에 대한 자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](/help/admin/admin/component-migration/component-migration.md))
 
 
    * Adobe Analytics 소스 커넥터를 사용하려면 다음을 수행해야 합니다.
 
-      * [Adobe Experience Platform 및 Customer Journey Analytics에 수집하기 위한 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집하기 위한 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      * [데이터 수집 및 사용](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ko-KR)
+      1. [데이터 수집 및 사용](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ko-KR)
 
    * WebSDK를 사용하려면 다음을 수행해야 합니다.
 
-      * [Adobe Experience Platform 및 Customer Journey Analytics에 수집하기 위한 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집하기 위한 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      * [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+      1. [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-* 만들기 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=ko-KR) 및 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 수집한 데이터 포함.
+1. 만들기 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) 및 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 수집한 데이터 포함.
 
-* Customer Journey Analytics의 사용자가 데이터가 매핑되는 데이터 보기에 프로비저닝되었는지 확인합니다.
+1. Customer Journey Analytics의 사용자가 데이터가 매핑되는 데이터 보기에 프로비저닝되었는지 확인합니다.
 
-  자세한 내용은 [Admin Console에서 권한 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 위치: [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+   자세한 내용은 [Admin Console에서 권한 Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 위치: [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
-  권한 탭은 Admin Console 각 제품 프로필의 일부입니다. 특정 제품 프로필에 사용자를 추가할 수 있습니다. 그 다음 특정 데이터 보기에 대한 권한을 할당하고 제품 프로필의 사용자에게 부여할 권한을 지정합니다.
+   권한 탭은 Admin Console의 각 제품 프로필에 포함되어 있습니다. 특정 제품 프로필에 사용자를 추가할 수 있습니다. 그런 다음 특정 데이터 보기에 권한을 할당하고 제품 프로필의 사용자에게 부여할 권한을 지정합니다.
 
-* 구성 요소를 매핑할 방법을 조직으로 결정합니다.
+1. 구성 요소를 매핑할 방법을 조직으로 결정합니다.
 
-  자세한 내용은 아래 섹션 을 참조하십시오. [구성 요소를 매핑할 방법을 조직으로 결정](#decide-as-an-organization-how-you-will-map-components).
+   자세한 내용은 아래 섹션 을 참조하십시오. [구성 요소를 매핑할 방법을 조직으로 결정](#decide-as-an-organization-how-you-will-map-components).
 
 ## 마이그레이션에 포함된 내용 이해
 
@@ -123,7 +123,7 @@ Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 �
 >
 >마이그레이션 프로세스는 Customer Journey Analytics의 구성 요소에 자동으로 매핑될 수 없는 Adobe Analytics 프로젝트의 구성 요소를 식별하며, 이러한 구성 요소를 수동으로 매핑할 수 있도록 해줍니다.
 >
->**한 프로젝트에서 수행된 모든 매핑은 마이그레이션을 수행하는 사용자에 관계없이 전체 조직의 모든 향후 프로젝트에 적용됩니다. 이러한 매핑은 고객 지원 센터에 문의하는 경우를 제외하고는 수정하거나 취소할 수 없습니다.**
+>**한 프로젝트에서 만들어진 모든 매핑은 마이그레이션을 수행하는 사용자에 관계없이 전체 IMS 조직에서 향후 모든 프로젝트에 적용됩니다. 이러한 매핑은 고객 지원 센터에 문의하는 경우를 제외하고는 수정하거나 취소할 수 없습니다.**
 >
 >따라서 프로젝트가 마이그레이션되기 전에 조직에서 차원과 지표를 매핑하는 방법을 결정하는 것이 중요합니다. 이렇게 하면 개별 관리자가 단일 프로젝트만 고려할 때 사일로에서 결정을 내리는 것을 방지할 수 있습니다.
 >

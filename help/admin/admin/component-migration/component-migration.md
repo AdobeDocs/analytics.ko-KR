@@ -3,9 +3,9 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요�
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 31487111111575e267306d5f68eede23276e79a8
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1389'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 >
 >이 섹션에 설명된 대로 프로젝트를 Customer Journey Analytics으로 마이그레이션하기 전에 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->매핑하는 모든 차원 또는 지표는 이 프로젝트와 전체 조직에서 마이그레이션되는 향후 모든 프로젝트에 대해 영구적입니다. 마이그레이션이 완료된 후에는 모든 매핑을 수정할 수 없습니다.
+>매핑하는 모든 차원 또는 지표는 이 프로젝트 및 전체 IMS 조직 전체에서 마이그레이션되는 향후 모든 프로젝트에 대해 영구적입니다. 마이그레이션이 완료된 후에는 모든 매핑을 수정할 수 없습니다.
 
 1. Adobe Analytics에서 [!UICONTROL **관리**] 탭을 선택한 다음 [!UICONTROL **모든 관리자**]&#x200B;를 선택합니다.
 
@@ -156,7 +156,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
 | 필터 | 설명 |
 |---------|----------|
-| [!UICONTROL **상태**] | 마이그레이션 상태: <ul><li>[!UICONTROL **시작되지 않음**]</li><li>[!UICONTROL **시작됨**]</li><li>[!UICONTROL **완료**]</li><li>[!UICONTROL **실패**]</li></ul>. |
+| [!UICONTROL **상태**] | 마이그레이션 상태: <ul><li>[!UICONTROL **시작되지 않음**]</li><li>[!UICONTROL **시작됨**]</li><li>[!UICONTROL **완료됨**]</li><li>[!UICONTROL **실패**]</li></ul>. |
 | [!UICONTROL **태그**] | 태그 목록에서 태그를 선택합니다. 선택한 태그가 적용된 프로젝트만 표시됩니다. |
 | [!UICONTROL **보고서 세트**] | 보고서 세트 목록에서 보고서 세트를 선택합니다. 선택한 보고서 세트를 사용하는 프로젝트만 표시됩니다. |
 | [!UICONTROL **소유자**] | 소유자 목록에서 소유자를 선택합니다. 선택한 사용자가 소유한 프로젝트만 표시됩니다. |
