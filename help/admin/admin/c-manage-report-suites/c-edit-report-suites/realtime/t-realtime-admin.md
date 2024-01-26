@@ -3,10 +3,10 @@ description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 90%
+source-wordcount: '288'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 실시간 보고서를 설정하는 관리 단계입니다.
 
-Adobe Analytics에서 실시간 보고서를 설정하는 절차에는 보고서 세트를 선택하는 것과 이 보고서 세트에 대해 최대 3개의 보고서를 구성하는 일로 이루어집니다.
+Adobe Analytics에서 실시간 보고서를 설정하는 절차에는 보고서 세트를 선택하는 것과 이 보고서 세트에 대해 최대 3개의 보고서를 구성하는 일로 이루어집니다. 기본적으로 실시간 보고서에 대한 액세스 권한은 모든 사용자에게 있습니다.
 
 1. 실시간 보고서를 활성화할 보고서 세트를 선택합니다.
 
@@ -53,8 +53,11 @@ Adobe Analytics에서 실시간 보고서를 설정하는 절차에는 보고서
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. **[!UICONTROL 저장]**&#x200B;이나 **[!UICONTROL 보고서 저장 및 보기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터 데이터를 즉시 사용할 수 있습니다.
 
-1. 기본적으로 실시간 보고서에 대한 액세스 권한은 모든 사용자에게 있습니다.
+1. 실시간 보고서를 보려면 다음 위치로 이동합니다.
+
+   **[!UICONTROL 작업 영역]** > **[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 실시간]**.
+
