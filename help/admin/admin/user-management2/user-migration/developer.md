@@ -3,9 +3,10 @@ description: 사용자 마이그레이션의 영향을 받는 API를 나열합�
 title: 사용자 마이그레이션의 영향을 받는 API
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+role: Admin, Developer
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 Adobe는 모든 Analytics 로그인 기업을 [!DNL my.omniture.com]에서 Adobe Experience Cloud를 통한 인증 방식으로 마이그레이션하고 있습니다. 기업에서 마이그레이션을 시작하면 Analytics 관련 권한 및 Analytics Admin API v1.3 및 v1.4에서 사용할 수 있는 `GetLoginKey` 메서드를 통한 프로그래밍 방식의 사용자 생성 및 관리가 더 이상 지원되지 않습니다. 이제 이러한 작업은 이제 [!DNL adobe.io]를 통해 Experience Cloud에서 사용할 수 있습니다.
 
-## 영향을 받는 API 메서드 {#section-d19051ac26cc49aeb124f767c4760254}
+## 영향을 받는 API 메서드 {#methods}
 
 사용자 마이그레이션을 시작하면 Admin API의 v1.3 및 v1.4에 있는 다음 API 메서드가 더 이상 지원되지 않습니다.
 
@@ -33,7 +34,7 @@ Adobe는 모든 Analytics 로그인 기업을 [!DNL my.omniture.com]에서 Adobe
 * Permissions.SaveLogin
 * Permissions.GetLoginSegment
 
-## 수행할 수 있는 작업 {#section-8b0b89a862614f729ebdbe092ce99027}
+## 수행할 수 있는 작업 {#actions}
 
 현재 기업에서 이러한 메서드를 사용하는 경우, 2018년 3월 31일부터 시작되는 사전 마이그레이션 알림을 확인하십시오. 기업이 Experience Cloud 인증으로 마이그레이션을 시작하기 최소 30일 전에 알림이 전송되며, 해당 시점에는 이러한 메서드가 지원되지 않습니다.
 

@@ -3,9 +3,10 @@ title: Adobe Analytics의 관리자 역할
 description: Adobe Analytics 시작, 일반 역할 유형, UI에 로그인하는 방법을 알아봅니다.
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1122'
 ht-degree: 100%
 
 ---

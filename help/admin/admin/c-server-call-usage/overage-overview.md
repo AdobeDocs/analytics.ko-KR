@@ -3,16 +3,15 @@ description: Adobe Analytics 서버 호출 사용 기능에 대한 개요.
 title: 서버 호출 사용량 개요
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1039'
 ht-degree: 100%
 
 ---
 
-# 서버 호출 사용량 개요
-
-## 서버 호출 사용량을 모니터링하고 경고하는 이유는 무엇입니까? {#section_060C29BF1D00444B85892AD1FCF55290}
+# 서버 호출 사용량
 
 Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호출 사용량 데이터에 대한 투명성 요청을 해결합니다. 다음에 액세스할 수 있습니다.
 
@@ -31,7 +30,7 @@ Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호�
 * **권한:** 서버 호출 사용량 대시보드 및 경고 빌더/관리자에 액세스하려면 Adobe Analytics 관리자여야 합니다.
 * **권한:** 관리자는 관리자가 아닌 사용자에게 액세스를 허용할 수 있으며, 이 권한을 **[!UICONTROL 서버 호출 사용량]**&#x200B;이라고 합니다. [서버 호출 사용량 권한](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)을 참조하십시오.
 
-## 중요한 용어 {#section_CBA348A039F34563B097CD8890AB358D}
+## 중요한 용어 {#terminology}
 
 다음은 서버 호출 사용량에 대한 필수 용어의 간략한 설명입니다.
 
@@ -80,7 +79,7 @@ Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호�
  </tbody> 
 </table>
 
-## 서버 호출 사용량 권한 {#section_FCC58EB635954A32990D4E67B52B4369}
+## 서버 호출 사용량 권한 {#permission}
 
 서버 통화 사용량 권한은 자동으로 분석 관리자에게 부여됩니다. 이를 통해 사용자는 대시보드를 보고 서버 호출 경고를 작성할 수 있습니다. 관리자는 이 권한을 관리자가 아닌 사용자에게 부여하도록 선택할 수 있습니다.
 

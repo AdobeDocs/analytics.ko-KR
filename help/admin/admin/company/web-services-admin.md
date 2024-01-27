@@ -3,10 +3,11 @@ description: 웹 서비스 API를 사용하면 Analytics 인터페이스를 통�
 title: 웹 서비스
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 80%
+source-wordcount: '292'
+ht-degree: 75%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 80%
 
 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 웹 서비스]** 또는 **[!UICONTROL API 액세스]**
+**[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 웹 서비스]** 또는 **[!UICONTROL API 액세스]**
 
 
 ## Analytics 2.0 API

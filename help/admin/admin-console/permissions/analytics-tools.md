@@ -3,7 +3,8 @@ title: Analytics 도구에 대한 제품 프로필 권한
 description: Analytics 도구 권한 항목을 사용하여 Adobe Analytics 내의 기능에 액세스 권한을 부여합니다.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 91%

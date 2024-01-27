@@ -1,26 +1,21 @@
 ---
-description: 보고서 세트 유형에 대한 설명과 글로벌 보고서 세트 및 롤업 보고서 세트 비교입니다.
-title: 보고서 세트 접근 방식
+description: 글로벌 보고서 세트에 대한 설명
+title: 글로벌 보고서 세트
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 89%
+source-wordcount: '404'
+ht-degree: 90%
 
 ---
 
-# 보고서 세트 접근 방식
-
-<!-- change filename since page name changed? -->
-
-보고서 세트를 *글로벌 보고서 세트* 또는 *롤업 보고서 세트*&#x200B;로 구성할 수 있습니다.
-
-## 글로벌 보고서 세트
+# 글로벌 보고서 세트
 
 글로벌 보고서 세트는 조직이 소유하는 모든 도메인 및 앱에서 데이터를 수집합니다. 모든 이미지 요청을 단일 보고서 세트로 보내려면 구현이 필요합니다.
 
-대부분의 경우 글로벌 보고서 세트를 구현하는 것이 좋습니다. 글로벌 보고서 세트 구현의 이점은 “[글로벌 보고서 세트 고려 사항](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)”을 참조하십시오.
+대부분의 경우 글로벌 보고서 세트를 구현하는 것이 좋습니다. 글로벌 보고서 세트 구현의 이점은 “[글로벌 보고서 세트 고려 사항](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=ko-KR)”을 참조하십시오.
 
 *다중 세트 태그 지정* 및 *가상 보고서 세트* 접근 방식을 사용하여 회사의 글로벌 보고서 세트 데이터 하위 집합을 다양한 최종 사용자에게 제공할 수 있습니다.
 
@@ -38,13 +33,13 @@ ht-degree: 89%
 
 다중 세트 태그 지정 대신 가상 보고서 세트를 사용하는 것이 모범 사례인 경우가 많지만 가상 보고서 세트에는 몇 가지 제한 사항이 있습니다. 귀하의 비즈니스 요구에 가장 적합한 보고서 세트 접근 방식을 결정하려면 “[가상 보고서 세트 및 다중 세트 태그 지정 고려 사항](/help/components/vrs/vrs-considerations.md)”를 참조하십시오. 가상 보고서 세트와 다중 세트 태그 지정에 대한 자세한 비교는 &quot;[가상 보고서 세트와 다중 세트 태깅 비교](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
-## 롤업 보고서
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] 은 롤업 보고서를 지원하는 유일한 도구입니다. Reports &amp; Analytics는 2024년 1월 17일에 사용이 중단되었습니다.
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

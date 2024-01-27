@@ -3,10 +3,11 @@ title: Adobe Analytics 첫 번째 관리 안내서
 description: 첫 번째 관리자 프로비저닝 프로세스와 다음 단계를 이해합니다.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 45%
+ht-degree: 43%
 
 ---
 
@@ -18,7 +19,7 @@ Adobe Analytics에서 사용자에게 역할을 할당하려면 먼저 사용자
 
 ## 첫 번째 관리자를 위한 프로비저닝 프로세스
 
-계약 체결 후:
+계약이 체결된 후:
 
 1. Adobe의 프로비저닝 팀이 계정을 만들 준비를 합니다.
 

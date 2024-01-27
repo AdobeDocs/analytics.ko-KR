@@ -3,14 +3,15 @@ description: Analytics 사용자의 기존 로그인을 비활성화하는 방�
 title: 기존 로그인 비활성화
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# 기존 로그인 비활성화{#disable-legacy-logins}
+# 기존 로그인 비활성화
 
 Analytics 사용자의 기존 로그인을 비활성화하는 방법에 대해 알아봅니다.
 

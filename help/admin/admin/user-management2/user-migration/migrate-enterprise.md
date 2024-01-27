@@ -3,14 +3,15 @@ description: Analytics 사용자 계정을 Adobe Admin Console에 Enterprise ID 
 title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 100%
+source-wordcount: '743'
+ht-degree: 97%
 
 ---
 
-# Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 
 Analytics 사용자 계정을 Adobe Admin Console에 Enterprise ID 또는 Federated ID로 마이그레이션하는 방법입니다.
 
@@ -127,7 +128,7 @@ Adobe Admin Console에서 사용자를 관리하기 위한 전제 조건입니�
   </tr> 
   <tr> 
    <td colname="col1"> <p>도메인 </p> </td> 
-   <td colname="col2"> <p>도메인 확인 <span class="term"> 도메인</span> 및 <span class="term"> 이메일</span> 열이 사전 요구 사항</a>에 설정된 도메인과 일치합니다. </p> </td> 
+   <td colname="col2"> <p>다음 도메인에 해당 <span class="term"> 도메인</span> 및 <span class="term"> 이메일</span> 열이 사전 요구 사항에 설정된 도메인과 일치합니다.</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>국가 코드 </p> </td> 

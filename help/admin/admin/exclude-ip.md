@@ -3,10 +3,11 @@ title: IP 주소로 제외
 description: 특정 IP 주소에서 생성된 데이터가 보고서에 표시되지 않도록 합니다.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 95%
+source-wordcount: '219'
+ht-degree: 94%
 
 ---
 
