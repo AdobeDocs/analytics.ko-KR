@@ -1,18 +1,18 @@
 ---
-description: 시스템 요구 사항 및 Analysis Workspace, Report Builder, Data Warehouse 및 Data Workbench 비교
+description: Analysis Workspace, Report Builder, Data Warehouse 및 Data Workbench의 시스템 요구 사항 및 비교
 title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Analytics 제품 비교 및 요구 사항
 
-이 페이지에는 Analysis Workspace, Report Builder, Data Warehouse, 데이터 피드 및 Analytics API 2.0과 같은 다양한 Adobe Analytics 제품의 비교가 포함되어 있습니다.
+이 페이지에는 Analysis Workspace, Report Builder, Data Warehouse, 데이터 피드 및 Analytics API 2.0 등 다양한 Adobe Analytics 제품의 비교가 포함되어 있습니다.
 
 사용할 Adobe Analytics 제품에 대한 자세한 내용은 [어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/analyze/get-started/which-analytics-tool.md)를 참조하십시오.
 
@@ -29,7 +29,7 @@ ht-degree: 88%
 | **여러 보고서 세트** | [예](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 예 | 아니요 | 예 | 아니요 | 예 |
 | **분류 수** | 제한 없음 | 최대 2 | 제한 없음 | 제한 없음 | 제한 없음, 여러 쿼리에서 실행 |
 | **세분화** <br> [자세히 알아보기](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 예 | 예 | 예. [제한 사항](/help/components/segmentation/seg-reference/seg-compatibility.md) 있음 | 아니요 | 예 |
-| **계산된 지표** <br> [자세히 알아보기](/help/components/c-calcmetrics/cm-overview.md) | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 예, 속성 사용 | 예 | 아니요 | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
+| **계산된 지표** <br> [자세히 알아보기](/help/components/c-calcmetrics/cm-overview.md) | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 예. 속성 사용 | 예 | 아니요 | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
 | **마케팅 채널** <br> [자세히 알아보기](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 예 | 예 | 예 | 예 - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 예 |
 | **집단 분석** | [예](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 예 | 아니요 | 아니요 | 아니요 |
 | **속성** | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 제한적 | 아니요 | 아니요 | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 아니요 |
