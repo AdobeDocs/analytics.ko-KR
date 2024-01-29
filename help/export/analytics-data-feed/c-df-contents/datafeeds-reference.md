@@ -6,9 +6,9 @@ title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3897'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 99%
 | **`color`** | `c_color` 열의 값을 기반으로 하는 색상 심도 ID입니다. `color_depth.tsv` 조회 테이블을 참조합니다. | smallint 부호 없음 |
 | **`connection_type`** | 연결 유형을 나타내는 숫자 ID입니다. [연결 유형](/help/components/dimensions/connection-type.md) 차원에 사용되는 변수입니다. `connection_type.tsv` 조회 테이블을 참조합니다. | tinyint 부호 없음 |
 | **`cookies`** | [쿠키 지원](/help/components/dimensions/cookie-support.md) 차원에 사용되는 변수입니다.<br>Y: 활성화됨<br>N: 비활성화됨<br>U: 알 수 없음 | char (1) |
-| **`country`** | 에서 찾은 값을 나타내는 숫자 ID `country.tsv` 조회. | smallint 부호 없음 |
+| **`country`** | `country.tsv` 조회에서 찾은 값을 나타내는 숫자 ID입니다. | smallint 부호 없음 |
 | **`ct_connect_type`** | `connection_type` 열과 관련이 있습니다. 가장 일반적인 값은 LAN/Wifi, 이동통신사 및 모뎀입니다. | char (20) |
 | **`curr_factor`** | 통화 소수점 이하 자리 수를 결정하며 통화 전환에 사용됩니다. 예를 들어 USD는 소수점 이하 두 자리를 사용하므로 이 열 값은 2입니다. | tinyint |
 | **`curr_rate`** | 거래가 발생했을 때 환율입니다. Adobe에서는 현재 날짜의 환율을 결정하기 위해 XE와 파트너 관계를 맺습니다. | decimal (24,12) |
@@ -112,10 +112,10 @@ ht-degree: 99%
 | **`mcvisid`** | Experience Cloud 방문자 ID. 19자리에 채워진 두 개의 연결된 64비트 숫자로 구성된 128비트 숫자입니다. | varchar (255) |
 | **`mobile_id`** | 사용자가 모바일 디바이스를 사용하는 경우 디바이스의 숫자 ID입니다. `mobile_attributes.tsv`[동적 조회](dynamic-lookups.md)의 키 값입니다. | int |
 | **`mobileaction`** | 모바일 작업입니다. Mobile Services에서 `trackAction`이 호출되면 자동으로 수집됩니다. 앱에서 경로를 지정하는 자동 작업을 허용합니다. | varchar (100) |
-| **`mobileappid`** | 모바일 앱 ID입니다. 애플리케이션 이름과 버전을 다음 형식으로 저장합니다. `[AppName] [BundleVersion]` | varchar (255) |
+| **`mobileappid`** | 모바일 앱 ID입니다. 애플리케이션 이름과 버전을 다음 형식으로 저장: `[AppName] [BundleVersion]` | varchar (255) |
 | **`mobileappperformanceappid`** | Apteligent Data Connector에서 사용됩니다. Apteligent에 사용되는 앱 ID입니다. | varchar (255) |
 | **`mobileappperformancecrashid`** | Apteligent Data Connector에서 사용됩니다. Apteligent에 사용되는 충돌 ID입니다. | varchar (255) |
-| **`mobileappstoreobjectid`** | Appfigures Data Connector에서 사용됩니다. 앱스토어 개체 ID. | varchar (255) |
+| **`mobileappstoreobjectid`** | Appfigures Data Connector에서 사용됩니다. 앱스토어 오브젝트 ID. | varchar (255) |
 | **`mobilebeaconmajor`** | Mobile Services 비콘 Major | varchar (100) |
 | **`mobilebeaconminor`** | Mobile Services 비콘 Minor | varchar (100) |
 | **`mobilebeaconproximity`** | Mobile Services 비콘 Proximity | varchar (255) |
