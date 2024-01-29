@@ -5,9 +5,9 @@ role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
 source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 1. (선택 사항) 라인 차트나 표에서 **[!UICONTROL 기여도 분석 실행]**&#x200B;을 클릭한 후에 [차원을 제외](#section_F6932F4BF74544B5872164E7B1E0C6FC)하여 분석 범위를 좁힐 수 있습니다(따라서 분석 속도가 빨라짐).
 
 1. 기여도 분석이 로드되는 동안 기다려 주십시오. 이 작업은 보고서 세트의 크기와 차원의 수에 따라 상당한 시간이 걸릴 수 있습니다. 기여도 분석에서는 차원당 상위 50,000개의 항목을 분석합니다.
-1. 그런 다음 Analysis Workspace은 새 기여도 분석 패널을 이 프로젝트 내에 직접 로드합니다.
+1. 그런 다음 Analysis Workspace에서는 이 프로젝트 내에서 바로 새 기여도 분석 패널을 로드합니다.
 
    * 해당 일의 **방문** 수를 보여 주는 시각화.
    * 컨텍스트에 대한 월별 **방문 횟수 꺾은 선형**.
