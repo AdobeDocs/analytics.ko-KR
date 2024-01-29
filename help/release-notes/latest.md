@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
 source-wordcount: '1077'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Data Warehouse 업데이트** | 이제 다음과 같은 Data Warehouse 개선 기능을 사용할 수 있습니다.<ul><li>Data Warehouse 요청을 생성할 때 사용자는 [!UICONTROL **조직의 사용자들이 사용할 수 있도록 설정**]&#x200B;이라는 새 토글을 활성화하여 조직의 모든 사용자가 사용할 수 있는 요청을 만들 수 있습니다.<p>자세한 내용은 [Data Warehouse 요청 일반 설정](/help/export/data-warehouse/create-request/dw-general-settings.md)을 참조하십시오.</p></li><li>Data Warehouse 보고 대상을 생성하거나 관리할 때 이제 시스템 관리자는 [!UICONTROL **모든 대상 표시**]&#x200B;라는 토글을 활성화하여 조직의 사용자가 생성한 계정과 위치를 표시할 수 있습니다.<p>자세한 내용은 [Data Warehouse 요청에 대한 보고 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을 참조하십시오.</p></li> | 해당 사항 없음 | 2024년 1월 10일 |
-| **주요 지표 요약 시각화 업데이트** | 주요 지표 요약 시각화를 사용할 때 선택한 비교 날짜 범위 옵션이 기본 날짜 범위를 기준으로 하는지 또는 고정되는지 여부에 따라 비교 날짜 범위가 자동으로 업데이트될 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 해당 사항 없음 | 2024년 1월 17일 |
+| **주요 지표 요약 시각화 업데이트** | 주요 지표 요약 시각화를 사용할 때 선택한 비교 날짜 범위 옵션이 기본 날짜 범위를 기준으로 하는지 또는 고정되는지 여부에 따라 비교 날짜 범위가 자동으로 업데이트될 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/visualizations/key-metric.md). | 해당 사항 없음 | 2024년 1월 17일 |
 
 {style="table-layout:auto"}
 
@@ -44,7 +44,7 @@ ht-degree: 90%
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| Adobe API 오브젝트 멤버 추가 | 2024년 1월 17일 | Adobe는 버전 관리에 대한 공지나 변경 없이 기존 API 오브젝트에 선택적 요청 및 응답 멤버(이름/값 쌍)를 추가할 수 있습니다. 이러한 추가 사항은 구현을 중단하는 변경 사항이 아니어야 합니다. Adobe에서는 이러한 추가 사항이 이해되지 않는 경우 처리 시 무시되도록 Adobe API와 통합하는 서드파티 도구의 API 설명서를 참조할 것을 권장합니다. Adobe는 릴리스 정보를 통해 표준 알림을 제공하지 않고 매개변수를 제거하거나 필수 매개변수를 추가하지 않습니다. |
+| Adobe API 오브젝트 멤버 추가 | 2024년 1월 17일 | Adobe는 버전 관리에 대한 공지나 변경 없이 기존 API 오브젝트에 선택적 요청 및 응답 멤버(이름/값 쌍)를 추가할 수 있습니다. 이러한 추가 사항은 구현을 위해 중단하는 변경 사항이 아니어야 합니다. Adobe에서는 이러한 추가 사항이 이해되지 않는 경우 처리 시 무시되도록 Adobe API와 통합하는 서드파티 도구의 API 설명서를 참조할 것을 권장합니다. Adobe는 릴리스 정보를 통해 표준 알림을 제공하지 않고 매개변수를 제거하거나 필수 매개변수를 추가하지 않습니다. |
 | `getPageLoadTime` 플러그인 사용 안 함 | 2024년 1월 10일 | 이 플러그인은 더 이상 지원되지 않습니다. 해당 코드는 MDN에 따라 [더 이상 사용되지 않는](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming) performance.timing 메서드를 활용합니다. 업데이트된 플러그인 작업이 시작되었습니다. |
 
 {style="table-layout:auto"}
@@ -53,8 +53,8 @@ ht-degree: 90%
 
 | EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
-| **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2024년 1월 10일 | 유효 **2024년 1월 17일**, Adobe 중단됨 [!DNL Reports & Analytics] 및 함께 제공되는 보고서와 기능. 강력한 보고서, 시각화 및 기반 기술 [!DNL Reports & Analytics] 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다.<p>2024년 1월 17일에 예약된 보고서, 데이터 추출 및 DL 보고서를 포함하되 이에 국한되지 않는 많은 관련 Reports &amp; Analytics 기능을 종료했습니다. 2024년 1월 17일 이후에는 예약된 보고서가 더 이상 전송되지 않았습니다. 또한 2024년 1월 17일부터는 향후 보고서를 더 이상 예약할 수 없습니다. |
-| **[!UICONTROL 게시 목록] 기능의 EOL** | 2024년 1월 10일 | Reports &amp; Analytics 서비스 중단의 일환으로 [!UICONTROL 게시 목록] 의 서비스 종료에 도달함 **2024년 1월 17일**. 더 이상 새 항목을 만들거나 기존 항목에 액세스할 수 없습니다. [!UICONTROL 게시 목록] 전송 또는 예약하기 [!UICONTROL Analysis Workspace] 프로젝트. |
+| **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2024년 1월 10일 | **2024년 1월 17일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단했습니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않았습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다.<p>2024년 1월 17일에 예약된 보고서, 데이터 추출, DL 보고서를 포함하되 이에 국한되지 않는 많은 관련 Reports &amp; Analytics 기능이 종료되었습니다. 2024년 1월 17일 이후에는 예약된 보고서가 더 이상 전송되지 않았습니다. 또한 2024년 1월 17일 현재 더 이상 향후 보고서를 예약할 수 없습니다. |
+| **[!UICONTROL 게시 목록] 기능의 EOL** | 2024년 1월 10일 | Reports &amp; Analytics EOL의 일환으로 [!UICONTROL 게시 목록]은 **2024년 1월 17일**&#x200B;에 서비스가 종료되었습니다. 더 이상 [!UICONTROL Analysis Workspace] 프로젝트를 보내거나 예약하기 위해 새 게시 목록을 만들거나 기존 [!UICONTROL 게시 목록]에 액세스할 수 없습니다. |
 | **Data Workbench에 대한 EOL** | 2024년 1월 2일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench 서비스를 종료했습니다. 자세한 내용은 [Data Workbench 서비스 종료 공지](https://express.adobe.com/page/GSu6oKOD88GAj/)를 참조하십시오. 문의 사항이 있으면 조직의 Adobe 계정 관리자에게 문의하십시오. |
 | **Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션** | 2023년 5월 11일 | Adobe I/O JWT 자격 증명을 사용하는 Adobe Analytics API 및 Livestream 고객은 **2025년 1월 1일**&#x200B;까지 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 2024년 5월 1일부터는 Adobe I/O를 사용하여 새 JWT 자격 증명을 만들 수 없습니다. JWT를 사용하는 고객은 OAuth 서버 간 자격 증명을 새로 만들거나 기존 JWT 자격 증명을 OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 또한 고객은 새 OAuth 서버 간 자격 증명을 사용하려면 클라이언트 애플리케이션을 업데이트해야 합니다. <ul><li>[서비스 계정(JWT) 자격 증명에서 마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth를 사용한 신규 및 기존 애플리케이션 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[새 OAuth 서버 간 자격 증명 사용](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
