@@ -3,9 +3,10 @@ title: Adobe에 데이터 소스 파일 업로드
 description: 수집을 위해 데이터 소스 파일을 Adobe Analytics에 업로드하는 프로세스입니다.
 exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---

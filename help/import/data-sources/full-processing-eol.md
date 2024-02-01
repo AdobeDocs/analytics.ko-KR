@@ -3,10 +3,11 @@ title: 전체 처리 데이터 소스의 서비스 종료
 description: 전체 처리 데이터 소스의 서비스 종료 공지에 대해 자세히 알아보십시오.
 exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 15%
+source-wordcount: '369'
+ht-degree: 4%
 
 ---
 
@@ -33,18 +34,18 @@ ht-degree: 15%
 * **`aamlh`**: Adobe Audience Manager 위치 힌트입니다.
 * **`contextData.key`**: [컨텍스트 데이터 변수](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: Experience Cloud ID 서비스 변수. `id`, `authState`및 `isMCSeed`를 포함합니다.
-* **`hints`**: [클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko-KR) 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다. 포함 `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, 및 `wow64`.
+* **`hints`**: [클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다. 포함 `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, 및 `wow64`.
 * **`ipaddress`**: 방문자의 IP 주소입니다.
 * **`language`**: [언어](/help/components/dimensions/language.md) 차원.
 * **`list1`** - **`list3`**: [목록 변수](/help/implement/vars/page-vars/list.md).
-* **`marketingCloudVisitorID`**: 방문자의 Experience Cloud ID.
-* **`tnta`**: 다음에서 사용되는 Target 데이터 페이로드 [Target 분석](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 통합.
-* **`trackingServer`**: .[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)
-* **`transactionID`**: .[`transactionID`](/help/implement/vars/page-vars/transactionid.md)
+* **`marketingCloudVisitorID`**: 방문자의 Experience Cloud ID입니다.
+* **`tnta`**: 다음에서 사용되는 Target 데이터 페이로드 [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 통합.
+* **`trackingServer`**: [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다.
+* **`transactionID`**: [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다.
 * **`userAgent`**: 장치의 사용자 에이전트 문자열입니다.
 
 다음 변수는 대량 데이터 삽입을 통해 지원되지 않습니다.
 
-* **`charSet`**: . [`charSet`](/help/implement/vars/config-vars/charset.md) 대량 데이터 삽입은 UTF-8만 지원합니다.
+* **`charSet`**: [`charSet`](/help/implement/vars/config-vars/charset.md) 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다. 대량 데이터 삽입은 UTF-8만 지원합니다.
 * **`timezone`**: 방문자의 시간대 오프셋(시간 단위)입니다.
 * **`clickAction`**, **`clickActionType`**, **`clickContext`**, **`clickContextType`**, **`clickSourceID`**, **`clickTag`**: Activity Map 데이터 수집에 사용되는 변수입니다.

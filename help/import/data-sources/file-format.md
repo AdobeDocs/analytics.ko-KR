@@ -3,10 +3,11 @@ title: 데이터 소스 파일 형식
 description: 데이터 소스에서 사용할 파일을 올바르게 생성합니다.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 7%
+source-wordcount: '533'
+ht-degree: 5%
 
 ---
 
@@ -41,7 +42,7 @@ ht-degree: 7%
 | 차원 | 데이터 소스 헤더 |
 | --- | --- |
 | [범주](/help/components/dimensions/category.md) | `Category` |
-| [eVar1 - eVar 250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
+| [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
 | [마케팅 채널](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
 | [마케팅 채널 세부 정보](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [제품](/help/components/dimensions/product.md) | `Product` |
