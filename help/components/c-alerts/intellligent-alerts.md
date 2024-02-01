@@ -3,10 +3,10 @@ description: 지능형 경고 시스템은 경고를 더욱 세밀하게 제어�
 title: 지능형 경고
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 68%
 
 ---
 
@@ -44,39 +44,37 @@ ht-degree: 93%
   ![](assets/create-alert-from-selection.png)
 
 
-## FAQ: 경보가 계산되고 트리거되는 방식 {#trigger}
+## FAQ: 경고를 계산하고 트리거하는 방법 {#trigger}
 
 % 임계값은 표준 편차입니다. 예를 들어 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 세부기간에 따라 [다른 모델](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) 는 각 데이터 포인트가 기준(norm)에서 얼마나 떨어져 있는지(표준 편차 수) 계산하는 데 사용됩니다. 낮은 임계값(예: 90%)을 설정하면 높은 임계값(99%)을 설정하는 경우보다 많은 예외 항목이 생깁니다. 99.75% 및 99.99% 임계값은 많은 예외 항목을 트리거되지 않도록 시간 단위용으로 특별히 도입되었습니다.
 
-<table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 질문 </th> 
-   <th colname="col2" class="entry"> 답변 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Q: 경고의 예외 항목 탐지에서 데이터 예외 항목을 판단하려면 얼마나 되돌아갑니까? </b> </p> </td> 
-   <td colname="col2"> <p>교육 기간은 선택한 세부기간에 따라 다릅니다. 자세한 내용은 <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">예외 항목 탐지</a>에서 사용되는 통계 기법을 참조하십시오. 다음은 요약입니다. </p> 
-    <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
-     <li id="li_E246091A3F1E484C8444AF4052FCA784">월 단위 = 15개월 + 지난 해와 동일한 범위 </li> 
-     <li id="li_CC014FB38AE1492B9647E990C29BFB3C">주 단위 = 15주 + 지난 해와 동일한 범위 </li> 
-     <li id="li_2517EE2097534324BE9C1B54CD181A62">일 단위 = 35일 + 지난 해와 동일한 범위 </li> 
-     <li id="li_710BC8B009354542AA4962A59A646099">시간 단위 = 336시간 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q: 일시적인 동작 하락이나 동작 급등에 대해서만 경보를 발행하려는 경우, 예외 항목 기능을 사용할 수 있습니까? 또는 절대값을 사용해야 합니까?</b> </p> </td> 
-   <td colname="col2"> <p>절대값을 사용하면 급등은 물론 하락에 대해서도 경고가 계속 트리거됩니다. 하락 또는 급등에 대해서만 경고를 분리할 수 없습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q: 그날의 특정 시간 동안 (예: 업무 시간과 비업무 시간)만 트리거하도록 경고를 구성할 수 있습니까? </b> </p> </td> 
-   <td colname="col2"> <p>현재는 할 수 없습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q: 점선을 구성하는 "예상값" 테이블이나 그러한 값에 대한 일종의 출력을 얻을 수 있습니까? </b> </p> </td> 
-   <td colname="col2"> <p>Workspace에서는 얻을 수 없지만 Report Builder에서는 얻을 수 있습니다(<a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=ko-KR"  >Report Builder의 예외 항목 탐지</a>에서 이 비디오 참조 ). </p> <p>Report Builder는 보다 덜 복잡한 예외 항목 탐지 방법을 사용한다는 점을 기억하십시오. 고정된 30일 교육 기간, 고정된 95% 간격을 사용합니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ 경고의 예외 항목 탐지는 데이터 예외 항목을 결정하기 위해 얼마나 오래 전으로 이동합니까?
+
+교육 기간은 선택한 세부기간에 따라 다릅니다. 자세한 내용은 <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">예외 항목 탐지</a>에서 사용되는 통계 기법을 참조하십시오. 다음은 요약입니다.
+
+* 월 단위 = 15개월 + 지난 해와 동일한 범위
+* 주 단위 = 15주 + 지난 해와 동일한 범위
+* 일 단위 = 35일 + 지난 해와 동일한 범위
+* 시간 단위 = 336시간
+
++++
+
++++ 비헤이비어의 급감이나 비헤이비어의 급증에 대해서만 알림을 받으려면 예외 항목 기능을 사용할 수 있습니까, 아니면 절대값을 사용해야 합니까?
+
+절대값을 사용하면 급등은 물론 급등에 대한 경고를 계속 트리거할 수 있습니다. 하락 또는 급등에 대해서만 경고를 분리할 수 없습니다.
+
++++
+
++++ 그날의 특정 시간 동안 (예: 업무 시간과 비업무 시간)만 트리거하도록 경고를 구성할 수 있습니까?
+
+현재는 할 수 없습니다.
+
++++
+
++++ 점선을 구성하는 &quot;예상값&quot; 테이블이나 그러한 값에 대한 일종의 출력을 얻을 수 있습니까?
+
+Workspace에서는 얻을 수 없지만 Report Builder에서는 얻을 수 있습니다. 다음을 참조하십시오 [이 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=ko-KR) Report Builder의 예외 항목 탐지에서.
+
+Report Builder는 보다 덜 복잡한 예외 항목 탐지 방법을 사용한다는 점을 기억하십시오. 고정된 30일 교육 기간, 고정된 95% 간격을 사용합니다.
+
++++

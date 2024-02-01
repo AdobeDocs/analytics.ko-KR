@@ -4,10 +4,10 @@ title: 실시간 보고 개요
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 92%
+source-wordcount: '591'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 ## 실시간 보고 액세스
 
-1. Analysis Workspace에서 [!UICONTROL **작업 영역**] 탭.
+1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택합니다.
 
 1. 선택 [!UICONTROL **보고서**] > [!UICONTROL **참여**] > **[!UICONTROL 실시간]**.
 
@@ -49,11 +49,11 @@ ht-degree: 92%
 
 * 예를 들면 지난 주의 값을 작년 값 (및 오늘 합계)과 비교합니다.
 
-지속성 개념이 없으므로 eVar (전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 측정기준과 동일한 페이지에서 설정되어 있을 경우에만 작동합니다. 자세한 내용은 [실시간 보고서 설정](/help/components/c-real-time-reporting/t-realtime-admin.md)을 참조하십시오.
+지속성 개념이 없으므로 eVar (전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 차원과 동일한 페이지에서 설정되어 있는 경우에만 작동합니다. 자세한 내용은에서 캡처한 경고 메시지를 참조하십시오. [실시간 보고서 설정](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 실시간 보고서를 설정하고 보는 것은 관리자와 &quot;모든 보고서 액세스&quot; 및 &quot;고급 보고&quot; 권한 그룹의 사용자에게로 제한됩니다. 하지만, 실시간 보고서는 권한을 준수합니다. 예를 들어 사용자가 매출액을 볼 수 있는 권한을 가지고 있지 않은 경우 매출 데이터가 포함된 실시간 보고서를 볼 수 없습니다.
 
-## A4T 구성 결과로 데이터 지연 {#section_806CE36354FC4C539A0DED9266A5C704}
+## A4T 구성 결과로 데이터 지연 {#latency-a4t}
 
 Adobe [!DNL Target]에서 A4T 통합이 활성화되면 Adobe Analytics에서 5~-10분 동안 지연이 추가로 발생할 수 있습니다. 추가적인 지연 시간으로 인해 Analytics 및 [!DNL Target]의 데이터가 동일한 히트 수로 저장되므로 테스트를 페이지 및 사이트 섹션 단위로 분류할 수 있습니다.
 

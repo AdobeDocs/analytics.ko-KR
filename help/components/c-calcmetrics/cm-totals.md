@@ -3,14 +3,14 @@ title: 계산된 지표 합계
 description: Analysis Workspace의 계산된 지표 합계에 대해 알아봅니다
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 91%
+source-wordcount: '149'
+ht-degree: 89%
 
 ---
 
-# 계산된 지표 합계 [!DNL Analysis Workspace]
+# Analysis Workspace의 계산된 지표 합계
 
 Analysis Workspace에서 데이터를 볼 때 대부분의 경우 계산된 지표 합계가 표시됩니다. 보고서의 행이 혼합 형식 (예: 십진수와 통화)인 경우와 같이 일부 경우에는 합계를 제공할 수 없습니다.
 
