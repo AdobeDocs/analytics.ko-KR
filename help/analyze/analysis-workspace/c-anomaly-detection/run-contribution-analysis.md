@@ -4,7 +4,7 @@ title: 기여도 분석 실행
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: ht
 source-wordcount: '566'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 [기여도 분석](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)은 Adobe Analytics에서 관찰된 예외 항목에 기여한 사항을 드러내도록 설계된 집중 머신 러닝 프로세스입니다. 이 프로세스의 목적은 사용자가 집중 영역이나 추가 분석 기회를 원래 가능한 것보다 훨씬 더 빨리 찾는 것을 돕는 것입니다.
 
-## 기여도 분석 실행 {#section_7D2C5E48A5664727941DF4C90976D9DC}
+## 기여도 분석 실행 {#run}
 
 프로젝트에서 기여도 분석을 호출하는 데에는 두 가지 방법이 있습니다.
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
   ![](assets/contribution-analysis.png)
 
-1. (선택 사항) 라인 차트나 표에서 **[!UICONTROL 기여도 분석 실행]**&#x200B;을 클릭한 후에 [차원을 제외](#section_F6932F4BF74544B5872164E7B1E0C6FC)하여 분석 범위를 좁힐 수 있습니다(따라서 분석 속도가 빨라짐).
+1. (선택 사항) 라인 차트나 표에서 **[!UICONTROL 기여도 분석 실행]**&#x200B;을 클릭한 후에 [차원을 제외](#exclude)하여 분석 범위를 좁힐 수 있습니다(따라서 분석 속도가 빨라짐).
 
 1. 기여도 분석이 로드되는 동안 기다려 주십시오. 이 작업은 보고서 세트의 크기와 차원의 수에 따라 상당한 시간이 걸릴 수 있습니다. 기여도 분석에서는 차원당 상위 50,000개의 항목을 분석합니다.
 1. 그런 다음 Analysis Workspace에서는 이 프로젝트 내에서 바로 새 기여도 분석 패널을 로드합니다.
@@ -56,7 +56,7 @@ ht-degree: 100%
 >
 >기여도 분석 내에서 파란색 점이 있는 분석되는 예외 항목과 이 항목에 연결된 지능형 경고 프로젝트를 강조 표시합니다. 이렇게 하면 분석되는 예외 항목이 더 명확히 표시됩니다.
 
-## 기여도 분석에서 차원 제외 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## 기여도 분석에서 차원 제외 {#exclude}
 
 기여도 분석에서 일부 차원을 제외하고자 하는 경우가 있을 수 있습니다. 예를 들어 브라우저 또는 하드웨어와 관련된 차원을 전혀 고려하지 않을 수 있으며, 이를 제거하여 분석 속도를 높이고 싶을 수도 있습니다.
 
