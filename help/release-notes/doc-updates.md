@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
 source-wordcount: '5047'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 98%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 1월** | |
-| 구성 요소 마이그레이션은 개별 IMS 조직에 적용됩니다. | 을(를) 명확히 했습니다. [구성 요소 마이그레이션](/help/admin/admin/component-migration/component-migration.md) 은(는) IMS 간 조직 마이그레이션을 지원하지 않습니다. |
-| 특정 정보는 관리자만 사용할 수 있음을 명확히 했습니다. | 에 설명된 &quot;마지막으로 사용됨&quot; 및 &quot;사용됨&quot; 열을 설명하는 정보가 추가되었습니다. [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md) 시스템 관리자만 사용할 수 있습니다. |
+| 개별 IMS 조직에 적용되는 구성 요소 마이그레이션 | [구성 요소 마이그레이션](/help/admin/admin/component-migration/component-migration.md)이 IMS 조직 간 마이그레이션을 지원하지 않는다는 점을 명시했습니다. |
+| 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 시스템 관리자만 사용할 수 있는 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에 “마지막 사용” 및 “다음에서 사용” 열에 대한 정보가 추가되었습니다. |
 | 미디어 분당 평균 시청 시간 설명서 업데이트 | 명확성을 높이기 위해 [미디어 분당 평균 시청 시간 패널](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)의 정보를 업데이트했습니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li></ul> |
 
 ### 2023 {#23}

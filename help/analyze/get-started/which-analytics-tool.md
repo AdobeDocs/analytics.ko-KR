@@ -6,7 +6,7 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[Report Builder](/help/analyze/report-builder/home.md)**&#x200B;는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
 
-**[Activity Map](/help/analyze/activity-map/activity-map.md)** 는 웹 페이지 및 모바일 앱에서의 사용자 참여를 시각적으로 표시하는 Adobe Analytics 내의 기능입니다. 이를 통해 마케터와 분석가는 클릭, 호버 및 스크롤 동작과 같은 사용자 상호 작용을 추적하고 분석할 수 있습니다.
+**[Activity Map](/help/analyze/activity-map/activity-map.md)**&#x200B;은 웹 페이지 및 모바일 앱에서의 사용자 참여를 시각적으로 표현하는 Adobe Analytics의 기능입니다. 이를 통해 마케팅 담당자와 분석가는 클릭, 호버링 및 스크롤 동작과 같은 사용자 상호 작용을 추적하고 분석할 수 있습니다.
 
 ## Adobe Analytics로 데이터 가져오기 {#import}
 
