@@ -3,9 +3,9 @@ description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Anal
 title: Analytics 인터페이스 이해
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
-workflow-type: ht
-source-wordcount: '2101'
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
+workflow-type: tm+mt
+source-wordcount: '2066'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,6 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    | 날짜 범위 | Analysis Workspace에는 사용자가 분석을 빌드할 때 사용할 수 있는 기본 날짜 범위 목록이 포함되어 있습니다. 또한 사용자 정의 날짜 범위를 만들고 Analysis Workspace에서 사용자가 사용할 수 있도록 설정할 수 있습니다. | [사용자 정의 날짜 범위 만들기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ko-KR) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 가상 보고서 세트 | 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼트로 분할하므로 각 세그먼트에 대한 액세스를 제어할 수 있습니다. | [가상 보고서 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ko-KR) |
    | 경고 | 지능형 경고는 경고를 더욱 세밀하게 제어할 수 있도록 해 주며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다. | [지능형 경고](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ko-KR) |
-   | 캘린더 이벤트 | 시간에 따른 트렌드 보고서의 경우 캘린더 이벤트를 통해 이벤트를 그래픽으로 표시하고 캠페인이나 다른 이벤트가 사이트 트래픽, 매출 또는 기타 지표에 영향을 미치는지 여부를 확인할 수 있습니다. | [캘린더 이벤트](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=ko-KR) |
    | 주석 | 작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. 캘린더 이벤트를 특정 차원 및 지표에 연결할 수 있습니다. | [주석 관리](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=ko-KR) |
    | 분류 설정 | 분류 세트는 분류 및 규칙을 관리할 수 있는 단일 인터페이스를 제공합니다. <p>분류란 Analytics 변수 데이터를 범주별로 분류하여 보고서를 생성할 때 여러 다른 방법으로 데이터를 표시하는 방법입니다. 변수 값 및 해당 값과 관련된 메타데이터 간의 관계를 설정합니다. 추적 코드, Prop 및 eVar와 같은 대부분의 사용자 정의 차원에서 분류를 사용할 수 있습니다.</p> | [분류 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ko-KR) |
    | 위치 | 클라우드 대상에서 Adobe Analytics 분류 데이터를 가져오려면 먼저 분류 데이터를 수집할 위치를 추가하고 구성해야 합니다. 위치를 만들고, 편집하거나 삭제할 수 있습니다. | [위치 관리자](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=ko-KR) |

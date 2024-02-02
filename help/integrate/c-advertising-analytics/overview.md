@@ -1,16 +1,16 @@
 ---
-description: 필요한 권한, 사용 가능한 차원 및 지표를 포함하여 이 상세한 안내서에서 Advertising Analytics로 할 수 있는 모든 작업을 알아보십시오.
-title: Advertising Analytics 안내서
+description: 필요한 권한, 사용 가능한 차원 및 지표를 포함하여 Advertising Analytics으로 수행할 수 있는 모든 작업을 살펴봅니다.
+title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 97%
+source-wordcount: '1176'
+ht-degree: 96%
 
 ---
 
-# Advertising Analytics 안내서
+# Advertising Analytics
 
 Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 유료 검색 데이터를 나란히 볼 수 있습니다. 이전에는 모든 Google AdWords/DFA 또는 Microsoft Bing 광고 데이터를 AAC (Adobe Advertising Cloud) 또는 Google/Bing에서 확인해야 했습니다. 이제는 Adobe Analytics 내의 노출 횟수, 클릭 수, 비용, 비용 데이터를 검색 엔진과 AMO ID 인스턴스(클릭 인스턴스)에서 직접 가져올 수 있습니다. 2019년 9월 Google에서 이 지표를 더 이상 사용하지 않기 때문에 품질 점수 및 평균 위치는 더 이상 수집되지 않습니다.
 
@@ -27,19 +27,16 @@ Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 
 * 유료 검색 마케터에 대한 실적 보고서를 수집해야 하는 **분석가**.
 * 다음 질문에 대한 답변해야 하는 **유료 검색 마케터**: 사이트로 전송하는 트래픽 양은 얼마나 되며, 얼마나 많은 고객이 변환 중입니까? 비용 효율적인 내 광고 캠페인은 무엇입니까?
 
-## 사전 요구 사항 {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
+## 사전 요구 사항 {#prerequisites}
 
 * Advertising Analytics는 Adobe Analytics [Select](https://www.adobe.com/kr/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/kr/data-analytics-cloud/analytics/prime.html) 및 [Ultimate](https://www.adobe.com/kr/data-analytics-cloud/analytics/ultimate.html) SKU에서만 사용할 수 있습니다.
-
 * 이 기능은 Advertising Cloud 클라우드 및 AMO를 사용하지 않는 고객도 이용할 수 있습니다.
-* Advertising Analytics에 액세스하려면 Adobe Analytics 관리자여야 합니다. 그러면 관리자가 아닌 사용자에게 [액세스 권한을 부여](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)할 수 있습니다.
+* Advertising Analytics에 액세스하려면 Adobe Analytics 관리자여야 합니다. 그러면 관리자가 아닌 사용자에게 [액세스 권한을 부여](/help/integrate/c-advertising-analytics/overview.md#permissions)할 수 있습니다.
 * 보려는 Google/Bing 검색 데이터의 보고서 세트의 경우, [해당 Advertising Analytics용 보고서 세트를 활성화](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)해야 합니다 (**[!UICONTROL 관리]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL Advertising Analytics 구성]**).
-
 * Adobe Analytics와 통합할 검색 계정에 대한 편집 권한이 있는 사용자의 로그인 자격 증명이 있어야 합니다 (예: Google 계정 ID 및 암호).
 * Bing Ads의 경우 Bing 고객 ID도 필요합니다.
-* Internet Explorer 11(또는 이전 버전)을 사용하는 경우 세 개의 검색 엔진에 대한 [광고 계정을 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)할 수 없습니다. 대신 다른 웹 브라우저를 사용하십시오.
 
-## Advertising Analytics 권한 {#section_FCC58EB635954A32990D4E67B52B4369}
+## Advertising Analytics 권한 {#permissions}
 
 Analytics에는 Analytics 관리자에게 자동으로 부여되는 두 가지 사용 권한이 있습니다. 관리자는 이러한 권한을 관리자가 아닌 사용자에게 부여하도록 선택할 수 있습니다.
 
@@ -68,11 +65,11 @@ Analytics에는 Analytics 관리자에게 자동으로 부여되는 두 가지 �
  </tbody> 
 </table>
 
-## Advertising Analytics 차원 및 지표 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
+## Advertising Analytics 차원 및 지표 {#dimensions-metrics}
 
 Advertising Analytics은 Analysis Workspace, Report Builder 및 Analytics Reporting API에 다음 차원 및 지표를 추가합니다.
 
-**차원**
+### 차원
 
 >[!IMPORTANT]
 >
@@ -101,7 +98,7 @@ Advertising Analytics은 Analysis Workspace, Report Builder 및 Analytics Report
 | 최적화 (AMO ID) | Advertising Analytics에서는 사용되지 않습니다. Advertising Cloud 고객만 사용합니다. |
 | 디바이스 (AMO ID) | 현재는 사용되지 않습니다. 광고의 지정된 대상 디바이스 유형(예: 모바일, 데스크탑)에 대한 잠재적 향후 제품 개선을 위한 자리표시자 (방문자의 실제 디바이스가 아님)입니다. |
 
-**지표**
+### 지표
 
 >[!IMPORTANT]
 >
