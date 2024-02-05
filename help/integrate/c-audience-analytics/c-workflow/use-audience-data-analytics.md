@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Analytics에서 대상 데이터 사용
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 89%
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 Analytics 전체에서 Adobe Audience Manager 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 &quot;mc_audiences&quot; 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.
 
-## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
+## Analysis Workspace {#workspace}
 
 Analysis Workspace에서 Adobe Audience Manager 세그먼트는 두 개의 차원으로 표시됩니다.
 
@@ -24,7 +24,7 @@ Analysis Workspace에서 Adobe Audience Manager 세그먼트는 두 개의 차�
 
    ![](assets/aw-mcaudiences.png)
 
-## 세그먼트 비교 {#section_E72B80B6470C42D4B9B19BE90E6070A2}
+## 세그먼트 비교 {#compare}
 
 [세그먼트 비교](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=ko-KR)는 두 세그먼트 사이에서 통계적으로 중요한 차이를 검색합니다. 대상 데이터는 세그먼트 비교에서 1) 비교되는 두 세그먼트로, 2) &quot;상위 차원 항목&quot; 표에 있는 항목으로 사용됩니다.
 
@@ -41,7 +41,7 @@ Analysis Workspace에서 Adobe Audience Manager 세그먼트는 두 개의 차�
 
    ![](assets/aud-segcompare.png)
 
-## Analysis Workspace에서의 고객 움직임 (플로우) {#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Analysis Workspace에서의 고객 움직임 (플로우) {#flow}
 
 Adobe Audience Manager 세그먼트 데이터는 히트 단위로 Analytics에 전달되며, 해당 시점의 방문자에 대한 대상 멤버십을 나타냅니다. 즉, 방문자는 한 세그먼트 (예: &quot;인지도&quot;)에 속할 수 있으므로 나중에 더 적절한 세그먼트 (예: &quot;고려 사항&quot;) 대상일 수 있습니다. Analysis Workspace에서 [플로우](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ko-KR)를 사용하여 방문자가 대상 사이를 이동하는 경로를 시각화할 수 있습니다.
 
@@ -55,7 +55,7 @@ Adobe Audience Manager 세그먼트 데이터는 히트 단위로 Analytics에 �
 
 대상을 [폴아웃 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ko-KR)에서도 사용할 수 있습니다.
 
-## Analysis Workspace에서 벤 시각화 {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Analysis Workspace에서 벤 시각화 {#venn}
 
 [벤 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=ko-KR)는 최대 3개 세그먼트 사이의 겹침을 나타냅니다.
 
@@ -69,7 +69,7 @@ Adobe Audience Manager 세그먼트 데이터는 히트 단위로 Analytics에 �
 
 ![](assets/venn-viz.png)
 
-## 세그먼트 빌더 {#section_2AA81852A1404AB894472CA8959461B6}
+## 세그먼트 빌더 {#builder}
 
 Analytics에서 수집한 동작 정보와 함께 Analytics [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)에서 대상 차원을 통합할 수 있습니다.
 

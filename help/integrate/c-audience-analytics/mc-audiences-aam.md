@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics 개요
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 44%
+source-wordcount: '470'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ Audience Analytics 통합이 제대로 이루어지면 인구 통계학적 정�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
-## 주요 이점 {#section_94816D17283349E0BA28521BE55BB868}
+## 주요 이점 {#benefits}
 
 Audience Analytics의 통합은 다음과 같은 주요 이점을 제공합니다.
 
@@ -29,7 +29,7 @@ Audience Analytics의 통합은 다음과 같은 주요 이점을 제공합니�
 * 솔루션 관리자는 최소한의 코드 변경만으로 사용자 인터페이스를 통해 통합할 수 있습니다.
 * Audience Manager 데이터 내보내기 제어를 준수하는 세그먼트만 공유됩니다.
 
-## 작동 방법 {#section_CECDF5A0FEC64264B206EFEF54F19EF2}
+## Audience Analytics 작동 방식 {#works}
 
 ![](assets/mc-aud-dataflow.png)
 
@@ -41,7 +41,7 @@ Adobe Audience Manager 세그먼트는 동일한 히트 기준으로 삽입되�
 
 또한 Adobe Audience Manager 세그먼트 ID를 사용자에게 친숙한 이름으로 자동으로 분류하므로 Analytics 보고서에서 영숫자 ID를 확인하지 않아도 됩니다.
 
-## 사전 요구 사항 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
+## 사전 요구 사항 {#prerequisites}
 
 다음 사전 요구 사항이 적용되었는지 확인합니다.
 
