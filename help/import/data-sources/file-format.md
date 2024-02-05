@@ -4,7 +4,7 @@ description: 데이터 소스에서 사용할 파일을 올바르게 생성합�
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cc25fe304d9cab3db3fa2ddd306338ff3bb88a55
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 5%
@@ -74,8 +74,8 @@ Adobe은 다른 차원 또는 지표에 대한 데이터 소스를 지원하지 
 
 모든 행의 첫 번째 값 **필수** 날짜입니다. 날짜 형식은 다음 형식 중 하나여야 합니다.
 
-* **`MM/DD/YY/HH/mm/SS`**
-* **`MM/DD/YY`**
+* **`MM/DD/YYYY/HH/mm/SS`**
+* **`MM/DD/YYYY`**
 
 시간/분/초를 생략하면 해당 날짜의 타임스탬프가 12시로 자동 설정됩니다.
 
