@@ -3,10 +3,10 @@ title: Adobe Analytics의 세션 문제 해결
 description: Adobe Analytics에서 로그아웃되는 것과 관련된 문제를 해결하는 방법을 알아봅니다.
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 97%
+source-wordcount: '339'
+ht-degree: 99%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 97%
 
 거의 모든 세션 기반 문제는 조직의 맞춤형 기업 네트워크에서 비롯됩니다. Adobe Analytics에 로그인할 수 있지만 로그인을 유지하는 데 문제가 있는 경우 이 문서를 참조하여 원인을 파악하십시오.
 
-## 조직의 네트워크 때문에 문제가 발생했는지 확인
+## 조직의 네트워크 때문에 문제가 발생했는지 확인 {#network}
 
 많은 조직에서는 보안을 강화하기 위해 프록시 서버 또는 방화벽과 같은 추가 네트워크 기능을 배포합니다. 이러한 사용자 지정은 경우에 따라 Adobe Analytics에서 활성 세션을 유지하는 기능을 방해할 수 있습니다.
 
 연결되어 있는 회사 네트워크로 인해 Adobe Analytics 사용에 문제가 발생할 수 있는지 확인하려면 회사 네트워크 외부의 장치에서 Experience Cloud 로그인 자격 증명을 사용합니다. 장치의 예로는 홈 네트워크 또는 모바일 장치의 데이터 플랜이 있습니다. 로그아웃하지 않고 페이지 간에 성공적으로 이동할 수 있다면, Adobe Analytics에서 로그아웃된 원인이 조직의 네트워크 문제일 수 있습니다.
 
-## 프록시로 인한 문제
+## 프록시로 인한 문제 {#proxy}
 
 Adobe는 Adobe에 요청할 때 인증 헤더를 사용합니다. Edge Secure Web Gateway(이전 Bluecoat)와 같은 일부 프록시는 Adobe Analytics에서 사용하는 중요한 인증 헤더 정보를 제거합니다. Adobe에서 인증 헤더를 확인하지 못하면 세션이 만료됩니다.
 

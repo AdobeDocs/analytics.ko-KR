@@ -5,10 +5,10 @@ title: 방문자 마이그레이션
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 88%
+source-wordcount: '689'
+ht-degree: 62%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->Experience Cloud 방문자 ID 서비스를 이미 구현한 경우 유예 기간을 적용할 수 없으므로 활성화해서는 안 됩니다.
+>Experience Cloud 방문자 ID 서비스를 이미 구현한 경우 유예 기간 을 적용할 수 없으므로 활성화해서는 안 됩니다.
 
-방문자 마이그레이션은 방문자 ID 쿠키(s_vi)가 한 도메인에서 다른 도메인으로 마이그레이션되는 프로세스입니다.
+방문자 마이그레이션은 방문자 ID 쿠키(s_vi)를 한 도메인에서 다른 도메인으로 마이그레이션하는 프로세스입니다.
 
 방문자 마이그레이션을 통해 데이터 수집 도메인을 변경할 때 방문자 식별 쿠키를 보존할 수 있습니다. 데이터 수집 도메인은 다음 이유로 변경될 수 있습니다.
 
@@ -32,7 +32,7 @@ ht-degree: 88%
 
 방문자 마이그레이션을 구성한 후에 사용자가 방문자 ID 쿠키 없이 새로운 도메인을 방문하면 서버가 이전 데이터 수집 호스트 이름으로 리디렉션하고 사용 가능한 방문자 ID 쿠키를 회수한 다음 다시 새로운 도메인으로 리디렉션합니다. 이전 호스트 이름에서 방문자 ID가 발견되지 않으면 새로운 ID가 생성됩니다. 이는 방문자당 한 번만 이루어집니다.
 
-## 방문자 마이그레이션 프로세스 {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## 방문자 마이그레이션 프로세스 {#process}
 
 다음 테이블은 방문자 마이그레이션에 필요한 작업을 나열합니다.
 
@@ -58,7 +58,7 @@ ht-degree: 88%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics 코드를 업데이트한 직후</b>: 이전 데이터 수집 도메인으로의 리디렉션이 발생하는지를 확인하는 테스트를 사이트에 대해 수행합니다. </p> </td> 
-   <td colname="col3"> <p>Use a <a href="../implement/validate/packet-monitor.md"> 패킷 모니터</a>를 사용하여 처음으로 사이트에 액세스할 때 또는 쿠키를 지운 후, 200 (OK) HTTP 상태 코드 앞에 두 개의 302 (리디렉션) HTTP 상태 코드가 표시되는지 확인합니다. 리디렉션이 실패하는 경우 즉시 고객 지원 센터에 연락하여 마이그레이션이 바르게 구성되도록 하십시오. </p> </td> 
+   <td colname="col3"> <p>사용 <a href="../implement/validate/packet-monitor.md"> 패킷 모니터</a> 처음으로 사이트에 액세스할 때 또는 쿠키를 지운 후, 200 (OK) HTTP 상태 코드 앞에 두 개의 302 (리디렉션) HTTP 상태 코드가 표시되는지 확인합니다. 리디렉션이 실패하는 경우 즉시 고객 지원 센터에 연락하여 마이그레이션이 바르게 구성되도록 하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>전체 마이그레이션 기간</b>: 이전 활성 호스트 이름에 대해 DNS 레코드를 유지합니다. </p> </td> 
@@ -66,3 +66,10 @@ ht-degree: 88%
   </tr> 
  </tbody> 
 </table>
+
+| 작업 | 설명 |
+|--- |--- |
+| 시작하기: 고객 지원 센터에 문의 하여 마이그레이션하려는 도메인과 활성화하려는 마이그레이션 기간(30일, 60일 또는 90일)을 알려줍니다. 비보안 및 보안 도메인을 포함해야 합니다. | 마이그레이션 및 마이그레이션할 도메인에 대한 정확한 구문을 사용하여 목록을 만듭니다.<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>마이그레이션 호스트 이름은 Adobe 데이터 수집 서버에서 구성됩니다. 다음 단계를 계획할 수 있도록 고객 지원 센터가 언제 변경이 있을지 알려 줄 것입니다. |
+| 구성 변경 후 6시간 이상: `s.trackingServer` 및 `s.trackingServerSecure` 변수를 사용하여 Analytics JavaScript 코드에서 새 데이터 수집 서버를 사용합니다. | 이 변경 내용을 적용한 후 [Experience Cloud 디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인하려면 다음을 수행하십시오. |
+| Analytics 코드를 업데이트한 직후: 사이트를 테스트하여 이전 데이터 수집 도메인으로의 리디렉션이 발생하고 있는지 확인합니다. | 사용 [패킷 모니터](../implement/validate/packet-monitor.md) 처음으로 사이트에 액세스할 때 또는 쿠키를 지운 후, 200 (OK) HTTP 상태 코드 앞에 두 개의 302 (리디렉션) HTTP 상태 코드가 표시되는지 확인합니다. 리디렉션이 실패하는 경우 즉시 고객 지원 센터에 연락하여 마이그레이션이 바르게 구성되도록 하십시오. |
+| 전체 마이그레이션 기간: 이전 호스트 이름에 대한 DNS 레코드를 활성 상태로 유지합니다. | 이전 호스트 이름은 DNS를 통해 해결되어야 하며 그렇지 않으면 쿠키 마이그레이션이 발생하지 않습니다. |

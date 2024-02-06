@@ -3,12 +3,14 @@ description: Adobe Analytics에서 Adobe Campaign Standard 보고를 활성화�
 title: Adobe Campaign Standard 보고를 Adobe Analytics에 통합하려면 어떻게 합니까?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '512'
+ht-degree: 66%
 
 ---
+
 
 # Adobe Campaign Standard 보고
 
@@ -23,7 +25,7 @@ Adobe Analytics과 Adobe Campaign Standard 간의 이러한 통합은:
 * Adobe Analytics 매개 변수를 사용하는 수식 추적 기능이 향상됩니다.
 * **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL Adobe Campaign]** 아래에 새 보고서가 추가됩니다.
 * 5개의 새로운 Adobe Campaign 분류가 추가됩니다.
-* 9개의 새로운 Adobe Campaign 지표가 추가됩니다.
+* 9개의 새 Adobe Campaign 지표를 추가합니다.
 * 6개의 새로운 Adobe Campaign 차원이 추가됩니다.
 * 자동으로 제공된 데이터 소스를 통해 15분마다 데이터를 Analytics에 동기화합니다.
 
@@ -50,11 +52,11 @@ Adobe Campaign Standard와 Adobe Analytics를 통합하면 **[!UICONTROL Analyti
 
 | 분류 | 설명 |
 | --- | --- |
-| [!UICONTROL 배달 ID] | Campaign에 표시되는 내부 게재 이름 |
-| [!UICONTROL 배달 레이블] | Campaign의 게재 - 개별 게재/반복 게재/트랜잭션 게재 |
+| [!UICONTROL 게재 ID] | Campaign에 표시되는 내부 게재 이름 |
+| [!UICONTROL 게재 레이블] | Campaign의 게재 - 개별 게재/반복 게재/트랜잭션 게재 |
 | [!UICONTROL 캠페인 ID] | Campaign에 표시되는 내부 캠페인 이름 |
 | [!UICONTROL 캠페인 레이블] | Adobe Campaign의 캠페인 |
-| [!UICONTROL 수행된 배달 레이블] | 개별 실행 게재 목록 |
+| [!UICONTROL 실행된 게재 레이블] | 개별 실행 게재 목록 |
 
 ## Adobe Analytics에서 사용할 수 있는 Adobe Campaign Standard 차원 및 지표 {#section_F33385C9660644AF84172EC39601469B}
 
