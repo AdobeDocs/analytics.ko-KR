@@ -4,9 +4,9 @@ title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: ee4772913c8b702658646755a2a11598c8530236
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1160'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[데이터 삽입 API](/help/import/c-data-insertion-api/c-data-insertion-api.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* 데이터를 Adobe Analytics에 업로드해야 할 때 사용해야 하며, Adobe AppMeasurement 또는 모바일 SDK 코드를 사용할 수 없습니다. Bulk Data Insertion API 를 사용하는 것이 좋습니다(아래 참조).
+* 데이터를 Adobe Analytics에 업로드해야 할 때 사용해야 하며, Adobe AppMeasurement나 모바일 SDK 코드는 사용할 수 없습니다. 대량 데이터 삽입 API를 사용하는 것이 좋습니다(아래 참조).
 
 **[대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
