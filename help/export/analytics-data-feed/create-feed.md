@@ -3,10 +3,10 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 20%
+source-wordcount: '3215'
+ht-degree: 17%
 
 ---
 
@@ -98,14 +98,14 @@ ht-degree: 20%
 
          {style="table-layout:auto"}
 
-         1. 선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다.
+      1. 선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다.
 
          | 필드 | 함수 |
          |---------|----------|
          | [!UICONTROL **이름**] | 계정 이름. |
          | [!UICONTROL **설명**] | 계정에 대한 설명. |
-         | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내의 버킷입니다. Adobe이 제공한 사용자 ARN이 이 버킷에 파일을 업로드할 수 있는 액세스 권한이 있는지 확인하십시오. |
-         | [!UICONTROL **접두사**] | 데이터를 저장할 버킷 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예, `folder_name/` |
+         | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내의 버킷입니다. <p>Adobe이 제공한 사용자 ARN에 `S3:PutObject` 이 버킷에 파일을 업로드할 수 있는 권한입니다. 이 권한을 사용하면 사용자 ARN에서 초기 파일을 업로드하고 후속 업로드를 위해 파일을 덮어쓸 수 있습니다.</p> |
+         | [!UICONTROL **접두사**] | 데이터를 저장할 버킷 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -152,8 +152,8 @@ ht-degree: 20%
          | [!UICONTROL **계정 이름**] | Azure RBAC 계정의 이름입니다. 이 이름은 다음에 표시됩니다. [!UICONTROL **계정 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **계정 설명**] | Azure RBAC 계정에 대한 설명입니다. 이 설명은 다음에 표시됩니다. [!UICONTROL **계정 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **애플리케이션 ID**] | 생성한 Azure 애플리케이션에서 이 ID를 복사합니다. Microsoft Azure에서 이 정보는 **개요** 응용 프로그램 내의 탭입니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **테넌트 ID**] | 생성한 Azure 애플리케이션에서 이 ID를 복사합니다. Microsoft Azure에서 이 정보는 **개요** 응용 프로그램 내의 탭입니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Secret**] | 생성한 Azure 애플리케이션에서 암호를 복사합니다. Microsoft Azure에서 이 정보는 **인증서 및 암호** 응용 프로그램 내의 탭입니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **임차인 ID**] | 생성한 Azure 애플리케이션에서 이 ID를 복사합니다. Microsoft Azure에서 이 정보는 **개요** 응용 프로그램 내의 탭입니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **암호**] | 생성한 Azure 애플리케이션에서 암호를 복사합니다. Microsoft Azure에서 이 정보는 **인증서 및 암호** 응용 프로그램 내의 탭입니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -165,7 +165,7 @@ ht-degree: 20%
          | [!UICONTROL **설명**] | 위치에 대한 설명. 이 설명은 다음에 표시됩니다. [!UICONTROL **위치 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **계정**] | Azure 스토리지 계정입니다. |
          | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터를 전송할 지정한 계정 내의 컨테이너입니다. 이전에 만든 Azure 애플리케이션에 파일을 업로드할 수 있는 권한을 부여했는지 확인하십시오. |
-         | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예, `folder_name/` |
+         | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -212,10 +212,10 @@ ht-degree: 20%
          | [!UICONTROL **계정 이름**] | Azure SAS 계정의 이름입니다. 이 이름은 다음에 표시됩니다. [!UICONTROL **계정 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **계정 설명**] | Azure SAS 계정에 대한 설명. 이 설명은 다음에 표시됩니다. [!UICONTROL **계정 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **애플리케이션 ID**] | 생성한 Azure 애플리케이션에서 이 ID를 복사합니다. Microsoft Azure에서 이 정보는 **개요** 응용 프로그램 내의 탭입니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **테넌트 ID**] | 생성한 Azure 애플리케이션에서 이 ID를 복사합니다. Microsoft Azure에서 이 정보는 **개요** 응용 프로그램 내의 탭입니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS 토큰 경로.  Azure SAS를 구성하려면 Azure 키 자격 증명 모음을 사용하여 SAS 토큰을 비밀로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정하고 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Key Vault URI가 만들어진 후 Key Vault에 액세스 정책을 추가하여 만든 Azure 애플리케이션에 권한을 부여합니다. 자세한 내용은 [주요 자격 증명 모음 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-         | [!UICONTROL **키 자격 증명 모음 암호 이름**] | Azure Key Vault에 암호를 추가할 때 만든 암호 이름입니다. Microsoft Azure에서 이 정보는 만든 Key Vault의 **주요 자격 증명 모음** 설정 페이지를 참조하십시오. 자세한 내용은 [Azure Key Vault에서 암호를 설정하고 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-         | [!UICONTROL **Secret**] | 생성한 Azure 애플리케이션에서 암호를 복사합니다. Microsoft Azure에서 이 정보는 **인증서 및 암호** 응용 프로그램 내의 탭입니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **임차인 ID**] | 생성한 Azure 애플리케이션에서 이 ID를 복사합니다. Microsoft Azure에서 이 정보는 **개요** 응용 프로그램 내의 탭입니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **주요 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS 토큰 경로.  Azure SAS를 구성하려면 Azure 키 자격 증명 모음을 사용하여 SAS 토큰을 비밀로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정하고 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Key Vault URI가 만들어진 후 Key Vault에 액세스 정책을 추가하여 만든 Azure 애플리케이션에 권한을 부여합니다. 자세한 내용은 [주요 자격 증명 모음 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **주요 자격 증명 모음 암호 이름**] | Azure Key Vault에 암호를 추가할 때 만든 암호 이름입니다. Microsoft Azure에서 이 정보는 만든 Key Vault의 **주요 자격 증명 모음** 설정 페이지를 참조하십시오. 자세한 내용은 [Azure Key Vault에서 암호를 설정하고 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **암호**] | 생성한 Azure 애플리케이션에서 암호를 복사합니다. Microsoft Azure에서 이 정보는 **인증서 및 암호** 응용 프로그램 내의 탭입니다. 자세한 내용은 [Microsoft ID 플랫폼을 사용하여 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -226,7 +226,7 @@ ht-degree: 20%
          | [!UICONTROL **이름**] | 위치의 이름입니다. 이 이름은 다음에 표시됩니다. [!UICONTROL **위치 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **설명**] | 위치에 대한 설명. 이 설명은 다음에 표시됩니다. [!UICONTROL **위치 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터를 전송할 지정한 계정 내의 컨테이너입니다. |
-         | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예, `folder_name/` |
+         | [!UICONTROL **접두사**] | 데이터를 저장할 컨테이너 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -236,7 +236,7 @@ ht-degree: 20%
 
 +++
 
-   +++Google Cloud 플랫폼
+   +++Google 클라우드 플랫폼
 
    피드를 GCP(Google Cloud Platform) 버킷으로 직접 보낼 수 있습니다. 이 대상 유형에는 GCP 계정 이름과 위치(버킷) 이름만 필요합니다.
 
@@ -274,15 +274,15 @@ ht-degree: 20%
 
          {style="table-layout:auto"}
 
-         1. 선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다.
+      1. 선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다.
 
          | 필드 | 함수 |
          |---------|----------|
-         | [!UICONTROL **주체**] | 원칙은 Adobe에서 제공합니다. 이 사용자에게 피드를 수신할 수 있는 권한을 부여해야 합니다. |
+         | [!UICONTROL **사용자**] | 원칙은 Adobe에서 제공합니다. 이 사용자에게 피드를 수신할 수 있는 권한을 부여해야 합니다. |
          | [!UICONTROL **이름**] | 계정 이름. |
          | [!UICONTROL **설명**] | 계정에 대한 설명. |
-         | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. 이 버킷에 파일을 업로드할 수 있도록 Adobe이 제공한 사용자에 대한 권한을 부여했는지 확인하십시오. |
-         | [!UICONTROL **접두사**] | 데이터를 저장할 버킷 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예, `folder_name/` |
+         | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. <p>Adobe이 제공한 주도자에게 다음 권한 중 하나를 부여했는지 확인합니다.<ul><li>`roles/storage.objectCreator`: GCP 계정에 있는 파일만 만들도록 주도자를 제한하려면 이 권한을 사용합니다. </br>**중요 사항:** 예약된 보고와 함께 이 권한을 사용하는 경우 새로 예약된 각 내보내기에 대해 고유한 파일 이름을 사용해야 합니다. 그렇지 않으면 주도자에게 기존 파일을 덮어쓸 수 있는 액세스 권한이 없으므로 보고서 생성이 실패합니다.</li><li>(권장) `roles/storage.objectUser`: 사용자가 GCP 계정의 파일을 보고, 나열하고, 업데이트하고, 삭제할 수 있도록 하려면 이 권한을 사용하십시오.</br>이 권한을 사용하면 사용자가 각각의 새로운 예약된 내보내기에 대해 고유한 파일 이름을 자동으로 생성할 필요 없이 이후 업로드를 위해 기존 파일을 덮어쓸 수 있습니다.</li></ul><p>권한 부여에 대한 자세한 내용은 [버킷 수준 정책에 사용자 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) Google Cloud 설명서에서 확인할 수 있습니다.</p> |
+         | [!UICONTROL **접두사**] | 데이터를 저장할 버킷 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. For example, `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -297,8 +297,8 @@ ht-degree: 20%
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **이스케이프 처리된 문자 제거**] | 데이터를 수집할 때 일부 문자(예: 줄바꿈)가 문제를 초래할 수 있습니다. 피드 파일에서 이러한 문자를 제거하려면 이 확인란을 선택하십시오. |
-   | [!UICONTROL **압축 포맷**] | 사용된 압축 유형입니다. **** Gzip은 파일을 `.tar.gz` 형식으로 출력합니다. **** Zip은 파일을 `.zip` 형식으로 출력합니다. |
-   | [!UICONTROL **패키징 타입**] | 선택 **여러 파일** 대부분의 데이터 피드에 사용됩니다. 이 옵션은 데이터를 압축되지 않은 2GB 청크로 페이지를 매깁니다. (여러 파일을 선택하고 보고 기간의 압축되지 않은 데이터가 2GB 미만이면 하나의 파일이 전송됩니다.) 선택 **단일 파일** 다음을 출력합니다. `hit_data.tsv` 하나의 파일로 된 파일로, 규모가 클 수 있습니다. |
+   | [!UICONTROL **압축 포맷**] | 사용된 압축 유형입니다. **Gzip** 에서 파일 출력 `.tar.gz` 포맷. **Zip** 에서 파일 출력 `.zip` 포맷. |
+   | [!UICONTROL **패키징 타입**] | 선택 **여러 파일** 대부분의 데이터 피드에 사용됩니다. 이 옵션은 데이터를 압축되지 않은 2GB 청크로 페이지를 매깁니다. 여러 파일을 선택하고 보고 기간의 압축되지 않은 데이터가 2GB 미만이면 하나의 파일이 전송됩니다. 선택 **단일 파일** 다음을 출력합니다. `hit_data.tsv` 하나의 파일로 된 파일로, 규모가 클 수 있습니다. |
    | [!UICONTROL **매니페스트**] | Adobe이 다음을 전달해야 하는지 여부 [매니페스트 파일](c-df-contents/datafeeds-contents.md#feed-manifest) 피드 간격에 대한 데이터가 수집되지 않을 때 대상으로 전송됩니다. 다음을 선택하는 경우 **매니페스트 파일**, 수집된 데이터가 없을 때 다음과 유사한 매니페스트 파일을 받게 됩니다.<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **열 템플릿**] | Adobe 많은 데이터 피드를 만들 때는 열 템플릿을 만드는 것이 좋습니다. 열 템플릿을 선택하면 지정된 열이 템플릿에 자동으로 포함됩니다. Adobe도 기본적으로 여러 템플릿을 제공합니다. |
    | [!UICONTROL **사용 가능한 열**] | Adobe Analytics에서 사용 가능한 모든 데이터 열. 데이터 피드에 모든 열을 포함하려면 [!UICONTROL 모두 추가]를 클릭하십시오. |

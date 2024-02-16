@@ -3,9 +3,9 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2308'
 ht-degree: 10%
 
 ---
@@ -136,7 +136,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       | 필드 | 함수 |
       |---------|----------|
-      | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내의 버킷입니다. Adobe이 제공한 사용자 ARN이 이 버킷에 파일을 업로드할 수 있는 액세스 권한이 있는지 확인하십시오. |
+      | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내의 버킷입니다. <p>Adobe이 제공한 사용자 ARN에 `S3:PutObject` 이 버킷에 파일을 업로드할 수 있는 권한입니다. 이 권한을 사용하면 사용자 ARN에서 초기 파일을 업로드하고 후속 업로드를 위해 파일을 덮어쓸 수 있습니다.</p> |
       | [!UICONTROL **키 접두사**] | 데이터를 저장할 버킷 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예: folder_name/ |
 
       {style="table-layout:auto"}
@@ -149,7 +149,7 @@ Data Warehouse 보고서를 전송할 대상을 구성하려면 다음 작업을
 
       | 필드 | 함수 |
       |---------|----------|
-      | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. 이 버킷에 파일을 업로드할 수 있도록 Adobe이 제공한 사용자에 대한 권한을 부여했는지 확인하십시오. 권한 부여에 대한 자세한 내용은 [버킷 수준 정책에 사용자 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) Google Cloud 설명서에서 확인할 수 있습니다. |
+      | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. <p>Adobe이 제공한 주도자에게 다음 권한 중 하나를 부여했는지 확인합니다.<ul><li>`roles/storage.objectCreator`: GCP 계정에 있는 파일만 만들도록 주도자를 제한하려면 이 권한을 사용합니다. </br>**중요 사항:** 예약된 보고와 함께 이 권한을 사용하는 경우 새로 예약된 각 내보내기에 대해 고유한 파일 이름을 사용해야 합니다. 그렇지 않으면 주도자에게 기존 파일을 덮어쓸 수 있는 액세스 권한이 없으므로 보고서 생성이 실패합니다.</li><li>`roles/storage.objectUser`: 사용자가 GCP 계정의 파일을 보고, 나열하고, 업데이트하고, 삭제할 수 있도록 하려면 이 권한을 사용하십시오.</br>이 권한을 사용하면 사용자가 각각의 새로운 예약된 내보내기에 대해 고유한 파일 이름을 자동으로 생성할 필요 없이 이후 업로드를 위해 기존 파일을 덮어쓸 수 있습니다.</li></ul><p>권한 부여에 대한 자세한 내용은 [버킷 수준 정책에 사용자 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) Google Cloud 설명서에서 확인할 수 있습니다.</p> |
       | [!UICONTROL **키 접두사**] | 데이터를 저장할 버킷 내의 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예: folder_name/ |
 
       {style="table-layout:auto"}

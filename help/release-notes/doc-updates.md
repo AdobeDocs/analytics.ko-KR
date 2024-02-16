@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '5047'
-ht-degree: 100%
+source-wordcount: '5095'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 2월** | |
+| Data Warehouse 및 데이터 피드에서 Amazon S3 및 GCP 버킷에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우에 Amazon S3 및 Google Cloud Platform 버킷에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [Data Warehouse 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 및 [데이터 피드에 대한 대상을 구성할 때](/help/export/analytics-data-feed/create-feed.md). |
 | **2024년 1월** | |
 | 개별 IMS 조직에 적용되는 구성 요소 마이그레이션 | [구성 요소 마이그레이션](/help/admin/admin/component-migration/component-migration.md)이 IMS 조직 간 마이그레이션을 지원하지 않는다는 점을 명시했습니다. |
 | 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 시스템 관리자만 사용할 수 있는 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에 “마지막 사용” 및 “다음에서 사용” 열에 대한 정보가 추가되었습니다. |
