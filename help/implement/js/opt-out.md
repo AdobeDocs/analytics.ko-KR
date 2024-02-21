@@ -4,10 +4,10 @@ description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드�
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e196e94e891ca7a6b4b1f50482cb342f2339ea8f
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 71%
+source-wordcount: '590'
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
-> **이 도움말 페이지에서는 Adobe Analytics 고객에게 옵트아웃 링크를 제공할 수 있는 기능을 제공합니다. Adobe Analytics 고객이 아닌 경우 다음을 참조하십시오 [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html) Adobe이 정보를 사용하는 방법을 제어합니다.**
+> 이 문서에서는 다음을 제공합니다 **Adobe Analytics을 구현할 (계획 중인) Adobe Analytics 고객** 웹 사이트에서 웹 사이트 사용자에게 옵트아웃 링크를 제공하는 방법에 대한 지침을 제공합니다. <p><p>
+> 다음과 같은 경우 **Adobe Analytics을 구현한 웹 사이트 방문**, 옵트아웃하려는 경우 **<span style="color:red">이 문서는 귀하를 위한 것이 아닙니다.</span>**. 다음을 참조하십시오. [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html) Adobe이 정보를 사용하는 방법을 제어합니다.
 
 웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe은 웹 사이트 방문자에게 분석 대상 정보를 옵트아웃할 수 있는 수단을 제공하는 기능을 제공합니다.
 
