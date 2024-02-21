@@ -3,16 +3,16 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e9abbc03cf01abecab4ea0627624b5272b503d5c
+source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 41%
+source-wordcount: '751'
+ht-degree: 39%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2024년 2월)
 
-**마지막 업데이트**: 2024년 2월 16일 토요일
+**마지막 업데이트**: 2024년 2월 21일 목요일
 
 이 릴리스 정보는 2024년 2월 14일부터 2024년 3월 11일까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,6 +20,7 @@ ht-degree: 41%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Data Warehouse API 설명서** | 다음을 참조하십시오. [Adobe Analytics Data Warehouse API 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) 추가 정보. 다음으로 이동 [!UICONTROL 정의 선택] 및 선택 [!UICONTROL DATA WAREHOUSE API]. | | 2024년 2월 19일 화요일 |
 | **추가 비용 없이 웹 SDK용 Activity Map** | 현재 Activity Map 링크 이벤트는 자체 이벤트로 계산되며 추가 비용이 발생합니다. 이 개선 사항은 AppMeasurement에서 이벤트를 처리하는 방법과 유사하게 일부 링크 이벤트를 가져와서 다음 히트로 패키지화합니다. |  | 2024년 3월 6일 목요일 |
 | **기본 낮은 트래픽 임계값 증가** | 위치 **2024년 4월 중순**, Adobe은 다음과 같이 기본 보고서 세트의 낮은 트래픽 임계값 증가를 시작합니다. ![낮은 트래픽 임계값](assets/thresholds.png) 이 경우 현재 새 임계값 이하로 설정된 변수에만 영향을 줍니다. 이러한 변경은 점진적으로 이루어질 것이며, 우리는 작업에 의해 완성될 것으로 기대한다. **5월 말**. 이러한 증가분이 롤아웃되면 카디널리티가 높은 변수에 대한 변경 사항이 표시될 수 있습니다.<ul><li>보고에 더 많은 차원 값을 사용할 수 있습니다.</li><li>세그먼트 및 계산된 지표에 더 많은 데이터가 포함될 수 있습니다.</li><li>세그먼트를 기반으로 하는 가상 보고서 세트는 더 많은 데이터를 포함할 수 있습니다.</li><li>분류 내보내기에 더 많은 데이터가 포함될 수 있습니다.</li></ul> | 2024년 4월 중순 | 2024년 5월 말 |
 
