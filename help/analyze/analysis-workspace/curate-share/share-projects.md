@@ -47,7 +47,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 ## 특정 프로젝트 역할 공유
 
-조직의 사용자 및 그룹과 특정 프로젝트 역할을 공유할 때는 다음을 고려해 보십시오.
+조직의 사용자 및 그룹과 특정 프로젝트 역할을 공유할 때는 다음 사항을 고려해 보십시오.
 
 * 프로젝트 역할(**[!UICONTROL 원본 편집]**, **[!UICONTROL 사본 편집]** 및 **[!UICONTROL 읽기 전용]**)은 사용자 및 특정 프로젝트 ID에 연결되어 있습니다. 프로젝트 역할은 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR)에서 관리하는 사용자 권한과 다릅니다.
 
@@ -100,7 +100,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 ## 프로젝트에 대한 링크 공유
 
-이 섹션에 설명된 대로 링크를 공유할 때는 다음을 고려해 보십시오.
+이 섹션에 설명된 대로 링크를 공유할 때는 다음 사항을 고려해 보십시오.
 
 * 링크를 사용하는 수신자는 프로젝트에 대한 액세스 권한을 얻기 전에 Adobe Analytics에 로그인해야 합니다.
 
@@ -162,7 +162,7 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
 
    * **[!UICONTROL Experience Cloud 인증 필요]:**
 
-     이 옵션을 활성화하면, 공유할 프로젝트가 만들어진 Adobe Experience Cloud 조직에 로그인할 수 있는 사용자가 프로젝트에 액세스할 수 있는 유일한 사용자가 됩니다. 그러나 공유받는 사용자가 Adobe Analytics에 액세스할 필요는 없습니다.
+     이 옵션을 활성화하면 공유할 프로젝트가 만들어진 Adobe Experience Cloud 조직에 로그인할 수 있는 사용자가 프로젝트에 액세스할 수 있는 유일한 사용자가 됩니다. 그러나 공유받는 사용자가 Adobe Analytics에 액세스할 필요는 없습니다.
 
      Analytics 관리자는 [환경 설정](/help/analyze/analysis-workspace/user-preferences.md)에 설명된 대로 회사에 대해 이 환경 설정을 구성할 수 있습니다. 관리자가 이 옵션을 구성한 방식에 따라 다음 시나리오가 발생할 수 있습니다.
 
