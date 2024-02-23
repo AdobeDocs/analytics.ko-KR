@@ -4,9 +4,9 @@ title: 데이터 사전 개요
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: ht
-source-wordcount: '532'
+source-git-commit: 48e75fc4e9cc60bfd6865f7e80060c07ecf25ad8
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -65,8 +65,6 @@ Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액
 
   ![정보 팝오버의 데이터 사전 아이콘](assets/data-dictionary-access-infopopover.png)
   <!--update screenshot; this was taken from a mock-->
-
-* 메뉴: [!UICONTROL **도움말**] > [!UICONTROL **데이터 사전**].
 
 데이터 사전에서 사용할 수 있는 다양한 옵션에 대한 자세한 내용은 [데이터 사전의 구성 요소 정보 보기](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)를 참조하십시오.
 
