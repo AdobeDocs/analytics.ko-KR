@@ -3,20 +3,20 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요�
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 86e4856ec44ee0c6b676e2f145f4e63587368d4c
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 2%
+source-wordcount: '1390'
+ht-degree: 5%
 
 ---
 
 # Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 
-Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics으로 마이그레이션할 수 있습니다.
+Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics로 마이그레이션할 수 있습니다.
 
-마이그레이션 프로세스에는 다음이 포함됩니다.
+마이그레이션 프로세스에 포함된 사항:
 
-* Customer Journey Analytics에서 Adobe Analytics 프로젝트 다시 만들기
+* Customer Journey Analytics에서 Adobe Analytics 프로젝트를 다시 생성합니다.
 
 * Adobe Analytics 보고서 세트의 차원 및 지표를 Customer Journey Analytics 데이터 보기의 차원 및 지표에 매핑합니다.
 
@@ -124,7 +124,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
 마이그레이션이 실패하면 마이그레이션을 다시 시도할 수 있습니다.
 
-실패한 마이그레이션을 다시 시도하기 전에 다음을 제거해야 합니다. [지원되지 않는 요소](#understand-unsupported-elements-that-cause-errors) 프로젝트에서 가져왔습니다.
+실패한 마이그레이션을 다시 시도하기 전에 다음을 제거해야 합니다. [지원되지 않는 요소](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=en#understand-unsupported-elements-that-cause-errors) 프로젝트에서 가져왔습니다.
 
 >[!NOTE]
 >
