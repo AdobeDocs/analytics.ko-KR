@@ -4,10 +4,10 @@ description: 데이터 소스에 대한 FAQ.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ transactionID가 데이터 소스와 온라인 히트 간에 일치하는 경우
 
 +++데이터 소스를 사용하여 가져온 데이터를 삭제할 수 있습니까?
 
-**아니.** 데이터 소스를 사용하여 보고서에 업로드된 데이터는 다음과 같습니다. **영구**. 가져온 후에는 Adobe이 아니라 제거할 수 없습니다. Adobe은 데이터 소스 데이터를 프로덕션 보고서 세트에 업로드하기 전에 테스트 보고서 세트에 업로드하는 것을 강력히 권장합니다.
+예. 다음을 사용하여 이 데이터를 삭제할 수 있습니다. [데이터 복구 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Adobe 또한 데이터 소스 데이터를 프로덕션 보고서 세트에 업로드하기 전에 테스트 보고서 세트에 업로드하는 것이 좋습니다.
 +++
 
 +++한 번에 얼마나 많은 데이터를 가져올 수 있습니까?
