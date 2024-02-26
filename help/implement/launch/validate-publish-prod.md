@@ -4,7 +4,7 @@ description: Adobe Experience Platform 태그를 사용하여 Adobe Analytics를
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 89%
@@ -23,7 +23,7 @@ ht-degree: 89%
 
 Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그를 표시하는 확장 프로그램입니다.
 
-1. 다음 중 하나에 대한 확장 설치 [크롬](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 또는 Firefox입니다.
+1. 다음 중 하나에 대한 확장 설치 [크롬](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 또는 Firefox입니다.
 2. 태그를 구현한 개발 웹 사이트로 이동합니다.
 3. 브라우저에 있는 Adobe Experience Cloud 디버거 아이콘을 클릭합니다.
 4. 모든 항목이 올바르게 구현되면 Adobe Analytics 내 콘텐츠, 태그 및 Adobe Experience Cloud 방문자 ID 서비스가 표시됩니다.

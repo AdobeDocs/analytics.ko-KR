@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: ae1c2ff1987e2fe5d147bfe74874b53492d48b5e
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 28%
+source-wordcount: '622'
+ht-degree: 23%
 
 ---
 
@@ -40,7 +40,7 @@ Developer Console 네트워크 탭을 사용하여 호출 상호 작용:
 
 Adobe Experience Platform Debugger:
 
-1. 다운로드 및 설치 [Adobe Experience Platform 디버거](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
+1. 다운로드 및 설치 [Adobe Experience Platform 디버거](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. 다음으로 이동 [!UICONTROL 로그] > [!UICONTROL Edge] > [!UICONTROL Edge에 연결].
 
    ![](assets/validation2.jpg)
@@ -68,7 +68,7 @@ Adobe Experience Platform Debugger:
 
 >[!NOTE]
 >
->웹 SDK를 사용하여 링크 추적을 활성화하면 현재 고객이 한 페이지에서 다음 페이지로 이동할 때 링크 이벤트가 전송됩니다. 이는 AppMeasurement가 작동하는 방식과 다르며 잠재적으로 Adobe로 전송되는 추가 청구 가능 히트를 초래할 수 있습니다.
+>웹 SDK를 사용하여 링크 추적을 활성화하면 현재 고객이 한 페이지에서 다음 페이지로 이동할 때 링크 이벤트가 전송됩니다. 이것은 AppMeasurement 작동 방식과 다르며, 잠재적으로 Adobe에 추가 청구 가능한 히트가 전송될 수 있습니다.
 
 +++
 
