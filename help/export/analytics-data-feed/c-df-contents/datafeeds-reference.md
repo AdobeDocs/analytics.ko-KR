@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '3897'
-ht-degree: 100%
+source-git-commit: dfec68a0ecdf691ab1005919fa3df01158a9cec9
+workflow-type: tm+mt
+source-wordcount: '3899'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 | **`clickmaplinkbyregion`** | 지역별 Activity Map 링크 | varchar (255) |
 | **`clickmappage`** | Activity Map 페이지 | varchar (255) |
 | **`clickmapregion`** | Activity Map 영역 | varchar (255) |
-| **`code_ver`** | 이미지 요청을 컴파일하고 전송하는 데 사용되는 AppMeasurement 라이브러리 버전입니다. | char (16) |
+| **`code_ver`** | 이미지 요청을 컴파일하고 전송하는 데 사용되는 API 또는 클라이언트 SDK 버전입니다. | char (16) |
 | **`color`** | `c_color` 열의 값을 기반으로 하는 색상 심도 ID입니다. `color_depth.tsv` 조회 테이블을 참조합니다. | smallint 부호 없음 |
 | **`connection_type`** | 연결 유형을 나타내는 숫자 ID입니다. [연결 유형](/help/components/dimensions/connection-type.md) 차원에 사용되는 변수입니다. `connection_type.tsv` 조회 테이블을 참조합니다. | tinyint 부호 없음 |
 | **`cookies`** | [쿠키 지원](/help/components/dimensions/cookie-support.md) 차원에 사용되는 변수입니다.<br>Y: 활성화됨<br>N: 비활성화됨<br>U: 알 수 없음 | char (1) |
