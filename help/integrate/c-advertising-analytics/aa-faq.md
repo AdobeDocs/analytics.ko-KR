@@ -3,9 +3,9 @@ description: Advertising Analytics에 대해 자주 묻는 질문입니다.
 title: Advertising Analytics에 대해 자주 묻는 질문
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1300'
 ht-degree: 37%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 37%
 
 +++ 이 기능에 액세스하려면 Adobe Advertising Cloud 또는 AMO(Adobe Advertising Cloud) 고객이어야 합니까?
 
-아니요. 이 기능은 Advertising Cloud 및 AMO가 아닌 고객도 사용할 수 있습니다. </p> <p>AMO 고객은 기존의 Analytics-AMO 통합을 활용할 수 있으며, Ad Analytics를 사용할 수 없습니다.
+아니요. 이 기능은 Advertising Cloud 및 AMO가 아닌 고객도 사용할 수 있습니다.
+
+AMO 고객은 기존의 Analytics-AMO 통합을 활용할 수 있으며, Ad Analytics를 사용할 수 없습니다.
 
 +++
 
@@ -104,7 +106,7 @@ Advertising Analytics은 일련의 사용자 지정 API를 사용하여 Adobe Ad
 +++ Advertising Analytics 계정을 특정 보고서 세트에 매핑하려고 하지만 보고서 세트 모달에서는 사용할 수 없습니다. 왜일까요?
 
 Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 보고서 세트가 다음과 같아야 합니다 [Advertising Analytics 보고에 프로비저닝됨](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
-이 작업은 별도 관리 페이지에서 수행합니다. 이 페이지는 관리 > 보고서 세트 >에서 액세스할 수 있습니다. [보고서 세트 선택] > 설정 편집 > Advertising Analytics 구성
+이 작업은 별도 관리 페이지에서 수행합니다. 이 페이지는 관리 > 보고서 세트 >에서 액세스할 수 있습니다. `[select report suite]` > 설정 편집 > Advertising Analytics 구성
 
 +++
 
@@ -114,7 +116,7 @@ Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 �
 
 +++
 
-+++ 에서 Advertising Analytics 지표를 보고할 수 있습니까? <b>마케팅 채널</b> 보고?
++++ 에서 Advertising Analytics 지표를 보고할 수 있습니까? *마케팅 채널* 보고?
 
 아니요. 마케팅 채널 보고서에는 이러한 지표가 포함되지 않습니다.
 
@@ -126,13 +128,13 @@ Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 �
 
 +++
 
-+++ 다음과 같은 작업 가능 <b>클릭 전에 캡처됨</b>? 클릭하지 않더라도 노출 횟수, 비용, 평균 위치 등이 표시됩니까? </p> </td>
++++ 다음과 같은 작업 가능 *클릭 전에 캡처됨*? 클릭하지 않더라도 노출 횟수, 비용, 평균 위치 등이 표시됩니까?
 
 AMO ID는 검색 엔진 지표(노출 횟수, 비용, 클릭 수, 평균 위치 및 평균 품질 점수)를 캡처합니다. 클릭이 없지만 노출 횟수가 있는 경우 노출/위치/품질 점수 데이터가 계속 Analytics에 전송됩니다. 일반적으로 클릭이 없는 경우에는 비용도 없습니다.
 
 +++
 
-+++ 이 데이터는 어느 수준에서 캡처됩니까? <b>방문자? 히트?</b>
++++ 이 데이터는 어느 수준에서 캡처됩니까? *방문자? 히트?*
 
 검색 엔진 지표는 히트 수준에서 캡처되며 AMO ID(및 해당 분류)에 연결됩니다. 요약 수준 데이터이며 방문 횟수/방문자 수에 연결되어 있지 않습니다. 따라서 검색 엔진 지표는 조회수 수준 범위에 있으며 AMO ID (또는 해당 분류)를 기반으로 하는 세그먼트에서만 사용할 수 있습니다.
 
@@ -140,7 +142,7 @@ AMO ID는 검색 엔진 지표(노출 횟수, 비용, 클릭 수, 평균 위치 
 
 +++
 
-+++ google.com 만 캡처합니까? 또는 <b>국가 버전</b> (예: google.co.uk, google.it, google.fr 또는 google.de)
++++ google.com 만 캡처합니까? 또는 *국가 버전* (예: google.co.uk, google.it, google.fr 또는 google.de)
 
 광고 플랫폼 분류는 &quot;Google Adwords&quot; 및 &quot;Bing Ads&quot; 값을 캡처합니다. 일반적인 우수 사례에는 캠페인 이름의 일부로 국가 코드가 포함됩니다. 그 이후에 필터링하거나 분류할 수 있습니다 (예: 모든 캠페인이 countrycode_로 시작하는 경우 캠페인 (AMO ID)이 &#39;UK_&#39;로 시작하는 세그먼트를 생성하여 영국에 대한 데이터만 제공).
 
@@ -152,7 +154,7 @@ AMO ID는 검색 엔진 지표(노출 횟수, 비용, 클릭 수, 평균 위치 
 
 +++
 
-+++ 다음과 같은 기타 광고 채널을 포함할 계획이 있습니까? <b>표시</b> 또는 <b>소셜</b>?
++++ 다음과 같은 기타 광고 채널을 포함할 계획이 있습니까? *표시* 또는 *소셜*?
 
 아니요. 현재 로드맵에는 이러한 다른 채널에 대한 계획이 없습니다.
 
@@ -161,9 +163,9 @@ AMO ID는 검색 엔진 지표(노출 횟수, 비용, 클릭 수, 평균 위치 
 
 ## 자동 vs 수동 추적 {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ 내 Advertising 계정을 설정할 때 다음과 같이 표시됩니다<b> 자동 추적</b> 의도하지 않은 결과를 초래할 수 있습니다. 어떤 결과가 발생할 수 있습니까?
++++ 내 Advertising 계정을 설정할 때 다음과 같이 표시됩니다 *자동 추적* 의도하지 않은 결과를 초래할 수 있습니다. 어떤 결과가 발생할 수 있습니까?
 
-자동 모드에서는 URL 매개 변수를 올바른 형식으로 추적 템플릿/대상 URL의 끝에 추가하려고 합니다. <b>그러나 추가된 URL 매개 변수가 최종 랜딩 페이지에 올바르게 유지되는지는 사용자가 확인해야 합니다. 자동 모드는 랜딩 URL에 키워드를 삽입할 수 있으며, 웹 서버가 특수 문자가 있는 키워드를 지원하지 않을 수 있습니다.
+자동 모드에서는 URL 매개 변수를 올바른 형식으로 추적 템플릿/대상 URL의 끝에 추가하려고 합니다. 그러나 추가된 URL 매개 변수가 최종 랜딩 페이지에 올바르게 유지되는지는 사용자가 확인해야 합니다. 자동 모드는 랜딩 URL에 키워드를 삽입할 수 있으며, 웹 서버가 특수 문자가 있는 키워드를 지원하지 않을 수 있습니다.
 
 +++
 
