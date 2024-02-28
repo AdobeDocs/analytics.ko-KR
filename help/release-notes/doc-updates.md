@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '5161'
+source-wordcount: '5186'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 97%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 2월** | |
+| Data Warehouse 요청 관리에 대한 정보 업데이트 | 기본적으로 사용자는 자신이 만든 요청만 볼 수 있음을 명확히 했습니다 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | 프로젝트 공유 설명서 업데이트 | 다음 방법에 대한 정보가 추가되었습니다. [공유 프로젝트 보기](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>또한 다음에 대한 간소화된 정보 [개별 또는 여러 프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Data Warehouse 및 데이터 피드에서 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [Data Warehouse 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 및 [데이터 피드에 대한 대상을 구성할 때](/help/export/analytics-data-feed/create-feed.md). |
 | Data Warehouse 및 데이터 피드에서 Amazon S3 및 GCP 버킷에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우에 Amazon S3 및 Google Cloud Platform 버킷에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [Data Warehouse 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 및 [데이터 피드에 대한 대상을 구성할 때](/help/export/analytics-data-feed/create-feed.md). |

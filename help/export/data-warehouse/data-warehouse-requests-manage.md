@@ -4,9 +4,9 @@ title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1148'
 ht-degree: 4%
 
 ---
@@ -19,9 +19,13 @@ ht-degree: 4%
 
 ## 요청 보기
 
+에 설명된 대로 사용자가 자신의 요청을 조직의 다른 사용자에게 표시하도록 선택하지 않은 경우 기본적으로 사용자가 만든 요청만 볼 수 있습니다 [Data Warehouse 요청 일반 설정](/help/export/data-warehouse/create-request/dw-general-settings.md)). 시스템 관리자는 모든 요청을 볼 수 있습니다.
+
+Data Warehouse 요청을 보려면 다음 작업을 수행하십시오.
+
 1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**].
 
-   Data Warehouse 페이지에는 수행한 모든 요청이 표시됩니다. <!-- just those you have made? -->데이터는 각 열에 표시됩니다. 다음을 수행할 수 있습니다. [열 구성](#configure-columns) 표시됩니다.
+   Data Warehouse 페이지에는 수행한 모든 요청이 표시됩니다. 데이터는 각 열에 표시됩니다. 다음을 수행할 수 있습니다. [열 구성](#configure-columns) 표시됩니다.
 
    <!-- add screenshot of main page -->
 
