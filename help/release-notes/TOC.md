@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 릴리스 정보
 breadcrumb-title: 릴리스 정보
 user-guide-description: Adobe Analytics의 새로운 기능과 수정된 내용에 대해 알아보십시오.
-source-git-commit: af1574a72c652a75a851499416cf78703a1be178
-workflow-type: ht
-source-wordcount: '41'
+source-git-commit: 206a7f9bed88229142ac6540fbf3fae31dd06689
+workflow-type: tm+mt
+source-wordcount: '49'
 ht-degree: 100%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 100%
 
 + [현재 Analytics 릴리스 정보](latest.md)
 + 이전 Analytics 릴리스 정보 {#previous}
+   + [2024 릴리스 정보](2024.md)
    + [2023 릴리스 정보](2023.md)
    + [2022 릴리스 정보](2022.md)
    + [2021 릴리스 정보](2021.md)
