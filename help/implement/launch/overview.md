@@ -4,16 +4,16 @@ description: 태그 및 Analytics 확장을 사용하는 Adobe Analytics 구현 
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 89%
+source-wordcount: '365'
+ht-degree: 83%
 
 ---
 
 # Analytics 확장을 사용하여 Adobe Analytics 구현
 
-Adobe Analytics의 서비스 제공 기간 동안 Adobe는 데이터 수집을 위해 사이트에서 코드를 구현하는 여러 가지 방법을 제공해 왔습니다. 현재 Adobe에서 권장되는 방법은 Adobe Experience Platform의 태그를 사용하는 것입니다.
+Adobe Analytics의 서비스 제공 기간 동안 Adobe는 데이터 수집을 위해 사이트에서 코드를 구현하는 여러 가지 방법을 제공해 왔습니다. Adobe의 현재 권장 메서드는 다음을 통해 수행됩니다. [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) Adobe Experience Platform.
 
 Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함께 Analytics 코드를 배포할 수 있도록 해 주는 태그 관리 솔루션입니다. Adobe는 다른 솔루션 및 제품과의 통합을 제공하며 사용자 정의 코드를 배포할 수 있도록 해 줍니다. 따라서 사이트에서 코드를 업데이트하기 위해 조직의 개발 팀에 의존하지 않고도 이러한 모든 작업을 수행할 수 있습니다.
 
@@ -48,7 +48,7 @@ Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함
 <tr>
 <td>3</td>
 <td><b><b>태그 속성을 만듭니다</b>. 속성은 태그 관리 데이터를 참조하는 데 사용하는 중요한 컨테이너입니다.</td>
-<td><a ref="../launch/create-analytics-property.md">Adobe Analytics 태그 속성 만들기</a></td>
+<td><a href="../launch/create-analytics-property.md">Adobe Analytics 태그 속성 만들기</a></td>
 </tr>
 
 <tr>

@@ -4,10 +4,10 @@ description: Adobe Analytics에서 Experience Platform의 XDM 데이터 사용 �
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 37%
+source-wordcount: '338'
+ht-degree: 35%
 
 ---
 
@@ -40,3 +40,4 @@ XDM은 페이지 보기 수 또는 링크 이벤트를 정의하는 방법을 �
 
 {style="table-layout:auto"}
 
+다음을 참조하십시오. [Adobe Analytics ExperienceEvent 전체 확장 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) 추가 정보.

@@ -4,10 +4,10 @@ description: Adobe Experience Platform 데이터 수집에서 Web SDK 확장 기
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 91%
+source-wordcount: '676'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=ko-KR)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. 이 구현 방법은 [XDM(경험 데이터 모델)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)을 Analytics에서 사용하는 형식으로 변환하여 작동합니다.
 
-Web SDK를 사용하거나 태그의 Web SDK 확장을 통해 데이터를 Experience Edge로 직접 전송할 수 있습니다.
+를 사용하여 Experience Edge로 데이터를 직접 보낼 수 있습니다. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)또는 Tags의 Web SDK 확장을 통해 액세스할 수 있습니다.
 
 ## Web SDK
 
@@ -60,14 +60,14 @@ Web SDK를 사용하거나 태그의 Web SDK 확장을 통해 데이터를 Exper
 </tr>
 
 <td>6</td>
-<td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 이 서비스는 데이터가 Adobe Analytics로 전송되는지 여부와 그 방법을 제어합니다.</td>
+<td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 해당 서비스는 데이터가 Adobe Analytics으로 전송되는지 여부와 전송 방법, 구체적으로 어떤 보고서 세트를 통해 전송되는지 여부를 제어합니다.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
 </tr>
 
 <tr>
 <td>7</td>
-<td><b>Web SDK를 구성합니다</b>. 4단계에서 설치한 라이브러리가 데이터스트림 ID(이전에는 에지 구성 ID(<code>edgeConfigId</code>)라고 함), 조직 ID(<code>orgId</code>) 및 기타 사용 가능한 옵션으로 올바르게 구성되었는지 확인하십시오.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR">Web SDK 구성</a></td>
+<td><b>Web SDK를 구성합니다</b>. 4단계에서 설치한 라이브러리가 데이터 스트림 ID(이전에는 에지 구성 ID라고 함)로 제대로 구성되었는지 확인합니다.<code>edgeConfigId</code>), 조직 id(<code>orgId</code>) 및 기타 사용 가능한 옵션. 변수의 적절한 매핑을 확인합니다. </td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR">웹 SDK 구성</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Analytics 변수 매핑</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">수동으로 변수 매핑</a></td>
 </tr>
 
 <tr>
@@ -121,7 +121,7 @@ Web SDK를 사용하거나 태그의 Web SDK 확장을 통해 데이터를 Exper
 
 <tr>
 <td>5</td> 
-<td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 이 서비스는 데이터가 Adobe Analytics로 전송되는지 여부와 그 방법을 제어합니다.</td>
+<td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 해당 서비스는 데이터가 Adobe Analytics으로 전송되는지 여부와 전송 방법, 구체적으로 어떤 보고서 세트를 통해 전송되는지 여부를 제어합니다.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
 </tr>
 
