@@ -4,10 +4,10 @@ title: 보트 규칙 이해 및 구성
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 71%
+source-wordcount: '1669'
+ht-degree: 69%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 71%
 일반적으로 보트 트래픽을 제거하면 트래픽 양과 전환 지표가 줄어듭니다. 많은 고객이 보트 트래픽을 제거하면 전환율이 증가하고 기타 유용성 지표도 증가함을 알게 됩니다.
 
 보트 트래픽 데이터는 별도의 저장소에 저장되어 보트 및 보트 페이지 보고서에 표시됩니다.
+
+>[!NOTE]
+>
+>Adobe Experience Edge는 [보트 탐지 서비스](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 봇에서 나온 것으로 식별된 레이블. Adobe Analytics의 보트 감지 프로세스는 이와 별개이며 Experience Edge를 통해 도착하는 데이터에 포함된 보트 점수를 참조하지 않습니다. 두 시스템은 동일한 IAB 보트 목록을 사용하므로 이와 관련하여 동일하게 동작해야 합니다.
 
 ## 보트 규칙 업데이트 또는 업로드
 
