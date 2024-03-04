@@ -4,10 +4,10 @@ description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: f397aaba5b32ad226e930e983f4b087d29c16b89
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 90%
+source-wordcount: '2670'
+ht-degree: 88%
 
 ---
 
@@ -18,6 +18,13 @@ JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 에서 최신 버전의 AppMeasurement을 다운로드할 수 있습니다. [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## 버전 2.26.0
+
+릴리스 일자: **2024년 3월 4일 화요일**
+
+* AppMeasurement은 이전에 특정 쿠키 도메인 구성이 필요했던 국가 코드 최상위 도메인에 대한 루트 도메인을 자동으로 인식하고 활용합니다. 이러한 자동 인식으로 인해 업데이트에 영향을 줄 수 있습니다. 다음을 참조하십시오 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 추가 정보.
+* 배포에는 ID 서비스 라이브러리 5.5.0 및 Data Integration Library 9.6이 포함됩니다.
 
 ## 버전 2.25.0
 

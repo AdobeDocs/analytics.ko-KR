@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
+source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
-source-wordcount: '5186'
-ht-degree: 97%
+source-wordcount: '5205'
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,13 @@ ht-degree: 97%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 3월** | |
+| AppMeasurement 업데이트 | [릴리스 정보](/help/implement/appmeasurement-updates.md) AppMeasurement 업데이트 v2.26.0에서.<br/>에 대한 참조 및 업데이트 포함 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서입니다. |
 | **2024년 2월** | |
 | Data Warehouse 요청 관리에 대한 정보 업데이트 | 기본적으로 사용자는 자신이 만든 요청만 볼 수 있음을 명확히 했습니다 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
-| 프로젝트 공유 설명서 업데이트 | 다음 방법에 대한 정보가 추가되었습니다. [공유 프로젝트 보기](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>또한 다음에 대한 간소화된 정보 [개별 또는 여러 프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
-| Data Warehouse 및 데이터 피드에서 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우 Azure SAS 및 Azure RBAC에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [Data Warehouse 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 및 [데이터 피드에 대한 대상을 구성할 때](/help/export/analytics-data-feed/create-feed.md). |
-| Data Warehouse 및 데이터 피드에서 Amazon S3 및 GCP 버킷에 파일을 업로드하기 위한 권한 요구 사항이 추가되었습니다 | 다음과 같은 경우에 Amazon S3 및 Google Cloud Platform 버킷에 파일을 업로드하기 위한 정확한 권한 요구 사항이 추가되었습니다. [Data Warehouse 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 및 [데이터 피드에 대한 대상을 구성할 때](/help/export/analytics-data-feed/create-feed.md). |
+| 프로젝트 공유 설명서 업데이트 | [공유 프로젝트를 보는](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you) 방법에 대한 정보가 추가되었습니다.<p>[개별 또는 여러 프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)에 대한 정보가 간소화되었습니다.</p> |
+| Data Warehouse 및 데이터 피드에서 파일을 Azure SAS와 Azure RBAC에 업로드하기 위한 권한 요구 사항이 추가됨 | [Data Warehouse의 대상을 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)하고 [데이터 피드의 대상을 구성](/help/export/analytics-data-feed/create-feed.md)할 때 파일을 Azure SAS와 Azure RBAC에 업로드하기 위한 권한 요구 사항이 정확히 추가되었습니다. |
+| Data Warehouse 및 데이터 피드에서 파일을 Amazon S3와 GCP 버킷에 업로드하기 위한 권한 요구 사항이 추가됨 | [Data Warehouse의 대상을 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)하고 [데이터 피드의 대상을 구성](/help/export/analytics-data-feed/create-feed.md)할 때 파일을 Amazon S3 및 Google Cloud Platform 버킷에 업로드하기 위한 권한 요구 사항이 정확히 추가되었습니다. |
 | **2024년 1월** | |
 | 개별 IMS 조직에 적용되는 구성 요소 마이그레이션 | [구성 요소 마이그레이션](/help/admin/admin/component-migration/component-migration.md)이 IMS 조직 간 마이그레이션을 지원하지 않는다는 점을 명시했습니다. |
 | 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 시스템 관리자만 사용할 수 있는 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에 “마지막 사용” 및 “다음에서 사용” 열에 대한 정보가 추가되었습니다. |
@@ -45,7 +47,7 @@ ht-degree: 97%
 | 예외 항목 탐지 및 기여도 분석 설명서 업데이트 | 예외 항목 탐지 및 기여도 분석에 대한 설명서는 가상 분석가와 관련된 이전 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li><li>기여도 분석 설명서가 예외 항목 탐지 설명서에 병합되었습니다.</li></ul> |
 | “Attribution IQ”가 “속성”으로 변경되었습니다. | 설명서 내용 전체에서 “Attribution IQ”의 모든 인스턴스를 “[속성](/help/analyze/analysis-workspace/attribution/overview.md)”으로 변경했습니다. |
 | **2023년 11월** | |
-| Activity Map 활성화/활성화 항목 업데이트 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=ko-KR)(수동 및 Adobe Experience Platform 태그 확장을 통해) 콘텐츠가 추가되었습니다. |
+| Activity Map 활성화/활성화 항목 업데이트 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=ko-KR)(수동 및 Adobe Experience Platform 태그 확장 기능을 통해) 콘텐츠가 추가되었습니다. |
 | **2023년 10월** | |
 | 보고 활동 관리자에 로그 정보가 추가되었습니다. | 보고 활동 관리자에서 [보고 활동의 취소 및 이후 제한 사항](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)이 [로그](/help/admin/admin/logs.md)에 캡처된다는 정보를 추가했습니다. |
 | Data Warehouse 구성 요소 지원 업데이트 | Data Warehouse의 일부 구성 요소에 대한 가용성을 추가하고 다른 구성 요소의 가용성을 제거했습니다. 이들 변경 사항은 [Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md)에 반영됩니다. <ul><li>방문 깊이 차원에 대한 지원 추가됨 (지원되지 않는 차원 목록에서 방문 깊이가 제거됨)</li><li>참여도 지표에 대한 지원 제거됨 (지원되지 않는 지표 목록에 참여도 지표 추가됨)</li><li>연도, 분기, 월, 주, 일, 시간 및 분과 같은 시간 기반 차원에 대한 지원 추가됨 (지원되지 않는 차원 목록에서 이들 차원 제거됨) <p>이전에는 Data Warehouse가 세부 기간이 선택된 경우 자유 형식 테이블의 첫 번째 열에서만 이들 차원을 지원했습니다. 이제 이들 차원이 항상 지원됩니다.</p><p>단, 이들 차원을 사용할 때 날짜 출력은 표준이 아닙니다. 연도는 1900으로 오프셋되고 월은 0부터 시작합니다.</li></ul> |
@@ -206,7 +208,7 @@ ht-degree: 97%
 | 2020년 11월 2일 | [분류용 FTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html)에 대한 설명서를 업데이트했습니다. |
 | **2020년 10월** | |
 | 2020년 10월 23일 | 작업 영역 라인 시각화: [이동 평균 트렌드 라인 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): 이 설정은 [!UICONTROL 라인] 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트(**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
-| 2020년 10월 23일 | Analysis Workspace [성능 도움말 페이지](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html)에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. |
+| 2020년 10월 23일 | Workspace [성능 도움말 페이지](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html)에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. |
 | 2020년 10월 23일 | Adobe Analytics 대시보드 설명서에 개선 사항이 추가되었습니다. 작업 영역의 모바일 스코어카드에서 스코어카드의 스타일이 앱과 일치합니다. |
 | **2020년 9월** | |
 | 2020년 9월 17일 | [단일 차원에 맞는 5만개의 항목 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items): 이제 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
@@ -243,7 +245,7 @@ ht-degree: 97%
 | 2020년 2월 27일 | [Adobe Analytics Labs](/help/analyze/labs.md)에 대한 설명서를 추가했습니다. |
 | 2020년 2월 25일 | [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 변수를 추가했습니다. |
 | 2020년 2월 20일 | 디바이스 간 분석을 사용하는 조직을 위한 새로운 작업 영역 템플릿. 이 템플릿은 CDA가 방문을 함께 연결하는 데 얼마나 효과적인지 보여 주며 CDA 독점 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [크로스 디바이스 분석 설정](/help/components/cda/setup.md)을 참조하십시오. |
-| 2020년 2월 20일 | Analysis Workspace의 새로운 핫키:<ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 2020년 2월 20일 | Workspace의 새로운 핫키:<ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 2020년 2월 20일 | 작업 영역의 개선 사항: <ul><li>패널이나 시각화가 작업 영역으로 드롭되면 왼쪽 레일이 이제 구성 요소로 자동 전환되므로 더 원활한 워크플로가 가능합니다.</li><li>이제 템플릿 구성 요소를 활성화할 수 있습니다(예: 태그됨, 즐겨찾기에 추가됨, 승인됨).</li><li>필터링된 지표 및 세그먼트 목록은 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가하기 위한 버튼을 제공합니다.</li></ul> |
 | 2020년 2월 20일 | 작업 영역 디버거가 도움말 메뉴에 추가되어 작업 영역 요청 디버깅에 더 원활하게 사용할 수 있습니다. [자세히 알아보기...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020년 2월 18일 | [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 변수를 추가했습니다. |
