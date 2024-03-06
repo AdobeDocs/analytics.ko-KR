@@ -187,7 +187,7 @@ ht-degree: 99%
 | 2021년 3월 25일 | [데이터 복구 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 업데이트 (URL, 쿼리 문자열, @ 기호 등에 대한 필터링) |
 | 2021년 3월 25일 | 새 [사용 로그 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 설명서 |
 | **2021년 2월** | |
-| 2021년 2월 4일 | 구성 요소 선택: [!UICONTROL 빠른 인사이트]에 있는 드롭다운/놓기 영역 구성 요소를 [!UICONTROL 작업 영역]의 모든 드롭 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 놓기 영역으로 계속 사용할 수 있습니다. |
+| 2021년 2월 4일 | 구성 요소 선택: [!UICONTROL 빠른 인사이트]에 있는 드롭다운/드롭 영역 구성 요소를 [!UICONTROL 작업 영역]의 모든 드롭 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
 | **2021년 1월** | |
 | 2021년 1월 14일 | Analytics 대시보드 설명서에 언어 선택 옵션이 추가되었습니다. |
 | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 Workspace 프로젝트에 이미지를 추가하는 방법에 대한 설명서가 추가되었습니다. |
