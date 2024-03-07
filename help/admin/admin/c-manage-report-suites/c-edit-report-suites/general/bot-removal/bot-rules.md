@@ -4,9 +4,9 @@ title: 보트 규칙 이해 및 구성
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1668'
 ht-degree: 69%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Adobe Experience Edge는 [보트 탐지 서비스](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 봇에서 나온 것으로 식별된 레이블. Adobe Analytics의 보트 감지 프로세스는 이와 별개이며 Experience Edge를 통해 도착하는 데이터에 포함된 보트 점수를 참조하지 않습니다. 두 시스템은 동일한 IAB 보트 목록을 사용하므로 이와 관련하여 동일하게 동작해야 합니다.
+>Adobe Experience Platform Edge Network는 [보트 탐지 서비스](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 봇에서 나온 것으로 식별된 레이블. Adobe Analytics에서 사용되는 보트 탐지 프로세스는 별개이며 Edge Network를 통해 도착하는 데이터에 포함된 보트 점수를 참조하지 않습니다. 그러나 두 시스템은 동일한 IAB 보트 목록을 사용합니다.
 
 ## 보트 규칙 업데이트 또는 업로드
 

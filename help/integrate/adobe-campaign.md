@@ -1,13 +1,13 @@
 ---
-description: Adobe Analytics에서 Adobe Campaign Standard 보고를 활성화하는 방법 알아보기
+description: Adobe Analytics에서 Adobe Campaign Standard 보고를 활성화하는 방법 살펴보기
 title: Adobe Campaign Standard 보고를 Adobe Analytics에 통합하려면 어떻게 합니까?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 66%
+ht-degree: 99%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 66%
 이 통합을 구성하는 방법에 대한 자세한 내용은 [Adobe Campaign 설명서](https://helpx.adobe.com/kr/campaign/standard/integrating/using/about-campaign-analytics-integration.html)를 참조하십시오.
 
 >[!IMPORTANT]
->이 문서는 Adobe Campaign에 적용됩니다 **표준** 보고만. 다음을 참조하십시오 [여기](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) Adobe Campaign 추가 **Classic** 보고.
+>이 문서는 Adobe Campaign **Standard** 보고에만 적용됩니다. Adobe Campaign **Classic** 보고를 추가하려면 [여기](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html)를 참조하십시오.
 
-Adobe Analytics과 Adobe Campaign Standard 간의 이러한 통합은:
+Adobe Analytics와 Adobe Campaign Standard를 통합하면 다음이 적용됩니다.
 
-* KPI (핵심 성능 지표) 데이터를 Adobe Campaign Standard에서 Adobe Analytics에 공유할 수 있습니다.
-* Adobe Analytics 매개 변수를 사용하는 수식 추적 기능이 향상됩니다.
+* KPI(핵심 성능 지표) 데이터를 Adobe Campaign Standard에서 Adobe Analytics에 공유할 수 있습니다.
+* Adobe Analytics 매개변수를 사용하는 수식 추적 기능이 향상됩니다.
 * **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL Adobe Campaign]** 아래에 새 보고서가 추가됩니다.
 * 5개의 새로운 Adobe Campaign 분류가 추가됩니다.
-* 9개의 새 Adobe Campaign 지표를 추가합니다.
+* 9개의 새로운 Adobe Campaign 지표가 추가됩니다.
 * 6개의 새로운 Adobe Campaign 차원이 추가됩니다.
-* 자동으로 제공된 데이터 소스를 통해 15분마다 데이터를 Analytics에 동기화합니다.
+* 자동으로 프로비저닝된 데이터 소스를 통해 15분마다 데이터를 Analytics에 동기화합니다.
 
 ## 1단계. Adobe Campaign Standard 보고 활성화 {#section_C685EF10505045708A6536BB13F6CD58}
 
@@ -42,7 +42,7 @@ Analytics에서 Campaign Standard 데이터를 보려면 먼저 보고서 세트
 
 Adobe Campaign Standard와 Adobe Analytics를 통합하면 **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** 아래에 다음 보고서가 추가됩니다.
 
-* **[!UICONTROL Adobe Campaign 실행 게재 ID]**: Adobe Campaign에서 전송된 이메일에 대해 Adobe Campaign에서 가져온 데이터를 표시합니다. |
+* **[!UICONTROL Adobe Campaign 수행된 배달 ID]**: Adobe 캠페인에서 전송된 이메일에 대한 Adobe Campaign에서 가져온 데이터를 표시합니다. |
 
 ## 3단계. Adobe Campaign 분류 사용 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -52,11 +52,11 @@ Adobe Campaign Standard와 Adobe Analytics를 통합하면 **[!UICONTROL Analyti
 
 | 분류 | 설명 |
 | --- | --- |
-| [!UICONTROL 게재 ID] | Campaign에 표시되는 내부 게재 이름 |
-| [!UICONTROL 게재 레이블] | Campaign의 게재 - 개별 게재/반복 게재/트랜잭션 게재 |
+| [!UICONTROL 배달 ID] | Campaign에 표시되는 내부 배달 이름 |
+| [!UICONTROL 배달 레이블] | Campaign의 배달 - 개별 배달/반복 배달/트랜잭션 배달 |
 | [!UICONTROL 캠페인 ID] | Campaign에 표시되는 내부 캠페인 이름 |
 | [!UICONTROL 캠페인 레이블] | Adobe Campaign의 캠페인 |
-| [!UICONTROL 실행된 게재 레이블] | 개별 실행 게재 목록 |
+| [!UICONTROL 수행된 배달 레이블] | 개별 수행된 배달 목록 |
 
 ## Adobe Analytics에서 사용할 수 있는 Adobe Campaign Standard 차원 및 지표 {#section_F33385C9660644AF84172EC39601469B}
 
@@ -78,7 +78,7 @@ Adobe Analytics 보고서 세트의 Campaign에서 다음 **차원**&#x200B;을 
 | --- | --- |
 | 캠페인 ID | 기간 동안 KPI가 전송된 모든 캠페인의 ID |
 | 캠페인 레이블 | 캠페인 ID의 레이블 |
-| 배달 ID | 기간 동안 KPI가 전송된 모든 배달의 ID. 반복 배달 및 트랜잭션 배달에 대한 마스터 배달의 ID도 포함합니다. 예: 반복 배달 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 배달의 하위 배달입니다.  배달 ID는 모든 배달 (DM1~DM5)의 결과를 표시합니다. |
+| 배달 ID | 기간 동안 KPI가 전송된 모든 배달의 ID. 반복 배달 및 트랜잭션 배달에 대한 마스터 배달의 ID도 포함합니다. 예: 반복 배달 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 배달의 하위 배달입니다.  배달 ID는 모든 배달(DM1~DM5)의 결과를 표시합니다. |
 | 배달 레이블 | 배달 ID의 레이블 |
-| 수행된 배달 ID | 수행된 배달 전용 ID입니다. 반복/트랜잭션 마스터 배달의 ID가 없습니다. 예: 반복 배달 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 배달의 하위 배달입니다. 수행된 배달 ID는 DM2에서 DM5로 시작하는 모든 배달 (실제로 수행된 배달)의 결과를 표시합니다. |
+| 수행된 배달 ID | 수행된 배달 전용 ID입니다. 반복/트랜잭션 마스터 배달의 ID가 없습니다. 예: 반복 배달 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 배달의 하위 배달입니다. 수행된 배달 ID는 DM2에서 DM5로 시작하는 모든 배달(실제로 수행된 배달)의 결과를 표시합니다. |
 | 수행된 배달 레이블 | 수행된 배달 ID의 레이블 |

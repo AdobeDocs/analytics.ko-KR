@@ -4,7 +4,7 @@ title: 데이터 거버넌스에 대해 자주 묻는 질문
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 97%
@@ -85,7 +85,7 @@ GDPR 및 CCPA는 동의 관리 전략 및 관행을 재고할 수 있는 좋은 
 
 개인 데이터가 수집된 목적을 달성하는 데 필요한 기간보다 오래 해당 데이터를 보존하지 않도록 합니다. Adobe의 일반 사용 약관은 다른 데이터 보존 기간이 계약상 합의되지 않는 한 기본 25개월의 데이터 보존 계획을 적용합니다. Adobe에서 데이터 개인정보 보호 요청을 처리할 수 있으려면 먼저 고객이 데이터 보존 정책을 설정해야 합니다.
 
-각 보고서 세트의 현재 데이터 보존 정책이 새 데이터 거버넌스 관리 UI에 표시됩니다. 고객은 데이터 보존 정책을 조정해야 하는 경우 Adobe 담당자에게 문의해야 합니다. [Adobe Analytics 데이터 보존 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=ko)를 참조하십시오.
+각 보고서 세트의 현재 데이터 보존 정책이 새 데이터 거버넌스 관리 UI에 표시됩니다. 고객은 데이터 보존 정책을 조정해야 하는 경우 Adobe 담당자에게 문의해야 합니다. [Adobe Analytics 데이터 보존 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=ko-KR)를 참조하십시오.
 
 +++
 

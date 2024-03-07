@@ -5,7 +5,7 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 99%
@@ -54,7 +54,7 @@ Adobe Experience Platform Debugger:
 컬렉트 콜은 추적이 기타 사이트 탐색에 영향을 주지 않도록 디자인되어서 문서 언로드 기능을 컬렉트 콜에 적용할 수 있습니다. 이는 데이터 수집에 영향을 주지 않지만, 페이지에서 유효성을 확인해야 경우 target = “_blank”를 각 요소에 추가합니다. 그런 다음 링크가 새 탭에서 열립니다.
 
 * **PII 수집을 어떻게 무시합니까?**
-&lt;&lt; 링크 클릭 전 콜백 전송>>에 각 조건을 추가하고 해당 값을 무시하려면 false를 반환합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en)
+&lt;&lt; 링크 클릭 전 콜백 전송>>에 각 조건을 추가하고 해당 값을 무시하려면 false를 반환합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)
 
   코드 샘플:
 

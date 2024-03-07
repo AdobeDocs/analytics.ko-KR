@@ -4,7 +4,7 @@ description: 도메인의 접미사에 마침표가 있는 경우 쿠키를 저�
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: fe33da47c109adacb8162c7165ad4c63bd65c08d
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 43%
@@ -51,7 +51,7 @@ AppMeasurement는 도메인과 도메인 접미사를 확인하여 쿠키 위치
 >
 >올바르게 구성하는 동안 `cookieDomainPeriods` 는 AppMeasurement 및 Analytics 기능을 향상시키므로 AppMeasurement 라이브러리 업그레이드로 인한 변경 사항의 영향을 받는지 평가하는 것이 좋습니다.
 >
-> 다음을 참조하십시오 [Analytics 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) AppMeasurement이 사용하는 쿠키에 대한 자세한 정보.
+> 다음을 참조하십시오 [Analytics 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=ko-KR) AppMeasurement이 사용하는 쿠키에 대한 자세한 정보.
 
 ## 웹 SDK를 사용한 쿠키 도메인 마침표
 

@@ -2,10 +2,11 @@
 description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Analytics 인터페이스에 대한 정보와 관리자, 분석가, 사용자 및 개발자를 위한 시작 정보가 포함됩니다.
 title: Analytics 사용 사례
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 99%
 
 ---
 
@@ -32,9 +33,9 @@ Adobe Analytics는 웹 사이트 트래픽을 분석하기 위해 다음과 같�
 
 Adobe Analytics의 다음 주요 기능은 이러한 마케팅 기능을 제공합니다.
 
-* [멀티채널 데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko)
+* [멀티채널 데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR)
 
-* [오프라인 데이터 통합](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=ko)
+* [오프라인 데이터 통합](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
 
 * [Analysis Workspace의 애드혹 분석](/help/analyze/analysis-workspace/home.md)
 

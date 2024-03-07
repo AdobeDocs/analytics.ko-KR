@@ -3,9 +3,10 @@ description: Adobe Analytics에 대한 일반적인 개요 정보이며, 여기�
 short-description: 분석가, 최종 사용자 및 관리자를 위한 주요 기능, 일반적인 사용 사례 및 첫 번째 단계를 살펴보십시오.
 title: Adobe Analytics 개요
 feature: Analytics Basics
-source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
+exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
@@ -50,5 +51,4 @@ Customer Journey Analytics는 Analysis Workspace의 강력한 기능을 Adobe Ex
 
 * **크로스 보고서 세트 데이터**: 여러 데이터 세트의 기존 구현을 Platform에 결합할 수 있습니다.
 
-자세한 내용은 [Customer Journey Analytics 개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)를 참조하십시오.
-
+자세한 내용은 [Customer Journey Analytics 개요](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)를 참조하십시오.

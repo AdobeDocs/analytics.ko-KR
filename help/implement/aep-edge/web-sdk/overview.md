@@ -4,18 +4,16 @@ description: Adobe Experience Platform 데이터 수집에서 Web SDK 확장 기
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 76%
+source-wordcount: '670'
+ht-degree: 72%
 
 ---
 
 # Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics 구현
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=ko-KR)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. 이 구현 방법은 [XDM(경험 데이터 모델)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)을 Analytics에서 사용하는 형식으로 변환하여 작동합니다.
-
-를 사용하여 Experience Edge로 데이터를 직접 보낼 수 있습니다. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)또는 Tags의 Web SDK 확장을 통해 액세스할 수 있습니다.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. 이 구현 방법은 를 [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) 를 analytics에서 사용하는 형식으로 변환합니다. Web SDK JavaScript 라이브러리 또는 Web SDK 태그 확장을 사용하여 Adobe Experience Platform Edge Network로 데이터를 전송할 수 있습니다.
 
 ## Web SDK
 
@@ -32,13 +30,13 @@ ht-degree: 76%
 <tr>
 <td>1</td>
 <td><b>보고서 세트를 정의</b>했는지 확인합니다.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
 </tr>
 
 <tr>
 <td>2</td>
 <td><b>스키마 설정</b>. Adobe Experience Platform을 활용하는 애플리케이션 전체에서 사용할 데이터 수집을 표준화하기 위해, Adobe는 개방적이고 공개적으로 문서화된 표준인 XDM(경험 데이터 모델)을 만들었습니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko-KR">스키마 UI 개요</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko">스키마 UI 개요</a></td>
 </tr>
 
 <tr>
@@ -50,7 +48,7 @@ ht-degree: 76%
 <tr>
 <td> 4</td>
 <td><b>미리 빌드된 독립형 버전을 설치합니다</b>. 페이지에서 직접 CDN의 라이브러리(<code>alloy.js</code>)를 참조하거나 자체 인프라에서 다운로드하여 호스팅할 수 있습니다. 또는 NPM 패키지를 사용할 수 있습니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR#option-2%3A-installing-the-prebuilt-standalone-version">미리 빌드된 독립형 버전 설치</a> 및 <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR#option-3%3A-using-the-npm-package">NPM 패키지 사용</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">미리 빌드된 독립형 버전 설치</a> 및 <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">NPM 패키지 사용</a></td>
 </tr>
 
 <tr>
@@ -61,20 +59,20 @@ ht-degree: 76%
 
 <td>6</td>
 <td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 해당 서비스는 데이터가 Adobe Analytics으로 전송되는지 여부와 전송 방법, 구체적으로 어떤 보고서 세트를 통해 전송되는지 여부를 제어합니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Web SDK를 구성합니다</b>. 4단계에서 설치한 라이브러리가 데이터 스트림 ID(이전에는 에지 구성 ID라고 함)로 제대로 구성되었는지 확인합니다.<code>edgeConfigId</code>), 조직 id(<code>orgId</code>) 및 기타 사용 가능한 옵션. 변수의 적절한 매핑을 확인합니다. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR">웹 SDK 구성</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Analytics 변수 매핑</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">수동으로 변수 매핑</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">웹 SDK 구성</a><br/><a href="../variable-mapping.md">XDM 개체 변수 매핑</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>명령을 실행</b>하거나 <b>이벤트를 추적</b>합니다. 베이스 코드가 웹 페이지에 구현되면 SDK를 사용하여 명령 실행 및 이벤트 추적을 시작할 수 있습니다.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/executing-commands.html?lang=ko-KR">명령 실행</a> 및 <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko-KR">이벤트 추적</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">이벤트 보내기</a></td>
 </tr>
 
 <tr>
@@ -98,13 +96,13 @@ ht-degree: 76%
 <tr>
 <td>1</td>
 <td><b>보고서 세트를 정의</b>했는지 확인합니다.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
 </tr>
 
 <tr>
 <td>2</td>
 <td><b>스키마 설정</b>. Adobe Experience Platform을 활용하는 애플리케이션 전체에서 사용할 데이터 수집을 표준화하기 위해, Adobe는 개방적이고 공개적으로 문서화된 표준인 XDM(경험 데이터 모델)을 만들었습니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko-KR">스키마 UI 개요</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko">스키마 UI 개요</a></td>
 </tr>
 
 <tr>
@@ -122,13 +120,13 @@ ht-degree: 76%
 <tr>
 <td>5</td> 
 <td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 해당 서비스는 데이터가 Adobe Analytics으로 전송되는지 여부와 전송 방법, 구체적으로 어떤 보고서 세트를 통해 전송되는지 여부를 제어합니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>태그 속성을 만듭니다</b>. 속성은 태그 관리 데이터를 참조하는 데 사용하는 중요한 컨테이너입니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=ko-KR#for-web">웹용 태그 속성 만들기 또는 구성</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">웹용 태그 속성 만들기 또는 구성</a></td>
 </tr>
 
 <tr>
@@ -140,7 +138,7 @@ ht-degree: 76%
 <tr>
 <td>8</td>
 <td><b>반복하고, 유효성을 검사하고, 프로덕션에 게시합니다</b>. 웹 사이트 페이지에 태그 속성을 포함하는 코드를 포함합니다. 그런 다음 데이터 요소, 규칙 등을 사용하여 구현을 사용자 정의하십시오.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">포함 코드</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ko-KR">게시 개요</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">포함 코드</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html">게시 개요</a></td>
 </tr>
 
 </table>

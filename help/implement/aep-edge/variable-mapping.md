@@ -1,33 +1,33 @@
 ---
-title: Adobe Experience Edge의 Analytics 변수 매핑
+title: 웹 SDK XDM 개체를 사용한 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bc1311171e7cec6538dcdb44ad13761b0d39851b
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 82%
+source-wordcount: '1149'
+ht-degree: 98%
 
 ---
 
-# Adobe Experience Edge의 Analytics 변수 매핑
+# 웹 SDK XDM 개체를 사용한 Analytics 변수 매핑
 
-다음 표에서는 Adobe Experience Platform Edge Network를 Adobe Analytics에 자동으로 매핑하는 변수를 보여 줍니다. 이러한 XDM 필드 경로를 사용하는 경우 Adobe Analytics으로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다. 이러한 필드는 다음 위치에 포함됩니다. **[!UICONTROL Adobe Analytics ExperienceEvent 템플릿]** 필드 그룹입니다.
+다음 표에서는 Adobe Experience Platform Edge Network를 Adobe Analytics에 자동으로 매핑하는 변수를 보여 줍니다. 이러한 XDM 필드 경로를 사용하는 경우 Adobe Analytics로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다. 이러한 필드는 **[!UICONTROL Adobe Analytics ExperienceEvent 템플릿]** 필드 그룹에 포함됩니다.
 
 이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md)에서 확인할 수 있습니다.
 
 | XDM 필드 패스 | Analytics 차원 및 설명 |
 | --- | --- |
-| `application.isClose` | 모바일 라이프사이클 지표를 정의하는 데 도움이 됩니다 [충돌](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isInstall` | 모바일 라이프사이클 지표를 늘릴 시기를 결정하는 데 도움이 됩니다. [첫 번째 실행](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isLaunch` | 모바일 라이프사이클 지표를 늘릴 시기를 결정하는 데 도움이 됩니다. [첫 번째 실행](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.closeType` | 닫기 이벤트가 충돌인지 여부를 결정합니다. 유효한 값은 `close`(라이프사이클 세션이 종료되고 이전 세션에 대해 일시 중지 이벤트가 수신됨) 및 `unknown`(라이프사이클 세션이 일시 중지 이벤트 없이 종료됨)입니다. 모바일 라이프사이클 지표를 설정하는 데 도움이 됩니다. [충돌](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) 지표. |
+| `application.isClose` | 모바일 라이프사이클 지표 [충돌](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)을 정의하는 데 도움이 됩니다. |
+| `application.isInstall` | 모바일 라이프사이클 지표 [첫 실행](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
+| `application.isLaunch` | 모바일 라이프사이클 지표 [첫 실행](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
+| `application.closeType` | 닫기 이벤트가 충돌인지 여부를 결정합니다. 유효한 값은 `close`(라이프사이클 세션이 종료되고 이전 세션에 대해 일시 중지 이벤트가 수신됨) 및 `unknown`(라이프사이클 세션이 일시 중지 이벤트 없이 종료됨)입니다. 모바일 라이프사이클 지표 [충돌](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) 지표를 설정하는 데 도움이 됩니다. |
 | `application.isInstall` | 모바일 라이프사이클 지표 [설치](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isLaunch` | 모바일 라이프사이클 지표 [론치](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.name` | 모바일 라이프사이클 차원을 설정하는 데 도움이 됩니다. [앱 ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isLaunch` | 모바일 라이프사이클 지표 [런치](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.name` | 모바일 라이프사이클 차원 [앱 ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)를 설정하는 데 도움이 됩니다. |
 | `application.isUpgrade` | 모바일 라이프사이클 지표 [업그레이드](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.version` | 모바일 라이프사이클 차원을 설정하는 데 도움이 됩니다. [앱 ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.version` | 모바일 라이프사이클 차원 [앱 ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)를 설정하는 데 도움이 됩니다. |
 | `application.sessionLength` | 모바일 라이프사이클 지표 [이전 세션 길이](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `commerce.checkouts.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 [체크아웃](../../components/metrics/checkouts.md) 지표에 적용합니다. |
 | `commerce.checkouts.value` | 원하는 수량만큼 [체크아웃](../../components/metrics/checkouts.md) 지표를 증가시킵니다. |
@@ -45,31 +45,31 @@ ht-degree: 82%
 | `commerce.productViews.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 [제품 보기](../../components/metrics/product-views.md) 지표에 적용합니다. |
 | `commerce.productViews.value` | [제품 보기](../../components/metrics/product-views.md) 지표를 증가시킵니다. |
 | `commerce.purchases.value` | [주문](../../components/metrics/orders.md) 지표를 증가시킵니다. |
-| `device.model` | 모바일 라이프사이클 차원 [장치 이름](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `device.colorDepth` | [색상 깊이](../../components/dimensions/color-depth.md) 차원을 설정하는 데 도움이 됩니다. |
+| `device.model` | 모바일 라이프사이클 차원 [디바이스 이름](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `device.colorDepth` | [색상 심도](../../components/dimensions/color-depth.md) 차원을 설정하는 데 도움이 됩니다. |
 | `device.screenHeight` | [모니터 해상도](../../components/dimensions/monitor-resolution.md) 차원을 설정하는 데 도움이 됩니다. |
 | `device.screenWidth` | [모니터 해상도](../../components/dimensions/monitor-resolution.md) 차원을 설정하는 데 도움이 됩니다. |
 | `device.type` | 모바일 디바이스 유형. |
 | `environment.browserDetails.acceptLanguage` | [언어](../../components/dimensions/language.md) 차원을 설정하는 데 도움이 됩니다. |
 | `environment.browserDetails.cookiesEnabled` | [쿠키 지원](../../components/dimensions/cookie-support.md) 차원을 설정합니다. 유효한 값에는 `Y`(브라우저에서 쿠키를 수락) 및 `N`(브라우저에서 쿠키를 거부)이 포함됩니다. |
 | `environment.browserDetails.javaEnabled` | [Java 활성화](../../components/dimensions/java-enabled.md) 차원을 설정합니다. 유효한 값에는 `Y`(Java가 활성화됨) 및 `N`(Java가 비활성화됨)이 포함됩니다. |
-| `environment.browserDetails.userAgent` | 대체 [고유한 방문자](../../components/metrics/unique-visitors.md) 식별 방법으로 사용됩니다 일반적으로 `User-Agent` HTTP 요청 헤더를 사용하여 채워집니다. 보고서에서 이 필드를 사용하려는 경우 이 필드를 eVar에 매핑할 수 있습니다. |
+| `environment.browserDetails.userAgent` | 대체 [고유 방문자](../../components/metrics/unique-visitors.md) 식별 방법으로 사용됩니다 일반적으로 `User-Agent` HTTP 요청 헤더를 사용하여 채워집니다. 보고서에서 이 필드를 사용하려는 경우 이 필드를 eVar에 매핑할 수 있습니다. |
 | `environment.browserDetails.viewportHeight` | [브라우저 높이](../../components/dimensions/browser-height.md) 차원을 설정합니다. |
 | `environment.browserDetails.viewportWidth` | [브라우저 너비](../../components/dimensions/browser-width.md) 차원을 설정합니다. |
 | `environment.carrier` | 모바일 라이프사이클 차원 [통신사 이름](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `environment.connectionType` | [연결 유형](../../components/dimensions/connection-type.md) 차원을 설정하는 데 도움이 됩니다. |
-| `environment.ipV4` | 대체 [고유한 방문자](../../components/metrics/unique-visitors.md) 식별 방법으로 사용됩니다 일반적으로 `X-Forwarded-For` HTTP 헤더를 사용하여 채워집니다. |
+| `environment.ipV4` | 대체 [고유 방문자](../../components/metrics/unique-visitors.md) 식별 방법으로 사용됩니다 일반적으로 `X-Forwarded-For` HTTP 헤더를 사용하여 채워집니다. |
 | `environment.language` | 모바일 차원 로케일. |
 | `environment.operatingSystem` | 모바일 라이프사이클 차원 [운영 체제](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `environment.operatingSystemVersion` | 모바일 라이프사이클 차원을 설정하는 데 도움이 됩니다. [운영 체제 버전](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `environment.operatingSystemVersion` | 모바일 라이프사이클 차원 [운영 체제 버전](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)을 설정하는 데 도움이 됩니다. |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 해당 [eVar](../../components/dimensions/evar.md) 차원을 설정합니다. |
 | `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | 해당 [계층](/help/components/dimensions/hierarchy.md) 차원을 설정합니다. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 목록 Prop 구분 기호 재정의 구분 기호는 보고서 세트 설정의 [트래픽 변수 관리자](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)에서 자동으로 검색되므로 이 필드를 사용하는 것은 권장되지 않습니다. 이 필드를 사용하면 사용된 구분 기호와 Analytics에서 예상하는 구분 기호가 일치하지 않을 수 있습니다. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 해당 [목록 Prop](../vars/page-vars/prop.md#list-props) 값을 포함하는 문자열 배열입니다. |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | `value`각 배열의 모든 문자열`list[]`을 해당 [목록 변수](../vars/page-vars/list.md)에 연결합니다. 구분 기호는 [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에 설정된 값을 기준으로 자동으로 선택됩니다. |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 해당 [Prop](../../components/dimensions/prop.md) 차원을 설정합니다. |
-| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 적용 [이벤트 정리](../vars/page-vars/events/event-serialization.md) 각각에 대해 [사용자 지정 이벤트](../../components/metrics/custom-events.md) 지표. 각 이벤트 ID는 100개의 그룹 상위 ID에 있습니다. 예를 들어 일련화 를 적용할 대상 `event678`, 사용 `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 각 을 증가시킵니다 [사용자 지정 이벤트](../../components/metrics/custom-events.md) 원하는 수량별 지표. 각 이벤트는 100개 그룹 상위에 있습니다. 예를 들어 다음 필드가 그렇습니다. `event567` 은(는) `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표에 적용합니다. 각 이벤트 ID는 100개의 상위 그룹에 있습니다. 예를 들어 직렬화를 `event678`에 적용하려면 `_experience.analytics.event601to700.event678.id`를 사용합니다. |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 원하는 수량만큼 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표를 증가시킵니다. 각 이벤트는 100개의 상위 그룹에 있습니다. 예를 들어 `event567`에 대한 필드는 `_experience.analytics.event501to600.event567.value`입니다. |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud ID 서비스 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR). |
 | `marketing.trackingCode` | [추적 코드](../../components/dimensions/tracking-code.md) 차원을 설정합니다. |
 | `media.mediaTimed.completes.value` | Media Analytics 지표 [콘텐츠 완료](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#content-complete). |
@@ -80,7 +80,7 @@ ht-degree: 82%
 | `media.mediaTimed.midpoints.value` | Media Analytics 지표 [50% 진행률 마커](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#fifty-progress-marker). |
 | `media.mediaTimed.pauseTime.value` | Media Analytics 지표 [총 일시 중지 기간](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#total-pause-duration). |
 | `media.mediaTimed.pauses.value` | Media Analytics 지표 [일시 중지 이벤트](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#pause-events). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`@id` | Media Analytics 차원 [에셋 ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#asset-id). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`@id` | Media Analytics 차원 [자산 ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#asset-id). |
 | `media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | Media Analytics 차원 [비디오 이름](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#video-name). |
 | `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Media Analytics 차원 [작성자](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#originator). |
 | `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | Media Analytics 차원 [에피소드](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#episode). |
