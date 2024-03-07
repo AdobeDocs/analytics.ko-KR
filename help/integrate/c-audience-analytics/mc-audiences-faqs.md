@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics에 대해 자주 묻는 질문
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 31%
@@ -105,7 +105,7 @@ prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 �
 
 +++
 
-+++ 내 Analytics 보고서에 &quot;대상 제한에 도달했습니다.&quot;가 표시되는 이유는 무엇입니까? (참고: 이 값은 또한 Audience ID = -1 및 &quot;::max_audiences_exceeded::&quot;(Data Warehouse)
++++ 내 Analytics 보고서에 &quot;대상 제한에 도달했습니다.&quot;가 표시되는 이유는 무엇입니까? (참고: 이 값은 또한 Audience ID = -1로 표시되며, `::max_audiences_exceeded::` Data Warehouse)
 
 기본적으로 Adobe Audience Manager에 대한 Audience Analytics 통합은 방문자가 적격한 모든 세그먼트를 히트별로 Analytics에 보냅니다. 방문자가 단일 히트에서 150개가 넘는 Adobe Audience Manager 세그먼트에 속하는 경우 **가장 최근에 자격을 얻은 세그먼트 150개** 가 Analytics로 전송되고 나머지 목록은 잘립니다. 세그먼트 목록이 잘렸음을 나타내는 추가 플래그가 Analytics에 전송되고, 대상자 이름 차원에 “대상자 한도 도달”로 표시되고 대상자 ID 차원에 “-1”로 표시됩니다.
 

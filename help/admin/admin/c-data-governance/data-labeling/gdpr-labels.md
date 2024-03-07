@@ -4,10 +4,10 @@ title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '3576'
-ht-degree: 99%
+source-wordcount: '3569'
+ht-degree: 97%
 
 ---
 
@@ -165,7 +165,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
   </tr>
   <tr> 
    <td colname="col1"> <p>트래픽 변수 </p> </td> 
-   <td colname="col2"> <p>List Props </p> </td> 
+   <td colname="col2"> <p>목록 Props </p> </td> 
    <td colname="col3"> <p>없음/S1/S2 </p> </td> 
    <td colname="col4"> <p>목록 prop은 여러 값을 포함할 수 있으며 개인 정보 식별자로 허용되지 않습니다.</p> </td> 
   </tr> 
@@ -262,4 +262,4 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 
 데이터 개인정보 보호 액세스 요청에 대해 반환되는 파일을 생성하는 코드는 처음 세 개의 타임스탬프 변수 중 하나 이상이 액세스 요청에 포함되어야 합니다 (요청 유형에 적용되는 ACC 레이블 있음). 이러한 항목이 포함되지 않은 경우 Custom Hit Time UTC는 ACC-ALL 레이블이 있는 것처럼 처리됩니다.
 
-데이터 개인정보 보호 액세스 요청에 대해 반환된 히트 레벨 CSV 파일은 unix 타임스탬프에서 이러한 필드의 값을 YYYY-MM-DD HH:MM:SS 형식의 날짜/시간 필드로 변환합니다(예: 2018-05-01 13:49:22). 요약 HTML 파일에서 이러한 타임스탬프 값은 이러한 필드에 대해 발생하는 고유한 값의 수를 줄이기 위해 날짜 YYYY-MM-DD만 포함하도록 잘립니다.
+데이터 개인 정보 보호 액세스 요청에 대해 반환된 히트 레벨 CSV 파일은 unix 타임스탬프에서 이러한 필드의 값을 형식의 날짜/시간 필드로 변환합니다 `YYYY-MM-DD HH:MM:SS` (예: `2018-05-01 13:49:22`). 요약 HTML 파일에서 이러한 타임스탬프 값은 날짜만 포함하도록 잘립니다. `YYYY-MM-DD`를 입력하여 이러한 필드에 대해 발생하는 고유한 값의 수를 줄입니다.
