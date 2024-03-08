@@ -4,10 +4,10 @@ description: 방문자가 본 페이지의 비율을 검색합니다.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 91%
+source-wordcount: '764'
+ht-degree: 85%
 
 ---
 
@@ -78,7 +78,11 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 보고서에서 차원 데이터를 보려면 이러한 변수 중 하나 이상을 eVar에 지정하십시오.
 
-이 플러그인은 위의 값을 포함하는 `s_ppv`라는 자사 쿠키를 만들며, 브라우저 세션이 끝날 때 만료됩니다.
+이 플러그인은 브라우저 세션이 끝날 때 만료되는 세 개의 자사 쿠키를 만듭니다.
+
+* `s_ppv`: 함수를 호출하여 노출된 각 값을 저장합니다
+* `s_tp`: 이전 페이지의 총 픽셀 높이 저장
+* `s_ips`: 이전 페이지의 초기 스크롤된 비율을 저장합니다.
 
 ## 예
 
