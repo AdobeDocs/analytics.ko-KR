@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: dfec68a0ecdf691ab1005919fa3df01158a9cec9
+source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
 workflow-type: tm+mt
-source-wordcount: '3899'
-ht-degree: 99%
+source-wordcount: '3928'
+ht-degree: 98%
 
 ---
 
@@ -68,6 +68,7 @@ ht-degree: 99%
 | **`daily_visitor`** | 히트가 새 일일 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | **`dataprivacyconsentoptin`** | [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md) 차원에서 사용되는 변수입니다. 히트 당 여러 값이 있을 수 있으며 파이프(`\|`)로 구분됩니다. 유효한 값은 `DMP`, `SELL`입니다. | varchar (100) |
 | **`dataprivacyconsentoptout`** | [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md) 차원에서 사용되는 변수입니다. 히트 당 여러 값이 있을 수 있으며 파이프(`\|`)로 구분됩니다. 유효한 값은 `SSF`, `DMP`, `SELL`입니다. | varchar (100) |
+| **`dataprivacydmaconsent`** | Adobe Advertising을 통해 Adobe Analytics에서 서드파티 광고 공급자(Google 등)로 데이터를 전송하는 데 동의하는지 여부를 식별하는 값입니다. 다음을 참조하십시오 [광고 동의](/help/components/dimensions/ad-consent.md) 추가 정보. | varchar (100) |
 | **`date_time`** | 보고서 세트의 시간대를 기반으로 한 읽을 수 있는 형식으로 된 히트 시간입니다. | datetime |
 | **`domain`** | [도메인](/help/components/dimensions/domain.md) 차원에 사용되는 변수입니다. 방문자의 인터넷 액세스 포인트를 기반으로 합니다. | varchar (100) |
 | **`duplicate_events`** | 중복으로 카운트된 각 이벤트를 나열합니다. | varchar (255) |

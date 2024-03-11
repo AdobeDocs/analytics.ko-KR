@@ -3,16 +3,16 @@ description: 동의 관리 차원을 활성화합니다.
 title: 개인정보 보호 보고
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '89'
+ht-degree: 77%
 
 ---
 
 # 개인정보 보호 보고
 
-개인정보 보호 보고를 통해 보고에 사용할 [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md) 및 [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md) 차원을 활성화할 수 있습니다.
+개인 정보 보호 보고를 통해 다음을 활성화할 수 있습니다. [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md), [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md) 및 [광고 동의](/help/components//dimensions/ad-consent.md) 보고에 사용할 차원입니다.
 
 이 페이지에 액세스하려면 다음 작업을 수행하십시오.
 
