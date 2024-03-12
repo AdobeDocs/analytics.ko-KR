@@ -5,7 +5,7 @@ user-guide-title: Analytics 릴리스 정보
 breadcrumb-title: 릴리스 정보
 user-guide-description: Adobe Analytics의 새로운 기능과 수정된 내용에 대해 알아보십시오.
 source-git-commit: 206a7f9bed88229142ac6540fbf3fae31dd06689
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '49'
 ht-degree: 100%
 

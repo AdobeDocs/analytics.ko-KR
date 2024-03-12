@@ -5,9 +5,9 @@ feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
 source-git-commit: e033f32fb3394bb9e2a9ec47766febfbe8d5bfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 ### 클라이언트측
 
-* **Web SDK 확장**: 새 고객을 위한 Adobe Analytics 구현에 권장되는 표준화된 방법입니다. Adobe Experience Platform 데이터 수집 **태그**&#x200B;에 **Adobe Experience Platform 웹 SDK 확장 기능**&#x200B;을 추가한 다음 각 페이지에 로더 태그를 배치합니다. 태그는 Adobe Experience Platform **Edge Network**로 데이터를 전송하고, 여기에서 해당 데이터를 Adobe Analytics로 전달합니다.
+* **Web SDK 확장 기능**: 새 고객을 위한 Adobe Analytics 구현에 권장되는 표준화된 방법입니다. Adobe Experience Platform 데이터 수집 **태그**&#x200B;에 **Adobe Experience Platform 웹 SDK 확장 기능**&#x200B;을 추가한 다음 각 페이지에 로더 태그를 배치합니다. 태그는 Adobe Experience Platform **Edge Network**로 데이터를 전송하고, 여기에서 해당 데이터를 Adobe Analytics로 전달합니다.
   ![Web SDK 확장 기능](./assets/websdk-extension-implementation.png)
-자세한 내용은 [Adobe Experience Platform Web SDK 확장을 사용하여 Adobe Analytics를 구현하는 방법](./aep-edge/overview.md)을 참조하십시오.
+자세한 내용은 [Adobe Experience Platform Web SDK 확장 기능을 사용하여 Adobe Analytics를 구현하는 방법](./aep-edge/overview.md)을 참조하십시오.
 
 * **Web SDK**: Adobe Experience Platform 데이터 수집을 사용하지 않으려면 사이트에서 Web SDK 라이브러리를 수동으로 로드할 수 있습니다. 각 페이지에서 Web SDK 라이브러리(`alloy.js`)를 참조하고 원하는 추적 호출을 조직에 편리한 형식으로 Adobe Experience Platform **Edge Network**에 전송합니다. Edge Network는 해당 데이터를 Adobe Analytics로 전달합니다.
   ![Web SDK](./assets/websdk-implementation.png)
@@ -39,7 +39,7 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
   ![레거시 JavaScript를 사용하여 Adobe Analytics를 구현하는 방법](./assets/appmeasurement-implementation.png)
 이 구현 방법은 사용자 정의 코드를 사용하는 구현에 유용할 수 있으며, [ AMP 페이지](other/amp.md) 등 다른 곳에서 제공되지 않는 구현 유형에 이상적입니다.
 
-다음 의사 결정 흐름은 클라이언트측 구현 방법을 선택하는 데 도움이 될 수 있습니다.
+다음은 클라이언트측 구현 방법을 선택하는 데 도움이 될 수 있는 결정 흐름입니다.
 
 ![이 섹션에 설명된 대로 구현 방법을 선택하기 위한 결정 트리입니다.](./assets/decision-tree.png)
 
@@ -50,22 +50,22 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 ### 서버측
 
-Adobe Analytics server side를 구현하려면 다음 옵션이 있습니다.
+Adobe Analytics를 서버측에 구현할 때에는 다음과 같은 옵션이 있습니다.
 
-* **Edge Server API**: Adobe Experience Platform Edge Server API를 사용하여 데이터스트림을 통해 Adobe Analytics과 통신하는 서버에 코드를 구현합니다.
+* **Edge Server API**: Adobe Experience Platform Edge Server API를 사용하는 서버에 코드를 구현하여 데이터스트림을 통해 Adobe Analytics와 통신합니다.
   ![서버측 구현](assets/edge-network-server-api.svg)
-다음을 참조하십시오 [Adobe Experience Platform Edge Network Server API를 사용하여 Adobe Analytics 구현](/help/implement/aep-edge/server-api/overview.md) 추가 정보.
+자세한 내용은 [Adobe Experience Platform Edge Network Server API를 사용하여 Adobe Analytics 구현](/help/implement/aep-edge/server-api/overview.md)을 참조하십시오.
 
-* **(대량) 데이터 삽입 API**: Adobe Analytics (Bulk) Data Insertion API를 사용하여 서버측 데이터를 Adobe Analytics에 직접 수집합니다.
+* **(일괄) 데이터 삽입 API**: Adobe Analytics (일괄) 데이터 삽입 API를 사용하여 서버측 데이터를 Adobe Analytics로 직접 수집합니다.
   ![데이터 삽입 API](assets/analytics-apis.png)
-다음을 참조하십시오 [데이터 삽입 API](../import/c-data-insertion-api/c-data-insertion-api.md) 추가 정보.
+자세한 내용은 [데이터 삽입 API](../import/c-data-insertion-api/c-data-insertion-api.md)를 참조하십시오.
 
 ## 모바일 앱 구현 방법
 
 **모바일 앱**&#x200B;의 경우 다음 구현 방법을 사용할 수 있습니다.
 
-* **Mobile SDK 확장**: 모바일 앱에서 Adobe Analytics를 구현하기 위한 표준화된 권장 방법입니다. 모바일 앱 내에서 데이터를 Adobe에 쉽게 전송할 수 있는 전용 라이브러리를 사용합니다. Adobe Experience Platform 데이터 수집 **태그**&#x200B;에 **Adobe Experience Platform Mobile SDK 확장 기능**&#x200B;을 추가한 다음 앱에 Mobile SDK 라이브러리를 구현합니다. SDK를 사용하여 라이브러리를 가져오고, 확장 기능을 등록하고, 태그 구성을 로드할 수 있습니다. Adobe Experience Platform **Edge Network**로 데이터를 전송하십시오. 그러면 Edge에서 해당 데이터를 Adobe Analytics로 전달합니다.
-  ![Mobile SDK 확장](./assets/mobilesdk-extension.png)
+* **Mobile SDK 확장 기능**: 모바일 앱에서 Adobe Analytics를 구현하기 위한 표준화된 권장 방법입니다. 모바일 앱 내에서 데이터를 Adobe에 쉽게 전송할 수 있는 전용 라이브러리를 사용합니다. Adobe Experience Platform 데이터 수집 **태그**&#x200B;에 **Adobe Experience Platform Mobile SDK 확장 기능**&#x200B;을 추가한 다음 앱에 Mobile SDK 라이브러리를 구현합니다. SDK를 사용하여 라이브러리를 가져오고, 확장 기능을 등록하고, 태그 구성을 로드할 수 있습니다. Adobe Experience Platform **Edge Network**로 데이터를 전송하십시오. 그러면 Edge에서 해당 데이터를 Adobe Analytics로 전달합니다.
+  ![Mobile SDK 확장 기능](./assets/mobilesdk-extension.png)
 
   자세한 내용은 [Adobe Experience Platform Mobile SDK를 사용하여 Adobe Analytics 구현](../implement/aep-edge/mobile-sdk/overview.md)을 참조하십시오.
 
@@ -77,7 +77,7 @@ Adobe Analytics server side를 구현하려면 다음 옵션이 있습니다.
 
 >[!CAUTION]
 >
->이전 버전의 Adobe 모바일 SDK에 대한 지원은 [SDK 지원 종료 공지](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/).
+>이전 버전의 Adobe 모바일 SDK에 대한 지원에 대해서는 [SDK 지원 종료 공지](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/)를 참조하시기 바랍니다.
 
 ## 주요 Analytics 구현 문서
 
