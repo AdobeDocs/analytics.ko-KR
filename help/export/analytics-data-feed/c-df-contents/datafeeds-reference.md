@@ -8,7 +8,7 @@ exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
 workflow-type: tm+mt
 source-wordcount: '3928'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
 | **`curr_factor`** | 통화 소수점 이하 자리 수를 결정하며 통화 전환에 사용됩니다. 예를 들어 USD는 소수점 이하 두 자리를 사용하므로 이 열 값은 2입니다. | tinyint |
 | **`curr_rate`** | 거래가 발생했을 때 환율입니다. Adobe에서는 현재 날짜의 환율을 결정하기 위해 XE와 파트너 관계를 맺습니다. | decimal (24,12) |
 | **`currency`** | 거래 중에 사용된 통화 코드입니다. | char (8) |
-| **`cust_hit_time_gmt`** | 타임스탬프가 활성화된 보고서 세트 전용입니다. UNIX® 시간을 기반으로 한, 히트와 함께 전송된 타임스탬프입니다. | int |
+| **`cust_hit_time_gmt`** | 타임스탬프가 활성화된 보고서 세트 전용입니다. UNIX® 시간을 기반으로 하는 히트와 함께 전송된 타임스탬프입니다. | int |
 | **`cust_visid`** | 사용자 정의 방문자 ID가 설정되면 이 열에 채워집니다. | varchar (255) |
 | **`daily_visitor`** | 히트가 새 일일 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | **`dataprivacyconsentoptin`** | [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md) 차원에서 사용되는 변수입니다. 히트 당 여러 값이 있을 수 있으며 파이프(`\|`)로 구분됩니다. 유효한 값은 `DMP`, `SELL`입니다. | varchar (100) |
@@ -84,11 +84,11 @@ ht-degree: 98%
 | **`first_hit_ref_type`** | 방문자의 최초 레퍼러 유형을 나타내는 숫자 ID입니다. `referrer_type.tsv` 조회를 사용합니다. | tinyint 부호 없음 |
 | **`first_hit_referrer`** | 방문자의 첫 번째 참조 URL입니다. | varchar (255) |
 | **`first_hit_time_gmt`** | UNIX® 시간에서 방문자의 첫 번째 히트 타임스탬프입니다. | int |
-| **`geo_city`** | IP를 기반으로 한, 히트가 발생한 시/군/구의 이름입니다. [도시](/help/components/dimensions/cities.md) 차원에 사용됩니다. | char (32) |
-| **`geo_country`** | IP를 기반으로 한, 히트가 발생한 국가의 약어입니다. [국가](/help/components/dimensions/countries.md) 차원에 사용됩니다. | char (4) |
-| **`geo_dma`** | IP를 기반으로 한, 히트가 발생한 인구 통계학적 영역의 숫자 ID입니다. [US DMA](/help/components/dimensions/us-dma.md) 차원에 사용됩니다. | int 부호 없음 |
-| **`geo_region`** | IP를 기반으로 한, 히트가 발생한 시/도 또는 지역의 이름입니다. [지역](/help/components/dimensions/regions.md) 차원에 사용됩니다. | char (32) |
-| **`geo_zip`** | IP를 기반으로 한, 히트가 발생한 지역의 우편 번호입니다. [우편 번호](/help/components/dimensions/zip-code.md) 차원을 채우는 데 도움이 됩니다. 참조: `zip`. | varchar (16) |
+| **`geo_city`** | IP를 기반으로 하는 히트가 발생한 시/군/구의 이름입니다. [도시](/help/components/dimensions/cities.md) 차원에 사용됩니다. | char (32) |
+| **`geo_country`** | IP를 기반으로 하는 히트가 발생한 국가의 약어입니다. [국가](/help/components/dimensions/countries.md) 차원에 사용됩니다. | char (4) |
+| **`geo_dma`** | IP를 기반으로 하는 히트가 발생한 인구 통계학적 영역의 숫자 ID입니다. [US DMA](/help/components/dimensions/us-dma.md) 차원에 사용됩니다. | int 부호 없음 |
+| **`geo_region`** | IP를 기반으로 하는 히트가 발생한 시/도 또는 지역의 이름입니다. [지역](/help/components/dimensions/regions.md) 차원에 사용됩니다. | char (32) |
+| **`geo_zip`** | IP를 기반으로 하는 히트가 발생한 지역의 우편 번호입니다. [우편 번호](/help/components/dimensions/zip-code.md) 차원을 채우는 데 도움이 됩니다. 참조: `zip`. | varchar (16) |
 | **`hier1 - hier5`** | 계층 변수에서 사용됩니다. 구분된 값 목록을 포함합니다. 구분 기호는 보고서 세트 설정에서 선택합니다. | varchar (255) |
 | **`hit_source`** | 히트가 발생한 소스를 나타냅니다. 히트 소스 1, 2 및 6이 청구됩니다. <br>1: 타임스탬프가 없는 표준 이미지 요청 <br>2: 타임스탬프가 있는 표준 이미지 요청 <br>3: 타임스탬프가 있는 라이브 데이터 소스 업로드 <br>4: 사용되지 않음 <br>5: 일반 데이터 소스 업로드 <br>6: 데이터 소스 업로드 전체 처리 <br>7: TransactionID 데이터 소스 업로드 <br>8: 더 이상 사용되지 않음, Adobe Advertising Cloud 데이터 소스의 이전 버전 <br>9: 더 이상 사용되지 않음, Adobe Social 요약 지표 <br>10: Audience Manager 서버측 전달이 사용됨 | tinyint 부호 없음 |
 | **`hit_time_gmt`** | 히트 Adobe 데이터 수집 서버의 타임스탬프가 UNIX® 시간을 기준으로 히트를 받았습니다. | int |
@@ -109,7 +109,7 @@ ht-degree: 98%
 | **`latlon1`** | 위치 (10km까지) | varchar (255) |
 | **`latlon23`** | 위치 (100m까지) | varchar (255) |
 | **`latlon45`** | 위치 (1m까지) | varchar (255) |
-| **`mc_audiences`** | 방문자가 속한 Audience Manager 세그먼트 ID 목록입니다. `post_mc_audiences`열은 구분 기호를 `--**--`로 변경합니다. | 텍스트 |
+| **`mc_audiences`** | 방문자가 속한 Audience Manager 세그먼트 ID 목록입니다. `post_mc_audiences` 열은 구분 기호를 `--**--`로 변경합니다. | 텍스트 |
 | **`mcvisid`** | Experience Cloud 방문자 ID. 19자리에 채워진 두 개의 연결된 64비트 숫자로 구성된 128비트 숫자입니다. | varchar (255) |
 | **`mobile_id`** | 사용자가 모바일 디바이스를 사용하는 경우 디바이스의 숫자 ID입니다. `mobile_attributes.tsv`[동적 조회](dynamic-lookups.md)의 키 값입니다. | int |
 | **`mobileaction`** | 모바일 작업입니다. Mobile Services에서 `trackAction`이 호출되면 자동으로 수집됩니다. 앱에서 경로를 지정하는 자동 작업을 허용합니다. | varchar (100) |

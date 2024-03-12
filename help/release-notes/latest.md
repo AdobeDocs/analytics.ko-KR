@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 3c6e11dd9d0044dbf79fa0ba97e55a547966d120
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **AppMeasurement 업데이트** | [AppMeasurement 릴리스 v2.26.0](/help/implement/appmeasurement-updates.md) 을(를) 사용할 수 있습니다. | | 2024년 3월 4일 화요일 |
+| **AppMeasurement 업데이트** | [AppMeasurement 릴리스 v2.26.0](/help/implement/appmeasurement-updates.md) 사용이 가능합니다. | | 2024년 3월 4일 |
 | **Data Warehouse 업데이트** | 이제 다음과 같은 Data Warehouse 개선 기능을 사용할 수 있습니다.<ul><li>Data Warehouse 요청을 생성할 때 사용자는 [!UICONTROL **조직의 사용자들이 사용할 수 있도록 설정**]&#x200B;이라는 새 토글을 활성화하여 조직의 모든 사용자가 사용할 수 있는 요청을 만들 수 있습니다.<p>자세한 내용은 [Data Warehouse 요청 일반 설정](/help/export/data-warehouse/create-request/dw-general-settings.md)을 참조하십시오.</p></li><li>Data Warehouse 보고 대상을 생성하거나 관리할 때 이제 시스템 관리자는 [!UICONTROL **모든 대상 표시**]&#x200B;라는 토글을 활성화하여 조직의 사용자가 생성한 계정과 위치를 표시할 수 있습니다.<p>자세한 내용은 [Data Warehouse 요청에 대한 보고 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을 참조하십시오.</p></li> | 해당 사항 없음 | 2024년 1월 10일 |
 | **주요 지표 요약 시각화 업데이트** | 주요 지표 요약 시각화를 사용할 때 선택한 비교 날짜 범위 옵션이 기본 날짜 범위를 기준으로 하는지 또는 고정되는지 여부에 따라 비교 날짜 범위가 자동으로 업데이트될 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/visualizations/key-metric.md). | 해당 사항 없음 | 2024년 1월 17일 |
 | **Data Warehouse API 설명서** | 자세한 내용은 [Adobe Analytics Data Warehouse API 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API)을 참조하십시오. [!UICONTROL 정의 선택]으로 이동하고 [!UICONTROL Data Warehouse API]를 선택합니다. | | 2024년 2월 19일 |

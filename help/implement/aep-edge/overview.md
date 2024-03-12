@@ -7,7 +7,7 @@ role: Admin, Developer, Leader
 source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 46%
+ht-degree: 50%
 
 ---
 
@@ -42,4 +42,4 @@ Edge Network는 다음 논리를 사용하여 Adobe Analytics 페이지 보기 �
 
 {style="table-layout:auto"}
 
-다음을 참조하십시오. [Adobe Analytics ExperienceEvent 전체 확장 스키마 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) 추가 정보.
+자세한 내용은 [Adobe Analytics ExperienceEvent 전체 스키마 확장 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html)을 참조하십시오.

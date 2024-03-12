@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '5207'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 2019년 1월 이후 Adobe Analytics 설명서 세트에 대한 콘텐츠 업데이트입니다.
 
 * [!UICONTROL Customer Journey Analytics]에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)를 참조하십시오.
-* Adobe Media Analytics에 대한 자세한 내용은 [Analytics 에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)을 참조하십시오.
+* Adobe Media Analytics에 대한 자세한 내용은 [Analytics에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)을 참조하십시오.
 
 ## 주요 설명서 업데이트에 대한 세부 정보
 
@@ -26,9 +26,9 @@ ht-degree: 97%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 3월** | |
-| AppMeasurement 업데이트 | [릴리스 정보](/help/implement/appmeasurement-updates.md) AppMeasurement 업데이트 v2.26.0에서.<br/>에 대한 참조 및 업데이트 포함 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서입니다. |
+| AppMeasurement 업데이트 | [](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
 | **2024년 2월** | |
-| Data Warehouse 요청 관리에 대한 정보 업데이트 | 기본적으로 사용자는 자신이 만든 요청만 볼 수 있음을 명확히 했습니다 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
+| Data Warehouse 요청 관리에 대한 내용 업데이트 | 기본적으로 사용자는 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md) 시에 직접 만든 요청만 볼 수 있음을 명시했습니다. |
 | 프로젝트 공유 설명서 업데이트 | [공유 프로젝트를 보는](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you) 방법에 대한 정보가 추가되었습니다.<p>[개별 또는 여러 프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)에 대한 정보가 간소화되었습니다.</p> |
 | Data Warehouse 및 데이터 피드에서 파일을 Azure SAS와 Azure RBAC에 업로드하기 위한 권한 요구 사항이 추가됨 | [Data Warehouse의 대상을 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)하고 [데이터 피드의 대상을 구성](/help/export/analytics-data-feed/create-feed.md)할 때 파일을 Azure SAS와 Azure RBAC에 업로드하기 위한 권한 요구 사항이 정확히 추가되었습니다. |
 | Data Warehouse 및 데이터 피드에서 파일을 Amazon S3와 GCP 버킷에 업로드하기 위한 권한 요구 사항이 추가됨 | [Data Warehouse의 대상을 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)하고 [데이터 피드의 대상을 구성](/help/export/analytics-data-feed/create-feed.md)할 때 파일을 Amazon S3 및 Google Cloud Platform 버킷에 업로드하기 위한 권한 요구 사항이 정확히 추가되었습니다. |
@@ -79,7 +79,7 @@ ht-degree: 97%
 | 딥 링크(모바일 앱) 설명서 | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Analytics 대시보드 앱(모바일 앱)에 대한 홈 화면 업데이트 설명서 | 새롭게 업데이트된 홈 화면에서는 모든 스코어카드를 하나의 통합된 스코어카드 목록에서 볼 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | 스펙트럼 아이콘 | 설명서의 사용자 인터페이스 아이콘 스크린샷을 [Adobe의 스펙트럼 설계 시스템](https://spectrum.adobe.com/page/icons/)의 해당 아이콘에 대한 참조로 대체하였습니다. |
-| 보고 활동 관리자 | 이 베타 설명서, 특히 [개별 보고서 모음에 대한 보고 활동 보기 섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)이 업데이트되었습니다. |
+| 보고 활동 관리자 | 이 Beta 설명서, 특히 [개별 보고서 모음에 대한 보고 활동 보기 섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)이 업데이트되었습니다. |
 | Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md)가 업데이트되었습니다. |
 | 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |
 | 왼쪽 레일의 구성 요소 정렬 | 왼쪽 레일의 구성 요소 목록 정렬에 대한 정보를 추가했습니다. [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)의 “구성 요소 목록 검색, 필터링 및 정렬” 섹션을 참조하십시오. |
@@ -182,7 +182,7 @@ ht-degree: 97%
 | 2021년 5월 13일 | [Data Warehouse API 요청](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)에 대한 업데이트입니다. 이제 “시간”을 지원합니다. |
 | **2021년 3월** | |
 | 2021년 3월, 4월 | Adobe Analytics 대시보드의 [경영진 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html) 및 [큐레이터 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) 업데이트 |
-| 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지의 새 설명서. 이를 통해 사용자에 대한 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정] 은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 환경 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분 기호 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분 기호</li><li>Workspace 프로젝트: 도움말 > 활성화 팁</li><li>Workspace 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
+| 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지의 새 설명서. 이를 통해 사용자에 대한 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정]은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 환경 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분 기호 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분 기호</li><li>Workspace 프로젝트: 도움말 > 활성화 팁</li><li>Workspace 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
 | 2021년 3월 25일 | [!UICONTROL 막대 그래프 스마트 버킷 예측]이 데이터 스프레드에 적합한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프를 지원합니다. 낮은 카디널리티 지표의 경우 시각화는 이전과 동일하게 작동합니다. |
 | 2021년 3월 25일 | [데이터 복구 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 업데이트 (URL, 쿼리 문자열, @ 기호 등에 대한 필터링) |
 | 2021년 3월 25일 | 새 [사용 로그 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 설명서 |
