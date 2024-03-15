@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
-source-wordcount: '5207'
-ht-degree: 98%
+source-wordcount: '5243'
+ht-degree: 99%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 98%
 | --- | --- |
 | **2024년 3월** | |
 | AppMeasurement 업데이트 | [](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
+| &quot;다음에서 사용됨&quot; 열에 대한 사용 정보는 2023년 9월부터 사용할 수 있습니다. | 에 대한 사용 정보를 명확히 설명했습니다. **다음에서 사용됨** 의 열 [프로젝트 랜딩 페이지](/help/analyze/landing.md) 2023년 9월까지만 적용됩니다. |
 | **2024년 2월** | |
 | Data Warehouse 요청 관리에 대한 내용 업데이트 | 기본적으로 사용자는 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md) 시에 직접 만든 요청만 볼 수 있음을 명시했습니다. |
 | 프로젝트 공유 설명서 업데이트 | [공유 프로젝트를 보는](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you) 방법에 대한 정보가 추가되었습니다.<p>[개별 또는 여러 프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)에 대한 정보가 간소화되었습니다.</p> |
@@ -54,10 +55,10 @@ ht-degree: 98%
 | **2023년 9월** | |
 | 미디어 재생 소요 시간 패널에 대한 문서의 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 해당 폴더의 내용을 단일 문서([미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))로 결합했습니다. <p>이 변경 사항으로 다른 패널의 설명서와 함께 더 일관된 형태를 갖추게 되었습니다.</p> |
 | 시작 콘텐츠 개선 사항 | 관리자, 분석가, 최종 사용자 및 개발자를 위한 주요 시작 작업 및 리소스에 대해 간략하게 설명하는 정보가 추가되었습니다. 이제 다음 문서를 사용할 수 있습니다. <ul><li>[시작하기 (역할별)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics 인터페이스 이해](/help/analyze/get-started/analytics-interface.md)<li>[사용 사례](/help/analyze/get-started/use-cases.md)</li></ul> |
-| Media Analytics 보고 설명서 개선 | API 설명서를 자체 섹션에 통합하고 일부 문서의 순서를 조정하는 것을 포함하여 스트리밍 미디어 안내서의 보고 섹션에 있는 일부 콘텐츠를 재구성했습니다. <p>제품 내 이름과 보다 일치하도록 Media Workspace 템플릿 문서의 이름을 [Workspace의 미디어 보고서](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html)로 변경했습니다. </p> |
+| Media Analytics 보고 설명서 개선 | API 설명서를 자체 섹션에 통합하고 일부 문서의 순서를 조정하는 것을 포함하여 스트리밍 미디어 안내서의 보고 섹션에 있는 일부 콘텐츠를 재구성했습니다. <p>제품 내 이름과 보다 일치하도록 Media Workspace 템플릿 문서의 이름을 [Workspace의 미디어 보고서](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=ko-KR)로 변경했습니다. </p> |
 | **2023년 8월** | |
 | 데이터 피드 설명 | 내역 데이터에 대한 데이터 피드를 처리할 때 데이터 수집 시 시작 일자를 원하는 과거의 일자로 설정할 수 있도록 [시작 및 종료 일자 정의](/help/export/analytics-data-feed/create-feed.md)가 업데이트되었습니다. |
-| Adobe Experience Platform Edge Network 데이터 처리 | Adobe Analytics에 대한 설명 컨텐츠가 추가되었습니다. [에지 네트워크에서 데이터 처리](../implement/aep-edge/overview.md). |
+| Adobe Experience Platform Edge Network 데이터 처리 | Adobe Analytics에서 [Edge Network의 데이터를 처리](../implement/aep-edge/overview.md)하는 방법과 관련된 콘텐츠를 추가합니다. |
 | 미디어 재생 소요 시간 패널 | 가독성이 향상되도록 [미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)의 콘텐츠가 업데이트되었습니다. |
 | 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 문서에 있었습니다. |
 | 구현 방법 비교 | 다양한 구현 방법을 비교하는 설명서가 업데이트되었습니다. [자세히 알아보기](../implement/prepare/comparison.md) |
@@ -140,7 +141,7 @@ ht-degree: 98%
 | 업데이트된 흐름 시각화 설명서 | [새 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)를 기반으로 함 |
 | 모바일 스코어카드에서 주석 공유에 대한 설명서 | [모바일 스코어카드에서 작업 영역에 생성된 주석](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)을 표시할 수 있습니다. |
 | **2022년 5월** | |
-| Edge Network를 통해 라이프사이클 차원 및 지표 채우기 | Edge Network로 전송된 모바일 라이프사이클 데이터가 이제 Analytics 보고에 표시됩니다. 기존 모바일 라이프사이클 보고에 매핑되는 XDM 필드에 대한 자세한 내용은 [Analytics 변수 매핑](/help/implement/aep-edge/variable-mapping.md)을 참조하십시오. |
+| Edge Network를 통해 라이프사이클 차원 및 지표 채우기 | Edge Network를 통해 전송되는 모바일 라이프사이클 데이터가 이제 Analytics 보고에 표시됩니다. 기존 모바일 라이프사이클 보고에 매핑되는 XDM 필드에 대한 자세한 내용은 [Analytics 변수 매핑](/help/implement/aep-edge/variable-mapping.md)을 참조하십시오. |
 | **2022년 4월** | |
 | Adobe Analytics 랜딩 페이지 업데이트 | [작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지](/help/analyze/landing.md) 업데이트로 유용성이 향상되고 탐색이 간편해졌습니다. |
 | [!UICONTROL 페이지 요약] 패널의 새 주제 | [페이지 요약 패널](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
