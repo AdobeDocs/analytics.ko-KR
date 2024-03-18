@@ -4,10 +4,10 @@ description: '''사이트 섹션'' 차원을 채웁니다.'
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 76%
+source-wordcount: '194'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 76%
 
 ## 웹 SDK를 사용한 채널
 
-채널: [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `web.webPageDetails.siteSection`.
+채널은 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.siteSection`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.channel` 또는 `data.__adobe.analytics.ch`
 
 ## Adobe Analytics 확장을 사용한 채널
 

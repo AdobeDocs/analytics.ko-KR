@@ -4,9 +4,9 @@ description: Adobe Analytics에서 계층 변수를 구현합니다.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 95%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## 웹 SDK를 사용한 계층
 
-계층은 XDM 필드 `_experience.analytics.customDimensions.hierarchies.hier1` 아래에서 `_experience.analytics.customDimensions.hierarchies.hier5`에 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
+계층은 XDM 필드 `xdm._experience.analytics.customDimensions.hierarchies.hier1` 아래에서 `xdm._experience.analytics.customDimensions.hierarchies.hier5`에 [Adobe Analytics에 대해 매핑됩니다](/help/implement/aep-edge/xdm-var-mapping.md).
 
 ## Adobe Analytics 확장을 사용한 계층
 

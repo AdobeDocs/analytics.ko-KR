@@ -4,10 +4,10 @@ description: 표시되거나 장바구니에 있는 제품에 대한 데이터�
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 68%
+source-wordcount: '688'
+ht-degree: 64%
 
 ---
 
@@ -21,18 +21,20 @@ ht-degree: 68%
 
 ## 웹 SDK를 사용한 제품
 
-제품: [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 XDM 필드 아래에서:
+을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 제품은 다음 변수에 매핑됩니다.
 
-* 범주가 다음에 매핑됨 `productListItems[].productCategories[].categoryID`. 에서 첫 번째 항목을 사용합니다. `productCategories[]` 배열입니다. `lineItemId` 또한 올바르게 매핑되지만 다음을 권장합니다. `categoryID` 표준 XDM이므로. 두 XDM 필드가 모두 있는 경우 `lineItemId` 을 우선으로 합니다.
-* 제품이 매핑된 대상 `productListItems[].SKU` 또는 `productListItems[].name`. 두 XDM 필드가 모두 있는 경우 `productListItems[].SKU` 를 사용합니다.
-* 수량이 매핑됨 `productListItems[].quantity`.
-* 가격이 매핑됩니다. `productListItems[].priceTotal`.
-* 머천다이징 eVar는에 매핑됩니다. `productListItems._experience.analytics.customDimensions.eVars.eVar1` 끝 `productListItems._experience.analytics.customDimensions.eVars.eVar250`제품에 바인딩할 eVar에 따라 다릅니다.
-* 머천다이징 이벤트가에 매핑됩니다. `productListItems[]._experience.analytics.event1to100.event1.value` 끝 `productListItems._experience.analytics.event901to1000.event1000.value`제품에 바인딩할 이벤트에 따라 다릅니다. 이러한 필드 중 하나에서 이벤트를 설정하면 자동으로 [이벤트](events/events-overview.md) 문자열이 Adobe Analytics으로 전송되었습니다.
+* 범주가 다음에 매핑됨 `xdm.productListItems[].productCategories[].categoryID`. 에서 첫 번째 항목을 사용합니다. `productCategories[]` 배열입니다. `lineItemId` 는 올바로 매핑되지만 Adobe은 `categoryID` 표준 XDM이므로. 두 XDM 필드가 모두 있는 경우 `lineItemId` 을 우선으로 합니다.
+* 제품이 매핑된 대상 `xdm.productListItems[].SKU` 또는 `xdm.productListItems[].name`. 두 XDM 필드가 모두 있는 경우 `xdm.productListItems[].SKU` 를 사용합니다.
+* 수량이 매핑됨 `xdm.productListItems[].quantity`.
+* 가격이 매핑됩니다. `xdm.productListItems[].priceTotal`.
+* 머천다이징 eVar는에 매핑됩니다. `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` 끝 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`제품에 바인딩할 eVar에 따라 다릅니다.
+* 머천다이징 이벤트가에 매핑됩니다. `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 끝 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`제품에 바인딩할 이벤트에 따라 다릅니다. 이러한 필드 중 하나에서 이벤트를 설정하면 자동으로 [이벤트](events/events-overview.md) 문자열이 Adobe Analytics으로 전송되었습니다.
 
 >[!NOTE]
 >
 >`lineItemId` 아직 표준 Analytics 이벤트 스키마에 포함되어 있지 않으므로 사용자 지정 필드로 추가해야 합니다. Adobe은 향후 전용 &#39;범주&#39; 필드를 추가할 계획입니다.
+
+을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), products 변수는 `data.__adobe.analytics.products` 다음 AppMeasurement 구문 이 필드를 설정하면 XDM 개체에 설정된 제품이 덮어쓰기되어 Adobe Analytics으로 전송되지 않습니다.
 
 ## Adobe Analytics 확장을 사용하는 제품
 

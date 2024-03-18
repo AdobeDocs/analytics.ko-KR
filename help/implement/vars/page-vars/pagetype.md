@@ -4,10 +4,10 @@ description: 현재 페이지가 404 오류인지 판단합니다.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 75%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 
 ## Web SDK를 사용하는 페이지 유형
 
-페이지 유형은 XDM 필드 `web.webPageDetails.isErrorPage` 아래에서 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ko-KR). 이 XDM 필드는 부울입니다. 오류 페이지로 표시하려면 `true`로 설정하고, 오류 페이지가 아닌 경우 `false`로 설정하십시오. Adobe는 부울을 Analytics 보고서 세트로 전송할 때 자동으로 문자열 값 `errorPage`으로 변환합니다.
+채널은 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - 이 XDM 필드는 부울입니다. (으)로 설정합니다. `true` 오류 페이지로 플래그를 지정하거나 `false` 오류 페이지가 아닌 경우
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - 이 데이터 개체 필드는 문자열이며, 다음으로 설정합니다. `"errorPage"` 이렇게 플래그를 지정합니다.
 
 ## Adobe Analytics 확장을 사용하는 페이지 유형
 

@@ -4,10 +4,10 @@ description: 컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,26 @@ ht-degree: 100%
 
 ## Web SDK를 사용한 컨텍스트 데이터 변수
 
-XDM 필드가 [Adobe Analytics에 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)되지 않은 경우 자동으로 컨텍스트 데이터 변수로 포함됩니다. 이후 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)을 사용하여 컨텍스트 데이터 변수를 원하는 Analytics 변수에 할당할 수 있습니다.
+을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), Adobe Analytics 변수에 매핑되지 않은 모든 필드는 컨텍스트 데이터 변수로 자동 포함됩니다. 이후 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)을 사용하여 컨텍스트 데이터 변수를 원하는 Analytics 변수에 할당할 수 있습니다.
 
-Datastream의 올바른 XDM 필드에 데이터를 매핑하는 것이 가장 좋은 방법이지만 이 방법도 비슷한 결과를 얻습니다.
+을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 모든 컨텍스트 데이터 변수 `data.__adobe.analytics.contextData` 키-값 쌍으로:
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "contextData": {
+          "example_variable": "Example value",
+          "second_example": "Another value"
+        }
+      }
+    }
+  }
+});
+```
+
+다음 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 인터페이스에 `c.example_variable` 및 `c.second_example` 적용 가능한 드롭다운 메뉴 내에서 확인할 수 있습니다.
 
 ## Adobe Analytics 확장을 사용한 컨텍스트 데이터 변수
 

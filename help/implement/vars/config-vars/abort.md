@@ -4,10 +4,10 @@ description: abort 변수는 히트가 Adobe 데이터 수집 서버에 전송�
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 44%
+source-wordcount: '329'
+ht-degree: 39%
 
 ---
 
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->`abort` 변수는 모든 추적 호출 후 `false`로 재설정됩니다. 동일한 페이지에서 후속 추적 호출을 중지해야 하는 경우에는 `abort`을 다시 `true`로 설정하십시오.
+>`abort` 변수는 모든 추적 호출 후 `false`로 재설정됩니다. 동일한 페이지에서 후속 추적 호출을 중단하려면 을 설정합니다. `abort` 끝 `true` 다시.
 
-예를 들어 `abort` 변수를에서 설정할 수 있습니다. [`doPlugins()`](../functions/doplugins.md) 함수 : 이미지 요청이 Adobe으로 전송되기 전에 마지막으로 실행되는 함수입니다. 이 예제는 다음과 유사하게 작동합니다. `onBeforeEventSend` 웹 SDK를 사용한 콜백입니다.
+다음 `abort` 변수를에서 설정할 수 있습니다. [`doPlugins()`](../functions/doplugins.md) 함수 : 이미지 요청이 Adobe으로 전송되기 전에 마지막으로 실행되는 함수입니다. 이 예제는 다음과 유사하게 작동합니다. `onBeforeEventSend` 웹 SDK를 사용한 콜백입니다.
 
 ```js
 s.doPlugins = function(s) {

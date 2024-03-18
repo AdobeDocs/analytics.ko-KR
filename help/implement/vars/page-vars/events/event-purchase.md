@@ -4,10 +4,10 @@ description: 구매 이벤트를 사용하여 '주문', '판매량' 및 '수입'
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 74%
+source-wordcount: '464'
+ht-degree: 72%
 
 ---
 
@@ -27,11 +27,13 @@ ht-degree: 74%
 
 ## 웹 SDK를 사용하여 구매 이벤트 설정
 
-구매 이벤트는 [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 XDM 필드 아래에서:
+을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 구매 이벤트에서는 다음 XDM 필드를 사용합니다.
 
-* 주문은 `commerce.purchases.value`에 매핑됩니다.
-* 단위는 모든 `productListItems[].quantity` 필드의 합계에 매핑됩니다.
-* 매출은 모든 `productListItems[].priceTotal` 필드의 합계에 매핑됩니다.
+* 주문은 `xdm.commerce.purchases.value`에 매핑됩니다.
+* 단위는 모든 `xdm.productListItems[].quantity` 필드의 합계에 매핑됩니다.
+* 매출은 모든 `xdm.productListItems[].priceTotal` 필드의 합계에 매핑됩니다.
+
+을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 구매 이벤트는 를 사용합니다 `data.__adobe.analytics.events`: AppMeasurement 문자열 구문을 따릅니다.
 
 ## Adobe Analytics 확장을 사용하여 구매 이벤트 설정
 

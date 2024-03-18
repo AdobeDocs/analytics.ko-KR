@@ -5,10 +5,10 @@ feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 90%
 
 ---
 
@@ -45,10 +45,10 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ### 웹 SDK를 사용한 제품 구문
 
-제품 구문 머천다이징 변수는 여러 다른 XDM 필드 아래에서 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
+을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 제품 구문 머천다이징 변수는 다음 XDM 필드를 사용합니다.
 
-* 제품 구문 머천다이징 eVar는 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 아래에서 `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`에 매핑됩니다.
-* 제품 구문 머천다이징 이벤트는 `productListItems[]._experience.analytics.event1to100.event1.value` 아래에서 `productListItems[]._experience.analytics.event901to1000.event1000.value`에 매핑됩니다. [이벤트 일련화](events/event-serialization.md) XDM 필드는 `productListItems[]._experience.analytics.event1to100.event1.id` 아래에서 `productListItems[]._experience.analytics.event901to1000.event1000.id`에 매핑됩니다.
+* 제품 구문 머천다이징 eVar는 `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 아래에서 `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250`에 매핑됩니다.
+* 제품 구문 머천다이징 이벤트는 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 아래에서 `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value`에 매핑됩니다. [이벤트 일련화](events/event-serialization.md) XDM 필드는 `xdm.productListItems[]._experience.analytics.event1to100.event1.id` 아래에서 `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`에 매핑됩니다.
 
 >[!NOTE]
 >
@@ -56,36 +56,38 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 다음 예는 여러 상품화 eVar 및 이벤트를 사용하는 단일 [제품](products.md)을 보여 줍니다.
 
-```js
+```json
 "productListItems": [
-    {
-        "name": "Bahama Shirt",
-        "priceTotal": "12.99",
-        "quantity": 3,
-        "_experience": {
-            "analytics": {
-                "customDimensions" : {
-                    "eVars" : {
-                        "eVar10" : "green",
-                        "eVar33" : "large"
-                    }
-                },
-                "event1to100" : {
-                    "event4" : {
-                        "value" : 1
-                    },
-                    "event10" : {
-                        "value" : 2,
-                        "id" : "abcd"
-                    }
-                }
-            }
+  {
+    "name": "Bahama Shirt",
+    "priceTotal": "12.99",
+    "quantity": 3,
+    "_experience": {
+      "analytics": {
+        "customDimensions" : {
+          "eVars" : {
+            "eVar10" : "green",
+            "eVar33" : "large"
+          }
+        },
+        "event1to100" : {
+          "event4" : {
+            "value" : 1
+          },
+          "event10" : {
+            "value" : 2,
+            "id" : "abcd"
+          }
         }
+      }
     }
+  }
 ]
 ```
 
 위의 예 오브젝트는 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`로 Adobe Analytics에 전송됩니다.
+
+을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), eVar 머천다이징 사용 `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` 다음 AppMeasurement 구문
 
 ## 전환 변수 구문을 사용한 구현
 
@@ -109,33 +111,60 @@ s.products = ";Canary";
 
 ### 웹 SDK를 사용한 전환 변수 구문
 
-Web SDK를 사용하는 전환 변수 구문은 다른 [eVar](evar.md) 및 [이벤트](events/events-overview.md) 구현과 유사하게 작동합니다. 위의 예를 미러링하는 XDM은 다음과 같습니다.
+을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 구문은 기타 구현 과 유사하게 작동합니다 [eVar](evar.md) 및 [events](events/events-overview.md). 위의 예를 미러링하는 XDM은 다음과 같습니다.
 
 동일한 이벤트 호출 또는 이전 이벤트 호출에서 eVar를 설정합니다.
 
-```js
+```json
 "_experience": {
-    "analytics": {
-        "customDimensions": {
-            "eVars": {
-                "eVar1" : "Aviary"
-            }
-        }
+  "analytics": {
+    "customDimensions": {
+      "eVars": {
+        "eVar1" : "Aviary"
+      }
     }
+  }
 }
 ```
 
 제품 문자열에 대한 바인딩 이벤트 및 값을 설정합니다.
 
-```js
+```json
 "commerce": {
-    "productViews" : {
-        "value" : 1
-    }
+  "productViews" : {
+    "value" : 1
+  }
 },
 "productListItems": [
-    {
-        "name": "Canary"
-    }
+  {
+    "name": "Canary"
+  }
 ]
+```
+
+을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 위의 예를 미러링하는 데이터 객체는 다음과 같습니다.
+
+동일한 이벤트 호출 또는 이전 이벤트 호출에서 eVar를 설정합니다.
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "eVar1": "Aviary"
+    }
+  }
+}
+```
+
+제품 문자열에 대한 바인딩 이벤트 및 값을 설정합니다.
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "events": "prodView",
+      "products": ";Canary"
+    }
+  }
+}
 ```

@@ -4,10 +4,10 @@ description: 보고서 세트 설정이 허용하는 경우 '우편번호' 차�
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 94%
+source-wordcount: '270'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,14 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->보고서 세트 설정의 [!UICONTROL Zip 옵션]이 원하는 값으로 설정되어 있는지 확인하십시오. 이 변수는 [!UICONTROL geo zip] (지리적 우편번호) 이 항상 사용되는 경우에는 사용할 수 없습니다. 자세한 내용은 관리자 안내서에서 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)을 참조하십시오.
+>보고서 세트 설정의 [!UICONTROL Zip 옵션]이 원하는 값으로 설정되어 있는지 확인하십시오. 다음과 같은 경우에는 이 변수를 사용할 수 없습니다. [!UICONTROL Geo zip] 는 항상 사용됩니다. 자세한 내용은 관리자 안내서에서 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)을 참조하십시오.
+
+## 웹 SDK를 사용한 우편번호
+
+우편 번호는 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
 
 ## Adobe Analytics 확장을 사용한 우편번호
 

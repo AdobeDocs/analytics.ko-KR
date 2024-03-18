@@ -4,10 +4,10 @@ description: 전자 상거래 사이트의 경우 페이지에서 취급하는 �
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,10 @@ ht-degree: 100%
 
 ## 웹 SDK를 사용한 통화 코드
 
-통화 코드는 XDM 필드 `commerce.order.currencyCode` 아래에서 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
+통화 코드는 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` 또는 `data.__adobe.analytics.cc`
 
 ## Adobe Analytics 확장을 사용한 통화 코드
 

@@ -4,10 +4,10 @@ description: Adobe에 링크 추적 호출을 보냅니다.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 80%
+source-wordcount: '749'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,13 @@ ht-degree: 80%
 
 ## 웹 SDK를 사용한 링크 추적
 
-웹 SDK는 페이지 보기 호출과 링크 추적 호출을 구분하지 않으며, 둘 다 `sendEvent` 명령입니다. Adobe Analytics이 주어진 XDM 이벤트를 링크 추적 호출로 계산하도록 하려면 XDM 데이터에 가 포함되어 있는지 또는 가 매핑되어 있는지 확인하십시오 `web.webInteraction.name`, `web.webInteraction.URL`, 및 `web.webInteraction.type`.
+웹 SDK는 페이지 보기 호출과 링크 추적 호출을 구분하지 않으며, 둘 다 `sendEvent` 명령입니다.
 
-* 링크 이름이 다음에 매핑됨 `web.webInteraction.name`.
-* 링크 URL 매핑 대상 `web.webInteraction.URL`.
-* 링크 유형이 다음에 매핑됨 `web.webInteraction.type`. 유효한 값에는 `other`(사용자 정의 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다.
+XDM 개체를 사용하고 Adobe Analytics이 주어진 이벤트를 링크 추적 호출로 계산하도록 하려는 경우 XDM 데이터에 다음이 포함되어 있는지 확인하십시오.
+
+* 링크 이름: 매핑됨 `xdm.web.webInteraction.name`.
+* 링크 URL:에 매핑됨 `xdm.web.webInteraction.URL`.
+* 링크 유형: 매핑됨 `xdm.web.webInteraction.type`. 유효한 값에는 `other`(사용자 정의 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다.
 
 ```js
 alloy("sendEvent", {
@@ -33,6 +35,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+데이터 개체를 사용하고 Adobe Analytics에서 특정 이벤트를 링크 추적 호출로 계산하도록 하려면 데이터 개체에 다음이 포함되어 있는지 확인하십시오.
+
+* 링크 이름: 매핑됨 `data.__adobe.analytics.linkName`.
+* 링크 URL:에 매핑됨 `data.__adobe.analytics.linkURL`.
+* 링크 유형: 매핑됨 `data.__adobe.analytics.linkType`. 유효한 값에는 `o`(사용자 정의 링크), `d`(다운로드 링크) 및 `e`(종료 링크)가 포함됩니다.
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

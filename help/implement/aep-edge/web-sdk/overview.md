@@ -4,7 +4,7 @@ description: Adobe Experience Platform 데이터 수집에서 Web SDK 확장 기
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
+source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 72%
@@ -65,7 +65,7 @@ ht-degree: 72%
 <tr>
 <td>7</td>
 <td><b>Web SDK를 구성합니다</b>. 4단계에서 설치한 라이브러리가 데이터 스트림 ID(이전에는 에지 구성 ID라고 함)로 제대로 구성되었는지 확인합니다.<code>edgeConfigId</code>), 조직 id(<code>orgId</code>) 및 기타 사용 가능한 옵션. 변수의 적절한 매핑을 확인합니다. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">웹 SDK 구성</a><br/><a href="../variable-mapping.md">XDM 개체 변수 매핑</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">웹 SDK 구성</a><br/><a href="../xdm-var-mapping.md">XDM 개체 변수 매핑</a></td>
 </tr>
 
 <tr>

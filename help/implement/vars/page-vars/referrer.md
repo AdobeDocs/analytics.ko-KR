@@ -4,9 +4,9 @@ description: 히트에 대해 자동으로 수집된 레퍼러를 무시합니�
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 80%
 
 ---
@@ -17,9 +17,12 @@ ht-degree: 80%
 
 ## Web SDK를 사용한 레퍼러
 
-레퍼러: [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `web.webReferrer.URL`.
+레퍼러는 다음 변수에 매핑됩니다.
 
-웹 SDK는 모든 이벤트 히트에 이 차원을 포함합니다.
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
+
+Web SDK에는 `web.webReferrer.URL` 전송된 모든 이벤트(사용 가능한 경우)에서
 
 ## Adobe Analytics 확장을 사용한 레퍼러
 

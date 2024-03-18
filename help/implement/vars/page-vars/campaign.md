@@ -4,10 +4,10 @@ description: '''추적 코드'' 차원을 채웁니다.'
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 93%
+source-wordcount: '240'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 93%
 
 ## Web SDK를 사용한 캠페인
 
-캠페인은 XDM 필드 `marketing.trackingCode` 아래에서 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
+Campaign은 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` 또는 `data.__adobe.analytics.v0`
 
 ## Adobe Analytics 확장을 사용한 캠페인
 

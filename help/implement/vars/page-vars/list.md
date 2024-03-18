@@ -4,10 +4,10 @@ description: 동일한 히트에 여러 값이 있는 사용자 정의 변수입
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '482'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## 웹 SDK를 사용한 목록 변수
 
-목록 변수는 XDM 필드 `_experience.analytics.customDimensions.lists.list1.list[]` 아래에서 `_experience.analytics.customDimensions.lists.list3.list[]`에 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html). 각 배열 요소에는 각 문자열을 포함하는 `"value"` 오브젝트가 포함됩니다. 구분 기호를 제공할 필요가 없습니다. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에 지정된 값을 사용하여 구분 기호가 자동으로 포함됩니다. 예를 들어 쉼표(&#39;`,`&#39;)가 목록 변수 1의 구분 기호로 구성된 경우 다음 XDM 개체가 `"Example value 1,Example value 2,Example value 3"`으로 `list1` 변수를 채웁니다.
+을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 목록 변수는 XDM 필드를 사용합니다 `xdm._experience.analytics.customDimensions.lists.list1.list[]` 끝 `xdm._experience.analytics.customDimensions.lists.list3.list[]`. 각 배열 요소에는 각 문자열을 포함하는 `"value"` 오브젝트가 포함됩니다. 구분 기호를 제공할 필요가 없습니다. Adobe 데이터 수집 서버에서 자동으로 올바른 구분 기호 세트를 검색하여 포함합니다. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -58,6 +58,18 @@ ht-degree: 100%
 >[!NOTE]
 >
 >Adobe XDM 스키마에는 각 `list[]` 배열의 `value` 오브젝트 외에 `key` 오브젝트가 포함됩니다. Adobe는 Adobe Analytics에 데이터를 전송할 때 이 `key` 오브젝트를 사용하지 않습니다.
+
+을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 목록 변수 사용 `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` 다음 AppMeasurement 구문 에 설정된 올바른 구분 기호를 사용해야 합니다. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "list1": "Example value 1,Example value 2,Example value 3"
+    }
+  }
+}
+```
 
 ## Adobe Analytics 확장을 사용한 목록 변수
 

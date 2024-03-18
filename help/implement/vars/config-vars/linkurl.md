@@ -4,10 +4,10 @@ description: 링크 추적 호출에서 AppMeasurement가 사용하는 자동으
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 75%
+source-wordcount: '139'
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 75%
 
 ## 웹 SDK를 사용한 링크 URL
 
-링크 URL은 [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ko-KR) XDM 필드 아래 `web.webInteraction.URL`.
+링크 URL은 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` 또는 `data.__adobe.analytics.pev1`
 
 ## Adobe Analytics 확장을 사용한 링크 URL
 

@@ -4,10 +4,10 @@ description: 구현에 사용할 수 있는 사용자 정의 변수입니다.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 96%
+source-wordcount: '405'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,10 @@ eVar는 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. 
 
 ## 웹 SDK를 사용한 eVar
 
-eVar는 XDM 필드 `_experience.analytics.customDimensions.eVars.eVar1` 아래에서 `_experience.analytics.customDimensions.eVars.eVar250`에 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
+eVar는 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` 끝 `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` 끝 `data.__adobe.analytics.eVar250`; 또는 `data.__adobe.analytics.v1` 끝 `data.__adobe.analytics.v250`
 
 ## Adobe Analytics 확장을 사용한 eVar
 

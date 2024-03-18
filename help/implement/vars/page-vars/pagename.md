@@ -4,10 +4,10 @@ description: 사이트에 있는 페이지의 이름입니다.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 81%
+source-wordcount: '258'
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,10 @@ ht-degree: 81%
 
 ## 웹 SDK를 사용한 페이지 이름
 
-페이지 [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `web.webPageDetails.name`.
+페이지 이름은 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.name`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageName`
 
 ## Adobe Analytics 확장을 사용한 페이지 이름
 

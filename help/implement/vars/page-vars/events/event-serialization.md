@@ -4,10 +4,10 @@ description: 사이트의 지표 중복 제거에 도움이 됩니다.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 96%
+source-wordcount: '424'
+ht-degree: 83%
 
 ---
 
@@ -35,9 +35,11 @@ ht-degree: 96%
 
 ## Web SDK를 사용하여 이벤트 ID 사용
 
-이벤트 직렬화는 원하는 이벤트 XDM 필드의 `id` 아래에 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html). 전체 XDM 경로는 직렬화하려는 이벤트에 따라 다릅니다.
+을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 이벤트 직렬화는 원하는 이벤트의 XDM 필드를 사용합니다 `id`. 전체 XDM 경로는 직렬화하려는 이벤트에 따라 다릅니다.
 
-예를 들어 장바구니 추가 지표를 직렬화하려면 `commerce.productListAdds.id` XDM 필드를 원하는 직렬화 값으로 설정합니다. 사용자 정의 이벤트 20을 직렬화하려면 `_experience.analytics.event1to100.event20` XDM 필드를 원하는 직렬화 값으로 설정합니다.
+예를 들어 장바구니 추가 지표를 직렬화하려면 다음을 설정합니다. `xdm.commerce.productListAdds.id` 원하는 직렬화 값으로 사용자 지정 이벤트 20을 직렬화하려면 다음을 설정하십시오. `xdm._experience.analytics.event1to100.event20` 원하는 직렬화 값으로
+
+을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 이벤트 일련화 사용 `data.__adobe.analytics.events`: AppMeasurement 문자열 구문을 따릅니다.
 
 ## Adobe Analytics 확장을 사용한 이벤트 ID 사용
 

@@ -4,10 +4,10 @@ description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 96%
+source-wordcount: '423'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,10 @@ ht-degree: 96%
 
 ## Web SDK를 사용한 거래 ID
 
-거래 ID는 XDM 필드 `commerce.order.payments[0].transactionID` 아래에서 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
+거래 ID는 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[0].transactionID`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` 또는 `data.__adobe.analytics.xact`
 
 ## Adobe Analytics 확장을 사용한 거래 ID
 

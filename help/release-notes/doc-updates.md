@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5243'
 ht-degree: 99%
@@ -141,7 +141,7 @@ ht-degree: 99%
 | 업데이트된 흐름 시각화 설명서 | [새 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)를 기반으로 함 |
 | 모바일 스코어카드에서 주석 공유에 대한 설명서 | [모바일 스코어카드에서 작업 영역에 생성된 주석](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)을 표시할 수 있습니다. |
 | **2022년 5월** | |
-| Edge Network를 통해 라이프사이클 차원 및 지표 채우기 | Edge Network를 통해 전송되는 모바일 라이프사이클 데이터가 이제 Analytics 보고에 표시됩니다. 기존 모바일 라이프사이클 보고에 매핑되는 XDM 필드에 대한 자세한 내용은 [Analytics 변수 매핑](/help/implement/aep-edge/variable-mapping.md)을 참조하십시오. |
+| Edge Network를 통해 라이프사이클 차원 및 지표 채우기 | Edge Network를 통해 전송되는 모바일 라이프사이클 데이터가 이제 Analytics 보고에 표시됩니다. 기존 모바일 라이프사이클 보고에 매핑되는 XDM 필드에 대한 자세한 내용은 [Analytics 변수 매핑](/help/implement/aep-edge/xdm-var-mapping.md)을 참조하십시오. |
 | **2022년 4월** | |
 | Adobe Analytics 랜딩 페이지 업데이트 | [작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지](/help/analyze/landing.md) 업데이트로 유용성이 향상되고 탐색이 간편해졌습니다. |
 | [!UICONTROL 페이지 요약] 패널의 새 주제 | [페이지 요약 패널](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

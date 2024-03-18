@@ -4,10 +4,10 @@ description: 구현에 사용할 수 있는 사용자 정의 변수입니다.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 94%
+source-wordcount: '615'
+ht-degree: 85%
 
 ---
 
@@ -25,7 +25,10 @@ prop은 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. 
 
 ## Web SDK를 사용한 prop
 
-prop은 XDM 필드 `_experience.analytics.customDimensions.props.prop1` 아래에서 `_experience.analytics.customDimensions.props.prop75`에 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html). 목록 prop은 별도의 필드 세트에 지정됩니다.
+Prop은 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - 목록 prop이 [별도의 필드 세트](#list-props-web-sdk).
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; 또는 `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - 목록 prop이 이러한 필드에 포함됩니다.
 
 ## Adobe Analytics 확장을 사용한 prop
 
@@ -60,9 +63,11 @@ s.prop1 = "Example custom value";
 >
 >구현에 사용되는 일반적인 구분 기호는 쉼표(`,`), 콜론(`:`), 세미콜론(`;`) 또는 파이프(`|`)입니다. 구현에 가장 적합한 비확장 ASCII 구분 기호를 사용할 수 있습니다.
 
-### Web SDK를 사용한 목록 prop
+### Web SDK를 사용한 목록 prop {#list-props-web-sdk}
 
-보고서 세트 설정에서 원하는 구분 기호로 목록 prop을 구성하면 목록 prop이 `_experience.analytics.customDimensions.listProps.prop1.values[]`에서 `_experience.analytics.customDimensions.listProps.prop75.values[]`로 Adobe Analytics에 매핑됩니다. Web SDK는 보고서 세트 설정 아래에 나열된 올바른 구분 기호를 자동으로 사용합니다. XDM 필드에 구분 기호를 설정하면(예: `_experience.analytics.customDimensions.props.prop1.delimiter`) 보고서 세트 설정에서 자동으로 검색된 구분 기호를 재정의하고 목록 prop 문자열을 잘못 구문 분석할 수 있습니다.
+을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 목록 prop이 매핑됨 `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK는 보고서 세트 설정 아래에 나열된 올바른 구분 기호를 자동으로 사용합니다. XDM 필드에 구분 기호를 설정하면(예: `xdm._experience.analytics.customDimensions.props.prop1.delimiter`) 보고서 세트 설정에서 자동으로 검색된 구분 기호를 재정의하고 목록 prop 문자열을 잘못 구문 분석할 수 있습니다.
+
+을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 목록 prop은 표준 prop과 동일한 필드를 사용하며 AppMeasurement 구문을 따릅니다.
 
 ### Adobe Analytics 확장 프로그램 및 AppMeasurement를 사용하여 목록 prop 설정
 

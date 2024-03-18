@@ -4,10 +4,10 @@ description: 사이트에 대한 대부분의 지표를 제어하는 events 변�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 90%
+source-wordcount: '845'
+ht-degree: 85%
 
 ---
 
@@ -19,24 +19,26 @@ ht-degree: 90%
 
 ## Web SDK를 사용한 이벤트
 
-사용자 정의 이벤트는 다음 XDM 필드에서 [Adobe Analytics에 대해 매핑됩니다.](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)
+을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 사용자 지정 이벤트는 다음 XDM 필드를 사용합니다.
 
-* 사용자 정의 이벤트 1-100은 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`에 매핑됩니다.
-* 사용자 정의 이벤트 101-200은 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`에 매핑됩니다.
-* 이 패턴은 `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`까지 100개의 이벤트마다 반복됩니다. `eventx.value`은 증가할 양을 지정하는 데 사용됩니다. `eventx.id`는 [직렬화](event-serialization.md)에 사용됩니다.
-* 주문은 `commerce.purchases.value`에 매핑됩니다.
+* 사용자 정의 이벤트 1-100은 `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`에 매핑됩니다.
+* 사용자 정의 이벤트 101-200은 `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`에 매핑됩니다.
+* 이 패턴은 `xdm._experience.analytics.event901to1000.event901` - `xdm._experience.analytics.event901to1000.event1000`까지 100개의 이벤트마다 반복됩니다. `eventx.value`은 증가할 양을 지정하는 데 사용됩니다. `eventx.id`는 [직렬화](event-serialization.md)에 사용됩니다.
+* 주문은 `xdm.commerce.purchases.value`에 매핑됩니다.
 * 단위는 모든 `productListItems[].quantity` 필드의 합계에 매핑됩니다.
 * 매출은 모든 `productListItems[].priceTotal` 필드의 합계에 매핑됩니다.
-* 제품 보기는 `commerce.productListViews.value`에 매핑됩니다.
-* 장바구니는 `commerce.productListOpens.value`에 매핑됩니다.
-* 장바구니 추가는 `commerce.productListAdds.value`에 매핑됩니다.
-* 장바구니 삭제는 `commerce.productListRemovals.value`에 매핑됩니다.
-* 장바구니 보기는 `commerce.productListViews.value`에 매핑됩니다.
-* 체크아웃은 `commerce.checkouts.value`에 매핑됩니다.
+* 제품 보기는 `xdm.commerce.productListViews.value`에 매핑됩니다.
+* 장바구니는 `xdm.commerce.productListOpens.value`에 매핑됩니다.
+* 장바구니 추가는 `xdm.commerce.productListAdds.value`에 매핑됩니다.
+* 장바구니 삭제는 `xdm.commerce.productListRemovals.value`에 매핑됩니다.
+* 장바구니 보기는 `xdm.commerce.productListViews.value`에 매핑됩니다.
+* 체크아웃은 `xdm.commerce.checkouts.value`에 매핑됩니다.
 
 >[!NOTE]
 >
 >`productListItems` 아래에 이벤트가 설정되어 있고(예: `productListItems._experience.analytics.event1.value`) 해당 이벤트가 아직 이 필드에 없으면 해당 이벤트가 이 필드에 자동으로 추가됩니다.
+
+을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 모든 이벤트는 `data.__adobe.analytics.events`: AppMeasurement 문자열 구문을 따릅니다. 이 필드를 설정하면 XDM 개체에 설정된 이벤트가 덮어쓰기되어 Adobe Analytics으로 전송되지 않습니다.
 
 ## Adobe Analytics 확장을 사용한 이벤트
 

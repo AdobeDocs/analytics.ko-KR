@@ -4,7 +4,7 @@ description: 고유 구매 식별자를 기반으로 히트를 중복 제거합�
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 83%
@@ -21,7 +21,10 @@ Adobe가 히트를 중복 구매로 인식하면 모든 전환 데이터 (예: e
 
 ## 웹 SDK를 사용한 구매 ID
 
-구매 ID: [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ko-KR) XDM 필드 아래 `commerce.order.purchaseID`.
+구매 ID는 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## Adobe Analytics 확장을 사용한 구매 ID
 

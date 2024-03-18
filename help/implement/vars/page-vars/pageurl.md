@@ -4,9 +4,9 @@ description: 사이트에서 자동으로 수집된 페이지 URL을 무시합�
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 79%
 
 ---
@@ -21,7 +21,10 @@ AppMeasurement는 각 히트에서 페이지 URL을 자동으로 수집합니다
 
 ## 웹 SDK를 사용한 페이지 URL
 
-페이지 URL: [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `web.webPageDetails.URL`.
+페이지 URL은 다음 변수에 매핑됩니다.
+
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` 또는 `data.__adobe.analytics.g`
 
 ## Adobe Analytics 확장을 사용한 페이지 URL
 

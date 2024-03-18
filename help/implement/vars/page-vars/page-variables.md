@@ -4,14 +4,14 @@ description: 개별 페이지에서 값을 설정합니다.
 feature: Variables
 exl-id: 321d0db2-61a3-478e-ab51-8e06c7b2bb7b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '70'
 ht-degree: 100%
 
 ---
 
-# 페이지 변수
+# 페이지 변수 개요
 
 페이지 변수는 보고의 차원 및 지표에 대한 값을 결정합니다.
 
