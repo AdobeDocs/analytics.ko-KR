@@ -3,7 +3,7 @@ description: 동의 관리 차원을 활성화합니다.
 title: 개인정보 보호 보고
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: a102242b98967d578918f358166e13d90f06e070
+source-git-commit: 90d9e2962307060ed95b0e8cf0c6fbce6d54edb1
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 55%
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->최근에 새 광고 플랫폼 동의 플래그를 추가했습니다. 이 새 변수를 적용하려면 데이터 개인 정보 보호 보고서를 다시 활성화해야 합니다.
+>새 광고 플랫폼 동의 플래그를 추가했습니다. 이 새 변수를 적용하려면 데이터 개인 정보 보호 보고서를 다시 활성화해야 합니다.
 
 이 페이지에 액세스하려면 다음 작업을 수행하십시오.
 
