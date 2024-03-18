@@ -4,10 +4,10 @@ title: 자유 형식 테이블 필터링 및 정렬
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
+source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 68%
+source-wordcount: '878'
+ht-degree: 71%
 
 ---
 
@@ -48,12 +48,14 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
    Shift 키를 누른 상태로 행 범위를 선택하거나 Command 키(Mac) 또는 Ctrl 키(Windows)를 누른 상태로 여러 행을 선택합니다.
 
-### 마우스 오른쪽 단추 클릭 > 선택한 행 삭제
+<!--### Right-click > Delete selected rows
 
-1. 1개 이상의 행을 선택합니다.
-1. 마우스 오른쪽 단추를 클릭하고 선택 **[!UICONTROL 선택한 행 삭제]**.
+Note: this option does not seem to work. AN-338422
 
-   이 작업을 수행하면 테이블에서 행이 제거되고 테이블 필터가 적용됩니다.
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
 
 ### 표에 단순 또는 고급 필터 적용
 
