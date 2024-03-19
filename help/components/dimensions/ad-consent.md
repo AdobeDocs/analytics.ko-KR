@@ -1,17 +1,17 @@
 ---
-title: 광고 동의
+title: 광고 플랫폼 동의
 description: 타사 광고 공급자에 대한 광고 동의에 대한 구성을 참조하십시오.
 feature: Dimensions
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '329'
 ht-degree: 3%
 
 ---
 
-# 광고 동의
+# 광고 플랫폼 동의
 
-광고 동의 [차원](overview.md) Google, Meta 등과 같은 타사 광고 공급자에게 데이터를 전송하는 데 동의하는지 여부를 표시합니다.
+광고 플랫폼 동의&#39; [차원](overview.md) Google, Meta 등과 같은 타사 광고 공급자에게 데이터를 전송하는 데 동의하는지 여부를 표시합니다.
 
 현재 이 차원은 Google에만 사용됩니다. 유럽의 개인 정보 보호 규정, 디지털 시장법(DMA)으로 인해 Google은 서버에 전송하여 유럽에서 수집한 데이터에 동의 수집 여부를 표시해야 합니다. 일부 Analytics 고객은 Adobe Advertising을 통해 이벤트 데이터를 Google에 전환 이벤트로 보냅니다.
 
@@ -52,7 +52,6 @@ contextData.['adConsent'] = "YN..."
 
 * 데이터 피드: 광고 동의 데이터는 `dataprivacydmaconsent` [열](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouse 보고서: 광고 동의 데이터는 **[!UICONTROL 광고 플랫폼 동의]** 차원.
-
 
 조직은 이 컨텍스트 데이터 변수를 구현하는 논리를 결정합니다. 이 값은 설정된 히트 이후에 지속되지 않으므로 각 페이지에서 컨텍스트 데이터 변수를 설정해야 합니다.
 
