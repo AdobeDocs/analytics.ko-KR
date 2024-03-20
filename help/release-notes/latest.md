@@ -3,10 +3,10 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9636b8e4e8596449cb37bbab9bc46d660fac4a4b
+source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 85%
+source-wordcount: '1303'
+ht-degree: 80%
 
 ---
 
@@ -50,6 +50,7 @@ AN-312198, AN-338009, AN-339549, AN-333970, AN-334790, AN-336461, AN-336572, AN-
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
+| **저장된 기간 13개월 만료`cust_visids`** | 2024년 3월 20일 목요일 | 4월 또는 5월을 목표로 하는 Analytics Hit 처리 엔진의 향후 릴리스에서는 저장된 항목의 13개월 만료가 적용됩니다 `cust_visids`. 보고서 세트에 &quot;방문자 결합 활성화&quot;가 활성화되어 있으면 이 설정이 을 찾는 데 사용됩니다. `cust_visid` 용 `visid_high/visid_low value` 없이 `cust_visid` 적중할 때. 현재 의 매핑 만료가 없습니다. `cust_visid` 용 `visid_high/visid_low`. 이 릴리스에서는 이후 13개월 이상이 경과한 경우 `visid_high/visid_low` 다음을 포함: `cust_visid` 히트에서 매핑이 만료됩니다. |
 | **Adobe API 오브젝트 멤버 추가** | 2024년 1월 17일 | 언제든지 Adobe는 버전 관리에 대한 공지나 변경 없이 기존 API 오브젝트에 선택적 요청 및 응답 멤버(이름/값 쌍)를 추가할 수 있습니다. Adobe에서는 이들 추가 사항이 이해되지 않는 경우 처리 시 무시되도록 Adobe API와 통합하는 서드파티 도구의 API 설명서를 참조할 것을 권장합니다. 제대로 구현된 경우 이들 추가 사항은 구현을 위해 중단하는 변경 사항입니다. Adobe는 릴리스 정보를 통한 표준 알림 없이 매개변수를 제거하거나 필수 매개변수를 추가하지 않습니다. |
 | **`getPageLoadTime`플러그인 사용 안 함** | 2024년 1월 10일 | 이 플러그인은 더 이상 지원되지 않습니다. 해당 코드는 MDN에 따라 [더 이상 사용되지 않는](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming) performance.timing 메서드를 활용합니다. 업데이트된 플러그인 작업이 시작되었습니다. |
 
