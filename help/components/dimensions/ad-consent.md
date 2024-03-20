@@ -2,9 +2,9 @@
 title: 광고 플랫폼 동의
 description: 타사 광고 공급자에 대한 광고 동의에 대한 구성을 참조하십시오.
 feature: Dimensions
-source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
+source-git-commit: ba892374710bc24c379e0c53e5fd00ff4c39d906
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 현재 이 차원은 Google에만 사용됩니다. 유럽의 개인 정보 보호 규정, 디지털 시장법(DMA)으로 인해 Google은 서버에 전송하여 유럽에서 수집한 데이터에 동의 수집 여부를 표시해야 합니다. 일부 Analytics 고객은 Adobe Advertising을 통해 이벤트 데이터를 Google에 전환 이벤트로 보냅니다.
 
-향후에 이 차원은 다른 타사 광고 공급자에 대한 추가 동의 정보의 인코딩을 지원하는 데 사용할 수 있습니다.
+향후 이 차원을 사용하여 다른 타사 광고 공급자에 대한 추가 동의 정보의 인코딩을 지원할 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
