@@ -4,10 +4,10 @@ title: 자유 형식 테이블 필터링 및 정렬
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
+source-git-commit: 398d4ae264ce108c16a03cef086ae2614b442a2b
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 71%
+source-wordcount: '874'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,6 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 여러 메서드를 사용하여 자유 형식 테이블에서 행을 필터링할 수 있습니다. 
 
 - 행에서 &#39;X&#39;를 클릭합니다
-- 마우스 오른쪽 단추 클릭 > 선택한 삭제된 행
 - 표 필터
 - 세그먼테이션
 
