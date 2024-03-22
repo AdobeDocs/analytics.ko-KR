@@ -3,24 +3,24 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 작성
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 5%
+source-wordcount: '172'
+ht-degree: 39%
 
 ---
 
 # Data Warehouse 요청에 대한 보고서 작성
 
-Data Warehouse 요청을 만들 때 사용할 수 있는 구성 옵션은 다양합니다. 다음 정보는 요청에 대한 보고서를 작성하는 방법을 설명합니다.
+Data Warehouse 요청을 만들 때 사용할 수 있는 다양한 구성 옵션이 있습니다. 다음 정보는 요청에 대한 보고서를 작성하는 방법을 설명합니다.
 
-요청 만들기를 시작하는 방법과 기타 중요한 구성 옵션에 대한 링크에 대한 자세한 내용은 을 참조하십시오. [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+요청 만들기를 시작하는 방법과 다른 중요 구성 옵션 링크에 대한 자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md)을 참조하십시오.
 
 Data Warehouse 요청에 대한 보고서를 작성하려면 다음 작업을 수행하십시오.
 
-1. 다음을 선택하여 Adobe Analytics에서 요청 만들기 시작 **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **추가**].
+1. 아직 만들지 않은 경우 다음을 선택하여 Adobe Analytics에서 요청 만들기를 시작합니다. **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **추가**].
 
-   자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md)를 참조하십시오.
 
 1. 새 Data Warehouse 요청 페이지에서 [!UICONTROL **보고서 작성**] 탭.
 
@@ -28,7 +28,7 @@ Data Warehouse 요청에 대한 보고서를 작성하려면 다음 작업을 �
 
 1. 세그먼트, 지표 및 차원을 빌더로 드래그합니다. 빌드하는 보고서는 Data Warehouse 요청에 포함되는 데이터를 결정합니다.
 
-1. 에서 Data Warehouse 요청 구성 계속 [!UICONTROL **보고서 대상**] 탭. 자세한 내용은 [Data Warehouse 요청에 대한 보고서 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. 에서 Data Warehouse 요청 구성 계속 [!UICONTROL **보고서 대상**] 탭. 자세한 내용은 [Data Warehouse 요청에 대한 보고 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을 참조하십시오.
 
 <!--
 

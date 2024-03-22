@@ -3,24 +3,24 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 9%
+source-wordcount: '291'
+ht-degree: 27%
 
 ---
 
 # Data Warehouse 요청에 대한 예약 옵션 구성
 
-Data Warehouse 요청을 만들 때 사용할 수 있는 구성 옵션은 다양합니다. 다음 정보는 요청에 대한 예약 옵션을 구성하는 방법을 설명합니다.
+Data Warehouse 요청을 만들 때 사용할 수 있는 다양한 구성 옵션이 있습니다. 다음 정보는 요청에 대한 예약 옵션을 구성하는 방법을 설명합니다.
 
-요청 만들기를 시작하는 방법과 기타 중요한 구성 옵션에 대한 링크에 대한 자세한 내용은 을 참조하십시오. [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+요청 만들기를 시작하는 방법과 다른 중요 구성 옵션 링크에 대한 자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md)을 참조하십시오.
 
 Data Warehouse 요청에 대한 예약 옵션을 구성하려면 다음을 수행합니다.
 
-1. 다음을 선택하여 Adobe Analytics에서 요청 만들기 시작 **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **추가**].
+1. 아직 만들지 않은 경우 다음을 선택하여 Adobe Analytics에서 요청 만들기를 시작합니다. **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **추가**].
 
-   자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md)를 참조하십시오.
 
 1. 새 Data Warehouse 요청 페이지에서 [!UICONTROL **예약 옵션**] 탭.
 
