@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5243'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 | --- | --- |
 | **2024년 3월** | |
 | AppMeasurement 업데이트 | [](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
-| &quot;다음에서 사용됨&quot; 열에 대한 사용 정보는 2023년 9월부터 사용할 수 있습니다. | 에 대한 사용 정보를 명확히 설명했습니다. **다음에서 사용됨** 의 열 [프로젝트 랜딩 페이지](/help/analyze/landing.md) 2023년 9월까지만 적용됩니다. |
+| “다음에서 사용” 열에 관한 사용량 정보는 2023년 9월부터의 자료만 제공됩니다. | [프로젝트 랜딩 페이지](/help/analyze/landing.md)의 **다음에서 사용** 열과 관련된 사용량 정보는 2023년 9월부터의 자료만 제공된다는 점을 명확히 했습니다. |
 | **2024년 2월** | |
 | Data Warehouse 요청 관리에 대한 내용 업데이트 | 기본적으로 사용자는 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md) 시에 직접 만든 요청만 볼 수 있음을 명시했습니다. |
 | 프로젝트 공유 설명서 업데이트 | [공유 프로젝트를 보는](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you) 방법에 대한 정보가 추가되었습니다.<p>[개별 또는 여러 프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)에 대한 정보가 간소화되었습니다.</p> |
