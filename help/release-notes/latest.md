@@ -3,16 +3,16 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b38cdaaf79e22902c4a0fa0e9b782baba9cf0b26
+source-git-commit: b3f2f503cabd45aebd3bc200c8f9abaeb033d419
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 100%
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2024년 3월)
 
-**마지막 업데이트**: 2024년 3월 21일
+**마지막 업데이트**: 2024년 4월 3일 목요일
 
 이번 릴리스 정보에는 2024년 3월 12일부터 2024년 4월까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **작업 영역 프로젝트에 대한 삭제 프로토콜로 변경** | 이전에는 삭제된 프로젝트가 시스템에서 삭제되지 않았습니다. 이제 180일 후 삭제된 프로젝트를 삭제합니다. 삭제 후 180일 동안에도 직접 프로젝트에 대한 URL이 있는 경우 사용자는 웹 인터페이스를 통해 프로젝트에 액세스할 수 있습니다. | | 2024년 3월 14일 |
 | **AppMeasurement 업데이트** | [AppMeasurement 릴리스 v2.26.0](/help/implement/appmeasurement-updates.md) 사용이 가능합니다. | | 2024년 3월 4일 |
 | **‘프로젝트’ 랜딩 페이지에서 새로운 열 사용 가능** | 이제 [Adobe Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html)에서 ‘프로젝트’ 탭을 볼 때 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있습니다. <p>이 정보는 프로젝트를 마지막으로 연 일자와 시간을 표시해 주므로 프로젝트가 조직의 사용자에게 가치가 있는지 여부를 판단하는 데 도움이 될 수 있습니다.</p> <p>이전에는 계산된 지표 관리자, 세그먼트 관리자 및 경고 관리자만 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있었습니다.</p> |  | 2024년 3월 13일 |
 | **DMA를 위해 Google에서 요구하는 동의 플래그에 대한 분석 지원** | 새로운 유럽 개인 정보 보호 규정에 따라 Google에서는 유럽에서 수집하여 전송된 데이터에 대해 두 가지 특정 종류의 동의를 받았는지 여부를 표시하도록 요구합니다. **3월 6일부터** Google에서는 관련 동의를 받았음이 표시되지 않은 이벤트 데이터를 더 이상 허용하지 않습니다. Adobe Analytics는 새로운 adConsent 변수를 통해 이 데이터를 캡처하는 지원을 릴리스했습니다. [개인 정보 보호 보고 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)에 나열된 새 변수를 확인할 수 있습니다. 이를 활성화하고자 하며 이전 동의 변수에 대해 이미 개인 정보 보호를 활성화한 경우, 개인 정보 보호를 다시 활성화해야 합니다.<p>[광고 플랫폼 동의 차원](/help/components/dimensions/ad-consent.md)은 Google과 같은 서드파티 광고 제공업체에 데이터를 전송하기 위한 동의가 수집되는지 여부를 표시합니다. |  | 2024년 3월 13일 |
