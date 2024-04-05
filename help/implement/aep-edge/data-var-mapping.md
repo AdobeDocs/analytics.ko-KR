@@ -4,9 +4,9 @@ description: Experience Platform Edge가 Analytics 변수에 자동으로 매핑
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
+source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '555'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,6 @@ ht-degree: 5%
 | `data.__adobe.analytics.referrer` | [레퍼러](/help/components/dimensions/referrer.md) 차원. |
 | `data.__adobe.analytics.resolution` | 다음 [모니터 해상도](../../components/dimensions/monitor-resolution.md) 차원. 속기 분야 `data.__adobe.analytics.s` 도 지원됩니다. |
 | `data.__adobe.analytics.server` | [서버](/help/components/dimensions/server.md) 차원. |
-| `data.__adobe.analytics.tnta` | A4T 통합에 사용됩니다. |
 | `data.__adobe.analytics.transactionID` | 다음 [`transactionID`](../vars/page-vars/transactionid.md) 구현 변수입니다. 속기 분야 `data.__adobe.analytics.xact` 도 지원됩니다. |
 | `data.__adobe.analytics.zip` | 다음 [우편 번호](../../components/dimensions/zip-code.md) 차원. |
 
