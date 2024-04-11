@@ -4,9 +4,9 @@ description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 97%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Workspace 프로젝트 삭제 프로토콜 변경** | 이전에는 삭제된 프로젝트가 시스템에서 삭제되지 않았습니다. 이제 180일이 지나면 삭제된 프로젝트의 제거가 시작됩니다. 삭제 후 180일 동안 프로젝트에 대한 URL이 있는 경우 사용자는 웹 인터페이스를 통해 삭제된 프로젝트에 액세스할 수 있습니다. | | 2024년 3월 14일 |
+| **Workspace 프로젝트 삭제 프로토콜 변경** | 기존에는 삭제된 프로젝트가 시스템에서 제거되지 않았습니다. 이제 180일이 지나면 삭제된 프로젝트의 제거가 시작됩니다. 사용자는 프로젝트로 연결되는 URL이 있는 경우 삭제 후 180일 동안 웹 인터페이스를 통해 삭제된 프로젝트에 계속 액세스할 수 있습니다. | | 2024년 3월 14일 |
 | **AppMeasurement 업데이트** | [AppMeasurement 릴리스 v2.26.0](/help/implement/appmeasurement-updates.md) 사용이 가능합니다. | | 2024년 3월 4일 |
-| **‘프로젝트’ 랜딩 페이지에서 새로운 열 사용 가능** | 이제 [Adobe Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html)에서 ‘프로젝트’ 탭을 볼 때 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있습니다. <p>이 정보는 프로젝트를 마지막으로 연 일자와 시간을 표시해 주므로 프로젝트가 조직의 사용자에게 가치가 있는지 여부를 판단하는 데 도움이 될 수 있습니다.</p> <p>이전에는 계산된 지표 관리자, 세그먼트 관리자 및 경고 관리자만 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있었습니다.</p> |  | 2024년 3월 13일 |
+| **‘프로젝트’ 랜딩 페이지에서 새로운 열 사용 가능** | 이제 [Adobe Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=ko-KR)에서 ‘프로젝트’ 탭을 볼 때 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있습니다. <p>이 정보는 프로젝트를 마지막으로 연 일자와 시간을 표시해 주므로 프로젝트가 조직의 사용자에게 가치가 있는지 여부를 판단하는 데 도움이 될 수 있습니다.</p> <p>이전에는 계산된 지표 관리자, 세그먼트 관리자 및 경고 관리자만 **[!UICONTROL 마지막 사용]** 열을 사용할 수 있었습니다.</p> |  | 2024년 3월 13일 |
 | **DMA를 위해 Google에서 요구하는 동의 플래그에 대한 분석 지원** | 새로운 유럽 개인 정보 보호 규정에 따라 Google에서는 유럽에서 수집하여 전송된 데이터에 대해 두 가지 특정 종류의 동의를 받았는지 여부를 표시하도록 요구합니다. **3월 6일부터** Google에서는 관련 동의를 받았음이 표시되지 않은 이벤트 데이터를 더 이상 허용하지 않습니다. Adobe Analytics는 새로운 adConsent 변수를 통해 이 데이터를 캡처하는 지원을 릴리스했습니다. [개인 정보 보호 보고 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)에 나열된 새 변수를 확인할 수 있습니다. 이를 활성화하고자 하며 이전 동의 변수에 대해 이미 개인 정보 보호를 활성화한 경우, 개인 정보 보호를 다시 활성화해야 합니다.<p>[광고 플랫폼 동의 차원](/help/components/dimensions/ad-consent.md)은 Google과 같은 서드파티 광고 제공업체에 데이터를 전송하기 위한 동의가 수집되는지 여부를 표시합니다. |  | 2024년 3월 13일 |
 | **계산된 지표 관리자 및 세그먼트 관리자의 “다음에서 사용” 열에 포함된 Report Builder 사용량** | 이제 Report Builder에 대해 계산된 지표 관리자 또는 세그먼트 관리자의 **다음에서 사용** 열을 조회할 때 사용량 데이터를 확인할 수 있습니다.<p>이전에는 세그먼트 관리자의 사용량 데이터는 경고, 프로젝트, 예약된 프로젝트 및 계산된 지표에 대해서만 사용할 수 있었으며, 계산된 지표 관리자의 사용량 데이터는 경고, 프로젝트 및 예약된 프로젝트에 대해서만 사용할 수 있었습니다.</p> |  | 7월 |
 | **데이터 피드, Data Warehouse 및 분류 세트에 대해 동일한 클라우드 계정 사용** | 이제 사용자가 만든 클라우드 계정 및 위치를 데이터 내보내기(데이터 피드 및 Data Warehouse 사용) 및 데이터 가져오기(분류 세트 사용)에 사용할 수 있습니다.<p> **계정 구성 시 변경 사항:** 사용자는 다음 목적으로 사용 가능한 클라우드 가져오기 및 내보내기 계정을 구성하고 클라우드 가져오기 및 내보내기 위치를 구성할 수 있습니다.<ul><li>분류 세트를 사용하여 데이터 가져오기</li><li>데이터 피드를 사용하여 데이터 내보내기</li><li>Data Warehouse를 사용하여 데이터 내보내기</li></ul><p>**계정 관리 시 변경 사항**: 사용자는 ‘위치’ 페이지(구성 요소 > 위치)를 사용하여 만든 위치에 관계없이 자신이 만든 모든 계정과 위치를 보고 관리할 수 있습니다. <p>이전에는 분류 세트를 사용하여 데이터를 가져오기 위해 만든 계정에만 ‘위치’ 페이지가 적용되었습니다.</p> | | 2024년 4월 |
@@ -67,12 +67,12 @@ AN-312198, AN-338009, AN-339549, AN-333970, AN-334790, AN-336461, AN-336572, AN-
 
 ## AppMeasurement
 
-AppMeasurement 릴리스(버전 2.26.0)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)를 참조하십시오.
+AppMeasurement 릴리스(버전 2.26.0)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko-KR)를 참조하십시오.
 
 
 ## 관련 리소스
 
 * [2023년 이전 릴리스 정보](/help/release-notes/2023.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
-* [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR)
+* [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-KR)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
