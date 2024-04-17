@@ -1,148 +1,26 @@
 ---
 title: Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics 구현
-description: Adobe Experience Platform 데이터 수집에서 Web SDK 확장 기능을 사용하여 Adobe Analytics로 데이터를 전송합니다.
+description: Web SDK를 사용하여 데이터를 Adobe Analytics으로 전송합니다.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
+source-git-commit: d6c16d8841110e3382248f4c9ce3c2f2e32fe454
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 72%
+source-wordcount: '210'
+ht-degree: 39%
 
 ---
 
 # Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics 구현
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. 이 구현 방법은 를 [경험 데이터 모델(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR) 를 analytics에서 사용하는 형식으로 변환합니다. Web SDK JavaScript 라이브러리 또는 Web SDK 태그 확장을 사용하여 Adobe Experience Platform Edge Network로 데이터를 전송할 수 있습니다.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. Web SDK를 구현하는 기본 메서드는 두 가지가 있으며, 각 메서드에는 두 가지 구현 유형이 있습니다.
 
-## Web SDK
+| | **AppMeasurement에서 마이그레이션** | **Clean Web SDK 구현** |
+| --- | --- | --- |
+| **태그 사용** | [Analytics 확장에서 웹 SDK 확장으로 마이그레이션](analytics-extension-to-web-sdk.md) | [Web SDK 확장을 사용하여 Adobe Analytics에 데이터 보내기](web-sdk-tag-extension.md) |
+| **JavaScript 사용** | [AppMeasurement에서 웹 SDK JavaScript 라이브러리로 마이그레이션](appmeasurement-to-web-sdk.md) | [웹 SDK JavaScript 라이브러리를 사용하여 Adobe Analytics에 데이터 보내기](web-sdk-javascript-library.md) |
 
-구현 작업에 대한 개략적인 개요:
-
-![이 섹션에 설명된 대로 웹 SDK 워크플로를 사용하여 Adobe Analytics을 구현하는 방법입니다.](../../assets/websdk-annotated.png)
-
-<table style="width:100%">
-
-<tr>
-<th style="width:5%"></th><th style="width:60%"><b>작업</b></th><th style="width:35%"><b>추가 정보</b></th>
-</tr>
-
-<tr>
-<td>1</td>
-<td><b>보고서 세트를 정의</b>했는지 확인합니다.</td>
-<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
-</tr>
-
-<tr>
-<td>2</td>
-<td><b>스키마 설정</b>. Adobe Experience Platform을 활용하는 애플리케이션 전체에서 사용할 데이터 수집을 표준화하기 위해, Adobe는 개방적이고 공개적으로 문서화된 표준인 XDM(경험 데이터 모델)을 만들었습니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko">스키마 UI 개요</a></td>
-</tr>
-
-<tr>
-<td>3</td>
-<td>웹 사이트의 데이터 추적을 관리할 <b>데이터 계층을 만듭니다</b>.</td>
-<td><a href="../../prepare/data-layer.md">데이터 계층 만들기</a></td>
-</tr>
-
-<tr>
-<td> 4</td>
-<td><b>미리 빌드된 독립형 버전을 설치합니다</b>. 페이지에서 직접 CDN의 라이브러리(<code>alloy.js</code>)를 참조하거나 자체 인프라에서 다운로드하여 호스팅할 수 있습니다. 또는 NPM 패키지를 사용할 수 있습니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">미리 빌드된 독립형 버전 설치</a> 및 <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">NPM 패키지 사용</a></td>
-</tr>
-
-<tr>
-<td>5</td>
-<td><b>데이터스트림을 구성합니다</b>. 데이터스트림은 Adobe Experience Platform Web SDK 구현 시 서버측 구성을 나타냅니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR">데이터스트림 구성<a></td> 
-</tr>
-
-<td>6</td>
-<td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 해당 서비스는 데이터가 Adobe Analytics으로 전송되는지 여부와 전송 방법, 구체적으로 어떤 보고서 세트를 통해 전송되는지 여부를 제어합니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
-</tr>
-
-<tr>
-<td>7</td>
-<td><b>Web SDK를 구성합니다</b>. 4단계에서 설치한 라이브러리가 데이터 스트림 ID(이전에는 에지 구성 ID라고 함)로 제대로 구성되었는지 확인합니다.<code>edgeConfigId</code>), 조직 id(<code>orgId</code>) 및 기타 사용 가능한 옵션. 변수의 적절한 매핑을 확인합니다. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">웹 SDK 구성</a><br/><a href="../xdm-var-mapping.md">XDM 개체 변수 매핑</a></td>
-</tr>
-
-<tr>
-<td>8</td>
-<td><b>명령을 실행</b>하거나 <b>이벤트를 추적</b>합니다. 베이스 코드가 웹 페이지에 구현되면 SDK를 사용하여 명령 실행 및 이벤트 추적을 시작할 수 있습니다.
-</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">이벤트 보내기</a></td>
-</tr>
-
-<tr>
-<td>9</td><td>프로덕션으로 푸시하기 전에 <b>구현을 확장하고 유효성을 검사</b>합니다.</td><td></td> 
-</tr>
-</table>
-
-
-## Web SDK 확장
-
-구현 작업에 대한 개략적인 개요:
-
-![이 섹션에 설명된 대로 Web SDK 확장 워크플로우를 사용하여 Adobe Analytics을 구현하는 방법입니다.](../../assets/websdk-extension-annotated.png)
-
-<table style="width:100%">
-
-<tr>
-<th style="width:5%"></th><th style="width:60%"><b>작업</b></th><th style="width:35%"><b>추가 정보</b></th>
-</tr>
-
-<tr>
-<td>1</td>
-<td><b>보고서 세트를 정의</b>했는지 확인합니다.</td>
-<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
-</tr>
-
-<tr>
-<td>2</td>
-<td><b>스키마 설정</b>. Adobe Experience Platform을 활용하는 애플리케이션 전체에서 사용할 데이터 수집을 표준화하기 위해, Adobe는 개방적이고 공개적으로 문서화된 표준인 XDM(경험 데이터 모델)을 만들었습니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko">스키마 UI 개요</a></td>
-</tr>
-
-<tr>
-<td>3</td>
-<td>웹 사이트의 데이터 추적을 관리할 <b>데이터 계층을 만듭니다</b>.</td>
-<td><a href="../../prepare/data-layer.md">데이터 계층 만들기</a></td>
-</tr>
-
-<tr>
-<td>4</td>
-<td><b>데이터스트림을 구성합니다</b>. 데이터스트림은 Adobe Experience Platform Web SDK 구현 시 서버측 구성을 나타냅니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR">데이터스트림 구성<a></td> 
-</tr>
-
-<tr>
-<td>5</td> 
-<td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 해당 서비스는 데이터가 Adobe Analytics으로 전송되는지 여부와 전송 방법, 구체적으로 어떤 보고서 세트를 통해 전송되는지 여부를 제어합니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
-</tr>
-
-<tr>
-<td>6</td>
-<td><b>태그 속성을 만듭니다</b>. 속성은 태그 관리 데이터를 참조하는 데 사용하는 중요한 컨테이너입니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">웹용 태그 속성 만들기 또는 구성</a></td>
-</tr>
-
-<tr>
-<td>7</td> 
-<td>태그 속성에서 <b>Web SDK 확장을 설치하고 구성</b>합니다. 4단계에서 구성한 데이터스트림으로 데이터를 전송하도록 Web SDK 확장을 구성합니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=ko-KR">Adobe Experience Platform Web SDK 확장 개요</a></td>
-</tr>
-
-<tr>
-<td>8</td>
-<td><b>반복하고, 유효성을 검사하고, 프로덕션에 게시합니다</b>. 웹 사이트 페이지에 태그 속성을 포함하는 코드를 포함합니다. 그런 다음 데이터 요소, 규칙 등을 사용하여 구현을 사용자 정의하십시오.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">포함 코드</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html">게시 개요</a></td>
-</tr>
-
-</table>
-
+조직에서 새 웹 SDK 구현을 필요로 하고 차후에 Customer Journey Analytics을 사용할 계획이라면, Adobe은 자체 스키마를 사용하여 깔끔한 웹 SDK 구현을 권장합니다. 다음을 참조하십시오 [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) Customer Journey Analytics 사용 안내서에서 확인할 수 있습니다.
 
 ## 추가 리소스
 
