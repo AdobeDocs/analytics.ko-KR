@@ -1,12 +1,12 @@
 ---
 title: 분류 세트 스키마
 description: 개별 분류 세트에 대한 스키마를 보고 편집합니다.
-exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
+exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 42%
+source-wordcount: '536'
+ht-degree: 43%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 42%
 * **[!UICONTROL 자동화]**: 외부 스토리지 위치에서 데이터를 자동으로 수집합니다.
    * **[!UICONTROL 위치 계정]**: 조직에서 구성한 기존 위치 계정을 표시하는 드롭다운 목록입니다. 조직에서 아직 위치 계정을 구성하지 않은 경우 다음을 선택하여 구성할 수 있습니다. [!UICONTROL **새 계정 만들기**].
 
-     위치 계정 구성에 대한 자세한 내용은 [클라우드 가져오기 계정 구성](/help/components/locations/configure-import-accounts.md).
+     위치 계정 구성에 대한 자세한 내용은 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md).
 
    * **[!UICONTROL 위치]**: 조직에서 구성한 기존 위치를 보여 주는 드롭다운 목록입니다. 조직에서 위치를 아직 구성하지 않은 경우 다음을 선택하여 위치를 구성할 수 있습니다. [!UICONTROL **새 위치 만들기**].
 
-     위치 구성에 대한 자세한 내용은 [클라우드 가져오기 위치 구성](/help/components/locations/configure-import-locations.md).
+     위치 구성에 대한 자세한 내용은 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md).
 
    * **[!UICONTROL 구분 기호]**: 업로드된 파일의 열 구분 기호입니다. 옵션은 다음과 같습니다 [!UICONTROL 쉼표], [!UICONTROL 세미콜론], [!UICONTROL 콜론], [!UICONTROL 세로 막대], [!UICONTROL 공간], [!UICONTROL 슬래시], [!UICONTROL 백슬래시], [!UICONTROL 대시], 또는 [!UICONTROL 밑줄].
 

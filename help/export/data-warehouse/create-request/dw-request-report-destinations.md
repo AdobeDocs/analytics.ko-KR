@@ -3,10 +3,10 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
-workflow-type: ht
-source-wordcount: '2430'
-ht-degree: 100%
+source-git-commit: b960aaa60569d65cb8501cf041341a3a132929b1
+workflow-type: tm+mt
+source-wordcount: '2584'
+ht-degree: 85%
 
 ---
 
@@ -20,12 +20,19 @@ Data Warehouse 요청을 만들 때 사용할 수 있는 다양한 구성 옵션
 >
 >보고서 대상 구성 시 다음과 같은 사항을 고려하십시오.
 >
->* 보고서 대상에 클라우드 계정이나 이메일을 사용하는 것이 좋습니다. 이전 FTP 및 SFTP 계정은 사용할 수 있지만 권장되지 않습니다.
+>* 보고서 대상에 클라우드 계정이나 이메일을 사용하는 것이 좋습니다. [기존 FTP 및 SFTP 계정](#legacy-destinations) 사용할 수 있지만 권장되지 않습니다.
 >
->* [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 또는 [Adobe Analytics 분류 데이터 가져오기](/help/components/locations/locations-manager.md)에 대해 이전에 구성된 모든 클라우드 계정은 Data Warehouse에 사용할 수 있습니다. 하지만 분류 데이터 가져오기에 대해 구성된 위치는 사용할 수 없습니다.
+>* 이전에 구성한 모든 클라우드 계정은 Data Warehouse에 사용할 수 있습니다. 다음 방법 중 하나로 클라우드 계정을 구성할 수 있습니다.
+>
+>   * 구성 시 [데이터 피드](/help/export/analytics-data-feed/create-feed.md)
+>   
+>   * 날짜 [Adobe Analytics 분류 데이터 가져오기](/help/components/locations/locations-manager.md) (계정은 사용할 수 있지만 해당 계정에 구성된 위치는 사용할 수 없습니다.)
+>   
+>   * 위치 관리자에서 [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md).
 >
 >* 클라우드 계정은 Adobe Analytics 사용자 계정과 연계되어 있습니다. 다른 사용자는 구성된 클라우드 계정을 사용하거나 볼 수 없습니다.
 >
+>* 의 위치 관리자에서 생성하는 위치를 편집할 수 있습니다 [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)
 
 Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
@@ -37,17 +44,27 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
    ![보고서 대상 탭](assets/dw-report-destination.png)
 
-1. (조건부) 보고서 대상으로 사용할 계정(및 해당 계정의 대상)이 이미 구성되어 있는 경우
+1. (조건부) 클라우드 계정(및 해당 계정의 대상)이 Adobe Analytics에 이미 구성된 경우 보고서 대상으로 사용할 수 있습니다.
 
-   1. (선택 사항) 시스템 관리자인 경우 [!UICONTROL **모든 대상 표시**] 옵션을 사용할 수 있습니다. 조직의 사용자가 생성한 모든 계정과 위치에 액세스하려면 이 옵션을 활성화합니다.
+   >[!NOTE]
+   >
+   >계정은 구성했거나 속해 있는 조직과 공유된 경우에만 사용할 수 있습니다.
+   >
+   >시스템 관리자인 경우 [!UICONTROL **모든 대상 표시**] 옵션을 사용할 수 있습니다. 조직의 사용자가 생성한 모든 계정과 위치에 액세스하려면 이 옵션을 활성화합니다.
 
    1. [!UICONTROL **계정 선택**] 드롭다운 메뉴에서 계정을 선택합니다.
 
-      클라우드 대상에서 [Adobe Analytics 분류 데이터 가져오기](/help/components/locations/locations-manager.md)에 대해 구성된 모든 클라우드 계정을 여기에 표시하여 사용할 수 있습니다. 하지만 분류 데이터 가져오기에 대해 구성된 위치는 사용할 수 없습니다. 대신 아래 설명된 대로 새 대상을 추가합니다.
+      Adobe Analytics의 다음 영역 중 하나에서 구성한 모든 클라우드 계정을 사용할 수 있습니다.
+
+      * 에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때 [스키마](/help/components/classifications/sets/manage/schema.md).
+
+        하지만 분류 데이터 가져오기에 대해 구성된 위치는 사용할 수 없습니다. 대신 아래 설명된 대로 새 대상을 추가합니다.
+
+      * 에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md).
 
    1. [!UICONTROL **대상 선택**] 드롭다운 메뉴에서 계정과 연계된 대상을 선택합니다. <!-- Is this correct? -->
 
-1. (조건부) 이전에 계정을 구성하지 않은 경우
+1. (조건부) Adobe Analytics에 이미 구성된 클라우드 계정에 대한 액세스 권한이 없는 경우 다음 중 하나를 구성할 수 있습니다.
 
    1. [!UICONTROL **계정 추가**]&#x200B;를 선택하고 다음 정보를 지정합니다.
 
@@ -63,7 +80,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       +++Amazon S3
 
-      다음 정보를 지정하여 Amazon S3 Role ARN 계정을 구성합니다.
+      Amazon S3 역할 ARN 계정을 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -72,11 +89,11 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud 플랫폼
 
-      다음 정보를 지정하여 Google Cloud 플랫폼 계정을 구성합니다.
+      Google Cloud Platform 계정을 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -84,11 +101,11 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
-      다음 정보를 지정하여 Azure SAS 계정을 구성합니다.
+      Azure SAS 계정을 구성하려면 다음 정보를 지정하십시오.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -100,11 +117,11 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
-      다음 정보를 지정하여 Azure RBAC 계정을 구성합니다.
+      Azure RBAC 계정을 구성하려면 다음 정보를 지정하십시오.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -114,11 +131,11 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++이메일
 
-      다음 정보를 지정하여 이메일 계정을 구성합니다.
+      전자 메일 계정을 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -137,20 +154,20 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       +++Amazon S3
 
-      다음 정보를 지정하여 Amazon S3 위치를 구성합니다.
+      Amazon S3 위치를 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
-      | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>이 버킷에 파일을 업로드하려면 Adobe에서 제공한 사용자 ARN에 `S3:PutObject` 권한이 있는지 확인합니다. 이 권한을 사용하면 사용자 ARN에서 초기 파일을 업로드하고 후속 업로드에 파일을 덮어쓸 수 있습니다.</p> |
+      | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>이 버킷에 파일을 업로드하려면 Adobe에서 제공한 사용자 ARN에 `S3:PutObject` 권한이 있는지 확인합니다. 이 권한을 사용하면 사용자 ARN에서 초기 파일을 업로드하고 후속 업로드에 파일을 덮어쓸 수 있습니다.</p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들어 길이가 3 - 63자 사이여야 하고, 소문자, 숫자, 점(.) 및 하이픈(-)으로만 구성할 수 있으며, 문자 또는 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **키 접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud 플랫폼
 
-      다음 정보를 지정하여 Google Cloud 플랫폼 위치를 구성합니다.
+      Google Cloud Platform 위치를 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -159,11 +176,11 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
-      다음 정보를 지정하여 Azure SAS 위치를 구성합니다.
+      Azure SAS 위치를 구성하려면 다음 정보를 지정하십시오.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -172,11 +189,11 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
-      다음 정보를 지정하여 Azure RBAC 위치를 구성합니다.
+      Azure RBAC 위치를 구성하려면 다음 정보를 지정하십시오.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -186,7 +203,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. [!UICONTROL **보고서 옵션**] 탭에서 Data Warehouse 요청을 계속 구성합니다. 자세한 내용은 [Data Warehouse 요청에 대한 보고서 옵션](/help/export/data-warehouse/create-request/dw-request-report-options.md)을 참조하십시오.
 
