@@ -3,7 +3,7 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 627a813d0d5595521d72f0cf832b3a1ceb7655f8
+source-git-commit: d2b2ebdbc6a3c0f20b8684ba5c1b4b89cefb8e5a
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 50%
@@ -26,7 +26,7 @@ ht-degree: 50%
 | **다음과 동일한 클라우드 계정 사용 [!UICONTROL 데이터 피드], [!UICONTROL Data Warehouse], 및 [!UICONTROL 분류 세트]** | 생성하는 클라우드 계정 및 위치는 이제 데이터 내보내기에 사용할 수 있습니다( 사용). [!UICONTROL 데이터 피드] 및 [!UICONTROL Data Warehouse]) 및 데이터 가져오기(사용) [!UICONTROL 분류 세트]).<p> **계정 구성 시 변경 사항:** 사용자는 다음을 수행할 수 있습니다. [클라우드 가져오기 및 내보내기 계정 구성](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) 및 [클라우드 가져오기 및 내보내기 위치 구성](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) 다음 용도로 사용할 수 있습니다.<ul><li>데이터 가져오기 [!UICONTROL 분류 세트]</li><li>데이터 내보내기 [!UICONTROL 데이터 피드]</li><li>데이터 내보내기 [!UICONTROL Data Warehouse].</li></ul><p>**계정 관리 시 변경 사항**: 사용자는 [위치](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 페이지(아래) [!UICONTROL 구성 요소] > 위치설정)을 클릭하여 계정 및 위치를 만든 위치에 관계없이 계정 및 위치를 모두 보고 관리할 수 있습니다. <p>이전에는 [!UICONTROL 위치] 데이터 가져오기를 위해 만들어진 계정에만 적용되는 페이지 [!UICONTROL 분류 세트].</p> | | 2024년 4월 17일 |
 | **관리자가 조직의 모든 위치 및 계정 관리 가능** | 위치 탭(구성 요소 > 위치 페이지)의 새로운 옵션을 통해 관리자가 조직의 모든 위치를 보고 관리할 수 있습니다.<p>에 대한 새 옵션 [위치](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 관리자는 계정 탭(구성 요소 > 위치 페이지)에서 조직의 모든 계정을 보고 관리할 수 있습니다.</p> <p>이전에는 관리자가 자신이 만든 위치 및 계정만 보고 관리할 수 있었습니다.</p> |  | 2024년 4월 17일 |
 | **기본적으로 낮은 트래픽 임계값 증가** | **2024년 4월 중반**&#x200B;에 Adobe는 기본 보고서 세트 ![낮은 트래픽 임계값](assets/thresholds.png)을 높일 예정입니다. 이는 현재 새 임계값 아래로 설정된 변수에만 영향을 줍니다. 해당 변경 사항은 점진적으로 적용되고, 작업은 **5월 말**&#x200B;에 완료될 예정입니다. 이 증가분이 롤아웃되면 카디널리티가 높은 변수에 대해 변경 사항이 발생할 수 있습니다.<ul><li>추가 차원 값이 보고에 사용할 수 있습니다.</li><li>세그먼트와 계산된 지표에는 추가 데이터가 포함될 수 있습니다.</li><li>세그먼트 기반 가상 보고서 세트에는 추가 데이터가 포함될 수 있습니다.</li><li>분류 내보내기에는 추가 데이터가 포함될 수 있습니다.</li></ul> | 2024년 4월 중반 | 2024년 5월 31일 토요일 |
-| **Activity Map에서 Web SDK에 대해 더 적은 서버 호출 사용** | 현재 Activity Map 링크 이벤트는 자체 이벤트로 계산되어 추가 비용이 발생합니다. <p>이 향상된 기능을 통해 일부 링크 이벤트를 가져와 다음 히트로 패키지화합니다. 이는 AppMeasurement에서 이벤트를 처리하는 방법과 유사합니다.</p> |  | 2024년 5월 1일 목요일 |
+| **Activity Map에서 Web SDK에 대해 더 적은 서버 호출 사용** | 현재 Activity Map 링크 이벤트는 자체 이벤트로 계산되어 추가 비용이 발생합니다. <p>이 향상된 기능을 통해 일부 링크 이벤트를 가져와 다음 히트로 패키지화합니다. 이는 AppMeasurement에서 이벤트를 처리하는 방법과 유사합니다.</p> |  | 2024년 5월 31일 토요일 |
 
 {style="table-layout:auto"}
 
