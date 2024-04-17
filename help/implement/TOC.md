@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. 수집할 데이터를 사용자 정의하여 Analytics 데이터에서 더 많은 것을 얻을 수 있습니다.
-source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
-workflow-type: ht
-source-wordcount: '408'
-ht-degree: 100%
+source-git-commit: 8727d6167a2c161ba646ae2217b0a6e7c4656dd1
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
@@ -140,6 +140,10 @@ ht-degree: 100%
    + [XDM 오브젝트 변수 매핑](aep-edge/xdm-var-mapping.md)
    + Web SDK {#web-sdk}
       + [Web SDK 개요](aep-edge/web-sdk/overview.md)
+      + [태그를 사용하여 웹 SDK로 마이그레이션](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
+      + [JavaScript를 사용하여 웹 SDK로 마이그레이션](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
+      + [태그를 사용한 새로운 구현](aep-edge/web-sdk/web-sdk-tag-extension.md)
+      + [JavaScript를 사용한 새 구현](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + Mobile SDK{#mobile-sdk}
       + [Mobile SDK 개요](aep-edge/mobile-sdk/overview.md)
    + 서버 API {#server-api}
