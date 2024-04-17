@@ -6,9 +6,9 @@ feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '795'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 >Analytics를 사용하는 현재의 Audience Manager 고객은 서버측 전달로 마이그레이션해야 합니다. 새로운 Adobe Analytics 및 Audience Manager 고객은 기본 데이터 수집 및 전송 방법으로 서버측 전달(DIL 대신)을 구현해야 합니다.
 
 >[!IMPORTANT]
->EU 쿠키 준수 규정에 따라, 데이터 컨트롤러(Analytics 고객)에게는 사전 동의한 데이터를 Adobe Analytics으로 제한하여 서버 측에서 Adobe Audience Manager으로 전달되지 않도록 하는 옵션이 제공됩니다. 새 구현 컨텍스트 변수를 사용하여 동의를 받지 못한 히트에 플래그를 지정할 수 있습니다. 설정된 경우 변수는 동의를 받을 때까지 이러한 히트가 Adobe Audience Manager으로 전송되지 않도록 합니다. 자세한 내용은 [GDPR_ePrivacy 준수 및 서버측 전달](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)을 참조하십시오.
+>EU 쿠키 준수 규정에 따라, 데이터 컨트롤러(Analytics 고객)에게는 사전 동의한 데이터를 Adobe Analytics로 제한하여 서버측에서 Adobe Audience Manager으로 전달되지 않도록 하는 옵션이 제공됩니다. 새 구현 컨텍스트 변수를 사용하여 동의를 받지 못한 히트에 플래그를 지정할 수 있습니다. 변수를 설정하면 동의를 받을 때까지 이러한 히트가 Adobe Audience Manager에 전송되지 않습니다. 자세한 내용은 [GDPR_ePrivacy 준수 및 서버측 전달](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)을 참조하십시오.
 
 서버측 전달을 구현하는 측면에서 조직의 위치를 이해하려면 다음 유효성 검사 절차를 수행하십시오.
 
@@ -50,12 +50,12 @@ ht-degree: 89%
 * **&quot;status&quot;:&quot;SUCCESS&quot;**&#x200B;가 표시된다면 대상자 관리 모듈이 구현되어 있지만 서버측 전달이 제대로 구성되지 않은 것입니다. 3단계로 진행합니다.
 * **2 x 2 이미지**&#x200B;가 표시된다면 서버측 전달 또는 대상자 관리 모듈이 구현되어 있지 않은 것입니다. 이 문제를 해결하려면 다음 작업을 수행하십시오.
 
-   * **DIL이 있는 Adobe Audience Manager 고객**: 다음 2개 항목을 밀접하게 연결하여 조정합니다.
+   * **DIL을 사용하는 Adobe Audience Manager 고객**: 다음 2가지 항목을 긴밀하게 연계하여 조정합니다.
 
       1. DIL 코드를 제거하고 [대상자 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) 페이지 코드를 설치합니다.
       1. 3단계에서 설명한 대로 Analytics 관리 UI에서 서버측 전달을 활성화합니다. DIL 코드를 제거하기 전에 이 설정을 활성화하면 데이터가 중복되고 Audience Manager에 대해 추가 청구된 서버 호출이 생성됩니다.
 
-   * **새로운 Adobe Audience Manager 고객** - 설치 [고객 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) 코드를 페이징하고 3단계로 진행합니다. 3단계에서 서버측 전달 기능이 켜지기 전까지는 데이터가 Audience Manager에게 전송되지 않습니다.
+   * **새 Adobe Audience Manager 고객** - [대상자 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) 페이지 코드를 설치하고 3단계로 진행합니다. 3단계에서 서버측 전달 기능이 켜지기 전까지는 데이터가 Audience Manager에게 전송되지 않습니다.
 
 ## ![step3_icon.png 이미지](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) 보고서 세트의 서버측 전달 구현 확인
 
@@ -63,7 +63,7 @@ ht-degree: 89%
 
 Analytics에서 어떤 데이터가 공유되는지를 더 세부적으로 제어할 수 있으므로 이전 추적 서버 접근 방식보다 보고서 세트 수준의 서버측 전달이 권장됩니다. 이것은 이 Audience Analytics 통합을 위한 선행 조건이기도 합니다.
 
-**Analytics** > **관리자** > **보고서 세트** > (**보고서 세트** 선택) > **설정 편집** > **일반** > **서버측 전달**&#x200B;로 이동합니다. 확인란이
+**Analytics** > **관리자** > **보고서 세트** >(**보고서 세트** 선택) > **설정 편집** > **일반** > **서버측 전달**&#x200B;로 이동합니다. 확인란이
 
 * **비활성**(선택할 수 없거나 메뉴가 존재하지 않음): 선택한 보고서 세트가 조직 ID에 매핑되어 있지 않습니다. 보고서 세트가 올바르게 매핑되었는지 확인하려면 고객 지원 센터에 문의하십시오.
 * **비활성화됨** 상태라면 새 서버측 전달이 설정되어 있지 않았습니다. 페이지의 콘텐츠를 읽은 다음, 기능을 활성화하십시오.

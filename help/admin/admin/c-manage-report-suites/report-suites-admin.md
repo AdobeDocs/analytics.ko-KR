@@ -4,9 +4,9 @@ title: 보고서 세트 관리자
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics 솔루션에 로그인하면 사용할 보고서 세트 하나�
 
 >[!NOTE]
 >
->가상 보고서 세트는 다음을 통해 관리됨 **[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**. 다음을 참조하십시오. [가상 보고서 세트 설명서](/help/components/vrs/vrs-about.md).
+>가상 보고서 세트는 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**&#x200B;를 통해 관리됩니다. [가상 보고서 세트 설명서](/help/components/vrs/vrs-about.md)를 참조하십시오.
 
 ## 보고서 세트 관리자 설명 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -66,7 +66,7 @@ Adobe Analytics 솔루션에 로그인하면 사용할 보고서 세트 하나�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 롤업</span> </td> 
-   <td colname="col2"> <p>롤업은 다른 여러 보고서 세트의 추적 데이터를 결합하는 단일 보고서 세트입니다. </p> <p>See <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> 롤업 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>롤업은 다른 여러 보고서 세트의 추적 데이터를 결합하는 단일 보고서 세트입니다. </p> <p><a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md">롤업 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 설정 편집</span> </td> 
