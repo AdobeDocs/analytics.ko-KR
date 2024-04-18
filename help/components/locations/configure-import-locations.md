@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 위치 구성
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c81f0b8dffe07789fce1dda6efcb5ce17406be71
+source-git-commit: de1aaf1cc4f59567582c7802117226e859e52b08
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 40%
+source-wordcount: '1190'
+ht-degree: 38%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 40%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. |
+   | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>Adobe이 제공한 사용자 ARN에 `S3:PutObject` 이 버킷에 파일을 업로드할 수 있는 권한입니다. </p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들어 길이가 3 - 63자 사이여야 하고, 소문자, 숫자, 점(.) 및 하이픈(-)으로만 구성할 수 있으며, 문자 또는 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **키 접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
    {style="table-layout:auto"}
