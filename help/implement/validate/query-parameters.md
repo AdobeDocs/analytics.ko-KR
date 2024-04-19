@@ -4,9 +4,9 @@ description: 이미지 요청에 사용된 모든 쿼리 문자열 매개변수�
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 100%
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | [페이지를 찾을 수 없음](/help/components/dimensions/pages-not-found.md) 차원에 사용됩니다. |
 | `pccr` | 없음 | 새 방문자에 대해서만 설정되고 항상 `true`로 설정됩니다. 방문자가 쿠키를 거부하는 경우 발생할 수 있는 무한 리디렉션을 방지할 수 있습니다. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | 사용자 정의 링크의 유형을 결정합니다. [사용자 정의 링크](/help/components/dimensions/custom-link.md), [다운로드 링크](/help/components/dimensions/download-link.md) 및 [종료 링크](/help/components/dimensions/exit-link.md)에 필요합니다. |
-| `pev1` | 없음 | 사용자 정의 링크가 발생한 URL. |
+| `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | 사용자 정의 링크가 발생한 URL. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | 사용자 정의 링크의 친숙한 이름. |
 | `pev3` | 없음 | 더 이상 사용되지 않습니다. 비디오 보고의 이전 버전에서 추적된 이정표. |
 | `pf` | 없음 | 플랫폼 플래그. Adobe 전용. 변경하지 마십시오. |

@@ -4,16 +4,18 @@ description: 링크 추적 호출에서 AppMeasurement가 사용하는 자동으
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 74%
+source-wordcount: '158'
+ht-degree: 65%
 
 ---
 
 # linkURL
 
 링크 추적 호출이 Adobe에 전송될 때마다 데이터 수집 서버가 자동으로 URL을 감지합니다. 감지된 URL을 무시하려면 `linkURL` 변수를 사용하십시오.
+
+Analysis Workspace에는 이 변수에 대해 보고하는 차원이 없습니다. 다음을 채웁니다. `page_event_var1` 열 위치 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## 웹 SDK를 사용한 링크 URL
 

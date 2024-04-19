@@ -1,7 +1,8 @@
 ---
 title: AppMeasurement에서 웹 SDK로 마이그레이션
 description: AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 Adobe Analytics 구현을 업데이트합니다.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 만듭�
 1. 서비스 드롭다운 메뉴에서 다음을 선택합니다. **[!UICONTROL Adobe Analytics]**.
 1. 현재 분석 데이터를 보내는 사이트와 동일한 보고서 세트 ID를 입력합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-![Adobe Analytics 서비스 추가](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Adobe Analytics 서비스 추가](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 이제 데이터 스트림이 데이터를 받아서 Adobe Analytics에 전달할 준비가 되었습니다. 코드에서 웹 SDK를 구성할 때 이 ID가 필요하므로 데이터 스트림 ID를 참고하십시오.
 

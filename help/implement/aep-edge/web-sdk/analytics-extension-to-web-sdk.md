@@ -1,9 +1,10 @@
 ---
 title: Adobe Analytics 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션
 description: 웹 SDK 확장을 사용하도록 Adobe Experience Platform 데이터 수집 태그에서 Analytics 구현을 업데이트합니다.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1706'
 ht-degree: 1%
 
 ---
@@ -46,7 +47,7 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 만듭�
 1. 서비스 드롭다운 메뉴에서 다음을 선택합니다. **[!UICONTROL Adobe Analytics]**.
 1. 현재 분석 데이터를 보내는 사이트와 동일한 보고서 세트 ID를 입력합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-![Adobe Analytics 서비스 추가](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Adobe Analytics 서비스 추가](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 이제 데이터 스트림이 데이터를 받아서 Adobe Analytics에 전달할 준비가 되었습니다.
 
@@ -62,11 +63,11 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 만듭�
 1. 선택 **[!UICONTROL 카탈로그]** 사용 가능한 모든 확장 목록을 보려면 상단 근처에 있습니다.
 1. 을(를) 검색하고 선택합니다 **[!UICONTROL Adobe Experience Platform 웹 SDK]** 확장을 클릭한 다음 를 클릭합니다 **[!UICONTROL 설치]** 오른쪽.
 
-   ![카탈로그](assets/catalog.png) {style="border:1px solid gray"}
+   ![카탈로그](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. 확장 구성 설정이 나타납니다. [데이터스트림] 섹션을 찾아 이전 단계에서 생성한 데이터스트림을 선택합니다.
 
-   ![데이터 스트림 선택](assets/datastream-select.png) {style="border:1px solid gray"}
+   ![데이터 스트림 선택](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
@@ -83,14 +84,14 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 만듭�
 1. 데이터 요소에 다음 설정을 지정합니다.
    * [!UICONTROL 이름]: &quot;데이터 레이어&quot; 또는 &quot;데이터 개체&quot;와 같이 원하는 모든 항목
    * [!UICONTROL 확장]: [!UICONTROL Adobe Experience Platform 웹 SDK]
-   * [!UICONTROL 변수]: [!UICONTROL 변수]
+   * [!UICONTROL 데이터 요소 유형]: [!UICONTROL 변수]
    * 확인란은 그대로 남아 있을 수 있습니다
 1. 오른쪽에서 다음 설정을 선택합니다.
    * 속성 라디오 단추: [!UICONTROL 데이터]
    * 해결 방법: [!UICONTROL Adobe Analytics]
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-![데이터 요소 만들기](assets/create-data-element.png) {style="border:1px solid gray"}
+![데이터 요소 만들기](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 이제 태그 속성에 각 규칙을 업데이트하는 데 필요한 모든 것이 있습니다.
 
@@ -103,7 +104,7 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 만듭�
 1. 태그 인터페이스의 왼쪽 탐색에서 을 선택합니다. **[!UICONTROL 규칙]**.
 1. 편집할 규칙을 선택합니다.
 1. 작업 선택 **[!UICONTROL Adobe Analytics - 변수 설정]**
-1. 이 규칙 내에 설정된 모든 Analytics 변수를 확인합니다. 드롭다운 메뉴에 설정된 변수와 사용자 지정 코드 내에 설정된 변수를 모두 확인합니다.
+1. 이 규칙 내에 설정된 모든 Analytics 변수를 확인합니다. 드롭다운 메뉴에 설정된 변수와 사용자 지정 코드 내에 설정된 변수를 모두 포함합니다.
 1. 변경 [!UICONTROL 작업 구성] 다음 설정으로 이동하십시오.
    * [!UICONTROL 확장]: [!UICONTROL Adobe Experience Platform 웹 SDK]
    * [!UICONTROL 작업 유형]: 변수 업데이트
@@ -146,7 +147,7 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 만듭�
 1. 개발 환경에서 변경 사항을 테스트하여 모든 규칙이 올바르게 실행되는지, 그리고 데이터 개체가 예상 값으로 채워지는지 확인합니다.
 1. 준비가 되면 승인을 위해 라이브러리를 제출하고 스테이징으로 빌드한 다음 최종적으로 승인하고 프로덕션에 게시합니다.
 
-![게시 플로우](assets/publishing-flow.png) {style="border:1px solid gray"}
+![게시 플로우](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 
