@@ -6,47 +6,47 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7468463e2fe1de16221b4528919b6abd6c8aedcb
 workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 43%
+ht-degree: 76%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2024년 4월)
 
-**마지막 업데이트**: 2024년 4월 17일 목요일
+**마지막 업데이트**: 2024년 4월 17일
 
-이 릴리스 정보는 2024년 4월 17일부터 5월까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이번 릴리스 정보에는 2024년 4월 17일부터 5월까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Streaming Media: Adobe Experience Platform Edge Network으로 Roku 데이터 보내기** | 다음 경우에 [Experience Platform 에지로 Media Analytics 설치](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge), Adobe Experience Platform Roku SDK를 사용하여 스트리밍 미디어 데이터를 Adobe Experience Platform으로 전송할 수 있습니다. |  | 2024년 4월 12일 |
-| **웹 SDK 마이그레이션을 위한 워크플로우 개선** | 이제 데이터 스트림은 Web SDK 데이터 개체의 필드를 Adobe Analytics에 직접 자동으로 매핑합니다. [데이터 개체 매핑](/help/implement/aep-edge/data-var-mapping.md) 다음과 유사 [XDM 개체 매핑](/help/implement/aep-edge/xdm-var-mapping.md): XDM 스키마는 필요하지 않습니다. 이렇게 개선된 워크플로우는 다음과 같은 이점을 제공합니다.<ul><li>Adobe Experience Platform으로 데이터를 전송할 준비가 될 때까지 스키마 사용 요구 사항이 지연됩니다. 이 구현 마이그레이션 단계에서 스키마가 필요한 경우 Adobe Analytics 필드를 기반으로 스키마를 사용해야 합니다. Customer Journey Analytics과 같은 Adobe Experience Platform 서비스에는 prop 또는 eVar의 개념이 없습니다. 조직에서 나중에 자체 스키마를 사용하려는 경우 Analytics 중심 스키마에 문제가 발생할 수 있습니다.</li><li>Web SDK에 대한 구현을 변경한 후에는 조직이 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션할 수 있는 보다 나은 위치에 있습니다. Web SDK를 사용하여 Adobe Analytics으로 데이터를 전송하는 경우 Adobe Experience Platform으로 데이터를 전송하기 위해 추가적인 구현 변경을 수행할 필요가 없습니다. 대신 데이터 준비를 사용하여 데이터 개체 필드를 XDM 스키마에 매핑할 수 있습니다.</li></ul>다음을 참조하십시오 [Adobe Analytics 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션](/help/implement/aep-edge/web-sdk/analytics-extension-to-web-sdk.md) 및 [AppMeasurement에서 웹 SDK로 마이그레이션](../implement/aep-edge/web-sdk/appmeasurement-to-web-sdk.md) 추가 정보. |  | 2024년 4월 |
-| **프로젝트 전용의 권한 개선 [!UICONTROL 작업 영역] 구성 요소** | 이전에는 사용자(사용자 A)가 다른 사용자(사용자 B)와 프로젝트를 공유하고 사용자 B에게 프로젝트에 대한 편집 액세스 권한을 부여하면 사용자 B가 프로젝트를 편집할 수 있었습니다. 그러나 사용자 B는 편집할 수 없습니다 [!UICONTROL 빠른 세그먼트] 프로젝트에 포함됨. 이제 해당 제한이 제거됨 - 사용자 B가 편집할 수 있음 [!UICONTROL 빠른 세그먼트] 공유 프로젝트에 포함된 다른 프로젝트 전용 구성 요소 |  | 2024년 4월 17일 |
-| **다음과 동일한 클라우드 계정 사용 [!UICONTROL 데이터 피드], [!UICONTROL Data Warehouse], 및 [!UICONTROL 분류 세트]** | 생성하는 클라우드 계정 및 위치는 이제 데이터 내보내기에 사용할 수 있습니다( 사용). [!UICONTROL 데이터 피드] 및 [!UICONTROL Data Warehouse]) 및 데이터 가져오기(사용) [!UICONTROL 분류 세트]).<p> **계정 구성 시 변경 사항:** 사용자는 다음을 수행할 수 있습니다. [클라우드 가져오기 및 내보내기 계정 구성](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) 및 [클라우드 가져오기 및 내보내기 위치 구성](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) 다음 용도로 사용할 수 있습니다.<ul><li>데이터 가져오기 [!UICONTROL 분류 세트]</li><li>데이터 내보내기 [!UICONTROL 데이터 피드]</li><li>데이터 내보내기 [!UICONTROL Data Warehouse].</li></ul><p>**에서 계정 및 위치를 관리할 때의 변경 사항 [!UICONTROL 위치] 페이지**: 사용자는 [위치](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 페이지(아래) [!UICONTROL 구성 요소] > 위치설정)을 클릭하여 계정 및 위치를 만든 위치에 관계없이 계정 및 위치를 모두 보고 관리할 수 있습니다. <p>이전에는 [!UICONTROL 위치] 데이터 가져오기를 위해 만들어진 계정에만 적용되는 페이지 [!UICONTROL 분류 세트].</p>**다음에서 위치 관리 시 변경 사항 [!UICONTROL Data Warehouse] 또는 [!UICONTROL 분류 세트]**<p>특정 애플리케이션 영역 내에서 위치 관리 시([!UICONTROL Data Warehouse] 또는 [!UICONTROL 분류 세트]), 특정 애플리케이션 영역에서 생성된 위치만 사용할 수 있습니다. 예를 들어, [!UICONTROL Data Warehouse] 애플리케이션 영역만 [!UICONTROL Data Warehouse] 위치를 사용할 수 있습니다. 모든 계정은 생성된 애플리케이션 영역에 관계없이 각 애플리케이션 영역에서 계속 사용할 수 있습니다. 이전에는 계정 및 위치가 생성된 애플리케이션 영역에 관계없이 각 애플리케이션 영역에서 사용할 수 있었습니다. 이는 을 볼 때도 마찬가지입니다. [!UICONTROL 데이터 피드] 애플리케이션 영역입니다. | | 2024년 4월 17일 |
-| **관리자가 조직의 모든 위치 및 계정 관리 가능** | 위치 탭(구성 요소 > 위치 페이지)의 새로운 옵션을 통해 관리자가 조직의 모든 위치를 보고 관리할 수 있습니다.<p>에 대한 새 옵션 [위치](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 관리자는 계정 탭(구성 요소 > 위치 페이지)에서 조직의 모든 계정을 보고 관리할 수 있습니다.</p> <p>이전에는 관리자가 자신이 만든 위치 및 계정만 보고 관리할 수 있었습니다.</p> |  | 2024년 4월 17일 |
-| **기본적으로 낮은 트래픽 임계값 증가** | **2024년 4월 중반**&#x200B;에 Adobe는 기본 보고서 세트 ![낮은 트래픽 임계값](assets/thresholds.png)을 높일 예정입니다. 이는 현재 새 임계값 아래로 설정된 변수에만 영향을 줍니다. 해당 변경 사항은 점진적으로 적용되고, 작업은 **5월 말**&#x200B;에 완료될 예정입니다. 이 증가분이 롤아웃되면 카디널리티가 높은 변수에 대해 변경 사항이 발생할 수 있습니다.<ul><li>추가 차원 값이 보고에 사용할 수 있습니다.</li><li>세그먼트와 계산된 지표에는 추가 데이터가 포함될 수 있습니다.</li><li>세그먼트 기반 가상 보고서 세트에는 추가 데이터가 포함될 수 있습니다.</li><li>분류 내보내기에는 추가 데이터가 포함될 수 있습니다.</li></ul> | 2024년 4월 중반 | 2024년 5월 31일 토요일 |
-| **Activity Map에서 Web SDK에 대해 더 적은 서버 호출 사용** | 현재 Activity Map 링크 이벤트는 자체 이벤트로 계산되어 추가 비용이 발생합니다. <p>이 향상된 기능을 통해 일부 링크 이벤트를 가져와 다음 히트로 패키지화합니다. 이는 AppMeasurement에서 이벤트를 처리하는 방법과 유사합니다.</p> |  | 2024년 5월 31일 토요일 |
+| **스트리밍 미디어: Roku 데이터를 Adobe Experience Platform Edge Network로 보내기** | 이제 [Experience Platform Edge를 사용하여 Media Analytics를 설치](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge)할 때 Adobe Experience Platform Roku SDK를 사용하여 스트리밍 미디어 데이터를 Adobe Experience Platform으로 보낼 수 있습니다. |  | 2024년 4월 12일 |
+| **Web SDK 마이그레이션을 위한 향상된 워크플로** | 이제 데이터 스트림은 Web SDK 데이터 개체의 필드를 Adobe Analytics에 직접 자동으로 매핑합니다. [데이터 개체 매핑](/help/implement/aep-edge/data-var-mapping.md) 다음과 유사 [XDM 개체 매핑](/help/implement/aep-edge/xdm-var-mapping.md): XDM 스키마는 필요하지 않습니다. 향상된 이 워크플로에는 다음과 같은 이점이 있습니다.<ul><li>Adobe Experience Platform으로 데이터를 전송할 준비가 될 때까지 스키마 사용 요구 사항이 지연됩니다. 이 구현 마이그레이션 단계에서 스키마가 필요한 경우 Adobe Analytics 필드를 기반으로 스키마를 사용해야 합니다. Customer Journey Analytics과 같은 Adobe Experience Platform 서비스에는 prop 또는 eVar의 개념이 없습니다. 조직에서 나중에 자체 스키마를 사용하려는 경우 Analytics 중심 스키마에 문제가 발생할 수 있습니다.</li><li>Web SDK에 대한 구현을 변경한 후에는 조직이 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션할 수 있는 보다 나은 위치에 있습니다. Web SDK를 사용하여 Adobe Analytics으로 데이터를 전송하는 경우 Adobe Experience Platform으로 데이터를 전송하기 위해 추가적인 구현 변경을 수행할 필요가 없습니다. 대신 데이터 준비를 사용하여 데이터 개체 필드를 XDM 스키마에 매핑할 수 있습니다.</li></ul>다음을 참조하십시오 [Adobe Analytics 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션](/help/implement/aep-edge/web-sdk/analytics-extension-to-web-sdk.md) 및 [AppMeasurement에서 웹 SDK로 마이그레이션](../implement/aep-edge/web-sdk/appmeasurement-to-web-sdk.md) 추가 정보. |  | 2024년 4월 |
+| **프로젝트 전용 [!UICONTROL Workspace] 구성 요소의 권한 강화** | 이전에는 사용자(사용자 A)가 다른 사용자(사용자 B)와 프로젝트를 공유하는데 사용자 B에게 프로젝트에 대한 편집 액세스 권한을 부여한 경우, 사용자 B가 프로젝트를 편집할 수 있었습니다. 그러나 사용자 B는 프로젝트에 포함된 [!UICONTROL 빠른 세그먼트]를 편집할 수 없습니다. 이제 이러한 제한이 제거되었습니다. 사용자 B는 [!UICONTROL 빠른 세그먼트] 및 공유 프로젝트에 포함된 기타 프로젝트 전용 구성 요소를 편집할 수 있습니다. |  | 2024년 4월 17일 |
+| **[!UICONTROL 데이터 피드], [!UICONTROL Data Warehouse] 및 [!UICONTROL 분류 세트]**&#x200B;에 대해 동일한 클라우드 계정 사용 | 이제 사용자가 만든 클라우드 계정 및 위치를 데이터 내보내기([!UICONTROL 데이터 피드] 및 [!UICONTROL Data Warehouse] 사용) 및 데이터 가져오기([!UICONTROL 분류 세트] 사용)에 사용할 수 있습니다.<p> **계정 구성 시 변경 사항:** 사용자는 다음 목적으로 사용 가능한 [클라우드 가져오기 및 내보내기 계정을 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-accounts)하고 [클라우드 가져오기 및 내보내기 위치를 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-locations)할 수 있습니다.<ul><li>[!UICONTROL 분류 세트]를 사용하여 데이터 가져오기</li><li>[!UICONTROL 데이터 피드]를 사용하여 데이터 내보내기</li><li>[!UICONTROL Data Warehouse]를 사용하여 데이터를 내보냅니다.</li></ul><p>**에서 계정 및 위치를 관리할 때의 변경 사항 [!UICONTROL 위치] 페이지**: 사용자는 [위치](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/locations-manager) 페이지(아래) [!UICONTROL 구성 요소] > 위치설정)을 클릭하여 계정 및 위치를 만든 위치에 관계없이 계정 및 위치를 모두 보고 관리할 수 있습니다. <p>이전에는 [!UICONTROL 분류 세트]를 사용하여 데이터를 가져오기 위해 만든 계정에만 [!UICONTROL 위치] 페이지가 적용되었습니다.</p>**다음에서 위치 관리 시 변경 사항 [!UICONTROL Data Warehouse] 또는 [!UICONTROL 분류 세트]**<p>특정 애플리케이션 영역 내에서 위치 관리 시([!UICONTROL Data Warehouse] 또는 [!UICONTROL 분류 세트]), 특정 애플리케이션 영역에서 생성된 위치만 사용할 수 있습니다. 예를 들어, [!UICONTROL Data Warehouse] 애플리케이션 영역만 [!UICONTROL Data Warehouse] 위치를 사용할 수 있습니다. 모든 계정은 생성된 애플리케이션 영역에 관계없이 각 애플리케이션 영역에서 계속 사용할 수 있습니다. 이전에는 계정 및 위치가 생성된 애플리케이션 영역에 관계없이 각 애플리케이션 영역에서 사용할 수 있었습니다. 이는 을 볼 때도 마찬가지입니다. [!UICONTROL 데이터 피드] 애플리케이션 영역입니다. | | 2024년 4월 17일 |
+| **관리자가 조직의 모든 위치 및 계정 관리 가능** | 위치 탭(구성 요소 > 위치 페이지)의 새로운 옵션을 통해 관리자가 조직의 모든 위치를 보고 관리할 수 있습니다.<p>[위치](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/locations-manager) 계정 탭(구성 요소 > 위치 페이지)의 새로운 옵션을 통해 관리자가 조직의 모든 계정을 보고 관리할 수 있습니다.</p> <p>이전에는 관리자가 자신이 만든 위치 및 계정만 보고 관리할 수 있었습니다.</p> |  | 2024년 4월 17일 |
+| **기본적으로 낮은 트래픽 임계값 증가** | **2024년 4월 중반**&#x200B;에 Adobe는 기본 보고서 세트 ![낮은 트래픽 임계값](assets/thresholds.png)을 높일 예정입니다. 이는 현재 새 임계값 아래로 설정된 변수에만 영향을 줍니다. 해당 변경 사항은 점진적으로 적용되고, 작업은 **5월 말**&#x200B;에 완료될 예정입니다. 이 증가분이 롤아웃되면 카디널리티가 높은 변수에 대해 변경 사항이 발생할 수 있습니다.<ul><li>추가 차원 값이 보고에 사용할 수 있습니다.</li><li>세그먼트와 계산된 지표에는 추가 데이터가 포함될 수 있습니다.</li><li>세그먼트 기반 가상 보고서 세트에는 추가 데이터가 포함될 수 있습니다.</li><li>분류 내보내기에는 추가 데이터가 포함될 수 있습니다.</li></ul> | 2024년 4월 중반 | 2024년 5월 31일 |
+| **Activity Map에서 Web SDK에 대해 더 적은 서버 호출 사용** | 현재 Activity Map 링크 이벤트는 자체 이벤트로 계산되어 추가 비용이 발생합니다. <p>이 향상된 기능을 통해 일부 링크 이벤트를 가져와 다음 히트로 패키지화합니다. 이는 AppMeasurement에서 이벤트를 처리하는 방법과 유사합니다.</p> |  | 2024년 5월 31일 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics의 수정 사항
 
-* AN-343439; AN-343503; AN-343504; AN-343986; AN-344262; AN-344564; AN-345204; AN-345234 분류 문제가 수정되었습니다.
-* AN-341488; AN-342501; AN-345751 분류 규칙 빌더 문제가 수정되었습니다.
-* 다음 지능형 경고 문제를 해결했습니다. AN-343466;
+* 다음 분류 문제가 수정되었습니다. AN-343439, AN-343503, AN-343504, AN-343986, AN-344262, AN-344564, AN-345204, AN-345234
+* 다음 분류 규칙 빌더 문제가 수정되었습니다. AN-341488, AN-342501, AN-345751
+* 다음 지능형 경고 문제가 수정되었습니다. AN-343466,
 * 다음 세분화 문제가 해결되었습니다. AN-342313
-* 다음 Data Warehouse 문제를 해결했습니다. AN-344292
-* An-339545, AN-340092, AN-342124, AN-342862, AN-343737, AN-344035, AN-344329, AN-344703, AN-344721, AN-344940, AN-345180, AN-345196, AN-345225, AN-345236, AN-345326, AN-345631, AN-345659 등과 같은 데이터 피드 문제를 수정했습니다
-* 다음 데이터 소스 문제를 수정했습니다. AN-343541
-* Analysis Workspace 문제: AN-336303, AN-336472, AN-338422, AN-338556, AN-339718, AN-340147, AN-340301, AN-340421, AN-340951, AN-341172, AN-342905, AN-342909, AN-343448, AN-343570, AN-344050, AN-344182, AN-344763, AN-344768, AN-, AN-,
-* Analytics 관리 문제: AN-342519; AN-342523; AN-343623; AN-343882; AN-344237; AN-344829; AN-345235;
-* 다음 A4T 문제가 해결되었습니다. AN-341619; AN-344402
-* 다음 모바일 앱 문제를 수정했습니다. AN-342010
+* 다음 Data Warehouse 문제가 수정되었습니다. AN-344292
+* 다음 데이터 피드 문제를 수정되었습니다. AN-339545, AN-340092, AN-342124, AN-342862, AN-343737, AN-344035, AN-344329, AN-344703, AN-344721, AN-344940, AN-345180, AN-345196, AN-345225, AN-345236, AN-345326, AN-345631, AN-345659
+* 다음 데이터 소스 문제가 수정되었습니다. AN-343541
+* 다음 Analysis Workspace 문제가 수정되었습니다. AN-336303, AN-336472, AN-338422, AN-338556, AN-339718, AN-340147, AN-340301, AN-340421, AN-340951, AN-341172, AN-342905, AN-342909, AN-343448, AN-343570, AN-344050, AN-344182, AN-344763, AN-344768,
+* 다음 Analytics 관리 문제가 수정되었습니다. AN-342519, AN-342523, AN-343623, AN-343882, AN-344237, AN-344829, AN-345235
+* 다음 A4T 문제가 수정되었습니다. AN-341619, AN-344402
+* 다음 모바일 애플리케이션 문제가 해결되었습니다. AN-342010
 
 ### 기타 Analytics 수정 사항
 
-AN-336099, AN-337474, AN-337993, AN-339718, AN-339901, AN-340014, AN-341356, AN-343021, AN-343102, AN-343353, AN-343416, AN-340014, AN-344037, AN-344525 345737
+AN-336099, AN-337474, AN-337993, AN-339718, AN-339901, AN-340014, AN-341356, AN-343021, AN-343102, AN-343353, AN-343416, AN-340014, AN-344037, AN-344525, AN-345737
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
