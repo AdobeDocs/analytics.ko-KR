@@ -4,7 +4,7 @@ description: 사이트에 대한 대부분의 지표를 제어하는 events 변�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -27,7 +27,7 @@ ht-degree: 85%
 * 주문은 `xdm.commerce.purchases.value`에 매핑됩니다.
 * 단위는 모든 `productListItems[].quantity` 필드의 합계에 매핑됩니다.
 * 매출은 모든 `productListItems[].priceTotal` 필드의 합계에 매핑됩니다.
-* 제품 보기는 `xdm.commerce.productListViews.value`에 매핑됩니다.
+* 제품 보기는 `xdm.commerce.productViews.value`에 매핑됩니다.
 * 장바구니는 `xdm.commerce.productListOpens.value`에 매핑됩니다.
 * 장바구니 추가는 `xdm.commerce.productListAdds.value`에 매핑됩니다.
 * 장바구니 삭제는 `xdm.commerce.productListRemovals.value`에 매핑됩니다.
