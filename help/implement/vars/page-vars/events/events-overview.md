@@ -4,7 +4,7 @@ description: 사이트에 대한 대부분의 지표를 제어하는 events 변�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
+source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## Web SDK를 사용한 이벤트
 
-을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 사용자 지정 이벤트는 다음 XDM 필드를 사용합니다.
+을 사용하는 경우 [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md), 사용자 지정 이벤트는 다음 XDM 필드를 사용합니다.
 
 * 사용자 정의 이벤트 1-100은 `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`에 매핑됩니다.
 * 사용자 정의 이벤트 101-200은 `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`에 매핑됩니다.
