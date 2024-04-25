@@ -3,10 +3,10 @@ title: Adobe Analytics의 실시간 보고서
 description: Google Analytics에 익숙한 사용자에 초점을 맞춰 Adobe Analytics에서 실시간 보고서를 가져오는 방법을 알아봅니다.
 feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 8f08ff46d33d050d0bdb4e0555611ba37ccc8474
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 100%
+source-wordcount: '981'
+ht-degree: 94%
 
 ---
 
@@ -16,13 +16,14 @@ ht-degree: 100%
 
 ![실시간 보고서](/help/technotes/ga-to-aa/assets/realtime.png)
 
-실시간 보고서는 Analysis Workspace에 아직 소개되지 않은 몇 가지 기능 중 하나입니다. Reports &amp; Analytics를 사용하여 이 데이터를 가져옵니다. 이렇게 하려면 데이터 수집을 시작하기 위한 간단한 구성이 필요합니다.
+실시간 보고서는 Analysis Workspace에 아직 소개되지 않은 몇 가지 기능 중 하나입니다. 보고서를 사용하여 이 데이터를 가져옵니다. 이렇게 하려면 데이터 수집을 시작하기 위한 간단한 구성이 필요합니다.
 
 실시간 보고서 구성 페이지에 도달하려면 (관리 권한 필요):
 
-1. Adobe Analytics 헤더 탐색에서 [!UICONTROL 보고서]를 클릭합니다.
-2. 왼쪽 메뉴에서 *[!UICONTROL 사이트 지표]* > *[!UICONTROL 실시간]*&#x200B;을 클릭합니다.
-3. 보고서 세트에 실시간 기능이 활성화되지 않은 경우 보고서 세트를 구성하는 링크가 포함된 메시지가 표시됩니다. 보고서 세트에 실시간 기능이 활성화된 경우 보고서 제목 근처에 있는 [!UICONTROL 구성]을 클릭합니다.
+1. 클릭 **[!UICONTROL 작업 영역]** Adobe Analytics 상단 탐색 막대
+1. 선택 **[!UICONTROL 보고서]** 왼쪽 탐색 모음에서 을 클릭합니다.
+1. 선택 **[!UICONTROL 참여]** ![펼침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL 실시간]**. 다음을 수행할 수도 있습니다. ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 실시간으로 검색합니다.
+1. 보고서 세트에 실시간 기능이 활성화되지 않은 경우 보고서 세트를 구성하는 링크가 포함된 메시지가 표시됩니다.
 
 Adobe에서는 최대 3개의 실시간 보고서에서 데이터를 동시에 수집할 수 있습니다. 보고서에서 실시간으로 데이터를 수집하기 전에 각 보고서를 구성해야 합니다.
 
