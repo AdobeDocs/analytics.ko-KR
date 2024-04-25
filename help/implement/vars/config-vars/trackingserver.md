@@ -4,10 +4,10 @@ description: 이미지 요청이 전송되는 위치를 파악합니다.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 72%
+source-wordcount: '702'
+ht-degree: 52%
 
 ---
 
@@ -59,9 +59,14 @@ alloy("configure", {
 
 `s.trackingServer` 변수는 데이터를 보낼 위치를 포함하는 문자열입니다.
 
-## 다음에 대한 값 결정 `trackingServer`
+## 값 결정을 위한 고려 사항 `trackingServer`
 
-이 변수의 값은 자사 쿠키를 사용하는지 또는 서드파티 쿠키를 사용하는지에 따라 달라집니다. 여러분의 구현에서는 자사 쿠키를 사용하는 것이 좋습니다.
+Adobe의 추적 서버 도메인(예: `adobedc.net`) 또는 특수 프로세스를 통해 사이트 도메인과 일치하는 추적 서버를 설정할 수 있습니다(예: `data.mydomain.com`CNAME 구현이라고도 합니다. 사이트 도메인과 일치하는 추적 서버가 있으면 구현의 다른 측면에 따라 몇 가지 이점이 있을 수 있습니다. 추적 서버가 현재 페이지의 도메인과 일치하지 않으면, AppMeasurement에서 설정한 쿠키를 서드파티로 설정해야 합니다. 브라우저가 서드파티 쿠키를 지원하지 않는 경우 이러한 불일치는 특정 Analytics 기능을 방해할 수 있습니다.
+
+- 식별자 설정: Experience Cloud ID 서비스를 사용하는 경우 추적 서버는 쿠키가 설정되는 방식에 영향을 주지 않습니다. 그러나 Analytics 레거시 식별자 (예: )를 사용하는 경우 `s_vi` cookie)와 수집 서버가 현재 도메인과 일치하지 않으면, 쿠키를 서드파티로 설정해야 합니다. 이 경우, 서드파티 쿠키가 브라우저에 의해 차단되면 Analytics는 자사 대체 ID( )를 설정합니다.`s_fid`표준 대신 `s_vi` 쿠키.
+- 링크 추적은 내부 링크에 대해 작동하지 않습니다.
+- Activity Map은 내부 링크에 대해 작동하지 않습니다.
+- 쿠키 확인.
 
 ### 자사 쿠키
 
@@ -73,7 +78,7 @@ alloy("configure", {
 s.trackingServer = "data.example.com";
 ```
 
-### 서드파티 쿠키
+### 서드파티 추적 서버
 
 >[!TIP]
 >
