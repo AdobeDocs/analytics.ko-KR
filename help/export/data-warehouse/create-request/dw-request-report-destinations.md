@@ -4,9 +4,9 @@ title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2584'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,19 +20,19 @@ Data Warehouse 요청을 만들 때 사용할 수 있는 다양한 구성 옵션
 >
 >보고서 대상 구성 시 다음과 같은 사항을 고려하십시오.
 >
->* 보고서 대상에 클라우드 계정이나 이메일을 사용하는 것이 좋습니다. [기존 FTP 및 SFTP 계정](#legacy-destinations) 사용할 수 있지만 권장되지 않습니다.
+>* 보고서 대상에 클라우드 계정이나 이메일을 사용하는 것이 좋습니다. [이전 FTP 및 SFTP 계정](#legacy-destinations)은 사용할 수 있지만 권장되지 않습니다.
 >
->* 이전에 구성한 모든 클라우드 계정은 Data Warehouse에 사용할 수 있습니다. 다음 방법 중 하나로 클라우드 계정을 구성할 수 있습니다.
+>* 이전에 구성한 모든 클라우드 계정을 Data Warehouse에 사용할 수 있습니다. 다음 방법 중 하나로 클라우드 계정을 구성할 수 있습니다.
 >
->   * 구성 시 [데이터 피드](/help/export/analytics-data-feed/create-feed.md)
+>   * [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 구성할 때
 >   
->   * 날짜 [Adobe Analytics 분류 데이터 가져오기](/help/components/locations/locations-manager.md) (계정은 사용할 수 있지만 해당 계정에 구성된 위치는 사용할 수 없습니다.)
+>   * [Adobe Analytics 분류 데이터를 가져올 때](/help/components/locations/locations-manager.md)(계정을 사용할 수 있지만 해당 계정에 구성된 위치는 사용할 수 없음)
 >   
->   * 위치 관리자에서 [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md).
+>   * [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)의 위치 관리자에서
 >
 >* 클라우드 계정은 Adobe Analytics 사용자 계정과 연계되어 있습니다. 다른 사용자는 구성된 클라우드 계정을 사용하거나 볼 수 없습니다.
 >
->* 의 위치 관리자에서 생성하는 위치를 편집할 수 있습니다 [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)
+>* [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)의 위치 관리자에서 생성한 모든 위치를 편집할 수 있습니다.
 
 Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
@@ -44,27 +44,27 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
    ![보고서 대상 탭](assets/dw-report-destination.png)
 
-1. (조건부) 클라우드 계정(및 해당 계정의 대상)이 Adobe Analytics에 이미 구성된 경우 보고서 대상으로 사용할 수 있습니다.
+1. (조건부) Adobe Analytics에 클라우드 계정(및 해당 계정의 대상)이 이미 구성된 경우, 보고서 대상으로 사용할 수 있습니다.
 
    >[!NOTE]
    >
-   >계정은 구성했거나 속해 있는 조직과 공유된 경우에만 사용할 수 있습니다.
+   >계정은 귀하가 구성했거나 귀하가 속한 조직과 공유된 경우에만 사용할 수 있습니다.
    >
-   >시스템 관리자인 경우 [!UICONTROL **모든 대상 표시**] 옵션을 사용할 수 있습니다. 조직의 사용자가 생성한 모든 계정과 위치에 액세스하려면 이 옵션을 활성화합니다.
+   >시스템 관리자인 경우, [!UICONTROL **모든 대상 표시**] 옵션을 사용할 수 있습니다. 조직의 사용자가 생성한 모든 계정과 위치에 액세스하려면 이 옵션을 활성화합니다.
 
    1. [!UICONTROL **계정 선택**] 드롭다운 메뉴에서 계정을 선택합니다.
 
       Adobe Analytics의 다음 영역 중 하나에서 구성한 모든 클라우드 계정을 사용할 수 있습니다.
 
-      * 에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때 [스키마](/help/components/classifications/sets/manage/schema.md).
+      * [스키마](/help/components/classifications/sets/manage/schema.md)에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때
 
         하지만 분류 데이터 가져오기에 대해 구성된 위치는 사용할 수 없습니다. 대신 아래 설명된 대로 새 대상을 추가합니다.
 
-      * 에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md).
+      * [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때
 
    1. [!UICONTROL **대상 선택**] 드롭다운 메뉴에서 계정과 연계된 대상을 선택합니다. <!-- Is this correct? -->
 
-1. (조건부) Adobe Analytics에 이미 구성된 클라우드 계정에 대한 액세스 권한이 없는 경우 다음 중 하나를 구성할 수 있습니다.
+1. (조건부) Adobe Analytics에 이미 구성되어 있는 클라우드 계정에 대한 액세스 권한이 없는 경우에 다음 중 하나를 구성할 수 있습니다.
 
    1. [!UICONTROL **계정 추가**]&#x200B;를 선택하고 다음 정보를 지정합니다.
 
@@ -80,7 +80,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       +++Amazon S3
 
-      Amazon S3 역할 ARN 계정을 구성하려면 다음 정보를 지정합니다.
+      Amazon S3 Role ARN 계정을 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -91,7 +91,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
 +++
 
-      +++Google Cloud 플랫폼
+      +++Google Cloud Platform
 
       Google Cloud Platform 계정을 구성하려면 다음 정보를 지정합니다.
 
@@ -105,13 +105,13 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       +++Azure SAS
 
-      Azure SAS 계정을 구성하려면 다음 정보를 지정하십시오.
+      Azure SAS 계정을 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
       | [!UICONTROL **애플리케이션 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
       | [!UICONTROL **테넌트 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
-      | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS URI 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS URI를 비밀로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI이 생성되면<ul><li>만든 Azure 애플리케이션에 대한 권한을 부여하려면 Key Vault에서 액세스 정책을 추가합니다.</li><li>키 자격 증명 모음 UR에 액세스하려면 `Key Vault Certificate User` 기본 제공 역할에 애플리케이션 ID가 부여되었는지 확인합니다.</br><p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p></li></ul><p>자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p> |
+      | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS URI에 대한 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS URI를 암호로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI이 생성되면<ul><li>만든 Azure 애플리케이션에 대한 권한을 부여하려면 Key Vault에서 액세스 정책을 추가합니다.</li><li>키 자격 증명 모음 UR에 액세스하려면 `Key Vault Certificate User` 기본 제공 역할에 애플리케이션 ID가 부여되었는지 확인합니다.</br><p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p></li></ul><p>자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p> |
       | [!UICONTROL **키 자격 증명 모음 암호 이름**] | Azure Key Vault에 암호를 추가할 때 만든 암호 이름입니다. 이 정보는 Microsoft Azure의 **Key Vault** 설정 페이지에서 만든 Key Vault에 있습니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오. |
       | [!UICONTROL **암호**] | 만든 Azure 애플리케이션에서 암호를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **인증서 및 암호** 애플리케이션 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
 
@@ -121,7 +121,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       +++Azure RBAC
 
-      Azure RBAC 계정을 구성하려면 다음 정보를 지정하십시오.
+      Azure RBAC 계정을 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -135,7 +135,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       +++이메일
 
-      전자 메일 계정을 구성하려면 다음 정보를 지정합니다.
+      이메일 계정을 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
@@ -158,14 +158,14 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       | 필드 | 함수 |
       |---------|----------|
-      | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>이 버킷에 파일을 업로드하려면 Adobe에서 제공한 사용자 ARN에 `S3:PutObject` 권한이 있는지 확인합니다. 이 권한을 사용하면 사용자 ARN에서 초기 파일을 업로드하고 후속 업로드에 파일을 덮어쓸 수 있습니다.</p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들어 길이가 3 - 63자 사이여야 하고, 소문자, 숫자, 점(.) 및 하이픈(-)으로만 구성할 수 있으며, 문자 또는 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+      | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>이 버킷에 파일을 업로드하려면 Adobe에서 제공한 사용자 ARN에 `S3:PutObject` 권한이 있는지 확인합니다. 이 권한을 사용하면 사용자 ARN에서 초기 파일을 업로드하고 후속 업로드에 파일을 덮어쓸 수 있습니다.</p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들면 3~63자 사이여야 하며 소문자, 숫자, 점(.), 하이픈(-)만 사용할 수 있고 문자나 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **키 접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
       {style="table-layout:auto"}
 
 +++
 
-      +++Google Cloud 플랫폼
+      +++Google Cloud Platform
 
       Google Cloud Platform 위치를 구성하려면 다음 정보를 지정합니다.
 
@@ -180,12 +180,12 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       +++Azure SAS
 
-      Azure SAS 위치를 구성하려면 다음 정보를 지정하십시오.
+      Azure SAS 위치를 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
       | [!UICONTROL **컨테이너 이름**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. |
-      | [!UICONTROL **키 접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/`<p>Azure SAS 계정을 구성할 때 Key Vault 암호 이름 필드에 지정한 SAS URI 저장소에 `Write` 권한. 이를 통해 SAS URI가 Azure 컨테이너에 파일을 만들 수 있습니다. <p>SAS URI가 파일도 덮어쓰도록 하려면 SAS URI 저장소에 `Delete` 권한.</p><p>자세한 내용은 Azure Blob Storage 설명서에서 [Blob 스토리지 리소스](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) 를 참조하십시오.</p> |
+      | [!UICONTROL **키 접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/`<p>Azure SAS 계정 구성 시 Key Vault 암호 이름 필드에 지정된 SAS URI 저장소에 `Write` 권한이 있는지 확인합니다. 이렇게 하면 SAS URI가 Azure 컨테이너에서 파일을 만들 수 있습니다. <p>SAS URI를 사용하여 파일을 덮어쓰려면 SAS URI 저장소에 `Delete` 권한이 있는지 확인합니다.</p><p>자세한 내용은 Azure Blob Storage 설명서에서 [Blob 스토리지 리소스](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) 를 참조하십시오.</p> |
 
       {style="table-layout:auto"}
 
@@ -193,7 +193,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       +++Azure RBAC
 
-      Azure RBAC 위치를 구성하려면 다음 정보를 지정하십시오.
+      Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
