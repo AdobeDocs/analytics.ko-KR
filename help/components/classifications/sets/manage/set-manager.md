@@ -3,10 +3,10 @@ title: 분류 세트 관리자
 description: Adobe Analytics에서 분류 세트를 관리합니다.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 5%
+source-wordcount: '344'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 ## 분류 세트 필터링
 
-분류 세트 관리자의 왼쪽에는 원하는 분류 세트를 찾을 수 있는 필터 설정을 제공합니다. 필터 아이콘을 클릭하면 필터 설정 가시성이 전환됩니다. 분류 세트를 다음으로 필터링할 수 있습니다. **[!UICONTROL 태그]**, **[!UICONTROL 보고서 세트]**, 또는 **[!UICONTROL 소유자]**.
+분류 세트 관리자의 왼쪽에는 원하는 분류 세트를 찾을 수 있는 필터 설정을 제공합니다. 필터 아이콘을 클릭하면 필터 설정 가시성이 전환됩니다. 분류 세트를 다음으로 필터링할 수 있습니다. **[!UICONTROL 태그]** 또는 **[!UICONTROL 보고서 세트]**.
 
 ![분류 세트 필터링](../../assets/classification-set-filters.png)
 
@@ -30,7 +30,6 @@ ht-degree: 5%
 
 * **[!UICONTROL 분류 세트]**: 분류 세트 이름입니다. 분류 세트 이름 클릭 [설정 편집](settings.md).
 * **[!UICONTROL 구독]**: 이 분류 세트가 적용되는 구독 수입니다.
-* **[!UICONTROL 소유자]**: 분류 세트의 소유자입니다.
 * **[!UICONTROL 분류]**: 분류 세트에 포함된 분류 차원 수입니다.
 * **[!UICONTROL 자동화]**: 분류 세트가 클라우드 위치에서 데이터를 자동으로 가져오도록 구성되었는지 여부를 결정합니다. 분류 세트에서 자동화를 구성할 수 있습니다. [스키마](schema.md).
 * **[!UICONTROL 마지막 수정일]**: 분류 세트를 마지막으로 수정한 날짜 및 시간입니다.
