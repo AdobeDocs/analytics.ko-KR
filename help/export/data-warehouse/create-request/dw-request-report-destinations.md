@@ -101,7 +101,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
