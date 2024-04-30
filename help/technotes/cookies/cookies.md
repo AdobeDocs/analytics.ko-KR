@@ -4,10 +4,10 @@ description: 추적 방지 조치가 Adobe Analytics에서 설정한 서드파�
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 97%
+source-wordcount: '1909'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 ## 브라우저는 쿠키 사용을 어떻게 제한했습니까?
 
 >[!NOTE]
->[크로스 디바이스 분석](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) 는 해시된 로그인 id와 같은 개인 ID를 사용하여 쿠키 간에 연결할 수 있습니다.
+>[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics)는 해시된 로그인 id와 같은 사용자 ID를 사용하여 쿠키 간에 연결할 수 있습니다.
 
 ### 서드파티 쿠키 제한
 
@@ -75,7 +75,7 @@ ITP 제한의 영향은 사용자의 동작에 따라 크게 달라집니다. IT
 
 서드파티 쿠키는 사용자가 방문하는 웹 사이트에서 생성되지 않습니다.
 
-브라우저는 현재 모든 서드파티 쿠키를 동일하게 취급하고 저장하지만, 서드파티 쿠키는 다른 방식으로 작동할 수 있습니다. 고객의 Analytics 서드파티 Adobe을 구현하면 브라우저가 쿠키를 저장합니다 [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR) ID를 서드파티 쿠키로 사용하지만, 클라이언트는 Adobe에 대해서만 호출을 하고 알 수 없거나 의심스러운 서드파티 도메인에 대해서는 호출을 하지 않습니다. 이 쿠키는 도메인 간에 영구 식별자를 제공하며 보안(HTTPS) 콘텐츠를 허용합니다. 자세한 내용은 [쿠키 및 Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)를 참조하십시오.
+브라우저는 현재 모든 서드파티 쿠키를 동일하게 취급하고 저장하지만, 서드파티 쿠키는 다른 방식으로 작동할 수 있습니다. 고객의 Analytics 서드파티 쿠키를 구현하면 브라우저는 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR) ID를 서드파티 쿠키로 저장하지만, 고객은 Adobe에 대해서만 호출을 하고 알 수 없거나 의심스러운 서드파티 도메인에 대해서는 호출을 하지 않습니다. 이 쿠키는 도메인 간에 영구 식별자를 제공하며 보안(HTTPS) 콘텐츠를 허용합니다. 자세한 내용은 [쿠키 및 Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)를 참조하십시오.
 
 서드파티 쿠키는 Analytics이 구현되는 범위 내에서 도메인 간 추적 및 대상 변경 광고를 포함한 사용 사례에 사용됩니다. 서드파티 쿠키를 사용하면 자신이 소유하는 다른 도메인을 방문하거나 자신이 소유하지 않는 사이트에 광고를 표시하는 방문자를 식별할 수 있습니다.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -105,7 +105,7 @@ ITP 제한의 영향은 사용자의 동작에 따라 크게 달라집니다. IT
 
 방문자 ID 서비스를 사용하는 고객의 경우 쿠키에는 기본적으로 `SameSite=None` 및 `secure` 속성이 설정되어 있으며, 이를 통해 서드파티 사용 사례를 지원할 수 있습니다.
 
-Analytics 레거시 식별자(&quot;s_vi&quot; 및 &quot;s_buk&quot; 쿠키)를 사용하는 고객의 경우 adobedc.net, 2o7.net 및 omtrdc.net 등 표준 수집 도메인에서 서드파티 사용 사례도 사용하도록 쿠키가 설정되어 있습니다. CNAME 구현을 사용하는 고객의 경우 Analytics는 `SameSite=Lax`를 설정합니다.
+Analytics 레거시 식별자를 사용하는 고객의 경우(`s_vi` 및 `s_fid` 또한, 쿠키는 표준 수집 도메인에서 서드파티 사용 사례를 활성화하도록 설정됩니다. `adobedc.net`, `2o7.net`, 및 `omtrdc.net`. CNAME 구현을 사용하는 고객의 경우 Analytics는 `SameSite=Lax`를 설정합니다.
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Analytics 레거시 식별자(&quot;s_vi&quot; 및 &quot;s_buk&quot; 쿠키)를 
 
 JavaScript 구성이 Adobe 서비스에 대한 모든 호출에 HTTPS를 사용하는지 확인합니다.
 
-사이트에서 Experience Cloud 방문자 ID 서비스를 사용하는 경우에는 서비스가 서드파티 HTTP 호출을 HTTPS 끝점으로 리디렉션하며, 이로 인해 지연 시간이 늘어날 수 있지만 구성을 변경해야 하는 것은 아닙니다.
+사이트에서 Experience Cloud 방문자 ID 서비스를 사용하는 경우에는 서비스가 서드파티 HTTP 호출을 HTTPS 엔드포인트로 리디렉션하며, 이로 인해 지연 시간이 늘어날 수 있지만 구성을 변경해야 하는 것은 아닙니다.
 
 #### 여러 개의 도메인에 대해 CNAME를 사용하는 경우에 SameSite 값 변경 {#samesite-one-cname}
 

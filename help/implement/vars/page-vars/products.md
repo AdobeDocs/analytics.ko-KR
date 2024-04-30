@@ -4,10 +4,10 @@ description: 표시되거나 장바구니에 있는 제품에 대한 데이터�
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 64%
+source-wordcount: '658'
+ht-degree: 67%
 
 ---
 
@@ -30,11 +30,42 @@ ht-degree: 64%
 * 머천다이징 eVar는에 매핑됩니다. `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` 끝 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`제품에 바인딩할 eVar에 따라 다릅니다.
 * 머천다이징 이벤트가에 매핑됩니다. `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 끝 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`제품에 바인딩할 이벤트에 따라 다릅니다. 이러한 필드 중 하나에서 이벤트를 설정하면 자동으로 [이벤트](events/events-overview.md) 문자열이 Adobe Analytics으로 전송되었습니다.
 
->[!NOTE]
->
->`lineItemId` 아직 표준 Analytics 이벤트 스키마에 포함되어 있지 않으므로 사용자 지정 필드로 추가해야 합니다. Adobe은 향후 전용 &#39;범주&#39; 필드를 추가할 계획입니다.
+```json
+{
+  "xdm": {
+    "productListItems": [{
+      "productCategories": [{
+        "categoryID": "Men's"
+      }],
+      "name": "Hiking boot",
+      "quantity": 1,
+      "priceTotal": 49.99
+    },
+    {
+      "productCategories": [{
+        "categoryID": "Camping"
+      }],
+      "name": "Hunting blind",
+      "quantity": 3,
+      "priceTotal": 699.69
+    }]
+  }
+}
+```
 
 을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), products 변수는 `data.__adobe.analytics.products` 다음 AppMeasurement 구문 이 필드를 설정하면 XDM 개체에 설정된 제품이 덮어쓰기되어 Adobe Analytics으로 전송되지 않습니다.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "products": "Archery;Fletched arrow;12;159.99"
+      }
+    }
+  }
+}
+```
 
 ## Adobe Analytics 확장을 사용하는 제품
 

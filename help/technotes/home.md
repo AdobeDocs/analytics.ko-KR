@@ -3,9 +3,9 @@ title: Analytics 기술 노트
 description: 이 안내서는 특정 분석 도구 또는 구성 요소에 속하지 않는 주제에 대한 유용한 정보를 제공합니다.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ Adobe Analytics는 기업이 디지털 마케팅 활동을 측정, 분석 및 �
 ## 주요 기술 참고 문서
 
 * [서드파티 분석 플랫폼에서 Adobe Analytics로 전환](ga-to-aa/home.md)
-* [지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)
 
 ## 기타 Analytics 사용 안내서
 

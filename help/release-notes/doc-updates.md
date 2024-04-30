@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
 source-wordcount: '5315'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 99%
 | [!UICONTROL 페이지 요약] 패널의 새 주제 | [페이지 요약 패널](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | [!UICONTROL 다음/이전 항목] 패널의 새 주제 | [다음/이전 차원 항목 패널](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022년 3월** | |
-| 지원되는 HTTPS 암호화 알고리즘에 대한 새로운 항목 | 암호 보안 수준이 “높음”으로 설정되어 있는 고객에 대해 [HTTPS 암호화 알고리즘이 지원](/help/technotes/rdc/encryption-algos.md)됩니다. |
+| 지원되는 HTTPS 암호화 알고리즘에 대한 새로운 항목 | 암호 보안 수준이 &quot;높음&quot;으로 설정되어 있는 고객에 대해 HTTPS 암호화 알고리즘이 지원됩니다. |
 | 작업 영역의 주석에 대한 새로운 설명서 | [작업 영역의 주석](/help/analyze/analysis-workspace/components/annotations/overview.md)을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. |
 | Adobe Analytics 랜딩 페이지 업데이트 | 작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지 [업데이트](/help/analyze/landing.md)로 유용성이 향상되고 탐색이 간편해졌습니다. |
 | [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | 이 패널을 통해 선택한 차원 항목의 다음 또는 이전 항목을 탐색할 수 있습니다. |
@@ -296,7 +296,7 @@ ht-degree: 99%
 | 2019년 5월 9일 | 새 설정은 플로우 시각화 설정에 추가되었습니다. 반복 인스턴스 포함 [플로우 설정](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) 참조 |
 | 2019년 4월 11일 | 작업 영역 최적화 모범 사례 개선 사항: [성능 최적화](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 2019년 4월 11일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)에 대한 업데이트입니다. |
-| 2019년 3월 14일 | [지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)에 대한 주요 업데이트입니다. |
+| 2019년 3월 14일 | 지역 데이터 수집에 대한 주요 업데이트입니다. |
 | 2019년 2월 7일 | [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)의 “IP 주소의 마지막 옥텟을 0으로 바꾸기” 및 “IP 난독 처리” 설정에 대한 부분 업데이트입니다. |
 | 2019년 2월 1일 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 구현 플러그인에 대한 주요 업데이트입니다. |
 | 2019년 1월 17일 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 집단 분석의 주요 개선 사항을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |

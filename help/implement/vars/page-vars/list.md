@@ -4,10 +4,10 @@ description: 동일한 히트에 여러 값이 있는 사용자 정의 변수입
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 87%
+source-wordcount: '500'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->목록 변수는 방문자당 가장 최근 250개의 값을 저장합니다. 주어진 방문자에 대해 250개가 넘는 고유값이 있는 경우 가장 오래된 값이 지표에 귀속되지 않습니다.
+>목록 변수는 다음을 기반으로 방문자당 가장 최근 값을 저장합니다. [!UICONTROL 최대 값] 에서 설정 [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). 최대 250개의 값이 지원됩니다. 보다 많은 고유한 값이 있는 경우 [!UICONTROL 최대 값] 을 설정하면 가장 오래된 값이 지표에 귀속되지 않습니다.
 
 ## 보고서 세트 설정에서 목록 변수 설정
 
@@ -77,7 +77,7 @@ Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니�
 
 ## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.list1 - s.list3
 
-각 목록 변수는 조직에 관련된 사용자 정의 값을 포함하는 문자열입니다. 이 변수에는 최대 바이트 수 제한이 없습니다. 그러나 각 개별 값은 최대 255바이트입니다. 사용하는 구분 기호는 [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에서 변수를 설정할 때 결정됩니다. 공백은 여러 항목을 구분할 때 사용하지 마십시오.
+각 목록 변수는 조직에 관련된 사용자 정의 값을 포함하는 문자열입니다. 이 변수에는 최대 바이트 수가 없습니다. 그러나 각 개별 값은 최대 255바이트로 제한됩니다. 사용하는 구분 기호는 [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에서 변수를 설정할 때 결정됩니다. 공백은 여러 항목을 구분할 때 사용하지 마십시오.
 
 ```js
 // A list variable configured with a comma as a delimiter
