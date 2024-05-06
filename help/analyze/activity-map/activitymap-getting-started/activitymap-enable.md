@@ -6,9 +6,9 @@ role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
 source-git-commit: 75d50a5b2cd31aa11df22fa6a271f7ab937a770c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,10 +23,10 @@ Activity Map 모듈은 AppMeasurement.js, Adobe Experience Platform 태그 및 W
 
 +++Web SDK(Adobe Experience Platform 태그 확장 기능)
 
-참고: 현재 Web SDK는 별도의 링크 클릭 이벤트를 기록하여 Activity Map 정보를 수집합니다. 이는 내부 링크에 대한 Activity Map 정보를 후속 AppMeasurement 로드 시 포함하여 기록하는 페이지와 다릅니다. 따라서 Web SDK 컬렉션을 사용하면 추가 서버 호출이 발생합니다. 웹 SDK의 향후 릴리스를 통해 기본적으로 AppMeasurement 동작과 일치하는 후속 히트에 대한 Activity Map 정보를 패키징하도록 웹 SDK를 구성할 수 있습니다.
+참고: Web SDK는 현재 별도의 링크 클릭 이벤트를 기록하여 Activity Map 정보를 수집합니다. 이는 후속 페이지 로드에 해당 정보를 포함시켜 내부 링크에 대한 Activity Map 정보를 기록하는 AppMeasurement와는 다릅니다. 이로 인해 Web SDK 수집은 추가 서버 호출을 발생시킵니다. Web SDK의 향후 릴리스에서는 AppMeasurement의 비헤이비어와 본질적으로 일치하는 후속 히트에 대한 Activity Map 정보를 패키징하도록 Web SDK를 구성할 수 있게 될 예정입니다.
 
 1. Adobe Experience Platform 태그에서 Analytics를 구현하는 속성으로 이동합니다.
-1. 아래 [!UICONTROL 확장] > [!UICONTROL Adobe Experience Platform 웹 SDK], 선택 **[!UICONTROL 클릭 데이터 수집 활성화]** 아래에 강조 표시된 대로.
+1. [!UICONTROL 확장] > [!UICONTROL Adobe Experience Platform Web SDK] 아래에서 강조 표시된 **[!UICONTROL 데이터 수집 클릭 활성화]**&#x200B;를 선택합니다.
 1. 변경 사항을 적용하여 라이브러리를 빌드합니다.
 1. 라이브러리를 프로덕션에 게시합니다.
 
