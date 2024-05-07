@@ -4,7 +4,7 @@ title: Activity Map 실행
 feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
-source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
+source-git-commit: ec294f1cb3b4d23758dc1d96ba3a5e226560a14c
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 35%
@@ -18,9 +18,8 @@ ht-degree: 35%
 
 ## Chrome의 Launch
 
-1. 
-   1. 오른쪽 상단에 있는 Chrome 확장 프로그램 아이콘을 클릭합니다.
-      ![Activity Map 확장](assets/chrome2.png)
+1. 오른쪽 상단에 있는 Chrome 확장 프로그램 아이콘을 클릭합니다.
+   ![Activity Map 확장](assets/chrome2.png)
 1. Activity Map을 클릭합니다.
    ![Activity Map 시작](assets/chrome3.png)
 1. 프로필, 사용자 이름 및 암호로 로그인합니다.
