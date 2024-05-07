@@ -1,11 +1,11 @@
 ---
 title: 동적 조회
 description: 동적 조회가 무엇이며 이를 활성화하는 방법에 대해 알아봅니다. 통신사, 모바일 속성 및 운영 체제 유형을 포함합니다.
-exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
    * 대상 `carrier.tsv`, 다음을 포함해야 합니다. `carrier`.
    * 대상 `mobile_attributes.tsv`, 다음을 포함해야 합니다. `mobile_id`.
    * 대상 `operating_system_type.tsv`, 다음을 포함해야 합니다. `os`.
-* 다음 열은 **제외됨**. 이러한 열이 데이터 피드에 포함되어 있으면 추가 조회 테이블이 포함되지 않습니다.
+* 다음 열은 **제외됨**. 이러한 열 중 하나라도 데이터 피드에 포함되는 경우 `mobile_attributes.tsv` 동적 조회는 포함되지 않습니다.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
