@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
 workflow-type: tm+mt
-source-wordcount: '5315'
-ht-degree: 98%
+source-wordcount: '5448'
+ht-degree: 97%
 
 ---
 
@@ -25,8 +25,11 @@ ht-degree: 98%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 5월** | |
+| Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 조직의 경우, 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 여러 업그레이드 옵션 및 고려해야 할 사항이 많습니다.<p>이제 다음 내용을 더 잘 이해하는 데 도움이 되는 새로운 설명서 리소스를 사용할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용할 수 있는 업그레이드 경로</li><li>각 업그레이드 경로의 장단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>이전 데이터 처리에 대한 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics으로 업그레이드 시작](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| 사용자 지정 날짜 범위에 대한 설명서가 업데이트되었습니다. | 관련 스크린샷 및 절차 업데이트됨 [사용자 지정 날짜 범위 만들기](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 를 사용하십시오. |
 | **2024년 4월** | |
-| 분류 세트에서 &quot;소유자&quot;와 관련된 설명서를 제거했습니다. | &quot;소유자&quot; 필터 및 열이 [분류 세트 관리자](/help/components/classifications/sets/manage/set-manager.md) 및 &quot;소유자&quot; 필드가 [분류 세트 설정](/help/components/classifications/sets/manage/settings.md). <p>이 필터, 열 및 필드를 제거하도록 설명서를 업데이트했습니다.</p> |
+| 분류 세트에서 “소유자”와 관련된 문서를 제거했습니다. | [분류 세트 관리자](/help/components/classifications/sets/manage/set-manager.md)에서 “소유자” 필터 및 열이 제거되었으며, [분류 세트 설정](/help/components/classifications/sets/manage/settings.md)에서 “소유자” 필드가 제거되었습니다. <p>설명서가 업데이트되어 이 필터, 열 및 필드가 제거되었습니다.</p> |
 | 클라우드 가져오기 및 내보내기 위치 구성에 대한 문서에서 축소 가능한 섹션을 제거했습니다. | 클라우드 계정 유형을 설명하는 정보를 보기 위해 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에서 축소 가능한 섹션을 제거했습니다. |
 | **2024년 3월** | |
 | AppMeasurement 업데이트 | [](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
@@ -150,7 +153,7 @@ ht-degree: 98%
 | [!UICONTROL 페이지 요약] 패널의 새 주제 | [페이지 요약 패널](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | [!UICONTROL 다음/이전 항목] 패널의 새 주제 | [다음/이전 차원 항목 패널](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022년 3월** | |
-| 지원되는 HTTPS 암호화 알고리즘에 대한 새로운 항목 | 암호 보안 수준이 &quot;높음&quot;으로 설정되어 있는 고객에 대해 HTTPS 암호화 알고리즘이 지원됩니다. |
+| 지원되는 HTTPS 암호화 알고리즘에 대한 새로운 항목 | 암호 보안 수준이 “높음”으로 설정되어 있는 고객에 대해 HTTPS 암호화 알고리즘이 지원됩니다. |
 | 작업 영역의 주석에 대한 새로운 설명서 | [작업 영역의 주석](/help/analyze/analysis-workspace/components/annotations/overview.md)을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. |
 | Adobe Analytics 랜딩 페이지 업데이트 | 작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지 [업데이트](/help/analyze/landing.md)로 유용성이 향상되고 탐색이 간편해졌습니다. |
 | [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | 이 패널을 통해 선택한 차원 항목의 다음 또는 이전 항목을 탐색할 수 있습니다. |
