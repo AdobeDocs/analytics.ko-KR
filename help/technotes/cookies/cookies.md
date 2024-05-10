@@ -5,9 +5,9 @@ feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
 source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1909'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 98%
 
 ### 자사 쿠키 제한 {#limitations-first-party-cookies}
 
-자사 쿠키는 모든 주요 브라우저에서 허용됩니다. 그러나 Apple은 ITP(Intelligent Tracking Prevention)를 통해 Adobe에서 설정한 자사 쿠키의 수명을 제한합니다. 이는 iOS 및 iPadOS의 모든 브라우저뿐만 아니라 Safari에도 영향을 미칩니다.
+자사 쿠키는 모든 주요 브라우저에서 허용됩니다. 단, Apple은 ITP(Intelligent Tracking Program)를 통해 Adobe에서 설정한 자사 쿠키의 수명을 제한합니다. 이는 iOS 및 iPadOS의 모든 브라우저뿐만 아니라 Safari에도 영향을 미칩니다.
 
-Adobe의 자사 쿠키는 Apple에서 추적기에서 발생한다고 판단하는 클릭스루 7일 만료로 제한됩니다. 7일 만료인 경우 사용자가 사이트를 방문한 후 7일 안에 다시 방문하면 쿠키 만료일은 7일 더 연장됩니다. 하지만 사용자가 사이트를 방문한 후 8일째 다시 방문하면 두 번째 방문할 때는 새로운 사용자로 취급됩니다.
+Adobe의 자사 쿠키는 7일의 만료 기간으로 제한되거나 Apple이 추적기에서 발생한다고 판단하는 클릭스루의 경우 24시간의 만료 기간으로 제한됩니다. 7일 만료인 경우 사용자가 사이트를 방문한 후 7일 안에 다시 방문하면 쿠키 만료일은 7일 더 연장됩니다. 하지만 사용자가 사이트를 방문한 후 8일째 다시 방문하면 두 번째 방문할 때는 새로운 사용자로 취급됩니다.
 
 현재, 방문자 ID 서비스를 사용하거나 레거시 Analytics ID(&quot;s_vi&quot; cookie)를 사용하고 있는 경,우 ITP 정책이 Adobe가 설정한 모든 자사 쿠키에 적용됩니다. 한때는 이 정책이 클라이언트측 설정 쿠키에만 적용되었으며, CNAME 구현을 통해 서버측 설정 쿠키에는 적용되지 않았습니다. 하지만 2020년 11월에 ITP가 업데이트되어 CNAME 구현에도 적용되었습니다.
 
@@ -53,7 +53,7 @@ ITP 정책은 자주 발전하고 있습니다. 최신 정책은 Apple의 [Webki
 Adobe가 설정한 모든 자사 쿠키 및 관련 JavaScript 라이브러리는 ITP 정책의 영향을 받습니다.
 
 * Adobe Experience Cloud 방문자 ID(ECID) 서비스 라이브러리가 설정한 [&quot;AMCV&quot; 쿠키](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)
-* Analytics 레거시 [&quot;s_vi&quot; 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR), CNAME를 사용하는 자사 데이터 콜렉션으로 구성된 경우
+* Analytics 레거시 [&quot;s_vi&quot; 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR), CNAME를 사용하는 자사 데이터 컬렉션으로 구성된 경우
 * Analytics 레거시 [&quot;s_fid&quot; 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR), &quot;s_vi&quot;를 설정할 수 없는 경우에 사용되는 폴백 쿠키
 
 #### ITP는 Analytics의 Safari에 어떤 영향이 있습니까?
@@ -105,7 +105,7 @@ ITP 제한의 영향은 사용자의 동작에 따라 크게 달라집니다. IT
 
 방문자 ID 서비스를 사용하는 고객의 경우 쿠키에는 기본적으로 `SameSite=None` 및 `secure` 속성이 설정되어 있으며, 이를 통해 서드파티 사용 사례를 지원할 수 있습니다.
 
-Analytics 레거시 식별자를 사용하는 고객의 경우(`s_vi` 및 `s_fid` 또한, 쿠키는 표준 수집 도메인에서 서드파티 사용 사례를 활성화하도록 설정됩니다. `adobedc.net`, `2o7.net`, 및 `omtrdc.net`. CNAME 구현을 사용하는 고객의 경우 Analytics는 `SameSite=Lax`를 설정합니다.
+Analytics 레거시 식별자(`s_vi` 및 `s_fid` 쿠키)를 사용하는 고객의 경우 `adobedc.net`, `2o7.net` 및 `omtrdc.net` 등 표준 수집 도메인에서 서드파티 사용 사례도 사용하도록 쿠키가 설정되어 있습니다. CNAME 구현을 사용하는 고객의 경우 Analytics는 `SameSite=Lax`를 설정합니다.
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Analytics 레거시 식별자를 사용하는 고객의 경우(`s_vi` 및 `s_fid
 
 `SameSite`가 `None`로 설정되면 Google에서 잘못 처리된 쿠키로 식별하는 브라우저의 경우에는 대신에 `SameSite`가 설정되지 않습니다.
 
-다음의 표에서는 Analytics 쿠키에 대한 SameSite 쿠키을 요약합니다.
+다음 표에서는 Analytics 쿠키에 대한 SameSite 속성을 요약합니다.
 
 ![쿠키 테이블](/help/technotes/assets/cookies1.png)
 
@@ -133,7 +133,7 @@ JavaScript 구성이 Adobe 서비스에 대한 모든 호출에 HTTPS를 사용�
 
 CNAME 구현이 자신의 웹 사이트와 동일한 도메인에 설정되어 있는 경우에는 쿠키가 자사 컨텍스트에 생성되며 변경할 필요가 없습니다.
 
-그러나 여러 도메인을 소유하고 있고 모든 도메인에서 동일한 CNAME을 사용하여 데이터 수집하는 경우에는 쿠키가 다른 도메인에 있는 다른 쿠키로 취급됩니다. Chrome 80 이상에서는 더 이상 다른 도메인에서 보이지 않습니다. Analytics에서는 모든 브라우저에서 더 유사하게 동작하도록 명시적으로 이 쿠키의 `SameSite` 값을 `Lax`로 설정했습니다. 친숙한 제3 컨텍스트에서 이 쿠키를 사용하는 경우, `SameSite=None` 값을 사용하여 쿠키를 설정하기 때문에 항상 HTTPS를 사용해야 합니다. 아직 그렇게 하지 않은 경우, Adobe 고객 지원 센터에 문의하여 보안 CNAME에 대해 SameSite 값을 변경하십시오.
+그러나 여러 도메인을 소유하고 있고 모든 도메인에서 동일한 CNAME을 사용하여 데이터 수집하는 경우에는 쿠키가 다른 도메인에 있는 서드파티 쿠키로 취급됩니다. Chrome 80 이상에서는 더 이상 다른 도메인에서 보이지 않습니다. Analytics에서는 모든 브라우저에서 더 유사하게 동작하도록 명시적으로 이 쿠키의 `SameSite` 값을 `Lax`로 설정했습니다. 친숙한 서드파티 컨텍스트에서 이 쿠키를 사용하는 경우, `SameSite=None` 값을 사용하여 쿠키를 설정하기 때문에 항상 HTTPS를 사용해야 합니다. 아직 그렇게 하지 않은 경우, Adobe 고객 지원 센터에 문의하여 보안 CNAME에 대해 SameSite 값을 변경하십시오.
 
 ## Safari 변화가 비즈니스에 영향을 주는지 어떻게 판단할 수 있습니까? {#measure-itp-effect}
 
