@@ -4,28 +4,28 @@ description: Experience Platform Edge가 Analytics 변수에 자동으로 매핑
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
+source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 5%
+source-wordcount: '541'
+ht-degree: 2%
 
 ---
 
 # Adobe Analytics에 대한 데이터 개체 변수 매핑
 
-다음 표는 Adobe Experience Platform Edge Network가 Adobe Analytics에 자동으로 매핑하는 데이터 개체 변수를 보여 줍니다. 이러한 데이터 개체 필드 경로를 사용하는 경우 Adobe Analytics으로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다.
+다음 표는 Adobe Experience Platform Edge Network이 Adobe Analytics에 자동으로 매핑하는 데이터 개체 변수를 보여 줍니다. 이러한 데이터 개체 필드 경로를 사용하는 경우 Adobe Analytics으로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다.
 
-나중에 Customer Journey Analytics을 사용하려는 경우 이러한 필드를 사용하는 것이 좋습니다. 이 Adobe 방법을 사용하면 조직이 XDM 스키마를 준수하지 않고 웹 SDK를 사용하여 데이터를 구현으로 보낼 수 있습니다. 조직에서 Adobe Experience Platform으로 데이터를 전송할 준비가 되면 다음을 사용할 수 있습니다. [데이터 스트림 매핑](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) 데이터 개체 필드를 해당 XDM 필드에 지정합니다.
+나중에 Customer Journey Analytics을 사용하려는 경우 이러한 필드를 사용하는 것이 좋습니다. 이 Adobe 방법을 사용하면 조직이 XDM 스키마를 준수하지 않고 웹 SDK를 사용하여 데이터를 구현으로 보낼 수 있습니다. 조직에서 Adobe Experience Platform으로 데이터를 전송할 준비가 되면 다음을 사용할 수 있습니다. [데이터 스트림 매핑](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) 데이터 개체 필드를 해당 XDM 필드에 지정합니다.
 
 ## 값 우선 순위
 
-이 테이블의 데이터 개체 필드는 대부분 [매핑된 XDM 필드](xdm-var-mapping.md). 두 가지를 모두 설정하시면 `data` 오브젝트 필드 및 해당 XDM 필드, 데이터 오브젝트 필드가 우선합니다. XDM 개체 필드와 데이터 개체 필드를 모두 사용하는 경우 데이터 개체 필드를 사용하여 Adobe 정의 이벤트를 설정하는 것이 좋습니다. 필드인 경우 `data.__adobe.analytics.events` 가 있으면 상거래 및 사용자 지정 이벤트와 관련된 모든 XDM 개체 필드를 덮어씁니다.
+이 테이블의 데이터 개체 필드는 대부분 [매핑된 XDM 필드](xdm-var-mapping.md). 지정된 데이터 개체 필드와 해당 XDM 필드를 모두 설정하면 데이터 개체 필드가 우선합니다. 예를 들어, 필드가 `data.__adobe.analytics.events` 가 있으면 모든 이벤트 관련 XDM 오브젝트 필드를 덮어씁니다.
 
 일부 데이터 개체 필드는 해당 필드도 지원합니다 [쿼리 매개 변수 값](../validate/query-parameters.md) 축약적인 값으로 사용됩니다. 표준 데이터 개체 필드와 축약 데이터 개체 필드는 각각 고유한 변수에 해당하는 한 서로 교환하여 사용할 수 있습니다. 표준 데이터 개체 필드와 각 축약 데이터 개체 필드를 동시에 설정하지 마십시오. Adobe은 우선 순위가 높은 필드를 보장할 수 없습니다.
 
 ## 데이터 개체 필드 매핑
 
-이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)에서 확인할 수 있습니다.
+이 테이블에 대한 이전 업데이트는 이 페이지의 [gitHub의 커밋 내역](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). AppMeasurement 변수와 마찬가지로 모든 데이터 개체 필드는 대/소문자를 구분합니다.
 
 | 데이터 개체 필드 경로 | Analytics 변수 및 설명 |
 | --- | --- |
