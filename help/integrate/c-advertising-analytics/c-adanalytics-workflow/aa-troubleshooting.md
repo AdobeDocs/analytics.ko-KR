@@ -3,10 +3,10 @@ description: Advertising Analytics와 관련된 문제를 해결 및 수정합�
 title: Advertising Analytics 문제 해결
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 92%
+source-wordcount: '173'
+ht-degree: 50%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 ## 보고서 세트가 매핑 섹션에 표시되지 않음 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-[새 광고 계정을 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)하려고 하는데 보고서 세트가 **[!UICONTROL 보고서 세트 선택]** 드롭다운 목록에 표시되지 않습니다. 다음과 같은 두 가지 가능한 이유가 있습니다.
+다음을 시도하고 있습니다. [새 광고 계정 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 보고서 세트가 다음 목록에 표시되지 않음: **[!UICONTROL 매핑된 보고서 세트]** 드롭다운 목록입니다. 다음과 같은 두 가지 가능한 이유가 있습니다.
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 

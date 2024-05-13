@@ -3,10 +3,10 @@ description: Advertising Analytics에서 계정을 관리합니다.
 title: 광고 계정 관리
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 **[!UICONTROL 관리]** > **[!UICONTROL 광고 계정]**&#x200B;으로 이동하여 관리 UI에 액세스할 수 있습니다.
 
-![](assets/manage_ad_accounts.png)
+![광고 계정](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -30,7 +30,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 추가 </p> </td> 
-   <td colname="col2"> <p><a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >광고 계정 설정</a> UI로 이동합니다. </p> </td> 
+   <td colname="col2"> <p><a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >광고 계정 설정</a> UI로 이동합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이름 변경 </p> </td> 
@@ -42,7 +42,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>일시 정지 </p> </td> 
-   <td colname="col2"> <p>계정을 비활성화합니다. 다시 활성화하려면 <span class="uicontrol">활성화</span>를 클릭합니다. </p> </td> 
+   <td colname="col2"> <p>계정을 비활성화합니다. 다시 활성화하려면 <span class="uicontrol">활성화</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>열 머리글</b> </p> </td> 
@@ -58,7 +58,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>유형 </p> </td> 
-   <td colname="col2"> <p>현재는 한 개의 유형 (검색)만 지원합니다. </p> </td> 
+   <td colname="col2"> <p>지원되는 유형은 검색입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 </p> </td> 
