@@ -4,16 +4,16 @@ description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 80%
+source-wordcount: '1426'
+ht-degree: 71%
 
 ---
 
 # Adobe Analytics에 대한 XDM 개체 변수 매핑
 
-다음 표는 Adobe Experience Platform Edge Network가 Adobe Analytics에 자동으로 매핑하는 XDM 변수를 보여 줍니다. 이러한 XDM 필드 경로를 사용하는 경우 Adobe Analytics으로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다. 이러한 필드는 다음 위치에 포함됩니다. **[!UICONTROL Adobe Analytics ExperienceEvent 템플릿]** 필드 그룹입니다. Adobe Analytics과 Adobe Experience Platform 모두에 데이터를 전송하려면 이러한 필드를 사용하는 것이 좋습니다.
+다음 표는 Adobe Experience Platform Edge Network이 Adobe Analytics에 자동으로 매핑하는 XDM 변수를 보여 줍니다. 이러한 XDM 필드 경로를 사용하는 경우 Adobe Analytics으로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다. 이러한 필드는 다음 위치에 포함됩니다. **[!UICONTROL Adobe Analytics ExperienceEvent 템플릿]** 필드 그룹입니다. Adobe Analytics과 Adobe Experience Platform 모두에 데이터를 전송하려면 이러한 필드를 사용하는 것이 좋습니다.
 
 조직에서 Customer Journey Analytics으로 이동하려는 경우 Adobe은 대신 `data` 스키마를 따르지 않고 Adobe Analytics으로 직접 데이터를 전송하는 개체입니다. 이 전략을 사용하면 조직에서 를 사용하지 않고 고유한 스키마를 사용할 수 있습니다. [!UICONTROL Adobe Analytics ExperienceEvent 템플릿] (Customer Journey Analytics에 덜 적용 가능). 다음을 참조하십시오 [Adobe Analytics에 대한 데이터 개체 변수 매핑](data-var-mapping.md) 를 참조하십시오.
 
@@ -143,7 +143,11 @@ ht-degree: 80%
 
 ## Analytics 변수에 다른 XDM 필드 매핑
 
-Adobe Analytics에 추가할 차원 또는 지표가 있는 경우 [컨텍스트 데이터 변수](../vars/page-vars/contextdata.md)를 통해 추가할 수 있습니다. 자동으로 매핑되지 않는 모든 XDM 필드 요소는 접두사 a.x.가 있는 컨텍스트 데이터로 Adobe Analytics에 전송됩니다. 그런 다음 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)을 사용하여 이 컨텍스트 데이터 변수를 원하는 Analytics 변수에 매핑할 수 있습니다. 예를 들어 다음 이벤트를 전송하는 경우:
+Adobe Analytics에 추가할 차원 또는 지표가 있는 경우 다음을 수행할 수 있습니다 [컨텍스트 데이터 변수](../vars/page-vars/contextdata.md).
+
+### 암시적 매핑
+
+자동으로 매핑되지 않는 모든 XDM 필드 요소는 접두사가 있는 컨텍스트 데이터로 Adobe Analytics에 전송됩니다 `a.x.` 그런 다음 를 사용하여 이 컨텍스트 데이터 변수를 원하는 Analytics 변수에 매핑할 수 있습니다 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). 예를 들어 다음 이벤트를 전송하는 경우:
 
 ```js
 alloy("event",{
@@ -157,6 +161,28 @@ alloy("event",{
 })
 ```
 
-Web SDK는 해당 데이터를 Adobe Analytics에 컨텍스트 데이터 변수 `a.x._atag.search.term`으로 전송합니다. 그런 다음 처리 규칙을 사용하여 해당 컨텍스트 데이터 변수 값을 eVar 같은 원하는 Analytics 변수에 할당할 수 있습니다.
+Web SDK는 해당 데이터를 Adobe Analytics에 컨텍스트 데이터 변수 `a.x._atag.search.term`으로 전송합니다. 그런 다음 처리 규칙을 사용하여 해당 컨텍스트 데이터 변수 값을 다음과 같은 원하는 Analytics 변수에 할당할 수 있습니다. `eVar`:
 
 ![검색어 처리 규칙](assets/examplerule.png)
+
+## 명시적 매핑
+
+XDM 필드 요소를 컨텍스트 데이터로 명시적으로 매핑할 수도 있습니다. 를 사용하여 명시적으로 매핑된 모든 XDM 필드 요소 `contextData` 요소를 접두사 없이 컨텍스트 데이터로 Adobe Analytics에 보냅니다. 그런 다음 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)을 사용하여 이 컨텍스트 데이터 변수를 원하는 Analytics 변수에 매핑할 수 있습니다. 예를 들어 다음 이벤트를 전송하는 경우:
+
+```js
+alloy("event",{
+    "xdm":{
+        "_atag":{
+            "analytics": {
+                "contextData" : {
+                    "someValue" : "1"
+                }
+            }
+        }
+    }
+})
+```
+
+Web SDK는 해당 데이터를 Adobe Analytics에 컨텍스트 데이터 변수로 전송합니다 `somevalue` 값 포함 `1`.  그런 다음 처리 규칙을 사용하여 해당 컨텍스트 데이터 변수 값을 다음과 같은 원하는 Analytics 변수에 할당할 수 있습니다. `eVar`:
+
+![검색어 처리 규칙](assets/examplerule-explicit.png)
