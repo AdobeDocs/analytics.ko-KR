@@ -4,10 +4,10 @@ description: Adobe Experience Platform 데이터 수집에서 Mobile SDK 확장 
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 97%
+source-wordcount: '487'
+ht-degree: 98%
 
 ---
 
@@ -106,30 +106,24 @@ Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience 
 
 <tr>
 <td>2</td>
-<td><b>스키마 설정</b>. Adobe Experience Platform을 활용하는 애플리케이션 전체에서 사용할 데이터 수집을 표준화하기 위해, Adobe는 개방적이고 공개적으로 문서화된 표준인 XDM(경험 데이터 모델)을 만들었습니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko">스키마 UI 개요</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td>모바일 태그 속성에 <b>Adobe Analytics 확장을 설치</b>하고 보고서 세트를 가리키도록 확장을 구성합니다.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">모바일 속성용 Adobe Analytics 확장</a>
 </tr>
 
 <tr>
-<td>4</td>
+<td>3</td>
 <td><b>앱의 코드를 사용</b>하여 필요한 확장을 등록하고 태그 구성을 로드합니다.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">구성 설정</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td>앱에서 태그의 데이터 요소, 규칙, 추가 확장 및 SDK API 호출의 조합을 사용하여 <b>기능을 구현하고 테스트</b>합니다. 모바일 애플리케이션에 대한 데이터 수집 및 경험을 검사하고, 유효성을 검사하고, 디버그합니다.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">샘플 애플리케이션 사용</a>
 </tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td>프로덕션으로 푸시하기 전에 <b>모바일 앱 구현을 확장하고 유효성을 검사</b>합니다.</td>
 <td></td> 
 </tr>
