@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
 workflow-type: tm+mt
-source-wordcount: '5448'
-ht-degree: 97%
+source-wordcount: '5471'
+ht-degree: 96%
 
 ---
 
@@ -21,11 +21,12 @@ ht-degree: 97%
 
 ## 주요 설명서 업데이트에 대한 세부 정보
 
-### 2024 {#24}
+### 2024 {#year2024}
 
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 5월** | |
+| XDM 개체 변수를 컨텍스트 데이터 변수에 명시적으로 매핑 | 다음을 수행하는 기능 문서화: [xdm 개체 변수 매핑을 사용하여 컨텍스트 데이터 변수를 명시적으로 설정](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 조직의 경우, 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 여러 업그레이드 옵션 및 고려해야 할 사항이 많습니다.<p>이제 다음 내용을 더 잘 이해하는 데 도움이 되는 새로운 설명서 리소스를 사용할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용할 수 있는 업그레이드 경로</li><li>각 업그레이드 경로의 장단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>이전 데이터 처리에 대한 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics으로 업그레이드 시작](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | 사용자 지정 날짜 범위에 대한 설명서가 업데이트되었습니다. | 관련 스크린샷 및 절차 업데이트됨 [사용자 지정 날짜 범위 만들기](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 를 사용하십시오. |
 | **2024년 4월** | |
@@ -44,7 +45,7 @@ ht-degree: 97%
 | 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 시스템 관리자만 사용할 수 있는 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에 “마지막 사용” 및 “다음에서 사용” 열에 대한 정보가 추가되었습니다. |
 | 미디어 분당 평균 시청 시간 설명서 업데이트 | 명확성을 높이기 위해 [미디어 분당 평균 시청 시간 패널](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)의 정보를 업데이트했습니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li></ul> |
 
-### 2023 {#23}
+### 2023 {#year2023}
 
 | 기능 | 설명 |
 | --- | --- |
@@ -118,7 +119,7 @@ ht-degree: 97%
 | 프로젝트 자동 저장 | [프로젝트 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)에 자동 저장 기능을 포함하도록 콘텐츠를 업데이트했습니다. |
 | 랜딩 페이지 | 새로운 [랜딩 페이지 업데이트](/help/analyze/landing.md) |
 
-### 2022 {#22}
+### 2022 {#year22}
 
 | 기능 | 설명 |
 | --- | --- |
@@ -139,13 +140,13 @@ ht-degree: 97%
 | 높은 엔트로피 클라이언트 힌트 | Adobe가 사용자 에이전트와 더불어 [클라이언트 힌트](/help/technotes/client-hints.md)를 사용하여 디바이스 정보를 확인하는 방법에 대한 새로운 주제. |
 | 처리 순서 | [처리 순서](/help/technotes/processing-order.md)에 대한 단일 도움말 항목을 제공하기 위해 다양한 도움말 페이지가 집계되었습니다. |
 | **2022년 8월** | |
-| Edge Collection용 XDM에서의 목록 변수 지원 | Web SDK를 사용하여 데이터를 수집하는 고객이 XDM을 사용하여 목록 변수 콘텐츠를 지정할 수 있습니다. [자세히 알아보기](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 2022년 8월 18일 |
+| Edge Collection용 XDM에서의 목록 변수 지원 | Web SDK를 사용하여 데이터를 수집하는 고객이 XDM을 사용하여 목록 변수 콘텐츠를 지정할 수 있습니다. [자세히 알아보기](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
 | 제품 문자열 변수를 설정할 때 Edge Collection용 XDM의 SKU 필드 사용 | Web SDK를 사용하여 데이터를 수집하는 고객이 SKU 값을 사용하여 제품 변수의 제품 필드를 설정할 수 있습니다. [자세히 알아보기](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022년 6월** |  |
 | Edge Collection용 XDM에서의 머천다이징 변수 | [Edge Collection용 XDM에서의 머천다이징 변수 지원](/help/components/dimensions/evar-merchandising.md)에 대한 문서 |
 | Experience Platform Edge 설명서 | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 및 [Edge API](/help/implement/aep-edge/server-api/overview.md)를 통한 Adobe Analytics 구현에 대한 새로운 문서 |
 | 업데이트된 흐름 시각화 설명서 | [새 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)를 기반으로 함 |
-| 모바일 스코어카드에서 주석 공유에 대한 설명서 | [모바일 스코어카드에서 작업 영역에 생성된 주석](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)을 표시할 수 있습니다. |
+| 모바일 스코어카드에서 주석 공유에 대한 설명서 | 다음을 표시할 수 있습니다 [모바일 스코어카드의 작업 영역에서 생성된 주석](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **2022년 5월** | |
 | Edge Network를 통해 라이프사이클 차원 및 지표 채우기 | Edge Network를 통해 전송되는 모바일 라이프사이클 데이터가 이제 Analytics 보고에 표시됩니다. 기존 모바일 라이프사이클 보고에 매핑되는 XDM 필드에 대한 자세한 내용은 [Analytics 변수 매핑](/help/implement/aep-edge/xdm-var-mapping.md)을 참조하십시오. |
 | **2022년 4월** | |
@@ -159,12 +160,12 @@ ht-degree: 97%
 | [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | 이 패널을 통해 선택한 차원 항목의 다음 또는 이전 항목을 탐색할 수 있습니다. |
 | [!UICONTROL 페이지 요약] 작업 영역 패널 | 이 패널은 선택한 페이지에 대한 심도 있는 분석을 제공합니다. |
 | 이전 예약된 보고서 일시 중지에 대한 새로운 항목 | **2022년 4월 15일**&#x200B;부터 Adobe는 2년 이상 전에 생성된 모든 예약된 보고서를 일시 중지할 예정입니다. |
-| **2022년 2월** |
+| **2022년 2월** | |
 | 모바일 스코어카드 프로젝트 미리보기 모드 | [미리보기 모드](https://experienceleague.adobe.com/ko/docs/analytics/analyze/mobapp/create-scorecard.html#preview)에서는 스코어카드를 저장하고 공유하기 전에 환경을 미리 확인할 수 있습니다. |
 | API 프로젝트 엔드포인트 | API를 사용하여 Analysis Workspace 프로젝트를 추가, 편집 또는 삭제합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 이전 예약된 Report Builder 작업 일시 중지에 대한 업데이트된 항목 | **2022년 4월 15일**&#x200B;부터 Adobe는 [2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지할 예정입니다](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 
-### 2021 {#21}
+### 2021 {#year2021}
 
 | 기능 | 설명 |
 | --- | --- |
@@ -200,7 +201,7 @@ ht-degree: 97%
 | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 Workspace 프로젝트에 이미지를 추가하는 방법에 대한 설명서가 추가되었습니다. |
 | 2021년 1월 14일 | 작업 영역 시각화를 위한 통합 소스 및 설정 관리자: [!UICONTROL 데이터 소스] 관리자(점) 및 설정 관리자(톱니바퀴)가 하나의 팝오버로 결합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다 |
 
-### 2020 {#20}
+### 2020 {#year2020}
 
 | 기능 | 설명 |
 | --- | --- |
@@ -267,7 +268,7 @@ ht-degree: 97%
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)를 추가했습니다. |
 | 2020년 1월 13일 | [어떤 Adobe Analytics 도구를 사용해야 합니까](/help/analyze/get-started/which-analytics-tool.md) 페이지를 수정했습니다. |
 
-### 2019 {#19}
+### 2019 {#year2019}
 
 | 기능 | 설명 |
 | --- | --- |
@@ -287,7 +288,8 @@ ht-degree: 97%
 | 2019년 9월 12일 | [계산된 지표 합계](https://experienceleague.adobe.com/ko/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) 문서를 업데이트합니다. |
 | 2019년 8월 28일 | [Analytics용 점진적 웹 앱(PWA)](/help/technotes/pwa.md)에 대한 새로운 문서 |
 | 2019년 8월 8일 | [계산된 지표 합계](/help/components/c-calcmetrics/cm-totals.md)에 대한 새 문서 |
-| 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)에 대한 설명 | 2019년 8월 8일 | 작업 영역에서 Adobe는 정적 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 사용 사례를 포용합니다. |
+| 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)에 대한 설명 |
+| 2019년 8월 8일 | 작업 영역에서 Adobe는 정적 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 사용 사례를 포용합니다. |
 | 2019년 8월 2일 | [Analytics 용어집](/help/technotes/terms.md)에 대한 주요 업데이트 |
 | 2019년 7월 22일 | 추가된 Magento: 마케팅 및 상거래 템플릿을 [Analysis Workspace 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 문서로 이동합니다. |
 | 2019년 7월 18일 | [코호트 테이블 설정](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)이 업데이트되었습니다. |
