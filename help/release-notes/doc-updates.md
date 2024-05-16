@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
 workflow-type: tm+mt
 source-wordcount: '5471'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 96%
 | --- | --- |
 | **2024년 5월** | |
 | XDM 개체 변수를 컨텍스트 데이터 변수에 명시적으로 매핑 | 다음을 수행하는 기능 문서화: [xdm 개체 변수 매핑을 사용하여 컨텍스트 데이터 변수를 명시적으로 설정](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 조직의 경우, 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 여러 업그레이드 옵션 및 고려해야 할 사항이 많습니다.<p>이제 다음 내용을 더 잘 이해하는 데 도움이 되는 새로운 설명서 리소스를 사용할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용할 수 있는 업그레이드 경로</li><li>각 업그레이드 경로의 장단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>이전 데이터 처리에 대한 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics으로 업그레이드 시작](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
-| 사용자 지정 날짜 범위에 대한 설명서가 업데이트되었습니다. | 관련 스크린샷 및 절차 업데이트됨 [사용자 지정 날짜 범위 만들기](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 를 사용하십시오. |
+| Adobe Analytics에서 Customer Journey Analytics로 업그레이드에 대한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 조직의 경우 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 염두에 두어야 할 다양한 업그레이드 옵션 등 고려 사항이 많습니다.<p>이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics로 업그레이드를 시작](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)하십시오.</p> |
+| 사용자 정의 날짜 범위에 대한 설명서를 업데이트했습니다. | 현재 제품 기능 및 디자인과 일치하도록 [사용자 정의 날짜 범위 만들기](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)와 관련된 스크린샷 및 절차를 업데이트했습니다. |
 | **2024년 4월** | |
 | 분류 세트에서 “소유자”와 관련된 문서를 제거했습니다. | [분류 세트 관리자](/help/components/classifications/sets/manage/set-manager.md)에서 “소유자” 필터 및 열이 제거되었으며, [분류 세트 설정](/help/components/classifications/sets/manage/settings.md)에서 “소유자” 필드가 제거되었습니다. <p>설명서가 업데이트되어 이 필터, 열 및 필드가 제거되었습니다.</p> |
 | 클라우드 가져오기 및 내보내기 위치 구성에 대한 문서에서 축소 가능한 섹션을 제거했습니다. | 클라우드 계정 유형을 설명하는 정보를 보기 위해 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에서 축소 가능한 섹션을 제거했습니다. |
