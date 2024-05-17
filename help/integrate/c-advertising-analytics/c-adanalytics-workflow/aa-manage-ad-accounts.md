@@ -3,78 +3,80 @@ description: Advertising Analytics에서 계정을 관리합니다.
 title: 광고 계정 관리
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 86%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
 # 광고 계정 관리
 
-**[!UICONTROL 관리]** > **[!UICONTROL 광고 계정]**&#x200B;으로 이동하여 관리 UI에 액세스할 수 있습니다.
+다음 위치로 이동하여 Advertising 계정 인터페이스에 액세스할 수 있습니다. **[!UICONTROL 관리자]** > **[!UICONTROL 광고 계정]**.
 
-![광고 계정](assets/manage_ad_accounts.png)
+![광고 계정](assets/manage-ad-accounts.png)
 
-<table id="table_BE318026CF024E94A885EED86AA7077F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 요소 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>작업</b> </p> </td> 
-   <td colname="col2"> <p><b>참고: 광고 계정을 적어도 한 개 이상 선택한 경우에만 작업이 표시됩니다. </b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>+ 추가 </p> </td> 
-   <td colname="col2"> <p><a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >광고 계정 설정</a> UI로 이동합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>이름 변경 </p> </td> 
-   <td colname="col2"> <p>매핑된 모든 보고서 세트에서 이 계정의 이름을 바꿉니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>보고서 세트 매핑 </p> </td> 
-   <td colname="col2"> <p>보고서 세트 매핑을 편집할 수 있습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>일시 정지 </p> </td> 
-   <td colname="col2"> <p>계정을 비활성화합니다. 다시 활성화하려면 <span class="uicontrol">활성화</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>열 머리글</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>이름 </p> </td> 
-   <td colname="col2"> <p>이 광고 계정에 지정한 이름입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>보고서 세트 </p> </td> 
-   <td colname="col2"> <p>이 광고 계정에 매핑된 보고서 세트입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>유형 </p> </td> 
-   <td colname="col2"> <p>지원되는 유형은 검색입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>계정 </p> </td> 
-   <td colname="col2"> <p>지원되는 두 가지 계정 유형 (Google Adwords 또는 Bing 광고) 중 하나를 나열합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>상태 </p> </td> 
-   <td colname="col2"> <p>다음과 같은 2개의 표시기가 있습니다. </p> 
-    <ul id="ul_376263DEF6EE44B48564D272D3CBFCBC"> 
-     <li id="li_75E329B68B4D4E929E227E717C993082"><b>활성</b>: 계정이 활발하게 검색 데이터를 가져옵니다. </li> 
-     <li id="li_5E2DF98B22D34437A2A2C93F996C1EA2"><b>일시 정지됨</b>: 계정이 현재 비활성화되어 검색 데이터를 가져호지 않습니다. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>필터</b> </p> </td> 
-   <td colname="col2"> <p> (왼쪽 여백) 보고서 세트, 유형 및 상태별로 광고 계정을 필터링할 수 있습니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+광고 계정이 나열된 표가 표시됩니다. 사용 가능한 광고 계정이 없는 경우 **[!UICONTROL 새 광고 계정 만들기]**.
+
+이 테이블은 다음 열로 구성됩니다.
+
+| 이름 또는 요소 | 설명 |
+|---|---|
+| **[!UICONTROL 이름]** | *계정 이름*. 이름을 선택하여 검색 엔진 설정을 편집할 수 있습니다. |
+| ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 을(를) 선택하여 광고 계정의 이름을 변경하거나 검색 엔진 설정을 편집합니다. |
+| ![자세히](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 을(를) 선택하여 컨텍스트 메뉴를 열고 [보고서 세트 매핑](#map-reporting-suites), [광고 계정 활성화 또는 일시 중지](#activate-or-pause-advertising-accounts). |
+| **[!UICONTROL 보고서 세트]** | 광고 계정이 매핑된 보고서 세트를 나열합니다. |
+| **[!UICONTROL 유형]** | 광고 계정 유형을 표시합니다. 기본적으로 유형은 다음과 같습니다. [!UICONTROL 검색] |
+| **[!UICONTROL 계정]** | 계정 유형 표시 [!UICONTROL Bing Ads] 또는 [!UICONTROL Google Adwords]. |
+| **[!UICONTROL 상태]** | 광고 계정의 상태: *일시 중지됨* 또는 활성 |
+
+
+- 보고서 세트, 유형 및 상태별로 목록을 필터링하려면 다음을 선택합니다. ![필터](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+- 를 사용하여 광고 계정을 검색하려면 다음을 수행하십시오. ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드.
+- 테이블에서 활성 계정을 선택하려면 다음을 선택합니다 **[!UICONTROL 활성 계정]**.
+- 테이블에 표시할 열을 정의하려면 다음을 선택합니다. ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>다음에서 **[!UICONTROL 표 맞춤화]** 대화 상자:
+   - 표시할 열을 선택합니다.
+   - **[!UICONTROL 적용]**&#x200B;을 선택합니다.
+
+하나 이상의 광고 계정을 선택할 때 선택한 계정의 상태에 따라 파란색 작업 표시줄을 사용하여 다음을 수행할 수 있습니다. ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 이름 바꾸기]**, ![새로 고침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 보고서 세트 매핑]**, ![재생](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL 활성화]** 또는 ![일시 중지](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 일시 중지]** 광고 계정.
+
+## 광고 계정 만들기
+
+새 광고 계정을 만들려면 다음 작업을 수행하십시오.
+
+1. 선택 ![추가](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) **[!UICONTROL 추가]**.
+1. 다음을 볼 수 있습니다. [!UICONTROL 광고 계정] > **[!UICONTROL 새 계정]** 새 광고 계정을 정의할 수 있는 대화 상자. 다음을 참조하십시오 [광고 계정 설정](aa-create-ad-account.md) 추가 정보.
+
+
+## 광고 계정 편집
+
+광고 계정에 대한 검색 엔진 설정을 편집하려면 다음을 수행하십시오.
+
+- 광고 계정 이름을 선택합니다.
+- 선택 ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) 광고 계정 이름 옆에 있습니다.
+
+## 보고 세트 매핑
+
+하나 이상의 광고 계정을 보고서 세트에 매핑하려면 다음을 수행하십시오.
+
+1. (선택 사항) 광고 계정을 두 개 이상 선택합니다.
+1. 선택 ![자세히](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 특정 광고 계정용.
+1. 선택 ![새로 고침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 보고서 세트 매핑]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+1. 보고서 세트 매핑 대화 상자의 드롭다운에서 하나 이상의 보고서 세트를 선택합니다. 다음을 사용하여 매핑에서 보고서 세트를 삭제할 수 있습니다. ![교차](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
+1. 선택 **[!UICONTROL 저장]** 매핑을 저장합니다.
+
+
+## 광고 계정 활성화 또는 일시 중지
+
+하나 이상의 광고 계정을 활성화하려면 다음 작업을 수행하십시오.
+
+1. (선택 사항) 광고 계정을 두 개 이상 선택합니다.
+1. 선택 ![자세히](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 특정 광고 계정용.
+1. 선택 ![재생](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL 활성화]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+하나 이상의 광고 계정을 일시 중지하려면 다음 작업을 수행하십시오.
+
+1. (선택 사항) 광고 계정을 두 개 이상 선택합니다.
+1. 선택 ![자세히](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 특정 광고 계정용.
+1. 선택 ![일시 중지](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 일시 중지]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+

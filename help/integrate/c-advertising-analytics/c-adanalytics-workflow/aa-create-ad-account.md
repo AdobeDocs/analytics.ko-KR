@@ -3,7 +3,7 @@ title: Advertising Analytics에서 광고 계정을 설정하는 방법
 description: 이 문서에서는 새 광고 계정을 만들고 여러 계정을 여러 보고서 세트에 매핑하는 방법에 대해 설명합니다.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 31%
