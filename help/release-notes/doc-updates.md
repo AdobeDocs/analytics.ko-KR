@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 556f2131de980362094c691e8de61c6b077b5c15
+source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
 workflow-type: tm+mt
-source-wordcount: '5488'
-ht-degree: 99%
+source-wordcount: '5511'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 5월** | |
+| 프로젝트에 구성 요소를 추가하는 방법에 대한 설명서 | 다음 방법에 대한 일반 정보가 추가되었습니다. [Analysis Workspace에서 프로젝트에 다양한 유형의 구성 요소 추가](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | 업데이트된 Advertising Analytics 설명서 | 에 대한 업데이트에 따라 설명서를 업데이트했습니다. [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 사용자 인터페이스. |
 | XDM 개체 변수를 컨텍스트 데이터 변수에 명시적으로 매핑 | 다음을 수행하는 기능 문서화: [xdm 개체 변수 매핑을 사용하여 컨텍스트 데이터 변수를 명시적으로 설정](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드에 대한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 조직의 경우 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 염두에 두어야 할 다양한 업그레이드 옵션 등 고려 사항이 많습니다.<p>이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics로 업그레이드를 시작](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)하십시오.</p> |
@@ -300,7 +301,7 @@ ht-degree: 99%
 | 2019년 6월 4일 | [서드파티 분석 플랫폼에서 Adobe Analytics로 전환](/help/technotes/ga-to-aa/home.md)이라는 새 안내서가 작성되었습니다. |
 | 2019년 5월 30일 | [데이터 피드 열 참조](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 대한 점검입니다. |
 | 2019년 5월 9일 | 새 설정은 플로우 시각화 설정에 추가되었습니다. 반복 인스턴스 포함 [플로우 설정](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) 참조 |
-| 2019년 4월 11일 | 작업 영역 최적화 모범 사례 개선 사항: [성능 최적화](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
+| 2019년 4월 11일 | 작업 영역 최적화 모범 사례 개선 사항: 성능 최적화 |
 | 2019년 4월 11일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)에 대한 업데이트입니다. |
 | 2019년 3월 14일 | 지역 데이터 수집에 대한 주요 업데이트입니다. |
 | 2019년 2월 7일 | [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)의 “IP 주소의 마지막 옥텟을 0으로 바꾸기” 및 “IP 난독 처리” 설정에 대한 부분 업데이트입니다. |

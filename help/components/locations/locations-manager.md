@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 위치 관리자
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,9 @@ ht-degree: 1%
 >
 >위치를 삭제하면 다음과 같은 결과가 발생합니다 [데이터 피드 편집](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse 보고서](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), 및 [분류 세트 스키마](/help/components/classifications/sets/manage/schema.md) 작동 중인 위치를 사용합니다.
 
-위치를 삭제하려면:
+Adobe Analytics에서 위치 관리자에서 위치를 삭제하려면 다음을 수행하십시오.
+
+1. 선택 **[!UICONTROL 구성 요소]** > **[!UICONTROL 위치]**&#x200B;을(를) 선택한 다음 [!UICONTROL **위치**] 탭.
 
 1. 에서 3점 메뉴를 선택합니다. [!UICONTROL **위치 이름**] 삭제할 위치에 대한 열입니다.
 

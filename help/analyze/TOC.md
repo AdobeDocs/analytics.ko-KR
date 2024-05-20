@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
-workflow-type: ht
-source-wordcount: '1008'
-ht-degree: 100%
+source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
+workflow-type: tm+mt
+source-wordcount: '1007'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 100%
 + [랜딩 페이지](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
-   + [Analysis Workspace의 새로운 기능](analysis-workspace/new-features-in-analysis-workspace.md)
    + 프로젝트 {#build-workspace-project}
       + [프로젝트 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 만들기](analysis-workspace/build-workspace-project/create-projects.md)
@@ -49,6 +48,7 @@ ht-degree: 100%
       + [회사 보고서 만들기 및 관리](analysis-workspace/reports/create-company-reports.md)
    + 구성 요소 {#components}
       + [구성 요소 개요](analysis-workspace/components/analysis-workspace-components.md)
+      + [작업 영역에서 구성 요소 사용](analysis-workspace/components/use-components-in-workspace.md)
       + [구성 요소 설명 추가](analysis-workspace/components/add-component-descriptions.md)
       + 주석 {#annotations}
          + [주석 개요](analysis-workspace/components/annotations/overview.md)

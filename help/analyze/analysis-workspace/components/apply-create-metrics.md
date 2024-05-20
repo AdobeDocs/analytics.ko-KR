@@ -4,10 +4,10 @@ title: Analysis Workspace의 지표
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 94%
 
 ---
 
@@ -33,15 +33,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 ## Analysis Workspace에서 지표 사용
 
-지표는 Analysis Workspace 내에서 다양한 방식으로 사용될 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
-
-* 지표를 빈 자유 형식 테이블로 드래그하면 해당 지표가 프로젝트의 날짜 기간 동안 추세를 보여 줍니다.
-
-* 해당 지표를 각 차원 항목과 비교하여 보려면 차원이 존재할 때 지표를 드래그하십시오.
-
-* 기존 지표 헤더 위로 지표를 드래그하여 대체합니다.
-
-* 지표를 헤더 옆으로 드래그하면 두 지표를 나란히 볼 수 있습니다.
+지표는 Analysis Workspace 내에서 다양한 방식으로 사용될 수 있습니다. Analysis Workspace에 지표 및 기타 유형의 구성 요소를 추가하는 방법에 대한 자세한 내용은 [Analysis Workspace에서 구성 요소 사용](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
