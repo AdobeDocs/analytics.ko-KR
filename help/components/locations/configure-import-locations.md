@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 위치 구성
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 5bf6ed9b71a87d79fec960b6618667238019ac7f
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 31%
+source-wordcount: '1450'
+ht-degree: 37%
 
 ---
 
@@ -23,16 +23,15 @@ ht-degree: 31%
 
 클라우드 계정에 액세스하려면 필요한 정보로 Adobe Analytics을 구성해야 합니다. 이 프로세스는에 설명된 대로 계정을 추가 및 구성(Amazon S3 역할 ARN, Google Cloud Platform 등)하는 과정으로 구성됩니다 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md)을 클릭한 다음 해당 계정 내에서 위치를 추가하고 구성합니다(이 문서에 설명된 대로).
 
-## 클라우드 내보내기 위치 만들기 또는 편집 시작
+위치 보기, 편집 및 삭제를 포함하여 기존 위치를 관리하는 방법에 대한 자세한 내용은 [위치 관리자](/help/components/locations/locations-manager.md).
+
+## 클라우드 내보내기 위치 만들기 시작
 
 1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **위치**].
 1. 다음에서 [!UICONTROL 위치] 페이지에서 [!UICONTROL **위치**] 탭.
-1. 새 위치를 만들려면 [!UICONTROL **위치 추가**]. (아직 계정을 추가하지 않은 경우에서 설명한 대로 계정을 추가합니다. [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md).)
+1. 선택 [!UICONTROL **위치 추가**]. (아직 계정을 추가하지 않은 경우에서 설명한 대로 계정을 추가합니다. [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md).)
 
-   또는
-
-   기존 위치를 편집하려면 [!UICONTROL **위치 이름**] 편집할 위치의 열을 선택한 다음 [!UICONTROL **편집**].
-위치 대화 상자가 표시됩니다.
+   위치 대화 상자가 표시됩니다.
 
 1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  |
 | [!UICONTROL **설명**] | 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. | | [!UICONTROL **과 함께 사용**] | 이 위치를 사용할 위치 선택 [!UICONTROL **데이터 피드**], [!UICONTROL **Data Warehouse**], 또는 [!UICONTROL **분류 세트**]. <p>선택할 때는 다음 사항을 고려하십시오.</p><ul><li>단일 위치를 여러 용도로 사용할 수 없습니다. 예를 들어 데이터 피드에 사용되는 위치는 Data Warehouse 또는 분류 세트에도 사용할 수 없습니다.</li><li>위치 내에서 파일이 충돌하지 않도록 하려면 의 값을 변경하지 마십시오 [!UICONTROL **과 함께 사용**] 위치가 사용된 후의 필드입니다.</li></ul> | | [!UICONTROL **위치 계정**] | 이 위치를 만들 위치 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [계정 추가](#add-an-account). |
@@ -51,7 +50,7 @@ Amazon S3 역할 ARN 위치를 구성하려면 다음 정보를 지정합니다.
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>Adobe이 제공한 사용자 ARN에 `S3:PutObject` 이 버킷에 파일을 업로드할 수 있는 권한입니다. </p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들어 길이가 3 - 63자 사이여야 하고, 소문자, 숫자, 점(.) 및 하이픈(-)으로만 구성할 수 있으며, 문자 또는 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>Adobe이 제공한 사용자 ARN에 `S3:PutObject` 이 버킷에 파일을 업로드할 수 있는 권한입니다. </p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들면 3~63자 사이여야 하며 소문자, 숫자, 점(.), 하이픈(-)만 사용할 수 있고 문자나 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **키 접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
    {style="table-layout:auto"}
@@ -67,7 +66,7 @@ Amazon S3 역할 ARN 위치를 구성하려면 다음 정보를 지정합니다.
    >   이전에 을 사용한 경우 [분류를 가져오는 FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) Adobe Analytics에 FIN 파일을 업로드해야 했습니다. 클라우드 계정에서 가져올 때는 이 FIN 파일이 필요하지 않습니다.
 
 
-### Google Cloud 플랫폼
+### Google Cloud Platform
 
 Google Cloud Platform 위치를 구성하려면 다음 정보를 지정합니다.
 
@@ -93,7 +92,7 @@ Google Cloud Platform 위치를 구성하려면 다음 정보를 지정합니다
 
 ### Azure SAS
 
-Azure SAS 위치를 구성하려면 다음 정보를 지정하십시오.
+Azure SAS 위치를 구성하려면 다음 정보를 지정합니다.
 
 1. [클라우드 내보내기 위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-cloud-export-location), 위에서 설명한 대로
 
@@ -117,7 +116,7 @@ Azure SAS 위치를 구성하려면 다음 정보를 지정하십시오.
 
 ### Azure RBAC
 
-Azure RBAC 위치를 구성하려면 다음 정보를 지정하십시오.
+Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 
 1. [클라우드 내보내기 위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-cloud-export-location), 위에서 설명한 대로
 

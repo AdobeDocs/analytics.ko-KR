@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 계정 구성
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 56%
+source-wordcount: '1205'
+ht-degree: 61%
 
 ---
 
@@ -23,21 +23,15 @@ ht-degree: 56%
 
 클라우드 계정에 액세스하려면 필요한 정보로 Adobe Analytics을 구성해야 합니다. 이 프로세스는 이 문서에 설명된 대로 계정을 추가 및 구성(예: Amazon S3 Role ARN, Google Cloud Platform 등)한 다음, 해당 계정 내에서 위치(예: 계정 내 폴더)를 추가 및 구성하는 것으로 구성됩니다 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md).
 
+계정 보기, 편집 및 삭제를 포함하여 기존 계정을 관리하는 방법에 대한 자세한 내용은 [위치 관리자](/help/components/locations/locations-manager.md).
+
 클라우드 가져오기 또는 내보내기 계정을 구성하려면 다음을 수행합니다.
 
 1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **위치**].
 1. 다음에서 [!UICONTROL 위치] 페이지에서 [!UICONTROL **위치 계정**] 탭.
-1. 새 계정을 만들려면 다음을 선택합니다. [!UICONTROL **계정 추가**].
+1. 선택 [!UICONTROL **계정 추가**].
 
    계정 추가 대화 상자가 표시됩니다.
-
-   또는
-
-   기존 계정을 편집하려면 다음을 선택합니다 [!UICONTROL **세부 정보 보기**] 편집할 계정을 나열하는 타일에 있습니다.
-위치 대화 상자가 표시됩니다.
-
-   위치 계정 세부 정보 대화 상자가 표시됩니다
-
 
 1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름입니다. 이 이름은 위치를 만들 때 나타납니다 | | [!UICONTROL **위치 계정 설명**] | 동일한 계정 유형의 다른 계정과 구분하는 데 도움이 되도록 계정에 대한 간단한 설명을 입력합니다. | | [!UICONTROL **계정 유형**] | 클라우드 계정 유형을 선택합니다. 각 계정 유형에 대해 해당 계정 내에서 필요에 따라 여러 위치가 있는 단일 계정을 사용하는 것이 좋습니다. |
 1. 다음에서 [!UICONTROL **계정 속성**] 섹션에서 선택한 계정 유형과 관련된 정보를 지정합니다.
@@ -48,7 +42,7 @@ ht-degree: 56%
 
    +++Amazon S3 역할 ARN
 
-   Amazon S3 역할 ARN 계정을 구성하려면 다음 정보를 지정합니다.
+   Amazon S3 Role ARN 계정을 구성하려면 다음 정보를 지정합니다.
 
    | 필드 | 함수 |
    |---------|----------|
@@ -58,7 +52,7 @@ ht-degree: 56%
 
 +++
 
-   +++Google Cloud 플랫폼
+   +++Google Cloud Platform
 
    Google Cloud Platform 계정을 구성하려면 다음 정보를 지정합니다.
 
@@ -72,7 +66,7 @@ ht-degree: 56%
 
    +++Azure SAS
 
-   Azure SAS 계정을 구성하려면 다음 정보를 지정하십시오.
+   Azure SAS 계정을 구성하려면 다음 정보를 지정합니다.
 
    | 필드 | 함수 |
    |---------|----------|
@@ -88,7 +82,7 @@ ht-degree: 56%
 
    +++Azure RBAC
 
-   Azure RBAC 계정을 구성하려면 다음 정보를 지정하십시오.
+   Azure RBAC 계정을 구성하려면 다음 정보를 지정합니다.
 
    | 필드 | 함수 |
    |---------|----------|
