@@ -3,10 +3,10 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
 workflow-type: tm+mt
-source-wordcount: '4043'
-ht-degree: 42%
+source-wordcount: '4074'
+ht-degree: 52%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 42%
    >
    >* 클라우드 계정은 Adobe Analytics 사용자 계정과 연계되어 있습니다. 다른 사용자는 구성된 클라우드 계정을 사용하거나 볼 수 없습니다.
    >
-   >* 의 위치 관리자에서 생성하는 위치를 편집할 수 있습니다 [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)
+   >* [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)의 위치 관리자에서 생성한 모든 위치를 편집할 수 있습니다.
 
    ![데이터 피드 대상 드롭다운 메뉴](assets/datafeed-destinations-dropdown.png)
 
@@ -89,17 +89,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >계정은 구성했거나 속해 있는 조직과 공유된 경우에만 사용할 수 있습니다.
+      >계정은 귀하가 구성했거나 귀하가 속한 조직과 공유된 경우에만 사용할 수 있습니다.
 
       1. [!UICONTROL **계정 선택**] 드롭다운 메뉴에서 계정을 선택합니다.
 
          Adobe Analytics의 다음 영역 중 하나에 구성된 모든 클라우드 계정을 사용할 수 있습니다.
 
-         * 에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때 [스키마](/help/components/classifications/sets/manage/schema.md).
+         * [스키마](/help/components/classifications/sets/manage/schema.md)에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때
 
            하지만 분류 데이터 가져오기에 대해 구성된 위치는 사용할 수 없습니다. 대신 아래 설명된 대로 새 대상을 추가합니다.
 
-         * 에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md).
+         * [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때
 
       1. 에서 위치 선택 [!UICONTROL **위치 선택**] 드롭다운 메뉴.
 
@@ -126,7 +126,7 @@ ht-degree: 42%
          |---------|----------|
          | [!UICONTROL **이름**] | 계정 이름. |
          | [!UICONTROL **설명**] | 계정에 대한 설명. |
-         | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>이 버킷에 파일을 업로드하려면 Adobe에서 제공한 사용자 ARN에 `S3:PutObject` 권한이 있는지 확인합니다. 이 권한을 사용하면 사용자 ARN에서 초기 파일을 업로드하고 후속 업로드에 파일을 덮어쓸 수 있습니다.</p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들어 길이가 3 - 63자 사이여야 하고, 소문자, 숫자, 점(.) 및 하이픈(-)으로만 구성할 수 있으며, 문자 또는 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+         | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>이 버킷에 파일을 업로드하려면 Adobe에서 제공한 사용자 ARN에 `S3:PutObject` 권한이 있는지 확인합니다. 이 권한을 사용하면 사용자 ARN에서 초기 파일을 업로드하고 후속 업로드에 파일을 덮어쓸 수 있습니다.</p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들면 3~63자 사이여야 하며 소문자, 숫자, 점(.), 하이픈(-)만 사용할 수 있고 문자나 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
          | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
 
          {style="table-layout:auto"}
@@ -161,17 +161,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >계정은 구성했거나 속해 있는 조직과 공유된 경우에만 사용할 수 있습니다.
+      >계정은 귀하가 구성했거나 귀하가 속한 조직과 공유된 경우에만 사용할 수 있습니다.
 
       1. [!UICONTROL **계정 선택**] 드롭다운 메뉴에서 계정을 선택합니다.
 
       Adobe Analytics의 다음 영역 중 하나에서 구성한 모든 클라우드 계정을 사용할 수 있습니다.
 
-      * 에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때 [스키마](/help/components/classifications/sets/manage/schema.md).
+      * [스키마](/help/components/classifications/sets/manage/schema.md)에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때
 
         하지만 분류 데이터 가져오기에 대해 구성된 위치는 사용할 수 없습니다. 대신 아래 설명된 대로 새 대상을 추가합니다.
 
-      * 에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md).
+      * [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때
 
       1. 에서 위치 선택 [!UICONTROL **위치 선택**] 드롭다운 메뉴.
 
@@ -235,17 +235,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >계정은 구성했거나 속해 있는 조직과 공유된 경우에만 사용할 수 있습니다.
+      >계정은 귀하가 구성했거나 귀하가 속한 조직과 공유된 경우에만 사용할 수 있습니다.
 
       1. [!UICONTROL **계정 선택**] 드롭다운 메뉴에서 계정을 선택합니다.
 
          Adobe Analytics의 다음 영역 중 하나에서 구성한 모든 클라우드 계정을 사용할 수 있습니다.
 
-         * 에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때 [스키마](/help/components/classifications/sets/manage/schema.md).
+         * [스키마](/help/components/classifications/sets/manage/schema.md)에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때
 
            하지만 분류 데이터 가져오기에 대해 구성된 위치는 사용할 수 없습니다. 대신 아래 설명된 대로 새 대상을 추가합니다.
 
-         * 에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md).
+         * [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때
 
       1. 에서 위치 선택 [!UICONTROL **위치 선택**] 드롭다운 메뉴.
 
@@ -263,7 +263,7 @@ ht-degree: 42%
          | [!UICONTROL **계정 설명**] | Azure SAS 계정에 대한 설명. 이 설명은 다음에 표시됩니다. [!UICONTROL **계정 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **애플리케이션 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
          | [!UICONTROL **테넌트 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
-         | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS URI 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS URI를 비밀로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI이 생성되면<ul><li>만든 Azure 애플리케이션에 대한 권한을 부여하려면 Key Vault에서 액세스 정책을 추가합니다.</li><li>키 자격 증명 모음 UR에 액세스하려면 `Key Vault Certificate User` 기본 제공 역할에 애플리케이션 ID가 부여되었는지 확인합니다.</br><p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p></li></ul><p>자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p> |
+         | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS URI에 대한 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS URI를 암호로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI이 생성되면<ul><li>만든 Azure 애플리케이션에 대한 권한을 부여하려면 Key Vault에서 액세스 정책을 추가합니다.</li><li>키 자격 증명 모음 UR에 액세스하려면 `Key Vault Certificate User` 기본 제공 역할에 애플리케이션 ID가 부여되었는지 확인합니다.</br><p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p></li></ul><p>자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p> |
          | [!UICONTROL **키 자격 증명 모음 암호 이름**] | Azure Key Vault에 암호를 추가할 때 만든 암호 이름입니다. 이 정보는 Microsoft Azure의 **Key Vault** 설정 페이지에서 만든 Key Vault에 있습니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오. |
          | [!UICONTROL **암호**] | 만든 Azure 애플리케이션에서 암호를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **인증서 및 암호** 애플리케이션 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
 
@@ -276,7 +276,7 @@ ht-degree: 42%
          | [!UICONTROL **이름**] | 위치의 이름입니다. 이 이름은 다음에 표시됩니다. [!UICONTROL **위치 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **설명**] | 위치에 대한 설명. 이 설명은 다음에 표시됩니다. [!UICONTROL **위치 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. |
-         | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/`<p>Azure SAS 계정을 구성할 때 Key Vault 암호 이름 필드에 지정한 SAS URI 저장소에 `Write` 권한. 이를 통해 SAS URI가 Azure 컨테이너에 파일을 만들 수 있습니다. <p>SAS URI가 파일도 덮어쓰도록 하려면 SAS URI 저장소에 `Delete` 권한.</p><p>자세한 내용은 Azure Blob Storage 설명서에서 [Blob 스토리지 리소스](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) 를 참조하십시오.</p> |
+         | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/`<p>Azure SAS 계정 구성 시 Key Vault 암호 이름 필드에 지정된 SAS URI 저장소에 `Write` 권한이 있는지 확인합니다. 이렇게 하면 SAS URI가 Azure 컨테이너에서 파일을 만들 수 있습니다. <p>SAS URI를 사용하여 파일을 덮어쓰려면 SAS URI 저장소에 `Delete` 권한이 있는지 확인합니다.</p><p>자세한 내용은 Azure Blob Storage 설명서에서 [Blob 스토리지 리소스](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) 를 참조하십시오.</p> |
 
          {style="table-layout:auto"}
 
@@ -288,7 +288,7 @@ ht-degree: 42%
 
 +++
 
-   +++Google Cloud 플랫폼
+   +++Google Cloud Platform
 
    피드를 GCP(Google Cloud Platform) 버킷으로 직접 보낼 수 있습니다. 이 대상 유형에는 GCP 계정 이름과 위치(버킷) 이름만 필요합니다.
 
@@ -308,17 +308,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >계정은 구성했거나 속해 있는 조직과 공유된 경우에만 사용할 수 있습니다.
+      >계정은 귀하가 구성했거나 귀하가 속한 조직과 공유된 경우에만 사용할 수 있습니다.
 
       1. [!UICONTROL **계정 선택**] 드롭다운 메뉴에서 계정을 선택합니다.
 
          Adobe Analytics의 다음 영역 중 하나에서 구성한 모든 클라우드 계정을 사용할 수 있습니다.
 
-         * 에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때 [스키마](/help/components/classifications/sets/manage/schema.md).
+         * [스키마](/help/components/classifications/sets/manage/schema.md)에 설명된 대로 Adobe Analytics 분류 데이터를 가져올 때
 
            하지만 분류 데이터 가져오기에 대해 구성된 위치는 사용할 수 없습니다. 대신 아래 설명된 대로 새 대상을 추가합니다.
 
-         * 에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md).
+         * [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때
 
       1. 에서 위치 선택 [!UICONTROL **위치 선택**] 드롭다운 메뉴.
 
@@ -345,7 +345,7 @@ ht-degree: 42%
          | [!UICONTROL **사용자**] | 원칙은 Adobe에서 제공합니다. 이 사용자에게 피드를 수신할 수 있는 권한을 부여해야 합니다. |
          | [!UICONTROL **이름**] | 계정 이름. |
          | [!UICONTROL **설명**] | 계정에 대한 설명. |
-         | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내부 버킷입니다. <p>Adobe에서 제공하는 주체에게 다음 권한 중 하나를 부여했는지 확인합니다.<ul><li>`roles/storage.objectCreator`: 주체를 제한하여 GCP 계정에서만 파일을 만들려는 경우 이 권한을 사용합니다. </br>**중요:** 예약된 보고에 이 권한을 사용하는 경우 새로 예약된 각 내보내기에 고유 파일 이름을 사용해야 합니다. 그렇지 않으면 주체가 기존 파일 덮어쓰기에 액세스할 수 없기 때문에 보고서를 생성할 수 없습니다.</li><li>(권장) `roles/storage.objectUser`: 사용자가 GCP 계정의 파일을 보고, 나열하고, 업데이트하고, 삭제할 수 있도록 하려면 이 권한을 사용하십시오.</br>이 권한을 사용하면 주체는 새로 예약된 각 내보내기에 고유 파일 이름을 자동 생성하지 않고도 후속 업로드에 기존 파일을 덮어쓸 수 있습니다.</li></ul><p>권한 부여에 대한 자세한 내용은 Google Cloud 설명서에서 [버킷 수준 정책에 주체 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)를 참조하십시오.</p> |
+         | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내부 버킷입니다. <p>Adobe이 제공한 주도자에게 다음 권한 중 하나를 부여했는지 확인합니다. (권한 부여에 대한 자세한 내용은 [버킷 수준 정책에 사용자 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) Google Cloud 설명서에서 참조할 수 있습니다.)<ul><li>`roles/storage.objectCreator`: 주체를 제한하여 GCP 계정에서만 파일을 만들려는 경우 이 권한을 사용합니다. </br>**중요:** 예약된 보고에 이 권한을 사용하는 경우 새로 예약된 각 내보내기에 고유 파일 이름을 사용해야 합니다. 그렇지 않으면 주체가 기존 파일 덮어쓰기에 액세스할 수 없기 때문에 보고서를 생성할 수 없습니다.</li><li>(권장) `roles/storage.objectUser`: 사용자가 GCP 계정의 파일을 보고, 나열하고, 업데이트하고, 삭제할 수 있도록 하려면 이 권한을 사용하십시오.</br>이 권한을 사용하면 주체는 새로 예약된 각 내보내기에 고유 파일 이름을 자동 생성하지 않고도 후속 업로드에 기존 파일을 덮어쓸 수 있습니다.</li></ul><p>조직에서 를 사용하는 경우 [조직 정책 제한](https://cloud.google.com/storage/docs/org-policy-constraints) 허용 목록에서 Google Cloud Platform 계정만 허용하려면 다음 Adobe 소유 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
          | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
 
          {style="table-layout:auto"}
