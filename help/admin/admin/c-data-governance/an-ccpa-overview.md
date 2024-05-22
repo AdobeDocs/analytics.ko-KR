@@ -4,10 +4,10 @@ title: Adobe Analytics 및 CCPA
 feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 95%
+source-wordcount: '593'
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe에서는 기업에 소프트웨어 및 서비스를 제공할 때 서비�
 
 ## Adobe에서 CCPA 데이터를 처리하는 방법
 
-ACP (Adobe Cloud Platform)는 사용자 브랜드의 데이터 거버넌스 인프라와 이 인프라가 소비자 경험을 생성하고 관리하는 데 사용하는 Adobe 도구를 연결하는 통합 솔루션을 제공합니다. Adobe Cloud Platform의 데이터 거버넌스 기능을 사용하면 데이터 거버넌스 정책을 데이터 사용에 직접 연결할 수 있습니다.
+Adobe Experience Cloud은 사용자 브랜드의 데이터 거버넌스 인프라와 이 인프라가 소비자 경험을 만들고 관리하는 데 사용하는 Adobe 도구를 연결하는 통합 솔루션을 제공합니다. Adobe Experience Cloud의 데이터 거버넌스 기능을 통해 데이터 거버넌스 정책을 데이터 사용과 직접 연결할 수 있습니다.
 
 개인정보 준비 단계 및 Adobe Experience Cloud 개인정보 서비스 API와 통합하는 방법에 대해 나와 있는 [Adobe Analytics에서 GDPR을 처리하는 방법](https://www.adobe.com/kr/data-analytics-cloud/analytics/general-data-protection-regulation.html)을 숙지하십시오.
 

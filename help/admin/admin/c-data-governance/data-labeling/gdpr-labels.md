@@ -4,7 +4,7 @@ title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 97%
@@ -92,10 +92,10 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 
 로그인 회사의 모든 보고서 세트에 있는 다른 변수에 ID 레이블을 이전에 할당한 경우 이러한 기존 네임스페이스 중 하나를 선택할 수 있습니다. 이 변수에 이 네임스페이스로 이미 레이블이 지정된 다른 변수와 동일한 유형의 ID가 포함되어 있고 요청을 제출할 때 이 변수를 모두 검색하려면 네임스페이스를 다시 사용해야 합니다.
 
-1. **[!UICONTROL 네임스페이스 선택]**&#x200B;을 클릭하고 기존 네임스페이스 중 하나를 선택합니다.
+1. **[!UICONTROL 네임스페이스 선택]**을 클릭하고 기존 네임스페이스 중 하나를 선택합니다.
+   ![](assets/namespace.png)
 1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
-![](assets/namespace.png)
 
 ### 새 네임스페이스 정의
 

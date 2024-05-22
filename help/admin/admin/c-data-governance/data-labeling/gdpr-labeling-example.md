@@ -4,10 +4,10 @@ title: 레이블 지정의 예
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 99%
+source-wordcount: '932'
+ht-degree: 78%
 
 ---
 
@@ -35,12 +35,14 @@ ht-degree: 99%
 
 ## 샘플 액세스 요청 {#access}
 
-액세스 요청을 제출하면 요약 파일에 아래 표에 표시된 값이 포함됩니다. 요청은 디바이스 파일만 반환하거나 개인 파일만 반환할 수 있습니다 (즉, 각각에 대해 하나). 개인 ID가 사용되고 expandIds가 true인 경우에만 두 개의 요약 파일이 반환됩니다.
+액세스 요청을 제출하면 데이터 주체에게 반환할 수 있는 파일 두 개를 받게 됩니다. 하나의 파일은 데이터 주체에 대해 수신된 각 히트에 대해 하나의 행과 적절한 액세스 레이블이 있는 각 변수에 대한 열을 포함하는 CSV 파일입니다. 다른 파일은 각 변수를 나열하는 요약 HTML 파일로, 데이터 주체의 해당 변수에 대해 표시된 모든 고유 값과 각 고유 값이 표시된 횟수를 보여줍니다.
+
+이 예제에서 요약 파일은 아래 표에 표시된 값을 포함합니다. 요청은 디바이스 파일만 반환하거나 개인 파일만 반환할 수 있습니다 (즉, 각각에 대해 하나). 개인 ID가 사용된 경우에만 두 개의 요약 파일이 반환됩니다 `expandIds` true입니다.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API 값</th>
-    <th rowspan="2">반환된<br>파일 유형</th>
+    <th rowspan="2">요약<br/>파일 유형<br/>반환됨</th>
     <th colspan="5" style="text-align:center">요약 액세스 파일 데이터</th>
   </tr>
   <tr>
@@ -140,7 +142,7 @@ ht-degree: 99%
   </tr>
 </table>
 
-expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미치지 않습니다.
+에 대한 설정이 `expandIDs` 쿠키 ID를 사용하는 경우 출력에 영향을 주지 않습니다.
 
 ## 샘플 삭제 요청 {#delete}
 
@@ -217,7 +219,7 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
 
 >[!NOTE]
 >
->AAID = 77 레이블 및 DEL-DEVICE 레이블을 포함하는 행의 셀만 영향을 받습니다.
+>을 포함하는 행의 열만 `AAID=77` 및 a `DEL-DEVICE` 레이블이 영향을 받습니다.
 
 <table>
   <tr>
@@ -290,7 +292,7 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
 
 >[!NOTE]
 >
->user=Mary 레이블 및 DEL-PERSON 레이블을 포함하는 행의 셀만 영향을 받습니다. 또한 A_ID를 포함하는 변수는 prop 또는 eVar일 수 있습니다. 대체 값은 다른 임의의 숫자 값이 아닌 “개인정보 보호-”로 시작하는 문자열 뒤에 난수(GUID)가 결합한 값이 됩니다.
+>이 포함된 행의 셀만 `user=Mary` 및 a `DEL-PERSON` 레이블이 영향을 받습니다. 또한 실제로 변수에는 `A_ID` 아마도 소품이나 eVar이 될 것입니다. 대체 값은 다음으로 시작하는 문자열입니다. `Privacy-`뒤에 숫자 값을 임의의 다른 숫자 값으로 대체하지 않고 임의의 숫자(GUID)가 옵니다.
 
 <table>
   <tr>
