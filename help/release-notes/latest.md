@@ -3,16 +3,16 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9821150194e6bc89a5a2dec15a7957aaa177948e
+source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 80%
+source-wordcount: '1150'
+ht-degree: 79%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보(2024년 5월)
 
-**마지막 업데이트**: 2024년 5월 21일 수요일
+**마지막 업데이트**: 2024년 5월 22일 목요일
 
 이번 릴리스 정보에는 2024년 5월 15일부터 6월까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -48,8 +48,8 @@ AN-327749, AN-332949, AN-342881, AN-343171, AN-343708, AN-344034, AN-345559, AN-
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
+| **저장된 기간이 13개월 만료됨:`cust_visids`** | 2024년 5월 22일 목요일 | Analytics 히트 처리 엔진의 향후 릴리스 **2024년 7월 목표**&#x200B;은(는) 저장된 의 13개월 만료 적용을 시작합니다. `cust_visids`. 보고서 세트에 “방문자 결합 활성화”가 활성화된 경우 이 설정은 히트에 `cust_visid`가 없는 `visid_high/visid_low value`에 대해 `cust_visid`를 찾는 데 사용됩니다. 현재는 `visid_high/visid_low`에 대한 `cust_visid`의 매핑 만료가 없습니다. 이 릴리스에서는 `visid_high/visid_low`가 `cust_visid`를 히트시킨 후 13개월 이상 경과한 경우 매핑이 만료됩니다. |
 | **ISO 지역 업데이트** | 2024년 5월 10일 | Adobe는 2024년 6월 7일에 2024 ISO 지역 업데이트를 수행합니다. 이 릴리스 이후에 부분적인 지역 정보(지역) 업데이트가 있을 것으로 예상됩니다. |
-| **저장된 기간이 13개월 만료됨:`cust_visids`** | 2024년 3월 20일 | 4월 또는 5월을 목표로 하는 Analytics Hit 처리 엔진의 향후 릴리스에서는 저장된 `cust_visids`의 만료 기간을 13개월로 적용할 예정입니다. 보고서 세트에 “방문자 결합 활성화”가 활성화된 경우 이 설정은 히트에 `cust_visid`가 없는 `visid_high/visid_low value`에 대해 `cust_visid`를 찾는 데 사용됩니다. 현재는 `visid_high/visid_low`에 대한 `cust_visid`의 매핑 만료가 없습니다. 이 릴리스에서는 `visid_high/visid_low`가 `cust_visid`를 히트시킨 후 13개월 이상 경과한 경우 매핑이 만료됩니다. |
 
 {style="table-layout:auto"}
 
