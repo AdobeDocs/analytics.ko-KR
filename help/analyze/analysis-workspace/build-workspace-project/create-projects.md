@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
 source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -98,21 +98,21 @@ Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입�
 >
 >각 구성 요소에 대한 자세한 내용을 보려면 왼쪽 레일에서 구성 요소 이름 옆에 있는 정보 아이콘을 선택하거나 [Analytics 구성 요소 안내서](/help/components/home.md)를 참조하십시오.
 
-다음은 Analysis Workspace에서 프로젝트에 구성 요소를 추가하는 방법에 대한 기본 정보입니다. 다양한 유형의 구성 요소(차원, 지표, 세그먼트 및 날짜 범위) 추가에 대한 자세한 내용은 [Analysis Workspace에서 구성 요소 사용](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+다음은 Analysis Workspace에서 프로젝트에 구성 요소를 추가하는 방법에 대한 기본 정보입니다. 다양한 유형의 구성 요소(차원, 지표, 세그먼트 및 날짜 범위) 추가에 대한 자세한 내용은 [Analysis Workspace에서 구성 요소 사용](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)을 참조하십시오.
 
-Analysis Workspace에서 프로젝트에 구성 요소를 추가하려면 다음을 수행하십시오.
+Analysis Workspace에서 프로젝트에 구성 요소를 추가하려면 다음 작업을 수행하십시오.
 
 1. 왼쪽 레일에서 **[!UICONTROL 구성 요소]** 아이콘을 선택합니다.
 
    ![](assets/build-components.png)
 
-1. 추가할 구성 요소로 스크롤하거나 구성 요소를 검색한 다음 프로젝트 내의 패널이나 시각화로 드래그합니다.
+1. 추가하려는 구성 요소를 스크롤하거나 검색한 다음, 프로젝트 내의 패널이나 시각화로 드래그합니다.
 
    예를 들어 세그먼트를 패널 헤더의 세그먼트 드롭 영역으로 드래그할 수 있습니다.
 
-   ![드롭 영역에 세그먼트 드롭](assets/segment-dropzone.png)
+   ![놓기 영역에 세그먼트 드롭](assets/segment-dropzone.png)
 
-   프로젝트에 구성 요소를 추가하는 방법에 대한 자세한 내용은 [Analysis Workspace에서 구성 요소 사용](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+   프로젝트에 구성 요소 추가에 대한 자세한 내용은 [Analysis Workspace에서 구성 요소 사용](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)를 참조하십시오.
 
 1. (선택 사항) [프로젝트 저장 및 공유](#save-and-share-the-project)에 설명된 대로 프로젝트를 공유합니다.
 

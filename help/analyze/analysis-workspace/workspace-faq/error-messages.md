@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
 source-git-commit: b844fb354c16a80e4044e3bae8cb47aa042a0d59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Analysis Workspace와 상호 작용할 때 성능에도 영향을 주는 오류�
 
 | 오류 메시지 | 왜 이 오류가 발생하는가? | 최적화 |
 | --- | --- | --- |
-| [!UICONTROL 보고서 세트가 현재 보고 용량을 초과합니다. 요청을 단순화하거나 나중에 다시 시도하십시오.] | 보고 요청이 너무 복잡하여 단순화해야 합니다. | 보고서 기준을 좁히고 요청을 다시 시도하십시오. |
+| [!UICONTROL 보고서 세트가 현재 보고 용량을 초과했습니다. 요청을 단순화하거나 나중에 다시 시도하십시오.] | 보고 요청이 너무 복잡하여 단순화해야 합니다. | 보고 기준을 좁히고 요청을 다시 시도하십시오. |
 | [!UICONTROL 시스템 오류가 발생했습니다. 도움말 > 지원 티켓 제출의 고객 지원 요청을 로그하여 오류 코드를 포함하십시오.] | Adobe에서 해결해야 하는 문제가 발생했습니다. | 오류 코드를 고객 지원에 제출합니다. |
 | [!UICONTROL 예상치 못한 오류가 발생했습니다. 프로젝트를 다시 새로 고치십시오. 문제가 지속되면 이 오류 ID를 Adobe 고객 지원 센터에 제출하여 추가 진단을 받으십시오.] | Adobe에서 해결해야 하는 문제가 발생했습니다. | 프로젝트를 다시 새로 고치고 오류 코드를 고객 지원 센터에 제출하십시오. |
 | [!UICONTROL 오류 500: 페이지 로드 실패] | 회사 [방화벽 설정](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR)과 같이 로컬 네트워크에 있는 문제가 이 오류의 발생 요소입니다. Adobe에서 해결해야 하는 문제가 발생할 수도 있습니다. | 몇 분 후에 다시 로그인해 보십시오. 문제가 계속 발생하면 EIM 인스턴스 ID 코드를 고객 지원에 제출합니다. |
