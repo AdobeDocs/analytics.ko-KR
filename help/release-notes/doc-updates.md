@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5562'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 5월** | |
-| 데이터 피드 및 Data Warehouse에서 Google Cloud Platform과 함께 조직 정책 제한을 사용할 때 필요한 정보 | Adobe 소유의 Google Cloud Platform 조직 ID를에 추가했습니다. [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 및 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 설명서를 참조하십시오. <p>이 정보는 을 사용하는 조직에만 필요합니다. [조직 정책 제한](https://cloud.google.com/storage/docs/org-policy-constraints) Google Cloud Platform.</p> |
+| 데이터 피드 및 데이터 웨어하우스에서 Google Cloud Platform과 함께 조직 정책 제한 사항을 사용할 때 필요한 정보 | Adobe 소유의 Google Cloud Platform 조직 ID가 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 및 [데이터 웨어하우스](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 설명서에 추가되었습니다. <p>이 정보는 Google Cloud Platform에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하는 조직에만 필요합니다.</p> |
 | 프로젝트에 구성 요소를 추가하는 방법에 대한 설명서 | [Analysis Workspace에서 프로젝트에 다양한 유형의 구성 요소를 추가](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)하는 방법에 대한 일반 정보가 추가되었습니다. |
 | Advertising Analytics 설명서 업데이트 | [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 사용자 인터페이스 업데이트에 따라 문서가 업데이트되었습니다. |
 | XDM 오브젝트 변수를 컨텍스트 데이터 변수에 명시적으로 매핑 | [XDM 오브젝트 변수 매핑을 사용하여 컨텍스트 데이터 변수를 명시적으로 설정](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)하는 기능이 문서화되었습니다. |

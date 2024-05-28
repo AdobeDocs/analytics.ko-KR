@@ -4,9 +4,9 @@ title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2615'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       | 필드 | 함수 |
       |---------|----------|
-      | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 GCP 계정 내부 버킷입니다. <p>Adobe이 제공한 주도자에게 다음 권한 중 하나를 부여했는지 확인합니다. (권한 부여에 대한 자세한 내용은 [버킷 수준 정책에 사용자 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) Google Cloud 설명서에서 참조할 수 있습니다.)<ul><li>`roles/storage.objectCreator`: 주체를 제한하여 GCP 계정에서만 파일을 만들려는 경우 이 권한을 사용합니다. </br>**중요:** 예약된 보고에 이 권한을 사용하는 경우 새로 예약된 각 내보내기에 고유 파일 이름을 사용해야 합니다. 그렇지 않으면 주체가 기존 파일 덮어쓰기에 액세스할 수 없기 때문에 보고서를 생성할 수 없습니다.</li><li>`roles/storage.objectUser`: 주체가 GCP 계정에서 파일을 보고, 나열하고, 업데이트하고, 삭제할 수 있는 액세스 권한이 있는 경우 이 권한을 사용합니다.</br>이 권한을 사용하면 주체는 새로 예약된 각 내보내기에 고유 파일 이름을 자동 생성하지 않고도 후속 업로드에 기존 파일을 덮어쓸 수 있습니다.</li></ul><p>조직에서 를 사용하는 경우 [조직 정책 제한](https://cloud.google.com/storage/docs/org-policy-constraints) 허용 목록에서 Google Cloud Platform 계정만 허용하려면 다음 Adobe 소유 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+      | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 GCP 계정 내부 버킷입니다. <p>Adobe에서 제공하는 주체에 다음 권한 중 하나를 부여했는지 확인하십시오. (권한 부여에 대한 자세한 내용은 Google Cloud 설명서의 [버킷 수준 정책에 주체 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)를 참조하십시오.)<ul><li>`roles/storage.objectCreator`: 주체를 제한하여 GCP 계정에서만 파일을 만들려는 경우 이 권한을 사용합니다. </br>**중요:** 예약된 보고에 이 권한을 사용하는 경우 새로 예약된 각 내보내기에 고유 파일 이름을 사용해야 합니다. 그렇지 않으면 주체가 기존 파일 덮어쓰기에 액세스할 수 없기 때문에 보고서를 생성할 수 없습니다.</li><li>`roles/storage.objectUser`: 주체가 GCP 계정에서 파일을 보고, 나열하고, 업데이트하고, 삭제할 수 있는 액세스 권한이 있는 경우 이 권한을 사용합니다.</br>이 권한을 사용하면 주체는 새로 예약된 각 내보내기에 고유 파일 이름을 자동 생성하지 않고도 후속 업로드에 기존 파일을 덮어쓸 수 있습니다.</li></ul><p>귀사에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하여 허용 목록에 Google Cloud Platform 계정만 허용하는 경우 다음과 같은 Adobe 소유의 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
       | [!UICONTROL **키 접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
       {style="table-layout:auto"}
