@@ -4,9 +4,9 @@ description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 47893ea714f0a0baaccce66578c9f9175c59511f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1144'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 | **Adobe Analytics에서 Customer Journey Analytics로 업그레이드에 대한 새로운 설명서** | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 조직의 경우 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 염두에 두어야 할 다양한 업그레이드 옵션 등 고려 사항이 많습니다. 이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.<ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li></ul>[Customer Journey Analytics로 업그레이드 시작하기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 지금 사용 가능 |
 | **XDM을 통해 `contextData` 필드 설정** | Experience Edge Network를 통해 Adobe Analytics로 데이터를 보내는 고객은 XDM 또는 페이로드의 “데이터” 부분에서 직접 [컨텍스트 데이터 값을 설정](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/page-vars/contextdata)할 수 있습니다. |  | 지금 사용 가능 |
 | **Analytics 실시간 보고 2.0 API** | Adobe Analytics의 새로운 실시간 보고 API 2.0은 고객 통합을 개선하고 신속한 보고 결과를 제공합니다. 기본 보고서, 추세 보고서, 분류 보고서 작업에 이러한 결과를 프로그래밍 방식으로 사용할 수 있습니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | | 2024년 5월 30일 |
-| **스트리밍 미디어: Web SDK를 통해 웹 데이터를 Adobe Experience Platform Edge Network로 보내기** | 이제 Adobe Experience Platform Web SDK를 사용하여 스트리밍 미디어 웹 데이터를 Adobe Experience Platform Edge Network로 보낼 수 있습니다. 이 개선 사항을 통해 보다 개인화된 캠페인을 빌드하고 더욱 개인화된 콘텐츠를 제공할 수 있으므로 더 많은 추적 데이터를 보고할 수 있게 됩니다.<p>이러한 변경은 Customer Journey Analytics, Adobe Real-time CDP, Adobe Journey Optimizer 및 이벤트 전달과 같은 모든 Platform 솔루션 전반에 걸쳐 웹 구현을 위한 통합 수집 방법을 제공합니다. 이전까지 스트리밍 미디어 웹 데이터를 Edge Network로 보내는 유일한 방법은 Media Edge API를 사용하는 것이었습니다. <p>[자세히 알아보기](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/edge-web-sdk)</p> | | 2024년 5월 29일 목요일 |
+| **스트리밍 미디어: Web SDK를 통해 웹 데이터를 Adobe Experience Platform Edge Network로 보내기** | 이제 Adobe Experience Platform Web SDK를 사용하여 스트리밍 미디어 웹 데이터를 Adobe Experience Platform Edge Network로 보낼 수 있습니다. 이 개선 사항을 통해 보다 개인화된 캠페인을 빌드하고 더욱 개인화된 콘텐츠를 제공할 수 있으므로 더 많은 추적 데이터를 보고할 수 있게 됩니다.<p>이러한 변경은 Customer Journey Analytics, Adobe Real-time CDP, Adobe Journey Optimizer 및 이벤트 전달과 같은 모든 Platform 솔루션 전반에 걸쳐 웹 구현을 위한 통합 수집 방법을 제공합니다. 이전까지 스트리밍 미디어 웹 데이터를 Edge Network로 보내는 유일한 방법은 Media Edge API를 사용하는 것이었습니다. <p>[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/edge-web-sdk)</p> | | 2024년 5월 29일 |
 | **기본적으로 낮은 트래픽 임계값 증가** | **2024년 4월 중반**&#x200B;에 Adobe는 기본 보고서 세트 ![낮은 트래픽 임계값](assets/thresholds.png)을 높일 예정입니다. 이는 현재 새 임계값 아래로 설정된 변수에만 영향을 줍니다. 해당 변경 사항은 점진적으로 적용되고, 작업은 **5월 말**&#x200B;에 완료될 예정입니다. 이 증가분이 롤아웃되면 카디널리티가 높은 변수에 대해 변경 사항이 발생할 수 있습니다.<ul><li>추가 차원 값이 보고에 사용할 수 있습니다.</li><li>세그먼트와 계산된 지표에는 추가 데이터가 포함될 수 있습니다.</li><li>세그먼트 기반 가상 보고서 세트에는 추가 데이터가 포함될 수 있습니다.</li><li>분류 내보내기에는 추가 데이터가 포함될 수 있습니다.</li></ul> | 2024년 4월 중반 | 2024년 5월 31일 |
 | **내보내기 및 가져오기에 사용되는 계정 및 위치를 제어하는 &#x200B;&#x200B;관리자 설정** | 관리자는 위치 관리자의 새로운 “관리자 설정” 탭을 통해 사용자가 계정과 위치를 생성하고 편집할 수 있는지 여부를 제어할 수 있습니다. 이러한 설정은 사용자가 클라우드 가져오기 및 내보내기 계정을 구성하고 클라우드 가져오기 및 내보내기 위치를 구성할 때 적용됩니다. <p>관리자는 사용자가 만들고 사용할 수 있는 계정 유형(Google Cloud Platform, Azure RBAC, Amazon S3 등)을 제한할 수도 있습니다.</p><p>이전에는 모든 사용자가 모든 유형의 계정에 대해 계정과 위치를 만들고, 편집하고, 사용할 수 있었습니다.</p><p>(업데이트된 설명서 링크)</p> | 2024년 6월 12일 | 2024년 6월 30일 |
 | **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정과 위치를 편집하고 삭제할 수 있습니다.<p>이전에는 계정과 위치를 생성한 사용자만 사용할 수 있었습니다.</p><p>이러한 설정은 사용자가 클라우드 가져오기 및 내보내기 계정을 구성하고 클라우드 가져오기 및 내보내기 위치를 구성할 때 사용할 수 있습니다. </p> <p>(업데이트된 설명서 링크)</p> | 2024년 6월 12일 | 2024년 6월 30일 |
