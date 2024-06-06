@@ -4,9 +4,9 @@ title: Adobe Analytics의 낮은 트래픽 값
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ Adobe는 보고서에 고유 값이 많으면 그중 가장 중요한 값이 보
 ## [!UICONTROL 낮은 트래픽]이 작동하는 방식
 
 * Adobe Analytics는 **[!UICONTROL 낮은 임계값]** 및 **[!UICONTROL 높은 임계값]**&#x200B;이라는 두 가지 임계값을 사용하여 매월 보고서에 표시되는 고유 값을 결정합니다. 이러한 임계값은 Adobe에서 수시로 조정할 수 있습니다. 현재 임계값 제한은 다음과 같습니다.
-   * **[!UICONTROL 낮은 임계값]**: 한 달 동안 2,000,000개 이상의 고유 값.
-   * **[!UICONTROL 높은 임계값]**: 월 중 2,100,000개 이상의 고유 값.
+   * **[!UICONTROL 낮은 임계값]**: 해당 월 동안 고유 값 2,000,000개 미만.
+   * **[!UICONTROL 높은 임계값]**: 해당 월 동안 고유 값 2,100,000개 초과.
 * 변수가 지정된 달에 낮은 임계값에 도달하지 않으면 보고에 영향을 주지 않습니다.
 * 변수가 낮은 임계값에 도달하면 데이터가 [!UICONTROL 낮은 트래픽]에서 그룹화되기 시작합니다. 이 임계값을 초과하는 각 값은 다음 논리를 거칩니다.
    * 리포트에 값이 이미 표시되는 경우 평소와 같이 해당 값에 추가합니다.
