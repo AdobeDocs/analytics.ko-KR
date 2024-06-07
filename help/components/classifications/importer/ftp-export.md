@@ -4,8 +4,8 @@ description: FTP 내보내기는 여러 보고서 세트에서 데이터를 다�
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
-source-wordcount: '612'
+workflow-type: ht
+source-wordcount: '632'
 ht-degree: 100%
 
 ---

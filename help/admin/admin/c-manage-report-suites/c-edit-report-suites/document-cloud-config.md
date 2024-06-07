@@ -2,13 +2,13 @@
 description: Adobe Analytics에서 Document Cloud 데이터를 볼 수 있습니다.
 title: Document Cloud 보고 구성
 feature: Admin Tools
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
-workflow-type: tm+mt
-source-wordcount: '139'
+exl-id: eb58d011-c4b0-4c0c-9241-83b2bccc2c77
+source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+workflow-type: ht
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
-
 
 # Document Cloud 보고 구성
 
@@ -53,5 +53,3 @@ PDF 보고를 올바르게 구성한 경우 Adobe Analytics에서 다음과 같�
 1. Adobe Document Cloud 관리 페이지에서 [!UICONTROL **PDF 보고서 활성화**]&#x200B;를 선택합니다.
 
 1. Adobe Analytics로 데이터를 전송하도록 Adobe Document Cloud를 구성하려면 [Adobe Document Cloud Javascript SDK](https://www.adobe.io/apis/documentcloud/dcsdk.html)를 사용하십시오.
-
-

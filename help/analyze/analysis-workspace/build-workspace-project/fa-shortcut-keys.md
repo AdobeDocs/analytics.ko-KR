@@ -6,8 +6,8 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
-workflow-type: tm+mt
-source-wordcount: '290'
+workflow-type: ht
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 탐색 작업
 
-| 작업 | 단축키 |
+| 액션 | 단축키 |
 | --- | --- |
 | 새 프로젝트 만들기 | Ctrl+Shift+P |
 | 기존 프로젝트 열기 | Ctrl+O |
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## 분석 작업
 
-| 작업 | 단축키 |
+| 액션 | 단축키 |
 | --- | --- |
 | 왼쪽 레일 검색 | Ctrl+/ |
 | 경고 만들기 | Ctrl+Shift+A |
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ## 패널 및 시각화 동작 추가
 
-| 작업 | 단축키 |
+| 액션 | 단축키 |
 | ---|---|
 | 새 Analytics for Target 패널 | Alt+G |
 | 새 기여도 분석 패널 | Alt+E |
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 ## 민주화 동작
 
-| 작업 | 단축키 |
+| 액션 | 단축키 |
 | --- | --- |
 | 프로젝트 저장 | Ctrl+S |
 | 다른 이름으로 프로젝트 저장 | Ctrl+Shift+S |

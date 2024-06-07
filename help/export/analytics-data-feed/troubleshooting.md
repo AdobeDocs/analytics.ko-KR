@@ -5,8 +5,8 @@ keywords: job;troubleshooting;error;ftp;chdir;connect;login;put
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '470'
+workflow-type: ht
+source-wordcount: '466'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
    2. 원하는 데이터 피드를 찾은 다음 다시 실행하고자 하는 각 피드 옆에 있는 확인란을 클릭합니다.
    3. **[!UICONTROL 다시 실행]**&#x200B;을 클릭합니다.
 
-   ![다시 실행](assets/rerun.png)
+  ![다시 실행](assets/rerun.png)
 
 다시 실행한 후에도 데이터 피드 파일을 받지 못할 경우엔 고객 지원 센터에 연락하십시오.
 

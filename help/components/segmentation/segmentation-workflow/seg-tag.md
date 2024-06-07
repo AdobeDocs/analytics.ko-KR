@@ -4,7 +4,7 @@ title: 세그먼트 태깅
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
    * 기존 태그에서 선택하거나
    * 새 태그를 추가하고 **[!UICONTROL Enter 키를 누릅니다]**.
 
-      ![](assets/tagging_ui.png)
+     ![](assets/tagging_ui.png)
 
 1. **[!UICONTROL 태그]**&#x200B;를 다시 클릭하여 세그먼트에 태깅합니다.
 

@@ -4,7 +4,7 @@ title: Data Warehouse 세그먼트 기능
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -71,8 +71,8 @@ ht-degree: 100%
      <li>계층 (계층으로 시작하는 모든 차원) </li> 
      <li>히트 깊이 </li> 
      <li>히트 유형 </li> 
-     <li>시간 일 </li> 
-     <li>월 (연 기준) </li> 
+     <li>시간(일) </li> 
+     <li>월(연 기준) </li> 
      <li>페이지를 찾을 수 없음 </li> 
      <li>유료 검색 </li> 
      <li>사분기 </li> 

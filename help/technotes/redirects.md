@@ -5,7 +5,7 @@ title: 리디렉션 및 별칭
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1105'
 ht-degree: 100%
 

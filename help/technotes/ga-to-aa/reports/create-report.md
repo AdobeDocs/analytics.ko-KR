@@ -4,8 +4,8 @@ description: Google Analytics 등 서드파티 도구에 익숙한 사용자에 
 feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
-source-wordcount: '854'
+workflow-type: ht
+source-wordcount: '855'
 ht-degree: 100%
 
 ---
