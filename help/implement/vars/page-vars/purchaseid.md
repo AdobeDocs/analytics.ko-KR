@@ -4,10 +4,10 @@ description: 고유 구매 식별자를 기반으로 히트를 중복 제거합�
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 83%
+source-wordcount: '361'
+ht-degree: 73%
 
 ---
 
@@ -28,7 +28,16 @@ Adobe가 히트를 중복 구매로 인식하면 모든 전환 데이터 (예: e
 
 ## Adobe Analytics 확장을 사용한 구매 ID
 
-Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 구매 ID를 설정할 수 있습니다.
+
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
+2. 원하는 태그 속성을 클릭합니다.
+3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
+4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
+5. 설정 [!UICONTROL 확장] Adobe Analytics 드롭다운 목록 [!UICONTROL 작업 유형] 끝 [!UICONTROL 변수 설정].
+6. 를 찾습니다. [!UICONTROL 구매 ID] 섹션.
+
+구매 ID를 값 또는 데이터 요소로 설정할 수 있습니다. 다른 Analytics 변수에서 값을 복사할 수도 있습니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.purchaseID
 

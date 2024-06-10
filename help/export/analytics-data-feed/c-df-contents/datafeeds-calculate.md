@@ -4,10 +4,10 @@ keywords: 데이터 피드, 작업, 지표, 이전 열, 이후 열, 보트 수, 
 title: 지표 계산
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -23,14 +23,18 @@ ht-degree: 100%
 
 1. 값이 `post_pagename` 또는 `post_page_url`에 있는 행 수를 카운트합니다.
 
+## 발생 횟수
+
+1. 총 행 수를 카운트합니다.
+
 ## 방문 횟수
 
 1. `post_visid_high`, `post_visid_low`, `visit_num` 및 `visit_start_time_gmt`를 연결합니다.
 1. 고유 값 수를 카운트합니다.
 
->[!NOTE]
+>[!TIP]
 >
->인터넷 특이 사항, 시스템 특이 사항 또는 사용자 지정 방문자 ID의 사용은 서로 다른 방문 횟수에 대해 동일한 `visit_num` 값을 거의 사용할 수 없습니다. 방문 횟수를 카운트할 때 이러한 방문 횟수가 카운트되도록 `visit_start_time_gmt`를 사용합니다.
+>인터넷 특이 사항, 시스템 특이 사항 또는 사용자 지정 방문자 ID의 사용은 서로 다른 방문 횟수에 대해 동일한 `visit_num` 값을 거의 사용할 수 없습니다. 선택 사항이지만 `visit_start_time_gmt` 방문 횟수를 카운트하여 이러한 방문 횟수가 카운트되도록 할 때.
 
 ## 방문자 수
 

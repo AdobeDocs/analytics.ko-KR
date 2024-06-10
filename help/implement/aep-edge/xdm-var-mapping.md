@@ -4,9 +4,9 @@ description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1414'
 ht-degree: 71%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 71%
 | --- | --- |
 | `xdm.application.isClose` | 모바일 라이프사이클 지표 [충돌](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)을 정의하는 데 도움이 됩니다. |
 | `xdm.application.isInstall` | 모바일 라이프사이클 지표 [첫 실행](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
-| `xdm.application.isLaunch` | 모바일 라이프사이클 지표 [첫 실행](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
 | `xdm.application.closeType` | 닫기 이벤트가 충돌인지 여부를 결정합니다. 유효한 값은 `close`(라이프사이클 세션이 종료되고 이전 세션에 대해 일시 중지 이벤트가 수신됨) 및 `unknown`(라이프사이클 세션이 일시 중지 이벤트 없이 종료됨)입니다. 모바일 라이프사이클 지표 [충돌](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) 지표를 설정하는 데 도움이 됩니다. |
 | `xdm.application.isInstall` | 모바일 라이프사이클 지표 [설치](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isLaunch` | 모바일 라이프사이클 지표 [런치](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
