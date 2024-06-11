@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 계정 구성
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 61%
+source-wordcount: '1513'
+ht-degree: 54%
 
 ---
 
 # 클라우드 가져오기 및 내보내기 계정 구성
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
+
+>[!NOTE]
+>
+>계정을 만들고 편집할 때 다음 사항을 고려하십시오. <ul><li>시스템 관리자는에 설명된 대로 사용자가 계정을 생성하지 못하도록 제한할 수 있습니다. [사용자가 계정을 만들 수 있는지 여부를 구성합니다.](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 이 섹션에 설명된 대로 계정을 만들 수 없는 경우 시스템 관리자에게 문의하십시오.</li><li>계정은 계정을 만든 사용자 또는 시스템 관리자만 편집할 수 있습니다.</li></ul>
 
 다음 목적 중 하나 또는 모두에 사용되는 클라우드 계정을 구성할 수 있습니다.
 
@@ -23,17 +27,25 @@ ht-degree: 61%
 
 클라우드 계정에 액세스하려면 필요한 정보로 Adobe Analytics을 구성해야 합니다. 이 프로세스는 이 문서에 설명된 대로 계정을 추가 및 구성(예: Amazon S3 Role ARN, Google Cloud Platform 등)한 다음, 해당 계정 내에서 위치(예: 계정 내 폴더)를 추가 및 구성하는 것으로 구성됩니다 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md).
 
-계정 보기, 편집 및 삭제를 포함하여 기존 계정을 관리하는 방법에 대한 자세한 내용은 [위치 관리자](/help/components/locations/locations-manager.md).
+기존 계정을 보고 삭제하는 방법에 대한 내용은 [위치 관리자](/help/components/locations/locations-manager.md).
 
 클라우드 가져오기 또는 내보내기 계정을 구성하려면 다음을 수행합니다.
 
 1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **위치**].
 1. 다음에서 [!UICONTROL 위치] 페이지에서 [!UICONTROL **위치 계정**] 탭.
-1. 선택 [!UICONTROL **계정 추가**].
+1. (조건부) 시스템 관리자인 경우 [!UICONTROL **모든 사용자의 계정 보기**] 조직의 모든 사용자가 만든 계정을 보는 옵션입니다.
+   ![모든 사용자의 계정 보기](assets/accounts-all-users.png)
+1. 새 계정을 만들려면 다음을 선택합니다. [!UICONTROL **계정 추가**].
 
-   계정 추가 대화 상자가 표시됩니다.
+   다음 [!UICONTROL **위치 계정 세부 정보**] 대화 상자가 표시됩니다.
 
-1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름입니다. 이 이름은 위치를 만들 때 나타납니다 | | [!UICONTROL **위치 계정 설명**] | 동일한 계정 유형의 다른 계정과 구분하는 데 도움이 되도록 계정에 대한 간단한 설명을 입력합니다. | | [!UICONTROL **계정 유형**] | 클라우드 계정 유형을 선택합니다. 각 계정 유형에 대해 해당 계정 내에서 필요에 따라 여러 위치가 있는 단일 계정을 사용하는 것이 좋습니다. |
+   또는
+
+   기존 계정을 편집하려면 편집할 계정을 찾은 다음 [!UICONTROL **세부 정보 편집**] 단추를 클릭합니다.
+
+   다음 [!UICONTROL **계정 추가**] 대화 상자가 표시됩니다.
+
+1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름입니다. 이 이름은 위치를 만들 때 나타납니다 | | [!UICONTROL **위치 계정 설명**] | 동일한 계정 유형의 다른 계정과 구분하는 데 도움이 되도록 계정에 대한 간단한 설명을 입력합니다. | | [!UICONTROL **조직의 모든 사용자가 계정을 사용할 수 있도록 설정**] | **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Adobe Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오. <p>조직의 다른 사용자가 계정을 사용할 수 있도록 하려면 이 옵션을 활성화합니다.</p> <p>계정을 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 계정은 공유 해제할 수 없습니다.</li><li>공유 계정은 계정 소유자만 편집할 수 있습니다.</li><li>누구나 공유 계정의 위치를 만들 수 있습니다.</li></ul> | | [!UICONTROL **계정 유형**] | 클라우드 계정 유형을 선택합니다. 각 계정 유형에 대해 단일 계정을 사용하고 해당 계정 내에서 필요에 따라 여러 위치를 사용하는 것이 좋습니다.<p>시스템 관리자는에 설명된 대로 사용자가 만들 수 있는 계정 유형을 제한할 수 있습니다 [사용자가 계정을 만들 수 있는지 여부를 구성합니다.](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 이 섹션에 설명된 대로 계정을 만들 수 없는 경우 시스템 관리자에게 문의하십시오.</p> |
 1. 다음에서 [!UICONTROL **계정 속성**] 섹션에서 선택한 계정 유형과 관련된 정보를 지정합니다.
 
    구성 지침을 보려면 아래에 있는 해당 섹션을 확장합니다. [!UICONTROL **계정 유형**] 을(를) 선택합니다. (추가적인 레거시 계정 유형도 사용할 수 있지만 권장되지는 않습니다.)
@@ -89,6 +101,22 @@ ht-degree: 61%
    | [!UICONTROL **애플리케이션 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
    | [!UICONTROL **테넌트 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
    | [!UICONTROL **위치 계정 암호**] | 만든 Azure 애플리케이션에서 암호를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **인증서 및 암호** 애플리케이션 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++이메일
+
+   >[!NOTE]
+   >
+   >이메일 계정은 다음에만 사용할 수 있습니다. [데이터 피드](/help/export/analytics-data-feed/create-feed.md). (이메일 계정은 다음으로 지원되지 않습니다.) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [분류 세트](/help/components/classifications/sets/overview.md)).
+
+   Azure RBAC 계정을 구성하려면 다음 정보를 지정합니다.
+
+   | 필드 | 함수 |
+   |---------|----------|
+   | [!UICONTROL **수신자**] | 보고서 전송 시 특정 사용자에게 이메일 알림을 보낼 수 있습니다. 단일 이메일 주소 또는 쉼표로 구분된 이메일 주소 목록을 지정하십시오. |
 
    {style="table-layout:auto"}
 

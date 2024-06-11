@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 위치 구성
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 04d05fe10e46ca99dd1bd8019161143dab47e61d
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 37%
+source-wordcount: '1730'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,11 @@ ht-degree: 37%
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-클라우드 계정(및 해당 계정에서의 위치)을 구성할 수 있습니다. 단일 위치는 다음 목적 중 하나에 사용할 수 있습니다(단일 위치는 데이터 피드 및 데이터 웨어하우스 또는 Data Warehouse 및 분류 세트와 같은 여러 목적과 연결할 수 없음).
+>[!NOTE]
+>
+>위치를 만들고 편집할 때 다음 사항을 고려하십시오.<ul><li>시스템 관리자는에 설명된 대로 사용자가 위치를 만들지 못하도록 제한할 수 있습니다. [사용자가 위치를 만들 수 있는지 여부 구성](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). 이 섹션에 설명된 대로 위치를 만들 수 없는 경우 시스템 관리자에게 문의하십시오.</li><li>위치를 만든 사용자나 시스템 관리자만 위치를 편집할 수 있습니다.</li></ul>
+
+이후 [클라우드 계정 구성](/help/components/locations/configure-import-accounts.md), 해당 계정에서 위치를 구성할 수 있습니다. 단일 위치는 다음 목적 중 하나에 사용할 수 있습니다(단일 위치는 여러 목적과 연결할 수 없음).
 
 * 다음을 사용하여 파일 내보내기 [데이터 피드](/help/export/analytics-data-feed/create-feed.md)
 * 를 사용하여 보고서 내보내기 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
@@ -23,35 +27,42 @@ ht-degree: 37%
 
 클라우드 계정에 액세스하려면 필요한 정보로 Adobe Analytics을 구성해야 합니다. 이 프로세스는에 설명된 대로 계정을 추가 및 구성(Amazon S3 역할 ARN, Google Cloud Platform 등)하는 과정으로 구성됩니다 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md)을 클릭한 다음 해당 계정 내에서 위치를 추가하고 구성합니다(이 문서에 설명된 대로).
 
-위치 보기, 편집 및 삭제를 포함하여 기존 위치를 관리하는 방법에 대한 자세한 내용은 [위치 관리자](/help/components/locations/locations-manager.md).
+기존 위치를 보고 삭제하는 방법에 대한 자세한 내용은 [위치 관리자](/help/components/locations/locations-manager.md).
 
-## 클라우드 내보내기 위치 만들기 시작
+## 위치 만들기 또는 편집 시작
 
 1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **위치**].
-1. 다음에서 [!UICONTROL 위치] 페이지에서 [!UICONTROL **위치**] 탭.
-1. 선택 [!UICONTROL **위치 추가**]. (아직 계정을 추가하지 않은 경우에서 설명한 대로 계정을 추가합니다. [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md).)
 
-   위치 대화 상자가 표시됩니다.
+1. 다음에서 [!UICONTROL 위치] 페이지에서 [!UICONTROL **위치**] 탭.
+
+1. (조건부) 시스템 관리자인 경우 [!UICONTROL **모든 사용자의 위치 보기**] 조직의 모든 사용자가 만든 위치를 보는 옵션입니다.
+   ![모든 사용자의 위치 보기](assets/locations-all-users.png)
+
+1. 새 위치를 추가하려면 [!UICONTROL **위치 추가**]. (아직 계정을 추가하지 않은 경우에서 설명한 대로 계정을 추가합니다. [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md).)
+
+   다음 [!UICONTROL **위치 추가**] 대화 상자가 표시됩니다.
+
+   또는
+
+   기존 위치를 편집하려면 위치 이름 옆에 있는 3점 메뉴를 선택한 다음 를 선택합니다 [!UICONTROL **편집**].
+
+   다음 [!UICONTROL **위치 세부 정보**] 대화 상자가 표시됩니다.
 
 1. 다음 정보를 지정합니다. |필드 | 함수 | ------------------- | [!UICONTROL **이름**] | 위치의 이름입니다.  |
-| [!UICONTROL **설명**] | 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. | | [!UICONTROL **과 함께 사용**] | 이 위치를 사용할 위치 선택 [!UICONTROL **데이터 피드**], [!UICONTROL **Data Warehouse**], 또는 [!UICONTROL **분류 세트**]. <p>선택할 때는 다음 사항을 고려하십시오.</p><ul><li>단일 위치를 여러 용도로 사용할 수 없습니다. 예를 들어 데이터 피드에 사용되는 위치는 Data Warehouse 또는 분류 세트에도 사용할 수 없습니다.</li><li>위치 내에서 파일이 충돌하지 않도록 하려면 의 값을 변경하지 마십시오 [!UICONTROL **과 함께 사용**] 위치가 사용된 후의 필드입니다.</li></ul> | | [!UICONTROL **위치 계정**] | 이 위치를 만들 위치 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [계정 추가](#add-an-account). |
+| [!UICONTROL **설명**] | 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. | | [!UICONTROL **과 함께 사용**] | 이 위치를 사용할 위치 선택 [!UICONTROL **데이터 피드**], [!UICONTROL **Data Warehouse**], 또는 [!UICONTROL **분류 세트**]. <p>선택할 때는 다음 사항을 고려하십시오.</p><ul><li>단일 위치를 여러 용도로 사용할 수 없습니다. 예를 들어 데이터 피드에 사용되는 위치는 Data Warehouse 또는 분류 세트에도 사용할 수 없습니다.</li><li>위치 내에서 파일이 충돌하지 않도록 하려면 의 값을 변경하지 마십시오 [!UICONTROL **과 함께 사용**] 위치가 사용된 후의 필드입니다.</li><li>이메일 계정에 대한 위치를 만드는 경우 다음을 선택합니다. [!UICONTROL **Data Warehouse**] 이 필드에서. 이메일 위치는 데이터 피드 및 분류 세트에서 지원되지 않습니다.</li></ul> | | [!UICONTROL **조직의 모든 사용자가 위치를 사용할 수 있도록 설정**] | **참고:** 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Adobe Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오. <p>조직의 다른 사용자가 위치를 사용할 수 있도록 하려면 이 옵션을 활성화합니다.</p> <p>위치를 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 위치는 공유 해제할 수 없습니다.</li><li>공유 위치는 해당 위치의 소유자만 편집할 수 있습니다.</li><li>위치가 연결된 계정도 공유된 경우에만 위치를 공유할 수 있습니다.</li></ul> | | [!UICONTROL **위치 계정**] | 이 위치를 만들 위치 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md). |
 
-1. [!UICONTROL **위치 속성**] 섹션에서 위치 계정의 계정 유형과 관련된 정보를 지정합니다.
-
-   에서 선택한 계정 유형에 해당하는 아래 섹션을 계속 진행합니다. [!UICONTROL **위치 계정**] 필드. (추가적인 레거시 계정 유형도 사용할 수 있지만 권장되지는 않습니다.)
-
-
+1. 위치 구성을 위한 양식을 작성하려면 아래에서 선택한 계정 유형에 해당하는 아래 섹션을 계속 진행하십시오. [!UICONTROL **위치 계정**] 필드. (추가적인 레거시 계정 유형도 사용할 수 있지만 권장되지는 않습니다.)
 
 ### Amazon S3 Role ARN
 
 Amazon S3 역할 ARN 위치를 구성하려면 다음 정보를 지정합니다.
 
-1. [클라우드 내보내기 위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-cloud-export-location), 위에서 설명한 대로
+1. [위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-location), 위에서 설명한 대로
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>Adobe이 제공한 사용자 ARN에 `S3:PutObject` 이 버킷에 파일을 업로드할 수 있는 권한입니다. </p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들면 3~63자 사이여야 하며 소문자, 숫자, 점(.), 하이픈(-)만 사용할 수 있고 문자나 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
-   | [!UICONTROL **키 접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
+   | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>Adobe이 제공한 사용자 ARN에 `S3:PutObject` 이 버킷에 파일을 업로드할 수 있는 권한입니다. </p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들면 3~63자 사이여야 하며 소문자, 숫자, 점(.), 하이픈(-)만 사용할 수 있고 문자나 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
    {style="table-layout:auto"}
 
@@ -70,12 +81,12 @@ Amazon S3 역할 ARN 위치를 구성하려면 다음 정보를 지정합니다.
 
 Google Cloud Platform 위치를 구성하려면 다음 정보를 지정합니다.
 
-1. [클라우드 내보내기 위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-cloud-export-location), 위에서 설명한 대로
+1. [위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-location), 위에서 설명한 대로
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷 이름**] | Adobe Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. 이 버킷에 파일을 업로드할 수 있도록 Adobe이 제공한 사용자에 대한 권한을 부여했는지 확인하십시오. |
-   | [!UICONTROL **키 접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
+   | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. 이 버킷에 파일을 업로드할 수 있도록 Adobe이 제공한 사용자에 대한 권한을 부여했는지 확인하십시오. |
+   | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
    {style="table-layout:auto"}
 
@@ -94,12 +105,12 @@ Google Cloud Platform 위치를 구성하려면 다음 정보를 지정합니다
 
 Azure SAS 위치를 구성하려면 다음 정보를 지정합니다.
 
-1. [클라우드 내보내기 위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-cloud-export-location), 위에서 설명한 대로
+1. [위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-location), 위에서 설명한 대로
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **컨테이너 이름**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. |
-   | [!UICONTROL **키 접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
+   | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. |
+   | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -118,13 +129,13 @@ Azure SAS 위치를 구성하려면 다음 정보를 지정합니다.
 
 Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 
-1. [클라우드 내보내기 위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-cloud-export-location), 위에서 설명한 대로
+1. [위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-location), 위에서 설명한 대로
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **컨테이너 이름**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. 앞서 만든 Azure 애플리케이션에 파일을 업로드할 권한을 부여하고 있는지 확인합니다. |
-   | [!UICONTROL **키 접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
-   | [!UICONTROL **계정 이름**] | Azure 스토리지 계정입니다. |
+   | [!UICONTROL **계정**] | Azure 스토리지 계정입니다. |
+   | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. 앞서 만든 Azure 애플리케이션에 파일을 업로드할 권한을 부여하고 있는지 확인합니다. |
+   | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -137,6 +148,23 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
    >[!NOTE]
    >
    >   이전에 을 사용한 경우 [분류를 가져오는 FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) Adobe Analytics에 FIN 파일을 업로드해야 했습니다. 클라우드 계정에서 가져올 때는 이 FIN 파일이 필요하지 않습니다.
+
+### 이메일
+
+전자 메일 위치를 구성하려면 다음 정보를 지정하십시오.
+
+1. [위치 만들기 또는 편집 시작](#begin-creating-or-editing-a-location), 위에서 설명한 대로
+
+   | 필드 | 함수 |
+   |---------|----------|
+   | [!UICONTROL **제목**] | 이메일 메시지 제목입니다. |
+   | [!UICONTROL **참고**] | 이메일 메시지의 콘텐츠입니다. |
+
+   {style="table-layout:auto"}
+
+1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
+
+   이제 를 사용할 때 구성한 계정 및 위치로 데이터를 내보낼 수 있습니다 [데이터 피드](/help/export/analytics-data-feed/create-feed.md). (이메일 위치는 다음으로 지원되지 않음) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [분류 세트](/help/components/classifications/sets/overview.md)).
 
 ### 이전 계정 유형
 
