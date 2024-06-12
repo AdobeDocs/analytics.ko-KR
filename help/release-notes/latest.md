@@ -3,46 +3,45 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: aabf3b2ef75206938f559af9376e5af483687dbf
+source-git-commit: ed7ccd23b850cda3a0bb695fdc8daee56643c33d
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 97%
+source-wordcount: '990'
+ht-degree: 56%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보(2024년 5월)
+# 최신 Adobe Analytics 릴리스 정보 (2024년 6월)
 
-**마지막 업데이트**: 2024년 6월 3일
+**마지막 업데이트**: 2024년 6월 12일 목요일
 
-이번 릴리스 정보에는 2024년 5월 15일부터 6월까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2024년 6월 12일부터 7월까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Analytics에서 Customer Journey Analytics로 업그레이드에 대한 새로운 설명서** | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 조직의 경우 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 염두에 두어야 할 다양한 업그레이드 옵션 등 고려 사항이 많습니다. 이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.<ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li></ul>[Customer Journey Analytics로 업그레이드 시작하기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 지금 사용 가능 |
-| **XDM을 통해 `contextData` 필드 설정** | Experience Edge Network를 통해 Adobe Analytics로 데이터를 보내는 고객은 XDM 또는 페이로드의 “데이터” 부분에서 직접 [컨텍스트 데이터 값을 설정](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/page-vars/contextdata)할 수 있습니다. |  | 지금 사용 가능 |
-| **Analytics 실시간 보고 2.0 API** | Adobe Analytics의 새로운 실시간 보고 API 2.0은 고객 통합을 개선하고 신속한 보고 결과를 제공합니다. 기본 보고서, 추세 보고서, 분류 보고서 작업에 이러한 결과를 프로그래밍 방식으로 사용할 수 있습니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | | 2024년 5월 30일 |
-| **스트리밍 미디어: Web SDK를 통해 웹 데이터를 Adobe Experience Platform Edge Network로 보내기** | 이제 Adobe Experience Platform Web SDK를 사용하여 스트리밍 미디어 웹 데이터를 Adobe Experience Platform Edge Network로 보낼 수 있습니다. 이 개선 사항을 통해 보다 개인화된 캠페인을 빌드하고 더욱 개인화된 콘텐츠를 제공할 수 있으므로 더 많은 추적 데이터를 보고할 수 있게 됩니다.<p>이러한 변경은 Customer Journey Analytics, Adobe Real-time CDP, Adobe Journey Optimizer 및 이벤트 전달과 같은 모든 Platform 솔루션 전반에 걸쳐 웹 구현을 위한 통합 수집 방법을 제공합니다. 이전까지 스트리밍 미디어 웹 데이터를 Edge Network로 보내는 유일한 방법은 Media Edge API를 사용하는 것이었습니다. <p>[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/edge-web-sdk)</p> | | 2024년 5월 29일 |
-| **기본적으로 낮은 트래픽 임계값 증가** | **2024년 4월 중반**&#x200B;에 Adobe는 기본 보고서 세트 ![낮은 트래픽 임계값](assets/thresholds.png)을 높일 예정입니다. 이는 현재 새 임계값 아래로 설정된 변수에만 영향을 줍니다. 해당 변경 사항은 점진적으로 적용되고, 작업은 **5월 말**&#x200B;에 완료될 예정입니다. 이 증가분이 롤아웃되면 카디널리티가 높은 변수에 대해 변경 사항이 발생할 수 있습니다.<ul><li>추가 차원 값이 보고에 사용할 수 있습니다.</li><li>세그먼트와 계산된 지표에는 추가 데이터가 포함될 수 있습니다.</li><li>세그먼트 기반 가상 보고서 세트에는 추가 데이터가 포함될 수 있습니다.</li><li>분류 내보내기에는 추가 데이터가 포함될 수 있습니다.</li></ul> | 2024년 4월 중반 | 2024년 5월 31일 |
-| **내보내기 및 가져오기에 사용되는 계정 및 위치를 제어하는 &#x200B;&#x200B;관리자 설정** | 관리자는 위치 관리자의 새로운 “관리자 설정” 탭을 통해 사용자가 계정과 위치를 생성하고 편집할 수 있는지 여부를 제어할 수 있습니다. 이러한 설정은 사용자가 클라우드 가져오기 및 내보내기 계정을 구성하고 클라우드 가져오기 및 내보내기 위치를 구성할 때 적용됩니다. <p>관리자는 사용자가 만들고 사용할 수 있는 계정 유형(Google Cloud Platform, Azure RBAC, Amazon S3 등)을 제한할 수도 있습니다.</p><p>이전에는 모든 사용자가 모든 유형의 계정에 대해 계정과 위치를 만들고, 편집하고, 사용할 수 있었습니다.</p><p>자세한 내용은 [회사 전체 설정 구성(관리자만)](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) 위치: [위치 관리자](/help/components/locations/locations-manager.md).</p> | 2024년 6월 12일 | 2024년 6월 30일 |
-| **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정과 위치를 편집하고 삭제할 수 있습니다.<p>이전에는 계정과 위치를 생성한 사용자만 사용할 수 있었습니다.</p><p>이러한 설정은 사용자가 클라우드 가져오기 및 내보내기 계정을 구성하고 클라우드 가져오기 및 내보내기 위치를 구성할 때 사용할 수 있습니다. </p> <p>자세한 내용은 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md).</p> | 2024년 6월 12일 | 2024년 6월 30일 |
+| **자유 형식 테이블의 드롭다운 메뉴에서 사용할 수 있는 경우 여러 필터를 선택합니다** | 여러 필터가 자유 형식 테이블에 드롭다운 메뉴로 추가된 경우 자유 형식 테이블 사용자는 이제 한 번에 두 개 이상의 필터를 선택할 수 있습니다. 자유 형식 테이블은 선택한 필터를 포함하도록 필터링됩니다. 이전에는 필터 드롭다운 메뉴에서 한 번에 하나의 필터만 선택할 수 있었습니다.<p>(참조할 설명서 링크) |  | 2024년 6월 19일 목요일 |
+| **작업 영역 프로젝트의 목차** | 이제 프로젝트에 새 목차를 사용할 수 있습니다. 목차에서는 사용자가 프로젝트 내의 패널 및 시각화로 빠르게 이동할 수 있는 링크를 제공합니다. 목차는 주어진 사용자의 개별 프로젝트 또는 모든 프로젝트에 대해 활성화할 수 있습니다.<p>(참조할 설명서 링크) |  | 2024년 6월 19일 목요일 |
+| **자유 형식 테이블의 차원 항목에 하이퍼링크 추가** | <ul><li>하나 이상의 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 클릭할 수 있도록 할 수 있습니다.</li><li>URL 값이 있는 차원 항목에 대한 하이퍼링크를 만들거나, URL이 아닌 값이 있는 차원 항목에 대한 사용자 지정 URL을 만들 수 있습니다.</li><li>변수를 사용하여 여러 차원 항목에 대한 동적 사용자 지정 URL을 생성할 수 있습니다. 변수는 차원 항목의 값을 참조하거나 분류 차원을 참조할 수 있습니다.</li></ul>(참조할 설명서 링크) |  | 2024년 6월 19일 목요일 |
+| **내보내기 및 가져오기에 사용되는 계정 및 위치를 제어하는 &#x200B;&#x200B;관리자 설정** | 새 항목 [위치 관리자의 &quot;관리자 설정&quot; 탭](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/locations-manager) 은 사용자가 계정 및 위치를 만들고 편집할 수 있는지 여부를 관리자에게 제어합니다. 이 설정은 사용자가 [클라우드 가져오기 및 내보내기 계정 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-accounts) 및 [클라우드 가져오기 및 내보내기 위치 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-locations). <p>관리자는 사용자가 만들고 사용할 수 있는 계정 유형(Google Cloud Platform, Azure RBAC, Amazon S3 등)을 제한할 수도 있습니다.</p><p>이전에는 모든 사용자가 모든 유형의 계정에 대해 계정과 위치를 만들고, 편집하고, 사용할 수 있었습니다.</p> | 2024년 3월 11일 화요일 | 2024년 6월 18일 수요일 |
+| **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정과 위치를 편집하고 삭제할 수 있습니다.<p>이전에는 계정과 위치를 생성한 사용자만 사용할 수 있었습니다.</p><p>이러한 설정은 사용자가 [클라우드 가져오기 및 내보내기 계정을 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-accounts)하고 [클라우드 가져오기 및 내보내기 위치를 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-locations)할 때 사용할 수 있습니다. </p> | 2024년 6월 12일 | 2024년 6월 30일 |
 | **Activity Map에서 Web SDK에 대해 더 적은 서버 호출 사용** | 현재 Activity Map 링크 이벤트는 자체 이벤트로 계산되어 추가 비용이 발생합니다. 이 향상된 기능을 통해 일부 링크 이벤트를 가져와 다음 히트로 패키지화합니다. 이는 AppMeasurement에서 이벤트를 처리하는 방법과 유사합니다. <p>(업데이트된 설명서 링크)</p> | 2024년 6월 19일 오픈 베타 시작 | TBD |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics의 수정 사항
 
-* 다음 분류 문제가 수정되었습니다. AN-343186; AN-344711; AN-344856; AN-345094; AN-345179; AN-346265; AN-345288; AN-346339; AN-346560; AN-347572; AN-347681; AN-347768; AN-348024
-* 다음 Data Warehouse 문제가 수정되었습니다. AN-346789; AN-347031; AN-347568;
-* 다음 데이터 피드 문제가 수정되었습니다. AN-343616, AN-345831, AN-345988, AN-346124, AN-346232, AN-346972, AN-347680, AN-347755, AN-347954
-* 다음 데이터 소스 문제가 수정되었습니다. AN-347890,
-* 다음 Analysis Workspace 문제가 수정되었습니다. AN-321503, AN-343103, AN-343471, AN-345171, AN-345223, AN-345912, AN-346026, AN-346330, AN-346839, AN-347679
-* 다음 A4T 문제가 해결되었습니다. AN-345118,
+* AN-347682, AN-348396, AN-348625, AN-348668, AN-348926, AN-348936, AN-349040, AN-349191, AN-349195, AN-349443, AN-349697, AN-349758, AN-349862, AN-350051, AN-350054, AN-350208, AN-350497, AN-350525, AN-351067, AN-등의 분류 문제가 해결되었습니다
+* AN-346862; AN-349409; AN-349926; AN-350629; AN-350996 Data Warehouse 문제가 해결되었습니다.
+* AN-346727, AN-348282, AN-348334, AN-348725, AN-348726, AN-348823, AN-349081, AN-349207, AN-349307, AN-349539, AN-349710, AN-349729, AN-349742, AN-349878, AN-349943, AN-350527,
+* 다음 데이터 소스 문제가 수정되었습니다. AN-350038
+* Analysis Workspace 문제: AN-342953; AN-346346; AN-349590; AN-349717; AN-350057; AN-350697; AN-350904이 수정되었습니다.
+* AN-348903; AN-350691 Report Builder 문제가 해결되었습니다.
+* 다음 A4T 문제가 수정되었습니다. AN-347690, AN-350853
 
 ### 기타 Analytics 수정 사항
 
-AN-327749, AN-332949, AN-342881, AN-343171, AN-343708, AN-344034, AN-345559, AN-346023, AN-346230, AN-346330, AN-346469, AN-346606, AN-346750, AN-346973, AN-347026, AN-347110, AN-347439
+AN-346470; AN-346850; AN-347227; AN-348145; AN-348564; AN-349001; AN-349008; AN-349211; AN-349719; AN-350523;
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
@@ -68,7 +67,7 @@ AppMeasurement 릴리스(버전 2.26.0)에 대한 최신 업데이트는 [JavaSc
 
 ## 관련 리소스
 
-* [2023년 이전 릴리스 정보](/help/release-notes/2023.md)
+* [2024년 이전 릴리스 정보](/help/release-notes/2024.md)
 * [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/releases/latest.html?lang=ko-KR)
 * [Media Analytics 릴리스 정보](https://experienceleague.adobe.com/ko/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-KR)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
