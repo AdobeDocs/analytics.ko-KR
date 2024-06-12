@@ -3,9 +3,9 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ed7ccd23b850cda3a0bb695fdc8daee56643c33d
+source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '987'
 ht-degree: 56%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 56%
 | ----------- | ---------- | ------- | ---- |
 | **자유 형식 테이블의 드롭다운 메뉴에서 사용할 수 있는 경우 여러 필터를 선택합니다** | 여러 필터가 자유 형식 테이블에 드롭다운 메뉴로 추가된 경우 자유 형식 테이블 사용자는 이제 한 번에 두 개 이상의 필터를 선택할 수 있습니다. 자유 형식 테이블은 선택한 필터를 포함하도록 필터링됩니다. 이전에는 필터 드롭다운 메뉴에서 한 번에 하나의 필터만 선택할 수 있었습니다.<p>(참조할 설명서 링크) |  | 2024년 6월 19일 목요일 |
 | **작업 영역 프로젝트의 목차** | 이제 프로젝트에 새 목차를 사용할 수 있습니다. 목차에서는 사용자가 프로젝트 내의 패널 및 시각화로 빠르게 이동할 수 있는 링크를 제공합니다. 목차는 주어진 사용자의 개별 프로젝트 또는 모든 프로젝트에 대해 활성화할 수 있습니다.<p>(참조할 설명서 링크) |  | 2024년 6월 19일 목요일 |
-| **자유 형식 테이블의 차원 항목에 하이퍼링크 추가** | <ul><li>하나 이상의 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 클릭할 수 있도록 할 수 있습니다.</li><li>URL 값이 있는 차원 항목에 대한 하이퍼링크를 만들거나, URL이 아닌 값이 있는 차원 항목에 대한 사용자 지정 URL을 만들 수 있습니다.</li><li>변수를 사용하여 여러 차원 항목에 대한 동적 사용자 지정 URL을 생성할 수 있습니다. 변수는 차원 항목의 값을 참조하거나 분류 차원을 참조할 수 있습니다.</li></ul>(참조할 설명서 링크) |  | 2024년 6월 19일 목요일 |
-| **내보내기 및 가져오기에 사용되는 계정 및 위치를 제어하는 &#x200B;&#x200B;관리자 설정** | 새 항목 [위치 관리자의 &quot;관리자 설정&quot; 탭](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/locations-manager) 은 사용자가 계정 및 위치를 만들고 편집할 수 있는지 여부를 관리자에게 제어합니다. 이 설정은 사용자가 [클라우드 가져오기 및 내보내기 계정 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-accounts) 및 [클라우드 가져오기 및 내보내기 위치 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-locations). <p>관리자는 사용자가 만들고 사용할 수 있는 계정 유형(Google Cloud Platform, Azure RBAC, Amazon S3 등)을 제한할 수도 있습니다.</p><p>이전에는 모든 사용자가 모든 유형의 계정에 대해 계정과 위치를 만들고, 편집하고, 사용할 수 있었습니다.</p> | 2024년 3월 11일 화요일 | 2024년 6월 18일 수요일 |
+| **자유 형식 테이블의 차원 항목에 대한 하이퍼링크 만들기** | 하나 이상의 차원 항목에 대한 하이퍼링크를 만들어 Analysis Workspace의 자유 형식 테이블 내에서 클릭할 수 있도록 할 수 있습니다. <p>URL 값이 있는 차원 항목에 대한 하이퍼링크를 만들거나, URL이 아닌 값이 있는 차원 항목에 대한 사용자 지정 URL을 만들 수 있습니다.</p><p>변수를 사용하여 여러 차원 항목에 대한 동적 사용자 지정 URL을 생성할 수 있습니다. 변수는 차원 항목의 값을 참조하거나 분류 차원을 참조할 수 있습니다.</p><p>(참조할 설명서 링크)<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | 2024년 6월 19일 목요일 |
+| **내보내기 및 가져오기에 사용되는 계정 및 위치를 제어하는 &#x200B;&#x200B;관리자 설정** | 새 항목 [위치 관리자의 &quot;관리자 설정&quot; 탭](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) 은 사용자가 계정 및 위치를 만들고 편집할 수 있는지 여부를 관리자에게 제어합니다. 이 설정은 사용자가 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md). <p>관리자는 사용자가 만들고 사용할 수 있는 계정 유형(Google Cloud Platform, Azure RBAC, Amazon S3 등)을 제한할 수도 있습니다.</p><p>이전에는 모든 사용자가 모든 유형의 계정에 대해 계정과 위치를 만들고, 편집하고, 사용할 수 있었습니다.</p> | 2024년 6월 12일 | 2024년 6월 30일 |
 | **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정과 위치를 편집하고 삭제할 수 있습니다.<p>이전에는 계정과 위치를 생성한 사용자만 사용할 수 있었습니다.</p><p>이러한 설정은 사용자가 [클라우드 가져오기 및 내보내기 계정을 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-accounts)하고 [클라우드 가져오기 및 내보내기 위치를 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-locations)할 때 사용할 수 있습니다. </p> | 2024년 6월 12일 | 2024년 6월 30일 |
 | **Activity Map에서 Web SDK에 대해 더 적은 서버 호출 사용** | 현재 Activity Map 링크 이벤트는 자체 이벤트로 계산되어 추가 비용이 발생합니다. 이 향상된 기능을 통해 일부 링크 이벤트를 가져와 다음 히트로 패키지화합니다. 이는 AppMeasurement에서 이벤트를 처리하는 방법과 유사합니다. <p>(업데이트된 설명서 링크)</p> | 2024년 6월 19일 오픈 베타 시작 | TBD |
 
