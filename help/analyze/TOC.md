@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 100%
+source-wordcount: '1005'
+ht-degree: 99%
 
 ---
 
@@ -152,9 +152,9 @@ ht-degree: 100%
       + [예외 항목 탐지에서 사용된 통계 기법](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + 지능형 경고 {#intelligent-alerts}
          + [지능형 경고 개요](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-         + [경고 빌더](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [경고 관리자](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-         + [지능형 경고 - 사용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+         + [경고 만들기](analysis-workspace/c-intelligent-alerts/alert-builder.md)
+         + [경고 관리](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+         + [사용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
    + 작업 영역 FAQ {#workspace-faq}
       + [자주 묻는 질문](analysis-workspace/workspace-faq/faq.md)

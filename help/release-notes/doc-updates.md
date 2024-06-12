@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
-workflow-type: ht
-source-wordcount: '5562'
-ht-degree: 100%
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+workflow-type: tm+mt
+source-wordcount: '5586'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 6월** | |
+| 향상된 지능형 경고 설명서 | 경고에 대한 설명서가 업데이트 및 개선되었습니다. 이러한 업데이트에는 다음에 대한 정보가 포함됩니다. [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [경고 관리](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), 및 [개요 정보](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | **2024년 5월** | |
 | 데이터 피드 및 데이터 웨어하우스에서 Google Cloud Platform과 함께 조직 정책 제한 사항을 사용할 때 필요한 정보 | Adobe 소유의 Google Cloud Platform 조직 ID가 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 및 [데이터 웨어하우스](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 설명서에 추가되었습니다. <p>이 정보는 Google Cloud Platform에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하는 조직에만 필요합니다.</p> |
 | 프로젝트에 구성 요소를 추가하는 방법에 대한 설명서 | [Analysis Workspace에서 프로젝트에 다양한 유형의 구성 요소를 추가](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)하는 방법에 대한 일반 정보가 추가되었습니다. |
