@@ -4,10 +4,10 @@ title: 경고 빌더 (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 43%
+source-wordcount: '613'
+ht-degree: 40%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 43%
 >
 >지능형 경고는 Adobe Analytics Prime 및 Adobe Analytics Ultimate 고객만 사용할 수 있습니다.
 
-Adobe Analytics의 지능형 경고(또는 &quot;경고&quot;)를 사용하면 데이터에서 비정상 이벤트가 발생할 때 즉시 알림을 받을 수 있습니다.
+Adobe Analytics의 지능형 경고(또는 &quot;경고&quot;)를 사용하면 데이터에서 비정상 이벤트가 발생할 때 즉시 알림을 받을 수 있습니다. (서버 호출 사용량 경고는 Analytics 관리자만 사용할 수 있는 다른 종류의 경고입니다. 이러한 경고는 서버 호출 사용량 및 약정 데이터의 초과 위험이나 발생을 알려줍니다. 자세한 내용은 [서버 호출 사용량 경고](/help/admin/admin/c-server-call-usage/scu-alerts.md).)
 
 지능형 경고에 대한 자세한 개요 정보는 다음을 참조하십시오. [지능형 경고 개요](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-경고를 만들려면 다음 작업을 수행하십시오.
+지능형 경고를 생성하려면 다음을 수행합니다.
 
 1. 경고 빌더에 액세스하여 경고 만들기를 시작합니다. 다음 방법 중 하나로 경고 빌더에 액세스할 수 있습니다.
 
@@ -32,7 +32,7 @@ Adobe Analytics의 지능형 경고(또는 &quot;경고&quot;)를 사용하면 �
    * Analysis Workspace에서 프로젝트를 열고 자유 형식 테이블에서 하나 이상의 라인 항목을 선택한 다음 마우스 오른쪽 단추를 클릭하고 을 선택합니다 **[!UICONTROL 선택 항목으로 경고 만들기]**.
 
      이렇게 하면 즉시 경고 빌더가 미리 채워져서 올바른 지표와 필터로 경고를 만듭니다.
-   * Adobe Analytics에서 **[!UICONTROL 구성 요소]** > [!UICONTROL **경고**] > **[!UICONTROL 새 경고 만들기]**.
+   * 경고 만들기 [경고 관리자에서](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#create-alerts).
 
    경고 빌더가 표시됩니다. 이 인터페이스는 Analytics에 세그먼트 또는 계산된 지표를 만든 사용자에게 익숙합니다.
 

@@ -4,10 +4,10 @@ title: 경고 관리자 (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: d6d42b079a013eb5608ad85ae311d8bf0f7a5d21
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 9%
+source-wordcount: '327'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,22 @@ ht-degree: 9%
 
 1. 선택 [!UICONTROL **추가**] (또는 [!UICONTROL **새 경고 만들기**] 기존 경고가 없는 경우)입니다.
 
-1. 계속 [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) 경고 만들기에 대한 자세한 내용은 을 참조하십시오.
+1. 생성하려는 경고에 해당하는 경고 유형을 선택합니다.
+
+   * [!UICONTROL **Analytics 데이터 경고**]: 데이터에서 비정상 이벤트가 발생하는 경우 알려 주는 경고입니다.
+
+     이 옵션을 선택하는 경우 다음을 계속합니다. [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) 경고 만들기에 대한 자세한 내용은 을 참조하십시오.
+
+   * [!UICONTROL **서버 호출 사용량 경고**]: 서버 호출 사용량 및 약정 데이터에서 초과의 위험 또는 발생을 알리는 경고입니다.
+
+     이 옵션을 선택하는 경우 다음을 계속합니다. [서버 호출 사용량 경고](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >서버 호출 사용량에 액세스하려면 Analytics 관리자이거나 서버 호출 사용 권한이 있는 사용자여야 합니다.
+
+
+
 
 ## 기존 경고 관리
 
