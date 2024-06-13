@@ -3,7 +3,7 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
+source-git-commit: d28dee410fe5ea7fec65dfc9e86f9d8a3c242d13
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 57%
@@ -12,7 +12,7 @@ ht-degree: 57%
 
 # 최신 Adobe Analytics 릴리스 정보 (2024년 6월)
 
-**마지막 업데이트**: 2024년 6월 12일 목요일
+**마지막 업데이트**: 2024년 6월 13일 금요일
 
 이 릴리스 정보는 2024년 6월 12일부터 7월까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
