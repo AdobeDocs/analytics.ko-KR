@@ -4,7 +4,7 @@ title: 지능형 경고 개요
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: a012aca08740428671f216793dbd12aa15f21448
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 52%
@@ -39,7 +39,7 @@ Adobe Analytics의 지능형 경고(또는 &quot;경고&quot;)를 사용하면 �
 
 ## 경고 만들기
 
-Adobe Analytics에서 경고를 만드는 방법에 대한 자세한 내용은 [경고 만들기](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+Adobe Analytics에서 경고를 만드는 방법에 대한 자세한 내용은 [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
 >[!IMPORTANT]
 >

@@ -3,9 +3,9 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요�
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1398'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 >
 >이 섹션에 설명된 대로 프로젝트를 Customer Journey Analytics으로 마이그레이션하기 전에 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->매핑하는 모든 차원 또는 지표는 이 프로젝트 및 전체 IMS 조직 전체에서 마이그레이션되는 향후 모든 프로젝트에 대해 영구적입니다. 마이그레이션이 완료된 후에는 모든 매핑을 수정할 수 없습니다.
+>**매핑하는 모든 차원 또는 지표는 마이그레이션을 수행하는 사용자에 관계없이 이 프로젝트 및 전체 IMS 조직 전체에서 마이그레이션되는 향후 모든 프로젝트에 대해 영구적입니다. 이러한 매핑은 고객 지원 센터에 문의하는 경우를 제외하고는 수정하거나 취소할 수 없습니다.**
 
 1. Adobe Analytics에서 [!UICONTROL **관리**] 탭을 선택한 다음 [!UICONTROL **모든 관리자**]&#x200B;를 선택합니다.
 
