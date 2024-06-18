@@ -5,10 +5,10 @@ title: 프로젝트 개요
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 08f3926bfa621ce3678da6db0f0a30ac5302b757
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 81%
+source-wordcount: '1392'
+ht-degree: 72%
 
 ---
 
@@ -53,7 +53,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 | 마지막 수정일 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
 | 마지막으로 연 날짜 | 프로젝트를 마지막으로 연 날짜 및 시간입니다. |
 | 프로젝트 ID | 프로젝트의 ID입니다. |
-| Longest Date Range | 프로젝트의 가장 긴 날짜 범위입니다. |
+| 가장 긴 날짜 범위 | 프로젝트의 가장 긴 날짜 범위입니다. |
 | 쿼리 개수 | 프로젝트에 포함된 총 쿼리 수입니다. |
 | 위치 | 프로젝트가 있는 폴더입니다. |
 
@@ -75,7 +75,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ### 프로젝트 정보 및 설정 {#info-settings}
 
-**[!UICONTROL 작업 영역]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]** 은 현재 활성화된 프로젝트에 대한 프로젝트 수준 정보를 제공합니다.
+**[!UICONTROL 작업 영역]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]** 는 현재 활성화된 프로젝트에 대한 프로젝트 수준 정보를 제공합니다.
 
 ![](assets/projectinfo.png)
 
@@ -94,13 +94,23 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ## 왼쪽 레일 {#left-rail}
 
-프로젝트 내에서 [패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR), 테이블, [시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR), [구성 요소](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ko-KR)는 왼쪽 레일에서 액세스됩니다. 이는 프로젝트 구성 요소입니다.
+프로젝트 내에서 왼쪽 레일에서 다양한 아이콘을 사용할 수 있으며, 각 아이콘은 프로젝트의 중요한 부분을 나타냅니다.
 
-[빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)에서도 시각화 및 패널에 액세스할 수 있습니다.
+* [패널](/help/analyze/analysis-workspace/c-panels/panels.md) ![패널 아이콘](assets/panels-icon.png)
 
-왼쪽 레일의 구성 요소 (차원, 지표, 세그먼트, 날짜 범위)는 활성 패널 보고서 세트와 관련되어 있습니다. 활성 패널 주위에 파란색 테두리가 있고 활성 보고서 세트가 구성 요소 레일의 맨 위에 나열됩니다.
+* [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![시각화 아이콘](assets/visualizations-icon.png)
 
-![](assets/left-rail.png)
+* [구성 요소](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)![구성 요소 아이콘](assets/components-icon.png)
+
+* [데이터 사전](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)![데이터 사전 아이콘](assets/data-dictionary-icon.png)
+
+* [목차](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![목차 아이콘](assets/toc-icon.png)
+
+왼쪽 레일의 구성 요소 (차원, 지표, 필터, 날짜 범위)는 활성 패널 데이터 보기와 관련되어 있습니다. 활성 패널은 그 주변을 둘러싸는 파란색 테두리로 식별되며 활성 데이터 보기는 구성 요소 레일의 맨 위에 나열됩니다.
+
+![산업 간 데모 데이터 보기를 위한 활성 패널 데이터 보기와 관련된 구성 요소입니다.](assets/left-rail.png)
+
+
 
 ## 마우스 오른쪽 버튼 클릭 메뉴
 
@@ -130,7 +140,7 @@ Analysis Workspace 프로젝트는 **[!UICONTROL Analytics] > [!UICONTROL 구성
 
 다음은 프로젝트 관리자의 일반적인 작업이며 한 번에 하나 이상의 프로젝트에서 수행할 수 있습니다.
 
-| 작업 | 설명 |
+| 액션 | 설명 |
 |---|---|
 | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 | 새 프로젝트를 처음부터 만들거나 [보고서](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 태그 또는 승인 | 프로젝트를 구성하고 쉽게 검색할 수 있도록 하려면 &quot;태그&quot; 또는 &quot;승인&quot;을 선택하십시오. |

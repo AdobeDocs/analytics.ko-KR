@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 99%
       + [프로젝트 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 만들기](analysis-workspace/build-workspace-project/create-projects.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
+      + [프로젝트 목차](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + 작업 영역의 폴더 {#workspace-folders}
          + [작업 영역의 폴더 정보](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 및 하위 폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -78,6 +79,7 @@ ht-degree: 99%
       + [데이터 소스 관리](analysis-workspace/visualizations/t-sync-visualization.md)
       + 자유 형식 테이블 {#freeform-table}
          + [자유 형식 테이블](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [자유 형식 테이블에서 차원에 대한 하이퍼링크 만들기](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 열 및 행 설정 {#column-row-settings}
             + [열 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [행 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
