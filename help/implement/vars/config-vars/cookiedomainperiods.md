@@ -4,10 +4,10 @@ description: (사용 안 함) 웹 사이트의 최상위 도메인에 마침표�
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: c7e525b68898a6663f3b40e2293f959d4bd129b2
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 19%
+source-wordcount: '372'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,13 @@ ht-degree: 19%
 # cookieDomainPeriods
 
 >[!IMPORTANT]
->이 변수는 더 이상 사용되지 않습니다. AppMeasurement v2.26.x 이상 또는 Adobe Analytics 확장 v1.9.4 이상을 사용하는 경우 라이브러리는 쿠키를 설정할 도메인을 자동으로 감지합니다.
+>이 변수는 더 이상 사용되지 않습니다. 다음 중 하나를 사용하는 경우
+>
+>* AppMeasurement v2.26.x 이상
+>* Adobe Analytics 확장 v1.9.4 이상
+>* Adobe Experience Cloud ID 서비스
+>
+>해당 라이브러리는 쿠키를 설정할 도메인을 자동으로 감지하므로 이 변수는 아무 작업도 하지 않습니다.
 
 다음 `cookieDomainPeriods` 변수는 AppMeasurement이 최상위 도메인에 추가 기간이 있음을 표시하여 Analytics 쿠키를 설정할 위치를 결정하는 데 도움이 되었습니다. 이 변수를 사용하면 AppMeasurement이 최상위 도메인의 추가 기간을 수용하고 올바른 위치에 쿠키를 설정할 수 있습니다. 웹 사이트의 최상위 도메인에 추가 기간이 포함되지 않은 경우 이 변수는 필요하지 않습니다.
 
