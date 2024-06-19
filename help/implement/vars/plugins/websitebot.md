@@ -4,10 +4,10 @@ description: 마우스 움직임을 사용하여 동적으로 보트를 식별�
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Analytics 추적 오브젝트가 인스턴스화 ([`s_gi`](../functions/s-gi.md)
 
 ## 플러그인 사용
 
-`websiteBot` 플러그인은 비봇 트래픽이 감지되면 `s.tl` 호출을 실행합니다.
+다음 `websiteBot` 플러그인이 다음을 실행합니다. `s.tl` 비봇 트래픽이 감지되면 를 호출합니다.
 
 ## 예
 

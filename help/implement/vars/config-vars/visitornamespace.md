@@ -1,13 +1,13 @@
 ---
 title: visitorNameSpace
-description: 쿠키 도메인을 결정하던 폐기된 변수입니다.
+description: (중단됨) 서드파티 쿠키 도메인을 확인하는 데 도움이 되었습니다.
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 

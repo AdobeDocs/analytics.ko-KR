@@ -4,10 +4,10 @@ description: 방문자가 본 페이지의 비율을 검색합니다.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -117,7 +117,7 @@ if(_ppvPreviousPage)
 
 ### 5.0.1 (2021년 6월 22일)
 
-* 일부 특수 문자로 인해 플러그인이 중단되는 문제가 해결되었습니다.
+* 특정 특수 문자로 인해 플러그인이 중단되는 문제가 해결되었습니다.
 
 ### 5.0 (2021년 3월 19일)
 

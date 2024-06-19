@@ -4,10 +4,10 @@ description: URL의 쿼리 문자열 매개 변수의 값을 추출합니다.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 74%
+source-wordcount: '760'
+ht-degree: 73%
 
 ---
 
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (2021년 3월 19일)
 
 * 버전 번호를 컨텍스트 데이터로 추가했습니다.
-* pt 플러그인에 대한 종속성이 제거되었습니다.
+* 에 대한 종속성 제거됨 `pt` 플러그인입니다.
 
 ### 3.3 (2019년 9월 24일)
 

@@ -3,7 +3,7 @@ title: Adobe Analytics에서 체류 시간을 계산하는 방법
 description: 체류 시간 차원 및 지표가 집계된 페이지입니다.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 72%
@@ -24,7 +24,7 @@ ht-degree: 72%
 | [!UICONTROL 체류 시간/사용자(상태)] | 대략 *총 모바일 앱 체류 시간(초) / 고유 모바일 앱 방문자 수*<br>&#x200B;모바일 앱 방문자가 방문자의 라이프타임(해당 쿠키 길이) 동안 특정 차원 항목과 상호 작용하는 평균 시간을 나타냅니다. **참고**: 이 함수의 분모가 내부 지표이므로 이 지표를 독립적으로 계산할 수 없습니다. | Analysis Workspace |
 | [!UICONTROL 사이트에서 보낸 평균 시간]  (초) | 방문자가 특정 차원 항목과 상호 작용하는 총 시간 (차원 항목 시퀀스당)을 나타냅니다. 이름에서 알 수 있듯이 &quot;사이트&quot; 평균으로 제한되지 않습니다. 시퀀스에 대한 자세한 내용은 &quot;체류 시간 계산 방법 섹션&quot;을 참조하십시오.<br>**참고**: 이 지표는 계산에 사용된 분모의 차이로 인해 차원 항목 수준에서 &#39;방문당 체류 시간&#39;과 다를 수 있습니다. | Analysis Workspace, Report Builder(분 단위로 표시됨) |
 | [!UICONTROL 사이트의 평균 시간] | 이는 과 동일한 지표입니다. *사이트에서 보낸 평균 시간(초)*, 시간 ( )으로 포맷된 경우 제외`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL 페이지에서 보낸 평균 시간] | 더 이상 사용되지 않는 지표.<br> 대신, 차원 항목에 대한 평균 시간이 필요한 경우 &#39;사이트에서 보낸 평균 시간&#39;을 사용하는 것이 좋습니다. | Report Builder (요청에 차원이 있을 때) |
+| [!UICONTROL 페이지에서 보낸 평균 시간] | 더 이상 사용되지 않는 지표.<br> 대신, Adobe 항목에 대한 평균 시간이 필요한 경우 &#39;사이트에서 보낸 평균 시간&#39;을 사용하는 것이 좋습니다. | Report Builder (요청에 차원이 있을 때) |
 | [!UICONTROL 총 세션 길이], [!UICONTROL 이전 세션 길이]라고도 함 | Mobile 앱 SDK만 해당. <br>다음번에 앱을 시작할 때 이전 세션에 대해 결정됩니다. 초 단위로 계산되는 이 지표는 앱이 배경에 있을 때에는 계산되지 않고, 사용 중인 경우에만 계산됩니다. 세션 수준 지표입니다.<br>예: 앱 ABC를 설치하고 2분 동안 사용한 다음 앱을 닫습니다. 이 세션 시간에 전송된 데이터는 없습니다. 다음에 앱을 실행할 때 [!UICONTROL 이전 세션 길이]는 120이라는 값으로 전송됩니다. | Analysis Workspace, Report Builder, Mobile Services UI |
 | [!UICONTROL 평균 세션 길이]  (모바일) | *총 세션 길이 /  (시작 - 첫 번째 시작)*<br> Mobile 앱 SDK만 해당. 세션 수준 지표입니다. | Report Builder, Mobile Services UI |
 

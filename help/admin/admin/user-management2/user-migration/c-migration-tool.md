@@ -4,9 +4,9 @@ title: Admin Console로 Analytics 사용자 마이그레이션
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3084'
 ht-degree: 98%
 
 ---
@@ -269,7 +269,7 @@ Adobe Admin Console 사용의 이점은 다음과 같습니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>다른 계정으로 로그인 </p> </td> 
-   <td colname="col2"> <p> Adobe Admin Console로 마이그레이션하는 관리자는 더 이상 “다른 계정으로 로그인” 기능을 사용하여 Adobe Admin Console로 마이그레이션된 비관리자 사용자 계정에 액세스할 수 없습니다. 이 기능은 Analytics에서 지원이 중단될 예정입니다. </p> </td> 
+   <td colname="col2"> <p> Adobe Admin Console로 마이그레이션하는 관리자는 더 이상 “다른 계정으로 로그인” 기능을 사용하여 Adobe Admin Console로 마이그레이션된 비관리자 사용자 계정에 액세스할 수 없습니다. 이 기능은 중단되었습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 만료 및 에셋 이전 </p> </td> 

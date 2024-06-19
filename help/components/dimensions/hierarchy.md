@@ -1,12 +1,12 @@
 ---
 title: 계층
-description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
+description: (중단됨) 보고에 사용할 수 있는 사용자 지정 차원입니다.
 feature: Dimensions
 exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 92%
+source-wordcount: '167'
+ht-degree: 86%
 
 ---
 

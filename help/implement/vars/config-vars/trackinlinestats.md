@@ -1,13 +1,13 @@
 ---
 title: trackInlineStats
-description: 구현에서 ClickMap을 활성화하거나 비활성화합니다.
+description: (중단됨) 구현에서 ClickMap을 활성화하거나 비활성화합니다.
 keywords: clickmap 비활성화
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '192'
 ht-degree: 30%
 
 ---

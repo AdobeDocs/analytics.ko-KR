@@ -1,13 +1,13 @@
 ---
 title: state
-description: Reports and Analytics에서 '방문자 주 보고서'를 채웁니다.
+description: (중단됨) 더 이상 사용할 수 없는 '방문자 상태 보고서'가 채워졌습니다.
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 93%
+source-wordcount: '225'
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->이 변수는 사용이 중단되었으며 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. AppMeasurement가 방문자의 위치를 기반으로 자동으로 수집하는 &#39;미국 주&#39; 차원을 대신 사용하십시오.
+>이 변수는 사용이 중단되었으며 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. 사용 [미국 주](/help/components/dimensions/us-states.md) AppMeasurement이 방문자의 위치를 기반으로 자동으로 수집하는 차원입니다.
 
 이전 버전의 Adobe Analytics에서는 방문자가 소매 사이트에서 배송 정보를 입력할 때 `state` 변수가 사용되었습니다. 이 변수는 기능적으로 prop과 동일하지만 Analysis Workspace에서 사용할 수는 없습니다.
 

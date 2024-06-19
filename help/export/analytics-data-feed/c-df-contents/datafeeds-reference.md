@@ -5,7 +5,7 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '3928'
 ht-degree: 99%
@@ -68,7 +68,7 @@ ht-degree: 99%
 | **`daily_visitor`** | 히트가 새 일일 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | **`dataprivacyconsentoptin`** | [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md) 차원에서 사용되는 변수입니다. 히트 당 여러 값이 있을 수 있으며 파이프(`\|`)로 구분됩니다. 유효한 값은 `DMP`, `SELL`입니다. | varchar (100) |
 | **`dataprivacyconsentoptout`** | [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md) 차원에서 사용되는 변수입니다. 히트 당 여러 값이 있을 수 있으며 파이프(`\|`)로 구분됩니다. 유효한 값은 `SSF`, `DMP`, `SELL`입니다. | varchar (100) |
-| **`dataprivacydmaconsent`** | Adobe Advertising을 통해 Adobe Analytics에서 서드파티 광고 공급자(Google 등)로 데이터를 전송하는 데 동의하는지 여부를 식별하는 값입니다. 다음을 참조하십시오 [광고 동의](/help/components/dimensions/ad-consent.md) 추가 정보. | varchar (100) |
+| **`dataprivacydmaconsent`** | Adobe Analytics에서 Adobe Advertising을 통해 서드파티 광고 제공자(예: Google)로 데이터를 전송하기 위한 동의를 얻었는지 식별하는 값입니다. 자세한 내용은 [광고 동의](/help/components/dimensions/ad-consent.md)를 참조하십시오. | varchar (100) |
 | **`date_time`** | 보고서 세트의 시간대를 기반으로 한 읽을 수 있는 형식으로 된 히트 시간입니다. | datetime |
 | **`domain`** | [도메인](/help/components/dimensions/domain.md) 차원에 사용되는 변수입니다. 방문자의 인터넷 액세스 포인트를 기반으로 합니다. | varchar (100) |
 | **`duplicate_events`** | 중복으로 카운트된 각 이벤트를 나열합니다. | varchar (255) |
@@ -161,7 +161,7 @@ ht-degree: 99%
 | **`namespace`** | 사용되지 않습니다. 스크랩된 기능 일부입니다. | varchar (50) |
 | **`new_visit`** | 현재 히트가 새 방문인지를 판별하는 플래그입니다. 30분 동안 방문 활동이 없으면 Adobe 서버에 의해 설정됩니다. | tinyint 부호 없음 |
 | **`os`** | 방문자의 운영 체제를 나타내는 숫자 ID입니다. `user_agent` 열을 기반으로 합니다. `operating_system.tsv` 표준 조회 및 `operating_system_type.tsv` [동적 조회](dynamic-lookups.md)의 키 값입니다. | int 부호 없음 |
-| **`p_plugins`** | 더 이상 사용되지 않습니다. 브라우저에 사용할 수 있는 플러그인 목록. JavaScript 함수 `navigator.plugins()`를 사용합니다. | 텍스트 |
+| **`p_plugins`** | 더 이상 사용되지 않습니다. 브라우저에서 사용할 수 있는 플러그인 목록입니다. JavaScript 함수 `navigator.plugins()`를 사용합니다. | 텍스트 |
 | **`page_event`** | 이미지 요청(표준 히트, 다운로드 링크, 사용자 정의 링크, 종료 링크)에서 전송된 히트 유형입니다. [페이지 이벤트 조회](datafeeds-page-event.md)를 참조하십시오. | tinyint 부호 없음 |
 | **`page_event_var1`** | 링크 추적 이미지 요청에서만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 정의 링크의 URL입니다. | 텍스트 |
 | **`page_event_var2`** | 링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 정의 이름(지정된 경우)입니다. | varchar (100) |
@@ -173,7 +173,7 @@ ht-degree: 99%
 | **`paid_search`** | 히트가 유료 검색 발견과 일치하는 경우 설정되는 플래그입니다. | tinyint 부호 없음 |
 | **`partner_plugins`** | 사용되지 않습니다. 스크랩된 기능 일부입니다. | varchar (255) |
 | **`persistent_cookie`** | [영구적 쿠키 지원](/help/components/dimensions/persistent-cookie-support.md) 차원에 사용되는 변수입니다. 방문자가 각 히트 후 삭제되지 않은 쿠키를 지원하는지 여부를 나타냅니다. | char (1) |
-| **`plugins`** | 더 이상 사용되지 않습니다. 브라우저 내에서 사용할 수 있는 플러그인에 해당하는 숫자 ID의 목록입니다. `plugins.tsv` 조회를 사용합니다. | varchar (180) |
+| **`plugins`** | 더 이상 사용되지 않습니다. 브라우저 내에서 사용할 수 있는 플러그인에 해당하는 숫자 ID 목록입니다. `plugins.tsv` 조회를 사용합니다. | varchar (180) |
 | **`pointofinterest`** | Mobile Services 관심 영역 이름 | varchar (255) |
 | **`pointofinterestdistance`** | Mobile Services 관심 영역 중앙까지의 거리 | varchar (255) |
 | **`post_`** 열 | 보고서에서 최종적으로 사용되는 값을 포함합니다. 각 이후 열은 서버측 논리, 처리 규칙 및 VISTA 규칙 다음에 채워집니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다. | 각각의 이후가 아닌 열을 참조하십시오. |
