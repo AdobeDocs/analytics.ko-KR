@@ -3,9 +3,10 @@ title: Analysis Workspace의 자유 형식 테이블에 하이퍼링크 만들�
 description: Analysis Workspace의 자유 형식 테이블에서 차원 항목에 대한 하이퍼링크를 만드는 방법을 알아봅니다
 feature: Freeform Tables
 role: User, Admin
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
+source-git-commit: 00a0288616401045585f70c768a20fc122e584c9
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -35,6 +36,8 @@ ht-degree: 0%
   잘못된 URL이 있는 하이퍼링크를 만들거나 URL 값이 없는 차원 항목을 참조하는 하이퍼링크를 만드는 경우(차원 항목을 직접 참조하거나 `$value` 또는 `$breakdown` 변수)를 클릭하면 하이퍼링크를 클릭하는 사용자에게 URL이 유효하지 않다는 오류 메시지가 표시됩니다.
 
 * 단일 차원 항목에 대해 생성된 하이퍼링크는 차원에 생성된 하이퍼링크를 덮어씁니다.
+
+* 하이퍼링크가에서 작동하지 않음 [다운로드한 PDF 파일](/help/analyze/analysis-workspace/curate-share/download-send.md).
 
 하나 이상의 차원 항목에 대한 하이퍼링크를 생성하려면 다음을 수행합니다.
 
@@ -130,4 +133,3 @@ ht-degree: 0%
    하이퍼링크는 단일 차원 항목(단일 차원 항목을 선택한 경우) 또는 모든 차원 항목(차원 열 헤더에서 차원 이름을 선택한 경우)에서 제거됩니다.
 
 1. [프로젝트 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) 변경 사항을 저장합니다.
-
