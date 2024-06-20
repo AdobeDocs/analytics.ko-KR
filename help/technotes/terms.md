@@ -3,10 +3,10 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
 workflow-type: tm+mt
-source-wordcount: '2541'
-ht-degree: 99%
+source-wordcount: '2528'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 * **고객 속성:** 속성 데이터를 업로드할 수 있는 Experience Cloud 기능입니다. 핵심 서비스 사용 안내서에서 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)을 참조하십시오.
 * **고객 지원 담당자:** Adobe 고객 지원 팀과 직접 상호 작용할 수 있는 권한이 있는 지정된 사용자입니다. Experience Cloud 기술 자료에서 [고객 지원 담당자](https://helpx.adobe.com/kr/experience-cloud/supported-users.html)를 참조하십시오.
 * **데이터 수집 서버:** 데이터를 받고 처리하는 Adobe 소유 서버입니다. 이미지 요청은 보고에 사용하기 위해 Adobe의 데이터 수집 서버로 전송됩니다.
-* **Data Connectors:** 서드파티에서 Adobe Analytics로 데이터 업로드를 자동화할 수 있는 완벽한 개발 솔루션입니다. 해당 서드파티 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. 대부분의 Data Connectors는 데이터 소스에 사용되는 유사한 워크플로를 사용합니다. 가져오기 사용 안내서의 [Data Connectors](/help/import/data-connectors/data-connectors-eol.md)를 참조하십시오.
+* **Data Connectors:** 타사에서 Adobe Analytics으로 데이터 업로드를 자동화할 수 있는 폐기된 개발 솔루션입니다. 해당 서드파티 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. Adobe Exchange 마켓플레이스로 대체되었습니다.
 * **데이터 피드:** 모든 히트를 행으로 나열하고 변수를 별도의 열로 나열하는 원시 데이터 내보내기입니다. Adobe Analytics 데이터를 서드파티 데이터베이스로 내보내는 데 가장 일반적으로 사용됩니다. 내보내기 사용 안내서에서 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)를 참조하십시오.
 * **데이터 소스:** 사용자가 파일의 데이터를 Adobe Analytics에 업로드할 수 있습니다. 파일은 일반적으로 FTP 사이트에서 가져옵니다. 가져오기 사용 안내서에서 [데이터 소스](/help/import/data-sources/overview.md)를 참조하십시오.
 * **Data Warehouse:** 더 큰 보고서를 요청할 수 있는 Adobe Analytics의 기능입니다. 내보내기 사용 안내서에서 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)를 참조하십시오.

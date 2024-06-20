@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 9a44c2df3cb65a23c0e38a8af3892d045a279818
 workflow-type: tm+mt
-source-wordcount: '5586'
+source-wordcount: '5617'
 ht-degree: 99%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 99%
 | --- | --- |
 | **2024년 6월** | |
 | 개선된 지능형 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [경고 관리](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) 및 [정보 개요](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)에 대한 정보가 포함되어 있습니다. |
+| 더 이상 사용되지 않음 `cookieDomainPeriods` | 이제 AppMeasurement이 쿠키를 설정할 올바른 도메인을 자동으로 검색하므로 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 변수는 더 이상 사용되지 않습니다. |
+| Data Connectors 설명서 중단 | Data Connectors 서비스 종료 페이지를 다음으로 이동 [단종된 제품](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
 | **2024년 5월** | |
 | 데이터 피드 및 데이터 웨어하우스에서 Google Cloud Platform과 함께 조직 정책 제한 사항을 사용할 때 필요한 정보 | Adobe 소유의 Google Cloud Platform 조직 ID가 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 및 [데이터 웨어하우스](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 설명서에 추가되었습니다. <p>이 정보는 Google Cloud Platform에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하는 조직에만 필요합니다.</p> |
 | 프로젝트에 구성 요소를 추가하는 방법에 대한 설명서 | [Analysis Workspace에서 프로젝트에 다양한 유형의 구성 요소를 추가](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)하는 방법에 대한 일반 정보가 추가되었습니다. |
