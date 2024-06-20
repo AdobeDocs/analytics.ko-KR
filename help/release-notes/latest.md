@@ -3,16 +3,16 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 54be0400a76b1f8dbbf2aab99ed8d771d67e5bc3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 91%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보(2024년 6월)
 
-**마지막 업데이트**: 2024년 6월 13일 금요일
+**마지막 업데이트**: 2024년 6월 20일 금요일
 
 이번 릴리스 정보에는 2024년 6월 12일부터 7월까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 | **내보내기 및 가져오기에 사용되는 계정 및 위치를 제어하는 &#x200B;&#x200B;관리자 설정** | 관리자는 [위치 관리자의 새로운 “관리자 설정” 탭](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only)을 통해 사용자가 계정과 위치를 생성하고 편집할 수 있는지 여부를 제어할 수 있습니다. 이러한 설정은 [사용자가 클라우드 가져오기 및 내보내기 계정을 구성](/help/components/locations/configure-import-accounts.md)하고 [클라우드 가져오기 및 내보내기 위치를 구성](/help/components/locations/configure-import-locations.md)할 때 적용됩니다. <p>관리자는 사용자가 만들고 사용할 수 있는 계정 유형(Google Cloud Platform, Azure RBAC, Amazon S3 등)을 제한할 수도 있습니다.</p><p>이전에는 모든 사용자가 모든 유형의 계정에 대해 계정과 위치를 만들고, 편집하고, 사용할 수 있었습니다.</p> | 2024년 6월 12일 | 2024년 6월 20일 금요일 |
 | **내보내기 및 가져오기에 사용되는 계정 및 위치 공유** | 이제 사용자는 자신이 만든 계정과 위치를 조직의 모든 사용자가 사용할 수 있도록 할 수 있습니다. 계정 및 위치 소유자와 시스템 관리자만 계정과 위치를 편집하고 삭제할 수 있습니다.<p>이전에는 계정과 위치를 생성한 사용자만 사용할 수 있었습니다.</p><p>이러한 설정은 사용자가 [클라우드 가져오기 및 내보내기 계정을 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-accounts)하고 [클라우드 가져오기 및 내보내기 위치를 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-locations)할 때 사용할 수 있습니다. </p> | 2024년 6월 12일 | 2024년 6월 20일 금요일 |
 | **Activity Map에서 Web SDK에 대해 더 적은 서버 호출 사용** | 현재 Activity Map 링크 이벤트는 자체 이벤트로 계산되어 추가 비용이 발생합니다. 이 향상된 기능을 통해 일부 링크 이벤트를 가져와 다음 히트로 패키지화합니다. 이는 AppMeasurement에서 이벤트를 처리하는 방법과 유사합니다. <p>(업데이트된 설명서 링크)</p> | 2024년 6월 19일 오픈 베타 시작 | TBD |
+| **새 데이터 소스 API 안내서** | 다음 [Adobe Analytics 2.0 데이터 소스 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) 엔드포인트는 데이터 소스 계정을 만들고, 보고, 삭제하고, 업로드하는 메서드를 제공합니다. |  | 지금 사용 가능 |
+| **분류 API 안내서의 새로운 메서드** | 파일 파티션을 검색하는 두 가지 새로운 방법이 분류 API 안내서에 추가되었습니다.<ul><li>[분류 작업 파일 파티션 가져오기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[분류 내보내기 작업 파일 가져오기 부분](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | 지금 사용 가능 |
 
 {style="table-layout:auto"}
 
