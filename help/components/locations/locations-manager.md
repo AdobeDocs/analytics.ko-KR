@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 위치 관리자
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 1%
@@ -128,8 +128,6 @@ Adobe Analytics에서 위치 관리자에서 위치를 삭제하려면 다음을
 1. 편집할 계정의 3점 아이콘을 선택한 다음 을 선택합니다 [!UICONTROL **계정 삭제**]
 
 ## 회사 전체 설정 구성(관리자만)
-
-{{release-limited-testing-section}}
 
 시스템 관리자는 사용자가 계정 및 위치를 만들지 못하도록 제한하거나 사용자가 만들고 사용할 수 있는 계정 유형을 제한할 수 있습니다.
 
