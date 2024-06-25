@@ -5,9 +5,9 @@ user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터를 내보내고 Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색하는 방법에 대해 알아봅니다. FTP와 SFTP를 사용하여 파일을 전송하는 방법에 대해 알아봅니다.
 source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 98%
       + [Data Warehouse 게재된 보고서](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder 게재된 보고서](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [FTP로 엔지니어링 서비스 참여](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
-   + [FTP 제한 및 데이터 유지](ftp-and-sftp/ftp-limits.md)
+   + [FTP 제한 및 데이터 보존](ftp-and-sftp/ftp-limits.md)
    + [FTP 데이터 및 FTP 계정 삭제](ftp-and-sftp/ftp-delete.md)
    + [삭제된 FTP 데이터 및 FTP 계정 복원](ftp-and-sftp/ftp-restore.md)
    + [Adobe FTP 서버 업그레이드](ftp-and-sftp/ftp-upgrade.md)

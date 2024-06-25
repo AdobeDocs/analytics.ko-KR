@@ -5,9 +5,9 @@ user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
 source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1017'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
-   + [시작하기(역할별)](get-started/get-started-by-role.md)
+   + [시작하기 (역할별)](get-started/get-started-by-role.md)
    + [Analytics 인터페이스 이해](get-started/analytics-interface.md)
    + [사용 사례](get-started/use-cases.md)
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](get-started/which-analytics-tool.md)
@@ -79,7 +79,7 @@ ht-degree: 98%
       + [데이터 소스 관리](analysis-workspace/visualizations/t-sync-visualization.md)
       + 자유 형식 테이블 {#freeform-table}
          + [자유 형식 테이블](analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [자유 형식 테이블에서 차원에 대한 하이퍼링크 만들기](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [자유 형식 테이블의 차원에 대한 하이퍼링크 만들기](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 열 및 행 설정 {#column-row-settings}
             + [열 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [행 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
