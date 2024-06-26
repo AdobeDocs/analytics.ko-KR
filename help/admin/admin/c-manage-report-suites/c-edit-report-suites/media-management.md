@@ -4,10 +4,10 @@ title: 미디어 관리
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 99%
+source-wordcount: '172'
+ht-degree: 71%
 
 ---
 
@@ -21,10 +21,10 @@ Analytics에서 미디어를 활성화하여 측정 및 보고에 사용할 특�
 
 * [!UICONTROL **미디어 보고**]
 
-  스트리밍 미디어 관련 보고서는 [미디어 보고] 페이지에서 사용할 수 있습니다. 미디어 보고에 대한 자세한 내용은 [미디어 보고서 활성화](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html)를 참조하십시오.
+  스트리밍 미디어 컬렉션 추가 기능과 관련된 보고서는 미디어 보고 페이지에서 사용할 수 있습니다. 미디어 보고에 대한 자세한 내용은 [미디어 보고서 활성화](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html)를 참조하십시오.
 
 * [!UICONTROL **미디어 분류**]
 
-  스트리밍 미디어 관련 분류는 [미디어 분류] 페이지에서 사용할 수 있습니다. 분류에 대한 자세한 내용은 [전환 분류](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)를 참조하십시오.
+  스트리밍 미디어 컬렉션 추가 기능별 분류는 미디어 분류 페이지에서 사용할 수 있습니다. 분류에 대한 자세한 내용은 [전환 분류](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)를 참조하십시오.
 
-스트리밍 미디어용 Analytics에 대한 일반적인 정보는 [스트리밍 미디어용 Adobe Analytics 안내서](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)를 참조하십시오.
+Adobe Analytics에서의 스트리밍 미디어 데이터 통합에 대한 일반 정보는 다음을 참조하십시오. [스트리밍 미디어 컬렉션 추가 기능 안내서](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR).
