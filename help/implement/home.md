@@ -4,10 +4,10 @@ description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics�
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-source-git-commit: e033f32fb3394bb9e2a9ec47766febfbe8d5bfd7
-workflow-type: ht
-source-wordcount: '752'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
@@ -92,6 +92,6 @@ Adobe Analytics를 서버측에 구현할 때에는 다음과 같은 옵션이 �
 ## 주요 Analytics 리소스
 
 * [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [최신 릴리스 정보](../release-notes/latest.md)

@@ -4,10 +4,10 @@ description: Analysis Workspace, Analytics 대시보드(모바일 앱), Activity
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 11ef092984f37547ed408bedb977fccb8b53dba8
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Analytics 기능 및 사용 방법에 대한 자세한 내용은 [Analytic
 ## 주요 Analytics 리소스
 
 * [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
 

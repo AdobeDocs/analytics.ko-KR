@@ -4,10 +4,10 @@ description: Admin Console의 사용자 및 제품 관리, 보고서 세트, 변
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 91%
+source-wordcount: '311'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics에는 현재 관리자를 위한 두 가지 영역이 있습니�
 
 ## 주요 문서
 
-* [Analytics 첫 번째 관리 시작 안내서](admin-console/first-admin-guide.md): 조직이 Adobe Analytics을 처음 사용하는 경우 이 안내서에 따라 Adobe Analytics의 가치를 극대화하십시오.
+* [Analytics 첫 번째 관리 시작 안내서](admin-console/first-admin-guide.md): 조직이 Adobe Analytics를 처음 사용하는 경우 이 안내서에 따라 Adobe Analytics의 진가를 누려보십시오.
 * [Report Suite Manager](admin/c-manage-report-suites/report-suites-admin.md): Analytics에서 가장 일반적으로 액세스하는 관리 도구 Report Suite Manager에는 변수 관리 분류 관리, 시간대 등에 대한 설정이 포함되어 있습니다.
 
 ## 기타 Analytics 사용 안내서
@@ -45,6 +45,6 @@ Adobe Analytics에는 현재 관리자를 위한 두 가지 영역이 있습니�
 ## 주요 Analytics 리소스
 
 * [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
