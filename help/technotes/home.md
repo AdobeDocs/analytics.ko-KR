@@ -3,7 +3,7 @@ title: Analytics 기술 노트
 description: 이 안내서는 특정 분석 도구 또는 구성 요소에 속하지 않는 주제에 대한 유용한 정보를 제공합니다.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 98%
@@ -50,5 +50,5 @@ Adobe Analytics는 기업이 디지털 마케팅 활동을 측정, 분석 및 �
 
 * [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
+* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

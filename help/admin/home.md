@@ -4,7 +4,7 @@ description: Admin Console의 사용자 및 제품 관리, 보고서 세트, 변
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 98%
@@ -46,5 +46,5 @@ Adobe Analytics에는 현재 관리자를 위한 두 가지 영역이 있습니�
 
 * [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
+* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)
