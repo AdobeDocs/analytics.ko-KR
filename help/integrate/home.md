@@ -4,9 +4,9 @@ description: 다른 위치의 데이터를 Adobe Analytics에 통합하는 방�
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
   >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
 * **Analytics for Target:** A4T는 Adobe Analytics와 Adobe Target을 통합합니다.
 * **Adobe Campaign 보고:** Adobe Analytics를 Adobe Campaign과 통합합니다.
-* **AEM Assets 보고:** Adobe Experience Manager에서 제공되는 에셋에 대한 노출 횟수 및 클릭 수를 수집할 수 있습니다.
+* **AEM Assets 보고:** Adobe Experience Manager에서 제공되는 자산에 대한 노출 횟수 및 클릭 수를 수집할 수 있습니다.
 
 다음은 Adobe Analytics에 대한 비디오 개요입니다.
 

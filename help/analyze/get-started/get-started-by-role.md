@@ -4,9 +4,9 @@ title: 관리자, 분석가, 최종 사용자 및 개발자용 시작하기
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1694'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Analytics 관리자는 Analytics 환경의 중요한 측면을 모니터링하�
 | 기여도 분석 | Analysis Workspace를 사용하면 사용자 데이터 안에서 숨겨진 패턴을 발견하여 통계적 예외 항목을 설명하고 대상자 세그먼트에서 지표에 대해 예상치 못한 고객 작업, 범위를 벗어나는 값, 급증 또는 급감 뒤의 상관관계를 식별할 수 있습니다. | [예외 항목 탐지 개요](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에서의 [기여도 분석](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | 지능형 경고 | 하나의 경고에서 여러 지표를 캡처하는 데이터 예외 항목 및 “누적된” 경고를 기반으로 경고를 만들고 관리합니다. | [지능형 경고 개요](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
 | 데이터 내보내기 | Data Warehouse 및 데이터 피드를 사용하면 Google Cloud 플랫폼, Azure RBAC, Azure SAS 및 Amazon S3와 같은 다양한 클라우드 대상으로 데이터를 내보낼 수 있습니다. | [Analytics 내보내기 안내서](https://experienceleague.adobe.com/docs/analytics/export/home.html) |
-| Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급을 매기고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상자 참여를 모니터링하도록 설계된 Adobe Analytics 애플리케이션입니다.<p>Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고 대상자의 요구 사항과 행동에 따라 대응할 수 있습니다.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
+| Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급을 매기고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상자 참여를 모니터링하도록 설계된 Adobe Analytics 애플리케이션입니다.<p>Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고, 대상자의 요구 사항과 행동에 따라 대응할 수 있습니다.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
 | Report Builder | Report Builder는 Microsoft Excel용 추가 기능입니다. Report Builder를 사용하면 Excel 워크시트에 삽입되는 Adobe Analytics 데이터에서 사용자 정의 요청을 작성할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |
 
 {style="table-layout:auto"}
@@ -142,7 +142,7 @@ Adobe Analytics에서 실행 가능한 인사이트를 얻기 위해 데이터 �
 
 일부 사용자의 경우 [분석가와 협력](#work-with-analysts)에 설명된 대로 데이터 분석가와 협력하여 Analysis Workspace에서 프로젝트를 설정하고 데이터 해석 방법을 설명하는 것이 도움이 될 수 있습니다. 또는 프로젝트를 구축하고 데이터 자체를 해석하는 것이 편할 수도 있습니다.
 
-Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 끌어다 놓기 브라우저를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
+Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 드래그 앤 드롭 브라우저 인터페이스를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
 
 Analysis Workspace에서 분석을 만드는 방법에 대한 자세한 내용은 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md)를 참조하십시오.
 
