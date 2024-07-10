@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
    + [데이터 소스](admin/data-sources.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [로그](admin/logs.md)
-   + 활동 관리자 보고 {#reporting-activity-manager}
+   + 보고 활동 관리자 {#reporting-activity-manager}
       + [개요](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [보고 활동 보기](admin//reporting-activity-manager/reporting-activity.md)
       + [보고 요청 취소](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -42,7 +42,7 @@ ht-degree: 94%
          + 일반 {#report-suite-general}
             + [일반 계정 설정](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [내부 URL 필터](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
-            + [사용자 정의 달력](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
+            + [사용자 정의 캘린더](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 유료 검색 감지 {#paid-search-detection}
                + [유료 검색 감지 개요](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [유료 검색 감지 구성](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
@@ -73,7 +73,7 @@ ht-degree: 94%
                + [보트 규칙 이해 및 구성](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [일반 보트 서명](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [보트 제외 방법](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
-            + [개인정보 보호 설정](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
+            + [개인 정보 보호 설정](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
             + [타임스탬프 구성](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + 서버측 전달 {#server-side-forwarding}
                + [서버측 전달 개요](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
@@ -117,7 +117,7 @@ ht-degree: 94%
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
-         + [개인정보 보호 보고](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + [개인 정보 보호 보고](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Document Cloud 관리 {#doc-cloud-mgt}
             + [Adobe Analytics로 Document Cloud 구성](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
             + [Document Cloud 보고 구성](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
@@ -155,13 +155,13 @@ ht-degree: 94%
       + [환경 설정 관리자](admin/company/preferences-manager.md)
       + [보류 중인 작업](admin/company/pending-actions-admin.md)
       + [기능 액세스 수준](admin/company/feature-access-levels.md)
-   + 데이터 거버넌스 개인 정보 보호 레이블 {#data-governance}
-      + [Adobe Analytics 데이터 개인정보 보호 워크플로](admin/c-data-governance/an-gdpr-workflow.md)
+   + 데이터 거버넌스 개인 정보 보호 라벨링 {#data-governance}
+      + [Adobe Analytics 데이터 개인 정보 보호 워크플로](admin/c-data-governance/an-gdpr-workflow.md)
       + [자주 묻는 질문](admin/c-data-governance/gdpr-faq.md)
       + 데이터 레이블 지정 {#data-labels}
-         + [Analytics 구성 요소의 데이터 개인정보 보호 레이블](admin/c-data-governance/data-labeling/gdpr-labels.md)
+         + [Analytics 구성 요소의 데이터 개인 정보 보호 레이블](admin/c-data-governance/data-labeling/gdpr-labels.md)
          + [보고서 세트 데이터에 레이블 지정](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-         + [보고서 세트의 개인정보 보호 레이블 보기/관리](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
+         + [보고서 세트의 개인 정보 보호 레이블 보기/관리](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
          + [레이블 지정 모범 사례](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
          + [레이블 지정 예](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
          + [네임스페이스](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
@@ -175,7 +175,7 @@ ht-degree: 94%
       + [서버 호출 사용량 FAQ](admin/c-server-call-usage/overage-faq.md)
    + 사용자 및 제품 관리(기존) {#user-product-management}
       + [사용자 및 제품 관리(기존)](admin/user-management2/user-management.md)
-      + [사용자 자산 전송 또는 계정 만료 설정](admin/user-management2/users-assets.md)
+      + [기존 사용자 계정, 자산 및 만료 관리](admin/user-management2/users-assets.md)
       + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
          + [Admin Console로 Analytics 사용자 마이그레이션](admin/user-management2/user-migration/c-migration-tool.md)
          + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](admin/user-management2/user-migration/t-migrate-users.md)

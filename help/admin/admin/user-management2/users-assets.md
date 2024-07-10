@@ -4,43 +4,44 @@ title: Analytics 사용자 및 자산 관리
 feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 0%
+source-wordcount: '407'
+ht-degree: 2%
 
 ---
 
-# 사용자 자산 전송 또는 계정 만료 설정
+# 기존 사용자 계정, 자산, 만료 관리
 
-대부분의 사용자 및 제품 관리 기능은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html). (Adobe Analytics 사용자에 대한 사용자 권한 관리를 시작하려면 을 참조하십시오. [Adobe Admin Console의 분석](/help/admin/admin-console/home.md).)
+을 사용하여 이전 사용자 계정, 마이그레이션 상태, 만료 데이터, 다른 사용자로의 에셋 전송 등을 관리할 수 있습니다. **[!UICONTROL 관리자] > [!UICONTROL 모든 관리자] >  [!UICONTROL Analytics 사용자 및 관리자]**.
 
-이제 대부분의 사용자 및 제품 관리 기능은 Adobe Admin Console에서만 사용할 수 있지만, 이 페이지에 설명된 관리 기능은 Adobe Analytics 관리 영역에서만 사용할 수 있습니다.
+사용자 화면에는 현재 Adobe Analytics 사용자 목록과 함께 다음 열이 표시됩니다.
 
-## 한 Analytics 사용자의 자산을 다른 Analytics 사용자에게 전송 {#transfer}
+| 열 | 설명 |
+|---|---|
+| [!UICONTROL 사용자 ID] | 사용자가 Adobe Analytics에 로그인하는 데 사용하는 사용자 ID입니다. |
+| [!UICONTROL 이름] | 사용자의 이름입니다. |
+| [!UICONTROL 마이그레이션 상태] | 기존 사용자 계정에서 Enterprise ID 또는 Adobe ID으로 마이그레이션하는 상태.  상태가 시작되지 않음, 큐에 있음 또는 마이그레이션됨일 수 있습니다. |
+| [!UICONTROL 이메일] | 사용자의 이메일입니다. |
+| [!UICONTROL 기존 로그인] | 활성화 또는 비활성화가 가능한 기존 로그인의 상태입니다. |
+| [!UICONTROL 만든 날짜] | Adobe Analytics에서 사용자 계정이 생성된 타임스탬프. |
+| [!UICONTROL 마지막 분석 액세스] | Adobe Analytics에 대한 사용자 계정의 최신 액세스 타임스탬프 |
+| [!UICONTROL 만료] | 사용자 계정의 만료 날짜 또는 사용자 계정이 만료되지 않는 경우 없음. |
 
-1. 다음으로 이동 **관리자** > [!UICONTROL **Analytics 사용자 및 자산**].
-[사용자] 페이지가 표시됩니다.
-1. (선택 사항) 다음 옵션 중 하나를 사용하여 원하는 사용자를 보다 쉽게 찾을 수 있습니다.
-   * 검색 필드에서 계정 만료일을 설정할 사용자의 이름을 입력합니다.
-   * 다음 항목 선택 **필터** 아이콘 ![필터 아이콘](assets/filter-users-page.png) 필터 설정을 표시하거나 숨깁니다. 마이그레이션 상태 또는 기존 로그인 상태별로 필터링할 수 있습니다.
-1. 양도하려는 자산을 가진 사용자를 선택합니다.
-   ![사용자 계정의 만료 설정](assets/manage-user-assets.png)
-1. 선택 [!UICONTROL **에셋 전송**].
-1. 자산 전송 페이지의 [!UICONTROL **에셋 전송 대상**] 필드에서 에셋을 전송할 사용자의 이름을 입력한 다음 드롭다운 메뉴에 표시될 때 이름을 선택합니다.
-1. 다음에서 [!UICONTROL **양도할 계정 항목 선택**] 섹션에서 전송할 에셋으로 이동하여 선택한 다음 을 선택합니다 [!UICONTROL **전송**].
+![사용자](assets/users.png) 참조
 
-   선택한 모든 에셋은 지정된 사용자에게 전송됩니다.
+- 특정 사용자를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *제목별 검색* 필드.
+- 마이그레이션 상태에서 목록을 필터링하려면 다음을 선택합니다. ![펼침](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL 마이그레이션 상태]**.
+- 기존 로그인 상태에서 목록을 필터링하려면 다음을 선택합니다. ![펼침](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL 기존 로그인]**.
+- 열 표시를 변경하려면 다음을 선택합니다 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) 팝업에서 열을 선택합니다.
 
+목록에서 사용자를 한 명 이상 선택할 때 다양한 작업을 적용할 수 있습니다.
 
-## 사용자 계정의 만료 날짜 설정 {#expiration}
+| 액션 | 설명 |
+|---|---|
+| ![마이그레이션](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL 마이그레이션]** | 한 명 이상의 사용자를 Enterprise ID 또는 Adobe ID로 마이그레이션할 수 있습니다. |
+| ![캘린더 잠김](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL 만료 설정]** | 선택한 사용자의 기존 Adobe Analytics 로그인을 사용하기 위한 만료 날짜를 설정할 수 있습니다.  달력 팝업을 사용할 날짜를 선택하여 날짜를 지정합니다. 선택 **[!UICONTROL 완료]** 만료 확인. |
+| ![에셋 전송](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL 에셋 전송]** | 이 작업은 한 명의 사용자를 선택하는 경우에만 사용할 수 있습니다. 사용자에게 양도 가능한 에셋이 있는 경우 계정 항목(예: 책갈피, 대시보드 등)을 선택할 수 있습니다. 선택 **[!UICONTROL 전송]** 전송을 완료합니다.<br/>![자산을 전송합니다.](assets/transfer-assets.png) |
+| ![계정 삭제](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 계정 삭제]** | 선택한 계정의 삭제를 확인하는 대화 상자가 표시됩니다. 선택 **[!UICONTROL 확인]** 계정을 삭제합니다. 선택 **[!UICONTROL 취소]** 취소합니다. |
+| ![CSV로 내보내기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL CSV로 내보내기]** | 이 작업은 선택한 사용자의 세부 사항(이름, 마이그레이션 상태, 이메일 등)을 쉼표로 구분한 값 목록이 포함된 파일을 즉시 다운로드합니다. |
 
-1. 다음으로 이동 **관리자** > [!UICONTROL **Analytics 사용자 및 자산**].
-[사용자] 페이지가 표시됩니다.
-(선택 사항) 다음 옵션 중 하나를 사용하여 원하는 사용자를 보다 쉽게 찾을 수 있습니다.
-   * 검색 필드에서 계정 만료일을 설정할 사용자의 이름을 입력합니다.
-   * 다음 항목 선택 **필터** 아이콘 ![필터 아이콘](assets/filter-users-page.png) 필터 설정을 표시하거나 숨깁니다. 마이그레이션 상태 또는 기존 로그인 상태별로 필터링할 수 있습니다.
-1. 계정 만료일을 설정할 사용자를 선택합니다.
-   ![사용자 계정의 만료 설정](assets/manage-user-assets.png)
-1. 선택 [!UICONTROL **만료 설정**].
-1. 만료 날짜를 선택한 다음 을 선택합니다. [!UICONTROL **완료**].
