@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
-workflow-type: ht
-source-wordcount: '5695'
-ht-degree: 100%
+source-git-commit: b60a25d7b9ff28b7b9f0488acaa4380c4093d78f
+workflow-type: tm+mt
+source-wordcount: '5709'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 7월** | |
+| 업데이트된 일반 오류 메시지 | 에 대한 일부 업데이트 [일반적인 오류 메시지](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **2024년 6월** | |
 | 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 이를 Analysis Workspace에 표시하는 스트리밍 미디어 기능 세트를 참조할 때 “미디어 분석” 및 “스트리밍 미디어” 인스턴스를 “스트리밍 미디어 컬렉션 추가 기능”이라는 이름으로 대체했습니다. <p>이번 업데이트는 Adobe Analytics 설명서와 [스트리밍 미디어 컬렉션 추가 기능 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) 전체에 적용됩니다.</p> |
 | 개선된 지능형 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [경고 관리](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) 및 [정보 개요](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)에 대한 정보가 포함되어 있습니다. |
