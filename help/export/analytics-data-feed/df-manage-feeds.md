@@ -3,10 +3,10 @@ title: 데이터 피드 UI
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: 3916115169f526bb91442d251e6159496efd547f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 29%
+source-wordcount: '1142'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,9 @@ ht-degree: 29%
 
    편집 중인 데이터 피드에 대한 [!UICONTROL **대상**] 섹션을 업데이트할 때 [!UICONTROL **계정**] 및 [!UICONTROL **위치**] 드롭다운 필드에서 새 데이터 피드에 사용할 다른 계정 및 위치를 선택할 수 있습니다.
 
-   사용 중인 모든 데이터 피드의 계정 및 위치를 편집하려면 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 계정 및 위치를 직접 편집할 수 있습니다. 클라우드가 아닌 계정 및 위치는 편집할 수 없습니다.
+   [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 계정 및 위치를 편집할 수 있습니다. 계정 또는 위치를 편집하면 해당 계정 또는 위치와 연결된 모든 항목에 영향을 미칩니다.
+
+   이전 버전의 데이터 피드 관리자를 사용하면 FTP, SFTP, S3 및 Azure Blob 대상을 만들 수 있습니다. 이러한 이전 버전의 데이터 피드 관리자에서 생성된 대상은 편집하거나 복사할 수 없습니다.
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
@@ -84,7 +86,9 @@ ht-degree: 29%
 
    복사하는 데이터 피드에 대한 [!UICONTROL **대상**] 섹션을 업데이트할 때 [!UICONTROL **계정**] 및 [!UICONTROL **위치**] 드롭다운 필드에서 새 데이터 피드에 사용할 다른 계정 및 위치를 선택할 수 있습니다.
 
-   사용 중인 모든 데이터 피드의 계정 및 위치를 편집하려면 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 계정 및 위치를 직접 편집할 수 있습니다. 클라우드가 아닌 계정 및 위치는 편집할 수 없습니다.
+   [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 계정 및 위치를 편집할 수 있습니다. 계정 또는 위치를 편집하면 해당 계정 또는 위치와 연결된 모든 항목에 영향을 미칩니다.
+
+   이전 버전의 데이터 피드 관리자를 사용하면 FTP, SFTP, S3 및 Azure Blob 대상을 만들 수 있습니다. 이러한 이전 버전의 데이터 피드 관리자에서 생성된 대상은 편집하거나 복사할 수 없습니다.
 
 ## 데이터 피드 일시 중지
 
