@@ -3,10 +3,10 @@ title: 데이터 피드 UI
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 3916115169f526bb91442d251e6159496efd547f
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 28%
+source-wordcount: '1160'
+ht-degree: 27%
 
 ---
 
@@ -122,7 +122,9 @@ ht-degree: 28%
 
 ## 데이터 피드 삭제
 
-데이터 피드를 삭제하면 해당 상태가 [!UICONTROL 삭제됨](으)로 설정됩니다.
+데이터 피드를 삭제하면 해당 상태가 [!UICONTROL 삭제됨](으)로 설정됩니다. 데이터 피드를 삭제하려면 먼저 데이터 피드 상태가 활성이어야 합니다.
+
+데이터 피드를 삭제하려면
 
 1. Adobe Analytics에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**]&#x200B;를 선택합니다.
 
