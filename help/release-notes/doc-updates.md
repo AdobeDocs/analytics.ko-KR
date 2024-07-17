@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
-source-wordcount: '5788'
+source-wordcount: '5811'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 98%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 7월** | |
+| threads.net을 &#39;레퍼러 유형&#39; 차원에 추가했습니다. | [&#39;레퍼러 유형&#39; 차원](/help/components/dimensions/referrer-type.md)에 사용되는 소셜 네트워크 목록에 threads.net을 추가했습니다. |
 | 데이터 피드 관리에 대한 설명서를 업데이트했습니다 | 명확성을 개선하기 위해 [데이터 피드 관리](/help/export/analytics-data-feed/df-manage-feeds.md)의 정보를 업데이트했습니다. <p>업데이트 내용은 다음과 같습니다.</p><ul><li>정보를 보다 쉽게 스캔하고 사용할 수 있도록 다양한 작업에 대해 별도의 섹션을 만들었습니다.</li><li>다시 활성화된 라이브 피드의 동작 변경 사항에 대한 정보가 추가되었습니다. 이러한 변경 사항은 현재 제한적 가용성이며 아직 모든 고객에게 제공되지 않습니다.</li><li>삭제하기 전에 데이터 피드의 상태가 활성화 상태여야 한다는 정보가 추가되었습니다.</li> |
 | 업데이트된 일반 오류 메시지 | [일반적인 오류 메시지](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |
 | **2024년 6월** | |
