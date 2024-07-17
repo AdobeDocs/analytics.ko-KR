@@ -4,10 +4,10 @@ description: Adobe에 링크 추적 호출을 보냅니다.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 76%
+source-wordcount: '865'
+ht-degree: 62%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 76%
 
 ## 웹 SDK를 사용한 링크 추적
 
-웹 SDK는 페이지 보기 호출과 링크 추적 호출을 구분하지 않으며, 둘 다 `sendEvent` 명령입니다.
+웹 SDK는 페이지 보기 호출과 링크 추적 호출을 구분하지 않습니다. 둘 다 `sendEvent` 명령을 사용합니다.
 
 XDM 개체를 사용하고 Adobe Analytics이 주어진 이벤트를 링크 추적 호출로 계산하도록 하려는 경우 XDM 데이터에 다음이 포함되어 있는지 확인하십시오.
 
-* 링크 이름: 매핑됨 `xdm.web.webInteraction.name`.
-* 링크 URL:에 매핑됨 `xdm.web.webInteraction.URL`.
-* 링크 유형: 매핑됨 `xdm.web.webInteraction.type`. 유효한 값에는 `other`(사용자 정의 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다.
+* 링크 이름: `xdm.web.webInteraction.name`에 매핑됩니다.
+* 링크 URL: `xdm.web.webInteraction.URL`에 매핑됩니다.
+* 링크 유형: `xdm.web.webInteraction.type`에 매핑됩니다. 유효한 값에는 `other`(사용자 정의 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다.
 
 ```js
 alloy("sendEvent", {
@@ -43,9 +43,9 @@ alloy("sendEvent", {
 
 데이터 개체를 사용하고 Adobe Analytics에서 특정 이벤트를 링크 추적 호출로 계산하도록 하려면 데이터 개체에 다음이 포함되어 있는지 확인하십시오.
 
-* 링크 이름: 매핑됨 `data.__adobe.analytics.linkName`.
-* 링크 URL:에 매핑됨 `data.__adobe.analytics.linkURL`.
-* 링크 유형: 매핑됨 `data.__adobe.analytics.linkType`. 유효한 값에는 `o`(사용자 정의 링크), `d`(다운로드 링크) 및 `e`(종료 링크)가 포함됩니다.
+* 링크 이름: `data.__adobe.analytics.linkName`에 매핑됩니다.
+* 링크 URL: `data.__adobe.analytics.linkURL`에 매핑됩니다.
+* 링크 유형: `data.__adobe.analytics.linkType`에 매핑됩니다. 유효한 값에는 `o`(사용자 정의 링크), `d`(다운로드 링크) 및 `e`(종료 링크)가 포함됩니다.
 
 ```js
 alloy("sendEvent", {
@@ -68,8 +68,8 @@ Adobe Analytics 확장에는 링크 추적 호출을 설정할 수 있는 전용
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-1. 아래 [!UICONTROL 작업]를 클릭하고 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘 을 클릭하여 작업을 추가합니다.
-1. 설정 [!UICONTROL 확장] 드롭다운 목록 **[!UICONTROL Adobe Analytics]**&#x200B;및 [!UICONTROL 작업 유형] 끝 **[!UICONTROL 비콘 보내기]**.
+1. [!UICONTROL 작업]에서 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘을 클릭하여 작업을 추가합니다.
+1. [!UICONTROL 확장] 드롭다운 목록을 **[!UICONTROL Adobe Analytics]**(으)로 설정하고 [!UICONTROL 작업 유형]을(를) **[!UICONTROL 비콘 보내기]**(으)로 설정합니다.
 1. `s.tl()` 라디오 버튼을 클릭합니다.
 
 Analytics 확장에서는 선택적 인수를 설정할 수 없습니다.
@@ -156,7 +156,7 @@ s.tl(true,"o","Example link");
 
 ### 사용자 지정 함수 내에서 링크 추적 호출 만들기
 
-링크 추적 코드를 페이지 또는 연결된 JavaScript 파일에 정의된 자체 포함된 JavaScript 함수에 통합할 수 있습니다. 그런 다음 각 링크의 onClick 함수에서 호출을 지정할 수 있습니다. JavaScript 파일에서 다음을 설정하십시오.
+링크 추적 코드를 자체 포함된 JavaScript 함수에 통합할 수 있습니다. 그런 다음 각 링크의 `onClick` 함수에서 호출을 수행할 수 있습니다. JavaScript 파일에서 다음을 설정하십시오.
 
 ```JavaScript
 function trackClickInteraction(name){
@@ -173,6 +173,9 @@ function trackClickInteraction(name){
 <!-- Use wherever you want to track links -->
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
+
+>[!NOTE]
+>`tl()` 메서드를 간접적으로 호출하면 Activity Map 오버레이 보고가 편리하지 않을 수 있습니다. 링크 요소에 함수를 등록하려면 각 링크를 클릭해야 합니다. 하지만 Workspace의 Activity Map 차원은 동일하게 추적됩니다.
 
 ### 중복 링크 추적 방지
 
@@ -195,4 +198,25 @@ function linkCode(obj) {
     s.tl(obj,"d","Example PDF download");
   }
 }
+```
+
+### Activity Map에 `tl()` 메서드 사용
+
+`tl()` 메서드를 사용하여 사용자 지정 요소를 추적하고 다이내믹 컨텐츠에 대한 오버레이 렌더링을 구성할 수 있습니다. `linkName` 매개 변수는 [Activity Map 링크](/help/components/dimensions/activity-map-link.md) 차원을 설정하는 데에도 사용됩니다.
+
+`tl()` 메서드가 HTML 요소의 클릭 이벤트에서 직접 호출되면 웹 페이지가 로드될 때 Activity Map이 해당 요소에 대한 오버레이를 표시할 수 있습니다. 예:
+
+```html
+<a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
+```
+
+`tl()` 메서드가 HTML 요소의 클릭 이벤트에서 직접 호출되지 않으면 Activity Map은 해당 요소를 클릭한 후에만 오버레이를 표시할 수 있습니다. 예:
+
+```html
+<a href="index.html" onclick="someFn(event);">Example link text</a>
+<script>
+  function someFn (event) {
+    s.tl(event.srcElement,'o','Example custom link');
+  }
+</script>
 ```

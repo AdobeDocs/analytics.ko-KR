@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
-workflow-type: ht
-source-wordcount: '1017'
-ht-degree: 100%
+source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
+workflow-type: tm+mt
+source-wordcount: '930'
+ht-degree: 99%
 
 ---
 
@@ -278,34 +278,14 @@ ht-degree: 100%
    + [Report Builder 문제 해결](report-builder/troubleshoot.md)
    + [Report Builder FAQ](report-builder/faq.md)
 + Activity Map {#activity-map}
-   + [Activity Map 개요](activity-map/activity-map.md)
-   + 시작하기 {#getting-started}
-      + [Activity Map 활성화](activity-map/activitymap-getting-started/activitymap-enable.md)
-      + [Activity Map 브라우저 플러그인 설치](activity-map/activitymap-getting-started/activitymap-install.md)
-      + [Activity Map 실행](activity-map/activitymap-getting-started/activitymap-launch.md)
-   + [강력한 링크 추적](activity-map/lnk-tracking-overview.md)
-   + 링크 추적 {#link-tracking}
-      + [링크 추적 방식](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [링크 추적 FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [동일한 링크 ID 및 영역을 참조하는 링크 차별화](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [링크 추적 중지](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [s.tl() 함수 사용](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
-   + [표준 모드와 라이브 모드 비교](activity-map/activitymap-standard-live.md)
-   + [링크 보고서](activity-map/activitymap-links-report.md)
-   + [페이지 상세정보](activity-map/activitymap-page-flow.md)
-   + [전체 지표 세트](activity-map/activitymap-complete-metrics.md)
-   + [실시간(라이브) 페이지 분석](activity-map/activitymap-realtime.md)
-   + [고객 세분화](activity-map/activitymap-multiple-segments.md)
-   + [사용자 정의 가능 오버레이](activity-map/activitymap-gainerslosers.md)
-   + [오버레이 세부정보](activity-map/activitymap-overlay-details.md)
-   + [CSV 파일로 내보내기](activity-map/activitymap-csv.md)
-   + [지원되는 시스템 및 요구 사항](activity-map/activitymap-sysreqs.md)
-   + [Activity Map FAQ](activity-map/activitymap-faq.md)
-   + [Activity Map 설정 구성](activity-map/activitymap-overlay-settings.md)
-   + [Activity Map 사용자 인터페이스](activity-map/activitymap-user-interface.md)
-   + [Analytics에서의 Activity Map 보고](activity-map/activitymap-reporting-analytics.md)
-   + [브라우저 확장 기능 문제 해결](activity-map/troubleshooting-browser-extensions.md)
-   + [데이터 수집 문제 해결](activity-map/troubleshoot-data-collection.md)
+   + [개요](activity-map/overview.md)
+   + [시작하기](activity-map/getting-started.md)
+   + 오버레이 {#overlay}
+      + [확장 개요](activity-map/overlay/overview.md)
+      + [Launch 확장](activity-map/overlay/launch.md)
+      + [확장 설정](activity-map/overlay/settings.md)
+   + [문제 해결](activity-map/troubleshooting.md)
+   + [FAQ](activity-map/faq.md)
 + Adobe Analytics 대시보드 {#mobapp}
    + [Adobe Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 인트로](mobile-app/curator.md)

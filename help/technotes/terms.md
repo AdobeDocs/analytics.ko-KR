@@ -3,7 +3,7 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+source-git-commit: cf9290d0a55704015ba1a2b6fdbdde1a724276a1
 workflow-type: tm+mt
 source-wordcount: '2528'
 ht-degree: 98%
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 이 용어집을 사용하여 Adobe Analytics에서 사용하는 많은 용어의 의미를 파악합니다.
 
-* **Activity Map:** 사이트에서 가장 많이 클릭한 영역을 표시하는 브라우저 플러그인입니다. 분석 사용 안내서에서 [Activity Map](/help/analyze/activity-map/activity-map.md)을 참조하십시오.
+* **Activity Map:** 사이트에서 가장 많이 클릭한 영역을 표시하는 브라우저 플러그인입니다. 분석 사용 안내서에서 [Activity Map](/help/analyze/activity-map/overview.md)을 참조하십시오.
 * **관리 콘솔:** 다음을 의미할 수 있습니다.
    * Adobe Analytics의 보고서 세트 설정을 관리하는 기존 관리 도구. 이전 버전의 Adobe Analytics에서는 사용자 권한도 여기에서 관리했습니다. 관리 사용 안내서에서 [관리 도구](/help/admin/admin/c-admin-tools.md)를 참조하십시오.
    * 제품 액세스가 프로비저닝되고 사용자 권한이 관리되는 Adobe Admin Console. 관리 사용 안내서에서 [Admin Console](/help/admin/admin-console/home.md)을 참조하십시오.

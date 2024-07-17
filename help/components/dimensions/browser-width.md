@@ -3,7 +3,7 @@ title: 브라우저 너비 - 전체기간
 description: 브라우저 창의 폭(픽셀 단위)입니다.
 feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+source-git-commit: 2601b0e5c3fa78237ce693801b8dd8c95b853b81
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 81%
@@ -12,12 +12,12 @@ ht-degree: 81%
 
 # 브라우저 너비
 
-브라우저 너비 - 전체기간 [차원](overview.md) 사전 정의된 그룹으로 분류된 브라우저 창의 너비를 표시합니다. 이 차원은 방문자가 콘텐츠를 보는 너비를 이해하려 할 때 유용합니다. 일반적으로 콘텐츠가 표시되는 너비를 이해하면 해당 콘텐츠를 최적화할 수 있습니다.
+&#39;브라우저 너비 - 전체기간&#39; [차원](overview.md)은(는) 사전 정의된 그룹으로 분류된 브라우저 창의 너비를 표시합니다. 이 차원은 방문자가 콘텐츠를 보는 너비를 이해하려 할 때 유용합니다. 일반적으로 콘텐츠가 표시되는 너비를 이해하면 해당 콘텐츠를 최적화할 수 있습니다.
 
 이 차원은 화면 너비와 다릅니다. 브라우저 너비는 볼 수 있는 브라우저 공간 내의 픽셀 수이며 화면 너비는 전체 모니터 너비(픽셀 단위)입니다. 컴퓨터에서 이러한 두 변수 간의 차이점을 보려면 브라우저 콘솔 (대부분의 브라우저에서 F12)을 열고 다음 코드를 콘솔에 복사하여 붙여넣습니다.
 
 ```javascript
-"Browser width: " + window.innerWidth + " pixels\nScreen width: " + screen.width + " pixels";
+console.log(`Browser width: ${window.innerWidth} pixels\nScreen width: ${screen.width} pixels`);
 ```
 
 브라우저 너비는 스크롤 막대나 테두리가 포함되지 않으므로 항상 화면 너비보다 작거나 같습니다.

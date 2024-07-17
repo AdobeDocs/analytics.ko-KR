@@ -4,18 +4,18 @@ description: Activity Map은 사이트에서 고유 링크를 식별하는 데 �
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 95%
+source-wordcount: '389'
+ht-degree: 80%
 
 ---
 
 # s_objectID
 
-`s_objectID` 변수는 링크에 대한 고유 식별자를 제공합니다. 이 변수는 [Activity Map](/help/analyze/activity-map/activity-map.md)의 보고서를 더 정확하게 만드는 데 사용됩니다. 자주 변경되는 페이지에 링크가 있는 경우 데이터를 원하는 대로 올바로 그룹화할 수 있도록 `s_objectID` 변수를 사용하여 Activity Map에 고유한 링크 위치를 알려 줄 수 있습니다.
+`s_objectID` 변수는 링크에 대한 고유 식별자를 제공합니다. 이 변수는 [Activity Map](/help/analyze/activity-map/overview.md)의 보고서를 더 정확하게 만드는 데 사용됩니다. 자주 변경되는 페이지에 링크가 있는 경우 데이터를 원하는 대로 올바로 그룹화할 수 있도록 `s_objectID` 변수를 사용하여 Activity Map에 고유한 링크 위치를 알려 줄 수 있습니다.
 
-Activity Map 정확도가 조직에 중요한 경우에는 사이트에 있는 링크의 `onClick` 이벤트에 `s_objectID` 변수를 포함하는 것이 좋습니다. 자세한 내용은 분석 사용 안내서의 [Activity Map 링크 추적 사용 사례](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)를 참조하십시오.
+Activity Map Adobe 정확도가 조직에 중요한 경우에는 사이트에 있는 링크의 `onClick` 이벤트에 `s_objectID` 변수를 포함하는 것이 좋습니다.
 
 ## Adobe Analytics 확장을 사용한 개체 ID
 
@@ -23,7 +23,7 @@ Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니�
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s_objectID
 
-`s_objectID` 변수는 전역 변수입니다. 이것은 이 변수가 Analytics 추적 개체 (기본적으로 `s`)와는 독립적으로 작동함을 의미합니다. 이 변수에 유효한 값은 최대 100바이트 길이의 모든 문자열일 수 있습니다. 이 변수가 정의되지 않으면 Activity Map에서는 링크 URL을 링크의 식별자로 사용합니다.
+`s_objectID` 변수는 전역 변수입니다. 이것은 이 변수가 Analytics 추적 개체 (기본적으로 `s`)와는 독립적으로 작동함을 의미합니다. 이 변수에 유효한 값은 최대 100바이트 길이의 모든 문자열일 수 있습니다. 이 변수가 정의되지 않으면 Activity Map은 링크 텍스트를 링크의 식별자로 사용합니다.
 
 이 변수는 일반적으로 HTML 링크의 `onClick` 이벤트에서 설정됩니다.
 
@@ -60,4 +60,4 @@ Activity Map은 링크가 가리키는 위치나 이러한 링크를 변경하�
 <a href="index.html" onClick="s_objectID='Footer home link';">Example link in Footer</a>
 ```
 
-링크가 동일한 URL을 가리키더라도, Activity Map에서는 `s_objectID` 변수를 사용하여 보고에서 해당 링크를 올바로 구분할 수 있습니다.
+링크가 동일한 URL을 가리키더라도, Activity Map은 `s_objectID` 변수를 사용하여 보고에서 해당 링크를 올바로 구분할 수 있습니다.

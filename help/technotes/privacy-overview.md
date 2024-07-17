@@ -4,8 +4,8 @@ keywords: 개인정보 보호
 title: 개인정보 보호 개요
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: ht
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Adobe Analytics는 다음 유형의 데이터를 수집할 수 있습니다.
 | 지리적 위치 정보 | Adobe는 IP 주소의 마지막 옥텟을 0으로 설정하여 자세한 지리적 위치를 방지하는 기능을 제공합니다. 이 기능은 지리적 정보의 정확성을 낮추는 역할을 하며, [보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html)에서 설정할 수 있습니다. | [도시](../components/dimensions/cities.md), [지역](../components/dimensions/regions.md), [국가](../components/dimensions/countries.md) |
 | IP 주소 | Adobe는 이 데이터를 저장할 때 방문자의 IP 주소를 난독화(해시)하거나 완전히 제거하는 기능을 제공합니다. EMEA 고객은 일반적으로 IP 주소 설정이 기본적으로 난독화되어 있습니다. 난독화 설정에 관계없이 IP 주소는 Analysis Workspace에서 차원으로 사용할 수 없으며 [데이터 피드](../export/analytics-data-feed/data-feed-overview.md)에만 포함됩니다. 사용 가능한 난독화 설정에 대한 자세한 내용은 관리 안내서의 [일반 계정 설정](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)을 참조하십시오. | 없음 |
 | 사이트에 제공된 양식 정보 | 이 데이터를 수집하려면 모든 구현 유형에 구성이 필요합니다. 이 데이터를 사용자 정의 변수에 포함할 수 있습니다. | [eVar](../components/dimensions/evar.md) |
-| 사이트에서 클릭된 광고 또는 링크 | [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) 또는 [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md)가 활성화된 경우 수집됩니다. 클릭 위치와 같은 추가 정보는 Activity Map을 활성화하면 확인할 수 있습니다. | [Activity Map](../analyze/activity-map/activity-map.md), [종료 링크](../components/dimensions/exit-link.md), [다운로드 링크](../components/dimensions/download-link.md) |
+| 사이트에서 클릭된 광고 또는 링크 | [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) 또는 [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md)가 활성화된 경우 수집됩니다. 클릭 위치와 같은 추가 정보는 Activity Map을 활성화하면 확인할 수 있습니다. | [Activity Map](../analyze/activity-map/overview.md), [종료 링크](../components/dimensions/exit-link.md), [다운로드 링크](../components/dimensions/download-link.md) |
 | 사이트에서 구매한 제품 | 이 데이터를 수집하려면 모든 구현 유형에 구성이 필요합니다. Adobe는 이 정보를 수집하기 위해 여러 가지 기본 변수를 제공합니다. | [제품](../components/dimensions/product.md), [주문](../components/metrics/orders.md), [매출](../components/metrics/revenue.md) |
 
 {style="table-layout:auto"}

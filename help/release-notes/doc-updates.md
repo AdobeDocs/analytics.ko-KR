@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
+source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
-source-wordcount: '5811'
-ht-degree: 98%
+source-wordcount: '5806'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 98%
 | 예외 항목 탐지 및 기여도 분석 설명서 업데이트 | 예외 항목 탐지 및 기여도 분석에 대한 설명서는 가상 분석가와 관련된 이전 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li><li>기여도 분석 설명서가 예외 항목 탐지 설명서에 병합되었습니다.</li></ul> |
 | “Attribution IQ”가 “속성”으로 변경되었습니다. | 설명서 내용 전체에서 “Attribution IQ”의 모든 인스턴스를 “[속성](/help/analyze/analysis-workspace/attribution/overview.md)”으로 변경했습니다. |
 | **2023년 11월** | |
-| Activity Map 활성화/활성화 항목 업데이트 | [Web SDK](https://experienceleague.adobe.com/ko/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html)(수동 및 Adobe Experience Platform 태그 확장 기능을 통해) 콘텐츠가 추가되었습니다. |
+| Activity Map 활성화/활성화 항목 업데이트 | [Web SDK](/help/analyze/activity-map/getting-started.md)(수동 및 Adobe Experience Platform 태그 확장 기능을 통해) 콘텐츠가 추가되었습니다. |
 | **2023년 10월** | |
 | 보고 활동 관리자에 로그 정보가 추가되었습니다. | 보고 활동 관리자에서 [보고 활동의 취소 및 이후 제한 사항](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)이 [로그](/help/admin/admin/logs.md)에 캡처된다는 정보를 추가했습니다. |
 | Data Warehouse 구성 요소 지원 업데이트 | Data Warehouse의 일부 구성 요소에 대한 가용성을 추가하고 다른 구성 요소의 가용성을 제거했습니다. 이들 변경 사항은 [Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md)에 반영됩니다. <ul><li>방문 깊이 차원에 대한 지원 추가됨 (지원되지 않는 차원 목록에서 방문 깊이가 제거됨)</li><li>참여도 지표에 대한 지원 제거됨 (지원되지 않는 지표 목록에 참여도 지표 추가됨)</li><li>연도, 분기, 월, 주, 일, 시간 및 분과 같은 시간 기반 차원에 대한 지원 추가됨 (지원되지 않는 차원 목록에서 이들 차원 제거됨) <p>이전에는 Data Warehouse가 세부 기간이 선택된 경우 자유 형식 테이블의 첫 번째 열에서만 이들 차원을 지원했습니다. 이제 이들 차원이 항상 지원됩니다.</p><p>단, 이들 차원을 사용할 때 날짜 출력은 표준이 아닙니다. 연도는 1900으로 오프셋되고 월은 0부터 시작합니다.</li></ul> |
@@ -111,7 +111,7 @@ ht-degree: 98%
 | 프로젝트 세그먼트 (애드혹 및 빠른 세그먼트) | 프로젝트 세그먼트에 대한 문서가 간소화되고 중복된 정보가 제거되었습니다. 애드혹 세그먼트를 만드는 단계는 이제 [빠른 세그먼트를 만드는 단계](/help/analyze/analysis-workspace/components/segments/quick-segments.md)와 결합됩니다. |
 | 동적 조회 | [동적 조회](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)에 대한 추가 정보가 추가되었습니다. 이전에는 여러 동적 조회 중 하나인 모바일 속성에 대한 정보만 존재했습니다. |
 | **2023년 3월** | |
-| Activity Map에 대한 Web SDK 지원 | [Adobe Analytics 구현](/help/implement/home.md) 및 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md)가 업데이트되었습니다. |
+| Activity Map에 대한 Web SDK 지원 | [Adobe Analytics 구현](/help/implement/home.md)을 업데이트했습니다. |
 | 트래픽 변수(prop) 개요 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. “트래픽 변수 보고서 사용”이라는 제목의 문서의 콘텐츠를 병합하고 해당 문서를 제거했습니다. [트래픽 변수(prop) 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 보기 |
 | 내부 URL 필터 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. [내부 URL 필터 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) 보기 |
 | 모바일 스코어카드의 데이터 스토리 만들기 | [데이터 스토리](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)는 지원 데이터 포인트, 비즈니스 컨텍스트 그리고 하나의 중심 주제 또는 지표를 중심으로 구축된 관련 지표의 모음입니다. |

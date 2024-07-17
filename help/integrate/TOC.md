@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 통합 안내서
 breadcrumb-title: 통합 안내서
 user-guide-description: Audience Manager, Advertising Cloud 등 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
-source-git-commit: 241a3a6c7df71838d15e8479d47ef88f758c5848
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 96%
+source-wordcount: '151'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
       + [Analytics 대상 만들기 - Adobe Audience Manager 안내서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ko-KR)
       + [Analytics에서 대상 데이터 사용](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 활용 사례](c-audience-analytics/aam-audience-use-cases.md)
-      + [FAQ](c-audience-analytics/mc-audiences-faqs.md)
+      + [자주 묻는 질문](c-audience-analytics/mc-audiences-faqs.md)
       + [방문자 수 차이](c-audience-analytics/visitor-count-reconciliation.md)
       + [Analytics 및 Audience Manager의 세그먼트 이해](c-audience-analytics/aam-analytics-segments.md)
 + Advertising Analytics {#advertising-analytics}
@@ -37,11 +37,10 @@ ht-degree: 96%
       + [Adobe Analytics의 광고 데이터에 대한 보고서](c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)
       + [광고 계정 관리](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 문제 해결](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
-   + [FAQ](c-advertising-analytics/aa-faq.md)
+   + [자주 묻는 질문](c-advertising-analytics/aa-faq.md)
 + [Advertising Cloud용 Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=ko-KR)
 + [Target용 Adobe Analytics - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
 + [Adobe Analytics의 Adobe Campaign 보고](adobe-campaign.md)
 + [Adobe Analytics 데이터를 Adobe Campaign Classic과 통합](analytics-to-campaign-classic.md)
 + [AEM Assets 보고](aem-assets-reporting.md)
-+ [Activity Map 보고](activitmap-reporting.md)
 + [Adobe Exchange](https://exchange.adobe.com)

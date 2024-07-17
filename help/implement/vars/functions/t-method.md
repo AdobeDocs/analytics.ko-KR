@@ -4,7 +4,7 @@ description: Adobe에 페이지 보기 추적 호출을 보냅니다.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 56%
@@ -32,7 +32,7 @@ s.t();
 `t()` 메서드 실행에서는 정의된 모든 Analytics 변수를 사용하고 해당 변수를 기반으로 URL을 생성합니다. 일부 Analytics 변수는 이미지의 URL을 결정하고, 또 다른 변수는 쿼리 문자열 매개 변수 값을 결정합니다.
 
 ```text
-https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
+https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 ```
 
 Adobe는 이미지 요청을 받은 다음, 요청 헤더, URL 및 쿼리 문자열 매개 변수를 구문 분석합니다. 그러면 데이터 수집 서버가 사이트에는 보이지 않게 표시되는 투명한 1x1 픽셀 이미지를 반환합니다.
@@ -44,12 +44,12 @@ Adobe는 이미지 요청을 받은 다음, 요청 헤더, URL 및 쿼리 문자
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-1. 아래 [!UICONTROL 작업]을 클릭하고 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘 을 클릭하여 작업을 추가합니다.
-1. 설정 [!UICONTROL 확장] 드롭다운 목록 **[!UICONTROL Adobe Experience Platform 웹 SDK]** 및 [!UICONTROL 작업 유형] 끝 **[!UICONTROL 이벤트 보내기]**.
+1. [!UICONTROL 작업]에서 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘을 클릭하여 작업을 추가합니다.
+1. [!UICONTROL 확장] 드롭다운 목록을 **[!UICONTROL Adobe Experience Platform Web SDK]**(으)로 설정하고 [!UICONTROL 작업 유형]을(를) **[!UICONTROL 이벤트 보내기]**(으)로 설정합니다.
 
 ## 웹 SDK를 수동으로 구현하는 이벤트 보내기
 
-사용 `sendEvent` Adobe에 데이터를 보내는 명령입니다. 데이터 스트림은 이 데이터를 수신하고, 구성된 매핑을 적용하고, 해당 데이터 스트림에 추가된 서비스인 경우 해당 데이터를 Adobe Analytics에 전달합니다.
+`sendEvent` 명령을 사용하여 데이터를 Adobe으로 보냅니다. 데이터 스트림은 이 데이터를 수신하고, 구성된 매핑을 적용하고, 해당 데이터 스트림에 추가된 서비스인 경우 해당 데이터를 Adobe Analytics에 전달합니다.
 
 ```js
 alloy("sendEvent", {
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-다음을 참조하십시오 [이벤트 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko-KR) 자세한 내용은 Web SDK 설명서 를 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [이벤트 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko-KR)을 참조하십시오.
 
 ## Adobe Analytics 확장을 사용한 페이지 보기 추적 호출
 
@@ -66,8 +66,8 @@ Adobe Experience Platform 데이터 수집의 Adobe Analytics 확장에는 페�
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-1. 아래 [!UICONTROL 작업]를 클릭하고 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘 을 클릭하여 작업을 추가합니다.
-1. 설정 [!UICONTROL 확장] 드롭다운 목록 **[!UICONTROL Adobe Analytics]**&#x200B;및 [!UICONTROL 작업 유형] 끝 **[!UICONTROL 비콘 보내기]**.
+1. [!UICONTROL 작업]에서 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘을 클릭하여 작업을 추가합니다.
+1. [!UICONTROL 확장] 드롭다운 목록을 **[!UICONTROL Adobe Analytics]**(으)로 설정하고 [!UICONTROL 작업 유형]을(를) **[!UICONTROL 비콘 보내기]**(으)로 설정합니다.
 1. `s.t()` 라디오 버튼을 클릭합니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.t() 메서드
