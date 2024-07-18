@@ -3,9 +3,9 @@ description: GitHub의 Adobe Analytics Admin API에 대한 링크.
 title: Adobe Analytics 1.4 API EOL FAQ
 feature: Admin Tools
 role: Admin
-source-git-commit: 0aaeb60528f8ff1b1067f059710c9d9fa8e1886f
+source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,11 @@ A: Adobe Analytics 2.0 API는 1.4 API와 동일하지 않지만 다음과 같은
 
 Q: **이(가) 데이터 수집에 영향을 줍니까?**
 
-A: Adobe Analytics 1.4 EOL은 태그(이전 Adobe Launch), WebSDK 또는 AppMeasurement.js와 같은 태그 지정 솔루션에 영향을 주지 않습니다. 그러나 1.4 데이터 소스, 데이터 삽입 또는 분류 API를 사용하여 데이터를 수집하거나 향상시키는 경우 이러한 워크플로우를 Adobe Analytics 2.0 API로 마이그레이션해야 합니다. 자세한 내용은 [2.0 API 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/)를 참조하십시오.
+A: Adobe Analytics 1.4 EOL은 태그(이전 Adobe Launch), WebSDK 또는 AppMeasurement.js와 같은 태그 지정 솔루션에 영향을 주지 않습니다. 그러나 1.4 데이터 소스 또는 분류 API를 사용하여 데이터를 수집하거나 향상시키는 경우 이러한 워크플로우를 Adobe Analytics 2.0 API로 마이그레이션해야 합니다. 자세한 내용은 [2.0 API 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/)를 참조하십시오.
+
+Q: **데이터 삽입 API에 영향을 미칩니까?**
+
+A: 아니요. 데이터 삽입 API는 Adobe Analytics 1.4 EOL의 영향을 받지 않습니다.
 
 Q: **이 FAQ에서 질문에 대한 답변을 받지 못한 경우 어떻게 해야 합니까?**
 
