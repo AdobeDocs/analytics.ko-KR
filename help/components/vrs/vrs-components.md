@@ -24,10 +24,10 @@ ht-degree: 94%
 
 구성 요소 큐레이션을 사용하려면 다음을 수행하십시오.
 
-1. 다음으로 이동 **[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]** > **[!UICONTROL 새 가상 보고서 세트 만들기]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]** > **[!UICONTROL 새 가상 보고서 세트 만들기]**(으)로 이동합니다.
 1. **[!UICONTROL 설정]**&#x200B;을 정의한 후 **[!UICONTROL 구성 요소]** 탭을 클릭합니다.
 
-1. 확인란 선택 **[!UICONTROL 가상 보고서 세트 구성 요소 사용자 지정 사용]**:
+1. **[!UICONTROL 가상 보고서 세트 구성 요소의 사용자 지정 사용]** 확인란을 선택하십시오.
 
    ![](assets/vrs-enable.png)
 

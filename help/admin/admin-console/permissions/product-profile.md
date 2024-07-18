@@ -34,7 +34,7 @@ ht-degree: 93%
 Adobe Analytics에 액세스하기 위해 제품 프로필에 필요한 최소 권한은 다음과 같습니다.
 
 * 제품 프로필에 하나 이상의 보고서 세트에 대한 액세스 권한이 있어야 합니다.
-* 제품 프로필이 Analytics 도구 권한 항목에 속해야 합니다. **Analysis Workspace 액세스**.
+* 제품 프로필이 Analytics 도구 권한 항목 **Analysis Workspace 액세스**&#x200B;에 속해 있어야 합니다.
 
 ### 보고서 세트
 

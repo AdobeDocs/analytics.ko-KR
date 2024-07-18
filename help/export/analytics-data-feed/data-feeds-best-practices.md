@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 88%
 
 ---
@@ -27,4 +27,4 @@ ht-degree: 88%
 
 * FTP를 사용하는 경우 (권장되지 않음) FTP 사이트에 충분한 공간이 있는지 확인하십시오. 예기치 않게 디스크 공간이 부족하지 않도록 정기적으로 대상에서 파일을 제거하십시오.
 
-* sFTP를 사용하는 경우 (권장되지 않음) `.part` 접미사. `.part` 접미사는 파일이 부분적으로 전송되었음을 나타냅니다. 파일이 전송되면 `.part` 접미사는 사라집니다.
+* sFTP를 사용하는 경우(권장되지 않음) `.part` 접미사가 있는 파일을 읽거나 삭제하지 마십시오. `.part` 접미사는 파일이 부분적으로 전송되었음을 나타냅니다. 파일이 전송되면 `.part` 접미사는 사라집니다.

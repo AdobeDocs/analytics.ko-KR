@@ -31,7 +31,7 @@ ht-degree: 97%
 
 1. **브라우저 콘솔을 사용하여 데이터 계층의 유효성 검사**: 데이터 계층이 만들어지면 브라우저의 개발자 콘솔을 사용하여 데이터 계층이 작동하는지 확인할 수 있습니다. `F12` 키를 사용하면 대부분의 브라우저에서 개발자 콘솔을 열 수 있습니다. 변수 값의 예는 `adobeDataLayer.page.title`입니다.
 1. **Adobe Experience Platform 데이터 수집을 사용하여 데이터 레이어 오브젝트를 데이터 요소에 매핑**: 이 단계는 조직의 구현 방법에 따라 다릅니다.
-   * **웹 SDK를 사용하는 경우**: 원하는 데이터 레이어 오브젝트를 Adobe Experience Platform Edge의 원하는 XDM 필드에 매핑합니다. 다음을 참조하십시오 [Analytics XDM 변수 매핑](../aep-edge/xdm-var-mapping.md) 원하는 데이터 레이어 매핑을 결정합니다.
+   * **웹 SDK를 사용하는 경우**: 원하는 데이터 레이어 오브젝트를 Adobe Experience Platform Edge의 원하는 XDM 필드에 매핑합니다. 원하는 데이터 레이어 매핑을 확인하려면 [Analytics XDM 변수 매핑](../aep-edge/xdm-var-mapping.md)을 참조하십시오.
    * **Analytics 확장을 사용하는 경우**: Adobe Experience Platform 데이터 수집의 태그 아래에 데이터 요소를 만들고 원하는 데이터 레이어 오브젝트에 할당합니다. 그런 다음 Analytics 확장 내에서 각 데이터 요소를 적절한 Analytics 변수에 할당합니다.
 
 ## 사양

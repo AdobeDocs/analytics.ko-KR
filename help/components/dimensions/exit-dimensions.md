@@ -7,13 +7,13 @@ exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 종료 차원
 
-*[이 도움말 페이지에서는 종료가 차원으로 작동하는 방식을 설명합니다](overview.md). 종료가 지표로 작동하는 방식에 대한 자세한 내용은 [종료](../metrics/exits.md) 지표를 참조하십시오.*
+*이 도움말 페이지에서는 종료가 [차원](overview.md)(으)로 작동하는 방식을 설명합니다. 종료가 지표로 작동하는 방식에 대한 자세한 내용은 [종료](../metrics/exits.md) 지표를 참조하십시오.*
 
 종료 차원은 마지막 차원 항목을 기록하고 이 값을 해당 방문의 모든 히트에 소급하여 적용합니다. 종료 차원은 보고서 세트 설정의 [트래픽 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 아래에서 경로 지정이 활성화된 모든 변수에 사용할 수 있습니다.
 

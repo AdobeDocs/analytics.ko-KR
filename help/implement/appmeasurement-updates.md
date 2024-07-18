@@ -17,41 +17,41 @@ JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-에서 최신 버전의 AppMeasurement을 다운로드할 수 있습니다. [GitHub](https://github.com/adobe/appmeasurement/releases).
+[GitHub](https://github.com/adobe/appmeasurement/releases)에서 최신 버전의 AppMeasurement을 다운로드할 수 있습니다.
 
 ## 버전 2.26.0
 
 릴리스 일자: **2024년 3월 4일 화요일**
 
-* AppMeasurement은 이전에 특정 쿠키 도메인 구성이 필요했던 국가 코드 최상위 도메인에 대한 루트 도메인을 자동으로 인식하고 활용합니다. 이러한 자동 인식으로 인해 업데이트에 영향을 줄 수 있습니다. 다음을 참조하십시오 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 추가 정보.
+* AppMeasurement은 이전에 특정 쿠키 도메인 구성이 필요했던 국가 코드 최상위 도메인에 대한 루트 도메인을 자동으로 인식하고 활용합니다. 이러한 자동 인식으로 인해 업데이트에 영향을 줄 수 있습니다. 자세한 내용은 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md)을(를) 참조하십시오.
 * 배포에는 ID 서비스 라이브러리 5.5.0 및 Data Integration Library 9.6이 포함됩니다.
 
 ## 버전 2.25.0
 
 릴리스 일자: **2023년 9월 12일 수요일**
 
-* 선택적 메서드를 추가했습니다. [`bufferRequests()`](vars/functions/bufferrequests.md) 브라우저가 비콘 API를 지원하지 않거나 페이지 언로드 시 요청을 취소하는 경우 요청 캡처의 안정성을 향상시킵니다.
+* 브라우저가 Beacon API를 지원하지 않거나 페이지 언로드 시 요청을 취소하는 경우 요청을 캡처하는 안정성을 높이기 위해 선택적 메서드 [`bufferRequests()`](vars/functions/bufferrequests.md)을(를) 추가했습니다.
 * 단일 추적 요청에 대한 여러 추적 후 콜백을 방지하는 보호 장치가 추가되었습니다.
 
 ## 버전 2.24.0
 
 릴리스 일자: **2023년 7월 18일 수요일**
 
-* 선택적 구성 변수를 추가했습니다. [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) 더블바이트로 인코딩된 문자가 포함된 링크 URL을 디코딩합니다.
+* 더블바이트로 인코딩된 문자가 포함된 링크 URL을 디코딩하기 위해 선택적 구성 변수 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md)을(를) 추가했습니다.
 * 높은 엔트로피 사용자 에이전트 클라이언트 힌트 API가 잘못된 브라우저에 대한 추가 오류 처리가 추가되었습니다.
-* 사용할 POST Content-Type 헤더를 변경했습니다. `x-www-form-urlencoded` 기본적으로.
+* 기본적으로 `x-www-form-urlencoded`을(를) 사용하도록 POST Content-Type 헤더를 변경했습니다.
 
 ## 버전 2.23.0
 
 릴리스 일자: **2022년 9월 23일**
 
-* AppMeasurement는 이제 Chromium 브라우저(Google Chrome 및 Microsoft Edge)가 디바이스 정보를 제공하는 데 사용하는 높은 엔트로피 사용자 에이전트 클라이언트 힌트 수집을 지원합니다. 태그를 통해 클라이언트 힌트를 구성하거나 [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) 구성 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다. 높은 엔트로피 힌트 수집은 기본적으로 비활성화되어 있습니다. 사용자 에이전트 [클라이언트 힌트](/help/technotes/client-hints.md)에 대해 자세히 알아보십시오.
+* AppMeasurement는 이제 Chromium 브라우저(Google Chrome 및 Microsoft Edge)가 디바이스 정보를 제공하는 데 사용하는 높은 엔트로피 사용자 에이전트 클라이언트 힌트 수집을 지원합니다. 태그를 통해 클라이언트 힌트를 구성하거나 [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) 구성 변수를 사용할 수 있습니다. 높은 엔트로피 힌트 수집은 기본적으로 비활성화되어 있습니다. 사용자 에이전트 [클라이언트 힌트](/help/technotes/client-hints.md)에 대해 자세히 알아보십시오.
 
 ## 버전 2.22.4
 
 릴리스 일자: **2022년 1월 18일**
 
-* 링크 추적 호출 `s.tl()`은(는) 이제 전달된 오브젝트에 유형 `string`의 `href` 속성이 포함되어 있는지 확인합니다. 가 아닌 경우 `string`를 입력하면 를 정상적으로 무시합니다. `href` 실패하는 대신 속성을 사용합니다. 이 시나리오는 다음을 통과할 때 발생할 수 있습니다. `svg` 링크 추적 호출에 대한 개체입니다.
+* 링크 추적 호출 `s.tl()`은(는) 이제 전달된 오브젝트에 유형 `string`의 `href` 속성이 포함되어 있는지 확인합니다. `string`이(가) 아닌 경우 실패하는 대신 `href` 특성을 정상적으로 무시합니다. 이 시나리오는 `svg`개의 개체를 링크 추적 호출에 전달할 때 발생할 수 있습니다.
 
 ## 버전 2.22.3
 
@@ -63,7 +63,7 @@ JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 
 릴리스 일자: **2021년 9월 7일**
 
-* 이 업데이트로 인해 링크를 추적할 때 `opt.dmp` 및 `opt.sell`가 항상 포함됩니다. 다음을 참조하십시오. [개인 정보 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 자세한 내용은 관리자 안내서를 참조하십시오.
+* 이 업데이트로 인해 링크를 추적할 때 `opt.dmp` 및 `opt.sell`가 항상 포함됩니다. 자세한 내용은 관리자 가이드의 [개인 정보 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)를 참조하십시오.
 
 ## 버전 2.22.1
 
@@ -347,7 +347,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 릴리스 일자: **2015년 9월 17일**
 
 * 방문자 API 1.5.2 포함
-* 업데이트됨 [!DNL Audience Manager] VisitorAPI.js에서 Adobe Audience Manager DIL 6.2 - getCustomer ID를 사용하여 /event 호출로 Adobe Audience Manager에 전달하는 모듈입니다. (AN-104978)
+* VisitorAPI.js에서 Adobe Audience Manager DIL 6.2 - getCustomer ID를 사용하여 /event 호출로 Adobe Audience Manager에 전달하도록 [!DNL Audience Manager] 모듈이 업데이트되었습니다. (AN-104978)
 
 ## 버전 1.5
 
@@ -383,7 +383,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 릴리스 일자: **2015년 2월 19일**
 
 * 지연된 추적 호출의 모든 처리가 일관되도록 했습니다. 이에 따라 클릭한 오브젝트와 같이 지연 동안 백업한 변수 관련 문제가 수정되었습니다.
-* 두 번째, 세 번째 등의 추적 호출(일반적으로 링크 추적)이 두 번 계산되지 않도록 첫 번째 추적 호출 이후에 자동 레퍼러 추적을 수행하지 않도록 변경되었습니다. *`s.referrer`* 가 수동으로 설정되었을 때 두 번째, 세 번째 등의 추적 호출 (일반적으로 링크 추적)에서 레퍼러가 두 번 계산되지 않도록 첫 번째 추적 호출 이후에 자동 레퍼러 추적을 수행하지 않도록 변경되었습니다.
+* *`s.referrer`*&#x200B;이(가) 수동으로 설정되었을 때 두 번째, 세 번째 등의 추적 호출(일반적으로 링크 추적)이 두 번 계산되지 않도록 첫 번째 추적 호출 이후에 자동 레퍼러 추적을 수행하지 않도록 변경되었습니다.
 * 배포 zip이 방문자 API 1.3.5를 포함하도록 업데이트되었습니다.
 
 ## 버전 1.4.2

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 91%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 91%
 1. 적절한 보고서 세트를 선택합니다.
 1. 왼쪽의 트리 보기에서 **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 페이지 폴아웃]**&#x200B;을 선택합니다.
 
-   ![Report Builder 디렉토리에 대한 Windows 트리 보기를 보여 주는 스크린샷입니다. 페이지 폴아웃이 선택되어 있습니다.](assets/page_fallout.png)
+   ![Report Builder 디렉터리에 대한 Windows 트리 보기를 보여 주는 스크린샷입니다. 페이지 폴아웃을 선택했습니다.](assets/page_fallout.png)
 
 1. 적절한 [날짜 범위](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)를 구성합니다.
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.

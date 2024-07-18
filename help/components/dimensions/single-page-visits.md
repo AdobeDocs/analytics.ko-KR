@@ -6,13 +6,13 @@ exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 단일 페이지 방문 횟수
 
-*[이 도움말 페이지에서는 &#39;단일 페이지 방문 횟수&#39;가 차원으로 작동하는 방식을 설명합니다](overview.md). 자세한 내용은 [단일 페이지 방문 횟수](../metrics/single-page-visits.md) 지표를 참조하십시오.*
+*이 도움말 페이지에서는 &#39;단일 페이지 방문 횟수&#39;가 [차원](overview.md)(으)로 작동하는 방식을 설명합니다. 자세한 내용은 [단일 페이지 방문 횟수](../metrics/single-page-visits.md) 지표를 참조하십시오.*
 
 단일 페이지 방문 횟수 차원은 하나의 고유한 [페이지](page.md) 차원 항목으로 이루어진 방문 횟수를 보고합니다. [단일 페이지 방문 횟수](../metrics/single-page-visits.md) 지표의 차원 양식입니다.
 

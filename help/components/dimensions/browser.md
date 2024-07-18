@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
 source-git-commit: 206df584deab5f6f9b8eeb09d9c8ad4983424eea
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 59%
+source-wordcount: '195'
+ht-degree: 58%
 
 ---
 
 # 브라우저
 
-&#39;[!UICONTROL 브라우저]&#39; [차원](overview.md) 히트를 전송하는 브라우저의 이름과 버전을 보고합니다. 이 차원은 방문자가 사용하는 가장 일반적인 브라우저를 측정하려는 경우에 유용합니다. 사이트의 새 버전을 테스트할 때 이 차원의 상위 브라우저에서 이러한 테스트를 실행하여 품질 관리 노력을 극대화할 수 있습니다.
+&#39;[!UICONTROL 브라우저]&#39; [차원](overview.md)에서 히트를 보내는 브라우저의 이름과 버전을 보고합니다. 이 차원은 방문자가 사용하는 가장 일반적인 브라우저를 측정하려는 경우에 유용합니다. 사이트의 새 버전을 테스트할 때 이 차원의 상위 브라우저에서 이러한 테스트를 실행하여 품질 관리 노력을 극대화할 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 Adobe 내부의 조회 테이블을 참조합니다. 조회 값은 이미지 요청에 있는 `User-Agent` HTTP 헤더를 기반으로 합니다. 와 파트너 Adobe [DeviceAtlas](https://deviceatlas.com/) 사용자 에이전트와 브라우저 간 조회를 유지 관리합니다.
+이 차원은 Adobe 내부의 조회 테이블을 참조합니다. 조회 값은 이미지 요청에 있는 `User-Agent` HTTP 헤더를 기반으로 합니다. Adobe은 사용자 에이전트와 브라우저 간 조회를 유지 관리하기 위해 [DeviceAtlas](https://deviceatlas.com/)와(과) 파트너 관계를 맺고 있습니다.
 
 * AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
-* 웹 SDK 구현의 경우 다음을 활성화합니다 [!UICONTROL 장치 조회] 조건 [데이터스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR).
+* Web SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)할 때 [!UICONTROL 장치 조회]를 사용하도록 설정하십시오.
 
 ## 차원 항목
 

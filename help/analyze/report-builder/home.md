@@ -1,13 +1,13 @@
 ---
-title: Adobe Analytics용 Report Builder
-description: Report Builder을 사용하여 Adobe Analytics 데이터를 Microsoft Excel로 직접 가져오는 방법에 대해 알아봅니다.
+title: Adobe Analytics용 Report Builder 정보
+description: Report Builder를 사용하여 Adobe Analytics 데이터를 Microsoft Excel로 직접 가져오는 방법에 대해 알아봅니다.
 feature: Workspace Basics
 role: User, Admin
 exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Report Builder는 Microsoft Excel용 추가 기능입니다. Adobe Analyti
 * [설정, 설치 및 로그인](setup/login.md)
 * [보고서 요청 예약을 참조하십시오.](schedule-report-requests.md)
 * [Report Builder 문제 해결 및 모범 사례](troubleshoot.md)
-* [사용자 지정 날짜 범위를 만들기 위해 어떤 선택을 할 수 있습니까?](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
+* [사용자 정의 날짜 범위를 만들기 위해 어떤 선택을 할 수 있습니까?](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
 * [Report Builder에서 왜 내 세그먼트가 표시되지 않습니까?](data-requests/segmentation.md)
 
 ## 일반적인 질문 및 문제 해결

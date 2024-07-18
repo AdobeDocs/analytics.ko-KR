@@ -34,7 +34,7 @@ Adobe Experience Platform 데이터 수집의 Analytics 확장은 페이지 URL�
 2. 원하는 태그 속성을 클릭합니다.
 3. **[!UICONTROL 규칙]** 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. **[!UICONTROL 작업]**&#x200B;에서 기존 **[!UICONTROL Adobe Analytics - 변수 설정]** 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 설정 **[!UICONTROL 확장]** Adobe Analytics 드롭다운 목록 **[!UICONTROL 작업 유형]** 끝 **[!UICONTROL 변수 설정]**.
+5. **[!UICONTROL 확장]** 드롭다운 목록을 Adobe Analytics으로 설정하고 **[!UICONTROL 작업 유형]**&#x200B;을(를) **[!UICONTROL 변수 설정]**(으)로 설정합니다.
 6. **[!UICONTROL 페이지 URL]** 섹션을 찾습니다.
 
 페이지 URL을 어떤 문자열 값으로든 설정할 수 있습니다.

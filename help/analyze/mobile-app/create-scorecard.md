@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2500'
 ht-degree: 81%
 
 ---
@@ -37,7 +37,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 ### 새 프로젝트 만들기 {#create}
 
 1. Adobe Analytics를 열고 **[!UICONTROL 작업 영역]** 탭을 클릭합니다.
-1. 클릭 **[!UICONTROL 프로젝트 만들기]** 및 선택 **[!UICONTROL 빈 모바일 스코어카드]** 프로젝트 템플릿.
+1. **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭하고 **[!UICONTROL 빈 모바일 스코어카드]** 프로젝트 템플릿을 선택합니다.
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
 ![스코어카드 템플릿](assets/new_template.png)
@@ -55,7 +55,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
    ![보고서 세트 선택](assets/properties_save.png)
 
-1. 스코어카드에 새 타일을 추가하려면 왼쪽 패널의 지표를 드래그하여 **[!UICONTROL 여기에 지표 끌어다 놓기]** 영역. 비슷한 작업 과정을 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
+1. 스코어카드에 새 타일을 추가하려면 왼쪽 패널의 지표를 **[!UICONTROL 여기에 지표 끌어다 놓기]** 영역으로 끌어다 놓습니다. 비슷한 작업 과정을 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
 
    ![타일 추가](assets/build_list.png)
 
@@ -74,7 +74,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 바로 드롭합니다.
 
-스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. 본인 [스코어카드에 필터 구성 및 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) Adobe Analytics Workspace에서와 동일한 방식입니다.
+스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe Analytics Workspace에서와 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)합니다.
 
 ![필터용 세그먼트 빌드](assets/segment_ui.png)
 
@@ -212,7 +212,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 ## 구성 요소 제거 {#remove}
 
-마찬가지로 전체 스코어카드에 적용된 구성 요소를 제거하려면 타일 바깥쪽에 있는 스코어카드의 아무 곳이나 클릭한 다음 **x** 에 대해 아래에 표시된 대로 구성 요소를 마우스로 가리키면 표시됩니다. **최초 방문** 세그먼트:
+마찬가지로 전체 스코어카드에 적용된 구성 요소를 제거하려면 타일 바깥쪽에 있는 스코어카드의 아무 곳이나 클릭한 다음 **첫 번째 방문** 세그먼트에 대해 아래에 표시된 대로 구성 요소를 마우스로 가리키면 표시되는 **x**&#x200B;을(를) 클릭하여 제거합니다.
 
 ![구성 요소 제거](assets/new_remove.png)
 

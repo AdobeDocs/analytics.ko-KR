@@ -15,8 +15,8 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->다음 정보는 FTP 및 SFTP 대상 유형과 관련되어 있습니다. FTP 및 SFTP는 기존 대상 유형입니다. 데이터 피드를 구성할 때는 보다 안전한 클라우드 대상 유형을 사용해야 합니다. 데이터 피드에 대한 클라우드 대상 유형 구성에 대한 자세한 내용은 [데이터 피드 만들기](/help/export/analytics-data-feed/create-feed.md).
+>다음 정보는 FTP 및 SFTP 대상 유형과 관련되어 있습니다. FTP 및 SFTP는 기존 대상 유형입니다. 데이터 피드를 구성할 때는 보다 안전한 클라우드 대상 유형을 사용해야 합니다. 데이터 피드에 대한 클라우드 대상 형식을 구성하는 방법에 대한 자세한 내용은 [데이터 피드 만들기](/help/export/analytics-data-feed/create-feed.md)를 참조하십시오.
 
 SFTP를 사용하여 외부 FTP 계정으로 전송할 Adobe 데이터를 구성할 수 있습니다.
 
-자세한 내용은 [데이터 피드 만들기](/help/export/analytics-data-feed/create-feed.md).
+자세한 내용은 [데이터 피드 만들기](/help/export/analytics-data-feed/create-feed.md)를 참조하세요.

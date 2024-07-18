@@ -8,7 +8,7 @@ exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 
 이 기능을 사용하면 다음 작업을 수행할 수 있습니다.
 
-* 웹 사이트나 애플리케이션 내의 고객 이동 시각화
+* 웹 사이트나 애플리케이션 내의 고객 여정 시각화
 * 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치 분석
 * 선택한 경로에서 특정 지점을 지정하여 세그먼트 생성
 
@@ -28,13 +28,13 @@ ht-degree: 82%
 
 ## 차원 간 플로우 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-[차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 흐름은 홈 페이지에서 남성 페이지로 이동한 다음, 신발 부문으로 이동할 수 있습니다.
+[차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 흐름은 홈 페이지에서 “남성” 페이지로 이동한 다음 “신발” 부문으로 이동할 수 있습니다.
 
-각 열에는 다른 차원이 표시될 수 있습니다. 차원을 드래그하여 놓기 영역에 놓아 해당 차원을 다이어그램에 추가합니다.
+각 열에는 다른 차원이 표시될 수 있습니다. 차원을 드래그하여 드롭 영역에 놓아 해당 차원을 다이어그램에 추가합니다.
 
 ## 플로우 시각화 구성
 
-플로우 시각화 구성 방법에 대한 자세한 내용은 다음을 참조하십시오. [플로우 시각화 구성](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+플로우 시각화를 구성하는 방법에 대한 자세한 내용은 [플로우 시각화 구성](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)을 참조하십시오.
 
 ## 플로우 다이어그램을 프로젝트 .CSV 파일의 일부로 내보내기 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 

@@ -28,7 +28,7 @@ ht-degree: 69%
 
 1. `.tar.gz` 파일 확장자를 지원하는 프로그램을 사용하여 압축 파일의 압축을 해제합니다.
 
-1. 를 엽니다. `hit_data.tsv` 원하는 스프레드시트나 데이터베이스 응용 프로그램에 파일을 저장하여 해당 날짜의 원시 데이터를 확인합니다. —>
+1. 원하는 스프레드시트나 데이터베이스 애플리케이션에서 `hit_data.tsv` 파일을 열어 해당 날짜의 원시 데이터를 확인합니다. —>
 
 ## 매니페스트 파일 {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 모든 매니페스트 파일에는 조회 파일, 데이터 파일의 총 수, 모든 데이터 파일의 총 레코드 수를 나타내는 헤더가 있습니다. 이 헤더 뒤에는 데이터 피드 배달에 포함된 각 파일에 대한 정보를 포함하는 여러 개의 섹션이 옵니다.
 
-일부 피드는 `.fin` 매니페스트 대신 `.txt` 파일을 받도록 구성되어 있습니다. 다음 `.fin` 업로드가 완료되었으나 포함된 메타데이터가 이전 형식임을 나타냅니다.
+일부 피드는 `.fin` 매니페스트 대신 `.txt` 파일을 받도록 구성되어 있습니다. `.fin`은(는) 업로드가 완료되었으나 업로드에 포함된 메타데이터가 이전 형식임을 나타냅니다.
 
 ## 조회 파일
 
@@ -81,20 +81,20 @@ Datafeed-Manifest-Version: 1.0
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**: 의 열 머리글을 포함하는 단일 행 `hit_data.tsv`.
-* **`browser.tsv`**: 브라우저 ID(를 `browser` 피드 열)을 참조하십시오.
-* **`browser_type.tsv`**: 브라우저 ID(를 `browser` 피드 열)을 참조하십시오.
-* **`color_depth.tsv`**: 색상 심도 ID(를 매핑합니다. `color` 피드 열)에 색상 깊이를 입력합니다.
-* **`connection_type.tsv`**: 연결 유형 ID 매핑 ( `connection_type` 피드 열)을 참조하십시오.
-* **`country.tsv`**: 국가 ID(를 `country` 피드 열)을 국가 이름에 추가합니다.
-* **`javascript_version.tsv`**: JavaScript 버전 ID( `javascript` 피드 열)을 참조하십시오.
-* **`languages.tsv`**: 언어 ID(를 매핑합니다. `language` 피드 열)을 참조하십시오.
-* **`operating_systems.tsv`**: 운영 체제 ID(를 `os` 피드 열)을 참조하십시오.
-* **`plugins.tsv`**: 플러그인 ID(및 `plugin` 피드 열)을 참조하십시오.
-* **`resolution.tsv`**: 해상도 ID(를) 매핑합니다 `resolution` 피드 열)을 모니터 해상도에 추가합니다.
-* **`referrer_type.tsv`**: 레퍼러 유형 ID(를 `ref_type` 피드 열)을 클릭하여 레퍼러 유형을 만듭니다.
-* **`search_engines.tsv`**: 검색 엔진 ID(를 매핑합니다. `search_engine` 피드 열)을 검색 엔진 이름에 추가합니다.
-* **`event.tsv`**: 각 이벤트 ID 매핑 ( `event_list` feed column)을 사용하여 이벤트 이름을 지정합니다.
+* **`column_headers.tsv`**: `hit_data.tsv`의 열 머리글이 포함된 단일 행입니다.
+* **`browser.tsv`**: 브라우저 ID(`browser` 피드 열)를 브라우저의 친숙한 이름에 매핑합니다.
+* **`browser_type.tsv`**: 브라우저 ID(`browser` 피드 열)를 브라우저 유형에 매핑합니다.
+* **`color_depth.tsv`**: 색상 심도 ID(`color` 피드 열)를 색상 심도에 매핑합니다.
+* **`connection_type.tsv`**: 연결 유형 ID(`connection_type` 피드 열)를 연결 유형에 매핑합니다.
+* **`country.tsv`**: 국가 ID(`country` 피드 열)를 국가 이름에 매핑합니다.
+* **`javascript_version.tsv`**: JavaScript 버전 ID(`javascript` 피드 열)를 JavaScript 버전에 매핑합니다.
+* **`languages.tsv`**: 언어 ID(`language` 피드 열)를 언어에 매핑합니다.
+* **`operating_systems.tsv`**: 운영 체제 ID(`os` 피드 열)를 운영 체제 이름에 매핑합니다.
+* **`plugins.tsv`**: 플러그 인 ID(`plugin` 피드 열)를 각 플러그 인 이름에 매핑합니다.
+* **`resolution.tsv`**: 해상도 ID(`resolution` 피드 열)를 모니터 해상도에 매핑합니다.
+* **`referrer_type.tsv`**: 레퍼러 유형 ID(`ref_type` 피드 열)를 레퍼러 유형에 매핑합니다.
+* **`search_engines.tsv`**: 검색 엔진 ID(`search_engine` 피드 열)를 검색 엔진 이름에 매핑합니다.
+* **`event.tsv`**: 각 이벤트 ID(`event_list` 피드 열)를 해당 이벤트 이름에 매핑합니다.
 
 ## 히트 데이터 파일
 
@@ -107,7 +107,7 @@ Adobe가 배달하는 파일은 사용자가 구성한 데이터 피드 유형�
 * `[YYYY-mm-dd]` 는 데이터 피드가 사용되는 시작일을 나타냅니다.
 * `[HHMMSS]` 는 시간별 피드에서만 사용되며 데이터 피드가 사용되는 시작 시간을 나타냅니다.
 * `[compression_suffix]` 는 사용된 압축 유형을 나타냅니다. 일반적으로 데이터 피드는 `tar.gz` 또는 `zip` 파일로 압축됩니다.
-* `[format_suffix]` 는 파일 형식 유형을 나타냅니다. 일반적으로 데이터 피드 파일 형식은 다음과 같습니다. `.tsv`.
+* `[format_suffix]`은(는) 파일 형식의 형식을 참조합니다. 일반적으로 데이터 피드 파일 형식은 `.tsv`입니다.
 
 ### 일별, 단일 파일
 
@@ -139,7 +139,7 @@ Adobe가 배달하는 파일은 사용자가 구성한 데이터 피드 유형�
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-데이터 파일의 압축을 해제하면 각 데이터 파일에 하나의 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` 약 2GB의 압축되지 않은 데이터가 포함된 파일과 필요한 열에 대한 조회 파일이 포함되어 있습니다.
+각 데이터 파일의 압축을 해제하면 약 2GB의 압축되지 않은 데이터가 포함된 단일 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` 파일과 필요한 열에 대한 조회 파일이 포함됩니다.
 
 ## 데이터 파일 크기
 

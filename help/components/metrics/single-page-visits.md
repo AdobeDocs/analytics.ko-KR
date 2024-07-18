@@ -6,7 +6,7 @@ exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *이 도움말 페이지에서는 &#39;단일 페이지 방문 횟수&#39;가 지표로 작동하는 방식을 설명합니다. 자세한 내용은 [단일 페이지 방문 횟수](../dimensions/single-page-visits.md) 차원을 참조하십시오.*
 
-[!UICONTROL 단일 페이지 방문][](overview.md) 지표는 [페이지](../dimensions/page.md) 차원 항목이 전체 방문에 대해 단일의 고유 값만 포함한 방문 수를 표시합니다. 이 지표는 짧은 방문을 보고 싶지만 [[!UICONTROL 바운스]](bounces.md)만큼 엄격한 규칙이 없는 차원의 컨텍스트에서 유용합니다.
+[!UICONTROL 단일 페이지 방문] [지표](overview.md)은(는) 전체 방문에 대해 [페이지](../dimensions/page.md) 차원 항목에 단일 고유 값만 포함된 방문 횟수를 보여줍니다. 이 지표는 짧은 방문을 보고 싶지만 [[!UICONTROL 바운스]](bounces.md)만큼 엄격한 규칙이 없는 차원의 컨텍스트에서 유용합니다.
 
 ## 이 지표의 계산 방법
 

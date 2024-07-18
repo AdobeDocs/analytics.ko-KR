@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 91%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 90%
 
 1. 요청을 만들거나 편집하고 [!UICONTROL 요청 마법사: 2단계]로 진행합니다.
 
-   ![애플리케이션별, 사용자별 및 프로젝트별 필터 옵션을 보여 주는 스크린샷입니다.](/help/admin/admin/assets/filter.png)
+   ![응용 프로그램, 사용자 및 프로젝트별로 필터를 보여 주는 스크린샷입니다.](/help/admin/admin/assets/filter.png)
 
 1. [!UICONTROL 요청 마법사: 2단계]에서 그리드에서 차원 옆에 있는 링크를 클릭한 다음 **[!UICONTROL 필터]**&#x200B;를 선택합니다.
 
-1. 사용 **[!UICONTROL 특정]**.
+1. **[!UICONTROL 특정]**&#x200B;을(를) 사용하도록 설정합니다.
 
-   ![[특정] 옵션이 선택된 페이지 선택 대화 상자의 스크린샷입니다.](assets/choose_page_specific01.png)
+   ![특정 옵션이 선택된 페이지 선택 대화 상자의 스크린샷입니다.](assets/choose_page_specific01.png)
 
 1. 다음 특정 옵션 중 하나를 활성화합니다.
 

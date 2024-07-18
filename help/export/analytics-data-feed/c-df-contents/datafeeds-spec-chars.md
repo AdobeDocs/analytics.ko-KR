@@ -7,7 +7,7 @@ feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '330'
 ht-degree: 90%
 
 ---
@@ -32,7 +32,7 @@ Adobe는 이스케이프 로직을 사용하여 데이터 수집 서버로 전�
 | `\\n` | `\n` 값이 데이터 수집 중에 전송되어 Adobe에서 이스케이프 처리했습니다. |
 | `\\` | `\` 값이 데이터 수집 중에 전송되어 Adobe에서 이스케이프 처리했습니다. |
 
-예를 들어 사이트 방문자는 내부 검색을 사용하고 `"search\nstring"`. eVar1을 `"search\nstring"`, 그리고 해당 값을 Adobe에 보냅니다. Adobe는 이 히트를 수신하고 문자열에 포함된 새 행을 이스케이프 처리합니다. 원시 데이터에 배치된 실제 값은 `"search\\nstring"`.
+예를 들어 사이트 방문자가 내부 검색을 사용하여 `"search\nstring"`을(를) 검색합니다. `"search\nstring"`(으)로 eVar1을 채우고 해당 값을 Adobe으로 보냅니다. Adobe는 이 히트를 수신하고 문자열에 포함된 새 행을 이스케이프 처리합니다. 원시 데이터에 배치된 실제 값은 `"search\\nstring"`입니다.
 
 ## 여러 값이 있는 변수의 특수 문자 (events_list, products_list, mvvars)
 

@@ -20,9 +20,9 @@ ht-degree: 94%
 
 실시간 보고서 구성 페이지에 도달하려면 (관리 권한 필요):
 
-1. 클릭 **[!UICONTROL 작업 영역]** Adobe Analytics 상단 탐색 막대
-1. 선택 **[!UICONTROL 보고서]** 왼쪽 탐색 모음에서 을 클릭합니다.
-1. 선택 **[!UICONTROL 참여]** ![펼침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL 실시간]**. 다음을 수행할 수도 있습니다. ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 실시간으로 검색합니다.
+1. Adobe Analytics 위쪽 탐색 모음에서 **[!UICONTROL Workspace]**&#x200B;를 클릭합니다.
+1. 왼쪽 탐색 모음에서 **[!UICONTROL 보고서]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 참여]** ![V자형 화살표](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL 실시간]**&#x200B;을(를) 선택하십시오. 실시간으로 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)할 수도 있습니다.
 1. 보고서 세트에 실시간 기능이 활성화되지 않은 경우 보고서 세트를 구성하는 링크가 포함된 메시지가 표시됩니다.
 
 Adobe에서는 최대 3개의 실시간 보고서에서 데이터를 동시에 수집할 수 있습니다. 보고서에서 실시간으로 데이터를 수집하기 전에 각 보고서를 구성해야 합니다.

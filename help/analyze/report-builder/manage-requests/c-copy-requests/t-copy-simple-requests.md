@@ -8,7 +8,7 @@ exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 참조 요청이 아닌 간단한 요청을 복사합니다. 단순 요청은 다른 요청이나 셀의 내용을 참조하는 내용이 들어있지 않은 요청입니다.
 
-[참조 요청](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)에서는 데이터 필터나 관계 필터와 같은 매개 변수에 대한 입력으로 셀의 값들을 사용합니다. 이 필터는 일치 또는 트렌딩을 사용하며, 앞선 요청의 결과나 셀의 사용자 입력 내용을 기반으로 하며 입력 셀이라고 부릅니다.
+[참조 요청](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)에서는 데이터 필터나 관계 필터와 같은 매개 변수에 대한 입력으로 셀의 값들을 사용합니다. 이러한 필터는 일치 또는 트렌드를 사용하며, 이전 요청의 결과나 입력 셀이라고 하는 셀의 사용자 입력 내용을 기반으로 합니다.
 
 단순 요청을 복사하려면
 

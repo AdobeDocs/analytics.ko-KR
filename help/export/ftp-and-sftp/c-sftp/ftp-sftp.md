@@ -21,7 +21,7 @@ SFTP는 본인을 제외한 누구도 본인의 데이터를 볼 수 없도록 �
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 및 [Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ko-KR)는 SFTP를 통해 데이터를 푸시할 수 있습니다.
 
-Report Builder **할 수 없음** SFTP를 통해 데이터를 푸시합니다.
+Report Builder **SFTP를 통해 데이터를 푸시할 수 없습니다**.
 
 ## 배달 가져오기 {#section_FA29FAEF02FE40B8B32452146A036F48}
 

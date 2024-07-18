@@ -20,7 +20,7 @@ ht-degree: 75%
 
 ## Analytics 2.0 API
 
-Analytics 2.0 API에 액세스하려면 Analytics 회사의 글로벌 회사 ID가 필요합니다. 에서 글로벌 회사 ID를 찾을 수 있습니다. **굵게** 의 맨 위에 [!UICONTROL API 액세스] 섹션. 예: &quot;현재 로그인한 Analytics 회사의 글로벌 회사 ID는 입니다. **adobe1234**.&quot;
+Analytics 2.0 API에 액세스하려면 Analytics 회사의 글로벌 회사 ID가 필요합니다. [!UICONTROL API 액세스] 섹션의 맨 위에 있는 **bold**&#x200B;에서 글로벌 회사 ID를 찾을 수 있습니다. 예제: &quot;현재 로그인한 Analytics 회사의 글로벌 회사 ID는 **adobe1234**&#x200B;입니다.&quot;
 
 ## 레거시 웹 서비스 관리(더 이상 사용되지 않음)
 

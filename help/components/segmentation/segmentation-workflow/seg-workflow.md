@@ -6,7 +6,7 @@ exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -17,39 +17,39 @@ ht-degree: 100%
 ![](assets/seg_workflow.png)
 
 
-![](assets/step1_icon.png) [ 계획 세그먼트](/help/components/segmentation/segmentation-workflow/seg-plan.md)
+![](assets/step1_icon.png) [계획 세그먼트](/help/components/segmentation/segmentation-workflow/seg-plan.md)
 
 세그먼트를 작성하고 세그먼트 관리 환경을 설정하기 전에 적절한 모든 질문을 했습니까? 의도한 목적 및 고유한 용도에 맞게 세그먼트를 디자인했습니까?
 
-세그먼트 계획 및 구성에 도움을 얻으려면 세그먼트 계획 체크리스트를 참조하십시오.
+세그먼트 계획 및 구성에 대한 도움말은 세그먼트 계획 체크리스트 를 참조하십시오.
 
 ![](assets/step2_icon.png) [세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-build.md)
 
 모든 Analytics 기능에서 사용할 세그먼트를 작성하고 편집합니다.
 
-THEN 연산자를 사용하여 세그먼트를 빌드하는 방법에 대해서는 [순차적 세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)을 참조하십시오.
+THEN 연산자로 세그먼트를 만드는 방법은 [순차적 세그먼트 빌드](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 참조하십시오.
 
-![](assets/step3_icon.png) [ 세그먼트 태깅](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+![](assets/step3_icon.png) [세그먼트 태그 지정](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
 편리한 구성 및 공유를 위해 세그먼트에 태깅합니다. 단순 및 고급 검색 및 조직에 대해 태그를 계획하고 할당하는 방법을 참조하십시오.
 
-![](assets/step4_icon.png) [ 세그먼트 승인](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+![](assets/step4_icon.png) [세그먼트 승인](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 
 세그먼트를 승인하여 표준 세그먼트로 지정합니다.
 
-![](assets/step5_icon.png) [ 세그먼트 적용](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)
+![](assets/step5_icon.png) [세그먼트 적용](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)
 
 보고서, 세그먼트 레일 (세그먼트 표시)에서 직접 세그먼트를 적용할 수 있습니다.
 
-![](assets/step6_icon.png) [ 세그먼트 공유](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+![](assets/step6_icon.png) [세그먼트 공유](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
 
 다른 Analytics 도구, Adobe Target 및 Adobe Experience Cloud에서 의도한 대상과 세그먼트를 공유할 수 있습니다.
 
-![](assets/step7_icon.png) [ 세그먼트 필터링](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+![](assets/step7_icon.png) [세그먼트 필터링](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
 
 태그, 소유자 및 기타 필터 기준 필터링 (모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)
 
-![](assets/step8_icon.png) [ 세그먼트를 즐겨찾기로 표시](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+![](assets/step8_icon.png) [세그먼트를 즐겨찾기로 표시](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
 
 세그먼트를 즐겨찾기로 표시하는 것은 쉽게 사용할 수 있게 구성하는 또 다른 방법입니다.
 

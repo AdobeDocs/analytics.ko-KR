@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!WARNING]
 >
->다음과 같은 추적 호출을 하지 마십시오. [`t()`](t-method.md) 또는 [`tl()`](tl-method.md) 의 내부 `registerPostTrackCallback` 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다. 이 변수에서 추적 호출을 설정하면 이미지 요청의 무한 루프가 발생합니다.
+>`registerPostTrackCallback` 변수 내에서 [`t()`](t-method.md) 또는 [`tl()`](tl-method.md)과(와) 같은 추적 호출을 하지 마십시오. 이 변수에서 추적 호출을 설정하면 이미지 요청의 무한 루프가 발생합니다.
 
 `registerPostTrackCallback` 변수를 호출할 때마다 이미지 요청이 성공적으로 전송된 직후 해당 함수를 실행하도록 후크합니다. 동일한 페이지 로드에서 동일한 함수를 여러 번 등록하지 마십시오.
 
@@ -25,13 +25,13 @@ ht-degree: 72%
 >
 >[`registerPreTrackCallback`](registerpretrackcallback.md)과 `registerPostTrackCallback` 사이에 실행된 함수의 타이밍과 순서는 보장되지 않습니다. 이 두 함수 간에 종속성이 생기지 않도록 하십시오.
 
-## Web SDK 확장을 사용한 사후 추적 콜백
+## Web SDK 확장을 사용한 Post-track 콜백
 
 곧 출시 예정!
 
-## 웹 SDK를 수동으로 구현하는 사후 추적 콜백
+## 웹 SDK를 수동으로 구현하는 Post-track 콜백
 
-데이터를 Adobe에 성공적으로 보낸 후 이벤트를 전송하여 함수를 등록할 때 JavaScript Promise를 사용할 수 있습니다.
+데이터를 Adobe에 성공적으로 보낸 후 이벤트를 전송할 때 JavaScript Promise를 사용하여 함수를 등록할 수 있습니다.
 
 ```js
 alloy("sendEvent",{
@@ -41,9 +41,9 @@ alloy("sendEvent",{
 });
 ```
 
-다음을 참조하십시오 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 자세한 내용은 Web SDK 설명서 를 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)를 참조하십시오.
 
-## Adobe Analytics 확장을 사용하여 사후 추적 콜백 등록
+## Adobe Analytics 확장을 사용하여 Post-track 콜백 등록
 
 Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
 

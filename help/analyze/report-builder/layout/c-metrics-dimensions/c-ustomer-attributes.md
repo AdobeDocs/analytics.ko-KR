@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '127'
 ht-degree: 83%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 * 지표로 구성된 경우 VisAttr은 지표와 &quot;차원&quot;으로 모두 노출됩니다.
 
-  ![지표 및 차원 고객 속성을 보여 주는 스크린샷입니다.](assets/ca_metrics.png)  ![](assets/ca_dimension.png)
+  ![지표 및 차원 고객 특성을 보여 주는 스크린샷입니다.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
 * eVar와 동일한 분류를 지원합니다(모두를 무엇으로든 분류 가능).
 * VisAttr은 모든 eVar 지표를 지원합니다.

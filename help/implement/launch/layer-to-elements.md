@@ -30,8 +30,8 @@ ht-degree: 94%
    ![데이터 요소 만들기](assets/createelement.png)
 
 1. 데이터 요소의 이름을 입력합니다. 추적하려는 데이터 레이어의 JavaScript 변수에 해당하는 간단한 레이블이 될 수 있습니다.
-1. 아래 **[!UICONTROL 확장]** 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 코어]**.
-1. 아래 **[!UICONTROL 데이터 요소 유형]** 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL JavaScript 변수]**. 이 데이터 요소에 매핑할 JavaScript 변수를 입력할 수 있는 텍스트 필드가 오른쪽에 나타납니다.
+1. **[!UICONTROL 확장]** 드롭다운 목록에서 **[!UICONTROL 코어]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 데이터 요소 유형]** 드롭다운 목록에서 **[!UICONTROL JavaScript 변수]**&#x200B;을(를) 선택합니다. 이 데이터 요소에 매핑할 JavaScript 변수를 입력할 수 있는 텍스트 필드가 오른쪽에 나타납니다.
 1. 원하는 Javascript 변수를 일반적으로 데이터 레이어 내에 입력합니다. 예를 들어 조직의 데이터 레이어가 Adobe의 권장 방식과 거의 일치하는 경우 값은 `digitalData.page.pageInfo.pageName`가 될 수 있습니다. 브라우저의 콘솔을 사용하여 JavaScript 변수 구문 및 값의 유효성을 확인할 수 있습니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

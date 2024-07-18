@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # 지능형 경고 - 활용 사례
 
-에 설명된 대로 지능형 경고를 생성할 수 있습니다 [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+[경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)에 설명된 대로 지능형 경고를 만들 수 있습니다.
 
 다음 섹션에서는 경고를 만들 때 고려할 사용 사례에 대해 설명합니다.
 

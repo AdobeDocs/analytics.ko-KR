@@ -16,7 +16,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->관리자는에 설명된 대로 데이터 사전에서 세그먼트(및 기타 구성 요소)를 승인할 수도 있습니다. [데이터 사전에서 구성 요소 항목 편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>관리자는 [데이터 사전의 구성 요소 항목 편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)에 설명된 대로 데이터 사전에서 세그먼트(및 기타 구성 요소)를 승인할 수도 있습니다.
 >
 >데이터 사전에 승인된 모든 세그먼트는 세그먼트 관리자에 반영됩니다. 마찬가지로 세그먼트 관리자에서 승인된 지표는 데이터 사전에 반영됩니다.
 

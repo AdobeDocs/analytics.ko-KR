@@ -18,7 +18,7 @@ ht-degree: 90%
 >
 >FTP는 파일을 공유하는 암호화되지 않은 방법이므로 권장하지 않습니다. 즉, 계정에 사용되는 사용자 이름과 암호뿐만 아니라 파일 내용을 누구든지 가로챌 수 있습니다.
 >
->대신,에 설명된 대로 클라우드 계정을 구성합니다 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md).
+>대신 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md)에 설명된 대로 클라우드 계정을 구성하십시오.
 
 FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
 

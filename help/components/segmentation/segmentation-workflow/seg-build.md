@@ -67,7 +67,7 @@ ht-degree: 97%
 1. **[!UICONTROL 세그먼트]**: 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 보고서 세트 선택기]**: 이 세그먼트가 저장될 보고서 세트를 선택할 수 있습니다. 모든 보고서 세트의 세그먼트를 계속 활용할 수 있습니다.
 1. **[!UICONTROL 세그먼트 미리보기]**: 주요 지표를 미리보기하여 세그먼트가 유효한지와 세그먼트가 얼마나 광범위한지 확인할 수 있습니다. 이 세그먼트를 적용할 경우 표시될 것으로 예상되는 데이터 분류를 표시합니다. 3개의 동심원 및 목록을 표시하여 데이터 세트에 대해 실행된 세그먼트와 일치하는 [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL 방문자] 수 및 비율을 표시합니다. 이 차트는 세그먼트 정의를 만들거나 변경한 직후에 업데이트됩니다.
-1. **[!UICONTROL 제품 호환성]**: 만든 세그먼트가 호환되는 Adobe Analytics 제품(Analysis Workspace, Data Warehouse) 목록을 제공합니다. 대부분의 세그먼트는 모든 제품과 호환됩니다. 그러나 모든 연산자 및 차원이 모든 Analytics 제품(특히 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). 이 차트는 세그먼트 정의를 변경한 직후에 업데이트됩니다.
+1. **[!UICONTROL 제품 호환성]**: 만든 세그먼트가 호환되는 Adobe Analytics 제품(Analysis Workspace, Data Warehouse) 목록을 제공합니다. 대부분의 세그먼트는 모든 제품과 호환됩니다. 그러나 모든 연산자 및 차원이 모든 Analytics 제품(특히 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md))과 호환되는 것은 아닙니다. 이 차트는 세그먼트 정의를 변경한 직후에 업데이트됩니다.
 1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 취소]**: 세그먼트를 저장하거나 취소합니다. **[!UICONTROL 저장]**&#x200B;을 클릭하면 세그먼트를 관리할 수 있는 세그먼트 관리자로 이동됩니다.
 
 
@@ -83,7 +83,7 @@ ht-degree: 97%
 1. 선택한 항목에 대한 값을 입력하거나 선택합니다.
 1. 필요한 경우 **[!UICONTROL And]**, **[!UICONTROL Or]** 또는 **[!UICONTROL Then]** 규칙을 사용하여 컨테이너를 더 추가합니다.
 1. 컨테이너를 배치하고 규칙을 설정한 후에는 오른쪽 위의 유효성 검증 차트에서 세그먼트 결과를 확인합니다. 유효성 검사기는 작성한 세그먼트와 일치하는 페이지 보기, 방문 및 고유한 방문자의 비율 및 절대값을 표시합니다.
-1. 아래 **[!UICONTROL 태그]**, [태그](/help/components/segmentation/segmentation-workflow/seg-tag.md) 기존 태그를 선택하거나 새 태그를 만들어 컨테이너에 추가합니다.
+1. **[!UICONTROL 태그]**&#x200B;에서 기존 태그를 선택하거나 새 태그를 만들어 컨테이너를 [태그](/help/components/segmentation/segmentation-workflow/seg-tag.md)합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 세그먼트를 저장합니다.
 
 이제 여러 가지 방법으로 세그먼트에 태깅하고, 세그먼트를 공유 및 관리할 수 있는 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)가 표시합니다.

@@ -5,8 +5,8 @@ feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 규칙 </p> </td> 
-   <td colname="col2"> <p>엔지니어링 서비스에 문의하려면 Adobe 계정 팀에 문의하십시오. </p> </td> 
+   <td colname="col2"> <p>Adobe 계정 팀에 문의하여 엔지니어링 서비스에 연락합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

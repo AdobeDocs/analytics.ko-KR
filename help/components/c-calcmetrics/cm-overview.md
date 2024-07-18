@@ -29,16 +29,16 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 | [형식 유형 (십진수, 시간, 퍼센트, 통화)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 예 | 예 |
 | [기여도 분석 변경 (기본값, 선형, 기여도 등)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 예 | 예 |
 | [지표 유형 (표준, 전체)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 예 | 예 |
-| 기본 연산자 (더하기, 빼기, 곱하기, 나누기) | 예 | 예 |
+| 기본 연산자(더하기, 빼기, 곱하기, 나누기) | 예 | 예 |
 | [세그먼트 적용](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | 아니요 | 예 |
-| [기본 함수 (수, 절대값, 평균 등)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | 아니요 | 예 |
-| [고급 함수 (회귀, if/then, T 스코어 등)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | 아니요 | 예 |
+| [기본 함수(수, 절대값, 평균 등)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | 아니요 | 예 |
+| [고급 함수(회귀, if/then, T 스코어 등)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | 아니요 | 예 |
 
 ## 기능 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 다음과 같은 작업을 수행할 수 있습니다.
 
-* 다음에 대한 지표 만들기 [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL 예외 항목 탐지], 및 [!UICONTROL 기여도 분석].
+* [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]에서 지표를 만듭니다.
 * 구현을 변경하지 않고도 보고서 실행 시 파생된 세그먼트화된 지표를 만들 수 있습니다. 이러한 지표는 세그먼트를 기반으로 하므로 기록에서 볼 수 있습니다.
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
@@ -62,11 +62,11 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 
 ## 도구 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-다음은 의 간략한 개요입니다. [!UICONTROL 계산된 지표] 도구:
+다음은 [!UICONTROL 계산된 지표] 도구에 대한 간략한 개요입니다.
 
 | 도구 | 기능 |
 |--- |--- |
 | 계산된 지표 빌더에서 계산된 지표를 작성합니다. | <ul><li>고급 할당 모델을 사용하여 계산된 지표 및 고급 계산된 지표를 생성합니다.</li><li>인라인 세그먼트를 지표 공식에 추가</li><li>동일한 보고서에서 세그먼트들을 비교할 수 있습니다. 예를 들어 로컬 방문자와 해외 방문자를 비교할 수 있습니다.</li><li>통계 함수 사용</li><li>상세한 지표 설명을 제공할 수 있습니다(수행하는 작업, 사용할 곳, 사용하지 말아야 곳을 보여줌)</li><li>정의를 새 지표에 복사</li><li>인라인 지표 미리보기 제공</li><li>주어진 사용자 지정 이벤트 (지표)가 상승한다면 이것이 좋은 것인지 나쁜 것인지를 가리키는 지표 극성을 설정할 수 있습니다</li><li>태그 지표</li></ul> |
-| 계산된 지표 관리자 | <ul><li>다른 사용자와 지표 공유&lt;/li><li>지표 승인 및 조정</li><li>사람들이 찾을 수 있도록 지표 구성(태그 지정)</li><li>지표 삭제</li><li>지표 이름 바꾸기</li></ul> |
+| 계산된 지표 관리자 | <ul><li>다른 사용자와 지표 공유&lt;/li<li>지표 승인 및 조정</li><li>사람들이 찾을 수 있도록 지표 구성(태그 지정)</li><li>지표 삭제</li><li>지표 이름 바꾸기</li></ul> |
 | 지표 선택기 레일 | 지표를 검색하고 보고서에 추가/적용할 수 있도록 해 줍니다. 정렬 순서를 변경할 수도 있습니다(옵션: 알파벳, 권장, 자주 사용하는 항목, 최근에 사용한 항목). 또한 보고서 세트를 필터링하여 특정 보고서 세트에서 생성된 지표만 표시할 수 있습니다.  이 지표 선택기에 액세스하려면 보고서 왼쪽에 있는 지표 아이콘을 클릭합니다. |
 | 계산된 지표에 대한 API | Adobe Analytics 2.0 API 세트의 일부. |

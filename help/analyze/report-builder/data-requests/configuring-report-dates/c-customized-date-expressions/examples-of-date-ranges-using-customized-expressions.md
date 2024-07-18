@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 | 예 | 날짜 범위 | 표현식 사용자 지정 | 보고서의 날짜 범위 |
 |---|---|---|---|
-|  |  | **From** | **종료** |  |
+|  | | **시작** | **종료** | |
 | 1 | 2주일 전 | cw-2w | cw-1w-1d | 10월 26일 - 11월 1일 |
 | 2 | 작년 5번째 달의 처음 3일 | cy-1y+4m | cy-1y+4m+2d | 2010년 5월 1일 - 5월 3일 |
 | 3 | 4주일 전부터 시작하여 1주일 전체 | cw-4w | cw-3w-1d | 10월 12일 - 10월 18일 |
@@ -28,7 +28,7 @@ ht-degree: 100%
 | 5 | 1개월(2개월 전부터 시작) | cm-2m | cm-1m-1d | 9월 1일 - 9월 30일 |
 | 6 | 전년도에서 12개월 전 | cm-12m | cm-11m-1d | 2010년 11월 1일 - 11월 30일 |
 
-## 예제에 대한 참고 사항 {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
+## 예제 참고 사항 {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
 **예제 1**
 

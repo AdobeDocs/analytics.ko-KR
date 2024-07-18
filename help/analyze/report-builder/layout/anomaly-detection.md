@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 95%
+source-wordcount: '509'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 * 평균 주문 가격의 급격한 하락
 * 매출액이 낮은 주문의 급등
 * 체험판 등록 급등 또는 하락
-* 랜딩 페이지 보기 수의 하락
+* 랜딩 페이지 조회수의 하락
 * 비디오 버퍼 이벤트의 스파이크
 * 낮은 비디오 비트율의 스파이크
 
@@ -56,7 +56,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-Report Builder가 이러한 값을 선택된 지표에 적용합니다. 예를 들어 페이지 보기 횟수 지표를 선택하고 예외 항목 탐지를 선택하면 *`Page Views Lower Bound`* 지표가 사용됩니다.
+Report Builder가 이러한 값을 선택된 지표에 적용합니다. 예를 들어 페이지 보기 수 지표를 선택하고 예외 항목 탐지를 적용하는 경우 *`Page Views Lower Bound`* 지표가 사용됩니다.
 
 **예외 항목 탐지가 계산되는 방법**
 

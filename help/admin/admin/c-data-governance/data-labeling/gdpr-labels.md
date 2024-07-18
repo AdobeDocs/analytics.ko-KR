@@ -137,7 +137,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 | <ul><li>사용자 정의 성공 이벤트</li><li>머천다이징 eVar</li><li>다중 값 변수 (mvVars)</li><li>계층 변수</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | 분류 | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>트래픽 변수 (Prop)</li><li>상거래 변수 (비머천다이징 eVar)</li></ul> | 모든 레이블 | - |
-| 기타 대부분 변수(*예외 사항은 아래 표 참조*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| 대부분의 다른 변수(*예외 사항은 아래 표 참조*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -262,4 +262,4 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 
 데이터 개인정보 보호 액세스 요청에 대해 반환되는 파일을 생성하는 코드는 처음 세 개의 타임스탬프 변수 중 하나 이상이 액세스 요청에 포함되어야 합니다 (요청 유형에 적용되는 ACC 레이블 있음). 이러한 항목이 포함되지 않은 경우 Custom Hit Time UTC는 ACC-ALL 레이블이 있는 것처럼 처리됩니다.
 
-데이터 개인 정보 보호 액세스 요청에 대해 반환된 히트 레벨 CSV 파일은 unix 타임스탬프에서 이러한 필드의 값을 형식의 날짜/시간 필드로 변환합니다 `YYYY-MM-DD HH:MM:SS` (예: `2018-05-01 13:49:22`). 요약 HTML 파일에서 이러한 타임스탬프 값은 날짜만 포함하도록 잘립니다. `YYYY-MM-DD`를 입력하여 이러한 필드에 대해 발생하는 고유한 값의 수를 줄입니다.
+데이터 개인 정보 보호 액세스 요청에 대해 반환된 히트 수준 CSV 파일은 unix 타임스탬프에서 이러한 필드의 값을 `YYYY-MM-DD HH:MM:SS` 형식의 날짜/시간 필드로 변환합니다(예: `2018-05-01 13:49:22`). 요약 HTML 파일에서 이러한 타임스탬프 값은 이러한 필드에 대해 발생하는 고유한 값의 수를 줄이기 위해 날짜 `YYYY-MM-DD`만 포함하도록 잘립니다.

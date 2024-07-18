@@ -18,9 +18,9 @@ Adobe Analytics에서 실시간 보고서를 설정하는 절차에는 보고서
 
 1. 실시간 보고서를 활성화할 보고서 세트를 선택합니다.
 
-   다음으로 이동 **[!UICONTROL 분석]** > **[!UICONTROL 관리자 > 보고서 세트]**.
+   **[!UICONTROL Analytics]** > **[!UICONTROL 관리자 > 보고서 세트]**(으)로 이동합니다.
 
-1. 클릭 **[!UICONTROL 설정 편집]** > **[!UICONTROL 실시간]**.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 실시간]**&#x200B;을 클릭합니다.
 
 1. 최대 3개의 보고서 (보고서당 지표 한 개와 차원 또는 분류 세 개가 있음)에 대한 실시간 데이터 수집을 설정합니다.
 
@@ -50,5 +50,5 @@ Adobe Analytics에서 실시간 보고서를 설정하는 절차에는 보고서
 
 1. 실시간 보고서를 보려면 다음 위치로 이동합니다.
 
-   **[!UICONTROL 작업 영역]** > **[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 실시간]**.
+   **[!UICONTROL Workspace]** > **[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 실시간]**.
 

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 88%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등
 
 1. [!UICONTROL 요청 마법사: 2단계]에서 그리드에서 차원 옆에 있는 링크를 클릭한 다음 **[!UICONTROL 필터]**&#x200B;를 선택합니다.
 
-   ![애플리케이션, 사용자 및 프로젝트별로 필터링할 수 있는 옵션이 있는 필터 정의 대화 상자를 표시하는 스크린샷입니다.](/help/admin/admin/assets/filter.png)
+   ![응용 프로그램, 사용자 및 프로젝트별로 필터링할 수 있는 옵션이 있는 필터 정의 대화 상자를 표시하는 스크린샷입니다.](/help/admin/admin/assets/filter.png)
 
 1.  [!UICONTROL 페이지 선택] 양식에서 **[!UICONTROL 가장 자주 사용]**&#x200B;을 활성화한 후 다음 선택 사항을 구성합니다.
 
@@ -47,11 +47,11 @@ AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등
 
    셀 선택 아이콘을 사용하면 셀 값에 정의된 조건을 찾을 수 있습니다. ![셀 선택 아이콘](assets/select_cell_icon.png)
 
-   다음 **조건 추가** 링크를 사용하여 표현식에 조건을 추가할 수 있습니다. 추가할 수 있는 조건 수에는 제한이 없습니다.
+   **조건 추가** 링크를 사용하면 표현식에 조건을 추가할 수 있습니다. 추가할 수 있는 조건 수에는 제한이 없습니다.
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
-   ![오른쪽 하단에 확인 버튼이 있는 필터 정의 대화 상자의 스크린샷입니다.](assets/choose_page_02.png)
+   오른쪽 하단에 [확인] 단추가 있는 필터 정의 대화 상자의 ![스크린샷입니다.](assets/choose_page_02.png)
 
 1. [!UICONTROL 페이지 선택] 양식에서 **[!UICONTROL 저장]**&#x200B;을 클릭하여 표현식을 저장합니다.
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.

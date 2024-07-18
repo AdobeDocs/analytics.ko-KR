@@ -2,16 +2,17 @@
 title: 음성 분석 차원
 description: 음성 분석 차원
 feature: Dimensions
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 18%
+ht-degree: 32%
 
 ---
 
 # 음성 분석 차원
 
-| Dimension 이름 | 설명 | 컨텍스트 데이터 변수 |
+| 차원 이름 | 설명 | 컨텍스트 데이터 변수 |
 | --- | --- | --- |
 | 음성 오류 유형 | | TBD |
 | 음성 언어 | | TBD |

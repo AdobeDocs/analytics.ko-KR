@@ -16,7 +16,7 @@ ht-degree: 97%
 
 분류 계층 페이지를 사용하여 이름이 같은 계층 보고서를 만들기 위해 사용할 수 있는 분류 계층을 정의할 수 있습니다.
 
-**[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 분류 계층]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 분류 계층]**
 
 ## 분류 계층 {#concept_10A956342D7D4C3E9114CCFCE1364741}
 

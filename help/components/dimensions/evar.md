@@ -5,18 +5,18 @@ feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 89%
+source-wordcount: '826'
+ht-degree: 100%
 
 ---
 
 # eVar
 
-*[이 도움말 페이지에서는 eVar가 차원으로 작동하는 방식을 설명합니다](overview.md). eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
+*이 도움말 페이지에서는 eVar가 [차원](overview.md)으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 다음 항목이 있는 경우: [솔루션 디자인 문서](/help/implement/prepare/solution-design.md), 조직 고유의 차원은 대부분 다음으로 끝남 [!UICONTROL eVar], &#39;페이지 이름&#39;, &#39;참조 도메인&#39;, &#39;채널&#39;과 같은 Adobe Analytics에서 사용할 수 있는 기본 차원에 대한 추가 사항입니다. 다음을 참조하십시오 [Dimension 개요](overview.md) 추가 정보.
+eVar는 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)가 있는 경우 조직에 관련된 차원은 “페이지 이름”, “참조 도메인”, “채널” 등 Adobe Analytics에서 사용 가능한 기본 테이블 차원을 추가하면서 대부분 [!UICONTROL eVar]로 끝납니다. 자세한 내용은 [차원 개요](overview.md)를 참조하십시오.
 
-기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)[!UICONTROL 에서 만료와 할당을 사용자 정의할 수 있습니다]. 전환 변수 UI의 eVar 정의에 대한 예는 아래를 참조하십시오.
+기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)[!UICONTROL 에서 만료와 할당을 사용자 정의할 수 있습니다]. 전환 변수 UI에서 eVar 정의의 예는 아래를 참조하십시오.
 
 ![Evar 예](assets/evars-sample.png)
 
@@ -26,13 +26,13 @@ eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 ## 데이터로 eVar 채우기
 
-각 eVar는 이미지 요청의 [`v1` - `v250` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. 예를 들어 `v1` 쿼리 문자열 매개 변수는 eVar1에 대한 데이터를 수집하는 반면 `v222` 쿼리 문자열 매개 변수는 eVar222에 대한 데이터를 수집합니다.
+각 eVar는 이미지 요청의 [`v1` - `v250` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. 예를 들어 `v1` 쿼리 문자열 매개변수는 eVar1에 대한 데이터를 수집하는 반면 `v222` 쿼리 문자열 매개변수는 eVar222에 대한 데이터를 수집합니다.
 
 JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일하는 AppMeasurement는 변수 `eVar1` - `eVar250`을 사용합니다. 구현 지침이 필요하면 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.
 
 ## 차원 항목
 
-eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. 에 각 eVar의 목적과 일반적인 차원 항목을 반드시 기록하십시오 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md).
+eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 각 eVar의 목적과 일반적인 차원 항목을 기록해야 합니다.
 
 ## eVar 작동 방식
 

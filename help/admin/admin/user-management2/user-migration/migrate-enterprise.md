@@ -128,7 +128,7 @@ Adobe Admin Console에서 사용자를 관리하기 위한 전제 조건입니�
   </tr> 
   <tr> 
    <td colname="col1"> <p>도메인 </p> </td> 
-   <td colname="col2"> <p>다음 도메인에 해당 <span class="term"> 도메인</span> 및 <span class="term"> 이메일</span> 열이 사전 요구 사항에 설정된 도메인과 일치합니다.</a>. </p> </td> 
+   <td colname="col2"> <p><span class="term"> 도메인</span> 및 <span class="term"> 전자 메일</span> 열의 도메인이 필수 구성 요소에 설정된 도메인과 일치하는지 확인합니다</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>국가 코드 </p> </td> 

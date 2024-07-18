@@ -23,7 +23,7 @@ ht-degree: 89%
 
 Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그를 표시하는 확장 프로그램입니다.
 
-1. 다음 중 하나에 대한 확장 설치 [크롬](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 또는 Firefox입니다.
+1. [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 또는 Firefox용 확장을 설치합니다.
 2. 태그를 구현한 개발 웹 사이트로 이동합니다.
 3. 브라우저에 있는 Adobe Experience Cloud 디버거 아이콘을 클릭합니다.
 4. 모든 항목이 올바르게 구현되면 Adobe Analytics 내 콘텐츠, 태그 및 Adobe Experience Cloud 방문자 ID 서비스가 표시됩니다.
@@ -35,11 +35,11 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 사이트에서 구현할 태그 속성을 클릭합니다.
 1. **[!UICONTROL 퍼블리싱]** 탭을 클릭하고 개발 열에서 라이브러리를 찾습니다.
-1. 라이브러리에서 드롭다운 목록을 클릭한 다음 을(를) 선택합니다 **[!UICONTROL 승인을 위해 제출]**. 모달 창에서 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
-1. 이번엔 제출됨 열에서 한 번 더 라이브러리의 드롭다운 목록을 클릭한 다음, **[!UICONTROL 스테이징용 빌드]**.
+1. 라이브러리의 드롭다운 목록을 클릭한 다음 **[!UICONTROL 승인을 위해 제출]**&#x200B;을 선택합니다. 모달 창에서 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+1. 라이브러리의 드롭다운 목록을 다시 클릭하고(이제 제출됨 열에서) **[!UICONTROL 스테이징을 위한 빌드]**&#x200B;를 선택합니다.
 1. 잠시 후에 라이브러리의 노란색 색상 표시등이 빌드가 성공했음을 나타내는 녹색으로 바뀝니다.
-1. 라이브러리의 드롭다운 목록을 다시 클릭하고 을(를) 선택합니다 **[!UICONTROL 게시를 위해 승인]**.
-1. 라이브러리의 드롭다운 목록을 다시 클릭합니다(이제 [!UICONTROL 승인됨] 열), 선택 **[!UICONTROL 빌드 및 프로덕션에 게시]**.
+1. 라이브러리의 드롭다운 목록을 다시 클릭하고 **[!UICONTROL 게시를 위해 승인]**&#x200B;을 선택합니다.
+1. 라이브러리의 드롭다운 목록을 다시 클릭하고([!UICONTROL 승인됨] 열에서) **[!UICONTROL 프로덕션에 빌드 및 Publish]**&#x200B;를 선택합니다.
 1. 환경 탭으로 이동한 다음 **[!UICONTROL 프로덕션 환경]**&#x200B;을 클릭합니다.
 1. 프로덕션 설치 코드를 복사하여 웹 사이트 소유자에게 제공합니다. 사이트의 프로덕션 환경에서 이 코드를 구현하도록 요청합니다.
 

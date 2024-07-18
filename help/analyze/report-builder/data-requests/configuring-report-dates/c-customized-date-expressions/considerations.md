@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 99%
 
 ---
 
@@ -51,4 +51,4 @@ ht-degree: 100%
 
 11월 23일 일요일에 시작하는 현재 주의 날 빼기 1일 = 11월 22일 토요일
 
-유럽 및 다른 여러 국가에서는 일주일이 일요일이 아니라 토요일에 시작됩니다. 이 경우 달력을 사용자 지정하여 시작 날짜를 변경할 수 있습니다. ( [사용자 지정 달력](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
+유럽 및 다른 여러 국가에서는 일주일이 일요일이 아니라 토요일에 시작됩니다. 이 경우 달력을 사용자 지정하여 시작 날짜를 변경할 수 있습니다. [사용자 지정 달력](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)을 참조하세요.

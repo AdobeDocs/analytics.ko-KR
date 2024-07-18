@@ -27,7 +27,7 @@ AppMeasurement는 기본적으로 링크 추적 URL에서 쿼리 문자열을 �
 
 ## 웹 SDK를 사용하여 링크 쿼리 문자열 처리
 
-쿼리 문자열은 XDM 필드에서 제거되지 않습니다 `web.webInteraction.URL`. 이 XDM 필드에서 쿼리 문자열을 제거하려면 다음을 사용하여 편집할 수 있습니다. `onBeforeEventSend`.
+쿼리 문자열이 XDM 필드 `web.webInteraction.URL`에서 제거되지 않습니다. 이 XDM 필드에서 쿼리 문자열을 제거하려면 `onBeforeEventSend`을(를) 사용하여 편집할 수 있습니다.
 
 ## Adobe Analytics 확장을 사용하여 URL 매개 변수 유지
 

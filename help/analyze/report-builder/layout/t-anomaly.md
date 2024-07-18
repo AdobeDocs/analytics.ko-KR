@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '188'
 ht-degree: 72%
 
 ---
@@ -29,7 +29,7 @@ Report Builder에서 예외 항목 탐지 요청을 만들려면:
 
    추가된 지표를 확인하려면 **[!UICONTROL 없음]** 링크를 클릭합니다.
 
-   ![예외 항목 탐지 와 삽입 을 차례로 보여 주고 하한값과 상한값과 예상값의 삽입 옵션을 보여 주는 스크린샷입니다.](assets/anomaly_select.png)
+   ![예외 항목 탐지, 삽입, 그리고 하한과 상한에 대한 삽입 옵션을 보여 주는 스크린샷](assets/anomaly_select.png)
 
 1. **[!UICONTROL 예외 항목 탐지]** > **[!UICONTROL `<selection>`]**&#x200B;를 선택합니다.
 

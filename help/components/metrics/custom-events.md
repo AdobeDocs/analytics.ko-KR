@@ -5,7 +5,7 @@ feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 83%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 83%
 
 *이 도움말 페이지에서는 사용자 지정 이벤트가 지표로 작동하는 방식을 설명합니다. 사용자 지정 이벤트가 구현 변수로 작동하는 방법에 대한 자세한 내용은 구현 사용자 안내서의 [이벤트 개요](/help/implement/vars/page-vars/events/events-overview.md)를 참조하십시오.*
 
-사용자 지정 이벤트 [지표](overview.md) 이미지 요청에서 주어진 사용자 지정 이벤트가 설정된 히트의 수를 보여줍니다. 이 지표는 각 조직 특유의 이벤트에 대한 통찰력을 제공하므로 많은 구현에서 필수적입니다.
+사용자 지정 이벤트 [메트릭](overview.md)은(는) 이미지 요청에서 주어진 사용자 지정 이벤트가 설정된 히트의 수를 표시합니다. 이 지표는 각 조직 특유의 이벤트에 대한 통찰력을 제공하므로 많은 구현에서 필수적입니다.
 
 ## 이 지표의 계산 방법
 

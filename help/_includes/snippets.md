@@ -11,7 +11,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->유효 **2024년 1월 17일**, Adobe은 Reports &amp; Analytics와 함께 제공된 보고서와 기능을 중단했습니다. 그 당시 Reports &amp; Analytics와 모든 해당 보고서 및 일정이 작동을 멈췄습니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. Analysis Workspace에서의 보고서 사용에 대한 자세한 내용은 [미리 작성된 보고서 사용](/help/analyze/analysis-workspace/reports/use-reports.md).
+>**2024년 1월 17일**&#x200B;부터 Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서와 기능을 중단했습니다. 그 당시 Reports &amp; Analytics와 모든 해당 보고서 및 일정이 작동을 멈췄습니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. Analysis Workspace에서 보고서를 사용하는 방법에 대한 자세한 내용은 [미리 작성된 보고서 사용](/help/analyze/analysis-workspace/reports/use-reports.md)을 참조하세요.
 > 
 >2015년 Analysis Workspace가 출시된 이후 Reports &amp; Analytics 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. 이 공지 사항은 서비스 종료 프로세스에 대해 설명합니다.
 >
@@ -34,7 +34,7 @@ ht-degree: 96%
 | [!UICONTROL **설명 누락**] | 설명 필드에 아직 설명이 없는 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
 | [!UICONTROL **중복 항목 표시**] | <p>선택한 보고서 세트의 다른 구성 요소와 동일한 이름 또는 정의가 있는 구성 요소만 표시합니다. 이름 또는 정의가 정확히 일치하는 항목만 중복 항목으로 표시할 수 있습니다.</p><p>이 옵션은 관리자만 사용할 수 있습니다.</p><p>**참고:** 정의의 경우 여기에는 사용자가 만든 구성 요소는 물론 Adobe에서 제공하는 구성 요소도 포함됩니다. 이름의 경우 여기에는 사용자가 만든 구성 요소만 포함되고 Adobe에서 제공하는 구성 요소는 포함되지 않습니다. Adobe 제공 구성 요소의 중복 이름 표시는 향후 릴리스에 추가될 예정입니다.</p> |
 | [!UICONTROL **최근 데이터 없음**] | 지난 90일 동안 데이터를 수집하지 않은 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
-| [!UICONTROL **제작자: Adobe**] <!-- I don't see this option--> | Adobe에서 제작한 구성 요소만 표시합니다. 조직의 관리자 또는 다른 사용자가 만든 구성 요소는 표시되지 않습니다. |
+| [!UICONTROL **Adobe에서 생성됨**] <!-- I don't see this option--> | Adobe에서 제작한 구성 요소만 표시합니다. 조직의 관리자 또는 다른 사용자가 만든 구성 요소는 표시되지 않습니다. |
 
 {style="table-layout:auto"}
 

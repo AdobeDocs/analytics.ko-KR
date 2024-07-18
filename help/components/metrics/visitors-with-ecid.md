@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '361'
 ht-degree: 93%
 
 ---
 
 # Experience Cloud ID를 가진 방문자
 
-&#39;Experience Cloud ID를 가진 방문자&#39; [지표](overview.md) 를 사용하여 Adobe으로 식별된 고유 방문자 수를 표시합니다. [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR). 이 지표는 사이트 방문자의 대다수가 이 ID 서비스를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 상당수가 이 ID 서비스 쿠키를 사용하지 않다면 구현 내의 문제를 나타낼 수 있습니다.
+&#39;Experience Cloud ID를 가진 방문자&#39; [지표](overview.md)은(는) [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하여 Adobe으로 식별된 고유 방문자 수를 보여줍니다. 이 지표는 사이트 방문자의 대다수가 이 ID 서비스를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 상당수가 이 ID 서비스 쿠키를 사용하지 않다면 구현 내의 문제를 나타낼 수 있습니다.
 
 >[!NOTE]
 >

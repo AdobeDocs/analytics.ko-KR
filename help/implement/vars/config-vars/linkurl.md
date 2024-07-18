@@ -15,7 +15,7 @@ ht-degree: 65%
 
 링크 추적 호출이 Adobe에 전송될 때마다 데이터 수집 서버가 자동으로 URL을 감지합니다. 감지된 URL을 무시하려면 `linkURL` 변수를 사용하십시오.
 
-Analysis Workspace에는 이 변수에 대해 보고하는 차원이 없습니다. 다음을 채웁니다. `page_event_var1` 열 위치 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md).
+Analysis Workspace에는 이 변수에 대해 보고하는 차원이 없습니다. [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)에서 `page_event_var1` 열을 채웁니다.
 
 ## 웹 SDK를 사용한 링크 URL
 

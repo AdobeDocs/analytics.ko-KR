@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## Web SDK를 사용한 이벤트
 
-을 사용하는 경우 [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md), 사용자 지정 이벤트는 다음 XDM 필드를 사용합니다.
+[XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md)를 사용하는 경우 사용자 지정 이벤트는 다음 XDM 필드를 사용합니다.
 
 * 사용자 정의 이벤트 1-100은 `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`에 매핑됩니다.
 * 사용자 정의 이벤트 101-200은 `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`에 매핑됩니다.
@@ -38,7 +38,7 @@ ht-degree: 85%
 >
 >`productListItems` 아래에 이벤트가 설정되어 있고(예: `productListItems._experience.analytics.event1.value`) 해당 이벤트가 아직 이 필드에 없으면 해당 이벤트가 이 필드에 자동으로 추가됩니다.
 
-을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 모든 이벤트는 `data.__adobe.analytics.events`: AppMeasurement 문자열 구문을 따릅니다. 이 필드를 설정하면 XDM 개체에 설정된 이벤트가 덮어쓰기되어 Adobe Analytics으로 전송되지 않습니다.
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 모든 이벤트는 AppMeasurement 문자열 구문 다음에 나오는 `data.__adobe.analytics.events`을(를) 사용합니다. 이 필드를 설정하면 XDM 개체에 설정된 이벤트가 덮어쓰기되어 Adobe Analytics으로 전송되지 않습니다.
 
 ## Adobe Analytics 확장을 사용한 이벤트
 
@@ -48,14 +48,14 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 설정 [!UICONTROL 확장] Adobe Analytics 드롭다운 목록 [!UICONTROL 작업 유형] 끝 [!UICONTROL 변수 설정].
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정](으)로 설정합니다.
 6. [!UICONTROL 이벤트] 섹션을 찾습니다.
 
 다음과 같은 몇 가지 기능을 사용할 수 있습니다.
 
 * 포함할 이벤트를 선택할 수 있는 드롭다운 목록입니다
 * 직렬화를 위한 선택적 텍스트 필드. 자세한 내용은 [이벤트 직렬화](event-serialization.md)를 참조하십시오.
-* 이벤트 값에 대한 선택적 텍스트 필드. 통화 이벤트를 위한 통화를 포함하거나, 비통화 이벤트를 위한 정수를 포함하여 여러 번 증가시킬 수 있습니다. 예: 선택 `event1` 드롭다운 목록 아래에 있으며 `10` 이 필드에서 증가 `event1` 보고에서 10까지.
+* 이벤트 값에 대한 선택적 텍스트 필드. 통화 이벤트를 위한 통화를 포함하거나, 비통화 이벤트를 위한 정수를 포함하여 여러 번 증가시킬 수 있습니다. 예를 들어, 드롭다운 목록에서 `event1`을(를) 선택하고 이 필드에 `10`을(를) 포함하면 보고에서 `event1`이(가) 10만큼 증가합니다.
 * 다른 이벤트를 추가하는 버튼. 이유 내에서 단일 규칙에 원하는 만큼 이벤트를 추가할 수 있습니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.events

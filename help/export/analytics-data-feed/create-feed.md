@@ -6,7 +6,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
 workflow-type: tm+mt
 source-wordcount: '4074'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -20,44 +20,44 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->데이터 피드를 만들기 전에 데이터 피드에 대해 기본적으로 이해하고 모든 전제 조건을 충족하는지 확인하는 것이 중요합니다. 자세한 내용은 [데이터 피드 개요](data-feed-overview.md).
+>데이터 피드를 만들기 전에 데이터 피드에 대해 기본적으로 이해하고 모든 전제 조건을 충족하는지 확인하는 것이 중요합니다. 자세한 내용은 [데이터 피드 개요](data-feed-overview.md)를 참조하십시오.
 
 ## 데이터 피드 만들기 및 구성
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
-1. 오른쪽 상단의 9제곱 아이콘을 선택한 다음 을 선택합니다 [!UICONTROL **분석**].
-1. 위쪽 탐색 모음에서 로 이동합니다. [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**].
-1. 선택 [!UICONTROL **추가**].
+1. 오른쪽 상단의 9제곱 아이콘을 선택한 다음 [!UICONTROL **Analytics**]&#x200B;을 선택합니다.
+1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**](으)로 이동합니다.
+1. [!UICONTROL **추가**]&#x200B;를 선택합니다.
 
    ![데이터 피드 추가](assets/datafeed-add.png)
 
-   세 가지 주요 범주가 있는 페이지가 표시됩니다. [!UICONTROL **피드 정보**], [!UICONTROL **대상**], 및 [!UICONTROL **데이터 열 정의**].
-1. 다음에서 [!UICONTROL **피드 정보**] 섹션에서 다음 필드를 작성합니다.
+   페이지가 [!UICONTROL **피드 정보**], [!UICONTROL **대상**] 및 [!UICONTROL **데이터 열 정의**]&#x200B;의 세 가지 기본 범주로 표시됩니다.
+1. [!UICONTROL **피드 정보**] 섹션에서 다음 필드를 작성합니다.
 
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **이름**] | 데이터 피드의 이름입니다. 선택된 보고서 세트 내에서 고유해야 하며 최대 255자까지 사용할 수 있습니다. |
    | [!UICONTROL **보고서 세트**] | 데이터 피드의 기반이 되는 보고서 세트입니다. 동일한 보고서 세트에 대해 여러 데이터 피드를 만드는 경우 데이터 피드의 열 정의가 서로 달라야 합니다. 소스 보고서 세트만 데이터 피드를 지원합니다. 가상 보고서 세트는 지원되지 않습니다. |
-   | [!UICONTROL **완료 시 이메일**] | 피드의 처리가 완료되면 알림을 받을 이메일 주소. 이메일 주소 형식을 제대로 지정해야 합니다. |
-   | [!UICONTROL **피드 간격**] | 선택 **매일** 채우기 또는 내역 데이터. 일별 피드에는 보고서 세트 시간대의 자정부터 자정까지 하루 분량의 데이터가 포함됩니다. 선택 **시간별** 데이터를 계속하는 경우(원하는 경우 피드를 계속하는 경우에도 일별 사용 가능). 시간별 피드에는 1시간 동안의 데이터가 포함됩니다. |
+   | [!UICONTROL **완료 시 전자 메일**] | 피드의 처리가 완료되면 알림을 받을 이메일 주소. 이메일 주소 형식을 제대로 지정해야 합니다. |
+   | [!UICONTROL **피드 간격**] | 채우기 또는 이전 데이터의 **일별**&#x200B;을(를) 선택하십시오. 일별 피드에는 보고서 세트 시간대의 자정부터 자정까지 하루 분량의 데이터가 포함됩니다. 계속 데이터를 보려면 **시간별**&#x200B;을(를) 선택하십시오(원하는 경우 계속 피드에 대해서도 일별 사용 가능). 시간별 피드에는 1시간 동안의 데이터가 포함됩니다. |
    | [!UICONTROL **처리 지연**] | 데이터 피드 파일을 처리하기 전에 지정된 시간을 대기하십시오. 지연은 오프라인 디바이스를 온라인 상태로 전환하여 데이터를 전송할 수 있는 기회를 모바일 구현에 제공하는 데 유용합니다. 또한 이전에 처리된 파일을 관리할 때 조직의 서버측 프로세스를 수용하는 데 사용할 수도 있습니다. 대부분의 경우에는 지연이 필요하지 않습니다. 피드는 최대 120분 정도 지연될 수 있습니다. |
    | [!UICONTROL **시작 및 종료 날짜**] | 시작 날짜는 데이터 피드를 시작할 날짜를 나타냅니다. 이전 데이터에 대한 데이터 피드 처리를 즉시 시작하려면 이 날짜를 데이터가 수집되는 과거의 날짜로 설정하십시오. 시작 및 종료 날짜는 보고서 세트의 시간대를 기반으로 합니다. |
-   | [!UICONTROL **연속 공급**] | 이 확인란을 선택하면 종료 날짜가 제거되어 피드가 무기한 실행될 수 있습니다. 한 피드가 이전 데이터 처리를 완료하면 한 피드가 지정된 시간 또는 날 동안 데이터 수집이 완료되기를 기다립니다. 현재 시간 또는 날이 끝나면 지정된 지연 후 처리가 시작됩니다. |
+   | [!UICONTROL **연속 피드**] | 이 확인란을 선택하면 종료 날짜가 제거되어 피드가 무기한 실행될 수 있습니다. 한 피드가 이전 데이터 처리를 완료하면 한 피드가 지정된 시간 또는 날 동안 데이터 수집이 완료되기를 기다립니다. 현재 시간 또는 날이 끝나면 지정된 지연 후 처리가 시작됩니다. |
 
-1. 다음에서 [!UICONTROL **대상**] 섹션, [!UICONTROL **유형**] 드롭다운 메뉴에서 데이터를 전송할 대상을 선택합니다.
+1. [!UICONTROL **대상**] 섹션의 [!UICONTROL **유형**] 드롭다운 메뉴에서 데이터를 전송할 대상을 선택합니다.
 
    >[!NOTE]
    >
    >보고서 대상 구성 시 다음과 같은 사항을 고려하십시오.
    >
-   >* 보고서 대상에 클라우드 계정을 사용하는 것이 좋습니다. [기존 FTP 및 SFTP 계정](#legacy-destinations) 사용할 수 있지만 권장되지는 않습니다.
+   >* 보고서 대상에 클라우드 계정을 사용하는 것이 좋습니다. [기존 FTP 및 SFTP 계정](#legacy-destinations)을 사용할 수 있지만 권장하지 않습니다.
    >* 이전에 구성한 모든 클라우드 계정은 데이터 피드에 사용할 수 있습니다. 다음 방법 중 하나로 클라우드 계정을 구성할 수 있습니다.
    >
-   >   * 에 대한 클라우드 계정을 구성할 때 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+   >   * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)에 대한 클라우드 계정을 구성할 때
    >   
-   >   * 날짜 [Adobe Analytics 분류 데이터 가져오기](/help/components/locations/locations-manager.md) (분류 데이터를 가져오도록 구성된 위치는 사용할 수 없습니다.)
+   >   * [Adobe Analytics 분류 데이터를 가져오는 중](/help/components/locations/locations-manager.md)(분류 데이터를 가져오도록 구성된 모든 위치를 사용할 수 없음).
    >   
-   >   * 위치 관리자에서 [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)
+   >   * 위치 관리자의 [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)에서
    >
    >* 클라우드 계정은 Adobe Analytics 사용자 계정과 연계되어 있습니다. 다른 사용자는 구성된 클라우드 계정을 사용하거나 볼 수 없습니다.
    >
@@ -75,13 +75,13 @@ ht-degree: 52%
 
    Amazon S3 버킷을 데이터 피드의 대상으로 구성하려면 다음 작업을 수행하십시오.
 
-   1. 에 설명된 대로 데이터 피드 만들기를 시작합니다. [데이터 피드 만들기 및 구성](#create-and-configure-a-data-feed).
+   1. [데이터 피드 만들기 및 구성](#create-and-configure-a-data-feed)에 설명된 대로 데이터 피드 만들기를 시작합니다.
 
-   1. 다음에서 [!UICONTROL **대상**] 섹션, [!UICONTROL **유형**] 드롭다운 메뉴에서 다음을 선택합니다. [!UICONTROL **Amazon**].
+   1. [!UICONTROL **대상**] 섹션의 [!UICONTROL **유형**] 드롭다운 메뉴에서 [!UICONTROL **Amazon S3**]&#x200B;을(를) 선택합니다.
 
-      ![Amazon 대상](assets/datafeed-destination-amazons3.png)
+      ![Amazon S3 대상](assets/datafeed-destination-amazons3.png)
 
-   1. 선택 [!UICONTROL **위치 선택**].
+   1. [!UICONTROL **위치 선택**]&#x200B;을 선택합니다.
 
       Amazon S3 내보내기 위치 페이지가 표시됩니다.
 
@@ -101,9 +101,9 @@ ht-degree: 52%
 
          * [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때
 
-      1. 에서 위치 선택 [!UICONTROL **위치 선택**] 드롭다운 메뉴.
+      1. [!UICONTROL **위치 선택**] 드롭다운 메뉴에서 위치를 선택합니다.
 
-      1. 선택 [!UICONTROL **저장**] > [!UICONTROL **저장**].
+      1. [!UICONTROL **저장**] > [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
       이제 대상이 지정한 Amazon S3 위치로 데이터를 보내도록 구성되었습니다.
 
@@ -120,7 +120,7 @@ ht-degree: 52%
 
          {style="table-layout:auto"}
 
-      1. 선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다.
+      1. [!UICONTROL **위치 추가**]&#x200B;를 선택한 후 다음 정보를 지정하십시오.
 
          | 필드 | 함수 |
          |---------|----------|
@@ -131,11 +131,11 @@ ht-degree: 52%
 
          {style="table-layout:auto"}
 
-      1. 선택 [!UICONTROL **만들기**] > [!UICONTROL **저장**].
+      1. [!UICONTROL **만들기**] > [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
          이제 대상이 지정한 Amazon S3 위치로 데이터를 보내도록 구성되었습니다.
 
-      1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md).
+      1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md)에서 사용할 수 있습니다.
 
 +++
 
@@ -147,13 +147,13 @@ ht-degree: 52%
 
    1. 아직 인증하지 않았다면 Adobe Analytics에서 인증에 사용할 수 있는 Azure 애플리케이션을 만든 다음 IAM(액세스 제어)에서 액세스 권한을 부여합니다.
 
-      자세한 내용은 [Azure Active Directory 응용 프로그램을 만드는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
+      자세한 내용은 Azure Active Directory 응용 프로그램을 만드는 방법에 대한 [Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)를 참조하세요.
 
-   1. Adobe Analytics Admin Console의 [!UICONTROL **대상**] 섹션, [!UICONTROL **유형**] 드롭다운 메뉴에서 다음을 선택합니다. [!UICONTROL **Azure RBAC**].
+   1. Adobe Analytics Admin Console의 [!UICONTROL **대상**] 섹션의 [!UICONTROL **유형**] 드롭다운 메뉴에서 [!UICONTROL **Azure RBAC**]&#x200B;을(를) 선택합니다.
 
       ![Azure RBAC 대상](assets/datafeed-destination-azurerbac.png)
 
-   1. 선택 [!UICONTROL **위치 선택**].
+   1. [!UICONTROL **위치 선택**]&#x200B;을 선택합니다.
 
       [Azure RBAC 내보내기 위치] 페이지가 표시됩니다.
 
@@ -173,9 +173,9 @@ ht-degree: 52%
 
       * [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때
 
-      1. 에서 위치 선택 [!UICONTROL **위치 선택**] 드롭다운 메뉴.
+      1. [!UICONTROL **위치 선택**] 드롭다운 메뉴에서 위치를 선택합니다.
 
-      1. 선택 [!UICONTROL **저장**] > [!UICONTROL **저장**].
+      1. [!UICONTROL **저장**] > [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
          이제 대상이 지정한 Azure RBAC 위치로 데이터를 보내도록 구성되었습니다.
 
@@ -185,31 +185,31 @@ ht-degree: 52%
 
          | 필드 | 함수 |
          |---------|----------|
-         | [!UICONTROL **계정 이름**] | Azure RBAC 계정의 이름입니다. 이 이름은 다음에 표시됩니다. [!UICONTROL **계정 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
-         | [!UICONTROL **계정 설명**] | Azure RBAC 계정에 대한 설명입니다. 이 설명은 다음에 표시됩니다. [!UICONTROL **계정 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
+         | [!UICONTROL **계정 이름**] | Azure RBAC 계정의 이름입니다. 이 이름은 [!UICONTROL **계정 선택**] 드롭다운 필드에 표시되며, 사용자가 선택한 모든 이름을 사용할 수 있습니다. |
+         | [!UICONTROL **계정 설명**] | Azure RBAC 계정에 대한 설명입니다. 이 설명은 [!UICONTROL **계정 선택**] 드롭다운 필드에 표시되며, 사용자가 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **애플리케이션 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
          | [!UICONTROL **테넌트 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
          | [!UICONTROL **암호**] | 만든 Azure 애플리케이션에서 암호를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **인증서 및 암호** 애플리케이션 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
 
          {style="table-layout:auto"}
 
-      1. 선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다.
+      1. [!UICONTROL **위치 추가**]&#x200B;를 선택한 후 다음 정보를 지정하십시오.
 
          | 필드 | 함수 |
          |---------|----------|
-         | [!UICONTROL **이름**] | 위치의 이름입니다. 이 이름은 다음에 표시됩니다. [!UICONTROL **위치 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
-         | [!UICONTROL **설명**] | 위치에 대한 설명. 이 설명은 다음에 표시됩니다. [!UICONTROL **위치 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
+         | [!UICONTROL **이름**] | 위치의 이름입니다. 이 이름은 [!UICONTROL **위치 선택**] 드롭다운 필드에 표시되며, 사용자가 선택한 모든 이름을 사용할 수 있습니다. |
+         | [!UICONTROL **설명**] | 위치에 대한 설명. 이 설명은 [!UICONTROL **위치 선택**] 드롭다운 필드에 표시되며, 사용자가 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **계정**] | Azure 스토리지 계정입니다. |
          | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. 앞서 만든 Azure 애플리케이션에 파일을 업로드할 권한을 부여하고 있는지 확인합니다. |
          | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/`<p>컨테이너(폴더)에 액세스하려면 Azure RBAC 계정 구성 시 지정한 애플리케이션 ID에 `Storage Blob Data Contributor` 역할이 부여되었는지 확인합니다.</p> <p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p> |
 
          {style="table-layout:auto"}
 
-      1. 선택 [!UICONTROL **만들기**] > [!UICONTROL **저장**].
+      1. [!UICONTROL **만들기**] > [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
          이제 대상이 지정한 Azure RBAC 위치로 데이터를 보내도록 구성되었습니다.
 
-      1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md).
+      1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md)에서 사용할 수 있습니다.
 
 +++
 
@@ -221,13 +221,13 @@ ht-degree: 52%
 
    1. Adobe Analytics에서 인증에 사용할 수 있는 Azure 애플리케이션을 아직 만들지 않은 경우 만듭니다.
 
-      자세한 내용은 [Azure Active Directory 응용 프로그램을 만드는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
+      자세한 내용은 Azure Active Directory 응용 프로그램을 만드는 방법에 대한 [Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)를 참조하세요.
 
-   1. Adobe Analytics Admin Console의 [!UICONTROL **대상**] 섹션, 선택 [!UICONTROL **Azure SAS**].
+   1. Adobe Analytics 관리 콘솔의 [!UICONTROL **대상**] 섹션에서 [!UICONTROL **Azure SAS**]&#x200B;를 선택합니다.
 
       ![Azure SAS 대상](assets/datafeed-destination-azuresas.png)
 
-   1. 선택 [!UICONTROL **위치 선택**].
+   1. [!UICONTROL **위치 선택**]&#x200B;을 선택합니다.
 
       Azure SAS 내보내기 위치 페이지가 표시됩니다.
 
@@ -247,9 +247,9 @@ ht-degree: 52%
 
          * [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때
 
-      1. 에서 위치 선택 [!UICONTROL **위치 선택**] 드롭다운 메뉴.
+      1. [!UICONTROL **위치 선택**] 드롭다운 메뉴에서 위치를 선택합니다.
 
-      1. 선택 [!UICONTROL **저장**] > [!UICONTROL **저장**].
+      1. [!UICONTROL **저장**] > [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
          이제 대상이 지정한 Azure SAS 위치로 데이터를 보내도록 구성되었습니다.
 
@@ -259,8 +259,8 @@ ht-degree: 52%
 
          | 필드 | 함수 |
          |---------|----------|
-         | [!UICONTROL **계정 이름**] | Azure SAS 계정의 이름입니다. 이 이름은 다음에 표시됩니다. [!UICONTROL **계정 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
-         | [!UICONTROL **계정 설명**] | Azure SAS 계정에 대한 설명. 이 설명은 다음에 표시됩니다. [!UICONTROL **계정 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
+         | [!UICONTROL **계정 이름**] | Azure SAS 계정의 이름입니다. 이 이름은 [!UICONTROL **계정 선택**] 드롭다운 필드에 표시되며, 사용자가 선택한 모든 이름을 사용할 수 있습니다. |
+         | [!UICONTROL **계정 설명**] | Azure SAS 계정에 대한 설명. 이 설명은 [!UICONTROL **계정 선택**] 드롭다운 필드에 표시되며, 사용자가 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **애플리케이션 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
          | [!UICONTROL **테넌트 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
          | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS URI에 대한 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS URI를 암호로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI이 생성되면<ul><li>만든 Azure 애플리케이션에 대한 권한을 부여하려면 Key Vault에서 액세스 정책을 추가합니다.</li><li>키 자격 증명 모음 UR에 액세스하려면 `Key Vault Certificate User` 기본 제공 역할에 애플리케이션 ID가 부여되었는지 확인합니다.</br><p>자세한 내용은 [Azure 기본 제공 역할](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)을 참조하십시오.</p></li></ul><p>자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p> |
@@ -269,22 +269,22 @@ ht-degree: 52%
 
          {style="table-layout:auto"}
 
-      1. 선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다.
+      1. [!UICONTROL **위치 추가**]&#x200B;를 선택한 후 다음 정보를 지정하십시오.
 
          | 필드 | 함수 |
          |---------|----------|
-         | [!UICONTROL **이름**] | 위치의 이름입니다. 이 이름은 다음에 표시됩니다. [!UICONTROL **위치 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
-         | [!UICONTROL **설명**] | 위치에 대한 설명. 이 설명은 다음에 표시됩니다. [!UICONTROL **위치 선택**] 드롭다운 필드 및 은(는) 선택한 모든 이름일 수 있습니다. |
+         | [!UICONTROL **이름**] | 위치의 이름입니다. 이 이름은 [!UICONTROL **위치 선택**] 드롭다운 필드에 표시되며, 사용자가 선택한 모든 이름을 사용할 수 있습니다. |
+         | [!UICONTROL **설명**] | 위치에 대한 설명. 이 설명은 [!UICONTROL **위치 선택**] 드롭다운 필드에 표시되며, 사용자가 선택한 모든 이름일 수 있습니다. |
          | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. |
          | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/`<p>Azure SAS 계정 구성 시 Key Vault 암호 이름 필드에 지정된 SAS URI 저장소에 `Write` 권한이 있는지 확인합니다. 이렇게 하면 SAS URI가 Azure 컨테이너에서 파일을 만들 수 있습니다. <p>SAS URI를 사용하여 파일을 덮어쓰려면 SAS URI 저장소에 `Delete` 권한이 있는지 확인합니다.</p><p>자세한 내용은 Azure Blob Storage 설명서에서 [Blob 스토리지 리소스](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) 를 참조하십시오.</p> |
 
          {style="table-layout:auto"}
 
-      1. 선택 [!UICONTROL **만들기**] > [!UICONTROL **저장**].
+      1. [!UICONTROL **만들기**] > [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
          이제 대상이 지정한 Azure SAS 위치로 데이터를 보내도록 구성되었습니다.
 
-      1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md).
+      1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md)에서 사용할 수 있습니다.
 
 +++
 
@@ -296,11 +296,11 @@ ht-degree: 52%
 
    GCP 버킷을 데이터 피드의 대상으로 구성하려면 다음 작업을 수행하십시오.
 
-   1. Adobe Analytics Admin Console의 [!UICONTROL **대상**] 섹션, 선택 [!UICONTROL **Google 클라우드 플랫폼**].
+   1. Adobe Analytics Admin Console의 [!UICONTROL **대상**] 섹션에서 [!UICONTROL **Google Cloud Platform**]&#x200B;을(를) 선택합니다.
 
       ![Google Cloud Platform 대상](assets/datafeed-destination-gcp.png)
 
-   1. 선택 [!UICONTROL **위치 선택**].
+   1. [!UICONTROL **위치 선택**]&#x200B;을 선택합니다.
 
       [GCP 내보내기 위치] 페이지가 표시됩니다.
 
@@ -320,9 +320,9 @@ ht-degree: 52%
 
          * [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md) 및 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 위치 영역에서 계정 및 위치를 구성할 때
 
-      1. 에서 위치 선택 [!UICONTROL **위치 선택**] 드롭다운 메뉴.
+      1. [!UICONTROL **위치 선택**] 드롭다운 메뉴에서 위치를 선택합니다.
 
-      1. 선택 [!UICONTROL **저장**] > [!UICONTROL **저장**].
+      1. [!UICONTROL **저장**] > [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
          이제 대상이 지정한 Google Cloud Platform 위치로 데이터를 보내도록 구성되었습니다.
 
@@ -338,50 +338,50 @@ ht-degree: 52%
 
          {style="table-layout:auto"}
 
-      1. 선택 [!UICONTROL **위치 추가**]&#x200B;을(를) 클릭한 후 다음 정보를 지정합니다.
+      1. [!UICONTROL **위치 추가**]&#x200B;를 선택한 후 다음 정보를 지정하십시오.
 
          | 필드 | 함수 |
          |---------|----------|
          | [!UICONTROL **사용자**] | 원칙은 Adobe에서 제공합니다. 이 사용자에게 피드를 수신할 수 있는 권한을 부여해야 합니다. |
          | [!UICONTROL **이름**] | 계정 이름. |
          | [!UICONTROL **설명**] | 계정에 대한 설명. |
-         | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내부 버킷입니다. <p>Adobe이 제공한 주도자에게 다음 권한 중 하나를 부여했는지 확인합니다. (권한 부여에 대한 자세한 내용은 [버킷 수준 정책에 사용자 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) Google Cloud 설명서에서 참조할 수 있습니다.)<ul><li>`roles/storage.objectCreator`: 주체를 제한하여 GCP 계정에서만 파일을 만들려는 경우 이 권한을 사용합니다. </br>**중요:** 예약된 보고에 이 권한을 사용하는 경우 새로 예약된 각 내보내기에 고유 파일 이름을 사용해야 합니다. 그렇지 않으면 주체가 기존 파일 덮어쓰기에 액세스할 수 없기 때문에 보고서를 생성할 수 없습니다.</li><li>(권장) `roles/storage.objectUser`: 사용자가 GCP 계정의 파일을 보고, 나열하고, 업데이트하고, 삭제할 수 있도록 하려면 이 권한을 사용하십시오.</br>이 권한을 사용하면 주체는 새로 예약된 각 내보내기에 고유 파일 이름을 자동 생성하지 않고도 후속 업로드에 기존 파일을 덮어쓸 수 있습니다.</li></ul><p>조직에서 를 사용하는 경우 [조직 정책 제한](https://cloud.google.com/storage/docs/org-policy-constraints) 허용 목록에서 Google Cloud Platform 계정만 허용하려면 다음 Adobe 소유 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+         | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내부 버킷입니다. <p>Adobe에서 제공하는 주체에 다음 권한 중 하나를 부여했는지 확인하십시오. (권한 부여에 대한 자세한 내용은 Google Cloud 설명서의 [버킷 수준 정책에 주체 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)를 참조하십시오.)<ul><li>`roles/storage.objectCreator`: 주체를 제한하여 GCP 계정에서만 파일을 만들려는 경우 이 권한을 사용합니다. </br>**중요:** 예약된 보고에 이 권한을 사용하는 경우 새로 예약된 각 내보내기에 고유 파일 이름을 사용해야 합니다. 그렇지 않으면 주체가 기존 파일 덮어쓰기에 액세스할 수 없기 때문에 보고서를 생성할 수 없습니다.</li><li>(권장) `roles/storage.objectUser`: 사용자가 GCP 계정의 파일을 보고, 나열하고, 업데이트하고, 삭제할 수 있도록 하려면 이 권한을 사용합니다.</br>이 권한을 사용하면 주체는 새로 예약된 각 내보내기에 고유 파일 이름을 자동 생성하지 않고도 후속 업로드에 기존 파일을 덮어쓸 수 있습니다.</li></ul><p>귀사에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하여 허용 목록에 Google Cloud Platform 계정만 허용하는 경우 다음과 같은 Adobe 소유의 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
          | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
 
          {style="table-layout:auto"}
 
-      1. 선택 [!UICONTROL **만들기**] > [!UICONTROL **저장**].
+      1. [!UICONTROL **만들기**] > [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
          이제 대상이 지정한 GCP 위치로 데이터를 보내도록 구성되었습니다.
 
-      1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md).
+      1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md)에서 사용할 수 있습니다.
 
 +++
 
-1. 다음에서  [!UICONTROL **데이터 열 정의**] 섹션, 최신 항목 선택 [!UICONTROL **모든 Adobe Columns**] 드롭다운에서 템플릿을 만든 다음 다음 다음 필드를 작성합니다.
+1. [!UICONTROL **데이터 열 정의**] 섹션에서 드롭다운에서 최신 [!UICONTROL **모든 Adobe Columns**] 템플릿을 선택한 다음 다음 필드를 작성합니다.
 
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **이스케이프 처리된 문자 제거**] | 데이터를 수집할 때 일부 문자(예: 줄바꿈)가 문제를 초래할 수 있습니다. 피드 파일에서 이러한 문자를 제거하려면 이 확인란을 선택하십시오. |
-   | [!UICONTROL **압축 포맷**] | 사용된 압축 유형입니다. **Gzip** 에서 파일 출력 `.tar.gz` 포맷. **Zip** 에서 파일 출력 `.zip` 포맷. |
-   | [!UICONTROL **패키징 타입**] | 선택 [!UICONTROL **여러 파일**] 대부분의 데이터 피드에 사용됩니다. 이 옵션은 데이터를 압축되지 않은 2GB 청크로 페이지를 매깁니다. (다음과 같은 경우: [!UICONTROL **여러 파일**] 옵션이 선택되어 있고 보고 기간의 압축되지 않은 데이터가 2GB 미만이면 하나의 파일이 전송됩니다. 선택 **단일 파일** 다음을 출력합니다. `hit_data.tsv` 하나의 파일로 된 파일로, 규모가 클 수 있습니다. |
-   | [!UICONTROL **매니페스트**] | Adobe이 [매니페스트 파일](c-df-contents/datafeeds-contents.md#feed-manifest) 피드 간격에 대한 데이터가 수집되지 않을 때 대상으로 전송됩니다. 다음을 선택하는 경우 **매니페스트 파일**, 수집된 데이터가 없을 때 다음과 유사한 매니페스트 파일을 받게 됩니다.<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **압축 형식**] | 사용된 압축 유형입니다. **Gzip**&#x200B;은(는) 파일을 `.tar.gz` 형식으로 출력합니다. **Zip**&#x200B;은(는) 파일을 `.zip` 형식으로 출력합니다. |
+   | [!UICONTROL **패키징 유형**] | 대부분의 데이터 피드에 대해 [!UICONTROL **여러 파일**]&#x200B;을 선택합니다. 이 옵션은 데이터를 압축되지 않은 2GB 청크로 페이지를 매깁니다. [!UICONTROL **여러 파일**] 옵션을 선택한 경우 보고 기간의 압축되지 않은 데이터가 2GB 미만이면 하나의 파일이 전송됩니다. **단일 파일**&#x200B;을 선택하면 `hit_data.tsv` 파일이 단일 파일로 출력됩니다. |
+   | [!UICONTROL **매니페스트**] | 피드 간격에 대한 데이터가 수집되지 않을 때 Adobe이 [매니페스트 파일](c-df-contents/datafeeds-contents.md#feed-manifest)을(를) 대상에 전송할지 여부를 결정합니다. **매니페스트 파일**&#x200B;을(를) 선택하면 데이터가 수집되지 않을 때 다음과 유사한 매니페스트 파일이 수신됩니다.<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **열 템플릿**] | Adobe 많은 데이터 피드를 만들 때는 열 템플릿을 만드는 것이 좋습니다. 열 템플릿을 선택하면 지정된 열이 템플릿에 자동으로 포함됩니다. Adobe도 기본적으로 여러 템플릿을 제공합니다. |
    | [!UICONTROL **사용 가능한 열**] | Adobe Analytics에서 사용 가능한 모든 데이터 열. 데이터 피드에 모든 열을 포함하려면 [!UICONTROL 모두 추가]를 클릭하십시오. |
    | [!UICONTROL **포함된 열**] | 데이터 피드에 포함할 열입니다. 데이터 피드에 모든 열을 제거하려면 [!UICONTROL 모두 제거]를 클릭하십시오. |
    | [!UICONTROL **CSV 다운로드**] | 포함된 모든 열이 포함된 CSV 파일을 다운로드합니다. |
 
-1. 선택 [!UICONTROL **저장**] 오른쪽 상단에서
+1. 오른쪽 상단에서 [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
    내역 데이터 처리는 즉시 시작됩니다. 하루 동안 데이터 처리가 완료되면 파일이 구성한 대상으로 전송됩니다.
 
-   데이터 피드에 액세스하고 데이터 피드의 콘텐츠를 더 잘 이해하는 방법에 대한 자세한 내용은 을 참조하십시오. [데이터 피드 콘텐츠 - 개요](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md).
+   데이터 피드에 액세스하는 방법과 데이터 피드의 내용을 더 잘 이해하는 방법에 대한 자세한 내용은 [데이터 피드 내용 - 개요](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)를 참조하십시오.
 
 ## 기존 대상
 
 >[!IMPORTANT]
 >
->이 섹션에 설명된 대상은 기존 대상으로 권장되지 않습니다. 대신 데이터 피드를 만들 때 Amazon S3, Google Cloud Platform, Azure RBAC 또는 Azure SAS 대상 중 하나를 사용합니다. 다음을 참조하십시오 [데이터 피드 만들기 및 구성](#create-and-configure-a-data-feed) 이러한 각 권장 대상에 대한 자세한 내용은 를 참조하십시오.
+>이 섹션에 설명된 대상은 기존 대상으로 권장되지 않습니다. 대신 데이터 피드를 만들 때 Amazon S3, Google Cloud Platform, Azure RBAC 또는 Azure SAS 대상 중 하나를 사용합니다. 이러한 각 권장 대상에 대한 자세한 내용은 [데이터 피드 만들기 및 구성](#create-and-configure-a-data-feed)을 참조하십시오.
 
 
 다음 정보는 각 기존 대상에 대한 구성 정보를 제공합니다.
@@ -393,7 +393,7 @@ ht-degree: 52%
 사용 가능한 필드가 완료되면 다음 정보를 사용합니다.
 
 * [!UICONTROL **호스트**]: 원하는 FTP 대상 URL을 입력합니다. (예: `ftp://ftp.omniture.com`)
-* [!UICONTROL **경로**]: 비워 둘 수 있음
+* [!UICONTROL **경로**]: 비워 둘 수 있습니다.
 * [!UICONTROL **사용자 이름**]: FTP 사이트에 로그인할 사용자 이름을 입력합니다.
 * [!UICONTROL **암호 및 암호 확인**]: FTP 사이트에 로그인할 암호를 입력합니다.
 
@@ -413,7 +413,7 @@ ht-degree: 52%
 
   >[!NOTE]
   >
-  >Amazon S3 버킷에 대한 각 업로드의 경우 [!DNL Analytics] 는 버킷에 필요한 정책이 있는지 여부에 관계없이 버킷 소유자를 BucketOwnerFullControl ACL에 추가합니다. 자세한 내용은 &quot;[Amazon S3 데이터 피드에 대한 BucketOwnerFullControl 설정은 무엇입니까?](df-faq.md#BucketOwnerFullControl)&quot;
+  >Amazon S3 버킷에 대한 각 업로드의 경우 [!DNL Analytics]은(는) 버킷에 필요한 정책이 있는지 여부에 관계없이 버킷 소유자를 BucketOwnerFullControl ACL에 추가합니다. 자세한 내용은 &quot;[Amazon S3 데이터 피드에 대한 BucketOwnerFullControl 설정은 무엇입니까?](df-faq.md#BucketOwnerFullControl)&quot;을(를) 참조하십시오.
 
 다음 16개의 표준 AWS 지역이 지원됩니다(필요한 경우 적절한 서명 알고리즘 사용).
 

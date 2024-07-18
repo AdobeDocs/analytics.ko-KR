@@ -43,7 +43,7 @@ ht-degree: 96%
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 규칙] 탭을 클릭하고 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 1. [!UICONTROL 작업] 아래의 [!UICONTROL 추가] 버튼을 클릭합니다.
-1. 설정 [!UICONTROL 확장] Adobe Analytics 드롭다운 목록 [!UICONTROL 작업 유형] 변수를 설정합니다.
+1. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) 변수 설정으로 설정합니다.
 1. 원하는 Analytics 변수 오른쪽에 있는 ![데이터 요소](assets/data-element.png) 아이콘을 클릭합니다. 조직의 [솔루션 설계 문서](../prepare/solution-design.md)는 사용할 Analytics 변수를 지시합니다.
 1. 모달 창에서 원하는 데이터 요소를 선택합니다. [!UICONTROL 선택]을 클릭합니다.
 1. 데이터 요소 이름이 `%` 기호로 둘러싸인 텍스트 필드에 추가됩니다. 예를 들어 데이터 요소의 이름을 &quot;페이지 이름&quot;으로 지정한 경우 데이터 요소를 변수에 할당할 때 `%Page name%` 문자열이 표시됩니다.

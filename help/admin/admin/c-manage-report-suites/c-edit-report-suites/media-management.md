@@ -27,4 +27,4 @@ Analytics에서 미디어를 활성화하여 측정 및 보고에 사용할 특�
 
   스트리밍 미디어 컬렉션 추가 기능별 분류는 미디어 분류 페이지에서 사용할 수 있습니다. 분류에 대한 자세한 내용은 [전환 분류](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)를 참조하십시오.
 
-Adobe Analytics에서의 스트리밍 미디어 데이터 통합에 대한 일반 정보는 다음을 참조하십시오. [스트리밍 미디어 컬렉션 추가 기능 안내서](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR).
+Adobe Analytics에서 스트리밍 미디어 데이터를 통합하는 방법에 대한 일반적인 정보는 [스트리밍 미디어 컬렉션 추가 기능 안내서](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)를 참조하십시오.

@@ -16,7 +16,7 @@ ht-degree: 90%
 
 *이 도움말 페이지에서는 머천다이징 eVar를 구현하는 방법에 대해 설명합니다. 머천다이징 eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [eVar(머천다이징 차원)](/help/components/dimensions/evar-merchandising.md)를 참조하십시오.*
 
-머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html)을 참조하십시오.
+머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html)을 참조하십시오.
 
 ## 보고서 세트 설정에서 eVar 설정
 
@@ -45,7 +45,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ### 웹 SDK를 사용한 제품 구문
 
-을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 제품 구문 머천다이징 변수는 다음 XDM 필드를 사용합니다.
+[**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 제품 구문 머천다이징 변수는 다음 XDM 필드를 사용합니다.
 
 * 제품 구문 머천다이징 eVar는 `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 아래에서 `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250`에 매핑됩니다.
 * 제품 구문 머천다이징 이벤트는 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 아래에서 `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value`에 매핑됩니다. [이벤트 일련화](events/event-serialization.md) XDM 필드는 `xdm.productListItems[]._experience.analytics.event1to100.event1.id` 아래에서 `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`에 매핑됩니다.
@@ -87,7 +87,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 위의 예 오브젝트는 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`로 Adobe Analytics에 전송됩니다.
 
-을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), eVar 머천다이징 사용 `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` 다음 AppMeasurement 구문
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 eVar 머천다이징은 AppMeasurement 구문 `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250`을(를) 사용합니다.
 
 ## 전환 변수 구문을 사용한 구현
 
@@ -111,7 +111,7 @@ s.products = ";Canary";
 
 ### 웹 SDK를 사용한 전환 변수 구문
 
-을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 구문은 기타 구현 과 유사하게 작동합니다 [eVar](evar.md) 및 [events](events/events-overview.md). 위의 예를 미러링하는 XDM은 다음과 같습니다.
+[**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 구문은 다른 [eVars](evar.md) 및 [events](events/events-overview.md) 구현과 유사하게 작동합니다. 위의 예를 미러링하는 XDM은 다음과 같습니다.
 
 동일한 이벤트 호출 또는 이전 이벤트 호출에서 eVar를 설정합니다.
 
@@ -142,7 +142,7 @@ s.products = ";Canary";
 ]
 ```
 
-을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 위의 예를 미러링하는 데이터 객체는 다음과 같습니다.
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 위의 예제를 미러링하는 데이터 개체는 다음과 같습니다.
 
 동일한 이벤트 호출 또는 이전 이벤트 호출에서 eVar를 설정합니다.
 

@@ -5,20 +5,20 @@ feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
 source-git-commit: 26e166e065df90cb327fe1106542e17831069141
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '299'
 ht-degree: 19%
 
 ---
 
 # 콘텐츠 속도
 
-콘텐츠 속도 계산된 지표는 차원 (일반적으로) 측정 방법을 측정하는 데 도움이 됩니다 [[!UICONTROL 페이지]](/help/components/dimensions/page.md))은 웹 사이트 또는 앱에서 시간을 보내는 사용자에게 기여합니다.
+콘텐츠 속도 계산 지표는 차원(일반적으로 [[!UICONTROL 페이지]](/help/components/dimensions/page.md))이 웹 사이트 또는 앱에서 시간을 보내는 사용자에게 어떻게 기여하는지 측정하는 데 도움이 됩니다.
 
-이 지표는 다음을 사용합니다. [기여도 속성](/help/analyze/analysis-workspace/attribution/models.md) 다음에 있음 [페이지 보기 수](page-views.md) 지표를 계산의 일부로 사용합니다. 방문 참여에 따라 페이지가 조회될 때마다 동일한 방문 동안 이전에 조회된 모든 페이지도 페이지 조회수에 대한 크레딧을 받습니다. 일반적으로 이 공식은 방문 중 페이지가 조기에 히트될수록 더 많은 크레딧을 받음을 의미합니다. (참조: [페이지 조회수(기여도) | 방문) 또는 &#39;방문 기여도&#39;](#page-views-participation--visit-or-visit-participation) 을 참조하십시오.)
+이 지표는 계산의 일부로 [페이지 보기 수](page-views.md) 지표에 대한 [기여도 속성](/help/analyze/analysis-workspace/attribution/models.md)을 사용합니다. 방문 참여에 따라 페이지가 조회될 때마다 동일한 방문 동안 이전에 조회된 모든 페이지도 페이지 조회수에 대한 크레딧을 받습니다. 일반적으로 이 공식은 방문 중 페이지가 조기에 히트될수록 더 많은 크레딧을 받음을 의미합니다. ([페이지 보기 수 참조(기여도) | 방문) 또는 &#39;방문 기여도&#39;](#page-views-participation--visit-or-visit-participation)를 참조하십시오.)
 
 ## 계산
 
-&#39;컨텐츠 속도&#39;는 기본 계산됨 [지표](overview.md) 그리고 공식을 사용합니다 `Page views (Visit participation)` 다음으로 나눔 `Visits`.
+&#39;콘텐츠 속도&#39;는 기본 계산된 [지표](overview.md)이며 `Visits`(으)로 나눈 `Page views (Visit participation)` 공식을 사용합니다.
 
 ![](assets/cont-velo-1.png)
 

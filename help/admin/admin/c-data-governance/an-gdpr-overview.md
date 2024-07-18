@@ -41,7 +41,7 @@ GDPR 준비 단계 및 Adobe Experience Cloud GDPR API와 통합하는 방법에
 
 이를 위해 Adobe Analytics는 사용자가 데이터 제어자로서 Analytics 보고서 세트와 그러한 보고서 세트의 모든 차원과 지표에 대한 [개인정보 레이블](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)을 설정할 수 있는 데이터 거버넌스 사용자 인터페이스를 제공합니다. 사용자는 직접 식별 가능한 데이터 또는 간접적으로 식별 가능한 데이터가 포함된 데이터 세트의 열을 식별할 수 있으므로 액세스 및 삭제 요청을 제출하여 해당 데이터를 처리할 수 있습니다. 각 요청마다 Analytics 데이터 거버넌스 사용자 인터페이스에 정의된 레이블이 해당 요청에 해당하는 특정 식별자에 대해 적용됩니다.
 
-다음을 참조하십시오 [보고서 세트 데이터에 레이블 지정](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) 레이블 설정 방법에 대한 자세한 내용을 보려면 을 클릭하십시오.
+레이블 설정 방법에 대한 자세한 내용은 [보고서 세트 데이터에 레이블 지정](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)을 참조하십시오.
 
 ## 사전 요구 사항 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 

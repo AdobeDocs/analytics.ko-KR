@@ -27,7 +27,7 @@ Analysis Workspace에서 데이터를 내보내는 방법에는 여러 가지가
    * PDF 형식으로 렌더링하기 전에 프로젝트가 Adobe 서버에서 다시 실행되므로 다운로드를 내보내는 데 몇 분이 걸릴 수 있습니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다. 5분 이상 소요되는 경우 PDF를 렌더링하는 대신에 이메일로 보내라는 메시지가 표시됩니다.
    * 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
    * PDF 렌더링에는 Workspace의 페이지에 있는 내용이 포함됩니다. 프로젝트에 사용자 정의 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정(오른쪽 상단의 버튼)되도록 변경해야 합니다.
-   * 임의 [하이퍼링크](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) 자유 형식 테이블 내에 있는 은 다운로드한 PDF에서 작동하지 않습니다.
+   * 자유 형식 테이블 내에 있는 [하이퍼링크](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)는 다운로드한 PDF에서 작동하지 않습니다.
 
 프로젝트를 CSV 또는 PDF 파일로 다운로드하려면 다음 작업을 수행하십시오.
 

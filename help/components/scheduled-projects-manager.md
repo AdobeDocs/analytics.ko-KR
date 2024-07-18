@@ -2,8 +2,9 @@
 description: 조직 전체에서 예약된 보고서를 보고 관리합니다.
 title: 예약된 프로젝트 관리자
 feature: Admin Tools
-source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
-workflow-type: ht
+exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 예약된 프로젝트를 관리할 때 반복되는 프로젝트 일정을 편집하고 삭제할 수 있습니다.
 
-* 파일 유형 변경 (.csv 또는 PDF)
+* 파일 유형 변경(.csv 또는 PDF)
 * 프로젝트 설명 업데이트
 * 수신자 추가 또는 제거
 * 빈도 변경
@@ -46,7 +47,7 @@ ht-degree: 100%
 
 다음은 예약된 프로젝트 관리자의 일반적인 작업입니다.
 
-| 작업 | 설명 |
+| 액션 | 설명 |
 |---|---|
 | **[!UICONTROL 편집]** | 예약 제목을 선택하여 게재 설정을 업데이트합니다. |
 | **[!UICONTROL 삭제]** | 목록에서 예약된 프로젝트를 선택한 다음, 메뉴에서 삭제를 클릭합니다. 선택한 프로젝트 예약이 삭제됩니다. 프로젝트 자체는 삭제되지 않습니다. |

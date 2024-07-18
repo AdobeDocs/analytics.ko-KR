@@ -5,8 +5,8 @@ exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 49%
+source-wordcount: '417'
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 49%
 
 ## 분류 세트 필터링
 
-분류 세트 작업 관리자의 왼쪽에는 원하는 작업을 찾는 필터 설정을 제공합니다. 필터 아이콘을 클릭하면 필터 설정 가시성이 전환됩니다. 분류 세트를 다음으로 필터링할 수 있습니다. **[!UICONTROL 분류 세트]**, **[!UICONTROL 완료 시간]**, **[!UICONTROL 상태]**, **[!UICONTROL 작업 유형]**, 또는 **[!UICONTROL 소스]**.
+분류 세트 작업 관리자의 왼쪽에는 원하는 작업을 찾는 필터 설정을 제공합니다. 필터 아이콘을 클릭하면 필터 설정 가시성이 전환됩니다. **[!UICONTROL 분류 세트]**, **[!UICONTROL 완료 시간]**, **[!UICONTROL 상태]**, **[!UICONTROL 작업 유형]** 또는 **[!UICONTROL Source]**&#x200B;별로 분류 세트를 필터링할 수 있습니다.
 
 ![분류 세트 작업 필터](../assets/classification-set-job-filters.png)
 
@@ -35,7 +35,7 @@ ht-degree: 49%
 분류 세트 작업 관리자에서 다음 열을 사용할 수 있습니다.
 
 * **[!UICONTROL 파일 이름]**: 업로드 또는 다운로드 파일의 이름입니다.
-* **[!UICONTROL 분류 세트]**: 파일이 적용되는 분류 세트의 이름입니다. 분류 세트 이름을 클릭하여 분류 세트에 도달할 수 있습니다. [설정](manage/settings.md).
+* **[!UICONTROL 분류 집합]**: 파일이 적용되는 분류 집합의 이름입니다. 분류 세트 이름을 클릭하여 분류 세트의 [설정](manage/settings.md)에 연결할 수 있습니다.
 * **[!UICONTROL 크기]**: 파일 크기입니다.
 * **[!UICONTROL 상태]**: 파일을 처리하는 작업의 상태입니다.
    * **[!UICONTROL 생성됨]**: 작업이 제출되었습니다.
@@ -47,8 +47,8 @@ ht-degree: 49%
    * **[!UICONTROL 완료]**: 처리가 완료되었습니다. 분류 데이터를 보고에서 볼 수 있습니다.
    * **[!UICONTROL 실패]**: 유효성 검사 또는 처리와 관련이 없는 일반 오류입니다.
 * **[!UICONTROL 작업 유형]**: 작업 유형입니다.
-* **[!UICONTROL 소스]**: 작업 소스입니다.
+* **[!UICONTROL Source]**: 작업 원본입니다.
 * **[!UICONTROL 파일 다운로드]**: 분류 데이터 다운로드 또는 템플릿 다운로드와 같은 다운로드 작업에만 적용됩니다. 다운로드가 준비되면 이 열은 다운로드 링크를 제공합니다.
-* **[!UICONTROL 수정된 라인]**: 수정된 라인 수
-* **[!UICONTROL 완료된 라인]**: 완료된 라인 수
+* **[!UICONTROL 수정된 줄]**: 수정된 줄 수입니다.
+* **[!UICONTROL 완료된 줄 수]**: 완료된 줄 수
 * **[!UICONTROL 완료 시간]**: 작업을 완료(또는 실패)한 날짜 및 시간입니다.

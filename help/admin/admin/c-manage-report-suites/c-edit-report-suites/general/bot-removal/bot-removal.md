@@ -24,7 +24,7 @@ Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션�
 | 표준 IAB 보트 규칙 | **[!UICONTROL IAB 보트 필터링 규칙 사용]**&#x200B;을 선택하면 [IAB](https://www.iab.com/) (International Advertising Bureau) International Spiders &amp; Bots List를 사용하여 보트 트래픽을 제거합니다. 대부분의 고객은 최소한 이 옵션을 선택합니다. |
 | 사용자 정의 보트 규칙 | 사용자 에이전트, IP 주소 또는 IP 범위를 기반으로 하여 사용자 정의 보트 규칙을 정의하고 추가할 수 있습니다. |
 
-자세한 내용은 [보트 규칙 이해 및 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+자세한 내용은 [보트 규칙 이해 및 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)을 참조하십시오.
 
 ## [!UICONTROL websiteBot] 플러그인을 사용하여 보트를 식별합니다
 
@@ -72,9 +72,9 @@ Experience Cloud 방문자 ID를 차원으로 사용하고 &#39;보트&#39; 세�
 Data Warehouse 보고서가 도착하면 내역 데이터에서 필터링해야 하는 ECID 목록이 제공됩니다. 이러한 ECID를 복사하여 ECID 열과 보트 플래그 열만 있는 빈 .CSV 파일에 붙여넣습니다.
 
 * **ECID**: 이 열 헤더가 위에서 선언한 새 ID에 지정한 이름과 일치하는지 확인합니다.
-* **보트 플래그**: &#39;보트 플래그&#39;를 고객 속성 스키마 차원으로 추가합니다.
+* **보트 플래그**: &#39;보트 플래그&#39;를 사용자 특성 스키마 차원으로 추가합니다.
 
-이 .CSV 파일을 사용자 특성 가져오기 파일로 사용한 다음 이 문서에 설명된 대로 보고서 세트를 사용자 특성에 구독합니다 [블로그 게시물](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+이 .CSV 파일을 사용자 특성 가져오기 파일로 사용한 다음 이 [블로그 게시물](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers)에 설명된 대로 보고서 세트를 사용자 특성에 구독합니다.
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -86,7 +86,7 @@ Data Warehouse 보고서가 도착하면 내역 데이터에서 필터링해야 
 
 ### 6단계: 이 세그먼트를 가상 보고서 세트 필터로 사용
 
-마지막으로 [가상 보고서 세트](/help/components/vrs/vrs-about.md) 는 이 세그먼트를 사용하여 식별된 보트를 필터링합니다.
+마지막으로 이 세그먼트를 사용하는 [가상 보고서 세트](/help/components/vrs/vrs-about.md)를 만들어 식별된 보트를 필터링합니다.
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

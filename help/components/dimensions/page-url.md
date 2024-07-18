@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '224'
 ht-degree: 95%
 
 ---
 
 # 페이지 URL
 
-페이지 URL [차원](overview.md) 사이트의 URL을 나열합니다.
+&#39;페이지 URL&#39; [차원](overview.md)은(는) 사이트의 URL을 나열합니다.
 
 >[!IMPORTANT]
 >

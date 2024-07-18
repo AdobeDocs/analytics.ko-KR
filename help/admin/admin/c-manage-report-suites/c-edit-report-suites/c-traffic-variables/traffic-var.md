@@ -23,10 +23,10 @@ ht-degree: 34%
 
 ## 트래픽 변수 보고서 추가 및 활성화
 
-1. 선택 **[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;을 선택한 다음 보고서 세트를 선택합니다.
-1. 선택 **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽]** > **[!UICONTROL 트래픽 변수]**.
-1. 선택 **[!UICONTROL 새로 추가]**&#x200B;를 클릭한 다음 보고서에 이름을 지정합니다.
-1. 다음에서 [!UICONTROL **활성화됨**] 열에서 선택 [!UICONTROL **활성화됨**] 드롭다운 메뉴에서.1. 선택 **[!UICONTROL 저장]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;를 선택한 다음 보고서 세트를 선택합니다.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽]** > **[!UICONTROL 트래픽 변수]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 새로 추가]**&#x200B;를 선택한 다음 보고서 이름을 지정합니다.
+1. [!UICONTROL **사용**] 열의 드롭다운 메뉴에서 [!UICONTROL **사용**]&#x200B;을 선택합니다.1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ## 트래픽 변수 보고서 비활성화
 
@@ -34,18 +34,18 @@ ht-degree: 34%
 
 트래픽 변수 보고서를 비활성화하려면 다음을 수행하십시오.
 
-1. 선택 **[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;을 선택한 다음 보고서 세트를 선택합니다.
-1. 선택 **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽]** > **[!UICONTROL 트래픽 변수]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;를 선택한 다음 보고서 세트를 선택합니다.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽]** > **[!UICONTROL 트래픽 변수]**&#x200B;를 선택합니다.
 1. 비활성화하려는 트래픽 변수 보고서를 선택합니다.
-1. 다음에서 [!UICONTROL **활성화됨**] 열에서 선택 [!UICONTROL **비활성화됨**] 드롭다운 메뉴에서 을(를) 선택합니다.
+1. [!UICONTROL **사용**] 열의 드롭다운 메뉴에서 [!UICONTROL **사용 안 함**]&#x200B;을(를) 선택합니다.
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
 ## 트래픽 변수 보고서 이름 바꾸기
 
-1. 선택 **[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;을 선택한 다음 보고서 세트를 선택합니다.
-1. 선택 **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽]** > **[!UICONTROL 트래픽 변수]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;를 선택한 다음 보고서 세트를 선택합니다.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽]** > **[!UICONTROL 트래픽 변수]**&#x200B;를 선택합니다.
 1. 이름을 바꿀 트래픽 변수 보고서를 선택합니다.
-1. 다음에서 [!UICONTROL **이름**] 열, 보고서의 새 이름을 지정합니다.
+1. [!UICONTROL **이름**] 열에서 보고서의 새 이름을 지정하십시오.
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
-참조: [prop](/help/implement/vars/page-vars/prop.md) 구현 사용 안내서에서 확인할 수 있습니다.
+구현 사용 안내서에서 [prop](/help/implement/vars/page-vars/prop.md)을(를) 참조하십시오.

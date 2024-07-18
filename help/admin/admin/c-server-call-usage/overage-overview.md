@@ -15,8 +15,8 @@ ht-degree: 80%
 
 Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호출 사용량 데이터 모두에 대한 투명성 요청을 해결합니다. 다음에 액세스할 수 있습니다.
 
-* 서버 호출 사용량 데이터를 추적하고 이를 계약 한도와 비교하는 서버 호출 사용량 대시보드. (Adobe Analytics에서 > [!UICONTROL **관리자**] > [!UICONTROL **서버 호출 사용량**])
-* 초과 사용을 방지하기 위해 경고를 설정할 수 있는 경고 빌더의 서버 호출 사용량 경고 유형(Adobe Analytics에서 선택 [!UICONTROL **구성 요소**] > [!UICONTROL **경고**])
+* 서버 호출 사용량 데이터를 추적하고 이를 계약 한도와 비교하는 서버 호출 사용량 대시보드. (Adobe Analytics에서 > [!UICONTROL **관리자**] > [!UICONTROL **서버 호출 사용량**]&#x200B;을 선택합니다.)
+* 초과 사용을 방지하기 위해 경고를 설정할 수 있는 경고 빌더의 서버 호출 사용량 경고 유형(Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **경고**] 선택)
 
 서버 호출 사용의 주요 이점은 다음과 같습니다.
 
@@ -25,8 +25,8 @@ Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호
 
 ## 사전 요구 사항 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **권한:** 서버 호출 사용량 대시보드 및 경고 빌더 또는 경고 관리자에 액세스하려면 Adobe Analytics 관리자여야 합니다.
-* **권한:** 관리자는 관리자가 아닌 사용자에게 액세스 권한을 부여할 수 있습니다. 이 권한은 이라고 합니다. **[!UICONTROL 서버 호출 사용량]**. 다음을 참조하십시오 [서버 호출 사용량 권한](#server-call-usage-permission).
+* **권한:** 서버 호출 사용량 대시보드와 경고 빌더 또는 경고 관리자에 액세스하려면 Adobe Analytics 관리자여야 합니다.
+* **권한:** 관리자는 관리자가 아닌 사용자에게 액세스 권한을 부여할 수 있습니다. 이 권한을 **[!UICONTROL 서버 호출 사용량]**&#x200B;이라고 합니다. [서버 호출 사용 권한](#server-call-usage-permission)을 참조하세요.
 
 ## 중요한 용어 {#terminology}
 
@@ -99,13 +99,13 @@ Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">sc.omniture.com을 통해 Analytics에 로그인합니다. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">다음으로 이동 <span class="ignoretag"> <span class="uicontrol"> 관리자 </span>  &gt; <span class="uicontrol"> 모든 관리자 </span>  &gt; <span class="uicontrol"> 사용자 관리 </span>  &gt; <span class="uicontrol"> 그룹 </span>  &gt; <span class="uicontrol"> 모든 보고서 액세스 권한 편집 </span>  &gt; <span class="uicontrol"> Analytics 도구 </span>  &gt; <span class="uicontrol"> 사용자 지정 </span>  &gt; <span class="uicontrol"> 서버 호출 사용량 </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A"><span class="ignoretag"> <span class="uicontrol"> 관리자 </span> &gt; <span class="uicontrol"> 모든 관리자 </span> &gt; <span class="uicontrol"> 사용자 관리 </span> &gt; <span class="uicontrol"> 그룹 </span> &gt; <span class="uicontrol"> 모든 보고서 액세스 편집 </span> &gt; <span class="uicontrol"> Analytics 도구 </span> &gt; <span class="uicontrol"> 사용자 지정 </span> &gt; <span class="uicontrol"> 서버 호출 사용량 </span> </span>(으)로 이동합니다. </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">login.experiencecloud.adobe.com에 로그인합니다.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9"><span class="uicontrol">Analytics</span>를 클릭합니다. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">다음으로 이동 <span class="ignoretag"> <span class="uicontrol"> 제품 </span>  &gt; <span class="uicontrol"> 제품 프로필 </span>  &gt; <span class="uicontrol"> 권한 </span>  &gt; <span class="uicontrol"> Analytics 도구 </span>  &gt; <span class="uicontrol"> 서버 호출 사용량 </span> </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF"><span class="ignoretag"> <span class="uicontrol"> 제품 </span> &gt; <span class="uicontrol"> 제품 프로필 </span> &gt; <span class="uicontrol"> 권한 </span> &gt; <span class="uicontrol"> Analytics 도구 </span> &gt; <span class="uicontrol"> 서버 호출 사용량 </span> </span>(으)로 이동합니다. </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1260'
 ht-degree: 92%
 
 ---
@@ -62,9 +62,9 @@ ht-degree: 92%
 
 1. 보려는 스코어카드를 탭합니다.
 
-   한 번의 로그인으로 두 개 이상의 조직에 액세스할 수 있는 경우 조직의 모든 스코어카드를 스코어카드 목록에서 사용할 수 있습니다.
+   한 번의 로그인으로 둘 이상의 조직에 액세스할 수 있는 경우 조직의 모든 스코어카드를 스코어카드 목록에서 사용할 수 있습니다.
 
-   스코어카드 제목, 조직 이름 또는 가장 최근에 본 항목에 따라 스코어카드 목록을 정렬할 수 있습니다. 특정 스코어카드를 검색할 수도 있습니다.
+   스코어카드 제목, 조직 이름 또는 최근에 본 항목에 따라 스코어카드 목록을 정렬할 수 있습니다. 특정 스코어카드를 검색할 수도 있습니다.
 
    ![회사 선택](assets/mobile-home-screen.png)
 
@@ -86,6 +86,7 @@ ht-degree: 92%
       * 하루는 시간별 트렌드를 표시함
       * 이틀 이상 및 1년 미만은 일별 트렌드를 표시함
       * 1년 이상은 주별 트렌드를 표시함
+
    * 비율 값 변경 수식은 지표 합계 (현재 날짜 범위) – 지표 합계 (비교 날짜 범위) / 지표 합계 (비교 날짜 범위)입니다.
 
    * 화면을 아래로 당기면 스코어카드를 새로 고칠 수 있습니다.
@@ -107,7 +108,7 @@ ht-degree: 92%
 
    * 탭한 간격 (**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션 (현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **[!UICONTROL 비교 대상]** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **[!UICONTROL 완료]**&#x200B;를 탭합니다. **[!UICONTROL 날짜 범위]** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
 
-1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운을 누르고 조정이 구성한 세그먼트를 선택합니다. 앱의 [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
+1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운을 누르고 큐레이터가 구성한 세그먼트를 선택합니다. 앱의 [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
 
    ![세그먼트 필터](/help/admin/admin/assets/filter.png)
 

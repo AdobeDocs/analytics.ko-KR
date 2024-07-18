@@ -17,7 +17,7 @@ Report Builder에서 Adobe Analytics 세그먼트 추가, 편집, 적용 및 필
 
 Report Builder은 세그먼트를 만들고 관리할 수 있도록 하는 요청 마법사의 1단계에 있는 세그멘테이션 패널을 제공합니다.
 
-![세그먼트 추가, 편집 또는 지우기 옵션을 보여주고 제어, 필터 및 새로 고침 아이콘을 강조 표시하는 스크린샷입니다.](assets/seg_dialog.png)
+![세그먼트를 추가, 편집 또는 지우는 세그먼트 옵션을 보여주고 컨트롤, 필터 및 새로 고침 아이콘을 강조 표시하는 스크린샷입니다.](assets/seg_dialog.png)
 
 ## 세그먼트 추가 또는 편집 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -41,7 +41,7 @@ Report Builder은 세그먼트를 만들고 관리할 수 있도록 하는 요�
 1. 세그먼트로 전환할 보고서 출력 항목을 선택합니다.
 1. 마우스 오른쪽 버튼을 클릭하여 **[!UICONTROL 컨텍스트 내 세그먼트 만들기]**&#x200B;를 선택하고 적절한 컨테이너(히트 컨테이너, 방문 컨테이너, 방문자 컨테이너)를 지정합니다.
 
-   ![선택하고 사용 가능한 컨테이너 옵션에서 컨텍스트 내 세그먼트 만들기 를 보여 주는 스크린샷입니다.](assets/seg_in_context.png)
+   ![선택한 컨테이너 옵션과 사용 가능한 컨테이너 옵션에서 컨텍스트 내 세그먼트 만들기를 보여 주는 스크린샷](assets/seg_in_context.png)
 
    컨테이너에 대한 자세한 내용은 [세그멘테이션 가이드](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오.
 
@@ -52,7 +52,7 @@ Report Builder은 세그먼트를 만들고 관리할 수 있도록 하는 요�
 
 ## 세그먼트 검색 및 적용 {#search}
 
-Reports &amp; Analytics(이제 서비스 종료), Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘을 클릭합니다 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Reports &amp; Analytics(이제 서비스 종료), Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 클릭합니다.
 
 지정된 요청에 하나 또는 여러 개의 세그먼트를 적용할 수 있습니다. 여기에는 순차적 세그먼트가 포함됩니다.
 
@@ -60,7 +60,7 @@ Reports &amp; Analytics(이제 서비스 종료), Report Builder 또는 Data War
 
 1. 적용할 세그먼트를 선택합니다.
 
-   ![선택한 세그먼트를 보여 주는 스크린샷입니다.](assets/seg_list.png)
+   ![선택한 세그먼트를 표시하는 스크린샷입니다.](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Reports &amp; Analytics(이제 서비스 종료), Report Builder 또는 Data War
 
 ## 세그먼트 필터링 {#filter}
 
-**필터** 필터 아이콘을 클릭하여 세그먼트를 만듭니다.  ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+필터 아이콘 ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 클릭하여 **필터** 세그먼트
 
 사용 가능한 필터:
 
@@ -76,7 +76,7 @@ Reports &amp; Analytics(이제 서비스 종료), Report Builder 또는 Data War
 |---|---|
 | 태그 | 특정 태그가 있는 세그먼트만 필터링할 수 있습니다. 태그 필터는 AND 연산자를 사용합니다. 두 태그를 선택하면 오른쪽 창에 **두** 태그가 모두 지정된 세그먼트가 표시됩니다. |
 | 소유자 | 소유자별로 세그먼트를 필터링할 수 있습니다. 소유자 필터는 OR 연산자를 사용합니다. 두 명의 소유자를 선택하면 오른쪽 창에 **둘 중 하나의** 소유자가 소유한 세그먼트가 표시됩니다. |
-| 기타 필터 > *보고서 세트 이름*&#x200B;만 | 다음을 적용하는 경우 *보고서 세트 이름*&quot;Adobe Analytics의 세그먼트 빌더에서 을 필터링한 다음 고급 필터를 표시합니다. [!DNL Report Builder]고급 필터에 선택한 보고서 세트에 대한 세그먼트만 표시됩니다. |
+| 기타 필터 > *보고서 세트 이름*&#x200B;만 | Adobe Analytics의 세그먼트 빌더에서 &quot;*보고서 세트 이름*&#x200B;만&quot; 필터를 적용한 다음 [!DNL Report Builder]에 고급 필터를 표시하면 고급 필터에 선택한 보고서 세트에 대한 세그먼트만 표시됩니다. |
 | 기타 필터 > 내 소유 | 소유한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 나와 공유 | 다른 사람이 사용자와 공유한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 즐겨찾기 | 즐겨찾기로 표시한 모든 세그먼트를 표시합니다. |
@@ -86,11 +86,11 @@ Reports &amp; Analytics(이제 서비스 종료), Report Builder 또는 Data War
 
 세그먼트 컨트롤을 추가하면 요청 마법사로 이동할 필요 없이 통합 문서 내에서 세그먼트 간을 전환할 수 있습니다.
 
-1. Control 아이콘 클릭 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 세그먼트 드롭다운 옆에 있습니다.
+1. 세그먼트 드롭다운 옆에 있는 컨트롤 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을(를) 클릭합니다.
 
 1. 세그먼트 컨트롤에 표시할 모든 세그먼트를 선택하거나 **[!UICONTROL 모두 선택]**&#x200B;을 선택합니다.
 
-   ![모든 세그먼트가 선택된 상태로 [컨트롤 설정] 대화 상자의 스크린샷입니다.](assets/seg_control.png)
+   모든 세그먼트가 선택된 컨트롤 설정 대화 상자의 ![스크린샷입니다.](assets/seg_control.png)
 
 1. **[!UICONTROL 연결된 요청을 항목 선택에 따라 자동으로 새로 고칩니다.]** 옵션을 확인합니다.
 
@@ -101,11 +101,11 @@ Reports &amp; Analytics(이제 서비스 종료), Report Builder 또는 Data War
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭하면 지정된 위치에 세그먼트 컨트롤이 나타납니다.
 
-   ![세그먼트 선택 필드 드롭다운 필드를 보여 주는 스크린샷입니다.](assets/seg_control2.png)
+   ![세그먼트 필드 선택 드롭다운 필드를 보여 주는 스크린샷입니다.](assets/seg_control2.png)
 
 ## 세그먼트 목록 새로 고침 {#refresh}
 
-언제든지 새 세그먼트를 추가하거나 기존 세그먼트를 편집할 때는 새로 고침 아이콘을 클릭해야 합니다 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 캐시된 세그먼트 목록을 새로 고칩니다.
+언제든지 새 세그먼트를 추가하거나 기존 세그먼트를 편집할 때는 새로 고침 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 클릭하여 캐시된 세그먼트 목록을 새로 고쳐야 합니다.
 
 ## 요청에 있는 세그먼트 관리 {#manage}
 
@@ -116,7 +116,7 @@ Report Builder 5.4에서는 여러 요청에 대해 세그먼트 추가, 제거,
 1. 통합 문서에서 여러 요청을 선택합니다.
 1. 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 요청 편집]** > **[!UICONTROL 세그먼트 기준]**&#x200B;을 선택합니다.
 
-   ![선택한 세그먼트별 및 편집 요청을 보여 주는 스크린샷입니다.](assets/edit_by_segment.png)
+   ![선택한 세그먼트별 편집 요청 및 편집 요청을 보여 주는 스크린샷입니다.](assets/edit_by_segment.png)
 
 1. 그룹 편집 대화 상자에서 다음 네 가지 옵션 중 하나를 선택합니다.
 

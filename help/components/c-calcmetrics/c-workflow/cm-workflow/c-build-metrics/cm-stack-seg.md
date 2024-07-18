@@ -16,7 +16,7 @@ ht-degree: 26%
 
 ## 세그먼트 스택 {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
-1. 에 설명된 대로 지표 작성을 시작합니다. [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)에 설명된 대로 지표 작성을 시작합니다.
 
 1. 정의 캔버스에서 기존 세그먼트 옆에 새 세그먼트를 놓습니다.
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 ## 한 세그먼트를 다른 세그먼트로 바꾸기 {#section_3DA899DF522A44D7A583C5DC8C0A033E}
 
-1. 에 설명된 대로 지표 작성을 시작합니다. [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)에 설명된 대로 지표 작성을 시작합니다.
 
 1. 정의 캔버스에서 기존 세그먼트 위에 새 세그먼트를 놓습니다.
 

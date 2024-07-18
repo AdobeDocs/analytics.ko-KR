@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 80%
+source-wordcount: '261'
+ht-degree: 81%
 
 ---
 
@@ -22,14 +22,14 @@ Row Labels 그리드에 [차원을 추가](/help/analyze/report-builder/layout/c
 
 다음 표에서는 [!UICONTROL 사용자 지정 형식] 필드에서 날짜 약자를 사용할 수 있는 방법에 대해 설명합니다.
 
-| 약자 | 의미 | 2012년 3월 14일 수요일 사용 예 |
+| 약자 | 의미 | 예   2012년 3월 14일 수요일 사용 |
 |--- |--- |--- |
 | yyy/dd/MM | 전체 숫자 날짜 | 2012/03/14 |
 | M | 월의 숫자 | 3 |
 | MM | 10보다 작은 달에 대해 십의 자리에 0을 사용하는 월의 숫자 | 03 |
 | MMM | 월의 짧은 이름 | 3월 |
 | MMMM | 월의 긴 이름 | 3월 |
-| D | 날짜의 긴 이름 | 2012년 3월 14일 수요일 |
+| D | 날짜의 긴 이름 | 2012년 3월 14일 목요일 |
 | d | 일의 숫자 | 14 |
 | dd | 10보다 작은 일에 대해 십의 자리에 0을 사용하는 일의 숫자 | 01 - 09 |
 | ddd | 일의 짧은 이름 | 수 |

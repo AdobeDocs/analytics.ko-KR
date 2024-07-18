@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '679'
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 ## 비교할 기간 열 추가 {#section_93CC2B4F48504125BEC104046A32EB93}
 
-이제 테이블의 각 열에 기간을 추가하여 달력에 설정된 기간과 다른 기간을 추가할 수 있습니다. 날짜를 비교할 수 있는 다른 방법입니다.
+이제 테이블의 각 열에 기간을 추가하여 캘린더에 설정된 기간과 다른 기간을 추가할 수 있습니다. 날짜를 비교할 수 있는 다른 방법입니다.
 
 1. 테이블에서 열을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 기간 열 추가를 선택합니다.]**![](assets/add-time-period-column.png)
 

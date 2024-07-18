@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 40%
+source-wordcount: '200'
+ht-degree: 33%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 40%
 
 1. Report Builder 메뉴에서 **[!UICONTROL 옵션]**&#x200B;을 클릭합니다.
 
-   ![오프라인 코드가 선택된 옵션 화면의 스크린샷입니다.](assets/offline_mode.png)
+   오프라인 코드가 선택된 옵션 화면의 ![스크린샷입니다.](assets/offline_mode.png)
 
 1. **[!UICONTROL 요청 생성 및 편집을 위한 오프라인 모드를 켭니다.]** 옆의 확인란을 선택합니다.
 1. **[!UICONTROL 지표 데이터를 다음으로 표시]** 필드에 요청에서 반환하려는 자리 표시자 데이터를 입력합니다. 예를 들어 &quot;1&quot;을 입력합니다.
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 1. 요청 마법사를 사용하여 요청을 오프라인 모드로 만들고 실행합니다. 다음 스크린샷은 자리 표시자 데이터로 &quot;1&quot;이 있는 요청의 예를 보여줍니다.
 
-   ![자리 표시자로 1을 사용하는 오프라인 모드 예를 보여 주는 스크린샷입니다.](assets/offline_mode_example.png)
+   ![플레이스홀더로 1을 사용하는 오프라인 모드 예제를 보여 주는 스크린샷](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >

@@ -2,7 +2,8 @@
 title: Adobe Analytics에서 사용하는 도메인
 description: Adobe Analytics을 사용하여 최적의 환경을 제공하기 위해 이러한 도메인을 조직의 방화벽을 통해 허용하십시오.
 feature: Data Configuration and Collection
-source-git-commit: 3653a4e71d96ae636205840e1b8b456162521401
+exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
+source-git-commit: c1d1693bef617e3ebd6bf4f007c2235b2098a016
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 13%
@@ -28,7 +29,7 @@ ht-degree: 13%
 
 ## Adobe Experience Cloud 도메인
 
-위의 도메인 외에도 Adobe Experience Cloud은 데이터 수집 및 보고서 내보내기를 위해 여러 도메인을 사용합니다. 다음을 참조하십시오 [Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) 이 도메인 목록에 대해 설명합니다.
+위의 도메인 외에도 Adobe Experience Cloud은 데이터 수집 및 보고서 내보내기를 위해 여러 도메인을 사용합니다. 이 도메인 목록은 [Adobe Experience Cloud에서 사용하는 도메인](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)을 참조하십시오.
 
 >[!MORELIKETHIS]
 >

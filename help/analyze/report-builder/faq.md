@@ -7,7 +7,7 @@ exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,6 +33,6 @@ Report Builder의 통합 문서 지원 한도는 다음과 같습니다.
 * **회사당 시간당 요청 2만 개**: Report Builder는 Analytics Reporting API를 사용하여 데이터를 검색합니다. 각 개별 요청은 생성되거나 새로 고쳐질 때마다 API 호출을 사용합니다. 조직에서 지정된 시간에 API 호출이 20,000개 이상 누적되는 경우 데이터를 다시 검색하려면 다음 시간까지 기다려야 합니다.
 * **4시간 처리 시간**: 예약된 보고서는 4시간 이상 처리한 후 시간이 초과됩니다. 통합 문서에 대규모 데이터 세트를 사용하는 복잡한 요청이 많이 포함된 경우 예약된 보고서가 실패할 수 있습니다.
 
-## Report Builder 액세스 권한이 있는지 어떻게 알 수 있습니까? {#access}
+## Report Builder에 대한 액세스 권한이 있는지 어떻게 알 수 있습니까? {#access}
 
-Adobe Analytics 관리자는 사용자에게 Report Builder 액세스 권한을 부여해야 합니다. 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). 관리자에게 액세스 권한을 부여하도록 요청하십시오.
+Adobe Analytics 관리자로부터 Report Builder 액세스 권한을 부여받아야 합니다. 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home)에서 제품 프로필을 설정합니다. 관리자에게 액세스 권한을 요청하십시오.

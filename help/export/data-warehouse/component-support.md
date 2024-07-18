@@ -5,8 +5,8 @@ feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 56%
+source-wordcount: '404'
+ht-degree: 59%
 
 ---
 
@@ -20,15 +20,15 @@ Adobe Analytics에서 다른 기능을 사용할 때는 Data Warehouse에 사용
 
 ### 전용 차원 지원
 
-* **EXPERIENCE CLOUD ID**: ECID(Experience Cloud ID 서비스)를 사용하는 구현의 경우, 연결된 두 개의 64비트 숫자로 구성된 128비트 숫자를 19자리로 채워줍니다.
-* **페이지 URL**: 히트가 발생한 페이지 URL입니다.
+* **Experience Cloud ID**: ECID(Experience Cloud ID 서비스)를 사용하는 구현의 경우 연결된 두 개의 64비트 숫자로 구성된 128비트 숫자를 19자리로 채워줍니다.
+* **페이지 URL**: 히트가 발생한 페이지 URL.
 * **구매 ID**: purchaseID 변수를 사용하여 설정한 구매에 대한 고유 식별자입니다.
 * **방문자 ID**: 방문자에 대한 고유 식별자를 제공합니다. 이 값은 데이터 피드에서 `visid_high` 및 `visid_low` 열의 연결된 값과 동일합니다. 자세한 내용은 데이터 피드 아래의 [데이터 열 참조](../analytics-data-feed/c-df-contents/datafeeds-reference.md)를 참조하십시오.
 
 ### 전용 지원 지표
 
-* **방문 횟수**: Data Warehouse 컨텍스트에서 이 지표는 비영구 쿠키 방문을 제외합니다.
-* **방문 횟수 - 모든 방문자 수**: Data Warehouse 컨텍스트에서 이 지표는 Adobe Analytics 내의 다른 도구에 있는 방문 지표와 더 가깝게 일치합니다.
+* **방문 횟수**: Data Warehouse 컨텍스트에서 이 지표는 비영구 쿠키 방문 횟수를 제외합니다.
+* **방문 횟수 - 모든 방문자 수**: Data Warehouse 컨텍스트에서 이 지표는 Adobe Analytics 내의 다른 도구에 있는 방문 횟수 지표와 더 가깝게 일치합니다.
 
 ## Data Warehouse에서 지원되지 않는 구성 요소
 
@@ -67,11 +67,11 @@ Adobe Analytics에서 다른 기능을 사용할 때는 Data Warehouse에 사용
    * 다시 로드
    * 단일 액세스
    * 체류 시간 지표
-* 기여도 지표 (에 설명됨) [&quot;기여도&quot; 지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* 기여도 지표([기여도 지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)에 설명되어 있음)
 
 ### 다른 방식으로 지원되는 Dimension
 
-다음 시간 기반 차원이 지원됩니다. 그러나 이러한 차원을 사용할 때는 날짜 출력이 표준이 아닙니다. 구체적으로 해당 연도는 1900년까지 상쇄되며, 월은 0을 기준으로 한다.
+다음 시간 기반 차원이 지원됩니다. 단, 이들 차원을 사용할 때 날짜 출력은 표준이 아닙니다. 구체적으로 해당 연도는 1900년까지 상쇄되며, 월은 0을 기준으로 한다.
 
 * 년
 * 분기

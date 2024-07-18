@@ -23,8 +23,8 @@ ht-degree: 75%
 
 채널은 다음 변수에 매핑됩니다.
 
-* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - 이 XDM 필드는 부울입니다. (으)로 설정합니다. `true` 오류 페이지로 플래그를 지정하거나 `false` 오류 페이지가 아닌 경우
-* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - 이 데이터 개체 필드는 문자열이며, 다음으로 설정합니다. `"errorPage"` 이렇게 플래그를 지정합니다.
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - 이 XDM 필드는 부울입니다. 오류 페이지로 플래그를 지정하려면 `true`(으)로 설정하고, 오류 페이지가 아닌 경우 `false`(으)로 설정하십시오.
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - 이 데이터 개체 필드는 문자열입니다. `"errorPage"`(으)로 설정하여 플래그를 지정하십시오.
 
 ## Adobe Analytics 확장을 사용하는 페이지 유형
 

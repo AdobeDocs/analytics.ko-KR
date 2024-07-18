@@ -81,7 +81,7 @@ ht-degree: 96%
 
 이 옵션은 표준 eVar에 사용할 수 없습니다. [!UICONTROL 머천다이징] 설정을 사용하여 머천다이징 eVar 값을 캡처하는 방법으로 [!UICONTROL 전환 변수 구문] 또는 [!UICONTROL 제품 구문]을 선택할 수 있습니다.
 
-**[!UICONTROL 전환 변수 구문]**&#x200B;은 자체 변수에서 eVar 값을 설정함을 의미합니다. 예를 들어 전환 변수 구문을 사용할 경우 `eVar1` &quot;내부 키워드 검색&quot;의 값은 페이지 코드(또는 AppMeasurement 코드, Adobe Experience Platform Web SDK 코드 등) 내에서 다음과 같이 설정됩니다.
+**[!UICONTROL 전환 변수 구문]**&#x200B;은 자체 변수에서 eVar 값을 설정함을 의미합니다. 예를 들어 전환 변수 구문을 사용할 때 &quot;내부 키워드 검색&quot;의 `eVar1` 값이 페이지 코드(또는 AppMeasurement 코드, Adobe Experience Platform Web SDK 코드 등) 내에서 다음과 같이 설정됩니다.
 
 `s.eVar1="internal keyword search";`
 
@@ -388,7 +388,7 @@ Analytics 서버 호출에서 표준 eVar을 전송하면 post_evar 열의 값�
 
 예를 들어 `s.eVar1="Internal Keyword Search"` 설정을 단독으로 설정해도 &quot;내부 키워드 검색&quot;의 eVar1 값에는 어떠한 인스턴스 지표 크레딧도 부여되지 않습니다. 이 시점에서 인스턴스 ID가 기록됩니다. 그러나 `eVar1`이 설정될 때 그와 동시에 제품이 그러한 &quot;내부 키워드 검색&quot; 값에 바인딩되는 경우가 아니라면 이 인스턴스는 지정되지 않음 버킷으로 귀속됩니다. 즉, &quot;내부 키워드 검색&quot;의 `eVar1` 값이 인스턴스를 가져올 수 있습니다. 하지만 이는 &quot;내부 키워드 검색&quot; 값에 바인딩된 제품이 동일한 이미지 요청의 제품 변수에 표시되는 경우에만 발생합니다.
 
-요약하면 머천다이징 eVar에 대한 기본 인스턴스 지표는 추가 구성 없이는 유용하지 않습니다. 다행히도, Adobe 발표 [속성](/help/analyze/analysis-workspace/attribution/overview.md). 이를 사용해, Adobe Analytics에서 수집하는 모든 사용자 정의 지표에 대해 여러 속성 모델을 적용할 수 있습니다. 이러한 속성 모델을 적용하는 지표는 post_evar 열에 포함된 값이나 특정 제품에 바인딩된 값을 사용하지 않습니다. 대신 이 지표들은 이미지 요청 자체를 통해 전달되는 값(또는 Adobe Analytics 처리 규칙을 통해 캡처되는 값)만 사용합니다. 속성 의 기능을 사용하여 전환 변수 구문을 사용하는 모든 머천다이징 eVar에 대해 정확하게 인스턴스 지표를 가져올 수 있습니다.
+요약하면 머천다이징 eVar에 대한 기본 인스턴스 지표는 추가 구성 없이는 유용하지 않습니다. 다행히 Adobe에서 [속성](/help/analyze/analysis-workspace/attribution/overview.md)을 릴리스했습니다. 이를 사용해, Adobe Analytics에서 수집하는 모든 사용자 정의 지표에 대해 여러 속성 모델을 적용할 수 있습니다. 이러한 속성 모델을 적용하는 지표는 post_evar 열에 포함된 값이나 특정 제품에 바인딩된 값을 사용하지 않습니다. 대신 이 지표들은 이미지 요청 자체를 통해 전달되는 값(또는 Adobe Analytics 처리 규칙을 통해 캡처되는 값)만 사용합니다. 속성 의 기능을 사용하여 전환 변수 구문을 사용하는 모든 머천다이징 eVar에 대해 정확하게 인스턴스 지표를 가져올 수 있습니다.
 
 ![속성 선택](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 

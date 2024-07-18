@@ -16,7 +16,7 @@ ht-degree: 5%
 데이터 소스에 대한 FAQ.
 
 +++데이터 소스 사용 비용은 얼마입니까?
-데이터 소스는 요금이 발생하지 않으며 서버 호출 사용량에 계산되지 않습니다. [전체 처리 데이터 소스](full-processing-eol.md) 종료 전 서버 호출에 포함됩니다.
+데이터 소스는 요금이 발생하지 않으며 서버 호출 사용량에 계산되지 않습니다. [전체 처리 데이터 원본](full-processing-eol.md)은(는) 사용 중지 전 서버 호출에 계산되었습니다.
 +++
 
 +++데이터 소스는 eVar의 속성 및 만료에 어떤 영향을 줍니까?
@@ -26,12 +26,12 @@ transactionID가 데이터 소스와 온라인 히트 간에 일치하는 경우
 +++
 
 +++데이터 소스는 페이지 보기 수, 방문 횟수 또는 고유 방문자 수와 같은 기본 지표에 어떤 영향을 줍니까?
-데이터 소스를 통해 업로드된 데이터는 영향을 받지 않습니다 [페이지 보기 수](/help/components/metrics/page-views.md), [방문 횟수](/help/components/metrics/visits.md), 또는 [고유 방문자 수](/help/components/metrics/unique-visitors.md) 어쨌든.. 영향을 미치는 유일한 기본 지표에는 다음이 포함됩니다 [발생 횟수](/help/components/metrics/occurrences.md).
+데이터 소스를 통해 업로드된 데이터는 어떤 식으로든 [페이지 보기 수](/help/components/metrics/page-views.md), [방문 수](/help/components/metrics/visits.md) 또는 [고유 방문자 수](/help/components/metrics/unique-visitors.md)에 영향을 주지 않습니다. 영향을 미치는 유일한 기본 지표에는 [발생 횟수](/help/components/metrics/occurrences.md)가 포함됩니다.
 +++
 
 +++데이터 소스를 사용하여 가져온 데이터를 삭제할 수 있습니까?
 
-예. 다음을 사용하여 이 데이터를 삭제할 수 있습니다. [데이터 복구 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Adobe 또한 데이터 소스 데이터를 프로덕션 보고서 세트에 업로드하기 전에 테스트 보고서 세트에 업로드하는 것이 좋습니다.
+예. [데이터 복구 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)를 사용하여 이 데이터를 삭제할 수 있습니다. Adobe 또한 데이터 소스 데이터를 프로덕션 보고서 세트에 업로드하기 전에 테스트 보고서 세트에 업로드하는 것이 좋습니다.
 +++
 
 +++한 번에 얼마나 많은 데이터를 가져올 수 있습니까?
@@ -45,13 +45,13 @@ transactionID가 데이터 소스와 온라인 히트 간에 일치하는 경우
 +++
 
 +++파일 확장자는 대/소문자를 구분합니까?
-예. 확장명이 인 파일 `.TXT` 또는 `.FIN` 처리되지 않습니다. 파일 확장명이 모두 소문자인지 확인하십시오.
+예. 확장명이 `.TXT` 또는 `.FIN`인 파일은 처리되지 않습니다. 파일 확장명이 모두 소문자인지 확인하십시오.
 +++
 
 +++데이터 소스 파일에 몇 개의 열을 추가할 수 있습니까?
-모든 열이 유효한 열이면 원하는 수만큼 데이터 소스 파일에 열을 포함할 수 있습니다. 다음을 참조하십시오 [파일 형식](file-format.md) 유효한 변수/열 이름 목록.
+모든 열이 유효한 열이면 원하는 수만큼 데이터 소스 파일에 열을 포함할 수 있습니다. 올바른 변수/열 이름 목록은 [파일 형식](file-format.md)을 참조하세요.
 +++
 
 +++Adobe이 제공한 FTP 위치를 사용하지 않고 데이터 소스를 사용할 수 있습니까?
-다음을 사용할 수 있습니다. [데이터 소스 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/): API 호출을 Adobe으로 직접 전송할 수 있습니다. 이러한 API 호출에는 `UploadData` 메서드, JSON 개체 페이로드로 데이터를 전송할 수 있습니다.
+Adobe에 직접 API 호출을 보낼 수 있는 [데이터 원본 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/)를 사용할 수 있습니다. 이러한 API 호출에는 JSON 개체 페이로드로 데이터를 보낼 수 있는 `UploadData` 메서드가 포함되어 있습니다.
 +++

@@ -12,7 +12,7 @@ ht-degree: 54%
 
 # 개인정보 보호 보고
 
-개인 정보 보호 보고를 통해 다음을 활성화할 수 있습니다. [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md), [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md) 및 [광고 플랫폼 동의](/help/components//dimensions/ad-consent.md) 보고에 사용할 차원입니다.
+개인 정보 보고를 통해 보고에 사용할 [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md), [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md) 및 [광고 플랫폼 동의](/help/components//dimensions/ad-consent.md) 차원을 사용하도록 설정할 수 있습니다.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ ht-degree: 54%
 
    ![설정 편집](assets/rsm-privacy-select.png)
 
-1. 클릭 **[!UICONTROL 데이터 개인 정보 보호 보고서 활성화]**.
+1. **[!UICONTROL 데이터 개인 정보 보호 보고서 사용]**&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >

@@ -6,8 +6,8 @@ feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 65%
+source-wordcount: '681'
+ht-degree: 64%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 65%
 * 가상 보고서 세트를 공유할 수 없습니다. &quot;공유&quot;는 그룹/권한을 통해 수행됩니다.
 * 가상 보고서 세트 관리자에서는 자신의 가상 보고서 세트만 볼 수 있습니다. 다른 모든 사용자의 가상 보고서 세트를 표시하려면 &quot;모두 표시&quot;를 클릭해야 합니다.
 
-1. 다음으로 이동 **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**.
+1. **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**(으)로 이동합니다.
 1. **[!UICONTROL 추가를 클릭합니다 +]**.
 
    ![](assets/new_vrs.png)
@@ -62,9 +62,9 @@ ht-degree: 65%
 ![](assets/components.png)
 
 1. [!UICONTROL 구성 요소] 탭에서 이 가상 리포트 세트에 대한 구성 요소를 Analysis Workspace에서 포함, 제외 및 이름을 변경하기 위해 큐레이션을 적용할 체크박스를 선택하십시오.
-가상 보고서 세트 큐레이션에 대한 자세한 내용은 [가상 보고서 세트 구성 요소 큐레이션](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
+가상 보고서 세트 큐레이션에 대한 자세한 내용은 [가상 보고서 세트 구성 요소 큐레이션](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites)을 참조하십시오.
 
-1. 가상 보고서 세트에 포함할 구성 요소(차원, 지표, 세그먼트 또는 날짜 범위)를 [!UICONTROL 포함된 구성 요소] 섹션.
+1. 가상 보고서 세트에 포함할 구성 요소(차원, 지표, 세그먼트 또는 날짜 범위)를 [!UICONTROL 포함된 구성 요소] 섹션으로 끌어다 놓습니다.
 
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

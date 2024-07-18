@@ -19,7 +19,7 @@ ht-degree: 65%
 
 요청 마법사 1단계에는 다음과 같이 대시보드 및 해당 Reportlet이 표시됩니다.
 
-![대시보드 검색 및 책갈피 검색 을 강조 표시하는 요청 마법사 1단계/2를 보여 주는 스크린샷입니다.](assets/import_dashboard_reportlet.png)
+![대시보드 검색 및 책갈피 검색을 강조 표시하는 요청 마법사 1단계/2를 보여 주는 스크린샷입니다.](assets/import_dashboard_reportlet.png)
 
 **[!UICONTROL [대시보드 검색]]**&#x200B;이나 **[!UICONTROL [책갈피 검색]]**&#x200B;을 클릭하면, 기존 대시보드 및/또는 책갈피 데이터가 검색되고 워크시트에 붙여넣어집니다.
 

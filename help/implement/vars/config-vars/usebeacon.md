@@ -25,20 +25,20 @@ ht-degree: 62%
 
 ## Web SDK 확장을 사용하여 sendBeacon API 사용
 
-다음 **[!UICONTROL 문서가 언로드됩니다.]** 작업 구성 내의 확인란은 Adobe에 전송된 데이터가 sendBeacon API를 사용하는지 여부를 결정합니다.
+작업 구성 내의 **[!UICONTROL 문서를 언로드합니다]** 확인란은 Adobe에 전송된 데이터가 sendBeacon API를 사용하는지 여부를 결정합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. 로 이동 [!UICONTROL 규칙] 탭을 클릭한 다음 원하는 규칙을 클릭합니다.
-1. 아래 [!UICONTROL 작업]을 클릭하고 원하는 작업을 클릭하거나 **&#39;+&#39;** 새 작업을 추가하는 아이콘.
-1. 설정 [!UICONTROL 확장] 드롭다운 목록 **[!UICONTROL Adobe Experience Platform 웹 SDK]** 및 [!UICONTROL 작업 유형] 끝 **[!UICONTROL 이벤트 보내기]**
-1. 확인란을 클릭합니다. **[!UICONTROL 문서가 언로드됩니다.]** 오른쪽.
+1. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭합니다.
+1. [!UICONTROL 작업]에서 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘을 클릭하여 새 작업을 추가합니다.
+1. [!UICONTROL 확장] 드롭다운 목록을 **[!UICONTROL Adobe Experience Platform Web SDK]**(으)로 설정하고 [!UICONTROL 작업 유형]을(를) **[!UICONTROL 이벤트 보내기]**(으)로 설정합니다.
+1. 오른쪽의 **[!UICONTROL 문서가 언로드됨]** 확인란을 클릭합니다.
 
 이 상자를 선택하면 데이터가 sendBeacon API를 사용하여 Adobe으로 전송됩니다. 기본적으로 선택되어 있지 않습니다.
 
 ## Web SDK를 수동으로 구현하기 위해 sendBeacon API 사용
 
-설정 `documentUnloading` 끝 `true` 이벤트를 보낼 때. 설정하지 않으면 기본값은 입니다. `false`.
+이벤트를 보낼 때 `documentUnloading`을(를) `true`(으)로 설정합니다. 설정하지 않으면 기본값은 `false`입니다.
 
 ```json
 alloy("sendEvent", {
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-다음을 참조하십시오 [sendBeacon API 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) 자세한 내용은 Web SDK 설명서 를 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [sendBeacon API 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)을 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 비콘 사용
 

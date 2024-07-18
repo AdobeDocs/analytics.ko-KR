@@ -5,8 +5,8 @@ feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 92%
+source-wordcount: '279'
+ht-degree: 96%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 92%
 
 1. 세그먼트 관리자에서 공유할 세그먼트 옆의 확인란을 선택합니다. 세그먼트 관리 도구 모음이 나타납니다.
 
-2. **[!UICONTROL 공유를 클릭합니다]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+2. **[!UICONTROL 공유]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)을 클릭합니다.
 
    관리자는 **[!UICONTROL 모두]**&#x200B;를 선택하거나 조직의 **[!UICONTROL 그룹]** 및 **[!UICONTROL 사용자]**&#x200B;를 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. **[!UICONTROL 검색]** 필드를 사용하여 그룹 또는 사용자를 검색합니다. 1. **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
 
-   세그먼트 옆에 공유 아이콘이 표시됩니다.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+    세그먼트 옆에 공유 아이콘이 표시됩니다.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
 3. **[!UICONTROL 필터]** > **[!UICONTROL 기타 필터]** > **[!UICONTROL 나와 공유]**&#x200B;로 이동하여 사용자와 공유되는 세그먼트를 필터링할 수 있습니다.

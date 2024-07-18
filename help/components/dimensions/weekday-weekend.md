@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # 평일/주말
 
-평일/주말 [차원](overview.md) 히트가 평일(월요일 - 금요일)과 주말(토요일 - 일요일) 중 언제 발생했는지 알려줍니다. 히트 시간은 [보고서 세트의 시간대](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)를 기반으로 합니다.
+평일/주말&#39; [차원](overview.md)은(는) 히트가 평일(월요일 - 금요일)과 주말(토요일 - 일요일) 중 언제 발생했는지 알려줍니다. 히트 시간은 [보고서 세트의 시간대](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)를 기반으로 합니다.
 
 ## 이 차원을 데이터로 채우기
 

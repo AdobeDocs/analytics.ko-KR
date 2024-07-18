@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 히트 깊이
 
-&#39;히트 깊이&#39; [차원](overview.md) 주어진 히트가 방문까지 도달하는 거리를 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 중요합니다. 히트 깊이는 페이지 보기 ([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트 ([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
+&#39;히트 깊이&#39; [차원](overview.md)은(는) 주어진 히트가 방문까지 얼마나 진행되었는지 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 중요합니다. 히트 깊이는 페이지 보기 ([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트 ([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
 
 ## 이 차원을 데이터로 채우기
 

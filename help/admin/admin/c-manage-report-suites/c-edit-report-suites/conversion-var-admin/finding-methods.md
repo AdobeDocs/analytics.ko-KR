@@ -15,7 +15,7 @@ ht-degree: 97%
 
 [검색 방법] 페이지에서는 다양한 검색 방법 보고서가 사용자 사이트에서의 전환 성공 이벤트에 대한 크레딧을 받는 방법을 식별합니다. 예를 들어 검색 엔진이 구매하는 방문자를 해당 사이트로 안내하는 경우, 검색 방법은 검색 엔진이 참조에 대한 크레딧을 받는 방법을 지정합니다.
 
-**[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 검색 방법]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 방법 찾기]**
 
 ## 검색 방법 설명 {#section_8B6278DB75224EAB9F49D89A86274E8A}
 

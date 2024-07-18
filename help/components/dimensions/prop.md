@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 95%
+source-wordcount: '471'
+ht-degree: 93%
 
 ---
 
 # Prop
 
-*[이 도움말 페이지에서는 prop이 차원으로 작동하는 방식을 설명합니다](overview.md). prop 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [prop](/help/implement/vars/page-vars/prop.md)을 참조하십시오.*
+*이 도움말 페이지에서는 prop이 [차원](overview.md)(으)로 작동하는 방식을 설명합니다. prop 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [prop](/help/implement/vars/page-vars/prop.md)을 참조하십시오.*
 
 prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. prop이 설정된 히트 이후에는 지속되지 않습니다.
 
@@ -30,7 +30,7 @@ JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일
 
 ## 차원 항목
 
-prop은 구현의 사용자 지정 문자열을 포함하므로 조직에서 각 prop에 대한 차원 항목을 결정합니다. 에 각 prop의 목적과 일반적인 차원 항목을 반드시 기록하십시오 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md).
+prop은 구현의 사용자 지정 문자열을 포함하므로 조직에서 각 prop에 대한 차원 항목을 결정합니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 각 prop의 목적과 일반적인 차원 항목을 반드시 기록하십시오.
 
 ## 대/소문자 구분
 

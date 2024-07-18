@@ -4,7 +4,7 @@ description: 데이터 보존 정책은 Adobe가 데이터를 저장하는 기�
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance, Privacy
 source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
 

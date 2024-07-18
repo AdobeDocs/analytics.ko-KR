@@ -21,8 +21,8 @@ Adobe Analytics은 가장 일반적인 사용 사례를 처리할 수 있도록 
 >이 페이지에 설명된 기본 계산된 지표 외에 계산된 지표를 보고서 세트에 추가할 수도 있습니다.
 >
 >다음과 같은 작업을 수행할 수 있습니다.
-> * 에 설명된 대로 스트리밍 미디어 컬렉션 추가 기능에 대한 기본 계산된 지표를 추가합니다. [계산된 지표](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * 에 설명된 대로 기존 지표에서 사용자 정의 계산된 지표를 만듭니다. [계산 및 고급 계산(파생) 지표](/help/components/c-calcmetrics/cm-overview.md).
+> * [계산된 지표](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)에 설명된 대로 스트리밍 미디어 컬렉션 추가 기능에 대한 기본 계산된 지표를 추가합니다.
+> * [계산 및 고급 계산(파생) 지표](/help/components/c-calcmetrics/cm-overview.md)에 설명된 대로 기존 지표에서 사용자 지정 계산 지표를 만듭니다.
 
 
 | 계산된 지표 이름 | 함수 | 공식 |
@@ -37,7 +37,7 @@ Adobe Analytics은 가장 일반적인 사용 사례를 처리할 수 있도록 
 | 콘텐츠 속도 | 새 콘텐츠가 제작되고 사이트에 게시되는 속도와 이러한 콘텐츠에서 사용자 참여가 발생하는 속도. | `[Page Views] / [Visits]` |
 | 전환율 | 구매와 같이 원하는 작업을 수행한 방문자의 비율. | `[Orders] / [Visits]` |
 | 시작 비율 | 사이트의 총 세션 수와 비교하여 주어진 페이지에서 사이트에 들어온 방문자의 비율. | `[Entries] / [Visits]` |
-| 예상 고유 방문자 수(ITP 2.1) | ITP 방문자(Safari 브라우저의 사용자)의 경우 고유 방문자 수를 2 이하로 나눕니다. 이 계산된 지표는 사용자가 클라이언트측 JavaScript(CNAME 구현을 사용하지 않음)를 사용하여 쿠키를 설정했다고 가정합니다. 클라이언트측 JavaScript을 사용하여 쿠키를 설정하는 구현은 ITP 2.1부터 영향을 받았습니다. 다음을 참조하십시오 [지능형 추적 방지](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) 을 참조하십시오. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| 예상 고유 방문자 수(ITP 2.1) | ITP 방문자(Safari 브라우저의 사용자)의 경우 고유 방문자 수를 2 이하로 나눕니다. 이 계산된 지표는 사용자가 클라이언트측 JavaScript(CNAME 구현을 사용하지 않음)를 사용하여 쿠키를 설정했다고 가정합니다. 클라이언트측 JavaScript을 사용하여 쿠키를 설정하는 구현은 ITP 2.1부터 영향을 받았습니다. 자세한 내용은 [지능형 추적 방지](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)를 참조하십시오. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud ID 범위 | Experience Cloud ID를 보유한 방문자의 비율. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 종료 비율 | 특정 페이지를 본 후 사이트를 떠나는 방문자의 비율. | `[Exits] / [Visits]` |
 | ITP 2.1 고유 방문자 수 / 고유 방문자 수 | ITP 2.1 쿠키 제한 사항의 영향을 받는 브라우저를 사용하는 고유 방문자의 비율입니다. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |

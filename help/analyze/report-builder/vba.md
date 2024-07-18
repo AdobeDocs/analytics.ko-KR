@@ -7,7 +7,7 @@ exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ VBA 매크로를 실행하려면 먼저 최신 버전의 Report Builder을 실�
 >
 >보안상의 이유로 매크로를 포함하는 통합 문서는 예약할 수 없습니다.
 
-Adobe에서는 세 가지 Report Builder API 메서드를 지원합니다.
+Adobe은 세 가지 Report Builder API 메서드를 지원합니다.
 
 ## `RefreshAllReportBuilderRequests()`
 

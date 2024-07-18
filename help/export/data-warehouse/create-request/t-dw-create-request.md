@@ -6,21 +6,21 @@ exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
 source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 25%
+ht-degree: 35%
 
 ---
 
 # Data Warehouse 요청 만들기
 
-Data Warehouse 요청을 만들 때 사용할 수 있는 구성 옵션은 다양합니다. 다음 정보는 요청 만들기를 시작한 다음 요청을 완료하기 위한 자세한 정보에 대한 링크를 제공합니다.
+Data Warehouse 요청을 만들 때 사용할 수 있는 다양한 구성 옵션이 있습니다. 다음 정보는 요청 만들기를 시작한 다음 요청을 완료하기 위한 자세한 정보에 대한 링크를 제공합니다.
 
 ## 요청 만들기 시작
 
-1. Adobe Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]**.
+1. Adobe Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]**&#x200B;을 선택합니다.
 
-1. 다음에서 [!UICONTROL **Data Warehouse**] 페이지, 선택 [!UICONTROL **추가**].
+1. [!UICONTROL **Data Warehouse**] 페이지에서 [!UICONTROL **추가**]&#x200B;를 선택합니다.
 
-   ![요청을 추가하는 버튼](assets/dw-add-request.png)
+   ![요청을 추가하는 단추](assets/dw-add-request.png)
 
    새 Data Warehouse 요청 페이지가 표시됩니다.
 

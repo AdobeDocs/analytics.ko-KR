@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Analytics 차원 호환성
 
-이 페이지에는 다음이 나열됩니다. [치수](overview.md) 해당 Analytics 기능에서 지원됩니다.
+이 페이지에는 각 Analytics 기능에서 지원되는 [차원](overview.md)이 나열됩니다.
 
 >[!NOTE]
 >

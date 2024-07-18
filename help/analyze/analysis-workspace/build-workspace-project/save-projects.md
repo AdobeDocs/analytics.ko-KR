@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 96%
+source-wordcount: '724'
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ Analysis Workspace에서 프로젝트가 수동으로 저장되면 다양한 옵
 
 1. Analysis Workspace에서 프로젝트를 연 상태에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택하고 다음 옵션 중에서 선택합니다.
 
-   | 작업 | 설명 |
+   | 액션 | 설명 |
    |---|---| 
    | **[!UICONTROL 저장]** | 프로젝트에 변경 사항을 저장합니다. 프로젝트가 공유되면 프로젝트의 수신자도 변경 내용을 보게 됩니다. 프로젝트를 처음 저장할 때 프로젝트에 이름, 설명(선택 사항) 및 태그를 추가(선택 사항)하라는 메시지가 표시됩니다. |
    | **[!UICONTROL 메모와 함께 저장]** | 프로제트를 저장하기 전에 프로젝트의 변경 내용에 대한 메모를 추가합니다. 메모는 프로젝트 버전과 함께 저장되고 [!UICONTROL 프로젝트] > [!UICONTROL 이전 버전 열기]에서 모든 편집자들이 사용할 수 있습니다. |
    | **[!UICONTROL 다른 이름으로 저장]** | 프로젝트의 복제본을 만듭니다. 원본 프로젝트는 영향을 받지 않습니다. |
-   | **[!UICONTROL 회사 보고서로 저장]** | 프로젝트를 다음으로 저장 [회사 보고서](/help/analyze/analysis-workspace/reports/create-company-reports.md) 다음 기간 내에 조직에서 사용할 수 있게 됩니다. **[!UICONTROL 프로젝트 > 새로 만들기]** |
+   | **[!UICONTROL 회사 보고서로 저장]** | 프로젝트를 **[!UICONTROL 프로젝트 > 새로 만들기]** 아래에서 조직에서 사용할 수 있게 되는 [회사 보고서](/help/analyze/analysis-workspace/reports/create-company-reports.md)로 저장합니다. |
 
 ## 자동 저장 {#Autosave}
 

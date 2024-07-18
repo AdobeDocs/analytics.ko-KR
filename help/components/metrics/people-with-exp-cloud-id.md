@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 이 지표의 계산 방법
 
-히트에 [](people.md) 쿼리 문자열이 포함된 경우 각 [사용자](overview.md)`mid`(확인되거나 미확인된)를 고려하여 해당 지표는 증가합니다([`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR) 쿠키에 따라).
+각 [사용자](people.md)(확인되거나 미확인된)을 고려하여, 히트에 `mid` 쿼리 문자열이 포함된 경우 이 [지표](overview.md)이(가) 증가합니다([`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) 쿠키 기반).
 
 ID 서비스를 사용하여 계산된 지표 `[People with ECID] ÷ [People]`을 만들어 사이트 방문자의 백분율을 구할 수 있습니다.
 

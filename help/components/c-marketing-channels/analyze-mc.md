@@ -5,8 +5,8 @@ feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 95%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ## 속성 모델 적용
 
-[속성 ](/help/analyze/analysis-workspace/attribution/overview.md)를 사용하여 다른 속성 모델을 즉시 적용할 수 있습니다.
+[속성](/help/analyze/analysis-workspace/attribution/overview.md)을 사용하여 다른 속성 모델을 즉시 적용할 수 있습니다.
 
 ![](assets/mc-viz5.png)
 

@@ -20,7 +20,7 @@ ht-degree: 100%
 
 마케팅 채널은 일반적으로 사이트에 방문자가 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다. 추적할 채널과 추적 방법에 따라 마케팅 채널 처리 규칙을 사용자 정의할 수 있습니다.
 
-마케팅 채널은 표준 변환 지표의 구성 요소인 첫 번째 및 마지막 접촉 지표를 중심으로 진행됩니다.
+마케팅 채널은 표준 전환 지표의 구성 요소인 첫 번째 및 마지막 접촉 지표를 중심으로 진행됩니다.
 
 ## 마케팅 채널 워크플로
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 * 모든 소셜 네트워킹 사이트를 집계하시겠습니까? 아니면 개별적으로 추적하고 싶은 사이트가 있습니까?
 * 추적할 변환에 영향을 주는 다른 채널이 있습니까?
 
-권장 채널 목록은 [FAQ 및 예제](/help/components/c-marketing-channels/c-faq.md)를 참조하십시오. 채널을 만들 때 더 쉽게 활성화 및 정의할 수 있도록 사용할 채널 목록을 만듭니다.
+권장 채널 목록은 [FAQ 및 예제](/help/components/c-marketing-channels/c-faq.md)에서 확인할 수 있습니다. 채널을 만들 때 더 쉽게 활성화 및 정의할 수 있도록 사용할 채널 목록을 만듭니다.
 
 ![](assets/step2_icon.png) [!UICONTROL  마케팅 채널 관리자] 페이지에서 마케팅 채널을 추가합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 [!UICONTROL 마케팅 채널 관리자] 페이지에서 채널을 만들고 나면 채널에서 데이터를 검색하고 보고할 수 있도록 규칙을 구성합니다.
 
-자세한 내용은 [마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+[마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)를 참조하십시오.
 
 채널을 자동 설정에서 만드는 경우에는 채널의 규칙이 정의됩니다. 정의된 규칙을 필요에 맞게 수정할 수 있습니다.
 

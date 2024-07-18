@@ -6,7 +6,7 @@ exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -97,12 +97,12 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    |---------|----------|----------|
    | Analytics 사용자 및 자산 | 이제 대부분의 사용자 및 제품 관리 기능은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)에서만 사용할 수 있지만, 한 사용자에서 다른 사용자로 자산을 전송하고 사용자 계정의 만료 날짜를 설정하는 관리 기능은 Adobe Analytics Admin 영역에서만 사용할 수 있습니다. | [사용자 자산 전송 또는 계정 만료 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html) |
    | 사용자 ID 마이그레이션 | Analytics 사용자 ID 마이그레이션을 통해 관리자는 Analytics User Management에서 Adobe Admin Console로 사용자 계정을 쉽게 마이그레이션할 수 있습니다. | [Adobe Admin Console로 Analytics 사용자 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html) |
-   | 사용자 관리 홈(기존) | 사용자 및 제품 관리 기능은 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자를 위한 사용자 권한 관리를 시작하십시오. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) |
+   | 사용자 관리 홈(기존) | 사용자 및 제품 관리 기능은 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자를 위한 사용자 권한 관리를 시작하십시오. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
    | 그룹(기존) | 그룹 관리 기능은 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics의 그룹 관리를 시작해 보십시오. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) |
    | 보고서 세트 액세스 | 보고서 세트 도구에 대한 액세스 권한을 부여하는 방법이 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자를 위한 보고서 세트 액세스 권한을 부여합니다. | [보고서 세트 도구에 대한 제품 프로필 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
    | 관리 도구 홈 | Analytics 관리 도구 영역은 Adobe Analytics 인스턴스를 관리하기 위한 기본 영역입니다. 이곳에서 대부분의 관리 작업을 수행할 수 있습니다. | [관리 도구 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html) |
    | 보고서 세트 | 보고서 세트에서의 데이터 처리 방법을 제어하는 규칙을 정의해 보십시오. | [보고서 세트 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html) |
-   | Analytics 사용자 및 자산 | 사용자 및 자산 관리 기능은 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자를 위한 사용자 권한 관리를 시작하십시오. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) |
+   | Analytics 사용자 및 자산 | 사용자 및 자산 관리 기능은 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자를 위한 사용자 권한 관리를 시작하십시오. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
    | 분류 가져오기 도구 | 가져오기 도구를 사용하여 분류를 Adobe Analytics에 업로드합니다. 데이터를 가져오기 전에 업데이트를 위해 데이터를 내보낼 수도 있습니다. | [분류 가져오기 도구 개요](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) |
    | 분류 규칙 빌더 | 추적 코드를 변경할 때마다 분류를 유지 관리하고 업로드하는 대신 규칙 기반의 자동 분류를 만들어 여러 보고서 세트에 적용할 수 있습니다. | [분류 규칙 빌더 워크플로](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) |
    | 데이터 소스 | 데이터 소스 관리자를 사용하여 데이터 소스를 생성, 편집 또는 비활성화합니다. 또한 이 인터페이스를 사용하여 데이터 소스 FTP 위치에 업로드된 파일 상태를 추적할 수도 있습니다. | [데이터 소스 관리](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html) |
@@ -119,14 +119,14 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    | 보안 관리자 | 보안 관리자를 사용하여 보고 데이터에 대한 액세스를 제어할 수 있습니다. 강력한 암호, 암호 만료일, IP 로그인 제한 및 이메일 도메인 제한 옵션이 제공됩니다. | [보안 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html) |
    | 웹 서비스 | 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다. | [웹 서비스](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html) |
    | Report Builder 보고서 | Report Builder 사용자에 할당된 라이선스 관리 | [Report Builder 보고서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html) |
-   | SSO(Single Sign-On) 서비스 | Adobe Experience Cloud의 SSO(Single Sign-On)는 Admin Console을 통해 구현됩니다. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) |
+   | SSO(Single Sign-On) 서비스 | Adobe Experience Cloud의 SSO(Single Sign-On)는 Admin Console을 통해 구현됩니다. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
    | 보고서 세트 숨기기 | 귀하와 귀하의 사용자가 보고서 세트를 더 이상 사용할 수 없도록 Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 수 있습니다. | [보고서 세트 숨기기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html) |  |
 
    {style="table-layout:auto"}
 
 ## Analysis Workspace
 
-Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 끌어다 놓기 브라우저를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
+Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 드래그 앤 드롭 브라우저 인터페이스를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
 
 다음 이미지 및 함께 제공되는 표는 Analysis Workspace의 일부 주요 영역을 설명합니다.
 

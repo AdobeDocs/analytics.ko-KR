@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '492'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Analysis Workspace의 집단 테이블에 대한 비디오
 
 >[!IMPORTANT]
 >
->[!UICONTROL 집단 분석] 세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생을 지원하지 않습니다.
+>[!UICONTROL 집단 분석]에서는 세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생을 지원하지 않습니다.
 >
 >세그먼트에 사용할 수 있는 지표만이 [!UICONTROL 집단 분석]에 사용될 수 있으며 한번에 1 이상으로 증분될 수 있습니다.
 

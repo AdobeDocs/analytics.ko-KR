@@ -46,7 +46,7 @@ ht-degree: 68%
 
 ## FAQ: 경고를 계산하고 트리거하는 방법 {#trigger}
 
-% 임계값은 표준 편차입니다. 예를 들어 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 세부기간에 따라 [다른 모델](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) 는 각 데이터 포인트가 기준(norm)에서 얼마나 떨어져 있는지(표준 편차 수) 계산하는 데 사용됩니다. 낮은 임계값(예: 90%)을 설정하면 높은 임계값(99%)을 설정하는 경우보다 많은 예외 항목이 생깁니다. 99.75% 및 99.99% 임계값은 많은 예외 항목을 트리거되지 않도록 시간 단위용으로 특별히 도입되었습니다.
+% 임계값은 표준 편차입니다. 예를 들어 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 세부기간에 따라 [다양한 모델](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)을 사용하여 각 데이터 포인트가 기준(norm)에서 얼마나 떨어져 있는지(표준 편차 수) 계산합니다. 낮은 임계값(예: 90%)을 설정하면 높은 임계값(99%)을 설정하는 경우보다 많은 예외 항목이 생깁니다. 99.75% 및 99.99% 임계값은 많은 예외 항목을 트리거되지 않도록 시간 단위용으로 특별히 도입되었습니다.
 
 +++ 경고의 예외 항목 탐지는 데이터 예외 항목을 결정하기 위해 얼마나 오래 전으로 이동합니까?
 
@@ -73,7 +73,7 @@ ht-degree: 68%
 
 +++ 점선을 구성하는 &quot;예상값&quot; 테이블이나 그러한 값에 대한 일종의 출력을 얻을 수 있습니까?
 
-Workspace에서는 얻을 수 없지만 Report Builder에서는 얻을 수 있습니다. 다음을 참조하십시오 [이 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=ko-KR) Report Builder의 예외 항목 탐지에서.
+Workspace에서는 사용할 수 없지만 Report Builder에서는 사용할 수 있습니다. Report Builder의 예외 항목 탐지에서 [이 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=ko-KR)를 참조하세요.
 
 Report Builder는 보다 덜 복잡한 예외 항목 탐지 방법을 사용한다는 점을 기억하십시오. 고정된 30일 교육 기간, 고정된 95% 간격을 사용합니다.
 

@@ -94,7 +94,7 @@ Analytics 추적 오브젝트가 인스턴스화 ([`s_gi`](../functions/s-gi.md)
 
 ## 플러그인 사용
 
-다음 `websiteBot` 플러그인이 다음을 실행합니다. `s.tl` 비봇 트래픽이 감지되면 를 호출합니다.
+비봇 트래픽이 감지되면 `websiteBot` 플러그인이 `s.tl` 호출을 실행합니다.
 
 ## 예
 

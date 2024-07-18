@@ -14,4 +14,4 @@ ht-degree: 42%
 
 Data Warehouse은 보고서를 TDE(Tableau Data Extract) 파일 형식으로 제공할 수 있으며, 이 파일 형식을 사용하여 Tableau 내에서 추가 데이터로 데이터 및 레이어를 시각화할 수 있습니다.
 
-TDE 형식으로 게재되도록 Data Warehouse 보고서를 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Data Warehouse 요청에 대한 보고서 옵션 구성](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+TDE 형식으로 배달할 Data Warehouse 보고서를 구성하는 방법에 대한 자세한 내용은 [Data Warehouse 요청에 대한 보고서 옵션 구성](/help/export/data-warehouse/create-request/dw-request-report-options.md)을 참조하십시오.

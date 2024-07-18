@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '182'
+ht-degree: 85%
 
 ---
 
 # 방문자당 체류 시간 (초)
 
-The [!UICONTROL 방문당 체류 시간 (초)] 지표는 방문자의 전체 라이프타임 동안 방문자가 특정 차원 항목과 상호 작용하는 평균 시간을 보여 줍니다.[](overview.md)
+[!UICONTROL 방문자당 체류 시간(초)] [지표](overview.md)은 방문자가 방문자의 전체 라이프타임 동안 주어진 차원 항목과 상호 작용하는 평균 시간을 보여 줍니다.
 
 이 지표는 처리 아키텍처가 달라서 Data Warehouse에서는 사용할 수 없습니다.
 

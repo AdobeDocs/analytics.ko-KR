@@ -1,5 +1,5 @@
 ---
-description: 이메일을 사용하여 Analysis Workspace 프로젝트를 보내거나 전달할 일정을 예약합니다.
+description: 이메일을 사용하여 Analysis Workspace 프로젝트를 보내거나 게재할 일정을 예약합니다.
 keywords: Analysis Workspace
 title: 프로젝트 예약
 feature: Curate and Share
@@ -8,22 +8,22 @@ exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 # 프로젝트 예약
 
-작업 공간에서 **공유 메뉴**, 이메일을 사용하여 선택한 수신자에게 Analysis Workspace 프로젝트를 보낼 수 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다. 예약된 프로젝트를 공유한 후 예약된 프로젝트 관리자를 사용하여 빈도, 수신자 목록 또는 파일 유형을 수정하도록 예약 설정을 편집할 수 있습니다.
+작업 영역 **공유 메뉴**&#x200B;에서 이메일을 사용하여 선택한 수신자에게 Analysis Workspace 프로젝트를 보낼 수 있습니다. 파일은 CSV 또는 PDF 포맷으로 보낼 수 있습니다. 예약된 프로젝트를 공유한 후 예약된 프로젝트 관리자를 사용해 일정 설정을 편집하여 빈도, 수신자 목록 또는 파일 형식을 수정할 수 있습니다.
 
 ## 지금 파일 보내기
 
 이메일을 통해 파일을 수신자에게 즉시 보내려면
 
-1. 클릭 **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기]**.
-1. 파일 형식 지정:
+1. **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기]**&#x200B;를 클릭합니다.
+1. 파일 유형을 지정합니다.
    * [!UICONTROL **CSV**]: 일반 텍스트 데이터를 원하는 경우 이 옵션을 선택합니다.
-   * [!UICONTROL **PDF**]: 다운로드한 파일에 프로젝트에 표시된 (볼 수 있는) 모든 테이블 및 시각화를 포함하려면 이 옵션을 선택합니다.
+   * [!UICONTROL **PDF**]: 다운로드한 파일에 프로젝트에 표시된(표시되는) 테이블과 시각화가 모두 포함되도록 하려면 이 옵션을 선택합니다.
 1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
 1. **[!UICONTROL 지금 보내기]**&#x200B;를 클릭합니다.
@@ -35,7 +35,7 @@ ht-degree: 51%
 
 이메일을 통해 되풀이되는 일정으로 수신자에게 파일을 보내려면
 
-1. 클릭 **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기 예약]**.
+1. **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기 예약]**&#x200B;을 클릭합니다.
 1. 파일 유형(CSV 또는 PDF)을 지정합니다.
 1. (선택 사항) 수신되는 파일을 설명하기 위해 이메일에 포함할 설명을 추가합니다.
 1. 수신자 또는 그룹을 추가합니다. 이메일 주소를 입력할 수도 있습니다.
@@ -49,7 +49,7 @@ ht-degree: 51%
 
 예약된 프로젝트를 관리할 때 반복되는 프로젝트 일정을 편집하고 삭제할 수 있습니다.
 
-* 파일 유형(.csv 또는 PDF) 변경
+* 파일 유형 변경(.csv 또는 PDF)
 * 프로젝트 설명 업데이트
 * 수신자 추가 또는 제거
 * 빈도 변경
@@ -57,4 +57,4 @@ ht-degree: 51%
 
 예약된 Analysis Workspace 프로젝트는 **Analytics > 구성 요소 > 예약된 프로젝트**&#x200B;에서 관리할 수 있습니다.
 
-자세한 내용은 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)
+자세한 내용은 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)를 참조하십시오.

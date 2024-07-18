@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '426'
 ht-degree: 62%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 62%
 1. 적절한 보고서 세트를 선택합니다.
 1. 왼쪽의 트리 보기에서 **[!UICONTROL 경로]** > **[!UICONTROL 사이트 섹션]** > **[!UICONTROL 사이트 섹션 경로]**&#x200B;를 선택합니다.
 
-   ![선택한 사이트 섹션 경로를 보여 주는 스크린샷입니다.](assets/site_section_path_1.png)
+   ![사이트 섹션 경로를 보여 주는 스크린샷이 선택되었습니다.](assets/site_section_path_1.png)
 
 1. 해당 날짜를 지정합니다.
 
@@ -29,7 +29,7 @@ ht-degree: 62%
 
 1. 마법사 2단계의 **[!UICONTROL 행 레이블]**&#x200B;에서 **[!UICONTROL 상위 1-10(패턴이 적용됨)]** 링크를 클릭합니다. 경로 보고서에는 기본적으로 패턴이 적용되어 있습니다.
 
-   ![기본 경로 패턴을 보여 주는 스크린샷입니다.](assets/site_section_path_2.png)
+   ![기본 경로 패턴을 보여 주는 스크린샷](assets/site_section_path_2.png)
 
 1. **[!UICONTROL 필터]** 옵션을 선택합니다.
 
@@ -54,9 +54,9 @@ ht-degree: 62%
 
 패턴을 선택한 후 미리 정의된 패턴을 편집할 수 있습니다.
 
-1. 위의 단계에서 계속 패턴을 선택합니다. 예를 들어 **[!UICONTROL 종료한 사이트 패턴]**&#x200B;을 선택합니다.
+1. 위의 단계에서 계속 패턴을 선택합니다. 얘를 들어 **[!UICONTROL 종료한 사이트 패턴]**&#x200B;을 선택합니다.
 
-   ![선택한 패턴을 강조 표시하는 스크린샷.](assets/exited_site_pattern.png)
+   ![선택한 패턴을 강조 표시하는 스크린샷](assets/exited_site_pattern.png)
 
 1. 종료하기 전에 사용자가 이동하는 사이트 섹션 경로를 정의합니다. **[!UICONTROL 특정 항목: 0개 선택함]**&#x200B;을 클릭합니다. 기존 요청을 편집하는 경우 셀 범위에서 선택하거나 섹션 목록에서 선택하여 이 경로를 정의할 수 있습니다.
 
@@ -68,8 +68,8 @@ ht-degree: 62%
 
 1. **[!UICONTROL 사용 가능한 요소]** 열의 요소를 선택한 후 주황색 화살표를 클릭하여 **[!UICONTROL 선택한 요소]** 열로 이동합니다. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
-   ![사용 가능한 요소 및 선택한 요소를 보여 주는 스크린샷입니다.](assets/move_site_section_elements.png)
+   ![사용 가능한 요소 및 선택한 요소를 보여주는 스크린샷입니다.](assets/move_site_section_elements.png)
 
 1. 막 설정한 패턴을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-1. 클릭 **[!UICONTROL 확인]** 세 번 클릭한 다음 **[!UICONTROL 완료]** 필터링된 경로를 생성합니다.
+1. **[!UICONTROL 확인]**&#x200B;을 세 번 클릭한 다음 **[!UICONTROL 마침]**&#x200B;을 클릭하여 필터링된 경로를 생성합니다.

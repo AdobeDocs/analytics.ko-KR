@@ -5,16 +5,16 @@ feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 56%
+source-wordcount: '202'
+ht-degree: 59%
 
 ---
 
-# 지원 주문 지표 작성
+# “주문 지원” 지표 작성
 
 다음 정보는 주문 유도 활동에 도움이 되는 마케팅 채널을 보여 주는 지표를 만드는 방법을 설명합니다. 이는 원하는 모든 차원 또는 성공 이벤트에 적용할 수 있습니다.
 
-1. 에 설명된 대로 계산된 지표 만들기를 시작합니다. [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)에 설명된 대로 계산된 지표를 만들기 시작합니다.
 
 1. 계산된 지표 빌더에서 지표의 이름을 &quot;지원 주문&quot; 또는 이와 유사하게 지정합니다.
 
@@ -26,7 +26,7 @@ ht-degree: 56%
 
    ![](assets/custom-attr-model.png)
 
-1. 선택 [!UICONTROL **적용**] > [!UICONTROL **저장**].
+1. [!UICONTROL **적용**] > [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
 1. Analysis Workspace에서 마케팅 채널 차원, 주문 및 새로운 지원 주문 지표를 사용하여 자유 형식 테이블을 만듭니다.
 
@@ -34,4 +34,4 @@ ht-degree: 56%
 
    이는 마케팅 채널에서 주문을 지원하는 방법을 쉽게 구분하는 방법입니다. 또는 자유 형식 테이블에서 임의의 지표를 마우스 오른쪽 단추로 클릭하고 테이블에서 직접 속성 모델을 조정할 수 있습니다.
 
-1. (선택 사항) 의 설명에 따라 조직의 다른 사용자와 지표를 공유합니다 [계산된 지표 공유](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+1. (선택 사항) [계산된 지표 공유](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)에 설명된 대로 조직의 다른 사용자와 지표를 공유합니다.

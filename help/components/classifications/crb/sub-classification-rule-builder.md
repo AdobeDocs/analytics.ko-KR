@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ![](assets/sub_class_table.png)
 
-이 구조를 작성한 후에 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md)를 사용하여 조회 테이블(이전 이미지에서 녹색 및 빨간색 테이블)만 업데이트하는 작은 파일을 업로드할 수 있습니다. 그런 후 규칙 빌더를 사용하여 주 분류 테이블을 최신 상태로 유지할 수 있습니다.
+이 구조를 만든 후에는 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md)를 사용하여 조회 테이블(이전 이미지에서 녹색 및 빨간색 테이블)만 업데이트하는 작은 파일을 업로드할 수 있습니다. 그런 후 규칙 빌더를 사용하여 주 분류 테이블을 최신 상태로 유지할 수 있습니다.
 
 다음 작업은 해당 방법을 설명합니다.
 
@@ -48,12 +48,12 @@ ht-degree: 100%
 
 1. [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md)에서 원래 추적 코드로부터 하위 분류 키를 분류합니다.
 
-   정규 표현식을 사용하여 이 작업을 수행합니다. 이 예제에서 *`Broad Campaign code`*&#x200B;를 채우기 위한 규칙은 다음 정규 표현식을 사용합니다.
+   정규 표현식을 사용하여 이 작업을 수행합니다. 이 예에서 *`Broad Campaign code`*&#x200B;을(를) 채우는 규칙은 다음 정규 표현식을 사용합니다.
 
    | `#` | 규칙 유형 | 일치 | 분류 설정 | 종료 |
    |---|---|---|---|---|
-   |  | 정규 표현식 | `[^\:]:([^\:]):([^\:]`) | 브로드 캠페인 코드 | `$1` |
-   |  | 정규 표현식 | `[^\:]:([^\:]):([^\:]`) | 크리에이티브 코드 | `$2` |
+   |   | 정규 표현식 | `[^\:]:([^\:]):([^\:]`) | 브로드 캠페인 코드 | `$1` |
+   |   | 정규 표현식 | `[^\:]:([^\:]):([^\:]`) | 크리에이티브 코드 | `$2` |
 
    >[!NOTE]
    >
@@ -72,6 +72,6 @@ ht-degree: 100%
 
 1. 조회 테이블을 유지 관리하려면 작은 파일(위에 표시)을 업로드합니다.
 
-   예를 들어 새 *`Broad Campaign code`* 도입 시 이 파일을 업로드합니다. 이 파일은 이전에 분류한 값이 적용될 수 있습니다. 마찬가지로 새 하위 분류(예: *`Creative Theme`*&#x200B;의 하위 분류 *`Creative code`*)를 만들 경우 전체 분류 파일이 아닌 하위 분류 파일만 업로드합니다.
+   예를 들어 새 *`Broad Campaign code`* 도입 시 이 파일을 업로드합니다. 이 파일은 이전에 분류한 값이 적용될 수 있습니다. 마찬가지로 새 하위 분류를 만드는 경우(예: *`Creative Theme`*&#x200B;을(를) *`Creative code`*&#x200B;의 하위 분류로 만드는 경우) 전체 분류 파일이 아닌 하위 분류 파일만 업로드합니다.
 
    보고 기능에서 이러한 하위 분류는 최고급 분류와 정확히 동일하게 작동합니다. 따라서 이러한 분류를 사용하는 데 필요한 관리 부담이 줄어듭니다.-->

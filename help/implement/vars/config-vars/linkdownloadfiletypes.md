@@ -13,7 +13,7 @@ ht-degree: 55%
 
 # linkDownloadFileTypes
 
-날짜 [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) 또는 [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK)가 활성화되고 방문자가 링크를 클릭하면 AppMeasurement이 파일 유형 확장자에 대한 링크의 URL을 확인합니다. 링크 URL에 일치하는 파일 유형이 포함되어 있으면 다운로드 링크 이미지 요청이 자동으로 전송됩니다.
+[`trackDownloadLinks`](trackdownloadlinks.md)(AppMeasurement) 또는 [`clickCollectionEnabled`](trackdownloadlinks.md)(Web SDK)이 활성화되어 있고 방문자가 링크를 클릭하면 AppMeasurement이 파일 유형 확장자에 대한 링크의 URL을 확인합니다. 링크 URL에 일치하는 파일 유형이 포함되어 있으면 다운로드 링크 이미지 요청이 자동으로 전송됩니다.
 
 다운로드 링크로 카운트할 파일 확장자를 사용자 지정하려면 `linkDownloadFileTypes` 를 사용하십시오.
 
@@ -26,22 +26,22 @@ ht-degree: 55%
 >* 마우스 오른쪽 버튼을 클릭하고 다른 이름으로 대상 저장... 선택
 >* JavaScript를 사용하는 링크 (예: `javascript:openLink()` )
 >
->이러한 다운로드 유형의 경우 [`link tracking`](../functions/tl-method.md) 호출합니다.
+>이러한 다운로드 유형의 경우 [`link tracking`](../functions/tl-method.md) 호출을 수동으로 보낼 수 있습니다.
 
 클릭한 링크가 종료 링크와 다운로드 링크 기준을 모두 만족하는 경우에는 다운로드 링크 유형이 우선합니다.
 
 ## 웹 SDK 확장을 사용한 링크 한정자 다운로드
 
-다음 [!UICONTROL 다운로드 링크 한정자] 텍스트 필드는 regex를 사용하여 클릭한 링크가 다운로드 링크가 될 수 있는지 확인합니다.
+[!UICONTROL 다운로드 링크 한정자] 텍스트 필드는 regex를 사용하여 클릭한 링크가 다운로드 링크가 될 수 있는지 확인합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. 로 이동 [!UICONTROL 확장] 탭을 클릭한 다음 **[!UICONTROL 구성]** 아래에 있는 단추 [!UICONTROL Adobe Experience Platform 웹 SDK].
-1. 아래 [!UICONTROL 데이터 수집]에서 원하는 값을 설정합니다. **[!UICONTROL 다운로드 링크 한정자]** 텍스트 필드.
+1. [!UICONTROL 확장] 탭으로 이동한 다음 [!UICONTROL Adobe Experience Platform Web SDK] 아래의 **[!UICONTROL 구성]** 단추를 클릭합니다.
+1. [!UICONTROL 데이터 수집]에서 **[!UICONTROL 다운로드 링크 한정자]** 텍스트 필드에 원하는 값을 설정하십시오.
 
 ## 웹 SDK를 수동으로 구현하는 링크 한정자 다운로드
 
-[구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR) 를 사용하는 SDK [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking). 필드는 클릭한 URL의 regex를 사용하여 올바른 다운로드 링크인지 확인합니다. If `downloadLinkQualifier` 가 정의되지 않은 경우 기본값이 로 설정됩니다. `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)을(를) 사용하여 SDK를 [구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)합니다. 필드는 클릭한 URL의 regex를 사용하여 올바른 다운로드 링크인지 확인합니다. `downloadLinkQualifier`이(가) 정의되지 않으면 기본값이 `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`(으)로 설정됩니다.
 
 ```json
 alloy("configure", {
@@ -58,7 +58,7 @@ alloy("configure", {
 3.  [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
 4.  [!UICONTROL 링크 추적] 아코디언을 확장합니다. 그러면 **[!UICONTROL 다운로드 확장자]** 필드가 표시됩니다.
 
-필드에 텍스트를 입력하고 **[!UICONTROL 추가]** 를 클릭하여 목록에 파일 확장자를 추가하십시오. 각각의 확장자를 클릭하여 목록에서 파일 확장자를 제거합니다. **&#39;X&#39;** 아이콘.
+필드에 텍스트를 입력하고 **[!UICONTROL 추가]** 를 클릭하여 목록에 파일 확장자를 추가하십시오. 각각의 **&#39;X&#39;** 아이콘을 클릭하여 목록에서 파일 확장자를 제거하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.linkDownloadFileTypes
 

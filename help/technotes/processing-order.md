@@ -21,10 +21,10 @@ Adobe는 보고에 표시되기 전에 데이터를 변경하거나 조작할 �
 데이터가 Adobe로 전송되기 전에 일반적으로 다음 방법 중 하나를 사용하여 클라이언트측에서 컴파일됩니다.
 
 * **AppMeasurement**: 사이트에서 호스팅되고 각 페이지에서 참조되는 JavaScript 파일. 데이터는 Adobe Analytics로 직접 전송됩니다.
-* **Adobe Experience Platform Web SDK**: 사이트에서 호스팅되고 각 페이지에서 참조되는 JavaScript 파일. 데이터가 Adobe Experience Platform Edge Network로 전송됩니다.
+* **Adobe Experience Platform Web SDK**: 사이트에서 호스팅되고 각 페이지에서 참조되는 JavaScript 파일. 데이터가 Adobe Experience Platform Edge Network으로 전송됩니다.
 * **Adobe Experience Cloud Data Collection의 태그**: 각 페이지에서 참조되는 JavaScript 파일로, 데이터 수집 UI 내에서 생성된 규칙이 포함되어 있습니다. Adobe Analytics 확장을 사용하면 AppMeasurement를 보다 쉽게 구현할 수 있습니다. Web SDK 확장을 사용하면 Web SDK를 보다 쉽게 구현할 수 있습니다.
 
-Edge Network로 데이터를 전송하는 경우 Adobe Analytics(및 기타 많은 Adobe Experience Cloud 솔루션)로 데이터를 전송하도록 구성할 수 있습니다. 구현 방법에 관계없이 최종적으로 필요한 변수를 포함한 이미지 요청이 Adobe 데이터 수집 서버로 전송됩니다.
+데이터를 Edge Network에 전송하는 경우 Adobe Analytics(및 기타 많은 Adobe Experience Cloud 솔루션)에 데이터를 전송하도록 구성할 수 있습니다. 구현 방법에 관계없이 최종적으로 필요한 변수를 포함한 이미지 요청이 Adobe 데이터 수집 서버로 전송됩니다.
 
 ## Adobe Analytics 데이터 수집 서버로 전송되는 데이터
 

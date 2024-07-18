@@ -21,22 +21,22 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 
 ## 웹 SDK 확장을 사용한 Edge 도메인
 
-Web SDK는 [!UICONTROL Edge 도메인] 추적 서버와 보안 추적 서버를 모두 처리합니다. 원하는 을 설정할 수 있습니다 [!UICONTROL Edge 도메인] 웹 SDK 확장을 구성할 때의 값입니다.
+Web SDK는 [!UICONTROL Edge 도메인]을 사용하여 추적 서버와 보안 추적 서버를 모두 처리합니다. Web SDK 확장을 구성할 때 원하는 [!UICONTROL Edge 도메인] 값을 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. 로 이동 [!UICONTROL 확장] 탭을 클릭한 다음 **[!UICONTROL 구성]** 아래에 있는 단추 [!UICONTROL Adobe Experience Platform 웹 SDK].
-1. 원하는 설정 **[!UICONTROL Edge 도메인]** 텍스트 필드.
+1. [!UICONTROL 확장] 탭으로 이동한 다음 [!UICONTROL Adobe Experience Platform Web SDK] 아래의 **[!UICONTROL 구성]** 단추를 클릭합니다.
+1. 원하는 **[!UICONTROL Edge 도메인]** 텍스트 필드를 설정합니다.
 
-다음을 참조하십시오 [Adobe Experience Platform 웹 SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ko-KR) 자세한 내용은 Web SDK 설명서 를 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [Adobe Experience Platform 웹 SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ko-KR)을 참조하십시오.
 
 >[!TIP]
 >
->조직이 AppMeasurement 또는 Analytics 확장 구현에서 웹 SDK로 이동하는 경우 이 필드는에 포함된 동일한 값을 사용할 수 있습니다. `trackingServerSecure` (또는 `trackingServer`).
+>조직이 AppMeasurement 또는 Analytics 확장 구현에서 웹 SDK로 이동하는 경우 이 필드는 `trackingServerSecure`(또는 `trackingServer`)에 포함된 동일한 값을 사용할 수 있습니다.
 
-## 웹 SDK를 수동으로 구현하는 Edge 도메인
+## Edge 도메인 수동으로 웹 SDK 구현
 
-다음을 사용하여 SDK 구성 [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR). 필드는 데이터를 보낼 도메인을 결정하는 문자열입니다.
+[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)을(를) 사용하여 SDK를 구성합니다. 필드는 데이터를 보낼 도메인을 결정하는 문자열입니다.
 
 ```json
 alloy("configure", {
@@ -59,11 +59,11 @@ alloy("configure", {
 
 `s.trackingServer` 변수는 데이터를 보낼 위치를 포함하는 문자열입니다.
 
-## 값 결정을 위한 고려 사항 `trackingServer`
+## `trackingServer`의 값을 결정하기 위한 고려 사항
 
-Adobe의 추적 서버 도메인(예: `adobedc.net`) 또는 특수 프로세스를 통해 사이트 도메인과 일치하는 추적 서버를 설정할 수 있습니다(예: `data.mydomain.com`CNAME 구현이라고도 합니다. 사이트 도메인과 일치하는 추적 서버가 있으면 구현의 다른 측면에 따라 몇 가지 이점이 있을 수 있습니다. 추적 서버가 현재 페이지의 도메인과 일치하지 않으면, AppMeasurement에서 설정한 쿠키를 서드파티로 설정해야 합니다. 브라우저가 서드파티 쿠키를 지원하지 않는 경우 이러한 불일치는 특정 Analytics 기능을 방해할 수 있습니다.
+Adobe의 추적 서버 도메인(예: `adobedc.net`)을 사용하도록 선택하거나 특수 프로세스를 통해 사이트 도메인(예: `data.mydomain.com`)과 일치하는 추적 서버를 설정할 수 있습니다(CNAME 구현이라고도 함). 사이트 도메인과 일치하는 추적 서버가 있으면 구현의 다른 측면에 따라 몇 가지 이점이 있을 수 있습니다. 추적 서버가 현재 페이지의 도메인과 일치하지 않으면, AppMeasurement에서 설정한 쿠키를 서드파티로 설정해야 합니다. 브라우저가 서드파티 쿠키를 지원하지 않는 경우 이러한 불일치는 특정 Analytics 기능을 방해할 수 있습니다.
 
-- 식별자 설정: Experience Cloud ID 서비스를 사용하는 경우 추적 서버는 쿠키가 설정되는 방식에 영향을 주지 않습니다. 그러나 Analytics 레거시 식별자 (예: )를 사용하는 경우 `s_vi` cookie)와 수집 서버가 현재 도메인과 일치하지 않으면, 쿠키를 서드파티로 설정해야 합니다. 이 경우, 서드파티 쿠키가 브라우저에 의해 차단되면 Analytics는 자사 대체 ID( )를 설정합니다.`s_fid`표준 대신 `s_vi` 쿠키.
+- 식별자 설정: Experience Cloud ID 서비스를 사용하는 경우 추적 서버는 쿠키가 설정되는 방식에 영향을 주지 않습니다. 그러나 Analytics 레거시 식별자(`s_vi` 쿠키)를 사용하고 있고 수집 서버가 현재 도메인과 일치하지 않으면 쿠키를 서드파티로 설정해야 합니다. 이 경우 서드파티 쿠키가 브라우저에 의해 차단되면 Analytics는 표준 `s_vi` 쿠키 대신 자사 대체 ID(`s_fid`)를 설정합니다.
 - 링크 추적은 내부 링크에 대해 작동하지 않습니다.
 - Activity Map은 내부 링크에 대해 작동하지 않습니다.
 - 쿠키 확인.

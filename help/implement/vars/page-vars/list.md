@@ -19,7 +19,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->목록 변수는 다음을 기반으로 방문자당 가장 최근 값을 저장합니다. [!UICONTROL 최대 값] 에서 설정 [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). 최대 250개의 값이 지원됩니다. 보다 많은 고유한 값이 있는 경우 [!UICONTROL 최대 값] 을 설정하면 가장 오래된 값이 지표에 귀속되지 않습니다.
+>목록 변수는 [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)의 [!UICONTROL 최대 값] 설정을 기반으로 방문자당 가장 최근 값을 저장합니다. 최대 250개의 값이 지원됩니다. [!UICONTROL 최대 값] 설정에서 허용하는 것보다 더 많은 고유 값이 있는 경우 가장 오래된 값은 지표에 귀속되지 않습니다.
 
 ## 보고서 세트 설정에서 목록 변수 설정
 
@@ -27,7 +27,7 @@ ht-degree: 74%
 
 ## 웹 SDK를 사용한 목록 변수
 
-을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 목록 변수는 XDM 필드를 사용합니다 `xdm._experience.analytics.customDimensions.lists.list1.list[]` 끝 `xdm._experience.analytics.customDimensions.lists.list3.list[]`. 각 배열 요소에는 각 문자열을 포함하는 `"value"` 오브젝트가 포함됩니다. 구분 기호를 제공할 필요가 없습니다. Adobe 데이터 수집 서버에서 자동으로 올바른 구분 기호 세트를 검색하여 포함합니다. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+[**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 목록 변수는 XDM 필드 `xdm._experience.analytics.customDimensions.lists.list1.list[]`에서 `xdm._experience.analytics.customDimensions.lists.list3.list[]`까지 사용합니다. 각 배열 요소에는 각 문자열을 포함하는 `"value"` 오브젝트가 포함됩니다. 구분 기호를 제공할 필요가 없습니다. Adobe 데이터 수집 서버가 자동으로 [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에서 올바른 구분 기호 집합을 감지하고 포함합니다.
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ ht-degree: 74%
 >
 >Adobe XDM 스키마에는 각 `list[]` 배열의 `value` 오브젝트 외에 `key` 오브젝트가 포함됩니다. Adobe는 Adobe Analytics에 데이터를 전송할 때 이 `key` 오브젝트를 사용하지 않습니다.
 
-을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 목록 변수 사용 `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` 다음 AppMeasurement 구문 에 설정된 올바른 구분 기호를 사용해야 합니다. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 목록 변수는 AppMeasurement 구문 다음에 있는 `data.__adobe.analytics.list1` - `data.adobe.analytics.list3`을(를) 사용합니다. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에 올바른 구분 기호 집합을 사용해야 합니다.
 
 ```json
 "data": {

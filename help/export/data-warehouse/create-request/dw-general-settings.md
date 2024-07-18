@@ -6,23 +6,23 @@ exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
 source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 24%
+ht-degree: 39%
 
 ---
 
 # Data Warehouse 요청 일반 설정
 
-Data Warehouse 요청을 만들 때 사용할 수 있는 구성 옵션은 다양합니다. 다음 정보는 요청에 대한 일반 설정을 구성하는 방법을 설명합니다.
+Data Warehouse 요청을 만들 때 사용할 수 있는 다양한 구성 옵션이 있습니다. 다음 정보는 요청에 대한 일반 설정을 구성하는 방법을 설명합니다.
 
-요청 만들기를 시작하는 방법과 기타 중요한 구성 옵션에 대한 링크에 대한 자세한 내용은 을 참조하십시오. [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+요청 만들기를 시작하는 방법과 다른 중요 구성 옵션 링크에 대한 자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md)을 참조하십시오.
 
 Data Warehouse 요청에 대한 일반 설정을 구성하려면 다음 작업을 수행하십시오.
 
-1. 을(를) 선택하여 Adobe Analytics에서 Data Warehouse 요청 만들기 시작 **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **추가**].
+1. **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **추가**]&#x200B;를 선택하여 Adobe Analytics에서 Data Warehouse 요청 만들기를 시작합니다.
 
-   자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md)를 참조하십시오.
 
-1. 새 Data Warehouse 요청 페이지에서 [!UICONTROL **일반 설정**] 탭.
+1. 새 Data Warehouse 요청 페이지에서 [!UICONTROL **일반 설정**] 탭을 선택합니다.
 
    ![보고서 대상 탭](assets/dw-general-settings.png)
 
@@ -37,4 +37,4 @@ Data Warehouse 요청에 대한 일반 설정을 구성하려면 다음 작업�
 
    {style="table-layout:auto"}
 
-1. 에서 Data Warehouse 요청 구성 계속 [!UICONTROL **보고서 작성**] 탭. 자세한 내용은 [Data Warehouse 요청에 대한 보고서 작성](/help/export/data-warehouse/create-request/dw-request-build-report.md).
+1. [!UICONTROL **보고서 작성**] 탭에서 Data Warehouse 요청을 계속 구성합니다. 자세한 내용은 [Data Warehouse 요청에 대한 보고서 작성](/help/export/data-warehouse/create-request/dw-request-build-report.md)을 참조하세요.

@@ -182,11 +182,11 @@ ht-degree: 96%
 
 예:
 
-* **페이지 제외**. 세그먼트 규칙을 사용하여 특정 페이지(예: *`Home Page`*)를 보고서에서 제외하고, 페이지가 &quot;홈 페이지&quot;와 같은 히트 규칙을 만든 다음 제외시킵니다. 이 규칙은 자동으로 홈 페이지를 제외한 모든 값을 포함합니다.
+* **페이지 제외**. 세그먼트 규칙을 사용하여 보고서에서 특정 페이지(예: *`Home Page`*)를 제거하고, 페이지가 &quot;홈 페이지&quot;와 같은 히트 규칙을 만든 다음 제외하십시오. 이 규칙은 자동으로 홈 페이지를 제외한 모든 값을 포함합니다.
 * **참조 도메인 제외**. Google.com의 참조 도메인만 포함하고 나머지는 모두 제외하는 규칙을 사용합니다.
 * **비구매자 파악**. 주문이 0보다 큰 경우를 파악하고 해당 [!UICONTROL 방문자]를 제외합니다.
 
-[!UICONTROL 제외] 연산자를 사용하여 방문자가 특정 방문 또는 히트를 수행하지 않는 시퀀스를 식별할 수 있습니다. [!UICONTROL 체크포인트 제외] 다음 내에 포함될 수도 있습니다. [논리 그룹](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+[!UICONTROL 제외] 연산자를 사용하여 방문자가 특정 방문 또는 히트를 수행하지 않는 시퀀스를 식별할 수 있습니다. [!UICONTROL 체크포인트 제외]도 [논리 그룹](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)에 포함될 수 있습니다.
 
 ### 체크포인트 간 제외
 
@@ -347,11 +347,11 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->다음과 같이 유사하게 명명된 요소 간에 평가에 차이가 있습니다. **일** 또는 **일**. Within 및 After에 대한 시간 기반 정의의 경우 팝업 창에서 먼저 나열된 옵션을 사용합니다.
+>**일** 또는 **일**&#x200B;과 같이 이름이 비슷한 요소 간에 평가 차이가 있습니다. Within 및 After에 대한 시간 기반 정의의 경우 팝업 창에서 먼저 나열된 옵션을 사용합니다.
 >
 >![이미지](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
 >
->Within 및 After에 대한 차원 기반 정의의 경우 하위 메뉴 아래의 옵션을 사용합니다 *기타 Dimension*:
+>Within 및 After에 대한 차원 기반 정의의 경우 하위 메뉴 *기타 Dimension* 아래의 옵션을 사용합니다.
 >
 >![이미지](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 

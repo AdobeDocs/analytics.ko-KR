@@ -17,4 +17,4 @@ ht-degree: 91%
 작업 영역에서는 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]** 아래에서 [반복 인스턴스를 포함/제외](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)하도록 선택할 수 있습니다. 기본값으로는 포함되어 있습니다.
 
 >[!NOTE]
->이 설정은 [!UICONTROL 플로우] 또는 [!UICONTROL 폴아웃] 시각화에 적용되지 않습니다. 작업 영역에서 [!UICONTROL 플로우] 자체 포함 [설정](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) 를 참조하십시오.
+>이 설정은 [!UICONTROL 플로우] 또는 [!UICONTROL 폴아웃] 시각화에 적용되지 않습니다. Workspace에서 [!UICONTROL 흐름]은(는) 반복을 제거하기 위한 자체 [설정](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)을(를) 가지고 있습니다.

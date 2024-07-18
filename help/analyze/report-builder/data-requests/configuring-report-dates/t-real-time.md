@@ -15,7 +15,7 @@ ht-degree: 80%
 
 실시간 요청을 구성하려면 다음 작업을 수행합니다.
 
-1. 에서 실시간 보고가 활성화되어 있는지 확인합니다. [관리 도구](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=ko-KR).
+1. [관리 도구](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=ko-KR)에서 실시간 보고가 활성화되어 있는지 확인하십시오.
 1. [!UICONTROL 요청 마법사: 1단계]에서 **[!UICONTROL 실시간 보고서]** > **[!UICONTROL `<report type>`]**&#x200B;를 클릭합니다.
 
    예를 들어 트래픽 보고서를 선택합니다. 실시간 보고서 유형을 선택하면 [!UICONTROL 시간 범위 선택] 옵션이 표시됩니다.

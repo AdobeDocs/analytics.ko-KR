@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 88%
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 88%
 1. 사이트 방문자가 제품 페이지 중 하나에 대한 유료 검색 링크를 클릭합니다. 장바구니에 제품을 추가하지만 구매하지 않습니다.
 2. 다음날 친구 중 한 사람의 소셜 미디어 게시물을 보고 링크를 클릭한 다음 구매를 완료합니다.
 
-일부 보고서에서는 유료 검색으로 인한 주문을 원할 수 있습니다. 다른 보고서에서는 Social에 속하는 순서를 원할 수도 있습니다. 속성을 사용하면 보고의 이러한 측면을 제어할 수 있습니다. Adobe Analytics Ultimate, Prime, Select 및 Foundation을 사용하는 모든 조직에서 사용할 수 있습니다. Adobe과 어떤 유형의 계약을 체결했는지 확실하지 않은 경우 조직의 Adobe 계정 팀에 문의하십시오.
+일부 보고서에서는 유료 검색으로 인한 주문을 원할 수 있습니다. 다른 보고서에서는 Social에 속하는 순서를 원할 수도 있습니다. 속성을 사용하면 보고의 이러한 측면을 제어할 수 있습니다. Adobe Analytics Ultimate, Prime, Select 및 Foundation을 사용하는 모든 조직에서 사용할 수 있습니다. Adobe와 어떤 유형의 계약을 체결했는지 확실하지 않은 경우 조직의 Adobe 계정 팀에게 문의하십시오.
 
 ## 속성 값
 
@@ -48,22 +48,22 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
 ## 비디오
 
-자유 양식 표의 Attribution 
+자유 양식 표의 속성:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-계산된 지표의 Attribution 
+계산된 지표의 속성
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-기여도 분석 패널 사용:
+속성 패널 사용:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Attribution 모델의 병렬 비교 추가
+속성 모델의 병렬 비교 추가
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
 ## 속성을 지원하지 않는 Adobe Analytics 도구
 
-Analytics 2.0 API를 지원하지 않는 도구(예: Report Builder)는 기여도 분석을 지원하지 않습니다.
+Report Builder와 같이 Analytics 2.0 API를 지원하지 않는 도구는 속성을 지원하지 않습니다.

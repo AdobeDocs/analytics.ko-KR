@@ -12,11 +12,11 @@ ht-degree: 72%
 
 # 제품 보기
 
-제품 보기 [지표](overview.md) 제품을 본 횟수를 보여줍니다. 이 지표는 가장 많이 본 제품을 보거나 시간에 따른 총 제품 보기 횟수의 트렌드를 알려는 경우에 유용합니다.
+&#39;제품 보기&#39; [지표](overview.md)은(는) 제품을 본 횟수를 보여줍니다. 이 지표는 가장 많이 본 제품을 보거나 시간에 따른 총 제품 보기 횟수의 트렌드를 알려는 경우에 유용합니다.
 
 ## 이 지표의 계산 방법
 
 이 지표는 다음 중 **하나**&#x200B;와 일치하는 히트의 수를 계산합니다.
 
 * 값 `prodView`가 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 변수에 존재합니다. 또는
-* 다음 [`products`](/help/implement/vars/page-vars/products.md) 변수가 설정되어 있고 `events` 변수가 비어 있습니다.
+* [`products`](/help/implement/vars/page-vars/products.md) 변수가 설정되어 있고 `events` 변수가 비어 있습니다.

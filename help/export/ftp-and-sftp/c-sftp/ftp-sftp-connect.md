@@ -7,7 +7,7 @@ exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 source-git-commit: 62132284ca70f3bdb1a8896e4548b8b63a5c03c8
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 64%
+ht-degree: 58%
 
 ---
 
@@ -19,7 +19,7 @@ FTP를 사용하여 보안 전송을 설정하려면:
 
    1. Adobe에서 호스팅하는 FTP 계정을 요청합니다 (50MB 할당량).
 
-   1. 공개/개인 RSA 키를 만듭니다.
+   1. 공개/비공개 RSA 키를 만듭니다.
 
       * Linux 환경에서 다음을 실행합니다.
 

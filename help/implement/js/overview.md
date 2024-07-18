@@ -26,15 +26,15 @@ AppMeasurement for JavaScript는 지금까지 Adobe Analytics를 구현하는 �
 </tr>
 
 <tr>
-<td>1</td><td>다음을 수행했는지 확인 <b>보고서 세트 정의</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
+<td>1</td><td><b>보고서 세트를 정의했는지 확인</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>AppMeasurement에 필요한 JavaScript 코드 다운로드</b> 코드 관리자에서. 파일의 압축을 풉니다.</td><td><a href="../../admin/admin/code-manager-admin.md">코드 관리자</a></td>
+<td>2</td><td><b>코드 관리자에서 AppMeasurement에 필요한 JavaScript 코드를 다운로드</b>합니다. 파일의 압축을 풉니다.</td><td><a href="../../admin/admin/code-manager-admin.md">코드 관리자</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>추가 <code>AppMeasurement.js</code> 웹 사이트의 템플릿 파일에</b>. 이 코드에는 데이터를 Adobe에 보내는 데 필요한 라이브러리가 포함되어 있습니다.
+<td>3</td><td><b>웹 사이트의 템플릿 파일에 <code>AppMeasurement.js</code>을(를) 추가</b>합니다. 이 코드에는 데이터를 Adobe에 보내는 데 필요한 라이브러리가 포함되어 있습니다.
 
 ```html
 <head>
@@ -47,7 +47,7 @@ AppMeasurement for JavaScript는 지금까지 Adobe Analytics를 구현하는 �
 </tr>
 
 <tr>
-<td>4</td><td><b>내에서 구성 변수 정의 <code>AppMeasurement.js</code></b>. Analytics 개체가 인스턴스화될 때 이러한 변수는 데이터 수집 설정이 올바른지 확인합니다.
+<td>4</td><td><b>구성 변수를 <code>AppMeasurement.js</code></b> 내에 정의합니다. Analytics 개체가 인스턴스화될 때 이러한 변수는 데이터 수집 설정이 올바른지 확인합니다.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>사이트의 페이지 코드 내에서 페이지 수준 변수 정의</b>. 이러한 변수는 Adobe으로 전송되는 특정 차원과 지표를 결정합니다.
+<td>5</td><td><b>사이트의 페이지 코드 내에서 페이지 수준 변수를 정의합니다</b>. 이러한 변수는 Adobe으로 전송되는 특정 차원과 지표를 결정합니다.
 
 ```js
 s.pageName = "Example page";
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>다음을 사용하여 Adobe에 데이터 보내기 <code>t()</code> 방법</b>: 모든 페이지 변수가 정의된 경우입니다.
+<td>6</td><td><b>모든 Adobe 변수가 정의된 경우 <code>t()</code> 메서드를 사용하여 데이터를 페이지로 보냅니다</b>.
 
 ```js
 s.t();

@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: 292dc256-e9e7-47be-8586-774f1c047011
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 64%
+source-wordcount: '134'
+ht-degree: 52%
 
 ---
 
 # 도메인
 
-&#39;도메인&#39; [차원](overview.md) 방문자가 인터넷에 액세스하는 데 사용하는 액세스 포인트를 보고합니다.
+&#39;도메인&#39; [차원](overview.md)은(는) 방문자가 인터넷에 액세스하는 데 사용하는 액세스 지점을 보고합니다.
 
 ## 이 차원을 데이터로 채우기
 
-Adobe는 [Digital Element](https://www.digitalelement.com/)와 협력하여 액세스 포인트 도메인을 결정합니다. 역방향 DNS 조회를 비롯한 여러 방법을 사용하여 액세스 포인트 도메인을 확인합니다. 또한 구성할 필요가 없고 채울 변수가 없습니다.
+Adobe는 [Digital Element](https://www.digitalelement.com/)와 협력하여 액세스 포인트 도메인을 결정합니다. 역방향 DNS 조회를 비롯한 여러 방법을 사용하여 액세스 포인트 도메인을 확인합니다. 또한 구성할 필요가 없으며 채울 변수가 없습니다.
 
 * AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
-* 웹 SDK 구현의 경우 다음을 활성화합니다 [!UICONTROL 네트워크 조회] 조건 [데이터스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR).
+* Web SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)할 때 [!UICONTROL 네트워크 조회]를 사용하도록 설정하십시오.
 
 ## 차원 항목
 

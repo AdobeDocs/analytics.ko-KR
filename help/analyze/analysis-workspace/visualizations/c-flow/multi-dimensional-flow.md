@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 100%
 
 이 앱에서 화면/페이지와 동작 간 상호 작용을 탐색하기 위해, 탐색하려는 내용에 따라 페이지 차원을 여러 위치에 드래그할 수 있습니다.
 
-* 놓기 영역 (테두리가 검은색으로 표시된 직사각형 영역 내부가 표시되면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다.
+* 드롭 영역 (테두리가 검은색으로 표시된 직사각형 영역 내부가 표시되면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다.
 
-   ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
 * 끝에 있는 공백 (검은색 대괄호 참조)으로 드래그하여 시각화에 **추가**&#x200B;합니다.
 
-   ![](assets/multi-dimensional-flow4.png)
+  ![](assets/multi-dimensional-flow4.png)
 
 다음은 오른쪽 열의 ItemScaled 항목을 페이지 차원으로 바꾸도록 선택하는 경우의 결과입니다. 이제 맨 위의 결과가 페이지 차원에 대한 맨 위 결과로 변경됩니다.
 

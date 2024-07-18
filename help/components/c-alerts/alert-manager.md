@@ -5,20 +5,20 @@ feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 39%
+source-wordcount: '436'
+ht-degree: 32%
 
 ---
 
 # 경고 관리자
 
-경고 관리자는 다음과 매우 유사하게 구성되어 있습니다. [세그먼트 관리자](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ko-KR) 및 [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=ko-KR).
+경고 관리자는 구조가 [세그먼트 관리자](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ko-KR) 및 [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=ko-KR)와 매우 유사합니다.
 
 ![](assets/alert-manager.png)
 
 ## 경고 관리자 액세스
 
-1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **경고**].
+1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **경고**]&#x200B;를 선택합니다.
 
 ## 경고 관리자에서 사용 가능한 작업
 
@@ -46,9 +46,9 @@ ht-degree: 39%
 
 경고 관리자에서 표시되는 열을 구성하려면 다음을 수행합니다.
 
-1. Adobe Analytics에서 **[!UICONTROL 구성 요소]** 탭을 선택한 다음 를 선택합니다 **[!UICONTROL 경고]**.
+1. Adobe Analytics에서 **[!UICONTROL 구성 요소]** 탭을 선택한 다음 **[!UICONTROL 경고]**&#x200B;를 선택합니다.
 
-1. 경고 관리자에서 **열 사용자 지정** 아이콘 ![열 사용자 정의 아이콘](assets/customize-columns-icon.png)을 선택한 다음 경고 관리자에 표시할 열을 선택합니다.
+1. 경고 관리자에서 **열 사용자 지정** 아이콘 ![열 사용자 지정](assets/customize-columns-icon.png)을 선택한 다음 경고 관리자에 표시할 열을 선택합니다.
 
    다음 열을 사용할 수 있습니다.
 
@@ -61,6 +61,6 @@ ht-degree: 39%
    | 태그 | 사용자 또는 사용자와 경고를 공유한 사람이 경고에 적용한 태그를 표시합니다. |
    | 다음 사용자와 공유 | 경고를 공유한 개인 또는 그룹 (관리자만) 또는 모두 (관리자만)를 표시합니다. |
    | 수정한 날짜 | 경고가 마지막으로 수정된 날짜를 나타냅니다. |
-   | 마지막 사용 | 경고가 마지막으로 사용된 날짜를 표시합니다. <p>이 정보는 구성 요소가 조직의 사용자에게 유용한지, 어디에서 사용되는지, 삭제 또는 수정이 필요한지를 결정하는 데 도움이 됩니다.</p><p>이 열을 볼 때는 다음 사항을 고려하십시오.</p><ul><li>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</li><li>일부 구성 요소의 경우 구성 요소가 2023년 9월 이전에 마지막으로 사용된 경우 이 열에 데이터가 포함되지 않을 수 있습니다.</li></ul> |
+   | 마지막 사용 | 경고가 마지막으로 사용된 날짜를 표시합니다. <p>이 정보는 구성 요소가 조직의 사용자에게 가치가 있는지, 사용 위치 및 삭제하거나 수정해야 하는지 여부를 확인하는 데 도움이 됩니다.</p><p>이 열을 조회할 때 다음 사항을 고려하십시오.</p><ul><li>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</li><li>일부 구성 요소의 경우 구성 요소가 2023년 9월 이전에 마지막으로 사용된 경우 이 열에 데이터가 포함되지 않을 수 있습니다.</li></ul> |
 
    {style="table-layout:auto"}

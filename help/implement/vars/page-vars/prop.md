@@ -27,8 +27,8 @@ prop은 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. 
 
 Prop은 다음 변수에 매핑됩니다.
 
-* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - 목록 prop이 [별도의 필드 세트](#list-props-web-sdk).
-* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; 또는 `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - 목록 prop이 이러한 필드에 포함됩니다.
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - 목록 Prop이 [별도의 필드 집합](#list-props-web-sdk)에 지정되었습니다.
+* [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75` 또는 `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - 목록 Prop이 이 필드에 포함됩니다.
 
 ## Adobe Analytics 확장을 사용한 prop
 
@@ -38,7 +38,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 prop�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 설정 [!UICONTROL 확장] Adobe Analytics 드롭다운 목록 [!UICONTROL 작업 유형] 끝 [!UICONTROL 변수 설정].
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정](으)로 설정합니다.
 6. [!UICONTROL prop] 섹션을 찾습니다.
 
 prop을 값 또는 데이터 요소로 설정할 수 있습니다. 다른 Analytics 변수에서 값을 복사할 수도 있습니다.
@@ -65,9 +65,9 @@ s.prop1 = "Example custom value";
 
 ### Web SDK를 사용한 목록 prop {#list-props-web-sdk}
 
-을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 목록 prop이 매핑됨 `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK는 보고서 세트 설정 아래에 나열된 올바른 구분 기호를 자동으로 사용합니다. XDM 필드에 구분 기호를 설정하면(예: `xdm._experience.analytics.customDimensions.props.prop1.delimiter`) 보고서 세트 설정에서 자동으로 검색된 구분 기호를 재정의하고 목록 prop 문자열을 잘못 구문 분석할 수 있습니다.
+[**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 목록 Prop은 `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`에 매핑됩니다. Web SDK는 보고서 세트 설정 아래에 나열된 올바른 구분 기호를 자동으로 사용합니다. XDM 필드에 구분 기호를 설정하면(예: `xdm._experience.analytics.customDimensions.props.prop1.delimiter`) 보고서 세트 설정에서 자동으로 검색된 구분 기호를 재정의하고 목록 prop 문자열을 잘못 구문 분석할 수 있습니다.
 
-을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 목록 prop은 표준 prop과 동일한 필드를 사용하며 AppMeasurement 구문을 따릅니다.
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 목록 prop은 표준 prop과 동일한 필드를 사용하며 AppMeasurement 구문을 따릅니다.
 
 ### Adobe Analytics 확장 프로그램 및 AppMeasurement를 사용하여 목록 prop 설정
 

@@ -20,9 +20,9 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->거래 ID 데이터 소스를 사용하기 전에 먼저 다음 위치에서 활성화해야 합니다 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) 원하는 보고서 세트용입니다.
+>거래 ID 데이터 소스를 사용하기 전에 먼저 원하는 보고서 세트에 대해 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)에서 활성화해야 합니다.
 
-다음을 포함하는 온라인 히트를 보낼 때: [`transactionID`](/help/implement/vars/page-vars/transactionid.md) value, Adobe은 모든 변수 집합의 &quot;스냅샷&quot;을 취하거나 그때 지속됩니다. 데이터 소스를 통해 업로드된 일치하는 거래 ID가 발견되면 오프라인 데이터와 온라인 데이터가 함께 연결됩니다.
+[`transactionID`](/help/implement/vars/page-vars/transactionid.md) 값이 포함된 온라인 히트를 보낼 때 Adobe은 모든 변수 집합의 &quot;스냅샷&quot;을 취하거나 지속됩니다. 데이터 소스를 통해 업로드된 일치하는 거래 ID가 발견되면 오프라인 데이터와 온라인 데이터가 함께 연결됩니다.
 
 거래 ID 데이터 소스에는 다음 속성이 있습니다.
 
@@ -37,19 +37,19 @@ ht-degree: 7%
 예:
 
 1. AppMeasurement에서 다음과 같은 페이지를 페이지 보기로 보냅니다.
-   * `eVar1` 다음과 같음 `blue`
-   * `eVar2` 다음과 같음 `water`
-   * `events` 다음과 같음 `event1`
-   * `transactionID` 다음과 같음 `1256`
+   * `eVar1`이(가) `blue`과(와) 같음
+   * `eVar2`이(가) `water`과(와) 같음
+   * `events`이(가) `event1`과(와) 같음
+   * `transactionID`이(가) `1256`과(와) 같음
 2. 히트가 수집되고 처리된 후 다음과 같은 거래 ID 데이터 소스를 업로드합니다.
-   * `eVar1` 다음과 같음 `yellow`
-   * `eVar3` 다음과 같음 `bird`
-   * `events` 다음과 같음 `event2`
-   * `transactionID` 다음과 같음 `1256`
+   * `eVar1`이(가) `yellow`과(와) 같음
+   * `eVar3`이(가) `bird`과(와) 같음
+   * `events`이(가) `event2`과(와) 같음
+   * `transactionID`이(가) `1256`과(와) 같음
 3. 데이터 소스 히트가 처리되면 작업 영역에서 보고서를 볼 수 있습니다. 데이터에는 다음이 표시됩니다.
-   * `eVar1` 다음과 같음 `yellow`
-   * `eVar2` 다음과 같음 `water`
-   * `eVar3` 다음과 같음 `bird`
-   * `events` 다음과 같음 `event2`
+   * `eVar1`이(가) `yellow`과(와) 같음
+   * `eVar2`이(가) `water`과(와) 같음
+   * `eVar3`이(가) `bird`과(와) 같음
+   * `events`이(가) `event2`과(와) 같음
 
-eVar1 값 `blue` 및 `event1` 거래 ID 히트가 해당 값을 덮어썼으므로 지표가 보고에 없습니다.
+트랜잭션 ID 히트가 해당 값을 덮어썼으므로 eVar1 값 `blue` 및 `event1` 지표가 보고에 없습니다.

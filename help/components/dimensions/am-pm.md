@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # 오전/오후
 
-오전/오후 [차원](overview.md) 히트가 오전과 오후 중 언제 발생했는지에 대한 통찰력을 제공합니다. 히트 시간은 [보고서 세트의 시간대](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)를 기반으로 합니다.
+오전/오후 [차원](overview.md)은(는) 히트가 오전 또는 오후 시간 동안 발생했는지 여부를 알려줍니다. 히트 시간은 [보고서 세트의 시간대](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)를 기반으로 합니다.
 
 ## 이 차원을 데이터로 채우기
 

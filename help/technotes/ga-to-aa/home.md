@@ -16,7 +16,7 @@ ht-degree: 90%
 
 Google Analytics와 Adobe Analytics는 모두 웹 사이트 성능에 대한 중요한 통찰력을 얻을 수 있는 강력한 플랫폼입니다. 각 플랫폼에는 고유한 이점을 가진 자체 처리 아키텍처와 사용자 인터페이스가 있습니다. 이 안내서는 Google Analytics 사용 경험이 있는 사용자가 Adobe Analytics를 습득하는 데 도움을 주기 위해 설계되었습니다.
 
-Adobe Analytics에서 Adobe Experience Cloud에 로그인한 후 기본 보고서를 가져오는 주요 방법은 를 사용하는 것입니다 **Analysis Workspace**. 왼쪽 메뉴를 사용하여 사용자는 구성 요소를 끌어 놓아 자신의 보고서를 작성할 수 있습니다. 이를 통해 보다 자유롭게 정확한 보고 요구 사항을 충족할 수 있습니다. Google Analytics 대시보드 및 사용자 정의 보고서를 만든 경험이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
+Adobe Analytics에서 Adobe Experience Cloud에 로그인한 후 기본 보고서를 가져오는 기본 방법은 **Analysis Workspace**&#x200B;을(를) 사용하는 것입니다. 왼쪽 메뉴를 사용하여 사용자는 구성 요소를 끌어 놓아 자신의 보고서를 작성할 수 있습니다. 이를 통해 보다 자유롭게 정확한 보고 요구 사항을 충족할 수 있습니다. Google Analytics 대시보드 및 사용자 정의 보고서를 만든 경험이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
 
 ## 권장 학습 경로
 

@@ -8,7 +8,7 @@ exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 78%
+ht-degree: 74%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 78%
 
 ## 개요 {#section_75C288C945FA4781A4EDF806711A5660}
 
-다음 [!UICONTROL 요청 관리자] 은 활성 통합 문서의 모든 시트 또는 한 시트에만 빌드한 모든 요청의 상태에 대한 세부 보기를 제공합니다. 요청을 추가, 편집, 새로 고침 및 삭제할 수도 있습니다. 이러한 함수는 일반적으로 [!UICONTROL 요청 마법사] 및 [!UICONTROL 요청 관리자] 이전 요청이 들어 있는 Excel 스프레드시트에서 사용 가능한 셀을 마우스 오른쪽 단추로 클릭합니다.
+[!UICONTROL 요청 관리자]에서는 모든 시트 또는 활성 통합 문서의 한 시트에 대해 빌드한 모든 요청의 상태를 자세히 볼 수 있습니다. 요청을 추가, 편집, 새로 고침 및 삭제할 수도 있습니다. 이러한 함수는 일반적으로 이전 요청이 들어 있는 Excel 스프레드시트에서 사용 가능한 셀을 마우스 오른쪽 단추로 클릭하면 [!UICONTROL 요청 마법사] 및 [!UICONTROL 요청 관리자]와 연결됩니다.
 
-다음 [!UICONTROL 요청 관리자] 을 클릭하면 표시됩니다. **[!UICONTROL 관리]**  ![](assets/edit_request.gif) Report Builder 도구 모음에서 를 클릭합니다.
+Report Builder 도구 모음에서 **[!UICONTROL 관리]** ![](assets/edit_request.gif)을(를) 클릭하면 [!UICONTROL 요청 관리자]가 표시됩니다.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td colname="col1"> <p>추가 </p> </td> 
-   <td colname="col2"> <p>요청 마법사 대화 상자를 표시합니다. <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   >데이터 요청 만들기</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>요청 마법사 대화 상자를 표시합니다. <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > 데이터 요청 만들기</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>편집 </p> </td> 
@@ -82,7 +82,7 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td colname="col1"> <p> 새로 고침 </p> </td> 
-   <td colname="col2"> <p>단일 요청이나 선별된 요청들을 새로 고칩니다. ( <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > 요청 새로 고침</a>.) </p> </td> 
+   <td colname="col2"> <p>단일 요청이나 선별된 요청들을 새로 고칩니다. <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > 요청 새로 고침</a>을 참조하세요. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>목록 새로 고침 </p> </td> 

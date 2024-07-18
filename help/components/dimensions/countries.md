@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 65%
+source-wordcount: '317'
+ht-degree: 60%
 
 ---
 
 # 국가
 
-&#39;국가&#39; [차원](overview.md) 히트가 발생한 국가를 보고합니다. 이 차원은 사이트를 방문할 때 방문자가 발생하는 가장 방문 빈도가 높은 국가가 어디인지 결정하는 데 유용합니다. 이 데이터를 사용하여 이러한 국가에서의 마케팅 활동에 주력하거나 기본 언어가 다른 국가에서 사이트 경험이 최적인지 확인할 수 있습니다.
+&#39;국가&#39; [차원](overview.md)은(는) 히트가 발생한 국가를 보고합니다. 이 차원은 사이트를 방문할 때 방문자가 발생하는 가장 방문 빈도가 높은 국가가 어디인지 결정하는 데 유용합니다. 이 데이터를 사용하여 이러한 국가에서의 마케팅 활동에 주력하거나 기본 언어가 다른 국가에서 사이트 경험이 최적인지 확인할 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 Adobe 내부의 조회 규칙을 참조합니다. 조회 값은 히트와 함께 전송된 IP 주소를 기반으로 합니다. Adobe는 IP 주소와 국가 간에 조회를 유지 관리하기 위해 [Digital Element](https://www.digitalelement.com/)와 파트너 관계를 맺고 있습니다.
+이 차원은 Adobe 내부의 조회 규칙을 참조합니다. 조회 값은 히트와 함께 전송된 IP 주소를 기반으로 합니다. Adobe은 IP 주소와 국가 간에 조회를 유지 관리하기 위해 [Digital Element](https://www.digitalelement.com/)와(과) 파트너 관계를 맺고 있습니다.
 
 * AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
-* 웹 SDK 구현의 경우 다음을 활성화합니다 [!UICONTROL 지역 조회] 조건 [데이터스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR).
+* Web SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)할 때 [!UICONTROL 지역 조회]를 사용하도록 설정하십시오.
 
 ## 차원 항목
 
@@ -33,4 +33,4 @@ ht-degree: 65%
 * **모바일 IP 주소**: 모바일 IP 타깃팅은 위치와 네트워크에 따라 다양한 수준에서 작동합니다. 일부 이동통신사는 중앙 또는 지역 거점(point of presence)을 통해 IP 트래픽을 역수송합니다.
 * **위성 ISP 사용자**: 이러한 사용자는 보통 업링크 위치에서 오는 것처럼 표시되므로 구체적인 위치를 식별하기가 어렵습니다.
 * **군대 및 정부 IP**: 세계 각지를 다니며 현재 배치되어 있는 기지나 사무실 대신 홈 위치를 통해 시작하는 사람을 나타냅니다.
-* **개인정보 보호를 위해 IP 주소를 숨기는 프록시**: Apple의 Private Relay와 같은 서비스는 중개 또는 프록시를 통해 무작위로 데이터를 전송하여 실제 IP 주소를 숨깁니다. 그런 다음 이 프록시는 Adobe으로 전달하기 전에 다른 IP 주소를 대체합니다.
+* **개인 정보 보호를 위해 IP 주소를 숨기는 프록시**: Apple의 개인 릴레이와 같은 서비스는 중개 또는 프록시를 통해 임의로 데이터를 전송하여 실제 IP 주소를 숨깁니다. 그런 다음 이 프록시는 Adobe으로 전달하기 전에 다른 IP 주소를 대체합니다.

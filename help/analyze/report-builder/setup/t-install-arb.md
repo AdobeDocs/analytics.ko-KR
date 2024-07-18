@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 source-git-commit: 90441e102ddaf367555e278bda8ca51c7bfeae34
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 60%
+source-wordcount: '124'
+ht-degree: 54%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 60%
 
 Report Builder를 설치하려면 다음 작업을 수행합니다.
 
-1. 클릭 **[Adobe Experience Cloud](https://experience.adobe.com/)** > **[!UICONTROL 분석]** > **[!UICONTROL 도구]** > **[!UICONTROL Report Builder]**.
+1. **[Adobe Experience Cloud](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL 도구]** > **[!UICONTROL Report Builder]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 지금 다운로드]**&#x200B;를 클릭하여 32비트 또는 64비트 버전(설치된 MS Excel 버전에 따라)을 다운로드합니다.
 1. 다운로드한 설치 관리자 패키지를 엽니다.
 1. 설치 마법사를 따라 설치합니다.
@@ -27,4 +27,4 @@ Report Builder를 설치하려면 다음 작업을 수행합니다.
 
 ## 권한
 
-표시되지 않는 경우 **[!UICONTROL Report Builder]** 을(를) 메뉴 항목으로 사용 **[!UICONTROL 도구]**, Adobe Analytics 관리자에게 사용자가 다음 권한을 포함하는 제품 프로필에 포함되어 있는지 확인하십시오. *Report Builder*. [제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR) 및 [Analytics 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko-KR)에 대해 자세히 알아보십시오.
+**[!UICONTROL Report Builder]**&#x200B;의 메뉴 항목으로 **[!UICONTROL 도구]**&#x200B;이(가) 표시되지 않는 경우 Adobe Analytics 관리자에게 사용자가 다음 권한을 포함하는 제품 프로필에 포함되어 있는지 확인하십시오. *Report Builder*. [제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR) 및 [Analytics 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko-KR)에 대해 자세히 알아보십시오.

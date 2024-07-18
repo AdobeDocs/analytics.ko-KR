@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # 캠페인
 
-캠페인 [차원](overview.md) 다음을 의미할 수 있습니다.
+&#39;캠페인&#39; [차원](overview.md)은(는) 다음을 의미할 수 있습니다.
 
 * 일부 보고서 세트에서 자동으로 생성된 [분류](../classifications/c-classifications.md). 이것은 [추적 코드](tracking-code.md) 차원을 기반으로 합니다.
 * [캠페인](/help/implement/vars/page-vars/campaign.md) 구현 변수를 사용하는 [추적 코드](tracking-code.md) 차원 자체.

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1310'
 ht-degree: 85%
 
 ---
@@ -28,12 +28,12 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [집단 테이블](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![집단 테이블 아이콘](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 유지, 이탈 또는 지연 시간 분석에 유용합니다. |
 | [도넛](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![도넛 아이콘](assets/Smock_GraphDonut_18_N.svg)</p> | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 세그먼트로 표시합니다. |
 | [폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![폴아웃 아이콘](assets/Smock_ConversionFunnel_18_N.svg)</p> | 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있습니다. |
-| [플로우](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![플로우 아이콘](assets/flow-icon.png)</p> | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
+| [플로우](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![흐름 아이콘](assets/flow-icon.png)</p> | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
 | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![자유 형식 테이블 아이콘](assets/Smock_ViewTable_18_N.svg)</p> | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. 작업 영역에서의 데이터 분석을 위한 기초입니다. |
 | [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![막대 그래프 아이콘](assets/Smock_GraphHistogram_18_N.svg)</p> | 히스토그램은 지표 볼륨을 기반으로 방문자, 방문 또는 히트를 버킷으로 버킷화합니다. |
 | [가로 막대형](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![가로 막대 아이콘](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
 | [주요 지표 요약](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![주요 지표 아이콘](assets/key-metric-icon.png)</p> | 단일 기간 내에서 지표의 추세를 보여주거나 두 기간 동안의 지표 성능을 비교할 수 있도록 해줍니다. |
-| [라인](/help/analyze/analysis-workspace/visualizations/line.md)<p>![라인 아이콘](assets/Smock_GraphTrend_18_N.svg)</p> | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
+| [라인](/help/analyze/analysis-workspace/visualizations/line.md)<p>![줄 아이콘](assets/Smock_GraphTrend_18_N.svg)</p> | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
 | [맵](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![맵 아이콘](assets/map-icon.png)</p> | 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있도록 해 줍니다. |
 | [산포도](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![산포도 아이콘](assets/Smock_GraphScatter_18_N.svg)</p> | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
 | [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![요약 번호 아이콘](assets/summary-number-icon.png)</p> | 선택한 셀을 1개의 큰 숫자로 표시합니다. |
@@ -48,19 +48,19 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 1. 시각화를 추가하려면 다음 방법 중 하나를 사용하십시오.
 
-   * 왼쪽 레일에서 **시각화** 아이콘 <!-- add icon -->를 클릭한 다음 시각화를 추가하려는 패널로 시각화를 드래그합니다.
+   * 왼쪽 레일에서 **시각화** 아이콘 <!-- add icon -->을(를) 선택한 다음 시각화를 추가할 패널로 드래그합니다.
 
      ![](assets/viz-rail.png)
 
-   * 시각화를 추가하려는 패널에서 **플러스** 아이콘을 클릭한 다음 추가하려는 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가 이름을 확인합니다.
+   * 시각화를 추가할 패널에서 **더하기** 아이콘을 선택한 다음 추가할 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가 이름을 확인합니다.
 
-     ![시각화 추가 버튼](assets/visualization-add-to-panel.png)
+     ![시각화 추가 단추](assets/visualization-add-to-panel.png)
 
-   * 추가 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)을(를) 만든 다음 추가할 시각화를 선택합니다.
+   * [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)을 추가한 다음 추가할 시각화를 선택하십시오.
 
      ![빈 패널](assets/blank_panel.png)
 
-   * Analysis Workspace 프로젝트에서 기존 패널을 마우스 오른쪽 단추로 클릭한 다음 를 선택합니다 [!UICONTROL **시각화 복제**] 또는 [!UICONTROL **시각화 복사**].
+   * Analysis Workspace 프로젝트에서 기존 패널을 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **시각화 복제**] 또는 [!UICONTROL **시각화 복사**]&#x200B;를 선택합니다.
 
 ## 시각화 설정 맞춤화
 

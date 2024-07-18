@@ -15,11 +15,11 @@ ht-degree: 93%
 
 분류는 값을 그룹으로 분류하고 그룹 수준으로 보고하는 데 사용됩니다. 예를 들어 모든 [!UICONTROL 유료 검색] 캠페인을 *팝 뮤직 용어*&#x200B;와 같은 범주로 분류하고 인스턴스(클릭스루)와 같은 지표와 관련한 해당 범주의 성공 및 성공 이벤트로의 전환에 대해 보고할 수 있습니다. 변수에 최대 255개의 분류를 추가할 수 있습니다.
 
-**[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 전환 분류]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 전환 분류]**
 
 전환 분류를 사용하면 전환 변수를 분류할 수 있습니다. 한 번 분류하면 키 데이터를 사용하여 생성할 수 있는 어떤 보고서도 관련 데이터 속성을 사용하여 생성할 수 있습니다.
 
-분류를 활성화한 후 다음을 사용합니다. [분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md) 를 사용하여 적절한 분류에 특정 값을 할당할 수 있습니다.
+분류를 사용하도록 설정한 후 [분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md)를 사용하여 해당 분류에 특정 값을 지정하십시오.
 
 >[!WARNING]
 >

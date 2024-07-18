@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 80%
+source-wordcount: '266'
+ht-degree: 79%
 
 ---
 
 # 우편 번호
 
-&#39;우편 번호&#39; [차원](overview.md) 방문자의 우편 번호를 보고합니다. 이 차원을 사용하면 성공적인 로컬 광고에 대해 더 깊이 이해하거나 전 세계에서 사이트 성과가 가장 좋은 곳을 알 수 있습니다.
+&#39;우편 번호&#39; [차원](overview.md)은(는) 방문자의 우편 번호를 보고합니다. 이 차원을 사용하면 성공적인 로컬 광고에 대해 더 깊이 이해하거나 전 세계에서 사이트 성과가 가장 좋은 곳을 알 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 geo zip 과 관련된 옵션을 사용하도록 선택하는 경우:
 
 * AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
-* 웹 SDK 구현의 경우 다음을 활성화합니다 [!UICONTROL 지역 조회] 조건 [데이터스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR).
+* Web SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)할 때 [!UICONTROL 지역 조회]를 사용하도록 설정하십시오.
 
 ## 차원 항목
 

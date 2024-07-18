@@ -21,7 +21,7 @@ ht-degree: 81%
 
 ## 웹 SDK를 사용한 타임스탬프
 
-타임스탬프: [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) XDM 필드 아래 `xdm.timestamp`. 이 필드는 Unix 시간만 지원합니다.
+타임스탬프가 XDM 필드 `xdm.timestamp` 아래에 있는 [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html)입니다. 이 필드는 Unix 시간만 지원합니다.
 
 ## Adobe Analytics 확장을 사용한 타임스탬프
 
@@ -29,7 +29,7 @@ Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니�
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.timestamp
 
-`s.timestamp` 변수는 히트의 날짜 및 시간을 포함하는 문자열입니다. 유효한 타임스탬프 형식은 다음과 같습니다. [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 및 [Unix 시간](https://en.wikipedia.org/wiki/Unix_time) 초 단위입니다.
+`s.timestamp` 변수는 히트의 날짜 및 시간을 포함하는 문자열입니다. 올바른 타임스탬프 형식에는 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 및 [Unix 시간](https://en.wikipedia.org/wiki/Unix_time)이(가) 포함됩니다(초).
 
 ```js
 // Timestamp using ISO 8601

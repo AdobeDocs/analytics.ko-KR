@@ -17,12 +17,12 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> 이 문서에서는 다음을 제공합니다 **Adobe Analytics을 구현할 (계획 중인) Adobe Analytics 고객** 웹 사이트에서 웹 사이트 사용자에게 옵트아웃 링크를 제공하는 방법에 대한 지침을 제공합니다. <p><p>
-> 다음과 같은 경우 **Adobe Analytics을 구현한 웹 사이트 방문**, 옵트아웃하려는 경우 **<span style="color:red">이 문서는 귀하를 위한 것이 아닙니다.</span>**. 다음을 참조하십시오. [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html) Adobe이 정보를 사용하는 방법을 제어합니다.
+> 이 문서에서는 웹 사이트에서 Adobe Analytics을 구현&#x200B;**할** Adobe Analytics 고객에게 웹 사이트 사용자에게 옵트아웃 링크를 제공하는 방법에 대한 지침을 제공합니다. <p><p>
+> **Adobe Analytics을 구현한 웹 사이트를 방문하는 중**&#x200B;이고 옵트아웃하려는 경우 **<span style="color:red">이 문서는 사용자의 것이 아닙니다</span>**. [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html)을 참조하여 Adobe에서 정보를 사용하는 방법을 제어하십시오.
 
 웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe은 웹 사이트 방문자에게 분석 대상 정보를 옵트아웃할 수 있는 수단을 제공하는 기능을 제공합니다.
 
-옵트아웃 링크는 웹 사이트 방문자가 Analytics 보고에서 데이터를 생략하도록 허용하는 방법입니다. 이러한 링크는 AppMeasurement 구현으로 제한됩니다. Adobe은 [Adobe Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR) 대신, 옵트인 서비스는 보다 강력하며 Adobe Analytics 및 AppMeasurement을 포함한 여러 Adobe Experience Cloud 제품에서 작동합니다.
+옵트아웃 링크는 웹 사이트 방문자가 Analytics 보고에서 데이터를 생략하도록 허용하는 방법입니다. 이러한 링크는 AppMeasurement 구현으로 제한됩니다. Adobe은 대신 [Adobe Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)를 사용할 것을 권장합니다. 옵트인 서비스는 보다 강력하며 Adobe Analytics 및 AppMeasurement을 포함한 여러 Adobe Experience Cloud 제품에서 작동합니다.
 
 방문자가 옵트아웃 URL에 도달하면 옵트아웃 쿠키를 설치하라는 메시지가 표시됩니다. 사용자가 추적되지 않도록 선택하고 옵트아웃 쿠키가 설정된 경우 AppMeasurement은 Adobe에게 데이터를 계속 전송합니다. 하지만 이 데이터는 처리되거나 보고서에 포함되지 않습니다.
 
@@ -62,28 +62,28 @@ ht-degree: 67%
 
 `locale` 쿼리 문자열 매개 변수를 포함하여 옵트아웃 페이지의 언어를 자동으로 전환하십시오. 이 쿼리 문자열 매개 변수는 다음 값 중 하나를 지정합니다.
 
-* `en_US` (영어, 기본값)
-* `bg_BG` (불가리아어)
-* `zh_CN` (중국어 간체)
-* `zh_TW` (중국어 번체)
-* `cs_CZ` (체코어)
-* `da_NK` (덴마크어)
-* `nl_NL` (네덜란드어)
-* `et_EE` (에스토니아어)
-* `fi_FI` (핀란드어)
-* `fr_FR` (프랑스어)
-* `de_DE` (독일어)
-* `el_GR` (그리스어)
-* `it_IT` (이탈리아어)
-* `jp_JP` (일본어)
-* `ko_KR` (한국어)
-* `lv_LV` (라트비아어)
-* `lt_LT` (리투아니아어)
-* `nb_NO` (노르웨이어)
-* `pl_PL` (폴란드어)
-* `pt_BR` (포르투갈어)
-* `sk_SK` (슬로바키아어)
-* `es_ES` (스페인어)
+* `en_US`(영어, 기본값)
+* `bg_BG`(불가리아어)
+* `zh_CN`(중국어 간체)
+* `zh_TW`(중국어 번체)
+* `cs_CZ`(체코어)
+* `da_NK`(덴마크어)
+* `nl_NL`(네덜란드어)
+* `et_EE`(에스토니아어)
+* `fi_FI`(핀란드어)
+* `fr_FR`(프랑스어)
+* `de_DE`(독일어)
+* `el_GR`(그리스어)
+* `it_IT`(이탈리아어)
+* `jp_JP`(일본어)
+* `ko_KR`(한국어)
+* `lv_LV`(라트비아어)
+* `lt_LT`(리투아니아어)
+* `nb_NO`(노르웨이어)
+* `pl_PL`(폴란드어)
+* `pt_BR`(포르투갈어)
+* `sk_SK`(슬로바키아어)
+* `es_ES`(스페인어)
 
 예를 들어 `https://example.data.adobedc.net/optout.html?locale=ko_KR`은 옵트아웃 페이지를 한국어로 로드합니다.
 

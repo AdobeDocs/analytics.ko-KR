@@ -19,7 +19,7 @@ ht-degree: 68%
 
 ## 웹 SDK를 사용하여 XDM 이벤트에 포함할 Analytics 이벤트 결정
 
-웹 SDK는 링크 추적 호출을 위한 특정 필드를 제외하지 않습니다. 하지만 `onBeforeEventSend` 데이터를 Adobe으로 보내기 전에 원하는 필드를 지우거나 설정하는 콜백입니다. 다음을 참조하십시오 [전체적으로 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 자세한 내용은 Web SDK 설명서 를 참조하십시오.
+웹 SDK는 링크 추적 호출을 위한 특정 필드를 제외하지 않습니다. 그러나 데이터를 Adobe으로 보내기 전에 `onBeforeEventSend` 콜백을 사용하여 원하는 필드를 지우거나 설정할 수 있습니다. 자세한 내용은 웹 SDK 설명서의 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
 
 ## Adobe Analytics 확장을 사용한 링크 추적 호출의 이벤트
 
@@ -27,7 +27,7 @@ ht-degree: 68%
 
 >[!IMPORTANT]
 >
->Analytics 확장의 사용자 지정 코드 편집기에서 이벤트를 설정하는 경우에 이벤트를 포함해야 합니다. `linkTrackEvents` 사용자 지정 코드도 사용합니다.
+>Analytics 확장의 사용자 지정 코드 편집기에서 이벤트를 설정하는 경우 사용자 지정 코드도 사용하여 `linkTrackEvents`에 이벤트를 포함해야 합니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.linkTrackEvents
 

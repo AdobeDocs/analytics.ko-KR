@@ -33,4 +33,4 @@ Adobe Analytics에서 사용자에게 역할을 할당하려면 먼저 사용자
 
 조직에 대해 첫 번째 관리자가 프로비저닝된 후 첫 번째 관리자는 조직의 사용자에게 다른 주요 역할을 프로비저닝할 수 있습니다.
 
-Adobe Analytics에 대한 주요 역할을 가진 조직의 사용자를 프로비저닝하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Analytics의 관리자 역할](/help/admin/admin-console/admin-roles-in-analytics.md).
+Adobe Analytics의 주요 역할을 사용하여 조직의 사용자를 프로비저닝하는 방법에 대한 자세한 내용은 Adobe Analytics의 [관리자 역할](/help/admin/admin-console/admin-roles-in-analytics.md)을 참조하십시오.

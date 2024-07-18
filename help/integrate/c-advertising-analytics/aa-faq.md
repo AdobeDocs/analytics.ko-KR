@@ -68,7 +68,7 @@ Advertising Analytics은 Adobe Analytics 관리자만 사용할 수 있습니다
 
 +++ Advertising Analytics에 액세스하려면 어디로 이동합니까?
 
-Adobe Analytics에 로그인한 후 다음으로 이동합니다. [!UICONTROL 관리자]. 그런 다음 을 선택합니다 [!UICONTROL Advertising Analytics] 을 클릭하여 검색 엔진 계정을 추가합니다.
+Adobe Analytics에 로그인한 후 [!UICONTROL 관리자](으)로 이동합니다. 그런 다음 [!UICONTROL Advertising Analytics]을(를) 선택하여 검색 엔진 계정을 추가합니다.
 
 +++
 
@@ -105,8 +105,8 @@ Advertising Analytics은 일련의 사용자 지정 API를 사용하여 Adobe Ad
 
 +++ Advertising Analytics 계정을 특정 보고서 세트에 매핑하려고 하지만 보고서 세트 모달에서는 사용할 수 없습니다. 왜일까요?
 
-Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 보고서 세트가 다음과 같아야 합니다 [Advertising Analytics 보고에 프로비저닝됨](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
-이 작업은 별도 관리 페이지에서 수행합니다. 이 페이지는 관리 > 보고서 세트 >에서 액세스할 수 있습니다. `[select report suite]` > 설정 편집 > Advertising Analytics 구성
+보고서 세트를 Advertising Analytics 계정에 할당하려면 먼저 원하는 보고서 세트를 [Advertising Analytics 보고용으로 프로비저닝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)해야 합니다.
+이 작업은 별도 관리 페이지에서 수행합니다. 이 페이지는 관리 > 보고서 세트 > `[select report suite]` > 설정 편집 > Advertising Analytics 구성에서 액세스할 수 있습니다.
 
 +++
 
@@ -116,7 +116,7 @@ Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 �
 
 +++
 
-+++ 에서 Advertising Analytics 지표를 보고할 수 있습니까? *마케팅 채널* 보고?
++++ *마케팅 채널* 보고서에 Advertising Analytics 지표를 보고할 수 있습니까?
 
 아니요. 마케팅 채널 보고서에는 이러한 지표가 포함되지 않습니다.
 
@@ -128,7 +128,7 @@ Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 �
 
 +++
 
-+++ 다음과 같은 작업 가능 *클릭 전에 캡처됨*? 클릭하지 않더라도 노출 횟수, 비용, 평균 위치 등이 표시됩니까?
++++ *클릭 전에 캡처할 수 있는 항목* 클릭하지 않더라도 노출 횟수, 비용, 평균 위치 등이 표시됩니까?
 
 AMO ID는 검색 엔진 지표(노출 횟수, 비용, 클릭 수, 평균 위치 및 평균 품질 점수)를 캡처합니다. 클릭이 없지만 노출 횟수가 있는 경우 노출/위치/품질 점수 데이터가 계속 Analytics에 전송됩니다. 일반적으로 클릭이 없는 경우에는 비용도 없습니다.
 
@@ -142,7 +142,7 @@ AMO ID는 검색 엔진 지표(노출 횟수, 비용, 클릭 수, 평균 위치 
 
 +++
 
-+++ google.com 만 캡처합니까? 또는 *국가 버전* (예: google.co.uk, google.it, google.fr 또는 google.de)
++++ google.com 또는 *국가 버전*(google.co.uk, google.it, google.fr 또는 google.de)만 캡처합니까?
 
 광고 플랫폼 분류는 &quot;Google Adwords&quot; 및 &quot;Bing Ads&quot; 값을 캡처합니다. 일반적인 우수 사례에는 캠페인 이름의 일부로 국가 코드가 포함됩니다. 그 이후에 필터링하거나 분류할 수 있습니다 (예: 모든 캠페인이 countrycode_로 시작하는 경우 캠페인 (AMO ID)이 &#39;UK_&#39;로 시작하는 세그먼트를 생성하여 영국에 대한 데이터만 제공).
 
@@ -154,7 +154,7 @@ AMO ID는 검색 엔진 지표(노출 횟수, 비용, 클릭 수, 평균 위치 
 
 +++
 
-+++ 다음과 같은 기타 광고 채널을 포함할 계획이 있습니까? *표시* 또는 *소셜*?
++++ *디스플레이* 또는 *소셜*&#x200B;과 같은 다른 광고 채널을 포함할 계획이 있습니까?
 
 아니요. 현재 로드맵에는 이러한 다른 채널에 대한 계획이 없습니다.
 
@@ -163,7 +163,7 @@ AMO ID는 검색 엔진 지표(노출 횟수, 비용, 클릭 수, 평균 위치 
 
 ## 자동 vs 수동 추적 {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ 내 Advertising 계정을 설정할 때 다음과 같이 표시됩니다 *자동 추적* 의도하지 않은 결과를 초래할 수 있습니다. 어떤 결과가 발생할 수 있습니까?
++++ 내 Advertising 계정을 설정할 때 *자동 추적*&#x200B;이 의도하지 않은 결과를 초래할 수 있다고 표시됩니다. 어떤 결과가 발생할 수 있습니까?
 
 자동 모드에서는 URL 매개 변수를 올바른 형식으로 추적 템플릿/대상 URL의 끝에 추가하려고 합니다. 그러나 추가된 URL 매개 변수가 최종 랜딩 페이지에 올바르게 유지되는지는 사용자가 확인해야 합니다. 자동 모드는 랜딩 URL에 키워드를 삽입할 수 있으며, 웹 서버가 특수 문자가 있는 키워드를 지원하지 않을 수 있습니다.
 

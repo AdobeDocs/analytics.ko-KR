@@ -29,4 +29,4 @@ ht-degree: 90%
 
    여러 규칙이 있는 경우 페이지로 해당 규칙을 드래그하여 놓아 처리 순서를 변경합니다.
 
-   다음을 참조하십시오 [처리 규칙 예](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) 를 참조하십시오.
+   만들 수 있는 규칙 종류에 대한 자세한 내용은 [처리 규칙 예제](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)를 참조하십시오.

@@ -19,7 +19,7 @@ ht-degree: 70%
 
 ## 웹 SDK를 사용하는 동적 변수 접두사
 
-Web SDK는 동적 변수 형식을 사용하지 않습니다. 대신 데이터 스트림 매핑을 사용하여 단일 소스 필드를 사용하여 여러 대상 필드를 채울 수 있습니다. 다음을 참조하십시오 [웹 SDK를 사용하는 동적 변수](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) 추가 정보.
+Web SDK는 동적 변수 형식을 사용하지 않습니다. 대신 데이터 스트림 매핑을 사용하여 단일 Source 필드를 사용하여 여러 대상 필드를 채울 수 있습니다. 자세한 내용은 [Web SDK를 사용하는 동적 변수](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk)를 참조하십시오.
 
 스키마를 따르지 않고 Adobe Analytics으로 데이터를 직접 전송하는 경우 다음 변수를 사용합니다.
 

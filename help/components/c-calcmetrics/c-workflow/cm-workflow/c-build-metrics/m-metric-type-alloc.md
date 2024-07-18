@@ -12,7 +12,7 @@ ht-degree: 69%
 
 # 지표 유형 및 속성
 
-날짜 [계산된 지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), 지표 유형 및 속성 모델을 지정할 수 있습니다.
+[계산된 지표를 빌드](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)할 때 지표 유형과 속성 모델을 지정할 수 있습니다.
 
 ## 지표 유형
 
@@ -31,7 +31,7 @@ ht-degree: 69%
 
 ## 선형 할당 작동 방식
 
-[속성](/help/analyze/analysis-workspace/attribution/overview.md) 은 계산된 지표의 할당 모델을 평가하는 방법입니다.
+[기여도 분석](/help/analyze/analysis-workspace/attribution/overview.md)은(는) 계산된 지표의 할당 모델을 평가하는 방법입니다.
 
 기본이 아닌 기여도 분석 모델 및 지원되는 전환 확인 기간의 전체 목록에 대해서는 [기여도 분석 모델 및 전환 확인 기간](/help/analyze/analysis-workspace/attribution/models.md)을 참조하십시오.
 

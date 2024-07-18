@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
-workflow-type: ht
-source-wordcount: '751'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 경영진 사용자가 앱의 스코어카드에 액세스할 수 있도록 하려면 다음을 확인합니다.
 
 * 해당 디바이스의 최소 모바일 OS 요구 사항은 iOS 버전 10 이상 또는 Android 버전 4.4 (KitKat) 이상입니다.
-* 경영진 사용자에게 Adobe Analytics에 대한 유효한 로그인 권한이 있습니다..
+* Adobe Analytics에 대한 유효한 로그인이 있습니다.
 * 모바일 스코어카드를 올바르게 생성했으며 이 스코어카드를 경영진 사용자와 공유했습니다.
 * 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. 스코어카드를 공유할 때 **[!UICONTROL 임베드된 구성 요소 공유]** 옵션을 선택할 수 있습니다.
 

@@ -16,11 +16,11 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->실시간 보고서는 추가적인 구현이나 태깅을 필요로 하지 않으며, 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>실시간 보고서는 추가적인 구현이나 태깅을 필요로 하지 않으며, 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)을 참조하십시오.
 
 실시간 보고서를 보려면 다음 위치로 이동합니다.
 
-**[!UICONTROL 작업 영역]** > **[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 실시간]**.
+**[!UICONTROL Workspace]** > **[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 실시간]**.
 
 실시간 보고서는 사이트 트렌드는 무엇이며 그러한 트렌드의 이유는 무엇인가와 같은 질문들에 대해 대답해 줍니다. 실시간 보고서를 사용하면 마케터로서 신속히 대응하고 마케팅 콘텐츠와 캠페인의 성능을 관리할 수 있습니다. 보고서의 실시간 데이터는 2분 미만으로 잠재해 있다가 분 단위로 자동 업데이트됩니다.
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 * 예를 들면 지난 주의 값을 작년 값 (및 오늘 합계)과 비교합니다.
 
-지속성 개념이 없으므로 eVar (전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 차원과 동일한 페이지에서 설정되어 있는 경우에만 작동합니다. 자세한 내용은에서 캡처한 경고 메시지를 참조하십시오. [실시간 보고서 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+지속성 개념이 없으므로 eVar (전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 차원과 동일한 페이지에서 설정되어 있는 경우에만 작동합니다. 자세한 내용은 [실시간 보고서 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)에서 캡처한 경고 메시지를 참조하십시오.
 
 실시간 보고서를 설정하고 보는 것은 관리자와 &quot;모든 보고서 액세스&quot; 및 &quot;고급 보고&quot; 권한 그룹의 사용자에게로 제한됩니다. 하지만, 실시간 보고서는 권한을 준수합니다. 예를 들어 사용자가 매출액을 볼 수 있는 권한을 가지고 있지 않은 경우 매출 데이터가 포함된 실시간 보고서를 볼 수 없습니다.
 

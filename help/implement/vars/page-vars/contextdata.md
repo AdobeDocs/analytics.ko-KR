@@ -19,9 +19,9 @@ ht-degree: 79%
 
 ## Web SDK를 사용한 컨텍스트 데이터 변수
 
-을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), Adobe Analytics 변수에 매핑되지 않은 모든 필드는 컨텍스트 데이터 변수로 자동 포함됩니다. XDM 개체를 사용하여 컨텍스트 데이터를 명시적으로 설정할 수도 있습니다. 그런 다음 을 사용할 수 있습니다. [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 컨텍스트 데이터 변수를 원하는 Analytics 변수에 할당합니다.  다음을 참조하십시오 [Analytics 변수에 다른 XDM 필드 매핑](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) 추가 정보.
+[**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 Adobe Analytics 변수에 매핑되지 않은 모든 필드가 자동으로 컨텍스트 데이터 변수로 포함됩니다. XDM 개체를 사용하여 컨텍스트 데이터를 명시적으로 설정할 수도 있습니다. 그런 다음 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)을 사용하여 컨텍스트 데이터 변수를 원하는 Analytics 변수에 할당할 수 있습니다.  자세한 내용은 [Analytics 변수에 다른 XDM 필드 매핑](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)을 참조하십시오.
 
-을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 모든 컨텍스트 데이터 변수 `data.__adobe.analytics.contextData` 키-값 쌍으로:
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 모든 컨텍스트 데이터 변수는 `data.__adobe.analytics.contextData` 내에 키-값 쌍으로 있습니다.
 
 ```js
 alloy("sendEvent", {
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-다음 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 인터페이스에 `c.example_variable` 및 `c.second_example` 적용 가능한 드롭다운 메뉴 내에서 확인할 수 있습니다.
+[처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 인터페이스는 적용 가능한 드롭다운 메뉴에 `c.example_variable` 및 `c.second_example`을(를) 표시합니다.
 
 ## Adobe Analytics 확장을 사용한 컨텍스트 데이터 변수
 
@@ -64,8 +64,8 @@ s.contextData["example_variable"] = "Example value";
 >컨텍스트 데이터 변수는 처리 규칙 실행 후 무시됩니다. 값을 변수에 배치하는 처리 규칙이 활성화되어 있지 않으면 해당 데이터가 영구적으로 손실됩니다.
 
 1. 구현을 업데이트하여 컨텍스트 데이터 변수 이름 및 값을 설정합니다.
-2. Adobe Analytics에 로그인하고 다음으로 이동 **[!UICONTROL 관리자]** > **[!UICONTROL 보고서]** 스위트.
-3. 원하는 보고서 세트를 선택하고 **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 처리 규칙]**.
+2. Adobe Analytics에 로그인하고 **[!UICONTROL 관리자]** > **[!UICONTROL 보고서]** 모음으로 이동합니다.
+3. 원하는 보고서 세트를 선택한 다음 **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 처리 규칙]**&#x200B;으로 이동합니다.
 4. Analytics 변수를 컨텍스트 데이터 변수 값으로 설정하는 처리 규칙을 만듭니다.
 5. 변경 사항을 저장합니다.
 

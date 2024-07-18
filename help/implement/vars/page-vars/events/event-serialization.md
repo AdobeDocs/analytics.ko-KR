@@ -35,11 +35,11 @@ ht-degree: 83%
 
 ## Web SDK를 사용하여 이벤트 ID 사용
 
-을 사용하는 경우 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md), 이벤트 직렬화는 원하는 이벤트의 XDM 필드를 사용합니다 `id`. 전체 XDM 경로는 직렬화하려는 이벤트에 따라 다릅니다.
+[**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 이벤트 직렬화는 원하는 이벤트의 XDM 필드 `id`을(를) 사용합니다. 전체 XDM 경로는 직렬화하려는 이벤트에 따라 다릅니다.
 
-예를 들어 장바구니 추가 지표를 직렬화하려면 다음을 설정합니다. `xdm.commerce.productListAdds.id` 원하는 직렬화 값으로 사용자 지정 이벤트 20을 직렬화하려면 다음을 설정하십시오. `xdm._experience.analytics.event1to100.event20` 원하는 직렬화 값으로
+예를 들어 장바구니 추가 지표를 serialize하려면 `xdm.commerce.productListAdds.id`을(를) 원하는 serialization 값으로 설정합니다. 사용자 지정 이벤트 20을 serialize하려면 `xdm._experience.analytics.event1to100.event20`을(를) 원하는 serialization 값으로 설정하십시오.
 
-을 사용하는 경우 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md), 이벤트 일련화 사용 `data.__adobe.analytics.events`: AppMeasurement 문자열 구문을 따릅니다.
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 이벤트 직렬화는 다음 AppMeasurement 문자열 구문과 같은 `data.__adobe.analytics.events`을(를) 사용합니다.
 
 ## Adobe Analytics 확장을 사용한 이벤트 ID 사용
 
@@ -49,7 +49,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에 포함�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 설정 [!UICONTROL 확장] Adobe Analytics 드롭다운 목록 [!UICONTROL 작업 유형] 끝 [!UICONTROL 변수 설정].
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정](으)로 설정합니다.
 6. 각 이벤트에 [!UICONTROL 이벤트 ID] 필드가 포함된 [!UICONTROL 이벤트] 섹션을 찾습니다.
 
 유효한 값은 최대 20바이트 길이의 영숫자 문자입니다. 20바이트보다 긴 값을 입력하면 시스템이 처음 20바이트로 잘라냅니다.

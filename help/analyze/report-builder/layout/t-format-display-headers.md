@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 77%
+source-wordcount: '409'
+ht-degree: 71%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 77%
    | 보고서 이름 | 요청 마법사: 1단계의 트리에서 선택한 요청 유형의 이름(예: [!DNL Traffic Report])이나 [!DNL Name this Request]에 입력하는 이름이 표시됩니다. |
    | 필터 매개 변수 | 검색 필터와 같은 차원 필터를 표시합니다. |
    | 세그먼트 | 세그먼트 매개 변수를 표시합니다. |
-   | 최근 데이터 | 최근 데이터 매개 변수를 표시합니다. 예:    데이터 최신성: 페이지 보기 수(1.5시간 전), 종료 횟수(30분 전) 현재 데이터 처리에 대한 자세한 내용은 [선택 사항](/help/analyze/report-builder/options.md)을 참조하십시오. |
+   | 최근 데이터 | 최근 데이터 매개 변수를 표시합니다. 예:    데이터 최신성: 페이지 보기 수(1.5시간 전), 종료 횟수(30분 전) 현재 데이터 처리에 대한 자세한 내용은 [옵션](/help/analyze/report-builder/options.md)을 참조하십시오. |
 
    표시 순서의 경우, [!UICONTROL 행 레이블] 그리드(2단계에서)에 항목이 들어 있으면, 요청에서 먼저 표시됩니다. 없으면, 시스템은 [!UICONTROL 열 레이블] 그리드에 표시된 첫 번째 항목을 사용합니다. 열이나 행 항목이 존재하지 않으면 [!UICONTROL 지표] 그리드의 첫 번째 항목이 표시됩니다.
 
@@ -43,6 +43,6 @@ ht-degree: 77%
 
    **자동 윤곽 수행:** Report Builder이 반환한 날짜를 목록 보기에서 트리 보기로 변환합니다.
 
-   **이 요청의 이름:** 요청에 대해 사용자 정의 이름을 입력하거나 1단계에서 선택한 기본 이름을 사용할 수 있도록 해줍니다. 이 이름은 [!UICONTROL 요청 관리자]에 [!UICONTROL 보고서] 이름으로 표시됩니다. See [요청 이름 지정](/help/analyze/report-builder/layout/name-a-request.md)
+   **이 요청의 이름:** 요청에 대해 사용자 정의 이름을 입력하거나 1단계에서 선택한 기본 이름을 사용할 수 있도록 해줍니다. 이 이름은 [!UICONTROL 요청 관리자]에 [!UICONTROL 보고서] 이름으로 표시됩니다. [요청 이름 지정](/help/analyze/report-builder/layout/name-a-request.md)을 참조하세요.
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.

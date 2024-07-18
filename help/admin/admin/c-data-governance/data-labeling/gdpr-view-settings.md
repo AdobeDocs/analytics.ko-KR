@@ -22,7 +22,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >이 메뉴 항목이 표시되지 않으면 [Admin Console의 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR) 이 기능에 대한 사용 권한이 있거나 Admin Console 내에서 보고서 세트에 대한 액세스 권한이 제공되었습니다.
+   >이 메뉴 항목이 표시되지 않으면 이 기능에 대한 사용 권한을 가진 [Admin Console의 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)에 추가되거나 Admin Console 내에서 보고서 세트에 대한 액세스 권한을 제공받아야 합니다.
 
 3. 오른쪽 상단에서 보거나 관리할 개인정보 보호 레이블이 있는 보고서 세트를 선택합니다.
 

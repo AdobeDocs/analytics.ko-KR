@@ -5,9 +5,9 @@ title: Analytics 데이터 피드 개요
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * [데이터 피드 모범 사례](/help/export/analytics-data-feed/data-feeds-best-practices.md): 데이터 피드를 만들고 관리하기 위한 모범 사례.
 * [데이터 피드 만들기](create-feed.md): 개별 필드를 자세히 설명하는 데이터 피드 작성을 위한 기술 세부 정보
 * [데이터 피드 관리](df-manage-feeds.md): 데이터 피드 인터페이스 탐색에 대한 자세한 정보
-* [데이터 피드 콘텐츠](c-df-contents/datafeeds-contents.md): 압축 파일의 항목 이해 <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [데이터 피드 내용](c-df-contents/datafeeds-contents.md): 압축된 파일 <!-- Is this still the output users can download from the destination? I aske Jun. -->의 내용을 이해합니다.
 * [데이터 열 정의](c-df-contents/datafeeds-reference.md): 사용 가능한 모든 열의 포괄적인 목록.
 * 데이터 피드 인터페이스를 탐색하는 비디오:
 

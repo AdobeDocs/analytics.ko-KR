@@ -4,7 +4,7 @@ description: 트렌드 보고서에서 극적인 증가 또는 감소를 볼 수
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Event, Data Configuration and Collection
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 

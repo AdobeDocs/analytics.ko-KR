@@ -25,7 +25,7 @@ Report Builder 5.2는 Adobe Analytics 통합 계산된 지표를 지원합니다
 
 ## 계산된 지표 필터링 {#section_376E986D3E684999A7CDB08E53854159}
 
-**필터** 필터 아이콘을 클릭하여 계산된 지표:  ![애플리케이션, 사용자, 프로젝트 필드를 보여주는 필터 옵션의 스크린샷입니다.](/help/admin/admin/assets/filter.png)
+**필터 아이콘을 클릭하여 계산된 지표를 필터링**: ![응용 프로그램, 사용자, 프로젝트 필드를 보여주는 필터 옵션의 스크린샷](/help/admin/admin/assets/filter.png)
 
 고급 필터 대화 상자는 표준 지표와 계산된 지표로 채워집니다.
 
@@ -47,4 +47,4 @@ Report Builder 5.2는 Adobe Analytics 통합 계산된 지표를 지원합니다
 
 필터를 선택한 다음 **[!UICONTROL 적용]**&#x200B;을 클릭하여 필터를 요청에 적용합니다. 이제 선택된 필터가 보고서 레이아웃에 추가됩니다.
 
-![요청 마법사 2단계 - 사이트 총계가 고급 필터 창 및 적용된 보고서 지표를 나타내는 스크린샷입니다.](assets/filtering_for_metric.png)
+![요청 마법사 2단계 - 사이트 합계가 고급 필터 창 및 적용된 보고서 지표를 나타내는 스크린샷입니다.](assets/filtering_for_metric.png)

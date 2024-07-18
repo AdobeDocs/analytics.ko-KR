@@ -31,7 +31,7 @@ Google은 사용자 에이전트 클라이언트 힌트를 낮은 엔트로피 �
 >
 > 2023년 1월부터 Mac 및 Windows 운영 체제의 일부 버전이 사용자 에이전트에 잘못 표시되지만 높은 엔트로피 클라이언트 힌트에는 올바르게 표시됩니다. 자세한 내용은 [운영 체제](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko-KR)를 참조하십시오.
 
-Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. 을 사용하는 경우 [Adobe Audience Manager으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR) 그런 다음 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
+Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [Adobe Audience Manager으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
 
 ## 자주 묻는 질문
 
@@ -75,7 +75,7 @@ Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔
 | platformVersion | 운영 체제/플랫폼 버전 | 높음 | `"10"` |
 
 * 낮은 엔트로피 힌트는 HTTP 요청 헤더를 통해 수집됩니다.
-* 높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 문자열 매개변수 값을 통해 전달됩니다. 쿼리 문자열 매개 변수는 `h.` 이미지 요청의 접두사로 사용됩니다. 브라우저 주요 버전이 낮은 엔트로피 힌트로 캡처되므로 fullVersionList는 현재 수집되지 않습니다.
+* 높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 문자열 매개변수 값을 통해 전달됩니다. 쿼리 문자열 매개 변수는 이미지 요청에서 `h.`을(를) 접두사로 사용합니다. 브라우저 주요 버전이 낮은 엔트로피 힌트로 캡처되므로 fullVersionList는 현재 수집되지 않습니다.
 
 높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 매개변수를 통해 전달됩니다.
 
@@ -145,7 +145,7 @@ Adobe는 클라이언트 힌트와 사용자 에이전트를 모두 사용하여
 
 +++
 
-+++**Adobe 소스 커넥터를 통해 Adobe Experience Platform 및 Customer Journey Analytics으로 전송된 데이터에서 클라이언트 힌트를 사용할 수 있습니까?**
++++**Adobe Source 커넥터를 통해 Adobe Experience Platform 및 Customer Journey Analytics으로 전송된 데이터에서 클라이언트 힌트를 사용할 수 있습니까?**
 
 Adobe는 2023년 상반기에 Adobe Source Connector를 통해 데이터에 클라이언트 힌트를 포함할 계획입니다.
 
@@ -159,6 +159,6 @@ Adobe Experience Platform의 [스키마 설명서](https://github.com/adobe/xdm/
 
 +++**Adobe Audience Manager 서버측 전달이 클라이언트 힌트를 지원합니까?**
 
-예. 클라이언트 힌트는 Adobe Audience Manager으로 전달되는 데이터에 포함됩니다. Adobe Audience Manager에서는 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. 을 사용하는 경우 [Adobe Audience Manager으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR) 그런 다음 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
+예. 클라이언트 힌트는 Adobe Audience Manager으로 전달되는 데이터에 포함됩니다. Adobe Audience Manager에서는 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [Adobe Audience Manager으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
 
 +++

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '225'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 92%
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. **[!UICONTROL 작업 영역]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동합니다.
-1. 에서 **[!UICONTROL 프로젝트 색상 팔레트]** 드롭다운 목록에서 5개의 사전 설정된 색상 구성표 중 하나를 선택할 수 있습니다.
+1. **[!UICONTROL 프로젝트 색상 팔레트]** 드롭다운 목록에서 5개의 사전 설정된 색상 구성표 중 하나를 선택할 수 있습니다.
 
    ![](assets/custom_palette.png)
 

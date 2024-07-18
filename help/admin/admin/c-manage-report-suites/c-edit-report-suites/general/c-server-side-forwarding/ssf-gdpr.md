@@ -19,7 +19,7 @@ ht-degree: 55%
 
 이전에 서버측 전달에는 동의와 사전 동의 이벤트/히트를 구분하는 방법이 없었습니다. 2018년 11월 1일부터, 데이터 컨트롤러(Adobe Analytics 고객)로서 사전 동의한 데이터를 Adobe Analytics으로 제한하여 Adobe Audience Manager으로 전달되지 않도록 하는 옵션이 제공됩니다. 새 구현 컨텍스트 변수를 사용하여 동의를 받지 못한 히트에 플래그를 지정할 수 있습니다. 설정된 경우 변수는 동의를 받을 때까지 이러한 히트가 Adobe Audience Manager으로 전송되지 않도록 합니다.
 
-이 새 컨텍스트 변수가 `cm.ssf=1`: 히트에 있습니다. 이 히트에 플래그가 지정되고 서버측에서 Adobe Audience Manager으로 전달되지 않습니다. 반대로 이 문자열이 히트에 표시되지 않으면 히트가 Adobe Audience Manager으로 전달됩니다.
+이 새 컨텍스트 변수 `cm.ssf=1`이(가) 히트에 있으면 이 히트에 플래그가 지정되고 서버측에서 Adobe Audience Manager으로 전달되지 않습니다. 반대로 이 문자열이 히트에 표시되지 않으면 히트가 Adobe Audience Manager으로 전달됩니다.
 
 서버측 전달은 양방향입니다. 즉, 히트에 적용되어 해당 히트가 Adobe Audience Manager으로 전달되면 Audience Analytics이 Adobe Audience Manager에서 해당 히트에 대한 세그먼트 정보를 수신하여 다시 Analytics로 보냅니다. 따라서 서버측이 Analytics에서 Adobe Audience Manager으로 전달하지 않은 모든 히트는 Adobe Audience Manager의 세그먼트 ID 목록과 함께 보강되지 않습니다. 따라서 Adobe Audience Manager에서 세그먼트 ID 정보를 가져오지 않는 트래픽/히트의 하위 집합이 있습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 55%
 | 구현 방식 | 단계 |
 |--- |--- |
 | Adobe Experience Platform의 태그 | Adobe Analytics 확장이 설치되어 있다고 가정할 경우 규칙의 작업 구성 내에서 다음 컨텍스트 데이터 변수 정의를 사용자 정의 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
-| AppMeasurement | 컨텍스트 데이터 변수 정의를 AppMeasurement.js 파일에 추가합니다.  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |
+| AppMeasurement | 컨텍스트 데이터 변수 정의를 AppMeasurement.js 파일에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |
 
 ## 보고(선택 사항) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 

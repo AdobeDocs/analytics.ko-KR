@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '518'
 ht-degree: 90%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 예를 들어 브라우저 유형 차원을 테이블로 드래그하면 상위 브라우저 유형 차원 항목 (예: Microsoft, Apple, Google 등)이 동적으로 테이블 행에 반환됩니다. 열에 놓으면 상위 5개의 브라우저 유형 차원 항목이 동적으로 반환됩니다.
 
-동적 차원 항목에는 행 필터 옵션과 X 아이콘이 있고 다음을 수행합니다 **not** 잠금 아이콘이 있습니다. <!--do they have the lock icon? --> 동적 차원 항목 옆에 있는 x를 클릭하면 필터가 자동으로 적용됩니다. 테이블에 필터를 적용하는 방법에 대한 자세한 내용은 [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+동적 차원 항목에는 행 필터 옵션과 X 아이콘이 있으며 **아님**&#x200B;에 잠금 아이콘이 있습니다. <!--do they have the lock icon? --> 동적 차원 항목 옆에 있는 x를 클릭하면 필터가 자동으로 적용됩니다. 표에 필터를 적용하는 방법에 대한 자세한 내용은 [표 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)을 참조하세요.
 
 ![](assets/dynamic-items.png)
 

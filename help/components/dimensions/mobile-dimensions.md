@@ -4,7 +4,7 @@ description: 디바이스의 IP 주소 및 사용자 에이전트를 기반으�
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 100%
 

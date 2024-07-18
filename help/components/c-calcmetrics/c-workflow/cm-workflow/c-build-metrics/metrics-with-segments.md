@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 69%
 
 ---
@@ -28,27 +28,27 @@ ht-degree: 69%
 
 1. 계산된 지표 빌더에서 &quot;국가&quot;가 &quot;독일&quot;인 &quot;독일 방문자&quot;라는 임시 세그먼트를 만듭니다.
 
-   국가 차원을 정의 캔버스로 드래그하고 선택합니다. [!UICONTROL **독일**] 을 값으로 사용:
+   국가 차원을 정의 캔버스로 드래그하고 값으로 [!UICONTROL **독일**]&#x200B;을(를) 선택합니다.
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >또한 다음 작업을 수행할 수 있습니다. [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)그러나 계산된 지표 빌더에서 차원을 사용 가능하도록 설정하여 워크플로를 간소화했습니다. “임시”는 세그먼트가 왼쪽 레일의 **[!UICONTROL 세그먼트]** 목록에 표시되지 않는다는 의미입니다. 그러나 그 옆에 있는 “i” 아이콘 위에 마우스를 올려놓고 **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 공개할 수 있습니다.
+   >[세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)에서도 이 작업을 수행할 수 있지만 계산된 지표 빌더에서 차원을 사용 가능하도록 설정하여 워크플로를 간소화했습니다. “임시”는 세그먼트가 왼쪽 레일의 **[!UICONTROL 세그먼트]** 목록에 표시되지 않는다는 의미입니다. 그러나 그 옆에 있는 “i” 아이콘 위에 마우스를 올려놓고 **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 공개할 수 있습니다.
 
 1. 독일 세그먼트를 정의 캔버스로 드래그하고 고유 방문자 수 지표를 그 안으로 드래그합니다.
 
    ![](assets/german-visitors.png)
 
-1. 선택 [!UICONTROL **저장**] 계산된 지표를 저장합니다.
+1. [!UICONTROL **저장**]&#x200B;을 선택하여 계산된 지표를 저장합니다.
 
 1. 계산된 지표 빌더에서 &quot;국가&quot;가 &quot;독일&quot;과 같지 않은 &quot;해외 방문자&quot;라는 임시 세그먼트를 만듭니다.
 
-   국가 차원을 정의 캔버스로 드래그하고 다음을 선택합니다. [!UICONTROL **독일**] 을 값으로 설정한 다음 을 선택합니다. [!UICONTROL **다음과 같지 않음**] 를 연산자로 사용하십시오.
+   국가 차원을 정의 캔버스로 드래그하고 값으로 [!UICONTROL **독일**]&#x200B;을 선택한 다음 연산자로 [!UICONTROL **같지 않음**]&#x200B;을 선택합니다.
 
 1. 그 안에 있는 고유 방문자 수 지표를 드래그합니다.
 
-1. 선택 [!UICONTROL **저장**] 계산된 지표를 저장합니다.
+1. [!UICONTROL **저장**]&#x200B;을 선택하여 계산된 지표를 저장합니다.
 
 1. Analysis Workspace에서 **[!UICONTROL Page]** 차원을 자유 형식 테이블로 드래그하고 서로 옆에 있는 계산된 두 개의 지표를 위쪽으로 끕니다.
 

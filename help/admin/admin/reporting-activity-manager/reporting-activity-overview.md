@@ -7,13 +7,13 @@ role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
 # 보고 활동 관리자 개요
 
-다음 [!UICONTROL 활동 관리자 보고] 는 관리자가 사용할 수 있습니다.
+관리자가 [!UICONTROL 보고 활동 관리자]를 사용할 수 있습니다.
 
 조직에서 최대 보고 시간 동안 보고 성능이 저하되는 경우 보고 활동 관리자를 사용하면 Adobe 고객 지원 센터의 개입 없이 용량 문제를 자체 진단하고 해결할 수 있습니다. 단일 인터페이스 내에서 보고 대기열을 쉽게 관리하고 즉시 &#x200B; 사용자 경험을 개선할 &#x200B; 수 있습니다.
 
@@ -35,8 +35,8 @@ ht-degree: 15%
 
 ## 보고 활동 보기
 
-보고 활동 관리자에서 보고 활동을 보는 방법에 대한 자세한 내용은 [보고 활동 관리자에서 보고 활동 보기](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+보고 활동 관리자에서 보고 활동을 보는 방법에 대한 자세한 내용은 [보고 활동 관리자에서 보고 활동 보기](/help/admin/admin/reporting-activity-manager/reporting-activity.md)를 참조하십시오.
 
 ## 보고 요청 취소
 
-보고 활동 관리자에서 보고 요청을 취소하는 방법에 대한 자세한 내용은 [보고 활동 관리자에서 보고 요청 취소](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
+보고 활동 관리자에서 보고 요청을 취소하는 방법에 대한 자세한 내용은 [보고 활동 관리자에서 보고 요청 취소](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)를 참조하십시오.

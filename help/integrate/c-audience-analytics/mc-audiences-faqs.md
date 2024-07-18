@@ -19,7 +19,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
 
 +++ 내 Analytics 데이터에 PII (개인 식별 정보)가 있는지 어떻게 알 수 있습니까? 그렇다면 어떻게 해야 합니까?
 
-prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 데이터를 해싱하는 것이 좋습니다. 해당 국가에서 IP 주소를 PII로 고려하는 경우 [IP 난독화 켜기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=ko-KR). 수집 중인 항목을 확인하려면 Analytics 관리자에게 문의하십시오. 법무 부서에 문의하여 PII에 대해 어떻게 생각하는지 확인하십시오.
+prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 데이터를 해싱하는 것이 좋습니다. 해당 국가에서 IP 주소를 PII로 고려하는 경우 [IP 난독화를 켭니다](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=ko-KR). 수집 중인 항목을 확인하려면 Analytics 관리자에게 문의하십시오. 법무 부서에 문의하여 PII에 대해 어떻게 생각하는지 확인하십시오.
 
 +++
 
@@ -37,7 +37,7 @@ prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 �
 
 +++ Audience Manager에서 Analytics 대상을 만들려면 어떻게 합니까?
 
-다음을 참조하십시오 [Adobe Audience Manager에서 Analytics 대상 구성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ko-KR)&quot;.
+[Adobe Audience Manager에서 Analytics 대상 구성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ko-KR)&quot;을 참조하십시오.
 
 +++
 
@@ -49,7 +49,7 @@ prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 �
 
 +++ 새 Analytics 대상을 만들었지만 사용 가능한 세그먼트의 대상 매핑 섹션에 표시되지 않습니다. 그 목적지는 어디로 갔나요, 아니면 어떻게 찾을 수 있나요?
 
-를 선택하면 세그먼트의 대상 매핑 섹션에서 Analytics 대상이 사라집니다. **[!UICONTROL 현재 및 향후 모든 세그먼트 자동 매핑]** 의 옵션 **[!UICONTROL 세그먼트 매핑]**. 이를 방지하려면 자동 옵션 대신 **[!UICONTROL 수동으로 세그먼트 매핑]**&#x200B;을 선택하십시오.
+**[!UICONTROL 세그먼트 매핑]**&#x200B;에서 **[!UICONTROL 자동으로 모든 현재 및 향후 세그먼트 매핑]** 옵션을 선택하면 세그먼트의 대상 매핑 섹션에서 Analytics 대상이 사라집니다. 이를 방지하려면 자동 옵션 대신 **[!UICONTROL 수동으로 세그먼트 매핑]**&#x200B;을 선택하십시오.
 
 +++
 
@@ -105,9 +105,9 @@ prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 �
 
 +++
 
-+++ 내 Analytics 보고서에 &quot;대상 제한에 도달했습니다.&quot;가 표시되는 이유는 무엇입니까? (참고: 이 값은 또한 Audience ID = -1로 표시되며, `::max_audiences_exceeded::` Data Warehouse)
++++ 내 Analytics 보고서에 &quot;대상 제한에 도달했습니다.&quot;가 표시되는 이유는 무엇입니까? (참고: 이 값은 또한 Data Warehouse에서 대상 ID = -1 및 `::max_audiences_exceeded::`(으)로 표시됩니다.)
 
-기본적으로 Adobe Audience Manager에 대한 Audience Analytics 통합은 방문자가 적격한 모든 세그먼트를 히트별로 Analytics에 보냅니다. 방문자가 단일 히트에서 150개가 넘는 Adobe Audience Manager 세그먼트에 속하는 경우 **가장 최근에 자격을 얻은 세그먼트 150개** 가 Analytics로 전송되고 나머지 목록은 잘립니다. 세그먼트 목록이 잘렸음을 나타내는 추가 플래그가 Analytics에 전송되고, 대상자 이름 차원에 “대상자 한도 도달”로 표시되고 대상자 ID 차원에 “-1”로 표시됩니다.
+기본적으로 Adobe Audience Manager에 대한 Audience Analytics 통합은 방문자가 적격한 모든 세그먼트를 히트별로 Analytics에 보냅니다. 방문자가 단일 히트에서 150개가 넘는 Adobe Audience Manager 세그먼트에 속하는 경우 **가장 최근에 자격을 얻은 세그먼트**&#x200B;이(가) Analytics로 전송되고, 나머지 목록은 잘립니다. 세그먼트 목록이 잘렸음을 나타내는 추가 플래그가 Analytics에 전송되고, 대상자 이름 차원에 “대상자 한도 도달”로 표시되고 대상자 ID 차원에 “-1”로 표시됩니다.
 
 방문자가 특정 히트에서 150개 이상의 세그먼트에 대해 자격을 얻는 것은 거의 불가능하지만 가끔 발생할 수 있습니다. 보고서에 “대상자 한도 도달” 메시지가 표시되면 다음 두 가지 옵션을 사용할 수 있습니다.
 
@@ -143,13 +143,13 @@ Experience Cloud 조직에 매핑된 세트만 활성화할 수 있습니다.
 
 +++ Audience Manager과 Analytics 간에 세그먼트 방문자 수가 다른 이유는 무엇입니까?
 
-다음을 참조하십시오 [방문자 수 차이](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
+[방문자 수 차이](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md)를 참조하십시오.
 
 +++
 
 +++ Adobe Audience Manager의 &quot;대상&quot;과 Analytics의 &quot;세그먼트&quot; 간의 차이점은 무엇입니까?
 
-다음을 참조하십시오 [Analytics 및 Audience Manager의 세그먼트 이해](/help/integrate/c-audience-analytics/aam-analytics-segments.md). Adobe Audience Manager 대상자는 Analytics에서 사용할 &quot;차원&quot; 구성 요소로 전송되고 공유됩니다. 이러한 세그먼트는 세그먼트 빌더에서 세그먼트 등으로 표시되지 않고 세그먼트를 작성할 수 있는 차원으로 표시됩니다.
+[Analytics 및 Audience Manager의 세그먼트 이해](/help/integrate/c-audience-analytics/aam-analytics-segments.md)를 참조하세요. Adobe Audience Manager 대상자는 Analytics에서 사용할 &quot;차원&quot; 구성 요소로 전송되고 공유됩니다. 이러한 세그먼트는 세그먼트 빌더에서 세그먼트 등으로 표시되지 않고 세그먼트를 작성할 수 있는 차원으로 표시됩니다.
 
 +++
 

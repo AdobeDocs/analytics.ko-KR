@@ -12,12 +12,12 @@ ht-degree: 50%
 
 # Advertising Analytics 문제 해결
 
-* [보고서 세트가 매핑 섹션에 표시되지 않음](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
+* [보고서 세트가 매핑 섹션에 표시되지 않습니다](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [Google AdWords 계정에 인증하는 동안 오류가 발생함...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## 보고서 세트가 매핑 섹션에 표시되지 않음 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-다음을 시도하고 있습니다. [새 광고 계정 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 보고서 세트가 다음 목록에 표시되지 않음: **[!UICONTROL 매핑된 보고서 세트]** 드롭다운 목록입니다. 다음과 같은 두 가지 가능한 이유가 있습니다.
+[새 Advertising 계정을 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)하려고 하는데 보고서 세트가 **[!UICONTROL 매핑된 보고서 세트]** 드롭다운 목록에 표시되지 않습니다. 다음과 같은 두 가지 가능한 이유가 있습니다.
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 

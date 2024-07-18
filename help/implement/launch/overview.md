@@ -13,7 +13,7 @@ ht-degree: 83%
 
 # Analytics 확장을 사용하여 Adobe Analytics 구현
 
-Adobe Analytics의 서비스 제공 기간 동안 Adobe는 데이터 수집을 위해 사이트에서 코드를 구현하는 여러 가지 방법을 제공해 왔습니다. Adobe의 현재 권장 메서드는 다음을 통해 수행됩니다. [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) Adobe Experience Platform.
+Adobe Analytics의 서비스 제공 기간 동안 Adobe는 데이터 수집을 위해 사이트에서 코드를 구현하는 여러 가지 방법을 제공해 왔습니다. Adobe의 현재 권장 메서드는 Adobe Experience Platform에서 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 통해 사용해야 합니다.
 
 Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함께 Analytics 코드를 배포할 수 있도록 해 주는 태그 관리 솔루션입니다. Adobe는 다른 솔루션 및 제품과의 통합을 제공하며 사용자 정의 코드를 배포할 수 있도록 해 줍니다. 따라서 사이트에서 코드를 업데이트하기 위해 조직의 개발 팀에 의존하지 않고도 이러한 모든 작업을 수행할 수 있습니다.
 
@@ -23,7 +23,7 @@ Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함
 
 
 
-![이 섹션에 설명된 대로 Analytics 확장 워크플로우를 사용하여 Adobe Analytics을 구현하는 방법입니다.](../assets/analytics-extension-annotated.png)
+![이 섹션에 설명된 대로 Analytics 확장 워크플로를 사용하여 Adobe Analytics을 구현하는 방법입니다.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 

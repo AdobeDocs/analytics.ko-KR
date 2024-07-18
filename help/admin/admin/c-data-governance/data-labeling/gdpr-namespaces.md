@@ -21,7 +21,7 @@ ht-degree: 94%
 * &quot;type&quot; 필드: 대부분의 Adobe Analytics 요청에 대해 &quot;analytics&quot; 값이 들어 있습니다.
 * &quot;value&quot; 필드: Analytics가 각 보고서 세트의 연관된 네임스페이스 변수에서 검색해야 하는 ID가 들어 있습니다.
 
-다음을 참조하십시오. [Experience Cloud 데이터 개인 정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 자세한 내용 및 [표준 id 네임스페이스 목록](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). 다음을 참조하십시오 [액세스/삭제 작업 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) 샘플 요청에 사용됩니다.
+자세한 내용 및 [표준 ID 네임스페이스 목록](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces)에 대해서는 [Experience Cloud 데이터 개인 정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)를 참조하십시오. 샘플 요청에 대해서는 [액세스/삭제 작업 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete)를 참조하십시오.
 
 ## 쿠키 ID
 
@@ -114,6 +114,6 @@ Legacy Analytics Tracking Cookie 또한 Adobe Analytics ID (AAID)로 알려져 �
 
 >[!CAUTION]
 >
->네임스페이스 `visitorId` 및 `customVisitorId` 는 Analytics 이전 추적 쿠키와 Analytics 고객 방문자 ID를 식별하기 위해 예약되어 있습니다. 사용자 지정 트래픽 또는 전환 변수에 이러한 네임스페이스를 사용하지 마십시오.
+>네임스페이스 `visitorId` 및 `customVisitorId`은(는) Analytics 레거시 추적 쿠키와 Analytics 고객 방문자 ID를 식별하기 위해 예약되어 있습니다. 사용자 지정 트래픽 또는 전환 변수에 이러한 네임스페이스를 사용하지 마십시오.
 
 자세한 내용은 [변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스 제공](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)을 참조하십시오.

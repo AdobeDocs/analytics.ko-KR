@@ -14,7 +14,7 @@ ht-degree: 72%
 
 # 보고서 처리 시간
 
-[!UICONTROL 보고서 처리 시간] 는 Analysis Workspace의 데이터를 비파괴적이고 소급적인 방식으로 처리할 수 있는 가상 보고서 세트 설정입니다.
+[!UICONTROL 보고서 처리 시간]은(는) Analysis Workspace의 데이터를 비파괴적이고 소급적인 방식으로 처리할 수 있는 가상 보고서 세트 설정입니다.
 
 [!UICONTROL 보고서 처리 시간] 가상 보고서 세트의 데이터에만 영향을 주고 기본 보고서 세트의 데이터 또는 데이터 수집에는 영향을 주지 않습니다. [!UICONTROL 보고서 처리 시간]과 기존 Analytics 처리 간의 차이점은 다음 다이어그램을 사용하여 가장 잘 이해할 수 있습니다.
 
@@ -24,11 +24,11 @@ Analytics 데이터 처리 중 데이터는 데이터 수집 파이프라인을 
 
 [!UICONTROL 보고서 처리 시간]은 보고를 위해 Analytics 데이터를 처리하는 근본적으로 다른 방법입니다. 데이터를 수집하기 전에 처리 논리를 미리 결정하는 대신 Analytics는 사전 처리 단계에서 데이터 세트를 무시하고 보고서가 실행될 때마다 이 논리를 적용합니다.
 
-![보고서 시간 처리 파이프라인](assets/google2.jpg)
+![파이프라인 처리 시간 보고](assets/google2.jpg)
 
 이 처리 아키텍처는 훨씬 더 유연한 보고 옵션을 제공합니다. 예를 들어 방문 시간 초과 기간을 비파괴적인 방식으로 원하는 기간으로 변경할 수 있으며 이러한 변경 사항은 전체 보고 기간 동안 eVar 지속성 및 세그먼트 컨테이너에 반영됩니다. 또한 기본 보고서 세트의 데이터를 변경하지 않고 동일한 기본 보고서 세트를 기반으로 각각 다양한 보고서 처리 시간 옵션이 있는 가상 보고서 세트를 원하는 만큼 만들 수 있습니다.
 
-[!UICONTROL 보고서 처리 시간] 또한 Analytics를 통해 배경 히트가 새로운 방문을 시작하지 못하도록 차단하고 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko-KR) 앱 실행 이벤트가 트리거될 때마다 새 방문을 시작합니다.
+[!UICONTROL 보고서 처리 시간]을 사용하면 Analytics에서 배경 히트가 새로운 방문을 시작하지 못하도록 차단하고 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ko-KR)에서는 앱 실행 이벤트가 발생할 때마다 새로운 방문을 시작할 수 있습니다.
 
 ## 구성 옵션
 
@@ -65,7 +65,7 @@ Analytics 데이터 처리 중 데이터는 데이터 수집 파이프라인을 
 * [**최초 참조 도메인**](/help/components/dimensions/original-referring-domain.md)
 * [**반환 주기**](/help/components/dimensions/return-frequency.md)
 * [**단일 액세스**](/help/components/metrics/single-access.md)
-* **거래 ID 데이터 소스**
+* **거래 ID 데이터 원본**
 * [**방문 번호**](/help/components/dimensions/visit-number.md)
 
 ## 영향을 받는 차원 및 지표
@@ -73,7 +73,7 @@ Analytics 데이터 처리 중 데이터는 데이터 수집 파이프라인을 
 다음은 선택한 보고서 처리 시간 설정에 따라 영향을 받는 차원 및 지표 목록입니다.
 
 * 배경 히트 수로 새로운 방문이 시작되지 않도록 차단이 활성화되면 다음 변경 사항이 발생합니다. 자세한 내용은 [컨텍스트 인식 세션화](vrs-mobile-visit-processing.md)를 참조하십시오.
-   * [**바운스**](/help/components/metrics/bounces.md) / [**바운스 비율:**](/help/components/metrics/bounce-rate.md) 전경 히트가 따르지 않는 배경 히트는 바운스로 간주되지 않고 바운스 비율에 기여하지 않습니다.
+   * [**바운스 수**](/help/components/metrics/bounces.md) / [**바운스 수:**](/help/components/metrics/bounce-rate.md) 전경 히트가 따르지 않는 배경 히트는 바운스 수로 간주되지 않으며 바운스 수에 기여하지 않습니다.
    * [**방문 당 초 단위 체류 시간:**](/help/components/metrics/time-spent-per-visit.md) 전경 히트를 포함하는 방문만 이 지표에 기여합니다.
    * **방문 당 체류 시간:** 전경 히트를 포함하는 방문만 이 지표에 기여합니다.
    * [**시작 지표**](/help/components/metrics/entries.md) / [**종료 지표:**](/help/components/metrics/exits.md) 전경 히트가 발생한 방문의 시작 및 종료만 이 차원에 표시됩니다.
@@ -81,8 +81,8 @@ Analytics 데이터 처리 중 데이터는 데이터 수집 파이프라인을 
    * [**고유 방문자 수 지표:**](/help/components/metrics/unique-visitors.md) 고유 방문자 수는 보고 기간에 배경 히트 수만 기록한 방문자를 포함하지 않습니다.
 * [**방문 횟수:**](/help/components/metrics/visits.md) 방문 횟수는 가상 보고서 세트가 구성한 설정을 반영하며 기본 보고서 세트와는 다를 수 있습니다.
 * **이벤트 ID가 있는 일련화된 이벤트:** 이벤트 ID와 함께 이벤트 일련화를 사용하는 이벤트는 한 방문자의 보고 기간 내에 발생하는 이벤트들에 대해서만 중복이 제거됩니다. 이러한 이벤트는 보고서 처리 시간 날짜 범위로 인해 전역적으로 모든 날짜 또는 방문자에 대해서는 중복 제거되지 않습니다.
-* **구매** / [**매출**](/help/components/metrics/revenue.md) / [**주문 수**](/help/components/metrics/orders.md) / [**판매량:**](/help/components/metrics/units.md) 구매 ID가 사용된 경우 이러한 지표는 보고서 처리 시간 날짜 범위로 인해 전역적으로 모든 날짜 또는 방문자가 아닌 한 방문자의 보고 날짜 범위 내에 발생하는 중복 구매 ID에 대해서만 중복이 제거됩니다.
+* **구매** / [**매출**](/help/components/metrics/revenue.md) / [**주문**](/help/components/metrics/orders.md) / [**단위:**](/help/components/metrics/units.md) 구매 ID가 사용되는 경우 이러한 지표는 보고서 처리 시간 날짜 범위로 인해 전역적으로 모든 날짜 또는 방문자가 아닌 한 방문자의 보고 날짜 범위 내에 발생하는 중복 구매 ID에 대해서만 중복이 제거됩니다.
 * [**비머천다이징 eVar**](/help/components/dimensions/evar.md) / **예약된 eVar:** eVar에 설정된 값은 보고서 처리 시간 날짜 범위로 인해 해당 값이 보고 날짜 범위 내에 설정된 경우에만 지속됩니다. 또한 지속 시간이 일광 절약 시간 변경까지 지속되는 경우 시간 기반 만료는 한 시간 일찍 또는 한 시간 늦게 만료될 수 있습니다.
-* [**머천다이징 eVar**](/help/components/dimensions/evar-merchandising.md) / **예약된 eVar:** 위의 내용을 참조하십시오. 또한 전환 구문의 경우, 바인딩이 &#39;모든 이벤트&#39;로 설정되어 있으면 &#39;모든 히트&#39;가 대신 사용됩니다.
+* [**머천다이징 eVar**](/help/components/dimensions/evar-merchandising.md) / **예약된 eVar:** 위 내용을 참조하십시오. 또한 전환 구문의 경우, 바인딩이 &#39;모든 이벤트&#39;로 설정되어 있으면 &#39;모든 히트&#39;가 대신 사용됩니다.
 * [**히트 유형:**](/help/components/dimensions/hit-type.md) 이 차원은 히트가 전경인지 배경인지를 지정합니다.
 * **(낮은 트래픽) 또는 “고유 수 초과됨” 차원:** (낮은 트래픽) 라인 항목은 보고서 처리 시간을 사용할 때 약간 다르게 결정되며 기본 보고서 세트에서 보고할 때 관찰되는 항목과 일치하지 않습니다. 낮은 트래픽에 속하지 않는 Dimension 라인 항목은 해당 라인 항목에 대한 데이터의 100%를 나타낼 수 없습니다. 이러한 차이는 차원에 고유 값의 수가 많을수록 더욱 뚜렷해질 수 있습니다.
