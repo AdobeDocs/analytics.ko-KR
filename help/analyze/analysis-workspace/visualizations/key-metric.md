@@ -4,9 +4,9 @@ title: 주요 지표 요약
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
+source-git-commit: 0bf1b06af8a89c47e74807d14c31075f181cb946
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 98%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 98%
 
 ## 출력 보기
 
-옵트아웃 시각화는 다음과 같아야 합니다.
+출력은 다음과 같아야 합니다.
 
 ![](assets/key-metric-output.png)
 
