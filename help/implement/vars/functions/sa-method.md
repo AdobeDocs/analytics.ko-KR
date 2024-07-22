@@ -4,7 +4,7 @@ description: 구현에서 언제든지 보고서 세트를 변경합니다.
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%
@@ -38,11 +38,12 @@ Web SDK 확장은 각 환경에 대한 데이터 스트림 드롭다운 목록�
 
 ## 웹 SDK를 수동으로 구현하여 원하는 데이터 스트림 설정
 
-`edgeConfigId` 구성 변수를 데이터 스트림 ID로 설정합니다. 데이터 스트림 ID는 Adobe Experience Platform 데이터 수집에서 데이터 스트림을 볼 때 오른쪽에 있습니다.
+`datastreamId` 구성 변수를 데이터 스트림 ID로 설정합니다. 데이터 스트림 ID는 Adobe Experience Platform 데이터 수집에서 데이터 스트림을 볼 때 오른쪽에 있습니다.
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+  datastreamId: "example-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

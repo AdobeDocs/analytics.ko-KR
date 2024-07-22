@@ -2,7 +2,7 @@
 title: Web SDK JavaScript 라이브러리를 사용하여 Adobe Analytics에 데이터 보내기
 description: 깔끔한 웹 SDK 구현으로 시작하여 JavaScript 라이브러리를 사용하여 Adobe Analytics으로 데이터를 전송합니다.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 18%
@@ -82,7 +82,7 @@ Web SDK JavaScript 라이브러리를 사용하여 Adobe Analytics에 데이터�
 
 <tr>
 <td>7</td>
-<td><b>Web SDK를 구성합니다</b>. 4단계에서 설치한 라이브러리가 데이터 스트림 ID(이전에는 Edge 구성 ID(<code>edgeConfigId</code>)라고 함), 조직 ID(<code>orgId</code>) 및 기타 사용 가능한 옵션으로 올바르게 구성되었는지 확인합니다. 변수의 적절한 매핑을 확인합니다. </td>
+<td><b>Web SDK를 구성합니다</b>. 4단계에서 설치한 라이브러리가 데이터 스트림 ID(이전에는 Edge 구성 ID(<code>datastreamId</code>)라고 함), 조직 ID(<code>orgId</code>) 및 기타 사용 가능한 옵션으로 올바르게 구성되었는지 확인합니다. 변수의 적절한 매핑을 확인합니다. </td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">웹 SDK 구성</a><br/><a href="../xdm-var-mapping.md">XDM 개체 변수 매핑</a></td>
 </tr>
 
