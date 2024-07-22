@@ -4,10 +4,10 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: ec466d2a503278b05d19eda09e2a2244897ce1f3
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1414'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
    >
    >계산된 지표를 **[!UICONTROL 다음으로 시작]** 또는 **[!UICONTROL 다음으로 끝남]** 필드에 사용할 수 없습니다.
 
-1. 지표를 선택하는 경우 여기에 표시된 대로 선택한 구성 요소로 연결되거나 연결되는 경로로 사용할 [!UICONTROL **경로 지정 차원**]&#x200B;도 제공해야 합니다. 기본값은 [!UICONTROL **페이지**]&#x200B;입니다.
+1. 지표를 선택하는 경우 여기에 표시된 대로 선택한 구성 요소로 연결되거나 연결되는 경로로 사용할 [!UICONTROL **경로 지정 Dimension**]&#x200B;도 제공해야 합니다. 기본값은 [!UICONTROL **페이지**]&#x200B;입니다.
 
    ![경로 지정 차원](assets/pathing-dim.png)
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 > 
 >1. 위에서 설명한 대로 플로우 시각화 만들기를 시작합니다.
 >1. [!UICONTROL **페이지**] 차원을 **[!UICONTROL 포함]** 필드로 끌어온 다음 [!UICONTROL **빌드**]&#x200B;를 선택합니다.
->1. 플로우 시각화는 시각화 중앙의 포커스 노드에 표시되는 가장 많이 본 페이지로 빌드됩니다. 또한 해당 페이지로 연결되는 상위 페이지(포커스 노드 왼쪽)와 해당 포커스 페이지에서 시작되는 상위 페이지(포커스 노드 오른쪽)를 확인할 수 있습니다.
+>1. 플로우 시각화는 시각화 중앙의 포커스 노드에 표시되는 가장 많이 본 페이지로 빌드됩니다. 또한 해당 페이지(포커스 노드 왼쪽)로 이어지는 상위 페이지와 해당 페이지(포커스 노드 오른쪽)에서 이어지는 상위 페이지도 표시됩니다.
 >1. [흐름 출력 보기 및 변경](#view-and-change-the-flow-output)에 설명된 대로 플로우에서 데이터를 분석합니다.
 
 
