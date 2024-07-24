@@ -4,10 +4,10 @@ title: Analysis Workspace의 지표
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 94%
+source-wordcount: '505'
+ht-degree: 51%
 
 ---
 
@@ -37,13 +37,41 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## 계산된 지표
+## 계산된 지표 만들기
 
-계산된 지표를 사용하면 간단한 연산자 또는 통계 함수를 사용하여 지표가 서로 관련되는 방식에 대해 쉽게 살펴볼 수 있습니다. 다음 몇 가지 방법으로 계산된 지표를 만들 수 있습니다.
+계산된 지표를 사용하면 간단한 연산자나 통계 함수를 사용하여 지표가 서로 관련되는 방식을 쉽게 확인할 수 있습니다.
 
-* 왼쪽 구성 요소 목록 아래의 지표 헤더 옆에 있는 더하기 아이콘을 클릭합니다.
-* **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]** > **[!UICONTROL 추가]**&#x200B;로 이동합니다.
-* 하나 이상의 헤더 열 셀이 선택된 경우 열 헤더를 마우스 오른쪽 버튼으로 클릭 > **[!UICONTROL 선택 항목으로 지표 만들기]**&#x200B;를 선택합니다. 이 옵션은 계산된 지표 규칙 빌더를 사용할 필요 없이 계산된 지표를 자동으로 생성합니다.
+계산된 지표를 만드는 방법에는 몇 가지가 있습니다. 선택하는 방법은 계산된 지표를 모든 프로젝트의 구성 요소 목록에서 사용할 수 있는지 또는 지표를 만든 프로젝트에서만 사용할 수 있는지 여부를 결정합니다.
+
+### 모든 프로젝트에 대해 계산된 지표 만들기
+
+계산된 지표 빌더를 사용하여 계산된 지표를 만들 수 있습니다. 이러한 방식으로 생성되면 계산된 지표를 구성 요소 목록에서 사용할 수 있으며, 그런 다음 조직 전체의 프로젝트에서 사용할 수 있습니다.
+
+계산된 지표 빌더에 액세스하는 방법에 대한 자세한 내용은 [지표 빌드](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)를 참조하십시오.
+
+### 단일 프로젝트에 대해 계산된 지표 만들기
+
+지표를 만든 프로젝트에서만 사용할 수 있는 빠르게 계산된 지표를 만들 수 있습니다.
+
+단일 프로젝트에 대해 계산된 지표를 만들려면 다음 작업을 수행하십시오.
+
+1. Analysis Workspace에서 계산된 지표를 만들 프로젝트를 엽니다.
+
+1. 자유 형식 테이블에서 하나 이상의 머리글 열 셀을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 선택 항목에서 지표 만들기]**&#x200B;를 선택합니다.
+
+   ![선택 항목에서 만들기 강조 표시된 Workspace 패널](assets/create-metric-from-selection.png)
+
+1. 이 프로젝트에 대해서만 계산된 지표를 만들려면 다음 옵션 중에서 선택하십시오.
+
+   * [!UICONTROL **나누기**]
+
+   * [!UICONTROL **빼기**]
+
+   * [!UICONTROL **추가**]
+
+   * [!UICONTROL **곱하기**]
+
+   또는 계산된 지표 빌더를 열고 모든 프로젝트에 대한 계산된 지표를 만들려면 [!UICONTROL **계산된 지표 빌더에서 열기**]&#x200B;를 선택한 다음 [지표 빌드](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)를 계속합니다.
 
 [계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ko-KR) (3:42)
 

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '5806'
-ht-degree: 99%
+source-wordcount: '5910'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 7월** | |
+| 빠른 계산된 지표에 대한 정보가 추가되었습니다 | [지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md)의 정보를 업데이트하여 [계산된 지표 빌더에서 만들어진 계산된 지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)과(와) [단일 프로젝트 내에서 빠른 계산된 지표로 만들어진 계산된 지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) 간의 차이점을 명확히 했습니다. 또한 빠른 계산된 지표를 만들기 위해 여기에 대한 자세한 내용을 추가했습니다.<p>계산된 지표 빌더에서 생성된 계산된 지표는 구성 요소 목록에서 사용할 수 있으며 조직 전체의 프로젝트에 적용할 수 있지만 빠른 계산된 지표로 생성된 계산된 지표는 해당 지표가 생성된 프로젝트 내에서만 사용할 수 있습니다.</p><p>또한 유사한 설명을 위해 [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)의 정보를 업데이트했습니다.</p> |
 | threads.net을 &#39;레퍼러 유형&#39; 차원에 추가했습니다. | [&#39;레퍼러 유형&#39; 차원](/help/components/dimensions/referrer-type.md)에 사용되는 소셜 네트워크 목록에 threads.net을 추가했습니다. |
 | 데이터 피드 관리에 대한 설명서 업데이트 | 명확성을 높이기 위해 [데이터 피드 관리](/help/export/analytics-data-feed/df-manage-feeds.md)의 정보를 업데이트했습니다. <p>업데이트 내용은 다음과 같습니다.</p><ul><li>정보를 더 쉽게 검색하고 사용할 수 있도록 다양한 작업에 대한 별도의 섹션을 만들었습니다.</li><li>다시 활성화된 라이브 피드 동작의 변경 사항에 대한 정보를 추가했습니다. 이러한 변경은 현재 제한적으로 제공되며 일부 고객에게는 아직 해당되지 않습니다.</li><li>데이터 피드를 삭제하려면 먼저 활성 상태여야 한다는 정보를 추가했습니다.</li> |
 | 일반 오류 메시지 업데이트 | [일반 오류 메시지](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |

@@ -3,10 +3,10 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 title: 지표 작성
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 43%
+source-wordcount: '1078'
+ht-degree: 40%
 
 ---
 
@@ -16,11 +16,17 @@ Adobe Analytics에서는 차원, 지표, 세그먼트 및 함수를 드래그하
 
 ## 계산된 지표 작성 시작
 
-다음 방법 중 하나로 계산된 지표 만들기를 시작할 수 있습니다.
+계산된 지표 빌더를 사용하여 계산된 지표를 만들 수 있습니다. 이러한 방식으로 생성되면 계산된 지표를 구성 요소 목록에서 사용할 수 있으며, 그런 다음 조직 전체의 프로젝트에서 사용할 수 있습니다. 또는 [지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md)의 [단일 프로젝트에 대한 계산된 지표 만들기](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)에 설명된 대로 빠른 계산된 지표를 만들 수 있습니다.
 
-* Analysis Workspace에서 프로젝트를 연 다음 **[!UICONTROL 구성 요소]** > **[!UICONTROL 지표 만들기]**&#x200B;를 선택합니다.
-* Analysis Workspace에서 프로젝트를 연 다음 왼쪽 레일에서 [!UICONTROL **지표**] 섹션 옆에 있는 **더하기** 아이콘을 선택합니다.
-* [!DNL Analytics]에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**(으)로 이동한 다음 계산된 지표 페이지 상단에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
+계산된 지표 빌더에 액세스하여 구성 요소 목록에서 사용할 수 있는 계산된 지표 생성을 시작합니다.
+
+1. 다음 방법 중 하나로 계산된 지표 빌더에 액세스합니다.
+
+   * Analysis Workspace에서 프로젝트를 연 다음 **[!UICONTROL 구성 요소]** > **[!UICONTROL 지표 만들기]**&#x200B;를 선택합니다.
+   * Analysis Workspace에서 프로젝트를 연 다음 왼쪽 레일에서 [!UICONTROL **지표**] 섹션 옆에 있는 **더하기** 아이콘을 선택합니다.
+   * [!DNL Customer Journey Analytics]에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**(으)로 이동한 다음 계산된 지표 페이지 상단에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
+
+1. 계산된 지표 빌더의 [영역](#areas-of-the-calculated-metrics-builder)을 계속 사용합니다.
 
 ## 계산된 지표 빌더의 영역
 
