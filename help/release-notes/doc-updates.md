@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
 source-wordcount: '5806'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 97%
 | --- | --- |
 | **2024년 7월** | |
 | threads.net을 &#39;레퍼러 유형&#39; 차원에 추가했습니다. | [&#39;레퍼러 유형&#39; 차원](/help/components/dimensions/referrer-type.md)에 사용되는 소셜 네트워크 목록에 threads.net을 추가했습니다. |
-| 데이터 피드 관리에 대한 설명서를 업데이트했습니다 | 명확성을 개선하기 위해 [데이터 피드 관리](/help/export/analytics-data-feed/df-manage-feeds.md)의 정보를 업데이트했습니다. <p>업데이트 내용은 다음과 같습니다.</p><ul><li>정보를 보다 쉽게 스캔하고 사용할 수 있도록 다양한 작업에 대해 별도의 섹션을 만들었습니다.</li><li>다시 활성화된 라이브 피드의 동작 변경 사항에 대한 정보가 추가되었습니다. 이러한 변경 사항은 현재 제한적 가용성이며 아직 모든 고객에게 제공되지 않습니다.</li><li>삭제하기 전에 데이터 피드의 상태가 활성화 상태여야 한다는 정보가 추가되었습니다.</li> |
-| 업데이트된 일반 오류 메시지 | [일반적인 오류 메시지](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |
+| 데이터 피드 관리에 대한 설명서 업데이트 | 명확성을 높이기 위해 [데이터 피드 관리](/help/export/analytics-data-feed/df-manage-feeds.md)의 정보를 업데이트했습니다. <p>업데이트 내용은 다음과 같습니다.</p><ul><li>정보를 더 쉽게 검색하고 사용할 수 있도록 다양한 작업에 대한 별도의 섹션을 만들었습니다.</li><li>다시 활성화된 라이브 피드 동작의 변경 사항에 대한 정보를 추가했습니다. 이러한 변경은 현재 제한적으로 제공되며 일부 고객에게는 아직 해당되지 않습니다.</li><li>데이터 피드를 삭제하려면 먼저 활성 상태여야 한다는 정보를 추가했습니다.</li> |
+| 일반 오류 메시지 업데이트 | [일반 오류 메시지](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |
 | **2024년 6월** | |
 | 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 이를 Analysis Workspace에 표시하는 스트리밍 미디어 기능 세트를 참조할 때 “미디어 분석” 및 “스트리밍 미디어” 인스턴스를 “스트리밍 미디어 컬렉션 추가 기능”이라는 이름으로 대체했습니다. <p>이번 업데이트는 Adobe Analytics 설명서와 [스트리밍 미디어 컬렉션 추가 기능 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) 전체에 적용됩니다.</p> |
 | 개선된 지능형 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [경고 관리](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) 및 [정보 개요](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)에 대한 정보가 포함되어 있습니다. |
