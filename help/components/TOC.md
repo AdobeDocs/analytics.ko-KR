@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 11e98d35ba52fb777a08f950725b0e8dbb99fa22
+source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 94%
 
 ---
 
@@ -98,6 +98,12 @@ ht-degree: 100%
    + [서버](dimensions/server.md)
    + [단일 페이지 방문 횟수](dimensions/single-page-visits.md)
    + [사이트 섹션](dimensions/site-section.md)
+   + [Streaming Media 코어 차원](dimensions/sm-core.md)
+   + [스트리밍 미디어 광고](dimensions/sm-ads.md)
+   + [스트리밍 미디어 챕터](dimensions/sm-chapters.md)
+   + [스트리밍 미디어 품질](dimensions/sm-quality.md)
+   + [스트리밍 미디어 오디오 메타데이터](dimensions/sm-audio-metadata.md)
+   + [스트리밍 미디어 비디오 메타데이터](dimensions/sm-video-metadata.md)
    + [이벤트까지 남은 시간](dimensions/time-prior-to-event.md)
    + [페이지에서 보낸 시간](dimensions/time-spent-on-page.md)
    + [방문당 체류 시간](dimensions/time-spent-per-visit.md)
@@ -151,6 +157,12 @@ ht-degree: 100%
    + [검색 결과](metrics/searches.md)
    + [단일 액세스](metrics/single-access.md)
    + [단일 페이지 방문 횟수](metrics/single-page-visits.md)
+   + [Streaming Media 코어 지표](metrics/sm-core.md)
+   + [스트리밍 미디어 광고](metrics/sm-ads.md)
+   + [스트리밍 미디어 챕터](metrics/sm-chapters.md)
+   + [스트리밍 미디어 플레이어 상태 추적](metrics/sm-player-state.md)
+   + [스트리밍 미디어 품질](metrics/sm-quality.md)
+   + [스트리밍 미디어 비디오 메타데이터](metrics/sm-video-metadata.md)
    + [방문당 체류 시간](metrics/time-spent-per-visit.md)
    + [방문자당 체류 시간](metrics/time-spent-per-visitor.md)
    + [체류 시간 개요](metrics/time-spent.md)
