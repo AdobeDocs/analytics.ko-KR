@@ -3,10 +3,10 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '2615'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++이메일
 
@@ -141,12 +141,13 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
       |---------|----------|
       | [!UICONTROL **수신자**] | 보고서 전송 시 특정 사용자에게 이메일 알림을 보낼 수 있습니다. 단일 이메일 주소 또는 쉼표로 구분된 이메일 주소 목록을 지정합니다. <!-- How does this differ from the Notification email tab? --> |
 
-   1. [!UICONTROL **위치 추가**]를 선택하고 다음 정보를 지정합니다.
-|필드 | 기능 |
-|---------|----------|
-| [!UICONTROL **이름**] | 위치의 이름입니다.  |
-| [!UICONTROL **설명**] | 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. |
-| [!UICONTROL **위치 계정**] | [계정 추가](#add-an-account)에서 만든 위치 계정을 선택합니다. |
+   1. [!UICONTROL **위치 추가**]&#x200B;를 선택한 후 다음 정보를 지정하십시오.
+
+      | 필드 | 함수 |
+      |---------|----------|
+      | [!UICONTROL **이름**] | 위치의 이름입니다. |
+      | [!UICONTROL **설명**] | 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. |
+      | [!UICONTROL **위치 계정**] | [계정 추가](#add-an-account)에서 만든 위치 계정을 선택하십시오. |
 
    1. [!UICONTROL **위치 속성**] 섹션에서 위치 계정의 계정 유형과 관련된 정보를 지정합니다.
 
@@ -163,7 +164,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +177,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +190,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +204,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. [!UICONTROL **보고서 옵션**] 탭에서 Data Warehouse 요청을 계속 구성합니다. 자세한 내용은 [Data Warehouse 요청에 대한 보고서 옵션](/help/export/data-warehouse/create-request/dw-request-report-options.md)을 참조하십시오.
 

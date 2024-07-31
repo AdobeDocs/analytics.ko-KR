@@ -3,7 +3,7 @@ description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연�
 title: 세그먼트 작성
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 97%
@@ -54,6 +54,7 @@ ht-degree: 97%
    | 반복 | X | X | X | - | X | - |
    | 인스턴스 | X | X | - | - | X | - |
    | 비반복 인스턴스 | X | - | - | - | X | - |
+
 1. **[!UICONTROL And/Or/Then]**: 컨테이너나 규칙 사이에 [!UICONTROL AND/OR/THEN] 연산자를 지정합니다. THEN 연산자를 사용하여 [순차적 세그먼트를 정의](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)할 수 있습니다.
 1. **[!UICONTROL 지표]**: (녹색 사이드바) 지표 목록에서 드래그 앤 드롭한 지표입니다.
 1. **[!UICONTROL 비교]** 연산자: 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
