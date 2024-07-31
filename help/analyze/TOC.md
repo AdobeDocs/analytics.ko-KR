@@ -5,9 +5,9 @@ user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
 source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -281,9 +281,9 @@ ht-degree: 99%
    + [개요](activity-map/overview.md)
    + [시작하기](activity-map/getting-started.md)
    + 오버레이 {#overlay}
-      + [확장 개요](activity-map/overlay/overview.md)
-      + [Launch 확장](activity-map/overlay/launch.md)
-      + [확장 설정](activity-map/overlay/settings.md)
+      + [확장 기능 개요](activity-map/overlay/overview.md)
+      + [Launch 확장 기능](activity-map/overlay/launch.md)
+      + [확장 기능 설정](activity-map/overlay/settings.md)
    + [문제 해결](activity-map/troubleshooting.md)
    + [FAQ](activity-map/faq.md)
 + Adobe Analytics 대시보드 {#mobapp}
