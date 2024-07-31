@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
 source-wordcount: '5910'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 | --- | --- |
 | **2024년 7월** | |
 | 빠른 계산된 지표에 대한 정보가 추가되었습니다 | [지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md)의 정보를 업데이트하여 [계산된 지표 빌더에서 만들어진 계산된 지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)과(와) [단일 프로젝트 내에서 빠른 계산된 지표로 만들어진 계산된 지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) 간의 차이점을 명확히 했습니다. 또한 빠른 계산된 지표를 만들기 위해 여기에 대한 자세한 내용을 추가했습니다.<p>계산된 지표 빌더에서 생성된 계산된 지표는 구성 요소 목록에서 사용할 수 있으며 조직 전체의 프로젝트에 적용할 수 있지만 빠른 계산된 지표로 생성된 계산된 지표는 해당 지표가 생성된 프로젝트 내에서만 사용할 수 있습니다.</p><p>또한 유사한 설명을 위해 [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)의 정보를 업데이트했습니다.</p> |
-| threads.net을 &#39;레퍼러 유형&#39; 차원에 추가했습니다. | [&#39;레퍼러 유형&#39; 차원](/help/components/dimensions/referrer-type.md)에 사용되는 소셜 네트워크 목록에 threads.net을 추가했습니다. |
+| “레퍼러 유형” 차원에 threads.net 추가됨 | [“레퍼러 유형” 차원](/help/components/dimensions/referrer-type.md)에 사용되는 소셜 네트워크 목록에 threads.net을 추가했습니다. |
 | 데이터 피드 관리에 대한 설명서 업데이트 | 명확성을 높이기 위해 [데이터 피드 관리](/help/export/analytics-data-feed/df-manage-feeds.md)의 정보를 업데이트했습니다. <p>업데이트 내용은 다음과 같습니다.</p><ul><li>정보를 더 쉽게 검색하고 사용할 수 있도록 다양한 작업에 대한 별도의 섹션을 만들었습니다.</li><li>다시 활성화된 라이브 피드 동작의 변경 사항에 대한 정보를 추가했습니다. 이러한 변경은 현재 제한적으로 제공되며 일부 고객에게는 아직 해당되지 않습니다.</li><li>데이터 피드를 삭제하려면 먼저 활성 상태여야 한다는 정보를 추가했습니다.</li> |
 | 일반 오류 메시지 업데이트 | [일반 오류 메시지](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |
 | **2024년 6월** | |
@@ -112,7 +112,7 @@ ht-degree: 97%
 | 프로젝트 세그먼트 (애드혹 및 빠른 세그먼트) | 프로젝트 세그먼트에 대한 문서가 간소화되고 중복된 정보가 제거되었습니다. 애드혹 세그먼트를 만드는 단계는 이제 [빠른 세그먼트를 만드는 단계](/help/analyze/analysis-workspace/components/segments/quick-segments.md)와 결합됩니다. |
 | 동적 조회 | [동적 조회](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)에 대한 추가 정보가 추가되었습니다. 이전에는 여러 동적 조회 중 하나인 모바일 속성에 대한 정보만 존재했습니다. |
 | **2023년 3월** | |
-| Activity Map에 대한 Web SDK 지원 | [Adobe Analytics 구현](/help/implement/home.md)을 업데이트했습니다. |
+| Activity Map에 대한 Web SDK 지원 | [Adobe Analytics 구현](/help/implement/home.md)이 업데이트되었습니다. |
 | 트래픽 변수(prop) 개요 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. “트래픽 변수 보고서 사용”이라는 제목의 문서의 콘텐츠를 병합하고 해당 문서를 제거했습니다. [트래픽 변수(prop) 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 보기 |
 | 내부 URL 필터 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. [내부 URL 필터 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) 보기 |
 | 모바일 스코어카드의 데이터 스토리 만들기 | [데이터 스토리](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)는 지원 데이터 포인트, 비즈니스 컨텍스트 그리고 하나의 중심 주제 또는 지표를 중심으로 구축된 관련 지표의 모음입니다. |
@@ -232,7 +232,7 @@ ht-degree: 97%
 | 2020년 10월 23일 | Workspace [성능 도움말 페이지](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html)에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. |
 | 2020년 10월 23일 | Adobe Analytics 대시보드 설명서에 개선 사항이 추가되었습니다. 작업 영역의 모바일 스코어카드에서 스코어카드의 스타일이 앱과 일치합니다. |
 | **2020년 9월** | |
-| 2020년 9월 17일 | [단일 차원에 맞는 5만개의 항목 다운로드](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items): 이제 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
+| 2020년 9월 17일 | [단일 차원에 맞는 5만 개의 항목 다운로드](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items): 이제 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
 | 2020년 9월 17일 | [선 시각화 개선 사항](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/line.html): <ul><li>모든 [!UICONTROL 선] 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 선 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다.</li></ul> |
 | 2020년 9월 17일 | 작업 영역의 새 날짜 범위: 5개의 새 날짜 범위를 추가했으므로 오늘의 일부 일 데이터를 포함하지 않는 다음 날짜 범위 중에서 선택할 수 있습니다. 지난 7일, 지난 14일, 지난 30일, 지난 60일, 지난 90일 |
 | 2020년 9월 17일 | 작업 영역의 [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html)에 대한 새로운 설명서 |

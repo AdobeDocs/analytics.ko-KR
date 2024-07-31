@@ -203,7 +203,7 @@ ht-degree: 94%
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
    + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
-   + [방법 비디오](c-calcmetrics/cm-videos.md)
+   + [사용 방법 비디오](c-calcmetrics/cm-videos.md)
    + 계산된 지표 워크플로 {#calcmetric-workflow}
       + [계산된 지표 워크플로](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
