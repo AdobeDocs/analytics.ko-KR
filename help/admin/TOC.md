@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 8bb879b86126c59b7d22505657ecdb46106822e8
-workflow-type: ht
-source-wordcount: '637'
+source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+workflow-type: tm+mt
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -93,10 +93,7 @@ ht-degree: 100%
             + 고유 방문자 변수 {#unique-visitor-variable}
                + [고유 방문자 변수 지정](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
                + [사용 사례 - 방문자 ID 추출](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
-            + 성공 이벤트 {#success-events}
-               + [성공 이벤트 개요](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
-               + [성공 이벤트 구성](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
-               + [이벤트 유형 변경 정보](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+            + [성공 이벤트](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
             + [분류 계층](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
             + [목록 변수](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [머천다이징 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
