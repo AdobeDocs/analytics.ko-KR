@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 계정 구성
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 6cf277667230a56da9793deb550df1980f1d33b0
+source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -140,7 +140,7 @@ ht-degree: 56%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **호스트**] | 원하는 FTP 대상 URL을 입력합니다. (예: `ftp://ftp.omniture.com`) |
+   | [!UICONTROL **호스트**] | 원하는 FTP 대상 URL을 입력합니다. (예: `ftp.adobe.com`) |
    | [!UICONTROL **경로**] | 비워 둘 수 있습니다. |
    | [!UICONTROL **사용자 이름**] | FTP 사이트에 로그인할 사용자 이름을 입력합니다. |
    | [!UICONTROL **암호 및 암호 확인**] | FTP 사이트에 로그인할 암호를 입력합니다. |
