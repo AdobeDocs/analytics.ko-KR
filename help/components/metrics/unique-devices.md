@@ -3,10 +3,10 @@ title: 고유 디바이스
 description: 고유 디바이스의 수입니다.
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 16a9c9a2b6692b9b1944cfdb9b5b0411d48db666
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 92%
+source-wordcount: '263'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 
 ## 예
 
-1. Sally는 자신의 핸드폰에서 광고를 보고 사이트에 왔지만 아직 로그인하지 않았습니다.
+1. Sally는 광고를 통해 사이트에 왔지만 아직 로그인하지 않았습니다.
 1. Sally는 구매를 원하지만 이미 패밀리 컴퓨터로 로그인했기 때문에 해당 컴퓨터로 구매하기를 원합니다. 패밀리 컴퓨터에서 구매합니다.
 1. 다음 날 전화로 주문 내역을 확인하고 인증합니다.
 1. Bob의 아내인 Alice는 사이트를 검색하면서 패밀리 컴퓨터로 자신의 계정에 로그인합니다.

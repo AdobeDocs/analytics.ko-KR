@@ -5,10 +5,10 @@ title: 전환 변수(eVar)
 feature: Admin Tools
 role: Admin
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 100%
+source-wordcount: '1715'
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 100%
 
 ## 전환 변수(eVars) 개요
 
-다음은 비디오 개요입니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
+전환 변수에 대한 비디오 개요는 Analytics 자습서 안내서에서 [전환 변수 소개](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)를 참조하십시오.
 
 eVar가 방문자에 대한 값으로 설정될 때 Adobe는 값이 만료될 때까지 해당 값을 자동으로 기억합니다. eVar 값이 활성일 때 방문자가 발견하는 성공 이벤트는 eVar 값으로 카운트됩니다.
 

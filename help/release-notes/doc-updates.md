@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
-workflow-type: ht
-source-wordcount: '5945'
-ht-degree: 100%
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+workflow-type: tm+mt
+source-wordcount: '5957'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 7월** | |
+| 성공 이벤트 | [성공 이벤트](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)에 대한 설명서가 간소화되었습니다. 명확성과 정확성을 위해 업데이트되었습니다. |
 | 위치를 관리할 때는 최소한 하나 이상의 계정 유형을 선택해야 합니다. | 관리자가 [내보내기 및 가져오기에 사용되는 계정 유형을 제한하는 경우](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users) 최소한 하나의 계정 유형을 선택해야 한다는 점을 명확히 했습니다. |
 | 빠른 계산된 지표에 대해 추가된 정보 | [계산된 지표 빌더에서 생성된 계산된 지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)와 [단일 프로젝트 내에서 빠른 계산된 지표로 생성된 지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) 간의 차이점을 명확히 설명하기 위해 [지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md)에 대한 정보가 업데이트되었습니다. 또한 빠른 계산된 지표를 생성하기 위해 이에 대한 자세한 내용이 추가되었습니다.<p>계산된 지표 빌더에서 생성된 계산된 지표는 구성 요소 목록에서 사용할 수 있으며 조직 전체의 프로젝트에 적용할 수 있는 반면, 빠른 계산된 지표로 생성된 계산된 지표는 생성된 프로젝트 내에서만 사용할 수 있습니다.</p><p>또한 유사한 내용을 명확하게 하기 위해 [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)에 대한 정보가 업데이트되었습니다.</p> |
 | “레퍼러 유형” 차원에 threads.net 추가됨 | [“레퍼러 유형” 차원](/help/components/dimensions/referrer-type.md)에 사용되는 소셜 네트워크 목록에 threads.net을 추가했습니다. |
