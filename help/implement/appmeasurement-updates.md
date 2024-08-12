@@ -4,10 +4,10 @@ description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: f397aaba5b32ad226e930e983f4b087d29c16b89
+source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
 workflow-type: tm+mt
-source-wordcount: '2670'
-ht-degree: 88%
+source-wordcount: '2721'
+ht-degree: 87%
 
 ---
 
@@ -18,6 +18,15 @@ JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 [GitHub](https://github.com/adobe/appmeasurement/releases)에서 최신 버전의 AppMeasurement을 다운로드할 수 있습니다.
+
+## 버전 2.27.0
+
+릴리스 일자: **2024년 8월 12일 화요일**
+
+* 이제 `writeSecureCookies`을(를) 사용하도록 설정한 경우 `s_ac` 쿠키가 `secure` 플래그로 작성됩니다.
+* 라이브러리가 인라인에 임베드될 때 초기화 오류가 발생하는 문제를 해결했습니다.
+* `localStorage` 또는 `sessionStorage`을(를) 사용하지 않도록 설정한 경우 오류가 해결되었습니다.
+* `collectHighEntropyUserAgentHints`을(를) 사용하도록 설정한 경우 높은 엔트로피 사용자 에이전트 힌트가 링크 추적 호출(`tl`)에 포함됩니다.
 
 ## 버전 2.26.0
 
