@@ -3,7 +3,7 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ff5067a1f7d500c11737ddae507b431b875a44d9
+source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 76%
@@ -20,7 +20,7 @@ ht-degree: 76%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **링크 추적을 위한 Web SDK 개선 사항** | Web SDK 최신 버전에서는 링크 추적을 중심으로 여러 가지 주목할 만한 개선 사항이 적용되었으며 이는 Activity Map 활용에 직접적인 이점을 제공합니다. 이 새로운 기능들은 Web SDK JavaScript 라이브러리와 Web SDK 태그 확장 기능 모두에서 사용할 수 있습니다.<ul><li>이벤트 그룹화: 방문자가 내부 링크를 클릭하면 링크 추적을 위한 별도 이벤트 호출을 트리거하는 대신 다음 페이지에서 이벤트 데이터를 그룹화하도록 선택할 수 있습니다. 이 개선 사항은 Web SDK가 계약상 한계 대비 적은 이벤트 수를 사용하도록 해 줍니다.</li><li>필터 클릭 속성: `OnBeforeLinkClickSend`를 대체하는 새로운 콜백입니다. 이 콜백을 사용하면 링크 관련 데이터를 Adobe로 전송하기 전에 필터링하거나 난독화할 수 있습니다.</li></ul><p>자세한 내용은 Web SDK 사용 안내서에서 [clickCollection](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollection)을 참조하십시오.</p> | 2024년 7월 10일 오픈 베타 시작 | TBD |
+| **링크 추적을 위한 Web SDK 개선 사항** | Web SDK 최신 버전에서는 링크 추적을 중심으로 여러 가지 주목할 만한 개선 사항이 적용되었으며 이는 Activity Map 활용에 직접적인 이점을 제공합니다. 이 새로운 기능들은 Web SDK JavaScript 라이브러리와 Web SDK 태그 확장 기능 모두에서 사용할 수 있습니다.<ul><li>이벤트 그룹화: 방문자가 내부 링크를 클릭하면 링크 추적을 위한 별도 이벤트 호출을 트리거하는 대신 다음 페이지에서 이벤트 데이터를 그룹화하도록 선택할 수 있습니다. 이 개선 사항은 Web SDK가 계약상 한계 대비 적은 이벤트 수를 사용하도록 해 줍니다.</li><li>필터 클릭 속성: `OnBeforeLinkClickSend`를 대체하는 새로운 콜백입니다. 이 콜백을 사용하면 링크 관련 데이터를 Adobe로 전송하기 전에 필터링하거나 난독화할 수 있습니다.</li></ul><p>자세한 내용은 Web SDK 사용 안내서에서 [clickCollection](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollection)을 참조하십시오.</p> | 2024년 7월 10일 오픈 베타 시작 | 2024년 7월 18일 금요일 |
 
 {style="table-layout:auto"}
 
