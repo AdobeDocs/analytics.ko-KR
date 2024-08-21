@@ -3,10 +3,10 @@ description: 경고 관리.
 title: 경고 관리자 개요
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
+source-git-commit: 49324ef7fd45adeef2c31167d0444a7e67041d6d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 32%
+source-wordcount: '378'
+ht-degree: 35%
 
 ---
 
@@ -54,13 +54,18 @@ ht-degree: 32%
 
    | 열 제목 | 설명 |
    |---|---|
-   | 즐겨찾기 | 각 경고 옆에 별 아이콘을 표시하여 경고를 즐겨찾기로 표시할 수 있습니다. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
    | 제목 및 설명 | 이러한 값은 경고 빌더에 제공됩니다. 제목 및 설명을 편집하려면 제목 링크를 선택하여 경고 빌더를 엽니다. |
+   | 즐겨찾기 | 각 경고 옆에 별 아이콘을 표시하여 경고를 즐겨찾기로 표시할 수 있습니다. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
+   | 유형 | 경고가 Analytics 데이터 경고인지 서버 호출 사용량 경고인지 여부를 표시합니다. |
+   | 활성화됨 | 경고가 현재 활성화되었는지 또는 비활성화되었는지 여부를 표시합니다. |
    | 보고서 세트 | 경고가 마지막으로 저장된 보고서 세트를 나타냅니다. |
    | 소유자 | 경고를 소유하는 사람을 나타냅니다. 관리자가 아닌 경우 사용자가 소유하거나 사용자와 공유된 경고만 볼 수 있습니다. |
    | 태그 | 사용자 또는 사용자와 경고를 공유한 사람이 경고에 적용한 태그를 표시합니다. |
-   | 다음 사용자와 공유 | 경고를 공유한 개인 또는 그룹 (관리자만) 또는 모두 (관리자만)를 표시합니다. |
+   | 만료 날짜 | 경고가 만료되도록 설정된 날짜와 시간을 표시합니다. |
    | 수정한 날짜 | 경고가 마지막으로 수정된 날짜를 나타냅니다. |
-   | 마지막 사용 | 경고가 마지막으로 사용된 날짜를 표시합니다. <p>이 정보는 구성 요소가 조직의 사용자에게 가치가 있는지, 사용 위치 및 삭제하거나 수정해야 하는지 여부를 확인하는 데 도움이 됩니다.</p><p>이 열을 조회할 때 다음 사항을 고려하십시오.</p><ul><li>이 정보에는 API, Report Builder 또는 Data Warehouse의 사용이 포함되지 않습니다.</li><li>일부 구성 요소의 경우 구성 요소가 2023년 9월 이전에 마지막으로 사용된 경우 이 열에 데이터가 포함되지 않을 수 있습니다.</li></ul> |
 
    {style="table-layout:auto"}
+
+   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
+
+
