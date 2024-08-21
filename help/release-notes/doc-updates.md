@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
-workflow-type: ht
-source-wordcount: '5957'
-ht-degree: 100%
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
+workflow-type: tm+mt
+source-wordcount: '5972'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 8월** | |
+| 경고 관리자 | [경고 관리자](/help/components/c-alerts/alert-manager.md)에 대한 설명서가 간소화되었습니다. 명확성과 정확성을 위해 업데이트되었습니다. |
 | **2024년 7월** | |
 | 성공 이벤트 | [성공 이벤트](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)에 대한 설명서가 간소화되었습니다. 명확성과 정확성을 위해 업데이트되었습니다. |
 | 위치를 관리할 때는 최소한 하나 이상의 계정 유형을 선택해야 합니다. | 관리자가 [내보내기 및 가져오기에 사용되는 계정 유형을 제한하는 경우](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users) 최소한 하나의 계정 유형을 선택해야 한다는 점을 명확히 했습니다. |
@@ -34,7 +36,7 @@ ht-degree: 100%
 | 일반 오류 메시지 업데이트 | [일반 오류 메시지](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |
 | **2024년 6월** | |
 | 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 이를 Analysis Workspace에 표시하는 스트리밍 미디어 기능 세트를 참조할 때 “미디어 분석” 및 “스트리밍 미디어” 인스턴스를 “스트리밍 미디어 컬렉션 추가 기능”이라는 이름으로 대체했습니다. <p>이번 업데이트는 Adobe Analytics 설명서와 [스트리밍 미디어 컬렉션 추가 기능 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) 전체에 적용됩니다.</p> |
-| 개선된 지능형 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [경고 관리](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) 및 [정보 개요](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)에 대한 정보가 포함되어 있습니다. |
+| 개선된 지능형 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [경고 관리](/help/components/c-alerts/alert-manager.md) 및 [정보 개요](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)에 대한 정보가 포함되어 있습니다. |
 | 더 이상 사용되지 않는 `cookieDomainPeriods` | 이제 AppMeasurement가 쿠키를 설정할 올바른 도메인을 자동으로 감지하므로 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 변수는 더 이상 사용되지 않습니다. |
 | Data Connectors 설명서 사용 중단 | Data Connectors 서비스 종료 페이지가 [단종 제품](https://experienceleague.adobe.com/ko/docs/discontinued/using/data-connectors)으로 이동되었습니다. |
 | **2024년 5월** | |
@@ -58,7 +60,7 @@ ht-degree: 100%
 | **2024년 1월** | |
 | 개별 IMS 조직에 적용되는 구성 요소 마이그레이션 | [구성 요소 마이그레이션](/help/admin/admin/component-migration/component-migration.md)이 IMS 조직 간 마이그레이션을 지원하지 않는다는 점을 명시했습니다. |
 | 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 시스템 관리자만 사용할 수 있는 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에 “마지막 사용” 및 “다음에서 사용” 열에 대한 정보가 추가되었습니다. |
-| 미디어 분당 평균 시청 시간 설명서 업데이트 | 명확성을 높이기 위해 [미디어 분당 평균 시청 시간 패널](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)의 정보를 업데이트했습니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li></ul> |
+| 미디어 평균 분당 시청자 설명서 업데이트 | 명확성을 높이기 위해 [미디어 평균 분당 시청자 패널](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)의 정보를 업데이트했습니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li></ul> |
 
 ### 2023 {#year2023}
 

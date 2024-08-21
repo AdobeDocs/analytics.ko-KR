@@ -4,10 +4,10 @@ title: 지능형 경고 개요
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: a012aca08740428671f216793dbd12aa15f21448
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 54%
+ht-degree: 60%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 54%
 
 Adobe Analytics의 지능형 경고(또는 &quot;경고&quot;)를 사용하면 데이터에서 비정상 이벤트가 발생할 때 즉시 알림을 받을 수 있습니다.
 
-예외 항목 임계값, 변경된 백분율 또는 특정 데이터 포인트를 기반으로 트리거되도록 경고를 설정할 수 있습니다. 경고는 [예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)와 통합되는 세분화된 제어를 제공하여 가장 필요할 때 트리거됩니다.
+예외 항목 임계값, 백분율 변경 또는 특정 데이터 포인트를 기준으로 지능형 경고가 트리거되도록 설정할 수 있습니다. 경고는 [예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)와 통합되는 세분화된 제어를 제공하여 가장 필요할 때 트리거됩니다.
 
 지능형 경고를 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -49,4 +49,4 @@ Adobe Analytics에서 경고를 만드는 방법에 대한 자세한 내용은 [
 
 경고 관리자에서 기존 경고를 관리할 수 있습니다. 태그 지정, 이름 변경, 삭제 등과 같은 경고에 대한 다양한 관리 작업을 수행할 수 있습니다.
 
-Adobe Analytics에서 기존 경고를 관리하는 방법에 대한 자세한 내용은 [경고 관리](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)를 참조하십시오.
+Adobe Analytics에서 기존 경고를 관리하는 방법에 대한 자세한 내용은 [경고 관리](/help/components/c-alerts/alert-manager.md)를 참조하십시오.

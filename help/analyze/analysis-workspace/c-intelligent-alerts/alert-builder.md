@@ -4,7 +4,7 @@ title: 경고 빌더 (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 40%
@@ -32,7 +32,7 @@ Adobe Analytics의 지능형 경고(또는 &quot;경고&quot;)를 사용하면 �
    * Analysis Workspace에서 프로젝트를 열고 자유 형식 테이블에서 하나 이상의 라인 항목을 선택한 다음 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 선택 항목으로 경고 만들기]**&#x200B;를 선택합니다.
 
      이렇게 하면 즉시 경고 빌더가 미리 채워져서 올바른 지표와 필터로 경고를 만듭니다.
-   * 경고 관리자](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#create-alerts)에서 경고 [을(를) 만듭니다.
+   * 경고 관리자](/help/components/c-alerts/alert-manager.md#create-alerts)에서 경고 [을(를) 만듭니다.
 
    경고 빌더가 표시됩니다. 이 인터페이스는 Analytics에 세그먼트 또는 계산된 지표를 만든 사용자에게 익숙합니다.
 
@@ -48,6 +48,6 @@ Adobe Analytics의 지능형 경고(또는 &quot;경고&quot;)를 사용하면 �
    | [!UICONTROL **수신자**] | 경고를 전송할 대상을 지정합니다. 경고는 Analytics 사용자, Analytics 그룹, 원시 이메일 주소 또는 전화번호에 보낼 수 있습니다.<p><b>중요:</b>전화 번호 앞에는 &quot;+&quot;와 [국가 코드](https://countrycode.org/)가 있어야 합니다.</p><p>경고가 트리거되면 사용자가 받게 되는 이메일은 다음과 유사합니다.</p><p>![](assets/alerts-email.PNG)</p> |
    | [!UICONTROL **만료 날짜**] | 경고가 만료될 날짜 및 시간을 설정합니다. |
    | [!UICONTROL **다음 경우에 경고 보내기**] | [!UICONTROL **다음 지표 트리거 중 하나**]: 여기에 지표(계산된 지표 포함)를 끌어다 놓아 경고에 대한 트리거를 만듭니다.<p>경고에 있는 일부 지표, 차원 또는 세그먼트가 현재 선택한 데이터 보기와 호환하지 않을 경우 **&quot;호환되지 않는 구성 요소&quot;** 메시지가 표시됩니다.</p><p>경고를 설정하기 전에 지표가 초과되는 임계값을 결정합니다. 이 값을 임계값으로 설정한 후 다음 조건 중 하나로 설정할 수 있습니다.</p><ul><li>예외 항목이 있음</li><li>예외 항목이 예상 이상임</li><li>예외 항목이 예상 미만임</li><li>위 또는 같음</li><li>아래 또는 같음</li><li>변경</li><li>90%, 95%, 99%, 99.75% 및 99.9%의 임계값을 설정할 수 있습니다.</li></ul><p>[!UICONTROL **다음 필터 사용**]: 세그먼트 또는 차원을 끌어서 놓아 필터를 추가합니다. 예를 들어 &quot;모바일 디바이스만&quot; 세그먼트를 추가한다는 것은 모바일 디바이스에 대해서만 규칙이 트리거됨을 의미합니다. AND 문을 사용하여 필터를 추가할 수 있습니다. 톱니바퀴 아이콘을 클릭하여 AND 또는 OR 규칙을 추가할 수 있습니다.</p><p>사용 사례에 대해서는 [지능형 경고 - 사용 사례](/help/analyze/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)를 참조하십시오.</p> |
-   | [!UICONTROL **미리보기**] | 대화형 경고 미리보기에서는 경고가 과거의 경험을 기반으로 얼마나 자주 표시되는지를 근사적으로 보여 줍니다.<p>예를 들어 시간 세부 기간을 매일로 설정하는 경우, 미리보기에서는 경고가 지난 30 또는 31일 동안 특정 지표 x 배수에 대해 트리거됨을 알 수 있습니다.</p><p>너무 많은 경고가 트리거될 것 같으면 [경고 관리자](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)에서 임계값을 조정할 수 있습니다.</p><p>![](assets/alert_preview.png)</p> |
+   | [!UICONTROL **미리보기**] | 대화형 경고 미리보기에서는 경고가 과거의 경험을 기반으로 얼마나 자주 표시되는지를 근사적으로 보여 줍니다.<p>예를 들어 시간 세부 기간을 매일로 설정하는 경우, 미리보기에서는 경고가 지난 30 또는 31일 동안 특정 지표 x 배수에 대해 트리거됨을 알 수 있습니다.</p><p>너무 많은 경고가 트리거될 것 같으면 [경고 관리자](/help/components/c-alerts/alert-manager.md)에서 임계값을 조정할 수 있습니다.</p><p>![](assets/alert_preview.png)</p> |
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.

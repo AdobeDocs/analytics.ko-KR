@@ -4,7 +4,7 @@ title: 서버 호출 사용량 경고
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 경고를 설정하면 청구 회사의 모든 로그인 회사에 있는 모든 보고서 세트에 적용됩니다.
 
-서버 호출 사용량 경고는 [경고](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) 사용자 인터페이스의 일부입니다.
+서버 호출 사용량 경고는 [경고](/help/components/c-alerts/alert-manager.md) 사용자 인터페이스의 일부입니다.
 
 이 경고는 서버 호출 사용량 기능에 액세스할 수 있는 모든 로그인 회사 내에 표시되는 **1개의 기본 경고**&#x200B;로 미리 채워져 있습니다. 이 경고는 다음 기준 중 하나가 충족되는 경우 모든 로그인 회사 관리자에게 지정된 알림을 트리거합니다.
 
