@@ -4,7 +4,7 @@ description: 필드 기반 결합을 사용하여 데이터 결합의 사전 요
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 93%
@@ -12,6 +12,8 @@ ht-degree: 93%
 ---
 
 # 필드 기반 결합
+
+{{available-existing-customers}}
 
 크로스 디바이스 분석에서는 데이터를 서로 결합하는 두 가지 서로 다른 방법을 제공합니다. 이 방법은 [prop](/help/implement/vars/page-vars/prop.md)이나 [eVar](/help/implement/vars/page-vars/evar.md)과 같은 Analytics 변수를 사용하여 사용 식별자를 포함합니다. 해당 변수는 디바이스를 함께 연결하는 기준으로 사용됩니다. 방문자 추적의 투명성과 예측 가능성을 확보하기 위해 이 결합 옵션을 사용하는 것이 좋습니다.
 

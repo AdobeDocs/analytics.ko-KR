@@ -4,7 +4,7 @@ description: 디바이스 데이터를 함께 결합함으로써 데이터를 �
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 90%
@@ -12,6 +12,8 @@ ht-degree: 90%
 ---
 
 # 크로스 디바이스 분석
+
+{{available-existing-customers}}
 
 크로스 디바이스 분석(CDA)은 Analytics를 디바이스 중심 보기에서 사람 중심 보기로 변환하는 기능입니다. 그 결과 분석가는 브라우저, 디바이스 또는 앱을 넘나드는 사용자 행동을 이해할 수 있습니다. Adobe에서는 디바이스 데이터를 함께 연결하는 두 가지 매우 중요한 워크플로를 지원합니다.
 

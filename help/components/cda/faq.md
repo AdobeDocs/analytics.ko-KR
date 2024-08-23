@@ -4,14 +4,17 @@ description: 크로스 디바이스 분석에 대한 FAQ
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 98%
 
 ---
 
+
 # FAQ
+
+{{available-existing-customers}}
 
 +++ 사용자들이 한 디바이스 유형에서 다른 디바이스 유형으로 이동하는 방식을 CDA로 확인하는 방법은 무엇입니까?
 

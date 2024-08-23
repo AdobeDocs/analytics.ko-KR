@@ -4,7 +4,7 @@ description: CDA를 사용하도록 가상 보고서 세트를 구성합니다.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 87%
@@ -12,6 +12,8 @@ ht-degree: 87%
 ---
 
 # 크로스 디바이스 분석 설정
+
+{{available-existing-customers}}
 
 모든 전제 조건이 충족되면 다음 절차에 따라 크로스 디바이스 분석을 활성화하십시오. 이 절차를 수행하려면 제품 프로필 관리 그룹에 속해 있거나 Adobe Analytics에서 관리자 권한이 있어야 합니다.
 

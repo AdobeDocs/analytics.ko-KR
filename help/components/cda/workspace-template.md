@@ -4,7 +4,7 @@ description: Analysis Workspace 내의 CDA 템플릿에 있는 각 필드에 대
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 93%
@@ -12,6 +12,8 @@ ht-degree: 93%
 ---
 
 # CDA 작업 공간 템플릿
+
+{{available-existing-customers}}
 
 Adobe는 중요한 교차 장치 성능 데이터를 볼 수 있는 템플릿을 제공합니다.
 
@@ -26,7 +28,7 @@ Adobe는 중요한 교차 장치 성능 데이터를 볼 수 있는 템플릿을
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **사용자 식별**: 크로스 디바이스 분석을 기반으로 한 메서드를 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
-* **대상 크기 측정**: &#39;사람&#39; 대비 &#39;고유 디바이스&#39;의 비교를 보여 줍니다. 이 두 숫자의 비율을 &#39;크로스 디바이스 압축&#39;이라고 하며, 이 패널에 표시되는 계산된 지표입니다. 이 압축 지표는 다양한 요인에 따라 다릅니다.
+* **대상자 크기 측정**: &#39;사람&#39; 대비 &#39;고유 디바이스&#39;의 비교를 보여 줍니다. 이 두 숫자의 비율을 &#39;크로스 디바이스 압축&#39;이라고 하며, 이 패널에 표시되는 계산된 지표입니다. 이 압축 지표는 다양한 요인에 따라 다릅니다.
    * 로그인 비율: 사이트에 로그인하는 사용자가 많을수록 Adobe가 장치들 간에 더 많은 방문자를 식별하고 결합할 수 있습니다. 로그인 비율이 낮은 사이트는 압축률도 낮습니다.
    * Experience Cloud ID 범위: ECID가 있는 방문자만 결합할 수 있습니다. ECID를 사용하는 사이트에 대한 방문자의 낮은 비율은 낮은 압축률과 상호 연관성이 있습니다.
    * 여러 장치 사용: 사이트 방문자가 여러 장치를 사용하지 않는다면 압축률도 낮습니다.

@@ -4,7 +4,7 @@ description: 크로스 디바이스 분석의 "재생" 개념 이해
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # 재생 작동 방식
+
+{{available-existing-customers}}
 
 크로스 디바이스 분석에서는 가상 보고서 세트의 데이터에 대해 두 가지 작업을 수행합니다.
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 33ac467cd73e3099ce0ca03aa41cbd4192eb2384
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 96%
+source-wordcount: '1171'
+ht-degree: 93%
 
 ---
 # 스니펫
@@ -84,3 +84,10 @@ ht-degree: 96%
 >
 >이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 센터는 설치 또는 문제 해결 등 본 플러그인에 대한 지원을 제공하지 않습니다. 본 플러그인에 대한 도움이 필요한 경우 조직의 Adobe 계정 팀에 문의하십시오. 계정 팀이 컨설턴트와의 미팅을 조정할 수 있습니다.
 
+
+## 기존 고객만 사용 가능 {#available-existing-customers}
+
+>[!AVAILABILITY]
+>
+>이 섹션에 설명된 기능은 이미 기능에 대한 라이센스가 있는 기존 고객만 사용할 수 있습니다. 이 기능은 기존 또는 신규 고객에게 더 이상 추가 기능으로 제공되지 않습니다.
+>

@@ -4,14 +4,17 @@ description: Device Graph를 사용하여 데이터 결합의 사전 요구 사�
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 60%
 
 ---
 
+
 # Device Graph
+
+{{available-existing-customers}}
 
 교차 디바이스 분석은 개인 그래프를 사용하여 데이터를 함께 결합할 수 있습니다. 개인 그래프는 조직에 고유한 해시된 장치 ID의 저장소입니다. CDA는 Device Graph와 정기적으로 통신하여 디바이스들을 함께 연결합니다.
 
@@ -22,6 +25,7 @@ Device Graph 방법을 사용하여 크로스 디바이스 분석을 구현하�
 >[!WARNING]
 >
 >모든 사전 요구 사항을 충족하지 못하면 크로스 디바이스 분석을 사용할 수 없거나 데이터 결합이 제대로 되지 않을 수 있습니다.
+>
 
 * [개요 페이지](overview.md)에 나열되어 있는 모든 사전 요구 사항.
 * 조직은 [Adobe Experience Platform ID 서비스 개인 그래프](https://business.adobe.com/products/experience-platform/identity-service.html)를 사용해야 합니다. ID 서비스 사용 안내서의 [홈 페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko-KR)도 참조하세요.
