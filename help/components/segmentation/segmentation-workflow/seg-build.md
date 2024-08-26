@@ -61,7 +61,7 @@ ht-degree: 97%
 1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 세그먼트 또는 지표 값입니다.
 1. **[!UICONTROL X]**: (삭제) 이 세그먼트 정의 부분을 삭제할 수 있습니다.
 1. **[!UICONTROL Experience Cloud 게시]**: Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를 [!DNL Audience Manager]의 마케팅 활동과 기타 활성화 채널에서 사용할 수 있습니다. [추가 정보...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 대상 라이브러리]**: Adobe의 대상 서비스는 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 비슷하며, Experience Cloud에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)
+1. **[!UICONTROL 대상자 라이브러리]**: Adobe의 대상 서비스는 방문자 데이터를 대상자 세그먼테이션으로 변환하는 작업을 관리합니다. 이와 같이 대상자를 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 비슷하며, Experience Cloud에 대상자 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)
 1. **[!UICONTROL 검색]**: 차원, 세그먼트 또는 지표 목록을 검색합니다.
 1. **[!UICONTROL 차원]**: (목록) 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 지표]**: 확장할 헤더를 클릭합니다.

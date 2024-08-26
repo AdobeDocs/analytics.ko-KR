@@ -3,10 +3,11 @@ description: GitHub의 Adobe Analytics Admin API에 대한 링크.
 title: Adobe Analytics 1.4 API EOL FAQ
 feature: Admin Tools
 role: Admin
-source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
+exl-id: 88769032-a7cd-4ca8-958f-3300a4bfe71f
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -111,4 +112,3 @@ A: 아니요. 데이터 삽입 API는 Adobe Analytics 1.4 EOL의 영향을 받�
 Q: **이 FAQ에서 질문에 대한 답변을 받지 못한 경우 어떻게 해야 합니까?**
 
 A: 질문이 있는 경우 Adobe 계정 담당자에게 문의하십시오.
-

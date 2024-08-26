@@ -25,11 +25,11 @@ ht-degree: 73%
 >
 >[`registerPreTrackCallback`](registerpretrackcallback.md)과 `registerPostTrackCallback` 사이에 실행된 함수의 타이밍과 순서는 보장되지 않습니다. 이 두 함수 간에 종속성이 생기지 않도록 하십시오.
 
-## Web SDK 확장을 사용한 Post-track 콜백
+## Web SDK 확장을 사용한 사후 추적 콜백
 
 곧 출시 예정!
 
-## 웹 SDK를 수동으로 구현하는 Post-track 콜백
+## 웹 SDK를 수동으로 구현하는 사후 추적 콜백
 
 데이터를 Adobe에 성공적으로 보낸 후 이벤트를 전송할 때 JavaScript Promise를 사용하여 함수를 등록할 수 있습니다.
 
@@ -43,7 +43,7 @@ alloy("sendEvent",{
 
 자세한 내용은 웹 SDK 설명서의 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)를 참조하십시오.
 
-## Adobe Analytics 확장을 사용하여 Post-track 콜백 등록
+## Adobe Analytics 확장을 사용하여 사후 추적 콜백 등록
 
 Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
 

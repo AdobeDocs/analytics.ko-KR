@@ -5,7 +5,7 @@ user-guide-title: Analytics 통합 안내서
 breadcrumb-title: 통합 안내서
 user-guide-description: Audience Manager, Advertising Cloud 등 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
 source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
 

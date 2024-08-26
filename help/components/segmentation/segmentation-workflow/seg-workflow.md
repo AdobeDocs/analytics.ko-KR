@@ -43,7 +43,7 @@ THEN 연산자로 세그먼트를 만드는 방법은 [순차적 세그먼트 �
 
 ![](assets/step6_icon.png) [세그먼트 공유](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
 
-다른 Analytics 도구, Adobe Target 및 Adobe Experience Cloud에서 의도한 대상과 세그먼트를 공유할 수 있습니다.
+다른 Analytics 도구, Adobe Target 및 Adobe Experience Cloud에서 의도한 대상자와 세그먼트를 공유할 수 있습니다.
 
 ![](assets/step7_icon.png) [세그먼트 필터링](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
 

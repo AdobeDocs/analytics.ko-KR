@@ -68,7 +68,7 @@ Adobe는 마우스 오른쪽 버튼 클릭 컨텍스트 메뉴에 Analysis Works
 Analysis Workspace에 익숙하므로 일반적으로 Google Analytics에서 보는 특정 보고서를 다시 만들려는 경우에는 해당 페이지에서 보고서를 찾습니다.
 
 * [실시간 보고서](realtime-reports.md)
-* [대상 보고서](audience-reports.md)
+* [대상자 보고서](audience-reports.md)
 * [고객 확보 보고서](acquisition-reports.md)
 * [동작 보고서](behavior-reports.md)
 * [전환 보고서](conversions-reports.md)

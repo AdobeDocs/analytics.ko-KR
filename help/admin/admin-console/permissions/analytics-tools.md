@@ -40,7 +40,7 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | [!UICONTROL Report Builder] | 도구 > Report Builder 아래의 다운로드 버튼을 활성화하고 사용자가 Microsoft Excel 내에서 인증할 수 있도록 합니다. |
 | [!UICONTROL 보안] | 관리자 > 모든 관리자 > 회사 설정 > 보안 관리자에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 세그먼트 만들기] | 모든 Analytics 기능에 대해 세그먼트를 만들고 공유할 수 있는 기능을 부여합니다. |
-| [!UICONTROL 세그먼트 퍼블리싱] | 세그먼트를 만들거나 편집할 때 세그먼트를 Experience Cloud 대상으로 만들 수 있는 기능을 부여합니다. |
+| [!UICONTROL 세그먼트 퍼블리싱] | 세그먼트를 만들거나 편집할 때 세그먼트를 Experience Cloud 대상자로 만들 수 있는 기능을 부여합니다. |
 | [!UICONTROL 서버 호출 사용] | 관리자 > 서버 호출 사용량에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 모든 사람과 프로젝트 링크 공유] | Adobe Analytics에 대한 액세스 권한이 없는 사람에게 Analysis Workspace 프로젝트에 대한 읽기 전용 액세스 권한을 부여하는 기능을 부여합니다. |
 | [!UICONTROL 지원] | 관리자 > 모든 관리자 > 회사 설정 > 지원 정보에 대한 액세스 권한을 부여합니다. |

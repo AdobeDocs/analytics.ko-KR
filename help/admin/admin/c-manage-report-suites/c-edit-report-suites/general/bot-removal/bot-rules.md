@@ -23,7 +23,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Adobe Experience Platform Edge Network은 봇에서 나온 것으로 식별된 히트에 레이블을 지정하는 [보트 탐지 서비스](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=ko-KR)를 제공합니다. Adobe Analytics에서 사용되는 보트 탐지 프로세스는 별개이며 Edge Network을 통해 도착하는 데이터에 포함된 보트 점수를 참조하지 않습니다. 그러나 두 시스템은 동일한 IAB 보트 목록을 사용합니다.
+>Adobe Experience Platform Edge Network은 봇에서 나온 것으로 식별된 히트에 레이블을 지정하는 [보트 탐지 서비스](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html)를 제공합니다. Adobe Analytics에서 사용되는 보트 탐지 프로세스는 별개이며 Edge Network을 통해 도착하는 데이터에 포함된 보트 점수를 참조하지 않습니다. 그러나 두 시스템은 동일한 IAB 보트 목록을 사용합니다.
 
 ## 보트 규칙 업데이트 또는 업로드
 

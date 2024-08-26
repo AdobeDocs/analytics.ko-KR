@@ -33,7 +33,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 ## 고려 사항
 
 * **보고서 세트 제한**: 보고서 세트당 최대 75개의 세그먼트를 게시할 수 있습니다. 이 제한은 강제 적용됩니다. 이미 75개의 세그먼트를 게시한 경우 75개 임계값 아래가 되도록 세그먼트 게시를 취소해야 추가 세그먼트를 게시할 수 있습니다.
-* **멤버십 제한**: Adobe Analytics에서 [!DNL Experience Cloud]로 공유한 대상은 2천만 명의 고유 구성원을 초과할 수 없습니다.
+* **멤버십 제한**: Adobe Analytics에서 [!DNL Experience Cloud]로 공유한 대상자는 2천만 명의 고유 구성원을 초과할 수 없습니다.
 * **데이터 개인정보**: 대상자는 방문자의 인증 상태에 따라 필터링되지 않습니다. 방문자가 인증되지 않음 및 인증됨 상태의 사이트를 검색할 수 있는 경우 방문자가 인증되지 않음 상태일 때 발생하는 작업 때문에 여전히 방문자가 대상자에 포함될 수 있습니다. 대상자를 공유할 때 파생되는 전반적인 개인정보 문제를 이해하려면 [Adobe Experience Cloud 개인정보 보호](https://www.adobe.com/kr/privacy/experience-cloud.html)를 검토하십시오.
 * **[!DNL Adobe Analytics]와[!DNL Audience Manager]**&#x200B;에 있는 세그먼트 간의 차이에 대한 설명이 필요하면 [여기](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ko-KR)로 이동하십시오.
 

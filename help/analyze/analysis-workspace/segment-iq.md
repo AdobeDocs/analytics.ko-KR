@@ -23,4 +23,4 @@ ht-degree: 100%
 세그먼트 IQ는 다음 기능으로 구성됩니다.
 
 * [세그먼트 비교 패널:](c-panels/c-segment-comparison/segment-comparison.md) 세그먼트 IQ의 핵심 기능. 두 세그먼트를 패널에 드래그하고 통계적으로 중요한 차이점과 두 대상자 간의 겹침을 보여 주는 포괄적인 보고서를 살펴보십시오.
-* [폴아웃의 세그먼트 비교:](visualizations/fallout/compare-segments-fallout.md) 폴아웃 시각화의 컨텍스트에서 서로 다른 대상이 어떻게 서로 비교되는지 확인하십시오.
+* [폴아웃의 세그먼트 비교:](visualizations/fallout/compare-segments-fallout.md) 폴아웃 시각화의 컨텍스트에서 서로 다른 대상자가 어떻게 서로 비교되는지 확인하십시오.

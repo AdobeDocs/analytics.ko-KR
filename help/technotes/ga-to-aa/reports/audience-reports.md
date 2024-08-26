@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics의 대상 보고서
-description: Analysis Workspace를 사용하여 대상 기반 보고서를 만드는 방법을 알아봅니다.
+title: Adobe Analytics의 대상자 보고서
+description: Analysis Workspace를 사용하여 대상자 기반 보고서를 만드는 방법을 알아봅니다.
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
@@ -10,9 +10,9 @@ ht-degree: 98%
 
 ---
 
-# 대상 보고서
+# 대상자 보고서
 
-대상 보고서는 사이트를 방문하는 사람 유형에 대한 정보를 보여 줍니다.
+대상자 보고서는 사이트를 방문하는 사람 유형에 대한 정보를 보여 줍니다.
 
 이 페이지에서는 사용자가 Analysis Workspace 사용에 대한 기본적인 지식이 있다고 가정합니다. Adobe Analytics의 도구에 아직 익숙하지 않은 경우 [Google Analytics 사용자를 위한 Analysis Workspace에서 기본 보고서 만들기](create-report.md)를 참조하십시오.
 
@@ -44,9 +44,9 @@ Adobe가 고유 방문자 수를 계산하는 방법에 대한 자세한 내용�
 
 집단 시각화의 추가 사용자 정의에 대한 자세한 내용은 Analysis Workspace 사용 안내서의 [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)을 참조하십시오.
 
-## 대상
+## 대상자
 
-Google Analytics의 대상 보고서를 사용하려면 대상을 설정해야 합니다. Adobe에서도 Adobe Audience Manager를 통해 대상을 구성해야 합니다. 자세한 내용은 Adobe Audience Manager 사용 안내서를 참조하십시오.
+Google Analytics의 대상자 보고서를 사용하려면 대상자를 설정해야 합니다. Adobe에서도 Adobe Audience Manager를 통해 대상을 구성해야 합니다. 자세한 내용은 Adobe Audience Manager 사용 안내서를 참조하십시오.
 
 ## 사용자 탐색기
 

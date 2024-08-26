@@ -27,7 +27,7 @@ Adobe Analytics에서 Adobe Experience Cloud에 로그인한 후 기본 보고�
 [!UICONTROL Analysis Workspace]의 구성 요소를 잘 알고 있으면 올바른 구성 요소를 사용하여 대부분의 보고서를 다시 만드는 방법을 배울 수 있습니다.
 
 * [Adobe Analytics에서 실시간 보고서 만들기](reports/realtime-reports.md)
-* [Adobe Analytics에서 대상 보고서 만들기](reports/audience-reports.md)
+* [Adobe Analytics에서 대상자 보고서 만들기](reports/audience-reports.md)
 * [Adobe Analytics에서 고객 확보 보고서 만들기](reports/acquisition-reports.md)
 * [Adobe Analytics에서 동작 보고서 만들기](reports/behavior-reports.md)
 * [Adobe Analytics에서 전환 보고서 만들기](reports/conversions-reports.md)

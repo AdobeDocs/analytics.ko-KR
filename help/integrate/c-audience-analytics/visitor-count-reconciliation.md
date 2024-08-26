@@ -67,7 +67,7 @@ Adobe Audience Manager 실시간 세그먼트 모집단과 Audience Analytics �
   <tr> 
    <td colname="col1"> <p>150개 세그먼트 제한 </p> </td> 
    <td colname="col2"> <p>아니요 </p> </td> 
-   <td colname="col3"> <p>예 - Analytics 개수는 150개 세그먼트 통합 제한에 따라 최대 5%까지 영향을 받을 수 있습니다. 자르기가 발생하면 대상 이름 차원에 "대상 제한에 도달했습니다."가 표시됩니다. </p> </td> 
+   <td colname="col3"> <p>예 - Analytics 개수는 150개 세그먼트 통합 제한에 따라 최대 5%까지 영향을 받을 수 있습니다. 자르기가 발생하면 대상자 이름 차원에 "대상자 제한에 도달했습니다."가 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

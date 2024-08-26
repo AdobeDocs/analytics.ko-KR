@@ -109,7 +109,7 @@ Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 �
 
 * [세그먼트 비교](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-* [미디어 대상 평균 시간](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+* [미디어 평균 분당 시청자](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
 
 * [다음 또는 이전 항목](/help/analyze/analysis-workspace/c-panels/next-previous.md)
 
