@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 8f63211c3fd9070b1ef47ad409364507b7a9c4b4
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## [!UICONTROL 요약 변경] 시각화 {#summary-change}
 
-[!UICONTROL 요약 변경] 시각화를 사용하여 두 숫자 간의 델타(변화량)를 표시합니다. [!UICONTROL 요약 변경]의 녹색 및 빨간색 색상은 [사용자 지정 이벤트 극성](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ko-KR) 또는 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko-KR) 옵션을 통해 제어할 수 있습니다.
+[!UICONTROL 요약 변경] 시각화를 사용하여 두 숫자 간의 델타(변화량)를 표시합니다. [!UICONTROL 요약 변경]의 녹색 및 빨간색 색상은 [사용자 지정 이벤트 극성](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) 또는 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko-KR) 옵션을 통해 제어할 수 있습니다.
 
 이 시각화는 다음과 같은 방식으로 동작합니다.
 

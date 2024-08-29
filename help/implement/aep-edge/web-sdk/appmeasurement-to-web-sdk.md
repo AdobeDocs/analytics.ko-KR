@@ -2,7 +2,7 @@
 title: AppMeasurement에서 웹 SDK로 마이그레이션
 description: AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 Adobe Analytics 구현을 업데이트합니다.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
+source-git-commit: 05690cc8c1ea0364cbab86f35666df1cc1b13e69
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 만듭�
 
 Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 명령을 사용하여 이전 단계에서 만든 데이터 스트림을 가리키도록 구현을 설정하십시오. 라이브러리 설치 코드와 함께 `configure` 명령을 포함할 수 있도록 모든 페이지에서  명령을 설정해야 합니다.
 
-Web SDK `configure` 명령 내에서 [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamId) 및 [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) 속성을 사용합니다.
+Web SDK `configure` 명령 내에서 [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) 및 [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) 속성을 사용합니다.
 
 * `datastreamId`을(를) 이전 단계에서 검색한 데이터 스트림 ID로 설정합니다.
 * `orgId`을(를) 조직의 IMS 조직으로 설정합니다.
