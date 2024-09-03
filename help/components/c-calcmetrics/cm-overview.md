@@ -1,19 +1,19 @@
 ---
-description: 계산 및 고급 계산 (또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 지정 지표입니다.
-keywords: 계산된 지표;파생 지표;고급 계산된 지표
-title: 계산 및 고급 계산 (파생) 지표
+description: 계산 및 고급 계산 지표는 기존 지표에서 만들 수 있는 사용자 지정 지표입니다.
+keywords: 계산된 지표;고급 계산된 지표
+title: 계산된 지표 및 고급 계산된 지표
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 59%
+source-wordcount: '533'
+ht-degree: 54%
 
 ---
 
-# 계산 및 고급 계산(파생) 지표
+# 계산된 지표 및 고급 계산된 지표
 
-계산 및 고급 계산(또는 파생) 지표는 기존 지표에서 만들 수 있는 사용자 지정 지표입니다.
+계산 및 고급 계산 지표는 기존 지표에서 만들 수 있는 사용자 지정 지표입니다.
 
 Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. 이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 [!DNL Analytics] 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. 각 [!DNL Analytics] 패키지에서 사용할 수 있는 사용자 지정 지표는 다음과 같습니다.
 
@@ -24,7 +24,7 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 
 다음은 계산된 지표와 고급 계산된 지표 기능을 비교한 것입니다.
 
-| Builder 옵션 | 계산된 지표 | 고급 계산(파생) 지표 |
+| Builder 옵션 | 계산된 지표 | 고급 계산된 지표 |
 |---|---|---|
 | [형식 유형 (십진수, 시간, 퍼센트, 통화)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 예 | 예 |
 | [기여도 분석 변경 (기본값, 선형, 기여도 등)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 예 | 예 |

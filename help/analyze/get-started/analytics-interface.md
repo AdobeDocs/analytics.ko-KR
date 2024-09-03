@@ -3,10 +3,10 @@ description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Anal
 title: Analytics 인터페이스 이해
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 100%
+source-wordcount: '2065'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    | 제품 기능 | 함수 | 추가 정보 |
    |---------|----------|----------|
    | 세그먼트 | Adobe Analytics를 사용하여 강력한 집중 대상자 세그먼트를 작성하고 관리하고 공유하고 Analytics 기능, Adobe Experience Cloud, Adobe Target 및 기타 통합 Adobe 제품을 통해 보고서에 적용할 수 있습니다. | [Analytics 세분화](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
-   | 계산된 지표 | 계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 정의 지표입니다.  이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 Analytics 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. | [계산 및 고급 계산(파생) 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
+   | 계산된 지표 | 계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 정의 지표입니다.  이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 Analytics 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. | [계산된 지표 및 고급 계산된 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
    | 날짜 범위 | Analysis Workspace에는 사용자가 분석을 빌드할 때 사용할 수 있는 기본 날짜 범위 목록이 포함되어 있습니다. 또한 사용자 정의 날짜 범위를 만들고 Analysis Workspace에서 사용자가 사용할 수 있도록 설정할 수 있습니다. | [사용자 정의 날짜 범위 만들기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ko-KR) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 가상 보고서 세트 | 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼트로 분할하므로 각 세그먼트에 대한 액세스를 제어할 수 있습니다. | [가상 보고서 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html) |
    | 경고 | 지능형 경고는 경고를 더욱 세밀하게 제어할 수 있도록 해 주며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다. | [지능형 경고](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
@@ -120,7 +120,7 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    | 웹 서비스 | 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다. | [웹 서비스](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html) |
    | Report Builder 보고서 | Report Builder 사용자에 할당된 라이선스 관리 | [Report Builder 보고서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html) |
    | SSO(Single Sign-On) 서비스 | Adobe Experience Cloud의 SSO(Single Sign-On)는 Admin Console을 통해 구현됩니다. | [Adobe Admin Console의 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR) |
-   | 보고서 세트 숨기기 | 귀하와 귀하의 사용자가 보고서 세트를 더 이상 사용할 수 없도록 Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 수 있습니다. | [보고서 세트 숨기기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html) |  |
+   | 보고서 세트 숨기기 | 귀하와 귀하의 사용자가 보고서 세트를 더 이상 사용할 수 없도록 Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 수 있습니다. | [보고서 세트 숨기기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html) |
 
    {style="table-layout:auto"}
 

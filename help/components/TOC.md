@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '808'
+ht-degree: 99%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 100%
    + [이전 세그먼트 관리에 대한 FAQ](segmentation/seg-transition.md)
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
-   + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
+   + [계산된 지표 및 고급 계산된 지표](c-calcmetrics/cm-overview.md)
    + [사용 방법 비디오](c-calcmetrics/cm-videos.md)
    + 계산된 지표 워크플로 {#calcmetric-workflow}
       + [계산된 지표 워크플로](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
