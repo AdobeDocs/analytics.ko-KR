@@ -3,16 +3,16 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 85%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2024년 8월)
 
-**마지막 업데이트**: 2024년 8월 20일
+**마지막 업데이트**: 2024년 9월 9일 화요일
 
 이번 릴리스 정보에는 2024년 8월 14일부터 9월까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에 있는 추가 정보** | 계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에는 다음과 같은 새 보고 영역이 포함됩니다.<ul><li>**Report Builder:** Report Builder에서 사용 중인 계산된 지표 또는 세그먼트의 수를 표시합니다.</li><li>**Ad Hoc 구성 요소:** 프로젝트에서 사용 중인 Ad Hoc 계산된 지표 또는 Ad Hoc 세그먼트의 수를 표시합니다. 이러한 애드혹 계산된 지표 및 세그먼트(또는 &quot;빠른 계산된 지표&quot; 및 &quot;빠른 세그먼트&quot;라고도 함)는 해당 지표가 생성된 프로젝트에서만 사용할 수 있으므로 &quot;사용됨&quot; 열의 &quot;프로젝트&quot; 보고 영역과 별도로 보고됩니다.</li></ul><p>(참조할 설명서 링크가 업데이트되었습니다.)</p> | 해당 사항 없음 | 2024년 9월 11일 목요일 |
 | **링크 추적을 위한 Web SDK 개선 사항** | Web SDK 최신 버전에서는 링크 추적을 중심으로 여러 가지 주목할 만한 개선 사항이 적용되었으며 이는 Activity Map 활용에 직접적인 이점을 제공합니다. 이 새로운 기능들은 Web SDK JavaScript 라이브러리와 Web SDK 태그 확장 기능 모두에서 사용할 수 있습니다.<ul><li>이벤트 그룹화: 방문자가 내부 링크를 클릭하면 링크 추적을 위한 별도 이벤트 호출을 트리거하는 대신 다음 페이지에서 이벤트 데이터를 그룹화하도록 선택할 수 있습니다. 이 개선 사항은 Web SDK가 계약상 한계 대비 적은 이벤트 수를 사용하도록 해 줍니다.</li><li>필터 클릭 속성: `OnBeforeLinkClickSend`를 대체하는 새로운 콜백입니다. 이 콜백을 사용하면 링크 관련 데이터를 Adobe로 전송하기 전에 필터링하거나 난독화할 수 있습니다.</li></ul><p>자세한 내용은 Web SDK 사용 안내서에서 [clickCollection](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollection)을 참조하십시오.</p> | 2024년 7월 10일 오픈 베타 시작 | 2024년 7월 18일 |
 
 {style="table-layout:auto"}
