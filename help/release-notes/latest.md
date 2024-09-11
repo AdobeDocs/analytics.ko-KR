@@ -3,42 +3,53 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
+source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 85%
+source-wordcount: '738'
+ht-degree: 56%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보 (2024년 8월)
+# 최신 Adobe Analytics 릴리스 정보 (2024년 9월)
 
-**마지막 업데이트**: 2024년 9월 9일 화요일
 
-이번 릴리스 정보에는 2024년 8월 14일부터 9월까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+**마지막 업데이트**: 2024년 9월 11일 목요일
+
+이 릴리스 노트는 2024년 9월 11일부터 10월 초까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
-| ----------- | ---------- | ------- | ---- |
-| **계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에 있는 추가 정보** | 계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에는 다음과 같은 새 보고 영역이 포함됩니다.<ul><li>**Report Builder:** Report Builder에서 사용 중인 계산된 지표 또는 세그먼트의 수를 표시합니다.</li><li>**Ad Hoc 구성 요소:** 프로젝트에서 사용 중인 Ad Hoc 계산된 지표 또는 Ad Hoc 세그먼트의 수를 표시합니다. 이러한 애드혹 계산된 지표 및 세그먼트(또는 &quot;빠른 계산된 지표&quot; 및 &quot;빠른 세그먼트&quot;라고도 함)는 해당 지표가 생성된 프로젝트에서만 사용할 수 있으므로 &quot;사용됨&quot; 열의 &quot;프로젝트&quot; 보고 영역과 별도로 보고됩니다.</li></ul><p>(참조할 설명서 링크가 업데이트되었습니다.)</p> | 해당 사항 없음 | 2024년 9월 11일 목요일 |
-| **링크 추적을 위한 Web SDK 개선 사항** | Web SDK 최신 버전에서는 링크 추적을 중심으로 여러 가지 주목할 만한 개선 사항이 적용되었으며 이는 Activity Map 활용에 직접적인 이점을 제공합니다. 이 새로운 기능들은 Web SDK JavaScript 라이브러리와 Web SDK 태그 확장 기능 모두에서 사용할 수 있습니다.<ul><li>이벤트 그룹화: 방문자가 내부 링크를 클릭하면 링크 추적을 위한 별도 이벤트 호출을 트리거하는 대신 다음 페이지에서 이벤트 데이터를 그룹화하도록 선택할 수 있습니다. 이 개선 사항은 Web SDK가 계약상 한계 대비 적은 이벤트 수를 사용하도록 해 줍니다.</li><li>필터 클릭 속성: `OnBeforeLinkClickSend`를 대체하는 새로운 콜백입니다. 이 콜백을 사용하면 링크 관련 데이터를 Adobe로 전송하기 전에 필터링하거나 난독화할 수 있습니다.</li></ul><p>자세한 내용은 Web SDK 사용 안내서에서 [clickCollection](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollection)을 참조하십시오.</p> | 2024년 7월 10일 오픈 베타 시작 | 2024년 7월 18일 |
+|--- | --- | --- | --- |
+| **계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에 있는 추가 정보** | 계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에는 다음과 같은 새 보고 영역이 포함됩니다.<ul><li>**Report Builder**: Report Builder에서 사용 중인 계산된 지표 또는 세그먼트의 수를 표시합니다.</li><li>**Ad Hoc 구성 요소**: 프로젝트에서 사용 중인 Ad Hoc 계산된 지표 또는 Ad Hoc 세그먼트의 수를 표시합니다. 이러한 애드혹 계산된 지표 및 세그먼트(또는 &quot;빠른 계산된 지표&quot; 및 &quot;빠른 세그먼트&quot;라고도 함)는 해당 지표가 생성된 프로젝트에서만 사용할 수 있으므로 &quot;사용됨&quot; 열의 &quot;프로젝트&quot; 보고 영역과 별도로 보고됩니다.</li></ul> |  | 2024년 9월 11일 |
+| **Activity Map v3 확장** | 이제 Activity Map v3 확장을 사용할 수 있습니다. v2 확장이 설치되어 있는 경우 v3 확장을 설치하기 전에 제거합니다. 최신 버전의 확장을 얻으려면 **[!UICONTROL 도구]** > **[!UICONTROL Activity Map]**(으)로 이동합니다. |  | 2024년 9월 3일 |
 
-{style="table-layout:auto"}
 
 ## Adobe Analytics의 수정 사항
 
-* Workspace에 알 수 없는 값이 여럿 표시되는 문제가 해결되었습니다(AN-353632).
-* Admin console에서 새 고객 또는 새 Analytics 제품 프로필을 추가한 후 알림 이메일이 전송되지 않는 문제가 해결되었습니다(AN-350930).
+A4T: AN-355736
+Activity Map: AN-353779
+Analysis Workspace: AN-348485; AN-349693; AN-357247
+Analytics 모바일 앱: AN-352645
+분류: AN-355636; AN-355651; AN-355753; AN-356005; AN-356439; AN-356540; AN-356577; AN-356622
+크로스 디바이스 분석: AN-355138
+데이터 피드: AN-356258; AN-357133
+Data Warehouse: AN-339292; AN-353807
+내보내기 위치: AN-356912
+개인 정보 API: AN-352420
+Report Builder: AN-352555; AN-354316
+예약된 프로젝트: AN-355971
+세그멘테이션: AN-352095;
+Target 보고: AN-355748
 
-### 기타 Analytics 수정 사항
-
-AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-353819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-352647; AN-352656; AN-351274; AN-352135; AN-351519; AN-344906; AN-353697; AN-354499; AN-354402; AN-354062; AN-353905; AN-353932; AN-354142; AN-354194; AN-354182; AN-353758; AN-353039; AN-353612; AN-350799; AN-354414; AN-354636; AN-354249; AN-353637; AN-350949; AN-349402; AN-355103; AN-354174; AN-353823; AN-354819; AN-354215; AN-354219; AN-354040; AN-354763; AN-354597; AN-354478; AN-354528; AN-354335
+기타 수정 사항: AN-349698; AN-349880; AN-354860; AN-355355; AN-356289;
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
 | **저장된 기간이 13개월 만료됨:`cust_visids`** | 2024년 8월 20일 | **2024년 8월 20일** Analytics Hit 처리 엔진의 릴리스에서는 저장된 `cust_visids`의 만료 기간을 13개월로 적용할 예정입니다. 보고서 세트에 “방문자 결합 활성화”가 활성화된 경우 이 설정은 히트에 `cust_visid`가 없는 `visid_high/visid_low value`에 대해 `cust_visid`를 찾는 데 사용됩니다. 이전에는 `visid_high/visid_low`에 대한 `cust_visid`의 매핑 만료가 없었습니다. 이 릴리스에서는 `visid_high/visid_low`가 `cust_visid`를 히트시킨 후 13개월 이상 경과한 경우 매핑이 만료됩니다. |
+| **추가 구현 세부 XDM 필드가 자동으로 매핑됨** | 2024년 9월 11일 목요일 | Adobe Experience Platform Edge Network을 사용하여 데이터를 Adobe Analytics으로 보낼 때 XDM 필드 `xdm.implementationdetails.name` 및 `xdm.implementationdetails.environment`은(는) 이제 항상 컨텍스트 데이터 변수 `c.a.x.implementationdetails.name` 및 `c.a.x.implementationdetails.environment`에 매핑됩니다. 이전에는 일부 시나리오에서 이러한 값을 채우지 못했습니다. 이러한 값의 가용성을 수용하도록 관련 처리 규칙을 조정하십시오. |
 
 {style="table-layout:auto"}
 
