@@ -3,10 +3,10 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
+source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 56%
+source-wordcount: '750'
+ht-degree: 55%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 56%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 |--- | --- | --- | --- |
-| **계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에 있는 추가 정보** | 계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에는 다음과 같은 새 보고 영역이 포함됩니다.<ul><li>**Report Builder**: Report Builder에서 사용 중인 계산된 지표 또는 세그먼트의 수를 표시합니다.</li><li>**Ad Hoc 구성 요소**: 프로젝트에서 사용 중인 Ad Hoc 계산된 지표 또는 Ad Hoc 세그먼트의 수를 표시합니다. 이러한 애드혹 계산된 지표 및 세그먼트(또는 &quot;빠른 계산된 지표&quot; 및 &quot;빠른 세그먼트&quot;라고도 함)는 해당 지표가 생성된 프로젝트에서만 사용할 수 있으므로 &quot;사용됨&quot; 열의 &quot;프로젝트&quot; 보고 영역과 별도로 보고됩니다.</li></ul> |  | 2024년 9월 11일 |
+| **계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에 있는 추가 정보** | 계산된 지표 관리자 및 세그먼트 관리자의 &quot;사용 위치&quot; 열에는 다음과 같은 새 보고 영역이 포함됩니다.<ul><li>**Report Builder**: Report Builder에서 사용 중인 계산된 지표 또는 세그먼트의 수를 표시합니다.</li><li>**Ad Hoc 구성 요소**: 프로젝트에서 사용 중인 Ad Hoc 계산된 지표 또는 Ad Hoc 세그먼트의 수를 표시합니다. 이러한 애드혹 계산된 지표 및 세그먼트(또는 &quot;빠른 계산된 지표&quot; 및 &quot;빠른 세그먼트&quot;라고도 함)는 해당 지표가 생성된 프로젝트에서만 사용할 수 있으므로 &quot;사용됨&quot; 열의 &quot;프로젝트&quot; 보고 영역과 별도로 보고됩니다.</li></ul>자세한 내용은 [계산된 지표 관리자](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) 및 [세그먼트 관리자](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage)를 참조하십시오. |  | 2024년 9월 11일 |
 | **Activity Map v3 확장** | 이제 Activity Map v3 확장을 사용할 수 있습니다. v2 확장이 설치되어 있는 경우 v3 확장을 설치하기 전에 제거합니다. 최신 버전의 확장을 얻으려면 **[!UICONTROL 도구]** > **[!UICONTROL Activity Map]**(으)로 이동합니다. |  | 2024년 9월 3일 |
 
 
