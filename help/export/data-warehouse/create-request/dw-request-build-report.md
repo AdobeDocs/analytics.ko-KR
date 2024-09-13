@@ -3,10 +3,10 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 작성
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 42%
 
 ---
 
@@ -25,6 +25,12 @@ Data Warehouse 요청에 대한 보고서를 작성하려면 다음 작업을 �
 1. 새 Data Warehouse 요청 페이지에서 [!UICONTROL **보고서 작성**] 탭을 선택합니다.
 
    ![보고서 탭 빌드](assets/build-report.png)
+
+1. 왼쪽 상단 모서리에서 Data Warehouse 보고서를 작성할 때 사용할 보고서 세트를 선택합니다.
+
+   세그먼트 빌더에서 만든 모든 세그먼트가 Data Warehouse와 호환되는 것은 아닙니다. 호환되지 않는 세그먼트가 포함된 가상 보고서 세트를 선택하면 오류가 표시됩니다.
+
+   세그먼트 내에서 지원되는 함수 목록을 보려면 [Data Warehouse 세그먼트 호환성](/help/components/segmentation/seg-reference/seg-compatibility.md)을 참조하세요.
 
 1. 세그먼트, 지표 및 차원을 빌더로 드래그합니다. 빌드하는 보고서는 Data Warehouse 요청에 포함되는 데이터를 결정합니다.
 
