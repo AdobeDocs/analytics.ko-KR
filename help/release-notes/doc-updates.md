@@ -5,8 +5,8 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
-workflow-type: ht
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
 source-wordcount: '5972'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 | 일반 오류 메시지 업데이트 | [일반 오류 메시지](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |
 | **2024년 6월** | |
 | 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 이를 Analysis Workspace에 표시하는 스트리밍 미디어 기능 세트를 참조할 때 “미디어 분석” 및 “스트리밍 미디어” 인스턴스를 “스트리밍 미디어 컬렉션 추가 기능”이라는 이름으로 대체했습니다. <p>이번 업데이트는 Adobe Analytics 설명서와 [스트리밍 미디어 컬렉션 추가 기능 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) 전체에 적용됩니다.</p> |
-| 개선된 지능형 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [경고 관리](/help/components/c-alerts/alert-manager.md) 및 [정보 개요](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)에 대한 정보가 포함되어 있습니다. |
+| 개선된 지능형 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/components/c-alerts/alert-builder.md), [경고 관리](/help/components/c-alerts/alert-manager.md) 및 [정보 개요](/help/components/c-alerts/intellligent-alerts.md)에 대한 정보가 포함되어 있습니다. |
 | 더 이상 사용되지 않는 `cookieDomainPeriods` | 이제 AppMeasurement가 쿠키를 설정할 올바른 도메인을 자동으로 감지하므로 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 변수는 더 이상 사용되지 않습니다. |
 | Data Connectors 설명서 사용 중단 | Data Connectors 서비스 종료 페이지가 [단종 제품](https://experienceleague.adobe.com/ko/docs/discontinued/using/data-connectors)으로 이동되었습니다. |
 | **2024년 5월** | |

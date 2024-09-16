@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: ht
-source-wordcount: '808'
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -253,10 +253,10 @@ ht-degree: 100%
    + [가상 보고서 세트를 특정 날짜로 제한](cda/limit-vrs-date.md)
    + [크로스 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
-   + [지능형 경고](c-alerts/intellligent-alerts.md)
-   + [경고 빌더](c-alerts/alert-builder.md)
-   + [경고 관리자](c-alerts/alert-manager.md)
-   + [지능형 경고 - 사용 사례](c-alerts/alerts-use-cases.md)
+   + [개요](c-alerts/intellligent-alerts.md)
+   + [만들기](c-alerts/alert-builder.md)
+   + [관리](c-alerts/alert-manager.md)
+   + [사용 사례](c-alerts/alerts-use-cases.md)
 + 분류 {#classifications}
    + [분류 개요](classifications/c-classifications.md)
    + 분류 설정 {#sets}

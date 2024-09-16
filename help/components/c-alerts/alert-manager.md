@@ -3,7 +3,7 @@ description: 경고 관리.
 title: 경고 관리자 개요
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
    * [!UICONTROL **Analytics 데이터 경고**]: 데이터에서 비정상적인 이벤트가 발생하면 알려 주는 경고입니다.
 
-     이 옵션을 선택하는 경우 경고 만들기에 대한 자세한 내용을 보려면 [경고 만들기](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)를 계속하십시오.
+     이 옵션을 선택하는 경우 경고 만들기에 대한 자세한 내용을 보려면 [경고 만들기](/help/components/c-alerts/alert-builder.md)를 계속하십시오.
 
    * [!UICONTROL **서버 호출 사용량 경고**]: 서버 호출 사용량 및 약정 데이터의 초과 사용 위험이나 발생을 알리는 경고입니다.
 
