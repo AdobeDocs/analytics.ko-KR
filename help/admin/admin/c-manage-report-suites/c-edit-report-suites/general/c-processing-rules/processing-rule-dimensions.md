@@ -5,7 +5,7 @@ title: 처리 규칙에 사용 가능한 차원
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
+source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
@@ -22,8 +22,6 @@ ht-degree: 13%
 | --- | --- | --- |
 | 사용자 정의 값 | 읽기 전용 | 처리 규칙 동작 시 직접 입력된 사용자 지정 텍스트 또는 값. |
 | 연결된 값 | 읽기 전용 | 두 값을 결합하여 생성되는 값입니다. 예를 들어 채널과 페이지 이름을 결합하여 하위 범주를 만들 수 있습니다. |
-
-{style="table-layout:auto"}
 
 ## 히트 속성
 
@@ -47,11 +45,9 @@ ht-degree: 13%
 | 페이지 루트 도메인 | 읽기 전용 | 하위 도메인을 제외한 현재 URL의 페이지 도메인. |
 | 고객 관점 | 읽기 + 쓰기 | 히트가 모바일 배경 히트인지 여부를 결정하는 플래그입니다. |
 
-{style="table-layout:auto"}
-
 ## 전환 변수
 
-| 변수 | 읽기/쓰기 상태 설명 |
+| 변수 | 읽기/쓰기 상태 | 설명 |
 | --- | --- | --- |
 | eVar 1-250 | 읽기 + 쓰기 | [eVar](/help/components/dimensions/evar.md) 차원. |
 | 캠페인 | 읽기 + 쓰기 | [추적 코드](/help/components/dimensions/tracking-code.md) 차원입니다. |
@@ -60,8 +56,6 @@ ht-degree: 13%
 | Zip | 읽기 + 쓰기 | [우편 번호](/help/components/dimensions/zip-code.md) 차원. |
 | 통화 코드 | 읽기 + 쓰기 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 구현 변수입니다. 중요: 이 변수를 잘못된 값으로 설정하면 히트가 무시됩니다. |
 | 거래 ID | 읽기 + 쓰기 | [`transactionID`](/help/import/data-sources/transactionid.md) 구현 변수입니다. |
-
-{style="table-layout:auto"}
 
 >[!NOTE]
 >Adobe은 처리 규칙을 사용하여 [`products`](/help/implement/vars/page-vars/products.md) 구현 변수를 설정할 수 없습니다.
@@ -74,8 +68,6 @@ ht-degree: 13%
 | 계층 구조 1-5 | 읽기 + 쓰기 | [계층](/help/components/dimensions/hierarchy.md) 차원. |
 | 서버 | 읽기 + 쓰기 | [서버](/help/components/dimensions/server.md) 차원. |
 | 채널 | 읽기 + 쓰기 | [사이트 섹션](/help/components/dimensions/site-section.md) 차원. |
-
-{style="table-layout:auto"}
 
 ## 컨텍스트 변수
 
@@ -96,4 +88,3 @@ ht-degree: 13%
 | 이벤트 1-1000 | 쓰기 전용 | [사용자 지정 이벤트](/help/components/metrics/custom-events.md). |
 | 제품 보기 | 쓰기 전용 | [제품 보기](/help/components/metrics/product-views.md) 지표입니다. |
 
-{style="table-layout:auto"}
