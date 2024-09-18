@@ -1,18 +1,18 @@
 ---
-description: 지능형 경고 생성 및 관리에 대한 활용 사례.
-title: 지능형 경고 - 사용 사례
+description: 경고 생성 및 관리에 대한 사용 사례입니다.
+title: 경고 - 사용 사례
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 67%
+source-wordcount: '66'
+ht-degree: 46%
 
 ---
 
-# 지능형 경고 - 사용 사례
+# 경고 - 사용 사례
 
-[경고 만들기](/help/components/c-alerts/alert-builder.md)에 설명된 대로 지능형 경고를 만들 수 있습니다.
+[경고 만들기](/help/components/c-alerts/alert-builder.md)에 설명된 대로 경고를 만들 수 있습니다.
 
 다음 섹션에서는 경고를 만들 때 고려할 사용 사례에 대해 설명합니다.
 

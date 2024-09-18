@@ -3,10 +3,10 @@ description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Anal
 title: Analytics 인터페이스 이해
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: ht
-source-wordcount: '2065'
-ht-degree: 100%
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+workflow-type: tm+mt
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    | 계산된 지표 | 계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 정의 지표입니다.  이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 Analytics 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. | [계산된 지표 및 고급 계산된 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
    | 날짜 범위 | Analysis Workspace에는 사용자가 분석을 빌드할 때 사용할 수 있는 기본 날짜 범위 목록이 포함되어 있습니다. 또한 사용자 정의 날짜 범위를 만들고 Analysis Workspace에서 사용자가 사용할 수 있도록 설정할 수 있습니다. | [사용자 정의 날짜 범위 만들기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ko-KR) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 가상 보고서 세트 | 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼트로 분할하므로 각 세그먼트에 대한 액세스를 제어할 수 있습니다. | [가상 보고서 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html) |
-   | 경고 | 지능형 경고는 경고를 더욱 세밀하게 제어할 수 있도록 해 주며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다. | [지능형 경고](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
+   | 경고 | 경고는 경고를 더욱 세밀하게 제어할 수 있도록 해주며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다. | [경고 개요](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
    | 주석 | 작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. 캘린더 이벤트를 특정 차원 및 지표에 연결할 수 있습니다. | [주석 관리](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html) |
    | 분류 설정 | 분류 세트는 분류 및 규칙을 관리할 수 있는 단일 인터페이스를 제공합니다. <p>분류란 Analytics 변수 데이터를 범주별로 분류하여 보고서를 생성할 때 여러 다른 방법으로 데이터를 표시하는 방법입니다. 변수 값 및 해당 값과 관련된 메타데이터 간의 관계를 설정합니다. 추적 코드, Prop 및 eVar와 같은 대부분의 사용자 정의 차원에서 분류를 사용할 수 있습니다.</p> | [분류 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html) |
    | 위치 | 클라우드 대상에서 Adobe Analytics 분류 데이터를 가져오려면 먼저 분류 데이터를 수집할 위치를 추가하고 구성해야 합니다. 위치를 만들고, 편집하거나 삭제할 수 있습니다. | [위치 관리자](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html) |

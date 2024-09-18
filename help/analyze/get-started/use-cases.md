@@ -3,9 +3,9 @@ description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Anal
 title: Analytics 사용 사례
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
@@ -51,8 +51,8 @@ Adobe Analytics의 다음 주요 기능은 이러한 마케팅 기능을 제공�
 
 Adobe Analytics의 다음 주요 기능은 이러한 예측 기능을 제공합니다.
 
-* [예외 항목 탐지](#anomaly-detection)
+* [예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)
 
-* [기여도 분석](#contribution-analysis)
+* [기여도 분석](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [지능형 경고](#intelligent-alerts)
+* [경고](/help/components/c-alerts/intellligent-alerts.md)

@@ -3,10 +3,10 @@ title: Adobe Analytics의 보고서 사용자 지정
 description: Adobe Analytics에서 보고서를 사용자 지정하는 방법 알아보기
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -72,4 +72,4 @@ Google Analytics에서 사용자 지정 보고서를 만들 때 필수 필드는
 
 ## 사용자 지정 경고
 
-경고는 두 플랫폼 모두에서 사용할 수 있습니다. Adobe Analytics에서 헤더 탐색 메뉴를 사용하여 *[!UICONTROL 구성 요소]* > *[!UICONTROL 경고]*&#x200B;로 이동합니다. 자세한 내용은 구성 요소 사용 안내서의 [지능적인 경고](/help/components/c-alerts/intellligent-alerts.md)를 참조하십시오.
+경고는 두 플랫폼 모두에서 사용할 수 있습니다. Adobe Analytics에서 헤더 탐색 메뉴를 사용하여 *[!UICONTROL 구성 요소]* > *[!UICONTROL 경고]*&#x200B;로 이동합니다. 자세한 내용은 구성 요소 사용 안내서의 [경고 개요](/help/components/c-alerts/intellligent-alerts.md)를 참조하십시오.

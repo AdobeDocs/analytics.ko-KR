@@ -4,9 +4,9 @@ title: 보고 활동 관리자에서 보고 요청 취소
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1438'
 ht-degree: 13%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 13%
 * Report Builder
 * 빌더 UI: 세그먼트, 계산된 지표, 주석, 대상자 등
 * 1.4 또는 2.0 API의 API 호출
-* 지능형 경고
+* 경고
 * 모든 사람과 공유 링크
 * Analytics 보고 엔진을 쿼리하는 다른 모든 애플리케이션
 

@@ -3,10 +3,10 @@ description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Anal
 title: 관리자, 분석가, 최종 사용자 및 개발자용 시작하기
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 100%
+source-wordcount: '1692'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ Analytics 관리자는 Analytics 환경의 중요한 측면을 모니터링하�
 | 속성 | 분석가는 Analysis Workspace에서 다양한 속성 모델 및 전환 확인 창을 사용하여 차원 항목이 성공 이벤트에 대한 크레딧을 받는 방법을 사용자 정의할 수 있습니다.<p>선형 속성 모델은 전환으로 이어지는 모든 접점에 동일한 크레딧을 제공하는 반면, 첫 번째 터치는 첫 번째 접점에 전체 크레딧을 제공합니다. 통계 기법을 사용하여 최적의 크레딧의 최적 할당을 동적으로 결정하는 알고리즘 모델을 포함하여 다른 많은 속성 모델을 사용할 수 있습니다. </p> | [속성 모델 및 전환 확인 기간](/help/analyze/analysis-workspace/attribution/models.md) |
 | 예외 항목 탐지 | Analysis Workspace의 통계 모델링은 지표를 분석하고 값의 하한, 상한 및 예상 범위를 분석하여 데이터에서 예상치 않은 범위를 자동으로 파악합니다. 예상치 않은 급등이나 하락이 발생하면 보고서에 경고가 표시됩니다. | [예외 항목 탐지 개요](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | 기여도 분석 | Analysis Workspace를 사용하면 사용자 데이터 안에서 숨겨진 패턴을 발견하여 통계적 예외 항목을 설명하고 대상자 세그먼트에서 지표에 대해 예상치 못한 고객 작업, 범위를 벗어나는 값, 급증 또는 급감 뒤의 상관관계를 식별할 수 있습니다. | [예외 항목 탐지 개요](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에서의 [기여도 분석](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| 지능형 경고 | 하나의 경고에서 여러 지표를 캡처하는 데이터 예외 항목 및 “누적된” 경고를 기반으로 경고를 만들고 관리합니다. | [지능형 경고 개요](/help/components/c-alerts/intellligent-alerts.md) |
+| 경고 | 하나의 경고에서 여러 지표를 캡처하는 데이터 예외 항목 및 “누적된” 경고를 기반으로 경고를 만들고 관리합니다. | [경고 개요](/help/components/c-alerts/intellligent-alerts.md) |
 | 데이터 내보내기 | Data Warehouse 및 데이터 피드를 사용하면 Google Cloud 플랫폼, Azure RBAC, Azure SAS 및 Amazon S3와 같은 다양한 클라우드 대상으로 데이터를 내보낼 수 있습니다. | [Analytics 내보내기 안내서](https://experienceleague.adobe.com/docs/analytics/export/home.html) |
 | Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급을 매기고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상자 참여를 모니터링하도록 설계된 Adobe Analytics 애플리케이션입니다.<p>Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고, 대상자의 요구 사항과 행동에 따라 대응할 수 있습니다.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
 | Report Builder | Report Builder는 Microsoft Excel용 추가 기능입니다. Report Builder를 사용하면 Excel 워크시트에 삽입되는 Adobe Analytics 데이터에서 사용자 정의 요청을 작성할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |
