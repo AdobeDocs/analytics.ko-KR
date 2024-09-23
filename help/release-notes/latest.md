@@ -4,25 +4,25 @@ description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2024년 9월)
 
 
-**마지막 업데이트**: 2024년 9월 11일 목요일
+**마지막 업데이트**: 2024년 9월 11일
 
-이 릴리스 노트는 2024년 9월 11일부터 10월 초까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이번 릴리스 정보에는 2024년 9월 11일부터 10월 초까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 |--- | --- | --- | --- |
-| **계산된 지표 관리자 및 세그먼트 관리자 내 “다음에서 사용” 열의 추가 정보** | 계산된 지표 관리자 및 세그먼트 관리자의 “다음에서 사용” 열에는 다음과 같은 새로운 보고 영역이 포함되어 있습니다.<ul><li>**Report Builder**: Report Builder에서 사용 중인 계산된 지표 또는 세그먼트의 수를 표시합니다.</li><li>**Ad Hoc 구성 요소**: 프로젝트에서 사용 중인 Ad Hoc 계산된 지표 또는 Ad Hoc 세그먼트의 수를 표시합니다. 이러한 애드혹 계산된 지표 및 세그먼트(“빠른 계산된 지표” 및 “빠른 세그먼트”라고도 함)는 생성된 프로젝트에서만 사용할 수 있으므로 “다음에서 사용” 열의 “프로젝트” 보고 영역에서 별도로 보고됩니다.</li></ul>자세한 내용은 [계산된 지표 관리자](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) 및 [세그먼트 관리자](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage)를 참조하십시오. |  | 2024년 9월 11일 |
-| **Activity Map v3 확장** | 이제 Activity Map v3 확장을 사용할 수 있습니다. v2 확장이 설치되어 있는 경우 v3 확장을 설치하기 전에 제거합니다. 최신 버전의 확장을 얻으려면 **[!UICONTROL 도구]** > **[!UICONTROL Activity Map]**(으)로 이동합니다. |  | 2024년 9월 3일 |
+| **계산된 지표 관리자 및 세그먼트 관리자 내 “다음에서 사용” 열의 추가 정보** | 계산된 지표 관리자 및 세그먼트 관리자의 “다음에서 사용” 열에는 다음과 같은 새로운 보고 영역이 포함되어 있습니다.<ul><li>**Report Builder**: Report Builder에서 사용되는 계산된 지표 또는 세그먼트의 수를 보여 줍니다.</li><li>**애드혹 구성 요소**: 프로젝트에서 사용되는 애드혹 계산된 지표 또는 애드혹 세그먼트의 수를 보여 줍니다. 이러한 애드혹 계산된 지표 및 세그먼트(“빠른 계산된 지표” 및 “빠른 세그먼트”라고도 함)는 생성된 프로젝트에서만 사용할 수 있으므로 “다음에서 사용” 열의 “프로젝트” 보고 영역에서 별도로 보고됩니다.</li></ul>자세한 내용은 [계산된 지표 관리자](https://experienceleague.adobe.com/ko/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) 및 [세그먼트 관리자](https://experienceleague.adobe.com/ko/docs/analytics/components/segmentation/segmentation-workflow/seg-manage)를 참조하십시오. |  | 2024년 9월 11일 |
+| **Activity Map v3 확장 기능** | 이제 Activity Map v3 확장 기능을 사용할 수 있습니다. v2 확장 기능이 설치되어 있다면 v3 확장 기능을 설치하기 전에 이를 제거하십시오. 최신 버전의 확장 기능을 구하려면 **[!UICONTROL 도구]** > **[!UICONTROL Activity Map]**&#x200B;으로 이동하십시오. |  | 2024년 9월 3일 |
 
 
 ## Adobe Analytics의 수정 사항
@@ -36,11 +36,11 @@ Analytics 모바일 앱: AN-352645
 데이터 피드: AN-356258; AN-357133
 Data Warehouse: AN-339292; AN-353807
 내보내기 위치: AN-356912
-개인 정보 API: AN-352420
+개인정보 보호 API: AN-352420
 Report Builder: AN-352555; AN-354316
 예약된 프로젝트: AN-355971
-세그멘테이션: AN-352095;
-Target 보고: AN-355748
+세분화: AN-352095;
+타겟 보고: AN-355748
 
 기타 수정 사항: AN-349698; AN-349880; AN-354860; AN-355355; AN-356289;
 
@@ -49,7 +49,7 @@ Target 보고: AN-355748
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
 | **저장된 기간이 13개월 만료됨:`cust_visids`** | 2024년 8월 20일 | **2024년 8월 20일** Analytics Hit 처리 엔진의 릴리스에서는 저장된 `cust_visids`의 만료 기간을 13개월로 적용할 예정입니다. 보고서 세트에 “방문자 결합 활성화”가 활성화된 경우 이 설정은 히트에 `cust_visid`가 없는 `visid_high/visid_low value`에 대해 `cust_visid`를 찾는 데 사용됩니다. 이전에는 `visid_high/visid_low`에 대한 `cust_visid`의 매핑 만료가 없었습니다. 이 릴리스에서는 `visid_high/visid_low`가 `cust_visid`를 히트시킨 후 13개월 이상 경과한 경우 매핑이 만료됩니다. |
-| **추가 구현 세부 XDM 필드가 자동으로 매핑됨** | 2024년 9월 11일 | Adobe Experience Platform Edge Network을 사용하여 데이터를 Adobe Analytics으로 보낼 때 XDM 필드 `xdm.implementationdetails.name` 및 `xdm.implementationdetails.environment`은(는) 이제 항상 컨텍스트 데이터 변수 `c.a.x.implementationdetails.name` 및 `c.a.x.implementationdetails.environment`에 매핑됩니다. 이전에는 일부 시나리오에서 이러한 값을 채우지 못했습니다. 이러한 값의 가용성을 수용하도록 관련 처리 규칙을 조정하십시오. |
+| **추가 구현 세부 사항 XDM 필드가 자동으로 매핑됨** | 2024년 9월 11일 | 이제 Adobe Experience Platform Edge Network를 사용하여 Adobe Analytics로 데이터를 전송할 때 XDM 필드 `xdm.implementationdetails.name` 및 `xdm.implementationdetails.environment`가 항상 컨텍스트 데이터 변수 `c.a.x.implementationdetails.name` 및 `c.a.x.implementationdetails.environment`에 매핑됩니다. 이전에는 일부 시나리오에서 이들 값이 채워지지 않았습니다. 이들 값의 가용성에 맞게 관련 처리 규칙을 조정해 주십시오. |
 
 {style="table-layout:auto"}
 
@@ -64,12 +64,12 @@ Target 보고: AN-355748
 
 ## AppMeasurement
 
-AppMeasurement 릴리스(버전 2.26.0)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko-KR)를 참조하십시오.
+AppMeasurement 릴리스(버전 2.26.0)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko-kr)를 참조하십시오.
 
 
 ## 관련 리소스
 
 * [2024년 이전 릴리스 정보](/help/release-notes/2024.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR)
-* [스트리밍 미디어 컬렉션 추가 기능 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-KR)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-kr)
+* [스트리밍 미디어 컬렉션 추가 기능 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-kr)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
