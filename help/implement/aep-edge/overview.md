@@ -4,10 +4,10 @@ description: Adobe Analytics에서 Experience Platform의 XDM 데이터 사용 �
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: 4453c2aa2ea70ef4d00b2bc657285287f3250c65
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 85%
 
 ---
 
@@ -30,15 +30,18 @@ Adobe Experience Platform Edge Network로 전송된 데이터는 다음과 같�
 * XDM 오브젝트: [XDM(경험 데이터 모델)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) 기반 스키마를 따릅니다. XDM을 통해 이벤트의 일부로 정의된 필드를 유연하게 작업할 수 있습니다. 이벤트가 Adobe Analytics에 도달하면 Adobe Analytics가 처리할 수 있는 형식으로 변환됩니다.
 * 데이터 오브젝트: Adobe Analytics에 매핑된 특정 필드를 사용하여 Edge Network에 데이터를 전송합니다. Edge Network는 이러한 필드의 존재를 감지하고 스키마를 준수할 필요 없이 Adobe Analytics에 전달합니다.
 
-
-Edge Network는 다음 논리를 사용하여 Adobe Analytics 페이지 보기 및 링크 이벤트를 결정합니다.
+이 Edge Network은 다음 논리를 사용하여 Adobe Analytics 페이지 보기 수 및 링크 이벤트를 결정합니다.
 
 | XDM 페이로드에는 다음이 포함됩니다. | Adobe Analytics... |
 |---|---|
-| `web.webPageDetails.name` 또는 `web.webPageDetails.URL` 및 `web.webInteraction.type` 없음 | 페이로드를 **페이지 조회수**&#x200B;로 간주 |
-| `web.webInteraction.type` (`web.webInteraction.name` 또는 `web.webInteraction.url`) | 페이로드를 **링크 이벤트**&#x200B;로 간주 |
+| `xdm.web.webPageDetails.name` 또는 `xdm.web.webPageDetails.URL` 및 `xdm.web.webInteraction.type` 없음 | 페이로드를 **페이지 조회수**&#x200B;로 간주 |
+| `xdm.web.webInteraction.type` (`xdm.web.webInteraction.name` 또는 `xdm.web.webInteraction.url`) | 페이로드를 **링크 이벤트**&#x200B;로 간주 |
 | `web.webInteraction.type` (`web.webPageDetails.name` 또는 `web.webPageDetails.url`) | 페이로드를 **링크 이벤트**&#x200B;로 간주하고 <br/>`web.webPageDetails.name` `web.webPageDetails.URL`을 `null`로 설정 |
 | `web.webInteraction.type` 아님 및(`webPageDetails.name`, `web.webPageDetails.URL` 아님) | 페이로드 중단 및 데이터 무시 |
+| `xdm.eventType = display` 또는 <br/>`xdm.eventType = decisioning.propositionDisplay` 또는 <br/>`xdm.eventType = personalization.request` 또는 <br/>`xdm.eventType = decisioning.propositionFetch` 및 `xdm._experience.decisioning` | 페이로드를 **A4T** 호출로 간주합니다. |
+| `xdm.eventType = display` 또는 <br/>`xdm.eventType = decisioning.propositionDisplay` 또는 <br/>`xdm.eventType = personalization.request` 또는 <br/>`xdm.eventType = decisioning.propositionFetch` 및 `xdm._experience.decisioning` 없음 | 페이로드 중단 및 데이터 무시 |
+| `xdm.eventType = click` 또는 `xdm.eventType = decisioning.propositionInteract`과(와) `xdm._experience.decisioning` 및 `web.webInteraction.type` 없음 | 페이로드를 **A4T** 호출로 간주합니다. |
+| `xdm.eventType = click` 또는 `xdm.eventType = decisioning.propositionInteract`이고 `xdm._experience.decisioning`이(가) 없으며 `web.webInteraction.type`이(가) 없습니다. | 는 페이로드를 삭제하고 데이터를 무시합니다. |
 
 {style="table-layout:auto"}
 
