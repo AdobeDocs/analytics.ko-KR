@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 계정 구성
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
+source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -118,7 +118,7 @@ ht-degree: 56%
 
    >[!NOTE]
    >
-   >전자 메일 계정은 [데이터 피드](/help/export/analytics-data-feed/create-feed.md)에서만 사용할 수 있습니다. (전자 메일 계정은 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [분류 집합](/help/components/classifications/sets/overview.md)에서 지원되지 않습니다.)
+   >전자 메일 계정은 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)에서만 사용할 수 있습니다. (전자 메일 계정은 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 또는 [분류 세트](/help/components/classifications/sets/overview.md)에서 지원되지 않습니다.)
 
    Azure RBAC 계정을 구성하려면 다음 정보를 지정합니다.
 
