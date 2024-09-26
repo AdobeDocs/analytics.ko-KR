@@ -4,9 +4,9 @@ title: 관리자, 분석가, 최종 사용자 및 개발자용 시작하기
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Analytics 관리자는 Analytics 환경의 중요한 측면을 모니터링하�
 | 작업 | 용도 | 추가 정보 |
 |---------|----------|---------|
 | 보고 활동 관리자 | 보고 활동 관리자를 사용하면 조직의 각 보고서 세트에 대한 보고 용량을 확인할 수 있습니다. 보고 사용량에 대해 상세한 가시성을 제공하며, 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다. | [보고 활동 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html) |
-| 서버 호출 사용량 | 서버 호출은 데이터를 처리할 수 있도록 Adobe 서버로 보내는 인스턴스로서, “히트” 또는 “이미지 요청”이라고도 합니다. 서버 호출 사용량 대시보드에서 서버 호출 사용량 데이터를 추적하고, 계약상 한도와 비교할 수 있습니다. 초과분을 방지하도록 경고를 설정할 수 있습니다. | [서버 호출 사용량 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html) |
+| 서버 호출 사용량 | 서버 호출은 데이터를 처리할 수 있도록 Adobe 서버로 보내는 인스턴스로서 “히트” 또는 “이미지 요청”이라고도 합니다. 서버 호출 사용량 대시보드에서 서버 호출 사용량 데이터를 추적하고, 계약상 한도와 비교할 수 있습니다. 초과분을 방지하도록 경고를 설정할 수 있습니다. | [서버 호출 사용량 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html) |
 | 로그 파일 | 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일입니다. | [로그](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html) |
 
 {style="table-layout:auto"}

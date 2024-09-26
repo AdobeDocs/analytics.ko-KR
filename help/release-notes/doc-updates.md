@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5971'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 | 일반 오류 메시지 업데이트 | [일반 오류 메시지](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |
 | **2024년 6월** | |
 | 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 이를 Analysis Workspace에 표시하는 스트리밍 미디어 기능 세트를 참조할 때 “미디어 분석” 및 “스트리밍 미디어” 인스턴스를 “스트리밍 미디어 컬렉션 추가 기능”이라는 이름으로 대체했습니다. <p>이번 업데이트는 Adobe Analytics 설명서와 [스트리밍 미디어 컬렉션 추가 기능 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) 전체에 적용됩니다.</p> |
-| 향상된 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/components/c-alerts/alert-builder.md), [경고 관리](/help/components/c-alerts/alert-manager.md) 및 [정보 개요](/help/components/c-alerts/intellligent-alerts.md)에 대한 정보가 포함되어 있습니다. |
+| 개선된 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/components/c-alerts/alert-builder.md), [경고 관리](/help/components/c-alerts/alert-manager.md) 및 [정보 개요](/help/components/c-alerts/intellligent-alerts.md)에 대한 정보가 포함되어 있습니다. |
 | 더 이상 사용되지 않는 `cookieDomainPeriods` | 이제 AppMeasurement가 쿠키를 설정할 올바른 도메인을 자동으로 감지하므로 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 변수는 더 이상 사용되지 않습니다. |
 | Data Connectors 설명서 사용 중단 | Data Connectors 서비스 종료 페이지가 [단종 제품](https://experienceleague.adobe.com/ko/docs/discontinued/using/data-connectors)으로 이동되었습니다. |
 | **2024년 5월** | |
@@ -44,7 +44,7 @@ ht-degree: 99%
 | 프로젝트에 구성 요소를 추가하는 방법에 대한 설명서 | [Analysis Workspace에서 프로젝트에 다양한 유형의 구성 요소를 추가](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)하는 방법에 대한 일반 정보가 추가되었습니다. |
 | Advertising Analytics 설명서 업데이트 | [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 사용자 인터페이스 업데이트에 따라 문서가 업데이트되었습니다. |
 | XDM 오브젝트 변수를 컨텍스트 데이터 변수에 명시적으로 매핑 | [XDM 오브젝트 변수 매핑을 사용하여 컨텍스트 데이터 변수를 명시적으로 설정](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)하는 기능이 문서화되었습니다. |
-| Adobe Analytics에서 Customer Journey Analytics로 업그레이드에 대한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 조직의 경우 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 염두에 두어야 할 다양한 업그레이드 옵션 등 고려 사항이 많습니다.<p>이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics로 업그레이드를 시작](https://experienceleague.adobe.com/kr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)하십시오.</p> |
+| Adobe Analytics에서 Customer Journey Analytics로 업그레이드에 대한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 조직의 경우 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 염두에 두어야 할 다양한 업그레이드 옵션 등 고려 사항이 많습니다.<p>이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics로 업그레이드를 시작](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)하십시오.</p> |
 | 사용자 정의 날짜 범위에 대한 설명서를 업데이트했습니다. | 현재 제품 기능 및 디자인과 일치하도록 [사용자 정의 날짜 범위 만들기](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)와 관련된 스크린샷 및 절차를 업데이트했습니다. |
 | **2024년 4월** | |
 | 분류 세트에서 “소유자”와 관련된 문서를 제거했습니다. | [분류 세트 관리자](/help/components/classifications/sets/manage/set-manager.md)에서 “소유자” 필터 및 열이 제거되었으며 [분류 세트 설정](/help/components/classifications/sets/manage/settings.md)에서 “소유자” 필드가 제거되었습니다. <p>설명서가 업데이트되어 이 필터, 열 및 필드가 제거되었습니다.</p> |
