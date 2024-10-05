@@ -4,10 +4,10 @@ description: 컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 831df50a9c73522493ed60ce5df51192b6933480
+source-git-commit: 983b5073cf17a6aa0c038516c1d1ec3a40ca9eed
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 79%
+source-wordcount: '576'
+ht-degree: 69%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽을 수 있는 각 페이지에서 사용자 정의 변수를 정의할 수 있습니다. 코드에서 값을 Analytics 변수에 명시적으로 할당하는 대신 컨텍스트 데이터 변수에 데이터를 보낼 수 있습니다. 그러면 처리 규칙이 컨텍스트 데이터 변수 값을 가져와 각 Analytics 변수에 전달합니다. 관리자 사용 안내서의 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)을 참조하십시오.
 
-컨텍스트 데이터 변수는 개발 팀이 번호가 매겨진 변수 대신 명명된 요소의 데이터를 수집하는 데 유용합니다. 예를 들어 개발 팀에게 페이지의 작성자를 `eVar10`에 할당하도록 요청하는 대신 `s.contextData["author"]`에 할당하도록 요청할 수 있습니다. 그런 다음 조직의 Analytics 관리자는 처리 규칙을 만들어 컨텍스트 데이터 변수를 보고를 위한 분석 변수에 매핑할 수 있습니다. 개발 팀은 궁극적으로 Adobe가 제공하는 많은 페이지 변수 대신 컨텍스트 데이터 변수만 걱정하게 됩니다.
+컨텍스트 데이터 변수는 개발 팀이 번호가 매겨진 변수 대신 명명된 요소의 데이터를 수집하는 데 유용합니다. 예를 들어 개발 팀에게 페이지의 작성자를 `eVar10`에 할당하도록 요청하는 대신 `s.contextData["author"]`에 할당하도록 요청할 수 있습니다. 그런 다음 조직의 Analytics 관리자는 처리 규칙을 만들어 컨텍스트 데이터 변수를 보고를 위한 분석 변수에 매핑할 수 있습니다. 개발 팀은 궁극적으로 Adobe이 제공하는 많은 페이지 변수 대신 컨텍스트 데이터 변수만 걱정하게 됩니다.
 
 ## Web SDK를 사용한 컨텍스트 데이터 변수
 
@@ -56,6 +56,7 @@ s.contextData["example_variable"] = "Example value";
 * 유효한 컨텍스트 데이터 변수에는 영숫자, 밑줄 및 마침표만 포함됩니다. Adobe는 하이픈과 같은 다른 문자를 포함하는 경우 처리 규칙을 통한 데이터 수집을 보장하지 않습니다.
 * 컨텍스트 데이터 변수를 `"a."`으로 시작하지 마십시오. 이 접두사는 Adobe에 의해 예약되어 사용 중입니다. 예를 들어 `s.contextData["a.InstallEvent"]`를 사용하지 마십시오.
 * 컨텍스트 데이터 변수는 대/소문자를 구분하지 않습니다. 변수 `s.contextData["example"]`과 `s.contextData["EXAMPLE"]`은 동일합니다.
+* 단일 키에는 두 개 이상의 값을 포함할 수 없습니다. 다중 값 변수에 컨텍스트 데이터 변수를 사용하려면 구분 기호(일반적으로 쉼표)를 사용하여 모든 값을 연결하고, 처리 규칙을 사용하여 [목록 prop](prop.md#list-props) 또는 [목록 변수](list.md)에 전달하십시오.
 
 ## 처리 규칙을 사용하여 분석 변수 채우기
 
