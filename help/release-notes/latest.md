@@ -4,17 +4,17 @@ description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d9dd297a510b2f5056429f5938154c59f0a53cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보 (2024년 10월)
+# 현재 Adobe Analytics 릴리스 정보 (2024년 10월)
 
-**마지막 업데이트**: 2024년 10월 2일 목요일
+**마지막 업데이트**: 2024년 10월 2일
 
-이번 릴리스 정보에는 2024년 10월 2일 목요일부터 2024년 10월 22일 수요일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이번 릴리스 정보에는 2024년 10월 2일부터 2024년 10월 22일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
@@ -29,7 +29,7 @@ ht-degree: 86%
 Analysis Workspace: AN-343611; AN-355870; AN-357100; AN-358364; AN-358756; AN-359269
 Analytics 모바일 앱: AN-354085
 분류: AN-353074; AN-357533; AN-358308; AN-358350; AN-358732; AN-358925; AN-359249
-크로스 디바이스 분석: AN-357968
+Cross-Device Analytics: AN-357968
 데이터 피드: AN-358489; AN-358542
 Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804; AN-359162
 
