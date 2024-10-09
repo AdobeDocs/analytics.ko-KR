@@ -3,10 +3,10 @@ title: 방문 횟수
 description: 중단 없는 일련의 페이지 보기입니다.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 방문자가 다음 작업을 수행하는 경우 새 방문이 시작됩니다.
 
-* 캐시 중간 세션을 지우고 계속 사이트를 탐색합니다.
+* 세션 중간에 쿠키를 삭제하고 사이트를 계속 탐색합니다.
 * 30분 이상 동안 탭에서 사이트를 열어 놓은 채 탐색을 계속합니다.
 * 다른 브라우저를 열고 동일한 컴퓨터에서 고객님의 사이트로 이동합니다.
 * 동일한 사람이 다른 디바이스에서 사이트를 탐색합니다.
