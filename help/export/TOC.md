@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터를 내보내고 Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색하는 방법에 대해 알아봅니다. FTP와 SFTP를 사용하여 파일을 전송하는 방법에 대해 알아봅니다.
-source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
-workflow-type: tm+mt
-source-wordcount: '282'
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+workflow-type: ht
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,6 @@ ht-degree: 100%
    + [지표로 정렬](data-warehouse/sorting-by-metric.md)
    + [Data Warehouse 요청 관리](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse에서 지원되는 구성 요소](data-warehouse/component-support.md)
-   + [Data Warehouse FAQ](data-warehouse/faq.md)
    + [Data Warehouse 모범 사례](data-warehouse/data-warehouse-bp.md)
 + FTP 및 SFTP {#ftp-and-sftp}
    + [Adobe Experience Cloud와 FTP 및 SFTP 사용](ftp-and-sftp/ftp-overview.md)
