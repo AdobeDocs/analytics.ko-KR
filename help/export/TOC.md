@@ -5,7 +5,7 @@ user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터를 내보내고 Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색하는 방법에 대해 알아봅니다. FTP와 SFTP를 사용하여 파일을 전송하는 방법에 대해 알아봅니다.
 source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
 

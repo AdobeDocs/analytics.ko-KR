@@ -3,10 +3,10 @@ title: Data Warehouse의 구성 요소 지원
 description: Data Warehouse에서 사용할 수 있는 추가 차원 및 지표와 지원되지 않는 항목을 알아봅니다.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 61%
 
 ---
 
@@ -80,3 +80,10 @@ Adobe Analytics에서 다른 기능을 사용할 때는 Data Warehouse에 사용
 * 일
 * 시간
 * 분
+
+## Data Warehouse에서 차원으로서의 세그먼트
+
+Data Warehouse에서 세그먼트를 차원으로 사용하면 보고서는 `"0"` 또는 `"1"`가 포함된 열을 반환합니다.
+
+* **`"0"`**: 차원 항목이 세그먼트의 기준을 충족하지 않았습니다.
+* **`"1"`**: 차원 항목이 세그먼트의 기준을 충족했습니다.

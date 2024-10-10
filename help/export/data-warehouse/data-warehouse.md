@@ -4,9 +4,9 @@ title: Data Warehouse 개요
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
@@ -47,6 +47,3 @@ Data Warehouse 요청을 만드는 방법에 대한 자세한 내용은 [Data Wa
 
 Data Warehouse 요청을 관리하는 방법에 대한 자세한 내용은 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md)를 참조하십시오.
 
-## FAQ
-
-자주 묻는 질문 목록에 대해서는 [Data Warehouse FAQ](/help/export/data-warehouse/faq.md)를 참조하십시오.
