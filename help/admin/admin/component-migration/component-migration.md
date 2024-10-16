@@ -3,7 +3,7 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요�
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
+source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 5%
@@ -106,7 +106,7 @@ Customer Journey Analytics으로 프로젝트를 마이그레이션하기 전에
 
    경고 아이콘이 포함된 각 차원 또는 지표에 대해 이 프로세스를 반복합니다.
 
-   Adobe Analytics 보고서 세트의 모든 차원과 지표가 Customer Journey Analytics 데이터 보기의 차원이나 지표에 매핑되면 [!UICONTROL **보고서 세트에 대한 스키마 매핑**] 섹션의 보고서 세트 이름 옆에 녹색 확인 표시 ![확인 표시](assets/report-suite-check.png)가 나타납니다.
+   Adobe Analytics 보고서 세트의 모든 차원과 지표가 Customer Journey Analytics 보고서 세트의 차원이나 지표에 매핑되면 [!UICONTROL **보고서 세트에 대한 스키마 매핑**] 섹션의 보고서 세트 이름 옆에 녹색 확인 표시 ![확인 표시](assets/report-suite-check.png)가 나타납니다.
 
 1. (조건부) 마이그레이션하는 프로젝트에 둘 이상의 보고서 세트가 포함되어 있는 경우 [!UICONTROL **보고서 세트에 대한 스키마 매핑**] 섹션에서 다른 보고서 세트를 선택한 다음 6단계부터 10단계까지 반복합니다. <!-- double-check that the step numbers are still correct -->
 
