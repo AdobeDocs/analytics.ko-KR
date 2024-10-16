@@ -3,16 +3,16 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d9dd297a510b2f5056429f5938154c59f0a53cfa
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 29b799eb778dda4d5c529249f1898e92607e51aa
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 91%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2024년 10월)
 
-**마지막 업데이트**: 2024년 10월 2일
+**마지막 업데이트**: 2024년 10월 16일 목요일
 
 이번 릴리스 정보에는 2024년 10월 2일부터 2024년 10월 22일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,9 +20,7 @@ ht-degree: 100%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 |
-
-
+| Adobe Analytics용 새 Report Builder | 새로운 Report Builder 애플리케이션은 향상된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원 및 Mac, Windows 및 웹 브라우저에서의 Microsoft Excel 지원과 같은 Adobe Analytics에 업데이트된 기능을 제공합니다. [팔로우할 설명서 링크] |  | 2024년 10월 16일 목요일 |
 
 ## Adobe Analytics의 수정 사항
 
