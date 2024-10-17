@@ -4,7 +4,7 @@ title: 요청 마법사를 사용하여 폴아웃 보고서 필터링
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 80%
@@ -12,6 +12,8 @@ ht-degree: 80%
 ---
 
 # 요청 마법사를 사용하여 폴아웃 보고서 필터링
+
+{{legacy-arb}}
 
 폴아웃 보고서에 필터를 적용하는 단계에 대해 설명합니다.
 

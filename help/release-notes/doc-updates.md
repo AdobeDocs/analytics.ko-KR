@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: 23282c1a2793a7113117c62ce195f9714ab5a7f2
 workflow-type: tm+mt
-source-wordcount: '5971'
-ht-degree: 100%
+source-wordcount: '5994'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2024년 10월** |  |
+| 새 Report Builder | Mac, Windows 및 웹 브라우저에서 지원되는 간소화된 Report Builder 추가 기능에 대한 [새 설명서](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview). |
 | **2024년 8월** | |
 | 경고 관리자 | [알림 관리자](/help/components/c-alerts/alert-manager.md)에 대한 설명서가 간소화되었습니다. 명확성과 정확성을 위해 업데이트되었습니다. |
 | **2024년 7월** | |

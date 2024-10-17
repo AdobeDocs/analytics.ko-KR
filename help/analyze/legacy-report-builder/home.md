@@ -1,17 +1,19 @@
 ---
-title: Adobe Analytics용 Report Builder 정보
+title: Adobe Analytics에 대한 이전 Report Builder 정보
 description: Report Builder를 사용하여 Adobe Analytics 데이터를 Microsoft Excel로 직접 가져오는 방법에 대해 알아봅니다.
 feature: Workspace Basics
 role: User, Admin
 exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '126'
+ht-degree: 90%
 
 ---
 
-# Report Builder란 무엇입니까?
+# 레거시 Report Builder란?
+
+{{legacy-arb}}
 
 Adobe Report Builder는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
 

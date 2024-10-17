@@ -5,7 +5,7 @@ uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 74%
@@ -13,6 +13,8 @@ ht-degree: 74%
 ---
 
 # 요청 관리 - 정의
+
+{{legacy-arb}}
 
 요청 상태에 대한 세부 정보를 보고 필드 설명을 사용하여 Report Builder에서 요청을 관리합니다.
 

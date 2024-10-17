@@ -5,14 +5,18 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1202'
+ht-degree: 79%
 
 ---
 
 # 통합 문서 예약
+
+>[!NOTE]
+>
+>Adobe Analytics에서 이 버전의 Report Builder에 대한 통합 문서 예약은 아직 릴리스되지 않았지만 2025년 초에 사용할 수 있습니다. 예약이 필요하지 않은 통합 문서에서 지금 시작할 수 있습니다.
 
 통합 문서를 저장하고 분석을 완료한 후에 예약 기능을 사용하여 팀의 다른 구성원들과 통합 문서를 쉽게 공유할 수 있습니다. 예약 기능을 사용하여 통합 문서의 데이터를 자동으로 새로 고치고 특정 날짜 및 시간에 Excel 통합 문서 .xlsx 파일을 지정된 대상자에게 이메일 첨부 파일로 보내는 일정을 만들 수 있습니다. 예약을 설정하면 정기 업데이트가 자동으로 수신자에게 제공됩니다. 예약 기능을 사용하여 자동 업데이트를 예약하지 않고도 통합 문서를 한 번에 전송할 수도 있습니다.
 

@@ -5,7 +5,7 @@ uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 85%
@@ -13,6 +13,8 @@ ht-degree: 85%
 ---
 
 # Report Builder 문제 해결 및 우수 사례
+
+{{legacy-arb}}
 
 이 문서에서는 Report Builder 최적화에 사용할 수 있는 문제 해결 및 모범 사례에 대해 설명합니다. 또한 표시할 수 있는 오류 메시지 목록도 포함됩니다.
 

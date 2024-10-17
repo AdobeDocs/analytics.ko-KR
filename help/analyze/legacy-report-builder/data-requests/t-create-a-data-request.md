@@ -4,7 +4,7 @@ title: 데이터 요청 만들기
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 96%
@@ -12,6 +12,8 @@ ht-degree: 96%
 ---
 
 # Report Builder 데이터 요청 만들기
+
+{{legacy-arb}}
 
 기본 데이터 요청을 만드는 절차.
 

@@ -5,7 +5,7 @@ uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
 role: User, Admin
 exl-id: 6c56a8e5-07c0-4dc4-b40b-94a07b783514
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 91%
@@ -13,6 +13,8 @@ ht-degree: 91%
 ---
 
 # 지표 및 차원 개요
+
+{{legacy-arb}}
 
 요청 마법사: 2단계에서 지표 및 차원을 추가하여 요청에서 데이터의 Analytics 레이아웃을 정의합니다. Report Builder의 지표 및 차원 목록은 Reports &amp; Analytics에 표시된 메뉴 레이아웃 다음에 나옵니다.
 

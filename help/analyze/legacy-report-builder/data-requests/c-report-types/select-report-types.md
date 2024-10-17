@@ -4,7 +4,7 @@ title: 보고서 유형 개요
 feature: Report Builder
 role: User, Admin
 exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 55%
@@ -12,6 +12,8 @@ ht-degree: 55%
 ---
 
 # 보고서 유형 개요
+
+{{legacy-arb}}
 
 사이트 지표, 사이트 컨텐츠 및 비디오와 같은, 데이터 요청에 대한 기본 보고서 유형을 선택할 수 있습니다.
 

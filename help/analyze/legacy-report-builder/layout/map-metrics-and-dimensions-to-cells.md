@@ -5,7 +5,7 @@ uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
 role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 68%
@@ -13,6 +13,8 @@ ht-degree: 68%
 ---
 
 # 지표 및 차원을 셀에 매핑
+
+{{legacy-arb}}
 
 항목을 스프레드시트에 매핑하기 전에 스프레드시트가 보호되지 않도록 하십시오. 워크시트에 대한 보호 스키마로 인해 사용자 작업이 불가능할 경우에는 스프레드시트에서 셀을 선택할 수 없게 됩니다. 이 경우 먼저 시트의 보호를 해제한 다음 셀 매핑을 추가합니다.
 

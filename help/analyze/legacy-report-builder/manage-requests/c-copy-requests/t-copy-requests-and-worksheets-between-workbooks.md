@@ -5,7 +5,7 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 54%
@@ -14,8 +14,12 @@ ht-degree: 54%
 
 # 통합 문서 간 요청 및 워크시트 복사
 
+{{legacy-arb}}
+
 소스 통합 문서의 한 스프레드시트 전체를 하나 이상의 대상 통합 문서에 있는 한 스프레드시트에 복사합니다. 이렇게 하려면 Excel의 동일한 인스턴스에서 연 통합 문서가 두 개 이상 있어야 합니다.
+
 * 첫 번째 소스 통합 문서에는 요청이 셀에 매핑된 스프레드시트(워크시트)가 있습니다.
+
 * 추가 타겟 통합 문서는 대상입니다. 요청을 포함한 스프레드시트를 붙여넣으려면 각 새 대상 통합 문서에 대해 원본 통합 문서와 동일한 보고서 세트에 로그인해야 합니다.
 
 >[!NOTE]

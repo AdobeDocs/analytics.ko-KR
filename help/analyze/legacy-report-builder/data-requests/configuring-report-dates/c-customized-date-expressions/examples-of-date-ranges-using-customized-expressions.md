@@ -5,7 +5,7 @@ uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
 role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 98%
@@ -13,6 +13,8 @@ ht-degree: 98%
 ---
 
 # 사용자 지정된 표현식을 사용한 날짜 범위의 예
+
+{{legacy-arb}}
 
 사용자 지정된 표현식에서 날짜 범위를 사용하는 것에 대한 예, 참고 사항 및 구문 참고 사항.
 

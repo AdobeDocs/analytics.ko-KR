@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 32%
+source-wordcount: '561'
+ht-degree: 28%
 
 ---
 
@@ -16,10 +16,14 @@ ht-degree: 32%
 
 처음에 Customer Journey Analytics에서만 사용할 수 있었던 새로운 Javascript Report Builder 추가 기능이 이제 Adobe Analytics에도 도입되었습니다. 이 새 버전에는 다음과 같은 몇 가지 이점이 있습니다.
 
-- Mac, Microsoft Windows 및 웹 브라우저에서 Microsoft Excel 지원
-- 향상된 사용자 경험
+- 데이터 블록 유연성 향상 등 데이터 블록 생성 및 관리를 위한 향상된 워크플로를 통해 Excel의 통찰력을 더 빠르고 쉽게 찾을 수 있습니다
+- 교차 플랫폼: 이제 PC, Mac 및 Excel Online을 지원하므로 Report Builder을 사용하기 위해 VM에 더 이상 로그인하지 않음
+- API 2.0 업그레이드 덕분에 데이터 블록이 반환되기를 기다리는 시간이 단축됩니다.
 - 속도 향상
-- Analytics 2.0 API 지원
+
+>[!NOTE]
+>
+>Adobe Analytics에서 이 버전의 Report Builder에 대한 통합 문서 예약은 아직 릴리스되지 않았지만 2025년 초에 사용할 수 있습니다. 예약이 필요하지 않은 통합 문서에서 지금 시작할 수 있습니다.
 
 레거시 Report Builder 도구 사용자는 [레거시 통합 문서를 ](/help/analyze/report-builder/convert-workbooks.md)새 Report Builder으로 변환할 수 있습니다.
 

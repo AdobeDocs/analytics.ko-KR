@@ -5,7 +5,7 @@ uuid: 829d613e-5900-4586-a9fc-239988492d8b
 feature: Report Builder
 role: User, Admin
 exl-id: f2d19f3f-c663-4fa4-b6c1-fe0dcdfffe63
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 86%
@@ -13,6 +13,8 @@ ht-degree: 86%
 ---
 
 # 날짜 약자
+
+{{legacy-arb}}
 
 시간 약자는 기간의 범위가 아니라 기간이 시작하는 특정 날짜를 나타냅니다. 두 개의 약자 또는 용어에 대해 시작 날짜와 종료 날짜를 지정하여 일 범위를 표현합니다.
 

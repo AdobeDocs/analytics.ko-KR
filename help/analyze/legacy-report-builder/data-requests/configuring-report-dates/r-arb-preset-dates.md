@@ -5,7 +5,7 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 89%
@@ -13,6 +13,8 @@ ht-degree: 89%
 ---
 
 # 요청 마법사 정의 - 사전 설정 날짜
+
+{{legacy-arb}}
 
 사전 설정 날짜는 공통으로 사용된 날짜 또는 저장한 날짜를 선택할 수 있도록 해줍니다. 요청 마법사: 1단계에서  사전 설정 날짜를 선택합니다. 다음은 Report Builder의 사전 설정 날짜에 대한 필드 정의입니다.
 

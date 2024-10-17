@@ -5,7 +5,7 @@ uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # 실시간 보고서
+
+{{legacy-arb}}
 
 실시간으로 웹 페이지 트래픽을 표시하고 페이지 조회수 등급을 지정하므로 사이트의 트렌드를 더욱 빠르게 파악할 수 있습니다.
 

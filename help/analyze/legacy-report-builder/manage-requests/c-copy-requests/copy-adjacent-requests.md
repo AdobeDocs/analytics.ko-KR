@@ -5,7 +5,7 @@ uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
 role: User, Admin
 exl-id: 99476ec5-f1f0-49f5-a2d8-354cec63c6b1
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 59%
@@ -13,6 +13,8 @@ ht-degree: 59%
 ---
 
 # 인접 요청 복사
+
+{{legacy-arb}}
 
 요청을 복사하고 붙여넣는 것과 같은 방식으로, 바로 가기 메뉴에서 [!UICONTROL 요청 잘라내기]를 선택하여 요청의 위치를 스프레드시트의 다른 부분으로 변경할 수도 있습니다.
 

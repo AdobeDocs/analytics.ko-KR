@@ -5,7 +5,7 @@ uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 71%
@@ -13,6 +13,8 @@ ht-degree: 71%
 ---
 
 # 머리글 표시 형식 지정
+
+{{legacy-arb}}
 
 보고서의 이름을 지정하고 행 및 열 머리글이 표시되는 방식을 구성할 수 있습니다. 피벗 및 사용자 지정 레이아웃 유형에 [서식 선택 사항] 링크를 사용할 수 있습니다.
 

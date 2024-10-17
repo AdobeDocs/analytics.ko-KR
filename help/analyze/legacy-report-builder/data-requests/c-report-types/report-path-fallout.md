@@ -4,7 +4,7 @@ title: Report Builder의 경로 및 경로 폴아웃 보고서
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 84%
@@ -12,6 +12,8 @@ ht-degree: 84%
 ---
 
 # Report Builder의 경로 및 경로 폴아웃 보고서
+
+{{legacy-arb}}
 
 Report Builder이 경로 지정 및 폴아웃 보고서를 지원하는 방법과 Reports &amp; Analytics와 구현 차이가 나는 방법(현재 서비스 종료)에 대해 설명합니다.
 

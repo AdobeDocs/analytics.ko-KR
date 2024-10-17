@@ -4,7 +4,7 @@ title: 데이터 요청 - 요청 마법사 1단계
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 90%
@@ -12,6 +12,8 @@ ht-degree: 90%
 ---
 
 # 데이터 요청 - 요청 마법사 1단계
+
+{{legacy-arb}}
 
 요청 마법사 1단계 양식에서는 보고서 세트, 보고서 유형, 세그먼트를 선택하고 날짜를 구성합니다.
 

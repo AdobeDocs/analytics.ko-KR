@@ -5,7 +5,7 @@ uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
 role: User, Admin
 exl-id: 88afef3b-1559-453b-a8e2-7251ef8c82ec
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 83%
@@ -13,6 +13,8 @@ ht-degree: 83%
 ---
 
 # 출력 매핑 삭제
+
+{{legacy-arb}}
 
 통합 문서를 편집하면서 새 요청에 사용할 공간을 만들고자 하는 경우 요청을 삭제해야 할 수 있습니다.
 

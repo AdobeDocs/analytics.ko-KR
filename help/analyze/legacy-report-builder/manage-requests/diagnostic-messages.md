@@ -5,7 +5,7 @@ uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
 feature: Report Builder
 role: User, Admin
 exl-id: 09eccff0-64ab-432d-bbb1-6c9b83ecb170
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 48%
@@ -13,6 +13,8 @@ ht-degree: 48%
 ---
 
 # 진단 메시지
+
+{{legacy-arb}}
 
 진단 메시지에서는 새로 고칠 때 요청의 상태에 대한 정보를 알 수 있습니다.
 

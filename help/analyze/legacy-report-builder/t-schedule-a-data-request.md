@@ -5,7 +5,7 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 96%
@@ -13,6 +13,8 @@ ht-degree: 96%
 ---
 
 # 통합 문서 예약
+
+{{legacy-arb}}
 
 통합 문서를 예약하고, 고급 게재 옵션을 지정하고, 수신자를 지정하고, 예약 내용을 볼 수 있습니다. 고급 게재 옵션을 사용하면 특정 시간에 또는 특정 간격으로 전송할 통합 문서를 구성할 수 있습니다. 통합 문서 전송 시 사용할 파일 형식을 지정할 수도 있습니다.
 

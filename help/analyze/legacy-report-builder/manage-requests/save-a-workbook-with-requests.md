@@ -5,7 +5,7 @@ uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 78%
@@ -13,6 +13,8 @@ ht-degree: 78%
 ---
 
 # 요청이 있는 통합 문서 저장
+
+{{legacy-arb}}
 
 포함된 요청이 있는 보고서를 만들 때 Excel에서 **파일** > **저장** 또는 **파일** > **다른 이름으로 저장**&#x200B;을 사용하여 저장할 수 있습니다. Report Builder은 보고서에 요청이 포함되어 있는지 여부를 감지합니다. 저장 옵션 중 하나를 선택하면 **다른 이름으로 통합 문서 저장** 양식을 작성합니다.
 

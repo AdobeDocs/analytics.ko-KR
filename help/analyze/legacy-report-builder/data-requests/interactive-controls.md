@@ -4,7 +4,7 @@ title: 양방향 컨트롤
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 72%
@@ -12,6 +12,8 @@ ht-degree: 72%
 ---
 
 # 양방향 컨트롤
+
+{{legacy-arb}}
 
 양방향 컨트롤을 사용하여 워크시트에서 직접 하나 이상의 요청에 대한 세그먼트 및 날짜 범위를 편집할 수 있습니다. 이렇게 하면 Report Builder 요청을 업데이트할 때 보다 유연해집니다.
 

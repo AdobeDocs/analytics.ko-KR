@@ -4,7 +4,7 @@ title: 북마크가 지정된 보고서 및 대시보드 리포트릿 가져오�
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 65%
@@ -12,6 +12,8 @@ ht-degree: 65%
 ---
 
 # 북마크가 지정된 보고서 및 대시보드 리포트릿 가져오기
+
+{{legacy-arb}}
 
 책갈피가 지정된 모든 보고서와 대시보드 보고서는 이제 요청 마법사 1단계에서 차원으로 표시되며, Report Builder 요청으로 가져올 수 있습니다.
 

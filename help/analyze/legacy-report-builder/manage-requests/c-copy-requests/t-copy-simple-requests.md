@@ -5,7 +5,7 @@ uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
 role: User, Admin
 exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 82%
@@ -13,6 +13,8 @@ ht-degree: 82%
 ---
 
 # 단순 요청 복사
+
+{{legacy-arb}}
 
 참조 요청이 아닌 간단한 요청을 복사합니다. 단순 요청은 다른 요청이나 셀의 내용을 참조하는 내용이 들어있지 않은 요청입니다.
 

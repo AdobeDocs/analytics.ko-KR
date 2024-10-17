@@ -4,7 +4,7 @@ title: 예약된 작업 관리자 정보
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 91%
@@ -12,6 +12,8 @@ ht-degree: 91%
 ---
 
 # 예약된 작업 관리자
+
+{{legacy-arb}}
 
 [!UICONTROL 예약된 작업 관리자]를 사용하면 기존 예약된 보고서 목록과 함께 그 수신자, 예약 세부 정보 및 파일 형식을 확인할 수 있습니다. 실행에 실패한 예약된 통합 문서를 다시 활성화할 수도 있습니다.
 

@@ -5,7 +5,7 @@ uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
 role: User, Admin
 exl-id: 14578c79-a9e6-4587-b91b-f590453df347
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 87%
@@ -13,6 +13,8 @@ ht-degree: 87%
 ---
 
 # 요청 복사 개요
+
+{{legacy-arb}}
 
 두 개 이상의 요청과 매핑된 셀을 복사하고 그 내용을 스프레드시트의 비어 있는 선택된 영역에 붙여넣을 수 있습니다.
 

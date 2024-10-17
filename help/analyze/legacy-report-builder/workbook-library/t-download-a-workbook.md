@@ -5,7 +5,7 @@ uuid: 8b69254f-4769-433a-9957-fad788447aa6
 feature: Report Builder
 role: User, Admin
 exl-id: 13ba343d-bb17-455e-a078-1036d81383a1
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 62%
@@ -13,6 +13,8 @@ ht-degree: 62%
 ---
 
 # 통합 문서 다운로드
+
+{{legacy-arb}}
 
 공유 통합 문서를 다운로드하고 편집할 수 있습니다. 통합 문서 소유자인 경우 통합 문서를 삭제할 수 있습니다.
 

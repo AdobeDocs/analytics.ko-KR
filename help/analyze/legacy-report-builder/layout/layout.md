@@ -5,7 +5,7 @@ uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 feature: Report Builder
 role: User, Admin
 exl-id: 92894877-4fa8-4ea6-b5cd-9d1c50c3e250
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 76%
@@ -13,6 +13,8 @@ ht-degree: 76%
 ---
 
 # 레이아웃 - 요청 마법사 2단계
+
+{{legacy-arb}}
 
 [!UICONTROL 요청 마법사: 2단계] 창을 사용하면 출력에 대한 보고서 레이아웃, 머리글 서식 지정 및 차원 필터링을 구성할 수 있습니다. 피벗 레이아웃을 사용하여 요청을 구성할 수 있으며 이것은 Excel 피벗 테이블을 만드는 방식과 유사합니다.
 

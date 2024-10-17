@@ -4,7 +4,7 @@ title: 고객 속성
 feature: Report Builder
 role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 83%
@@ -12,6 +12,8 @@ ht-degree: 83%
 ---
 
 # 고객 속성
+
+{{legacy-arb}}
 
 사용자 특성은 VisAttr이라는 새로운 유형의 요소에 저장되며 이것은 차원이나 지표로 구성할 수 있습니다.
 

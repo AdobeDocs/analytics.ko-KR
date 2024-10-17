@@ -4,16 +4,18 @@ title: 계산된 지표
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 83%
+source-wordcount: '397'
+ht-degree: 78%
 
 ---
 
 # 계산된 지표
 
-Report Builder 5.2는 Adobe Analytics 통합 계산된 지표를 지원합니다. 가장 주목할 만한 혁신 사항은 모든 계산된 지표에는 전역 ID가 있으며 이것이 계산된 지표가 더 이상 하나의 보고서 세트로 제한되지 않음을 의미한다는 것입니다.
+{{legacy-arb}}
+
+Report Builder 5.2 이상은 Adobe Analytics 계산된 지표를 지원합니다. 이제 모든 계산된 지표에 글로벌 ID가 있습니다. 더 이상 하나의 보고서 세트로 제한되지 않습니다.
 
 >[!NOTE]
 >

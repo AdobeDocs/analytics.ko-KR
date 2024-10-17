@@ -4,7 +4,7 @@ title: 모범 사례
 feature: Report Builder
 role: User, Admin
 exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # 모범 사례
+
+{{legacy-arb}}
 
 ## Power BI 시각화에서 참조 유지
 

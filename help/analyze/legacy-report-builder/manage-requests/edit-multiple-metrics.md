@@ -4,7 +4,7 @@ title: 여러 요청에 대한 지표를 편집하는 방법
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 28%
@@ -12,6 +12,8 @@ ht-degree: 28%
 ---
 
 # 여러 요청에 대한 지표 편집
+
+{{legacy-arb}}
 
 기존 요청 또는 요청 그룹에서 지표를 추가, 제거 또는 바꿉니다.
 

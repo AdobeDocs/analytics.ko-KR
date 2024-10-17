@@ -4,7 +4,7 @@ title: 보고서 유형 선택
 feature: Report Builder
 role: User, Admin
 exl-id: c515eae5-93da-460b-8c72-7ddf3d7c5dfe
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # 보고서 유형 선택
+
+{{legacy-arb}}
 
 데이터 요청에 대한 기본 보고서 유형을 선택하는 절차.
 

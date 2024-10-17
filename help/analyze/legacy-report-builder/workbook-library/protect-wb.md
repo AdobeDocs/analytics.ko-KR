@@ -5,7 +5,7 @@ uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 69%
@@ -13,6 +13,8 @@ ht-degree: 69%
 ---
 
 # 통합 문서 잠금 및 잠금 해제
+
+{{legacy-arb}}
 
 통합 문서를 잠궈서 통합 문서의 모든 요청이 추가 및 편집되지 않도록 보호할 수 있습니다. 이를 통해 좀 더 효율적인 편집을 위해 모든 보고서 요청을 일시 중단하고 통합 문서를 오프라인으로 편집할 수 있습니다.
 

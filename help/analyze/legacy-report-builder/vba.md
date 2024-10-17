@@ -4,7 +4,7 @@ description: VBA 매크로를 사용하여 Excel 통합 문서와 Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 64%
@@ -12,6 +12,8 @@ ht-degree: 64%
 ---
 
 # Report Builder의 Visual Basic 매크로
+
+{{legacy-arb}}
 
 VBA 매크로는 Excel 통합 문서를 새로 고치는 데 도움이 되는 기능을 제공합니다. Visual Basic에서는 통합 문서, Excel 및 Windows에 액세스할 수 있습니다.
 

@@ -1,11 +1,10 @@
 ---
 description: 참조 요청을 복사하는 방법에 대해 알아봅니다.
 title: 참조 요청을 복사하는 방법
-uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
 role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 80%
@@ -13,6 +12,8 @@ ht-degree: 80%
 ---
 
 # 참조 요청 복사
+
+{{legacy-arb}}
 
 참조 요청에서는 데이터 필터나 관계 필터와 같은 매개 변수에 대한 입력으로 셀의 값들을 사용합니다.
 

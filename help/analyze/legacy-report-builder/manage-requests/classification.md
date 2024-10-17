@@ -5,7 +5,7 @@ uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 76%
@@ -13,6 +13,8 @@ ht-degree: 76%
 ---
 
 # 분류
+
+{{legacy-arb}}
 
 분류는 분석 보고 데이터를 관련 속성에 매핑하는 데 사용됩니다. 분류는 다양한 용도로 사용할 수 있지만 가장 일반적으로 캠페인 추적 코드(내부 및 외부 모두) 및 제품 ID를 분류하는 데 사용됩니다.
 
