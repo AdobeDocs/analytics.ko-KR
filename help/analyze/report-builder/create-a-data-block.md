@@ -5,7 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 60%
@@ -20,11 +20,11 @@ ht-degree: 60%
 
 데이터 블록 위치, 보고서 세트 및 날짜 범위에 대한 초기 데이터 블록 매개 변수를 구성합니다.
 
-1. **데이터 블록 만들기**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 데이터 블록 만들기]**&#x200B;를 클릭합니다.
 
    ![데이터 블록 만들기 옵션을 보여 주는 스크린샷](./assets/create_db.png)
 
-1. **데이터 블록 위치**&#x200B;를 설정합니다.
+1. **[!UICONTROL 데이터 블록 위치]**&#x200B;를 설정합니다.
 
    데이터 블록 위치 옵션은 Report Builder가 워크시트에 데이터를 추가하는 워크시트 위치를 정의합니다.
 
@@ -34,11 +34,11 @@ ht-degree: 60%
 
    보고서 세트 옵션을 사용하면 드롭다운 메뉴에서 보고서 세트를 선택하거나 셀 위치에서 보고서 세트를 참조할 수 있습니다.
 
-1. **날짜 범위**&#x200B;를 설정합니다.
+1. **[!UICONTROL 날짜 범위]**&#x200B;를 설정합니다.
 
    날짜 범위 옵션을 사용하면 날짜 범위를 선택할 수 있습니다. 날짜 범위는 고정되거나 순환될 수 있습니다. 데이터 범위 옵션에 대한 정보는 [날짜 범위 선택](select-date-range.md)을 참조하십시오.
 
-1. **다음**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
    ![날짜 범위 옵션과 활성 [다음] 단추를 보여주는 스크린샷입니다.](./assets/choose_date_data_view3.png)
 
