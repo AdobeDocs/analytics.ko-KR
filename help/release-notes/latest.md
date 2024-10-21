@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: ae03f0d9e5f22c8e8ff6550a33a6f9d18432f46f
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Adobe Analytics용 새 Report Builder | 새로운 Report Builder 애플리케이션은 향상된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원 및 Mac, Windows 및 웹 브라우저에서의 Microsoft Excel 지원과 같은 Adobe Analytics에 업데이트된 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024년 10월 16일 목요일 |
+| Adobe Analytics용 새로운 Report Builder | 새로운 Report Builder 애플리케이션은 Adobe Analytics에 개선된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원과 Mac, Windows 및 웹 브라우저에서의 Microsoft Excel 지원 등 업데이트된 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024년 10월 16일 |
 
 ## Adobe Analytics의 수정 사항
 
