@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 기존 Report Builder, Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 227a9d2b10db737ad255c2f9f65bab0ede691f20
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 96%
@@ -53,7 +53,7 @@ ht-degree: 96%
       + [구성 요소 설명 추가](analysis-workspace/components/add-component-descriptions.md)
       + 주석 {#annotations}
          + [주석 개요](analysis-workspace/components/annotations/overview.md)
-         + [주석 생성](analysis-workspace/components/annotations/create-annotations.md)
+         + [주석 만들기](analysis-workspace/components/annotations/create-annotations.md)
          + [주석 관리](analysis-workspace/components/annotations/manage-annotations.md)
          + [주석 보기](analysis-workspace/components/annotations/view-annotations.md)
          + [모바일 주석](analysis-workspace/components/annotations/mobile-annotations.md)
@@ -166,7 +166,7 @@ ht-degree: 96%
    + [레거시 요청 변환](report-builder/convert-workbooks.md)
    + [데이터 블록 만들기](report-builder/create-a-data-block.md)
    + [Report Builder 허브](report-builder/report-builder-hub.md)
-   + [데이터 보기 선택](report-builder/select-report-suite.md)
+   + [보고서 세트 선택](report-builder/select-report-suite.md)
    + [날짜 범위 선택](report-builder/select-date-range.md)
    + [세그먼트 작업](report-builder/work-with-segments.md)
    + [차원 필터링](report-builder/filter-dimensions.md)
