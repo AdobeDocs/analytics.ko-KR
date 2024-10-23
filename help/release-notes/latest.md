@@ -3,15 +3,14 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
+source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 51%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2024년 10월 23일 릴리스)
-
 
 **마지막 업데이트**: 2024년 10월 23일 목요일
 
@@ -38,12 +37,11 @@ Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
 Data Warehouse: AN-359820
 초과 경고: AN-358132
 
-
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **Campaign이 아닌 고객은 트리거에 액세스할 수 없습니다** | 2024년 10월 16일 | 2025년 1월 30일에 Adobe Campaign 라이선스가 없는 Adobe Analytics 고객은 [트리거](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers)를 구성하고 사용할 수 있는 기능에 액세스할 수 없게 됩니다. 고객은 Campaign을 구입하거나 트리거 사용을 중단하거나 트리거 기능을 제공하는 다른 Adobe 도구를 살펴봐야 합니다. |
+| **Campaign이 아닌 고객은 트리거에 액세스할 수 없습니다** | 2023년 10월 16일 | 2025년 1월 30일에 Adobe Campaign 라이선스가 없는 Adobe Analytics 고객은 트리거를 구성하고 사용하는 기능에 대한 액세스 권한을 잃게 됩니다. 고객은 Campaign을 구입하거나 트리거 사용을 중단하거나 트리거 기능을 제공하는 다른 Adobe 도구를 살펴봐야 합니다. |
 | **추가 구현 세부 사항 XDM 필드가 자동으로 매핑됨** | 2024년 9월 11일 | 이제 Adobe Experience Platform Edge Network를 사용하여 Adobe Analytics로 데이터를 전송할 때 XDM 필드 `xdm.implementationdetails.name` 및 `xdm.implementationdetails.environment`가 항상 컨텍스트 데이터 변수 `c.a.x.implementationdetails.name` 및 `c.a.x.implementationdetails.environment`에 매핑됩니다. 이전에는 일부 시나리오에서 이들 값이 채워지지 않았습니다. 이들 값의 가용성에 맞게 관련 처리 규칙을 조정해 주십시오. |
 
 ## 서비스 종료(EOL) 알림 {#eol}
