@@ -3,41 +3,48 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ae03f0d9e5f22c8e8ff6550a33a6f9d18432f46f
+source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 94%
+source-wordcount: '719'
+ht-degree: 51%
 
 ---
 
-# 현재 Adobe Analytics 릴리스 정보 (2024년 10월)
+# 최신 Adobe Analytics 릴리스 정보 (2024년 10월 23일 릴리스)
 
-**마지막 업데이트**: 2024년 10월 17일 금요일
 
-이번 릴리스 정보에는 2024년 10월 2일부터 2024년 10월 22일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+**마지막 업데이트**: 2024년 10월 23일 목요일
+
+이 릴리스 정보는 2024년 10월 16일부터 2024년 말까지 표시됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Adobe Analytics용 새로운 Report Builder | 새로운 Report Builder 애플리케이션은 Adobe Analytics에 개선된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원과 Mac, Windows 및 웹 브라우저에서의 Microsoft Excel 지원 등 업데이트된 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024년 10월 16일 |
+| **Adobe Analytics의 새 Report Builder** | 새로운 Report Builder 애플리케이션은 향상된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원 및 Mac, Windows 및 웹 브라우저에서 Microsoft Excel에 대한 지원을 포함하여 Adobe Analytics에 대한 주요 업데이트를 제공합니다. 이 응용 프로그램은 기존 응용 프로그램과 함께 사용할 수 있지만 동일한 파일에서 사용할 수 없습니다. 업그레이드 기능은 기존 통합 문서를 새 애플리케이션으로 업그레이드하는 데 제공됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024년 10월 16일 |
+| **Web SDK 태그로 태그 구현을 마이그레이션하기 위한 JSON 내보내기** | Analytics 태그 확장에 대한 이 업데이트는 Web SDK로의 마이그레이션과 관련되어 있습니다. 이 Adobe Analytics 확장 업데이트를 워크플로의 일부로 사용하여 웹 SDK 확장을 사용한 확장 구성을 다시 만들 수 있습니다. Adobe Analytics 태그 확장에서는 eVar, prop 및 이벤트 설정을 JSON으로 볼 수 있으며, 편집을 위해 내보내고 Web SDK 확장에 포함할 수 있습니다. |  | 2024년 10월 23일 |
 
 ## Adobe Analytics의 수정 사항
 
-Analysis Workspace: AN-343611; AN-355870; AN-357100; AN-358364; AN-358756; AN-359269
-Analytics 모바일 앱: AN-354085
-분류: AN-353074; AN-357533; AN-358308; AN-358350; AN-358732; AN-358925; AN-359249
-Cross-Device Analytics: AN-357968
-데이터 피드: AN-358489; AN-358542
-Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804; AN-359162
+Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
+관리 도구: AN-342485; AN-347931; AN-348704; AN-357723; AN-358453; AN-358717; AN-359548; AN-360136
+분류: AN-359025, AN-359283, AN-359368, AN-359710, AN-359752, AN-359759, AN-359799, AN-359887, AN-360543, AN-360566, AN-360612, AN-360741, AN-360942 360952
+크로스 디바이스 분석: AN-359210
+고객 속성: AN-357897
+데이터 수집: AN-351131; AN-351309; AN-355678; AN-359856
+데이터 피드: AN-359699
+데이터 복구 API: AN-360256
+데이터 소스: AN-359290
+Data Warehouse: AN-359820
+초과 경고: AN-358132
+
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
+| **Campaign이 아닌 고객은 트리거에 액세스할 수 없습니다** | 2024년 10월 16일 | 2025년 1월 30일에 Adobe Campaign 라이선스가 없는 Adobe Analytics 고객은 [트리거](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers)를 구성하고 사용할 수 있는 기능에 액세스할 수 없게 됩니다. 고객은 Campaign을 구입하거나 트리거 사용을 중단하거나 트리거 기능을 제공하는 다른 Adobe 도구를 살펴봐야 합니다. |
 | **추가 구현 세부 사항 XDM 필드가 자동으로 매핑됨** | 2024년 9월 11일 | 이제 Adobe Experience Platform Edge Network를 사용하여 Adobe Analytics로 데이터를 전송할 때 XDM 필드 `xdm.implementationdetails.name` 및 `xdm.implementationdetails.environment`가 항상 컨텍스트 데이터 변수 `c.a.x.implementationdetails.name` 및 `c.a.x.implementationdetails.environment`에 매핑됩니다. 이전에는 일부 시나리오에서 이들 값이 채워지지 않았습니다. 이들 값의 가용성에 맞게 관련 처리 규칙을 조정해 주십시오. |
-
-{style="table-layout:auto"}
 
 ## 서비스 종료(EOL) 알림 {#eol}
 
@@ -46,7 +53,6 @@ Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804; AN-359162
 | **Adobe Analytics API(버전 1.4)에 대한 EOL** | 2024년 7월 17일 | **2026년 8월 12일**&#x200B;에 다음 Analytics Legacy API 서비스가 수명이 다되어 중단되며, 이러한 서비스를 사용하여 빌드된 현재 통합이 작동하지 않습니다.<ul><li>Adobe Analytics API (버전 1.4)</li><li>Adobe Analytics WSSE 인증</li></ul><p>Adobe Analytics API(버전 1.4)를 사용하는 통합은 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)로 마이그레이션되어야 하며 WSSE 통합은 [Adobe Developer Console](https://developer.adobe.com/console)의 OAuth 기반 인증 프로토콜로 마이그레이션되어야 합니다.</p><p>자주 묻는 질문에 대한 답변과 자세한 안내는 [Adobe Analytics 1.4 API EOL FAQ](/help/admin/c-admin-api/c-admin-14-api-eol.md)를 참조하시기 바랍니다.</p> |
 | **Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션** | 2023년 5월 11일 | Adobe I/O JWT 자격 증명을 사용하는 Adobe Analytics API 및 Livestream 고객은 **2025년 1월 1일**&#x200B;까지 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 2024년 5월 1일부터는 Adobe I/O를 사용하여 새 JWT 자격 증명을 만들 수 없습니다. JWT를 사용하는 고객은 OAuth 서버 간 자격 증명을 새로 만들거나 기존 JWT 자격 증명을 OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 또한 고객은 새 OAuth 서버 간 자격 증명을 사용하려면 클라이언트 애플리케이션을 업데이트해야 합니다. <ul><li>[서비스 계정(JWT) 자격 증명에서 마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth를 사용한 신규 및 기존 애플리케이션 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[새 OAuth 서버 간 자격 증명 사용](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
-{style="table-layout:auto"}
 
 ## AppMeasurement
 
