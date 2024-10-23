@@ -3,7 +3,7 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
+source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 51%
@@ -21,7 +21,7 @@ ht-degree: 51%
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Adobe Analytics의 새 Report Builder** | 새로운 Report Builder 애플리케이션은 향상된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원 및 Mac, Windows 및 웹 브라우저에서 Microsoft Excel에 대한 지원을 포함하여 Adobe Analytics에 대한 주요 업데이트를 제공합니다. 이 응용 프로그램은 기존 응용 프로그램과 함께 사용할 수 있지만 동일한 파일에서 사용할 수 없습니다. 업그레이드 기능은 기존 통합 문서를 새 애플리케이션으로 업그레이드하는 데 제공됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024년 10월 16일 |
-| **Web SDK 태그로 태그 구현을 마이그레이션하기 위한 JSON 내보내기** | Analytics 태그 확장에 대한 이 업데이트는 Web SDK로의 마이그레이션과 관련되어 있습니다. 이 Adobe Analytics 확장 업데이트를 워크플로의 일부로 사용하여 웹 SDK 확장을 사용한 확장 구성을 다시 만들 수 있습니다. Adobe Analytics 태그 확장에서는 eVar, prop 및 이벤트 설정을 JSON으로 볼 수 있으며, 편집을 위해 내보내고 Web SDK 확장에 포함할 수 있습니다. |  | 2024년 10월 23일 |
+| **Web SDK 태그로 태그 구현을 마이그레이션하기 위한 JSON 내보내기** | Analytics 태그 확장에 대한 이 업데이트는 Web SDK로의 마이그레이션과 관련되어 있습니다. 이 Adobe Analytics 확장 업데이트를 워크플로의 일부로 사용하여 웹 SDK 확장을 사용한 확장 구성을 다시 만들 수 있습니다. Adobe Analytics 태그 확장에서는 eVar, prop 및 이벤트 설정을 JSON으로 볼 수 있으며, 편집을 위해 내보내고 Web SDK 확장에 포함할 수 있습니다. |  | 2024년 10월 31일 |
 
 ## Adobe Analytics의 수정 사항
 
