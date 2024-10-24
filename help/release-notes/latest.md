@@ -3,10 +3,10 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
+source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 51%
+source-wordcount: '767'
+ht-degree: 52%
 
 ---
 
@@ -20,8 +20,9 @@ ht-degree: 51%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Analytics의 새 Report Builder** | 새로운 Report Builder 애플리케이션은 향상된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원 및 Mac, Windows 및 웹 브라우저에서 Microsoft Excel에 대한 지원을 포함하여 Adobe Analytics에 대한 주요 업데이트를 제공합니다. 이 응용 프로그램은 기존 응용 프로그램과 함께 사용할 수 있지만 동일한 파일에서 사용할 수 없습니다. 업그레이드 기능은 기존 통합 문서를 새 애플리케이션으로 업그레이드하는 데 제공됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024년 10월 16일 |
+| **Adobe Analytics의 새 Report Builder** | 새로운 Report Builder 애플리케이션은 향상된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원 및 Mac, Windows 및 웹 브라우저에서 Microsoft Excel에 대한 지원을 포함하여 Adobe Analytics에 대한 주요 업데이트를 제공합니다. 이 응용 프로그램은 기존 응용 프로그램과 함께 사용할 수 있지만 동일한 파일에서 사용할 수 없습니다. 업그레이드 기능은 기존 통합 문서를 새 애플리케이션으로 업그레이드하는 데 제공됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024년 10월 16일 |
 | **Web SDK 태그로 태그 구현을 마이그레이션하기 위한 JSON 내보내기** | Analytics 태그 확장에 대한 이 업데이트는 Web SDK로의 마이그레이션과 관련되어 있습니다. 이 Adobe Analytics 확장 업데이트를 워크플로의 일부로 사용하여 웹 SDK 확장을 사용한 확장 구성을 다시 만들 수 있습니다. Adobe Analytics 태그 확장에서는 eVar, prop 및 이벤트 설정을 JSON으로 볼 수 있으며, 편집을 위해 내보내고 Web SDK 확장에 포함할 수 있습니다. |  | 2024년 10월 31일 |
+| **Analysis Workspace 성능의 요청 요소에 대한 새로운 정보** | 이제 Analysis Workspace에서 성능을 분석할 때 새로운 &quot;요청 요소&quot; 섹션을 사용할 수 있습니다. 요청이 처리되는 방식 및 처리 시간에 영향을 주는 다양한 요인에 대한 자세한 내용은 [Analysis Workspace 성능 최적화](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)의 &quot;요청 요소&quot;를 참조하십시오. |  | 2024년 10월 1일 수요일 |
 
 ## Adobe Analytics의 수정 사항
 
@@ -48,7 +49,7 @@ Data Warehouse: AN-359820
 
 | EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
-| **Adobe Analytics API(버전 1.4)에 대한 EOL** | 2024년 7월 17일 | **2026년 8월 12일**&#x200B;에 다음 Analytics Legacy API 서비스가 수명이 다되어 중단되며, 이러한 서비스를 사용하여 빌드된 현재 통합이 작동하지 않습니다.<ul><li>Adobe Analytics API (버전 1.4)</li><li>Adobe Analytics WSSE 인증</li></ul><p>Adobe Analytics API(버전 1.4)를 사용하는 통합은 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)로 마이그레이션되어야 하며 WSSE 통합은 [Adobe Developer Console](https://developer.adobe.com/console)의 OAuth 기반 인증 프로토콜로 마이그레이션되어야 합니다.</p><p>자주 묻는 질문에 대한 답변과 자세한 안내는 [Adobe Analytics 1.4 API EOL FAQ](/help/admin/c-admin-api/c-admin-14-api-eol.md)를 참조하시기 바랍니다.</p> |
+| **Adobe Analytics API(버전 1.4)에 대한 EOL** | 2024년 7월 17일 | **2026년 8월 12일**&#x200B;에 다음과 같은 Analytics Legacy API 서비스가 종료되며 해당 서비스를 사용하여 빌드한 현재 모든 통합 기능은 더 이상 작동하지 않습니다.<ul><li>Adobe Analytics API (버전 1.4)</li><li>Adobe Analytics WSSE 인증</li></ul><p>Adobe Analytics API(버전 1.4)를 사용하는 통합은 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)로 마이그레이션되어야 하며 WSSE 통합은 [Adobe Developer Console](https://developer.adobe.com/console)의 OAuth 기반 인증 프로토콜로 마이그레이션되어야 합니다.</p><p>자주 묻는 질문에 대한 답변과 자세한 안내는 [Adobe Analytics 1.4 API EOL FAQ](/help/admin/c-admin-api/c-admin-14-api-eol.md)를 참조하시기 바랍니다.</p> |
 | **Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션** | 2023년 5월 11일 | Adobe I/O JWT 자격 증명을 사용하는 Adobe Analytics API 및 Livestream 고객은 **2025년 1월 1일**&#x200B;까지 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 2024년 5월 1일부터는 Adobe I/O를 사용하여 새 JWT 자격 증명을 만들 수 없습니다. JWT를 사용하는 고객은 OAuth 서버 간 자격 증명을 새로 만들거나 기존 JWT 자격 증명을 OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 또한 고객은 새 OAuth 서버 간 자격 증명을 사용하려면 클라이언트 애플리케이션을 업데이트해야 합니다. <ul><li>[서비스 계정(JWT) 자격 증명에서 마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth를 사용한 신규 및 기존 애플리케이션 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[새 OAuth 서버 간 자격 증명 사용](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 
