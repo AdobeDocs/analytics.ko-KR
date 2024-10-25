@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
-user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 기존 Report Builder, Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
+user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -168,14 +168,14 @@ ht-degree: 96%
    + [Report Builder 허브](report-builder/report-builder-hub.md)
    + [보고서 세트 선택](report-builder/select-report-suite.md)
    + [날짜 범위 선택](report-builder/select-date-range.md)
-   + [세그먼트 작업](report-builder/work-with-segments.md)
+   + [세그먼트를 사용한 작업](report-builder/work-with-segments.md)
    + [차원 필터링](report-builder/filter-dimensions.md)
    + [데이터 블록 관리](report-builder/manage-reportbuilder.md)
    + [통합 문서 예약](report-builder/schedule-reportbuilder.md)
    + [제한된 레이블](report-builder/restricted-labels.md)
    + [Report Builder 설정](report-builder/report-builder-settings.md)
 + 레거시 Report Builder {#legacy-report-builder}
-   + [기존 Adobe Report Builder 도움말](legacy-report-builder/home.md)
+   + [레거시 Adobe Report Builder 도움말](legacy-report-builder/home.md)
    + 레거시 Report Builder 설정 {#legacy-report-builder-setup}
       + [시스템 요구 사항](legacy-report-builder/setup/system-requirements.md)
       + [Report Builder 설치](legacy-report-builder/setup/t-install-arb.md)
