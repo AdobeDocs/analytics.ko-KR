@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: bae719223ffa642434ab9559c1e48ebd76d003a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6028'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2024년 10월** |  |
-| Analysis Workspace 성능의 요청 요소에 대한 새로운 정보 | [Analysis Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) 문서의 새 [요청 요소](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) 섹션에서는 요청이 처리되는 방식과 처리 시간에 영향을 주는 다양한 요소에 대해 설명합니다. |
-| 새 Report Builder | Mac, Windows 및 웹 브라우저에서 지원되는 간소화된 Report Builder 추가 기능에 대한 [새 설명서](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview). |
+| Analysis Workspace 성능의 요청 요소에 대한 새로운 정보 | [Analysis Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) 문서의 새로운 [요청 요소](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) 섹션에서는 요청이 처리되는 방식과 처리 시간에 영향을 미치는 다양한 요소에 대해 설명합니다. |
+| 새로운 Report Builder | Mac, Windows 및 웹 브라우저에서 지원되는 간소화된 Report Builder 추가 기능을 위한 [새로운 설명서](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview)입니다. |
 | **2024년 8월** | |
 | 경고 관리자 | [알림 관리자](/help/components/c-alerts/alert-manager.md)에 대한 설명서가 간소화되었습니다. 명확성과 정확성을 위해 업데이트되었습니다. |
 | **2024년 7월** | |
@@ -63,7 +63,7 @@ ht-degree: 99%
 | **2024년 1월** | |
 | 개별 IMS 조직에 적용되는 구성 요소 마이그레이션 | [구성 요소 마이그레이션](/help/admin/admin/component-migration/component-migration.md)이 IMS 조직 간 마이그레이션을 지원하지 않는다는 점을 명시했습니다. |
 | 특정 정보는 관리자만 사용할 수 있음을 명시했습니다. | 시스템 관리자만 사용할 수 있는 [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 및 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에 “마지막 사용” 및 “다음에서 사용” 열에 대한 정보가 추가되었습니다. |
-| 미디어 평균 분당 시청자 설명서 업데이트 | 명확성을 높이기 위해 [미디어 평균 분당 시청자 패널](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)의 정보를 업데이트했습니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li></ul> |
+| 미디어 평균 분당 시청 대상자 설명서 업데이트 | 명확성을 높이기 위해 [미디어 평균 분당 시청 대상자 패널](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)의 정보를 업데이트했습니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li></ul> |
 
 ### 2023 {#year2023}
 

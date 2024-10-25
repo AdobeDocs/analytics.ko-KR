@@ -1,18 +1,18 @@
 ---
-description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대한 권장 사용 사례를 제공합니다. 도구는 나열된 순서대로 고려해야 합니다. 특정 도구가 필요를 충족하지 못하면 다음 도구로 이동하여 고려하십시오.
+description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대한 권장 사용 사례를 제공합니다. 도구는 나열된 순서대로 고려해야 합니다. 특정 도구가 요구 조건을 충족하지 못한다면 그 다음 도구를 사용해 볼 것을 고려해 보십시오.
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1220'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 어떤 Adobe Analytics 도구를 사용해야 합니까?
 
-이 도움말 페이지에서는 각 Adobe Analytics 도구에 대한 권장 사용 사례를 제공합니다. 도구는 나열된 순서대로 고려해야 합니다. 특정 도구가 필요를 충족하지 못하면 다음 도구로 이동하여 고려하십시오.
+이 도움말 페이지에서는 각 Adobe Analytics 도구에 대한 권장 사용 사례를 제공합니다. 도구는 나열된 순서대로 고려해야 합니다. 특정 도구가 요구 조건을 충족하지 못한다면 그 다음 도구를 사용해 볼 것을 고려해 보십시오.
 
 Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 비교](/help/analyze/get-started/analytics-product-comparison.md)를 참조하십시오.
 
@@ -26,9 +26,9 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[Adobe Analytics 대시보드](/help/analyze/mobile-app/home.md)**&#x200B;를 통해 직관적인 스코어카드에 사용자가 모바일 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)**&#x200B;은(는) Mac, Windows 및 웹 브라우저에서 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
+**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)**&#x200B;는 Mac, Windows 및 웹 브라우저에서 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
 
-**[기존 Report Builder](/help/analyze/legacy-report-builder/home.md)**&#x200B;은(는) Windows에서만 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
+**[레거시 Report Builder](/help/analyze/legacy-report-builder/home.md)**&#x200B;는 Windows에서만 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
 
 **[Activity Map](/help/analyze/activity-map/overview.md)**&#x200B;은 웹 페이지 및 모바일 앱에서의 사용자 참여를 시각적으로 표현하는 Adobe Analytics의 기능입니다. 이를 통해 마케팅 담당자와 분석가는 클릭, 호버링 및 스크롤 동작과 같은 사용자 상호 작용을 추적하고 분석할 수 있습니다.
 
@@ -63,10 +63,10 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 * 데이터 삽입 API 및 대량 데이터 삽입 API는 모두 서버측 컬렉션 데이터를 Adobe Analytics에 제출하는 방법입니다. 데이터 삽입 API 호출은 한 번에 하나의 이벤트로 수행됩니다. 대량 데이터 삽입 API는 한 행에 한 이벤트씩, 이벤트 데이터를 포함하는 CSV 형식의 파일을 수락합니다. 새로운 서버측 컬렉션 구현 작업을 수행하는 경우에는 대량 데이터 삽입 API를 사용하는 것이 좋습니다.
 
-**[고객 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)**&#x200B;은 다음 경우에 사용합니다.
+**[고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)**&#x200B;은 다음 경우에 사용합니다.
 
 * 고객 관계 관리 (CRM) 데이터베이스에서 기업 고객 데이터를 캡처하고, 이 데이터를 Experience Cloud에 업로드하려는 경우.
-* CRM 데이터를 Analytics에서 더 자세한 분석에 사용하거나 Adobe Target에서 타겟팅 기준으로 사용하려는 경우.
+* CRM 데이터를 Analytics에서 더 자세한 분석에 사용하거나 Adobe Target에서 타기팅 기준으로 사용하려는 경우.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**&#x200B;는 다음 경우에 사용합니다.
 

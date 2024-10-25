@@ -4,9 +4,9 @@ description: Adobe Analytics를 사용하기 위한 시스템 요구 사항입�
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
