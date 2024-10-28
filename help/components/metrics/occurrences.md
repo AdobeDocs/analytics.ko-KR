@@ -3,10 +3,10 @@ title: 발생 횟수
 description: 변수가 설정되었거나 지속된 히트의 수입니다.
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 0c5062363e10d9b545a3209ebaefcc6fa5d02c8b
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '280'
+ht-degree: 57%
 
 ---
 
@@ -22,3 +22,9 @@ ht-degree: 100%
 
 * **발생 횟수와 [인스턴스](instances.md)** 비교: 발생 횟수는 차원 항목이 설정되어 있거나 지속된 히트를 계산합니다. 인스턴스는 차원 항목이 지속되는 히트를 포함하지 않습니다.
 * **발생 횟수와 [페이지 조회수](page-views.md)** 비교: 발생 횟수에는 페이지 조회수 추적 호출 ([`t()`](/help/implement/vars/functions/t-method.md)), 링크 추적 호출 ([`tl()`](/help/implement/vars/functions/tl-method.md)) 및 요약 [데이터 소스](/help/import/data-sources/overview.md)의 데이터를 포함하여 모든 히트 유형이 포함됩니다. 페이지 조회수 지표에는 페이지 조회수 추적 호출만 포함되며 링크 추적 호출 및 요약 데이터 소스는 제외됩니다.
+
+## 지속성
+
+지속성 은 특정 차원 값과 설정된 이벤트에서 벗어난 지표의 관계를 설정할 수 있습니다. 할당과 만료의 조합을 사용합니다. 단일 열에서 한 번에 두 개 이상의 차원 항목이 지속되는 경우 할당을 통해 보존되는 값을 결정할 수 있습니다. 만료 설정을 통해 설정된 이벤트에서 벗어난 차원 항목의 지속 기간을 결정할 수 있습니다.
+
+지속성 은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 필터링이나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다. 지속성이 활성화되지 않은 경우 차원은 동일한 이벤트에 존재하는 지표에만 관련됩니다.
