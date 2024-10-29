@@ -4,37 +4,37 @@ description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보 (2024년 10월 23일 릴리스)
+# 최신 Adobe Analytics 릴리스 정보(2024년 10월 23일 릴리스)
 
-**마지막 업데이트**: 2024년 10월 23일 목요일
+**마지막 업데이트**: 2024년 10월 23일
 
-이 릴리스 정보는 2024년 10월 16일부터 2024년 말까지 표시됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이번 릴리스 정보에는 2024년 10월 16일부터 2024년 말일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Analytics의 새 Report Builder** | 새로운 Report Builder 애플리케이션은 향상된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원 및 Mac, Windows 및 웹 브라우저에서 Microsoft Excel에 대한 지원을 포함하여 Adobe Analytics에 대한 주요 업데이트를 제공합니다. 이 응용 프로그램은 기존 응용 프로그램과 함께 사용할 수 있지만 동일한 파일에서 사용할 수 없습니다. 업그레이드 기능은 기존 통합 문서를 새 애플리케이션으로 업그레이드하는 데 제공됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024년 10월 16일 |
-| **Web SDK 태그로 태그 구현을 마이그레이션하기 위한 JSON 내보내기** | Analytics 태그 확장에 대한 이 업데이트는 Web SDK로의 마이그레이션과 관련되어 있습니다. 이 Adobe Analytics 확장 업데이트를 워크플로의 일부로 사용하여 웹 SDK 확장을 사용한 확장 구성을 다시 만들 수 있습니다. Adobe Analytics 태그 확장에서는 eVar, prop 및 이벤트 설정을 JSON으로 볼 수 있으며, 편집을 위해 내보내고 Web SDK 확장에 포함할 수 있습니다. |  | 2024년 10월 31일 |
-| **Analysis Workspace 성능의 요청 요소에 대한 새로운 정보** | 이제 Analysis Workspace에서 성능을 분석할 때 새로운 &quot;요청 요소&quot; 섹션을 사용할 수 있습니다. 요청이 처리되는 방식 및 처리 시간에 영향을 주는 다양한 요인에 대한 자세한 내용은 [Analysis Workspace 성능 최적화](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)의 &quot;요청 요소&quot;를 참조하십시오. |  | 2024년 10월 1일 수요일 |
+| **Adobe Analytics용 새로운 Report Builder** | 새로운 Report Builder 애플리케이션은 Adobe Analytics에 개선된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원과 Mac, Windows 및 웹 브라우저에서의 Microsoft Excel 지원 등 주요 업데이트를 제공합니다. 이 애플리케이션은 기존 애플리케이션과 함께 사용할 수 있지만 동일한 파일에서는 사용할 수 없습니다. 기존 통합 문서를 새 애플리케이션으로 업그레이드하는 업그레이드 기능이 제공됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024년 10월 16일 |
+| **태그 구현을 Web SDK 태그로 마이그레이션하기 위한 JSON 내보내기** | Analytics 태그 확장 기능에 대한 이 업데이트는 Web SDK로의 마이그레이션과 관련이 있습니다. Adobe Analytics 확장 기능에 대한 이 업데이트를 워크플로의 일부로 사용하여 Web SDK 확장 기능의 확장 기능 구성을 다시 만들 수 있습니다. Adobe Analytics 태그 확장 기능에서는 eVar, props, 이벤트 설정을 JSON 형식으로 볼 수 있으며, 이를 편집하도록 내보낼 수 있고 Web SDK 확장 기능에 포함할 수 있습니다. |  | 2024년 10월 31일 |
+| **Analysis Workspace 성능의 요청 요소에 대한 새로운 정보** | 이제 Analysis Workspace에서 성과를 분석할 때 새로운 “요청 요인” 섹션을 사용할 수 있습니다. 요청이 처리되는 방식과 처리 시간에 영향을 미치는 다양한 요소에 대해 자세히 알아보려면 [Analysis Workspace 성능 최적화](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)의 “요청 요소” 섹션을 참조하십시오. |  | 2024년 10월 1일 |
 
 ## Adobe Analytics의 수정 사항
 
 Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
 관리 도구: AN-342485; AN-347931; AN-348704; AN-357723; AN-358453; AN-358717; AN-359548; AN-360136
-분류: AN-359025, AN-359283, AN-359368, AN-359710, AN-359752, AN-359759, AN-359799, AN-359887, AN-360543, AN-360566, AN-360612, AN-360741, AN-360942 360952
-크로스 디바이스 분석: AN-359210
+분류: AN-359025; AN-359283; AN-359368; AN-359710; AN-359752; AN-359759; AN-359799; AN-359887; AN-360543; AN-360566; AN-360612; AN-360741; AN-360942; AN-360952
+Cross-Device Analytics: AN-359210
 고객 속성: AN-357897
 데이터 수집: AN-351131; AN-351309; AN-355678; AN-359856
 데이터 피드: AN-359699
 데이터 복구 API: AN-360256
-데이터 소스: AN-359290
+데이터 소: AN-359290
 Data Warehouse: AN-359820
 초과 경고: AN-358132
 
@@ -42,7 +42,7 @@ Data Warehouse: AN-359820
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **Campaign이 아닌 고객은 트리거에 액세스할 수 없습니다** | 2023년 10월 16일 | 2025년 1월 30일에 Adobe Campaign 라이선스가 없는 Adobe Analytics 고객은 트리거를 구성하고 사용하는 기능에 대한 액세스 권한을 잃게 됩니다. 고객은 Campaign을 구입하거나 트리거 사용을 중단하거나 트리거 기능을 제공하는 다른 Adobe 도구를 살펴봐야 합니다. |
+| **캠페인 고객이 아닌 사용자는 트리거에 대한 액세스 권한을 잃게 됩니다.** | 2023년 10월 16일 | 2025년 1월 30일부터 Adobe Campaign 라이선스가 없는 Adobe Analytics 고객은 트리거를 구성하고 사용할 수 있는 액세스 권한을 잃게 됩니다. 고객은 Campaign을 구매하거나 트리거 사용을 중단하거나 트리거 기능을 제공하는 다른 Adobe 도구를 확인해야 합니다. |
 | **추가 구현 세부 사항 XDM 필드가 자동으로 매핑됨** | 2024년 9월 11일 | 이제 Adobe Experience Platform Edge Network를 사용하여 Adobe Analytics로 데이터를 전송할 때 XDM 필드 `xdm.implementationdetails.name` 및 `xdm.implementationdetails.environment`가 항상 컨텍스트 데이터 변수 `c.a.x.implementationdetails.name` 및 `c.a.x.implementationdetails.environment`에 매핑됩니다. 이전에는 일부 시나리오에서 이들 값이 채워지지 않았습니다. 이들 값의 가용성에 맞게 관련 처리 규칙을 조정해 주십시오. |
 
 ## 서비스 종료(EOL) 알림 {#eol}
@@ -55,12 +55,12 @@ Data Warehouse: AN-359820
 
 ## AppMeasurement
 
-AppMeasurement 릴리스(버전 2.26.0)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko-kr)를 참조하십시오.
+AppMeasurement 릴리스(버전 2.26.0)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko)를 참조하십시오.
 
 
 ## 관련 리소스
 
 * [2024년 이전 릴리스 정보](/help/release-notes/2024.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-kr)
-* [스트리밍 미디어 컬렉션 추가 기능 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko-kr)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
+* [스트리밍 미디어 컬렉션 추가 기능 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
