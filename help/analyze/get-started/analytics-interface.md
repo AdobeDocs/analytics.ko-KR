@@ -3,8 +3,8 @@ description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Anal
 title: Analytics 인터페이스 이해
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    | Search &amp; Promote | 이 기능은 더 이상 지원되지 않습니다. |  |
    | 모바일 서비스 | 이 기능은 더 이상 지원되지 않습니다. |  |
    | Analytics 대시보드 (모바일 앱) | Adobe Analytics 대시보드 앱은 언제 어디서나 Adobe Analytics를 통해 통찰력을 제공합니다. 사용자는 앱을 통해 Adobe Analytics 데스크탑 UI를 사용하여 만든 직관적인 스코어카드를 볼 수 있습니다. | iOS App Store 또는 Google Play 스토어의 Adobe Analytics 대시보드 앱 |
-   | Report Builder | Adobe Report Builder는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder란 무엇입니까?](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |
+   | Report Builder | Adobe Report Builder는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder란 무엇입니까?](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview) |
 
    {style="table-layout:auto"}
 

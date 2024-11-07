@@ -4,10 +4,10 @@ title: Admin Console로 Analytics 사용자 마이그레이션
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '3084'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ Adobe Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder 업데이트 </p> </td> 
-   <td colname="col2"> <p> <p>중요: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html?lang=ko-KR">Report Builder</a>의 설치를 최신 버전으로 업데이트합니다. </p> </p> </td> 
+   <td colname="col2"> <p> <p>중요: <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a>의 설치를 최신 버전으로 업데이트합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션은 언제 시작됩니까? </p> </td> 
@@ -248,7 +248,7 @@ Adobe Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 만료 </p> </td> 
-   <td colname="col2"> <p> [관리 도구]의 Analytics에서 계정 만료 날짜를 수동으로 설정할 수 있습니다. 만료 날짜가 충족되면 사용자가 Analytics에 액세스할 수 없지만 실제 Experience Cloud 사용자 계정(예: Adobe ID, Enterprise ID, Federated ID 등)은 만료되지 않습니다. 여전히 Experience Cloud에 로그인할 수 있지만 Analytics를 클릭할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p> [관리 도구]의 Analytics에서 계정 만료 날짜를 수동으로 설정할 수 있습니다. 만료 날짜가 충족되면 사용자는 Analytics에 액세스할 수 없지만 실제 Experience Cloud 사용자 계정(예: Adobe ID, Enterprise ID, Federated ID 등)은 만료되지 않습니다. 여전히 Experience Cloud에 로그인할 수 있지만 Analytics를 클릭할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
