@@ -4,7 +4,7 @@ title: 모바일 스코어카드 만들기 및 공유
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
+source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
 workflow-type: tm+mt
 source-wordcount: '2500'
 ht-degree: 81%
@@ -291,7 +291,6 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 ![데이터 스토리 만들기](assets/data-story-nav.png){width="25%"}
 
 또한 키보드의 화살표를 사용하거나 구성 요소를 선택하고 화면의 왼쪽이나 오른쪽으로 길게 눌러 스크롤하여 앞뒤로 탐색할 수도 있습니다.
-
 
 ## 스코어카드 미리보기 {#preview}
 

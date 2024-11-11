@@ -4,9 +4,9 @@ title: Adobe Analytics 대시보드 경영진 안내서
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
+source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1262'
 ht-degree: 92%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 92%
 
 1. 보려는 스코어카드를 탭합니다.
 
-   한 번의 로그인으로 둘 이상의 조직에 액세스할 수 있는 경우 조직의 모든 스코어카드를 스코어카드 목록에서 사용할 수 있습니다.
+   한 번의 로그인으로 둘 이상의 조직에 액세스할 수 있는 경우 홈 화면에 사용 가능한 모든 회사의 모든 스코어카드가 한 곳에 표시됩니다.
 
    스코어카드 제목, 조직 이름 또는 최근에 본 항목에 따라 스코어카드 목록을 정렬할 수 있습니다. 특정 스코어카드를 검색할 수도 있습니다.
 
