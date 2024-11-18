@@ -3,9 +3,9 @@ description: 경고를 사용하면 알림을 세밀하게 제어하고 예외 �
 title: 경고 개요
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ Adobe Analytics 패키지에 따라 예외 항목 임계값에 따라 경고를 
 
 >[!NOTE]
 >
->예외 항목 탐지를 사용하는 경고(_지능형 경고_&#x200B;라고도 함)는 Adobe Analytics Select, Prime 또는 Ultimate 패키지가 있는 조직에서만 사용할 수 있습니다.
+>예외 항목 탐지를 사용하는 경고(_지능형 경고_)는 Adobe Analytics Prime 또는 Ultimate 패키지를 사용하는 조직에서만 사용할 수 있습니다.
 
 경고에서 예외 항목 탐지를 사용하는 경우 교육 기간은 경고에 대해 선택한 세부기간에 따라 달라집니다.
 
