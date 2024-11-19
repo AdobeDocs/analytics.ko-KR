@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
+source-git-commit: 0e275dafb9d6562bf10fba1e0ecd9930e0e97f48
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 58%
+source-wordcount: '627'
+ht-degree: 59%
 
 ---
 
@@ -26,8 +27,6 @@ ht-degree: 58%
 ![모든 데이터 블록의 목록을 보는 관리 옵션입니다.](./assets/image53.png)
 
 데이터 블록 관리자는 통합 문서에 있는 모든 데이터 블록을 나열합니다. 
-
-![통합 문서에 있는 모든 데이터 블록의 목록입니다.](./assets/image52.png)
 
 ## 데이터 블록 목록 정렬
 
