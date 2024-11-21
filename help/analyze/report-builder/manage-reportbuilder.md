@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
-source-git-commit: 0e275dafb9d6562bf10fba1e0ecd9930e0e97f48
+source-git-commit: 3d1a26b960988020391e75b3d01af0f9b806d33b
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 59%
@@ -22,7 +22,6 @@ ht-degree: 59%
 ## 데이터 블록 보기
 
 통합 문서의 모든 데이터 블록 목록을 보려면 **관리**&#x200B;를 클릭합니다.
-
 
 ![모든 데이터 블록의 목록을 보는 관리 옵션입니다.](./assets/image53.png)
 
