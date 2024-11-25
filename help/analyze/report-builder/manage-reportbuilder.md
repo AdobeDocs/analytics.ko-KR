@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
-source-git-commit: 3d1a26b960988020391e75b3d01af0f9b806d33b
+source-git-commit: 8c863329e385c7e3fe15d85c07e1a1d541296acb
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 59%
+source-wordcount: '636'
+ht-degree: 57%
 
 ---
 
@@ -76,7 +76,8 @@ ht-degree: 59%
 
 ## 데이터 블록 삭제
 
-선택한 데이터 블록을 삭제하려면 휴지통 아이콘을 클릭합니다.
+1. 데이터 블록 관리자에서 데이터 블록을 선택합니다.
+1. 선택한 데이터 블록을 삭제하려면 휴지통 아이콘을 클릭합니다.
 
 ## 그룹 데이터 블록
 
