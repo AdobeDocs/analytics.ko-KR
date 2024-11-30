@@ -5,58 +5,101 @@ feature: Analysis Workspace
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 6da9326feec005489e06bb7124b1ff3722830308
+exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
+source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 31%
+source-wordcount: '578'
+ht-degree: 6%
 
 ---
 
-# 회사 템플릿 만들기 및 관리
+# 템플릿 만들기 및 관리
 
-사용자 정의 보고서를 만들고 로그인 회사의 다른 사람들이 사용할 수 있도록 저장할 수 있습니다. 문서 [Analysis Workspace에서 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)의 [빈 프로젝트 또는 보고서에서 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report)에 설명된 대로 프로젝트를 만들 때 회사 템플릿을 선택할 수 있습니다.
+관리자는 템플릿을 만들고 이를 저장하여 로그인 회사의 다른 사용자가 사용할 수 있도록 할 수 있습니다.
 
-## 사용자 정의 회사 템플릿 만들기
+로그인 회사의 직원들은 [템플릿 사용](/help/analyze/analysis-workspace/templates/use-templates.md)에 설명된 대로 이러한 회사 템플릿을 사용할 수 있습니다.
 
-새 회사 템플릿을 만들려면 다음 작업을 수행하십시오.
+## 템플릿 만들기
 
-1. Analysis Workspace에서 원하는 상태로 프로젝트를 빌드합니다.
-1. [!UICONTROL **프로젝트**] > **[!UICONTROL 회사 템플릿으로 저장...]**&#x200B;을 선택합니다.
+로그인 회사 직원이 사용할 수 있는 새 템플릿을 만들려면 다음 작업을 수행하십시오.
 
-   ![회사 보고서](assets/company-report.png)
+1. Analysis Workspace에서 프로젝트를 원하는 상태로 빌드합니다.
 
-1. 보고서 이름을 업데이트하고 설명을 추가하고 태그를 추가한 다음 [!UICONTROL **회사 템플릿으로 저장**]&#x200B;을 선택합니다.
+1. [!UICONTROL **프로젝트**] > **[!UICONTROL 템플릿으로 저장...]**&#x200B;을 선택합니다.
 
-   템플릿은 프로젝트 만들기 모달의 회사 템플릿 목록에 추가되며 로그인 회사의 사용자가 사용할 수 있습니다.
+   ![회사 템플릿](assets/company-template-save.png)
 
-   사용자가 회사 템플릿을 기반으로 프로젝트를 만드는 방법에 대한 자세한 내용은 [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)에서 &quot;빈 프로젝트 또는 보고서에서 프로젝트 만들기&quot;를 참조하십시오.
+1. [!UICONTROL 템플릿으로 저장] 대화 상자에서 다음 정보를 지정하십시오.
 
-## 회사 템플릿 관리
+   | 필드 | 설명 |
+   |---------|----------|
+   | **[!UICONTROL 이름]** | 템플릿에 대한 수사적 이름을 입력합니다. |
+   | **[!UICONTROL 설명]** | 템플릿에 대해 의도된 용도에 대해 설명하는 간단한 설명을 입력합니다. |
+   | **[!UICONTROL 이 템플릿을 사용하는 이유]** | 조직의 사용자에게 이 템플릿을 사용할 수 있는 방법을 알려 주는 간단한 설명을 입력하십시오. |
+   | **[!UICONTROL 채널]** | 이 템플릿에 적용되는 적용 가능한 채널을 선택합니다. 여러 채널을 선택할 수 있습니다. **[!UICONTROL 웹]**, **[!UICONTROL 모바일]**, **[!UICONTROL 크로스 채널]**, **[!UICONTROL 콜 센터]** 및 **[!UICONTROL 매장]**.<p>선택한 사항에 따라 템플릿 표시 위치와 조직 템플릿 페이지에서 액세스하는 사용자에게 적용되는 필터가 결정됩니다.</p> |
+   | **[!UICONTROL 사용 사례]** | 이 템플릿에 적용되는 사용 사례를 선택합니다. **[!UICONTROL 참여]**, **[!UICONTROL 전환]**, **[!UICONTROL 대상]** 및 **[!UICONTROL 획득]**&#x200B;과 같은 여러 사용 사례를 선택할 수 있습니다. <p>선택한 사항에 따라 템플릿 표시 위치와 조직 템플릿 페이지에서 액세스하는 사용자에게 적용되는 필터가 결정됩니다.</p> |
+   | **[!UICONTROL 태그]** | 템플릿에 적용할 태그를 지정합니다. 사용자는 추가한 태그로 템플릿 목록을 필터링할 수 있습니다. |
 
-관리자는 프로젝트 목록을 필터링하여 회사 템플릿을 표시하고 관리할 수 있습니다. 고정된 항목은 고정된 상태로 유지되며 그 뒤에는 보고서 아이콘 ![보고서 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)으로 식별되는 회사 서식 파일 목록이 표시됩니다. 이 보기에서 하나 이상의 보고서를 삭제, 이름 바꾸기, 태그 지정 또는 승인할 수 있습니다.
+1. [!UICONTROL **템플릿으로 저장**]&#x200B;을 선택합니다.
 
-회사 템플릿을 표시하고 관리하려면 다음 작업을 수행하십시오.
+사용자가 템플릿을 기반으로 프로젝트를 만드는 방법에 대한 자세한 내용은 [템플릿 사용](/help/analyze/analysis-workspace/templates/use-templates.md)에서 [템플릿을 기반으로 프로젝트 만들기](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template)를 참조하십시오.
+
+## 템플릿 편집 또는 삭제
+
+관리자는 회사 템플릿을 편집하거나 삭제할 수 있습니다.
+
+1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 **[!UICONTROL _login_company_name _템플릿]**을 선택합니다.
+
+1. 열 보기 ![열 보기 아이콘](assets/column-view-icon.png)에서 템플릿을 보는 경우:
+
+   1. 편집하거나 삭제할 템플릿으로 이동하여 템플릿 이름 옆에 있는 정보 아이콘을 선택합니다.
+
+      ![회사 템플릿 정보](assets/company-template-info.png)
+
+   1. **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
+
+   1. 기타 아이콘을 선택한 다음 **[!UICONTROL 편집]** 또는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+
+      ![템플릿 편집 또는 삭제](assets/company-template-edit-delete.png)
+
+1. 카드 보기 ![카드 보기 아이콘](assets/card-view-icon.png)에서 템플릿을 보는 경우:
+
+   1. 편집하거나 삭제할 템플릿을 찾습니다.
+
+      ![회사 템플릿 카드 보기](assets/company-template-cards.png)
+
+   1. 기타 아이콘을 선택한 다음 **[!UICONTROL 편집]** 또는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+
+      ![회사 템플릿 카드 편집 또는 삭제](assets/company-template-card-edit-delete.png)
+
+## 템플릿 이름 변경, 태그 지정 또는 승인
+
+관리자는 회사 템플릿의 이름을 바꾸고, 태그를 지정하고, 승인할 수 있습니다.
+
+1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 왼쪽 레일에서 **[!UICONTROL 프로젝트 탭]**&#x200B;을 선택합니다.
+
+1. 필터 아이콘을 선택하여 프로젝트 목록을 필터링합니다.
 
 1. 필터 레일에서 **기타 필터**&#x200B;를 선택한 다음 **회사 템플릿**&#x200B;을 선택합니다.
 
    회사 템플릿 목록이 표시됩니다. 고정되지 않은 모든 일반 프로젝트는 표시되지 않습니다.
 
-   ![회사 보고서 필터 표시](assets/company-reports-filter.png)
+   템플릿 이름 앞에 있는 ![템플릿 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)으로 회사 템플릿을 식별할 수 있습니다.
 
-   회사 템플릿이 표시된 상태에서 관리자는 보고서를 삭제, 이름 변경, 태그 추가 또는 승인할 수 있습니다.
+   ![회사 템플릿 필터 표시](assets/company-templates-filter.png)
 
-1. 보고서 목록에서 단일 보고서를 선택하거나 여러 보고서를 선택합니다.
+1. 사용 가능한 옵션을 보려면 템플릿 옆에 있는 **..** 줄임표 아이콘을 클릭합니다.
 
-1. 사용 가능한 옵션(삭제, 이름 바꾸기, 태그 지정 및 승인)을 보려면 보고서 옆에 있는 **...** 생략 부호 아이콘을 클릭합니다.
+   ![회사 템플릿 작업](assets/company-templates-actions.png)
 
-   ![회사 보고서 액션](assets/company-reports-actions.png)
+1. **[!UICONTROL 이름 바꾸기]**, **[!UICONTROL 태그]** 또는 **[!UICONTROL 승인]**&#x200B;을 선택합니다.
 
-1. 옵션(삭제, 이름 바꾸기, 태그 지정 및 승인)을 선택합니다.
+   [템플릿 편집 또는 삭제](#edit-or-delete-templates)에 설명된 대로 템플릿을 삭제하거나 템플릿을 삭제할 수도 있습니다.
 
-1. 필터 레일을 완료하면 일반 보기로 돌아가려면 회사 템플릿 선택 사항을 다시 선택 취소합니다.
+1. (선택 사항) 필터 레일에서 일반 보기로 돌아가려면 **[!UICONTROL 회사 템플릿]**&#x200B;을 선택 취소합니다.
 
-### 회사 템플릿 삭제
+## 회사 템플릿 액세스
 
-관리자는 회사 템플릿 목록 옵션(위에 설명)을 사용하여 보고서를 삭제하거나 프로젝트 만들기 모달에서 보고서를 삭제할 수 있습니다.
+Adobe이 제공하는 템플릿과 마찬가지로 조직의 사용자는 관리자가 만드는 템플릿에 액세스할 수 있습니다.
 
-![기타 필터](assets/delete-fr-create-project-modal.png)
+회사 템플릿에 액세스하는 방법에 대한 자세한 내용은 [템플릿 사용](/help/analyze/analysis-workspace/templates/use-templates.md)에서 [템플릿 액세스 및 실행](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template)을 참조하십시오.
