@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '18050'
+source-wordcount: '18051'
 ht-degree: 61%
 
 ---
@@ -45,7 +45,11 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
      회사 템플릿은 관리자만 만들 수 있습니다. 회사 템플릿을 만드는 방법에 대한 자세한 내용은 [템플릿 만들기 및 관리](/help/analyze/analysis-workspace/reports/create-company-reports.md)를 참조하십시오.
 
-1. 열 보기 ![열 보기 아이콘](assets/column-view-icon.png) 또는 카드 보기 ![카드 보기 아이콘](assets/card-view-icon.png) 아이콘을 선택하여 열 보기에서 템플릿을 볼 것인지 카드 보기에서 템플릿을 볼 것인지를 선택합니다.
+1. 다음 옵션 중 하나를 사용하여 사용 가능한 템플릿을 보는 방법을 변경합니다.
+
+   * 열 보기 ![열 보기 아이콘](assets/column-view-icon.png) 또는 카드 보기 ![카드 보기 아이콘](assets/card-view-icon.png) 아이콘을 선택하여 열 보기에서 템플릿을 볼 것인지 카드 보기에서 템플릿을 볼 것인지를 선택합니다.
+
+   * 카드 보기 ![카드 보기 아이콘](assets/card-view-icon.png)을 사용할 때 다음 정렬 순서 중에서 선택하세요. **[!UICONTROL 가장 최근에 사용됨]**, **[!UICONTROL 가장 자주 사용됨]**, **[!UICONTROL 알파벳]**, **[!UICONTROL 범주형]**.
 
 1. 검색 필드에서 찾을 템플릿의 이름을 입력한 다음 템플릿 목록에서 해당 이름을 선택합니다. prop, eVar 및 이벤트 번호로 템플릿 목록을 검색할 수도 있습니다. <!-- still true? -->
 
@@ -58,8 +62,6 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
    >화살표 키를 사용하여 메뉴를 탐색하려면 슬래시 키(/)를 누른 다음, 아래쪽 화살표 키를 누릅니다. Enter 키를 눌러 선택한 템플릿을 로드합니다.
 
    사용 가능한 템플릿 목록은 아래의 [사용 가능한 템플릿](#available-reports) 섹션을 참조하십시오.
-
-1. (선택 사항) 보고서 세트에서 사용할 수 없는 구성 요소가 포함된 템플릿을 보고 사용합니다. (기본적으로 표시되는 템플릿은 보고서 세트에서 사용할 수 있는 구성 요소를 사용하는 템플릿뿐입니다.) <!--does this apply to AA? -->
 
 ## 템플릿을 기반으로 프로젝트 만들기 {#use-reports}
 
