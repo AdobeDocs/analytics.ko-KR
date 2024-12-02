@@ -5,7 +5,7 @@ user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
 source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
-   + [시작하기 (역할별)](get-started/get-started-by-role.md)
+   + [시작하기(역할별)](get-started/get-started-by-role.md)
    + [Analytics 인터페이스 이해](get-started/analytics-interface.md)
    + [사용 사례](get-started/use-cases.md)
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](get-started/which-analytics-tool.md)
@@ -41,7 +41,7 @@ ht-degree: 100%
          + [새 프로젝트 저장](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + [여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [핫키 (단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [핫키(단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
    + 보고서 {#reports}
