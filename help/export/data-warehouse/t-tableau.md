@@ -1,12 +1,12 @@
 ---
-description: Data Warehouse는 보고서를 Adobe Analytics의 외부에서 데이터와 레이어를 추가적인 데이터로 시각화할 수 있도록 해주는 TDE(타블로 데이터 추출) 파일 형식으로 제공할 수 있습니다. 이 정보는 이메일로 전송하거나 FTP로 FTP 사이트에 전송할 수 있습니다.
+description: Data Warehouse이 TDE(타블로 데이터 추출) 파일 형식으로 보고서를 전달하는 방법에 대해 알아봅니다. 이 정보를 이메일로 전송하거나 FTP를 사용하여 FTP 사이트로 전송할 수 있습니다.
 title: 타블로 데이터 파일
 feature: Data Warehouse
 exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26
-source-git-commit: 4243f10376e5e33c1d9bd439042b396bd4747f1f
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 42%
+source-wordcount: '88'
+ht-degree: 0%
 
 ---
 

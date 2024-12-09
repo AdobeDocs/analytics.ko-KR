@@ -1,12 +1,12 @@
 ---
 title: 방문 횟수
-description: 중단 없는 일련의 페이지 보기입니다.
+description: Analytics의 방문 횟수 지표에 대해 알아봅니다. 계산 방법, 계산 방법에 영향을 주는 동작, 정의를 변경하는 방법 등을 확인합니다.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: fb25807a0f34409bb3a27f344ff7508a9dd414a4
+source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 88%
+source-wordcount: '710'
+ht-degree: 85%
 
 ---
 

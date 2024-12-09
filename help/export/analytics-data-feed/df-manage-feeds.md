@@ -1,12 +1,12 @@
 ---
-title: 데이터 피드 UI
-description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다.
+title: 데이터 피드 관리
+description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다. 데이터 피드를 만들고, 편집하고, 보는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 28%
+source-wordcount: '1171'
+ht-degree: 26%
 
 ---
 

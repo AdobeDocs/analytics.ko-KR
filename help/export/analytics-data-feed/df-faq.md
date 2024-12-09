@@ -1,13 +1,13 @@
 ---
-description: 데이터 피드에 대한 FAQ
+description: Adobe Analytics의 데이터 피드에 대한 FAQ에 대한 답변을 살펴보십시오.
 keywords: 데이터 피드, 작업, 이전 열, 이후 열, 대소문자 구분
 title: 데이터 피드 FAQ
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 100%
+source-wordcount: '1456'
+ht-degree: 98%
 
 ---
 

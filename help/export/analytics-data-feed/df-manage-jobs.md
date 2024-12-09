@@ -1,12 +1,12 @@
 ---
 title: 데이터 피드 작업 관리
-description: 데이터 피드에서 개별 작업을 관리하는 방법을 알아봅니다.
+description: 데이터 피드에서 개별 작업을 관리하는 방법을 알아봅니다. 인터페이스를 탐색하고 필터 및 검색을 사용하고 열 정의를 찾습니다.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 94%
 
 ---
 

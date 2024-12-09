@@ -1,12 +1,12 @@
 ---
-description: Data Warehouse에서 내림차순 지표 값을 기준으로 정렬되는 등급 분류 보고서를 제공합니다.
+description: 지표별로 정렬하여 Data Warehouse 보고서를 쉽게 해석하고 다른 Analytics 분류 보고 보기와 비교하는 방법에 대해 알아봅니다.
 title: 지표로 정렬
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
-source-git-commit: 42c95198a4d4389308c78c312b5bb37572350cc1
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 99%
+source-wordcount: '337'
+ht-degree: 92%
 
 ---
 

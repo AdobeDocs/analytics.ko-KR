@@ -1,13 +1,13 @@
 ---
-description: 다음은 데이터 피드 처리 및 배달에 대한 몇 가지 모범 사례입니다.
+description: Analytics의 데이터 피드 처리 및 배달에 대한 모범 사례에 대해 알아봅니다.
 keywords: 데이터 피드, 모범 사례, 트래픽 스파이크, 시간별, ftp
 title: 모범 사례 및 일반 정보
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 88%
+source-wordcount: '288'
+ht-degree: 84%
 
 ---
 

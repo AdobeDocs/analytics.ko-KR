@@ -1,13 +1,13 @@
 ---
-description: 웹 사이트, 모바일 앱을 통해 수집되거나 웹 서비스 API 또는 데이터 소스를 이용하여 업로드되는 데이터는 Adobe의 Data Warehouse에서 처리되고 저장됩니다. 이 원시 클릭스트림 데이터는 Adobe Analytics에서 사용되는 데이터 세트를 이룹니다.
+description: 데이터 피드를 사용하여 Adobe Analytics에서 원시 데이터를 가져오는 방법에 대해 알아봅니다. 데이터 피드 사용을 위한 사전 요구 사항을 확인하고 다음 작업을 수행하십시오.
 keywords: 클릭스트림, 데이터 피드, 데이터피드, 데이터 피드
 title: Analytics 데이터 피드 개요
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 96%
+source-wordcount: '299'
+ht-degree: 86%
 
 ---
 

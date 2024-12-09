@@ -1,13 +1,13 @@
 ---
-description: 요청 관리자에서 요청을 보고, 복제하고, 요청의 우선순위를 변경할 수 있습니다.
+description: Data Warehouse 요청을 보고, 복제하고, 우선 순위를 다시 매기는 방법에 대해 알아봅니다.
 title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 

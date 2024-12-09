@@ -1,13 +1,12 @@
 ---
 title: 데이터 피드 문제 해결
-description: 데이터 피드로 문제를 파악 및 해결하는 방법 알아보기
-keywords: job;troubleshooting;error;ftp;chdir;connect;login;put
+description: 데이터 피드 작업이 데이터를 처리하거나 전달하지 못할 수 있는 이유에 대해 알아봅니다. 데이터 피드로 잠재적 문제를 해결합니다.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 
