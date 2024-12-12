@@ -10,9 +10,9 @@ ht-degree: 95%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보(2024년 10월 23일 릴리스)
+# 현재 Adobe Analytics 릴리스 정보 (2024년 10월 23일 릴리스)
 
-**마지막 업데이트**: 2024년 12월 9일 화요일
+**마지막 업데이트**: 2024년 12월 9일
 
 이번 릴리스 정보에는 2024년 10월 16일부터 2024년 말일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 | **Adobe Analytics용 새로운 Report Builder** | 새로운 Report Builder 애플리케이션은 Adobe Analytics에 개선된 성능, 간소화된 사용자 인터페이스, 2.0 API 지원과 Mac, Windows 및 웹 브라우저에서의 Microsoft Excel 지원 등 주요 업데이트를 제공합니다. 이 애플리케이션은 기존 애플리케이션과 함께 사용할 수 있지만 동일한 파일에서는 사용할 수 없습니다. 기존 통합 문서를 새 애플리케이션으로 업그레이드하는 업그레이드 기능이 제공됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024년 10월 16일 |
 | **태그 구현을 Web SDK 태그로 마이그레이션하기 위한 JSON 내보내기** | Analytics 태그 확장 기능에 대한 이 업데이트는 Web SDK로의 마이그레이션과 관련이 있습니다. Adobe Analytics 확장 기능에 대한 이 업데이트를 워크플로의 일부로 사용하여 Web SDK 확장 기능의 확장 기능 구성을 다시 만들 수 있습니다. Adobe Analytics 태그 확장 기능에서는 eVar, props, 이벤트 설정을 JSON 형식으로 볼 수 있으며, 이를 편집하도록 내보낼 수 있고 Web SDK 확장 기능에 포함할 수 있습니다. |  | 2024년 10월 31일 |
 | **Analysis Workspace 성능의 요청 요소에 대한 새로운 정보** | 이제 Analysis Workspace에서 성과를 분석할 때 새로운 “요청 요인” 섹션을 사용할 수 있습니다. 요청이 처리되는 방식과 처리 시간에 영향을 미치는 다양한 요소에 대해 자세히 알아보려면 [Analysis Workspace 성능 최적화](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)의 “요청 요소” 섹션을 참조하십시오. |  | 2024년 10월 1일 |
-| **거래 ID 보존 기간** | 거래 ID의 보존 기간 90일이 2025년 1월에 25개월로 연장됩니다. `transactionID` 변수는 Data Sources를 통해 업로드된 데이터에 히트가 연결할 수 있도록 거래를 고유하게 식별합니다. |  | 2025년 1월 22일 목요일 |
+| **거래 ID 보존 기간** | 거래 ID의 보존 기간 90일이 2025년 1월에 25개월로 연장됩니다. `transactionID` 변수는 Data Sources를 통해 업로드된 데이터에 히트가 연결할 수 있도록 거래를 고유하게 식별합니다. |  | 2025년 1월 22일 |
 
 ## Adobe Analytics의 수정 사항
 
