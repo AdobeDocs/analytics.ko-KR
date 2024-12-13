@@ -2,9 +2,10 @@
 title: 스트리밍 미디어 품질 지표
 description: 보고서 세트에 대해 [!UICONTROL 미디어 품질]을(를) 사용하도록 설정할 때 사용 가능한 지표입니다.
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 품질]을(를) 사용하도록 설정할 때 사용할 수 있는 지표를 설명합니다. 사용 가능한 차원은 [스트리밍 미디어 품질 차원](../dimensions/sm-quality.md)을 참조하십시오.*
 
-Streaming Media 품질 지표는 스트리밍 미디어 컬렉션 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL Adobe 스트리밍 미디어 컬렉션 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+Streaming Media 품질 지표는 스트리밍 미디어 컬렉션 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL Adobe 스트리밍 미디어 컬렉션]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 [미디어 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)에서 **[!UICONTROL 미디어 품질]**&#x200B;을(를) 사용하도록 설정하면 다음 지표를 사용할 수 있습니다.
 

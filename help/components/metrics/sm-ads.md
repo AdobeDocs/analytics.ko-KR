@@ -2,9 +2,10 @@
 title: 스트리밍 미디어 광고 지표
 description: 보고서 세트에 대해 [!UICONTROL 미디어 광고]를 사용하도록 설정하는 경우 사용 가능한 지표입니다.
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 5%
 
 *이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 광고]를 사용하도록 설정할 때 사용할 수 있는 지표를 설명합니다. 사용 가능한 차원은 [스트리밍 미디어 광고 차원](../dimensions/sm-ads.md)을 참조하십시오.*
 
-Streaming Media 광고 지표는 스트리밍 미디어 컬렉션 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL Adobe 스트리밍 미디어 컬렉션 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+Streaming Media 광고 지표는 스트리밍 미디어 컬렉션 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL Adobe 스트리밍 미디어 컬렉션]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 [미디어 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)에서 **[!UICONTROL 미디어 광고]**&#x200B;를 사용하도록 설정하면 다음 지표를 사용할 수 있습니다.
 

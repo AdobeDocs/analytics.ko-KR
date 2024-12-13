@@ -2,16 +2,17 @@
 title: 스트리밍 미디어 플레이어 상태 추적 지표
 description: 보고서 세트에 대해 [!UICONTROL 플레이어 상태 추적]을(를) 사용하도록 설정할 때 사용 가능한 지표입니다.
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
 
 # 스트리밍 미디어 플레이어 상태 추적 지표
 
-Streaming Media 플레이어 상태 추적 지표는 스트리밍 미디어 컬렉션 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL Adobe 스트리밍 미디어 컬렉션 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+Streaming Media 플레이어 상태 추적 지표는 스트리밍 미디어 컬렉션 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL Adobe 스트리밍 미디어 컬렉션]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 [미디어 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)에서 **[!UICONTROL 플레이어 상태 추적]**&#x200B;을 사용하도록 설정하면 다음 지표를 사용할 수 있습니다.
 

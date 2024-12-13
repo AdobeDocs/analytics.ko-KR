@@ -3,9 +3,9 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 65c934f56a580f921fa7baad6d5dd03c85e320e6
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '806'
 ht-degree: 95%
 
 ---
@@ -63,5 +63,5 @@ AppMeasurement 릴리스(버전 2.26.0)에 대한 최신 업데이트는 [JavaSc
 
 * [2024년 이전 릴리스 정보](/help/release-notes/2024.md)
 * [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 추가 기능 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트

@@ -3,10 +3,10 @@ title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 96%
+source-wordcount: '889'
+ht-degree: 97%
 
 ---
 
@@ -157,7 +157,7 @@ ht-degree: 96%
 
 ## Analysis Workspace에서 지원하는 컨텐츠 인식 차원
 
-### 비디오(스트리밍 미디어 컬렉션 추가 기능)
+### 비디오(스트리밍 미디어 컬렉션)
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |

@@ -2,9 +2,10 @@
 title: Streaming Media 코어 지표
 description: 보고서 세트에 대해 [!UICONTROL 미디어 코어]을(를) 사용하도록 설정할 때 사용 가능한 지표입니다.
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 1%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 코어]을(를) 사용할 때 사용할 수 있는 지표를 설명합니다. 사용 가능한 차원은 [Streaming Media 코어 차원](../dimensions/sm-core.md)을 참조하십시오.*
 
-Streaming Media 코어 지표는 스트리밍 미디어 컬렉션 라이브러리를 통해 수집된 데이터에 기본 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL Adobe 스트리밍 미디어 컬렉션 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+Streaming Media 코어 지표는 스트리밍 미디어 컬렉션 라이브러리를 통해 수집된 데이터에 기본 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL Adobe 스트리밍 미디어 컬렉션]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 [미디어 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)에서 **[!UICONTROL 미디어 코어]**&#x200B;을(를) 사용하도록 설정하면 다음 지표를 사용할 수 있습니다.
 
