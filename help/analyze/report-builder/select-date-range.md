@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +32,7 @@ ht-degree: 89%
 
 **셀에서**
 
-[셀에서] 옵션을 사용하면 워크시트 셀에 입력된 날짜를 참조할 수 있습니다.
+**[!UICONTROL 셀에서]** 옵션을 사용하면 워크시트 셀에 입력된 날짜를 참조할 수 있습니다.
 
 선택한 날짜 범위에서 오늘을 제외할 수 있습니다.
 

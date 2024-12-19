@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 50%
+source-wordcount: '523'
+ht-degree: 51%
 
 ---
 
@@ -66,8 +66,8 @@ Report Builder 허브에는 만들기, 관리 및 예약 버튼, 명령 패널 �
 
 ### 날짜 범위
 
-**[!UICONTROL 날짜 범위]**&#x200B;는 선택한 데이터 블록의 날짜 범위를 보여 줍니다. 여러 날짜 범위가 있는 여러 데이터 블록을 선택한 경우 **[!UICONTROL 날짜 범위]** 링크에 *다중*&#x200B;이 표시됩니다.
+**[!UICONTROL 날짜 범위]**&#x200B;는 선택한 데이터 블록의 날짜 범위를 보여 줍니다. 여러 날짜 범위가 있는 여러 데이터 블록을 선택한 경우 **[!UICONTROL 날짜 범위]** 링크에 *다중*&#x200B;이 표시됩니다. [자세히 알아보기](/help/analyze/report-builder/select-date-range.md)
 
 ### 세그먼트
 
-**세그먼트** 링크는 선택한 데이터 블록에서 사용하는 세그먼트의 요약 목록을 표시합니다. 여러 세그먼트가 적용된 여러 데이터 블록을 선택한 경우 **세그먼트** 링크에 *다중*&#x200B;이 표시됩니다.
+**세그먼트** 링크는 선택한 데이터 블록에서 사용하는 세그먼트의 요약 목록을 표시합니다. 여러 세그먼트가 적용된 여러 데이터 블록을 선택한 경우 **세그먼트** 링크에 *다중*&#x200B;이 표시됩니다. [자세히 알아보기](/help/analyze/report-builder/work-with-segments.md)
