@@ -4,10 +4,10 @@ title: PDF 또는 CSV 파일 다운로드
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 830d9cd13db1a0767cce4e3d2574a120d00a9ac8
+source-git-commit: 04c588cbe8cd4cc9b8d6fe162e3623c2be076325
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 90%
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -44,6 +44,7 @@ Analysis Workspace에서 데이터를 내보내는 방법에는 여러 가지가
    ![](assets/download-project.png)
 
 1. (조건부) PDF 다운로드를 선택한 경우 프로젝트를 다운로드할 준비가 되면 메시지가 표시됩니다. [!UICONTROL **다운로드**]&#x200B;를 클릭합니다.
+1. **[!UICONTROL 이 파일 다운로드]** 아이콘을 클릭하고 원하는 폴더에 파일을 저장합니다.
 
 ## 클립보드에 데이터 복사(핫키: Ctrl + C) {#copy-data}
 
