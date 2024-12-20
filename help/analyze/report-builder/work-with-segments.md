@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 2cb8f72a37699aa45135c9d26686f93ee20f20d7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -83,8 +83,6 @@ ht-degree: 4%
 
    필터를 선택하면 **[!UICONTROL 다음으로 바꾸기]**... 목록에 필터가 추가됩니다.
 
-   ![바꾸기 탭에서 [앱의 사용자] 데이터 블록을 선택하고 바꾸기 목록에서 [앱의 사용자]를 업데이트하여 수정했습니다.](./assets/replace_screen_new.png)
-
 1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
    Report Builder은 세그먼트 목록을 업데이트하여 교체를 반영합니다.
@@ -103,7 +101,7 @@ ht-degree: 4%
 
 1. 데이터 블록이 세그먼트를 참조할 셀을 선택합니다.
 
-1. 세그먼트를 두 번 클릭하거나 세그먼트를 포함된 세그먼트 섹션으로 끌어다 놓아 셀에 추가하려는 세그먼트 선택을 추가합니다.
+1. 세그먼트를 두 번 클릭하거나 세그먼트를 **[!UICONTROL 포함된 세그먼트]** 섹션으로 끌어다 놓아 셀에 추가하려는 세그먼트 선택을 추가합니다.
 
    참고: 주어진 셀에 대해 한 번에 하나의 선택만 선택할 수 있습니다.
 
