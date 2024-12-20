@@ -5,10 +5,11 @@ role: Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: d158ad45-d467-4355-b091-f015bde7a243
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 88%
+source-wordcount: '274'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +25,7 @@ Report Builder 설정을 변경하려면
 
 1. **적용**&#x200B;을 클릭합니다.
 
-   ![Report Builder 날짜 범위 창에 취소 및 적용 단추가 표시됩니다.](./assets/image38.png)
+   ![Report Builder 설정.](./assets/image38.png)
 
 ## 오프라인 모드
 
@@ -32,13 +33,13 @@ Report Builder 설정을 변경하려면
 
 오프라인 모드를 활성화하려면
 
-1. **설정** 아이콘을 클릭합니다.
+1. **[!UICONTROL 설정]** 아이콘을 클릭합니다.
 
-1. **오프라인 모드 활성화**&#x200B;를 선택합니다.
+1. **[!UICONTROL 오프라인 모드 사용]e**&#x200B;을(를) 선택하십시오.
 
-1. **지표 데이터 표시 형식** 필드에 양의 정수를 입력합니다.
+1. **[!UICONTROL 지표 데이터 표시 형식]** 필드에 양의 정수를 입력합니다.
 
-1. **적용**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
 ## 언어
 
@@ -48,14 +49,14 @@ Report Builder UI에서 사용되는 언어를 선택하려면
 
 1. [설정]을 클릭합니다.
 
-1. **언어** 드롭다운 메뉴에서 언어를 선택합니다.
+1. **[!UICONTROL 언어]** 드롭다운 메뉴에서 언어를 선택합니다.
 
    ![Report Builder 날짜 범위 창에 영어가 선택된 언어 목록이 표시됩니다.](./assets/image39.png)
 
-1. **적용을 클릭합니다.**
+1. **[!UICONTROL 적용].** 클릭
 
 ## 문제 해결
 
 문제 해결 설정을 사용하여 모든 클라이언트/서버 데이터를 로컬 파일에 기록합니다. 이 옵션을 사용하면 지원 티켓을 해결하는 데 도움이 됩니다.
 
-문제 해결 옵션을 활성화하려면 **로컬 파일에 요청 기록**&#x200B;을 선택합니다.
+문제 해결 옵션을 사용하려면 **[!UICONTROL 웹 콘솔에 Report Builder 데이터 블록 기록]**&#x200B;을 선택하십시오.
