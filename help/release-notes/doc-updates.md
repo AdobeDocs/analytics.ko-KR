@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6026'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 | 데이터 피드 관리에 대한 설명서 업데이트 | 명확성을 높이기 위해 [데이터 피드 관리](/help/export/analytics-data-feed/df-manage-feeds.md)의 정보를 업데이트했습니다. <p>업데이트 내용은 다음과 같습니다.</p><ul><li>정보를 더 쉽게 검색하고 사용할 수 있도록 다양한 작업에 대한 별도의 섹션을 만들었습니다.</li><li>다시 활성화된 라이브 피드 동작의 변경 사항에 대한 정보를 추가했습니다. 이러한 변경은 현재 제한적으로 제공되며 일부 고객에게는 아직 해당되지 않습니다.</li><li>데이터 피드를 삭제하려면 먼저 활성 상태여야 한다는 정보를 추가했습니다.</li> |
 | 일반 오류 메시지 업데이트 | [일반 오류 메시지](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)를 약간 업데이트했습니다. |
 | **2024년 6월** | |
-| 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 Analysis Workspace에 표시하는 스트리밍 미디어 기능 집합을 참조할 때 &quot;Media Analytics&quot; 및 &quot;Streaming Media&quot;의 인스턴스를 &quot;스트리밍 미디어 컬렉션 추가 기능&quot; 및 &quot;스트리밍 미디어 컬렉션&quot;이라는 이름으로 대체했습니다. <p>이러한 업데이트는 [Streaming Media Collection 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview)와 Adobe Analytics 설명서 전체에서 사용할 수 있습니다.</p> |
+| 스트리밍 미디어 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 이를 Analysis Workspace에 표시하는 스트리밍 미디어 기능 세트를 참조할 때 “미디어 분석” 및 “스트리밍 미디어” 인스턴스가 “스트리밍 미디어 컬렉션 추가 기능” 및 “스트리밍 미디어 컬렉션”이라는 이름으로 대체되었습니다. <p>이번 업데이트는 Adobe Analytics 설명서와 [스트리밍 미디어 컬렉션 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) 전체에 적용됩니다.</p> |
 | 개선된 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/components/c-alerts/alert-builder.md), [경고 관리](/help/components/c-alerts/alert-manager.md) 및 [정보 개요](/help/components/c-alerts/intellligent-alerts.md)에 대한 정보가 포함되어 있습니다. |
 | 더 이상 사용되지 않는 `cookieDomainPeriods` | 이제 AppMeasurement가 쿠키를 설정할 올바른 도메인을 자동으로 감지하므로 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 변수는 더 이상 사용되지 않습니다. |
 | Data Connectors 설명서 사용 중단 | Data Connectors 서비스 종료 페이지가 [단종 제품](https://experienceleague.adobe.com/ko/docs/discontinued/using/data-connectors)으로 이동되었습니다. |
@@ -82,7 +82,7 @@ ht-degree: 97%
 | **2023년 9월** | |
 | 미디어 재생 소요 시간 패널에 대한 문서의 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 해당 폴더의 내용을 단일 문서([미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))로 결합했습니다. <p>이 변경 사항으로 다른 패널의 설명서와 함께 더 일관된 형태를 갖추게 되었습니다.</p> |
 | 시작 콘텐츠 개선 사항 | 관리자, 분석가, 최종 사용자 및 개발자를 위한 주요 시작 작업 및 리소스에 대해 간략하게 설명하는 정보가 추가되었습니다. 이제 다음 문서를 사용할 수 있습니다. <ul><li>[시작하기 (역할별)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics 인터페이스 이해](/help/analyze/get-started/analytics-interface.md)<li>[사용 사례](/help/analyze/get-started/use-cases.md)</li></ul> |
-| 스트리밍 미디어 컬렉션에 대한 보고 설명서 개선 사항 | API 설명서를 해당 섹션에 통합하고 일부 문서의 순서를 조정하는 등 스트리밍 미디어 컬렉션 안내서의 보고 섹션에서 일부 콘텐츠를 재구성했습니다. <p>제품 내 이름과 보다 일치하도록 Media Workspace 템플릿 문서의 이름을 [Workspace의 미디어 보고서](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=ko)로 변경했습니다. </p> |
+| 스트리밍 미디어 컬렉션에 대한 보고 문서 개선 사항 | API 설명서를 자체 섹션에 통합하고 일부 문서의 순서를 조정하는 것을 포함하여 스트리밍 미디어 컬렉션 안내서의 보고 섹션에 있는 일부 콘텐츠를 재구성했습니다. <p>제품 내 이름과 보다 일치하도록 Media Workspace 템플릿 문서의 이름을 [Workspace의 미디어 보고서](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=ko)로 변경했습니다. </p> |
 | **2023년 8월** | |
 | 데이터 피드 설명 | 내역 데이터에 대한 데이터 피드를 처리할 때 데이터 수집 시 시작 일자를 원하는 과거의 일자로 설정할 수 있도록 [시작 및 종료 일자 정의](/help/export/analytics-data-feed/create-feed.md)가 업데이트되었습니다. |
 | Adobe Experience Platform Edge Network 데이터 처리 | Adobe Analytics에서 [Edge Network의 데이터를 처리](../implement/aep-edge/overview.md)하는 방법과 관련된 콘텐츠를 추가합니다. |
@@ -90,7 +90,7 @@ ht-degree: 97%
 | 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 문서에 있었습니다. |
 | 구현 방법 비교 | 다양한 구현 방법을 비교하는 설명서가 업데이트되었습니다. [자세히 알아보기](../implement/prepare/comparison.md) |
 | 데이터 피드에 대해 SFTP를 구성하는 데 Adobe 고객 지원이 필요하지 않음을 명확히 했습니다. | 데이터 피드에 대해 SFTP를 구성하기 위해 고객이 Adobe 고객 지원에 참여할 필요가 없음을 [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)에서 명확히 했습니다. <p>또한 SFTP는 더 이상 권장되지 않으며 고객은 데이터 피드를 구성할 때 클라우드 대상을 사용해야 한다는 메모를 추가했습니다.</p> |
-| 스트리밍 미디어 컬렉션에 대한 설명서 개선 사항 | 스트리밍 미디어 컬렉션에 대해 다음과 같은 설명서 개선이 이루어졌습니다. <ul><li>명확성을 개선하고 Customer Journey Analytics와 관련된 정보를 포함하도록 [일반적인 개요](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)가 업데이트되었습니다.</li><li>Edge 구현과 Analytics 전용 구현을 명확하게 구분되도록 [구현 개요](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)가 업데이트되었습니다. 다양한 구현 방법을 설명하는 다이어그램도 포함되었습니다.</li><li>[Edge 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html) 및 [Analytics 전용 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)에 대한 사전 요구 사항이 추가되었습니다. [일반적인 사전 요구 사항](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html)도 업데이트되었습니다.</li><li>*지원되는 솔루션* 및 *구현 방법*&#x200B;에 대한 새 열을 포함하도록 [미디어 SDK 가져오기, 태그를 사용한 확장 및 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html) 문서의 테이블이 업데이트되었습니다.</li><li>문서의 [구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html) 영역에서 문서의 콘텐츠 및 구성이 간소화되었습니다. Edge 구현 및 Analytics 전용 구현별 구현 분류가 포함되었습니다.</li><li>[추적](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html)에서 필요하지 않은 추가 계층 구조가 제거되었으며 이 섹션에서 변경된 URL에 대한 리디렉션이 추가되었습니다.</li><ul> |
+| 스트리밍 미디어 컬렉션에 대한 설명서 개선 사항 | 스트리밍 미디어 컬렉션에 대해 다음과 같이 설명서가 개선되었습니다. <ul><li>명확성을 개선하고 Customer Journey Analytics와 관련된 정보를 포함하도록 [일반적인 개요](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)가 업데이트되었습니다.</li><li>Edge 구현과 Analytics 전용 구현을 명확하게 구분되도록 [구현 개요](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)가 업데이트되었습니다. 다양한 구현 방법을 설명하는 다이어그램도 포함되었습니다.</li><li>[Edge 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html) 및 [Analytics 전용 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)에 대한 사전 요구 사항이 추가되었습니다. [일반적인 사전 요구 사항](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html)도 업데이트되었습니다.</li><li>*지원되는 솔루션* 및 *구현 방법*&#x200B;에 대한 새 열을 포함하도록 [미디어 SDK 가져오기, 태그를 사용한 확장 및 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html) 문서의 테이블이 업데이트되었습니다.</li><li>문서의 [구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html) 영역에서 문서의 콘텐츠 및 구성이 간소화되었습니다. Edge 구현 및 Analytics 전용 구현별 구현 분류가 포함되었습니다.</li><li>[추적](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html)에서 필요하지 않은 추가 계층 구조가 제거되었으며 이 섹션에서 변경된 URL에 대한 리디렉션이 추가되었습니다.</li><ul> |
 | **2023년 7월** | |
 | Adobe Experience Platform Edge Network Server API | [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md)를 사용하여 Adobe Analytics로 데이터 수집을 구현하는 시기와 방법에 대한 보다 포괄적인 설명서가 추가되었습니다. 예를 들어 데스크탑 애플리케이션, IoT 디바이스, 셋톱 박스에서 Adobe Analytics로 데이터 수집을 구현합니다. |
 | 글로벌 회사 ID | 로그인한 Analytics 회사의 [글로벌 회사 ID를 찾는 방법](../admin/admin/company/web-services-admin.md)이 문서화되었습니다. 이 ID는 Analytics 2.0 API에 필요합니다. |
