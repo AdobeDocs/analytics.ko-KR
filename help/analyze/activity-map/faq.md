@@ -4,9 +4,9 @@ description: Activity Map 관련 FAQ
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 64964972410911c2bea1460039def39b7c6dfa38
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1112'
 ht-degree: 15%
 
 ---
@@ -63,7 +63,7 @@ Activity Map은 최신 버전의 가장 현대적인 브라우저를 지원합�
 
 +++Activity Map이 서버 호출을 늘립니까?
 
-Activity Map은 자체적으로 서버 호출을 보내지 않습니다. 대신 Activity Map 컨텍스트 데이터 변수가 후속 페이지의 Analytics 페이지 보기 호출에 포함됩니다. 그러나 웹 SDK의 일부 이전 버전의 Activity Map은 Activity Map 데이터에 대한 별도의 호출을 전송합니다. 최신 버전의 Web SDK를 사용하는 경우 Activity Map 데이터가 다음 이벤트와 병합됩니다.
+Activity Map은 자체적으로 서버 호출을 보내지 않습니다. 대신 Activity Map 컨텍스트 데이터 변수가 후속 페이지의 Analytics 페이지 보기 호출에 포함됩니다. 그러나 웹 SDK의 일부 이전 버전의 Activity Map은 Activity Map 데이터에 대한 별도의 호출을 전송합니다. 최신 버전의 웹 SDK을 사용하는 경우 Activity Map 데이터가 다음 이벤트와 병합됩니다.
 
 +++
 
@@ -137,7 +137,7 @@ Activity Map은 2초마다 다음과 같은 웹 페이지 상태의 변경 사�
 
 Activity Map을 비활성화하는 방법은 구현 유형에 따라 다릅니다.
 
-* **Web SDK 확장**: 확장 구성 설정에서 **[!UICONTROL 내부 링크 클릭 수 수집]**, **[!UICONTROL 외부 링크 클릭 수 수집]** 및 **[!UICONTROL 다운로드 링크 클릭 수 수집]** 상자의 선택을 취소합니다.
+* **웹 SDK 확장**: 확장 구성 설정에서 **[!UICONTROL 내부 링크 클릭 수 수집]**, **[!UICONTROL 외부 링크 클릭 수 수집]** 및 **[!UICONTROL 다운로드 링크 클릭 수 수집]** 상자의 선택을 취소합니다.
 * **웹 SDK JavaScript 라이브러리**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)을(를) `false`(으)로 설정합니다.
 * **Analytics 확장**: 확장 구성 설정에서 **[!UICONTROL Activity Map 사용]** 확인란을 선택 취소합니다.
 * **AppMeasurement**: `AppMeasurement.js` 내의 Activity Map 모듈을 제거하거나 주석 처리하거나 모듈 함수 호출을 빈 본문으로 덮어씁니다.
@@ -202,6 +202,10 @@ Activity Map은 다음 요소를 추적합니다.
 +++
 
 +++Activity Map이 자동으로 추적하지 않는 링크의 예는 무엇입니까?
+
+* 앵커 태그에 올바른 `href`이(가) 없습니다.
+* [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md) 또는 [`tl()`](/help/implement/vars/functions/tl-method.md) 메서드가 없습니다.
+* 양식 입력 요소에 `src` 속성이 없습니다.
 
 다음은 Activity Map이 클릭을 추적하지 않는 몇 가지 예입니다.
 
