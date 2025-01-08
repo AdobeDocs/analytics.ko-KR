@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
-source-wordcount: '3580'
+source-wordcount: '3617'
 ht-degree: 67%
 
 ---
@@ -259,7 +259,7 @@ ht-degree: 67%
 
 ## 사용되지 않은 열 또는 제거된 열
 
-다음 열 목록은 사용되지 않으며 일반적으로 데이터를 포함하지 않습니다. 데이터가 포함된 열은 현재 데이터 수집 라이브러리에서 지원되지 않으며 Analysis Workspace에서 사용할 수 없습니다.
+다음 열 목록은 사용되지 않거나, 사용 중지되었거나, 보고에 값을 포함하지 않습니다. 이러한 열 중 일부는 사용되지 않는 기능과 연결되어 있지만, 일부는 새롭고 강력한 기능으로 인해 더 이상 필요하지 않습니다. 이러한 열의 대부분은 데이터를 포함하지 않습니다. 여전히 데이터를 포함할 수 있는 열은 현재 데이터 수집 라이브러리에서 지원되지 않으며 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다.
 
 * `adclassificationcreative`
 * `click_action`
@@ -338,6 +338,7 @@ ht-degree: 67%
 * `plugins`
 * `prev_page`
 * `product_merchandising`
+* `sampled_hit`
 * `service`
 * `socialaccountandappids`
 * `socialassettrackingcode`
