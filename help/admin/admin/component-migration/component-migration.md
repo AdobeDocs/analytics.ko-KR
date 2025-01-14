@@ -3,9 +3,9 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요�
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
+source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1453'
 ht-degree: 5%
 
 ---
@@ -58,7 +58,7 @@ Customer Journey Analytics으로 프로젝트를 마이그레이션하기 전에
 
 1. [!UICONTROL **프로젝트 소유자**] 필드에서 Customer Journey Analytics에서 프로젝트 소유자로 설정할 사용자의 이름을 입력한 다음 드롭다운 메뉴에서 이름을 선택합니다.
 
-   지정한 소유자는 프로젝트에 대한 모든 관리 권한을 가집니다.
+   지정한 소유자는 프로젝트에 대한 모든 관리 권한을 가집니다. 소유자는 Customer Journey Analytics의 관리자여야 합니다. 이후 단계에서 프로젝트의 소유권을 변경할 수 있습니다.
 
 1. [!UICONTROL **보고서 세트에 대한 맵 스키마**] 섹션에서 보고서 세트를 선택합니다.
 
@@ -119,6 +119,8 @@ Customer Journey Analytics으로 프로젝트를 마이그레이션하기 전에
    마이그레이션이 완료되면 [!UICONTROL **마이그레이션 상태**] 페이지에서 마이그레이션된 항목에 대한 요약을 제공합니다.
 
    마이그레이션이 실패하면 아래의 [실패한 마이그레이션 다시 시도](#retry-a-failed-migration) 섹션을 참조하십시오.
+
+1. (선택 사항) 프로젝트가 마이그레이션되면 Customer Journey Analytics의 모든 사용자에게 프로젝트의 소유권을 이전할 수 있습니다. 자세한 내용은 Customer Journey Analytics 가이드의 [자산 전송](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)을 참조하십시오.
 
 ## 실패한 마이그레이션 다시 시도
 
