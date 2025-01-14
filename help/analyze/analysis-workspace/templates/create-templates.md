@@ -3,13 +3,11 @@ description: Analysis Workspace에서 기본 보고서를 사용하는 방법에
 title: 보고서 사용
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '720'
+ht-degree: 6%
 
 ---
 
@@ -118,3 +116,10 @@ ht-degree: 5%
 Adobe이 제공하는 템플릿과 마찬가지로 조직의 사용자는 관리자가 만드는 템플릿에 액세스할 수 있습니다.
 
 회사 템플릿에 액세스하는 방법에 대한 자세한 내용은 [템플릿 사용](/help/analyze/analysis-workspace/templates/use-templates.md)에서 [템플릿 액세스 및 실행](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template)을 참조하십시오.
+
+## 템플릿 탭 숨기기 {#hide-reports}
+
+관리자는 조직 내의 모든 사용자에 대한 템플릿 탭을 숨길 수 있습니다.
+
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 환경 설정]** > **[!UICONTROL 회사]**&#x200B;로 이동합니다.
+1. **[!UICONTROL 템플릿 탭 숨기기]** 옵션을 선택하십시오.

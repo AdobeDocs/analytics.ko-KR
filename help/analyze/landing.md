@@ -4,24 +4,24 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 100%
+source-wordcount: '1653'
+ht-degree: 94%
 
 ---
 
 # Adobe Analytics의 랜딩 페이지
 
-Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics]&#x200B;(서비스 종료)를 [!DNL Workspace] 하의 단일 인터페이스와 액세스 포인트에 통합합니다. 여기에는 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴, 현대화된 보고서 및 보다 효과적으로 시작하는 데 도움이 되는 학습 섹션도 포함되어 있습니다. 다음은 비디오 개요입니다.
+Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics]&#x200B;(서비스 종료)를 [!DNL Workspace] 하의 단일 인터페이스와 액세스 포인트에 통합합니다. 여기에는 보다 효과적으로 시작하는 데 도움이 되는 프로젝트 관리자 홈 페이지, 템플릿 섹션 및 학습 섹션이 포함되어 있습니다. 다음은 비디오 개요입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-Adobe Analytics 랜딩 페이지는 ‘프로젝트’, ‘보고서’ 및 ‘학습’ 하위 탭으로 구성됩니다.
+Adobe Analytics 랜딩 페이지는 프로젝트, 템플릿, 학습의 하위 탭으로 구성됩니다.
 
 **[!UICONTROL 프로젝트]**&#x200B;는 사용자가 빌드했거나 다른 사람이 빌드하고 사용자와 공유했던 데이터 구성 요소, 테이블 및 시각화를 결합하는 사용자 정의된 디자인입니다. [!UICONTROL 프로젝트]는 빈 프로젝트 및 빈 모바일 스코어카드를 의미하기도 합니다.
 
-**[!UICONTROL 보고서]**&#x200B;는 작업 영역의 템플릿과 같이 Adobe에서 사전 설치한 모든 것을 의미합니다.
+**[!UICONTROL 템플릿]**&#x200B;에는 Adobe에서 제공한 템플릿과 조직 고유의 템플릿이 포함되어 있습니다.
 
 **[!UICONTROL 학습]** 탭에는 실습형 비디오 둘러보기, 튜토리얼 및 설명서 링크가 포함되어 있습니다.
 
@@ -37,7 +37,7 @@ Adobe Analytics 랜딩 페이지는 ‘프로젝트’, ‘보고서’ 및 ‘�
 
 ### 테이블 열 사용자 정의
 
-열 폭을 사용자 정의하려면 각 열을 구분하는 세로 막대를 끌어서 이동합니다.
+열 폭을 사용자 정의하려면 각 열을 구분하는 세로 막대를 드래그하여 이동합니다.
 
 프로젝트 목록에서 열을 추가하거나 제거하려면 오른쪽 상단의 열 아이콘(![모두 랜딩](/help/analyze/assets/select-column.png))을 클릭한 다음 열 제목을 선택하거나 선택 취소합니다.
 
@@ -67,7 +67,7 @@ Adobe Analytics 랜딩 페이지는 ‘프로젝트’, ‘보고서’ 및 ‘�
 | --- | --- |
 | 환경 설정 편집 | [!UICONTROL 튜토리얼 보기] 및 [사용자 환경 설정 편집](/help/analyze/analysis-workspace/user-preferences.md)을 사용할 수 있습니다. |
 | [!UICONTROL 새로 만들기] | Workspace 프로젝트 또는 모바일 스코어카드를 만들거나 회사 템플릿을 열 수 있는 프로젝트 모달을 엽니다. |
-| [!UICONTROL 간단히 표시<br> 자세히 표시] | 배너 표시 안 함과 표시 간 전환: ![상단 배너](assets/top-banner.png) |
+| [!UICONTROL 간단히 표시<br> 자세히 표시] | 배너 표시 안 함과 표시 간 토글: ![상단 배너](assets/top-banner.png) |
 | [!UICONTROL Workspace 프로젝트] | 사용자가 설계하고 빌드할 빈 [Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)를 만듭니다. |
 | [!UICONTROL 모바일 스코어카드] | 사용자가 설계하고 빌드할 빈 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)를 만듭니다. |
 | [!UICONTROL 교육 튜토리얼 열기] | 단계별 튜토리얼로 새로운 시작 프로젝트를 빌드하는 과정을 안내하는 작업 영역 교육 튜토리얼을 엽니다. |
@@ -83,24 +83,13 @@ Adobe Analytics 랜딩 페이지는 ‘프로젝트’, ‘보고서’ 및 ‘�
 | 표시: 폴더 및 프로젝트 또는 모든 프로젝트 | 폴더 구성에 따라 폴더 및 프로젝트를 표시&#x200B;**하거나** 구성되지 않은 목록의 모든 프로젝트를 표시할 수 있도록 테이블의 보기 설정을 변경합니다. |
 | &lt; (뒤로 버튼) | Workspace 프로젝트 또는 보고서의 가장 최근 랜딩 페이지 구성으로 돌아갑니다. 다시 돌아올 때 랜딩 페이지를 종료했을 때의 페이지 구성이 유지됩니다. |
 
-## [!UICONTROL 보고서] 탭 탐색 {#navigate-reports}
+## [!UICONTROL 템플릿] 탭 탐색 {#navigate-reports}
 
-[!UICONTROL 보고서] 탭은 다음 보고서 세트를 통합합니다.
+Adobe Analytics에서 템플릿을 사용하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
-* 이전에 [!UICONTROL Workspace] > [!UICONTROL 프로젝트] > [!UICONTROL 새로 만들기] 아래에 있던 미리 빌드된 [!UICONTROL Workspace] 템플릿. Adobe는 이 컨텍스트에서 “템플릿”이라는 단어를 더 이상 사용하지 않습니다.
-* 미리 작성된 대부분의 보고서 이전 Adobe Analytics [!UICONTROL 보고서] 상단 메뉴 아래에 있는 대부분의 미리 빌드된 보고서. 이러한 보고서들은 이제 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)에 표시됩니다.
+* [템플릿 사용](/help/analyze/analysis-workspace/templates/use-templates.md)
 
->[!NOTE]
->
->보고서 사용 시 다음 사항을 고려하십시오.
->* 보고서 메뉴에서 즐겨찾기 폴더는 새 보고서를 즐겨찾기로 표시한 경우에만 표시됩니다. 기존 Reports &amp; Analytics 즐겨찾기는 이월되지 않습니다.
->* 이전에 Reports &amp; Analytics에 그룹화되었던 가장 일반적으로 사용되는 보고서만 사용할 수 있습니다. 거의 사용되지 않거나 더 이상 관련이 없는 소수의 보고서는 더 이상 사용할 수 없습니다. 자세한 내용은 아래의 [랜딩 페이지 FAQ](#landing-page-faq)를 참조하십시오.
-
-![보고서 탭](assets/reports-tab2.png)
-
-보고서 보기 및 저장을 포함하여 Analysis Workspace의 보고서 탭에 대한 자세한 내용은 [사전 작성된 보고서 사용](/help/analyze/analysis-workspace/reports/use-reports.md)을 참조하십시오.
-
-사용자 정의 회사 보고서를 만들고 관리하는 방법에 대한 내용은 [회사 보고서 만들기 및 관리](/help/analyze/analysis-workspace/reports/create-company-reports.md)를 참조하십시오.
+* [템플릿 만들기 및 관리](/help/analyze/analysis-workspace/templates/create-templates.md)
 
 ## 학습 탭 사용 {#navigate-learning}
 
@@ -130,20 +119,13 @@ Adobe Analytics의 학습 페이지를 사용하여 Adobe Analytics의 초급, �
 
    ![랜딩 페이지 설정](assets/landing-pref.png)
 
-## 보고서 탭 숨기기 {#hide-reports}
-
-관리자는 자신의 조직 내에서 모든 사용자에 대해 보고서 탭을 숨길 수 있습니다.
-
-1. [!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 환경 설정] > [!UICONTROL 회사]로 이동합니다.
-1. **[!UICONTROL 보고서 탭 숨기기]**&#x200B;에 확인 표시를 합니다.
-
 ## 랜딩 페이지 FAQ {#landing-faq}
 
 | 질문 | 답변 |
 | --- | --- |
-| [!UICONTROL 작업 영역]에서 자주 보는 템플릿은 어디에 있습니까? | 이러한 템플릿들은 [!UICONTROL 보고서] 탭 아래에 그룹화되어 있습니다. |
+| [!UICONTROL 작업 영역]에서 자주 보는 템플릿은 어디에 있습니까? | 이러한 템플릿은 [!UICONTROL 템플릿] 탭에서 그룹화됩니다. |
 | Beta 프로그램 UI에서 수행하는 작업이 프로덕션 [!UICONTROL 작업 영역] 경험으로 이어집니까? | 예. Beta에서 수행된 모든 작업은 이전/현재 [!UICONTROL 작업 영역] 경험으로 이어집니다. |
 | 이전 Reports &amp; Analytics 즐겨찾기가 이월됩니까? | 아니요. 이월되지 않습니다. 단, 모든 [!UICONTROL 작업 영역] 프로젝트 즐겨찾기는 이월됩니다. |
 | 고정할 수 있는 최대 프로젝트 수가 있습니까? | 아니요. 고정할 수 있는 프로젝트 수에는 제한이 없습니다. |
 | 관리자가 사용자를 위해 이 랜딩 페이지를 지정할 수 있습니까? | 아니요. 관리자는 사용자를 대신하여 랜딩 페이지를 지정할 수 없습니다. 개별 사용자가 직접 토글을 켜야 합니다. |
-| [!DNL Reports & Analytics]에 있던 모든 보고서를 계속 사용할 수 있습니까? | 아니요. 다음 보고서는 전반적인 사용 데이터를 기반으로 폐지되었습니다. <ul><li>모든 사용자 정의 eVar/props/이벤트/분류<li>내 권장 보고서</li><li>시간별/일별/주별/월별/분기별/연간 고유 방문자</li><li>일별/주별/월별/분기별/연간 고유 고객</li><li>작업 이름 깊이</li><li>작업 이름 요약</li><li>대시보드 추가</li><li>연령</li><li>오디오 지원</li><li>결제 정보</li><li>페이지 클릭 수</li><li>색상 심도</li><li>쿠키 지원</li><li>쿠키</li><li>연결 유형</li><li>크리에이티브 요소</li><li>신용카드 유형</li><li>크로스셀</li><li>사용자 정의 이벤트 유입 경로</li><li>사용자 정의 링크</li><li>고객 ID</li><li>요일</li><li>시작 작업 이름</li><li>종료 작업 이름</li><li>종료 링크</li><li>폴아웃</li><li>파일 다운로드</li><li>스토어에서 찾기</li><li>전체 경로</li><li>성별</li><li>히트 유형 VISTA 규칙</li><li>이미지 지원</li><li>Java</li><li>JavaScript</li><li>JavaScript 버전</li><li>책갈피 관리</li><li>대시보드 관리</li><li>모니터 색상 심도</li><li>모니터 해상도</li><li>뉴스레터 신청</li><li>다음 작업 이름</li><li>다음 작업 이름 흐름</li><li>Null 검색</li><li>운영 체제</li><li>주문 검토</li><li>오늘의 페이지</li><li>페이지를 찾을 수 없음</li><li>경로 탐색</li><li>경로 길이</li><li>이전 작업 이름</li><li>이전 작업 이름 흐름</li><li>제품 활동</li><li>제품 비용</li><li>제품 부서</li><li>제품 재고 범주</li><li>제품 이름</li><li>제품 검토</li><li>제품 시즌</li><li>제품 공유</li><li>제품 확대/축소</li><li>다시 로드</li><li>검색 결과</li><li>서버</li><li>단일 페이지 방문 횟수</li><li>배송 정보</li><li>사이트 계층</li><li>소셜 언급</li><li>하루 중 시간</li><li>작업 이름에 소요된 시간</li><li>비디오 지원</li><li>방문자 통계</li></ul> |
+| [!DNL Reports & Analytics]에 있는 모든 보고서를 템플릿으로 사용할 수 있습니까? | 아니요. 다음 보고서는 전반적인 사용 데이터를 기반으로 폐지되었습니다. <ul><li>모든 사용자 정의 eVar/props/이벤트/분류<li>내 권장 보고서</li><li>시간별/일별/주별/월별/분기별/연간 고유 방문자</li><li>일별/주별/월별/분기별/연간 고유 고객</li><li>작업 이름 깊이</li><li>작업 이름 요약</li><li>대시보드 추가</li><li>연령</li><li>오디오 지원</li><li>결제 정보</li><li>페이지 클릭 수</li><li>색상 심도</li><li>쿠키 지원</li><li>쿠키</li><li>연결 유형</li><li>크리에이티브 요소</li><li>신용카드 유형</li><li>크로스셀</li><li>사용자 정의 이벤트 유입 경로</li><li>사용자 정의 링크</li><li>고객 ID</li><li>요일</li><li>시작 작업 이름</li><li>종료 작업 이름</li><li>종료 링크</li><li>폴아웃</li><li>파일 다운로드</li><li>스토어에서 찾기</li><li>전체 경로</li><li>성별</li><li>히트 유형 VISTA 규칙</li><li>이미지 지원</li><li>Java</li><li>JavaScript</li><li>JavaScript 버전</li><li>책갈피 관리</li><li>대시보드 관리</li><li>모니터 색상 심도</li><li>모니터 해상도</li><li>뉴스레터 신청</li><li>다음 작업 이름</li><li>다음 작업 이름 흐름</li><li>Null 검색</li><li>운영 체제</li><li>주문 검토</li><li>오늘의 페이지</li><li>페이지를 찾을 수 없음</li><li>경로 탐색</li><li>경로 길이</li><li>이전 작업 이름</li><li>이전 작업 이름 흐름</li><li>제품 활동</li><li>제품 비용</li><li>제품 부서</li><li>제품 재고 범주</li><li>제품 이름</li><li>제품 검토</li><li>제품 시즌</li><li>제품 공유</li><li>제품 확대/축소</li><li>다시 로드</li><li>검색 결과</li><li>서버</li><li>단일 페이지 방문 횟수</li><li>배송 정보</li><li>사이트 계층</li><li>소셜 언급</li><li>하루 중 시간</li><li>작업 이름에 소요된 시간</li><li>비디오 지원</li><li>방문자 통계</li></ul> |
