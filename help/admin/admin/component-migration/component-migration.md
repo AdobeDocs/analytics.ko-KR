@@ -3,9 +3,9 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요�
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
+source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1501'
 ht-degree: 5%
 
 ---
@@ -23,6 +23,13 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
   일부 차원 및 지표는 자동으로 매핑되며, 다른 차원은 마이그레이션 프로세스의 일부로 수동으로 매핑해야 합니다. 세그먼트도 마이그레이션되지만 마이그레이션 프로세스의 일부로 매핑할 필요는 없습니다.
 
   마이그레이션이 완료되면 마이그레이션된 모든 구성 요소가 마이그레이션 요약에 표시됩니다.
+
+>[!NOTE]
+>
+>이 페이지의 정보에서는 사용자 인터페이스로 프로젝트 및 관련 구성 요소를 마이그레이션하는 방법을 설명합니다.
+>
+>또는 API를 사용하여 마이그레이션을 수행할 수 있습니다. 자세한 내용은 [Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs)를 참조하십시오. **[!UICONTROL 정의 선택]** 드롭다운 메뉴에서 모든 API 정의를 사용할 수 있습니다.
+
 
 ## 마이그레이션 준비
 
