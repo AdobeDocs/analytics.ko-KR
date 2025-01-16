@@ -4,15 +4,14 @@ title: 글머리 기호 그래프
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 80e748c3e6e6610b5b34d64080db3b206feda92c
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '180'
+ht-degree: 88%
 
 ---
 
 # 글머리 기호 그래프 {#bullet-graph}
-
 
 <!-- markdownlint-disable MD034 -->
 
@@ -31,6 +30,12 @@ ht-degree: 100%
 >abstract="성과 범위(목표)에 대해 지표를 비교하거나 측정하는 방식을 보여 주는 글머리 기호 그래프 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*이 문서에서는&#x200B;**Adobe Analytics**의 글머리 기호 시각화에 대해 설명합니다.이 문서의&#x200B;**Customer Journey Analytics**버전은 <br/>글머리 기호](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)를 참조하세요.*[
+
+>[!ENDSHADEBOX]
 
 중요한 값이 다른 성능 범위 (목표)에 대해 비교되거나 측정되는 방식을 확인할 수 있도록 해 줍니다.
 
