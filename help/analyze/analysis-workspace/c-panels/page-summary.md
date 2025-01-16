@@ -4,14 +4,33 @@ title: 페이지 요약 패널
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 33fdd685de21736964d0cbfbc479794a9154e8a3
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 9%
+source-wordcount: '547'
+ht-degree: 8%
 
 ---
 
-# 페이지 요약 패널
+# 페이지 요약 패널 {#page-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_button"
+>title="페이지 요약"
+>abstract="일부 높은 수준의 지표는 물론 특정 페이지로의 이동도 빠르게 검토합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_panel"
+>title="페이지 요약 패널"
+>abstract="일부 높은 수준의 지표는 물론 특정 페이지로의 이동도 빠르게 검토합니다.<br/><br/>**매개 변수&#x200B;**<br/>**페이지 차원 항목 추가**: 구성 요소 레일을 열고 페이지 차원을 찾은 다음 당근을 클릭하여 확장하여 차원 항목을 봅니다. 그런 다음 학습할 특정 페이지를 빌더로 끌어서 놓습니다. 차원 항목을 끌어다 놓으면 보고서가 페이지에 대한 주요 정보로 자동으로 채워집니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 이 패널을 통해 특정 페이지에 대한 주요 통계를 쉽게 탐색할 수 있습니다.
 
@@ -53,7 +72,7 @@ ht-degree: 9%
 | [!UICONTROL 다시 로드] | [!UICONTROL 다시 로드] 지표는 다시 로드 중 차원 항목이 있었던 횟수를 보여줍니다. 방문자가 브라우저를 새로 고치는 것이 다시 로드를 트리거하는 가장 일반적인 방법입니다. |
 | [!UICONTROL 항목] | [!UICONTROL 시작] 지표는 주어진 차원 항목이 방문에서 첫 번째 값으로 캡처된 횟수를 보여줍니다. |
 | [!UICONTROL 종료] | [!UICONTROL 종료] 지표는 주어진 차원 항목이 방문에서 마지막 값으로 캡처된 횟수를 보여줍니다. |
-| [!UICONTROL 플로우] | 선택한 페이지를 초점으로 하는 흐름 다이어그램입니다. [흐름 다이어그램](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)에서와 같이 데이터를 자세히 드릴할 수 있습니다. |
+| [!UICONTROL 흐름] | 선택한 페이지를 초점으로 하는 흐름 다이어그램입니다. [흐름 다이어그램](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)에서와 같이 데이터를 자세히 드릴할 수 있습니다. |
 
 {style="table-layout:auto"}
 

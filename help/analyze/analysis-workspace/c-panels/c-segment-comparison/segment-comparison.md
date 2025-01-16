@@ -5,10 +5,10 @@ keywords: Analysis Workspace;세그먼트 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
+source-git-commit: 60836f5632cfd19d94f33441eaa9d949609d5712
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 91%
+source-wordcount: '1223'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="세그먼트 비교"
->abstract="모든 데이터 포인트에서 두 세그먼트를 빠르게 비교하여 관련 차이점을 자동으로 찾습니다"
+>abstract="모든 데이터 포인트에서 두 세그먼트를 빠르게 비교하여 관련 차이점을 자동으로 찾습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**의 세그먼트 비교 패널에 대한 문서입니다.<br/>![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**에 해당하는 패널이 없습니다.*
+*이 문서는&#x200B;**Adobe Analytics**의 세그먼트 비교 패널에 대한 문서를 제공합니다.<br/>**Customer Journey Analytics**에 해당하는 패널이 없습니다.*
 
 >[!ENDSHADEBOX]
 
