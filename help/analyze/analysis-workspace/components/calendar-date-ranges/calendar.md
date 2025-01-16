@@ -4,14 +4,24 @@ title: 캘린더 및 날짜 범위 개요
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '944'
 ht-degree: 91%
 
 ---
 
-# 캘린더 및 날짜 범위 개요
+# 캘린더 및 날짜 범위 개요 {#date-range}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_dateranges_endtime"
+>title="종료 시간"
+>abstract="종료 시간은 항상 59초를 포함합니다."
+
+<!-- markdownlint-enable MD034 -->
+
 
 캘린더에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
 
@@ -77,7 +87,7 @@ Workspace에서 작업하는 경우, 패널 캘린더를 기준으로 날짜 범
 
 ### 순환 날짜 및 상대 패널 날짜 범위를 사용하는 세그먼트 정보 {#segments-relative-dates}
 
-예를 들어 지난 7일 또는 지난 2주와 같은 순환 날짜가 있는 세그먼트를 작성하거나 세그먼트를 사용하고, 세그먼트 미리보기를 클릭하면 패널 시작 날짜 대신 *오늘*&#x200B;부터 순환 날짜가 시작됩니다. 따라서 표에서 세그먼트를 실제로 사용할 때 세그먼트의 미리보기가 일치하지 않습니다. 세그먼트 자체가 아닌 미리보기가 영향을 받습니다.
+예를 들어 지난 7일 또는 지난 2주와 같은 순환 날짜가 있는 세그먼트를 작성하거나 세그먼트를 사용하고, 세그먼트 미리보기를 클릭하면 패널 시작 날짜 대신 *오늘*&#x200B;부터 순환 날짜가 시작됩니다. 따라서 테이블에서 세그먼트를 실제로 사용할 때 세그먼트의 미리보기가 일치하지 않습니다. 세그먼트 자체가 아닌 미리보기가 영향을 받습니다.
 
 ## 패널 날짜 범위 및 미리보기에 대한 지침 {#guidelines-panel-dates}
 

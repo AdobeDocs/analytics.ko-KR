@@ -4,10 +4,10 @@ title: 활동 관리자 보고
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 11%
+source-wordcount: '1989'
+ht-degree: 13%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 11%
 주요 이점 및 권한 요구 사항을 포함하여 보고 활동 관리자에 대한 자세한 내용은 [보고 활동 관리자 개요](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오.
 
 ## 모든 보고서 세트에 대한 보고 활동 보기 {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="연결"
+>abstract="이 테이블에는 보고 활동을 관리할 수 있는 권한이 있는 연결이 표시됩니다. 각 연결에 대한 정보는 테이블의 각 열에서 확인할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
+>title="연결"
+>abstract="이 테이블에는 보고 활동을 관리할 수 있는 권한이 있는 연결이 표시됩니다. 각 연결에 대한 정보는 테이블의 각 열에서 확인할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 1. Adobe Analytics에서 **[!UICONTROL 관리자]** > **[!UICONTROL 보고 활동 관리자]**(으)로 이동합니다.
 

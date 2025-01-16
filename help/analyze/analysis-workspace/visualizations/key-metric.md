@@ -4,14 +4,30 @@ title: 주요 지표 요약
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 00276353ef5555955d9dc178c692da0dbfb7eac2
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '839'
 ht-degree: 56%
 
 ---
 
-# 주요 지표 요약
+# 주요 지표 요약 {#key-metric-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_keymetricsummary_button"
+>title="주요 지표 요약"
+>abstract="선, 요약 변경 및 요약 번호 차트의 조합으로 구성된 시각화를 만듭니다. 이 시각화를 사용하여 두 기간 간에 지표가 얼마나 중요한 트렌드인지 비교합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서에서는&#x200B;**Adobe Analytics**의 주요 지표 요약 시각화에 대해 설명합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [주요 지표 요약](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 [!UICONTROL 주요 지표 요약 시각화]를 통해 단일 기간 내에서 중요한 지표의 추세를 확인할 수 있습니다. 또한 두 기간에 걸쳐 지표의 성능을 비교할 수 있습니다. 하나의 시각화로 결합된 여러 시각화의 이점을 제공합니다.
 

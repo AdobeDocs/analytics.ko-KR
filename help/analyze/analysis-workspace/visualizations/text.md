@@ -5,14 +5,27 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 89%
 
 ---
 
-# 텍스트
+# 텍스트 {#text-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_text_button"
+>title="텍스트"
+>abstract="사용자 정의 서식 있는 텍스트 시각화를 프로젝트에 추가합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Adobe Analytics**에서 텍스트 시각화를 문서화합니다.이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 <br/>자세한 내용은 [텍스트](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text)를 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 텍스트 시각화 또는 패널/시각화 설명 (마우스 오른쪽 버튼 클릭 헤더 > **[!UICONTROL 설명 편집]**)을 사용하여 Workspace 프로젝트에 사용자 정의 텍스트를 추가할 수 있습니다. 텍스트 서식을 변경하고 하이퍼링크를 추가하고 이미지를 추가할 수도 있습니다.
 

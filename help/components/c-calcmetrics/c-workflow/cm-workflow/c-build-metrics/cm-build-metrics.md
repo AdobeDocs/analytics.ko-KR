@@ -3,14 +3,33 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 title: 지표 작성
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 40%
+source-wordcount: '1137'
+ht-degree: 43%
 
 ---
 
-# 지표 작성
+# 지표 작성 {#build-metrics}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_productcompatibility"
+>title="제품 호환성"
+>abstract="이 계산된 지표를 Customer Journey Analytics에서 사용할 수 있는 곳(예: Analysis Workspace, Report Builder 등)을 나타냅니다. 계산된 지표 중 일부는 실험에 사용할 수 없습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="실험에서 계산된 지표 사용"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_externalid"
+>title="외부 ID"
+>abstract="외부 ID를 변경하면 비즈니스 인텔리전스 도구와 같은 외부 소스에 계산된 지표가 표시되는 방식에 영향을 미칠 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 Adobe Analytics에서는 차원, 지표, 세그먼트 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 지정 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단하거나 복잡한 계산된 지표를 빌드하고 저장할 수 있습니다.
 

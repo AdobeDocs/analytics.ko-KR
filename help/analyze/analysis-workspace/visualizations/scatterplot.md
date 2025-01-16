@@ -4,14 +4,30 @@ description: 최대 3개의 지표 간 관계를 보여 주는 시각화입니�
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 86%
 
 ---
 
-# 산포도
+# 산포도 {#scatter}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_scatter_button"
+>title="분산"
+>abstract="차원 항목과 최대 3개 지표 간의 관계를 보여 주는 분산 시각화를 만듭니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Adobe Analytics**에서 분산형 시각화를 문서화합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [분산](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 산포도 시각화는 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. 3개의 구성 요소가 필요하며 최대 4개의 구성 요소 시각화를 지원합니다.
 

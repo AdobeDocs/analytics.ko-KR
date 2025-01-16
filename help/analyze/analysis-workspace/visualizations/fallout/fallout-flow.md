@@ -4,14 +4,30 @@ title: 폴아웃 개요
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
-# 폴아웃 개요
+# 폴아웃 개요 {#fallout-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_button"
+>title="폴아웃"
+>abstract="방문자가 원하는 체크포인트로 진행하는 방법을 보여 주는 시각화를 만듭니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서에서는&#x200B;**Adobe Analytics**의 폴아웃 시각화에 대해 설명합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [폴아웃](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 폴아웃 시각화 요소에서 더 많은 폴아웃 보고서 작성 옵션을 제공합니다. 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다.
 

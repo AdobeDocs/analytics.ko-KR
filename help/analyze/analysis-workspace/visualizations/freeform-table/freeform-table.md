@@ -4,14 +4,31 @@ description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 �
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 65%
+source-wordcount: '613'
+ht-degree: 64%
 
 ---
 
-# 자유 형식 테이블
+# 자유 형식 테이블 {#freeform-table-overview}
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_button"
+>title="자유 형식 테이블"
+>abstract="차원, 세그먼트, 지표 및 날짜 범위를 사용하여 작성할 수 있는 빈 자유 형식 테이블 시각화를 만듭니다. 자유 형식 테이블을 다른 시각화의 기반으로 사용할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Adobe Analytics**에서 자유 형식 테이블 시각화를 문서화합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [자유 형식 테이블](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 Analysis Workspace에서 자유 형식 테이블은 대화형 데이터 분석을 위한 기반입니다. [구성 요소](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ko-KR) 조합을 행과 열로 끌어다 놓아 분석에 사용할 사용자 정의 테이블을 만들 수 있습니다. 각 구성 요소가 삭제되면 테이블이 즉시 업데이트되므로 빠르고 더 깊이 분석할 수 있습니다.
 
@@ -59,7 +76,7 @@ Analysis Workspace에서 자유 형식 테이블은 대화형 데이터 분석�
 * **열**
    * 구성 요소를 열 내에 스택하여 세그먼트화된 지표, 탭 간 분석 등을 만들 수 있습니다.
    * 각 열의 보기는 [열 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ko-KR)에서 조정할 수 있습니다.
-   * [마우스 오른쪽 버튼 클릭 메뉴](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html?lang=ko-KR)를 통해 몇 가지 작업을 사용할 수 있습니다. 이 메뉴는 표 머리글, 행 또는 열을 클릭하는지 여부에 따라 다른 작업을 제공합니다.
+   * [마우스 오른쪽 버튼 클릭 메뉴](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html?lang=ko-KR)를 통해 몇 가지 작업을 사용할 수 있습니다. 이 메뉴는 테이블 머리글, 행 또는 열을 클릭하는지 여부에 따라 다른 작업을 제공합니다.
 
 ## 자유 형식 테이블 데이터 내보내기
 
@@ -79,7 +96,7 @@ Analysis Workspace용 모든 데이터 [내보내기 옵션](https://experiencel
 
 >[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
 
-자유 형식 표 필터:
+자유 형식 테이블 필터:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
 

@@ -3,14 +3,62 @@ description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연�
 title: 세그먼트 작성
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '2063'
 ht-degree: 96%
 
 ---
 
-# 세그먼트 빌더
+# 세그먼트 빌더 {#segment-builder}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_createaudience"
+>title="대상자 만들기"
+>abstract="필터에서 대상자를 만들고 Adobe Experience Platform과 공유하여 활성화할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_datapreview"
+>title="데이터 미리보기"
+>abstract="이 필터의 데이터를 데이터 보기의 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안의 데이터 보기 총 수를 기준으로 합니다.<br><br/>미리보기가 로드되지 않는다면 연결이 아직 다시 채우는 중일 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_repeating"
+>title="반복"
+>abstract="차원에 대한 인스턴스 및 지속된 값 포함"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_instance"
+>title="인스턴스"
+>abstract="차원에 대한 인스턴스 및 지속된 값 포함"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_nonrepeatinginstance"
+>title="비반복 인스턴스"
+>abstract="차원에 대한 고유(비반복) 인스턴스를 포함합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
 
 [!UICONTROL 세그먼트 빌더]를 사용하여 방문과 페이지 히트에 걸쳐 방문자 특성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성할 수 있습니다. 여기서는 계층 구조 논리, 규칙 및 연산자에 따라 방문자를 세그먼트화하기 위해 지표 차원, 이벤트 또는 기타 세그먼트를 드래그하여 놓을 수 있는 캔버스를 제공합니다.
 

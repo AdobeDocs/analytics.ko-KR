@@ -5,20 +5,31 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
 # [!UICONTROL 요약 번호] 및 [!UICONTROL 요약 변경]
+
+*이 문서에서는&#x200B;**Adobe Analytics**의 요약 번호 및 요약 변경 시각화에 대해 설명합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [요약 번호 및 요약 변경](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)을 참조하세요.*
 
 다음은 이들 두 시각화에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
 ## [!UICONTROL 요약 번호] 시각화 {#summary-number}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarynumber_button"
+>title="요약 번호"
+>abstract="총계와 소계를 보여 주는 시각화를 만듭니다."
+
+<!-- markdownlint-enable MD034 -->
 
 프로젝트에서 중요한 큰 숫자를 강조 표시하려면 [!UICONTROL 요약 번호] 시각화를 사용하십시오. 이 시각화는 다음과 같은 방식으로 동작합니다.
 
@@ -37,6 +48,15 @@ ht-degree: 100%
 | [!UICONTROL 다음을 기준으로 값 요약] | 선택한 데이터의 최대, 최소, 평균, 중간값 또는 합계를 표시하도록 선택합니다. |
 
 ## [!UICONTROL 요약 변경] 시각화 {#summary-change}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarychange_button"
+>title="요약 변경"
+>abstract="두 숫자 사이의 델타(변경)를 보여 주는 시각화를 만듭니다."
+
+<!-- markdownlint-enable MD034 -->
 
 [!UICONTROL 요약 변경] 시각화를 사용하여 두 숫자 간의 델타(변화량)를 표시합니다. [!UICONTROL 요약 변경]의 녹색 및 빨간색 색상은 [사용자 지정 이벤트 극성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) 또는 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko-KR) 옵션을 통해 제어할 수 있습니다.
 

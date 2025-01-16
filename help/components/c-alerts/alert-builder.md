@@ -3,14 +3,23 @@ description: Analysis Workspace에서 경고를 사용합니다.
 title: 경고 빌더 개요
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 23bf2d449fe69437e528c382953c9bcc6def4d7b
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 30%
+source-wordcount: '648'
+ht-degree: 32%
 
 ---
 
-# 경고 만들기
+# 경고 만들기 {#create-alerts}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_alerts_timegranularity"
+>title="시간 세부 기간"
+>abstract="시간 세부 기간은 경고를 확인하는 빈도와 포함 항목 모두를 나타냅니다."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >

@@ -4,14 +4,21 @@ title: 모바일 스코어카드 만들기 및 공유
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2515'
 ht-degree: 81%
 
 ---
 
-# 모바일 스코어카드 만들기
+# 모바일 스코어카드 만들기 {#create-a-mobile-scorecard}
+
+>[!CONTEXTUALHELP]
+>id="mobilescorecard_annotations"
+>title="주석"
+>abstract="주석은 작업 영역 프로젝트 내부의 구성 요소 관리자에서 생성할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 다음 정보는 Adobe Analytics 큐레이터에게 경영진 사용자의 모바일 스코어카드를 구성하고 제공하는 방법에 대해 알려 줍니다. 시작하기 위해 Adobe Analytics 대시보드 스코어카드 빌더 비디오를 볼 수 있습니다.
 
@@ -194,7 +201,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 ### 슬라이드 레이아웃 변경
 
-가장 중요한 정보에 초점을 맞추도록 슬라이드 레이아웃을 변경합니다. 예를 들어 차트 또는 표만 표시하도록 레이아웃을 변경할 수 있습니다. 슬라이드 레이아웃을 변경하려면 미리 설계된 형식 중 하나를 선택합니다.
+가장 중요한 정보에 초점을 맞추도록 슬라이드 레이아웃을 변경합니다. 예를 들어 차트 또는 테이블만 표시하도록 레이아웃을 변경할 수 있습니다. 슬라이드 레이아웃을 변경하려면 미리 설계된 형식 중 하나를 선택합니다.
 
 ![슬라이드 레이아웃](assets/layout.png)
 

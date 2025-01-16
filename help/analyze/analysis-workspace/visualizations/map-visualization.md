@@ -5,14 +5,50 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+source-git-commit: de489dda1c2627ccb263ac496f8abb2794854856
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 92%
 
 ---
 
-# 맵
+# 맵 {#map}
+
+<!-- markdownlint-disable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_button"
+>title="맵"
+>abstract="이 시각화는 지표를 맵에 오버레이하여 나타냅니다. 이 기능은 다양한 지리적 영역에 걸쳐 데이터를 식별하는 데 유용합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_bubbles"
+>title="버블"
+>abstract="버블을 사용하여 이벤트를 플롯합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_heatmap"
+>title="히트맵"
+>abstract="히트맵을 사용하여 이벤트를 그립니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Adobe Analytics**에서 맵 시각화를 문서화합니다.<br/>현재&#x200B;**Customer Journey Analytics**에서 사용할 수 있는 맵 시각화가 없습니다.*
+
+>[!ENDSHADEBOX]
 
 ## 개요 {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 

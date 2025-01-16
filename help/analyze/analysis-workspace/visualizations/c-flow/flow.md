@@ -5,14 +5,35 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 93%
 
 ---
 
-# 플로우 개요
+# 흐름 개요 {#flow}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_button"
+>title="흐름"
+>abstract="하나의 체크포인트에서 다음 체크포인트로의 사용자 흐름을 표시하는 시각화를 만듭니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_panel"
+>title="흐름"
+>abstract="하나의 터치포인트에서 다음 터치포인트로의 방문 또는 방문자 흐름을 분석합니다.<br/><br/>**매개변수&#x200B;**<br/>**다음으로 시작**: 차원, 차원 항목 또는 지표를 추가하여 선택한 구성 요소가 발생한 후에 가장 많이 발생하는 접점을 확인합니다.<br/>**다음 포함**: 차원 또는 차원 항목을 추가하여 선택한 구성 요소가 발생하기 전후에 가장 많이 발생하는 접점을 확인합니다.<br/>**다음으로 끝남**: 차원, 차원 항목 또는 지표를 추가하여 선택한 구성 요소가 발생하기 전에 가장 많이 발생하는 접점을 확인합니다.<br/>**경로 지정 차원**: 선택한 구성 요소로 연결되거나 연결되는 경로로 사용할 차원을 추가합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서에서는&#x200B;**Adobe Analytics**의 플로우 시각화에 대해 설명합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [흐름](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)을 참조하세요.*
+
+>[!ENDSHADEBOX]
 
 이 플로우 기능은 고객이 웹 사이트 및 앱을 통과하는 경로를 보여 줍니다.
 
@@ -38,7 +59,7 @@ ht-degree: 100%
 
 ## 플로우 다이어그램을 프로젝트 .CSV 파일의 일부로 내보내기 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-플로우 다이어그램은 **[!UICONTROL 프로젝트]**> **[!UICONTROL CSV 다운로드]**&#x200B;로 이동하여 만들 수 있는 프로젝트 .CSV 파일의 일부입니다. 이를 통해 Microsoft Excel (표로 시각화됨) 또는 다른 곳에서 플로우 결과를 분석할 수 있습니다.
+플로우 다이어그램은 **[!UICONTROL 프로젝트]**> **[!UICONTROL CSV 다운로드]**&#x200B;로 이동하여 만들 수 있는 프로젝트 .CSV 파일의 일부입니다. 이를 통해 Microsoft Excel (테이블로 시각화됨) 또는 다른 곳에서 플로우 결과를 분석할 수 있습니다.
 
 ## 플로우 시각화 확장
 

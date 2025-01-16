@@ -4,16 +4,32 @@ title: 콤보 차트 시각화
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 99%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
-# 콤보 차트
+# 콤보 차트 {#combo}
 
-[!UICONTROL 콤보 차트]를 시각화하면 표를 만들지 않고도 비교 시각화를 빠르게 만들 수 있습니다. 데이터의 트렌드를 선/막대 조합으로 쉽게 볼 수 있습니다.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_combo_button"
+>title="콤보"
+>abstract="우선 자유 형식 테이블을 만들지 않고도 콤보 차트 시각화를 빠르게 만듭니다."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*이 문서는&#x200B;**Adobe Analytics**의 콤보 시각화에 대해 설명합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [콤보](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)를 참조하세요.*
+
+>[!ENDSHADEBOX]
+
+[!UICONTROL 콤보 차트]를 시각화하면 테이블을 만들지 않고도 비교 시각화를 빠르게 만들 수 있습니다. 데이터의 트렌드를 선/막대 조합으로 쉽게 볼 수 있습니다.
 
 [!UICONTROL 콤보 차트] 사용
 
@@ -55,7 +71,7 @@ ht-degree: 99%
 
    ![](assets/combo-output.png)
 
-   현재 기간은 막대 차트로 표시되고 비교 기간은 선 차트로 표시됩니다. 선 차트의 점을 “바벨”이라고 합니다.
+   현재 기간은 막대 그래프로 표시되고 비교 기간은 선 차트로 표시됩니다. 선 차트의 점을 “바벨”이라고 합니다.
 
 ## 지원되는 함수
 
@@ -90,17 +106,17 @@ ht-degree: 99%
 | 설정 | 정의 |
 | --- | --- |
 | **[!UICONTROL 시각화 유형]** | 다른 시각화 유형으로 전환할 수 있습니다. |
-| **[!UICONTROL 세부 기간]** | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 이 드롭다운 목록에서 다음을 수행합니다. |
+| **[!UICONTROL 세부 기간]** | 트렌드 시각화의 경우 이 드롭다운 목록에서 시간 세부기간(일, 주, 월 등)을 변경할 수 있습니다. |
 | **[!UICONTROL 일반]** |  |
 | **[!UICONTROL 백분율]** | 값을 백분율로 표시합니다. |
 | **[!UICONTROL 범례 표시]** | 콤보 차트 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | **[!UICONTROL 최대 항목 수 제한]** | X축의 항목 수를 줄입니다. 빅 데이터 세트가 있는 경우 처음 10개 항목(또는 선택한 값)만 표시할 수 있습니다. |
 | **[!UICONTROL 오버레이]** | 선에 바벨을 표시하거나 숨깁니다. |
 | **[!UICONTROL 축]** | |
-| **[!UICONTROL 이중 축 표시]** | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 Y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. 이중 축 색상은 다중 비교가 없는 한 표의 색상과 일치합니다. 이 경우 모든 비교에 대한 색상은 회색입니다. |
+| **[!UICONTROL 이중 축 표시]** | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 Y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. 이중 축 색상은 다중 비교가 없는 한 테이블의 색상과 일치합니다. 이 경우 모든 비교에 대한 색상은 회색입니다. |
 | **[!UICONTROL 표준화]** | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | **[!UICONTROL X축 표시]** | X축을 표시하거나 숨깁니다. |
 | **[!UICONTROL Y축 표시]** | Y축을 표시하거나 숨깁니다. |
-| **[!UICONTROL Y축을 0에 고정]** | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
+| **[!UICONTROL Y축을 0에 고정]** | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
 
 {style="table-layout:auto"}
