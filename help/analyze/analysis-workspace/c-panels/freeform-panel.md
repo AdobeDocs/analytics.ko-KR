@@ -4,9 +4,9 @@ title: 자유 형식 패널
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: 8ed3572767e586580872c5d2150ed75e42793fe6
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 22%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**의 자유 형식 패널에 대한 문서입니다.<br/>이 문서의 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**버전에 대한 [자유 형식 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)을 참조하세요.*
+*이 문서는&#x200B;**Adobe Analytics**의 자유 형식 패널에 대한 문서입니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전을 보려면 [자유 형식 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)을 참조하세요.*
 
 >[!ENDSHADEBOX]
 

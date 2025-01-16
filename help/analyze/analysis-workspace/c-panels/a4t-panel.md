@@ -4,9 +4,9 @@ title: A4T (Analytics for Target) 패널
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1158'
 ht-degree: 70%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-*이 문서에서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**의 Analytics for Target 패널에 대한 문서를 제공합니다.![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**에서 다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하는 방법에 대한 자세한 내용은 <br/>실험 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)을 참조하세요.*[
+*이 문서는&#x200B;**Adobe Analytics**의 Analytics for Target 패널에 대한 문서를 제공합니다.**Customer Journey Analytics**에서 다양한 사용자 경험, 마케팅 또는 메시징의 변화를 비교하는 방법에 대한 자세한 내용은 <br/>실험 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)을 참조하세요.*[
 
 >[!ENDSHADEBOX]
 

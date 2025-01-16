@@ -4,9 +4,9 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1154'
 ht-degree: 56%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 56%
 
 >[!BEGINSHADEBOX]
 
-*이 문서에서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**의 미디어 재생 소요 시간 패널을 설명합니다.<br/>이 문서의 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**버전에 대한 [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)을 참조하세요.*
+*이 문서에서는&#x200B;**Adobe Analytics**의 미디어 재생 소요 시간 패널을 설명합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)을 참조하세요.*
 
 >[!ENDSHADEBOX]
 

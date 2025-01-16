@@ -4,9 +4,9 @@ description: Analysis Workspace에서 속성 패널을 사용하고 해석하는
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: e3d9a7f7adc71582f5f6b7ca8a7874ef3cbb4777
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 47%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**의 속성 패널에 대한 문서를 제공합니다.<br/>이 문서의 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**버전에 대한 [속성 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하세요.*
+*이 문서는&#x200B;**Adobe Analytics**의 속성 패널에 대한 문서를 제공합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [기여도 분석 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하세요.*
 
 >[!ENDSHADEBOX]
 
