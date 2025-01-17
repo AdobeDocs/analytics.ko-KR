@@ -4,10 +4,10 @@ description: 코호트 분석을 통해 대상자에 대한 데이터를 더 깊
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 93%
+source-wordcount: '582'
+ht-degree: 86%
 
 ---
 
@@ -64,7 +64,9 @@ Analysis Workspace의 집단 테이블에 대한 비디오
 
 ## 집단 분석 기능
 
-다음 기능을 통해 생성 중인 집단에 대해 세밀하게 제어할 수 있습니다.
+다음 섹션에서는 작성 중인 집단에 대해 세밀하게 제어할 수 있는 집단 분석 기능에 대해 설명합니다.
+
+집단을 만들고 [!UICONTROL 집단 분석] 보고서를 실행하는 방법에 대한 자세한 내용은 [집단 분석 보고서 구성](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)을 참조하십시오.
 
 ### [!UICONTROL 유지 테이블]
 
@@ -103,5 +105,3 @@ Analysis Workspace의 집단 테이블에 대한 비디오
 기본값인 시간 기반 집단이 아닌 선택된 차원에 따라 집단을 생성합니다. [!UICONTROL 마케팅·채널],·[!UICONTROL 캠페인],·[!UICONTROL 제품],·[!UICONTROL 페이지],·[!UICONTROL 영역]·또는·Adobe·Analytics의·다른·차원과·같은·차원을·사용하여·차원의·다양한·값을·기준으로·유지·변경·방법을·보여·줍니다.￼
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-집단 보고서를 설정하고 실행하는 방법에 대한 지침은 [집단 분석 보고서 구성](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)에서 확인할 수 있습니다.

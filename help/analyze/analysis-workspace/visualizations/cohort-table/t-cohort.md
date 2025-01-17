@@ -5,7 +5,7 @@ title: 집단 분석 보고서 실행
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 95%
@@ -20,7 +20,7 @@ Analysis Workspace에서 집단을 만들고 [!UICONTROL 집단 분석] 보고�
 
    ![](assets/cohort-table.png)
 
-1. 아래 표에 정의된 대로 **[!UICONTROL 포함 기준]**, **[!UICONTROL 반환 기준]**, **[!UICONTROL 집단 유형]** 및 **[!UICONTROL 설정]**&#x200B;을 정의합니다.
+1. 아래 테이블에 정의된 대로 **[!UICONTROL 포함 기준]**, **[!UICONTROL 반환 기준]**, **[!UICONTROL 집단 유형]** 및 **[!UICONTROL 설정]**&#x200B;을 정의합니다.
 
    | 요소 | 설명 |
    |--- |--- |
@@ -33,9 +33,10 @@ Analysis Workspace에서 집단을 만들고 [!UICONTROL 집단 분석] 보고�
 1. (선택 사항) 톱니바퀴 아이콘을 클릭하여 **[!UICONTROL 집단 테이블 설정]**&#x200B;을 조정합니다.
 
    | 설정 | 설명 |
-| 백분율만 표시 | 숫자 값을 제거하고 백분율만 표시합니다. |
-| 백분율 반올림 | 백분율 값을 소수 값으로 표시하지 않고 가장 가까운 정수로 반올림합니다. |
-| 평균 백분율 행 표시 | 테이블의 맨 위에 새 행을 삽입한 다음 각 열 내의 값에 대한 평균을 추가합니다. |
+   |--- |--- |
+   | 백분율만 표시 | 숫자 값을 제거하고 백분율만 표시합니다. |
+   | 백분율 반올림 | 백분율 값을 소수 값으로 표시하지 않고 가장 가까운 정수로 반올림합니다. |
+   | 평균 백분율 행 표시 | 테이블의 맨 위에 새 행을 삽입한 다음 각 열 내의 값에 대한 평균을 추가합니다. |
 
 ## [!UICONTROL 집단 분석] 보고서 작성
 
