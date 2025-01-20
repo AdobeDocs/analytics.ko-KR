@@ -5,9 +5,9 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '575'
 ht-degree: 96%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Adobe Analytics**에서 선 시각화에 대한 문서를 제공합니다.이 문서의&#x200B;**Customer Journey Analytics**버전은 <br/>줄](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line)을 참조하세요.*[
+_이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;에서 선 시각화를 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [줄](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line)을 참조하세요._
 
 >[!ENDSHADEBOX]
 

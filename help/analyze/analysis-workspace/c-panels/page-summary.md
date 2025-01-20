@@ -4,9 +4,9 @@ title: 페이지 요약 패널
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 33fdd685de21736964d0cbfbc479794a9154e8a3
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '568'
 ht-degree: 8%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 8%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+_이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 페이지 요약 패널에 대한 문서를 제공합니다._<br/>_동등한 패널이_&#x200B;에 없습니다. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+
+>[!ENDSHADEBOX]
 
 이 패널을 통해 특정 페이지에 대한 주요 통계를 쉽게 탐색할 수 있습니다.
 

@@ -4,9 +4,9 @@ title: 빠른 인사이트 패널
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 84%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Adobe Analytics**의 빠른 인사이트 패널에 대한 문서입니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [빠른 인사이트 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)을 참조하세요.*
+_이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 빠른 인사이트 패널을 설명합니다.이 문서의 _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**버전에 대해_<br/>_&#x200B;빠른 인사이트 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)을 참조하세요._[
 
 >[!ENDSHADEBOX]
 

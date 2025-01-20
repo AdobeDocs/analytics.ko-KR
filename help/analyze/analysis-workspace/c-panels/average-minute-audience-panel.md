@@ -4,7 +4,7 @@ description: Analysis Workspace에서 미디어 평균 분당 시청자 패널�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 30%
@@ -33,7 +33,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-*이 문서에서는&#x200B;**Customer Journey Analytics**의 미디어 분당 평균 시청 시간 패널을 설명합니다.<br/>이 문서의&#x200B;**Adobe Analytics**버전에 대한 [미디어 분당 평균 시청 시간 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)을 참조하세요.*
+이 문서는 **Customer Journey Analytics**&#x200B;의 미디어 분당 평균 시청 시간 패널을 문서화합니다(_A).<br/>이 문서의 **Adobe Analytics** 버전은 [미디어 분당 평균 시청 시간 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)을 참조하세요.*
 
 >[!ENDSHADEBOX]
 

@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: de489dda1c2627ccb263ac496f8abb2794854856
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 92%
+source-wordcount: '701'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="맵"
->abstract="이 시각화는 지표를 맵에 오버레이하여 나타냅니다. 이 기능은 다양한 지리적 영역에 걸쳐 데이터를 식별하는 데 유용합니다."
+>abstract="이 시각화는 지표를 맵 위에 중첩되도록 표현합니다. 이는 지리적으로 다른 지역들의 데이터를 식별하는 데 유용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,15 +38,15 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
->title="히트맵"
->abstract="히트맵을 사용하여 이벤트를 그립니다."
+>title="열 지도"
+>abstract="히트맵을 사용하여 이벤트를 플롯합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-*이 문서는&#x200B;**Adobe Analytics**에서 맵 시각화를 문서화합니다.<br/>현재&#x200B;**Customer Journey Analytics**에서 사용할 수 있는 맵 시각화가 없습니다.*
+_이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;에서 맵 시각화를 문서화합니다._<br/>_현재_&#x200B;에서 사용할 수 있는 맵 시각화가 없습니다. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -116,7 +116,7 @@ Analysis Workspace의 맵 시각화
 | 설정 | 설명 |
 |--- |--- |
 | 버블 | 버블을 사용하여 이벤트를 그립니다. 버블 차트는 산포도와 비례 영역 차트의 중간에 있는 다중 변수 그래프입니다. 이 보기가 기본 보기입니다. |
-| 히트맵 | 히트맵을 사용하여 이벤트를 그립니다. 히트맵은 표에 포함된 개별 값이 색상으로 표현되는 데이터 그래픽 표현입니다. |
+| 열 지도 | 히트맵을 사용하여 이벤트를 그립니다. 히트맵은 표에 포함된 개별 값이 색상으로 표현되는 데이터 그래픽 표현입니다. |
 | 스타일: 색상 테마 | 히트맵 및 버블의 색상 구성표를 보여 줍니다. 코랄, 빨강, 녹색, 파랑 중에서 선택할 수 있습니다. 기본값은 코랄입니다. |
 | 스타일: 맵 스타일 | 기본, 도로, 더 밝게, 밝게, 어둡게, 위성 중에서 선택할 수 있습니다. |
 | 클러스터 반경 | 지정된 픽셀 수 내에 있는 데이터 포인트를 그룹화합니다. 기본값은 50입니다. |

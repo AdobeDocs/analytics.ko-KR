@@ -5,10 +5,10 @@ uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 77%
+source-wordcount: '165'
+ht-degree: 76%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-*이 문서에서는&#x200B;**Adobe Analytics**의 막대 및 스택 막대 시각화에 대해 설명합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [막대 및 스택 막대](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar)를 참조하세요.*
+_이 문서는_&#x200B;의 막대 및 막대 누적 시각화에 대한 문서입니다. ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대해 [막대 및 스택 막대](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar)를 참조하세요._
 
 >[!ENDSHADEBOX]
 

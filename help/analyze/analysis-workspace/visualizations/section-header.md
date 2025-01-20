@@ -3,9 +3,10 @@ title: 섹션 헤더
 description: Workspace 프로젝트에 섹션 헤더를 삽입하는 시각화입니다.
 feature: Visualizations
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '95'
 ht-degree: 13%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 13%
 >[!BEGINSHADEBOX]
 
 
-*이 문서에서는&#x200B;**Adobe Analytics**의 섹션 머리글 시각화에 대해 설명합니다.<br/>이 문서의&#x200B;**Customer Journey Analytics**버전에 대한 [섹션 머리글](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header)을 참조하세요.*
+_이 문서는_&#x200B;의 섹션 머리글 시각화에 대해 설명합니다![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [섹션 머리글](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header)을 참조하세요._
 
 >[!ENDSHADEBOX]
 
