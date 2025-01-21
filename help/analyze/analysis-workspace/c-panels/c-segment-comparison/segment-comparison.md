@@ -5,10 +5,10 @@ keywords: Analysis Workspace;세그먼트 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 92%
+source-wordcount: '592'
+ht-degree: 27%
 
 ---
 
@@ -59,103 +59,105 @@ _이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adob
 
 ### 패널 입력
 
-![패널 비교](assets/seg-compare-panel.png)
+다음 입력 설정을 사용하여 [!UICONTROL 세그먼트 비교] 패널을 구성할 수 있습니다.
 
-1. 비교할 세그먼트를 선택한 후 패널에 놓습니다.
+![세그먼트 비교 입력 패널](assets/segment-comparison-input.png)
 
-   ![대상자 비교](assets/compare-audiences.png)
+| 입력 | 설명 |
+| --- | --- |
+| **[!UICONTROL 세그먼트 추가]** | 비교할 차원을 선택합니다. |
+| **[!UICONTROL 비교 대상]** | 처음 선택한 세그먼트를 비교하는 데 사용할 차원을 선택합니다. 특정 세그먼트를 선택하지 않으면 기본 세그먼트 **[!UICONTROL 기타 사용자]**&#x200B;가 사용됩니다. |
+| **[!UICONTROL 고급 설정 표시/숨기기]** | **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택하여 **[!UICONTROL 제외된 구성 요소]**&#x200B;를 구성하고 **[!UICONTROL 고급 설정 숨기기]**&#x200B;를 선택하여 **[!UICONTROL 제외된 구성 요소]**&#x200B;를 숨깁니다. |
+| **[!UICONTROL 제외된 구성 요소]** | 제외할 **[!UICONTROL Dimension]**, **[!UICONTROL 지표]** 또는 **[!UICONTROL 세그먼트]**&#x200B;와 같이 지정할 수 있는 구성 요소입니다.<br><ul><li>컨테이너에서 하나 이상의 차원, 지표 또는 세그먼트를 **[!UICONTROL 제외된 구성 요소]** 컨테이너로 끌어다 놓습니다.</li><li>구성 요소를 제거하려면 형식(**[!UICONTROL Dimension]** **[!UICONTROL 지표]** 또는 ****)을 선택하고 ![CrossSize75](/help/assets/icons/CrossSize75.svg))을 선택하여 구성 요소를 제거합니다. 모든 구성 요소를 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하십시오.</li><li>현재 선택한 차원, 지표 및 세그먼트를 기본값으로 설정하려면 **[!UICONTROL 기본값으로 설정]**&#x200B;을 선택합니다.</li></ul> |
 
-   세그먼트를 패널로 드래그하면 선택한 세그먼트에 없는 모든 사람을 포함하는 [!UICONTROL &#39;기타 사용자&#39;] 세그먼트가 자동으로 만들어집니다. 이 세그먼트는 비교 패널에서 자주 사용되지만 자유롭게 제거하고 선택한 다른 세그먼트를 비교할 수 있습니다.
-
-   ![기타 사용자](assets/everyone-else.png)
-
-1. 비교할 두 개의 세그먼트를 결정했으면 [!UICONTROL 작성]을 클릭합니다.
-
-   그러면 선택한 두 세그먼트와 모든 차원, 지표 및 기타 세그먼트 간의 통계적 차이를 찾는 백엔드 프로세스가 시작됩니다. 패널의 맨 위에 있는 진행률 표시줄은 모든 지표 및 차원이 분석될 때까지 남은 시간을 나타냅니다. 가장 자주 사용되는 지표, 차원 및 세그먼트는 가장 연관성 있는 결과가 적시에 반환되도록 먼저 실행되는 우선순위가 지정됩니다.
-
-## 비교에서 구성 요소 제외
-
-때로는 세그먼트 비교에서 일부 차원, 지표 또는 세그먼트를 제외하는 것이 좋습니다. 예를 들어 &#39;미국 모바일 사용자&#39; 세그먼트를 &#39;독일 모바일 사용자&#39; 세그먼트와 비교하려고 하는 경우, 이 세그먼트들은 이미 차이점을 암시하고 있으므로 지리적 위치 관련 차원을 포함시키는 것은 적절하지 않습니다.
-
-1. 원하는 두 개의 세그먼트가 패널에 있으면 [!UICONTROL &#39;고급 선택 사항 표시&#39;]를 클릭합니다.
-1. 제외할 구성 요소를 [!UICONTROL 제외된 구성 요소] 패널에 드래그하여 놓습니다.
-
-   ![제외된 구성 요소](assets/excluded-components.png)
-
-모든 향후 세그먼트 비교에서 현재 구성 요소를 자동으로 제외하려면 [!UICONTROL &#39;기본값으로 설정&#39;]을 클릭합니다. 제외된 구성 요소를 편집하려면 구성 요소 유형을 클릭한 다음, 분석에 다시 포함할 구성 요소 옆에 있는 &#39;X&#39;를 클릭합니다. 세그먼트 비교에 모든 구성 요소를 다시 포함하려면 &#39;모두 지우기&#39;를 클릭하십시오.
-
-![제외된 차원](assets/excluded-dimensions.png)
+패널을 빌드하려면 **[!UICONTROL 빌드]**&#x200B;를 선택하십시오.
 
 ### 패널 출력
 
-Adobe에서 원하는 두 세그먼트에 대한 분석을 완료하면 몇 가지 시각화를 통해 결과가 표시됩니다.
+Adobe Analytics에서 원하는 두 세그먼트에 대한 분석을 완료하면 출력 패널에 몇 가지 시각화가 표시됩니다.
 
-![시각화 1](assets/new-viz.png)
+![패널 출력 세그먼트 비교](assets/segment-comparison-output.png)
 
-![시각화 2](assets/new-viz2.png)
+| 시각화 | 설명 |
+|---|---|
+| **[!UICONTROL 크기 및 겹치기]** | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) 시각화로 선택한 각 세그먼트의 상대적 크기와 서로 겹치는 정도를 보여 줍니다. |
+| **[!UICONTROL 첫 번째 세그먼트에 대한 고유 방문자 수]** | 첫 번째 세그먼트(단일 페이지 방문 횟수 예에서)에 대한 고유 방문자를 보여주는 [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화 |
+| **[!UICONTROL 두 번째 세그먼트의 고유 방문자 수]** | 두 번째 세그먼트(첫 번째 방문 예에서)에 대한 고유 방문자를 보여주는 [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화 |
+| **[!UICONTROL 세그먼트에 대한 상위 지표]** | 선택한 세그먼트의 상위 지표를 표시하는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
+| 세그먼트별 **[!UICONTROL 시간 경과에 따른 지표]** | 선택한 세그먼트에 대한 시간 경과에 따른 지표를 보여주는 [Line](/help/analyze/analysis-workspace/visualizations/line.md) 시각화입니다. |
+| **[!UICONTROL 세그먼트에 대한 상위 차원 항목]** | 선택한 세그먼트에 대한 혼합 차원 항목을 표시하는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
+| **[!UICONTROL 세그먼트별 항목 Dimension]** | 세그먼트별로 차원 항목을 표시하는 [가로 막대](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) 시각화입니다. |
+| **[!UICONTROL 세그먼트에 대한 상위 세그먼트]** | 세그먼트에 대한 상위 세그먼트를 표시하는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
+| **[!UICONTROL 세그먼트 겹침]** | 세그먼트 겹침을 보여 주는 [벤](/help/analyze/analysis-workspace/visualizations/venn.md) 시각화입니다. |
 
-#### 크기 및 겹치기
+![편집](/help/assets/icons/Edit.svg)을 사용하여 패널을 다시 구성하고 다시 빌드합니다.
 
-선택된 각 세그먼트의 상대적 크기와 서로 겹치는 정도를 벤 다이어그램을 사용하여 나타냅니다. 시각화 위로 커서를 놓으면 겹치거나 겹치지 않는 섹션에 포함된 방문자 수를 알 수 있습니다. 또한 추가 분석을 위해 겹치는 부분을 마우스 오른쪽 버튼으로 클릭하여 완전히 새로운 세그먼트를 생성할 수도 있습니다. 두 세그먼트가 상호 배타적인 경우에는 두 원 간에 겹치는 부분이 없습니다 (일반적으로 히트 컨테이너를 사용하여 세그먼트로 표시됨).
 
-![크기 및 겹치기](assets/size-overlap.png)
+<!--
+#### Size and overlap
 
-#### 모집단 요약
+Illustrates the comparative sizes of each selected segment and how much they overlap with each other using a venn diagram. You can hover over the visual to see how many visitors were in each overlapping or non-overlapping section. You can also right click on the overlap to create a brand new segment for further analysis. If the two segments are mutually exclusive, no overlap is shown between the two circles (typically seen with segments using a hit container).
 
-크기 및 겹치기 시각화의 오른쪽에는 각 세그먼트의 총 고유 방문자 수와 겹치는 방문자 수가 표시됩니다.
+![Size and overlap](assets/size-overlap.png)
 
-![모집단 요약](assets/population_summaries.png)
+#### Population summaries
 
-#### 상위 지표
+To the right of the Size and Overlap visualization, the total unique visitor count in each segment and overlap is shown.
 
-두 세그먼트 간에 통계적으로 가장 중요한 지표를 표시합니다. 이 테이블의 각 행은 차이 지표를 각 세그먼트 간 차이 크기 순서대로 표시합니다. 차이점 점수가 1이면 통계적으로 중요한 반면, 차이 점수가 0이면 통계적 중요성이 없음을 의미합니다.
+![Population summaries](assets/population_summaries.png)
 
-이 시각화는 Analysis Workspace의 자유 형식 테이블과 유사합니다. 특정 지표에 대한 심층적인 분석이 필요한 경우 마우스를 라인 항목 위로 가져간 후 &#39;시각화 만들기&#39;를 클릭하십시오. 특정 지표를 분석하기 위해 새 테이블이 만들어집니다. 지표가 분석과 관련이 없는 경우 마우스를 라인 항목 위로 가져간 후 &#39;X&#39;를 클릭하여 제거하십시오.
+#### Top metrics
 
->[!NOTE]
->
->세그먼트 비교가 끝난 후 이 테이블에 추가된 지표는 차이점 점수를 받지 않습니다.
+Displays the most statistically significant metrics between the two segments. Each row in this table represents a differentiating metric, ranked by how different it is between each segment. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
 
-![상위 지표](assets/top-metrics.png)
-
-#### 세그먼트별 시간 경과에 따른 지표
-
-지표 테이블 오른쪽에는 연결된 시각화가 표시됩니다. 왼쪽의 테이블에 있는 라인 항목을 클릭하면 이 시각화가 업데이트되어 시간 경과에 따른 지표 트렌드가 표시됩니다.
-
-![상위 지표 행](assets/linked-viz.png)
-
-#### 상위 차원
-
-모든 차원에서 통계적으로 가장 중요한 차원 항목을 표시합니다. 각 행은 각 세그먼트의 백분율을 표시하여 이 차원 항목을 나타냅니다. 예를 들어 이 테이블은 &#39;세그먼트 A&#39;의 방문자는 100%에게 &#39;브라우저 유형: Google&#39;이라는 차원 항목이 있는 반면 &#39;세그먼트 B&#39;의 경우에는 19.6%만이 이 차원 항목을 가지고 있었음을 보여 줄 수 있습니다. 차이점 점수가 1이면 통계적으로 중요한 반면, 차이 점수가 0이면 통계적 중요성이 없음을 의미합니다.
-
-이 시각화는 Analysis Workspace의 자유 형식 테이블과 유사합니다. 특정 차원 항목에 대한 심층적인 분석이 필요한 경우 마우스를 라인 항목 위로 가져간 후 &#39;시각화 만들기&#39;를 클릭하십시오. 특정 차원 항목을 분석하기 위해 새 테이블이 만들어집니다. 차원 항목이 분석과 관련이 없는 경우 마우스를 라인 항목 위로 가져간 후 &#39;X&#39;를 클릭하여 제거하십시오.
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific metric is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific metric. If a metric is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
 >[!NOTE]
 >
->세그먼트 비교가 끝난 후 이 테이블에 추가된 차원 항목은 차이점 점수를 받지 않습니다.
+>Metrics added to this table after the segment comparison has finished do not receive a Difference Score.
 
-![상위 차원](assets/top-dimension-item1.png)
+![Top metrics](assets/top-metrics.png)
 
-#### 세그먼트별 차원 항목
+#### Metric over time by segment
 
-차원 테이블 오른쪽에는 연결된 막대 그래프 시각화가 표시됩니다. 이 시각화는 막대 그래프에 있는 모든 표시된 차원 항목을 보여 줍니다. 왼쪽의 테이블에서 라인 항목을 클릭하면 오른쪽의 시각화가 업데이트됩니다.
+To the right of the metrics table is a linked visualization. You can click a line item in the table on the left, and this visualization updates to show that metric trended over time.
 
-![상위 차원 막대 그래프](assets/top-dimension-item.png)
+![Top metrics line](assets/linked-viz.png)
 
-#### 상위 세그먼트
+#### Top dimensions
 
-비교를 위해 선택한 두 세그먼트 이외의 다른 세그먼트 중 통계적으로 중요한 겹치는 부분이 있는 세그먼트를 보여 줍니다. 예를 들어 이 테이블은 세 번째 세그먼트인 &#39;재방문자&#39;가 &#39;세그먼트 A&#39;와 많이 겹치지만 &#39;세그먼트 B&#39;와는 겹치지 않는다는 것을 보여 줄 수 있습니다. 차이점 점수가 1이면 통계적으로 중요한 반면, 차이 점수가 0이면 통계적 중요성이 없음을 의미합니다.
+Shows the most statistically significant dimension items across all of your dimensions. Each row shows the percentage of each segment exhibiting this dimension item. For example, this table might reveal that 100% of visitors in 'Segment A' had the dimension item 'Browser Type: Google', whereas only 19.6% of 'Segment B' had this dimension item. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
 
-이 시각화는 Analysis Workspace의 자유 형식 테이블과 유사합니다. 특정 세그먼트에 대한 심층적인 분석이 필요한 경우 마우스를 라인 항목 위로 가져간 후 &#39;시각화 만들기&#39;를 클릭하십시오. 특정 세그먼트를 분석하기 위해 새 테이블이 만들어집니다. 세그먼트가 분석과 관련이 없는 경우 마우스를 라인 항목 위로 가져간 후 &#39;X&#39;를 클릭하여 제거하십시오.
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific dimension item is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific dimension item. If a dimension item is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
 >[!NOTE]
 >
->세그먼트 비교가 끝난 후 이 테이블에 추가된 세그먼트는 차이점 점수를 받지 않습니다.
+>Dimension items added to this table after the segment comparison has finished do not receive a Difference Score.
 
-![상위 세그먼트](assets/top-segments.png)
+![Top dimensions](assets/top-dimension-item1.png)
 
-#### 세그먼트 겹치기
+#### Dimension items by segment
 
-세그먼트 테이블 오른쪽에는 연결된 벤 다이어그램 시각화가 표시됩니다. 이 시각화는 비교된 세그먼트에 가장 통계적으로 중요한 세그먼트가 적용된 것을 보여 줍니다. 예를 들어 &#39;세그먼트 A&#39; + &#39;통계적으로 중요한 세그먼트&#39;와 &#39;세그먼트 B&#39; + &#39;통계적으로 중요한 세그먼트&#39;가 가능합니다. 왼쪽의 테이블에서 세그먼트 라인 항목을 클릭하면 오른쪽의 벤 다이어그램이 업데이트됩니다.
+To the right of the dimensions table is a linked bar chart visualization. It shows all displayed dimension items in a bar chart. Clicking a line item in the table on the left updates the visualization on the right.
 
-![상위 세그먼트 벤 다이어그램](assets/segment-overlap.png)
+![Top dimensions bar chart](assets/top-dimension-item.png)
+
+#### Top segments
+
+Shows which other segments (other than the two segments selected for comparison) have statistically significant overlap. For example, this table can show that a third segment, 'Repeat Visitors', overlaps highly with 'Segment A' but does not overlap with 'Segment B'. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
+
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific segment is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific segment. If a segment is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
+
+>[!NOTE]
+>
+>Segments added to this table after the segment comparison has finished do not receive a Difference Score.
+
+![Top segments](assets/top-segments.png)
+
+#### Segment overlap
+
+To the right of the segments table is a linked venn diagram visualization. It shows the most statistically significant segment applied to your compared segments. For example, 'Segment A' + 'Statistically significant segment' vs. 'Segment B' + 'Statistically significant segment'. Clicking a segment line item in the table on the left updates the venn diagram on the right.
+
+![Top segments venn diagram](assets/segment-overlap.png)
+
+-->

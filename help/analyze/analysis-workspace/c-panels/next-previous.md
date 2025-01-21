@@ -4,7 +4,7 @@ title: 다음 또는 이전 항목 패널
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 36%
@@ -69,7 +69,6 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 ### 패널 출력
 
 [!UICONTROL 다음 또는 이전 항목] 패널은 특정 차원 항목의 다음 또는 이전 발생 횟수를 더 잘 이해할 수 있도록 풍부한 데이터 및 시각화를 반환합니다.
-
 
 ![다음/이전 패널 출력](assets/next-or-previous-item-output.png)
 
