@@ -4,9 +4,9 @@ description: 거래 ID 데이터 소스를 사용하는 일반적인 워크플�
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '413'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 7%
 거래 ID 데이터 소스에는 다음 속성이 있습니다.
 
 * 온라인 데이터를 먼저 수집하고 처리해야 합니다. 보고서 세트가 해당 거래 ID와 일치하는 히트를 처리하기 전에 거래 ID 데이터 소스가 업로드되는 경우 데이터가 연결되지 않습니다.
-* AppMeasurement을 통해 수집된 거래 ID는 약 90일 후에 만료됩니다. 조직에서 더 긴 거래 ID 창을 필요로 하는 경우 Adobe 고객 지원 센터에 문의하십시오.
+* AppMeasurement을 통해 수집된 거래 ID는 25개월 후에 만료됩니다.
 * 만료된 거래 ID로 업로드된 데이터 소스는 거래 ID 없이 업로드된 데이터와 유사하게 처리됩니다.
 * 동일한 변수가 온라인 히트와 거래 ID 데이터 소스에 모두 포함된 경우 거래 ID 데이터 소스의 값이 사용됩니다.
 * 변수가 온라인 히트에 포함되어 있지만 일치하는 거래 ID 데이터 소스 히트에 포함되어 있지 않으면 온라인 히트 변수가 유지됩니다.

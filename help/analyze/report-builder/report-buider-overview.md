@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
+exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 27%
+source-wordcount: '527'
+ht-degree: 29%
 
 ---
 
@@ -21,10 +22,6 @@ ht-degree: 27%
 - API 2.0 업그레이드 덕분에 데이터 블록이 반환되기를 기다리는 시간이 단축됩니다.
 - 속도 향상
 
->[!NOTE]
->
->Adobe Analytics에서 이 버전의 Report Builder에 대한 통합 문서 예약은 아직 릴리스되지 않았지만 2025년 초에 사용할 수 있습니다. 예약이 필요하지 않은 통합 문서에서 지금 시작할 수 있습니다.
-
 레거시 Report Builder 도구 사용자는 [레거시 통합 문서를 ](/help/analyze/report-builder/convert-workbooks.md)새 Report Builder으로 변환할 수 있습니다.
 
 Report Builder을 사용하면 Adobe Analytics 데이터를 사용하여 사용자 지정 보고서를 쉽게 만들고 편집하고 새로 고칠 수 있습니다. Report Builder의 간단하고 유연한 드래그 앤 드롭 UI를 통해 Excel 내의 모든 Adobe Analytics 데이터에서 복잡한 데이터 쿼리와 사용자 지정 보고서를 만들 수 있습니다.
@@ -33,7 +30,7 @@ Report Builder을 사용하여 다음을 수행할 수 있습니다.
 
 - 기존 워크시트 셀을 참조하여 완벽한 행 순서, 날짜 범위 또는 필터를 얻을 수 있습니다.
 - 달력, 셀 참조 또는 날짜 계산을 사용하여 사용자 정의 날짜를 만들 수 있습니다.
-- 익숙한 Excel 서식 도구를 사용하여 표와 시각화를 디자인할 수 있습니다.
+- 익숙한 Excel 서식 도구를 사용하여 테이블과 시각화를 디자인할 수 있습니다.
 
 ## 이전 Report Builder과 새 Report Builder을 나란히 사용
 
