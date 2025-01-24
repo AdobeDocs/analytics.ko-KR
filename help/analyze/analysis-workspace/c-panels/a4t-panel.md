@@ -7,11 +7,11 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '1132'
-ht-degree: 43%
+ht-degree: 46%
 
 ---
 
-# Analytics for Target 패널 {#analyze-for-target-panel}
+# Target용 Analytics 패널 {#analyze-for-target-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
->title="Analytics for Target 패널"
->abstract="Analysis Workspace에서 타겟 활동 및 경험을 분석합니다.<br/><br>**매개 변수&#x200B;**<br/>**Target 활동**: 분석되는 Target 활동입니다.<br/>**제어 경험**: 선택한 Target 활동에 대한 제어 경험입니다.<br/>**지표 정규화**: 방문자, 방문 또는 노출 횟수. 이 지표 (계산 방법이라고도 함)는 상승도 계산의 분모가 됩니다. 이는 신뢰도 계산이 적용되기 전에 데이터가 종합되는 방식에도 영향을 줍니다.<br/>**성공 지표**: Target 활동을 분석할 최대 3개의 표준(계산되지 않은) 성공 지표입니다."
+>title="Target용 Analytics 패널"
+>abstract="Analysis Workspace에서 타겟 활동 및 경험을 분석합니다.<br/><br>**매개 변수&#x200B;**<br/>**Target 활동**: 분석되는 Target 활동입니다.<br/>**경험 제어**: 선택한 대상 활동에 대한 경험을 제어합니다.<br/>**정규화 지표**: 방문자 수, 방문 수 또는 노출 수입니다. 이 지표 (계산 방법이라고도 함)는 상승도 계산의 분모가 됩니다. 이는 신뢰도 계산이 적용되기 전에 데이터가 종합되는 방식에도 영향을 줍니다.<br/>**성공 지표**: Target 활동을 분석하기 위한 최대 3개의 표준(계산되지 않은) 성공 지표입니다."
 
 <!-- markdownlint-enable MD034 -->
 

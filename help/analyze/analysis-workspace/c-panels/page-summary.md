@@ -7,7 +7,7 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 12%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_button"
 >title="페이지 요약"
->abstract="일부 높은 수준의 지표는 물론 특정 페이지로의 이동도 빠르게 검토합니다."
+>abstract="일부 고급 지표와 특정 페이지 간의 이동 상황을 빠르게 검토할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="페이지 요약 패널"
->abstract="일부 높은 수준의 지표는 물론 특정 페이지로의 이동도 빠르게 검토합니다.<br/><br/>**매개 변수&#x200B;**<br/>**페이지 차원 항목 추가**: 구성 요소 레일을 열고 페이지 차원을 찾은 다음 당근을 클릭하여 확장하여 차원 항목을 봅니다. 그런 다음 학습할 특정 페이지를 빌더로 끌어서 놓습니다. 차원 항목을 끌어다 놓으면 보고서가 페이지에 대한 주요 정보로 자동으로 채워집니다."
+>abstract="일부 고급 지표와 특정 페이지 간의 이동 상황을 빠르게 검토할 수 있습니다.<br/><br/>**매개변수&#x200B;**<br/>**페이지 차원 항목 추가**: 구성 요소 레일을 열고 페이지 차원을 찾은 다음 당근 모양 아이콘을 클릭하여 확장한 다음 차원 항목을 확인합니다. 그런 다음 자세히 살펴보고자 하는 특정 페이지를 빌더로 드래그 앤 드롭하십시오. 차원 항목을 끌어다 놓으면 보고서가 페이지에 대한 주요 정보로 자동으로 채워집니다."
 
 <!-- markdownlint-enable MD034 -->
 
