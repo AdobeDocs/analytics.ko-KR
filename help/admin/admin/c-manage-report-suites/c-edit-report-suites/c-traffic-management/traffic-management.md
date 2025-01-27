@@ -1,22 +1,27 @@
 ---
-description: 트래픽 관리 페이지에서 예상되는 트래픽 볼륨 변경을 지정할 수 있습니다. 이러한 설정을 통해 Adobe는 적절한 리소스를 할당하여 적시에 트래픽을 추적하고 처리할 수 있습니다.
+description: 트래픽 관리를 사용하면 예상 트래픽 볼륨 변경을 지정할 수 있습니다.
 title: 트래픽 관리
 feature: Traffic Management
 role: Admin
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 41ca3fd05290df79bb0f113df462fdbe5e6a6720
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '95'
+ht-degree: 4%
 
 ---
 
-# 트래픽 관리 개요
+# 트래픽 관리
 
-트래픽 관리 페이지에서 예상되는 트래픽 볼륨 변경을 지정할 수 있습니다. 이러한 설정을 통해 Adobe는 적절한 리소스를 할당하여 적시에 트래픽을 추적하고 처리할 수 있습니다.
+날짜 범위별 트래픽 관리 보고서는 [!DNL Reports & Analytics] 사용 중지와 함께 더 이상 사용되지 않습니다.
 
-[!UICONTROL 트래픽 관리]에 액세스하려면
+하지만 Analysis Workspace을 사용하여 보고서를 만들 수 있습니다. 보고서가 생성되면 저장한 다음 새 보고서가 필요할 때 필요에 따라 날짜 범위 및/또는 보고서 세트를 변경하면 됩니다.
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭한 다음 보고서 세트를 선택합니다.
+1. Workspace을 시작합니다.
 
-1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽 관리]** > *`<selection>`*&#x200B;을 클릭합니다.
+1. 새 프로젝트를 만들고 적절한 보고서 세트를 선택합니다.
+
+1. **[!UICONTROL 일]** 차원을 자유 형식 테이블로 드래그하고 **[!UICONTROL 발생 횟수]** 지표를 사용합니다.
+
+1. 날짜 범위를 원하는 날짜 범위로 설정합니다.
+
