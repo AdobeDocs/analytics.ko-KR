@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1238'
+ht-degree: 76%
 
 ---
 
@@ -75,6 +75,19 @@ ht-degree: 81%
 
    ![확인 알림](./assets/confirmation-toast.png){width="55%"}
 
+## 전환된 통합 문서 예약 {#converted}
+
+1. [전환된](/help/analyze/report-builder/convert-workbooks.md) 레거시 통합 문서를 예약합니다.
+
+   기존 통합 문서의 예약 메타데이터를 사용하여 새 예약된 작업을 만들 것인지 묻는 팝업이 나타납니다.
+
+1. **[!UICONTROL 사용]**&#x200B;을 선택하면 Report Builder이 자동으로 기존 예약 정보를 채웁니다.
+
+1. 이 정보가 올바른지 확인하고 예약하십시오.
+
+1. 통합 문서를 다른 일정으로 보내려면 완전히 새로 예약된 작업을 예약하십시오.
+
+
 ## 한 번만 통합 문서 보내기
 
 통합 문서를 한 번만 보낼 수도 있습니다.
@@ -85,7 +98,7 @@ ht-degree: 81%
 
 1. **지금 보내기**&#x200B;를 클릭합니다.
 
-## 예약된 통합 문서 보기 및 편집
+## 예약된 통합 문서 보기 및 편집 {#view-edit}
 
 통합 문서 탭 아래의 한 곳에서 예약된 모든 통합 문서를 보고 관리할 수 있습니다.
 
@@ -107,7 +120,7 @@ ht-degree: 81%
 
   ![일정 작업 목록을 표시하는 스크린샷입니다.](./assets/selected-workbook.png){width="40%"}
 
-## 예약된 작업 상태 검토
+## 예약된 작업 상태 검토 {#status}
 
 내력 보기를 사용하여 예약된 각 작업의 상태를 검토할 수 있습니다. 예약된 각 작업의 상태 변경을 문서화하는 별도의 행이 있습니다. 아래 예에서 *새 시간별 일정*&#x200B;이 1월 5일 오후 3시 4분에 시작되었습니다. 오후 3시 5분까지 일정이 새로 고쳐지고 수신자에게 전송되었습니다. 다음 통합 문서인 *잘못된 통합 문서*&#x200B;에 새로 고침 프로세스 도중 오류가 발생했습니다. 통합 문서 전송이 실패한 경우 내역 탭을 통해 프로세스에서 오류가 발생한 위치를 표시하여 문제를 해결할 수 있습니다. 이 경우 일부 데이터 블록에 오류가 발생하여(구성 요소 누락) 통합 문서를 새로 고칠 수 없습니다.
 

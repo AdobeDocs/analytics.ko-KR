@@ -5,13 +5,13 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
-
 
 # 기존 Report Builder 통합 문서를 데이터 블록으로 변환
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->각 통합 문서를 복제하고 변환하기 전에 한 버전의 이름을 변경합니다. 이렇게 하면 원본 통합 문서의 사본이 필요할 때 계속 사용할 수 있습니다.
+>각 통합 문서를 복제하고 변환하기 전에 한 버전의 이름을 변경합니다. 이렇게 하면 원본 통합 문서의 사본이 그대로 유지됩니다. 필요한 경우
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 이제 [데이터 블록을 관리](/help/analyze/report-builder/manage-reportbuilder.md)할 수 있습니다.
 
 
-## 새 Report Builder에서 지원되지 않는 기존 Report Builder 기능
+## 새 Report Builder에서 지원되지 않는 기존 Report Builder 기능 {#unsupported}
 
 레거시 Report Builder의 기능을 새 Report Builder 추가 기능과 비교할 때 일부 레거시 기능은 더 이상 사용할 수 없습니다.
 
@@ -66,3 +66,7 @@ ht-degree: 0%
 - 예약된 보고서에 대한 FTP 옵션
 
 - 방문자 지표. 보고 결과가 정확히 일치하지 않더라도 다음 지표는 모두 &quot;고유 방문자 수&quot;로 변환됩니다. `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` 및 `visitorsyearly`. 이는 `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` 및 `mobilevisitorsyearly`에도 적용됩니다.
+
+## 전환된 통합 문서 예약 {#schedule}
+
+예약 문서에서 [변환된 통합 문서 예약](/help/analyze/report-builder/schedule-reportbuilder.md)을 참조하십시오.
