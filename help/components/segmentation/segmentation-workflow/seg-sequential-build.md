@@ -3,9 +3,9 @@ description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 �
 title: 순차적 세그먼트 작성
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
+source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '3931'
 ht-degree: 96%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 96%
 모든 사용자 포함이 설정된 세그먼트를 만들 때, 세그먼트는 전체로서 주어진 패턴과 일치하는 경로를 식별합니다. 이것은 동일한 방문자가 방문하면 다른 히트(페이지 B)가 뒤따르는 하나의 히트(페이지 A)를 찾는 기본 시퀀스 세그먼트의 예입니다. 세그먼트는 모든 사용자 포함으로 설정되어 있습니다.
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
 
 | 결과... | 시퀀스 |
 |--- |--- |
@@ -349,11 +349,11 @@ ht-degree: 96%
 >
 >**일** 또는 **일**&#x200B;과 같이 이름이 비슷한 요소 간에 평가 차이가 있습니다. Within 및 After에 대한 시간 기반 정의의 경우 팝업 창에서 먼저 나열된 옵션을 사용합니다.
 >
->![이미지](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>![image](assets/terrible-link-2.png)
 >
 >Within 및 After에 대한 차원 기반 정의의 경우 하위 메뉴 *기타 Dimension* 아래의 옵션을 사용합니다.
 >
->![이미지](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
+>![image](assets/terrible-link-3.png)
 
 ### After 및 Within 연산자 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
