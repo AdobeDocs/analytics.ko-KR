@@ -4,9 +4,9 @@ title: 패널 개요
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
+source-git-commit: 515517eb708b8c8e1210f82a325e46cbf308c5e6
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2155'
 ht-degree: 57%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 57%
 
 ## 패널 유형
 
-[!UICONTROL Customer Journey Analytics]을 위한 Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
+[!UICONTROL Adobe Analytics]용 Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 | 패널 이름 | 설명 |
 | --- | --- |
