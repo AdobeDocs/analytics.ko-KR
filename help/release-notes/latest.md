@@ -6,23 +6,23 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d7beee25af3551426eb905f0e727545de068b2d9
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 45%
+ht-degree: 71%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보 (2025년 1월 릴리스)
+# 현재 Adobe Analytics 릴리스 정보 (2025년 1월 릴리스)
 
-**마지막 업데이트**: 2024년 1월 22일 화요일
+**마지막 업데이트**: 2024년 1월 22일
 
-이 릴리스 정보는 2025년 1월 15일부터 2월 중순까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이번 릴리스 정보에는 2025년 1월 15일부터 2월 중순까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **새 Report Builder에서 예약** | 예약을 사용하면 새 Report Builder 통합 문서를 예약할 수 있을 뿐만 아니라 또한 이전 통합 문서를 변환할 때 이전 예약된 작업에서 메타데이터를 검색할 수 있도록 해줍니다. 이렇게 하면 기존 통합 문서를 새 통합 문서로 변환하고 예약할 때 기존 통합 문서와 동일한 e-메일 및 동일한 케이던스로 통합 문서를 보냅니다. [자세히 알아보기](/help/analyze/report-builder/schedule-reportbuilder.md) |  | 2025년 1월 22일 |
-| **Analysis Workspace의 보고서(템플릿이라고도 함)에 대한 개선 사항** | 이제 보고서(템플릿이라고도 함)에 대해 다양한 개선 사항을 사용할 수 있습니다.<ul><li>이제 [!UICONTROL 템플릿](더 이상 [!UICONTROL 보고서](이라고 하지 않음)이라고 합니다.</li><li>열 보기 또는 카드 보기에서 템플릿을 보는 옵션을 포함하여 템플릿을 보고 찾는 사용자 경험이 개선되었습니다.</li><li>보다 직관적인 새 회사 서식 파일 위치(**[!UICONTROL Workspace]** > **[!UICONTROL 서식 파일]**).</li><li>이전에는 프로젝트를 만들 때 대화 상자에서 회사 템플릿에 액세스했습니다.</li><li>사전 제작된 추가 템플릿을 사용할 수 있습니다.</li></ul>[자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates).<p>관리자는 템플릿을 만들고 이를 저장하여 로그인 회사의 다른 사용자가 사용할 수 있도록 할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/create-templates) | 2025년 1월 15일 목요일 | 2025년 1월 30일 금요일 |
-| **거래 ID 보존 기간** | 거래 ID 보존 기간 90일이 2025년 2월에 25개월로 연장됩니다. `transactionID` 변수는 데이터 소스를 통해 업로드된 데이터에 히트가 연결될 수 있도록 거래를 고유하게 식별합니다. (다음 설명서 링크) |  | 2025년 2월 11일 수요일 |
+| **새로운 Report Builder에서 일정 예약하기** | 일정 예약 가능을 사용하여 새로운 Report Builder 통합 문서의 일정을 예약할 수 있습니다. 또한 기존 통합 문서를 변환할 때 이전에 예약된 작업의 메타데이터를 가져올 수 있습니다. 이렇게 하면 기존 통합 문서를 새 통합 문서로 변환하고 일정을 예약할 때 기존 통합 문서와 동일한 이메일 주소와 동일한 주기로 해당 통합 문서를 전송할 수 있습니다. [자세히 알아보기](/help/analyze/report-builder/schedule-reportbuilder.md) |  | 2025년 1월 22일 |
+| **Analysis Workspace의 보고서(템플릿이라고도 함) 개선 사항** | 이제 보고서(템플릿이라고도 함)에 다음과 같이 다양한 개선 사항이 적용되었습니다.<ul><li>이제 [!UICONTROL 템플릿]이라고 불립니다(더 이상 [!UICONTROL 보고서]라고 불리지 않음).</li><li>템플릿을 열 보기나 카드 보기로 조회할 수 있는 옵션을 포함하여 템플릿 조회 및 검색에 대한 사용자 경험이 개선되었습니다.</li><li>기업 템플릿을 위한 새롭고 직관적인 위치가 추가되었습니다(**[!UICONTROL Workspace]** > **[!UICONTROL 템플릿]** 아래에 있음).</li><li>이전에는 프로젝트를 생성할 때 대화 상자에서 기업 템플릿에 액세스했습니다.</li><li>추가로 미리 작성된 템플릿을 사용할 수 있습니다.</li></ul>[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/templates/use-templates)<p>관리자는 템플릿을 만들고 이를 저장하여 로그인 회사의 다른 사용자들이 이용하도록 할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/templates/create-templates) | 2025년 1월 15일 | 2025년 1월 30일 |
+| **거래 ID 보존 기간** | 거래 ID의 보존 기간은 90일이지만 2025년 2월부터 25개월로 연장됩니다. `transactionID` 변수는 데이터 소스를 통해 업로드된 데이터에 히트가 연결될 수 있도록 거래를 고유하게 식별합니다. (참조할 설명서 링크) |  | 2025년 2월 11일 |
 
 ## Adobe Analytics의 수정 사항
 
@@ -52,13 +52,13 @@ ht-degree: 45%
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **캠페인 고객이 아닌 사용자는 트리거에 대한 액세스 권한을 잃게 됩니다.** | 2023년 10월 16일 | 2025년 1월 30일에 Adobe Campaign 라이선스가 없는 Adobe Analytics 고객은 [트리거](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers)를 구성하고 사용할 수 있는 기능에 액세스할 수 없게 됩니다. 고객은 Campaign을 구매하거나 트리거 사용을 중단하거나 트리거 기능을 제공하는 다른 Adobe 도구를 확인해야 합니다. |
+| **캠페인 고객이 아닌 사용자는 트리거에 대한 액세스 권한을 잃게 됩니다.** | 2023년 10월 16일 | 2025년 1월 30일부터 Adobe Campaign 라이선스가 없는 Adobe Analytics 고객은 [트리거](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/triggers)를 구성하고 사용할 수 있는 액세스 권한을 상실하게 됩니다. 고객은 Campaign을 구매하거나 트리거 사용을 중단하거나 트리거 기능을 제공하는 다른 Adobe 도구를 확인해야 합니다. |
 
 ## 서비스 종료(EOL) 알림 {#eol}
 
 | EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
-| **Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션** | 2025년 1월 17일 토요일 | Adobe I/O JWT 자격 증명을 사용하는 Adobe Analytics API 및 Livestream 고객은 **2025년 6월 30일 화요일**&#x200B;까지 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 2024년 5월 1일부터는 Adobe I/O를 사용하여 새 JWT 자격 증명을 만들 수 없습니다. JWT를 사용하는 고객은 OAuth 서버 간 자격 증명을 새로 만들거나 기존 JWT 자격 증명을 OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 또한 고객은 새 OAuth 서버 간 자격 증명을 사용하려면 클라이언트 애플리케이션을 업데이트해야 합니다. <ul><li>[서비스 계정(JWT) 자격 증명에서 마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth를 사용한 신규 및 기존 애플리케이션 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[새 OAuth 서버 간 자격 증명 사용](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
+| **Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션** | 2025년 1월 17일 | Adobe I/O JWT 자격 증명을 사용하는 Adobe Analytics API 및 Livestream 고객은 **2025년 6월 30일**&#x200B;까지 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 2024년 5월 1일부터는 Adobe I/O를 사용하여 새 JWT 자격 증명을 만들 수 없습니다. JWT를 사용하는 고객은 OAuth 서버 간 자격 증명을 새로 만들거나 기존 JWT 자격 증명을 OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 또한 고객은 새 OAuth 서버 간 자격 증명을 사용하려면 클라이언트 애플리케이션을 업데이트해야 합니다. <ul><li>[서비스 계정(JWT) 자격 증명에서 마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth를 사용한 신규 및 기존 애플리케이션 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[새 OAuth 서버 간 자격 증명 사용](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 | **Adobe Analytics API(버전 1.4)에 대한 EOL** | 2024년 7월 17일 | **2026년 8월 12일**&#x200B;에 다음과 같은 Analytics Legacy API 서비스가 종료되며 해당 서비스를 사용하여 빌드한 현재 모든 통합 기능은 더 이상 작동하지 않습니다.<ul><li>Adobe Analytics API (버전 1.4)</li><li>Adobe Analytics WSSE 인증</li></ul><p>Adobe Analytics API(버전 1.4)를 사용하는 통합은 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)로 마이그레이션되어야 하며 WSSE 통합은 [Adobe Developer Console](https://developer.adobe.com/console)의 OAuth 기반 인증 프로토콜로 마이그레이션되어야 합니다.</p><p>자주 묻는 질문에 대한 답변과 자세한 안내는 [Adobe Analytics 1.4 API EOL FAQ](/help/admin/c-admin-api/c-admin-14-api-eol.md)를 참조하시기 바랍니다.</p> |
 
 
