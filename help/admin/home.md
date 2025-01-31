@@ -4,7 +4,7 @@ description: Admin Console의 사용자 및 제품 관리, 보고서 세트, 변
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 96%
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-Adobe Analytics에 대한 소개 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 소개](https://video.tv.adobe.com/27429?quality=12&learn=on){target="_blank"}를 참조하십시오.
+Adobe Analytics에 대한 소개 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 소개](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
