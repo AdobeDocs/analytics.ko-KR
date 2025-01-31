@@ -4,10 +4,10 @@ description: Analysis Workspace, Analytics 대시보드(모바일 앱), Activity
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
-source-wordcount: '523'
-ht-degree: 100%
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,12 @@ Analytics 도구 안내서에는 다음 Analytics 도구에 대한 제품 기능
 
 Adobe Analytics 기본 사항에 대해 알아보려면 아래 *Adobe Analytics 소개 - 스킬 빌더 웨비나* 비디오를 참조하십시오. 이 비디오는 데이터를 캡처하는 방법, 데이터가 Adobe Analytics로 전송되는 방법 및 Adobe Analytics에서 사용할 수 있는 시각화 기능에 대한 기본 사항을 소개합니다. 이 비디오는 데이터를 빌드, 배포, 수집 및 해석할 수 있는 기반을 제공하여 수집된 데이터를 기반으로 실행 가능한 인사이트 및 권장 사항을 제공할 수 있도록 지원합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+웨비나는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 소개 - 스킬 빌더 웨비나](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 사용할 도구에 대한 질문은 [어떤 Adobe Analytics 도구를 사용해야 합니까?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html)를 참조하십시오.
 

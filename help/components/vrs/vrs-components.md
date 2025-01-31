@@ -3,10 +3,10 @@ description: 가상 보고서 세트는 Analysis Workspace에 구성 요소를 �
 title: 가상 보고서 세트 구성 요소 큐레이션
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 94%
+source-wordcount: '415'
+ht-degree: 92%
 
 ---
 
@@ -14,9 +14,13 @@ ht-degree: 94%
 
 가상 보고서 세트는 Analysis Workspace에 구성 요소를 포함하거나 제외하도록 큐레이션할 수 있습니다.
 
-다음은 구성 요소 큐레이션에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23544/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 큐레이션](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

@@ -4,7 +4,7 @@ title: Admin Console로 Analytics 사용자 마이그레이션
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: 4c4e68afcf9a7e2c5cd00ef109fbbf44578a3d1a
 workflow-type: tm+mt
 source-wordcount: '3084'
 ht-degree: 97%
@@ -281,7 +281,7 @@ Adobe Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 관리 API <a href="https://helpx.adobe.com/kr/enterprise/help/identity.html">Adobe 지원 ID 유형</a> </p> </td> 
-   <td colname="col2"> <p> Adobe Admin Console로 마이그레이션하는 관리자는 Adobe Admin Console의 사용자 계정에 프로그래밍 방식으로 액세스하기 위해 Adobe Developer에서 제공되는 <a href="https://developer.adobe.com/UMAPI/">사용자 관리 API</a>를 구성해야 합니다. </p> <p>마이그레이션할 수 있도록 설정되면 Analytics 권한 API 사용이 중지됩니다. </p> </td> 
+   <td colname="col2"> <p> Adobe Admin Console로 마이그레이션하는 관리자는 Adobe Admin Console의 사용자 계정에 프로그래밍 방식으로 액세스하기 위해 Adobe Developer에서 제공되는 <a href="https://developer.adobe.com/umapi">사용자 관리 API</a>를 구성해야 합니다. </p> <p>마이그레이션할 수 있도록 설정되면 Analytics 권한 API 사용이 중지됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>웹 서비스 자격 증명 </p> </td> 

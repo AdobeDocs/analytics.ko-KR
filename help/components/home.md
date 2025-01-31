@@ -3,10 +3,10 @@ title: Analytics Components 안내서
 description: Adobe Analytics가 제공하는 다양한 구성 요소에 대해 살펴보십시오.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 95%
 
 ---
 
@@ -27,9 +27,13 @@ Analytics 구성 요소를 사용하면 데이터 분석을 세부적으로 조�
 * **실시간 보고:** 보고서 및 트렌드를 확인할 수 있습니다.
 * **마케팅 채널:** 방문자가 사이트에 도달하는 방식을 파악하고 가장 성공적인 채널을 파악합니다.
 
-다음은 Adobe Analytics에 대한 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 개요](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 주요 Analytics 구성 요소 문서
 

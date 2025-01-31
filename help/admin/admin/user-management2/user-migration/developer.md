@@ -4,10 +4,10 @@ title: 사용자 마이그레이션의 영향을 받는 API
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 role: Admin, Developer
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 4c4e68afcf9a7e2c5cd00ef109fbbf44578a3d1a
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,6 @@ Adobe는 모든 Analytics 로그인 기업을 [!DNL my.omniture.com]에서 Adobe
 추가 정보:
 
 * [일반 사용자 관리 정보](https://helpx.adobe.com/kr/enterprise/help/users.html)
-* [adobe.io를 통한 사용자 관리 API](https://developer.adobe.com/UMAPI/)
+* [adobe.io를 통한 사용자 관리 API](https://developer.adobe.com/umapi)
 * [사용자 관리 API 포럼](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [Experience Cloud로 Analytics 사용자 액세스 및 관리 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ko-KR)

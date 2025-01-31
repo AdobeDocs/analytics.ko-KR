@@ -3,10 +3,10 @@ description: 대상자 라이브러리, Target 및 Audience Manager에서 마케
 title: Experience Cloud에 Publish 세그먼트
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 67%
+source-wordcount: '1308'
+ht-degree: 66%
 
 ---
 
@@ -16,9 +16,13 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 
 8시간 이내에 Analytics 세그먼트를 Experience Cloud에 게시할 수 있습니다. 이러한 세그먼트를 사용하여 Audience Manager의 대상자를 모든 다운스트림 대상으로 활성화합니다.
 
-자세한 내용은 다음 비디오에서 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish 세그먼트](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

@@ -5,10 +5,10 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 3903387ac6cba1ceb45e1de35fbceb259151f4f8
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 표시되는 행 수를 변경하려면:
 
-1. 표 상단의 [!UICONTROL 행] 옆에 있는 숫자를 클릭합니다.
+1. 테이블 상단의 [!UICONTROL 행] 옆에 있는 숫자를 클릭합니다.
 
    ![](assets/row-number.png)
 
@@ -37,6 +37,9 @@ ht-degree: 100%
 
 ## 비디오
 
-다음은 “행별 백분율”에 대한 짧은 비디오입니다.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23134/?quality=12)
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [행별 백분율](https://video.tv.adobe.com/v/23134?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+

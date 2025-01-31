@@ -4,18 +4,24 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
-workflow-type: ht
-source-wordcount: '1653'
-ht-degree: 100%
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 98%
 
 ---
 
 # Adobe Analytics의 랜딩 페이지
 
-Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics]&#x200B;(서비스 종료)를 [!DNL Workspace] 하의 단일 인터페이스와 액세스 포인트에 통합합니다. 여기에는 프로젝트 관리자 홈 페이지, 템플릿 섹션 및 보다 효과적으로 시작하는 데 도움이 되는 학습 섹션도 포함되어 있습니다. 다음은 비디오 개요입니다.
+Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics]&#x200B;(서비스 종료)를 [!DNL Workspace] 하의 단일 인터페이스와 액세스 포인트에 통합합니다. 여기에는 보다 효과적으로 시작하는 데 도움이 되는 프로젝트 관리자 홈 페이지, 템플릿 섹션 및 학습 섹션이 포함되어 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 랜딩 페이지](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}를 참조하세요.
+
+>[!ENDSHADEBOX]
+
+
 
 Adobe Analytics 랜딩 페이지는 프로젝트, 템플릿 및 학습 하위 탭으로 구성됩니다.
 

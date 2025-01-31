@@ -4,10 +4,10 @@ description: 여러 보고서 세트를 사용하여 작업 영역에서 프로�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 89%
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 89%
 
 * 다른 조직에 보고할 지표 및 시각화 대시보드를 작성합니다. 다양한 보고서 세트의 데이터를 동일한 프로젝트로 가져올 수 있습니다.
 
-다음은 해당 주제에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [여러 보고서 세트](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 모든 패널에 보고서 세트 적용
 

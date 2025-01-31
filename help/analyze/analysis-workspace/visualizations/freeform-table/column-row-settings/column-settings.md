@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 99%
 
 ---
 
@@ -86,6 +86,10 @@ Analysis Workspace는 거의 모든 지표에 대한 [속성](/help/analyze/anal
 
 ## 동적 열
 
-다음은 Analysis Workspace의 동적 열을 사용하는 방법에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 열](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+

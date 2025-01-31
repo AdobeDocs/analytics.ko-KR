@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 0610cb263f2c5e7cc337b9a8f8df5766736f4fb8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1153'
+ht-degree: 99%
 
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 100%
 * 최대 3개의 규칙이 허용됩니다.
 * 중첩 컨테이너 또는 순차적 규칙은 지원되지 않습니다.
 
-다음 비디오는 빠른 세그먼트를 사용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [빠른 세그먼트](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 빠른 세그먼트 만들기
 

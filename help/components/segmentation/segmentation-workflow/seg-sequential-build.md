@@ -3,10 +3,10 @@ description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 �
 title: 순차적 세그먼트 작성
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '3931'
-ht-degree: 96%
+source-wordcount: '3932'
+ht-degree: 95%
 
 ---
 
@@ -18,9 +18,13 @@ ht-degree: 96%
 
 또한 [After와 Within 연산자](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 사용하여 순차적 세그먼트를 특정한 길이의 시간, 세부기간, 체크포인트 사이의 카운트로 제한할 수도 있습니다.
 
-다음은 순차적 세그먼테이션에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [순차적 세그먼테이션](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 모든 사용자 포함 {#section_75ADDD5D41F04800A09E592BB2940B35}
 

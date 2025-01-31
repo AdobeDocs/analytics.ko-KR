@@ -4,10 +4,10 @@ title: Analysis Workspace의 지표
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 51%
+source-wordcount: '521'
+ht-degree: 50%
 
 ---
 
@@ -35,7 +35,14 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 지표는 Analysis Workspace 내에서 다양한 방식으로 사용될 수 있습니다. Analysis Workspace에 지표 및 기타 유형의 구성 요소를 추가하는 방법에 대한 자세한 내용은 [Analysis Workspace에서 구성 요소 사용](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)을 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [지표 사용](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
 
 ## 계산된 지표 만들기
 
@@ -87,4 +94,10 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 다음은 해당 주제에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [누적 평균](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+

@@ -4,10 +4,10 @@ description: 코호트 분석을 통해 대상자에 대한 데이터를 더 깊
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 86%
+source-wordcount: '590'
+ht-degree: 81%
 
 ---
 
@@ -52,9 +52,12 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 [!UICONTROL 집단 분석]은 [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Adobe Analytics 고객에 대해 사용할 수 있습니다.
 
-Analysis Workspace의 집단 테이블에 대한 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 집단 분석](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -74,9 +77,14 @@ Analysis Workspace의 집단 테이블에 대한 비디오
 
 ![](assets/retention-report.png)
 
-다음은 롤링 보존 계산에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [롤링 보존 계산](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
 
 ### [!UICONTROL 이탈 테이블]
 
@@ -84,9 +92,12 @@ Analysis Workspace의 집단 테이블에 대한 비디오
 
 ![](assets/churn-report.png)
 
-다음은 이탈 분석에 대한 비디오입니다.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [이탈 분석](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ### [!UICONTROL 순환 계산]
 

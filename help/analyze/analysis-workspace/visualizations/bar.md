@@ -5,14 +5,14 @@ uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 76%
+source-wordcount: '197'
+ht-degree: 23%
 
 ---
 
-# 막대 및 스택 막대
+# 막대 (누적)
 
 >[!BEGINSHADEBOX]
 
@@ -22,7 +22,7 @@ _이 문서는_&#x200B;의 막대 및 막대 누적 시각화에 대한 문서�
 
 막대 시각화에는 표준 및 누적 옵션이 있습니다.
 
-## 막대 {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
+## 막대 {#bar}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -33,13 +33,14 @@ _이 문서는_&#x200B;의 막대 및 막대 누적 시각화에 대한 문서�
 
 <!-- markdownlint-enable MD034 -->
 
-이 시각화는 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다.
 
-![](assets/bar.png)
+![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 세로 막대를 보여 줍니다.
 
-시각화 설정의 세부 기간 드롭다운을 사용하면 트렌드 시각화 (예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
+![페이지 보기 수, 방문 횟수, 시작 횟수 및 종료 횟수 등 여러 지표를 표시하는 가상 막대 시각화.](assets/bar.png)
 
-## 스택 막대 {#section_9EA83779AE964635907EE5031A785A49}
+시각화 설정의 세부기간 드롭다운을 사용하면 트렌드 시각화(예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
+
+## 스택 막대 {#bar-stacked}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -50,14 +51,18 @@ _이 문서는_&#x200B;의 막대 및 막대 누적 시각화에 대한 문서�
 
 <!-- markdownlint-enable MD034 -->
 
-이 시각화는 막대 그래프와 유사하지만 계열 막대가 서로의 위에 스택되어 있습니다.
 
-![](assets/bar-stacked.png)
+![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL 스택 막대]** 시각화는 막대 차트와 유사하지만 시리즈 막대가 서로 위에 스택되어 있습니다.
 
-스택 막대 시각화에 대한 새로운 시각화 설정은 차트를 &quot;100% 누적&quot; 시각화로 바꿉니다.
+![여러 지표를 표시하는 스택 막대 차트.](assets/bar-stacked.png)
 
-![](assets/stacked_100_percent.png)
+![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 설정]**&#x200B;에서 **[!UICONTROL 100% 누적]** 옵션을 사용하여 차트를 100% 누적 시각화로 만듭니다.
 
-다음은 “100% 누적 시각화”에 대한 비디오입니다.
+![100% 누적 가로 막대형 차트](assets/bar-stacked100.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
+>[!MORELIKETHIS]
+>
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

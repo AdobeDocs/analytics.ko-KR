@@ -5,10 +5,10 @@ title: 시각화 데이터 소스 관리
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: de1ddbed4d455b6d05059e367369eb575a747971
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 82%
+source-wordcount: '576'
+ht-degree: 81%
 
 ---
 
@@ -30,9 +30,13 @@ ht-degree: 82%
 
 ## 데이터 소스 설정
 
-다음은 이러한 설정에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23729/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 원본 설정](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+
 
 | 요소 | 설명 |
 | --- | --- |

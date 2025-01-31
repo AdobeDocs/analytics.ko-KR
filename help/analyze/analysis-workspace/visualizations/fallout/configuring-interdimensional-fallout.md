@@ -4,10 +4,10 @@ title: 다차원 폴아웃
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 Analysis Workspace의 폴아웃을 사용하면 단계 및 워크플로의 터치포인트로서 차원과 지표를 짜 맞출 수 있습니다. 따라서 조사할 사용자 단계를 더욱 유연하게 정의할 수 있습니다.
 
-다음은 해당 주제에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [다차원 폴아웃](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 **예**: 페이지 차원 이외에 작업 기반 차원 항목을 폴아웃 시각화에 추가할 수도 있습니다. 이렇게 하면 페이지와 특정 작업이 고객의 경로에서 어떻게 상호 작용하는지를 시각화할 수 있습니다.
 

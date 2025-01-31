@@ -4,10 +4,10 @@ title: 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 91%
+source-wordcount: '488'
+ht-degree: 81%
 
 ---
 
@@ -25,17 +25,26 @@ ht-degree: 91%
 
 ## 비디오
 
-Analysis Workspace에서 세그먼트 사용:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 세그먼트 사용](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
-세그먼트 찾기 및 만들기:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-세그먼트의 롤링 기간:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 찾기 및 만들기](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트의 롤링 기간](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+
 
 ## 세그먼트 만들기 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -47,10 +56,10 @@ Analysis Workspace에서 다음과 같이 서로 다른 유형의 세그먼트�
 ### 구성 요소 목록 세그먼트 만들기 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 구성 요소 메뉴 아래의 세그먼트 레일은 다음을 표시합니다.
-* 귀하 또는 귀사가 만든 세그먼트
-* Adobe 아이콘으로 표시되는 세그먼트 템플릿:
 
-![](assets/segment_icons.png)
+* 귀하 또는 귀사가 만든 세그먼트
+* Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 아이콘으로 표시되는 세그먼트 템플릿:
+
 
 이러한 유형의 세그먼트를 만들려면 2개의 옵션이 필요합니다. 두 옵션을 사용하면 Adobe Analytics의 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)로 이동하여 추가 지침을 확인할 수 있습니다.
 
@@ -65,7 +74,12 @@ Analysis Workspace에서 다음과 같이 서로 다른 유형의 세그먼트�
 
 ### 세그먼트를 적용하는 다른 방법 {#section_10FF2E309BA84618990EA5B473015894}
 
->[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트를 적용하는 다른 방법](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 자유 형식 프로젝트에 세그먼트를 적용하는 몇 가지 다른 방법이 있습니다.
 

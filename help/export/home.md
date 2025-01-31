@@ -3,10 +3,10 @@ title: Analytics 내보내기 안내서
 description: 이 안내서에서는 데이터 피드 및 Data Warehouse를 사용하여 Adobe Analytics에서 데이터를 가져오는 방법에 대해 설명합니다.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 62cb13c7eaa61153783ff4323180b549f727e68e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 94%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 100%
 * **데이터 웨어하우스:** 요청 마법사를 사용하여 스프레드시트의 데이터 출력을 검색합니다. 데이터 웨어하우스에서는 다른 처리 아키텍처를 사용하여 임의 개수의 행과 임의 개수의 고유한 값을 허용합니다. 데이터 웨어하우스 요청은 일반적으로 [클라우드 대상](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)으로 전송됩니다.
 * **FTP 및 SFTP:** FTP와 SFTP는 지원되지만 더 이상 권장되지 않습니다. 대신 클라우드 대상으로 데이터를 내보내십시오.
 
-다음은 Adobe Analytics에 대한 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 개요](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 주요 Analytics 내보내기 문서
 

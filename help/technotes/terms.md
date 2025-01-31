@@ -3,9 +3,9 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: cf9290d0a55704015ba1a2b6fdbdde1a724276a1
+source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2504'
 ht-degree: 98%
 
 ---
@@ -44,7 +44,9 @@ ht-degree: 98%
 * **상관 관계:** 더 이상 사용하지 않는 용어입니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 * **사용자 정의 링크:** 페이지 조회수 데이터가 아닌 데이터가 포함된 히트 유형입니다. 구현 사용 안내서에서 [s.tl () 함수](../implement/vars/functions/tl-method.md)를 참조하십시오. 히트도 참조하십시오.
 * **고객 속성:** 속성 데이터를 업로드할 수 있는 Experience Cloud 기능입니다. 핵심 서비스 사용 안내서에서 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)을 참조하십시오.
-* **고객 지원 담당자:** Adobe 고객 지원 팀과 직접 상호 작용할 수 있는 권한이 있는 지정된 사용자입니다. Experience Cloud 기술 자료에서 [고객 지원 담당자](https://helpx.adobe.com/kr/experience-cloud/supported-users.html)를 참조하십시오.
+<!-- Cannot find a link to documentation on this role 
+* **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
+-->
 * **데이터 수집 서버:** 데이터를 받고 처리하는 Adobe 소유 서버입니다. 이미지 요청은 보고에 사용하기 위해 Adobe의 데이터 수집 서버로 전송됩니다.
 * **Data Connectors:** 타사에서 Adobe Analytics으로 데이터 업로드를 자동화할 수 있는 폐기된 개발 솔루션입니다. 해당 서드파티 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. Adobe Exchange 마켓플레이스로 대체되었습니다.
 * **데이터 피드:** 모든 히트를 행으로 나열하고 변수를 별도의 열로 나열하는 원시 데이터 내보내기입니다. Adobe Analytics 데이터를 서드파티 데이터베이스로 내보내는 데 가장 일반적으로 사용됩니다. 내보내기 사용 안내서에서 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)를 참조하십시오.
@@ -68,7 +70,7 @@ ht-degree: 98%
    * 사용자 정의 트래픽 변수의 이전 이름인 사용자 정의 인사이트.
 * **KPI:** 주요 성능 표시기의 약어입니다. 비즈니스가 사이트에서 수행하는 방식을 이해하는 데 도움이 되는 지표입니다. 각 조직에는 비즈니스의 서로 다른 측면을 측정하는 다른 KPI가 있습니다. 구현 사용 안내서에서 [솔루션 디자인 문서 만들기](/help/implement/prepare/solution-design.md)를 참조하십시오.
 * **지연:** 데이터가 수집되는 시간과 보고서에서 사용할 수 있는 시간 사이의 대기 시간입니다. 보고서 세트의 일반적인 지연 시간은 30~90분입니다. 기술 정보 사용 안내서에서 [지연](/help/technotes/latency.md)을 참조하십시오.
-* **Launch:** 더 이상 사용하지 않는 용어입니다. Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 태그에 대한 구 축약 명칭입니다. Adobe Experience Platform 사용 안내서의 [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)를 참조하십시오.
+* **Launch:** 더 이상 사용하지 않는 용어입니다. Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 태그에 대한 구 축약 명칭입니다. Adobe Experience Platform 사용 안내서의 [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 참조하십시오.
 * **목록 속성:** 일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 이 설정이 활성화되면 모든 사용자 정의 트래픽 변수가 목록 속성이 될 수 있습니다. 구현 사용 안내서에서 [속성](../implement/vars/page-vars/prop.md)을 참조하십시오.
 * **목록 변수:** 전환 변수와 별도의 고유한 변수입니다. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 변수 값은 전환 변수와 마찬가지로 방문 시 보존됩니다. 조직에서는 목록 변수를 세 개만 사용할 수 있습니다. 구현 사용 안내서에서 [목록](/help/implement/vars/page-vars/list.md)을 참조하십시오.
 * **로그인 회사:** 조직에서 사용한 보고서 세트들의 모음입니다. 일부 조직에는 조직의 여러 부분에 해당되는 여러 로그인 회사가 있습니다.

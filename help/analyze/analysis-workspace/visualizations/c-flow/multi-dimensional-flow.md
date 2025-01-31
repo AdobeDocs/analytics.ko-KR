@@ -5,10 +5,10 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,13 @@ ht-degree: 100%
 
 차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다. 다음은 Analysis Workspace의 텍스트 줄바꿈 및 다차원 흐름에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 간 흐름](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+
 
 각 흐름 열의 맨 위에 있는 차원 레이블은 흐름 시각화에서 여러 차원을 더 직관적으로 사용합니다.
 

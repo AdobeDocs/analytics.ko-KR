@@ -4,10 +4,10 @@ title: 예외 항목 탐지 개요
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 100%
+source-wordcount: '1291'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,12 @@ ht-degree: 100%
 
 Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 보고 분석할 수 있습니다. 기여도 분석은 예외 항목 탐지와 함께 작동하여 예외 항목의 원인을 식별하는 데 도움을 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [예외 항목 탐지](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -47,7 +52,13 @@ Analysis Workspace의 예외 항목 탐지 알고리즘에 포함된 기능은 �
 
 기여도 분석은 사용자 데이터 안에서 숨겨진 패턴을 발견하여 통계적 예외 항목을 설명하고 전체 수렴된 대상자 세그먼트에서 선택된 지표에 대해 예상치 못한 고객 작업, 범위를 벗어나는 값, 급증 또는 급감 뒤의 상관관계를 식별합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25443/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [기여도 분석](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 어떤 일이 발생했습니다. 왜일까요? 예외 항목 탐지 보고서는 비정상적인 주문 급증을 보여 주고 사용자는 그 이유를 알고 싶어 합니다. 기준에서 벗어나 무슨 일이 생겼습니까? 어떤 캠페인 또는 참조에 누가 반응하고 있습니까? 어떤 것이 입소문이 났습니까? 이러한 예외 항목에 기여한 특정 요인은 무엇입니까? 그리고 가장 중요한 것으로 손꼽는다면 고객에 대한 중요한 정보를 어떻게 캡처하고 이 성과를 어떻게 반복할 수 있습니까? (또는 지표의 급감 또는 부정적 지표의 증가가 발생했다면 앞으로는 어떻게 이것을 피할 수 있습니까?)
 

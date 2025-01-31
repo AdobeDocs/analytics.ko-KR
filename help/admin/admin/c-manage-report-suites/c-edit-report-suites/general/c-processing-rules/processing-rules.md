@@ -5,10 +5,10 @@ title: 처리 규칙 개요
 feature: Processing Rules
 role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,14 @@ ht-degree: 100%
 * 철자가 틀린 사이트 섹션 정리
 * 쿼리 문자열에서 eVar까지의 내부 검색어 또는 캠페인 ID 가져오기
 
->[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [처리 규칙 개요](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 처리 규칙 권한 {#section_8A4846688050453784DAE4D89355169A}
 

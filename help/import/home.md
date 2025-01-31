@@ -3,16 +3,16 @@ title: Analytics 가져오기 안내서
 description: 이 안내서에서는 데이터 소스 및 데이터 삽입 API를 사용하여 Analytics로 데이터를 가져오는 방법을 설명합니다.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Analytics 가져오기 안내서
 
-![배너](../../assets/doc_banner_import.png)
+
 
 이 안내서에서는 데이터를 Analytics로 가져오는 방법을 설명합니다. 이러한 서비스에는 다음이 포함됩니다.
 
@@ -21,9 +21,14 @@ ht-degree: 100%
 * **[데이터 삽입 API](c-data-insertion-api/c-data-insertion-api.md)**: API를 통해 데이터를 Adobe의 데이터 수집으로 직접 전송합니다.
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: Adobe Analytics 보고서 세트를 보완하는 데 사용할 수 있는 최신 통합 기능을 찾아보십시오.
 
-다음은 Adobe Analytics에 대한 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 개요](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
 
 ## 기타 Analytics 사용 안내서
 

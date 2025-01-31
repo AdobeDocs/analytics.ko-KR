@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 93%
+source-wordcount: '327'
+ht-degree: 49%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 93%
 
 _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 요약 번호 및 요약 변경 시각화를 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [요약 번호 및 요약 변경](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)을 참조하세요._
 
-다음은 이들 두 시각화에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [요약 번호 및 요약 변경 시각화](https://video.tv.adobe.com/v/335564/?quality=12){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## [!UICONTROL 요약 번호] 시각화 {#summary-number}
 
@@ -31,34 +35,12 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 <!-- markdownlint-enable MD034 -->
 
-프로젝트에서 중요한 큰 숫자를 강조 표시하려면 [!UICONTROL 요약 번호] 시각화를 사용하십시오. 이 시각화는 다음과 같은 방식으로 동작합니다.
 
-* 셀을 선택하지 않은 경우 열의 합계를 선택합니다.
-* 단일 셀을 선택하면 해당 셀의 요약이 표시됩니다.
-* 두 개 이상의 셀을 선택하면 선택한 첫 번째 셀이 표시됩니다.
-* 열을 선택하면 열의 첫 번째 셀 값이 선택됩니다.
+![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL 요약 변경]** 시각화를 사용하여 두 숫자 간의 델타(변화량)를 표시합니다. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
 
-오른쪽 위에 있는 **시각화 설정** 톱니바퀴를 클릭하여 요약 번호 설정을 구성합니다.
-
-| 설정 | 정의 |
-|--- |--- |
-| [!UICONTROL 백분율] | 숫자 대신 백분율을 표시합니다. |
-| [!UICONTROL 범례 표시] | 표시된 지표에 대한 정보를 표시합니다. |
-| [!UICONTROL 값 생략] | 값들을 축약하고 소수점 이하 최대 3자리를 표시하도록 선택합니다. |
-| [!UICONTROL 다음을 기준으로 값 요약] | 선택한 데이터의 최대, 최소, 평균, 중간값 또는 합계를 표시하도록 선택합니다. |
-
-## [!UICONTROL 요약 변경] 시각화 {#summary-change}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_summarychange_button"
->title="요약 변경"
->abstract="두 숫자 사이의 델타(변경)를 보여 주는 시각화를 만듭니다."
-
-<!-- markdownlint-enable MD034 -->
-
-[!UICONTROL 요약 변경] 시각화를 사용하여 두 숫자 간의 델타(변화량)를 표시합니다. [!UICONTROL 요약 변경]의 녹색 및 빨간색 색상은 [사용자 지정 이벤트 극성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) 또는 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko-KR) 옵션을 통해 제어할 수 있습니다.
+<!--
+The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
+-->
 
 이 시각화는 다음과 같은 방식으로 동작합니다.
 
@@ -70,14 +52,20 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 * 열을 선택하면 첫 번째 값과 자신을 비교하여 0이 표시됩니다.
 
 
-![](assets/summary-change.png)
+![두 숫자 간의 델타를 보여 주는 요약 변경 시각화](assets/summary-change.png)
 
 
-오른쪽 위에 있는 **시각화 설정** 톱니바퀴를 클릭하여 요약 변경 설정을 구성합니다.
+시각화 설정의 일부로 **[!UICONTROL 요약 변경 옵션]**&#x200B;을 사용할 수 있습니다.
 
-| 설정 | 정의 |
-| --- | --- |
-| [!UICONTROL 백분율] | 숫자 대신 백분율을 표시합니다. |
-| [!UICONTROL 범례 표시] | 표시된 지표에 대한 정보를 표시합니다. |
-| [!UICONTROL 백분율 변경 표시] | 두 숫자 사이의 퍼센트 변화량을 표시합니다. |
-| [!UICONTROL 원시 차이 표시] | 두 숫자 사이의 원시 차이를 표시합니다. 이 옵션을 사용하여 값들을 축약하고 소수점 이하 최대 3자리를 표시할 수도 있습니다. |
+| 옵션 | 정의 |
+|--- |--- |
+| **[!UICONTROL 백분율 변경 표시]** | 두 숫자 사이의 퍼센트 변화량을 표시합니다. |
+| **[!UICONTROL 원시 차이 표시]** | 두 숫자 간의 원시 차이를 표시합니다. 이 옵션을 사용하여 값들을 축약하고 소수점 이하 최대 3자리를 표시할 수도 있습니다. |
+| **[!UICONTROL 값 생략]** | 변경된 값을 지능적으로 축약하려면 **[!UICONTROL 값 축약]**&#x200B;을 선택하십시오. 선택한 경우 숫자를 입력하여 약어의 양을 정의합니다. 예: <br/><table><tr><td>**원래 값**</td><td>**약어 값**</td><td>**결과**</td></tr><tr><td>US$12,011,141.25</td><td>선택되지 않음</td><td  align="right">US$12,011,141.25</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, `0`(으)로 설정됨</td><td align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td> 선택됨, `1`(으)로 설정됨</td><td  align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, `2`(으)로 설정됨</td><td align="right">1,201만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, `3`(으)로 설정됨</td><td align="right">1,201.1만달러</td></tr></table> |
+
+>[!MORELIKETHIS]
+>
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

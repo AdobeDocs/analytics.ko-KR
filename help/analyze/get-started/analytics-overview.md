@@ -4,10 +4,10 @@ short-description: 분석가, 최종 사용자 및 관리자를 위한 주요 �
 title: Adobe Analytics 개요
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,13 @@ ht-degree: 100%
 
 Adobe Analytics 기본 사항에 대해 알아보려면 이 *Adobe Analytics 소개 - 스킬 빌더 웨비나* 비디오를 참조하십시오. 이 비디오는 데이터를 캡처하는 방법, 데이터가 Adobe Analytics로 전송되는 방법 및 Adobe Analytics에서 사용할 수 있는 시각화 기능에 대한 기본 사항을 소개합니다. 이 비디오는 데이터를 빌드, 배포, 수집 및 해석할 수 있는 기반을 제공하여 수집된 데이터를 기반으로 실행 가능한 인사이트 및 권장 사항을 제공할 수 있도록 지원합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+웨비나 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 소개 - 스킬 빌더](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 사용할 도구에 대한 질문은 [어떤 Adobe Analytics 도구를 사용해야 합니까?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html)를 참조하십시오.
 

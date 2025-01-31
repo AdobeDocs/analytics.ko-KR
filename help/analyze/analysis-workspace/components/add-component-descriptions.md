@@ -4,10 +4,10 @@ title: 구성 요소 설명 추가
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,14 @@ Analytics 관리자는 보고서 세트 내에서 또는 Analysis Workspace 내�
 
 ## 보고서 세트의 구성 요소에 설명 추가
 
-다음 비디오는 보고서 세트에서 차원 및 지표 설명을 추가하는 방법에 대해 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 설명 추가](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Analysis Workspace의 구성 요소에 설명 추가(데이터 사전 사용) {#add-descriptions}
 

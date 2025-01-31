@@ -4,10 +4,10 @@ keywords: 계산된 지표;고급 계산된 지표
 title: 계산된 지표 및 고급 계산된 지표
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 54%
+source-wordcount: '552'
+ht-degree: 53%
 
 ---
 
@@ -41,14 +41,25 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 * [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]에서 지표를 만듭니다.
 * 구현을 변경하지 않고도 보고서 실행 시 파생된 세그먼트화된 지표를 만들 수 있습니다. 이러한 지표는 세그먼트를 기반으로 하므로 기록에서 볼 수 있습니다.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 * 보고서 세트 간에 지표를 공유할 수 있습니다. 이것은 새로 만들어진 모든 지표가 동일한 로그인 회사에 있는 모든 보고서 세트에 적용됨을 의미합니다.
 * (고급 계산된 지표만 해당) 지표의 세그먼트입니다. 예를 들어 첫 번째 세션에 참여한 사람의 수로, “새 방문자 수”에 대한 지표를 만들 수 있습니다.
 
 * (고급 계산된 지표만 해당) 통계 함수를 통합하여 데이터를 더 잘 설명할 수 있습니다. 예를 들어 보고서에 있는 항목의 수를 계산하거나 각 항목에 대한 표준 편차의 수를 추가할 수 있습니다.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트에서 세그먼트화된 계산된 지표](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 제한 사항 {#section_CB878B02451541D68A68B508D4DBD19A}
 

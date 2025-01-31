@@ -4,10 +4,10 @@ title: 자주 묻는 질문 및 Analysis Workspace 문제 해결
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 91%
+source-wordcount: '549'
+ht-degree: 81%
 
 ---
 
@@ -38,35 +38,51 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 +++
 
 +++Analysis Workspace의 성능을 최적화하려면 어떻게 해야 합니까?
+
 [성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)를 참조하십시오.
+
 +++
 
 +++데이터를 Analysis Workspace 프로젝트에 포함시키는 방법
-비디오 시청:
 
->[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에 데이터](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
-+++ Workspace 사용을 추적하는 방법
++++Workspace 사용을 추적하는 방법
 
-Analysis Workspace 사용 로그 추적에 대한 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [로그 추적](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
 +++지표를 드래그하면 &#39;잘못된 데이터&#39;라고 표시됩니다. 이 문제를 해결하려면 어떻게 합니까?
+
 잘못된 데이터는 Adobe가 보고서에 사용된 차원과 지표의 조합을 사용하여 데이터를 반환할 수 없음을 의미합니다. 예를 들어 서로 위에 스택된 두 개의 지표는 이런 식으로 두 개의 지표를 표시할 수 있는 방법이 없으므로 데이터로 반환되지 않습니다. 대신 지표를 나란히 배치합니다.
+
 +++
 
 +++지표를 드래그하면 실제 데이터가 표시되지 않고, 0만 표시됩니다. 이 문제를 해결하려면 어떻게 합니까?
+
 작업 영역 보고서를 생성했지만 데이터가 없다면 확인할 수 있는 몇 가지 사항이 있습니다.
 
 * 보고서 세트를 다시 확인하여 데이터가 채워져 있는지 확인하십시오.
 * 보고서에서 세그먼트를 적용했다면 세그먼트 기준이 데이터와 일치하지 않을 수 있습니다. 세그먼트를 제거하거나 세그먼트 정의를 조정해 보십시오.
 * 오른쪽 상단의 날짜 범위를 확인하고 예상한 값으로 설정되어 있는지 확인하십시오.
 * 웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)를 사용하여 데이터가 수집되고 있는지 확인하십시오.
+
+
 +++
 
 +++읽기 전용 사용자는 Analysis Workspace에서 어떤 작업을 수행할 수 있습니까?

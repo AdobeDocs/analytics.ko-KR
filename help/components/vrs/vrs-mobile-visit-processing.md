@@ -3,9 +3,9 @@ description: 가상 보고서 세트의 컨텍스트 인식 세션은 Adobe Anal
 title: 컨텍스트 인식 세션
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1577'
 ht-degree: 97%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 97%
 
 기본 데이터를 변경하지 않고 원하는 방식으로 방문을 정의하여 방문자가 디지털 환경과 상호 작용하는 방식과 일치시킬 수 있습니다.
 
-다음은 컨텍스트 인식 세션에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [컨텍스트 인식 세션](https://video.tv.adobe.com/v/iden23545tifier?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 고객 관점 URL 매개 변수
 

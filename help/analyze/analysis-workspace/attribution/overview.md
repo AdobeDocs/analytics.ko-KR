@@ -4,10 +4,10 @@ description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 91%
 
 ---
 
@@ -48,21 +48,34 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
 ## 비디오
 
-자유 양식 표의 속성:
 
->[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
+>[!BEGINSHADEBOX]
 
-계산된 지표의 속성
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 속성](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
+>[!ENDSHADEBOX]
 
-속성 패널 사용:
 
->[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+>[!BEGINSHADEBOX]
 
-속성 모델의 병렬 비교 추가
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표의 속성](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 패널 사용](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 모델 병렬 비교 추가](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 속성을 지원하지 않는 Adobe Analytics 도구
 

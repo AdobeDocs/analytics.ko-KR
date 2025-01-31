@@ -4,10 +4,10 @@ description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 �
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 64%
+source-wordcount: '637'
+ht-degree: 61%
 
 ---
 
@@ -93,13 +93,23 @@ Analysis Workspace용 모든 데이터 [내보내기 옵션](https://experiencel
 ## 비디오
 
 자유 형식 테이블 빌더 개요:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블 빌더 개요](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
-자유 형식 테이블 필터:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+>[!BEGINSHADEBOX]
 
-자유 형식 테이블 총계:
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블 필터](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블 합계](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
+

@@ -4,7 +4,7 @@ keywords: 세그먼테이션;세그먼트
 title: 세그먼트 컨테이너
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 6a36155dcd1fd06ea052783a8fd5714cd10e16ec
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '3566'
 ht-degree: 98%
@@ -44,9 +44,13 @@ ht-degree: 98%
 
 <!--![](assets/sequential_segmentation_container_hierarchy.png)-->
 
-다음은 세그먼트 컨테이너에 대한 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 방문자 컨테이너
 
@@ -455,7 +459,7 @@ Country = United States + Order = True
 
 ### 히트 컨테이너에서 보고
 
-동일한 방문 내의 모든 페이지 조회수에는 동일한 참조 도메인 값이 할당되므로 `Referring Domain equsls 'aol.com'`인 히트 컨테이너 수준에서 보고를 하면 아래 표에 나오는 모든 페이지가 반환됩니다.
+동일한 방문 내의 모든 페이지 조회수에는 동일한 참조 도메인 값이 할당되므로 `Referring Domain equsls 'aol.com'`인 히트 컨테이너 수준에서 보고를 하면 아래 테이블에 나오는 모든 페이지가 반환됩니다.
 
 | Referring Domain equals “aol.com” | 페이지 조회수 |
 |----|---:|

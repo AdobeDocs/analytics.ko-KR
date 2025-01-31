@@ -5,10 +5,10 @@ title: 차원 분류
 feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 89%
 
 ---
 
@@ -45,14 +45,25 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
 ## 비디오
 
-Analysis Workspace에서 프로젝트에 치수 및 메트릭 추가하기
 
->[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+>[!BEGINSHADEBOX]
 
-자유 양식 표에서 치수 작업하기
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 프로젝트에 차원 및 지표 추가](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+>[!ENDSHADEBOX]
 
-다음은 위치별 치수 분류에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 차원 작업](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [위치별 차원 분류](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+

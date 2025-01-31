@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 72%
+source-wordcount: '1319'
+ht-degree: 71%
 
 ---
 
@@ -40,9 +40,14 @@ Analytics 데이터 처리 중 데이터는 데이터 수집 파이프라인을 
 * **[!UICONTROL 앱 실행 시마다 새 방문 시작]:** 방문 시간 제한 외에도 비활성 창에 관계없이 Mobile SDK에서 앱 실행 이벤트가 기록될 때마다 방문이 시작되도록 할 수 있습니다. 이 설정은 eVar의 방문 만료 논리뿐 아니라 방문 지표 및 방문 세그먼트 컨테이너에도 영향을 줍니다.
 * **[!UICONTROL 이벤트로 새 방문 시작]:** 세션 시간이 초과되었는지 여부에 관계없이 이벤트가 발생하면 새 세션이 시작됩니다. 새로 생성된 세션에는 세션을 시작한 이벤트가 포함됩니다. 또한 여러 이벤트를 사용하여 세션을 시작할 수 있으며, 새 세션은 데이터에서 이러한 이벤트가 관찰되면 시작됩니다. 이 설정은 방문 카운트, 방문 세그먼테이션 컨테이너 및 eVar의 방문 만료 논리에 영향을 줍니다.
 
-다음은 이벤트로 새로운 방문 시작하기에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [이벤트로 새 방문 시작](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+
+
 
 ## 보고서 시간 처리 제한 사항
 

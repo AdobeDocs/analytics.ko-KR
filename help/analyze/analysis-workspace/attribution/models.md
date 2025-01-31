@@ -4,10 +4,10 @@ description: 다양한 유형의 속성이 차원 항목 간에 크레딧을 나
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 95%
+source-wordcount: '1603'
+ht-degree: 94%
 
 ---
 
@@ -44,9 +44,12 @@ Adobe Analytics의 속성 개념에는 두 가지 구성 요소가 필요합니�
 
 * **사용자 지정 전환 확인 기간:** 보고 날짜 범위 넘어 속성 기간을 최대 90일까지 확장할 수 있습니다. 사용자 정의 전환 확인 기간은 보고 기간의 각 변환에 대해 평가됩니다. 예를 들어, 2월 20일에 발생한 전환의 경우 10일의 전환 확인 기간은 속성 모델에서 2월 10일부터 2월 20일까지의 모든 차원 접촉점을 평가합니다.
 
-  다음은 맞춤 전환 확인 기간에 대한 비디오입니다.
+>[!BEGINSHADEBOX]
 
-  >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [사용자 지정 전환 확인 기간](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+
 
 ## 예
 

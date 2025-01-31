@@ -4,10 +4,10 @@ keywords: 클릭스트림, 데이터 피드, 데이터피드, 데이터 피드
 title: Analytics 데이터 피드 개요
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 86%
+source-wordcount: '306'
+ht-degree: 79%
 
 ---
 
@@ -33,10 +33,17 @@ ht-degree: 86%
 * [데이터 피드 관리](df-manage-feeds.md): 데이터 피드 인터페이스 탐색에 대한 자세한 정보
 * [데이터 피드 내용](c-df-contents/datafeeds-contents.md): 압축된 파일 <!-- Is this still the output users can download from the destination? I aske Jun. -->의 내용을 이해합니다.
 * [데이터 열 정의](c-df-contents/datafeeds-reference.md): 사용 가능한 모든 열의 포괄적인 목록.
-* 데이터 피드 인터페이스를 탐색하는 비디오:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-* 데이터 피드 ID 찾는 방법에 대한 비디오
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 인터페이스 탐색](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+>[!ENDSHADEBOX]
+
+
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 ID 찾기](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]

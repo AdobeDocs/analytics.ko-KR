@@ -3,10 +3,10 @@ description: 개별 지표에 대한 세그먼트화는 동일한 보고서 내�
 title: 세그먼트화된 지표
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 69%
+source-wordcount: '477'
+ht-degree: 68%
 
 ---
 
@@ -54,9 +54,13 @@ ht-degree: 69%
 
    ![](assets/workspace-pages.png)
 
-다음은 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트화된 지표](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 총 지표의 백분율 {#percent-total}
 

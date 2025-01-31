@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 93%
+source-wordcount: '348'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,13 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 * 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치 분석
 * 선택한 경로에서 특정 지점을 지정하여 세그먼트 생성
 
-다음은 플로우 시각화 비디오 튜토리얼입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [흐름 시각화](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 차원 간 플로우 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -61,6 +65,13 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 플로우 다이어그램은 **[!UICONTROL 프로젝트]**> **[!UICONTROL CSV 다운로드]**&#x200B;로 이동하여 만들 수 있는 프로젝트 .CSV 파일의 일부입니다. 이를 통해 Microsoft Excel (테이블로 시각화됨) 또는 다른 곳에서 플로우 결과를 분석할 수 있습니다.
 
-## 플로우 시각화 확장
 
->[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
+## 추가 기능
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [흐름 시각화의 추가 기능](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+

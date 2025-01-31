@@ -4,10 +4,10 @@ title: 차원 시간 분할
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 96%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 시간 분할은 수집한 히트의 타임스탬프를 가져와서 &quot;시간&quot; 또는 &quot;요일&quot;과 같은 더 의미 있는 차원으로 나눕니다.
 
-다음은 시간 분할 차원에 대한 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시간=분할 차원](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 시간 분할 차원은 보고서 세트 또는 가상 보고서 세트의 시간대를 기반으로 합니다. 이러한 차원은 Analysis Workspace에서 사용할 수 있으며, 다음 질문에 대한 답변을 제공하는 데 도움을 줄 수 있습니다.
 

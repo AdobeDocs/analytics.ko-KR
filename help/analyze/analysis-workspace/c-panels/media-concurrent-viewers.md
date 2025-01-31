@@ -4,9 +4,9 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1238'
 ht-degree: 47%
 
 ---
@@ -54,11 +54,13 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 Analysis Workspace에서 동시 뷰어 지표는 세션 수에 관계없이 특정 시점에 미디어 스트림을 보는 고유한 사용자의 수입니다.
 
 
-+++ 이 기능에 대한 비디오 데모를 봅니다.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
-+++
+>[!ENDSHADEBOX]
+
+
 
 ## 사용
 

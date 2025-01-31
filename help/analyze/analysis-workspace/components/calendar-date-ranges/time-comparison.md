@@ -4,10 +4,10 @@ title: 날짜 비교
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 57%
+source-wordcount: '747'
+ht-degree: 56%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 57%
 
 Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 
-다음은 해당 주제에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [날짜 비교](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
 
 ## 기간 비교 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 

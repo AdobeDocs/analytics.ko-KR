@@ -3,10 +3,10 @@ description: 코드 변경을 추적할 때마다 분류를 유지 관리하고 
 title: 분류 규칙 빌더 워크플로
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 99%
+source-wordcount: '573'
+ht-degree: 97%
 
 ---
 
@@ -14,9 +14,13 @@ ht-degree: 99%
 
 코드 변경을 추적할 때마다 분류를 유지 관리하고 업로드하는 대신 규칙 기반의 자동 분류를 만들어 여러 보고서 세트에 적용할 수 있습니다. 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
 
-다음은 분류 규칙 빌더에 대한 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25884/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [분류 규칙 빌더](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 시작하기 전 중요 유의 사항
 

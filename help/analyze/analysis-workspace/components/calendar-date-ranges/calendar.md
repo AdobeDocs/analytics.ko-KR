@@ -4,10 +4,10 @@ title: 캘린더 및 날짜 범위 개요
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 91%
+source-wordcount: '942'
+ht-degree: 90%
 
 ---
 
@@ -25,11 +25,15 @@ ht-degree: 91%
 
 캘린더에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
 
-다음은 Analysis Workspace에서 날짜 범위 및 달력 사용하기에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
+>[!BEGINSHADEBOX]
 
-달력 선택 사항은 패널 수준에서 적용되지만, 모든 패널에 적용할 수 있는 옵션도 있습니다. 작업 영역에서 날짜 범위를 클릭하면 인터페이스에 현재 캘린더 월과 이전 캘린더 월이 표시됩니다. 각 상단 모서리에서 오른쪽 및 왼쪽 화살표를 클릭하여 이러한 두 개의 캘린더를 조정할 수 있습니다.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [일정 및 날짜 범위 개요](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
+캘린더 선택 사항은 패널 수준에서 적용되지만, 모든 패널에 적용할 수 있는 옵션도 있습니다. 작업 영역에서 날짜 범위를 클릭하면 인터페이스에 현재 캘린더 월과 이전 캘린더 월이 표시됩니다. 각 상단 모서리에서 오른쪽 및 왼쪽 화살표를 클릭하여 이러한 두 개의 캘린더를 조정할 수 있습니다.
 
 ![캘린더](assets/aw_calendar2.png){width="60%"}
 

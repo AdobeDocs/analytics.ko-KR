@@ -4,10 +4,10 @@ title: 모바일 스코어카드 만들기 및 공유
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 81%
+source-wordcount: '2524'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,13 @@ ht-degree: 81%
 
 다음 정보는 Adobe Analytics 큐레이터에게 경영진 사용자의 모바일 스코어카드를 구성하고 제공하는 방법에 대해 알려 줍니다. 시작하기 위해 Adobe Analytics 대시보드 스코어카드 빌더 비디오를 볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아웃에 경영진 사용자에 대한 주요 데이터 시각화를 표시합니다.
 
@@ -121,9 +127,13 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 ## 시각화 적용 {#viz}
 
-모바일 스코어카드용 시각화에 대한 비디오 보기:
 
->[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력을 제공하는 네 가지 시각화를 제공합니다. 타일 [!UICONTROL 속성]의 [!UICONTROL 차트 유형]을 변경하여 다른 시각화로 변경할 수 있습니다. 오른쪽 타일을 선택한 다음 차트 유형을 변경하기만 하면 됩니다.
 
@@ -193,7 +203,13 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 사용자 정의 세부 슬라이드를 사용하면 대상자와 공유하는 정보에 대해 훨씬 더 정확하게 지정할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [사용자 지정 세부 정보 보기](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 각 세부 슬라이드의 레이아웃을 수정하고 텍스트를 추가하여 최종 사용자가 데이터에서 볼 수 있는 내용을 더 잘 설명할 수 있습니다. 드롭다운 메뉴를 사용하여 차트 유형을 변경할 수도 있습니다.
 
@@ -229,9 +245,12 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 예를 들어 웹 트래픽에 초점을 맞추는 경우 가장 중요한 지표는 방문수일 수 있지만 신규 방문자, 고유 방문자에도 관심이 있을 수 있으며 웹 페이지 또는 트래픽이 발생한 디바이스 유형별로 분류된 데이터를 보고 싶을 수 있습니다. 모바일 스코어카드 프로젝트에서 데이터 스토리를 사용하면 가장 중요한 지표를 전면 중앙에 배치하는 동시에 여러 세부 슬라이드로 지표에 담겨 있는 전체 스토리를 전달할 수 있습니다.
 
-Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스토리를 만드는 방법에 대해 자세히 알아보려면 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 **데이터 스토리를 만들려면**
 

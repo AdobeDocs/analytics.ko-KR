@@ -3,9 +3,9 @@ title: 데이터 피드 관리
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다. 데이터 피드를 만들고, 편집하고, 보는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1173'
 ht-degree: 26%
 
 ---
@@ -14,11 +14,13 @@ ht-degree: 26%
 
 데이터 피드 관리자는 조직의 데이터 피드를 생성, 편집 및 삭제할 수 있도록 해 줍니다. 데이터 피드 관리자에 액세스할 수 있는 권한이 있으면 표시되는 모든 보고서 세트에 대한 데이터 피드를 관리할 수 있습니다.
 
-+++데이터 피드 관리에 대한 비디오 보기.
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 데이터 피드 보기
 

@@ -5,10 +5,10 @@ title: 보기 전용 프로젝트
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 100%
 
 ![](assets/view-only-project.png)
 
-다음은 보기 전용 프로젝트에 대한 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [보기 전용 프로젝트](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 비활성화된 상호 작용
 

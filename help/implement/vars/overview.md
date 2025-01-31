@@ -5,10 +5,10 @@ keywords: appmeasurement, 변수, vars, 구성, 페이지, 구현
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 69%
+source-wordcount: '385'
+ht-degree: 67%
 
 ---
 
@@ -24,9 +24,13 @@ Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니�
 
 Adobe에서는 Adobe Analytics를 구현하는 방법을 여러 가지 제공합니다. 각 페이지에는 Web SDK, Adobe Analytics 확장 기능 및 JavaScript용 AppMeasurement을 사용하여 변수를 구현하는 방법에 대한 섹션이 있습니다.
 
-다음은 Adobe Analytics에서의 변수 구성에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [변수 구성](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 작업 순서
 

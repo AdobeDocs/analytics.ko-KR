@@ -4,9 +4,9 @@ title: A4T (Analytics for Target) 패널
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1130'
 ht-degree: 47%
 
 ---
@@ -39,11 +39,12 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 Analytics for Target 패널을 사용하면 Analysis Workspace에서 Adobe Target 활동 및 경험을 분석할 수 있습니다. 또한 패널을 통해 최대 3개의 성공 지표에 대한 상승도 및 신뢰도를 확인할 수 있습니다. Analytics for Target 패널에 액세스하려면 Analytics for Target 구성 요소가 활성화된 보고서 세트로 이동합니다. 그런 다음 맨 왼쪽에 있는 패널 아이콘을 선택하고 Analytics for Target 패널을 Analysis Workspace 프로젝트로 드래그합니다.
 
-+++다음은 Analytics for Target 패널에 대한 짧은 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target 패널](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ## 사용
 

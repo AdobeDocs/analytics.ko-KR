@@ -4,10 +4,10 @@ description: Analysis Workspace는 Adobe Analytics를 위한 최고의 분석 �
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 98%
 
 ---
 
@@ -17,11 +17,16 @@ Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이
 
 다음 비디오는 가능한 예와 함께 간략한 개요를 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ## Analysis Workspace의 영역
 
-다음 이미지와 함께 제공되는 표는 Analysis Workspace의 일부 주요 영역을 설명합니다.
+다음 이미지와 함께 제공되는 테이블은 Analysis Workspace의 일부 주요 영역을 설명합니다.
 
 ![Analysis Workspace 개요](assets/analysis-workspace-overvew.png)
 
@@ -38,7 +43,7 @@ Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이
 
 ### 패널
 
-**패널**&#x200B;은 프로젝트 내에서 분석을 구성하는 데 사용되며 많은 표와 시각화를 포함할 수 있습니다. Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다. 맨 왼쪽 레일에서 맨 위의 **[!UICONTROL 패널]** 아이콘을 선택하여 사용 가능한 패널의 전체 목록을 확인합니다.
+**패널**&#x200B;은 프로젝트 내에서 분석을 구성하는 데 사용되며 많은 테이블과 시각화를 포함할 수 있습니다. Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다. 맨 왼쪽 레일에서 맨 위의 **[!UICONTROL 패널]** 아이콘을 선택하여 사용 가능한 패널의 전체 목록을 확인합니다.
 
 패널에 대한 자세한 내용은 [패널 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko)를 참조하십시오.
 

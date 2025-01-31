@@ -3,10 +3,10 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: ht
-source-wordcount: '1220'
-ht-degree: 100%
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+workflow-type: tm+mt
+source-wordcount: '1219'
+ht-degree: 99%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 100%
 
 Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 비교](/help/analyze/get-started/analytics-product-comparison.md)를 참조하십시오.
 
-다음은 Adobe Analytics 도구를 비교하는 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [도구 비교](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## Adobe Analytics 보고 사용자 인터페이스 {#user-interfaces}
 
@@ -86,7 +90,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**&#x200B;는 다음 경우에 사용합니다.
 
 * UI에 숨겨진 변수에 액세스 - IP 주소, Experience Cloud ID, Analytics 방문자 ID, 페이지 URL)
-* UI보다 세부적인 데이터에 액세스 (비정규화된 표 보기)
+* UI보다 세부적인 데이터에 액세스 (비정규화된 테이블 보기)
 * 피벗 테이블 입력에 적합한 형식으로 데이터 다운로드
 * 클라이언트에서 Adobe 데이터를 서드파티 데이터 시각화 도구에 입력하려는 경우 (히트 수준은 아니며 약간 요약됨)
 * Adobe Analytics에서 “낮은 트래픽”으로 실행 중인 경우 모든 고유 차원 항목에 액세스

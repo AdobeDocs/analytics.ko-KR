@@ -4,10 +4,10 @@ description: 다음 단계에 따라 구현 오류를 방지하고 KPI를 관리
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 70%
+source-wordcount: '499'
+ht-degree: 68%
 
 ---
 
@@ -44,4 +44,11 @@ ht-degree: 70%
 
 *바쁜 일정에 맞게 구현을 검토할 수 있는 자연스러운 시간에 관하여 Adobe Analytics 챔피언 사라 오웬이 제공한 2분 비디오를 감상하십시오.*
 
->[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구현 검토](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+

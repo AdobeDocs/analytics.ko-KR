@@ -5,10 +5,10 @@ title: 프로젝트 구성
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 98%
 
 ---
 
@@ -19,9 +19,13 @@ ht-degree: 100%
 >[!NOTE]
 > 제품 프로필은 사용자가 볼 수 있는 구성 요소를 관리하는 기본 메커니즘으로, Adobe Experience Cloud Admin Console을 통해 관리됩니다. 큐레이션은 보조 필터입니다.
 
-다음은 프로젝트 큐레이션 및 공유에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 조정](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## 프로젝트 조정 적용
 
@@ -65,7 +69,7 @@ ht-degree: 100%
 * 적용된 조정 유형(가상 보고서 세트 또는 프로젝트)
 * 사용자가 소유하거나 공유하는 구성 요소. 소유/공유 구성 요소에는 세그먼트, 계산된 지표 및 날짜 범위가 포함됩니다. eVar, props 및 사용자 정의 이벤트와 같은 구현된 구성 요소는 포함되지 않습니다.
 
-참고: 관리자가 아닌 보기 역할은 프로젝트의 왼쪽 레일에 대한 액세스 권한이 없으므로 아래 표에서 생략되었습니다.
+참고: 관리자가 아닌 보기 역할은 프로젝트의 왼쪽 레일에 대한 액세스 권한이 없으므로 아래 테이블에서 생략되었습니다.
 
 | 큐레이션 유형 | 관리자 | 관리자가 아닌 프로젝트 소유자 또는 역할 편집 | 관리자가 아닌 중복 역할 |
 |---|---|---|---|

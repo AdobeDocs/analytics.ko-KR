@@ -5,10 +5,10 @@ keywords: Analysis Workspace;세그먼트 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 38%
+source-wordcount: '593'
+ht-degree: 37%
 
 ---
 
@@ -39,11 +39,14 @@ _이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adob
 
 세그먼트 비교 패널은 세그먼트들 (개수 제한 없음) 간의 통계적으로 가장 중요한 차이를 알아내는 [세그먼트 IQ](../../segment-iq.md)의 도구 부분입니다. 이 기능은 액세스 권한이 있는 모든 차원 및 지표에 대한 자동화된 분석을 반복합니다. 또한 회사 KPI를 구동하는 대상자 세그먼트의 주요 특성을 자동으로 파악하고 세그먼트들이 얼마나 많이 겹치는지도 확인할 수 있도록 합니다.
 
-+++ 다음은 구성 요소 비교에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+
 
 ## 사용
 

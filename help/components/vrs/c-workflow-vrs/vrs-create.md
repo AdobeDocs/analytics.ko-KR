@@ -4,10 +4,10 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트 만들기
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 64%
+source-wordcount: '675'
+ht-degree: 62%
 
 ---
 
@@ -43,9 +43,12 @@ ht-degree: 64%
 
 ![](assets/visit-definition.png)
 
-다음은 가상 보고서 세트에서 방문 정의를 조정하는 방법에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [방문 정의 조정](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 | 요소 | 설명 |
 | --- |--- |

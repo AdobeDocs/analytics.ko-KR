@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Audience Analytics 개요
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '478'
 ht-degree: 42%
 
 ---
@@ -17,7 +17,13 @@ Adobe Audience Manager(Adobe Audience Manager)는 퍼스트 파티, 세컨드 �
 
 Audience Analytics 통합이 제대로 이루어지면 인구 통계학적 정보 (예: 성별 또는 수입 수준), 대상 데이터 (예: 인구 통계 정보), 사이코그래프 정보 (예: 관심사 및 취미), CRM 데이터 및 광고 노출 데이터와 같은 Adobe Audience Manager 대상 데이터를 Analytics 워크플로에 통합할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+
 
 ## 주요 이점 {#benefits}
 

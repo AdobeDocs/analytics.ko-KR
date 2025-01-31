@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1929'
-ht-degree: 100%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -30,9 +30,13 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 공유 전 적용한 모든 [조정](curate.md) 기능은 수신자가 프로젝트를 열 때 반영됩니다.
 
-다음은 프로젝트 공유에 대한 비디오 개요입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 공유](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 
 ## 조직의 Analysis Workspace 사용자 및 그룹과 공유 {#Add}
@@ -96,7 +100,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
    또는
 
-   **[!UICONTROL 조정 및 공유]**&#x200B;를 선택하여 프로젝트 조정을 자동으로 적용합니다. (프로젝트가 이미 공유된 경우 **[!UICONTROL 조정 및 업데이트]**&#x200B;를 선택합니다.) [프로젝트 조정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ko-KR)에 대한 자세한 내용을 살펴보십시오.
+   **[!UICONTROL 조정 및 공유]**&#x200B;를 선택하여 프로젝트 조정을 자동으로 적용합니다. (프로젝트가 이미 공유된 경우 **[!UICONTROL 조정 및 업데이트]**&#x200B;를 선택하십시오.) [프로젝트 조정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ko-KR)에 대해 자세히 알아보세요.
 
 ## 프로젝트에 대한 링크 공유
 
@@ -138,9 +142,13 @@ Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace �
 >
 >* 많은 사용자가 동시에 특정 링크에 액세스하려고 하면 프로젝트에 액세스하는 것이 불가능할 수 있습니다. 기본적으로 190명 이상의 사용자가 5분마다 단일 링크에 액세스할 수 있습니다. 조직이 이 제한에 도달하면 5분 동안 기다린 후 링크에 다시 액세스해 보십시오.
 
-다음 비디오 데모 및 관련 문서에서는 모두와 링크를 공유하는 것과 관련된 옵션을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모든 사람과 링크 공유](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"}를 참조하세요.
+
+>[!ENDSHADEBOX]
+
 
 Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로젝트를 공유하려면 다음과 같이 하십시오.
 
@@ -188,9 +196,14 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
 
 ## 임베드된 구성 요소 공유
 
-다음은 해당 주제에 대한 비디오입니다.
+프로젝트의 일부인 임베드된 구성 요소를 공유할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [포함된 구성 요소 공유](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 ## FAQ {#FAQs}
 

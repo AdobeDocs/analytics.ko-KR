@@ -4,9 +4,9 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1160'
 ht-degree: 56%
 
 ---
@@ -57,11 +57,11 @@ Analysis Workspace에서 재생 소요 시간은 특정 시점에 미디어 스�
 
 * 드롭오프가 발생한 위치
 
-+++ 이 기능에 대한 비디오 데모를 봅니다.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 재생 소요 시간 패널](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
-+++
+>[!ENDSHADEBOX]
 
 ## 사용
 

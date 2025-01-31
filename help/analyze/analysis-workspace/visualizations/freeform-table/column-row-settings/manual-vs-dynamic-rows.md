@@ -4,10 +4,10 @@ description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상�
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 90%
+source-wordcount: '520'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 차원을 자유 형식 테이블에 놓으면 동적 행이 반환됩니다. 이 행은 지정된 지표 및 기간에 대한 차원에 해당하는 상위 항목을 나타냅니다. 차원을 자유 형식 테이블 열에 놓을 수도 있으며 이 차원은 상위 5개 차원 항목으로 자동으로 확장됩니다.
 
-예를 들어 브라우저 유형 차원을 테이블로 드래그하면 상위 브라우저 유형 차원 항목 (예: Microsoft, Apple, Google 등)이 동적으로 테이블 행에 반환됩니다. 열에 놓으면 상위 5개의 브라우저 유형 차원 항목이 동적으로 반환됩니다.
+예를 들어 브라우저 유형 차원을 테이블로 드래그하면 상위 브라우저 유형 차원 항목 (예: Microsoft, Apple, Google 등)이 동적으로 테이블 행으로 돌아갑니다. 열에 놓으면 상위 5개의 브라우저 유형 차원 항목이 동적으로 반환됩니다.
 
 동적 차원 항목에는 행 필터 옵션과 X 아이콘이 있으며 **아님**&#x200B;에 잠금 아이콘이 있습니다. <!--do they have the lock icon? --> 동적 차원 항목 옆에 있는 x를 클릭하면 필터가 자동으로 적용됩니다. 표에 필터를 적용하는 방법에 대한 자세한 내용은 [표 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)을 참조하세요.
 
@@ -57,6 +57,11 @@ ht-degree: 90%
 
 ## 정적 행 순서 바꾸기
 
-다음은 해당 주제에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [정적 행 순서 바꾸기](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
+

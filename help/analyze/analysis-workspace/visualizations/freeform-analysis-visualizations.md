@@ -5,16 +5,16 @@ title: 시각화 개요
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 85%
+source-wordcount: '1457'
+ht-degree: 37%
 
 ---
 
 # 시각화 개요
 
-작업 영역에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해 주는 다양한 시각화를 제공합니다. Adobe Analytics를 사용하는 경우 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
+작업 영역에서는 막대 그래프, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해 주는 다양한 시각화를 제공합니다. Adobe Analytics를 사용하는 경우 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
 
 ## 시각화 유형
 
@@ -33,7 +33,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![막대 그래프 아이콘](assets/Smock_GraphHistogram_18_N.svg)</p> | 히스토그램은 지표 볼륨을 기반으로 방문자, 방문 또는 히트를 버킷으로 버킷화합니다. |
 | [가로 막대형](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![가로 막대 아이콘](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
 | [주요 지표 요약](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![주요 지표 아이콘](assets/key-metric-icon.png)</p> | 단일 기간 내에서 지표의 추세를 보여주거나 두 기간 동안의 지표 성능을 비교할 수 있도록 해줍니다. |
-| [라인](/help/analyze/analysis-workspace/visualizations/line.md)<p>![줄 아이콘](assets/Smock_GraphTrend_18_N.svg)</p> | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
+| [Line](/help/analyze/analysis-workspace/visualizations/line.md)<p>![줄 아이콘](assets/Smock_GraphTrend_18_N.svg)</p> | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
 | [맵](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![맵 아이콘](assets/map-icon.png)</p> | 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있도록 해 줍니다. |
 | [산포도](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![산포도 아이콘](assets/Smock_GraphScatter_18_N.svg)</p> | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
 | [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![요약 번호 아이콘](assets/summary-number-icon.png)</p> | 선택한 셀을 1개의 큰 숫자로 표시합니다. |
@@ -48,58 +48,23 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 1. 시각화를 추가하려면 다음 방법 중 하나를 사용하십시오.
 
-   * 왼쪽 레일에서 **시각화** 아이콘 <!-- add icon -->을(를) 선택한 다음 시각화를 추가할 패널로 드래그합니다.
+   ![시각화 추가](assets/add-visualization.png)
 
-     ![](assets/viz-rail.png)
+   * 왼쪽 패널에서 ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **시각화**&#x200B;를 선택한 다음 시각화를 추가할 패널로 시각화를 드래그합니다.
 
-   * 시각화를 추가할 패널에서 **더하기** 아이콘을 선택한 다음 추가할 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가 이름을 확인합니다.
+   * 시각화를 추가할 패널에서 ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택한 다음 추가할 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가 이름을 확인합니다.
 
-     ![시각화 추가 단추](assets/visualization-add-to-panel.png)
+   * [빈 패널](/help/analyze/analysis-workspace/c-panels/blank-panel.md)을 추가한 다음 추가할 시각화를 선택합니다.
 
-   * [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)을 추가한 다음 추가할 시각화를 선택하십시오.
+   * Analysis Workspace 프로젝트에 있는 기존 시각화의 컨텍스트 메뉴에서 **[!UICONTROL 시각화 복제]** 또는 **[!UICONTROL 시각화 복사]**&#x200B;를 선택합니다.
 
-     ![빈 패널](assets/blank_panel.png)
+   * Workspace **[!UICONTROL 삽입]** 메뉴를 사용하여 시각화를 삽입합니다.
 
-   * Analysis Workspace 프로젝트에서 기존 패널을 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL **시각화 복제**] 또는 [!UICONTROL **시각화 복사**]&#x200B;를 선택합니다.
+   * 자유 형식 테이블의 컨텍스트 메뉴에서 **[!UICONTROL 시각화]**&#x200B;를 선택합니다. 그런 다음 하위 메뉴에서 시각화를 선택합니다. Workspace은 테이블에서 현재 선택한 항목에 따라 제공할 시각화를 결정하고 데이터를 해석하여 요청된 시각화를 구축합니다.
 
-## 시각화 설정 맞춤화
+## 범례
 
-개별 시각화 또는 만든 모든 시각화에 대한 시각화 설정을 사용자 정의할 수 있습니다.
-
-### 단일 시각화에 대한 시각화 설정 사용자 정의
-
-개별 시각화에 대한 [!UICONTROL 시각화 설정]에 액세스하는 경우:
-
-1. Analysis Workspace에서 사용자 정의할 시각화 설정 위로 마우스를 가져갑니다.
-
-1. 톱니바퀴 아이콘을 클릭합니다.
-
-   각 시각화 유형에는 사용자 정의할 수 있는 고유 설정이 있습니다. 사용 가능한 설정에 대한 자세한 내용은 [설정](#settings)을 참조하십시오.
-
-### 만든 모든 시각화에 대한 시각화 설정 사용자 정의
-
-생성한 모든 시각화에 대한 설정을 사용자 정의할 수 있습니다. 자세한 내용은 [사용자 환경 설정](/help/analyze/analysis-workspace/user-preferences.md)을 참조하십시오.
-
-## 설정 {#settings}
-
-![](assets/settings.png)
-
-| 설정 | 설명 |
-| --- | --- |
-| 시각화 유형 | 데이터를 묘사하는 데 사용되는 시각 자료 유형을 변경합니다. |
-| 세부 기간 | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 이 드롭다운 목록에서 다음을 수행합니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
-| 백분율 | 값을 백분율로 표시합니다. |
-| 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. 예: ![스택 100%](assets/stacked_100_percent.png) |
-| 범례 표시 | 요약 번호/요약 변경 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
-| 최대 항목 수 제한 | 시각화에 표시되는 항목 수를 제한할 수 있습니다. |
-| Y축 0에 연결 | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
-| 표준화 | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
-| 이중 축 표시 | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
-| 예외 항목 표시 | 예외 항목 탐지를 표시하여 선 그래프 및 자유 형식 테이블을 향상시킵니다. 선 시각화의 예외 항목 탐지에는 예상 값(파선)과 예상 범위(음영 처리된 띠)가 포함됩니다. |
-
-## 범례 {#legend}
-
-시각화 범례를 사용하면 소스 테이블의 날짜를 시각화에 그려진 시리즈와 연결할 수 있습니다. 범례는 대화형입니다. 범례 항목을 클릭하여 시각화에서 시리즈를 표시하거나 숨길 수 있습니다. 시각화되는 데이터를 단순화하려는 경우 유용합니다.
+시각화 범례를 사용하면 소스 테이블의 날짜를 시각화에 그려진 시리즈와 연결할 수 있습니다. 범례는 대화형입니다. 시각화에서 시리즈를 표시하거나 숨길 범례 항목을 선택할 수 있습니다. 이는 시각화되는 데이터를 단순화하려는 경우 유용합니다.
 
 또한 시각적 오브젝트를 보다 쉽게 사용할 수 있도록 범례 레이블의 이름을 바꿀 수 있습니다. 참고: 트리맵, 글머리 기호, 요약 변경 사항 또는 숫자, 텍스트, 자유 형식, 히스토그램, 집단 또는 플로우 시각화에는 범례 편집이 적용되지 **않습니다**.
 
@@ -108,36 +73,136 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 1. 범례 레이블 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 1. **[!UICONTROL 레이블 편집을 클릭합니다]**.
 
-   ![](assets/edit-label.png)
+   ![범례 레이블 및 레이블 편집 옵션입니다.](assets/edit-label.png)
 
 1. 새 레이블 텍스트를 입력합니다.
 1. **[!UICONTROL Enter]**&#x200B;를 눌러 저장합니다.
 
-## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
 
-시각화 헤더를 마우스 오른쪽 버튼으로 클릭하면 시각화를 위한 추가 기능을 사용할 수 있습니다. 설정은 시각화에 따라 다릅니다. 사용 가능한 일부 설정은 다음과 같습니다.
+
+### 설정
+
+사용할 수 있는 시각화 설정은 시각화에 따라 다릅니다. 아래 표는 가장 일반적인 설정을 요약합니다. 일부 시각화에는 특정 설정이 있습니다. 자세한 내용은 개별 시각화 설명서 를 참조하십시오.
+
+| 옵션 | 설명 |
+| --- | --- |
+| **[!UICONTROL 시각화 유형]** | 데이터를 시각화하는 데 사용되는 시각화 유형을 변경합니다. |
+| **[!UICONTROL 세부 기간]** | 트렌드 시각화의 시간 세부기간을 변경합니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
+| **[!UICONTROL 백분율]** | 값을 백분율로 표시합니다. |
+| **[!UICONTROL 100% 스택]** | 차트를 100% 누적 시각화로 전환합니다.  영역, 막대 및 가로 막대형 스택 시각화에만 적용할 수 있습니다. |
+| **[!UICONTROL 범례 표시]** | 범례 텍스트를 표시합니다. |
+| **[!UICONTROL 최대 항목 수 제한]** | 시각화에 표시되는 항목 수를 제한합니다. 선택한 경우 최대 항목 수를 정의합니다. |
+| **[!UICONTROL 주석 표시]** | 이 시각화에 대해 만들어진 주석을 표시합니다. |
+| **[!UICONTROL 제목 숨기기]** | 시각화의 제목을 숨깁니다. |
+| **[!UICONTROL Y축을 0에 고정]** | y축의 아래쪽을 0으로 강제 적용합니다. 차트에 그려진 모든 값이 0보다 상당히 높은 경우 차트 기본값은 y축의 하단을 0이 아닌 값으로 만듭니다. 이 옵션을 활성화하면 y축이 0이 되고 차트가 다시 그려집니다. |
+| **[!UICONTROL 이중 축 표시]** | 서로 다른 두 지표에 대해 왼쪽 및 오른쪽 y축을 표시합니다. 이 옵션은 지표가 두 개인 경우에만 적용됩니다. 이중 축은 그려진 지표의 크기가 다른 경우에 유용합니다. |
+| **[!UICONTROL X축 표시]** | 시각화에 x축을 표시합니다. |
+| **[!UICONTROL Y축 표시]** | 시각화에 y축을 표시합니다. |
+| **[!UICONTROL 선에 바벨 표시]** | 콤보 차트 시각화에 선 시각화에 바벨을 표시합니다. |
+| **[!UICONTROL 표준화]** | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 서로 다른 경우 동일한 비율이 유용합니다. |
+| **[!UICONTROL 예외 항목 표시]** | 예외 항목 탐지를 표시하여 선 그래프 및 자유 형식 테이블을 향상시킵니다. 선 시각화의 예외 항목 탐지에는 예상 값(파선)과 예상 범위(음영 처리된 띠)가 포함됩니다. |
+| **[!UICONTROL 예측 표시]** | 예측 값을 표시하여 선 그래프 및 자유 형식 테이블을 향상시킵니다. |
+| **[!UICONTROL 최소값 표시]** | 시각화에 최소값을 표시합니다. |
+| **[!UICONTROL 최대 표시]** | 시각화에 최대 값을 표시합니다. |
+| **[!UICONTROL 추세선 표시]** | 시각화에 추세선을 표시합니다. 선택하면 드롭다운 메뉴에서 추세선 유형을 선택할 수 있습니다. |
+
+사용자가 만드는 모든 시각화에 대한 설정을 사용자 지정할 수 있습니다. 자세한 내용은 [사용자 환경 설정](/help/analyze/analysis-workspace/user-preferences.md)을 참조하십시오.
+
+
+## 컨텍스트 메뉴 {#right-click}
+
+시각화 헤더의 컨텍스트 메뉴(마우스 사용 시 마우스 오른쪽 버튼 클릭)를 사용하여 시각화에 대한 추가 기능에 액세스합니다. 일부 옵션은 모든 시각화에 사용할 수 없습니다.
+
+![마우스 오른쪽 단추 클릭 옵션이 표시된 추가 시각화 설정입니다. 옵션은 다음 섹션에 설명되어 있습니다.](assets/right-click.png)
+
+| 옵션 | 설명 |
+| --- | --- |
+| **[!UICONTROL 복사된 시각화 삽입]** | 복사한 시각화를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣기(삽입)합니다. |
+| **[!UICONTROL 클립보드에 데이터 복사]** | 시각화에서 클립보드로 데이터를 복사합니다. |
+| **[!UICONTROL 선택 항목을 클립보드에 복사]** | 시각화에서 클립보드로 선택 항목을 복사합니다. |
+| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 장치에 다운로드합니다. 선택한 차원에 대한 최대 50,000개의 차원 항목. |
+| **[!UICONTROL 시각화 복사]** | 시각화를 복사하여 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 시각화를 삽입할 수 있습니다. |
+| **[!UICONTROL 데이터 CSV 다운로드]** | 로컬 장치에 표시된 시각화 데이터를 다운로드합니다. |
+| **[!UICONTROL 시각화 복제]** | 시각화의 정확한 복제본을 만듭니다. |
+| **[!UICONTROL 설명 편집]** | 시각화에 대한 텍스트 설명을 추가(또는 편집)합니다. [텍스트](text.md)를 참조하세요. |
+| **[!UICONTROL 시각화 링크 가져오기]** | 시각화에 직접 링크를 복사하여 공유합니다. 링크 공유 대화 상자에 링크가 표시됩니다. 복사 를 선택하여 클립보드에 링크를 복사합니다. |
+| **[!UICONTROL 시작]** | 현재 시각화에 대한 구성을 삭제하여 처음부터 다시 구성할 수 있습니다. |
+
+
+## 구성
+
+일부 시각화(예: 집단 테이블, 폴아웃, 플로우 등)에는 시각화 작성을 지원하는 구성 대화 상자가 있습니다. 시각화 상단의 ![편집](/help/assets/icons/Edit.svg)을 사용하여 구성에 액세스하고 구성을 변경합니다.
+
+![구성 창](assets/configuration.png)
+
+## 시각화
+
+어떤 시각화를 선택할지 확실하지 않은 경우 자유 형식 테이블 행에서 ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 시각화]**&#x200B;를 선택합니다(마우스 오버 시 사용 가능). 이 선택 사항은 시각화를 추가하는 가장 빠른 방법입니다. Analysis Workspace은 어떤 시각화가 데이터에 가장 적합한지 교육된 추측을 합니다. 예를 들어 행을 하나 선택한 경우 트렌드 [선 그래프](line.md)가 만들어집니다. 세 개의 필터 행을 선택한 경우 [벤](venn.md) 다이어그램이 만들어집니다.
+
+![빠른 시각화](assets/quick-viz.png)
+
+
+<!--
+## Settings {#settings}
+
+![](assets/settings.png)
+
+| Setting | Description |
+| --- | --- |
+| Visualization Type | Change the type of visual used to depict the data. |
+| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this drop-down list. This change also applies to the data source table. |
+| Percentages | Displays values in percentages. |
+| 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
+| Legend Visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |
+| Limit Max Items | Lets you limit the number of items that a visualization displays. |
+| Anchor Y Axis at Zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
+| Normalization | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes. |
+| Display Dual Axis | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. |
+| Show Anomalies | Enhances line graphs and freeform tables by displaying anomaly detection. Anomaly detection in line visualizations includes an expected value (dashed line) and an expected range (shaded band). |
+
+## Legend {#legend}
+
+A visualization legend helps you to relate date in a source table to plotted series in the visualization. The legend is interactive - you can click a legend item to show/hide a series in the visualization. This is helpful if you want to simplify the data being visualized. 
+
+Additionally, you can rename legend labels to help you make visuals more consumable. Note: legend editing does **not** apply to: Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
+
+To edit a legend label:
+
+1. Right-click one of the legend labels.
+1. Click **[!UICONTROL Edit Label]**.
+
+   ![](assets/edit-label.png)
+
+1. Enter the new label text.
+1. Press **[!UICONTROL Enter]** to save.
+
+## Right-click menu {#right-click}
+
+Additional functionality for a visualziation is available by right-clicking on the visualization header. Settings will vary by visualization. Some of the settings available are:
 
 ![](assets/right-click.png)
 
-| 설정 | 설명 |
+| Setting | Description |
 | --- | --- |
-| 복사한 패널/시각화 삽입 | 복사한 패널 또는 시각화를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣을 (“삽입”) 수 있습니다. |
-| 시각화 복사 | 시각화를 마우스 오른쪽 버튼으로 클릭하고 복사하여 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 삽입할 수 있습니다. |
-| [CSV로 항목 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko-KR?#download-items) | 선택한 차원에 대해 최대 50,000개의 차원 항목을 CSV로 다운로드합니다. |
-| [데이터를 CSV로 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko-KR?#download-data) | 시각화 데이터 소스를 CSV로 다운로드합니다. |
-| 중복 시각화 | 현재 시각화의 수정할 수 있는 정확한 중복을 만듭니다. |
-| 설명 편집 | 시각화에 대한 텍스트 설명을 추가 (또는 편집)합니다. |
-| 시각화 링크 가져오기 | 프로젝트 내의 특정 시각화로 사용자를 안내할 수 있습니다. 링크를 클릭하면 연결된 정확한 시각화로 이동하기 전에 먼저 수신자가 로그인해야 합니다. |
-| 시작 | (플로우, 벤, 히스토그램에서 작동) 현재 시각화에 대한 구성을 삭제하여 처음부터 다시 구성할 수 있습니다. |
+| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
+| Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
+| Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
+| Edit Description | Add (or edit) a text description for the visualization. |
+| Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
+| Start Over | (Works for Flow, Venn, Histogram) Deletes the configuration for the current visualization so you can re-configure it from scratch. |
 
-## 시각화 만들기 아이콘 {#quick-viz}
+## Create Visual icon {#quick-viz}
 
-어떤 시각화를 선택할지 확실하지 않은 경우 테이블 행에서 **[!UICONTROL 시각화 만들기]** 아이콘을 클릭합니다(마우스 오버 시 사용 가능). 시각화를 추가하는 가장 빠른 방법입니다. 이를 클릭하면 Analysis Workspace는 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화를 추정합니다. 예를 들어 1개의 행을 선택한 경우 추세선 그래프가 생성됩니다. 3개의 세그먼트 행을 선택한 경우 벤 다이어그램이 생성됩니다.
+If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). This the the fastest way to add a visualization. Clicking it prompts Analysis Workspace to take an educated guess at which visualization would best fit your data. For example, if you have 1 row selected, it will create a trended line graph. If you have 3 segment rows selected, it will create a Venn diagram. 
 
 ![](assets/quick-viz.png)
 
-## 시각화에서 크기 축 변경
+## Change the scale axis on visualizations
 
-다음은 비디오 개요입니다.
+Here is a video overview:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
+
+-->

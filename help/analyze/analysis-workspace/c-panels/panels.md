@@ -4,9 +4,9 @@ title: 패널 개요
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 515517eb708b8c8e1210f82a325e46cbf308c5e6
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2157'
 ht-degree: 57%
 
 ---
@@ -157,11 +157,13 @@ ht-degree: 57%
 
 ### 드롭다운 세그먼트
 
-+++ 드롭다운 세그먼트를 설명하는 비디오를 봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?format=jpeg)
+>[!BEGINSHADEBOX]
 
-+++
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 #### 정적 드롭다운 세그먼트
 

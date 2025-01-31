@@ -4,10 +4,10 @@ title: 주요 지표 요약
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 56%
+source-wordcount: '959'
+ht-degree: 36%
 
 ---
 
@@ -29,11 +29,12 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 >[!ENDSHADEBOX]
 
-[!UICONTROL 주요 지표 요약 시각화]를 통해 단일 기간 내에서 중요한 지표의 추세를 확인할 수 있습니다. 또한 두 기간에 걸쳐 지표의 성능을 비교할 수 있습니다. 하나의 시각화로 결합된 여러 시각화의 이점을 제공합니다.
 
-* 기본 및 비교 날짜 범위에 대한 지표의 추세를 보여 주는 **[!UICONTROL 선]** 시각화
+![주요 지표](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 주요 지표 요약]** 시각화를 통해 단일 기간 내에서 중요한 지표의 추세를 확인할 수 있습니다. 또한 두 기간에 걸쳐 지표의 성능을 비교할 수 있습니다. 하나의 시각화로 결합된 여러 시각화의 이점을 제공합니다.
 
-* 기본 날짜 범위와 비교 날짜 범위 간의 지표 증가 또는 감소를 보여 주는 **[!UICONTROL 요약 백분율 변경]**
+* **[!UICONTROL 선]** 시각화는 기본 및 비교 날짜 범위에 대한 지표의 추세를 보여줍니다
+
+* **[!UICONTROL 요약 백분율 변경]**&#x200B;은 기본 날짜 범위와 비교 날짜 범위 간의 지표 증가 또는 감소를 보여 줍니다
 
 * 지표의 현재 총 값([!UICONTROL **요약 번호**])
 
@@ -47,20 +48,20 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 * 이전 분기와 비교하여 신규 예약이 어떻게 변경되었는지 알고자 하는 임원.
 
-## 주요 지표 요약 구성
+## 사용
 
-1. 왼쪽 레일에 있는 **[!UICONTROL 시각화]** 메뉴에서 **[!UICONTROL 주요 지표 요약]** 시각화를 패널로 드래그합니다.
+1. ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 주요 지표 요약]** 시각화를 추가합니다. [패널에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
 
-   ![](assets/key-metric-config.png)
+1. **[!UICONTROL 지표]**, **[!UICONTROL 기본 날짜 범위]**, **[!UICONTROL 비교 날짜 범위]**(선택 사항) 및 **[!UICONTROL 필터]**(선택 사항)를 선택하여 시각화를 구성합니다.
 
-1. 다음 옵션을 사용하여 시각화를 구성합니다.
+   ![지표, 기본 날짜 범위, 비교 날짜 범위 및 세그먼트에 대한 옵션을 표시하는 주요 지표 구성입니다.](assets/key-metrics-config.png)
 
-   | 구성 설정 | 정의 |
+   | 옵션 | 설명 |
    | --- | --- |
    | **[!UICONTROL 지표]** | 검사할 지표를 선택합니다. 모든 지표가 지원됩니다. |
-   | **[!UICONTROL 기본 날짜 범위]** | 자유 형식 테이블의 현재 날짜 범위입니다.<p>보고서 세트에서 사용 가능한 날짜 범위를 선택합니다.</p> <p>시각화가 있는 패널에서 사용 중인 것과 동일한 날짜 범위를 사용하려면 [!UICONTROL **패널 날짜 범위**]&#x200B;를 선택합니다.</p> |
+   | **[!UICONTROL 기본 날짜 범위]** | 자유 형식 테이블의 현재 날짜 범위입니다.<p>데이터 보기에서 사용 가능한 날짜 범위 중에서 선택합니다.</p> <p>시각화가 있는 패널에서 사용 중인 것과 동일한 날짜 범위를 사용하려면 [!UICONTROL **패널 날짜 범위**]&#x200B;를 선택합니다.</p> |
    | **[!UICONTROL 비교 날짜 범위]** | 기본 날짜 범위와 비교할 날짜 범위입니다. |
-   | **[!UICONTROL 세그먼트(선택 사항)]** | 이 요약에 관심이 있는 모든 세그먼트. |
+   | **[!UICONTROL 필터(선택 사항)]** | 이 요약에 관심이 있는 모든 필터. |
 
    {style="table-layout:auto"}
 
@@ -73,11 +74,9 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 1. **[!UICONTROL 빌드]**&#x200B;를 선택합니다.
 
-## 출력 보기
+주요 지표 요약의 출력은 다음과 같습니다.
 
-출력은 다음과 같아야 합니다.
-
-![](assets/key-metric-output.png)
+![지표, 요약 변경, 요약 번호 및 선 그래프를 표시하는 주요 지표 출력입니다.](assets/key-metrics.png)
 
 출력을 볼 때는 다음 사항을 고려하십시오.
 
@@ -87,13 +86,20 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 * 여기에서 선 그래프 위로 마우스를 가져다 대면 개별 날짜에 대한 통계를 볼 수 있습니다.
 
-![](assets/key-metric-output2.png)
 
-## 시각화 설정
+## 구성
 
-주요 지표 요약은 중요한 지표의 보고 및 공유를 개선하기 위해 여러 유연한 설정을 제공합니다. 시각화 오른쪽 상단에 있는 톱니바퀴 아이콘을 사용하여 설정에 액세스할 수 있습니다.
+시각화를 빌드한 후 원래 구성을 편집할 수 있습니다.
 
-![](assets/key-metric-settings.png)
+1. 시각화 상단에 있는 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 시각화 구성]**&#x200B;을 선택합니다.
+
+   원래 구성 대화 상자로 돌아갑니다.
+
+1. 설정을 원하는 대로 변경합니다. 현재 설정을 재설정하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하십시오. **[!UICONTROL 빌드]**&#x200B;를 선택하여 시각화를 다시 빌드합니다.
+
+## 설정
+
+시각화 설정의 일부로, 특정 주요 지표 요약 설정을 사용할 수 있습니다.
 
 | 설정 | 설명 |
 | --- | --- |
@@ -101,12 +107,14 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 | **[!UICONTROL 숫자 값 강조]** | 시각화 중앙에 눈에 띄는 볼드체로 요약 번호 표시 |
 | **[!UICONTROL 범례 표시]** | 시각화 하단에 범례 표시 또는 숨기기 |
 | **[!UICONTROL 주석 표시]** | 관리자가 추가한 주석 표시 또는 숨기기 |
-| **[!UICONTROL 스파크라인 표시]** | 차트 하단에 선 차트를 표시하거나 숨깁니다. 범례가 숨겨져 있으면 더 이상 시각적으로 선을 참조하지 않습니다 |
-| **[!UICONTROL 스파크라인에서 최소 및 최대 표시]** | 기본 및 비교 선 차트에서 최소값 및 최대값 표시 또는 숨기기 |
-| **[!UICONTROL 비교 보기]** | 비교 데이터를 표시하거나 숨깁니다. 숨겨진 경우 보기에서 비교 선 차트와 요약 변경 객체가 모두 숨겨집니다. |
+| **[!UICONTROL 제목 숨기기]** | 시각화의 제목을 숨깁니다. |
+| **[!UICONTROL 백분율]** | 시각화를 숫자 대신 백분율로 표시합니다. |
+| **[!UICONTROL 추세선 표시]** | 시각화에 추세선을 표시합니다. |
+| **[!UICONTROL 추세선에 최대 및 최소 표시]** | 기본 및 비교 선 차트에서 최소값 및 최대값 표시 또는 숨기기 |
+| **[!UICONTROL 비교 백분율 및 추세선 표시]** | 비교 데이터를 표시하거나 숨깁니다. 숨겨진 경우 보기에서 비교 선 차트와 요약 변경 객체가 모두 숨겨집니다. |
 | **[!UICONTROL 총 숫자 표시]** | 요약 번호 표시 또는 숨기기 |
 | **[!UICONTROL 원시 차이 표시]** | 기본 날짜 범위와 보조 날짜 범위의 총 지표 값 간의 원시 차이를 표시하거나 숨깁니다. |
-| **[!UICONTROL 값 생략]** | 전달되는 통찰력을 단순화하기 위해 숫자 값을 축약합니다(예: 20,000 -> 20K). |
+| **[!UICONTROL 값 생략]** | **[!UICONTROL 값 생략]**&#x200B;을 선택하여 숫자 값을 지능적으로 축약합니다. 선택한 경우 숫자를 입력하여 약어의 양을 정의합니다. 예: <br/><table><tr><td>**원래 값**</td><td>**약어**</td><td>**결과**</td></tr><tr><td>US$12,011,141.25</td><td>선택되지 않음</td><td align="right">US$12,011,141.25</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, 1로 설정</td><td align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, 2로 설정</td><td align="right">1,200만 달러</td></tr><tr><td>US$12,011,141.25</td><td>선택됨, 2로 설정</td><td align="right">1,201.1만달러</td></tr><tr><td>US$12,011,141.25</td><td>선택, 3으로 설정</td><td align="right">1,201.1만달러</td></tr></table> |
 
 ## 시각화 편집
 
@@ -114,8 +122,15 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 1. 시각화의 오른쪽 상단(설정 톱니바퀴 아이콘 옆)에 있는 연필 아이콘을 클릭합니다.
 
-   ![](assets/edit-icon.png)
+   ![시각화 편집 아이콘](assets/edit-icon.png)
 
    이제 원래 구성 보기로 돌아갑니다.
 
-1. 지표, 기본 날짜 범위, 비교 날짜 범위 또는 세그먼트를 원하는 대로 변경합니다.
+1. 지표, 기본 날짜 범위, 비교 날짜 범위 또는 필터를 원하는 대로 변경합니다.
+
+>[!MORELIKETHIS]
+>
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+

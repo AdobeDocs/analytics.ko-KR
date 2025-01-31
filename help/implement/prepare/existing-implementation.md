@@ -4,10 +4,10 @@ description: 기존 Adobe Analytics 구현을 처음 사용하는 관리자를 �
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 71%
+source-wordcount: '172'
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,13 @@ ht-degree: 71%
 
 동료 기술 소유자인 Sarah Owen이 알려 주는 팁을 확인해 보십시오. Sarah는 Adobe Analytics 챔피언 이며 기존 구현을 맡아서 관리하는 데 인계된 구현 플레이북을 활용하는 방법에 대한 아이디어를 공유합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [상속된 구현 플레이북 사용](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 다음도 참조하십시오.
 

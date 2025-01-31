@@ -3,10 +3,10 @@ description: 세그먼트 빌더에서 선택한 연산자를 사용하여 값�
 title: 세그먼트의 비교 연산자
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 95%
+source-wordcount: '1104'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,9 @@ ht-degree: 95%
 | 다음보다 크거나 같음 | 고유 카운트가 입력한 값보다 크거나 같은 차원 항목을 반환합니다. |
 | 다음보다 작거나 같음 | 고유 카운트가 입력한 값보다 작거나 같은 차원 항목을 반환합니다. |
 
-다음은 고유 차원 카운트 세그먼테이션에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [개별 차원 개수](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"}를 참조하십시오.
+
+>[!ENDSHADEBOX]

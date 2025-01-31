@@ -5,10 +5,10 @@ title: 타임스탬프 선택 사항
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 96%
+source-wordcount: '608'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 96%
 
 타임스탬프 옵션 설정 사용에 대한 이점 및 제한 사항에 대해 알아봅니다.
 
-다음은 해당 주제에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
+>[!BEGINSHADEBOX]
+
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [타임스탬프 선택 사항](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"}을 참조하십시오.
+
+>[!ENDSHADEBOX]
+
 
 타임스탬프 옵션은 모든 새 보고서 세트에 대한 기본 설정입니다.
 

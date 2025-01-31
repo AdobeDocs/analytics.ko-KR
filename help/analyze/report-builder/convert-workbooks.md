@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,14 @@ ht-degree: 0%
 >
 >각 통합 문서를 복제하고 변환하기 전에 한 버전의 이름을 변경합니다. 이렇게 하면 원본 통합 문서의 사본이 그대로 유지됩니다. 필요한 경우
 
->[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 변환](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}을 참조하세요.
+
+>[!ENDSHADEBOX]
+
+
 
 1. [다음 지침에 따라](/help/analyze/report-builder/report-builder-setup.md)하여 새 Report Builder을 설정하십시오.
 

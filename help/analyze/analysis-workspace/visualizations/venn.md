@@ -5,10 +5,10 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 86%
+source-wordcount: '167'
+ht-degree: 24%
 
 ---
 
@@ -30,26 +30,33 @@ _이 문서는_&#x200B;의 벤 시각화를 설명합니다![AdobeAnalytics](/he
 
 >[!ENDSHADEBOX]
 
-[!UICONTROL 벤] 시각화를 사용하면 최대 3개의 세그먼트([!UICONTROL 구성]에서) 및 한 개 지표를 드래그해서 [!UICONTROL 벤] 다이어그램을 작성할 수 있습니다.
+![Type](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** 시각화를 사용하면 최대 3개의 필터와 지표(구성 요소 패널에서)를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
 
-![](assets/venn.png)
+![세 개의 필터를 포함하는 벤 시각화.](assets/venn.png)
 
-그런 후 세그먼트 위로 마우스를 가져가 백분율 등을 보다 자세히 확인할 수 있습니다.
+필터 위로 마우스를 가져가 백분율 등을 보다 자세히 확인할 수 있습니다.
 
-![](assets/venn_hover.png)
+[!UICONTROL 벤] 시각화에서 [!UICONTROL 자유 형식 테이블]을(를) 생성하려면 **[!UICONTROL 벤]** 헤더 옆의 색상 ![StatusOrange](/help/assets/icons/StatusOrange.svg)을(를) 선택하고 **[!UICONTROL 데이터 원본 표시]**&#x200B;를 선택하십시오. [!UICONTROL 벤] 시각화를 만드는 데 사용된 데이터가 포함된 **[!UICONTROL 벤 데이터]** 자유 형식 테이블이 표시됩니다.
 
-## [!UICONTROL 벤] 다이어그램을 [!UICONTROL 자유형식] 테이블로 변환
+<!--
+To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
 
-벤 다이어그램을 자유 형식 테이블로 전환하려면 **[!UICONTROL 벤]** 헤더 옆의 색상 점을 클릭하고 **[!UICONTROL 데이터 소스 관리]** > **[!UICONTROL 사용할 수 있는 데이터 소스]** >**[!UICONTROL 자유 형식 테이블]**&#x200B;을 선택합니다.
+![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
 
-## [!UICONTROL 벤] 다이어그램 정규화
+-->
 
-[!UICONTROL 벤] 다이어그램을 정규화하려면(그 크기를 취하려면) 시각화 설정 아이콘으로 이동해서 **[!UICONTROL 정규화]**&#x200B;를 선택합니다.
 
-![](assets/normalization.png)
+>[!BEGINSHADEBOX]
 
-## 비디오
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [벤 시각화](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"}를 참조하십시오.
 
-다음은 [!UICONTROL 벤] 다이어그램에 대한 비디오입니다.
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)
+
+>[!MORELIKETHIS]
+>
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+
