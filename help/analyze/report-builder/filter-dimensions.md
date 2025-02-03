@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 06d762614969f3557c8ccf310af266742cde9738
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 76%
+source-wordcount: '1021'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,11 @@ ht-degree: 76%
 
 각 차원에 대해 반환된 차원 항목을 변경하려면
 
-1. 데이터 블록을 선택하고 명령 패널에서 **[!UICONTROL 데이터 블록 편집]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 관리]**&#x200B;를 클릭하고 목록에서 데이터 블록을 선택합니다.
+
+   ![관리 > 데이터 블록 편집](./assets/manage-edit.png)
+
+1. 명령 패널에서 **[!UICONTROL 데이터 블록 편집]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL 다음]**&#x200B;을 클릭하여 Dimension 탭을 표시합니다.
 
@@ -63,7 +67,7 @@ ht-degree: 76%
 
 페이지 및 행 기본 설정은 각 페이지에 10개의 데이터 행이 있음을 식별합니다. 페이지 1은 상위 10개 항목을 반환하고 페이지 2는 다음 10개 항목을 반환하는 식입니다.
 
-아래 표에는 페이지 및 행 값과 결과 출력의 예가 나와 있습니다.
+아래 테이블에는 페이지 및 행 값과 결과 출력의 예가 나와 있습니다.
 
 | 페이지 | 행 | 출력 |
 |------|--------|----------------------|
