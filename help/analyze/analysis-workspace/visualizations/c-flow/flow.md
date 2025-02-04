@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 87%
+source-wordcount: '290'
+ht-degree: 83%
 
 ---
 
@@ -57,13 +57,10 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 각 열에는 다른 차원이 표시될 수 있습니다. 차원을 드래그하여 드롭 영역에 놓아 해당 차원을 다이어그램에 추가합니다.
 
-## 플로우 시각화 구성
-
-플로우 시각화를 구성하는 방법에 대한 자세한 내용은 [플로우 시각화 구성](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)을 참조하십시오.
-
-## 플로우 다이어그램을 프로젝트 .CSV 파일의 일부로 내보내기 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
-
-플로우 다이어그램은 **[!UICONTROL 프로젝트]**> **[!UICONTROL CSV 다운로드]**&#x200B;로 이동하여 만들 수 있는 프로젝트 .CSV 파일의 일부입니다. 이를 통해 Microsoft Excel (테이블로 시각화됨) 또는 다른 곳에서 플로우 결과를 분석할 수 있습니다.
+>[!MORELIKETHIS]
+>
+>[흐름 시각화 구성](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>
 
 
 ## 추가 기능
