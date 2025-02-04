@@ -3,9 +3,9 @@ description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Anal
 title: 관리자, 분석가, 최종 사용자 및 개발자용 시작하기
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '1691'
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+workflow-type: tm+mt
+source-wordcount: '1696'
 ht-degree: 100%
 
 ---
@@ -149,3 +149,8 @@ Analysis Workspace에서 분석을 만드는 방법에 대한 자세한 내용�
 [Analytics API를 사용하면 Adobe 서버를 직접 호출하여 사용자 인터페이스에서 수행할 수 있는 작업의 대부분을 수행할 수 있습니다.](https://developer.adobe.com/analytics-apis/docs/2.0/)
 
 데이터에 대해 탐색하고 통찰력을 얻거나 중요한 질문에 답변이 되는 보고서를 생성할 수 있습니다. 세그먼트 생성 또는 계산된 지표와 같은 Adobe Analytics의 구성 요소를 관리할 수도 있습니다.
+
+>[!MORELIKETHIS]
+>
+>[솔루션 디자인 문서 만들기](/help/implement/prepare/solution-design.md)
+>
