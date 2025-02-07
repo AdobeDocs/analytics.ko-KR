@@ -5,9 +5,9 @@ title: Adobe Analytics 개요
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 | 설명서 리소스 | 함수 |
 |---------|----------|
-| [시작하기(역할별)](/help/analyze/get-started/get-started-by-role.md) | 관리자, 분석가, 최종 사용자 또는 개발자가 모두 알아야 할 주요 기능과 작업에 대해 설명하는 자세한 정보를 제공합니다. |
+| [시작하기 (역할별)](/help/analyze/get-started/get-started-by-role.md) | 관리자, 분석가, 최종 사용자 또는 개발자가 모두 알아야 할 주요 기능과 작업에 대해 설명하는 자세한 정보를 제공합니다. |
 | [Analytics 인터페이스 이해](/help/analyze/get-started/analytics-interface.md) | Analytics 인터페이스의 주요 영역에 대해 설명합니다. |
 | [사용 사례](/help/analyze/get-started/use-cases.md) | Adobe Analytics에서 조직이 고객에게 더 나은 서비스를 제공하기 위해 중요한 통찰력을 얻을 수 있는 몇 가지 주요 방법에 대해 설명합니다. |
 | [어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/analyze/get-started/which-analytics-tool.md) | 각 Adobe Analytics 도구에 대한 권장 사용 사례가 포함되어 있습니다. |
@@ -36,7 +36,7 @@ Adobe Analytics 기본 사항에 대해 알아보려면 이 *Adobe Analytics 소
 
 >[!BEGINSHADEBOX]
 
-웨비나 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 소개 - 스킬 빌더](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}를 참조하십시오.
+웨비나 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics - Skill Builder 소개](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

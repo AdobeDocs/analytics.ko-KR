@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics 기본 사항에 대해 알아보려면 아래 *Adobe Analytics 
 
 >[!BEGINSHADEBOX]
 
-웨비나는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 소개 - 스킬 빌더 웨비나](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+웨비나에 대한 내용은 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics - Skill Builder 웨비나 소개](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
