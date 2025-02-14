@@ -4,7 +4,7 @@ title: 콤보 차트 시각화
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
+source-git-commit: 8234da343ed526eced900e24225e2e1af4319a4d
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 48%
@@ -25,7 +25,9 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;에서 콤보 시각화를 문서화합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [콤보](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)를 참조하세요._
+_이 문서는_&#x200B;의 콤보 시각화에 대한 문서를 제공합니다. ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
+
+_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [콤보](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)를 참조하세요._
 
 >[!ENDSHADEBOX]
 
