@@ -8,7 +8,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="맵"
->abstract="이 시각화는 지표를 맵 위에 중첩되도록 표현합니다. 이 시각화는 다른 지역 간에 데이터를 식별하는 데 유용합니다."
+>abstract="이 시각화는 지표를 맵 위에 중첩되도록 표현합니다. 이 시각화는 지리적으로 다른 지역들의 데이터를 식별하는 데 유용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
