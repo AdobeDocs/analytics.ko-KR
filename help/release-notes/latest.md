@@ -3,56 +3,47 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d7beee25af3551426eb905f0e727545de068b2d9
-workflow-type: ht
-source-wordcount: '882'
-ht-degree: 100%
+source-git-commit: b65da2936efc499df2afbe7c6195f3989ea1a832
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 66%
 
 ---
 
-# 현재 Adobe Analytics 릴리스 정보 (2025년 1월 릴리스)
+# 현재 Adobe Analytics 릴리스 정보 (2025년 2월 릴리스)
 
-**마지막 업데이트**: 2024년 1월 22일
+**마지막 업데이트**: 2024년 2월 19일 화요일
 
-이번 릴리스 정보에는 2025년 1월 15일부터 2월 중순까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2025년 2월 11일부터 3월 중순까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **새로운 Report Builder에서 일정 예약하기** | 일정 예약 가능을 사용하여 새로운 Report Builder 통합 문서의 일정을 예약할 수 있습니다. 또한 기존 통합 문서를 변환할 때 이전에 예약된 작업의 메타데이터를 가져올 수 있습니다. 이렇게 하면 기존 통합 문서를 새 통합 문서로 변환하고 일정을 예약할 때 기존 통합 문서와 동일한 이메일 주소와 동일한 주기로 해당 통합 문서를 전송할 수 있습니다. [자세히 알아보기](/help/analyze/report-builder/schedule-reportbuilder.md) |  | 2025년 1월 22일 |
-| **Analysis Workspace의 보고서(템플릿이라고도 함) 개선 사항** | 이제 보고서(템플릿이라고도 함)에 다음과 같이 다양한 개선 사항이 적용되었습니다.<ul><li>이제 [!UICONTROL 템플릿]이라고 불립니다(더 이상 [!UICONTROL 보고서]라고 불리지 않음).</li><li>템플릿을 열 보기나 카드 보기로 조회할 수 있는 옵션을 포함하여 템플릿 조회 및 검색에 대한 사용자 경험이 개선되었습니다.</li><li>기업 템플릿을 위한 새롭고 직관적인 위치가 추가되었습니다(**[!UICONTROL Workspace]** > **[!UICONTROL 템플릿]** 아래에 있음).</li><li>이전에는 프로젝트를 생성할 때 대화 상자에서 기업 템플릿에 액세스했습니다.</li><li>추가로 미리 작성된 템플릿을 사용할 수 있습니다.</li></ul>[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/templates/use-templates)<p>관리자는 템플릿을 만들고 이를 저장하여 로그인 회사의 다른 사용자들이 이용하도록 할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/templates/create-templates) | 2025년 1월 15일 | 2025년 1월 30일 |
-| **거래 ID 보존 기간** | 거래 ID의 보존 기간은 90일이지만 2025년 2월부터 25개월로 연장됩니다. `transactionID` 변수는 데이터 소스를 통해 업로드된 데이터에 히트가 연결될 수 있도록 거래를 고유하게 식별합니다. (참조할 설명서 링크) |  | 2025년 2월 11일 |
+| **거래 ID 보존 기간** | 거래 ID 보존 기간 90일이 25개월로 연장됩니다. `transactionID` 변수는 데이터 소스를 통해 업로드된 데이터에 히트가 연결될 수 있도록 거래를 고유하게 식별합니다. [여기](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid) 및 [여기](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid)에서 자세히 알아보세요. |  | 2025년 2월 20일 금요일 |
+| **데이터 피드 API 참조** | 이제 데이터 피드 API에 대한 [참조](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)을(를) 사용할 수 있습니다. |  | 2025년 1월 30일 |
+| **실시간 스트리밍 API - 클라이언트 구현** | Livestream 클라이언트 구현을 사용하여 Livestream 데이터를 사용합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025년 2월 18일 수요일 |
+| **분류 API 업데이트** | 이제 서버에서 개별 분류 필드 또는 키를 제거할 수 있습니다. 이렇게 하면 DELETE 메서드로 전체 분류 데이터 세트를 삭제할 수 있는 대체 방법이 제공됩니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025년 2월 18일 수요일 |
+
 
 ## Adobe Analytics의 수정 사항
 
-**A4T**: AN-355602; AN-365988
-**Activity Map**: AN-365320
-**Admin Console**: AN-363884
-**관리 도구**: AN-356747; AN-358776
-**Advertising Analytics**: AN-355488
-**Analysis Workspace**: AN-345318; AN-354801; AN-357052; AN-358975; AN-362886; AN-363831; AN-364124; AN-365257; AN-365319; AN-365462; AN-366194
-**Analytics 1.4 API**: AN-358059
-**분류**: AN-360049; AN-360424; AN-360745; AN-362208; AN-362345; AN-362560; AN-362576; AN-362633; AN-362653; AN-362762; AN-362815; AN-362881; AN-362885; AN-362973; AN-363343; AN-363558; AN-363860; AN-364239; AN-364480; AN-364451; AN-364528; AN-364548; AN-364552; AN-364585; AN-364598; AN-364643; AN-364715; AN-364912; AN-364997; AN-365081; AN-365189; AN-365197; AN-365203; AN-365431; AN-365647; AN-365794; AN-366546
-**구성 요소 마이그레이션**: AN-362236; AN-365429
-**기여도 분석**: AN-360146
-**데이터 피드**: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; AN-363569; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; AN-364594; AN-364995; AN-365127; AN-365272; AN-365519; AN-365760; AN-366152;
-**데이터 복구 API**: AN-362773; AN-362874
-**데이터 소스**: AN-360745; AN-362202; AN-364566
-**Data Warehouse**: AN-361447; AN-362616; AN-364524; AN-365108
-**모바일 앱**: AN-362856; AN-365270
-**초과 경고**: AN-355594; AN-364547
-**Platform**: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
-**Report Builder**: AN-363478; AN-364433; AN-365610
-**보고 활동 관리자**: AN-362440
-**세분화**: AN-359921
-**VISTA 규칙**: AN-362927
+**Analysis Workspace**: AN-359974; AN-366212; AN-368460
+**분류**: AN-367186; AN-367328; AN-368548
+**구성 요소 마이그레이션**: AN-364529; AN-366398; AN-367509;
+**데이터 피드**: AN-365685; AN-366745; AN-367256; AN-367349; AN-368363
+**Data Warehouse**: AN-368178; AN-368331;
+**모바일 앱**: AN-367137
+**플랫폼**: AN-351924; AN-365540; AN-365866; AN-366898; AN-367856; AN-367933
+**Report Builder**: AN-366456; AN-366655;
+**가상 보고서 세트**: AN-367411
+**VISTA 규칙**: AN-365331
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **캠페인 고객이 아닌 사용자는 트리거에 대한 액세스 권한을 잃게 됩니다.** | 2023년 10월 16일 | 2025년 1월 30일부터 Adobe Campaign 라이선스가 없는 Adobe Analytics 고객은 [트리거](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/triggers)를 구성하고 사용할 수 있는 액세스 권한을 상실하게 됩니다. 고객은 Campaign을 구매하거나 트리거 사용을 중단하거나 트리거 기능을 제공하는 다른 Adobe 도구를 확인해야 합니다. |
+| **캠페인 고객이 아닌 사용자는 트리거에 대한 액세스 권한을 잃게 됩니다.** | 2023년 10월 16일 | 2025년 1월 30일에 Adobe Campaign 라이선스가 없는 Adobe Analytics 고객은 [트리거](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/triggers)를 구성하고 사용할 수 있는 기능에 액세스할 수 없습니다. 고객은 Campaign을 구매하거나 트리거 사용을 중단하거나 트리거 기능을 제공하는 다른 Adobe 도구를 확인해야 합니다. |
 
 ## 서비스 종료(EOL) 알림 {#eol}
 
