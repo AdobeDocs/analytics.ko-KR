@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '6026'
-ht-degree: 100%
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+workflow-type: tm+mt
+source-wordcount: '6071'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ ht-degree: 100%
 * 스트리밍 미디어 컬렉션에 대한 자세한 내용은 [Analytics에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)을 참조하십시오.
 
 ## 주요 설명서 업데이트에 대한 세부 정보
+
+### 2025 {#year2025}
+
+| 기능 | 설명 |
+| --- | --- |
+| **2025년 2월** |  |
+| 데이터 피드 일시 중지 및 다시 활성화에 대한 정보가 업데이트되었습니다 | [데이터 피드를 일시 중지했다가 다시 활성화하는 중](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)에 라이브 피드에 대한 동작을 명확하게 수정했습니다. 피드가 일시 중지된 시점부터 다시 활성화될 때까지 데이터 처리가 발생하지 않습니다. |
 
 ### 2024 {#year2024}
 
@@ -284,7 +291,7 @@ ht-degree: 100%
 | 2020년 1월 22일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
 | **2020년 1월** | |
 | 2020년 1월 24일 | 작업 영역의 [행 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace) 페이지에 대한 업데이트입니다. |
-| 2020년 1월 16일 | [자유 형식 테이블 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html)에 대한 새 설명서입니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 드래그 앤 드롭하여 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 작업 영역에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_ (기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
+| 2020년 1월 16일 | [자유 형식 테이블 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html)에 대한 새 설명서입니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 드래그 앤 드롭하여 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리보기**: 실제 데이터를 렌더링하기 전에 테이블의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 작업 영역에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_ (기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)를 추가했습니다. |
 | 2020년 1월 13일 | [어떤 Adobe Analytics 도구를 사용해야 합니까](/help/analyze/get-started/which-analytics-tool.md) 페이지를 수정했습니다. |
 
