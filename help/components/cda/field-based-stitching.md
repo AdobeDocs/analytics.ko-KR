@@ -4,7 +4,7 @@ description: 필드 기반 결합을 사용하여 데이터 결합의 사전 요
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
+source-git-commit: 5faf1631a52594591a74a93868198da8bc0f9cff
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 83%
@@ -43,3 +43,4 @@ ht-degree: 83%
 ## 다음 단계
 
 조직이 모든 요구 사항을 충족하고 제한 사항을 이해하면 [Cross-Device Analytics 설정](setup.md)을 시작할 수 있습니다.
+
