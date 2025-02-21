@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 372792a99d124e6f09eaf0f75310f3a0125c3461
+source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
 workflow-type: tm+mt
 source-wordcount: '6237'
 ht-degree: 96%
@@ -27,9 +27,9 @@ ht-degree: 96%
 | --- | --- |
 | **2025년 2월** |  |
 | 데이터 피드 일시 중지 및 다시 활성화에 대한 정보가 업데이트되었습니다 | [데이터 피드를 일시 중지했다가 다시 활성화하는 중](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)에 라이브 피드에 대한 동작을 명확하게 수정했습니다. 피드가 일시 중지된 시점부터 다시 활성화될 때까지 데이터 처리가 발생하지 않습니다. |
-| 변경된 거래 ID 보존 기간   거래 ID 보존 기간 90일이 25개월로 연장되었습니다. transactionID 변수는 Data Sources를 통해 업로드된 데이터에 히트가 연결할 수 있도록 거래를 고유하게 식별합니다. [여기](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) 및 [여기](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en)에서 자세히 알아보세요. |
+| 변경된 거래 ID 보존 기간 | 거래 ID 보존 기간 90일이 25개월로 연장되었습니다. transactionID 변수는 Data Sources를 통해 업로드된 데이터에 히트가 연결할 수 있도록 거래를 고유하게 식별합니다. [여기](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) 및 [여기](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en)에서 자세히 알아보세요. |
 | Livestream API - 클라이언트 구현 | [Livestream 클라이언트 구현](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)을 사용하여 Livestream 데이터를 사용합니다. |
-| 분류 API로 업데이트 \ 이제 [서버에서 개별 분류 필드 또는 키를 제거](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)할 수 있습니다. 이렇게 하면 DELETE 메서드로 전체 분류 데이터 세트를 삭제할 수 있는 대체 방법이 제공됩니다. |
+| 분류 API 업데이트 | 이제 [서버에서 개별 분류 필드 또는 키를 제거](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)할 수 있습니다. 이렇게 하면 DELETE 메서드로 전체 분류 데이터 세트를 삭제할 수 있는 대체 방법이 제공됩니다. |
 | **2025년 1월** |  |
 | 데이터 피드 API 참조 | 이제 데이터 피드 API에 대한 [참조](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)를 사용할 수 있습니다. |
 | 새 Report Builder의 예약에 대한 새로운 설명서 | [예약](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder)을 사용하면 새 Report Builder 통합 문서를 예약할 수 있을 뿐만 아니라 또한 이전 통합 문서를 변환할 때 이전 예약된 작업에서 메타데이터를 검색할 수 있도록 해줍니다. |
