@@ -4,10 +4,10 @@ title: Analysis Workspace의 지표
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 50%
+source-wordcount: '728'
+ht-degree: 36%
 
 ---
 
@@ -42,8 +42,6 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 >[!ENDSHADEBOX]
 
-
-
 ## 계산된 지표 만들기
 
 계산된 지표를 사용하면 간단한 연산자나 통계 함수를 사용하여 지표가 서로 관련되는 방식을 쉽게 확인할 수 있습니다.
@@ -64,21 +62,41 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 1. Analysis Workspace에서 계산된 지표를 만들 프로젝트를 엽니다.
 
-1. 자유 형식 테이블에서 하나 이상의 머리글 열 셀을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 선택 항목에서 지표 만들기]**&#x200B;를 선택합니다.
+1. 자유 형식 테이블에서 단일 열의 열 헤더를 마우스 오른쪽 단추로 클릭합니다.
+
+   또는
+
+   Shift 키를 누른 상태에서 두 열을 선택한 다음 선택한 열 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
+
+1. **[!UICONTROL 선택 항목에서 지표 만들기]** 선택
 
    ![선택 항목에서 만들기 강조 표시된 Workspace 패널](assets/create-metric-from-selection.png)
 
-1. 이 프로젝트에 대해서만 계산된 지표를 만들려면 다음 옵션 중에서 선택하십시오.
+1. 이 프로젝트에 대해서만 계산된 지표를 만들려면 사용 가능한 옵션 중에서 선택하십시오.
 
-   * [!UICONTROL **나누기**]
+   단일 열을 선택하면 다음 옵션을 사용할 수 있습니다.
 
-   * [!UICONTROL **빼기**]
+   * [!UICONTROL **평균**]: 열에 대한 차원 요소 집합에서 평균 값을 표시하는 새 열을 만듭니다. [평균](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean) 함수를 사용합니다.
 
-   * [!UICONTROL **추가**]
+   * [!UICONTROL **중간값**]: 열에 대한 차원 요소 집합의 중간값을 표시하는 새 열을 만듭니다. [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median) 함수를 사용합니다.
 
-   * [!UICONTROL **곱하기**]
+   * [!UICONTROL **열 최대값**]: 열의 차원 요소 집합에서 가장 큰 값을 표시하는 새 열을 만듭니다. [열 최대값](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum) 함수를 사용합니다.
 
-   또는 계산된 지표 빌더를 열고 모든 프로젝트에 대한 계산된 지표를 만들려면 [!UICONTROL **계산된 지표 빌더에서 열기**]&#x200B;를 선택한 다음 [지표 빌드](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)를 계속합니다.
+   * [!UICONTROL **열 최소값**]: 열에 대한 차원 요소 집합에서 가장 작은 값을 표시하는 새 열을 만듭니다. [열 최소값](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum) 함수를 사용합니다.
+
+   * [!UICONTROL **열 합계**]:열 내의 한 지표에 대한 모든 숫자 값을 추가하는 새 열을 만듭니다(차원의 요소에 대해). [열 합계](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) 함수를 사용합니다.
+
+   두 개의 열을 선택하면 다음 옵션을 사용할 수 있습니다.
+
+   * [!UICONTROL **나누기**]: 선택한 두 열의 값을 나누는 새 열을 만듭니다.
+
+   * [!UICONTROL **빼기**]: 선택한 두 열의 값을 빼는 새 열을 만듭니다.
+
+   * [!UICONTROL **추가**]: 선택한 두 열의 값을 추가하는 새 열을 만듭니다.
+
+   * [!UICONTROL **곱하기**]: 선택한 두 열의 값을 곱하는 새 열을 만듭니다.
+
+   * [!UICONTROL **백분율 변경**]: 선택한 두 열의 백분율 변경을 표시하는 새 열을 만듭니다.
 
 [계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ko-KR) (3:42)
 
