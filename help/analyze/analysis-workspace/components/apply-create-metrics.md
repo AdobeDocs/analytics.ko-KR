@@ -4,9 +4,9 @@ title: Analysis Workspace의 지표
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '722'
 ht-degree: 30%
 
 ---
@@ -56,7 +56,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 ### 단일 프로젝트에 대해 계산된 지표 만들기
 
-지표를 만든 프로젝트에서만 사용할 수 있는 빠르게 계산된 지표를 만들 수 있습니다.
+지표를 만든 프로젝트에서만 사용할 수 있는 계산된 지표를 빠르게 만들 수 있습니다.
 
 단일 프로젝트에 대해 계산된 지표를 만들려면 다음 작업을 수행하십시오.
 

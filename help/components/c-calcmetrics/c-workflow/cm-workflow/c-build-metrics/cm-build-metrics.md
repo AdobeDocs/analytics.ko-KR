@@ -3,9 +3,9 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 title: 지표 작성
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1139'
 ht-degree: 43%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics에서는 차원, 지표, 세그먼트 및 함수를 드래그하
 
 ## 계산된 지표 작성 시작
 
-계산된 지표 빌더를 사용하여 계산된 지표를 만들 수 있습니다. 이러한 방식으로 생성되면 계산된 지표를 구성 요소 목록에서 사용할 수 있으며, 그런 다음 조직 전체의 프로젝트에서 사용할 수 있습니다. 또는 [지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md)의 [단일 프로젝트에 대한 계산된 지표 만들기](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)에 설명된 대로 빠른 계산된 지표를 만들 수 있습니다.
+계산된 지표 빌더를 사용하여 계산된 지표를 만들거나 편집할 수 있습니다. 이러한 방식으로 생성되면 계산된 지표를 구성 요소 목록에서 사용할 수 있으며, 그런 다음 조직 전체의 프로젝트에서 사용할 수 있습니다. 또는 [지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md)의 [단일 프로젝트에 대한 계산된 지표 만들기](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)에 설명된 대로 빠른 계산된 지표를 만들 수 있습니다.
 
 계산된 지표 빌더에 액세스하여 구성 요소 목록에서 사용할 수 있는 계산된 지표 생성을 시작합니다.
 
@@ -43,7 +43,7 @@ Adobe Analytics에서는 차원, 지표, 세그먼트 및 함수를 드래그하
 
    * Analysis Workspace에서 프로젝트를 연 다음 **[!UICONTROL 구성 요소]** > **[!UICONTROL 지표 만들기]**&#x200B;를 선택합니다.
    * Analysis Workspace에서 프로젝트를 연 다음 왼쪽 레일에서 [!UICONTROL **지표**] 섹션 옆에 있는 **더하기** 아이콘을 선택합니다.
-   * [!DNL Customer Journey Analytics]에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**(으)로 이동한 다음 계산된 지표 페이지 상단에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
+   * [!DNL Adobe Analytics]에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**(으)로 이동한 다음 계산된 지표 페이지 상단에서 **[!UICONTROL + 추가]**&#x200B;를 선택합니다.
 
 1. 계산된 지표 빌더의 [영역](#areas-of-the-calculated-metrics-builder)을 계속 사용합니다.
 
@@ -70,7 +70,7 @@ Adobe Analytics에서는 차원, 지표, 세그먼트 및 함수를 드래그하
 | 13 | **톱니바퀴 아이콘(지표 유형, 속성):** 지표 옆에 있는 톱니바퀴 아이콘을 선택하면 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > 지표 유형 및 속성 모델 </a>을(를) 지정할 수 있습니다. |
 | 14 | **새로 만들기:** 새 세그먼트(<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > 세그먼트 빌더 </a>)와 같은 새 구성 요소를 만들 수 있습니다. |
 | 15 | **구성 요소 검색:** 이 검색 창을 사용하면 차원, 지표, 세그먼트(고급 계산 지표만) 및 함수(고급 계산 지표만)를 검색할 수 있습니다. |
-| 16 | **Dimension 목록:** 세그먼트 빌더에서 &quot;Page = Homepage&quot;와 같은 간단한 세그먼트를 작성하기 위해 계산된 지표 빌더를 종료하지 않고, 페이지에서 끌어서 홈 페이지를 계산된 지표 빌더에서 직접 선택할 수 있습니다.<p>그 결과 세그먼트화된 계산된 지표를 생성할 훨씬 능률적인 워크플로가 만들어집니다.</p> |
+| 16 | **차원 목록:** 세그먼트 빌더에서 &quot;Page = Homepage&quot;와 같은 간단한 세그먼트를 작성하기 위해 계산된 지표 빌더를 종료하지 않고, 페이지에서 끌어서 홈 페이지를 계산된 지표 빌더에서 직접 선택할 수 있습니다.<p>그 결과 세그먼트화된 계산된 지표를 생성할 훨씬 능률적인 워크플로가 만들어집니다.</p> |
 | 17 | **지표 목록:** 지표는 3가지 범주로 제공됩니다. <ul> <li>표준 지표 (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>계산된 지표 ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">지표 템플릿 ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - 목록의 맨 아래. </li> </ul> <p>마우스로 지표를 가리키면 그 오른쪽에 정보 아이콘이 표시됩니다. <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" /> 구문을 사용하는 키-값 쌍으로 전달됩니다. 이 아이콘을 클릭하면 다음 정보가 표시됩니다. </p><ul> <li>계산되는 방식에 대한 공식. </li><li>지표의 미리보기 트렌드. </li><li>편집(연필) 아이콘 이 계산된 지표를 편집할 수 있는 계산된 지표 빌더로 이동하는 오른쪽 상단의 <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> </li></ul> |
 | 18 | **세그먼트 목록:**(고급 계산 지표만 해당) 관리자로서 이 목록은 로그인 회사에서 만든 모든 세그먼트를 표시합니다. 사용자가 관리 사용자가 아닐 경우, 이 목록에는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트가 표시됩니다. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=ko-KR"  > 자세히... </a> |
 | 19 | **함수 목록:**(고급 계산된 지표만 해당) 함수는 <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > 기본 </a>(가장 자주 사용됨)과 <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > 고급 </a>, 이렇게 두 개의 목록으로 나뉩니다. |
