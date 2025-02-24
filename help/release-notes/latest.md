@@ -3,7 +3,7 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9fcf8871140e010d1c57c3af7004a45bd3a374a5
+source-git-commit: d8a715444a3f6876c4ed9e08e3dcbd6a02d96d9d
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 57%
@@ -12,7 +12,7 @@ ht-degree: 57%
 
 # 현재 Adobe Analytics 릴리스 정보 (2025년 2월 릴리스)
 
-**마지막 업데이트**: 2024년 2월 21일
+**마지막 업데이트**: 2025년 2월 21일 토요일
 
 이 릴리스 정보는 2025년 2월 11일부터 3월 중순까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -24,7 +24,7 @@ ht-degree: 57%
 | **데이터 피드 API 참조** | 이제 데이터 피드 API에 대한 [참조](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)을(를) 사용할 수 있습니다. |  | 2025년 1월 30일 |
 | **실시간 스트리밍 API - 클라이언트 구현** | Livestream 클라이언트 구현을 사용하여 Livestream 데이터를 사용합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025년 2월 18일 수요일 |
 | **분류 API 업데이트** | 이제 서버에서 개별 분류 필드 또는 키를 제거할 수 있습니다. 이렇게 하면 DELETE 메서드로 전체 분류 데이터 세트를 삭제할 수 있는 대체 방법이 제공됩니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025년 2월 18일 수요일 |
-| **Analytics 컨텍스트 데이터 필드`a.locale`** 업데이트 | 예약된 업데이트는 Experience Edge을 통해 데이터를 수집할 때 Analytics 컨텍스트 데이터 필드 `a.locale`을(를) 설정하는 방법을 변경합니다. Experience Edge을 사용하여 데이터를 Adobe Analytics으로 보내면 Analytics 필드가 XDM 필드의 매핑을 기반으로 채워집니다. `c.a.locale`에 대한 매핑이 비표준 XDM 필드 `xdm.environment.language`을(를) 참조합니다. 이 필드는 올바른 필드 `xdm.environment._dc.language`을(를) 참조하도록 업데이트됩니다.  이전 버전과의 호환성을 위해 매핑에서 `xdm.environment.language`을(를) 계속 참조합니다. 연속성의 경우 두 필드가 모두 설정되면 `xdm.environment.language`이(가) 우선합니다. XDM에서 표준 Analytics 필드 [여기](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping)에 매핑의 전체 목록을 볼 수 있습니다. | | 2025년 3월 5일 목요일 |
+| **Analytics 컨텍스트 데이터 필드`a.locale`** 업데이트 | 예약된 업데이트는 Experience Edge을 통해 데이터를 수집할 때 Analytics 컨텍스트 데이터 필드 `a.locale`을(를) 설정하는 방법을 변경합니다. Experience Edge을 사용하여 데이터를 Adobe Analytics으로 보내면 Analytics 필드가 XDM 필드의 매핑을 기반으로 채워집니다. `c.a.locale`에 대한 매핑이 비표준 XDM 필드 `xdm.environment.language`을(를) 참조합니다. 이 필드는 올바른 필드 `xdm.environment._dc.language`을(를) 참조하도록 업데이트됩니다.<p>이전 버전과의 호환성을 위해 매핑에서 `xdm.environment.language`을(를) 계속 참조합니다. 연속성의 경우 두 필드가 모두 설정되면 `xdm.environment.language`이(가) 우선합니다. XDM에서 표준 Analytics 필드 [여기](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping)에 매핑의 전체 목록을 볼 수 있습니다. | | 2025년 3월 5일 목요일 |
 
 
 ## Adobe Analytics의 수정 사항
