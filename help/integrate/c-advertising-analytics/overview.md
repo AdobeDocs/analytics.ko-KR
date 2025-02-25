@@ -3,10 +3,10 @@ description: 필요한 권한, 사용 가능한 차원 및 지표를 포함하�
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: cf0f528f1ccb0346786c017b4d0d48dd5ab6dfc2
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 92%
+source-wordcount: '1137'
+ht-degree: 93%
 
 ---
 
@@ -22,14 +22,6 @@ Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 
 
 * 유료 검색 마케터에 대한 실적 보고서를 수집해야 하는 **분석가**.
 * 다음 질문에 대한 답변해야 하는 **유료 검색 마케터**: 사이트로 전송하는 트래픽 양은 얼마나 되며, 얼마나 많은 고객이 변환 중입니까? 비용 효율적인 내 광고 캠페인은 무엇입니까?
-
-
-
->[!BEGINSHADEBOX]
-
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising 분석](https://video.tv.adobe.com/v/23119?quality=12&learn=on){target="_blank"}을 참조하십시오.
-
->[!ENDSHADEBOX]
 
 
 ## 사전 요구 사항 {#prerequisites}
