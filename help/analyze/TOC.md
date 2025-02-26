@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
-workflow-type: ht
-source-wordcount: '973'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 100%
       + [세그먼트 관리](legacy-report-builder/data-requests/segmentation.md)
       + 보고서 유형 {#report-types}
          + [보고서 유형 개요](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Report Builder의 경로 및 경로 폴아웃 보고서](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [요청 마법사를 사용하여 경로 보고서 필터링](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [요청 마법사를 사용하여 폴아웃 보고서 필터링](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [종속 요청을 추가하여 경로 보고서 필터링](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)

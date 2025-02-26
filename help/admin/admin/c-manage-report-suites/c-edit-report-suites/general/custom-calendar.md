@@ -4,10 +4,10 @@ title: 사용자 정의 달력
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 97%
+source-wordcount: '561'
+ht-degree: 94%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 97%
 | 사용자 정의 달력 | 매달의 주 수에 따라 세 가지 형식을 제공합니다. 매달의 주 수는 연도의 선택된 첫날에 따라 다릅니다.  1년은 52주이며 이를 4분기로 나누면 분기별로 13주가 있지만, 한 분기는 3개월입니다. 13은 3으로 나눌 수 없으므로 항상 일관되도록 3달 중 한 달에 1주일을 추가로 넣게 됩니다.<ul><li>5/4/4는 분기의 첫 달에 한 주가 추가되었음을 의미합니다. 4/5/4는 둘째 달에 한 주가 추가되었음을 의미합니다. 5-4-4 달력에서는 53번째 주가 한 해의 마지막 분기에 추가됩니다.</li><li>4-5-4: 1월에 4주, 2월에 5주, 3월에 4주가 있는 방식입니다.</li><li>4-4-5: 1월에 4주, 2월에 4주, 3월에 5주가 있는 방식입니다.</li><li>5-4-4: 1월에 5주, 2월에 4주, 3월에 4주가 있는 방식입니다.</li></ul> |
 
 >[!NOTE]
->이러한 달력 옵션은 Data Warehouse를 제외한 모든 Adobe Analytics 도구(Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map)에서 지원됩니다. Data Warehouse는 그레고리력만 완전히 지원합니다. 그레고리력이 아닌 달력을 선택하는 경우, Data Warehouse는 그레고리력이 아닌 달력의 예상 날짜 범위를 사용하지만 보고서 행 내의 일/주/월 분류는 그레고리력이 아닌 달력에서 예상한 것과 다를 수 있습니다.
+>이러한 달력 옵션은 Data Warehouse을 제외한 모든 Adobe Analytics 도구(Analysis Workspace, Report Builder, Activity Map)에서 지원됩니다. Data Warehouse는 그레고리력만 완전히 지원합니다. 그레고리력이 아닌 달력을 선택하는 경우, Data Warehouse는 그레고리력이 아닌 달력의 예상 날짜 범위를 사용하지만 보고서 행 내의 일/주/월 분류는 그레고리력이 아닌 달력에서 예상한 것과 다를 수 있습니다.

@@ -4,9 +4,9 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '1658'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '1463'
 ht-degree: 100%
 
 ---
@@ -134,4 +134,3 @@ Adobe Analytics의 학습 페이지를 사용하여 Adobe Analytics의 초급, �
 | 이전 Reports &amp; Analytics 즐겨찾기가 이월됩니까? | 아니요. 이월되지 않습니다. 단, 모든 [!UICONTROL 작업 영역] 프로젝트 즐겨찾기는 이월됩니다. |
 | 고정할 수 있는 최대 프로젝트 수가 있습니까? | 아니요. 고정할 수 있는 프로젝트 수에는 제한이 없습니다. |
 | 관리자가 사용자를 위해 이 랜딩 페이지를 지정할 수 있습니까? | 아니요. 관리자는 사용자를 대신하여 랜딩 페이지를 지정할 수 없습니다. 개별 사용자가 직접 토글을 켜야 합니다. |
-| [!DNL Reports & Analytics]에 있던 모든 보고서를 계속 템플릿으로 사용할 수 있습니까? | 아니요. 다음 보고서는 전반적인 사용 데이터를 기반으로 폐지되었습니다. <ul><li>모든 사용자 정의 eVar/props/이벤트/분류<li>내 권장 보고서</li><li>시간별/일별/주별/월별/분기별/연간 고유 방문자</li><li>일별/주별/월별/분기별/연간 고유 고객</li><li>작업 이름 깊이</li><li>작업 이름 요약</li><li>대시보드 추가</li><li>연령</li><li>오디오 지원</li><li>결제 정보</li><li>페이지 클릭 수</li><li>색상 심도</li><li>쿠키 지원</li><li>쿠키</li><li>연결 유형</li><li>크리에이티브 요소</li><li>신용카드 유형</li><li>크로스셀</li><li>사용자 정의 이벤트 유입 경로</li><li>사용자 정의 링크</li><li>고객 ID</li><li>요일</li><li>시작 작업 이름</li><li>종료 작업 이름</li><li>종료 링크</li><li>폴아웃</li><li>파일 다운로드</li><li>스토어에서 찾기</li><li>전체 경로</li><li>성별</li><li>히트 유형 VISTA 규칙</li><li>이미지 지원</li><li>Java</li><li>JavaScript</li><li>JavaScript 버전</li><li>책갈피 관리</li><li>대시보드 관리</li><li>모니터 색상 심도</li><li>모니터 해상도</li><li>뉴스레터 신청</li><li>다음 작업 이름</li><li>다음 작업 이름 흐름</li><li>Null 검색</li><li>운영 체제</li><li>주문 검토</li><li>오늘의 페이지</li><li>페이지를 찾을 수 없음</li><li>경로 탐색</li><li>경로 길이</li><li>이전 작업 이름</li><li>이전 작업 이름 흐름</li><li>제품 활동</li><li>제품 비용</li><li>제품 부서</li><li>제품 재고 카테고리</li><li>제품 이름</li><li>제품 검토</li><li>제품 시즌</li><li>제품 공유</li><li>제품 확대/축소</li><li>다시 로드</li><li>검색 결과</li><li>서버</li><li>단일 페이지 방문 횟수</li><li>배송 정보</li><li>사이트 계층</li><li>소셜 언급</li><li>하루 중 시간</li><li>작업 이름에 소요된 시간</li><li>비디오 지원</li><li>방문자 통계</li></ul> |

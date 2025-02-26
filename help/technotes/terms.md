@@ -3,9 +3,9 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 9f7fe19c4d9dd9f3940a64c1e20e897ac6febe52
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2580'
 ht-degree: 89%
 
 ---
@@ -45,14 +45,14 @@ ht-degree: 89%
 * **사용자 정의 링크:** 페이지 조회수 데이터가 아닌 데이터가 포함된 히트 유형입니다. 구현 사용 안내서에서 [s.tl () 함수](../implement/vars/functions/tl-method.md)를 참조하십시오. 히트도 참조하십시오.
 * **고객 속성:** 속성 데이터를 업로드할 수 있는 Experience Cloud 기능입니다. 핵심 서비스 사용 안내서에서 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)을 참조하십시오.
 * **데이터 수집 서버:** 데이터를 받고 처리하는 Adobe 소유 서버입니다. 이미지 요청은 보고에 사용하기 위해 Adobe의 데이터 수집 서버로 전송됩니다.
-* **Data Connectors:** 타사에서 Adobe Analytics으로 데이터 업로드를 자동화할 수 있는 폐기된 개발 솔루션입니다. 해당 서드파티 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. [Adobe Exchange 마켓플레이스](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE)(으)로 대체되었습니다.
+* **Data Connectors:** 타사에서 Adobe Analytics으로 데이터 업로드를 자동화할 수 있는 폐기된 개발 솔루션입니다. 해당 서드파티 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. [Adobe Exchange 마켓플레이스](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE)&#x200B;(으)로 대체되었습니다.
 * **데이터 피드:** 모든 히트를 행으로 나열하고 변수를 별도의 열로 나열하는 원시 데이터 내보내기입니다. Adobe Analytics 데이터를 서드파티 데이터베이스로 내보내는 데 가장 일반적으로 사용됩니다. 내보내기 사용 안내서에서 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)를 참조하십시오.
 * **데이터 계층:** [데이터 계층](/help/implement/prepare/data-layer.md)은(는) Analytics 구현에 사용된 변수 값을 포함하는 사이트의 JavaScript 개체의 프레임워크입니다. Analytics 변수에 값을 할당할 때 보다 세밀하게 제어하고 쉽게 유지 관리할 수 있습니다.
 * **데이터 소스:** 사용자가 파일의 데이터를 Adobe Analytics에 업로드할 수 있습니다. 파일은 일반적으로 FTP 사이트에서 가져옵니다. 가져오기 사용 안내서에서 [데이터 소스](/help/import/data-sources/overview.md)를 참조하십시오.
 * **Data Warehouse:** 더 큰 보고서를 요청할 수 있는 Adobe Analytics의 기능입니다. 내보내기 사용 안내서에서 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)를 참조하십시오.
 * **Data Workbench:** 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하기 위해 고안된 [중단](https://experienceleague.adobe.com/ko/docs/discontinued/using/data-workbench) 분석 도구입니다.
-* **Dimension:** Dimension은 성별, 월, 연령, 충성도, 모니터 해상도 등과 같이 숫자가 아닌 값과 날짜입니다. 다른 예로는 페이지 이름, 추적 코드 또는 참조 도메인이 있습니다. 지표는 일반적으로 지표 상대가 있습니다.
-* **Dimension 분류:** 각 차원을 더 세부적인 수준으로 분류할 수 있습니다. 예를 들어 &quot;월&quot; 차원은 1월, 2월, 3월 등으로 분류할 수 있습니다.
+* **Dimension:** 차원은 성별, 월, 연령, 충성도, 모니터 해상도 등과 같이 숫자가 아닌 값과 날짜입니다. 다른 예로는 페이지 이름, 추적 코드 또는 참조 도메인이 있습니다. 지표는 일반적으로 지표 상대가 있습니다.
+* **Dimension 분류:** 각 차원을 보다 세부적인 수준으로 분류할 수 있습니다. 예를 들어 &quot;월&quot; 차원은 1월, 2월, 3월 등으로 분류할 수 있습니다.
 * **이벤트 일련화:** 중복 이벤트 수집을 방지하기 위한 조치를 구현하는 프로세스입니다. 구현 사용 안내서에서 [이벤트 일련화](../implement/vars/page-vars/events/event-serialization.md)를 참조하십시오.
 * **eVar:** 전환 변수를 참조하십시오.
 * **이벤트:** 성공 이벤트를 참조하십시오.
@@ -89,9 +89,9 @@ ht-degree: 89%
 * **속성:** 트래픽 변수를 참조하십시오.
 * **등급 보고서:** 일반적으로 지표를 사용하여 차원을 따르는 보고서 형식입니다. 이 유형의 보고서에서는 사이트에서 가장 많이 본 페이지와 같은 상위 항목을 볼 수 있습니다. 트렌드 보고서도 참조하십시오.
 * **실시간:** 지연이 거의 없는 상태로 구성된 변수를 수집하는 즉시 표시합니다. 관리 사용 안내서에서 [실시간 보고서](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)를 참조하십시오.
-* **Report Builder:** Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) 추가 기능을 사용하면 Adobe Analytics 데이터에서 사용자 지정 요청을 작성할 수 있습니다.
+* **Report Builder:** Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) 추가 기능을 사용하여 Adobe Analytics 데이터에서 사용자 지정 요청을 작성할 수 있습니다.
 * **보고서 세트:** 데이터를 보내는 중요한 컨테이너입니다. Adobe Analytics의 모든 보고서는 보고서 세트를 참조합니다.
-* **Reports &amp; Analytics:** 이제 보고 및 분석을 위한 더 이상 사용되지 않는 브라우저 솔루션입니다. 이 도구는 [서비스가 중단](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)되었습니다.
+* **Reports &amp; Analytics:** 이 도구는 [사용 중지](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)되었습니다.
 * **롤링 날짜 범위:** 시간이 경과함에 따라 변경되는 상대적 날짜 범위의 유형입니다. 예를 들어 최근 7일을 보여 주는 보고서를 롤링 날짜 범위로 간주할 수 있습니다. 정적 날짜 범위도 참조하십시오.
 * **RSID:** 보고서 세트 ID의 약어입니다. 보고서 세트에는 친숙한 이름과 보고서 세트 ID가 모두 있습니다.
 * **s.t ():** 페이지 조회수 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()`을 대신 사용합니다. 구현 사용 안내서에서 [t](../implement/vars/functions/t-method.md)를 참조하십시오.
