@@ -3,9 +3,9 @@ description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 �
 title: 순차적 세그먼트 작성
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
+source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2420'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 6%
 
 ## [!UICONTROL 이후] 및 [!UICONTROL 내부]
 
-**[!UICONTROL Then]** 연산자에서 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]**&#x200B;을(를) 사용하여 [시간 제약 조건](#time-constraints) 또는 [히트, 방문 또는 Dimension에 대한 제약 조건](#event-session-and-dimension-constraints)을 추가로 정의할 수 있습니다.
+**[!UICONTROL Then]** 연산자에서 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]**&#x200B;을(를) 사용하여 [시간 제약 조건](#time-constraints) 또는 [히트, 방문 또는 차원에 대한 제약 조건](#event-session-and-dimension-constraints)을 추가로 정의할 수 있습니다.
 
 ### 시간 제한
 
@@ -120,7 +120,7 @@ ht-degree: 6%
 2024년 6월 1일에 홈 페이지를 히트하고 여성 을(를) 방문하기 위해 돌아오는 모든 방문자 | 2019년 6월 15일 이후, 그러나 2019년 7월 1일 이전에 게시된 신발 페이지는 세그먼트에 해당됩니다.
 
 
-### [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL Dimension] 제약 조건
+### [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL Dimension] 제한
 
 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 히트, 방문 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 히트]**, **[!UICONTROL 방문]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
 
@@ -299,3 +299,7 @@ An example of a complex sequential segment if you want to find the visitors that
 
 
 ![복잡한 순차적 세그먼트 예](assets/sequential-complex.png)
+
+>[!MORELIKETHIS]
+>
+> * [AA 및 CJA에서 순차적 논리 마스터하기: THEN 소개](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
