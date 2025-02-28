@@ -4,10 +4,10 @@ description: Adobe Analytics에서 보트를 제거하는 방법
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 81%
+source-wordcount: '791'
+ht-degree: 78%
 
 ---
 
@@ -95,3 +95,10 @@ Data Warehouse 보고서가 도착하면 내역 데이터에서 필터링해야 
 ### 7단계: 2~4단계를 정기적으로 반복 수행
 
 정기적으로 예약된 분석을 수행하기 전에 적어도 월별 미리 알림을 설정하여 새 보트를 식별하고 필터링합니다.
+
+>[!MORELIKETHIS]
+>
+>* [향상된 봇 차단(1부): 기본 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [향상된 보트 차단(2부): 보트 식별 및 CIDR 활용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [향상된 봇 차단(3부): 히트 관리자](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+
