@@ -4,9 +4,9 @@ description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 5e97c9a4a3c7368cefb3cc6a7bc89a450e6e3f4a
+source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 56%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 56%
 
 다음 표는 Adobe Experience Platform Edge Network이 Adobe Analytics에 자동으로 매핑하는 XDM 변수를 보여 줍니다. 이러한 XDM 필드 경로를 사용하는 경우 Adobe Analytics으로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다. 이러한 필드는 **[!UICONTROL Adobe Analytics ExperienceEvent 템플릿]** 필드 그룹에 포함되어 있습니다. Adobe Analytics과 Adobe Experience Platform 모두에 데이터를 전송하려면 이러한 필드를 사용하는 것이 좋습니다.
 
-조직에서 Customer Journey AnalyticsAdobe 으로 이동하려는 경우 `data` 개체를 대신 사용하여 스키마를 준수하지 않고 데이터를 Adobe Analytics으로 직접 전송하는 것이 좋습니다. 이 전략을 사용하면 조직에서 [!UICONTROL Adobe Analytics ExperienceEvent Template](Customer Journey Analytics에 적용할 수 없음)을 사용하는 대신 고유한 스키마를 사용할 수 있습니다. 유사한 매핑 테이블이 필요하면 [Adobe Analytics에 대한 데이터 개체 변수 매핑](data-var-mapping.md)을 참조하십시오.
+조직에서 Customer Journey AnalyticsAdobe 로 이동하려는 경우 대신 `data` 개체를 사용하여 스키마를 준수하지 않고 데이터를 Adobe Analytics으로 직접 전송하는 것이 좋습니다. 이 전략을 사용하면 조직에서 [!UICONTROL Adobe Analytics ExperienceEvent Template]&#x200B;(Customer Journey Analytics에는 적용되지 않음)을 사용하는 대신 고유한 스키마를 사용할 수 있습니다. 유사한 매핑 테이블이 필요하면 [Adobe Analytics에 대한 데이터 개체 변수 매핑](data-var-mapping.md)을 참조하십시오.
 
 ## 값 우선 순위
 
-이 테이블의 XDM 개체 필드는 대부분 [데이터 개체 필드](data-var-mapping.md)와(과) 일치합니다. 주어진 XDM 개체 필드와 해당 데이터 개체 필드를 모두 설정하면 데이터 개체 필드가 우선합니다. XDM 개체 필드와 데이터 개체 필드를 모두 사용하는 경우 데이터 개체 필드를 사용하여 Adobe 정의 이벤트를 설정하는 것이 좋습니다. 필드 `data.__adobe.analytics.events`이(가) 있으면 상거래 및 사용자 지정 이벤트와 관련된 모든 XDM 개체 필드를 덮어씁니다.
+이 테이블의 XDM 개체 필드는 대부분 [데이터 개체 필드](data-var-mapping.md)와(과) 일치합니다. 주어진 XDM 개체 필드와 해당 데이터 개체 필드를 모두 설정하면 데이터 개체 필드가 우선합니다. Adobe XDM 개체 필드와 데이터 개체 필드를 모두 사용하는 경우 데이터 개체 필드를 사용하여 사용자 지정 이벤트를 설정하는 것이 좋습니다. 필드 `data.__adobe.analytics.events`이(가) 있으면 상거래 및 사용자 지정 이벤트와 관련된 모든 XDM 개체 필드를 덮어씁니다.
 
 ## XDM 오브젝트 필드 매핑
 
@@ -66,6 +66,7 @@ ht-degree: 56%
 | `xdm.environment.carrier` | 모바일 라이프사이클 차원 [통신사 이름](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | [연결 유형](../../components/dimensions/connection-type.md) 차원을 설정하는 데 도움이 됩니다. |
 | `xdm.environment.ipV4` | 대체 [고유 방문자](../../components/metrics/unique-visitors.md) 식별 방법으로 사용됩니다 일반적으로 `X-Forwarded-For` HTTP 헤더를 사용하여 채워집니다. |
+| `xdm.environment._dc.language` | 모바일 차원 로케일. |
 | `xdm.environment.language` | 모바일 차원 로케일. |
 | `xdm.environment.operatingSystem` | 모바일 라이프사이클 차원 [운영 체제](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | 모바일 라이프사이클 차원 [운영 체제 버전](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)을 설정하는 데 도움이 됩니다. |
