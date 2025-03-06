@@ -3,10 +3,10 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d8a715444a3f6876c4ed9e08e3dcbd6a02d96d9d
-workflow-type: ht
+source-git-commit: ace906a4b5acf1ab667529af33dd5be1618863f2
+workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 ## AppMeasurement
 
-AppMeasurement 릴리스(버전 2.26.0)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)를 참조하십시오.
+AppMeasurement 릴리스(버전 2.27.0)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 노트](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)를 참조하십시오.
 
 
 ## 관련 리소스
