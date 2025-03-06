@@ -4,10 +4,10 @@ description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
+source-git-commit: 41395781f34d395954a1fc9de0351e4c63c1d6f8
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 56%
+source-wordcount: '1425'
+ht-degree: 55%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 56%
 | `xdm.environment.carrier` | 모바일 라이프사이클 차원 [통신사 이름](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | [연결 유형](../../components/dimensions/connection-type.md) 차원을 설정하는 데 도움이 됩니다. |
 | `xdm.environment.ipV4` | 대체 [고유 방문자](../../components/metrics/unique-visitors.md) 식별 방법으로 사용됩니다 일반적으로 `X-Forwarded-For` HTTP 헤더를 사용하여 채워집니다. |
-| `xdm.environment._dc.language` | 모바일 차원 로케일. |
+| `xdm.environment._dc.language` | 모바일 차원 로케일. xdm.environment.language가 설정되지 않은 경우에만 사용됩니다. |
 | `xdm.environment.language` | 모바일 차원 로케일. |
 | `xdm.environment.operatingSystem` | 모바일 라이프사이클 차원 [운영 체제](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | 모바일 라이프사이클 차원 [운영 체제 버전](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)을 설정하는 데 도움이 됩니다. |
