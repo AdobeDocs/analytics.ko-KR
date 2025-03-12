@@ -4,10 +4,10 @@ title: 레이블 지정의 예
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 78%
+source-wordcount: '723'
+ht-degree: 72%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 78%
 
 ## 샘플 삭제 요청 {#delete}
 
-삭제 요청에 표의 첫 번째 행에 있는 API 값을 사용하면 히트 표가 다음과 같이 업데이트됩니다.
+삭제 요청에 테이블의 첫 번째 행에 있는 API 값을 사용하면 히트 테이블이 다음과 같이 업데이트됩니다.
 
 <table>
   <tr>
@@ -366,8 +366,4 @@ ht-degree: 78%
 다음 사항을 참고하십시오.
 
 * `user=Mary`과 `DEL-PERSON` 레이블을 포함하는 행의 셀만 영향을 받습니다.
-* ID 확장 때문에 `AAID=77`, `AAID=88` 또는 `AAID=99`(이는 `user=Mary`를 포함하는 행의 AAID 값) 그리고 `DEL-DEVICE` 레이블을 포함하는 행의 셀이 영향을 받습니다. 여기에는 `user=Mary`인 행에서 `DEL-DEVICE` 레이블을 갖는 셀이 포함됩니다. 이 때문에 `DEL-DEVICE` 레이블(AAID, MyEvar2 및 MyEvar3)을 갖는 4와 5행(그리고 1-3행)의 셀은 난독화됩니다.
-* expandID 설정은 `user=Mary`일 때 ID-DEVICE 레이블이 있는 MyEvar3(`X`, `Y` 그리고 `Z`)에 있는 값을 포함하는 호출까지 확장되지 않습니다. ExpandID는 `user=Mary`인 행의 방문자 ID(이 예에서는 AAID이지만 ECID도 포함)만 포함하도록 확장됩니다. 따라서 MyEvar3 값 `X`과 `Z`를 포함하는 마지막 두 행은 영향을 받지 않습니다.
-* 이들 행에는 첫 번째 및 두 번째 행과 같은 방문자 ID 값(`77`와 `88`)이 포함되어 있기 때문에 네 번째 및 다섯 번째 행의 `MyEvar2`이 업데이트됩니다. 따라서 ID 확장에는 디바이스 수준의 삭제에 대한 값이 포함됩니다.
-* 2행과 5행의 `MyEvar2` 값은 삭제 전과 후 모두 일치합니다. 단, 해당 행은 삭제 요청의 일부로 업데이트된 행이 아니기 때문에 일단 삭제가 되면 마지막 행에 발생한 값 `N`과 더 이상 일치하지 않습니다.
-* `MyEvar3`는 ID 확장을 하지 않은 경우와는 전혀 다르게 작동합니다. ID 확장을 하지 않으면 일치하는 `ID-DEVICES`가 없기 때문입니다. 이제 `AAID`는 첫 5행과 일치합니다.
+

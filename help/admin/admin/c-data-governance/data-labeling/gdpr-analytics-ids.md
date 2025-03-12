@@ -4,10 +4,10 @@ title: 레이블 지정 우수 사례
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '2830'
-ht-degree: 88%
+source-wordcount: '2287'
+ht-degree: 91%
 
 ---
 
@@ -51,7 +51,7 @@ I1, I2, S1 및 S2 레이블은 Adobe Experience Platform에서 대응적으로 �
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html"> (기존) Analytics 쿠키 </a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> 이전에 MCID(Marketing Cloud ID)로 알려진 ECID(<a href="https://experienceleague.adobe.com/docs/id-service/using/home.html">ID 서비스 쿠키</a>) </li> 
     </ul> </td> 
-   <td colname="col2"> <p>이러한 쿠키는 디바이스, 그중에서도 디바이스 사용자의 브라우저를 식별합니다. 공통 로그인이 사용되는 공유된 디바이스의 경우 이 ID는 디바이스의 모든 사용자에게 적용될 수 있습니다. Adobe는 사용자가 이러한 쿠키를 데이터 개인정보 보호 요청에 사용할 수 있도록 하려는 경우 해당 쿠키를 수집하기 위해 웹 사이트에 배치할 수 있는 일부 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">통합 JavaScript</a>를 만들었습니다. </p> <p>Adobe Analytics Mobile SDK 사용자도 ECID (Experience Cloud ID)가 있습니다. SDK 내에 이 ID를 읽는 API 호출이 있으므로, 데이터 개인정보 보호 요청에 대해 해당 ID를 수집하도록 앱을 향상시킬 수 있습니다. </p> <p>많은 회사에서 브라우저 쿠키 ID를 공유된 디바이스의 ID로 간주합니다. 따라서 법무팀과 상의하여 데이터 개인 정보 보호 요청 시 허용 가능한 ID로 사용하는 것을 지원하지 않도록 선택할 수 있습니다. 또는 이러한 ID를 사용될 때 매우 제한된 양의 데이터만 반환하도록 선택하거나 삭제 요청에 대해서만 허용할 수 있습니다. </p> <p>이러한 쿠키에는 I2 및 DEL-DEVICE 레이블뿐만 아니라 변경할 수 없는 ID-DEVICE 레이블이 있습니다. 기본 Adobe Analytics 구성은 디바이스 유형, OS, 브라우저 등과 같은 디바이스에 대한 일반 정보와 이러한 ID를 사용할 때 웹 사이트를 방문한 시간/날짜만 반환합니다. 그러나 데이터 개인정보 보호 요청에 대해 이러한 ID를 지원하도록 선택하는 경우, 아래 설명된 대로 ACC-ALL 레이블을 추가하거나 제거하여 데이터 개인정보 보호 액세스 요청에 대해 반환하려는 정확한 필드 집합을 구성할 수 있습니다. </p> <p>보고서 세트가 로그인이 필요한 모바일 앱에 해당하는 경우, 디바이스의 Experience Cloud ID가 특정 사용자에 해당하는지 결정할 수 있습니다. 이 경우 방문한 페이지 이름, 본 제품 등을 포함하여 더 많은 필드에 ACC-ALL 레이블을 지정할 수 있습니다. </p> <p>참고: 데이터 개인정보 보호 요청에 "expandIds" 옵션을 지정하는 경우 요청에 사용자가 지정한 다른 ID 외에도 항상 쿠키 ID가 포함됩니다. 자세한 내용은 <a href="/help/admin/admin/c-data-governance/gdpr-id-expansion.md">ID 확장</a>을 참조하십시오. 이러한 경우 쿠키 ID만 있고 다른 ID는 없는 히트는 액세스 요청의 일부로 데이터 레이블이 지정된 ACC-ALL만 반환합니다. </p> </td> 
+   <td colname="col2"> <p>이러한 쿠키는 디바이스, 그중에서도 디바이스 사용자의 브라우저를 식별합니다. 공통 로그인이 사용되는 공유된 디바이스의 경우 이 ID는 디바이스의 모든 사용자에게 적용될 수 있습니다. Adobe는 사용자가 이러한 쿠키를 데이터 개인정보 보호 요청에 사용할 수 있도록 하려는 경우 해당 쿠키를 수집하기 위해 웹 사이트에 배치할 수 있는 일부 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">통합 JavaScript</a>를 만들었습니다. </p> <p>Adobe Analytics Mobile SDK 사용자도 ECID (Experience Cloud ID)가 있습니다. SDK 내에 이 ID를 읽는 API 호출이 있으므로, 데이터 개인정보 보호 요청에 대해 해당 ID를 수집하도록 앱을 향상시킬 수 있습니다. </p> <p>많은 회사에서 브라우저 쿠키 ID를 공유된 디바이스의 ID로 간주합니다. 따라서 법무팀과 상의하여 데이터 개인 정보 보호 요청 시 허용 가능한 ID로 사용하는 것을 지원하지 않도록 선택할 수 있습니다. 또는 이러한 ID를 사용될 때 매우 제한된 양의 데이터만 반환하도록 선택하거나 삭제 요청에 대해서만 허용할 수 있습니다. </p> <p>이러한 쿠키에는 I2 및 DEL-DEVICE 레이블뿐만 아니라 변경할 수 없는 ID-DEVICE 레이블이 있습니다. 기본 Adobe Analytics 구성은 디바이스 유형, OS, 브라우저 등과 같은 디바이스에 대한 일반 정보와 이러한 ID를 사용할 때 웹 사이트를 방문한 시간/날짜만 반환합니다. 그러나 데이터 개인정보 보호 요청에 대해 이러한 ID를 지원하도록 선택하는 경우, 아래 설명된 대로 ACC-ALL 레이블을 추가하거나 제거하여 데이터 개인정보 보호 액세스 요청에 대해 반환하려는 정확한 필드 집합을 구성할 수 있습니다. </p> <p>보고서 세트가 로그인이 필요한 모바일 앱에 해당하는 경우, 디바이스의 Experience Cloud ID가 특정 사용자에 해당하는지 결정할 수 있습니다. 이 경우 방문한 페이지 이름, 본 제품 등을 포함하여 더 많은 필드에 ACC-ALL 레이블을 지정할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 정의 변수의 ID </p> </td> 
@@ -83,8 +83,6 @@ I1, I2, S1 및 S2 레이블은 Adobe Experience Platform에서 대응적으로 �
 * 마찬가지로, 필드에 ID-PERSON 레이블이 있는 경우 DEL-PERSON 레이블도 지정해야 합니다.
 * 필드에 ID- 레이블이 없지만 익명 처리할 식별 정보가 포함된 경우, 구현에 따라 적합한 레이블 (DEVICE 또는 PERSON)이 달라집니다. 데이터 개인정보 보호 요청에 쿠키 ID만 사용하는 경우 DEL-DEVICE를 사용해야 합니다.
 * ID-PERSON 레이블이 있는 다른 필드에서 사용자 정의 ID를 사용하고 해당 ID가 발생하는 행에서만 지워지도록 하려면 DEL-PERSON을 사용합니다.
-* ID 확장을 사용 중이며 식별된 모든 디바이스에서 모든 히트에 대한 값을 모두 지우려면 DEL-DEVICE를 사용합니다. 이 경우 원한다면 DEL-DEVICE 레이블과 DEL-PERSON 레이블을 모두 적용할 수 있지만, ID 확장은 사용자 ID와 일치하는 모든 행이 디바이스 ID와도 일치함을 의미하므로 DEL-PERSON 레이블이 필요하지 않습니다.
-* ID 확장을 사용하도록 지정하지는 않지만 서로 다른 요청에 대해 디바이스와 개인 ID를 혼합하여 사용할 경우, 이 중 한 유형의 ID가 사용되면 삭제되어야 하는 변수에 대해 DEL-DEVICE와 DEL-PERSON 레이블을 둘 다 지정할 수 있습니다.
 * 해당 요청 (확장된 ID 포함)에 대한 ID로도 사용되지 않는 변수에 DEL-DEVICE 또는 DEL-PERSON 레이블이 지정된 경우 해당 변수의 고유 값은 지정된 (또는 확장된) ID가 발생하는 히트에 대해서만 익명으로 지정됩니다. 다른 히트에 동일한 값이 있는 경우 해당 값은 그러한 다른 위치에서 업데이트되지 않습니다. 이로 인해 카운트 (지표)가 변경될 수 있습니다.
 
   예를 들어 eVar7에 &quot;foo&quot; 값을 포함하는 히트가 세 개 있지만, 이들 중 하나만 삭제에 대해 일치하는 다른 변수의 ID를 포함하는 경우 해당 히트의 &quot;foo&quot;는 &quot;데이터 개인정보 보호-123456789&quot;와 같은 값으로 수정되고 다른 두 히트에서는 변경되지 않습니다. eVar7에 대한 고유 값 수를 표시하는 보고서에는 이전에 수행한 것보다 한 개 더 많은 고유한 값이 표시됩니다. eVars의 최상위 값을 표시하는 보고서에는 두 개 (이전의 3개가 아님)의 인스턴스만 있는 &quot;foo&quot;가 포함될 수 있고, 단일 인스턴스가 있는 새 값도 표시됩니다.
@@ -104,14 +102,6 @@ I1, I2, S1 및 S2 레이블은 Adobe Experience Platform에서 대응적으로 �
   <tr> 
    <td colname="col1"> <p>디바이스 ID만 </p> </td> 
    <td colname="col2"> <p>사용 중인 유일한 ID가 쿠키 ID이거나 ID-DEVICE 레이블이 있는 ID인 경우 ACC-ALL 레이블만 사용해야 합니다. </p> <p>각 액세스 요청에 대해 지정된 모든 ACC-ALL 필드가 있는 일치하는 각 히트에 대한 행이 포함된 파일과 이 데이터의 요약이 포함된 요약 파일, 이렇게 한 쌍의 파일을 가져옵니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID 확장이 없는 개인 ID </p> </td> 
-   <td colname="col2"> <p>ID-PERSON 레이블이 있는 사용자 정의 ID만 사용하고 ID 확장을 수행하지 않는 경우에는 ACC-PERSON 레이블을 사용해야 합니다. 하지만 기본 ACC-ALL 레이블을 변경할 필요는 없습니다. 이러한 필드는 액세스 요청에 자동으로 포함됩니다. </p> <p>각 액세스 요청에 대해 지정된 모든 ACC-DEVICE 및 ACC-PERSON 필드가 있는 일치하는 각 히트에 대한 행이 포함된 파일 하나와 이 데이터의 요약이 포함된 요약 파일, 이렇게 한 쌍의 파일을 가져옵니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>혼합 ID 및/또는 ID 확장 </p> </td> 
-   <td colname="col2"> <p>데이터 개인정보 보호 요청에 디바이스와 개인 ID를 모두 포함하거나 사용자 정의 ID (사용자 정의 방문자 ID 또는 prop이나 eVar의 ID)를 사용하는 경우 사용하는 ACC 레이블에 주의를 기울여야 합니다. 각 액세스 요청은 두 쌍의 데이터 파일을 반환합니다. <p>일치하는 개인 ID가 포함된 히트의 데이터가 포함된 파일과 개인 ID가 일치하지 않지만 장치 ID가 일치하는 히트의 데이터가 포함된 파일 쌍. </p> <p>다른 쌍의 ("개인 ID") 파일에는 ACC-PERSON 또는 ACC-ALL 레이블이 있는 모든 필드와 개인 ID가 일치하는 모든 히트의 데이터가 포함됩니다. 일치하는 모든 히트가 있는 파일과 이 데이터의 요약이 포함된 다른 요약 파일. </p> <p>“device ID” 파일 쌍에는 ACC-ALL 레이블이 있는 필드만 포함되며, 일치하는 개인 ID가 포함되지 않은 히트만 포함됩니다. 이러한 파일에는 공유된 디바이스의 다른 사용자가 생성한 데이터가 포함되어 있을 수 있으므로 ACC-ALL 레이블이 포함된 필드 세트를 주의해서 고려해야 합니다. Analytics 내의 기본 레이블 지정은 디바이스 (디바이스 유형, OS, 브라우저 등) 및 각 히트의 날짜/시간과 관련된 일반 정보 필드에만 이 레이블을 적용합니다. </p> <p>공유된 디바이스의 다른 사용자가 생성했을 수 있는 데이터를 공유하지 않도록 Adobe에서 디바이스 및 개인 파일 세트를 모두 수신한 다음 해당 사용자의 파일만 공유하도록 선택할 수 있습니다. 또는 데이터 주체에 대해 알고 있는 다른 정보와 한 세트 또는 두 세트 모두의 데이터를 결합하여 고유한 형식으로 반환할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
