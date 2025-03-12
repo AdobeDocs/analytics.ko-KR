@@ -3,48 +3,46 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ace906a4b5acf1ab667529af33dd5be1618863f2
+source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 97%
+source-wordcount: '730'
+ht-degree: 53%
 
 ---
 
-# 현재 Adobe Analytics 릴리스 정보 (2025년 2월 릴리스)
+# 최신 Adobe Analytics 릴리스 정보 (2025년 3월 릴리스)
 
-**마지막 업데이트**: 2025년 2월 21일
+**마지막 업데이트**: 2025년 3월 12일 목요일
 
-이번 릴리스 정보에는 2025년 2월 11일부터 3월 중순까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2025년 3월 5일부터 5월까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **거래 ID 보존 기간** | 90일이었던 거래 ID 보존 기간이 25개월로 연장되었습니다. `transactionID` 변수는 데이터 소스를 통해 업로드된 데이터에 히트가 연결될 수 있도록 거래를 고유하게 식별합니다. [여기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/page-vars/transactionid) 및 [여기](https://experienceleague.adobe.com/ko/docs/analytics/import/data-sources/transactionid)에서 자세히 알아보십시오. |  | 2025년 2월 20일 |
-| **데이터 피드 API 참조** | 이제 데이터 피드 API에 대한 [참조](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)를 사용할 수 있습니다. |  | 2025년 1월 30일 |
-| **라이브스트림 API - 클라이언트 구현** | Livestream 클라이언트 구현을 통해 Livestream 데이터를 사용합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025년 2월 18일 |
-| **분류 API 업데이트** | 이제 서버에서 개별 분류 필드 또는 키를 제거할 수 있습니다. 이는 DELETE 메서드를 사용하여 전체 분류 데이터 세트를 삭제하는 대신 사용할 수 있는 대안을 제공합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025년 2월 18일 |
-| **Analytics 컨텍스트 데이터 필드 업데이트`a.locale`** | 예정된 업데이트 이후 Experience Edge를 통해 데이터를 수집할 때 Analytics 컨텍스트 데이터 필드 `a.locale`이 설정되는 방식이 변경됩니다. Experience Edge를 사용하여 Adobe Analytics로 데이터를 전송하면 XDM 필드의 매핑을 기반으로 Analytics 필드가 채워집니다. `c.a.locale`에 대한 매핑은 비표준 XDM 필드인 `xdm.environment.language`를 참조합니다. 이 필드는 올바른 필드 `xdm.environment._dc.language`를 참조하도록 업데이트됩니다.<p>해당 매핑은 이전 버전과의 호환성을 유지하기 위해 `xdm.environment.language`를 계속 참조합니다. 연속성을 위해 두 필드가 모두 설정된 경우 `xdm.environment.language`가 우선 적용됩니다. XDM에서 표준 Analytics 필드로 매핑되는 전체 목록은 [여기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping)에서 확인할 수 있습니다. | | 2025년 3월 5일 |
+| **Analytics 컨텍스트 데이터 필드 업데이트`a.locale`** | 이 업데이트는 Experience Edge을 통해 데이터를 수집할 때 Analytics 컨텍스트 데이터 필드 `a.locale`을(를) 설정하는 방법을 변경합니다. Experience Edge를 사용하여 Adobe Analytics로 데이터를 전송하면 XDM 필드의 매핑을 기반으로 Analytics 필드가 채워집니다. `c.a.locale`에 대한 매핑은 비표준 XDM 필드인 `xdm.environment.language`를 참조합니다. 이 필드는 올바른 필드 `xdm.environment._dc.language`를 참조하도록 업데이트됩니다.<p>해당 매핑은 이전 버전과의 호환성을 유지하기 위해 `xdm.environment.language`를 계속 참조합니다. 연속성의 경우 두 필드가 모두 설정되면 `xdm.environment.language`이(가) 우선합니다. XDM에서 표준 Analytics 필드로 매핑되는 전체 목록은 [여기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping)에서 확인할 수 있습니다. | | 2025년 3월 5일 |
+| **Customer Journey Analytics 업그레이드 안내서** | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위한 단계별 안내서를 생성할 수 있습니다. 이 안내서는 조직에 맞게 구성되어 있으며 현재 Adobe Analytics 환경, Customer Journey Analytics의 사용 목적 및 조직에서 수행하려는 시간 절약 요약을 고려합니다.<p>사용자 지정 가이드를 생성하려면 [!DNL Customer Journey Analytics]에 로그인한 다음 **[!UICONTROL Customer Journey Analytics]** 탭에서 **[!UICONTROL Workspace으로 업그레이드]**&#x200B;를 선택합니다.<p>[자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025년 3월 11일 수요일 |
+| **Data Warehouse 전용 차원** | 2025년 5월부터 Adobe은 카디널리티가 매우 높은 차원(eVar 및 prop과 같은 사용자 지정 변수)을 &#39;Data Warehouse 전용&#39;으로 설정할 예정입니다. 높은 카디널리티 변수에는 많은 고유한 값이 있습니다. 예로는 타임스탬프 또는 UUID가 있습니다. Analysis Workspace에서는 이러한 차원을 더 이상 보고에 사용할 수 없습니다.<p>이 변경에 대한 후보는 해당 월의 매우 이른 시간에 낮은 트래픽 제한을 초과하는 차원입니다. 이러한 유형의 차원을 사용하면, 보고 가능한 데이터가 수집된 초기 값의 얇은 부분만 나타내므로 이 차원을 기반으로 하는 Analysis Workspace의 보고서가 유용하지 않습니다.<p>Data Warehouse에는 낮은 트래픽 제한이 적용되지 않으므로 이러한 유형의 차원을 기반으로 유용한 보고서나 세그먼트를 작성할 수 있습니다. | | 2025년 5월 |
 
 
 ## Adobe Analytics의 수정 사항
 
-**Analysis Workspace**: AN-359974; AN-366212; AN-368460
-**분류**: AN-367186; AN-367328; AN-368548
-**구성 요소 마이그레이션**: AN-364529; AN-366398; AN-367509;
-**데이터 피드**: AN-365685; AN-366745; AN-367256; AN-367349; AN-368363
-**Data Warehouse**: AN-368178; AN-368331;
-**모바일 앱**: AN-367137
-**플랫폼**: AN-351924; AN-365540; AN-365866; AN-366898; AN-367856; AN-367933
-**Report Builder**: AN-366456; AN-366655;
-**가상 보고서 세트**: AN-367411
-**Vista 규칙**: AN-365331
+**Activity Map**: AN-361038
+**관리 도구**: AN-362178; AN-369483
+**Analytics API 1.4**: AN-369615
+**Analysis Workspace**: AN-353491; AN-363403; AN-367230; AN-367313; AN-368582; AN-369821; AN-370227;
+**분류**: AN-369848; AN-370196; AN-370226; AN-370437
+**데이터 피드**: AN-366162; AN-368906; AN-369066; AN-369087; AN-369225; AN-369798
+**데이터 거버넌스**: AN-365157
+**데이터 소스**: AN-367550
+**플랫폼**: AN-363931
+**Report Builder**: AN-367460; AN-368975
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **캠페인 고객이 아닌 사용자는 트리거에 대한 액세스 권한을 잃게 됩니다.** | 2023년 10월 16일 | 2025년 1월 30일부터 Adobe Campaign 라이선스가 없는 Adobe Analytics 고객은 [트리거](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/triggers)를 구성하고 사용할 수 있는 액세스 권한을 상실합니다. 고객은 Campaign을 구매하거나 트리거 사용을 중단하거나 트리거 기능을 제공하는 다른 Adobe 도구를 확인해야 합니다. |
+| 해당 사항 없음 |  |  |
 
 ## 서비스 종료(EOL) 알림 {#eol}
 
@@ -61,7 +59,7 @@ AppMeasurement 릴리스(버전 2.27.0)에 대한 최신 업데이트는 [JavaSc
 
 ## 관련 리소스
 
-* [2024년 이전 릴리스 정보](/help/release-notes/2024.md)
+* [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
 * [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 * [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
