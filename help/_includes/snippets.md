@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca1e86606454c2f906cef0cc1d1a9d1c67cedf0e
+source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2353'
 ht-degree: 36%
 
 ---
@@ -11,14 +11,14 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->간소화된 새 [Report Builder](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview)이 2024년 10월 16일에 릴리스되었습니다. Mac, Windows 및 웹 브라우저에서 지원됩니다.
+>간소화된 새 [Report Builder](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview)이(가) 2024년 10월 16일에 릴리스되었습니다. Mac, Windows 및 웹 브라우저에서 지원됩니다.
 >이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [기존 통합 문서를 새 Report Builder으로 변환](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)할 수 있습니다.
 
 ## Reports &amp; Analytics 서비스 종료 공지 {#ra-eol}
 
 >[!IMPORTANT]
 >
->**2024년 1월 17일**&#x200B;부터 Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서와 기능을 중단했습니다. 그 당시 Reports &amp; Analytics와 모든 해당 보고서 및 일정이 작동을 멈췄습니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. Analysis Workspace에서 보고서를 사용하는 방법에 대한 자세한 내용은 [미리 작성된 보고서 사용](/help/analyze/analysis-workspace/reports/use-reports.md)을 참조하세요.
+>**2024년 1월 17일**&#x200B;부터 Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서와 기능을 중단했습니다. 그 당시 Reports &amp; Analytics와 모든 해당 보고서 및 일정이 작동을 멈췄습니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 자세한 내용은 [템플릿 사용](/help/analyze/analysis-workspace/templates/use-templates.md)을 참조하세요.
 > 
 >2015년 Analysis Workspace가 출시된 이후 Reports &amp; Analytics 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. 이 공지 사항은 서비스 종료 프로세스에 대해 설명합니다.
 >

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
-workflow-type: ht
-source-wordcount: '6237'
-ht-degree: 100%
+source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+workflow-type: tm+mt
+source-wordcount: '6234'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 | --- | --- |
 | **2023년 12월** | |
 | 향상된 보트 규칙 문서 | 명확성을 개선하도록 [보트 규칙 이해 및 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)이 업데이트되었습니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>좀 더 설명적인 문서 제목 업데이트</li><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li><li>봇 규칙 업로드 시 CSV 파일 요구 사항에 대한 자세한 내용 추가</li></ul> |
-| 새 보고서 섹션 | [사전 작성된 보고서 사용](/help/analyze/analysis-workspace/reports/use-reports.md) 및 [회사 보고서 만들기 및 관리](/help/analyze/analysis-workspace/reports/create-company-reports.md)에 대한 정보가 포함된 새 보고서 섹션이 추가되었습니다. |
+| 새 보고서 섹션 | [템플릿 사용](/help/analyze/analysis-workspace/templates/use-templates.md) 및 [회사 템플릿 만들기](/help/analyze/analysis-workspace/templates/create-templates.md)에 대한 정보를 포함하는 새 보고서 섹션을 추가했습니다. |
 | 예외 항목 탐지 및 기여도 분석 설명서 업데이트 | 예외 항목 탐지 및 기여도 분석에 대한 설명서는 가상 분석가와 관련된 이전 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li><li>기여도 분석 설명서가 예외 항목 탐지 설명서에 병합되었습니다.</li></ul> |
 | “Attribution IQ”가 “속성”으로 변경되었습니다. | 설명서 내용 전체에서 “Attribution IQ”의 모든 인스턴스를 “[속성](/help/analyze/analysis-workspace/attribution/overview.md)”으로 변경했습니다. |
 | **2023년 11월** | |

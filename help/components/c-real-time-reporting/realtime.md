@@ -4,10 +4,10 @@ title: 실시간 보고 개요
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 90%
+source-wordcount: '602'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 90%
 
 1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택합니다.
 
-1. [!UICONTROL **보고서**] > [!UICONTROL **참여**] > **[!UICONTROL 실시간]**&#x200B;을 선택합니다.
+1. 페이지 왼쪽의 **[!UICONTROL 템플릿]**&#x200B;에서 [!UICONTROL **Adobe 템플릿**]&#x200B;을 선택합니다.
+
+1. [!UICONTROL **참여**] > **[!UICONTROL 실시간]**&#x200B;을 선택합니다.
 
 ## 실시간 보고 이해
 
