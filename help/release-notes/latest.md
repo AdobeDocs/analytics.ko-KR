@@ -4,25 +4,25 @@ description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2025년 3월 릴리스)
 
-**마지막 업데이트**: 2025년 3월 12일 목요일
+**마지막 업데이트**: 2025년 3월 12일
 
-이 릴리스 정보는 2025년 3월 5일부터 5월까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이번 릴리스 정보에는 2025년 3월 5일부터 5월까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics 컨텍스트 데이터 필드 업데이트`a.locale`** | 이 업데이트는 Experience Edge을 통해 데이터를 수집할 때 Analytics 컨텍스트 데이터 필드 `a.locale`을(를) 설정하는 방법을 변경합니다. Experience Edge를 사용하여 Adobe Analytics로 데이터를 전송하면 XDM 필드의 매핑을 기반으로 Analytics 필드가 채워집니다. `c.a.locale`에 대한 매핑은 비표준 XDM 필드인 `xdm.environment.language`를 참조합니다. 이 필드는 올바른 필드 `xdm.environment._dc.language`를 참조하도록 업데이트됩니다.<p>해당 매핑은 이전 버전과의 호환성을 유지하기 위해 `xdm.environment.language`를 계속 참조합니다. 연속성의 경우 두 필드가 모두 설정되면 `xdm.environment.language`이(가) 우선합니다. XDM에서 표준 Analytics 필드로 매핑되는 전체 목록은 [여기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping)에서 확인할 수 있습니다. | | 2025년 3월 5일 |
-| **Customer Journey Analytics 업그레이드 안내서** | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하기 위한 단계별 안내서를 생성할 수 있습니다. 이 안내서는 조직에 맞게 구성되어 있으며 현재 Adobe Analytics 환경, Customer Journey Analytics의 사용 목적 및 조직에서 수행하려는 시간 절약 요약을 고려합니다.<p>사용자 지정 가이드를 생성하려면 [!DNL Customer Journey Analytics]에 로그인한 다음 **[!UICONTROL Customer Journey Analytics]** 탭에서 **[!UICONTROL Workspace으로 업그레이드]**&#x200B;를 선택합니다.<p>[자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025년 3월 11일 수요일 |
-| **Data Warehouse 전용 차원** | 2025년 5월부터 Adobe은 카디널리티가 매우 높은 차원(eVar 및 prop과 같은 사용자 지정 변수)을 &#39;Data Warehouse 전용&#39;으로 설정할 예정입니다. 높은 카디널리티 변수에는 많은 고유한 값이 있습니다. 예로는 타임스탬프 또는 UUID가 있습니다. Analysis Workspace에서는 이러한 차원을 더 이상 보고에 사용할 수 없습니다.<p>이 변경에 대한 후보는 해당 월의 매우 이른 시간에 낮은 트래픽 제한을 초과하는 차원입니다. 이러한 유형의 차원을 사용하면, 보고 가능한 데이터가 수집된 초기 값의 얇은 부분만 나타내므로 이 차원을 기반으로 하는 Analysis Workspace의 보고서가 유용하지 않습니다.<p>Data Warehouse에는 낮은 트래픽 제한이 적용되지 않으므로 이러한 유형의 차원을 기반으로 유용한 보고서나 세그먼트를 작성할 수 있습니다. | | 2025년 5월 |
+| **Analytics 컨텍스트 데이터 필드 업데이트`a.locale`** | 해당 업데이트 이후 Experience Edge를 통해 데이터를 수집할 때 Analytics 컨텍스트 데이터 필드 `a.locale`이 설정되는 방식이 변경됩니다. Experience Edge를 사용하여 Adobe Analytics로 데이터를 전송하면 XDM 필드의 매핑을 기반으로 Analytics 필드가 채워집니다. `c.a.locale`에 대한 매핑은 비표준 XDM 필드인 `xdm.environment.language`를 참조합니다. 이 필드는 올바른 필드 `xdm.environment._dc.language`를 참조하도록 업데이트됩니다.<p>해당 매핑은 이전 버전과의 호환성을 유지하기 위해 `xdm.environment.language`를 계속 참조합니다. 연속성을 위해 두 필드가 모두 설정된 경우 `xdm.environment.language`가 우선 적용됩니다. XDM에서 표준 Analytics 필드로 매핑되는 전체 목록은 [여기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping)에서 확인할 수 있습니다. | | 2025년 3월 5일 |
+| **Customer Journey Analytics 업그레이드 안내서** | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하기 위한 단계별 안내서를 생성할 수 있습니다. 이 안내서는 귀하의 조직에 맞게 작성되었으며, 현재 Adobe Analytics 환경, Customer Journey Analytics에 대해 의도된 용도, 그리고 시간 절약을 위한 타협을 고려합니다.<p>사용자 정의 안내서 생성을 시작하려면 [!DNL Customer Journey Analytics]에 로그인한 다음 **[!UICONTROL 작업 영역]** 탭에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택합니다.<p>[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025년 3월 11일 |
+| **Data Warehouse 전용 차원** | 2025년 5월부터 Adobe는 eVars와 props와 같은 사용자 정의 변수 중 매우 높은 카디널리티를 보이는 차원이 &#39;Data Warehouse 전용&#39;으로 설정됩니다. 높은 카디널리티 변수는 여러 개의 고유 값을 갖습니다. 예로는 타임스탬프나 UUID가 있습니다. 이러한 차원은 Analysis Workspace에서 더 이상 보고용으로 제공되지 않습니다.<p>이러한 변경 대상은 월 초에 낮은 트래픽 한도를 초과하는 차원입니다. 이러한 유형의 차원을 기반으로 한 Analysis Workspace 보고서는 수집된 초기 값의 일부만을 반영하기 때문에 이러한 유형의 차원을 사용하는 경우에 유용하지 않습니다.<p>Data Warehouse는 트래픽에 대한 제한을 두지 않으므로 이러한 유형의 차원을 기반으로 유용한 보고서나 세그먼트를 계속 빌드할 수 있습니다. | | 2025년 5월 |
 
 
 ## Adobe Analytics의 수정 사항
@@ -54,7 +54,7 @@ ht-degree: 53%
 
 ## AppMeasurement
 
-AppMeasurement 릴리스(버전 2.27.0)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 노트](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)를 참조하십시오.
+AppMeasurement 릴리스(버전 2.27.0)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)를 참조하십시오.
 
 
 ## 관련 리소스
