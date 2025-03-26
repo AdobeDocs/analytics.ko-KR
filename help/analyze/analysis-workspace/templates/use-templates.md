@@ -103,9 +103,9 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
    다음 섹션은 사용 가능한 카테고리에 해당하며 각 템플릿에 대한 정보를 제공합니다.
 
-   * [[!UICONTROL ](#most-popular)
+   * &lbrack;[](#most-popular)
 
-   * [[!UICONTROL ](#engagement)
+   * &lbrack;[](#engagement)
 
 ### 최고 인기 항목 {#most-popular}
 
