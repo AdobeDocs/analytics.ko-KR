@@ -4,20 +4,19 @@ description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
+source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 87%
+source-wordcount: '2730'
+ht-degree: 86%
 
 ---
 
 # JavaScript 릴리스 정보의 AppMeasurement
 
-JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
+>[!IMPORTANT]
+>
+>2025년 3월부터 이 문서는 더 이상 업데이트되지 않습니다. [GitHub](https://github.com/adobe/appmeasurement/releases)에서 AppMeasurement의 릴리스 정보를 보고 최신 버전을 다운로드할 수 있습니다.
 
-<!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
-
-[GitHub](https://github.com/adobe/appmeasurement/releases)에서 최신 버전의 AppMeasurement을 다운로드할 수 있습니다.
 
 ## 버전 2.27.0
 
@@ -371,7 +370,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 릴리스 일자: **2015년 5월 21일**
 
 * iOS SDK 버전 4.5부터 새로운 iOS 확장을 사용하면 Apple Watch 앱, 오늘 위젯, 사진 편집 위젯 및 기타 모든 iOS 확장 앱의 사용 데이터를 수집할 수 있습니다.
-* Android SDK 버전 4.5부터 새로운 Android 확장을 사용하여 Android 웨어러블 앱에서 데이터를 수집할 수 있습니다.
+* Android SDK 버전 4.5부터 새로운 Android 확장을 사용하면 Android 웨어러블 앱에서 데이터를 수집할 수 있습니다.
 * 방문자 API 1.4 포함.
 * DIL 버전 6.0을 사용하도록 AudienceManagement 모듈을 업데이트했습니다.
 
