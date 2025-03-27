@@ -3,10 +3,10 @@ title: Data Warehouse의 구성 요소 지원
 description: Data Warehouse에서 사용할 수 있는 추가 차원 및 지표와 지원되지 않는 항목을 알아봅니다.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 60%
+source-wordcount: '570'
+ht-degree: 45%
 
 ---
 
@@ -16,11 +16,11 @@ Data Warehouse 아키텍처의 고유한 처리를 통해 Adobe Analytics의 다
 
 ## Data Warehouse에 고유한 구성 요소
 
-Adobe Analytics에서 다른 기능을 사용할 때는 Data Warehouse에 사용할 수 있는 일부 차원과 지표를 사용할 수 없습니다.
+Data Warehouse에서 사용할 수 있는 일부 차원 및 지표는 Adobe Analytics의 다른 기능을 사용할 때 사용할 수 없습니다.
 
 ### 전용 차원 지원
 
-* **Experience Cloud ID**: ECID(Experience Cloud ID 서비스)를 사용하는 구현의 경우 연결된 두 개의 64비트 숫자로 구성된 128비트 숫자를 19자리로 채워줍니다.
+* **Experience Cloud ID**: ECID(Experience Cloud ID Service)를 사용하는 구현의 경우 연결된 두 개의 64비트 숫자로 구성된 128비트 숫자를 19자리로 채워줍니다.
 * **페이지 URL**: 히트가 발생한 페이지 URL.
 * **구매 ID**: purchaseID 변수를 사용하여 설정한 구매에 대한 고유 식별자입니다.
 * **방문자 ID**: 방문자에 대한 고유 식별자를 제공합니다. 이 값은 데이터 피드에서 `visid_high` 및 `visid_low` 열의 연결된 값과 동일합니다. 자세한 내용은 데이터 피드 아래의 [데이터 열 참조](../analytics-data-feed/c-df-contents/datafeeds-reference.md)를 참조하십시오.
@@ -69,9 +69,9 @@ Adobe Analytics에서 다른 기능을 사용할 때는 Data Warehouse에 사용
    * 체류 시간 지표
 * 기여도 지표([기여도 지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)에 설명되어 있음)
 
-### 다른 방식으로 지원되는 Dimension
+### 다른 방식으로 지원되는 차원 (비표준 날짜 형식)
 
-다음 시간 기반 차원이 지원됩니다. 단, 이들 차원을 사용할 때 날짜 출력은 표준이 아닙니다. 구체적으로 해당 연도는 1900년까지 상쇄되며, 월은 0을 기준으로 한다.
+지원되는 시간 기반 차원은 다음과 같습니다.
 
 * 년
 * 분기
@@ -80,6 +80,36 @@ Adobe Analytics에서 다른 기능을 사용할 때는 Data Warehouse에 사용
 * 일
 * 시간
 * 분
+
+그러나 이러한 차원을 사용할 때는 날짜 출력이 표준이 아닙니다.
+
+Data Warehouse에서 날짜의 출력을 계산할 때에는 다음 사항을 고려하십시오.
+
+* 날짜 차원은 `1YYMMDDHHMM` 형식으로 표시됩니다.
+
+* 연도(YY)는 1900으로 오프셋됩니다. 즉, 날짜 필드의 처음 3개 값에 `1900`을(를) 추가합니다.
+
+  예를 들어 Data Warehouse의 날짜 범위 주 필드 값이 `1250901`이면 1900에서 125를 추가하고 2025년이 됩니다.
+
+* 모든 달은 0을 기준으로 하며 1월은 00, 2월은 01 등으로 표시됩니다.
+
+   * 00: 1월
+   * 01: 2월
+   * 02: 3월
+   * 03: 4월
+   * 04: 5월
+   * 5: 6월
+   * 06: 7월
+   * 07: 8월
+   * 8: 9월
+   * 09: 10월
+   * 10: 11월
+   * 11: 12월
+
+  예를 들어, Data Warehouse의 날짜 범위 주 필드 값이 `1250901`이면 월은 10월을 나타내는 09로 표시됩니다.
+
+
+
 
 ## Data Warehouse에서 차원으로서의 세그먼트
 

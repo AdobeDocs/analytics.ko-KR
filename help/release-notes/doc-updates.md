@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '6234'
-ht-degree: 99%
+source-wordcount: '6331'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 99%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2025년 3월** |  |
+| Data Warehouse 내보내기에서 날짜 형식을 명확히 했습니다. | Data Warehouse 내보내기의 시간 기반 차원 값에는 비표준 날짜 형식이 있습니다. Data Warehouse 내보내기에서 날짜 값을 해석하는 방법을 설명하는 정보가 추가되었습니다. <p>[Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md)에서 [다른 방식으로 지원되는 차원(비표준 날짜 형식)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)을 참조하십시오.</p> |
+| IP 제외에 대한 정보가 업데이트되었습니다. | [IP 제외](/help/admin/admin/exclude-ip.md)가 적용되기 전에 최대 5분이 소요될 수 있으며 변경 사항은 새 히트에만 적용된다는 설명(제외가 설정되기 전에 캡처된 데이터는 영향을 받지 않음)이 추가된 정보입니다. <p>가독성을 개선하기 위해 콘텐츠 레이아웃도 업데이트했습니다.</p> |
 | **2025년 2월** |  |
 | 데이터 피드 일시 중지 및 재활성화에 대한 정보 업데이트 | [데이터 피드를 일시 중지하고 다시 활성화](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)할 때 라이브 피드의 동작이 보다 명확하게 설명됩니다. 피드가 일시 중지된 시점부터 다시 활성화될 때까지 데이터 처리는 발생하지 않습니다. |
 | 거래 ID 보존 기간 변경 | 90일이었던 거래 ID 보존 기간이 25개월로 연장되었습니다. transactionID 변수는 데이터 소스를 통해 업로드된 데이터에 히트가 연결될 수 있도록 거래를 고유하게 식별합니다. [여기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) 및 [여기](https://experienceleague.adobe.com/ko/docs/analytics/import/data-sources/transactionid?lang=en)에서 자세히 알아보십시오. |
