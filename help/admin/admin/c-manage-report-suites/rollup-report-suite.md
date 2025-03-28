@@ -4,10 +4,10 @@ title: 글로벌 보고서 세트
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
   가상 보고서 세트를 사용하려면 글로벌 보고서 세트를 구현한 다음 데이터를 구문 분석하여 특정 세그먼트가 적용되고 특정 그룹 권한이 있는 가상 보고서 세트를 만드십시오. 가상 보고서 세트 관리자([!UICONTROL 구성 요소] > [!UICONTROL 가상 보고서 세트])에서 가상 보고서 세트를 만들 수 있습니다. 자세한 내용은 “[가상 보고서 세트 워크플로](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)”를 참조하십시오.
 
-다중 세트 태그 지정 대신 가상 보고서 세트를 사용하는 것이 모범 사례인 경우가 많지만 가상 보고서 세트에는 몇 가지 제한 사항이 있습니다. 귀하의 비즈니스 요구에 가장 적합한 보고서 세트 접근 방식을 결정하려면 “[가상 보고서 세트 및 다중 세트 태그 지정 고려 사항](/help/components/vrs/vrs-considerations.md)”를 참조하십시오. 가상 보고서 세트와 다중 세트 태그 지정에 대한 자세한 비교는 “[가상 보고서 세트 vs. 다중 세트 태그 지정](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)”을 참조하십시오.
+다중 세트 태그 지정 대신 가상 보고서 세트를 사용하는 것이 모범 사례인 경우가 많지만 가상 보고서 세트에는 몇 가지 제한 사항이 있습니다. 귀하의 비즈니스 요구에 가장 적합한 보고서 세트 접근 방식을 결정하려면 “[가상 보고서 세트 및 다중 세트 태그 지정 고려 사항](/help/components/vrs/vrs-considerations.md)”를 참조하십시오. 가상 보고서 세트와 다중 세트 태그 지정에 대한 자세한 비교는 [가상 보고서 세트와 다중 세트 태그 지정 비교](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)를 참조하십시오.
 
 <!---## Rollup reports
 
