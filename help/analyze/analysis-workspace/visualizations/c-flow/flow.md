@@ -6,32 +6,32 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# 흐름 개요 {#flow}
+# 플로우 개요 {#flow}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_button"
->title="흐름"
->abstract="하나의 체크포인트에서 다음 체크포인트로의 사용자 흐름을 표시하는 시각화를 만듭니다."
+>title="플로우"
+>abstract="하나의 체크포인트에서 다음 체크포인트로의 사용자 플로우를 표시하는 시각화를 만듭니다."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
->title="흐름"
->abstract="하나의 터치포인트에서 다음 터치포인트로의 방문 또는 방문자 흐름을 분석합니다.<br/><br/>**매개변수&#x200B;**<br/>**다음으로 시작**: 차원, 차원 항목 또는 지표를 추가하여 선택한 구성 요소가 발생한 후에 가장 많이 발생하는 접점을 확인합니다.<br/>**다음 포함**: 차원 또는 차원 항목을 추가하여 선택한 구성 요소가 발생하기 전후에 가장 많이 발생하는 접점을 확인합니다.<br/>**다음으로 끝남**: 차원, 차원 항목 또는 지표를 추가하여 선택한 구성 요소가 발생하기 전에 가장 많이 발생하는 접점을 확인합니다.<br/>**경로 지정 차원**: 선택한 구성 요소로 연결되거나 연결되는 경로로 사용할 차원을 추가합니다."
+>title="플로우"
+>abstract="하나의 터치포인트에서 다음 터치포인트로의 방문 또는 방문자 플로우를 분석합니다.<br/><br/>**매개변수&#x200B;**<br/>**다음으로 시작**: 차원, 차원 항목 또는 지표를 추가하여 선택한 구성 요소가 발생한 후에 가장 많이 발생하는 접점을 확인합니다.<br/>**다음 포함**: 차원 또는 차원 항목을 추가하여 선택한 구성 요소가 발생하기 전후에 가장 많이 발생하는 접점을 확인합니다.<br/>**다음으로 끝남**: 차원, 차원 항목 또는 지표를 추가하여 선택한 구성 요소가 발생하기 전에 가장 많이 발생하는 접점을 확인합니다.<br/>**경로 지정 차원**: 선택한 구성 요소로 연결되거나 연결되는 경로로 사용할 차원을 추가합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 흐름 시각화를 설명합니다.이 문서의 _<br/>__ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [흐름](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)을 참조하세요._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 플로우 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [플로우](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [흐름 시각화](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 >[!MORELIKETHIS]
 >
->[흐름 시각화 구성](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[플로우 시각화 구성](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 
@@ -67,7 +67,7 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [흐름 시각화의 추가 기능](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화의 추가 기능](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

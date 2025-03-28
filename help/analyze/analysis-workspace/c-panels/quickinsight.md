@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 빠른 인사이트 패널을 설명합니다.이 문서의 _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**버전에 대해_<br/>_&#x200B;빠른 인사이트 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)을 참조하세요._[
+_이 문서에서는_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 빠른 인사이트 패널에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [빠른 인사이트 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/quickinsight)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 * 필터를 만들 위치 등을
 * 궁금해 할 수 있습니다.
 
-이러한 질문에 도움이 되도록 [!UICONTROL 빠른 인사이트]는 회사에서 사용하는 가장 인기 있는 차원, 지표, 세그먼트 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 이 알고리즘은 [!UICONTROL Analysis Workspace]에서 귀사의 데이터 구성 요소 사용을 기반으로 합니다. 실제로 다음과 같이 [!UICONTROL POPULAR](으)로 태그가 지정된 차원, 지표 및 세그먼트가 드롭다운 목록에 표시됩니다.
+이러한 질문에 답변으로 [!UICONTROL 빠른 인사이트]는 가장 많이 사용되는 차원, 지표, 세그먼트 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 이 알고리즘은 [!UICONTROL Analysis Workspace]에서 귀사의 데이터 구성 요소 사용을 기반으로 합니다. 실제로 다음과 같이 드롭다운 목록에서 [!UICONTROL 인기]로 태그가 지정된 차원, 지표 및 세그먼트가 표시됩니다.
 
 ![빠른 인사이트 패널입니다.](assets/popular-tag.png)
 
@@ -55,14 +55,14 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 다음은 알아두어야 할 몇 가지 기본 용어입니다. 각 데이터 테이블은 데이터 스토리 전달에 사용하는 2개 이상의 빌딩 블록(구성 요소)으로 구성됩니다.
 
-| 빌딩 블록 (구성 요소) | 정의 |
+| 빌딩 블록(구성 요소) | 정의 |
 |---|---|
 | **[!UICONTROL 차원]** | 차원은 프로젝트에서 보고, 분류하고 비교할 수 있는 지표 데이터에 대한 설명 또는 특성입니다. 숫자가 아닌 값 및 차원 항목으로 분류되는 날짜입니다. 예를 들어 *브라우저* 또는 *페이지*&#x200B;는 차원입니다. |
 | **[!UICONTROL 차원 항목]** | 차원 항목은 차원의 개별 값입니다. 예를 들어 브라우저 차원의 차원 항목은 *Chrome*, *Firefox*, *Edge* 등이 됩니다. |
 | **[!UICONTROL 지표]** | 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 사용자 활동에 대한 수량 정보입니다. |
 | **[!UICONTROL 시각화]** | Workspace에서는 데이터를 시각적으로 나타낼 수 있도록 해 주는 [다양한 시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 제공합니다. 막대 그래프, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터. |
 | **[!UICONTROL 차원 분류]** | 차원 분류는 차원을 다른 차원으로 분류하는 방법입니다. 예를 들어 미국 주를 모바일 디바이스별로 분류하여 주별 모바일 디바이스 방문수를 확인할 수 있습니다. 또는 모바일 디바이스 유형별로, 지역별, 내부 캠페인 등으로 분류할 수 있습니다. |
-| **[!UICONTROL 세그먼트]** | 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작용에 따라 개인 하위 집합을 식별할 수 있습니다. 예를 들어 다음을 기반으로 [!UICONTROL 방문자] 세그먼트를 만들 수 있습니다. <li>속성: 브라우저 유형, 디바이스, 방문 수, 국가, 성별 또는</li><li>상호 작용: 캠페인, 키워드 검색, 검색 엔진 또는</li><li>종료 및 시작: Facebook, 정의된 랜딩 페이지, 참조 도메인 또는</li><li> 사용자 정의 변수: 양식 필드, 정의된 범주, 고객 ID. |
+| **[!UICONTROL 세그먼트]** | 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다. 예를 들어 다음 속성을 기반으로 [!UICONTROL 방문자] 세그먼트를 만들 수 있음: <li>속성: 브라우저 유형, 디바이스, 방문 수, 국가, 성별 또는</li><li>상호 작용: 캠페인, 키워드 검색, 검색 엔진 또는</li><li>종료 및 진입: Facebook 방문자, 정의된 랜딩 페이지, 참조 도메인 또는</li><li> 사용자 정의 변수: 양식 필드, 정의된 카테고리, 고객 ID. |
 
 ## 사용
 
@@ -81,8 +81,8 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 빌딩 블록 선택:
 
-* **[!UICONTROL 분석]** - 차원 지정 (주황색)
-* **[!UICONTROL 지표 기준]** - 지표 지정 (녹색)
+* **[!UICONTROL 분석]** - 차원 지정(주황색)
+* **[!UICONTROL 지표 기준]** - 지표 지정(녹색)
 * **[!UICONTROL 필터 기준]** - 세그먼트 지정(파란색)
 * **[!UICONTROL 범위]** - 날짜 범위를 지정합니다(자주색).
 
@@ -105,7 +105,7 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
    ![차원을 세로로 표시하고 지표를 가로로 표시한 자유 형식 테이블입니다.](assets/quick-insights-output.png)
 
-   * [!UICONTROL 지난 12개월] 동안 [!UICONTROL 검색 엔진]의 [!UICONTROL 방문](으)로 세그먼트화된 차원([!UICONTROL 국가 사이트])과 지표([!UICONTROL 방문])가 있는 자유 형식 테이블입니다.
+   * [!UICONTROL 최근 12개월] 동안 [!UICONTROL 검색 엔진] [!UICONTROL 방문 수]에 따라 세그먼트화된 차원([!UICONTROL 국가 사이트])과 지표([!UICONTROL 방문 수])가 포함된 자유 형식 테이블.
 
    * 함께 제공되는 시각화(이 경우 [막대 그래프](/help/analyze/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 테이블에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터(예: 일/개월당 [!UICONTROL 방문 수])는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터(예: [!UICONTROL 디바이스]당 [!UICONTROL 방문 수])는 기본적으로 [!UICONTROL 막대] 차트로 제공됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
 
@@ -115,13 +115,13 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 ## 추가 팁
 
-다른 유용한 힌트는 [!UICONTROL 빠른 인사이트 빌더]에 표시되며, 일부는 마지막 작업에 따라 표시됩니다.
+다른 유용한 힌트는 [!UICONTROL 빠른 인사이트 빌더]에 표시되며, 일부는 마지막 액션에 따라 표시됩니다.
 
 * 먼저 **[!UICONTROL 추가 팁]** 튜토리얼을 완료할 수 있습니다. 이 튜토리얼은 하나 이상의 차원과 지표가 있는 프로젝트를 만든 후 24시간을 보여 줍니다. 빠른 인사이트 패널 제목 옆의 ![HelpOutline](/help/assets/icons/HelpOutline.svg)를 선택한 다음 팝업에서 **[!UICONTROL 추가 팁]**&#x200B;을 선택합니다.
 
   ![도움말 아이콘을 선택하면 빠른 인사이트 패널 알림이 표시됩니다.](assets/qibuilder4.png)
 
-* 여러 차원과 지표를 분석하고, 세그먼트를 결합 또는 비교하고, 날짜 범위를 지정할 수 있습니다.
+* 여러 차원 및 지표를 분석하고, 세그먼트를 결합하거나 비교하고, 날짜 범위를 지정할 수 있습니다.
 
   ![Quick Insights 빌더 결과](assets/qibuilder-result.png)
 
@@ -129,7 +129,7 @@ _이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _
 
    * 더 많은 지표 **[!UICONTROL 기준]** 추가: 최대 2개의 지표를 추가할 수 있습니다. 다음 항목을 참조하십시오.
 
-   * **[!UICONTROL 필터링 기준]**: 최대 2개의 세그먼트를 더 추가할 수 있습니다. 예를 들어, 예약 을 세그먼트로 추가하고 해당 세그먼트를 자주 예약하는 사용자 및 처음 발송자 세그먼트와 결합합니다. 다음 항목을 참조하십시오.
+   * **[!UICONTROL 필터링 기준]**: 최대 2개의 세그먼트를 추가할 수 있습니다. 예를 들어 예약을 세그먼트로 추가하고, 해당 세그먼트를 자주 방문하는 예약자 세그먼트, 처음 여행하는 고객 세그먼트와 결합하여 비교합니다. 다음 항목을 참조하십시오.
 
    * 범위: 날짜 범위를 지정할 수 있습니다. 다음 항목을 참조하십시오.
 

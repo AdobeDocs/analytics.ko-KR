@@ -5,9 +5,9 @@ feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [일정 및 날짜 범위 개요](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [캘린더 및 날짜 범위 개요](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
-캘린더 선택 사항은 패널 수준에서 적용되지만, 모든 패널에 적용할 수 있는 옵션도 있습니다. 작업 영역에서 날짜 범위를 클릭하면 인터페이스에 현재 캘린더 월과 이전 캘린더 월이 표시됩니다. 각 상단 모서리에서 오른쪽 및 왼쪽 화살표를 클릭하여 이러한 두 개의 캘린더를 조정할 수 있습니다.
+캘린더 선택 사항은 패널 수준에서 적용되지만 모든 패널에 적용할 수 있는 옵션도 있습니다. 작업 영역에서 날짜 범위를 클릭하면 인터페이스에 현재 캘린더 월과 이전 캘린더 월이 표시됩니다. 각 상단 모서리에서 오른쪽 및 왼쪽 화살표를 클릭하여 이러한 두 개의 캘린더를 조정할 수 있습니다.
 
 ![캘린더](assets/aw_calendar2.png){width="60%"}
 
@@ -43,12 +43,12 @@ ht-degree: 90%
 
 사용자는 날짜(및 시간 차원)를 작업 영역 프로젝트에 드래그하여 놓을 수도 있습니다. 특정, 날, 주, 달, 연도 또는 연속 날짜를 지정할 수 있습니다.
 
-[Analysis Workspace에서 날짜 범위 및 캘린더 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
+[Analysis Workspace에서 날짜 범위 및 캘린더 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html)&#x200B;(4:07)
 
 | 설정 | 설명 |
 |--- |--- |
-| 선택한 기간 (일) | 선택한 일/주/개월/년 |
-| 패널 달력을 기준으로 날짜 범위 구성 요소 만들기 | 비활성화되면 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 모든 날짜 범위 구성 요소는 패널 달력을 재정의합니다. <p>활성화된 경우 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 모든 날짜 범위 구성 요소는 패널 날짜 범위와 관련이 있습니다. 예를 들어 패널 날짜 범위를 11월 1일부터 11월 30일까지로 설정하고 자유 형식 테이블에 마지막 주 날짜 범위 구성 요소를 사용하는 경우 자유 형식 테이블의 정보는 10월의 마지막 주를 참조합니다. |
+| 선택한 기간(일) | 선택한 일/주/개월/년 |
+| 패널 달력을 기준으로 날짜 범위 구성 요소 만들기 | 비활성화된 경우 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 날짜 범위 구성 요소가 패널 캘린더를 재정의합니다. <p>활성화된 경우 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 모든 날짜 범위 구성 요소가 패널 날짜 범위와 관련이 있습니다. 예를 들어 패널 날짜 범위가 11월 1일부터 11월 30일까지로 설정되어 있고 마지막 주 날짜 범위 구성 요소가 자유 형식 테이블에 사용되는 경우, 자유 형식 테이블의 정보는 10월의 마지막 주를 참조합니다. |
 | 롤링 날짜 사용 | 롤링 날짜를 사용하면 보고서를 실행한 때를 기반으로 설정된 기간에 대해 앞 또는 뒤는 보는 동적 보고서를 생성할 수 있습니다. 예를 들어 &quot;지난달&quot;에 수행한 모든 주문에 대해 보고하려 하고 (생성일 필드를 기반으로 한), 12월에 해당 보고서를 실행한 경우, 11월에 수행한 주문이 표시됩니다. 동일한 보고서를 1월에 실행한 경우에는 12월에 수행한 주문이 표시됩니다.<ul><li>**[!UICONTROL 날짜 미리보기]**: 롤링 캘린더가 포함하는 기간을 가리킵니다.</li><li>**[!UICONTROL 시작]**: 오늘, 이번 주, 이번 달, 이번 분기, 올해 중에서 선택할 수 있습니다.</li><li>**[!UICONTROL 끝]**: 오늘, 이번 주, 이번 달, 이번 분기, 올해 중에서 선택할 수 있습니다.</li></ul>예제를 확인하려면 [날짜 범위 사용자 정의](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)를 참조하십시오. <br>기본적으로 선택되어 있습니다. |
 | 날짜 범위 | 사전 설정 날짜 범위를 선택할 수 있습니다. 최근 30일이 기본값입니다. **[!UICONTROL 이번 주/월/분기/연도 (오늘 제외)]**&#x200B;를 사용하면 오늘부터 하루의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
 | 모든 패널에 적용 | 현재 패널에 대한 선택된 날짜 범위를 변경할 뿐만 아니라 프로젝트 내의 모든 다른 패널에 대한 선택된 날짜 범위도 변경할 수 있습니다. |

@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2524'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 80%
 
 <!-- markdownlint-enable MD034 -->
 
-다음 정보는 Adobe Analytics 큐레이터에게 경영진 사용자의 모바일 스코어카드를 구성하고 제공하는 방법에 대해 알려 줍니다. 시작하기 위해 Adobe Analytics 대시보드 스코어카드 빌더 비디오를 볼 수 있습니다.
+다음 정보는 Adobe Analytics 큐레이터에게 경영진 사용자의 모바일 스코어카드를 구성하고 제공하는 방법에 대해 알려 줍니다. 시작하는 데 도움이 되는 “Adobe Analytics 대시보드 스코어카드 빌더” 비디오를 시청하십시오.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -64,11 +64,11 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 스코어카드 템플릿을 구현하려면:
 
-1. **[!UICONTROL 속성]** (오른쪽 레일)에서 데이터를 사용할 **[!UICONTROL 프로젝트 보고서 세트]**&#x200B;를 지정합니다.
+1. **[!UICONTROL 속성]**(오른쪽 레일)에서 데이터를 사용할 **[!UICONTROL 프로젝트 보고서 세트]**&#x200B;를 지정합니다.
 
    ![보고서 세트 선택](assets/properties_save.png)
 
-1. 스코어카드에 새 타일을 추가하려면 왼쪽 패널의 지표를 **[!UICONTROL 여기에 지표 끌어다 놓기]** 영역으로 끌어다 놓습니다. 비슷한 워크플로를 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
+1. 스코어카드에 새 타일을 추가하려면 왼쪽 패널의 지표를 **[!UICONTROL 여기에 지표 드래그 앤 드롭]** 영역으로 끌어다 놓습니다. 비슷한 워크플로를 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
 
    ![타일 추가](assets/build_list.png)
 
@@ -87,7 +87,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 바로 드롭합니다.
 
-스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe Analytics Workspace에서와 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)합니다.
+스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)합니다.
 
 ![필터용 세그먼트 빌드](assets/segment_ui.png)
 
@@ -130,7 +130,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -143,11 +143,11 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 ![시각화](assets/vizs.png)
 
-### [!UICONTROL 요약 번호]
+### [!UICONTROL 요약 숫자]
 
-프로젝트에서 중요한 큰 숫자를 강조 표시하려면 요약 번호 시각화를 사용하십시오.
+프로젝트에서 중요한 큰 숫자를 강조 표시하려면 요약 숫자 시각화를 사용하십시오.
 
-![요약 번호](assets/summary-number.png)
+![요약 숫자](assets/summary-number.png)
 
 ### [!UICONTROL 도넛]
 
@@ -157,7 +157,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 ### [!UICONTROL 라인]
 
-라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간 경과에 따른 차원을 표시하지만 모든 시각화에서 작동합니다. 이 예에서는 제품 범주 차원을 시각화하고 있습니다.
+라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간 경과에 따른 차원을 표시하지만 모든 시각화에서 작동합니다. 이 예에서는 제품 카테고리 차원을 시각화하고 있습니다.
 
 ![라인 시각화](assets/line.png)
 
@@ -192,7 +192,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 분류는 문자 그대로 지표를 다음과 같은 차원 항목으로 분류하여 분석을 구체화합니다.
 
 * 광고 플랫폼(AMO ID)별로 분류된 고유 방문자 지표
-* 제품 범주(소매)별로 분류된 방문 횟수
+* 제품 카테고리(소매)별로 분류된 방문 횟수
 * 제품 이름별로 분류된 총 매출
 
 ![Breakdown_view](assets/break_view.png)
@@ -206,7 +206,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [사용자 지정 세부 정보 보기](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -235,7 +235,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 ## 구성 요소 제거 {#remove}
 
-마찬가지로 전체 스코어카드에 적용된 구성 요소를 제거하려면 타일 바깥쪽에 있는 스코어카드의 아무 곳이나 클릭한 다음 **첫 번째 방문** 세그먼트에 대해 아래에 표시된 대로 구성 요소를 마우스로 가리키면 표시되는 **x**&#x200B;을(를) 클릭하여 제거합니다.
+마찬가지로 전체 스코어카드에 적용된 구성 요소를 제거하려면 타일 바깥쪽에 있는 스코어카드의 아무 곳이나 클릭한 다음 **첫 번째 방문** 세그먼트에 대해 아래에 표시된 대로 구성 요소를 마우스로 가리키면 표시되는 **x**&#x200B;를 클릭하여 제거합니다.
 
 ![구성 요소 제거](assets/new_remove.png)
 
@@ -248,7 +248,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -340,13 +340,13 @@ Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 보이�
 
 ## 스코어카드 이름 지정 {#name}
 
-스코어카드의 이름을 지정하려면 화면 왼쪽 상단의 네임스페이스를 클릭하고 새 이름을 입력합니다.
+스코어카드에 이름을 지정하려면 화면 왼쪽 상단의 네임스페이스를 클릭하고 새 이름을 입력합니다.
 
 ![Naming_Scorecards](assets/new_name.png)
 
 ## 스코어카드 공유 {#share}
 
-스코어카드를 경영진 사용자와 공유하려면:
+스코어카드를 경영진 사용자와 공유하는 방법:
 
 1. **[!UICONTROL 공유]** 메뉴를 클릭하고 **[!UICONTROL 스코어카드 공유]**&#x200B;를 선택합니다.
 
@@ -361,15 +361,15 @@ Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 보이�
 
 ![Share_Scorecards](assets/new_share.png)
 
-스코어카드를 공유하면 수신자가 자신의 Analytics 대시보드에서 액세스할 수 있습니다. 스코어카드 빌더에서 스코어카드를 추가로 변경하면 공유 스코어카드에서 자동으로 업데이트됩니다. 경영진 사용자는 앱에서 스코어카드를 새로 고친 후 변경 사항을 볼 수 있습니다.
+스코어카드를 공유하면 수신자가 자신의 Analytics 대시보드에서 액세스할 수 있습니다. 스코어카드 빌더에서 스코어카드를 추가로 변경하면 공유 스코어카드에서 자동으로 업데이트됩니다. 경영진 사용자가 자신의 앱에서 스코어카드를 새로 고치면 변경 사항이 표시됩니다.
 
 새 구성 요소를 추가하여 스코어카드를 업데이트하는 경우 경영진 사용자가 이러한 변경 사항에 액세스할 수 있도록 스코어카드를 다시 공유(그리고 **[!UICONTROL 임베드된 구성 요소 공유]** 옵션 선택)할 수 있습니다.
 
 ### 공유 가능한 링크를 사용하여 스코어카드 공유 {#shareable-link}
 
-공유 가능한 링크를 사용하면 전자 메일, 문서 또는 문자 메시지 앱에서 스코어카드를 쉽게 공유할 수 있습니다. 공유 가능한 링크를 사용하면 수신자가 자신의 데스크탑 또는 대시보드 모바일 앱에서 스코어카드를 열 수 있습니다. 공유 가능한 딥링크를 사용하면 프로젝트를 더 쉽게 공유하고 이해 당사자와의 참여를 높일 수 있습니다.
+공유 가능한 링크를 사용하면 이메일, 문서 또는 문자 메시지 앱에서 스코어카드를 쉽게 공유할 수 있습니다. 공유 가능한 링크를 통해 수신자는 데스크탑이나 대시보드 모바일 앱에서 스코어카드를 열 수 있습니다. 공유 가능한 딥 링크를 사용하면 프로젝트를 더욱 쉽게 공유하고 이해 관계자와의 참여도를 높일 수 있습니다.
 
-공유 가능한 링크를 사용하여 스코어카드를 공유하려면
+공유 가능한 링크를 사용하여 스코어카드를 공유하는 방법
 
 1. **[!UICONTROL 공유]** 메뉴를 클릭하고 **[!UICONTROL 스코어카드 공유]**&#x200B;를 선택합니다.
 
@@ -379,7 +379,7 @@ Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 보이�
 
    수신자가 데스크탑 앱이나 브라우저를 사용하여 링크를 열면 모바일 스코어카드 프로젝트가 Workspace에서 열립니다.
 
-   수신자가 모바일 디바이스에서 링크를 열면 스코어카드가 Analytics 대시보드 앱에서 바로 열립니다.
+   수신자가 모바일 디바이스에서 링크를 열면, 스코어카드가 Analytics 대시보드 앱에서 바로 열립니다.
 
-   수신자가 모바일 앱을 다운로드하지 않은 경우 App Store 또는 Google Play 스토어의 앱 목록으로 이동하여 다운로드할 수 있습니다.
+   수신자가 모바일 앱을 다운로드하지 않은 경우 App Store 또는 Google Play 스토어의 앱 목록으로 이동되어 해당 앱을 다운로드할 수 있게 합니다.
 

@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2157'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 57%
 
 ## 패널 유형
 
-[!UICONTROL Adobe Analytics]용 Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
+[!UICONTROL Adobe Analytics]을 위한 Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 | 패널 이름 | 설명 |
 | --- | --- |
 | [빈 패널](/help/analyze/analysis-workspace/c-panels/blank-panel.md) | 사용 가능한 패널 및 시각화 중에서 선택하여 분석을 시작합니다. |
-| [속성](attribution.md) | 차원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다. |
-| [Target용 Analytics](a4t-panel.md) | Analysis Workspace에서 타겟 활동 및 경험을 분석합니다. |
+| [속성](attribution.md) | 차원 및 전환 지표를 사용하여 여러 속성 모델을 빠르게 비교하고 시각화합니다. |
+| [Target용 Analytics](a4t-panel.md) | Analysis Workspace에서 Target 활동 및 경험을 분석합니다. |
 | [자유 형식](freeform-panel.md) | 무제한 비교 및 분석을 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
-| [미디어 평균 분당 시청자](average-minute-audience-panel.md) | 특정 콘텐츠 또는 사용자 정의된 기간 전체에 대해 평균 분당 시청자를 분석합니다. |
+| [미디어 평균 분당 시청 대상자](average-minute-audience-panel.md) | 특정 콘텐츠 또는 사용자 정의된 기간 전체에 대해 평균 분당 시청 대상자를 분석합니다. |
 | [미디어 동시 뷰어](media-concurrent-viewers.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
 | [미디어 재생 소요 시간](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | 재생 소요 시간 분석을 통해 최대 동시 시청이 발생하는 위치 또는 시청 감소가 발생하는 위치를 파악합니다. |
 | [다음 또는 이전 항목](next-previous.md) | 사용자가 이동하는 다음 또는 이전 페이지를 표시합니다. |
@@ -46,23 +46,23 @@ ht-degree: 57%
 * [빈 패널](blank-panel.md)에서 패널을 선택합니다.
 * Workspace에서 **[!UICONTROL 삽입]** 메뉴를 사용하고 패널을 선택합니다. 또는 [단축키](../build-workspace-project/fa-shortcut-keys.md)를 사용하여 패널을 삽입할 수 있습니다.
 
-  ![Create a panel](assets/create-panel.png)
+  ![패널 만들기](assets/create-panel.png)
 
 다음과 같은 작업을 수행할 수 있습니다.
 
 * 모든 패널 **내** ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 다른 시각화를 추가합니다. 시각화를 선택할 수 있는 팝업이 나타납니다.
 
-  ![Popup showing possible visualizations](assets/blank-panel.png)
+  ![가능한 시각확를 보여 주는 팝업](assets/blank-panel.png)
 
   | 선택... | 다음을 만들려면... |
   |---|---|
-  | ![Table](/help/assets/icons/Table.svg) | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
-  | ![Line](/help/assets/icons/GraphTrend.svg) | [라인](/help/analyze/analysis-workspace/visualizations/line.md) |
+  | ![테이블](/help/assets/icons/Table.svg) | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
+  | ![라인](/help/assets/icons/GraphTrend.svg) | [라인](/help/analyze/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [막대](/help//analyze/analysis-workspace/visualizations/bar.md) |
-  | ![123](/help/assets/icons/123.svg) | [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
-  | ![Text](/help/assets/icons/Text.svg) | [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) |
+  | ![123](/help/assets/icons/123.svg) | [요약 숫자](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) |
   | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
-  | ![Workflow](/help/assets/icons/GraphPathing.svg) | [흐름](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+  | ![워크플로](/help/assets/icons/GraphPathing.svg) | [흐름](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
   | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) | [스택 영역](/help/analyze/analysis-workspace/visualizations/area.md) |
   | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [코호트 테이블](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
   | ![GraphBullet](/help/assets/icons/GraphBullet.svg) | [글머리 기호](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) |
@@ -70,7 +70,7 @@ ht-degree: 57%
   | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md) |
   | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [분산](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |
-  | ![Type](/help/assets/icons/TwoDots.svg) | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) |
+  | ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) |
   | ![GraphTree](/help/assets/icons/GraphTree.svg) | [트리맵](/help/analyze/analysis-workspace/visualizations/treemap.md) |
 
 * Workspace의 마지막 패널 **외부**&#x200B;에서 ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 다른 [빈 패널](blank-panel.md)을 추가합니다.
@@ -78,9 +78,9 @@ ht-degree: 57%
 
 ## 보고서 세트
 
-각 패널은 패널의 오른쪽 상단에 있는 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *보고서 세트의 이름&#x200B;*]**으로 식별되는 [보고서 세트](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)과(와) 연결되어 있습니다.
+각 패널은 [리포트 세트](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *리포트 세트&#x200B;*]**로 식별됩니다.
 
-새 패널을 만들 때 기본 보고서 세트는 Analysis Workspace 프로젝트에서 마지막으로 작업한 패널의 보고서 세트를 기반으로 합니다.
+새 패널을 만들면 기본 리포트 세트는 Analysis Workspace 프로젝트에서 마지막으로 작업한 패널의 리포트 세트를 기반으로 합니다.
 
 분석 사용 사례에 따라 프로젝트 내에서 하나 또는 [여러 보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)를 사용할 수 있습니다.
 
@@ -90,12 +90,12 @@ ht-degree: 57%
 
 >[!IMPORTANT]
 >
->선택한 보고서 세트는 패널에서 시각화를 작성하는 데 사용할 수 있는 차원, 지표 및 세그먼트를 결정합니다.
+>선택한 리포트 세트는 패널에서 시각화를 빌드할 수 있는 차원, 지표 및 세그먼트를 결정합니다.
 >
 >
->패널에 대한 보고서 세트를 전환하면 일부 구성 요소를 새 보고서 세트에서 사용할 수 없습니다. 전환되면 시각화가 제대로 렌더링되지 않을 수 있습니다. 다음과 같은 경고가 표시될 수 있습니다.
+>패널의 리포트 세트를 전환하면 해당 새 리포트 세트에서 일부 구성 요소를 사용하지 못할 수 있습니다. 전환되면 시각화가 제대로 렌더링되지 않을 수 있습니다. 다음과 같은 경고가 표시될 수 있습니다.
 >
->* 이 패널에는 선택한 보고서 세트에서 활성화되지 않은 구성 요소가 포함되어 있습니다. 보고서 세트를 변경하거나 보고서 세트에서 필요한 구성 요소를 활성화하십시오.
+>* 이 패널에는 선택한 리포트 세트에서 활성화되지 않은 구성 요소가 포함됩니다. 보고서 세트를 변경하거나 보고서 세트에서 필요한 구성 요소를 활성화합니다.
 >* 시각화를 렌더링할 수 없습니다. 열과 행을 확인하여 유효한 구성 요소가 포함되어 있는지 확인하십시오.
 >
 
@@ -105,7 +105,7 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->![달력](/help/assets/icons/Calendar.svg) 날짜 범위 구성 요소가 시각화 또는 패널 내에서 사용되는 경우(예: 세그먼트로) 날짜 범위 구성 요소는 패널 달력을 무시합니다.
+>![캘린더](/help/assets/icons/Calendar.svg) 날짜 범위 구성 요소가 시각화 또는 패널 내에서 (예: 세그먼트로) 사용되면 날짜 범위 구성 요소가 패널 캘린더보다 우선 적용됩니다.
 >
 
 
@@ -143,13 +143,13 @@ ht-degree: 57%
 
 ### 세그먼트
 
-패널 세그멘테이션을 시작하려면 왼쪽 패널의 세그먼트를 패널 드롭 영역으로 끌어다 놓습니다. 이 프로세스를 반복하여 패널에 세그먼트를 더 추가합니다. 패널 맨 위에 세그먼트가 나란히 표시됩니다.
+패널 세그먼트화를 시작하려면 왼쪽 패널에서 패널 드롭 영역으로 세그먼트를 끌어다 놓습니다. 패널에 세그먼트를 추가하려면 이 과정을 반복하십시오. 세그먼트는 패널 상단에 나란히 표시됩니다.
 
-![The left panel shows available Metrics and the Mobile Customer metric dragged to the panel drop zone.](assets/segment-filter.png)
+![왼쪽 패널에는 사용 가능한 지수와 패널 놓기 영역으로 드래그된 모바일 고객 지표가 표시됩니다.](assets/segment-filter.png)
 
 #### 빠른 세그먼트
 
-세그먼트가 아닌 구성 요소를 드롭 영역으로 직접 끌어와 빠른 세그먼트를 만들 수도 있으므로 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)(으)로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 세그먼트는 자동으로 이벤트 수준 세그먼트로 정의됩니다. 세그먼트 이름 옆에 있는 ![편집](/help/assets/icons/Edit.svg)을 선택하여 이 정의를 빠르게 수정할 수 있습니다.
+세그먼트가 아닌 구성 요소를 드롭 영역으로 직접 끌어와 빠른 세그먼트를 만들 수도 있으므로 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 세그먼트는 자동으로 이벤트 수준 세그먼트로 정의됩니다. 세그먼트 이름 옆의 ![편집](/help/assets/icons/Edit.svg)을 선택하여 이 정의를 빠르게 수정할 수 있습니다.
 
 <!-- For more information, see [Quick segments](/help/components/segmentation/). -->
 
@@ -160,62 +160,62 @@ ht-degree: 57%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 #### 정적 드롭다운 세그먼트
 
-정적 드롭다운 세그먼트를 사용하면 제어된 방식으로 데이터와 상호 작용할 수 있습니다. 예를 들어, 태블릿, 휴대폰 또는 데스크탑 별로 패널을 분할할 수 있도록 모바일 디바이스 유형에 대한 드롭다운 세그먼트를 추가할 수 있습니다.
+정적 드롭다운 세그먼트를 통해 제어된 방식으로 데이터와 상호 작용할 수 있습니다. 예를 들어 태블릿, 휴대폰 또는 데스크탑 별로 패널을 분할할 수 있도록 모바일 디바이스 유형에 대한 드롭다운 세그먼트를 추가할 수 있습니다.
 
-정적 드롭다운 세그먼트를 사용하여 많은 프로젝트를 하나로 통합할 수도 있습니다. 예를 들어 다른 국가 세그먼트가 적용된 동일한 프로젝트의 여러 버전이 있는 경우 모든 버전을 단일 프로젝트로 통합하고 국가 드롭다운 세그먼트를 추가할 수 있습니다.
+정적 드롭다운 세그먼트를 사용하여 여러 프로젝트를 하나로 통합할 수도 있습니다. 예를 들어 다른 국가 세그먼트가 적용된 동일한 프로젝트의 여러 버전이 있는 경우 모든 버전을 단일 프로젝트로 통합하고 국가 드롭다운 세그먼트를 추가할 수 있습니다.
 
-![시장 채널 &quot;직접&quot; 필터를 강조 표시하는 정적 드롭다운 세그먼트. ](assets/dropdown-filter-intro.png)
+![시장 채널 “직접” 필터가 강조 표시된 정적 드롭다운 세그먼트입니다. ](assets/dropdown-filter-intro.png)
 
 ##### 정적 드롭다운 세그먼트 만들기
 
-* 차원 항목을 사용하는 드롭다운 세그먼트의 경우 왼쪽 패널에서 단일 차원을 선택하고 ⇧(*shift*)을 누른 상태에서 패널 드롭 영역에 차원을 놓습니다. 이 작업을 수행하면 해당 차원과 연결된 모든 차원 항목이 있는 드롭다운 세그먼트가 만들어집니다.
+* 차원 항목을 사용하는 드롭다운 세그먼트의 경우 왼쪽 패널에서 단일 차원을 선택하여 ⇧(*Shift*) 키를 누른 상태에서 차원을 패널 드롭 영역에 놓습니다. 이 액션을 수행하면 해당 차원과 연결된 모든 차원 항목이 포함된 드롭다운 세그먼트가 생성됩니다.
 
-  또는 드롭다운 세그먼트에 차원과 연결된 특정 차원 항목만 포함하게 하려면 왼쪽 패널에서 원하는 차원 옆에 있는 오른쪽 화살표 아이콘을 선택합니다. 이 액션을 수행하면 사용 가능한 모든 차원 항목이 표시됩니다. ⇧+![Select](/help/assets/icons/Select.svg)(*Shift* + *선택*) 또는 ^+![Select](/help/assets/icons/Select.svg)(*제어* + *선택*)을 사용하여 이 목록에서 여러 차원 항목을 선택한 다음 ⇧ 키를 **누른 상태**&#x200B;에서 패널 드롭 영역에 놓습니다.
+  또는 차원과 연결된 특정 차원 항목만 드롭다운 세그먼트에 포함하려면 왼쪽 패널에서 원하는 차원 옆에 있는 오른쪽 화살표 아이콘을 선택합니다. 이 액션을 수행하면 사용 가능한 모든 차원 항목이 표시됩니다. ⇧+![Select](/help/assets/icons/Select.svg)(*Shift* + *선택*) 또는 ^+![선택](/help/assets/icons/Select.svg)(*제어* + *선택*)을 사용하여 이 목록에서 여러 차원 항목을 선택한 다음 ⇧ 키를 **누른 상태**&#x200B;에서 패널 드롭 영역에 놓습니다.
 
-* 단일 구성 요소 유형을 사용하는 드롭다운 세그먼트의 경우(예: 차원만, 세그먼트만, 지표만) 왼쪽 패널에서 ⇧+![Select](/help/assets/icons/Select.svg) 또는 ^+![Select](/help/assets/icons/Select.svg)을(를) 사용하여 동일한 유형의 여러 항목을 선택합니다. 그런 다음 ⇧ 키를 **누른 상태**&#x200B;에서 항목을 패널 드롭 영역에 놓습니다.
+* 단일 구성 요소 유형을 사용하는 드롭다운 세그먼트(예: 차원, 세그먼트 또는 지표만 사용)의 경우 왼쪽 패널에서 ⇧+![선택](/help/assets/icons/Select.svg) 또는 ^+![선택](/help/assets/icons/Select.svg)을 사용하여 동일한 유형의 여러 항목을 선택합니다. 그런 다음 ⇧ 키를 **누른 상태**&#x200B;에서 항목을 패널 드롭 영역에 놓습니다.
 
-  선택한 구성 요소로 단일 드롭다운 세그먼트가 만들어집니다.
+  선택한 구성 요소로 단일 드롭다운 세그먼트가 생성됩니다.
 
-* 구성 요소 유형을 혼용하는 드롭다운 세그먼트(예: 2개 지표 및 3개 세그먼트)의 경우 ⇧+![선택](/help/assets/icons/Select.svg) 또는 ^+![선택](/help/assets/icons/Select.svg)을 사용하여 여러 구성 요소를 선택합니다. ⇧ 키를 **누른 상태**&#x200B;에서 선택 항목을 패널 드롭 영역에 놓습니다. 이 컨텍스트에서 모든 구성 요소 유형은 별도의 드롭다운 세그먼트로 처리됩니다. 예를 들어, 선택 항목에 지표와 차원 항목을 모두 포함하는 경우 두 개의 별도 드롭다운 세그먼트가 생성됩니다. 한 드롭다운 세그먼트에는 차원 항목이 포함되고 다른 드롭다운 세그먼트에는 지표가 포함됩니다.
+* 구성 요소 유형을 혼합하여 사용하는 드롭다운 세그먼트(예: 지표 2개와 세그먼트 3개)의 경우 ⇧+![선택](/help/assets/icons/Select.svg) 또는 ^+![선택](/help/assets/icons/Select.svg)을 사용하여 여러 구성 요소를 선택합니다. ⇧ 키를 **누른 상태**&#x200B;에서 선택 항목을 패널 드롭 영역에 놓습니다. 이 컨텍스트에서는 모든 구성 요소 유형이 별도의 드롭다운 세그먼트로 처리됩니다. 예를 들어 선택 항목에 지표와 차원 항목을 모두 포함하면 두 개의 별도 드롭다운 세그먼트가 생성됩니다. 드롭다운 필터 하나에는 차원 항목이 포함되고 다른 드롭다운 세그먼트에는 지표가 포함됩니다.
 
-드롭다운 세그먼트는 다음과 같은 컨텍스트 메뉴 옵션을 제공합니다.
+드롭다운 세그먼트를 클릭하면 다음 컨텍스트 메뉴 옵션이 제공됩니다.
 
 * **[!UICONTROL 드롭다운 삭제]**: 패널에서 드롭다운 세그먼트를 제거합니다.
-* **[!UICONTROL 레이블 삭제]**: 드롭다운 세그먼트 위에 표시된 텍스트를 제거합니다. 레이블을 수정하려면 레이블 위로 마우스를 가져간 후 ![드롭다운 세그먼트의 레이블 편집](/help/assets/icons/Edit.svg)을 선택합니다.
-* **[!UICONTROL 레이블 추가]**: 프로젝트에 드롭다운 세그먼트를 추가하면 레이블이 구성 요소 이름으로 자동으로 설정됩니다. 레이블을 삭제한 경우 이 옵션을 사용하여 다시 추가할 수 있습니다.
-* **[!UICONTROL 선택 필요]**: 패널에 세그먼트를 설정해야 합니다.
+* **[!UICONTROL 레이블 삭제]**: 드롭다운 세그먼트 위에 표시된 텍스트를 제거합니다. 레이블을 수정하려면 레이블 위로 마우스를 가져가 ![드롭다운 세그먼트 레이블 편집](/help/assets/icons/Edit.svg)을 선택합니다.
+* **[!UICONTROL 레이블 추가]**: 프로젝트에 드롭다운 세그먼트를 추가하면 구성 요소 이름에 레이블이 자동으로 설정됩니다. 레이블을 삭제한 경우 이 옵션을 사용하여 다시 추가할 수 있습니다.
+* **[!UICONTROL 선택 필수]**: 패널에 세그먼트가 설정되어 있어야 합니다.
 
 ##### 정적 드롭다운 세그먼트 사용
 
-다음과 같은 방법으로 드롭다운 세그먼트 메뉴를 사용하여 패널을 세그먼트화할 수 있습니다.
+사용자는 다음 방법 중 하나로 드롭다운 세그먼트 메뉴를 사용하여 패널을 세그먼트화할 수 있습니다.
 
 * 드롭다운 세그먼트에서 세그먼트를 선택하여 패널에 단일 세그먼트를 적용합니다.
 
-* 드롭다운 세그먼트에서 두 개 이상의 세그먼트를 선택하여 패널에 여러 세그먼트를 적용합니다. 패널은 선택된 세그먼트들 중 어느 하나를 포함하도록 세그먼트화된다.
+* 드롭다운 세그먼트에서 두 개 이상의 세그먼트를 선택하여 패널에 여러 세그먼트를 적용합니다. 선택된 세그먼트를 포함하도록 패널이 세그먼트화됩니다.
 
 
 #### 동적 드롭다운 세그먼트
 
-동적 드롭다운 세그먼트를 사용하면 패널의 보고 범위 내의 데이터와 다른 드롭다운 세그먼트의 값을 기반으로 사용 가능한 값을 결정할 수 있습니다. 예를 들어 국가 차원과 도시 차원을 사용하여 두 개의 동적 드롭다운을 만들 수 있습니다. **[!UICONTROL 국가]** 드롭다운 목록에서 국가를 선택하면 **[!UICONTROL 도시]** 드롭다운 목록이 해당 국가 내의 도시만 표시하도록 동적으로 조정됩니다.
+동적 드롭다운 세그먼트를 사용하면 패널의 보고 범위 내의 데이터 및 기타 드롭다운 세그먼트의 값을 기반으로 사용 가능한 값을 결정할 수 있습니다. 예를 들어 국가 차원과 도시 차원을 사용하여 두 개의 동적 드롭다운을 만들 수 있습니다. **[!UICONTROL 국가]** 드롭다운 목록에서 국가를 선택하면 **[!UICONTROL 도시]** 드롭다운 목록이 해당 국가 내의 도시만 표시하도록 동적으로 조정됩니다.
 
-이 동일한 개념은 모든 차원에 적용됩니다. 패널의 날짜 범위 내에 표시되는 차원 항목과 선택한 세그먼트만 표시됩니다. 정적 드롭다운 세그먼트에서 선택한 Dimension 항목은 동적 드롭다운 세그먼트의 사용 가능한 값에 영향을 줍니다. 그러나 역산은 true가 아닙니다. 동적 드롭다운 세그먼트에서 선택한 Dimension 항목은 정적 드롭다운 세그먼트의 사용 가능한 값에 영향을 주지 않습니다.
+이와 동일한 개념이 모든 차원에 적용됩니다. 즉, 패널의 날짜 범위 및 선택한 세그먼트 내에 나타나는 차원 항목만 표시됩니다. 정적 드롭다운 세그먼트에서 선택한 차원 항목은 동적 드롭다운 세그먼트에서 사용 가능한 값에 영향을 줍니다. 그러나 그 반대로는 그렇지 않습니다. 즉, 동적 드롭다운 세그먼트에서 선택한 차원 항목은 정적 드롭다운 세그먼트에서 사용 가능한 값에 영향을 주지 않습니다.
 
-나중에 특정 차원 항목을 수집할 것으로 예상되는 경우 차원 항목을 수동으로 선택할 수 있습니다. 동적 드롭다운 세그먼트를 지워 값을 포함하지 않도록 하여 다른 동적 드롭다운 세그먼트에 더 많은 값을 포함할 수도 있습니다. 해당 패널에 대한 모든 드롭다운 세그먼트에서 선택을 지우려면 **[!UICONTROL 모두 재설정]**&#x200B;을 선택합니다.
+나중에 특정 차원 항목을 수집할 것으로 예상되는 경우 차원 항목을 수동으로 선택할 수 있습니다. 값이 포함되지 않도록 동적 드롭다운 세그먼트를 지워서 다른 동적 드롭다운 세그먼트에 더 많은 값이 포함되도록 할 수도 있습니다. 해당 패널의 모든 드롭다운 세그먼트에서 선택 항목을 지우려면 **[!UICONTROL 모두 재설정]**&#x200B;을 선택합니다.
 
-동적 드롭다운 세그먼트를 만들려면 다음 작업을 수행하십시오.
+동적 드롭다운 세그먼트를 만드는 방법:
 
-* ****&#x200B;를 누른 상태에서 단일 차원을 패널 드롭 영역으로 드래그 앤 드롭합니다.
+* ⇧**를 누른 상태**&#x200B;에서 단일 차원을 패널 드롭 영역으로 끌어다 놓습니다.
 
-동적 드롭다운 세그먼트는 지표, 세그먼트 또는 날짜 범위에 사용할 수 없습니다.
+참고: 지표, 세그먼트 또는 날짜 범위에는 동적 드롭다운 세그먼트를 사용할 수 없습니다.
 
-동적 드롭다운 세그먼트는 정적 드롭다운 세그먼트와 동일한 컨텍스트 메뉴 옵션을 제공합니다.
+동적 드롭다운 세그먼트를 클릭하면 정적 드롭다운 세그먼트와 동일한 컨텍스트 메뉴 옵션이 제공됩니다.
 
 
 ## 컨텍스트 메뉴
@@ -230,19 +230,19 @@ ht-degree: 57%
 | --- | --- |
 | **[!UICONTROL 복사된 패널 삽입]** | 복사한 패널을 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을 수 있습니다. |
 | **[!UICONTROL 복사된 시각화 삽입]** | 복사한 시각화를 패널, 프로젝트 내 다른 위치 또는 다른 프로젝트에 붙여넣습니다. |
-| **[!UICONTROL 모든 패널에 보고서 세트 적용]** | 이 패널에 대한 보고서 세트를 프로젝트의 다른 모든 패널에 적용합니다. |
+| **[!UICONTROL 모든 패널에 보고서 세트 적용]** | 이 패널의 보고서 세트를 프로젝트의 모든 다른 패널에 적용합니다. |
 | **[!UICONTROL 패널 복사]** | 패널을 복사하여 프로젝트 내의 다른 위치 또는 다른 프로젝트에 삽입할 수 있습니다. |
 | **[!UICONTROL 패널 복제]** | 현재 패널의 정확한 복제본을 만들어서 수정할 수 있습니다. |
 | **[!UICONTROL 모든 패널 축소]** | 모든 프로젝트 패널을 축소합니다. |
 | **[!UICONTROL 모든 패널 확장]** | 모든 프로젝트 패널을 확장합니다. |
 | **[!UICONTROL 패널에서 모든 시각화 축소]** | 현재 패널의 모든 시각화를 축소합니다. |
 | **[!UICONTROL 패널에서 모든 시각화 확장]** | 현재 패널의 모든 시각화를 확장합니다. |
-| **[!UICONTROL 설명 편집]** | 패널에 대한 텍스트 설명을 추가(또는 편집)합니다. |
+| **[!UICONTROL 설명 편집]** | 패널에 대한 텍스트 설명을 추가 (또는 편집)합니다. |
 | **[!UICONTROL 패널 링크 가져오기]** | 프로젝트 내의 특정 패널로 사용자를 안내합니다. 링크를 선택하면 연결된 정확한 패널로 이동하기 전에 먼저 수신자가 로그인해야 합니다. |
 
 ## 구성
 
-일부 패널(예: [!UICONTROL 속성], [!UICONTROL 실험], [!UICONTROL 미디어 평균 분당 시청자] 등)에는 시각화를 빌드할 수 있는 구성 대화 상자가 있습니다. 패널 상단의 ![Edit](/help/assets/icons/Edit.svg)을 사용하여 구성에 액세스하고 이를 변경합니다.
+일부 패널(예: [!UICONTROL 속성], [!UICONTROL 실험], [!UICONTROL 미디어 평균 분당 시청 대상자] 등)에는 시각화를 빌드할 수 있는 구성 대화 상자가 있습니다. 패널 상단의 ![Edit](/help/assets/icons/Edit.svg)을 사용하여 구성에 액세스하고 이를 변경합니다.
 
 ![Configure a panel](/help/analyze/analysis-workspace/c-panels/assets/configure-panel.png)
 

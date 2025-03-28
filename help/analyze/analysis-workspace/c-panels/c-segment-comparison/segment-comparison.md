@@ -6,9 +6,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 37%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 세그먼트 비교 패널에 대한 문서를 제공합니다._<br/>_동등한 패널이_&#x200B;에 없습니다. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 세그먼트 비교 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에는 동등한 패널이 없습니다._
 
 >[!ENDSHADEBOX]
 
-세그먼트 비교 패널은 세그먼트들 (개수 제한 없음) 간의 통계적으로 가장 중요한 차이를 알아내는 [세그먼트 IQ](../../segment-iq.md)의 도구 부분입니다. 이 기능은 액세스 권한이 있는 모든 차원 및 지표에 대한 자동화된 분석을 반복합니다. 또한 회사 KPI를 구동하는 대상자 세그먼트의 주요 특성을 자동으로 파악하고 세그먼트들이 얼마나 많이 겹치는지도 확인할 수 있도록 합니다.
+세그먼트 비교 패널은 세그먼트들(개수 제한 없음) 간의 통계적으로 가장 중요한 차이를 알아내는 [세그먼트 IQ](../../segment-iq.md)의 도구 부분입니다. 이 기능은 액세스 권한이 있는 모든 차원 및 지표에 대한 자동화된 분석을 반복합니다. 또한 회사 KPI를 구동하는 대상자 세그먼트의 주요 특성을 자동으로 파악하고 세그먼트들이 얼마나 많이 겹치는지도 확인할 수 있도록 합니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ _이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adob
 
 ## 사용
 
-**[!UICONTROL 속성]** 패널을 사용하려면:
+**[!UICONTROL 속성]** 패널 사용 방법:
 
 1. **[!UICONTROL 속성]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](../panels.md#create-a-panel)를 참조하십시오.
 
@@ -62,38 +62,38 @@ _이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adob
 
 ### 패널 입력
 
-다음 입력 설정을 사용하여 [!UICONTROL 세그먼트 비교] 패널을 구성할 수 있습니다.
+다음 입력 설정을 사용하여 [!UICONTROL 세그먼트 비교]를 구성할 수 있습니다.
 
 ![세그먼트 비교 입력 패널](assets/segment-comparison-input.png)
 
 | 입력 | 설명 |
 | --- | --- |
 | **[!UICONTROL 세그먼트 추가]** | 비교할 차원을 선택합니다. |
-| **[!UICONTROL 비교 대상]** | 처음 선택한 세그먼트를 비교하는 데 사용할 차원을 선택합니다. 특정 세그먼트를 선택하지 않으면 기본 세그먼트 **[!UICONTROL 기타 사용자]**&#x200B;가 사용됩니다. |
-| **[!UICONTROL 고급 설정 표시/숨기기]** | **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택하여 **[!UICONTROL 제외된 구성 요소]**&#x200B;를 구성하고 **[!UICONTROL 고급 설정 숨기기]**&#x200B;를 선택하여 **[!UICONTROL 제외된 구성 요소]**&#x200B;를 숨깁니다. |
-| **[!UICONTROL 제외된 구성 요소]** | 제외할 **[!UICONTROL Dimension]**, **[!UICONTROL 지표]** 또는 **[!UICONTROL 세그먼트]**&#x200B;와 같이 지정할 수 있는 구성 요소입니다.<br><ul><li>컨테이너에서 하나 이상의 차원, 지표 또는 세그먼트를 **[!UICONTROL 제외된 구성 요소]** 컨테이너로 끌어다 놓습니다.</li><li>구성 요소를 제거하려면 형식(**[!UICONTROL Dimension]** **[!UICONTROL 지표]** 또는 ****)을 선택하고 ![CrossSize75](/help/assets/icons/CrossSize75.svg))을 선택하여 구성 요소를 제거합니다. 모든 구성 요소를 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하십시오.</li><li>현재 선택한 차원, 지표 및 세그먼트를 기본값으로 설정하려면 **[!UICONTROL 기본값으로 설정]**&#x200B;을 선택합니다.</li></ul> |
+| **[!UICONTROL 비교 대상]** | 처음 선택한 세그먼트를 비교하는 데 사용할 차원을 선택합니다. 특정 세그먼트를 선택하지 않으면 기본 세그먼트인 **[!UICONTROL 기타 사용자]** 세그먼트가 사용됩니다. |
+| **[!UICONTROL 고급 설정 표시 / 숨기기]** | **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택하여 **[!UICONTROL 제외된 구성 요소]**&#x200B;를 구성하고, **[!UICONTROL 고급 설정 숨기기]**&#x200B;를 선택하여 **[!UICONTROL 제외된 구성 요소]**&#x200B;를 숨깁니다. |
+| **[!UICONTROL 제외된 구성 요소]** | 제외할 **[!UICONTROL 차원]**, **[!UICONTROL 지표]** 또는 **[!UICONTROL 세그먼트]** 와 같은 구성 요소를 지정할 수 있습니다.<br><ul><li>컨테이너에서 하나 이상의 차원, 지표 또는 세그먼트를 끌어다 **[!UICONTROL 제외된 구성 요소]** 컨테이너에 놓습니다.</li><li>구성 요소를 제거하려면 유형(**[!UICONTROL 차원]** **[!UICONTROL 지표]** 또는 **[!UICONTROL 세그먼트]**)을 선택하고 ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 구성 요소를 제거합니다. 구성 요소를 모두 제거하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택합니다.</li><li>현재 선택한 차원, 지표 및 세그먼트를 기본값으로 설정하려면 **[!UICONTROL 기본값으로 설정]**&#x200B;을 선택합니다.</li></ul> |
 
-패널을 빌드하려면 **[!UICONTROL 빌드]**&#x200B;를 선택하십시오.
+패널을 빌드하려면 **[!UICONTROL 빌드]**&#x200B;를 선택합니다.
 
 ### 패널 출력
 
-Adobe Analytics에서 원하는 두 세그먼트에 대한 분석을 완료하면 출력 패널에 몇 가지 시각화가 표시됩니다.
+Adobe Analytics에서 원하는 두 세그먼트에 대한 분석을 완료하면 몇 가지 시각화를 통해 출력 패널이 표시됩니다.
 
 ![패널 출력 세그먼트 비교](assets/segment-comparison-output.png)
 
 | 시각화 | 설명 |
 |---|---|
-| **[!UICONTROL 크기 및 겹치기]** | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) 시각화로 선택한 각 세그먼트의 상대적 크기와 서로 겹치는 정도를 보여 줍니다. |
-| **[!UICONTROL 첫 번째 세그먼트에 대한 고유 방문자 수]** | 첫 번째 세그먼트(단일 페이지 방문 횟수 예에서)에 대한 고유 방문자를 보여주는 [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화 |
-| **[!UICONTROL 두 번째 세그먼트의 고유 방문자 수]** | 두 번째 세그먼트(첫 번째 방문 예에서)에 대한 고유 방문자를 보여주는 [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화 |
-| **[!UICONTROL 세그먼트에 대한 상위 지표]** | 선택한 세그먼트의 상위 지표를 표시하는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
-| 세그먼트별 **[!UICONTROL 시간 경과에 따른 지표]** | 선택한 세그먼트에 대한 시간 경과에 따른 지표를 보여주는 [Line](/help/analyze/analysis-workspace/visualizations/line.md) 시각화입니다. |
-| **[!UICONTROL 세그먼트에 대한 상위 차원 항목]** | 선택한 세그먼트에 대한 혼합 차원 항목을 표시하는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
-| **[!UICONTROL 세그먼트별 항목 Dimension]** | 세그먼트별로 차원 항목을 표시하는 [가로 막대](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) 시각화입니다. |
-| **[!UICONTROL 세그먼트에 대한 상위 세그먼트]** | 세그먼트에 대한 상위 세그먼트를 표시하는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
-| **[!UICONTROL 세그먼트 겹침]** | 세그먼트 겹침을 보여 주는 [벤](/help/analyze/analysis-workspace/visualizations/venn.md) 시각화입니다. |
+| **[!UICONTROL 크기 및 겹치기]** | 선택된 각 세그먼트의 상대적 크기와 서로 겹치는 정도를 [벤](/help/analyze/analysis-workspace/visualizations/venn.md) 시각화를 사용하여 나타냅니다. |
+| **[!UICONTROL 첫 번째 세그먼트의 고유 방문자]** | 첫 번째 세그먼트(예시: 단일 페이지 방문 횟수)의 고유 방문자를 보여 주는 [요약 숫자](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화 |
+| **[!UICONTROL 두 번째 세그먼트의 고유 방문자]** | 첫 번째 세그먼트(예시: 최초 방문)의 고유 방문자를 보여 주는 [요약 숫자](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화 |
+| **[!UICONTROL 세그먼트에 대한 상위 지표]** | 선택한 세그먼트에 대한 주요 지표를 보여 주는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
+| **[!UICONTROL 세그먼트별 시간 경과에 따른 지표]** | 선택된 세그먼트에 대한 시간 경과 지표를 보여 주는 [라인](/help/analyze/analysis-workspace/visualizations/line.md) 시각화. |
+| **[!UICONTROL 세그먼트에 대한 상위 차원 항목]** | 선택된 세그먼트에 대한 혼합 차원 항목을 보여 주는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
+| **[!UICONTROL 세그먼트별 차원 항목]** | 세그먼트별 차원 항목을 보여 주는 [가로 막대](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) 시각화. |
+| **[!UICONTROL 세그먼트에 대한 상위 세그먼트]** | 세그먼트에 대한 상위 세그먼트를 보여 주는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
+| **[!UICONTROL 세그먼트 겹치기]** | 세그먼트가 겹치는 부분을 보여 주는 [ 벤](/help/analyze/analysis-workspace/visualizations/venn.md) 시각화. |
 
-![편집](/help/assets/icons/Edit.svg)을 사용하여 패널을 다시 구성하고 다시 빌드합니다.
+![편집](/help/assets/icons/Edit.svg)을 사용하여 패널을 재구성하고 재작성합니다.
 
 
 <!--

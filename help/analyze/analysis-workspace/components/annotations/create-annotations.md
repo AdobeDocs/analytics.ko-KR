@@ -5,7 +5,7 @@ role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 기본적으로 관리자만 주석을 생성할 수 있습니다. 사용자는 다른 Analytics 구성 요소(예: 세그먼트, 계산된 지표 등)와 마찬가지로 주석을 볼 수 있는 권한이 있습니다.
 
-단, 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko-KR)을 통해 사용자에게 [!UICONTROL 주석 만들기] 권한(Analytics 도구)을 부여할 수 있습니다.
+단, 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)을 통해 사용자에게 [!UICONTROL 주석 만들기] 권한(Analytics 도구)을 부여할 수 있습니다.
 
 1. 여러 가지 방법으로 시작하여 주석을 만들 수 있습니다.
 

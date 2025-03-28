@@ -4,9 +4,9 @@ title: 세그먼트 작성
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2063'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 96%
 
 * **Analytics 위쪽 탐색**: **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**&#x200B;를 클릭합니다.
 * **[!UICONTROL Analysis Workspace]**: **[!UICONTROL Analytics]** > **[!UICONTROL 작업 영역]**&#x200B;으로 이동하여 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 세그먼트 만들기]**&#x200B;를 클릭합니다.
-* **[!UICONTROL Report Builder]**: [Report Builder에서 세그먼트를 추가 또는 편집합니다](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Report Builder에서 세그먼트를 추가 또는 편집합니다](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## 빌더 기준 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -78,18 +78,18 @@ ht-degree: 96%
 1. **[!UICONTROL 설명]**: 세그먼트에 대한 설명을 입력합니다.
 1. **[!UICONTROL 태그]**: 기존 태그 목록에서 선택하거나 새 태그를 만들어 작성하고 있는 [세그먼트에 태깅](/help/components/segmentation/segmentation-workflow/seg-workflow.md)할 수 있습니다.
 1. **[!UICONTROL 정의]**: [세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 및 구성, 규칙 추가, 컨테이너 중첩 및 시퀀스 지정을 수행하는 곳입니다.
-1. **[!UICONTROL 표시]**: (위쪽 컨테이너 선택기) 최상위 [컨테이너](/help/components/segmentation/seg-overview.md)([!UICONTROL 방문자], [!UICONTROL 방문], [!UICONTROL 히트])를 선택할 수 있습니다. 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
+1. **[!UICONTROL 표시]**: (위쪽 컨테이너 선택기.) 최상위 수준 [컨테이너](/help/components/segmentation/seg-overview.md)([!UICONTROL 방문자 수], [!UICONTROL 방문 수], [!UICONTROL 히트])를 선택할 수 있습니다. 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
 1. **[!UICONTROL 옵션]**: (톱니바퀴) 아이콘
 
    * **[!UICONTROL + 컨테이너 추가]**: 세그먼트 정의에 새 컨테이너(최상위 컨테이너 아래)를 추가할 수 있습니다.
    * **[!UICONTROL 제외]**: 하나 이상의 차원, 세그먼트 또는 지표를 제외하는 식으로 세그먼트를 정의합니다.
 
-1. **[!UICONTROL 차원]**: 구성 요소는 차원 목록 (주황색 사이드바)에서 드래그하여 놓습니다.
+1. **[!UICONTROL 차원]**: 구성 요소는 차원 목록(주황색 사이드바)에서 드래그하여 놓습니다.
 1. **[!UICONTROL 연산자]**: 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
 1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 세그먼트 또는 지표 값입니다.
 1. **[!UICONTROL 속성 모델]**: 차원에만 사용할 수 있으며, 이 모델은 차원에서 어떤 값에 대해 세그먼테이션할지 결정합니다. 차원 모델은 순차적 세그먼테이션에서 특히 유용합니다.
 
-   * **[!UICONTROL 반복]**  (기본값): 차원의 인스턴스와 지속적인 값을 포함합니다.
+   * **[!UICONTROL 반복]**(기본값): 차원의 인스턴스와 지속적인 값을 포함합니다.
    * **[!UICONTROL 인스턴스]**: 차원의 인스턴스를 포함합니다.
    * **[!UICONTROL 비반복 인스턴스]**: 차원에 대한 고유한 인스턴스(비반복)를 포함합니다. 반복 인스턴스가 제외될 때 플로우에 적용되는 모델입니다.
 
@@ -97,7 +97,7 @@ ht-degree: 96%
 
    **예: 히트 세그먼트. 여기서 eVar1 = A**
 
-   | 예 | A | A | A (지속됨) | B | A | C |
+   | 예 | A | A | A(지속됨) | B | A | C |
    |---|---|---|---|---|---|---|
    | 반복 | X | X | X | - | X | - |
    | 인스턴스 | X | X | - | - | X | - |
@@ -116,7 +116,7 @@ ht-degree: 96%
 1. **[!UICONTROL 세그먼트]**: 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 보고서 세트 선택기]**: 이 세그먼트가 저장될 보고서 세트를 선택할 수 있습니다. 모든 보고서 세트의 세그먼트를 계속 활용할 수 있습니다.
 1. **[!UICONTROL 세그먼트 미리보기]**: 주요 지표를 미리보기하여 세그먼트가 유효한지와 세그먼트가 얼마나 광범위한지 확인할 수 있습니다. 이 세그먼트를 적용할 경우 표시될 것으로 예상되는 데이터 분류를 표시합니다. 3개의 동심원 및 목록을 표시하여 데이터 세트에 대해 실행된 세그먼트와 일치하는 [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL 방문자] 수 및 비율을 표시합니다. 이 차트는 세그먼트 정의를 만들거나 변경한 직후에 업데이트됩니다.
-1. **[!UICONTROL 제품 호환성]**: 만든 세그먼트가 호환되는 Adobe Analytics 제품(Analysis Workspace, Data Warehouse) 목록을 제공합니다. 대부분의 세그먼트는 모든 제품과 호환됩니다. 그러나 모든 연산자 및 차원이 모든 Analytics 제품(특히 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md))과 호환되는 것은 아닙니다. 이 차트는 세그먼트 정의를 변경한 직후에 업데이트됩니다.
+1. **[!UICONTROL 제품 호환성]**: 만든 세그먼트가 호환되는 Adobe Analytics 제품(Analysis Workspace, Data Warehouse) 목록을 제공합니다. 대부분의 세그먼트는 모든 제품과 호환됩니다. 하지만 모든 연산자 및 차원이 모든 Analytics 제품(특히 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md))과 호환되는 것은 아닙니다. 이 차트는 세그먼트 정의를 변경한 직후에 업데이트됩니다.
 1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 취소]**: 세그먼트를 저장하거나 취소합니다. **[!UICONTROL 저장]**&#x200B;을 클릭하면 세그먼트를 관리할 수 있는 세그먼트 관리자로 이동됩니다.
 
 
@@ -131,8 +131,8 @@ ht-degree: 96%
 1. 드롭다운 메뉴에서 [연산자](/help/components/segmentation/seg-reference/seg-operators.md)를 설정합니다.
 1. 선택한 항목에 대한 값을 입력하거나 선택합니다.
 1. 필요한 경우 **[!UICONTROL And]**, **[!UICONTROL Or]** 또는 **[!UICONTROL Then]** 규칙을 사용하여 컨테이너를 더 추가합니다.
-1. 컨테이너를 배치하고 규칙을 설정한 후에는 오른쪽 위의 유효성 검증 차트에서 세그먼트 결과를 확인합니다. 유효성 검사기는 작성한 세그먼트와 일치하는 페이지 보기, 방문 및 고유한 방문자의 비율 및 절대값을 표시합니다.
-1. **[!UICONTROL 태그]**&#x200B;에서 기존 태그를 선택하거나 새 태그를 만들어 컨테이너를 [태그](/help/components/segmentation/segmentation-workflow/seg-tag.md)합니다.
+1. 컨테이너를 배치하고 규칙을 설정한 후에는 오른쪽 위의 유효성 검증 차트에서 세그먼트 결과를 확인합니다. 유효성 검사기는 작성한 세그먼트와 일치하는 페이지 조회수, 방문 및 고유한 방문자의 비율 및 절대값을 표시합니다.
+1. **[!UICONTROL 태그]**&#x200B;에서 기존 태그를 선택하거나 새 태그를 만들어 컨테이너에 [태깅](/help/components/segmentation/segmentation-workflow/seg-tag.md)합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 세그먼트를 저장합니다.
 
 이제 여러 가지 방법으로 세그먼트에 태깅하고, 세그먼트를 공유 및 관리할 수 있는 [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)가 표시합니다.
@@ -145,7 +145,7 @@ ht-degree: 96%
 
    ![](assets/add_container.png)
 
-   새로운 [!UICONTROL 히트] 컨테이너가 식별된 [!UICONTROL 히트]  (페이지 보기) 없이 열립니다.
+   새로운 [!UICONTROL 히트] 컨테이너가 식별된 [!UICONTROL 히트]&#x200B;(페이지 보기) 없이 열립니다.
 
    ![](assets/new_container.png)
 
@@ -161,7 +161,7 @@ ht-degree: 96%
 
 진행 중인 캠페인 또는 이벤트에 대한 질문에 답변하는 순서로 롤링 날짜 범위를 포함하는 세그먼트를 작성할 수 있습니다.
 
-예를 들면 &quot;지난 60일 동안 구매한 모든 사람&quot;을 포함하는 세그먼트를 쉽게 작성할 수 있습니다.
+예를 들면 “지난 60일 동안 구매한 모든 사람”을 포함하는 세그먼트를 쉽게 작성할 수 있습니다.
 
 방문 컨테이너를 만들고, 그 안에서 AND 연산자와 함께 [!UICONTROL 최근 60일] 시간 범위와 [!UICONTROL 주문이 1보다 크거나 같음] 지표를 추가할 수 있습니다.
 
@@ -170,21 +170,21 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트의 롤링 기간](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}을 참조하세요.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 ## 세그먼트 스택 {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
-세그먼트 스택은 &#39;and&#39; 연산자를 사용하여 각 세그먼트에서 기준을 조합한 다음 조합된 기준을 적용하는 방식으로 진행됩니다. Workspace 프로젝트에서 바로 또는 세그먼트 빌더에서 수행할 수 있습니다.
+세그먼트 스택은 “and” 연산자를 사용하여 각 세그먼트에서 기준을 조합한 다음 조합된 기준을 적용하는 방식으로 진행됩니다. Workspace 프로젝트에서 바로 또는 세그먼트 빌더에서 수행할 수 있습니다.
 
 예를 들어 &quot;휴대폰 사용자&quot; 세그먼트 및 &quot;미국 지리&quot; 세그먼트는 미국의 휴대폰 사용자에 대한 데이터만 반환합니다.
 
 이러한 세그먼트를 사용자들이 필요할 때 사용할 수 있도록 세그먼트 라이브러리에 포함할 수 있는 기본 구성 요소 또는 모듈로 생각하십시오. 이러한 식으로 필요한 세그먼트 수를 획기적으로 줄일 수 있습니다. 예를 들어 다음과 같은 40개의 세그먼트가 있을 수 있습니다.
 
-* 다른 국가의 휴대폰 사용자를 위한 20개 세그먼트 (US_mobile, Germany_mobile, France_mobile, Brazil_mobile 등)
-* 다른 국가의 태블릿 사용자를 위한 20개 세그먼트 (US_tablet, Germany_tablet, France_tablet, Brazil_tablet 등)
+* 다른 국가의 휴대폰 사용자를 위한 20개 세그먼트(US_mobile, Germany_mobile, France_mobile, Brazil_mobile 등)
+* 다른 국가의 태블릿 사용자를 위한 20개 세그먼트(US_tablet, Germany_tablet, France_tablet, Brazil_tablet 등)
 
 세그먼트 스택을 사용하여 세그먼트 수를 22개로 줄이고 필요에 따라 스택할 수 있습니다. 다음 세그먼트를 만들어야 합니다.
 
@@ -236,7 +236,7 @@ ht-degree: 96%
    <td colname="col2">주문 이벤트에 참가하지 않은 방문자에 대한 데이터를 봅니다. 세그먼트 정의에서 이 컨테이너는 방문자입니다. 이 세그먼트는 제외 로직을 사용합니다. 규칙: <p>주문은 null이 아닙니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 단일 페이지 방문 아님 (바운스 아님) </td> 
+   <td colname="col1"> 단일 페이지 방문 아님(바운스 아님) </td> 
    <td colname="col2">두 번 이상 방문한 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문자입니다. 이 세그먼트는 제외 로직을 사용합니다. 규칙: <p>단일 액세스가 null이 아닙니다. </p> </td> 
   </tr> 
   <tr> 

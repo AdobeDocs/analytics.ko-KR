@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;에서 빈 패널에 대한 문서를 제공합니다.이 문서의 _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**버전에 대해_<br/>_&#x200B;빈 패널](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel)을 참조하세요._[
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 빈 패널에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [빈 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/blank-panel)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -39,7 +39,7 @@ _이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adob
 
 1. **[!UICONTROL 빈 패널]**&#x200B;을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
 
-   ![Create a panel](assets/create-panel.png)
+   ![패널 만들기](assets/create-panel.png)
 
 
 
@@ -59,13 +59,13 @@ _이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adob
 
   | 선택... | 다음을 만들려면... |
   |---|---|
-  | ![Table](/help/assets/icons/Table.svg) | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
-  | ![Line](/help/assets/icons/GraphTrend.svg) | [라인](/help/analyze/analysis-workspace/visualizations/line.md) |
+  | ![테이블](/help/assets/icons/Table.svg) | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
+  | ![라인](/help/assets/icons/GraphTrend.svg) | [라인](/help/analyze/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [막대](/help/analyze/analysis-workspace/visualizations/bar.md) |
-  | ![123](/help/assets/icons/123.svg) | [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
-  | ![Text](/help/assets/icons/Text.svg) | [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) |
+  | ![123](/help/assets/icons/123.svg) | [요약 숫자](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) |
   | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
-  | ![Workflow](/help/assets/icons/GraphPathing.svg) | [흐름](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+  | ![워크플로](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
   | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) | [스택 영역](/help/analyze/analysis-workspace/visualizations/area.md) |
   | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [코호트 테이블](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
   | ![GraphBullet](/help/assets/icons/GraphBullet.svg) | [글머리 기호](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) |
@@ -73,7 +73,7 @@ _이 문서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adob
   | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md) |
   | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [분산](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |
-  | ![Type](/help/assets/icons/TwoDots.svg) | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) |
+  | ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) |
   | ![GraphTree](/help/assets/icons/GraphTree.svg) | [트리맵](/help/analyze/analysis-workspace/visualizations/treemap.md) |
 
 * 패널 **외부에서** ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 다른 빈 패널을 추가합니다.
