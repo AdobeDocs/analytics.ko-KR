@@ -3,16 +3,16 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e0f6b7b5b2933add7f67873a945b78e4200116eb
+source-git-commit: 53175bbf54dd452502e1502b272ebb86c8b133ef
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 98%
+source-wordcount: '922'
+ht-degree: 64%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2025년 3월 릴리스)
 
-**마지막 업데이트**: 2025년 3월 12일
+**마지막 업데이트**: 2025년 3월 31일 화요일
 
 이번 릴리스 정보에는 2025년 3월 5일부터 5월까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 | ----------- | ---------- | ------- | ---- |
 | **Analytics 컨텍스트 데이터 필드 업데이트`a.locale`** | 해당 업데이트 이후 Experience Edge를 통해 데이터를 수집할 때 Analytics 컨텍스트 데이터 필드 `a.locale`이 설정되는 방식이 변경됩니다. Experience Edge를 사용하여 Adobe Analytics로 데이터를 전송하면 XDM 필드의 매핑을 기반으로 Analytics 필드가 채워집니다. `c.a.locale`에 대한 매핑은 비표준 XDM 필드인 `xdm.environment.language`를 참조합니다. 이 필드는 올바른 필드 `xdm.environment._dc.language`를 참조하도록 업데이트됩니다.<p>해당 매핑은 이전 버전과의 호환성을 유지하기 위해 `xdm.environment.language`를 계속 참조합니다. 연속성을 위해 두 필드가 모두 설정된 경우 `xdm.environment.language`가 우선 적용됩니다. XDM에서 표준 Analytics 필드로 매핑되는 전체 목록은 [여기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/xdm-var-mapping)에서 확인할 수 있습니다. | | 2025년 3월 5일 |
 | **Customer Journey Analytics 업그레이드 안내서** | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하기 위한 단계별 안내서를 생성할 수 있습니다. 이 안내서는 귀하의 조직에 맞게 작성되었으며, 현재 Adobe Analytics 환경, Customer Journey Analytics에 대해 의도된 용도, 그리고 시간 절약을 위한 타협을 고려합니다.<p>사용자 정의 안내서 생성을 시작하려면 [!DNL Customer Journey Analytics]에 로그인한 다음 **[!UICONTROL 작업 영역]** 탭에서 **[!UICONTROL Customer Journey Analytics로 업그레이드]**&#x200B;를 선택합니다.<p>[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025년 3월 11일 |
-| **Data Warehouse 전용 차원** | 2025년 5월부터 Adobe는 eVars와 props와 같은 사용자 정의 변수 중 매우 높은 카디널리티를 보이는 차원이 &#39;Data Warehouse 전용&#39;으로 설정됩니다. 높은 카디널리티 변수는 여러 개의 고유 값을 갖습니다. 예로는 타임스탬프나 UUID가 있습니다. 이러한 차원은 Analysis Workspace에서 더 이상 보고용으로 제공되지 않습니다.<p>이러한 변경 대상은 월 초에 낮은 트래픽 한도를 초과하는 차원입니다. 이러한 유형의 차원을 기반으로 한 Analysis Workspace 보고서는 수집된 초기 값의 일부만을 반영하기 때문에 이러한 유형의 차원을 사용하는 경우에 유용하지 않습니다.<p>Data Warehouse는 트래픽에 대한 제한을 두지 않으므로 이러한 유형의 차원을 기반으로 유용한 보고서나 세그먼트를 계속 빌드할 수 있습니다. | | 2025년 5월 |
+| **Data Warehouse 전용 차원** | 2025년 5월부터 Adobe은 특정 차원(eVar 및 prop과 같은 사용자 지정 변수)을 &#39;Data Warehouse 전용&#39;으로 설정할 예정입니다. 이는 다음 특성을 나타내는 차원에 적용됩니다.<ul><li> 여러 달의 기간 동안 변수는 그 달의 처음 며칠 내에 낮은 트래픽 제한에 도달합니다.</li><li>전달된 값의 90% 이상이 한 달 동안 한 번만 표시됩니다.</li></ul>예를 들면 카디널리티가 매우 높고 거의 모든 히트(또는 방문 또는 방문자)에 대해 한 달 동안 고유한 새 값이 전달되는 타임스탬프, UUID 또는 기타 데이터가 포함된 차원이 포함됩니다. 이러한 차원은 일반적으로 낮은 트래픽 제한을 매우 빨리 초과하며 Analysis Workspace에서 매우 작은 부분만 보고할 수 있습니다. 이렇게 하면 유용하거나 정확한 정보를 표시하지 않으므로 이러한 차원을 활용하는 보고서를 헷갈리게 합니다. 이러한 차원은 차원이 해당 달 동안 낮은 트래픽 제한을 초과한 후 &#39;자주&#39; 사용되는 값에 대한 보고를 수행하는 방법을 제공하기 위한 낮은 트래픽 기능의 목적이나 이점을 따르지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/technotes/low-traffic.)<p>&quot;Data Warehouse 전용&quot;으로 표시된 차원은 Analysis Workspace에서 보고할 수 없습니다. 하지만 낮은 트래픽 제한은 여기에 적용되지 않으므로 Data Warehouse을 통해 보고할 수 있습니다.<p>이는 낮은 트래픽 제한에 도달한 모든 차원이 &quot;Data Warehouse 전용&quot;으로 표시될 후보임을 의미하지는 않습니다. 낮은 트래픽 제한에 도달한 대부분의 차원은 실제로 낮은 트래픽 기능의 의도를 충족합니다.<ul><li>전달된 대부분의 값이 고유하지 않습니다.</li><li>해당 달 동안 낮은 트래픽 제한에 도달한 후에도 일반 값이 계속 표시됩니다.</li><li>새 &#39;인기&#39; 값은 계속 발생할 수 있습니다.</li></ul>전달된 거의 모든 값이 &quot;Data Warehouse 전용&quot;으로 표시되는 새롭고 고유한 차원입니다. 낮은 트래픽 제한을 늘리는 것은 이러한 상황에서 수집되는 데이터의 고유성을 고려할 때 해결책이 아닙니다. | | 2025년 5월 |
 
 
 ## Adobe Analytics의 수정 사항
