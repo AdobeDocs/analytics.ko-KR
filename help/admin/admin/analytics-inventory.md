@@ -6,9 +6,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
+source-git-commit: fe1074403992c1dd28778f279cafe4e557dfe4fd
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '274'
 ht-degree: 48%
 
 ---
@@ -42,9 +42,9 @@ Analytics 인벤토리는 프로젝트 및 구성 요소 수, 보고서 세트, 
 
 ## Analytics 인벤토리 액세스
 
-Analytics 인벤토리는 **[!UICONTROL 관리자]** 메뉴와 **[!UICONTROL 모든 관리자]** 메뉴 항목에서 사용할 수 있습니다.
+[!UICONTROL Analytics 인벤토리]는 **[!UICONTROL 관리자]** 메뉴와 **[!UICONTROL 모든 관리자]** 메뉴 항목에서 사용할 수 있습니다.
 
-    ![Analytics 인벤토리 메뉴](assets/an-inventory-menu.png)
+![Analytics-Inventory-menu](assets/an-inventory-menu.png)
 
 
 ## 구성 요소 {#components}
