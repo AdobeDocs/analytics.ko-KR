@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
+source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 37%
+source-wordcount: '736'
+ht-degree: 25%
 
 ---
 
@@ -54,9 +54,13 @@ Analytics 인벤토리는 [Adobe Admin Console](https://experienceleague.adobe.c
 
    ![기본 인벤토리 화면](assets/an_inventory.png)
 
->[!IMPORTANT]
->
->   이 초기 릴리스에서는 Workspace 프로젝트, 세그먼트, 계산된 지표, 고급(Media Analytics) 데이터 및 사용자에 대한 요약 번호를 볼 수 있습니다. 현재 실행 가능한 항목은 보고서 세트뿐입니다.
+   특히 이 화면은
+
+   * 모든 사용자에 대해 이 조직에서 활성화된 Analysis Workspace 및 모바일 스코어카드 프로젝트의 총 수입니다.
+   * 모든 사용자에 대해 이 조직에서 활성화된 세그먼트 및 계산된 지표의 총 수입니다.
+   * 정의된 총 기본 보고서 세트 수입니다(가상 보고서 세트는 포함되지 않음).
+   * Media Analytics 기능이 활성화되어 있고, 활성화되어 있으면 어떤 모드로 전환됩니다.
+   * 해당 조직에 정의된 총 사용자 수입니다.
 
 
 ## 구성 요소 {#components}
@@ -83,9 +87,18 @@ Analytics 인벤토리는 [Adobe Admin Console](https://experienceleague.adobe.c
 
 <!-- markdownlint-enable MD034 -->
 
-### 보고서 세트 분석
+### 보고서 세트
 
-1. 보고서 세트를 분석하고 마이그레이션할 보고서 세트를 결정하려면 **[!UICONTROL 데이터 구성 및 컬렉션]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동하고 **[!UICONTROL 분석]**&#x200B;을 클릭하십시오.
+보고서 세트 보기에는 조직 아래에 정의된 모든 보고서 세트가 표시됩니다. 이 옵션을 통해 다음 질문에 답변할 수 있습니다.
+
+* 지난 90일 동안 가장 많은 히트를 받은 보고서 세트는 무엇입니까?
+* 지난 90일 동안 어떤 보고서 세트가 히트를 받지 못했습니까?
+* 정의된 차원 수가 가장 큰 보고서 세트는 무엇입니까?
+* 정의된 지표 수가 가장 많은 보고서 세트는 무엇입니까?
+
+이러한 질문에 대한 답변은 어떤 보고서 세트가 마이그레이션에 가장 적합한지 좋은 아이디어를 제공합니다.
+
+1. 보고서 세트를 분석하려면 **[!UICONTROL 데이터 구성 및 컬렉션]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동하고 **[!UICONTROL 분석]**&#x200B;을 클릭합니다.
 
    ![보고서 세트 목록](assets/an_inv_rs.png)
 
@@ -93,12 +106,12 @@ Analytics 인벤토리는 [Adobe Admin Console](https://experienceleague.adobe.c
    | --- | --- |
    | 이름 | 보고서 세트의 이름 |
    | ID | 보고서 세트 ID(rsid)입니다. 영숫자만 포함한 고유 ID를 지정합니다. 이 ID는 생성하고 나면 변경할 수 없습니다. Adobe가 필수 ID 접두사를 설정하므로 어느 것도 변경할 수 없습니다. |
-   | 발생 횟수 (최근 90일) |  |
-   | 지표 | How |
-   | 차원 |  |
-   | A4T(Analytics for Target) 활성화됨 |  |
-   | 마케팅 채널 활성화됨 |  |
-   | Source 커넥터 활성화됨 | 팔로우 |
+   | 발생 횟수 (최근 90일) | 지난 90일 동안 이 보고서 세트가 받은 히트는 몇 개입니까? |
+   | 지표 | 이 보고서 세트에 정의된 지표는 몇 개입니까? |
+   | 차원 | 이 보고서 세트에는 몇 개의 차원이 정의되어 있습니까? |
+   | A4T(Analytics for Target) 활성화됨 | 이 보고서 세트가 [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)에 대해 활성화되어 있습니까? |
+   | 마케팅 채널 활성화됨 | 이 보고서 세트가 [마케팅 채널](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)에 대해 활성화되어 있습니까? |
+   | Source 커넥터 활성화됨 | [개발 중] 이 보고서 세트가 Adobe Experience Platform의 보고서 세트 데이터에 대해 [Adobe Analytics Source 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)에 대해 활성화되어 있습니까? 즉, Analytics Source 커넥터를 사용하여 이 보고서 세트를 Customer Journey Analytics으로 마이그레이션할 수 있습니까? |
    | 캘린더 유형 | 자세한 내용은 [사용자 지정 달력](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#)을 참조하세요. |
 
 1. 주의:..
