@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
+source-git-commit: f3fdc81da50fffcc6dc581b07b384836d24c444a
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 25%
+source-wordcount: '846'
+ht-degree: 22%
 
 ---
 
@@ -98,6 +98,11 @@ Analytics 인벤토리는 [Adobe Admin Console](https://experienceleague.adobe.c
 
 이러한 질문에 대한 답변은 어떤 보고서 세트가 마이그레이션에 가장 적합한지 좋은 아이디어를 제공합니다.
 
+>[!NOTE]
+>
+>이 테이블은 한 번에 하나의 셀 값을 천천히 채웁니다.
+
+
 1. 보고서 세트를 분석하려면 **[!UICONTROL 데이터 구성 및 컬렉션]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동하고 **[!UICONTROL 분석]**&#x200B;을 클릭합니다.
 
    ![보고서 세트 목록](assets/an_inv_rs.png)
@@ -111,12 +116,31 @@ Analytics 인벤토리는 [Adobe Admin Console](https://experienceleague.adobe.c
    | 차원 | 이 보고서 세트에는 몇 개의 차원이 정의되어 있습니까? |
    | A4T(Analytics for Target) 활성화됨 | 이 보고서 세트가 [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)에 대해 활성화되어 있습니까? |
    | 마케팅 채널 활성화됨 | 이 보고서 세트가 [마케팅 채널](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)에 대해 활성화되어 있습니까? |
-   | Source 커넥터 활성화됨 | [개발 중] 이 보고서 세트가 Adobe Experience Platform의 보고서 세트 데이터에 대해 [Adobe Analytics Source 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)에 대해 활성화되어 있습니까? 즉, Analytics Source 커넥터를 사용하여 이 보고서 세트를 Customer Journey Analytics으로 마이그레이션할 수 있습니까? |
+   | Source 커넥터 활성화됨 | [개발 중] 이 보고서 세트가 Adobe Experience Platform의 보고서 세트 데이터용 [Adobe Analytics Source 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)에 대해 활성화되어 있습니까? 즉, Analytics Source 커넥터를 사용하여 이 보고서 세트를 Customer Journey Analytics으로 마이그레이션할 수 있습니까? |
    | 캘린더 유형 | 자세한 내용은 [사용자 지정 달력](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#)을 참조하세요. |
 
-1. 주의:..
+#### 차원 분석
 
-### CSV로 내보내기
+이 화면에서는 특정 보고서 세트에 대해 정의된 모든 차원을 자세히 볼 수 있습니다. 이 보기에서 다음 질문에 답변할 수 있습니다.
+
+* 이 보고서 세트에 대해 활성화된 차원은 무엇입니까?
+* 이 차원에 대한 최근 90일 동안의 상위 10개 차원 항목은 무엇입니까?
+
+1. 보고서 세트 페이지에서 차원 링크를 클릭합니다.
+
+
+
+
+#### 지표 분석
+
+이 화면에서는 특정 보고서 세트에 대해 정의된 모든 지표에 대한 세부 보기를 제공합니다. 이 보기에서 다음 질문에 답변할 수 있습니다.
+
+* 이 보고서 세트에 대해 활성화된 지표는 무엇입니까?
+* 지난 90일 동안의 상위 10개 지표는 무엇입니까?
+
+
+
+#### CSV로 내보내기
 
 1. 보고서 세트 목록을 .csv 파일로 내보내려면 **[!UICONTROL CSV로 내보내기]**&#x200B;를 클릭합니다.
 
