@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 80dc39ebf0a9b7122b346e2045498ad21eedc0fe
+source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
 workflow-type: tm+mt
-source-wordcount: '6352'
+source-wordcount: '6380'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 97%
 | 기능 | 설명 |
 | --- | --- |
 | **2025년 3월** |  |
+| | **Analytics 인벤토리** | Analytics 인벤토리는 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
 | Customer Journey Analytics 업그레이드 안내서 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 [단계별 안내서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)를 생성할 수 있습니다. |
 | Data Warehouse 내보내기에서 날짜 형식을 명확히 했습니다. | Data Warehouse 내보내기의 시간 기반 차원 값에는 비표준 날짜 형식이 있습니다. Data Warehouse 내보내기에서 날짜 값을 해석하는 방법을 설명하는 정보가 추가되었습니다. <p>[Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md)에서 [다른 방식으로 지원되는 차원(비표준 날짜 형식)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)을 참조하십시오.</p> |
 | IP 제외에 대한 정보가 업데이트되었습니다. | [IP 제외](/help/admin/admin/exclude-ip.md)가 적용되기 전에 최대 5분이 소요될 수 있으며 변경 사항은 새 히트에만 적용된다는 설명(제외가 설정되기 전에 캡처된 데이터는 영향을 받지 않음)이 추가된 정보입니다. <p>가독성을 개선하기 위해 콘텐츠 레이아웃도 업데이트했습니다.</p> |
