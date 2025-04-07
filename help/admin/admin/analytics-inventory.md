@@ -4,10 +4,10 @@ title: Analytics 인벤토리
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: bab2bf61a2cf03f3e2b809d6383503b0c9bd5a36
+source-git-commit: 1a6f086105c76cbfcf361ddc54d71a7e7c4921d5
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 19%
+source-wordcount: '1183'
+ht-degree: 21%
 
 ---
 
@@ -157,7 +157,7 @@ Analytics 인벤토리는 [Adobe Admin Console](https://experienceleague.adobe.c
 
 1. CJA으로 마이그레이션하는 것이 적절한 지표를 결정합니다.
 
-#### CSV로 내보내기
+### CSV로 내보내기
 
 1. 보고서 세트나 차원 또는 지표 목록을 .csv 파일로 내보내려면 **[!UICONTROL CSV로 내보내기]**&#x200B;를 클릭합니다.
 
@@ -170,7 +170,7 @@ Analytics 인벤토리는 [Adobe Admin Console](https://experienceleague.adobe.c
 >필터링된 항목 및 열은 .csv 파일로 내보낼 수 없습니다.
 
 
-#### 필터링, 검색, 순서 지정 및 탐색
+### 필터링, 검색, 순서 지정 및 탐색
 
 * 테이블을 검색하시면 됩니다
 * 왼쪽 레일에서 필터 아이콘을 클릭하여 &quot;유형&quot;별로 필터링합니다. 또는 **[!UICONTROL 필터 숨기기]**&#x200B;를 클릭합니다.
@@ -189,3 +189,13 @@ Analytics 인벤토리는 [Adobe Admin Console](https://experienceleague.adobe.c
 <!-- markdownlint-enable MD034 -->
 
 사용자 관리는 Analytics 인벤토리의 이후 릴리스에서 사용할 수 있습니다.
+
+## 구성 요소 마이그레이션
+
+Adobe Analytics 관리자는 [구성 요소 마이그레이션](/help/admin/admin/component-migration/component-migration.md)을 사용하여 Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics으로 마이그레이션할 수 있습니다.
+
+마이그레이션 프로세스에 포함된 사항:
+
+* Customer Journey Analytics에서 Adobe Analytics 프로젝트를 다시 생성합니다.
+
+* Adobe Analytics 보고서 세트의 차원 및 지표를 Customer Journey Analytics 데이터 보기의 차원 및 지표에 매핑합니다.
