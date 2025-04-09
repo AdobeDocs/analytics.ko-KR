@@ -1,13 +1,13 @@
 ---
 title: Analytics 도구 안내서
-description: Analysis Workspace, Analytics 대시보드(모바일 앱), Activity Map 및 Report Builder에 대한 제품 설명서 및 자체 도움말.
+description: Analysis Workspace, Analytics 대시보드(모바일 앱), Activity Map 및 Report Builder에 대한 제품 설명서 및 자체 도움말입니다.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
