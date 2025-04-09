@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
 workflow-type: tm+mt
 source-wordcount: '6380'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 97%
 | --- | --- |
 | **2025년 3월** |  |
 | | **Analytics 인벤토리** | Analytics 인벤토리는 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
-| Customer Journey Analytics 업그레이드 안내서 | Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 [단계별 안내서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)를 생성할 수 있습니다. |
-| Data Warehouse 내보내기에서 날짜 형식을 명확히 했습니다. | Data Warehouse 내보내기의 시간 기반 차원 값에는 비표준 날짜 형식이 있습니다. Data Warehouse 내보내기에서 날짜 값을 해석하는 방법을 설명하는 정보가 추가되었습니다. <p>[Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md)에서 [다른 방식으로 지원되는 차원(비표준 날짜 형식)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)을 참조하십시오.</p> |
-| IP 제외에 대한 정보가 업데이트되었습니다. | [IP 제외](/help/admin/admin/exclude-ip.md)가 적용되기 전에 최대 5분이 소요될 수 있으며 변경 사항은 새 히트에만 적용된다는 설명(제외가 설정되기 전에 캡처된 데이터는 영향을 받지 않음)이 추가된 정보입니다. <p>가독성을 개선하기 위해 콘텐츠 레이아웃도 업데이트했습니다.</p> |
+| Customer Journey Analytics 업그레이드 안내서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하기 위한 [단계별 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)를 생성할 수 있습니다. |
+| Data Warehouse 내보내기의 날짜 형식이 명확해짐 | Data Warehouse 내보내기의 시간 기반 차원 값에 비표준 날짜 형식이 적용됩니다. Data Warehouse 내보내기에서 날짜 값을 해석하는 방법을 설명하는 정보가 추가되었습니다. <p>[다른 방식(비표준 날짜 형식)으로 지원되는 차원](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)에 대한 자세한 내용은 [Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md)을 참조하십시오.</p> |
+| IP 제외에 대해 업데이트된 정보 | [IP 제외](/help/admin/admin/exclude-ip.md)가 적용되기까지 최대 5분 정도 소요될 수 있으며, 변경 사항은 새로운 히트에만 적용된다는 내용(제외가 설정되기 전에 캡처된 데이터는 영향을 받지 않음)을 설명하는 정보가 추가되었습니다. <p>또한 가독성을 높이기 위해 콘텐츠 레이아웃도 업데이트되었습니다.</p> |
 | **2025년 2월** |  |
 | 데이터 피드 일시 중지 및 재활성화에 대한 정보 업데이트 | [데이터 피드를 일시 중지하고 다시 활성화](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)할 때 라이브 피드의 동작이 보다 명확하게 설명됩니다. 피드가 일시 중지된 시점부터 다시 활성화될 때까지 데이터 처리는 발생하지 않습니다. |
 | 거래 ID 보존 기간 변경 | 90일이었던 거래 ID 보존 기간이 25개월로 연장되었습니다. transactionID 변수는 데이터 소스를 통해 업로드된 데이터에 히트가 연결될 수 있도록 거래를 고유하게 식별합니다. [여기](https://experienceleague.adobe.com/ko/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) 및 [여기](https://experienceleague.adobe.com/ko/docs/analytics/import/data-sources/transactionid?lang=en)에서 자세히 알아보십시오. |
@@ -91,7 +91,7 @@ ht-degree: 97%
 | --- | --- |
 | **2023년 12월** | |
 | 향상된 보트 규칙 문서 | 명확성을 개선하도록 [보트 규칙 이해 및 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)이 업데이트되었습니다.<p>개선 사항은 다음과 같습니다.</p> <ul><li>좀 더 설명적인 문서 제목 업데이트</li><li>정보 구성 개선</li><li>작업 기반 정보를 표시하는 단계 추가</li><li>봇 규칙 업로드 시 CSV 파일 요구 사항에 대한 자세한 내용 추가</li></ul> |
-| 새 보고서 섹션 | [템플릿 사용](/help/analyze/analysis-workspace/templates/use-templates.md) 및 [회사 템플릿 만들기](/help/analyze/analysis-workspace/templates/create-templates.md)에 대한 정보를 포함하는 새 보고서 섹션을 추가했습니다. |
+| 새 보고서 섹션 | [템플릿 사용](/help/analyze/analysis-workspace/templates/use-templates.md) 및 [회사 템플릿 생성](/help/analyze/analysis-workspace/templates/create-templates.md)에 대한 정보를 포함하는 새로운 보고서 섹션이 추가되었습니다. |
 | 예외 항목 탐지 및 기여도 분석 설명서 업데이트 | 예외 항목 탐지 및 기여도 분석에 대한 설명서는 가상 분석가와 관련된 이전 섹션에 있었습니다. 다음 사항이 변경되었습니다. <ul><li>가상 분석가라는 용어는 설명서에서 제거되었습니다.</li><li>[예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에 대한 섹션이 Analysis Workspace 섹션 바로 아래로 이동되었습니다.</li><li>기여도 분석 설명서가 예외 항목 탐지 설명서에 병합되었습니다.</li></ul> |
 | “Attribution IQ”가 “속성”으로 변경되었습니다. | 설명서 내용 전체에서 “Attribution IQ”의 모든 인스턴스를 “[속성](/help/analyze/analysis-workspace/attribution/overview.md)”으로 변경했습니다. |
 | **2023년 11월** | |
