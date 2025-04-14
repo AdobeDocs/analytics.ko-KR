@@ -5,9 +5,9 @@ title: 처리 규칙 예
 feature: Admin Tools
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '86'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 100%
 + [쿼리 문자열 매개변수에서 캠페인 ID 채우기](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
 + [제품 개요 페이지에서 제품 보기 이벤트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
 + [범주와 페이지 이름을 연결하여 하위 범주 추가](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-+ [eVar 값을 prop에 복사하여 경로 결정](processing-rules-determining-path.md)
 + [보고서에서 값 정리](clean-up-values-in-a-report.md)
 + [쿼리 문자열 매개변수를 사용하여 내부 검색어 채우기](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
 + [eVar에 컨텍스트 데이터 변수 복사](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
