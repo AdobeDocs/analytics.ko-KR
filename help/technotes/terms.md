@@ -3,7 +3,7 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -89,7 +89,7 @@ ht-degree: 89%
 * **속성:** 트래픽 변수를 참조하십시오.
 * **등급 보고서:** 일반적으로 지표를 사용하여 차원을 따르는 보고서 형식입니다. 이 유형의 보고서에서는 사이트에서 가장 많이 본 페이지와 같은 상위 항목을 볼 수 있습니다. 트렌드 보고서도 참조하십시오.
 * **실시간:** 지연이 거의 없는 상태로 구성된 변수를 수집하는 즉시 표시합니다. 관리 사용 안내서에서 [실시간 보고서](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)를 참조하십시오.
-* **Report Builder:** Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) 추가 기능을 사용하여 Adobe Analytics 데이터에서 사용자 지정 요청을 작성할 수 있습니다.
+* **Report Builder:** Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md) 추가 기능을 사용하여 Adobe Analytics 데이터에서 사용자 지정 요청을 작성할 수 있습니다.
 * **보고서 세트:** 데이터를 보내는 중요한 컨테이너입니다. Adobe Analytics의 모든 보고서는 보고서 세트를 참조합니다.
 * **Reports &amp; Analytics:** 이 도구는 [사용 중지](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)되었습니다.
 * **롤링 날짜 범위:** 시간이 경과함에 따라 변경되는 상대적 날짜 범위의 유형입니다. 예를 들어 최근 7일을 보여 주는 보고서를 롤링 날짜 범위로 간주할 수 있습니다. 정적 날짜 범위도 참조하십시오.

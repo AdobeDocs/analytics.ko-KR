@@ -1,5 +1,5 @@
 ---
-source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 36%
@@ -11,7 +11,7 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->간소화된 새 [Report Builder](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview)이(가) 2024년 10월 16일에 릴리스되었습니다. Mac, Windows 및 웹 브라우저에서 지원됩니다.
+>간소화된 새 [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)이(가) 2024년 10월 16일에 릴리스되었습니다. Mac, Windows 및 웹 브라우저에서 지원됩니다.
 >이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [기존 통합 문서를 새 Report Builder으로 변환](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)할 수 있습니다.
 
 ## Reports &amp; Analytics 서비스 종료 공지 {#ra-eol}

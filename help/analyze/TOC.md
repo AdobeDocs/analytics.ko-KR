@@ -4,8 +4,8 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -161,7 +161,7 @@ ht-degree: 100%
       + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 액세스 가능 여부](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
-   + [Report Builder 개요](report-builder/report-buider-overview.md)
+   + [Report Builder 개요](report-builder/rb-overview.md)
    + [Report Builder 설치](report-builder/report-builder-setup.md)
    + [레거시 요청 변환](report-builder/convert-workbooks.md)
    + [데이터 블록 만들기](report-builder/create-a-data-block.md)

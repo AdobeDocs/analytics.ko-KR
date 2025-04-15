@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '6380'
 ht-degree: 99%
@@ -47,7 +47,7 @@ ht-degree: 99%
 | --- | --- |
 | **2024년 10월** |  |
 | Analysis Workspace 성능의 요청 요소에 대한 새로운 정보 | [Analysis Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) 문서의 새로운 [요청 요소](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) 섹션에서는 요청이 처리되는 방식과 처리 시간에 영향을 미치는 다양한 요소에 대해 설명합니다. |
-| 새로운 Report Builder | Mac, Windows 및 웹 브라우저에서 지원되는 간소화된 Report Builder 추가 기능을 위한 [새로운 설명서](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview)입니다. |
+| 새로운 Report Builder | Mac, Windows 및 웹 브라우저에서 지원되는 간소화된 Report Builder 추가 기능을 위한 [새로운 설명서](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)입니다. |
 | **2024년 8월** | |
 | 경고 관리자 | [알림 관리자](/help/components/c-alerts/alert-manager.md)에 대한 설명서가 간소화되었습니다. 명확성과 정확성을 위해 업데이트되었습니다. |
 | **2024년 7월** | |

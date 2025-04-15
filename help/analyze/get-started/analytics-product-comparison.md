@@ -3,8 +3,8 @@ description: Analysis Workspace, Report Builder, Data Warehouse 및 Data Workben
 title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 사용할 Adobe Analytics 제품에 대한 자세한 내용은 [어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/analyze/get-started/which-analytics-tool.md)를 참조하십시오.
 
-| 제품 이름 및 도움말 링크 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/report-buider-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 제품 이름 및 도움말 링크 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
 | **액세스 방법** | [브라우저](/help/analyze/get-started/sys-reqs.md) | [Windows용 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | 브라우저를 통해 설정합니다. [자세히 알아보기](/help/analyze/get-started/sys-reqs.md) | 브라우저를 통해 설정합니다. [자세히 알아보기](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 도구. Adobe Developer 자격 증명으로 로그인합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **데이터 세부 기간** | 집계됨 | 집계됨 | 집계됨 | 히트 | 집계됨 |

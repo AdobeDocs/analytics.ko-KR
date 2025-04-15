@@ -3,10 +3,10 @@ description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Anal
 title: 관리자, 분석가, 최종 사용자 및 개발자용 시작하기
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ Analytics 관리자는 Analytics 환경의 중요한 측면을 모니터링하�
 | 경고 | 하나의 경고에서 여러 지표를 캡처하는 데이터 예외 항목 및 “누적된” 경고를 기반으로 경고를 만들고 관리합니다. | [경고 개요](/help/components/c-alerts/intellligent-alerts.md) |
 | 데이터 내보내기 | Data Warehouse 및 데이터 피드를 사용하면 Google Cloud 플랫폼, Azure RBAC, Azure SAS 및 Amazon S3와 같은 다양한 클라우드 대상으로 데이터를 내보낼 수 있습니다. | [Analytics 내보내기 안내서](https://experienceleague.adobe.com/docs/analytics/export/home.html) |
 | Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급을 매기고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상자 참여를 모니터링하도록 설계된 Adobe Analytics 애플리케이션입니다.<p>Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고, 대상자의 요구 사항과 행동에 따라 대응할 수 있습니다.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
-| Report Builder | Report Builder는 Microsoft Excel용 추가 기능입니다. Report Builder를 사용하면 Excel 워크시트에 삽입되는 Adobe Analytics 데이터에서 사용자 정의 요청을 작성할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview) |
+| Report Builder | Report Builder는 Microsoft Excel용 추가 기능입니다. Report Builder를 사용하면 Excel 워크시트에 삽입되는 Adobe Analytics 데이터에서 사용자 정의 요청을 작성할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
 <!-- * Realtime reporting? -->
 

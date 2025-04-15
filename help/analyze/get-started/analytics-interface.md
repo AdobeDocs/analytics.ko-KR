@@ -3,10 +3,10 @@ description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Anal
 title: Analytics 인터페이스 이해
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '2064'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,11 +75,11 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 정의 보고서에 대한 Analytics 데이터 사본을 의미합니다. <p>요청 관리자에서 요청을 보고, 복제하고, 요청의 우선순위를 변경할 수 있습니다.</p> | [Data Warehouse 요청 관리](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html) |
    | Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크에 대한 등급을 지정하고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상자 참여를 모니터링하도록 설계되었습니다. 이를 통해 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고, 대상자의 필요 사항과 행동에 따라 대응할 수 있습니다. | [Activity Map 개요](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
-   | Recommendations Classic | Recommendations는 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자의 흥미를 끌 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시하는 Adobe Target 기능입니다. | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
+   | 추천 Classic | 추천는 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자의 흥미를 끌 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시하는 Adobe Target 기능입니다. | [추천](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 이 기능은 더 이상 지원되지 않습니다. |  |
    | 모바일 서비스 | 이 기능은 더 이상 지원되지 않습니다. |  |
    | Analytics 대시보드 (모바일 앱) | Adobe Analytics 대시보드 앱은 언제 어디서나 Adobe Analytics를 통해 통찰력을 제공합니다. 사용자는 앱을 통해 Adobe Analytics 데스크탑 UI를 사용하여 만든 직관적인 스코어카드를 볼 수 있습니다. | iOS App Store 또는 Google Play 스토어의 Adobe Analytics 대시보드 앱 |
-   | Report Builder | Adobe Report Builder는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder란 무엇입니까?](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-buider-overview) |
+   | Report Builder | Adobe Report Builder는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder란 무엇입니까?](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
    {style="table-layout:auto"}
 
@@ -126,9 +126,9 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
 
 ## Analysis Workspace
 
-Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 드래그 앤 드롭 브라우저 인터페이스를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
+Analysis Workspace를 사용하면 신속하게 분석을 빌드하여 인사이트를 수집한 다음 해당 인사이트를 다른 사람과 공유할 수 있습니다. 드래그 앤 드롭 브라우저를 사용하여 분석을 만들고, 시각화를 추가하여 데이터를 생동감 있게 표현하고, 데이터 세트를 조정하며, 원하는 누구와도 프로젝트를 공유 및 예약할 수 있습니다.
 
-다음 이미지 및 함께 제공되는 표는 Analysis Workspace의 일부 주요 영역을 설명합니다.
+다음 이미지 및 함께 제공되는 테이블은 Analysis Workspace의 일부 주요 영역을 설명합니다.
 
 Analysis Workspace에 대한 자세한 개요는 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md)를 참조하십시오.
 

@@ -3,8 +3,8 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[Adobe Analytics 대시보드](/help/analyze/mobile-app/home.md)**&#x200B;를 통해 직관적인 스코어카드에 사용자가 모바일 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)**&#x200B;는 Mac, Windows 및 웹 브라우저에서 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)**&#x200B;는 Mac, Windows 및 웹 브라우저에서 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
 
 **[레거시 Report Builder](/help/analyze/legacy-report-builder/home.md)**&#x200B;는 Windows에서만 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
 
@@ -79,7 +79,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 ## Adobe Analytics에서 데이터 내보내기 {#export}
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)**&#x200B;는 다음 경우에 사용합니다.
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)**&#x200B;는 다음 경우에 사용합니다.
 
 * 작업 영역의 사용자 정의 레이아웃 옵션이 제한적인 경우 (Excel의 제한 이내에서 Report Builder로 모든 작업 가능).
 * 사용자 입력 또는 오프라인 데이터 소스(노출 수, 비용)를 Adobe 데이터에 느슨하게 연결합니다. 영구적인 데이터 연결 솔루션은 데이터 소스입니다(Analytics로 데이터 가져오기 참조).
