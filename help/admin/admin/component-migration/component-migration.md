@@ -1,11 +1,11 @@
 ---
-description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트를 마이그레이션하는 방법에 대해 설명합니다.
+description: 구성 요소 및 프로젝트를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션하는 방법에 대해 설명합니다.
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
+source-git-commit: 657f1417185a2eabb496e0e7207520211f652794
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1515'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,9 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
 ## 마이그레이션 준비
 
-Customer Journey Analytics으로 프로젝트를 마이그레이션하기 전에 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](/help/admin/admin/component-migration/prepare-component-migration.md)에서 프로젝트 마이그레이션에 대해 자세히 알아보세요.
+프로젝트를 Customer Journey Analytics으로 마이그레이션하기 전에 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](/help/admin/admin/component-migration/prepare-component-migration.md)에서 프로젝트 마이그레이션에 대해 자세히 알아보세요.
+
+또한 Analytics 관리자가 사용할 수 있는 도구를 사용하여 [Adobe Analytics 인벤토리](/help/admin/admin/analytics-inventory.md)를 실행하십시오.
 
 ## Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션
 
@@ -55,7 +57,7 @@ Customer Journey Analytics으로 프로젝트를 마이그레이션하기 전에
 
    또는
 
-   마이그레이션할 프로젝트를 선택한 다음 [!UICONTROL **Customer Journey Analytics으로 마이그레이션**]&#x200B;을 선택합니다.
+   마이그레이션하려는 프로젝트를 선택한 다음 [!UICONTROL **Customer Journey Analytics으로 마이그레이션**]&#x200B;을 선택합니다.
 
    한 번에 하나의 프로젝트만 선택하여 마이그레이션할 수 있습니다.
 
@@ -73,7 +75,7 @@ Customer Journey Analytics으로 프로젝트를 마이그레이션하기 전에
 
 1. [!UICONTROL **맵 스키마**]&#x200B;을(를) 선택하십시오.
 
-1. [!UICONTROL **Dimension 매핑**] 섹션에서 [!UICONTROL **스키마**] 및 [!UICONTROL **지표**] 섹션을 확장합니다.
+1. [!UICONTROL **맵 스키마**] 섹션에서 [!UICONTROL **차원**] 및 [!UICONTROL **지표**] 섹션을 확장합니다.
 
    Adobe Analytics의 일부 차원 및 지표는 Customer Journey Analytics의 차원 또는 지표에 자동으로 매핑됩니다. 다른 도메인은 수동으로 매핑해야 합니다.
 
@@ -97,7 +99,7 @@ Customer Journey Analytics으로 프로젝트를 마이그레이션하기 전에
 
    Adobe Analytics의 일부 차원 및 지표는 Customer Journey Analytics의 차원 또는 지표에 자동으로 매핑될 수 없습니다.
 
-   차원 또는 지표를 자동으로 매핑할 수 없는 경우 [!UICONTROL **Dimension**] 또는 [!UICONTROL **지표**] 섹션 머리글 옆에 수동으로 매핑해야 하는 차원 또는 지표의 수를 나타내는 주황색 카운터가 표시됩니다. 표에서 수동으로 매핑해야 하는 각 차원 또는 지표 옆에 경고 아이콘 ![경고 아이콘](assets/schema-warning.png)이 표시됩니다.
+   차원 또는 지표를 자동으로 매핑할 수 없는 경우 [!UICONTROL **차원**] 또는 [!UICONTROL **지표**] 섹션 머리글 옆에 수동으로 매핑해야 하는 차원 또는 지표의 수를 나타내는 주황색 카운터가 표시됩니다. 표에서 수동으로 매핑해야 하는 각 차원 또는 지표 옆에 경고 아이콘 ![경고 아이콘](assets/schema-warning.png)이 표시됩니다.
 
    또한 [!UICONTROL **Status**] 열에 [!UICONTROL **매핑되지 않음**]&#x200B;이 표시됩니다.
 
@@ -113,7 +115,7 @@ Customer Journey Analytics으로 프로젝트를 마이그레이션하기 전에
 
    경고 아이콘이 포함된 각 차원 또는 지표에 대해 이 프로세스를 반복합니다.
 
-   Adobe Analytics 보고서 세트의 모든 차원과 지표가 Customer Journey Analytics 보고서 세트의 차원이나 지표에 매핑되면 [!UICONTROL **보고서 세트에 대한 스키마 매핑**] 섹션의 보고서 세트 이름 옆에 녹색 확인 표시 ![확인 표시](assets/report-suite-check.png)가 나타납니다.
+   Adobe Analytics 보고서 세트의 모든 차원과 지표가 Customer Journey Analytics 보고서 세트의 차원 또는 지표에 매핑되면 [!UICONTROL **보고서 세트에 대한 스키마 매핑**] 섹션의 보고서 세트 이름 옆에 녹색 확인 표시 ![확인 표시](assets/report-suite-check.png)가 나타납니다.
 
 1. (조건부) 마이그레이션하는 프로젝트에 둘 이상의 보고서 세트가 포함되어 있는 경우 [!UICONTROL **보고서 세트에 대한 스키마 매핑**] 섹션에서 다른 보고서 세트를 선택한 다음 6단계부터 10단계까지 반복합니다. <!-- double-check that the step numbers are still correct -->
 
@@ -127,7 +129,7 @@ Customer Journey Analytics으로 프로젝트를 마이그레이션하기 전에
 
    마이그레이션이 실패하면 아래의 [실패한 마이그레이션 다시 시도](#retry-a-failed-migration) 섹션을 참조하십시오.
 
-1. (선택 사항) 프로젝트가 마이그레이션되면 Customer Journey Analytics의 모든 사용자에게 프로젝트의 소유권을 이전할 수 있습니다. 자세한 내용은 Customer Journey Analytics 가이드의 [자산 전송](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)을 참조하십시오.
+1. (선택 사항) 프로젝트가 마이그레이션되면 Customer Journey Analytics의 모든 사용자에게 프로젝트의 소유권을 이전할 수 있습니다. 자세한 내용은 Customer Journey Analytics 안내서의 [자산 전송](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)을 참조하십시오.
 
 ## 실패한 마이그레이션 다시 시도
 
