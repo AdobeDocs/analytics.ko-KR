@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: e2e387f20d5e5732ec1d7eb67a0c81df95e07a55
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 49%
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 49%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics 인벤토리** | Analytics 인벤토리는 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 제공합니다. 인벤토리 프로세스를 자동화하면 Adobe Analytics에서 Customer Journey Analytics으로 전환하는 데 필요한 노력을 신속하게 이해할 수 있습니다. 이렇게 하면 전환이 더 쉽고 빨라집니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025년 3월 26일 |
+| **Analytics 인벤토리** | Analytics 인벤토리에서는 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 제공합니다. 인벤토리 프로세스를 자동화하면 Adobe Analytics에서 Customer Journey Analytics로 전환하는 데 필요한 작업을 빠르게 파악할 수 있습니다. 이렇게 하면 전환이 더 쉽고 빨라집니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025년 3월 26일 |
 | **Data Warehouse 전용 차원** | 고객의 피드백을 바탕으로 재평가를 하기로 결정했습니다. 이전에 발표된 대로 자동 Data Warehouse 전용 차원 기능을 릴리스하지 않습니다. | | TBD |
 
 ## Adobe Analytics의 수정 사항
@@ -54,7 +54,7 @@ ht-degree: 49%
 
 ## AppMeasurement
 
-AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리스 노트](https://github.com/adobe/appmeasurement/releases)를 참조하십시오.
+AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리스 정보](https://github.com/adobe/appmeasurement/releases)를 참조하십시오.
 
 
 ## 관련 리소스
