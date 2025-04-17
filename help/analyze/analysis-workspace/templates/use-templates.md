@@ -5,9 +5,9 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: 75ade12b36e2dc98a1ad521c746d97094c7bf9cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18667'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
    다음 섹션은 사용 가능한 카테고리에 해당하며 각 템플릿에 대한 정보를 제공합니다.
 
-   * **[[!UICONTROL 자주 사용하는 항목]](#most-popular)**
+   * **[[!UICONTROL 최고 인기 항목]](#most-popular)**
 
    * **[[!UICONTROL 참여]](#engagement)**
 
