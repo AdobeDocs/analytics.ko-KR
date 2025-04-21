@@ -4,10 +4,10 @@ description: 브라우저 쿠키 제안의 영향을 경감하여 Adobe Analytic
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 �
 
 서버측 수집에서는 유연성을 제공하여 자신의 쿠키 설정을 위한 브라우저 메커니즘에 의존하기 보다는 식별자를 제공합니다.
 
-[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 또는 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용하여 Analytics 서버측에 데이터를 제출할 수 있습니다. 새로운 서버측 구현에는 Bulk Data Insertion API를 사용하는 것이 좋습니다. 두 API를 비교하려면 “[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/analyze/get-started/which-analytics-tool.md)”를 참조하십시오.
+[Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 또는 [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)를 사용하여 Analytics 서버측에 데이터를 제출할 수 있습니다. 새로운 서버측 구현에는 Bulk Data Insertion API를 사용하는 것이 좋습니다. 두 API를 비교하려면 “[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/analyze/get-started/which-analytics-tool.md)”를 참조하십시오.
 
 ## Web SDK를 사용한 자사 디바이스 ID(FPID)
 

@@ -4,7 +4,7 @@ description: 클라이언트 힌트가 점차 디바이스 정보의 소스로 �
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔
 
 두 라이브러리 모두에서 높은 엔트로피 힌트 수집은 **기본적으로 비활성화**&#x200B;되어 있습니다.
 
-[데이터 삽입 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 또는 [대량 데이터 삽입 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html)와 같이 API를 통해 제출된 데이터의 경우 힌트가 페이로드에 명시적으로 포함되어야 합니다. 자세한 내용은 각각의 설명서를 참조하십시오.
+[데이터 삽입 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 또는 [대량 데이터 삽입 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)와 같이 API를 통해 제출된 데이터의 경우 힌트가 페이로드에 명시적으로 포함되어야 합니다. 자세한 내용은 각각의 설명서를 참조하십시오.
 
 +++
 
@@ -61,7 +61,7 @@ Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔
 
 +++**다양한 클라이언트 힌트 값은 무엇입니까?**
 
-아래 표에서 2022년 10월 시점의 클라이언트 힌트를 확인할 수 있습니다.
+아래 테이블에서 2022년 10월 시점의 클라이언트 힌트를 확인할 수 있습니다.
 
 | 힌트 | 설명 | 높은 엔트로피 또는 낮은 엔트로피 | 예 |
 | --- | --- | --- | --- | 

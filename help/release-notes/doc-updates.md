@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '6380'
 ht-degree: 99%
@@ -227,12 +227,12 @@ ht-degree: 99%
 | 2021년 6월 15일 | 업데이트된 [마케팅 채널 모범 사례](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | 2021년 6월 3일 | [데이터 피드 구현](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) 및 [여기](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html#BucketOwnerFullControl)에서 확인할 수 있는 내용을 더 잘 설명하도록 설명서를 업데이트했습니다. |
 | 2021년 5월 25일 | [보고의 eVar 대소문자 구분](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)에 대한 설명서를 업데이트했습니다. |
-| 2021년 5월 13일 | [Data Warehouse API 요청](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)에 대한 업데이트입니다. 이제 “시간”을 지원합니다. |
+| 2021년 5월 13일 | [Data Warehouse API 요청](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/)에 대한 업데이트입니다. 이제 “시간”을 지원합니다. |
 | **2021년 3월** | |
 | 2021년 3월, 4월 | Adobe Analytics 대시보드의 [경영진 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html) 및 [큐레이터 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) 업데이트 |
 | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지의 새 설명서. 이를 통해 사용자에 대한 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정]은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 환경 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분 기호 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분 기호</li><li>Workspace 프로젝트: 도움말 > 활성화 팁</li><li>Workspace 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
 | 2021년 3월 25일 | [!UICONTROL 히스토그램 스마트 버킷 예측]이 데이터 스프레드에 적합한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 히스토그램을 지원합니다. 낮은 카디널리티 지표의 경우 시각화는 이전과 동일하게 작동합니다. |
-| 2021년 3월 25일 | [데이터 복구 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 업데이트 (URL, 쿼리 문자열, @ 기호 등에 대한 필터링) |
+| 2021년 3월 25일 | [데이터 복구 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) 업데이트 (URL, 쿼리 문자열, @ 기호 등에 대한 필터링) |
 | 2021년 3월 25일 | 새 [사용 로그 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 설명서 |
 | **2021년 2월** | |
 | 2021년 2월 4일 | 구성 요소 선택: [!UICONTROL 빠른 인사이트]에 있는 드롭다운/드롭 영역 구성 요소를 [!UICONTROL 작업 영역]의 모든 드롭 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
