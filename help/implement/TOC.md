@@ -5,7 +5,7 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. 수집할 데이터를 사용자 정의하여 Analytics 데이터에서 더 많은 것을 얻을 수 있습니다.
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 구현 안내서 {#implementation}
 
 + [Adobe Analytics 구현](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/ko/docs/analytics/release-notes/latest.html?lang=ko-KR)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement 릴리스 정보](appmeasurement-updates.md)
 + Analytics 변수, 함수 및 메서드 {#vars}
    + [개요](vars/overview.md)
@@ -63,8 +63,8 @@ ht-degree: 100%
       + [contextData](vars/page-vars/contextdata.md)
       + [동적 변수](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar(머천다이징)](vars/page-vars/evar-merchandising.md)
-      + events {#events}
+      + [eVar (머천다이징)](vars/page-vars/evar-merchandising.md)
+      + 이벤트 {#events}
          + [이벤트 개요](vars/page-vars/events/events-overview.md)
          + [구매 이벤트](vars/page-vars/events/event-purchase.md)
          + [이벤트 직렬화](vars/page-vars/events/event-serialization.md)
@@ -149,7 +149,7 @@ ht-degree: 100%
       + [JavaScript를 사용하여 Web SDK로 마이그레이션](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
       + [태그를 사용한 새로운 구현](aep-edge/web-sdk/web-sdk-tag-extension.md)
       + [JavaScript를 사용한 새로운 구현](aep-edge/web-sdk/web-sdk-javascript-library.md)
-   + Mobile SDK{#mobile-sdk}
+   + Mobile SDK {#mobile-sdk}
       + [Mobile SDK 개요](aep-edge/mobile-sdk/overview.md)
    + 서버 API {#server-api}
       + [서버 API 개요](aep-edge/server-api/overview.md)
@@ -197,6 +197,6 @@ ht-degree: 100%
    + [해시 충돌](validate/hash-collisions.md)
 + [자주 묻는 질문](faq.md)
 + 구현 검토 {#review}
-   + [집중 검토(각 웹 사이트 릴리스 이후)](review/focused-review.md)
-   + [전체 검토(6개월마다)](review/full-review.md)
+   + [집중 검토 (각 웹 사이트 릴리스 이후)](review/focused-review.md)
+   + [전체 검토 (6개월마다)](review/full-review.md)
    + [상위 5개의 KPI 정의](review/define-kpis.md)

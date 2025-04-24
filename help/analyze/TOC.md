@@ -5,7 +5,7 @@ user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
-   + [시작하기(역할별)](get-started/get-started-by-role.md)
+   + [시작하기 (역할별)](get-started/get-started-by-role.md)
    + [Analytics 인터페이스 이해](get-started/analytics-interface.md)
    + [사용 사례](get-started/use-cases.md)
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](get-started/which-analytics-tool.md)
@@ -40,7 +40,7 @@ ht-degree: 100%
          + [새 프로젝트 저장](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + [여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [핫키(단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [핫키 (단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
    + 템플릿 {#templates}
@@ -64,7 +64,7 @@ ht-degree: 100%
       + 세그먼트 {#segments}
          + [세그먼트 만들기](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [빠른 세그먼트](analysis-workspace/components/segments/quick-segments.md)
-      + 캘린더 및 날짜 범위 {#calendar-date-ranges}
+      + 달력 및 날짜 범위 {#calendar-date-ranges}
          + [캘린더 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [사용자 정의 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [날짜 비교](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
@@ -85,7 +85,7 @@ ht-degree: 100%
             + [동적 및 정적 항목](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [자유 형식 테이블 필터링 및 정렬](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [작업 영역 합계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-      + 코호트 테이블 {#cohort-table}
+      + 집단 테이블 {#cohort-table}
          + [코호트 분석이란?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [코호트 분석 보고서 구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [코호트 분석 사용 사례](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
@@ -94,7 +94,7 @@ ht-degree: 100%
          + [폴아웃 시각화 구성](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [다차원 폴아웃](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [폴아웃 분석에서 세그먼트 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
-      + 흐름 {#flow}
+      + 플로우 {#flow}
          + [플로우 개요](analysis-workspace/visualizations/c-flow/flow.md)
          + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 플로우](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
@@ -153,7 +153,7 @@ ht-degree: 100%
       + [기여도 분석 실행](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [예외 항목 탐지에서 사용된 통계 기법](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
-   + 작업 영역 FAQ {#workspace-faq}
+   + 작업 공간 FAQ {#workspace-faq}
       + [자주 묻는 질문](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [오류 메시지](analysis-workspace/workspace-faq/error-messages.md)

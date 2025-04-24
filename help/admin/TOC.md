@@ -5,7 +5,7 @@ user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
 source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 관리 안내서 {#admin}
 
 + [Analytics 관리 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Admin Console {#admin-console}
    + [개요](admin-console/home.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
@@ -61,7 +61,7 @@ ht-degree: 100%
                   + [처리 규칙 예](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
                   + [쿼리 문자열 매개변수에서 캠페인 ID 채우기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
                   + [제품 개요 페이지에서 제품 보기 이벤트 설정](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-                  + [범주와 페이지 이름을 연결하여 하위 범주 추가](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
+                  + [카테고리와 페이지 이름을 연결하여 하위 카테고리 추가](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
                   + [보고서에서 값 정리](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
                   + [쿼리 문자열 매개변수를 사용하여 내부 검색어 채우기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
                   + [eVar에 컨텍스트 데이터 변수 복사](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
@@ -147,12 +147,12 @@ ht-degree: 100%
       + [보안 관리자](admin/company/security-manager.md)
       + [웹 서비스](admin/company/web-services-admin.md)
       + [Report Builder 보고서](admin/company/report-builder-reports-admin.md)
-      + [SSO(Single Sign-On)](admin/company/single-signon-admin.md)
+      + [SSO (Single Sign-On)](admin/company/single-signon-admin.md)
       + [보고서 세트 숨기기](admin/company/c-hide-report-suites.md)
       + [환경 설정 관리자](admin/company/preferences-manager.md)
       + [보류 중인 작업](admin/company/pending-actions-admin.md)
       + [기능 액세스 수준](admin/company/feature-access-levels.md)
-   + 데이터 거버넌스 개인 정보 보호 라벨링 {#data-governance}
+   + 데이터 거버넌스 프라이버시 라벨링 {#data-governance}
       + [Adobe Analytics 데이터 개인 정보 보호 워크플로](admin/c-data-governance/an-gdpr-workflow.md)
       + [자주 묻는 질문](admin/c-data-governance/gdpr-faq.md)
       + 데이터 레이블 지정 {#data-labels}
@@ -169,8 +169,8 @@ ht-degree: 100%
       + [보고서 세트 사용량 보기](admin/c-server-call-usage/report-suite-usage.md)
       + [서버 호출 사용량 경고](admin/c-server-call-usage/scu-alerts.md)
       + [서버 호출 사용량 FAQ](admin/c-server-call-usage/overage-faq.md)
-   + 사용자 및 제품 관리(기존) {#user-product-management}
-      + [사용자 및 제품 관리(기존)](admin/user-management2/user-management.md)
+   + 사용자 및 제품 관리 (기존) {#user-product-management}
+      + [사용자 및 제품 관리 (기존)](admin/user-management2/user-management.md)
       + [기존 사용자 계정, 자산 및 만료 관리](admin/user-management2/users-assets.md)
       + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
          + [Admin Console로 Analytics 사용자 마이그레이션](admin/user-management2/user-migration/c-migration-tool.md)
