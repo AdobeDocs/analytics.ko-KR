@@ -3,9 +3,9 @@ title: 분류 세트 관리자
 description: Adobe Analytics에서 분류 세트를 관리합니다.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '370'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 7%
 분류 세트 관리자의 왼쪽에는 원하는 분류 세트를 찾을 수 있는 필터 설정을 제공합니다. 필터 아이콘을 클릭하면 필터 설정 가시성이 전환됩니다. **[!UICONTROL 태그]** 또는 **[!UICONTROL 보고서 세트]**&#x200B;별로 분류 집합을 필터링할 수 있습니다.
 
 ![분류 세트 필터링](../../assets/classification-set-filters.png)
+
+한 번에 1,000개의 분류 세트가 미리 로드됩니다. 왼쪽 레일에 표시된 필터는 미리 로드된 세트의 옵션을 반영합니다.
 
 ## 분류 세트 관리자 열
 

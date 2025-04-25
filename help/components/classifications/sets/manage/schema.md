@@ -3,10 +3,10 @@ title: 분류 세트 스키마
 description: 개별 분류 세트에 대한 스키마를 보고 편집합니다.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 43%
+source-wordcount: '616'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 43%
 다음 버튼을 사용할 수 있습니다.
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL 업로드]**: 하나 이상의 분류 차원에 대한 분류 데이터를 수동으로 업로드합니다. `JSON`, `CSV`, `TSV` 및 `TAB` 파일이 지원됩니다. 유효한 파일을 업로드하면 분류할 데이터의 테이블 미리보기가 표시됩니다.
+* **[!UICONTROL 업로드]**: 분류 차원에 대한 분류 데이터를 수동으로 업로드합니다. `JSON`, `CSV`, `TSV` 및 `TAB` 파일이 지원됩니다. 유효한 파일을 업로드하면 분류할 데이터의 테이블 미리보기가 표시됩니다.
    * **[!UICONTROL 파일 인코딩]**: 이 드롭다운을 사용하여 올바른 파일 인코딩을 선택하십시오. 유효한 옵션에는 [!UICONTROL UTF-8] 및 [!UICONTROL Latin1]이 포함됩니다.
    * **[!UICONTROL 목록 구분 기호]**: 올바른 목록 구분 기호를 선택합니다. 다운로드한 파일 또는 템플릿 파일을 사용하는 경우, [!UICONTROL 목록 구분 기호]가 파일을 다운로드할 때의 [!UICONTROL 목록 구분 기호]와 일치하는지 확인하십시오.
    * **[!UICONTROL 적용]**: 업로드한 분류 데이터를 분류 세트에 저장합니다.
@@ -59,3 +59,13 @@ ht-degree: 43%
    * **[!UICONTROL 구분 기호]**: 업로드된 파일의 열 구분 기호입니다. 옵션에는 [!UICONTROL 쉼표], [!UICONTROL 세미콜론], [!UICONTROL 콜론], [!UICONTROL 세로 막대], [!UICONTROL 공간], [!UICONTROL 슬래시], [!UICONTROL 백슬래시], [!UICONTROL 대시] 또는 [!UICONTROL 밑줄]이 있습니다.
 
    * **[!UICONTROL 인코딩]**: 파일 인코딩을 결정하는 드롭다운 목록입니다. 옵션에는 [!UICONTROL UTF-8] 및 [!UICONTROL Latin1]이 포함됩니다. UTF-8이 권장됩니다.
+
+다음 작업은 분류를 선택한 후에만 사용할 수 있습니다.
+
+* **조회 추가**: 조회 테이블은 분류의 분류입니다. 이는 변수 자체보다는 분류 값에 대한 메타데이터입니다. 예를 들어 제품 변수의 분류가 &quot;color code&quot;일 수 있습니다. 색상이 무엇인지 설명하기 위해 &quot;color name&quot;의 조회 테이블을 &quot;color code&quot;에 첨부할 수 있습니다.
+
+  ![조회 테이블 첨부](../../assets/lookup.png)
+
+* **이름 바꾸기**: 분류 이름을 바꿀 수 있습니다.
+
+* **삭제**: 분류를 삭제할 수 있습니다.
