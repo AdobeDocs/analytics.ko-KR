@@ -3,9 +3,9 @@ title: 분류 세트 스키마
 description: 개별 분류 세트에 대한 스키마를 보고 편집합니다.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 43%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 43%
 이 분류 세트에 대해 현재 구성된 분류 차원을 봅니다.
 
 **[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]** > **[!UICONTROL 세트]** > 원하는 분류 세트 이름 클릭 > **[!UICONTROL 스키마]**
+
+![분류 집합 스키마 UI](../../assets/classification-set-schema.png)
 
 다음 버튼을 사용할 수 있습니다.
 

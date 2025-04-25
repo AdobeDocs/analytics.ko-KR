@@ -3,9 +3,9 @@ title: 분류 세트 규칙
 description: 개별 분류 세트에 대한 규칙을 보고 편집합니다.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 1%
 분류 세트 규칙을 사용하면 변수가 설정된 값을 기준으로 값을 자동으로 분류할 수 있습니다. 이러한 규칙은 분류 세트의 모든 가입에 대한 모든 수신 변수 값에 적용됩니다.
 
 **[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]** > **[!UICONTROL 세트]** > 원하는 분류 세트 이름 클릭 > **[!UICONTROL 규칙]**
+
+![분류 집합 규칙 UI](../../assets/csets-rules.png)
 
 ## 규칙 설정
 
@@ -42,7 +44,7 @@ ht-degree: 1%
 
 규칙 테이블은 일치하는 조건과 분류 작업이라는 두 가지 주요 부분으로 세로로 구분됩니다. 각 행(개별 규칙)에는 일치하는 조건 및 분류 작업이 포함되어 있습니다.
 
-* **규칙 번호**: 규칙은 규칙 테이블을 구성하는 순서와 동일한 순서로 실행됩니다. [!UICONTROL 규칙 덮어쓰기]가 [!UICONTROL 모든 값에 적용](으)로 설정된 경우 마지막으로 일치하는 규칙이 동일한 분류 차원에 대한 이전 규칙을 덮어씁니다. [!UICONTROL 규칙 덮어쓰기]가 [!UICONTROL 설정이 해제된 값에만 적용](으)로 설정된 경우 분류 값을 설정하는 첫 번째 규칙이 적용됩니다.
+* **규칙 번호**: 규칙은 규칙 테이블을 구성하는 순서와 동일한 순서로 실행됩니다. [!UICONTROL 규칙 덮어쓰기]가 [!UICONTROL 모든 값에 적용]&#x200B;(으)로 설정된 경우 마지막으로 일치하는 규칙이 동일한 분류 차원에 대한 이전 규칙을 덮어씁니다. [!UICONTROL 규칙 덮어쓰기]가 [!UICONTROL 설정이 해제된 값에만 적용]&#x200B;(으)로 설정된 경우 분류 값을 설정하는 첫 번째 규칙이 적용됩니다.
 * **[!UICONTROL 규칙 유형 선택]**: 규칙 기준입니다. 옵션에는 [!UICONTROL 포함], [!UICONTROL 다음으로 끝남], [!UICONTROL 정규식], [!UICONTROL 정규식] 및 [!UICONTROL 다음으로 시작]이 있습니다.
 * **[!UICONTROL 일치 조건을 입력하십시오]**: 일치시킬 텍스트 문자열입니다. 규칙 유형으로 [!UICONTROL 정규 표현식]을(를) 선택하면 값을 입력하고 정규 표현식을 테스트하며 샘플 구문을 제공하는 오버레이가 나타납니다.
 * **[!UICONTROL 분류 설정]**: 값을 할당할 분류 차원을 설정하는 드롭다운 목록입니다. 유효한 옵션에는 [스키마](schema.md)의 요소가 포함됩니다.

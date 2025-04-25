@@ -3,10 +3,10 @@ title: 분류 세트 설정
 description: 분류 세트를 만들거나 편집합니다.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 분류 세트 설정을 구성합니다.
 
 **[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]** > **[!UICONTROL 설정]** > 원하는 분류 세트 이름 > **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+
+![분류 집합 설정](../../assets/classification-set-settings.png)
 
 다음 필드는 이 탭에서 사용할 수 있습니다.
 
