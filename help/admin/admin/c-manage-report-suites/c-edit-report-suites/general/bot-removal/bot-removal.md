@@ -4,10 +4,10 @@ description: Adobe Analytics에서 보트를 제거하는 방법
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 78%
+source-wordcount: '697'
+ht-degree: 75%
 
 ---
 
@@ -26,24 +26,13 @@ Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션�
 
 자세한 내용은 [보트 규칙 이해 및 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)을 참조하십시오.
 
-## [!UICONTROL websiteBot] 플러그인을 사용하여 보트를 식별합니다
-
-[!UICONTROL websiteBot] 플러그인을 통해 데스크탑 방문자가 보트인지를 동적으로 식별할 수 있습니다. 이 데이터를 사용하면 모든 유형의 보고에서 정확성을 더 높일 수 있으므로 올바른 사이트 트래픽을 더 정확하게 측정할 수 있습니다.
-
-이 플러그인은 다음 두 가지 검사를 수행합니다.
-
-* 먼저, UserAgent 변수를 사용하여 디바이스가 데스크탑 디바이스인지 또는 모바일 디바이스인지를 확인합니다. 모바일 디바이스는 무시됩니다.
-* 데스크탑 디바이스인 경우 마우스 움직임에 대한 이벤트 리스너를 추가합니다.
-
-자세한 정보는 [Adobe Analytics 구현 안내서](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=ko-KR)를 참조하십시오.
-
 ## Adobe 도구의 조합 사용
 
 또한 보트가 빠르게 변형되기 때문에 Adobe는 적절하게 정기적으로 조합해서 사용하면 이런 데이터 품질의 장애물을 제거하는 데 도움이 되는 몇 가지 강력한 기능도 제공합니다. 이러한 기능에는 Experience Cloud ID 서비스, 세그먼테이션, Data Warehouse, 고객 속성 및 가상 보고서 세트가 있습니다. 이러한 도구를 활용하는 방법을 간략하게 살펴보겠습니다.
 
 ### 1단계: 방문자의 Experience Cloud ID를 새로 선언된 ID에 전달
 
-시작하려면 [사람 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
+시작하려면 [사람 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-cust-attr-setup.png)
 
