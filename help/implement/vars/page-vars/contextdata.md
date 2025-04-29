@@ -4,10 +4,10 @@ description: 컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 983b5073cf17a6aa0c038516c1d1ec3a40ca9eed
+source-git-commit: a8fe70381fbe04f3c57d221045a28d89e854ff54
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 69%
+source-wordcount: '577'
+ht-degree: 68%
 
 ---
 
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-[처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 인터페이스는 적용 가능한 드롭다운 메뉴에 `c.example_variable` 및 `c.second_example`을(를) 표시합니다.
+[처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 인터페이스는 적용 가능한 드롭다운 메뉴에 `example_variable` 및 `second_example`을(를) 표시합니다.
 
 ## Adobe Analytics 확장을 사용한 컨텍스트 데이터 변수
 
