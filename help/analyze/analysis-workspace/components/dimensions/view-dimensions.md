@@ -4,10 +4,10 @@ title: 차원 미리 보기
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f040971d1198fe7774bc04f6c42cc4e2145b197
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 83%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 100%
 
 차원 위로 마우스를 가져가서 그 옆에 있는 회색 오른쪽 화살표를 클릭하면 해당 차원 항목 목록이 표시됩니다. 모든 차원 항목 목록에는 보통 최근 30일 동안의 상위 항목이 표시됩니다.
 
-목록의 맨 아래로 스크롤하는 경우, **[!UICONTROL 최근 6개월의 상위 항목 표시가 표시됩니다]**. 최근 180일의 상위 차원 항목을 보려면 이 옵션을 클릭하십시오.
+목록의 맨 아래로 스크롤하면 **[!UICONTROL 최근 18개월의 상위 항목 표시]**&#x200B;가 표시됩니다. 지난 547일 동안의 상위 차원 항목을 보려면 이 옵션을 클릭합니다.
