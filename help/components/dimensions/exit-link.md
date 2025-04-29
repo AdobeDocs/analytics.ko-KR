@@ -3,10 +3,10 @@ title: 종료 링크
 description: 종료 링크의 이름입니다.
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 91%
+source-wordcount: '165'
+ht-degree: 75%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 `lnk_e` 값과 함께 `pe` 쿼리 문자열이 있는 히트의 이미지 요청에 있는 [`pev2` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. 히트에서 `pe` 쿼리 문자열에 다른 값이 있는 경우 이 차원은 데이터를 수집하지 않습니다.
+이 차원은 `lnk_e` 값과 함께 `pe` 쿼리 문자열이 있는 히트의 이미지 요청에 있는 [`pev2` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. 히트에서 `pe` 쿼리 문자열에 다른 값이 있는 경우 이 차원은 데이터를 수집하지 않습니다. 이 차원의 최대 길이는 100바이트입니다.
 
 AppMeasurement를 사용하여 데이터를 이 차원으로 보내려면 `"e"`의 링크 유형 인수로 [`tl()`](/help/implement/vars/functions/tl-method.md) 이미지 요청을 보냅니다. 링크 이름 인수를 원하는 값으로 채웁니다.
 

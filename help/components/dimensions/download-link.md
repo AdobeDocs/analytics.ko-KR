@@ -3,10 +3,10 @@ title: 다운로드 링크
 description: 다운로드 링크의 이름입니다.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 33d837cfa7909bd93d5a4f675aa0d8894a403266
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 87%
+source-wordcount: '193'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 `lnk_d` 값과 함께 `pe` 쿼리 문자열이 있는 히트의 이미지 요청에 있는 [`pev2` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. 히트에서 `pe` 쿼리 문자열에 다른 값이 있는 경우 이 차원은 데이터를 수집하지 않습니다.
+이 차원은 `lnk_d` 값과 함께 `pe` 쿼리 문자열이 있는 히트의 이미지 요청에 있는 [`pev2` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. 히트에서 `pe` 쿼리 문자열에 다른 값이 있는 경우 이 차원은 데이터를 수집하지 않습니다. 이 차원의 최대 길이는 100바이트입니다.
 
 AppMeasurement를 사용하여 데이터를 이 차원으로 보내려면 `"d"`의 링크 유형 인수로 [`tl()`](/help/implement/vars/functions/tl-method.md) 이미지 요청을 보냅니다. 링크 이름 인수를 원하는 값으로 채웁니다.
 

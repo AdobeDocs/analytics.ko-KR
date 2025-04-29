@@ -3,18 +3,18 @@ title: 페이지를 찾을 수 없음 (치수)
 description: 사이트에서 오류를 반환하는 URL입니다.
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 828f41bf45c1954c3b68ad71a7746e24626b9eed
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 94%
+source-wordcount: '222'
+ht-degree: 78%
 
 ---
 
 # 페이지를 찾을 수 없음
 
-*이 도움말 페이지에서는 &#39;페이지를 찾을 수 없음&#39;이 [차원](overview.md)(으)로 작동하는 방식을 설명합니다. 자세한 내용은 [페이지를 찾을 수 없음](../metrics/pages-not-found.md) 지표를 참조하십시오.*
+*이 도움말 페이지에서는 &#39;페이지를 찾을 수 없음&#39;이 [차원](overview.md)(으)로 작동하는 방식을 설명합니다. 지표로 작동하는 방식에 대한 자세한 내용은 [페이지를 찾을 수 없음](../metrics/pages-not-found.md) 지표 페이지를 참조하십시오.*
 
-페이지를 찾을 수 없음 차원은 오류가 포함된 URL을 보여 줍니다. 이 차원은 방문자가 사이트에서 받은 오류의 수를 줄이려 할 때 유용합니다.
+페이지를 찾을 수 없음 차원은 오류가 포함된 URL을 보여 줍니다. 이 차원은 방문자가 사이트에서 받는 오류의 수를 줄이려는 경우에 유용합니다.
 
 * [흐름 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)에서 이 차원을 사용하여 방문자가 어느 페이지를 클릭스루하여 오류에 도달하는지 확인할 수 있습니다. 확인이 되면 조직의 개발 팀과 협력하여 각 페이지에서 링크를 수정할 수 있습니다.
 * [레퍼러](referrer.md) 차원과 함께 이 차원을 사용하면 방문자가 외부 링크에서 사이트에 도착하는 위치를 확인할 수 있습니다. 그런 다음 원하는 위치로의 리디렉션을 구현하거나, 서드파티와 협력하여 링크를 수정할 수 있습니다.

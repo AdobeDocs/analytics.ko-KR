@@ -3,16 +3,16 @@ title: 페이지를 찾을 수 없음 (지표)
 description: 오류가 포함된 히트의 수입니다.
 feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 48%
+source-wordcount: '139'
+ht-degree: 38%
 
 ---
 
 # 페이지를 찾을 수 없음
 
-*이 도움말 페이지에서는 &#39;페이지를 찾을 수 없음&#39;이 지표로 작동하는 방식을 설명합니다. 자세한 내용은 [페이지를 찾을 수 없음](../dimensions/pages-not-found.md) 차원을 참조하십시오.*
+*이 도움말 페이지에서는 &#39;페이지를 찾을 수 없음&#39;이 지표로 작동하는 방식을 설명합니다. 차원으로 작동하는 방법에 대한 자세한 내용은 [페이지를 찾을 수 없음](../dimensions/pages-not-found.md) 차원 페이지를 참조하십시오.*
 
 &#39;페이지를 찾을 수 없음&#39; [지표](overview.md)은(는) 방문자에게 오류가 발생한 시점에 차원이 설정되었거나 지속된 히트 수를 보여줍니다. 이 지표는 오류 메시지(예: 404)가 포함된 페이지 또는 URL을 확인하려는 경우 유용합니다. 그런 다음 이 정보를 웹 개발 팀에 전달하여 오류의 원인을 파악하고 수정할 수 있습니다.
 
