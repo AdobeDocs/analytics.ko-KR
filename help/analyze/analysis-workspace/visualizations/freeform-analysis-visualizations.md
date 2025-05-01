@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '1457'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | **[!UICONTROL 시각화 유형]** | 데이터를 시각화하는 데 사용되는 시각화 유형을 변경합니다. |
 | **[!UICONTROL 세부 기간]** | 트렌드 시각화의 세부 기간을 변경합니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
 | **[!UICONTROL 백분율]** | 값을 백분율로 표시합니다. |
-| **[!UICONTROL 100% 스택]** | 차트를 100% 스택 시각화로 바꿉니다.  영역, 막대, 가로 막대로 구성된 스택 시각화에만 적용됩니다. |
+| **[!UICONTROL 100% 스택]** | 차트를 100% 스택 시각화로 바꿉니다. 영역, 막대, 가로 막대로 구성된 스택 시각화에만 적용됩니다. |
 | **[!UICONTROL 범례 표시]** | 범례 텍스트를 표시합니다. |
 | **[!UICONTROL 최대 항목 수 제한]** | 시각화에 표시되는 항목 수를 제한합니다. 선택하면 최대 항목 수를 정의합니다. |
 | **[!UICONTROL 주석 표시]** | 이 시각화를 위해 작성된 주석을 표시합니다. |
@@ -104,7 +104,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | **[!UICONTROL 예측 표시]** | 예측 값을 표시하여 선 그래프와 자유 형식 테이블을 향상시킵니다. |
 | **[!UICONTROL 최소 표시]** | 시각화에 최소값을 보여 줍니다. |
 | **[!UICONTROL 최대 표시]** | 시각화에 최대값을 보여 줍니다. |
-| **[!UICONTROL 트렌드 라인 표시]** | 시각화에 트렌드 라인을 표시합니다. 선택하면 드롭다운 메뉴에서 트렌드 라인 유형을 선택할 수 있습니다. |
+| **[!UICONTROL 트렌드 라인 표시]** | 시각화에 트렌드 라인을 표시합니다. 선택하면 드롭다운 메뉴에서 추세선 유형을 선택할 수 있습니다. |
 
 생성한 모든 시각화에 대한 설정을 사용자 정의할 수 있습니다. 자세한 내용은 [사용자 환경 설정](/help/analyze/analysis-workspace/user-preferences.md)을 참조하십시오.
 

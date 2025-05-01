@@ -3,16 +3,16 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4129'
 ht-degree: 53%
 
 ---
 
 # 데이터 피드 만들기
 
-데이터 피드를 만들 때 Adobe에게 다음 내용을 제공합니다.
+데이터 피드를 만들 때 Adobe에 다음 기능을 제공합니다.
 
 * 원시 데이터 파일을 전송할 대상에 대한 정보입니다
 * 각 파일에 포함할 데이터
@@ -117,7 +117,7 @@ ht-degree: 53%
 
          {style="table-layout:auto"}
 
-      1. [!UICONTROL **위치 추가**]&#x200B;를 선택한 후 다음 정보를 지정하십시오.
+      1. [!UICONTROL **위치 추가**]&#x200B;를 선택하고 다음 정보를 지정합니다.
 
          | 필드 | 함수 |
          |---------|----------|
@@ -190,7 +190,7 @@ ht-degree: 53%
 
          {style="table-layout:auto"}
 
-      1. [!UICONTROL **위치 추가**]&#x200B;를 선택한 후 다음 정보를 지정하십시오.
+      1. [!UICONTROL **위치 추가**]&#x200B;를 선택하고 다음 정보를 지정합니다.
 
          | 필드 | 함수 |
          |---------|----------|
@@ -266,7 +266,7 @@ ht-degree: 53%
 
          {style="table-layout:auto"}
 
-      1. [!UICONTROL **위치 추가**]&#x200B;를 선택한 후 다음 정보를 지정하십시오.
+      1. [!UICONTROL **위치 추가**]&#x200B;를 선택하고 다음 정보를 지정합니다.
 
          | 필드 | 함수 |
          |---------|----------|
@@ -335,11 +335,11 @@ ht-degree: 53%
 
          {style="table-layout:auto"}
 
-      1. [!UICONTROL **위치 추가**]&#x200B;를 선택한 후 다음 정보를 지정하십시오.
+      1. [!UICONTROL **위치 추가**]&#x200B;를 선택하고 다음 정보를 지정합니다.
 
          | 필드 | 함수 |
          |---------|----------|
-         | [!UICONTROL **사용자**] | 원칙은 Adobe에서 제공합니다. 이 사용자에게 피드를 수신할 수 있는 권한을 부여해야 합니다. |
+         | [!UICONTROL **사용자**] | 원금은 Adobe에서 제공합니다. 이 사용자에게 피드를 수신할 수 있는 권한을 부여해야 합니다. |
          | [!UICONTROL **이름**] | 계정 이름. |
          | [!UICONTROL **설명**] | 계정에 대한 설명. |
          | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내부 버킷입니다. <p>Adobe에서 제공하는 주체에 다음 권한 중 하나를 부여했는지 확인하십시오. (권한 부여에 대한 자세한 내용은 Google Cloud 설명서의 [버킷 수준 정책에 주체 추가](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)를 참조하십시오.)<ul><li>`roles/storage.objectCreator`: 주체를 제한하여 GCP 계정에서만 파일을 만들려는 경우 이 권한을 사용합니다. </br>**중요:** 예약된 보고에 이 권한을 사용하는 경우 새로 예약된 각 내보내기에 고유 파일 이름을 사용해야 합니다. 그렇지 않으면 주체가 기존 파일 덮어쓰기에 액세스할 수 없기 때문에 보고서를 생성할 수 없습니다.</li><li>(권장) `roles/storage.objectUser`: 사용자가 GCP 계정의 파일을 보고, 나열하고, 업데이트하고, 삭제할 수 있도록 하려면 이 권한을 사용합니다.</br>이 권한을 사용하면 주체는 새로 예약된 각 내보내기에 고유 파일 이름을 자동 생성하지 않고도 후속 업로드에 기존 파일을 덮어쓸 수 있습니다.</li></ul><p>귀사에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하여 허용 목록에 Google Cloud Platform 계정만 허용하는 경우 다음과 같은 Adobe 소유의 Google Cloud Platform 조직 ID가 필요합니다. <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
@@ -355,14 +355,14 @@ ht-degree: 53%
 
 +++
 
-1. [!UICONTROL **데이터 열 정의**] 섹션에서 드롭다운에서 최신 [!UICONTROL **모든 Adobe Columns**] 템플릿을 선택한 다음 다음 필드를 작성합니다.
+1. [!UICONTROL **데이터 열 정의**] 섹션에서 드롭다운 메뉴에서 최신 [!UICONTROL **모든 Adobe 열**] 템플릿을 선택한 후 다음 필드를 작성합니다.
 
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **이스케이프 처리된 문자 제거**] | 데이터를 수집할 때 일부 문자(예: 줄바꿈)가 문제를 초래할 수 있습니다. 피드 파일에서 이러한 문자를 제거하려면 이 확인란을 선택하십시오. |
    | [!UICONTROL **압축 형식**] | 사용된 압축 유형입니다. **Gzip**&#x200B;은(는) 파일을 `.tar.gz` 형식으로 출력합니다. **Zip**&#x200B;은(는) 파일을 `.zip` 형식으로 출력합니다. |
    | [!UICONTROL **패키징 유형**] | 대부분의 데이터 피드에 대해 [!UICONTROL **여러 파일**]&#x200B;을 선택합니다. 이 옵션은 데이터를 압축되지 않은 2GB 청크로 페이지를 매깁니다. [!UICONTROL **여러 파일**] 옵션을 선택한 경우 보고 기간의 압축되지 않은 데이터가 2GB 미만이면 하나의 파일이 전송됩니다. **단일 파일**&#x200B;을 선택하면 `hit_data.tsv` 파일이 하나의 파일로 출력됩니다. |
-   | [!UICONTROL **매니페스트**] | 피드 간격에 대한 데이터가 수집되지 않을 때 Adobe이 [매니페스트 파일](c-df-contents/datafeeds-contents.md#feed-manifest)을(를) 대상에 전송할지 여부를 결정합니다. **매니페스트 파일**&#x200B;을(를) 선택하면 데이터가 수집되지 않을 때 다음과 유사한 매니페스트 파일이 수신됩니다.<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **매니페스트**] | 피드 간격에 대한 데이터가 수집되지 않을 때 Adobe에서 [매니페스트 파일](c-df-contents/datafeeds-contents.md#feed-manifest)을(를) 대상에 전송할지 여부를 결정합니다. **매니페스트 파일**&#x200B;을(를) 선택하면 데이터가 수집되지 않을 때 다음과 유사한 매니페스트 파일이 수신됩니다.<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **열 템플릿**] | Adobe 많은 데이터 피드를 만들 때는 열 템플릿을 만드는 것이 좋습니다. 열 템플릿을 선택하면 지정된 열이 템플릿에 자동으로 포함됩니다. Adobe도 기본적으로 여러 템플릿을 제공합니다. |
    | [!UICONTROL **사용 가능한 열**] | Adobe Analytics에서 사용 가능한 모든 데이터 열. 데이터 피드에 모든 열을 포함하려면 [!UICONTROL 모두 추가]를 클릭하십시오. |
    | [!UICONTROL **포함된 열**] | 데이터 피드에 포함할 열입니다. 데이터 피드에 모든 열을 제거하려면 [!UICONTROL 모두 제거]를 클릭하십시오. |

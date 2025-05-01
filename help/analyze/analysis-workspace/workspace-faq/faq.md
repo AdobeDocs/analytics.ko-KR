@@ -4,9 +4,9 @@ title: 자주 묻는 질문 및 Analysis Workspace 문제 해결
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 81%
 
 ---
@@ -74,5 +74,5 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 +++
 
 +++읽기 전용 사용자는 Analysis Workspace에서 어떤 작업을 수행할 수 있습니까?
-프로젝트를 읽기 전용으로 공유하면 모든 편집 기능과 기능이 완전히 비활성화되고 수신자는 드롭다운을 변경하여 사전 정의된 방식으로 패널에 필터를 적용할 수만 있습니다.
+프로젝트를 읽기 전용으로 공유하면 모든 편집 기능과 기능이 완전히 비활성화되고 수신자는 드롭다운 메뉴를 변경하여 사전 정의된 방식으로 패널에 필터를 적용할 수만 있습니다.
 +++

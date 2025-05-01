@@ -5,10 +5,10 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -31,14 +31,14 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!ENDSHADEBOX]
 
 
-![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화는 [!UICONTROL 막대] 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 “버킷팅하는 것”을 자동화하지만 [고급 설정](#advanced-settings)에서 설정을 변경할 수 있습니다.
+![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화는 [!UICONTROL 막대] 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 “버킷하는 것”을 자동화하지만 [고급 설정](#advanced-settings)에서 설정을 변경할 수 있습니다.
 
 ## 사용
 
 히스토그램을 만드는 방법:
 
-1. ![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화를 추가합니다. [패널 내에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
-1. **[!UICONTROL 지표]** 구성 요소 목록에서 지표를 드래그하거나, [!UICONTROL *지표 추가*] 드롭다운 메뉴에서 지표를 선택합니다.
+1. ![히스토그램](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화를 추가합니다. [패널 내에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
+1. **[!UICONTROL 지표]** 구성 요소 목록에서 지표를 드래그하거나 [!UICONTROL *지표 추가*] 드롭다운 메뉴에서 지표를 선택합니다.
 1. (옵션) **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택합니다. [고급 설정](#advanced-settings)을 확인합니다.
 1. **[!UICONTROL 빌드]**&#x200B;를 선택합니다.
 

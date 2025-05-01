@@ -4,10 +4,10 @@ title: 패널 개요
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '2157'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
   | ![123](/help/assets/icons/123.svg) | [요약 숫자](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) |
   | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
-  | ![워크플로](/help/assets/icons/GraphPathing.svg) | [흐름](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+  | ![워크플로](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
   | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) | [스택 영역](/help/analyze/analysis-workspace/visualizations/area.md) |
   | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [코호트 테이블](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
   | ![GraphBullet](/help/assets/icons/GraphBullet.svg) | [글머리 기호](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) |
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 ## 보고서 세트
 
-각 패널은 [리포트 세트](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *리포트 세트&#x200B;*]**로 식별됩니다.
+각 패널은 패널의 오른쪽 상단에 있는 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *보고서 세트의 이름&#x200B;*]**으로 식별되는 [보고서 세트](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)과(와) 연결되어 있습니다.
 
 새 패널을 만들면 기본 리포트 세트는 Analysis Workspace 프로젝트에서 마지막으로 작업한 패널의 리포트 세트를 기반으로 합니다.
 
@@ -112,9 +112,9 @@ ht-degree: 100%
 ![The calendar window showing the selected date range.](assets/panel-calendar.png)
 
 1. 시작 일자를 먼저 선택한 다음 종료 일자를 선택하여 날짜 범위를 선택합니다.
-또는 [!UICONTROL *사전 설정 선택*] 드롭다운 메뉴에서 **[!UICONTROL 사전 설정]**&#x200B;을 선택할 수 있습니다.
+또는 [!UICONTROL *사전 설정 선택*] 드롭다운 메뉴에서 **[!UICONTROL 사전 설정]**&#x200B;을(를) 선택할 수 있습니다.
 
-1. 필요한 경우 **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택하여 다음 작업을 수행합니다.
+1. 필요한 경우 **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택하여 다음 작업을 수행하십시오.
 
    * 기본 `12:00 AM`(`0:00`) 및 `11:59 PM`(`23:59`)가 아닌 다른 **[!UICONTROL 시작 시간]** 및 **[!UICONTROL 종료 시간]**&#x200B;을 지정합니다. 종료 시간은 항상 59초를 포함합니다. 날짜 범위가 여러 날에 걸친 경우 시작 시간은 날짜 범위의 첫 번째 날에 적용되고 종료 시간은 날짜 범위의 마지막 날에 적용됩니다. **[!UICONTROL (시간 값 재설정)]**&#x200B;을 사용하여 시작 및 종료 시간을 기본값으로 재설정합니다.
    * **[!UICONTROL 패널 캘린더를 기준으로 날짜 범위 구성 요소 만들기]**. 비활성화되면 패널에 사용된 날짜 범위 구성 요소는 현재 시간을 기준으로 합니다. 활성화되면 패널에 사용된 날짜 범위 구성 요소는 패널 캘린더를 기준으로 합니다.

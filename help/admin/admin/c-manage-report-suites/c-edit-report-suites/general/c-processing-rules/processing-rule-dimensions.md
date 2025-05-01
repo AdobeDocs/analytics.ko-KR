@@ -5,14 +5,14 @@ title: 처리 규칙에 사용 가능한 차원
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
 
 ---
 
-# 처리 규칙에 사용 가능한 Dimension 및 지표
+# 처리 규칙에 사용 가능한 차원 및 지표
 
 처리 규칙을 사용하여 읽고 쓸 수 있는 사용 가능한 차원 및 지표입니다.
 
@@ -27,8 +27,8 @@ ht-degree: 13%
 
 | 속성 | 읽기/쓰기 상태 | 설명 |
 | --- | --- | --- |
-| 페이지 URL | 읽기 + 쓰기 | [페이지 URL](/help/components/dimensions/page-url.md) 차원. 링크 추적 히트는 처리 규칙에 도달하기 전에 이 차원을 제거합니다. 처리 규칙을 사용하여 페이지 URL 값을 다시 삽입하는 경우 히트는 [페이지 이벤트](/help/components/metrics/page-events.md)가 아닌 [페이지 보기](/help/components/metrics/page-views.md)로 간주됩니다. Adobe은 페이지 차원의 값을 수정하기 전에 확인하는 것을 권장합니다. |
-| 페이지 이름 | 읽기 + 쓰기 | [페이지](/help/components/dimensions/page.md) 차원입니다. 링크 추적 히트는 처리 규칙에 도달하기 전에 이 차원을 제거합니다. 처리 규칙을 사용하여 페이지 값을 다시 삽입하는 경우 히트는 [페이지 이벤트](/help/components/metrics/page-events.md)가 아닌 [페이지 보기](/help/components/metrics/page-views.md)로 간주됩니다. Adobe은 페이지 차원의 값을 수정하기 전에 확인하는 것을 권장합니다. |
+| 페이지 URL | 읽기 + 쓰기 | [페이지 URL](/help/components/dimensions/page-url.md) 차원. 링크 추적 히트는 처리 규칙에 도달하기 전에 이 차원을 제거합니다. 처리 규칙을 사용하여 페이지 URL 값을 다시 삽입하는 경우 히트는 [페이지 이벤트](/help/components/metrics/page-events.md)가 아닌 [페이지 보기](/help/components/metrics/page-views.md)로 간주됩니다. Adobe에서는 페이지 차원의 값을 수정하기 전에 해당 값을 확인하는 것이 좋습니다. |
+| 페이지 이름 | 읽기 + 쓰기 | [페이지](/help/components/dimensions/page.md) 차원입니다. 링크 추적 히트는 처리 규칙에 도달하기 전에 이 차원을 제거합니다. 처리 규칙을 사용하여 페이지 값을 다시 삽입하는 경우 히트는 [페이지 이벤트](/help/components/metrics/page-events.md)가 아닌 [페이지 보기](/help/components/metrics/page-views.md)로 간주됩니다. Adobe에서는 페이지 차원의 값을 수정하기 전에 해당 값을 확인하는 것이 좋습니다. |
 | 보고서 세트 ID | 읽기 전용 | 처리 규칙이 실행되는 보고서 세트입니다. 이 보고서 세트는 VISTA 규칙을 사용할 때와 같이 AppMeasurement을 통해 원래 전송된 보고서 세트와 다를 수 있습니다. |
 | AppMeasurement 코드 버전 | 읽기 전용 | 이미지 요청을 생성하는 데 사용되는 AppMeasurement 라이브러리 버전입니다. |
 | IP 주소 | 읽기 전용 | 방문자의 IP 주소입니다. |
@@ -58,7 +58,7 @@ ht-degree: 13%
 | 거래 ID | 읽기 + 쓰기 | [`transactionID`](/help/import/data-sources/transactionid.md) 구현 변수입니다. |
 
 >[!NOTE]
->Adobe은 처리 규칙을 사용하여 [`products`](/help/implement/vars/page-vars/products.md) 구현 변수를 설정할 수 없습니다.
+>Adobe에서는 처리 규칙을 사용하여 [`products`](/help/implement/vars/page-vars/products.md) 구현 변수를 설정할 수 없습니다.
 
 ## 트래픽 변수
 
