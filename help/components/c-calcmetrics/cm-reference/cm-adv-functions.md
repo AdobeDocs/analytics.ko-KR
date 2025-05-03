@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
-workflow-type: ht
-source-wordcount: '4438'
+workflow-type: tm+mt
+source-wordcount: '5026'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 테이블 함수는 출력이 모든 테이블 행에 대해 동일한 함수입니다. 행 함수는 출력이 모든 테이블 행에 대해 다른 함수입니다.
 
-해당 및 관련이 있는 경우 함수에 함수 유형이 주석으로 표시됩니다. [!BADGE 테이블]{type="Neutral"}[!BADGE 행]{type="Neutral"}
+해당 및 관련이 있는 경우 함수에 함수 유형이 주석([!BADGE 테이블]{type="Neutral"} 또는 [!BADGE 행]{type="Neutral"})으로 표시됩니다.
 
 ## include-zeros 매개변수는 무엇을 의미합니까?
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 예를 들어 매출 지표가 있고, 그 다음에 페이지 조회수 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 이러한 추가 지표가 수익 열에 있는 **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** 등 계산에 영향을 미치는 것을 원하지 않을 수도 있습니다. `include-zeros` 매개변수를 확인해야 합니다.
 
-다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최솟값이 더 높은 경우입니다.  이 경우 매개변수에 0을 포함하지 않도록 선택할 수 있습니다.
+다른 시나리오는 관심 있는 지표가 두 개이며, 하나는 일부 행이 0이기 때문에 평균 또는 최솟값이 더 높은 경우입니다. 이 경우 매개변수에 0을 포함하지 않도록 선택할 수 있습니다.
 
 
 ## And {#and}
@@ -93,7 +93,7 @@ ht-degree: 100%
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(지표)]**
 
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 지표의 아크코사인 또는 코사인의 역함수를 반환합니다. 아크코사인은 코사인이 숫자인 각도입니다. 반환된 각도는 0(영)~pi 범위의 라디안으로 주어집니다. 라디안 결과를 도 단위로 변환하려면 결과에 180/PI()를 곱하십시오.
 
 
 | 인수 | 설명 |
@@ -116,7 +116,7 @@ ht-degree: 100%
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(지표)]**
 
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오.
 
 
 | 인수 | 설명 |
@@ -139,7 +139,7 @@ ht-degree: 100%
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(지표)]**
 
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 숫자의 아크탄젠트 또는 탄젠트의 역함수를 반환합니다. 아크탄젠트는 탄젠트가 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크탄젠트를 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오.
 
 
 | 인수 | 설명 |
@@ -215,13 +215,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="실링"
->abstract="주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 CEILING(매출)을 사용하여 매출에 가장 근접한 달러 또는 $570으로 올림하십시오."
+>abstract="주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 CEILING(매출)을 사용하여 매출에 가장 근접한 달러 또는 $570으로 올림하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(지표)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 CEILING(매출)을 사용하여 매출에 가장 근접한 달러 또는 $570으로 올림하십시오.
 
 | 인수 | 설명 |
 |---|---|
@@ -315,7 +315,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(지표)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 주어진 각도의 코사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오.
 
 | 인수 | 설명 |
 |---|---|
@@ -440,7 +440,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 지수 회귀: Y = a exp(X) + b. 상관 계수를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -463,7 +463,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 지수 회귀: Y = a exp(X) + b. Y를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -487,7 +487,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 지수 회귀: Y = a exp(X) + b. b를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -510,7 +510,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 지수 회귀: Y = a exp(X) + b. a를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -527,13 +527,13 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="내림"
->abstract="주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 FLOOR(매출)을 사용하여 매출에 가장 근접한 달러 또는 $569로 내림하십시오."
+>abstract="주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 FLOOR(매출)을 사용하여 매출에 가장 근접한 달러 또는 $569로 내림하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있는 경우, 공식 FLOOR(매출)을 사용하여 매출에 가장 근접한 달러 또는 $569로 내림하십시오.
 
 | 인수 | 설명 |
 |---|---|
@@ -605,7 +605,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(지표)]**
 
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 숫자의 쌍곡코사인을 반환합니다.
 
 
 | 인수 | 설명 |
@@ -627,7 +627,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(지표)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 숫자의 쌍곡사인을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -647,7 +647,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(지표)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 숫자의 쌍곡탄젠트를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -668,7 +668,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 조건 매개변수 값이 0이 아닌 경우(true) 결과는 value_if_true 매개변수 값입니다. 그렇지 않으면 value_if_false 매개변수 값입니다.
 
 
 | 인수 | 설명 |
@@ -762,7 +762,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b. 상관 계수를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -787,7 +787,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b. b를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -812,7 +812,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 선형 회귀: Y = a X + b. Y를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -836,7 +836,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b. a를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -859,7 +859,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(지표)]**
 
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 숫자의 밑이 10인 로그를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -880,7 +880,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 로그 회귀: Y = a ln(X) + b. 상관 계수를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -902,7 +902,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 로그 회귀: Y = a ln(X) + b. b를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -925,7 +925,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 로그 회귀: Y = a ln(X) + b. Y를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -948,7 +948,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 로그 회귀: Y = a ln(X) + b. a를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1041,7 +1041,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 논리합입니다. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
 
 
 | 인수 | 설명 |
@@ -1083,7 +1083,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 거듭제곱 회귀: Y = b X ^ a. 상관 계수를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1107,7 +1107,7 @@ Pi: 3.14159... 반환
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 거듭제곱 회귀: Y = b X ^ a. b를 반환합니다.
 
 
 | 인수 | 설명 |
@@ -1130,7 +1130,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 거듭제곱 회귀: Y = b X ^ a. Y를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1153,7 +1153,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 거듭제곱 회귀: Y = b X ^ a. a를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1176,7 +1176,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 이차 회귀: Y = (a + bX) ^ 2, 상관 계수를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1197,7 +1197,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 이차 회귀: Y = (a + bX) ^ 2, a를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1219,7 +1219,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 이차 회귀: Y = (a + bX) ^ 2, Y를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1241,7 +1241,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 이차 회귀: Y = (a + bX) ^ 2, b를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1264,7 +1264,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 역수 회귀: Y = a + b X ^ -1. 상관 계수를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1286,7 +1286,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 역수 회귀: Y = a + b X ^ -1. a를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1308,7 +1308,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 역수 회귀: Y = a + b X ^ -1. Y를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1330,7 +1330,7 @@ Pi: 3.14159... 반환
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE 테이블]{type="Neutral"}
+[!BADGE 테이블]{type="Neutral"} 역수 회귀: Y = a + b X ^ -1. b를 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1355,7 +1355,7 @@ Pi: 3.14159... 반환
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(지표)]**
 
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 주어진 각도의 사인을 반환합니다. 이 각도가 도 단위인 경우에는 각도에 PI()/180을 곱하십시오.
 
 
 | 인수 | 설명 |
@@ -1372,13 +1372,13 @@ Pi: 3.14159... 반환
 >[!CONTEXTUALHELP]
 >id="functions-t-score"
 >title="T 점수"
->abstract="[표준 편차](cm-functions.md#mean)로 나눈 평균과의 편차. [z 점수](#z-score)에 대한 별칭."
+>abstract="[표준 편차](cm-functions.md#mean)로 나눈 평균과의 편차. [Z 점수](#z-score)에 대한 별칭."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL T-SCORE(metric, include_zeros)]**
 
-[표준 편차](cm-functions.md#mean)로 나눈 평균과의 편차. [z 점수](#z-score)에 대한 별칭.
+[표준 편차](cm-functions.md#mean)로 나눈 평균과의 편차. [Z 점수](#z-score)에 대한 별칭.
 
 | 인수 | 설명 |
 |---|---|
@@ -1386,20 +1386,20 @@ Pi: 3.14159... 반환
 | include_zeros | 계산에 0값을 포함할지 여부 |
 
 
-## T-테스트 {#t-test}
+## T 테스트 {#t-test}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-t-test"
->title="T-테스트"
->abstract="t-점수가 x이고 자유도가 n인 m측 검증 t-테스트를 수행합니다."
+>title="T 테스트"
+>abstract="T 점수가 x이고 자유도가 n인 m측 검증 T 테스트를 수행합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST(지표, 도, 꼬리)]**
 
-t-점수가 x이고 자유도가 n인 m측 검증 t-테스트를 수행합니다.
+T 점수가 x이고 자유도가 n인 m측 검증 T 테스트를 수행합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1467,7 +1467,7 @@ t-점수가 x이고 자유도가 n인 m측 검증 t-테스트를 수행합니다
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(지표, include_zeros)]**
 
-[!BADGE 행]{type="Neutral"}
+[!BADGE 행]{type="Neutral"} 표준 편차로 나눈 평균과의 편차입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1480,7 +1480,7 @@ Z 점수에 대한 방정식은 다음과 같습니다.
 
 ![](assets/z_score.png)
 
-여기서 ***[!DNL x]***&#x200B;는 원시 점수이고, ***[!DNL μ]***&#x200B;는 인구의 평균이고 ***[!DNL σ]***&#x200B;는 인구의 표준 편차입니다.
+여기서 ***[!DNL x]***&#x200B;는 원시 점수이고, ***[!DNL μ]***&#x200B;는 집단의 평균이고 ***[!DNL σ]***&#x200B;는 집단의 표준 편차입니다.
 
 >[!NOTE]
 >
@@ -1495,13 +1495,13 @@ Z 점수에 대한 방정식은 다음과 같습니다.
 >[!CONTEXTUALHELP]
 >id="functions-z-test"
 >title="Z 테스트"
->abstract="z 점수가 x인 n측 검증 z-테스트를 수행합니다."
+>abstract="Z 점수가 x인 n측 검증 Z 테스트를 수행합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
 
-z 점수가 x인 n측 검증 z-테스트를 수행합니다.
+Z 점수가 x인 n측 검증 Z 테스트를 수행합니다.
 
 | 인수 | 설명 |
 |---|---|
