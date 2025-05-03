@@ -4,14 +4,66 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 91%
 
 ---
 
-# 플로우 시각화 구성
+# 플로우 시각화 구성 {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="다음으로 시작"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="다음 포함"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="다음으로 끝남"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="경로 지정 차원"
+>abstract="선택한 구성요소로 연결되거나 연결되는 경로로 사용할 차원을 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="흐름 컨테이너"
+>abstract="경로 지정(번호)을 표시하는 데 사용할 컨테이너를 선택하십시오."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="반복 포함(비활성화)"
+>abstract="다중 값 차원을 포함하는 플로우 시각화에서는 반복을 제거할 수 없습니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="반복 포함"
+>abstract="플로우 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스를 포함하거나 제외하는 옵션을 제공합니다(예: 페이지 다시 로드)."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="처음/마지막 발생으로 제한"
+>abstract="첫 번째/마지막 접점이 시작/종료인 경우 결과는 경로로 제한됩니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="열 수"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="열당 항목 확장됨"
+>abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을(를) 선택하여 새 플로우 시각화를 만드십시오."
+
+
 
 플로우 시각화를 통해 웹 사이트 또는 앱의 특정 전환 이벤트에서 시작되거나 이어지는 여정을 이해할 수 있습니다. 차원(및 차원 항목) 또는 지표를 통해 경로를 추적합니다.
 
