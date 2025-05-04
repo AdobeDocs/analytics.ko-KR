@@ -5,14 +5,19 @@ title: 시각화 데이터 소스 관리
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 96%
 
 ---
 
-# 시각화 데이터 소스 관리
+# 시각화 데이터 소스 관리 {#manage-visualization-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="workspace_datasource_lock_selection"
+>title="선택 사항 잠금"
+>abstract="시각화를 테이블 위치 또는 데이터 소스에서 선택한 정확한 항목으로 잠그려면 이 설정을 활성화하십시오."
 
 시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다.
 
@@ -29,6 +34,8 @@ ht-degree: 100%
    시각화를 테이블 셀에 동기화하면, 새로운 (숨겨진) 테이블이 만들어지고 해당 테이블과 동기화된 시각화가 컬러 코딩됩니다.
 
 ## 데이터 소스 설정
+
+
 
 
 >[!BEGINSHADEBOX]
