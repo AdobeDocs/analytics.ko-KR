@@ -46,7 +46,7 @@ Activity Map 확장 인터페이스는 두 부분으로 구성됩니다.
 * **[!UICONTROL 설정 표시]**: 변경할 수 있는 설정 메뉴를 엽니다(톱니바퀴 아이콘).
    * **[!UICONTROL 설정]**: 확장의 [설정](settings.md)을 엽니다.
    * **[!UICONTROL 도움말]**: Experience League 설명서를 엽니다(이 페이지).
-   * **[!UICONTROL Adobe 커뮤니티]**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/)를 엽니다.
+   * **[!UICONTROL Adobe 커뮤니티]**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/?profile.language=ko)를 엽니다.
    * **[!UICONTROL 정보]**: 확장 버전을 표시합니다.
    * **[!UICONTROL 로그아웃]**: 확장에서 로그아웃하므로 다시 로그인해야 합니다.
 * **[!UICONTROL Activity Map 종료]**: 확장에 대한 모든 오버레이를 닫습니다(X 아이콘).

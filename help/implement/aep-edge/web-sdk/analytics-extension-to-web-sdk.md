@@ -28,7 +28,7 @@ ht-degree: 1%
 Adobe은 다음 시나리오에서 이 구현 경로를 따를 것을 권장합니다.
 
 * Adobe Analytics 태그 확장을 사용하는 기존 구현이 있습니다. AppMeasurement을 사용하는 구현이 있는 경우 대신 [AppMeasurement에서 Web SDK로 마이그레이션](appmeasurement-to-web-sdk.md)을 따르십시오.
-* 나중에 Customer Journey Analytics을 사용할 계획이지만 Analytics 구현을 처음부터 웹 SDK 구현으로 바꾸지는 않을 것입니다. 웹 SDK에서 구현을 처음부터 교체하려면 가장 많은 노력이 필요하지만 가장 실행 가능한 장기 구현 아키텍처도 제공합니다. 조직에서 깔끔한 웹 SDK 구현을 수행하려는 경우 Customer Journey Analytics 사용 안내서에서 [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)을 참조하십시오.
+* 나중에 Customer Journey Analytics을 사용할 계획이지만 Analytics 구현을 처음부터 웹 SDK 구현으로 바꾸지는 않을 것입니다. 웹 SDK에서 구현을 처음부터 교체하려면 가장 많은 노력이 필요하지만 가장 실행 가능한 장기 구현 아키텍처도 제공합니다. 조직에서 깔끔한 웹 SDK 구현을 수행하려는 경우 Customer Journey Analytics 사용 안내서에서 [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)을 참조하십시오.
 
 ## 웹 SDK로 마이그레이션하는 데 필요한 단계
 

@@ -32,7 +32,7 @@ ht-degree: 18%
 >
 >이 변수에 대해 하위 도메인을 고려하지는 마십시오. 예를 들어 `cookieDomainPeriods`이라는 URL 예에서는 `store.toys.example.com`를 설정하지 마십시오. AppMeasurement은 하위 도메인이 많은 URL에서도 쿠키가 `example.com`에 저장되어 있음을 인식합니다.
 
-AppMeasurement v2.26.x 이상에서 구현의 경우 [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키를 사용하여 자동으로 올바른 쿠키 도메인을 결정합니다. 라이브러리는 먼저 두 개의 도메인 마침표를 포함하는 쿠키를 작성하려고 합니다. 이 쿠키를 설정하지 못하면 성공할 때까지 더 많은 도메인 기간을 포함하여 다시 시도합니다. 이 쿠키는 설정되면 즉시 삭제됩니다.
+AppMeasurement v2.26.x 이상에서 구현의 경우 [`s_ac`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키를 사용하여 자동으로 올바른 쿠키 도메인을 결정합니다. 라이브러리는 먼저 두 개의 도메인 마침표를 포함하는 쿠키를 작성하려고 합니다. 이 쿠키를 설정하지 못하면 성공할 때까지 더 많은 도메인 기간을 포함하여 다시 시도합니다. 이 쿠키는 설정되면 즉시 삭제됩니다.
 
 ## 웹 SDK를 사용한 쿠키 도메인 마침표
 

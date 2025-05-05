@@ -23,7 +23,7 @@ ht-degree: 90%
 
 1. **범위 선택기**: Excel의 셀에서 보고서 세트 ID를 선택할 수 있습니다. [보고서 세트 선택](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)을 참조하세요.
 
-1. **세그먼트**: 는 데이터의 사용자 정의 하위 세트이거나 작성한 규칙으로 필터링된 데이터입니다. 세그먼트는 히트 수, 방문 횟수 및 방문자 수를 기반으로 합니다. 세그먼트에 대한 자세한 내용은 [Analytics 세그멘테이션 안내서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오.
+1. **세그먼트**: 는 데이터의 사용자 정의 하위 세트이거나 작성한 규칙으로 필터링된 데이터입니다. 세그먼트는 히트 수, 방문 횟수 및 방문자 수를 기반으로 합니다. 세그먼트에 대한 자세한 내용은 [Analytics 세그멘테이션 안내서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko)를 참조하십시오.
 
    예를 들어 [!UICONTROL 페이지 보고서]를 실행한 다음 최초 방문 세그먼트를 적용할 수 있습니다.
 

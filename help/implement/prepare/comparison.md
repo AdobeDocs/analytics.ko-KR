@@ -31,7 +31,7 @@ Adobe Analytics를 구현하는 각 방법을 서로 비교하는 방법을 확�
 
 >[!CAUTION]
 >
->버전 4 Mobile SDK에 대한 지원은 2021년 8월 31일에 종료되었습니다. 자세한 내용은 [Adobe Mobile Services 사용 종료 FAQ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)를 참조하십시오.
+>버전 4 Mobile SDK에 대한 지원은 2021년 8월 31일에 종료되었습니다. 자세한 내용은 [Adobe Mobile Services 사용 종료 FAQ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=ko)를 참조하십시오.
 
 
 | | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [서버 API](/help/implement/aep-edge/server-api/overview.md) |

@@ -26,7 +26,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>분류 데이터(분류 구조가 복사됨) </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 분류 가져오기 도구(업로드) 설명서</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=ko"> 분류 가져오기 도구(업로드) 설명서</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>거래 ID 기록 활성화 </p> </td> 
@@ -60,7 +60,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>방문자 ClickMap 관리자 </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Activity Map으로 업그레이드</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html?lang=ko"> Activity Map으로 업그레이드</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 규칙 </p> </td> 

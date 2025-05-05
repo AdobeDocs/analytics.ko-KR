@@ -37,7 +37,7 @@ ht-degree: 55%
 
 ## 웹 SDK를 수동으로 구현하는 사전 추적 콜백
 
-데이터가 컴파일된 후 Adobe으로 전송되기 전에 Web SDK에서 함수를 후크할 수 없습니다. 그러나 `onBeforeEventSend`을(를) 사용하여 데이터가 전송되기 바로 전에 실행할 함수를 등록할 수 있습니다. 이는 `doPlugins`과(와) 유사합니다. 자세한 내용은 웹 SDK 설명서의 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
+데이터가 컴파일된 후 Adobe으로 전송되기 전에 Web SDK에서 함수를 후크할 수 없습니다. 그러나 `onBeforeEventSend`을(를) 사용하여 데이터가 전송되기 바로 전에 실행할 함수를 등록할 수 있습니다. 이는 `doPlugins`과(와) 유사합니다. 자세한 내용은 웹 SDK 설명서의 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#modifying-events-globally)을 참조하십시오.
 
 ```js
 // Set the trackingCode XDM field to "New value"

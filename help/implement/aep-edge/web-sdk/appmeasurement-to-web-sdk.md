@@ -28,7 +28,7 @@ ht-degree: 0%
 Adobe은 다음 시나리오에서 이 구현 경로를 따를 것을 권장합니다.
 
 * Adobe Analytics AppMeasurement JavaScript 라이브러리를 사용하는 기존 구현이 있습니다. Adobe Analytics 태그 확장을 사용하는 구현이 있는 경우 대신 [Adobe Analytics 태그 확장에서 Web SDK 태그 확장으로 마이그레이션](analytics-extension-to-web-sdk.md)을 따르십시오.
-* 나중에 Customer Journey Analytics을 사용할 계획이지만 Analytics 구현을 처음부터 웹 SDK 구현으로 바꾸지는 않을 것입니다. 웹 SDK에서 구현을 처음부터 교체하려면 가장 많은 노력이 필요하지만 가장 실행 가능한 장기 구현 아키텍처도 제공합니다. 조직에서 깔끔한 웹 SDK 구현을 수행하려는 경우 Customer Journey Analytics 사용 안내서에서 [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)을 참조하십시오.
+* 나중에 Customer Journey Analytics을 사용할 계획이지만 Analytics 구현을 처음부터 웹 SDK 구현으로 바꾸지는 않을 것입니다. 웹 SDK에서 구현을 처음부터 교체하려면 가장 많은 노력이 필요하지만 가장 실행 가능한 장기 구현 아키텍처도 제공합니다. 조직에서 깔끔한 웹 SDK 구현을 수행하려는 경우 Customer Journey Analytics 사용 안내서에서 [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)을 참조하십시오.
 
 ## 웹 SDK로 마이그레이션하는 데 필요한 단계
 
@@ -55,15 +55,15 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 만듭�
 
 +++**2. 웹 SDK JavaScript 라이브러리 설치**
 
-메서드 호출을 사용할 수 있도록 `alloy.js`의 최신 버전을 참조합니다. 자세한 내용 및 사용할 코드 블록은 [JavaScript 라이브러리를 사용하여 웹 SDK 설치](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library)를 참조하십시오.
+메서드 호출을 사용할 수 있도록 `alloy.js`의 최신 버전을 참조합니다. 자세한 내용 및 사용할 코드 블록은 [JavaScript 라이브러리를 사용하여 웹 SDK 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/install/library)를 참조하십시오.
 
 +++
 
 +++**3. 웹 SDK 구성**
 
-Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 명령을 사용하여 이전 단계에서 만든 데이터 스트림을 가리키도록 구현을 설정하십시오. 라이브러리 설치 코드와 함께 `configure` 명령을 포함할 수 있도록 모든 페이지에서  명령을 설정해야 합니다.
+Web SDK [`configure`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 명령을 사용하여 이전 단계에서 만든 데이터 스트림을 가리키도록 구현을 설정하십시오. 라이브러리 설치 코드와 함께 `configure` 명령을 포함할 수 있도록 모든 페이지에서  명령을 설정해야 합니다.
 
-Web SDK `configure` 명령 내에서 [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) 및 [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) 속성을 사용합니다.
+Web SDK `configure` 명령 내에서 [`datastreamId`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/datastreamid) 및 [`orgId`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/orgid) 속성을 사용합니다.
 
 * `datastreamId`을(를) 이전 단계에서 검색한 데이터 스트림 ID로 설정합니다.
 * `orgId`을(를) 조직의 IMS 조직으로 설정합니다.
@@ -75,7 +75,7 @@ alloy("configure", {
 });
 ```
 
-조직의 구현 요구 사항에 따라 [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 명령에서 다른 속성을 선택적으로 설정할 수 있습니다.
+조직의 구현 요구 사항에 따라 [`configure`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 명령에서 다른 속성을 선택적으로 설정할 수 있습니다.
 
 +++
 
@@ -116,7 +116,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. 웹 SDK를 사용하도록 메서드 호출을 업데이트합니다**
 
-[`s.t()`](../../vars/functions/t-method.md) 및 [`s.tl()`](../../vars/functions/tl-method.md)을(를) 호출하는 모든 인스턴스를 업데이트하여 [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) 명령으로 바꿉니다. 고려해야 할 세 가지 시나리오가 있습니다.
+[`s.t()`](../../vars/functions/t-method.md) 및 [`s.tl()`](../../vars/functions/tl-method.md)을(를) 호출하는 모든 인스턴스를 업데이트하여 [`sendEvent`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/sendevent/overview) 명령으로 바꿉니다. 고려해야 할 세 가지 시나리오가 있습니다.
 
 * **페이지 보기 추적**: 페이지 보기 추적 호출을 웹 SDK `sendEvent` 명령으로 바꿉니다.
 
@@ -128,7 +128,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
   alloy("sendEvent", dataObj);
   ```
 
-* **자동 링크 추적**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) 구성 속성이 기본적으로 활성화되어 있습니다. 데이터를 Adobe Analytics으로 전송할 올바른 링크 추적 변수를 자동으로 설정합니다. 자동 링크 추적을 사용하지 않도록 설정하려면 [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 명령 내에서 이 속성을 `false`(으)로 설정하십시오.
+* **자동 링크 추적**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) 구성 속성이 기본적으로 활성화되어 있습니다. 데이터를 Adobe Analytics으로 전송할 올바른 링크 추적 변수를 자동으로 설정합니다. 자동 링크 추적을 사용하지 않도록 설정하려면 [`configure`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 명령 내에서 이 속성을 `false`(으)로 설정하십시오.
 
 * **수동 링크 추적**: 웹 SDK에는 pageview 호출과 pageview가 아닌 호출 사이에 별도의 명령이 없습니다. 페이로드 객체 내에 해당 구분을 제공합니다.
 

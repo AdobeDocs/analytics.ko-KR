@@ -28,6 +28,6 @@ ht-degree: 93%
 
 차원 항목에는 다음 세 가지 값이 포함됩니다.
 
-* **`SSF`**: 방문자가 [서버측 전달](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)을 옵트아웃했습니다. 이 차원 항목은 컨텍스트 데이터 변수 `cm.ssf`가 `1`인 경우에 존재합니다. 자세한 내용은 Audience Manager 사용 안내서의 [데이터 개인정보 보호 개요](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html)를 참조하십시오. 해당 히트는 Adobe Audience Manager로 전달되지 않습니다.
+* **`SSF`**: 방문자가 [서버측 전달](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)을 옵트아웃했습니다. 이 차원 항목은 컨텍스트 데이터 변수 `cm.ssf`가 `1`인 경우에 존재합니다. 자세한 내용은 Audience Manager 사용 안내서의 [데이터 개인정보 보호 개요](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=ko)를 참조하십시오. 해당 히트는 Adobe Audience Manager로 전달되지 않습니다.
 * **`DMP`**: 방문자가 데이터 관리 플랫폼에 대한 공유를 옵트아웃했습니다. 이 차원 항목은 컨텍스트 데이터 변수 `opt.dmp`가 `N`인 경우에 존재합니다. `SSF`와 마찬가지로, 해당 히트는 Adobe Audience Manager로 전달되지 않습니다.
 * **`SELL`**: 방문자가 데이터를 서드파티에 공유하거나 판매하는 것을 옵트아웃했습니다. 이 차원은 컨텍스트 데이터 변수 `opt.sell`가 `N`인 경우에 존재합니다.

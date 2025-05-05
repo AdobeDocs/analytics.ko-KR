@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 속성과 마케팅 채널 - 모범 사례
 
-[마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 관한 현재 지침은 [속성](/help/analyze/analysis-workspace/attribution/overview.md) 또는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases)가 존재하지 않았을 때 작성되었습니다.
+[마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 관한 현재 지침은 [속성](/help/analyze/analysis-workspace/attribution/overview.md) 또는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko#cja-usecases)가 존재하지 않았을 때 작성되었습니다.
 
 마케팅 채널 구현의 미래를 보장하고 Attribution 및 Customer Journey Analytics와의 보고 일관성을 보장하기 위해 Adobe는 업데이트된 모범 사례 세트를 발표하고 있습니다. 이미 마케팅 채널을 사용하고 있는 경우 이러한 새로운 지침 중에서 최상의 옵션을 선택할 수 있습니다. 마케팅 채널을 처음 사용하는 경우 모든 새로운 모범 사례를 준수하는 것이 좋습니다.
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * 차원 마케팅 채널 및 마케팅 채널 세부 정보의 구성은 각 마케팅 채널 인스턴스에 해당하는 터치포인트를 설정하여 평가합니다.
 * 지표 분석의 경우 조직에서 하나 이상의 속성 모델에 맞춰 조정해야 합니다. 쉽게 재사용할 수 있도록 이 모델을 사용하여 사용자 정의 지표를 저장합니다.
-* 기본적으로 데이터는 마지막 접점 및 방문자 참여 기간 설정을 사용하여 할당됩니다. 속성 지표 모델을 [알고리즘 속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html#analysis-workspace)를 포함하여 전환 확인 기간에 대한 더 큰 통제력과 더 많은 다양성을 제공합니다.
+* 기본적으로 데이터는 마지막 접점 및 방문자 참여 기간 설정을 사용하여 할당됩니다. 속성 지표 모델을 [알고리즘 속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko#analysis-workspace)를 포함하여 전환 확인 기간에 대한 더 큰 통제력과 더 많은 다양성을 제공합니다.
 
 ## 모범 사례 #2: 직접 및 세션 새로 고침 채널 정의 없음
 

@@ -27,21 +27,21 @@ ht-degree: 9%
 
    * Adobe Analytics 소스 커넥터를 사용하려면 다음을 수행해야 합니다.
 
-      1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집할 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집할 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ko#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [데이터 수집 및 사용](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ko-KR)
 
    * WebSDK를 사용하려면 다음을 수행해야 합니다.
 
-      1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집할 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집할 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ko#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+      1. [Adobe Experience Platform Web SDK를 통해 데이터 수집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=ko)
 
-1. 수집된 데이터를 사용하여 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) 및 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)를 만듭니다.
+1. 수집된 데이터를 사용하여 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=ko) 및 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko)를 만듭니다.
 
 1. Customer Journey Analytics의 사용자가 데이터가 매핑되는 데이터 보기에 프로비저닝되었는지 확인합니다.
 
-   자세한 내용은 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)에서 [Admin Console의 Customer Journey Analytics 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)을 참조하세요.
+   자세한 내용은 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ko)에서 [Admin Console의 Customer Journey Analytics 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ko#customer-journey-analytics-permissions-in-admin-console)을 참조하세요.
 
    권한 탭은 Admin Console의 각 제품 프로필에 포함되어 있습니다. 특정 제품 프로필에 사용자를 추가할 수 있습니다. 그런 다음 특정 데이터 보기에 권한을 할당하고 제품 프로필의 사용자에게 부여할 권한을 지정합니다.
 

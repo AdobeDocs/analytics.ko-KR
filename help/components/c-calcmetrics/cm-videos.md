@@ -16,9 +16,9 @@ ht-degree: 9%
 
 이 짧은 비디오에서는 계산된 지표 도구의 사용을 최적화하는 방법에 대한 개요를 제공합니다.
 
-* [Analysis Workspace에서 빠르게 계산된 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
-* [지표 빌더](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
-* [세그먼트화된 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html){target="_blank"}
+* [Analysis Workspace에서 빠르게 계산된 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=ko){target="_blank"}
+* [지표 빌더](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html?lang=ko){target="_blank"}
+* [세그먼트화된 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=ko){target="_blank"}
 * [구현 불가 메트릭](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ko-KR){target="_blank"}
-* [함수](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html){target="_blank"}
-* [계산된 지표 관리](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}
+* [함수](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html?lang=ko){target="_blank"}
+* [계산된 지표 관리](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html?lang=ko){target="_blank"}

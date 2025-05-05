@@ -118,7 +118,7 @@ f. 추적 코드, 노출수, 클릭수 및 비용을 제외한 모든 열을 삭
 
 계산된 지표를 추가하면 클릭당 과금 결정을 내릴 때 도움이 됩니다.
 
-예를 들어 다음 [계산된 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics)를 추가할 수 있습니다.
+예를 들어 다음 [계산된 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko#calculated-metrics)를 추가할 수 있습니다.
 
 | 이름 | 공식 | 지표 유형 | 설명 |
 | --- | --- | --- | --- |

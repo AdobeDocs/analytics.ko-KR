@@ -110,7 +110,7 @@ Analysis Workspace에서 분석을 만들면 작업이 [자동으로 저장됩�
 ## 추가 리소스 {#resources}
 
 * Adobe는 수백 개의 [Analytics 비디오 교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ko-KR)을 제공합니다.
-* 새 기능을 위한 업데이트에 대해서는 [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics)를 참조하십시오.
+* 새 기능을 위한 업데이트에 대해서는 [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko#analytics)를 참조하십시오.
 * Analysis Workspace에 익숙해지는 가장 좋은 방법은 Analysis Workspace 교육 튜토리얼 템플릿을 사용하는 것입니다. 이 템플릿은 Workspace에 첫 번째 분석을 빌드하는 일반적인 용어 및 단계를 안내합니다. 튜토리얼을 시작하려면 다음 작업을 수행하십시오.
    1. Adobe Analytics의 [!UICONTROL **Workspace**]&#x200B;에서 왼쪽의 **[!UICONTROL 학습]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 튜토리얼 열기]**를 선택합니다.

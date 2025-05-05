@@ -26,7 +26,7 @@ ht-degree: 79%
 geo zip 과 관련된 옵션을 사용하도록 선택하는 경우:
 
 * AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
-* Web SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)할 때 [!UICONTROL 지역 조회]를 사용하도록 설정하십시오.
+* Web SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)할 때 [!UICONTROL 지역 조회]를 사용하도록 설정하십시오.
 
 ## 차원 항목
 

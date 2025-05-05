@@ -76,7 +76,7 @@ Adobe Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder 업데이트 </p> </td> 
-   <td colname="col2"> <p> <p>중요: <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a>의 설치를 최신 버전으로 업데이트합니다. </p> </p> </td> 
+   <td colname="col2"> <p> <p>중요: <a href="https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a>의 설치를 최신 버전으로 업데이트합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션은 언제 시작됩니까? </p> </td> 
@@ -125,7 +125,7 @@ Adobe Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> 저는 Adobe Admin Console에 대한 액세스 권한이 없는 Analytics 관리자입니다. Adobe Admin Console에 대한 액세스 권한을 받는 데 누가 도와줄 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>조직의 Adobe Admin Console에 대한 액세스 권한이 있는 모든 시스템 또는 제품 관리자가 액세스 권한을 줄 수 있습니다. 조직 내 콘솔 관리자 권한을 가진 사람을 모르는 경우 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> </td> 
+   <td colname="col2"> <p>조직의 Adobe Admin Console에 대한 액세스 권한이 있는 모든 시스템 또는 제품 관리자가 액세스 권한을 줄 수 있습니다. 조직 내 콘솔 관리자 권한을 가진 사람을 모르는 경우 <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션 시작 날짜를 연기할 수 있습니까? </p> </td> 

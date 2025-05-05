@@ -19,7 +19,7 @@ Activity Map 차원에 대한 데이터가 표시되지 않는 경우 이 페이
 
 먼저, AppMeasurement이 Activity Map 데이터를 올바르게 수집하는지 확인하십시오.
 
-1. [Adobe Experience Cloud Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)을 다운로드하여 설치하십시오.
+1. [Adobe Experience Cloud Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/ko/docs/experience-platform/debugger/home)을 다운로드하여 설치하십시오.
 2. 웹 페이지로 이동한 다음 링크를 클릭합니다.
 3. 후속 페이지가 로드되면 디버거를 엽니다. `activitymap.`과(와) `.activitymap` 사이에 있는 Activity Map 컨텍스트 데이터 변수가 표시되는지 확인합니다.
 

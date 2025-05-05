@@ -26,7 +26,7 @@ ht-degree: 100%
 이러한 차원의 가용성은 구현 유형에 따라 다릅니다.
 
 * AppMeasurement 구현의 경우 이러한 차원은 즉시 작동합니다.
-* Web SDK 구현의 경우 [ 데이터스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)할 때 [!UICONTROL 지역 조회] (이동통신사) 또는 [!UICONTROL 디바이스 조회] (다른 모든 차원)를 활성화하십시오.
+* Web SDK 구현의 경우 [ 데이터스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)할 때 [!UICONTROL 지역 조회] (이동통신사) 또는 [!UICONTROL 디바이스 조회] (다른 모든 차원)를 활성화하십시오.
 
 ## 모바일 차원 설명
 

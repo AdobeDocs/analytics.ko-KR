@@ -37,4 +37,4 @@ ht-degree: 100%
 
 ![](assets/processing_rule_set_event.png)
 
-구현 도움말에서 [컨텍스트 데이터 변수](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html)를 참조하십시오.
+구현 도움말에서 [컨텍스트 데이터 변수](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=ko)를 참조하십시오.

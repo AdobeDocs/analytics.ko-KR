@@ -20,7 +20,7 @@ ht-degree: 9%
 
 ## 웹 SDK를 사용하여 링크 값 재정의
 
-[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) 콜백을 사용하여 웹 SDK 페이로드를 변경하거나 데이터 전송을 중단할 수 있습니다.
+[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) 콜백을 사용하여 웹 SDK 페이로드를 변경하거나 데이터 전송을 중단할 수 있습니다.
 
 ## Adobe Analytics 확장을 사용한 링크 재정의
 

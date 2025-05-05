@@ -34,12 +34,12 @@ ht-degree: 4%
 * **`aamlh`**: Adobe Audience Manager 위치 힌트입니다.
 * **`contextData.key`**: [컨텍스트 데이터 변수](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: Experience Cloud ID 서비스 변수입니다. `id`, `authState`및 `isMCSeed`를 포함합니다.
-* **`hints`**: [클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) 변수. `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` 및 `wow64`을(를) 포함합니다.
+* **`hints`**: [클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko) 변수. `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` 및 `wow64`을(를) 포함합니다.
 * **`ipaddress`**: 방문자의 IP 주소입니다.
 * **`language`**: [언어](/help/components/dimensions/language.md) 차원.
 * **`list1`** - **`list3`**: [목록 변수](/help/implement/vars/page-vars/list.md).
 * **`marketingCloudVisitorID`**: 방문자의 Experience Cloud ID.
-* **`tnta`**: [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 통합에 사용되는 Target 데이터 페이로드입니다.
+* **`tnta`**: [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko) 통합에 사용되는 Target 데이터 페이로드입니다.
 * **`trackingServer`**: [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 변수입니다.
 * **`transactionID`**: [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 변수입니다.
 * **`userAgent`**: 장치의 사용자 에이전트 문자열입니다.

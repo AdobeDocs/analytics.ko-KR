@@ -25,5 +25,5 @@ ht-degree: 100%
 |--- |--- |
 | [!UICONTROL  이름 ] | 이 이름은 데이터 수집을 활성화할 플랫폼과 일치합니다. 이 열에 나열된 각 플랫폼에 대해 기본 라이브러리가 제공됩니다. |
 | [!UICONTROL 유형] | 각 라이브러리를 사용하여 측정할 수 있는 애플리케이션 유형입니다. |
-| [!UICONTROL 버전] | 라이브러리의 최신 버전을 나열합니다. 버전 번호를 클릭하여 [출시 내역](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)을 봅니다. |
+| [!UICONTROL 버전] | 라이브러리의 최신 버전을 나열합니다. 버전 번호를 클릭하여 [출시 내역](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko)을 봅니다. |
 | [!UICONTROL 설명서] | 라이브러리 참조 설명서를 봅니다. |

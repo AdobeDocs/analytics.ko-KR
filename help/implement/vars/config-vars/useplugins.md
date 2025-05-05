@@ -17,7 +17,7 @@ ht-degree: 34%
 
 ## 웹 SDK를 사용하여 `onBeforeEventSend` 콜백 사용
 
-Web SDK에는 데이터가 Adobe으로 전송되기 전에 추가 논리 실행을 처리하는 부울이 없지만 `onBeforeEventSend` 콜백을 등록하여 데이터를 수정할 수 있습니다. 자세한 내용은 웹 SDK 설명서의 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
+Web SDK에는 데이터가 Adobe으로 전송되기 전에 추가 논리 실행을 처리하는 부울이 없지만 `onBeforeEventSend` 콜백을 등록하여 데이터를 수정할 수 있습니다. 자세한 내용은 웹 SDK 설명서의 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#modifying-events-globally)을 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 플러그인 사용
 

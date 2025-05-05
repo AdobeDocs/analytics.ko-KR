@@ -49,7 +49,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 
 ### 키보드 단축키(핫키)
 
-[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로를 위해 다양한 [키보드 단축키](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) 세트를 제공합니다. 탐색, 분석 제작 및 인사이트 민주화에 대한 몇 가지 일반적인 단축키가 아래에 나와 있습니다.
+[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로를 위해 다양한 [키보드 단축키](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ko) 세트를 제공합니다. 탐색, 분석 제작 및 인사이트 민주화에 대한 몇 가지 일반적인 단축키가 아래에 나와 있습니다.
 
 #### 탐색
 

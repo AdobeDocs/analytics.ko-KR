@@ -35,7 +35,7 @@ Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 �
 
 ## Web SDK를 사용한 자사 디바이스 ID(FPID)
 
-Adobe Experience Platform Web SDK를 사용하면 Adobe에서 생성한 Experience Cloud ID(ECID) 대신 자신의 디바이스 식별자를 설정하고 관리하도록 선택할 수 있습니다. 이를 자사 디바이스 ID(FPID)라고 합니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)에서 추가 정보를 확인하십시오.
+Adobe Experience Platform Web SDK를 사용하면 Adobe에서 생성한 Experience Cloud ID(ECID) 대신 자신의 디바이스 식별자를 설정하고 관리하도록 선택할 수 있습니다. 이를 자사 디바이스 ID(FPID)라고 합니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ko)에서 추가 정보를 확인하십시오.
 
 ## 추가 정보
 

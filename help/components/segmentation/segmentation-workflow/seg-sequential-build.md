@@ -302,4 +302,4 @@ An example of a complex sequential segment if you want to find the visitors that
 
 >[!MORELIKETHIS]
 >
-> * [AA 및 CJA에서 순차적 논리 마스터하기: THEN 소개](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [AA 및 CJA에서 순차적 논리 마스터하기: THEN 소개](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=ko)

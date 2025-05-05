@@ -24,7 +24,7 @@ Adobe Analytics는 웹 사이트 트래픽을 분석하기 위해 다음과 같�
 
 * [흐름 분석](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [고급 세분화](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+* [고급 세분화](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko)
 
 
 ## 마케팅 분석
@@ -35,7 +35,7 @@ Adobe Analytics의 다음 주요 기능은 이러한 마케팅 기능을 제공�
 
 * [멀티채널 데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR)
 
-* [오프라인 데이터 통합](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
+* [오프라인 데이터 통합](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=ko)
 
 * [Analysis Workspace의 애드혹 분석](/help/analyze/analysis-workspace/home.md)
 

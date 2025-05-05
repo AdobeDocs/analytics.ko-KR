@@ -165,7 +165,7 @@ Adobe는 검색 엔진의 내부 조회를 기반으로 검색 트래픽을 판�
 
 ![](assets/int-channel1.png)
 
-이 채널이 발생하는 이유에 대한 자세한 내용은 [내부(세션 새로 고침) 이유](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal)를 참조하십시오.
+이 채널이 발생하는 이유에 대한 자세한 내용은 [내부(세션 새로 고침) 이유](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=ko#internal)를 참조하십시오.
 
 ### 직접 {#direct}
 

@@ -19,4 +19,4 @@ Analysis Workspace에서 데이터를 볼 때 대부분의 경우 계산된 지�
 * 자유 형식 테이블에 [정적 행](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)을 사용하고 **[!UICONTROL 현재 행의 합계로 표시]** 옵션 (기본값)을 선택한 경우
 * [도넛 시각화](/help/analyze/analysis-workspace/visualizations/donut.md)에서 숫자가 최대 100%까지 추가되도록 하는 경우
 
-Analysis Workspace의 합계에 대한 자세한 내용은 [Workspace 합계](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total)를 참조하십시오.
+Analysis Workspace의 합계에 대한 자세한 내용은 [Workspace 합계](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko#static-row-total)를 참조하십시오.

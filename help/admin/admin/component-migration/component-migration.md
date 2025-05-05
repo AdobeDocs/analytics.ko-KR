@@ -135,7 +135,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
 마이그레이션이 실패하면 마이그레이션을 다시 시도할 수 있습니다.
 
-실패한 마이그레이션을 다시 시도하기 전에 프로젝트에서 [지원되지 않는 요소](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors)를 제거하십시오.
+실패한 마이그레이션을 다시 시도하기 전에 프로젝트에서 [지원되지 않는 요소](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=ko#understand-unsupported-elements-that-cause-errors)를 제거하십시오.
 
 >[!NOTE]
 >

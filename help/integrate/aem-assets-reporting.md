@@ -23,6 +23,6 @@ Analytics에서 AEM Asset Insights에서 제공된 [!UICONTROL 자산]에 대한
 * Analysis Workspace의 자산 변수에 자산 ID, 자산 소스 및 클릭한 자산 ID와 같은 새 차원을 추가합니다.
 * 자산 이벤트(자산 클릭 및 자산 노출)에 새 차원 추가
 
-데이터를 채우려면 [AEM Asset 인사이트 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html)에서 전체 구현 지침을 참조하십시오.
+데이터를 채우려면 [AEM Asset 인사이트 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=ko)에서 전체 구현 지침을 참조하십시오.
 
 <!--The content in this article is duplicated with the content in the Admin guide (adobe-experience-manager.md)-->

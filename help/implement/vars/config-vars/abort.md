@@ -31,7 +31,7 @@ return false;
 
 ## 웹 SDK를 수동으로 구현하여 이벤트 보내기 취소
 
-`onBeforeEventSend` 콜백을 사용하고 `false`을(를) 반환합니다. 자세한 내용은 웹 SDK 설명서의 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
+`onBeforeEventSend` 콜백을 사용하고 `false`을(를) 반환합니다. 자세한 내용은 웹 SDK 설명서의 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#modifying-events-globally)을 참조하십시오.
 
 ```js
 alloy("configure"), {

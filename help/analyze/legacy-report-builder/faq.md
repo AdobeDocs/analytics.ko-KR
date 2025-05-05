@@ -37,4 +37,4 @@ Report Builder의 통합 문서 지원 한도는 다음과 같습니다.
 
 ## Report Builder에 대한 액세스 권한이 있는지 어떻게 알 수 있습니까? {#access}
 
-Adobe Analytics 관리자로부터 Report Builder 액세스 권한을 부여받아야 합니다. 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home)에서 제품 프로필을 설정합니다. 관리자에게 액세스 권한을 요청하십시오.
+Adobe Analytics 관리자로부터 Report Builder 액세스 권한을 부여받아야 합니다. 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-console/home)에서 제품 프로필을 설정합니다. 관리자에게 액세스 권한을 요청하십시오.

@@ -65,7 +65,7 @@ ht-degree: 62%
 ![](assets/components.png)
 
 1. [!UICONTROL 구성 요소] 탭에서 이 가상 리포트 세트에 대한 구성 요소를 Analysis Workspace에서 포함, 제외 및 이름을 변경하기 위해 큐레이션을 적용할 체크박스를 선택하십시오.
-가상 보고서 세트 큐레이션에 대한 자세한 내용은 [가상 보고서 세트 구성 요소 큐레이션](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites)을 참조하십시오.
+가상 보고서 세트 큐레이션에 대한 자세한 내용은 [가상 보고서 세트 구성 요소 큐레이션](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=ko#virtual-report-suites)을 참조하십시오.
 
 1. 가상 보고서 세트에 포함할 구성 요소(차원, 지표, 세그먼트 또는 날짜 범위)를 [!UICONTROL 포함된 구성 요소] 섹션으로 끌어다 놓습니다.
 

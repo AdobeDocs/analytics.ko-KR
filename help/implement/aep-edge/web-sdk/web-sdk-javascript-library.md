@@ -66,7 +66,7 @@ Web SDK JavaScript 라이브러리를 사용하여 Adobe Analytics에 데이터�
 <tr>
 <td> 4</td>
 <td><b>미리 빌드된 독립형 버전을 설치합니다</b>. 페이지에서 직접 CDN의 라이브러리(<code>alloy.js</code>)를 참조하거나 자체 인프라에서 다운로드하여 호스팅할 수 있습니다. 또는 NPM 패키지를 사용할 수 있습니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">미리 빌드된 독립형 버전 설치</a> 및 <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">NPM 패키지 사용</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=ko">미리 빌드된 독립형 버전 설치</a> 및 <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=ko">NPM 패키지 사용</a></td>
 </tr>
 
 <tr>
@@ -77,20 +77,20 @@ Web SDK JavaScript 라이브러리를 사용하여 Adobe Analytics에 데이터�
 
 <td>6</td>
 <td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 해당 서비스는 데이터가 Adobe Analytics으로 전송되는지 여부와 전송 방법, 구체적으로 어떤 보고서 세트를 통해 전송되는지 여부를 제어합니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Web SDK를 구성합니다</b>. 4단계에서 설치한 라이브러리가 데이터 스트림 ID(이전에는 Edge 구성 ID(<code>datastreamId</code>)라고 함), 조직 ID(<code>orgId</code>) 및 기타 사용 가능한 옵션으로 올바르게 구성되었는지 확인합니다. 변수의 적절한 매핑을 확인합니다. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">웹 SDK 구성</a><br/><a href="../xdm-var-mapping.md">XDM 개체 변수 매핑</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=ko">웹 SDK 구성</a><br/><a href="../xdm-var-mapping.md">XDM 개체 변수 매핑</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>명령을 실행</b>하거나 <b>이벤트를 추적</b>합니다. 베이스 코드가 웹 페이지에 구현되면 SDK를 사용하여 명령 실행 및 이벤트 추적을 시작할 수 있습니다.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">이벤트 보내기</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=ko">이벤트 보내기</a></td>
 </tr>
 
 <tr>

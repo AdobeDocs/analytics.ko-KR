@@ -32,7 +32,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 1. Experience Cloud 조직 ID를 비롯한 모든 설정은 이미 작성되어 있어야 합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 확장 카탈로그로 돌아가 Adobe Analytics를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 
-자세한 내용은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)에 대한 모든 내용이 들어 있는 문서를 참조하십시오.
+자세한 내용은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko)에 대한 모든 내용이 들어 있는 문서를 참조하십시오.
 
 ## Adobe Analytics용 데이터 요소 만들기
 

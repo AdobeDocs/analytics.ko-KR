@@ -41,7 +41,7 @@ Adobe Analytics 기본 사항에 대해 알아보려면 이 *Adobe Analytics 소
 >[!ENDSHADEBOX]
 
 
-사용할 도구에 대한 질문은 [어떤 Adobe Analytics 도구를 사용해야 합니까?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html)를 참조하십시오.
+사용할 도구에 대한 질문은 [어떤 Adobe Analytics 도구를 사용해야 합니까?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=ko)를 참조하십시오.
 
 ## Customer Journey Analytics에 대해 자세히 알아보기
 

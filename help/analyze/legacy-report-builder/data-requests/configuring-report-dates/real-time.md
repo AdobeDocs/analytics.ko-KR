@@ -31,4 +31,4 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->[!UICONTROL 실시간 보고서]는 이전에 릴리스된 [현재 데이터 포함](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html)(데이터 최신성) 기능과 같지 않습니다. 이 기능은 처리가 완료되기 전에 데이터를 표시하여 표준 보고에 대한 지연을 줄였습니다.
+>[!UICONTROL 실시간 보고서]는 이전에 릴리스된 [현재 데이터 포함](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=ko)(데이터 최신성) 기능과 같지 않습니다. 이 기능은 처리가 완료되기 전에 데이터를 표시하여 표준 보고에 대한 지연을 줄였습니다.
