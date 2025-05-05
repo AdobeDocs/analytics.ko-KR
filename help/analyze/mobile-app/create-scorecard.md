@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://video.tv.adobe.com/v/38159?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +130,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://video.tv.adobe.com/v/3445773?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://video.tv.adobe.com/v/3413790?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://video.tv.adobe.com/v/3420563?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

@@ -19,7 +19,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish 세그먼트](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish 세그먼트](https://video.tv.adobe.com/v/37037?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

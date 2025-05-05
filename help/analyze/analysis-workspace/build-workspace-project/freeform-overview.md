@@ -21,7 +21,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Workspace 프로젝트 빌드](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Workspace 프로젝트 빌드](https://video.tv.adobe.com/v/3415640?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -140,7 +140,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [상황에 맞는 메뉴 사용](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [상황에 맞는 메뉴 사용](https://video.tv.adobe.com/v/30915?quality=12&learn=on&captions=kor){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 

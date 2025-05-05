@@ -48,7 +48,7 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 프로젝트에 차원 및 지표 추가](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 프로젝트에 차원 및 지표 추가](https://video.tv.adobe.com/v/33286?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -56,14 +56,14 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 차원 작업](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블에서 차원 작업](https://video.tv.adobe.com/v/328533?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [위치별 차원 분류](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [위치별 차원 분류](https://video.tv.adobe.com/v/30874?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

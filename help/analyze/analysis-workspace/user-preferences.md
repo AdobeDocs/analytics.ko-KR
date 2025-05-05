@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/3429994/?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

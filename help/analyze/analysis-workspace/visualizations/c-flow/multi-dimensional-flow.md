@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 간 흐름](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 간 흐름](https://video.tv.adobe.com/v/30905?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

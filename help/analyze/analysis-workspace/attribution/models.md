@@ -46,7 +46,7 @@ Adobe Analytics의 속성 개념에는 두 가지 구성 요소가 필요합니�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [사용자 지정 전환 확인 기간](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [사용자 지정 전환 확인 기간](https://video.tv.adobe.com/v/40044?quality=12&learn=on&captions=kor){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 

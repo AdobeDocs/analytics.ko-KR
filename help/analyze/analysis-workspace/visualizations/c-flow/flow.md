@@ -46,7 +46,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화](https://video.tv.adobe.com/v/3410744?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화의 추가 기능](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화의 추가 기능](https://video.tv.adobe.com/v/30878?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

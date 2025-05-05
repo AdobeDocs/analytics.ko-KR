@@ -19,7 +19,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [분류 가져오기](https://video.tv.adobe.com/v/16853?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [분류 가져오기](https://video.tv.adobe.com/v/40938?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

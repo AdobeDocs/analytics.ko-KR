@@ -18,7 +18,7 @@ Analysis Workspace의 폴아웃을 사용하면 단계 및 워크플로의 터�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [다차원 폴아웃](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [다차원 폴아웃](https://video.tv.adobe.com/v/30892?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

@@ -20,7 +20,7 @@ Audience Analytics 통합이 제대로 이루어지면 인구 통계학적 정�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/40737?quality=12&learn=on&captions=kor){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 

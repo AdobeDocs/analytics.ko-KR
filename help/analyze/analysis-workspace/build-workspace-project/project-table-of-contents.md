@@ -18,7 +18,7 @@ Analysis Workspace의 각 프로젝트 내에서 목차를 볼 수 있으므로 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [목차](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [목차](https://video.tv.adobe.com/v/35024?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

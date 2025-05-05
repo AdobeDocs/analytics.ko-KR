@@ -44,7 +44,7 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표](https://video.tv.adobe.com/v/32607?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트에서 세그먼트화된 계산된 지표](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트에서 세그먼트화된 계산된 지표](https://video.tv.adobe.com/v/32602?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

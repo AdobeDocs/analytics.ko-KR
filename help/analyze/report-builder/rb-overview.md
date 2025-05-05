@@ -73,7 +73,7 @@ Report Builder을 사용하여 다음과 같은 작업을 수행할 수 있습�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder 개요](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder 개요](https://video.tv.adobe.com/v/3452587?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

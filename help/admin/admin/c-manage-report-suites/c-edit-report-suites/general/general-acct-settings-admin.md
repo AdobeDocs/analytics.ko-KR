@@ -22,7 +22,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [일반 계정 설정 구성](https://video.tv.adobe.com/v/332330/?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [일반 계정 설정 구성](https://video.tv.adobe.com/v/3411509/?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

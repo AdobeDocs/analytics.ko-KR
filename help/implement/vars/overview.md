@@ -27,7 +27,7 @@ Adobe에서는 Adobe Analytics를 구현하는 방법을 여러 가지 제공합
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [변수 구성](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [변수 구성](https://video.tv.adobe.com/v/31260?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
