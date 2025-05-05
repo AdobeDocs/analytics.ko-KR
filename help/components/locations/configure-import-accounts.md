@@ -70,7 +70,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -82,7 +82,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -98,7 +98,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -112,7 +112,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++이메일
 
@@ -128,7 +128,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    **이전 계정 유형**
 
@@ -147,13 +147,13 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++SFTP
 
    데이터 피드에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RSA 또는 DSA 공개 키를 포함하기 위해 SFTP 호스트, 사용자 이름 및 대상 사이트가 필요합니다. 피드를 만들 때 적절한 공개 키를 다운로드할 수 있습니다.
 
-+++
+   +++
 
    +++S3
 
@@ -188,7 +188,7 @@ ht-degree: 56%
    >
    >cn-north-1 지역은 지원되지 않습니다.
 
-+++
+   +++
 
    +++Azure Blob
 
@@ -198,7 +198,7 @@ ht-degree: 56%
    >
    >Data Warehouse 대상의 디스크 공간을 관리하려면 자체 프로세스를 구현해야 합니다. Adobe는 서버에서 데이터를 삭제하지 않습니다.
 
-+++
+   +++
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 

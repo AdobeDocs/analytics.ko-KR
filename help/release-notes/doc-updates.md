@@ -73,7 +73,7 @@ ht-degree: 99%
 | 분류 세트에서 “소유자”와 관련된 문서를 제거했습니다. | [분류 세트 관리자](/help/components/classifications/sets/manage/set-manager.md)에서 “소유자” 필터 및 열이 제거되었으며 [분류 세트 설정](/help/components/classifications/sets/manage/settings.md)에서 “소유자” 필드가 제거되었습니다. <p>설명서가 업데이트되어 이 필터, 열 및 필드가 제거되었습니다.</p> |
 | 클라우드 가져오기 및 내보내기 위치 구성에 대한 문서에서 축소 가능한 섹션을 제거했습니다. | 클라우드 계정 유형을 설명하는 정보를 보기 위해 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에서 축소 가능한 섹션을 제거했습니다. |
 | **2024년 3월** | |
-| AppMeasurement 업데이트 | [](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
+| AppMeasurement 업데이트 | [&#128279;](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
 | “다음에서 사용” 열에 관한 사용량 정보는 2023년 9월부터의 자료만 제공됩니다. | [프로젝트 랜딩 페이지](/help/analyze/landing.md)의 **다음에서 사용** 열과 관련된 사용량 정보는 2023년 9월부터의 자료만 제공된다는 점을 명확히 했습니다. |
 | **2024년 2월** | |
 | Data Warehouse 요청 관리에 대한 내용 업데이트 | 기본적으로 사용자는 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md) 시에 직접 만든 요청만 볼 수 있음을 명시했습니다. |

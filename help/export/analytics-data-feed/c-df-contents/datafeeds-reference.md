@@ -39,7 +39,7 @@ ht-degree: 67%
 | **`browser_height`** | [브라우저 높이](/help/components/dimensions/browser-height.md) 차원입니다. | smallint 부호 없음 |
 | **`browser_width`** | [브라우저 너비](/help/components/dimensions/browser-width.md) | smallint 부호 없음 |
 | **`c_color`** | 색상 팔레트의 비트 심도입니다. [색상 심도](/help/components/dimensions/color-depth.md) 차원 계산의 일부로 사용됩니다. AppMeasurement는 JavaScript 함수 `screen.colorDepth()`를 사용합니다. | char (20) |
-| **`campaign`** | 추적 코드 차원(Tracking Code](/help/components/dimensions/tracking-code.md) dimension )입니다[. | varchar(255) |
+| **`campaign`** | 추적 코드 차원(Tracking Code[&#128279;](/help/components/dimensions/tracking-code.md) dimension )입니다. | varchar(255) |
 | **`carrier`** | Adobe Advertising 통합 변수입니다. 이동통신사를 지정합니다. `carrier.tsv`[동적 조회](dynamic-lookups.md)의 키 값입니다. | varchar(100) |
 | **`ch_hdr`** | HTTP 요청 헤더를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
 | **`ch_js`** | 사용자 에이전트 클라이언트 힌트 JavaScript API를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
@@ -64,7 +64,7 @@ ht-degree: 67%
 | **`dataprivacyconsentoptout`** | [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md) 차원. 히트 당 여러 값이 있을 수 있으며 파이프(`\|`)로 구분됩니다. 유효한 값은 `SSF`, `DMP`, `SELL`입니다. | varchar (100) |
 | **`dataprivacydmaconsent`** | Adobe Analytics에서 Adobe Advertising을 통해 서드파티 광고 공급자(Google 등)로 데이터를 전송하는 데 동의하는지 여부를 식별하는 값입니다. 자세한 내용은 [광고 동의](/help/components/dimensions/ad-consent.md)를 참조하십시오. | varchar (100) |
 | **`date_time`** | 보고서 세트의 시간대를 기반으로 한 읽을 수 있는 형식으로 된 히트 시간입니다. | datetime |
-| **`domain`** | 도메인 [](/help/components/dimensions/domain.md) 차원. 방문자의 인터넷 액세스 포인트를 기반으로 합니다. | varchar (100) |
+| **`domain`** | 도메인 [&#128279;](/help/components/dimensions/domain.md) 차원. 방문자의 인터넷 액세스 포인트를 기반으로 합니다. | varchar (100) |
 | **`duplicate_events`** | 중복으로 카운트된 각 이벤트를 나열합니다. | varchar (255) |
 | **`duplicate_purchase`** | 중복이라는 이유로 이 히트에 대한 구매 이벤트가 무시되는지 여부를 결정하는 플래그입니다. | tinyint 부호 없음 |
 | **`duplicated_from`** | 히트 복사 VISTA 규칙을 포함하는 보고서 세트에서만 사용됩니다. 히트가 복사된 보고서 세트를 나타냅니다. | varchar(40) |
@@ -231,7 +231,7 @@ ht-degree: 67%
 | **`videoqoeextneralerrors`** | 스트리밍 미디어 차원 [외부 오류 ID](/help/components/dimensions/sm-quality.md)입니다. 이 차원은 동일한 히트에서 여러 값을 허용합니다. | 텍스트 |
 | **`videoqoeplayersdkerrors`** | [플레이어 SDK 오류 ID](/help/components/dimensions/sm-quality.md) 스트리밍 미디어 차원. 이 차원은 동일한 히트 내에서 여러 값을 허용합니다. | 텍스트 |
 | **`videoqoetimetostartevar`** | 스트리밍 [미디어를 시작할](/help/components/dimensions/sm-quality.md) 시간 차원. | varchar(255) |
-| **`videoseason`** | 시즌 [](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 차원. | varchar(255) |
+| **`videoseason`** | 시즌 [&#128279;](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 차원. | varchar(255) |
 | **`videosegment`** | [콘텐츠 세그먼트](/help/components/dimensions/sm-core.md) 스트리밍 미디어 차원입니다. | varchar(255) |
 | **`videoshow`** | 스트리밍 미디어 차원 [표시](/help/components/dimensions/sm-video-metadata.md)입니다. | varchar(255) |
 | **`videoshowtype`** | [표시 유형](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |

@@ -36,7 +36,7 @@ t_classification_add_traffic.xml
 
 1. 세트 헤더에서 **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. 보고서 세트 선택.
-1. ****&#x200B;분류 유형 선택 필드에서 분류를 추가하려는 변수를 선택합니다.
+1. **&#x200B;**&#x200B;분류 유형 선택 필드에서 분류를 추가하려는 변수를 선택합니다.
 1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽]** > **[!UICONTROL 트래픽 분류]**&#x200B;를 클릭합니다.
 
    ![단계 정보](/help/admin/admin/assets/traffic-classification.png)

@@ -32,7 +32,7 @@ ht-degree: 13%
 
 [!UICONTROL 앱 보고서]를 사용하도록 설정하면 다음 차원을 사용할 수 있습니다.
 
-* [!UICONTROL 작업 이름]([시작](/help/components/dimensions/entry-dimensions.md) 및 [종료](/help/components/dimensions/exit-dimensions.md) 차원 포함)
+* [!UICONTROL 작업 이름] ([시작](/help/components/dimensions/entry-dimensions.md) 및 [종료](/help/components/dimensions/exit-dimensions.md) 차원 포함)
 * [!UICONTROL 앱 ID]
 * [!UICONTROL 획득 콘텐츠]
 * [!UICONTROL 획득 Medium]
@@ -71,10 +71,10 @@ ht-degree: 13%
 
 [!UICONTROL 위치 추적]을 사용하도록 설정하면 다음 차원을 사용할 수 있습니다.
 
-* [!UICONTROL 비콘 Major]([시작](/help/components/dimensions/entry-dimensions.md) 및 [종료](/help/components/dimensions/exit-dimensions.md) 차원 포함)
-* [!UICONTROL Beacon Minor]([Entry](/help/components/dimensions/entry-dimensions.md) 및 [Exit](/help/components/dimensions/exit-dimensions.md) 차원 포함)
-* [!UICONTROL 비콘 근접]([시작](/help/components/dimensions/entry-dimensions.md) 및 [종료](/help/components/dimensions/exit-dimensions.md) 차원 사용)
-* [!UICONTROL 비콘 UUID]([Entry](/help/components/dimensions/entry-dimensions.md) 및 [Exit](/help/components/dimensions/exit-dimensions.md) 차원 사용)
+* [!UICONTROL 비콘 Major] ([시작](/help/components/dimensions/entry-dimensions.md) 및 [종료](/help/components/dimensions/exit-dimensions.md) 차원 포함)
+* [!UICONTROL Beacon Minor] ([Entry](/help/components/dimensions/entry-dimensions.md) 및 [Exit](/help/components/dimensions/exit-dimensions.md) 차원 포함)
+* [!UICONTROL 비콘 근접] ([시작](/help/components/dimensions/entry-dimensions.md) 및 [종료](/help/components/dimensions/exit-dimensions.md) 차원 사용)
+* [!UICONTROL 비콘 UUID] ([Entry](/help/components/dimensions/entry-dimensions.md) 및 [Exit](/help/components/dimensions/exit-dimensions.md) 차원 사용)
 * [!UICONTROL 위치(10km까지)]
 * [!UICONTROL 위치(100m까지)]
 * [!UICONTROL 위치(1m까지)]
@@ -91,7 +91,7 @@ ht-degree: 13%
 
 [!UICONTROL 음성 및 챗봇]을 사용하도록 설정하면 다음 차원을 사용할 수 있습니다.
 
-* [!UICONTROL 음성 장치 기능]([시작](/help/components/dimensions/entry-dimensions.md) 및 [종료](/help/components/dimensions/exit-dimensions.md) 차원 사용)
+* [!UICONTROL 음성 장치 기능] ([시작](/help/components/dimensions/entry-dimensions.md) 및 [종료](/help/components/dimensions/exit-dimensions.md) 차원 사용)
 * [!UICONTROL 음성 인증]
 * [!UICONTROL 음성 오류 유형]
 * [!UICONTROL 음성 의도]

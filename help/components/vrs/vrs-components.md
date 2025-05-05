@@ -37,7 +37,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >**** 구성 요소 사용자 지정을 활성화한 경우 가상 보고서 세트는 Analysis Workspace에서만 액세스할 수 있고, 다음에서는 액세스할 수 없습니다.
+   >**&#x200B;** 구성 요소 사용자 지정을 활성화한 경우 가상 보고서 세트는 Analysis Workspace에서만 액세스할 수 있고, 다음에서는 액세스할 수 없습니다.
    >
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]

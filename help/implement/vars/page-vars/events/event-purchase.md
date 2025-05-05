@@ -65,8 +65,8 @@ ht-degree: 70%
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정](으)로 설정합니다.
-6. [!UICONTROL 이벤트] 섹션을 찾아 [!UICONTROL 이벤트] 드롭다운 목록을 [!UICONTROL 구매](으)로 설정합니다.
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정] (으)로 설정합니다.
+6. [!UICONTROL 이벤트] 섹션을 찾아 [!UICONTROL 이벤트] 드롭다운 목록을 [!UICONTROL 구매] (으)로 설정합니다.
 
 `products` 및 `purchaseID`과(와) 같은 다른 종속 변수에는 Adobe Experience Platform 데이터 수집 내의 Analytics 확장에 전용 필드가 없습니다. 이 변수에 대한 AppMeasurement 구문 이후에 사용자 지정 코드 편집기를 사용하십시오.
 

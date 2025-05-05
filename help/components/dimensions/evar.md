@@ -14,9 +14,9 @@ ht-degree: 82%
 
 *이 도움말 페이지에서는 eVar가 [차원](overview.md)으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)[!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다]. 자세한 내용은 [Dimension 개요](overview.md)를 참조하십시오.
+eVar는 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md) [!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다]. 자세한 내용은 [Dimension 개요](overview.md)를 참조하십시오.
 
-기본적으로 eVar는 설정된 히트 이후에 유지됩니다. eVar 지속성이 Adobe 아키텍처에서 작동하는 방식에 대한 자세한 내용은 아래 [eVar 작동 방식](#how-evars-work) 및 [eVar가 지표에 연결되는 방식](#how-evars-tie-to-metrics) 섹션을 참조하십시오. 보고서 세트 설정의 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)[!UICONTROL 에서 만료와 할당을 사용자 정의할 수 있습니다]. 다음 이미지는 전환 변수 인터페이스에 있는 eVar 정의의 예를 보여 줍니다.
+기본적으로 eVar는 설정된 히트 이후에 유지됩니다. eVar 지속성이 Adobe 아키텍처에서 작동하는 방식에 대한 자세한 내용은 아래 [eVar 작동 방식](#how-evars-work) 및 [eVar가 지표에 연결되는 방식](#how-evars-tie-to-metrics) 섹션을 참조하십시오. 보고서 세트 설정의 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) [!UICONTROL 에서 만료와 할당을 사용자 정의할 수 있습니다]. 다음 이미지는 전환 변수 인터페이스에 있는 eVar 정의의 예를 보여 줍니다.
 
 ![Evar 예](assets/evars-sample.png)
 

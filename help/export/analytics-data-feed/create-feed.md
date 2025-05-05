@@ -23,7 +23,7 @@ ht-degree: 53%
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단의 9제곱 아이콘을 선택한 다음 [!UICONTROL **Analytics**]&#x200B;을 선택합니다.
-1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**](으)로 이동합니다.
+1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**] (으)로 이동합니다.
 1. [!UICONTROL **추가**]&#x200B;를 선택합니다.
 
    ![데이터 피드 추가](assets/datafeed-add.png)
@@ -134,7 +134,7 @@ ht-degree: 53%
 
       1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md)에서 사용할 수 있습니다.
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -208,7 +208,7 @@ ht-degree: 53%
 
       1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md)에서 사용할 수 있습니다.
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -283,7 +283,7 @@ ht-degree: 53%
 
       1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md)에서 사용할 수 있습니다.
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -353,7 +353,7 @@ ht-degree: 53%
 
       1. (조건부) 방금 만든 대상(계정 및 위치)을 관리해야 하는 경우 [위치 관리자](/help/components/locations/locations-manager.md)에서 사용할 수 있습니다.
 
-+++
+   +++
 
 1. [!UICONTROL **데이터 열 정의**] 섹션에서 드롭다운 메뉴에서 최신 [!UICONTROL **모든 Adobe 열**] 템플릿을 선택한 후 다음 필드를 작성합니다.
 

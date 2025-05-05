@@ -68,7 +68,7 @@ Advertising Analytics은 Adobe Analytics 관리자만 사용할 수 있습니다
 
 +++ Advertising Analytics에 액세스하려면 어디로 이동합니까?
 
-Adobe Analytics에 로그인한 후 [!UICONTROL 관리자](으)로 이동합니다. 그런 다음 [!UICONTROL Advertising Analytics]을(를) 선택하여 검색 엔진 계정을 추가합니다.
+Adobe Analytics에 로그인한 후 [!UICONTROL 관리자] (으)로 이동합니다. 그런 다음 [!UICONTROL Advertising Analytics]을(를) 선택하여 검색 엔진 계정을 추가합니다.
 
 +++
 

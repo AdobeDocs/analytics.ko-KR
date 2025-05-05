@@ -49,7 +49,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에 포함�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정](으)로 설정합니다.
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정] (으)로 설정합니다.
 6. 각 이벤트에 [!UICONTROL 이벤트 ID] 필드가 포함된 [!UICONTROL 이벤트] 섹션을 찾습니다.
 
 유효한 값은 최대 20바이트 길이의 영숫자 문자입니다. 20바이트보다 긴 값을 입력하면 시스템이 처음 20바이트로 잘라냅니다.

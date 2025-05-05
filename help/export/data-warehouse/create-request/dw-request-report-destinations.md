@@ -93,7 +93,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -105,7 +105,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -121,7 +121,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -135,7 +135,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++이메일
 
@@ -151,7 +151,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
 1. [!UICONTROL **보고서 옵션**] 탭에서 Data Warehouse 요청을 계속 구성합니다. 자세한 내용은 [Data Warehouse 요청에 대한 보고서 옵션](/help/export/data-warehouse/create-request/dw-request-report-options.md)을 참조하십시오.
 

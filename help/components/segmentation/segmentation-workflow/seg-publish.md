@@ -55,7 +55,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 ## [!UICONTROL 세그먼트 빌더]에서 세그먼트 게시
 
 1. Adobe Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**(으)로 이동
-1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**를 선택하십시오.
+1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**&#x200B;를 선택하십시오.
    ![Experience Cloud 게시](assets/publish-ec.png)
 1. 세그먼트의 제목과 설명을 입력합니다. 저장하기 전에 이러한 필드가 필요합니다.
 1. **[!UICONTROL Experience Cloud Publish 게시]** 섹션에서 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시&#x200B;*하는 옵션(*보고서 세트용)]**&#x200B;을 선택합니다.

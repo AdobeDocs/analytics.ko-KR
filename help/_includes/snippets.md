@@ -14,7 +14,7 @@ ht-degree: 36%
 >간소화된 새 [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)이(가) 2024년 10월 16일에 릴리스되었습니다. Mac, Windows 및 웹 브라우저에서 지원됩니다.
 >이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [기존 통합 문서를 새 Report Builder으로 변환](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)할 수 있습니다.
 
-## Reports &amp; Analytics 서비스 종료 공지 {#ra-eol}
+## Reports & Analytics 서비스 종료 공지 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -109,7 +109,7 @@ ht-degree: 36%
 
 * **첫 번째 터치**&#x200B;와 **개인 전환 확인 기간**&#x200B;을 사용하는 기여도 분석은 세 번의 방문을 모두 봅니다. 유료 검색이 첫 번째였으며, 따라서 $50 구매에 대해 유료 검색이 100% 크레딧을 받습니다.
 
-* **선형** 및 **세션 전환 확인 기간**을 사용하면 크레딧이 전자 메일과 디스플레이 간에 나눠집니다. 이 두 채널 모두 각각 $25 크레딧을 받습니다.
+* **선형** 및 **세션 전환 확인 기간**&#x200B;을 사용하면 크레딧이 전자 메일과 디스플레이 간에 나눠집니다. 이 두 채널 모두 각각 $25 크레딧을 받습니다.
 **선형** 및 **개인 전환 확인 기간**&#x200B;을 사용하면 크레딧이 유료 검색, 소셜, 전자 메일 및 디스플레이 간에 나눠집니다. 각 채널은 이 구매에 대해 $12.50 크레딧을 받습니다.
 
 * **J자형**&#x200B;과(와) **개인 전환 확인 기간**&#x200B;을(를) 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다.

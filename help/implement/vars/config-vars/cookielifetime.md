@@ -29,7 +29,7 @@ AppMeasurement에서 설정하는 쿠키는 일반적으로 만료 기한이 2�
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1.  [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
 1. [!UICONTROL 쿠키] 아코디언을 확장합니다. 그러면 [!UICONTROL 쿠키 수명] 드롭다운 목록이 표시됩니다.
 
 이 드롭다운 목록에는 다음 값이 포함되어 있습니다.
@@ -37,7 +37,7 @@ AppMeasurement에서 설정하는 쿠키는 일반적으로 만료 기한이 2�
 * **기본값**: 쿠키가 2년 후 만료됩니다.
 * **없음**: AppMeasurement가 쿠키를 설정하지 않습니다.
 * **세션**: 쿠키가 방문자 세션이 끝날 때 만료됩니다.
-* **초**: 지정된 초 수가 경과하면 쿠키가 만료됩니다. 예를 들어 이 드롭다운 목록을 [!UICONTROL 초](으)로 설정하고 `86400`을(를) 사용자 지정 필드에 배치하면 쿠키가 정확히 24시간 후에 만료됩니다.
+* **초**: 지정된 초 수가 경과하면 쿠키가 만료됩니다. 예를 들어 이 드롭다운 목록을 [!UICONTROL 초] (으)로 설정하고 `86400`을(를) 사용자 지정 필드에 배치하면 쿠키가 정확히 24시간 후에 만료됩니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.cookieLifetime
 
