@@ -25,7 +25,7 @@ Adobe는 Edge Network로 데이터를 전송하는 세 가지 주요 방법을 �
 
 Adobe Experience Platform Edge Network로 전송된 데이터는 다음과 같이 두 가지 형식을 따를 수 있습니다.
 
-* XDM 오브젝트: [XDM(경험 데이터 모델)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) 기반 스키마를 따릅니다. XDM을 통해 이벤트의 일부로 정의된 필드를 유연하게 작업할 수 있습니다. 이벤트가 Adobe Analytics에 도달하면 Adobe Analytics가 처리할 수 있는 형식으로 변환됩니다.
+* XDM 오브젝트: [XDM(경험 데이터 모델)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko) 기반 스키마를 따릅니다. XDM을 통해 이벤트의 일부로 정의된 필드를 유연하게 작업할 수 있습니다. 이벤트가 Adobe Analytics에 도달하면 Adobe Analytics가 처리할 수 있는 형식으로 변환됩니다.
 * 데이터 오브젝트: Adobe Analytics에 매핑된 특정 필드를 사용하여 Edge Network에 데이터를 전송합니다. Edge Network는 이러한 필드의 존재를 감지하고 스키마를 준수할 필요 없이 Adobe Analytics에 전달합니다.
 
 Edge Network에서는 다음 논리를 사용하여 Adobe Analytics 페이지 보기 수 및 링크 이벤트를 결정합니다.
@@ -51,4 +51,4 @@ Edge Network에서는 다음 논리를 사용하여 Adobe Analytics 페이지 �
 
 {style="table-layout:auto"}
 
-자세한 내용은 [Adobe Analytics ExperienceEvent 전체 스키마 확장 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html)을 참조하십시오.
+자세한 내용은 [Adobe Analytics ExperienceEvent 전체 스키마 확장 필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=ko)을 참조하십시오.
