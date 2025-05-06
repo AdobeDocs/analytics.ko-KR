@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. 수집할 데이터를 사용자 정의하여 Analytics 데이터에서 더 많은 것을 얻을 수 있습니다.
-source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 구현 안내서 {#implementation}
 
 + [Adobe Analytics 구현](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement 릴리스 정보](appmeasurement-updates.md)
 + Analytics 변수, 함수 및 메서드 {#vars}
    + [개요](vars/overview.md)
@@ -150,8 +150,8 @@ ht-degree: 100%
       + [JavaScript를 사용한 새로운 구현](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + Mobile SDK {#mobile-sdk}
       + [Mobile SDK 개요](aep-edge/mobile-sdk/overview.md)
-   + 서버 API {#server-api}
-      + [서버 API 개요](aep-edge/server-api/overview.md)
+   + EDGE NETWORK API {#api}
+      + [Edge Network API 개요](aep-edge/api/overview.md)
 + Adobe Analytics 확장 기능을 사용하여 Analytics 구현 {#launch}
    + [태그 개요](launch/overview.md)
    + [Adobe Analytics 태그 속성 만들기](launch/create-analytics-property.md)

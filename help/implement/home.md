@@ -4,10 +4,10 @@ description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics�
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 94%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 Adobe Analytics를 서버측에 구현할 때에는 다음과 같은 옵션이 있습니다.
 
-* **Edge Server API**: Adobe Experience Platform Edge Server API를 사용하는 서버에 코드를 구현하여 데이터스트림을 통해 Adobe Analytics와 통신합니다.
+* **Edge Network API**: Adobe Experience Platform Edge Network API를 사용하여 데이터 스트림을 통해 Adobe Analytics과 통신하는 서버에 코드를 구현합니다.
   ![서버측 구현](assets/edge-network-server-api.svg)
-자세한 내용은 [Adobe Experience Platform Edge Network Server API를 사용하여 Adobe Analytics 구현](/help/implement/aep-edge/server-api/overview.md)을 참조하십시오.
+자세한 내용은 [Adobe Experience Platform Edge Network API를 사용하여 Adobe Analytics 구현](/help/implement/aep-edge/api/overview.md)을 참조하십시오.
 
 * **(일괄) 데이터 삽입 API**: Adobe Analytics (일괄) 데이터 삽입 API를 사용하여 서버측 데이터를 Adobe Analytics로 직접 수집합니다.
   ![데이터 삽입 API](assets/analytics-apis.png)
@@ -85,13 +85,13 @@ Adobe Analytics를 서버측에 구현할 때에는 다음과 같은 옵션이 �
 * [Adobe Debugger](validate/debugger.md)
 * [Experience Platform의 태그 속성 만들기](launch/create-analytics-property.md)
 * [AppMeasurement 업데이트](appmeasurement-updates.md)
-* [Platform Web SDK 튜토리얼을 사용하여 Adobe Analytics 설정](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=ko)
+* [Platform Web SDK 튜토리얼을 사용하여 Adobe Analytics 설정](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
 * [모바일 앱에서 Adobe Experience Cloud 구현 튜토리얼](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko-KR)
 
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://experienceleague.adobe.com/ko?support-solution=Analytics#support)
-* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko)
-* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ko)
+* [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [최신 릴리스 정보](../release-notes/latest.md)
