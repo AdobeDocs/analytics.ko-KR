@@ -4,14 +4,19 @@ title: 프로젝트 저장
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: c368ff6c4ac1636a4d1d910b9f1738ff8208fe0a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '749'
 ht-degree: 97%
 
 ---
 
-# 프로젝트 저장
+# 프로젝트 저장 {#save-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_addnotes"
+>title="메모 추가"
+>abstract="저장하는 프로젝트 버전에 대한 메모를 추가합니다. 이들 메모는 버전과 함께 저장되고 **[!UICONTROL 프로젝트]** > **[!UICONTROL 이전 버전 열기]** 메뉴에서 액세스할 수 있습니다."
 
 Analysis Workspace의 프로젝트는 2분마다 자동으로 저장됩니다.
 
@@ -94,5 +99,5 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 
 1. 사용 가능한 이전 버전 목록을 검토합니다.
    [!UICONTROL 편집기] 저장 시 [!UICONTROL 메모] 외에 [!UICONTROL 타임스탬프] 및 [!UICONTROL 편집기]가 추가되었다면 표시됩니다. 메모가 없는 버전은 90일간 저장되고, 메모가 포함된 버전은 1년간 저장됩니다.
-1. 이전 버전을 선택하고 **[!UICONTROL 로드]**&#x200B;를 클릭합니다.
+1. 이전 버전을 선택하고 **[!UICONTROL 로드]**를 클릭합니다.
 그러면 이전 버전은 알림과 함께 로드됩니다. 이전 버전은 **[!UICONTROL 저장]**&#x200B;을 클릭할 때까지는 현재 저장된 프로젝트 버전이 되지 않습니다. 로드된 버전에서 빠져 나온 다음 다시 돌아가는 경우 마지막으로 저장된 프로젝트 버전이 표시됩니다.

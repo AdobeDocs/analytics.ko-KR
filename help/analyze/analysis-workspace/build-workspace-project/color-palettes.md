@@ -4,14 +4,19 @@ title: 시각화 색상 팔레트란 무엇이며 어떻게 작동합니까?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 434b296825806616288127bb2d3e73e1f9531f95
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '238'
 ht-degree: 88%
 
 ---
 
-# 시각화 색상 팔레트
+# 시각화 색상 팔레트 {#visualization-color-palettes}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_colorpalette"
+>title="프로젝트 색상 팔레트"
+>abstract="이 프로젝트에 사용된 색상 팔레트를 변경합니다."
 
 다른 색상 팔레트에서 선택하거나 기업의 브랜드 색상을 일치시킬 수 있는 사용자가 보유한 팔레트를 지정하여 작업 영역에서 사용되는 시각화 색상 팔레트를 변경할 수 있습니다. 이 기능은 작업 영역의 대부분의 시각화에 영향을 주지만 [!UICONTROL 요약 변경 사항], [!UICONTROL 자유 형식] 테이블의 조건부 서식 설정, [!UICONTROL 맵] 시각화에는 영향을 미치지 **않습니다**.
 
@@ -32,7 +37,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [사용자 지정 색상 팔레트 사용](https://video.tv.adobe.com/v/30909?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [사용자 지정 색상 팔레트 사용](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

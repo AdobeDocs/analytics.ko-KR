@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 및 프로젝트 환경은 물론 어두
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
-source-wordcount: '3122'
-ht-degree: 99%
+source-wordcount: '3361'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/3429994/?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,22 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 일반 환경 설정�
 | 팁 표시 | Analysis Workspace 오른쪽 아래 영역의 파란색 상자에 팁을 표시합니다. <p>이 옵션은 기본적으로 활성화되어 있습니다.</p> |
 | 왼쪽 레일 그룹에 표시되는 구성 요소 | 왼쪽 레일의 구성 요소 메뉴에 표시할 각 구성 요소의 수를 선택합니다. <p>0을 선택하는 경우 Workspace의 왼쪽 레일에서 구성 요소에 더 이상 액세스할 수 없습니다.</p><p>기본적으로 다음 각 항목에 대해 5개의 구성 요소가 표시됩니다.</p> <ul><li>차원</li><li>지표</li><li>필터</li><li>날짜 범위</li></ul> <p>Analysis Workspace의 구성 요소에 대한 자세한 내용은 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)를 참조하십시오.</p> |
 
-## 회사 환경 설정
+## 회사 환경 설정 {#company-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_shareonlyworkspace"
+>title="Workspace 사용자와의 공유만 허용"
+>abstract="활성화되면 Analysis Workspace 프로젝트를 공유할 때 사용자가 **[!UICONTROL 모두와 공유]** 옵션을 더 이상 사용할 수 없습니다. 이전에 이 공유 옵션을 통해 프로젝트 액세스 권한을 부여받은 사람들이 더 이상 프로젝트에 액세스할 수 없습니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_requireexperiencecloudauth"
+>title="Experience Cloud 인증 필요"
+>abstract="활성화되면 Analysis Workspace의 **[!UICONTROL 누구와도 공유]** 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 Experience Cloud 자격 증명을 사용하여 인증해야 합니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_projectcommenting"
+>title="프로젝트에서 댓글 달기 허용"
+>abstract="이 기능을 활성화하면 Analysis Workspace의 각 프로젝트 오른쪽 레일에 댓글 영역이 제공됩니다."
 
 조직 내의 모든 사용자 및 프로젝트에 적용되는 회사 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
@@ -61,11 +76,26 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 일반 환경 설정�
 |  | 보고서 탭 숨기기 | 조직의 모든 사용자에 대해 보고서 탭을 숨깁니다. |
 | **프로젝트 공유** | | |
 | | Workspace 사용자와의 공유만 허용 | <p>이 옵션이 활성화되면 공유 메뉴에서 조직의 사용자에게 “모두와 공유” 옵션이 표시되지 않습니다. 즉, [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 사용자는 조직에서 Analysis Workspace 계정이 없는 사람과 프로젝트를 공유할 수 없습니다.</p><p>이 옵션을 활성화하거나 비활성화할 때 다음 사항을 고려하십시오.</p> <ul><li><p>이 옵션을 활성화하면 이전에 “모두와 공유” 공유 옵션을 통해 프로젝트 액세스 권한을 부여받은 사람들이 더 이상 프로젝트에 액세스할 수 없습니다.</p></li><li><p>이 옵션을 활성화(Workspace 사용자와만 공유 허용)한 다음 나중에 비활성화(모두와 공유 허용)하더라도 이전에 “모두와 공유” 공유 옵션을 통해 프로젝트 액세스 권한을 부여받았던 사용자의 프로젝트 액세스 권한이 자동으로 회복되지 않습니다. 이 경우 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 프로젝트를 공유한 사용자가 모두와 프로젝트를 공유([!UICONTROL **공유**] > [!UICONTROL **모두와 공유**])할 때 사용할 수 있는 [!UICONTROL **링크 활성화됨**] 옵션을 활성화해야 합니다.</p></li> |
-| | Experience Cloud 인증 필요 | <p>활성화되면 Analysis Workspace의 “모두와 공유” 옵션으로 프로젝트 액세스 권한을 부여받은 사용자는 자신의 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.</p> <p>이 옵션이 활성화되면 사용자가 “모두와 공유” 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 “Experience Cloud 인증 필요” 옵션이 활성화되며, 프로젝트를 공유하는 사용자가 이를 비활성화할 수 없습니다. (사용자가 모두와 프로젝트를 공유할 수 있는 방법에 대한 내용은 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)을 참조하십시오.)</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 이전에 “모두와 공유” 공유 옵션으로 공유되었고 “Experience Cloud 인증 필요” 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.</p></li> <li><p>이 옵션을 활성화(Experience Cloud 인증 요구)한 다음 나중에 비활성화(링크가 있는 모두가 프로젝트에 액세스할 수 있도록 허용)하더라도 이전에 “모두와 공유” 공유 옵션으로 프로젝트 액세스 권한을 부여받은 사용자의 프로젝트 액세스 권한이 자동으로 회복되지 않습니다. 이 경우 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 프로젝트를 공유한 사용자가 모두와 프로젝트를 공유할 때 사용할 수 있는 “링크 활성화됨” 옵션을 활성화해야 합니다([!UICONTROL **공유**] > [!UICONTROL **모두와 공유**] > [!UICONTROL **링크 활성화됨**]).</p></li> <li><p>이 옵션은 조직에 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}을 참조하십시오.</p><p>조직에 SSO가 구성된 경우 콘솔에 자동 계정 만들기가 구현되어 있는지 확인하십시오. 일반적으로 시스템 관리자는 [자동 계정 만들기 활성화](https://helpx.adobe.com/kr/enterprise/using/automatic-account-creation.html){target=_blank}에 설명된 대로 이를 설정합니다.</p></li><li><p>조직이 HIPAA 준수를 요구하는 산업에 종사하는 경우 이 옵션이 자동으로 활성화되며 비활성화할 수 없습니다.</p></li></ul> |
+| | Experience Cloud 인증 필요 | <p>활성화되면 Analysis Workspace의 “모두와 공유” 옵션으로 프로젝트 액세스 권한을 부여받은 사용자는 자신의 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.</p> <p>이 옵션이 활성화되면 사용자가 “모두와 공유” 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 “Experience Cloud 인증 필요” 옵션이 활성화되며, 프로젝트를 공유하는 사용자가 이를 비활성화할 수 없습니다. (사용자가 모두와 프로젝트를 공유할 수 있는 방법에 대한 내용은 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)을 참조하십시오.)</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 이전에 “모두와 공유” 공유 옵션으로 공유되었고 “Experience Cloud 인증 필요” 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.</p></li> <li><p>이 옵션을 활성화(Experience Cloud 인증 요구)한 다음 나중에 비활성화(링크가 있는 모두가 프로젝트에 액세스할 수 있도록 허용)하더라도 이전에 “모두와 공유” 공유 옵션으로 프로젝트 액세스 권한을 부여받은 사용자의 프로젝트 액세스 권한이 자동으로 회복되지 않습니다. 이 경우 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)에 설명된 대로 프로젝트를 공유한 사용자가 모두와 프로젝트를 공유할 때 사용할 수 있는 “링크 활성화됨” 옵션을 활성화해야 합니다([!UICONTROL **공유**] > [!UICONTROL **모두와 공유**] > [!UICONTROL **링크 활성화됨**]).</p></li> <li><p>이 옵션은 조직에 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}을 참조하십시오.</p><p>조직에 SSO가 구성된 경우 콘솔에 자동 계정 만들기가 구현되어 있는지 확인합니다. 일반적으로 시스템 관리자는 [자동 계정 만들기 활성화](https://helpx.adobe.com/kr/enterprise/using/automatic-account-creation.html){target=_blank}에 설명된 대로 이를 설정합니다.</p></li><li><p>조직이 HIPAA 준수를 요구하는 산업에 종사하는 경우 이 옵션이 자동으로 활성화되며 비활성화할 수 없습니다.</p></li></ul> |
 
 {style="table-layout:auto"}
 
-## 프로젝트 및 분석 환경 설정
+## 프로젝트 및 분석 환경 설정 {#project-analyses-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_categoricalpalette"
+>title="카테고리형 팔레트"
+>abstract="Analysis Workspace 및 가이드 분석의 많은 시각화에 적용됩니다. 각 색상은 고유한 카테고리형 값을 나타냅니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_divergingpalette"
+>title="분기형 팔레트"
+>abstract="Analysis Workspace 및 사용자 증가 가이드 분석의 코호트 테이블에 적용됩니다. 이 팔레트는 양 극단과 중간의 기준선을 사용하여 숫자로 표시합니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_sequentialpalette"
+>title="순차적 팔레트"
+>abstract="빈도 트렌드(누적 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝은 색상에서 어두운 색상까지 숫자로 표시합니다."
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
@@ -87,7 +117,24 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 |  | CSV 구분자 | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
 |  | 주석 표시 | 프로젝트에 주석을 표시할지 여부를 선택합니다. 주석에 대한 자세한 내용은 [주석 개요](/help/analyze/analysis-workspace/components/annotations/overview.md)를 참조하십시오. |
 
-## 자유 형식 테이블 환경 설정
+## 자유 형식 테이블 환경 설정 {#freeform-table-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showanomalies"
+>title="예외 항목 표시"
+>abstract="**[!UICONTROL 예외 항목 표시]**&#x200B;를 선택하면 시계열 자유 형식 테이블 시각화에 추가된 첫 번째 지표 열에서 예외 항목 탐지가 자동으로 실행됩니다."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showforecast"
+>title="예측 표시"
+>abstract="**[!UICONTROL 예측 표시]**&#x200B;를 선택하면 시계열 자유 형식 테이블 시각화에 추가된 첫 번째 지표 열이 자동으로 예측됩니다."
+
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="기본 테이블 지표"
+>abstract="자유 형식 테이블에 사용할 기본 지표를 선택하십시오. 선택한 데이터 보기에 선택한 기본 지표가 포함되어 있지 않으면 테이블은 자동으로 다른 기본 지표로 전환합니다."
+
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이블 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
@@ -132,7 +179,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 백분율 | 모든 시각화 값을 백분율로 표시합니다. |
 | | 범례 표시 | 모든 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | | 최대 항목 수 제한 | 모든 시각화에 대한 X축의 항목 수를 줄입니다. 대규모 데이터 세트가 있는 경우 유용할 수 있습니다. |
-| | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
+| | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 Y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | 표준화 (해당되는 경우) | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
 | | 예외 항목으로 Y축의 크기 조절 | 차트에 여러 개의 지표가 있을 경우에는 사용자는 마우스를 각 예외 항목의 위에 놓아 해당 지표에 대한 신뢰 대역을 확인해야 합니다. 예외 항목 탐지 신뢰 구간은 시각화를 읽기 쉽게 만들기 위해 Y축 크기를 자동으로 조절하지 않습니다. 이 옵션을 통해 신뢰 구간에서 시각화 크기를 조절할 수 있습니다. <p>자세한 내용은 [Analysis Workspace에서 예외 항목 보기](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)를 참조하십시오.</p> |
@@ -140,7 +187,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 백분율 | 라인 시각화 값을 백분율로 표시합니다. |
 | | 범례 표시 | 라인 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | | 최대 항목 수 제한 | 라인 시각화에서 X축의 항목 수를 줄입니다. 대규모 데이터 세트가 있는 경우 유용할 수 있습니다. |
-| | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
+| | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 Y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | 표준화 (해당되는 경우) | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | X축 표시 | 선 차트에 X축을 표시합니다. |
 | | Y축 표시 | 선 차트에 Y축을 표시합니다. |
