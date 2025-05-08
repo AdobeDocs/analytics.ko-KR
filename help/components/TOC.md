@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # [!DNL Adobe Analytics] 구성 요소 안내서 {#components}
 
 + [Analytics Components 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 차원 {#dimensions}
    + [차원 개요](dimensions/overview.md)
    + [차원 호환성](dimensions/compatibility.md)
@@ -53,7 +53,7 @@ ht-degree: 100%
    + [다운로드 링크](dimensions/download-link.md)
    + [시작 차원](dimensions/entry-dimensions.md)
    + [eVar](dimensions/evar.md)
-   + [eVar(머천다이징)](dimensions/evar-merchandising.md)
+   + [eVar (머천다이징)](dimensions/evar-merchandising.md)
    + [종료 차원](dimensions/exit-dimensions.md)
    + [종료 링크](dimensions/exit-link.md)
    + [첫 번째 터치 채널](dimensions/first-touch-channel.md)
@@ -174,12 +174,12 @@ ht-degree: 100%
    + [음성 지표](metrics/voice-metrics.md)
    + [Experience Cloud ID를 가진 방문자](metrics/visitors-with-ecid.md)
    + [방문 횟수](metrics/visits.md)
-+ 세분화 {#segmentation}
++ 세그먼테이션 {#segmentation}
    + [Analytics 세분화](segmentation/seg-home.md)
    + [세그먼트 정보](segmentation/seg-overview.md)
    + [세그먼트 컨테이너 정보](segmentation/seg-containers.md)
    + [Analysis Workspace의 세분화 기능](segmentation/segmentation-in-analysis-workspace.md)
-   + 세분화 워크플로 {#segmentation-workflow}
+   + 세그먼테이션 워크플로 {#segmentation-workflow}
       + [세분화 워크플로 개요](segmentation/segmentation-workflow/seg-workflow.md)
       + [계획 세그먼트](segmentation/segmentation-workflow/seg-plan.md)
       + [세그먼트 작성](segmentation/segmentation-workflow/seg-build.md)
@@ -238,12 +238,12 @@ ht-degree: 100%
    + [A4T 고려 사항](vrs/vrs-a4t.md)
    + [가상 보고서 세트 FAQ](vrs/vrs-faq.md)
    + [가상 보고서 세트 및 글로벌/다중 세트 태그 지정 고려 사항](vrs/vrs-considerations.md)
-   + 가상 보고서 세트 작업 워크플로 {#vrs-workflow}
+   + 가상 보고서 세트 워크플로 {#vrs-workflow}
       + [가상 보고서 세트 워크플로](vrs/c-workflow-vrs/vrs-workflow.md)
       + [가상 보고서 세트 만들기](vrs/c-workflow-vrs/vrs-create.md)
       + [가상 보고서 세트 관리](vrs/c-workflow-vrs/vrs-manage.md)
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
-+ 크로스 디바이스 분석 {#cda}
++ Cross-Device Analytics {#cda}
    + [크로스 디바이스 분석 개요](cda/overview.md)
    + [필드 기반 결합](cda/field-based-stitching.md)
    + [디바이스 그래프](cda/device-graph.md)
@@ -258,9 +258,9 @@ ht-degree: 100%
    + [관리](c-alerts/alert-manager.md)
    + [사용 사례](c-alerts/alerts-use-cases.md)
 + 분류 {#classifications}
-   + [분류 개요](classifications/c-classifications.md)
+   + [분류 개요](classifications/classifications-overview.md)
    + 분류 설정 {#sets}
-      + [분류 세트 개요](classifications/sets/overview.md)
+      + [개요](classifications/sets/overview.md)
       + 분류 세트 관리 {#manage}
          + [분류 세트 관리자](classifications/sets/manage/set-manager.md)
          + [분류 세트 만들기](classifications/sets/manage/create.md)
@@ -269,30 +269,27 @@ ht-degree: 100%
          + [분류 세트 규칙](classifications/sets/manage/rules.md)
       + [분류 세트 작업 관리자](classifications/sets/job-manager.md)
       + 분류 세트 통합 {#consolidations}
-         + [분류 세트 통합 관리자](classifications/sets/consolidations/manage.md)
-         + [분류 세트 통합 프로세스](classifications/sets/consolidations/process.md)
-   + 분류 규칙 빌더 {#classifications-rulebuilder}
-      + [분류 규칙 빌더 워크플로](classifications/crb/classification-rule-builder.md)
+         + [통합 관리자](classifications/sets/consolidations/manage.md)
+         + [통합 프로세스](classifications/sets/consolidations/process.md)
+   + 분류 규칙 빌더(이전){#classifications-rulebuilder}
+      + [개요](classifications/crb/classification-rule-builder.md)
       + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
       + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
-      + [분류 규칙 - 정의](classifications/crb/classification-rule-definitions.md)
-      + [하위 분류 및 규칙 빌더](classifications/crb/sub-classification-rule-builder.md)
-   + 분류 임포터 {#classifications-importer}
-      + [분류 가져오기 도구 - 개요](classifications/importer/c-working-with-saint.md)
+      + [분류 규칙 정의](classifications/crb/classification-rule-definitions.md)
+      + [하위 분류 및 규칙 빌더](classifications/crb/subclassification-rule-builder.md)
+   + 분류 가져오기 도구(이전){#classifications-importer}
+      + [분류 가져오기 개요](classifications/importer/c-working-with-saint.md)
       + [분류 데이터 파일](classifications/importer/c-saint-data-files.md)
       + [분류 데이터 삭제](classifications/importer/t-delete-classification-data.md)
-      + [분류 데이터 이스케이프 처리](classifications/importer/t-classifications-escape-data.md)
-      + [분류되지 않는 키](classifications/importer/nonclassified-keys.md)
       + [분류 템플릿](classifications/importer/c-download-saint-data.md)
-      + [브라우저 및 FTP 가져오기](classifications/importer/import-file.md)
       + [브라우저 가져오기](classifications/importer/browser-import.md)
       + [브라우저 내보내기](classifications/importer/browser-export.md)
       + [FTP 가져오기](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP 내보내기](classifications/importer/ftp-export.md)
       + [처리 시간](classifications/importer/processing-time.md)
+      + [하위 분류](classifications/importer/subclassifications.md)
       + [문제 해결](classifications/importer/troubleshooting.md)
-   + [하위 분류](classifications/c-sub-classifications.md)
-   + [분류 FAQ](classifications/faq.md)
+      + [FAQ](classifications/importer/importer-faq.md)
 + 위치 {#locations}
    + [위치 관리자](/help/components/locations/locations-manager.md)
    + [클라우드 가져오기 계정](/help/components/locations/configure-import-accounts.md)

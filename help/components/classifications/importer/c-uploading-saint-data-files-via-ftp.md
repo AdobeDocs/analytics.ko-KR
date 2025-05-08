@@ -3,18 +3,18 @@ description: FTP를 통해 데이터 파일을 업로드하는 방법.
 title: FTP 가져오기
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '725'
 ht-degree: 90%
 
 ---
 
-# FTP 가져오기
+# FTP 가져오기(이전)
 
 >[!IMPORTANT]
 >
->이 페이지에 설명된 대로 가져오기에 FTP를 더 이상 사용하지 않는 것이 좋습니다.
+>Adobe에서는 이 페이지에 설명된 대로 FTP를 사용하여 가져오기를 더 이상 권장하지 않습니다.
 >
 >FTP는 파일을 공유하는 암호화되지 않은 방법이므로 권장하지 않습니다. 즉, 계정에 사용되는 사용자 이름과 암호뿐만 아니라 파일 내용을 누구든지 가로챌 수 있습니다.
 >

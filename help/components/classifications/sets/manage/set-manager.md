@@ -3,7 +3,7 @@ title: 분류 세트 관리자
 description: Adobe Analytics에서 분류 세트를 관리합니다.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 7%
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 분류 세트 관리자에서 다음 열을 사용할 수 있습니다.
 
-* **[!UICONTROL 분류 세트]**: 분류 세트 이름입니다. 분류 집합 이름 [설정을 편집](settings.md)합니다.
+* **[!UICONTROL 분류 세트]**: 분류 세트 이름입니다. 분류 세트 이름을 클릭하면 해당 [설정](settings.md)이 편집됩니다.
 * **[!UICONTROL 구독]**: 이 분류 세트가 적용되는 구독 수입니다.
 * **[!UICONTROL Classifications]**: 분류 세트에 포함된 분류 차원의 수입니다.
 * **[!UICONTROL 자동화된]**: 클라우드 위치에서 데이터를 자동으로 가져오도록 분류 집합이 구성되어 있는지 확인합니다. 분류 세트의 [스키마](schema.md)에서 자동화를 구성할 수 있습니다.

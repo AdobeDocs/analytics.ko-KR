@@ -3,7 +3,7 @@ title: Adobe Analytics의 데이터 처리 순서
 description: Adobe Analytics에서 데이터를 처리하는 구성 요소 순서 및 서비스에 대해 알아봅니다.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 91%
@@ -21,10 +21,10 @@ Adobe는 보고에 표시되기 전에 데이터를 변경하거나 조작할 �
 데이터가 Adobe로 전송되기 전에 일반적으로 다음 방법 중 하나를 사용하여 클라이언트측에서 컴파일됩니다.
 
 * **AppMeasurement**: 사이트에서 호스팅되고 각 페이지에서 참조되는 JavaScript 파일. 데이터는 Adobe Analytics로 직접 전송됩니다.
-* **Adobe Experience Platform Web SDK**: 사이트에서 호스팅되고 각 페이지에서 참조되는 JavaScript 파일. 데이터가 Adobe Experience Platform Edge Network으로 전송됩니다.
+* **Adobe Experience Platform Web SDK**: 사이트에서 호스팅되고 각 페이지에서 참조되는 JavaScript 파일. 데이터는 Adobe Experience Platform Edge Network으로 전송됩니다.
 * **Adobe Experience Cloud Data Collection의 태그**: 각 페이지에서 참조되는 JavaScript 파일로, 데이터 수집 UI 내에서 생성된 규칙이 포함되어 있습니다. Adobe Analytics 확장을 사용하면 AppMeasurement를 보다 쉽게 구현할 수 있습니다. Web SDK 확장을 사용하면 Web SDK를 보다 쉽게 구현할 수 있습니다.
 
-데이터를 Edge Network에 전송하는 경우 Adobe Analytics(및 기타 많은 Adobe Experience Cloud 솔루션)에 데이터를 전송하도록 구성할 수 있습니다. 구현 방법에 관계없이 최종적으로 필요한 변수를 포함한 이미지 요청이 Adobe 데이터 수집 서버로 전송됩니다.
+Edge Network으로 데이터를 전송하는 경우 Adobe Analytics(및 기타 많은 Adobe Experience Cloud 솔루션)로 데이터를 전송하도록 구성할 수 있습니다. 구현 방법에 관계없이 최종적으로 필요한 변수를 포함한 이미지 요청이 Adobe 데이터 수집 서버로 전송됩니다.
 
 ## Adobe Analytics 데이터 수집 서버로 전송되는 데이터
 
@@ -47,5 +47,5 @@ Adobe Analytics의 데이터는 대부분 영구적이지만 선택적으로 데
 
 * [**데이터 복구 API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): 특정 열을 편집하거나 원하는 데이터 행을 삭제합니다.
 * [**데이터 거버넌스**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md): 데이터를 영구적으로 삭제할 수 있도록 개인정보 보호 요청을 수용합니다.
-* [**분류**](/help/components/classifications/c-classifications.md): 다양한 방식으로 데이터를 구성할 수 있는 규칙이나 업로드된 데이터를 기반으로 차원을 만듭니다. 기본 보고서 세트 데이터는 변경되지 않으므로 분류 데이터를 자유롭게 편집하거나 덮어쓸 수 있습니다.
+* [**분류**](/help/components/classifications/classifications-overview.md): 다양한 방식으로 데이터를 구성할 수 있는 규칙이나 업로드된 데이터를 기반으로 차원을 만듭니다. 기본 보고서 세트 데이터는 변경되지 않으므로 분류 데이터를 자유롭게 편집하거나 덮어쓸 수 있습니다.
 * [**가상 보고서 세트**](/help/components/vrs/vrs-about.md): 방문 시간 초과를 변경하거나 [크로스 디바이스 분석](/help/components/cda/overview.md)을 허용할 수 있는 대체 보고서 세트 보기를 만듭니다.

@@ -3,10 +3,10 @@ description: 분류 데이터를 삭제하거나 제거하는 방법을 설명�
 title: 분류 데이터 삭제
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 96%
 
 ---
 
@@ -55,5 +55,5 @@ ht-degree: 100%
 * `~deletekey~`를 사용하는 경우 분류 파일에 행당 하나만 있으면 됩니다.
 * `~empty~`와 `~deletekey~`가 *정확히* 일치해야 합니다. 공백이나 대문자는 사용할 수 없습니다.
 * 키 열 내의 값은 삭제할 수 없습니다. 이러한 값은 변수에 직접 전달되고 영구적입니다.
-* 하위 분류가 있는 분류 값을 제거하는 경우 해당 하위 분류도 함께 제거됩니다. 분류는 키 값 없이 존재할 수 없으며 하위 분류의 상위는 하위 분류의 키 값입니다.
+* 하위 분류가 있는 분류 값을 제거하면 해당 하위 분류도 제거됩니다. 분류는 키 값 없이 존재할 수 없으며 하위 분류의 상위는 하위 분류의 키 값입니다.
 * 상위 분류를 온전한 상태로 두고 하위 분류를 제거할 수 있습니다.

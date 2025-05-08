@@ -3,7 +3,7 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -33,7 +33,7 @@ ht-degree: 89%
 * **채널:** 다음을 의미할 수 있습니다.
    * 사이트 섹션 차원을 채우는 채널 변수. 구현 사용 안내서에서 [페이지 변수](/help/implement/vars/page-vars/page-variables.md)를 참조하십시오.
    * 사용자가 사이트에 도착하는 방법을 이해하는 데 도움이 되는 구성 요소인 마케팅 채널. 구성 요소 사용 안내서에서 [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)을 참조하십시오.
-* **분류:** 차원 항목을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 요소 사용 안내서에서 [분류](/help/components/classifications/c-classifications.md)를 참조하십시오.
+* **분류:** 차원 항목을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 요소 사용 안내서에서 [분류](/help/components/classifications/classifications-overview.md)를 참조하십시오.
 * **Clickmap:** 더 이상 사용하지 않습니다. 사이트에서 가장 많이 클릭한 영역을 표시하는 기존 브라우저 플러그인입니다. 이 도구는 Activity Map을 위해 사용이 중단되었습니다.
 * **클릭스트림 데이터 피드:** 데이터 피드를 참조하십시오.
 * **집단:** 주어진 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 분석 사용 안내서에서 [집단 분석이란?Analytics 도구 안내서의 ](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md).
@@ -67,7 +67,7 @@ ht-degree: 89%
    * 사용자 정의 트래픽 변수의 이전 이름인 사용자 정의 인사이트.
 * **KPI:** 주요 성능 표시기의 약어입니다. 비즈니스가 사이트에서 수행하는 방식을 이해하는 데 도움이 되는 지표입니다. 각 조직에는 비즈니스의 서로 다른 측면을 측정하는 다른 KPI가 있습니다. 구현 사용 안내서에서 [솔루션 디자인 문서 만들기](/help/implement/prepare/solution-design.md)를 참조하십시오.
 * **지연:** 데이터가 수집되는 시간과 보고서에서 사용할 수 있는 시간 사이의 대기 시간입니다. 보고서 세트의 일반적인 지연 시간은 30~90분입니다. 기술 정보 사용 안내서에서 [지연](/help/technotes/latency.md)을 참조하십시오.
-* **Launch:** 더 이상 사용하지 않는 용어입니다. Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 태그에 대한 구 축약 명칭입니다. Adobe Experience Platform 사용 안내서의 [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 참조하십시오.
+* **Launch:** 더 이상 사용하지 않는 용어입니다. Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 태그에 대한 구 축약 명칭입니다. Adobe Experience Platform 사용 안내서의 [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 참조하십시오.
 * **목록 속성:** 일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 이 설정이 활성화되면 모든 사용자 정의 트래픽 변수가 목록 속성이 될 수 있습니다. 구현 사용 안내서에서 [속성](../implement/vars/page-vars/prop.md)을 참조하십시오.
 * **목록 변수:** 전환 변수와 별도의 고유한 변수입니다. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 변수 값은 전환 변수와 마찬가지로 방문 시 보존됩니다. 조직에서는 목록 변수를 세 개만 사용할 수 있습니다. 구현 사용 안내서에서 [목록](/help/implement/vars/page-vars/list.md)을 참조하십시오.
 * **로그인 회사:** 조직에서 사용한 보고서 세트들의 모음입니다. 일부 조직에는 조직의 여러 부분에 해당되는 여러 로그인 회사가 있습니다.
@@ -91,7 +91,7 @@ ht-degree: 89%
 * **실시간:** 지연이 거의 없는 상태로 구성된 변수를 수집하는 즉시 표시합니다. 관리 사용 안내서에서 [실시간 보고서](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)를 참조하십시오.
 * **Report Builder:** Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md) 추가 기능을 사용하여 Adobe Analytics 데이터에서 사용자 지정 요청을 작성할 수 있습니다.
 * **보고서 세트:** 데이터를 보내는 중요한 컨테이너입니다. Adobe Analytics의 모든 보고서는 보고서 세트를 참조합니다.
-* **Reports &amp; Analytics:** 이 도구는 [사용 중지](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ko)되었습니다.
+* **Reports &amp; Analytics:** 이 도구는 [사용 중지](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)되었습니다.
 * **롤링 날짜 범위:** 시간이 경과함에 따라 변경되는 상대적 날짜 범위의 유형입니다. 예를 들어 최근 7일을 보여 주는 보고서를 롤링 날짜 범위로 간주할 수 있습니다. 정적 날짜 범위도 참조하십시오.
 * **RSID:** 보고서 세트 ID의 약어입니다. 보고서 세트에는 친숙한 이름과 보고서 세트 ID가 모두 있습니다.
 * **s.t ():** 페이지 조회수 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()`을 대신 사용합니다. 구현 사용 안내서에서 [t](../implement/vars/functions/t-method.md)를 참조하십시오.

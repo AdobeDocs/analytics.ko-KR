@@ -3,10 +3,10 @@ description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 78%
+source-wordcount: '283'
+ht-degree: 77%
 
 ---
 
@@ -46,8 +46,6 @@ ht-degree: 78%
    >[!NOTE]
    >
    >현재 Adobe에서는 각 차원에 대해 다른 분류가 선택되어 있더라도 하나의 실시간 보고서에 대해 중복 차원 활성화를 지원하지 않습니다.
-
-   분류에 대한 자세한 내용은 [분류에 대하여](/help/components/classifications/c-classifications.md)를 참조하십시오.
 
    >[!NOTE]
    >

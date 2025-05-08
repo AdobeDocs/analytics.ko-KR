@@ -4,7 +4,7 @@ description: JavaScript 구현 문제 해결을 위한 일반적인 문제 및 �
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -110,4 +110,4 @@ prop2의 값을 eVar1로 덮어쓰기<br>
   s.prop2 = "D=v1";
   ```
 
-* **분류 사용**: 제품이나 페이지 이름이 비정상적으로 길면 식별 값이나 코드를 사용한 후 [분류](/help/components/classifications/c-classifications.md)를 사용하여 더 친숙한 이름을 표시할 수 있습니다.
+* **분류 사용**: 제품이나 페이지 이름이 비정상적으로 길면 식별 값이나 코드를 사용한 후 [분류](/help/components/classifications/classifications-overview.md)를 사용하여 더 친숙한 이름을 표시할 수 있습니다.

@@ -4,10 +4,10 @@ title: 전환 분류
 feature: Classifications
 role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 96%
 
 ---
 
@@ -18,8 +18,6 @@ ht-degree: 93%
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 전환 분류]**
 
 전환 분류를 사용하면 전환 변수를 분류할 수 있습니다. 한 번 분류하면 키 데이터를 사용하여 생성할 수 있는 어떤 보고서도 관련 데이터 속성을 사용하여 생성할 수 있습니다.
-
-분류를 사용하도록 설정한 후 [분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md)를 사용하여 해당 분류에 특정 값을 지정하십시오.
 
 >[!WARNING]
 >
@@ -46,9 +44,6 @@ ht-degree: 93%
    ![단계 정보](/help/admin/admin/assets/sub_class_create.png)
 
 1. **[!UICONTROL 분류 편집]** 아이콘으로 마우스를 가져간 다음 **[!UICONTROL 분류 추가]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 유형 선택]** 필드에서 변수에 추가하려는 분류 유형을 선택합니다.
-
-   옵션에는 **[!UICONTROL 텍스트]** 및 **[!UICONTROL 숫자]**&#x200B;가 포함됩니다. 분류 유형에 대한 자세한 내용은 [분류에 대하여](/help/components/classifications/c-classifications.md)를 참조하십시오.
 1. **[!UICONTROL 테스트 분류]** 대화 상자에서 원하는 대로 분류를 구성합니다.
 
 1. 드롭다운 목록 대화 상자에서 옵션을 추가하거나 제거합니다.

@@ -3,14 +3,14 @@ title: FTP를 통해 분류 데이터 내보내기
 description: FTP 내보내기는 여러 보고서 세트에서 데이터를 다운로드하고 50,000개 이상의 데이터 행이 있는 데이터 세트 파일을 다운로드를 포함하여 데이터 세트 다운로드에 더 많은 유연성을 제공합니다.
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 99%
 
 ---
 
-# FTP를 통해 분류 데이터 내보내기
+# FTP 내보내기(이전)
 
 FTP 옵션은 데이터 세트를 다운로드할 때보다 더 많은 유연성을 제공하는데, 여러 보고서 세트에서 데이터를 다운로드하거나 데이터 행이 50,000개 이상인 데이터 세트 파일을 다운로드하는 기능이 이에 해당됩니다. FTP를 통해 분류 데이터를 다운로드하기 전에 FTP 계정을 만듭니다.
 

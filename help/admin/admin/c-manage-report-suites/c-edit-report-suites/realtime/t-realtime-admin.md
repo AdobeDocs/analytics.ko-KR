@@ -3,10 +3,10 @@ description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: f1dde3a475fe1276fd9abbe1bdafd6723701f2cb
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 77%
+source-wordcount: '211'
+ht-degree: 76%
 
 ---
 
@@ -35,8 +35,6 @@ Adobe Analytics에서 실시간 보고서를 설정하는 절차에는 보고서
    >[!NOTE]
    >
    >현재 Adobe에서는 각 차원에 대해 다른 분류가 선택되어 있더라도 하나의 실시간 보고서에 대해 중복 차원 활성화를 지원하지 않습니다.
-
-   분류에 대한 자세한 내용은 [분류에 대하여](/help/components/classifications/c-classifications.md)를 참조하십시오.
 
    >[!NOTE]
    >

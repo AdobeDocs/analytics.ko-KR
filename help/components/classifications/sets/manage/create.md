@@ -3,10 +3,10 @@ title: 분류 세트 만들기
 description: 분류 세트를 만들 때 사용할 수 있는 필드 및 설명입니다.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 22%
+source-wordcount: '287'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 22%
 
 * **[!UICONTROL 이름]**: 분류 집합을 식별하는 데 사용되는 텍스트 필드입니다. 이 필드는 만들 때는 편집할 수 없지만 나중에 이름을 바꿀 수 있습니다.
 * **[!UICONTROL 열 이름]**: 만들려는 첫 번째 분류 차원의 이름입니다. 이 필드는 Analysis Workspace에서 사용되는 차원 이름이며 분류 데이터를 내보낼 때의 열 이름입니다. 분류 세트를 만든 후 더 많은 열 이름을 추가할 수 있습니다.
-* **[!UICONTROL 유형]**: 분류 유형을 나타내는 라디오 버튼입니다. 일반적으로 기본 분류가 사용되며, 조회 분류는 [하위 분류](../../c-sub-classifications.md)를 나타냅니다.
+* **[!UICONTROL 유형]**: 분류 유형을 나타내는 라디오 단추입니다.
+   * **[!UICONTROL 기본]**: Analytics에서 수집된 차원에 적용됩니다. 세분화된 차원 값을 보다 의미 있는 데이터 수준으로 그룹화(분류)하는 방법입니다. 예를 들어 검색 데이터의 테마를 더 잘 이해할 수 있도록 내부 검색 키워드를 내부 검색 범주로 그룹화할 수 있습니다.
+   * **[!UICONTROL 조회]**: 일반적으로 하위 또는 하위 분류라고 하는 조회 테이블은 기본 분류의 분류입니다. 이는 원래 차원이 아닌 분류 값에 대한 메타데이터입니다. 예를 들어 Product 변수에 &#39;Color code&#39;라는 기본 분류가 있을 수 있습니다. 그런 다음 &#39;색상 이름&#39;의 조회 테이블을 &#39;색상 코드&#39;에 연결하여 각 코드의 의미를 자세히 설명할 수 있습니다.
 * **[!UICONTROL 구독]** 이 분류 세트가 적용되는 보고서 세트 및 차원입니다. 여러 보고서 세트 및 차원 조합을 분류 세트에 추가할 수 있습니다.
 
 ![분류 집합 만들기](../../assets/classification-set-create.png)

@@ -3,18 +3,18 @@ description: 분류 규칙 빌더에서 페이지의 인터페이스 요소를 �
 title: 분류 규칙 - 정의
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '862'
+ht-degree: 94%
 
 ---
 
-# 분류 규칙 - 정의
+# 분류 규칙 정의(이전)
 
 분류 규칙 빌더에서 페이지의 인터페이스 요소를 정의한 것입니다.
 
-## 규칙 페이지 {#section_4A5BF384EEEE4994B6DC888339833529}
+## 규칙 페이지
 
 이 페이지에는 규칙 세트의 규칙이 표시됩니다.
 
@@ -56,7 +56,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>전환 확인 기간 </p> </td> 
-   <td colname="col2"> <p>규칙을 활성화하고 유효성을 확인할 때, 영향을 받는 키에 대해 규칙이 기존 분류를 덮어쓰도록 지정할 수 있습니다. 지정한 기간 내에 <span class="keyword">Adobe Analytics</span>로 전달된 적이 있는 분류된 키만 영향을 받습니다. </p> <p><span class="term">전환 확인 기간</span>을 지정하지 않으면 규칙은 대략 1달 이전까지 적용됩니다(현재 날짜에 따라 다름). 이 옵션을 활성화하지 않으면 기존 분류를 덮어쓰는 일은 없습니다. </p> <p><b>개발 센터</b>: 파트너는 <span class="wintitle">개발 센터</span>에서 분류 규칙을 만들 수 있습니다. 이 규칙은 고객이 통합을 활성화하면 배포됩니다. <span class="wintitle">개발 센터</span>의 <span class="uicontrol">다음 날짜 이후 덮어쓰기</span> 옵션은 고객이 통합을 활성화하거나 편집할 때 덮어쓰기 값을 결정할 수 있는지 여부를 파트너가 지정할 수 있도록 해 줍니다. </p> <p>규칙 처리에 대한 자세한 내용은 <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >규칙 처리 방법</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>규칙을 활성화하고 유효성을 확인할 때, 영향을 받는 키에 대해 규칙이 기존 분류를 덮어쓰도록 지정할 수 있습니다. 지정한 기간 내에 <span class="keyword">Adobe Analytics</span>로 전달된 적이 있는 분류된 키만 영향을 받습니다. </p> <p><span class="term"> 전환 확인 기간</span>을 지정하지 않으면 규칙은 대략 1달 이전까지 적용됩니다(현재 날짜에 따라 다름). 이 옵션을 활성화하지 않으면 기존 분류를 덮어쓰지 않습니다. </p> <p><b>개발 센터</b>: 파트너는 <span class="wintitle">개발 센터</span>에서 분류 규칙을 만들 수 있습니다. 이 규칙은 고객이 통합을 활성화하면 배포됩니다. <span class="wintitle">개발 센터</span>의 <span class="uicontrol">다음 날짜 이후 덮어쓰기</span> 옵션은 고객이 통합을 활성화하거나 편집할 때 덮어쓰기 값을 결정할 수 있는지 여부를 파트너가 지정할 수 있도록 해 줍니다. </p> <p>규칙 처리에 대한 자세한 내용은 <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >규칙 처리 방법</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > 규칙 추가 </a> </td> 

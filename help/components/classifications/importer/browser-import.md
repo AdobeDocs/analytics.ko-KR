@@ -3,14 +3,14 @@ description: 브라우저를 사용하여 분류 데이터를 가져올 (다운�
 title: 브라우저 가져오기
 feature: Classifications
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 100%
+source-wordcount: '353'
+ht-degree: 99%
 
 ---
 
-# 브라우저 가져오기
+# 브라우저 가져오기(이전)
 
 브라우저를 사용하여 분류 데이터를 가져올 (다운로드) 수 있습니다. 이 방법은 분류 데이터 업로드를 단일 보고서 세트로 제한합니다
 

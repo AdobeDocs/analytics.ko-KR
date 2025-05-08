@@ -3,7 +3,7 @@ title: 제품
 description: 제품의 이름입니다.
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 91%
@@ -20,4 +20,4 @@ ht-degree: 91%
 
 ## 차원 항목
 
-이 변수는 구현의 사용자 지정 문자열에 기반하므로 조직에서 차원 항목을 결정합니다. 제품에 대해 일관된 명명 규칙을 설정하는 것이 좋습니다. 제품을 다르게 그룹화하거나 보다 친숙한 이름을 제공하려는 경우 [분류](../classifications/c-classifications.md)를 사용할 수 있습니다. Adobe에서는 &#39;제품&#39;과 &#39;분류&#39; 차원을 모두 사용할 것을 권장합니다.
+이 변수는 구현의 사용자 지정 문자열에 기반하므로 조직에서 차원 항목을 결정합니다. 제품에 대해 일관된 명명 규칙을 설정하는 것이 좋습니다. 제품을 다르게 그룹화하거나 보다 친숙한 이름을 제공하려는 경우 [분류](../classifications/classifications-overview.md)를 사용할 수 있습니다. Adobe에서는 &#39;제품&#39;과 &#39;분류&#39; 차원을 모두 사용할 것을 권장합니다.

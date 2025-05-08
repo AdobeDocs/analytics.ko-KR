@@ -3,14 +3,16 @@ description: 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니
 title: 분류 규칙 세트
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 96%
+source-wordcount: '406'
+ht-degree: 89%
 
 ---
 
-# 분류 규칙 세트
+# 분류 규칙 세트 (기존)
+
+*이 페이지에서는 [분류 규칙 빌더](classification-rule-builder.md)의 일부로 분류 규칙 집합에 대해 설명합니다. Adobe Analytics에서 데이터를 분류하는 현재 방법은 [분류 세트](../sets/overview.md)를 참조하십시오.*
 
 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. 규칙 세트에 변수를 적용합니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다.
 
@@ -56,8 +58,6 @@ ht-degree: 96%
 분류 규칙 세트의 이름을 지정하고, 변수를 적용하고 덮어쓰기 설정을 지정합니다.
 
 1. (사전 요구 사항) **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;에서 분류 구조를 정의합니다.
-
-   (분류 추가에 대한 자세한 내용은 관리자 도구 도움말의 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko-KR)를 참조하십시오.)
 
    변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 [!UICONTROL 새 규칙 세트] 패널에 표시됩니다.
 
