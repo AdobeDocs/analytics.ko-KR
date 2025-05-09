@@ -4,9 +4,9 @@ description: Adobe에 페이지 보기 추적 호출을 보냅니다.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 56%
 
 ---
@@ -47,9 +47,9 @@ Adobe는 이미지 요청을 받은 다음, 요청 헤더, URL 및 쿼리 문자
 1. [!UICONTROL 작업]에서 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘을 클릭하여 작업을 추가합니다.
 1. [!UICONTROL 확장] 드롭다운 목록을 **[!UICONTROL Adobe Experience Platform Web SDK]**(으)로 설정하고 [!UICONTROL 작업 유형]을(를) **[!UICONTROL 이벤트 보내기]**(으)로 설정합니다.
 
-## 웹 SDK를 수동으로 구현하는 이벤트 보내기
+## 웹 SDK을 수동으로 구현하는 이벤트 보내기
 
-`sendEvent` 명령을 사용하여 데이터를 Adobe으로 보냅니다. 데이터 스트림은 이 데이터를 수신하고, 구성된 매핑을 적용하고, 해당 데이터 스트림에 추가된 서비스인 경우 해당 데이터를 Adobe Analytics에 전달합니다.
+`sendEvent` 명령을 사용하여 Adobe으로 데이터를 보냅니다. 데이터 스트림은 이 데이터를 수신하고, 구성된 매핑을 적용하고, 해당 데이터 스트림에 추가된 서비스인 경우 해당 데이터를 Adobe Analytics에 전달합니다.
 
 ```js
 alloy("sendEvent", {
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-자세한 내용은 웹 SDK 설명서의 [이벤트 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko-KR)을 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)을(를) 참조하십시오.
 
 ## Adobe Analytics 확장을 사용한 페이지 보기 추적 호출
 
