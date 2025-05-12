@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # 보고서 세트 만들기
 
-보고서 세트는 Adobe Analytics가 보고서를 가져오는 데 사용하는 데이터의 사일로입니다. 조직에는 여러 개의 보고서 세트가 있을 수 있으며, 각 보고서 세트에는 서로 다른 데이터 세트가 포함되어 있습니다. 이전에는 개별 보고서 세트가 중요했지만 단일 보고서 세트가 더 유용해졌습니다. [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites)및 보고서 처리 시간을 도입하면 관리자가 고유한 데이터 하위 집합을 만들 수 있으므로 전역 데이터와 사이트별 데이터를 모두 유연하게 얻을 수 있습니다.
+보고서 세트는 Adobe Analytics가 보고서를 가져오는 데 사용하는 데이터의 사일로입니다. 조직에는 여러 개의 보고서 세트가 있을 수 있으며, 각 보고서 세트에는 서로 다른 데이터 세트가 포함되어 있습니다. 이전에는 개별 보고서 세트가 중요했지만 단일 보고서 세트가 더 유용해졌습니다. [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ko#virtual-report-suites)및 보고서 처리 시간을 도입하면 관리자가 고유한 데이터 하위 집합을 만들 수 있으므로 전역 데이터와 사이트별 데이터를 모두 유연하게 얻을 수 있습니다.
 
 이 문서는 시스템 수준 관리자 또는 Adobe Analytics 관리자가 데이터 수집을 준비할 수 있도록 설계되었습니다.
 
