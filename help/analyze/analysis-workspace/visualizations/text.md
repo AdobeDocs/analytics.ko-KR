@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 0453f374e9027d1c539682212e880c4ebc81152f
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 86%
 
 ---
 
@@ -52,10 +52,14 @@ Workspace 프로젝트에 사용자 정의의 서식 있는 텍스트를 추가�
 
 하이퍼링크를 추가하려면 텍스트를 강조 표시하고 메뉴에서 ![링크](/help/assets/icons/Link.svg)를 선택합니다. 하이퍼링크를 사용하면 프로젝트 수신자에게 추가 지원을 제공할 수도 있습니다. 하이퍼링크로 외부 웹 사이트, 문서 페이지, [Workspace 프로젝트, 패널, 시각화](/help/analyze/analysis-workspace/curate-share/shareable-links.md) 등에 연결할 수 있습니다.
 
-![링크 아이콘이 강조된 텍스트 옵션.](assets/hyperlink.png)
+![링크 아이콘이 강조 표시된 텍스트 옵션.](assets/hyperlink.png)
 
 ## 이미지 추가 {#images}
 
-프로젝트에 이미지를 추가하려면 메뉴에서 ![이미지](/help/assets/icons/Image.svg)를 선택하고 공개 이미지 URL을 삽입합니다. 이미지 URL은 공개적으로 액세스할 수 있어야 하며 `https`로 시작하고 `.png`, `.jpeg`, `.jpg` 또는 `.gif` 형식이어야 합니다. 정적 및 애니메이션 이미지가 지원됩니다.
+프로젝트에 이미지를 추가하려면 메뉴에서 ![이미지](/help/assets/icons/Image.svg)를 선택하고 **[!UICONTROL 이미지 URL]**(예: `https://www.adobe.com/uploads/2018/06/Adobe.png`)에서 이미지 URL을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+
+이미지 URL은 공개적으로 액세스할 수 있어야 하며 `https`로 시작하고 `.png`, `.jpeg`, `.jpg` 또는 `.gif` 형식이어야 합니다. 정적 및 애니메이션 이미지가 지원됩니다.
+
+이미지의 드래그 앤 드롭 삽입은 지원되지 않습니다.
 
 ![이미지 아이콘이 선택된 텍스트 옵션.](assets/image.png)
