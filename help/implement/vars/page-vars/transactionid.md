@@ -4,9 +4,9 @@ description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: 43035967e8ccbb35700b7ad3e893282ade310acd
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 89%
 
 ---
@@ -27,7 +27,7 @@ Adobe은 최대 25개월 동안 모든 거래 ID 값(연결 및 연결 해제된
 
 거래 ID는 다음 변수에 매핑됩니다.
 
-* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[0].transactionID`
+* [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[3].transactionID` 또는 `xdm.commerce.order.payments.transactionID`
 * [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` 또는 `data.__adobe.analytics.xact`
 
 ## Adobe Analytics 확장을 사용한 거래 ID
@@ -38,7 +38,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 거�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정] (으)로 설정합니다.
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정]&#x200B;(으)로 설정합니다.
 6. [!UICONTROL 거래 ID] 섹션을 찾습니다.
 
 거래 ID를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
