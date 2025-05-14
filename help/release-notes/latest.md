@@ -3,45 +3,49 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0bd4075a15edeeccdd9db8a70a1e871f9fc5af20
+source-git-commit: 9c6da2c1ed5bc2c016da16a5bb821f0064e1ae4f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 99%
+source-wordcount: '689'
+ht-degree: 61%
 
 ---
 
-# 현재 Adobe Analytics 릴리스 정보 (2025년 4월 릴리스)
+# 최신 Adobe Analytics 릴리스 정보 (2025년 5월 릴리스)
 
-**마지막 업데이트**: 2025년 4월 16일
+**마지막 업데이트**: 2025년 5월 14일 목요일
 
-이번 릴리스 정보에는 2025년 3월 26일부터 5월까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2025년 4월 xx일부터 6월 18일까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics 인벤토리** | Analytics 인벤토리에서는 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 제공합니다. 인벤토리 프로세스를 자동화하면 Adobe Analytics에서 Customer Journey Analytics로 전환하는 데 필요한 작업을 빠르게 파악할 수 있습니다. 이렇게 하면 전환이 더 쉽고 빨라집니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025년 3월 26일 |
-| **Data Warehouse 전용 차원** | 고객 피드백을 토대로 하여 재평가가 결정되었습니다. 기존에 발표했던 바와 같이 자동 Data Warehouse 전용 차원 기능은 릴리스되지 않습니다. | | TBD |
+| **마우스로 가리키면 Analysis Workspace 왼쪽 패널이 더 이상 열리고 닫히지 않습니다** | Analysis Workspace의 왼쪽 패널은 프로젝트에 구성 요소, 패널 및 시각화와 같은 것을 추가하는 데 사용됩니다. 맨 왼쪽에 있는 아이콘 중 하나를 마우스로 가리키면 왼쪽 패널이 일시적으로 열리는 옵션은 더 이상 사용할 수 없습니다. 대신 이러한 아이콘 중 하나를 클릭하여 패널을 연 상태로 유지한 다음 동일한 아이콘을 클릭하여 패널을 닫습니다. |  | 2025년 5월 29일 금요일 |
+
 
 ## Adobe Analytics의 수정 사항
 
-**A4T**: AN-370625; AN-371279; AN-371351
-**관리 도구**: AN-365072; AN-371303
-**Analysis Workspace**: AN-363831; AN-369554
-**분류**: AN-370519; AN-370727; AN-370827; AN-370941; AN-370995; AN-371377; AN-371597; AN-371868; AN-371869; AN-372510; AN-372650; AN-373164; AN-373300; AN-373308; AN-373592
-**데이터 수집**: AN-371877
-**데이터 피드**: AN-368676; AN-370225; AN-370514; AN-370521; AN-370687; AN-370761; AN-370911; AN-371047; AN-371542; AN-371627; AN-371746; AN-372708; AN-373068; AN-373179
-**Data Warehouse**: AN-366649; AN-369817; AN-370705; AN-371127; AN-371995; AN-372596; AN-372940
-**마케팅 채널**: AN-372308
-**모바일 앱**: AN-370287; AN-371335; AN-371374
-**플랫폼**: AN-369510; AN-370435; AN-372150
-**Report Builder**: AN-369830; AN-371395; AN-372983
+**경고**: AN-378351
+**Analysis Workspace**: AN-363521; AN-367366; AN-373575; AN-374238; AN-374295; AN-374382; AN-376938; AN-377176; AN-377467; AN-377942
+**자산 전송**: AN-373381
+**분류**: AN-373166; AN-373479; AN-376074; AN-377337; AN-377505
+**구성 요소**: AN-314468
+**데이터 피드**: AN-370241; AN-375267; AN-376940
+**데이터 소스**: AN-375259
+**Data Warehouse**: AN-370415; AN-372090;
+**플랫폼**: AN-365681; AN-372306; AN-372616;
+**실시간 보고**: AN-365681
+**Report Builder**: AN-371395
+**세그먼테이션**: AN-373576; AN-375858
+**가상 보고서 세트**: AN-377948; AN-377952
+**Vista 규칙**: AN-373292
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| 해당 사항 없음 |  |  |
+| **마우스로 가리키면 Analysis Workspace 왼쪽 패널이 더 이상 열리고 닫히지 않습니다** | Analysis Workspace의 왼쪽 패널은 프로젝트에 구성 요소, 패널 및 시각화와 같은 것을 추가하는 데 사용됩니다. 맨 왼쪽에 있는 아이콘 중 하나를 마우스로 가리키면 왼쪽 패널이 일시적으로 열리는 옵션은 더 이상 사용할 수 없습니다. 대신 이러한 아이콘 중 하나를 클릭하여 패널을 연 상태로 유지한 다음 동일한 아이콘을 클릭하여 패널을 닫습니다. |  | 2025년 5월 29일 금요일 |
+
 
 ## 서비스 종료(EOL) 알림 {#eol}
 
@@ -60,6 +64,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
