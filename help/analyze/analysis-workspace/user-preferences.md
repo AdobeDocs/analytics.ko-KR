@@ -7,7 +7,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
 source-wordcount: '3361'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/3429994/?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 일반 환경 설정�
 
 | 환경 설정 | 옵션 |
 | --- | --- |
-| 랜딩 페이지 | Adobe Analytics에 액세스할 때 기본 페이지로 표시되는 페이지를 선택합니다. <ul><li>프로젝트 목록(기본값)</li><li>빈 프로젝트</li><li>목록에서 선택된 특정 프로젝트</li></ul> |
+| 랜딩 페이지 | Adobe Analytics에 액세스할 때 기본 페이지로 표시되는 페이지를 선택합니다. <ul><li>프로젝트 목록 (기본값)</li><li>빈 프로젝트</li><li>목록에서 선택된 특정 프로젝트</li></ul> |
 | 팁 표시 | Analysis Workspace 오른쪽 아래 영역의 파란색 상자에 팁을 표시합니다. <p>이 옵션은 기본적으로 활성화되어 있습니다.</p> |
 | 왼쪽 레일 그룹에 표시되는 구성 요소 | 왼쪽 레일의 구성 요소 메뉴에 표시할 각 구성 요소의 수를 선택합니다. <p>0을 선택하는 경우 Workspace의 왼쪽 레일에서 구성 요소에 더 이상 액세스할 수 없습니다.</p><p>기본적으로 다음 각 항목에 대해 5개의 구성 요소가 표시됩니다.</p> <ul><li>차원</li><li>지표</li><li>필터</li><li>날짜 범위</li></ul> <p>Analysis Workspace의 구성 요소에 대한 자세한 내용은 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)를 참조하십시오.</p> |
 
@@ -95,7 +95,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 일반 환경 설정�
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_sequentialpalette"
 >title="순차적 팔레트"
->abstract="빈도 트렌드(누적 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝은 색상에서 어두운 색상까지 숫자로 표시합니다."
+>abstract="빈도 트렌드(스택 막대) 가이드 분석에 적용됩니다. 이 팔레트는 밝은 색상에서 어두운 색상까지 숫자로 표시합니다."
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
@@ -107,10 +107,10 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 | --- | --- | --- |
 | **표시** | | |
 |  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
-| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko) | Analysis Workspace에 사용되는 시각화 색상 팔레트를 선택합니다.<ul><li>**범주별 팔레트**: Analysis Workspace의 여러 시각화에 적용됩니다. 각 색상은 고유한 범주 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li>**다양한 팔레트**: Analysis Workspace의 집단 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.</li><li>**순차적 팔레트**: 빈도 트렌드(스택 막대) 안내 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
+| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko) | Analysis Workspace에 사용되는 시각화 색상 팔레트를 선택합니다.<ul><li>**카테고리별 팔레트**: Analysis Workspace의 여러 시각화에 적용됩니다. 각 색상은 고유한 카테고리 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li>**다양한 팔레트**: Analysis Workspace의 집단 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.</li><li>**순차적 팔레트**: 빈도 트렌드(스택 막대) 안내 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
 | **데이터** | | |
-|  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근(기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
-|  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위(기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |
+|  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
+|  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |
 |  | [패널 유형](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko) | <ul><li>자유 형식 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
 |  | 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 예를 들어 이 설정(활성화된 경우)은 동일한 페이지에 대한 여러 개의 연속 페이지 조회수를 여러 페이지 조회수로 처리합니다. 이 설정을 끄면 단일 페이지 조회수로 카운트됩니다. <p>**참고:** 이 설정은 특정 지표(예: 단일 페이지 방문)에만 영향을 주고 흐름 또는 폴아웃 시각화에 적용되지 않습니다.</p> |
 |  | 번호 형식 | <ul><li>1,000.00 (기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
@@ -194,7 +194,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | Y축 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
 | | 최소 표시 | 최소값 레이블을 오버레이하여 지표의 최저점을 빠르게 강조 표시합니다. 참고: 최소값은 차원 내의 전체 값 집합이 아니라 시각화에 표시되는 데이터 포인트에서 파생됩니다. |
 | | 최대 표시 | 최대값 레이블을 오버레이하여 지표의 최고점을 빠르게 강조 표시합니다. 참고: 최대값은 차원 내의 전체 값 집합이 아니라 시각화에 표시되는 데이터 포인트에서 파생됩니다. |
-| | 트렌드 라인 표시 | 라인 시리즈에 회귀 또는 이동 평균 추세선을 표시합니다. 트렌드 라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다. |
+| | 트렌드 라인 표시 | 라인 시리즈에 회귀 또는 이동 평균 추세센을 표시합니다. 트렌드 라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다. |
 | **[코호트](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)** | | |
 | | 세부 기간 | 트렌드 시각화의 경우 시간 단위(일, 주, 월, 분기 또는 연도)를 변경할 수 있습니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
 | | 백분율만 표시 | 숫자 값을 제거하고 백분율만 표시합니다. |
@@ -222,7 +222,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 열 수 | 흐름 다이어그램에 사용할 열 수를 결정합니다. |
 | | 열당 항목 확장됨 | 각 열에 원하는 항목 수입니다. |
 | **스택형 차트** | | |
-| | 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. <p>자세한 내용은 [막대 및 스택 막대](/help/analyze/analysis-workspace/visualizations/bar.md)를 참조하십시오.</p> |
+| | 100% 스택 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. <p>자세한 내용은 [막대 및 스택 막대](/help/analyze/analysis-workspace/visualizations/bar.md)를 참조하십시오.</p> |
 | **[히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md)** | | |
 | | 버킷 수 | 시각화에서 데이터 범위(버킷) 수를 선택합니다. 최대 버킷 수는 50개입니다. <p>자세한 내용은 [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md)을 참조하십시오.</p> |
 | | 계산 방법 | 다음 선택 사항 중 하나를 선택합니다. <ul><li>히트</li><li>방문</li><li>방문자</li></ul> <p>예를 들어 페이지 조회수와 함께 사용될 때 방문자당 페이지 조회수, 방문 페이지 조회수 또는 히트당 페이지 조회수를 선택할 수 있습니다. 히트의 경우 “발생 횟수”는 자유형 테이블에서 Y축 지표로 사용됩니다.</p> |
@@ -235,11 +235,11 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 값 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>백분율 변경</li><li>원시 차이</li></ul> |
 | | 백분율 | 요약 변경 시각화 값을 백분율로 표시합니다. |
 | | 범례 표시 | 요약 변경 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
-| **[요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
-| | 백분율 | 요약 번호 시각화 값을 백분율로 표시합니다. |
-| | 범례 표시 | 요약 번호 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
+| **[요약 숫자](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
+| | 백분율 | 요약 숫자 시각화 값을 백분율로 표시합니다. |
+| | 범례 표시 | 요약 숫자 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | | 기준별 요약 값 | 최대, 최소, 평균, 중앙값 및 합계 중에서 선택합니다. |
-| | 값 생략 | [!UICONTROL **요약 번호**] 섹션에서 |
+| | 값 생략 | [!UICONTROL **요약 숫자**] 섹션에서 |
 | **[트리맵](/help/analyze/analysis-workspace/visualizations/treemap.md)** | | |
 | | 백분율 | 트리맵 시각화 값을 백분율로 표시합니다. |
 | | 최대 항목 수 제한 | 트리맵 시각화에서 X축의 항목 수를 줄입니다. 대규모 데이터 세트가 있는 경우 유용할 수 있습니다. |
