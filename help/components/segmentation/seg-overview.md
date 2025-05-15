@@ -4,9 +4,9 @@ title: 세그먼트 정보
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 세그먼트는 중첩 컨테이너 모델을 사용하여 [!UICONTROL 방문자], [!UICONTROL 방문] 및 [!UICONTROL 히트] 수준 계층을 기준으로 합니다. 중첩된 컨테이너를 사용하여 컨테이너 간 규칙 및 컨테이너 내부 규칙에 따라 방문자 속성 및 작업을 정의할 수 있습니다. Analytics 세그먼트는 [!DNL Adobe Experience Cloud]의 여러 제품 및 기능에서 작성, 승인, 공유, 저장 및 실행할 수 있습니다. 보고서에서 세그먼트를 생성하거나, 대시보드 보고서로 작성하거나, 빠른 액세스를 위해 책갈피를 지정할 수 있습니다.
 
-세그먼트 빌더에서 세그먼트를 작성하고 저장하거나 폴아웃 보고서 ([!UICONTROL Analysis Workspace])에서 세그먼트를 생성할 수 있습니다. 중첩된 컨테이너 간 특정 규칙에 따라 미리 작성한 세그먼트를 사용 및 확장하고 결과를 필터링하여 보고서에 적용할 수 있습니다. 또한 세그먼트를 [스택 세그먼트](/help/components/segmentation/segmentation-workflow/seg-workflow.md)로 함께 사용할 수 있습니다.
+세그먼트 빌더에서 세그먼트를 작성하고 저장하거나 폴아웃 보고서([!UICONTROL Analysis Workspace])에서 세그먼트를 생성할 수 있습니다. 중첩된 컨테이너 간 특정 규칙에 따라 미리 작성한 세그먼트를 사용 및 확장하고 결과를 필터링하여 보고서에 적용할 수 있습니다. 또한 세그먼트를 [스택 세그먼트](/help/components/segmentation/segmentation-workflow/seg-workflow.md)로 함께 사용할 수 있습니다.
 
 세그먼트는
 
@@ -29,10 +29,10 @@ ht-degree: 97%
 
 세그먼트는 다음 값을 기반으로 할 수 있습니다.
 
-- 특성 기준 방문자: 브라우저 유형, 디바이스, 방문 수, 국가, 성별
+- 속성 기반 방문자: 브라우저 유형, 디바이스, 방문 수, 국가, 성별
 - 상호 작용 기준 방문자: 캠페인, 키워드 검색, 검색 엔진
 - 종료 및 시작 기준 방문자: Facebook, 정의된 랜딩 페이지, 참조 도메인의 방문자
-- 사용자 정의 변수 기준 방문자: 양식 필드, 정의된 범주, 고객 ID
+- 사용자 정의 변수 기준 방문자: 양식 필드, 정의된 카테고리, 고객 ID
 
 세그먼트 빌더에서 대상자 세그먼트를 작성할 경우 컨테이너 사이에 [!UICONTROL AND] 및 [!UICONTROL OR] 연산자를 사용하여 조건을 정의합니다.
 
@@ -121,7 +121,7 @@ ht-degree: 97%
 Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습니다.
 
 - [세그먼트를 비교](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)할 수 있습니다.
-- 비교에서 [세그먼트를 차원으로](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko) 사용합니다.
+- 비교에서 [세그먼트를 차원으로](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 사용합니다.
 - [폴아웃 분석](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)에서 세그먼트를 사용합니다.
 
 ## Adobe 제공 세그먼트
@@ -136,7 +136,7 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 | 방문 1 | 방문 2 | 방문 3 |
 |---|---|---|
-| 첫 번째 방문에서 방문자는 기본 랜딩 페이지 A로 이동하고, 캠페인 페이지 B를 제외한 다음 제품 페이지 C를 열람했습니다. | 두 번째 방문에서 방문자는 다시 기본 랜딩 페이지 A로 이동하고, 캠페인 페이지 B를 제외하고, 제품 페이지 C로 다시 이동했다가 새 페이지 D로 이동했습니다. | 세 번째 방문에서 방문자는 첫 번째 및 두 번째 방문과 같은 경로로 이동한 다음 페이지 F를 제외하고 타겟팅된 제품 페이지 G로 바로 이동했습니다. |
+| 첫 번째 방문에서 방문자는 기본 랜딩 페이지 A로 이동하고, 캠페인 페이지 B를 제외한 다음 제품 페이지 C를 열람했습니다. | 두 번째 방문에서 방문자는 다시 기본 랜딩 페이지 A로 이동하고, 캠페인 페이지 B를 제외하고, 제품 페이지 C로 다시 이동했다가 새 페이지 D로 이동했습니다. | 세 번째 방문에서 방문자는 첫 번째 및 두 번째 방문과 같은 경로로 이동한 다음 페이지 F를 제외하고 타기팅된 제품 페이지 G로 바로 이동했습니다. |
 
 순차적 세그먼트는 다음 히트 값에 기반을 둘 수 있습니다.
 
@@ -237,12 +237,12 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 ## 세분화 방법 비디오 {#segment-video}
 
-이 비디오는 세그먼트 컨테이너가 정의와 사용 방법에 대한 간단한 개요를 제공합니다.
+이 비디오에서는 세그먼트 컨테이너의 의미와 세그먼트 컨테이너를 사용하는 방법에 대한 간단한 개요를 제공합니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/3429105?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -279,7 +279,7 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 +++ **세그먼트를 사용하고 만들고 관리하는 데 필요한 권한**
 
-기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
+기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
 관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [자세히...](/help/components/segmentation/seg-reference/seg-rights.md)
 
@@ -295,7 +295,7 @@ Report Builder는 사용자가 소유한 세그먼트와 사용자와 공유된 
 
 +++ **세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까?**
 
-예. 모든 세그먼트는 세그먼트 관리자에서 관리할 수 있습니다. 세그먼트 관리자는 소유자 (세그먼트를 만든 사용자), 공유 사용자 및 관리 사용자가 볼 수 있는 세그먼트를 표시합니다. 세그먼트 선택기는 사용자가 소유하고 사용자와 공유된 세그먼트를 표시합니다.
+예. 모든 세그먼트는 세그먼트 관리자에서 관리할 수 있습니다. 세그먼트 관리자는 소유자(세그먼트를 만든 사용자), 공유 사용자 및 관리 사용자가 볼 수 있는 세그먼트를 표시합니다. 세그먼트 선택기는 사용자가 소유하고 사용자와 공유된 세그먼트를 표시합니다.
 
 관리자는 Analysis Workspace 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
 

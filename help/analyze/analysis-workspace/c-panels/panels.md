@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2157'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,14 +52,14 @@ ht-degree: 98%
 
 * 모든 패널 **내** ![AddCircle](/help/assets/icons/AddCircle.svg)을 선택하여 다른 시각화를 추가합니다. 시각화를 선택할 수 있는 팝업이 나타납니다.
 
-  ![가능한 시각확를 보여 주는 팝업](assets/blank-panel.png)
+  ![가능한 시각화를 보여 주는 팝업](assets/blank-panel.png)
 
   | 선택... | 다음을 만들려면... |
   |---|---|
   | ![테이블](/help/assets/icons/Table.svg) | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
   | ![라인](/help/assets/icons/GraphTrend.svg) | [라인](/help/analyze/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [막대](/help//analyze/analysis-workspace/visualizations/bar.md) |
-  | ![123](/help/assets/icons/123.svg) | [요약 숫자](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![123](/help/assets/icons/123.svg) | [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) |
   | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
   | ![워크플로](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
@@ -78,11 +78,11 @@ ht-degree: 98%
 
 ## 보고서 세트
 
-각 패널은 패널의 오른쪽 상단에 있는 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *보고서 세트의 이름&#x200B;*]**&#x200B;으로 식별되는 [보고서 세트](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)과(와) 연결되어 있습니다.
+각 패널은 [리포트 세트](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *리포트 세트&#x200B;*]**로 식별됩니다.
 
 새 패널을 만들면 기본 리포트 세트는 Analysis Workspace 프로젝트에서 마지막으로 작업한 패널의 리포트 세트를 기반으로 합니다.
 
-분석 사용 사례에 따라 프로젝트 내에서 하나 또는 [여러 보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ko)를 사용할 수 있습니다.
+분석 사용 사례에 따라 프로젝트 내에서 하나 또는 [여러 보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)를 사용할 수 있습니다.
 
 보고서 세트 목록은 관련성을 기준으로 정렬되며, Adobe는 현재 사용자가 제품군을 얼마나 최근에 그리고 얼마나 자주 사용했는지를 기준으로 정의합니다.
 
@@ -109,10 +109,10 @@ ht-degree: 98%
 >
 
 
-![The calendar window showing the selected date range.](assets/panel-calendar.png)
+![선택한 날짜 범위를 보여 주는 캘린더 창입니다.](assets/panel-calendar.png)
 
 1. 시작 일자를 먼저 선택한 다음 종료 일자를 선택하여 날짜 범위를 선택합니다.
-또는 [!UICONTROL *사전 설정 선택*] 드롭다운 메뉴에서 **[!UICONTROL 사전 설정]**&#x200B;을(를) 선택할 수 있습니다.
+또는 [!UICONTROL *사전 설정 선택*] 드롭다운 메뉴에서 **[!UICONTROL 사전 설정]**&#x200B;을 선택할 수 있습니다.
 
 1. 필요한 경우 **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택하여 다음 작업을 수행하십시오.
 
@@ -133,7 +133,7 @@ ht-degree: 98%
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
-1. **[!UICONTROL 적용]**&#x200B;을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
 
 
@@ -160,7 +160,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/30913?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [드롭다운 세그먼트](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -222,7 +222,7 @@ ht-degree: 98%
 
 패널 헤더의 컨텍스트 메뉴를 통해(마우스 오른쪽 버튼으로 클릭) 패널의 추가 기능을 사용할 수 있습니다.
 
-![The right-click options for a panel header.](assets/right-click-menu.png)
+![패널 헤더에 대한 마우스 오른쪽 버튼 클릭 옵션입니다.](assets/right-click-menu.png)
 
 다음 옵션을 사용할 수 있습니다.
 
@@ -237,14 +237,14 @@ ht-degree: 98%
 | **[!UICONTROL 모든 패널 확장]** | 모든 프로젝트 패널을 확장합니다. |
 | **[!UICONTROL 패널에서 모든 시각화 축소]** | 현재 패널의 모든 시각화를 축소합니다. |
 | **[!UICONTROL 패널에서 모든 시각화 확장]** | 현재 패널의 모든 시각화를 확장합니다. |
-| **[!UICONTROL 설명 편집]** | 패널에 대한 텍스트 설명을 추가 (또는 편집)합니다. |
+| **[!UICONTROL 설명 편집]** | 패널에 대한 텍스트 설명을 추가(또는 편집)합니다. |
 | **[!UICONTROL 패널 링크 가져오기]** | 프로젝트 내의 특정 패널로 사용자를 안내합니다. 링크를 선택하면 연결된 정확한 패널로 이동하기 전에 먼저 수신자가 로그인해야 합니다. |
 
 ## 구성
 
 일부 패널(예: [!UICONTROL 속성], [!UICONTROL 실험], [!UICONTROL 미디어 평균 분당 시청 대상자] 등)에는 시각화를 빌드할 수 있는 구성 대화 상자가 있습니다. 패널 상단의 ![Edit](/help/assets/icons/Edit.svg)을 사용하여 구성에 액세스하고 이를 변경합니다.
 
-![Configure a panel](/help/analyze/analysis-workspace/c-panels/assets/configure-panel.png)
+![패널 구성](/help/analyze/analysis-workspace/c-panels/assets/configure-panel.png)
 
 <!--
 ## Panel types
@@ -271,7 +271,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ko) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 
@@ -335,7 +335,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ko) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 
