@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8ce8d6fefdd2e3d4b11d527cc31f8a2fdf768e79
+source-git-commit: 440cc4c977aae97e3fc3c97f3998c5d542cd88c3
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 98%
+source-wordcount: '1974'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 공유](https://video.tv.adobe.com/v/40036?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 공유](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -82,7 +82,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
    또는
 
-   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**&#x200B;를 선택합니다.
+   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**를 선택합니다.
 저장되지 않은 변경 사항이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
 
    프로젝트 공유 대화 상자가 표시됩니다. 대화 상자의 [!UICONTROL **링크로 공유**] 및 [!UICONTROL **설정**] 섹션은 단일 프로젝트를 공유하는 경우에만 표시됩니다.
@@ -129,6 +129,11 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 ## 모두와 프로젝트 공유(로그인 필요 없음) {#share-public-link}
 
+>[!CONTEXTUALHELP]
+>id="workspace_share_with_anyone_require_aec_authentication"
+>title="Experience Cloud 인증 필요"
+>abstract="조직에서 이 링크를 사용하려면 사용자가 Experience Cloud에 로그인해야 합니다."
+
 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 [읽기 전용 액세스 권한](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)을 부여할 수 있습니다. 이러한 사용자에는 다음이 포함될 수 있습니다.
 
 * 조직 외부의 사람
@@ -152,7 +157,7 @@ Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모든 사람과 링크 공유](https://video.tv.adobe.com/v/3452463?quality=12&learn=on&captions=kor){target="_blank"}를 참조하세요.
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모든 사람과 링크 공유](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"}를 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -207,7 +212,7 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [포함된 구성 요소 공유](https://video.tv.adobe.com/v/30902?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [포함된 구성 요소 공유](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
