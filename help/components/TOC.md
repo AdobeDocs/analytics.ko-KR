@@ -5,9 +5,9 @@ user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # [!DNL Adobe Analytics] 구성 요소 안내서 {#components}
 
 + [Analytics Components 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 차원 {#dimensions}
    + [차원 개요](dimensions/overview.md)
    + [차원 호환성](dimensions/compatibility.md)
@@ -42,9 +42,9 @@ ht-degree: 95%
    + [국가](dimensions/countries.md)
    + [사용자 정의 링크](dimensions/custom-link.md)
    + [고객 충성도](dimensions/customer-loyalty.md)
-   + [날짜(월 기준)](dimensions/day-of-month.md)
+   + [날짜 (월 기준)](dimensions/day-of-month.md)
    + [요일](dimensions/day-of-week.md)
-   + [일(한 해 기준)](dimensions/day-of-year.md)
+   + [일 (년 기준)](dimensions/day-of-year.md)
    + [일](dimensions/day.md)
    + [첫 구매까지 소요된 일 수](dimensions/days-before-first-purchase.md)
    + [마지막 구매 이후 일 수](dimensions/days-since-last-purchase.md)
@@ -61,7 +61,7 @@ ht-degree: 95%
    + [계층](dimensions/hierarchy.md)
    + [히트 깊이](dimensions/hit-depth.md)
    + [히트 유형](dimensions/hit-type.md)
-   + [시간(일 기준)](dimensions/hour-of-day.md)
+   + [시간 (일 기준)](dimensions/hour-of-day.md)
    + [시간](dimensions/hour.md)
    + [확인된 상태](dimensions/identified-state.md)
    + [Java 활성화](dimensions/java-enabled.md)
@@ -74,7 +74,7 @@ ht-degree: 95%
    + [모바일 라이프사이클 차원](dimensions/lifecycle-dimensions.md)
    + [모바일 조회 차원](dimensions/mobile-dimensions.md)
    + [모니터 해상도](dimensions/monitor-resolution.md)
-   + [월(연 기준)](dimensions/month-of-year.md)
+   + [월 (년 기준)](dimensions/month-of-year.md)
    + [월](dimensions/month.md)
    + [운영 체제 유형](dimensions/operating-system-types.md)
    + [운영 체제](dimensions/operating-systems.md)
@@ -166,7 +166,7 @@ ht-degree: 95%
    + [방문당 체류 시간](metrics/time-spent-per-visit.md)
    + [방문자당 체류 시간](metrics/time-spent-per-visitor.md)
    + [체류 시간 개요](metrics/time-spent.md)
-   + [총 체류 시간(초)](metrics/total-seconds-spent.md)
+   + [총 체류 시간 (초)](metrics/total-seconds-spent.md)
    + [미확인된 사용자](metrics/unidentified-people.md)
    + [고유 디바이스](metrics/unique-devices.md)
    + [고유 방문자 수](metrics/unique-visitors.md)
@@ -179,7 +179,7 @@ ht-degree: 95%
    + [세그먼트 정보](segmentation/seg-overview.md)
    + [세그먼트 컨테이너 정보](segmentation/seg-containers.md)
    + [Analysis Workspace의 세분화 기능](segmentation/segmentation-in-analysis-workspace.md)
-   + 세그먼테이션 워크플로 {#segmentation-workflow}
+   + 세분화 워크플로 {#segmentation-workflow}
       + [세분화 워크플로 개요](segmentation/segmentation-workflow/seg-workflow.md)
       + [계획 세그먼트](segmentation/segmentation-workflow/seg-plan.md)
       + [세그먼트 작성](segmentation/segmentation-workflow/seg-build.md)
@@ -243,7 +243,7 @@ ht-degree: 95%
       + [가상 보고서 세트 만들기](vrs/c-workflow-vrs/vrs-create.md)
       + [가상 보고서 세트 관리](vrs/c-workflow-vrs/vrs-manage.md)
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
-+ Cross-Device Analytics {#cda}
++ 크로스 디바이스 분석 {#cda}
    + [크로스 디바이스 분석 개요](cda/overview.md)
    + [필드 기반 결합](cda/field-based-stitching.md)
    + [디바이스 그래프](cda/device-graph.md)
@@ -271,14 +271,14 @@ ht-degree: 95%
       + 분류 세트 통합 {#consolidations}
          + [통합 관리자](classifications/sets/consolidations/manage.md)
          + [통합 프로세스](classifications/sets/consolidations/process.md)
-   + 분류 규칙 빌더(이전){#classifications-rulebuilder}
+   + 분류 규칙 빌더 (기존){#classifications-rulebuilder}
       + [개요](classifications/crb/classification-rule-builder.md)
       + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
       + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
       + [분류 규칙 정의](classifications/crb/classification-rule-definitions.md)
       + [하위 분류 및 규칙 빌더](classifications/crb/subclassification-rule-builder.md)
-   + 분류 가져오기 도구(이전){#classifications-importer}
-      + [분류 가져오기 개요](classifications/importer/c-working-with-saint.md)
+   + 분류 가져오기 도구 (레거시){#classifications-importer}
+      + [분류 가져오기 도구 개요](classifications/importer/c-working-with-saint.md)
       + [분류 데이터 파일](classifications/importer/c-saint-data-files.md)
       + [분류 데이터 삭제](classifications/importer/t-delete-classification-data.md)
       + [분류 템플릿](classifications/importer/c-download-saint-data.md)
@@ -301,7 +301,7 @@ ht-degree: 95%
    + [실시간 보고서 구성](c-real-time-reporting/t-realtime-admin.md)
    + [지원되는 실시간 지표 및 차원](c-real-time-reporting/realtime-metrics.md)
 + 마케팅 채널 {#marketing-channels}
-   + [마케팅 채널 시작](c-marketing-channels/c-getting-started-mchannel.md)
+   + [마케팅 채널 시작하기](c-marketing-channels/c-getting-started-mchannel.md)
    + [기여도 분석과 마케팅 채널](c-marketing-channels/mchannel-best-practices.md)
    + [마케팅 채널 분석](c-marketing-channels/analyze-mc.md)
    + [마케팅 채널 권한](c-marketing-channels/c-channel-report-access.md)

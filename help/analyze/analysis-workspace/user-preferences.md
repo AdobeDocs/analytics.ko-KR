@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3361'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/3429994/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -106,12 +106,12 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
 | **표시** | | |
-|  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
-| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko) | Analysis Workspace에 사용되는 시각화 색상 팔레트를 선택합니다.<ul><li>**카테고리별 팔레트**: Analysis Workspace의 여러 시각화에 적용됩니다. 각 색상은 고유한 카테고리 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li>**다양한 팔레트**: Analysis Workspace의 집단 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.</li><li>**순차적 팔레트**: 빈도 트렌드(스택 막대) 안내 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
+|  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
+| | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Analysis Workspace에 사용되는 시각화 색상 팔레트를 선택합니다.<ul><li>**카테고리별 팔레트**: Analysis Workspace의 여러 시각화에 적용됩니다. 각 색상은 고유한 카테고리 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li>**다양한 팔레트**: Analysis Workspace의 집단 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.</li><li>**순차적 팔레트**: 빈도 트렌드(스택 막대) 안내 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
 | **데이터** | | |
-|  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
-|  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |
-|  | [패널 유형](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko) | <ul><li>자유 형식 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
+|  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
+|  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |
+|  | [패널 유형](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>자유 형식 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
 |  | 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 예를 들어 이 설정(활성화된 경우)은 동일한 페이지에 대한 여러 개의 연속 페이지 조회수를 여러 페이지 조회수로 처리합니다. 이 설정을 끄면 단일 페이지 조회수로 카운트됩니다. <p>**참고:** 이 설정은 특정 지표(예: 단일 페이지 방문)에만 영향을 주고 흐름 또는 폴아웃 시각화에 적용되지 않습니다.</p> |
 |  | 번호 형식 | <ul><li>1,000.00 (기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 구분자 | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
@@ -182,7 +182,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 이중 축 표시 (해당되는 경우) | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 Y축을 놓을 수 있습니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | 표준화 (해당되는 경우) | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 매우 다른 경우에 유용합니다. |
 | | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
-| | 예외 항목으로 Y축의 크기 조절 | 차트에 여러 개의 지표가 있는 경우에는 사용자는 마우스를 각 예외 항목의 위에 놓아 해당 지표에 대한 신뢰 대역을 확인해야 합니다. 예외 항목 탐지 신뢰 구간은 시각화를 읽기 쉽게 만들기 위해 Y축 크기를 자동으로 조절하지 않습니다. 이 옵션을 통해 신뢰 구간에서 시각화 크기를 조절할 수 있습니다. <p>자세한 내용은 [Analysis Workspace에서 예외 항목 보기](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)를 참조하십시오.</p> |
+| | 예외 항목으로 Y축의 크기 조절 | 차트에 여러 개의 지표가 있을 경우에는 사용자는 마우스를 각 예외 항목의 위에 놓아 해당 지표에 대한 신뢰 대역을 확인해야 합니다. 예외 항목 탐지 신뢰 구간은 시각화를 읽기 쉽게 만들기 위해 Y축 크기를 자동으로 조절하지 않습니다. 이 옵션을 통해 신뢰 구간에서 시각화 크기를 조절할 수 있습니다. <p>자세한 내용은 [Analysis Workspace에서 예외 항목 보기](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)를 참조하십시오.</p> |
 | **[라인](/help/analyze/analysis-workspace/visualizations/line.md)** | | |
 | | 백분율 | 라인 시각화 값을 백분율로 표시합니다. |
 | | 범례 표시 | 라인 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |

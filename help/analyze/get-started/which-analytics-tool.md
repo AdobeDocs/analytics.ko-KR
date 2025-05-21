@@ -4,9 +4,9 @@ title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1122'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [도구 비교](https://video.tv.adobe.com/v/30447?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [도구 비교](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -36,11 +36,11 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[Activity Map](/help/analyze/activity-map/overview.md)**&#x200B;은 웹 페이지 및 모바일 앱에서의 사용자 참여를 시각적으로 표현하는 Adobe Analytics의 기능입니다. 이를 통해 마케팅 담당자와 분석가는 클릭, 호버링 및 스크롤 동작과 같은 사용자 상호 작용을 추적하고 분석할 수 있습니다.
 
-## Adobe Analytics으로 데이터 가져오기 {#import}
+## Adobe Analytics로 데이터 가져오기 {#import}
 
 **[분류](/help/components/classifications/classifications-overview.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* 수집 값(eVar, prop, 마케팅 채널)에 연결할 메타데이터가 있는 경우. Adobe에서는 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하는 것이 좋습니다. 분류 규칙 빌더 및 분류 임포터는 분류 데이터를 Adobe Analytics에 가져오는 이전 방법입니다.
+* eVar, Prop, 마케팅 채널 등의 수집 값에 연결하려는 메타데이터가 있는 경우. Adobe는 [분류 세트](/help/components/classifications/sets/overview.md)를 사용할 것을 권장합니다. 분류 규칙 빌더와 분류 가져오기 도구는 분류 데이터를 Adobe Analytics로 가져오기 위한 기존 방법입니다.
 
 **[Data Sources](/help/import/data-sources/overview.md)**&#x200B;는 다음 경우에 사용합니다.
 
@@ -55,13 +55,13 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* Bulk Data Insertion API는 한 행에 한 이벤트씩, 이벤트 데이터를 포함하는 CSV 형식의 파일을 허용합니다. Adobe에서는 서버측 코드가 필요한 구현에 대해 대량 삽입 API를 사용하거나 그렇지 않으면 데이터 수집에 AppMeasurement 또는 웹 SDK을 사용할 수 없습니다.
+* 대량 데이터 삽입 API는 한 행에 한 이벤트씩, 이벤트 데이터를 포함하는 CSV 형식의 파일을 수락합니다. Adobe는 서버측 코드가 필요하거나 AppMeasurement 또는 Web SDK를 사용하여 데이터를 수집할 수 없는 모든 구현에 대량 삽입 API를 사용할 것을 권장합니다.
 
-**[데이터 삽입 API(기존)](/help/import/c-data-insertion-api/c-data-insertion-api.md)**&#x200B;을(를) 사용해야 합니다.
+**[데이터 삽입 API(레거시)](/help/import/c-data-insertion-api/c-data-insertion-api.md)**&#x200B;는 다음과 같은 경우에 사용합니다.
 
-* 데이터를 Adobe Analytics으로 가져와야 하고 AppMeasurement, Web SDK 또는 Bulk Data Insertion API를 사용할 수 없는 경우.
+* Adobe Analytics로 데이터를 가져와야 하지만 AppMeasurement, Web SDK 또는 대량 데이터 삽입 API를 사용할 수 없는 경우.
 
-**[고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)**&#x200B;은 다음 경우에 사용합니다.
+**[고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)**&#x200B;은 다음 경우에 사용합니다.
 
 * 고객 관계 관리 (CRM) 데이터베이스에서 기업 고객 데이터를 캡처하고, 이 데이터를 Experience Cloud에 업로드하려는 경우.
 * CRM 데이터를 Analytics에서 더 자세한 분석에 사용하거나 Adobe Target에서 타기팅 기준으로 사용하려는 경우.
@@ -75,11 +75,11 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[Report Builder](/help/analyze/report-builder/rb-overview.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* 작업 영역의 사용자 정의 레이아웃 옵션이 제한적인 경우 (Excel의 제한 이내에서 Report Builder로 모든 작업 가능).
+* 작업 영역의 사용자 정의 레이아웃 옵션이 제한적인 경우(Excel의 제한 이내에서 Report Builder로 모든 작업 가능).
 * 사용자 입력 또는 오프라인 데이터 소스(노출 수, 비용)를 Adobe 데이터에 느슨하게 연결합니다. 영구적인 데이터 연결 솔루션은 데이터 소스입니다(Analytics로 데이터 가져오기 참조).
-* 서로 다른 측정기준의 보고서의 데이터 병합 (예: 프로모션 노출 수 보고서와 프로모션 클릭에서 전환 보고서 결합).
+* 서로 다른 측정기준의 보고서의 데이터 병합(예: 프로모션 노출 수 보고서와 프로모션 클릭에서 전환 보고서 결합).
 * 서로 다른 보고서 세트의 데이터를 합치거나 나란히 같은 테이블에 표시하여 병합합니다.
-* 예약을 통한 자동화가 필요한 경우 (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
+* 예약을 통한 자동화가 필요한 경우(XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**&#x200B;는 다음 경우에 사용합니다.
 
@@ -91,7 +91,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[Analytics 데이터 피드](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* 제공할 수 있는 가장 세부적인 데이터 피드 활용 (방문자 ID, 히트).
+* 제공할 수 있는 가장 세부적인 데이터 피드 활용(방문자 ID, 히트).
 * 클라이언트에서 클라이언트측 데이터베이스에 저장된 Adobe 데이터를 보낼 수 있는 가장 세부적인 수준으로 원하는 경우.
 * 클라이언트에서 비즈니스 인텔리전스 (BI) 도구를 개발하거나 히트 수준의 Adobe 데이터를 서드파티 도구에 입력하려는 경우.
 
