@@ -1,25 +1,36 @@
 ---
 description: 대상자 라이브러리, Target 및 Audience Manager에서 마케팅 활동에 세그먼트를 사용할 수 있습니다.
-title: Experience Cloud에 Publish 세그먼트
+title: Experience Cloud에 세그먼트 게시
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 66%
+source-wordcount: '1356'
+ht-degree: 64%
 
 ---
 
-# Experience Cloud에 Publish 세그먼트
+# Experience Cloud에 세그먼트 게시 {#publish-segments}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_publishing"
+>title="Experience Cloud 게시"
+>abstract="이 세그먼트에서 파생된 대상을 Target 및 기타 Experience Cloud 솔루션의 마케팅 활동에 사용할 수 있는 대상 라이브러리에 게시할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="components_segments_audienclibrary"
+>title="대상자 라이브러리"
+>abstract="대상 라이브러리에서 만든 세그먼트는 즉시 사용할 수 있으며 Analytics 업데이트에 종속되지 않습니다."
+
 
 Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를 [!DNL Audience Manager]의 마케팅 활동과 Adobe의 [!DNL Advertising Cloud], [!DNL Target] 및 [!DNL Campaign]을(를) 포함한 다른 활성화 채널에서 사용할 수 있습니다.
 
-8시간 이내에 Analytics 세그먼트를 Experience Cloud에 게시할 수 있습니다. 이러한 세그먼트를 사용하여 Audience Manager의 대상자를 모든 다운스트림 대상으로 활성화합니다.
+Analytics 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 있습니다. 이러한 세그먼트를 사용하여 Audience Manager의 대상자를 모든 다운스트림 대상으로 활성화합니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish 세그먼트](https://video.tv.adobe.com/v/37037?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 게시](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +41,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 
 ## 사전 요구 사항
 
-* 이 세그먼트를 저장할 보고서 세트가 [Experience Cloud에 대해 활성화됨](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=ko-KR)인지 확인하십시오. 그렇지 않으면 Experience Cloud에 게시할 수 없습니다.
+* 이 세그먼트를 저장할 보고서 세트가 Experience Cloud에 대해 [사용](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=ko-KR)되어 있는지 확인하십시오. 그렇지 않으면 Experience Cloud에 게시할 수 없습니다.
 * 조직이 Experience Cloud ID를 사용하고 있는지 확인합니다.
 * 세그먼트를 게시하려면 먼저 관리자가 [Admin Console의](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR) 제품 프로필에 [!UICONTROL 세그먼트 게시] 권한을 할당하고 사용자를 제품 프로필에 추가해야 합니다.
 
@@ -55,10 +66,10 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 ## [!UICONTROL 세그먼트 빌더]에서 세그먼트 게시
 
 1. Adobe Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**(으)로 이동
-1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**&#x200B;를 선택하십시오.
+1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**를 선택하십시오.
    ![Experience Cloud 게시](assets/publish-ec.png)
 1. 세그먼트의 제목과 설명을 입력합니다. 저장하기 전에 이러한 필드가 필요합니다.
-1. **[!UICONTROL Experience Cloud Publish 게시]** 섹션에서 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시&#x200B;*하는 옵션(*보고서 세트용)]**&#x200B;을 선택합니다.
+1. **[!UICONTROL Experience Cloud 게시]** 섹션에서 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]** 옵션을 선택합니다.
 
 >[!IMPORTANT]
 >Adobe Analytics 숫자를 Audience Manager 숫자와 비교할 때 총 “고유 방문자 수” 세그먼트 미리 보기 대신 Analytics의 세그먼트 미리 보기를 볼 경우 “Experience Cloud ID를 가진 방문자”를 사용하도록 하십시오.
@@ -67,7 +78,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 
 | 요소 | 설명 |
 |---|---|
-| **[!UICONTROL 이 세그먼트를 Experience Cloud에 Publish(*`<report suite>`*의 경우)]** | 이 옵션을 활성화하면 세그먼트 제목 및 정의 (즉, 광고 플랫폼에서 자주 사용되는 쉘 대상)는 즉시 Experience Cloud과 공유되는 반면, 세그먼트 멤버십은 4시간마다 평가되고 공유됩니다. <br> 예를 들어 해당 대상자가 [!DNL Target]의 활동과 연결되면 [!DNL Analytics]에서는 해당 Experience Cloud 및 [!DNL Target] 대상자의 자격을 규정하는 방문자용 ID를 전송하기 시작합니다. 이때 대상 이름 및 해당 데이터가 Experience Cloud의 [!DNL Audience Library] 페이지에 표시되기 시작합니다. </br> |
+| **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*`<report suite>`*용)]** | 이 옵션을 활성화하면 세그먼트 제목 및 정의 (즉, 광고 플랫폼에서 자주 사용되는 쉘 대상)는 즉시 Experience Cloud과 공유되는 반면, 세그먼트 멤버십은 4시간마다 평가되고 공유됩니다. <br> 예를 들어 해당 대상자가 [!DNL Target]의 활동과 연결되면 [!DNL Analytics]에서는 해당 Experience Cloud 및 [!DNL Target] 대상자의 자격을 규정하는 방문자용 ID를 전송하기 시작합니다. 이때 대상 이름 및 해당 데이터가 Experience Cloud의 [!DNL Audience Library] 페이지에 표시되기 시작합니다. </br> |
 | **[!UICONTROL 대상자 만들기 기간]** | 선택하는 기간은 롤링 달력을 기준으로 대상자를 만드는 데 사용됩니다. 예를 들어 &quot;최근 30일&quot; (기본값)에는 오늘 날짜로부터 지난 30일 동안 (세그먼트가 생성된 원래 날짜로부터가 아님) 대상자의 자격이 되는 방문자가 포함됩니다. |
 | **[!UICONTROL 대상자 라이브러리에서 만들기]** | 만들고 게시하는 세그먼트는 Experience Cloud의 [!DNL Audience Library] 페이지에서 지연 없이 사용할 수 있도록 할 수 있습니다. 이러한 세그먼트는 Analytics 업데이트에 종속되지 않으며, 75개의 게시된 세그먼트라는 제한 계산에 포함되지 않습니다. |
 | **[!UICONTROL 75개 중 x개가 게시됨]** | Experience Cloud에 게시한 세그먼트 수를 표시합니다. 게시된 세그먼트 목록과 관련 보고서 세트 및 소유자를 보려면 링크를 클릭하십시오. |
@@ -100,7 +111,7 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 * Adobe Experience Cloud Debugger
 * 브라우저의 기본 개발자 도구 (예: Chrome 개발자 도구)
 
-다음 스크린샷은 브라우저에서 Adobe Audience Manager UUID를 검색하고 이것을 Audience Manager 방문자 프로필 뷰어에서 사용하여 트레이트 및 세그먼트 멤버십을 확인하는 방법을 보여 줍니다.
+다음 스크린샷은 브라우저에서 Adobe Audience Manager UUID를 검색하고 이를 Audience Manager 방문자 프로필 뷰어에서 사용하여 트레이트 및 세그먼트 멤버십을 확인하는 방법을 보여 줍니다.
 
 ### 방법 1: Adobe Experience Cloud Debugger 사용
 
@@ -128,7 +139,7 @@ Demdex 쿠키(아래 예에서 [adobe.demdex.net](https://experienceleague.adobe
 
 ## [!DNL Audience Manager]에서 세그먼트 트레이트 보기
 
-Adobe Audience Manager에서 Analytics가 Experience Cloud과 세그먼트를 공유할 때 주어진 세그먼트에 대한 ECID가 있는 방문자 목록은 스트리밍 방식으로 평가됩니다.
+Adobe Audience Manager에서는 Analytics가 Experience Cloud과 세그먼트를 공유할 때 주어진 세그먼트에 대한 ECID가 있는 방문자 목록이 스트리밍 방식으로 평가됩니다.
 
 1. [!DNL Audience Manager]에서 [!UICONTROL 대상자 데이터 > 트레이트 > 분석 트레이트]로 이동합니다. Experience Cloud 조직에 매핑되어 있는 각 Analytics 보고서 세트에 대한 폴더가 표시됩니다. 이러한 폴더 (트레이트, 세그먼트 및 Data Sources용)는 프로필 및 대상자/사용자 핵심 서비스가 시작되거나 이 서비스에 대한 사용 권한이 제공되면 생성됩니다.
 1. [!DNL Audience Manager]와 공유하려고 했던 세그먼트를 이전에 만든 보고서 세트의 폴더를 선택합니다. 만든 세그먼트/대상자가 표시됩니다. 세그먼트를 공유할 때에는 [!DNL Audience Manager]에 다음의 두 가지 상황이 발생합니다.

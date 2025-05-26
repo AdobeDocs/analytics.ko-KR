@@ -3,14 +3,19 @@ description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연�
 title: 세그먼트 작성
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
-workflow-type: ht
-source-wordcount: '2063'
-ht-degree: 100%
+source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
+workflow-type: tm+mt
+source-wordcount: '2102'
+ht-degree: 97%
 
 ---
 
 # 세그먼트 빌더 {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_productcompatibility"
+>title="제품 호환성"
+>abstract="일부 사용 가능한 세그먼트 기준은 모든 Adobe Analytics 도구와 호환되지 않습니다. 이 목록에는 세그먼트와 호환되는 도구가 표시되어 있습니다. 세그먼트가 모든 Adobe Analytics 도구와 호환되도록 하려면 기준을 편집하십시오."
 
 <!-- markdownlint-disable MD034 -->
 
@@ -44,7 +49,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="인스턴스"
->abstract="차원에 대한 인스턴스 및 지속된 값 포함"
+>abstract="차원의 인스턴스를 포함합니다."
 
 <!-- markdownlint-enable MD034 -->
 
