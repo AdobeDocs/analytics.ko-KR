@@ -4,7 +4,7 @@ description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+source-git-commit: 73b54193f1c0f2548ef31bac0f36ff890494c24e
 workflow-type: tm+mt
 source-wordcount: '5026'
 ht-degree: 100%
@@ -258,7 +258,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-lower"
+>id="functions-waskr-lower-individual-confidence-sequence"
 >title="신뢰도(하한)"
 >abstract="[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도 **하한**&#x200B;을 계산합니다."
 
@@ -282,7 +282,7 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-upper"
+>id="functions-waskr-upper-individual-confidence-sequence"
 >title="신뢰도(상한)"
 >abstract="[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도 **상한**&#x200B;을 계산합니다."
 
