@@ -1,12 +1,12 @@
 ---
-description: Analysis Workspace 템플릿에 대한 세부 사항 및 Report Builder의 보고.
+description: Analysis Workspace 템플릿 및 Report Builder 보고에 대한 세부 사항입니다.
 title: Adobe Analytics의 광고 데이터에 대한 보고서
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 49%
+source-wordcount: '358'
+ht-degree: 46%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 49%
 | 테이블/시각화 | 설명 |
 |--- |--- |
 | 광고 트렌드 | AMO 노출 횟수, AMO 클릭 수 및 AMO 비용에 대한 일별 트렌드 개요. |
-| 광고 플랫폼 | 상위 2개 플랫폼 (Google, ) 비용에 대한 도넛 차트. |
+| 광고 플랫폼 | 상위 2개 플랫폼 비용에 대한 도넛 차트(Google 광고, Microsoft Advertising). |
 | 광고 플랫폼 총계 | AMO 노출 횟수, AMO 클릭 수, AMO 비용, AMO 평균으로 분류된 최상위 플랫폼의 자유 형식 테이블. 위치, AMO 평균. 품질 점수입니다. |
 | 계정 | 비용의 누적 영역. |
 | 계정 합계 | 연관된 지표로 분류된 최상위 계정의 자유 형식 테이블. |

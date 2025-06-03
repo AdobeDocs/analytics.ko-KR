@@ -3,7 +3,7 @@ description: Advertising Analytics에 대해 자주 묻는 질문입니다.
 title: Advertising Analytics에 대해 자주 묻는 질문
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 37%
@@ -16,7 +16,7 @@ ht-degree: 37%
 
 +++ 이 기능에 액세스하려면 Adobe Advertising Cloud 또는 AMO(Adobe Advertising Cloud) 고객이어야 합니까?
 
-아니요. 이 기능은 Advertising Cloud 및 AMO가 아닌 고객도 사용할 수 있습니다.
+아니요. 이 기능은 Advertising Cloud 및 AMO를 사용하지 않는 고객도 사용할 수 있습니다.
 
 AMO 고객은 기존의 Analytics-AMO 통합을 활용할 수 있으며, Ad Analytics를 사용할 수 없습니다.
 
@@ -46,7 +46,7 @@ Adobe Analytics에서 Advertising Analytics 사용 가능
 
 +++
 
-+++ 이미 Advertising Cloud/AMO를 사용하고 있는 경우 여전히 Advertising Analytics 기능을 사용할 수 있습니까?
++++ 이미 Advertising Cloud/AMO를 사용하고 있는 경우에도 Advertising Analytics 기능을 사용할 수 있습니까?
 
 호환되는 검색 엔진 계정은 모두 Advertising Analytics으로 전달되고 읽기 전용으로 표시됩니다. 모든 편집 또는 업데이트는 Advertising Cloud/AMO에서 처리해야 합니다.
 
@@ -62,19 +62,19 @@ Advertising Analytics은 Adobe Analytics 관리자만 사용할 수 있습니다
 
 +++ Advertising Analytics에는 어떤 검색 엔진 계정이 포함됩니까?
 
-검색 엔진 계정에는 Google AdWords 및 Microsoft Bing이 포함됩니다.
+검색 엔진 계정에는 Google Ads 및 Microsoft Advertising이 포함됩니다.
 
 +++
 
 +++ Advertising Analytics에 액세스하려면 어디로 이동합니까?
 
-Adobe Analytics에 로그인한 후 [!UICONTROL 관리자] (으)로 이동합니다. 그런 다음 [!UICONTROL Advertising Analytics]을(를) 선택하여 검색 엔진 계정을 추가합니다.
+Adobe Analytics에 로그인한 후 [!UICONTROL 관리자]&#x200B;(으)로 이동합니다. 그런 다음 [!UICONTROL Advertising Analytics]을(를) 선택하여 검색 엔진 계정을 추가합니다.
 
 +++
 
 +++ 데이터를 수집하여 Analytics로 전달하는 방법은 무엇입니까?
 
-Advertising Analytics은 일련의 사용자 지정 API를 사용하여 Adobe Advertising Cloud을 통해 검색 엔진의 데이터를 Analytics에 전달합니다.
+Advertising Analytics은 일련의 사용자 지정 API를 사용하여 Adobe Advertising Cloud를 통해 검색 엔진의 데이터를 Analytics에 전달합니다.
 
 +++
 

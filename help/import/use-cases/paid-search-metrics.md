@@ -1,20 +1,20 @@
 ---
 title: 유료 검색 지표 가져오기
-description: '데이터 소스를 사용하여 유료 검색 지표(예: Google AdWords, MSN, Yahoo 등)를 추적하도록 Adobe Analytics를 구성하는 단계.'
+description: '데이터 소스를 사용하여 유료 검색 지표(예: Google 광고, Microsoft Advertising 등)를 추적하도록 Adobe Analytics을 구성하는 단계입니다.'
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
 # [!UICONTROL 데이터 소스]를 사용하여 [!UICONTROL 유료 검색] 지표 가져오기
 
-많은 마케팅 조직에서 신규 고객에게 도달하고 기존 고객을 유지하는 가장 유용하고 믿을 수 있는 방법 중 하나가 유료 검색입니다. Adobe Analytics의 [!UICONTROL 데이터 소스] 기능을 사용하면 Google AdWords와 같은 디지털 광고 플랫폼에서 고급 유료 검색 데이터를 쉽게 가져올 수 있습니다. 현장 행동 및 고객 속성 데이터와 더불어 마케팅 데이터의 나머지 부분과 통합하여 조직의 유료 검색 활동에 대한 더 나은 통찰력을 얻을 수 있습니다.
+많은 마케팅 조직에서 신규 고객에게 도달하고 기존 고객을 유지하는 가장 유용하고 믿을 수 있는 방법 중 하나가 유료 검색입니다. Adobe Analytics의 [!UICONTROL Data Sources] 기능을 사용하면 Google Ads와 같은 디지털 광고 플랫폼에서 고급 유료 검색 데이터를 쉽게 가져올 수 있습니다. 현장 행동 및 고객 속성 데이터와 더불어 마케팅 데이터의 나머지 부분과 통합하여 조직의 유료 검색 활동에 대한 더 나은 통찰력을 얻을 수 있습니다.
 
-이 단계에서는 키워드 데이터와 노출수, 클릭수, 클릭당 비용 등의 지표를 가져오도록 AdWords와의 통합을 구성하는 방법을 보여 줍니다.
+이 단계에서는 키워드 데이터와 노출수, 클릭수, 클릭당 비용 등의 지표를 가져오도록 Ads와의 통합을 구성하는 방법을 보여 줍니다.
 
 클릭당 과금 데이터의 일회성 가져오기를 설정하는 방법을 설명하는 단계입니다. 단, [!UICONTROL 데이터 소스]에서는 여기에 설명된 파일 형식을 사용하여 데이터를 지속적으로 가져올 수 있습니다. 유료 검색 플랫폼에 따라 정기적 내보내기(매일, 매월 등)를 예약하고, 이러한 내보내기를 Adobe Analytics에 필요한 파일 형식으로 변환하는 자동화된 프로세스를 설정하고, 유료 검색 통합 보고를 진행하기 위해 이러한 파일을 Adobe Analytics에 업로드할 수 있습니다.
 
@@ -58,7 +58,7 @@ ht-degree: 97%
    ![데이터 소스](assets/data-sources.png)
 
 1. **[!UICONTROL 유형 선택]**&#x200B;에서 **[!UICONTROL 범용 클릭당 과금 서비스]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 활성화]**를 클릭합니다.
 [!UICONTROL 데이터 소스 활성화 마법사]가 표시됩니다.
 
    ![활성화 마법사](assets/ds-activation-wizard.png)
@@ -78,14 +78,14 @@ ht-degree: 97%
    ![요약](assets/data-source-summary.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 다운로드]**&#x200B;를 클릭하여 이 데이터 소스의 템플릿 파일을 다운로드합니다.
+1. **[!UICONTROL 다운로드]**를 클릭하여 이 데이터 소스의 템플릿 파일을 다운로드합니다.
 파일 이름은 처음에 지정한 데이터 소스 유형과 일치합니다. - 이 경우 “범용 클릭당 과금 서비스 template.txt”입니다.
 1. 즐겨 사용하는 텍스트 편집기에서 템플릿을 엽니다.
 파일은 이미 지표와 차원 및 해당 매핑으로 채워져 있습니다.
 
 ## PPC 데이터 내보내기 및 Analytics에 업로드
 
-Google Adwords, MSN, Yahoo 및 기타 PPC 계정에 대해 이와 유사한 단계를 수행합니다.
+Google 광고, Microsoft Advertising 및 기타 PPC 계정에 대해 작동하는 것과 유사한 단계입니다.
 
 ### 데이터 내보내기
 
@@ -100,9 +100,9 @@ Google Adwords, MSN, Yahoo 및 기타 PPC 계정에 대해 이와 유사한 단�
 1. 맨 위에 있는 추가 행을 삭제합니다.
 1. 대상 URL에서 추적 코드를 분리하려면 다음 단계를 따르십시오.
 a. 모든 열에서 데이터를 복사하여 붙여넣습니다.
-b. **[!UICONTROL 데이터 > 텍스트 나누기]**&#x200B;를 클릭합니다.
-c. 마법사의 1단계에서 **[!UICONTROL 구분]**&#x200B;이 선택되었는지 확인하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
-d. 마법사의 2단계에서 URL을 어떻게 만들었는지에 따라 구분 기호를 지정하고(? 또는 &amp;) **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+b. **[!UICONTROL 데이터 > 텍스트 나누기]**를 클릭합니다.
+c. 마법사의 1단계에서 **[!UICONTROL 구분]**&#x200B;이 선택되었는지 확인하고 **[!UICONTROL 다음]**을 클릭합니다.
+d. 마법사의 2단계에서 URL을 어떻게 만들었는지에 따라 구분 기호를 지정하고(? 또는 &amp;) **[!UICONTROL 다음]**을 클릭합니다.
 e. 마법사의 3단계에서 데이터를 미리 보고 열 중 하나가 “trackingcodename=trackingcode”인지 확인합니다. 추가 변수가 있는 경우 이 단계를 반복합니다(구분 기호로 &amp; 사용).
 f. 추적 코드, 노출수, 클릭수 및 비용을 제외한 모든 열을 삭제합니다. 날짜라는 새 열을 추가하고 날짜 :: 추적 코드 :: 노출수 :: 클릭수 :: 비용의 순서로 열을 구성합니다.
 1. 위의 “데이터 소스 설정” 섹션에서 다운로드한 템플릿에 이 데이터를 추가합니다.
@@ -118,7 +118,7 @@ f. 추적 코드, 노출수, 클릭수 및 비용을 제외한 모든 열을 삭
 
 계산된 지표를 추가하면 클릭당 과금 결정을 내릴 때 도움이 됩니다.
 
-예를 들어 다음 [계산된 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko#calculated-metrics)를 추가할 수 있습니다.
+예를 들어 다음 [계산된 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics)를 추가할 수 있습니다.
 
 | 이름 | 공식 | 지표 유형 | 설명 |
 | --- | --- | --- | --- |

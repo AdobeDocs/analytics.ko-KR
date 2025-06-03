@@ -3,10 +3,10 @@ description: 추적 유형은 Adobe Analytics 구현이 검색 엔진 데이터�
 title: 추적 유형
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 32%
+source-wordcount: '572'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 32%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/33294/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
@@ -26,7 +26,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 ## [!UICONTROL 자동] 추적 {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL 자동] 추적을 사용하면 Advertising Cloud 엔진이 검색 엔진 데이터를 처리하는 방법을 결정할 수 있습니다. 자동 추적은 더 간단한 방법이지만 최상의 통합 데이터 세트를 생성하지 않을 수 있습니다.
+[!UICONTROL 자동] 추적을 사용하면 Advertising Cloud 엔진에서 검색 엔진 데이터를 처리하는 방법을 결정할 수 있습니다. 자동 추적은 더 간단한 방법이지만 최상의 통합 데이터 세트를 생성하지 않을 수 있습니다.
 
 따라서 계정 설정을 저장하려면 **[!UICONTROL 자동]**&#x200B;을 선택할 때 승인 확인란을 선택해야 합니다.
 
@@ -37,7 +37,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/ko/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보십시오.
+>`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보십시오.
 
 ## 수동 추적 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -92,13 +92,13 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### Bing 계정에 수동 추적 추가 {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### Microsoft Advertising 계정에 수동 추적 추가 {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-Bing 계정에 추가해야 하는 문자열이 아래에 표시되어 있습니다. 계정 전체에 사용된 모든 최종 URL 접미사에 이 문자열을 추가해야 합니다.
+Microsoft Advertising 계정에 추가해야 하는 문자열이 아래에 표시되어 있습니다. 계정 전체에 사용된 모든 최종 URL 접미사에 이 문자열을 추가해야 합니다.
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_값 (아래에&#x200B;**굵게**&#x200B;표시됨)은 제네릭이므로,**특정 계정 ID 문자열로 대체해야**&#x200B;합니다. 계정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
+>_`<Advertising Analytics ID>`_값 (아래에&#x200B;**굵게**표시됨)은 제네릭이므로,**특정 계정 ID 문자열로 대체해야**합니다. 계정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
 
 **캠페인에 대한 추적 문자열:**
 
@@ -106,7 +106,7 @@ Bing 계정에 추가해야 하는 문자열이 아래에 표시되어 있습니
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![추적 코드 매개 변수 추가](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 다양한 최종 URL 접미사 형식의 추적 코드 예제:
 
