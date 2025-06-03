@@ -6,7 +6,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="제품 호환성"
->abstract="일부 사용 가능한 세그먼트 기준은 모든 Adobe Analytics 도구와 호환되지 않습니다. 이 목록에는 세그먼트와 호환되는 도구가 표시되어 있습니다. 세그먼트가 모든 Adobe Analytics 도구와 호환되도록 하려면 기준을 편집하십시오."
+>abstract="사용 가능한 세그먼트 기준 중 일부는 모든 Adobe Analytics 도구와 호환되지 않습니다. 해당 세그먼트와 호환되는 도구는 이 목록에 표시되어 있습니다. 세그먼트를 모든 Adobe Analytics 도구와 호환되게 하려면 현재 설정되어 있는 기준을 편집하십시오."
 
 <!-- markdownlint-disable MD034 -->
 
@@ -49,7 +49,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="인스턴스"
->abstract="차원의 인스턴스를 포함합니다."
+>abstract="차원에 대한 인스턴스를 포함합니다."
 
 <!-- markdownlint-enable MD034 -->
 
