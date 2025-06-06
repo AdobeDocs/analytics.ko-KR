@@ -4,10 +4,10 @@ keywords: 데이터 피드, 작업, 지표, 이전 열, 이후 열, 보트 수, 
 title: 지표 계산
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 95%
+source-wordcount: '499'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->일반적으로 Adobe Analytics에서 제외된 히트는 데이터 피드에 포함됩니다. 원시 데이터의 쿼리에서 제외된 히트를 제거하려면 `exclude_hit = 0`을 사용합니다. 데이터 소스 데이터도 데이터 피드에 포함됩니다. 데이터 소스를 제외하려면 `hit_source = 5,7,8,9`가 있는 행을 모두 제외합니다.
+>일반적으로 Analysis Workspace에서 제외된 히트는 데이터 피드에 포함됩니다. 관련 있는 경우 쿼리에 다음 조건을 추가하는 것이 좋습니다.
+>
+>* **`exclude_hit`**: Analysis Workspace에는 `exclude_hit = 0`인 데이터만 포함됩니다.
+>* **`customer_perspective`**: 모바일 배경 히트가 포함된 가상 보고서 세트를 사용하지 않는 한 Analysis Workspace에는 `customer_perspective = 0`인 데이터만 포함됩니다.
+>* **`hit_source`**: 데이터 원본의 데이터에는 원시 데이터와 Analysis Workspace 간의 차이가 있을 수 있습니다. 데이터 소스에서 히트를 제외하려면 `hit_source = 5,7,8,9`인 행을 모두 제외합니다.
 
 ## 페이지 보기 횟수
 
@@ -38,7 +42,7 @@ ht-degree: 95%
 
 ## 방문자 수
 
-Adobe가 고유 방문자 수 (사용자 지정 방문자 ID, Experience Cloud ID 서비스 등)를 식별하는 데 사용하는 모든 방법은 궁극적으로 모두 `post_visid_high` 및 `post_visid_low`의 값으로 계산됩니다. 이러한 두 열의 연결은 고유 방문자로 식별된 방식과 관계없이 고유 방문자 수를 식별하는 표준으로 사용될 수 있습니다. Adobe가 고유 방문자를 식별하는 데 사용한 방법을 이해하려면 열 `post_visid_type`을 사용하십시오.
+Adobe이 고유 방문자 수(사용자 지정 방문자 ID, Experience Cloud ID 서비스 등)를 식별하는 데 사용하는 모든 메서드는 궁극적으로 모두 `post_visid_high` 및 `post_visid_low`의 값으로 계산됩니다. 이러한 두 열의 연결은 고유 방문자로 식별된 방식과 관계없이 고유 방문자 수를 식별하는 표준으로 사용될 수 있습니다. Adobe가 고유 방문자를 식별하는 데 사용한 방법을 이해하려면 열 `post_visid_type`을 사용하십시오.
 
 1. `post_visid_high`와 `post_visid_low`를 연결합니다.
 2. 고유 값 수를 카운트합니다.
