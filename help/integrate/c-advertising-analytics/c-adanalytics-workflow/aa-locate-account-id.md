@@ -6,7 +6,7 @@ exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -45,9 +45,9 @@ Google Ads 및 Microsoft Advertising에 대한 계정 ID를 찾는 방법에 대
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="계정 ID"
->abstract="&#39;계정 ID&#39;는 Microsoft Advertising 인터페이스에 있는 숫자 값입니다. 설정 > 계정 설정 > 계정 ID로 이동하여 찾을 수 있습니다."
+>abstract="“계정 ID”는 Microsoft Advertising 인터페이스에 있는 숫자 값입니다. 설정 > 계정 설정 > 계정 ID에서 찾을 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
 >title="관리자 계정 ID"
->abstract="&#39;관리자 계정 ID&#39;는 Microsoft Advertising 인터페이스에 있는 숫자 값입니다. 설정 > 관리자 계정 설정 > 관리자 계정 ID로 이동하여 찾을 수 있습니다."
+>abstract="“관리자 계정 ID”는 Microsoft Advertising 인터페이스에 있는 숫자 값입니다. 설정 > 관리자 계정 설정 > 관리자 계정 ID에서 찾을 수 있습니다."

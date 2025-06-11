@@ -6,7 +6,7 @@ exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 source-git-commit: d9f95b12a43305cecff1190e6544334f3b48835d
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 50%
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
 >title="제품 호환성"
->abstract="&#39;사용 가능한 적은 수의 지표 기준이 모든 Adobe Analytics 도구와 호환되는 것은 아닙니다. 이 목록에는 지표와 호환되는 도구가 표시되어 있습니다. 지표를 모든 Adobe Analytics 도구와 호환되도록 하려면 기준을 편집해 보십시오."
+>abstract="사용 가능한 지표 기준 중 일부는 모든 Adobe Analytics 도구와 호환되지 않습니다. 이 목록에는 해당 지표와 호환되는 도구가 표시됩니다. 지표를 모든 Adobe Analytics 도구와 호환되게 하려면 현재 설정되어 있는 기준을 편집하십시오."
 
 이 문서에서는 세 가지 제품 호환성 옵션에 대해 설명합니다.
 

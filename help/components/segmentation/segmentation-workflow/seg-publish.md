@@ -6,7 +6,7 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
 >title="Experience Cloud 게시"
->abstract="이 세그먼트에서 파생된 대상을 Target 및 기타 Experience Cloud 솔루션의 마케팅 활동에 사용할 수 있는 대상 라이브러리에 게시할 수 있습니다."
+>abstract="이 세그먼트에서 파생된 대상자를 대상자 라이브러리에 게시할 수 있으므로 Target 및 기타 Experience Cloud 솔루션에서 마케팅 활동에 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audienclibrary"
 >title="대상자 라이브러리"
->abstract="대상 라이브러리에서 만든 세그먼트는 즉시 사용할 수 있으며 Analytics 업데이트에 종속되지 않습니다."
+>abstract="대상자 라이브러리에서 만든 세그먼트는 즉시 사용할 수 있으며 Analytics 업데이트에 종속되지 않습니다."
 
 
 Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를 [!DNL Audience Manager]의 마케팅 활동과 Adobe의 [!DNL Advertising Cloud], [!DNL Target] 및 [!DNL Campaign]을(를) 포함한 다른 활성화 채널에서 사용할 수 있습니다.
@@ -30,7 +30,7 @@ Analytics 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 게시](https://video.tv.adobe.com/v/37037?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 게시](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Analytics 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 �
 ## [!UICONTROL 세그먼트 빌더]에서 세그먼트 게시
 
 1. Adobe Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**(으)로 이동
-1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**&#x200B;를 선택하십시오.
+1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**를 선택하십시오.
    ![Experience Cloud 게시](assets/publish-ec.png)
 1. 세그먼트의 제목과 설명을 입력합니다. 저장하기 전에 이러한 필드가 필요합니다.
 1. **[!UICONTROL Experience Cloud 게시]** 섹션에서 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]** 옵션을 선택합니다.
