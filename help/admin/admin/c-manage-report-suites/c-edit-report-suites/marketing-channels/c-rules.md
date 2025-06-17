@@ -4,7 +4,7 @@ description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
+source-git-commit: fc8882a33227b1f1ed22cab95b5df3ea51e62d43
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 91%
@@ -82,7 +82,7 @@ ht-degree: 91%
 | 레퍼러가 내부 URL 필터를 일치시킴 | 페이지 URL이 관리자 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하는 방문입니다. |
 | 레퍼러가 내부 URL 필터를 일치시키지 않음 | 참조하는 URL이 관리자 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하지 않습니다. 페이지 URL 및 존재와 함께 이 설정을 사용하여 보고서의 식별된 채널 없음 섹션에 도착하는 방문이 없도록 다목적 캐치(catch-all) 규칙을 설정할 수 있습니다. |
 | 내부 URL 필터와 일치하는 히트 무시 | (레퍼러의 경우) 외부에서 추천한 사이트에서 온 히트만 추적합니다. 일반적으로 내부 트래픽을 포함하기를 원하지 않는 한 이 옵션을 계속 사용하도록 설정하십시오. |
-| 방문의 첫 번째 페이지임 | Adobe 보고에 의해 발견된 첫 방문 페이지 |
+| 방문의 첫 번째 히트 | Adobe 보고에서 감지된 방문의 첫 번째 히트입니다. |
 | 페이지 | [페이지](/help/components/dimensions/page.md) 차원. |
 | 페이지 도메인 | 방문자가 들어오는 페이지의 도메인(예: `products.example.com`). |
 | 페이지 도메인 및 경로 | `products.example.com/mens/pants/overview.html`과 같은 도메인과 경로. |
@@ -165,7 +165,7 @@ Adobe는 검색 엔진의 내부 조회를 기반으로 검색 트래픽을 판�
 
 ![](assets/int-channel1.png)
 
-이 채널이 발생하는 이유에 대한 자세한 내용은 [내부(세션 새로 고침) 이유](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=ko#internal)를 참조하십시오.
+이 채널이 발생하는 이유에 대한 자세한 내용은 [내부(세션 새로 고침) 이유](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal)를 참조하십시오.
 
 ### 직접 {#direct}
 
