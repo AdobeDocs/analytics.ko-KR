@@ -186,7 +186,7 @@ Adobe Analytics는 차원, 지표, 세그먼트 및 함수를 끌어다 놓음�
 >[!MORELIKETHIS]
 >
 >[함수 사용](cm-using-functions.md)
->>[세그먼트](/help/components/segmentation/seg-overview.md)
+>&#x200B;>[세그먼트](/help/components/segmentation/seg-overview.md)
 >
 
 
