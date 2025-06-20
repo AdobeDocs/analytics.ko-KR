@@ -121,7 +121,7 @@ ht-degree: 99%
 Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습니다.
 
 - [세그먼트를 비교](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)할 수 있습니다.
-- 비교에서 [세그먼트를 차원으로](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 사용합니다.
+- 비교에서 [세그먼트를 차원으로](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko) 사용합니다.
 - [폴아웃 분석](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)에서 세그먼트를 사용합니다.
 
 ## Adobe 제공 세그먼트
@@ -279,7 +279,7 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 +++ **세그먼트를 사용하고 만들고 관리하는 데 필요한 권한**
 
-기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
+기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
 관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. 역할별 [세그먼트 권한](/help/components/segmentation/seg-reference/seg-rights.md)
 
