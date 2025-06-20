@@ -3,37 +3,63 @@ description: 계산된 지표 빌더를 사용하여 누구나 기여도 지표�
 title: 기여도 지표
 feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 183f6e39fb1d14b7b29817e76da0302ba23cd5d6
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 37%
+source-wordcount: '189'
+ht-degree: 6%
 
 ---
 
-# “참여도” 지표 작성
+# 기여도 지표
 
-다음 정보는 주문이 포함된 방문에 기여한(또는 참여한) 페이지를 보여 주는 지표를 만드는 방법을 설명합니다.
 
-이 유형의 정보는 모든 콘텐츠 소유자에게 유용할 수 있습니다.
+기여도 지표는 차원(예: 페이지 보기 수)에 대한 개별 값이 특정 지표(예: 주문 수)를 포함하는 방문에 기여하거나 참여하는 방식을 수량화하는 데 사용됩니다.
+
+아래 단계는 기여도 지표를 만드는 방법을 보여 줍니다.
+
+1. [계산된 지표를 만듭니다](../cm-workflow.md). [계산된 지표 빌더](cm-build-metrics.md)에서 지표 이름을 `Orders (Visit Participation)` 또는 이와 유사하게 지정합니다.
+1. 성공 이벤트(예: [!DNL Online Orders])가 포함된 지표를 [!UICONTROL **[!UICONTROL 정의]**] 영역으로 끌어서 놓습니다.
+1. 지표에 대해 ![톱니바퀴](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)를 선택합니다.
+1. 표시되는 팝업에서 **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 선택하여 해당 이벤트의 [속성 모델](m-metric-type-alloc.md#attribution-models)을(를) **[!UICONTROL 참여]**&#x200B;에 정의하고 [!UICONTROL 컨테이너]에 대해 **[!UICONTROL 방문]**&#x200B;을(를) 선택합니다. **[!UICONTROL 적용]**&#x200B;을 선택하여 확인하십시오.
+
+
+   ![기여도를 모델로 선택하고 방문을 컨테이너로 선택한 것을 표시하는 열 속성 모델 팝업입니다.](assets/participation-setup.png)
+
+   **(파티션|방문|30일)**&#x200B;이(가) 지표 구성 요소 이름에 추가되었습니다.
+
+
+
+1. 지표를 저장하려면 [!UICONTROL **저장**]&#x200B;을 선택하십시오.
+1. 보고서에서 계산된 지표를 사용합니다. 예를 들어 보고서에 계산된 [!DNL Orders (Session Participation)] 지표를 사용하여 주문이 포함된 세션에 기여한(또는 참여한) 고객 계층을 표시합니다.
+
+   ![고객 계층 및 주문을 표시하는 자유 형식 테이블입니다.](assets/participation-pages-customer-tier.png)
+
+
+<!--
+
+The following information explains how to create a metric that shows which pages contributed to (or participated in) visits that contained an order.
+
+This type of information could be useful for any content owner.
 
 >[!NOTE]
 >
->관리 도구에서 기여도 지표를 활성화할 수 있지만, 사용자 지정 이벤트 1 - 100에 대해서만 가능합니다.
+>You can enable participation metrics in the Admin Tools, but only for custom events 1 - 100.
 
-1. [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)에 설명된 대로 계산된 지표를 만들기 시작합니다.
+1. Begin creating a calculated metric, as described in [Build metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. 계산된 지표 빌더에서 지표의 이름을 &quot;기여도&quot;로 지정합니다.
+1. In the Calculated metrics builder, name the metric "Participation".
 
-1. 성공 이벤트 &quot;주문&quot;을 정의 캔버스로 드래그합니다.
+1. Drag the success event "Orders" into the Definition canvas.
 
-1. 해당 이벤트의 [기여도 분석 모델](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)을 **[!UICONTROL 설정]** 톱니바퀴 아래에 있는 **[!UICONTROL 기여도]**&#x200B;로 변경합니다. **[!UICONTROL 방문]** 전환 확인을 선택합니다. 정의 모양은 다음과 같아야 합니다.
+1. Change the [attribution model](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) of that event to **[!UICONTROL Participation]** under the **[!UICONTROL Settings]** gear. Select **[!UICONTROL Visit]** lookback. The definition should look similar to this:
 
    ![](assets/participation.png)
 
-1. 지표를 저장하려면 [!UICONTROL **저장**]&#x200B;을 선택하십시오.
+1. Select [!UICONTROL **Save**] to save the metric.
 
-1. **[!UICONTROL 페이지]** 보고서에서 계산된 지표를 사용합니다.
+1. Use the calculated metric in a **[!UICONTROL Pages]** report.
 
-   ![](assets/participation-pages.png)
+    ![](assets/participation-pages.png)
 
-1. (선택 사항) [계산된 지표 공유](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)에 설명된 대로 조직의 다른 사용자와 지표를 공유합니다.
+1. (Optional) Share the metric with other users in your organization, as described in [Share calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+-->

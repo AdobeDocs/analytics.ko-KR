@@ -4,9 +4,9 @@ description: Analysis Workspace에서 속성 패널을 사용하고 해석하는
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '692'
+source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+workflow-type: tm+mt
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
@@ -92,9 +92,17 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
 {{attribution-models-details}}
 
+## 컨테이너
+
+{{attribution-container}}
+
 ## 전환 확인 기간
 
 {{attribution-lookback-window}}
+
+## 예
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >
@@ -106,7 +114,7 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/33011/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Create an attribution panel
 

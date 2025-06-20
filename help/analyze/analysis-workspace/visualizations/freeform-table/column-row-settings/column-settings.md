@@ -5,9 +5,9 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
-source-wordcount: '860'
+source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+workflow-type: tm+mt
+source-wordcount: '862'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/328503/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -108,10 +108,20 @@ Analysis Workspace에서 지표에 대해 비기본 속성 모델을 사용하�
 
 {{attribution-models-details}}
 
+
+### 컨테이너
+
+{{attribution-container}}
+
+
 ### 전환 확인 기간
 
 {{attribution-lookback-window}}
 
+
+### 예
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >
@@ -120,7 +130,7 @@ Analysis Workspace에서 지표에 대해 비기본 속성 모델을 사용하�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 열](https://video.tv.adobe.com/v/33022?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 열](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

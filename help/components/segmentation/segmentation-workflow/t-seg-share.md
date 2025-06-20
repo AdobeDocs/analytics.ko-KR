@@ -3,10 +3,10 @@ description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용
 title: 세그먼트 공유
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 96%
+source-wordcount: '426'
+ht-degree: 61%
 
 ---
 
@@ -25,12 +25,31 @@ ht-degree: 96%
 * 관리자는 세그먼트가 팀에게 유용한 비즈니스 가치를 제공하는 경우 특정 **[!UICONTROL 그룹]**&#x200B;과 세그먼트를 공유할 수 있습니다. 이 유형의 세그먼트는 공식적으로 승인하지 마십시오.
 * 관리자 또는 개인 사용자는 다른 사용자와 세그먼트를 공유하여 세그먼트를 수정하고 유효성을 검증합니다. 유용하지 않다고 확인되면 삭제할 수 있습니다. 이 유형의 세그먼트는 공식적으로 승인하지 마십시오.
 
-1. 세그먼트 관리자에서 공유할 세그먼트 옆의 확인란을 선택합니다. 세그먼트 관리 도구 모음이 나타납니다.
+1. 세그먼트 관리자에서 공유할 세그먼트 옆의 확인란을 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택합니다.
+1. ![공유](/help/assets/icons/Share.svg) 공유를 선택하십시오.
+1. **[!UICONTROL 세그먼트 공유]** 대화 상자에서:
 
-2. **[!UICONTROL 공유]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)을 클릭합니다.
+   ![세그먼트 공유](assets/share-segments-dialog.png)
 
-   관리자는 **[!UICONTROL 모두]**&#x200B;를 선택하거나 조직의 **[!UICONTROL 그룹]** 및 **[!UICONTROL 사용자]**&#x200B;를 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. **[!UICONTROL 검색]** 필드를 사용하여 그룹 또는 사용자를 검색합니다. 1. **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
+   관리자는 **[!UICONTROL 모두]**&#x200B;를 선택하거나 조직의 **[!UICONTROL 그룹]** 및 **[!UICONTROL 사용자]**&#x200B;를 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. **[!UICONTROL 검색]** 필드를 사용하여 그룹 또는 사용자를 검색합니다. 1.
+
+   1. (선택 사항) 세그먼트를 공유할 그룹 또는 개인의 목록을 ![검색](/help/assets/icons/Search.svg)을 사용하여 *개인 또는 그룹을 검색*&#x200B;하고 제한하십시오.
+
+   1. 세그먼트를 공유하려면 **[!UICONTROL 저장]**&#x200B;을 선택하세요. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
+
+
+
 
     세그먼트 옆에 공유 아이콘이 표시됩니다.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
-3. **[!UICONTROL 필터]** > **[!UICONTROL 기타 필터]** > **[!UICONTROL 나와 공유]**&#x200B;로 이동하여 사용자와 공유되는 세그먼트를 필터링할 수 있습니다.
+1. **[!UICONTROL 필터]** > **[!UICONTROL 기타 필터]** > **[!UICONTROL 나와 공유]**&#x200B;로 이동하여 사용자와 공유되는 세그먼트를 필터링할 수 있습니다.
+
+## 모범 사례
+
+다음은 세그먼트를 공유해야 할 때와 세그먼트를 공유해야 하는 몇 가지 모범 사례입니다.
+
+* 관리자는 조직의 모든 사람이 세그먼트를 사용하는 데 익숙하다고 확신하는 경우에만 모든 사람과 세그먼트를 공유합니다. 이러한 세그먼트를 선호하는 것도 고려할 수 있습니다. 자세한 내용은 [세그먼트를 즐겨찾기로 표시](t-seg-favorite.md)를 참조하십시오.
+
+* 관리자는 세그먼트가 특정 그룹의 사용자에게 비즈니스 가치를 제공하는 경우 해당 그룹과 세그먼트를 공유할 수 있습니다.
+
+* 관리자 또는 개별 사용자는 한 명 이상의 개인과 세그먼트를 공유하여 세그먼트의 유효성을 검사합니다. 세그먼트가 유용하지 않은 것으로 판명되면 세그먼트를 삭제할 수 있습니다.

@@ -1,18 +1,18 @@
 ---
-description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Warehouse와 호환되는 것은 아닙니다. 이 표에는 지원되는 기능이 표시되어 있습니다.
+description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Warehouse와 호환되는 것은 아닙니다. 이 테이블에는 지원되는 기능이 표시되어 있습니다.
 title: Data Warehouse 세그먼트 기능
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Data Warehouse 세그먼트 기능
+# Data Warehouse 세그먼트 호환성
 
-세그먼트 빌더에서 만든 모든 세그먼트가 [!DNL Data Warehouse]와 호환되는 것은 아닙니다. 이 표에는 지원되는 기능이 표시되어 있습니다.
+세그먼트 빌더에서 만든 모든 세그먼트가 [!DNL Data Warehouse]과(와) 호환되는 것은 아닙니다. 이 테이블에는 지원되는 기능이 표시되어 있습니다.
 
 <table> 
  <thead> 
@@ -36,7 +36,7 @@ ht-degree: 100%
   <tr> 
    <td> <b>AND 및 OR은 제한없이 조합할 수 있음</b> </td> 
    <td> 지원됨 </td> 
-   <td> 일부 제한 적용. 표 아래의 *참고*를 참조하십시오. </td> 
+   <td> 일부 제한 적용. 테이블 아래의 *참고*를 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td> <b>중첩 컨테이너</b> </td> 
@@ -76,7 +76,7 @@ ht-degree: 100%
      <li>페이지를 찾을 수 없음 </li> 
      <li>유료 검색 </li> 
      <li>사분기 </li> 
-     <li>반환 주기 </li> 
+     <li>반환 빈도 </li> 
      <li>단일 페이지 방문 횟수 </li> 
      <li>이벤트까지 남은 시간 </li> 
      <li>페이지 체류 시간 - 버킷 지정됨 </li> 

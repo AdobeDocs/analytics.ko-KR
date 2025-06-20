@@ -3,7 +3,7 @@ description: 계산된 지표 권한은 관리자 수준 사용자와 관리자�
 title: 계산된 지표 역할 기반 권한
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 81%

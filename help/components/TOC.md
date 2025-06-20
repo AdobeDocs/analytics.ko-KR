@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # [!DNL Adobe Analytics] 구성 요소 안내서 {#components}
 
 + [Analytics Components 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 차원 {#dimensions}
    + [차원 개요](dimensions/overview.md)
    + [차원 호환성](dimensions/compatibility.md)
@@ -92,7 +92,7 @@ ht-degree: 100%
    + [레퍼러](dimensions/referrer.md)
    + [참조 도메인](dimensions/referring-domain.md)
    + [지역](dimensions/regions.md)
-   + [재방문 주기](dimensions/return-frequency.md)
+   + [재방문 빈도](dimensions/return-frequency.md)
    + [검색 엔진](dimensions/search-engine.md)
    + [검색 키워드](dimensions/search-keyword.md)
    + [서버](dimensions/server.md)
@@ -180,22 +180,24 @@ ht-degree: 100%
    + [세그먼트 컨테이너 정보](segmentation/seg-containers.md)
    + [Analysis Workspace의 세분화 기능](segmentation/segmentation-in-analysis-workspace.md)
    + 세분화 워크플로 {#segmentation-workflow}
-      + [세분화 워크플로 개요](segmentation/segmentation-workflow/seg-workflow.md)
-      + [계획 세그먼트](segmentation/segmentation-workflow/seg-plan.md)
+      + [개요](segmentation/segmentation-workflow/seg-workflow.md)
+      + [세그먼트 계획 수립](segmentation/segmentation-workflow/seg-plan.md)
+      + [세그먼트 만들기](segmentation/segmentation-workflow/seg-create.md)
       + [세그먼트 작성](segmentation/segmentation-workflow/seg-build.md)
-      + [순차적 세그먼트 작성](segmentation/segmentation-workflow/seg-sequential-build.md)
-      + [세그먼트에 태그 지정](segmentation/segmentation-workflow/seg-tag.md)
-      + [세그먼트 승인](segmentation/segmentation-workflow/seg-approve.md)
+      + [빠른 세그먼트](segmentation/segmentation-workflow/seg-quick.md)
+      + [순차적 세그먼트](segmentation/segmentation-workflow/seg-sequential-build.md)
       + [세그먼트 공유](segmentation/segmentation-workflow/t-seg-share.md)
-      + [Experience Cloud에 세그먼트 퍼블리싱](segmentation/segmentation-workflow/seg-publish.md)
-      + [세그먼트 선택 및 적용](segmentation/segmentation-workflow/t-seg-apply.md)
-      + [세그먼트 필터링](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [세그먼트에 태그 지정](segmentation/segmentation-workflow/seg-tag.md)
+      + [세그먼트 목록 필터링](segmentation/segmentation-workflow/t-seg-filter.md)
       + [세그먼트를 즐겨찾기로 표시](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [세그먼트 승인](segmentation/segmentation-workflow/seg-approve.md)
       + [세그먼트 삭제](segmentation/segmentation-workflow/seg-delete.md)
       + [세그먼트 복사](segmentation/segmentation-workflow/seg-copy.md)
       + [세그먼트 관리](segmentation/segmentation-workflow/seg-manage.md)
+      + [Experience Cloud에 세그먼트 퍼블리싱](segmentation/segmentation-workflow/seg-publish.md)
+      + [세그먼트 선택 및 적용](segmentation/segmentation-workflow/t-seg-apply.md)
    + 세그먼트 참조 {#segment-reference}
-      + [세그먼트의 비교 연산자](segmentation/seg-reference/seg-operators.md)
+      + [연산자](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse 세그먼트 호환성](segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
@@ -208,9 +210,9 @@ ht-degree: 100%
       + [계산된 지표 워크플로](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [“방문자 수당 페이지 조회수” 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [“주문 지원” 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [“참여도” 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [간단한 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [더 복잡한 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [참여도 지표 빌드](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [세분화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [세그먼트 스택 및 바꾸기](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)

@@ -4,9 +4,9 @@ keywords: 계산된 지표;고급 계산된 지표
 title: 계산된 지표 및 고급 계산된 지표
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '552'
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+workflow-type: tm+mt
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -41,10 +41,9 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 * [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]에서 지표를 만들 수 있습니다.
 * 구현을 변경하지 않고도 보고서 실행 시 파생된 세그먼트화된 지표를 만들 수 있습니다. 이러한 지표는 세그먼트를 기반으로 하므로 기록에서 볼 수 있습니다.
 
-
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표](https://video.tv.adobe.com/v/32607?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -54,14 +53,7 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 * (고급 계산된 지표만 해당) 통계 함수를 통합하여 데이터를 더욱 효율적으로 설명할 수 있습니다. 예를 들어 보고서에 있는 항목의 수를 계산하거나 각 항목에 대한 표준 편차의 수를 추가할 수 있습니다.
 
 
->[!BEGINSHADEBOX]
-
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 내 세그먼트화된 계산된 지표](https://video.tv.adobe.com/v/32602?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
-
->[!ENDSHADEBOX]
-
-
-## 제한 사항 {#section_CB878B02451541D68A68B508D4DBD19A}
+## 제한 사항
 
 일부 [!DNL Analytics] 기능은 이벤트를 사용할 수 있지만 계산된 지표는 사용할 수 없습니다.
 
@@ -71,13 +63,28 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 * [!UICONTROL 세그먼트]
 * [!DNL Analytics] for [!DNL Target]
 
-## 도구 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-다음은 [!UICONTROL 계산된 지표] 도구에 대한 간략한 개요입니다.
+>[!BEGINSHADEBOX]
 
-| 도구 | 기능 |
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}를 확인하십시오.
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 내 세그먼트화된 계산된 지표](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}를 확인하십시오.
+
+>[!ENDSHADEBOX]
+
+<!--
+
+Here is a short overview of the [!UICONTROL Calculated metrics] tools: 
+
+|Tool|Capabilities|
 |--- |--- |
-| 계산된 지표 빌더에서 계산된 지표를 작성합니다. | <ul><li>고급 할당 모델을 사용하여 계산된 지표 및 고급 계산된 지표를 생성합니다.</li><li>인라인 세그먼트를 지표 공식에 추가할 수 있습니다.</li><li>동일한 보고서에서 세그먼트들을 비교할 수 있습니다. 예를 들어 로컬 방문자와 해외 방문자를 비교할 수 있습니다.</li><li>통계 함수를 사용할 수 있습니다.</li><li>상세한 지표 설명을 제공할 수 있습니다(수행하는 작업, 사용할 곳, 사용하지 말아야 곳을 보여줌).</li><li>정의를 새 지표에 복사할 수 있습니다.</li><li>인라인 지표 미리보기를 제공할 수 있습니다.</li><li>주어진 사용자 정의 이벤트(지표)가 상승한다면 이것이 좋은 것인지 나쁜 것인지를 가리키는 지표 극성을 설정할 수 있습니다.</li><li>지표에 태그를 지정할 수 있습니다.</li></ul> |
-| 계산된 지표 관리자 | <ul><li>지표를 다른 사람과 공유할 수 있습니다.<li>지표를 승인 및 조정할 수 있습니다.</li><li>사람들이 찾을 수 있도록 지표를 정리(태그 지정)할 수 있습니다.</li><li>지표를 삭제할 수 있습니다.</li><li>지표의 이름을 변경할 수 있습니다.</li></ul> |
-| 지표 선택기 레일 | 지표를 검색하고 보고서에 추가/적용할 수 있도록 해 줍니다. 정렬 순서를 변경할 수도 있습니다(옵션: 알파벳, 권장, 자주 사용하는 항목, 최근에 사용한 항목). 또한 보고서 세트를 필터링하여 특정 보고서 세트에서 생성된 지표만 표시할 수도 있습니다.  지표 선택기에 액세스하려면 보고서 왼쪽에 있는 지표 아이콘을 클릭합니다. |
-| 계산된 지표에 대한 API | Adobe Analytics 2.0 API 세트의 일부. |
+| [Calculated metric builder](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)| The capabilities are: <ul><li>Create calculated and advanced calculated metrics using advancmd allocation models.</li><li>Add segments inline to metric formulas</li><li>Compare segments in the same report. For example, compare local visitors vs. international visitors.</li><li>Use statistical functions</li><li>Provide detailed metric descriptions (show what it does, where to use it, where NOT to use it)</li><li>Copy definitions into new metrics</li><li>Provide an inline metric preview</li><li>Set metric polarity, which indicates whether it's good or bad if a given custom event (metric) goes up</li><li>Tag metrics</li></ul>|
+|Calculated Metric Manager|<ul><li>Share metrics with others</li<li>Approve and curate metrics</li><li>Organize (tag) your metrics so people can find them</li><li>Delete metrics</li><li>Rename metrics</li></ul>|
+|Metric Selector rail|Lets you search for and add/apply metrics to the report. You can also change the  sort order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite.  To access this Metric Selector, click the Metrics icon  to the left of a report. |
+|API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
+
+-->
