@@ -30,7 +30,7 @@ Analytics 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 게시](https://video.tv.adobe.com/v/37037?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 게시](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ Analytics 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 �
 * **보고서 세트 제한**: 보고서 세트당 최대 75개의 세그먼트를 게시할 수 있습니다. 이 제한은 강제 적용됩니다. 이미 75개의 세그먼트를 게시한 경우 75개 임계값 아래가 되도록 세그먼트 게시를 취소해야 추가 세그먼트를 게시할 수 있습니다.
 * **멤버십 제한**: Adobe Analytics에서 [!DNL Experience Cloud]로 공유한 대상자는 2천만 명의 고유 구성원을 초과할 수 없습니다.
 * **데이터 개인정보**: 대상자는 방문자의 인증 상태에 따라 필터링되지 않습니다. 방문자가 인증되지 않음 및 인증됨 상태의 사이트를 검색할 수 있는 경우 방문자가 인증되지 않음 상태일 때 발생하는 작업 때문에 여전히 방문자가 대상자에 포함될 수 있습니다. 대상자를 공유할 때 파생되는 전반적인 개인정보 문제를 이해하려면 [Adobe Experience Cloud 개인정보 보호](https://www.adobe.com/kr/privacy/experience-cloud.html)를 검토하십시오.
-* [!DNL Adobe Analytics]과(와) [!DNL Audience Manager]&#x200B;**의 세그먼트 간**&#x200B;차이점에 대한 논의는 [Analytics 및 Audience Manager의 세그먼트 이해](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ko-KR)를 참조하십시오.
+* [!DNL Adobe Analytics]과(와) [!DNL Audience Manager]**의 세그먼트 간**&#x200B;차이점에 대한 논의는 [Analytics 및 Audience Manager의 세그먼트 이해](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ko-KR)를 참조하십시오.
 
 ## 세그먼트 게시 타임라인
 
@@ -66,7 +66,7 @@ Analytics 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 �
 ## [!UICONTROL 세그먼트 빌더]에서 세그먼트 게시
 
 1. Adobe Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**(으)로 이동
-1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**&#x200B;를 선택하십시오.
+1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**를 선택하십시오.
    ![Experience Cloud 게시](assets/publish-ec.png)
 1. 세그먼트의 제목과 설명을 입력합니다. 저장하기 전에 이러한 필드가 필요합니다.
 1. **[!UICONTROL Experience Cloud 게시]** 섹션에서 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]** 옵션을 선택합니다.
