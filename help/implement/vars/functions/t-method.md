@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-자세한 내용은 웹 SDK 설명서의 [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)을(를) 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [`sendEvent`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/sendevent/overview)을(를) 참조하십시오.
 
 ## Adobe Analytics 확장을 사용한 페이지 보기 추적 호출
 

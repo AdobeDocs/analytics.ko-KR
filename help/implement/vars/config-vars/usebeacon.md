@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-자세한 내용은 웹 SDK 설명서의 [sendBeacon API 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)을 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [sendBeacon API 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#using-the-sendbeacon-api)을 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 비콘 사용
 

@@ -41,7 +41,7 @@ ht-degree: 55%
 
 ## 웹 SDK을 수동으로 구현하는 링크 한정자 다운로드
 
-[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)을(를) 사용하여 SDK을 [구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)합니다. 필드는 클릭한 URL의 regex를 사용하여 올바른 다운로드 링크인지 확인합니다. `downloadLinkQualifier`이(가) 정의되지 않으면 기본값이 `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`(으)로 설정됩니다.
+[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ko#automaticLinkTracking)을(를) 사용하여 SDK을 [구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)합니다. 필드는 클릭한 URL의 regex를 사용하여 올바른 다운로드 링크인지 확인합니다. `downloadLinkQualifier`이(가) 정의되지 않으면 기본값이 `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`(으)로 설정됩니다.
 
 ```json
 alloy("configure", {
