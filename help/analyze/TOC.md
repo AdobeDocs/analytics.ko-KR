@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '956'
-ht-degree: 100%
+source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 98%
 
 ---
 
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -171,7 +171,9 @@ ht-degree: 100%
    + [세그먼트를 사용한 작업](report-builder/work-with-segments.md)
    + [차원 필터링](report-builder/filter-dimensions.md)
    + [데이터 블록 관리](report-builder/manage-reportbuilder.md)
-   + [통합 문서 예약](report-builder/schedule-reportbuilder.md)
+   + [전자 메일에 대한 통합 문서 예약](report-builder/schedule-reportbuilder.md)
+   + [클라우드 내보내기를 위한 통합 문서 예약](/help/analyze/report-builder/report-builder-export.md)
+   + [예약된 통합 문서 관리](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [제한된 레이블](report-builder/restricted-labels.md)
    + [Report Builder 설정](report-builder/report-builder-settings.md)
 + 레거시 Report Builder {#legacy-report-builder}

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 위치 관리자
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1490'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 1%
 
 * [데이터 피드](/help/export/analytics-data-feed/create-feed.md)를 사용하여 파일 내보내기
 * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을(를) 사용하여 보고서 내보내기
+* [Report Builder](/help/analyze/report-builder/report-builder-export.md)을(를) 사용할 때 파일 내보내기
 * [분류 세트](/help/components/classifications/sets/overview.md)를 사용하여 스키마를 가져오는 중
 
 ## 위치 보기, 필터링 및 검색
@@ -171,7 +172,7 @@ Adobe Analytics에서 위치 관리자에서 위치를 삭제하려면 다음을
 
 * [새 계정을 만드는 중](/help/components/locations/configure-import-accounts.md).
 
-* [데이터 피드](/help/export/analytics-data-feed/create-feed.md)를 사용하여 파일을 내보내거나 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을 사용하여 보고서를 내보내거나 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하여 스키마를 가져올 때 사용할 계정을 선택할 때.
+* [데이터 피드](/help/export/analytics-data-feed/create-feed.md)를 사용하여 파일을 내보내거나 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)를 사용하여 보고서를 내보내거나 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하여 스키마를 가져올 때 사용할 계정을 선택할 때.
 
 이 섹션에 설명된 대로 계정 유형을 제한하면 제한하는 유형의 모든 계정이 더 이상 사용자에게 표시되지 않습니다. 즉, 데이터 피드, Data Warehouse 또는 분류 세트를 만들 때 해당 유형의 새 계정을 만들 수 없고 해당 유형의 기존 계정을 사용할 수 없습니다.
 
@@ -205,9 +206,9 @@ Adobe Analytics에서 위치 관리자에서 위치를 삭제하려면 다음을
 
    계정 유형을 하나 이상 선택해야 합니다.
 
-   * [!UICONTROL **Amazon S3 역할 ARN**]
+   * [!UICONTROL **Amazon S3 Role ARN**]
 
-   * [!UICONTROL **Google 클라우드 플랫폼**]
+   * [!UICONTROL **Google Cloud Platform**]
 
    * [!UICONTROL **Azure SAS**]
 

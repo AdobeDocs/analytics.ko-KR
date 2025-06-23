@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 계정 구성
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1476'
 ht-degree: 56%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 56%
 
 * [데이터 피드](/help/export/analytics-data-feed/create-feed.md)를 사용하여 파일 내보내기
 * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을(를) 사용하여 보고서 내보내기
+* [Report Builder](/help/analyze/report-builder/report-builder-export.md)을(를) 사용할 때 파일 내보내기
 * [분류 세트](/help/components/classifications/sets/overview.md)를 사용하여 스키마를 가져오는 중
 
 클라우드 계정에 액세스하려면 필요한 정보로 Adobe Analytics을 구성해야 합니다. 이 프로세스는 이 문서에 설명된 대로 계정을 추가 및 구성(예: Amazon S3 역할 ARN, Google Cloud Platform 등)한 다음 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 해당 계정 내에서 위치(예: 계정 내 폴더)를 추가 및 구성하는 과정으로 구성됩니다.
@@ -49,7 +50,7 @@ ht-degree: 56%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름입니다. 이 이름은 위치를 만들 때 나타납니다 |
+   | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름입니다. 위치가 생성되면 이 이름이 표시됩니다. |
    | [!UICONTROL **위치 계정 설명**] | 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. |
    | [!UICONTROL **조직의 모든 사용자가 사용할 수 있는 계정을 만듭니다**] | 조직의 다른 사용자가 계정을 사용할 수 있도록 하려면 이 옵션을 활성화합니다.<p>계정을 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 계정은 공유 해제할 수 없습니다.</li><li>공유 계정은 계정 소유자만 편집할 수 있습니다.</li><li>누구나 공유 계정의 위치를 만들 수 있습니다.</li></ul> |
    | [!UICONTROL **계정 유형**] | 클라우드 계정 유형을 선택합니다. 각 계정 유형에 대해 단일 계정을 사용하고 해당 계정 내에서 필요에 따라 여러 위치를 사용하는 것이 좋습니다.<p>시스템 관리자는 [사용자가 계정을 만들 수 있는지 여부 구성](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)에 설명된 대로 사용자가 만들 수 있는 계정 유형을 제한할 수 있습니다. 이 섹션에 설명된 대로 계정을 만들 수 없는 경우 시스템 관리자에게 문의하십시오.</p> |
@@ -70,7 +71,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Google Cloud Platform
 
@@ -82,7 +83,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure SAS
 
@@ -98,7 +99,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure RBAC
 
@@ -112,7 +113,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++이메일
 
@@ -128,11 +129,11 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    **이전 계정 유형**
 
-   이러한 레거시 계정 유형은 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 및 [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)을 사용하여 데이터를 내보내는 경우에만 사용할 수 있습니다. [분류 세트](/help/components/classifications/sets/manage/schema.md)를 사용하여 데이터를 가져올 때는 이러한 옵션을 사용할 수 없습니다.
+   이러한 기존 계정 유형은 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 및 [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)을 사용하여 데이터를 내보내는 경우에만 사용할 수 있습니다. [분류 세트](/help/components/classifications/sets/manage/schema.md)를 사용하여 데이터를 가져올 때는 이러한 옵션을 사용할 수 없습니다.
 
    +++FTP
 
@@ -147,13 +148,13 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++SFTP
 
    데이터 피드에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RSA 또는 DSA 공개 키를 포함하기 위해 SFTP 호스트, 사용자 이름 및 대상 사이트가 필요합니다. 피드를 만들 때 적절한 공개 키를 다운로드할 수 있습니다.
 
-   +++
++++
 
    +++S3
 
@@ -188,7 +189,7 @@ ht-degree: 56%
    >
    >cn-north-1 지역은 지원되지 않습니다.
 
-   +++
++++
 
    +++Azure Blob
 
@@ -198,7 +199,7 @@ ht-degree: 56%
    >
    >Data Warehouse 대상의 디스크 공간을 관리하려면 자체 프로세스를 구현해야 합니다. Adobe는 서버에서 데이터를 삭제하지 않습니다.
 
-   +++
++++
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
