@@ -55,8 +55,8 @@ alloy("configure", {
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
-3.  [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
-4.  [!UICONTROL 링크 추적] 아코디언을 확장합니다. 그러면 **[!UICONTROL 다운로드 확장자]** 필드가 표시됩니다.
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
+4. [!UICONTROL 링크 추적] 아코디언을 확장합니다. 그러면 **[!UICONTROL 다운로드 확장자]** 필드가 표시됩니다.
 
 필드에 텍스트를 입력하고 **[!UICONTROL 추가]** 를 클릭하여 목록에 파일 확장자를 추가하십시오. 각각의 **&#39;X&#39;** 아이콘을 클릭하여 목록에서 파일 확장자를 제거하십시오.
 
