@@ -1,12 +1,12 @@
 ---
 description: Adobe에서는 새 계정 설정, 트래픽 스파이크 및 트래픽 증가에 대한 사전 공지를 필요로 합니다. 하드웨어는 미리 할당하여 지연과 전체 시스템에 대한 가능한 역효과를 최소화해야 합니다.
 title: 트래픽 증가에 대한 필수 리드 타임
-feature: Traffic Management
+feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 726e5ee71be60838e48bb682d7fd48bfc1f96ec3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

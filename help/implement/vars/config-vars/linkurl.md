@@ -1,10 +1,10 @@
 ---
 title: linkURL
 description: 링크 추적 호출에서 AppMeasurement가 사용하는 자동으로 생성된 링크 URL을 무시합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 65%
@@ -17,7 +17,7 @@ ht-degree: 65%
 
 Analysis Workspace에는 이 변수에 대해 보고하는 차원이 없습니다. [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)에서 `page_event_var1` 열을 채웁니다.
 
-## 웹 SDK를 사용한 링크 URL
+## 웹 SDK을 사용하여 URL 연결
 
 링크 URL은 다음 변수에 매핑됩니다.
 

@@ -1,10 +1,10 @@
 ---
 description: 서버측 전달 호출의 구성 변수, HTTP 헤더 및 데이터 신호에 대한 종합 목록 및 설명.
 title: 서버측 전달 데이터 및 코드 참조
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 97%
@@ -32,7 +32,7 @@ ht-degree: 97%
 
 | HTTP 헤더 | 설명 | Audience Manager가 허용한 h_key |
 | --- | --- | --- |
-| 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은 `host name .demdex.net`으로 나타납니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)를 참조 하십시오. | `h_host` |
+| 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은 `host name .demdex.net`으로 나타납니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)를 참조 하십시오. | `h_host` |
 | User-Agent | Analytics에 전달된 User-Agent 헤더로 설정합니다. | `h_user-agent` |
 | Accept-Language | Analytics에 전달된 `Accept-Language` 헤더로 설정합니다. | `h_accept-language` |
 | Referer | Analytics로 전달되거나 Analytics로 전달된 `Referer` 헤더에서 수집한 페이지 URL로 설정합니다. | `h_referer` |

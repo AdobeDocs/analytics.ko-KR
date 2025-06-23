@@ -1,10 +1,10 @@
 ---
 title: s_objectID
 description: Activity Map은 사이트에서 고유 링크를 식별하는 데 도움이 됩니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 80%
@@ -60,4 +60,4 @@ Activity Map은 링크가 가리키는 위치나 이러한 링크를 변경하�
 <a href="index.html" onClick="s_objectID='Footer home link';">Example link in Footer</a>
 ```
 
-링크가 동일한 URL을 가리키더라도, Activity Map은 `s_objectID` 변수를 사용하여 보고에서 해당 링크를 올바로 구분할 수 있습니다.
+링크가 동일한 URL을 가리키더라도, Activity Map에서는 `s_objectID` 변수를 사용하여 보고에서 해당 링크를 올바로 구분할 수 있습니다.

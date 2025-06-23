@@ -1,10 +1,10 @@
 ---
 title: t
 description: Adobe에 페이지 보기 추적 호출을 보냅니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 56%
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-자세한 내용은 웹 SDK 설명서의 [`sendEvent`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/sendevent/overview)을(를) 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)을(를) 참조하십시오.
 
 ## Adobe Analytics 확장을 사용한 페이지 보기 추적 호출
 

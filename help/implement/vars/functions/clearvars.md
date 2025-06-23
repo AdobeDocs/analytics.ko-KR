@@ -1,10 +1,10 @@
 ---
 title: clearVars
 description: 인스턴스 개체에서 값을 지웁니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 67%
@@ -30,9 +30,9 @@ ht-degree: 67%
 * `zip`
 * `campaign`
 
-## 웹 SDK를 사용하여 변수 지우기
+## 웹 SDK을 사용하여 변수 지우기
 
-Web SDK를 사용하여 데이터를 Adobe으로 보내면 모든 XDM 데이터가 자동으로 지워집니다.
+웹 SDK을 사용하여 Adobe으로 데이터를 보내면 모든 XDM 데이터가 자동으로 지워집니다.
 
 ## Adobe Analytics 확장을 사용하여 변수 지우기
 
@@ -42,7 +42,7 @@ Web SDK를 사용하여 데이터를 Adobe으로 보내면 모든 XDM 데이터�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업] 아래에서 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 지우기] (으)로 설정합니다.
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 지우기]&#x200B;(으)로 설정합니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.clearVars()
 

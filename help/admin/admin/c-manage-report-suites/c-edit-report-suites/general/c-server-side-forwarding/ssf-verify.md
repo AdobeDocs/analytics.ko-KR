@@ -2,10 +2,10 @@
 description: 서버측 전달이 제대로 활성화되었는지 확인하려면 Analytics 추적 요청에서 HTTP 응답을 검사해야 합니다. 이 지침은 서버측 전달이 제대로 활성화되도록 하기 위해 존재해야 하는 지표를 보여 줍니다.
 solution: Analytics
 title: 서버측 전달 구현 확인 방법
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 86%

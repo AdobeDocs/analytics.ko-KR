@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics 시스템 요구 사항
 description: Adobe Analytics를 사용하기 위한 시스템 요구 사항입니다.
-feature: System Requirements
+feature: Workspace Basics
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe Analytics를 사용하려면 먼저 다음 항목을 보유해야 합니�
 
 * 지원되는 브라우저
 
-  Adobe Analytics에 액세스하는 각 사용자는 지원되는 브라우저를 사용해야 합니다. 자세한 정보는 [Adobe Analytics 시스템 요구 사항](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=ko)을 참조하십시오.
+  Adobe Analytics에 액세스하는 각 사용자는 지원되는 브라우저를 사용해야 합니다. 자세한 정보는 [Adobe Analytics 시스템 요구 사항](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html)을 참조하십시오.
 
 ## 시스템 요구 사항
 

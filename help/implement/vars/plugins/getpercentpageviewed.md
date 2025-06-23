@@ -1,10 +1,10 @@
 ---
 title: getPercentPageViewed
 description: 방문자가 본 페이지의 비율을 검색합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 84%
@@ -19,7 +19,7 @@ ht-degree: 84%
 
 ## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
 
-이 플러그인은 아직 웹 SDK에서 사용할 수 없습니다.
+이 플러그인은 아직 웹 SDK 내에서 사용할 수 없습니다.
 
 ## Adobe Analytics 확장을 사용하여 플러그인 설치
 

@@ -2,8 +2,8 @@
 title: 이벤트의 영향을 받는 데이터 분석
 description: 이벤트의 영향을 받은 데이터가 전체 데이터 품질에 어떻게 기여하는지 이해합니다.
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
-feature: Event
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+feature: Curate and Share
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 96%

@@ -1,10 +1,10 @@
 ---
 title: inList
 description: 값이 다른 문자로 구분된 값에 포함되어 있는지 확인합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 87%
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 ## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
 
-이 플러그인은 아직 웹 SDK에서 사용할 수 없습니다.
+이 플러그인은 아직 웹 SDK 내에서 사용할 수 없습니다.
 
 ## Adobe Analytics 확장을 사용하여 플러그인 설치
 

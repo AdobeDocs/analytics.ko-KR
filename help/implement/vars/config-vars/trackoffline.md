@@ -1,10 +1,10 @@
 ---
 title: trackOffline
 description: 오프라인 추적을 활성화하거나 비활성화하여 AppMeasurement가 데이터를 수집하는 방식을 변경합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 89%
@@ -29,9 +29,9 @@ ht-degree: 89%
    * Adobe 데이터 수집 서버에 연결할 수 없는 경우 히트는 디바이스의 큐에 추가됩니다.
    * Adobe 데이터 수집 서버에 도달할 수 있는 경우에는 디바이스가 오프라인일 때 히트와 히트 큐가 전송됩니다.
 
-## 웹 SDK를 사용한 오프라인 추적
+## 웹 SDK을 사용한 오프라인 추적
 
-웹 SDK는 오프라인 추적을 지원하지 않습니다.
+웹 SDK은 오프라인 추적을 지원하지 않습니다.
 
 ## Adobe Analytics 확장을 사용한 오프라인 추적
 

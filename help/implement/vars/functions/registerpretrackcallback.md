@@ -1,10 +1,10 @@
 ---
 title: registerPreTrackCallback
 description: Adobe에 히트를 보내기 전 콜백 함수를 만듭니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 55%
@@ -25,9 +25,9 @@ ht-degree: 55%
 >
 >`registerPreTrackCallback`과 `registerPostTrackCallback` 사이에 실행된 함수의 타이밍과 순서는 보장되지 않습니다. 이 두 함수 간에 종속성이 생기지 않도록 하십시오.
 
-## Web SDK 확장을 사용한 사전 추적 콜백
+## 웹 SDK 확장을 사용한 사전 추적 콜백
 
-데이터가 컴파일된 후 Adobe으로 전송되기 전에 Web SDK에서 함수를 후크할 수 없습니다. 그러나 데이터를 보내기 바로 전에 `onBeforeEventSend`을(를) 사용하여 실행할 함수를 등록할 수 있습니다.
+웹 SDK은 데이터가 컴파일된 후 Adobe으로 전송되기 전에 함수를 후크할 수 없습니다. 그러나 데이터를 보내기 바로 전에 `onBeforeEventSend`을(를) 사용하여 실행할 함수를 등록할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) UI에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
@@ -35,9 +35,9 @@ ht-degree: 55%
 1. [!UICONTROL 데이터 수집]에서 **[!UICONTROL 이벤트 전송 전 편집 콜백 코드]** 단추를 클릭합니다.
 1. 편집기에 원하는 코드를 넣습니다.
 
-## 웹 SDK를 수동으로 구현하는 사전 추적 콜백
+## 웹 SDK을 수동으로 구현하는 사전 추적 콜백
 
-데이터가 컴파일된 후 Adobe으로 전송되기 전에 Web SDK에서 함수를 후크할 수 없습니다. 그러나 `onBeforeEventSend`을(를) 사용하여 데이터가 전송되기 바로 전에 실행할 함수를 등록할 수 있습니다. 이는 `doPlugins`과(와) 유사합니다. 자세한 내용은 웹 SDK 설명서의 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#modifying-events-globally)을 참조하십시오.
+웹 SDK은 데이터가 컴파일된 후 Adobe으로 전송되기 전에 함수를 후크할 수 없습니다. 그러나 `onBeforeEventSend`을(를) 사용하여 데이터가 전송되기 바로 전에 실행할 함수를 등록할 수 있습니다. 이는 `doPlugins`과(와) 유사합니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
 
 ```js
 // Set the trackingCode XDM field to "New value"

@@ -2,8 +2,8 @@
 title: 사용자에게 영향 전달
 description: 조직에서 이벤트가 미치는 영향을 알리는 효과적인 방법을 알아봅니다.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
-feature: Event
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+feature: Curate and Share
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 1%

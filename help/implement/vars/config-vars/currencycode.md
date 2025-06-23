@@ -1,10 +1,10 @@
 ---
 title: currencyCode 변수는 무엇이며 어떻게 사용할 수 있습니까?
 description: 전자 상거래 사이트의 경우 페이지에서 취급하는 통화를 설정합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 98%

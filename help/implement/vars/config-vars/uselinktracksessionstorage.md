@@ -1,10 +1,10 @@
 ---
 title: useLinkTrackSessionStorage
 description: 링크 추적 데이터를 쿠키 대신 세션 저장소에 저장합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 86%
@@ -26,9 +26,9 @@ ht-degree: 86%
 
 AppMeasurement는 Adobe에 히트를 보낸 후 세션 저장소 링크 추적 데이터를 제거합니다. 또한 브라우저 탭이 닫히면 자동으로 만료됩니다.
 
-## 웹 SDK를 사용하여 링크 추적 세션 저장소 사용
+## 웹 SDK을 사용하여 링크 추적 세션 저장소 사용
 
-웹 SDK는 이 기능을 지원하지 않습니다.
+웹 SDK은 이 기능을 지원하지 않습니다.
 
 ## Adobe Analytics 확장을 사용하여 링크 추적 세션 저장소 사용
 

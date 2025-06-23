@@ -1,10 +1,10 @@
 ---
 title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -48,7 +48,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정] (으)로 설정합니다.
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정]&#x200B;(으)로 설정합니다.
 6. [!UICONTROL 이벤트] 섹션을 찾습니다.
 
 다음과 같은 몇 가지 기능을 사용할 수 있습니다.

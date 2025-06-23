@@ -1,10 +1,10 @@
 ---
 title: registerPostTrackCallback
 description: Adobe에 히트를 보낸 후 콜백 함수를 만듭니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 73%
@@ -25,13 +25,13 @@ ht-degree: 73%
 >
 >[`registerPreTrackCallback`](registerpretrackcallback.md)과 `registerPostTrackCallback` 사이에 실행된 함수의 타이밍과 순서는 보장되지 않습니다. 이 두 함수 간에 종속성이 생기지 않도록 하십시오.
 
-## Web SDK 확장을 사용한 사후 추적 콜백
+## 웹 SDK 확장을 사용한 사후 추적 콜백
 
 곧 출시 예정!
 
-## 웹 SDK를 수동으로 구현하는 사후 추적 콜백
+## 웹 SDK을 수동으로 구현하는 사후 추적 콜백
 
-데이터를 Adobe에 성공적으로 보낸 후 이벤트를 전송할 때 JavaScript Promise를 사용하여 함수를 등록할 수 있습니다.
+데이터가 Adobe에 성공적으로 전송된 후 이벤트를 전송할 때 JavaScript Promise를 사용하여 함수를 등록할 수 있습니다.
 
 ```js
 alloy("sendEvent",{
@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-자세한 내용은 웹 SDK 설명서의 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#handling-responses-from-events)를 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)를 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 사후 추적 콜백 등록
 

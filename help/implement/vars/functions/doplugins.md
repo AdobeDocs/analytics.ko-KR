@@ -1,10 +1,10 @@
 ---
 title: doPlugins
 description: 히트가 컴파일되고 Adobe에 전송되기 바로 전에 논리를 구성합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 63%
@@ -20,7 +20,7 @@ ht-degree: 63%
 
 이미지 요청이 컴파일되어 Adobe에 전송되기 바로 전에 `doPlugins` 변수를 사용하여 플러그인 코드를 호출하고 최종 변수 값을 설정하십시오.
 
-## Use On Event Send 웹 SDK 확장을 사용하여 콜백 코드를 보냅니다.
+## Use On Before Event 웹 SDK 확장을 사용하여 콜백 코드 전송
 
 웹 SDK에서 `doPlugins` 대신 유사한 기능을 사용하는 `onBeforeEventSend`을(를) 사용합니다.
 
@@ -30,9 +30,9 @@ ht-degree: 63%
 1. [!UICONTROL 데이터 수집]에서 **[!UICONTROL 이벤트 전송 전 편집 콜백 코드]** 단추를 클릭합니다.
 1. 편집기에 원하는 코드를 넣습니다.
 
-## 웹 SDK를 수동으로 구현하는 `onBeforeEventSend` 사용
+## 웹 SDK을 수동으로 구현하는 `onBeforeEventSend` 사용
 
-웹 SDK에서 `doPlugins` 대신 유사한 기능을 사용하는 `onBeforeEventSend`을(를) 사용합니다. 자세한 내용은 웹 SDK 설명서의 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#modifying-events-globally)을 참조하십시오.
+웹 SDK에서 `doPlugins` 대신 유사한 기능을 사용하는 `onBeforeEventSend`을(를) 사용합니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
 
 ```js
 // Set the trackingCode XDM field to "New value"

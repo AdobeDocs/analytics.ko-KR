@@ -1,10 +1,10 @@
 ---
 title: addProductEvent
 description: products 및 events 변수에 사용자 지정 이벤트를 추가합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 86%
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 ## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
 
-이 플러그인은 아직 웹 SDK에서 사용할 수 없습니다.
+이 플러그인은 아직 웹 SDK 내에서 사용할 수 없습니다.
 
 ## Adobe Analytics 확장을 사용하여 플러그인 설치
 

@@ -2,8 +2,8 @@
 title: 분석에서 특정 날짜 제외
 description: 날짜 또는 날짜 범위를 보고서에 포함하지 않으려는 경우 제외하기 위한 팁입니다.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-feature: Event, Segmentation
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+feature: Curate and Share, Segmentation
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 >
 >OR 문을 AND 문으로 변경하려면 OR 옆에 있는 아래쪽 화살표를 클릭하고 AND를 선택합니다.
 
-Adobe은 보라색 날짜 범위 구성 요소가 아닌 주황색 차원 구성 요소를 사용하는 것을 권장합니다. 자주색 날짜 범위 구성 요소를 사용하는 경우 프로젝트의 달력 범위를 재정의합니다.
+Adobe에서는 보라색 날짜 범위 구성 요소가 아닌 주황색 차원 구성 요소를 사용하는 것이 좋습니다. 자주색 날짜 범위 구성 요소를 사용하는 경우 프로젝트의 달력 범위를 재정의합니다.
 
 ![세그먼트 요일 유형 제외](assets/exclude_segment_day_type.jpg)
 

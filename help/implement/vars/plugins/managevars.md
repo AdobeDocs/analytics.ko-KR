@@ -1,13 +1,13 @@
 ---
 title: manageVars
 description: 한 번에 두 개 이상의 Analytics 변수 값을 변경합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 88%
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 ## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
 
-이 플러그인은 아직 웹 SDK에서 사용할 수 없습니다.
+이 플러그인은 아직 웹 SDK 내에서 사용할 수 없습니다.
 
 ## Adobe Analytics 확장을 사용하여 플러그인 설치
 
@@ -95,7 +95,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 manageVars("lowerCaseVars");
 ```
 
-...은 위에서 설명한 모든 변수의 값을 소문자로 변경합니다.  일부 이벤트 (예: scAdd, scCheckout 등)는 대/소문자를 구분하며 소문자를 사용하지 않아야 하므로 위 코드에 대한 유일한 예외는 events 변수입니다.
+...은 위에서 설명한 모든 변수의 값을 소문자로 변경합니다.  일부 이벤트(예: scAdd, scCheckout 등)는 대/소문자를 구분하므로 소문자를 사용하지 않아야 하므로 이에 대한 유일한 예외는 events 변수입니다
 
 ### 예 #2
 
@@ -141,7 +141,7 @@ manageVars("cleanStr");
 * 값의 시작과 끝에 있는 공백 제거
 * 왼쪽/오른쪽 작은 따옴표를 곧은 작은 따옴표(`'`)로 바꾸기
 * 탭 문자, 줄바꿈 문자 및 캐리지 리턴 문자를 공백으로 바꾸기
-* 모든 이중 (또는 삼중 등) 공백을 단일 공백으로 바꾸기
+* 모든 이중(또는 삼중 등) 공백을 단일 공백으로 바꾸기
 
 ## 버전 내역
 

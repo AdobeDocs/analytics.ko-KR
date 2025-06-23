@@ -1,11 +1,11 @@
 ---
 title: eVar(머천다이징 변수)
 description: 개별 제품에 연결된 사용자 정의 변수입니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 90%
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 *이 도움말 페이지에서는 머천다이징 eVar를 구현하는 방법에 대해 설명합니다. 머천다이징 eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [eVar(머천다이징 차원)](/help/components/dimensions/evar-merchandising.md)를 참조하십시오.*
 
-머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html)을 참조하십시오.
+머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html)을 참조하십시오.
 
 ## 보고서 세트 설정에서 eVar 설정
 
@@ -87,7 +87,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 위의 예 오브젝트는 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`로 Adobe Analytics에 전송됩니다.
 
-[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 eVar 머천다이징은 AppMeasurement 구문 `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250`을(를) 사용합니다.
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 eVar 머천다이징은 AppMeasurement 구문 다음에 오는 `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250`을(를) 사용합니다.
 
 ## 전환 변수 구문을 사용한 구현
 

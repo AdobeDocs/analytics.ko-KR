@@ -1,10 +1,10 @@
 ---
 title: 데이터 수집 쿼리 매개변수
 description: 이미지 요청에 사용된 모든 쿼리 문자열 매개변수를 나열합니다.
-feature: Validation
+feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 데이터 수집 쿼리 매개변수
 
-다음 표에는 Adobe가 이미지 요청에 사용하는 모든 쿼리 문자열 매개변수가 나와 있습니다. 이 정보는 [패킷 분석기](packet-monitor.md)를 사용하여 디버깅하거나, [이미지 요청을 하드코딩](../other/hardcoded.md)하거나, [동적 변수](../vars/page-vars/dynamic-variables.md)를 사용할 때 사용할 수 있습니다.
+다음 테이블에는 Adobe가 이미지 요청에 사용하는 모든 쿼리 문자열 매개변수가 나와 있습니다. 이 정보는 [패킷 분석기](packet-monitor.md)를 사용하여 디버깅하거나, [이미지 요청을 하드코딩](../other/hardcoded.md)하거나, [동적 변수](../vars/page-vars/dynamic-variables.md)를 사용할 때 사용할 수 있습니다.
 
 | 매개변수 | Analytics 구현 변수 | 설명 |
 | --- | --- | --- |

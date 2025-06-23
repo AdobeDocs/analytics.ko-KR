@@ -1,10 +1,10 @@
 ---
 title: linkLeaveQueryString
 description: 링크 추적 차원에 쿼리 문자열을 유지할 수 있습니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 84%
@@ -25,7 +25,7 @@ AppMeasurement는 기본적으로 링크 추적 URL에서 쿼리 문자열을 �
 >
 >이 변수는 링크 추적 외부의 차원에는 영향을 주지 않고, 사용자 지정 링크, 종료 링크 및 다운로드 링크에만 영향을 줍니다.
 
-## 웹 SDK를 사용하여 링크 쿼리 문자열 처리
+## 웹 SDK을 사용하여 링크 쿼리 문자열 처리
 
 쿼리 문자열이 XDM 필드 `web.webInteraction.URL`에서 제거되지 않습니다. 이 XDM 필드에서 쿼리 문자열을 제거하려면 `onBeforeEventSend`을(를) 사용하여 편집할 수 있습니다.
 

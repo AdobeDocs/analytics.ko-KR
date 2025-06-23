@@ -1,10 +1,10 @@
 ---
 title: 이벤트 직렬화
 description: 사이트의 지표 중복 제거에 도움이 됩니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -39,7 +39,7 @@ ht-degree: 83%
 
 예를 들어 장바구니 추가 지표를 serialize하려면 `xdm.commerce.productListAdds.id`을(를) 원하는 serialization 값으로 설정합니다. 사용자 지정 이벤트 20을 serialize하려면 `xdm._experience.analytics.event1to100.event20`을(를) 원하는 serialization 값으로 설정하십시오.
 
-[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 이벤트 직렬화는 다음 AppMeasurement 문자열 구문과 같은 `data.__adobe.analytics.events`을(를) 사용합니다.
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 이벤트 직렬화는 AppMeasurement 문자열 구문 다음에 나오는 `data.__adobe.analytics.events`을(를) 사용합니다.
 
 ## Adobe Analytics 확장을 사용한 이벤트 ID 사용
 
@@ -49,7 +49,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에 포함�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정] (으)로 설정합니다.
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정]&#x200B;(으)로 설정합니다.
 6. 각 이벤트에 [!UICONTROL 이벤트 ID] 필드가 포함된 [!UICONTROL 이벤트] 섹션을 찾습니다.
 
 유효한 값은 최대 20바이트 길이의 영숫자 문자입니다. 20바이트보다 긴 값을 입력하면 시스템이 처음 20바이트로 잘라냅니다.

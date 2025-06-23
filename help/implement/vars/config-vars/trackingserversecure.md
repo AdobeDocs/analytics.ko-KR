@@ -1,10 +1,10 @@
 ---
 title: trackingServerSecure
 description: HTTPS 페이지에서 이미지 요청이 전송되는 위치를 파악합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 66%
@@ -19,24 +19,24 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 >
 >이 값을 변경하면 AppMeasurement가 다른 위치에서 쿠키를 찾습니다. 방문자 쿠키가 새 위치에 설정되면 보고에서 고유 방문자 수가 일시적으로 급증할 수 있습니다.
 
-## 웹 SDK 확장을 사용한 Edge 도메인
+## Web SDK 확장을 사용한 Edge 도메인
 
-Web SDK는 [!UICONTROL Edge 도메인]을 사용하여 추적 서버와 보안 추적 서버를 모두 처리합니다. Web SDK 확장을 구성할 때 원하는 [!UICONTROL Edge 도메인] 값을 설정할 수 있습니다.
+웹 SDK은 [!UICONTROL Edge 도메인]을 사용하여 추적 서버와 보안 추적 서버를 모두 처리합니다. Web SDK 확장을 구성할 때 원하는 [!UICONTROL Edge 도메인] 값을 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 확장] 탭으로 이동한 다음 [!UICONTROL Adobe Experience Platform Web SDK] 아래의 **[!UICONTROL 구성]** 단추를 클릭합니다.
 1. 원하는 **[!UICONTROL Edge 도메인]** 텍스트 필드를 설정합니다.
 
-자세한 내용은 웹 SDK 설명서의 [Adobe Experience Platform 웹 SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ko-KR)을 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [Adobe Experience Platform Web SDK 확장 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ko-KR)을 참조하십시오.
 
 >[!TIP]
 >
->조직이 AppMeasurement 또는 Analytics 확장 구현에서 웹 SDK로 이동하는 경우 이 필드는 `trackingServerSecure`(또는 `trackingServer`)에 포함된 동일한 값을 사용할 수 있습니다.
+>조직이 AppMeasurement 또는 Analytics 확장 구현에서 웹 SDK으로 이동하는 경우 이 필드는 `trackingServerSecure`(또는 `trackingServer`)에 포함된 동일한 값을 사용할 수 있습니다.
 
 ## Edge 도메인 수동으로 웹 SDK 구현
 
-[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)을(를) 사용하여 SDK를 구성합니다. 필드는 데이터를 보낼 도메인을 결정하는 문자열입니다.
+[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)을(를) 사용하여 SDK을 구성하십시오. 필드는 데이터를 보낼 도메인을 결정하는 문자열입니다.
 
 ```json
 alloy("configure", {

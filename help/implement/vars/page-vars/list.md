@@ -1,10 +1,10 @@
 ---
 title: 목록에 있는 참조 페이지를 나타냅니다
 description: 동일한 히트에 여러 값이 있는 사용자 정의 변수입니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 74%
@@ -59,7 +59,7 @@ ht-degree: 74%
 >
 >Adobe XDM 스키마에는 각 `list[]` 배열의 `value` 오브젝트 외에 `key` 오브젝트가 포함됩니다. Adobe는 Adobe Analytics에 데이터를 전송할 때 이 `key` 오브젝트를 사용하지 않습니다.
 
-[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 목록 변수는 AppMeasurement 구문 다음에 있는 `data.__adobe.analytics.list1` - `data.adobe.analytics.list3`을(를) 사용합니다. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에 올바른 구분 기호 집합을 사용해야 합니다.
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 목록 변수는 AppMeasurement 구문 다음에 오는 `data.__adobe.analytics.list1` - `data.adobe.analytics.list3`을(를) 사용합니다. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에 올바른 구분 기호 집합을 사용해야 합니다.
 
 ```json
 "data": {

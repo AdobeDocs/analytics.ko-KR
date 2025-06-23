@@ -1,10 +1,10 @@
 ---
 title: transactionID
 description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 함께 연결합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 43035967e8ccbb35700b7ad3e893282ade310acd
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 89%

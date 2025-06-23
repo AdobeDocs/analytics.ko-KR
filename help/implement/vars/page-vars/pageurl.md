@@ -1,10 +1,10 @@
 ---
 title: pageUrl
 description: 사이트에서 자동으로 수집된 페이지 URL을 무시합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 79%
@@ -19,7 +19,7 @@ AppMeasurement는 각 히트에서 페이지 URL을 자동으로 수집합니다
 >
 >이 변수는 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. 이 변수는 Data Warehouse 및 데이터 피드에서만 사용할 수 있습니다. 또한 Adobe 데이터 수집 서버는 모든 [링크 추적](/help/implement/vars/functions/tl-method.md) 이미지 요청에서 이 차원을 제거합니다. 페이지 URL을 Analysis Workspace에서 차원으로 사용하거나 링크 추적 히트에 이 차원을 사용하려는 경우 모든 히트에서 `pageURL` 변수를 [eVar](evar.md)에 전달하는 것이 좋습니다.
 
-## 웹 SDK를 사용한 페이지 URL
+## 웹 SDK을 사용하는 페이지 URL
 
 페이지 URL은 다음 변수에 매핑됩니다.
 

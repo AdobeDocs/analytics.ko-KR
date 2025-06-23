@@ -1,10 +1,10 @@
 ---
 title: Util.getQueryParam
 description: 쿼리 문자열 매개 변수의 값을 반환합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 79%
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 브라우저 URL의 쿼리 문자열 매개 변수에는 Analytics에 중요한 데이터가 자주 포함됩니다. 쿼리 문자열에서 데이터를 검색하려면 `Util.getQueryParam()` 메서드를 사용하십시오.
 
-## Adobe Analytics 확장 및 웹 SDK 확장을 사용하여 쿼리 문자열 매개 변수 데이터 가져오기
+## Adobe Analytics 확장 및 Web SDK 확장을 사용하여 쿼리 문자열 매개 변수 데이터 가져오기
 
 데이터 요소에서 값을 설정하여 쿼리 문자열 매개 변수 데이터를 가져올 수 있습니다.
 

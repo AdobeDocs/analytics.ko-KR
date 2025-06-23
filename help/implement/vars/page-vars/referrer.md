@@ -1,10 +1,10 @@
 ---
 title: 레퍼러
 description: 히트에 대해 자동으로 수집된 레퍼러를 무시합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 80%
@@ -15,14 +15,14 @@ ht-degree: 80%
 
 `referrer` 변수는 보고서에서 자동으로 수집된 레퍼러를 무시합니다. 이 변수는 리디렉션하거나 방문자를 일시적으로 결제 프로세서에 전달하는 동안 등 레퍼러가 손실될 수 있는 상황에서 유용하며, &#39;레퍼러&#39; 및 &#39;참조 도메인&#39; 차원을 채우는 데에도 도움이 됩니다.
 
-## Web SDK를 사용한 레퍼러
+## 웹 SDK을 사용하는 레퍼러
 
 레퍼러는 다음 변수에 매핑됩니다.
 
 * [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
 * [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
 
-사용 가능한 경우 웹 SDK는 보낸 모든 이벤트에 `web.webReferrer.URL`을(를) 자동으로 포함합니다.
+사용 가능한 경우 웹 SDK은 보낸 모든 이벤트에 `web.webReferrer.URL`을(를) 자동으로 포함합니다.
 
 ## Adobe Analytics 확장을 사용한 레퍼러
 
@@ -32,7 +32,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 레�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정] (으)로 설정합니다.
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정]&#x200B;(으)로 설정합니다.
 6. [!UICONTROL 레퍼러] 섹션을 찾습니다.
 
 레퍼러를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.

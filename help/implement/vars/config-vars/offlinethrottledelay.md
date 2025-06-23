@@ -1,10 +1,10 @@
 ---
 title: offlineThrottleDelay
 description: 디바이스가 다시 온라인으로 돌아올 때의 히트 빈도를 설정합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 83%
@@ -17,9 +17,9 @@ ht-degree: 83%
 
 디바이스가 다시 온라인으로 돌아오면 디바이스에 저장된 모든 히트는 Adobe 데이터 수집 서버로 전송됩니다. 큐에 있는 히트 수가 많으면 이전 디바이스의 성능에 영향을 줄 수 있습니다. 큐에 있는 히트가 Adobe에 전송되는 빈도를 설정하려면 `offlineThrottleDelay` 변수를 사용하십시오.
 
-## 웹 SDK를 사용한 오프라인 스로틀 지연
+## 웹 SDK을 사용한 오프라인 스로틀 지연
 
-웹 SDK는 오프라인 추적을 지원하지 않습니다.
+웹 SDK은 오프라인 추적을 지원하지 않습니다.
 
 ## Adobe Analytics 확장을 사용한 오프라인 스로틀 지연
 

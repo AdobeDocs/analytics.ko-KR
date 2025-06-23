@@ -1,10 +1,10 @@
 ---
 title: ActivityMap.link
-description: Activity Map이 클릭한 링크를 수집하는 방법을 사용자 지정합니다.
-feature: Variables
+description: Activity Map에서 클릭한 링크를 수집하는 방법을 사용자 지정합니다.
+feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
-source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 9%
@@ -13,14 +13,14 @@ ht-degree: 9%
 
 # ActivityMap.link
 
-`ActivityMap.link` 변수를 사용하면 Activity Map이 링크 값을 설정하는 데 사용하는 논리를 재정의할 수 있습니다. 이 변수는 [`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md)에서 제공하는 것보다 더 많은 컨트롤을 원하는 영역에서 유용합니다.
+`ActivityMap.link` 변수를 사용하면 Activity Map에서 링크 값을 설정하는 데 사용하는 논리를 재정의할 수 있습니다. 이 변수는 [`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md)에서 제공하는 것보다 더 많은 컨트롤을 원하는 영역에서 유용합니다.
 
 >[!CAUTION]
 >이 변수는 Activity Map 논리를 완전히 무시합니다. 여기서 잘못된 값을 반환하는 재정의 함수를 설정하면 Activity Map 차원 및 Activity Map 오버레이에 데이터 수집 문제가 발생할 수 있습니다.
 
-## 웹 SDK를 사용하여 링크 값 재정의
+## 웹 SDK을 사용하여 링크 값 재정의
 
-[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) 콜백을 사용하여 웹 SDK 페이로드를 변경하거나 데이터 전송을 중단할 수 있습니다.
+[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) 콜백을 사용하여 웹 SDK 페이로드를 변경하거나 데이터 전송을 중단할 수 있습니다.
 
 ## Adobe Analytics 확장을 사용한 링크 재정의
 

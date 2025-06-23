@@ -2,10 +2,10 @@
 title: 변수, 함수, 메서드 및 플러그인 개요
 description: 보고를 개선하기 위해 Adobe에 보내는 데이터에 포함할 수 있는 변수를 알아봅니다.
 keywords: appmeasurement, 변수, vars, 구성, 페이지, 구현
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 67%
@@ -22,12 +22,12 @@ Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니�
 
 ## 변수 및 구현 방법
 
-Adobe에서는 Adobe Analytics를 구현하는 방법을 여러 가지 제공합니다. 각 페이지에는 Web SDK, Adobe Analytics 확장 기능 및 JavaScript용 AppMeasurement을 사용하여 변수를 구현하는 방법에 대한 섹션이 있습니다.
+Adobe에서는 Adobe Analytics를 구현하는 방법을 여러 가지 제공합니다. 각 페이지에는 Web SDK, Adobe Analytics 확장 사용 및 AppMeasurement for JavaScript을 사용하여 변수를 구현하는 방법에 대한 섹션이 있습니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [변수 구성](https://video.tv.adobe.com/v/31260?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [변수 구성](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

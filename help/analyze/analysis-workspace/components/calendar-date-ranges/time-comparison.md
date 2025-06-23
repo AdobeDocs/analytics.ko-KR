@@ -1,11 +1,11 @@
 ---
 description: Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 title: 날짜 비교
-feature: Calendar
+feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [날짜 비교](https://video.tv.adobe.com/v/33285?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [날짜 비교](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

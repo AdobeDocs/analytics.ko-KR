@@ -1,10 +1,10 @@
 ---
 title: linkTrackEvents
 description: 링크 추적 이미지 요청에 포함할 이벤트를 결정합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 68%
@@ -17,9 +17,9 @@ ht-degree: 68%
 
 이 변수는 페이지 보기 호출 ([`t()`](../functions/t-method.md) 메서드)에 사용되지 않습니다.
 
-## 웹 SDK를 사용하여 XDM 이벤트에 포함할 Analytics 이벤트 결정
+## 웹 SDK을 사용하여 XDM 이벤트에 포함할 Analytics 이벤트 결정
 
-웹 SDK는 링크 추적 호출을 위한 특정 필드를 제외하지 않습니다. 그러나 데이터를 Adobe으로 보내기 전에 `onBeforeEventSend` 콜백을 사용하여 원하는 필드를 지우거나 설정할 수 있습니다. 자세한 내용은 웹 SDK 설명서의 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#modifying-events-globally)을 참조하십시오.
+웹 SDK은 링크 추적 호출을 위한 특정 필드를 제외하지 않습니다. 그러나 데이터를 Adobe으로 보내기 전에 `onBeforeEventSend` 콜백을 사용하여 원하는 필드를 지우거나 설정할 수 있습니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
 
 ## Adobe Analytics 확장을 사용한 링크 추적 호출의 이벤트
 

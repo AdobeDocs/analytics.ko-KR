@@ -1,10 +1,10 @@
 ---
 title: fpcookieDomainPeriods
 description: 도메인의 접미사에 마침표가 있는 경우 쿠키를 저장할 도메인을 AppMeasurement가 이해하도록 도와줍니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 86%
@@ -22,9 +22,9 @@ ht-degree: 86%
 >
 >이 변수에 대해 하위 도메인을 고려하지는 마십시오. 예를 들어 `fpCookieDomainPeriods`이라는 URL 예에서는 `store.toys.example.com`를 설정하지 마십시오. AppMeasurement는 여러 하위 도메인이 있는 URL에서도 기본적으로 쿠키가 `example.com`에 저장되어야 한다고 인식합니다.
 
-## Web SDK를 사용한 자사 도메인 마침표
+## 웹 SDK을 사용한 자사 도메인 마침표
 
-Web SDK는 이 변수 없이 올바른 쿠키 스토리지 도메인을 결정할 수 있습니다.
+웹 SDK은 이 변수 없이 올바른 쿠키 스토리지 도메인을 결정할 수 있습니다.
 
 ## Adobe Analytics 확장을 사용한 자사 도메인 마침표
 

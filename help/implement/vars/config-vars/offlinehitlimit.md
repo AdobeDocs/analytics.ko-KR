@@ -1,10 +1,10 @@
 ---
 title: offlineHitLimit
 description: 오프라인 추적을 위해 큐에 추가할 최대 히트 수를 결정합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 role: Admin, Developer
-source-git-commit: 8bc5e649c5b5852232f4baddcddad0766bc1569a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 39%
@@ -17,9 +17,9 @@ ht-degree: 39%
 
 `offlineHitLimit` 변수는 디바이스가 로컬로 저장하는 히트의 수에 제한을 둡니다. 이 변수는 [`trackOffline`](trackoffline.md)이 활성화된 경우에만 작동합니다.
 
-## 웹 SDK를 사용한 오프라인 히트 제한
+## 웹 SDK을 사용한 오프라인 히트 제한
 
-웹 SDK는 오프라인 추적을 지원하지 않습니다.
+웹 SDK은 오프라인 추적을 지원하지 않습니다.
 
 ## Adobe Analytics 확장을 사용한 오프라인 히트 제한
 

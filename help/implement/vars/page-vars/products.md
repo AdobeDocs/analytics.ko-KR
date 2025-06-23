@@ -1,10 +1,10 @@
 ---
 title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 67%
@@ -19,15 +19,15 @@ ht-degree: 67%
 >
 >히트에서 이 변수가 [`events`](events/events-overview.md) 변수 없이 설정되면 [제품 보기](/help/components/metrics/product-views.md) 지표가 1만큼 증가합니다. `products` 변수가 있는 각 히트에 대해 적합한 이벤트를 설정해야 합니다.
 
-## 웹 SDK를 사용한 제품
+## 웹 SDK을 사용하는 제품
 
 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 제품은 다음 변수에 매핑됩니다.
 
-* 범주가 `xdm.productListItems[].productCategories[].categoryID`에 매핑되어 있습니다. `productCategories[]` 배열의 첫 번째 항목을 사용합니다. Adobe `lineItemId`도 올바르게 매핑되지만 표준 XDM이므로 `categoryID`을(를) 사용하는 것이 좋습니다. 두 XDM 필드가 모두 있으면 `lineItemId`이(가) 우선합니다.
+* 범주가 `xdm.productListItems[].productCategories[].categoryID`에 매핑되어 있습니다. `productCategories[]` 배열의 첫 번째 항목을 사용합니다. `lineItemId`도 올바르게 매핑되지만 표준 XDM이므로 Adobe에서는 `categoryID`을(를) 권장합니다. 두 XDM 필드가 모두 있으면 `lineItemId`이(가) 우선합니다.
 * 제품이 `xdm.productListItems[].SKU` 또는 `xdm.productListItems[].name`에 매핑되어 있습니다. 두 XDM 필드가 모두 있으면 `xdm.productListItems[].SKU`이(가) 사용됩니다.
 * 수량이 `xdm.productListItems[].quantity`에 매핑되어 있습니다.
 * 가격이 `xdm.productListItems[].priceTotal`에 매핑되어 있습니다.
-* 제품에 바인딩하려는 eVar에 따라 머천다이징 eVar가 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1`에서 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`(으)로 매핑됩니다.
+* 머천다이징 eVar는 제품에 바인딩하려는 eVar에 따라 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1`에 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`에 매핑됩니다.
 * 머천다이징 이벤트는 제품에 바인딩하려는 이벤트에 따라 `xdm.productListItems[]._experience.analytics.event1to100.event1.value`에서 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`까지 매핑됩니다. 이러한 필드 중 하나에서 이벤트를 설정하면 Adobe Analytics으로 전송되는 [event](events/events-overview.md) 문자열에 자동으로 포함됩니다.
 
 ```json
@@ -53,7 +53,7 @@ ht-degree: 67%
 }
 ```
 
-[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 제품 변수는 다음 AppMeasurement 구문을 사용합니다. `data.__adobe.analytics.products` 이 필드를 설정하면 XDM 개체에 설정된 제품이 덮어쓰기되어 Adobe Analytics으로 전송되지 않습니다.
+[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 products 변수는 AppMeasurement 구문 다음에 오는 `data.__adobe.analytics.products`을(를) 사용합니다. 이 필드를 설정하면 XDM 개체에 설정된 제품이 덮어쓰기되어 Adobe Analytics으로 전송되지 않습니다.
 
 ```json
 {

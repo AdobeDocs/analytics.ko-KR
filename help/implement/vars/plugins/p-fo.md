@@ -1,10 +1,10 @@
 ---
 title: p_fo (첫 번째 페이지만)
 description: 특정 루틴이 페이지당 한 번만 실행되도록 합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 77%
@@ -17,21 +17,21 @@ ht-degree: 77%
 
 `p_fo` 플러그인은 특정 JavaScript 개체가 있는지 확인하는 유틸리티입니다. 해당 개체가 없으면 플러그인이 개체를 만들고 `true`를 반환합니다. 페이지에 JavaScript 개체가 이미 있으면 `false`를 반환합니다. 이 플러그인은 페이지에서 코드를 정확히 한 번만 실행하는 데 유용합니다. 몇 가지 다른 플러그인은 이 코드를 사용하여 작동합니다. 페이지에서 코드가 몇 번 실행되는지 걱정되지 않거나 종속 플러그인을 사용하지 않는 경우에는 이 플러그인이 필요하지 않습니다.
 
-## Web SDK 확장을 사용하여 플러그인 설치
+## 웹 SDK 확장을 사용하여 플러그인 설치
 
 Adobe은 Web SDK에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장을 제공합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 왼쪽의 **[!UICONTROL 태그]**&#x200B;를 클릭한 다음 원하는 태그 속성을 클릭합니다.
 1. 왼쪽의 **[!UICONTROL 확장]**&#x200B;을 클릭한 다음 **[!UICONTROL 카탈로그]** 탭을 클릭합니다
-1. **[!UICONTROL 일반 웹 SDK 플러그인]** 확장을 찾아 설치합니다.
+1. **[!UICONTROL 일반적인 웹 SDK 플러그인]** 확장을 찾아 설치합니다.
 1. 왼쪽의 **[!UICONTROL 데이터 요소]**&#x200B;를 클릭한 다음 원하는 데이터 요소를 클릭합니다.
 1. 다음 구성으로 원하는 데이터 요소 이름을 설정합니다.
    * 확장: 일반적인 웹 SDK 플러그인
    * 데이터 요소: `p_fo`
 1. 변경 사항을 저장하고 데이터 요소에 게시합니다.
 
-## 웹 SDK를 수동으로 구현하여 플러그인 설치
+## 웹 SDK을 수동으로 구현하는 플러그인 설치
 
 이 플러그인은 아직 웹 SDK의 수동 구현 내에서 사용할 수 없습니다.
 

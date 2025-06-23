@@ -2,11 +2,11 @@
 title: 이벤트의 영향을 받는 데이터 가져오기
 description: 계산된 지표를 사용하여 이벤트의 영향을 받은 트렌드 데이터를 수정합니다.
 exl-id: 0fe70c8b-fa07-47e4-b6b3-b55eebad1fef
-feature: Event, Calculated Metrics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+feature: Curate and Share, Calculated Metrics
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 

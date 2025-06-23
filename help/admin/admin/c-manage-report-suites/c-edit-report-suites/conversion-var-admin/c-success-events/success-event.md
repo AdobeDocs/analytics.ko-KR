@@ -2,10 +2,10 @@
 description: 성공 이벤트는 추적할 수 있는 작업입니다. 성공 이벤트가 무엇인지 결정합니다. 예를 들어 방문자가 품목을 구매하면 구매 이벤트를 성공 이벤트로 간주할 수 있습니다.
 keywords: 이벤트
 title: 성공 이벤트 개요
-feature: Event
+feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 54%
@@ -16,7 +16,7 @@ ht-degree: 54%
 
 성공 이벤트(전환 이벤트 또는 사용자 지정 이벤트라고도 함)는 추적할 수 있는 작업입니다. 성공 이벤트가 무엇인지 결정합니다. 예를 들어 방문자가 품목을 구매하면 구매 이벤트를 성공 이벤트로 간주할 수 있습니다.
 
-성공 이벤트에 대한 비디오 개요는 Analytics 자습서 안내서에서 [전환 이벤트 소개](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)를 참조하십시오.
+성공 이벤트에 대한 비디오 개요는 Analytics 자습서 안내서에서 [전환 이벤트 소개](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)를 참조하십시오.
 
 ## 성공 이벤트 예
 

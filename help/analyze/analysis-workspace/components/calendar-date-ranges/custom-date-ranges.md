@@ -2,11 +2,11 @@
 description: Analysis Workspace에서 사용자 정의 날짜 범위를 만든 후 시간 구성 요소로 저장합니다.
 keywords: Analysis Workspace
 title: 사용자 정의 날짜 범위 만들기
-feature: Calendar
+feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 

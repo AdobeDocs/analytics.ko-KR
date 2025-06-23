@@ -1,10 +1,10 @@
 ---
 title: useBeacon
 description: useBeacon을 사용하면 AppMeasurement에서 브라우저 sendBeacon API를 사용하도록 할 수 있습니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 62%
@@ -23,9 +23,9 @@ ht-degree: 62%
 
 방문자가 `useBeacon`을 지원하지 않는 브라우저를 사용하면 `navigator.sendBeacon()` 변수는 무시됩니다. 이 변수를 사용하려면 AppMeasurement 2.16.0 이상이 필요합니다.
 
-## Web SDK 확장을 사용하여 sendBeacon API 사용
+## 웹 SDK 확장을 사용하여 sendBeacon API 사용
 
-작업 구성 내의 **[!UICONTROL 문서를 언로드합니다]** 확인란은 Adobe에 전송된 데이터가 sendBeacon API를 사용하는지 여부를 결정합니다.
+작업 구성 내의 **[!UICONTROL 문서를 언로드합니다]** 확인란은 Adobe으로 전송된 데이터가 sendBeacon API를 사용하는지 여부를 결정합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
@@ -36,7 +36,7 @@ ht-degree: 62%
 
 이 상자를 선택하면 데이터가 sendBeacon API를 사용하여 Adobe으로 전송됩니다. 기본적으로 선택되어 있지 않습니다.
 
-## Web SDK를 수동으로 구현하기 위해 sendBeacon API 사용
+## 웹 SDK을 수동으로 구현하기 위해 sendBeacon API 사용
 
 이벤트를 보낼 때 `documentUnloading`을(를) `true`(으)로 설정합니다. 설정하지 않으면 기본값은 `false`입니다.
 
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-자세한 내용은 웹 SDK 설명서의 [sendBeacon API 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#using-the-sendbeacon-api)을 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [sendBeacon API 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)을 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 비콘 사용
 

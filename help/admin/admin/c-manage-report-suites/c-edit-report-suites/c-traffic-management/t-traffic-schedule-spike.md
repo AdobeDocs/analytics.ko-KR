@@ -1,10 +1,10 @@
 ---
 title: 트래픽 스파이크 예약
 description: 트래픽이 많은 이벤트에서 지연이 발생하지 않도록 Adobe와 협력하십시오.
-feature: Traffic Management
+feature: Report Suite Settings
 role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 97%

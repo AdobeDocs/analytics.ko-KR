@@ -1,10 +1,10 @@
 ---
 title: linkExternalFilters
 description: linkExternalFilters 변수를 사용하여 자동 종료 링크 추적을 돕습니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 91%
@@ -27,7 +27,7 @@ AppMeasurement는 사이트 외부를 가리키는 링크를 자동으로 추적
 
 링크 대상 도메인이 현재 `window.location.hostname`과 다른 경우 링크는 자동으로 종료 링크로 간주됩니다. Web SDK는 자동 종료 링크 감지를 수정하기 위한 구성 변수를 제공하지 않습니다. 종료 링크로 적합한 도메인을 사용자 정의해야 하는 경우 `onBeforeEventSend` 콜백에서 사용자 정의 논리를 사용할 수 있습니다.
 
-자세한 내용은 Web SDK 설명서의 [자동 링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ko#automaticLinkTracking)을 참조하십시오.
+자세한 내용은 Web SDK 설명서의 [자동 링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)을 참조하십시오.
 
 ## 아웃바운드 링크 - Adobe Analytics 확장을 사용하여 추적
 

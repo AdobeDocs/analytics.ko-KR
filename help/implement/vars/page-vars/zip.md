@@ -1,10 +1,10 @@
 ---
 title: zip
 description: 보고서 세트 설정이 허용하는 경우 '우편번호' 차원을 수동으로 채웁니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 75%
@@ -19,7 +19,7 @@ ht-degree: 75%
 >
 >보고서 세트 설정의 [!UICONTROL Zip 옵션]이 원하는 값으로 설정되어 있는지 확인하십시오. [!UICONTROL 지역 zip]이 항상 사용되는 경우에는 이 변수를 사용할 수 없습니다. 자세한 내용은 관리자 안내서에서 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)을 참조하십시오.
 
-## 웹 SDK를 사용한 우편번호
+## 웹 SDK을 사용하는 우편번호
 
 우편 번호는 다음 변수에 매핑됩니다.
 
@@ -34,7 +34,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 우�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정] (으)로 설정합니다.
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정]&#x200B;(으)로 설정합니다.
 6. [!UICONTROL Zip] 섹션을 찾습니다.
 
 우편번호를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.

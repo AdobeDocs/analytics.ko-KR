@@ -1,10 +1,10 @@
 ---
 title: 구매 이벤트
 description: 구매 이벤트를 사용하여 '주문', '판매량' 및 '수입' 지표에 대한 데이터를 수집합니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 70%
@@ -25,7 +25,7 @@ ht-degree: 70%
 >
 >매출에는 수량 필드를 곱하지 않습니다. 예를 들어 `s.products="Womens;Socks;5;4.50"`은(는) $22.50를 메출에 전달하지 않고 $4.50를 전달합니다. 구현에서 나열된 수량에 대한 총 수입을 전달하도록 구현하십시오. (예: `s.products="Womens;Socks;5;22.50"`)
 
-## 웹 SDK를 사용하여 구매 이벤트 설정
+## 웹 SDK을 사용하여 구매 이벤트 설정
 
 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 구매 이벤트는 다음 XDM 필드를 사용합니다.
 
@@ -65,8 +65,8 @@ ht-degree: 70%
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정] (으)로 설정합니다.
-6. [!UICONTROL 이벤트] 섹션을 찾아 [!UICONTROL 이벤트] 드롭다운 목록을 [!UICONTROL 구매] (으)로 설정합니다.
+5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정]&#x200B;(으)로 설정합니다.
+6. [!UICONTROL 이벤트] 섹션을 찾아 [!UICONTROL 이벤트] 드롭다운 목록을 [!UICONTROL 구매]&#x200B;(으)로 설정합니다.
 
 `products` 및 `purchaseID`과(와) 같은 다른 종속 변수에는 Adobe Experience Platform 데이터 수집 내의 Analytics 확장에 전용 필드가 없습니다. 이 변수에 대한 AppMeasurement 구문 이후에 사용자 지정 코드 편집기를 사용하십시오.
 

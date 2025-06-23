@@ -1,10 +1,10 @@
 ---
 description: EU 쿠키 규정 준수에 의해 촉발된 서버측 전달 개선 사항에 대해 설명합니다.
 title: GDPR/ePrivacy 준수 및 서버측 전달
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 55%

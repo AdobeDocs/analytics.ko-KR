@@ -2,8 +2,8 @@
 title: 데이터 증가 및 감소 문제 해결
 description: 트렌드 보고서에서 극적인 증가 또는 감소를 볼 수 있는 가능한 이유를 알아봅니다.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-feature: Event, Data Configuration and Collection
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+feature: Curate and Share, Data Configuration and Collection
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%

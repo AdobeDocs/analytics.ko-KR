@@ -1,10 +1,10 @@
 ---
 title: Util.cookieRead
 description: 쿠키에 사용할 값을 가져옵니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 72%
@@ -15,7 +15,7 @@ ht-degree: 72%
 
 쿠키는 동일한 도메인에 있는 페이지 간에 정보를 저장하고 검색할 수 있습니다. 쿠키에서 값을 검색하려면 `Util.cookieRead()` 메서드를 사용하십시오.
 
-## Adobe Analytics 확장 및 Web SDK 확장을 사용하여 쿠키 읽기
+## Adobe Analytics 확장 및 Web SDK 확장을 사용하여 쿠키를 읽습니다.
 
 데이터 요소의 값을 설정하여 쿠키를 읽을 수 있습니다.
 

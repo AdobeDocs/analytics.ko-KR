@@ -1,10 +1,10 @@
 ---
 title: cookieDomain
 description: (중단됨) 쿠키를 설정할 도메인을 결정하는 데 도움이 됩니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 77%
@@ -25,9 +25,9 @@ ht-degree: 77%
 
 적은 수의 구현만 `cookieDomain` 변수를 사용할 수 있으며, 그러한 때에도 [`cookieDomainPeriods`](cookiedomainperiods.md)같은 대체 변수를 대신 사용할 수 있습니다.
 
-## 웹 SDK를 사용한 쿠키 도메인
+## 웹 SDK을 사용하는 쿠키 도메인
 
-Web SDK는 이 변수 없이 올바른 쿠키 스토리지 도메인을 결정할 수 있습니다.
+웹 SDK은 이 변수 없이 올바른 쿠키 스토리지 도메인을 결정할 수 있습니다.
 
 ## Adobe Analytics 확장을 사용한 쿠키 도메인
 

@@ -1,11 +1,11 @@
 ---
 description: 캘린더에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
 title: 캘린더 및 날짜 범위 개요
-feature: Calendar
+feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [캘린더 및 날짜 범위 개요](https://video.tv.adobe.com/v/30911?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [캘린더 및 날짜 범위 개요](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 사용자는 날짜(및 시간 차원)를 작업 영역 프로젝트에 드래그하여 놓을 수도 있습니다. 특정, 날, 주, 달, 연도 또는 연속 날짜를 지정할 수 있습니다.
 
-[Analysis Workspace에서 날짜 범위 및 캘린더 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=ko)&#x200B;(4:07)
+[Analysis Workspace에서 날짜 범위 및 캘린더 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html)&#x200B;(4:07)
 
 | 설정 | 설명 |
 |--- |--- |

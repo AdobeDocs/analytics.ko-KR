@@ -1,10 +1,10 @@
 ---
 title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 62%
@@ -17,9 +17,9 @@ ht-degree: 62%
 
 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 또는 [`trackExternalLinks`](../config-vars/trackexternallinks.md)가 활성화되면 AppMeasurement가 다운로드 링크 및 종료 링크 추적 데이터를 보내는 `tl()` 메서드를 자동으로 호출합니다. 조직에서 추적할 링크와 그 동작을 보다 세밀하게 제어하는 것을 선호하는 경우 `tl()` 메서드를 수동으로 호출할 수 있습니다. 사용자 지정 링크는 수동으로만 추적할 수 있습니다.
 
-## 웹 SDK를 사용한 링크 추적
+## 웹 SDK을 사용한 링크 추적
 
-웹 SDK는 페이지 보기 호출과 링크 추적 호출을 구분하지 않습니다. 둘 다 `sendEvent` 명령을 사용합니다.
+웹 SDK은 페이지 보기 호출과 링크 추적 호출을 구분하지 않습니다. 둘 다 `sendEvent` 명령을 사용합니다.
 
 XDM 개체를 사용하고 Adobe Analytics이 주어진 이벤트를 링크 추적 호출로 계산하도록 하려는 경우 XDM 데이터에 다음이 포함되어 있는지 확인하십시오.
 
@@ -200,17 +200,17 @@ function linkCode(obj) {
 }
 ```
 
-### Activity Map에 `tl()` 메서드 사용
+### Activity Map에서 `tl()` 메서드 사용
 
 `tl()` 메서드를 사용하여 사용자 지정 요소를 추적하고 다이내믹 컨텐츠에 대한 오버레이 렌더링을 구성할 수 있습니다. `linkName` 매개 변수는 [Activity Map 링크](/help/components/dimensions/activity-map-link.md) 차원을 설정하는 데에도 사용됩니다.
 
-`tl()` 메서드가 HTML 요소의 클릭 이벤트에서 직접 호출되면 웹 페이지가 로드될 때 Activity Map이 해당 요소에 대한 오버레이를 표시할 수 있습니다. 예:
+HTML 요소의 클릭 이벤트에서 직접 `tl()` 메서드가 호출되면 웹 페이지가 로드될 때 Activity Map에서 해당 요소에 대한 오버레이를 표시할 수 있습니다. 예:
 
 ```html
 <a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
 ```
 
-`tl()` 메서드가 HTML 요소의 클릭 이벤트에서 직접 호출되지 않으면 Activity Map은 해당 요소를 클릭한 후에만 오버레이를 표시할 수 있습니다. 예:
+`tl()` 메서드가 HTML 요소의 클릭 이벤트에서 직접 호출되지 않으면 해당 요소를 클릭한 후에만 Activity Map에서 오버레이를 표시할 수 있습니다. 예:
 
 ```html
 <a href="index.html" onclick="someFn(event);">Example link text</a>
