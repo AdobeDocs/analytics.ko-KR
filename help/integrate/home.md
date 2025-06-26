@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud용 Analytics](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud용 Analytics](https://video.tv.adobe.com/v/327669?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
