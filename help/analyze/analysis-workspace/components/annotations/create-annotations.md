@@ -16,7 +16,7 @@ ht-degree: 94%
 기본적으로 관리자만 주석을 만들 수 있습니다. 사용자는 다른 구성 요소(예: 세그먼트, 계산된 지표 등) 조회 방식과 마찬가지로 주석을 볼 수 있는 권한이 있습니다.
 
 
-단, 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)을 통해 사용자에게 [!UICONTROL 주석 만들기] 권한(Analytics 도구)을 부여할 수 있습니다.
+단, 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko)을 통해 사용자에게 [!UICONTROL 주석 만들기] 권한(Analytics 도구)을 부여할 수 있습니다.
 
 다음과 같은 방식으로 주석을 만들 수 있습니다.
 
