@@ -99,4 +99,4 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-*참고: Data Warehouse는 `AND/OR`을 사용할 때 `exclusion` 또는 `without` 컨테이너를 사용하는 모든 경우를 지원하지는 않습니다. 이러한 조합을 사용하는 경우 Data Warehouse에서는 `A AND NOT B` (또는&#x200B;**이 특성을 포함**하고&#x200B;**이 특성을 제외**)로 다시 쓸 수 있는 세그먼트만 지원합니다.*
+*참고: Data Warehouse는 `AND/OR`을 사용할 때 `exclusion` 또는 `without` 컨테이너를 사용하는 모든 경우를 지원하지는 않습니다. 이러한 조합을 사용하는 경우 Data Warehouse에서는 `A AND NOT B` (또는&#x200B;**이 특성을 포함**&#x200B;하고&#x200B;**이 특성을 제외**)로 다시 쓸 수 있는 세그먼트만 지원합니다.*
