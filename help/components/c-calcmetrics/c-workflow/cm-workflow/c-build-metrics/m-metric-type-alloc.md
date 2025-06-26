@@ -4,9 +4,9 @@ title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 77%
 
      | 지표 유형 | 정의 |
      |---|---|
-     | **[!UICONTROL 표준]** | 공식이 하나의 표준 지표로 구성된 경우 계산되지 않은 지표에 해당하는 대응값과 동일한 데이터가 표시됩니다. 표준 지표는 각 개별 라인 항목별로 계산된 지표를 만드는 데 유용합니다. <p>예를 들어, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 주문]** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 방문]**&#x200B;은(는) 특정 라인 항목에 대한 주문 수를 특정 라인 항목에 대한 방문 횟수로 나눕니다. |
-     | **[!UICONTROL 총 합계]** | 각 라인 항목에 있는 보고 기간에 대한 **[!UICONTROL 총 합계]**&#x200B;를 사용합니다. 수식에 단일 총 합계 지표가 포함된 경우 계산된 지표는 모든 라인 항목에 동일한 총 합계를 표시합니다. 총 합계 지표는 사이트 합계 데이터를 기준으로 비교하는 계산된 지표를 만들고자 할 때 유용합니다. <p>예를 들어, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 주문]** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 방문]**&#x200B;은(는) 특정 라인 항목에 대한 방문 횟수뿐만 아니라 모든 방문 횟수에 대한 주문 수의 비율을 표시합니다. 이 예에서는 계산된 지표에서 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 방문]** 지표에 대해 **[!UICONTROL 총계]**&#x200B;를 지정합니다. 그러면 자동으로 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 방문]**&#x200B;이 됩니다. |
+     | **[!UICONTROL 표준]** | 공식이 하나의 표준 지표로 구성된 경우 계산되지 않은 지표에 해당하는 대응값과 동일한 데이터가 표시됩니다. 표준 지표는 각 개별 라인 항목별로 계산된 지표를 만드는 데 유용합니다. <p>예를 들어 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 주문]** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 방문 횟수]**&#x200B;는 특정 라인 항목에 대한 주문을 가져와 해당 특정 라인 항목의 방문 횟수로 나눕니다. |
+     | **[!UICONTROL 총 합계]** | 각 라인 항목에 있는 보고 기간에 대한 **[!UICONTROL 총 합계]**&#x200B;를 사용합니다. 수식에 단일 총 합계 지표가 포함된 경우 계산된 지표는 모든 라인 항목에 동일한 총 합계를 표시합니다. 총 합계 지표는 사이트 합계 데이터를 기준으로 비교하는 계산된 지표를 만들고자 할 때 유용합니다. <p>예를 들어 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 주문]** ![나누기](/help/assets/icons/Divide.svg) ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 방문 횟수]**&#x200B;는 특정 라인 항목에 대한 방문 횟수뿐만 아니라 모든 방문에 대한 주문 비율을 보여 줍니다. 이 예에서 계산된 지표의 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 방문 횟수 지표]**&#x200B;에 대한 **[!UICONTROL 총 합계]**&#x200B;를 지정하면 자동으로 ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 총 방문 횟수]**&#x200B;로 변환됩니다. |
 
    * **[!UICONTROL 속성]**&#x200B;을 지정합니다.
 
@@ -33,15 +33,15 @@ ht-degree: 77%
          * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 비활성화하여 30일의 전환 확인 기간이 있는 마지막 터치의 기본 열 속성 모델을 사용합니다.
          * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 활성화합니다. **[!UICONTROL 열 속성 모델]** 대화 상자에서
 
-            * [속성 모델](#attribution-models)에서 **[!UICONTROL 모델]**&#x200B;을(를) 선택하십시오.
-            * [컨테이너](#container) 옵션에서 **[!UICONTROL 컨테이너]**&#x200B;을(를) 선택하십시오.
-            * [전환 확인 기간](#lookback-window) 옵션에서 **[!UICONTROL 전환 확인 기간]**&#x200B;을 선택합니다. **[!UICONTROL 사용자 지정 시간]**&#x200B;을(를) 선택하는 경우 최대 **[!UICONTROL 분기]**&#x200B;까지 **[!UICONTROL 분]**&#x200B;으로 기간을 정의할 수 있습니다.
+            * [속성 모델](#attribution-models)에서 **[!UICONTROL 모델]**&#x200B;을 선택합니다.
+            * **[!UICONTROL 컨테이너]** 옵션에서 [컨테이너](#container)를 선택합니다.
+            * **[!UICONTROL 전환 확인 기간]** 옵션에서 [전환 확인 기간](#lookback-window)을 선택합니다. **[!UICONTROL 사용자 정의 시간]**&#x200B;을 선택하면 **[!UICONTROL 분]** 단위에서 최대 **[!UICONTROL 분기]** 단위로 기간을 정의할 수 있습니다.
 
       1. 비기본 속성 모델을 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택합니다. 취소하려면 취소를 선택합니다.
 
      비기본 속성 모델을 이미 정의한 경우 **[!UICONTROL 편집]**&#x200B;을 선택해 선택 항목을 수정합니다.
 
-속성 모델, 컨테이너 및 전환 확인 기간을 사용하는 방법에 대한 예는 [예](#example)를 참조하십시오.
+속성 모델, 컨테이너와 전환 확인 기간 사용에 대한 예시는 [예제](#example)에서 확인하십시오.
 
 
 ## 속성 모델 {#attribution-models}

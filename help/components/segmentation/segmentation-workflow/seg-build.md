@@ -1,12 +1,12 @@
 ---
-description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 차원, 세그먼트 및 이벤트를 세그먼트 방문자로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 방문과 페이지 히트에 걸쳐 방문자 특성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성하고 저장할 수 있습니다.
-title: 세그먼트 작성
+description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 차원, 세그먼트 및 이벤트를 세그먼트 방문자로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 방문과 페이지 히트에 걸쳐 방문자 속성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성하고 저장할 수 있습니다.
+title: 세그먼트 빌드
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: f12a3609e026057fc8a17776953883a727dc7489
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2152'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 89%
    | **[!UICONTROL 프로젝트 전용 세그먼트]** | 세그먼트가 생성된 프로젝트에서만 표시되며 구성 요소 목록에 세그먼트가 추가되지 않았다는 것을 설명하는 정보 상자. **[!UICONTROL 이 세그먼트가 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]**&#x200B;를 활성화하여 해당 설정을 변경합니다. 이 정보 상자는 [빠른 세그먼트](seg-quick.md)를 만들고 **[!UICONTROL 빠른 세그먼트]** 인터페이스의 [!UICONTROL 빌더 열기]를 사용하여 빠른 세그먼트 정보를 일반 세그먼트로 전환할 때만 표시됩니다. |
    | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 세그먼트의 이름을 지정합니다(예: `Last month mobile visitors`). |
    | **[!UICONTROL 설명]** | 세그먼트에 대한 설명을 입력합니다(예: `Segment to define the mobile customers for the last month`). |
-   | **[!UICONTROL 태그]** | 태그를 하나 이상 만들거나 적용하여 세그먼트를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
+   | **[!UICONTROL 태그]** | 하나 이상의 태그를 만들거나 적용하여 세그먼트를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
    | **[!UICONTROL 정의]** ![필수](/help/assets/icons/Required.svg) | [정의 빌더](#definition-builder)를 사용하여 세그먼트를 정의합니다. |
 
    {style="table-layout:auto"}
 
 1. 세그먼트 정의가 올바른지 확인하려면 오른쪽 상단에서 지속적으로 업데이트되는 세그먼트 결과의 미리보기를 사용합니다.
-1. 세그먼트를 Experience Cloud에 게시하려면 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]**&#x200B;을(를) 선택하십시오. 자세한 내용은 [Experience Cloud에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)를 참조하십시오.
+1. 세그먼트를 Experience Cloud에 게시하려면 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)를 선택합니다]**. 자세한 내용은 도움말의 [Experience Cloud에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)를 참조하십시오.
 1. 다음을 선택합니다.
    * **[!UICONTROL 저장]**: 세그먼트를 저장합니다.
    * **[!UICONTROL 다른 이름으로 저장]**: 세그먼트 사본을 저장합니다.
@@ -71,7 +71,7 @@ ht-degree: 89%
 정의의 유형과 범위를 구성할 수 있습니다.
 
 1. 정의 유형을 지정하려면 포함 정의를 작성할지, 제외 정의를 작성할지 지정합니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 옵션]**&#x200B;을 선택하고 드롭다운 메뉴에서 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]**&#x200B;를 선택합니다.
-1. 정의 범위를 지정하려면 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 정의 범위를 **[!UICONTROL 히트]**, **[!UICONTROL 방문]** 또는 **[!UICONTROL 방문자]**&#x200B;로 지정할지 여부를 선택합니다.
+1. 정의 범위를 지정하려면 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 정의 범위를 **[!UICONTROL 히트 수]**, **[!UICONTROL 방문 횟수]** 또는 **[!UICONTROL 방문자 수]**&#x200B;로 설정할지 선택합니다.
 
 나중에 언제든지 이러한 설정을 변경할 수 있습니다.
 
@@ -107,8 +107,8 @@ ht-degree: 89%
 * 컨테이너에 기존 구성 요소를 추가하려면 구성 요소를 컨테이너로 끌어다 놓습니다.
 * 컨테이너에 다른 구성 요소를 추가하려면 구성 요소 패널에서 컨테이너로 구성 요소를 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
 * 컨테이너 외부에 다른 구성 요소를 추가하려면 구성 요소 패널에서 구성 요소를 컨테이너 외부가 아닌 기본 정의 컨테이너 내부로 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
-* 컨테이너 내 구성 요소 간, 컨테이너 간 또는 컨테이너와 구성 요소 간의 논리를 수정하려면 적절한 **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**&#x200B;을 선택합니다. **[!UICONTROL Then]**&#x200B;을(를) 선택하면 세그먼트가 순차적 세그먼트로 바뀝니다. 자세한 내용은 [순차적 세그먼트 만들기](seg-sequential-build.md)를 참조하십시오.
-* 컨테이너 수준을 전환하려면 ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 히트]**, ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 방문]** 또는 ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 방문자]**&#x200B;를 선택하십시오.
+* 컨테이너 내 구성 요소 간, 컨테이너 간 또는 컨테이너와 구성 요소 간의 논리를 수정하려면 적절한 **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**&#x200B;을 선택합니다. **[!UICONTROL Then]**&#x200B;을 선택하면 세그먼트가 순차적 세그먼트로 전환됩니다. 자세한 내용은 [순차적 세그먼트 만들기](seg-sequential-build.md)를 참조하십시오.
+* 컨테이너 수준을 전환하려면 ![웹 페이지](/help/assets/icons/WebPage.svg) **[!UICONTROL 히트 수]**, ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 방문 횟수]** 또는 ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 방문자 수]**&#x200B;을 선택합니다.
 
 다음 액션을 위해 컨테이너에서 ![설정](/help/assets/icons/Setting.svg)을 사용할 수 있습니다.
 
@@ -125,7 +125,7 @@ ht-degree: 89%
 
 순환 날짜 범위를 포함하는 세그먼트를 만들 수 있습니다. 따라서 진행 중인 캠페인이나 이벤트에 대한 질문에 답변할 수 있습니다. 예를 들면 *지난 60일 동안 온라인으로 구매한 모든 사람*&#x200B;을 포함하는 세그먼트를 작성할 수 있습니다.
 
-![순환 날짜 범위를 사용하는 세그먼트](assets/segment-rolling-date-range.png)
+![순환 날짜 범위를 사용하여 세분화](assets/segment-rolling-date-range.png)
 
 
 >[!BEGINSHADEBOX]
@@ -139,11 +139,11 @@ ht-degree: 89%
 
 세그먼트를 사용하여 세그먼트를 작성할 수 있습니다. 세그먼트에서 세그먼트를 사용하면 세그먼트를 최적화하고 복잡성을 줄일 수 있습니다.
 
-상호 작용 채널 (5)와 미국 상태 (50)의 조합으로 세분화하려고 한다고 상상해 보십시오. 각각 디바이스 유형(휴대폰 대 태블릿)과 미국 상태의 고유한 조합에 대해 250개의 세그먼트를 작성할 수 있습니다. 캘리포니아에서 태블릿 사용자를 가져오려면 250개 세그먼트 중 하나를 사용합니다.
+상호작용 채널(5)과 미국 주(50)의 조합을 세분화하려고 한다고 가정해 보겠습니다. 각각 디바이스 유형(휴대전화와 태블릿)과 미국 주의 고유한 조합에 따라 250개의 세그먼트를 만들 수 있습니다. 캘리포니아의 태블릿 사용자를 얻으려면 250개 세그먼트 중 하나를 사용하면 됩니다.
 
 ![캘리포니아 및 태블릿용 간단한 세그먼트](assets/segment-ca-tablet-single.png)
 
-또는 55개의 세그먼트(미국 주는 50개 세그먼트, 가능한 상호 작용 채널은 5개 세그먼트)를 정의할 수 있습니다. 그런 다음 세그먼트를 누적하여 동일한 결과를 얻을 수 있습니다. California 모바일 앱 사용자를 가져오려면 두 개의 세그먼트를 스택합니다.
+또는 55개 세그먼트를 정의할 수 있습니다. 50개의 세그먼트는 미국 주에 대한 것이고, 5개의 세그먼트는 존재 가능한 상호작용 채널에 대한 것입니다. 그런 다음 세그먼트를 누적하여 동일한 결과를 얻을 수 있습니다. 캘리포니아의 모바일 앱 사용자를 얻으려면 두 가지 세그먼트를 적용해야 합니다.
 
 ![CA 및 태블릿용 스택 세그먼트](assets/segment-ca-tablet-stacked.png)
 
@@ -176,18 +176,18 @@ ht-degree: 89%
 
 | 모델 | 설명 |
 |---|---|
-| **[!UICONTROL 반복 모델(기본값)]** | 선별을 결정하기 위해 차원에 대한 인스턴스 값과 지속되는 값을 포함합니다. |
+| **[!UICONTROL 반복 모델 (기본값)]** | 선별을 결정하기 위해 차원에 대한 인스턴스 값과 지속되는 값을 포함합니다. |
 | **[!UICONTROL 인스턴스]** | 선별을 결정하기 위해 차원에 대한 인스턴스 값만 포함합니다. |
 | **[!UICONTROL 비반복 인스턴스]** | 선별을 결정하기 위해 차원에 대한 고유한 인스턴스(비반복) 값을 포함합니다. |
 
 
-![세그먼트 작성 시 차원에 대한 속성 모델](assets/segment-dimension-attribution.png)
+![세그먼트 빌드 시 차원에 대한 속성 모델](assets/segment-dimension-attribution.png)
 
 ### 예
 
 세그먼트 정의의 일부로 다음 조건을 지정했습니다. 페이지 이름이 여성과 같다. 위의 예와 유사합니다. 나머지 두 가지 속성 모델을 사용하여 이 세그먼트 정의를 반복합니다. 따라서 각각 고유한 속성 모델이 있는 세 개의 세그먼트가 있습니다.
 
-* 여성 페이지 - 속성 - 반복(기본값)
+* 여성 페이지 - 속성 - 반복 (기본값)
 * 여성 페이지 - 속성 - 인스턴스
 * 여성 페이지 - 속성 - 비반복 인스턴스
 
@@ -197,7 +197,7 @@ ht-degree: 89%
 
 | 여성 페이지 - 속성 - <br/>*속성 모델* | 이벤트 1:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 2:<br/>페이지 이름이 남성과 같음<br/> | 이벤트 3:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 4:<br/>페이지 이름이<br/>여성과 같음<br/>(지속) | 이벤트 5:<br/>페이지 이름이 체크아웃과 같음<br/> | 이벤트 6:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 7:<br/>페이지 이름이 홈과 같음<br/> |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| 반복(기본값) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
+| 반복 (기본값) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
 | 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
 | 비반복 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
 
@@ -215,7 +215,7 @@ There are several ways to access the Segment Builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -362,9 +362,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## 세그먼트 템플릿 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-세그먼트 템플릿은 &quot;처음 방문&quot; 또는 &quot;모바일 디바이스에서 방문&quot;과 같은 일반적인 세그먼테이션 사용을 위해 제공합니다. Workspace 프로젝트와 세그먼트 빌더에서 새 세그먼트를 위한 기본 요소로 사용할 수 있습니다.
+세그먼트 템플릿은 “처음 방문” 또는 “모바일 디바이스에서 방문”과 같은 일반적인 세그먼테이션 사용을 위해 제공합니다. Workspace 프로젝트와 세그먼트 빌더에서 새 세그먼트를 위한 기본 요소로 사용할 수 있습니다.
 
-템플릿은 Adobe &quot;A&quot; 로고로 표시됩니다. 템플릿 샘플은 아래에 나와 있습니다.
+템플릿은 Adobe “A” 로고로 표시됩니다. 템플릿 샘플은 아래에 나와 있습니다.
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -387,7 +387,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
    <td colname="col2">주문 이벤트에 참가하지 않은 방문자에 대한 데이터를 봅니다. 세그먼트 정의에서 이 컨테이너는 방문자입니다. 이 세그먼트는 제외 로직을 사용합니다. 규칙: <p>주문은 null이 아닙니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 단일 페이지 방문 아님(바운스 아님) </td> 
+   <td colname="col1"> 단일 페이지 방문 아님 (바운스 아님) </td> 
    <td colname="col2">두 번 이상 방문한 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문자입니다. 이 세그먼트는 제외 로직을 사용합니다. 규칙: <p>단일 액세스가 null이 아닙니다. </p> </td> 
   </tr> 
   <tr> 
@@ -415,7 +415,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
    <td colname="col2">캠페인에서 참조한 방문자에 대한 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>추적 코드가 null이 아닙니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 모바일 기기로부터 찾아온 방문 </td> 
+   <td colname="col1"> 모바일 디바이스를 통한 방문 </td> 
    <td colname="col2">모바일 디바이스를 사용한 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>모바일 디바이스가 Null이 아닙니다. </p> </td> 
   </tr> 
   <tr> 

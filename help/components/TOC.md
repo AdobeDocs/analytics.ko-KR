@@ -5,9 +5,9 @@ user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
 source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # [!DNL Adobe Analytics] 구성 요소 안내서 {#components}
 
 + [Analytics Components 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 차원 {#dimensions}
    + [차원 개요](dimensions/overview.md)
    + [차원 호환성](dimensions/compatibility.md)
@@ -183,7 +183,7 @@ ht-degree: 97%
       + [개요](segmentation/segmentation-workflow/seg-workflow.md)
       + [세그먼트 계획 수립](segmentation/segmentation-workflow/seg-plan.md)
       + [세그먼트 만들기](segmentation/segmentation-workflow/seg-create.md)
-      + [세그먼트 작성](segmentation/segmentation-workflow/seg-build.md)
+      + [세그먼트 빌드](segmentation/segmentation-workflow/seg-build.md)
       + [빠른 세그먼트](segmentation/segmentation-workflow/seg-quick.md)
       + [순차적 세그먼트](segmentation/segmentation-workflow/seg-sequential-build.md)
       + [세그먼트 공유](segmentation/segmentation-workflow/t-seg-share.md)
@@ -210,8 +210,8 @@ ht-degree: 97%
       + [계산된 지표 워크플로](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [간단한 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [더 복잡한 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [간단한 지표 빌드](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [더 복잡한 지표 빌드](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [참여도 지표 빌드](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [세분화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -247,7 +247,7 @@ ht-degree: 97%
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
 + 크로스 디바이스 분석 {#cda}
    + [크로스 디바이스 분석 개요](cda/overview.md)
-   + [필드 기반 결합](cda/field-based-stitching.md)
+   + [필드 기반 스티칭](cda/field-based-stitching.md)
    + [디바이스 그래프](cda/device-graph.md)
    + [크로스 디바이스 분석 설정](cda/setup.md)
    + [재생 작동 방식](cda/replay.md)
@@ -273,13 +273,13 @@ ht-degree: 97%
       + 분류 세트 통합 {#consolidations}
          + [통합 관리자](classifications/sets/consolidations/manage.md)
          + [통합 프로세스](classifications/sets/consolidations/process.md)
-   + 분류 규칙 빌더 (기존){#classifications-rulebuilder}
+   + 분류 규칙 빌더 (이전){#classifications-rulebuilder}
       + [개요](classifications/crb/classification-rule-builder.md)
       + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
       + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
       + [분류 규칙 정의](classifications/crb/classification-rule-definitions.md)
       + [하위 분류 및 규칙 빌더](classifications/crb/subclassification-rule-builder.md)
-   + 분류 가져오기 도구 (레거시){#classifications-importer}
+   + 분류 가져오기 도구 (이전){#classifications-importer}
       + [분류 가져오기 도구 개요](classifications/importer/c-working-with-saint.md)
       + [분류 데이터 파일](classifications/importer/c-saint-data-files.md)
       + [분류 데이터 삭제](classifications/importer/t-delete-classification-data.md)
