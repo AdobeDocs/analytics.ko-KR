@@ -20,7 +20,7 @@ ht-degree: 90%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **새 Report Builder에서 보안 클라우드 대상 지원** | Javascript Report Builder 추가 기능은 이제 다음 클라우드 스토리지 대상으로 보고서 내보내기를 지원합니다.<ul><li>Amazon S3 Role ARN</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>이전에는 FTP 및 이메일 대상만 사용할 수 있었습니다. 보안 문제로 인해 FTP는 더 이상 지원되지 않습니다.</p><p>자세한 내용은 [클라우드 대상으로 내보내 통합 문서 예약](/help/analyze/report-builder/report-builder-export.md)을 참조하십시오.</p><p>이러한 변경 사항 외에 Adobe Analytics에서 위치를 만들 때 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 [사용 방법] 필드에서 Report Builder에 위치를 사용할 수 있는 옵션을 제공합니다.</p> |  | 2025년 6월 19일(원래 6월 18일) |
+| **새 Report Builder에서 보안 클라우드 대상 지원** | Javascript Report Builder 추가 기능은 이제 다음 클라우드 스토리지 대상으로 보고서 내보내기를 지원합니다.<ul><li>Amazon S3 Role ARN</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>이전에는 FTP 및 이메일 대상만 사용할 수 있었습니다. 보안 문제로 인해 FTP는 더 이상 지원되지 않습니다.</p><p>자세한 내용은 [클라우드 대상으로 내보내 통합 문서 예약](/help/analyze/report-builder/report-builder-export.md)을 참조하십시오.</p><p>이러한 변경 사항 외에 Adobe Analytics에서 위치를 만들 때 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 [사용 방법] 필드에서 Report Builder에 위치를 사용할 수 있는 옵션을 제공합니다.</p> |  | 2025년 6월 19일 (원래는 6월 18일) |
 | **새로운 미리보기 경험** | 세그먼트, 계산된 지표 등을 미리 보는 데 사용되는 미리보기 패널이 이제 도넛 시각화 대신 가로 막대 시각화를 사용합니다. |  | 2025년 6월 18일 |
 | **수정된 속성 모델 대화 상자** | 이제 속성 모델 대화 상자에서 컨테이너와 기간을 별도로 정의할 수 있습니다. |  | 2025년 6월 18일 |
 | **고객 속성 UI에 대한 탐색이 업데이트되었습니다.** | 이제 Adobe Experience Cloud의 앱 선택기에서 고객 속성 사용자 인터페이스에 바로 액세스할 수 있습니다. |  | TBD |
@@ -65,6 +65,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
