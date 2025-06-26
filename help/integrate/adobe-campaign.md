@@ -17,7 +17,7 @@ ht-degree: 0%
 이 통합을 구성하는 방법에 대한 자세한 내용은 [Adobe Campaign 설명서](https://helpx.adobe.com/kr/campaign/standard/integrating/using/about-campaign-analytics-integration.html)를 참조하십시오.
 
 >[!IMPORTANT]
->이 문서는 Adobe Campaign **Standard** 보고에만 적용됩니다. Adobe Campaign **Classic** 보고를 추가하려면 [여기](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html)를 참조하십시오.
+>이 문서는 Adobe Campaign **Standard** 보고에만 적용됩니다. Adobe Campaign **Classic** 보고를 추가하려면 [여기](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=ko)를 참조하십시오.
 
 Adobe Analytics와 Adobe Campaign Standard를 통합하면 다음이 적용됩니다.
 

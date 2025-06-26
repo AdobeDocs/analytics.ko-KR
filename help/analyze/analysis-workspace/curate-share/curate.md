@@ -52,7 +52,7 @@ ht-degree: 65%
 
 ## 가상 보고서 세트 조정
 
-한 번에 많은 프로젝트에 적용되도록 보고서 세트 수준에서 조정을 적용하려면 [가상 보고서 세트에서 구성 요소를 조정](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components)할 수 있습니다.
+한 번에 많은 프로젝트에 적용되도록 보고서 세트 수준에서 조정을 적용하려면 [가상 보고서 세트에서 구성 요소를 조정](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-components)할 수 있습니다.
 
 >[!NOTE]
 >
