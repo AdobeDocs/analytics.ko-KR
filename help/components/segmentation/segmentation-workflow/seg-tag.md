@@ -1,12 +1,12 @@
 ---
 description: 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
-title: 세그먼트 태깅
+title: 세그먼트에 태그 지정
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 9%
+ht-degree: 4%
 
 ---
 

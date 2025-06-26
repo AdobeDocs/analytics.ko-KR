@@ -3,10 +3,10 @@ description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작
 title: 세그먼트 정보
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
-workflow-type: ht
-source-wordcount: '1159'
-ht-degree: 100%
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+workflow-type: tm+mt
+source-wordcount: '1020'
+ht-degree: 78%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 - 종료 및 시작 기준 방문자: Facebook, 정의된 랜딩 페이지, 참조 도메인의 방문자
 - 사용자 정의 변수 기준 방문자: 양식 필드, 정의된 카테고리, 고객 ID
 
-세그먼트 빌더에서 대상자 세그먼트를 작성할 경우 컨테이너 사이에 [!UICONTROL AND] 및 [!UICONTROL OR] 연산자를 사용하여 조건을 정의합니다.
+세그먼트 빌더에서 대상 세그먼트를 작성할 때 컨테이너 사이에 [!UICONTROL AND] 및 [!UICONTROL OR] 연산자를 사용하여 조건을 정의합니다.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -108,31 +108,29 @@ ht-degree: 100%
 
 이러한 유형의 세그먼트는 [!UICONTROL AND] 및 [!UICONTROL OR] 연산자를 사용하여 연결된 특성에 따라 데이터 세트를 필터링합니다.
 
-- [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/segmentation/segmentation-workflow/seg-workflow.md)할 수 있습니다.
+- [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)할 수 있습니다.
 - 세그먼트는 모든 보고서 세트에 범용입니다.
-- [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-workflow.md)는 세그먼트 생성을 단순화합니다.
-- [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 설정할 수 있습니다.
-- [세그먼트를 태그 지정](/help/components/segmentation/segmentation-workflow/seg-workflow.md)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다.
-- [순차적인 세그먼트](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 만들 수 있습니다.
-- [!UICONTROL 페이지 조회수] 컨테이너가 단지 페이지 조회수가 아닌 모든 유형의 데이터를 포함한다는 사실을 나타내기 위해 [!UICONTROL 히트] 컨테이너로 변경되었습니다. 예를 들어 모바일 SDK에서 발생한 링크 추적 호출 및 trackAction 호출은 히트 컨테이너에 의해 모두 포함 및 제외됩니다.
+- [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)를 사용하면 세그먼트 생성이 간단해집니다.
+- [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 설정할 수 있습니다.
+- [세그먼트를 태그 지정](/help/components/segmentation/segmentation-workflow/seg-tag.md)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다.
+- [순차적 세그먼트](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 만들 수 있습니다.
+- [!UICONTROL 페이지 조회수] 컨테이너가 단지 페이지 조회수가 아닌 모든 유형의 데이터를 포함한다는 사실을 나타내기 위해 [!UICONTROL 히트] 컨테이너로 변경되었습니다. 예를 들어 모바일 SDK의 링크 추적 호출 및 추적 작업 호출은 히트 컨테이너에 의해 모두 포함되거나 모두 제외됩니다.
 
 ## Analysis Workspace의 세그먼테이션
 
 Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습니다.
 
 - [세그먼트를 비교](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)할 수 있습니다.
-- 비교에서 [세그먼트를 차원으로](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko) 사용합니다.
+- 자유 형식 테이블 시각화에서 세그먼트를 차원으로 사용합니다.
 - [폴아웃 분석](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)에서 세그먼트를 사용합니다.
 
 ## Adobe 제공 세그먼트
 
-화면 왼쪽의 구성 요소 레일에는 귀하 및 귀사에서 만든 세그먼트 및 기본적으로 제공되는 Adobe 세그먼트가 표시됩니다. **[!UICONTROL 모두 표시]**&#x200B;를 클릭하면 이러한 세그먼트는 일반적으로 목록 하단에 표시되며 오른쪽의 Adobe 로고로 식별됩니다.
+구성 요소 왼쪽 레일은 귀하와 귀하의 회사 및 Adobe에서 만든 세그먼트를 즉시 제공합니다. **[!UICONTROL 모두 표시]**&#x200B;를 클릭하면 이러한 세그먼트가 일반적으로 목록 맨 아래에 표시되며 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)으로 식별됩니다.
 
 ## 순차적 세그먼트 {#sequential}
 
 순차적 세그먼트는 사이트 내의 탐색 및 페이지 조회수에 따라 방문자를 식별할 수 있도록 하며 정의된 작업 및 상호 작용 세그먼트를 제공합니다. 순차적 세그먼트는 방문자가 좋아하는 항목 및 방문자가 피하는 항목을 식별하는 데 도움이 됩니다. 순차적 세그먼트를 작성할 때는 방문자 탐색을 정의하고 순서를 지정하는 데 [!UICONTROL THEN] 연산자가 사용됩니다.
-
-<!--![](assets/sequential_seg.png)-->
 
 | 방문 1 | 방문 2 | 방문 3 |
 |---|---|---|
@@ -242,44 +240,16 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/3429105?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
-## 세그먼테이션 도구 액세스 {#access}
-
-+++ **세그먼트 빌더로 이동하는 방법**
-
-다음 작업을 수행하여 세그먼트 빌더에 액세스할 수 있습니다.
-
-- 기존 보고서를 표시하고 왼쪽 탐색에서 ![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)을 클릭합니다. 표시되는 세그먼트 레일에서 **[!UICONTROL 추가]**&#x200B;를 클릭하거나,
-
-- 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.  ![추가 버튼](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
-
-  또는
-
-- 세그먼트 관리자에서 기존 세그먼트 제목을 클릭하여 세그먼트 빌더에서 세그먼트를 편집합니다.
-
-+++
-
-+++ **세그먼트 관리자로 이동하는 방법**
-
-세그먼트 빌더 액세스 방법:
-
-- 맨 위의 탐색 영역에서 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]**&#x200B;로 이동합니다. 그런 다음 **[!UICONTROL 세그먼트]**&#x200B;를 클릭하거나,
-
-- 기존 보고서를 표시하고 왼쪽 탐색에서 ![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)을 클릭합니다. 그런 다음 **[!UICONTROL 관리]**&#x200B;를 클릭하거나,
-
-- 인터페이스의 어디에서든지 슬래시 키 &#39;/&#39;를 누르고 세그먼트 관리자를 검색합니다.
-
-+++
-
-## 권한 {#section_648DFA3A882146C485A84ED014EEC707}
+## 권한 {#permissions}
 
 +++ **세그먼트를 사용하고 만들고 관리하는 데 필요한 권한**
 
-기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
+기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
 관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [역할별 세그먼트 권한](/help/components/segmentation/seg-reference/seg-rights.md)
 
@@ -303,8 +273,8 @@ Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 
 
 +++
 
-+++ **이 세그먼트를 삭제할 수 없는 이유**
++++ **세그먼트를 삭제할 수 없는 이유**
 
-세그먼트가 [Experience Cloud로 게시된 경우](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 삭제하거나 편집할 수 없습니다. 그렇지만 복사한 후 복사한 버전을 편집할 수 있습니다.
+세그먼트가 [Experience Cloud에 게시](/help/components/segmentation/segmentation-workflow/seg-workflow.md)된 경우 세그먼트를 삭제하거나 편집할 수 없습니다. 그러나 세그먼트를 복사하고 복사된 버전을 편집할 수 있습니다.
 
 +++

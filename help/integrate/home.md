@@ -2,11 +2,11 @@
 title: Analytics 통합
 description: 다른 위치의 데이터를 Adobe Analytics에 통합하는 방법을 살펴보십시오.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
-source-git-commit: 0eccf49810786aea385600d2ab21331f30da227c
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+feature: Audience Analytics, Advertising Analytics, Activity Map
+source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud용 Analytics](https://video.tv.adobe.com/v/327669?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud용 Analytics](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -45,11 +45,11 @@ ht-degree: 100%
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko)
+[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://experienceleague.adobe.com/ko?support-solution=Analytics#support)
-* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko)
-* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ko)
+* [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

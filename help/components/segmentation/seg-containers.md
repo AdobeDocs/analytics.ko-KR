@@ -4,10 +4,10 @@ keywords: 세그먼테이션;세그먼트
 title: 세그먼트 컨테이너
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '3566'
-ht-degree: 98%
+source-wordcount: '3563'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 세그먼트는 방문자 속성 또는 사이트와의 상호 작용에 따라 방문자를 필터링하는 조건을 설정합니다. 세그먼트에서 조건을 설정하려면 방문자 특성 및/또는 탐색 트레이트에 따라 방문자를 필터링하기 위한 규칙을 설정합니다. 방문자 데이터를 더 자세히 분류하려면 각 방문자에 대한 특정 방문 및/또는 페이지 조회수 히트별로 필터링할 수 있습니다. 세그먼트 빌더는 이러한 하위 집합을 작성하고 중첩된 계층형 방문자, 방문, 히트 컨테이너로 규칙을 적용하는 간단한 아키텍처를 제공합니다.
 
-세그먼트 빌더에 사용된 컨테이너 아키텍처는 다음을 정의합니다.
+[세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)에 사용된 컨테이너 아키텍처는 다음을 정의합니다.
 
-- ![방문자](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL 방문자]**&#x200B;를 가장 바깥쪽 컨테이너로 정의하고 여러 방문 및 페이지 조회수에서 해당 방문자 고유의 중요 데이터를 포함합니다.
-- ![방문](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg) 중첩 **[!UICONTROL 방문]** 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고,
-- ![이벤트](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) 중첩 **[!UICONTROL 히트]** 컨테이너를 사용하여 개별 페이지 조회수에 따라 방문자 정보를 분류할 수 있습니다.
+- ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 방문자]**(을)를 가장 바깥쪽 컨테이너로 사용합니다. 이 컨테이너에는 여러 방문 및 페이지 보기에서 해당 방문자와 관련된 중요한 데이터가 들어 있습니다.
+- ![방문](/help/assets/icons/Visit.svg) 중첩 **[!UICONTROL 방문]** 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고,
+- ![WebPage](/help/assets/icons/WebPage.svg) 중첩된 **[!UICONTROL Hit]** 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다.
 
 각 컨테이너를 사용하여 방문자 내역에서 방문별로 분류된 상호 작용을 보고하거나 개별 히트를 분류할 수 있습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
 </tr>
 </table>
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/3429105?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ ht-degree: 98%
 
 - 방문 횟수
 - 시작 페이지
-- 반환 주기
+- 반환 빈도
 - 참여도 지표
 - 선형 할당 지표
 
@@ -148,7 +148,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
 </tr>
 </table>
 
@@ -173,11 +173,11 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">그렇다면</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
 </tr>
 </table>
 
@@ -210,7 +210,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
 </tr>
 
 <tr>
@@ -225,7 +225,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
 </tr>
 
 <tr>

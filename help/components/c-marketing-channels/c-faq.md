@@ -3,10 +3,10 @@ title: 마케팅 채널 FAQ
 description: 마케팅 채널에 대한 FAQ입니다.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ![](assets/int-channel3.png)
 
-첫 번째 터치와 마지막 터치가 같은 교차 지점은 표의 대각선입니다. 다른 지속되는 채널에서 크레딧을 받을 수는 없으므로 직접 및 세션 새로 고침은 모두 마지막 터치 채널이기도 하고 첫 번째 터치 채널이기도 한 경우 마지막 터치 크레딧만 받습니다(강조 표시된 행).
+첫 번째 터치와 마지막 터치가 같은 교차 지점은 테이블의 대각선입니다. 다른 지속되는 채널에서 크레딧을 받을 수는 없으므로 직접 및 세션 새로 고침은 모두 마지막 터치 채널이기도 하고 첫 번째 터치 채널이기도 한 경우 마지막 터치 크레딧만 받습니다(강조 표시된 행).
 
 ## 식별된 채널 없음에 대한 이유 {#no-channel-identified}
 

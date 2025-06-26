@@ -1,12 +1,12 @@
 ---
-description: 세그먼트 관리자 내에서 다양한 애플리케이션 수준이나 특정 부서 또는 그룹에 대한 세그먼트 승인이 포함된 워크플로를 보고 정책과 일관되게 설정할 수 있습니다.
+description: 세그먼트 관리자 내에서 다양한 애플리케이션 수준이나 특정 부서 또는 그룹에 대한 세그먼트 승인이 포함된 워크플로우를 보고 정책과 일관되게 설정할 수 있습니다.
 title: 세그먼트 승인
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 24%
+ht-degree: 2%
 
 ---
 

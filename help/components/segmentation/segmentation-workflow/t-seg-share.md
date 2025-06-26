@@ -3,7 +3,7 @@ description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용
 title: 세그먼트 공유
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 61%

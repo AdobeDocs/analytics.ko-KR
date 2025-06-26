@@ -1,14 +1,14 @@
 ---
 description: 조정 기능을 사용하여 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다.
-keywords: Analysis Workspace 큐레이션
+keywords: Analysis Workspace 조정
 title: 프로젝트 구성
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 98%
+source-wordcount: '560'
+ht-degree: 65%
 
 ---
 
@@ -22,52 +22,51 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 조정](https://video.tv.adobe.com/v/31298?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 조정](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 
 ## 프로젝트 조정 적용
 
-1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 공유]** > **[!UICONTROL 프로젝트 데이터 조정]**을 선택합니다.
 프로젝트에 사용되는 구성 요소가 자동으로 추가됩니다.
-   **참고**: 프로젝트에 여러 보고서 세트가 있는 경우 프로젝트의 각 보고서 세트에 대한 조정 필드가 표시됩니다.
-1. (선택 사항) 구성 요소를 더 추가하려면 왼쪽 레일에서 공유할 구성 요소를 [!UICONTROL 구성 요소 조정 &#x200B;]필드로 드래그합니다.
-1. **[!UICONTROL 완료를 클릭합니다]**.
+프로젝트에 여러 보고서 세트가 있는 경우 프로젝트의 각 보고서 세트에 대한 조정 드롭 대상이 표시됩니다.
+1. (선택 사항) 구성 요소를 더 추가하려면 왼쪽 패널에서 공유할 구성 요소를 데이터 보기의 **[!UICONTROL 구성 요소 조정]** 드롭 영역으로 드래그합니다.
+1. **[!UICONTROL 완료]**&#x200B;를 선택합니다.
 
-[!UICONTROL 조정 및 공유]를 클릭하여 **[!UICONTROL 공유]** 메뉴에서 조정을 적용할 수도 있습니다. 이 옵션은 프로젝트에서 사용 중인 구성 요소에 프로젝트를 자동으로 조정해 줍니다. 위의 단계에 따라 추가 구성 요소를 추가할 수 있습니다.
+**[!UICONTROL 조정 및 공유]**&#x200B;를 선택하여 [!UICONTROL 공유] 메뉴에서 조정을 적용할 수도 있습니다. 이 옵션은 프로젝트에서 사용 중인 구성 요소에 프로젝트를 자동으로 조정해 줍니다. 위의 단계에 따라 추가 구성 요소를 추가할 수 있습니다.
 
 ![](assets/curation-field.png)
 
-## 조정된 프로젝트 보기
+수신자가 조정된 프로젝트를 열면 사용자가 정의한 조정된 구성 요소 집합만 표시됩니다.
 
-받는 사람이 조정된 프로젝트를 열면 사용자가 정의한 조정된 구성 요소 집합만 표시됩니다.
-
-![](assets/curate-project.png)
 
 ## 프로젝트 조정 제거
 
 프로젝트 조정을 제거하고 왼쪽 레일에 있는 전체 구성 요소 세트를 복원하려면 다음 작업을 수행하십시오.
 
-1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 조정 제거]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 완료를 클릭합니다]**.
+1. **[!UICONTROL 공유]** > **[!UICONTROL 프로젝트 데이터 조정]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 큐레이션 제거]**&#x200B;를 선택하십시오.
+1. **[!UICONTROL 완료]**&#x200B;를 선택합니다.
 
 ## 가상 보고서 세트 조정
 
-한 번에 많은 프로젝트에 적용되도록 보고서 세트 수준에서 조정을 적용하려면 [가상 보고서 세트에서 구성 요소를 조정](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=ko-KR)할 수 있습니다.
+한 번에 많은 프로젝트에 적용되도록 보고서 세트 수준에서 조정을 적용하려면 [가상 보고서 세트에서 구성 요소를 조정](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components)할 수 있습니다.
 
 >[!NOTE]
-> 가상 보고서 세트 조정은 항상 프로젝트 조정 전에 적용됩니다. 즉, 조정된 프로젝트에 특정 구성 요소가 포함되어 있더라도 조정된 가상 보고서 세트에 해당 구성 요소가 포함되어 있지 않으면 필터링됩니다.
+>
+> 가상 보고서 세트 조정은 항상 프로젝트 조정 전에 적용됩니다. 조정된 프로젝트에 특정 구성 요소가 포함되어 있어도 조정된 가상 보고서 세트에 이러한 구성 요소가 포함되어 있지 않으면 필터링됩니다.
+> 
 
-## 모든 구성 요소 표시 옵션
+## 구성 요소 조정 옵션
 
-조정된 프로젝트 또는 가상 보고서 세트에서 수신자에게 왼쪽 레일에 구성 요소 **[!UICONTROL 모두 표시]** 옵션이 표시됩니다. [!UICONTROL 모두 표시]를 선택하면 다음 항목에 따라 다른 구성 요소 세트가 표시됩니다.
+조정된 프로젝트 또는 가상 보고서 세트에서 수신자에게 왼쪽 레일에 구성 요소 **[!UICONTROL 모두 표시]**&#x200B;하는 옵션이 표시됩니다. [!UICONTROL 모두 표시]를 선택하면 다음 항목에 따라 다른 구성 요소 세트가 표시됩니다.
 
 * 사용자의 권한 수준(관리자 또는 비관리자)
 * 프로젝트 역할(소유자/편집자 아님)
 * 적용된 조정 유형(가상 보고서 세트 또는 프로젝트)
-* 사용자가 소유하거나 공유하는 구성 요소. 소유/공유 구성 요소에는 세그먼트, 계산된 지표 및 날짜 범위가 포함됩니다. eVar, props 및 사용자 정의 이벤트와 같은 구현된 구성 요소는 포함되지 않습니다.
+* 사용자가 소유하거나 공유하는 구성 요소. 소유/공유 구성 요소에는 세그먼트, 계산된 지표 및 날짜 범위가 포함됩니다. eVar, prop 및 사용자 지정 이벤트와 같은 구현된 구성 요소는 포함되지 않습니다.
 
 참고: 관리자가 아닌 보기 역할은 프로젝트의 왼쪽 레일에 대한 액세스 권한이 없으므로 아래 테이블에서 생략되었습니다.
 

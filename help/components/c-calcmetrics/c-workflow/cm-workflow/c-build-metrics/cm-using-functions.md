@@ -3,10 +3,10 @@ description: 함수를 사용하면 데이터를 필터링/정렬하고 통계�
 title: 함수 사용
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 77%
+source-wordcount: '58'
+ht-degree: 44%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->계산된 지표 공식에 함수를 포함할 때에는 항상 지표나 세그먼트에서 드래그하기 전에 함수를 적용하십시오.
+>계산된 지표 공식에 함수를 포함할 때에는 항상 지표나 세그먼트를 드래그하기 전에 함수를 적용하십시오.
 
 <!-- OUTDATED VIDEO 
 Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions.

@@ -4,134 +4,254 @@ title: 구성 요소 개요
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 94%
 
 ---
 
 # 구성 요소 개요
 
-Analysis Workspace의 구성 요소는 프로젝트에 끌어서 놓을 수 있는 차원, 지표, 세그먼트 및 날짜 범위로 구성됩니다.
+구성 요소는 시각화(예: 자유 형식 테이블)에 사용하거나 보고 기능을 보완하는 Adobe Analytics의 기능입니다.
 
-구성 요소 메뉴에 액세스하려면 왼쪽 레일에서 **[!UICONTROL 구성 요소]** 아이콘을 클릭하십시오. 왼쪽 레일 아이콘에서 또는 [핫키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)를 사용하여 [패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko), [시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko) 및 구성 요소 간에 전환할 수 있습니다.
+기본 Adobe Analytics 인터페이스에서 구성 요소를 관리하려면 다음을 수행하십시오.
 
-![](assets/component-overview.png)
+1. 상단 막대에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 구성 요소]**&#x200B;를 선택하여 관리할 수 있는 구성 요소의 개요를 확인하거나 메뉴에서 관리하려는 구성 요소를 바로 선택합니다.
 
-**[!UICONTROL 프로젝트 > 프로젝트 정보 및 설정 > 밀도 보기]**&#x200B;로 이동하여 프로젝트의 [밀도 보기 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR)을 조정하여 왼쪽 레일에서 한 번에 더 많은 값을 볼 수 있습니다.
+다음 구성 요소를 관리할 수 있습니다.
 
-## 차원 {#dimensions}
+* [세그먼트](/help/components/segmentation/seg-home.md): 강력하고 집중적인 대상자 세그먼트를 작성, 관리, 공유하고 보고서에 적용합니다. 세그먼트를 사용하여 특성 또는 상호 작용에 따라 사용자 하위 세트를 식별할 수 있습니다.
+* [계산된 지표](/help/components/c-calcmetrics/cm-overview.md): 보고에 사용할 새 구성 요소로 지표 및 공식 사용
+* [날짜 범위](calendar-date-ranges/custom-date-ranges.md): Analysis Workspace에서 제공하는 날짜 범위 사용자 정의 및 세분화입니다.
+* [예약된 프로젝트](../curate-share/t-schedule-report.md): 예약된 프로젝트를 관리합니다.
+* [위치](../../../components/locations/locations-manager.md): 프로젝트를 내보낼 위치를 관리합니다.
+* [경고](/help/components/c-alerts/intellligent-alerts.md): 변경된 백분율 또는 특정 데이터 포인트를 기준으로 알림을 받을 수 있습니다.
+* [주석](annotations/overview.md): 컨텍스트 데이터 뉘앙스와 인사이트를 조직에 전달합니다.
+* [환경 설정](/help/analyze/analysis-workspace/user-preferences.md): Analysis Workspace 환경 설정을 관리합니다.
 
-[**차원**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html?lang=ko-KR)은 방문자 행동을 설명하는 텍스트 속성으로, 분석에서 보고 분류하고 비교할 수 있습니다. 차원은 왼쪽 구성 요소 레일 (주황색 섹션)에서 찾을 수 있으며 일반적으로 테이블의 행으로 적용됩니다.
 
-차원의 예로는 [!UICONTROL 페이지 이름], [!UICONTROL 마케팅 채널], [!UICONTROL 디바이스 유형] 및 [!UICONTROL 제품]이 있습니다. 차원은 Adobe에서 제공하며 맞춤형 구현 (eVar, Props, 분류 등)을 통해 캡처됩니다.
 
-각 차원에는 **차원 항목**&#x200B;도 포함됩니다. 차원 항목은 차원 이름 (항목은 노란색임) 옆에 있는 오른쪽 화살표를 클릭하여 왼쪽 구성 요소 레일에서 찾을 수 있습니다.
+## Analysis Workspace 구성 요소
 
-차원 항목의 예로는 [!UICONTROL 홈페이지] ([!UICONTROL 페이지] 차원 내), [!UICONTROL 유료 검색] ([!UICONTROL 마케팅 채널«] 차원 내), [!UICONTROL 태블릿] ([!UICONTROL 모바일 디바이스 유형] 차원 내) 등이 있습니다.
+Analysis Workspace의 구성 요소는 Workspace 프로젝트 패널 및 시각화에 드래그 앤 드롭할 수 있는 지표, 차원, 세그먼트 및 날짜 범위로 구성됩니다. 계산된 지표나 사용자 정의 날짜 범위와 같은 생성된 사용자 정의 구성 요소가 이 패널에 추가됩니다.
 
-![](assets/dimensions.png)
+구성 요소 패널에 액세스하려면 버튼 패널의 ![Curate](/help/assets/icons/Curate.svg) **[!UICONTROL 구성 요소]**&#x200B;를 선택합니다.
 
-## 지표 {#metrics}
+![왼쪽 레일의 구성 요소 아이콘이 강조 표시된 Workspace 패널](assets/components.png)
 
-[**지표**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=ko-KR)는 방문자 행동에 대한 정량적 측정입니다. 왼쪽 구성 요소 레일 (녹색 섹션)에서 찾을 수 있으며 일반적으로 테이블의 열로 적용됩니다.
-
-지표의 예로는 [!UICONTROL 페이지 조회수], [!UICONTROL 방문 횟수], [!UICONTROL 주문 수], [!UICONTROL 평균 소요 시간] 및 [!UICONTROL 매출/테두리]이 있습니다. 지표는 Adobe에서 제공하거나 맞춤형 구현 ([!UICONTROL 성공 이벤트])을 통해 캡처하거나 [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko-KR)를 사용하여 생성합니다.
-
-![](assets/metrics.png)
-
-## 세그먼트 {#segments}
-
-[**세그먼트**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=ko-KR)는 분석에 적용되는 대상자 필터입니다. 왼쪽 구성 요소 레일 (파란색 섹션)에서 찾을 수 있으며 일반적으로 패널 상단 또는 테이블의 지표 열 위에 적용됩니다.
-
-세그먼트의 예로는 [!UICONTROL 모바일 디바이스 방문자], [!UICONTROL 이메일을 통한 방문 ] 및 [!UICONTROL 인증된 히트]가 있습니다. 세그먼트는 Adobe에서 제공하거나 [패널 드롭 영역](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR)에서 생성하거나 [세그먼트 빌더](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ko-KR)를 사용하여 생성합니다.
-
-![](assets/segments.png)
-
-## 데이터 범위 {#date-ranges}
-
-[**날짜 범위**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=ko-KR)는 분석을 수행하는 기간입니다. 왼쪽 구성 요소 레일 (보라색 섹션)에서 찾을 수 있으며 일반적으로 각 패널의 달력에 적용됩니다.
-
-패널 캘린더를 기준으로 날짜 범위 구성 요소를 만들 수 있습니다. 자세한 내용은 [상대 패널 날짜 범위 정보](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)를 참조하십시오.
-
-날짜 범위의 예로는 2019년 7월, [!UICONTROL 지난 4주] 및 [!UICONTROL 이번 달]이 있습니다. 날짜 범위는 Adobe에서 제공하거나 [패널 달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR)에 적용하거나 [날짜 범위 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ko-KR)를 사용하여 생성합니다.
-
-![](assets/date-ranges.png)
+프로젝트의 구성 요소를 사용하는 방법에 대한 자세한 내용은 [프로젝트 만들기](/help/analyze/analysis-workspace/home.md)를 참조하십시오.
 
 
 ## 구성 요소 관리 {#actions}
 
-왼쪽 레일에서 바로 구성 요소를 관리할 수 있습니다.
+Analysis Workspace의 **[!UICONTROL 구성 요소]** 메뉴를 사용하여 새 구성 요소를 빠르게 만들 수 있습니다. 자세한 내용은 [Analysis Workspace 메뉴](/help/analyze/analysis-workspace/home.md#menu)를 참조하십시오.
 
-1. 구성 요소를 마우스 오른쪽 버튼으로 클릭합니다.
+(개별적으로 또는 두 개 이상을 선택하여) 구성 요소를 관리할 수 있습니다.
 
-   또는
+1. 하나 이상의 구성 요소를 선택합니다.
 
-   구성 요소를 선택한 다음 구성 요소 목록 상단의 **액션**(점 3개) 아이콘을 선택합니다.
+1. 컨텍스트 메뉴 또는 ![MoreVertical](/help/assets/icons/MoreVertical.svg) 구성 요소 작업 버튼(구성 요소 상단)에서 다음 작업 중 하나를 선택합니다.
+
 
    >[!TIP]
    >
-   >   Shift 키를 누르거나 Command(Mac) 또는 Ctrl(Windows) 키를 누른 상태에서 여러 구성 요소를 선택할 수 있습니다.
+   >**[!UICONTROL Shift 키]**&#x200B;를 누르거나 **[!UICONTROL Command]**(macOS) 또는 **[!UICONTROL Ctrl]**(Windows) 키를 누른 상태에서 여러 구성 요소를 선택할 수 있습니다.
+
+
+   ![태그, 즐겨찾기, 승인, 공유 및 삭제가 표시된 구성 요소 작업 목록입니다.](assets/component-menu.png)
+
+   | 구성 요소 작업 | 설명 |
+   |--- |--- |
+   | ![레이블](/help/assets/icons/Label.svg) [!UICONTROL **태그**] | 구성 요소에 태그를 적용하여 구성 요소를 구성하거나 관리합니다. 그런 다음 ![Filter](/help/assets/icons/Filter.svg) 필터를 선택하거나 `#`을 입력하여 왼쪽 패널에서 태그로 검색할 수 있습니다. 태그는 구성 요소 관리자에서 필터 역할도 합니다. |
+   | ![Star](/help/assets/icons/Star.svg) [!UICONTROL **즐겨찾기**] | 구성 요소를 즐겨찾기 목록에 추가합니다. 태그와 마찬가지로 왼쪽 패널에서 즐겨찾기로 검색하고 구성 요소 관리자에서 즐겨찾기별로 필터링할 수 있습니다. |
+   | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL 즐겨찾기에서 제거]** | 즐겨찾기 목록에서 구성 요소를 제거합니다. |
+   | ![체크 표시](/help/assets/icons/Checkmark.svg) [!UICONTROL **승인**] | 구성 요소를 승인됨으로 표시하여 해당 구성 요소가 조직에서 승인되었음을 사용자에게 알립니다. 태그와 마찬가지로 왼쪽 패널에서 승인됨으로 검색하고 승인됨별로 필터링할 수 있습니다. ![체크 표시](/help/assets/icons/Checkmark.svg)는 승인된 구성 요소를 식별합니다. |
+   | ![공유](/help/assets/icons/ShareAlt.svg) [!UICONTROL **공유**] | 조직의 사용자와 구성 요소를 공유합니다. 이 옵션은 세그먼트 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
+   | ![삭제](/help/assets/icons/Delete.svg) [!UICONTROL **삭제**] | 더 이상 필요하지 않은 구성 요소를 삭제하십시오. 이 옵션은 세그먼트 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
+
+사용자 정의 구성 요소는 해당 구성 요소 관리자를 통해 관리할 수도 있습니다. 예를 들어 [세그먼트 관리](/help/components/segmentation/segmentation-workflow/seg-manage.md)를 참조하십시오.
+
+## 구성 요소 목록 관리
+
+Analysis Workspace의 왼쪽 패널에 있는 구성 요소 목록을 검색하고, 필터링하고, 정렬하여 특정 구성 요소를 찾을 수 있습니다.
+
+### 검색
+
+1. 왼쪽 패널에서 **구성 요소** ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)를 선택합니다.
+
+2. 검색 필드에 프로젝트에서 사용하려는 구성 요소의 이름을 입력하기 시작합니다.
+
+   색상과 아이콘은 구성 요소 유형을 식별합니다. **차원**(![차원 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg))은 주황색, **세그먼트**(![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg))는 파란색, **날짜 범위**(![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg))는 보라색, **지표**(![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))는 녹색입니다.<br/>Adobe 아이콘(![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg))은 계산된 지표 템플릿 또는 세그먼트 템플릿 중 하나를 나타냅니다. 계산기 아이콘(![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg))은 조직의 관리자가 만든 계산된 지표를 나타냅니다.
+
+3. 드롭다운 메뉴에서 구성 요소를 선택합니다.
+
+### 필터링
+
+1. 왼쪽 패널에서 **구성 요소** 아이콘(![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg))을 선택합니다.
+
+2. **필터**(![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg))를 선택하거나 검색 필드에 `#`를 입력합니다.
+
+3. 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
+
+   | 아이콘 | 필터 옵션 | 설명 |
+   |---------|---|----------|
+   | ![체크 표시](/help/assets/icons/Checkmark.svg) | **[!UICONTROL 승인됨]** | 관리자가 승인함으로 표시한 구성 요소만 표시합니다. |
+   | ![Star](/help/assets/icons/Star.svg) | **[!UICONTROL 즐겨찾기]** | 즐겨찾기 목록에 있는 구성 요소만 표시합니다. <br/>즐겨찾기 목록에 구성 요소를 추가하는 방법에 대한 자세한 내용은 [구성 요소 관리](#manage-components)를 참조하십시오. |
+   | ![Dimensions](/help/assets/icons/Dimensions.svg) | **[!UICONTROL 차원]** | 차원인 구성 요소만 표시합니다. |
+   | ![Event](/help/assets/icons/Event.svg) | **[!UICONTROL 지표]** | 지표인 구성 요소만 표시합니다. |
+   | ![Segmentation](/help/assets/icons/Segmentation.svg) | **[!UICONTROL 세그먼트]** | 세그먼트인 구성 요소만 표시합니다. |
+   | ![Calendar](/help/assets/icons/Calendar.svg) | **[!UICONTROL 날짜 범위]** | 날짜 범위인 구성 요소만 표시합니다. |
+   | ![레이블](/help/assets/icons/Label.svg) | **[!UICONTROL *태그 이름&#x200B;*]** | 선택한 특정 태그가 있는 구성 요소만 표시합니다. Adobe 템플릿에 제공되는 전용 태그는 Adobe의 [기본 계산된 지표](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)입니다. |
+
+   필터의 ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 필터를 제거합니다.
+
+4. [구성 요소 목록 정렬](#sort-the-component-list)에 설명된 대로 선택적으로 구성 요소 목록을 정렬할 수 있습니다.
+
+### 정렬
+
+<!-- {{release-limited-testing-section}}-->
+
+1. (선택 사항) [구성 요소 목록 필터링](#filter-the-component-list)에 설명된 대로 구성 요소 목록에 필터를 적용합니다.
+
+2. 왼쪽 패널에서 **구성 요소** ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)를 선택합니다.
+
+3. **정렬** 아이콘(![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg))을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
+
+다음 정렬 옵션을 사용할 수 있습니다.
+
+{{components-sort-options}}
+
+## 액세스 권한
+
+Analysis Workspace에서 관리자는 보고 시 사용자에게 표시될 구성 요소를 [선정](/help/analyze/analysis-workspace/curate-share/curate.md)할 수 있습니다.
+
+
+<!--
+# Components overview
+
+Components in Analysis Workspace consist of dimensions, metrics, segments, and date ranges that you can drag-and-drop onto a project. 
+
+To access the Components menu, click the **[!UICONTROL Components]** icon in the left rail. You can switch among ![WebPage](/help/assets/icons/WebPage.svg)[panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html), and components from the left rail icons or by using [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+
+![](assets/component-overview.png)
+
+You can also adjust the [View density settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) for the project to see more values in the left rail at once by going to **[!UICONTROL Project > Project Info & Settings > View Density]**.
+
+## Dimensions {#dimensions}
+
+[**Dimensions**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html) are text attributes that describe your visitor behavior and can be viewed, broken down, and compared in your analysis. They can be found in the left Component rail (orange section) and are typically applied as rows of a table. 
+
+Examples of dimensions include [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type], and [!UICONTROL Products]. Dimensions are provided by Adobe and are captured through your custom implementation (eVar, Props, classifications, etc).
+
+Each dimension also contains **dimension items** within it. Dimension items can be found in the left Component rail by clicking the right-arrow next to any dimension name (items are yellow).
+
+Examples of dimension items include [!UICONTROL Homepage] (within the [!UICONTROL Page] dimension), [!UICONTROL Paid Search] (within the [!UICONTROL Marketing Channel] dimension), [!UICONTROL Tablet] (within the [!UICONTROL Mobile Device Type] dimension), and so on.
+
+![](assets/dimensions.png)
+
+## Metrics {#metrics}
+
+[**Metrics**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html) are quantitative measures about visitor behavior. They can be found in the left Component rail (green section) and are typically applied as columns of a table.
+
+Examples of metrics include [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], and [!UICONTROL Revenue/Order]. Metrics are provided by Adobe, or captured through your custom implementation ([!UICONTROL Success events]), or created using the [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+
+![](assets/metrics.png)
+
+## Segments {#segments}
+
+[**Segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) are audience filters that are applied to your analysis. They can be found in the left Component rail (blue section) and are typically applied at the top of a panel or above metric columns in a table. 
+
+Examples of segments include [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email], and [!UICONTROL Authenticated Hits]. Segments are provided by Adobe, or created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), or created using the [Segment builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+
+![](assets/segments.png)
+
+## Date Ranges {#date-ranges}
+
+[**Date Ranges**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) are the range of dates you conduct your analysis across. They can be found in the left Component rail (purple section) and are typically applied in the calendar of each panel.
+
+You can make the date range components relative to the panel calendar. For additional information, see [About relative panel date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+
+Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICONTROL This month]. Date ranges are provided by Adobe, applied in the [panel calendar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), or created using the [Date range builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
+
+![](assets/date-ranges.png)
+
+
+## Manage components {#actions}
+
+You can manage components directly in the left rail. 
+
+1. Right-click a component.
+
+   Or
+   
+   Select a component, then select the **Action** (3-dot) icon at the top of the component list.
+
+   >[!TIP]
+   >
+   >   You can select multiple components by holding Shift, or by holding Command (on Mac) or Ctrl (on Windows).
 
 
    ![](assets/component-actions.png)
 
-   | 구성 요소 작업 | 설명 |
+   | Component action | Description |
    |--- |--- |
-   | [!UICONTROL **태그**] | 구성 요소에 태그를 적용하여 구성 요소를 구성하거나 관리합니다. 그런 다음 필터를 클릭하거나 #을 입력하여 왼쪽 레일에서 태그로 검색할 수 있습니다. 태그는 구성 요소 관리자에서 필터 역할도 합니다. |
-   | [!UICONTROL **즐겨찾기**] | 구성 요소를 즐겨찾기 목록에 추가합니다. 태그와 마찬가지로 왼쪽 레일에서 즐겨찾기로 검색하고 구성 요소 관리자에서 즐겨찾기별로 필터링할 수 있습니다. |
-   | [!UICONTROL **승인**] | 구성 요소를 승인됨으로 표시하여 해당 구성 요소가 조직에서 승인되었음을 사용자에게 알립니다. 태그와 마찬가지로 왼쪽 레일에서 승인됨으로 검색하고 구성 요소 관리자에서 승인됨별로 필터링할 수 있습니다. |
-   | [!UICONTROL **공유**] | 조직의 사용자와 구성 요소를 공유합니다. 이 옵션은 세그먼트 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
-   | [!UICONTROL **삭제**] | 더 이상 필요하지 않은 구성 요소를 삭제하십시오. 이 옵션은 세그먼트 또는 계산된 지표와 같은 사용자 정의 구성 요소에만 사용할 수 있습니다. |
+   | [!UICONTROL **Tag**] | Organize or manage components by applying tags to them. You can then search by tag in the left rail by clicking the filter or typing #. Tags also act as filters in the component managers. |
+   | [!UICONTROL **Favorite**] | Add the component to your list of favorites. Like tags, you can search by Favorites in the left rail and filter by them in the component managers. |
+   | [!UICONTROL **Approve**] | Mark components as Approved to signal to your users that the component is organization-approved. Like tags, you can search by Approved in the left rail and filter by them in the component managers. |
+   | [!UICONTROL **Share**] | Share components to users in your organization. This option is available for custom components only, such as segments or calculated metrics. |
+   | [!UICONTROL **Delete**] | Delete components that you no longer need. This option is available for custom components only, such as segments or calculated metrics. |
 
-사용자 정의 구성 요소는 해당 구성 요소 관리자를 통해 관리할 수도 있습니다. 예: [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md).
+Custom components can also be managed through their respective Component managers. For example, the [Segment Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).
 
-## 구성 요소 목록 검색, 필터링 및 정렬
+## Search, filter, and sort the component list
 
-Analysis Workspace의 왼쪽 레일에 있는 구성 요소 목록을 검색하고, 필터링하고, 정렬하여 특정 구성 요소를 빠르게 찾을 수 있습니다.
+You can search, filter, and sort the component list in the left rail of Analysis Workspace to quickly locate a particular component. 
 
-### 구성 요소 목록 검색
+### Search the component list
 
-1. 왼쪽 레일에서 **구성 요소** 아이콘(![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg))을 선택합니다.
+1. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
 
-2. 검색 필드에 프로젝트에서 사용하려는 구성 요소의 이름을 입력하기 시작합니다.
+2. In the search field, begin typing the name of the component you want to use in your project.
 
-   구성 요소 유형은 색상 및 아이콘으로 식별할 수 있습니다. **차원**(![차원 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg))은 주황색, **세그먼트**(![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg))는 파란색, **날짜 범위**(![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg))는 보라색, **지표**(![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))는 녹색입니다. Adobe 아이콘은 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타내고 계산기 아이콘(![계산기 아이콘](assets/calculated-metric-icon-created.png))은 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
+   The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) are orange, **Segments** ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) are blue, **Date ranges** ![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) are purple, and **Metrics** ![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](assets/calculated-metric-icon-created.png) indicated a calculated metric that was created by an Analytics administrator in your organization. 
 
-3. 드롭다운 목록에 표시되는 구성 요소를 선택합니다.
+3. Select the component when it appears in the drop-down list.
 
-### 구성 요소 목록 필터링
+### Filter the component list
 
-1. 왼쪽 레일에서 **구성 요소** 아이콘(![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg))을 선택합니다.
+1. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
 
-2. **필터** 아이콘(![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg))을 선택합니다.
+2. Select the **Filter** icon ![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
 
-   또는
+   Or
 
-   검색 필드에 파운드 기호(#)를 입력합니다.
+   Type the pound sign (#) in the search field.
 
-3. 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
+3. Select any of the following filter options to filter the list of components:
 
-   | 옵션 | 함수 |
+   |Option | Function |
    |---------|----------|
-   | [!UICONTROL **승인됨**] | 관리자가 승인함으로 표시된 구성 요소만 표시합니다. |
-   | [!UICONTROL **즐겨찾기**] | 즐겨찾기 목록에 있는 구성 요소만 표시합니다. 즐겨찾기 목록에 구성 요소를 추가하는 방법에 대한 자세한 내용은 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)를 참조하십시오. |
-   | [!UICONTROL **차원**] | 차원인 구성 요소만 표시합니다. |
-   | [!UICONTROL **지표**] | 지표인 구성 요소만 표시합니다. |
-   | [!UICONTROL **세그먼트**] | 세그먼트인 구성 요소만 표시합니다. <!--this is Filters in Customer Journey Analytics--> |
-   | [!UICONTROL **날짜 범위**] | 날짜 범위인 구성 요소만 표시합니다. |
-   | [!UICONTROL **모두 표시**] | 모든 구성 요소를 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
-   | [!UICONTROL **승인되지 않음**] | 관리자가 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
+   | [!UICONTROL **Approved**] | Show only components that are marked as Approved by an administrator. |
+   | [!UICONTROL **Favorites**] | Show only components that are in your list of Favorites. For information about adding components to your list of favorites, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+   | [!UICONTROL **Dimensions**] | Show only components that are Dimensions. |
+   | [!UICONTROL **Metrics**] | Show only components that are Metrics. |
+   | [!UICONTROL **Segments**] | Show only components that are Segments.  |
+   | [!UICONTROL **Date ranges**] | Show only components that are Date Ranges. |
+   | [!UICONTROL **Show all**] | Show all components. This option is available only for administrators. |
+   | [!UICONTROL **Unapproved**] | Show only components that are not yet marked as Approved by an administrator. As an administrator, this is helpful when identifying components that require your review and approval. This option is available only for administrators. |
 
-4. (선택 사항) 목록을 더 다듬기 위해 [구성 요소 목록 정렬](#sort-the-component-list)에 설명된 대로 구성 요소 목록을 정렬할 수 있습니다.
+4. (Optional) To further hone the list, you can sort the component list, as described in [Sort the component list](#sort-the-component-list).
 
-### 구성 요소 목록 정렬
+### Sort the component list
 
-1. (선택 사항) [구성 요소 목록 필터링](#filter-the-component-list)에 설명된 대로 구성 요소 목록에 필터를 적용합니다.
+1. (Optional) Apply any filters to the component list, as described in [Filter the component list](#filter-the-component-list).
 
-2. 왼쪽 레일에서 **구성 요소** 아이콘(![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg))을 선택합니다.
+2. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
 
-3. **정렬** 아이콘(![구성 요소 정렬 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg))을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
+3. Select the **Sort** icon ![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), then select any of the following filter options to sort the list of components:
 
    {{components-sort-options}}
+
+-->

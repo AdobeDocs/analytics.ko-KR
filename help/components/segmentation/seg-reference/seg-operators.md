@@ -3,10 +3,10 @@ description: 세그먼트 빌더에서 선택한 연산자를 사용하여 값�
 title: 세그먼트의 비교 연산자
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 51%
+ht-degree: 47%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 51%
 
 ## 고유 개수 연산자
 
-차원 내에서 항목의 고유 개수를 세그먼트화할 수 있습니다. 예: &quot;5개 이상의 고유 제품을 본 방문자&quot; 또는 &quot;5개 이상의 고유 페이지를 본 방문 위치&quot;
+차원 내에서 항목의 고유 개수를 세그먼트화할 수 있습니다. 예: *5개 이상의 고유 제품을 본 방문자* 또는 *5개 이상의 고유 페이지를 본 방문*.
 
 | 연산자 | 선택한 차원, 세그먼트 또는 지표 이벤트... |
 | --- | --- |

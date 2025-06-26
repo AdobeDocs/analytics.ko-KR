@@ -1,12 +1,12 @@
 ---
-description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Warehouse와 호환되는 것은 아닙니다. 이 테이블에는 지원되는 기능이 표시되어 있습니다.
+description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Warehouse과 호환되는 것은 아닙니다. 이 테이블에는 지원되는 기능이 표시되어 있습니다.
 title: Data Warehouse 세그먼트 기능
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 95%
+ht-degree: 82%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <b>차원</b> </td> 
-   <td>세그먼트 빌더의 <span class="uicontrol">정의</span> 필드로 차원을 드래그하여 놓아 제품 호환성을 확인합니다. 예를 들어 다음 차원은 Analysis Workspace, Reports &amp; Analytics에서만 지원됩니다. 
+   <td>세그먼트 빌더의 <span class="uicontrol"> 정의</span> 필드로 차원을 끌어다 놓아 제품 호환성을 확인합니다. 예를 들어 다음 차원은 Analysis Workspace, Reports &amp; Analytics에서만 지원됩니다. 
     <ul> 
      <li>시작 서버 </li> 
      <li>시작 카테고리 </li> 
      <li>시작 날짜 </li> 
      <li>모든 검색 페이지 등급 </li> 
     </ul> </td> 
-   <td> 세그먼트 빌더의 <span class="uicontrol">정의</span> 필드로 차원을 드래그하여 놓아 제품 호환성을 확인합니다. 예를 들어 다음 차원은 Data Warehouse에서만 지원됩니다. 
+   <td> 세그먼트 빌더의 <span class="uicontrol"> 정의</span> 필드로 차원을 끌어다 놓아 제품 호환성을 확인합니다. 예를 들어 다음 차원은 Data Warehouse에서만 지원됩니다. 
     <ul> 
      <li>IP 주소 </li> 
      <li>페이지 URL </li> 
@@ -99,4 +99,4 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-*참고: Data Warehouse는 `AND/OR`을 사용할 때 `exclusion` 또는 `without` 컨테이너를 사용하는 모든 경우를 지원하지는 않습니다. 이러한 조합을 사용하는 경우 Data Warehouse에서는 `A AND NOT B` (또는&#x200B;**이 특성을 포함**&#x200B;하고&#x200B;**이 특성을 제외**)로 다시 쓸 수 있는 세그먼트만 지원합니다.*
+*참고: Data Warehouse는 `AND/OR`을 사용할 때 `exclusion` 또는 `without` 컨테이너를 사용하는 모든 경우를 지원하지는 않습니다. 이러한 조합을 사용하는 경우 Data Warehouse에서는 `A AND NOT B` (또는&#x200B;**이 특성을 포함**하고&#x200B;**이 특성을 제외**)로 다시 쓸 수 있는 세그먼트만 지원합니다.*

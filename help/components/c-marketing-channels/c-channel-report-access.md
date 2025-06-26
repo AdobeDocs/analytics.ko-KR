@@ -3,10 +3,10 @@ description: 마케팅 채널 보고서를 실행하고, 보고서에 대한 제
 title: 마케팅 채널 권한
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c5573b7252a4113355cc4b96d467fde2c86ba28f
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 91%
 
 ---
 
@@ -28,4 +28,5 @@ ht-degree: 100%
 | Analytics 도구 | Analysis Workspace 액세스 | Analysis Workspace에 대한 액세스 권한 부여. Workspace에서 마케팅 채널 차원을 사용하려면 사용자가 이 그룹 (기본 설정) 또는 Reports &amp; Analytics 액세스 권한에 속해야 합니다. |
 | Analytics 도구 | Reports and Analytics 액세스 | Reports and Analytics에 대한 액세스 권한을 부여합니다. Adobe Analytics를 사용하려면 사용자가 이 그룹 또는 Analysis Workspace 액세스 그룹 (기본 설정)에 속해야 합니다. |
 
-Admin Console의 제품 프로필 및 Adobe Analytics 권한에 대한 자세한 내용을 보려면 [여기](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)로 이동하십시오.
+Admin Console의 제품 프로필 및 Adobe Analytics 권한에 대한 자세한 내용은 [Adobe Analytics용 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)을 참조하세요.
+

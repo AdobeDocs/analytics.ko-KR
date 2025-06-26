@@ -1,25 +1,29 @@
 ---
 title: 속성 모범 사례
-description: 속성 모델 결정과 관련된 모범 사례에는 어떤 것들이 있습니까?
+description: 속성 모델을 결정하는 우수 사례는 무엇입니까?
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 75%
 
 ---
 
 # 속성 모범 사례
 
-조직에 적합한 속성 모델을 선택하는 것은 여러 고려 사항에 따라 다릅니다. 이 문서에서는 하나의 방식 및 몇 가지 일반적인 모범 사례에 대해 알아봅니다.
+조직에 적합한 속성 모델을 선택하는 것은 여러 고려 사항에 따라 다릅니다. 이 문서에서는 방법론과 몇 가지 일반적인 모범 사례에 대해 알아봅니다.
 
-## 1단계: 탐색적 분석
+* [탐색적 분석](#exploratory-analysis)
+* [규칙 기반 속성](#rule-base-attribution)
+* [알고리즘 속성 사용](#use-algorithmic-attribution)
+
+## 탐색적 분석
 
 >[!NOTE]
 >이 분석은 속성 모델을 선택하기 전에 먼저 수행되어야 합니다.
 
-이 단계는 먼저 고객 행동을 이해하고 전환 지표를 정의하는 절차로 구성됩니다. 전환 지표를 기반으로 [데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ko-KR)(원시 데이터용) 또는 Analysis Workspace와 같은 도구를 통해
+이 단계는 먼저 고객 행동을 이해하고 전환 지표를 정의하는 절차로 구성됩니다. 전환 지표를 기반으로 [데이터 피드](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-overview)&#x200B;(원시 데이터용) 또는 Analysis Workspace와 같은 도구를 통해
 
 * 전환하기 전에 다른 마케팅 채널을 터치하고 있는 고객의 수와
 * 이러한 행동의 비율/분포를 보다 쉽게 이해할 수 있습니다.
@@ -35,28 +39,28 @@ ht-degree: 100%
 
 하위 단계 분석에서는 사람들이 이미 귀하의 브랜드를 알고 있고 귀하는 사람들이 전환하기를 원한다고 가정합니다. 이메일, 푸시 알림 또는 Facebook 광고를 사용합니다.
 
-## 2단계: 규칙 기반 속성
+## 규칙 기반 속성
 
 이 단계의 목적은 가설을 확인하는 것입니다.
 
 **예 1**
 
-“첫 번째 터치 채널이 마지막 터치 채널보다 전환에 더 많은 영향을 미친다.”라는 가설을 설정해 보도록 하겠습니다.
+가설: &quot;*첫 번째 터치 채널이 마지막 터치 채널보다 전환에 더 많은 영향을 미칩니다.*&quot;
 
-이 경우 [“역 J자형” 속성 모델](/help/analyze/analysis-workspace/attribution/models.md)을 사용하여 이 가설을 테스트할 수 있습니다. 이 모델은 첫 번째 터치 포인트에 60%의 크레딧을 제공합니다.
+이 경우 [역 J자형&quot; 속성 모델](/help/analyze/analysis-workspace/attribution/models.md)을 사용하여 이 가설을 테스트합니다. 이 모델은 첫 번째 터치 포인트에 60%의 크레딧을 제공합니다.
 
 **예 2**
 
-“우리 업계(예: 여행 산업)에서는 고객이 제품을 구입하기 전에 많은 조사를 하기 때문에 속성 기간이 30일이 아니라 60일 또는 90일이다.”라는 가설을 설정해 보겠습니다.
+가설이 *이라고 가정해 보십시오.&quot;특정 업계(예: 여행 업계)에서는 고객이 제품을 구매하기 전에 많은 조사를 하기 때문에 속성 기간이 30일이 아니라 60일 또는 90일이라고 가정합니다.*&quot;
 
-이 경우 [전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ko-KR#lookback-windows)을 90일로 변경할 수 있습니다.
+이 경우 [전환 확인 기간](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)을 90일로 변경할 수 있습니다.
 
-## 3단계: 알고리즘 속성 사용
+## 알고리즘 속성 사용
 
-모든 질문에 만족스러운 답변을 제공하는 기여도 모델이 아직 없는 경우 [알고리즘 기여도](/help/analyze/analysis-workspace/attribution/algorithmic.md)를 사용할 수 있습니다. 많은 수의 가능한 가설과 조합을 검증하는 것은 매우 어렵기 때문에, 알고리즘 속성은 내장된 알고리즘을 사용하여 차원 항목에 크레딧을 할당합니다.
+모든 질문에 만족스러운 답변을 제공하는 기여도 모델이 아직 없는 경우 [알고리즘 기여도](/help/analyze/analysis-workspace/attribution/algorithmic.md)를 사용할 수 있습니다. 많은 수의 가능한 가설과 조합을 검증하는 것은 매우 어렵기 때문에, 알고리즘 속성은 기본 제공 알고리즘을 사용하여 차원 항목에 크레딧을 할당합니다.
 
 ## 기타 고려 사항
 
 * Analysis Workspace에 의존하지 않고 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
 * Adobe 데이터 피드에서와 같이 원시 데이터를 사용할 수 있습니다.
-* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR) 사용을 고려해 보십시오.
+* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.

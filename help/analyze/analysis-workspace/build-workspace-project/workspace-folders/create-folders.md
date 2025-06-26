@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 폴더 만들기
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
-source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,48 +15,74 @@ ht-degree: 100%
 
 Workspace 랜딩 페이지의 프로젝트 및 폴더 목록에 새 폴더 또는 하위 폴더를 추가할 수 있습니다.
 
-## 새 폴더 만들기 {#create-new-folder}
+## 새 폴더 만들기
 
 새 폴더를 만들려면
 
-1. **새로 만들기**&#x200B;를 클릭합니다.
+1. [폴더 및 프로젝트 표시](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#show-selector)를 선택했는지 확인합니다.
 
-1. 새 폴더의 이름을 입력합니다.
+1. [제목 영역](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)과 [프로젝트 목록](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)에 새 폴더를 만들려는 폴더가 표시되어 있는지 확인합니다.
 
-1. 드롭다운 메뉴에서 태그를 선택하거나 순전히 새로운 태그를 추가합니다.
+1. **폴더 만들기**&#x200B;를 클릭합니다.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
+1. **[!UICONTROL 새 폴더 만들기]** 대화 상자에서 새 폴더의 이름을 입력합니다. 예: `Second Week Reports`.
 
-1. **만들기**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 태그]** 드롭다운에서 태그를 선택하거나 새로운 태그를 입력합니다.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create.png)
+   ![Create new folder](../assets/create-new-folder.png)
 
-   새 폴더가 프로젝트 및 폴더의 기본 목록에 추가됩니다.
+1. **만들기**를 클릭합니다.
+새 폴더가 현재 폴더에 추가됩니다.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
+<!--
+# Create folders
 
-## 하위 폴더 만들기 {#create-subfolder}
+You can add a new folder or a subfolder to the list of projects and folders on your Workspace landing page.
 
-하위 폴더를 사용하면 추가적인 프로젝트 관리 및 구성 수준을 사용할 수 있습니다.
+## Create a new folder {#create-new-folder}
 
-기존 폴더가 열려 있는 상태에서 하위 폴더를 만들려면
+To create a new folder,
 
-1. **새 폴더 만들기**&#x200B;를 클릭합니다.
+1.  Click **Create new**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+1.  Enter a Name for the new folder.
 
-1. 하위 폴더 이름을 입력하고 필요한 태그를 추가합니다.
+1.  Select tags from the drop-down menu or add net-new tags.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
-1. **만들기**&#x200B;를 클릭합니다.
+1.  Click **Create**.
 
-   새 하위 폴더가 프로젝트 및 하위 폴더의 목록에 추가됩니다.
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create.png)
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
+    The new folder is added in the main list of projects and folders.
 
-   >[!NOTE]
-   >
-   >단일 폴더에 최대 10개 수준의 하위 폴더를 만들 수 있습니다.
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+## Create a subfolder {#create-subfolder}
+
+Subfolders allow you to provide additional levels of project management and organization.
+
+To create a subfolder when you have an existing folder open,
+
+1.  Click **Create a new folder**.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+
+1.  Enter a subfolder name and add any necessary tags.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+
+1.  Click **Create**.
+
+    The new subfolder is added to the list of projects and subfolders.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
+
+    >[!NOTE]
+    >
+    >You can create up to 10-levels of subfolders in a single folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+
+-->

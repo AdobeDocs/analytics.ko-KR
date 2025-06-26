@@ -4,14 +4,14 @@ keywords: Analysis Workspace
 title: 폴더에서 프로젝트 제거
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 폴더에서 프로젝트 제거
+# 프로젝트 삭제
 
 폴더에서 프로젝트를 제거하려면 프로젝트를 다른 위치로 이동하거나 프로젝트를 삭제할 수 있습니다.
 

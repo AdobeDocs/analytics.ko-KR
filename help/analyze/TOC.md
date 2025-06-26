@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '960'
 ht-degree: 98%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -27,17 +27,16 @@ ht-degree: 98%
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + 프로젝트 {#build-workspace-project}
-      + [프로젝트 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 만들기](analysis-workspace/build-workspace-project/create-projects.md)
+      + [프로젝트 열기](analysis-workspace/build-workspace-project/open-projects.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + [프로젝트 목차](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + 작업 영역의 폴더 {#workspace-folders}
-         + [작업 영역의 폴더 정보](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [폴더 개요](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 및 하위 폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [폴더 삭제](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [프로젝트 추가](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [프로젝트 제거](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [새 프로젝트 저장](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [폴더 관리](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [프로젝트를 추가하거나 폴더로 이동](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + [여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [핫키 (단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
@@ -65,9 +64,11 @@ ht-degree: 98%
          + [세그먼트 만들기](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [빠른 세그먼트](analysis-workspace/components/segments/quick-segments.md)
       + 달력 및 날짜 범위 {#calendar-date-ranges}
-         + [캘린더 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [사용자 정의 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/create.md)
+         + [데이터 범위 관리](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [날짜 비교](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [예](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + 데이터 사전 {#data-dictionary}
          + [데이터 사전 개요](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [데이터 사전의 구성 요소 정보 보기](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
@@ -131,11 +132,11 @@ ht-degree: 98%
          + [세그먼트 비교 사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 프로젝트 구성, 공유 및 예약 {#curate-share}
-      + [공유 메뉴](analysis-workspace/curate-share/send-schedule-files.md)
+      + [개요](analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](analysis-workspace/curate-share/shareable-links.md)
-      + [보기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
+      + [읽기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
       + [프로젝트 예약](analysis-workspace/curate-share/t-schedule-report.md)
    + 속성 {#attribution}

@@ -5,169 +5,322 @@ title: 프로젝트 개요
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: c368ff6c4ac1636a4d1d910b9f1738ff8208fe0a
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 50%
+source-wordcount: '1618'
+ht-degree: 85%
 
 ---
 
 # 프로젝트 개요
 
-Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 시각화를 결합하여 분석을 작성하고 조직의 모든 사람과 공유할 수 있습니다. 첫 번째 프로젝트를 시작하기 전에 프로젝트에 액세스, 탐색 및 관리하는 방법에 대해 살펴보십시오.
+Workspace 프로젝트를 사용하면 패널, 시각화 및 구성 요소를 결합하여 분석을 작성하고 조직의 모든 사람과 공유할 수 있습니다. 첫 번째 프로젝트를 시작하기 전에 프로젝트에 액세스, 탐색 및 관리하는 방법을 살펴보십시오.
 
-다음은 Workspace 프로젝트 빌드 방법에 대한 비디오입니다.
+Adobe Analytics의 프로젝트에 액세스하려면 **[!UICONTROL Workspace]**&#x200B;을(를) 선택하십시오.  **[!UICONTROL 프로젝트]** 관리자는 사용자가 소유한 프로젝트나 사용자와 공유된 프로젝트를 모두 나열합니다. 환경 설정에서 달리 구성하지 않은 경우 프로젝트 목록이 있는 프로젝트 관리자는 Adobe Analytics의 기본 랜딩 페이지이기도 합니다.
+
+![프로젝트 목록을 보여 주는 프로젝트 랜딩 페이지.](assets/projects.png)
+
+
+## 제목 영역
+
+제목 영역 ➊에서 프로젝트를 만들고, 폴더를 만들고, 환경 설정을 편집하고, 추가 타일이 있는 패널을 표시하거나 숨길 수 있습니다.
+
+* **[!UICONTROL 프로젝트]**&#x200B;와 **[!UICONTROL 학습]**&#x200B;을 선택할 수 있는 왼쪽 패널을 표시하거나 숨기려면 ![레일](/help/assets/icons/Rail.svg)을 선택합니다.
+* 제목에는 프로젝트가 표시되며, 선택에 따라 선택한 폴더의 경로가 추가됩니다. 예: [!UICONTROL 프로젝트] > **[!UICONTROL 회사 폴더]**. 개별 하위 폴더 부분을 선택하면 특정 폴더로 바로 이동할 수 있습니다.
+* [**[!UICONTROL 빈 프로젝트]**](create-projects.md), [**[!UICONTROL 빈 모바일 스코어카드]**](/help/analyze/mobile-app/create-scorecard.md), **[!UICONTROL 설명서 열기]** 및 **[!UICONTROL 릴리스 정보 열기]**&#x200B;에 대한 타일을 표시하려면 ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 자세히 표시]**&#x200B;를 선택합니다. 타일이 있는 영역을 숨기려면 ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 간단히 표시]**&#x200B;를 선택합니다.
+* 표시할 항목에 따라 [선택기 표시](#show-selector)를 사용하여 **[!UICONTROL 프로젝트]**&#x200B;에 표시된 현재 폴더에서 환경 설정을 편집하고 액션을 수행할 수 있습니다.
+
+  | 액션 | 설명 |
+  |---|---|
+  | **[!UICONTROL 프로젝트 만들기]** | [새 프로젝트를 만들려면](create-projects.md) 선택합니다. |
+  | **[!UICONTROL 폴더 만들기]** | [새 폴더를 만들려면](workspace-folders/create-folders.md) 선택합니다. |
+  | ![UserAdmin](/help/assets/icons/UserAdmin.svg) **[!UICONTROL 환경 설정 편집]** | 모든 프로젝트에 적용되는 [환경 설정을 편집](/help/analyze/analysis-workspace/user-preferences.md)합니다. 경로로 인해 공간이 제한되는 경우 이 액션은 ![자세히](/help/assets/icons/More.svg) 하위 메뉴의 일부입니다. |
+  | **[!UICONTROL 프로젝트 추가]** | 현재 폴더에 [프로젝트를 추가](workspace-folders/add-projects.md)하려면 선택합니다. 경로로 인해 공간이 제한되는 경우 이 액션은 ![자세히](/help/assets/icons/More.svg) 하위 메뉴의 일부입니다. |
+  | **[!UICONTROL 폴더 이름 바꾸기]** | 현재 폴더의 [이름을 변경](workspace-folders/manage-folders.md#rename-folders)합니다. |
+  | **[!UICONTROL 폴더 이동]** | 현재 폴더를 [이동](workspace-folders/manage-folders.md#move-folders)합니다. |
+  | **[!UICONTROL 폴더 삭제]** | 현재 폴더를 [삭제](workspace-folders/manage-folders.md#delete-folders)합니다. |
+
+
+
+
+## 프로젝트 목록
+
+
+프로젝트 목록 ➋에는 사용자가 소유하고 있고 사용자와 공유된 모든 프로젝트가 표시됩니다. 목록은 다음과 같습니다.
+
+| 열 | 설명 |
+| --- | --- | 
+| ![SelectBox](/help/assets/icons/SelectBox.svg) | 하나 이상의 프로젝트를 선택하면 프로젝트 인터페이스 하단에 파란색 작업 표시줄이 나타납니다. 자세한 내용은 [액션](#actions)을 참조하십시오. |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | 프로젝트를 ![별](/help/assets/icons/Star.svg) 즐겨찾기에 추가하거나 ![StarOutline](/help/assets/icons/StarOutline.svg) 추가하지 않을지 선택합니다. |
+| **[!UICONTROL 제목 및 설명]** | 프로젝트를 편집하려면 제목 링크를 선택해 [Workspace 프로젝트](/help/analyze/analysis-workspace/home.md)를 엽니다. 공유된 프로젝트는 ![공유](/help/assets/icons/ShareAlt.svg)로 표시됩니다. ![InfoOutline](/help/assets/icons/InfoOutline.svg)을 선택해 프로젝트에 대한 더 자세한 내용이 있는 팝업 메뉴를 표시합니다. ![자세히](/help/assets/icons/More.svg)를 선택해 액션이 있는 컨텍스트 메뉴를 엽니다. 자세한 내용은 [액션](#actions)을 참조하십시오. |
+| **[!UICONTROL 유형]** | Workspace 프로젝트, ![FolderUser](/help/assets/icons/FolderUser.svg) 폴더 또는 [ 모바일 스코어카드](/help/analyze/mobile-app/home.md). |
+| **[!UICONTROL 태그]** | 프로젝트에 적용된 태그. |
+| **[!UICONTROL 예약됨]** | 프로젝트가 수신자에게 이메일로 전송되도록 예약되어 있는지 여부. 옵션은 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 켜짐]** 또는 ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 꺼짐]**&#x200B;입니다. [다른 사람에게 프로젝트 데이터 보내기](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)를 참조하십시오. |
+| **[!UICONTROL 공유 링크(누구나)]** | Analysis Workspace에 액세스할 수 없는 사람을 포함하여 프로젝트를 다른 사람과 공유하는지 여부. 옵션은 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 활성]** 또는 ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 비활성]**&#x200B;입니다. 자세한 내용은 프로젝트 [공유 프로젝트](/help/analyze/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)를 참조하십시오. |
+| **[!UICONTROL 프로젝트 역할]** | 프로젝트에서 역할. 옵션은 편집, 복제, 보기입니다. 자세한 내용은 [프로젝트 역할](/help/analyze/analysis-workspace/curate-share/curate.md)을 참조하십시오. |
+| **[!UICONTROL 보고서 세트]** | 프로젝트가 연결된 보고서 세트입니다. |
+| **[!UICONTROL 소유자]** | 이 프로젝트를 만든 사람 (귀하 또는 프로젝트를 귀하와 공유한 사용자) |
+| **[!UICONTROL 다음 사용자와 공유]** | 프로젝트가 공유된 사용자. |
+| **[!UICONTROL 마지막 수정일]** | 프로젝트가 마지막으로 수정된 날짜와 시간. |
+| **[!UICONTROL 마지막으로 연 날짜]** | 프로젝트를 마지막으로 연 날짜와 시간. |
+| **[!UICONTROL 구성 요소 ID]** | 구성 요소 ID입니다. |
+| **[!UICONTROL 가장 긴 날짜 범위]** | 프로젝트의 모든 패널이나 시각화 중 가장 긴 날짜 범위. |
+| **[!UICONTROL 쿼리 개수]** | 프로젝트에서 포함된 총 쿼리 수. |
+| **[!UICONTROL 위치]** | 프로젝트가 있는 폴더. |
+
+열 머리글 위에 마우스를 가져다 대어 ![ChevronDown](/help/assets/icons/ChevronDown.svg)이 표시되면 컨텍스트 메뉴에서 선택합니다.
+
+* **[!UICONTROL 오름차순 정렬]**
+* **[!UICONTROL 내림차순 정렬]**
+* **[!UICONTROL 열 크기 조정]**. 열 크기를 조정하는 데 도움이 되는 파란색 선이 나타납니다.
+
+### 액션
+
+컨텍스트 메뉴 ![자세히](/help/assets/icons/More.svg) 또는 파란색 작업 표시줄을 사용하여 하나 이상의 프로젝트에 대한 액션을 수행할 수 있습니다.
+
+| 아이콘 | 액션 | 설명 |
+|:---:| ---|---|
+| ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *선택됨]** | 선택한 프로젝트와 폴더의 선택을 해제하고 파란색 작업 표시줄을 제거합니다. |
+| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 하나 이상의 프로젝트나 폴더를 삭제합니다. 확인 메시지가 표시됩니다. |
+| ![공유](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 공유]** | 프로젝트를 공유합니다. 자세한 내용은 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md)를 참조하십시오. |
+| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 프로젝트의 이름을 바꿉니다. **[!UICONTROL 이름 바꾸기: *프로젝트 이름 대화 상자&#x200B;*]**를 엽니다. 새로운 이름을 입력하고**[!UICONTROL 저장&#x200B;]**을 선택합니다. |
+| ![복사](/help/assets/icons/Copy.svg) | **[!UICONTROL 복사]** | 하나 이상의 프로젝트를 복사합니다. 프로젝트에 동일한 이름과 접미사 `(Copy)`가 붙습니다. |
+| ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL 고정]** 또는 **[!UICONTROL 고정 해제]** | 하나 이상의 프로젝트나 폴더를 고정하거나 고정 해제합니다. 고정된 프로젝트와 폴더는 목록 맨 위에 나타나며, 지정한 정렬 순서를 무시합니다. |
+| ![ArrowUp](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL 위로 이동]** | 프로젝트 목록에서 고정된 프로젝트나 폴더를 위로 이동합니다. |
+| ![ArrowDown](/help/assets/icons/ArrowDown.svg) | **[!UICONTROL 아래로 이동]** | 프로젝트 목록에서 고정된 프로젝트나 폴더를 아래로 이동합니다. |
+| ![레이블](/help/assets/icons/Label.svg) | **[!UICONTROL 태그]** | 하나 이상의 프로젝트나 폴더를 태그 지정합니다. **[!UICONTROL 태그 구성 요소]** 대화 상자가 표시되어 하나 이상의 태그를 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 프로젝트 또는 폴더의 태그를 저장합니다. |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 승인]** 또는 **[!UICONTROL 승인 취소]** | 프로젝트를 승인하거나 승인 취소합니다. 관리자만 프로젝트를 승인할 수 있습니다. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV 내보내기]** | 선택한 프로젝트를 이름 `Project List.csv`가 포함된 CSV 파일로 내보냅니다. |
+| ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) | **[!UICONTROL 프로젝트 추가]** | 선택한 폴더에 하나 이상의 프로젝트를 추가합니다. **[!UICONTROL 프로젝트 추가]**&#x200B;에서 하나 이상의 프로젝트를 선택할 수 있습니다. **[!UICONTROL 추가]**&#x200B;를 선택하여 폴더에 프로젝트를 추가합니다. 자세한 내용은 [폴더에 프로젝트 추가](workspace-folders/add-projects.md#from-inside-a-folder)를 참조하십시오. |
+| ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) | **[!UICONTROL 다음으로 이동]** | 폴더에 하나 이상의 선택한 프로젝트를 이동합니다. **[!UICONTROL 폴더 선택]**&#x200B;에서 선택한 프로젝트를 이동할 폴더를 선택하고 **[!UICONTROL 이동]**&#x200B;을 선택합니다. 자세한 내용은 [폴더에 프로젝트 추가](workspace-folders/add-projects.md#from-the-project-list)를 참조하십시오. |
+
+
+
+## 표시 선택기
+
+**[!UICONTROL 표시]** 선택기 ➌를 사용하여 프로젝트 인터페이스의 모양과 느낌을 전환할 수 있습니다. **[!UICONTROL 표시]** 선택기는 [제목 영역](#title-area)에서 사용할 수 있는 옵션과 [프로젝트 목록](#project-list)에 표시되는 열을 정의합니다.
+
+* [제목 영역](#title-area)에 사용할 수 있는 옵션을 변경하려면 **[!UICONTROL 모든 프로젝트]** **[!UICONTROL 표시]** 또는 **[!UICONTROL 폴더 및 프로젝트]** **[!UICONTROL 표시]**&#x200B;를 선택합니다.
+
+* [프로젝트 목록](#project-list)에 표시할 열을 정의하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을 선택하고 **[!UICONTROL 테이블 사용자 정의]** 대화 상자에서 열을 선택하거나 선택 취소합니다. **[!UICONTROL 적용]**&#x200B;을 선택하여 사용자 정의를 적용합니다. 해당 열에 대한 자세한 내용은 [프로젝트 목록](#project-list)을 참조하십시오.
+
+## 필터 패널
+
+필터 패널 ➍을(를) 사용하여 [프로젝트 목록](#project-list)의 프로젝트 및 폴더를 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
+
+필터 패널은 다음 섹션으로 구성되어 있습니다.
+
+### 태그
+
+| 태그 | 설명 |
+|---|---|
+| ![태그](assets/projects-filters-tags.png){width="300"} | **[!UICONTROL 태그]** 섹션에서는 태그를 필터링할 수 있습니다. <ul><li>![검색](/help/assets/icons/Search.svg) *태그 검색*&#x200B;을 사용하면 필터링할 태그를 검색할 수 있습니다.</li><li>둘 이상의 태그를 선택할 수 있습니다. 사용할 수 있는 태그는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**2︎⃣**: 현재 필터에 따라 생성된 프로젝트에 사용할 수 있는 태그 수.</li><li>7︎⃣: 특정 태그와 연관된 프로젝트의 수.</li></ul></li></ul> |
+
+
+### 보고서 세트
+
+| 보고서 세트 | 설명 |
+|---|---|
+| ![보고서 세트](assets/projects-filters-reportsuites.png){width="300"} | **[!UICONTROL 보고서 세트]** 섹션을 통해 보고서 세트를 필터링할 수 있습니다. <ul><li>![검색](/help/assets/icons/Search.svg) *보고서 세트 검색*&#x200B;을 사용하여 필터링하는 데 사용할 보고서 세트를 검색합니다.</li><li>두 개 이상의 보고서 세트를 선택할 수 있습니다. 사용 가능한 보고서 세트는 필터 패널의 다른 섹션에서 선택한 항목에 따라 다릅니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**3︎⃣**: 현재 필터로 인해 프로젝트에 사용할 수 있는 보고서 세트 수입니다.</li><li>⃣4︎: 특정 보고서 세트와 연결된 프로젝트 수입니다.</li></ul></li></ul> |
+
+
+### 소유자
+
+| 소유자 | 설명 |
+|---|---|
+| ![소유자](assets/projects-filters-owners.png){width="300"} | **[!UICONTROL 소유자]** 섹션에서는 소유자를 필터링할 수 있습니다. <ul><li>![검색](/help/assets/icons/Search.svg) *소유자 검색*&#x200B;을 사용하여 필터링할 소유자를 검색합니다.</li><li>둘 이상의 소유자를 선택할 수 있습니다. 사용할 수 있는 소유자는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**3︎⃣**: 현재 필터에 따라 생성된 프로젝트에 사용할 수 있는 소유자 수.</li><li>4︎⃣: 특정 소유자와 연관된 프로젝트의 수.</li></ul></li></ul> |
+
+
+### 유형
+
+| 유형 | 설명 |
+|---|---|
+| ![Type](assets/projects-filters-type.png){width="300"} | **[!UICONTROL 유형]** 섹션에서는 프로젝트나 폴더의 유형을 필터링할 수 있습니다.<ul><li>다음 옵션 중 하나 이상을 선택할 수 있습니다.<ul><li> **[!UICONTROL 폴더]**</li><li>**[!UICONTROL Workspace 프로젝트]**</li><li>**[!UICONTROL 모바일 스코어카드]**</li></ul> <li>둘 이상의 기타 필터를 선택할 수 있습니다. 사용할 수 있는 기타 필터는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**5︎⃣**: 현재 필터에 따라 생성된 프로젝트에 사용할 수 있는 기타 필터 수.</li><li>4︎⃣: 특정 기타 필터와 연관된 프로젝트 수.</li></ul></li></ul> |
+
+
+### 기타 필터
+
+| 기타 필터 | 설명 |
+|---|---|
+| ![기타 필터](assets/projects-filters-others.png){width="300"} | **[!UICONTROL 기타 필터]** 섹션에서는 미리 정의된 다른 필터를 필터링할 수 있습니다.<ul><li>다음 옵션 중 하나 이상을 선택할 수 있습니다.<ul><li> **[!UICONTROL 모두 표시]**</li><li>**[!UICONTROL 나와 공유됨]**</li><li>**[!UICONTROL 내 소유]**</li><li>**[!UICONTROL 승인됨]**</li><li>**[!UICONTROL 즐겨찾기]**</li></ul> 선택할 수 있는 내용은 역할과 권한에 따라 달라집니다.</li><li>둘 이상의 기타 필터를 선택할 수 있습니다. 사용할 수 있는 기타 필터는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**5︎⃣**: 현재 필터에 따라 생성된 프로젝트에 사용할 수 있는 기타 필터 수.</li><li>4︎⃣: 특정 기타 필터와 연관된 프로젝트 수.</li></ul></li></ul> |
+
+## 검색
+
+검색 영역 ➎을(를) 사용하여 ![검색](/help/assets/icons/Search.svg) 필드를 사용하여 프로젝트 및 폴더를 검색합니다. 입력을 시작하면 [프로젝트 목록](#project-list)에서 검색 입력 내용이 자동으로 필터링됩니다.
+
+검색 영역에는 필터 패널에서 적용된 필터도 표시됩니다.
+
+* 필터를 제거하려면 필터의 ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택합니다.
+* 모든 필터를 제거하려면 모두 지우기를 선택합니다.
+
+개별 필터를 표시할 공간이 제한되어 있는 경우, **[!UICONTROL *x* 필터로 세그먼트화]**&#x200B;하는 것이 표시됩니다.
+
+* 필드 제거 방법:
+
+   1. **[!UICONTROL *x *필터]**![ChevronDown](/help/assets/icons/ChevronDown.svg)를 사용하여 필터 유형과 개별 필터를 나열하는 컨텍스트 메뉴를 엽니다.
+   1. 필터를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용합니다.
+
+
+<!--
+
+# Projects overview
+
+Workspace projects allow you to combine data components, tables and visualizations to craft your analysis and share with anyone in your organization. Before starting your first project, learn about how to access, navigate and manage your projects. 
+
+Here is a video on how to build a Workspace project:
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Workspace 프로젝트 빌드](https://video.tv.adobe.com/v/3415640?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Build a Workspace project](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
-## 프로젝트 목록 {#project-list}
+## Project list {#project-list}
 
-처음 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**&#x200B;로 이동하면 페이지에 사용자가 보유하거나 사용자와 공유된 모든 프로젝트가 나열됩니다. 이전에 사용자 지정 랜딩 페이지를 설정한 경우가 아니라면 이 페이지는 Adobe Analytics의 랜딩 페이지이기도 합니다.
+When you first go to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, the page lists all the projects you own or have been shared to you. This page is also the landing page for Adobe Analytics, unless you have previously set a custom landing page. 
 
-프로젝트 페이지에는 다음 정보가 포함되어 있습니다.
+The Projects page contains the following information: 
 
-| 요소 | 설명 |
+|  Element  | Description  |
 |---|---|
-| [환경 설정 편집](/help/analyze/analysis-workspace/user-preferences.md) | 사용자가 만드는 모든 새 프로젝트 또는 패널에 대한 Analysis Workspace 및 관련 구성 요소의 설정을 관리합니다. |
-| [폴더 만들기](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 프로젝트 및 폴더 목록에 새 폴더 또는 하위 폴더를 추가합니다. |
-| [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | 처음부터 또는 보고서에서 새 프로젝트를 시작합니다. |
-| 자세히 보기 | 이 옵션을 선택하면 빈 프로젝트 또는 모바일 스코어카드를 만들거나 [교육 튜토리얼을 보거나](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction) 또는 [릴리스 정보를 보는](/help/release-notes/latest.md)에 대한 옵션이 표시됩니다. |
-| ![필터 표시](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | 필터를 표시하거나 숨깁니다. 태그, 보고서 세트, 소유자, 유형(프로젝트, 폴더, 모바일 스코어카드) 및 기타 필터를 필터링할 수 있습니다. |
-| ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | 검색 필드를 사용하여 폴더, Workspace 프로젝트 또는 모바일 스코어카드를 검색합니다. |
-| 폴더 및 프로젝트 표시 | 프로젝트의 폴더 구조를 표시할지 여부를 선택합니다. 자세한 내용은 [Analytics의 폴더 정보](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)를 참조하십시오. |
-| ![표 사용자 지정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) | 이 아이콘을 사용하면 프로젝트 목록의 각 프로젝트에 대해 표시되는 열을 사용자 지정할 수 있습니다. |
+| [Edit preferences](/help/analyze/analysis-workspace/user-preferences.md) | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create.  |
+| [Create folder](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)  | Add a new folder or subfolder to the list of projects and folders. |
+| [Create project](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)  | Start a new project from scratch or from a report.  |
+|  Show more  | This selection reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction), or [viewing release notes](/help/release-notes/latest.md).  |
+| ![Show filters](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | To show or hide filters. You can filter on tags, report suite, owners, type (project, folder, mobile scorecard), and other filters. | 
+| ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Use the search field to search for folders, Workspace projects or mobile scorecards. |
+| Show Folders & Projects| Choose whether to show the folder structure of projects. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+|  ![Customize table](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) | This icon allows you to customize the columns you see for each project in the projects list.  |
 
-프로젝트 목록에는 다음 열이 표시될 수 있습니다.
+The list of projects can display the following columns:
 
-| 열 | 설명 |
+|  Column  | Description  |
 |---|---|
-| [!UICONTROL 이름] | Workspace 프로젝트의 이름입니다. 프로젝트 또는 폴더에 대한 자세한 정보가 있는 팝업을 표시하려면 ![정보](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)를 선택하세요. 사용 가능한 작업을 표시하려면 ![자세히](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)를 선택하십시오. 자세한 내용은 [프로젝트 관리](#manage-projects)를 참조하십시오. |
-| [!UICONTROL Type] | 이 항목이 Workspace 프로젝트, 폴더 또는 [모바일 스코어카드](https://experienceleague.adobe.com/ko/docs/analytics/analyze/mobapp/home)인지 여부를 나타냅니다. |
-| [!UICONTROL 태그] | 프로젝트에 적용된 태그. |
-| [!UICONTROL 예약됨] | 프로젝트를 수신자에게 이메일로 보내도록 예약할지 여부를 나타냅니다. [프로젝트 예약](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)을 참조하세요. |
-| 공유 링크 (누구나) | 프로젝트는 Analysis Workspace에 액세스할 수 없는 사용자와도 누구와도 공유할 수 있습니다. 이 열은 프로젝트가 이러한 방식으로 공유되었는지 여부를 보여 줍니다. 자세한 내용은 프로젝트 [공유 프로젝트](/help/analyze/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)를 참조하십시오. |
-| [프로젝트 역할](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/curate-share/share-projects) | 프로젝트에 대한 역할(소유자, 편집, 복제, 보기)을 나타냅니다. |
-| [!UICONTROL 보고서 세트] | 프로젝트가 연결된 보고서 세트입니다. |
-| [!UICONTROL 소유자] | 이 프로젝트를 만든 사람 (귀하 또는 프로젝트를 귀하와 공유한 사용자) |
-| [!UICONTROL 다음 사용자와 공유] | 프로젝트가 공유된 사용자. |
-| [!UICONTROL 마지막 수정일] | 프로젝트가 마지막으로 수정된 날짜와 시간. |
-| [!UICONTROL 마지막으로 연 날짜] | 프로젝트를 마지막으로 연 날짜와 시간. |
-| [!UICONTROL 마지막 사용] | 프로젝트를 마지막으로 사용한 날짜 및 시간입니다. |
-| [!UICONTROL 프로젝트 ID] | 프로젝트의 ID. |
-| [!UICONTROL 가장 긴 날짜 범위] | 프로젝트의 가장 긴 날짜 범위입니다. |
-| [!UICONTROL 쿼리 개수] | 프로젝트에서 포함된 총 쿼리 수. |
-| [!UICONTROL 위치] | 프로젝트가 있는 폴더. |
+| [!UICONTROL Name]  | Name of the Workspace project. Select ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) to show a popup with more details on a project or folder. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) to show actions available. See [Manage projects](#manage-projects) for more details.  | 
+| [!UICONTROL Type] | Indicates whether this entry is a Workspace project, a folder, or a [Mobile scorecard](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
+| [!UICONTROL Tags]  |Tags that were applied to the project.  |
+| [!UICONTROL Scheduled] | Indicates whether projects are scheduled to be emailed to recipients. See [Schedule projects](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
+| Shared link (anyone) | Projects can be shared with anyone, even with people who don't have access to Analysis Workspace. This column shows whether projects have been shared in this way. See [Share a project with anyone (no login required)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md) for more information. |
+| [Project Role](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/share-projects) | Indicates your role for the project - owners, edit, duplicate, view. |
+| [!UICONTROL Report suite] | The report suite that the project is associated with. |
+| [!UICONTROL Owner]  | The person who created this project (either you or someone who shared the project with you.)  |
+| [!UICONTROL Shared with]  | Users that the project has been shared with.  |
+| [!UICONTROL Last Modified]  | Date and time when the project was last modified.  |
+| [!UICONTROL Last Opened]  | Date and time when the project was last opened.  |
+| [!UICONTROL Last Used] | Date and time when the project was last used. | 
+| [!UICONTROL Project ID]  | The ID of the project.  |
+| [!UICONTROL Longest Date Range]  | The longest date range of the project.  |
+| [!UICONTROL Number of Queries]  | The total number of queries contained in the project.  |
+| [!UICONTROL Location]  | The folder where the project resides.  |
 
-### 프로젝트 관리
+### Manage projects
 
-프로젝트를 관리하려면 프로젝트 목록에서 하나 이상의 프로젝트를 선택합니다.
+To manage projects, select one or more projects from the project list. 
 
-파란색 작업 표시줄에서 다음 작업을 선택할 수 있습니다.
+From the blue action bar, you can select the following actions:
 
-| 액션 | 설명 |
+| Action | Description | 
 |---|---|
-| ![삭제](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) 삭제 | 선택하면 Workspace 프로젝트 또는 모바일 스코어카드의 삭제를 확인하는 확인 대화 상자가 표시됩니다. **[!UICONTROL 확인]**&#x200B;을(를) 선택하여 확인합니다. |
-| ![공유](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) 공유 | 이 작업을 통해 프로젝트를 공유할 수 있습니다. [프로젝트 공유](../curate-share/share-projects.md)를 참조하십시오. |
-| ![이름 바꾸기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) 이름 바꾸기 | 프로젝트 이름을 바꾸기 위한 **[!UICONTROL 이름 바꾸기: *이름&#x200B;*]**&#x200B;대화 상자를 엽니다.**[!UICONTROL 저장&#x200B;]**&#x200B;을 선택하여 프로젝트의 새 이름을 저장합니다. |
-| ![복사](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) 복사 | 선택한 프로젝트를 *원래 이름*(으)로 새 프로젝트에 즉시 복사합니다(복사). |
-| ![고정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) 고정 | 즉시 프로젝트를 목록의 맨 위에 고정합니다. ![핀](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) 표시기를 추가합니다. |
-| ![태그](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) 태그 | **[!UICONTROL 태그 프로젝트]** 대화 상자를 엽니다. 기존 태그를 선택하거나 새 태그를 추가할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 프로젝트에 대한 태그를 저장합니다. |
-| ![(비승인)승인](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg) 승인 또는 비승인 | 프로젝트를 승인하거나 승인하지 않습니다. |
-| ![CSV 내보내기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) CSV 내보내기 | 프로젝트의 쉼표로 구분된 값 목록이 포함된 파일을 즉시 다운로드합니다. |
-| ![이동](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) 이동 | 이 작업을 사용하면 프로젝트를 폴더로 이동할 수 있습니다. **[!UICONTROL 폴더 선택]** 대화 상자의 **[!UICONTROL 폴더]** 목록에서 폴더를 선택한 다음 **[!UICONTROL 이동]**&#x200B;을 선택합니다. |
+| ![Delete](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) Delete | When selected, a confirmation dialog prompts you to confirm the deletion of a Workspace project or Mobile scorecard. Select **[!UICONTROL OK]** to confirm. |
+| ![Share](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) Share | This action allows you to share your project. See [Share projects](../curate-share/share-projects.md).|
+| ![Rename](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) Rename | Opens up a **[!UICONTROL Rename: *name*]** dialog to rename your project. Select **[!UICONTROL Save]** to save the new name for the project. |
+| ![Copy](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) Copy | Immediately copies the selected project to a new project with name *original name* (Copy).  |
+| ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) Pin | Immediately pins the project to the top of the list. Adds the ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) indicator. |
+| ![Tag](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) Tag | Opens up the **[!UICONTROL Tag Project]** dialog. You can select an existing tag or add new tags. Select **[!UICONTROL Save]** to save the tags for the project. |
+| ![(Un-)Approve](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg) Approve or Unapprove |  Approves or unapproves the project.  |
+| ![Export CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) Export CSV | Immediately downloads a file containing a comma-separated value list of the projects. |
+| ![Move to](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Move to | This action allows you to move the project to a folder. In the **[!UICONTROL Select Folder]** dialog, select a folder from the **[!UICONTROL Folder]** list, and select **[!UICONTROL Move]**. | 
 
 
-## 메뉴 바 {#menu-bar}
+## Menu bar {#menu-bar}
 
-프로젝트 내에서 메뉴는 프로젝트 관리, 구성 요소 추가, 도움말 찾기 등의 옵션을 제공합니다. 키보드로 각 메뉴 옵션에 액세스할 수도 있습니다. [바로 가기](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys).
+Within a project, the menu provides options for managing your project, adding components, finding help, and more. You can also access each menu option by keyboard [shortcuts](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys).
 
 
-| 메뉴 항목 | 설명 |
+|  Menu item  | Description  |
 |---|---|
-| 프로젝트 | 이 메뉴에는 새로 만들기, 열기, 저장, 다른 이름으로 저장, [회사 보고서로 저장](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 등 프로젝트 관리를 위한 일반적인 작업이 포함되어 있습니다. 프로젝트 새로 고침을 클릭하여 전체 프로젝트를 새로 고쳐 최신 데이터 및 정의를 검색할 수도 있습니다. [CSV 및 PDF 다운로드](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/curate-share/download-send) 옵션을 사용하면 Workspace에서 데이터를 내보낼 수 있습니다. [프로젝트 정보 및 설정](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview)은 프로젝트 관리를 위한 다양한 옵션을 제공합니다. |
-| 편집 | 마지막 작업을 실행 취소하거나 다시 실행합니다. 모두 지우기는 프로젝트를 빈 시작 지점으로 재설정합니다. |
-| 삽입 | 이 메뉴에서 새 패널 또는 시각화를 삽입합니다. 왼쪽 레일에서 새 패널과 시각화를 삽입할 수도 있습니다. |
-| [구성 요소](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) | 프로젝트에서 새 세그먼트, 계산된 지표, 날짜 범위 또는 경고 구성 요소를 만듭니다. 왼쪽 레일에서 새 구성 요소를 만들 수도 있습니다. 구성 요소 정의가 최근에 변경된 경우 구성 요소 새로 고침은 최신 정의를 검색합니다. |
-| [공유](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files) | 조직의 수신자에게 PDF/CSV 프로젝트를 조정, 공유 및 예약합니다. |
-| 도움말 | 도움말 문서, 비디오 및 Analytics [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko)에 액세스합니다. [디버거](https://developer.adobe.com/analytics-apis/docs/2.0/) 외에도 Workspace 팁의 가시성을 관리합니다. 프로젝트 [성능](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)에 영향을 미치는 Workspace 및 요인에 대한 세부 정보를 확인할 수 있습니다. |
-| 공유 버튼 또는 소유자 | 프로젝트를 소유 또는 편집 중인 경우 오른쪽 상단의 공유 버튼을 클릭하면 프로젝트 수신자를 관리할 수 있습니다. 프로젝트에 대한 중복 또는 보기 역할이 있는 경우 프로젝트 소유자의 이름이 표시됩니다. |
+|  Project  | This menu includes common actions for project management, including New, Open, Save, Save as, and [Save as company report](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). You can also refresh the entire project to retrieve the most recent data and definitions by clicking Refresh Project. [Download CSV and PDF](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/download-send) options enable you to export data from Workspace. [Project Info & Settings](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) offers many options for managing your project.  |
+|  Edit  | Undo or redo your last action. Clear All resets your project to a blank starting point. |
+|  Insert  | Insert new panels or visualizations from this menu. You can also insert new panels and visualizations from the left rail.  |
+|  [Components](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components)  | Create new segment, calculated metric, date range, or alert components from your project. You can also create new components from the left rail. If your component definitions have recently changed, Refresh Components retrieves the latest definitions. |
+|  [Share](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files)  | Curate, share and schedule PDF/CSV projects to recipients in your organization.  |
+|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Manage the visibility of Workspace tips as well as the [debugger](https://developer.adobe.com/analytics-apis/docs/2.0/). Find details about Workspace and factors that impact project [performance](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance).  |
+|  Share button or Owner  | If you are in an Own or Edit for the project, the Share button in the top-right gives you one-click access to manage your project recipients. If you are in a Duplicate or View role for the project, you see the project owner's name. |
 
-### 프로젝트 정보 및 설정 {#info-settings}
+### Project Info & Settings {#info-settings}
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
->title="반복 인스턴스 계산"
->abstract="보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다.<br/><br/>참고: 이 설정은 플로우 또는 폴아웃 시각화에 적용되지 않습니다."
+>title="Count repeat instances"
+>abstract="Specifies whether repeat instances are counted in reports.<br/><br/>Note: this setting does not apply to Flow or Fallout visualizations."
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
->title="반복 인스턴스 계산"
->abstract="보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다.<br/>참고: 이 설정은 플로우 또는 폴아웃 시각화에 적용되지 않습니다."
+>title="Count repeat instances"
+>abstract="Specifies whether repeat instances are counted in reports.<br/>Note: this setting does not apply to Flow or Fallout visualizations."
 
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
->title="댓글 허용"
->abstract="이 기능을 활성화하면 Analysis Workspace의 프로젝트 오른쪽 레일에 댓글 영역이 제공됩니다."
+>title="Allow commenting"
+>abstract="When enabled, a comments area is available in the right rail of the project in Analysis Workspace."
 
 
 
-**[!UICONTROL Workspace]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;에서는 현재 활성 상태인 프로젝트에 대한 프로젝트 수준 정보를 제공합니다.
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & settings]** provides project-level information on the currently active project.
 
-![프로젝트 정보](assets/projectinfo.png)
+![Project Info](assets/projectinfo.png)
 
-설정에는 다음이 포함됩니다.
+Settings include:
 
-| 설정 | 설명 |
+|  Setting  | Description  |
 |---|---|
-| 프로젝트 이름 | 프로젝트에 지정된 이름. 이름을 더블 클릭하여 편집할 수 있습니다. |
-| 소유자 | 프로젝트 소유자 이름 |
-| 마지막 수정일 | 프로젝트의 마지막 수정 날짜. |
-| 태그 | 더 쉬운 분류를 위해 프로젝트에 적용된 모든 태그를 나열합니다. |
-| 설명 | 설명은 프로젝트의 목적을 명확히 하는 데 유용합니다. 설명을 더블 클릭하여 편집할 수 있습니다. |
-| 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 예를 들어 이 설정(활성화된 경우)은 동일한 페이지에 대한 여러 개의 연속 페이지 조회수를 여러 페이지 조회수로 처리합니다. 이 설정을 끄면 단일 페이지 조회수로 계산됩니다(이 설정은 단일 페이지 방문과 같은 특정 지표에만 영향을 줌). **참고**: 이 설정은 플로우 또는 폴아웃 시각화에 적용되지 않습니다. |
-| [주석 표시](/help/analyze/analysis-workspace/components/annotations/overview.md) | 프로젝트에 주석을 표시할지 여부를 지정합니다. |
-| [프로젝트 색상 팔레트](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) | 색맹 사용자에 최적화된 비맞춤형 팔레트에서 선택하거나 맞춤형 팔레트를 지정하여 Workspace에서 사용되는 카테고리별 색상 팔레트를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 영역의 많은 사항에 영향을 줍니다. |
-| [보기 밀도](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에서 더 많은 데이터를 볼 수 있습니다. |
+|  Project Name  | The name given to the project. You can double-click the name to edit it.  |
+|  Owner  | Project owner name  |
+|  Last Modified  | Date of last modification to the project.  |
+|  Tags  |Lists any tags applied to a project for easier categorization.  |
+|  Description  | A description is useful for clarifying the purpose of a project. You can double-click the description to edit it.  |
+|  Count repeat instances  | Specifies whether repeat instances are counted in reports. For example, this setting (when activated) treats multiple consecutive pages views to the same page as multiple page views. With it off, they count as a single page view (this setting only affects certain metrics, such as Single Page Visits). **Note**: This setting does not apply to Flow or Fallout visualizations.  |
+| [Show annotations](/help/analyze/analysis-workspace/components/annotations/overview.md) | Specify whether to show annotations in the project or not. |
+|  [Project color palette](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes)  | You can change the categorical color palette used in Workspace, by choosing from out-of-the-box palettes that have been optimized for color blindness, or by specifying your custom palette. This feature affects many things in Workspace, including most visualizations.  |
+| [View Density](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Lets you see more data on the screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. |
 
-## 왼쪽 레일 {#left-rail}
+## Left rail {#left-rail}
 
-프로젝트 내에서 왼쪽 레일에서 다양한 아이콘을 사용할 수 있으며, 각 아이콘은 프로젝트를 빌드하는 데 중요한 도구를 나타냅니다.
+Within a project, various icons are available in the left rail, and each represents important tools to build your project:
 
-| 아이콘 | 기능 |
+| Icon | Functionality |
 |---|---|
-| ![패널 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [패널](/help/analyze/analysis-workspace/c-panels/panels.md) |
-| ![시각화 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphBarVertical_18_N.svg) | [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| ![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) | [구성 요소](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
-| ![데이터 사전 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Bookmark_18_N.svg) | [데이터 사전](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) |
-| ![목차 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ViewList_18_N.svg) | [목차](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) |
+| ![panels icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [Panels](/help/analyze/analysis-workspace/c-panels/panels.md) |
+| ![visualizations icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphBarVertical_18_N.svg) |[Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
+| ![components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) | [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
+| ![data dictionary icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Bookmark_18_N.svg) | [Data dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) |
+| ![toc icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ViewList_18_N.svg) | [Table of contents](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) |
 
-왼쪽 레일의 구성 요소(차원, 지표, 세그먼트, 날짜 범위)는 활성 패널 데이터 보기와 관련되어 있습니다. 파란색 테두리가 활성 패널을 식별하고 활성 보고서 세트가 구성 요소 레일의 맨 위에 나열됩니다.
+Components (dimensions, metrics, segments, date ranges) in the left rail relate to the active panel data view. A blue border identifies the active panel, and the active report suite is listed at the top of the component rail.
 
 
-## 마우스 오른쪽 버튼 클릭 메뉴
+## Right-click menu
 
-다음은 Analysis Workspace에서 마우스 오른쪽 클릭 메뉴 사용에 대한 비디오입니다.
+Here is a video on using the right-click menu in Analysis Workspace:
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [상황에 맞는 메뉴 사용](https://video.tv.adobe.com/v/30915?quality=12&learn=on&captions=kor){target="_blank"}을 참조하세요.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using the context menu](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
-## 프로젝트 캔버스 {#canvas}
+## Project canvas {#canvas}
 
-프로젝트 캔버스에서는 패널, 테이블, 시각화, 구성 요소를 결합하여 분석을 작성합니다. 프로젝트에는 여러 패널이 포함될 수 있으며 각 패널에는 여러 테이블과 시각화가 포함될 수 있습니다
+The project canvas is where you bring together panels, tables, visualizations, and components to build your analysis. A project can contain many panels, and each panel can contain many tables and visualizations.
 
-패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우 유용합니다. 활성 패널 주위에 색상이 있는 테두리가 있으며 왼쪽 레일에서 사용할 수 있는 구성 요소를 결정합니다.
+Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case. The active panel has a colored border around it, and determines what components are available in the left rail.
 
-프로젝트를 위해 선택한 시작 지점에 따라 캔버스에 [자유 형식 테이블](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) 또는 [빈 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/blank-panel)이 있습니다. 분석을 시작하는 가장 빠른 방법은 하나 이상의 구성 요소를 선택하여 프로젝트 캔버스로 끌어서 놓는 것입니다. 데이터 테이블이 자동으로 렌더링됩니다. [&#128279;](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)표를 만드는 다양한 옵션에 대해 자세히 알아보거나[교육 튜토리얼](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/home)을 활용하여 첫 번째 프로젝트를 만드는 방법에 대한 자세한 지침을 확인하십시오.
+Depending on the starting point you chose for your projects, you either have a [freeform table](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) or a [blank panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) in the canvas to begin with. The quickest way to start analyzing is to select one or many components and simply drag & drop them into the project canvas. A table of data is rendered automatically for you. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) about the different options for building a table, or leverage the available [training tutorial](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) for more guidance on building your first project.
 
 ![](assets/canvas.png)
+
+-->

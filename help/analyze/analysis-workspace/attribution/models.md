@@ -4,83 +4,108 @@ description: 다양한 유형의 속성이 차원 항목 간에 크레딧을 나
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 94%
+source-wordcount: '94'
+ht-degree: 45%
 
 ---
 
-# 속성 모델 및 전환 확인 기간
+# 속성 모델, 컨테이너 및 전환 확인 기간
 
-Adobe Analytics의 속성 개념에는 두 가지 구성 요소가 필요합니다.
+Adobe Analytics의 속성 개념에는 세 가지 구성 요소가 포함됩니다.
 
 * **속성 모델:** 이 모델은 그룹의 히트에 대한 전환 분포를 설명합니다. 예를 들어 첫 번째 터치 또는 마지막 터치가 있습니다.
-* **속성 전환 확인 기간:** 전환 확인 기간은 각 모델에 대해 고려되는 히트 그룹을 설명합니다. 예를 들어 방문 또는 방문자가 있습니다.
+* **컨테이너**: 컨테이너는 속성 범위 또는 각 모델의 히트를 그룹화하는 방법을 정의합니다.
+* **속성 전환 확인 기간:** 전환 확인 기간은 선택한 모델에 대한 전환 확인 일수를 설명합니다.
+
 
 ## 속성 모델
 
-| UI 아이콘 | 속성 모델 | 정의 | 사용 시기 |
-| --- | --- | --- | --- |
-| ![마지막 터치](assets/last_touch1.png) | 마지막 터치 | 전환 전에 가장 최근에 발생하는 터치 포인트에 100% 크레딧을 제공합니다. | 가장 기본적이고 일반적인 속성 모델. 이 모델은 짧은 고려 주기 동안 전환에 자주 사용됩니다. 마지막 터치는 팀에서 검색 마케팅을 관리하거나 내부 검색 키워드를 분석하는 데 주로 사용됩니다. |
-| ![첫 번째 터치](assets/first_touch.png) | 첫 번째 터치 | 속성 전환 확인 기간에서 맨 먼저 표시된 터치 포인트에 100% 크레딧을 제공합니다. | 브랜드 인지도 또는 고객 확보를 유도하기 위한 마케팅 채널을 분석하는 데 유용한 또 다른 일반적인 속성 모델. 첫 번째 터치는 디스플레이 또는 소셜 마케팅 팀에서 자주 사용되지만, 온사이트 제품 권장 사항의 효율성을 평가하기에도 유용합니다. |
-| ![동일한 터치](assets/same_touch.png) | 동일한 터치 | 전환이 발생한 바로 그 히트에 100% 크레딧을 제공합니다. 터치 포인트가 전환과 동일한 히트에서 발생하지 않으면 &quot;없음&quot; 아래에 버킷으로 처리됩니다. | 전환 즉시 제공된 콘텐츠나 사용자 경험을 평가할 때 유용한 모델. 제품 또는 디자인 팀은 종종 이 모델을 사용하여 전환이 발생하는 페이지의 효율성을 평가합니다. |
-| ![선형](assets/linear.png) | 선형 | 전환으로 이어지는 모든 표시되는 터치 포인트에 동일한 크레딧을 제공합니다. | 고려 주기가 더 길거나 빈번한 고객 참여가 필요한 사용자 환경을 사용하는 전환에 유용합니다. 주로 팀에서 모바일 앱 알림 효율성 측정이나 구독 기반 제품에 사용됩니다. |
-| ![U자형](assets/u_shaped.png) | U자형 | 첫 번째 상호 작용에 40% 크레딧을 제공하고, 마지막 상호 작용에 40% 크레딧을 제공하며, 나머지 20%를 그 사이의 모든 터치 포인트에 나눠줍니다. 터치 포인트가 하나인 전환의 경우 100% 크레딧이 제공됩니다. 터치 포인트가 두 개인 전환의 경우 두 터치 포인트에 50% 크레딧이 제공됩니다. | 전환을 도입하거나 종료한 상호 작용을 중요시하면서도 지원 상호 작용을 인식하려는 사용자를 위한 탁월한 모델입니다. U자형 속성은 일반적으로 균형 잡힌 접근 방식을 수행하지만 전환을 발견하거나 종료한 채널에 더 많은 크레딧을 주고자 하는 팀에서 일반적으로 사용됩니다. |
-| ![J자형](assets/j_shaped.png) | J자형 | 마지막 상호 작용에 60% 크레딧을 제공하고, 첫 번째 상호 작용에 20% 크레딧을 제공하며, 나머지 20%를 그 사이의 모든 터치 포인트에 나눠줍니다. 터치 포인트가 하나인 전환의 경우 100% 크레딧이 제공됩니다. 터치 포인트가 두 개인 전환의 경우 75% 크레딧이 마지막 상호 작용에 제공되며, 25% 크레딧이 첫 번째 상호 작용에 제공됩니다. | 이 모델은 파인더와 클로저에 대해 우선순위를 매기고 종료 상호 작용에 집중하려는 사용자에게 적합합니다. J자형 속성은 일반적으로 균형 잡힌 접근 방식을 수행하며 전환을 종료한 채널에 더 많은 크레딧을 주고자 하는 팀에서 사용하는 경우가 많습니다. |
-| ![역 J자형](assets/inverse_j.png) | J의 역 | 첫 번째 터치 포인트에 60% 크레딧을 제공하고, 마지막 터치 포인트에 20% 크레딧을 제공하며, 나머지 20%를 그 사이의 모든 터치 포인트에 나눠줍니다. 터치 포인트가 하나인 전환의 경우 100% 크레딧이 제공됩니다. 터치 포인트가 두 개인 전환의 경우 75% 크레딧이 첫 번째 상호 작용에 제공되며, 25% 크레딧이 마지막 상호 작용에 제공됩니다. | 이 모델은 파인더와 클로저에 대해 우선순위를 매기고 검색 상호 작용에 집중하려는 사용자에게 이상적입니다. J의 역 속성은 일반적으로 균형 잡힌 접근 방식을 수행하며 전환을 시작한 채널에 더 많은 크레딧을 주고자 하는 팀에서 사용합니다. |
-| ![사용자 정의](assets/custom.png) | 사용자 정의 | 첫 번째 터치 포인트, 마지막 터치 포인트 및 그 사이에 있는 모든 터치 포인트에 제공할 가중치를 지정할 수 있습니다. 입력한 사용자 정의 숫자가 100에 추가되지 않는 경우에도 지정된 값이 100%로 표준화됩니다. 터치 포인트가 하나인 전환의 경우 100% 크레딧이 제공됩니다. 터치 포인트가 두 개인 상호 작용의 경우 중간 매개 변수는 무시됩니다. 그런 다음 첫 번째 및 마지막 터치 포인트가 100%로 표준화되고 크레딧은 그에 따라 할당됩니다. | 이 모델은 속성 모델을 완벽하게 제어하고 다른 속성 모델이 충족시키지 못하는 특정 요구 사항을 가진 사용자에게 적합합니다. |
-| ![시간 감소](assets/time_decay.png) | 시간 가치 하락 | 기본값이 7일인 사용자 지정 반감기 매개 변수를 사용하는 기하급수적 감소가 따릅니다. 각 채널의 가중치는 터치 포인트 시작과 최종 전환 사이에 경과된 시간에 따라 달라집니다. 크레딧을 결정하는 데 사용되는 공식은 `2^(-t/halflife)`이고, 여기서 `t`는 터치 포인트와 전환 사이의 시간입니다. 그러면 모든 터치 포인트가 100%로 표준화됩니다. | 비디오 광고를 정기적으로 실행하거나 날짜가 사전에 결정된 이벤트에 대해 마케팅하는 팀에 적합합니다. 마케팅 이벤트 후 전환이 일어나기까지 시간이 오래 걸릴수록 크레딧은 적게 제공됩니다. |
-| ![기여도](assets/participation.png) | 기여도 | 모든 고유한 터치 포인트에 100% 크레딧을 제공합니다. 다른 속성 모델에 비해 총전환 수가 부풀려집니다. 기여도는 여러 번 표시되는 채널을 중복 제거합니다. | 고객이 지정된 상호 작용에 얼마나 자주 노출되는지를 이해하는 데 유용합니다. 미디어 조직은 콘텐츠 속도를 계산하는 데 이 모델을 자주 사용합니다. 소매 조직은 사이트 내에서 전환에 중요한 부분을 이해하는 데 종종 이 모델을 사용합니다. |
-| ![알고리즘](assets/algorithmic.png) | [알고리즘](algorithmic.md) | 통계 기법을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. | 비즈니스에 적합한 속성 모델을 선택할 때 추측이나 추론을 피하는 데 유용합니다. |
+{{attribution-models-details}}
+
+
+## 컨테이너
+
+{{attribution-container}}
+
 
 ## 전환 확인 기간
 
-전환 확인 기간은 터치 포인트를 포함하도록 전환에서 다시 확인해야 하는 시간의 양입니다. 첫 번째 상호 작용에 더 많은 크레딧을 제공하는 속성 모델은 서로 다른 전환 확인 기간을 볼 때 더 큰 차이를 보입니다.
-
-* **방문 전환 확인 기간:** 전환이 발생한 방문 시작 부분까지 되돌아봅니다. 방문 전환 확인 기간은 방문 이후를 보지 않으므로 좁습니다. 방문 전환 확인 기간은 가상 보고서 세트의 수정된 방문 정의를 준수합니다.
-
-* **방문자 전환 확인 기간:** 현재 날짜 범위 달의 1일까지의 모든 방문을 다시 봅니다. 방문자가 많은 방문을 했을 수 있으므로 방문자 전환 확인 기간은 넓습니다. 방문자 전환은 보고서 날짜 범위의 월 초에 있는 모든 값을 고려합니다. 예를 들어 보고서 날짜 범위가 9월 15일~9월 30일인 경우, 방문자 전환 확인 날짜 범위는 9월 1일~9월 30일이 됩니다.
-
-* **사용자 지정 전환 확인 기간:** 보고 날짜 범위 넘어 속성 기간을 최대 90일까지 확장할 수 있습니다. 사용자 정의 전환 확인 기간은 보고 기간의 각 변환에 대해 평가됩니다. 예를 들어, 2월 20일에 발생한 전환의 경우 10일의 전환 확인 기간은 속성 모델에서 2월 10일부터 2월 20일까지의 모든 차원 접촉점을 평가합니다.
-
->[!BEGINSHADEBOX]
-
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [사용자 지정 전환 확인 기간](https://video.tv.adobe.com/v/40044?quality=12&learn=on&captions=kor){target="_blank"}을 참조하세요.
-
->[!ENDSHADEBOX]
+{{attribution-lookback-window}}
 
 
 ## 예
 
-다음 예를 생각해 보십시오.
+{{attribution-example}}
 
-1. 9월 15일 방문자가 유료 검색 광고를 통해 사이트에 도착했다가 나갑니다.
-2. 9월 18일 이 방문자가 친구로부터 받은 소셜 미디어 링크를 통해 다시 사이트에 도착합니다. 장바구니에 몇 개 항목을 추가하지만 구입하지는 않습니다.
-3. 9월 24일 마케팅 팀이 장바구니에 있는 일부 항목에 대한 쿠폰이 포함된 이메일을 보냅니다. 쿠폰은 적용하지만 다른 쿠폰이 있는지 확인하기 위해 다른 몇 개 사이트를 방문합니다. 디스플레이 광고를 통해 다른 항목을 찾은 다음 최종적으로 $50에 구매합니다.
 
-전환 확인 기간과 속성 모델에 따라 채널은 서로 다른 크레딧을 받습니다. 다음은 몇 가지 주목할 만한 예입니다.
+<!--
+## Attribution models
 
-* **첫 번째 터치**&#x200B;와 **방문 전환 확인 기간**&#x200B;을 사용하는 속성은 세 번째 방문만 봅니다. 이메일과 디스플레이 사이에 이메일이 첫 번째였으며, 따라서 $50 구매에 대해 이메일이 100% 크레딧을 받습니다.
-* **첫 번째 터치**&#x200B;와 **방문자 전환 확인 기간**&#x200B;을 사용하는 속성은 세 개의 방문을 모두 봅니다. 유료 검색이 첫 번째였으며, 따라서 $50 구매에 대해 유료 검색이 100% 크레딧을 받습니다.
-* **선형**&#x200B;과 **방문 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧이 이메일과 디스플레이 간에 나눠집니다. 이 두 채널 모두 각각 $25의 크레딧을 받습니다.
-* **선형**&#x200B;과 **방문자 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다. 각 채널은 이 구매에 대해 $12.50 크레딧을 받습니다.
-* **J자형**&#x200B;과 **방문자 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다.
-   * $30인 60% 크레딧이 디스플레이에 제공됩니다.
-   * $10인 20% 크레딧이 유료 검색에 제공됩니다.
-   * 나머지 20%는 소셜과 이메일 간에 나누어져 각각 5달러가 제공됩니다.
-* **시간 가치 하락**&#x200B;과 **방문자 전환 확인 기간**&#x200B;을 사용하는 경우 크레딧은 유료 검색, 소셜, 이메일 및 디스플레이 간에 나눠집니다. 다음과 같이 기본 7일 반감기를 사용합니다.
-   * 디스플레이 터치 포인트와 전환 간 0일 간격. `2^(-0/7) = 1`
-   * 이메일 터치 포인트와 전환 간 0일 간격. `2^(-0/7) = 1`
-   * 소셜 터치 포인트와 전환 간 6일 간격. `2^(-6/7) = 0.552`
-   * 유료 검색 터치 포인트와 전환 간 9일 간격. `2^(-9/7) = 0.41`
-   * 이러한 값을 표준화하면 다음과 같은 결과가 나옵니다.
-      * 디스플레이: 33.8%, $16.88 받음
-      * 이메일: 33.8%, $16.88 받음
-      * 소셜: 18.6%, $9.32 받음
-      * 유료 검색: 13.8%, $6.92 받음
-* **기여도** 및 **방문자 전환 확인 기간**&#x200B;을 사용하면 전체 $50는 유료 검색, 소셜, 이메일 및 표시에 기인합니다. 매출을 등급 보고서 대신 트렌드 보고서로 보는 경우, 방문자가 지정된 마케팅 채널을 터치한 각 날에 50달러가 표시됩니다.
+| UI icon | Attribution model | Definition | When to use |
+| --- | --- | --- | --- |
+| ![Last Touch](assets/last_touch1.png) | Last Touch | Gives 100% credit to the touch point occurring most recently before conversion. | The most basic and common attribution model. It is frequently used for conversions with a short consideration cycle. Last Touch is commonly used by teams managing search marketing or analyzing internal search keywords. |
+| ![First Touch](assets/first_touch.png) | First Touch | Gives 100% credit to the touch point first seen in the attribution lookback window. | Another common attribution model useful for analyzing marketing channels intended to drive brand awareness or customer acquisition. It is frequently used by display or social marketing teams, but is also great for assessing onsite product recommendation effectiveness. |
+| ![Same Touch](assets/same_touch.png) | Same Touch | Gives 100% credit to the very hit where the conversion occurred. If a touch point does not happen on the same hit as a conversion, It is bucketed under "None". | A helpful model when evaluating the content or user experience that was presented immediately at the time of conversion. Product or design teams often use this model to assess the effectiveness of a page where conversion happens. |
+| ![Linear](assets/linear.png) | Linear | Gives equal credit to every touch point seen leading up to a conversion. | Useful for conversions with longer consideration cycles or user experiences that need more frequent customer engagement. It is often used by teams measuring mobile app notification effectiveness or with subscription-based products. |
+| ![U-Shaped](assets/u_shaped.png) | U-Shaped | Gives 40% credit to the first interaction, 40% credit to the last interaction, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 50% credit is given to both. | A great model for those who value interactions that introduced or closed a conversion, but still want to recognize assisting interactions. U-Shaped attribution is commonly used by teams who take a more balanced approach but want to give more credit to channels that found or closed a conversion. |
+| ![J-Shaped](assets/j_shaped.png) | J-Shaped | Gives 60% credit to the last interaction, 20% credit to the first interaction, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 75% credit is given to the last interaction, and 25% credit is given to the first. | This model is great for those who prioritize finders and closers, but want to focus on closing interactions. J-Shaped attribution is frequently used by teams who take a more balanced approach and want to give more credit to channels that closed a conversion. |
+| ![Inverse J-Shaped](assets/inverse_j.png) | Inverse J | Gives 60% credit to the first touch point, 20% credit to the last touch point, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 75% credit is given to the first interaction, and 25% credit is given to the last. | This model is ideal for those who prioritize finders and closers, but want to focus on finding interactions. Inverse J attribution is used by teams who take a more balanced approach and want to give more credit to channels that initiated a conversion. |
+| ![Custom](assets/custom.png) | Custom | Allows you to specify the weights you want to give to first touch points, last touch points, and any touch points in between. Values specified are normalized to 100% even if the custom numbers entered do not add to 100. For conversions with a single touch point, 100% credit is given. For interactions with two touch points, the middle parameter is ignored. The first and last touch points are then normalized to 100%, and credit is assigned accordingly. | This model is perfect for those who want full control over their attribution model and have specific needs that other attribution models do not fulfill. |
+| ![Time Decay](assets/time_decay.png) | Time-Decay | Follows an exponential decay with a custom half-life parameter, where the default is 7 days. The weight of each channel depends on the amount of time that passed between the touch point initiation and the eventual conversion. The formula used to determine credit is `2^(-t/halflife)`, where `t` is the amount of time between a touch point and a conversion. All touch points are then normalized to 100%. | Great for teams who regularly run video advertising or who market against events with a predetermined date. The longer a conversion happens after a marketing event, the less credit is given. |
+| ![Participation](assets/participation.png) | Participation | Gives 100% credit to all unique touch points. The total number of conversions is inflated compared to other attribution models. Participation deduplicates channels that are seen multiple times. | Excellent for understanding how often customers are exposed to a given interaction. Media organizations frequently use this model to calculate content velocity. Retail organizations often use this model to understand which parts of their site are critical to conversion. |
+| ![Algorithmic](assets/algorithmic.png) | [Algorithmic](algorithmic.md) |  Uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. | Useful to help avoid guesswork or heuristics when choosing the right attribution model for your business.  |
+
+## Lookback windows
+
+A lookback window is the amount of time a conversion should look back to include touch points. Attribution models that give more credit to first interactions see larger differences when viewing different lookback windows.
+
+* **Visit lookback window:** Looks back up to the beginning of a the visit where a conversion happened. Visit lookback windows are narrow, as they don't look beyond the visit. Visit lookback windows respect the modified visit definition in virtual report suites.
+
+* **Visitor lookback window:** Looks at all visits back up to the 1st of the month of the current date range. Visitor lookback windows are wide, as they can span many visits. Visitor lookback considers all values from the beginning of the month of the report's date range. For example, if the report date range is September 15 - September 30, the visitor lookback date range includes September 1 - September 30.
+
+* **Custom lookback window:** Allows you to expand the attribution window beyond the reporting date range, up to a maximum of 90 days. Custom lookback windows are evaluated on each conversion in the reporting period. For example, for a conversion occurring on February 20, a lookback window of 10 days would evaluate all dimension touchpoints from February 10 - February 20 in the attribution model.
+
+>[!BEGINSHADEBOX]
+  
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
+  
+>[!ENDSHADEBOX]
+
+
+## Example
+
+Consider the following example:
+
+1. On September 15, a visitor arrives to your site through a paid search advertisement, then leaves.
+2. On September 18, the visitor arrives to your site again through a social media link they got from a friend. They add several items to their cart, but do not purchase anything.
+3. On September 24, your marketing team sends them an email with a coupon for some of the items in their cart. They apply the coupon, but visit several other sites to see if any other coupons are available. They find another through a display ad, then ultimately make a purchase for $50.
+
+Depending on your lookback window and attribution model, channels receive different credit. The following are some notable examples:
+
+* Using **first touch** and a **visit lookback window**, attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase.
+* Using **first touch** and a **visitor lookback window**, attribution looks at all three visits. Paid search was first, so it gets 100% credit for the $50 purchase.
+* Using **linear** and a **visit lookback window**, credit is divided between email and display. Both of these channels each get $25 credit.
+* Using **linear** and a **visitor lookback window**, credit is divided between paid search, social, email, and display. Each channel gets $12.50 credit for this purchase.
+* Using **J-shaped** and a **visitor lookback window**, credit is divided between paid search, social, email, and display.
+  * 60% credit is given to display, for $30.
+  * 20% credit is given to paid search, for $10.
+  * The remaining 20% is divided between social and email, giving $5 to each.
+* Using **Time Decay** and a **visitor lookback window**, credit is divided between paid search, social, email, and display. Using the default 7-day half-life:
+  * Gap of 0 days between display touch point and conversion. `2^(-0/7) = 1`
+  * Gap of 0 days between email touch point and conversion. `2^(-0/7) = 1`
+  * Gap of 6 days between social touch point and conversion. `2^(-6/7) = 0.552`
+  * Gap of 9 days between paid search touch point and conversion. `2^(-9/7) = 0.41`
+  * Normalizing these values results in the following:
+    * Display: 33.8%, getting $16.88
+    * Email: 33.8% getting $16.88
+    * Social: 18.6%, getting $9.32
+    * Paid Search: 13.8%, getting $6.92
+* Using **Participation** and a **visitor lookback window**, the full $50 is attributed to paid search, social, email, and display. If you view revenue as a trended report instead of a ranked report, you would see the $50 on each respective day that the visitor touched a given marketing channel.
 
 >[!TIP]
 >
->주문이나 사용자 정의 이벤트와 같은 기타 전환 이벤트도 크레딧이 둘 이상의 채널에 속하는 경우 나누어집니다. 예를 들어 두 채널이 선형 속성 모델을 사용하여 사용자 정의 이벤트에 기여하는 경우 두 채널 모두 사용자 정의 이벤트의 0.5를 받습니다. 이러한 이벤트 소수 값은 모든 방문에 걸쳐 집계된 다음 보고를 위해 가장 가까운 정수로 반올림됩니다.
+>Other conversion events, such as orders or custom events, are also divided if credit belongs to more than one channel. For example, if two channels contribute to a custom event using a Linear attribution model, both channels get 0.5 of the custom event. These event fractions are summed across all visits, then rounded to the nearest integer for reporting.
+
+-->

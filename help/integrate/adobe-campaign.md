@@ -1,13 +1,13 @@
 ---
 description: Adobe Analytics에서 Adobe Campaign Standard 보고를 활성화하는 방법 살펴보기
 title: Adobe Campaign Standard 보고를 Adobe Analytics에 통합하려면 어떻게 합니까?
-feature: Campaign Integration
+feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 이 통합을 구성하는 방법에 대한 자세한 내용은 [Adobe Campaign 설명서](https://helpx.adobe.com/kr/campaign/standard/integrating/using/about-campaign-analytics-integration.html)를 참조하십시오.
 
 >[!IMPORTANT]
->이 문서는 Adobe Campaign **Standard** 보고에만 적용됩니다. Adobe Campaign **Classic** 보고를 추가하려면 [여기](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=ko)를 참조하십시오.
+>이 문서는 Adobe Campaign **Standard** 보고에만 적용됩니다. Adobe Campaign **Classic** 보고를 추가하려면 [여기](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html)를 참조하십시오.
 
 Adobe Analytics와 Adobe Campaign Standard를 통합하면 다음이 적용됩니다.
 
