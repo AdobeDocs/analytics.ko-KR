@@ -45,7 +45,7 @@ ht-degree: 98%
 
 관리자는 회사 템플릿을 편집하거나 삭제할 수 있습니다.
 
-1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 **[!UICONTROL _login_company_name _템플릿]**을 선택합니다.
+1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 **[!UICONTROL _login_company_name _템플릿]**&#x200B;을 선택합니다.
 
 1. 열 보기 ![열 보기 아이콘](assets/column-view-icon.png)에서 템플릿을 보는 방법:
 

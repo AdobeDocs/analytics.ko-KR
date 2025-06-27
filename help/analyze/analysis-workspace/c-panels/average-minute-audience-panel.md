@@ -187,8 +187,8 @@ Analysis Workspace에서 평균 분당 시청 대상자는 다음에 대한 정�
 >[!MORELIKETHIS]
 >
 > [패널 만들기](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> > [미디어 동시 뷰어 패널](media-concurrent-viewers.md)
-> > [미디어 재생 소요 시간 패널](media-playback-time-spent.md)
+> &#x200B;> [미디어 동시 뷰어 패널](media-concurrent-viewers.md)
+> &#x200B;> [미디어 재생 소요 시간 패널](media-playback-time-spent.md)
 >
 
 
