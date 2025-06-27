@@ -42,7 +42,7 @@ Target용 Analytics 패널을 사용하면 Analysis Workspace에서 Adobe Target
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Target용 Analytics 패널](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Target용 Analytics 패널](https://video.tv.adobe.com/v/326714?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

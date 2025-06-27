@@ -37,7 +37,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [도넛 시각화 추가](https://video.tv.adobe.com/v/334309/?quality=12){target=&#34;_blank&#34;}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [도넛 시각화 추가](https://video.tv.adobe.com/v/3416626/?quality=12&captions=kor){target=&#34;_blank&#34;}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
