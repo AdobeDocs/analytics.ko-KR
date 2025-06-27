@@ -1,14 +1,14 @@
 ---
-description: 이 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 보여 줍니다.
+description: 하나 이상의 지표에서 가로 막대를 사용하여 다양한 값을 나타내는 방법을 알아봅니다.
 title: 가로 막대 및 스택 가로 막대
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 89%
 
 ---
 
@@ -35,7 +35,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 이 ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL 가로 막대]** 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 보여 줍니다.
 
-![페이지 조회수, 페이지 속도, 방문 수, 진입 수, 종료 수 등의 지표를 보여 주는 가로 막대.](assets/horizontal-bar.png)
+![페이지 조회수, 페이지 속도, 방문 수, 진입 수, 종료 수 등의 측정 항목을 보여 주는 가로 막대.](assets/horizontal-bar.png)
 
 
 ## 스택 가로 막대 {#horizontal-bar-stacked}
@@ -62,7 +62,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

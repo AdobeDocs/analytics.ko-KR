@@ -1,21 +1,21 @@
 ---
-description: Workspace의 폴더 정보 알아보기
+description: Analysis Workspace의 폴더에서 프로젝트를 구성하는 방법을 알아봅니다.
 keywords: Analysis Workspace
 title: 폴더 개요
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
 # 폴더 개요
 
-[폴더 및 프로젝트 표시](../freeform-overview.md#show-selector)를 선택하면 Adobe Analytics의 폴더를 Workspace 랜딩 페이지에서 사용할 수 있습니다.
-
 Workspace의 폴더는 프로젝트를 구성하고 분류하는 데 도움이 됩니다. 폴더 기능을 사용하면 폴더와 하위 폴더를 만들어 프로젝트를 관리할 수 있습니다.
+
+[폴더 및 프로젝트 표시](../freeform-overview.md#show-selector)를 선택하면 Adobe Analytics의 폴더를 Workspace 랜딩 페이지에서 사용할 수 있습니다.
 
 Workspace에는 회사 폴더와 개인 폴더, 두 가지 유형의 폴더가 있습니다. 공유 회사 폴더를 통해 관리자는 콘텐츠를 만들고 모든 Workspace 사용자와 공유할 수 있게 합니다.
 

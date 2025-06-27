@@ -1,13 +1,13 @@
 ---
-title: 섹션 헤더
-description: Workspace 프로젝트에 섹션 헤더를 삽입하는 시각화.
+title: 섹션 머리글
+description: 섹션 머리글을 사용하여 Analysis Workspace 프로젝트에 섹션 머리글을 삽입합니다.
 feature: Visualizations
 role: User
 exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '95'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 83%
 
 ---
 
@@ -40,6 +40,6 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

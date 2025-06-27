@@ -1,13 +1,13 @@
 ---
-description: Workspace 프로젝트에서 폴아웃 시각화를 사용합니다.
+description: Analysis Workspace에서 폴아웃 시각화를 사용하는 방법에 대해 알아봅니다.
 title: 폴아웃 개요
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!ENDSHADEBOX]
 
-폴아웃 시각화 요소에서 더 많은 폴아웃 보고서 작성 옵션을 제공합니다. 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여 줍니다.
+![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 폴아웃]** 시각화는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여 줍니다.
 
 
 >[!BEGINSHADEBOX]
@@ -37,6 +37,8 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [폴아웃 시각화](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
+
+
 
 
 폴아웃 시각화 요소를 사용하면 다음 작업을 수행할 수 있습니다.

@@ -1,13 +1,13 @@
 ---
-title: 코호트 분석이란 무엇이며 어떻게 작동합니까?
-description: 코호트 분석을 통해 대상자에 대한 데이터를 더 깊이 파고들고 관련 그룹으로 나눕니다. Analysis Workspace의 코호트 분석에 대한 자세한 내용.
+title: 집단 테이블 개요
+description: 집단 분석을 통해 대상자에 대한 데이터를 더 깊이 있게 분석하고 해당 데이터를 관련 그룹으로 나누는 방법에 대해 알아봅니다. Analysis Workspace에서 집단 분석을 사용합니다.
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 96%
+source-wordcount: '704'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 코호트 테이블에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 코호트 테이블에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 코호트 테이블](https://video.tv.adobe.com/v/3430073/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 코호트 테이블](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -74,31 +74,31 @@ Adobe Analytics의 집단 테이블은 이중 기반(또는 모든 숫자 기반
 
 코호트를 만들고 [!UICONTROL 코호트 분석] 보고서를 실행하는 방법에 대한 자세한 내용은 [코호트 테이블 구성](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)을 참조하십시오.
 
-### [!UICONTROL 유지] 테이블
+### 유지 테이블
 
 [!UICONTROL 유지] 코호트 테이블은 사람 수를 반환합니다. 각 데이터 셀에는 해당 기간 동안 액션을 수행한 코호트에 있는 사람들의 원시 수와 백분율 보여 줍니다. 최대 3개의 지표와 10개의 필터를 포함할 수 있습니다.
 
 ![코호트에 속한 사람들의 단위와 비율을 보여 주는 유지 코호트 보고서.](assets/retention-report.png)
 
-### [!UICONTROL 이탈] 테이블
+### 이탈 테이블
 
 [!UICONTROL 이탈] 코호트 테이블은 유지 테이블의 역버전이며 시간 경과에 따라 코호트에 대한 반환 기준을 충족하지 않은 사람을 표시합니다. 최대 3개의 지표와 10개의 필터를 포함할 수 있습니다.
 
 ![코호트에 대한 반환 기준을 충족하지 못한 사람들의 단위와 비율을 보여 주는 이탈 테이블.](assets/churn-report.png)
 
-### [!UICONTROL 순환 계산]
+### 순환 계산
 
 포함된 열이 아닌 이전 열을 기준으로 유지 또는 이탈을 계산할 수 있으며, 이를 순환 계산이라고 합니다.
 
 ![이전 데이터 열을 기반으로 계산을 보여 주는 코호트 유지 보고서.](assets/retention-report-rolling.png)
 
-### [!UICONTROL 지연] 테이블
+### 지연 테이블
 
 지연 테이블은 포함 이벤트가 발생하기 전후에 경과된 시간을 측정합니다. 지연 시간 측정은 사전 및 사후 분석을 위한 훌륭한 도구입니다. **[!UICONTROL 포함]** 열은 테이블의 중앙에 있으며 포함 이벤트 전후의 기간이 양쪽에 표시됩니다.
 
 ![이벤트 전후의 경과 시간을 보여 주는 코호트 보고서.](assets/retention-report-latency.png)
 
-### [!UICONTROL 사용자 정의 차원] 코호트
+### 사용자 정의 차원 집단
 
 기본값인 시간 기반 코호트가 아닌 선택된 차원에 따라 코호트를 만들 수 있습니다. [!UICONTROL 도시 지역], [!UICONTROL 마케팅 채널], [!UICONTROL 캠페인], [!UICONTROL 제품], [!UICONTROL 페이지], [!UICONTROL 지역] 또는 기타 차원을 사용하여 유지율이 어떻게 변화하는지 보여 줍니다. 이러한 차원의 다양한 값을 기준으로 합니다.
 
@@ -128,7 +128,7 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/3430088?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -153,7 +153,7 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/3430171?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +167,7 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/3430160?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

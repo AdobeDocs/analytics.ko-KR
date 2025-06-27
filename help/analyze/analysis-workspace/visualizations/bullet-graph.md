@@ -1,13 +1,13 @@
 ---
-description: 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 확인할 수 있도록 해 줍니다.
-title: 글머리 기호 그래프
+description: Analysis Workspace에서 글머리 기호 시각화를 사용하는 방법에 대해 알아봅니다. 글머리 기호 시각화를 사용하면 다른 성능 범위(목표)에 대해 비교하거나 측정할 수 있습니다.
+title: 글머리 기호
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 90%
 
 ---
 
@@ -41,11 +41,11 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ![글머리 기호 그래프 시각화](assets/bullet.png)
 
-글머리 기호 그래프는 단일 기본 측정을 수행하고(예: 올해 초부터 현재까지 매출), 성능의 질적 범위(예: 타깃 매출과 비교하여)를 입력할 수 있도록 해 줍니다. 목표 범위를 높음, 중간, 낮음으로 지정할 수 있습니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 설정]**&#x200B;에서 목표 범위를 지정할 수 있습니다.
+글머리 기호 그래프는 단일 기본 측정을 수행하고(예: 올해 초부터 현재까지 매출), 성능의 질적 범위(예: 타깃 매출과 비교)를 입력할 수 있도록 해 줍니다. 목표 범위를 높음, 중간, 낮음으로 지정할 수 있습니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 설정]**&#x200B;에서 목표 범위를 지정할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [글머리 기호 그래프 시각화](https://video.tv.adobe.com/v/30858/?quality=12/?quality=12&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [글머리 기호 그래프 시각화](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target=&#34;_blank&#34;}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

@@ -1,35 +1,27 @@
 ---
-description: 특정 차원에 대한 다음 또는 이전 차원 항목을 표시하는 패널.
+description: 특정 차원에 대한 다음 또는 이전 차원 항목을 표시하는 다음 또는 이전 항목 패널을 사용하는 방법을 이해합니다.
 title: 다음 또는 이전 항목 패널
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
-workflow-type: ht
-source-wordcount: '469'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 94%
 
 ---
 
 # 다음 또는 이전 항목 패널 {#next-or-previous-item-panel}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
 >title="다음 또는 이전 항목"
 >abstract="사용자의 이전 차원과 사용자의 다음 차원을 파악할 수 있는 패널을 만듭니다."
 
-<!-- markdownlint-disable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="다음 또는 이전 항목"
 >abstract="방문자들이 이전에 왔거나 다음으로 이동하는 가장 일반적인 장소를 분석합니다.<br/><br/>**차원**: 차원을 선택합니다. 예: **페이지**.<br/>**차원 항목**: 특정 차원 항목을 선택합니다. 예: **홈 페이지**.<br/>**방향**: **다음**&#x200B;을 선택하여 선택한 차원 항목 바로 다음에 차원 항목을 표시합니다. **이전**&#x200B;을 선택하여 선택한 차원 항목으로 이어지는 차원 항목을 표시합니다.<br/>**컨테이너**: **세션**&#x200B;을 선택하여 동일한 세션 내에서 다음/이전 차원 항목을 표시하거나 **사용자**&#x200B;를 선택하여 동일한 사용자의 다음/이전 차원 항목을 표시합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
@@ -77,7 +69,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 | --- | --- |
 | **[!UICONTROL 가로 막대]** | 선택한 차원 항목에 따라 다음 (또는 이전) 항목을 나열합니다. 개별 막대에 마우스를 가져다 대면 자유 형식 테이블에서 해당 항목이 강조 표시됩니다. |
 | **[!UICONTROL 요약 숫자]** | 현재 달 동안(지금까지)의 모든 다음 또는 이전 차원 항목 발생 횟수를 요약한 상위 수준 숫자입니다. |
-| **[!UICONTROL 자유 형식 테이블]** | 선택한 차원 항목을 기준으로 다음 (또는 이전) 항목을 테이블 형식으로 나열합니다. 예를 들어 사람들이 홈 페이지나 작업 공간 페이지 다음 (또는 그 이전)으로 가장 방문한 페이지들이었습니다. |
+| **[!UICONTROL 자유 형식 테이블]** | 선택한 차원 항목을 기준으로 다음 (또는 이전) 항목을 테이블 형식으로 나열합니다. 예를 들어 사람들이 홈 페이지나 작업 영역 페이지 다음(또는 그 이전)으로 가장 방문 빈도가 높은 페이지들이었습니다. |
 
 {style="table-layout:auto"}
 

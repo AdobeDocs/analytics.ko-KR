@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 지난달, 지난해 등과 비교한 내용과 같은 비교 데이터를 쉽게 시각화할 수 있습니다.
-title: 콤보 차트 시각화
+description: 지난달, 지난해 등과 비교한 내용과 같은 Analysis Workspace의 비교 데이터를 시각화하는 방법을 알아봅니다.
+title: 콤보
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 8234da343ed526eced900e24225e2e1af4319a4d
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 96%
 
 ---
 
@@ -99,6 +99,6 @@ _이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAn
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

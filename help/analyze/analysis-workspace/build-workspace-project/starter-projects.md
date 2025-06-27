@@ -1,13 +1,13 @@
 ---
-description: 보고서를 기반으로 Workspace 프로젝트를 만듭니다.
+description: Analysis Workspace의 템플릿을 사용하여 일반적인 보고 시나리오를 기반으로 프로젝트를 빠르게 만드는 방법을 알아봅니다.
 title: 템플릿
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 33%
+source-wordcount: '53'
+ht-degree: 37%
 
 ---
 
@@ -20,3 +20,4 @@ Adobe Analytics에서 템플릿을 사용하는 방법에 대한 자세한 내�
 * [템플릿 사용](/help/analyze/analysis-workspace/templates/use-templates.md)
 
 * [템플릿 만들기 및 관리](/help/analyze/analysis-workspace/templates/create-templates.md)
+

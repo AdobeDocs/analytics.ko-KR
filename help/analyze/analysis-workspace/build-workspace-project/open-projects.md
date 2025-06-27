@@ -1,12 +1,13 @@
 ---
 title: 프로젝트 열기
-description: 프로젝트를 여는 방법 알아보기
+description: Analysis Workspace에서 프로젝트를 여는 방법에 대해 알아봅니다.
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+exl-id: 12c5f5a6-a90f-471a-91c3-0fd8c8b1d3a0
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 97%
+source-wordcount: '251'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 97%
    각 버전마다 목록에는 타임스탬프, 편집기 및 저장된 메모가 표시됩니다.
 
 
-1. 이전 버전을 선택하고 **[!UICONTROL 로드]**&#x200B;를 클릭합니다.
+1. 이전 버전을 선택하고 **[!UICONTROL 로드]**를 클릭합니다.
 그러면 이전 버전은 알림과 함께 로드됩니다. 이전 버전은 **[!UICONTROL 저장]**&#x200B;을 클릭할 때까지는 현재 저장된 프로젝트 버전이 되지 않습니다. 로드된 버전에서 벗어나 탐색하면 이전 버전을 다시 열고 싶을 때 마지막으로 저장된 버전이 표시됩니다.
 
 

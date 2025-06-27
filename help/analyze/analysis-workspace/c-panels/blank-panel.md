@@ -1,13 +1,13 @@
 ---
-description: 시각화의 시작 지점으로 빈 패널을 만듭니다.
+description: 시각화의 시작점으로 빈 패널을 만드는 방법을 알아봅니다.
 title: 빈 패널
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 94%
 
 ---
 
@@ -62,7 +62,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
   | ![테이블](/help/assets/icons/Table.svg) | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
   | ![라인](/help/assets/icons/GraphTrend.svg) | [라인](/help/analyze/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [막대](/help/analyze/analysis-workspace/visualizations/bar.md) |
-  | ![123](/help/assets/icons/123.svg) | [요약 숫자](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![123](/help/assets/icons/123.svg) | [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![텍스트](/help/assets/icons/Text.svg) | [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) |
   | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
   | ![워크플로](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |

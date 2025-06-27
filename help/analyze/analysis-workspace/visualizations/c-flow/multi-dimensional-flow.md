@@ -1,14 +1,14 @@
 ---
-description: 차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다.
-title: 차원 간 흐름
+description: 차원 간 흐름을 통해 다양한 차원에서 사용자 경로를 검사하는 방법을 이해합니다.
+title: 차원 간 플로우
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 간 흐름](https://video.tv.adobe.com/v/30905?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 간 흐름](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

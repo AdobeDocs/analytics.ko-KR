@@ -1,14 +1,14 @@
 ---
-description: 영역 시각화는 선 그래프 모양이며 선 아래에 색칠된 영역이 있습니다.
-title: 영역 및 스택 영역
+description: 영역 및 스택 영역 시각화에 대해 알아봅니다.
+title: 영역 및 스택
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '204'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -61,6 +61,6 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

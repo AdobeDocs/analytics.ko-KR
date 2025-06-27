@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '896'
 ht-degree: 98%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -31,15 +31,15 @@ ht-degree: 98%
       + [프로젝트 만들기](analysis-workspace/build-workspace-project/create-projects.md)
       + [프로젝트 열기](analysis-workspace/build-workspace-project/open-projects.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
-      + [프로젝트 목차](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
-      + 작업 영역의 폴더 {#workspace-folders}
+      + [목차](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
+      + Workspace의 폴더 {#workspace-folders}
          + [폴더 개요](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [폴더 및 하위 폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [프로젝트를 추가하거나 폴더로 이동](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [프로젝트 추가 또는 이동](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + [여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [핫키 (단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [단축키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
    + 템플릿 {#templates}
@@ -75,62 +75,62 @@ ht-degree: 98%
          + [데이터 사전의 구성 요소 항목 편집](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [데이터 사전 상태 모니터링](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 시각화 {#visualizations}
-      + [시각화 개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](analysis-workspace/visualizations/t-sync-visualization.md)
       + 자유 형식 테이블 {#freeform-table}
-         + [자유 형식 테이블](analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [자유 형식 테이블의 차원에 대한 하이퍼링크 만들기](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [개요](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [하이퍼링크 만들기](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 열 및 행 설정 {#column-row-settings}
             + [열 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [행 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [자유 형식 테이블 필터링 및 정렬](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [작업 영역 합계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-      + 집단 테이블 {#cohort-table}
-         + [코호트 분석이란?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [코호트 분석 보고서 구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [코호트 분석 사용 사례](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [필터링 및 정렬](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [총계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+      + 코호트 테이블 {#cohort-table}
+         + [개요](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [사용 사례](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 폴아웃 {#fallout}
-         + [폴아웃 개요](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [폴아웃 시각화 구성](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [다차원 폴아웃](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [폴아웃 분석에서 세그먼트 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [개요](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [구성](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [차원 간 폴아웃](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [세그먼트 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 플로우 {#flow}
-         + [플로우 개요](analysis-workspace/visualizations/c-flow/flow.md)
-         + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/create-flow.md)
-         + [차원 간 플로우](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+         + [개요](analysis-workspace/visualizations/c-flow/flow.md)
+         + [구성](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [차원 간 흐름](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [영역 및 스택 영역](analysis-workspace/visualizations/area.md)
       + [막대 및 스택 막대](analysis-workspace/visualizations/bar.md)
-      + [글머리 기호 그래프](analysis-workspace/visualizations/bullet-graph.md)
-      + [콤보 차트](analysis-workspace/visualizations/combo-charts.md)
+      + [글머리 기호](analysis-workspace/visualizations/bullet-graph.md)
+      + [콤보](analysis-workspace/visualizations/combo-charts.md)
       + [도넛](analysis-workspace/visualizations/donut.md)
       + [히스토그램](analysis-workspace/visualizations/histogram.md)
-      + [가로 막대 및 스택 가로 막대](analysis-workspace/visualizations/horizontal-bar.md)
+      + [가로 막대 (스택)](analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](analysis-workspace/visualizations/key-metric.md)
       + [선](analysis-workspace/visualizations/line.md)
       + [맵](analysis-workspace/visualizations/map-visualization.md)
       + [산포도](analysis-workspace/visualizations/scatterplot.md)
       + [섹션 헤더](/help/analyze/analysis-workspace/visualizations/section-header.md)
-      + [요약 번호 및 요약 변경 사항](analysis-workspace/visualizations/summary-number-change.md)
+      + [요약 숫자 및 변경 사항](analysis-workspace/visualizations/summary-number-change.md)
       + [텍스트](analysis-workspace/visualizations/text.md)
-      + [트리 맵](analysis-workspace/visualizations/treemap.md)
+      + [트리맵](analysis-workspace/visualizations/treemap.md)
       + [벤](analysis-workspace/visualizations/venn.md)
    + 패널 {#panels}
-      + [패널 개요](analysis-workspace/c-panels/panels.md)
-      + [A4T (Analytics for Target) 패널](analysis-workspace/c-panels/a4t-panel.md)
-      + [속성 패널](analysis-workspace/c-panels/attribution.md)
-      + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
-      + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
-      + [미디어 대상자 평균 시간 패널](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [미디어 동시 뷰어 패널](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [미디어 재생 소요 시간 패널](analysis-workspace/c-panels/media-playback-time-spent.md)
-      + [다음 또는 이전 항목 패널](analysis-workspace/c-panels/next-previous.md)
-      + [페이지 요약 패널](analysis-workspace/c-panels/page-summary.md)
-      + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
-      + 세그먼트 비교 패널 {#segment-comparison}
-         + [세그먼트 비교 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [세그먼트 비교 사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
-         + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
+      + [개요](analysis-workspace/c-panels/panels.md)
+      + [빈](analysis-workspace/c-panels/blank-panel.md)
+      + [Target용 Analytics](analysis-workspace/c-panels/a4t-panel.md)
+      + [속성](analysis-workspace/c-panels/attribution.md)
+      + [자유 형식](analysis-workspace/c-panels/freeform-panel.md)
+      + [미디어 평균 분당 시청 대상자](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [미디어 동시 뷰어](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [미디어 재생 체류 시간](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [다음 또는 이전 항목](analysis-workspace/c-panels/next-previous.md)
+      + [페이지 요약](analysis-workspace/c-panels/page-summary.md)
+      + [빠른 인사이트](analysis-workspace/c-panels/quickinsight.md)
+      + 세그먼트 비교 {#segment-comparison}
+         + [개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [사용된 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 프로젝트 구성, 공유 및 예약 {#curate-share}
       + [개요](analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](analysis-workspace/curate-share/curate.md)
@@ -172,8 +172,8 @@ ht-degree: 98%
    + [세그먼트를 사용한 작업](report-builder/work-with-segments.md)
    + [차원 필터링](report-builder/filter-dimensions.md)
    + [데이터 블록 관리](report-builder/manage-reportbuilder.md)
-   + [전자 메일에 대한 통합 문서 예약](report-builder/schedule-reportbuilder.md)
-   + [클라우드 내보내기를 위한 통합 문서 예약](/help/analyze/report-builder/report-builder-export.md)
+   + [이메일용 일정 워크북](report-builder/schedule-reportbuilder.md)
+   + [클라우드 내보내기용 일정 워크북](/help/analyze/report-builder/report-builder-export.md)
    + [예약된 통합 문서 관리](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [제한된 레이블](report-builder/restricted-labels.md)
    + [Report Builder 설정](report-builder/report-builder-settings.md)

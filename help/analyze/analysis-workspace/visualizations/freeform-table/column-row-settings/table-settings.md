@@ -1,14 +1,14 @@
 ---
-description: 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다.
+description: 행 설정을 사용하는 방법과 Analysis Workspace에서 자유 형식 테이블로 드래그한 구성 요소에 따라 행 설정이 어떻게 달라지는지 알아봅니다.
 title: 행 설정
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/328503/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -92,4 +92,4 @@ ht-degree: 100%
 
 ## 행 높이 변경
 
-프로젝트의 보기 밀도를 **[!UICONTROL 축소]**, **[!UICONTROL 편안함]**, **[!UICONTROL 확장됨]**&#x200B;으로 설정할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)
+프로젝트의 [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)를 **[!UICONTROL 작게]**, **[!UICONTROL 편하게]**, **[!UICONTROL 확장]**&#x200B;으로 설정할 수 있습니다.

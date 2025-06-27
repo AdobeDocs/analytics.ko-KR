@@ -1,13 +1,13 @@
 ---
-description: 페이지 요약 패널에는 선택한 페이지에 대한 요약 정보가 표시됩니다.
+description: 페이지 요약 패널을 사용하여 선택한 페이지에 대한 요약 정보를 표시하는 방법에 대해 알아봅니다.
 title: 페이지 요약 패널
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
-workflow-type: ht
-source-wordcount: '611'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 96%
 
 ---
 

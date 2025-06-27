@@ -1,14 +1,14 @@
 ---
-description: 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다.
+description: 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시하는 방법을 이해합니다.
 title: 트리맵
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [트리맵 시각화](https://video.tv.adobe.com/v/3416857/?quality=12&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [트리맵 시각화](https://video.tv.adobe.com/v/334458/?quality=12){target=&#34;_blank&#34;}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -48,6 +48,6 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -1,26 +1,26 @@
 ---
-description: 코호트 분석 사용 사례 예입니다.
+description: 집단 분석의 몇 가지 사용 사례 사례에 대해 알아봅니다.
 keywords: Analysis Workspace
-title: 코호트 분석 사용 사례
+title: 집단 분석 사용 사례
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
-# [!UICONTROL 코호트 분석] 사용 사례
+# 코호트 분석 사용 사례
 
 [!UICONTROL 코호트 분석] 사용 사례의 예입니다.
 
-## 앱 참여 사용 사례 {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
+## 앱 참여 사용 사례
 
 앱을 설치하는 사용자가 어떻게 시간이 지남에 따라 앱에 참여하는지를 분석하려 한다고 가정합니다. 사용자들이 앱을 설치한 후 사용한 적이 없습니까? 잠깐 사용하고는 서서히 사용하지 않습니까? 또는 시간이 지남에 따라 참여한 채로 남아 있습니까?
 
-6개월 [!UICONTROL 코호트 분석]을 생성할 수 있습니다.
+6개월 집단 분석을 생성할 수 있습니다.
 
 **세부 기간**: 2015년 1월부터 2015년 6월까지 매월.
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 방문자는 세션을 하거나 앱을 시작하지 않는 한 다음 달에 *`engaged`*&#x200B;입니다. 그러면 [!UICONTROL 코호트 분석]에서는 *`App Install`*&#x200B;이 항상 0번째 달에 발생하는 사용의 패턴을 보여 줍니다. 사용자가 언제 앱을 설치했는지에 상관없이 2번째 달에 사용량이 떨어질 수 있습니다. (2015년 1월에 앱을 설치한 사용자의 경우, 2번째 달은 2015 3월입니다. 2015년 2월에 앱을 설치한 사용자의 경우, 2번째 달은 2015년 4월 입니다.) 이 분석을 통해 앱을 설치한 후 2번째 달까지 모든 사용자에게 이메일이나 푸시 메시지를 보내 앱 사용을 상기시킬 수 있습니다.
 
-## 구독 사용 사례 {#section_FDECB16766CF415BB84AE46BA491FB5F}
+## 구독 사용 사례
 
 여러분은 Adobe.com에서 일하고 무료 Creative Cloud 가입을 제공합니다. 목표는 사용자가 무료 버전을 30일 체험판이나, (궁극적으로) 유료 버전으로 업그레이드하는 것입니다.
 

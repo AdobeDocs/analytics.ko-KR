@@ -1,13 +1,13 @@
 ---
-description: Workspace 프로젝트에서 플로우 시각화를 사용합니다.
+description: Analysis Workspace에서 플로우 시각화를 구성하는 방법 알아보기
 title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 100%
+source-wordcount: '1658'
+ht-degree: 95%
 
 ---
 
@@ -69,11 +69,9 @@ ht-degree: 100%
 >abstract="이 필드는 초기 빌드에서만 설정할 수 있습니다. 이 필드를 업데이트하려면 **[!UICONTROL 재설정]**&#x200B;을 선택하여 새 플로우 시각화를 작성하십시오."
 
 
+플로우 시각화는 웹 사이트 또는 앱의 특정 전환 이벤트에서 발생하는 여정을 이해하는 데 도움이 됩니다. 또는 특정 전환 이벤트로 이어질 수 있습니다. 시각화는 차원(및 차원 항목) 또는 지표를 통해 경로를 추적합니다.
 
-플로우 시각화를 통해 웹 사이트 또는 앱의 특정 전환 이벤트에서 시작되거나 이어지는 여정을 이해할 수 있습니다. 차원(및 차원 항목) 또는 지표를 통해 경로를 추적합니다.
-
-플로우 시각화를 사용하면 관심 있는 경로의 시작 또는 끝을 구성하거나 차원 또는 차원 항목을 통과하는 모든 경로를 분석할 수 있습니다.
-
+원하는 경로의 시작 또는 끝을 구성할 수 있습니다. 또는 차원 또는 차원 항목을 통과하는 모든 경로를 분석합니다.
 ![새로운 플로우 UI](assets/new-flow.png)
 
 ## 사용
@@ -204,8 +202,8 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

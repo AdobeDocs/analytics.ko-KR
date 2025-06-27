@@ -1,26 +1,26 @@
 ---
-description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, 열 서식 일부는 조건부일 수 있습니다.
+description: 열 설정을 편집하여 열 서식을 구성하는 방법에 대해 알아봅니다. 열 서식 일부는 조건부일 수 있습니다.
 title: 열 설정
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '865'
+ht-degree: 98%
 
 ---
 
 
-# [!UICONTROL 열 설정]
+# 열 설정
 
 [!UICONTROL 열 설정]을 사용하면 열 서식을 구성할 수 있으며, 열 서식 일부는 조건부일 수 있습니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/328503/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +130,7 @@ Analysis Workspace에서 지표에 대해 비기본 속성 모델을 사용하�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 열](https://video.tv.adobe.com/v/33022?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 열](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

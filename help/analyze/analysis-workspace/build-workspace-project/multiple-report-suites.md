@@ -1,13 +1,13 @@
 ---
 title: 여러 보고서 세트
-description: 여러 보고서 세트를 사용하여 작업 영역에서 프로젝트를 만드는 방법 및 이유 알아보기
+description: 하나의 Analysis Workspace 프로젝트에서 여러 보고서 세트로 작업하는 방법을 알아봅니다.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 75%
+ht-degree: 71%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 75%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [여러 보고서 세트](https://video.tv.adobe.com/v/37038?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [여러 보고서 세트](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

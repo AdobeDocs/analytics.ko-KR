@@ -4,8 +4,8 @@ title: 주요 지표 요약
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 100%
 
@@ -13,14 +13,10 @@ ht-degree: 100%
 
 # 주요 지표 요약 {#key-metric-summary}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_keymetricsummary_button"
 >title="주요 지표 요약"
 >abstract="선, 요약 변경 및 요약 숫자 차트의 조합으로 구성된 시각화를 만듭니다. 이 시각화를 사용하여 두 기간 간에 지표가 얼마나 중요한 트렌드인지 비교합니다."
-
-<!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
@@ -131,6 +127,6 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 

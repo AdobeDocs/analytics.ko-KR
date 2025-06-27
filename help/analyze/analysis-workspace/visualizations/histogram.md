@@ -1,32 +1,28 @@
 ---
-description: 히스토그램은 Analysis Workspace의 새로운 시각화 유형입니다.
+description: 막대 그래프와 유사하지만 숫자를 범위(버킷)로 그룹화하는 히스토그램을 사용하는 방법에 대해 알아봅니다.
 title: 히스토그램
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 94%
+source-wordcount: '346'
+ht-degree: 89%
 
 ---
 
 # 히스토그램 {#histogram}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_histogram_button"
 >title="히스토그램"
 >abstract="범위 그룹의 숫자 데이터 분포를 나타내는 히스토그램 시각화를 만듭니다."
 
-<!-- markdownlint-enable MD034 -->
-
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 히스토그램 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [히스토그램](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/histogram)을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 히스토그램 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [히스토그램](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/histogram)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -73,7 +69,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->[히스토그램을 사용하여 예상치 못한 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=ko)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[히스토그램을 사용하여 예상치 못한 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 

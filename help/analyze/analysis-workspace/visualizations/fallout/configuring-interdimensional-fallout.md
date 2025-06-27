@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace의 폴아웃을 사용하면 단계 및 워크플로의 터치포인트로서 차원과 지표를 짜 맞출 수 있습니다. 따라서 조사할 사용자 단계를 더욱 유연하게 정의할 수 있습니다.
-title: 다차원 폴아웃
+description: Analysis Workspace의 폴아웃 시각화를 통해 단계 및 워크플로의 터치포인트로 차원과 지표를 혼합하고 일치시키는 방법에 대해 알아봅니다. 조사할 사용자 단계를 보다 유연하게 정의하는 방법을 이해합니다.
+title: 차원 간 폴아웃
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 21%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 21%
 
 Analysis Workspace의 폴아웃을 사용하면 단계 및 워크플로의 터치포인트로 차원과 지표를 혼합하고 일치시킬 수 있습니다. 폴아웃을 사용하면 조사할 사용자 단계를 보다 유연하게 정의할 수 있습니다.
 
+예를 들어 페이지 차원 외에도 다른 차원 항목(예: 장치 이름 차원의 특정 장치 이름)을 폴아웃 시각화에 추가할 수 있습니다. 차원을 결합하면 페이지와 특정 작업이 고객의 경로에서 어떻게 상호 작용하는지를 시각화할 수 있습니다.
+
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [다차원 폴아웃](https://video.tv.adobe.com/v/30892?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [다차원 폴아웃](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

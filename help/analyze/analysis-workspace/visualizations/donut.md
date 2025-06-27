@@ -1,13 +1,13 @@
 ---
-description: Workspace 프로젝트에서 도넛 시각화를 사용합니다.
+description: 도넛 시각화를 사용하여 데이터를 전체의 일부 또는 세그먼트로 표시하는 방법에 대해 알아봅니다.
 title: 도넛
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 86%
 
 ---
 
@@ -37,7 +37,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [도넛 시각화 추가](https://video.tv.adobe.com/v/3416626/?quality=12&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [도넛 시각화 추가](https://video.tv.adobe.com/v/334309/?quality=12){target=&#34;_blank&#34;}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

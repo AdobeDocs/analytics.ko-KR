@@ -1,13 +1,13 @@
 ---
-description: Workspace에서 폴더 및 하위 폴더를 만드는 방법에 대해 알아보기
+description: Analysis Workspace에서 폴더 및 하위 폴더를 만드는 방법에 대해 알아봅니다.
 keywords: Analysis Workspace
 title: 폴더 만들기
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '115'
+ht-degree: 81%
 
 ---
 
@@ -27,11 +27,11 @@ Workspace 랜딩 페이지의 프로젝트 및 폴더 목록에 새 폴더 또�
 
 1. **[!UICONTROL 새 폴더 만들기]** 대화 상자에서 새 폴더의 이름을 입력합니다. 예: `Second Week Reports`.
 
-1. **[!UICONTROL 태그]** 드롭다운에서 태그를 선택하거나 새로운 태그를 입력합니다.
+1. **[!UICONTROL 태그]** 드롭다운 메뉴에서 태그를 선택하거나 새 태그를 입력하십시오.
 
    ![Create new folder](../assets/create-new-folder.png)
 
-1. **만들기**&#x200B;를 클릭합니다.
+1. **만들기**를 클릭합니다.
 새 폴더가 현재 폴더에 추가됩니다.
 
 <!--

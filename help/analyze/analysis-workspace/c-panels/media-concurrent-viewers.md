@@ -1,13 +1,13 @@
 ---
 title: 미디어 동시 뷰어 패널
-description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용하고 해석하는 방법.
+description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용하고 해석하는 방법을 알아봅니다.
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 100%
+source-wordcount: '1239'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/342839?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342839/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

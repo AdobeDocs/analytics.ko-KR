@@ -1,14 +1,14 @@
 ---
-description: 벤 시각화를 사용하여 최대 3개의 세그먼트(구성 요소)와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
+description: 벤 시각화를 사용하여 최대 3개의 세그먼트와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
 title: 벤
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 89%
 
 ---
 
@@ -48,7 +48,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [벤 시각화](https://video.tv.adobe.com/v/3416884/?quality=12&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [벤 시각화](https://video.tv.adobe.com/v/335798/?quality=12){target=&#34;_blank&#34;}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

@@ -1,17 +1,17 @@
 ---
-title: 산포도
-description: 최대 3개의 지표 간 관계를 보여 주는 시각화입니다.
+title: 분산
+description: 분산형 시각화를 사용하여 최대 3개의 지표 간 관계를 표시합니다.
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 92%
 
 ---
 
-# 산포도 {#scatter}
+# 분산 {#scatter}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -43,7 +43,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://video.tv.adobe.com/v/3416862/?quality=12&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://video.tv.adobe.com/v/334459/?quality=12){target=&#34;_blank&#34;}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -51,6 +51,6 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

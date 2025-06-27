@@ -1,14 +1,14 @@
 ---
-description: Workspace 프로젝트에서 맵 시각화를 사용합니다.
+description: 지도 시각화를 사용하여 지리 지도 시각화에 데이터를 플롯합니다
 title: 맵
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 맵 시각화](https://video.tv.adobe.com/v/30890/?quality=12&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 맵 시각화](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -119,8 +119,8 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 | 설정 | 설명 |
 |--- |--- |
 | **[!UICONTROL 맵 유형]** | |
-| [!UICONTROL 버블] | 버블을 사용하여 이벤트를 그립니다. 버블 차트는 산포도와 비례 영역 차트의 중간에 있는 다중 변수 그래프입니다. 이 보기가 기본값입니다. |
-| 열 지도 | 히트맵을 사용하여 이벤트를 그립니다. 히트맵은 표에 포함된 개별 값이 색상으로 표현되는 데이터 그래픽 표현입니다. |
+| **[!UICONTROL 버블] | 버블을 사용하여 이벤트를 그립니다. 버블 차트는 산포도와 비례 영역 차트의 중간에 있는 다중 변수 그래프입니다. 이 보기가 기본값입니다. |
+| [!UICONTROL 히트맵] | 히트맵을 사용하여 이벤트를 그립니다. 히트맵은 표에 포함된 개별 값이 색상으로 표현되는 데이터 그래픽 표현입니다. |
 | **[!UICONTROL 스타일]** | |
 | [!UICONTROL 색상 테마] | 히트맵 및 버블의 색상 구성표를 보여 줍니다. 코랄, 빨강, 녹색, 파랑 중에서 선택할 수 있습니다. 기본값은 코랄입니다. |
 | [!UICONTROL 맵 스타일] | 기본, 도로, 더 밝게, 밝게, 어둡게, 위성 중에서 선택할 수 있습니다. |
@@ -132,7 +132,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/35003/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

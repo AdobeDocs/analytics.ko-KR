@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 기본 보고서를 사용하는 방법에 대한 개요입니다.
-title: 보고서 사용
+description: Analysis Workspace에서 템플릿을 만들고 관리하는 방법을 알아봅니다.
+title: 템플릿 만들기 및 관리
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
-workflow-type: ht
-source-wordcount: '720'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
    | 필드 | 설명 |
    |---------|----------|
-   | **[!UICONTROL 이름]** | 템플릿에 대해 수사적 이름을 지정합니다. |
+   | **[!UICONTROL 이름]** | 템플릿에 대해 설명적인 이름을 지정합니다. |
    | **[!UICONTROL 설명]** | 템플릿의 용도를 설명하는 간단한 설명을 입력합니다. |
    | **[!UICONTROL 이 템플릿을 사용하는 이유]** | 이 템플릿을 어떻게 사용할 수 있는지 조직 내의 사람들에게 알리기 위해 간단한 설명을 입력합니다. 이 설명은 템플릿의 미리보기 페이지에 표시됩니다. |
    | **[!UICONTROL 사용 사례]** | 이 템플릿에 적용되는 사용 사례를 선택합니다. 여러 가지 사용 사례를 선택할 수 있습니다. **[!UICONTROL 참여]**, **[!UICONTROL 전환]**, **[!UICONTROL 대상자]**, **[!UICONTROL 확보]**. <p>선택한 항목에 따라 템플릿이 표시되는 위치와 조직 템플릿 페이지에서 템플릿에 액세스하는 사용자에게 적용되는 필터가 결정됩니다.</p> |
@@ -55,7 +55,7 @@ ht-degree: 100%
 
    1. **[!UICONTROL 미리보기]**&#x200B;를 선택합니다.
 
-   1. 더 보기 아이콘을 선택한 다음 **[!UICONTROL 편집]** 또는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+   1. 자세히 아이콘을 선택한 다음 **[!UICONTROL 편집]** 또는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
       ![템플릿 편집 또는 삭제](assets/company-template-edit-delete.png)
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
    | 필드 | 설명 |
    |---------|----------|
-   | **[!UICONTROL 이름]** | 템플릿에 대해 수사적 이름을 지정합니다. |
+   | **[!UICONTROL 이름]** | 템플릿에 대해 설명적인 이름을 지정합니다. |
    | **[!UICONTROL 설명]** | 템플릿의 용도를 설명하는 간단한 설명을 입력합니다. |
    | **[!UICONTROL 이 템플릿을 사용하는 이유]** | 이 템플릿을 어떻게 사용할 수 있는지 조직 내의 사람들에게 알리기 위해 간단한 설명을 입력합니다. 이 설명은 템플릿의 미리보기 페이지에 표시됩니다. |
    | **[!UICONTROL 사용 사례]** | 이 템플릿에 적용되는 사용 사례를 선택합니다. 여러 가지 사용 사례를 선택할 수 있습니다. **[!UICONTROL 참여]**, **[!UICONTROL 전환]**, **[!UICONTROL 대상자]**, **[!UICONTROL 확보]**. <p>선택한 항목에 따라 템플릿이 표시되는 위치와 조직 템플릿 페이지에서 템플릿에 액세스하는 사용자에게 적용되는 필터가 결정됩니다.</p> |

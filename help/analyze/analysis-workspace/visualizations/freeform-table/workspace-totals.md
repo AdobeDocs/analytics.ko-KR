@@ -1,17 +1,17 @@
 ---
-description: 작업 영역 합계를 계산하는 방법.
-title: 작업 영역 합계
+description: Analysis Workspace에서 자유 형식 테이블의 합계를 계산하는 방법을 알아봅니다.
+title: 총계
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: d9f95b12a43305cecff1190e6544334f3b48835d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '490'
 ht-degree: 81%
 
 ---
 
-# Workspace 합계 {#workspace-totals}
+# 총계 {#workspace-totals}
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
@@ -23,7 +23,7 @@ ht-degree: 81%
 ![총 합계와 테이블 합계를 강조 표시한 자유 형식 테이블.](assets/total-row.png)
 
 * **[!UICONTROL 테이블 합계]** ➊ - 이 합계는 일반적으로 [!UICONTROL 총계]와 같거나 그 하위 집합입니다. 합계는 [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다.
-* **[!UICONTROL 총계]**(**개 중**&#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 조건과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
+* **[!UICONTROL 총계]**(]**개 중**[!UICONTROL &#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 조건과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
 
 
 

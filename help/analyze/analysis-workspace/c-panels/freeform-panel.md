@@ -1,13 +1,13 @@
 ---
-description: 자유 형식 패널에 대해 알아봅니다
+description: 자유 형식 테이블과 함께 Analysis Workspace 프로젝트의 시작 상태로 자유 형식 패널을 사용하는 방법에 대해 알아봅니다.
 title: 자유 형식 패널
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 84%
 
 ---
 
@@ -36,6 +36,6 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 만들기](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Analytics 구성 요소 안내서](/help/components/home.md)
->[자유 형식 테이블 시각화](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Analytics 구성 요소 안내서](/help/components/home.md)
+>>[자유 형식 테이블 시각화](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

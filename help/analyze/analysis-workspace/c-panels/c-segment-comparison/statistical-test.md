@@ -1,14 +1,14 @@
 ---
-description: 위쪽의 각 비교 테이블에는 수행되는 비교에 따라 몇 가지 통계 테스트에 의해 계산되는 차이점 점수가 표시됩니다. 그렇지만 사용되는 테스트에 관계없이, 차이점 점수는 0과 1 사이의 값으로 표시됩니다.
+description: 세그먼트 비교에 통계 테스트를 사용하는 방법을 알아봅니다.
 keywords: Analysis Workspace;세그먼트 IQ
 title: 세그먼트 비교에 사용되는 통계 테스트
 feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '444'
+ht-degree: 95%
 
 ---
 

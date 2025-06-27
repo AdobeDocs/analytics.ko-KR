@@ -1,13 +1,13 @@
 ---
-description: 빠른 인사이트는 새로운 Workspace 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
+description: 빠른 인사이트 패널을 사용하여 Analysis Workspace에서 데이터 테이블 및 시각화 작성을 안내하는 방법을 이해합니다.
 title: 빠른 인사이트 패널
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ _이 문서에서는_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _
 * 어떤 차원 및 지표가 인사이트를 용이하게 하는지,
 * 항목을 끌어다 놓을 위치,
 * 필터를 만들 위치 등을
-* 궁금해 할 수 있습니다.
+* 등
 
 이러한 질문에 답변으로 [!UICONTROL 빠른 인사이트]는 가장 많이 사용되는 차원, 지표, 세그먼트 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 이 알고리즘은 [!UICONTROL Analysis Workspace]에서 귀사의 데이터 구성 요소 사용을 기반으로 합니다. 실제로 다음과 같이 드롭다운 목록에서 [!UICONTROL 인기]로 태그가 지정된 차원, 지표 및 세그먼트가 표시됩니다.
 
@@ -125,13 +125,13 @@ _이 문서에서는_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _
 
   ![Quick Insights 빌더 결과](assets/qibuilder-result.png)
 
-   * **[!UICONTROL 별로 분류된]** 차원 **[!UICONTROL 분석]**: 차원에서 최대 3개의 분류 수준을 사용하여 필요한 데이터로 드릴다운할 수 있습니다. 다음 항목을 참조하십시오.
+   * **[!UICONTROL 별로 분류된]** 차원 **[!UICONTROL 분석]**: 차원에서 최대 3개의 분류 수준을 사용하여 필요한 데이터로 드릴다운할 수 있습니다. ➊, ➋ 및 ➌을(를) 참조하십시오.
 
-   * 더 많은 지표 **[!UICONTROL 기준]** 추가: 최대 2개의 지표를 추가할 수 있습니다. 다음 항목을 참조하십시오.
+   * 더 많은 지표 **[!UICONTROL 기준]** 추가: 최대 2개의 지표를 추가할 수 있습니다. ➍ 및 ➎을(를) 참조하십시오.
 
-   * **[!UICONTROL 필터링 기준]**: 최대 2개의 세그먼트를 추가할 수 있습니다. 예를 들어 예약을 세그먼트로 추가하고, 해당 세그먼트를 자주 방문하는 예약자 세그먼트, 처음 여행하는 고객 세그먼트와 결합하여 비교합니다. 다음 항목을 참조하십시오.
+   * **[!UICONTROL 필터링 기준]**: 최대 2개의 세그먼트를 추가할 수 있습니다. 예를 들어 예약을 세그먼트로 추가하고, 해당 세그먼트를 자주 방문하는 예약자 세그먼트, 처음 여행하는 고객 세그먼트와 결합하여 비교합니다. ➏, ➐ 및 ➑을(를) 참조하십시오.
 
-   * 범위: 날짜 범위를 지정할 수 있습니다. 다음 항목을 참조하십시오.
+   * 범위: 날짜 범위를 지정할 수 있습니다. 자세한 내용은 ➒를 참조하십시오.
 
 ## 알려진 제한 사항
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326703/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

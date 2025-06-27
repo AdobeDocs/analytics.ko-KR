@@ -1,14 +1,14 @@
 ---
 title: 세그먼트 비교 패널 개요
-description: Analysis Workspace에서 세그먼트 IQ의 일부인 세그먼트 비교 패널을 사용하는 방법을 알아봅니다.
+description: Analysis Workspace에서 세그먼트 비교 패널을 사용하는 방법을 알아봅니다.
 keywords: Analysis Workspace;세그먼트 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '593'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/33251?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

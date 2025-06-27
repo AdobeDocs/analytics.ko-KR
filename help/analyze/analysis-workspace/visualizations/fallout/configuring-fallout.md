@@ -1,13 +1,13 @@
 ---
-description: 터치포인트를 지정하여 차원이 여러 개인 폴아웃 시퀀스를 만드십시오.
+description: 다차원 폴아웃 시퀀스를 만들기 위해 터치포인트를 구성하고 지정하는 방법을 알아봅니다.
 title: 폴아웃 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 97%
+source-wordcount: '713'
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 97%
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

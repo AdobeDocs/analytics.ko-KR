@@ -1,19 +1,19 @@
 ---
-title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교
-description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법입니다.
+title: 동적 및 정적 Dimension 항목
+description: Analysis Workspace의 자유 형식 테이블에서 동적 차원 항목과 정적 차원 항목을 사용하는 방법에 대해 알아봅니다.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
 # 동적 및 정적 차원 항목
 
-자유 형식 테이블의 행과 열에는 다양한 구성 요소 값이 포함될 수 있습니다. 이러한 값은 빌드할 분석에 따라 동적(시간에 따라 변경) 또는 정적(시간에 따라 변경되지 않음)일 수 있습니다.
+자유 형식 테이블에서 행과 열에는 다양한 구성 요소 값이 포함될 수 있습니다. 이러한 값은 빌드할 분석에 따라 동적(시간에 따라 변경) 또는 정적(시간에 따라 변경되지 않음)일 수 있습니다.
 
 ## 동적 차원 항목
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [정적 행 순서 바꾸기](https://video.tv.adobe.com/v/33274?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [정적 행 순서 바꾸기](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

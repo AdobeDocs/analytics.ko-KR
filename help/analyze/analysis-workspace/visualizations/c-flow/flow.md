@@ -1,14 +1,14 @@
 ---
-description: Workspace 프로젝트에서 플로우 시각화를 사용합니다.
+description: Analysis Workspace에서 플로우 시각화를 사용하는 방법에 대해 알아봅니다.
 title: 플로우 개요
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 95%
 
 ---
 
@@ -35,23 +35,24 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!ENDSHADEBOX]
 
-이 플로우 기능은 고객이 웹 사이트 및 앱을 통과하는 경로를 보여 줍니다.
+![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 플로우]** 시각화는 고객이 웹 사이트 및 앱을 통과하는 경로를 보여 줍니다.
 
-이 기능을 사용하면 다음 작업을 수행할 수 있습니다.
+시각화를 사용하면 다음 작업을 할 수 있습니다.
 
-* 웹 사이트나 애플리케이션 내의 고객 여정 시각화
-* 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치 분석
-* 선택한 경로에서 특정 지점을 지정하여 세그먼트 생성
+* 웹 사이트나 애플리케이션 내의 고객 여정 시각화.
+* 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치 분석.
+* 선택한 경로에서 특정 지점을 지정하여 세그먼트 생성.
+
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화](https://video.tv.adobe.com/v/3410744?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
-## 차원 간 플로우 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## 차원 간 플로우
 
 [차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 흐름은 홈 페이지에서 “남성” 페이지로 이동한 다음 “신발” 부문으로 이동할 수 있습니다.
 
@@ -67,7 +68,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화의 추가 기능](https://video.tv.adobe.com/v/30878?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화의 추가 기능](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

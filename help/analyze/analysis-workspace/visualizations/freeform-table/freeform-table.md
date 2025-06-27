@@ -1,17 +1,17 @@
 ---
-title: 자유 형식 테이블
-description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 분석하는 기반입니다.
+title: 자유 형식 테이블 개요
+description: Analysis Workspace에서 데이터 분석을 위한 기반인 자유 형식 테이블을 사용하는 방법에 대해 알아봅니다.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: bb3e8b030af78f0d7758b4cff41d66f20695e11e
-workflow-type: ht
-source-wordcount: '785'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
-# 자유 형식 테이블 {#freeform-table-overview}
+# 자유 형식 테이블 개요 {#freeform-table-overview}
 
 
 <!-- markdownlint-disable MD034 -->
@@ -59,7 +59,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 * 테이블의 데이터를 [필터링 및 정렬](filter-and-sort.md)할 수 있습니다.
 
-### 행
+### 다른 결과를 표시했던
 
 * [GraphBarVerticalAdd](../freeform-analysis-visualizations.md#visualize)를 사용하면 하나 이상의 행에서 빠르게 ![새로운 시각화 만들기](/help/assets/icons/GraphBarVerticalAdd.svg)를 할 수 있습니다.
 * 프로젝트의 [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)를 조정하여 더 많은 행을 단일 화면에 맞출 수 있습니다.
@@ -76,7 +76,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 ## 설정
 
-![설정](/help/assets/icons/Setting.svg) 을 선택하여 **[!UICONTROL 테이블 설정]**&#x200B;을 표시합니다. 다음과 같은 특정 시각화 [설정](../freeform-analysis-visualizations.md#settings) 을 사용할 수 있습니다.
+![설정](/help/assets/icons/Setting.svg)을 선택하여 **[!UICONTROL 테이블 설정]**&#x200B;을 표시합니다. 다음과 같은 특정 시각화 [설정](../freeform-analysis-visualizations.md#settings)을 사용할 수 있습니다.
 
 ### 데이터 소스
 
@@ -115,19 +115,19 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블 빌더 개요](https://video.tv.adobe.com/v/33275?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블 빌더 개요](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블 필터](https://video.tv.adobe.com/v/30883?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블 필터](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블 합계](https://video.tv.adobe.com/v/32734?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블 합계](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -135,8 +135,8 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 
