@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -28,6 +28,7 @@ ht-degree: 98%
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + 프로젝트 {#build-workspace-project}
       + [개요](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [프로젝트 빠른 시작](analysis-workspace/build-workspace-project/starter-projects.md)
       + [프로젝트 만들기](analysis-workspace/build-workspace-project/create-projects.md)
       + [프로젝트 열기](analysis-workspace/build-workspace-project/open-projects.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
@@ -37,7 +38,6 @@ ht-degree: 98%
          + [폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [프로젝트 추가 또는 이동](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + [여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [단축키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
@@ -131,14 +131,14 @@ ht-degree: 98%
          + [개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [사용된 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 프로젝트 구성, 공유 및 예약 {#curate-share}
+   + 프로젝트 선별 및 공유 {#curate-share}
       + [개요](analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](analysis-workspace/curate-share/shareable-links.md)
       + [읽기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
-      + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
-      + [프로젝트 예약](analysis-workspace/curate-share/t-schedule-report.md)
+      + [프로젝트 다운로드](analysis-workspace/curate-share/download-send.md)
+      + [프로젝트 보내기 및 예약](analysis-workspace/curate-share/t-schedule-report.md)
    + 속성 {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
       + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)

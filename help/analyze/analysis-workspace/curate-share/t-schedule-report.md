@@ -1,20 +1,20 @@
 ---
-description: 이메일을 사용하여 Analysis Workspace 프로젝트를 보내거나 게재할 일정을 예약합니다.
+description: Analysis Workspace 프로젝트를 직접 또는 이메일 게재 일정에 따라 보내는 방법을 알아봅니다.
 keywords: Analysis Workspace
-title: 프로젝트 예약
+title: 프로젝트 보내기 및 예약
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 32%
+source-wordcount: '491'
+ht-degree: 28%
 
 ---
 
-# 다른 사람에게 필터 보내기
+# 전송 및 예약
 
-Adobe Analytics 보고서를 선택한 사용자에게 이메일로 전송할 수 있습니다. 파일을 애드혹으로 보낼 수도 있고, 일정에 따라 파일을 보내도록 구성할 수도 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
+Adobe Analytics 프로젝트를 선택한 사용자에게 이메일로 파일로 보낼 수 있습니다. 파일을 애드혹으로 보낼 수도 있고, 일정에 따라 파일을 보내도록 구성할 수도 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
 
 프로젝트에 적용된 모든 태그는 자동으로 내보내기에 적용됩니다.
 
@@ -24,7 +24,7 @@ Adobe Analytics 보고서를 선택한 사용자에게 이메일로 전송할 �
 
 ## 파일 보내기
 
-전자 메일로 수신자에게 파일을 보내려면 다음과 같이 하십시오.
+파일을 임시로 수신자에게 전자 메일로 보내려면 다음을 수행합니다.
 
 1. **[!UICONTROL 공유] > [!UICONTROL 파일 보내기]**&#x200B;를 선택합니다.
 1. 파일 유형을 지정합니다.
