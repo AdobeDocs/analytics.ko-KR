@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -172,8 +172,8 @@ ht-degree: 98%
    + [세그먼트를 사용한 작업](report-builder/work-with-segments.md)
    + [차원 필터링](report-builder/filter-dimensions.md)
    + [데이터 블록 관리](report-builder/manage-reportbuilder.md)
-   + [이메일용 일정 워크북](report-builder/schedule-reportbuilder.md)
-   + [클라우드 내보내기용 일정 워크북](/help/analyze/report-builder/report-builder-export.md)
+   + [이메일용 통합 문서 예약](report-builder/schedule-reportbuilder.md)
+   + [클라우드 내보내기용 통합 문서 예약](/help/analyze/report-builder/report-builder-export.md)
    + [예약된 통합 문서 관리](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [제한된 레이블](report-builder/restricted-labels.md)
    + [Report Builder 설정](report-builder/report-builder-settings.md)

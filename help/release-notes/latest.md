@@ -6,13 +6,13 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2025년 6월 릴리스)
 
-**마지막 업데이트**: 2025년 6월 24일 수요일
+**마지막 업데이트**: 2025년 6월 24일
 
 이번 릴리스 정보에는 2025년 6월 18일부터 7월 15일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,11 +20,11 @@ ht-degree: 92%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **새 Report Builder에서 보안 클라우드 대상 지원** | Javascript Report Builder 추가 기능은 이제 다음 클라우드 스토리지 대상으로 보고서 내보내기를 지원합니다.<ul><li>Amazon S3 Role ARN</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>이전에는 FTP 및 이메일 대상만 사용할 수 있었습니다. 보안 문제로 인해 FTP는 더 이상 지원되지 않습니다.</p><p>자세한 내용은 [일정 통합 문서를 클라우드 대상으로 내보내기하는 방법](/help/analyze/report-builder/report-builder-export.md)을 참조하시기 바랍니다.</p><p>이러한 변경 사항 외에 Adobe Analytics에서 위치를 만들 때 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 [사용 방법] 필드에서 Report Builder에 위치를 사용할 수 있는 옵션을 제공합니다.</p> |  | 2025년 6월 19일 (원래는 6월 18일) |
-| **새로운 미리보기 경험** | 세그먼트 만들기 또는 데이터 보기의 설정 구성 시에 사용되는 미리 보기 패널이 이제 도넛 시각화 대신 가로 막대 시각화를 사용합니다. |  | 2025년 6월 18일 |
+| **새로운 Report Builder에서 보안 클라우드 대상 지원** | 이제 JavaScript Report Builder 추가 기능이 다음과 같은 클라우드 스토리지 대상으로 보고서를 내보내는 기능을 지원합니다.<ul><li>Amazon S3 Role ARN</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>이전에는 FTP와 이메일 대상만 가능했습니다. 보안 관련 문제로 인해 FTP는 더 이상 지원되지 않습니다.</p><p>자세한 내용은 [클라우드 대상으로 내보내기를 통해 통합 문서 예약하기](/help/analyze/report-builder/report-builder-export.md)를 참조하십시오.</p><p>이러한 변경 사항 외에도 Adobe Analytics에서 위치를 생성할 때 이제 사용 필드는 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 Report Builder와 함께 위치를 사용할 수 있는 옵션을 제공합니다.</p> |  | 2025년 6월 19일 (원래는 6월 18일) |
+| **새로운 미리보기 경험** | 세그먼트 만들기 또는 데이터 보기의 설정 구성 시에 사용되는 미리보기 패널이 이제 도넛 시각화 대신 가로 막대 시각화를 사용합니다. |  | 2025년 6월 18일 |
 | **수정된 속성 모델 대화 상자** | 이제 속성 모델 대화 상자에서 컨테이너와 기간을 별도로 정의할 수 있습니다. |  | 2025년 6월 18일 |
 | **고객 속성 UI에 대한 탐색이 업데이트되었습니다.** | 이제 Adobe Experience Cloud의 앱 선택기에서 고객 속성 사용자 인터페이스에 바로 액세스할 수 있습니다. |  | TBD |
-| **스트리밍 미디어: 일정 데이터 지원** | 이제 과거 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청자 수를 보다 쉽고 정확하게 추적할 수 있습니다. 다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.<ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다. 이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.<p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다. 자세히 알아보기 |  | 2025년 8월 15일(원래 2025년 6월 25일) |
+| **스트리밍 미디어: 일정 데이터 지원** | 이제 과거 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청자 수를 보다 쉽고 정확하게 추적할 수 있습니다. 다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.<ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다. 이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.<p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다. 자세히 알아보기 |  | 2025년 8월 15일 (원래는 2025년 6월 25일) |
 
 ## Adobe Analytics의 수정 사항
 
@@ -65,6 +65,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
