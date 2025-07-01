@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 97%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 97%
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -131,14 +131,14 @@ ht-degree: 97%
          + [개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [사용된 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 프로젝트 선별 및 공유 {#curate-share}
+   + 선별 및 공유 {#curate-share}
       + [개요](analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
-      + [공유 가능한 링크 만들기](analysis-workspace/curate-share/shareable-links.md)
+      + [공유 가능한 링크](analysis-workspace/curate-share/shareable-links.md)
       + [읽기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
-      + [프로젝트 다운로드](analysis-workspace/curate-share/download-send.md)
-      + [프로젝트 보내기 및 예약](analysis-workspace/curate-share/t-schedule-report.md)
+      + [다운로드](analysis-workspace/curate-share/download-send.md)
+      + [전송 및 예약](analysis-workspace/curate-share/t-schedule-report.md)
    + 속성 {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
       + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)

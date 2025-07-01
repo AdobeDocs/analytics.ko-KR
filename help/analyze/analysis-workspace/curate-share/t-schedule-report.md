@@ -5,14 +5,14 @@ title: 프로젝트 보내기 및 예약
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 28%
 
 ---
 
-# 전송 및 예약
+# 프로젝트 보내기 및 예약
 
 Adobe Analytics 프로젝트를 선택한 사용자에게 이메일로 파일로 보낼 수 있습니다. 파일을 애드혹으로 보낼 수도 있고, 일정에 따라 파일을 보내도록 구성할 수도 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
 
