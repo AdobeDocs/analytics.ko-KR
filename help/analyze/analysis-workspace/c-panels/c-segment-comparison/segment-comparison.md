@@ -5,10 +5,10 @@ keywords: Analysis Workspace;세그먼트 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '584'
+ht-degree: 64%
 
 ---
 
@@ -28,21 +28,21 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="세그먼트 비교 패널"
->abstract="모든 데이터 포인트에서 두 세그먼트를 빠르게 비교하여 관련 차이점을 자동으로 찾습니다.<br/><br/>**매개변수&#x200B;**<br/>**세그먼트 추가**: 분석하려는 첫 번째 세그먼트입니다.<br/>**비교 대상**: 비교하려는 두 번째 세그먼트입니다. 이렇게 하면 첫 번째 세그먼트의 반대인 *다른 모든 사용자*&#x200B;가 자동으로 채워집니다. 원하는 경우 다른 세그먼트로 대체할 수 있습니다.<br/>**고급 설정**: 세그먼트 비교에서 구성 요소를 분석으로부터 제외할 수 있는 기능입니다."
+>abstract="모든 데이터 포인트에서 두 세그먼트를 빠르게 비교하여 관련 차이점을 자동으로 찾습니다.<br/><br/>**매개 변수&#x200B;**<br/>**세그먼트 추가**: 분석할 첫 번째 세그먼트입니다.<br/>**비교 대상**: 비교할 두 번째 세그먼트로서, *기타 사용자*(첫 번째 세그먼트의 역순)으로 자동으로 채워집니다. 원하는 경우 *기타 사용자*&#x200B;를 다른 세그먼트로 바꿀 수 있습니다.<br/>**고급 설정**: 세그먼트 비교에서 구성 요소를 분석으로부터 제외할 수 있는 기능입니다."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 세그먼트 비교 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에는 동등한 패널이 없습니다._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 세그먼트 비교 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에는 동등한 패널이 없습니다._
 
 >[!ENDSHADEBOX]
 
-세그먼트 비교 패널은 세그먼트들(개수 제한 없음) 간의 통계적으로 가장 중요한 차이를 알아내는 [세그먼트 IQ](../../segment-iq.md)의 도구 부분입니다. 이 기능은 액세스 권한이 있는 모든 차원 및 지표에 대한 자동화된 분석을 반복합니다. 또한 회사 KPI를 구동하는 대상자 세그먼트의 주요 특성을 자동으로 파악하고 세그먼트들이 얼마나 많이 겹치는지도 확인할 수 있도록 합니다.
+세그먼트 비교 패널은 세그먼트들(개수 제한 없음) 간의 통계적으로 가장 중요한 차이를 알아냅니다. 이 기능은 액세스 권한이 있는 모든 차원 및 지표에 대한 자동화된 분석을 반복합니다. 회사 KPI를 구동하는 대상 세그먼트의 주요 특성을 자동으로 파악하고 세그먼트들이 얼마나 많이 겹치는지 확인할 수 있도록 합니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/33251?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -77,15 +77,15 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ### 패널 출력
 
-Adobe Analytics에서 원하는 두 세그먼트에 대한 분석을 완료하면 몇 가지 시각화를 통해 출력 패널이 표시됩니다.
+Adobe Analytics에서 원하는 두 세그먼트에 대한 분석을 완료하면 출력 패널에 몇 가지 시각화가 표시됩니다.
 
 ![패널 출력 세그먼트 비교](assets/segment-comparison-output.png)
 
 | 시각화 | 설명 |
 |---|---|
 | **[!UICONTROL 크기 및 겹치기]** | 선택된 각 세그먼트의 상대적 크기와 서로 겹치는 정도를 [벤](/help/analyze/analysis-workspace/visualizations/venn.md) 시각화를 사용하여 나타냅니다. |
-| **[!UICONTROL 첫 번째 세그먼트의 고유 방문자]** | 첫 번째 세그먼트(예시: 단일 페이지 방문 횟수)의 고유 방문자를 보여 주는 [요약 숫자](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화 |
-| **[!UICONTROL 두 번째 세그먼트의 고유 방문자]** | 첫 번째 세그먼트(예시: 최초 방문)의 고유 방문자를 보여 주는 [요약 숫자](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화 |
+| **[!UICONTROL 첫 번째 세그먼트의 고유 방문자]** | 첫 번째 세그먼트(단일 페이지 방문 횟수 예에서)에 대한 고유 방문자를 보여주는 [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화 |
+| **[!UICONTROL 두 번째 세그먼트의 고유 방문자]** | 두 번째 세그먼트(첫 번째 방문 예에서)에 대한 고유 방문자를 보여주는 [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화 |
 | **[!UICONTROL 세그먼트에 대한 상위 지표]** | 선택한 세그먼트에 대한 주요 지표를 보여 주는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | **[!UICONTROL 세그먼트별 시간 경과에 따른 지표]** | 선택된 세그먼트에 대한 시간 경과 지표를 보여 주는 [라인](/help/analyze/analysis-workspace/visualizations/line.md) 시각화. |
 | **[!UICONTROL 세그먼트에 대한 상위 차원 항목]** | 선택된 세그먼트에 대한 혼합 차원 항목을 보여 주는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |

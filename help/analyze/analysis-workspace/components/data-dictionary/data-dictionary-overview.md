@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspace의 데이터 사전을 사용하면 Analysis Workspace에서 의도한 사용, 승인된 사용, 중복 등을 포함하여 다양한 구성 요소를 카탈로그화하고 추적할 수 있습니다.
+description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승인, 중복 등의 Analysis Workspace의 다양한 구성 요소를 분류하고 추적할 수 있습니다.
 title: 데이터 사전 개요
 feature: Components
 role: User, Admin
@@ -7,7 +7,7 @@ exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="데이터 사전"
->abstract="데이터 사전은 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있도록 도와줍니다. <br/>Analytics 관리자는 데이터 사전에 있는 각 구성 요소에 대한 정보를 선별할 책임이 있습니다."
+>abstract="데이터 사전은 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 계속 파악하고 더 잘 이해할 수 있도록 도와줍니다. <br/>Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를 구성해야 합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace용 데이터 사전](https://video.tv.adobe.com/v/3422284/?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 데이터 사전](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -43,13 +43,13 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 데이터 사전에서 확인할 수 있는 정보는 다음과 같습니다.
 
-* 구성 요소의 기능 및 의도된 용도.
+* 구성 요소의 기능 및 용도.
 
-* 일반적으로 보고 있는 구성 요소와 함께 사용되는 구성 요소입니다.
+* 현재 보고 있는 구성 요소와 함께 일반적으로 사용되는 구성 요소.
 
-* 보고 있는 구성 요소와 유사한 구성 요소입니다.
+* 보고 있는 구성 요소와 유사한 구성 요소.
 
-* 시스템 관리자가 구성 요소를 승인하는지 여부.
+* 시스템 관리자가 구성 요소를 승인했는지 여부.
 
 데이터 사전에 액세스하는 방법과 여기에 포함된 정보에 대한 자세한 내용은 [데이터 사전의 구성 요소 정보 보기](view-data-dictionary.md)를 참조하십시오.
 
@@ -57,7 +57,7 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 시스템 관리자는 데이터 사전을 사용하여 분석 환경에서 구성 요소를 추적하고 선별할 수 있습니다.
 
-Analytics 관리자는 다음 용도로 데이터 사전을 사용할 수 있습니다.
+Analytics 관리자는 다음과 같은 목적으로 데이터 사전을 사용할 수 있습니다.
 
 * 통합해야 하는 중복 구성 요소를 식별합니다.
 
@@ -88,7 +88,7 @@ Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액
 
 ## 데이터 사전 업데이트 및 구성
 
-[데이터 사전 상태 모니터링](monitor-data-dictionary-health.md)에 설명된 대로 Adobe Analytics 관리자는 조직의 건강한 데이터 사전을 유지 관리할 책임이 있습니다.
+Adobe Analytics 관리자는 [데이터 사전 상태 모니터링](monitor-data-dictionary-health.md)에 설명된 대로 조직의 정상적인 데이터 사전의 유지 관리를 담당합니다.
 
 이 프로세스의 일부로 Adobe Analytics 관리자는 [데이터 사전의 구성 요소 항목 편집](edit-entries-data-dictionary.md)에 설명된 대로 데이터 사전의 각 구성 요소에 대한 정보를 편집할 수 있습니다.
 
@@ -121,7 +121,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3422284?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
