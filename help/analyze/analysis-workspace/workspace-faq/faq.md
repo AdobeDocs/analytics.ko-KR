@@ -45,7 +45,7 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 
 +++데이터를 Analysis Workspace 프로젝트에 포함시키려면 어떻게 해야 합니까?
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace로의 데이터](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace로의 데이터](https://video.tv.adobe.com/v/33282?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
 
 +++
 

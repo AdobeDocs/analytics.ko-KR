@@ -18,7 +18,7 @@ Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [예외 항목 탐지](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [예외 항목 탐지](https://video.tv.adobe.com/v/31297?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ Analysis Workspace의 예외 항목 탐지 알고리즘에 포함된 기능은 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [기여도 분석](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [기여도 분석](https://video.tv.adobe.com/v/30865?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
