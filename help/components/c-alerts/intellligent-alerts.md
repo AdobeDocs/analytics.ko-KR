@@ -1,12 +1,12 @@
 ---
-description: 경고는 알림을 세밀하게 제어하고 예외 항목 탐지와 통합할 수 있게 해 줍니다.
+description: 알림을 세부적으로 제어하고 예외 항목 탐지와 통합할 수 있도록 경고를 사용하는 방법을 이해합니다.
 title: 경고 개요
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Analytics 패키지를 기반으로 예외 항목 임계값에 따라 경�
 * 하나의 경고에서 여러 지표를 캡처하는 “스택” 경고를 생성합니다.
 * 예외 항목(90%, 95%, 99%, 99.75%, 99.9% 임계값, % 변경, 위/아래)를 기반으로 경고를 구축합니다(Select, Prime 또는 Ultimate 패키지가 있는 Adobe Analytics 고객만 사용 가능).
 
-다음 비디오 튜토리얼에서 경고 대한 기본 개요를 제공합니다. [경고](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=ko)&#x200B;(5:34)
+다음 비디오 튜토리얼에서 경고 대한 기본 개요를 제공합니다. [경고](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html)&#x200B;(5:34)
 
 ## 경고 예외 항목 살펴보기
 

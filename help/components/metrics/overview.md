@@ -3,10 +3,10 @@ title: 지표 개요
 description: 시간에 따른 차원 항목 또는 데이터의 수량을 봅니다.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 89%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 100%
 
 지표를 사용하면 사이트에서 페이지 조회수가 가장 큰 페이지를 확인하는 것처럼 차원 항목을 수량화할 수 있습니다. 방문자가 매일 사이트에서 몇 개의 주문을 하는지 확인하는 등 시간에 따른 지표의 트렌드를 표시할 수도 있습니다. 기본 보고서는 숫자 값 (지표) 열에 대해 문자열 값 (차원) 행을 보여 줍니다.
 
-예를 들어 &#39;페이지&#39; 차원을 &#39;방문 횟수&#39; 지표와 결합하면 방문 횟수가 가장 많은 페이지를 보여 주는 등급 보고서가 만들어집니다.
+예를 들어 **[!UICONTROL 페이지]** 차원을 **[!UICONTROL 방문]** 지표와 결합하면 방문 횟수가 가장 많은 페이지를 보여주는 등급 보고서가 만들어집니다.
 
-| `Page` | `Visits` |
-| --- | --- |
-| `Home page` | `800` |
-| `Product page` | `500` |
-| `Purchase page` | `100` |
+| 페이지 | 방문 횟수 |
+| --- | ---: |
+| 홈 페이지 | 800 |
+| 제품 페이지 | 500 |
+| 구매 페이지 | 100 |
+
+{style="table-layout:fixed"}
 
 주어진 지표의 도움말 페이지를 찾을 수 없다면 그것은 [사용자 정의 이벤트](custom-events.md)나 [계산된 지표](../c-calcmetrics/cm-overview.md)일 수 있습니다.
 

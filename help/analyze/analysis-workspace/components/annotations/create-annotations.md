@@ -1,13 +1,13 @@
 ---
 title: 주석 만들기
-description: Workspace에서 주석을 만드는 방법
+description: Analysis Workspace에서 주석을 만드는 방법
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 94%
+source-wordcount: '861'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 기본적으로 관리자만 주석을 만들 수 있습니다. 사용자는 다른 구성 요소(예: 세그먼트, 계산된 지표 등) 조회 방식과 마찬가지로 주석을 볼 수 있는 권한이 있습니다.
 
 
-단, 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko)을 통해 사용자에게 [!UICONTROL 주석 만들기] 권한(Analytics 도구)을 부여할 수 있습니다.
+단, 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)을 통해 사용자에게 [!UICONTROL 주석 만들기] 권한(Analytics 도구)을 부여할 수 있습니다.
 
 다음과 같은 방식으로 주석을 만들 수 있습니다.
 

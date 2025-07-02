@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
+description: Analysis Workspace에서 날짜 범위를 포함하는 열을 가져오고 일반적인 날짜 비교를 만들 수 있는 날짜 비교를 사용하는 방법에 대해 알아봅니다.
 title: 날짜 비교
 feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 35%
 
 ---
 
@@ -15,38 +15,26 @@ ht-degree: 100%
 
 Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 
+## 기간 비교
 
->[!BEGINSHADEBOX]
+분석하려면 컨텍스트가 필요하며, 해당 컨텍스트를 이전 기간에서 제공하는 경우가 종종 있습니다. 예를 들어, *질문은 작년 이맘때와 비교하여 현재 얼마나 좋아졌거나 나빠졌습니까?*&#x200B;은(는) 비즈니스를 이해하는 데 기본적입니다. 날짜 비교에 *difference* 열이 자동으로 포함되어 있으며, 지정된 기간과 비교한 백분율 변경을 표시합니다.
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [날짜 비교](https://video.tv.adobe.com/v/33285?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+1. 일정 기간 동안 비교할 차원 및 지표를 사용하여 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)을 만듭니다.
+1. 테이블 행에 대한 컨텍스트 메뉴를 열고 **[!UICONTROL 기간 비교]**&#x200B;를 선택합니다.
 
->[!ENDSHADEBOX]
-
-
-
-## 기간 비교 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
-
->[!NOTE]
->[!UICONTROL 기간 비교]는 고급 계산된 지표를 활용합니다. 따라서 Analytics Select, Prime 및 Ultimate SKU가 있는 고객만 사용할 수 있습니다.
-
-분석하려면 컨텍스트가 필요하며, 해당 컨텍스트를 이전 기간에서 제공하는 경우가 종종 있습니다. 예를 들어 “작년 이맘때보다 얼마나 좋아질까요/나빠질까요?”라는 질문은 비즈니스를 이해하는 데 기본적인 질문입니다. 날짜 비교에 &quot;차이점&quot; 열이 자동으로 포함되는데, 이 열은 지정된 기간과 비교한 백분율 변경을 표시합니다.
-
-1. 기간을 비교할 차원 및 지표를 사용하여 자유 형식 테이블을 만듭니다.
-1. 테이블 행을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 기간 비교]**&#x200B;를 선택합니다.
-
-   ![](assets/compare-time.png)
+   ![기간 비교가 선택된 테이블 행](assets/compare-time.png)
 
    >[!NOTE]
    >
-   >이 마우스 오른쪽 버튼 클릭 선택 사항은 지표 행, 날짜 범위 행 및 시간 차원 행에 대해 비활성화됩니다.
+   >이 컨텍스트 메뉴 옵션은 지표 행, 날짜 범위 행 및 시간 차원 행에 대해 비활성화됩니다.
 
 1. 테이블의 날짜 범위를 설정한 방법에 따라 비교에 대한 다음 옵션이 제공됩니다.
 
    | 옵션 | 설명 |
    |---|---|
-   | **[!UICONTROL 이 날짜 범위에 대한 이전 주/달/분기/년]** | 이 날짜 범위로부터 주/달 전 등을 비교합니다. |
-   | **[!UICONTROL 이 날짜 범위에 대한 이번 주/달/분기/년 작년]** | 1년 전의 같은 날짜 범위와 비교합니다. |
-   | **[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]** | 사용자 정의 날짜 범위를 선택할 수 있습니다. |
+   | **[!UICONTROL 이 날짜 범위까지 이전 *x*주/월/분기/년]** | 이 날짜 범위 바로 이전에 선택한 날짜 범위와 비교합니다. |
+   | **[!UICONTROL 이 날짜 범위까지의 지난 해 x주/월/분기/년]** | 1년 전의 같은 날짜 범위와 비교합니다. |
+   | **[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]** | 사용자 지정 날짜 범위를 정의할 수 있습니다. |
 
    >[!NOTE]
    >
@@ -54,19 +42,13 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 1. 결과 비교 모양은 다음과 같습니다.
 
-   ![](assets/compare-time-result.png)
+   ![날짜 범위와 변경 비율을 비교하는 자유 형식 테이블](assets/compare-time-result.png)
 
-   [퍼센트 변경] 열의 행은 음수 값인 경우 빨간색으로 표시되고 양수 값인 경우 녹색으로 표시됩니다.
+   백분율 변경 열의 행은 음수 값의 경우 빨간색으로 표시되고 양수 값의 경우 녹색으로 표시됩니다.
 
-1. (선택 사항) 다른 작업 영역 프로젝트에서와 마찬가지로 이러한 시간 비교에 기반을 두고 시각화를 만들 수 있습니다. 예를 들어 다음은 막대 그래프입니다.
+## 비교할 기간 열 추가
 
-   ![](assets/compare-time-barchart.png)
-
-   막대 차트에 백분율 변경을 표시하려면 [!UICONTROL 시각화 설정]에서 [!UICONTROL 백분율] 설정을 선택해야 합니다.
-
-## 비교할 기간 열 추가 {#section_93CC2B4F48504125BEC104046A32EB93}
-
-이제 테이블의 각 열에 기간을 추가하여 캘린더에 설정된 기간과 다른 기간을 추가할 수 있습니다. 날짜를 비교할 수 있는 다른 방법입니다.
+이제 테이블의 각 열에 기간을 추가할 수 있으므로 달력이 설정된 기간과 다른 기간을 추가할 수 있습니다.
 
 1. 테이블에서 열을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 기간 열 추가]**&#x200B;를 선택합니다.
 
@@ -76,47 +58,149 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
    | 옵션 | 설명 |
    |---|---|
-   | **[!UICONTROL 이 날짜 범위에 대한 이전 주/달/분기/년]** | 이 날짜 범위로부터 주/달 전 등의 열을 추가합니다. |
-   | **[!UICONTROL 이 날짜 범위에 대한 이번 주/달/분기/년 작년]** | 1년 전의 같은 날짜 범위를 추가합니다. |
-   | **[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]** | 사용자 정의 날짜 범위를 선택할 수 있습니다. |
+   | **[!UICONTROL 이 날짜 범위까지 이전 *x*주/월/분기/년]** | 주/월 등이 포함된 열 추가 등을 비교합니다. |
+   | **[!UICONTROL 이 날짜 범위까지의 지난 해 *x*주/월/분기/년]** | 1년 전의 동일한 날짜 범위를 추가합니다. |
+   | **[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]** | 사용자 지정 날짜 범위를 만들 수 있습니다. |
 
    >[!NOTE]
    >
    >사용자 정의 일수를 선택한 경우 예를 들어 10월 7일 - 10월 20일(14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]**, 이렇게 두 가지 선택 사항만 제공됩니다.
 
-1. 선택한 열 맨 위에 기간이 삽입됩니다.
+1. 기간은 선택한 열의 맨 위에 삽입됩니다.
 
-   ![](assets/add-time-period-column2.png)
+   ![현재 일정 기간과 이전 달력의 발생 횟수를 보여 주는 자유 형식 테이블입니다.](assets/add-time-period-column2.png)
 
 1. 원하는 만큼 여러 번 열을 추가하고 다른 날짜 범위를 조합할 수 있습니다.
 
-   ![](assets/add-time-period-column4.png)
+1. 또한 각 열을 기준으로 정렬할 수 있으며 정렬하는 열에 따라 일 순서가 변경됩니다.
 
-1. 또한 각 열을 정렬하여 정렬하는 열에 따라 일 순서를 변경할 수 있습니다.
-
-## 열 날짜를 같은 행의 시작으로 정렬 {#section_5085E200082048CB899C3F355062A733}
+## 열 날짜를 같은 행의 시작으로 정렬
 
 각 열의 날짜가 같은 행에서 시작하도록 맞출 수 있습니다.
 
-예를 들어 날짜를 맞추도록 선택한 경우 예를 들어 2016년 10월과 9월 간에 월별 비교를 수행하는 경우 왼쪽 열이 10월 1일로 시작되고 오른쪽 열이 9월 1일로 시작됩니다.
+예를 들어 지난 주(2024년 10월 5일 종료) 및 이전 주에 대해 전일 비교를 수행합니다. 기본적으로 왼쪽 열은 9월 22일로 시작되고 오른쪽 열은 9월 29일로 시작됩니다.
+
+![날짜가 정렬되지 않음](assets/not-align-dates.png)
+
+자유 형식 테이블 시각화에 대해 **[!UICONTROL 설정]**&#x200B;에서 [각 열에서 같은 행의 시작으로 날짜 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1)을(를) 활성화하여 열 날짜를 같은 행에서 시작하도록 정렬할 수 있습니다.
+
+![](assets/align-dates.png)
+
+이 옵션을 사용할 때 다음 사항을 고려합니다.
+
+* 이 설정은 모든 새 프로젝트에서 기본적으로 활성화됩니다.
+
+* 이 설정은 전체 테이블에 적용됩니다. 예를 들어, 표 내의 분류에 대해 이 설정을 변경하면 이 설정이 전체 표에 적용됩니다.
+
+
+<!--
+# Date comparison
+
+Date comparison in Analysis Workspace lets you take any column containing a date range and create a common date comparison, such as: year-over-year, quarter-over-quarter, month-over-month, etc.
+
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
+
+## Compare time periods {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
+
+>[!NOTE]
+>[!UICONTROL Compare Time Periods] leverages advanced Calculated Metrics. As a result, it is available only to customers with Analytics Select, Prime, and Ultimate SKUs. 
+
+Analysis requires context, and often that context is provided by a previous time period. For example, the question "How much better or worse are we doing than at this time last year?" is fundamental to understanding your business. Date Comparison automatically include a "difference" column, which shows the percentage change compared to a specified time period.
+
+1. Create a Freeform table, with any dimensions and metrics you want to compare over a time period.
+1. Right-click a table row and select **[!UICONTROL Compare time periods]**.
+
+   ![](assets/compare-time.png)
+
+   >[!NOTE]
+   >
+   >This right-click option is disabled for metric rows, date range rows, and time dimension rows.
+
+1. Depending on how you have set the table's date range, you have these options for comparison: 
+
+   |  Option  | Description  |
+   |---|---|
+   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Compares to the week/month/etc. immediately before this date range.  |
+   | **[!UICONTROL This week/month/quarter/year last year to this date range]** | Compares to the same date range a year ago.  |
+   | **[!UICONTROL Custom date range to this date range]** | Lets you select a custom date range.  |
+
+   >[!NOTE]
+   >
+   >When you select a custom number of days, for example October 7 - October 20 (a 14-day range), you will get only 2 options: **[!UICONTROL Prior 14 days before this date range]**, and **[!UICONTROL Custom date range to this date range]**.
+
+1. The resulting comparison looks like this:
+
+   ![](assets/compare-time-result.png)
+
+   Rows in the Percent Change column appear red for negative values and green for positive values.
+
+1. (Optional) As in any other Workspace projects, you can create visualizations based on these time comparisons. For example, here is a Bar graph:
+
+   ![](assets/compare-time-barchart.png)
+
+   Note that in order to show the percentage change in the bar chart, you have to have the [!UICONTROL Percentages] setting checked in the [!UICONTROL Visualization Settings].
+
+## Add a time period column for comparison {#section_93CC2B4F48504125BEC104046A32EB93}
+
+You can now add a time period to each column in a table, enabling you to add a time period that is different from the one your calendar is set to. This is another way you can compare dates.
+
+1. Right-click a column in the table and select **[!UICONTROL Add time period column]**. 
+
+   ![](assets/add-time-period-column.png)
+
+1. Depending on how you have set the table's date range, you have these options for comparison: 
+
+   |  Option  | Description  |
+   |---|---|
+   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Adds a column with the week/month/etc. immediately before this date range.  |
+   | **[!UICONTROL This week/month/quarter/year last year to this date range]** | Adds the same date range a year ago.  |
+   | **[!UICONTROL Custom date range to this date range]** | Lets you select a custom date range.  |
+
+   >[!NOTE]
+   >
+   >When you select a custom number of days, for example October 7 - October 20 (a 14-day range), you will get only 2 options: **[!UICONTROL Prior 14 days before this date range]**, and **[!UICONTROL Custom date range to this date range]**.
+
+1. The time period will be inserted on top of the column you selected:
+
+   ![](assets/add-time-period-column2.png)
+
+1. You can add as many time columns as you want, as well as mix and match different date ranges:
+
+   ![](assets/add-time-period-column4.png)
+
+1. In addition, you can sort on each column, which will change the order of days depending on the column you are sorting on.
+
+## Align column dates to start on the same row {#section_5085E200082048CB899C3F355062A733}
+
+You can align the dates from each column to all start on the same row. 
+
+For example, when you choose to align the dates, if you do a month-over-month comparison between October and September 2016, the left column will start with October 1 and the right column will start with September 1:
 
 ![](assets/add-time-period-column3.png)
 
 >[!NOTE]
 >
->이 옵션을 사용할 때 다음 사항을 고려합니다.
+>Consider the following when using this option:
 >
->* 이 설정은 모든 새 프로젝트에서 기본적으로 활성화됩니다.
+>* This setting is enabled by default for all new projects.
 >
->* 이 설정은 전체 테이블에 적용됩니다. 예를 들어 테이블 내 분류에 대한 이 설정을 변경하면 전체 테이블의 설정이 변경됩니다.
+>* This setting applies to the entire table. For example, if you change this setting for a breakdown within the table, it will change the setting for the entire table.
 >
 
-이 설정이 아직 활성화되어 있지 않은 경우 활성화하려면 다음을 수행합니다.
+To enable this setting, if it is not already enabled:
 
-1. 열 날짜를 정렬하려는 테이블에서 테이블 헤더에서 **설정** 아이콘을 선택합니다.
+1. In the table where you want to align column dates, select the **Settings** icon in the table header.
 
-1. [!UICONTROL **설정**] 탭에서 **[!UICONTROL 날짜를 각 열에서 동일한 행의 시작으로 정렬(전체 테이블에 적용)]**&#x200B;을 선택합니다.
+1. On the [!UICONTROL **Settings**] tab, select **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**.
 
 ![](assets/date-comparison-setting.png)
 
 
+-->

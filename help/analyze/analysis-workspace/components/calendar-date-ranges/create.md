@@ -1,12 +1,13 @@
 ---
 title: 날짜 범위 만들기
-description: 보고에 사용할 날짜 범위를 만듭니다.
+description: Analysis Workspace에서 사용할 수 있는 날짜 범위를 만드는 방법을 이해합니다.
 feature: Date Ranges
 role: User
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+exl-id: 62ce2ca5-4df1-43bf-88ce-3c9f106f4a59
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 96%
 
 ---
 
@@ -62,7 +63,7 @@ ht-degree: 100%
 
      대괄호 안의 텍스트를 선택하여(예: **[!UICONTROL 고정된 시작 - 분기별 롤링]**) 패널을 확장하고 **[!UICONTROL 시작]** 및 **[!UICONTROL 종료]**&#x200B;에 대한 세부 정보를 지정할 수 있습니다.
 
-     ![Rolling dates](assets/rolliing-dates.png)
+     ![롤링 날짜](assets/rolliing-dates.png)
 
       1. **[!UICONTROL 시작]**, **[!UICONTROL 종료]** 또는 **[!UICONTROL 고정일]**&#x200B;을 선택합니다.
       1. **[!UICONTROL 시작]** 또는 **[!UICONTROL 종료]**&#x200B;를 선택한 경우 전체 표현식을 작성할 수 있습니다. 예: **[!UICONTROL 현재 분기]** **[!UICONTROL 말]**&#x200B;에서 `20`**[!UICONTROL 일]** **[!UICONTROL 빼기]**. 표현식의 각 개별 부분에 적합한 값을 선택합니다.

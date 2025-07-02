@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 프로젝트에 구성 요소를 추가하는 방법 알아보기
-title: Analysis Workspace의 구성 요소 사용
+description: Analysis Workspace에서 프로젝트에서 구성 요소를 사용하는 방법을 알아봅니다.
+title: Analysis Workspace에서 구성 요소 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 97%
+source-wordcount: '953'
+ht-degree: 80%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 1. 추가하려는 구성 요소를 스크롤하거나 검색한 다음 프로젝트 내의 패널이나 시각화로 드래그합니다.
 
 1. 선택 사항으로 구성요소를 패널 헤더의 세그먼트 드롭 영역으로 드래그할 수 있습니다. 이 드래그 앤 드롭 기능은 구성 요소를 세그먼트로 정의하고 해당 세그먼트를 패널 내의 모든 콘텐츠에 적용합니다.
-패널의 세그먼트 드롭 영역을 사용하여 패널을 분할하는 방법에 대한 자세한 내용은 [패널 개요](/help/analyze/analysis-workspace/c-panels/panels.md)의 [드롭 영역](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)을 참조하십시오.
+패널의 세그먼트 드롭 영역을 사용하여 패널을 세그먼트화하는 방법에 대한 자세한 내용은 [패널 개요](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)의 [드롭 영역](/help/analyze/analysis-workspace/c-panels/panels.md)을 참조하십시오.
 
 1. 자세한 내용은 다음 섹션을 참조하십시오.
 
@@ -68,7 +68,7 @@ Analysis Workspace에서 차원을 사용하는 방법에 대한 자세한 내�
 
 Analysis Workspace에서 프로젝트에 지표를 추가하려면 다음 작업을 수행하십시오.
 
-1. Analysis Workspace에서 [프로젝트에 구성 요소 추가](#add-components-to-a-project)에 설명된 대로 지표를 추가하기 시작합니다.
+1. [프로젝트에 구성 요소 추가](#add-components-to-a-project)에 설명된 대로 Analysis Workspace에서 프로젝트에 지표를 추가하기 시작합니다.
 
 
 
@@ -97,24 +97,24 @@ Analysis Workspace에서 세그먼트를 다음과 같은 방법으로 사용할
 
 * 패널에 세그먼트 추가
 패널에 세그먼트를 추가하면 세그먼트가 패널 내의 모든 콘텐츠에 적용됩니다.
-패널의 세그먼트 드롭 영역을 사용하여 패널을 분할하는 방법에 대한 자세한 내용은 [패널 개요](/help/analyze/analysis-workspace/c-panels/panels.md)의 [드롭 영역](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)을 참조하십시오.
+패널의 세그먼트 드롭 영역을 사용하여 패널을 세그먼트화하는 방법에 대한 자세한 내용은 [패널 개요](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)의 [드롭 영역](/help/analyze/analysis-workspace/c-panels/panels.md)을 참조하십시오.
 
 * 시각화에 세그먼트 추가
 자유 형식 테이블의 열에 세그먼트를 추가하면 세그먼트가 테이블 열 내의 모든 콘텐츠에 적용됩니다. 또한 폴아웃 시각화의 일부로 세그먼트를 추가할 수도 있습니다.
 
-* 구성요소에서 세그먼트 사용
-[계산된 지표](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [주석](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) 또는 [세그먼트](/help/components/segmentation/segmentation-workflow/seg-build.md)와 같은 구성 요소를 정의할 때 정의의 일부로 세그먼트를 사용할 수 있습니다.
+* 구성 요소에서 세그먼트 사용
+[계산된 지표](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [주석](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) 또는 [세그먼트](/help/components/segmentation/segmentation-workflow/seg-build.md)와 같은 구성 요소를 정의할 때 세그먼트를 정의의 일부로 사용할 수 있습니다.
 
 
 ### 프로젝트에 날짜 범위 추가
 
-[날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)는 Analysis Workspace에서 보고 기간을 결정하며, 프로젝트 내 하나 이상의 패널과 일부 시각화(예: 자유 형식 테이블)에 적용될 수 있습니다.
+[날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)는 Analysis Workspace의 보고 기간을 결정합니다. 그리고 데이터 범위는 프로젝트 내의 패널과 일부 시각화(예: 자유 형식 테이블)에 적용할 수도 있습니다.
 
 각 패널에는 기본적으로 날짜 범위가 포함됩니다. 패널의 날짜 범위를 업데이트하는 방법에는 여러 가지가 있습니다. Analysis Workspace에서 패널의 날짜 범위를 업데이트하는 방법 중 하나는 왼쪽 패널에서 날짜 범위 구성 요소를 끌어오는 것입니다.
 
 1. 원할 경우, [프로젝트에 구성 요소 추가](#add-components-to-a-project)에 설명된 대로 Analysis Workspace에서 프로젝트에 날짜 범위를 추가합니다.
 
-1. 왼쪽 패널에서 날짜 범위를 다음 위치로 끌어다 놓습니다.
+1. 다음 위치의 왼쪽 패널에서 날짜 범위를 끌어서 놓습니다.
 
    * 현재 날짜 범위를 선택하여 패널의 날짜 범위를 수정합니다.
 
@@ -126,7 +126,7 @@ Analysis Workspace에서 날짜 범위를 사용하고 관리하는 방법에 �
 
 ## 구성 요소 정보
 
-구성 요소 위에 마우스를 가져다 대면 ![자세한 정보](/help/assets/icons/InfoOutline.svg)가 표시됩니다. 선택하면 구성 요소에 대한 추가 정보가 담긴 팝업이 표시됩니다.
+구성 요소 위에 마우스를 가져다 대면 ![자세한 정보](/help/assets/icons/InfoOutline.svg)가 표시됩니다. ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 선택하면 구성 요소에 대한 추가 정보가 포함된 팝업이 표시됩니다.
 
 ![구성 요소 정보](assets/component-info.png)
 

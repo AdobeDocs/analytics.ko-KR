@@ -1,12 +1,12 @@
 ---
 description: Workspace FAQ
-title: 자주 묻는 질문 및 Analysis Workspace 문제 해결
+title: 자주 묻는 질문
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
-workflow-type: ht
-source-wordcount: '550'
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+workflow-type: tm+mt
+source-wordcount: '547'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 
 +++데이터를 Analysis Workspace 프로젝트에 포함시키려면 어떻게 해야 합니까?
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace로의 데이터](https://video.tv.adobe.com/v/33282?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace로의 데이터](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 +++
 

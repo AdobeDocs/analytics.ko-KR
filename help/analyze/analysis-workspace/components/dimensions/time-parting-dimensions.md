@@ -1,13 +1,13 @@
 ---
-description: 시간 분할은 수집한 히트의 타임스탬프를 가져와서 "시간" 또는 "요일"과 같은 더 의미 있는 차원으로 나눕니다.
-title: 차원 시간 분할
+description: 시간 분할 차원이 수집된 이벤트의 타임스탬프를 가져와서 시간 또는 요일 과 같은 더 의미 있는 차원으로 나누는 방법에 대해 알아봅니다.
+title: 시간 분할 차원
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '238'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시간=분할 차원](https://video.tv.adobe.com/v/30906?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시간=분할 차원](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

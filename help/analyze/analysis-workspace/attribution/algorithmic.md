@@ -1,13 +1,13 @@
 ---
-title: 알고리즘 속성
-description: 알고리즘 속성 모델에 대한 세부 사항입니다.
+title: 알고리즘 기여도 분석
+description: 알고리즘 속성 모델의 세부 사항을 이해합니다.
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 45%
+source-wordcount: '278'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [알고리즘 속성](https://video.tv.adobe.com/v/40052?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [알고리즘 속성](https://video.tv.adobe.com/v/36205?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

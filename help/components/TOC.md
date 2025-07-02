@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 97%
+source-wordcount: '767'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # [!DNL Adobe Analytics] 구성 요소 안내서 {#components}
 
 + [Analytics Components 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 차원 {#dimensions}
    + [차원 개요](dimensions/overview.md)
    + [차원 호환성](dimensions/compatibility.md)
@@ -179,7 +179,7 @@ ht-degree: 97%
    + [세그먼트 정보](segmentation/seg-overview.md)
    + [세그먼트 컨테이너 정보](segmentation/seg-containers.md)
    + [Analysis Workspace의 세분화 기능](segmentation/segmentation-in-analysis-workspace.md)
-   + 세분화 워크플로 {#segmentation-workflow}
+   + 워크플로 {#segmentation-workflow}
       + [개요](segmentation/segmentation-workflow/seg-workflow.md)
       + [세그먼트 계획 수립](segmentation/segmentation-workflow/seg-plan.md)
       + [세그먼트 만들기](segmentation/segmentation-workflow/seg-create.md)
@@ -196,7 +196,7 @@ ht-degree: 97%
       + [세그먼트 관리](segmentation/segmentation-workflow/seg-manage.md)
       + [Experience Cloud에 세그먼트 퍼블리싱](segmentation/segmentation-workflow/seg-publish.md)
       + [세그먼트 사용](segmentation/segmentation-workflow/t-seg-apply.md)
-   + 세그먼트 참조 {#segment-reference}
+   + 참조 {#segment-reference}
       + [연산자](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse 세그먼트 호환성](segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
@@ -206,7 +206,7 @@ ht-degree: 97%
 + 계산된 지표 {#calculated-metrics}
    + [개요](c-calcmetrics/cm-overview.md)
    + [사용 방법 비디오](c-calcmetrics/cm-videos.md)
-   + 계산된 지표 워크플로 {#calcmetric-workflow}
+   + 워크플로 {#calcmetric-workflow}
       + [계산된 지표 만들기](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [계산된 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
@@ -225,7 +225,7 @@ ht-degree: 97%
       + [계산된 지표 공유](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [계산된 지표 복사](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [계산된 지표 관리](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + 지표 참조 {#calcmetrics-reference}
+   + 참조 {#calcmetrics-reference}
       + [기본 함수](c-calcmetrics/cm-reference/cm-functions.md)
       + [고급 함수](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [지표 호환성](c-calcmetrics/cm-compatibility.md)
@@ -240,7 +240,7 @@ ht-degree: 97%
    + [A4T 고려 사항](vrs/vrs-a4t.md)
    + [가상 보고서 세트 FAQ](vrs/vrs-faq.md)
    + [가상 보고서 세트 및 글로벌/다중 세트 태그 지정 고려 사항](vrs/vrs-considerations.md)
-   + 가상 보고서 세트 워크플로 {#vrs-workflow}
+   + 워크플로 {#vrs-workflow}
       + [가상 보고서 세트 워크플로](vrs/c-workflow-vrs/vrs-workflow.md)
       + [가상 보고서 세트 만들기](vrs/c-workflow-vrs/vrs-create.md)
       + [가상 보고서 세트 관리](vrs/c-workflow-vrs/vrs-manage.md)
@@ -256,8 +256,8 @@ ht-degree: 97%
    + [크로스 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
    + [개요](c-alerts/intellligent-alerts.md)
-   + [만들기](c-alerts/alert-builder.md)
-   + [관리](c-alerts/alert-manager.md)
+   + [경고 만들기](c-alerts/alert-builder.md)
+   + [경고 관리](c-alerts/alert-manager.md)
    + [사용 사례](c-alerts/alerts-use-cases.md)
 + 분류 {#classifications}
    + [분류 개요](classifications/classifications-overview.md)

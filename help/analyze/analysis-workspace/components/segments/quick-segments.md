@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 빠른 세그먼트를 사용합니다.
-title: 빠른 세그먼트
+description: Analysis Workspace에서 빠른 세그먼트를 만들고 사용하는 방법을 알아봅니다.
+title: 빠른 s=세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 99%
+source-wordcount: '101'
+ht-degree: 74%
 
 ---
 
@@ -24,126 +24,133 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [빠른 세그먼트](https://video.tv.adobe.com/v/345340?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [빠른 세그먼트](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 
-## 빠른 세그먼트 만들기
-
-Anlysis Workspace의 모든 사용자는 빠른 세그먼트를 만들 수 있습니다.
-
-빠른 세그먼트를 만들려면
-
-1. 빠른 세그먼트 만들기를 시작하려면 다음 방법 중 하나를 선택합니다.
-
-   * **애드혹(드래그 앤 드롭):** 왼쪽 레일에서 구성 요소를 패널 헤더의 세그먼트 놓기 영역으로 드래그합니다.
-
-     ![놓기 영역에 세그먼트 드롭](assets/segment-dropzone.png)
-
-     [빠른 세그먼트 편집](#edit-quick-segments)에 설명된 대로 세그먼트를 편집할 수 있습니다.
-
-     >[!NOTE]
-     >
-     > 임시 빠른 세그먼트(드래그 앤 드롭)를 만들 때 다음 사항을 고려하십시오.
-     > * 세그먼트를 빌드할 수 없는 계산된 지표 및 차원과 지표 등 다음 구성 요소 유형은 지원되지 않습니다.
-     > * 전체 차원 및 이벤트에 대해 Analysis Workspace는 &quot;존재함&quot; 히트 세그먼트를 만듭니다. 예: `Hit where eVar1 exists` 또는 `Hit where event1 exists`.
-     > * 세그먼트를 놓는 영역에 “지정되지 않음” 또는 “없음”을 놓으면 세그먼트에서 올바로 처리되도록 자동으로 “존재하지 않음” 세그먼트로 변환됩니다.
+>[!MORELIKETHIS]
+>
+>[빠른 세그먼트 만들기](/help/components/segmentation/segmentation-workflow/seg-quick.md)
 
 
-   * **세그먼트 아이콘 사용:** 자유 형식 테이블의 패널 헤더에서 **세그먼트** 아이콘을 선택합니다.
+<!--
+## Create a quick segment
 
-     ![세그먼트 필터](assets/quick-seg1.png)
+Any user in Anlysis Workspace can create a quick segment.
 
-1. 다음 설정 중 하나를 조정합니다.
+To create a quick segment:
 
-   | 설정 | 설명 |
+1. Choose one of the following methods to begin creating the quick segment:
+
+   * **Ad hoc (drag-and-drop):** From the left rail, drag a component to the segment drop zone in the panel header.
+   
+     ![drop a segment in the drop zone](assets/segment-dropzone.png)
+     
+     You can edit the segment as described in [Edit quick segments](#edit-quick-segments).
+
+      >[!NOTE]
+      >
+      > Consider the following when creating a quick segment ad hoc (drag-and-drop):
+      > * The following component types are not supported: calculated metrics and dimensions, as well as metrics from which you cannot build segments.
+      > * For full dimensions and events, Analysis Workspace creates "exists" hit segments. Examples: `Hit where eVar1 exists` or `Hit where event1 exists`.
+      > * If "unspecified" or "none" is dropped in the segment drop zone, it is automatically converted to a "does not exist" segment so that it is treated correctly in segments.
+
+
+   * **Using the segment icon:** In a Freeform table, select the **Segment** icon in the panel header.
+
+     ![Segment filter](assets/quick-seg1.png)
+
+1. Adjust any of the following settings:
+
+   | Setting | Description |
    | --- | --- |
-   | [!UICONTROL 이름] | 세그먼트의 기본 이름은 세그먼트에 있는 규칙 이름의 조합입니다. 세그먼트 이름을 보다 친숙한 이름으로 바꿀 수 있습니다. |
-   | [!UICONTROL 포함/제외] | 세그먼트 정의에 구성 요소를 포함 또는 제외할 수 있지만 둘 다 할 수는 없습니다. |
-   | [!UICONTROL 히트/방문/방문자] 컨테이너 | 빠른 세그먼트에는 하나의 [세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=ko#section_AF2A28BE92474DB386AE85743C71B2D6)만이 포함되어 세그먼트에 차원/지표/날짜 범위를 포함하거나 세그먼트에서 제외할 수 있습니다. [!UICONTROL 방문자]에는 여러 방문 및 페이지 조회수에서 방문자와 관련된 데이터가 포함됩니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 조회수에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
-   | [!UICONTROL 구성 요소] (차원/지표/날짜 범위) | 구성 요소(차원, 지표, 날짜 범위 또는 차원 값)를 추가하여 최대 3개의 규칙을 정의합니다. 적합한 구성 요소를 검색하는 3가지 방법이 있습니다.<ul><li>입력을 시작하면 빠른 세그먼트 빌더가 적절한 구성 요소를 자동으로 검색합니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 검색합니다.</li><li>왼쪽 레일에서 구성 요소를 드래그 앤 드롭합니다.</li></ul> |
-   | [!UICONTROL 연산자] | 드롭다운 메뉴를 사용하여 표준 연산자 및 [!UICONTROL 고유 개수] 연산자를 검색합니다. [세그먼트 연산자](/help/components/segmentation/seg-reference/seg-operators.md)를 참조하십시오. |
-   | 플러스(+) 기호 | 다른 규칙 추가 |
-   | AND/OR 한정자 | 규칙에 “AND” 또는 “OR” 한정자를 추가할 수 있지만 단일 세그먼트 정의에서는 “AND”와 “OR”를 혼합할 수 없습니다. |
-   | [!UICONTROL 적용] | 이 세그먼트를 패널에 적용합니다. 세그먼트에 데이터가 포함되지 않은 경우 계속 진행하라는 메시지가 표시됩니다. |
-   | [!UICONTROL 빌더 열기] | 세그먼트 빌더를 엽니다. 세그먼트 빌더에 세그먼트를 저장하거나 적용하면 더 이상 “빠른 세그먼트”로 간주되지 않습니다. 구성 요소 목록의 세그먼트 라이브러리의 일부가 됩니다. <p>모든 프로젝트와 왼쪽 레일에서 구성 요소를 사용하려면 [!UICONTROL **모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기**] 옵션을 선택합니다.</p><p>자세한 내용은 이 문서의 [구성 요소 목록 세그먼트로 빠른 세그먼트 저장](#save-a-quick-segment-as-a-component-list-segment) 섹션을 참조하십시오.</p><p>**참고:** [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md)에서의 세그먼트 생성 권한이 있는 사용자만 세그먼트 빌더를 열 수 있습니다.</p> |
-   | [!UICONTROL 취소] | 이 빠른 세그먼트를 취소합니다(적용되지 않음). |
-   | [!UICONTROL 날짜 범위] | 유효성 검사기는 패널 날짜 범위를 사용하여 데이터를 조회합니다. 하지만 빠른 세그먼트에 적용되는 날짜 범위는 패널 상단의 패널 날짜 범위를 오버라이드합니다. |
-   | 이전(오른쪽 상단) | 유효한 세그먼트가 있는지 여부와 세그먼트의 범위가 얼마나 넓은지 확인할 수 있습니다. 이 세그먼트를 적용할 경우 표시될 것으로 예상되는 데이터 분류를 표시합니다. 이 세그먼트에 데이터가 없다는 것을 보여 주는 알림을 수신할 수 있습니다. 이 경우 계속 진행하거나 세그먼트 정의를 변경할 수 있습니다. |
+   | [!UICONTROL Name] | The default name of a segment is a combination of the rule names in the segment. You can rename the segment to a more friendly name. |
+   | [!UICONTROL Include/exclude] | You can either include or exclude components in your segment definition, but not both. |
+   | [!UICONTROL Hit/Visit/Visitor] container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor's data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
+   | [!UICONTROL Components] (Dimension/metric/date range) | Define up to 3 rules by adding components (dimensions, metrics, date ranges, or dimension values). There are 3 ways to find the right component:<ul><li>Start typing and the quick segment builder automatically finds the appropriate component.</li><li>Use the drop-down list to find the component.</li><li>Drag and drop components from the left rail.</li></ul>  |
+   | [!UICONTROL Operator] | Use the drop-down menu to find standard operators and [!UICONTROL Distinct Count] operators. See [Segment operators](/help/components/segmentation/seg-reference/seg-operators.md). |
+   | Plus (+) sign | Add another rule |
+   | AND/OR qualifiers | You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. |
+   | [!UICONTROL Apply] | Apply this segment to the panel. If the segment contains no data, you are asked if you want to continue. |
+   | [!UICONTROL Open builder] | Opens the Segment Builder. After you save or apply the segment in the Segment Builder, it is no longer considered a "quick segment". It becomes part of the component-list segment library. <p>To make the component available across all of your projects and in the left rail, select the option [!UICONTROL **Make this segment available to all your projects and add it to your component list**].</p><p>For more information, see the section [Save a quick segment as a component-list segment](#save-a-quick-segment-as-a-component-list-segment) in this article.</p><p>**Note:** Only users with the Segment Creation permission in the [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) can open the Segment Builder.</p> |
+   | [!UICONTROL Cancel] | Cancel this quick segment (don't apply it). |
+   | [!UICONTROL Date range] | The validator uses the panel date range for its data lookup. But any date range applied in a quick segment overrides the panel date range at the top of the panel.  |
+   | Preview (top right) | Lets you see whether you have a valid segment and how broad the segment is. Represents the breakdown of the data set you can expect to see when you apply this segment. You might get a notice that indicates that this segment has no data. In this case, you can proceed or change the segment definition. |
 
-1. [!UICONTROL **적용**]&#x200B;을 선택하여 변경 내용을 저장합니다.
+1. Select [!UICONTROL **Apply**] to save your changes.
 
-## 빠른 세그먼트 편집
+## Edit quick segments
 
-1. 빠른 세그먼트 위에 커서를 놓고 **편집** 아이콘을 선택합니다.
+1. Hover over the quick segment and select the **Edit** icon.
 
-   ![임시 필터 편집](assets/filter-adhoc-edit.png)
+   ![Edit ad hoc filter](assets/filter-adhoc-edit.png)
 
-1. 세그먼트 정의 및/또는 세그먼트 이름을 편집합니다.
+1. Edit the segment definition and/or the segment name.
 
-1. [!UICONTROL **적용**]&#x200B;을 선택합니다.
+1. Select [!UICONTROL **Apply**].
 
-## 구성 요소 목록 세그먼트로 빠른 세그먼트 저장
+## Save a quick segments as a component-list segment
 
 >[!IMPORTANT]
 >
-> 빠른 세그먼트를 저장할 때 다음 사항을 고려하십시오.
+> Consider the following when saving a quick segment:
 > 
-> * 빠른 세그먼트를 저장하려면 [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md)에서의 세그먼트 생성 권한이 필요합니다.
+> * To save a quick segment, you need the Segment Creation permission in the [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md).
 > 
-> * 세그먼트가 저장되거나 적용되면 빠른 세그먼트 빌더에서 더 이상 세그먼트를 편집할 수 없습니다. 대신 정규 세그먼트 빌더를 사용해야 합니다.
+> * After you save or apply the segment, it can no longer be edited it in the quick segment builder. Instead, you must use the regular Segment Builder.
 
-구성 요소 목록 세그먼트로 빠른 세그먼트를 저장할 수 있습니다. 구성 요소 목록 세그먼트의 이점에는 다음이 포함됩니다.
+You can choose to save quick segments as component-list segments. Advantages of component-list segments include:
 
-* 모든 Workspace 프로젝트에서의 가용성
-* 보다 복잡한 세그먼트와 순차적 세그먼트 지원
+* Availablility across all your Workspace projects
+* Support more complex segments as well as sequential segments
 
-빠른 세그먼트 빌더 또는 [!UICONTROL 필터 빌더]에서 세그먼트를 저장할 수 있습니다.
+You can save segments either from the quick segment Builder or from the [!UICONTROL Filter Builder].
 
-### 빠른 세그먼트 빌더에 저장 {#save2}
+### Save in the quick segment builder {#save2}
 
-1. 빠른 세그먼트를 적용하면 커서를 올려놓은 다음 정보 아이콘(“i“)을 선택합니다.
-1. **[!UICONTROL 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]**&#x200B;를 선택합니다.
-1. (선택 사항) 세그먼트 이름을 변경합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+1. After you apply the quick segment, hover over it and select the info ("i") icon.
+1. Select **[!UICONTROL Make available to all projects and add to your component list]**.
+1. (Optional) Rename the segment.
+1. Select **[!UICONTROL Save]**.
 
-   이제 세그먼트가 왼쪽 레일의 구성 요소 목록에 표시됩니다. 또한 세그먼트의 사이드바가 연한 파란색에서 진한 파란색으로 바뀌면 빠른 세그먼트 빌더에서 더 이상 편집하거나 열 수 없음을 보여 줍니다.
+   The segment now appears in your component list in the left rail. Also, note that the segment's side bar changes from light blue to a darker blue, indicating that it can no longer be edited or opened in the quick segment builder.
 
-### 세그먼트 빌더에 저장 {#save3}
+### Save in the Segment Builder {#save3}
 
-1. 빠른 세그먼트를 적용하면 커서를 올려놓은 다음 정보 아이콘(“i“)을 선택합니다.
-1. **[!UICONTROL 세그먼트 저장]**&#x200B;을 선택합니다.
-1. (선택 사항) 세그먼트의 이름을 변경한 다음 [!UICONTROL **적용**]&#x200B;을 선택합니다.
+1. After you apply the quick segment, hover over it and select the info ("i") icon.
+1. Select **[!UICONTROL Save segment]**
+1. (Optional) Rename the segment, then select [!UICONTROL **Apply**].
 
-   Workspace로 돌아가 세그먼트의 사이드바가 연한 파란색에서 진한 파란색으로 바뀌면 빠른 세그먼트 빌더에서 더 이상 편집하거나 열 수 없음을 보여 줍니다. 저장하면 구성 요소 목록의 일부가 됩니다.
+   Go back to Workspace and note that the segment's side bar changes from light blue to a darker blue, indicating that it can no longer be edited or opened in the quick segment builder. And by saving it, it becomes part of the component list.
 
-세그먼트가 적용되면 세그먼트 구성 요소 목록 추가를 선택하고 모든 프로젝트에 사용할 수 있도록 설정할 수 있습니다.
+After you apply the segment, you can choose to add it to your segment component list and make it available to all your projects.
 
-1. 저장된 세그먼트 위에 커서를 놓고 연필 모양의 아이콘을 선택합니다.
+1. Hover over the saved segment and select the pencil icon.
 
-1. [!UICONTROL **빌더 열기**]&#x200B;를 선택합니다.
+1. Select [!UICONTROL **Open builder**].
 
-1. 세그먼트 빌더 상단에 [!UICONTROL **프로젝트 전용 세그먼트**] 대화 상자가 표시됩니다.
+1. At the top of the Segment Builder, notice the [!UICONTROL **Project-only segment**] dialog:
 
-   ![프로젝트 전용 세그먼트 대화 상자](assets/project-only-segment-dialog.png)
+   ![project-only segment dialog](assets/project-only-segment-dialog.png)
 
-1. **[!UICONTROL 모든 프로젝트에 사용할 수 있도록 설정하고 구성 요소 목록 추가하기]** 옆의 확인란을 선택합니다.
+1. Select the checkbox next to **[!UICONTROL Make available to all your projects and add to your component list.]**
 
-1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+1. Select **[!UICONTROL Save]**.
 
-   이제 세그먼트가 모든 프로젝트의 세그먼트 구성 요소에 표시됩니다.
-조직의 다른 사용자와 [세그먼트를 공유](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ko#concept_4A9726927E7C44AFA260E2BB2721AFC6)할 수도 있습니다.
+   The segment now appears in your segment component list for all your projects.
+   You can also [share the segment](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6) with other people in your organization.
 
-## 빠른 세그먼트 예
+## Quick segment example
 
-다음은 차원과 지표를 결합하는 세그먼트의 예입니다.
+The following example of a segment combines dimensions and metrics:
 
 ![](assets/quick-seg2.png)
 
-## 알려진 문제
+## Known issue
 
-1. 항목이 2개인 빠른 세그먼트를 만들고 Test1로 **[!UICONTROL 저장]**&#x200B;합니다.
-1. **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭하고 이 빠른 세그먼트를 Test2로 저장합니다.
-1. Test2 빠른 세그먼트를 편집하고 다시 Test2로 저장합니다.
-Test1 빠른 세그먼트는 Test2에 의해 수정됩니다.
+1. Create a quick segment with 2 entries and **[!UICONTROL Save]** it as Test1.
+1. Click **[!UICONTROL Save as]** and save this quick segment as Test2. 
+1. Edit the Test2 quick segment and save it again as Test2. 
+   Notice that the Test1 quick segment gets modified by Test2.
+-->

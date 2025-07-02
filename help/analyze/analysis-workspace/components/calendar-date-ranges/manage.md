@@ -1,12 +1,13 @@
 ---
-title: 날짜 범위 관리
-description: Analysis Workspace에서 날짜 범위를 공유, 이름 변경 또는 삭제합니다.
+title: 데이터 범위 관리
+description: Analysis Workspace에서 날짜 범위를 관리하는 방법을 이해합니다.
 feature: Date Ranges
 role: User
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+exl-id: 48cda13f-ec4d-43fa-be24-51e2ab6044dd
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -63,7 +64,7 @@ ht-degree: 31%
 
 ### 필터 패널
 
-왼쪽 패널 ➍에서 **[!UICONTROL 필터]**&#x200B;를 사용하여 날짜 범위를 필터링할 수 있습니다. 필터 패널에는 필터 유형 및 필터를 적용하는 날짜 범위의 수가 표시됩니다. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널의 디스플레이를 토글합니다.
+왼쪽 패널 **[!UICONTROL 에서]**&#x200B;필터➍를 사용하여 날짜 범위를 필터링할 수 있습니다. 필터 패널에는 필터 유형 및 필터를 적용하는 날짜 범위의 수가 표시됩니다. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널의 디스플레이를 토글합니다.
 
 필터 목록을 필터링하는 방법:
 

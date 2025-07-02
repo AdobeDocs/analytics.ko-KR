@@ -1,13 +1,13 @@
 ---
 title: 주석 관리
-description: Workspace에서 주석을 관리하는 방법
+description: Analysis Workspace에서 주석을 관리하는 방법
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 89%
+source-wordcount: '761'
+ht-degree: 88%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 89%
 
 ### 필터 패널
 
-왼쪽 패널 ➍에서 **[!UICONTROL 필터]**&#x200B;를 사용하여 주석을 필터링할 수 있습니다. 필터 패널에는 필터 유형 및 해당 필터를 처리하는 주석의 수가 표시됩니다. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널의 디스플레이를 토글합니다.
+왼쪽 패널 **[!UICONTROL 에서]**&#x200B;필터➍를 사용하여 주석을 필터링할 수 있습니다. 필터 패널에는 필터 유형 및 해당 필터를 처리하는 주석의 수가 표시됩니다. ![Filter](/help/assets/icons/Filter.svg)를 선택하여 필터 패널의 디스플레이를 토글합니다.
 
 필터 목록을 필터링하는 방법:
 

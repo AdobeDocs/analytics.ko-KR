@@ -1,12 +1,12 @@
 ---
-description: 조직 전체에서 예약된 보고서를 보고 관리합니다.
-title: 예약된 프로젝트 관리자
+description: 예약된 프로젝트를 관리하는 방법을 알아봅니다.
+title: 예약된 프로젝트에서 예약된 프로젝트를 관리합니다
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 42%
+source-wordcount: '786'
+ht-degree: 41%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 42%
 
 ## 필터
 
-➌ 필터 패널을 사용하여 예약된 프로젝트 [예약된 프로젝트 목록](#scheduled-project-list)을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
+[ 필터 패널을 사용하여 예약된 프로젝트 ](#scheduled-project-list)예약된 프로젝트 목록➌을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
 
 필터 패널은 다음 섹션으로 구성되어 있습니다.
 

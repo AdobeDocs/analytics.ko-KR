@@ -1,14 +1,14 @@
 ---
 title: 주석 개요
-description: Workspace에서 주석을 사용하는 방법
+description: Analysis Workspace에서 주석을 사용하는 방법
 role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: e9370d42e84237cb563d9b0776612ca08f097c0b
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 85%
+source-wordcount: '319'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 주석을 사용하면 상황별 데이터 뉘앙스와 인사이트를 효과적으로 조직의 다른 관련자에게 전달할 수 있습니다. 주석을 사용하면 캘린더 이벤트를 특정 차원 및 지표에 연결할 수 있습니다. 알려진 데이터 문제, 공휴일, 캠페인 시작 등으로 날짜 또는 날짜 범위에 주석을 달아 그런 다음 이벤트를 그래픽으로 표시하고 캠페인이나 다른 이벤트가 사이트 트래픽, 모바일 앱 사용량, 매출 또는 기타 지표에 영향을 미치는지 여부를 확인할 수 있습니다.
 
-예를 들어 조직과 프로젝트를 공유하고 있습니다. 고유 방문자가 눈에 띄게 감소한 경우 **방문자 감소** 주석을 만들고 범위를 전체 보고서 세트로 지정할 수 있습니다. 사용자가 해당 날짜가 포함된 보고서 세트를 볼 때 데이터와 함께 프로젝트 내의 주석을 볼 수 있습니다.
+예를 들어 조직과 프로젝트를 공유하고 있습니다. 고유 방문자 수가 눈에 띄게 감소한 경우, **방문자 감소 중** 주석을 만들어 전체 보고서 세트에 적용할 수 있습니다. 사용자가 해당 날짜가 포함된 보고서 세트를 볼 때 데이터와 함께 프로젝트 내의 주석을 볼 수 있습니다.
 
 ![Line chart with annotation highlighted.](assets/annotation-example.png)
 
@@ -67,7 +67,7 @@ Keep this in mind:
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
-However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko).
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 ## Turn annotations on or off {#annotations-on-off}
 

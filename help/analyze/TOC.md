@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '870'
 ht-degree: 97%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 97%
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -37,7 +37,7 @@ ht-degree: 97%
          + [폴더 개요](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [프로젝트 추가 또는 이동](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [프로젝트를 추가하거나 이동](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [단축키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
@@ -46,27 +46,27 @@ ht-degree: 97%
       + [템플릿 사용](analysis-workspace/templates/use-templates.md)
       + [템플릿 만들기](analysis-workspace/templates/create-templates.md)
    + 구성 요소 {#components}
-      + [구성 요소 개요](analysis-workspace/components/analysis-workspace-components.md)
-      + [작업 영역에서 구성 요소 사용](analysis-workspace/components/use-components-in-workspace.md)
+      + [개요](analysis-workspace/components/analysis-workspace-components.md)
+      + [구성 요소 사용](analysis-workspace/components/use-components-in-workspace.md)
       + [구성 요소 설명 추가](analysis-workspace/components/add-component-descriptions.md)
       + 주석 {#annotations}
-         + [주석 개요](analysis-workspace/components/annotations/overview.md)
+         + [개요](analysis-workspace/components/annotations/overview.md)
          + [주석 만들기](analysis-workspace/components/annotations/create-annotations.md)
          + [주석 관리](analysis-workspace/components/annotations/manage-annotations.md)
          + [주석 보기](analysis-workspace/components/annotations/view-annotations.md)
-         + [모바일 주석](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [모바일 스코어카드 주석](analysis-workspace/components/annotations/mobile-annotations.md)
       + 차원 {#dimensions}
          + [차원 미리보기](analysis-workspace/components/dimensions/view-dimensions.md)
          + [차원 분류](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [차원 시간 분할](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [지표](analysis-workspace/components/apply-create-metrics.md)
       + 세그먼트 {#segments}
-         + [세그먼트 만들기](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [개요](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [빠른 세그먼트](analysis-workspace/components/segments/quick-segments.md)
-      + 달력 및 날짜 범위 {#calendar-date-ranges}
+      + 날짜 범위 {#calendar-date-ranges}
          + [개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/create.md)
-         + [데이터 범위 관리](analysis-workspace/components/calendar-date-ranges/manage.md)
+         + [날짜 범위 관리](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [날짜 비교](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
          + [예](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + 데이터 사전 {#data-dictionary}
@@ -141,26 +141,26 @@ ht-degree: 97%
       + [전송 및 예약](analysis-workspace/curate-share/t-schedule-report.md)
    + 속성 {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
-      + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
+      + [모델, 컨테이너 및 전환 확인 기간](analysis-workspace/attribution/models.md)
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
-      + [속성 모범 사례](analysis-workspace/attribution/best-practices.md)
+      + [모범 사례](analysis-workspace/attribution/best-practices.md)
       + [FAQ](analysis-workspace/attribution/faq.md)
-   + [Journey IQ](analysis-workspace/journey-iq.md)
-   + [세그먼트 IQ](analysis-workspace/segment-iq.md)
+   + [여정 관리](analysis-workspace/journey-iq.md)
+   + [세그먼트 비교](analysis-workspace/segment-iq.md)
    + 예외 항목 탐지 {#anomaly-detection}
-      + [예외 항목 탐지 개요](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [Analysis Workspace에서 예외 항목 보기](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [개요](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [예외 항목 보기](analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [예외 항목 탐지 해제](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [기여도 분석 실행](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
-      + [예외 항목 탐지에서 사용된 통계 기법](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [통계 기법](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
    + 작업 공간 FAQ {#workspace-faq}
       + [자주 묻는 질문](analysis-workspace/workspace-faq/faq.md)
-      + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [오류 메시지](analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [오류 및 문제 해결](analysis-workspace/workspace-faq/error-messages.md)
+      + [제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
       + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Analysis Workspace 액세스 가능 여부](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [접근성](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Report Builder 개요](report-builder/rb-overview.md)
    + [Report Builder 설치](report-builder/report-builder-setup.md)

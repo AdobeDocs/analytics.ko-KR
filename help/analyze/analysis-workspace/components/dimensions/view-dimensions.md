@@ -1,17 +1,17 @@
 ---
-description: 프로젝트에서 사용하기 전에 차원의 상위 값을 봅니다.
+description: Analysis Workspace에서 차원의 세부 정보와 상위 값을 보는 방법에 대해 알아봅니다.
 title: 차원 미리 보기
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 21%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
-# Analysis Workspace의 차원 미리보기
+# 차원 미리보기
 
 구성 요소에 대한 [구성 요소 정보](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info)를 사용하여 차원의 상위 항목을 표시할 수 있습니다.
 

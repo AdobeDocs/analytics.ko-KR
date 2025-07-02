@@ -4,16 +4,16 @@ title: Analysis Workspace에서 예외 항목 보기
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 57%
+source-wordcount: '447'
+ht-degree: 52%
 
 ---
 
-# Analysis Workspace에서 예외 항목 보기
+# 예외 항목 보기
 
-테이블 또는 라인 차트에서 예외 항목을 볼 수 있습니다.
+Analysis Workspace의 예외 항목을 표 또는 선 차트로 볼 수 있습니다.
 
 ## 테이블에서 예외 항목 보기 {#section_869A87B92B574A38B017A980ED8A29C5}
 
@@ -27,9 +27,10 @@ ht-degree: 57%
 
    데이터 예외 항목이 감지된 각 행의 오른쪽 위 모서리에 ◥이(가) 나타납니다.
 
-   각 행 ➋의 **색 세로 선**&#x200B;은(는) 예상 값을 나타냅니다. 각 행 ➊의 **색 음영 영역**&#x200B;은(는) 실제 값을 나타냅니다. 라인(예상 값)과 음영 처리 영역(실제 값)을 비교하여 예외 항목이 있는지 여부를 결정합니다. (관찰은 [예외 항목 탐지에 사용된 통계 기법](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)에 설명된 고급 통계 기법을 기반으로 예외적인 것으로 간주됩니다.)
+   각 행 **의**&#x200B;색 세로 선➋은(는) 예상 값을 나타냅니다. 각 행 **의**&#x200B;색 음영 영역➊은(는) 실제 값을 나타냅니다. 라인(예상 값)과 음영 처리 영역(실제 값)을 비교하여 예외 항목이 있는지 여부를 결정합니다. (관찰은 [예외 항목 탐지에 사용된 통계 기법](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)에 설명된 고급 통계 기법을 기반으로 예외적인 것으로 간주됩니다.)
 
 1. 예외 항목에 대한 세부 정보를 보려면 행의 오른쪽 상단 모서리에서 ◥을(를) 선택하십시오. 실제 값이 예상 값보다 위 또는 아래로 벗어나는 정도(백분율로)가 표시됩니다.
+1. 기여도 분석을 시작하려면 [기여도 분석 열기](run-contribution-analysis.md)를 선택하십시오.
 
 ## 선 차트에서 예외 항목 보기
 
