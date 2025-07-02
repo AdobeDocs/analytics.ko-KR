@@ -47,5 +47,5 @@ Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두�
 >[!MORELIKETHIS]
 >
 >[보고서 구성 요소 설정](/help/components/vrs/vrs-components.md)
->>[데이터 사전 구성 요소 항목](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>&#x200B;>[데이터 사전 구성 요소 항목](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >
