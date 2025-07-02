@@ -51,8 +51,8 @@ Cross-Device Analytics의 기능에 대해 자세히 알려면 [Cross-Device Ana
 * 크로스 디바이스 분석은 보고서 세트 간에 작동하지 않으며 여러 보고서 세트의 데이터를 결합하지도 않습니다.
 * Adobe Analytics 보고서 세트는 둘 이상의 조직 ID에 매핑할 수 없습니다. Cross-Device Analytics는 주어진 보고서 세트 내에서 장치를 결합하므로 Cross-Device Analytics를 사용하여 여러 조직 ID 간에 데이터를 결합할 수 없습니다.
 * 교차 디바이스 분석은 여러 종속 구성 요소가 있는 복잡한 처리 파이프라인을 사용합니다. 이 파이프라인은 기본 Analytics 보고 워크플로와 동시에 실행됩니다. 원본 보고서 세트와 크로스 디바이스 분석 가상 보고서 세트의 총 히트 수에 대해 약 1%의 데이터 불일치가 발생할 수 있습니다.
-* 크로스 디바이스 분석은 가상 보고서 세트 및 보고서 처리 시간을 사용하는데, 여기에는 자체 제한 사항도 있습니다. 예를 들어 현재 마케팅 채널 변수는 지원되지 않습니다. 이러한 제한 사항에 대한 자세한 내용은 [가상 보고서 세트](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-about) 및 [보고서 처리 시간](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-report-time-processing)을 참조하십시오.
-* 비공개 그래프에서는 Experience Cloud 및 Adobe Analytics에서 발견된 [고객 특성](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) 기능에서 사용하는 ID 동기화와 동일한 ID 동기화를 사용합니다. 그러나 크로스 디바이스 분석 가상 보고서 세트(비공개 그래프나 필드 기반 결합에 따름)는 고객 특성 기능과 호환되지 않습니다. 즉, 고객 속성 기반 차원은 크로스 디바이스 분석 가상 보고서 세트와 함께 사용할 수 없습니다.
+* 크로스 디바이스 분석은 가상 보고서 세트 및 보고서 처리 시간을 사용하는데, 여기에는 자체 제한 사항도 있습니다. 예를 들어 현재 마케팅 채널 변수는 지원되지 않습니다. 이러한 제한 사항에 대한 자세한 내용은 [가상 보고서 세트](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-about) 및 [보고서 처리 시간](https://experienceleague.adobe.com/ko/docs/analytics/components/virtual-report-suites/vrs-report-time-processing)을 참조하십시오.
+* 비공개 그래프에서는 Experience Cloud 및 Adobe Analytics에서 발견된 [고객 특성](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/customer-attributes/attributes) 기능에서 사용하는 ID 동기화와 동일한 ID 동기화를 사용합니다. 그러나 크로스 디바이스 분석 가상 보고서 세트(비공개 그래프나 필드 기반 결합에 따름)는 고객 특성 기능과 호환되지 않습니다. 즉, 고객 속성 기반 차원은 크로스 디바이스 분석 가상 보고서 세트와 함께 사용할 수 없습니다.
 * Cross-Device Analytics는 현재 A4T와 호환되지 않습니다.
 * 1.4 API가 지원되지 않습니다. Power BI 커넥터와 Report Builder 모두 1.4 API에 의존하며, 따라서 CDA와 호환되지 않습니다.
 * Adobe의 크로스 디바이스 분석 결합 프로세스에 대한 모니터링 활성화는 프로덕션 보고서 세트로 제한됩니다.
