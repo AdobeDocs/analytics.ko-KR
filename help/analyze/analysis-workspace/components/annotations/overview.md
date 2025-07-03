@@ -32,7 +32,7 @@ ht-degree: 97%
 
 주석을 만들 수 있는 다양한 옵션은 [주석 만들기](create-annotations.md)를 참조하십시오. 그런 다음 [주석 빌더](create-annotations.md#annotation-builder)에서 주석을 빌드, 수정 및 저장합니다.
 
-[주석 관리자](manage-annotations.md) 를 사용하여 주석을 관리합니다.
+[주석 관리자](manage-annotations.md)를 사용하여 주석을 관리합니다.
 
 ## 주석 켜기 또는 끄기
 
@@ -67,7 +67,7 @@ Keep this in mind:
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
-However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko).
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 ## Turn annotations on or off {#annotations-on-off}
 

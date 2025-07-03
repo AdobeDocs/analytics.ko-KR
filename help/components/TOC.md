@@ -15,7 +15,7 @@ ht-degree: 100%
 # [!DNL Adobe Analytics] 구성 요소 안내서 {#components}
 
 + [Analytics Components 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 차원 {#dimensions}
    + [차원 개요](dimensions/overview.md)
    + [차원 호환성](dimensions/compatibility.md)
@@ -88,8 +88,8 @@ ht-degree: 100%
    + [Prop](dimensions/prop.md)
    + [사분기](dimensions/quarter-of-year.md)
    + [분기](dimensions/quarter.md)
-   + [레퍼러 유형](dimensions/referrer-type.md)
-   + [레퍼러](dimensions/referrer.md)
+   + [리퍼러 유형](dimensions/referrer-type.md)
+   + [리퍼러](dimensions/referrer.md)
    + [참조 도메인](dimensions/referring-domain.md)
    + [지역](dimensions/regions.md)
    + [재방문 빈도](dimensions/return-frequency.md)
