@@ -1,11 +1,11 @@
 ---
-description: 지도 시각화를 사용하여 지리 지도 시각화에 데이터를 플롯합니다
+description: 지도 시각화를 사용하여 지리 지도 시각화에 데이터를 플롯합니다.
 title: 맵
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 97%
@@ -46,7 +46,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 맵 시각화에 대해 설명합니다._<br/>_현재_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에서 사용할 수 있는 맵 시각화가 없습니다._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 맵 시각화에 대해 설명합니다._<br/>_현재_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에서 사용할 수 있는 맵 시각화가 없습니다._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 맵 시각화](https://video.tv.adobe.com/v/30890/?quality=12&captions=kor){target=&#34;_blank&#34;}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 맵 시각화](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/35003/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

@@ -4,10 +4,10 @@ title: 주요 지표 요약
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 100%
+source-wordcount: '948'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
    | **[!UICONTROL 지표]** | 검사할 지표를 선택합니다. 모든 지표가 지원됩니다. |
    | **[!UICONTROL 기본 날짜 범위]** | 자유 형식 테이블의 현재 날짜 범위입니다.<p>데이터 보기에서 사용 가능한 날짜 범위를 선택합니다.</p> <p>시각화가 위치한 패널에서 사용 중인 날짜 범위와 동일한 날짜 범위를 사용하려면 [!UICONTROL **패널 날짜 범위**]&#x200B;를 선택합니다.</p> |
    | **[!UICONTROL 비교 날짜 범위]** | 기본 날짜 범위와 비교하는 날짜 범위. |
-   | **[!UICONTROL 필터(선택 사항)]** | 이 요약에 관심이 있는 모든 필터. |
+   | **[!UICONTROL 세그먼트(선택 사항)]** | 이 요약에 관심이 있는 모든 세그먼트. |
 
    {style="table-layout:auto"}
 
@@ -114,15 +114,14 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ## 시각화 편집
 
-시각화를 빌드한 후에도 원래 구성을 편집할 수 있습니다.
+시각화를 작성한 후 원래 구성을 편집할 수 있습니다.
 
-1. 시각화 오른쪽 상단(설정 톱니바퀴 아이콘 옆)에 있는 연필 아이콘을 클릭합니다.
+1. 시각화의 오른쪽 상단 모서리에서 ![편집](/help/assets/icons/Edit.svg)을(를) 선택합니다.
 
-   ![시각화 편집 아이콘](assets/edit-icon.png)
 
-   이제 원래 구성 보기로 돌아갑니다.
+   이제 원래 [구성 보기](#configure)(으)로 돌아갑니다.
 
-1. 지표, 기본 날짜 범위, 비교 날짜 범위 또는 필터를 원하는 대로 변경합니다.
+1. 지표, 기본 날짜 범위, 비교 날짜 범위 또는 세그먼트를 원하는 대로 변경합니다.
 
 >[!MORELIKETHIS]
 >

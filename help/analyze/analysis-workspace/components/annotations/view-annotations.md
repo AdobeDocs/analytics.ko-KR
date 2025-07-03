@@ -1,12 +1,12 @@
 ---
 title: 주석 보기
-description: Analysis Workspace에서 주석을 보는 방법
+description: Analysis Workspace에서 주석을 보는 방법에 대해 알아봅니다.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '217'
 ht-degree: 84%
 
 ---

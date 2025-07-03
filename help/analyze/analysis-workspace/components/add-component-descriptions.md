@@ -1,13 +1,13 @@
 ---
-description: 관리자는 보고서 세트의 구성 요소나 데이터 사전을 사용하여 설명을 추가할 수 있습니다.
+description: 관리자가 보고서 세트 또는 데이터 사전을 사용하여 구성 요소에 설명을 추가하는 방법을 알아봅니다.
 title: 구성 요소 설명 추가
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 42%
+source-wordcount: '232'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,7 @@ Analytics 관리자는 보고서 세트 내에 있거나 Analysis Workspace 내�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 설명 추가](https://video.tv.adobe.com/v/39724?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 설명 추가](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두�
 >[!MORELIKETHIS]
 >
 >[보고서 구성 요소 설정](/help/components/vrs/vrs-components.md)
->&#x200B;>[데이터 사전 구성 요소 항목](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[데이터 사전 구성 요소 항목](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

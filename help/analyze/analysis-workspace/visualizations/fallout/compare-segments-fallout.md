@@ -5,10 +5,10 @@ title: 폴아웃 분석에서 세그먼트 적용
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 71%
+source-wordcount: '448'
+ht-degree: 42%
 
 ---
 
@@ -25,47 +25,45 @@ ht-degree: 71%
 >* 방문 컨텍스트 폴아웃 시각화에서 방문 기반 세그먼트를 터치포인트로 사용
 >
 
-## 터치 포인트에서 세그먼트 만들기 {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## 터치 포인트에서 세그먼트 만들기
 
 1. 특별히 관심이 있고, 다른 보고서에 적용하는 데 유용할 수 있는 특정 터치 포인트로부터 세그먼트를 만듭니다. 터치 포인트를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 터치 포인트에서 세그먼트 만들기]**&#x200B;를 선택하여 이 작업을 수행합니다.
 
-   ![](assets/segment-from-touchpoint.png)
+   ![](assets/fallout-createsegment.png)
 
    선택한 터치포인트와 일치하는 사전에 만들어진 순차적 세그먼트로 사전에 채워진 세그먼트 빌더가 열립니다.
 
-   ![](assets/segment-builder.png)
+   ![](assets/fallout-definesegment.png)
 
 1. 세그먼트에 제목과 설명을 지정하고 저장합니다.
 
-   이제 원하는 보고서에서 이 세그먼트를 사용할 수 있습니다.
+   이제 원하는 프로젝트에서 이 세그먼트를 사용할 수 있습니다.
 
-## 터치 포인트로서 세그먼트 추가 {#section_17611C1A07444BE891DC21EE8FC03EFC}
+## 터치 포인트로서 세그먼트 추가
 
-예를 들어, 어떻게 미국 사용자가 트렌드를 보이고 폴아웃에 영향을 주는지를 확인하려면 미국 사용자 세그먼트를 폴아웃으로 드래그하십시오.
+예를 들어 모바일 앱 히트 수가 어떻게 트렌드를 보이고 폴아웃에 영향을 주는지를 보려는 경우 모바일 앱 히트 세그먼트를 폴아웃으로 드래그하면 됩니다.
 
 ![](assets/segment-touchpoint.png)
 
-또는 미국 사용자 세그먼트를 다른 체크포인트로 드래그하여 AND 터치포인트를 만들 수 있습니다.
+또는 모바일 앱 히트 세그먼트를 다른 체크포인트로 드래그하여 AND 터치포인트를 만들 수 있습니다.
 
-## 폴아웃에서 세그먼트 비교 {#section_E0B761A69B1545908B52E05379277B56}
+## 폴아웃에서 세그먼트 비교
 
 폴아웃 시각화에서는 세그먼트를 무제한으로 비교할 수 있습니다. (아래 비디오에는 최대 3개의 세그먼트를 비교할 수 있다고 나와 있는데, 이는 잘못된 것입니다.)
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [폴아웃 시각화에서 세그먼트 비교](https://video.tv.adobe.com/v/30863?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [폴아웃 시각화에서 세그먼트 비교](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 
-1. 왼쪽의 [!UICONTROL 세그먼트] 레일에서 비교할 세그먼트를 선택합니다. 이 예에서는 미국 사용자와 비미국 사용자, 이렇게 2개의 세그먼트를 선택했습니다.
-1. 이 세그먼트들을 맨 위의 세그먼트 놓기 영역에 드래그합니다.
+1. 왼쪽의 [!UICONTROL 세그먼트] 패널에서 비교할 세그먼트를 선택합니다. 예제에서는 두 개의 세그먼트를 선택합니다. **[!UICONTROL iOS]** 및 **[!UICONTROL Android]**.
+1. 세 개의 세그먼트를 시각화 상단에 있는 세그먼트 드롭 영역으로 드래그합니다.
 
-   ![](assets/segment-drop.png)
+   ![](assets/segment-compare.png)
 
-1. 선택 사항: &quot;모든 방문 수&quot;를 기본 컨테이너로서 유지하거나 삭제할 수 있습니다.
+1. 선택 사항: *모든 사용자*&#x200B;를 기본 컨테이너로 유지하거나 컨테이너를 삭제할 수 있습니다.
 
-   ![](assets/seg-compare.png)
-
-1. 이제 하나의 세그먼트가 다른 세그먼트나 다른 통찰력을 능가하는 경우와 같이, 두 세그먼트에 대한 폴아웃을 비교할 수 있습니다.
+1. 이제 하나의 세그먼트가 다른 세그먼트나 다른 통찰력을 능가하는 경우와 같이, 세 세그먼트에 대한 폴아웃을 비교할 수 있습니다.

@@ -1,21 +1,21 @@
 ---
-title: 모바일 주석
-description: 모바일 스코어카드에서 주석을 표시하는 방법에 대해 알아봅니다.
+title: 모바일 스코어카드 주석
+description: 모바일 스코어카드에 주석을 표시하는 방법을 알아보십시오.
 role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 93%
+source-wordcount: '307'
+ht-degree: 86%
 
 ---
 
 
 # 모바일 스코어카드 주석
 
-모바일 스코어카드에서 Workspace에 만든 주석을 표시할 수 있습니다. 모바일 스코어카드의 주석을 사용하면 조직 및 캠페인에 대한 상황별 데이터 뉘앙스와 인사이트를 공유할 수 있습니다.
+모바일 스코어카드의 Analysis Workspace에서 생성된 주석을 표시할 수 있습니다. 모바일 스코어카드의 주석을 사용하면 조직 및 캠페인에 대한 상황별 데이터 뉘앙스와 인사이트를 공유할 수 있습니다.
 
 
 ## 모바일 스코어카드에서 주석 표시

@@ -4,14 +4,14 @@ title: 프로젝트 빠른 시작
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 24%
+source-wordcount: '74'
+ht-degree: 28%
 
 ---
 
-# 프로젝트를 빠르게 시작
+# 프로젝트를 빠르게 시작하기
 
 관련 패널 및 시각화를 사용하여 프로젝트를 빠르게 시작할 수 있습니다. 이렇게 하려면 Analysis Workspace에서 템플릿(또는 회사 템플릿)을 사용합니다. 템플릿은 가장 일반적인 보고 시나리오에 대한 빠른 인사이트를 제공합니다.
 

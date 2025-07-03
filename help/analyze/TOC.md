@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '868'
 ht-degree: 98%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -34,7 +34,7 @@ ht-degree: 98%
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + [목차](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace의 폴더 {#workspace-folders}
-         + [폴더 개요](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [개요](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 관리](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [프로젝트를 추가하거나 이동](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -42,9 +42,10 @@ ht-degree: 98%
       + [단축키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
+      + [디버거](analysis-workspace/build-workspace-project/debugger.md)
    + 템플릿 {#templates}
       + [템플릿 사용](analysis-workspace/templates/use-templates.md)
-      + [템플릿 만들기](analysis-workspace/templates/create-templates.md)
+      + [템플릿 만들기 및 관리](analysis-workspace/templates/create-templates.md)
    + 구성 요소 {#components}
       + [개요](analysis-workspace/components/analysis-workspace-components.md)
       + [구성 요소 사용](analysis-workspace/components/use-components-in-workspace.md)
@@ -99,8 +100,8 @@ ht-degree: 98%
          + [개요](analysis-workspace/visualizations/c-flow/flow.md)
          + [구성](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 흐름](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [영역 및 스택 영역](analysis-workspace/visualizations/area.md)
-      + [막대 및 스택 막대](analysis-workspace/visualizations/bar.md)
+      + [영역 (스택)](analysis-workspace/visualizations/area.md)
+      + [막대 (스택)](analysis-workspace/visualizations/bar.md)
       + [글머리 기호](analysis-workspace/visualizations/bullet-graph.md)
       + [콤보](analysis-workspace/visualizations/combo-charts.md)
       + [도넛](analysis-workspace/visualizations/donut.md)

@@ -4,10 +4,10 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '1658'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 95%
    | **[!UICONTROL 처음/마지막 발생으로 제한]** | 차원, 항목 또는 지표의 처음 또는 마지막 발생으로 진입 또는 종료하는 경로로 경로를 제한합니다. 자세한 설명은 [처음/마지막 발생으로 제한](#example-scenario-for-limit-to-firstlast-occurrence)을 참조하십시오. |
    | **[!UICONTROL 열 수]** | 플로우 다이어그램에 원하는 열 수입니다. 최대 5개의 열을 지정할 수 있습니다. |
    | **[!UICONTROL 열당 항목 확장됨]** | 각 열에 원하는 항목 수입니다. 열당 확장된 최대 10개의 항목을 지정할 수 있습니다. |
-   | **[!UICONTROL 플로우 컨테이너]** | **[!UICONTROL 세션]**&#x200B;과 **[!UICONTROL 개인]** 간을 전환하여 경로 지정을 분석할 수 있습니다. 이 설정은 세션들에 대해 사용자 수준에서 사용자 참여를 이해하거나 분석을 단일 세션으로 제한하는 데 도움이 됩니다. |
+   | **[!UICONTROL 플로우 컨테이너]** | **[!UICONTROL 방문]**&#x200B;과(와) **[!UICONTROL 방문자]** 간을 전환하여 경로 지정을 분석할 수 있습니다. 이러한 설정은 방문에 대해 방문자 수준에서 방문자의 참여를 이해하거나 분석을 단일 방문으로 제한하는 데 도움이 됩니다. |
 
    >[!IMPORTANT]
    >
@@ -173,7 +173,7 @@ ht-degree: 95%
 | **[!UICONTROL 항목 제외]** 또는 **[!UICONTROL 제외된 항목 복원]** | 열에서 특정 노드를 제거하고 열 맨 위에 필터로 자동으로 만듭니다. 제외된 항목을 복원하려면 컨텍스트 메뉴에서 **[!UICONTROL 제외된 항목 복원]**&#x200B;을 선택합니다. 또한 열의 맨 위에 있는 필터를 열고 방금 제외한 항목이 있는 필박스를 제거할 수도 있습니다. |
 | **[!UICONTROL 트렌드]** | 노드에 대한 트렌드 다이어그램을 만듭니다. |
 | **[!UICONTROL 다음 열 표시]** / **[!UICONTROL 이전 열 표시]** | 시각화의 다음(오른쪽) 또는 이전(왼쪽) 열을 표시합니다. |
-| **[!UICONTROL 열 숨기기]**&#x200B;n | 시각화에서 선택한 열을 숨깁니다. |
+| **[!UICONTROL 열 숨기기]**n | 시각화에서 선택한 열을 숨깁니다. |
 | **[!UICONTROL 전체 열 확장]** | 모든 노드를 표시하도록 열을 확장합니다. 기본적으로 상위 5개의 노드만 표시됩니다. |
 | **[!UICONTROL 선택 항목으로 대상자 만들기]** | 선택된 열에 따라 대상자를 만듭니다. |
 | **[!UICONTROL 전체 열 축소]** | 열에 있는 모든 노드를 숨깁니다. |
@@ -195,15 +195,15 @@ ht-degree: 95%
 
   아래 예시에서는 플로우의 각 단계에서 *제품 주요 카테고리* 및 *장바구니에 추가*&#x200B;가 **마지막** 발생에만 포함되어 있습니다.
   ![Lint, 시작](assets/limitonlast.png)
-* 사용된 시리즈는 컨테이너에 따라 다릅니다. **[!UICONTROL 개인]** 컨테이너를 사용하는 경우 일련의 이벤트가 세션이 됩니다. **[!UICONTROL 세션]** 컨테이너를 사용하는 경우, 일련의 모든 이벤트가 제공된 날짜 범위에서 지정된 사용자의 모든 이벤트 수가 됩니다.
+* 사용된 시리즈는 컨테이너에 따라 다릅니다. **[!UICONTROL 방문자]** 컨테이너를 사용하는 경우 일련의 이벤트는 방문입니다. **[!UICONTROL 방문자]** 컨테이너를 사용하는 경우 일련의 이벤트는 제공된 날짜 범위에서 지정된 사용자의 모든 히트입니다.
 * **[!UICONTROL 다음으로 시작]** 또는 **[!UICONTROL 다음으로 끝남]** 필드에서 지표 또는 차원 항목을 사용할 때 고급 설정에서 **[!UICONTROL 처음/마지막 발생으로 제한]** 옵션을 구성할 수 있습니다.
 
 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

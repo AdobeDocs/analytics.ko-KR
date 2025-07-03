@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspace에서 자유 형식 테이블을 필터링하고 정렬하는 방법을 알아봅니다.
-title: 테이블 필터링 및 정렬
+title: 필터링 및 정렬
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '832'
 ht-degree: 98%
 
 ---
 
-# 자유 형식 테이블 필터링 및 정렬
+# 필터링 및 정렬
 
 Analysis Workspace의 자유 형식 테이블은 대화형 데이터 분석을 위한 기반입니다. 그에 따라 자유 형식 테이블은 수천 개의 정보 행을 포함할 수 있습니다. 데이터를 필터링하고 정렬하는 것은 가장 중요한 정보를 효율적으로 표시하는 데 필수적인 부분이 될 수 있습니다.
 
