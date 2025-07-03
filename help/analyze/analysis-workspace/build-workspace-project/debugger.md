@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: 프로젝트 디버거
 role: User
-source-git-commit: e7aaafc95f60c71744cfeb3c59310d8ba2ea2576
+exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
+source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 3%
 
 ---
@@ -74,7 +75,7 @@ ht-degree: 3%
    * JSON (응답)
    * cURL 요청
 
-1. ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 클립보드에 복사]**&#x200B;d **[!UICONTROL cURL 요청]** 아래에서 요청을 클립보드에 복사합니다.
+1. 요청을 클립보드에 복사하려면 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 클립보드에 복사]** cURL 요청&#x200B;**[!UICONTROL 아래의]**&#x200B;을(를) 사용합니다.
 1. **[!UICONTROL 요청]** 또는 **[!UICONTROL 응답]** 텍스트 영역 위로 마우스를 가져간 후 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 클립보드에 복사]**&#x200B;를 선택하여 해당 텍스트 영역(XML 또는 JSON)의 내용을 클립보드에 복사합니다.
 
 1. 복사한 정보와 Adobe 지원에서 Analysis Workspace 프로젝트의 시각화 문제를 해결하기 위해 요청한 정보를 교환합니다.
@@ -95,6 +96,3 @@ ht-degree: 3%
 1. Analysis Workspace 프로젝트 메뉴에서 **[!UICONTROL 도움말]** > **[!UICONTROL 디버거 사용 안 함]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 디버거 사용 안 함]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 1. 페이지 또는 사이트를 다시 로드하라는 브라우저의 메시지가 표시되면 확인합니다.
-
-
-
