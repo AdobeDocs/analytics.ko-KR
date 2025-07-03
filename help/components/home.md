@@ -4,9 +4,9 @@ description: Adobe Analytics가 제공하는 다양한 구성 요소에 대해 �
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
 source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '211'
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ Analytics 구성 요소를 사용하면 데이터 분석을 세부적으로 조�
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko)
+[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://experienceleague.adobe.com/ko?support-solution=Analytics#support)
-* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko)
-* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ko)
+* [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

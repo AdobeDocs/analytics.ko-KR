@@ -5,9 +5,9 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 
 관리자는 회사 템플릿을 편집하거나 삭제할 수 있습니다.
 
-1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 **[!UICONTROL _login_company_name _템플릿]**&#x200B;을 선택합니다.
+1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 **[!UICONTROL _login_company_name _템플릿]**을 선택합니다.
 
 1. 열 보기 ![열 보기 아이콘](assets/column-view-icon.png)에서 템플릿을 보는 방법:
 
@@ -55,7 +55,7 @@ ht-degree: 98%
 
    1. **[!UICONTROL 미리보기]**&#x200B;를 선택합니다.
 
-   1. 자세히 아이콘을 선택한 다음 **[!UICONTROL 편집]** 또는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+   1. 더 보기 아이콘을 선택한 다음 **[!UICONTROL 편집]** 또는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
       ![템플릿 편집 또는 삭제](assets/company-template-edit-delete.png)
 
