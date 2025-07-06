@@ -1,16 +1,16 @@
 ---
-description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 차원, 세그먼트 및 이벤트를 세그먼트 방문자로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 방문과 페이지 히트에 걸쳐 방문자 속성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성하고 저장할 수 있습니다.
-title: 세그먼트 빌드
+description: 지표, 차원, 세그먼트 및 이벤트의 드래그 앤 드롭을 사용하여 세그먼트를 작성하는 방법을 이해합니다. 방문 횟수 및 페이지 히트 수에 걸쳐 방문자 속성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성하고 저장하는 방법을 이해합니다.
+title: 세그먼트 작성
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
-workflow-type: ht
-source-wordcount: '2152'
-ht-degree: 100%
+source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+workflow-type: tm+mt
+source-wordcount: '1847'
+ht-degree: 81%
 
 ---
 
-# 세그먼트 빌더 {#segment-builder}
+# 세그먼트 빌드 {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="데이터 미리보기"
->abstract="이 세그먼트의 데이터를 데이터 보기의 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안의 데이터 보기 총 수를 기준으로 합니다.<br><br/>미리보기가 로드되지 않는다면 연결이 아직 다시 채우는 중일 수 있습니다."
+>abstract="이 세그먼트의 데이터를 보고서 세트의 데이터와 비교합니다. 미리 보기 비율은 **지난 90일**&#x200B;의 총 수를 기반으로 합니다.<br><br/>미리보기가 로드되지 않는다면 연결이 아직 다시 채우는 중일 수 있습니다."
 
 
 **[!UICONTROL 세그먼트 빌더]** 대화 상자를 사용하여 세그먼트를 새로 만들거나 기존 필터를 편집합니다. 대화 상자 제목은 [[!UICONTROL 세그먼트] 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에서 만들거나 관리하는 세그먼트에 대한 **[!UICONTROL 새로운 세그먼트]** 또는 **[!UICONTROL 필터 세그먼트]**&#x200B;으로 지정됩니다.
@@ -47,7 +47,7 @@ ht-degree: 100%
    | 요소 | 설명 |
    | --- | --- |
    | **[!UICONTROL 보고서 세트]** | 세그먼트에 대한 보고서 세트를 선택할 수 있습니다. |
-   | **[!UICONTROL 프로젝트 전용 세그먼트]** | 세그먼트가 생성된 프로젝트에서만 표시되며 구성 요소 목록에 세그먼트가 추가되지 않았다는 것을 설명하는 정보 상자. **[!UICONTROL 이 세그먼트가 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]**&#x200B;를 활성화하여 해당 설정을 변경합니다. 이 정보 상자는 [빠른 세그먼트](seg-quick.md)를 만들고 **[!UICONTROL 빠른 세그먼트]** 인터페이스의 [!UICONTROL 빌더 열기]를 사용하여 빠른 세그먼트 정보를 일반 세그먼트로 전환할 때만 표시됩니다. |
+   | **[!UICONTROL 프로젝트 전용 세그먼트]** | 세그먼트가 생성된 프로젝트에서만 볼 수 있음을 설명하는 정보 상자입니다. 또한 세그먼트가 구성 요소 목록에 추가되지 않습니다. **[!UICONTROL 이 세그먼트가 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]**&#x200B;를 활성화하여 해당 설정을 변경합니다. 이 정보 상자는 [빠른 세그먼트](seg-quick.md)를 만들고 **[!UICONTROL 빠른 세그먼트]** 인터페이스의 [!UICONTROL 빌더 열기]를 사용하여 빠른 세그먼트 정보를 일반 세그먼트로 전환할 때만 표시됩니다. |
    | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 세그먼트의 이름을 지정합니다(예: `Last month mobile visitors`). |
    | **[!UICONTROL 설명]** | 세그먼트에 대한 설명을 입력합니다(예: `Segment to define the mobile customers for the last month`). |
    | **[!UICONTROL 태그]** | 하나 이상의 태그를 만들거나 적용하여 세그먼트를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
@@ -170,7 +170,7 @@ ht-degree: 100%
 
 
 
-세그먼트 빌더에서 차원을 사용하면 해당 차원에 대한 속성 모델을 지정하는 옵션이 제공됩니다. 선택한 속성 모델은 차원 구성 요소에 대해 지정한 조건에 데이터가 적합한지 여부를 결정합니다.
+세그먼트 빌더에서 차원을 사용하면 해당 차원에 대한 속성 모델을 지정하는 옵션이 제공됩니다. 선택하는 속성 모델에 따라 차원 구성 요소에 대해 지정한 조건에 데이터가 적합한지 여부가 결정됩니다.
 
 차원 구성 요소 내에서 ![설정](/help/assets/icons/Setting.svg)을 선택하고 팝업에서 속성 모델 중 하나를 선택합니다.
 
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -362,9 +362,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## 세그먼트 템플릿 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-세그먼트 템플릿은 “처음 방문” 또는 “모바일 디바이스에서 방문”과 같은 일반적인 세그먼테이션 사용을 위해 제공합니다. Workspace 프로젝트와 세그먼트 빌더에서 새 세그먼트를 위한 기본 요소로 사용할 수 있습니다.
+세그먼트 템플릿은 **[!UICONTROL 처음 방문]** 또는 **[!UICONTROL 모바일 장치에서 방문]**&#x200B;과 같은 일반적인 세그먼테이션 사용 사례에 대해 제공됩니다. Workspace 프로젝트와 세그먼트 빌더에서 새 세그먼트를 위한 기본 요소로 사용할 수 있습니다.
 
-템플릿은 Adobe “A” 로고로 표시됩니다. 템플릿 샘플은 아래에 나와 있습니다.
+Adobe 로고 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)은 템플릿을 식별합니다. 사용 가능한 템플릿 샘플은 아래에 나와 있습니다.
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -376,75 +376,79 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
  <tbody> 
   <tr> 
    <td colname="col1"> 장바구니 포기 </td> 
-   <td colname="col2">장바구니에 품목을 추가했지만 아직 주문하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 순차적 세그먼트에 대한 규칙은 다음과 같습니다. <p> 장바구니 추가는 null입니다. </p> <p>Then </p> <p>주문은 0입니다. </p> </td> 
+   <td colname="col2">장바구니에 품목을 추가했지만 아직 주문하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 최초 방문 </td> 
-   <td colname="col2">최대 [1]회 방문한 방문자에 대한 데이터를 봅니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>방문 번호가 1. </p> </td> 
+   <td colname="col2">최대 [1]회 방문한 방문자에 대한 데이터를 봅니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 비구매자 </td> 
-   <td colname="col2">주문 이벤트에 참가하지 않은 방문자에 대한 데이터를 봅니다. 세그먼트 정의에서 이 컨테이너는 방문자입니다. 이 세그먼트는 제외 로직을 사용합니다. 규칙: <p>주문은 null이 아닙니다. </p> </td> 
+   <td colname="col2">주문 이벤트에 참가하지 않은 방문자에 대한 데이터를 봅니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 단일 페이지 방문 아님 (바운스 아님) </td> 
-   <td colname="col2">두 번 이상 방문한 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문자입니다. 이 세그먼트는 제외 로직을 사용합니다. 규칙: <p>단일 액세스가 null이 아닙니다. </p> </td> 
+   <td colname="col2">두 번 이상 방문한 방문자에 대한 데이터를 표시합니다.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 유료 검색 </td> 
-   <td colname="col2">유료 검색에서 시작한 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>유료 검색은 1입니다. </p> </td> 
+   <td colname="col2">유료 검색에서 시작한 방문자의 데이터를 표시합니다.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 구매자 </td> 
-   <td colname="col2">주문 이벤트에 참가한 방문자에 대한 데이터를 봅니다. 세그먼트 정의에서 이 컨테이너는 방문자입니다. 규칙: <p>주문은 null이 아닙니다. </p> </td> 
+   <td colname="col2">주문 이벤트에 참가한 방문자에 대한 데이터를 봅니다.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 재방문 </td> 
-   <td colname="col2">1번 이상 방문한 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>방문 번호가 1보다 큼. </p> </td> 
+   <td colname="col2">한 번 이상 방문한 방문자의 데이터를 표시합니다.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 단일 페이지 방문 횟수 </td> 
-   <td colname="col2"> 해당 방문 중에 여러 페이지 보기를 제출할 수 있더라도 단일 페이지 값을 열람한 방문의 데이터를 표시합니다. 종료 링크 이벤트가 있는 단일 페이지 방문이 세그먼트에 포함됩니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>단일 페이지 방문 횟수는 1입니다. </p> </td> 
+   <td colname="col2"> 해당 방문 중에 여러 페이지 보기를 제출할 수 있더라도 단일 페이지 값을 열람한 방문의 데이터를 표시합니다. 종료 링크 이벤트가 있는 단일 페이지 방문이 세그먼트에 포함됩니다.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 열람되었지만 장바구니에 추가되지 않은 제품 </td> 
-   <td colname="col2">제품을 열람했지만 장바구니에 추가하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 순차적 세그먼트에 대한 규칙은 다음과 같습니다. <p>제품 보기가 null이 아닙니다. </p> <p>Then </p> <p> 장바구니 추가는 0입니다. </p> </td> 
+   <td colname="col2">제품을 열람했지만 장바구니에 추가하지 않은 방문자의 데이터를 표시합니다.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 캠페인에서 방문 </td> 
-   <td colname="col2">캠페인에서 참조한 방문자에 대한 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>추적 코드가 null이 아닙니다. </p> </td> 
+   <td colname="col2">캠페인에서 참조한 방문자의 데이터를 표시합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 모바일 디바이스를 통한 방문 </td> 
-   <td colname="col2">모바일 디바이스를 사용한 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>모바일 디바이스가 Null이 아닙니다. </p> </td> 
+   <td colname="col2">모바일 장치를 사용한 방문자의 데이터를 표시합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 자연어 검색으로 찾아온 방문 </td> 
-   <td colname="col2">유료 검색에서 시작하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>유료 검색은 0입니다. </p> </td> 
+   <td colname="col2">유료 검색에서 시작하지 않은 방문자의 데이터를 표시합니다.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 비모바일 디바이스에서 시작된 방문 </td> 
-   <td colname="col2">모바일 디바이스를 사용하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 이 세그먼트는 제외 로직을 사용합니다. 규칙: <p>모바일 디바이스 유형이 휴대 전화와 같음 </p> <p>또는 </p> <p>모바일 디바이스 유형이 태블릿과 같음. </p> </td> 
+   <td colname="col2">모바일 장치를 사용하지 않은 방문자의 데이터를 표시합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 휴대폰에서 시작된 방문 </td> 
-   <td colname="col2">휴대폰을 사용한 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>디바이스 유형이 휴대폰입니다. </p> </td> 
+   <td colname="col2">휴대폰을 사용한 방문자의 데이터를 표시합니다.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 검색 엔진에서 시작된 방문 </td> 
-   <td colname="col2">검색 엔진에서 참조한 방문자에 대한 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>리퍼러 유형이 검색 엔진입니다. </p> </td> 
+   <td colname="col2">검색 엔진에서 참조한 방문자의 데이터를 표시합니다.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> 소셜 사이트에서 찾아온 방문 </td> 
-   <td colname="col2">소셜 사이트에서 참조한 방문자에 대한 데이터를 봅니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>리퍼러 유형이 소셜 네트워크. </p> </td> 
+   <td colname="col2">소셜 사이트에서 참조한 방문자의 데이터를 표시합니다.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> 태블릿에서 시작된 방문 </td> 
-   <td colname="col2">태블릿을 사용한 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>디바이스 유형이 태블릿입니다. </p> </td> 
+   <td colname="col2">태블릿을 사용한 방문자의 데이터를 표시합니다.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> 방문자 ID를 갖는 방문 </td> 
-   <td colname="col2">영구적 쿠키가 필요한 사이트의 방문자에 대한 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 규칙: <p>영구적 쿠키는 1입니다. </p> </td> 
+   <td colname="col2">영구적 쿠키가 필요한 사이트의 방문자에 대한 데이터를 표시합니다.</td> 
   </tr> 
  </tbody> 
 </table>
+
+각 세그먼트의 정의를 보려면 ![InfoOutline](/help/assets/icons/InfoOutline.svg)을(를) 사용하십시오. 예를 들어 **[!UICONTROL iOS]** 템플릿의 경우:
+
+![Adobe 템플릿 세그먼트에 대한 정의](assets/adobe-template-definition.png)
