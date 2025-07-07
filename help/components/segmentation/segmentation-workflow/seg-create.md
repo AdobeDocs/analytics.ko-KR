@@ -2,7 +2,8 @@
 description: 세그먼트 생성 사용자 인터페이스를 이해합니다.
 title: 세그먼트 만들기
 feature: Segmentation
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+exl-id: 0cec43bd-c2cc-4c8a-ae16-e8b5ad61f281
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 3%
@@ -19,12 +20,12 @@ Adobe Analytics에서 다양한 유형의 세그먼트를 만들 수 있습니�
 
 ![세그먼트를 만드는 방법](assets/create-segment.png)
 
-* **A**. 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 세그먼트]**&#x200B;를 선택합니다. [[!UICONTROL 세그먼트] 관리자](seg-manage.md)에서 ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL 추가]**]를 선택합니다.
-* **B**. Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![세그먼트](/help/assets/icons/Segmentation.svg) **세그먼트**&#x200B;의 ![추가](/help/assets/icons/Add.svg)를 선택합니다.
+* **A**. 주 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 세그먼트]**&#x200B;를 선택합니다. ![세그먼트](/help/assets/icons/AddCircle.svg) 관리자[!UICONTROL **[!UICONTROL 에서 ]**]AddCircle[추가](seg-manage.md)를 선택합니다.
+* **B**. Workspace 프로젝트의 구성 요소 왼쪽 패널에서 ![세그먼트](/help/assets/icons/Add.svg) ![세그먼트](/help/assets/icons/Segmentation.svg)의 **추가**&#x200B;를 선택합니다.
 * **C**. Workspace 프로젝트의 시각화에 있는 컨텍스트 메뉴에서 **[!UICONTROL 선택 항목에서 세그먼트 만들기]**&#x200B;를 선택합니다.
 * **D**. Workspace 프로젝트의 메뉴에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 세그먼트 만들기]**&#x200B;를 선택합니다.
 * **E**. Workspace 프로젝트에서 바로 가기 **[!UICONTROL shift+cmd+e]**(macOS) 또는 **[!UICONTROL shift+ctrl+e]**(Windows)을 사용합니다.
-* **F**. ***여기에 세그먼트(또는 다른 구성 요소) 놓기*** 놓기 영역에서 ![추가](/help/assets/icons/Add.svg)를 선택합니다. 이 작업은 프로젝트 전용 세그먼트를 만듭니다.
+* **F**. ![여기에 세그먼트(또는 다른 구성 요소) 놓기](/help/assets/icons/Add.svg) 놓기 영역에서 ***추가***&#x200B;를 선택합니다. 이 작업은 프로젝트 전용 세그먼트를 만듭니다.
 
 새 세그먼트를 정의하려면 [세그먼트 빌더](seg-build.md)를 사용합니다.
 

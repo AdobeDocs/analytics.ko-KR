@@ -1,12 +1,12 @@
 ---
-description: 관리자와 관리자가 아닌 사용자 간의 세그먼트를 사용하는 비교 차트입니다.
+description: 세그먼트를 사용하고 관리하기 위한 관리자와 관리자가 아닌 사용자 간의 차이점에 대해 알아봅니다.
 title: 역할별 세그먼트 권한
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 9%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 

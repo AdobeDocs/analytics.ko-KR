@@ -1,12 +1,12 @@
 ---
-description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 사용하여 작성됩니다. THEN은 하나의 세그먼트 기준이 발생하고 그 뒤에 다른 하나의 세그먼트 기준이 있음을 의미합니다. 기본적으로 순차적 세그먼트는 일치하는 모든 데이터를 식별하고 "모든 사용자 포함" 필터를 표시합니다. 순차적 세그먼트는 추가적으로 "시퀀스 이전에만" 및 "시퀀스 이후에만" 옵션을 사용하여 일치하는 항목의 하위 집합으로 필터링될 수 있습니다.
-title: 순차적 세그먼트 작성
+description: THEN 연산자를 사용하여 일련의 세그먼트 조건을 정의하는 순차적 세그먼트에 대해 알아봅니다.
+title: SequentialSegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
+source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 6%
+source-wordcount: '2375'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [순차적 세그먼테이션](https://video.tv.adobe.com/v/32591?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [순차적 세그먼테이션](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 ## 기본 사항
 
-순차적 세그먼트를 만드는 기본 사항은 [세그먼트 빌더](seg-build.md)를 사용하여 일반 세그먼트를 만드는 것과 다를 바 없습니다. 기본 정의나 [세그먼테이션 빌더](seg-build.md)에서 사용하는 컨테이너에서 **[!UICONTROL Then]** 연산자를 선택하면 일반 세그먼트가 자동으로 순차적 세그먼트가 됩니다.
+순차적 세그먼트를 만드는 기본 사항은 [세그먼트 빌더](seg-build.md)를 사용하여 일반 세그먼트를 만드는 것과 다를 바 없습니다. 기본 정의나 **[!UICONTROL 세그먼테이션 빌더]**&#x200B;에서 사용하는 컨테이너에서 [Then](seg-build.md) 연산자를 선택하면 일반 세그먼트가 자동으로 순차적 세그먼트가 됩니다.
 
 ### 예
 
@@ -69,7 +69,7 @@ ht-degree: 6%
 
 ## [!UICONTROL 이후] 및 [!UICONTROL 내부]
 
-**[!UICONTROL Then]** 연산자에서 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]**&#x200B;을(를) 사용하여 [시간 제약 조건](#time-constraints) 또는 [히트, 방문 또는 차원에 대한 제약 조건](#event-session-and-dimension-constraints)을 추가로 정의할 수 있습니다.
+![Then](/help/assets/icons/Clock.svg) 연산자에서 **[!UICONTROL Clock]** ![After](/help/assets/icons/Clock.svg) 및 **[!UICONTROL Clock]** **[!UICONTROL Within]**&#x200B;을(를) 사용하여 [시간 제약 조건](#time-constraints) 또는 [히트, 방문 또는 차원에 대한 제약 조건](#event-session-and-dimension-constraints)을 추가로 정의할 수 있습니다.
 
 ### 시간 제한
 
@@ -78,7 +78,7 @@ ht-degree: 6%
 1. ![시계](/help/assets/icons/Clock.svg)를 선택합니다.
 1. 컨텍스트 메뉴에서 **[!UICONTROL Within]** 또는 **[!UICONTROL After]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 년]**&#x200B;까지 기간(**[!UICONTROL 분]**, **[!UICONTROL 시간]**)을 지정하십시오.
-1. **[!UICONTROL -]** 또는 **[!UICONTROL +]**&#x200B;을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면 ![VDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;을(를) 선택하십시오.
+1. ![-](/help/assets/icons/ChevronDown.svg) 또는 **[!UICONTROL *+*]**을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면**[!UICONTROL  VDown ]****[!UICONTROL  number ]**을(를) 선택하십시오.
 
 시간 제약 조건을 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 사용하십시오.
 
@@ -97,7 +97,7 @@ ht-degree: 6%
 
 ##### [!UICONTROL After] 연산자
 
-2주 후에만 한 페이지를 방문한 다음 다른 페이지를 방문한 방문자를 식별합니다. 예를 들어, 홈 페이지를 방문한 방문자는 여성 | 2주 후에야 구두 페이지를 엽니다.
+2주 후에만 한 페이지를 방문한 다음 다른 페이지를 방문한 방문자를 식별합니다. 예를 들어, 홈 페이지를 방문한 방문자는 있지만 여성은 | 2주 후에야 구두 페이지를 엽니다.
 
 ![다음 순서](assets/sequence-after.png)
 
@@ -113,7 +113,7 @@ ht-degree: 6%
 
 ##### [!UICONTROL After], [!UICONTROL Within] 연산자
 
-한 페이지를 방문한 다음 2주 후, 그러나 1개월 내에 다른 페이지를 방문한 방문자를 식별합니다. 예를 들어, 홈 페이지를 방문한 방문자와 2주 후 그리고 1개월 내에 여성을 방문한 방문자 | 신발 페이지.
+한 페이지를 방문한 다음 2주 후, 그러나 1개월 내에 다른 페이지를 방문한 방문자를 식별합니다. 예를 들어 홈 페이지를 방문한 다음 2주 후 그리고 1개월 내에 여성을 방문한 방문자 | 신발 페이지.
 
 ![다음 이후지만 ](assets/sequence-afterbutwithin.png) 이내에 시퀀스
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 
 ### [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL Dimension] 제한
 
-![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 히트, 방문 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 히트]**, **[!UICONTROL 방문]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**&#x200B;을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
+![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 히트, 방문 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 히트]**, **[!UICONTROL 방문]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
 
 #### 예
 
@@ -193,7 +193,7 @@ ht-degree: 6%
 
 ## [!UICONTROL 제외]
 
-**[!UICONTROL 제외]**&#x200B;를 사용하여 ![사용자](/help/assets/icons/User.svg) [!UICONTROL 사람], ![방문](/help/assets/icons/Visit.svg) [!UICONTROL 방문] 또는 ![웹 페이지](/help/assets/icons/WebPage.svg) [!UICONTROL 히트] 데이터를 구체적으로 제외하지 않으면 세그먼트 정의에 모든 데이터가 포함됩니다.
+![제외](/help/assets/icons/User.svg)를 사용하여 [!UICONTROL 사용자] ![사람](/help/assets/icons/Visit.svg), [!UICONTROL 방문] ![방문](/help/assets/icons/WebPage.svg) 또는 [!UICONTROL 웹 페이지] **[!UICONTROL 히트]** 데이터를 구체적으로 제외하지 않으면 세그먼트 정의에 모든 데이터가 포함됩니다.
 
 [!UICONTROL 제외]를 사용하면 일반 데이터를 무시하고 더 많은 포커스를 가진 세그먼트를 만들 수 있습니다. 또한 제외를 사용하면 특정 방문자 그룹을 제외하는 세그먼트를 만들 수 있습니다. 예를 들어 주문을 한 방문자를 지정한 다음 해당 방문자 그룹을 제외하여 *비구매자*&#x200B;를 식별하는 세그먼트를 정의할 수 있습니다. 가장 좋은 방법은 특정 포함 값과 일치하는 특정 방문자를 타깃팅하기 위해 [!UICONTROL 제외]를 사용하는 대신 광범위한 정의를 사용하는 규칙을 만드는 것입니다.
 
@@ -213,7 +213,7 @@ ht-degree: 6%
 
 #### [!UICONTROL 제외]
 
-한 페이지를 방문한 방문자, 다른 페이지를 방문하지 않은 방문자, 다른 페이지를 방문한 방문자를 식별합니다. ![설정](/help/assets/icons/Setting.svg) [!UICONTROL 제외]를 사용하여 컨테이너를 제외합니다. 제외된 컨테이너는 왼쪽의 얇은 빨간색 막대로 식별됩니다.
+한 페이지를 방문하고 다른 페이지를 방문하지 않은 다음 다른 페이지를 방문한 방문자를 식별합니다. ![설정](/help/assets/icons/Setting.svg) [!UICONTROL 제외]를 사용하여 컨테이너를 제외합니다. 왼쪽의 얇은 빨간색 막대는 제외된 컨테이너를 나타냅니다.
 
 ![시퀀스 제외](assets/sequence-exclude.png)
 
@@ -238,7 +238,7 @@ ht-degree: 6%
 >
 >[!UICONTROL 논리 그룹]은(는) 순차적 세그먼트에서만 정의할 수 있습니다. 즉, [!UICONTROL Then] 연산자가 컨테이너 내에서 사용됩니다.
 
-논리 그룹을 사용하면 조건을 하나의 순차적 세그먼트 체크포인트로 그룹화할 수 있습니다. 시퀀스의 일부로서, 논리 그룹으로 식별된 컨테이너에 정의된 논리는 이전의 순차적 체크포인트 후와 다음의 순차적 체크포인트 전에 평가됩니다.
+논리 그룹 컨테이너는 조건을 하나의 순차적 세그먼트 체크포인트로 그룹화할 수 있습니다. 시퀀스의 일부로서, 논리 그룹으로 식별된 컨테이너에 정의된 논리는 이전의 순차적 체크포인트 후와 다음의 순차적 체크포인트 전에 평가됩니다.
 
 논리 그룹 자체 내의 조건은 임의의 순서로 충족될 수 있습니다. 그와 대조적으로, 비순차적 컨테이너(히트, 방문, 방문자)는 전체 시퀀스 내에서 조건을 충족할 필요가 없으므로 **[!UICONTROL Then]** 연산자와 함께 사용할 경우 직관적이지 않은 결과가 발생할 수 있습니다.
 
@@ -295,11 +295,11 @@ An example of a complex sequential segment if you want to find the visitors that
 
 ## 마지막 예
 
-마지막 예로, Empower Your Move 캠페인이 터치한 적이 없는 특정 제품 페이지에 대해 학습한 방문자를 식별하려고 합니다. 그리고 온라인 스토어에 첫 번째 방문에서 홈 페이지를 보았지만 남성 카테고리의 어떤 피트니스 (장비) 제품도 자세히 보지 않았습니다. 그러나 이후 바로 다음 방문에서는 홈페이지를 먼저 거치지 않고 제품 페이지로 이동하여 온라인 주문을 진행했습니다.
+마지막 예로, Empower Your Move 캠페인이 터치한 적이 없는 특정 제품 페이지에 대해 학습한 방문자를 식별하려고 합니다. 그리고 온라인 스토어에 첫 번째 방문에서 홈 페이지를 보았지만 남성 카테고리의 어떤 피트니스 (장비) 제품도 자세히 보지 않았습니다. 하지만 이후 바로 다음 방문에서 홈페이지를 먼저 거치지 않고 제품 페이지로 이동해 온라인 주문을 했다.
 
 
 ![복잡한 순차적 세그먼트 예](assets/sequential-complex.png)
 
 >[!MORELIKETHIS]
 >
-> * [AA 및 CJA에서 순차적 논리 마스터하기: THEN 소개](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=ko)
+> * [AA 및 CJA에서 순차적 논리 마스터하기: THEN 소개](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

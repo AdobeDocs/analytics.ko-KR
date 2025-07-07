@@ -1,23 +1,23 @@
 ---
-title: 속성 모델, 컨테이너 및 전환 확인 기간
-description: 다양한 유형의 속성이 차원 항목 간에 크레딧을 나누는 방법입니다.
+title: 속성 구성 요소
+description: 속성을 정의하는 구성 요소에 대해 알아봅니다.
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 40%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
-# 속성 모델, 컨테이너 및 전환 확인 기간
+# 속성 구성 요소
 
 Adobe Analytics의 속성 개념에는 세 가지 구성 요소가 포함됩니다.
 
-* **속성 모델:** 이 모델은 그룹의 히트에 대한 전환 분포를 설명합니다. 예를 들어 첫 번째 터치 또는 마지막 터치가 있습니다.
-* **컨테이너**: 컨테이너는 속성 범위 또는 각 모델의 히트를 그룹화하는 방법을 정의합니다.
-* **속성 전환 확인 기간:** 전환 확인 기간은 선택한 모델에 대한 전환 확인 일수를 설명합니다.
+* **속성 모델:** [모델](#attribution-model)은(는) 그룹의 히트에 대한 전환 분포를 설명합니다. 예를 들어 첫 번째 터치 또는 마지막 터치가 있습니다.
+* **컨테이너**: [컨테이너](#container)은(는) 속성 범위 또는 각 모델의 히트를 그룹화하는 방법을 정의합니다.
+* **속성 전환 확인 기간:** [전환 확인 기간](#lookback-window)은(는) 선택한 모델에 대한 전환 확인 일수를 설명합니다.
 
 
 ## 속성 모델
@@ -69,7 +69,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/40044?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

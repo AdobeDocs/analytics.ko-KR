@@ -1,12 +1,12 @@
 ---
-description: 태그, 보고서 세트, 소유자 및 기타 필터 기준 필터링(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)
+description: 태그, 보고서 세트, 소유자 및 기타 필터로 계산된 지표를 필터링하는 방법을 알아봅니다.
 title: 계산된 지표 목록 필터링
 feature: Calculated Metrics
 exl-id: ea5becb5-dcfc-4787-8d74-cfbc8a9387f3
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 26%
+source-wordcount: '141'
+ht-degree: 27%
 
 ---
 

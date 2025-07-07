@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 보고 분석하는 방법을 이해할 수 있습니다.
+description: Analysis Workspace의 데이터 예외 항목 탐지에 대해 알아봅니다.
 title: 예외 항목 탐지 개요
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 68%
+source-wordcount: '1295'
+ht-degree: 69%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [예외 항목 탐지](https://video.tv.adobe.com/v/31297?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [예외 항목 탐지](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 �
 * 비디오 버퍼 이벤트의 스파이크
 * 낮은 비디오 비트율의 스파이크
 
-Analysis Workspace에서 예외 항목 탐지 및 [기여도 분석](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection) 기능은 모두 핵심 워크플로입니다. 매일 발생하는 임의의 예외 항목에 대해 [기여도 분석]을 실행하고 Analysis Workspace 프로젝트에 그 결과를 임베드할 수 있습니다.
+Analysis Workspace에서 예외 항목 탐지 및 [기여도 분석](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection) 기능은 모두 핵심 워크플로입니다. 매일 발생하는 임의의 예외 항목에 대해 [기여도 분석]을 실행하고 Analysis Workspace 프로젝트에 그 결과를 임베드할 수 있습니다.
 
 Analysis Workspace의 예외 항목 탐지 알고리즘에 포함된 기능은 다음과 같습니다.
 
@@ -61,7 +61,7 @@ Analysis Workspace의 예외 항목 탐지 알고리즘에 포함된 기능은 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [기여도 분석](https://video.tv.adobe.com/v/30865?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [기여도 분석](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +97,7 @@ Analysis Workspace의 예외 항목 탐지 알고리즘에 포함된 기능은 �
 | Adobe에서 토큰을 도입한 이유는 무엇입니까? | Contribution Analysis는 Adobe Analytics에서 가장 인기 있는 기능 중 하나입니다. 일부 Analytics 제품의 경우 3차원이 아닌 매월 소량의 전체 실행 횟수를 제공하면 무제한 전체 기여도 분석이 제공하는 기능을 확인할 수 있습니다. |
 | 기여도 분석의 토큰은 어떻게 작동합니까? 기존 기여도 분석을 사용하여 프로젝트를 로드하는 데 토큰 비용이 듭니까? 또는 새로운 기여도 분석을 실행할 때만 토큰 비용이 필요합니까? | 각 로그인 회사 (각 사용자가 아님)는 한 달에 특정 수의 토큰을 얻으므로, Analysis Workspace에서 &quot;전체&quot; 기여도 분석을 실행할 수 있습니다.  새 기여도 분석을 생성할 때마다 한 개의 토큰 비용을 지불합니다. 사전 실행된 기여도 분석을 사용하여 프로젝트 로드 시 토큰 비용이 들지 않습니다. |
 | 회사에 토큰이 없고 추가 기여도 분석을 실행하려는 경우 어떻게 해야 합니까? | 다른 Adobe Analytics 제품으로 업그레이드 할 수 있습니다 (예: Standard (매달 2개 토큰)에서 Ultimate (매달 20개 토큰)로). 더 이상 토큰을 구입할 수 없습니다. 기존 패키징 프레임워크 내에서 업그레이드해야 합니다. |
-| 기여도 분석에 대한 액세스를 어떻게 제한합니까? | 기본적으로 관리자만 기여도 분석을 실행할 권한이 있습니다. 그러나 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-console/home)에서 권한 그룹을 생성하여 다른 사용자에게 액세스 권한을 부여할 수 있습니다. 합법적인 이유가 있고 액세스 권한을 남용하지 않을 것으로 신뢰할 수 있는 사용자에게만 기여도 분석을 사용할 수 있는 권한을 부여합니다. 이 권한은 [!UICONTROL 보고서 세트 도구] 하의 [!UICONTROL 기여도 분석]이라고 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
+| 기여도 분석에 대한 액세스를 어떻게 제한합니까? | 기본적으로 관리자만 기여도 분석을 실행할 권한이 있습니다. 그러나 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home)에서 권한 그룹을 생성하여 다른 사용자에게 액세스 권한을 부여할 수 있습니다. 합법적인 이유가 있고 액세스 권한을 남용하지 않을 것으로 신뢰할 수 있는 사용자에게만 기여도 분석을 사용할 수 있는 권한을 부여합니다. 이 권한은 [!UICONTROL 보고서 세트 도구] 하의 [!UICONTROL 기여도 분석]이라고 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
 | 한 달에 얼마나 많은 토큰을 받을 수 있고, 얼마나 많은 토큰을 현재 달에 사용했는지 어떻게 알 수 있습니까? | [!UICONTROL 관리자] > [!UICONTROL 모든 관리자] >[!UICONTROL 회사 설정 홈] >[!UICONTROL 기능 액세스 수준 보기]로 이동합니다. 아래를 참조하십시오<ul><li>기여도 분석: 월간 사용 토큰 수</li><li>기여도 분석: 이번 달에 사용된 사용 토큰 수</li></ul> |
 
 ## 예외 항목 탐지 및 기여도 분석 권한

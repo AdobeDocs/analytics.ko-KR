@@ -1,11 +1,11 @@
 ---
-description: 계산된 지표 페이지는 공유, 필터링, 태깅, 승인, 복사, 삭제 및 즐겨찾기로 표시 등 다양한 지표 처리 방법을 제공합니다.
-title: 계산된 지표 관리자
+description: 계산된 지표를 공유, 필터링, 태그 지정, 승인, 복사, 삭제 및 즐겨찾기로 표시하는 방법에 대해 알아봅니다.
+title: 계산된 지표 관리
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 29%
 
 ---

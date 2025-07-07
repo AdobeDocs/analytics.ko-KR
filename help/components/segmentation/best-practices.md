@@ -1,12 +1,12 @@
 ---
-title: 세그먼테이션 우수 사례
-description: 데이터를 효율적으로 반환하는 최적의 세그먼트를 만듭니다.
+title: 모범 사례
+description: 세분화 모범 사례에 대해 알아봅니다.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 62%
+source-wordcount: '303'
+ht-degree: 60%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 62%
 
 ## 마지막 수단으로 `Contains` 연산자만 사용
 
-[**[!UICONTROL 포함&#x200B;]**&#x200B;연산자](/help/components/segmentation/seg-reference/seg-operators.md)는 연산자가 모든 값의 전체 내용을 분석해야 하므로 세그먼테이션에서 처리가 가장 많은 기능 중 하나입니다. 원하는 값이 문자열의 시작 또는 끝에 있는 경우&#x200B;**[!UICONTROL &#x200B;다음으로 시작&#x200B;]**&#x200B;또는&#x200B;**[!UICONTROL &#x200B;다음으로 끝남&#x200B;]**&#x200B;과 같은 다른 연산자를 사용하는 것이 좋습니다.
+[**[!UICONTROL 포함&#x200B;]**연산자](/help/components/segmentation/seg-reference/seg-operators.md)는 연산자가 모든 값의 전체 내용을 분석해야 하므로 세그먼테이션에서 처리가 가장 많은 기능 중 하나입니다. 원하는 값이 문자열의 시작 또는 끝에 있는 경우**[!UICONTROL &#x200B;다음으로 시작&#x200B;]**또는**[!UICONTROL &#x200B;다음으로 끝남&#x200B;]**과 같은 다른 연산자를 사용하는 것이 좋습니다.
 
 세그먼트에 있는 **[!UICONTROL Contains]** 연산자가 많은 결과를 반환하는 경우 일반적으로 보고서가 시간 초과됩니다. 예를 들어, **[!UICONTROL 레퍼러]** **[!UICONTROL 같음]** `"."`인 세그먼트를 만든 경우 세그먼트는 모든 값의 콘텐츠를 검색합니다. 대신 **[!UICONTROL 존재]** 연산자를 사용하는 것이 좋습니다.
 

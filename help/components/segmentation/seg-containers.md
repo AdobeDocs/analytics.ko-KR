@@ -4,17 +4,17 @@ keywords: 세그먼테이션;세그먼트
 title: 세그먼트 컨테이너
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '3563'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
 
 # 세그먼트 컨테이너
 
-세그먼트는 방문자 속성 또는 사이트와의 상호 작용에 따라 방문자를 필터링하는 조건을 설정합니다. 세그먼트에서 조건을 설정하려면 방문자 특성 및/또는 탐색 트레이트에 따라 방문자를 필터링하기 위한 규칙을 설정합니다. 방문자 데이터를 더 자세히 분류하려면 각 방문자에 대한 특정 방문 및/또는 페이지 조회수 히트별로 필터링할 수 있습니다. 세그먼트 빌더는 이러한 하위 집합을 작성하고 중첩된 계층형 방문자, 방문, 히트 컨테이너로 규칙을 적용하는 간단한 아키텍처를 제공합니다.
+세그먼트는 방문자의 속성 또는 사이트와의 상호 작용에 따라 방문자를 필터링하는 조건을 설정합니다. 세그먼트에서 조건을 설정하려면 방문자 특성 및/또는 탐색 트레이트에 따라 방문자를 필터링하기 위한 규칙을 설정합니다. 방문자 데이터를 더 자세히 분류하려면 각 방문자에 대한 특정 방문 및/또는 페이지 조회수 히트별로 필터링할 수 있습니다. 세그먼트 빌더는 이러한 하위 집합을 작성하고 중첩된 계층형 방문자, 방문, 히트 컨테이너로 규칙을 적용하는 간단한 아키텍처를 제공합니다.
 
 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)에 사용된 컨테이너 아키텍처는 다음을 정의합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/3429105?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

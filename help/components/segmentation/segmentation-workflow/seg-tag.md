@@ -1,9 +1,9 @@
 ---
-description: 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
-title: 세그먼트에 태그 지정
+description: 세그먼트를 구성할 수 있도록 세그먼트에 태깅하는 방법을 이해합니다.
+title: 세그먼트 태깅
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택하여 세그먼트에 대한 태그를 저장합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
-저장되면 [세그먼트 빌더](seg-build.md)에서 선택한 세그먼트의 [!UICONTROL 태그] 필드에 태그가 나열됩니다.
+저장되면 [!UICONTROL 세그먼트 빌더]에서 선택한 세그먼트의 [태그](seg-build.md) 필드에 태그가 나열됩니다.
 
 
 ## 제안 사항

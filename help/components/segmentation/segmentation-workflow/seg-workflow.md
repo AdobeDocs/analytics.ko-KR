@@ -1,12 +1,12 @@
 ---
-description: 세그먼트 빌더로 만들고 세그먼트 관리자를 통해 관리되는 세그먼트에 대해 제안되는 워크플로에 대해 설명합니다.
-title: 세분화 워크플로 개요
+description: 세그먼트 빌더로 세그먼트를 만들고 세그먼트 관리자를 통해 관리되는 권장 워크플로우에 대해 알아봅니다.
+title: 세그먼테이션 워크플로 개요
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 48%
+source-wordcount: '266'
+ht-degree: 47%
 
 ---
 

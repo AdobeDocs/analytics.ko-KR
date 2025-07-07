@@ -1,16 +1,18 @@
 ---
-description: 세그먼트와 관련된 문제를 해결 및 수정합니다.
-title: 세그먼테이션 문제 해결
+description: 세그먼트와 관련된 문제를 해결하고 수정하는 방법을 이해합니다.
+title: 문제 해결
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 50%
+source-wordcount: '181'
+ht-degree: 42%
 
 ---
 
-# 세그먼테이션 문제 해결
+# 문제 해결
+
+이 문서에서는 세그먼트와 관련된 몇 가지 일반적인 문제와 이러한 문제를 해결하는 방법을 나열합니다.
 
 <!-- Looks like this is not part anymore of the current UI.
 

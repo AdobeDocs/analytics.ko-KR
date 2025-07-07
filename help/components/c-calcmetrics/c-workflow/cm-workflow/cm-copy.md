@@ -1,12 +1,12 @@
 ---
-description: 계산된 지표 관리자에서 계산된 지표를 복사하는 방법을 설명합니다
+description: 계산된 지표 관리자에서 계산된 지표를 복사하는 방법을 이해합니다.
 title: 계산된 지표 복사
 feature: Calculated Metrics
 exl-id: ddc18c22-30b4-4ccb-ac6b-e74dfde98a27
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 

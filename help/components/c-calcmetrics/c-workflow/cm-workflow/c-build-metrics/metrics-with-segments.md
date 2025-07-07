@@ -1,12 +1,12 @@
 ---
-description: 개별 지표에 대한 세그먼트화는 동일한 보고서 내에서 지표 비교를 수행할 수 있도록 해 줍니다.
+description: 동일한 시각화 내에서 지표 비교를 수행할 수 있도록 하는 개별 지표를 세그먼트화하는 방법에 대해 알아봅니다.
 title: 세그먼트화된 지표
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 4%
+source-wordcount: '462'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 4%
 
 ## 방문 빈도가 높은 페이지
 
-1. `Germany`(이)라는 Workspace 프로젝트에서 [계산된 지표를 만듭니다](../cm-workflow.md).
+1. [(이)라는 Workspace 프로젝트에서 ](../cm-workflow.md)계산된 지표를 만듭니다`Germany`.
 1. [계산된 지표 빌더](cm-build-metrics.md)에서 국가 필드를 사용하는 [세그먼트 만들기](/help/components/segmentation/segmentation-workflow/seg-build.md)(`Germany`).
 
    >[!TIP]

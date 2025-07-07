@@ -1,12 +1,12 @@
 ---
-description: 주문을 지원하는 마케팅 채널을 보여 주는 지표를 작성하는 방법에 대해 설명합니다. 이는 원하는 모든 차원 또는 성공 이벤트에 적용할 수 있습니다.
-title: 지원 지표 주문
+description: 주문 추진에 도움이 되는 마케팅 채널을 보여 주는 지표를 만드는 방법을 설명합니다.
+title: 보다 복잡한 계산된 지표 작성
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 25%
+source-wordcount: '239'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 1. [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)에 설명된 대로 계산된 지표를 작성합니다.
 
-1. 계산된 지표 빌더에서 지표 이름을 `Assisted Orders` 또는 이와 유사하게 지정합니다.
+1. 계산된 지표 빌더에서 지표 이름을 `Assisted Online Orders` 또는 이와 유사하게 지정합니다.
 
 1. **[!UICONTROL 지표]** 구성 요소에서 **[!UICONTROL 온라인 주문]** 지표를 선택하고 지표를 **[!UICONTROL 정의]** 영역으로 끌어서 놓습니다.
 
@@ -41,4 +41,4 @@ ht-degree: 25%
 
 1. (선택 사항) [계산된 지표 공유](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)에 설명된 대로 조직의 다른 사용자와 지표를 공유합니다.
 
-이는 마케팅 채널에서 주문을 지원하는 방법을 쉽게 구분하는 방법입니다. 또는 자유 형식 테이블에서 임의의 지표를 마우스 오른쪽 단추로 클릭하고 테이블에서 직접 속성 모델을 조정할 수 있습니다.
+이는 마케팅 채널에서 주문을 지원하는 방법을 쉽게 구분하는 방법입니다. 또는 자유 형식 테이블에서 지표를 선택하고 컨텍스트 메뉴에서 속성 모델을 테이블에서 직접 조정할 수 있습니다.

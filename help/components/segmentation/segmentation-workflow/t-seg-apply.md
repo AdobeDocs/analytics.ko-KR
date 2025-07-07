@@ -1,13 +1,12 @@
 ---
-description: 보고서에 세그먼트를 사용하는 방법.
+description: Analysis Workspace에서 세그먼트를 사용하는 방법을 알아봅니다.
 title: 세그먼트 사용
-feature: Segmentation
 role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 0%
+source-wordcount: '148'
+ht-degree: 1%
 
 ---
 

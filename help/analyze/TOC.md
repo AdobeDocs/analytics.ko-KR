@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 98%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -118,7 +118,7 @@ ht-degree: 98%
       + [벤](analysis-workspace/visualizations/venn.md)
    + 패널 {#panels}
       + [개요](analysis-workspace/c-panels/panels.md)
-      + [빈](analysis-workspace/c-panels/blank-panel.md)
+      + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [Target용 Analytics](analysis-workspace/c-panels/a4t-panel.md)
       + [속성](analysis-workspace/c-panels/attribution.md)
       + [자유 형식](analysis-workspace/c-panels/freeform-panel.md)
@@ -136,7 +136,7 @@ ht-degree: 98%
       + [개요](analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 선별](analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
-      + [공유 가능한 링크](analysis-workspace/curate-share/shareable-links.md)
+      + [공유 가능한 링크 만들기](analysis-workspace/curate-share/shareable-links.md)
       + [읽기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [다운로드](analysis-workspace/curate-share/download-send.md)
       + [보내기 및 예약](analysis-workspace/curate-share/t-schedule-report.md)
@@ -145,13 +145,12 @@ ht-degree: 98%
       + [모델, 컨테이너 및 전환 확인 기간](analysis-workspace/attribution/models.md)
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
       + [모범 사례](analysis-workspace/attribution/best-practices.md)
-      + [FAQ](analysis-workspace/attribution/faq.md)
+      + [자주 묻는 질문](analysis-workspace/attribution/faq.md)
    + [여정 관리](analysis-workspace/journey-iq.md)
    + [세그먼트 비교](analysis-workspace/segment-iq.md)
    + 예외 항목 탐지 {#anomaly-detection}
       + [개요](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [예외 항목 보기](analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [예외 항목 탐지 해제](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [기여도 분석 실행](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [통계 기법](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
@@ -160,7 +159,7 @@ ht-degree: 98%
       + [성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [오류 및 문제 해결](analysis-workspace/workspace-faq/error-messages.md)
       + [제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
-      + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [접근성](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Report Builder 개요](report-builder/rb-overview.md)

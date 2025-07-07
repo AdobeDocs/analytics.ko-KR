@@ -4,7 +4,7 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 미디어 재생 소요 시간 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)Customer Journey Analytics_ ![버전은 ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**미디어 재생 시간 소요 패널**&#x200B;을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 미디어 재생 소요 시간 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)Customer Journey Analytics_ ![버전은 ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**미디어 재생 시간 소요 패널**&#x200B;을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!NOTE]
 >
 >미디어 평균 분당 시청 대상자 패널은 Adobe Analytics용 스트리밍 미디어 컬렉션 추가 기능을 구매한 고객에게만 제공됩니다.
->&#x200B;>자세한 내용은 Adobe 판매 팀 담당자나 Adobe 계정 팀에 문의하십시오.
+>>자세한 내용은 Adobe 판매 팀 담당자나 Adobe 계정 팀에 문의하십시오.
 >
 
 **[!UICONTROL 미디어 재생 소요 시간]** 패널은 최대 동시 시청과 분류 및 비교 기능에 대한 세부 정보와 함께 시간 경과에 따른 재생을 분석할 수 있습니다.
@@ -125,8 +125,8 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 >[!MORELIKETHIS]
 >
 >[패널 만들기](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
->&#x200B;>[미디어 동시 뷰어 패널](media-concurrent-viewers.md)
+>>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
+>>[미디어 동시 뷰어 패널](media-concurrent-viewers.md)
 >
 
 <!--

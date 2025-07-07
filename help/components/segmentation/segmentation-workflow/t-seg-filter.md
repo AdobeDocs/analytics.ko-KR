@@ -1,12 +1,12 @@
 ---
-description: 태그, 소유자 및 기타 필터 기준 필터링 (모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)
+description: 태그, 소유자 및 기타 필터로 세그먼트를 필터링하는 방법을 알아봅니다.
 title: 세그먼트 필터링
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 39%
+source-wordcount: '168'
+ht-degree: 29%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->세그먼트 목록은 [세그먼트 관리자](seg-manage.md)의 일부로 [세그먼트 목록](seg-manage.md#filters-list)을 참조합니다. 동일한 [세그먼트 관리자](seg-manage.md)의 일부인 ![필터](/help/assets/icons/Filter.svg) [필터 패널](seg-manage.md#filter-panel)을 사용하여 해당 목록을 필터링할 수 있습니다.
+>세그먼트 목록은 [세그먼트 관리자](seg-manage.md#filters-list)의 일부로 [세그먼트 목록](seg-manage.md)을 참조합니다. 동일한 ![세그먼트 관리자](/help/assets/icons/Filter.svg)의 일부인 [필터](seg-manage.md#filter-panel) [필터 패널](seg-manage.md)을 사용하여 해당 목록을 필터링할 수 있습니다.
 >
 
 

@@ -1,20 +1,21 @@
 ---
-title: 속성 FAQ
+title: 기여도 분석에 대한 FAQ
 description: 속성에 대해 자주 묻는 질문에 대한 답변을 얻습니다.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 87%
+source-wordcount: '1188'
+ht-degree: 85%
 
 ---
 
-# 속성 FAQ
+# 자주 묻는 질문
 
+다음은 속성에 대해 자주 묻는 질문에 대한 답변입니다.
 
-+++## 속성을 사용할 때 “없음” 라인 항목은 무엇입니까?
++++## 속성을 사용할 때 **[!UICONTROL 없음]** 라인 항목은 무엇입니까?
 
 &#39;없음&#39; 라인 항목은 전환 확인 기간 내에 터치 포인트 없이 발생한 모든 전환을 나타내는 포괄적인 항목입니다. &#39;없음&#39; 라인 항목에 속하는 전환 수를 줄이려면 전환 기간이 긴 사용자 지정 전환 확인 기간을 사용해 보십시오.
 
@@ -44,12 +45,13 @@ ht-degree: 87%
 +++
 
 
-+++## 언제 방문, 방문자 또는 사용자 정의 속성 전환 확인을 사용해야 합니까?
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
++++## When should I use a visit, visitor, or custom attribution lookback?
 
-속성 전환 확인의 선택은 사용 사례에 따라 다릅니다. 일반적으로 전환 시간이 단일 방문보다 오래 걸리는 경우 방문자 또는 사용자 정의 전환 확인을 권장합니다. 전환 주기가 길어질 경우 보고 창 이전에 데이터를 가져올 수 있는 유일한 형식이므로 사용자 정의 전환 확인 기간이 가장 좋습니다.
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++## 속성을 사용할 때 prop 및 eVar는 어떻게 비교합니까?
 

@@ -1,13 +1,13 @@
 ---
-description: 테이블 또는 라인 차트에서 예외 항목을 볼 수 있습니다.
-title: Analysis Workspace에서 예외 항목 보기
+description: Analysis Workspace 내에서 데이터 예외 항목을 보고 분석하는 방법을 이해합니다.
+title: 예외 항목 보기
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 52%
+source-wordcount: '444'
+ht-degree: 49%
 
 ---
 

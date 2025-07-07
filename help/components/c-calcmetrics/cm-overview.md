@@ -1,21 +1,21 @@
 ---
-description: 계산된 지표 및 고급 계산된 지표는 기존의 지표에서 만들 수 있는 사용자 정의 지표입니다.
-keywords: 계산된 지표;고급 계산된 지표
-title: 계산된 지표 및 고급 계산된 지표
+description: 기존 지표에서 만들 수 있는 계산된 지표에 대해 알아봅니다.
+keywords: 계산된 지표
+title: 계산된 지표 개요
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 91%
 
 ---
 
 # 계산된 지표 개요
 
-기존 지표에서 생성할 수 있는 계산된 사용자 정의 지표입니다.
+계산된 지표는 기존 지표에서 만들 수 있는 사용자 지정 지표입니다.
 
-계산된 지표는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. 계산된 지표는 마케터, 제품 관리자 및 분석가가 [!DNL Analytics] 구현을 변경하지 않아도 데이터에 대해 질문할 수 있도록 해 줍니다.
+계산된 지표는 기존 지표에서 생성할 수 있는 사용자 정의 지표입니다. 계산된 지표에서는 구현을 변경하지 않고도 데이터를 분석할 수 있는 사용자 정의 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다.
 
 계산된 지표는 각 [!DNL Analytics] 패키지에서 사용할 수 있지만 Experience Cloud용 Adobe Analytics Foundation Pack은 [포맷 유형(소수점, 시간, 백분율, 통화)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [할당 변경(기본값, 선형, 참여도 등)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [지표 유형(표준, 총계)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) 및 [기본 연산자](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators)(더하기, 빼기, 곱하기, 나누기)를 포함한 기본 계산된 지표로 제한됩니다.
 
@@ -59,13 +59,13 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표](https://video.tv.adobe.com/v/32607?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 내 세그먼트화된 계산된 지표](https://video.tv.adobe.com/v/32602?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 내 세그먼트화된 계산된 지표](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

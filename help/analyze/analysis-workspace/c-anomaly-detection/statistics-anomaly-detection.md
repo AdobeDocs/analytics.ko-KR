@@ -1,12 +1,12 @@
 ---
-description: 예외 항목 탐지 기법을 사용하여 통계적 예외 항목을 식별하는 방법에 대해 알아봅니다.
+description: 예외 항목을 식별하는 데 사용되는 통계 기법을 알아봅니다.
 title: 예외 항목 탐지에서 사용된 통계 기법
 feature: Anomaly Detection
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1079'
 ht-degree: 70%
 
 ---

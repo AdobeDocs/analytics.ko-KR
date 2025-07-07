@@ -3,10 +3,10 @@ title: 속성 모범 사례
 description: 모범 사례를 이해하고 사용할 속성 모델을 결정합니다.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 74%
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 74%
 
 ### 상위 단계 분석
 
-상위 단계 분석 채널은 브랜드 또는 제품 인지도를 창출하기 위해 사용됩니다. 예를 들어 대부분의 TV 광고의 목표는 브랜드 인지도입니다. 사람들은 시간이 지남에 따라 TV 광고를 잊게 되므로 [“시간 감소” 속성 모델](/help/analyze/analysis-workspace/attribution/models.md)을 사용할 수도 있습니다.
+상위 단계 분석 채널은 브랜드 또는 제품 인지도를 창출하기 위해 사용됩니다. 예를 들어 대부분의 TV 광고의 목표는 브랜드 인지도입니다. 사람들은 시간이 지남에 따라 TV 광고를 잊게 되므로 [시간 감소 속성 모델](/help/analyze/analysis-workspace/attribution/models.md)을 사용할 수 있습니다.
 
 ### 하위 단계 분석
 
@@ -47,13 +47,13 @@ ht-degree: 74%
 
 가설: &quot;*첫 번째 터치 채널이 마지막 터치 채널보다 전환에 더 많은 영향을 미칩니다.*&quot;
 
-이 경우 [역 J자형&quot; 속성 모델](/help/analyze/analysis-workspace/attribution/models.md)을 사용하여 이 가설을 테스트합니다. 이 모델은 첫 번째 터치 포인트에 60%의 크레딧을 제공합니다.
+이 경우 [역 J자형 속성 모델](/help/analyze/analysis-workspace/attribution/models.md)을 사용하여 이 가설을 테스트합니다. 이 모델은 첫 번째 터치 포인트에 60%의 크레딧을 제공합니다.
 
 **예 2**
 
 가설이 *이라고 가정해 보십시오.&quot;특정 업계(예: 여행 업계)에서는 고객이 제품을 구매하기 전에 많은 조사를 하기 때문에 속성 기간이 30일이 아니라 60일 또는 90일이라고 가정합니다.*&quot;
 
-이 경우 [전환 확인 기간](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/attribution/models)을 90일로 변경할 수 있습니다.
+이 경우 [전환 확인 기간](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)을 90일로 변경할 수 있습니다.
 
 ## 알고리즘 속성 사용
 
@@ -63,4 +63,4 @@ ht-degree: 74%
 
 * Analysis Workspace에 의존하지 않고 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
 * Adobe 데이터 피드에서와 같이 원시 데이터를 사용할 수 있습니다.
-* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.
+* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.

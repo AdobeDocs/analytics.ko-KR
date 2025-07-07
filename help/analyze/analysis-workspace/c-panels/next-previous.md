@@ -1,13 +1,13 @@
 ---
-description: 특정 차원에 대한 다음 또는 이전 차원 항목을 표시하는 다음 또는 이전 항목 패널을 사용하는 방법을 이해합니다.
+description: 특정 차원에 대한 다음 또는 이전 항목을 표시하는 다음 또는 이전 항목 패널을 사용하는 방법을 이해합니다.
 title: 다음 또는 이전 항목 패널
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 94%
+source-wordcount: '476'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 다음 또는 이전 항목 패널에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [다음 또는 이전 항목 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/next-previous)을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 다음 또는 이전 항목 패널에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [다음 또는 이전 항목 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/next-previous)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 | **[!UICONTROL 차원]** | 다음 또는 이전 항목을 탐색할 차원을 선택합니다. |
 | **[!UICONTROL 차원 항목]** | 다음 / 이전 문의의 가운데에서 특정 차원 항목을 선택합니다. |
 | **[!UICONTROL 방향]** | [!UICONTROL 다음] 또는 [!UICONTROL 이전] 차원 항목 중 무엇을 찾고 있는지 지정합니다. |
-| **[!UICONTROL 컨테이너]** | 컨테이너, [!UICONTROL 세션] 또는 [!UICONTROL 개인]&#x200B;(기본값)을 선택하여 문의 범위를 결정합니다. |
+| **[!UICONTROL 컨테이너]** | 컨테이너 **[!UICONTROL 방문]** 또는 **[!UICONTROL 방문자]**(기본값)을 선택하여 문의 범위를 결정합니다. |
 
 {style="table-layout:auto"}
 

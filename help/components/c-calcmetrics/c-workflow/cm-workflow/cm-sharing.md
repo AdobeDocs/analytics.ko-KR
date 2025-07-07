@@ -1,12 +1,12 @@
 ---
-description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 지표를 공유할 수 있습니다.
+description: 전체 조직, 그룹 또는 개별 사용자와 지표를 공유하는 방법을 알아봅니다.
 title: 계산된 지표 공유
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 11%
+source-wordcount: '319'
+ht-degree: 6%
 
 ---
 

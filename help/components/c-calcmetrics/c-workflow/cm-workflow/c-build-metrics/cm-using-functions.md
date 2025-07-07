@@ -1,12 +1,12 @@
 ---
-description: 함수를 사용하면 데이터를 필터링/정렬하고 통계적 분석을 수행할 수 있습니다.
+description: 함수를 사용하여 데이터를 필터링 및 정렬하고 통계 분석을 수행하는 방법에 대해 알아봅니다.
 title: 함수 사용
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 44%
+source-wordcount: '63'
+ht-degree: 20%
 
 ---
 

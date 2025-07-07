@@ -1,12 +1,12 @@
 ---
-description: 알아보기
+description: 지표 유형 및 속성에 대해 알아봅니다.
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 98%
 
 ---
 
