@@ -4,9 +4,9 @@ description: 시간에 따른 차원 항목 또는 데이터의 수량을 봅니
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 
 지표를 사용하면 사이트에서 페이지 조회수가 가장 큰 페이지를 확인하는 것처럼 차원 항목을 수량화할 수 있습니다. 방문자가 매일 사이트에서 몇 개의 주문을 하는지 확인하는 등 시간에 따른 지표의 트렌드를 표시할 수도 있습니다. 기본 보고서는 숫자 값 (지표) 열에 대해 문자열 값 (차원) 행을 보여 줍니다.
 
-예를 들어 **[!UICONTROL 페이지]** 차원을 **[!UICONTROL 방문]** 지표와 결합하면 방문 횟수가 가장 많은 페이지를 보여주는 등급 보고서가 만들어집니다.
+예를 들어 **[!UICONTROL 페이지]** 차원을 **[!UICONTROL 방문 횟수]** 지표와 결합하면 방문 횟수가 가장 많은 페이지를 보여 주는 등급 보고서가 만들어집니다.
 
 | 페이지 | 방문 횟수 |
 | --- | ---: |
