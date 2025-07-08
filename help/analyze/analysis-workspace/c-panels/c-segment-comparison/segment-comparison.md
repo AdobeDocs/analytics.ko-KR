@@ -8,7 +8,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 63%
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="세그먼트 비교"
->abstract="모든 데이터 포인트에서 두 세그먼트를 빠르게 비교하여 관련 차이점을 자동으로 찾습니다."
+>abstract="자동으로 모든 데이터 포인트에서 두 세그먼트를 빠르게 비교하여 관련 차이점을 찾습니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,12 +28,12 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="세그먼트 비교 패널"
->abstract="모든 데이터 포인트에서 두 세그먼트를 빠르게 비교하여 관련 차이점을 자동으로 찾습니다.<br/><br/>**매개 변수&#x200B;**<br/>**세그먼트 추가**: 분석할 첫 번째 세그먼트입니다.<br/>**비교 대상**: 비교할 두 번째 세그먼트로서, *기타 사용자*(첫 번째 세그먼트의 역순)으로 자동으로 채워집니다. 원하는 경우 *기타 사용자*&#x200B;를 다른 세그먼트로 바꿀 수 있습니다.<br/>**고급 설정**: 세그먼트 비교에서 구성 요소를 분석으로부터 제외할 수 있는 기능입니다."
+>abstract="자동으로 모든 데이터 포인트에서 두 세그먼트를 빠르게 비교하여 관련 차이점을 찾습니다.<br/><br/>**매개변수&#x200B;**<br/>**세그먼트 추가**: 분석하려는 첫 번째 세그먼트입니다.<br/>**비교 대상**: 비교하려는 두 번째 세그먼트이며, 여기에는 첫 번째 세그먼트의 반대인 *다른 모든 사용자*&#x200B;가 자동으로 채워집니다. 원하는 경우 다른 세그먼트로 *다른 모든 사용자*&#x200B;를 대체할 수 있습니다.<br/>**고급 설정**: 세그먼트 비교에서 구성 요소를 분석으로부터 제외할 수 있는 기능입니다."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 세그먼트 비교 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에는 동등한 패널이 없습니다._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 세그먼트 비교 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에는 동등한 패널이 없습니다._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/33251?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
