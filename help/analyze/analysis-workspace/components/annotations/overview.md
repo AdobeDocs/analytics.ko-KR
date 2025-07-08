@@ -1,6 +1,6 @@
 ---
 title: 주석 개요
-description: Analysis Workspace에서 주석을 사용하는 방법에 대해 알아봅니다.
+description: Analysis Workspace에서 주석을 사용하는 방법을 알아봅니다.
 role: User, Admin
 solution: Analytics
 feature: Annotations
@@ -8,7 +8,7 @@ exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 96%
 |---|---|
 | **시각화** | ![Setting](/help/assets/icons/Setting.svg) > **[!UICONTROL 설정]** >  **[!UICONTROL 주석 표시]**&#x200B;를 활성화 또는 비활성화합니다.<br/>![Enable disable annotations for a visualization](assets/annotations-visualization.png) |
 | **프로젝트** | Workspace 프로젝트 메뉴에서 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;을 선택하고 **[!UICONTROL 주석 표시]**&#x200B;를 활성화 또는 비활성화합니다.<br/>![Enable disable annotations for a project](assets/annotations-project.png) |
-| **사용자** | **[!UICONTROL 구성 요소]** 탭에서 **[!UICONTROL 환경 설정]**&#x200B;을 선택하거나, Workspace 프로젝트 메뉴에서 **[!UICONTROL 프로젝트]** > **[!UICONTROL 사용자 환경 설정]**&#x200B;을 선택합니다. <br/> **[!UICONTROL 환경 설정]**&#x200B;에서 **[!UICONTROL 프로젝트 및 분석]**&#x200B;을 선택합니다. 왼쪽 탭 막대에서 **[!UICONTROL 데이터]**&#x200B;를 선택합니다. 하단에서 **[!UICONTROL 자유 형식 테이블]** 제목 아래의 **[!UICONTROL 주석 표시]**&#x200B;를 활성화하거나 비활성화합니다.<br/>![Enable disable annotations for a user](assets/annotations-user.png) |
+| **사용자** | **[!UICONTROL 구성 요소]** 탭에서 **[!UICONTROL 환경 설정]**&#x200B;을 선택하거나, Workspace 프로젝트 메뉴에서 **[!UICONTROL 프로젝트]** > **[!UICONTROL 사용자 환경 설정]**&#x200B;을 선택합니다. <br/>**[!UICONTROL 환경 설정]**&#x200B;에서 **[!UICONTROL 프로젝트 및 분석]**&#x200B;을 선택합니다. 왼쪽 탭 막대에서 **[!UICONTROL 데이터]**&#x200B;를 선택합니다. 하단에서 **[!UICONTROL 자유 형식 테이블]** 제목 아래의 **[!UICONTROL 주석 표시]**&#x200B;를 활성화하거나 비활성화합니다.<br/>![Enable disable annotations for a user](assets/annotations-user.png) |
 
 <!--
 # Annotations overview
@@ -67,7 +67,7 @@ Keep this in mind:
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
-However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko).
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 ## Turn annotations on or off {#annotations-on-off}
 

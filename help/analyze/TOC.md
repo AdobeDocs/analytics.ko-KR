@@ -7,14 +7,14 @@ user-guide-description: Analysis Workspace, Analytics 대시보드, Report Build
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -154,7 +154,7 @@ ht-degree: 98%
       + [기여도 분석 실행](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [통계 기법](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
-   + 작업 공간 FAQ {#workspace-faq}
+   + Workspace FAQ {#workspace-faq}
       + [자주 묻는 질문](analysis-workspace/workspace-faq/faq.md)
       + [성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [오류 및 문제 해결](analysis-workspace/workspace-faq/error-messages.md)
