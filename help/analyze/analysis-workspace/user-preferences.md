@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 6cec1085093404235e29319db984d4389c68c31e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/3429994/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
