@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace의 기본 템플릿과 이러한 기본 템플릿을 사용하는 방법에 대해 알아봅니다.
+description: Analysis Workspace의 기본 템플릿과 해당 템플릿을 사용하는 방법에 대해 알아봅니다.
 title: 템플릿 사용
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18676'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

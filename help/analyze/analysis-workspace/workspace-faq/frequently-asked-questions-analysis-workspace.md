@@ -1,20 +1,20 @@
 ---
-description: Analysis Workspace 요구 사항에 대해 알아봅니다.
+description: Analysis Workspace의 요구 사항에 대해 알아봅니다.
 keywords: Analysis Workspace
 title: 요구 사항
 feature: Workspace Basics
 role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '128'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # 요구 사항
 
-Analysis Workspace 실행 요구 사항은 다음과 같습니다.
+Analysis Workspace를 실행하기 위한 요구 사항은 다음과 같습니다.
 
 | 요구 사항 | 설명 |
 |--- |--- |

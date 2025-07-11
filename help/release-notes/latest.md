@@ -4,15 +4,15 @@ description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 91a17aa9ae7a0a6c6b7a1fd8d5ffe5d7d2efb294
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2025년 6월 릴리스)
 
-**마지막 업데이트**: 2025년 7월 7일 화요일
+**마지막 업데이트**: 2025년 7월 7일
 
 이번 릴리스 정보에는 2025년 6월 18일부터 7월 15일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| 알고리즘을 사용하는 **실시간 스트리밍 TNT 필드** | Livestream은 이 기술이 지속적으로 현대적이고 안정적인지 확인하기 위해 새로 고침을 진행 중입니다. 이 새로 고침의 일부로 TNT 필드에 알고리즘이 포함된 경우 Livestream 출력에 TNT 필드를 통합합니다. 하지만 여기에는 이전에 지원되는 요소 `campaignId`, `recipeId`, `trafficType`, `actionId` 및 `actionName`만 포함됩니다. 라이브스트림에 대한 전체 TNT 스키마는 변경되지 않습니다. |   | 2025년 7월 7일 |
+| **알고리즘을 활용한 라이브 스트리밍 TNT 필드** | 라이브스트림은 기술이 계속 현대적이고 안정적으로 유지되도록 개선 작업을 진행하고 있습니다. 새로 고침의 일환으로 TNT 필드에 알고리즘이 있는 경우 TNT 필드를 Livestream 출력에 통합하기 시작합니다. 단, 여기에는 이전에 지원되었던 다음과 같은 요소만 포함됩니다. `campaignId`, `recipeId`, `trafficType`, `actionId` 및 `actionName`. 라이브 스트리밍의 전반적인 TNT 스키마는 변경되지 않습니다. |   | 2025년 7월 7일 |
 | **새로운 Report Builder에서 보안 클라우드 대상 지원** | 이제 JavaScript Report Builder 추가 기능이 다음과 같은 클라우드 스토리지 대상으로 보고서를 내보내는 기능을 지원합니다.<ul><li>Amazon S3 Role ARN</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>이전에는 FTP와 이메일 대상만 가능했습니다. 보안 관련 문제로 인해 FTP는 더 이상 지원되지 않습니다.</p><p>자세한 내용은 [클라우드 대상으로 내보내기를 통해 통합 문서 예약하기](/help/analyze/report-builder/report-builder-export.md)를 참조하십시오.</p><p>이러한 변경 사항 외에도 Adobe Analytics에서 위치를 생성할 때 이제 사용 필드는 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에 설명된 대로 Report Builder와 함께 위치를 사용할 수 있는 옵션을 제공합니다.</p> |  | 2025년 6월 19일 (원래는 6월 18일) |
 | **새로운 미리보기 경험** | 세그먼트 만들기 또는 데이터 보기의 설정 구성 시에 사용되는 미리보기 패널이 이제 도넛 시각화 대신 가로 막대 시각화를 사용합니다. |  | 2025년 6월 18일 |
 | **수정된 속성 모델 대화 상자** | 이제 속성 모델 대화 상자에서 컨테이너와 기간을 별도로 정의할 수 있습니다. |  | 2025년 6월 18일 |
@@ -66,6 +66,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
