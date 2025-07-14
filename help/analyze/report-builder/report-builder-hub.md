@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: d3d74042f6c282db490483393f4b58cddd6b1525
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 51%
+source-wordcount: '489'
+ht-degree: 54%
 
 ---
 
@@ -25,10 +25,6 @@ Report Builder 허브에는 만들기, 관리 및 예약 버튼, 명령 패널 �
 ## 만들기, 관리 및 예약 버튼
 
 [생성], [관리] 및 [일정] 단추를 사용하여 새 데이터 블록을 만들거나 기존 데이터 블록을 관리하거나 데이터 블록을 예약합니다.
-
->[!NOTE]
->
->Adobe Analytics에서 이 버전의 Report Builder에 대한 통합 문서 예약은 아직 릴리스되지 않았지만 2025년 초에 사용할 수 있습니다. 예약이 필요하지 않은 통합 문서에서 지금 시작할 수 있습니다.
 
 ## 명령 패널
 
