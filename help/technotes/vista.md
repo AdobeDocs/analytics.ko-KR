@@ -3,7 +3,7 @@ title: Adobe Analytics의 VISTA 규칙
 description: VISTA 규칙 및 해당 기능에 대해 자세히 알아보십시오.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%
@@ -22,7 +22,7 @@ VISTA 규칙의 몇 가지 일반적인 사용 사례는 다음과 같습니다.
 * 변수 값을 다른 변수에 복제
 * 변수 값에 영향을 줄 수 있는 Adobe FTP 사이트에 파일 업로드
 
-[처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md), [보트 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [가상 보고서 세트](/help/components/vrs/vrs-about.md) 또는 Adobe Analytics 구현 업데이트에서 이미 VISTA 규칙에 대한 많은 사용 사례가 제공되고 있습니다. VISTA 규칙은 최후의 수단으로만 사용하는 것이 좋습니다.
+[처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md), [보트 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [가상 보고서 세트](/help/components/vrs/vrs-about.md) 또는 Adobe Analytics 구현 업데이트에서 이미 VISTA 규칙에 대한 많은 사용 사례가 제공되고 있습니다. VISTA 규칙은 최후의 수단으로만 사용하는 것이 좋습니다.
 
 >[!IMPORTANT]
 >

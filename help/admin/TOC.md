@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: 0bed2622f54bf2f46aa57dbfad7bd55a61d6c7d0
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 관리 안내서 {#admin}
 
 + [Analytics 관리 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Admin Console {#admin-console}
    + [개요](admin-console/home.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
@@ -47,27 +47,13 @@ ht-degree: 100%
             + 유료 검색 감지 {#paid-search-detection}
                + [유료 검색 감지 개요](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [유료 검색 감지 구성](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + 처리 규칙 {#c-processing-rules}
-               + [처리 규칙 개요](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + 처리 규칙 {#c-processing-rules-configuration}
-                  + [처리 규칙 작동 방식](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-                  + [처리 규칙 만들기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-                  + [활성 처리 규칙 보기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-                  + [처리 규칙 내역 보기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-                  + [처리 규칙 복원](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-                  + [다른 보고서 세트에 처리 규칙 복사](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-                  + [처리 규칙에 사용 가능한 차원](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
-               + 처리 규칙 예 {#processing-rules-examples}
-                  + [처리 규칙 예](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-                  + [쿼리 문자열 매개변수에서 캠페인 ID 채우기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-                  + [제품 개요 페이지에서 제품 보기 이벤트 설정](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-                  + [카테고리와 페이지 이름을 연결하여 하위 카테고리 추가](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-                  + [보고서에서 값 정리](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-                  + [쿼리 문자열 매개변수를 사용하여 내부 검색어 채우기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-                  + [eVar에 컨텍스트 데이터 변수 복사](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-                  + [컨텍스트 데이터 변수를 사용하여 이벤트 설정](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-                  + [히트에서 이벤트 제거](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-               + [처리 규칙 팁과 트릭](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + 처리 규칙 {#processing-rules}
+               + [개요](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+               + [인터페이스](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
+               + [기록 보기](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)
+               + [규칙 복사](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
+               + [사용 가능한 차원 및 지표](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
+               + [사용 사례](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-use-cases.md)
             + 보트 규칙 {#bot-removal}
                + [보트 제거](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [보트 규칙 이해 및 구성](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)

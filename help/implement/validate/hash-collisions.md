@@ -4,7 +4,7 @@ description: 해시 충돌의 정의와 해시 충돌이 어떻게 발현될 수
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 6%
@@ -42,6 +42,6 @@ Adobe Analytics은 대부분의 차원에 32비트 해시를 사용하므로 가
 대부분의 해시 충돌은 두 개의 흔하지 않은 값에서 발생하며, 이는 보고서에 의미 있는 영향을 미치지 않습니다. 해시가 공통적이고 흔하지 않은 값과 충돌하더라도 결과는 무시해도 된다. 그러나 두 개의 인기 있는 값이 해시 충돌을 경험하는 드문 경우, 그 효과를 명확하게 볼 수 있습니다. Adobe은 보고서에서 그 효과를 줄이려면 다음을 권장합니다.
 
 * **날짜 범위를 변경합니다**: 해시 테이블이 매월 변경됩니다. 날짜 범위를 다른 달에 걸쳐 변경하면 각 값에 충돌하지 않는 서로 다른 해시가 제공될 수 있습니다.
-* **고유 값의 수를 줄입니다**: 구현을 조정하거나 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)을 사용하여 차원에서 수집하는 고유 값의 수를 줄일 수 있습니다. 예를 들어 차원에서 URL을 수집하는 경우 쿼리 문자열 또는 프로토콜을 제거할 수 있습니다.
+* **고유 값의 수를 줄입니다**: 구현을 조정하거나 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)을 사용하여 차원에서 수집하는 고유 값의 수를 줄일 수 있습니다. 예를 들어 차원에서 URL을 수집하는 경우 쿼리 문자열 또는 프로토콜을 제거할 수 있습니다.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

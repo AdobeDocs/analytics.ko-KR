@@ -4,7 +4,7 @@ description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 0b47fe05018fabc101fda696309ac868d87baf7e
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 50%
@@ -78,43 +78,43 @@ ht-degree: 50%
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | 해당 [Prop](/help/components/dimensions/prop.md) 차원을 설정합니다. |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 해당 [사용자 정의 이벤트](/help/components/metrics/custom-events.md) 지표에 적용합니다. 각 이벤트 ID는 100개의 상위 그룹에 있습니다. 예를 들어 직렬화를 `event678`에 적용하려면 `xdm._experience.analytics.event601to700.event678.id`를 사용합니다. |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | 원하는 수량만큼 해당 [사용자 정의 이벤트](/help/components/metrics/custom-events.md) 지표를 증가시킵니다. 각 이벤트는 100개의 상위 그룹에 있습니다. 예를 들어 `event567`에 대한 필드는 `xdm._experience.analytics.event501to600.event567.value`입니다. |
-| `xdm.identityMap.ECID[0].id` | [Adobe Experience Cloud ID 서비스 ID](https://experienceleague.adobe.com/ko/docs/id-service/using/home). |
+| `xdm.identityMap.ECID[0].id` | [Adobe Experience Cloud ID 서비스 ID](https://experienceleague.adobe.com/en/docs/id-service/using/home). |
 | `xdm.marketing.trackingCode` | [추적 코드](/help/components/dimensions/tracking-code.md) 차원을 설정합니다. |
-| `xdm.media.mediaTimed.completes.value` | 스트리밍 미디어 지표 [콘텐츠 완료](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-complete). |
+| `xdm.media.mediaTimed.completes.value` | 스트리밍 미디어 지표 [콘텐츠 완료](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-complete). |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `c.a.media.view`, `c.a.media.timePlayed`, `c.a.media.play` |
-| `xdm.media.mediaTimed.federated.value` | 스트리밍 미디어 지표 [페더레이션 데이터](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#federated-data). |
-| `xdm.media.mediaTimed.firstQuartiles.value` | 스트리밍 미디어 지표 [25% 진행률 마커](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#twenty-five--progress-marker). |
-| `xdm.media.mediaTimed.mediaSegmentView.value` | 스트리밍 미디어 지표 [콘텐츠 세그먼트 보기 수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-segment-views)입니다. |
-| `xdm.media.mediaTimed.midpoints.value` | 스트리밍 미디어 지표 [50% 진행률 마커](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#progress-marker). |
-| `xdm.media.mediaTimed.pauseTime.value` | 스트리밍 미디어 지표 [총 일시 중지 기간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#total-pause-duration)입니다. |
-| `xdm.media.mediaTimed.pauses.value` | 스트리밍 미디어 지표 [이벤트 일시 중지](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#pause-events). |
-| `xdm.mediaCollection.sessionDetails.assetID` | 스트리밍 미디어 차원 [자산 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#asset-id). |
-| `xdm.mediaCollection.sessionDetails.friendlyName` | 스트리밍 미디어 차원 [비디오 이름](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#video-name)입니다. |
-| `xdm.mediaCollection.sessionDetails.originator` | 스트리밍 미디어 차원 [작성자](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#originator)입니다. |
-| `xdm.mediaCollection.sessionDetails.episode` | 스트리밍 미디어 차원 [에피소드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#episode). |
-| `xdm.mediaCollection.sessionDetails.genre` | 스트리밍 미디어 차원 [장르](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#genre). |
-| `xdm.mediaCollection.sessionDetails.rating` | 스트리밍 미디어 차원 [콘텐츠 등급](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-rating). |
-| `xdm.mediaCollection.sessionDetails.season` | 스트리밍 미디어 차원 [시즌](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#season). |
-| `xdm.mediaCollection.sessionDetails.name` | 스트리밍 미디어 차원 [콘텐츠 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-id)입니다. |
-| `xdm.mediaCollection.sessionDetails.show` | 스트리밍 미디어 차원 [표시](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#show). |
-| `xdm.mediaCollection.sessionDetails.showType` | 스트리밍 미디어 차원 [표시 유형](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#show-type). |
-| `xdm.mediaCollection.sessionDetails.length` | 스트리밍 미디어 차원 [비디오 길이](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#video-length)입니다. |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | 스트리밍 미디어 차원 [미디어 세션 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-session-id)입니다. |
-| `xdm.mediaCollection.sessionDetails.channel` | 스트리밍 미디어 차원 [콘텐츠 채널](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-channel)입니다. |
-| `xdm.mediaCollection.sessionDetails.contentType` | 스트리밍 미디어 차원 [콘텐츠 형식](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-type)입니다. |
-| `xdm.mediaCollection.sessionDetails.network` | 스트리밍 미디어 차원 [네트워크](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#network)입니다. |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | 스트리밍 미디어 차원 [콘텐츠 세그먼트](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-segment)입니다. |
-| `xdm.mediaCollection.sessionDetails.playerName` | 스트리밍 미디어 차원 [콘텐츠 플레이어 이름](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-player-name)입니다. |
-| `xdm.mediaCollection.sessionDetails.appVersion` | 스트리밍 미디어 차원 [SDK 버전](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#sdk-version)입니다. |
-| `xdm.mediaCollection.sessionDetails.feed` | 스트리밍 미디어 차원 [미디어 피드 유형](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-feed-type)입니다. |
-| `xdm.mediaCollection.sessionDetails.streamFormat` | 스트리밍 미디어 차원 [스트림 형식](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#stream-format)입니다. |
-| `xdm.media.mediaTimed.progress10.value` | 스트리밍 미디어 지표 [10% 진행률 마커](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#ten--progress-marker). |
-| `xdm.media.mediaTimed.progress95.value` | 스트리밍 미디어 지표 [95% 진행률 마커](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#ninety-five--progress-marker). |
-| `xdm.mediaCollection.sessionDetails.hasResume` | 스트리밍 미디어 지표 [콘텐츠 다시 시작](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-resumes)입니다. |
-| `xdm.media.mediaTimed.starts.value` | 스트리밍 미디어 지표 [미디어 시작](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-starts)입니다. |
-| `xdm.media.mediaTimed.thirdQuartiles.value` | 스트리밍 미디어 지표 [75% 진행률 마커](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#seventy-five--progress-marker). |
-| `xdm.media.mediaTimed.timePlayed.value` | 스트리밍 미디어 지표 [콘텐츠 체류 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-time-spent)입니다. |
-| `xdm.media.mediaTimed.totalTimePlayed.value` | 스트리밍 미디어 지표 [미디어 사용 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-time-spent)입니다. |
+| `xdm.media.mediaTimed.federated.value` | 스트리밍 미디어 지표 [페더레이션 데이터](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#federated-data). |
+| `xdm.media.mediaTimed.firstQuartiles.value` | 스트리밍 미디어 지표 [25% 진행률 마커](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#twenty-five--progress-marker). |
+| `xdm.media.mediaTimed.mediaSegmentView.value` | 스트리밍 미디어 지표 [콘텐츠 세그먼트 보기 수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-segment-views)입니다. |
+| `xdm.media.mediaTimed.midpoints.value` | 스트리밍 미디어 지표 [50% 진행률 마커](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#progress-marker). |
+| `xdm.media.mediaTimed.pauseTime.value` | 스트리밍 미디어 지표 [총 일시 중지 기간](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#total-pause-duration)입니다. |
+| `xdm.media.mediaTimed.pauses.value` | 스트리밍 미디어 지표 [이벤트 일시 중지](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#pause-events). |
+| `xdm.mediaCollection.sessionDetails.assetID` | 스트리밍 미디어 차원 [자산 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#asset-id). |
+| `xdm.mediaCollection.sessionDetails.friendlyName` | 스트리밍 미디어 차원 [비디오 이름](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#video-name)입니다. |
+| `xdm.mediaCollection.sessionDetails.originator` | 스트리밍 미디어 차원 [작성자](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#originator)입니다. |
+| `xdm.mediaCollection.sessionDetails.episode` | 스트리밍 미디어 차원 [에피소드](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#episode). |
+| `xdm.mediaCollection.sessionDetails.genre` | 스트리밍 미디어 차원 [장르](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#genre). |
+| `xdm.mediaCollection.sessionDetails.rating` | 스트리밍 미디어 차원 [콘텐츠 등급](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-rating). |
+| `xdm.mediaCollection.sessionDetails.season` | 스트리밍 미디어 차원 [시즌](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#season). |
+| `xdm.mediaCollection.sessionDetails.name` | 스트리밍 미디어 차원 [콘텐츠 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-id)입니다. |
+| `xdm.mediaCollection.sessionDetails.show` | 스트리밍 미디어 차원 [표시](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#show). |
+| `xdm.mediaCollection.sessionDetails.showType` | 스트리밍 미디어 차원 [표시 유형](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#show-type). |
+| `xdm.mediaCollection.sessionDetails.length` | 스트리밍 미디어 차원 [비디오 길이](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#video-length)입니다. |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | 스트리밍 미디어 차원 [미디어 세션 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-session-id)입니다. |
+| `xdm.mediaCollection.sessionDetails.channel` | 스트리밍 미디어 차원 [콘텐츠 채널](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-channel)입니다. |
+| `xdm.mediaCollection.sessionDetails.contentType` | 스트리밍 미디어 차원 [콘텐츠 형식](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-type)입니다. |
+| `xdm.mediaCollection.sessionDetails.network` | 스트리밍 미디어 차원 [네트워크](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#network)입니다. |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | 스트리밍 미디어 차원 [콘텐츠 세그먼트](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-segment)입니다. |
+| `xdm.mediaCollection.sessionDetails.playerName` | 스트리밍 미디어 차원 [콘텐츠 플레이어 이름](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-player-name)입니다. |
+| `xdm.mediaCollection.sessionDetails.appVersion` | 스트리밍 미디어 차원 [SDK 버전](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#sdk-version)입니다. |
+| `xdm.mediaCollection.sessionDetails.feed` | 스트리밍 미디어 차원 [미디어 피드 유형](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-feed-type)입니다. |
+| `xdm.mediaCollection.sessionDetails.streamFormat` | 스트리밍 미디어 차원 [스트림 형식](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#stream-format)입니다. |
+| `xdm.media.mediaTimed.progress10.value` | 스트리밍 미디어 지표 [10% 진행률 마커](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#ten--progress-marker). |
+| `xdm.media.mediaTimed.progress95.value` | 스트리밍 미디어 지표 [95% 진행률 마커](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#ninety-five--progress-marker). |
+| `xdm.mediaCollection.sessionDetails.hasResume` | 스트리밍 미디어 지표 [콘텐츠 다시 시작](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-resumes)입니다. |
+| `xdm.media.mediaTimed.starts.value` | 스트리밍 미디어 지표 [미디어 시작](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-starts)입니다. |
+| `xdm.media.mediaTimed.thirdQuartiles.value` | 스트리밍 미디어 지표 [75% 진행률 마커](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#seventy-five--progress-marker). |
+| `xdm.media.mediaTimed.timePlayed.value` | 스트리밍 미디어 지표 [콘텐츠 체류 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-time-spent)입니다. |
+| `xdm.media.mediaTimed.totalTimePlayed.value` | 스트리밍 미디어 지표 [미디어 사용 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-time-spent)입니다. |
 | `xdm.placeContext.geo._schema.latitude` | 방문자의 위도 위치입니다. [모바일 라이프사이클 위치](/help/components/dimensions/lifecycle-dimensions.md) 차원을 설정하는 데 도움이 됩니다. |
 | `xdm.placeContext.geo._schema.longitude` | 방문자의 경도 위치입니다. [모바일 라이프사이클 위치](/help/components/dimensions/lifecycle-dimensions.md) 차원을 설정하는 데 도움이 됩니다. |
 | `xdm.placeContext.geo.postalCode` | [우편번호](/help/components/dimensions/zip-code.md) 차원. |
@@ -147,7 +147,7 @@ Adobe Analytics에 추가할 차원 또는 지표가 있는 경우 [컨텍스트
 
 ### 암시적 매핑
 
-자동으로 매핑되지 않는 모든 XDM 필드 요소는 접두사가 `a.x.`인 컨텍스트 데이터로 Adobe Analytics에 전송됩니다. 그런 다음 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)을 사용하여 이 컨텍스트 데이터 변수를 원하는 Analytics 변수에 매핑할 수 있습니다. 예를 들어 다음 이벤트를 전송하는 경우:
+자동으로 매핑되지 않는 모든 XDM 필드 요소는 접두사가 `a.x.`인 컨텍스트 데이터로 Adobe Analytics에 전송됩니다. 그런 다음 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)을 사용하여 이 컨텍스트 데이터 변수를 원하는 Analytics 변수에 매핑할 수 있습니다. 예를 들어 다음 이벤트를 전송하는 경우:
 
 ```js
 alloy("event",{
@@ -167,7 +167,7 @@ Web SDK는 해당 데이터를 Adobe Analytics에 컨텍스트 데이터 변수 
 
 ## 명시적 매핑
 
-XDM 필드 요소를 컨텍스트 데이터로 명시적으로 매핑할 수도 있습니다. `contextData` 요소를 사용하여 명시적으로 매핑된 모든 XDM 필드 요소는 접두사 없이 컨텍스트 데이터로 Adobe Analytics에 전송됩니다. 그런 다음 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)을 사용하여 이 컨텍스트 데이터 변수를 원하는 Analytics 변수에 매핑할 수 있습니다. 예를 들어 다음 이벤트를 전송하는 경우:
+XDM 필드 요소를 컨텍스트 데이터로 명시적으로 매핑할 수도 있습니다. `contextData` 요소를 사용하여 명시적으로 매핑된 모든 XDM 필드 요소는 접두사 없이 컨텍스트 데이터로 Adobe Analytics에 전송됩니다. 그런 다음 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)을 사용하여 이 컨텍스트 데이터 변수를 원하는 Analytics 변수에 매핑할 수 있습니다. 예를 들어 다음 이벤트를 전송하는 경우:
 
 ```js
 alloy("event",{
@@ -183,6 +183,6 @@ alloy("event",{
 })
 ```
 
-웹 SDK에서 해당 데이터를 값이 `1`인 컨텍스트 데이터 변수 `somevalue`(으)로 Adobe Analytics에 보냅니다.  그런 다음 처리 규칙을 사용하여 해당 컨텍스트 데이터 변수 값을 `eVar`과 같은 원하는 Analytics 변수에 할당할 수 있습니다.
+웹 SDK에서 해당 데이터를 값이 `somevalue`인 컨텍스트 데이터 변수 `1`(으)로 Adobe Analytics에 보냅니다.  그런 다음 처리 규칙을 사용하여 해당 컨텍스트 데이터 변수 값을 `eVar`과 같은 원하는 Analytics 변수에 할당할 수 있습니다.
 
 ![검색어 처리 규칙](assets/examplerule-explicit.png)

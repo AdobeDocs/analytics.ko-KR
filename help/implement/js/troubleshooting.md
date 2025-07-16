@@ -4,7 +4,7 @@ description: JavaScript 구현 문제 해결을 위한 일반적인 문제 및 �
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -88,7 +88,7 @@ s.pageName = "        Home Page";
 많은 변수를 긴 값으로 채우는 구현의 경우 때로 이미지 요청이 잘릴 수 있습니다. Internet Explorer와 같은 일부 이전 브라우저는 이미지 요청 URL에 2083자 제한을 적용합니다. 조직에서 매우 긴 이미지 요청이 발생하는 경우 다음을 시도해 보십시오.
 
 * **Experience Cloud ID 서비스 사용**: AppMeasurement 라이브러리 1.4.1 이상은 요청이 너무 긴 경우 HTTP POST를 사용하여 이미지 요청을 자동으로 전송합니다. 이 방법을 사용하여 전송된 데이터는 길이에 관계없이 잘리지 않습니다. 자세한 내용은 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 참조하십시오.
-* **처리 규칙 사용**: [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)은 한 변수의 값을 다른 변수에 값을 복사할 수 있습니다. 이 방법을 사용하면 여러 변수에서 동일한 값을 설정하지 않아도 됩니다. 예를 들어,
+* **처리 규칙 사용**: [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)은 한 변수의 값을 다른 변수에 값을 복사할 수 있습니다. 이 방법을 사용하면 여러 변수에서 동일한 값을 설정하지 않아도 됩니다. 예를 들어,
 
   항상 다음 작업을 실행하십시오.<br>
 prop1의 값을 eVar1로 덮어쓰기<br>
