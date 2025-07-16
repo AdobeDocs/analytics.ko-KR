@@ -4,10 +4,10 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
 workflow-type: tm+mt
-source-wordcount: '1658'
-ht-degree: 91%
+source-wordcount: '1685'
+ht-degree: 88%
 
 ---
 
@@ -138,7 +138,9 @@ ht-degree: 91%
 
 * 흐름 다이어그램은 대화형입니다. 표시되는 세부 사항을 변경하려면 마우스를 다이어그램 위에 놓습니다.
 
-* 다이어그램에 있는 노드를 선택하면 해당 노드에 대한 세부 사항이 표시됩니다. 축소하려면 노드를 다시 선택합니다.
+* 다이어그램에서 노드를 선택하면 해당 노드에 대한 세부 사항이 표시됩니다. 축소하려면 노드를 다시 선택합니다.
+
+  플로우 시각화에 여러 노드를 확장하면 보고 시간에 영향을 줄 수 있습니다. 일반적인 지침으로 주어진 시간에 10개 이하의 노드가 계속 확장되어야 합니다.
 
   ![노드 세부 정보를 보여 주는 대화형 플로우 다이어그램의 예.](assets/node-details.png)
 
@@ -173,7 +175,7 @@ ht-degree: 91%
 | **[!UICONTROL 항목 제외]** 또는 **[!UICONTROL 제외된 항목 복원]** | 열에서 특정 노드를 제거하고 열 맨 위에 필터로 자동으로 만듭니다. 제외된 항목을 복원하려면 컨텍스트 메뉴에서 **[!UICONTROL 제외된 항목 복원]**&#x200B;을 선택합니다. 또한 열의 맨 위에 있는 필터를 열고 방금 제외한 항목이 있는 필박스를 제거할 수도 있습니다. |
 | **[!UICONTROL 트렌드]** | 노드에 대한 트렌드 다이어그램을 만듭니다. |
 | **[!UICONTROL 다음 열 표시]** / **[!UICONTROL 이전 열 표시]** | 시각화의 다음(오른쪽) 또는 이전(왼쪽) 열을 표시합니다. |
-| **[!UICONTROL 열 숨기기]**&#x200B;n | 시각화에서 선택한 열을 숨깁니다. |
+| **[!UICONTROL 열 숨기기]**n | 시각화에서 선택한 열을 숨깁니다. |
 | **[!UICONTROL 전체 열 확장]** | 모든 노드를 표시하도록 열을 확장합니다. 기본적으로 상위 5개의 노드만 표시됩니다. |
 | **[!UICONTROL 선택 항목으로 대상자 만들기]** | 선택된 열에 따라 대상자를 만듭니다. |
 | **[!UICONTROL 전체 열 축소]** | 열에 있는 모든 노드를 숨깁니다. |
@@ -202,8 +204,8 @@ ht-degree: 91%
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 
