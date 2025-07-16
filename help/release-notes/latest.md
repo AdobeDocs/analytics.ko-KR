@@ -3,10 +3,10 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 00d716f12a7372ca94f09ddfddd7ffb55d4b1dd2
+source-git-commit: ebe6716a3dde89d7212385c25044fb533d7737c2
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 86%
+source-wordcount: '625'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 86%
 | ----------- | ---------- | ------- | ---- |
 | **알고리즘을 활용한 라이브 스트리밍 TNT 필드** | 라이브스트림은 기술이 계속 현대적이고 안정적으로 유지되도록 개선 작업을 진행하고 있습니다. 새로 고침의 일환으로 TNT 필드에 알고리즘이 있는 경우 TNT 필드를 Livestream 출력에 통합하기 시작합니다. 단, 여기에는 이전에 지원되었던 다음과 같은 요소만 포함됩니다. `campaignId`, `recipeId`, `trafficType`, `actionId` 및 `actionName`. 라이브 스트리밍의 전반적인 TNT 스키마는 변경되지 않습니다. |   | 2025년 7월 7일 |
 | **고객 속성 UI에 대한 탐색이 업데이트되었습니다.** | 이제 Adobe Experience Cloud의 앱 선택기에서 고객 속성 사용자 인터페이스에 바로 액세스할 수 있습니다. | 2025년 7월 1일 수요일 | TBD |
-| **스트리밍 미디어: 일정 데이터 지원** | 이제 과거 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청자 수를 보다 쉽고 정확하게 추적할 수 있습니다. 다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.<ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다. 이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.<p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다. 자세히 알아보기 |  | 2025년 6월 25일 |
 
 ## Adobe Analytics의 수정 사항
 
@@ -56,6 +55,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
