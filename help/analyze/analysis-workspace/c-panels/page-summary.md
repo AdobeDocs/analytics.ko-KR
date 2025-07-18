@@ -4,10 +4,10 @@ title: 페이지 요약 패널
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 96%
+source-wordcount: '642'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 페이지 요약 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에는 동등한 패널이 없습니다._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 페이지 요약 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에는 동등한 패널이 없습니다._
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 | 입력 | 설명 |
 | --- | --- |
-| **[!UICONTROL 페이지]** | 주요 통계를 탐색할 페이지 차원을 선택합니다. |
+| **[!UICONTROL 페이지]** | 주요 통계를 탐색할 페이지에 대한 페이지 차원을 선택합니다. 예를 들어 **[!UICONTROL home]**&#x200B;을 사용하여 홈 페이지에 대한 통계를 살펴보십시오. 드롭다운 메뉴를 사용하여 페이지를 선택하거나 입력을 시작하여(예: `home`) 페이지를 빠르게 검색합니다. |
 
 {style="table-layout:auto"}
 

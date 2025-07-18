@@ -1,13 +1,13 @@
 ---
-description: Activity Map 확장과 인터페이스 탐색 방법에 대해 알아봅니다.
+description: Activity Map 확장 및 인터페이스 탐색 방법에 대해 알아봅니다.
 title: Activity Map 확장 인터페이스
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Activity Map 확장 인터페이스는 두 부분으로 구성됩니다.
 
 * **표준/라이브 보기**: 표준 보기와 라이브 보기 사이를 전환합니다.
    * 표준 보기: 이전 데이터를 기반으로 오버레이를 표시합니다.
-   * 라이브 뷰: 라이브 데이터를 기반으로 오버레이를 표시합니다. 날짜 선택기가 라이브 데이터의 세부기간을 변경할 수 있는 드롭다운으로 변경됩니다.
+   * 라이브 뷰: 라이브 데이터를 기반으로 오버레이를 표시합니다. 날짜 선택기가 라이브 데이터의 세부 기간을 변경할 수 있는 드롭다운 메뉴로 변경됩니다.
 * **지표 선택기**: 오버레이에서 보고하는 지표를 변경할 수 있습니다. [라이브 보기]를 선택한 경우 [!UICONTROL 링크 클릭 수]만 사용할 수 있습니다.
 * **세그먼트 선택기**: 오버레이 내에서 데이터 하위 집합을 보면서 [세그먼트](/help/components/segmentation/seg-overview.md)를 선택할 수 있습니다. 세그먼트는 라이브 보기에서 사용할 수 없습니다.
 * **오버레이 시각화 유형**: 오버레이가 링크의 순위를 시각화하는 방법을 변경할 수 있습니다.
@@ -45,8 +45,8 @@ Activity Map 확장 인터페이스는 두 부분으로 구성됩니다.
 * **[!UICONTROL 페이지 세부 정보를 전환합니다]**: 아래쪽 패널(눈 모양 아이콘)을 표시하거나 숨깁니다.
 * **[!UICONTROL 설정 표시]**: 변경할 수 있는 설정 메뉴를 엽니다(톱니바퀴 아이콘).
    * **[!UICONTROL 설정]**: 확장의 [설정](settings.md)을 엽니다.
-   * **[!UICONTROL 도움말]**: Experience League 설명서를 엽니다(이 페이지).
-   * **[!UICONTROL Adobe 커뮤니티]**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/?profile.language=ko)를 엽니다.
+   * **[!UICONTROL 도움말]**: Experience League에 대한 설명서를 엽니다(이 페이지).
+   * **[!UICONTROL Adobe 커뮤니티]**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/)를 엽니다.
    * **[!UICONTROL 정보]**: 확장 버전을 표시합니다.
    * **[!UICONTROL 로그아웃]**: 확장에서 로그아웃하므로 다시 로그인해야 합니다.
 * **[!UICONTROL Activity Map 종료]**: 확장에 대한 모든 오버레이를 닫습니다(X 아이콘).
@@ -78,7 +78,7 @@ Activity Map 확장 인터페이스는 두 부분으로 구성됩니다.
 
 ![페이지 패널의 링크](../assets/links-on-page.png)
 
-**[!UICONTROL 페이지 세부 정보]** 보고서에 현재 페이지에 초점을 두고 [페이지](/help/components/dimensions/page.md) 차원을 사용하는 [흐름](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 시각화가 표시됩니다. 현재 페이지에 대한 다음 지표가 왼쪽에 표시됩니다.
+**[!UICONTROL 페이지 세부 정보]** 보고서에 현재 페이지에 초점을 두고 [페이지](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 차원을 사용하는 [흐름](/help/components/dimensions/page.md) 시각화가 표시됩니다. 현재 페이지에 대한 다음 지표가 왼쪽에 표시됩니다.
 
 * 총 [페이지 보기 수](/help/components/metrics/page-views.md)
 * 모든 페이지 보기의 [!UICONTROL %]
