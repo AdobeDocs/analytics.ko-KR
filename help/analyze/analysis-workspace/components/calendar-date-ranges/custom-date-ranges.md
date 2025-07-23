@@ -1,28 +1,28 @@
 ---
-description: Analysis Workspace에서 사용자 지정 날짜 범위를 정의하는 방법을 알아봅니다.
+description: Analysis Workspace에서 사용자 정의 날짜 범위를 정의하는 방법을 알아봅니다.
 keywords: Analysis Workspace
-title: 사용자 지정 날짜 범위 예
+title: 사용자 정의 날짜 범위 예
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 source-git-commit: 8cca98257aeb89226863beed69b4785166141b0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# 사용자 지정 날짜 범위 예
+# 사용자 정의 날짜 범위 예
 
-이 문서에서는 사용자 지정 날짜 범위의 더 많은 예를 보여줍니다.
+이 문서에서는 사용자 정의 날짜 범위에 대한 다양한 예를 제시합니다.
 
 
 
-## 지난 2개월 전
+## 지난 두 달 전
 
 +++ 세부 사항
 
-2개월 전을 정의하는 사용자 지정 날짜 범위를 정의하려는 경우 사전 설정 중 하나를 사용합니다.
+2개월 전을 정의하는 사용자 정의 날짜 범위를 정의하려고 합니다. 사전 설정 중 하나를 사용합니다.
 
 ![지난 2개월 전](assets/date-range-example-simple.png)
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 +++ 세부 사항
 
-한 주 전의 현재 날짜부터 같은 주의 마지막 날짜까지의 기간을 정의하는 날짜 범위를 정의하려고 합니다. 예를 들어 오늘이 2024년 9월 11일 수요일인 경우, 2024년 9월 4일 수요일부터 2024년 9월 7일 토요일까지 날짜 범위를 원하는 경우
+일주일 전 오늘부터 지난 주말까지의 기간을 정의하려고 합니다. 예를 들어 오늘이 2024년 9월 11일 수요일인 경우입니다. 2024년 9월 4일 수요일부터 2024년 9월 7일 토요일까지의 날짜 범위를 원합니다.
 
 ![날짜 범위 예](assets/date-range-example.png)
 
