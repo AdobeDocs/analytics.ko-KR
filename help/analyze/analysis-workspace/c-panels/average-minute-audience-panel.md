@@ -4,10 +4,10 @@ description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: c9299befa63868ce0450af9c63132738474e2371
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 **Customer Journey Analytics**&#x200B;의 미디어 평균 분당 시청 대상자 패널에 대해 설명합니다.<br/>이 문서의 **Adobe Analytics** 버전은 [미디어 평균 분당 시청 대상자 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)을 참조하십시오.*
+_이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;의 미디어 분당 평균 시청 시간 패널을 설명합니다.<br/>_이 문서의 [ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대한 _**미디어 분당 평균 시청 시간 패널**&#x200B;을 참조하세요._
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ Analysis Workspace에서 평균 분당 시청 대상자는 다음에 대한 정�
 
    | 옵션 | 설명 |
    |---------|------------|
-   | **[!UICONTROL 세부 기간]** | 기본 세부 기간은 [!UICONTROL **5분**]&#x200B;이지만 선택한 기간 내에서 시계열의 분모로 사용되는 세부 기간을 선택할 수 있습니다. 예를 들어 5분 세부 기간을 사용하여 오후 12시에서 12시 30분을 선택하면 전체 30분 동안의 평균 분당 시청 대상자와 각 5분 기간에 대한 평균 분당 시청 대상자가 있는 6개의 행이 반환됩니다. 이 행은 시계열 차트에 대한 데이터 포인트로 사용됩니다. |
+   | **[!UICONTROL 세부 기간]** | 기본 세부 기간은 [!UICONTROL **5분**]&#x200B;이지만 선택한 기간 내에서 시계열의 분모로 사용되는 세부 기간을 선택할 수 있습니다. 예를 들어, 5분 세부 기간을 사용하여 오후 12:00 ~ 오후 12:30(을)를 선택하면 전체 30분 동안의 분당 평균 시청 시간과 각 5분 기간에 대한 분당 평균 시청 시간이 있는 6개의 행이 반환됩니다. 이 행은 시계열 차트에 대한 데이터 포인트로 사용됩니다. |
    | [!UICONTROL **콘텐츠 필터링 기준(선택 사항)**] | 원하는 보기 또는 데이터 구조화 방식에 따라 특정 콘텐츠를 필터링할 방법을 선택합니다. <ul>[!UICONTROL **쇼, 시즌, 에피소드**]: 검색을 사용해(또는 왼쪽 열에서 쇼 이름을 끌어다 놓아) 필터링할 수 있는 사용 가능한 쇼가 드롭다운에 표시됩니다. 여기에서 선택을 끝내면 쇼의 모든 시즌을 볼 수 있습니다. 또는 개별 시즌별로 필터링한 다음 개별 에피소드별로 필터링할 수 있습니다. 이 설정은 선택한 기간의 해당 쇼, 시즌 또는 에피소드에 대한 데이터를 표시합니다.</li><li>[!UICONTROL **사용자 정의 차원**]: 쇼 이름이 사용자 정의 차원에 있는 경우 차원(선택 사항) 드롭다운에서 검색하거나 왼쪽 열 검색을 사용하여 찾을 수 있습니다. 차원 항목은 해당 선택에 따라 자동으로 채워지고 에피소드로 처리됩니다.</li><li>[!UICONTROL **없음**]: 선택한 항목에 대한 분당 평균 대상자 시청 시간 데이터가 있는 모든 비디오 이름을 표시할 수 있습니다. (기본적으로 이 옵션은 선택되어 있습니다.)</li></ul> |
 
 1. 고급 설정을 구성하려면 [사용자 정의 기간 고급 설정](#custom-time-period-advanced-settings)으로 계속 진행합니다.
@@ -187,8 +187,8 @@ Analysis Workspace에서 평균 분당 시청 대상자는 다음에 대한 정�
 >[!MORELIKETHIS]
 >
 > [패널 만들기](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [미디어 동시 뷰어 패널](media-concurrent-viewers.md)
-> &#x200B;> [미디어 재생 소요 시간 패널](media-playback-time-spent.md)
+> > [미디어 동시 뷰어 패널](media-concurrent-viewers.md)
+> > [미디어 재생 소요 시간 패널](media-playback-time-spent.md)
 >
 
 
