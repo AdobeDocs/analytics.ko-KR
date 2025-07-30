@@ -3,16 +3,16 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ebe6716a3dde89d7212385c25044fb533d7737c2
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 698b8f6cb9529f9742c2e3d9f1556b7913ebf0bb
+workflow-type: tm+mt
+source-wordcount: '652'
+ht-degree: 93%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2025년 7월 릴리스)
 
-**마지막 업데이트**: 2025년 7월 16일
+**마지막 업데이트**: 2025년 7월 30일 목요일
 
 이번 릴리스 정보에는 2025년 7월 7일부터 8월 15일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **알고리즘을 활용한 라이브 스트리밍 TNT 필드** | 라이브스트림은 기술이 계속 현대적이고 안정적으로 유지되도록 개선 작업을 진행하고 있습니다. 새로 고침의 일환으로 TNT 필드에 알고리즘이 있는 경우 TNT 필드를 Livestream 출력에 통합하기 시작합니다. 단, 여기에는 이전에 지원되었던 다음과 같은 요소만 포함됩니다. `campaignId`, `recipeId`, `trafficType`, `actionId` 및 `actionName`. 라이브 스트리밍의 전반적인 TNT 스키마는 변경되지 않습니다. |   | 2025년 7월 7일 |
-| **고객 속성 UI에 대한 탐색이 업데이트되었습니다.** | 이제 Adobe Experience Cloud의 앱 선택기에서 고객 속성 사용자 인터페이스에 바로 액세스할 수 있습니다. | 2025년 7월 1일 | TBD |
+| **고객 속성 UI에 대한 탐색이 업데이트되었습니다.** | 이제 고객 속성 사용자 인터페이스는 Adobe Experience Cloud의 앱 선택기에서 직접 액세스할 수 있습니다. **[!UICONTROL 사람]** > [!UICONTROL 고객 특성]&#x200B;(으)로 이동하지 않고 드롭다운 메뉴에서 [!UICONTROL 고객 특성]을(를) 선택하고 책갈피를 업데이트하십시오.  업데이트에는 UI에 대한 몇 가지 개선 사항이 포함되어 있습니다. | 2025년 7월 1일 | 2025년 7월 31일 금요일 |
 
 ## Adobe Analytics의 수정 사항
 
@@ -55,6 +55,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
