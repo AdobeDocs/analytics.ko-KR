@@ -15,7 +15,7 @@ ht-degree: 99%
 # Adobe Analytics 구현 안내서 {#implementation}
 
 + [Adobe Analytics 구현](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
 + [AppMeasurement 릴리스 정보](appmeasurement-updates.md)
 + Analytics 변수, 함수 및 메서드 {#vars}
    + [개요](vars/overview.md)

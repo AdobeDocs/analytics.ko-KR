@@ -33,4 +33,4 @@ Edge Network에서는 다음 논리를 사용하여 Adobe Analytics 페이지 �
 | `xdm.eventType = click` 또는 `xdm.eventType = decisioning.propositionInteract`과(와) `xdm._experience.decisioning` 및 `web.webInteraction.type` 없음 | 페이로드를 **A4T** 호출로 간주합니다. |
 | `xdm.eventType = click` 또는 `xdm.eventType = decisioning.propositionInteract`이고 `xdm._experience.decisioning`이(가) 없으며 `web.webInteraction.type`이(가) 없습니다. | 는 페이로드를 삭제하고 데이터를 무시합니다. |
 
-자세한 내용은 [Adobe Analytics ExperienceEvent 전체 스키마 확장 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)을 참조하십시오.
+자세한 내용은 [Adobe Analytics ExperienceEvent 전체 스키마 확장 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)을 참조하십시오.
