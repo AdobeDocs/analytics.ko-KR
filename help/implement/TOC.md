@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. 수집할 데이터를 사용자 정의하여 Analytics 데이터에서 더 많은 것을 얻을 수 있습니다.
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
-workflow-type: ht
-source-wordcount: '436'
-ht-degree: 100%
+source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 구현 안내서 {#implementation}
 
 + [Adobe Analytics 구현](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement 릴리스 정보](appmeasurement-updates.md)
 + Analytics 변수, 함수 및 메서드 {#vars}
    + [개요](vars/overview.md)
@@ -142,6 +142,7 @@ ht-degree: 100%
    + [Experience Edge 개요](aep-edge/overview.md)
    + [데이터 오브젝트 변수 매핑](aep-edge/data-var-mapping.md)
    + [XDM 오브젝트 변수 매핑](aep-edge/xdm-var-mapping.md)
+   + [Edge Network 이벤트 유형](aep-edge/hit-types.md)
    + Web SDK {#web-sdk}
       + [Web SDK 개요](aep-edge/web-sdk/overview.md)
       + [태그를 사용하여 Web SDK로 마이그레이션](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
