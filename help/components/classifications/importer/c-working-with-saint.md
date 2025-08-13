@@ -3,7 +3,7 @@ description: 가져오기 도구를 사용하여 분류를 Adobe Analytics에 �
 title: 분류 가져오기 도구 - 개요
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 92%
@@ -11,6 +11,8 @@ ht-degree: 92%
 ---
 
 # 분류 가져오기 개요(이전)
+
+{{classification-importer-deprecation}}
 
 가져오기 도구를 사용하여 분류를 Adobe Analytics에 업로드합니다. 데이터를 가져오기 전에 업데이트를 위해 데이터를 내보낼 수도 있습니다.
 

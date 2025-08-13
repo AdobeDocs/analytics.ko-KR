@@ -3,7 +3,7 @@ title: 브라우저 내보내기
 description: 브라우저 내보내기를 사용하면 분류 데이터를 탭으로 구분된 파일로 내보낼 수 있습니다.
 feature: Classifications
 exl-id: f4c709b2-f707-4e3c-82ba-6b43def3e698
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 99%
@@ -11,6 +11,8 @@ ht-degree: 99%
 ---
 
 # 브라우저 내보내기(이전)
+
+{{classification-importer-deprecation}}
 
 브라우저 내보내기를 사용하면 분류 데이터를 탭으로 구분된 파일로 내보낼 수 있습니다.
 

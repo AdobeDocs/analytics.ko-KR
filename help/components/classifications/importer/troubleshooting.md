@@ -3,7 +3,7 @@ title: 분류 임포터 문제 해결
 description: 분류 임포터 사용 시 발생하는 일반적인 업로드 문제
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 96%
@@ -11,6 +11,8 @@ ht-degree: 96%
 ---
 
 # 분류 임포터 문제 해결
+
+{{classification-importer-deprecation}}
 
 분류 데이터를 Adobe에 업로드할 때 발생하는 가장 일반적인 문제입니다.
 

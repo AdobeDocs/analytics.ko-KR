@@ -3,7 +3,7 @@ title: 분류 임포터 처리 시간
 description: Adobe가 분류 파일을 처리하는 데 걸리는 시간 및 처리 시간을 최소화하는 방법을 이해합니다.
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-source-git-commit: a83195c7805ff1bfb854b3c2714857f437cf8955
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 93%
@@ -11,6 +11,8 @@ ht-degree: 93%
 ---
 
 # 분류 임포터 처리 시간
+
+{{classification-importer-deprecation}}
 
 분류 파일의 처리 시간은 파일 크기와 Adobe에서 처리하는 총 파일 수에 따라 다릅니다. 분류는 일반적으로 24시간 이상 걸리지 않습니다. 그러나 Adobe Analytics을 사용하는 조직에서 분류를 많이 사용하는 경우 파일이 24시간 이상 걸릴 수 있습니다. 휴가철 전까지 몇 달 동안 분류를 많이 사용하는 현상이 나타납니다.
 

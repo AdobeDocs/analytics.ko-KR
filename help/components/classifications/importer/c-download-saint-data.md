@@ -3,7 +3,7 @@ description: (선택 사항) 분류를 마케팅 보고서로 가져오기 전�
 title: 분류 템플릿
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 99%
@@ -11,6 +11,8 @@ ht-degree: 99%
 ---
 
 # 분류 템플릿(이전)
+
+{{classification-importer-deprecation}}
 
 (선택 사항) 분류를 보고서 및 프로젝트로 가져오기 전에, 분류 데이터 파일을 만드는 데 도움이 되는 템플릿을 다운로드할 수 있습니다. 데이터 파일은 원하는 분류를 열 머리글로 사용한 다음, 적합한 분류 머리글 아래에 보고 데이터 세트를 구성합니다.
 

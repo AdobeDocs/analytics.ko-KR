@@ -3,7 +3,7 @@ description: 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니
 title: 분류 규칙 세트
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 89%
@@ -11,6 +11,8 @@ ht-degree: 89%
 ---
 
 # 분류 규칙 세트 (기존)
+
+{{classification-rulebuilder-deprecation}}
 
 *이 페이지에서는 [분류 규칙 빌더](classification-rule-builder.md)의 일부로 분류 규칙 집합에 대해 설명합니다. Adobe Analytics에서 데이터를 분류하는 현재 방법은 [분류 세트](../sets/overview.md)를 참조하십시오.*
 
@@ -76,6 +78,6 @@ ht-degree: 89%
 
    보고서 세트 및 변수 목록은 로그인 회사의 모든 보고서 세트에서 사용할 수 있는 모든 분류된 변수로 채워집니다. 보고서 세트의 단일 변수는 하나의 규칙 세트에만 속할 수 있습니다.
 
-   자세한 내용은 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-definitions.md) 페이지의 정의에서 *`Variable`*&#x200B;을(를) 참조하십시오.
+   자세한 내용은 *`Variable`*&#x200B;분류 규칙 빌더[ 페이지의 정의에서 ](/help/components/classifications/crb/classification-rule-definitions.md)을(를) 참조하십시오.
 1. 사용할 보고서 세트와 변수를 지정한 다음, **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 규칙 세트에 [분류 규칙을 추가](/help/components/classifications/crb/classification-rule-set.md)하여 계속 진행합니다.

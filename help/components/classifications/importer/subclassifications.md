@@ -3,14 +3,16 @@ description: Adobe Analytics 보고서는 단일 수준 및 다중 수준 분류
 title: 하위 분류
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
 # 하위 분류
+
+{{classification-importer-deprecation}}
 
 Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 둘 다 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
 

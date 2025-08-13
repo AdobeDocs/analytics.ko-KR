@@ -3,7 +3,7 @@ description: 분류 데이터를 삭제하거나 제거하는 방법을 설명�
 title: 분류 데이터 삭제
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 96%
@@ -11,6 +11,8 @@ ht-degree: 96%
 ---
 
 # 분류 데이터 삭제
+
+{{classification-importer-deprecation}}
 
 분류 데이터를 업로드한 후 경우에 따라 제거해야 합니다. 제거할 내용에 따라 `~empty~` 또는 `~deletekey~`를 사용하십시오.
 

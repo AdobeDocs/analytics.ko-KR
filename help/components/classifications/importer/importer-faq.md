@@ -3,7 +3,7 @@ title: 분류 FAQ
 description: 분류 사용에 대한 FAQ입니다.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 87%
@@ -11,6 +11,8 @@ ht-degree: 87%
 ---
 
 # 분류 가져오기 FAQ
+
+{{classification-importer-deprecation}}
 
 분류 가져오기 사용에 대한 FAQ입니다.
 

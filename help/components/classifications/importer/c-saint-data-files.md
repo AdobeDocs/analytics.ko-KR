@@ -3,7 +3,7 @@ description: 가져오기를 사용하여 분석 보고에 대한 분류 데이�
 title: 분류 데이터 파일
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 90%
@@ -11,6 +11,8 @@ ht-degree: 90%
 ---
 
 # 분류 데이터 파일 (기존)
+
+{{classification-importer-deprecation}}
 
 가져오기를 사용하여 분석 보고에 대한 분류 데이터를 파일로 일괄 업로드할 수 있습니다. 가져오기를 통해 데이터를 제대로 업로드하려면 특정 파일 형식이 필요합니다.
 
@@ -112,7 +114,7 @@ ht-degree: 90%
 
 ### 하위 분류 제목
 
-예를 들어 `Campaigns^Owner`은(는) `Campaign Owner` 값을 포함하는 열의 열 머리글입니다. 마찬가지로 `Creative Elements^Size`은(는) `Creative Elements` 분류의 `Size` 하위 분류를 포함하는 열에 대한 열 머리글입니다.
+예를 들어 `Campaigns^Owner`은(는) `Campaign Owner` 값을 포함하는 열의 열 머리글입니다. 마찬가지로 `Creative Elements^Size`은(는) `Size` 분류의 `Creative Elements` 하위 분류를 포함하는 열에 대한 열 머리글입니다.
 
 ## 분류 문제 해결
 
