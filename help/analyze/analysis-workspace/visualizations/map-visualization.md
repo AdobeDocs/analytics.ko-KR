@@ -46,7 +46,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 맵 시각화에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)_ Customer Journey Analytics![ 버전에 대한 ](/help/assets/icons/CustomerJourneyAnalytics.svg)맵&#x200B;_&#x200B;**을(를) 참조하십시오.**&#x200B;_
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 맵 시각화에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/map)_ Customer Journey Analytics![ 버전에 대한 ](/help/assets/icons/CustomerJourneyAnalytics.svg)맵&#x200B;_&#x200B;**을(를) 참조하십시오.**&#x200B;_
 
 >[!ENDSHADEBOX]
 
