@@ -3,39 +3,41 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 698b8f6cb9529f9742c2e3d9f1556b7913ebf0bb
-workflow-type: ht
-source-wordcount: '652'
-ht-degree: 100%
+source-git-commit: 07d6b4e096d239d4940f438c5eca46f496a18131
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 42%
 
 ---
 
-# 현재 Adobe Analytics 릴리스 정보 (2025년 7월 릴리스)
+# 최신 Adobe Analytics 릴리스 정보 (2025년 8월 릴리스)
 
-**마지막 업데이트**: 2025년 7월 30일
+**마지막 업데이트**: 2025년 8월 13일 목요일
 
-이번 릴리스 정보에는 2025년 7월 7일부터 8월 15일까지의 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2025년 8월 13일부터 9월 16일까지의 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **알고리즘을 활용한 라이브 스트리밍 TNT 필드** | 라이브스트림은 기술이 계속 현대적이고 안정적으로 유지되도록 개선 작업을 진행하고 있습니다. 새로 고침의 일환으로 TNT 필드에 알고리즘이 있는 경우 TNT 필드를 Livestream 출력에 통합하기 시작합니다. 단, 여기에는 이전에 지원되었던 다음과 같은 요소만 포함됩니다. `campaignId`, `recipeId`, `trafficType`, `actionId` 및 `actionName`. 라이브 스트리밍의 전반적인 TNT 스키마는 변경되지 않습니다. |   | 2025년 7월 7일 |
-| **고객 속성 UI에 대한 탐색이 업데이트되었습니다.** | 이제 Adobe Experience Cloud의 앱 선택기에서 고객 속성 사용자 인터페이스에 바로 액세스할 수 있습니다. [!UICONTROL 사용자] > [!UICONTROL 고객 속성]으로 이동하는 대신 드롭다운 메뉴에서 **[!UICONTROL 고객 속성]**&#x200B;을 선택하고 책갈피를 업데이트하여 주십시오.  이 업데이트에는 UI 개선이 포함되어 있습니다. | 2025년 7월 1일 | 2025년 7월 31일 |
+| **새 레퍼러 유형 차원 항목으로 AI 트래픽 분석** | 10월에는 AI 도구에서 발생하는 트래픽을 분석하는 데 도움이 되는 새로운 레퍼러 유형 차원 항목을 사용할 수 있습니다. <p>대화형 AI 도구라고 하는 이 새로운 레퍼러 유형 차원 항목은 주요 AI 도구의 참조 도메인을 함께 그룹화하므로, 그룹 전체의 트렌드를 볼 수 있습니다. 이 새 카테고리의 참조 도메인 초기 목록에는 다음이 포함됩니다(이에 국한되지 않음).</p><ul><li>chatgpt.com</li><li>claude.ai</li><li>m365.cloud.microsoft</li><li>grok.com</li><li>gemini.google.com</li><li>perplexity.ai</li></ul><p>새 차원 항목은 Analysis Workspace, Report Builder, Data Warehouse, 데이터 피드 등을 포함하여 모든 Adobe Analytics 관련 도구에서 사용할 수 있습니다.</p><p>이 새 차원 항목을 사용할 때는 다음 사항을 고려하십시오.</p><ul><li>검색 엔진의 &quot;AI 모드&quot;에 제공된 결과에서 가져온 레퍼러 트래픽과 클릭스루에서 제공된 결과를 기존 검색 결과에서 구별할 수 있는 것은 아닙니다.</li><li>새로운 대화형 AI 도구 차원 항목은 트래픽이 가장 많은 주요 공급자에 중점을 둡니다. 새로운 트렌드는 주요 AI 도구 공급자와 유사한 도메인을 사용하는 가장자 사이트의 수가 증가하는 것을 보여줍니다. 이는 개인이나 그룹이 자신만의 AI 도구를 만들고 이를 인터넷에서 호스팅할 수 있는 용이성 때문일 가능성이 높다. 이는 빠르게 진화하는 공간이므로, 인기 있는 사이트가 포함되지 않은 경우 Adobe 지원 팀에 문의하십시오.</li><li>새로운 대화형 AI 도구 차원 항목을 포함한 레퍼러 유형 차원은 Adobe Analytics에서 처리한 데이터에만 사용할 수 있습니다. </li></ul><p>(참조할 설명서 링크입니다.)</p> |   | 2025년 10월 |
+| **PDF로 다운로드된 프로젝트가 워크스테이션에 다운로드됨** | 프로젝트를 PDF으로 다운로드하면 PDF이 워크스테이션의 다운로드 폴더로 다운로드됩니다. <p>이전에는 프로젝트를 PDF으로 다운로드하면 새 브라우저 탭에서 고유한 URL로 PDF이 시작되었습니다.</p><p>자세한 내용은 [프로젝트 및 데이터 다운로드](/help/analyze/analysis-workspace/curate-share/download-send.md)를 참조하십시오.</p> |  | 2025년 8월 25일 |
+| **삭제된 프로젝트는 URL에서 즉시 사용할 수 없으며 예약된 게재에서 삭제됩니다** | 삭제된 프로젝트는 예약된 게재에서 즉시 삭제되며 더 이상 URL로 액세스할 수 없습니다.<p>이전에는 프로젝트가 예약된 게재에 포함되었으며 삭제된 후 60일 동안 URL로 액세스할 수 있었습니다.</p><p>프로젝트 삭제에 대한 자세한 내용은 [프로젝트 개요](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)를 참조하십시오.</p> | | 2025년 8월 말 |
+| **스트리밍 미디어: Adobe Experience Platform으로 스트리밍 미디어 데이터를 수집하기 위한 XDM 필드를 업데이트했습니다** | 스트리밍 미디어 데이터를 Adobe Experience Platform으로 수집할 때, 스트리밍 미디어 매개변수 설명서의 “XDM 필드 경로” 제목 아래에 표시된 XDM 필드 경로는 더 이상 사용해서는 안 됩니다. 대신 2025년 5월 9일 이전에 스트리밍 미디어 데이터를 플랫폼으로 수집하도록 Analytics 소스 커넥터를 구현한 고객은 스트리밍 미디어 매개 변수 설명서의 &quot;보고 XDM 필드 경로&quot; 제목 아래에 표시된 대로 기존 구성을 mediaReporting 필드 경로로 마이그레이션해야 합니다.<p> 이러한 필드 경로는 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters), [광고 매개 변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/ad-parameters), [챕터 매개 변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/chapter-parameters), [플레이어 상태 매개 변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/player-state-parameters) 및 [품질 매개 변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/quality-parameters) 페이지에서 찾을 수 있으며 &quot;사용되지 않음&quot;으로 표시됩니다. (2025년 5월 9일 이후에 Analytics 소스 커넥터를 구현하고 이미 mediaReporting XDM 경로만 사용 중인 고객은 작업이 필요하지 않습니다.)</p><p>더 이상 사용되지 않는 XDM 필드 경로에 대한 데이터 수집은 2025년 10월 말까지 계속됩니다. 그 이후에는 더 이상 사용되지 않는 필드 경로가 완전히 제거되어 Adobe Experience Platform 스키마 UI에 더 이상 표시되지 않으며, mediaReporting 필드 경로를 통해서만 데이터가 전송됩니다.</p><p>자세한 내용은 [업데이트된 XDM 스트리밍 미디어 필드로 Analytics Source 커넥터 구현 마이그레이션](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-use-cases/xdm-updates/updated-xdm-fields)을 참조하십시오.</p><p>마이그레이션 지원에 대해서는 Adobe Consulting 서비스 또는 계정 팀에 문의하십시오. </p> |  | 2025년 10월 |
 
 ## Adobe Analytics의 수정 사항
 
-**Activity Map**: AN-360987
-**Analysis Workspace**: AN-378094; AN-380979; AN-382908; AN-387652;
-**분류**: AN-382412; AN-383157; AN-384616; AN-384803; AN-385933; AN-387320; AN-387351; AN-387832; AN-387833; AN-387839; AN-387915;
-**데이터 수집**: AN-387661
-**데이터 피드**: AN-375172; AN-384369; AN-387859; AN-387952; AN-388155;
-**플랫폼**: AN-382813; AN-386627; AN-386815
-**개인정보 보호**: AN-384390
-**Report Builder**: AN-388035
-**보고**: AN-380441
-**예약된 보고서**: AN-378280; AN-378331
-**세그먼트 비교**: AN-368766
+**Activity Map**: AN-389205; AN-384186
+**Analysis Workspace**: AN-390102; AN-389066; AN-388841; AN-388687; AN-388478; AN-387089; AN-387044; AN-384560; AN-379213; AN-351639
+**분류**: AN-390442; AN-390385; AN-389953; AN-389703; AN-389321; AN-389116; AN-388833; AN-388717; AN-387987; AN-383329
+**데이터 수집**: AN-389320
+**데이터 피드 및 Data Warehouse**: AN-389702; AN-388136; AN-387779; AN-384369; AN-383075; AN-380307
+**개인 정보**:
+**Report Builder**: AN-389336; AN-382775
+**보고**: AN-390398
+**예약된 보고서**:
+**세그먼트 비교**:
+**기타**: AN-388180; AN-383164; AN-366532
 
 
 ## 서비스 종료(EOL) 알림 {#eol}
@@ -55,6 +57,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 컬렉션 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
