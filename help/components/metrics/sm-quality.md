@@ -1,22 +1,22 @@
 ---
-title: 스트리밍 미디어 품질 지표
+title: 스트리밍 미디어 서비스 품질 지표
 description: 보고서 세트에 대해 [!UICONTROL 미디어 품질]을(를) 사용하도록 설정할 때 사용 가능한 지표입니다.
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
 
-# 스트리밍 미디어 품질 지표
+# 스트리밍 미디어 서비스 품질 지표
 
-*이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 품질]을(를) 사용하도록 설정할 때 사용할 수 있는 지표를 설명합니다. 사용 가능한 차원은 [스트리밍 미디어 품질 차원](../dimensions/sm-quality.md)을 참조하십시오.*
+*이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 품질]을(를) 사용하도록 설정할 때 사용할 수 있는 지표를 설명합니다. 사용 가능한 차원은 [스트리밍 미디어 서비스 품질 차원](../dimensions/sm-quality.md)을 참조하십시오.*
 
-Streaming Media 품질 지표는 스트리밍 미디어 컬렉션 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL Adobe 스트리밍 미디어 컬렉션]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+Streaming Media 서비스 품질 지표는 Streaming Media 서비스 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 애드온]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-[미디어 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)에서 **[!UICONTROL 미디어 품질]**&#x200B;을(를) 사용하도록 설정하면 다음 지표를 사용할 수 있습니다.
+**[!UICONTROL 미디어 보고]**&#x200B;에서 [미디어 품질](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)을(를) 사용하도록 설정하면 다음 지표를 사용할 수 있습니다.
 
 | 지표 이름 | 설명 | 전송 시점 | 컨텍스트 데이터 변수 |
 | --- | --- | --- | --- |
@@ -31,4 +31,4 @@ Streaming Media 품질 지표는 스트리밍 미디어 컬렉션 라이브러�
 | 드롭된 프레임의 영향을 받는 스트림 | 재생 세션 중에 프레임이 드롭될 때 트리거하는 부울입니다. | 미디어 닫기 | `a.media.qoe.droppedFrames` |
 | 오류의 영향을 받은 스트림 | 재생 세션 중에 비디오에 오류가 발생할 때 트리거하는 부울입니다. | 미디어 닫기 | `a.media.qoe.error` |
 | 오류 이벤트 | 재생 세션 도중 발생한 총 오류 수를 나타내는 정수입니다. | 미디어 닫기 | `a.media.qoe.errorCount` |
-| 시작 시간 | 비디오를 시작하는 데 걸린 시간(밀리초)입니다. Adobe은 이 값을 초 단위로 변환하여 저장합니다. | 미디어 닫기 | `a.media.qoe.timeToStart` |
+| 시작 시간 | 비디오를 시작하는 데 걸린 시간(밀리초)입니다. Adobe은 이 값을 초 단위로 전환하고 저장합니다. | 미디어 닫기 | `a.media.qoe.timeToStart` |

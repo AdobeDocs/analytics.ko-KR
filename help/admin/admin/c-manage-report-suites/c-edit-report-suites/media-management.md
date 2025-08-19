@@ -4,7 +4,7 @@ title: 미디어 관리
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 30%
@@ -21,7 +21,7 @@ ht-degree: 30%
 
 * [!UICONTROL **미디어 보고**]
 
-  이 확인란을 사용하여 스트리밍 미디어 컬렉션과 관련된 차원 및 지표를 활성화할 수 있습니다.
+  이 확인란을 사용하여 스트리밍 미디어 서비스와 관련된 차원 및 지표를 활성화할 수 있습니다.
 
    * [미디어 코어 차원](/help/components/dimensions/sm-core.md)
    * [미디어 코어 지표](/help/components/metrics/sm-core.md)
@@ -38,6 +38,6 @@ ht-degree: 30%
 
 * [!UICONTROL **미디어 분류**]
 
-  스트리밍 미디어 컬렉션 차원에 대한 분류는 [!UICONTROL 미디어 분류] 페이지에서 사용할 수 있습니다. 전환 변수에 사용할 수 있는 [전환 분류](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)와 유사하게 작동합니다. [!UICONTROL 미디어 보고]에서 특정 구성 요소를 사용하도록 설정하면 자동으로 분류 차원이 만들어집니다. 이 인터페이스를 사용하여 고유한 분류 차원을 생성하거나 분류 데이터를 업로드할 수 있습니다.
+  스트리밍 미디어 서비스 차원별 분류는 [!UICONTROL 미디어 분류] 페이지에서 사용할 수 있습니다. 전환 변수에 사용할 수 있는 [전환 분류](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)와 유사하게 작동합니다. [!UICONTROL 미디어 보고]에서 특정 구성 요소를 사용하도록 설정하면 자동으로 분류 차원이 만들어집니다. 이 인터페이스를 사용하여 고유한 분류 차원을 생성하거나 분류 데이터를 업로드할 수 있습니다.
 
-Adobe Analytics에서 스트리밍 미디어 데이터를 통합하는 방법에 대한 일반적인 정보는 [스트리밍 미디어 컬렉션 안내서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview)를 참조하십시오.
+Adobe Analytics에서의 스트리밍 미디어 데이터 통합에 대한 일반적인 정보는 [Adobe 스트리밍 미디어 서비스 개요](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview)를 참조하십시오.

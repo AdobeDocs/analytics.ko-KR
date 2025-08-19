@@ -4,10 +4,10 @@ description: Analysis Workspace에서 미디어 분당 평균 시청 시간 패�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: c9299befa63868ce0450af9c63132738474e2371
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 95%
+source-wordcount: '1822'
+ht-degree: 92%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;의 미디어 분당 평균 시청 시간 패널을 설명합니다.<br/>_이 문서의 [&#128279;](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대한 _&#x200B;**미디어 분당 평균 시청 시간 패널**&#x200B;을 참조하세요._
+_이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;의 미디어 분당 평균 시청 시간 패널을 설명합니다.<br/>_이 문서의 [ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대한 _**미디어 분당 평균 시청 시간 패널**&#x200B;을 참조하세요._
 
 >[!ENDSHADEBOX]
 
 >[!NOTE]
 >
->**[!UICONTROL 미디어 평균 분당 시청 대상자 패널]**&#x200B;은 Adobe Analytics용 스트리밍 미디어 컬렉션을 구매한 고객에게만 제공됩니다.
+>**[!UICONTROL 미디어 분당 평균 시청 시간]** 패널은 스트리밍 미디어용 Adobe Analytics 추가 기능을 구입한 고객만 사용할 수 있습니다.
 >
 >자세한 내용은 Adobe 판매 팀 담당자나 Adobe 계정 팀에 문의하십시오.
 >
@@ -67,7 +67,7 @@ Analysis Workspace에서 평균 분당 시청 대상자는 다음에 대한 정�
 
 1. **[!UICONTROL 미디어 평균 분당 시청 대상자]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
 
-1. 스트리밍 미디어 컬렉션에서 구성 요소가 구성된 패널의 데이터 보기를 선택해야 합니다.
+1. 스트리밍 미디어용 Adobe Analytics 추가 기능에서 구성 요소를 구성한 패널에 대해 데이터 보기를 선택해야 합니다.
 
 1. 패널의 [입력](#panel-input)을 지정합니다.
 
@@ -187,8 +187,8 @@ Analysis Workspace에서 평균 분당 시청 대상자는 다음에 대한 정�
 >[!MORELIKETHIS]
 >
 > [패널 만들기](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [미디어 동시 뷰어 패널](media-concurrent-viewers.md)
-> &#x200B;> [미디어 재생 소요 시간 패널](media-playback-time-spent.md)
+> > [미디어 동시 뷰어 패널](media-concurrent-viewers.md)
+> > [미디어 재생 소요 시간 패널](media-playback-time-spent.md)
 >
 
 

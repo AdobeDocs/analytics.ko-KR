@@ -1,24 +1,24 @@
 ---
-title: 스트리밍 미디어 품질 차원
+title: 스트리밍 미디어 서비스 품질 차원
 description: 보고서 세트에 대해 [!UICONTROL 미디어 품질]을(를) 사용하도록 설정하는 경우 사용 가능한 차원입니다.
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
 
-# 스트리밍 미디어 품질 차원
+# 스트리밍 미디어 서비스 품질 차원
 
-*이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 품질]을(를) 사용할 때 사용할 수 있는 차원을 설명합니다. 사용 가능한 지표는 [스트리밍 미디어 품질 지표](../metrics/sm-quality.md)를 참조하십시오.*
+*이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 품질]을(를) 사용할 때 사용할 수 있는 차원을 설명합니다. 사용 가능한 지표는 [스트리밍 미디어 서비스 품질 지표](../metrics/sm-quality.md)를 참조하십시오.*
 
-Streaming Media 품질 차원은 방문자가 사용하는 콘텐츠의 품질과 관련된 보고를 제공합니다. 이 차원을 사용하려면 [!UICONTROL Adobe 스트리밍 미디어 컬렉션]이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+스트리밍 미디어 서비스 품질 차원은 방문자가 사용하는 콘텐츠의 품질과 관련된 보고를 제공합니다. 이 차원을 사용하려면 [!UICONTROL 스트리밍 미디어용 Adobe Analytics 애드온]이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-[미디어 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)에서 **[!UICONTROL 미디어 품질]**&#x200B;을(를) 사용하도록 설정하면 다음 차원을 사용할 수 있습니다.
+**[!UICONTROL 미디어 보고]**&#x200B;에서 [미디어 품질](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)을(를) 사용하도록 설정하면 다음 차원을 사용할 수 있습니다.
 
-| Dimension 이름 | 설명 | 전송 시점 | 컨텍스트 데이터 변수 |
+| 차원 이름 | 설명 | 전송 시점 | 컨텍스트 데이터 변수 |
 | --- | --- | --- | --- |
 | 평균 비트율 | 평균 비트율(100KBPS 버킷 간격). 지정된 재생 세션의 재생 기간과 관련하여 모든 비트율 값의 가중 평균으로 계산됩니다. | 미디어 닫기 | `a.media.qoe.bitrateAverageBucket` |
 | 비트율 변경 | 재생 세션 도중 발생한 비트율 변경 횟수입니다. | 미디어 닫기 | `a.media.qoe.bitrateChangeCount` |

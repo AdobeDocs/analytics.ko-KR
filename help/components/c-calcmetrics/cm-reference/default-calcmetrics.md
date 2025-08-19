@@ -3,10 +3,10 @@ description: Adobe는 다양한 계산된 지표를 사용할 수 있도록 제�
 title: 기본 계산된 지표
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Analytics는 가장 일반적인 사용 사례를 다루기 위해 다양�
 >
 >다음과 같은 작업을 수행할 수 있습니다.
 >
-> * [계산된 지표](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=ko)에 설명된 대로 스트리밍 미디어 컬렉션에 대한 기본 계산된 지표 추가
+> * [계산된 지표](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)에 설명된 대로 스트리밍 미디어 서비스에 대한 기본 계산된 지표를 추가합니다.
 > * [계산 및 고급 계산 지표](/help/components/c-calcmetrics/cm-overview.md)에 설명된 대로 기존 지표에서 사용자 정의 계산된 지표를 생성합니다.
 >
 

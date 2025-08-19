@@ -3,9 +3,9 @@ title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 60%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 60%
 >
 >사용자 정의 변수 이름, 분류 및 방문자 속성은 이 목록에서 생략됩니다. 이러한 차원 항목은 개별 보고서 세트에 따라 다릅니다.
 
-## Analysis Workspace에서 지원되는 Dimension
+## Analysis Workspace에서 지원되는 차원
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |---|---|
@@ -76,7 +76,7 @@ ht-degree: 60%
 | [레퍼러 유형](referrer-type.md) | `referrertype` |
 | [참조 도메인](referring-domain.md) | `referringdomain` |
 | [지역](regions.md) | `georegion` |
-| [반환 주기](return-frequency.md) | `returnfrequency` |
+| [반환 빈도](return-frequency.md) | `returnfrequency` |
 | SC-TnT | `tntbase` |
 | [검색 엔진](search-engine.md) | `searchengine` |
 | [검색 키워드](search-keyword.md) | `searchenginekeyword` |
@@ -130,7 +130,7 @@ ht-degree: 60%
 | [모바일 네트 프로토콜](mobile-dimensions.md) | `mobilenetprotocols` |
 | [Mobile Push To Talk](mobile-dimensions.md) | `mobilepushtotalk` |
 | [월](month.md) | `daterangemonth` |
-| [월](month-of-year.md) | `timepartmonthofyear` |
+| [월 (연 기준)](month-of-year.md) | `timepartmonthofyear` |
 | [운영 체제 유형](operating-system-types.md) | `operatingsystemgroup` |
 | [유료 검색](paid-search.md) | `paidsearch` |
 | [영구적 쿠키 지원](persistent-cookie-support.md) | `persistentcookie` |
@@ -157,7 +157,7 @@ ht-degree: 60%
 
 ## Analysis Workspace에서 지원하는 컨텐츠 인식 차원
 
-### 비디오(스트리밍 미디어 컬렉션)
+### 비디오(스트리밍 미디어 서비스)
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
@@ -209,7 +209,7 @@ ht-degree: 60%
 
 ### Adobe Social
 
-Adobe Social이 중단되었습니다.
+Adobe Social이 사용 중단되었습니다.
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
@@ -280,7 +280,7 @@ Adobe Social이 중단되었습니다.
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | 지역별 [Activity Map 링크](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
-| [Activity Map 영역](activity-map-region.md) | `clickmapregion` |
+| [Activity Map 지역](activity-map-region.md) | `clickmapregion` |
 | [Activity Map 링크](activity-map-link.md) | `clickmaplink` |
 | [Activity Map 페이지](activity-map-page.md) | `clickmappage` |
 

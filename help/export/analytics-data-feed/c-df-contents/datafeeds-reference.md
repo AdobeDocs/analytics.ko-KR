@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3686'
 ht-degree: 66%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 66%
 | **`os`** | 방문자의 운영 체제를 나타내는 숫자 ID입니다. `user_agent` 열을 기반으로 합니다. `operating_system.tsv` 표준 조회 및 `operating_system_type.tsv` [동적 조회](dynamic-lookups.md)의 키 값입니다. | int 부호 없음 |
 | **`page_event`** | 이미지 요청(표준 히트, 다운로드 링크, 사용자 정의 링크, 종료 링크)에서 전송된 히트 유형입니다. [페이지 이벤트 조회](datafeeds-page-event.md)를 참조하십시오. | tinyint 부호 없음 |
 | **`page_event_var1`** | 링크 추적 이미지 요청에서만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 정의 링크의 URL입니다. | 텍스트 |
-| **`page_event_var2`** | 링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 지정 이름(지정된 경우)입니다. `page_event`의 값에 따라 [사용자 지정 링크](/help/components/dimensions/custom-link.md), [다운로드 링크](/help/components/dimensions/download-link.md) 또는 [종료 링크](/help/components/dimensions/exit-link.md)를 설정합니다. | varchar(100) |
+| **`page_event_var2`** | 링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 지정 이름(지정된 경우)입니다. [의 값에 따라 ](/help/components/dimensions/custom-link.md)사용자 지정 링크[, ](/help/components/dimensions/download-link.md)다운로드 링크[ 또는 ](/help/components/dimensions/exit-link.md)종료 링크`page_event`를 설정합니다. | varchar(100) |
 | **`page_type`** | 일반적으로 404페이지에 사용되는 [페이지를 찾을 수 없음](/help/components/dimensions/pages-not-found.md) 차원입니다. | char (20) |
 | **`page_url`** | 히트의 URL입니다. `post_page_url`은(는) 링크 추적 이미지 요청([`tl()`](/help/implement/vars/functions/tl-method.md))에서 제거되고 varchar(255)의 데이터 형식을 사용합니다. | 텍스트 |
 | **`pagename`** | [페이지](/help/components/dimensions/page.md) 차원입니다. [`pagename`](/help/implement/vars/page-vars/pagename.md) 변수가 비어 있으면 Analytics가 `page_url`을 대신 사용합니다. | varchar (100) |
@@ -193,50 +193,50 @@ ht-degree: 66%
 | **`va_finder_id`** | [첫 번째 터치 채널](/help/components/dimensions/first-touch-channel.md) 차원을 식별하는 숫자 ID입니다. 이 ID에 대한 조회는 마케팅 채널 관리자에서 찾을 수 있습니다. | tinyint 부호 없음 |
 | **`va_instance_event`** | 마케팅 채널 [인스턴스](/help/components/metrics/instances.md)를 식별하는 플래그입니다. | tinyint 부호 없음 |
 | **`va_new_engagement`** | 마케팅 채널 [새 참여](/help/components/metrics/new-engagements.md)를 식별하는 플래그입니다. | tinyint 부호 없음 |
-| **`video`** | [컨텐츠](/help/components/dimensions/sm-core.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoad`** | [Ad](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoadinpod`** | Pod 위치의 [광고](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoadlength`** | [광고 길이(변수)](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 차원입니다. | 정수 |
-| **`videoadload`** | [광고 로드](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoadname`** | [광고 이름(변수)](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoadplayername`** | 스트리밍 미디어 차원 [광고 플레이어 이름](/help/components/dimensions/sm-ads.md)입니다. | varchar(255) |
-| **`videoadpod`** | 스트리밍 미디어 차원 [광고 pod](/help/components/dimensions/sm-ads.md)입니다. | varchar(255) |
-| **`videoadvertiser`** | [Advertiser](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoaudioalbum`** | [앨범](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoaudioartist`** | [아티스트](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoaudioauthor`** | [작성자](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoaudiolabel`** | [레이블](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoaudiopublisher`** | [게시자](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoaudiostation`** | [Station](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videocampaign`** | [캠페인 ID](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videochannel`** | [콘텐츠 채널](/help/components/dimensions/sm-core.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videochapter`** | [챕터](/help/components/dimensions/sm-chapters.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videocontenttype`** | [콘텐츠 형식](/help/components/dimensions/sm-core.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videodaypart`** | 스트리밍 미디어 차원 [일 부분](/help/components/dimensions/sm-video-metadata.md)입니다. | varchar(255) |
-| **`videoepisode`** | 스트리밍 미디어 차원 [에피소드](/help/components/dimensions/sm-video-metadata.md)입니다. | varchar(255) |
-| **`videofeedtype`** | [미디어 피드 유형](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videogenre`** | [장르](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 차원입니다. 이 차원을 사용하면 동일한 히트에서 쉼표로 구분된 여러 값을 사용할 수 있습니다. | 텍스트 |
-| **`videolength`** | [콘텐츠 길이(변수)](/help/components/dimensions/sm-core.md) 스트리밍 미디어 차원입니다. | 정수 |
-| **`videomvpd`** | [MVPD](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoname`** | [콘텐츠 이름(변수)](/help/components/dimensions/sm-core.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videonetwork`** | [네트워크](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videopath`** | [미디어 경로](/help/components/dimensions/sm-core.md) 스트리밍 미디어 차원입니다. | varchar(100) |
-| **`videoplayername`** | [콘텐츠 플레이어 이름](/help/components/dimensions/sm-core.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videotime`** | [콘텐츠 체류 시간](/help/components/metrics/sm-core.md) 스트리밍 미디어 지표입니다. | 정수 |
-| **`videoqoebitrateaverageevar`** | [평균 비트율](/help/components/dimensions/sm-quality.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoqoebitratechangecountevar`** | [비트율 변경](/help/components/dimensions/sm-quality.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoqoebuffercountevar`** | 스트리밍 미디어 차원 [버퍼 이벤트](/help/components/dimensions/sm-quality.md)입니다. | varchar(255) |
-| **`videoqoebuffertimeevar`** | [총 버퍼 지속 시간](/help/components/dimensions/sm-quality.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoqoedroppedframecountevar`** | [드롭된 프레임](/help/components/dimensions/sm-quality.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoqoeerrorcountevar`** | 스트리밍 미디어 차원 [오류](/help/components/dimensions/sm-quality.md)입니다. | varchar(255) |
-| **`videoqoeextneralerrors`** | 스트리밍 미디어 차원 [외부 오류 ID](/help/components/dimensions/sm-quality.md)입니다. 이 차원은 동일한 히트에서 여러 값을 허용합니다. | 텍스트 |
-| **`videoqoeplayersdkerrors`** | 스트리밍 미디어 차원 [플레이어 SDK 오류 ID](/help/components/dimensions/sm-quality.md)입니다. 이 차원은 동일한 히트에서 여러 값을 허용합니다. | 텍스트 |
-| **`videoqoetimetostartevar`** | 스트리밍 미디어 차원 [시작 시간](/help/components/dimensions/sm-quality.md)입니다. | varchar(255) |
-| **`videoseason`** | [시즌](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videosegment`** | [콘텐츠 세그먼트](/help/components/dimensions/sm-core.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videoshow`** | 스트리밍 미디어 차원 [표시](/help/components/dimensions/sm-video-metadata.md)입니다. | varchar(255) |
-| **`videoshowtype`** | [표시 유형](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 차원입니다. | varchar(255) |
-| **`videostreamtype`** | [스트림 유형](/help/components/dimensions/sm-core.md) 스트리밍 미디어 차원입니다. | varchar(255) |
+| **`video`** | [컨텐츠](/help/components/dimensions/sm-core.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoad`** | [Ad](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoadinpod`** | [Pod 위치의 광고](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoadlength`** | [광고 길이(변수)](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 서비스 차원입니다. | 정수 |
+| **`videoadload`** | [Ad 로드](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoadname`** | [광고 이름(변수)](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoadplayername`** | [광고 플레이어 이름](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoadpod`** | [광고 창](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoadvertiser`** | [Advertiser](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoaudioalbum`** | [앨범](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoaudioartist`** | [아티스트](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoaudioauthor`** | [작성자](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoaudiolabel`** | [레이블](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoaudiopublisher`** | [게시자](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoaudiostation`** | [스테이션](/help/components/dimensions/sm-audio-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videocampaign`** | [Campaign ID](/help/components/dimensions/sm-ads.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videochannel`** | [콘텐츠 채널](/help/components/dimensions/sm-core.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videochapter`** | [챕터](/help/components/dimensions/sm-chapters.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videocontenttype`** | [콘텐츠 형식](/help/components/dimensions/sm-core.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videodaypart`** | [일 부분](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoepisode`** | [에피소드](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videofeedtype`** | [미디어 피드 유형](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videogenre`** | [장르](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 서비스 차원입니다. 이 차원을 사용하면 동일한 히트에서 쉼표로 구분된 여러 값을 사용할 수 있습니다. | 텍스트 |
+| **`videolength`** | [콘텐츠 길이(변수)](/help/components/dimensions/sm-core.md) 스트리밍 미디어 서비스 차원입니다. | 정수 |
+| **`videomvpd`** | [MVPD](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoname`** | [콘텐츠 이름(변수)](/help/components/dimensions/sm-core.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videonetwork`** | [네트워크](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videopath`** | [미디어 경로](/help/components/dimensions/sm-core.md) 스트리밍 미디어 서비스 차원입니다. | varchar(100) |
+| **`videoplayername`** | [콘텐츠 플레이어 이름](/help/components/dimensions/sm-core.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videotime`** | [콘텐츠 체류 시간](/help/components/metrics/sm-core.md) 스트리밍 미디어 서비스 지표입니다. | 정수 |
+| **`videoqoebitrateaverageevar`** | [평균 비트율](/help/components/dimensions/sm-quality.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoqoebitratechangecountevar`** | [비트율 변경](/help/components/dimensions/sm-quality.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoqoebuffercountevar`** | 스트리밍 미디어 서비스 차원 [버퍼 이벤트](/help/components/dimensions/sm-quality.md)입니다. | varchar(255) |
+| **`videoqoebuffertimeevar`** | 스트리밍 미디어 서비스 차원 [총 버퍼 지속 시간](/help/components/dimensions/sm-quality.md)입니다. | varchar(255) |
+| **`videoqoedroppedframecountevar`** | [삭제된 프레임](/help/components/dimensions/sm-quality.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoqoeerrorcountevar`** | 스트리밍 미디어 서비스 차원 [오류](/help/components/dimensions/sm-quality.md)입니다. | varchar(255) |
+| **`videoqoeextneralerrors`** | 스트리밍 미디어 서비스 차원 [외부 오류 ID](/help/components/dimensions/sm-quality.md)입니다. 이 차원은 동일한 히트에서 여러 값을 허용합니다. | 텍스트 |
+| **`videoqoeplayersdkerrors`** | [플레이어 SDK 오류 ID](/help/components/dimensions/sm-quality.md) 스트리밍 미디어 서비스 차원입니다. 이 차원은 동일한 히트에서 여러 값을 허용합니다. | 텍스트 |
+| **`videoqoetimetostartevar`** | 스트리밍 미디어 서비스 차원 [시작 시간](/help/components/dimensions/sm-quality.md)입니다. | varchar(255) |
+| **`videoseason`** | [시즌](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videosegment`** | [콘텐츠 세그먼트](/help/components/dimensions/sm-core.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoshow`** | [Show](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videoshowtype`** | [표시 유형](/help/components/dimensions/sm-video-metadata.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
+| **`videostreamtype`** | [스트림 유형](/help/components/dimensions/sm-core.md) 스트리밍 미디어 서비스 차원입니다. | varchar(255) |
 | **`visid_high`** | 방문자를 고유하게 식별하기 위해 `visid_low`와 함께 사용됩니다. | bigint 부호 없음 |
 | **`visid_low`** | 방문자를 고유하게 식별하기 위해 `visid_high`와 함께 사용됩니다. | bigint 부호 없음 |
 | **`visid_new`** | 히트에 새로 생성된 방문자 ID가 포함되어 있는지 여부를 결정하는 플래그입니다. | char (1) |
@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM 개체 변수 매핑](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[데이터 개체 변수 매핑](/help/implement/aep-edge/data-var-mapping.md)
+>>[데이터 개체 변수 매핑](/help/implement/aep-edge/data-var-mapping.md)
