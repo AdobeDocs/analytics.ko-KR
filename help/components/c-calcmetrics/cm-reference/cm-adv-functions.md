@@ -5,9 +5,9 @@ feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: ht
-source-wordcount: '5020'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="functions-and"
 >title="And"
->abstract="논리곱. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다."
+>abstract="논리곱. 0과 같지 않음은 참으로 간주되고 0과 같음은 거짓으로 간주됩니다. 출력은 0(false) 또는 1(true)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
 
-논리곱. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
+논리곱. 0과 같지 않음은 참으로 간주되고 0과 같음은 거짓으로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -661,7 +661,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-if"
 >title="조건"
->abstract="조건 매개변수 값이 0이 아닌 경우(true) 결과는 value_if_true 매개변수 값입니다. 그렇지 않으면 value_if_false 매개변수 값입니다."
+>abstract="조건 매개변수 값이 0이 아닌 경우(참) 결과는 value_if_참 매개변수 값입니다. 그렇지 않으면 value_if_false 매개변수 값입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -986,13 +986,13 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-not"
 >title="아님"
->abstract="부울로 부정을 표시합니다. 출력은 0(false) 또는 1(true)입니다."
+>abstract="부울로 부정을 표시합니다. 출력은 0(거짓) 또는 1(참)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL NOT(논리적)]**
 
-부울로 부정을 표시합니다. 출력은 0(false) 또는 1(true)입니다.
+부울로 부정을 표시합니다. 출력은 0(거짓) 또는 1(참)입니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -1034,14 +1034,14 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-or"
 >title="또는"
->abstract="논리합. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다."
+>abstract="논리합. 0과 같지 않음은 참으로 간주되고 0과 같음은 거짓으로 간주됩니다. 출력은 0(false) 또는 1(true)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-[!BADGE 행]{type="Neutral"} 논리합입니다. 0과 같지 않음은 true로 간주되고 0과 같음은 false로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
+[!BADGE 행]{type="Neutral"} 논리합입니다. 0과 같지 않음은 참으로 간주되고 0과 같음은 거짓으로 간주됩니다. 출력은 0(false) 또는 1(true)입니다.
 
 
 | 인수 | 설명 |
