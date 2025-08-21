@@ -4,24 +4,22 @@ description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 
 feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fc52bfaa13f7fc93ef53aa49746d432676b3d55f
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 89%
+source-wordcount: '405'
+ht-degree: 75%
 
 ---
 
 # transactionID
 
-`transactionID` 변수는 Data Sources를 통해 업로드된 데이터에 히트가 연결할 수 있도록 거래를 고유하게 식별합니다. 이 변수는 다른 채널의 데이터를 사용하고 이 데이터를 AppMeasurement로 수집한 데이터에 연결하려는 경우에 유용합니다.
+`transactionID` 변수는 [거래 ID 데이터 원본](/help/import/data-sources/transactionid.md)을 통해 업로드된 데이터에 히트가 차원 값을 제공할 수 있도록 거래를 고유하게 식별합니다. 이 변수는 온라인 채널 데이터에서 수집된 값으로 오프라인 채널 데이터를 작성하려는 경우에 유용합니다.
 
 >[!NOTE]
 >
 >이 변수를 사용하기 전에 보고서 세트에서 [!UICONTROL 거래 ID 스토리지]가 활성화되어 있는지 확인하십시오. 자세한 내용은 관리자 안내서에서 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)을 참조하십시오.
 
-히트에서 `transactionID`를 설정하면 Adobe는 해당 시점에서 설정하거나 지속되는 모든 Analytics 변수의 &quot;스냅샷&quot;을 만듭니다. 일치하는 거래 ID로 Data Sources를 통해 업로드된 데이터는 해당 변수 값에 영구적으로 연결됩니다.
-
-Adobe은 최대 25개월 동안 모든 거래 ID 값(연결 및 연결 해제된 값)을 기억합니다.
+히트에서 `transactionID`를 설정하면 Adobe는 해당 시점에서 설정하거나 지속되는 모든 Analytics 변수의 &quot;스냅샷&quot;을 만듭니다. 스냅숏에 포함된 차원 목록은 [거래 ID 데이터 원본](/help/import/data-sources/transactionid.md)을 참조하세요. Adobe은 최대 25개월 동안 모든 거래 ID 값(연결 및 연결 해제된 값)을 기억합니다.
 
 ## Web SDK를 사용한 거래 ID
 
