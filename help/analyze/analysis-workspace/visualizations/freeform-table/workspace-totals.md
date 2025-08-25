@@ -4,10 +4,10 @@ title: 총계
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 81%
+source-wordcount: '496'
+ht-degree: 78%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 81%
 ![총 합계와 테이블 합계를 강조 표시한 자유 형식 테이블.](assets/total-row.png)
 
 * **[!UICONTROL 테이블 합계]** ➊ - 이 합계는 일반적으로 [!UICONTROL 총계]와 같거나 그 하위 집합입니다. 합계는 [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다.
-* **[!UICONTROL 총계]**(**개 중**&#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 조건과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
+* **[!UICONTROL 총계]**(**[!UICONTROL 개 중]**&#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 조건과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
 
 
 
@@ -33,7 +33,7 @@ ht-degree: 81%
 ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 열 설정]** 아래에는 **[!UICONTROL 합계 표시]** 및 **[!UICONTROL 총 합계 표시]** 선택 사항이 있습니다. 이러한 설정을 선택하지 않으면 합계가 테이블에서 제거되어 합계가 의미가 없는 경우에 유용할 수 있습니다.
 
 
-[정적 행](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) 합계는 별도로 동작하며 ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 행 설정]**&#x200B;을 사용하여 제어합니다.
+[정적 행](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)이 포함된 자유 형식 테이블에서 합계는 다르게 동작합니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 행 설정]**&#x200B;을 사용하여 제어합니다.
 
 | 옵션 | 설명 |
 |---|---|

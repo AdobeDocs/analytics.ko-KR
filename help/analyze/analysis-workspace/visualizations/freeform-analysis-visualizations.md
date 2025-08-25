@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 94%
+source-wordcount: '1707'
+ht-degree: 88%
 
 ---
 
@@ -93,6 +93,21 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
    * 자유 형식 테이블의 컨텍스트 메뉴에서 **[!UICONTROL 시각화]**&#x200B;를 선택합니다. 그런 다음 하위 메뉴에서 시각화를 선택합니다. 테이블의 현재 선택에 따라 Workspace는 제공할 시각화를 결정하고 요청된 시각화를 구축하기 위해 데이터를 해석합니다.
 
+[Bar](line.md)의 [Line](bar.md) 시각화와 같은 간단한 시각화를 추가하면 시각화는 가장 가까운 자유 형식 테이블을 데이터 소스로 사용합니다. 항상 시각화의 [데이터 원본](#data-source)을(를) 수정할 수 있습니다.
+
+## 시각화 관리
+
+시각화 위로 마우스를 이동하거나 시각화를 선택하면 시각화를 관리할 수 있습니다.
+
+![시각화 관리](assets/manage-visualization.png)
+
+* 시각화를 축소하려면 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)를 선택합니다.
+* 축소된 시각화를 표시하려면 ![V자형 화살표](/help/assets/icons/ChevronLeft.svg)를 선택합니다.
+* 시각화를 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오. 실행을 취소하려면 **[!UICONTROL 편집]** > **[!UICONTROL 실행 취소]**(**[!UICONTROL *cmd+z *]**)를 선택하십시오. |**[!UICONTROL * ctrl+z *]**).
+* 시각화를 기본 높이로 되돌리려면 ![ImageResize](/help/assets/icons/Resize.svg)을(를) 선택합니다.
+* 패널 내에서 시각화를 이동하려면 ![이동](/help/assets/icons/Move.svg)이 표시될 때마다(보통 헤더 위로 마우스를 가져갈 때) 시각화를 끌어서 놓습니다.
+
+
 ## 범례
 
 시각화 범례를 사용하면 소스 테이블의 날짜를 시각화에 그려진 시리즈와 연결할 수 있습니다. 범례는 대화형입니다. 시각화에서 시리즈를 표시하거나 숨기려면 범례 항목을 선택할 수 있습니다. 이는 시각화 중인 데이터를 단순화하려는 경우 유용합니다.
@@ -110,6 +125,20 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 1. **[!UICONTROL Enter]**&#x200B;를 눌러 저장합니다.
 
 
+## 설정
+
+각 시각화에는 고유한 설정이 있습니다. 시각화 설정에 액세스하려면 시각화 헤더에서 ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 설정]**&#x200B;을 선택해 팝업을 표시합니다.
+
+시각화에 따라 다음을 구성할 수 있습니다.
+
+* [**[!UICONTROL 데이터 소스]**](#data-source) 탭을 통해 시각화 데이터 소스에 대한 세부 정보
+* [**[!UICONTROL 설정]**](#settings-1) 탭을 통해 시각화 설정.
+
+![시각화 설정](assets/visualization-settings.png)
+
+### 데이터 소스
+
+시각화에 해당하는 데이터 소스와 해당 데이터 소스 내 항목 또는 위치를 제어할 수 있습니다. 자세한 내용은 [데이터 소스 관리](t-sync-visualization.md)를 참조하십시오.
 
 ### 설정
 
@@ -217,8 +246,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
@@ -234,6 +263,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/30859/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->
