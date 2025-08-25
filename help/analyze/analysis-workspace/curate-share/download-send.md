@@ -4,10 +4,10 @@ title: 프로젝트 및 데이터 다운로드
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 281dbf68c7a3f1afc35d775c731904bd9c413d6a
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 27%
+source-wordcount: '1126'
+ht-degree: 25%
 
 ---
 
@@ -21,33 +21,42 @@ Analysis Workspace 프로젝트 및 데이터를 로컬 장치에 다운로드�
 
 Adobe Analytics 데이터를 내보내는 추가 방법은 [내보내기 가이드](/help/export/home.md)에 설명되어 있습니다.
 
-## CSV 또는 PDF로 다운로드 {#download-project}
+## 프로젝트를 PDF 또는 CSV 파일로 다운로드 {#download-project}
 
 ![CSV 다운로드 및 PDF 다운로드 옵션이 강조 표시된 프로젝트 드롭다운 메뉴.](assets/download-project.png)
 
+### 프로젝트를 PDF 파일로 다운로드
+
 프로젝트를 PDF으로 다운로드할 때는 다음 사항을 고려하십시오.
 
-* 프로젝트가 Adobe 서버에서 다시 실행되어 PDF 형식으로 렌더링되므로 다운로드에 몇 분 정도 걸릴 수 있습니다. 브라우저에서 프로젝트가 다운로드될 때까지 프로젝트를 종료하지 마십시오.  다운로드가 렌더링되는 동안 프로젝트를 계속 변경할 수 있습니다. PDF이 렌더링하는 데 5분 이상 걸리는 경우 대신 [PDF에 전자 메일을 보내십시오](../curate-share/send-schedule-files.md).
+* 프로젝트가 워크스테이션에 다운로드될 때까지 프로젝트를 종료하지 마십시오. PDF을 렌더링하기 위해 Adobe 서버에서 프로젝트가 다시 실행되므로 다운로드에는 몇 분 정도 걸릴 수 있습니다. 다운로드가 렌더링되는 동안 프로젝트를 계속 변경할 수 있습니다. PDF이 렌더링하는 데 5분 이상 걸리는 경우 대신 [PDF에 전자 메일을 보내십시오](../curate-share/send-schedule-files.md).
 * 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
-* PDF에는 Analysis Workspace의 브라우저 페이지에 표시되는 항목이 포함되어 있습니다. 사용자 지정 크기의 시각화 및 패널의 크기를 자동으로 조정해야 잘린 콘텐츠를 방지할 수 있습니다. 사용자 지정 크기의 시각화 또는 패널의 크기를 자동으로 조정하려면 ![크기 조정](/help/assets/icons/Resize.svg)을 선택하십시오.
-* 자유 형식 테이블 내의 [하이퍼링크](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)를 다운로드한 PDF의 하이퍼링크로 설정합니다.
-
-
+* PDF에는 Analysis Workspace의 브라우저 페이지에 표시되는 항목이 포함되어 있습니다. 잘린 콘텐츠를 방지하려면 사용자 지정 크기의 시각화 또는 패널의 크기를 자동으로 조정하려면 ![크기 조정](/help/assets/icons/Resize.svg)을 선택하십시오.
+* 자유 형식 테이블 내의 [하이퍼링크](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)는 다운로드한 PDF에서 클릭할 수 있습니다.
 
 프로젝트를 PDF 파일로 다운로드하려면 다음 작업을 수행하십시오.
 
 1. **[!UICONTROL 프로젝트]** > **[!UICONTROL PDF 다운로드]**&#x200B;를 선택합니다.
-녹색 막대에 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 다운로드가 요청되었습니다. 기다려 주십시오.]**&#x200B;이(가) 표시됩니다.
 
-1. 다운로드가 준비되면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *프로젝트 이름&#x200B;*PDF이 포함된 녹색 막대가 준비됩니다.]**&#x200B;이(가) 나타납니다.
-PDF을 다운로드하려면&#x200B;**[!UICONTROL 다운로드]**&#x200B;를 선택하십시오. PDF이 정확히 표시되거나 다운로드되는 방법은 PDF 문서를 처리하기 위한 브라우저 구성에 따라 다릅니다.
+   녹색 막대에 다음 메시지가 표시됩니다. ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 다운로드가 요청되었습니다. 잠시 기다려 주십시오.]**
 
+1. 다운로드가 준비되면 녹색 막대에 다음 메시지가 표시됩니다. ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *프로젝트 이름&#x200B;*PDF이 준비되었습니다.]**
 
-프로젝트를 CSV 파일로 다운로드하려면 다음 작업을 수행하십시오.
+1. 녹색 막대에서 **[!UICONTROL 다운로드]**&#x200B;를 선택합니다.
 
-* **[!UICONTROL 프로젝트]** > **[!UICONTROL CSV 다운로드]**&#x200B;를 선택합니다. 프로젝트는 브라우저 구성의 일부로 구성된 다운로드 폴더로 직접 다운로드됩니다. 파일 이름은 *프로젝트 이름* - *보고서 세트 이름* - *날짜*(예: `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`)로 구성됩니다.
+   브라우저 설정에 따라 PDF은 이전에 구성한 폴더로 자동으로 다운로드되거나 PDF을 다운로드할 폴더를 선택하라는 메시지가 표시됩니다.
 
-## 클립보드에 복사 {#copy-data}
+   파일 이름은 *프로젝트 이름* - *보고서 세트 이름* - *날짜*&#x200B;로 구성됩니다. (예: `Example Project - Omni-Channel - Luma - Jun 30, 2025.pdf`)
+
+### 프로젝트를 CSV 파일로 다운로드
+
+1. **[!UICONTROL 프로젝트]** > **[!UICONTROL CSV 다운로드]**&#x200B;를 선택합니다.
+
+   브라우저 설정에 따라 CSV 파일은 이전에 구성한 폴더로 자동으로 다운로드됩니다. 또는 CSV 파일을 다운로드할 폴더를 선택하라는 메시지가 표시됩니다.
+
+   파일 이름은 *프로젝트 이름* - *보고서 세트 이름* - *날짜*&#x200B;로 구성됩니다. (예: `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`)
+
+## 시각화 내의 데이터를 클립보드에 복사 {#copy-data}
 
 컨텍스트 메뉴의 **[!UICONTROL 클립보드에 복사]** 옵션을 사용하면 Analysis Workspace에서 데이터를 빠르게 복사하여 서드파티 도구에 붙여넣을 수 있습니다.
 
@@ -61,7 +70,7 @@ PDF을 다운로드하려면&#x200B;**[!UICONTROL 다운로드]**&#x200B;를 선
 
 ![선택 항목을 클립보드로 복사 옵션. ](assets/copy-clipboard.png){zoomable="yes"}
 
-## CSV로 다운로드 {#download-data}
+## 시각화 내의 데이터를 CSV 파일로 다운로드 {#download-data}
 
 컨텍스트 메뉴에서 CSV로 다운로드 옵션을 사용하면 데이터 테이블 또는 시각화의 데이터 소스를 CSV로 다운로드할 수 있습니다.
 
@@ -79,7 +88,7 @@ PDF을 다운로드하려면&#x200B;**[!UICONTROL 다운로드]**&#x200B;를 선
 
 ![데이터를 CSV로 다운로드 옵션.](assets/download-data-as-csv.png)
 
-## CSV로 항목 다운로드 {#download-items}
+## 항목을 CSV 파일로 다운로드 {#download-items}
 
 테이블에 있는 400개 이상의 데이터 행을 분석하려면 테이블 머리글 또는 행의 컨텍스트 메뉴에서 **CSV로 항목 다운로드(_Dimension 이름_)**&#x200B;를 선택합니다. 이 옵션은 정렬 옵션과 필터가 적용된 상태에서 선택한 차원에 대해 최대 50,000개의 차원 항목(테이블 정렬 기준)을 내보냅니다. 테이블 상단에서 이 옵션을 선택하면 테이블의 첫 번째 차원이 내보내집니다.
 
@@ -108,8 +117,8 @@ PDF을 다운로드하려면&#x200B;**[!UICONTROL 다운로드]**&#x200B;를 선
 
 파일이 다운로드되면 다음 알림이 표시됩니다.
 
-* 파란색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 요청되었습니다. 진행 상황을 나타내는_x _% 완료]**. 언제든지 다운로드를 취소하려면&#x200B;**[!UICONTROL 다운로드 취소]**&#x200B;를 선택하십시오. 메시지를 닫고 다운로드를 취소하지 않으려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하십시오.
-* 파일 다운로드가 완료되면 녹색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 다운로드되었습니다]**&#x200B;완료 알림이 표시됩니다. 파일이 브라우저에 대해 구성된 다운로드 폴더로 다운로드됩니다.
+* 파란색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 요청되었습니다. 진행 상황을 나타내는_x _% 완료]**. 언제든지 다운로드를 취소하려면&#x200B;**[!UICONTROL 다운로드 취소]**를 선택하십시오. 메시지를 닫고 다운로드를 취소하지 않으려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하십시오.
+* 파일 다운로드가 완료되면 녹색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 다운로드되었습니다]**완료 알림이 표시됩니다. 파일이 브라우저에 대해 구성된 다운로드 폴더로 다운로드됩니다.
 
 한 번에 두 개 이상의 다운로드를 요청하면 이전 다운로드가 완료될 때까지 각 추가 다운로드가 대기열에 있음을 알리는 알림을 받게 됩니다.
 
@@ -228,6 +237,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->
