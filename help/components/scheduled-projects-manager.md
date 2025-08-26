@@ -3,9 +3,9 @@ description: 예약된 프로젝트를 관리하는 방법을 알아봅니다.
 title: 예약된 프로젝트에서 예약된 프로젝트를 관리합니다
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '795'
 ht-degree: 41%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 41%
 | 아이콘 | 액션 | 설명 |
 |:---:|---|---|
 | ![닫기](/help/assets/icons/Close.svg) | **[!UICONTROL *x *선택됨]** | 선택한 예약된 프로젝트를 선택 취소하려면 선택합니다. |
-| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 프로젝트에 대해 선택한 예약된 프로젝트를 삭제합니다. 프로젝트는 삭제되지 않습니다. |
+| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 프로젝트에 대해 선택한 예약된 프로젝트를 삭제합니다. 프로젝트는 삭제되지 않습니다. <p>프로젝트 삭제에 대한 자세한 내용은 [프로젝트 개요](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)를 참조하십시오.</p> |
 | ![레이블](/help/assets/icons/Labels.svg) | **[!UICONTROL 태그]** | 선택한 예약된 프로젝트에 태그를 지정합니다. **[!UICONTROL 예약된 프로젝트에 태그 지정]**&#x200B;에서 태그를 선택하고 **[!UICONTROL 저장]**&#x200B;을 선택하여 저장합니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 승인]** | 선택한 예약된 프로젝트를 승인합니다. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV로 내보내기]** | 선택한 예약된 프로젝트를 `Export Scheduled Projects List.csv`(이)라는 파일로 내보냅니다. |
