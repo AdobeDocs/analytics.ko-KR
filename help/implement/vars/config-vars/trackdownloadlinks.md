@@ -28,7 +28,7 @@ Adobe는 각 다운로드 링크에 대한 [`tl()`](../functions/tl-method.md) �
 
 ## 웹 SDK을 수동으로 구현하는 클릭 컬렉션 활성화 또는 비활성화
 
-[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled)을(를) 사용하여 SDK을 구성하십시오. 필드는 링크 클릭과 관련된 데이터가 자동으로 수집되는지 여부를 결정하는 부울입니다. 기본값은 `true`입니다. 자동 링크 추적을 비활성화하려면 이 값을 `false`(으)로 설정하십시오. 이 설정은 다운로드 및 종료 링크 모두에 대한 자동 링크 추적을 처리합니다.
+[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko#clickCollectionEnabled)을(를) 사용하여 SDK을 구성하십시오. 필드는 링크 클릭과 관련된 데이터가 자동으로 수집되는지 여부를 결정하는 부울입니다. 기본값은 `true`입니다. 자동 링크 추적을 비활성화하려면 이 값을 `false`(으)로 설정하십시오. 이 설정은 다운로드 및 종료 링크 모두에 대한 자동 링크 추적을 처리합니다.
 
 ```json
 alloy("configure", {
