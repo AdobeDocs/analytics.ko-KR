@@ -3,9 +3,9 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4128'
 ht-degree: 53%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 53%
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단의 9제곱 아이콘을 선택한 다음 [!UICONTROL **Analytics**]&#x200B;을 선택합니다.
-1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**] (으)로 이동합니다.
+1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**](으)로 이동합니다.
 1. [!UICONTROL **추가**]&#x200B;를 선택합니다.
 
    ![데이터 피드 추가](assets/datafeed-add.png)
@@ -33,7 +33,7 @@ ht-degree: 53%
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **이름**] | 데이터 피드의 이름입니다. 선택된 보고서 세트 내에서 고유해야 하며 최대 255자까지 사용할 수 있습니다. |
+   | [!UICONTROL **이름**] | 데이터 피드의 이름입니다. 선택한 보고서 세트 내에서 고유해야 하며 최대 255자까지 사용할 수 있습니다. [자세히 알아보기](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
    | [!UICONTROL **보고서 세트**] | 데이터 피드의 기반이 되는 보고서 세트입니다. 동일한 보고서 세트에 대해 여러 데이터 피드를 만드는 경우 데이터 피드의 열 정의가 서로 달라야 합니다. 소스 보고서 세트만 데이터 피드를 지원합니다. 가상 보고서 세트는 지원되지 않습니다. |
    | [!UICONTROL **완료 시 전자 메일**] | 피드의 처리가 완료되면 알림을 받을 이메일 주소. 이메일 주소 형식을 제대로 지정해야 합니다. |
    | [!UICONTROL **피드 간격**] | 채우기 또는 이전 데이터의 **일별**&#x200B;을(를) 선택하십시오. 일별 피드에는 보고서 세트 시간대의 자정부터 자정까지 하루 분량의 데이터가 포함됩니다. 계속 데이터를 보려면 **시간별**&#x200B;을(를) 선택하십시오(원하는 경우 계속 피드에 대해서도 일별 사용 가능). 시간별 피드에는 1시간 동안의 데이터가 포함됩니다. |
