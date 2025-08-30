@@ -5,16 +5,20 @@ uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
 
 # Activity Map 확장 인터페이스
 
-Activity Map 확장 인터페이스는 두 부분으로 구성됩니다.
+Activity Map 확장을 사용하면 웹 사이트에 오버레이된 클릭 데이터를 볼 수 있습니다. 웹 스토어에 대한 링크를 제공하는 다음 페이지로 이동하여 확장을 다운로드할 수 있습니다.
+
+**[!UICONTROL 도구]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 다운로드]**
+
+설치되고 활성화되면 인터페이스는 다음과 같은 몇 가지 부분으로 구성됩니다.
 
 * 확장 및 보고서를 구성할 수 있는 상단 패널
 * 가장 방문 빈도가 높은 링크를 표시하는 오버레이
@@ -46,7 +50,7 @@ Activity Map 확장 인터페이스는 두 부분으로 구성됩니다.
 * **[!UICONTROL 설정 표시]**: 변경할 수 있는 설정 메뉴를 엽니다(톱니바퀴 아이콘).
    * **[!UICONTROL 설정]**: 확장의 [설정](settings.md)을 엽니다.
    * **[!UICONTROL 도움말]**: Experience League에 대한 설명서를 엽니다(이 페이지).
-   * **[!UICONTROL Adobe 커뮤니티]**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/?profile.language=ko)를 엽니다.
+   * **[!UICONTROL Adobe 커뮤니티]**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/)를 엽니다.
    * **[!UICONTROL 정보]**: 확장 버전을 표시합니다.
    * **[!UICONTROL 로그아웃]**: 확장에서 로그아웃하므로 다시 로그인해야 합니다.
 * **[!UICONTROL Activity Map 종료]**: 확장에 대한 모든 오버레이를 닫습니다(X 아이콘).

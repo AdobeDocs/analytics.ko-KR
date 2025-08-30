@@ -1,33 +1,32 @@
 ---
-description: Adobe Analytics에서 Activity Map 데이터를 볼 수 있습니다.
-title: Adobe Analytics에서 Activity Map 데이터 보기
+description: Activity Map에서 데이터를 수집할 수 있도록 차원을 활성화합니다.
+title: Activity Map 보고
 feature: Admin Tools
 exl-id: 9300c12e-3ade-4850-8a22-cba61b35ca67
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 3%
 
 ---
 
-# Adobe Analytics에서 Activity Map 데이터 보기
+# Activity Map 보고
 
-Analytics에서 Activity Map 보고를 활성화하는 관리 단계입니다.
+[Activity Map](/help/analyze/activity-map/overview.md)에서 사용할 차원을 사용하도록 설정할 수 있습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **`<select report suite>`** > **[!UICONTROL 설정 편집]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 보고]**
+**[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > 보고서 세트 선택 > **[!UICONTROL 설정 편집]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 보고]**
 
-Analytics를 사용하여 Activity Map (이전에 ClickMap)에서 제공된 사용자 활동을 수집할 수 있습니다. 이러한 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
+이 설명서 섹션에서는 Activity Map에서 사용하는 차원을 활성화하는 데 중점을 둡니다. 오버레이, 구현 변수 및 차원에 대한 자세한 내용은 [Activity Map 개요](/help/analyze/activity-map/overview.md)를 참조하십시오.
 
-* Analytics에서 보고를 활성화합니다.
-* **[!UICONTROL 모든 보고서 보기]** > **[!UICONTROL Activity Map]**&#x200B;에서 새 보고서를 추가합니다.
+**[!UICONTROL Activity Map 보고서 사용]** 단추를 선택하면 다음 차원이 만들어집니다.
 
-  | 보고서 | 설명 |
-  |---|---|
-  | Activity Map 페이지 | 링크를 클릭한 페이지들을 나열합니다. |
-  | Activity Map 영역 | 전체 웹 사이트에서 수집한 모든 링크 영역을 나열합니다. 영역이 여러 페이지에 나타나는 경우, 지표가 모든 해당 페이지에 대해 집계됩니다. |
-  | Activity Map 링크 | 전체 웹 사이트에서 수집한 모든 링크를 나열합니다. |
-  | Activity Map 링크 및 영역 | 전체 웹 사이트에서 해당 영역과 함께 수집된 모든 링크를 나열합니다. |
+* [[!UICONTROL Activity Map 링크]](/help/components/dimensions/activity-map-link.md): 클릭한 링크 이름입니다.
+* [[!UICONTROL Activity Map 지역]](/help/components/dimensions/activity-map-region.md): 클릭한 지역 이름입니다.
+* [[!UICONTROL Activity Map 페이지]](/help/components/dimensions/activity-map-page.md): 링크를 클릭한 시점의 페이지 이름입니다.
+* [[!UICONTROL 지역별 Activity Map 링크]](/help/components/dimensions/activity-map-link-by-region.md): Activity Map 링크와 Activity Map 지역의 연결된 값입니다.
 
-데이터를 채우려면 [Activity Map 설명서](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ko)에서 전체 구현 지침을 참조하십시오.
+활성화하면 구현이 [Analysis Workspace](/help/analyze/analysis-workspace/home.md) 및 [브라우저 확장 오버레이](/help/analyze/activity-map/overlay/overview.md)에서 사용할 데이터를 이러한 차원으로 보낼 수 있습니다.
 
-<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->
+>[!NOTE]
+>
+>보고서 세트에 대해 Activity Map을 활성화하면 나중에 비활성화할 방법 없이 영구적으로 활성화됩니다.

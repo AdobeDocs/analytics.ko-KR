@@ -4,10 +4,10 @@ title: Activity Map 개요
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: dee8f0a13a159f4c7902d2ccddd8848c4016b471
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 5%
+source-wordcount: '605'
+ht-degree: 4%
 
 ---
 
@@ -15,15 +15,16 @@ ht-degree: 5%
 
 Adobe Analytics Activity Map은 웹 페이지 및 모바일 앱에서의 사용자 참여를 시각적으로 표현하는 Adobe Analytics의 기능입니다. 이를 통해 마케터와 분석가는 클릭 및 스크롤 동작과 같은 사용자 상호 작용을 추적하고 분석할 수 있습니다. Activity Map은 웹 페이지에서 가장 인기 있는 요소를 보여주는 열 지도 및 오버레이 보고서를 생성하여 디지털 경험을 최적화하는 데 도움이 됩니다.
 
-이 설명서 섹션에서는 Activity Map 오버레이에 중점을 둡니다. 하지만 Activity Map을 사용하는 데는 다른 중요한 부분이 있습니다.
+개념으로서의 Activity Map은 다음과 같은 몇 가지 중요한 구성 요소로 구성됩니다.
 
-* **보고서 세트 설정**: 보고서 세트에는 Activity Map이 활성화되어 있어야 합니다. 보고서 세트 설정에서 [Activity Map 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)를 참조하십시오.
+* **보고서 세트 설정**: 보고서 세트 사용을 시작하려면 먼저 Activity Map이 활성화되어 있어야 합니다. 보고서 세트 설정에서 [Activity Map 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)를 참조하십시오.
 * **구현**: 대부분의 Activity Map 보고는 즉시 사용할 수 있습니다. 그러나 일부 웹 사이트에서는 링크 추적을 최대한 활용하기 위해 추가 구현이 필요할 수 있습니다. 다음 구현 변수를 사용할 수 있습니다.
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): 링크 이름별로 클릭 데이터를 필터링합니다.
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): 지역 이름별로 클릭 데이터를 필터링합니다.
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Activity Map 지역 차원을 채우는 특성을 변경합니다.
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Activity Map에서 Activity Map 링크 차원을 채우는 데 사용하는 논리를 사용자 지정합니다.
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Activity Map에서 Activity Map 영역 차원을 채우는 데 사용하는 논리를 사용자 지정합니다.
+* **오버레이**: 웹 사이트에 오버레이된 클릭 데이터를 볼 수 있는 브라우저 확장 기능입니다. 자세한 내용은 [Activity Map 확장 인터페이스](overlay/overview.md)를 참조하십시오.
 * **차원**: Activity Map에서는 오버레이 확장 기능 외에도 Analysis Workspace에서 사용할 수 있는 여러 차원을 제공합니다.
    * [Activity Map 링크](/help/components/dimensions/activity-map-link.md): 클릭한 링크 이름입니다.
    * [Activity Map 지역](/help/components/dimensions/activity-map-region.md): 클릭한 지역 이름입니다.

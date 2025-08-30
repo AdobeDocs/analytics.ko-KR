@@ -3,10 +3,10 @@ title: eVar(차원)
 description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: ec077b3404c6bff1198fae30a2d25321de8a58cd
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 82%
+source-wordcount: '851'
+ht-degree: 77%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 82%
 
 *이 도움말 페이지에서는 eVar가 [차원](overview.md)으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md) [!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다]. 자세한 내용은 [Dimension 개요](overview.md)를 참조하십시오.
+eVar는 원하는 대로 사용할 수 있는 사용자 지정 [차원](overview.md)입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)가 있는 경우 조직 고유의 차원은 대부분 [!UICONTROL eVars]로 끝납니다.
 
-기본적으로 eVar는 설정된 히트 이후에 유지됩니다. eVar 지속성이 Adobe 아키텍처에서 작동하는 방식에 대한 자세한 내용은 아래 [eVar 작동 방식](#how-evars-work) 및 [eVar가 지표에 연결되는 방식](#how-evars-tie-to-metrics) 섹션을 참조하십시오. 보고서 세트 설정의 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) [!UICONTROL 에서 만료와 할당을 사용자 정의할 수 있습니다]. 다음 이미지는 전환 변수 인터페이스에 있는 eVar 정의의 예를 보여 줍니다.
+기본적으로 eVar는 설정된 히트 이후에 유지됩니다. eVar 지속성이 Adobe 아키텍처에서 작동하는 방식에 대한 자세한 내용은 아래 [eVar 작동 방식](#how-evars-work) 및 [eVar를 지표에 연결하는 방법](#how-evars-tie-to-metrics) 섹션을 참조하십시오. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)의 [!UICONTROL 전환 변수]에서 만료와 할당을 활성화, 비활성화 또는 사용자 지정할 수 있습니다. 다음 이미지는 전환 변수 인터페이스에 있는 eVar 정의의 예를 보여 줍니다.
 
 ![Evar 예](assets/evars-sample.png)
 
 사용 가능한 eVar의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 250개의 eVar를 사용할 수 있습니다.
 
-보고서에 사용되는 (상한 또는 하한) 대소문자는 주어진 달력에서 보내는 첫 번째 값을 기반으로 합니다. 보고 기간과 해당 시간 동안 먼저 수집된 eVar 값의 경우에 따라 대/소문자가 변경될 수 있습니다.
+보고서에 사용되는 (상한 또는 하한) 대소문자는 주어진 달력에서 보내는 첫 번째 값을 기반으로 합니다. 보고 기간과 해당 시간 동안 먼저 수집된 eVar 값의 사례에 따라 대소문자가 변경될 수 있습니다.
 
 ## 데이터로 eVar 채우기
 
