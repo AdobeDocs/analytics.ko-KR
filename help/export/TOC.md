@@ -15,7 +15,7 @@ ht-degree: 95%
 # Adobe Analytics 내보내기 안내서 {#export}
 
 + [Analytics 내보내기 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics 데이터 피드 {#analytics-data-feed}
    + [데이터 피드 개요](analytics-data-feed/data-feed-overview.md)
    + [데이터 피드 만들기](analytics-data-feed/create-feed.md)
@@ -73,6 +73,6 @@ ht-degree: 95%
       + [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [SFTP 서버로 Data Warehouse 요청 보내기](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [SFTP를 통해 암호 없이 Adobe에 연결](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko)
++ [Analysis Workspace 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
 + [Report Builder](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/rb-overview)
