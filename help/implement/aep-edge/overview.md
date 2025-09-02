@@ -4,10 +4,10 @@ description: Adobe Analytics에서 Experience Platform의 XDM 데이터 사용 �
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
+source-git-commit: 0ea86e7628e3cebe6f5fe1c4f584da1186b8cb83
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 17%
+source-wordcount: '510'
+ht-degree: 16%
 
 ---
 
@@ -17,17 +17,19 @@ Adobe Experience Platform Edge Network를 사용하면 여러 제품을 대상�
 
 ## Adobe Analytics에서 Edge Network 데이터를 처리하는 방법
 
+Edge Network 데이터와 AppMeasurement 데이터로 전송된 데이터는 다르게 작동하므로 Edge Network 페이로드는 Adobe Analytics이 히트를 처리하는 방법을 결정합니다. 자세한 내용은 [Adobe Analytics의 Edge Network 이벤트 유형](hit-types.md)을 참조하십시오.
+
 Adobe Experience Platform Edge Network으로 전송된 데이터는 **XDM 개체**, **데이터 개체** 및 **컨텍스트 데이터**&#x200B;의 세 가지 형식을 따를 수 있습니다. 데이터스트림이 데이터를 Adobe Analytics에 전달하면 Adobe Analytics에서 처리할 수 있는 형식으로 변환됩니다.
 
 ## `xdm` 개체
 
-[XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)&#x200B;(경험 데이터 모델)을 기반으로 만든 스키마를 따릅니다. XDM을 통해 이벤트의 일부로 정의된 필드를 유연하게 작업할 수 있습니다. Adobe Analytics과 관련된 사전 정의된 스키마를 사용하려면 [Adobe Analytics ExperienceEvent 스키마 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)을 스키마에 추가할 수 있습니다. 추가한 후에는 웹 SDK의 `xdm` 개체를 사용하여 이 스키마를 채워 보고서 세트로 데이터를 보낼 수 있습니다. 데이터가 Edge Network에 도착하면 XDM 개체가 Adobe Analytics에서 인식하는 형식으로 변환됩니다.
+[XDM](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)&#x200B;(경험 데이터 모델)을 기반으로 만든 스키마를 따릅니다. XDM을 통해 이벤트의 일부로 정의된 필드를 유연하게 작업할 수 있습니다. Adobe Analytics과 관련된 사전 정의된 스키마를 사용하려면 [Adobe Analytics ExperienceEvent 스키마 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)을 스키마에 추가할 수 있습니다. 추가한 후에는 웹 SDK의 `xdm` 개체를 사용하여 이 스키마를 채워 보고서 세트로 데이터를 보낼 수 있습니다. 데이터가 Edge Network에 도착하면 XDM 개체가 Adobe Analytics에서 인식하는 형식으로 변환됩니다.
 
 XDM 필드에 대한 전체 참조 및 Analytics 변수에 매핑되는 방법은 [Adobe Analytics에 대한 XDM 개체 변수 매핑](xdm-var-mapping.md)을 참조하십시오.
 
 >[!TIP]
 >
->나중에 [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-landing)&#x200B;(으)로 이동할 계획이라면 Adobe에서 Adobe Analytics 스키마 필드 그룹을 사용하지 않는 것이 좋습니다. 대신 Adobe에서는 [고유한 스키마를 만들고](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect)데이터 스트림 매핑을 사용하여 원하는 Analytics 변수를 채우는 것을 권장합니다. 이 전략은 Customer Journey Analytics으로 이동할 준비가 되었을 때 prop 및 eVar 스키마에 사용자를 잠그지 않습니다.
+>나중에 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)&#x200B;(으)로 이동할 계획이라면 Adobe에서 Adobe Analytics 스키마 필드 그룹을 사용하지 않는 것이 좋습니다. 대신 Adobe에서는 [고유한 스키마를 만들고](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect)데이터 스트림 매핑을 사용하여 원하는 Analytics 변수를 채우는 것을 권장합니다. 이 전략은 Customer Journey Analytics으로 이동할 준비가 되었을 때 prop 및 eVar 스키마에 사용자를 잠그지 않습니다.
 
 ## `data` 개체
 
