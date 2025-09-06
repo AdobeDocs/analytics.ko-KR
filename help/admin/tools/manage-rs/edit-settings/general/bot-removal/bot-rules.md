@@ -34,7 +34,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [보트 규칙 구성](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"}을 참조하십시오.
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [보트 규칙 구성](https://video.tv.adobe.com/v/3418510/?quality=12&captions=kor){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
