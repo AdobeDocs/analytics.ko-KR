@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드 및 Data Warehouse을 사용하여 데이터 출력을 검색하는 방법에 대해 알아봅니다.
-source-git-commit: 9131c9ffbcf409620a67b36637367af22733b909
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 95%
+source-wordcount: '255'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # Adobe Analytics 내보내기 안내서 {#export}
 
 + [Analytics 내보내기 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/ko/docs/analytics/release-notes/latest)
 + Analytics 데이터 피드 {#analytics-data-feed}
    + [데이터 피드 개요](analytics-data-feed/data-feed-overview.md)
    + [데이터 피드 만들기](analytics-data-feed/create-feed.md)
@@ -73,6 +73,4 @@ ht-degree: 95%
       + [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [SFTP 서버로 Data Warehouse 요청 보내기](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [SFTP를 통해 암호 없이 Adobe에 연결](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko)
-+ [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/ko/docs/analytics/analyze/report-builder/rb-overview)
++ [Adobe Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)

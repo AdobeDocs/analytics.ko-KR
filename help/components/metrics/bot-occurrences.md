@@ -3,7 +3,7 @@ title: 봇 발생 횟수
 description: 보트 규칙과 일치하는 히트의 수입니다.
 feature: Metrics
 exl-id: 94cbbee4-8455-48b1-b804-534ed8fccdc9
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # 봇 발생 횟수
 
-&#39;보트 발생 횟수&#39; [지표](overview.md)은(는) [보트 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)과(와) 일치하는 히트의 수를 보여줍니다.
+&#39;보트 발생 횟수&#39; [지표](overview.md)은(는) [보트 규칙](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)과(와) 일치하는 히트의 수를 보여줍니다.
 
 보트 보고는 보고서 세트의 나머지 데이터와 분리되므로 이 지표는 다음 차원에서만 작동합니다.
 

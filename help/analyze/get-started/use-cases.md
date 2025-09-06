@@ -3,10 +3,10 @@ description: Adobe Analytics에 대한 일반적인 개요 정보입니다. Anal
 title: Analytics 사용 사례
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics는 웹 사이트 트래픽을 분석하기 위해 다음과 같�
 
 * [흐름 분석](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [고급 세분화](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko)
+* [고급 세분화](/help/components/segmentation/seg-home.md)
 
 
 ## 마케팅 분석
@@ -33,9 +33,7 @@ Adobe Analytics는 웹 사이트 트래픽을 분석하기 위해 다음과 같�
 
 Adobe Analytics의 다음 주요 기능은 이러한 마케팅 기능을 제공합니다.
 
-* [멀티채널 데이터 수집](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ko-KR)
-
-* [오프라인 데이터 통합](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=ko)
+* [오프라인 데이터 통합](/help/import/data-sources/overview.md)
 
 * [Analysis Workspace의 애드혹 분석](/help/analyze/analysis-workspace/home.md)
 
@@ -55,4 +53,4 @@ Adobe Analytics의 다음 주요 기능은 이러한 예측 기능을 제공합�
 
 * [기여도 분석](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [경고](/help/components/c-alerts/intellligent-alerts.md)
+* [경고](/help/components/alerts/alerts-overview.md)

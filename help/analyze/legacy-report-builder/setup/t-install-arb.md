@@ -5,9 +5,9 @@ uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 54%
 
 ---
@@ -29,4 +29,4 @@ Report Builder를 설치하려면 다음 작업을 수행합니다.
 
 ## 권한
 
-**[!UICONTROL Report Builder]**&#x200B;의 메뉴 항목으로 **[!UICONTROL 도구]**&#x200B;이(가) 표시되지 않는 경우 Adobe Analytics 관리자에게 사용자가 다음 권한을 포함하는 제품 프로필에 포함되어 있는지 확인하십시오. *Report Builder*. [제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR) 및 [Analytics 권한](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko-KR)에 대해 자세히 알아보십시오.
+**[!UICONTROL 도구]**&#x200B;에서 **[!UICONTROL Report Builder]**&#x200B;이(가) 메뉴 항목으로 표시되지 않는 경우, Adobe Analytics 관리자에게 사용자가 다음 권한을 포함하는 제품 프로필에 포함되어 있는지 확인하십시오. *Report Builder*. [제품 프로필](/help/admin/admin-console/permissions/product-profile.md) 및 [Analytics 권한](/help/admin/admin-console/permissions/analytics-tools.md)에 대해 자세히 알아보십시오.

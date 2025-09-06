@@ -3,7 +3,7 @@ description: Adobe Analytics 보고서는 단일 수준 및 다중 수준 분류
 title: 하위 분류
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 97%
@@ -18,7 +18,7 @@ Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 둘 다 지�
 
 >[!NOTE]
 >
->하위 분류는 분류의 분류를 만드는 기능을 의미합니다. 하지만 [!UICONTROL 계층] 보고서를 만들 때 사용하는 [!UICONTROL 분류 계층]과 같지는 않습니다. 분류 계층에 대한 자세한 내용은 [분류 계층](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)을 참조하십시오.
+>하위 분류는 분류의 분류를 만드는 기능을 의미합니다. 하지만 [!UICONTROL 계층] 보고서를 만들 때 사용하는 [!UICONTROL 분류 계층]과 같지는 않습니다. 분류 계층에 대한 자세한 내용은 [분류 계층](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)을 참조하십시오.
 
 예:
 
@@ -62,7 +62,7 @@ Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 둘 다 지�
 
 ## 예
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/classifications.png)
 
 >[!NOTE]
 >

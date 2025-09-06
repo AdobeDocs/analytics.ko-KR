@@ -4,7 +4,7 @@ description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 
 feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: fc52bfaa13f7fc93ef53aa49746d432676b3d55f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 75%
@@ -17,7 +17,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->이 변수를 사용하기 전에 보고서 세트에서 [!UICONTROL 거래 ID 스토리지]가 활성화되어 있는지 확인하십시오. 자세한 내용은 관리자 안내서에서 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)을 참조하십시오.
+>이 변수를 사용하기 전에 보고서 세트에서 [!UICONTROL 거래 ID 스토리지]가 활성화되어 있는지 확인하십시오. 자세한 내용은 관리자 안내서에서 [일반 계정 설정](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)을 참조하십시오.
 
 히트에서 `transactionID`를 설정하면 Adobe는 해당 시점에서 설정하거나 지속되는 모든 Analytics 변수의 &quot;스냅샷&quot;을 만듭니다. 스냅숏에 포함된 차원 목록은 [거래 ID 데이터 원본](/help/import/data-sources/transactionid.md)을 참조하세요. Adobe은 최대 25개월 동안 모든 거래 ID 값(연결 및 연결 해제된 값)을 기억합니다.
 

@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: ht
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Adobe Analytics 도구 안내서 {#analyze}
 
-+ [Analytics 도구 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 툴 안내서](home.md)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/ko/docs/analytics/release-notes/latest)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
@@ -124,7 +124,7 @@ ht-degree: 100%
       + [자유 형식](analysis-workspace/c-panels/freeform-panel.md)
       + [미디어 평균 분당 시청 대상자](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [미디어 동시 뷰어](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [미디어 재생 체류 시간](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [미디어 재생 소요 시간](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [다음 또는 이전 항목](analysis-workspace/c-panels/next-previous.md)
       + [페이지 요약](analysis-workspace/c-panels/page-summary.md)
       + [빠른 인사이트](analysis-workspace/c-panels/quickinsight.md)

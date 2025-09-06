@@ -4,7 +4,7 @@ description: 보고서 세트 설정이 허용하는 경우 '우편번호' 차�
 feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 75%
@@ -17,7 +17,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->보고서 세트 설정의 [!UICONTROL Zip 옵션]이 원하는 값으로 설정되어 있는지 확인하십시오. [!UICONTROL 지역 zip]이 항상 사용되는 경우에는 이 변수를 사용할 수 없습니다. 자세한 내용은 관리자 안내서에서 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)을 참조하십시오.
+>보고서 세트 설정의 [!UICONTROL Zip 옵션]이 원하는 값으로 설정되어 있는지 확인하십시오. [!UICONTROL 지역 zip]이 항상 사용되는 경우에는 이 변수를 사용할 수 없습니다. 자세한 내용은 관리자 안내서에서 [일반 계정 설정](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)을 참조하십시오.
 
 ## 웹 SDK을 사용하는 우편번호
 

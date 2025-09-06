@@ -4,9 +4,9 @@ title: Analytics for Target 패널
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1130'
 ht-degree: 97%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 Target용 Analytics 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_에서 다양한 사용자 경험, 마케팅 또는 메시징의 변형을 비교하는 방법에 대한 정보는 [실험 패널](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)을 참조하십시오.
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 Target용 Analytics 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_에서 다양한 사용자 경험, 마케팅 또는 메시징의 변형을 비교하는 방법에 대한 정보는 [실험 패널](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ Target용 Analytics 패널을 사용하면 Analysis Workspace에서 Adobe Target
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Target용 Analytics 패널](https://video.tv.adobe.com/v/326714?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Target용 Analytics 패널](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -85,12 +85,12 @@ Analytics for Target 패널은 Adobe Target 활동 및 경험의 성과를 더 �
 | **[!UICONTROL 성공 지표]** | 입력 패널에서 선택한 성공 지표. |
 | **[!UICONTROL 전환율]** | 성공 지표 / 지표 표준화 |
 | **[!UICONTROL 상승도]** | 통제 경험을 기준으로 각 경험의 전환율을 비교합니다. 참고: 상승도는 Target 경험에 대해 *잠긴 지표*&#x200B;입니다. 분류하거나 다른 차원과 함께 사용할 수 없습니다. |
-| **[!UICONTROL 상승도(하한)]** | 이 값은 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 최악의 상승도를 나타냅니다.<br>자세한 내용은 [통계 계산](https://experienceleague.adobe.com/ko/docs/target/using/reports/statistical-methodology/statistical-calculations) 및 [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ko) Excel 파일을 참조하십시오. |
-| **[!UICONTROL 상승도(중간)]** | 이 값은 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 중간 상승도를 나타냅니다. <br>자세한 내용은 [통계 계산](https://experienceleague.adobe.com/ko/docs/target/using/reports/statistical-methodology/statistical-calculations) 및 [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ko) Excel 파일을 참조하십시오. |
-| **[!UICONTROL 상승도(상한)]** | 이 값은 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 최고의 상승도를 나타냅니다.<br>자세한 내용은 [통계 계산](https://experienceleague.adobe.com/ko/docs/target/using/reports/statistical-methodology/statistical-calculations) 및 [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ko) Excel 파일을 참조하십시오. |
-| **[!UICONTROL 신뢰도]** | 학생 T-테스트에서는 다시 테스트를 실행하면 결과가 복제될 가능성을 나타내는 신뢰 수준을 계산합니다. 고정 조건부 서식 범위(75%/85%/95%)가 지표에 적용되었습니다. 열 설정에서 필요한 경우 이 형식을 사용자 정의할 수 있습니다. 참고: 신뢰도는 Target 경험에 대해 &quot;잠긴 지표&quot;입니다. 분류하거나 다른 차원과 함께 사용할 수 없습니다.<br>자세한 내용은 [통계 계산](https://experienceleague.adobe.com/ko/docs/target/using/reports/statistical-methodology/statistical-calculations) 및 [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ko) Excel 파일을 참조하십시오. |
+| **[!UICONTROL 상승도(하한)]** | 이 값은 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 최악의 상승도를 나타냅니다.<br>자세한 내용은 [통계 계산](https://experienceleague.adobe.com/ko/docs/target/using/reports/statistical-methodology/statistical-calculations) 및 [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 파일을 참조하십시오. |
+| **[!UICONTROL 상승도(중간)]** | 이 값은 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 중간 상승도를 나타냅니다. <br>자세한 내용은 [통계 계산](https://experienceleague.adobe.com/ko/docs/target/using/reports/statistical-methodology/statistical-calculations) 및 [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 파일을 참조하십시오. |
+| **[!UICONTROL 상승도(상한)]** | 이 값은 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 최고의 상승도를 나타냅니다.<br>자세한 내용은 [통계 계산](https://experienceleague.adobe.com/ko/docs/target/using/reports/statistical-methodology/statistical-calculations) 및 [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 파일을 참조하십시오. |
+| **[!UICONTROL 신뢰도]** | 학생 T-테스트에서는 다시 테스트를 실행하면 결과가 복제될 가능성을 나타내는 신뢰 수준을 계산합니다. 고정 조건부 서식 범위(75%/85%/95%)가 지표에 적용되었습니다. 열 설정에서 필요한 경우 이 형식을 사용자 정의할 수 있습니다. 참고: 신뢰도는 Target 경험에 대해 &quot;잠긴 지표&quot;입니다. 분류하거나 다른 차원과 함께 사용할 수 없습니다.<br>자세한 내용은 [통계 계산](https://experienceleague.adobe.com/ko/docs/target/using/reports/statistical-methodology/statistical-calculations) 및 [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 파일을 참조하십시오. |
 
-Analysis Workspace의 모든 패널과 마찬가지로 Adobe Target 활동을 분석하는 데 도움이 되는 추가 테이블 및 [시각화](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations)를 추가하여 분석을 계속할 수 있습니다. 패널 수준 또는 자유형 테이블 내에서 세그먼트를 적용할 수도 있습니다. 자유형 테이블 내에 추가하는 경우 상승도 및 신뢰도 계산을 유지하기 위해 전체 테이블에 오버레이해야 합니다. 현재 열 수준 세그먼트는 지원되지 않습니다.
+Analysis Workspace의 모든 패널과 마찬가지로 Adobe Target 활동을 분석하는 데 도움이 되는 추가 테이블 및 [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 추가하여 분석을 계속할 수 있습니다. 패널 수준 또는 자유형 테이블 내에서 세그먼트를 적용할 수도 있습니다. 자유형 테이블 내에 추가하는 경우 상승도 및 신뢰도 계산을 유지하기 위해 전체 테이블에 오버레이해야 합니다. 현재 열 수준 세그먼트는 지원되지 않습니다.
 
 ![편집](/help/assets/icons/Edit.svg)을 사용하여 패널을 재구성하고 재작성합니다.
 

@@ -3,7 +3,7 @@ title: 첫 번째 터치 채널 세부 사항
 description: 방문자의 참여 만료 내 첫 번째 마케팅 채널에 대한 세부 사항입니다.
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 83%
@@ -16,7 +16,7 @@ ht-degree: 83%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 다른 변수의 값을 복사합니다. 사용된 변수는 각 [마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) 내의 채널 값을 참조합니다. 히트가 마케팅 채널 처리 규칙과 일치하면 [마지막 터치 채널](last-touch-channel.md) 차원이 채널 이름으로 설정되고 이 차원은 규칙에 설정된 채널 값으로 설정됩니다.
+이 차원은 다른 변수의 값을 복사합니다. 사용된 변수는 각 [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) 내의 채널 값을 참조합니다. 히트가 마케팅 채널 처리 규칙과 일치하면 [마지막 터치 채널](last-touch-channel.md) 차원이 채널 이름으로 설정되고 이 차원은 규칙에 설정된 채널 값으로 설정됩니다.
 
 이 차원을 특정 값으로 설정하려면 다음 단계를 수행해야 합니다.
 

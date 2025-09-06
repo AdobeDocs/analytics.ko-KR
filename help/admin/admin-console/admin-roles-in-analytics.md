@@ -4,7 +4,7 @@ description: Adobe Analytics 시작, 일반 역할 유형, UI에 로그인하는
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: a7cc0efe42ff7dc4aacc841156e25e3cab6b82f4
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 96%
@@ -43,7 +43,7 @@ Adobe Analytics를 사용할 때 다음 주요 역할을 고려하십시오.
 1. 이 프로필의 이름을 ‘Analytics 전체 관리자 액세스 권한’으로 지정한 후 **[!UICONTROL 다음]** > **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 다시 제품 프로필 페이지로 돌아가서 새로 만든 프로필을 클릭한 뒤 **[!UICONTROL 권한]** 탭을 클릭합니다.
 1. 권한 라인 항목 중 하나를 클릭합니다. **[!UICONTROL 자동 포함]**&#x200B;이 이용 가능해진 경우 이를 활성화합니다. **[!UICONTROL 자동 포함]**&#x200B;을 이용할 수 없는 경우 **[!UICONTROL 모두 추가]**&#x200B;를 클릭합니다. 두 옵션 모두 모든 권한 항목을 오른쪽 열로 이동합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장]**을 클릭합니다.
 모든 권한 범주에 대해 위의 단계를 반복합니다.
 1. 모든 권한 범주가 이 프로필에 부여되고 나면 맨 위의 **[!UICONTROL 제품]**&#x200B;을 클릭해 제품 페이지로 돌아갑니다.
 1. Adobe Analytics 타일에서 **[!UICONTROL 사용자 할당]**&#x200B;을 클릭합니다.
@@ -68,12 +68,12 @@ Experience Platform의 데이터 수집에 대한 제품 관리자 액세스 권
 
 ## 제품 프로필에 대한 전체 제품 관리자 액세스 권한 부여
 
-사용자를 제품 프로필 관리자로 할당하는 방법에 대한 자세한 내용은 Enterprise 사용 안내서의 [Enterprise 사용자의 제품 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html) 문서의 “제품 프로필 관리자 관리”
+사용자를 제품 프로필 관리자로 할당하는 방법에 대한 자세한 내용은 Enterprise 사용 안내서의 [Enterprise 사용자의 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 문서의 “제품 프로필 관리자 관리”
 섹션을 참조하십시오.
 
 ## 다음 단계
 
-[보고서 세트 만들기](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Analytics 관리자가 도구에 로그인하고 데이터 수집을 위한 보고서 세트를 만들 수 있습니다.
+[보고서 세트 만들기](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md): Analytics 관리자가 도구에 로그인하고 데이터 수집을 위한 보고서 세트를 만들 수 있습니다.
 
 [Analytics 태그 속성 만들기](/help/implement/launch/create-analytics-property.md): 데이터 수집 관리자가 도구에 로그인하여 사이트에 구현할 속성을 만들 수 있습니다.
 

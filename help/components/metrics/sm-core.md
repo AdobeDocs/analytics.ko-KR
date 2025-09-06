@@ -3,7 +3,7 @@ title: Streaming Media 서비스 핵심 지표
 description: 보고서 세트에 대해 [!UICONTROL 미디어 코어]을(를) 사용하도록 설정할 때 사용 가능한 지표입니다.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 스트리밍 미디어 서비스 핵심 지표는 스트리밍 미디어 서비스 컬렉션 라이브러리를 통해 수집된 데이터에 기본 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 애드온]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-**[!UICONTROL 미디어 보고]**&#x200B;에서 [미디어 코어](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)을(를) 사용하도록 설정하면 다음 지표를 사용할 수 있습니다.
+**[!UICONTROL 미디어 보고]**&#x200B;에서 [미디어 코어](/help/admin/tools/manage-rs/edit-settings/media-management.md)을(를) 사용하도록 설정하면 다음 지표를 사용할 수 있습니다.
 
 | 지표 이름 | 설명 | 전송 시점 | 컨텍스트 데이터 변수 |
 | --- | --- | --- | --- |

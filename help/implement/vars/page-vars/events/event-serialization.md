@@ -4,7 +4,7 @@ description: 사이트의 지표 중복 제거에 도움이 됩니다.
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -21,7 +21,7 @@ ht-degree: 83%
 
 ## 이벤트 직렬화 설정
 
-먼저 이벤트의 [!UICONTROL 고유 이벤트 기록]을 보고서 세트 설정에서 [!UICONTROL 이벤트 ID 사용]으로 설정해야 합니다. 관리자 사용 안내서의 [성공 이벤트](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)를 참조하십시오.
+먼저 이벤트의 [!UICONTROL 고유 이벤트 기록]을 보고서 세트 설정에서 [!UICONTROL 이벤트 ID 사용]으로 설정해야 합니다. 관리자 사용 안내서의 [성공 이벤트](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)를 참조하십시오.
 
 이벤트 ID를 사용할 때 중복 제거는 다음 수준에서 수행됩니다.
 

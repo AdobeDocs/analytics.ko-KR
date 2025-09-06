@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace에서 프로젝트에서 구성 요소를 사용하는 방법을 알아봅니다.
+description: Analysis Workspace에서 프로젝트에 구성 요소를 사용하는 방법 알아보기
 title: 프로젝트에서 구성 요소 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 80%
 
 1. 추가하려는 구성 요소를 스크롤하거나 검색한 다음 프로젝트 내의 패널이나 시각화로 드래그합니다.
 
-1. 선택 사항으로 구성요소를 패널 헤더의 세그먼트 드롭 영역으로 드래그할 수 있습니다. 이 드래그 앤 드롭 기능은 구성 요소를 세그먼트로 정의하고 해당 세그먼트를 패널 내의 모든 콘텐츠에 적용합니다.
+1. 선택 사항으로 구성 요소를 패널 헤더의 세그먼트 드롭 영역으로 드래그할 수 있습니다. 이 드래그 앤 드롭 기능은 구성 요소를 세그먼트로 정의하고 해당 세그먼트를 패널 내의 모든 콘텐츠에 적용합니다.
 패널의 세그먼트 드롭 영역을 사용하여 패널을 세그먼트화하는 방법에 대한 자세한 내용은 [패널 개요](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)의 [드롭 영역](/help/analyze/analysis-workspace/c-panels/panels.md)을 참조하십시오.
 
 1. 자세한 내용은 다음 섹션을 참조하십시오.
@@ -46,7 +46,7 @@ ht-degree: 80%
 
 ### 프로젝트에 차원 추가
 
-[차원](/help/components/dimensions/overview.md)은(는) 일반적으로 문자열 값을 포함하는 Adobe Analytics의 변수입니다. 반면에, [지표](/help/components/c-calcmetrics/cm-overview.md)는 차원에 연결된 숫자 값을 포함합니다. 기본 보고서는 숫자 값 (지표) 열에 대해 문자열 값 (차원) 행을 보여 줍니다.
+[차원](/help/components/dimensions/overview.md)은(는) 일반적으로 문자열 값을 포함하는 Adobe Analytics의 변수입니다. 반면에, [지표](/help/components/calculated-metrics/cm-overview.md)는 차원에 연결된 숫자 값을 포함합니다. 기본 보고서는 숫자 값 (지표) 열에 대해 문자열 값 (차원) 행을 보여 줍니다.
 
 1. Analysis Workspace에서 [프로젝트에 구성 요소 추가](#add-components-to-a-project)에 설명된 대로 차원을 추가하기 시작합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 80%
 
 1. Analysis Workspace에서 다른 구성 요소와 함께 차원 및 차원 항목을 선택적으로 세분화할 수 있습니다. 자세한 내용은 [Workspace에서 차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 
-Analysis Workspace에서 차원을 사용하는 방법에 대한 자세한 내용은 [차원 미리 보기](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 및 [차원 시간 분할](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)을 참조하십시오.
+Analysis Workspace에서 차원을 사용하는 방법에 대한 자세한 내용은 [차원 미리보기](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 및 [차원 시간 분할](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)을 참조하십시오.
 
 ### 프로젝트에 지표 추가
 
@@ -103,7 +103,7 @@ Analysis Workspace에서 세그먼트를 다음과 같은 방법으로 사용할
 자유 형식 테이블의 열에 세그먼트를 추가하면 세그먼트가 테이블 열 내의 모든 콘텐츠에 적용됩니다. 또한 폴아웃 시각화의 일부로 세그먼트를 추가할 수도 있습니다.
 
 * 구성 요소에서 세그먼트 사용
-[계산된 지표](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [주석](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) 또는 [세그먼트](/help/components/segmentation/segmentation-workflow/seg-build.md)와 같은 구성 요소를 정의할 때 세그먼트를 정의의 일부로 사용할 수 있습니다.
+[계산된 지표](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md), [주석](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) 또는 [세그먼트](/help/components/segmentation/segmentation-workflow/seg-build.md)와 같은 구성 요소를 정의할 때 세그먼트를 정의의 일부로 사용할 수 있습니다.
 
 
 ### 프로젝트에 날짜 범위 추가
@@ -245,7 +245,7 @@ When you add segments to a column in a freeform table, the segments apply to all
 
 In the Calculated metric builder, you can apply segments within your metric definition. 
 
-For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+For more information, see [Segmented metrics](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Add date ranges to a project
 

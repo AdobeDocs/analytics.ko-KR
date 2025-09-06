@@ -4,9 +4,9 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
-workflow-type: ht
-source-wordcount: '1463'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '1460'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics의 랜딩 페이지](https://video.tv.adobe.com/v/346466/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics의 랜딩 페이지](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +74,8 @@ Adobe Analytics 랜딩 페이지는 프로젝트, 템플릿 및 학습 하위 �
 | 환경 설정 편집 | [!UICONTROL 튜토리얼 보기] 및 [사용자 환경 설정 편집](/help/analyze/analysis-workspace/user-preferences.md)을 사용할 수 있습니다. |
 | [!UICONTROL 새로 만들기] | Workspace 프로젝트 또는 모바일 스코어카드를 만들거나 회사 템플릿을 열 수 있는 프로젝트 모달을 엽니다. |
 | [!UICONTROL 간단히 표시<br> 자세히 표시] | 배너 표시 안 함과 표시 간 토글: ![상단 배너](assets/top-banner.png) |
-| [!UICONTROL Workspace 프로젝트] | 사용자가 설계하고 빌드할 빈 [Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko)를 만듭니다. |
-| [!UICONTROL 모바일 스코어카드] | 사용자가 설계하고 빌드할 빈 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko)를 만듭니다. |
+| [!UICONTROL Workspace 프로젝트] | 사용자가 설계하고 빌드할 빈 [Workspace 프로젝트](/help/analyze/analysis-workspace/home.md)를 만듭니다. |
+| [!UICONTROL 모바일 스코어카드] | 사용자가 설계하고 빌드할 빈 [모바일 스코어카드](/help/analyze/mobile-app/curator.md)를 만듭니다. |
 | [!UICONTROL 교육 튜토리얼 열기] | 단계별 튜토리얼로 새로운 시작 프로젝트를 빌드하는 과정을 안내하는 작업 영역 교육 튜토리얼을 엽니다. |
 | [!UICONTROL 릴리스 정보 열기] | 최신 Adobe Experience Cloud 릴리스 정보의 Adobe Analytics 섹션을 엽니다. |
 | 필터 아이콘 | 태그, 보고서 세트, 소유자, 유형 및 기타 필터(내 소유, 나와 공유, 즐겨찾기, 승인됨)별로 필터링합니다. |
@@ -84,7 +84,7 @@ Adobe Analytics 랜딩 페이지는 프로젝트, 템플릿 및 학습 하위 �
 | [!UICONTROL 즐겨찾기] | 필터로 사용할 수 있는 즐겨찾기 프로젝트 또는 폴더 옆에 별표를 추가합니다. |
 | [!UICONTROL 이름] | 프로젝트 이름을 식별합니다. |
 | 고정 아이콘 | 항목을 고정하면 항상 목록의 맨 위에 나타나지만 순서대로 위 또는 아래로 이동하여 순서를 다시 조정할 수 있습니다. 줄임표 옵션 메뉴를 사용한 다음 목록에서 **위로 이동** 또는 **아래로 이동**&#x200B;을 선택합니다. |
-| 정보(i) 아이콘 | 프로젝트에 대한 유형, 프로젝트 역할, 소유자, 설명, 공유 대상과 같은 정보가 표시됩니다. 또한 누가 이 프로젝트를 [편집 또는 복제](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko)할 수 있는지도 나타냅니다. |
+| 정보(i) 아이콘 | 프로젝트에 대한 유형, 프로젝트 역할, 소유자, 설명, 공유 대상과 같은 정보가 표시됩니다. 또한 누가 이 프로젝트를 [편집 또는 복제](/help/analyze/analysis-workspace/curate-share/share-projects.md)할 수 있는지도 나타냅니다. |
 | 생략 부호 (...) | 수행할 수 있는 프로젝트 관리 액션(**삭제**, **공유**, **이름 바꾸기**, **복사**, **고정 해제**, **위로 이동**, **아래로 이동**, **태그**, **승인**, **CSV로 내보내기** 및 **다음으로 이동**)이 표시됩니다. 나열된 모든 액션을 수행할 권한이 없을 수도 있습니다. |
 | 표시: 폴더 및 프로젝트 또는 모든 프로젝트 | 폴더 구성에 따라 폴더 및 프로젝트를 표시&#x200B;**하거나** 구성되지 않은 목록의 모든 프로젝트를 표시할 수 있도록 테이블의 보기 설정을 변경합니다. |
 | &lt; (뒤로 버튼) | Workspace 프로젝트 또는 보고서의 가장 최근 랜딩 페이지 구성으로 돌아갑니다. 다시 돌아올 때 랜딩 페이지를 종료했을 때의 페이지 구성이 유지됩니다. |

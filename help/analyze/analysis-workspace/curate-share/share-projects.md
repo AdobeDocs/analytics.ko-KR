@@ -5,9 +5,9 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1974'
 ht-degree: 96%
 
 ---
@@ -41,7 +41,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 공유](https://video.tv.adobe.com/v/40036?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 공유](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -82,7 +82,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
    또는
 
-   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**&#x200B;를 선택합니다.
+   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**를 선택합니다.
 저장되지 않은 변경 사항이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
 
    프로젝트 공유 대화 상자가 표시됩니다. 대화 상자의 [!UICONTROL **링크로 공유**] 및 [!UICONTROL **설정**] 섹션은 단일 프로젝트를 공유하는 경우에만 표시됩니다.
@@ -107,7 +107,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
    또는
 
-   **[!UICONTROL 조정 및 공유]**&#x200B;를 선택하여 프로젝트 조정을 자동으로 적용합니다. (프로젝트가 이미 공유된 경우 **[!UICONTROL 조정 및 업데이트]**&#x200B;를 선택합니다.) [프로젝트 조정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ko-KR)에 대해 자세히 알아보십시오.
+   **[!UICONTROL 조정 및 공유]**&#x200B;를 선택하여 프로젝트 조정을 자동으로 적용합니다. (프로젝트가 이미 공유된 경우 **[!UICONTROL 조정 및 업데이트]**&#x200B;를 선택합니다.) [프로젝트 조정](/help/analyze/analysis-workspace/curate-share/curate.md)에 대해 자세히 알아보십시오.
 
 ## 프로젝트에 대한 링크 공유
 
@@ -115,7 +115,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 * 링크를 사용하는 수신자는 프로젝트에 대한 액세스 권한을 얻기 전에 Adobe Analytics에 로그인해야 합니다.
 
-* 수신자에게 역할이 할당되지 않고 프로젝트에 대한 [공유 가능한 링크](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ko-KR)를 받은 경우 기본적으로 역할이 제공됩니다. 관리자는 **[!UICONTROL 원본 편집]** 역할을, 관리자가 아닌 사용자는 **[!UICONTROL 사본 편집]** 역할을 받습니다.
+* 수신자에게 역할이 할당되지 않고 프로젝트에 대한 [공유 가능한 링크](/help/analyze/analysis-workspace/curate-share/shareable-links.md)를 받은 경우 기본적으로 역할이 제공됩니다. 관리자는 **[!UICONTROL 원본 편집]** 역할을, 관리자가 아닌 사용자는 **[!UICONTROL 사본 편집]** 역할을 받습니다.
 
 조직의 사용자와 프로젝트 링크를 공유하려면 다음 작업을 수행하십시오.
 
@@ -157,7 +157,7 @@ Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모든 사람과 링크 공유](https://video.tv.adobe.com/v/3452463?quality=12&learn=on&captions=kor){target="_blank"}를 참조하세요.
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모든 사람과 링크 공유](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"}를 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -176,7 +176,7 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
 
    이 옵션을 선택하면 모두와 공유할 수 있는 프로젝트 링크가 만들어집니다. 이 옵션을 비활성화하면 언제든지 프로젝트에 대한 액세스를 비활성화할 수 있습니다.
 
-   프로젝트 소유자가 이 링크의 소유자에 해당합니다. Analytics 관리 안내서의 [사용자 자산 전송 또는 계정 만료 설정](/help/admin/admin/user-management2/users-assets.md)에 설명된 대로 프로젝트 소유권이 이전된 경우에만 링크 소유권을 다른 사용자에게 이전할 수 있습니다.
+   프로젝트 소유자가 이 링크의 소유자에 해당합니다. Analytics 관리 안내서의 [사용자 자산 전송 또는 계정 만료 설정](/help/admin/tools/user-management/users-assets.md)에 설명된 대로 프로젝트 소유권이 이전된 경우에만 링크 소유권을 다른 사용자에게 이전할 수 있습니다.
 
 1. 다음 보안 옵션을 활성화할지 여부를 선택합니다(이 옵션은 Analytics 관리자가 제어 가능).
 
@@ -212,7 +212,7 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [포함된 구성 요소 공유](https://video.tv.adobe.com/v/30902?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [포함된 구성 요소 공유](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

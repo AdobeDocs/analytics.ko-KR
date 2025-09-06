@@ -3,7 +3,7 @@ title: 요일
 description: 요일 (날짜 범위와 상관없이)입니다.
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 88%
@@ -20,4 +20,4 @@ ht-degree: 88%
 
 ## 차원 항목
 
-차원 항목에는 히트가 발생한 요일을 나타내는 `Sunday` - `Saturday`이 포함됩니다. 차원 항목의 순서는 기본적으로 [사용자 지정 달력](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)에서 첫 번째 요일을 따릅니다.
+차원 항목에는 히트가 발생한 요일을 나타내는 `Sunday` - `Saturday`이 포함됩니다. 차원 항목의 순서는 기본적으로 [사용자 지정 달력](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)에서 첫 번째 요일을 따릅니다.

@@ -4,9 +4,9 @@ title: Report Builder FAQ
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '450'
 ht-degree: 100%
 
 ---
@@ -37,4 +37,4 @@ Report Builder의 통합 문서 지원 한도는 다음과 같습니다.
 
 ## Report Builder에 대한 액세스 권한이 있는지 어떻게 알 수 있습니까? {#access}
 
-Adobe Analytics 관리자로부터 Report Builder 액세스 권한을 부여받아야 합니다. 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-console/home)에서 제품 프로필을 설정합니다. 관리자에게 액세스 권한을 요청하십시오.
+Adobe Analytics 관리자로부터 Report Builder 액세스 권한을 부여받아야 합니다. 관리자는 [Adobe Admin Console](/help/admin/admin-console/home.md)에서 제품 프로필을 설정합니다. 관리자에게 액세스 권한을 요청하십시오.

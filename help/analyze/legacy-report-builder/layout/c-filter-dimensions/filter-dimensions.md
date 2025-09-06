@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 73%
@@ -18,13 +18,13 @@ ht-degree: 73%
 
 행 레이블 그리드에 추가할 차원을 필터링할 수 있습니다. 필터는 요청으로 반환된 데이터의 범위를 좁히며, 피벗 또는 사용자 정의 레이아웃에서 적용할 수 있습니다. 피벗 레이아웃에서 차원 필터링을 구성할 때 셀의 항목 수를 추가로 지정할 수 있습니다.
 
-선택한 필터 양식이 Report Builder 요청에서 선택한 요소 및 지표를 기반으로 채워집니다.
+선택한 필터 양식은 Report Builder 요청에서 선택한 요소 및 지표를 기반으로 채워집니다.
 
 ## 필터 정의 - 값 및 특수 문자 {#section_15840216A4044C40974945FAA435AD93}
 
 **[!UICONTROL 가장 자주 사용하는 필터]** > **[!UICONTROL 필터 정의]** 패널의 필터에 대한 정보입니다.
 
-![응용 프로그램, 사용자 및 프로젝트별로 필터링할 수 있는 옵션이 있는 필터 정의 대화 상자를 표시하는 스크린샷입니다.](/help/admin/admin/assets/filter.png)
+![응용 프로그램, 사용자 및 프로젝트별로 필터링할 수 있는 옵션이 있는 필터 정의 대화 상자를 표시하는 스크린샷입니다.](/help/admin/tools/assets/filter.png)
 
 다음 표에는 필터에 대한 예제와 정보가 나와 있습니다.
 
@@ -69,13 +69,13 @@ ht-degree: 73%
    <td colname="col3"> <p><span class="term"> abc</span>, <span class="term"> abc def</span>을(를) 제외하고 <span class="term"> def</span>과(와) 일치시킵니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>같음 </p> </td> 
+   <td colname="col1"> <p>다음과 같음 </p> </td> 
    <td colname="col02"> <p>완전 일치 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
    <td colname="col3"> <p> <span class="term"> abc</span>가 반환되고 다른 항목은 반환되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>같지 않음 </p> </td> 
+   <td colname="col1"> <p>다음과 같지 않음 </p> </td> 
    <td colname="col02"> <p>해당 항목과 정확히 일치하지 않는 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
    <td colname="col3"> <p><span class="term"> a</span>와(과) 일치하지 않습니다. </p> <p><span class="term"> a b c</span>와 일치합니다. </p> <p><span class="term"> abc</span>와 일치합니다. </p> </td> 
@@ -120,7 +120,7 @@ ht-degree: 73%
  <tbody> 
   <tr> 
    <td colname="col1"> " " </td> 
-   <td colname="col2"> 같음 </td> 
+   <td colname="col2"> 다음과 같음 </td> 
    <td colname="col3"> <p>다른 따옴표와 짝이 맞지 않는 한 이스케이프되지 않습니다. 예를 들어 <span class="term"> 17" Display</span>은(는) 구문이 아닙니다. </p> </td> 
   </tr> 
   <tr> 

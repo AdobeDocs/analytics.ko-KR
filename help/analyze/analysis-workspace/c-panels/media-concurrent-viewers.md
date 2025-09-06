@@ -4,9 +4,9 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1240'
 ht-degree: 95%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 미디어 동시 뷰어 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)Customer Journey Analytics_ ![버전은 ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**미디어 동시 뷰어 패널**&#x200B;을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 미디어 동시 뷰어 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)Customer Journey Analytics_ ![버전은 ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**미디어 동시 뷰어 패널**&#x200B;을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/342839?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -131,8 +131,8 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 >[!MORELIKETHIS]
 >
 >[패널 만들기](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[미디어 재생 소요 시간 패널](media-playback-time-spent.md)
->&#x200B;>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
+>>[미디어 재생 소요 시간 패널](media-playback-time-spent.md)
+>>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342839/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

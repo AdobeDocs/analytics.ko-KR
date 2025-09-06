@@ -4,9 +4,9 @@ description: 하나의 Analysis Workspace 프로젝트에서 여러 보고서 �
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [여러 보고서 세트](https://video.tv.adobe.com/v/37038?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [여러 보고서 세트](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -71,6 +71,6 @@ ht-degree: 71%
 
 1. (선택 사항) 다른 Analytics 구성 요소 빌더로 이동하여 다음을 나타내는 보고서 세트 레이블이 이제 표시되는지 확인합니다.
 
-   * 세그먼트를 만들 위치: [세그먼트 빌더](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ko-KR).
-   * 계산된 지표를 만들 위치: [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko-KR).
-   * 경고를 만들 위치: [경고 빌더](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=ko-KR).
+   * 세그먼트를 만들 위치: [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md).
+   * 계산된 지표를 만들 위치: [계산된 지표 빌더](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
+   * 경고를 만들 위치: [경고 빌더](/help/components/alerts/alert-builder.md).

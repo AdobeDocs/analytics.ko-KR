@@ -4,7 +4,7 @@ title: Adobe Analytics 대시보드 경영진 안내서
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 92%
@@ -87,7 +87,7 @@ ht-degree: 92%
       * 이틀 이상 및 1년 미만은 일별 트렌드를 표시함
       * 1년 이상은 주별 트렌드를 표시함
 
-   * 비율 값 변경 수식은 지표 합계 (현재 날짜 범위) – 지표 합계 (비교 날짜 범위) / 지표 합계 (비교 날짜 범위)입니다.
+   * 비율 값 변경 수식은 지표 합계(현재 날짜 범위) – 지표 합계(비교 날짜 범위) / 지표 합계(비교 날짜 범위)입니다.
 
    * 화면을 아래로 당기면 스코어카드를 새로 고칠 수 있습니다.
 
@@ -110,7 +110,7 @@ ht-degree: 92%
 
 1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운을 누르고 큐레이터가 구성한 세그먼트를 선택합니다. 앱의 [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
 
-   ![세그먼트 필터](/help/admin/admin/assets/filter.png)
+   ![세그먼트 필터](/help/admin/tools/assets/filter.png)
 
 1. 스코어카드 업데이트를 가져옵니다. 스코어카드에 관심이 있을 수 있는 모든 지표 또는 분류가 포함되어 있지 않은 경우 Analytics 팀에 연락하여 스코어카드가 업데이트되도록 하십시오. 업데이트되었으면 화면에서 카드를 풀다운하여 새로 고친 다음 최근에 추가한 데이터를 로드할 수 있습니다.
 

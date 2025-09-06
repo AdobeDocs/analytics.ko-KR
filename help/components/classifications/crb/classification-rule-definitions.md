@@ -3,9 +3,9 @@ description: 분류 규칙 빌더에서 페이지의 인터페이스 요소를 �
 title: 분류 규칙 - 정의
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '860'
 ht-degree: 94%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>보고서 세트 및 변수 선택 </p> </td> 
-   <td colname="col2"> <p><b>보고서 세트</b> </p> <p>규칙 세트가 적용되는 보고서 세트입니다. </p> <p><b>변수</b> </p> <p>분류 규칙 세트를 만들 때 1개의 변수만 적용할 수 있습니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다. </p> <p>참고: 보고서 세트에 대한 액세스 권한이 있는 변수만 사용할 수 있습니다. 변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 <span class="wintitle">새 규칙 세트</span> 패널에 표시됩니다. </p> <p> <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 분류</span> (또는 <span class="uicontrol">전환</span> &gt; <span class="uicontrol">전환 분류</span>)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 <span class="uicontrol">분류 추가</span>를 클릭합니다. </p> <p>관리자 도움말에서 <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html?lang=ko-KR"  >트래픽 분류</a> 및 <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=ko-KR"  >전환 분류</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><b>보고서 세트</b> </p> <p>규칙 세트가 적용되는 보고서 세트입니다. </p> <p><b>변수</b> </p> <p>분류 규칙 세트를 만들 때 1개의 변수만 적용할 수 있습니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다. </p> <p>참고: 보고서 세트에 대한 액세스 권한이 있는 변수만 사용할 수 있습니다. 변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 <span class="wintitle">새 규칙 세트</span> 패널에 표시됩니다. </p> <p> <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 분류</span> (또는 <span class="uicontrol">전환</span> &gt; <span class="uicontrol">전환 분류</span>)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 <span class="uicontrol">분류 추가</span>를 클릭합니다. </p> <p>관리자 도움말에서 <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >트래픽 분류</a> 및 <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >전환 분류</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 활성화</span> </p> </td> 

@@ -4,7 +4,7 @@ description: linkInternalFilters 변수를 사용하여 자동 종료 링크 추
 feature: Appmeasurement Implementation
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
@@ -23,13 +23,13 @@ Activity Map은 이 변수를 사용하여 사이트 내부 링크를 판별하�
 
 >[!NOTE]
 >
->`linkInternalFilters`와 [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)는 별개의 목적을 수행하는 별개의 기능입니다. `linkInternalFilters` 변수는 특히 종료 링크 추적에 작동합니다. 내부 URL 필터는 참조 도메인같은 트래픽 소스 차원에 도움이 되는 관리 설정입니다.
+>`linkInternalFilters`와 [내부 URL 필터](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)는 별개의 목적을 수행하는 별개의 기능입니다. `linkInternalFilters` 변수는 특히 종료 링크 추적에 작동합니다. 내부 URL 필터는 참조 도메인같은 트래픽 소스 차원에 도움이 되는 관리 설정입니다.
 
 ## Web SDK의 종료 링크
 
 링크 대상 도메인이 현재 `window.location.hostname`과 다른 경우 링크는 자동으로 종료 링크로 간주됩니다. Web SDK는 자동 종료 링크 감지를 수정하기 위한 구성 변수를 제공하지 않습니다. 종료 링크로 적합한 도메인을 사용자 정의해야 하는 경우 `onBeforeEventSend` 콜백에서 사용자 정의 논리를 사용할 수 있습니다.
 
-자세한 내용은 Web SDK 설명서의 [자동 링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ko#automaticLinkTracking)을 참조하십시오.
+자세한 내용은 Web SDK 설명서의 [자동 링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)을 참조하십시오.
 
 ## 아웃바운드 링크 - Adobe Analytics 확장을 사용하여 추적하지 않음
 

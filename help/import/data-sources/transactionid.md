@@ -4,7 +4,7 @@ description: 온라인 히트의 저장된 값을 사용하여 거래 ID를 공�
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 0a65114d598b7c6d2871a2446ad4d574b9ca44bb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->거래 ID 데이터 소스를 사용하기 전에 먼저 원하는 보고서 세트에 대해 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)에서 활성화해야 합니다.
+>거래 ID 데이터 소스를 사용하기 전에 먼저 원하는 보고서 세트에 대해 [일반 계정 설정](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)에서 활성화해야 합니다.
 
 ## 작동 방식
 
@@ -32,7 +32,7 @@ ht-degree: 8%
 * [첫 구매까지 소요된 일 수](/help/components/dimensions/days-before-first-purchase.md)
 * [마지막 구매 이후 일 수](/help/components/dimensions/days-since-last-purchase.md)
 * [eVar 1-250](/help/components/dimensions/evar.md)
-* eVar와 유사하게 동작하는 [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)에서 사용할 수 있는 기능별 차원입니다. prop과 유사하게 동작하는 기능별 차원은 포함되지 않습니다.
+* eVar와 유사하게 동작하는 [보고서 세트 설정](/help/admin/tools/manage-rs/report-suites-admin.md)에서 사용할 수 있는 기능별 차원입니다. prop과 유사하게 동작하는 기능별 차원은 포함되지 않습니다.
 * [목록 변수](/help/implement/vars/page-vars/list.md)
 * [마케팅 채널](/help/components/dimensions/marketing-channel.md)
 * [마케팅 채널 세부 사항](/help/components/dimensions/marketing-detail.md)

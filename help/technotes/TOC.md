@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료를 찾아봅니다.
-source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 90%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 # Analytics 기술 노트 {#technotes}
 
 + [Analytics 기술 노트](home.md)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/ko/docs/analytics/release-notes/latest)
 + Google Analytics 사용자를 위한 Adobe Analytics {#ga-to-aa}
    + [Google Analytics 사용자를 위한 Adobe Analytics 도움말](ga-to-aa/home.md)
    + [계정 및 보고서 세트](ga-to-aa/accounts.md)
@@ -49,7 +50,13 @@ ht-degree: 100%
 + [낮은 트래픽 값](low-traffic.md)
 + [모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션](migrate-mobile.md)
 + [다중 통화 지원](multicurrency.md)
-+ [개인정보 보호 개요](privacy-overview.md)
++ 개인 정보 보호 {#privacy}
+   + [개인정보 보호 개요](privacy/privacy-overview.md)
+   + [개인정보 보호 워크플로](privacy/privacy-workflow.md)
+   + [Analytics 및 GDPR](privacy/gdpr.md)
+   + [Analytics 및 CCPA](privacy/ccpa.md)
+   + [Analytics 및 CNIL 동의 면제](privacy/cnil-consent-exemption.md)
+   + [개인 정보 FAQ](privacy/faq.md)
 + [처리 순서](processing-order.md)
 + [점진적 웹 앱](pwa.md)
 + [리디렉션 및 별칭](redirects.md)

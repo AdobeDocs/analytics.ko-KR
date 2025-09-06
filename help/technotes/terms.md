@@ -3,7 +3,7 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -16,16 +16,16 @@ ht-degree: 89%
 
 * **Activity Map:** 사이트에서 가장 많이 클릭한 영역을 표시하는 브라우저 플러그인입니다. 분석 사용 안내서에서 [Activity Map](/help/analyze/activity-map/overview.md)을 참조하십시오.
 * **관리 콘솔:** 다음을 의미할 수 있습니다.
-   * Adobe Analytics의 보고서 세트 설정을 관리하는 기존 관리 도구. 이전 버전의 Adobe Analytics에서는 사용자 권한도 여기에서 관리했습니다. 관리 사용 안내서에서 [관리 도구](/help/admin/admin/c-admin-tools.md)를 참조하십시오.
+   * Adobe Analytics의 보고서 세트 설정을 관리하는 기존 관리 도구. 이전 버전의 Adobe Analytics에서는 사용자 권한도 여기에서 관리했습니다. 관리 사용 안내서에서 [관리 도구](/help/admin/tools/c-admin-tools.md)를 참조하십시오.
    * 제품 액세스가 프로비저닝되고 사용자 권한이 관리되는 Adobe Admin Console. 관리 사용 안내서에서 [Admin Console](/help/admin/admin-console/home.md)을 참조하십시오.
-* **할당:** 전환 변수가 방문 중에 두 개 이상의 값을 발견하는 경우 변수의 할당 설정에 따라 보존되는 값이 결정됩니다. 관리 사용 안내서에서 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
+* **할당:** 전환 변수가 방문 중에 두 개 이상의 값을 발견하는 경우 변수의 할당 설정에 따라 보존되는 값이 결정됩니다. 관리 사용 안내서에서 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 * **Analysis Workspace:** 강력한 사용자 정의 분석 프로젝트를 구축하고 통찰력을 보여 주기 위한 브라우저 솔루션입니다. Analytics 도구 안내서에서 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md)를 참조하십시오.
 * **예외 항목:** 데이터에서 예기치 않은 트렌드를 자동으로 찾기 위해 통계적 모델링 방법을 사용하여 탐지합니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상치 않은 범위를 파악합니다. Analytics 도구 안내서에서 [예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)를 참조하십시오.
 * **AppMeasurement:** 데이터를 수집하여 Adobe로 전송하는 데 사용되는 코드 라이브러리. 구현 사용 안내서의 [홈 페이지](/help/implement/home.md)를 참조하십시오.
 * **ASI 슬롯:** 더 이상 존재하지 않습니다. 이전 버전의 Adobe Analytics에서 ASI 슬롯은 세그먼트화된 데이터를 보기 위한 임시 보고서 세트 컨테이너를 제공했습니다. 현재 Adobe Analytics 버전에서는 세그먼트를 모든 보고서에 즉시 적용할 수 있습니다.
 * **분류:** 다른 차원의 컨텍스트 내에서 차원을 볼 수 있습니다. Analytics 도구 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 * **바운스:** 단일 히트로 구성된 방문. 구성 요소 사용 안내서에서 [바운스 수](/help/components/metrics/bounces.md)를 참조하십시오. 단일 액세스를 참조하십시오.
-* **계산된 지표:** 보고에 사용할 기존 지표, 통계 함수 및 수식의 조합을 사용할 수 있습니다. 구성 요소 사용 안내서에서 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)를 참조하십시오.
+* **계산된 지표:** 보고에 사용할 기존 지표, 통계 함수 및 수식의 조합을 사용할 수 있습니다. 구성 요소 사용 안내서에서 [계산된 지표](/help/components/calculated-metrics/cm-overview.md)를 참조하십시오.
 * **캠페인:** 다음을 의미할 수 있습니다.
    * 추적 코드 차원을 채우는 캠페인 변수. 구현 사용 안내서에서 [캠페인](../implement/vars/page-vars/campaign.md)을 참조하십시오.
    * 추적 코드 차원의 기본 분류. 모든 보고서 세트에 대해 자동으로 만들어집니다.
@@ -56,7 +56,7 @@ ht-degree: 89%
 * **이벤트 일련화:** 중복 이벤트 수집을 방지하기 위한 조치를 구현하는 프로세스입니다. 구현 사용 안내서에서 [이벤트 일련화](../implement/vars/page-vars/events/event-serialization.md)를 참조하십시오.
 * **eVar:** 전환 변수를 참조하십시오.
 * **이벤트:** 성공 이벤트를 참조하십시오.
-* **만료:** 전환 변수 컨텍스트에서 값이 백엔드에서 지속되는 기간입니다. 이 지속성을 사용하면 이벤트를 이벤트의 히트 전에 변수 값과 연결할 수 있습니다. 관리 사용 안내서에서 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
+* **만료:** 전환 변수 컨텍스트에서 값이 백엔드에서 지속되는 기간입니다. 이 지속성을 사용하면 이벤트를 이벤트의 히트 전에 변수 값과 연결할 수 있습니다. 관리 사용 안내서에서 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 * **플로우:** 사용자가 사이트에서 어떤 경로를 사용했는지를 보여 주는 Analysis Workspace의 시각화 유형입니다. Analytics 도구 안내서에서 [플로우 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 참조하십시오.
 * **전역 보고서 세트:** 여러 사이트에서 히트를 수집하는 보고서 세트에 지정된 비공식적인 용어입니다.
 * **H 코드:** AppMeasurement의 이전 모델입니다. 이전 버전의 Adobe Analytics에서 코드 버전은 H.27.5, H.26 등과 같이 &quot;H 버전&quot;으로 측정되었습니다.
@@ -67,7 +67,7 @@ ht-degree: 89%
    * 사용자 정의 트래픽 변수의 이전 이름인 사용자 정의 인사이트.
 * **KPI:** 주요 성능 표시기의 약어입니다. 비즈니스가 사이트에서 수행하는 방식을 이해하는 데 도움이 되는 지표입니다. 각 조직에는 비즈니스의 서로 다른 측면을 측정하는 다른 KPI가 있습니다. 구현 사용 안내서에서 [솔루션 디자인 문서 만들기](/help/implement/prepare/solution-design.md)를 참조하십시오.
 * **지연:** 데이터가 수집되는 시간과 보고서에서 사용할 수 있는 시간 사이의 대기 시간입니다. 보고서 세트의 일반적인 지연 시간은 30~90분입니다. 기술 정보 사용 안내서에서 [지연](/help/technotes/latency.md)을 참조하십시오.
-* **Launch:** 더 이상 사용하지 않는 용어입니다. Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 태그에 대한 구 축약 명칭입니다. Adobe Experience Platform 사용 안내서의 [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 참조하십시오.
+* **Launch:** 더 이상 사용하지 않는 용어입니다. Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 태그에 대한 구 축약 명칭입니다. Adobe Experience Platform 사용 안내서의 [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 참조하십시오.
 * **목록 속성:** 일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 이 설정이 활성화되면 모든 사용자 정의 트래픽 변수가 목록 속성이 될 수 있습니다. 구현 사용 안내서에서 [속성](../implement/vars/page-vars/prop.md)을 참조하십시오.
 * **목록 변수:** 전환 변수와 별도의 고유한 변수입니다. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 변수 값은 전환 변수와 마찬가지로 방문 시 보존됩니다. 조직에서는 목록 변수를 세 개만 사용할 수 있습니다. 구현 사용 안내서에서 [목록](/help/implement/vars/page-vars/list.md)을 참조하십시오.
 * **로그인 회사:** 조직에서 사용한 보고서 세트들의 모음입니다. 일부 조직에는 조직의 여러 부분에 해당되는 여러 로그인 회사가 있습니다.
@@ -84,14 +84,14 @@ ht-degree: 89%
 * **지속성:** 변수 값과 개별 히트에서 발생하는 이벤트 간 연결을 허용하는 전환 변수에 대한 추상적인 개념입니다. 만료도 참조하십시오.
 * **주 서버 호출:** 대부분 다중 세트 태그 지정 및 청구 컨텍스트에서 사용되는 이미지 요청 또는 히트에 대한 대체 이름입니다. 동일한 히트가 여러 보고서 세트로 전송되면 첫 번째 보고서 세트가 주 서버 호출이고 나머지는 보조 서버 호출입니다. 이 규칙은 페이지 조회수 및 링크 추적을 포함하여 모든 히트 유형에 적용됩니다. 보조 서버 호출도 참조하십시오.
 * **처리 규칙:** 다음을 의미할 수 있습니다.
-   * Admin Console에서 특정 규칙을 사용하여 데이터 수집을 변경하는 방법. 관리 사용 안내서에서 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)을 참조하십시오.
-   * 히트가 속한 마케팅 채널을 파악하는 규칙 세트인 마케팅 채널 처리 규칙. 관리 사용 안내서에서 [마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)을 참조하십시오.
+   * Admin Console에서 특정 규칙을 사용하여 데이터 수집을 변경하는 방법. 관리 사용 안내서에서 [처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)을 참조하십시오.
+   * 히트가 속한 마케팅 채널을 파악하는 규칙 세트인 마케팅 채널 처리 규칙. 관리 사용 안내서에서 [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)을 참조하십시오.
 * **속성:** 트래픽 변수를 참조하십시오.
 * **등급 보고서:** 일반적으로 지표를 사용하여 차원을 따르는 보고서 형식입니다. 이 유형의 보고서에서는 사이트에서 가장 많이 본 페이지와 같은 상위 항목을 볼 수 있습니다. 트렌드 보고서도 참조하십시오.
-* **실시간:** 지연이 거의 없는 상태로 구성된 변수를 수집하는 즉시 표시합니다. 관리 사용 안내서에서 [실시간 보고서](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)를 참조하십시오.
+* **실시간:** 지연이 거의 없는 상태로 구성된 변수를 수집하는 즉시 표시합니다. 관리 사용 안내서에서 [실시간 보고서](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md)를 참조하십시오.
 * **Report Builder:** Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md) 추가 기능을 사용하여 Adobe Analytics 데이터에서 사용자 지정 요청을 작성할 수 있습니다.
 * **보고서 세트:** 데이터를 보내는 중요한 컨테이너입니다. Adobe Analytics의 모든 보고서는 보고서 세트를 참조합니다.
-* **Reports &amp; Analytics:** 이 도구는 [사용 중지](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ko)되었습니다.
+* **Reports &amp; Analytics:** 이 도구는 [사용 중지](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)되었습니다.
 * **롤링 날짜 범위:** 시간이 경과함에 따라 변경되는 상대적 날짜 범위의 유형입니다. 예를 들어 최근 7일을 보여 주는 보고서를 롤링 날짜 범위로 간주할 수 있습니다. 정적 날짜 범위도 참조하십시오.
 * **RSID:** 보고서 세트 ID의 약어입니다. 보고서 세트에는 친숙한 이름과 보고서 세트 ID가 모두 있습니다.
 * **s.t ():** 페이지 조회수 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()`을 대신 사용합니다. 구현 사용 안내서에서 [t](../implement/vars/functions/t-method.md)를 참조하십시오.

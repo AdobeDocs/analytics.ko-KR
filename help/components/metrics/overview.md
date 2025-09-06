@@ -3,8 +3,8 @@ title: 지표 개요
 description: 시간에 따른 차원 항목 또는 데이터의 수량을 봅니다.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: ht
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 {style="table-layout:fixed"}
 
-주어진 지표의 도움말 페이지를 찾을 수 없다면 그것은 [사용자 정의 이벤트](custom-events.md)나 [계산된 지표](../c-calcmetrics/cm-overview.md)일 수 있습니다.
+주어진 지표의 도움말 페이지를 찾을 수 없다면 그것은 [사용자 정의 이벤트](custom-events.md)나 [계산된 지표](../calculated-metrics/cm-overview.md)일 수 있습니다.
 
 * 지표가 사용자 정의 이벤트인 경우 조직 내의 Analytics 관리자에게 문의하거나 보고서 세트의 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)를 참조하십시오.
 * 지표가 계산된 지표인 경우 정보 아이콘을 클릭하여 공식을 확인합니다.

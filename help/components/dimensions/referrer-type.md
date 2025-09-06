@@ -3,7 +3,7 @@ title: 레퍼러 유형
 description: 방문자가 어디에서 왔는지에 따른 레퍼러 유형입니다.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 825cded49c0ff456925e522ae2d0660b09ea6edd
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 Adobe 내부의 여러 조회 테이블을 참조합니다. 각 값은 히트의 [레퍼러](referrer.md)를 기반으로 하는데, 이것은 [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)에 따라 달라집니다. 레퍼러 차원과 내부 URL 필터가 올바로 구성되어 있는지 확인하십시오.
+이 차원은 Adobe 내부의 여러 조회 테이블을 참조합니다. 각 값은 히트의 [레퍼러](referrer.md)를 기반으로 하는데, 이것은 [내부 URL 필터](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)에 따라 달라집니다. 레퍼러 차원과 내부 URL 필터가 올바로 구성되어 있는지 확인하십시오.
 
 ## 차원 항목
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->이 목록은 [마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)의 기본 소셜 네트워크 목록과 다릅니다.
+>이 목록은 [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)의 기본 소셜 네트워크 목록과 다릅니다.
 
 * `12seconds.tv`
 * `4travel.jp`

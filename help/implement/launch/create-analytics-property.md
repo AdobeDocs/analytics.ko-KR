@@ -4,7 +4,7 @@ description: 태그를 사용하여 데이터 수집 방법을 사용자 정의�
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
@@ -17,7 +17,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 
 ## 사전 요구 사항
 
-[보고서 세트 만들기](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기.
+[보고서 세트 만들기](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기.
 
 ## 태그 속성 만들기 및 중요한 확장 설치
 
@@ -32,7 +32,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 1. Experience Cloud 조직 ID를 비롯한 모든 설정은 이미 작성되어 있어야 합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 확장 카탈로그로 돌아가 Adobe Analytics를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 
-자세한 내용은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko)에 대한 모든 내용이 들어 있는 문서를 참조하십시오.
+자세한 내용은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)에 대한 모든 내용이 들어 있는 문서를 참조하십시오.
 
 ## Adobe Analytics용 데이터 요소 만들기
 

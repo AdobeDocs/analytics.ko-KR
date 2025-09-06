@@ -3,7 +3,7 @@ title: 평일/주말
 description: 히트가 평일과 주말 중 언제 발생했는지를 확인합니다.
 feature: Dimensions
 exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 80%
@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # 평일/주말
 
-평일/주말&#39; [차원](overview.md)은(는) 히트가 평일(월요일 - 금요일)과 주말(토요일 - 일요일) 중 언제 발생했는지 알려줍니다. 히트 시간은 [보고서 세트의 시간대](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)를 기반으로 합니다.
+평일/주말&#39; [차원](overview.md)은(는) 히트가 평일(월요일 - 금요일)과 주말(토요일 - 일요일) 중 언제 발생했는지 insight을 제공합니다. 히트 시간은 [보고서 세트의 시간대](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)를 기반으로 합니다.
 
 ## 이 차원을 데이터로 채우기
 

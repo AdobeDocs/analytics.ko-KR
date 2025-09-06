@@ -3,7 +3,7 @@ title: 모든 검색 페이지 등급
 description: 방문자가 사이트에 도달하기 위해 클릭한 검색 엔진의 페이지를 결정합니다.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 85%
@@ -12,11 +12,11 @@ ht-degree: 85%
 
 # 모든 검색 페이지 등급
 
-&#39;모든 검색 페이지 등급&#39; [차원](overview.md)은(는) 방문자가 사이트에 도달하기 위해 클릭한 검색 결과 페이지에 대한 통찰력을 제공합니다. 예를 들어, 사이트가 검색 엔진의 검색 결과 중 두 번째 페이지에 나타나는 경우 이 변수의 차원 항목은 &quot;검색 페이지 2&quot;입니다.
+&#39;모든 검색 페이지 등급&#39; [차원](overview.md)은(는) 방문자가 사이트에 도달하기 위해 클릭한 검색 결과 페이지에 대한 insight을 제공합니다. 예를 들어, 사이트가 검색 엔진의 검색 결과 중 두 번째 페이지에 나타나는 경우 이 변수의 차원 항목은 &quot;검색 페이지 2&quot;입니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원이 작동하려면 보고서 세트에 [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)가 올바로 설정되어 있어야 합니다. AppMeasurement는 구현 코드를 변경하지 않고 자동으로 이 차원을 채웁니다.
+이 차원이 작동하려면 보고서 세트에 [내부 URL 필터](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)가 올바로 설정되어 있어야 합니다. AppMeasurement는 구현 코드를 변경하지 않고 자동으로 이 차원을 채웁니다.
 
 ## 차원 항목
 

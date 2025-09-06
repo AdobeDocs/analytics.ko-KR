@@ -4,9 +4,9 @@ keywords: ftp, sftp
 title: Secure File Transfer Protocol - 개요
 feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '218'
 ht-degree: 88%
 
 ---
@@ -19,9 +19,9 @@ SFTP는 본인을 제외한 누구도 본인의 데이터를 볼 수 없도록 �
 
 이는 Adobe 서버에서 사용자 서버로 파일을 &quot;푸시&quot;하는 것을 의미합니다. 기본적으로 Adobe에서 사용자의 끝 포인트에 배달합니다.
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 및 [Analytics 데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ko-KR)는 SFTP를 통해 데이터를 푸시할 수 있습니다.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 및 [Analytics 데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)는 SFTP를 통해 데이터를 푸시할 수 있습니다.
 
-Report Builder **SFTP를 통해 데이터를 푸시할 수 없습니다**.
+SFTP를 통해 Report Builder 데이터를 **푸시할 수 없습니다**.
 
 ## 배달 가져오기 {#section_FA29FAEF02FE40B8B32452146A036F48}
 

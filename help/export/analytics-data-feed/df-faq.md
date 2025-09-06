@@ -4,9 +4,9 @@ keywords: 데이터 피드, 작업, 이전 열, 이후 열, 대소문자 구분
 title: 데이터 피드 FAQ
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 84%
 
 ---
@@ -53,7 +53,7 @@ Adobe Analytics에서는 대부분의 변수가 보고 목적으로 대소문자
 
 ## 보트는 데이터 피드에 포함된 Admin Console 보트 규칙으로 필터링됩니까? {#bots}
 
-데이터 피드는 [Admin Console 보트 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=ko-KR)으로 필터링된 보트를 포함하지 않습니다.
+데이터 피드는 [Admin Console 보트 규칙](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)으로 필터링된 보트를 포함하지 않습니다.
 
 ## 여러 개의 `000` 값이 `event_list` 또는 `post_event_list` 데이터 피드 열에 표시되는 이유는 무엇입니까? {#values}
 

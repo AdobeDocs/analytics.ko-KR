@@ -4,9 +4,9 @@ title: 세그먼트 관리(Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '957'
 ht-degree: 74%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 Report Builder에서 Adobe Analytics 세그먼트 추가, 편집, 적용 및 필터링 방법
 
-Report Builder은 세그먼트를 만들고 관리할 수 있도록 하는 요청 마법사의 1단계에 있는 세그멘테이션 패널을 제공합니다.
+Report Builder에는 세그먼트를 만들고 관리할 수 있도록 하는 요청 마법사 1단계의 세그멘테이션 패널이 있습니다.
 
 ![세그먼트를 추가, 편집 또는 지우는 세그먼트 옵션을 보여주고 컨트롤, 필터 및 새로 고침 아이콘을 강조 표시하는 스크린샷입니다.](assets/seg_dialog.png)
 
@@ -28,7 +28,7 @@ Report Builder은 세그먼트를 만들고 관리할 수 있도록 하는 요�
 >세그먼트를 추가하거나 편집할 수 있게 Report Builder 세그먼트 인터페이스는 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션이 활성 상태로 유지됩니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
 
 1. 요청 마법사 1단계의 세그먼트 패널에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [분석 세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko)를 참조하십시오.
+1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [분석 세그먼트](/help/components/segmentation/seg-home.md)를 참조하십시오.
 1. 세그먼트를 정의하고 저장한 후에 요청 마법사로 돌아갑니다.
 1. 새로 고침 아이콘을 클릭하여 세그먼트 목록을 새로 고칩니다.
 
@@ -45,7 +45,7 @@ Report Builder은 세그먼트를 만들고 관리할 수 있도록 하는 요�
 
    ![선택한 컨테이너 옵션과 사용 가능한 컨테이너 옵션에서 컨텍스트 내 세그먼트 만들기를 보여 주는 스크린샷](assets/seg_in_context.png)
 
-   컨테이너에 대한 자세한 내용은 [세그멘테이션 가이드](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko)를 참조하십시오.
+   컨테이너에 대한 자세한 내용은 [세그멘테이션 가이드](/help/components/segmentation/seg-home.md)를 참조하십시오.
 
 1. 이제 세그먼트 빌더 UI가 Internet Explorer에서 시작됩니다. 세그먼트 빌더 UI는 사용자가 지정한 컨테이너 및 필터로 초기화됩니다.
 1. 세그먼트에 이름 및 설명을 추가한 후에 저장합니다.
@@ -54,7 +54,7 @@ Report Builder은 세그먼트를 만들고 관리할 수 있도록 하는 요�
 
 ## 세그먼트 검색 및 적용 {#search}
 
-Reports &amp; Analytics(이제 서비스 종료), Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 클릭합니다.
+Reports &amp; Analytics(사용 종료), Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 클릭합니다.
 
 지정된 요청에 하나 또는 여러 개의 세그먼트를 적용할 수 있습니다. 여기에는 순차적 세그먼트가 포함됩니다.
 
@@ -70,7 +70,7 @@ Reports &amp; Analytics(이제 서비스 종료), Report Builder 또는 Data War
 
 ## 세그먼트 필터링 {#filter}
 
-필터 아이콘 ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 클릭하여 **필터** 세그먼트
+필터 아이콘 **필터 아이콘**&#x200B;을 클릭하여 ![필터](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 세그먼트
 
 사용 가능한 필터:
 

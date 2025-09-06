@@ -4,7 +4,7 @@ title: 실시간 보고 개요
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 89%
@@ -17,7 +17,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->실시간 보고서는 추가적인 구현이나 태깅을 필요로 하지 않으며, 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)을 참조하십시오.
+>실시간 보고서는 추가적인 구현이나 태깅을 필요로 하지 않으며, 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)을 참조하십시오.
 
 ## 실시간 보고 액세스
 
@@ -31,7 +31,7 @@ ht-degree: 89%
 
 실시간 보고서는 사이트 트렌드는 무엇이며 그러한 트렌드의 이유는 무엇인가와 같은 질문들에 대해 대답해 줍니다. 실시간 보고서를 사용하면 마케터로서 신속히 대응하고 마케팅 콘텐츠와 캠페인의 성능을 관리할 수 있습니다. 보고서의 실시간 데이터는 2분 미만으로 잠재해 있다가 분 단위로 자동 업데이트됩니다.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report-realtime.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report-realtime.png)
 
 대시보드는 동적 뉴스 및 소매 웹 사이트의 트래픽 및 페이지 보기 트렌드를 시각적으로 보고하기 위해 Adobe Analytics의 빈도가 높은 지표 및 사이트 분석을 포함합니다. 실시간은 모음이 발생하자 마자 분 단위로 데이터의 트렌드를 파악합니다. 콘텐츠의 실시간 상관 관계와 추적 및 일부 전환을 사용하여 데이터를 수집하고 자동 업데이트 UI에 스트리밍합니다.
 

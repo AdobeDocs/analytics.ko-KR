@@ -4,7 +4,7 @@ title: Activity Map 개요
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 4%
@@ -17,7 +17,7 @@ Adobe Analytics Activity Map은 웹 페이지 및 모바일 앱에서의 사용�
 
 개념으로서의 Activity Map은 다음과 같은 몇 가지 중요한 구성 요소로 구성됩니다.
 
-* **보고서 세트 설정**: 보고서 세트 사용을 시작하려면 먼저 Activity Map이 활성화되어 있어야 합니다. 보고서 세트 설정에서 [Activity Map 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)를 참조하십시오.
+* **보고서 세트 설정**: 보고서 세트 사용을 시작하려면 먼저 Activity Map이 활성화되어 있어야 합니다. 보고서 세트 설정에서 [Activity Map 보고](/help/admin/tools/manage-rs/edit-settings/activity-map.md)를 참조하십시오.
 * **구현**: 대부분의 Activity Map 보고는 즉시 사용할 수 있습니다. 그러나 일부 웹 사이트에서는 링크 추적을 최대한 활용하기 위해 추가 구현이 필요할 수 있습니다. 다음 구현 변수를 사용할 수 있습니다.
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): 링크 이름별로 클릭 데이터를 필터링합니다.
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): 지역 이름별로 클릭 데이터를 필터링합니다.

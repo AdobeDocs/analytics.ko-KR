@@ -4,9 +4,9 @@ description: 히트의 타임스탬프를 수동으로 설정합니다.
 feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 81%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 81%
 
 ## 웹 SDK을 사용한 타임스탬프
 
-타임스탬프가 XDM 필드 `xdm.timestamp` 아래에 있는 [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=ko)입니다. 이 필드는 Unix 시간만 지원합니다.
+타임스탬프가 XDM 필드 [ 아래에 있는 ](/help/implement/aep-edge/xdm-var-mapping.md)Adobe Analytics에 대해 매핑됨`xdm.timestamp`입니다. 이 필드는 Unix 시간만 지원합니다.
 
 ## Adobe Analytics 확장을 사용한 타임스탬프
 

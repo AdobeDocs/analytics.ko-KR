@@ -4,10 +4,10 @@ title: 데이터 요청 만들기
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 96%
+source-wordcount: '281'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 1. [!UICONTROL 요청 마법사: 1단계] 창의 [보고서 세트](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)를 선택합니다.
 1. 세그먼트를 선택하여 요청에 적용합니다(선택 사항). 세그먼트를 한 개 이상 선택하면 선택한 세그먼트가 목록 맨 위로 이동합니다.
 
-   Report Builder는 Adobe Analytics가 세그먼트를 사용하는 방법과 같게 세그먼트를 사용합니다. [Analytics 세그멘테이션 안내서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko)를 참조하십시오.
+   Report Builder는 Adobe Analytics가 세그먼트를 사용하는 방법과 같게 세그먼트를 사용합니다. [Analytics 세그멘테이션 안내서](/help/components/segmentation/seg-home.md)를 참조하십시오.
 1. [보고서 유형](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md)을 선택합니다.
 1. [날짜 범위](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)를 및 보고서 [세부기간](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md)을 지정합니다.
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
@@ -35,6 +35,6 @@ ht-degree: 96%
 1. [!UICONTROL 지표] 탭에서 트리의 지표를 더블 클릭하여(또는 드래그하여) [!UICONTROL 지표] 그리드에 추가합니다.
 1. [!UICONTROL 차원] 탭에서 차원을 더블 클릭하여(또는 드래그하여) [!UICONTROL 행 레이블] 그리드에 추가합니다.
 
-   보고서 세트의 구성과 1단계에서 선택한 기본 보고서에 따라 2단계에서 [차원](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/layout/filter-dimenson/filter-dimensions.html?lang=ko)을 사용할 수 있습니다. 차원은 상호 관련시키거나 하위 관계로 만들거나 [!UICONTROL 요청 마법사: 1단계] 창에서 선택한 원래 보고서 유형 지표의 분류인 항목입니다. 2단계에서 두 개 이상의 차원을 추가하면 데이터 요청에서 분류가 만들어집니다.
+   보고서 세트의 구성과 1단계에서 선택한 기본 보고서에 따라 2단계에서 [차원](/help/analyze/report-builder/filter-dimensions.md)을 사용할 수 있습니다. 차원은 상호 관련시키거나 하위 관계로 만들거나 [!UICONTROL 요청 마법사: 1단계] 창에서 선택한 원래 보고서 유형 지표의 분류인 항목입니다. 2단계에서 두 개 이상의 차원을 추가하면 데이터 요청에서 분류가 만들어집니다.
 
-   자세한 내용은 [지표 및 Dimension 추가](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)를 참조하십시오.
+   자세한 내용은 [지표 및 차원 추가](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)를 참조하십시오.

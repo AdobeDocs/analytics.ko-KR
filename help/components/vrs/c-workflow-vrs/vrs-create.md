@@ -4,9 +4,9 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트 만들기
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '674'
 ht-degree: 62%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [방문 정의 조정](https://video.tv.adobe.com/v/3428476?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [방문 정의 조정](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ ht-degree: 62%
 ![](assets/components.png)
 
 1. [!UICONTROL 구성 요소] 탭에서 이 가상 리포트 세트에 대한 구성 요소를 Analysis Workspace에서 포함, 제외 및 이름을 변경하기 위해 큐레이션을 적용할 체크박스를 선택하십시오.
-가상 보고서 세트 큐레이션에 대한 자세한 내용은 [가상 보고서 세트 구성 요소 큐레이션](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=ko#virtual-report-suites)을 참조하십시오.
+가상 보고서 세트 큐레이션에 대한 자세한 내용은 [가상 보고서 세트 구성 요소 큐레이션](/help/components/vrs/vrs-components.md)을 참조하십시오.
 
 1. 가상 보고서 세트에 포함할 구성 요소(차원, 지표, 세그먼트 또는 날짜 범위)를 [!UICONTROL 포함된 구성 요소] 섹션으로 끌어다 놓습니다.
 

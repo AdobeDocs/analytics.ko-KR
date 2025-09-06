@@ -3,7 +3,7 @@ title: Adobe Analytics의 VISTA 규칙
 description: VISTA 규칙 및 해당 기능에 대해 자세히 알아보십시오.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%
@@ -17,12 +17,12 @@ VISTA 규칙은 데이터 수집과 처리 사이에 적용할 수 있는 사용
 VISTA 규칙의 몇 가지 일반적인 사용 사례는 다음과 같습니다.
 
 * 하나의 보고서 세트에서 다른 보고서 세트로 Analytics 히트를 복사하고 선택적으로 데이터를 복사된 보고서 세트로 변경
-* [IP 주소별 제외](/help/admin/admin/exclude-ip.md)에서 제공하는 사용 사례에서 벗어난 사용자 정의 IP 제외
+* [IP 주소별 제외](/help/admin/tools/exclude-ip.md)에서 제공하는 사용 사례에서 벗어난 사용자 정의 IP 제외
 * 조건부 또는 전역적으로 원하는 변수 값 수정
 * 변수 값을 다른 변수에 복제
 * 변수 값에 영향을 줄 수 있는 Adobe FTP 사이트에 파일 업로드
 
-[처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md), [보트 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [가상 보고서 세트](/help/components/vrs/vrs-about.md) 또는 Adobe Analytics 구현 업데이트에서 이미 VISTA 규칙에 대한 많은 사용 사례가 제공되고 있습니다. VISTA 규칙은 최후의 수단으로만 사용하는 것이 좋습니다.
+[처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [보트 규칙](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [가상 보고서 세트](/help/components/vrs/vrs-about.md) 또는 Adobe Analytics 구현 업데이트에서 이미 VISTA 규칙에 대한 많은 사용 사례가 제공되고 있습니다. VISTA 규칙은 최후의 수단으로만 사용하는 것이 좋습니다.
 
 >[!IMPORTANT]
 >

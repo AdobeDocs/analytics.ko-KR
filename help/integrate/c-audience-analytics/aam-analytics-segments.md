@@ -3,9 +3,9 @@ description: Analytics와 Audience Manager는 모두 세그먼트를 사용합�
 title: Analytics 및 Audience Manager의 세그먼트 이해
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '719'
 ht-degree: 91%
 
 ---
@@ -45,4 +45,4 @@ Analytics 세그먼트는 보고서의 데이터를 필터링하는 메커니즘
 
   반대로 Analytics에서 방문자는 보고 날짜 범위에 따라 세그먼트에 포함되거나 제외됩니다. 예를 들어 한 방문자가 지난달에 구매했습니다. Adobe Audience Manager에서 해당 방문자는 날짜 범위와 관계없이 &quot;구매자&quot; 세그먼트에 포함됩니다. Analytics에서 이번 달을 기준으로 한 보고서에는 세그먼트에 방문자를 포함하지 않습니다. 그러나 이번 달과 지난 달을 기준으로 한 보고서에는 세그먼트에 방문자가 포함됩니다.
 
-자세한 내용은 [Analytics 세그먼테이션 안내서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko-KR)를 참조하십시오.
+자세한 내용은 [Analytics 세그먼테이션 안내서](/help/components/segmentation/seg-home.md)를 참조하십시오.

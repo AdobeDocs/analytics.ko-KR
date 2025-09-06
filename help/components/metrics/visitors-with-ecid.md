@@ -3,7 +3,7 @@ title: Experience Cloud ID를 가진 방문자
 description: Adobe Experience Cloud ID 서비스를 사용하는 고유 방문자의 수입니다.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Experience Cloud ID를 가진 방문자
 
-&#39;Experience Cloud ID를 가진 방문자&#39; [지표](overview.md)은(는) [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하여 Adobe으로 식별된 고유 방문자 수를 보여줍니다. 이 지표는 사이트 방문자의 대다수가 이 ID 서비스를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 상당수가 이 ID 서비스 쿠키를 사용하지 않다면 구현 내의 문제를 나타낼 수 있습니다.
+&#39;Experience Cloud ID를 가진 방문자&#39; [지표](overview.md)은(는) [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하여 Adobe에서 식별한 고유 방문자 수를 보여줍니다. 이 지표는 사이트 방문자의 대다수가 이 ID 서비스를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 상당수가 이 ID 서비스 쿠키를 사용하지 않다면 구현 내의 문제를 나타낼 수 있습니다.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Experience Cloud ID를 가진 방문자를 고유 방문자 수와 나란하도�
 
 ![고유 방문자 비교](assets/metric-mcvid1.png)
 
-이 예에서 각 페이지의 &#39;고유 방문자 수&#39;는 &#39;Experience Cloud ID를 가진 방문자&#39; 수와 동일하지만 고유 방문자의 총 수는 Experience Cloud ID를 가진 방문자의 총 수보다 큽니다. ID 서비스를 설정하지 않는 페이지를 찾기 위해 [계산된 지표](../c-calcmetrics/cm-overview.md)를 만들 수 있습니다. 다음 정의를 사용할 수 있습니다.
+이 예에서 각 페이지의 &#39;고유 방문자 수&#39;는 &#39;Experience Cloud ID를 가진 방문자&#39; 수와 동일하지만 고유 방문자의 총 수는 Experience Cloud ID를 가진 방문자의 총 수보다 큽니다. ID 서비스를 설정하지 않는 페이지를 찾기 위해 [계산된 지표](../calculated-metrics/cm-overview.md)를 만들 수 있습니다. 다음 정의를 사용할 수 있습니다.
 
 ![계산된 지표 정의](assets/metric-mcvid2.png)
 

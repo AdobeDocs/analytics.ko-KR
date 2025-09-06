@@ -4,7 +4,7 @@ description: Adobe Experience Platform Edge Network API를 사용하여 데이�
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 35%
@@ -15,7 +15,7 @@ ht-degree: 35%
 
 일반적으로 Experience Platform Edge Network API를 사용하여 클라이언트측이 아닌 서버측에서 데이터를 수집하고, IoT 장치, 셋톱 박스, 데스크탑 애플리케이션과 같은 장치에서 데이터를 수집할 때. 그런 다음 해당 데이터를 Edge 네트워크 및 Adobe Analytics과 같은 서비스로 전송합니다.
 
-또한 중요한 데이터를 네트워크를 통해 안전하게 수집하고 인증해야 하는 경우 Edge Network API를 고려하십시오. 자세한 내용은 [인증](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=ko)을 참조하세요.
+또한 중요한 데이터를 네트워크를 통해 안전하게 수집하고 인증해야 하는 경우 Edge Network API를 고려하십시오. 자세한 내용은 [인증](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)을 참조하세요.
 
 구현 작업에 대한 개략적인 개요:
 
@@ -30,7 +30,7 @@ ht-degree: 35%
 <tr>
 <td>1</td>
 <td><b>보고서 세트를 정의</b>했는지 확인합니다.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">보고서 세트 관리자</a></td>
 </tr>
 
 <tr>
@@ -42,13 +42,13 @@ ht-degree: 35%
 <tr>
 <td>3</td>
 <td><b>데이터스트림을 구성합니다</b>. Adobe Experience Platform Edge Network API에서 API를 사용할 때 데이터 스트림은 서버측 구성을 나타냅니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko">데이터스트림 구성<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">데이터스트림 구성<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
 <td>단일 이벤트 데이터 및 일괄 이벤트 데이터 수집 API를 사용하여 <b>데이터 수집을 구현하고 테스트합니다</b>.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR">단일 이벤트 데이터 수집</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=ko">일괄 이벤트 데이터 수집</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR">단일 이벤트 데이터 수집</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">일괄 이벤트 데이터 수집</a>
 </tr>
 
 <td>5</td>

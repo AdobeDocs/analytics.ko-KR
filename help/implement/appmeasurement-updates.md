@@ -4,9 +4,9 @@ description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2729'
 ht-degree: 86%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 86%
 
 릴리스 일자: **2024년 8월 12일 화요일**
 
-* 이제 `writeSecureCookies`을(를) 사용하도록 설정한 경우 `s_ac` 쿠키가 `secure` 플래그로 작성됩니다.
+* 이제 `s_ac`을(를) 사용하도록 설정한 경우 `secure` 쿠키가 `writeSecureCookies` 플래그로 작성됩니다.
 * 라이브러리가 인라인에 임베드될 때 초기화 오류가 발생하는 문제를 해결했습니다.
 * `localStorage` 또는 `sessionStorage`을(를) 사용하지 않도록 설정한 경우 오류가 해결되었습니다.
-* `collectHighEntropyUserAgentHints`을(를) 사용하도록 설정한 경우 높은 엔트로피 사용자 에이전트 힌트가 링크 추적 호출(`tl`)에 포함됩니다.
+* `tl`을(를) 사용하도록 설정한 경우 높은 엔트로피 사용자 에이전트 힌트가 링크 추적 호출(`collectHighEntropyUserAgentHints`)에 포함됩니다.
 
 ## 버전 2.26.0
 
@@ -71,7 +71,7 @@ ht-degree: 86%
 
 릴리스 일자: **2021년 9월 7일**
 
-* 이 업데이트로 인해 링크를 추적할 때 `opt.dmp` 및 `opt.sell`가 항상 포함됩니다. 자세한 내용은 관리자 가이드의 [개인 정보 보고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)를 참조하십시오.
+* 이 업데이트로 인해 링크를 추적할 때 `opt.dmp` 및 `opt.sell`가 항상 포함됩니다. 자세한 내용은 관리자 가이드의 [개인 정보 보고](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)를 참조하십시오.
 
 ## 버전 2.22.1
 
@@ -313,7 +313,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 
 * 방문자 API 1.6.0 포함
 * [!DNL AppMeasurement]가 방문자 API에서 잘못 난독화되는 방법을 호출하는 문제가 해결되었습니다. (AN-126006)
-* [!DNL JavaScript] 오류: &quot;속성이 v:image에서만 유효합니다.&quot; 문제의 원인이 해결되었습니다. (AN-124009)
+* [!DNL JavaScript] 오류: &quot;특성은 v:image에서만 유효합니다&quot;를 발생시키는 문제를 해결했습니다. (AN-124009)
 
 ## 버전 1.6.1
 

@@ -4,10 +4,10 @@ keywords: Analytics 구현
 title: 리디렉션 및 별칭
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1105'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -41,8 +41,8 @@ ht-degree: 100%
 리디렉션으로 인해 브라우저는 실제 참조 URL을 완전히 지울 수 있습니다. 다음 시나리오를 참조하십시오.
 
 1. 사용자는 브라우저가 `https://www.google.com`을 가리키게 하고 검색 필드에 *할인 항공 티켓*&#x200B;을 입력한 다음 **[!UICONTROL 검색]** 버튼을 클릭합니다.
-1. 브라우저 창의 주소 표시줄에 사용자가 검색 필드에 입력한 검색어 (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다. 또한 브라우저는 도메인 이름 중 하나 ( [!DNL https://www.flytohawaiiforfree.com/] )에 대한 링크를 포함하는 검색 결과를 포함하는 페이지를 표시합니다. *vanity* 도메인은 사용자를 `https://www.example.com/` 으로 리디렉션하도록 구성되었습니다.
-1. 사용자가 `https://www.flytohawaiiforfree.com/` 링크를 클릭하면 서버가 사용자를 주 사이트인 `https://www.example.com`으로 리디렉션합니다. 리디렉션이 발생할 때 브라우저가 참조 URL을 지우므로 [!DNL Analytics] 데이터 수집에 중요한 데이터가 유실됩니다. 따라서 [!DNL Analytics] 보고서 (예: [!UICONTROL 참조 도메인], [!UICONTROL 검색 엔진], [!UICONTROL 검색 키워드])에 사용된 원래 검색 정보가 유실됩니다.
+1. 브라우저 창의 주소 표시줄에 사용자가 검색 필드에 입력한 검색어 (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다. 또한 브라우저는 도메인 이름 중 하나 ( [!DNL https://www.flytohawaii.example/] )에 대한 링크를 포함하는 검색 결과를 포함하는 페이지를 표시합니다. *vanity* 도메인은 사용자를 `https://www.example.com/` 으로 리디렉션하도록 구성되었습니다.
+1. 사용자가 `https://www.flytohawaii.example/` 링크를 클릭하면 서버가 사용자를 주 사이트인 `https://www.example.com`으로 리디렉션합니다. 리디렉션이 발생할 때 브라우저가 참조 URL을 지우므로 [!DNL Analytics] 데이터 수집에 중요한 데이터가 유실됩니다. 따라서 [!DNL Analytics] 보고서 (예: [!UICONTROL 참조 도메인], [!UICONTROL 검색 엔진], [!UICONTROL 검색 키워드])에 사용된 원래 검색 정보가 유실됩니다.
 
 ## 구현 리디렉션 {#implement}
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ## 레퍼러 대체 JavaScript 코드 구성 {#override}
 
-아래의 코드 스니펫은 두 개의 JavaScript 변수인 *`s_referrer`*&#x200B;와 *`s_pageURL`*&#x200B;을 보여 줍니다. 이 코드는 리디렉션의 최종 랜딩 페이지에 삽입됩니다.
+아래의 코드 스니펫은 두 개의 JavaScript 변수인 `s.referrer`와 `s.pageURL`을 보여 줍니다. 이 코드는 리디렉션의 최종 랜딩 페이지에 삽입됩니다.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -101,7 +101,7 @@ if(tempVar)
 따라서 랜딩 페이지의 최종 버전은 &quot;할인 항공 티켓&quot; 시나리오에서 나타난 문제를 수정하기 위해 다음 코드를 포함해야 합니다.
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -110,7 +110,7 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## Adobe Debugger로 레퍼러 확인 {#verify}
@@ -135,8 +135,8 @@ s.pageURL="https://www.flytohawaiiforfree.com"
   </tr> 
   <tr> 
    <td> <p>페이지 URL </p> </td> 
-   <td> <p> <span class="filepath"> https://www.flytohawaiiforfree.com </span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>이 값은 <span class="varname"> pageURL </span> 변수를 사용하는 경우 DigitalPulse Debugger에 표시됩니다. </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>이 값은 <span class="varname"> pageURL </span> 변수를 사용하는 경우 DigitalPulse Debugger에 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>최종 랜딩 페이지 URL </p> </td> 
@@ -157,7 +157,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 

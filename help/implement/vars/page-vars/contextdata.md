@@ -4,7 +4,7 @@ description: 컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽�
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 68%
@@ -13,13 +13,13 @@ ht-degree: 68%
 
 # contextData
 
-컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽을 수 있는 각 페이지에서 사용자 정의 변수를 정의할 수 있습니다. 코드에서 값을 Analytics 변수에 명시적으로 할당하는 대신 컨텍스트 데이터 변수에 데이터를 보낼 수 있습니다. 그러면 처리 규칙이 컨텍스트 데이터 변수 값을 가져와 각 Analytics 변수에 전달합니다. 관리자 사용 안내서의 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)을 참조하십시오.
+컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽을 수 있는 각 페이지에서 사용자 정의 변수를 정의할 수 있습니다. 코드에서 값을 Analytics 변수에 명시적으로 할당하는 대신 컨텍스트 데이터 변수에 데이터를 보낼 수 있습니다. 그러면 처리 규칙이 컨텍스트 데이터 변수 값을 가져와 각 Analytics 변수에 전달합니다. 관리자 사용 안내서의 [처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)을 참조하십시오.
 
 컨텍스트 데이터 변수는 개발 팀이 번호가 매겨진 변수 대신 명명된 요소의 데이터를 수집하는 데 유용합니다. 예를 들어 개발 팀에게 페이지의 작성자를 `eVar10`에 할당하도록 요청하는 대신 `s.contextData["author"]`에 할당하도록 요청할 수 있습니다. 그런 다음 조직의 Analytics 관리자는 처리 규칙을 만들어 컨텍스트 데이터 변수를 보고를 위한 분석 변수에 매핑할 수 있습니다. 개발 팀은 궁극적으로 Adobe이 제공하는 많은 페이지 변수 대신 컨텍스트 데이터 변수만 걱정하게 됩니다.
 
 ## Web SDK를 사용한 컨텍스트 데이터 변수
 
-[**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 Adobe Analytics 변수에 매핑되지 않은 모든 필드가 자동으로 컨텍스트 데이터 변수로 포함됩니다. XDM 개체를 사용하여 컨텍스트 데이터를 명시적으로 설정할 수도 있습니다. 그런 다음 [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)을 사용하여 컨텍스트 데이터 변수를 원하는 Analytics 변수에 할당할 수 있습니다.  자세한 내용은 [Analytics 변수에 다른 XDM 필드 매핑](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)을 참조하십시오.
+[**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 Adobe Analytics 변수에 매핑되지 않은 모든 필드가 자동으로 컨텍스트 데이터 변수로 포함됩니다. XDM 개체를 사용하여 컨텍스트 데이터를 명시적으로 설정할 수도 있습니다. 그런 다음 [처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)을 사용하여 컨텍스트 데이터 변수를 원하는 Analytics 변수에 할당할 수 있습니다.  자세한 내용은 [Analytics 변수에 다른 XDM 필드 매핑](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)을 참조하십시오.
 
 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 모든 컨텍스트 데이터 변수는 `data.__adobe.analytics.contextData` 내에 키-값 쌍으로 있습니다.
 
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-[처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) 인터페이스는 적용 가능한 드롭다운 메뉴에 `example_variable` 및 `second_example`을(를) 표시합니다.
+[처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) 인터페이스는 적용 가능한 드롭다운 메뉴에 `example_variable` 및 `second_example`을(를) 표시합니다.
 
 ## Adobe Analytics 확장을 사용한 컨텍스트 데이터 변수
 

@@ -3,10 +3,10 @@ description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 77%
+source-wordcount: '271'
+ht-degree: 74%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 77%
 
    1. 맨 위의 드롭다운에서 보고서 세트를 선택합니다.
 
-      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+      ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report_suite_selector.png)
 
       실시간 보고에 대해 설정되지 않은 보고서 세트에 대한 실시간 보고서를 보려고 하면 보고서 세트를 설정할 수 있다는 메시지가 표시됩니다.
 
-      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+      ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/rep_suite_not_set_up.png)
 
 1. **[!UICONTROL 구성]**&#x200B;을 선택하여 [!UICONTROL 보고서 세트 관리자]를 실행합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 77%
 
    ![](assets/real_time_admin.png)
 
-   지원되는 실시간 지표 및 차원에 대한 자세한 내용은 [지원되는 지표 및 차원](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)을 참조하십시오.
+   지원되는 실시간 지표 및 차원에 대한 자세한 내용은 [지원되는 지표 및 차원](/help/admin/tools/manage-rs/edit-settings/realtime/realtime-metrics.md)을 참조하십시오.
 
    분류를 생성한 경우, 분류가 정의된 차원 아래에 분류가 들여 써진 채로 표시됩니다.
 
@@ -51,10 +51,10 @@ ht-degree: 77%
    >
    >검색 키워드나 제품과 같은 일부 차원은 Adobe Analytics의 다른 곳에서 지속되지만 실시간에서는 지속되지 않습니다. 지속되지 않는 지표를 선택하면 다음 경고가 표시됩니다.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
+   ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/warning_dimensions.png)
 
 1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 보고서 저장 및 보기]**&#x200B;를 선택하십시오.
 
-   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터는 데이터를 즉시 사용할 수 있습니다. 실시간 보고서 보기에 대한 자세한 내용은 [실시간 보고서 실행](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=ko-KR)을 참조하십시오.
+   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터 데이터를 즉시 사용할 수 있습니다.
 
 1. 기본적으로 실시간 보고서에 대한 액세스 권한은 모든 사용자에게 있습니다.

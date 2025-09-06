@@ -4,9 +4,9 @@ title: 계산된 지표
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 78%
 
 ---
@@ -15,19 +15,19 @@ ht-degree: 78%
 
 {{legacy-arb}}
 
-Report Builder 5.2 이상은 Adobe Analytics 계산된 지표를 지원합니다. 이제 모든 계산된 지표에 글로벌 ID가 있습니다. 더 이상 하나의 보고서 세트로 제한되지 않습니다.
+Report Builder 5.2 이상 버전은 Adobe Analytics 계산된 지표를 지원합니다. 이제 모든 계산된 지표에 글로벌 ID가 있습니다. 더 이상 하나의 보고서 세트로 제한되지 않습니다.
 
 >[!NOTE]
 >
 >기존 통합 문서가 기존 지표 ID를 보유한 요청을 가리킬 수 있습니다. Report Builder 5.2 사용 시 이 기존 지표 ID들은 새로운 전역 ID로 변환됩니다. 이 통합 문서를 Report Builder v5.1 또는 그 이전 버전의 사용자와 공유하는 경우 해당 사용자는 계산된 지표를 볼 수 없게 됩니다.
 
-새 계산된 지표 빌더 및 Manager로 계산된 지표를 생성 및 관리하는 방법에 대한 자세한 내용은 [계산된 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=ko) 안내서를 참조하십시오.
+새 계산된 지표 빌더 및 Manager로 계산된 지표를 생성 및 관리하는 방법에 대한 자세한 내용은 [계산된 지표](/help/components/calculated-metrics/cm-overview.md) 안내서를 참조하십시오.
 
 요청 마법사의 2단계에서는 계산된 지표를 필터링하고 적용할 수 있습니다.
 
 ## 계산된 지표 필터링 {#section_376E986D3E684999A7CDB08E53854159}
 
-**필터 아이콘을 클릭하여 계산된 지표를 필터링**: ![응용 프로그램, 사용자, 프로젝트 필드를 보여주는 필터 옵션의 스크린샷](/help/admin/admin/assets/filter.png)
+**필터 아이콘을 클릭하여 계산된 지표를 필터링**: ![응용 프로그램, 사용자, 프로젝트 필드를 보여주는 필터 옵션의 스크린샷](/help/admin/tools/assets/filter.png)
 
 고급 필터 대화 상자는 표준 지표와 계산된 지표로 채워집니다.
 

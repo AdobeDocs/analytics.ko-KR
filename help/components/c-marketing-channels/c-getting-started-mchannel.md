@@ -3,10 +3,10 @@ title: 마케팅 채널 시작
 description: 마케팅 채널 워크플로, 자동 설정 및 템플릿 보고서 세트 설정을 여러 보고서 세트에 적용하는 방법에 대해 알아봅니다.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >Attribution 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 >
->Analytics 관리자는 [마케팅 채널 관리](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)에 설명된 대로 조직의 마케팅 채널을 관리할 수 있습니다.
+>Analytics 관리자는 [마케팅 채널 관리](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)에 설명된 대로 조직의 마케팅 채널을 관리할 수 있습니다.
 
 마케팅 채널은 일반적으로 사이트에 방문자가 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다. 추적할 채널과 추적 방법에 따라 마케팅 채널 처리 규칙을 사용자 정의할 수 있습니다.
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 추적할 채널을 정의하고 나면 **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;에서 활성화합니다.
 
-중요한 전제 조건 및 개념 정보가 필요하면 [채널과 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)을 참조하십시오.
+중요한 전제 조건 및 개념 정보가 필요하면 [채널과 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)을 참조하십시오.
 
-절차에 대해서는 [마케팅 채널 추가](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)를 참조하십시오.
+절차에 대해서는 [마케팅 채널 추가](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 [!UICONTROL 마케팅 채널 관리자] 페이지에서 채널을 만들고 나면 채널에서 데이터를 검색하고 보고할 수 있도록 규칙을 구성합니다.
 
-[마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)를 참조하십시오.
+[마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)를 참조하십시오.
 
 채널을 자동 설정에서 만드는 경우에는 채널의 규칙이 정의됩니다. 정의된 규칙을 필요에 맞게 수정할 수 있습니다.
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >관리자 도구에서 채널 구성 애플리케이션에 액세스하면 자동으로 [!UICONTROL 마케팅 채널: 자동 설정] 페이지가 표시됩니다. [마케팅 채널 관리자](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)를 참조하십시오. 보고서 세트에 하나 이상의 마케팅 채널이 포함된 경우에는 이 페이지가 표시되지 않습니다. 마케팅 채널을 포함하지 않는 다른 보고서 세트를 선택하지 않는 한 이 페이지에 다시 액세스할 수 없습니다.
+   >관리자 도구에서 채널 구성 애플리케이션에 액세스하면 자동으로 [!UICONTROL 마케팅 채널: 자동 설정] 페이지가 표시됩니다. ([마케팅 채널 관리자](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) 참조) 보고서 세트에 하나 이상의 마케팅 채널이 포함된 경우 이 페이지가 표시되지 않습니다. 마케팅 채널을 포함하지 않는 다른 보고서 세트를 선택하지 않는 한 이 페이지에 다시 액세스할 수 없습니다.
 
 1. 만들려는 채널을 선택해야 합니다.
 

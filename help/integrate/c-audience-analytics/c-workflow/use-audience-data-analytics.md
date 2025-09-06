@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Analytics에서 대상자 데이터 사용
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '568'
 ht-degree: 89%
 
 ---
@@ -26,7 +26,7 @@ Analysis Workspace에서 Adobe Audience Manager 세그먼트는 두 개의 차�
 
 ## 세그먼트 비교 {#compare}
 
-[세그먼트 비교](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=ko-KR)는 두 세그먼트 사이에서 통계적으로 중요한 차이를 검색합니다. 대상자 데이터는 세그먼트 비교에서 1) 비교되는 두 세그먼트로, 2) &quot;상위 차원 항목&quot; 표에 있는 항목으로 사용됩니다.
+[세그먼트 비교](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)는 두 세그먼트 사이에서 통계적으로 중요한 차이를 검색합니다. 대상자 데이터는 세그먼트 비교에서 1) 비교되는 두 세그먼트로, 2) &quot;상위 차원 항목&quot; 테이블에 있는 항목으로 사용됩니다.
 
 1. **[!UICONTROL 작업 영역]**&#x200B;으로 이동하여 왼쪽 레일에서 **[!UICONTROL 세그먼트 비교]** 패널을 선택합니다.
 
@@ -37,27 +37,27 @@ Analysis Workspace에서 Adobe Audience Manager 세그먼트는 두 개의 차�
 1. (선택 사항): 다른 차원 항목이나 세그먼트를 가져올 수 있으며, 최대 2개를 비교할 수 있습니다.
 1. **[!UICONTROL 작성을 클릭합니다]**.
 
-   대상자 ID 및 이름 차원은 비교 대상인 두 세그먼트에 대한 추가 프로필 데이터이므로, &quot;상위 차원 항목&quot; 표에 자동으로 표시됩니다.
+   대상자 ID 및 이름 차원은 비교 대상인 두 세그먼트에 대한 추가 프로필 데이터이므로, &quot;상위 차원 항목&quot; 테이블에 자동으로 표시됩니다.
 
    ![](assets/aud-segcompare.png)
 
 ## Analysis Workspace에서의 고객 움직임 (플로우) {#flow}
 
-Adobe Audience Manager 세그먼트 데이터는 히트 단위로 Analytics에 전달되며, 해당 시점의 방문자에 대한 대상 멤버십을 나타냅니다. 즉, 방문자는 한 세그먼트 (예: &quot;인지도&quot;)에 속할 수 있으므로 나중에 더 적절한 세그먼트 (예: &quot;고려 사항&quot;) 대상일 수 있습니다. Analysis Workspace에서 [플로우](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ko-KR)를 사용하여 방문자가 대상자 사이를 이동하는 경로를 시각화할 수 있습니다.
+Adobe Audience Manager 세그먼트 데이터는 히트 단위로 Analytics에 전달되며, 해당 시점의 방문자에 대한 대상 멤버십을 나타냅니다. 즉, 방문자는 한 세그먼트 (예: &quot;인지도&quot;)에 속할 수 있으므로 나중에 더 적절한 세그먼트 (예: &quot;고려 사항&quot;) 대상일 수 있습니다. Analysis Workspace에서 [플로우](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)를 사용하여 방문자가 대상자 사이를 이동하는 경로를 시각화할 수 있습니다.
 
 1. **[!UICONTROL 작업 영역]**&#x200B;으로 이동하여 왼쪽 레일에서 **[!UICONTROL 플로우]** 시각화를 선택합니다.
 
 1. [!UICONTROL 대상 이름] 차원을 플로우 빌더로 드래그합니다.
 1. **[!UICONTROL 작성을 클릭합니다]**.
-1. (선택 사항): 다른 차원을 플로우 시각화로 드래그하여 [차원 간 플로우](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html?lang=ko-KR)를 만듭니다.
+1. (선택 사항): 다른 차원을 플로우 시각화로 드래그하여 [차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)를 만듭니다.
 
 ![](assets/flow-aamaudiences.png)
 
-대상을 [폴아웃 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ko-KR)에서도 사용할 수 있습니다.
+대상을 [폴아웃 시각화](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)에서도 사용할 수 있습니다.
 
 ## Analysis Workspace에서 벤 시각화 {#venn}
 
-[벤 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=ko-KR)는 최대 3개 세그먼트 사이의 겹침을 나타냅니다.
+[벤 시각화](/help/analyze/analysis-workspace/visualizations/venn.md)는 최대 3개 세그먼트 사이의 겹침을 나타냅니다.
 
 1. **[!UICONTROL 작업 영역]**&#x200B;으로 이동하여 왼쪽 레일에서 **[!UICONTROL 벤]** 시각화를 선택합니다.
 

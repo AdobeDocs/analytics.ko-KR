@@ -4,9 +4,9 @@ title: 시간 분할 차원
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 74%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시간 분할 차원](https://video.tv.adobe.com/v/30906?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시간 분할 차원](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->시간 분할 차원은 Analysis Workspace에서만 사용할 수 있습니다. 다른 분석 솔루션에서 시간 분할 차원을 사용하려면 [getTimeParting 플러그인](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html?lang=ko-KR)을 구현할 수 있습니다.
+>시간 분할 차원은 Analysis Workspace에서만 사용할 수 있습니다. 다른 분석 솔루션에서 시간 분할 차원을 사용하려면 [getTimeParting 플러그인](/help/implement/vars/plugins/gettimeparting.md)을 구현할 수 있습니다.
 
 Analysis Workspace의 시간 분할 차원에는 다음 항목이 포함됩니다.
 

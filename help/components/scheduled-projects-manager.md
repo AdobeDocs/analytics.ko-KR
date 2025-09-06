@@ -3,7 +3,7 @@ description: 예약된 프로젝트를 관리하는 방법을 알아봅니다.
 title: 예약된 프로젝트에서 예약된 프로젝트를 관리합니다
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 41%
@@ -35,8 +35,8 @@ ht-degree: 41%
 | **[!UICONTROL 빈도]** | 이 일정 프로젝트를 한 명 이상의 수신자에게 보낼 빈도. |
 | **[!UICONTROL 실행 시간]** | 이 예약된 프로젝트를 보내고자 하는 하루 중의 시간 |
 | **[!UICONTROL 쿼리 개수]** | 이 프로젝트에 대한 쿼리 개수 |
-| **[!UICONTROL 가장 긴 날짜 범위]** | 예약된 프로젝트에 대해 정의된 가장 긴 날짜 범위입니다. 이 값은 성능 문제를 조사하는 데 적절할 수 있습니다. 자세한 내용은 [보고 활동 관리자](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오. |
-| **[!UICONTROL 쿼리 개수]** | 예약된 프로젝트에 대해 실행된 쿼리 수입니다. 이 값은 성능 문제를 조사하는 데 적절할 수 있습니다. 자세한 내용은 [보고 활동 관리자](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오. |
+| **[!UICONTROL 가장 긴 날짜 범위]** | 예약된 프로젝트에 대해 정의된 가장 긴 날짜 범위입니다. 이 값은 성능 문제를 조사하는 데 적절할 수 있습니다. 자세한 내용은 [보고 활동 관리자](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오. |
+| **[!UICONTROL 쿼리 개수]** | 예약된 프로젝트에 대해 실행된 쿼리 수입니다. 이 값은 성능 문제를 조사하는 데 적절할 수 있습니다. 자세한 내용은 [보고 활동 관리자](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)를 참조하십시오. |
 
 
 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 사용하여 표시할 열을 구성할 수 있습니다.

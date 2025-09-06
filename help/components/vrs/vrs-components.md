@@ -3,9 +3,9 @@ description: 가상 보고서 세트는 Analysis Workspace에 구성 요소를 �
 title: 가상 보고서 세트 구성 요소 큐레이션
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 92%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 큐레이션](https://video.tv.adobe.com/v/3425527?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 큐레이션](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >**&#x200B;** 구성 요소 사용자 지정을 활성화한 경우 가상 보고서 세트는 Analysis Workspace에서만 액세스할 수 있고, 다음에서는 액세스할 수 없습니다.
+   >**** 구성 요소 사용자 지정을 활성화한 경우 가상 보고서 세트는 Analysis Workspace에서만 액세스할 수 있고, 다음에서는 액세스할 수 없습니다.
    >
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
@@ -77,4 +77,4 @@ Analysis Workspace에서 포함된 구성 요소의 정보 아이콘을 클릭�
 
 ## Workspace 비헤이비어 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Analysis Workspace의 조정에 대한 자세한 내용은 [프로젝트 조정 및 공유](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ko-KR)를 참조하십시오.
+Analysis Workspace의 조정에 대한 자세한 내용은 [프로젝트 조정 및 공유](/help/analyze/analysis-workspace/curate-share/curate.md)를 참조하십시오.

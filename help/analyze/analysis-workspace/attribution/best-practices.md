@@ -3,9 +3,9 @@ title: 속성 모범 사례
 description: 모범 사례를 이해하고 사용할 속성 모델을 결정합니다.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '420'
 ht-degree: 66%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 66%
 >[!NOTE]
 >이 분석은 속성 모델을 선택하기 전에 먼저 수행되어야 합니다.
 
-이 단계는 먼저 고객 행동을 이해하고 전환 지표를 정의하는 절차로 구성됩니다. 전환 지표를 기반으로 [데이터 피드](https://experienceleague.adobe.com/ko/docs/analytics/export/analytics-data-feed/data-feed-overview)&#x200B;(원시 데이터용) 또는 Analysis Workspace와 같은 도구를 통해
+이 단계는 먼저 고객 행동을 이해하고 전환 지표를 정의하는 절차로 구성됩니다. 전환 지표를 기반으로 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)(원시 데이터용) 또는 Analysis Workspace와 같은 도구를 통해
 
 * 전환하기 전에 다른 마케팅 채널을 터치하고 있는 고객의 수와
 * 이러한 행동의 비율/분포를 보다 쉽게 이해할 수 있습니다.
@@ -53,7 +53,7 @@ ht-degree: 66%
 
 가설이 *이라고 가정해 보십시오.&quot;특정 업계(예: 여행 업계)에서는 고객이 제품을 구매하기 전에 많은 조사를 하기 때문에 속성 기간이 30일이 아니라 60일 또는 90일이라고 가정합니다.*&quot;
 
-이 경우 [전환 확인 기간](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/attribution/models)을 90일로 변경할 수 있습니다.
+이 경우 [전환 확인 기간](/help/analyze/analysis-workspace/attribution/models.md)을 90일로 변경할 수 있습니다.
 
 ## 알고리즘 속성 사용
 
@@ -63,4 +63,4 @@ ht-degree: 66%
 
 * Analysis Workspace에 의존하지 않고 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
 * Adobe 데이터 피드에서와 같이 원시 데이터를 사용할 수 있습니다.
-* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.
+* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.

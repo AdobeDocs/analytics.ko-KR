@@ -4,9 +4,9 @@ description: 추적 방지 조치가 Adobe Analytics에서 설정한 서드파�
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '1908'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 ## 브라우저는 쿠키 사용을 어떻게 제한했습니까?
 
 >[!NOTE]
->[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ko#cda) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko#comparing-cja-to-traditional-adobe-analytics)는 해시된 로그인 id와 같은 사용자 ID를 사용하여 쿠키 간에 연결할 수 있습니다.
+>[Cross-Device Analytics](/help/components/cda/overview.md#cda) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics)는 해시된 로그인 id와 같은 사용자 ID를 사용하여 쿠키 간에 연결할 수 있습니다.
 
 ### 서드파티 쿠키 제한
 
@@ -113,7 +113,7 @@ Analytics 레거시 식별자(`s_vi` 및 `s_fid` 쿠키)를 사용하는 고객�
 
 `SameSite`가 `None`로 설정되면 Google에서 잘못 처리된 쿠키로 식별하는 브라우저의 경우에는 대신에 `SameSite`가 설정되지 않습니다.
 
-다음 표에서는 Analytics 쿠키에 대한 SameSite 속성을 요약합니다.
+다음 테이블에서는 Analytics 쿠키에 대한 SameSite 속성을 요약합니다.
 
 ![쿠키 테이블](/help/technotes/assets/cookies1.png)
 
@@ -149,7 +149,7 @@ CNAME 구현이 자신의 웹 사이트와 동일한 도메인에 설정되어 �
 
       ![ITP 방문자에 대한 세그먼트](/help/technotes/assets/itp-visitor-segment.png)
 
-   2. 세그먼트를 방문자의 수에 적용하여 사용자 기반에서 Safari의 상대적인 사용을 이해합니다. 이렇게 하면 다음과 같이 표를 만들 수 있습니다.
+   2. 세그먼트를 방문자의 수에 적용하여 사용자 기반에서 Safari의 상대적인 사용을 이해합니다. 이렇게 하면 다음과 같이 테이블을 만들 수 있습니다.
 
       ![ITP 방문자별 방문 비율](/help/technotes/assets/visits-vs-safari-visits.png)
 
@@ -159,7 +159,7 @@ CNAME 구현이 자신의 웹 사이트와 동일한 도메인에 설정되어 �
 
       ![7일 후에 돌아오는 방문자에 대한 세그먼트](/help/technotes/assets/visits-after-seven-days.png)
 
-   2. 세그먼트를 방문자의 수에 적용하여 사용자 기반에서 Safari의 상대적인 사용을 이해합니다. 이렇게 하면 다음과 같이 표를 만들 수 있습니다.
+   2. 세그먼트를 방문자의 수에 적용하여 사용자 기반에서 Safari의 상대적인 사용을 이해합니다. 이렇게 하면 다음과 같이 테이블을 만들 수 있습니다.
 
       ![7일 후에 돌아오는 방문자의 비율에](/help/technotes/assets/percent-visits-after-seven-days.png)
 
@@ -178,4 +178,4 @@ CNAME 구현이 자신의 웹 사이트와 동일한 도메인에 설정되어 �
 >[!MORELIKETHIS]
 >
 >[브라우저 쿠키 제안의 영향을 경감하기 위한 옵션](cookieless.md)
->[Apple의 Adobe Analytics에 대한 New App Tracking Transparency Framework](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=ko)
+>>[Apple의 Adobe Analytics에 대한 New App Tracking Transparency Framework](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)

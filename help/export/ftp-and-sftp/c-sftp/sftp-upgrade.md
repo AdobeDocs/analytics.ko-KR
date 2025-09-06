@@ -3,9 +3,9 @@ title: SFTP 서비스 업그레이드 - FAQ
 description: 예정된 SFTP 서비스 업그레이드에 대해 자주 묻는 질문입니다.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
@@ -24,17 +24,17 @@ ht-degree: 100%
 
 다음 기능은 SFTP를 사용하여 Adobe Analytics에 데이터를 업로드하는 옵션을 제공합니다.
 
-* [분류](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=ko)
+* [분류](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
-* [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ko)
+* [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
-* [데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=ko-KR)
+* [데이터 피드](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 
-* [데이터 소스](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=ko-KR)
+* [데이터 소스](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
 
-* [Data Warehouse 게재된 보고서](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=ko-KR)
+* [Data Warehouse 게재된 보고서](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
 
-* 또한 [엔지니어링 서비스](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=ko-KR)를 통해 생성된 맞춤형 구현은 SFTP를 사용하여 Adobe와 데이터를 교환할 수 있습니다.
+* 또한 [엔지니어링 서비스](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)를 통해 생성된 맞춤형 구현은 SFTP를 사용하여 Adobe와 데이터를 교환할 수 있습니다.
 
 ## 이 업데이트에 포함된 특정 변경 사항은 무엇입니까?
 

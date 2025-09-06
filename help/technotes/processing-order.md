@@ -3,10 +3,10 @@ title: Adobe Analytics의 데이터 처리 순서
 description: Adobe Analytics에서 데이터를 처리하는 구성 요소 순서 및 서비스에 대해 알아봅니다.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -32,12 +32,12 @@ Edge Network으로 데이터를 전송하는 경우 Adobe Analytics(및 기타 �
 
 1. **조회 테이블**: Adobe 내부 조회 테이블에 의존하는 차원(예: [브라우저](/help/components/dimensions/browser.md) 차원)은 해당 값과 일치합니다.
 2. [**동적 변수**](/help/implement/vars/page-vars/dynamic-variables.md): 이미지 요청의 어느 부분에서든 동적 변수가 표시되면 값이 복사되어 향후 독립적인 값으로 처리됩니다.
-3. [**보트 규칙**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): 표준 또는 사용자 정의 보트 필터링을 적용하여 해당 데이터를 보고에서 제외합니다.
-4. [**처리 규칙**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md): 조직에서 데이터에 적용하는 사용자 정의 규칙. [컨텍스트 데이터 변수](/help/implement/vars/page-vars/contextdata.md)를 해당 변수에 매핑하는 기능을 포함합니다.
+3. [**보트 규칙**](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md): 표준 또는 사용자 정의 보트 필터링을 적용하여 해당 데이터를 보고에서 제외합니다.
+4. [**처리 규칙**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md): 조직에서 데이터에 적용하는 사용자 정의 규칙. [컨텍스트 데이터 변수](/help/implement/vars/page-vars/contextdata.md)를 해당 변수에 매핑하는 기능을 포함합니다.
 5. **VISTA 규칙**: Adobe 컨설턴트가 데이터에 적용하는 유연한 사용자 정의 규칙. VISTA 규칙은 조직의 필요에 따라 처리 규칙 이전 또는 이후에 실행될 수 있습니다. 대부분의 VISTA 규칙은 일반적으로 처리 규칙 이후에 실행되지만 각 조직은 다르게 설정됩니다. 기존 VISTA 규칙에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오.
-6. [**마케팅 채널 처리 규칙**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md): [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)을 사용하여 마케팅 채널 처리 규칙에 사용할 데이터를 준비할 수 있습니다.
+6. [**마케팅 채널 처리 규칙**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md): [처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)을 사용하여 마케팅 채널 처리 규칙에 사용할 데이터를 준비할 수 있습니다.
 7. **지리적 위치 데이터**: IP 주소 조회에 의존하는 차원(예: [국가](/help/components/dimensions/countries.md) 차원)이 채워집니다.
-8. [**IP 난독화**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md): 조직에서 원시 데이터의 IP 주소를 난독화하기로 선택한 경우, 다른 모든 처리 기능이 완료된 후에 수행됩니다.
+8. [**IP 난독화**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): 조직에서 원시 데이터의 IP 주소를 난독화하기로 선택한 경우, 다른 모든 처리 기능이 완료된 후에 수행됩니다.
 
 이 시점에서 개별 히트는 보고서 세트 데이터 테이블에 기록됩니다. 표준 [지연](latency.md) 시간이 경과하면 보고에서 사용할 수 있습니다.
 
@@ -46,6 +46,6 @@ Edge Network으로 데이터를 전송하는 경우 Adobe Analytics(및 기타 �
 Adobe Analytics의 데이터는 대부분 영구적이지만 선택적으로 데이터를 조정하거나 삭제할 수 있는 몇 가지 기능이 있습니다.
 
 * [**데이터 복구 API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): 특정 열을 편집하거나 원하는 데이터 행을 삭제합니다.
-* [**데이터 거버넌스**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md): 데이터를 영구적으로 삭제할 수 있도록 개인정보 보호 요청을 수용합니다.
+* [**데이터 거버넌스**](/help/technotes/privacy/privacy-overview.md): 데이터를 영구적으로 삭제할 수 있도록 개인 정보 보호 요청을 수용합니다.
 * [**분류**](/help/components/classifications/classifications-overview.md): 다양한 방식으로 데이터를 구성할 수 있는 규칙이나 업로드된 데이터를 기반으로 차원을 만듭니다. 기본 보고서 세트 데이터는 변경되지 않으므로 분류 데이터를 자유롭게 편집하거나 덮어쓸 수 있습니다.
 * [**가상 보고서 세트**](/help/components/vrs/vrs-about.md): 방문 시간 초과를 변경하거나 [크로스 디바이스 분석](/help/components/cda/overview.md)을 허용할 수 있는 대체 보고서 세트 보기를 만듭니다.

@@ -5,9 +5,9 @@ title: 타임스탬프 선택 사항
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 96%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/3418695?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 -->
@@ -36,7 +36,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optio
 >
 >타임스탬프 선택 사항은 템플릿에서 생성된 모든 새 보고서 세트에 대한 기본 설정입니다. 기존 보고서 세트에서 복사한 새 보고서 세트는 원래 보고서 세트의 설정을 상속받게 됩니다.
 
-추가적인 설정에 대해서는 [타임스탬프 옵션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=ko-KR)을 참조하십시오.
+추가적인 설정에 대해서는 [타임스탬프 옵션](/help/technotes/timestamps-optional.md)을 참조하십시오.
 
 ## 타임스탬프 옵션: 타임스탬프가 지정된 데이터와 지정되지 않은 데이터 통합 {#integrate}
 

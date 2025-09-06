@@ -3,7 +3,7 @@ description: 분류 규칙 빌더에서 하위 분류를 사용합니다.
 title: 하위 분류 및 규칙 빌더
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -42,7 +42,7 @@ ht-degree: 66%
 
    예:
 
-   ![단계 정보](/help/admin/admin/assets/sub_class_create.png)
+   ![단계 정보](/help/admin/tools/assets/sub_class_create.png)
 
 1. [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md)에서 원래 추적 코드로부터 하위 분류 키를 분류합니다.
 
@@ -63,7 +63,7 @@ ht-degree: 66%
 
    예:
 
-   | 키 | Channel | 브로드 캠페인 코드 | 브로드 캠페인 코드&Hat;캠페인 유형 | 브로드 캠페인 코드&Hat;캠페인 책임자 | ... |
+   | 키 | Channel | 브로드 캠페인 코드 | 브로드 캠페인 코드&amp;Hat;캠페인 유형 | 브로드 캠페인 코드&amp;Hat;캠페인 책임자 | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | 브랜드 | Suzanne |  |
    | &#42; |  | 222 | 브랜드 | Frank |  |

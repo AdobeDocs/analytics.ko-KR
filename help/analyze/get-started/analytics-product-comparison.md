@@ -3,8 +3,8 @@ description: Analysis Workspace, Report Builder, Data Warehouse 및 Data Workben
 title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
@@ -22,14 +22,14 @@ ht-degree: 100%
 | **데이터 세부 기간** | 집계됨 | 집계됨 | 집계됨 | 히트 | 집계됨 |
 | **Experience Cloud ID (ECID) 사용 가능** | 아니요 | 아니요 | 예 | 예 | 아니요 |
 | **타임스탬프 사용 가능** | 아니요 | 아니요 | 아니요 | 예 | 아니요 |
-| **처리 수준** | 완전히 처리됨 | 완전히 처리됨, 별도의 [실시간 보고서](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) 사용 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 |
-| **관리 보트 필터 데이터 포함** <br> [자세히 알아보기](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | 아니요 | 예 - 별도의 보트 보고서 | 아니요 | 아니요 | 아니요 |
+| **처리 수준** | 완전히 처리됨 | 완전히 처리됨, 별도의 [실시간 보고서](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) 사용 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 |
+| **관리 보트 필터 데이터 포함** <br> [자세히 알아보기](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | 아니요 | 예 - 별도의 보트 보고서 | 아니요 | 아니요 | 아니요 |
 | **낮은 트래픽 (고유 수가 초과되었습니다) 표시** <br> [자세히 알아보기](/help/technotes/low-traffic.md) | 예 | 예 | 아니요 | 아니요 | 예 |
 | **표시 행 제한 (페이지 매김 전)** | 400 | 50000 | 제한 없음 | 제한 없음 | 50000 |
 | **여러 보고서 세트** | [예](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 예 | 아니요 | 예 | 아니요 | 예 |
 | **분류 수** | 제한 없음 | 최대 2 | 제한 없음 | 제한 없음 | 제한 없음, 여러 쿼리에서 실행 |
 | **세분화** <br> [자세히 알아보기](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 예 | 예 | 예. [제한 사항](/help/components/segmentation/seg-reference/seg-compatibility.md) 있음 | 아니요 | 예 |
-| **계산된 지표** <br> [자세히 알아보기](/help/components/c-calcmetrics/cm-overview.md) | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 예. 속성 사용 | 예 | 아니요 | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
+| **계산된 지표** <br> [자세히 알아보기](/help/components/calculated-metrics/cm-overview.md) | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 예. 속성 사용 | 예 | 아니요 | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 |
 | **마케팅 채널** <br> [자세히 알아보기](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 예 | 예 | 예 | 예 - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 예 |
 | **집단 분석** | [예](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 예 | 아니요 | 아니요 | 아니요 |
 | **속성** | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 제한적 | 아니요 | 아니요 | 예. [속성 ](/help/analyze/analysis-workspace/attribution/overview.md) 사용 | 아니요 |

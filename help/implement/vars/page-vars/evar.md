@@ -4,7 +4,7 @@ description: 구현에 사용할 수 있는 사용자 정의 변수입니다.
 feature: Appmeasurement Implementation
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 92%
@@ -15,13 +15,13 @@ ht-degree: 92%
 
 *이 도움말 페이지에서는 eVar 구현 방법에 대해 설명합니다. eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [eVar](/help/components/dimensions/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다. 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)에서 만료와 할당을 사용자 정의할 수 있습니다.
+eVar는 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다. 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)에서 만료와 할당을 사용자 정의할 수 있습니다.
 
 사용 가능한 eVar의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 250개의 eVar를 사용할 수 있습니다.
 
 ## 보고서 세트 설정에서 eVar 설정
 
-구현에서 eVar를 사용하기 전에 보고서 세트 설정에서 각 eVar를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
+구현에서 eVar를 사용하기 전에 보고서 세트 설정에서 각 eVar를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 
 ## 웹 SDK를 사용한 eVar
 
@@ -67,4 +67,4 @@ s.eVar1 = "+12.49";
 
 >[!IMPORTANT]
 >
->먼저 카운터 eVar를 사용하기 전에 Admin Console에서 eVar를 &#39;카운터&#39;로 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
+>먼저 카운터 eVar를 사용하기 전에 Admin Console에서 eVar를 &#39;카운터&#39;로 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.

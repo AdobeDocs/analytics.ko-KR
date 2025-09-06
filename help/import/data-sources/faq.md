@@ -4,7 +4,7 @@ description: 데이터 소스에 대한 FAQ.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 667870f9575bbc03a72738771f34bf1718725d6c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 7%
@@ -30,8 +30,8 @@ ht-degree: 7%
 +++데이터 소스를 통해 업로드된 데이터는 처리 규칙과 같은 추가 처리를 통해 실행됩니까?
 아니요. 데이터 소스를 통해 업로드된 데이터:
 
-* [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)을(를) 거치지 않음
-* [마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)을(를) 거치지 않음
+* [처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)을(를) 거치지 않음
+* [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)을(를) 거치지 않음
 * [VISTA 규칙](/help/technotes/vista.md)을 통과하지 않음
 +++
 

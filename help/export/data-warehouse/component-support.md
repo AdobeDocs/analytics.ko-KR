@@ -3,7 +3,7 @@ title: Data Warehouse의 구성 요소 지원
 description: Data Warehouse에서 사용할 수 있는 추가 차원 및 지표와 지원되지 않는 항목을 알아봅니다.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 45%
@@ -45,7 +45,7 @@ Data Warehouse에서 사용할 수 있는 일부 차원 및 지표는 Adobe Anal
    * 시작 페이지를 제외한 모든 시작 차원
    * 종료 페이지 및 종료 링크를 제외한 모든 종료 차원
    * 히트 깊이
-   * 반환 주기
+   * 반환 빈도
    * 이벤트까지 남은 시간
    * 페이지 체류 시간 - 버킷 지정됨
    * 방문당 체류 시간 - 그룹화됨
@@ -67,7 +67,7 @@ Data Warehouse에서 사용할 수 있는 일부 차원 및 지표는 Adobe Anal
    * 다시 로드
    * 단일 액세스
    * 체류 시간 지표
-* 기여도 지표([기여도 지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)에 설명되어 있음)
+* 기여도 지표([기여도 지표 작성](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)에 설명되어 있음)
 
 ### 다른 방식으로 지원되는 차원 (비표준 날짜 형식)
 

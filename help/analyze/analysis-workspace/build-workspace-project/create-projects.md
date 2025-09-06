@@ -4,7 +4,7 @@ title: 프로젝트 만들기
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 93%
@@ -39,7 +39,7 @@ Analysis Workspace의 [프로젝트](/help/analyze/analysis-workspace/build-work
 * [구성 요소](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)를 시각화에 추가합니다. 예:
    * **[!DNL US States]** [차원](/help/components/dimensions/overview.md) ➍
    * **[!DNL Unique Visitors]** [지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
-   * **[!DNL Average Revenue Per Order]** [계산된 지표](/help/components/c-calcmetrics/cm-overview.md) ➏
+   * **[!DNL Average Revenue Per Order]** [계산된 지표](/help/components/calculated-metrics/cm-overview.md) ➏
    * **[!DNL Visits from Mobile Devices]** [세그먼트](/help/components/segmentation/seg-overview.md) ➐
    * **[!DNL Last Month]** [날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
    * **[!DNL Example]** [주석](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
@@ -130,7 +130,7 @@ The following sections describe how to create a project and start adding the key
 
 ## Add panels to the project {#panels}
 
-[Panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko) are the foundation to any project in Analysis Workspace. Panels are used to organize the content (visualizations and components) of a project. 
+[Panels](/help/analyze/analysis-workspace/c-panels/panels.md) are the foundation to any project in Analysis Workspace. Panels are used to organize the content (visualizations and components) of a project. 
 
 Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. 
 
@@ -148,7 +148,7 @@ To add a panel:
 
 ## Add visualizations to the project
 
-[Visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko) (such as a freeform table, a bar chart, or a line chart) can be used to visually bring data to life. 
+[Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) (such as a freeform table, a bar chart, or a line chart) can be used to visually bring data to life. 
 
 >[!TIP]
 >

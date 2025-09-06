@@ -3,7 +3,7 @@ title: 다른 플랫폼 전환 안내서에서 자주 사용되는 지표
 description: Google Analytics 사용자에게 더 익숙한 용어를 사용하여 여러 일반 보고서의 지표 데이터를 가져오는 방법을 이해합니다.
 feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Google Analytics와 같은 다른 플랫폼에서는 많은 보고서가 공통 
 7. 저장을 클릭하여 작업 공간으로 돌아갑니다.
 8. 새로 정의된 계산된 지표를 작업 공간으로 끌어서 놓습니다.
 
-   구성 요소 사용 안내서에서 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)에 대해 자세히 알아보십시오.
+   구성 요소 사용 안내서에서 [계산된 지표](/help/components/calculated-metrics/cm-overview.md)에 대해 자세히 알아보십시오.
 
 **평균 세션 기간**&#x200B;은 **방문당 체류 시간 (초)**&#x200B;과 거의 같습니다. 구성 요소 사용 안내서에서 [방문당 체류 시간](/help/components/metrics/time-spent-per-visit.md) 지표에 대해 자세히 알아보십시오.
 

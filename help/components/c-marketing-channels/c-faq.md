@@ -3,10 +3,10 @@ title: 마케팅 채널 FAQ
 description: 마케팅 채널에 대한 FAQ입니다.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1506'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Attribution 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 >
->Analytics 관리자는 [마케팅 채널 관리](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)에 설명된 대로 조직의 마케팅 채널을 관리할 수 있습니다.
+>Analytics 관리자는 [마케팅 채널 관리](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)에 설명된 대로 조직의 마케팅 채널을 관리할 수 있습니다.
 
 마케팅 채널에 대한 FAQ입니다.
 

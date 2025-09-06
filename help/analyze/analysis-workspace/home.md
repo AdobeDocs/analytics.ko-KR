@@ -4,8 +4,8 @@ description: Adobe Analytics의 고급 분석 도구인 Analysis Workspace에 �
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 06e66118888f5dfcefb484d429bf5421861fb92e
-workflow-type: ht
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/35560/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 
 | **[!UICONTROL 프로젝트]** | 단축키 Mac | 단축키 Windows | 설명 |
 |---|---|---|---|
-| **[!UICONTROL 프로젝트 제작]** | **[!UICONTROL *Shift+Cmd+P *]** | **[!UICONTROL *Shift+Ctrl+P *]** | 새 프로젝트를 만듭니다. |
+| **[!UICONTROL 프로젝트 만들기]** | **[!UICONTROL *Shift+Cmd+P *]** | **[!UICONTROL *Shift+Ctrl+P *]** | 새 프로젝트를 만듭니다. |
 | **[!UICONTROL 모바일 스코어카드 만들기]** | | | [새 모바일 스코어카드 만들기](/help/analyze/mobile-app/create-scorecard.md). |
 | **[!UICONTROL 열기...]** | **[!UICONTROL *Cmd+O *]** | **[!UICONTROL *Ctrl+O *]** | [기존 프로젝트 열기](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#open-another-project). |
 | **[!UICONTROL 이전 버전 열기...]** | **[!UICONTROL *Opt+Cmd+O *]** | **[!UICONTROL *Alt+Ctrl+O *]** | [이전 버전의 프로젝트 열기](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md#open-previous-version). |
@@ -103,7 +103,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 | **[!UICONTROL 구성 요소]** | 단축키 Mac | 단축키 Windows | 설명 |
 |---|---|---|---|
 | **[!UICONTROL 세그먼트 만들기...]** | **[!UICONTROL *Shift+Cmd+E *]** | **[!UICONTROL *Shift+Ctrl+E *]** | 새 [세그먼트](/help/components/segmentation/segmentation-workflow/seg-create.md)를 만듭니다. |
-| **[!UICONTROL 지표 만들기...]** | **[!UICONTROL *Shift+Cmd+C *]** | **[!UICONTROL *Shift+Ctrl+C *]** | 새 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)를 만듭니다. |
+| **[!UICONTROL 지표 만들기...]** | **[!UICONTROL *Shift+Cmd+C *]** | **[!UICONTROL *Shift+Ctrl+C *]** | 새 [계산된 지표](/help/components/calculated-metrics/cm-overview.md)를 만듭니다. |
 | **[!UICONTROL 날짜 범위 만들기...]** | **[!UICONTROL *Shift+Cmd+D *]** | **[!UICONTROL *Shift+Ctrl+D *]** | 새 [날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)를 만듭니다. |
 | **[!UICONTROL 주석 만들기...]** | **[!UICONTROL *Shift+Cmd+O *]** | **[!UICONTROL *Shift+Ctrl+O *]** | 새 [주석](/help/analyze/analysis-workspace/components/annotations/overview.md)을 만듭니다. |
 | **[!UICONTROL 구성 요소 새로 고침]** | **[!UICONTROL *Opt+Shift+R *]** | **[!UICONTROL *Alt+Shift+R *]** | 프로젝트의 구성 요소를 새로 고칩니다. |
@@ -168,7 +168,7 @@ Analysis Workspace allows you to build analyses quickly to gather insights and t
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis workspace overview](https://video.tv.adobe.com/v/35560/?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis workspace overview](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -311,8 +311,8 @@ When you finish building out the project and it's gathering actionable insights,
 ## Additional resources {#resources}
 
 - The [Learning landing](/help/getting-started/landing.md#learning) page in Customer Journey Analytics. This page is  great way to become acquainted with Analysis Workspace. Especially the Learning Workspace Fundamental. This template walks you through common terminology and steps for building your first analysis in Workspace
-- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/overview).
-- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/ko/docs/release-notes/experience-cloud/current) for updates about new features.
+- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
+- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) for updates about new features.
 
 
 
@@ -326,7 +326,7 @@ The following video provides a brief overview with examples of what is possible.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace overview](https://video.tv.adobe.com/v/35560/?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace overview](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -351,7 +351,7 @@ Following are some of the key features available in Analysis Workspace:
 
 **Panels** are used to organize your analysis within a project and can contain many tables & visualizations. Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. On the far left rail, select the top **[!UICONTROL Panels]** icon to see a full list of panels available.
 
-To learn more about panels, see [Panels overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko).
+To learn more about panels, see [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 ![](assets/build-panels.png)
 
@@ -359,7 +359,7 @@ To learn more about panels, see [Panels overview](https://experienceleague.adobe
 
 **Visualizations**, such as a bar or line chart, can be used to visually bring data to life. On the far left rail, select the middle **[!UICONTROL Visualizations]** icon to see the full list of visualizations available. 
 
-To learn more about visualizations, see [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko).
+To learn more about visualizations, see [Visualizations overview](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 ![](assets/build-visualizations.png)
 
@@ -415,8 +415,8 @@ When you finish building out the project and it's gathering actionable insights,
 
 ## Additional resources {#resources}
 
-* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ko).
-* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko#analytics) for updates about new features.
+* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
+* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) for updates about new features.
 * A great way to become acquainted with Analysis Workspace is through the Analysis Workspace Training Tutorial template. This template walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial:
   1. On the [!UICONTROL **Workspace**] tab in Adobe Analytics, select **[!UICONTROL Learning]** on the left.
   1. Select **[!UICONTROL Open Tutorial]**.

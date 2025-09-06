@@ -3,7 +3,7 @@ title: eVar(차원)
 description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 77%
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 eVar는 원하는 대로 사용할 수 있는 사용자 지정 [차원](overview.md)입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)가 있는 경우 조직 고유의 차원은 대부분 [!UICONTROL eVars]로 끝납니다.
 
-기본적으로 eVar는 설정된 히트 이후에 유지됩니다. eVar 지속성이 Adobe 아키텍처에서 작동하는 방식에 대한 자세한 내용은 아래 [eVar 작동 방식](#how-evars-work) 및 [eVar를 지표에 연결하는 방법](#how-evars-tie-to-metrics) 섹션을 참조하십시오. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)의 [!UICONTROL 전환 변수]에서 만료와 할당을 활성화, 비활성화 또는 사용자 지정할 수 있습니다. 다음 이미지는 전환 변수 인터페이스에 있는 eVar 정의의 예를 보여 줍니다.
+기본적으로 eVar는 설정된 히트 이후에 유지됩니다. eVar 지속성이 Adobe 아키텍처에서 작동하는 방식에 대한 자세한 내용은 아래 [eVar 작동 방식](#how-evars-work) 및 [eVar를 지표에 연결하는 방법](#how-evars-tie-to-metrics) 섹션을 참조하십시오. [보고서 세트 설정](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)의 [!UICONTROL 전환 변수]에서 만료와 할당을 활성화, 비활성화 또는 사용자 지정할 수 있습니다. 다음 이미지는 전환 변수 인터페이스에 있는 eVar 정의의 예를 보여 줍니다.
 
 ![Evar 예](assets/evars-sample.png)
 
@@ -90,7 +90,7 @@ Analysis Workspace에서 다음 논리를 사용하여 이 보고서를 가져�
 * 기본적으로 eVar는 마지막 할당을 사용합니다. 새 값이 유지된 값을 덮어씁니다.
 * 기본적으로 eVar는 방문 만료를 사용합니다. 방문이 종료되면 `post_evar` 열의 행에서 행으로 값 복사가 중지됩니다.
 
-보고서 세트 설정의 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)에서 eVar 할당 및 만료를 변경할 수 있습니다.
+보고서 세트 설정의 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)에서 eVar 할당 및 만료를 변경할 수 있습니다.
 
 ## prop에 대한 eVar의 값
 

@@ -4,7 +4,7 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트 워크플로
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 74%
@@ -15,11 +15,11 @@ ht-degree: 74%
 
 가상 보고서 세트 구현을 계획하는 데 필요한 단계에 대한 개요입니다.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) 가상 보고서 세트 전략을 계획합니다.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) 가상 보고서 세트 전략을 계획합니다.
 
 전략에 대해 결정할 때 [글로벌/다중 세트 태깅 고려 사항](/help/components/vrs/vrs-considerations.md) 및 FAQ에 대해 잘 알아두십시오.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [하나 이상의 세그먼트를 상위 보고서 세트에 적용하여 가상 보고서 세트를 만듭니다](/help/components/vrs/c-workflow-vrs/vrs-create.md).
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) [하나 이상의 세그먼트를 상위 보고서 세트에 적용하여 가상 보고서 세트를 만듭니다](/help/components/vrs/c-workflow-vrs/vrs-create.md).
 
 가상 보고서 세트는 **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**&#x200B;를 통해 사용할 수 있는 가상 보고서 세트 관리자에서 만듭니다.
 
@@ -27,7 +27,7 @@ ht-degree: 74%
 
 보고서 세트 이름 옆에 있는 정보 아이콘을 클릭하여 [보고서 세트에 대한 정보를 봅니다](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) 프로젝트나 보고서를 열고 세그먼트화된 데이터 보기를 제공할 가상 보고서 세트를 선택합니다.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) 프로젝트나 보고서를 열고 세그먼트화된 데이터 보기를 제공할 가상 보고서 세트를 선택합니다.
 
 ![](assets/step4_icon.png) [가상 보고서 세트를 관리합니다](/help/components/vrs/c-workflow-vrs/vrs-manage.md).
 

@@ -4,9 +4,9 @@ short-description: 분석가, 최종 사용자 및 관리자를 위한 주요 �
 title: Adobe Analytics 개요
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '459'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Adobe Analytics 기본 사항에 대해 알아보려면 이 *Adobe Analytics 소
 >[!ENDSHADEBOX]
 
 
-사용할 도구에 대한 질문은 [어떤 Adobe Analytics 도구를 사용해야 합니까?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=ko)를 참조하십시오.
+사용할 도구에 대한 질문은 [어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/analyze/get-started/which-analytics-tool.md)를 참조하십시오.
 
 ## Customer Journey Analytics에 대해 자세히 알아보기
 

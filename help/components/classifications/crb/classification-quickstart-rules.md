@@ -3,9 +3,9 @@ description: 분류 규칙은 분류되지 않은 용어를 정기적으로 찾�
 title: 분류 규칙
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '1970'
 ht-degree: 90%
 
 ---
@@ -58,8 +58,6 @@ about_classification_rules.xml
 >[!UICONTROL 규칙 빌더]는 Numeric 2 분류를 지원하지 않습니다.
 
 ## 규칙에 관한 중요한 정보
-
-* [관리 도구](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ko-KR)에서 분류에 대한 [!UICONTROL 그룹 권한]을 지정하십시오.
 
 * **정규 표현식**: 도움말은 [분류 규칙의 정규 표현식](/help/components/classifications/crb/classification-quickstart-rules.md) 아래에 있습니다.
 
@@ -135,7 +133,7 @@ about_classification_rules.xml
 
 | 규칙 유형 선택 | 일치 기준 입력 | 분류 설정 | 종료 |
 |---|---|---|---|
-| 정규 표현식 | &Hat;(.+)\:(.+)\:(.+)$ | 캠페인 날짜 | $3 |
+| 정규 표현식 | &amp;Hat;(.+)\:(.+)\:(.+)$ | 캠페인 날짜 | $3 |
 
 **구문**
 

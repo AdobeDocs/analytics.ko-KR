@@ -4,9 +4,9 @@ description: 클라이언트 힌트가 점차 디바이스 정보의 소스로 �
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1174'
 ht-degree: 84%
 
 ---
@@ -25,13 +25,13 @@ Google은 사용자 에이전트 클라이언트 힌트를 낮은 엔트로피 �
 
 2022년 10월부터 Chromium 브라우저의 새 버전은 사용자 에이전트 문자열에 표시된 운영 체제 버전을 “중단”했습니다. 운영 체제 버전은 높은 엔트로피 힌트이므로 보고에서 운영 체제 버전의 정확도를 유지하려면 이러한 높은 엔트로피 힌트를 수집하도록 수집 라이브러리를 구성해야 합니다. 시간이 지남에 따라 사용자 에이전트의 다른 디바이스 정보가 동결되어 디바이스 보고의 정확도를 유지하기 위한 클라이언트 힌트가 필요합니다.
 
-2023년 2월 27일부터 클라이언트 힌트가 Analytics 디바이스 조회 프로세스에 통합되고 2023년 3월 2일에 완료됩니다. AppMeasurement와 Web SDK 모두 현재 힌트 데이터 수집을 지원하지만 2월 중순까지는 디바이스 조회에 사용되지 않습니다. 아래 언급된 바와 같이 운영 체제 버전이 10월부터 중단되었지만 점진적인 롤아웃과 많은 사용자 에이전트가 중단된 OS 버전을 이미 제공했기 때문에([여기](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko-KR) 참조) Chrome 방문자의 3% 미만에게만 영향을 미칠 것으로 예상됩니다.
+2023년 2월 27일부터 클라이언트 힌트가 Analytics 디바이스 조회 프로세스에 통합되고 2023년 3월 2일에 완료됩니다. AppMeasurement와 Web SDK 모두 현재 힌트 데이터 수집을 지원하지만 2월 중순까지는 디바이스 조회에 사용되지 않습니다. 아래 언급된 바와 같이 운영 체제 버전이 10월부터 중단되었지만 점진적인 롤아웃과 많은 사용자 에이전트가 중단된 OS 버전을 이미 제공했기 때문에([여기](/help/components/dimensions/operating-systems.md) 참조) Chrome 방문자의 3% 미만에게만 영향을 미칠 것으로 예상됩니다.
 
 >[!NOTE]
 >
-> 2023년 1월부터 Mac 및 Windows 운영 체제의 일부 버전이 사용자 에이전트에 잘못 표시되지만 높은 엔트로피 클라이언트 힌트에는 올바르게 표시됩니다. 자세한 내용은 [운영 체제](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko-KR)를 참조하십시오.
+> 2023년 1월부터 Mac 및 Windows 운영 체제의 일부 버전이 사용자 에이전트에 잘못 표시되지만 높은 엔트로피 클라이언트 힌트에는 올바르게 표시됩니다. 자세한 내용은 [운영 체제](/help/components/dimensions/operating-systems.md)를 참조하십시오.
 
-Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [Adobe Audience Manager으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
+Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [Adobe Audience Manager으로 서버측 전달](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
 
 ## 자주 묻는 질문
 
@@ -43,7 +43,7 @@ Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔
 
 +++**클라이언트 힌트 수집을 활성화하려면 어떻게 해야 합니까?**
 
-낮은 엔트로피 힌트는 브라우저에서 자동으로 제공되며 디바이스 가져오기 및 브라우저 정보 프로세스용으로 수집됩니다. Web SDK(2.12.0부터 시작) 및 AppMeasurement(2.23.0부터 시작)의 최신 버전은 해당 태그 확장을 통해 또는 구성 옵션을 통해 직접 높은 엔트로피 힌트를 수집하도록 구성할 수 있습니다. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko-KR#enabling-high-entropy-client-hints) 및 [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=ko-KR)에 대한 방향을 참조하십시오.
+낮은 엔트로피 힌트는 브라우저에서 자동으로 제공되며 디바이스 가져오기 및 브라우저 정보 프로세스용으로 수집됩니다. Web SDK(2.12.0부터 시작) 및 AppMeasurement(2.23.0부터 시작)의 최신 버전은 해당 태그 확장을 통해 또는 구성 옵션을 통해 직접 높은 엔트로피 힌트를 수집하도록 구성할 수 있습니다. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko-KR#enabling-high-entropy-client-hints) 및 [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md)에 대한 방향을 참조하십시오.
 
 두 라이브러리 모두에서 높은 엔트로피 힌트 수집은 **기본적으로 비활성화**&#x200B;되어 있습니다.
 
@@ -91,15 +91,15 @@ Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔
 
 이 필드는 사용자 에이전트에서 직접 파생되지만 사용자 에이전트는 디바이스 세부 정보에 따라 다른 디바이스 관련 필드의 값을 파생하는 데 도움이 될 수 있습니다.
 
-* [브라우저](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=ko-KR)
-* [브라우저 유형](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=ko-KR)
-* [운영 체제](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko-KR)
-* [운영 체제 유형](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=ko-KR)
-* [모바일 디바이스 및 모바일 디바이스 유형](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=ko-KR)
+* [브라우저](/help/components/dimensions/browser.md)
+* [브라우저 유형](/help/components/dimensions/browser-type.md)
+* [운영 체제](/help/components/dimensions/operating-systems.md)
+* [운영 체제 유형](/help/components/dimensions/operating-system-types.md)
+* [모바일 장치 및 모바일 장치 유형](/help/components/dimensions/mobile-dimensions.md)
 
 +++
 
-+++**사용자 에이전트에서 “중단”되는 부분은 무엇이며 언제 중단됩니까?**
++++**사용자 에이전트에서 “중단”되는 부분은 무엇이며 언제 중단됩니까?** 
 
 [Google에서 발표한 타임라인](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)을 참조하십시오. 이는 변경될 수 있습니다.
 
@@ -157,8 +157,8 @@ Adobe Experience Platform의 [스키마 설명서](https://github.com/adobe/xdm/
 
 +++
 
-+++**Adobe Audience Manager 서버측 전달이 클라이언트 힌트를 지원합니까?**
++++**Adobe Audience Manager 서버측 전달이 클라이언트 힌트를 지원합니까?** 
 
-예. 클라이언트 힌트는 Adobe Audience Manager으로 전달되는 데이터에 포함됩니다. Adobe Audience Manager에서는 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [Adobe Audience Manager으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
+예. 클라이언트 힌트는 Adobe Audience Manager으로 전달되는 데이터에 포함됩니다. Adobe Audience Manager에서는 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [Adobe Audience Manager으로 서버측 전달](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
 
 +++

@@ -5,7 +5,7 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 91%
@@ -24,7 +24,7 @@ ht-degree: 91%
 
 1. 요청을 만들거나 편집하고 [!UICONTROL 요청 마법사: 2단계]로 진행합니다.
 
-   ![응용 프로그램, 사용자 및 프로젝트별로 필터를 보여 주는 스크린샷입니다.](/help/admin/admin/assets/filter.png)
+   ![응용 프로그램, 사용자 및 프로젝트별로 필터를 보여 주는 스크린샷입니다.](/help/admin/tools/assets/filter.png)
 
 1. [!UICONTROL 요청 마법사: 2단계]에서 그리드에서 차원 옆에 있는 링크를 클릭한 다음 **[!UICONTROL 필터]**&#x200B;를 선택합니다.
 

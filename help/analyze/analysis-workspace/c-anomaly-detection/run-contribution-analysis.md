@@ -4,7 +4,7 @@ title: 기여도 분석 실행
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 14%
@@ -59,7 +59,7 @@ ht-degree: 14%
    * [각 차원 항목을 다른 차원으로 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
    * [하나 이상의 행에 대한 트렌드 표시](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [새 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-   * [경고 만들기](/help/components/c-alerts/intellligent-alerts.md)
+   * [경고 만들기](/help/components/alerts/alerts-overview.md)
    * [세그먼트를 만들거나 비교합니다.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]

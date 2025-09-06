@@ -4,10 +4,10 @@ title: 지표
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 * **표준 지표**: 프로젝트에서 사용하는 대부분의 지표는 표준 지표입니다. 예를 들면 [페이지 조회수](/help/components/metrics/page-views.md), [매출](/help/components/metrics/revenue.md) 또는 [사용자 정의 이벤트](/help/components/metrics/custom-events.md)가 해당됩니다. 자세한 내용은 구성 요소 사용 안내서의 [지표 개요](/help/components/metrics/overview.md)를 참조하십시오.
 
-* **계산된 지표** ![계산기](/help/assets/icons/Calculator.svg): 표준 지표, 정적 숫자 또는 알고리즘 함수를 기반으로 하는 사용자 정의 지표입니다. 사용자 정의 계산된 지표는 사용 가능한 구성 요소 목록에 계산기 아이콘을 표시합니다. 자세한 내용은 구성 요소 사용 안내서의 [계산된 지표 개요](/help/components/c-calcmetrics/cm-overview.md)를 참조하십시오.
+* **계산된 지표** ![계산기](/help/assets/icons/Calculator.svg): 표준 지표, 정적 숫자 또는 알고리즘 함수를 기반으로 하는 사용자 정의 지표입니다. 사용자 정의 계산된 지표는 사용 가능한 구성 요소 목록에 계산기 아이콘을 표시합니다. 자세한 내용은 구성 요소 사용 안내서의 [계산된 지표 개요](/help/components/calculated-metrics/cm-overview.md)를 참조하십시오.
 
 * **계산된 지표 템플릿** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): 계산된 지표와 유사하게 작동하는 Adobe 정의 지표입니다. Workspace 프로젝트에서 그대로 사용하거나 복사본을 저장하여 논리를 사용자 정의할 수 있습니다. 계산된 지표 템플릿은 사용 가능한 구성 요소 목록에 Adobe 아이콘을 표시합니다.
 
@@ -41,7 +41,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [지표 사용](https://video.tv.adobe.com/v/328568?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [지표 사용](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 ### 모든 프로젝트에 대해 계산된 지표 만들기
 
-[계산된 지표 빌더](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)를 사용하여 [계산된 지표를 만듭니다](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md). 이러한 방식으로 생성되면 계산된 지표는 구성 요소 목록에서 사용할 수 있으며 조직 전체의 프로젝트에서 사용할 수 있습니다.
+[계산된 지표 빌더](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)를 사용하여 [계산된 지표를 만듭니다](/help/components/calculated-metrics/workflow/cm-workflow.md). 이러한 방식으로 생성되면 계산된 지표는 구성 요소 목록에서 사용할 수 있으며 조직 전체의 프로젝트에서 사용할 수 있습니다.
 
 
 ### 단일 프로젝트에 대해 계산된 지표 만들기
@@ -79,15 +79,15 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
    단일 열을 선택하면 다음 옵션을 사용할 수 있습니다.
 
-   * [!UICONTROL **평균**]: 열에 대한 차원 요소 집합에서 평균 값을 표시하는 새 열을 만듭니다. 열 값은 [평균](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean) 함수를 사용합니다.
+   * [!UICONTROL **평균**]: 열에 대한 차원 요소 집합에서 평균 값을 표시하는 새 열을 만듭니다. 열 값은 [평균](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean) 함수를 사용합니다.
 
-   * [!UICONTROL **중간값**]: 열에 대한 차원 요소 집합의 중간값을 표시하는 새 열을 만듭니다. 열 값은 [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median) 함수를 사용합니다.
+   * [!UICONTROL **중간값**]: 열에 대한 차원 요소 집합의 중간값을 표시하는 새 열을 만듭니다. 열 값은 [Median](/help/components/calculated-metrics/cm-reference/cm-functions.md#median) 함수를 사용합니다.
 
-   * [!UICONTROL **열 최대값**]: 열의 차원 요소 집합에서 가장 큰 값을 표시하는 새 열을 만듭니다. 열 값은 [열 최대값](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum) 함수를 사용합니다.
+   * [!UICONTROL **열 최대값**]: 열의 차원 요소 집합에서 가장 큰 값을 표시하는 새 열을 만듭니다. 열 값은 [열 최대값](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum) 함수를 사용합니다.
 
-   * [!UICONTROL **열 최소값**]: 열에 대한 차원 요소 집합에서 가장 작은 값을 표시하는 새 열을 만듭니다. 열 값은 [열 최소값](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum) 함수를 사용합니다.
+   * [!UICONTROL **열 최소값**]: 열에 대한 차원 요소 집합에서 가장 작은 값을 표시하는 새 열을 만듭니다. 열 값은 [열 최소값](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum) 함수를 사용합니다.
 
-   * [!UICONTROL **열 합계**]: 열 내의 한 지표에 대한 모든 숫자 값을 추가하는 새 열을 만듭니다(차원의 요소에 대해). 열 값은 [열 합계](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) 함수를 사용합니다.
+   * [!UICONTROL **열 합계**]: 열 내의 한 지표에 대한 모든 숫자 값을 추가하는 새 열을 만듭니다(차원의 요소에 대해). 열 값은 [열 합계](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum) 함수를 사용합니다.
 
    두 개의 열을 선택하면 다음 옵션을 사용할 수 있습니다.
 
@@ -101,7 +101,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
    * [!UICONTROL **백분율 변경**]: 선택한 두 열 사이의 백분율 변경을 표시하는 새 열을 만듭니다.
 
-[계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics)&#x200B;(3:42)
 
 
 ## 다양한 속성 모델과 지표 비교
@@ -119,7 +119,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [누적 평균](https://video.tv.adobe.com/v/35045?quality=12&learn=on&captions=kor){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [누적 평균](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 
