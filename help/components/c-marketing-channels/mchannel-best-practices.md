@@ -3,16 +3,16 @@ title: Adobe Analytics 마케팅 채널 구현을 위한 모범 사례
 description: 업데이트된 Attribution 및 Customer Journey Analytics와 함께 마케팅 채널을 사용하기 위한 모범 사례
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 97%
+source-wordcount: '653'
+ht-degree: 81%
 
 ---
 
 # 속성과 마케팅 채널 - 모범 사례
 
-[마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 관한 현재 지침은 [속성](/help/analyze/analysis-workspace/attribution/overview.md) 또는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko#cja-usecases)가 존재하지 않았을 때 작성되었습니다.
+[마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 관한 현재 지침은 [속성](/help/analyze/analysis-workspace/attribution/overview.md) 또는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases)가 존재하지 않았을 때 작성되었습니다.
 
 마케팅 채널 구현의 미래를 보장하고 Attribution 및 Customer Journey Analytics와의 보고 일관성을 보장하기 위해 Adobe는 업데이트된 모범 사례 세트를 발표하고 있습니다. 이미 마케팅 채널을 사용하고 있는 경우 이러한 새로운 지침 중에서 최상의 옵션을 선택할 수 있습니다. 마케팅 채널을 처음 사용하는 경우 모든 새로운 모범 사례를 준수하는 것이 좋습니다.
 
@@ -28,15 +28,19 @@ ht-degree: 97%
 
 * 차원 마케팅 채널 및 마케팅 채널 세부 정보의 구성은 각 마케팅 채널 인스턴스에 해당하는 터치포인트를 설정하여 평가합니다.
 * 지표 분석의 경우 조직에서 하나 이상의 속성 모델에 맞춰 조정해야 합니다. 쉽게 재사용할 수 있도록 이 모델을 사용하여 사용자 정의 지표를 저장합니다.
-* 기본적으로 데이터는 마지막 접점 및 방문자 참여 기간 설정을 사용하여 할당됩니다. 속성 지표 모델을 [알고리즘 속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko#analysis-workspace)를 포함하여 전환 확인 기간에 대한 더 큰 통제력과 더 많은 다양성을 제공합니다.
+* 기본적으로 데이터는 마지막 접점 및 방문자 참여 기간 설정을 사용하여 할당됩니다. 속성 지표 모델을 [알고리즘 속성](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace)를 포함하여 전환 확인 기간에 대한 더 큰 통제력과 더 많은 다양성을 제공합니다.
 
 ## 모범 사례 #2: 직접 및 세션 새로 고침 채널 정의 없음
 
 직접 및 내부/세션 새로 고침 채널은 사용자 정의 속성 모델(속성)과 함께 사용하지 않는 것이 좋습니다.
 
-조직에 이미 직접 및 세션 새로 고침이 구성되어 있는 경우 어떻게 합니까? 이 경우 첫 번째 접점과 마지막 접점에 대해 [분류를 만들고](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) 직접 및 세션 새로 고침 채널은 분류되지 않은 상태로 두는 것이 좋습니다. 해당 채널들이 구성된 적이 없었던 것처럼 분류된 차원은 동일한 속성 결과를 산출합니다.
+조직에 이미 직접 및 세션 새로 고침이 구성되어 있는 경우 어떻게 합니까? 이 경우 Adobe에서는 첫 번째 터치/마지막 터치에 대해 [분류를 만들고](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) 직접 및 세션 새로 고침 채널은 분류되지 않은 상태로 두는 것이 좋습니다. 분류된 차원은 해당 채널이 구성된 적이 없는 경우와 유사한 기여도 분석 결과를 산출합니다.
 
 ![](assets/direct-session-refresh.png)
+
+이러한 채널을 비활성화하고 마케팅 채널 처리 규칙을 제거하는 경우 결과는 분류 접근 방식과 약간 다릅니다. 값 `None`은(는) 마케팅 채널 처리 규칙과 일치하지 않는 방문을 나타냅니다. 어떤 채널과도 일치하지 않는 방문이 어떤 채널과도 일치하는 방문 뒤에 올 때 차이가 나타날 수 있습니다.
+
+두 경우 모두 사용자 지정 속성 모델을 사용하여 전환 확인 기간 및 속성 모델을 적용할 수 있습니다.
 
 ## 모범 사례 #3: 모든 채널에 대해 마지막 접점 채널 재정의 활성화
 
