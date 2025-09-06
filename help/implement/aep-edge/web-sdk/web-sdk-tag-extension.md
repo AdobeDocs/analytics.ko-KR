@@ -66,19 +66,19 @@ Web SDK 확장을 사용하여 Adobe Analytics에 데이터를 전송하는 데�
 <tr>
 <td>4</td>
 <td><b>데이터스트림을 구성합니다</b>. 데이터스트림은 Adobe Experience Platform Web SDK 구현 시 서버측 구성을 나타냅니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">데이터스트림 구성<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko">데이터스트림 구성<a></td> 
 </tr>
 
 <tr>
 <td>5</td> 
 <td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 해당 서비스는 데이터가 Adobe Analytics으로 전송되는지 여부와 전송 방법, 구체적으로 어떤 보고서 세트를 통해 전송되는지 여부를 제어합니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>태그 속성을 만듭니다</b>. 속성은 태그 관리 데이터를 참조하는 데 사용하는 중요한 컨테이너입니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">웹용 태그 속성 만들기 또는 구성</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=ko#for-web">웹용 태그 속성 만들기 또는 구성</a></td>
 </tr>
 
 <tr>
@@ -90,7 +90,7 @@ Web SDK 확장을 사용하여 Adobe Analytics에 데이터를 전송하는 데�
 <tr>
 <td>8</td>
 <td><b>반복하고, 유효성을 검사하고, 프로덕션에 게시합니다</b>. 웹 사이트 페이지에 태그 속성을 포함하는 코드를 포함합니다. 그런 다음 데이터 요소, 규칙 등을 사용하여 구현을 사용자 정의하십시오.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">포함 코드</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html">게시 개요</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=ko#embed-code">포함 코드</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ko">게시 개요</a></td>
 </tr>
 
 </table>

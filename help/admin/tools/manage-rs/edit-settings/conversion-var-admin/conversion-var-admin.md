@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## 전환 변수(eVars) 개요
 
-전환 변수에 대한 비디오 개요는 Analytics 자습서 안내서에서 [전환 변수 소개](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)를 참조하십시오.
+전환 변수에 대한 비디오 개요는 Analytics 자습서 안내서에서 [전환 변수 소개](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)를 참조하십시오.
 
 eVar가 방문자에 대한 값으로 설정될 때 Adobe는 값이 만료될 때까지 해당 값을 자동으로 기억합니다. eVar 값이 활성일 때 방문자가 발견하는 성공 이벤트는 eVar 값으로 카운트됩니다.
 
