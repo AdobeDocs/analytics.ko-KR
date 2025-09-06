@@ -4,18 +4,18 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+workflow-type: tm+mt
+source-wordcount: '761'
+ht-degree: 99%
 
 ---
 
 
 # [!DNL Adobe Analytics] 구성 요소 안내서 {#components}
 
-+ [Analytics Components 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko)
++ [Analytics 구성 요소 안내서](home.md)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/ko/docs/analytics/release-notes/latest)
 + 차원 {#dimensions}
    + [차원 개요](dimensions/overview.md)
    + [차원 호환성](dimensions/compatibility.md)
@@ -204,34 +204,34 @@ ht-degree: 100%
    + [이전 세그먼트 FAQ](segmentation/seg-transition.md)
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
-   + [개요](c-calcmetrics/cm-overview.md)
-   + [사용 방법 비디오](c-calcmetrics/cm-videos.md)
+   + [개요](calculated-metrics/cm-overview.md)
+   + [사용 방법 비디오](calculated-metrics/cm-videos.md)
    + 워크플로 {#calcmetric-workflow}
-      + [계산된 지표 만들기](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [계산된 지표 빌드](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [간단한 예](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [더 복잡한 예](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [참여도 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [세분화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
-      + [세그먼트 스택 및 바꾸기](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
-      + [필터 및 가중치가 적용된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [함수 사용](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [계산된 지표 태그 지정](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [계산된 지표 필터링](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [계산된 지표를 즐겨찾기로 표시](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
-      + [계산된 지표 승인](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [계산된 지표 공유](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [계산된 지표 복사](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [계산된 지표 관리](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [계산된 지표 만들기](calculated-metrics/workflow/cm-workflow.md)
+      + [지표 찾기](calculated-metrics/workflow/cm-finding.md)
+      + [계산된 지표 빌드](calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+      + [간단한 예](calculated-metrics/workflow/c-build-metrics/cm-pvv.md)
+      + [더 복잡한 예](calculated-metrics/workflow/c-build-metrics/cm-orders-participation.md)
+      + [지표 유형 및 속성](calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [참여도 지표](calculated-metrics/workflow/c-build-metrics/participation-metric.md)
+      + [세분화된 지표](calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)
+      + [세그먼트 스택 및 바꾸기](calculated-metrics/workflow/c-build-metrics/cm-stack-seg.md)
+      + [필터 및 가중치가 적용된 지표](calculated-metrics/workflow/c-build-metrics/cm-weighted-metric.md)
+      + [함수 사용](calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+      + [계산된 지표 태그 지정](calculated-metrics/workflow/cm-tagging.md)
+      + [계산된 지표 필터링](calculated-metrics/workflow/cm-filter.md)
+      + [계산된 지표를 즐겨찾기로 표시](calculated-metrics/workflow/cm-favorite.md)
+      + [계산된 지표 승인](calculated-metrics/workflow/cm-approving.md)
+      + [계산된 지표 공유](calculated-metrics/workflow/cm-sharing.md)
+      + [계산된 지표 복사](calculated-metrics/workflow/cm-copy.md)
+      + [계산된 지표 관리](calculated-metrics/workflow/cm-manager.md)
    + 참조 {#calcmetrics-reference}
-      + [기본 함수](c-calcmetrics/cm-reference/cm-functions.md)
-      + [고급 함수](c-calcmetrics/cm-reference/cm-adv-functions.md)
-      + [지표 호환성](c-calcmetrics/cm-compatibility.md)
-      + [역할 기반 권한](c-calcmetrics/cm-role-based-rights.md)
-      + [계산된 지표 합계](c-calcmetrics/cm-totals.md)
-      + [기본 계산된 지표](c-calcmetrics/cm-reference/default-calcmetrics.md)
+      + [기본 함수](calculated-metrics/cm-reference/cm-functions.md)
+      + [고급 함수](calculated-metrics/cm-reference/cm-adv-functions.md)
+      + [지표 호환성](calculated-metrics/cm-compatibility.md)
+      + [역할 기반 권한](calculated-metrics/cm-role-based-rights.md)
+      + [계산된 지표 합계](calculated-metrics/cm-totals.md)
+      + [기본 계산된 지표](calculated-metrics/cm-reference/default-calcmetrics.md)
 + 가상 보고서 세트 {#virtual-report-suites}
    + [가상 보고서 세트 개요](vrs/vrs-about.md)
    + [가상 보고서 세트 - 구성 요소 큐레이션](vrs/vrs-components.md)
@@ -255,14 +255,15 @@ ht-degree: 100%
    + [가상 보고서 세트를 특정 날짜로 제한](cda/limit-vrs-date.md)
    + [크로스 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
-   + [개요](c-alerts/intellligent-alerts.md)
-   + [경고 만들기](c-alerts/alert-builder.md)
-   + [경고 관리](c-alerts/alert-manager.md)
-   + [사용 사례](c-alerts/alerts-use-cases.md)
+   + [개요](alerts/alerts-overview.md)
+   + [경고 만들기](alerts/alert-builder.md)
+   + [경고 관리](alerts/alert-manager.md)
+   + [사용 사례](alerts/alerts-use-cases.md)
 + 분류 {#classifications}
    + [분류 개요](classifications/classifications-overview.md)
    + 분류 설정 {#sets}
       + [개요](classifications/sets/overview.md)
+      + [데이터 파일](classifications/sets/data-files.md)
       + 분류 세트 관리 {#manage}
          + [분류 세트 관리자](classifications/sets/manage/set-manager.md)
          + [분류 세트 만들기](classifications/sets/manage/create.md)
