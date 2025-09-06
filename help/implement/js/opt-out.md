@@ -18,7 +18,7 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > 이 문서에서는 웹 사이트에서 Adobe Analytics을 구현&#x200B;**할** Adobe Analytics 고객에게 웹 사이트 사용자에게 옵트아웃 링크를 제공하는 방법에 대한 지침을 제공합니다. <p><p>
-<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> **Adobe Analytics을 구현한 웹 사이트를 방문하는 중**&#x200B;이고 옵트아웃하려는 경우 **<span style="color:red">이 문서는 사용자의 것이 아닙니다</span>**. Adobe에서 회원님의 정보를 사용하는 방법을 제어하려면 [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html)을 참조하세요.
+><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> **Adobe Analytics을 구현한 웹 사이트를 방문하는 중**&#x200B;이고 옵트아웃하려는 경우 **<span style="color:red">이 문서는 사용자의 것이 아닙니다</span>**. Adobe에서 회원님의 정보를 사용하는 방법을 제어하려면 [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html)을 참조하세요.
 
 웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe은 웹 사이트 방문자가 분석 대상 정보를 옵트아웃할 수 있는 기능을 제공합니다.
 
