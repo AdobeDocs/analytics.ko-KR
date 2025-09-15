@@ -3,9 +3,9 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4140'
 ht-degree: 53%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 53%
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단의 9제곱 아이콘을 선택한 다음 [!UICONTROL **Analytics**]&#x200B;을 선택합니다.
-1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**] (으)로 이동합니다.
+1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**](으)로 이동합니다.
 1. [!UICONTROL **추가**]&#x200B;를 선택합니다.
 
    ![데이터 피드 추가](assets/datafeed-add.png)
@@ -69,6 +69,8 @@ ht-degree: 53%
    피드를 Amazon S3 버킷으로 직접 보낼 수 있습니다. 이 대상 유형에는 Amazon S3 계정과 위치(버킷)만 필요합니다.
 
    Adobe Analytics은 계정 간 인증을 사용하여 Adobe Analytics의 파일을 Amazon S3 인스턴스의 지정된 위치로 업로드합니다.
+
+   데이터 피드에서 Amazon S3를 사용하는 경우 SSE-S3 암호화만 지원됩니다.
 
    Amazon S3 버킷을 데이터 피드의 대상으로 구성하려면 다음 작업을 수행하십시오.
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 계정 구성
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1489'
 ht-degree: 56%
 
 ---
@@ -61,7 +61,9 @@ ht-degree: 56%
 
    **계정 유형**
 
-   +++Amazon S3 역할 ARN
+   +++Amazon S3 Role ARN
+
+   **참고:** 데이터 피드 및 Data Warehouse에서 Amazon S3를 사용할 경우 SSE-S3 암호화만 지원됩니다.
 
    Amazon S3 Role ARN 계정을 구성하려면 다음 정보를 지정합니다.
 
@@ -99,7 +101,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
+   +++   
 
    +++Azure RBAC
 

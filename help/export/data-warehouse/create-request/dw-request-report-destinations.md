@@ -3,10 +3,10 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d213befd0fd8d530d95b8d3ac3c4f3b808558244
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 83%
+source-wordcount: '1980'
+ht-degree: 82%
 
 ---
 
@@ -72,7 +72,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       | 필드 | 함수 |
       |---------|----------|
-      | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름입니다. 이 이름은 위치를 만들 때 나타납니다 |
+      | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름입니다. 위치가 생성되면 이 이름이 표시됩니다. |
       | [!UICONTROL **위치 계정 설명**] | 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. |
       | [!UICONTROL **조직의 모든 사용자가 사용할 수 있는 계정을 만듭니다**] | 조직의 다른 사용자가 계정을 사용할 수 있도록 하려면 이 옵션을 활성화합니다.<p>계정을 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 계정은 공유 해제할 수 없습니다.</li><li>공유 계정은 계정 소유자만 편집할 수 있습니다.</li><li>누구나 공유 계정의 위치를 만들 수 있습니다.</li></ul> |
       | [!UICONTROL **계정 유형**] | 클라우드 계정 유형을 선택합니다. 각 계정 유형에 대해 단일 계정을 사용하고 해당 계정 내에서 필요에 따라 여러 위치를 사용하는 것이 좋습니다.<p>시스템 관리자는 [사용자가 계정을 만들 수 있는지 여부 구성](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)에 설명된 대로 사용자가 만들 수 있는 계정 유형을 제한할 수 있습니다. 이 섹션에 설명된 대로 계정을 만들 수 없는 경우 시스템 관리자에게 문의하십시오.</p> |
@@ -83,7 +83,9 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       **계정 유형**
 
-      +++Amazon S3 역할 ARN
+      +++Amazon S3 Role ARN
+
+      **참고:** Data Warehouse에서 Amazon S3를 사용할 경우 SSE-S3 암호화만 지원됩니다.
 
       Amazon S3 Role ARN 계정을 구성하려면 다음 정보를 지정합니다.
 
@@ -121,7 +123,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       {style="table-layout:auto"}
 
-      +++
+      +++   
 
       +++Azure RBAC
 
@@ -141,7 +143,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       >[!NOTE]
       >
-      >전자 메일 계정은 [데이터 피드](/help/export/analytics-data-feed/create-feed.md)에서만 사용할 수 있습니다. (전자 메일 계정은 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [분류 집합](/help/components/classifications/sets/overview.md)에서 지원되지 않습니다.)
+      >전자 메일 계정은 [데이터 피드](/help/export/analytics-data-feed/create-feed.md)에서만 사용할 수 있습니다. (전자 메일 계정은 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [분류 세트](/help/components/classifications/sets/overview.md)에서 지원되지 않습니다.)
 
       Azure RBAC 계정을 구성하려면 다음 정보를 지정합니다.
 
