@@ -3,10 +3,10 @@ description: 구성 요소 및 프로젝트를 Adobe Analytics에서 Customer Jo
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 5%
+source-wordcount: '1641'
+ht-degree: 4%
 
 ---
 
@@ -39,39 +39,53 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
 ## Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >이 섹션에 설명된 대로 프로젝트를 Customer Journey Analytics으로 마이그레이션하기 전에 [구성 요소와 프로젝트를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션 준비](/help/admin/tools/component-migration/prepare-component-migration.md)에서 프로젝트 마이그레이션에 대해 자세히 알아보십시오.
 >
->**매핑하는 모든 차원 또는 지표는 마이그레이션을 수행하는 사용자에 관계없이 이 프로젝트와 전체 IMS 조직에서 마이그레이션되는 향후 모든 프로젝트에 대해 영구적입니다. 고객 지원 센터에 문의하지 않으면 이러한 매핑을 수정하거나 실행 취소할 수 없습니다.**
+>**매핑하는 모든 차원 또는 지표는 마이그레이션을 수행하는 사용자에 관계없이 전체 IMS 조직의 향후 프로젝트와 모든 프로젝트에 적용됩니다. 향후 프로젝트를 마이그레이션할 때 이러한 매핑을 업데이트할 수 있습니다.**
 
 1. Adobe Analytics에서 [!UICONTROL **관리**] 탭을 선택한 다음 [!UICONTROL **모든 관리자**]&#x200B;를 선택합니다.
 
 1. [!UICONTROL **데이터 구성 및 수집**]&#x200B;에서 [!UICONTROL **구성 요소 마이그레이션**]&#x200B;을 선택합니다.
 
-1. 마이그레이션할 프로젝트를 찾습니다. 프로젝트 목록을 필터링, 정렬 또는 검색할 수 있습니다.
+1. 마이그레이션할 각 프로젝트를 찾습니다. 프로젝트 목록을 필터링, 정렬 또는 검색할 수 있습니다.
 
    기본적으로 사용자와 공유되는 프로젝트만 표시됩니다. 조직의 모든 프로젝트를 보려면 **필터** 아이콘을 선택한 다음 [!UICONTROL **기타 필터**]&#x200B;를 확장하고 [!UICONTROL **모두 표시**]&#x200B;를 선택하십시오. 프로젝트 목록 필터링, 정렬 및 검색에 대한 자세한 내용은 [프로젝트 목록 필터링, 정렬 및 검색](#filter-sort-and-search-the-list-of-projects)을 참조하십시오.
 
-1. 마이그레이션하려는 프로젝트 위로 마우스를 가져간 다음 **마이그레이션** 아이콘 ![프로젝트 마이그레이션](assets/migrate.svg)을 선택합니다.
+1. (조건부) 여러 프로젝트를 한 번에 마이그레이션하려면 마이그레이션할 각 프로젝트의 왼쪽에 있는 확인란을 선택한 다음 [!UICONTROL **Customer Journey Analytics으로 마이그레이션**]&#x200B;을 선택합니다.
 
-   또는
+   여러 프로젝트를 마이그레이션할 때 다음 사항을 고려하십시오.
 
-   마이그레이션하려는 프로젝트를 선택한 다음 [!UICONTROL **Customer Journey Analytics으로 마이그레이션**]&#x200B;을 선택합니다.
+   * 한 번에 마이그레이션할 프로젝트를 최대 20개까지 선택할 수 있습니다.
 
-   한 번에 하나의 프로젝트만 선택하여 마이그레이션할 수 있습니다.
+   * 마이그레이션 상태는 마이그레이션하는 모든 프로젝트에 대해 동일해야 합니다.
+
+     예를 들어 마이그레이션 상태가 **[!UICONTROL 시작되지 않음]**&#x200B;인 프로젝트 중 하나를 마이그레이션하도록 선택하면 마이그레이션 상태가 **[!UICONTROL 실패]**&#x200B;인 다른 프로젝트를 선택할 수 없습니다.
+
+   * 마이그레이션하는 모든 프로젝트에 대해 동일한 프로젝트 소유자를 지정해야 합니다.
+
+   * 차원 및 지표는 마이그레이션하는 모든 프로젝트에 대해 동일한 데이터 보기에 매핑되어야 합니다.
 
    [!UICONTROL **project_name을 Customer Journey Analytics으로 마이그레이션**] 대화 상자가 표시됩니다.
 
    <!-- add screenshot -->
 
-1. [!UICONTROL **프로젝트 소유자**] 필드에서 Customer Journey Analytics에서 프로젝트 소유자로 설정할 사용자의 이름을 입력한 다음 드롭다운 메뉴에서 이름을 선택합니다.
+1. (조건부) 단일 프로젝트를 마이그레이션하려면 마이그레이션할 프로젝트 위로 마우스를 가져간 다음 **마이그레이션** 아이콘 ![프로젝트 마이그레이션](assets/migrate.svg)을 선택합니다.
 
-   지정한 소유자는 프로젝트에 대한 모든 관리 권한을 가집니다. 소유자는 Customer Journey Analytics의 관리자여야 합니다. 이후 단계에서 프로젝트의 소유권을 변경할 수 있습니다.
+   [!UICONTROL **project_name을 Customer Journey Analytics으로 마이그레이션**] 대화 상자가 표시됩니다.
+
+   <!-- add screenshot -->
+
+1. [!UICONTROL **프로젝트 소유자**] 필드에서 Customer Journey Analytics에서 마이그레이션되는 프로젝트의 소유자로 설정할 사용자의 이름을 입력한 다음 드롭다운 메뉴에서 이름을 선택합니다.
+
+   지정한 소유자는 마이그레이션된 프로젝트에 대한 모든 관리 권한을 가집니다. 소유자는 Customer Journey Analytics의 관리자여야 합니다. 이후 단계에서 프로젝트의 소유권을 변경할 수 있습니다.
 
 1. [!UICONTROL **보고서 세트에 대한 맵 스키마**] 섹션에서 보고서 세트를 선택합니다.
 
 1. [!UICONTROL **데이터 보기**] 드롭다운 메뉴에서 프로젝트 및 구성 요소를 마이그레이션할 Customer Journey Analytics 데이터 보기를 선택합니다.
+
+   여러 프로젝트를 마이그레이션하는 경우 마이그레이션하는 모든 프로젝트가 단일 데이터 보기 매핑으로 결합됩니다.
 
 1. [!UICONTROL **맵 스키마**]&#x200B;을(를) 선택하십시오.
 
@@ -111,7 +125,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
    ![차원 및 지표 매핑](assets/schema-manual-map-drop-down.png)
 
-   차원 또는 지표가 매핑되면 경고 아이콘이 사라지고 [!UICONTROL **상태**] 열이 녹색 점이 있는 [!UICONTROL **매핑됨**] (으)로 변경됩니다. (회색 점이 있는 [!UICONTROL **매핑됨**] 상태는 차원 또는 지표가 이전 마이그레이션 중에 매핑되었음을 나타냅니다. 이전 매핑은 업데이트할 수 없습니다.)
+   차원 또는 지표가 매핑되면 경고 아이콘이 사라지고 [!UICONTROL **상태**] 열이 녹색 점이 있는 [!UICONTROL **매핑됨**](으)로 변경됩니다. (회색 점이 있는 [!UICONTROL **매핑됨**] 상태는 차원 또는 지표가 이전 마이그레이션 중에 매핑되었음을 나타냅니다. 이전 매핑은 업데이트할 수 없습니다.)
 
    경고 아이콘이 포함된 각 차원 또는 지표에 대해 이 프로세스를 반복합니다.
 
@@ -123,13 +137,13 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
    >[!WARNING]
    >
-   >   [!UICONTROL **마이그레이션**]&#x200B;을 선택하면 화면에 경고 메시지가 표시됩니다. 계속하기 전에 매핑하는 차원 또는 지표가 이 프로젝트와 전체 조직에서 마이그레이션되는 향후 모든 프로젝트에 대해 영구적이라는 것을 알고 있어야 합니다. 계속하면 만든 매핑을 수정할 수 없습니다.
+   >[!UICONTROL **마이그레이션**]&#x200B;을 선택하면 화면에 경고 메시지가 표시됩니다. 계속하기 전에 매핑하는 차원 또는 지표가 마이그레이션을 수행하는 사용자에 관계없이 전체 IMS 조직에서 향후 모든 프로젝트 및 이 프로젝트에 적용됨을 이해하십시오. 향후 프로젝트를 마이그레이션할 때 이러한 매핑을 업데이트할 수 있습니다.
 
    마이그레이션이 완료되면 [!UICONTROL **마이그레이션 상태**] 페이지에서 마이그레이션된 항목에 대한 요약을 제공합니다.
 
    마이그레이션이 실패하면 아래의 [실패한 마이그레이션 다시 시도](#retry-a-failed-migration) 섹션을 참조하십시오.
 
-1. (선택 사항) 프로젝트가 마이그레이션되면 Customer Journey Analytics의 모든 사용자에게 프로젝트의 소유권을 이전할 수 있습니다. 자세한 내용은 Customer Journey Analytics 안내서의 [자산 전송](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)을 참조하십시오.
+1. (선택 사항) 프로젝트가 마이그레이션되면 Customer Journey Analytics의 모든 사용자에게 프로젝트의 소유권을 전송할 수 있습니다. 자세한 내용은 Customer Journey Analytics 안내서의 [자산 전송](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)을 참조하십시오.
 
 ## 실패한 마이그레이션 다시 시도
 
