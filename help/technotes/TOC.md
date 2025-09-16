@@ -5,9 +5,9 @@ user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료를 찾아봅니다.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 90%
    + [Analytics 및 GDPR](privacy/gdpr.md)
    + [Analytics 및 CCPA](privacy/ccpa.md)
    + [Analytics 및 CNIL 동의 면제](privacy/cnil-consent-exemption.md)
-   + [개인 정보 FAQ](privacy/faq.md)
+   + [개인정보 보호 FAQ](privacy/faq.md)
 + [처리 순서](processing-order.md)
 + [점진적 웹 앱](pwa.md)
 + [리디렉션 및 별칭](redirects.md)

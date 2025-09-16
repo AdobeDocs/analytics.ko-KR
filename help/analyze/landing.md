@@ -5,7 +5,7 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1460'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics의 랜딩 페이지](https://video.tv.adobe.com/v/346466/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics의 랜딩 페이지](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

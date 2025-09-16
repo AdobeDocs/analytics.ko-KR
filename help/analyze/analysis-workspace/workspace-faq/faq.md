@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 
 +++데이터를 Analysis Workspace 프로젝트에 포함시키는 방법
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace로의 데이터](https://video.tv.adobe.com/v/33282?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace로의 데이터](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 +++
 
@@ -55,7 +55,7 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 
 +++
 
-+++지표를 드래그하면 &#39;잘못된 데이터&#39;라고 표시됩니다. 이 문제를 해결하려면 어떻게 해야 합니까?
++++지표를 드래그하면 “잘못된 데이터”라고 표시됩니다. 이 문제를 해결하려면 어떻게 해야 합니까?
 
 잘못된 데이터는 Adobe가 보고서에 사용된 차원과 지표의 조합을 사용하여 데이터를 반환할 수 없음을 의미합니다. 예를 들어 서로 위에 스택된 두 개의 지표는 이런 식으로 두 개의 지표를 표시할 수 있는 방법이 없으므로 데이터로 반환되지 않습니다. 대신 지표를 나란히 배치합니다.
 
@@ -68,7 +68,7 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 * 보고서 세트를 다시 확인하여 데이터가 채워져 있는지 확인하십시오.
 * 보고서에서 세그먼트를 적용했다면 세그먼트 기준이 데이터와 일치하지 않을 수 있습니다. 세그먼트를 제거하거나 세그먼트 정의를 조정해 보십시오.
 * 오른쪽 상단의 날짜 범위를 확인하고 예상한 값으로 설정되어 있는지 확인하십시오.
-* 웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)를 사용하여 데이터가 수집되고 있는지 확인하십시오.
+* 웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)를 사용하여 데이터가 수집되고 있는지 확인하십시오.
 
 
 +++
