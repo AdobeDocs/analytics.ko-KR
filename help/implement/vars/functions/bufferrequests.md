@@ -4,7 +4,7 @@ description: 페이지를 즉시 언로드하는 브라우저에 대한 링크 �
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->버퍼된 요청의 타임스탬프는 데이터가 전송되는 페이지와 공유됩니다. 버퍼된 요청이 기록되는 정확한 시간 내에 더 정밀하게 하려면 요청을 버퍼링하기 전에 [`timestamp`](../page-vars/timestamp.md) 페이지 변수를 설정할 수 있습니다. 이 변수를 사용하는 경우 [타임스탬프 선택 사항](/help/technotes/timestamps-optional.md)이 활성화되어 있는지 확인하십시오. 그렇지 않으면 타임스탬프가 지정된 모든 히트가 영구적으로 손실됩니다.
+>버퍼된 요청의 타임스탬프는 데이터가 전송되는 페이지와 공유됩니다. 버퍼된 요청이 기록되는 정확한 시간 내에 더 정밀하게 하려면 요청을 버퍼링하기 전에 [`timestamp`](../page-vars/timestamp.md) 페이지 변수를 설정할 수 있습니다. 이 변수를 사용하는 경우 [타임스탬프 선택 사항](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md)이 활성화되어 있는지 확인하십시오. 그렇지 않으면 타임스탬프가 지정된 모든 히트가 영구적으로 손실됩니다.
 
 ## 제한 사항
 
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 * 대상 링크는 동일한 도메인과 하위 도메인에 있어야 합니다. 버퍼된 요청은 도메인 또는 하위 도메인 간에 동일하게 Adobe Analytics 구현이 있더라도 작동하지 않습니다. 또한 이 제한은 버퍼된 요청을 사용하여 종료 링크를 추적할 수 없음을 의미합니다.
 * 대상 링크는 현재 페이지와 동일한 프로토콜을 사용해야 합니다. HTTP와 HTTPS 간에는 버퍼된 요청을 보낼 수 없습니다.
-* 버퍼된 요청은 `bufferRequests()`을(를) 먼저 호출하지 않고 `t()` 또는 `tl()`을(를) 호출하거나 브라우저나 탭을 닫을 때까지 저장됩니다. 해당 데이터를 Adobe으로 보내기 전에 브라우저 세션이 종료되면 전송되지 않은 버퍼된 요청이 영구적으로 손실됩니다.
+* 버퍼된 요청은 `t()`을(를) 먼저 호출하지 않고 `tl()` 또는 `bufferRequests()`을(를) 호출하거나 브라우저나 탭을 닫을 때까지 저장됩니다. 해당 데이터를 Adobe으로 보내기 전에 브라우저 세션이 종료되면 전송되지 않은 버퍼된 요청이 영구적으로 손실됩니다.
 * 브라우저가 [웹 저장소 API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) 또는 [JSON API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)을(를) 지원하지 않는 경우 브라우저 콘솔에 경고가 출력되고 AppMeasurement은 `t()` 메서드를 사용하여 이미지 요청을 즉시 전송하려고 시도합니다.
 
 ## 웹 SDK의 버퍼된 요청
@@ -40,7 +40,7 @@ Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니�
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.bufferRequests()
 
-`t()` 또는 `tl()`을(를) 호출하기 전에 `bufferRequests()` 메서드를 호출하십시오. `bufferRequests()`이(가) 호출되면 후속 추적 호출이 Adobe 데이터 수집 서버로 전송되는 대신 세션 저장소에 기록됩니다.
+`bufferRequests()` 또는 `t()`을(를) 호출하기 전에 `tl()` 메서드를 호출하십시오. `bufferRequests()`이(가) 호출되면 후속 추적 호출이 Adobe 데이터 수집 서버로 전송되는 대신 세션 저장소에 기록됩니다.
 
 ```js
 // Instantiate the tracking object

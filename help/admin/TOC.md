@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
-workflow-type: ht
+source-git-commit: 35675c2e65456a175d1516dd421b80d2af809286
+workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 100%
                + [보트 규칙 이해 및 구성](tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)
                + [일반 보트 서명](tools/manage-rs/edit-settings/general/bot-removal/bot-signatures.md)
                + [보트 제외 방법](tools/manage-rs/edit-settings/general/bot-removal/bot-exclusion-methods.md)
-            + [개인 정보 보호 설정](tools/manage-rs/edit-settings/general/privacy-settings.md)
-            + [타임스탬프 구성](tools/manage-rs/edit-settings/general/timestamp-optional.md)
+            + [개인정보 보호 설정](tools/manage-rs/edit-settings/general/privacy-settings.md)
+            + [타임스탬프 구성](tools/manage-rs/edit-settings/general/timestamp-configuration.md)
             + 서버측 전달 {#server-side-forwarding}
                + [서버측 전달 개요](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
                + [GDPR/ePrivacy 준수 및 서버측 전달](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)

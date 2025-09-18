@@ -5,10 +5,10 @@ title: 속성 및 지속성
 feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 방문자 프로필이 동일한 방문자 ID 변수와 연결된 후 병합되면, 내역 데이터 세트에서 속성이 변경되지 않습니다.
 
-* 변수 `s.visitorID`가 설정되어 히트 시 전송되면 Adobe에서는 방문자 ID가 일치하는 다른 방문자 프로필이 있는지 확인합니다.
+* `visitorID` 변수가 설정되어 히트 시 전송되면 Adobe에서는 방문자 ID가 일치하는 다른 방문자 프로필이 있는지 확인합니다.
 * 일치하는 프로필이 있으면 그때부터 이미 시스템에 있는 방문자 프로필을 사용하고, 이전 방문자 프로필은 더 이상 사용하지 않습니다.
 * 일치하는 방문자 ID가 없으면, 새 프로필이 만들어집니다.
 
@@ -33,12 +33,12 @@ ht-degree: 100%
 * `eVar16`에는 1일의 만료 기한이 있고 `evar17`은 방문 시 만료됩니다.
 * `post_visitor_id` 열은 Adobe Analytics에 의해 유지 관리되는 프로필을 나타냅니다. 게시 열은 일반적으로 데이터 피드에 표시됩니다. 내보내기 사용 안내서의 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)를 참조하십시오.
 * `post_evar16` 및 `post_evar17` 열은 eVar의 지속성을 나타냅니다.
-* `cust_visid`는 `s.visitorID`에 설정된 값을 나타냅니다.
+* `cust_visid`는 `visitorID`에 설정된 값을 나타냅니다.
 * 각 행은 하나의 &#39;히트&#39;로서, Adobe Analytics 데이터 수집 서버로 전송된 단일 요청입니다.
 
 ![크로스 디바이스 예 1](assets/xdevice_first.jpg)
 
-이전에 인식되지 않은 `s.visitorID` 값 (위의 `u999`)이 들어 있는 첫 번째 데이터 연결에서 새 프로필이 만들어집니다. 이전 프로필의 영구 값은 새 프로필로 전송됩니다.
+이전에 인식되지 않은 `visitorID` 값 (위의 `u999`)이 들어 있는 첫 번째 데이터 연결에서 새 프로필이 만들어집니다. 이전 프로필의 영구 값은 새 프로필로 전송됩니다.
 
 * 방문 시 만료되도록 설정된 eVar는 인증된 프로필에 복사되지 않습니다. 위의 값 `car`는 지속되지 않습니다.
 * 다른 방법에 의해 만료되도록 설정된 eVar는 인증된 프로필에 복사됩니다. 값 `apple`은 지속됩니다.

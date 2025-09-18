@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료를 찾아봅니다.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: ht
-source-wordcount: '206'
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+workflow-type: tm+mt
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 100%
 + [리디렉션 및 별칭](redirects.md)
 + [보안 리소스](security.md)
 + [사용된 용어 (용어)](terms.md)
-+ [타임스탬프 선택 사항](timestamps-optional.md)
 + [로그인 문제 해결](troubleshoot-login.md)
 + [로그아웃 문제 해결](troubleshoot-sessions.md)
 + [지정되지 않음, 기타 및 알 수 없음](unspecified.md)

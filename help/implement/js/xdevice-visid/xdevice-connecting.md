@@ -1,14 +1,14 @@
 ---
-description: 크로스 디바이스 방문자 식별은 여러 디바이스의 방문자들을 연결하는 데 도움이 됩니다. 크로스 디바이스 방문자 식별에서는 방문자 ID 변수 s.visitorID를 사용하여 여러 디바이스의 사용자를 연결합니다.
+description: 상호 장치 방문자 식별은 여러 장치의 방문자들을 연결하는 데 도움이 됩니다.
 keywords: Analytics 구현
 subtopic: Visitors
 title: 여러 디바이스에서 사용자 연결
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '383'
 ht-degree: 95%
 
 ---
