@@ -5,18 +5,22 @@ title: 프로젝트 보내기 및 예약
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 28%
+source-wordcount: '498'
+ht-degree: 25%
 
 ---
 
 # 프로젝트 보내기 및 예약
 
-Adobe Analytics 프로젝트를 선택한 사용자에게 이메일로 파일로 보낼 수 있습니다. 파일을 애드혹으로 보낼 수도 있고, 일정에 따라 파일을 보내도록 구성할 수도 있습니다. 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
+Adobe Analytics 프로젝트를 선택한 사용자에게 이메일로 파일로 보낼 수 있습니다. 파일을 임시로 보내거나 일정에 따라 보낼 파일을 구성할 수 있습니다.
 
-프로젝트에 적용된 모든 태그는 자동으로 내보내기에 적용됩니다.
+파일을 보낼 때 다음 사항을 고려하십시오.
+
+* 파일은 CSV 또는 PDF 형식으로 보낼 수 있습니다.
+
+* 프로젝트에 적용된 모든 태그는 자동으로 내보내기에 적용됩니다.
 
 [내보내기 개요](/help/export/home.md)에 설명된 대로 Adobe Analytics 데이터를 내보내는 다른 방법도 사용할 수 있습니다.
 
@@ -38,7 +42,7 @@ Adobe Analytics 프로젝트를 선택한 사용자에게 이메일로 파일로
 
 ## 파일 내보내기 예약 {#schedule}
 
-이메일로 수신자에게 일정에 따라 파일을 보내려면
+전자 메일로 일정에 따라 파일을 수신자에게 보내려면 다음과 같이 하십시오.
 
 1. **[!UICONTROL 공유] > [!UICONTROL 파일 내보내기 예약]**&#x200B;을 선택합니다.
 1. 파일 유형을 지정합니다.
