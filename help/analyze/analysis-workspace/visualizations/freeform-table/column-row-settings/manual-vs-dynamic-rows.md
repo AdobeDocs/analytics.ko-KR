@@ -58,7 +58,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [정적 행 순서 바꾸기](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [정적 행 순서 바꾸기](https://video.tv.adobe.com/v/33274?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

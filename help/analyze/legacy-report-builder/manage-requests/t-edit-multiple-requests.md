@@ -49,4 +49,4 @@ ht-degree: 90%
 
 다음은 이러한 프로세스를 보여 주는 비디오입니다.
 
-https://video.tv.adobe.com/v/25445/?quality=12
+https://video.tv.adobe.com/v/40103/?quality=12&captions=kor
