@@ -36,7 +36,7 @@ ht-degree: 89%
 * **분류:** 차원 항목을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 요소 사용 안내서에서 [분류](/help/components/classifications/classifications-overview.md)를 참조하십시오.
 * **Clickmap:** 더 이상 사용하지 않습니다. 사이트에서 가장 많이 클릭한 영역을 표시하는 기존 브라우저 플러그인입니다. 이 도구는 Activity Map을 위해 사용이 중단되었습니다.
 * **클릭스트림 데이터 피드:** 데이터 피드를 참조하십시오.
-* **집단:** 주어진 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 분석 사용 안내서에서 [집단 분석이란?Analytics 도구 안내서의 ](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md).
+* **집단:** 주어진 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 분석 사용 안내서에서 [집단 분석이란?Analytics 도구 안내서의 &#x200B;](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md).
 * **수집 서버:** 데이터 수집 서버를 참조하십시오.
 * Analysis Workspace의 **구성 요소:** 구성 요소는 프로젝트에 드래그하여 놓을 수 있는 차원, 지표, 세그먼트, 날짜 범위, 경고 및 계산된 지표로 구성됩니다. Analytics 도구 안내서에서 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)를 참조하십시오.
 * **컨텍스트 데이터 변수:** 처리 규칙에만 사용되는 임시 변수입니다. 처리 규칙이 컨텍스트 데이터 변수 값을 전환 또는 트래픽 변수에 복사하지 않으면 이 값이 영구적으로 손실됩니다. 구현 사용 안내서에서 [컨텍스트 데이터 변수](../implement/vars/page-vars/contextdata.md)를 참조하십시오.

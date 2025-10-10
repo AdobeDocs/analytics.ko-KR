@@ -43,7 +43,7 @@ ht-degree: 2%
 | `data.__adobe.analytics.events` | [사용자 지정 이벤트](../../components/metrics/custom-events.md). 이 필드의 형식은 [`events`](../vars/page-vars/events/events-overview.md) 구현 변수와 비슷합니다. |
 | `data.__adobe.analytics.javaEnabled` | [Java 활성화](../../components/dimensions/java-enabled.md) 차원. 축약 필드 `data.__adobe.analytics.v`도 지원됩니다. |
 | `data.__adobe.analytics.latitude` | [위치](../../components/dimensions/lifecycle-dimensions.md) 모바일 라이프사이클 차원을 설정하는 데 도움이 됩니다. 축약 필드 `data.__adobe.analytics.lat`도 지원됩니다. |
-| `data.__adobe.analytics.linkName` | [의 값에 따라 ](../../components/dimensions/custom-link.md)사용자 지정 링크[, ](../../components/dimensions/download-link.md)다운로드 링크[ 또는 ](../../components/dimensions/exit-link.md)종료 링크`data.__adobe.analytics.linkType` 차원입니다. 축약 필드 `data.__adobe.analytics.pev2`도 지원됩니다. |
+| `data.__adobe.analytics.linkName` | [의 값에 따라 &#x200B;](../../components/dimensions/custom-link.md)사용자 지정 링크[, &#x200B;](../../components/dimensions/download-link.md)다운로드 링크[&#x200B; 또는 &#x200B;](../../components/dimensions/exit-link.md)종료 링크`data.__adobe.analytics.linkType` 차원입니다. 축약 필드 `data.__adobe.analytics.pev2`도 지원됩니다. |
 | `data.__adobe.analytics.linkURL` | [`linkURL`](../vars/config-vars/linkurl.md) 구현 변수입니다. 축약 필드 `data.__adobe.analytics.pev1`도 지원됩니다. |
 | `data.__adobe.analytics.linkType` | 클릭한 링크의 유형을 결정합니다. 유효한 값에는 `o`(사용자 지정 링크), `d`(다운로드 링크) 및 `e`(종료 링크)이(가) 포함됩니다. 축약 필드 `data.__adobe.analytics.pe`도 지원됩니다. |
 | `data.__adobe.analytics.list1` - `data.__adobe.analytics.list3` | 구현 변수 [`list`](/help/implement/vars/page-vars/list.md)개. 축약 필드 `data.__adobe.analytics.l1` - `data.__adobe.analytics.list3`도 지원됩니다. |

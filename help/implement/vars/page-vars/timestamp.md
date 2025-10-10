@@ -21,7 +21,7 @@ ht-degree: 81%
 
 ## 웹 SDK을 사용한 타임스탬프
 
-타임스탬프가 XDM 필드 [ 아래에 있는 ](/help/implement/aep-edge/xdm-var-mapping.md)Adobe Analytics에 대해 매핑됨`xdm.timestamp`입니다. 이 필드는 Unix 시간만 지원합니다.
+타임스탬프가 XDM 필드 [&#x200B; 아래에 있는 &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md)Adobe Analytics에 대해 매핑됨`xdm.timestamp`입니다. 이 필드는 Unix 시간만 지원합니다.
 
 ## Adobe Analytics 확장을 사용한 타임스탬프
 

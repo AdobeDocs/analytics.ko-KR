@@ -63,7 +63,7 @@ ht-degree: 5%
 | [체크아웃](/help/components/metrics/checkouts.md) | `Checkouts` |
 | [사용자 지정 이벤트](/help/components/metrics/custom-events.md) | `Event 1` - `Event 1000` |
 | [주문](/help/components/metrics/orders.md) | `Orders` |
-| [매출 ](/help/components/metrics/revenue.md) | `Price` |
+| [매출 &#x200B;](/help/components/metrics/revenue.md) | `Price` |
 | [판매량](/help/components/metrics/units.md) | `Quantity` |
 
 {style="table-layout:auto"}

@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## 방문 빈도가 높은 페이지
 
-1. [(이)라는 Workspace 프로젝트에서 ](../cm-workflow.md)계산된 지표를 만듭니다`Germany`.
+1. [(이)라는 Workspace 프로젝트에서 &#x200B;](../cm-workflow.md)계산된 지표를 만듭니다`Germany`.
 1. [계산된 지표 빌더](cm-build-metrics.md)에서 국가 필드를 사용하는 [세그먼트 만들기](/help/components/segmentation/segmentation-workflow/seg-build.md)(`Germany`).
 
    >[!TIP]

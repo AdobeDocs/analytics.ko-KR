@@ -150,7 +150,7 @@ ht-degree: 66%
 | **`os`** | 방문자의 운영 체제를 나타내는 숫자 ID입니다. `user_agent` 열을 기반으로 합니다. `operating_system.tsv` 표준 조회 및 `operating_system_type.tsv` [동적 조회](dynamic-lookups.md)의 키 값입니다. | int 부호 없음 |
 | **`page_event`** | 이미지 요청(표준 히트, 다운로드 링크, 사용자 정의 링크, 종료 링크)에서 전송된 히트 유형입니다. [페이지 이벤트 조회](datafeeds-page-event.md)를 참조하십시오. | tinyint 부호 없음 |
 | **`page_event_var1`** | 링크 추적 이미지 요청에서만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 정의 링크의 URL입니다. | 텍스트 |
-| **`page_event_var2`** | 링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 지정 이름(지정된 경우)입니다. [의 값에 따라 ](/help/components/dimensions/custom-link.md)사용자 지정 링크[, ](/help/components/dimensions/download-link.md)다운로드 링크[ 또는 ](/help/components/dimensions/exit-link.md)종료 링크`page_event`를 설정합니다. | varchar(100) |
+| **`page_event_var2`** | 링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 지정 이름(지정된 경우)입니다. [의 값에 따라 &#x200B;](/help/components/dimensions/custom-link.md)사용자 지정 링크[, &#x200B;](/help/components/dimensions/download-link.md)다운로드 링크[&#x200B; 또는 &#x200B;](/help/components/dimensions/exit-link.md)종료 링크`page_event`를 설정합니다. | varchar(100) |
 | **`page_type`** | 일반적으로 404페이지에 사용되는 [페이지를 찾을 수 없음](/help/components/dimensions/pages-not-found.md) 차원입니다. | char (20) |
 | **`page_url`** | 히트의 URL입니다. `post_page_url`은(는) 링크 추적 이미지 요청([`tl()`](/help/implement/vars/functions/tl-method.md))에서 제거되고 varchar(255)의 데이터 형식을 사용합니다. | 텍스트 |
 | **`pagename`** | [페이지](/help/components/dimensions/page.md) 차원입니다. [`pagename`](/help/implement/vars/page-vars/pagename.md) 변수가 비어 있으면 Analytics가 `page_url`을 대신 사용합니다. | varchar (100) |
@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM 개체 변수 매핑](/help/implement/aep-edge/xdm-var-mapping.md)
->>[데이터 개체 변수 매핑](/help/implement/aep-edge/data-var-mapping.md)
+>&#x200B;>[데이터 개체 변수 매핑](/help/implement/aep-edge/data-var-mapping.md)

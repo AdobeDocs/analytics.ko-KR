@@ -12,9 +12,9 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >간소화된 새 [Report Builder](/help/analyze/report-builder/rb-overview.md)이(가) 2024년 10월 16일에 릴리스되었습니다. Mac, Windows 및 웹 브라우저에서 지원됩니다.
->>이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [기존 통합 문서를 새 Report Builder으로 변환](/help/analyze/report-builder/convert-workbooks.md)할 수 있습니다.
+>&#x200B;>이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [기존 통합 문서를 새 Report Builder으로 변환](/help/analyze/report-builder/convert-workbooks.md)할 수 있습니다.
 
-## Reports &amp; Analytics 서비스 종료 공지 {#ra-eol}
+## Reports & Analytics 서비스 종료 공지 {#ra-eol}
 
 >[!IMPORTANT]
 >

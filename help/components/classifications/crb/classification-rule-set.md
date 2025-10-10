@@ -78,6 +78,6 @@ ht-degree: 89%
 
    보고서 세트 및 변수 목록은 로그인 회사의 모든 보고서 세트에서 사용할 수 있는 모든 분류된 변수로 채워집니다. 보고서 세트의 단일 변수는 하나의 규칙 세트에만 속할 수 있습니다.
 
-   자세한 내용은 *`Variable`*&#x200B;분류 규칙 빌더[ 페이지의 정의에서 ](/help/components/classifications/crb/classification-rule-definitions.md)을(를) 참조하십시오.
+   자세한 내용은 *`Variable`*&#x200B;분류 규칙 빌더[&#x200B; 페이지의 정의에서 &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md)을(를) 참조하십시오.
 1. 사용할 보고서 세트와 변수를 지정한 다음, **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 규칙 세트에 [분류 규칙을 추가](/help/components/classifications/crb/classification-rule-set.md)하여 계속 진행합니다.
