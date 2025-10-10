@@ -18,7 +18,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [분류 규칙 빌더](https://video.tv.adobe.com/v/3434376?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [분류 규칙 빌더](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +30,7 @@ ht-degree: 86%
 * CRB가 내보내기를 요청하면 분류된 값과 분류되지 않은 값을 모두 가져옵니다. 이때 분류되지 않은 값은 내보내기가 끝날 때 전달됩니다. 이는 시간이 지남에 따라 분류되지 않은 값에 영향을 주지 않고 1,000만 개의 분류된 값을 채울 수 있음을 의미합니다.
 * 아키텍처는 CRB가 &quot;n&quot;개의 서버에서 가져오는 방식으로 설정되므로, 이렇게 되면 어떤 순서로 어느 서버를 선택할지에 대해 일치하지 않을 수 있습니다. 이러한 이유로, 분류되지 않은 값에 영향을 주는 것은 매우 어렵습니다.
 
-차원에 대해 분류된 값이 1,000만 개 이상인 사용자에 대한 **해결 방법**&#x200B;은 FTP를 통해 분류되지 않은 값을 1000천만 묶음으로 내보내고 수동으로 분류하는 것입니다.
+차원에 대해 분류된 값이 1,000만 개 이상인 사용자의 **해결 방법**&#x200B;은 FTP를 통해 분류되지 않은 값을 1,000만 개 단위 배치로 내보낸 뒤, 수동으로 분류하는 것입니다.
 
 ## 분류 규칙 시작하기 {#section_3FF666EF9D5B4E37A23B3FB400CDA2E6}
 

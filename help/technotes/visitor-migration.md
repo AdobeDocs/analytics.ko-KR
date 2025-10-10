@@ -54,7 +54,7 @@ ht-degree: 62%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>구성 변경 후 6시간 이상</b>: Analytics JavaScript 코드에서 <code> s.trackingServer</code> 및 <code> s.trackingServerSecure</code> 변수를 업데이트하여 새 데이터 수집 서버를 사용합니다. </p> </td> 
-   <td colname="col3"> <p>이 변경 사항을 적용한 후 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko"> Experience Cloud debugger</a>를 사용하여 Analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인합니다. </p> </td> 
+   <td colname="col3"> <p>이 변경 사항을 적용한 후 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html"> Experience Cloud debugger</a>를 사용하여 Analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics 코드를 업데이트한 직후</b>: 이전 데이터 수집 도메인으로의 리디렉션이 발생하는지를 확인하는 테스트를 사이트에 대해 수행합니다. </p> </td> 
@@ -70,6 +70,6 @@ ht-degree: 62%
 | 작업 | 설명 |
 |--- |--- |
 | 시작하기: 고객 지원 센터에 문의 하여 마이그레이션하려는 도메인과 활성화하려는 마이그레이션 기간(30일, 60일 또는 90일)을 알려줍니다. 비보안 및 보안 도메인을 포함해야 합니다. | 마이그레이션 및 마이그레이션할 도메인에 대한 정확한 구문을 사용하여 목록을 만듭니다.<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>마이그레이션 호스트 이름은 Adobe 데이터 수집 서버에서 구성됩니다. 다음 단계를 계획할 수 있도록 고객 지원 센터가 언제 변경이 있을지 알려 줄 것입니다. |
-| 구성 변경 후 6시간 이상: Analytics JavaScript 코드에서 `s.trackingServer` 및 `s.trackingServerSecure` 변수를 업데이트하여 새 데이터 수집 서버를 사용합니다. | 이 변경 내용을 적용한 후 [Experience Cloud 디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)를 사용하여 Analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인하십시오. |
+| 구성 변경 후 6시간 이상: Analytics JavaScript 코드에서 `s.trackingServer` 및 `s.trackingServerSecure` 변수를 업데이트하여 새 데이터 수집 서버를 사용합니다. | 이 변경 내용을 적용한 후 [Experience Cloud debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)를 사용하여 Analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인합니다. |
 | Analytics 코드를 업데이트한 직후: 사이트를 테스트하여 이전 데이터 수집 도메인으로의 리디렉션이 발생하고 있는지 확인합니다. | [패킷 모니터](../implement/validate/packet-monitor.md)를 사용하여 처음으로 사이트에 액세스할 때 또는 쿠키를 지운 후, 200(OK) HTTP 상태 코드 앞에 두 개의 302(리디렉션) HTTP 상태 코드가 표시되는지 확인합니다. 리디렉션이 실패하는 경우 즉시 고객 지원 센터에 연락하여 마이그레이션이 바르게 구성되도록 하십시오. |
 | 전체 마이그레이션 기간: 이전 호스트 이름에 대한 DNS 레코드를 활성 상태로 유지합니다. | 이전 호스트 이름은 DNS를 통해 해결되어야 하며 그렇지 않으면 쿠키 마이그레이션이 발생하지 않습니다. |

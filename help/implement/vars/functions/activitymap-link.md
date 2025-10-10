@@ -20,7 +20,7 @@ ht-degree: 9%
 
 ## 웹 SDK을 사용하여 링크 값 재정의
 
-[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) 콜백을 사용하여 웹 SDK 페이로드를 변경하거나 데이터 전송을 중단할 수 있습니다.
+[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) 콜백을 사용하여 웹 SDK 페이로드를 변경하거나 데이터 전송을 중단할 수 있습니다.
 
 ## Adobe Analytics 확장을 사용한 링크 재정의
 
@@ -78,6 +78,6 @@ s.ActivityMap.link = function(ele, linkName) {
 <button type="button" onclick="s.tl(this,'o',customFunction(this)">Add To Cart</button>
 ```
 
-1. `linkName`이(가) 전달되면 `tl()`에 의해 메서드가 호출됩니다. `linkName`(으)로 전달된 `tl()`을(를) 반환합니다.
+1. `linkName`이(가) 전달되면 `tl()`에 의해 메서드가 호출됩니다. `tl()`(으)로 전달된 `linkName`을(를) 반환합니다.
 2. Activity Map에서 호출하는 경우 `linkName`이(가) 전달되지 않으므로 링크 요소를 사용하여 `customFunction()`을(를) 호출하십시오. 값을 반환하려는 사용자 지정 함수를 사용할 수 있습니다.
 3. 위의 반환 값이 모두 아닌 경우 일반적으로 수집된 링크 이름을 대체 항목으로 사용하십시오.

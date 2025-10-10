@@ -19,7 +19,7 @@ ht-degree: 52%
 Adobe는 [Digital Element](https://www.digitalelement.com/)와 협력하여 액세스 포인트 도메인을 결정합니다. 역방향 DNS 조회를 비롯한 여러 방법을 사용하여 액세스 포인트 도메인을 확인합니다. 또한 구성할 필요가 없으며 채울 변수가 없습니다.
 
 * AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
-* Web SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)할 때 [!UICONTROL 네트워크 조회]를 사용하도록 설정하십시오.
+* 웹 SDK 구현의 경우 [!UICONTROL 데이터 스트림을 구성]할 때 [네트워크 조회](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)를 사용하도록 설정하십시오.
 
 ## 차원 항목
 

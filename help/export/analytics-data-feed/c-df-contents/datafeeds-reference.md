@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM 개체 변수 매핑](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[데이터 개체 변수 매핑](/help/implement/aep-edge/data-var-mapping.md)
+>>[데이터 개체 변수 매핑](/help/implement/aep-edge/data-var-mapping.md)

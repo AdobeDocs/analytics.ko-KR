@@ -41,7 +41,7 @@ ht-degree: 5%
 
 | 차원 | 데이터 소스 헤더 |
 | --- | --- |
-| [범주](/help/components/dimensions/category.md) | `Category` |
+| [카테고리](/help/components/dimensions/category.md) | `Category` |
 | [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
 | [마케팅 채널](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
 | [마케팅 채널 세부 정보](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
@@ -52,7 +52,7 @@ ht-degree: 5%
 
 {style="table-layout:auto"}
 
-Dimension 및 지표는 동일한 헤더 행으로 이동합니다.
+차원 및 지표는 동일한 헤더 행으로 이동합니다.
 
 | 지표 | 데이터 소스 헤더 |
 | --- | --- |
@@ -85,8 +85,8 @@ Adobe은 다른 차원 또는 지표에 대한 데이터 소스를 지원하지 
 
 각 행의 날짜 이후 후속 값에는 업로드할 데이터가 포함됩니다. 모든 행은 해당 타임스탬프와 일치합니다. 모든 행에 동일한 수의 탭이 있는지 확인하십시오. 열은 임의의 순서로 지정할 수 있습니다. 각 행의 데이터가 맨 위의 헤더에 맞게 조정되도록 하십시오. 단일 행이 가질 수 있는 최대 데이터 양은 4096바이트입니다.
 
-Dimension 데이터에는 세미콜론(`;`)을 사용할 수 없습니다. 세미콜론이 포함된 행은 건너뜁니다.
+Dimension 데이터에는 세미콜론(`;`)을 포함할 수 없습니다. 세미콜론이 포함된 행은 건너뜁니다.
 
 ## 다음 단계
 
-[파일 업로드](file-upload.md): Adobe으로 수집할 데이터 원본 파일을 업로드하는 프로세스에 대해 알아봅니다.
+[파일 업로드](file-upload.md): Adobe에서 수집할 데이터 원본 파일을 업로드하는 프로세스에 대해 알아봅니다.

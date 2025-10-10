@@ -1,5 +1,5 @@
 ---
-title: Adobe Analytics에 대한 이전 Report Builder 정보
+title: Adobe Analytics용 레거시 Report Builder 정보
 description: Report Builder를 사용하여 Adobe Analytics 데이터를 Microsoft Excel로 직접 가져오는 방법에 대해 알아봅니다.
 feature: Workspace Basics
 role: User, Admin
@@ -11,7 +11,7 @@ ht-degree: 90%
 
 ---
 
-# 레거시 Report Builder란?
+# 레거시 Report Builder란 무엇입니까?
 
 {{legacy-arb}}
 

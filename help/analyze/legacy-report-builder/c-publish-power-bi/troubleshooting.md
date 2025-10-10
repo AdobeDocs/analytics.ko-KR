@@ -40,11 +40,11 @@ Report Builder 요청을 Power BI에 게시한 후 시각화가 손상될 수 �
 >[!IMPORTANT]
 >
 >Report Builder에서는 관리자가 조직 리소스에 대한 액세스 권한을 부여해야 합니다. 액세스 권한이 필요한 경우 관리자에게 권한 부여를 요청하십시오.
-> Microsoft 관리자는 **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 사용자 설정에서 옵션을 허용]**&#x200B;하는 *사용자가 응용 프로그램을 등록할 수 있음* 설정을 검토할 수 있습니다. 이 옵션이 **아니요**(으)로 설정된 경우 관리자는 이러한 유형의 애플리케이션을 등록할 수 있습니다.
+>> Microsoft 관리자는 *Microsoft Azure* > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 사용자 설정에서 옵션을 허용]**&#x200B;하는 **[!UICONTROL 사용자가 응용 프로그램을 등록할 수 있음]** 설정을 검토할 수 있습니다. 이 옵션이 **아니요**(으)로 설정된 경우 관리자는 이러한 유형의 애플리케이션을 등록할 수 있습니다.
 
-사용자는 [Microsoft Power BI 계정](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)에 로그인하여 액세스 권한을 부여할 수 있습니다.
+사용자는 [Microsoft Power BI 계정](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US)에 로그인하여 액세스 권한을 부여할 수 있습니다.
 
-관리자는 [관리자의 Microsoft Power BI 계정](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)에 로그인하여 모든 사용자에게 액세스 권한을 부여할 수 있습니다.
+관리자는 [관리자의 Microsoft Power BI 계정](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=admin_consent&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US)에 로그인하여 모든 사용자에게 액세스 권한을 부여할 수 있습니다.
 
 ## API 제한 도달
 

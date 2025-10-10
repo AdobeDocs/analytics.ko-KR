@@ -31,7 +31,7 @@ Analytics 관리자는 보고서 세트 내에 있거나 Analysis Workspace 내�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 설명 추가](https://video.tv.adobe.com/v/39724?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 설명 추가](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두�
 >[!MORELIKETHIS]
 >
 >[보고서 구성 요소 설정](/help/components/vrs/vrs-components.md)
->&#x200B;>[데이터 사전 구성 요소 항목](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[데이터 사전 구성 요소 항목](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

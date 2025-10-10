@@ -1,5 +1,5 @@
 ---
-description: Report Builder 업그레이드 방법을 알아봅니다.
+description: Report Builder을 업그레이드하는 방법에 대해 알아봅니다.
 title: Report Builder 업그레이드 방법
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
@@ -42,7 +42,7 @@ Report Builder을 업그레이드하려면
 
    ![Report Builder 설치 화면을 보여주는 스크린샷](assets/setup.png)
 
-1. 업그레이드가 완료되면 다시 Report Builder에 로그인합니다.
+1. 업그레이드가 완료되면 Report Builder에 다시 로그인합니다.
 
 ## 수동 업그레이드 지침 {#section_27A0200010DC4747A718F1A65B180599}
 

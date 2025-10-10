@@ -22,11 +22,11 @@ ht-degree: 5%
 클릭된 특정 링크에 대해 상위 DOM 요소에서 다음 (순서대로)을 확인하십시오.
 
 * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)이(가) 설정한 특성 값 - 기본적으로 `id` 특성으로 설정됨
-* `role="region"` 특성을 사용하는 경우 `aria-label` 특성의 값입니다.
-* 의미 체계 요소 `<header>`, `<main>`, `<footer>` 또는 `<nav>`(웹 SDK만 해당)
+* `aria-label` 특성을 사용하는 경우 `role="region"` 특성의 값입니다.
+* 의미 체계 요소 `<header>`, `<main>`, `<footer>` 또는 `<nav>`(웹 SDK 전용)
 
 상위 DOM 요소가 위의 기준 중 어느 것도 충족하지 않는 경우 DOM 계층 위쪽으로 계속 재귀적으로 검색합니다. 일치하는 요소가 없으면 값 `BODY`이(가) 반환됩니다.
 
 ## 차원 항목
 
-Dimension 항목에는 사이트에서 레이블을 지정한 영역이 포함됩니다. 특정 영역 값은 사용되는 속성과 의미 HTML 요소가 존재하는지 여부에 따라 다릅니다.
+Dimension 항목에는 사이트에서 레이블을 지정한 영역이 포함됩니다. 특정 영역 값은 사용되는 특성과 의미 체계 HTML 요소가 있는지 여부에 따라 달라집니다.

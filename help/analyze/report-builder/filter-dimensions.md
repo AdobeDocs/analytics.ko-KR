@@ -25,7 +25,7 @@ ht-degree: 75%
 
 1. 명령 패널에서 **[!UICONTROL 데이터 블록 편집]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL 다음]**&#x200B;을 클릭하여 Dimension 탭을 표시합니다.
+1. **[!UICONTROL 다음]**&#x200B;을 클릭하여 차원 탭을 표시합니다.
 
 1. 표에서 구성 요소 이름 옆에 있는 **..** 아이콘을 클릭합니다.
 
@@ -143,7 +143,7 @@ Adobe Analytics에서 일부 차원은 &quot;값 없음&quot; 항목을 수집�
 
    ![최근 6개월 목록의 항목 표시.](./assets/image34.png)
 
-   지난 6개월 동안의 데이터가 로드된 후 Report Builder이 링크를 **[!UICONTROL 지난 18개월 동안의 항목 표시]**(으)로 업데이트합니다.
+   지난 6개월 동안의 데이터가 로드된 후 Report Builder은 링크를 **[!UICONTROL 지난 18개월 동안의 항목 표시]**(으)로 업데이트합니다.
 
 1. 차원 항목을 선택합니다.
 
@@ -179,6 +179,6 @@ Adobe Analytics에서 일부 차원은 &quot;값 없음&quot; 항목을 수집�
 
 **[!UICONTROL 차원]** 탭에서 차원 항목 목록을 보려면 차원 이름 옆에 있는 V자형 아이콘을 클릭합니다.
 
-![Dimension 탭과 차원 목록입니다.](./assets/dimensions_chevron.png)
+![차원 탭과 차원 목록입니다.](./assets/dimensions_chevron.png)
 
 **[!UICONTROL 테이블]**&#x200B;에 항목을 드래그 앤 드롭하거나 항목 이름을 더블 클릭하여 **[!UICONTROL 테이블]** 빌더에 추가할 수 있습니다.

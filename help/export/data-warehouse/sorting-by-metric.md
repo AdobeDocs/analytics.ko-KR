@@ -1,5 +1,5 @@
 ---
-description: 지표별로 정렬하여 Data Warehouse 보고서를 쉽게 해석하고 다른 Analytics 분류 보고 보기와 비교하는 방법에 대해 알아봅니다.
+description: 지표로 정렬하는 방법을 통해 Data Warehouse 보고서를 쉽게 해석하고 다른 Analytics 분류 보고 보기와 비교하는 방법에 대해 알아봅니다.
 title: 지표로 정렬
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b

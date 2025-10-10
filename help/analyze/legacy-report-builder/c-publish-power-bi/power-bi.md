@@ -58,31 +58,31 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
 1. 그런 다음 Power BI 대시보드에 포함되도록 이 통합 문서의 한 영역을 고정할 수 있습니다.
 
-## 통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시 {#section_7C54A54E75184DD6BAEF4ACCE241239A}
+## 통합 문서에서 형식이 지정된 테이블을 모두 Power BI 데이터 세트 테이블로 게시 {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
 >[!NOTE]
 >
->통합 문서에 매크로가 있을 경우, “통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시”가 비활성화됩니다.
+>통합 문서에 매크로가 있을 경우, “통합 문서에서 형식이 지정된 테이블을 모두 Power BI 데이터 세트 테이블로 게시”가 비활성화됩니다.
 
-전체 통합 문서를 가져오는 대신 통합 문서 내의 모든 형식이 지정된 표의 콘텐츠만 가져올 수 있습니다.
+전체 통합 문서를 가져오는 대신 통합 문서 내의 모든 형식이 지정된 테이블의 콘텐츠만 가져올 수 있습니다.
 
-**사용 사례**: 여러 Report Builder 요청에서 데이터를 가져오고 공식이 많은 요약 표를 만드는 Excel 통합 문서가 있을 경우, 요약 표만 Power BI에 가져오고 이를 위한 시각화를 생성할 수 있습니다.
+**사용 사례**: 여러 Report Builder 요청에서 데이터를 가져오고 공식이 많은 요약 표를 만드는 Excel 통합 문서가 있을 경우, 요약 테이블만 Power BI에 가져오고 이를 위한 시각화를 생성할 수 있습니다.
 
-**Report Builder에서 형식이 지정된 표 게시**
+**Report Builder에서 형식이 지정된 테이블 게시**
 
-1. Report Builder에서, 뒤에 데이터 행이 오는 머리글 행을 포함하는 데이터 표를 생성합니다.
-1. 표를 선택하고 [!UICONTROL 홈] 메뉴에서 **[!UICONTROL 표로 형식 지정]**&#x200B;을 선택합니다. 표는 기본적으로 이름이 지정되지만 (표 1, 표 2 등), [!UICONTROL 디자인 ]메뉴에서 이름을 변경할 수 있습니다.
+1. Report Builder에서, 뒤에 데이터 행이 오는 머리글 행을 포함하는 데이터 테이블을 생성합니다.
+1. 테이블을 선택하고 [!UICONTROL 홈] 메뉴에서 **[!UICONTROL 테이블로 형식 지정]**&#x200B;을 선택합니다. 테이블은 기본적으로 이름이 지정되지만 (테이블 1, 테이블 2 등), [!UICONTROL 디자인 ]메뉴에서 이름을 변경할 수 있습니다.
 
 1. Report Builder 도구 모음에서 **[!UICONTROL 예약]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
 1. 기본 예약 마법사에서 **[!UICONTROL 고급 예약 옵션]**&#x200B;을 클릭합니다.
-1. [!UICONTROL 예약 마법사 - 고급]의 **[!UICONTROL 게시 옵션]** 탭에서 **[!UICONTROL 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시]** 옆에 있는 상자를 선택합니다.
+1. [!UICONTROL 예약 마법사 - 고급]의 **[!UICONTROL 게시 옵션]** 탭에서 **[!UICONTROL 형식이 지정된 테이블을 모두 Power BI 데이터 세트 테이블로 게시]** 옆에 있는 상자를 선택합니다.
 
-   ![형식이 지정된 표를 모두 Power BI 데이터 세트로 게시하면서 예약 마법사 - 고급 게시 옵션을 표시하는 스크린샷.](assets/advanced-schedule-wizard2.png)
+   ![형식이 지정된 테이블을 모두 Power BI 데이터 세트로 게시하면서 예약 마법사 - 고급 게시 옵션을 표시하는 스크린샷.](assets/advanced-schedule-wizard2.png)
 
 1. (선택 사항) Power BI에서 게시된 자산의 이름을 사용자 정의할 수 있습니다. 이렇게 하는 것은 통합 문서 이름으로서 버전을 매기되(예: myworkbook_v1.1.xlsx), 게시된 Power BI 자산의 이름에 버전 번호를 표시하지 않으려 하는 경우 유용할 수 있습니다. 버전 번호가 변화하는 경우, 게시된 자산은 변화하지 않는다는 추가적인 장점이 있습니다. (여기에서 [사양](/help/analyze/legacy-report-builder/c-publish-power-bi/specifications-limits.md)을 보십시오.)
 
-**Power BI에서 표 데이터 보기**
+**Power BI에서 테이블 데이터 보기**
 
 1. Power BI에서 **[!UICONTROL Workspace]** > **[!UICONTROL 데이터 세트]** 메뉴로 이동합니다.
 
@@ -92,7 +92,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
    ![필드로서 테이블을 나열하는 선택한 게시된 데이터 세트를 표시하는 스크린샷.](assets/formatted-tables.png)
 
-1. 표와 해당 표와 연결된 열을 선택합니다.
+1. 테이블과 해당 테이블과 연결된 열을 선택합니다.
 
    ![연결된 열이 포함된 선택한 테이블을 표시하는 스크린샷](assets/view-table-dataset.png)
 
@@ -100,11 +100,11 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
    ![시각화 메뉴 및 데이터 선 그래프를 표시하는 스크린샷.](assets/bi-line-graph.png)
 
-1. 여기에서 이 데이터 세트 표로부터 시각화를 생성할 수 있습니다.
+1. 여기에서 이 데이터 세트 테이블로부터 시각화를 생성할 수 있습니다.
 
-## 모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시 {#section_0C26057C7DBB4068A643FDD688F6E463}
+## 모든 Report Builder 요청을 Power BI 데이터 세트 테이블로 게시 {#section_0C26057C7DBB4068A643FDD688F6E463}
 
-모든 요청을 데이터 세트 표로 만들고 표의 맨 위에 시각화를 만들 수 있습니다.
+모든 요청을 데이터 세트 테이블로 만들고 테이블의 맨 위에 시각화를 만들 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -114,7 +114,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 1. Report Builder 도구 모음에서 **[!UICONTROL 예약]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
 1. 기본 예약 마법사에서 **[!UICONTROL 고급 예약 옵션]**&#x200B;을 클릭합니다.
-1. [!UICONTROL 예약 마법사 - 고급]의 **[!UICONTROL 게시 옵션]** 탭에서 **[!UICONTROL 모든 Report Builder 요청을 Power BI 데이터 세트 표]**&#x200B;로 게시 옆에 있는 상자를 선택합니다(![모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시 옵션을 강조 표시하는 예약 마법사를 표시하는 스크린샷](assets/advanced-schedule-wizard2.png)).
+1. [!UICONTROL 예약 마법사 - 고급]의 **[!UICONTROL 게시 옵션]** 탭에서 **[!UICONTROL 모든 Report Builder 요청을 Power BI 데이터 세트 테이블]**&#x200B;로 게시 옆에 있는 상자를 선택합니다(![모든 Report Builder 요청을 Power BI 데이터 세트 테이블로 게시 옵션을 강조 표시하는 예약 마법사를 표시하는 스크린샷](assets/advanced-schedule-wizard2.png)).
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
@@ -134,6 +134,6 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
    >
    >워크시트에서 레이아웃 (표시되는 피벗 레이아웃, 사용자 정의 레이아웃, 일부 열)을 지정할 Report Builder 요청을 구성한 방법에 상관없이, Report Builder는 항상 동일한 2차원, 단일 머리글 행 형식 (날짜, 차원, 지표, 보고서 세트, 세그먼트)으로 요청을 게시합니다.
 
-1. 또한 **[!UICONTROL 범례]**&#x200B;라는 추가적인 표가 있습니다. 요청을 Report Builder 컨텍스트에서 떨어뜨리면 각 요청이 나타내는 사항을 기억하기 어려울 수 있습니다. 범례 표의 목적은 표 ID 아래에 각 요청의 이름을 사용자에게 보여 주는 것입니다. 다른 범례 열을 추가하여 요청의 전체 모습을 알 수도 있습니다.
+1. 또한 **[!UICONTROL 범례]**&#x200B;라는 추가적인 표가 있습니다. 요청을 Report Builder 컨텍스트에서 떨어뜨리면 각 요청이 나타내는 사항을 기억하기 어려울 수 있습니다. 범례 테이블의 목적은 테이블 ID 아래에 각 요청의 이름을 사용자에게 보여 주는 것입니다. 다른 범례 열을 추가하여 요청의 전체 모습을 알 수도 있습니다.
 
-   ![표 ID 아래에 각 요청의 이름을 보여 주는 범례 표를 표시하는 스크린샷.](assets/legend-table.png)
+   ![테이블 ID 아래에 각 요청의 이름을 보여 주는 범례 테이블을 표시하는 스크린샷.](assets/legend-table.png)

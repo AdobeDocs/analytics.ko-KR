@@ -15,7 +15,7 @@ ht-degree: 13%
 
 `trackingServerSecure` 변수는 AppMeasurement이 HTTPS를 통해 Adobe으로 데이터를 전송하는 데 사용하는 도메인을 결정합니다. 이 변수가 올바르게 정의되지 않으면 구현에서 데이터 손실이 발생할 수 있습니다.
 
-[Adobe Experience Cloud Identity 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/home) 이전에 이 변수는 타사 쿠키가 설정된 위치도 확인했습니다. Adobe은 가능한 모든 구현에서 ID 서비스를 사용하는 것이 좋습니다.
+[Adobe Experience Cloud Identity 서비스](https://experienceleague.adobe.com/en/docs/id-service/using/home) 이전에 이 변수는 타사 쿠키가 설정된 위치도 확인했습니다. Adobe은 가능한 모든 구현에서 ID 서비스를 사용하는 것이 좋습니다.
 
 ## Web SDK 확장을 사용한 Edge 도메인
 
@@ -34,7 +34,7 @@ ht-degree: 13%
 
 ## Edge 도메인 수동으로 웹 SDK 구현
 
-[`edgeDomain`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/edgedomain)을(를) 사용하여 SDK을 구성하십시오. 필드는 데이터를 보낼 도메인을 결정하는 문자열입니다.
+[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)을(를) 사용하여 SDK을 구성하십시오. 필드는 데이터를 보낼 도메인을 결정하는 문자열입니다.
 
 ```json
 alloy("configure", {
@@ -69,8 +69,8 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 `trackingServerSecure`(또는 `edgeDomain`)에 사용하는 값은 여러 요인에 따라 다릅니다.
 
-* [Adobe 관리 인증서 프로그램](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/adobe-managed-cert)에 참여
-* [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/home)를 구현하고 올바르게 설정한 경우
+* [Adobe 관리 인증서 프로그램](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)에 참여
+* [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/en/docs/id-service/using/home)를 구현하고 올바르게 설정한 경우
 
 **조직에서 Adobe 관리 인증서 프로그램에 참여하는 경우** 값을 인증서를 설정할 때 선택한 자사 도메인으로 설정하십시오. 일반적으로 이 값은 조직이 소유한 하위 도메인입니다. 예, `data.example.com`. 조직의 CNAME 레코드는 해당 데이터를 Adobe으로 리디렉션합니다.
 
@@ -92,10 +92,10 @@ Adobe은 조직 전체에서 일관성을 유지하기 위해 [솔루션 디자�
 
 ## 방문자 ID 서비스를 사용하지 않을 경우의 결과
 
-Adobe은 모든 구현에서 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/home)를 사용할 것을 강력히 권장합니다. ID 서비스는 다음과 같은 여러 가지 방법으로 구현할 수 있습니다.
+Adobe은 모든 구현에서 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/en/docs/id-service/using/home)를 사용할 것을 강력히 권장합니다. ID 서비스는 다음과 같은 여러 가지 방법으로 구현할 수 있습니다.
 
-* 수동 AppMeasurement 구현에서는 `VisitorAPI.js`을(를) 사용하고 `getInstance` 메서드를 호출합니다. 자세한 내용은 [Analytics용 Experience Cloud Identity 서비스 구현](https://experienceleague.adobe.com/ko/docs/id-service/using/implementation/setup-analytics)을 참조하십시오.
-* Adobe Analytics 태그 확장을 사용하는 구현은 [Adobe Experience Cloud ID 서비스 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. 추가되면 추가 구성이 필요하지 않습니다.
+* 수동 AppMeasurement 구현에서는 `VisitorAPI.js`을(를) 사용하고 `getInstance` 메서드를 호출합니다. 자세한 내용은 [Analytics용 Experience Cloud Identity 서비스 구현](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)을 참조하십시오.
+* Adobe Analytics 태그 확장을 사용하는 구현은 [Adobe Experience Cloud ID 서비스 태그 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. 추가되면 추가 구성이 필요하지 않습니다.
 * 모든 형식의 웹 SDK(`alloy.js` 또는 Web SDK 태그 확장)를 사용하는 구현에는 기본적으로 ID 서비스가 활성화되어 있습니다. `edgeDomain` 값을 설정하는 외에 구성이 필요하지 않습니다.
 
 **구현에서 ID 서비스를 사용하지 않는 경우** 구현에 미치는 영향을 고려하십시오.

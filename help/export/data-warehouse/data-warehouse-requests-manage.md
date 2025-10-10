@@ -1,5 +1,5 @@
 ---
-description: Data Warehouse 요청을 보고, 복제하고, 우선 순위를 다시 매기는 방법에 대해 알아봅니다.
+description: Data Warehouse 요청을 보고, 복제하고, 우선 순위를 다시 지정하는 방법을 알아봅니다.
 title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
@@ -7,7 +7,7 @@ exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 3%
 
 Data Warehouse 요청을 보려면 다음 작업을 수행하십시오.
 
-1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을 선택합니다.
+1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을(를) 선택합니다.
 
-   Data Warehouse 페이지에는 수행한 모든 요청이 표시됩니다. 데이터는 각 열에 표시됩니다. 표시할 열을 [구성](#configure-columns)할 수 있습니다.
+   Data Warehouse 페이지에 수행한 모든 요청이 표시됩니다. 데이터는 각 열에 표시됩니다. 표시할 열을 [구성](#configure-columns)할 수 있습니다.
 
    <!-- add screenshot of main page -->
 
@@ -49,7 +49,7 @@ Data Warehouse 요청을 보려면 다음 작업을 수행하십시오.
 
 예약된 요청을 편집하려면:
 
-1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을 선택합니다.
+1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을(를) 선택합니다.
 
 1. Data Warehouse 페이지에서 편집할 요청을 선택합니다.
 
@@ -65,9 +65,9 @@ Data Warehouse 요청을 보려면 다음 작업을 수행하십시오.
 
 ## 요청 내역 보기
 
-수행한 Data Warehouse 요청 내역을 볼 수 있습니다.
+Data Warehouse 요청 내역을 볼 수 있습니다.
 
-1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을 선택합니다.
+1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을(를) 선택합니다.
 
 1. Data Warehouse 페이지에서 내역을 보려는 요청을 선택합니다.
 
@@ -85,7 +85,7 @@ Data Warehouse 요청을 보려면 다음 작업을 수행하십시오.
 
    | 열 | 설명 |
    |---------|----------|
-   | [!UICONTROL **만든 날짜**] | 보고서가 생성된 날짜와 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
+   | [!UICONTROL **생성된 일자**] | 보고서가 생성된 날짜와 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
    | [!UICONTROL **시작한 날짜**] | 보고서가 시작된 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
    | [!UICONTROL **완료 날짜**] | 보고서가 완료된 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
    | [!UICONTROL **업데이트 날짜**] | 보고서를 마지막으로 업데이트한 날짜 및 시간입니다.<p>요청을 시작한 사용자의 시간대에 표시됩니다.</p> |
@@ -109,7 +109,7 @@ Data Warehouse 요청을 보려면 다음 작업을 수행하십시오.
 
 요청을 복사하면 모든 구성 옵션이 원래 요청에서 복사됩니다.
 
-1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을 선택합니다.
+1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을(를) 선택합니다.
 
 1. Data Warehouse 페이지에서 복사할 요청을 선택합니다.
 
@@ -131,7 +131,7 @@ Data Warehouse 요청을 보려면 다음 작업을 수행하십시오.
 
 예약된 요청을 취소하려면 다음 작업을 수행하십시오.
 
-1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을 선택합니다.
+1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을(를) 선택합니다.
 
 1. Data Warehouse 페이지에서 편집할 요청을 선택합니다.
 

@@ -13,7 +13,7 @@ ht-degree: 52%
 
 # SFTP 서버로 Data Warehouse 요청 보내기
 
-Adobe은 문서 [Data Warehouse 요청에 대한 보고서 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)의 [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp)에 설명된 대로 SFTP 서버로 Data Warehouse 요청 내보내기를 지원합니다.
+Adobe은 문서 [Data Warehouse 요청에 대한 보고서 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp)의 [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)에 설명된 대로 Data Warehouse 요청을 SFTP 서버로 내보낼 수 있습니다.
 
 다음 작업이 완료되었는지 확인합니다.
 
@@ -25,7 +25,7 @@ Adobe은 문서 [Data Warehouse 요청에 대한 보고서 대상 구성](/help/
 
 SFTP를 통해 Data Warehouse 요청을 성공적으로 전송하려면:
 
-1. 문서의 [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp)에 설명된 단계, [공개 키 다운로드를 포함하여 Data Warehouse 요청에 대한 보고서 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을 완료합니다.
+1. 문서 [Data Warehouse 요청에 대한 보고서 대상 구성](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp)의 [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)에 설명된 단계를 완료하고 공개 키 다운로드를 포함합니다.
 1. Data Warehouse 요청에 사용된 자격 증명으로 SFTP 사이트에 로그인합니다.
 1. 루트 디렉터리에서 `.ssh` 폴더 (이 폴더가 없는 경우 만들기)로 이동하여 이 폴더에 `authorized_keys` 파일을 저장합니다.
 

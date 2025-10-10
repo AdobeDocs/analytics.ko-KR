@@ -22,9 +22,9 @@ Adobe Analytics는 JavaScript 라이브러리를 사용하여 이미지 요청�
 Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두 가지 방법을 만들었습니다. 둘 다 `<amp-analytics>` HTML 태그를 사용합니다. 자세한 내용은 AMP의 설명서에서 [amp-analytics](https://amp.dev/documentation/components/amp-analytics)를 참조하십시오.
 
 * **`"adobeanalytics"` 템플릿 사용**: 페이지에서 바로 Analytics 요청을 구성합니다.
-* **`"analytics_nativeConfig"` 템플릿 사용**: 일반 사이트에서 배포하는 것과 동일한 AppMeasurement 코드가 들어 있는 iframe 사용
+* **`"analytics_nativeConfig"` 템플릿 사용**: 일반 사이트에서 배포하는 것과 동일한 AppMeasurement 코드가 들어 있는 iframe을 사용합니다.
 
-다음 표에서는 이 두 방법을 비교합니다.
+다음 테이블에서는 이 두 방법을 비교합니다.
 
 |   | **`"adobeanalytics"`템플릿** | **`"adobeanalytics_nativeConfig"`템플릿** |
 |---|---|---|
@@ -42,11 +42,11 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 >
 >AMP를 사용하여 `"adobeanalytics"` 템플릿과 `"adobeanalytics_nativeConfig"` 템플릿을 동일한 페이지에서 모두 사용하지 마십시오. 그럴 경우 브라우저 콘솔에서 오류가 생성되고 방문자가 두 번 카운트될 수 있습니다.
 
-## 방법 1: `"adobeanalytics"` 템플릿에 `<amp-analytics>` 태그 사용
+## 방법 1: `<amp-analytics>` 템플릿에 `"adobeanalytics"` 태그 사용
 
 `"adobeanalytics"` 추적 템플릿은 `<amp-analytics>` HTML 태그를 사용하여 추적 요청을 바로 구성합니다. 페이지 표시 또는 클릭과 같이 특정 페이지 이벤트에서 실행되는 히트 요청을 지정할 수 있습니다. 선택기를 지정하여 특정 요소 ID나 클래스에 적용되도록 클릭 이벤트를 사용자 지정할 수 있습니다. `type="adobeanalytics"`를 amp-analytics 태그에 추가하여 템플릿을 로드할 수 있습니다.
 
-다음의 코드 예제에는 두 개의 트리거 (`pageLoad`, `click`)가 정의되어 있습니다. `pageLoad` 트리거는 문서가 표시될 때 실행되며 `vars` 섹션에 정의되어 있는 대로 `pageName` 변수를 포함합니다. 두 번째 트리거인 `click`은 버튼을 클릭하면 실행됩니다. 값이 `button clicked`인 이 이벤트에 대해 `eVar1` 변수가 설정되었습니다.
+다음의 코드 예제에는 두 개의 트리거 (`pageLoad`, `click`)가 정의되어 있습니다. `pageLoad` 트리거는 문서가 표시될 때 실행되며 `vars` 섹션에 정의되어 있는 대로 `pageName` 변수를 포함합니다. 두 번째 트리거인 `click`은 버튼을 클릭하면 실행됩니다. 값이 `eVar1`인 이 이벤트에 대해 `button clicked` 변수가 설정되었습니다.
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -79,17 +79,17 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 </amp-analytics>
 ```
 
-`<amp-analytics>` 태그는 AMP에서 인식하는 데이터 값을 제공할 수 있도록 변수 대체를 지원합니다. 자세한 내용은 GitHub의 `amp-analytics`에서 지원되는 [변수](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)를 참조하십시오.
+`<amp-analytics>` 태그는 AMP에서 인식하는 데이터 값을 제공할 수 있도록 변수 대체를 지원합니다. 자세한 내용은 GitHub의 [에서 지원되는 `amp-analytics`변수](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)를 참조하십시오.
 
 >[!NOTE]
 >
->이 방법을 사용하여 Adobe에게 전송된 이미지 요청에는 많은 기본 보고서(예: 브라우저, 화면 크기 또는 레퍼러)에 대한 데이터가 포함되지 않습니다. 히트에 이 정보를 포함하려면 이 정보가 이미지 요청 쿼리 문자열의 일부로 포함되었는지 확인하십시오. 이미지 요청 쿼리 매개 변수 및 관련 변수의 전체 목록은 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
+>이 방법을 사용하여 Adobe으로 전송된 이미지 요청에는 많은 기본 보고서(예: 브라우저, 화면 크기 또는 레퍼러)에 대한 데이터가 포함되지 않습니다. 히트에 이 정보를 포함하려면 이 정보가 이미지 요청 쿼리 문자열의 일부로 포함되었는지 확인하십시오. 이미지 요청 쿼리 매개 변수 및 관련 변수의 전체 목록은 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
 
-Adobe는 내장된 AMP 함수를 사용하여 방문자를 식별하고 쿠키 `adobe_amp_id`를 설정합니다. 이 방문자 ID는 Adobe Analytics에서 설정한 다른 모든 ID에 대해 고유합니다. 방문자가 콘텐츠를 검색하는 각 CDN에 대해 서로 다른 고유 방문자가 계산되어 고유 방문자 수가 부풀려질 수 있습니다. AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별도의 보고서 세트를 사용하는 것이 좋습니다. Adobe Experience Cloud ID 서비스는 지원되지 않습니다.
+Adobe는 기본 제공 AMP 함수를 사용하여 방문자를 식별하고 쿠키 `adobe_amp_id`를 설정합니다. 이 방문자 ID는 Adobe Analytics에서 설정한 다른 모든 ID에 대해 고유합니다. 방문자가 콘텐츠를 검색하는 각 CDN에 대해 서로 다른 고유 방문자가 계산되어 고유 방문자 수가 부풀려질 수 있습니다. AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별도의 보고서 세트를 사용하는 것이 좋습니다. Adobe Experience Cloud ID 서비스는 지원되지 않습니다.
 
 이 솔루션을 사용하려면 `host` 속성에서 지정하는 추적 서버가 주 사이트의 추적 서버와 일치하여 기존의 개인정보 처리방침 제어 사항이 준수되도록 해야 한다는 것입니다. 아니면, AMP를 사용하여 페이지에 대한 개인정보 처리방침을 만드십시오.
 
-## 방법 2: `"adobeanalytics_nativeConfig"` 템플릿에 `<amp-analytics>` 태그 사용
+## 방법 2: `<amp-analytics>` 템플릿에 `"adobeanalytics_nativeConfig"` 태그 사용
 
 `"adobeanalytics_nativeConfig"` 태그는 일반적인 웹 페이지에서 사용하는 것과 동일한 태깅 방식을 사용하게 되므로 구현하기가 더 쉽습니다. `amp-analytics` 태그에 다음 내용을 추가하십시오.
 
@@ -147,7 +147,7 @@ Adobe는 내장된 AMP 함수를 사용하여 방문자를 식별하고 쿠키 `
 
 이 접근 방법에서는 `iframeMessage` 요청 매개 변수에 추가된 쿼리 문자열 매개 변수를 통해 데이터를 유틸리티 웹 페이지에 보냅니다. 이러한 쿼리 문자열 매개 변수의 이름은 `stats.html` 페이지가 이 매개 변수에서 데이터를 수집하도록 구성되어 있는 한 원하는 방식대로 지정할 수 있습니다.
 
-`"adobeanalytics_nativeConfig"` 템플릿에서도 `<amp-analytics>` 태그의 `extraUrlParams` 섹션에 나열된 변수를 기반으로 쿼리 문자열 매개 변수를 추가합니다. 위의 예에는 `pageName` 및 `v1` 매개 변수가 포함되어 있습니다.
+`"adobeanalytics_nativeConfig"` 템플릿에서도 `extraUrlParams` 태그의 `<amp-analytics>` 섹션에 나열된 변수를 기반으로 쿼리 문자열 매개 변수를 추가합니다. 위의 예에는 `pageName` 및 `v1` 매개 변수가 포함되어 있습니다.
 
 >[!IMPORTANT]
 >

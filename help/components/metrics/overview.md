@@ -4,7 +4,7 @@ description: 시간에 따른 차원 항목 또는 데이터의 수량을 봅니
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 325a42c080290509309e90c9127138800d5ac496
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 

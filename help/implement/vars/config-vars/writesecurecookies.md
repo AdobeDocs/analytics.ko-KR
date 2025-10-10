@@ -33,7 +33,7 @@ ht-degree: 76%
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
-3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
+3.  [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
 4. [!UICONTROL 쿠키] 아코디언을 확장하면 [!UICONTROL 보안 쿠키 작성] 확인란이 표시됩니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.writeSecureCookies

@@ -24,7 +24,7 @@ ht-degree: 84%
 
 * 처리 시간 단축 (72시간 → 24시간)
 * 분류를 관리하기 위해 재설계된 UI
-* [분류 데이터용 Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 향후 Adobe Experience Platform에서 분류 데이터를 사용하는 옵션
+* [분류 데이터용 Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 향후 Adobe Experience Platform에서 분류 데이터를 사용하는 옵션
 
 또한 분류 세트와 함께 출시된 백엔드 아키텍처에는 몇 가지 주목할 만한 개선 사항이 포함되어 있습니다.
 

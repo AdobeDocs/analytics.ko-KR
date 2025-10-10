@@ -15,7 +15,7 @@ ht-degree: 80%
 
 `s_objectID` 변수는 링크에 대한 고유 식별자를 제공합니다. 이 변수는 [Activity Map](/help/analyze/activity-map/overview.md)의 보고서를 더 정확하게 만드는 데 사용됩니다. 자주 변경되는 페이지에 링크가 있는 경우 데이터를 원하는 대로 올바로 그룹화할 수 있도록 `s_objectID` 변수를 사용하여 Activity Map에 고유한 링크 위치를 알려 줄 수 있습니다.
 
-Activity Map Adobe 정확도가 조직에 중요한 경우에는 사이트에 있는 링크의 `onClick` 이벤트에 `s_objectID` 변수를 포함하는 것이 좋습니다.
+Activity Map Adobe 정확도가 조직에 중요한 경우에는 사이트에 있는 링크의 `s_objectID` 이벤트에 `onClick` 변수를 포함하는 것이 좋습니다.
 
 ## Adobe Analytics 확장을 사용한 개체 ID
 

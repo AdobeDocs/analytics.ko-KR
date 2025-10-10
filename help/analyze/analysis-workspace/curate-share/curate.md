@@ -22,14 +22,14 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 조정](https://video.tv.adobe.com/v/31298?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 조정](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 
 ## 프로젝트 조정 적용
 
-1. **[!UICONTROL 공유]** > **[!UICONTROL 프로젝트 데이터 조정]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 공유]** > **[!UICONTROL 프로젝트 데이터 조정]**을 선택합니다.
 프로젝트에 사용되는 구성 요소가 자동으로 추가됩니다.
 프로젝트에 여러 보고서 세트가 있는 경우 프로젝트의 각 보고서 세트에 대한 조정 드롭 대상이 표시됩니다.
 1. (선택 사항) 구성 요소를 더 추가하려면 왼쪽 패널에서 공유할 구성 요소를 해당 데이터 보기에 대한 **[!UICONTROL 구성 요소 조정]** 드롭 영역으로 드래그합니다.

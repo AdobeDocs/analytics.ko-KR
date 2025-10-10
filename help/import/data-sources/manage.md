@@ -75,5 +75,5 @@ ht-degree: 7%
 * **[!UICONTROL 행]**: 파일의 총 행 수입니다.
 * **[!UICONTROL 오류]**: 오류가 포함된 행 수입니다.
 * **[!UICONTROL 경고]**: 더 이상 사용되지 않습니다. 경고가 포함된 행 수입니다.
-* **[!UICONTROL 받음]**: Adobe에서 파일 처리를 시작한 날짜와 시간입니다.
+* **[!UICONTROL 받음]**: Adobe에서 파일 처리를 시작한 날짜 및 시간입니다.
 * **[!UICONTROL 상태]**: 파일의 상태(`Success` 또는 `Failed`)입니다.

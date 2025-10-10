@@ -74,7 +74,7 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 정의 보고서에 대한 Analytics 데이터 사본을 의미합니다. <p>요청 관리자에서 요청을 보고, 복제하고, 요청의 우선순위를 변경할 수 있습니다.</p> | [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크에 대한 등급을 지정하고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상자 참여를 모니터링하도록 설계되었습니다. 이를 통해 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고, 대상자의 필요 사항과 행동에 따라 대응할 수 있습니다. | [Activity Map 개요](/help/analyze/activity-map/overview.md) |
-   | 추천 Classic | 추천은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자의 흥미를 끌 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시하는 Adobe Target 기능입니다. | [추천](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=ko) |
+   | 추천 Classic | 추천은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자의 흥미를 끌 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시하는 Adobe Target 기능입니다. | [추천](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 이 기능은 더 이상 지원되지 않습니다. |  |
    | 모바일 서비스 | 이 기능은 더 이상 지원되지 않습니다. |  |
    | Analytics 대시보드 (모바일 앱) | Adobe Analytics 대시보드 앱은 언제 어디서나 Adobe Analytics를 통해 통찰력을 제공합니다. 사용자는 앱을 통해 Adobe Analytics 데스크탑 UI를 사용하여 만든 직관적인 스코어카드를 볼 수 있습니다. | iOS App Store 또는 Google Play 스토어의 Adobe Analytics 대시보드 앱 |

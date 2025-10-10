@@ -12,7 +12,7 @@ ht-degree: 81%
 
 # 속성과 마케팅 채널 - 모범 사례
 
-[마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 관한 현재 지침은 [속성](/help/analyze/analysis-workspace/attribution/overview.md) 또는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko#cja-usecases)가 존재하지 않았을 때 작성되었습니다.
+[마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 관한 현재 지침은 [속성](/help/analyze/analysis-workspace/attribution/overview.md) 또는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases)가 존재하지 않았을 때 작성되었습니다.
 
 마케팅 채널 구현의 미래를 보장하고 Attribution 및 Customer Journey Analytics와의 보고 일관성을 보장하기 위해 Adobe는 업데이트된 모범 사례 세트를 발표하고 있습니다. 이미 마케팅 채널을 사용하고 있는 경우 이러한 새로운 지침 중에서 최상의 옵션을 선택할 수 있습니다. 마케팅 채널을 처음 사용하는 경우 모든 새로운 모범 사례를 준수하는 것이 좋습니다.
 

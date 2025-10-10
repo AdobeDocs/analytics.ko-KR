@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspace의 데이터 사전을 사용하면 Analysis Workspace에서 의도한 사용, 승인된 사용, 중복 등을 포함하여 다양한 구성 요소를 카탈로그화하고 추적할 수 있습니다.
+description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승인, 중복 등의 Analysis Workspace의 다양한 구성 요소를 분류하고 추적할 수 있습니다.
 title: 데이터 사전의 항목 편집
 feature: Components
 role: Admin
@@ -7,7 +7,7 @@ exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
 source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 

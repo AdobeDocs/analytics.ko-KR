@@ -1,5 +1,5 @@
 ---
-description: Report Builder 사용자 인터페이스에 액세스하지 않고 Report Builder 기능과 함께 Microsoft Excel을 사용하는 방법을 알아봅니다.
+description: Report Builder 사용자 인터페이스에 액세스하지 않고 Report Builder 함수와 함께 Microsoft Excel을 사용하는 방법을 알아봅니다.
 title: Report Builder 함수와 함께 Microsoft Excel을 사용하는 방법 알아보기
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 41%
+source-wordcount: '500'
+ht-degree: 35%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 41%
 
 Report Builder 사용자 인터페이스에 액세스하지 않고도 Report Builder 기능을 사용하여 기능에 액세스할 수 있습니다.
 
-예를 들어 다른 소스에서 Excel로 가져온 데이터를 기반으로 입력 필터를 사용하여 Report Builder 요청을 자동으로 새로 고치려면 RefreshRequestsInCellsRange(..) 문자열을 사용합니다. 함수의 두 번째 매개 변수와 함께 세 보고서 중 어느 보고서로든 데이터를 보내도록 구성할 수 있습니다. 모든 호출은 비동기적으로 수행되며 즉시 반환되고 완전히 실행될 때까지 기다리지 않습니다.
+예를 들어 다른 소스에서 Excel로 가져온 데이터를 기반으로 입력 필터로 Report Builder 요청을 자동으로 새로 고치려면 문자열 RefreshRequestsInCellsRange(..) 함수를 사용합니다. 모든 호출은 비동기적으로 수행되며 즉시 반환되고 완전히 실행될 때까지 기다리지 않습니다.
 
 **요구 사항**
 
@@ -29,7 +29,7 @@ Report Builder 사용자 인터페이스에 액세스하지 않고도 Report Bui
 | 함수 이름 | 유형 | 설명 |
 |:---| --- | ---|
 | AsyncRefreshAll() | 문자열 | 통합 문서에 있는 모든 Report Builder 요청을 새로 고칩니다. |
-| AsyncRefreshRange(string rangeAddressInA1Format) | 문자열 | 지정된 셀 범위 주소에 있는 모든 Report Builder 요청을 새로 고칩니다(&quot;Sheet1!A2:A10&quot;과 같이 A1 형식으로 셀 범위를 나타내는 문자열 표현식). |
+| AsyncRefreshRange(string rangeAddressInA1Format) | 문자열 | 지정된 셀 범위 주소(A1 형식의 셀 범위를 나타내는 문자열 식(예: &quot;Sheet1!A2:A10&quot;))에 있는 모든 Report Builder 요청을 새로 고칩니다. |
 | AsyncRefreshRangeAltTextParam() | 문자열 | Ms 양식 컨트롤의 대체 텍스트를 통과하는 지정된 셀 범위에 있는 모든 Report Builder 요청을 새로 고칩니다. |
 | AsyncRefreshActiveWorksheet() | 문자열 | 활성 워크시트에 있는 모든 Report Builder 요청을 새로 고칩니다. |
 | AsyncRefreshWorksheet(string worksheetName) | 문자열 | 지정된 워크시트(탭에 나타나는 워크시트 이름)에 있는 모든 Report Builder 요청을 새로 고칩니다. |

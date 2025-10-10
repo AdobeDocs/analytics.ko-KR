@@ -20,7 +20,7 @@ ht-degree: 69%
 
 분석가는 통합 문서를 잠궈서 조직 내의 다른 사용자들이 통합 문서 요청을 조작하지 못하게 보호할 수 있습니다. 그러면서도 이러한 사용자들은 통합 문서의 요청을 여전히 새로 고칠 수 있습니다.
 
-통합 문서를 편집하지 못하게 보호하려면 Report Builder 도구 모음(![](assets/locked_icon.png))에서 **[!UICONTROL 잠김]**&#x200B;을 클릭하세요.
+통합 문서를 편집하지 못하게 보호하려면 Report Builder 도구 모음(**[!UICONTROL )에서]**&#x200B;잠김![](assets/locked_icon.png)을 클릭하세요.
 
 통합 문서의 보호를 해제하려면 **[!UICONTROL 잠금 해제됨]**( ![](assets/unlocked_icon.png))을(를) 클릭합니다.
 

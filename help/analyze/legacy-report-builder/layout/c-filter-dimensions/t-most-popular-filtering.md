@@ -18,7 +18,7 @@ ht-degree: 89%
 
 AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등급 및 조건부 필터.
 
-가장 자주 사용하는 필터는 [!UICONTROL Includs All], [!UICONTROL Includes Any] 또는 [!UICONTROL Excludes All]과 같은 조건 또는 조건 그룹과 함께 [!UICONTROL Page does not contain &#x200B;]*`<product name>`*과 같이 AND/OR 조건이 있는 부울 로직을 사용하여 구성하는 표현식 필터입니다. 이 통합 문서 또는 다른 통합 문서에서 다른 요청에 대해 이러한 표현식을 [저장](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)할 수 있습니다.
+가장 자주 사용하는 필터는 [!UICONTROL Includs All], [!UICONTROL Includes Any] 또는 [!UICONTROL Excludes All]과 같은 조건 또는 조건 그룹과 함께 [!UICONTROL Page does not contain ]*`<product name>`*과 같이 AND/OR 조건이 있는 부울 로직을 사용하여 구성하는 표현식 필터입니다. 이 통합 문서 또는 다른 통합 문서에서 다른 요청에 대해 이러한 표현식을 [저장](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)할 수 있습니다.
 
 **가장 자주 사용하는 필터를 만드는 방법**
 
@@ -28,7 +28,7 @@ AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등
 
    ![응용 프로그램, 사용자 및 프로젝트별로 필터링할 수 있는 옵션이 있는 필터 정의 대화 상자를 표시하는 스크린샷입니다.](/help/admin/tools/assets/filter.png)
 
-1. [!UICONTROL 페이지 선택] 양식에서 **[!UICONTROL 가장 자주 사용]**&#x200B;을 활성화한 후 다음 선택 사항을 구성합니다.
+1.  [!UICONTROL 페이지 선택] 양식에서 **[!UICONTROL 가장 자주 사용]**&#x200B;을 활성화한 후 다음 선택 사항을 구성합니다.
 
    **시작 등급:** 차원의 시작 등급. 기본 등급 1은 보고된 데이터 목록에서 맨 위에 있는 항목을 가리킵니다. 예를 들어 [!UICONTROL 페이지] 차원의 경우, 시작 표시 1은 사이트에서 가장 요청을 많이 받는 한 페이지임을 가리킵니다. 10 또는 다른 값을 시작 등급 셀로 지정할 수 있으며 이렇게 되면 최상위 보고서로서 10으로 시작하는 보고서가 만들어집니다. 지표는 활동이 가장 큰 라인 항목이 목록에서 먼저 보고되도록 내림차순으로 배열됩니다. 하나의 요청에 50,000개가 넘는 페이지 이름이 필요하지만 보고할 페이지는 수천 개만 보유하고 있을 경우 요청을 복사하고 시작 등급을 변경하여 50,000개의 블록에서 적절한 데이터를 검색할 수 있습니다.
 

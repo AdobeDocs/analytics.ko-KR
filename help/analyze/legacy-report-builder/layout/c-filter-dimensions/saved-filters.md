@@ -1,5 +1,5 @@
 ---
-description: Report Builder에 필터 또는 기타 매개 변수를 저장하고 다른 워크시트 또는 통합 문서에서 사용할 수 있습니다. 이러한 매개 변수는 다른 컴퓨터의 다른 Report Builder 사용자가 사용할 수 있도록 Analytics에 저장됩니다.
+description: Report Builder에서 필터 또는 기타 매개 변수를 저장하고 다른 워크시트 또는 통합 문서에서 사용할 수 있습니다. 이러한 매개 변수는 다른 컴퓨터의 다른 Report Builder 사용자가 사용할 수 있도록 Analytics에 저장됩니다.
 title: 저장한 필터
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 {{legacy-arb}}
 
-Report Builder에 필터 또는 기타 매개 변수를 저장하고 다른 워크시트 또는 통합 문서에서 사용할 수 있습니다. 이러한 매개 변수는 다른 컴퓨터의 다른 Report Builder 사용자가 사용할 수 있도록 Analytics에 저장됩니다.
+Report Builder에서 필터 또는 기타 매개 변수를 저장하고 다른 워크시트 또는 통합 문서에서 사용할 수 있습니다. 이러한 매개 변수는 다른 컴퓨터의 다른 Report Builder 사용자가 사용할 수 있도록 Analytics에 저장됩니다.
 
 필터를 만들면 [!UICONTROL 페이지 선택] 양식에서 필터를 저장합니다. 이 프로시저의 예제는 [특정 필터](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)를 참조하십시오.
 

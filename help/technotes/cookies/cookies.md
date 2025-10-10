@@ -18,7 +18,7 @@ ht-degree: 100%
 ## 브라우저는 쿠키 사용을 어떻게 제한했습니까?
 
 >[!NOTE]
->[Cross-Device Analytics](/help/components/cda/overview.md#cda) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko#comparing-cja-to-traditional-adobe-analytics)는 해시된 로그인 id와 같은 사용자 ID를 사용하여 쿠키 간에 연결할 수 있습니다.
+>[Cross-Device Analytics](/help/components/cda/overview.md#cda) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics)는 해시된 로그인 id와 같은 사용자 ID를 사용하여 쿠키 간에 연결할 수 있습니다.
 
 ### 서드파티 쿠키 제한
 
@@ -178,4 +178,4 @@ CNAME 구현이 자신의 웹 사이트와 동일한 도메인에 설정되어 �
 >[!MORELIKETHIS]
 >
 >[브라우저 쿠키 제안의 영향을 경감하기 위한 옵션](cookieless.md)
->>[Apple의 Adobe Analytics에 대한 New App Tracking Transparency Framework](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=ko)
+>>[Apple의 Adobe Analytics에 대한 New App Tracking Transparency Framework](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)

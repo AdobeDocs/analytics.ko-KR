@@ -30,7 +30,7 @@ Analytics 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 게시](https://video.tv.adobe.com/v/37037?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 게시](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Analytics 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 �
 ## [!UICONTROL 세그먼트 빌더]에서 세그먼트 게시
 
 1. Adobe Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**(으)로 이동
-1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**&#x200B;를 선택하십시오.
+1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**를 선택하십시오.
    ![Experience Cloud 게시](assets/publish-ec.png)
 1. 세그먼트의 제목과 설명을 입력합니다. 이러한 필드는 세그먼트를 저장하기 전에 필요합니다.
 1. **[!UICONTROL Experience Cloud 게시]** 섹션에서 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]** 옵션을 선택합니다.
@@ -127,14 +127,14 @@ Analytics 세그먼트를 8시간 이내에 Experience Cloud에 게시할 수 �
 
 1. 페이지를 로드하기 전에 Chrome 개발자 도구를 실행합니다.
 1. 페이지를 로드하고 애플리케이션 > 쿠키를 선택합니다. Adobe Audience Manager UUID는 서드파티에서 설정해야 합니다
-Demdex 쿠키(아래 예에서 [adobe.demdex.net](https://experienceleague.adobe.com/ko/docs/audience-manager/user-guide/reference/demdex-calls)). 필드 demdex는 Adobe Audience Manager UUID 세트입니다
+Demdex 쿠키(아래 예에서 [adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)). 필드 demdex는 Adobe Audience Manager UUID 세트입니다
 브라우저(아래 예에서 `35721780439475290181087231320657663953`)에서.
 
    ![Chrome Developer Tools](assets/devtools.png)
 
 ## Audience Manager [!UICONTROL 방문자 프로필 뷰어] 사용
 
-[!UICONTROL 방문자 프로필 뷰어]를 로드하면 기본적으로 브라우저의 Adobe Audience Manager UUID가 사용됩니다. 다른 사용자에 대한 트레이트 인식을 확인하는 경우 UUID 필드에 UUID를 입력하고 [!UICONTROL 새로 고침]을 클릭합니다. 자세한 내용은 [방문자 프로필 뷰어](https://experienceleague.adobe.com/ko/docs/audience-manager/user-guide/features/visitor-profile-viewer)를 참조하십시오.
+[!UICONTROL 방문자 프로필 뷰어]를 로드하면 기본적으로 브라우저의 Adobe Audience Manager UUID가 사용됩니다. 다른 사용자에 대한 트레이트 인식을 확인하는 경우 UUID 필드에 UUID를 입력하고 [!UICONTROL 새로 고침]을 클릭합니다. 자세한 내용은 [방문자 프로필 뷰어](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer)를 참조하십시오.
 
 ## [!DNL Audience Manager]에서 세그먼트 트레이트 보기
 

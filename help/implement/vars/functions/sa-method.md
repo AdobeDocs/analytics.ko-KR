@@ -32,7 +32,7 @@ ht-degree: 42%
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음 [!UICONTROL Adobe Experience Platform Web SDK] 아래의 **[!UICONTROL 구성]** 단추를 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음 **[!UICONTROL Adobe Experience Platform Web SDK]** 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
 1. [!UICONTROL 데이터스트림]에서 각 환경의 드롭다운 목록에서 원하는 데이터스트림을 선택합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
@@ -25,7 +26,7 @@ ht-degree: 2%
 1. 데이터 블록을 만듭니다.
 데이터 블록 만들기에 대한 자세한 내용은 [데이터 블록 만들기](/help/analyze/report-builder/create-a-data-block.md)를 참조하십시오.
 
-1. **[!UICONTROL 보고서 세트]** 섹션에서 *셀 아이콘*&#x200B;을 클릭합니다.
+1. *보고서 세트* 섹션에서 **[!UICONTROL 셀 아이콘]**&#x200B;을 클릭합니다.
 
 1. 선택한 셀에 보고서 세트를 추가할 셀 위치를 선택합니다.
 

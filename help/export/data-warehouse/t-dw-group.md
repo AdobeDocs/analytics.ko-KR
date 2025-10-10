@@ -1,5 +1,5 @@
 ---
-description: 관리자가 사용자에 대한 Data Warehouse 보고 액세스 권한을 활성화할 수 있는 방법을 설명하는 단계에 대해 알아봅니다.
+description: 관리자가 Data Warehouse 보고 액세스 권한을 사용자에 대해 활성화할 수 있는 방법을 설명하는 단계에 대해 알아봅니다.
 title: Data Warehouse 권한 관리
 feature: Data Warehouse
 solution: Analytics

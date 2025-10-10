@@ -27,9 +27,9 @@ Analysis Workspace는 보고서의 세부기간을 기준으로 고유 방문자
 | 사용된 명령 | 쿼리 매개변수 (수집 방법) | 제공 시점 |
 | --- | --- | --- |
 | 1 | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 변수가 설정되어 있습니다. |
-| 2 | `aid` | 방문자에게 기존 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko) 쿠키가 있습니다. 방문자 ID 서비스를 구현하지 않은 상태에서 또는 구현하기 전에 구현을 설정하십시오. |
-| 3 | `mid` | 방문자에게 기존 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko) 쿠키가 있습니다. [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 사용하여 구현을 설정하십시오. Adobe 가능한 경우 모든 구현에 ID 서비스를 사용하는 것이 좋습니다. |
-| 4 | `fid` | 방문자에게 기존 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko) 쿠키가 있습니다. 또는 어떤 이유에서든 `aid`와 `mid`를 설정할 수 없을 경우입니다. |
+| 2 | `aid` | 방문자에게 기존 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) 쿠키가 있습니다. 방문자 ID 서비스를 구현하지 않은 상태에서 또는 구현하기 전에 구현을 설정하십시오. |
+| 3 | `mid` | 방문자에게 기존 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) 쿠키가 있습니다. [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 사용하여 구현을 설정하십시오. Adobe 가능한 경우 모든 구현에 ID 서비스를 사용하는 것이 좋습니다. |
+| 4 | `fid` | 방문자에게 기존 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) 쿠키가 있습니다. 또는 어떤 이유에서든 `aid`와 `mid`를 설정할 수 없을 경우입니다. |
 | 5 | IP 주소, 사용자 에이전트, 게이트웨이 IP 주소 | 방문자의 브라우저가 쿠키를 허용하지 않는 경우 고유 방문자를 식별하는 마지막 방법입니다. |
 
 >[!NOTE]

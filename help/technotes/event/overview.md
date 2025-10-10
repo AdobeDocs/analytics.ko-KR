@@ -6,7 +6,7 @@ feature: Curate and Share
 source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Analytics는 세그먼테이션을 사용하여 데이터에 집중하거�
 데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터의 변형 분석 및 통신](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 * **0:27**: 세그먼테이션을 사용하여 데이터 제외
-* **2:55**: 이전 범위에 이벤트 비교
+* **2:55**: 이전 범위와 이벤트 비교
 * **8:42**: 계산된 지표를 사용하여 데이터 유도
 * **11:46**: 사용자에게 영향 전달
 

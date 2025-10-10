@@ -37,7 +37,7 @@ ht-degree: 80%
 1. 셀 범위에서 선택할지 또는 목록에서 선택할지를 결정합니다.
 1. 목록에서 선택하는 경우 **[!UICONTROL 추가]**&#x200B;를 클릭하고 폴아웃 경로에 추가할 체크포인트를 선택합니다. 3 및 8 체크포인트 사이에서 정의할 수 있습니다. **[!UICONTROL 더 보기]**&#x200B;를 클릭하여 사용 가능한 요소를 검색합니다.
 
-   필터 세분화에 대한 자세한 내용은 [필터 Dimension](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)을 참조하세요.
+   필터 세분화에 대한 자세한 내용은 [차원 필터링](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)을 참조하십시오.
 
 1. **[!UICONTROL 사용 가능한 요소]**&#x200B;를 선택하고 주황색 화살표를 클릭하여 왼쪽 열에서 오른쪽으로 이동합니다.
 1. **[!UICONTROL 확인]**&#x200B;을 세 번 클릭하고 **[!UICONTROL 마침]**&#x200B;을 클릭합니다.

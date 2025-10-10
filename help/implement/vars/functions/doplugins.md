@@ -26,13 +26,13 @@ ht-degree: 63%
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음 [!UICONTROL Adobe Experience Platform Web SDK] 아래의 **[!UICONTROL 구성]** 단추를 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음 **[!UICONTROL Adobe Experience Platform Web SDK]** 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
 1. [!UICONTROL 데이터 수집]에서 **[!UICONTROL 이벤트 전송 전 편집 콜백 코드]** 단추를 클릭합니다.
 1. 편집기에 원하는 코드를 넣습니다.
 
 ## 웹 SDK을 수동으로 구현하는 `onBeforeEventSend` 사용
 
-웹 SDK에서 `doPlugins` 대신 유사한 기능을 사용하는 `onBeforeEventSend`을(를) 사용합니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#modifying-events-globally)을 참조하십시오.
+웹 SDK에서 `doPlugins` 대신 유사한 기능을 사용하는 `onBeforeEventSend`을(를) 사용합니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
 
 ```js
 // Set the trackingCode XDM field to "New value"

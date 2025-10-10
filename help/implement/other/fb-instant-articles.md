@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Facebook 인스턴트 아티클을 사용하면 게시자가 Facebook에서 빠른 대화형 문서를 만들기 수 있습니다. 인스턴트 아티클은 모바일 웹보다 최고 10배 더 빠르게 콘텐츠를 로드할 수 있습니다.
 
-Facebook 인스턴트 아티클에 Adobe Analytics를 포함하여 방문자 행동을 추적할 수 있습니다. 게시자 콘텐츠는 게시자의 웹 사이트가 아니라 Facebook 앱 내에 있으므로, 태깅 접근 방식은 표준 Analytics 구현과는 다소 다릅니다.
+Facebook 인스턴트 아티클에 Adobe Analytics를 임베드하여 방문자 행동을 추적할 수 있습니다. 게시자 콘텐츠는 게시자의 웹 사이트가 아니라 Facebook 앱 내에 있으므로, 태깅 접근 방식은 표준 Analytics 구현과는 다소 다릅니다.
 
 ## 워크플로
 
@@ -68,7 +68,7 @@ Adobe Analytics를 구현하는 주요 워크플로는 다음과 같습니다.
 
 ### 3단계: 각 Facebook 인스턴트 아티클 페이지에서 `stats.html` 참조
 
-Facebook 인스턴트 아티클 콘텐츠를 만들 때 분석 HTML 콘텐츠를 iframe 내에 포함하십시오. 예:
+Facebook 인스턴트 아티클 콘텐츠를 만들 때 분석 HTML 콘텐츠를 iframe 내에 임베드하십시오. 예:
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>

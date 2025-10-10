@@ -20,7 +20,7 @@ ht-degree: 8%
 
 이 차원은 [컨텍스트 데이터 변수](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`에서 데이터를 검색합니다. 구현에서 [Activity Map](/help/analyze/activity-map/overview.md)을 사용하는 경우, 이 컨텍스트 데이터 변수는 링크를 클릭할 때 자동으로 데이터를 수집합니다.
 
-클릭한 주어진 링크에 대해 Activity Map은 다음 (순서대로)을 검색합니다.
+클릭한 특정 링크에 대해 Activity Map은 다음 링크를 (순서대로) 검색합니다.
 
 1. `s_objectID` 변수
 1. 링크의 내부 텍스트

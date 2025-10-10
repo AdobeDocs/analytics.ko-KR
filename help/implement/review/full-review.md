@@ -17,7 +17,7 @@ ht-degree: 80%
 
 ## &#x200B;1. 구현이 비즈니스 요구 사항에 부합하는지 확인합니다
 
-변화하는 비즈니스 요구 사항을 검토하려면 비즈니스 소유자 및/또는 분석가와 만나보십시오. 구현에서 현재 충족되지 않는 요구 사항이나 측정 기회에 대해 KPI 및 측정 계획을 업데이트하는 방법을 알아봅니다. [BRD 및 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=ko#implementation)에 변경 내용을 기록해야 합니다.
+변화하는 비즈니스 요구 사항을 검토하려면 비즈니스 소유자 및/또는 분석가와 만나보십시오. 구현에서 현재 충족되지 않는 요구 사항이나 측정 기회에 대해 KPI 및 측정 계획을 업데이트하는 방법을 알아봅니다. [BRD 및 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation)에 변경 내용을 기록해야 합니다.
 
 ## &#x200B;2. 지표 및 변수가 계속 제대로 작동하는지 확인합니다
 

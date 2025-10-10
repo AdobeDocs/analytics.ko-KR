@@ -51,7 +51,7 @@ Report Builder UI에서 사용되는 언어를 선택하려면
 
 1. **[!UICONTROL 언어]** 드롭다운 메뉴에서 언어를 선택합니다.
 
-   ![Report Builder 날짜 범위 창에 영어가 선택된 언어 목록이 표시됩니다.](./assets/image39.png)
+   ![영어가 선택된 언어 목록을 표시하는 Report Builder 날짜 범위 창](./assets/image39.png)
 
 1. **[!UICONTROL 적용].** 클릭
 

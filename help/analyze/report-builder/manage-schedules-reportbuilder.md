@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
+exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
+source-git-commit: 6ec04fcc250b2858987ac7d70255310be910386f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -71,6 +72,4 @@ ht-degree: 3%
    * ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg)은 통합 문서가 성공적으로 전송되었음을 나타냅니다.
    * ![AlertRed](/help/assets/icons/AlertRed.svg)은(는) 오류가 발생했음을 나타냅니다.
 
-또는 **[!UICONTROL 통합 문서]** 탭에서 하나 이상의 선택한 통합 문서에 대해 ![기록](/help/assets/icons/History.svg)을 선택할 수 있습니다. 이 작업은 선택한 항목별로 필터링된 목록이 있는 **[!UICONTROL 기록]** 탭을 표시합니다. 필터를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오.
-
-
+또는 ![통합 문서](/help/assets/icons/History.svg) 탭에서 하나 이상의 선택한 통합 문서에 대해 **[!UICONTROL 기록]**&#x200B;을 선택할 수 있습니다. 이 작업은 선택한 항목별로 필터링된 목록이 있는 **[!UICONTROL 기록]** 탭을 표시합니다. 필터를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오.

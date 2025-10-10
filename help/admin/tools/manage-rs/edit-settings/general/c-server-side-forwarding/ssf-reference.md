@@ -32,7 +32,7 @@ ht-degree: 97%
 
 | HTTP 헤더 | 설명 | Audience Manager가 허용한 h_key |
 | --- | --- | --- |
-| 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은 `host name .demdex.net`으로 나타납니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)를 참조 하십시오. | `h_host` |
+| 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은 `host name .demdex.net`으로 나타납니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)를 참조 하십시오. | `h_host` |
 | User-Agent | Analytics에 전달된 User-Agent 헤더로 설정합니다. | `h_user-agent` |
 | Accept-Language | Analytics에 전달된 `Accept-Language` 헤더로 설정합니다. | `h_accept-language` |
 | Referer | Analytics로 전달되거나 Analytics로 전달된 `Referer` 헤더에서 수집한 페이지 URL로 설정합니다. | `h_referer` |

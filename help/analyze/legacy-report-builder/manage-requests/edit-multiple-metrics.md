@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '591'
 ht-degree: 28%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 28%
 
 지표를 바꿀 때 다음 지침을 고려하십시오.
 
-* 1:1 대체만 허용됩니다. 1:many 또는 many:1은 허용되지 않습니다.
+* 1:1개의 대체만 허용됩니다. 1:many 이상:1은(는) 허용되지 않습니다.
 * 선택한 지표가 선택한 요청 중 하나에 존재하지 않으면 요청은 변경되지 않은 상태로 유지됩니다.
 * 새 지표는 대체된 지표와 동일한 위치에 배치됩니다.
 

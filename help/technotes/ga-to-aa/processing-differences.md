@@ -5,8 +5,8 @@ feature: Third-party Integration
 exl-id: 3e457915-3c2d-49f7-9b77-df18c04d49cd
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 100%
+source-wordcount: '501'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics와 Google Analytics는 모두 Analytics 도구이지만 플랫�
 
 [!UICONTROL 방문 횟수] (Google Analytics에서는 세션이라고 함)는 짧은 시간에 동일한 사용자가 만든 페이지 보기 수 그룹입니다. [!UICONTROL 두 플랫폼의 방문 횟수는 일반적으로 비활성 상태가 30분간 지속되면 만료됩니다. ] 두 플랫폼 모두 [!UICONTROL 방문]이 만료되면 사용자 지정이 가능합니다. 각 플랫폼에서 차이가 발생할 수 있는 여러 가지 시나리오가 있습니다.
 
-* **하루의 끝:** Google Analytics의 모든 세션은 그날 오후 11시 59분 이후에 만료됩니다. 사용자가 오전 12시 이후에도 여전히 사이트에서 활성 상태인 경우 새 세션이 만들어집니다. Adobe Analytics는 그다음 날의 방문을 동일한 방문의 일부로 간주합니다.
+* **하루의 끝:** Google Analytics의 모든 세션은 그날 오후 11시:59분 이후에 만료됩니다. 사용자가 오전 12시 이후에도 여전히 사이트에서 활성 상태인 경우 새 세션이 만들어집니다. Adobe Analytics는 그다음 날의 방문을 동일한 방문의 일부로 간주합니다.
 * **다른 캠페인:** 사용자의 캠페인 소스가 변경되면 Google Analytics에서 새 세션이 시작됩니다. 새 [!UICONTROL 추적 코드] 값이 Adobe Analytics에 표시되면 동일한 방문의 일부로 간주됩니다.
 * **수동 세션 재정의:** `sessionControl`을 사용하여 세션을 수동으로 시작하거나 종료하는 경우 Google Analytics에 새 세션이 시작됩니다. [!UICONTROL Adobe Analytics에서는 방문을 수동으로 종료할 수 없습니다.]
 * **Adobe Analytics의 이상치 방문 감지:** 사용자가 12시간 동안 지속적으로 활동하거나, 2500개 히트 또는 100초 이내에 100개 히트 수에 도달하면 Adobe Analytics에서 새 [!UICONTROL 방문]이 자동으로 시작됩니다. 이러한 각 탐지 기준은 일반적으로 보트 활동에 의해 트리거됩니다.

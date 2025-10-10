@@ -36,12 +36,12 @@ ht-degree: 55%
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음 [!UICONTROL Adobe Experience Platform Web SDK] 아래의 **[!UICONTROL 구성]** 단추를 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음 **[!UICONTROL Adobe Experience Platform Web SDK]** 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
 1. [!UICONTROL 데이터 수집]에서 **[!UICONTROL 다운로드 링크 한정자]** 텍스트 필드에 원하는 값을 설정하십시오.
 
 ## 웹 SDK을 수동으로 구현하는 링크 한정자 다운로드
 
-[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ko#automaticLinkTracking)을(를) 사용하여 SDK을 [구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)합니다. 필드는 클릭한 URL의 regex를 사용하여 올바른 다운로드 링크인지 확인합니다. `downloadLinkQualifier`이(가) 정의되지 않으면 기본값이 `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`(으)로 설정됩니다.
+[](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)을(를) 사용하여 SDK을 [`downloadLinkQualifier`구성](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)합니다. 필드는 클릭한 URL의 regex를 사용하여 올바른 다운로드 링크인지 확인합니다. `downloadLinkQualifier`이(가) 정의되지 않으면 기본값이 `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`(으)로 설정됩니다.
 
 ```json
 alloy("configure", {
@@ -55,8 +55,8 @@ alloy("configure", {
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
-3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
-4. [!UICONTROL 링크 추적] 아코디언을 확장합니다. 그러면 **[!UICONTROL 다운로드 확장자]** 필드가 표시됩니다.
+3.  [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
+4.  [!UICONTROL 링크 추적] 아코디언을 확장합니다. 그러면 **[!UICONTROL 다운로드 확장자]** 필드가 표시됩니다.
 
 필드에 텍스트를 입력하고 **[!UICONTROL 추가]** 를 클릭하여 목록에 파일 확장자를 추가하십시오. 각각의 **&#39;X&#39;** 아이콘을 클릭하여 목록에서 파일 확장자를 제거하십시오.
 

@@ -5,7 +5,7 @@ user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 100%
 
@@ -100,13 +100,13 @@ ht-degree: 100%
          + [개요](analysis-workspace/visualizations/c-flow/flow.md)
          + [구성](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 흐름](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [영역 (스택)](analysis-workspace/visualizations/area.md)
-      + [막대 (스택)](analysis-workspace/visualizations/bar.md)
+      + [영역(스택)](analysis-workspace/visualizations/area.md)
+      + [막대(스택)](analysis-workspace/visualizations/bar.md)
       + [글머리 기호](analysis-workspace/visualizations/bullet-graph.md)
       + [콤보](analysis-workspace/visualizations/combo-charts.md)
       + [도넛](analysis-workspace/visualizations/donut.md)
       + [히스토그램](analysis-workspace/visualizations/histogram.md)
-      + [가로 막대 (스택)](analysis-workspace/visualizations/horizontal-bar.md)
+      + [가로 막대(스택)](analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](analysis-workspace/visualizations/key-metric.md)
       + [선](analysis-workspace/visualizations/line.md)
       + [맵](analysis-workspace/visualizations/map-visualization.md)

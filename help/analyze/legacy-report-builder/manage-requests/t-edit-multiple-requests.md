@@ -30,7 +30,7 @@ ht-degree: 90%
 
 1. [!UICONTROL 요청 관리자] 양식에서, 요청을 두 개 이상 선택한 다음 **[!UICONTROL 복수 편집]**&#x200B;을 클릭합니다.
 
-   [!UICONTROL 복수 요청 편집] 양식에 [!UICONTROL &#x200B; 보고서 세트별], [!UICONTROL 세그먼트별], [!UICONTROL 지표별], [!UICONTROL 날짜 범위 및 세부기간별], [!UICONTROL 그룹별] 정보 열이 표시됩니다.
+   [!UICONTROL 복수 요청 편집] 양식에 [!UICONTROL  보고서 세트별], [!UICONTROL 세그먼트별], [!UICONTROL 지표별], [!UICONTROL 날짜 범위 및 세부기간별], [!UICONTROL 그룹별] 정보 열이 표시됩니다.
 1. 요청 표시를 그룹화하려면 다음 선택 사항 중 클릭합니다:  
 
    * **보고서 세트:** 요청 표시를 보고서 세트별로 그룹화합니다.
@@ -49,4 +49,4 @@ ht-degree: 90%
 
 다음은 이러한 프로세스를 보여 주는 비디오입니다.
 
-https://video.tv.adobe.com/v/40103/?quality=12&captions=kor
+https://video.tv.adobe.com/v/25445/?quality=12

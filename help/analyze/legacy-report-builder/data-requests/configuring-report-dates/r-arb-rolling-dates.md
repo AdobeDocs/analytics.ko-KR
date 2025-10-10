@@ -1,5 +1,5 @@
 ---
-description: Report Builder의 롤링 날짜에 대한 필드 정의입니다.
+description: Report Builder의 순환 날짜에 대한 필드 정의입니다.
 title: 요청 마법사 정의 - 순환 날짜
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 73%
 
 {{legacy-arb}}
 
-Report Builder의 롤링 날짜에 대한 필드 정의입니다.
+Report Builder의 순환 날짜에 대한 필드 정의입니다.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 

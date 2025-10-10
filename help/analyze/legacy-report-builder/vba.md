@@ -1,6 +1,6 @@
 ---
 title: Report Builder에서 Visual Basic 매크로를 사용하는 방법
-description: VBA 매크로를 사용하여 Excel 통합 문서와 Report Builder의 기능을 확장하는 방법을 알아봅니다.
+description: VBA 매크로를 사용하여 Excel 통합 문서 및 Report Builder의 기능을 확장하는 방법을 알아봅니다.
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf

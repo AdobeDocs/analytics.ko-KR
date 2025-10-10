@@ -14,11 +14,11 @@ ht-degree: 19%
 
 콘텐츠 속도 계산 지표는 차원(일반적으로 [[!UICONTROL 페이지]](/help/components/dimensions/page.md))이 웹 사이트 또는 앱에서 시간을 보내는 사용자에게 어떻게 기여하는지 측정하는 데 도움이 됩니다.
 
-이 지표는 계산의 일부로 [페이지 보기 수](page-views.md) 지표에 대한 [기여도 속성](/help/analyze/analysis-workspace/attribution/models.md)을 사용합니다. 방문 참여에 따라 페이지가 조회될 때마다 동일한 방문 동안 이전에 조회된 모든 페이지도 페이지 조회수에 대한 크레딧을 받습니다. 일반적으로 이 공식은 방문 중 페이지가 조기에 히트될수록 더 많은 크레딧을 받음을 의미합니다. ([페이지 보기 수 참조(기여도) | 방문) 또는 &#39;방문 기여도&#39;](#page-views-participation--visit-or-visit-participation)를 참조하십시오.)
+이 지표는 계산의 일부로 [페이지 보기 수](/help/analyze/analysis-workspace/attribution/models.md) 지표에 대한 [기여도 속성](page-views.md)을 사용합니다. 방문 참여에 따라 페이지가 조회될 때마다 동일한 방문 동안 이전에 조회된 모든 페이지도 페이지 조회수에 대한 크레딧을 받습니다. 일반적으로 이 공식은 방문 중 페이지가 조기에 히트될수록 더 많은 크레딧을 받음을 의미합니다. ([페이지 보기 수 참조(기여도) | 방문) 또는 &#39;방문 기여도&#39;](#page-views-participation--visit-or-visit-participation)를 참조하십시오.)
 
 ## 계산
 
-&#39;콘텐츠 속도&#39;는 기본 계산된 [지표](overview.md)이며 `Visits`(으)로 나눈 `Page views (Visit participation)` 공식을 사용합니다.
+&#39;콘텐츠 속도&#39;는 기본 계산된 [지표](overview.md)이며 `Page views (Visit participation)`(으)로 나눈 `Visits` 공식을 사용합니다.
 
 ![](assets/cont-velo-1.png)
 

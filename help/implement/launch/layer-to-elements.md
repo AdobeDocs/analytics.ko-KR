@@ -21,7 +21,7 @@ ht-degree: 94%
 
 ## 태그를 사용하여 데이터 요소 만들기
 
-[데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ko)는 Adobe Experience Platform 데이터 수집의 구성 요소로서 도구 전반에서 사용할 수 있습니다. 데이터 요소를 사용하여 Adobe Analytics 확장 기능에서 변수 값을 할당할 수 있습니다.
+[데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html)는 Adobe Experience Platform 데이터 수집의 구성 요소로서 도구 전반에서 사용할 수 있습니다. 데이터 요소를 사용하여 Adobe Analytics 확장 기능에서 변수 값을 할당할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.

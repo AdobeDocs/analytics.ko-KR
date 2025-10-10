@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이 제한 사항은 &quot;Report Builder 요청을 Power BI 데이터 세트 표로 게시&quot; 옵션에만 적용됩니다.
+>이 제한 사항은 &quot;Report Builder 요청을 Power BI 데이터 세트 테이블로 게시&quot; 옵션에만 적용됩니다.
 
 * 통합 문서당 최대 100개의 Report Builder 요청을 Power BI에 내보낼 수 있습니다.
 * 예약 프로세스에서는 101번째 요청에 도달하면 요청 내보내기가 중단됩니다.
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이 사양은 “모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시” 옵션과 “통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시” 옵션에 적용됩니다.
+>이 사양은 “모든 Report Builder 요청을 Power BI 데이터 세트 테이블로 게시” 옵션과 “통합 문서에서 형식이 지정된 테이블을 모두 Power BI 데이터 세트 테이블로 게시” 옵션에 적용됩니다.
 
 Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할 수 있습니다.
 

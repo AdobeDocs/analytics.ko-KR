@@ -1,6 +1,6 @@
 ---
 title: 모바일 라이프사이클 차원
-description: Mobile SDK를 사용하여 수집된 데이터를 기반으로 한 Dimension.
+description: Mobile SDK을 사용하여 수집된 데이터를 기반으로 하는 차원입니다.
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
 source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
@@ -12,14 +12,14 @@ ht-degree: 26%
 
 # 모바일 라이프사이클 차원
 
-*이 페이지 참조 데이터는 Adobe Experience Platform Mobile SDK를 통해 일반적으로 추적되었습니다. 사용자 에이전트를 사용하는 모바일 장치에 대한 자세한 내용은 [모바일 조회 차원](mobile-dimensions.md)을 참조하십시오. Mobile SDK를 사용하여 추적한 지표에 대해서는 [모바일 라이프사이클 지표](../metrics/lifecycle-metrics.md).*&#x200B;를 참조하십시오.
+*이 페이지 참조 데이터는 Adobe Experience Platform Mobile SDK을 통해 일반적으로 추적됩니다. 사용자 에이전트를 사용하는 모바일 장치에 대한 자세한 내용은 [모바일 조회 차원](mobile-dimensions.md)을 참조하십시오. Mobile SDK을 사용하여 추적한 지표에 대해서는 [모바일 라이프사이클 지표](../metrics/lifecycle-metrics.md).*&#x200B;를 참조하십시오.
 
 | 라이프사이클 차원 이름 | 설명 | 컨텍스트 데이터 변수 |
 | --- | --- | --- |
 | [!UICONTROL 첫 번째 실행 날짜] | | TBD |
 | [!UICONTROL 장치 이름(SDK)] | | `a.DeviceName` |
 | [!UICONTROL 운영 체제 버전(SDK)] | | `a.OSVersion` |
-| [!UICONTROL 해결 방법(SDK)] | | `a.Resolution` |
+| [!UICONTROL 해상도(SDK)] | | `a.Resolution` |
 | [!UICONTROL 획득 Source] | | `a.referrer.campaign.source` |
 | [!UICONTROL 앱 ID] | | `a.AppID` |
 | [!UICONTROL 획득 Medium] | | `a.referrer.campaign.medium` |

@@ -1,6 +1,6 @@
 ---
 title: Activity Map 데이터 수집 문제 해결
-description: 이미지 요청에서 Activity Map 데이터를 볼 수 없는 이유를 파악합니다
+description: 이미지 요청에서 Activity Map 데이터를 볼 수 없는 이유 확인
 feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
@@ -17,9 +17,9 @@ Activity Map 차원에 대한 데이터가 표시되지 않는 경우 이 페이
 
 ## 디버거를 사용하여 데이터 수집 확인
 
-먼저, AppMeasurement이 Activity Map 데이터를 올바르게 수집하는지 확인하십시오.
+먼저, AppMeasurement에서 Activity Map 데이터를 올바르게 수집하는지 확인하십시오.
 
-1. [Adobe Experience Cloud Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/ko/docs/experience-platform/debugger/home)을 다운로드하여 설치하십시오.
+1. [Adobe Experience Cloud Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)을 다운로드하여 설치하십시오.
 2. 웹 페이지로 이동한 다음 링크를 클릭합니다.
 3. 후속 페이지가 로드되면 디버거를 엽니다. `activitymap.`과(와) `.activitymap` 사이에 있는 Activity Map 컨텍스트 데이터 변수가 표시되는지 확인합니다.
 
@@ -29,12 +29,12 @@ Activity Map 차원에 대한 데이터가 표시되지 않는 경우 이 페이
 
 * **AppMeasurement 버전**: Activity Map은 v1.6 이상에서 지원됩니다. 안정적인 최신 버전의 AppMeasurement으로 업그레이드할 때 많은 에지 사례 문제가 해결됩니다.
 * **Activity Map 모듈**: `AppMeasurement_Module_Activity_Map` 모듈이 `AppMeasurement.js` 파일에 있는지 확인하십시오. 구현에서 Adobe Experience Platform을 사용하여 데이터를 수집하는 경우 **[!UICONTROL 링크 추적]**&#x200B;에서 Analytics 확장을 구성할 때 **[!UICONTROL ClickMap 사용]**&#x200B;을(를) 선택해야 합니다.
-* **`s_sq` 쿠키**: Activity Map은 데이터 수집에 대한 `s_sq` 쿠키에 따라 다릅니다.
-   * 특히 `*.co.uk` 또는 `*.co.jp`과(와) 같은 지역 도메인의 경우 `cookieDomainPeriods` 변수가 올바르게 설정되었는지 확인하십시오.
+* **`s_sq` 쿠키**: Activity Map은 데이터 수집을 위한 `s_sq` 쿠키에 따라 다릅니다.
+   * 특히 `cookieDomainPeriods` 또는 `*.co.uk`과(와) 같은 지역 도메인의 경우 `*.co.jp` 변수가 올바르게 설정되었는지 확인하십시오.
    * `linkInternalFilters` 변수가 원하는 값으로 설정되어 있는지 확인하십시오. 클릭한 링크가 내부 필터와 일치하지 않으면 Activity Map은 종료 링크로 간주하여 데이터를 수집하지 않습니다.
-* **Activity Map 오버레이가 실행 중**: Activity Map 오버레이가 활성화되면 AppMeasurement이 웹 페이지에 대한 클릭 데이터를 추적하지 않습니다.
+* **Activity Map 오버레이 실행 중**: Activity Map 오버레이가 활성화되면 AppMeasurement에서 웹 페이지에 대한 클릭 데이터를 추적하지 않습니다.
 
-Activity Map 사용과 호환하지 않는 브라우저 매개 변수를 표시합니다. Adobe은 이러한 설정을 비활성화하는 것을 권장합니다.
+Activity Map 사용과 호환하지 않는 브라우저 매개 변수를 표시합니다. Adobe에서는 이러한 설정을 비활성화하는 것이 좋습니다.
 
 ## Chrome
 

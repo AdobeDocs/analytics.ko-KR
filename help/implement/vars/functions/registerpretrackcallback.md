@@ -17,7 +17,7 @@ ht-degree: 55%
 
 >[!WARNING]
 >
->`registerPreTrackCallback` 변수 내에서 [`t()`](t-method.md) 또는 [`tl()`](tl-method.md)과(와) 같은 추적 호출을 하지 마십시오. 이 변수에서 추적 호출을 설정하면 이미지 요청의 무한 루프가 발생합니다.
+>[`t()`](t-method.md) 변수 내에서 [`tl()`](tl-method.md) 또는 `registerPreTrackCallback`과(와) 같은 추적 호출을 하지 마십시오. 이 변수에서 추적 호출을 설정하면 이미지 요청의 무한 루프가 발생합니다.
 
 `registerPreTrackCallback` 변수를 호출할 때마다 이미지 요청 URL이 컴파일될 때 해당 함수를 실행하도록 후크합니다. 동일한 페이지 로드에서 동일한 함수를 여러 번 등록하지 마십시오.
 
@@ -31,13 +31,13 @@ ht-degree: 55%
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) UI에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음 [!UICONTROL Adobe Experience Platform Web SDK] 아래의 **[!UICONTROL 구성]** 단추를 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음 **[!UICONTROL Adobe Experience Platform Web SDK]** 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
 1. [!UICONTROL 데이터 수집]에서 **[!UICONTROL 이벤트 전송 전 편집 콜백 코드]** 단추를 클릭합니다.
 1. 편집기에 원하는 코드를 넣습니다.
 
 ## 웹 SDK을 수동으로 구현하는 사전 추적 콜백
 
-웹 SDK은 데이터가 컴파일된 후 Adobe으로 전송되기 전에 함수를 후크할 수 없습니다. 그러나 `onBeforeEventSend`을(를) 사용하여 데이터가 전송되기 바로 전에 실행할 함수를 등록할 수 있습니다. 이는 `doPlugins`과(와) 유사합니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#modifying-events-globally)을 참조하십시오.
+웹 SDK은 데이터가 컴파일된 후 Adobe으로 전송되기 전에 함수를 후크할 수 없습니다. 그러나 `onBeforeEventSend`을(를) 사용하여 데이터가 전송되기 바로 전에 실행할 함수를 등록할 수 있습니다. 이는 `doPlugins`과(와) 유사합니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
 
 ```js
 // Set the trackingCode XDM field to "New value"

@@ -48,7 +48,7 @@ Activity Map 데이터 수집을 사용하려면 **[!UICONTROL Adobe Experience 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 필요한 경우 라이브러리에 대한 변경 사항을 작성하고 프로덕션에 변경 사항을 게시합니다.
 
-자세한 내용은 [웹 SDK 태그 확장 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)을 참조하십시오.
+자세한 내용은 [웹 SDK 태그 확장 구성](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)을 참조하십시오.
 
 +++
 
@@ -56,7 +56,7 @@ Activity Map 데이터 수집을 사용하려면 **[!UICONTROL Adobe Experience 
 
 Activity Map 데이터 수집을 사용하려면 웹 SDK JavaScript 라이브러리 v2.20 이상이 필요합니다. v2.15까지의 라이브러리 버전은 지원이 제한되어 있습니다. 이러한 이전 라이브러리 버전은 나머지 데이터와 별도의 이벤트로 Activity Map 데이터를 전송합니다. 이 추가 이벤트는 Adobe Analytics 또는 Adobe Experience Platform으로 전송하는 히트의 수를 증가시킵니다.
 
-웹 SDK 구성 변수 [`clickCollectionEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)은(는) Activity Map 데이터의 자동 수집을 처리합니다. 명시적으로 비활성화되지 않는 한 기본적으로 활성화됩니다.
+웹 SDK 구성 변수 [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)은(는) Activity Map 데이터의 자동 수집을 처리합니다. 명시적으로 비활성화되지 않는 한 기본적으로 활성화됩니다.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ alloy("configure", {
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 필요한 경우 라이브러리에 대한 변경 사항을 작성하고 프로덕션에 변경 사항을 게시합니다.
 
-자세한 내용은 [Adobe Analytics 확장 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/analytics/overview)를 참조하십시오.
+자세한 내용은 [Adobe Analytics 확장 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)를 참조하십시오.
 
 +++
 

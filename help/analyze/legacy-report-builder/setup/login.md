@@ -18,7 +18,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Report Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 Site Catalyst Single Sign-On 또는 표준 로그인과 같은 기존 로그인을 지원하지 않습니다. **2021년 7월 22일까지 모든 Report Builder 사용자는 로그인 프로세스에 대한 중요한 업데이트를 포함하여 Report Builder 추가 기능을 버전 5.6.47 이상으로 업데이트해야 합니다.**
+>Report Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 Site Catalyst Single Sign-On 또는 표준 로그인과 같은 레거시 로그인을 지원하지 않습니다. **2021년 7월 22일까지 모든 Report Builder 사용자는 로그인 프로세스에 대한 중요한 업데이트를 포함하여 Report Builder 추가 기능을 버전 5.6.47 이상으로 업데이트해야 합니다.**
 
 Report Builder에 로그인하려면 Experience Cloud 로그인 계정을 사용하십시오.
 

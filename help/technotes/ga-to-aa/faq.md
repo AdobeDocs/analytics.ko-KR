@@ -18,7 +18,7 @@ ht-degree: 73%
 
 조직에서 내역 데이터를 Adobe에 포팅하려는 의지가 확고한 경우 Adobe 계정 팀에 문의하십시오. 구현 컨설턴트는 조직과 협력하여 Google Analytics 데이터 내보내기를 Adobe 데이터 수집 서버에서 수집할 수 있는 데이터 소스로 변환할 수 있습니다.
 
-과거 데이터를 이동하려면 모든 옴니채널 데이터 소스를 사용할 수 있는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko)를 사용하는 것을 권장합니다.
+과거 데이터를 이동하려면 모든 옴니채널 데이터 소스를 사용할 수 있는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)를 사용하는 것을 권장합니다.
 
 **많은 보고서에서 세그먼테이션 드롭다운 목록에 익숙합니다. [!UICONTROL Analysis Workspace]에서 이를 다시 만들 수 있습니까?**
 

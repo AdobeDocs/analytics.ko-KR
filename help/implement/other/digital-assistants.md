@@ -6,8 +6,8 @@ exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 98%
+source-wordcount: '1256'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 * &quot;Cortana, 내 결제 계좌의 잔액이 얼마야?&quot;
 * &quot;Siri야, 내 뱅킹 앱에서 어제 저녁 값으로 존에게 20달러 보내 줘.&quot;
 
-이 페이지에서는 Adobe Analytics를 사용하여 이러한 유형의 환경을 평가하고 최적화하는 방법을 개괄적으로 설명합니다.
+이 페이지에서는 Adobe Analytics를 사용하여 이러한 유형의 환경을 평가하고 최적화하는 방법에 대한 개요를 제공합니다.
 
 ## 디지털 환경 아키텍처 개요
 
@@ -93,9 +93,9 @@ Digital Assistant는 대화식이므로 세션의 개념이 있습니다. 예:
 
 **Google:** &quot;예, 몇 시에 불러드릴까요?&quot;
 
-**소비자:** &quot;오후 8시 30분&quot;
+**소비자:** &quot;8:30pm&quot;
 
-**Google:** &quot;좋습니다. 운전사가 오후 8시 30분에 도착할 것입니다.&quot;
+**Google:** &quot;좋습니다. 드라이버가 8:30pm에 도착할 예정입니다.&quot;
 
 세션은 컨텍스트를 유지하는 데 중요하며, 더 많은 세부 정보를 수집하여 보다 자연스러운 Digital Assistant를 만드는 데 도움이 됩니다. 대화에 대한 Analytics를 구현할 때 새 세션이 시작되면 수행할 작업이 두 가지가 있습니다.
 

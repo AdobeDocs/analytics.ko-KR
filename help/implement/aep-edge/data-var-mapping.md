@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics에 대한 데이터 개체 변수 매핑
-description: Edge이 Analytics 변수에 자동으로 매핑하는 Experience Platform 데이터 개체 필드를 봅니다.
+description: Experience Platform Edge이 Analytics 변수에 자동으로 매핑하는 데이터 개체 필드를 봅니다.
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 다음 표는 Adobe Experience Platform Edge Network이 Adobe Analytics에 자동으로 매핑하는 데이터 개체 변수를 보여 줍니다. 이러한 데이터 개체 필드 경로를 사용하는 경우 Adobe Analytics으로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다.
 
-나중에 Customer Journey Analytics을 사용하려는 경우 이러한 필드를 사용하는 것이 좋습니다. 이 Adobe 방법을 사용하면 조직이 XDM 스키마를 준수하지 않고 웹 SDK를 사용하여 데이터를 구현으로 보낼 수 있습니다. 조직에서 Adobe Experience Platform으로 데이터를 보낼 준비가 되면 [데이터스트림 매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep#mapping)을 사용하여 데이터 개체 필드를 해당 XDM 필드로 지정할 수 있습니다.
+나중에 Customer Journey Analytics을 사용하려는 경우 이러한 필드를 사용하는 것이 좋습니다. 이 구현 방법을 사용하면 조직이 XDM 스키마를 준수하지 않고 웹 SDK을 사용하여 Adobe에 데이터를 전송할 수 있습니다. 조직에서 Adobe Experience Platform으로 데이터를 보낼 준비가 되면 [데이터스트림 매핑](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping)을 사용하여 데이터 개체 필드를 해당 XDM 필드로 지정할 수 있습니다.
 
 ## 값 우선 순위
 
@@ -43,7 +43,7 @@ ht-degree: 2%
 | `data.__adobe.analytics.events` | [사용자 지정 이벤트](../../components/metrics/custom-events.md). 이 필드의 형식은 [`events`](../vars/page-vars/events/events-overview.md) 구현 변수와 비슷합니다. |
 | `data.__adobe.analytics.javaEnabled` | [Java 활성화](../../components/dimensions/java-enabled.md) 차원. 축약 필드 `data.__adobe.analytics.v`도 지원됩니다. |
 | `data.__adobe.analytics.latitude` | [위치](../../components/dimensions/lifecycle-dimensions.md) 모바일 라이프사이클 차원을 설정하는 데 도움이 됩니다. 축약 필드 `data.__adobe.analytics.lat`도 지원됩니다. |
-| `data.__adobe.analytics.linkName` | `data.__adobe.analytics.linkType`의 값에 따라 [사용자 지정 링크](../../components/dimensions/custom-link.md), [다운로드 링크](../../components/dimensions/download-link.md) 또는 [종료 링크](../../components/dimensions/exit-link.md) 차원입니다. 축약 필드 `data.__adobe.analytics.pev2`도 지원됩니다. |
+| `data.__adobe.analytics.linkName` | [의 값에 따라 ](../../components/dimensions/custom-link.md)사용자 지정 링크[, ](../../components/dimensions/download-link.md)다운로드 링크[ 또는 ](../../components/dimensions/exit-link.md)종료 링크`data.__adobe.analytics.linkType` 차원입니다. 축약 필드 `data.__adobe.analytics.pev2`도 지원됩니다. |
 | `data.__adobe.analytics.linkURL` | [`linkURL`](../vars/config-vars/linkurl.md) 구현 변수입니다. 축약 필드 `data.__adobe.analytics.pev1`도 지원됩니다. |
 | `data.__adobe.analytics.linkType` | 클릭한 링크의 유형을 결정합니다. 유효한 값에는 `o`(사용자 지정 링크), `d`(다운로드 링크) 및 `e`(종료 링크)이(가) 포함됩니다. 축약 필드 `data.__adobe.analytics.pe`도 지원됩니다. |
 | `data.__adobe.analytics.list1` - `data.__adobe.analytics.list3` | 구현 변수 [`list`](/help/implement/vars/page-vars/list.md)개. 축약 필드 `data.__adobe.analytics.l1` - `data.__adobe.analytics.list3`도 지원됩니다. |

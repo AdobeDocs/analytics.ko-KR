@@ -9,13 +9,13 @@ exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
 # 기존 Report Builder 통합 문서를 데이터 블록으로 변환
 
-새로운 Report Builder 기술로의 전환의 일환으로 현재 레거시 통합 문서를 Javascript 기반 통합 문서로 빠르게 변환할 수 있습니다.
+새로운 Report Builder 기술로의 전환의 일환으로 현재 사용 중인 기존 통합 문서를 Javascript 기반 통합 문서로 빠르게 변환할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 변환](https://video.tv.adobe.com/v/3446189?quality=12&learn=on&captions=kor){target="_blank"}을 참조하세요.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 변환](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 로그인]**&#x200B;을 클릭하고 Report Builder에 로그인합니다.
 
-1. Report Builder 추가 기능이 이 통합 문서에 [기존 Report Builder](/help/analyze/legacy-report-builder/home.md)개의 요청이 포함되어 있는지 검색합니다.
+1. Report Builder 추가 기능은 이 통합 문서에 [기존 Report Builder](/help/analyze/legacy-report-builder/home.md) 요청이 포함되어 있는지 검색합니다.
 
    ![통합 문서 업그레이드 프롬프트](assets/upgrade_workbook.png)
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 이제 [데이터 블록을 관리](/help/analyze/report-builder/manage-reportbuilder.md)할 수 있습니다.
 
 
-## 새 Report Builder에서 지원되지 않는 기존 Report Builder 기능 {#unsupported}
+## 새로운 Report Builder에서 지원되지 않는 레거시 Report Builder 기능 {#unsupported}
 
-레거시 Report Builder의 기능을 새 Report Builder 추가 기능과 비교할 때 일부 레거시 기능은 더 이상 사용할 수 없습니다.
+레거시 Report Builder의 기능을 새로운 Report Builder 추가 기능과 비교해 보면 일부 레거시 기능은 더 이상 사용할 수 없습니다.
 
 - 실시간 요청
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 - 예약된 보고서에 대한 FTP 옵션
 
-- 방문자 지표. 보고 결과가 정확히 일치하지 않더라도 다음 지표는 모두 &quot;고유 방문자 수&quot;로 변환됩니다. `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` 및 `visitorsyearly`. 이는 `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` 및 `mobilevisitorsyearly`에도 적용됩니다.
+- 방문자 지표. 다음 지표는 보고 결과가 정확히 일치하지 않더라도 모두 “고유 방문자”로 변환됩니다. `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` 및 `visitorsyearly`. 이는 `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` 및 `mobilevisitorsyearly`에도 적용됩니다.
 
 ## 전환된 통합 문서 예약 {#schedule}
 

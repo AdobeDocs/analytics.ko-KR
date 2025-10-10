@@ -17,7 +17,7 @@ ht-degree: 73%
 
 >[!WARNING]
 >
->`registerPostTrackCallback` 변수 내에서 [`t()`](t-method.md) 또는 [`tl()`](tl-method.md)과(와) 같은 추적 호출을 하지 마십시오. 이 변수에서 추적 호출을 설정하면 이미지 요청의 무한 루프가 발생합니다.
+>[`t()`](t-method.md) 변수 내에서 [`tl()`](tl-method.md) 또는 `registerPostTrackCallback`과(와) 같은 추적 호출을 하지 마십시오. 이 변수에서 추적 호출을 설정하면 이미지 요청의 무한 루프가 발생합니다.
 
 `registerPostTrackCallback` 변수를 호출할 때마다 이미지 요청이 성공적으로 전송된 직후 해당 함수를 실행하도록 후크합니다. 동일한 페이지 로드에서 동일한 함수를 여러 번 등록하지 마십시오.
 
@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-자세한 내용은 웹 SDK 설명서의 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#handling-responses-from-events)를 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)를 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 사후 추적 콜백 등록
 

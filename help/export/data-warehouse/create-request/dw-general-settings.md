@@ -6,7 +6,7 @@ exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
 source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -37,4 +37,4 @@ Data Warehouse 요청에 대한 일반 설정을 구성하려면 다음 작업�
 
    {style="table-layout:auto"}
 
-1. [!UICONTROL **보고서 작성**] 탭에서 Data Warehouse 요청을 계속 구성합니다. 자세한 내용은 [Data Warehouse 요청에 대한 보고서 작성](/help/export/data-warehouse/create-request/dw-request-build-report.md)을 참조하세요.
+1. [!UICONTROL **보고서 작성**] 탭에서 Data Warehouse 요청을 계속 구성합니다. 자세한 내용은 [Data Warehouse 요청에 대한 보고서 작성](/help/export/data-warehouse/create-request/dw-request-build-report.md)을 참조하십시오.

@@ -1,6 +1,6 @@
 ---
 title: 대량 데이터 삽입 API
-description: Bulk Data Insertion API(BDIA)는 AppMeasurement과 같은 클라이언트측 라이브러리를 사용하지 않고 서버 호출 데이터를 파일 배치에 업로드할 수 있는 Adobe Analytics 기능입니다.
+description: 대량 데이터 삽입 API(BDIA)는 AppMeasurement과 같은 클라이언트측 라이브러리를 사용하지 않고 서버 호출 데이터를 파일 배치에 업로드할 수 있는 Adobe Analytics 기능입니다.
 solution: Analytics
 feature: API
 exl-id: c9d23fae-2800-42bb-8f8d-adf915cadc62

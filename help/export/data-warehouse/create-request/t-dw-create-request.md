@@ -16,7 +16,7 @@ Data Warehouse 요청을 만들 때 사용할 수 있는 다양한 구성 옵션
 
 ## 요청 만들기 시작
 
-1. Adobe Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]**&#x200B;을 선택합니다.
+1. Adobe Analytics에서 **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]**&#x200B;을(를) 선택합니다.
 
 1. [!UICONTROL **Data Warehouse**] 페이지에서 [!UICONTROL **추가**]&#x200B;를 선택합니다.
 

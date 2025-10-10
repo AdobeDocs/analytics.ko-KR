@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics에서 Report Builder에 세그먼트를 사용하는 방법
-description: Adobe Analytics용 Report Builder에서 세그먼트를 사용하는 방법을 설명합니다
+title: Adobe Analytics에서 Report Builder의 세그먼트를 사용하는 방법
+description: Adobe Analytics용 Report Builder에서 세그먼트를 사용하는 방법을 설명합니다.
 role: User
 feature: Report Builder
 type: Documentation
@@ -61,11 +61,11 @@ ht-degree: 4%
 
    세그먼트를 추가하면 선택 항목의 모든 데이터 블록에 세그먼트가 적용됩니다.
 
-1. 세그먼트를 제거하려면 **[!UICONTROL 적용된 세그먼트]** 목록에서 세그먼트 오른쪽에 있는 삭제 아이콘 **x**&#x200B;을(를) 클릭합니다.
+1. 세그먼트를 제거하려면 **적용된 세그먼트** 목록에서 세그먼트 오른쪽에 있는 삭제 아이콘 **[!UICONTROL x]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL 적용]**&#x200B;을 클릭하여 변경 사항을 저장하고 허브 패널로 돌아갑니다.
 
-   Report Builder은 적용된 세그먼트 변경 사항을 확인하는 메시지를 표시합니다.
+   Report Builder에 적용된 세그먼트 변경 사항을 확인하는 메시지가 표시됩니다.
 
 ### 세그먼트 바꾸기
 
@@ -85,7 +85,7 @@ ht-degree: 4%
 
 1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
-   Report Builder은 세그먼트 목록을 업데이트하여 교체를 반영합니다.
+   Report Builder은 세그먼트 목록을 업데이트하여 대체 항목을 반영합니다.
 
 ### 셀에서 데이터 블록 세그먼트 정의
 

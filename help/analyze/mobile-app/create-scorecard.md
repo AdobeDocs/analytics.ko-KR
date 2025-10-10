@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://video.tv.adobe.com/v/38159?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -87,7 +87,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 바로 드롭합니다.
 
-스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko)합니다.
+스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)합니다.
 
 ![필터용 세그먼트 빌드](assets/segment_ui.png)
 
@@ -130,12 +130,12 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://video.tv.adobe.com/v/3445773?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
-Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력을 제공하는 네 가지 시각화를 제공합니다. 타일 [!UICONTROL 속성]의 [!UICONTROL 차트 유형]을 변경하여 다른 시각화로 변경할 수 있습니다. 오른쪽 타일을 선택한 다음 차트 유형을 변경하기만 하면 됩니다.
+Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 인사이트를 제공하는 네 가지 시각화를 제공합니다. 타일 [!UICONTROL 속성]의 [!UICONTROL 차트 유형]을 변경하여 다른 시각화로 변경할 수 있습니다. 오른쪽 타일을 선택한 다음 차트 유형을 변경하기만 하면 됩니다.
 
 ![타일 속성](assets/properties.png)
 
@@ -206,7 +206,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://video.tv.adobe.com/v/3413790?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://video.tv.adobe.com/v/3420563?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -367,7 +367,7 @@ Analytics 대시보드 앱에 게시되면 스코어카드가 어떻게 보이�
 
 ### 공유 가능한 링크를 사용하여 스코어카드 공유 {#shareable-link}
 
-공유 가능한 링크를 사용하면 이메일, 문서 또는 문자 메시지 앱에서 스코어카드를 쉽게 공유할 수 있습니다. 공유 가능한 링크를 통해 수신자는 데스크탑이나 대시보드 모바일 앱에서 스코어카드를 열 수 있습니다. 공유 가능한 딥 링크를 사용하면 프로젝트를 더욱 쉽게 공유하고 이해 관계자와의 참여도를 높일 수 있습니다.
+공유 가능한 링크를 사용하면 이메일, 문서 또는 문자 메시지 앱에서 스코어카드를 쉽게 공유할 수 있습니다. 공유 가능한 링크를 통해 수신자는 데스크탑이나 대시보드 모바일 앱에서 스코어카드를 열 수 있습니다. 공유 가능한 딥 링크를 사용하면 프로젝트를 더욱 쉽게 공유하고 관련자와의 참여도를 높일 수 있습니다.
 
 공유 가능한 링크를 사용하여 스코어카드를 공유하는 방법
 

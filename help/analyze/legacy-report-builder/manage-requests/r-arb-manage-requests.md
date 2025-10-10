@@ -22,7 +22,7 @@ ht-degree: 74%
 
 [!UICONTROL 요청 관리자]에서는 모든 시트 또는 활성 통합 문서의 한 시트에 대해 빌드한 모든 요청의 상태를 자세히 볼 수 있습니다. 요청을 추가, 편집, 새로 고침 및 삭제할 수도 있습니다. 이러한 함수는 일반적으로 이전 요청이 들어 있는 Excel 스프레드시트에서 사용 가능한 셀을 마우스 오른쪽 단추로 클릭하면 [!UICONTROL 요청 마법사] 및 [!UICONTROL 요청 관리자]와 연결됩니다.
 
-Report Builder 도구 모음에서 **[!UICONTROL 관리]** ![](assets/edit_request.gif)을(를) 클릭하면 [!UICONTROL 요청 관리자]가 표시됩니다.
+Report Builder 도구 모음에서 [!UICONTROL 관리] **[!UICONTROL 을(를) 클릭하면]**&#x200B;요청 관리자![](assets/edit_request.gif)가 표시됩니다.
 
 >[!NOTE]
 >

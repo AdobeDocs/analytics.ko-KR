@@ -93,6 +93,6 @@ Adobe는 [자동 설정](/help/components/c-marketing-channels/c-getting-started
 
 >[!NOTE]
 >
->Adobe에서는 테스트 목적의 템플릿으로 사용할 수 있도록 보고서 세트에서 보고서를 설정할 것을 권장합니다. 템플릿을 사용하여 하나 이상의 생산 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
+>Adobe에서는 테스트 목적의 템플릿으로 사용할 수 있도록 보고서 세트에서 보고서를 설정할 것을 권장합니다. 템플릿을 사용하여 하나 이상의 프로덕션 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
 >
 >[여러 보고서 세트에 템플릿 보고서 세트 설정 적용](/help/components/c-marketing-channels/c-getting-started-mchannel.md)을 참조하십시오.

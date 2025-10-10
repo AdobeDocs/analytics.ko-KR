@@ -18,7 +18,7 @@ ht-degree: 29%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/33294/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
@@ -37,7 +37,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/ko/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보십시오.
+>`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보십시오.
 
 ## 수동 추적 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +98,7 @@ Microsoft Advertising 계정에 추가해야 하는 문자열이 아래에 표�
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_값 (아래에&#x200B;**굵게**&#x200B;표시됨)은 제네릭이므로,**특정 계정 ID 문자열로 대체해야**&#x200B;합니다. 계정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
+>_`<Advertising Analytics ID>`_값 (아래에&#x200B;**굵게**표시됨)은 제네릭이므로,**특정 계정 ID 문자열로 대체해야**합니다. 계정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
 
 **캠페인에 대한 추적 문자열:**
 

@@ -1,6 +1,6 @@
 ---
-description: Report Builder을 위한 시스템 권장 사항 및 사전 요구 사항에 대해 알아봅니다.
-title: Report Builder을 위한 시스템 요구 사항 정보
+description: Report Builder에 대한 시스템 권장 사항 및 사전 요구 사항에 대해 알아봅니다.
+title: Report Builder에 대한 시스템 요구 사항 정보
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin

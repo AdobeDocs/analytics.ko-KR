@@ -18,11 +18,11 @@ ht-degree: 100%
 
 ## 솔루션 요구 사항
 
-서버측 전달은 [Analytics](https://www.adobe.com/kr/data-analytics-cloud/analytics.html)와 [Audience Manager](https://www.adobe.com/kr/data-analytics-cloud/audience-manager.html) 및/또는 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)에서 작동합니다.
+서버측 전달은 [Analytics](https://www.adobe.com/kr/data-analytics-cloud/analytics.html)와 [Audience Manager](https://www.adobe.com/kr/data-analytics-cloud/audience-manager.html) 및/또는 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)에서 작동합니다.
 
 ## 서비스 요구 사항
 
-서버측 전달을 사용하려면 [ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)가 필요합니다. ID 서비스는 Experience Cloud의 모든 솔루션에서 사이트 방문자를 식별하는 범용 ID를 제공합니다. 서버측 전달이 작동하려면 ID 서비스를 구현해야 합니다.
+서버측 전달을 사용하려면 [ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)가 필요합니다. ID 서비스는 Experience Cloud의 모든 솔루션에서 사이트 방문자를 식별하는 범용 ID를 제공합니다. 서버측 전달이 작동하려면 ID 서비스를 구현해야 합니다.
 
 ## 코드 버전
 

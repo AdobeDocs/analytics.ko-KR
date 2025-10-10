@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 68%
@@ -18,7 +19,7 @@ Excel 추가 기능 메뉴를 사용하여 Report Builder에 빠르게 액세스
 
 ## 요구 사항
 
-Adobe Analytics용 Report Builder은 다음 운영 체제 및 웹 브라우저에서 지원됩니다.
+Report Builder for Adobe Analytics은 다음 운영 체제 및 웹 브라우저에서 지원됩니다.
 
 ### macOS
 
@@ -43,7 +44,7 @@ Adobe Analytics용 Report Builder은 다음 운영 체제 및 웹 브라우저�
 
 ## Report Builder Excel 추가 기능
 
-Adobe Analytics용 Report Builder을 사용하려면 Report Builder Excel 추가 기능을 설치해야 합니다. Report Builder Excel 추가 기능을 설치하면 열려 있는 Excel 통합 문서 내에서 Report Builder에 액세스할 수 있습니다.
+Report Builder용 Report Builder을 사용하려면 Adobe Analytics Excel 추가 기능을 설치해야 합니다. Report Builder Excel 추가 기능을 설치하면 열려 있는 Excel 통합 문서 내에서 Report Builder에 액세스할 수 있습니다.
 
 ### Report Builder 추가 기능 다운로드 및 설치
 
@@ -57,7 +58,7 @@ Report Builder 추가 기능을 다운로드하고 설치하려면
 
 1. &quot;Report Builder&quot;를 검색하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
-1. 사용 약관 및 개인정보 처리방침 대화 상자에서 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
+1. 라이선스 사용 약관 및 개인정보 처리방침 대화 상자에서 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
 **스토어 탭이 표시되지 않는 경우**
 
