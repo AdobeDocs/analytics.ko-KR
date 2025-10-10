@@ -15,7 +15,7 @@ ht-degree: 2%
 
 다음 표는 Adobe Experience Platform Edge Network이 Adobe Analytics에 자동으로 매핑하는 데이터 개체 변수를 보여 줍니다. 이러한 데이터 개체 필드 경로를 사용하는 경우 Adobe Analytics으로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다.
 
-나중에 Customer Journey Analytics을 사용하려는 경우 이러한 필드를 사용하는 것이 좋습니다. 이 구현 방법을 사용하면 조직이 XDM 스키마를 준수하지 않고 웹 SDK을 사용하여 Adobe에 데이터를 전송할 수 있습니다. 조직에서 Adobe Experience Platform으로 데이터를 보낼 준비가 되면 [데이터스트림 매핑](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping)을 사용하여 데이터 개체 필드를 해당 XDM 필드로 지정할 수 있습니다.
+나중에 Customer Journey Analytics을 사용하려는 경우 이러한 필드를 사용하는 것이 좋습니다. 이 구현 방법을 사용하면 조직이 XDM 스키마를 준수하지 않고 웹 SDK을 사용하여 Adobe에 데이터를 전송할 수 있습니다. 조직에서 Adobe Experience Platform으로 데이터를 보낼 준비가 되면 [데이터스트림 매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep#mapping)을 사용하여 데이터 개체 필드를 해당 XDM 필드로 지정할 수 있습니다.
 
 ## 값 우선 순위
 

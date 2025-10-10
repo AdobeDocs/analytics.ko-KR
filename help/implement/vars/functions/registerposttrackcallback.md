@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-자세한 내용은 웹 SDK 설명서의 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)를 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#handling-responses-from-events)를 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 사후 추적 콜백 등록
 

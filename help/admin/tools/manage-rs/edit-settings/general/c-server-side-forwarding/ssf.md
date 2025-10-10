@@ -33,12 +33,12 @@ ht-degree: 100%
 
 ## ![step1_icon.png 이미지](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) ECID 서비스 구현 확인
 
-[Analytics 추적 요청](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html)을 검사하여 Experience Cloud ID(ECID) 서비스가 구현되었는지 확인합니다.
+[Analytics 추적 요청](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=ko)을 검사하여 Experience Cloud ID(ECID) 서비스가 구현되었는지 확인합니다.
 
 요청 탭에서 ECID 값이 설정되어 있는지 확인하십시오. 이는 ID 서비스가 올바르게 구현되었음을 나타내며, 서버측 전달의 필수 조건입니다.
 
 * ECID 값이 표시되면 2단계로 진행합니다.
-* ECID 값이 표시되지 않으면 2단계로 진행하기 전에 [ID 서비스를 구현](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)합니다.
+* ECID 값이 표시되지 않으면 2단계로 진행하기 전에 [ID 서비스를 구현](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko)합니다.
 
 ## ![step2_icon.png 이미지](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) 서버측 전달 구현 버전 확인
 
@@ -52,10 +52,10 @@ ht-degree: 100%
 
    * **DIL을 사용하는 Adobe Audience Manager 고객**: 다음 2가지 항목을 긴밀하게 연계하여 조정합니다.
 
-      1. DIL 코드를 제거하고 [대상자 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) 페이지 코드를 설치합니다.
+      1. DIL 코드를 제거하고 [대상자 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko) 페이지 코드를 설치합니다.
       1. 3단계에서 설명한 대로 Analytics 관리 UI에서 서버측 전달을 활성화합니다. DIL 코드를 제거하기 전에 이 설정을 활성화하면 데이터가 중복되고 Audience Manager에 대해 추가 청구된 서버 호출이 생성됩니다.
 
-   * **새 Adobe Audience Manager 고객** - [대상자 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) 페이지 코드를 설치하고 3단계로 진행합니다. 3단계에서 서버측 전달 기능이 켜지기 전까지는 데이터가 Audience Manager에게 전송되지 않습니다.
+   * **새 Adobe Audience Manager 고객** - [대상자 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko) 페이지 코드를 설치하고 3단계로 진행합니다. 3단계에서 서버측 전달 기능이 켜지기 전까지는 데이터가 Audience Manager에게 전송되지 않습니다.
 
 ## ![step3_icon.png 이미지](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) 보고서 세트의 서버측 전달 구현 확인
 
@@ -71,4 +71,4 @@ Analytics에서 어떤 데이터가 공유되는지를 더 세부적으로 제�
 
 >[!NOTE]
 >
->3개의 단계가 모두 완료되기 전까지는 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) 또는 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)와 같은 다른 Experience Cloud 솔루션에 데이터가 표시되지 않습니다. 활성화한 후 이 설정이 적용되는 데에는 몇 시간이 걸립니다.
+>3개의 단계가 모두 완료되기 전까지는 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=ko) 또는 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)와 같은 다른 Experience Cloud 솔루션에 데이터가 표시되지 않습니다. 활성화한 후 이 설정이 적용되는 데에는 몇 시간이 걸립니다.

@@ -42,13 +42,13 @@ ht-degree: 35%
 <tr>
 <td>3</td>
 <td><b>데이터스트림을 구성합니다</b>. Adobe Experience Platform Edge Network API에서 API를 사용할 때 데이터 스트림은 서버측 구성을 나타냅니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">데이터스트림 구성<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko">데이터스트림 구성<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
 <td>단일 이벤트 데이터 및 일괄 이벤트 데이터 수집 API를 사용하여 <b>데이터 수집을 구현하고 테스트합니다</b>.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR">단일 이벤트 데이터 수집</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">일괄 이벤트 데이터 수집</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR">단일 이벤트 데이터 수집</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=ko">일괄 이벤트 데이터 수집</a>
 </tr>
 
 <td>5</td>

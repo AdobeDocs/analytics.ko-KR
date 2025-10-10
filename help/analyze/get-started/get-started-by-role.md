@@ -79,7 +79,7 @@ Analytics 관리자는 조직의 사용자가 Adobe Analytics를 사용할 수 �
 | 기여도 분석 | 기여도 분석은 사용자 데이터 안에서 숨겨진 패턴을 발견하여 통계적 예외 항목을 설명하고 전체 수렴된 대상자 세그먼트에서 선택된 지표에 대해 예상치 못한 고객 작업, 범위를 벗어나는 값, 급증 또는 급감 뒤의 상관관계를 식별합니다. | [기여도 분석 개요](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Analytics 세분화 | 강력한 집중 대상자 세그먼트를 작성하고 관리하고 공유하고 Analytics 기능, Adobe Experience Cloud, Adobe Target 및 기타 통합 Adobe 제품을 사용하여 보고서에 적용할 수 있습니다. | [Analytics 세분화](/help/components/segmentation/seg-home.md) |
 | Audience Manager에 대상자 게시 | Adobe Audience Manager는 자사, 세컨드 파티(파트너) 및 서드파티 데이터 통합에서 고유 대상자 프로필을 빌드할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. | [Audience Analytics 개요](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
-| 통합 | Adobe Analytics에서 다른 애플리케이션의 정보를 표시할 수 있습니다. <p>다음은 몇 가지 일반적인 통합입니다.</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Target용 Analytics</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html">스트리밍 미디어 서비스</a></li> | [Analytics 통합](/help/integrate/home.md) |
+| 통합 | Adobe Analytics에서 다른 애플리케이션의 정보를 표시할 수 있습니다. <p>다음은 몇 가지 일반적인 통합입니다.</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Target용 Analytics</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko">스트리밍 미디어 서비스</a></li> | [Analytics 통합](/help/integrate/home.md) |
 
 {style="table-layout:auto"}
 

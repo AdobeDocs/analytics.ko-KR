@@ -67,4 +67,4 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [처리 규칙을 사용하여 컨텍스트 데이터 변수를 prop 및 eVar에 매핑](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
+>![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [처리 규칙을 사용하여 컨텍스트 데이터 변수를 prop 및 eVar에 매핑](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}

@@ -19,7 +19,7 @@ ht-degree: 73%
 이 차원은 Adobe 내부의 조회 규칙을 참조합니다. 조회 값은 히트와 함께 전송된 IP 주소를 기반으로 합니다. Adobe은 IP 주소와 국가 간에 조회를 유지 관리하기 위해 [Digital Element](https://www.digitalelement.com/)와(과) 파트너 관계를 맺고 있습니다.
 
 * AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
-* 웹 SDK 구현의 경우 [!UICONTROL 데이터 스트림을 구성]할 때 [지역 조회](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)를 사용하도록 설정하십시오.
+* 웹 SDK 구현의 경우 [!UICONTROL 데이터 스트림을 구성]할 때 [지역 조회](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)를 사용하도록 설정하십시오.
 
 ## 차원 항목
 

@@ -61,9 +61,9 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 만듭�
 
 +++**3. 웹 SDK 구성**
 
-웹 SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 명령을 사용하여 이전 단계에서 만든 데이터 스트림을 가리키도록 구현을 설정하십시오. 라이브러리 설치 코드와 함께 `configure` 명령을 포함할 수 있도록 모든 페이지에서  명령을 설정해야 합니다.
+웹 SDK [`configure`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 명령을 사용하여 이전 단계에서 만든 데이터 스트림을 가리키도록 구현을 설정하십시오. 라이브러리 설치 코드와 함께 `configure` 명령을 포함할 수 있도록 모든 페이지에서  명령을 설정해야 합니다.
 
-웹 SDK [`datastreamId` 명령 내에서 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) [`orgId` 및 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)`configure` 속성을 사용합니다.
+웹 SDK [`datastreamId` 명령 내에서 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/datastreamid) [`orgId` 및 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/orgid)`configure` 속성을 사용합니다.
 
 * `datastreamId`을(를) 이전 단계에서 검색한 데이터 스트림 ID로 설정합니다.
 * `orgId`을(를) 조직의 IMS 조직으로 설정합니다.
@@ -75,7 +75,7 @@ alloy("configure", {
 });
 ```
 
-조직의 구현 요구 사항에 따라 [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 명령에서 다른 속성을 선택적으로 설정할 수 있습니다.
+조직의 구현 요구 사항에 따라 [`configure`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 명령에서 다른 속성을 선택적으로 설정할 수 있습니다.
 
 +++
 
@@ -116,7 +116,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. 웹 SDK**&#x200B;을(를) 사용하도록 메서드 호출을 업데이트합니다.
 
-[`s.t()`](../../vars/functions/t-method.md) 및 [`s.tl()`](../../vars/functions/tl-method.md)을(를) 호출하는 모든 인스턴스를 업데이트하여 [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) 명령으로 바꿉니다. 고려해야 할 세 가지 시나리오가 있습니다.
+[`s.t()`](../../vars/functions/t-method.md) 및 [`s.tl()`](../../vars/functions/tl-method.md)을(를) 호출하는 모든 인스턴스를 업데이트하여 [`sendEvent`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/sendevent/overview) 명령으로 바꿉니다. 고려해야 할 세 가지 시나리오가 있습니다.
 
 * **페이지 보기 추적**: 페이지 보기 추적 호출을 웹 SDK `sendEvent` 명령으로 바꿉니다.
 
@@ -128,7 +128,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
   alloy("sendEvent", dataObj);
   ```
 
-* **자동 링크 추적**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) 구성 속성이 기본적으로 활성화되어 있습니다. 데이터를 Adobe Analytics으로 전송할 올바른 링크 추적 변수를 자동으로 설정합니다. 자동 링크 추적을 사용하지 않도록 설정하려면 `false`[`configure` 명령 내에서 이 속성을 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)&#x200B;(으)로 설정하십시오.
+* **자동 링크 추적**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) 구성 속성이 기본적으로 활성화되어 있습니다. 데이터를 Adobe Analytics으로 전송할 올바른 링크 추적 변수를 자동으로 설정합니다. 자동 링크 추적을 사용하지 않도록 설정하려면 `false`[`configure` 명령 내에서 이 속성을 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview)&#x200B;(으)로 설정하십시오.
 
 * **수동 링크 추적**: 웹 SDK에는 pageview와 pageview가 아닌 호출 사이에 별도의 명령이 없습니다. 페이로드 객체 내에 해당 구분을 제공합니다.
 

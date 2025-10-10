@@ -13,7 +13,7 @@ ht-degree: 40%
 
 # Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics 구현
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. 웹 SDK을 구현하는 기본 방법에는 두 가지가 있으며, 각 방법에는 두 가지 구현 유형이 있습니다.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ko)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. 웹 SDK을 구현하는 기본 방법에는 두 가지가 있으며, 각 방법에는 두 가지 구현 유형이 있습니다.
 
 | | **AppMeasurement에서 마이그레이션** | **웹 SDK 구현 정리** |
 | --- | --- | --- |

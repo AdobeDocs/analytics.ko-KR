@@ -21,7 +21,7 @@ ht-degree: 11%
 
 ## 웹 SDK JavaScript 라이브러리의 지역 ID 속성
 
-[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)이(가) 활성화되면 `filterClickDetails` 개체에서 `clickCollection` 콜백을 사용합니다. 이 콜백 내에서 `clickedElement`의 값을 확인하고 수집된 영역의 논리를 사용자 지정할 수 있습니다.
+[`clickCollectionEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)이(가) 활성화되면 `filterClickDetails` 개체에서 `clickCollection` 콜백을 사용합니다. 이 콜백 내에서 `clickedElement`의 값을 확인하고 수집된 영역의 논리를 사용자 지정할 수 있습니다.
 
 ```js
 alloy("configure", {

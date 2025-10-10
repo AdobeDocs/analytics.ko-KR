@@ -138,7 +138,7 @@ Activity Map은 2초마다 다음과 같은 웹 페이지 상태의 변경 사�
 Activity Map을 비활성화하는 방법은 구현 유형에 따라 다릅니다.
 
 * **웹 SDK 확장**: 확장 구성 설정에서 **[!UICONTROL 내부 링크 클릭 수 수집]**, **[!UICONTROL 외부 링크 클릭 수 수집]** 및 **[!UICONTROL 다운로드 링크 클릭 수 수집]** 상자의 선택을 취소합니다.
-* **웹 SDK JavaScript 라이브러리**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)을(를) `false`(으)로 설정합니다.
+* **웹 SDK JavaScript 라이브러리**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)을(를) `false`(으)로 설정합니다.
 * **Analytics 확장**: 확장 구성 설정에서 **[!UICONTROL Activity Map 사용]** 확인란을 선택 취소합니다.
 * **AppMeasurement**: `AppMeasurement.js` 내의 Activity Map 모듈을 제거하거나 주석을 달거나, 모듈 함수 호출을 빈 본문으로 덮어씁니다.
 

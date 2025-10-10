@@ -32,7 +32,7 @@ ht-degree: 63%
 
 ## 웹 SDK을 수동으로 구현하는 `onBeforeEventSend` 사용
 
-웹 SDK에서 `doPlugins` 대신 유사한 기능을 사용하는 `onBeforeEventSend`을(를) 사용합니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
+웹 SDK에서 `doPlugins` 대신 유사한 기능을 사용하는 `onBeforeEventSend`을(를) 사용합니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#modifying-events-globally)을 참조하십시오.
 
 ```js
 // Set the trackingCode XDM field to "New value"

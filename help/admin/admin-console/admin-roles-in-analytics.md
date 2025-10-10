@@ -68,7 +68,7 @@ Experience Platform의 데이터 수집에 대한 제품 관리자 액세스 권
 
 ## 제품 프로필에 대한 전체 제품 관리자 액세스 권한 부여
 
-사용자를 제품 프로필 관리자로 할당하는 방법에 대한 자세한 내용은 Enterprise 사용 안내서의 [Enterprise 사용자의 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 문서의 “제품 프로필 관리자 관리”
+사용자를 제품 프로필 관리자로 할당하는 방법에 대한 자세한 내용은 Enterprise 사용 안내서의 [Enterprise 사용자의 제품 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html) 문서의 “제품 프로필 관리자 관리”
 섹션을 참조하십시오.
 
 ## 다음 단계
