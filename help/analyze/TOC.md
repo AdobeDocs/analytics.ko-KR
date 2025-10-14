@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 99%
 
 ---
 
@@ -81,12 +81,13 @@ ht-degree: 100%
       + 자유 형식 테이블 {#freeform-table}
          + [개요](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [하이퍼링크 만들기](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [트렌드 데이터 보기](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [필터링 및 정렬](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [총계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + 열 및 행 설정 {#column-row-settings}
             + [열 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [행 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [필터링 및 정렬](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [총계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 코호트 테이블 {#cohort-table}
          + [개요](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
