@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료를 찾아봅니다.
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
    + [FAQ](ga-to-aa/faq.md)
    + [플랫폼 간의 처리 차이점](ga-to-aa/processing-differences.md)
    + [데이터와 서드파티 제품 비교](ga-to-aa/compare-data.md)
++ [AI 트래픽 분석](/help/technotes/ai-traffic.md)
 + 이벤트의 영향을 받는 데이터 분석 {#event}
    + [이벤트 개요의 영향을 받는 데이터 분석](event/overview.md)
    + [데이터 증가/감소 문제 해결](event/spikes-drops.md)

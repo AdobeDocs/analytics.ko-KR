@@ -3,10 +3,10 @@ title: 레퍼러 유형
 description: 방문자가 어디에서 왔는지에 따른 레퍼러 유형입니다.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '500'
+ht-degree: 88%
 
 ---
 
@@ -24,10 +24,34 @@ ht-degree: 96%
 
 * **입력/책갈피 표시**: 히트에 대한 레퍼러 데이터가 없습니다.
 * **검색 엔진**: 이 레퍼러는 키워드 쿼리 문자열을 포함하는 잘 알려진 검색 엔진에서 왔습니다.
+* **대화형 AI 도구**: 레퍼러가 인식된 대화형 AI 도구에서 왔습니다.
 * **소셜 네트워크:**: 레퍼러 데이터가 Adobe에서 인정한 소셜 네트워크에 속했습니다.
 * **기타 웹 사이트**: 레퍼러 데이터가 Adobe에서 인정하는 검색 엔진 또는 소셜 네트워크에 속하지 않았습니다.
+* **JavaScript 없음**: JavaScript을 사용하지 않는 브라우저에서 레퍼러가 왔습니다.
 * **하드 드라이브**: 레퍼러가 방문자의 하드 드라이브에 있는 웹 페이지의 로컬 복사본에서 비롯되었습니다.
 * **이메일**: 레퍼러가 `imap://` 또는 `mail://`의 프로토콜을 사용하는 URL에서 유래했습니다. 일반적으로 `https://` 프로토콜을 사용하기 때문에 온라인 이메일 서비스를 포함하지 않습니다.
+
+### 대화형 AI 도구
+
+다음 목록은 Adobe이 사용하는 &#39;대화형 AI 도구&#39; 조회 테이블을 참조합니다. Adobe에서는 Adobe Analytics 고객을 위해 이 목록을 제공합니다. Adobe가 이 목록에 도메인을 추가하도록 권유하려면 조직의 지원 담당자를 통해 고객 지원 팀에 연락하십시오.
+
+* `https://chatgpt.com`
+* `https://chat.com`
+* `https://chat.openai.com`
+* `https://gemini.google.com`
+* `https://copilot.microsoft.com`
+* `https://m365.cloud.microsoft`
+* `https://perplexity.ai`
+* `https://labs.perplexity.ai`
+* `https://playground.perplexity.ai`
+* `https://claude.ai`
+* `https://grok.com`
+* `https://komo.ai`
+* `https://phind.com`
+* `https://poe.com`
+* `https://blackbox.ai`
+* `https://chat.mistral.ai`
+* `https://meta.ai`
 
 ### 소셜 네트워크
 
