@@ -39,7 +39,7 @@ Adobe Experience Platform Web SDK를 사용하면 Adobe에서 생성한 Experien
 
 ## 추가 정보
 
-사용자의 비즈니스가 서드파티 쿠키에서 전환하기 위해 취할 수 있는 조치는 [Adobe를 통해 쿠키 없는 세상에서 고객 확보 및 유지](https://business.adobe.com/solutions/cookieless.html) 및 자세한 [서드파티 쿠키를 넘어선 사고: 서드파티 쿠키가 없는 세상을 위한 완벽한 안내서](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf)를 참조하십시오.
+사용자의 비즈니스가 서드파티 쿠키에서 전환하기 위해 취할 수 있는 조치는 [Adobe를 통해 쿠키 없는 세상에서 고객 확보 및 유지](https://business.adobe.com/kr/solutions/cookieless.html) 및 자세한 [서드파티 쿠키를 넘어선 사고: 서드파티 쿠키가 없는 세상을 위한 완벽한 안내서](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

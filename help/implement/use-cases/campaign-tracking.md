@@ -20,7 +20,7 @@ ht-degree: 100%
 1. [추적 코드 데이터를 포함하도록 Adobe Analytics 구현 설정 또는 조정](#include-campaign-variables-in-your-implementation)
 1. [Analysis Workspace에서 보고서 보기](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html)은 이러한 각 단계를 단순화하여 마케팅 활동에서 최대한의 가치를 이끌어내는 데 도움이 될 수 있습니다. 자세한 내용은 Adobe 영업 담당자에게 문의하십시오.
+[Adobe Campaign](https://business.adobe.com/kr/products/campaign/adobe-campaign.html)은 이러한 각 단계를 단순화하여 마케팅 활동에서 최대한의 가치를 이끌어내는 데 도움이 될 수 있습니다. 자세한 내용은 Adobe 영업 담당자에게 문의하십시오.
 
 ## 추적 코드 생성 프로세스 설정
 

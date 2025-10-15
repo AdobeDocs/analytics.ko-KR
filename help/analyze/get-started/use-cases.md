@@ -14,7 +14,7 @@ ht-degree: 98%
 
 다음은 Adobe Analytics에서 조직이 고객에게 더 나은 서비스를 제공하기 위해 중요한 통찰력을 얻을 수 있는 몇 가지 주요 방법입니다.
 
-Adobe Analytics에서 제공하는 이점에 대한 자세한 내용은 [Adobe Analytics 제품 페이지](https://business.adobe.com/products/analytics/adobe-analytics.html)를 참조하십시오.
+Adobe Analytics에서 제공하는 이점에 대한 자세한 내용은 [Adobe Analytics 제품 페이지](https://business.adobe.com/kr/products/analytics/adobe-analytics.html)를 참조하십시오.
 
 ## 웹 분석
 

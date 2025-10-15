@@ -28,7 +28,7 @@ Device Graph 방법을 사용하여 크로스 디바이스 분석을 구현하�
 >
 
 * [개요 페이지](overview.md)에 나열되어 있는 모든 사전 요구 사항.
-* 조직은 [Adobe Experience Platform ID 서비스 개인 그래프](https://business.adobe.com/products/experience-platform/identity-service.html)를 사용해야 합니다. ID 서비스 사용 안내서의 [홈 페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko-KR)도 참조하세요.
+* 조직은 [Adobe Experience Platform ID 서비스 개인 그래프](https://business.adobe.com/kr/products/experience-platform/identity-service.html)를 사용해야 합니다. ID 서비스 사용 안내서의 [홈 페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko-KR)도 참조하세요.
 * 구현은 최신 버전의 Experience Cloud ID 서비스(ECID)를 사용해야 합니다. ID 서비스 사용 안내서에서 [홈 페이지](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 참조하세요. Adobe Experience Platform에서 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하는 대부분의 구현에 이미 ID 서비스가 배포되어 있을 수 있습니다.
 * 구현은 사용자가 로그인하거나 이메일을 여는 경우와 같이 개인을 식별할 수 있을 때마다 이 `setCustomerIDs` 함수 (또는 그에 상응하는 SDK 항목)를 호출해야 합니다. 이 요구 사항은 모바일 앱 (사용하는 경우)을 비롯한 모든 플랫폼에 적용됩니다. ID 서비스 사용 안내서에서 [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=ko-KR)을(를) 참조하십시오.
 

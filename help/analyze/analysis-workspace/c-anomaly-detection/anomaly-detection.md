@@ -119,17 +119,17 @@ Analysis Workspace의 예외 항목 탐지 알고리즘에 포함된 기능은 �
    <td colname="col3" colsep="1"> <p>토큰 없음 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > 선택 </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/kr/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > 선택 </a> </p> </td> 
    <td colname="col2"> <p>일별 세부 기간만 </p> </td> 
    <td colname="col3"> <p>토큰 없음 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  > 프라임 </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/kr/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  > 프라임 </a> </p> </td> 
    <td colname="col2"> <p>예 </p> </td> 
    <td colname="col3"> <p>월별 10개 토큰 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > 최적</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/kr/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > 최적</a> </p> </td> 
    <td colname="col2"> <p>예 </p> </td> 
    <td colname="col3"> <p>월별 20개 토큰 </p> </td> 
   </tr> 
@@ -154,7 +154,7 @@ Analysis Workspace의 예외 항목 탐지 알고리즘에 포함된 기능은 �
    <td colname="col3"> <p>월별 2개 토큰 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (완료, <a href="https://business.adobe.com/products/analytics/predictive-analytics.html"  >예측 인텔리전스</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (완료, <a href="https://business.adobe.com/kr/products/analytics/predictive-analytics.html"  >예측 인텔리전스</a>) </p> </td> 
    <td colname="col2"> <p>예 </p> </td> 
    <td colname="col3"> <p>무제한 토큰 </p> </td> 
   </tr> 
