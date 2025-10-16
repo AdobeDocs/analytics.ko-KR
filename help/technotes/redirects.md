@@ -46,7 +46,7 @@ ht-degree: 99%
 
 ## 구현 리디렉션 {#implement}
 
-리디렉션에서 [!DNL Analytics][!DNL AppMeasurement] 데이터를 캡처하려면 리디렉션 및 JavaScript용 파일을 만드는 코드에 대해 4가지 사항을 조정해야 합니다.
+리디렉션에서 [!DNL Analytics]&#x200B;[!DNL AppMeasurement] 데이터를 캡처하려면 리디렉션 및 JavaScript용 파일을 만드는 코드에 대해 4가지 사항을 조정해야 합니다.
 
 다음 단계를 완료하면 원래 레퍼러 (예: 위의 시나리오에서 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 사용자 사이트에 전달하는 정보는 그대로 유지됩니다.
 
