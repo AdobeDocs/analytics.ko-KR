@@ -4,10 +4,10 @@ description: 서로 다른 구현 유형을 사용하고 이러한 유형 간에
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 64%
+source-wordcount: '377'
+ht-degree: 59%
 
 ---
 
@@ -29,4 +29,4 @@ Adobe Analytics 구현의 핵심 아키텍처는 모든 구현 유형에서 일�
 | Experience Cloud ID 서비스 | 구현 [`VisitorAPI.js`](appmeasurement.md) | [Experience Cloud ID 서비스 확장 사용](analytics-extension.md) | [기본적으로 포함됨](alloy.md) | [기본적으로 포함됨](web-sdk-extension.md) | 원하는 ID를 얻으려면 [ID 서비스에 대해 별도의 호출을](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html?lang=ko-KR)하고 쿼리 문자열에 `mid`을(를) 포함하십시오. |
 | Edge 도메인 | [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 변수 | [!UICONTROL 확장을 구성]할 때 [!UICONTROL 일반] 섹션에서 [SSL 추적 서버](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=ko-KR) | `edgeDomain` 속성([Web SDK 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR) 시) | [!UICONTROL 확장을 구성]할 때 [Edge 도메인](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ko-KR) 필드 | 이미지 요청 URL의 `hostname` |
 
-이러한 변수 중 각 구현 유형에서 일관되지 않은 것이 경우 Adobe는 해당 변수를 별도의 방문자로 간주합니다. 방문자가 사이트의 구현 유형 간에 원활하게 추적되지 않는 경우 가장 일반적인 이유는 ID 서비스가 잘못 구성된 것입니다. 각 구현 유형이 사이트에서 동일한 Experience Cloud ID(`mid`)를 올바르게 가져오는지 확인하십시오.
+각 구현 유형에서 이러한 변수가 일관되지 않으면 Adobe에서 이를 별도의 방문자로 간주할 수 있습니다. 방문자가 사이트의 구현 유형 간에 원활하게 추적되지 않는 경우 가장 일반적인 이유는 ID 서비스가 잘못 구성된 것입니다. 각 구현 유형이 사이트에서 동일한 Experience Cloud ID(`mid`)를 올바르게 가져오는지 확인하십시오.
