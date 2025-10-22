@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [컨텍스트 인식 세션](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [컨텍스트 인식 세션](https://video.tv.adobe.com/v/3428476?captions=kor&quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
