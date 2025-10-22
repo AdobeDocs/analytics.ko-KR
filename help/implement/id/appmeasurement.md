@@ -1,9 +1,9 @@
 ---
 title: AppMeasurement을 사용한 방문자 식별
 description: AppMeasurement을 사용하여 Adobe Analytics을 구현할 때 방문자를 올바르게 식별합니다.
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,9 @@ AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaSc
 >
 >Adobe에서는 방문자를 식별하기 위해 이 방법을 사용하지 않는 것이 좋습니다.
 
-조직에서 방문자 ID 서비스를 사용하지 않는 경우 AppMeasurement은 자체 방문자 ID 양식을 사용합니다. 방문자가 사이트에 처음 도달하면 라이브러리에서 [`s_vi`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키를 확인합니다. 이 쿠키는 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)(HTTPS의 경우) 또는 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)(HTTP의 경우)과 일치하는 도메인에서 설정됩니다.
+조직에서 방문자 ID 서비스를 사용하지 않는 경우 AppMeasurement은 자체 방문자 ID 양식을 사용합니다. 방문자가 사이트에 처음 도달하면 라이브러리에서 [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키를 확인합니다. 이 쿠키는 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)(HTTPS의 경우) 또는 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)(HTTP의 경우)과 일치하는 도메인에서 설정됩니다.
 
-* [관리 인증서 프로그램](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/adobe-managed-cert)에 참여하는 경우 추적 서버는 일반적으로 자사 도메인이므로 `s_vi` 쿠키를 자사 쿠키로 만듭니다.
+* [관리 인증서 프로그램](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)에 참여하는 경우 추적 서버는 일반적으로 자사 도메인이므로 `s_vi` 쿠키를 자사 쿠키로 만듭니다.
 * 관리 인증서 프로그램에 참여하지 않는 경우 추적 서버는 일반적으로 `adobedc.net`, `omtrdc.net` 또는 `2o7.net`의 하위 도메인이며 `s_vi` 쿠키를 타사 쿠키로 만듭니다. 최신 브라우저 개인 정보 보호 표준으로 인해 서드파티 쿠키는 대부분의 브라우저에서 거부됩니다. 거부되면 AppMeasurement은 대신 자사 대체 쿠키(`fid`)를 설정하려고 합니다.
 
 `trackingServerSecure`을(를) 올바르게 설정하면 추가 방문자 식별 조치가 필요하지 않습니다.
@@ -82,7 +82,7 @@ AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaSc
 * 모든 히트는 단일 방문자로 계산되려면 동일한 `visitorID` 값을 포함해야 합니다.
    * `visitorID`을(를) 생략한 모든 히트는 자동으로 다른 방문자 식별 방법을 사용하려고 시도하여 별도의 방문자로 취급됩니다.
    * 이전 히트와 다른 `visitorID` 값을 포함하는 모든 히트는 별도의 방문자로 처리됩니다.
-   * Adobe에서는 서로 다른 방문자 ID를 함께 사용하여 히트를 연결하는 방법을 제공하지 않습니다.
+   * Adobe은 Adobe Analytics에서 서로 다른 방문자 ID를 사용하여 히트를 결합하는 방법을 제공하지 않습니다.
 * 공유 대상, Analytics for Target 및 고객 특성은 `visitorID`을(를) 사용하여 식별된 방문자에서 지원되지 않습니다.
 
 이 변수를 사용하는 구현 지침은 [`visitorID`](/help/implement/vars/config-vars/visitorid.md)을(를) 참조하십시오.

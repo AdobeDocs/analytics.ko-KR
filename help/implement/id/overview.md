@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics의 방문자 식별
 description: 최신 모범 사례를 사용하여 Adobe Analytics에서 방문자를 식별하는 방법을 알아봅니다.
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 12%
+source-wordcount: '572'
+ht-degree: 10%
 
 ---
 
@@ -19,15 +19,17 @@ Adobe Analytics의 방문자 식별은 다음 구성 요소로 구성됩니다.
 
 ## Adobe Analytics 작업 식별 순서
 
-Adobe이 히트를 받으면 다음 검사가 순서대로 수행됩니다. 주어진 속성이 있으면 Adobe은 히트에 해당 식별자를 사용합니다. 히트에 여러 식별자가 있으면 첫 번째 메서드만 사용됩니다.
+Adobe이 히트를 받으면 다음 검사가 순서대로 수행됩니다. 주어진 속성이 있으면 Adobe은 히트에 해당 식별자를 사용합니다. 히트에 여러 식별자가 있으면 첫 번째 메서드만 사용됩니다. 작업 순서는 Adobe에서 방문자 식별을 권장하는 순서를 반영하지 않습니다.
 
 | 사용된 순서 | 쿼리 매개변수 | 제공 시점 |
 |---|---|---|
 | **1<sup>번째</sup>** | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 변수가 설정되어 있습니다. |
-| **2<sup>번째</sup>** | `aid` | 방문자에게 기존 [`s_vi`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있습니다. 방문자 ID 서비스를 구현하지 않은 상태에서 또는 구현하기 전에 구현을 설정하십시오. |
-| **3<sup>rd</sup>** | `mid` | 방문자에게 기존 [`s_ecid`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있습니다. [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 사용하여 구현을 설정하십시오. Adobe 가능한 경우 모든 구현에 ID 서비스를 사용하는 것이 좋습니다. |
-| **4<sup>번째</sup>** | `fid` | 방문자에게 기존 [`s_fid`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있거나 어떤 이유로든 `aid` 및 `mid`을(를) 설정할 수 없는 경우. |
-| **5<sup>번째</sup>** | IP 주소, 사용자 에이전트, 게이트웨이 IP 주소 | 방문자의 브라우저가 쿠키를 허용하지 않는 경우 고유 방문자를 식별하는 마지막 수단으로 사용됩니다. |
+| **2<sup>번째</sup>** | `aid` | 방문자에게 기존 [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있습니다. 방문자 ID 서비스를 구현하지 않은 상태에서 또는 구현하기 전에 구현을 설정하십시오. |
+| **3<sup>rd</sup>** | `mid` | 방문자에게 기존 [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있습니다. [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 사용하여 구현을 설정하십시오. Adobe 가능한 경우 모든 구현에 ID 서비스를 사용하는 것이 좋습니다. |
+| **4<sup>번째</sup>** | `fid` | 방문자에게 기존 [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있습니다. 어떤 이유로든 `aid` 및 `mid`을(를) 설정할 수 없는 경우 AppMeasurement에서 대체 ID를 자동으로 생성합니다. |
+| **5<sup>번째</sup>** | IP 주소 + 사용자 에이전트 | 방문자의 브라우저가 쿠키를 허용하지 않는 경우 고유 방문자를 식별하는 마지막 수단으로 사용됩니다. 해시된 방문자 ID는 [IP 난독화](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) 전에 생성됩니다. IP 주소를 사용할 수 없는 경우 다른 IP 세부 정보(예: 게이트웨이 IP)가 대신 사용됩니다. |
+
+그러면 선택한 방문자 ID가 해시되고 해당 서버측 식별자가 됩니다. 이 서버측 식별자는 `visid_high`데이터 피드`visid_low`에서 [ + ](/help/export/analytics-data-feed/data-feed-overview.md)(으)로 사용할 수 있습니다.
 
 ## 고유 방문자 수에 영향을 주는 행동
 
