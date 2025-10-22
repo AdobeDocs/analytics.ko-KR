@@ -29,7 +29,7 @@ Adobe이 히트를 받으면 다음 검사가 순서대로 수행됩니다. 주�
 | **4<sup>번째</sup>** | `fid` | 방문자에게 기존 [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있습니다. 어떤 이유로든 `aid` 및 `mid`을(를) 설정할 수 없는 경우 AppMeasurement에서 대체 ID를 자동으로 생성합니다. |
 | **5<sup>번째</sup>** | IP 주소 + 사용자 에이전트 | 방문자의 브라우저가 쿠키를 허용하지 않는 경우 고유 방문자를 식별하는 마지막 수단으로 사용됩니다. 해시된 방문자 ID는 [IP 난독화](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) 전에 생성됩니다. IP 주소를 사용할 수 없는 경우 다른 IP 세부 정보(예: 게이트웨이 IP)가 대신 사용됩니다. |
 
-그러면 선택한 방문자 ID가 해시되고 해당 서버측 식별자가 됩니다. 이 서버측 식별자는 `visid_high`데이터 피드`visid_low`에서 [ + ](/help/export/analytics-data-feed/data-feed-overview.md)(으)로 사용할 수 있습니다.
+그러면 선택한 방문자 ID가 해시되고 해당 서버측 식별자가 됩니다. 이 서버측 식별자는 `visid_high`데이터 피드`visid_low`에서 [&#x200B; + &#x200B;](/help/export/analytics-data-feed/data-feed-overview.md)(으)로 사용할 수 있습니다.
 
 ## 고유 방문자 수에 영향을 주는 행동
 
