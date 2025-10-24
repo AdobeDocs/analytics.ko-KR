@@ -1,28 +1,49 @@
 ---
 title: 분류 세트 설정
-description: 분류 세트를 만들거나 편집합니다.
+description: 분류 세트를 만들거나 편집하는 방법을 이해합니다.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 97%
+source-wordcount: '144'
+ht-degree: 2%
 
 ---
 
 # 분류 세트 설정
 
-분류 세트 설정을 구성합니다.
+분류 세트의 초기 설정을 편집할 수 있습니다.
 
-**[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]** > **[!UICONTROL 설정]** > 원하는 분류 세트 이름 > **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+**[!UICONTROL 분류 세트]** 관리자에서 설정을 편집할 분류 세트를 선택합니다.
 
-![분류 집합 설정](../../assets/classification-set-settings.png)
+**[!UICONTROL 분류 집합:]**&#x200B;분류 집합 제목&#x200B;**[!UICONTROL 대화 상자의 _설정_]**탭에서, 해당되는 경우:
 
-다음 필드는 이 탭에서 사용할 수 있습니다.
+![분류 집합 - 설정](assets/classification-sets-settings.png)
 
-* **[!UICONTROL 이름]**: 분류 세트 이름입니다.
-* **[!UICONTROL 설명]**: 분류 세트에 대한 설명입니다.
-* **[!UICONTROL 문제 알림]**: 이 분류 세트와 관련된 문제를 알리는 쉼표로 구분된 이메일 주소 목록입니다.
-* **[!UICONTROL 태그]**: 선택한 분류 세트에 태그를 하나 이상 추가합니다. 태그를 사용하면 나중에 분류 세트를 쉽게 찾을 수 있도록 구성하거나 그룹화할 수 있습니다.
-* **[!UICONTROL 유형]**: [!UICONTROL 기본] 및 [!UICONTROL 조회] 사이의 분류 유형입니다. 일반적으로 기본 분류가 사용됩니다. 분류 세트 유형을 만들고 나면 변경할 수 없습니다.
-* **[!UICONTROL 구독]**: 분류 세트가 적용되는 보고서 세트 및 차원 조합입니다.
+1. **[!UICONTROL 이름]**&#x200B;을(를) 편집합니다.
+1. **[!UICONTROL 설명(선택 사항)]**&#x200B;을 편집합니다.
+1. **[!UICONTROL 문제 알림]**&#x200B;에서 전자 메일 주소(쉼표 구분) 목록을 편집합니다. 이러한 사용자는 모든 문제에 대해 이메일로 알림을 받습니다.
+1. 하나 이상의 **[!UICONTROL 태그(선택 사항)]**&#x200B;를 분류 집합에 추가합니다. **[!UICONTROL 태그]** 드롭다운 메뉴에서 기존 태그를 선택하거나 새 태그를 입력하십시오. 태그를 제거하려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 사용하십시오.
+1. **[!UICONTROL 구독]**&#x200B;을(를) 편집합니다.
+   * 분류 세트에 여러 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL Dimension]** 조합을 정의할 수 있습니다.
+   * ![보고서 세트](/help/assets/icons/CrossSize400.svg) 및 **[!UICONTROL 키 Dimension]** 조합을 삭제하려면 **[!UICONTROL CrossSize400]**&#x200B;을(를) 선택하십시오.
+
+
+<!--
+
+Configure a classification set's settings.
+
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Settings]**
+
+![classification set settings](../../assets/classification-set-settings.png)
+
+The following fields are available in this tab:
+
+* **[!UICONTROL Name]**: The classification set name.
+* **[!UICONTROL Description]**: The description for the classification set.
+* **[!UICONTROL Notify of issues]**: A comma-delimited list of email addresses that are notified of issues with this classification set.
+* **[!UICONTROL Tags]**: Add one or more tags to the selected classification set. Tags allow you to organize or group classification sets so that it is easier to locate them in the future.
+* **[!UICONTROL Type]**: The type of classification between [!UICONTROL Primary] and [!UICONTROL Lookup]. Primary classifications are typically used. You cannot alter a classification set's type after it is created.
+* **[!UICONTROL Subscriptions]**: The report suite and dimension combinations that the classification set applies to.
+
+-->

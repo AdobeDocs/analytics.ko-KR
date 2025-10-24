@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -264,16 +264,16 @@ ht-degree: 100%
    + 분류 설정 {#sets}
       + [개요](classifications/sets/overview.md)
       + [데이터 파일](classifications/sets/data-files.md)
-      + 분류 세트 관리 {#manage}
-         + [분류 세트 관리자](classifications/sets/manage/set-manager.md)
-         + [분류 세트 만들기](classifications/sets/manage/create.md)
-         + [분류 세트 설정](classifications/sets/manage/settings.md)
-         + [분류 세트 스키마](classifications/sets/manage/schema.md)
-         + [분류 세트 규칙](classifications/sets/manage/rules.md)
-      + [분류 세트 작업 관리자](classifications/sets/job-manager.md)
-      + 분류 세트 통합 {#consolidations}
-         + [통합 관리자](classifications/sets/consolidations/manage.md)
-         + [통합 프로세스](classifications/sets/consolidations/process.md)
+      + 분류 설정 {#manage}
+         + [관리](classifications/sets/manage/set-manager.md)
+         + [만들기 및 편집](classifications/sets/manage/create.md)
+         + [설정](classifications/sets/manage/settings.md)
+         + [스키마](classifications/sets/manage/schema.md)
+         + [규칙](classifications/sets/manage/rules.md)
+      + [분류 작업](classifications/sets/job-manager.md)
+      + 분류 통합 {#consolidations}
+         + [관리](classifications/sets/consolidations/manage.md)
+         + [만들기 및 편집](classifications/sets/consolidations/process.md)
    + 분류 규칙 빌더 (이전){#classifications-rulebuilder}
       + [개요](classifications/crb/classification-rule-builder.md)
       + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
