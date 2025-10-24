@@ -16,7 +16,7 @@ ht-degree: 2%
 
 **[!UICONTROL 분류 세트]** 관리자에서 설정을 편집할 분류 세트를 선택합니다.
 
-**[!UICONTROL 분류 집합:]**&#x200B;분류 집합 제목&#x200B;**[!UICONTROL 대화 상자의 _설정_]**탭에서, 해당되는 경우:
+**[!UICONTROL 분류 집합:]**&#x200B;분류 집합 제목&#x200B;**[!UICONTROL 대화 상자의 _설정_]**&#x200B;탭에서, 해당되는 경우:
 
 ![분류 집합 - 설정](assets/classification-sets-settings.png)
 

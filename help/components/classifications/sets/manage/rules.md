@@ -15,7 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >분류 세트는 아직 규칙을 지원하지 않습니다. 기존 규칙 빌더 기능을 사용할 수 없게 되기 전에 규칙 기능이 분류 세트 인터페이스에 추가됩니다.
->>분류에 대한 규칙이 필요한 경우 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md)를 계속 사용하십시오.
+>&#x200B;>분류에 대한 규칙이 필요한 경우 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md)를 계속 사용하십시오.
 
 
 <!--
