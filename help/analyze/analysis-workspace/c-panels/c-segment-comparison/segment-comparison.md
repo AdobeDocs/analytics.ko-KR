@@ -5,10 +5,10 @@ keywords: Analysis Workspace;세그먼트 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 3324d04af41b5de1e42c6ec3958e17fc0fadd0df
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 76%
+source-wordcount: '590'
+ht-degree: 74%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 세그먼트 비교 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;에는 동등한 패널이 없습니다._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 세그먼트 비교 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;에는 동등한 패널이 없습니다._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/33251?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 비교](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -50,9 +50,9 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ## 사용
 
-**[!UICONTROL 속성]** 패널 사용 방법:
+**[!UICONTROL 세그먼트 비교]** 패널을 사용하려면:
 
-1. **[!UICONTROL 속성]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](../panels.md#create-a-panel)를 참조하십시오.
+1. **[!UICONTROL 세그먼트 비교]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](../panels.md#create-a-panel)를 참조하십시오.
 
 1. 패널의 [입력](#panel-input)을 지정합니다.
 
@@ -91,7 +91,7 @@ Adobe Analytics에서 원하는 두 세그먼트에 대한 분석을 완료하�
 | **[!UICONTROL 세그먼트에 대한 상위 차원 항목]** | 선택된 세그먼트에 대한 혼합 차원 항목을 보여 주는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | **[!UICONTROL 세그먼트별 차원 항목]** | 세그먼트별 차원 항목을 보여 주는 [가로 막대](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) 시각화. |
 | **[!UICONTROL 세그먼트에 대한 상위 세그먼트]** | 세그먼트에 대한 상위 세그먼트를 보여 주는 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
-| **[!UICONTROL 세그먼트 겹치기]** | 세그먼트가 겹치는 부분을 보여 주는 [&#x200B; 벤](/help/analyze/analysis-workspace/visualizations/venn.md) 시각화. |
+| **[!UICONTROL 세그먼트 겹치기]** | 세그먼트가 겹치는 부분을 보여 주는 [ 벤](/help/analyze/analysis-workspace/visualizations/venn.md) 시각화. |
 
 ![편집](/help/assets/icons/Edit.svg)을 사용하여 패널을 재구성하고 재작성합니다.
 
