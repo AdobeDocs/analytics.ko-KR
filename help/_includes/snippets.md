@@ -1,8 +1,8 @@
 ---
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
 workflow-type: tm+mt
-source-wordcount: '2962'
-ht-degree: 88%
+source-wordcount: '2997'
+ht-degree: 87%
 
 ---
 # 스니펫
@@ -12,9 +12,9 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >간소화된 새 [Report Builder](/help/analyze/report-builder/rb-overview.md)이(가) 2024년 10월 16일에 릴리스되었습니다. Mac, Windows 및 웹 브라우저에서 지원됩니다.
->&#x200B;>이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [기존 통합 문서를 새 Report Builder으로 변환](/help/analyze/report-builder/convert-workbooks.md)할 수 있습니다.
+>>이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [기존 통합 문서를 새 Report Builder으로 변환](/help/analyze/report-builder/convert-workbooks.md)할 수 있습니다.
 
-## Reports & Analytics 서비스 종료 공지 {#ra-eol}
+## Reports &amp; Analytics 서비스 종료 공지 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -87,13 +87,14 @@ ht-degree: 88%
 
 속성 컨테이너는 속성에 대해 원하는 범위를 정의합니다. 가능한 옵션은 다음과 같습니다.
 
-* **방문**: 방문 컨테이너의 범위에서 전환을 봅니다.
+* **방문**: 방문 컨테이너의 범위에서 전환을 봅니다. **[!UICONTROL 방문]**&#x200B;을 선택하면 [속성 전환 확인 기간](#atribution-lookback-window)이 **[!UICONTROL 보고 기간]**(으)로 자동 설정되며 변경할 수 없습니다.
 * **방문자**: 방문자 컨테이너 범위에서 전환을 봅니다.
 
 ## 속성 전환 확인 기간 {#attribution-lookback-window}
 
 전환 확인 기간은 접점을 포함하도록 전환에서 다시 확인해야 하는 시간의 양입니다. 차원 항목이 전환 확인 기간 밖에 설정된 경우, 해당 값은 어떤 속성 계산에도 포함되지 않습니다.
 
+* **[!UICONTROL 보고 기간]**: 전환이 발생한 시점부터 보고 기간이 시작되기까지 되돌아봅니다.
 * **14일**: 전환이 발생한 날로부터 최대 14일까지를 되돌아봅니다.
 * **30일**: 전환이 발생한 날로부터 최대 30일까지를 되돌아봅니다.
 * **60일**: 전환이 발생한 날로부터 최대 60일까지를 되돌아봅니다.
