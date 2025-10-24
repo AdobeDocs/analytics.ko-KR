@@ -3,7 +3,7 @@ title: 분류 세트 스키마
 description: 개별 분류 세트에 대한 스키마를 보고 편집하는 방법을 알아봅니다.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 4%
@@ -14,10 +14,10 @@ ht-degree: 4%
 
 스키마는 분류 세트에 대해 정의한 주요 차원에 적용할 분류 목록입니다. 예를 들어, 제품을 키 차원으로 정의했으며 이 필드에 제품 SKU가 포함되어 있는 경우 스키마를 사용하여 제품 이름, 제품 색상, 제품 크기 등과 같은 분류를 추가합니다.
 
-분류 세트에 대한 스키마를 정의하려면
+분류 세트에 대한 스키마를 편집하려면 다음을 수행하십시오.
 
 1. **[!UICONTROL 분류 세트]** 관리자에서 스키마를 편집할 분류 세트를 선택합니다.
-1. **[!UICONTROL 분류 집합: _분류 집합_]**&#x200B;대화 상자에서 스키마 탭을 선택합니다. 해당 탭은 다음 인터페이스 요소로 구성됩니다.
+1. **[!UICONTROL 분류 집합: _분류 집합_]**대화 상자에서&#x200B;**[!UICONTROL 스키마]**탭을 선택합니다. 해당 탭은 다음 인터페이스 요소로 구성됩니다.
 
    ![분류 집합 - 스키마](assets/classification-sets-schema.png)
 
@@ -61,7 +61,7 @@ ht-degree: 4%
 
 ![분류 세트 - 스키마에 분류 추가](assets/classification-sets-schema-add-classification.png)
 
-**[!UICONTROL _분류 집합_]**&#x200B;에 대한 새 분류 추가 대화 상자에서&#x200B;**[!UICONTROL 분류 이름]**&#x200B;을 입력하고&#x200B;**[!UICONTROL 추가]**&#x200B;를 선택합니다. 분류가 목록에 추가됩니다.
+**[!UICONTROL _분류 집합_]**에 대한 새 분류 추가 대화 상자에서&#x200B;**[!UICONTROL 분류 이름]**을 입력하고&#x200B;**[!UICONTROL 추가]**를 선택합니다. 분류가 목록에 추가됩니다.
 
 
 
@@ -101,7 +101,7 @@ ht-degree: 4%
 
 ![분류 세트 - 스키마 분류 데이터 다운로드](assets/classification-sets-schema-download-file.png)
 
-**[!UICONTROL _분류 집합_]**&#x200B;에 대한 데이터 다운로드 대화 상자에서:
+**[!UICONTROL _분류 집합_]**에 대한 데이터 다운로드 대화 상자에서:
 
 1. 다운로드할 **[!UICONTROL 행]**&#x200B;의 수를 입력하십시오. 예: `10000`.
 1. 분류 데이터 행을 다운로드할 기간을 선택하려면 **[!UICONTROL 다음 기간 사이에 받은 행 다운로드]**&#x200B;에 대한 시작 및 종료 데이터를 입력하십시오. 또는 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 기간을 선택하는 달력 팝업을 사용합니다.
@@ -131,7 +131,7 @@ ht-degree: 4%
 
 ![분류 세트 스키마 - 템플릿 다운로드](assets/classification-sets-schema-download-template.png)
 
-**[!UICONTROL 분류 집합&#x200B;_에 대한_]**&#x200B;템플릿 다운로드 대화 상자에서:
+**[!UICONTROL 분류 집합&#x200B;_에 대한_]**템플릿 다운로드 대화 상자에서:
 
 1. 다운로드한 분류 데이터의 [파일 형식](/help/components/classifications/sets/data-files.md#general-file-requirements)을(를) 선택하려면 **[!UICONTROL 파일 형식]** 드롭다운 메뉴에서 옵션을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
 
@@ -152,7 +152,7 @@ ht-degree: 4%
 
 ![분류 세트 스키마 - 자동화](assets/classification-sets-schema-automate.png)
 
-**[!UICONTROL _분류 집합_]**&#x200B;에 대한 수집 위치 연결/업데이트 대화 상자에서:
+**[!UICONTROL _분류 집합_]**에 대한 수집 위치 연결/업데이트 대화 상자에서:
 
 1. 클라우드 위치를 선택하려면 **[!UICONTROL 위치 계정]**&#x200B;에서 옵션을 선택하십시오. 분류 데이터를 가져올 수 있는 [지원되는 계정 유형의 위치 계정](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-accounts)만 표시됩니다. 새 계정을 만들려면 **[!UICONTROL 새 계정]**&#x200B;을 선택하세요.
 1. 위치를 선택하려면 **[!UICONTROL 위치]**&#x200B;에서 옵션을 선택하십시오. 분류 데이터를 가져오기 위해 선택한 계정 유형의 위치만 표시됩니다. 새 위치를 만들려면 **[!UICONTROL 새 위치]**&#x200B;를 선택하세요.
@@ -170,7 +170,7 @@ ht-degree: 4%
 
 1. 수집 작업이 완료되었음을 사용자에게 알리려면 **[!UICONTROL 수집 작업이 완료되었을 때 알릴 전자 메일(쉼표로 구분)]**&#x200B;에 대한 전자 메일 주소를 쉼표로 구분하여 입력하십시오.
 1. **[!UICONTROL 유효성 검사]**&#x200B;를 선택합니다. 클라우드 위치에 대한 연결이 확인되었습니다.
-1. 유효성 검사가 성공하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 위치 유효성 검사가 성공했음을 보여 주는 toast 메시지가 표시됩니다. 클라우드 스토리지에 대한 연결이 확인되었습니다.클라우드 연결에 대한 연결을 만든 경우 &#x200B;]**<br/>**[!UICONTROL &#x200B;저장&#x200B;]**&#x200B;을 선택합니다. 그렇지 않으면&#x200B;**[!UICONTROL &#x200B;업데이트&#x200B;]**&#x200B;를 선택하십시오. 또는&#x200B;**[!UICONTROL &#x200B;취소&#x200B;]**&#x200B;를 선택하여 클라우드 위치 구성을 취소하세요.
+1. 유효성 검사가 성공하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 위치 유효성 검사가 성공했음을 보여 주는 toast 메시지가 표시됩니다. 클라우드 스토리지에 대한 연결이 확인되었습니다.클라우드 연결에 대한 연결을 만든 경우 ]**<br/>**[!UICONTROL &#x200B;저장&#x200B;]**을 선택합니다. 그렇지 않으면**[!UICONTROL &#x200B;업데이트&#x200B;]**를 선택하십시오. 또는**[!UICONTROL &#x200B;취소&#x200B;]**를 선택하여 클라우드 위치 구성을 취소하세요.
 
 
 ## 작업 표시줄
@@ -180,9 +180,9 @@ ht-degree: 4%
 | 아이콘 | 액션 | 설명 |
 |---|---|---|
 | ![찾아보기](/help/assets/icons/Browse.svg) | **[!UICONTROL 조회 추가]** | 분류 세트를 조회(하위 분류)로 추가합니다.<br/>조회 첨부&#x200B;**[!UICONTROL 테이블의]**: <ol><li>**[!UICONTROL 분류 이름]** 드롭다운 메뉴에서 조회 분류를 선택합니다.</li><li>**[!UICONTROL 추가]**&#x200B;를 선택합니다.</li></ol>조회 분류가 분류에 추가되고 내부 ID를 사용하여 **[!UICONTROL 분류자]** 열에 나열됩니다. |
-| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 조회 제거]** | 조회로 분류 세트를 제거합니다. 분류에서 조회를 영구적으로 삭제하려면 **[!UICONTROL 분류&#x200B;_확인 대화 상자에서__분류 세트 제거_]**&#x200B;에서&#x200B;**[!UICONTROL 삭제]**&#x200B;를 선택합니다. |
-| ![이름 바꾸기](/help/assets/icons/Rename.svg) | **[!UICONTROL 이름 바꾸기]** | 분류 이름을 변경합니다. **[!UICONTROL 이름 바꾸기: _분류_]**&#x200B;대화 상자에서 새 이름을 입력하고&#x200B;**[!UICONTROL 이름 바꾸기]**&#x200B;를 선택합니다. |
-| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 분류 세트를 삭제합니다. **[!UICONTROL _분류 삭제_]**&#x200B;대화 상자가 나타납니다. 분류 세트를 삭제하려면&#x200B;**[!UICONTROL 삭제]**&#x200B;를 선택하십시오. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 조회 제거]** | 조회로 분류 세트를 제거합니다. 분류에서 조회를 영구적으로 삭제하려면 **[!UICONTROL 분류&#x200B;_확인 대화 상자에서__분류 세트 제거_]**에서&#x200B;**[!UICONTROL 삭제]**를 선택합니다. |
+| ![이름 바꾸기](/help/assets/icons/Rename.svg) | **[!UICONTROL 이름 바꾸기]** | 분류 이름을 변경합니다. **[!UICONTROL 이름 바꾸기: _분류_]**대화 상자에서 새 이름을 입력하고&#x200B;**[!UICONTROL 이름 바꾸기]**를 선택합니다. |
+| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 분류 세트를 삭제합니다. **[!UICONTROL _분류 삭제_]**대화 상자가 나타납니다. 분류 세트를 삭제하려면&#x200B;**[!UICONTROL 삭제]**를 선택하십시오. |
 
 
 <!--

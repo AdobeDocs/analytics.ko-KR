@@ -3,10 +3,10 @@ title: 분류 세트 설정
 description: 분류 세트를 만들거나 편집하는 방법을 이해합니다.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 2%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -14,19 +14,26 @@ ht-degree: 2%
 
 분류 세트의 초기 설정을 편집할 수 있습니다.
 
-**[!UICONTROL 분류 세트]** 관리자에서 설정을 편집할 분류 세트를 선택합니다.
+분류 세트에 대한 설정을 편집하려면 다음을 수행하십시오.
 
-**[!UICONTROL 분류 집합:]**&#x200B;분류 집합 제목&#x200B;**[!UICONTROL 대화 상자의 _설정_]**&#x200B;탭에서, 해당되는 경우:
+1. **[!UICONTROL 분류 세트]** 관리자에서 스키마를 편집할 분류 세트를 선택합니다.
+1. **[!UICONTROL 분류 집합: _분류 집합_]**대화 상자에서&#x200B;**[!UICONTROL 설정]**탭을 선택합니다.
 
-![분류 집합 - 설정](assets/classification-sets-settings.png)
+1. **[!UICONTROL 분류 집합: _분류 집합_]**대화 상자에서 해당되는 경우:
 
-1. **[!UICONTROL 이름]**&#x200B;을(를) 편집합니다.
-1. **[!UICONTROL 설명(선택 사항)]**&#x200B;을 편집합니다.
-1. **[!UICONTROL 문제 알림]**&#x200B;에서 전자 메일 주소(쉼표 구분) 목록을 편집합니다. 이러한 사용자는 모든 문제에 대해 이메일로 알림을 받습니다.
-1. 하나 이상의 **[!UICONTROL 태그(선택 사항)]**&#x200B;를 분류 집합에 추가합니다. **[!UICONTROL 태그]** 드롭다운 메뉴에서 기존 태그를 선택하거나 새 태그를 입력하십시오. 태그를 제거하려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 사용하십시오.
-1. **[!UICONTROL 구독]**&#x200B;을(를) 편집합니다.
-   * 분류 세트에 여러 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL Dimension]** 조합을 정의할 수 있습니다.
-   * ![보고서 세트](/help/assets/icons/CrossSize400.svg) 및 **[!UICONTROL 키 Dimension]** 조합을 삭제하려면 **[!UICONTROL CrossSize400]**&#x200B;을(를) 선택하십시오.
+   ![분류 집합 - 설정](assets/classification-sets-settings.png)
+
+   1. **[!UICONTROL 이름]**&#x200B;을(를) 편집합니다.
+   1. **[!UICONTROL 설명(선택 사항)]**&#x200B;을 편집합니다.
+   1. **[!UICONTROL 문제 알림]**&#x200B;에서 전자 메일 주소(쉼표 구분) 목록을 편집합니다. 이러한 사용자는 모든 문제에 대해 이메일로 알림을 받습니다.
+   1. 하나 이상의 **[!UICONTROL 태그(선택 사항)]**&#x200B;를 분류 집합에 추가합니다. **[!UICONTROL 태그]** 드롭다운 메뉴에서 기존 태그를 선택하거나 새 태그를 입력하십시오. 태그를 제거하려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 사용하십시오.
+   1. **[!UICONTROL 구독]**&#x200B;을(를) 편집합니다.
+      * 분류 세트에 여러 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL Dimension]** 조합을 정의할 수 있습니다.
+      * ![보고서 세트](/help/assets/icons/CrossSize400.svg) 및 **[!UICONTROL 키 Dimension]** 조합을 삭제하려면 **[!UICONTROL CrossSize400]**&#x200B;을(를) 선택하십시오.
+
+      자세한 내용은 [분류 집합 만들기](create.md)를 참조하십시오.
+
+   1. 설정을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택하세요. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
 
 <!--
