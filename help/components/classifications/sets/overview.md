@@ -3,10 +3,10 @@ title: 분류 세트 개요
 description: 분류 세트를 사용하여 분류 데이터를 관리하는 방법을 알아봅니다. 분류 세트가 기존 분류와 어떻게 다른지 이해합니다.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 11%
+source-wordcount: '800'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 ![기존 분류](manage/assets/classifications-legacy.svg)
 
-분류 세트에서 보고서 세트 및 주요 차원 조합의 가입을 정의합니다. 예를 들어 여러 보고서 세트에 적용할 수 있는 제품 카탈로그 분류는 분류 세트로 한 번만 정의하면 됩니다. 또한 해당 분류 세트 내에서 여러 보고서 세트 및 주요 차원 조합을 구성하여 해당 분류 세트에 가입합니다.
+분류 세트에서 보고서 세트 및 주요 차원 조합의 가입을 정의합니다. 예를 들어 여러 보고서 세트에 적용할 수 있고 제품(SKU) 차원을 기반으로 하는 제품 카탈로그 분류는 한 번만 분류 세트로 정의하면 됩니다. 또한 해당 분류 세트 내에서 여러 보고서 세트 및 주요 차원 조합을 구성하여 해당 분류 세트에 가입합니다.
 
 ![분류 집합](manage/assets/classifications-sets.svg)
 
@@ -42,14 +42,14 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 분류 세트에 대한 워크플로우는 일반적으로 다음 단계를 포함합니다.
 
 1. 분류 세트를 생성할 보고서 세트 및 차원 조합을 고려합니다. 예를 들어, 더 자세한 정보를 사용하여 제품을 분류할 보고서 세트에 대해 생성하는 제품 분류 세트를 정의할 수 있습니다. 예를 들어 카테고리와 색상 등의 세부 사항이 있습니다.
-1. 제품을 식별하는 하나 이상의 보고서 세트 및 차원 조합에 대한 구독이 있는 [분류 세트를 만듭니다](/help/components/classifications/sets/manage/create.md). 예:
+1. 제품을 식별하는 하나 이상의 보고서 세트 및 키 차원 조합에 대한 구독이 있는 [분류 세트를 만듭니다](/help/components/classifications/sets/manage/create.md). 예:
 
    | 보고서 세트 | 주요 차원 |
    |---|---|
    | 보고서 세트 1 | 제품 ID |
    | 보고서 세트 2 | 제품 SKU |
 
-1. [식별한 분류를 &#x200B;](/help/components/classifications/sets/manage/schema.md#add) 분류 집합 스키마에 추가합니다. 예:
+1. [식별한 분류를 ](/help/components/classifications/sets/manage/schema.md#add) 분류 집합 스키마에 추가합니다. 예:
 
    | 분류 이름 | ID 이름 |
    |---|---|
@@ -77,13 +77,15 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
+분류 데이터 파일에서 **[!UICONTROL 을(를) 사용하는 각 보고서 세트(예:]**&#x200B;제품 ID **[!UICONTROL 및]**&#x200B;제품 SKU`Key`)의 키 차원을 참조합니다. **[!UICONTROL 분류 이름]**(예: `Category` 또는 `Color`)을 사용하여 각 분류를 참조합니다.
+
 1. 분류 데이터가 포함된 파일을 분류 집합 스키마에 [업로드](/help/components/classifications/sets/manage/schema.md#upload)합니다.
 
 1. 클라우드 위치를 사용하여 분류 데이터에 반영하려는 제품 카탈로그 업데이트 프로세스를 [자동화](/help/components/classifications/sets/manage/schema.md#automate)합니다.
 
 1. 콘텐츠의 유효성을 검사하려면 분류 데이터를 [다운로드](/help/components/classifications/sets/manage/schema.md#download)하십시오.
 
-1. [작업 기록을 검사합니다](/help/components/classifications/sets/job-manager.md) 분류에 대한 작업(가져오기, 내보내기 등)을 확인합니다.
+1. 분류에 대한 작업(업로드, 다운로드, 템플릿 등)의 결과를 확인하려면 [작업 기록을 검사하십시오](/help/components/classifications/sets/job-manager.md).
 1. 기존 분류 기능에서 마이그레이션한 결과로 유사한 분류 세트가 여러 개 있는 경우 이러한 분류 세트를 [통합](consolidations/manage.md)합니다.
 
 
@@ -94,7 +96,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 
 * 처리 시간이 72시간에서 24시간으로 단축되었습니다.
 * 분류를 관리하기 위해 다시 설계된 사용자 인터페이스입니다.
-* 분류 데이터에 대한 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Analytics에서 분류 데이터를 사용하는 옵션입니다.
+* 분류 데이터에 대한 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Analytics에서 분류 데이터를 사용하는 옵션입니다.
 
 분류 세트와 함께 릴리스된 백엔드 아키텍처에는 다음과 같은 몇 가지 변경 사항도 포함됩니다.
 

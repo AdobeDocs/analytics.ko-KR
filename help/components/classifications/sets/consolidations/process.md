@@ -3,9 +3,9 @@ title: 분류 통합 생성 및 편집
 description: 분류 통합을 만들고, 검증하고, 실행하고, 승인하고, 취소하는 방법에 대해 설명합니다.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ Drag the desired classification sets from the available column on the left to th
 1. **[!UICONTROL 구성 요소]** 메뉴에서 **[!UICONTROL 분류 집합]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 분류 세트]** 관리자에서 **[!UICONTROL 통합]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트 통합]** 관리자에서:
-   1. 분류 통합의 제목을 선택합니다. 통합: 분류 통합 대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
+   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
 
       | 사용 가능한 작업 | 설명 |
       |---|---|

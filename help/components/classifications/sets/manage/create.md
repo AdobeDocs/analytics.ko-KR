@@ -3,10 +3,10 @@ title: 분류 세트 만들기
 description: 분류 세트를 만들 때 사용 가능한 필드 및 설명을 만드는 방법을 알아봅니다.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 2%
+source-wordcount: '442'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,10 @@ ht-degree: 2%
 
          * ![보고서 세트](/help/assets/icons/CrossSize400.svg) 및 **[!UICONTROL 키 Dimension]** 조합을 삭제하려면 **[!UICONTROL CrossSize400]**&#x200B;을(를) 선택하십시오.
 
-        다른 분류 세트에 이미 있는 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]** 조합을 추가하면 조합 아래에 빨간색 경고가 표시됩니다. **[!UICONTROL 기존 항목에 추가]**&#x200B;를 선택하여 다른 분류 집합을 열고 [스키마에 분류를 추가](schema.md)하거나 차원을 변경할 수 있습니다.
+        다른 분류 세트에 이미 있는 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]** 조합을 추가하면 해당 조합 아래에 빨간색 메시지가 표시됩니다.
+다음과 같은 작업을 수행할 수 있습니다.
+         * **[!UICONTROL 기존 항목에 추가]**&#x200B;를 선택하여 다른 분류 집합을 열고 [스키마에 분류 추가](schema.md)를 선택합니다.
+         * **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]**&#x200B;을(를) 다른 분류 집합을 구독하지 않은 조합으로 변경하십시오.
       * **[!UICONTROL 조회]**. 일반적으로 하위 또는 하위 분류라고 하는 조회 테이블은 기본 분류의 분류입니다. 조회는 원래 차원이 아닌 분류 값에 대한 메타데이터입니다. 예를 들어 *Product* 차원의 기본 분류는 *색상 코드*&#x200B;일 수 있습니다. *색상 이름*&#x200B;의 조회 테이블을 *색상 코드*&#x200B;에 연결하여 각 색상 코드를 설명할 수 있습니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택하여 분류 집합을 저장합니다. 정의를 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 1. 분류 세트에 대한 스키마를 정의하려면 **[!UICONTROL 분류 세트]** 관리자에서 새로 만든 분류 세트를 선택하여 [분류 세트를 편집](#edit-a-classification-set)합니다.
@@ -46,8 +49,8 @@ ht-degree: 2%
 
 1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.
-1. 분류 세트의 제목을 선택합니다.
-1. **[!UICONTROL 분류 세트: _분류 세트 제목_]**&#x200B;대화 상자에서 분류 세트에 대한 [설정](settings.md) 및 [스키마](schema.md)을(를) 정의할 수 있습니다.
+1. 분류 세트의 이름을 선택합니다.
+1. **[!UICONTROL 분류 세트: _분류 세트 이름_]**대화 상자에서 분류 세트에 대한 [설정](settings.md) 및 [스키마](schema.md)을(를) 정의할 수 있습니다.
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 내용을 저장합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
 
