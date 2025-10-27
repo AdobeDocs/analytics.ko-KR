@@ -65,15 +65,15 @@ ht-degree: 5%
 | 아이콘 | 액션 | 설명 |
 |---|---|---|
 | ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 편집]** | 분류 세트 빌더에서 [분류 세트를 편집](create.md#edit-a-classification-set)합니다. |
-| ![이름 바꾸기](/help/assets/icons/Rename.svg) | **[!UICONTROL 이름 바꾸기]** | 분류 세트의 이름을 변경합니다.<br/>**[!UICONTROL 이름 바꾸기: _분류 집합_]**대화 상자에서 새 이름을 입력하고&#x200B;**[!UICONTROL 이름 바꾸기]**를 선택합니다. |
+| ![이름 바꾸기](/help/assets/icons/Rename.svg) | **[!UICONTROL 이름 바꾸기]** | 분류 세트의 이름을 변경합니다.<br/>**[!UICONTROL 이름 바꾸기: _분류 집합_]**&#x200B;대화 상자에서 새 이름을 입력하고&#x200B;**[!UICONTROL 이름 바꾸기]**&#x200B;를 선택합니다. |
 | ![병합](/help/assets/icons/Merge.svg) | **[!UICONTROL 통합]** | [분류 집합을 통합](/help/components/classifications/sets/consolidations/manage.md)합니다. |
 | ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 분류 세트를 삭제합니다.<br/>**[!UICONTROL 분류 집합 _삭제_를 수행하시겠습니까?]** 대화 상자가 나타납니다. 분류 세트의 삭제는 실행 취소할 수 없습니다. 이 분류 세트를 사용하는 모든 예약된 프로젝트 또는 통합은 예약된 프로젝트를 다시 저장하거나 예약된 통합을 다시 검증할 때까지 이 분류 세트의 정의를 계속 사용합니다. 분류 세트를 삭제하려면 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오. |
-| ![레이블](/help/assets/icons/Label.svg) | **[!UICONTROL 태그]** | 분류 세트에 태깅합니다.<br/>**[!UICONTROL 태그: _분류 집합_]**대화 상자의&#x200B;**[!UICONTROL 태그]**드롭다운 메뉴에서 태그를 하나 이상 선택하여 태그를 추가합니다. 또는 새 태그를 하나 이상 입력합니다. 태그를 제거하려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 사용하십시오. <br/>태그를 저장하려면&#x200B;**[!UICONTROL 저장]**을 선택하십시오. |
+| ![레이블](/help/assets/icons/Label.svg) | **[!UICONTROL 태그]** | 분류 세트에 태깅합니다.<br/>**[!UICONTROL 태그: _분류 집합_]**&#x200B;대화 상자의&#x200B;**[!UICONTROL 태그]**&#x200B;드롭다운 메뉴에서 태그를 하나 이상 선택하여 태그를 추가합니다. 또는 새 태그를 하나 이상 입력합니다. 태그를 제거하려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 사용하십시오. <br/>태그를 저장하려면&#x200B;**[!UICONTROL 저장]**&#x200B;을 선택하십시오. |
 
 
 ### 필터 패널
 
-분류 집합 목록을 필터링할 수 있는 필터 패널 ![을(를) 표시하려면 ](/help/assets/icons/Filter.svg)필터➍를 선택하십시오. 다음을 필터링할 수 있습니다.
+분류 집합 목록을 필터링할 수 있는 필터 패널 ![을(를) 표시하려면 &#x200B;](/help/assets/icons/Filter.svg)필터➍를 선택하십시오. 다음을 필터링할 수 있습니다.
 
 * **[!UICONTROL 태그]**. 하나 이상의 태그를 선택하여 태그의 분류 세트 목록을 필터링합니다.
 * **[!UICONTROL 보고서 세트]**. 하나 이상의 보고서 세트를 선택하여 보고서 세트의 분류 세트 목록을 필터링합니다.
