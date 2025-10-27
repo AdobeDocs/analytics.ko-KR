@@ -3,9 +3,9 @@ title: 분류 세트 통합 관리
 description: 하나 이상의 분류 세트를 단일 분류 세트로 통합하는 방법을 알아봅니다.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '597'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Adobe Analytics에서 분류 세트 통합 관리자를 보려면 제품 관리�
 
 분류 통합을 관리하려면 다음을 수행합니다.
 
-1. 기본 인터페이스에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 집합]**&#x200B;을 선택하십시오.
+1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 통합]** 탭을 선택합니다.
 
 
