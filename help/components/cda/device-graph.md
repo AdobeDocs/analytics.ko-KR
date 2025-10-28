@@ -4,10 +4,10 @@ description: Device Graph를 사용하여 데이터 결합의 사전 요구 사�
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
+source-git-commit: 6c74f4d4c14765742a2aafdfff2a083c6b0a7183
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 60%
+source-wordcount: '322'
+ht-degree: 55%
 
 ---
 
@@ -15,6 +15,11 @@ ht-degree: 60%
 # Device Graph
 
 {{available-existing-customers}}
+
+>[!WARNING]
+>
+>**2025년 12월 31일**&#x200B;에 더 이상 교차 장치 분석 내의 장치 그래프를 사용할 수 없습니다. 현재 Device Graph 사용 가상 보고서 세트를 [필드 기반 메서드](/help/components/cda/field-based-stitching.md)(으)로 전환하십시오.
+>
 
 교차 디바이스 분석은 개인 그래프를 사용하여 데이터를 함께 결합할 수 있습니다. 개인 그래프는 조직에 고유한 해시된 장치 ID의 저장소입니다. CDA는 Device Graph와 정기적으로 통신하여 디바이스들을 함께 연결합니다.
 
@@ -28,8 +33,8 @@ Device Graph 방법을 사용하여 크로스 디바이스 분석을 구현하�
 >
 
 * [개요 페이지](overview.md)에 나열되어 있는 모든 사전 요구 사항.
-* 조직은 [Adobe Experience Platform ID 서비스 개인 그래프](https://business.adobe.com/kr/products/experience-platform/identity-service.html)를 사용해야 합니다. ID 서비스 사용 안내서의 [홈 페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko-KR)도 참조하세요.
-* 구현은 최신 버전의 Experience Cloud ID 서비스(ECID)를 사용해야 합니다. ID 서비스 사용 안내서에서 [홈 페이지](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 참조하세요. Adobe Experience Platform에서 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하는 대부분의 구현에 이미 ID 서비스가 배포되어 있을 수 있습니다.
+* 조직은 [Adobe Experience Platform ID 서비스 개인 그래프](https://business.adobe.com/products/experience-platform/identity-service.html)를 사용해야 합니다. ID 서비스 사용 안내서의 [홈 페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko-KR)도 참조하세요.
+* 구현은 최신 버전의 Experience Cloud ID 서비스(ECID)를 사용해야 합니다. ID 서비스 사용 안내서에서 [홈 페이지](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 참조하세요. Adobe Experience Platform에서 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하는 대부분의 구현에 이미 ID 서비스가 배포되어 있을 수 있습니다.
 * 구현은 사용자가 로그인하거나 이메일을 여는 경우와 같이 개인을 식별할 수 있을 때마다 이 `setCustomerIDs` 함수 (또는 그에 상응하는 SDK 항목)를 호출해야 합니다. 이 요구 사항은 모바일 앱 (사용하는 경우)을 비롯한 모든 플랫폼에 적용됩니다. ID 서비스 사용 안내서에서 [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=ko-KR)을(를) 참조하십시오.
 
 ## Device Graph에 해당하는 제한 사항
