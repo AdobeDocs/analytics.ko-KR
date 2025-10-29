@@ -1,26 +1,26 @@
 ---
-description: 내부 URL 필터는 사이트 내부로 간주되는 참조를 식별합니다. 이 필터들은 트래픽 소스 보고서가 데이터를 채우도록 하고 내부 트래픽을 필터링하는 데 도움이 됩니다.
+description: 내부 URL 필터는 사이트 내부로 간주하는 레퍼러를 식별합니다. 이는 트래픽 소스 보고서가 데이터를 채우고 내부 트래픽을 필터링하는 데 도움이 됩니다.
 title: 내부 URL 필터
 feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 31%
+ht-degree: 9%
 
 ---
 
 
 # 내부 URL 필터
 
-내부 URL 필터를 사용하면 사이트 내부로 간주하는 레퍼러를 식별할 수 있습니다. 이 필터들은 트래픽 소스 보고서가 데이터를 채우도록 하고 내부 트래픽을 필터링하는 데 도움이 됩니다.
+내부 URL 필터를 사용하면 사이트 내부로 간주하는 레퍼러를 식별할 수 있습니다. 이는 트래픽 소스 보고서가 데이터를 채우고 내부 트래픽을 필터링하는 데 도움이 됩니다.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 내부 URL 필터]**
 
-참조 또는 참조 페이지는 일반적으로 방문자가 해당 페이지로부터 사용자의 사이트에 들어가게 되는 페이지입니다. 데이터 왜곡을 막기 위해 내부 참조를 필터링할 수 있습니다. 내부 URL 필터에 의존하는 차원에는 [레퍼러](/help/components/dimensions/referrer.md), [참조 도메인](/help/components/dimensions/referring-domain.md), [마케팅 채널](/help/components/dimensions/marketing-channel.md) 및 기타 트래픽 소스 차원이 포함됩니다.
+참조 또는 참조 페이지는 일반적으로 방문자가 해당 페이지로부터 사용자의 사이트에 들어가게 되는 페이지입니다. 데이터 왜곡을 방지하기 위해 내부 레퍼러를 필터링할 수 있습니다. 내부 URL 필터에 의존하는 차원에는 [레퍼러](/help/components/dimensions/referrer.md), [참조 도메인](/help/components/dimensions/referring-domain.md), [마케팅 채널](/help/components/dimensions/marketing-channel.md) 및 기타 트래픽 소스 차원이 포함됩니다.
 
-[마케팅 채널 처리 규칙](../marketing-channels/c-rules.md)은(는) 가능한 규칙 기준으로 &quot;[!UICONTROL 내부 URL 필터와 일치]&quot;을 제공합니다.
+[마케팅 채널 처리 규칙](../marketing-channels/mc-proc-rules.md)은(는) 가능한 규칙 기준으로 &quot;[!UICONTROL 내부 URL 필터와 일치]&quot;을 제공합니다.
 
 >[!IMPORTANT]
 >

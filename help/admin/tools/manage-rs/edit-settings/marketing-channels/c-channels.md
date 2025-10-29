@@ -5,7 +5,7 @@ title: 마케팅 채널 관리
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 100%
@@ -24,12 +24,12 @@ ht-degree: 100%
 
 마케팅 채널 관리자에서 마케팅 채널을 추가하거나 활성화합니다. 마케팅 채널이 없는 보고서 세트의 경우, 자동 설정을 사용하여 해당 규칙과 함께 여러 채널을 만들 수 있습니다. 사전 정의된 채널을 사용자 요구에 맞게 편집하거나 자체 채널을 만들 수 있습니다(최대 25개).
 
-[!UICONTROL 마케팅 채널] 페이지에 채널을 추가하는 작업은 [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) 페이지에서 규칙을 만드는 작업과는 별개로 수행됩니다. 규칙을 만들 때 채널과 규칙을 연관시킵니다.
+[!UICONTROL 마케팅 채널] 페이지에 채널을 추가하는 작업은 [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) 페이지에서 규칙을 만드는 작업과는 별개로 수행됩니다. 규칙을 만들 때 채널과 규칙을 연관시킵니다.
 
 다음은 채널을 만드는 방법에 대한 지침입니다.
 
 * 모든 채널 목록을 만드는 식으로 미리 계획을 해서 모든 방문자 히트가 정확한 채널로 분류되도록 하십시오.
-* [내부](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) 히트에 대한 채널을 포함시키십시오.
+* [내부](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) 히트에 대한 채널을 포함시키십시오.
 * 유료 채널 후와 유기 채널 전에 배치되는 모든 “다른 캠페인” 채널을 포함하십시오.
 
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 채널에 대한 규칙을 구성하려면 **[!UICONTROL 마케팅 채널 처리 규칙]**&#x200B;을 클릭합니다.
 
-   [마케팅 채널 처리 규칙 만들기](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)를 참조하십시오.
+   [마케팅 채널 처리 규칙 만들기](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)를 참조하십시오.
 
 ## 채널 설정 적용 {#mktg-channel-mgr}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 보고서에 채널 및 채널 데이터를 표시하려면 먼저 데이터를 처리하는 기초 규칙과 채널을 만들어야 합니다. 또한 [방문자 참여 기간](/help/admin/tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md)이 지속되는 기간을 지정할 수도 있습니다.
 
-Adobe는 [자동 설정](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 중에 사전 정의된 여러 채널을 제공하는데 이 채널은 사용자의 요구 사항에 맞게 편집할 수 있습니다. 또한 이 설정을 수정하고 [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) 내에서 맞춤형 규칙을 정의할 수 있습니다.
+Adobe는 [자동 설정](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 중에 사전 정의된 여러 채널을 제공하는데 이 채널은 사용자의 요구 사항에 맞게 편집할 수 있습니다. 또한 이 설정을 수정하고 [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) 내에서 맞춤형 규칙을 정의할 수 있습니다.
 
 >[!NOTE]
 >

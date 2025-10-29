@@ -4,10 +4,10 @@ description: 데이터 소스에 대한 FAQ.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 아니요. 데이터 소스를 통해 업로드된 데이터:
 
 * [처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)을(를) 거치지 않음
-* [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)을(를) 거치지 않음
+* [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)을(를) 거치지 않음
 * [VISTA 규칙](/help/technotes/vista.md)을 통과하지 않음
 +++
 
@@ -39,8 +39,8 @@ ht-degree: 7%
 예. [데이터 복구 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)를 사용하여 이 데이터를 삭제할 수 있습니다. Adobe은 데이터를 제거할 필요가 없도록 데이터 소스 데이터를 프로덕션 보고서 세트에 업로드하기 전에 테스트 보고서 세트에 업로드하는 것을 강력히 권장합니다.
 +++
 
-+++한 번에 가져올 수 있는 데이터 양은 어느 정도입니까?
-크기가 50MB를 초과하는 경우 처리가 일시 중지되며 총 크기가 50MB 아래로 떨어져야 다시 시작됩니다. FTP 사이트에 있는 모든 파일의 총 크기가 50MB 미만인지 확인하십시오.
++++한 번에 얼마나 많은 데이터를 가져올 수 있습니까?
+크기가 50MB를 초과하는 경우 처리가 일시 중지되며 총 크기가 50MB 미만이 될 때까지 다시 시작되지 않습니다. FTP 사이트에 있는 모든 파일의 총 크기가 50MB 미만인지 확인하십시오.
 +++
 
 +++데이터 소스를 통해 보고에 음수 값을 전달하면 어떻게 됩니까?

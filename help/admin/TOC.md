@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 77795002cc4a360ed8aad8e1fe4882f1fe16f6ae
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
@@ -85,7 +85,7 @@ ht-degree: 100%
             + [머천다이징 eVar](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
          + 마케팅 채널 {#marketing-channels}
             + [마케팅 채널 관리자](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
-            + [마케팅 채널 처리 규칙](tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+            + [마케팅 채널 처리 규칙](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
             + [마케팅 채널 분류](tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)
             + [마케팅 채널 만료](tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md)
          + 트래픽 관리 {#traffic-management}
