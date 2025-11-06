@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8866608bc6d4e31c876c08894a90bfb982a7d19e
+source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
 workflow-type: tm+mt
-source-wordcount: '3680'
+source-wordcount: '3690'
 ht-degree: 60%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 60%
 >
 >열 대부분은 `post_`라는 접두어가 있는 유사한 열을 포함합니다. 이후 열에는 서버측 논리, 처리 규칙 및 VISTA 규칙 다음의 값이 있습니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다. 자세한 내용은 [데이터 피드 FAQ](../df-faq.md)를 참조하십시오.
 
-이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.ko-KR/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에서 확인할 수 있습니다.
+이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에서 확인할 수 있습니다.
 
 | 열 이름 | 열 설명 | 데이터 유형 |
 | --- | --- | --- |
@@ -150,7 +150,7 @@ ht-degree: 60%
 | **`os`** | 방문자의 운영 체제를 나타내는 숫자 ID입니다. `user_agent` 열을 기반으로 합니다. `operating_system.tsv` 표준 조회 및 `operating_system_type.tsv` [동적 조회](dynamic-lookups.md)의 키 값입니다. | int 부호 없음 |
 | **`page_event`** | 이미지 요청(표준 히트, 다운로드 링크, 사용자 정의 링크, 종료 링크)에서 전송된 히트 유형입니다. [페이지 이벤트 조회](datafeeds-page-event.md)를 참조하십시오. | tinyint 부호 없음 |
 | **`page_event_var1`** | 링크 추적 이미지 요청에만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 정의 링크의 URL입니다. | 텍스트 |
-| **`page_event_var2`** | 링크 추적 이미지 요청에만 사용됩니다. 링크의 사용자 지정 이름(지정된 경우)입니다. [의 값에 따라 &#x200B;](/help/components/dimensions/custom-link.md)사용자 지정 링크[, &#x200B;](/help/components/dimensions/download-link.md)다운로드 링크[&#x200B; 또는 &#x200B;](/help/components/dimensions/exit-link.md)종료 링크`page_event`를 설정합니다. | varchar(100) |
+| **`page_event_var2`** | 링크 추적 이미지 요청에만 사용됩니다. 링크의 사용자 지정 이름(지정된 경우)입니다. [의 값에 따라 ](/help/components/dimensions/custom-link.md)사용자 지정 링크[, ](/help/components/dimensions/download-link.md)다운로드 링크[ 또는 ](/help/components/dimensions/exit-link.md)종료 링크`page_event`를 설정합니다. | varchar(100) |
 | **`page_type`** | 일반적으로 404페이지에 사용되는 [페이지를 찾을 수 없음](/help/components/dimensions/pages-not-found.md) 차원입니다. | char (20) |
 | **`page_url`** | 히트의 URL입니다. `post_page_url`은(는) 링크 추적 이미지 요청([`tl()`](/help/implement/vars/functions/tl-method.md))에서 제거되고 varchar(255)의 데이터 형식을 사용합니다. | 텍스트 |
 | **`pagename`** | [페이지](/help/components/dimensions/page.md) 차원입니다. [`pagename`](/help/implement/vars/page-vars/pagename.md) 변수가 비어 있으면 Analytics가 `page_url`을 대신 사용합니다. | varchar (100) |
@@ -165,7 +165,7 @@ ht-degree: 60%
 | **`purchaseid`** | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 변수를 사용하여 설정되는 구매의 고유 식별자입니다. `duplicate_purchase` 열에서 사용됩니다. | char (20) |
 | **`quarterly_visitor`** | 히트가 새 분기별 방문자인지 여부를 결정하는 플래그입니다. | tinyint 부호 없음 |
 | **`ref_domain`** | [참조 도메인](/help/components/dimensions/referring-domain.md) 차원. `referrer` 열을 기반으로 합니다. | varchar(100) |
-| **`ref_type`** | 히트에 대한 참조 유형을 나타내는 숫자 ID입니다. [레퍼러 유형](/help/components/dimensions/referrer-type.md) 차원에 사용됩니다. <ul><li>사이트 내부</li><li>기타 웹 사이트</li> <li>검색 엔진</li> <li> 대화형 AI 도구</li><li>하드 드라이브</li> <li>유즈넷</li> <li>입력/책갈피 표시(레퍼러 없음)</li> <li>이메일</li> <li>JavaScript 없음</li> <li>소셜 네트워크</li></ul> | tinyint 부호 없음 |
+| **`ref_type`** | 히트에 대한 참조 유형을 나타내는 숫자 ID입니다. [레퍼러 유형](/help/components/dimensions/referrer-type.md) 차원에 사용됩니다. <p>1: 사이트 내부</p><p>2: 기타 웹 사이트</p> <p>3: 검색 엔진</p> <p>4: 하드 드라이브</p> <p>5: USENET</p> <p>6: 입력/책갈피 표시(레퍼러 없음)</p> <p>7: 이메일</p> <p>8: JavaScript 없음</p> <p>9: 소셜 네트워크</p><p>10: 대화형 AI 도구</p> | tinyint 부호 없음 |
 | **`referrer`** | [레퍼러](/help/components/dimensions/referrer.md) 차원입니다. `referrer`에서 varchar(255)의 데이터 유형을 사용하는 동안 `post_referrer`에서는 varchar(244)의 데이터 유형을 사용합니다. | varchar (255) |
 | **`resolution`** | 모니터의 해상도를 나타내는 숫자 ID입니다. [모니터 해상도](/help/components/dimensions/monitor-resolution.md) 차원에 사용됩니다. `resolution.tsv` 조회 테이블을 사용합니다. | smallint 부호 없음 |
 | **`s_kwcid`** | Adobe Advertising 통합에 사용되는 키워드 ID입니다. | varchar (255) |
