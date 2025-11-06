@@ -26,7 +26,7 @@ ht-degree: 60%
 >
 >열 대부분은 `post_`라는 접두어가 있는 유사한 열을 포함합니다. 이후 열에는 서버측 논리, 처리 규칙 및 VISTA 규칙 다음의 값이 있습니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다. 자세한 내용은 [데이터 피드 FAQ](../df-faq.md)를 참조하십시오.
 
-이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에서 확인할 수 있습니다.
+이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.ko-KR/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에서 확인할 수 있습니다.
 
 | 열 이름 | 열 설명 | 데이터 유형 |
 | --- | --- | --- |
