@@ -3,10 +3,10 @@ title: 모바일 라이프사이클 차원
 description: Mobile SDK을 사용하여 수집된 데이터를 기반으로 하는 차원입니다.
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 26%
+source-wordcount: '177'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 | 라이프사이클 차원 이름 | 설명 | 컨텍스트 데이터 변수 |
 | --- | --- | --- |
-| [!UICONTROL 첫 번째 실행 날짜] | | TBD |
+| [!UICONTROL 첫 번째 실행 날짜] | | |
 | [!UICONTROL 장치 이름(SDK)] | | `a.DeviceName` |
 | [!UICONTROL 운영 체제 버전(SDK)] | | `a.OSVersion` |
 | [!UICONTROL 해상도(SDK)] | | `a.Resolution` |
@@ -33,16 +33,16 @@ ht-degree: 26%
 | [!UICONTROL 관심 영역 중앙까지의 거리] | | `a.loc.dist` |
 | [!UICONTROL 시작 번호] | | `a.Launches` |
 | [!UICONTROL 최초 사용 이후 일 수] | | `a.DaysSinceFirstUse` |
-| [!UICONTROL 작업 이름] | | TBD |
+| [!UICONTROL 작업 이름] | | |
 | [!UICONTROL 수명 값(evar)] | | `a.ltv.amount` |
-| [!UICONTROL 비콘 Major] | | TBD |
-| [!UICONTROL 비콘 Minor] | | TBD |
-| [!UICONTROL 비콘 UUID] | | TBD |
-| [!UICONTROL 비콘 Proximity] | | TBD |
+| [!UICONTROL 비콘 Major] | | |
+| [!UICONTROL 비콘 Minor] | | |
+| [!UICONTROL 비콘 UUID] | | |
+| [!UICONTROL 비콘 Proximity] | | |
 | [!UICONTROL 마지막 사용 이후 일 수] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL 시간(SDK)] | | `a.HourOfDay` |
 | [!UICONTROL 요일(SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL 관심 영역 ID] | | TBD |
+| [!UICONTROL 관심 영역 ID] | | |
 
 {style="table-layout:auto"}
 

@@ -4,10 +4,10 @@ title: GDPR/ePrivacy 준수 및 서버측 전달
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
@@ -25,21 +25,21 @@ ht-degree: 55%
 
 ## 구현 세부 정보 {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
-구현 방법에 따라 다음 단계를 수행하십시오.
+구현 방법에 따라 다음 단계를 수행합니다.
 
 | 구현 방식 | 단계 |
 |--- |--- |
-| Adobe Experience Platform의 태그 | Adobe Analytics 확장이 설치되어 있다고 가정할 경우 규칙의 작업 구성 내에서 다음 컨텍스트 데이터 변수 정의를 사용자 정의 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
-| AppMeasurement | 컨텍스트 데이터 변수 정의를 AppMeasurement.js 파일에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |
+| Adobe Experience Platform의 태그 | Adobe Analytics 확장이 설치되어 있다고 가정할 경우 규칙의 작업 구성 내에서 다음 컨텍스트 데이터 변수 정의를 사용자 정의 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf'] = '1'` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
+| AppMeasurement | 컨텍스트 데이터 변수 정의를 AppMeasurement.js 파일에 추가합니다. <br/>`s.contextData['cm.ssf'] = '1'` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |
 
 ## 보고(선택 사항) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 Adobe Analytics을 사용하여 동의한 트래픽 수와 그 결과 서버측에 전달된 트래픽 수 및 동의하지 않은 트래픽 수와 그 결과 Adobe Audience Manager에 전달되지 않은 트래픽 수를 보고할 수 있습니다.
 
-이러한 유형의 보고를 구성하려면 처리 규칙을 통해 사용자 정의 트래픽 변수(prop)에 새 컨텍스트 변수를 매핑합니다. 이렇게 하려면 다음 작업을 수행하십시오.
+이 유형의 보고를 구성하려면 처리 규칙을 통해 새 컨텍스트 변수를 사용자 지정 트래픽 변수(prop)에 매핑합니다. 이렇게 하려면 다음 작업을 수행하십시오.
 
 1. 위에 표시된 대로 &quot;cm.ssf&quot; 변수를 구현합니다.
-1. [prop를 활성화합니다.](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
+1. [prop 사용](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
 1. 처리 규칙을 사용하여 컨텍스트 변수를 prop에 매핑합니다.
 
    1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동한 후 보고서 세트를 선택합니다.

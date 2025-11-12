@@ -3,10 +3,10 @@ title: 스트리밍 미디어 서비스 광고 차원
 description: 보고서 세트에 대해 [!UICONTROL 미디어 광고]를 사용하도록 설정하는 경우 사용할 수 있는 차원입니다.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 15%
+source-wordcount: '466'
+ht-degree: 4%
 
 ---
 
@@ -14,35 +14,31 @@ ht-degree: 15%
 
 *이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 광고]를 활성화할 때 사용할 수 있는 차원을 설명합니다. 사용 가능한 지표는 [스트리밍 미디어 광고 지표](../metrics/sm-ads.md)를 참조하십시오.*
 
-Streaming Media 서비스 및 차원은 Streaming Media 서비스 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 차원을 사용하려면 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 애드온]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+Streaming Media 서비스 및 차원은 Streaming Media 서비스 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 차원을 사용하려면 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 **[!UICONTROL 미디어 보고]**&#x200B;에서 [미디어 광고](/help/admin/tools/manage-rs/edit-settings/media-management.md)를 사용하도록 설정하면 다음 차원을 사용할 수 있습니다.
 
-| 차원 이름 | 설명 | 전송 시점 | 컨텍스트 데이터 변수 |
-| --- | --- | --- | --- |
-| 광고 | 광고에 대한 고유 식별자. | 광고 시작, 광고 종료 | `a.media.ad.name` |
-| 광고 이름(변수) | 친숙한 광고 이름. 비슷한 목적을 제공하는 &#39;광고 이름&#39;이라는 분류 차원도 사용할 수 있습니다. 이 차원과 분류는 두 개의 고유한 차원으로 처리됩니다. | 광고 시작, 광고 종료 | `a.media.ad.friendlyName` |
-| 광고 플레이어 이름 | 광고를 렌더링하는 플레이어의 이름입니다. | 광고 시작, 광고 종료 | `a.media.ad.playerName` |
-| 광고 길이(변수) | 비디오 광고 길이(초)입니다. | 광고 시작, 광고 종료 | `a.media.ad.length` |
-| 광고 창 | 광고 Pod에 대한 고유 식별자. | 광고 시작, 광고 종료 | `a.media.ad.pod` |
-| Pod 위치의 광고 | 상위 광고 브레이크 내에 있는 광고의 인덱스 위치(0으로 인덱싱됨). | 광고 시작, 광고 종료 | `a.media.ad.podPosition` |
-| 광고주 | 광고에 출연한 회사 또는 브랜드입니다. | 광고 시작, 광고 종료 | `a.media.ad.advertiser` |
-| 캠페인 ID | 광고 캠페인의 ID | 광고 시작, 광고 종료 | `a.media.ad.campaign` |
-
-{style="table-layout:auto"}
+| 차원 이름 | 설명 | 전송 시점 | 컨텍스트 데이터 변수 | XDM 필드 |
+| --- | --- | --- | --- | --- |
+| **[!UICONTROL 광고]** | 광고에 대한 고유 식별자. | 광고 시작, 광고 종료 | `a.media.ad.`<br>`name` | `xdm.mediaCollection.`<br>`advertisingDetails.name`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.name` |
+| **[!UICONTROL 광고 이름(변수)]** | 친숙한 광고 이름. 비슷한 목적을 제공하는 &#39;[!UICONTROL 광고 이름]&#39;(이)라는 분류 차원도 사용할 수 있습니다. 이 차원과 분류는 두 개의 고유한 차원으로 처리됩니다. | 광고 시작, 광고 종료 | `a.media.ad.`<br>`friendlyName` | `xdm.mediaCollection.`<br>`advertisingDetails.friendlyName`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.friendlyName` |
+| **[!UICONTROL 광고 플레이어 이름]** | 광고를 렌더링하는 플레이어의 이름입니다. | 광고 시작, 광고 종료 | `a.media.ad.`<br>`playerName` | `xdm.mediaCollection.`<br>`advertisingDetails.playerName`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.playerName` |
+| **[!UICONTROL 광고 길이(변수)]** | 비디오 광고 길이(초)입니다. | 광고 시작, 광고 종료 | `a.media.ad.`<br>`length` | `xdm.mediaCollection.`<br>`advertisingDetails.length`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.length` |
+| **[!UICONTROL 광고 pod]** | 광고 Pod에 대한 고유 식별자. | 광고 시작, 광고 종료 | `a.media.ad.`<br>`pod` | |
+| **[!UICONTROL Pod 위치의 광고]** | 상위 광고 브레이크 내에 있는 광고의 인덱스 위치(0으로 인덱싱됨). | 광고 시작, 광고 종료 | `a.media.ad.`<br>`podPosition` | `xdm.mediaCollection.`<br>`advertisingDetails.podPosition`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.podPosition` |
+| **[!UICONTROL 광고주]** | 광고에 출연한 회사 또는 브랜드입니다. | 광고 시작, 광고 종료 | `a.media.ad.`<br>`advertiser` | `xdm.mediaCollection.`<br>`advertisingDetails.advertiser`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.advertiser` |
+| **[!UICONTROL 캠페인 ID]** | 광고 캠페인의 ID | 광고 시작, 광고 종료 | `a.media.ad.`<br>`campaign` | `xdm.mediaCollection.`<br>`advertisingDetails.campaignID`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.campaignID` |
 
 위의 차원 외에도 Adobe은 자동으로 다음 분류 차원을 생성합니다. 이러한 차원을 사용하는 보고서를 보려면 분류 데이터를 업로드해야 합니다.
 
 | 분류 이름 | 상위 차원 | 설명 |
 | --- | --- | --- |
-| 자산 ID | [콘텐츠](sm-core.md) | 미디어 에셋 콘텐츠에 대한 고유 식별자입니다. 예로는 TV 시리즈 에피소드 식별자, 동영상 자산 식별자 또는 라이브 이벤트 식별자가 있습니다. 이러한 ID는 일반적으로 EIDR, TMS/Gracenote, Rovi와 같은 메타데이터 기관 또는 기타 독점 또는 사내 시스템에서 파생됩니다. |
-| 콘텐츠 등급 | [콘텐츠](sm-core.md) | TV 유해 콘텐츠 가이드라인으로 정의된 등급. |
-| 최초 방송 날짜 | [콘텐츠](sm-core.md) | 컨텐츠가 TV에 처음 방송된 날짜입니다. 이 분류 차원은 문자열이므로 모든 날짜 형식이 허용됩니다. Adobe에서는 `YYYY-MM-DD`과(와) 같이 일관된 날짜 형식을 사용하는 것이 좋습니다. |
-| 최초 디지털 날짜 | [콘텐츠](sm-core.md) | 컨텐츠가 디지털 채널 또는 플랫폼에서 처음으로 방송된 날짜입니다. 이 분류 차원은 문자열이므로 모든 날짜 형식이 허용됩니다. Adobe에서는 `YYYY-MM-DD`과(와) 같이 일관된 날짜 형식을 사용하는 것이 좋습니다. |
-| 광고 길이 | 광고 | 비디오 광고 길이(초)입니다. |
-| 광고 이름 | 광고 | 친숙한 광고 이름. 이는 &#39;광고 이름(변수)&#39;에 해당하는 분류입니다. |
-| 광고 ID | 광고 | 광고 문안 ID. |
-| Pod 이름 | 광고 창 | 광고 pod의 알기 쉬운 이름. |
-| Pod 위치 | 광고 창 | 컨텐츠 내부의 광고 브레이크 오프셋(초)입니다. |
-
-{style="table-layout:auto"}
+| **[!UICONTROL 자산 ID]** | [[!UICONTROL 콘텐츠]](sm-core.md) | 미디어 에셋 콘텐츠에 대한 고유 식별자입니다. 예로는 TV 시리즈 에피소드 식별자, 동영상 자산 식별자 또는 라이브 이벤트 식별자가 있습니다. 이러한 ID는 일반적으로 EIDR, TMS/Gracenote, Rovi와 같은 메타데이터 기관 또는 기타 독점 또는 사내 시스템에서 파생됩니다. |
+| **[!UICONTROL 콘텐츠 등급]** | [[!UICONTROL 콘텐츠]](sm-core.md) | TV 유해 콘텐츠 가이드라인으로 정의된 등급. |
+| **[!UICONTROL 첫 방송 날짜]** | [[!UICONTROL 콘텐츠]](sm-core.md) | 컨텐츠가 TV에 처음 방송된 날짜. 이 분류 차원은 문자열이므로 모든 날짜 형식이 허용됩니다. Adobe에서는 `YYYY-MM-DD`과(와) 같이 일관된 날짜 형식을 사용하는 것이 좋습니다. |
+| **[!UICONTROL 첫 번째 디지털 날짜]** | [[!UICONTROL 콘텐츠]](sm-core.md) | 콘텐츠가 디지털 채널 또는 플랫폼에서 처음으로 방송된 날짜. 이 분류 차원은 문자열이므로 모든 날짜 형식이 허용됩니다. Adobe에서는 `YYYY-MM-DD`과(와) 같이 일관된 날짜 형식을 사용하는 것이 좋습니다. |
+| **[!UICONTROL 광고 길이]** | [!UICONTROL 광고] | 비디오 광고 길이(초)입니다. |
+| **[!UICONTROL 광고 이름]** | [!UICONTROL 광고] | 친숙한 광고 이름. &#39;[!UICONTROL 광고 이름(변수)]&#39;에 해당하는 분류입니다. |
+| **[!UICONTROL Creative ID]** | [!UICONTROL 광고] | 광고 문안 ID. |
+| **[!UICONTROL Pod 이름]** | [!UICONTROL 광고 pod] | 광고 pod의 알기 쉬운 이름. |
+| **[!UICONTROL Pod 위치]** | [!UICONTROL 광고 pod] | 콘텐츠 내부의 광고 브레이크 오프셋(초). |
