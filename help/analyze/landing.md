@@ -4,7 +4,7 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 100%
@@ -17,7 +17,7 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics의 랜딩 페이지](https://video.tv.adobe.com/v/346466/?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics의 랜딩 페이지](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -73,7 +73,7 @@ Adobe Analytics 랜딩 페이지는 프로젝트, 템플릿 및 학습 하위 �
 | --- | --- |
 | 환경 설정 편집 | [!UICONTROL 튜토리얼 보기] 및 [사용자 환경 설정 편집](/help/analyze/analysis-workspace/user-preferences.md)을 사용할 수 있습니다. |
 | [!UICONTROL 새로 만들기] | Workspace 프로젝트 또는 모바일 스코어카드를 만들거나 회사 템플릿을 열 수 있는 프로젝트 모달을 엽니다. |
-| [!UICONTROL 간단히 표시<br> 자세히 표시] | 배너 표시 안 함과 표시 간 토글: ![상단 배너](assets/top-banner.png) |
+| [!UICONTROL 간단히 표시<br> 자세히 표시] | 배너 표시/숨김 전환: ![상단 배너](assets/top-banner.png) |
 | [!UICONTROL Workspace 프로젝트] | 사용자가 설계하고 빌드할 빈 [Workspace 프로젝트](/help/analyze/analysis-workspace/home.md)를 만듭니다. |
 | [!UICONTROL 모바일 스코어카드] | 사용자가 설계하고 빌드할 빈 [모바일 스코어카드](/help/analyze/mobile-app/curator.md)를 만듭니다. |
 | [!UICONTROL 교육 튜토리얼 열기] | 단계별 튜토리얼로 새로운 시작 프로젝트를 빌드하는 과정을 안내하는 작업 영역 교육 튜토리얼을 엽니다. |

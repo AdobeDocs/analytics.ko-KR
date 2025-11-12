@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 계정 구성
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 56%
+ht-degree: 55%
 
 ---
 
@@ -174,7 +174,7 @@ ht-degree: 56%
    * us-east-1
    * us-west-1
    * us-west-2
-   * ap-south-1
+   * ap-남-1
    * ap-northeast-2
    * ap-southeast-1
    * ap-southeast-2

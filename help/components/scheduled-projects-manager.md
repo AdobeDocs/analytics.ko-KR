@@ -1,9 +1,9 @@
 ---
 description: 예약된 프로젝트를 관리하는 방법을 알아봅니다.
-title: 예약된 프로젝트에서 예약된 프로젝트를 관리합니다
+title: 예약된 프로젝트
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 41%
@@ -67,7 +67,7 @@ ht-degree: 41%
 
 ## 필터
 
-[&#x200B; 필터 패널을 사용하여 예약된 프로젝트 &#x200B;](#scheduled-project-list)예약된 프로젝트 목록➌을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
+[ 필터 패널을 사용하여 예약된 프로젝트 ](#scheduled-project-list)예약된 프로젝트 목록➌을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
 
 필터 패널은 다음 섹션으로 구성되어 있습니다.
 
@@ -124,7 +124,7 @@ To modify a scheduled project
 | [!UICONTROL Expiration date] | For any scheduled project frequency, you can set the expiration date for up to one year in the future. |
 | [!UICONTROL Frequency] | How often you want to have this schedule project sent to the recipient(s). |
 | [!UICONTROL Execution time] | At what time of day this scheduled project gets sent. |
-| [!UICONTROL Number of queries] | The number of queries against this project. | 
+| [!UICONTROL Number of queries] | The number of queries against this project. |
 
 ## Common actions
 

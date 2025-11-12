@@ -4,7 +4,7 @@ description: Analysis Workspace에서 주석을 관리하는 방법을 알아봅
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 88%
@@ -34,7 +34,7 @@ ht-degree: 88%
 주석 목록 ➊에는 사용자가 소유한 모든 주석, 모든 프로젝트에 범위가 지정된 주석, 사용자와 공유된 주석이 표시됩니다. 목록은 다음과 같습니다.
 
 | 열 | 설명 |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 주석을 ![Star](/help/assets/icons/Star.svg) 즐겨찾기에 추가하거나 ![StarOutline](/help/assets/icons/StarOutline.svg) 추가하지 않을지 선택합니다. |
 | **[!UICONTROL Title and description]** | Annotation Builder에 제공됩니다. 제목 및 설명을 편집하려면 제목 링크를 선택하고 [주석 빌더](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)를 엽니다. 공유된 주석은 ![Share](/help/assets/icons/ShareAlt.svg)로 표시됩니다. |
 | **[!UICONTROL 보고서 세트]** | 이 주석이 적용되는 보고서 세트입니다. |
@@ -56,7 +56,7 @@ ht-degree: 88%
 |:--:|---|---|
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 추가]** | [주석 빌더](create-annotations.md#annotation-builder)를 사용하여 다른 주석을 추가합니다. |
 | ![Search](/help/assets/icons/Search.svg) | [!UICONTROL *제목별 검색*] | 주석이 목록에서 선택되지 않은 경우 이 검색 필드를 사용하여 주석을 검색합니다. |
-| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 태그]** | 선택한 주석에 태그를 지정합니다. **[!UICONTROL 구성 요소에 태그 지정]** 대화 상자에서 선택한 주석의 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 주석의 태그를 저장합니다. |
+| ![레이블](/help/assets/icons/Label.svg) | **[!UICONTROL 태그]** | 선택한 주석에 태그를 지정합니다. **[!UICONTROL 구성 요소에 태그 지정]** 대화 상자에서 선택한 주석의 태그를 선택하거나 선택 취소합니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 주석의 태그를 저장합니다. |
 | ![Share](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 공유]** | 선택한 주석을 공유합니다. **[!UICONTROL 구성 요소 공유]** 대화 상자에서 *개인 또는 그룹 검색* ![Search](/help/assets/icons/Search.svg)을 하거나 **[!UICONTROL 조직]** 또는 **[!UICONTROL 그룹]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL 저장]**&#x200B;을 선택하여 선택한 주석에 대한 공유 세부 정보를 저장합니다. 자세한 내용은 [주석 공유](#share-annotations)를 참조하십시오. |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 선택한 주석을 삭제합니다. 확인 메시지가 표시됩니다. |
 | ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 선택한 단일 주석 이름을 바꿉니다. 선택한 경우 주석 이름을 인라인으로 바꿀 수 있습니다. |
@@ -129,9 +129,9 @@ The [!UICONTROL Annotations manager] shows you all of the annotations that you o
 ![](assets/annotation-mgr.png)
 
 | UI Element | Description |
-| --- | --- | 
+| --- | --- |
 | [!UICONTROL Title and Description] | Provided in the Annotations Builder. To edit the title and description, click the title link - this takes you back to the Annotations Builder.  |
-| [!UICONTROL Report Suite] | The report suites that this annotation applies to.  | 
+| [!UICONTROL Report Suite] | The report suites that this annotation applies to.  |
 | [!UICONTROL Owner] | Indicates who owns the annotation. As a non-Admin, you can see only annotations that you own or those that were shared with you. |
 | [!UICONTROL Applied Date Range] | The date or date range that this annotation applies to. |
 | [!UICONTROL Shared with] | Lists how many individuals or groups that you shared the annotation with. Click for more detail. |

@@ -3,7 +3,7 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3583bb7dfc2fce083a41432680ef3933eb9582
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '4227'
 ht-degree: 51%
@@ -41,7 +41,7 @@ ht-degree: 51%
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단의 9제곱 아이콘을 선택한 다음 [!UICONTROL **Analytics**]&#x200B;을 선택합니다.
-1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**] (으)로 이동합니다.
+1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**](으)로 이동합니다.
 1. [!UICONTROL **추가**]&#x200B;를 선택합니다.
 
    ![데이터 피드 추가](assets/datafeed-add.png)

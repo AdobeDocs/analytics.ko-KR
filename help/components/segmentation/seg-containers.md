@@ -4,7 +4,7 @@ keywords: 세그먼테이션;세그먼트
 title: 세그먼트 컨테이너
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '3563'
 ht-degree: 96%
@@ -47,7 +47,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/3429105?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

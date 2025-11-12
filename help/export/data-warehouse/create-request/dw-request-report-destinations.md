@@ -3,7 +3,7 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 82%
@@ -245,7 +245,7 @@ SFTP 구성에 대한 자세한 내용은 [SFTP 서버로 Data Warehouse 요청 
 * us-east-1
 * us-west-1
 * us-west-2
-* ap-south-1
+* ap-남-1
 * ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2

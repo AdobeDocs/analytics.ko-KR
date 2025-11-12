@@ -3,7 +3,7 @@ description: 세그먼트 관리자를 사용하여 세그먼트 공유, 필터�
 title: 세그먼트 관리
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 63%
@@ -34,7 +34,7 @@ ht-degree: 63%
 세그먼트 목록 ➊에는 사용자가 소유한 모든 세그먼트, 모든 프로젝트에 범위가 지정된 세그먼트, 사용자와 공유된 세그먼트가 표시됩니다. 목록은 다음과 같습니다.
 
 | 열 | 설명 |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 세그먼트를 ![별](/help/assets/icons/Star.svg) 즐겨찾기에 추가할지 ![StarOutline](/help/assets/icons/StarOutline.svg) 추가하지 않을지 선택합니다. [세그먼트를 즐겨찾기로 표시](t-seg-favorite.md)를 참조하십시오. |
 | **[!UICONTROL 제목 및 설명]** | 세그먼트를 편집하려면 제목 링크를 선택하여 [세그먼트 빌더](seg-build.md)를 엽니다. 공유된 세그먼트는 ![공유](/help/assets/icons/ShareAlt.svg)로 표시됩니다. |
 | **[!UICONTROL 보고서 세트]** | 이 세그먼트가 적용되는 보고서 세트입니다. |
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=ko) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

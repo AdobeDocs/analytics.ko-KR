@@ -4,10 +4,10 @@ description: 보고서 세트 도구에서 각 권한 항목을 파악합니다.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 1dba07de2836699ceaad31b4bd3149c169c51211
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 78%
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 | 보고서 세트 도구 권한 항목 | 설명 |
 |------|------|
 | [!UICONTROL 계정 요약] | 보고서 세트 관리자의 일반 > 일반 계정 설정에 대한 액세스 권한을 부여합니다. |
-| [!UICONTROL Advertising Analytics 구성] | 사용자가 Advertising Analytics에 제공할 보고서 세트를 구성할 수 있습니다. |
+| [!UICONTROL Advertising Analytics 구성] | 사용자가 Advertising Analytics에 대해 프로비저닝할 보고서 세트를 구성할 수 있습니다. |
 | [!UICONTROL 예외 항목 탐지] | Analysis Workspace에서 예외 항목 탐지에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 보트 페이지] | 사용되지 않습니다 |
 | [!UICONTROL 봇] | 사용되지 않습니다 |

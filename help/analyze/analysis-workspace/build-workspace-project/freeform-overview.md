@@ -5,7 +5,7 @@ title: 프로젝트 개요
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 91%
@@ -49,11 +49,11 @@ Adobe Analytics의 프로젝트에 액세스하려면 **[!UICONTROL Workspace]**
 프로젝트 목록(➋)에는 사용자가 소유한 모든 프로젝트와 사용자에게 공유된 모든 프로젝트가 표시됩니다. 목록은 다음과 같습니다.
 
 | 열 | 설명 |
-| --- | --- | 
+| --- | --- |
 | ![SelectBox](/help/assets/icons/SelectBox.svg) | 하나 이상의 프로젝트를 선택하면 프로젝트 인터페이스 하단에 파란색 작업 표시줄이 나타납니다. 자세한 내용은 [액션](#actions)을 참조하십시오. |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 프로젝트를 ![별](/help/assets/icons/Star.svg) 즐겨찾기에 추가하거나 ![StarOutline](/help/assets/icons/StarOutline.svg) 추가하지 않을지 선택합니다. |
 | **[!UICONTROL 제목 및 설명]** | 프로젝트를 편집하려면 제목 링크를 선택해 [Workspace 프로젝트](/help/analyze/analysis-workspace/home.md)를 엽니다. 공유된 프로젝트는 ![공유](/help/assets/icons/ShareAlt.svg)로 표시됩니다. ![InfoOutline](/help/assets/icons/InfoOutline.svg)을 선택해 프로젝트에 대한 더 자세한 내용이 있는 팝업 메뉴를 표시합니다. ![자세히](/help/assets/icons/More.svg)를 선택해 액션이 있는 컨텍스트 메뉴를 엽니다. 자세한 내용은 [액션](#actions)을 참조하십시오. |
-| **[!UICONTROL 유형]** | Workspace 프로젝트, ![FolderUser](/help/assets/icons/FolderUser.svg) 폴더 또는 [&#x200B; 모바일 스코어카드](/help/analyze/mobile-app/home.md). |
+| **[!UICONTROL 유형]** | Workspace 프로젝트, ![FolderUser](/help/assets/icons/FolderUser.svg) 폴더 또는 [ 모바일 스코어카드](/help/analyze/mobile-app/home.md). |
 | **[!UICONTROL 태그]** | 프로젝트에 적용된 태그. |
 | **[!UICONTROL 예약됨]** | 프로젝트가 수신자에게 이메일로 전송되도록 예약되어 있는지 여부. 옵션은 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 켜짐]** 또는 ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 꺼짐]**&#x200B;입니다. [다른 사람에게 프로젝트 데이터 보내기](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)를 참조하십시오. |
 | **[!UICONTROL 공유 링크(누구나)]** | Analysis Workspace에 액세스할 수 없는 사람을 포함하여 프로젝트를 다른 사람과 공유하는지 여부. 옵션은 ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL 활성]** 또는 ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL 비활성]**&#x200B;입니다. 자세한 내용은 프로젝트 [공유 프로젝트](/help/analyze/analysis-workspace/curate-share/share-projects.md)의 [모두와 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)를 참조하십시오. |
@@ -83,7 +83,7 @@ Adobe Analytics의 프로젝트에 액세스하려면 **[!UICONTROL Workspace]**
 | ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *선택됨]** | 선택한 프로젝트와 폴더의 선택을 해제하고 파란색 작업 표시줄을 제거합니다. |
 | ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 하나 이상의 프로젝트나 폴더를 삭제합니다. 확인 메시지가 표시됩니다. <p>삭제하는 프로젝트:</p><ul><li>복구할 수 없음</li><li>프로젝트 목록에서 제거됨</li><li>더 이상 해당 URL로 액세스할 수 없음</li><li>더 이상 예약된 게재에 포함되지 않습니다(이전에 예약된 게재를 위해 구성된 경우)<br/>예약된 게재에 대한 자세한 내용은 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)를 참조하십시오.  </p> |
 | ![공유](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 공유]** | 프로젝트를 공유합니다. 자세한 내용은 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md)를 참조하십시오. |
-| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 프로젝트의 이름을 바꿉니다. **[!UICONTROL 이름 바꾸기: *프로젝트 이름 대화 상자&#x200B;*]**&#x200B;를 엽니다. 새로운 이름을 입력하고&#x200B;**[!UICONTROL 저장&#x200B;]**&#x200B;을 선택합니다. |
+| ![편집](/help/assets/icons/Edit.svg) | **[!UICONTROL 이름 바꾸기]** | 프로젝트의 이름을 바꿉니다. **[!UICONTROL 이름 바꾸기: *프로젝트 이름 대화 상자&#x200B;*]**를 엽니다. 새로운 이름을 입력하고**[!UICONTROL 저장&#x200B;]**을 선택합니다. |
 | ![복사](/help/assets/icons/Copy.svg) | **[!UICONTROL 복사]** | 하나 이상의 프로젝트를 복사합니다. 프로젝트에 동일한 이름과 접미사 `(Copy)`가 붙습니다. |
 | ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL 고정]** 또는 **[!UICONTROL 고정 해제]** | 하나 이상의 프로젝트나 폴더를 고정하거나 고정 해제합니다. 고정된 프로젝트와 폴더는 목록 맨 위에 나타나며, 지정한 정렬 순서를 무시합니다. |
 | ![ArrowUp](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL 위로 이동]** | 프로젝트 목록에서 고정된 프로젝트나 폴더를 위로 이동합니다. |
@@ -172,7 +172,7 @@ Here is a video on how to build a Workspace project:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Build a Workspace project](https://video.tv.adobe.com/v/3415640?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Build a Workspace project](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -188,8 +188,8 @@ The Projects page contains the following information:
 | [Edit preferences](/help/analyze/analysis-workspace/user-preferences.md) | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create.  |
 | [Create folder](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)  | Add a new folder or subfolder to the list of projects and folders. |
 | [Create project](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)  | Start a new project from scratch or from a report.  |
-|  Show more  | This selection reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction), or [viewing release notes](/help/release-notes/latest.md).  |
-| ![Show filters](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | To show or hide filters. You can filter on tags, report suite, owners, type (project, folder, mobile scorecard), and other filters. | 
+|  Show more  | This selection reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction), or [viewing release notes](/help/release-notes/latest.md).  |
+| ![Show filters](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | To show or hide filters. You can filter on tags, report suite, owners, type (project, folder, mobile scorecard), and other filters. |
 | ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Use the search field to search for folders, Workspace projects or mobile scorecards. |
 | Show Folders & Projects| Choose whether to show the folder structure of projects. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 |  ![Customize table](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) | This icon allows you to customize the columns you see for each project in the projects list.  |
@@ -198,7 +198,7 @@ The list of projects can display the following columns:
 
 |  Column  | Description  |
 |---|---|
-| [!UICONTROL Name]  | Name of the Workspace project. Select ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) to show a popup with more details on a project or folder. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) to show actions available. See [Manage projects](#manage-projects) for more details.  | 
+| [!UICONTROL Name]  | Name of the Workspace project. Select ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) to show a popup with more details on a project or folder. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) to show actions available. See [Manage projects](#manage-projects) for more details.  |
 | [!UICONTROL Type] | Indicates whether this entry is a Workspace project, a folder, or a [Mobile scorecard](/help/analyze/mobile-app/home.md). |
 | [!UICONTROL Tags]  |Tags that were applied to the project.  |
 | [!UICONTROL Scheduled] | Indicates whether projects are scheduled to be emailed to recipients. See [Schedule projects](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
@@ -209,7 +209,7 @@ The list of projects can display the following columns:
 | [!UICONTROL Shared with]  | Users that the project has been shared with.  |
 | [!UICONTROL Last Modified]  | Date and time when the project was last modified.  |
 | [!UICONTROL Last Opened]  | Date and time when the project was last opened.  |
-| [!UICONTROL Last Used] | Date and time when the project was last used. | 
+| [!UICONTROL Last Used] | Date and time when the project was last used. |
 | [!UICONTROL Project ID]  | The ID of the project.  |
 | [!UICONTROL Longest Date Range]  | The longest date range of the project.  |
 | [!UICONTROL Number of Queries]  | The total number of queries contained in the project.  |
@@ -221,7 +221,7 @@ To manage projects, select one or more projects from the project list.
 
 From the blue action bar, you can select the following actions:
 
-| Action | Description | 
+| Action | Description |
 |---|---|
 | ![Delete](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) Delete | When selected, a confirmation dialog prompts you to confirm the deletion of a Workspace project or Mobile scorecard. Select **[!UICONTROL OK]** to confirm. |
 | ![Share](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) Share | This action allows you to share your project. See [Share projects](../curate-share/share-projects.md).|
@@ -231,7 +231,7 @@ From the blue action bar, you can select the following actions:
 | ![Tag](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) Tag | Opens up the **[!UICONTROL Tag Project]** dialog. You can select an existing tag or add new tags. Select **[!UICONTROL Save]** to save the tags for the project. |
 | ![(Un-)Approve](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg) Approve or Unapprove |  Approves or unapproves the project.  |
 | ![Export CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) Export CSV | Immediately downloads a file containing a comma-separated value list of the projects. |
-| ![Move to](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Move to | This action allows you to move the project to a folder. In the **[!UICONTROL Select Folder]** dialog, select a folder from the **[!UICONTROL Folder]** list, and select **[!UICONTROL Move]**. | 
+| ![Move to](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Move to | This action allows you to move the project to a folder. In the **[!UICONTROL Select Folder]** dialog, select a folder from the **[!UICONTROL Folder]** list, and select **[!UICONTROL Move]**. |
 
 
 ## Menu bar {#menu-bar}
@@ -246,7 +246,7 @@ Within a project, the menu provides options for managing your project, adding co
 |  Insert  | Insert new panels or visualizations from this menu. You can also insert new panels and visualizations from the left rail.  |
 |  [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)  | Create new segment, calculated metric, date range, or alert components from your project. You can also create new components from the left rail. If your component definitions have recently changed, Refresh Components retrieves the latest definitions. |
 |  [Share](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md)  | Curate, share and schedule PDF/CSV projects to recipients in your organization.  |
-|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko). Manage the visibility of Workspace tips as well as the [debugger](https://developer.adobe.com/analytics-apis/docs/2.0/). Find details about Workspace and factors that impact project [performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).  |
+|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Manage the visibility of Workspace tips as well as the [debugger](https://developer.adobe.com/analytics-apis/docs/2.0/). Find details about Workspace and factors that impact project [performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).  |
 |  Share button or Owner  | If you are in an Own or Edit for the project, the Share button in the top-right gives you one-click access to manage your project recipients. If you are in a Duplicate or View role for the project, you see the project owner's name. |
 
 ### Project Info & Settings {#info-settings}
@@ -309,7 +309,7 @@ Here is a video on using the right-click menu in Analysis Workspace:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using the context menu](https://video.tv.adobe.com/v/30915?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using the context menu](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

@@ -1,12 +1,13 @@
 ---
+title: Power BI용 Adobe Analytics 콘텐츠 팩
 description: Adobe Analytics 콘텐츠 팩과 사전 빌드된 Power BI 대시보드 및 보고서에 대해 알아봅니다.
 feature: Report Builder
 role: User, Admin
 exl-id: 835b24e2-0959-4aab-83c0-ba89badfc294
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 100%
+source-wordcount: '108'
+ht-degree: 91%
 
 ---
 

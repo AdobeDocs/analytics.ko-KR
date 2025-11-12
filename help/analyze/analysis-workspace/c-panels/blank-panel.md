@@ -4,10 +4,10 @@ title: 빈 패널
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 빈 패널에 대해 설명합니다._<br/>_이 문서의 [&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/blank-panel.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대해 _&#x200B;**빈 패널**&#x200B;을 참조하세요._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 빈 패널에 대해 설명합니다._<br/>_이 문서의 [ ](/help/analyze/analysis-workspace/c-panels/blank-panel.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대해 _**빈 패널**&#x200B;을 참조하세요._
 
 >[!ENDSHADEBOX]
 

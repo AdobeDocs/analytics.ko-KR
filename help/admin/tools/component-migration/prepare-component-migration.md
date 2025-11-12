@@ -3,10 +3,10 @@ description: Adobe Analytics에서 Customer Journey Analytics으로 구성 요�
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '863'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 ## 사전 요구 사항
 
-프로젝트 및 관련 구성 요소를 마이그레이션할 준비가 되기 전에 먼저 Adobe Customer Journey Analytics 안내서의 [Adobe Analytics에서 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ko)에 나와 있는 단계를 따라야 합니다. 이러한 단계는 다음과 같습니다.
+프로젝트 및 관련 구성 요소를 마이그레이션할 준비가 되기 전에 먼저 Adobe Customer Journey Analytics 안내서의 [Adobe Analytics에서 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html)에 나와 있는 단계를 따라야 합니다. 이러한 단계는 다음과 같습니다.
 
 1. Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터를 보려면 다음 방법 중 하나를 사용하여 데이터를 Adobe Experience Platform에 수집합니다.
 
@@ -27,21 +27,21 @@ ht-degree: 10%
 
    * Adobe Analytics 소스 커넥터를 사용하려면 다음을 수행해야 합니다.
 
-      1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집할 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ko#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집할 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [데이터 수집 및 사용](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ko-KR)
 
    * WebSDK를 사용하려면 다음을 수행해야 합니다.
 
-      1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집할 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ko#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집할 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Adobe Experience Platform Web SDK을 통해 데이터 수집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=ko)
+      1. [Adobe Experience Platform Web SDK을 통해 데이터 수집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. 수집된 데이터를 사용하여 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=ko) 및 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko)를 만듭니다.
+1. 수집된 데이터를 사용하여 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) 및 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)를 만듭니다.
 
 1. Customer Journey Analytics의 사용자가 데이터가 매핑되는 데이터 보기에 프로비저닝되었는지 확인합니다.
 
-   자세한 내용은 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ko#customer-journey-analytics-permissions-in-admin-console)에서 [Admin Console의 Customer Journey Analytics 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ko)을 참조하십시오.
+   자세한 내용은 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)에서 [Admin Console의 Customer Journey Analytics 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)을 참조하십시오.
 
    권한 탭은 Admin Console의 각 제품 프로필에 포함되어 있습니다. 특정 제품 프로필에 사용자를 추가할 수 있습니다. 그런 다음 특정 데이터 보기에 권한을 할당하고 제품 프로필의 사용자에게 부여할 권한을 지정합니다.
 
@@ -59,7 +59,7 @@ ht-degree: 10%
 
 Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 범위 및 계산된 지표는 매핑된 차원 및 지표를 기반으로 세그먼트, 날짜 범위 및 계산된 지표를 다시 만듭니다.
 
-|  | [마이그레이션됨] |
+|  | 마이그레이션됨 |
 |---------|---------|
 | **[소유자](/help/components/calculated-metrics/workflow/cm-manager.md)** | 차원 및 지표: 아니요<p>세그먼트 및 날짜 범위: ![확인 표시](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[공유](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 차원 및 지표: 아니요<p>세그먼트 및 날짜 범위: 아니요</p> |
@@ -71,7 +71,7 @@ Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 �
 
 ### 마이그레이션된 프로젝트 요소
 
-|  | [마이그레이션됨] |
+|  | 마이그레이션됨 |
 |---------|----------|
 | **[날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
 | **[세그먼트](/help/components/segmentation/seg-overview.md)** | ![확인 표시](assets/Smock_Checkmark_18_N.svg) |
@@ -132,32 +132,32 @@ Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 �
 * pagetimeseconds
 * singlepagevisits
 * visitnumber
-* timeprior
-* timespent
-* category
+* timeprevious
+* 체류 시간
+* 범주
 * connectiontype
-* customerloyalty
-* customlink
-* downloadlink
+* 고객 충성도
+* 사용자 정의 링크
+* 다운로드 링크
 * exitlink
 * hitdepth
 * hittype
-* pathlength
+* 경로 길이
 * daysbeforefirstpurchase
 * dayssincelastpurchase
 * dayssincelastvisit
 * identificationstate
 * optoutreason
-* persistentcookie
-* returnfrequency
-* searchenginenatural
-* searchenginenaturalkeyword
+* 지속성 쿠키
+* 반환 주기
+* 수막천체-
+* searchengineaturalkeyword
 * mobilecarrier
-* monitorresolution
+* 모니터 해상도
 * surveybase
 * mcaudiences
 * tntbase
-* targetraw
+* targetTraw
 
 
 ### 수동으로 매핑해야 하는 지표
@@ -165,7 +165,7 @@ Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 �
 * timespentvisit
 * timespentvisitor
 * 다시 로드
-* bounces
+* 바운스
 * 튀김-
 * pageevents
 * pageviewspervisit

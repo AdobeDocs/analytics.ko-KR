@@ -5,7 +5,7 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 9035ea758a5e84812460c042685eae954303cc8a
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 94%
@@ -26,7 +26,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 라인 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [라인](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/line)을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 라인 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [라인](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/line)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

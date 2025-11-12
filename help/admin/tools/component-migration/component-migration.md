@@ -3,7 +3,7 @@ description: 구성 요소 및 프로젝트를 Adobe Analytics에서 Customer Jo
 title: Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1641'
 ht-degree: 4%
@@ -125,7 +125,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
    ![차원 및 지표 매핑](assets/schema-manual-map-drop-down.png)
 
-   차원 또는 지표가 매핑되면 경고 아이콘이 사라지고 [!UICONTROL **상태**] 열이 녹색 점이 있는 [!UICONTROL **매핑됨**] (으)로 변경됩니다. (회색 점이 있는 [!UICONTROL **매핑됨**] 상태는 차원 또는 지표가 이전 마이그레이션 중에 매핑되었음을 나타냅니다. 이전 매핑은 업데이트할 수 없습니다.)
+   차원 또는 지표가 매핑되면 경고 아이콘이 사라지고 [!UICONTROL **상태**] 열이 녹색 점이 있는 [!UICONTROL **매핑됨**](으)로 변경됩니다. (회색 점이 있는 [!UICONTROL **매핑됨**] 상태는 차원 또는 지표가 이전 마이그레이션 중에 매핑되었음을 나타냅니다. 이전 매핑은 업데이트할 수 없습니다.)
 
    경고 아이콘이 포함된 각 차원 또는 지표에 대해 이 프로세스를 반복합니다.
 

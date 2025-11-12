@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 위치 구성
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -218,7 +218,7 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 * us-east-1
 * us-west-1
 * us-west-2
-* ap-south-1
+* ap-남-1
 * ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2

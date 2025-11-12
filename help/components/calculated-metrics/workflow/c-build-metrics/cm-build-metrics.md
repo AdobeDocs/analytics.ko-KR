@@ -3,7 +3,7 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 title: 지표 빌드
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 100%
@@ -186,7 +186,7 @@ Adobe Analytics는 차원, 지표, 세그먼트 및 함수를 끌어다 놓음�
 >[!MORELIKETHIS]
 >
 >[함수 사용](cm-using-functions.md)
->>[세그먼트](/help/components/segmentation/seg-overview.md)
+>[세그먼트](/help/components/segmentation/seg-overview.md)
 >
 
 

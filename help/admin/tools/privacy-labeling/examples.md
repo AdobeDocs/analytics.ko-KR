@@ -4,10 +4,10 @@ title: 레이블 지정의 예
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 100%
 
 ## 샘플 히트 데이터 {#hit}
 
-다음 히트 데이터가 있다고 가정합니다.
+다음과 같은 히트 데이터가 있다고 가정합니다.
 
-* 첫 번째 행에는 각 변수의 레이블이 포함됩니다.
-* 두 번째 행은 변수의 이름입니다. ID 레이블이 있는 경우에는 괄호 안에 지정된 네임스페이스가 포함됩니다.
+* 첫 번째 행에는 각 변수에 대한 레이블이 포함되어 있습니다.
+* 두 번째 행은 변수의 이름입니다. ID 레이블이 있는 경우 지정된 네임스페이스가 괄호 안에 포함됩니다.
 * 히트 데이터는 세 번째 행에서 시작됩니다.
 
 | 레이블 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
@@ -31,7 +31,7 @@ ht-degree: 100%
 | | John | 88 | E | N | U |
 | | John | 44 | F | Q | V |
 | | John | 55 | G | R | X |
-| | Alice | 66 | A | N | Z |
+| | 앨리스 | 66 | A | N | Z |
 
 ## 샘플 액세스 요청 {#access}
 
@@ -42,12 +42,13 @@ ht-degree: 100%
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API 값</th>
-    <th rowspan="2">반환된<br/>파일<br/>유형</th>
+    <th>반환된<br/>파일<br/>유형</th>
     <th colspan="5" style="text-align:center">요약 액세스 파일 데이터</th>
   </tr>
   <tr>
     <th>네임스페이스/ID</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>방문자 ID</th>
     <th>MyEvar1</th>
@@ -77,9 +78,9 @@ ht-degree: 100%
   <tr>
     <td>user=Mary</td>
     <td>false</td>
-    <td>사람</td>
+    <td>개인</td>
     <td>Mary</td>
-    <td>77, 88, 99</td>
+    <td>77,88,99</td>
     <td>A, B, C</td>
     <td>M, N, O</td>
     <td>X, Y, Z</td>
@@ -87,9 +88,9 @@ ht-degree: 100%
   <tr>
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
-    <td>사람</td>
+    <td>개인</td>
     <td>Mary</td>
-    <td>77, 88, 99</td>
+    <td>77,88,99</td>
     <td>A, B, C</td>
     <td>M, N, O</td>
     <td>X, Y, Z</td>
@@ -97,17 +98,17 @@ ht-degree: 100%
   <tr>
     <td>디바이스</td>
     <td>없음</td>
-    <td>77, 88</td>
+    <td>77,88</td>
     <td>A, B, C</td>
     <td>N, P</td>
-    <td>U, W</td>
+    <td>우, 우</td>
   </tr>
   <tr>
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
-    <td>사람</td>
+    <td>개인</td>
     <td>Mary</td>
-    <td>77, 88, 99</td>
+    <td>77,88,99</td>
     <td>A, B, C</td>
     <td>M, N, O</td>
     <td>X, Y, Z</td>
@@ -115,7 +116,7 @@ ht-degree: 100%
   <tr>
     <td>디바이스</td>
     <td>없음</td>
-    <td>66, 77, 88</td>
+    <td>66,77,88</td>
     <td>A, B, C</td>
     <td>N, P</td>
     <td>U, W, Z</td>
@@ -125,7 +126,7 @@ ht-degree: 100%
     <td>false</td>
     <td>디바이스</td>
     <td>없음</td>
-    <td>55, 77</td>
+    <td>55,77</td>
     <td>없음</td>
     <td>M, R</td>
     <td>X</td>
@@ -135,7 +136,7 @@ ht-degree: 100%
     <td>true</td>
     <td>디바이스</td>
     <td>없음</td>
-    <td>55, 77</td>
+    <td>55,77</td>
     <td>없음</td>
     <td>M, P, R</td>
     <td>W, X</td>
@@ -209,7 +210,7 @@ ht-degree: 100%
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>앨리스</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -282,7 +283,7 @@ ht-degree: 100%
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>앨리스</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -355,7 +356,7 @@ ht-degree: 100%
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>앨리스</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>

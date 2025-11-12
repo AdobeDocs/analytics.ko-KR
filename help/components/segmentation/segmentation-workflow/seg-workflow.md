@@ -3,10 +3,10 @@ description: 세그먼트 빌더로 세그먼트를 만들고 세그먼트 관�
 title: 세그먼테이션 워크플로 개요
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 47%
+ht-degree: 40%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 47%
 
 | 단계 | 액션 | 세부 사항 |
 |:--:|---|---|
-| 1 | [계획 세그먼트](/help/components/segmentation/segmentation-workflow/seg-plan.md) | 세그먼트를 작성하고 세그먼트 관리 환경을 설정하기 전에 적절한 모든 질문을 했습니까? 의도한 목적과 뚜렷한 사용을 염두에 두고 세그먼트를 설계했습니까? <br/>세그먼트 계획 및 구성에 대한 도움말은 [세그먼트 계획 검사 목록](seg-plan.md)을 참조하세요. |
+| 1 | [계획 세그먼트](/help/components/segmentation/segmentation-workflow/seg-plan.md) | 세그먼트를 작성하고 세그먼트 관리 환경을 설정하기 전에 올바른 질문을 한 적이 있습니까? 의도한 목적과 뚜렷한 사용을 염두에 두고 세그먼트를 설계했습니까? <br/>세그먼트 계획 및 구성에 대한 도움말은 [세그먼트 계획 검사 목록](seg-plan.md)을 참조하세요. |
 | 2 | [세그먼트 만들기](seg-create.md) | 새 세그먼트를 만드는 데 사용할 수 있는 다양한 옵션을 사용하십시오. |
 | 3 | [세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-build.md) | 모든 Analytics 기능에 사용할 세그먼트를 작성하고 편집합니다. <br/>THEN 연산자로 세그먼트를 만드는 방법은 [순차적 세그먼트 빌드](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 참조하십시오. |
 | 4 | [세그먼트 태깅](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 편리한 구성 및 공유를 위해 세그먼트에 태깅합니다. 단순 및 고급 검색 및 조직에 대해 태그를 계획하고 할당하는 방법을 참조하십시오. |
