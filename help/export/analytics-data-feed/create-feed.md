@@ -3,10 +3,10 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: af3583bb7dfc2fce083a41432680ef3933eb9582
 workflow-type: tm+mt
-source-wordcount: '4140'
-ht-degree: 53%
+source-wordcount: '4227'
+ht-degree: 51%
 
 ---
 
@@ -19,11 +19,29 @@ ht-degree: 53%
 
 데이터 피드를 만들기 전에 데이터 피드에 대해 기본적으로 이해하고 모든 전제 조건을 충족하는지 확인하는 것이 중요합니다. 자세한 내용은 [데이터 피드 개요](data-feed-overview.md)를 참조하십시오.
 
-## 데이터 피드 만들기 및 구성
+## 데이터 피드 만들기 및 구성 {#create-and-configure-data-feed}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_os_strings"
+>title="운영 체제 문자열 바꾸기"
+>abstract="이 옵션은 고객 데이터에 포함된 다음 문자열 시퀀스를 감지하고 공백으로 대체하여 데이터 출력을 정리합니다. <br/>Windows: CRLF, CR 또는 TAB<br/>Mac 및 Linux: \n, \r 또는 \t"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_export_file"
+>title="매니페스트"
+>abstract="각 데이터 피드 배달에 매니페스트 파일을 포함할지 여부를 선택합니다. 매니페스트 파일에는 데이터 피드에 포함된 각 파일에 대한 정보가 있습니다. 데이터 피드 데이터를 단일 패키지로 보낼 때 마침 파일을 포함하도록 선택할 수도 있지만 매니페스트 파일이 권장됩니다. "
+
+<!-- markdownlint-enable MD034 -->
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단의 9제곱 아이콘을 선택한 다음 [!UICONTROL **Analytics**]&#x200B;을 선택합니다.
-1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**] (으)로 이동합니다.
+1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**](으)로 이동합니다.
 1. [!UICONTROL **추가**]&#x200B;를 선택합니다.
 
    ![데이터 피드 추가](assets/datafeed-add.png)
@@ -420,7 +438,7 @@ ht-degree: 53%
 * us-east-1
 * us-west-1
 * us-west-2
-* ap-south-1
+* ap-남-1
 * ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2

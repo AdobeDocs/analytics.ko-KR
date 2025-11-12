@@ -3,9 +3,9 @@ title: 동적 조회
 description: 동적 조회가 무엇이며 이를 활성화하는 방법에 대해 알아봅니다. 통신사, 모바일 속성 및 운영 체제 유형을 포함합니다.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
+source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '306'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,16 @@ ht-degree: 1%
 * **모바일 특성**: 각 모바일 장치에 대해 추적된 모든 기능을 포함하여 `mobile_id` 열에 대한 추가 컨텍스트를 제공합니다. 포함된 파일 이름은 `mobile_attributes.tsv`입니다.
 * **운영 체제 유형**: `os` 열에 대한 대체 컨텍스트를 제공합니다. `operating_systems.tsv`과(와) `operating_system_type.tsv`은(는) 모두 `os` 열을 키로 사용하지만 `operating_system_type.tsv`만 동적 조회입니다.
 
-## 동적 조회 활성화
+## 동적 조회 활성화 {#enable-dynamic-lookups}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_dynamic_lookups"
+>title="동적 조회 활성화"
+>abstract="데이터 피드에서 추가 조회 파일을 수신하지 않으려면 이 옵션을 선택하십시오. 그렇지 않으면 사용할 수 없습니다. 이 설정을 사용하면 각 데이터 피드 파일과 함께 다음 조회 테이블을 전송할 수 있습니다.<ul><li>통신사 이름</li><li>모바일 속성</li><li>운영 체제 유형</li></ul>"
+
+<!-- markdownlint-enable MD034 -->
 
 언급된 조회 파일을 수신하려면 다음 전제 조건을 모두 충족해야 합니다.
 
