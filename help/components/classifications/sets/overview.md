@@ -3,7 +3,7 @@ title: 분류 세트 개요
 description: 분류 세트를 사용하여 분류 데이터를 관리하는 방법을 알아봅니다. 분류 세트가 기존 분류와 어떻게 다른지 이해합니다.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 10%
@@ -49,7 +49,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
    | 보고서 세트 1 | 제품 ID |
    | 보고서 세트 2 | 제품 SKU |
 
-1. [식별한 분류를 &#x200B;](/help/components/classifications/sets/manage/schema.md#add) 분류 집합 스키마에 추가합니다. 예:
+1. [식별한 분류를 ](/help/components/classifications/sets/manage/schema.md#add) 분류 집합 스키마에 추가합니다. 예:
 
    | 분류 이름 | ID 이름 |
    |---|---|
@@ -77,7 +77,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
-분류 데이터 파일에서 **[!UICONTROL 을(를) 사용하는 각 보고서 세트(예:]**&#x200B;제품 ID **[!UICONTROL 및]**&#x200B;제품 SKU`Key`)의 키 차원을 참조합니다. **[!UICONTROL 분류 이름]**(예: `Category` 또는 `Color`)을 사용하여 각 분류를 참조합니다.
+   분류 데이터 파일에서 **[!UICONTROL 을(를) 사용하는 각 보고서 세트(예:]**&#x200B;제품 ID **[!UICONTROL 및]**&#x200B;제품 SKU`Key`)의 키 차원을 참조합니다. **[!UICONTROL 분류 이름]**(예: `Category` 또는 `Color`)을 사용하여 각 분류를 참조합니다.
 
 1. 분류 데이터가 포함된 파일을 분류 집합 스키마에 [업로드](/help/components/classifications/sets/manage/schema.md#upload)합니다.
 
@@ -96,7 +96,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 
 * 처리 시간이 72시간에서 24시간으로 단축되었습니다.
 * 분류를 관리하기 위해 다시 설계된 사용자 인터페이스입니다.
-* 분류 데이터에 대한 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Analytics에서 분류 데이터를 사용하는 옵션입니다.
+* 분류 데이터에 대한 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Analytics에서 분류 데이터를 사용하는 옵션입니다.
 
 분류 세트와 함께 릴리스된 백엔드 아키텍처에는 다음과 같은 몇 가지 변경 사항도 포함됩니다.
 
