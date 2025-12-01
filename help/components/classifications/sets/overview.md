@@ -3,10 +3,10 @@ title: 분류 세트 개요
 description: 분류 세트를 사용하여 분류 데이터를 관리하는 방법을 알아봅니다. 분류 세트가 기존 분류와 어떻게 다른지 이해합니다.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
+source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 10%
+source-wordcount: '950'
+ht-degree: 9%
 
 ---
 
@@ -17,15 +17,28 @@ ht-degree: 10%
 
 ## 분류 세트 대 기존 분류
 
-분류 세트와 기존 분류의 주요 차이점은 분류와 보고서 세트의 관계입니다.
+분류 세트와 레거시 분류 간의 주요 차이점은 레거시 분류가 세 가지 인터페이스에 의존하는 한 인터페이스에서 분류 세트가 모든 기능을 결합한다는 것입니다.
 
-기존 분류에서 각 분류는 보고서 세트에 직접 연결됩니다. 여러 보고서 세트에서 사용할 경우 매우 유사한 분류(예: 제품 카탈로그)가 복제됩니다.
+### 레거시 분류
 
-![기존 분류](manage/assets/classifications-legacy.svg)
+![기존 분류](./assets/classifications-legacy.svg)
 
-분류 세트에서 보고서 세트 및 주요 차원 조합의 가입을 정의합니다. 예를 들어 여러 보고서 세트에 적용할 수 있고 제품(SKU) 차원을 기반으로 하는 제품 카탈로그 분류는 한 번만 분류 세트로 정의하면 됩니다. 또한 해당 분류 세트 내에서 여러 보고서 세트 및 주요 차원 조합을 구성하여 해당 분류 세트에 가입합니다.
+기존 분류에서 분류 ![스키마](/help/assets/icons2/Schema.svg)(트래픽, 전환, 마케팅 채널 등)에는 각각 고유한 차원(키 ![키](/help/assets/icons2/Key.svg))이 있습니다. 이러한 분류를 [보고서 세트 설정](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md)의 일부로 정의합니다.
 
-![분류 집합](manage/assets/classifications-sets.svg)
+![BidRule](/help/assets/icons/BidRule.svg) 규칙을 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md) 인터페이스의 일부로 규칙 집합에 별도로 정의합니다. 해당 인터페이스에서 규칙 세트를 하나 이상의 보고서 세트와 연결합니다.
+
+[분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md)를 사용하여 템플릿 ![DocumentFragment](/help/assets/icons/DocumentFragment.svg)을(를) 다운로드하거나, ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) 분류를 보고서 세트 - 키(데이터 세트) 조합으로 가져오거나, ![Download](/help/assets/icons/Download.svg) 분류를 내보냅니다.
+
+
+### 분류 설정
+
+![분류 집합](./assets/classifications-sets.svg)
+
+분류 세트는 모든 기존 분류 인터페이스를 하나로 결합합니다. 각 분류 세트는 다음을 정의합니다.
+
+* 분류할 보고서 세트 ![데이터](/help/assets/icons2/Data.svg)와(과) 차원 ![키](/help/assets/icons2/Key.svg)(키)의 조합인 하나 이상의 구독입니다. 제품 SKU를 기반으로 제품을 분류하려면 적용 가능한 제품 SKU 차원으로 모든 보고서 세트를 정의할 수 있습니다. 또한 기존 분류 인터페이스처럼 보고서 세트 간에 분류를 복제할 필요가 없습니다.
+* 키에 대한 분류 ![스키마](/help/assets/icons2/Schema.svg)(스키마) 목록입니다. 예를 들어 제품 분류의 경우 카테고리, 색상, 크기, 성별 등을 지정할 수 있습니다. 분류를 정의하면 템플릿 ![DocumentFragment](/help/assets/icons/DocumentFragment.svg)을(를) 다운로드하고, 분류 데이터를 ![UploadToCloud](/help/assets/icons/UploadToCloud.svg)업로드하고, 분류 데이터를 ![다운로드](/help/assets/icons/Download.svg)하는 등의 작업을 수행할 수 있습니다.
+* 분류를 지원하는 하나 이상의 규칙 ![BidRule](/help/assets/icons/BidRule.svg).
 
 
 Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 **[!UICONTROL 분류 세트]**&#x200B;에 액세스하려면 제품 관리자이거나 권한 항목 [!UICONTROL 보고서 세트 도구] > [!UICONTROL 분류]를 포함하는 제품 프로필에 속해 있어야 합니다. 레거시 분류 관리 인터페이스는 **[!UICONTROL 관리자]** 메뉴에서 사용할 수 있습니다.
@@ -49,7 +62,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
    | 보고서 세트 1 | 제품 ID |
    | 보고서 세트 2 | 제품 SKU |
 
-1. [식별한 분류를 &#x200B;](/help/components/classifications/sets/manage/schema.md#add) 분류 집합 스키마에 추가합니다. 예:
+1. [식별한 분류를 ](/help/components/classifications/sets/manage/schema.md#add) 분류 집합 스키마에 추가합니다. 예:
 
    | 분류 이름 | ID 이름 |
    |---|---|
@@ -81,6 +94,8 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 
 1. 분류 데이터가 포함된 파일을 분류 집합 스키마에 [업로드](/help/components/classifications/sets/manage/schema.md#upload)합니다.
 
+1. [규칙](manage/rules.md)을(를) 설정하여 과거의 수신 데이터와 데이터를 자동으로 분류합니다.
+
 1. 클라우드 위치를 사용하여 분류 데이터에 반영하려는 제품 카탈로그 업데이트 프로세스를 [자동화](/help/components/classifications/sets/manage/schema.md#automate)합니다.
 
 1. 콘텐츠의 유효성을 검사하려면 분류 데이터를 [다운로드](/help/components/classifications/sets/manage/schema.md#download)하십시오.
@@ -96,7 +111,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 
 * 처리 시간이 72시간에서 24시간으로 단축되었습니다.
 * 분류를 관리하기 위해 다시 설계된 사용자 인터페이스입니다.
-* 분류 데이터에 대한 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Analytics에서 분류 데이터를 사용하는 옵션입니다.
+* 분류 데이터에 대한 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Analytics에서 분류 데이터를 사용하는 옵션입니다.
 
 분류 세트와 함께 릴리스된 백엔드 아키텍처에는 다음과 같은 몇 가지 변경 사항도 포함됩니다.
 
