@@ -4,7 +4,7 @@ description: 분류 세트 규칙을 사용하여 분류 데이터에 대한 규
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
+source-git-commit: bccb3409875336a092ab641ad69b866b43621984
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트]** 관리자에서 규칙을 정의할 분류 세트를 선택합니다.
-1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**&#x200B;대화 상자에서&#x200B;**[!UICONTROL 규칙]**&#x200B;탭을 선택합니다.
+1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**대화 상자에서&#x200B;**[!UICONTROL 규칙]**탭을 선택합니다.
 
    * 분류 세트에 대해 처음으로 **[!UICONTROL 규칙]** 인터페이스에 액세스하거나 지금까지 기존 규칙 빌더 인터페이스를 계속 사용하기로 결정했다면 시작하는 방법을 선택할 수 있는 대화 상자가 표시됩니다. 옵션은 다음과 같습니다.
 
@@ -225,5 +225,5 @@ ht-degree: 13%
 
 * 사용자가 `Cowboys Fantasy Tony Romo`을(를) 검색할 때 `Romo`이(가) **[!UICONTROL Type]**(으)로 분류됩니다.
 * 사용자가 `Cowboys Fantasy Tony Romeo`을(를) 검색할 때 `Fantasy`은(는) **[!UICONTROL Type]**(으)로 분류됩니다.
-* 사용자가 `Cowboys vs. Broncos`을(를) 검색하는 경우 `Team`이(가) **[!UICONTROL Type]**(으)로 분류됩니다.
+* 사용자가 `Cowboys vs. Broncos`을(를) 검색할 때 `Team`은(는) **[!UICONTROL Type]**(으)로 분류됩니다.
 
