@@ -111,7 +111,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 
 * 처리 시간이 72시간에서 24시간으로 단축되었습니다.
 * 분류를 관리하기 위해 다시 설계된 사용자 인터페이스입니다.
-* 분류 데이터에 대한 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Analytics에서 분류 데이터를 사용하는 옵션입니다.
+* 분류 데이터에 대한 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Analytics에서 분류 데이터를 사용하는 옵션입니다.
 
 분류 세트와 함께 릴리스된 백엔드 아키텍처에는 다음과 같은 몇 가지 변경 사항도 포함됩니다.
 
