@@ -62,7 +62,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
    | 보고서 세트 1 | 제품 ID |
    | 보고서 세트 2 | 제품 SKU |
 
-1. [식별한 분류를 ](/help/components/classifications/sets/manage/schema.md#add) 분류 집합 스키마에 추가합니다. 예:
+1. [식별한 분류를 &#x200B;](/help/components/classifications/sets/manage/schema.md#add) 분류 집합 스키마에 추가합니다. 예:
 
    | 분류 이름 | ID 이름 |
    |---|---|
