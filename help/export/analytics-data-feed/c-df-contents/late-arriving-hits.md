@@ -3,14 +3,23 @@ title: 늦게 도착하는 히트
 description: 데이터 피드에서 늦게 도착하는 히트를 처리하는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 81cbb115d50e1f55a67aac8b107749d0a5a5928b
+source-git-commit: 5816868d3899d2938330471d1e59757141b16c69
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 85%
+source-wordcount: '363'
+ht-degree: 70%
 
 ---
 
-# 늦게 도착하는 히트
+# 늦게 도착하는 히트 {#late-arriving-hits}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_late_hits"
+>title="늦게 도착하는 히트 허용"
+>abstract="데이터 피드 작업이 설정된 보고 빈도(일별, 시간별 또는 15분마다) 내에서 데이터 처리를 완료한 후에 도착하는 데이터를 포함하려면 이 옵션을 선택합니다. 이 옵션이 활성화되면 데이터 피드는 데이터를 처리할 때마다 도착한 모든 늦게 도착하는 히트를 조회하고 전송된 다음 데이터 피드 파일로 배치합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 데이터 피드에서 지정된 시간 또는 일수 (예: 타임스탬프가 지정된 히트 또는 데이터 소스) 동안 작업 처리를 완료한 후에 내역 데이터가 도착할 수 있습니다. 늦게 도착하는 히트는 데이터 피드에 내역 데이터를 포함하도록 도움을 주기 위해 Adobe가 제공하는 백엔드 사용자 지정 설정입니다.
 
