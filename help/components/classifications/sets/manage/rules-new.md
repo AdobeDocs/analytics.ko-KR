@@ -4,10 +4,10 @@ description: 분류 세트 규칙을 사용하여 분류 데이터에 대한 규
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: bccb3409875336a092ab641ad69b866b43621984
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 13%
+source-wordcount: '1578'
+ht-degree: 12%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 13%
 1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트]** 관리자에서 규칙을 정의할 분류 세트를 선택합니다.
-1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**&#x200B;대화 상자에서&#x200B;**[!UICONTROL 규칙]**&#x200B;탭을 선택합니다.
+1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**대화 상자에서&#x200B;**[!UICONTROL 규칙]**탭을 선택합니다.
 
    * 분류 세트에 대해 처음으로 **[!UICONTROL 규칙]** 인터페이스에 액세스하거나 지금까지 기존 규칙 빌더 인터페이스를 계속 사용하기로 결정했다면 시작하는 방법을 선택할 수 있는 대화 상자가 표시됩니다. 옵션은 다음과 같습니다.
 
@@ -96,7 +96,17 @@ ht-degree: 13%
 
 키 차원 내부 캠페인의 값이 `Email`(예: **[!UICONTROL )으로 시작할 때]**&#x200B;을(를) `em`채널`em:FY2025:Summer Sale` 분류에 값으로 자동 할당하는 규칙을 정의하려고 합니다.
 
+>[!BEGINTABS]
+
+>[!TAB 규칙]
+
 ![규칙 - 다음으로 시작](assets/rule-startswith.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 테스트 결과로 시작](assets/rule-startswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -110,13 +120,23 @@ ht-degree: 13%
 
 #### 필수 입력
 
-**[!UICONTROL 다음으로 끝남]**&#x200B;의 값을 입력하십시오. 예: `Sale`.
+**[!UICONTROL 다음으로 끝남]**&#x200B;의 값을 입력하십시오. 예: `2025`.
 
 #### 사용 사례
 
-키 차원 내부 캠페인에 대한 값에 `Sale`이(가) 포함된 경우 **[!UICONTROL 을(를)]** Type`Sale` 분류에 값으로 자동 할당하는 규칙을 정의하려고 합니다(예: `em:FY2025:Summer Sale`).
+키 차원 내부 캠페인에 대한 값에 `2025`이(가) 포함된 경우 **[!UICONTROL 을(를)]**&#x200B;년`2025` 분류에 값으로 자동 할당하는 규칙을 정의하려고 합니다(예: `em:Summer Sale:FY2025`).
+
+>[!BEGINTABS]
+
+>[!TAB 규칙]
 
 ![규칙 - 다음으로 끝남](assets/rule-endswith.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 테스트 결과로 끝남](assets/rule-endswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -129,13 +149,24 @@ ht-degree: 13%
 
 #### 필수 입력
 
-**[!UICONTROL 포함]**&#x200B;의 값을 입력하십시오. 예: `2025`.
+**[!UICONTROL 포함]**&#x200B;의 값을 입력하십시오. 예: `Winter`.
 
 #### 사용 사례
 
-키 차원 내부 캠페인의 값이 `2025`(예: **[!UICONTROL )으로 끝날 때]**&#x200B;을(를) `2025`년`em:FY2025:Summer Sale` 분류에 값으로 자동 할당하는 규칙을 정의하려고 합니다.
+키 차원 내부 캠페인에 대한 값에 `Winter Sale`이(가) 포함된 경우 **[!UICONTROL 을(를)]** Type`Winter` 분류에 값으로 자동 할당하는 규칙을 정의하려고 합니다(예: `fb:Winter:FY2024`).
+
+
+>[!BEGINTABS]
+
+>[!TAB 규칙]
 
 ![규칙 - 포함](assets/rule-contains.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 결과 포함](assets/rule-contains-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -152,9 +183,20 @@ ht-degree: 13%
 
 #### 사용 사례
 
-키 차원 내부 캠페인의 값이 `2025 Summer Email`과(와) 일치하는 경우 **[!UICONTROL 을(를)]** Type`em:FY2025:Summer` 분류에 값으로 자동 할당하는 규칙을 정의하려고 합니다.
+주요 차원 내부 캠페인 값이 `Email`과(와) 일치하는 경우 **[!UICONTROL 을(를)]** Channel`Summer Sale` 분류에 값으로, **[!UICONTROL 을(를)]** Type`2025` 분류에 값으로, **[!UICONTROL 을(를)]** Year`em:FY2025:Summer` 분류에 자동으로 할당하는 규칙을 정의하려고 합니다.
+
+
+>[!BEGINTABS]
+
+>[!TAB 규칙]
 
 ![규칙 - 일치](assets/rule-match.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 일치](assets/rule-match.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -167,13 +209,23 @@ ht-degree: 13%
 
 #### 필수 입력
 
-**[!UICONTROL 정규 표현식]**&#x200B;의 값을 입력하십시오. 예: `^(.+)\:(.+)\:(.+)$`.
+**[!UICONTROL 정규 표현식]**&#x200B;의 값을 입력하십시오. 예: `^(.+)\:(.+)\:FY(.+)$`.
 
 #### 사용 사례
 
-정규 표현식 **[!UICONTROL 을(를) 적용하고 주요 차원 내부 캠페인 값에 일치 그룹(]**, **[!UICONTROL 및]**)을 사용하여 **[!UICONTROL 채널]**, `^(.+)\:(.+)\:(.+)$`유형`$1` 및 `$2`연도`$3` 분류에 값을 자동으로 할당하는 규칙을 정의하려고 합니다.
+정규식 **[!UICONTROL 을(를) 적용하고 키 차원 내부 캠페인에 대한 값에 일치 그룹(]**, **[!UICONTROL 및]**)을 사용하여 **[!UICONTROL 채널]**, `^(.+)\:(.+)\:FY(.+)$`유형`$1` 및 `$2`연도`$3` 분류에 값을 자동으로 할당하는 규칙을 정의하려고 합니다.
+
+>[!BEGINTABS]
+
+>[!TAB 규칙]
 
 ![규칙 - 정규 표현식](assets/rule-regex.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 정규식 테스트 결과](assets/rule-regex-test.png)
+
+>[!ENDTABS]
 
 
 #### 참조 테이블 {#section_0211DCB1760042099CCD3ED7A665D716}
