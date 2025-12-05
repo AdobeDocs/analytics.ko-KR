@@ -3,7 +3,7 @@ title: 분류 세트 규칙
 description: 분류 세트에 대한 규칙을 보고 편집하는 방법을 이해합니다.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 70865a487e4442db0eececd33e3d84afc18dc878
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
@@ -15,8 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >분류 세트는 아직 규칙을 지원하지 않습니다. 기존 규칙 빌더 기능을 사용할 수 없게 되기 전에 규칙 기능이 분류 세트 인터페이스에 추가됩니다.
->&#x200B;>분류에 대한 규칙이 필요한 경우 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md)를 계속 사용하십시오.
-
+>분류에 대한 규칙이 필요한 경우 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md)를 계속 사용하십시오.
 
 <!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
