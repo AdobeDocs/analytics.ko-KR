@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
+source-git-commit: 4b39947796d09a58089c846c21b26201a891f1c2
 workflow-type: tm+mt
-source-wordcount: '2991'
+source-wordcount: '2992'
 ht-degree: 87%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 87%
 >간소화된 새 [Report Builder](/help/analyze/report-builder/rb-overview.md)이(가) 2024년 10월 16일에 릴리스되었습니다. Mac, Windows 및 웹 브라우저에서 지원됩니다.
 >이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [기존 통합 문서를 새 Report Builder으로 변환](/help/analyze/report-builder/convert-workbooks.md)할 수 있습니다.
 
-## Reports & Analytics 서비스 종료 공지 {#ra-eol}
+## Reports &amp; Analytics 서비스 종료 공지 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -203,6 +203,6 @@ Customer Journey Analytics의 다양한 시각화는 고객에게 제공하는 �
 
 >[!WARNING]
 >
->분류 규칙 빌더는 **2026년 8월 31일**&#x200B;에 더 이상 사용되지 않습니다. 기능을 계속 사용하려면 [분류 세트 규칙](/help/components/classifications/sets/manage/rules.md) 환경을 사용하도록 전환하십시오. 사용 가능한 경우
+>분류 규칙 빌더는 **2026년 8월 31일**&#x200B;에 더 이상 사용되지 않습니다. 기능을 계속 사용하려면 [분류 세트 규칙](/help/components/classifications/sets/manage/rules.md) 환경을 사용하도록 전환하십시오.
 >
 
