@@ -4,9 +4,9 @@ description: Activity Map 오버레이 및 차원 사용을 시작합니다.
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '872'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Adobe Analytics의 Activity Map은 네 가지 주요 요소로 구성됩니다.
 * **보고서 세트 설정**: 보고서 세트 설정에서 Activity Map을 사용하도록 설정해야 합니다. 활성화되면 보고서 세트는 Activity Map 차원 및 지표에 대해 예약된 변수를 여러 개 만듭니다.
 * **구현**: 웹 사이트 또는 속성에서 Activity Map 데이터를 수집합니다. 데이터 수집 방법을 사용자 지정하면 보고서의 품질과 경험을 향상시킬 수 있습니다.
 * **Workspace 차원 및 지표**: 구현이 올바르게 구성되면 Analysis Workspace에서 Activity Map 차원 및 지표를 사용할 수 있습니다.
-* **오버레이**: Adobe은 웹 사이트 컨텍스트에서 Activity Map 데이터를 볼 수 있는 브라우저 확장을 제공합니다.
+* **오버레이**: Adobe은 웹 사이트 컨텍스트에서 Activity Map 데이터를 볼 수 있는 브라우저 확장을 제공합니다. 이 기능은 웹 SDK 구현에 사용할 수 없습니다.
 
 ## 보고서 세트 설정 활성화
 
@@ -30,7 +30,7 @@ Activity Map 보고서를 활성화하면 몇 가지 백엔드 예약 변수가 
 
 ## 코드 설치
 
-Activity Map 데이터를 Adobe으로 보내려면 구현을 올바르게 구성해야 합니다.
+Activity Map 데이터를 Adobe으로 보내려면 구현을 올바르게 구성해야 합니다. 웹 SDK을 사용하여 Adobe Analytics을 구현하는 경우 오버레이 브라우저 확장 기능을 사용할 수 없습니다.
 
 +++Web SDK 태그 확장 기능
 
@@ -48,7 +48,7 @@ Activity Map 데이터 수집을 사용하려면 **[!UICONTROL Adobe Experience 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 필요한 경우 라이브러리에 대한 변경 사항을 작성하고 프로덕션에 변경 사항을 게시합니다.
 
-자세한 내용은 [웹 SDK 태그 확장 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)을 참조하십시오.
+자세한 내용은 [웹 SDK 태그 확장 구성](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)을 참조하십시오.
 
 +++
 
@@ -56,7 +56,7 @@ Activity Map 데이터 수집을 사용하려면 **[!UICONTROL Adobe Experience 
 
 Activity Map 데이터 수집을 사용하려면 웹 SDK JavaScript 라이브러리 v2.20 이상이 필요합니다. v2.15까지의 라이브러리 버전은 지원이 제한되어 있습니다. 이러한 이전 라이브러리 버전은 나머지 데이터와 별도의 이벤트로 Activity Map 데이터를 전송합니다. 이 추가 이벤트는 Adobe Analytics 또는 Adobe Experience Platform으로 전송하는 히트의 수를 증가시킵니다.
 
-웹 SDK 구성 변수 [`clickCollectionEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)은(는) Activity Map 데이터의 자동 수집을 처리합니다. 명시적으로 비활성화되지 않는 한 기본적으로 활성화됩니다.
+웹 SDK 구성 변수 [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)은(는) Activity Map 데이터의 자동 수집을 처리합니다. 명시적으로 비활성화되지 않는 한 기본적으로 활성화됩니다.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ alloy("configure", {
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 필요한 경우 라이브러리에 대한 변경 사항을 작성하고 프로덕션에 변경 사항을 게시합니다.
 
-자세한 내용은 [Adobe Analytics 확장 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/analytics/overview)를 참조하십시오.
+자세한 내용은 [Adobe Analytics 확장 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)를 참조하십시오.
 
 +++
 

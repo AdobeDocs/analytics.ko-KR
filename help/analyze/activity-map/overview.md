@@ -4,9 +4,9 @@ title: Activity Map 개요
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '623'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Adobe Analytics Activity Map은 웹 페이지 및 모바일 앱에서의 사용�
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Activity Map 지역 차원을 채우는 특성을 변경합니다.
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Activity Map에서 Activity Map 링크 차원을 채우는 데 사용하는 논리를 사용자 지정합니다.
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Activity Map에서 Activity Map 영역 차원을 채우는 데 사용하는 논리를 사용자 지정합니다.
-* **오버레이**: 웹 사이트에 오버레이된 클릭 데이터를 볼 수 있는 브라우저 확장 기능입니다. 자세한 내용은 [Activity Map 확장 인터페이스](overlay/overview.md)를 참조하십시오.
+* **오버레이**: 웹 사이트에 오버레이된 클릭 데이터를 볼 수 있는 브라우저 확장 기능입니다. 자세한 내용은 [Activity Map 확장 인터페이스](overlay/overview.md)를 참조하십시오. 이 기능은 웹 SDK 구현에 사용할 수 없습니다.
 * **차원**: Activity Map에서는 오버레이 확장 기능 외에도 Analysis Workspace에서 사용할 수 있는 여러 차원을 제공합니다.
    * [Activity Map 링크](/help/components/dimensions/activity-map-link.md): 클릭한 링크 이름입니다.
    * [Activity Map 지역](/help/components/dimensions/activity-map-region.md): 클릭한 지역 이름입니다.
@@ -37,7 +37,7 @@ Adobe Analytics Activity Map은 웹 페이지 및 모바일 앱에서의 사용�
 
 * **히트맵**: Activity Map은 웹 페이지에서 가장 많이 클릭하거나 상호 작용하는 영역을 표시하는 히트맵을 생성합니다. 히트맵은 색상 코딩을 사용하여 참여 수준을 나타내므로 핫스팟을 식별하고 영향력이 큰 영역에 주의를 기울일 수 있습니다. 이 정보는 call-to-action 단추, 링크, 양식 또는 기타 대화형 요소를 최적화하는 데 유용할 수 있습니다.
 
-* **오버레이 보고서**: Activity Map의 오버레이 보고서는 웹 페이지의 특정 요소에 대한 자세한 클릭 지표를 제공합니다. 개별 요소의 클릭스루 비율 및 참여 수준을 이해하여 디자인과 콘텐츠 전략을 세밀하게 조정하여 사용자 경험을 향상시킬 수 있습니다.
+* **오버레이 보고서**: Activity Map의 오버레이 보고서는 웹 페이지의 특정 요소에 대한 자세한 클릭 지표를 제공합니다. 개별 요소의 클릭스루 비율 및 참여 수준을 이해하여 디자인과 콘텐츠 전략을 세밀하게 조정하여 사용자 경험을 향상시킬 수 있습니다. 이 기능은 웹 SDK 구현에 사용할 수 없습니다.
 
 * **세그먼트 분석**: 트래픽 소스, 인구 통계 또는 가상 사용자 등 다양한 세그먼트를 기반으로 사용자 동작을 분석할 수 있습니다. 데이터를 세그먼트화하면 특정 사용자 그룹에 대한 중요한 통찰력을 발견할 수 있으므로 개인화된 경험과 타겟팅된 마케팅 전략을 사용할 수 있습니다.
 
