@@ -3,10 +3,10 @@ title: 마지막 터치 채널
 description: 방문자의 참여 만료 내 가장 최근 마케팅 채널입니다.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 31c3f83f1142a4ba92a390e35ca8dcae66dfa660
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +25,10 @@ Adobe 데이터 수집 서버로 전송된 모든 히트는 보고서 세트의 
 * 원하는 차원 항목을 보고서 세트 설정 아래의 마케팅 채널 관리자에서 채널로 설정합니다.
 * 히트에 대해 원하는 기준을 포함하는 마케팅 채널 처리 규칙을 설정합니다.
 * 사이트에 대한 방문자의 히트는 마케팅 채널 처리 규칙에 설명된 기준과 일치해야 합니다.
+
+>[!TIP]
+>
+>[기여도 속성](/help/analyze/analysis-workspace/attribution/models.md)을 사용하는 지표와 함께 이 차원을 사용하면 다른 속성 모델이 수행하지 않는 경우 `None`에 크레딧을 지정할 수 있습니다. 기여도 지표를 사용하려면 보고 기간 내에 마케팅 채널 [인스턴스](../metrics/instances.md)가 있어야 크레딧을 받을 수 있습니다. 처음에 마케팅 채널이 보고 기간을 벗어나서 설정되었고 보고 기간 내에 지속된 값만 있는 경우 기여도 지표는 `None`에 크레딧을 제공합니다. 다른 속성 모델은 지속된 값에 크레딧을 부여합니다. 이 시나리오에서 `None`에 대한 속성을 피하려면 비기여도 속성 모델을 사용하는 것이 좋습니다.
 
 ## 차원 항목
 
