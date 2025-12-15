@@ -29,7 +29,7 @@ Edge Network에서는 다음 논리를 사용하여 Adobe Analytics [페이지 �
 
 >[!TIP]
 >
->페이로드의 XDM 필드 이름은 대소문자를 구분합니다(예: `webPageDetails.URL`). `xdm.eventType` 필드는 허용되는 고유한 값 집합이 있는 문자열 값이며, 해당 값의 대/소문자가 XDM 필드 이름과 일치하지 않을 수 있습니다. 허용되는 값은 `eventType`XDM ExperienceEvent 클래스[의 ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType) 필드를 참조하십시오.
+>페이로드의 XDM 필드 이름은 대소문자를 구분합니다(예: `webPageDetails.URL`). `xdm.eventType` 필드는 허용되는 고유한 값 집합이 있는 문자열 값이며, 해당 값의 대/소문자가 XDM 필드 이름과 일치하지 않을 수 있습니다. 허용되는 값은 `eventType`XDM ExperienceEvent 클래스[의 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType) 필드를 참조하십시오.
 
 +++`xdm` 필드를 사용하는 최소 페이지 보기
 
