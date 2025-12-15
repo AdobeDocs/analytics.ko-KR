@@ -13,7 +13,7 @@ ht-degree: 20%
 
 # Adobe Analytics의 Edge Network 이벤트 유형
 
-Adobe Analytics에서는 AppMeasurement에서 호출하는 함수에 따라 히트를 다르게 처리합니다. 예를 들어 [`s.t`](/help/implement/vars/functions/t-method.md)과(와) [`s.tl`](/help/implement/vars/functions/tl-method.md)은(는) 특정 차원을 포함하거나 생략하고 [페이지 보기 수](/help/components/metrics/page-views.md)를 다르게 증가시킵니다. Adobe Experience Platform에는 [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/overview) 명령만 포함되어 있습니다. [`xdm`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/xdm) 또는 [`data`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/data) 페이로드 내의 특정 속성은 Adobe Analytics에서 해당 데이터를 해석하는 방법을 결정합니다.
+Adobe Analytics에서는 AppMeasurement에서 호출하는 함수에 따라 히트를 다르게 처리합니다. 예를 들어 [`s.t`](/help/implement/vars/functions/t-method.md)과(와) [`s.tl`](/help/implement/vars/functions/tl-method.md)은(는) 특정 차원을 포함하거나 생략하고 [페이지 보기 수](/help/components/metrics/page-views.md)를 다르게 증가시킵니다. Adobe Experience Platform에는 [`sendEvent`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/sendevent/overview) 명령만 포함되어 있습니다. [`xdm`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/sendevent/xdm) 또는 [`data`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/sendevent/data) 페이로드 내의 특정 속성은 Adobe Analytics에서 해당 데이터를 해석하는 방법을 결정합니다.
 
 Edge Network에서는 다음 논리를 사용하여 Adobe Analytics [페이지 보기 수](/help/components/metrics/page-views.md) 및 [이벤트 연결](/help/components/metrics/page-events.md)을 결정합니다.
 
@@ -29,7 +29,7 @@ Edge Network에서는 다음 논리를 사용하여 Adobe Analytics [페이지 �
 
 >[!TIP]
 >
->페이로드의 XDM 필드 이름은 대소문자를 구분합니다(예: `webPageDetails.URL`). `xdm.eventType` 필드는 허용되는 고유한 값 집합이 있는 문자열 값이며, 해당 값의 대/소문자가 XDM 필드 이름과 일치하지 않을 수 있습니다. 허용되는 값은 `eventType`XDM ExperienceEvent 클래스[의 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType) 필드를 참조하십시오.
+>페이로드의 XDM 필드 이름은 대소문자를 구분합니다(예: `webPageDetails.URL`). `xdm.eventType` 필드는 허용되는 고유한 값 집합이 있는 문자열 값이며, 해당 값의 대/소문자가 XDM 필드 이름과 일치하지 않을 수 있습니다. 허용되는 값은 `eventType`XDM ExperienceEvent 클래스[의 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/experienceevent#eventType) 필드를 참조하십시오.
 
 +++`xdm` 필드를 사용하는 최소 페이지 보기
 
@@ -193,4 +193,4 @@ Edge Network에서는 다음 논리를 사용하여 Adobe Analytics [페이지 �
 
 +++
 
-자세한 내용은 [Adobe Analytics ExperienceEvent 전체 스키마 확장 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)을 참조하십시오.
+자세한 내용은 [Adobe Analytics ExperienceEvent 전체 스키마 확장 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)을 참조하십시오.
