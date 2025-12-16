@@ -3,9 +3,9 @@ title: 분류 세트 만들기
 description: 분류 세트를 만들 때 사용 가능한 필드 및 설명을 만드는 방법을 알아봅니다.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '439'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 3%
 
          * ![보고서 세트](/help/assets/icons/CrossSize400.svg) 및 **[!UICONTROL 키 Dimension]** 조합을 삭제하려면 **[!UICONTROL CrossSize400]**&#x200B;을(를) 선택하십시오.
 
-        다른 분류 세트에 이미 있는 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]** 조합을 추가하면 해당 조합 아래에 빨간색 메시지가 표시됩니다.
+        다른 분류 세트에 이미 있는 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]** 조합을 추가하면 빨간색 메시지가 표시됩니다.
 다음과 같은 작업을 수행할 수 있습니다.
          * **[!UICONTROL 기존 항목에 추가]**&#x200B;를 선택하여 다른 분류 집합을 열고 [스키마에 분류 추가](schema.md)를 선택합니다.
          * **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]**&#x200B;을(를) 다른 분류 집합을 구독하지 않은 조합으로 변경하십시오.
@@ -50,7 +50,7 @@ ht-degree: 3%
 1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.
 1. 분류 세트의 이름을 선택합니다.
-1. **[!UICONTROL 분류 세트: _분류 세트 이름_]**&#x200B;대화 상자에서 분류 세트에 대한 [설정](settings.md) 및 [스키마](schema.md)을(를) 정의할 수 있습니다.
+1. **[!UICONTROL 분류 세트: _분류 세트 이름_]**대화 상자에서 분류 세트에 대한 [설정](settings.md) 및 [스키마](schema.md)을(를) 정의할 수 있습니다.
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 내용을 저장합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
 

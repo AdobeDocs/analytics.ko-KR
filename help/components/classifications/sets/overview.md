@@ -3,7 +3,7 @@ title: 분류 세트 개요
 description: 분류 세트를 사용하여 분류 데이터를 관리하는 방법을 알아봅니다. 분류 세트가 기존 분류와 어떻게 다른지 이해합니다.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -12,12 +12,12 @@ ht-degree: 9%
 
 # 분류 세트 개요
 
-분류 세트는 분류 및 규칙을 관리할 수 있는 단일 인터페이스를 제공합니다. 이 워크플로는 보고서 세트 설정의 분류 만들기를 [분류 가져오기](/help/components/classifications/sets/manage/set-manager.md)와 결합합니다. 따라서 분류 데이터를 만들고 관리할 수 있는 직관적인 단일 인터페이스가 제공됩니다.
+분류 세트는 분류 및 규칙을 관리할 수 있는 단일 인터페이스를 제공합니다. 이 워크플로는 [보고서 세트 설정](/help/admin/tools/manage-rs/report-suites-admin.md)의 분류 만들기와 [분류 가져오기](/help/components/classifications/sets/manage/set-manager.md)를 결합합니다. 따라서 분류 데이터를 만들고 관리할 수 있는 직관적인 단일 인터페이스가 제공됩니다.
 
 
 ## 분류 세트 대 기존 분류
 
-분류 세트와 레거시 분류 간의 주요 차이점은 레거시 분류가 세 가지 인터페이스에 의존하는 한 인터페이스에서 분류 세트가 모든 기능을 결합한다는 것입니다.
+분류 세트와 레거시 분류의 주요 차이점은 분류 세트가 레거시 분류가 세 가지 인터페이스에 의존하는 한 인터페이스의 모든 기능을 결합한다는 것입니다.
 
 ### 레거시 분류
 
@@ -63,7 +63,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
    | 보고서 세트 1 | 제품 ID |
    | 보고서 세트 2 | 제품 SKU |
 
-1. [식별한 분류를 &#x200B;](/help/components/classifications/sets/manage/schema.md#add) 분류 집합 스키마에 추가합니다. 예:
+1. [식별한 분류를 ](/help/components/classifications/sets/manage/schema.md#add) 분류 집합 스키마에 추가합니다. 예:
 
    | 분류 이름 | ID 이름 |
    |---|---|
@@ -95,7 +95,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 
 1. 분류 데이터가 포함된 파일을 분류 집합 스키마에 [업로드](/help/components/classifications/sets/manage/schema.md#upload)합니다.
 
-1. [규칙](manage/rules.md)을(를) 설정하여 과거의 수신 데이터와 데이터를 자동으로 분류합니다.
+1. [규칙](manage/rules.md)을(를) 설정하여 들어오는 데이터와 과거의 데이터를 자동으로 분류합니다.
 
 1. 클라우드 위치를 사용하여 분류 데이터에 반영하려는 제품 카탈로그 업데이트 프로세스를 [자동화](/help/components/classifications/sets/manage/schema.md#automate)합니다.
 
@@ -112,7 +112,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 
 * 처리 시간이 72시간에서 24시간으로 단축되었습니다.
 * 분류를 관리하기 위해 다시 설계된 사용자 인터페이스입니다.
-* 분류 데이터에 대한 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Analytics에서 분류 데이터를 사용하는 옵션입니다.
+* 분류 데이터에 대한 [Adobe Experience Platform 소스 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Analytics에서 분류 데이터를 사용하는 옵션입니다.
 
 분류 세트와 함께 릴리스된 백엔드 아키텍처에는 다음과 같은 몇 가지 변경 사항도 포함됩니다.
 

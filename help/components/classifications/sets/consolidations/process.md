@@ -3,9 +3,9 @@ title: 분류 통합 생성 및 편집
 description: 분류 통합을 만들고, 검증하고, 실행하고, 승인하고, 취소하는 방법에 대해 설명합니다.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cabddc619e0d2ddaba6b232eb4d72c60301f76bb
+source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '983'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Drag the desired classification sets from the available column on the left to th
 1. **[!UICONTROL 구성 요소]** 메뉴에서 **[!UICONTROL 분류 집합]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 분류 세트]** 관리자에서 **[!UICONTROL 통합]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트 통합]** 관리자에서:
-   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**&#x200B;대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
+   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
 
       | 사용 가능한 작업 | 설명 |
       |---|---|
@@ -143,7 +143,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
 
 분류 세트 통합을 승인하려면
 
-1. **[!UICONTROL 유사성 보고서]**&#x200B;를 사용하여 통합을 검토하십시오. 이 보고서에는 다음 열이 있는 테이블이 표시됩니다.
+1. **[!UICONTROL 유사성 보고서]** 보고서를 사용하여 통합을 검토하십시오. 이 보고서에는 다음 열이 있는 테이블이 표시됩니다.
 
    * **[!UICONTROL 분류 세트 이름]**: 분류 세트의 이름입니다.
    * **[!UICONTROL 불일치]**: 키 값이 원본 분류 집합과 일치하지 않는 행의 비율입니다. 불일치 비율이 높으면, 불일치는 분류 데이터가 너무 다르다는 표시일 수 있다. 선택한 분류 세트에 유사한 분류 데이터가 있는지 확인하십시오.
