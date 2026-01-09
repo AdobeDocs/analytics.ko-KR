@@ -1,12 +1,12 @@
 ---
 title: 확인된 상태
-description: Device Graph로 인식을 결정하는 플래그.
+description: 결합에 대한 인식을 결정하는 플래그.
 feature: Dimensions
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 89%
+source-wordcount: '109'
+ht-degree: 83%
 
 ---
 
