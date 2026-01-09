@@ -4,7 +4,7 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 90%
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 미디어 재생 소요 시간 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)Customer Journey Analytics_ ![버전은 &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**미디어 재생 시간 소요 패널**&#x200B;을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 미디어 재생 소요 시간 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)Customer Journey Analytics_ ![버전은 ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**미디어 재생 시간 소요 패널**&#x200B;을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 
 1. **[!UICONTROL 미디어 재생 소요 시간]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
 
-1. 스트리밍 미디어용 Adobe Analytics 추가 기능에서 구성 요소를 구성한 패널에 대해 데이터 보기를 선택해야 합니다.
+1. 스트리밍 미디어용 Adobe Analytics 추가 기능에서 구성 요소를 구성한 패널에 대한 보고서 세트를 선택해야 합니다.
 
 1. 패널의 [입력](#panel-input)을 지정합니다.
 
@@ -84,7 +84,7 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 | 설정 | 설명 |
 |---|---|
 | 패널 날짜 범위 | 패널 날짜 범위 기본값은 오늘입니다. 단 하루 또는 여러 달이 보이도록 편집할 수 있습니다.<br>이 시각화는 1440개의 데이터 행으로 제한됩니다(예: 분 단위 세부 기간에서 24시간). 날짜 범위와 세부 기간 조합의 결과 행이 1440개를 초과하는 경우 전체 날짜 범위를 수용하도록 세부 기간이 자동으로 업데이트됩니다. |
-| 세부기간 | 세부 기간 기본값은 분입니다.<br>이 시각화는 1440개의 데이터 행으로 제한됩니다(예: 분 단위 세부 기간에서 24시간). 날짜 범위와 세부 기간 조합의 결과 행이 1440개를 초과하는 경우 전체 날짜 범위를 수용하도록 세부 기간이 자동으로 업데이트됩니다. |
+| 세부 기간 | 세부 기간 기본값은 분입니다.<br>이 시각화는 1440개의 데이터 행으로 제한됩니다(예: 분 단위 세부 기간에서 24시간). 날짜 범위와 세부 기간 조합의 결과 행이 1440개를 초과하는 경우 전체 날짜 범위를 수용하도록 세부 기간이 자동으로 업데이트됩니다. |
 | 패널 요약 숫자 | 재생 소요 시간의 날짜 또는 시간 세부 정보를 보려면 요약 숫자를 사용할 수 있습니다. 최대값은 최대 동시 시청에 대한 세부 정보를 표시합니다. 최소값은 저점에 대한 세부 정보를 보여 줍니다. 합계는 선택에 소요된 총 재생 시간을 합산합니다. 패널 기본값은 최대값만 표시하지만 최소값, 합계 또는 세 가지 조합을 표시하도록 변경할 수 있습니다.<br>분류를 사용하는 경우 각각에 대한 요약 숫자가 표시됩니다. |
 | 시리즈 분류 | 필요에 따라 필터, 차원, 차원 항목 또는 날짜 범위별로 시각화를 분류할 수 있습니다.<p>- 한 번에 최대 10개의 줄을 볼 수 있습니다. 분류는 단일 수준으로 제한됩니다.</p><p>- 차원을 끌어오면 선택한 패널 날짜 범위를 기반으로 최상위 차원 항목이 자동으로 선택됩니다.</p>- 날짜 범위를 비교하려면 2개 이상의 날짜 범위를 시리즈 분류 필터로 끌어옵니다. |
 | 시간 형식 | `Hours:Minutes:Seconds`(기본값) 또는 `Minutes`(0.5로 반올림된 정수로 표시됨)으로 소요된 재생 시간을 볼 수 있습니다. |
@@ -126,8 +126,8 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 >[!MORELIKETHIS]
 >
 >[패널 만들기](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
->&#x200B;>[미디어 동시 뷰어 패널](media-concurrent-viewers.md)
+>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
+>[미디어 동시 뷰어 패널](media-concurrent-viewers.md)
 >
 
 <!--

@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 프로젝트 환경 설정 방법에 대
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '3456'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/3429994/?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -128,7 +128,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="기본 테이블 지표"
->abstract="자유 형식 테이블에 사용할 기본 지표를 선택하십시오. 선택한 데이터 보기에 선택한 기본 지표가 포함되어 있지 않으면 테이블은 자동으로 다른 기본 지표로 전환합니다."
+>abstract="자유 형식 테이블에 사용할 기본 지표를 선택하십시오. 선택한 보고서 세트에 선택한 기본 지표가 포함되어 있지 않으면 테이블이 자동으로 다른 기본 지표로 전환합니다."
 
 
 Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이블 환경 설정을 사용자 정의할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
@@ -191,7 +191,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 최대 표시 | 최대값 레이블을 오버레이하여 지표의 최고점을 빠르게 강조 표시합니다. 참고: 최대값은 차원 내의 전체 값 집합이 아니라 시각화에 표시되는 데이터 포인트에서 파생됩니다. |
 | | 트렌드 라인 표시 | 라인 시리즈에 회귀 또는 이동 평균 추세선을 표시합니다. 트렌드 라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다. |
 | **[코호트](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)** | | |
-| | 세부 기간 | 트렌드 시각화의 경우 시간 단위(일, 주, 월, 분기 또는 연도)를 변경할 수 있습니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
+| | 세부 기간 | 트렌드 시각화의 경우 시간 세부 기간(일, 주, 월, 분기, 연도)을 변경할 수 있습니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
 | | 백분율만 표시 | 숫자 값을 제거하고 백분율만 표시합니다. |
 | | 백분율 반올림 | 백분율 값을 소수 값으로 표시하지 않고 가장 가까운 정수로 반올림합니다. |
 | | 평균 백분율 행 표시 | 테이블의 맨 위에 새 행을 삽입한 다음 각 열 내의 값에 대한 평균을 추가합니다. |

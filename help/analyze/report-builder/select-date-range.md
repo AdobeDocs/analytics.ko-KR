@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 88%
 
 ### 사전 설정 드롭다운 메뉴
 
-사전 설정 드롭다운 메뉴에는 사용자가 저장한 데이터 보기 또는 사용자와 공유한 데이터 보기에 대한 사전 설정 날짜 범위 및 날짜 범위 구성 요소의 표준 세트가 포함됩니다.
+사전 설정 드롭다운 메뉴에는 저장한 보고서 세트 또는 사용자와 공유된 보고서 세트에 대한 사전 설정 날짜 범위 및 날짜 범위 구성 요소의 표준 세트가 포함됩니다.
 
 ### 순환 날짜
 

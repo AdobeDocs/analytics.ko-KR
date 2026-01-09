@@ -4,10 +4,10 @@ title: 주요 지표 요약
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 주요 지표 요약 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [주요 지표 요약](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 주요 지표 요약 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [주요 지표 요약](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
    | 옵션 | 설명 |
    | --- | --- |
    | **[!UICONTROL 지표]** | 검사할 지표를 선택합니다. 모든 지표가 지원됩니다. |
-   | **[!UICONTROL 기본 날짜 범위]** | 자유 형식 테이블의 현재 날짜 범위입니다.<p>데이터 보기에서 사용 가능한 날짜 범위를 선택합니다.</p> <p>시각화가 위치한 패널에서 사용 중인 날짜 범위와 동일한 날짜 범위를 사용하려면 [!UICONTROL **패널 날짜 범위**]&#x200B;를 선택합니다.</p> |
+   | **[!UICONTROL 기본 날짜 범위]** | 자유 형식 테이블의 현재 날짜 범위입니다.<p>보고서 세트에서 사용 가능한 날짜 범위를 선택합니다.</p> <p>시각화가 위치한 패널에서 사용 중인 날짜 범위와 동일한 날짜 범위를 사용하려면 [!UICONTROL **패널 날짜 범위**]&#x200B;를 선택합니다.</p> |
    | **[!UICONTROL 비교 날짜 범위]** | 기본 날짜 범위와 비교하는 날짜 범위. |
    | **[!UICONTROL 세그먼트(선택 사항)]** | 이 요약에 관심이 있는 모든 세그먼트. |
 
@@ -126,6 +126,6 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 

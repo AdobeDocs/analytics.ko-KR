@@ -5,10 +5,10 @@ title: 프로젝트 선별
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 80%
+ht-degree: 71%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 조정](https://video.tv.adobe.com/v/31298?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 조정](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 
 ## 프로젝트 조정 적용
 
-1. **[!UICONTROL 공유]** > **[!UICONTROL 프로젝트 데이터 조정]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 공유]** > **[!UICONTROL 프로젝트 데이터 조정]**을 선택합니다.
 프로젝트에 사용되는 구성 요소가 자동으로 추가됩니다.
 프로젝트에 여러 보고서 세트가 있는 경우 프로젝트의 각 보고서 세트에 대한 조정 드롭 대상이 표시됩니다.
-1. (선택 사항) 구성 요소를 더 추가하려면 왼쪽 패널에서 공유할 구성 요소를 해당 데이터 보기에 대한 **[!UICONTROL 구성 요소 조정]** 드롭 영역으로 드래그합니다.
+1. (선택 사항) 구성 요소를 더 추가하려면 왼쪽 패널에서 공유할 구성 요소를 보고서 세트의 **[!UICONTROL 구성 요소 조정]** 드롭 영역으로 드래그합니다.
 1. **[!UICONTROL 완료]**&#x200B;를 선택합니다.
 
 
@@ -72,5 +72,5 @@ ht-degree: 80%
 | 큐레이션 유형 | 관리자 | 관리자가 아닌 프로젝트 소유자 또는 역할 편집 | 관리자가 아닌 중복 역할 |
 |---|---|---|---|
 | **조정된 가상 보고서 세트** | 조정되지 않은 모든 가상 보고서 세트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 가상 보고서 세트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 가상 보고서 세트 구성 요소 |
-| **조정된 프로젝트** | 조정되지 않은 모든 프로젝트 구성 요소 | 조정되지 않은 모든 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 프로젝트 구성 요소 |
+| **조정된 프로젝트** | 조정되지 않은 모든 프로젝트 구성 요소 | 조정되지 않은 모든 프로젝트 구성 요소 | 이 역할이 소유하거나 이 역할과 공유된 조정되지 않은 프로젝트 구성 요소 |
 | **조정된 가상 보고서 세트에서 조정된 프로젝트** | **[!UICONTROL 조정되지 않은 프로젝트 구성 요소]** 및 **[!UICONTROL 조정되지 않은 가상 보고서 세트 구성 요소]** 아래에 표시되는 조정되지 않은 모든 구성 요소 | 이 역할이 소유하거나 이 역할과 공유된 조정되지 않은 모든 프로젝트 구성 요소와 조정되지 않은 가상 보고서 세트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 가상 보고서 세트 및 프로젝트 구성 요소 |

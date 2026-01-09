@@ -4,10 +4,10 @@ title: 데이터 사전 개요
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 데이터 사전](https://video.tv.adobe.com/v/3422284/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 데이터 사전](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -65,11 +65,11 @@ Analytics 관리자는 다음과 같은 목적으로 데이터 사전을 사용�
 
 * 아직 승인되지 않은 구성 요소를 식별합니다.
 
-* Analysis Workspace에서 직접 구성 요소 설명을 업데이트합니다. 데이터 사전의 구성 요소 설명에 대한 모든 업데이트는 데이터 보기에 반영됩니다.
+* Analysis Workspace에서 직접 구성 요소 설명을 업데이트합니다. 데이터 사전의 구성 요소 설명에 대한 모든 업데이트는 보고서 세트에 반영됩니다.
 
-  마찬가지로 데이터 보기의 구성 요소 설명에 대한 모든 업데이트는 Analysis Workspace에 반영됩니다.
+  마찬가지로, 보고서 세트의 구성 요소 설명에 대한 모든 업데이트는 Analysis Workspace에 반영됩니다.
 
-  Analysis Workspace 또는 데이터 보기에서 구성 요소 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md)를 참조하십시오.
+  Analysis Workspace 또는 보고서 세트에서 구성 요소 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md)를 참조하십시오.
 
 ## 데이터 사전 액세스
 
@@ -121,7 +121,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3422284?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

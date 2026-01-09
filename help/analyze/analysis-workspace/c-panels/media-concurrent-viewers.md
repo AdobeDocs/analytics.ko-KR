@@ -4,7 +4,7 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 95%
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 미디어 동시 뷰어 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)Customer Journey Analytics_ ![버전은 &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**미디어 동시 뷰어 패널**&#x200B;을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 미디어 동시 뷰어 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)Customer Journey Analytics_ ![버전은 ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**미디어 동시 뷰어 패널**&#x200B;을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -49,14 +49,14 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 **[!UICONTROL 미디어 동시 뷰어]** 패널을 사용하면 최대 동시 시청에 대한 세부 정보와 분류 및 비교 기능을 통해 시간에 따른 동시 시청자를 분석할 수 있습니다.
 
-동시 시청자 분석을 통해 최대 동시 시청 시간 발생 위치 또는 드롭오프가 발생한 위치를 파악하여 콘텐츠 및 시청자 참여의 품질에 대한 중요한 인사이트를 제공합니다. 그리고 볼륨이나 규모에 대한 문제 해결이나 계획 수립 시 도움이 됩니다.
+동시 뷰어 분석을 통해 최대 동시 시청 시간 발생 위치 또는 드롭오프가 발생한 위치를 파악하여 콘텐츠 및 뷰어 참여의 품질에 대한 중요한 인사이트를 제공합니다. 그리고 볼륨이나 규모에 대한 문제 해결이나 계획 수립 시 도움이 됩니다.
 
 Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 특정 시점에 미디어 스트림을 시청하는 고유 사용자 수로 정의됩니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/342839?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 
 1. **[!UICONTROL 미디어 동시 뷰어]** 패널을 만듭니다. 패널을 만드는 방법에 대한 자세한 내용은 [패널 만들기](panels.md#create-a-panel)를 참조하십시오.
 
-1. 스트리밍 미디어용 Adobe Analytics 추가 기능에서 구성 요소를 구성한 패널에 대해 데이터 보기를 선택해야 합니다.
+1. 스트리밍 미디어용 Adobe Analytics 추가 기능에서 구성 요소를 구성한 패널에 대한 보고서 세트를 선택해야 합니다.
 
 1. 패널의 [입력](#panel-input)을 지정합니다.
 
@@ -131,8 +131,8 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 >[!MORELIKETHIS]
 >
 >[패널 만들기](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[미디어 재생 소요 시간 패널](media-playback-time-spent.md)
->&#x200B;>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
+>[미디어 재생 소요 시간 패널](media-playback-time-spent.md)
+>[미디어 평균 분당 시청 대상자 패널](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342839/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

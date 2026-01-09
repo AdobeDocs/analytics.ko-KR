@@ -4,10 +4,10 @@ description: Analysis Workspace의 자유 형식 테이블에서 차원 항목�
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 * 사용자가 만든 하이퍼링크는 Analysis Workspace 프로젝트 내의 자유 형식 테이블에 저장됩니다. 다른 테이블이나 다른 프로젝트에서 동일한 차원이나 차원 항목을 사용하는 경우 하이퍼링크는 지속되지 않습니다.
 
-* 자유 형식 테이블의 데이터 보기를 변경하는 경우 테이블의 차원 또는 차원 항목에 대해 생성된 모든 하이퍼링크를 계속 사용할 수 있습니다. 이 기능은 차원이 데이터 보기에 여전히 존재한다고 가정합니다.
+* 자유 형식 테이블의 보고서 세트를 변경하면 테이블의 차원 또는 차원 항목에 대해 생성된 모든 하이퍼링크를 계속 사용할 수 있습니다. 이 기능은 차원이 보고서 세트에 여전히 존재한다고 가정합니다.
 
 * 하이퍼링크를 생성할 때 URL의 유효성을 검사하지 않습니다. 만약
 

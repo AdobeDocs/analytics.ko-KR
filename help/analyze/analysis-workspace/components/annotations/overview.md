@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * 주석이 만들어지는 프로젝트(기본값) 또는 모든 프로젝트.
 
-* 주석이 만들어지는 데이터 보기(기본값) 또는 모든 데이터 보기.
+* 주석이 생성되는 보고서 세트(기본값) 또는 모든 보고서 세트입니다.
 
 주석을 만들 수 있는 다양한 옵션은 [주석 만들기](create-annotations.md)를 참조하십시오. 그런 다음 [주석 빌더](create-annotations.md#annotation-builder)에서 주석을 빌드, 수정 및 저장합니다.
 
