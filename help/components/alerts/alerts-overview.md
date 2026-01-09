@@ -28,7 +28,7 @@ Adobe Analytics 패키지를 기반으로 예외 항목 임계값에 따라 경�
    * 특정 비율에 따른 지표 변경.
    * 특정 값 이상, 미만 또는 동일한 지표. (Select, Prime 또는 Ultimate 패키지를 사용하는 Adobe Analytics 고객만 사용 가능)
 
-이 [비디오 튜토리얼](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts)에서는 경고에 대한 기본 개요를 제공합니다.
+이 [비디오 튜토리얼](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/data-science/intelligent-alerts)에서는 경고에 대한 기본 개요를 제공합니다.
 
 
 ## 경고 예외 항목 살펴보기
