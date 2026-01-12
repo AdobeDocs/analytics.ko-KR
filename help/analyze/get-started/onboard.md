@@ -182,7 +182,7 @@ Adobe Analytics 여정은 올바른 구성 및 사용자 액세스 온보딩으�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-[Adobe Experience League](https://experienceleague.adobe.com/)에 온보딩하여 [설명서](https://experienceleague.adobe.com/ko/docs/analytics), [튜토리얼](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/overview) 등에 액세스해 보세요.
+[Adobe Experience League](https://experienceleague.adobe.com/ko)에 온보딩하여 [설명서](https://experienceleague.adobe.com/ko/docs/analytics), [튜토리얼](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/overview) 등에 액세스해 보세요.
 
 
 ## Adobe Admin Console
@@ -201,7 +201,7 @@ Adobe Analytics 여정은 올바른 구성 및 사용자 액세스 온보딩으�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-[지원 사례를 제기하려면 Adobe Experience League에 온보딩하고, 활성 사례 및 이전 사례를 검토](https://experienceleague.adobe.com/home#support)하십시오.
+[지원 사례를 제기하려면 Adobe Experience League에 온보딩하고, 활성 사례 및 이전 사례를 검토](https://experienceleague.adobe.com/home?lang=ko#support)하십시오.
 
 
 ## Adobe Analytics
@@ -214,7 +214,7 @@ Adobe Analytics 여정은 올바른 구성 및 사용자 액세스 온보딩으�
 
 Adobe Analytics 및 해당 지원 플랫폼에 대한 온보딩을 완료한 후 다음 리소스를 탐색하여 이해를 심화하고 기술을 향상시킬 수 있습니다.
 
-1. [Adobe Analytics 소개](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [보고서 세트 이해 및 만들기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Adobe Analytics 소개](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [보고서 세트 이해 및 만들기](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Adobe Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics)
 4. [Adobe Analytics 자습서 및 비디오](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/overview)
