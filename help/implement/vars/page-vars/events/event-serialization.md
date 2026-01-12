@@ -4,7 +4,7 @@ description: 사이트의 지표 중복 제거에 도움이 됩니다.
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 7cd930ac63e0c02dbc7df2b6114d523f5ac91064
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -37,7 +37,7 @@ ht-degree: 83%
 
 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 이벤트 직렬화는 원하는 이벤트의 XDM 필드 `id`을(를) 사용합니다. 전체 XDM 경로는 직렬화하려는 이벤트에 따라 다릅니다.
 
-예를 들어 장바구니 추가 지표를 serialize하려면 `xdm.commerce.productListAdds.id`을(를) 원하는 serialization 값으로 설정합니다. 사용자 지정 이벤트 20을 serialize하려면 `xdm._experience.analytics.event1to100.event20`을(를) 원하는 serialization 값으로 설정하십시오.
+예를 들어 장바구니 추가 지표를 serialize하려면 `xdm.commerce.productListAdds.id`을(를) 원하는 serialization 값으로 설정합니다. 사용자 지정 이벤트 20을 serialize하려면 `xdm._experience.analytics.event1to100.event20.id`을(를) 원하는 serialization 값으로 설정하십시오.
 
 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 이벤트 직렬화는 AppMeasurement 문자열 구문 다음에 나오는 `data.__adobe.analytics.events`을(를) 사용합니다.
 
