@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
+source-git-commit: 340baffc3c870ffec136a0800f71a293099e4d9f
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 100%
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/ko/docs/analytics/release-notes/latest)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [Analytics 개요](get-started/analytics-overview.md)
+   + [온보딩](get-started/onboard.md)
    + [시작하기 (역할별)](get-started/get-started-by-role.md)
    + [Analytics 인터페이스 이해](get-started/analytics-interface.md)
    + [사용 사례](get-started/use-cases.md)
@@ -230,7 +231,7 @@ ht-degree: 100%
          + [트래픽 및 상거래 지표를 동일한 요청에 통합](legacy-report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
          + [차원 및 지표의 사용자 액세스 권한](legacy-report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [지표 수정 - 필드 정의](legacy-report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
-         + [사용자 속성](legacy-report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
+         + [고객 속성](legacy-report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [예외 항목 탐지](legacy-report-builder/layout/anomaly-detection.md)
       + [예외 항목 탐지 요청 구성](legacy-report-builder/layout/t-anomaly.md)
       + [날짜 형식 지정](legacy-report-builder/layout/format-the-data.md)
