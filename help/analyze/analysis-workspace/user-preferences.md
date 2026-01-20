@@ -100,7 +100,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 사용자 환경 설정]**&#x200B;의 **[!UICONTROL 프로젝트 및 분석]** > **[!UICONTROL 데이터]** 섹션에서 더 이상 숫자 형식을 정의할 수 없습니다. 로그인한 사용자에 대해 [구성된 기본 언어](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language)에 의해 숫자 형식이 자동으로 결정됩니다.
+>**[!UICONTROL 사용자 환경 설정]**&#x200B;의 **[!UICONTROL 프로젝트 및 분석]** > **[!UICONTROL 데이터]** 섹션에서 더 이상 숫자 형식을 정의할 수 없습니다. 로그인한 사용자에 대해 [구성된 기본 언어](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/browser-language)에 의해 숫자 형식이 자동으로 결정됩니다.
 >
 
 | 섹션 | 환경 설정 | 옵션 |
