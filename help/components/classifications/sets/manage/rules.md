@@ -1,59 +1,321 @@
 ---
 title: 분류 세트 규칙
-description: 분류 세트에 대한 규칙을 보고 편집하는 방법을 이해합니다.
-exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
+description: 분류 세트 규칙을 사용하여 분류 데이터에 대한 규칙을 정의하는 방법을 알아봅니다.
 feature: Classifications
-source-git-commit: 70865a487e4442db0eececd33e3d84afc18dc878
+source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 5%
+source-wordcount: '1682'
+ht-degree: 13%
 
 ---
 
+
 # 분류 세트 규칙
 
->[!IMPORTANT]
->
->분류 세트는 아직 규칙을 지원하지 않습니다. 기존 규칙 빌더 기능을 사용할 수 없게 되기 전에 규칙 기능이 분류 세트 인터페이스에 추가됩니다.
->분류에 대한 규칙이 필요한 경우 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md)를 계속 사용하십시오.
+주요 차원이 지속적으로 변경되는 시나리오에서 규칙을 사용하여 자동 분류를 지원합니다. 업로드 또는 자동화를 통한 분류 업데이트는 번거로운 프로세스가 되거나 새로운 차원 값에 대한 적절한 분류가 지연됩니다. 예: 내부 캠페인, 추적 코드 또는 제품 SKU. 차원에는 하나 이상의 규칙을 적용할 수 있는 값이 포함되어야 해당 값에서 분류 데이터를 파생할 수 있습니다.
 
-<!--
-Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
+분류 세트의 컨텍스트 내에서 규칙을 정의합니다. 이 컨텍스트는 분류 세트를 구독하는 모든 보고서 세트 및 키 차원 조합에 규칙이 적용됨(활성화된 경우)을 의미합니다. 이 구현은 기존 분류 규칙 빌더가 작동하는 방식과는 다소 다릅니다. 분류 규칙 빌더에서 하나 이상의 규칙을 규칙 세트의 일부로 별도로 정의한 다음 규칙 세트를 하나 이상의 보고서 세트와 연결합니다. 새 인터페이스에서 분류 세트 내의 규칙을 규칙 세트라고도 합니다. 하지만 규칙 세트는 다른 분류 세트 속성을 구성하는 동일한 인터페이스 내에서 정의됩니다.
 
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Rules]**
 
-![classification set rules UI](../../assets/csets-rules.png)
+분류 세트에 대한 규칙 세트를 정의하려면 다음을 수행합니다.
 
-## Rule settings
+1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.
+1. **[!UICONTROL 분류 세트]** 관리자에서 규칙을 정의할 분류 세트를 선택합니다.
+1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**대화 상자에서&#x200B;**[!UICONTROL 규칙]**탭을 선택합니다.
 
-Settings that apply to the entire set of rules.
+   * 분류 세트에 대해 처음으로 **[!UICONTROL 규칙]** 인터페이스에 액세스하거나 지금까지 기존 규칙 빌더 인터페이스를 계속 사용하기로 결정했다면 시작하는 방법을 선택할 수 있는 대화 상자가 표시됩니다. 옵션은 다음과 같습니다.
 
-* **[!UICONTROL Rules overwrite]**: Determines the behavior of all rules in cases where a classification value exists.
-  * **[!UICONTROL Apply to all values]**: If a rule matches, always overwrite the classification value.
-  * **[!UICONTROL Apply only to unset values]**: If a rule matches, only write the classification value if it is blank. If a classification value exists, do nothing.
-* **[!UICONTROL Lookback window]**: When this rule is activated, all rules run against all unique values seen within the lookback window set here.
+      * **기존 규칙을 마이그레이션**. 현재 분류 규칙을 가져오고 새 인터페이스에서 이러한 규칙을 계속 사용합니다. 기존 규칙이 유지되고 새 형식으로 변환됩니다.
+         * 계속하려면 **[!UICONTROL 규칙 마이그레이션]**&#x200B;을 선택하십시오.
+         * **[!UICONTROL 마이그레이션 확인]** 대화 상자에서 마이그레이션의 의미를 읽어 보십시오.
+            * **[!UICONTROL 규칙 마이그레이션]**&#x200B;을 선택하여 마이그레이션을 확인합니다. 마이그레이션이 완료되면 [규칙 집합 인터페이스](#rule-set-interface)를 사용하여 새 규칙을 만들고 마이그레이션된 기존 규칙을 편집하세요.
+            * 마이그레이션을 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
 
-## Rules
+      * **새로 시작**. 새로운 규칙 빌더를 사용해 처음부터 새 분류 규칙을 만듭니다. 분류 논리를 재설계하거나 새로운 분류 규칙을 만들고자 하는 경우 이 옵션을 선택하십시오.
+         * 계속하려면 **[!UICONTROL 새 규칙 만들기]**&#x200B;를 선택하십시오.
+         * **[!UICONTROL 새로 시작 확인]** 대화 상자에서 새로 시작의 의미를 읽어 보십시오.
+            * **[!UICONTROL 새로 시작]**&#x200B;을(를) 선택하여 새로 시작을 확인하고 기존 규칙을 삭제합니다. [규칙 집합 인터페이스](#rule-set-interface)를 사용하여 새 규칙을 만듭니다.
+            * 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
-A list of rules that run for each unique value.
 
-* **[!UICONTROL Search]**: A search box that allows you to filter rules by match criteria.
-* **[!UICONTROL Add rule]**: Adds a blank row to the rule table.
-* **[!UICONTROL Test rule set]**: Brings up a test UI that allows you to validate your rules. On the left, you can manually type key values, or you can drag and drop a classification file to import many values to test against. On the right is a table that shows preliminary results of what classified values would look like if the rule set was activated. Since this interface is only for validation, no values are classified.
+      * **기존 인터페이스를 사용합니다**. 이전 규칙 빌더 인터페이스를 계속 사용합니다. 준비가 되면 언제든 새 환경으로 마이그레이션할 수 있습니다.
+         * 계속하려면 **[!UICONTROL 기존 인터페이스로 이동]**&#x200B;을 선택하십시오. 기존 **[!UICONTROL 분류 규칙 빌더]** 인터페이스로 이동되었습니다.
 
-Select one or more rules by clicking the checkbox next to the desired rule. Selecting a rule reveals the following options:
+   * 이미 규칙을 마이그레이션했거나 분류 세트에 대한 새 규칙을 만든 경우 규칙 세트 인터페이스에서 직접 보게 됩니다.
 
-* **[!UICONTROL Delete]**: Deletes the row from the rule table.
-* **[!UICONTROL Duplicate]**: Copies the selected rows to new rows in the rule table.
 
-## Rule table
 
-The rule table is separated vertically into two main parts: matching condition and classification action. Each row (an individual rule) contains a matching condition and a classification action.
+## 규칙 세트 인터페이스 {#rule-set-interface}
 
-* **Rule number**: Rules run in the same order that you configure the rule table. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to all values], the last matching rule overwrites any previous rules for the same classification dimension. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to only unset values], the first rule that sets a classification value applies.
-* **[!UICONTROL Select rule type]**: The rule criteria. Options include [!UICONTROL Contains], [!UICONTROL Ends with], [!UICONTROL Regular expression], [!UICONTROL Regular expression], and [!UICONTROL Starts with].
-* **[!UICONTROL Enter match criteria]**: The text string to match. If you select [!UICONTROL Regular expression] as the rule type, an overlay appears that lets you enter the value, test the regular expression, and provides sample syntax.
-* **[!UICONTROL Set classification]**: A drop-down list that sets the classification dimension that you want to assign a value to. Valid options include elements in your [schema](schema.md).
-* **[!UICONTROL To]**: The text string to set the classified value to. If the rule type is [!UICONTROL Regular expression], you can include a combination of text and match groups.
+>[!CONTEXTUALHELP]
+>id="classificationsets_rules_samplekeys"
+>title="샘플 키"
+>abstract="테스트 키를 입력하거나 붙여 넣어 규칙 세트를 테스트합니다. 각 줄은 별도의 키 값입니다. 결과가 포함된 대화 상자를 표시하려면 **[!UICONTROL 테스트 규칙 집합]**&#x200B;을(를) 선택하십시오."
 
--->
+
+규칙을 만들거나 편집하려면 규칙 세트 인터페이스를 사용하십시오.
+
+![규칙 집합 인터페이스](assets/rulesets-ui.png)
+
+| | 이름 | 설명 |
+|---|---|---|
+| 1 | **[!UICONTROL 함수]** | **[!UICONTROL 함수]** 영역을 사용하여 함수를 선택하여 규칙 집합 빌더로 끌어다 놓습니다. |
+| 2 | **규칙 집합 빌더** | 하나 이상의 규칙을 사용하여 규칙 세트를 작성합니다. 규칙은 함수의 구현이며 항상 하나의 함수와만 연결됩니다. 함수에는 여러 연산자가 있을 수 있습니다. 함수를 규칙 세트 빌더로 끌어다 놓아 규칙을 만듭니다. 함수 유형은 규칙의 인터페이스를 정의합니다. <br/>자세한 내용은 [규칙 인터페이스](#rule-interface)를 참조하세요.<br/>모든 위치에 함수를 삽입할 수 있으며 해당 함수는 순서대로 실행되어 분류의 최종 값을 결정합니다.<br/>모든 규칙을 축소하려면 **[!UICONTROL 모두 축소]**&#x200B;를 사용하고, 모든 규칙을 확장하려면 **[!UICONTROL 모두 확장]**&#x200B;을 사용합니다. |
+| 3 | **[!UICONTROL 상태]** | 규칙 세트의 상태 및 마지막 수정 날짜를 표시합니다. <br/>규칙 집합을 활성화하려면 **[!UICONTROL 활성화]**&#x200B;를 선택하십시오. <br/>규칙 집합을 비활성화하려면 **[!UICONTROL 비활성화]**&#x200B;를 선택하십시오. |
+| 4 | **[!UICONTROL 전환 확인]** | 규칙 세트에 대한 전환 확인 기간을 지정합니다.<br/>드롭다운 메뉴에서 옵션(1개월에서 6개월)을 선택합니다.<br/>선택한 전환 확인 기간을 사용하여 전환 확인을 수행하려면 **[!UICONTROL 전환 확인 수행]**&#x200B;을 선택하십시오. |
+| 5 | **[!UICONTROL 테스트 옵션]** | 샘플 키 차원 값을 사용하여 분류를 테스트합니다. <ul><li>**[!UICONTROL 샘플 키]** 텍스트 영역에 값을 추가하거나 붙여 넣으십시오.<br/>샘플 키가 규칙 집합 인터페이스의 다양한 사용에서 유지되는지 확인하려면 **[!UICONTROL 샘플 키 기억]**&#x200B;을 확인하십시오.</li><li>**[!UICONTROL 규칙 집합 테스트]**&#x200B;를 선택하여 규칙 집합을 테스트합니다.</li></ul> |
+
+
+## 규칙 인터페이스
+
+규칙 인터페이스의 규칙 세트 내에서 각 개별 규칙을 정의합니다. 인터페이스는 다음 요소로 구성됩니다.
+
+![규칙 인터페이스](assets/rule-ui.png)
+
+| | 설명 |
+|---|---|
+| 1 | 선택한 함수의 이름과 함수에 입력된 입력입니다. |
+| 2 | 선택한 함수에 대한 입력입니다. 입력은 선택한 함수에 따라 다릅니다. 예를 들어 **[!UICONTROL 정규 표현식]** 함수의 경우 입력은 정규 표현식입니다. **[!UICONTROL Split]** 함수의 경우 입력은 토큰입니다. 특정 기능에 대한 적절한 입력을 입력합니다. 예를 들어, 내부 캠페인 코드에서 세 개의 분류를 식별하는 정규 표현식의 경우 `^(.+)\:(.+)\:(.+)$`입니다. |
+| 3 | 각 작업은 특정 분류를 값으로 설정합니다. <br/>**[!UICONTROL 분류 설정]** 드롭다운 메뉴에서 분류를 선택하고 **[!UICONTROL to]** 값을 입력하십시오. <br/>목록에서 작업을 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 사용하십시오. |
+| 4 | 함수에 추가 작업을 추가하려면 ![추가](/help/assets/icons/Add.svg) **[!UICONTROL 작업 추가]**&#x200B;를 선택하십시오. |
+| 5 | 규칙을 축소하려면 ![V자형 화살표](/help/assets/icons2/ChevronDown.svg)를 선택하십시오. 규칙을 확장하려면 ![V자형 화살표](/help/assets/icons/ChevronLeft.svg)을(를) 선택하십시오.<br/>규칙을 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오. |
+
+## 함수 참조
+
+지원되는 각 기능에 대해 필수 입력 및 샘플 사용 사례에 대한 자세한 내용은 아래에서 확인하십시오.
+
+
+### 다음으로 시작...
+
+키 차원이 시작되는 특정 값에 따라 분류를 설정합니다.
+
++++ 세부 사항 
+
+#### 필수 입력
+
+**[!UICONTROL 다음으로 시작]**&#x200B;의 값을 입력하십시오. 예: `em`.
+
+#### 사용 사례
+
+키 차원 내부 캠페인의 값이 `Email`(예: **[!UICONTROL )으로 시작하는 경우]**&#x200B;을(를) `em`채널`em:FY2025:Summer Sale` 분류에 대한 값으로 할당하는 규칙을 정의하려고 합니다.
+
+>[!BEGINTABS]
+
+>[!TAB 규칙]
+
+![규칙 - 다음으로 시작](assets/rule-startswith.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 테스트 결과로 시작](assets/rule-startswith-test.png)
+
+>[!ENDTABS]
+
++++
+
+
+
+### 다음으로 끝남...
+
+키 차원이 끝나는 특정 값에 따라 분류를 설정합니다.
+
++++ 세부 사항 
+
+#### 필수 입력
+
+**[!UICONTROL 다음으로 끝남]**&#x200B;의 값을 입력하십시오. 예: `2025`.
+
+#### 사용 사례
+
+키 차원 내부 캠페인에 대한 값에 `2025`이(가) 포함된 경우 **[!UICONTROL 을(를)]**&#x200B;년`2025` 분류에 값으로 할당하는 규칙을 정의하려고 합니다(예: `em:Summer Sale:FY2025`).
+
+>[!BEGINTABS]
+
+>[!TAB 규칙]
+
+![규칙 - 다음으로 끝남](assets/rule-endswith.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 테스트 결과로 끝남](assets/rule-endswith-test.png)
+
+>[!ENDTABS]
+
++++
+
+
+### 포함...
+
+키 차원에 포함된 특정 값을 기준으로 분류를 설정합니다.
+
++++ 세부 사항 
+
+#### 필수 입력
+
+**[!UICONTROL 포함]**&#x200B;의 값을 입력하십시오. 예: `Winter`.
+
+#### 사용 사례
+
+키 차원 내부 캠페인에 대한 값에 `Winter Sale`이(가) 포함된 경우 **[!UICONTROL 을(를)]** Type`Winter` 분류에 값으로 할당하는 규칙을 정의하려고 합니다(예: `fb:Winter:FY2024`).
+
+
+>[!BEGINTABS]
+
+>[!TAB 규칙]
+
+![규칙 - 포함](assets/rule-contains.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 결과 포함](assets/rule-contains-test.png)
+
+>[!ENDTABS]
+
++++
+
+
+### 일치
+
+키 차원 값과 일치하는 특정 값을 기준으로 분류를 설정합니다.
+
++++ 세부 사항 
+
+#### 필수 입력
+
+**[!UICONTROL 일치]**&#x200B;에 대한 값을 입력하십시오. 예: `em:Summer:2025`.
+
+#### 사용 사례
+
+`Email`을(를) **[!UICONTROL Channel]** 분류에 값으로, `Summer Sale`을(를) **[!UICONTROL Type]** 분류에 값으로, `2025`을(를) **[!UICONTROL Year]** 분류에 할당하는 규칙을 정의하려고 합니다. 하지만 키 차원 내부 캠페인의 값이 `em:Summer:2025`과(와) 일치하는 경우에만 가능합니다.
+
+
+>[!BEGINTABS]
+
+>[!TAB 규칙]
+
+![규칙 - 일치](assets/rule-matches.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 일치](assets/rule-matches-test.png)
+
+>[!ENDTABS]
+
++++
+
+
+### 정규 표현식
+
+키 차원 값에 적용되는 정규 표현식에 따라 하나 이상의 분류를 설정합니다.
+
++++ 세부 사항 
+
+#### 필수 입력
+
+**[!UICONTROL 정규 표현식]**&#x200B;의 값을 입력하십시오. 예: `^(.+)\:(.+)\:FY(.+)$`.
+
+#### 사용 사례
+
+정규식 **[!UICONTROL 을(를) 적용하고 키 차원 내부 캠페인에 대한 값에 일치 그룹(]**, **[!UICONTROL 및]**)을 사용하여 **[!UICONTROL 채널]**, `^(.+)\:(.+)\:FY(.+)$`유형`$1` 및 `$2`연도`$3` 분류에 값을 할당하는 규칙을 정의하려고 합니다.
+
+>[!BEGINTABS]
+
+>[!TAB 규칙]
+
+![규칙 - 정규 표현식](assets/rule-regex.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 정규식 테스트 결과](assets/rule-regex-test.png)
+
+>[!ENDTABS]
+
+
+
+#### 참조 테이블
+
+정규 표현식의 참조 테이블은 아래를 참조하십시오.
+
+| 정규 표현식 | 설명 |
+|---|---|
+| `(?ms)` | 여러 줄 입력에 대해 전체 정규 표현식을 일치시켜 `.` 와일드카드가 모든 새 줄 문자와 일치하게 합니다. |
+| `(?i)` | 전체 정규 표현식을 대/소문자를 구분하지 않도록 일치 |
+| `[abc]` | 단일 문자 a, b 또는 c |
+| `[^abc]` | a, b 또는 c를 제외한 모든 단일 문자 |
+| `[a-z]` | a-z 범위의 모든 단일 문자 |
+| `[a-zA-Z]` | a-z 또는 A-Z 범위의 모든 단일 문자 |
+| `^` | 라인 시작(라인 시작과 일치) |
+| `$` | 라인 끝과 일치(또는 끝 부분의 새 라인 앞) |
+| `\A` | 문자열 시작 |
+| `\z` | 문자열 끝 |
+| `.` | 모든 문자와 일치(새 라인 제외) |
+| `\s` | 모든 공백 문자 |
+| `\S` | 모든 비공백 문자 |
+| `\d` | 모든 숫자 |
+| `\D` | 모든 비숫자 |
+| `\w` | 모든 단어 문자(문자, 숫자, 밑줄) |
+| `\W` | 모든 비단어 문자 |
+| `\b` | 모든 단어 경계 |
+| `(...)` | 둘러싸인 모든 항목 캡처 |
+| `(a\b)` | a 또는 b |
+| `a?` | 0 또는 1개 |
+| `a*` | 0개 이상 |
+| `a+` | 1개 이상 |
+| `a{3}` | 정확히 3개 |
+| `a{3,}` | 3개 이상 |
+| `a{3,6}` | 3과 6 사이 |
+
++++
+
+
+### 분할
+
+토큰을 기반으로 키 차원 값을 하나 이상의 분류로 분할합니다.
+
++++ 세부 사항
+
+#### 필수 입력
+
+**[!UICONTROL 분할]**&#x200B;의 값을 입력하십시오. 예: `:`.
+
+#### 사용 사례
+
+****&#x200B;토큰&#x200B;**[!UICONTROL 을(를) 기반으로 주요 차원 내부 캠페인의 값을]**&#x200B;채널&#x200B;**[!UICONTROL ,]**&#x200B;유형`:` 및 **[!UICONTROL 연도]** 분류로 분할하는 규칙을 정의하려고 합니다.
+
+>[!BEGINTABS]
+
+>[!TAB 규칙]
+
+![규칙 - 분할](assets/rule-split.png)
+
+>[!TAB 테스트 결과]
+
+![규칙 - 테스트 결과 분할](assets/rule-split-test.png)
+
+>[!ENDTABS]
+
++++
+
+## 규칙 우선 순위
+
+마지막 규칙은 다음과 같은 경우 분류에 대한 값을 결정합니다.
+
+* 키 차원 값이 여러 규칙과 일치합니다.
+* 규칙 집합에 동일한 **[!UICONTROL 분류 설정]** 작업을 사용하는 규칙이 있습니다.
+
+따라서 가장 중요한 **[!UICONTROL 분류 설정]** 작업의 등급을 규칙 집합의 마지막 규칙의 일부로 지정해야 합니다.
+
+동일한 **[!UICONTROL 분류 설정]** 작업을 공유하지 않는 규칙을 여러 개 만드는 경우 처리 순서는 문제가 되지 않습니다.
+
+
+### 예
+
+사용자가 검색 문자열을 키 차원으로 사용하여 운동선수를 검색하는 방법을 **[!UICONTROL 유형]** 분류로 분류하려고 합니다. 예를 들어, 이 규칙 세트를 사용합니다.
+
+![규칙 우선 순위](assets/rule-priority.png)
+
+* 사용자가 `Cowboys Fantasy Tony Romo`을(를) 검색할 때 `Romo`이(가) **[!UICONTROL Type]**(으)로 분류됩니다.
+* 사용자가 `Cowboys Fantasy Tony Romeo`을(를) 검색할 때 `Fantasy`은(는) **[!UICONTROL Type]**(으)로 분류됩니다.
+* 사용자가 `Cowboys vs. Broncos`을(를) 검색할 때 `Team`은(는) **[!UICONTROL Type]**(으)로 분류됩니다.
+
