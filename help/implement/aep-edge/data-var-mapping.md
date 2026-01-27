@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ## 데이터 오브젝트 필드 매핑
 
-이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)에서 확인할 수 있습니다. AppMeasurement 변수와 마찬가지로 모든 데이터 오브젝트 필드는 대/소문자를 구분합니다.
+이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.ko-KR/commits/main/help/implement/aep-edge/data-var-mapping.md)에서 확인할 수 있습니다. AppMeasurement 변수와 마찬가지로 모든 데이터 오브젝트 필드는 대/소문자를 구분합니다.
 
 | 데이터 오브젝트 필드 경로 | Analytics 변수 및 설명 |
 | --- | --- |
