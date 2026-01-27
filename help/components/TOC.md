@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
+source-git-commit: 3ea8c07117641c2defa6ef126ab1d730f187c1d2
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -264,9 +264,9 @@ ht-degree: 100%
    + 분류 세트 {#sets}
       + [개요](classifications/sets/overview.md)
       + [데이터 파일](classifications/sets/data-files.md)
-      + 분류 세트 {#manage}
-         + [관리](classifications/sets/manage/set-manager.md)
-         + [만들기 및 편집](classifications/sets/manage/create.md)
+      + [만들기 및 편집](classifications/sets/manage/create.md)
+      + [관리](classifications/sets/manage/set-manager.md)
+      + 분류 세트 {#set}
          + [설정](classifications/sets/manage/settings.md)
          + [스키마](classifications/sets/manage/schema.md)
          + [규칙](classifications/sets/manage/rules.md)
@@ -274,25 +274,26 @@ ht-degree: 100%
       + 분류 통합 {#consolidations}
          + [관리](classifications/sets/consolidations/manage.md)
          + [만들기 및 편집](classifications/sets/consolidations/process.md)
-   + 분류 규칙 빌더 (이전){#classifications-rulebuilder}
-      + [개요](classifications/crb/classification-rule-builder.md)
-      + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
-      + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
-      + [분류 규칙 정의](classifications/crb/classification-rule-definitions.md)
-      + [하위 분류 및 규칙 빌더](classifications/crb/subclassification-rule-builder.md)
-   + 분류 가져오기 도구 (이전){#classifications-importer}
-      + [분류 가져오기 도구 개요](classifications/importer/c-working-with-saint.md)
-      + [분류 데이터 파일](classifications/importer/c-saint-data-files.md)
-      + [분류 데이터 삭제](classifications/importer/t-delete-classification-data.md)
-      + [분류 템플릿](classifications/importer/c-download-saint-data.md)
-      + [브라우저 가져오기](classifications/importer/browser-import.md)
-      + [브라우저 내보내기](classifications/importer/browser-export.md)
-      + [FTP 가져오기](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
-      + [FTP 내보내기](classifications/importer/ftp-export.md)
-      + [처리 시간](classifications/importer/processing-time.md)
-      + [하위 분류](classifications/importer/subclassifications.md)
-      + [문제 해결](classifications/importer/troubleshooting.md)
-      + [FAQ](classifications/importer/importer-faq.md)
+   + 이전 분류 {#legacy-classifications}
+      + 분류 규칙 빌더 {#classifications-rulebuilder}
+         + [개요](classifications/crb/classification-rule-builder.md)
+         + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
+         + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
+         + [분류 규칙 정의](classifications/crb/classification-rule-definitions.md)
+         + [하위 분류 및 규칙 빌더](classifications/crb/subclassification-rule-builder.md)
+      + 분류 가져오기 도구 {#classifications-importer}
+         + [분류 가져오기 도구 개요](classifications/importer/c-working-with-saint.md)
+         + [분류 데이터 파일](classifications/importer/c-saint-data-files.md)
+         + [분류 데이터 삭제](classifications/importer/t-delete-classification-data.md)
+         + [분류 템플릿](classifications/importer/c-download-saint-data.md)
+         + [브라우저 가져오기](classifications/importer/browser-import.md)
+         + [브라우저 내보내기](classifications/importer/browser-export.md)
+         + [FTP 가져오기](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+         + [FTP 내보내기](classifications/importer/ftp-export.md)
+         + [처리 시간](classifications/importer/processing-time.md)
+         + [하위 분류](classifications/importer/subclassifications.md)
+         + [문제 해결](classifications/importer/troubleshooting.md)
+         + [FAQ](classifications/importer/importer-faq.md)
 + 위치 {#locations}
    + [위치 관리자](/help/components/locations/locations-manager.md)
    + [클라우드 가져오기 계정](/help/components/locations/configure-import-accounts.md)
@@ -309,3 +310,4 @@ ht-degree: 100%
    + [마케팅 채널 분석](c-marketing-channels/analyze-mc.md)
    + [마케팅 채널 권한](c-marketing-channels/c-channel-report-access.md)
    + [마케팅 채널 FAQ 및 예제](c-marketing-channels/c-faq.md)
+
