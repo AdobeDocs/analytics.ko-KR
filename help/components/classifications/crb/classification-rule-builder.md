@@ -18,7 +18,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [분류 규칙 빌더](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [분류 규칙 빌더](https://video.tv.adobe.com/v/3434376?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
