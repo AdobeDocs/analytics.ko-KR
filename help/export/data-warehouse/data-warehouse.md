@@ -1,5 +1,5 @@
 ---
-description: Data Warehouse에 대해 알아보고 데이터를 필터링하여 사용자 지정 보고서를 만들고 실행할 수 있는 방법에 대해 알아봅니다.
+description: Data Warehouse에 대해 알아보고 데이터를 필터링하여 사용자 정의 보고서를 만들고 실행하는 방법에 대해 알아봅니다.
 title: Data Warehouse 개요
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
@@ -7,7 +7,7 @@ exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Data Warehouse는 크기가 1MB를 초과하는 모든 파일을 자동으로 �
 
 ## 액세스
 
-Adobe는 관리자 수준 사용자에 대해서만 특정 보고서 세트에 대해 Data Warehouse를 사용할 수 있도록 합니다. 글로벌 및 하위 보고서 세트에 대해 활성화할 수 있지만, 롤업 보고서 세트에 대해서는 활성화할 수 없습니다. 관리자는 Data Warehouse에 액세스할 수 있는 그룹을 만든 다음 관리자가 아닌 수준 사용자를 해당 그룹에 연결할 수 있습니다.
+Adobe는 관리자 수준 사용자에 대해서만 특정 보고서 세트에 대해 Data Warehouse를 사용할 수 있도록 합니다. (글로벌 및 하위 보고서 세트에서는 활성화할 수 있지만 롤업 보고서 세트에서는 활성화할 수 없습니다.) 관리자는 Data Warehouse에 액세스할 수 있는 그룹을 만든 다음 관리자가 아닌 수준의 사용자를 해당 그룹에 연결할 수 있습니다.
 
 [Data Warehouse 권한 관리](/help/export/data-warehouse/t-dw-group.md)를 참조하십시오.
 

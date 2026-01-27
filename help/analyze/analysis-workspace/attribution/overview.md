@@ -7,7 +7,7 @@ exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 * 무제한 속성 모델 비교를 사용: 원하는 수만큼 모델을 동적으로 비교합니다.
 * 구현 변경 방지: 보고서 처리 시간 및 컨텍스트 인식 세션으로 고객 여정 컨텍스트를 구축하고 런타임에 적용할 수 있습니다.
 * 사용자의 속성 시나리오와 일치하는 세션을 생성합니다.
-* 세그먼트별 속성 분류: 중요한 모든 세그먼트(예: 신규 및 반복 고객, 제품 X와 제품 Y, 로열티 수준 또는 CLV)에서 마케팅 채널의 실적을 쉽게 비교할 수 있습니다.
+* 세그먼트별 속성 분류: 중요한 모든 세그먼트(예: 신규 및 반복 고객, 제품 X와 제품 Y, 로열티 등급 또는 CLV)에서 마케팅 채널의 실적을 쉽게 비교할 수 있습니다.
 * 채널 교차 및 다중 터치 분석: 벤 다이어그램, 히스토그램 및 트렌드 속성 결과를 사용합니다.
 * 주요 마케팅 시퀀스를 시각적으로 분석: 다중 노드 플로우 및 폴아웃 시각화를 통해 시각적으로 전환된 경로를 탐색합니다.
 * 계산된 지표 작성: 여러 속성 할당 방법을 사용합니다.
@@ -53,32 +53,32 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 속성](https://video.tv.adobe.com/v/33015?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 속성](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표의 속성](https://video.tv.adobe.com/v/30857?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표의 속성](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 패널 사용](https://video.tv.adobe.com/v/33011?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 패널 사용](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 모델 병렬 비교 추가](https://video.tv.adobe.com/v/327799?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 모델의 병렬 비교 추가](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 ## 속성을 지원하지 않는 Adobe Analytics 도구
 
-[기존 Report Builder](/help/analyze/legacy-report-builder/home.md)와 같이 Analytics 2.0 API를 지원하지 않는 모든 도구는 속성을 지원하지 않습니다.
+[이전 Report Builder](/help/analyze/legacy-report-builder/home.md)와 같이 Analytics 2.0 API를 지원하지 않는 도구는 속성을 지원하지 않습니다.

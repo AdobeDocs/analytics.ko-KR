@@ -174,7 +174,7 @@ ht-degree: 100%
    + [음성 지표](metrics/voice-metrics.md)
    + [Experience Cloud ID를 가진 방문자](metrics/visitors-with-ecid.md)
    + [방문 횟수](metrics/visits.md)
-+ 세분화 {#segmentation}
++ 세그먼테이션 {#segmentation}
    + [Analytics 세분화](segmentation/seg-home.md)
    + [세그먼트 정보](segmentation/seg-overview.md)
    + [세그먼트 컨테이너 정보](segmentation/seg-containers.md)
@@ -261,10 +261,10 @@ ht-degree: 100%
    + [사용 사례](alerts/alerts-use-cases.md)
 + 분류 {#classifications}
    + [분류 개요](classifications/classifications-overview.md)
-   + 분류 설정 {#sets}
+   + 분류 세트 {#sets}
       + [개요](classifications/sets/overview.md)
       + [데이터 파일](classifications/sets/data-files.md)
-      + 분류 설정 {#manage}
+      + 분류 세트 {#manage}
          + [관리](classifications/sets/manage/set-manager.md)
          + [만들기 및 편집](classifications/sets/manage/create.md)
          + [설정](classifications/sets/manage/settings.md)

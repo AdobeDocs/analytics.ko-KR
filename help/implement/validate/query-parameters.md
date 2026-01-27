@@ -66,14 +66,14 @@ ht-degree: 100%
 | `pid` | 없음 | 마지막 페이지의 페이지 식별자. 이전 버전의 Activity Map에서 사용됩니다. |
 | `pidt` | 없음 | 마지막 페이지의 페이지 식별자 유형. 이전 버전의 Activity Map에서 사용됩니다. |
 | `pl` | [`products`](../vars/page-vars/products.md) | `products` 쿼리 문자열의 축약. |
-| `products` | [`products`](../vars/page-vars/products.md) | Products 변수. [제품](/help/components/dimensions/product.md) 및 [범주](/help/components/dimensions/category.md) 차원에 사용됩니다. |
+| `products` | [`products`](../vars/page-vars/products.md) | Products 변수. [제품](/help/components/dimensions/product.md) 및 [카테고리](/help/components/dimensions/category.md) 차원에 사용됩니다. |
 | `purchaseID` | [`purchaseID`](../vars/page-vars/purchaseid.md) | 구매 중복 제거에 사용됩니다. |
 | `r` | [`referrer`](../vars/page-vars/referrer.md) | 히트의 참조 URL. [레퍼러](/help/components/dimensions/referrer.md) 및 [참조 도메인](/help/components/dimensions/referring-domain.md)과 같은 트래픽 소스 차원에 사용됩니다. |
 | `s` | 없음 | `width x height`로 표시되는 화면 해상도. [모니터 해상도](/help/components/dimensions/monitor-resolution.md) 차원에 사용됩니다. |
 | `server` | [`server`](../vars/page-vars/server.md) | [서버 차원.](/help/components/dimensions/server.md) |
 | `sv` | [`server`](../vars/page-vars/server.md) | `server` 쿼리 문자열의 축약. |
 | `state` | [`state`](../vars/page-vars/state.md) | 상태 차원. |
-| `t` | 없음 | 히트의 생성 날짜/시간. `dd/mm/yyyy hh:mm:ss w o` 형식을 사용합니다.<br>- `dd/mm/yyyy hh:mm:ss`는 JavaScript의 날짜/시간입니다. 달 `0`은 1월이고 달 `11`은 12월입니다.<br>- `w`는 요일입니다. `0`은 일요일이고 `6`은 토요일입니다.<br>- `o`는 음수 GMT 오프셋 (분 단위)입니다. 예를 들어 `420`은 GMT-7입니다. |
+| `t` | 없음 | 히트의 생성 날짜/시간. `dd/mm/yyyy hh:mm:ss w o` 포맷을 사용합니다.<br>- `dd/mm/yyyy hh:mm:ss`는 JavaScript의 날짜/시간입니다. 달 `0`은 1월이고 달 `11`은 12월입니다.<br>- `w`는 요일입니다. `0`은 일요일이고 `6`은 토요일입니다.<br>- `o`는 음수 GMT 오프셋 (분 단위)입니다. 예를 들어 `420`은 GMT-7입니다. |
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | 히트와 함께 설정된 사용자 정의 타임스탬프. 보통 오프라인 추적에 사용됩니다. |
 | `v` | 없음 | [Java 활성화](/help/components/dimensions/java-enabled.md) 차원에 사용됩니다. |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [추적 코드 차원.](/help/components/dimensions/tracking-code.md) |

@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## Web SDK를 사용한 이벤트
 
-[XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md)를 사용하는 경우 사용자 지정 이벤트는 다음 XDM 필드를 사용합니다.
+[XDM 오브젝트](/help/implement/aep-edge/xdm-var-mapping.md)를 사용하는 경우 사용자 정의 이벤트가 다음 XDM 필드를 사용합니다.
 
 * 사용자 정의 이벤트 1-100은 `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`에 매핑됩니다.
 * 사용자 정의 이벤트 101-200은 `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`에 매핑됩니다.
@@ -38,31 +38,31 @@ ht-degree: 85%
 >
 >`productListItems` 아래에 이벤트가 설정되어 있고(예: `productListItems._experience.analytics.event1.value`) 해당 이벤트가 아직 이 필드에 없으면 해당 이벤트가 이 필드에 자동으로 추가됩니다.
 
-[**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 모든 이벤트는 AppMeasurement 문자열 구문 다음에 나오는 `data.__adobe.analytics.events`을(를) 사용합니다. 이 필드를 설정하면 XDM 개체에 설정된 이벤트가 덮어쓰기되어 Adobe Analytics으로 전송되지 않습니다.
+[**데이터 오브젝트**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 모든 이벤트가 AppMeasurement 문자열 구문 다음에 나오는 `data.__adobe.analytics.events`를 사용합니다. 이 필드를 설정하면 XDM 오브젝트에 설정된 이벤트를 덮어쓰기하고 Adobe Analytics에 전송하지 않습니다.
 
-## Adobe Analytics 확장을 사용한 이벤트
+## Adobe Analytics 확장 기능을 사용한 이벤트
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이벤트를 설정할 수 있습니다.
+Analytics 확장 기능(전역 변수)을 구성하는 동안 또는 규칙에서 이벤트를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정]&#x200B;(으)로 설정합니다.
+5. [!UICONTROL 확장 기능] 드롭다운 목록을 Adobe Analytics로 설정하고 [!UICONTROL 액션 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
 6. [!UICONTROL 이벤트] 섹션을 찾습니다.
 
 다음과 같은 몇 가지 기능을 사용할 수 있습니다.
 
-* 포함할 이벤트를 선택할 수 있는 드롭다운 목록입니다
+* 포함할 이벤트를 선택할 수 있는 드롭다운 목록
 * 직렬화를 위한 선택적 텍스트 필드. 자세한 내용은 [이벤트 직렬화](event-serialization.md)를 참조하십시오.
-* 이벤트 값에 대한 선택적 텍스트 필드. 통화 이벤트를 위한 통화를 포함하거나, 비통화 이벤트를 위한 정수를 포함하여 여러 번 증가시킬 수 있습니다. 예를 들어, 드롭다운 목록에서 `event1`을(를) 선택하고 이 필드에 `10`을(를) 포함하면 보고에서 `event1`이(가) 10만큼 증가합니다.
+* 이벤트 값에 대한 선택적 텍스트 필드. 통화 이벤트를 위한 통화를 포함하거나, 비통화 이벤트를 위한 정수를 포함하여 여러 번 증가시킬 수 있습니다. 예를 들어 드롭다운 목록 아래에서 `event1`을 선택하고 이 필드에 `10`을 포함하면 보고에서 `event1`이 10만큼 증가합니다.
 * 다른 이벤트를 추가하는 버튼. 이유 내에서 단일 규칙에 원하는 만큼 이벤트를 추가할 수 있습니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.events
 
-`s.events` 변수는 히트에 포함할 이벤트에 대한 쉼표로 구분된 목록을 포함하는 문자열입니다. 변수는 최대 64k 바이트를 허용하므로 히트에 필요한 만큼의 이벤트를 효과적으로 허용합니다. 유효 값 항목:
+`s.events` 변수는 히트에 포함할 이벤트에 대한 쉼표로 구분된 목록을 포함하는 문자열입니다. 변수는 최대 64k 바이트까지 허용하므로 히트에 필요한 만큼의 이벤트를 효과적으로 허용합니다. 유효 값 항목:
 
-* `event1` - `event1000`: 원하는 대로 설정하는 사용자 정의 이벤트입니다. 조직의 [솔루션 디자인 문서](../../../prepare/solution-design.md)에서 각 이벤트를 사용하는 방법을 기록하십시오. 사용 가능한 이벤트 수는 조직의 Analytics 계약에 따라 다릅니다. 비 레거시 계약에 있는 대부분의 조직에는 사용할 수 있는 사용자 정의 이벤트 1,000개가 있습니다. 사용할 수 있는 사용자 지정 이벤트의 수를 모를 경우 Adobe 계정 팀에 문의하십시오.
+* `event1` - `event1000`: 원하는 대로 설정하는 사용자 정의 이벤트입니다. 조직의 [솔루션 디자인 문서](../../../prepare/solution-design.md)에서 각 이벤트를 사용하는 방법을 기록하십시오. 사용 가능한 이벤트 수는 조직의 Analytics 계약에 따라 다릅니다. 비 레거시 계약에 있는 대부분의 조직에는 사용할 수 있는 사용자 정의 이벤트 1,000개가 있습니다. 사용 가능한 사용자 정의 이벤트의 수를 모를 경우에는 Adobe 계정 팀에 문의하십시오.
 * `purchase`: [&#39;주문&#39;](/help/components/metrics/orders.md) 지표를 1씩 증가시키고, `products` 변수에 설정된 값을 사용하여 [&#39;판매량&#39;](/help/components/metrics/units.md) 및 [&#39;수입&#39;](/help/components/metrics/revenue.md)을 계산합니다. 자세한 내용은 [구매 이벤트](event-purchase.md)를 참조하십시오.
 * `prodView`: [&#39;제품 보기&#39;](/help/components/metrics/product-views.md) 지표를 증가시킵니다.
 * `scOpen`: [&#39;장바구니 수&#39;](/help/components/metrics/carts.md) 지표를 증가시킵니다.

@@ -1,12 +1,12 @@
 ---
 title: 차원 개요
-description: 차원의 의미와 Adobe Analytics에서 차원을 사용하는 방법을 알아봅니다.
+description: 차원이 무엇이고 Adobe Analytics에서 차원이 어떻게 사용되는지 알아봅니다.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

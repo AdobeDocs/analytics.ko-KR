@@ -6,7 +6,7 @@ exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
 workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -66,26 +66,26 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
 1. (조건부) Adobe Analytics에 이미 구성되어 있는 클라우드 계정에 대한 액세스 권한이 없는 경우에 다음 중 하나를 구성할 수 있습니다.
 
-   1. [!UICONTROL **계정**] 드롭다운 메뉴를 선택한 다음 [!UICONTROL **계정 추가**]&#x200B;를 선택합니다.
+   1. [!UICONTROL **계정**] 드롭다운 메뉴에서 [!UICONTROL **계정 추가**]&#x200B;를 선택합니다.
 
    1. 계정 추가 대화 상자에서 다음 정보를 지정합니다.
 
       | 필드 | 함수 |
       |---------|----------|
-      | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름입니다. 위치가 생성되면 이 이름이 표시됩니다. |
+      | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름. 위치가 생성되면 이 이름이 표시됩니다. |
       | [!UICONTROL **위치 계정 설명**] | 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. |
-      | [!UICONTROL **조직의 모든 사용자가 사용할 수 있는 계정을 만듭니다**] | 조직의 다른 사용자가 계정을 사용할 수 있도록 하려면 이 옵션을 활성화합니다.<p>계정을 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 계정은 공유 해제할 수 없습니다.</li><li>공유 계정은 계정 소유자만 편집할 수 있습니다.</li><li>누구나 공유 계정의 위치를 만들 수 있습니다.</li></ul> |
+      | [!UICONTROL **조직의 모든 사용자들이 계정을 사용할 수 있도록 설정**] | 조직의 다른 사용자가 계정을 사용할 수 있도록 하려면 이 옵션을 활성화합니다.<p>계정을 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 계정은 공유 해제할 수 없습니다.</li><li>공유 계정은 계정 소유자만 편집할 수 있습니다.</li><li>누구나 공유 계정의 위치를 만들 수 있습니다.</li></ul> |
       | [!UICONTROL **계정 유형**] | 클라우드 계정 유형을 선택합니다. 각 계정 유형에 대해 단일 계정을 사용하고 해당 계정 내에서 필요에 따라 여러 위치를 사용하는 것이 좋습니다.<p>시스템 관리자는 [사용자가 계정을 만들 수 있는지 여부 구성](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)에 설명된 대로 사용자가 만들 수 있는 계정 유형을 제한할 수 있습니다. 이 섹션에 설명된 대로 계정을 만들 수 없는 경우 시스템 관리자에게 문의하십시오.</p> |
 
-   1. [!UICONTROL **계정 속성**] 섹션에서 선택한 계정 유형과 관련된 정보를 지정합니다.
+   1. [!UICONTROL **계정 속성**] 섹션에서 선택된 계정 유형과 관련된 정보를 지정합니다.
 
-      구성 지침을 보려면 선택한 [!UICONTROL **계정 유형**]&#x200B;에 해당하는 아래 섹션을 확장하세요. (추가적인 레거시 계정 유형도 사용할 수 있지만 권장되지는 않습니다.)
+      구성 지침을 보려면 선택한 [!UICONTROL **계정 유형**]&#x200B;에 해당하는 아래 섹션을 확장합니다. (추가 이전 계정 유형을 사용할 수도 있지만 권장되지 않습니다.)
 
       **계정 유형**
 
       +++Amazon S3 Role ARN
 
-      **참고:** Data Warehouse에서 Amazon S3를 사용할 경우 SSE-S3 암호화만 지원됩니다.
+      **참고:** Data Warehouse로 Amazon S3를 사용할 경우 SSE-S3 암호화만 지원됩니다.
 
       Amazon S3 Role ARN 계정을 구성하려면 다음 정보를 지정합니다.
 
@@ -117,8 +117,8 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
       |---------|----------|
       | [!UICONTROL **애플리케이션 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
       | [!UICONTROL **테넌트 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
-      | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS 토큰에 대한 경로입니다.  Azure SAS를 구성하려면 Azure 키 자격 증명 모음을 사용하여 SAS 토큰을 비밀로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>Key Vault URI가 만들어지면 Key Vault에 액세스 정책을 추가하여 만든 Azure 애플리케이션에 권한을 부여합니다. 자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p><p>또는</p><p>액세스 정책을 만들지 않고 직접 액세스 역할을 부여하려면 Azure 포털을 사용하여 Azure 역할을 할당하는 방법에 대한 [Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)를 참조하세요. 애플리케이션 ID에 대한 역할 할당이 추가되어 주요 자격 증명 모음 URI에 액세스합니다. </p> |
-      | [!UICONTROL **키 자격 증명 모음 암호 이름**] | Azure Key Vault에 암호를 추가할 때 만든 암호 이름입니다. Microsoft Azure에서 이 정보는 **주요 자격 증명 모음** 설정 페이지에서 만든 주요 자격 증명 모음에 있습니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오. |
+      | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS 토큰에 대한 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS 토큰을 암호로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI가 만들어지면 키 자격 증명 모음에 액세스 정책을 추가하여 만든 Azure 애플리케이션에 권한을 부여합니다. 자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/ko-kr/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p><p>또는</p><p>액세스 정책을 만들지 않고 직접 액세스 역할을 부여하려면 Azure 포털을 사용하여 Azure 역할을 할당하는 방법에 대한 [Microsoft Azure 설명서](https://learn.microsoft.com/ko-kr/azure/role-based-access-control/role-assignments-portal)를 참조하십시오. 이렇게 하면 키 자격 증명 모음 URI에 액세스할 수 있는 애플리케이션 ID의 역할 할당이 추가됩니다. </p> |
+      | [!UICONTROL **키 자격 증명 모음 암호 이름**] | Azure Key Vault에 암호를 추가할 때 만든 암호 이름 이 정보는 Microsoft Azure의 **키 자격 증명 모음** 설정 페이지에서 만든 키 자격 증명 모음에 있습니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오. |
       | [!UICONTROL **위치 계정 암호**] | 만든 Azure 애플리케이션에서 암호를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **인증서 및 암호** 애플리케이션 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
 
       {style="table-layout:auto"}
@@ -143,7 +143,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       >[!NOTE]
       >
-      >전자 메일 계정은 [데이터 피드](/help/export/analytics-data-feed/create-feed.md)에서만 사용할 수 있습니다. (전자 메일 계정은 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [분류 세트](/help/components/classifications/sets/overview.md)에서 지원되지 않습니다.)
+      >이메일 계정은 [데이터 피드](/help/export/analytics-data-feed/create-feed.md)에서만 사용할 수 있습니다. (이메일 계정은 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [분류 세트](/help/components/classifications/sets/overview.md)에서 지원되지 않습니다.)
 
       Azure RBAC 계정을 구성하려면 다음 정보를 지정합니다.
 
@@ -167,7 +167,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
 ### FTP
 
-Data Warehouse 데이터는 Adobe 또는 호스팅된 FTP 위치에 전달될 수 있습니다. FTP 호스트, 사용자 이름 및 암호가 필요합니다. 폴더에 피드 파일을 배치하려면 경로 필드를 사용하십시오. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않을 경우 피드에서 오류가 발생합니다.
+Data Warehouse 데이터는 Adobe 또는 고객이 호스팅하는 FTP 위치에 전달될 수 있습니다. FTP 호스트, 사용자 이름 및 암호가 필요합니다. 폴더에 피드 파일을 배치하려면 경로 필드를 사용하십시오. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않을 경우 피드에서 오류가 발생합니다.
 
 사용 가능한 필드가 완료되면 다음 정보를 사용합니다.
 
@@ -245,7 +245,7 @@ SFTP 구성에 대한 자세한 내용은 [SFTP 서버로 Data Warehouse 요청 
 * us-east-1
 * us-west-1
 * us-west-2
-* ap-남-1
+* ap-south-1
 * ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2

@@ -1,5 +1,5 @@
 ---
-description: 데이터 피드를 사용하여 Adobe Analytics에서 원시 데이터를 가져오는 방법에 대해 알아봅니다. 데이터 피드 사용을 위한 사전 요구 사항을 확인하고 다음 작업을 수행하십시오.
+description: 데이터 피드를 사용하여 Adobe Analytics에서 원시 데이터를 가져오는 방법에 대해 알아봅니다. 데이터 피드 사용을 위한 사전 요구 사항을 확인하고 다음 작업을 수행합니다.
 keywords: 클릭스트림, 데이터 피드, 데이터피드, 데이터 피드
 title: Analytics 데이터 피드 개요
 feature: Data Feeds
@@ -7,7 +7,7 @@ exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 79%
 * [데이터 피드 모범 사례](/help/export/analytics-data-feed/data-feeds-best-practices.md): 데이터 피드를 만들고 관리하기 위한 모범 사례.
 * [데이터 피드 만들기](create-feed.md): 개별 필드를 자세히 설명하는 데이터 피드 작성을 위한 기술 세부 정보
 * [데이터 피드 관리](df-manage-feeds.md): 데이터 피드 인터페이스 탐색에 대한 자세한 정보
-* [데이터 피드 내용](c-df-contents/datafeeds-contents.md): 압축된 파일 <!-- Is this still the output users can download from the destination? I aske Jun. -->의 내용을 이해합니다.
+* [데이터 피드 콘텐츠](c-df-contents/datafeeds-contents.md): 압축 파일 <!-- Is this still the output users can download from the destination? I aske Jun. -->의 항목 이해
 * [데이터 열 정의](c-df-contents/datafeeds-reference.md): 사용 가능한 모든 열의 포괄적인 목록.
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 인터페이스 탐색](https://video.tv.adobe.com/v/3428565?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 인터페이스 탐색](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 ID 찾기](https://video.tv.adobe.com/v/3418482?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 ID 찾기](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
