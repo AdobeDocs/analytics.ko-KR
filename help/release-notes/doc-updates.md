@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 58098a24e826161bbd7aadb98abe050fd944791e
+source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
 workflow-type: tm+mt
 source-wordcount: '6639'
 ht-degree: 98%
@@ -17,7 +17,7 @@ ht-degree: 98%
 2019년 1월 이후 Adobe Analytics 설명서 세트에 대한 콘텐츠 업데이트입니다.
 
 * [!UICONTROL Customer Journey Analytics]에 대한 자세한 내용은 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko-KR)을 참조하세요.
-* Adobe 스트리밍 미디어 컬렉션에 대한 자세한 내용은 [Analytics에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko)을 참조하십시오.
+* Adobe 스트리밍 미디어 컬렉션에 대한 자세한 내용은 [Analytics에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)을 참조하십시오.
 
 ## 주요 설명서 업데이트에 대한 세부 정보
 
@@ -26,8 +26,8 @@ ht-degree: 98%
 | 기능 | 설명 |
 | --- | --- |
 | **2026년 1월** | |
-| 분류 세트 규칙 빌더 | 분류 세트[&#x200B; 기능의 새 &#x200B;](/help/components/classifications/sets/manage/rules.md)규칙 빌더 기능에 대한 설명서입니다. |
-| 사용자 환경 설정: 숫자 형식 | **[!UICONTROL 사용자 환경 설정]**&#x200B;의 **[!UICONTROL 프로젝트 및 분석]** > **[!UICONTROL 데이터]** 섹션에서 더 이상 숫자 형식을 정의할 수 없습니다. 로그인한 사용자에 대해 [구성된 기본 언어](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/browser-language)에 의해 숫자 형식이 자동으로 결정됩니다. |
+| 분류 세트 규칙 빌더 | 분류 세트[ 기능의 새 ](/help/components/classifications/sets/manage/rules.md)규칙 빌더 기능에 대한 설명서입니다. |
+| 사용자 환경 설정: 숫자 형식 | **[!UICONTROL 사용자 환경 설정]**&#x200B;의 **[!UICONTROL 프로젝트 및 분석]** > **[!UICONTROL 데이터]** 섹션에서 더 이상 숫자 형식을 정의할 수 없습니다. 로그인한 사용자에 대해 [구성된 기본 언어](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language)에 의해 숫자 형식이 자동으로 결정됩니다. |
 | 디바이스 그래프 | [중단된 장치 그래프 기능](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)에 대한 참조를 제거했습니다. |
 
 ### 2025 {#year2025}
@@ -38,7 +38,7 @@ ht-degree: 98%
 | VISTA 규칙에 대한 중요한 고려 사항 | [Vista 규칙](/help/technotes/vista.md)과 관련된 중요한 고려 사항이 업데이트되었습니다. |
 | 대화형 AI 도구에 대한 데이터 열 ID 추가 | ref_type 열에 대화형 AI 도구에 대한 [데이터 열 참조 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)가 추가되었습니다. |
 | **2025년 10월** | |
-| 분류 설정 | [분류 설정](/help/components/classifications/sets/overview.md) 설명서가 업데이트되었습니다. |
+| 분류 세트 | [분류 설정](/help/components/classifications/sets/overview.md) 설명서가 업데이트되었습니다. |
 | 기여도 구성 | 모델, 컨테이너 및 전환 확인 기간에 대한 새 기여도 설정 옵션을 반영하기 위한 추가 업데이트입니다. |
 | 추가 방문자 식별 개선 사항 | 모든 구현 유형 전반에서 방문자를 식별하는 권장 방법을 설명하는 [방문자 식별](/help/implement/id/overview.md) 섹션이 추가되었습니다. |
 | **2025년 9월** | |
@@ -98,10 +98,10 @@ ht-degree: 98%
 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드에 대한 새로운 설명서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하는 조직의 경우 조직의 현재 Adobe Analytics 구현 및 장기 목표를 기반으로 염두에 두어야 할 다양한 업그레이드 옵션 등 고려 사항이 많습니다.<p>이제 새로운 문서 리소스를 통해 다음 내용을 더 효과적으로 이해할 수 있습니다.</p><ul><li>존재하는 다양한 업그레이드 경로</li><li>조직의 현재 Adobe Analytics 구현에 따라 사용 가능한 업그레이드 경로</li><li>각 업그레이드 경로의 장점과 단점</li><li>각 업그레이드 경로에 대한 단계별 지침</li><li>내역 데이터 처리 시 고려 사항</li><li>등</li></ul><p>[Customer Journey Analytics로 업그레이드를 시작](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)하십시오.</p> |
 | 사용자 정의 날짜 범위에 대한 설명서 업데이트 | 현재 제품 기능 및 디자인과 일치하도록 [사용자 정의 날짜 범위 만들기](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)와 관련된 스크린샷 및 절차가 업데이트되었습니다. |
 | **2024년 4월** | |
-| 분류 세트에서 &quot;소유자&quot; 관련 문서 제거 | [분류 세트 관리자](/help/components/classifications/sets/manage/set-manager.md)에서 “소유자” 필터 및 열이 제거되었으며 [분류 세트 설정](/help/components/classifications/sets/manage/settings.md)에서 “소유자” 필드가 제거되었습니다. <p>설명서가 업데이트되어 이 필터, 열 및 필드가 제거되었습니다.</p> |
+| 분류 세트에서 &quot;소유자&quot; 관련 문서 제거 | [분류 세트 관리자](/help/components/classifications/sets/set-manager.md)에서 “소유자” 필터 및 열이 제거되었으며 [분류 세트 설정](/help/components/classifications/sets/manage/settings.md)에서 “소유자” 필드가 제거되었습니다. <p>설명서가 업데이트되어 이 필터, 열 및 필드가 제거되었습니다.</p> |
 | 클라우드 가져오기 및 내보내기 위치 구성에 대한 문서에서 축소 가능한 섹션 제거 | 클라우드 계정 유형을 설명하는 정보를 보기 위해 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에서 축소 가능한 섹션이 제거되었습니다. |
 | **2024년 3월** | |
-| AppMeasurement 업데이트 | [&#128279;](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
+| AppMeasurement 업데이트 | [](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
 | &quot;다음에서 사용&quot; 열에 대한 사용량 정보는 2023년 9월 이후부터 사용 가능 | [프로젝트 랜딩 페이지](/help/analyze/landing.md)의 **다음에서 사용** 열에 대한 사용량 정보는 2023년 9월 이후부터 제공된다는 점을 명확히 했습니다. |
 | **2024년 2월** | |
 | Data Warehouse 요청 관리에 대한 내용 업데이트 | 기본적으로 사용자는 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md) 시에 직접 만든 요청만 볼 수 있음을 명시했습니다. |
@@ -130,7 +130,7 @@ ht-degree: 98%
 | **2023년 9월** | |
 | 미디어 재생 소요 시간 패널에 대한 문서의 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 해당 폴더의 내용을 단일 문서([미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))로 결합했습니다. <p>이 변경 사항으로 다른 패널의 설명서와 함께 더 일관된 형태를 갖추게 되었습니다.</p> |
 | 시작 콘텐츠 개선 사항 | 관리자, 분석가, 최종 사용자 및 개발자를 위한 주요 시작 작업 및 리소스에 대해 간략하게 설명하는 정보가 추가되었습니다. 이제 다음 문서를 사용할 수 있습니다. <ul><li>[시작하기 (역할별)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics 인터페이스 이해](/help/analyze/get-started/analytics-interface.md)<li>[사용 사례](/help/analyze/get-started/use-cases.md)</li></ul> |
-| 스트리밍 미디어 컬렉션에 대한 보고 문서 개선 사항 | API 설명서를 자체 섹션에 통합하고 일부 문서의 순서를 조정하는 것을 포함하여 스트리밍 미디어 컬렉션 안내서의 보고 섹션에 있는 일부 콘텐츠를 재구성했습니다. <p>제품 내 이름과 보다 일치하도록 Media Workspace 템플릿 문서의 이름을 [Workspace의 미디어 보고서](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=ko)로 변경했습니다. </p> |
+| 스트리밍 미디어 컬렉션에 대한 보고 문서 개선 사항 | API 설명서를 자체 섹션에 통합하고 일부 문서의 순서를 조정하는 것을 포함하여 스트리밍 미디어 컬렉션 안내서의 보고 섹션에 있는 일부 콘텐츠를 재구성했습니다. <p>제품 내 이름과 보다 일치하도록 Media Workspace 템플릿 문서의 이름을 [Workspace의 미디어 보고서](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html)로 변경했습니다. </p> |
 | **2023년 8월** | |
 | 데이터 피드 설명 | 내역 데이터에 대한 데이터 피드를 처리할 때 데이터 수집 시 시작 일자를 원하는 과거의 일자로 설정할 수 있도록 [시작 및 종료 일자 정의](/help/export/analytics-data-feed/create-feed.md)가 업데이트되었습니다. |
 | Adobe Experience Platform Edge Network 데이터 처리 | Adobe Analytics에서 [Edge Network의 데이터를 처리](../implement/aep-edge/overview.md)하는 방법과 관련된 콘텐츠를 추가합니다. |
@@ -138,7 +138,7 @@ ht-degree: 98%
 | 예약된 프로젝트 관리에 대한 콘텐츠 이동 | Analytics 구성 요소 안내서에 [예약된 프로젝트](/help/components/scheduled-projects-manager.md)라는 새 문서를 만들었습니다. 이 콘텐츠는 이전에 Analytics 도구 안내서의 [프로젝트 예약](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 문서에 있었습니다. |
 | 구현 방법 비교 | 다양한 구현 방법을 비교하는 설명서가 업데이트되었습니다. [자세히 알아보기](../implement/prepare/comparison.md) |
 | 데이터 피드에 대해 SFTP를 구성하는 데 Adobe 고객 지원이 필요하지 않음을 명확히 했습니다. | 데이터 피드에 대해 SFTP를 구성하기 위해 고객이 Adobe 고객 지원에 참여할 필요가 없음을 [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)에서 명확히 했습니다. <p>또한 SFTP는 더 이상 권장되지 않으며 고객은 데이터 피드를 구성할 때 클라우드 대상을 사용해야 한다는 메모가 추가되었습니다.</p> |
-| 스트리밍 미디어 컬렉션에 대한 설명서 개선 사항 | 스트리밍 미디어 컬렉션에 대해 다음과 같이 설명서가 개선되었습니다. <ul><li>명확성을 개선하고 Customer Journey Analytics와 관련된 정보를 포함하도록 [일반적인 개요](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko)가 업데이트되었습니다.</li><li>Edge 구현과 Analytics 전용 구현을 명확하게 구분되도록 [구현 개요](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ko)가 업데이트되었습니다. 다양한 구현 방법을 설명하는 다이어그램도 포함되었습니다.</li><li>[Edge 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=ko) 및 [Analytics 전용 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=ko)에 대한 사전 요구 사항이 추가되었습니다. [일반적인 사전 요구 사항](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=ko)도 업데이트되었습니다.</li><li>*지원되는 솔루션* 및 *구현 방법*&#x200B;에 대한 새 열을 포함하도록 [미디어 SDK 가져오기, 태그를 사용한 확장 및 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=ko) 문서의 테이블이 업데이트되었습니다.</li><li>문서의 [구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ko) 영역에서 문서의 콘텐츠 및 구성이 간소화되었습니다. Edge 구현 및 Analytics 전용 구현별 구현 분류가 포함되었습니다.</li><li>[추적](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=ko)에서 필요하지 않은 추가 계층 구조가 제거되었으며 이 섹션에서 변경된 URL에 대한 리디렉션이 추가되었습니다.</li><ul> |
+| 스트리밍 미디어 컬렉션에 대한 설명서 개선 사항 | 스트리밍 미디어 컬렉션에 대해 다음과 같이 설명서가 개선되었습니다. <ul><li>명확성을 개선하고 Customer Journey Analytics와 관련된 정보를 포함하도록 [일반적인 개요](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)가 업데이트되었습니다.</li><li>Edge 구현과 Analytics 전용 구현을 명확하게 구분되도록 [구현 개요](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)가 업데이트되었습니다. 다양한 구현 방법을 설명하는 다이어그램도 포함되었습니다.</li><li>[Edge 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html) 및 [Analytics 전용 구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)에 대한 사전 요구 사항이 추가되었습니다. [일반적인 사전 요구 사항](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html)도 업데이트되었습니다.</li><li>*지원되는 솔루션* 및 *구현 방법*&#x200B;에 대한 새 열을 포함하도록 [미디어 SDK 가져오기, 태그를 사용한 확장 및 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html) 문서의 테이블이 업데이트되었습니다.</li><li>문서의 [구현](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html) 영역에서 문서의 콘텐츠 및 구성이 간소화되었습니다. Edge 구현 및 Analytics 전용 구현별 구현 분류가 포함되었습니다.</li><li>[추적](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html)에서 필요하지 않은 추가 계층 구조가 제거되었으며 이 섹션에서 변경된 URL에 대한 리디렉션이 추가되었습니다.</li><ul> |
 | **2023년 7월** | |
 | Adobe Experience Platform Edge Network API | [Adobe Experience Platform Edge Network API](../implement/aep-edge/api/overview.md)를 사용하여 Adobe Analytics로 데이터 수집을 구현하는 시기와 방법에 대한 보다 포괄적인 설명서가 추가되었습니다. 예를 들어 데스크탑 애플리케이션, IoT 디바이스, 셋톱 박스에서 Adobe Analytics로 데이터 수집을 구현합니다. |
 | 글로벌 회사 ID | 로그인한 Analytics 회사의 [글로벌 회사 ID를 찾는 방법](../admin/tools/company/web-services-admin.md)이 문서화되었습니다. 이 ID는 Analytics 2.0 API에 필요합니다. |
@@ -149,7 +149,7 @@ ht-degree: 98%
 | **2023년 6월** | |
 | 분류 세트의 새로운 기능 | [분류 세트](/help/components/classifications/sets/overview.md)가 몇 가지 새로운 기능으로 업데이트되었습니다.<ul><li>**통합**: 분류 세트를 통합된 단일 분류 세트로 결합합니다. 통합된 분류 세트는 다른 분류 세트처럼 사용하거나 Customer Journey Analytics에서 조회 데이터 세트로 사용할 수 있습니다. [자세히 알아보기](../components/classifications/sets/consolidations/manage.md)</li><li>**규칙**: 분류 세트의 규칙에 따라 값을 자동으로 분류합니다. [자세히 알아보기](../components/classifications/sets/manage/rules.md)</li><li>**자동화된 가져오기**: 클라우드 스토리지 대상에서 분류 세트 데이터를 자동으로 가져옵니다. [자세히 알아보기](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 계산된 지표 업데이트 | 절차 단계 및 스크린샷 업데이트를 포함하여 계산된 지표와 관련된 다양한 문서가 업데이트되었습니다. 문서가 현재 Adobe Analytics 기능에 맞도록 변경되었습니다. |
-| 데이터 피드 내보내기를 위한 보안 대상 | 이제 데이터 피드를 다음 클라우드 스토리지 대상으로 보낼 수 있습니다.<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>이전에 사용할 수 있었던 대상(FTP, SFTP, S3 및 Azure Blob)은 더 이상 권장되지 않습니다. [자세히 알아보기](/help/export/analytics-data-feed/create-feed.md) |
+| 데이터 피드 내보내기를 위한 보안 대상 | 이제 데이터 피드를 다음 클라우드 스토리지 대상으로 보낼 수 있습니다.<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud 플랫폼</li></ul>이전에 사용할 수 있었던 대상(FTP, SFTP, S3 및 Azure Blob)은 더 이상 권장되지 않습니다. [자세히 알아보기](/help/export/analytics-data-feed/create-feed.md) |
 | Workspace의 봇 보고 | 이제 Analysis Workspace에서 봇 보고를 사용할 수 있습니다. 이 기능에는 다음과 같은 몇 가지 추가 기능이 있습니다.<ul><li>새 차원: [봇 이름](/help/components/dimensions/bot-name.md)</li><li>두 개의 새로운 지표: [봇 페이지 조회수](/help/components/metrics/bot-page-views.md) 및 [봇 발생 횟수](/help/components/metrics/bot-occurrences.md).</li><li>새로 계산된 지표 템플릿: [봇 페이지 조회수 비율](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md)</li><li>새로운 Workspace 보고서: 봇 보고</li></ul>새 차원 및 지표에는 2023년 3월부터 채워지는 데이터가 포함됩니다. |
 | **2023년 5월** | |
 | 딥 링크(모바일 앱) 설명서 | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
@@ -195,10 +195,10 @@ ht-degree: 98%
 | 동의 관리 변수 | [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md) 및 [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md)에 대한 전용 페이지입니다. |
 | 다중 통화 새로 고침 | [다중 통화 지원](/help/implement/vars/config-vars/currencycode.md) 관련 페이지가 업데이트됩니다. |
 | **2022년 10월** |  |
-| Data Workbench | [서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ko) |
+| Data Workbench | [서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | 클라이언트 힌트 | 새로운 [개요 및 FAQ](/help/technotes/client-hints.md) |
 | 주요 지표 요약 | [주요 지표 요약](/help/analyze/analysis-workspace/visualizations/key-metric.md) 시각화에 대한 새로운 주제. |
-| 분류 설정 | 새 사용자 [분류 설정](/help/components/classifications/sets/overview.md) 경험은 분류 및 규칙을 관리하고 고객 소유 분류 데이터의 가시성을 향상시키는 단일 인터페이스를 제공합니다. |
+| 분류 세트 | 새 사용자 [분류 설정](/help/components/classifications/sets/overview.md) 경험은 분류 및 규칙을 관리하고 고객 소유 분류 데이터의 가시성을 향상시키는 단일 인터페이스를 제공합니다. |
 | 모바일 앱: 사용자 정의 상세 보기 | [사용자 정의 상세 보기](/help/analyze/mobile-app/create-scorecard.md)에 대한 새로운 주제. |
 | VISTA | [VISTA 규칙](/help/technotes/vista.md)의 기초에 대해 설명하는 신규 페이지입니다. |
 | **2022년 9월** | |
@@ -238,36 +238,36 @@ ht-degree: 98%
 | 기능 | 설명 |
 | --- | --- |
 | **2021년 10월** |  |
-| 2021년 10월 21일 | Analysis Workspace의 [빠른 세그먼트](/help/analyze/analysis-workspace/components/segments/quick-segments.md)에 대한 새로운 설명서 |
-| 2021년 10월 21일 | Analysis Workspace의 [미디어 재생 소요 시간](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) 패널에 대한 새로운 설명서. |
-| 2021년 10월 7일 | [모바일 스코어카드용 시각화](/help/analyze/mobile-app/create-scorecard.md#apply-visualizations)에 대한 새로운 설명서 |
+| 2021년 10월 21일 금요일 | Analysis Workspace의 [빠른 세그먼트](/help/analyze/analysis-workspace/components/segments/quick-segments.md)에 대한 새로운 설명서 |
+| 2021년 10월 21일 금요일 | Analysis Workspace의 [미디어 재생 소요 시간](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) 패널에 대한 새로운 설명서. |
+| 2021년 10월 7일 금요일 | [모바일 스코어카드용 시각화](/help/analyze/mobile-app/create-scorecard.md#apply-visualizations)에 대한 새로운 설명서 |
 | **2021년 8월** |  |
-| 2021년 8월 18일 | 수정된 최상위 구조 및 단일 [랜딩 페이지](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)로 통합 |
-| 2021년 8월 18일 | [A4T 및 가상 보고서 세트](/help/components/vrs/vrs-a4t.md)에 대한 새 주제 |
-| 2021년 8월 18일 | [속성 모범 사례](/help/analyze/analysis-workspace/attribution/best-practices.md)에 대한 새 주제 |
-| 2021년 8월 5일 | [반복 인스턴스 계산](/help/components/metrics/count-repeat-instances.md)에 대한 새 주제 |
-| 2021년 8월 5일 | [템플릿](/help/components/classifications/importer/c-download-saint-data.md), [브라우저 가져오기](/help/components/classifications/importer/browser-import.md) 및 [브라우저 내보내기](/help/components/classifications/importer/browser-export.md)에 대한 분류 설명서를 업데이트하여 새 분류 아키텍처에 대해 활성화된 보고서 세트에 사용할 수 없는 옵션을 나타냅니다. |
-| 2021년 8월 2일 | [Adobe Experience Platform Launch](/help/implement/launch/overview.md)의 리브랜딩을 반영하도록 여러 페이지 업데이트 |
+| 2021년 8월 18일 목요일 | 수정된 최상위 구조 및 단일 [랜딩 페이지](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)로 통합 |
+| 2021년 8월 18일 목요일 | [A4T 및 가상 보고서 세트](/help/components/vrs/vrs-a4t.md)에 대한 새 주제 |
+| 2021년 8월 18일 목요일 | [속성 모범 사례](/help/analyze/analysis-workspace/attribution/best-practices.md)에 대한 새 주제 |
+| 2021년 8월 5일 금요일 | [반복 인스턴스 계산](/help/components/metrics/count-repeat-instances.md)에 대한 새 주제 |
+| 2021년 8월 5일 금요일 | [템플릿](/help/components/classifications/importer/c-download-saint-data.md), [브라우저 가져오기](/help/components/classifications/importer/browser-import.md) 및 [브라우저 내보내기](/help/components/classifications/importer/browser-export.md)에 대한 분류 설명서를 업데이트하여 새 분류 아키텍처에 대해 활성화된 보고서 세트에 사용할 수 없는 옵션을 나타냅니다. |
+| 2021년 8월 2일 화요일 | [Adobe Experience Platform Launch](/help/implement/launch/overview.md)의 리브랜딩을 반영하도록 여러 페이지 업데이트 |
 | **2021년 7월** |  |
-| 2021년 7월 23일 | [머천다이징 eVar](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)에 대한 새로운 심층 토론 |
-| 2021년 7월 15일 | 새 [Adobe Analytics 랜딩 페이지](/help/analyze/landing.md)에 새 설명서 추가 |
+| 2021년 7월 23일 토요일 | [머천다이징 eVar](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)에 대한 새로운 심층 토론 |
+| 2021년 7월 15일 금요일 | 새 [Adobe Analytics 랜딩 페이지](/help/analyze/landing.md)에 새 설명서 추가 |
 | **2021년 6월** |  |
-| 2021년 6월 15일 | 업데이트된 [마케팅 채널 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md) |
-| 2021년 6월 3일 | [데이터 피드 구현](/help/export/analytics-data-feed/create-feed.md) 및 [BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl)을 더 잘 설명하도록 설명서를 업데이트했습니다. |
-| 2021년 5월 25일 | [보고의 eVar 대소문자 구분](/help/components/dimensions/evar.md)에 대한 설명서가 업데이트되었습니다. |
-| 2021년 5월 13일 | [Data Warehouse API 요청](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/)에 대한 업데이트입니다. 이제 “시간”을 지원합니다. |
+| 2021년 6월 15일 수요일 | 업데이트된 [마케팅 채널 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md) |
+| 2021년 6월 3일 금요일 | [데이터 피드 구현](/help/export/analytics-data-feed/create-feed.md) 및 [BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl)을 더 잘 설명하도록 설명서를 업데이트했습니다. |
+| 2021년 5월 25일 수요일 | [보고의 eVar 대소문자 구분](/help/components/dimensions/evar.md)에 대한 설명서가 업데이트되었습니다. |
+| 2021년 5월 13일 금요일 | [Data Warehouse API 요청](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/)에 대한 업데이트입니다. 이제 “시간”을 지원합니다. |
 | **2021년 3월** | |
 | 2021년 3월, 4월 | Adobe Analytics 대시보드의 [경영진 안내서](/help/analyze/mobile-app/executive.md) 및 [큐레이터 안내서](/help/analyze/mobile-app/curator.md) 업데이트 |
-| 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지의 새 설명서. 이를 통해 사용자에 대한 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정]은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 환경 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분자 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분자</li><li>Workspace 프로젝트: 도움말 > 활성화 팁</li><li>Workspace 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
-| 2021년 3월 25일 | [!UICONTROL 히스토그램 스마트 버킷 예측]이 데이터 스프레드에 적합한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 히스토그램을 지원합니다. 낮은 카디널리티 지표의 경우 시각화는 이전과 동일하게 작동합니다. |
-| 2021년 3월 25일 | [데이터 복구 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) 업데이트 (URL, 쿼리 문자열, @ 기호 등에 대한 필터링) |
-| 2021년 3월 25일 | 새 [사용 로그 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 설명서 |
+| 2021년 3월 25일 금요일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지의 새 설명서. 이를 통해 사용자에 대한 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정]은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 환경 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분자 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분자</li><li>Workspace 프로젝트: 도움말 > 활성화 팁</li><li>Workspace 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
+| 2021년 3월 25일 금요일 | [!UICONTROL 히스토그램 스마트 버킷 예측]이 데이터 스프레드에 적합한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 히스토그램을 지원합니다. 낮은 카디널리티 지표의 경우 시각화는 이전과 동일하게 작동합니다. |
+| 2021년 3월 25일 금요일 | [데이터 복구 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) 업데이트 (URL, 쿼리 문자열, @ 기호 등에 대한 필터링) |
+| 2021년 3월 25일 금요일 | 새 [사용 로그 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 설명서 |
 | **2021년 2월** | |
 | 2021년 2월 4일 | 구성 요소 선택: [!UICONTROL 빠른 인사이트]에 있는 드롭다운/드롭 영역 구성 요소가 [!UICONTROL 작업 영역]의 모든 드롭 영역에 추가되었습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
 | **2021년 1월** | |
-| 2021년 1월 14일 | Analytics 대시보드 설명서에 언어 선택 옵션이 추가되었습니다. |
-| 2021년 1월 14일 | 공개 이미지 URL을 참조하여 Workspace 프로젝트에 이미지를 추가하는 방법에 대한 설명서가 추가되었습니다. |
-| 2021년 1월 14일 | 작업 영역 시각화를 위한 통합 소스 및 설정 관리자: [!UICONTROL 데이터 소스] 관리자(점) 및 설정 관리자(톱니바퀴)가 하나의 팝오버로 결합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다 |
+| 2021년 1월 14일 금요일 | Analytics 대시보드 설명서에 언어 선택 옵션이 추가되었습니다. |
+| 2021년 1월 14일 금요일 | 공개 이미지 URL을 참조하여 Workspace 프로젝트에 이미지를 추가하는 방법에 대한 설명서가 추가되었습니다. |
+| 2021년 1월 14일 금요일 | 작업 영역 시각화를 위한 통합 소스 및 설정 관리자: [!UICONTROL 데이터 소스] 관리자(점) 및 설정 관리자(톱니바퀴)가 하나의 팝오버로 결합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다 |
 
 ### 2020 {#year2020}
 
@@ -283,40 +283,40 @@ ht-degree: 98%
 | 2020년 11월 12일 | 상속된 [Adobe Analytics 구현](/help/implement/prepare/existing-implementation.md)에 대한 새 페이지입니다. |
 | 2020년 11월 2일 | [분류용 FTP](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)에 대한 설명서가 업데이트되었습니다. |
 | **2020년 10월** | |
-| 2020년 10월 23일 | 작업 영역 라인 시각화: [이동 평균 트렌드 라인 옵션](/help/analyze/analysis-workspace/visualizations/line.md): 이 설정은 [!UICONTROL 라인] 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트(**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
-| 2020년 10월 23일 | Workspace [성능 도움말 페이지](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. |
-| 2020년 10월 23일 | Adobe Analytics 대시보드 설명서에 개선 사항이 추가되었습니다. 작업 영역의 모바일 스코어카드에서 스코어카드의 스타일이 앱과 일치합니다. |
+| 2020년 10월 23일 토요일 | 작업 영역 라인 시각화: [이동 평균 트렌드 라인 옵션](/help/analyze/analysis-workspace/visualizations/line.md): 이 설정은 [!UICONTROL 라인] 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트(**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
+| 2020년 10월 23일 토요일 | Workspace [성능 도움말 페이지](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. |
+| 2020년 10월 23일 토요일 | Adobe Analytics 대시보드 설명서에 개선 사항이 추가되었습니다. 작업 영역의 모바일 스코어카드에서 스코어카드의 스타일이 앱과 일치합니다. |
 | **2020년 9월** | |
-| 2020년 9월 17일 | [단일 차원에 맞는 5만 개의 항목 다운로드](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items): 이제 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
-| 2020년 9월 17일 | [선 시각화 개선 사항](/help/analyze/analysis-workspace/visualizations/line.md): <ul><li>모든 [!UICONTROL 선] 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 선 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다.</li></ul> |
-| 2020년 9월 17일 | 작업 영역의 새 날짜 범위: 5개의 새 날짜 범위를 추가했으므로 오늘의 일부 일 데이터를 포함하지 않는 다음 날짜 범위 중에서 선택할 수 있습니다. 지난 7일, 지난 14일, 지난 30일, 지난 60일, 지난 90일 |
-| 2020년 9월 17일 | 작업 영역의 [미디어 동시 뷰어 패널](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)에 대한 새로운 설명서 |
+| 2020년 9월 17일 금요일 | [단일 차원에 맞는 5만 개의 항목 다운로드](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items): 이제 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
+| 2020년 9월 17일 금요일 | [선 시각화 개선 사항](/help/analyze/analysis-workspace/visualizations/line.md): <ul><li>모든 [!UICONTROL 선] 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 선 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다.</li></ul> |
+| 2020년 9월 17일 금요일 | 작업 영역의 새 날짜 범위: 5개의 새 날짜 범위를 추가했으므로 오늘의 일부 일 데이터를 포함하지 않는 다음 날짜 범위 중에서 선택할 수 있습니다. 지난 7일, 지난 14일, 지난 30일, 지난 60일, 지난 90일 |
+| 2020년 9월 17일 금요일 | 작업 영역의 [미디어 동시 뷰어 패널](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)에 대한 새로운 설명서 |
 | **2020년 8월** | |
-| 2020년 8월 31일 | 크로스 디바이스 분석의 [필드 기반 결합 설명서](/help/components/cda/field-based-stitching.md)에 개선 사항이 추가되었습니다. |
+| 2020년 8월 31일 화요일 | 크로스 디바이스 분석의 [필드 기반 결합 설명서](/help/components/cda/field-based-stitching.md)에 개선 사항이 추가되었습니다. |
 | **2020년 7월** | |
-| 2020년 7월 21일 | [크로스 디바이스 분석](/help/components/cda/overview.md)의 주요 업데이트 및 개정 버전. [필드 기반 결합](/help/components/cda/field-based-stitching.md)이 추가되었습니다. |
-| 2020년 7월 16일 | 작업 영역의 새 날짜 범위 사전 설정입니다. 4개의 새 날짜 범위를 추가함: ([!UICONTROL 이번 주/월/분기/연도 (오늘 제외)]). 오늘부터 하루의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
+| 2020년 7월 21일 수요일 | [크로스 디바이스 분석](/help/components/cda/overview.md)의 주요 업데이트 및 개정 버전. [필드 기반 결합](/help/components/cda/field-based-stitching.md)이 추가되었습니다. |
+| 2020년 7월 16일 금요일 | 작업 영역의 새 날짜 범위 사전 설정입니다. 4개의 새 날짜 범위를 추가함: ([!UICONTROL 이번 주/월/분기/연도 (오늘 제외)]). 오늘부터 하루의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
 | **2020년 6월** | |
-| 2020년 6월 25일 | 작업 영역의 [빠른 인사이트 패널](/help/analyze/analysis-workspace/c-panels/quickinsight.md)에 대한 새로운 설명서입니다. Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. |
-| 2020년 6월 25일 | 작업 영역의 [Analytics for Target 패널](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)에 대한 새로운 설명서입니다. 이를 통해 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. |
-| 2020년 6월 18일 | [속성: 알고리즘 속성](/help/analyze/analysis-workspace/attribution/algorithmic.md)에 대한 새로운 설명서 |
-| 2020년 6월 18일 | [속성: 사용자 정의 전환 확인 기간](/help/analyze/analysis-workspace/attribution/models.md#lookback-windows)에 대한 새로운 설명서 |
-| 2020년 6월 18일 | 공유 Workspace 프로젝트의 [프로젝트 역할](/help/analyze/analysis-workspace/curate-share/share-projects.md)에 대한 새로운 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). |
-| 2020년 6월 18일 | [“보기 전용” Workspace 프로젝트](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)에 대한 새로운 설명서입니다. 프로젝트는 “조회 가능”으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. |
-| 2020년 6월 18일 | 공유 Workspace 프로젝트의 [프로젝트 역할](/help/analyze/analysis-workspace/curate-share/share-projects.md)에 대한 새로운 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). |
-| 2020년 6월 18일 | [공동 편집 Workspace 프로젝트](/help/analyze/analysis-workspace/curate-share/share-projects.md)에 대한 새로운 설명서입니다. “편집 가능” 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. |
+| 2020년 6월 25일 금요일 | 작업 영역의 [빠른 인사이트 패널](/help/analyze/analysis-workspace/c-panels/quickinsight.md)에 대한 새로운 설명서입니다. Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. |
+| 2020년 6월 25일 금요일 | 작업 영역의 [Analytics for Target 패널](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)에 대한 새로운 설명서입니다. 이를 통해 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. |
+| 2020년 6월 18일 금요일 | [속성: 알고리즘 속성](/help/analyze/analysis-workspace/attribution/algorithmic.md)에 대한 새로운 설명서 |
+| 2020년 6월 18일 금요일 | [속성: 사용자 정의 전환 확인 기간](/help/analyze/analysis-workspace/attribution/models.md#lookback-windows)에 대한 새로운 설명서 |
+| 2020년 6월 18일 금요일 | 공유 Workspace 프로젝트의 [프로젝트 역할](/help/analyze/analysis-workspace/curate-share/share-projects.md)에 대한 새로운 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). |
+| 2020년 6월 18일 금요일 | [“보기 전용” Workspace 프로젝트](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)에 대한 새로운 설명서입니다. 프로젝트는 “조회 가능”으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. |
+| 2020년 6월 18일 금요일 | 공유 Workspace 프로젝트의 [프로젝트 역할](/help/analyze/analysis-workspace/curate-share/share-projects.md)에 대한 새로운 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). |
+| 2020년 6월 18일 금요일 | [공동 편집 Workspace 프로젝트](/help/analyze/analysis-workspace/curate-share/share-projects.md)에 대한 새로운 설명서입니다. “편집 가능” 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. |
 | **2020년 5월** |  |
-| 2020년 5월 31일 | [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)에 대한 새로운 설명서 |
-| 2020년 5월 21일 | [Adobe Analytics 대시보드](/help/analyze/mobile-app/home.md)에 대한 새로운 설명서 |
-| 2020년 5월 21일 | 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 Analysis Workspace의 [접근성 향상](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md)에 대한 새로운 설명서입니다. |
+| 2020년 5월 31일 월요일 | [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)에 대한 새로운 설명서 |
+| 2020년 5월 21일 금요일 | [Adobe Analytics 대시보드](/help/analyze/mobile-app/home.md)에 대한 새로운 설명서 |
+| 2020년 5월 21일 금요일 | 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 Analysis Workspace의 [접근성 향상](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md)에 대한 새로운 설명서입니다. |
 | **2020년 4월** |  |
-| 2020년 4월 28일 | [콘텐츠 속도](/help/components/metrics/content-velocity.md) 지표에 대한 설명서가 추가되었습니다. |
-| 2020년 4월 16일 | 빈 상태에서 [!UICONTROL 자유 형식 테이블]을 자동으로 작성하는 방법에 대한 설명서입니다. 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 드롭할 수 없었습니다. 자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 드롭할 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 작성됩니다. 또한 빈 [!UICONTROL 자유 형식 테이블]에 함께 드롭할 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
+| 2020년 4월 28일 수요일 | [콘텐츠 속도](/help/components/metrics/content-velocity.md) 지표에 대한 설명서가 추가되었습니다. |
+| 2020년 4월 16일 금요일 | 빈 상태에서 [!UICONTROL 자유 형식 테이블]을 자동으로 작성하는 방법에 대한 설명서입니다. 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 드롭할 수 없었습니다. 자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 드롭할 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 작성됩니다. 또한 빈 [!UICONTROL 자유 형식 테이블]에 함께 드롭할 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
 | **2020년 3월** |  |
-| 2020년 3월 12일 | [Experience Cloud에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)에 대한 업데이트가 추가되었습니다. |
-| 2020년 3월 12일 | CDA 결합 지연에 대한 업데이트. |
-| 2020년 3월 12일 | 작업 영역에서 여러 보고서 세트를 지원합니다. 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와서 나란히 볼 수 있습니다. [자세히 알아보기...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
-| 2020년 3월 12일 | 작업 영역의 교육용 튜토리얼 템플릿입니다. 이 새로운 표준 템플릿은 작업 영역에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다. [자세히 알아보기...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| 2020년 3월 12일 금요일 | [Experience Cloud에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)에 대한 업데이트가 추가되었습니다. |
+| 2020년 3월 12일 금요일 | CDA 결합 지연에 대한 업데이트. |
+| 2020년 3월 12일 금요일 | 작업 영역에서 여러 보고서 세트를 지원합니다. 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와서 나란히 볼 수 있습니다. [자세히 알아보기...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
+| 2020년 3월 12일 금요일 | 작업 영역의 교육용 튜토리얼 템플릿입니다. 이 새로운 표준 템플릿은 작업 영역에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다. [자세히 알아보기...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 | **2020년 2월** |  |
 | 2020년 2월 27일 | [Adobe Analytics Labs](/help/analyze/labs.md)에 대한 설명서가 추가되었습니다. |
 | 2020년 2월 25일 | [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 변수가 추가되었습니다. |
@@ -329,12 +329,12 @@ ht-degree: 98%
 | 2020년 2월 12일 | [이 작업 영역 페이지](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)에 새 핫키가 추가됨 |
 | 2020년 2월 7일 | [크로스 디바이스 분석 설정](/help/components/cda/setup.md) 및 [FAQ](/help/components/cda/faq.md)에 대한 업데이트 |
 | 2020년 2월 4일 | [구현 사용 안내서](/help/implement/home.md)의 전체적인 재작성. |
-| 2020년 1월 22일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
+| 2020년 1월 22일 목요일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
 | **2020년 1월** | |
-| 2020년 1월 24일 | 작업 영역의 [행 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=ko#cja-workspace) 페이지에 대한 업데이트입니다. |
-| 2020년 1월 16일 | [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 대한 새 설명서입니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 드래그 앤 드롭하여 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리보기**: 실제 데이터를 렌더링하기 전에 테이블의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 작업 영역에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_ (기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
-| 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)가 추가되었습니다. |
-| 2020년 1월 13일 | [어떤 Adobe Analytics 도구를 사용해야 합니까](/help/analyze/get-started/which-analytics-tool.md) 페이지를 수정했습니다. |
+| 2020년 1월 24일 토요일 | 작업 영역의 [행 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace) 페이지에 대한 업데이트입니다. |
+| 2020년 1월 16일 금요일 | [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 대한 새 설명서입니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 드래그 앤 드롭하여 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리보기**: 실제 데이터를 렌더링하기 전에 테이블의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 작업 영역에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_ (기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
+| 2020년 1월 13일 화요일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)가 추가되었습니다. |
+| 2020년 1월 13일 화요일 | [어떤 Adobe Analytics 도구를 사용해야 합니까](/help/analyze/get-started/which-analytics-tool.md) 페이지를 수정했습니다. |
 
 ### 2019 {#year2019}
 
@@ -345,33 +345,33 @@ ht-degree: 98%
 | 2019년 11월 25일 | IP 로그인 제한 적용의 기간 종료에 대한 새로운 주제입니다. |
 | 2019년 11월 21일 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko-KR)용 새로운 설명서 세트 |
 | 2019년 11월 21일 | LiveStream에서의 가용성을 나타내기 위해 [Audience Analytics 워크플로 FAQ](/help/integrate/c-audience-analytics/mc-audiences-faqs.md)가 업데이트되었습니다. |
-| 2019년 10월 25일 | [Adobe Analytics 주요 개념](/help/technotes/terms.md) 페이지가 업데이트되었습니다. |
-| 2019년 10월 10일 | 자유 형식 테이블 업데이트: 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)를 처리합니다. 이전에는 세분화만 합계에 영향을 주었습니다. [자세히 알아보기](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트 (예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
+| 2019년 10월 25일 토요일 | [Adobe Analytics 주요 개념](/help/technotes/terms.md) 페이지가 업데이트되었습니다. |
+| 2019년 10월 10일 금요일 | 자유 형식 테이블 업데이트: 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)를 처리합니다. 이전에는 세분화만 합계에 영향을 주었습니다. [자세히 알아보기](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트 (예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
 | 2019년 10월 10일 | 작업 영역에서 “지정되지 않음(없음)”을 쉽게 제거하는 기능이 보고서 필터의 옵션으로 추가되었습니다. |
 | 2019년 10월 10일 | Workspace에서 자주색 세부 기간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
-| 2019년 10월 1일 | [작업 영역 합계](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko#cja-workspace)에 대한 새 문서입니다. |
-| 2019년 9월 28일 | [JavaScript 구현용 구성 변수](/help/implement/vars/config-vars/configuration-variables.md)에 대한 새로운 문서 |
-| 2019년 9월 19일 | [논리 그룹 컨테이너](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md#logic-group-containers)를 설명하기 위해 세분화 문서를 수정했습니다. |
-| 2019년 9월 12일 | [크로스 디바이스 분석](/help/components/cda/overview.md)에 대한 새로운 설명서 |
-| 2019년 9월 12일 | [계산된 지표 합계](/help/components/calculated-metrics/cm-totals.md) 문서를 업데이트합니다. |
-| 2019년 8월 28일 | [Analytics용 점진적 웹 앱(PWA)](/help/technotes/pwa.md)에 대한 새로운 문서 |
-| 2019년 8월 8일 | [계산된 지표 합계](/help/components/calculated-metrics/cm-totals.md)에 대한 새 문서 |
-| 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md)에 대한 설명 |
-| 2019년 8월 8일 | 작업 영역에서 Adobe는 정적 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 사용 사례를 포용합니다. |
-| 2019년 8월 2일 | [Analytics 용어집](/help/technotes/terms.md)에 대한 주요 업데이트 |
-| 2019년 7월 22일 | 추가된 Magento: 마케팅 및 상거래 템플릿을 [Analysis Workspace 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 문서로 이동합니다. |
-| 2019년 7월 18일 | [코호트 테이블 설정](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)이 업데이트되었습니다. |
-| 2019년 7월 18일 | 작업 영역의 왼쪽 레일에서 이제 사용자는 _지난 18개월 동안의 항목을 표시_&#x200B;할 수 있습니다. 이전에는 되돌아보기 기간이 최대 6개월이었습니다. 이를 통해 최대 18개월 전, 전년도의 페이지 또는 캠페인과 더욱 쉽게 비교할 수 있습니다. |
-| 2019년 7월 18일 | Analysis Workspace에 대한 [“Magento: 마케팅 및 상거래”](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)라는 새 작업 영역 템플릿에 대한 설명서입니다. Magento 전자 상거래 고객을 위해 특별히 고안되었지만 모든 소매업체는 이를 통해 상거래 활동에 대한 고유한 인사이트를 얻을 수 있습니다. |
-| 2019년 6월 13일 | 작업 영역의 왼쪽 레일 검색에 바로 사용할 수 있는 새로운 필터가 추가되었습니다. 현재 표시되는 항목 (차원, 지표, 승인됨 등) 외에도 계산된 지표, 고객 속성, eVar, Props, 비디오 등의 새로운 필터가 추가되었으므로 필요한 구성 요소를 찾기가 쉬워집니다. |
-| 2019년 6월 4일 | [서드파티 분석 플랫폼에서 Adobe Analytics로 전환](/help/technotes/ga-to-aa/home.md)이라는 새 안내서가 작성되었습니다. |
-| 2019년 5월 30일 | [데이터 피드 열 참조](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 대한 점검입니다. |
-| 2019년 5월 9일 | 새 설정은 플로우 시각화 설정에 추가되었습니다. 반복 인스턴스 포함 [플로우 설정](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) 참조 |
-| 2019년 4월 11일 | 작업 영역 최적화 모범 사례 개선 사항: 성능 최적화 |
-| 2019년 4월 11일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)에 대한 업데이트입니다. |
-| 2019년 3월 14일 | 지역 데이터 수집에 대한 주요 업데이트입니다. |
+| 2019년 10월 1일 수요일 | [작업 영역 합계](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace)에 대한 새 문서입니다. |
+| 2025년 9월 4일 | [JavaScript 구현용 구성 변수](/help/implement/vars/config-vars/configuration-variables.md)에 대한 새로운 문서 |
+| 2019년 9월 19일 금요일 | [논리 그룹 컨테이너](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md#logic-group-containers)를 설명하기 위해 세분화 문서를 수정했습니다. |
+| 2019년 9월 12일 금요일 | [크로스 디바이스 분석](/help/components/cda/overview.md)에 대한 새로운 설명서 |
+| 2019년 9월 12일 금요일 | [계산된 지표 합계](/help/components/calculated-metrics/cm-totals.md) 문서를 업데이트합니다. |
+| 2019년 8월 28일 목요일 | [Analytics용 점진적 웹 앱(PWA)](/help/technotes/pwa.md)에 대한 새로운 문서 |
+| 2019년 8월 8일 금요일 | [계산된 지표 합계](/help/components/calculated-metrics/cm-totals.md)에 대한 새 문서 |
+| 2019년 8월 8일 금요일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md)에 대한 설명 |
+| 2019년 8월 8일 금요일 | 작업 영역에서 Adobe는 정적 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 사용 사례를 포용합니다. |
+| 2019년 8월 2일 토요일 | [Analytics 용어집](/help/technotes/terms.md)에 대한 주요 업데이트 |
+| 2019년 7월 22일 화요일 | 추가된 Magento: 마케팅 및 상거래 템플릿을 [Analysis Workspace 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 문서로 이동합니다. |
+| 2019년 7월 18일 금요일 | [코호트 테이블 설정](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)이 업데이트되었습니다. |
+| 2019년 7월 18일 금요일 | 작업 영역의 왼쪽 레일에서 이제 사용자는 _지난 18개월 동안의 항목을 표시_&#x200B;할 수 있습니다. 이전에는 되돌아보기 기간이 최대 6개월이었습니다. 이를 통해 최대 18개월 전, 전년도의 페이지 또는 캠페인과 더욱 쉽게 비교할 수 있습니다. |
+| 2019년 7월 18일 금요일 | Analysis Workspace에 대한 [“Magento: 마케팅 및 상거래”](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)라는 새 작업 영역 템플릿에 대한 설명서입니다. Magento 전자 상거래 고객을 위해 특별히 고안되었지만 모든 소매업체는 이를 통해 상거래 활동에 대한 고유한 인사이트를 얻을 수 있습니다. |
+| 2019년 6월 13일 금요일 | 작업 영역의 왼쪽 레일 검색에 바로 사용할 수 있는 새로운 필터가 추가되었습니다. 현재 표시되는 항목 (차원, 지표, 승인됨 등) 외에도 계산된 지표, 고객 속성, eVar, Props, 비디오 등의 새로운 필터가 추가되었으므로 필요한 구성 요소를 찾기가 쉬워집니다. |
+| 2019년 6월 4일 수요일 | [서드파티 분석 플랫폼에서 Adobe Analytics로 전환](/help/technotes/ga-to-aa/home.md)이라는 새 안내서가 작성되었습니다. |
+| 2019년 5월 30일 금요일 | [데이터 피드 열 참조](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 대한 점검입니다. |
+| 2019년 5월 9일 금요일 | 새 설정은 플로우 시각화 설정에 추가되었습니다. 반복 인스턴스 포함 [플로우 설정](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) 참조 |
+| 2019년 4월 11일 금요일 | 작업 영역 최적화 모범 사례 개선 사항: 성능 최적화 |
+| 2019년 4월 11일 금요일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)에 대한 업데이트입니다. |
+| 2019년 3월 14일 금요일 | 지역 데이터 수집에 대한 주요 업데이트입니다. |
 | 2019년 2월 7일 | [일반 계정 설정](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)의 “IP 주소의 마지막 옥텟을 0으로 바꾸기” 및 “IP 난독 처리” 설정에 대한 부분 업데이트입니다. |
 | 2019년 2월 1일 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 구현 플러그인에 대한 주요 업데이트입니다. |
-| 2019년 1월 17일 | [코호트 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 코호트 분석의 주요 개선 사항을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>코호트 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 코호트 계산을 수행합니다. 원래 코호트가 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
-| 2019년 1월 17일 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). 이 새 설정을 사용하면 자유 형식 테이블 및 코호트 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
-| 2019년 1월 17일 | [속성에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution/overview.md). Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVar 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 속성을 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
+| 2019년 1월 17일 금요일 | [코호트 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 코호트 분석의 주요 개선 사항을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>코호트 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 코호트 계산을 수행합니다. 원래 코호트가 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
+| 2019년 1월 17일 금요일 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). 이 새 설정을 사용하면 자유 형식 테이블 및 코호트 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
+| 2019년 1월 17일 금요일 | [속성에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution/overview.md). Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVar 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 속성을 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |

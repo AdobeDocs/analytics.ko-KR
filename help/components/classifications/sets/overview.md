@@ -3,7 +3,7 @@ title: 분류 세트 개요
 description: 분류 세트를 사용하여 분류 데이터를 관리하는 방법을 알아봅니다. 분류 세트가 이전 분류와 어떻게 다른지 이해합니다.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 분류 세트 개요
 
-분류 세트는 분류 및 규칙을 관리할 수 있는 단일 인터페이스를 제공합니다. 이 워크플로는 [보고서 세트 설정](/help/admin/tools/manage-rs/report-suites-admin.md)의 분류 만들기와 [분류 가져오기](/help/components/classifications/sets/manage/set-manager.md)를 결합합니다. 그 결과 분류 데이터를 만들고 관리할 수 있는 직관적인 단일 인터페이스가 탄생했습니다.
+분류 세트는 분류 및 규칙을 관리할 수 있는 단일 인터페이스를 제공합니다. 이 워크플로는 [보고서 세트 설정](/help/admin/tools/manage-rs/report-suites-admin.md)의 분류 만들기와 [분류 가져오기](/help/components/classifications/sets/set-manager.md)를 결합합니다. 그 결과 분류 데이터를 만들고 관리할 수 있는 직관적인 단일 인터페이스가 탄생했습니다.
 
 
 ## 분류 세트 및 이전 분류
@@ -46,7 +46,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 
 분류 세트는 세 가지 기능 영역으로 구성됩니다.
 
-* [**[!UICONTROL 분류 세트]**](manage/set-manager.md): 분류 세트를 작성, 편집 및 삭제합니다.
+* [**[!UICONTROL 분류 세트]**](set-manager.md): 분류 세트를 작성, 편집 및 삭제합니다.
 * [**[!UICONTROL 작업]**](job-manager.md): 분류 세트 작업의 상태를 봅니다.
 * [**[!UICONTROL 통합]**](consolidations/manage.md): 여러 분류 세트를 단일 분류 세트로 결합합니다.
 
@@ -56,7 +56,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 분류 세트의 워크플로는 일반적으로 다음 단계를 포함합니다.
 
 1. 분류 세트를 만들려는 보고서 세트 및 차원 조합을 고려합니다. 예를 들어, 더 자세한 정보를 사용하여 제품을 분류하고자 하는 모든 보고서 세트에 대해 생성하는 제품 분류 세트를 정의할 수 있습니다. 예를 들어 카테고리와 색상 등의 세부 사항이 있습니다.
-1. 하나 이상의 보고서 세트와 제품을 식별하는 키 차원 조합에 대한 구독이 포함된 [분류 세트를 만듭니다](/help/components/classifications/sets/manage/create.md). 예:
+1. 하나 이상의 보고서 세트와 제품을 식별하는 키 차원 조합에 대한 구독이 포함된 [분류 세트를 만듭니다](/help/components/classifications/sets/create.md). 예:
 
    | 보고서 세트 | 주요 차원 |
    |---|---|
