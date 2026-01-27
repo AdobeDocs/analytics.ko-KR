@@ -50,7 +50,7 @@ ht-degree: 3%
 1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.
 1. 분류 세트의 이름을 선택합니다.
-1. **[!UICONTROL 분류 세트: _분류 세트 이름_]**대화 상자에서 분류 세트에 대한 [설정](manage/settings.md) 및 [스키마](manage/schema.md)을(를) 정의할 수 있습니다.
+1. **[!UICONTROL 분류 세트: _분류 세트 이름_]**&#x200B;대화 상자에서 분류 세트에 대한 [설정](manage/settings.md) 및 [스키마](manage/schema.md)을(를) 정의할 수 있습니다.
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 내용을 저장합니다. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
 
