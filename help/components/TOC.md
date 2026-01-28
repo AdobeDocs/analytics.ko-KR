@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: bc07745771f6e1b1228f4d77ff8e89130b90ebef
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '736'
 ht-degree: 99%
 
 ---
@@ -284,7 +284,7 @@ ht-degree: 99%
       + 분류 가져오기 도구 {#classifications-importer}
          + [개요](classifications/importer/c-working-with-saint.md)
          + [데이터 파일](classifications/importer/c-saint-data-files.md)
-         + [분류 데이터 삭제](classifications/importer/t-delete-classification-data.md)
+         + [데이터 삭제](classifications/importer/t-delete-classification-data.md)
          + [템플릿](classifications/importer/c-download-saint-data.md)
          + [브라우저 가져오기](classifications/importer/browser-import.md)
          + [브라우저 내보내기](classifications/importer/browser-export.md)
