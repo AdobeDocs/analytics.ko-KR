@@ -3,7 +3,7 @@ title: 분류 통합 생성 및 편집
 description: 분류 통합을 만들고, 검증하고, 실행하고, 승인하고, 취소하는 방법에 대해 설명합니다.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 1%
@@ -56,27 +56,6 @@ ht-degree: 1%
 
 
 
-<!--
-         
-  
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]** > **[!UICONTROL Add]**
-
-The following fields are available when creating a consolidation:
-
-* **[!UICONTROL Name]**: The name of the consolidation.
-* **[!UICONTROL Notify of issues]**: A comma-delimited list of email addresses that are notified of issues with this consolidation.
-* **[!UICONTROL Dataset to match]**: A drop-down list of all classification sets.
-
-Once you select a classification set, a table with two columns appears:
-
-* The right column contains all classification sets that you want to consolidate. It starts with the classification set selected using the above drop-down list.
-* The left column contains all classification sets eligible to be merged with the originally selected dataset. **Schemas must exactly match to be eligible for consolidation**. If schemas do not match the selected classification set, they do not appear in this left column.
-
-Drag the desired classification sets from the available column on the left to the consolidation column on the right. Once the consolidation is given a name and two or more classification sets are in the right column, click **[!UICONTROL Save & Continue]**.
-
--->
-
 ## 통합 편집 {#edit-a-classification}
 
 >[!CONTEXTUALHELP]
@@ -94,7 +73,7 @@ Drag the desired classification sets from the available column on the left to th
 1. **[!UICONTROL 구성 요소]** 메뉴에서 **[!UICONTROL 분류 집합]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 분류 세트]** 관리자에서 **[!UICONTROL 통합]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트 통합]** 관리자에서:
-   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**&#x200B;대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
+   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
 
       | 사용 가능한 작업 | 설명 |
       |---|---|

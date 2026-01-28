@@ -3,7 +3,7 @@ title: 분류 세트 통합 관리
 description: 하나 이상의 분류 세트를 단일 분류 세트로 통합하는 방법을 알아봅니다.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 3%
@@ -86,33 +86,3 @@ Adobe Analytics에서 분류 세트 통합 관리자를 보려면 제품 관리�
 필터 패널을 숨기려면 ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 필터 숨기기]**&#x200B;를 선택하십시오.
 
 [필터] 패널에 표시된 필터는 미리 로드된 분류 통합에 대한 옵션을 반영합니다.
-
-
-<!--
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
-
-Once a consolidation is run, the original classification sets are removed, with the consolidated classification set taking their place. Click **[!UICONTROL Add]** to [Create a consolidation](process.md).
-
-## Filter classification sets
-
-The left side of the Classification set consolidation manager provides filter settings to locate the desired consolidation. Clicking the filter icon toggles the filter settings visibility. You can filter consolidations by **[!UICONTROL Status]**, **[!UICONTROL Completion time]**, or **[!UICONTROL Creation time]**.
-
-![Classification set consolidation filters](../../assets/classification-set-consolidation-filters.png)
-
-Additional filter options are available above the Classification set consolidation manager columns:
-
-* **[!UICONTROL Search by title]**: Search for consolidations by name.
-* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Name].
-
-## Classification set consolidation manager columns
-
-The following columns are available in the Classification set consolidation manager:
-
-* **[!UICONTROL Name]**: The name of the consolidation.
-* **[!UICONTROL Current job]**: The current job. 
-* **[!UICONTROL Status]**: The status of the consolidation. 
-* **[!UICONTROL Creation date]**: The date and time that the consolidation was created.
-* **[!UICONTROL Completion date]**: The date and time that the consolidation completed (or failed).
-
--->

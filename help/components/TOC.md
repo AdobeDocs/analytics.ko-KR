@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '737'
 ht-degree: 99%
 
 ---
@@ -277,15 +277,15 @@ ht-degree: 99%
    + 이전 분류 {#legacy-classifications}
       + 분류 규칙 빌더 {#classifications-rulebuilder}
          + [개요](classifications/crb/classification-rule-builder.md)
-         + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
-         + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
-         + [분류 규칙 정의](classifications/crb/classification-rule-definitions.md)
-         + [하위 분류 및 규칙 빌더](classifications/crb/subclassification-rule-builder.md)
+         + [규칙 세트](classifications/crb/classification-rule-set.md)
+         + [규칙](classifications/crb/classification-quickstart-rules.md)
+         + [규칙 정의](classifications/crb/classification-rule-definitions.md)
+         + [하위 분류](classifications/crb/subclassification-rule-builder.md)
       + 분류 가져오기 도구 {#classifications-importer}
-         + [분류 가져오기 도구 개요](classifications/importer/c-working-with-saint.md)
-         + [분류 데이터 파일](classifications/importer/c-saint-data-files.md)
+         + [개요](classifications/importer/c-working-with-saint.md)
+         + [데이터 파일](classifications/importer/c-saint-data-files.md)
          + [분류 데이터 삭제](classifications/importer/t-delete-classification-data.md)
-         + [분류 템플릿](classifications/importer/c-download-saint-data.md)
+         + [템플릿](classifications/importer/c-download-saint-data.md)
          + [브라우저 가져오기](classifications/importer/browser-import.md)
          + [브라우저 내보내기](classifications/importer/browser-export.md)
          + [FTP 가져오기](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
@@ -310,3 +310,4 @@ ht-degree: 99%
    + [마케팅 채널 분석](c-marketing-channels/analyze-mc.md)
    + [마케팅 채널 권한](c-marketing-channels/c-channel-report-access.md)
    + [마케팅 채널 FAQ 및 예제](c-marketing-channels/c-faq.md)
+
