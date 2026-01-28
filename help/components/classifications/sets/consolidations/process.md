@@ -3,7 +3,7 @@ title: 분류 통합 생성 및 편집
 description: 분류 통합을 만들고, 검증하고, 실행하고, 승인하고, 취소하는 방법에 대해 설명합니다.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 1%
@@ -77,14 +77,24 @@ Drag the desired classification sets from the available column on the left to th
 
 -->
 
-## 통합 편집
+## 통합 편집 {#edit-a-classification}
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="불일치"
+>abstract="통합 분류 세트의 값이 소스 분류 세트와 일치하지 않는 경우 키 불일치율의 백분율을 구합니다."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="없음"
+>abstract="통합 분류 세트에 있지만 소스 분류 세트에는 없는 키의 백분율입니다."
 
 분류 통합을 편집하려면 기본 Adobe Analytics 인터페이스에서 다음을 수행합니다.
 
 1. **[!UICONTROL 구성 요소]** 메뉴에서 **[!UICONTROL 분류 집합]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 분류 세트]** 관리자에서 **[!UICONTROL 통합]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트 통합]** 관리자에서:
-   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**&#x200B;대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
+   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
 
       | 사용 가능한 작업 | 설명 |
       |---|---|
@@ -124,18 +134,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
 1. 대화 상자를 닫으려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
 
-### 승인 {#approve}
-
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_mismatch"
->title="불일치"
->abstract="통합 분류 세트의 값이 소스 분류 세트와 일치하지 않는 경우 키 불일치율의 백분율을 구합니다."
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_absent"
->title="없음"
->abstract="통합 분류 세트에 있지만 소스 분류 세트에는 없는 키의 백분율입니다."
+### 승인
 
 분류 통합이 실행되면 통합 상태는 ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL 승인 대기 중]**&#x200B;입니다. 분류 통합을 승인하면 개별 분류 세트가 통합된 분류 세트로 대체되며 개별 분류 세트가 제거됩니다.
 

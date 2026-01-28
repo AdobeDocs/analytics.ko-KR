@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -272,8 +272,8 @@ ht-degree: 99%
          + [규칙](classifications/sets/manage/rules.md)
       + [분류 작업](classifications/sets/job-manager.md)
       + 분류 통합 {#consolidations}
-         + [관리](classifications/sets/consolidations/manage.md)
          + [만들기 및 편집](classifications/sets/consolidations/process.md)
+         + [관리](classifications/sets/consolidations/manage.md)
    + 이전 분류 {#legacy-classifications}
       + 분류 규칙 빌더 {#classifications-rulebuilder}
          + [개요](classifications/crb/classification-rule-builder.md)
