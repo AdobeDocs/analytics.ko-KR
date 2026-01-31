@@ -23,7 +23,7 @@ ht-degree: 94%
 
 ## XDM 오브젝트 필드 매핑
 
-이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)에서 확인할 수 있습니다.
+이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.ko-KR/commits/main/help/implement/aep-edge/xdm-var-mapping.md)에서 확인할 수 있습니다.
 
 | XDM 필드 경로 | Analytics 변수 및 설명 |
 | --- | --- |
