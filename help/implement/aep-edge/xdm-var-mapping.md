@@ -1,17 +1,17 @@
 ---
-title: Adobe Analytics로 XDM 오브젝트 변수 매핑
+title: Adobe Analytics에 대한 XDM 개체 필드 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: b3546e67cccc37cbdb89db2e80b3b34b2dbe417b
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 100%
+source-wordcount: '1470'
+ht-degree: 94%
 
 ---
 
-# Adobe Analytics로 XDM 오브젝트 변수 매핑
+# Adobe Analytics에 대한 XDM 개체 필드 매핑
 
 다음 테이블에서는 Adobe Experience Platform Edge Network를 Adobe Analytics에 자동으로 매핑하는 XDM 변수를 보여 줍니다. 이러한 XDM 필드 경로를 사용하는 경우 Adobe Analytics로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다. 이러한 필드는 **[!UICONTROL Adobe Analytics ExperienceEvent 템플릿]** 필드 그룹에 포함됩니다. 데이터를 Adobe Analytics와 Adobe Experience Platform에 전송하려는 경우 이러한 필드를 사용하는 것이 좋습니다.
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 ## 값 우선순위
 
-이 테이블의 XDM 오브젝트 필드는 대부분 [데이터 오브젝트 필드](data-var-mapping.md)와 일치합니다. 지정된 XDM 오브젝트 필드와 해당 데이터 오브젝트 필드를 모두 설정하면 데이터 오브젝트 필드가 우선합니다. Adobe XDM 오브젝트 필드와 데이터 오브젝트 필드를 모두 사용하는 경우 데이터 오브젝트 필드를 사용하여 사용자 정의 이벤트를 설정하는 것이 좋습니다. 필드 `data.__adobe.analytics.events`가 있으면 상거래 및 사용자 정의 이벤트와 관련된 모든 XDM 오브젝트 필드를 덮어씁니다.
+이 테이블의 대부분의 XDM 개체 필드는 [매핑된 데이터 개체 필드](data-var-mapping.md)에 해당합니다. Adobe Analytics 수집 중에 값은 먼저 XDM에서 Analytics 변수로 매핑됩니다. 인식된 데이터 개체 필드는 매핑되며 동일한 Analytics 변수에 매핑될 때 이전에 설정된 모든 값을 덮어씁니다. 예를 들어 `data.__adobe.analytics.events`이(가) 있으면 XDM에서 파생되는 전체 이벤트 집합이 대체됩니다. 이벤트는 두 소스 모두에서 결합되지 않습니다.
 
 ## XDM 오브젝트 필드 매핑
 
-이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.ko-KR/commits/main/help/implement/aep-edge/xdm-var-mapping.md)에서 확인할 수 있습니다.
+이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)에서 확인할 수 있습니다.
 
 | XDM 필드 경로 | Analytics 변수 및 설명 |
 | --- | --- |

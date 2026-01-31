@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. 수집할 데이터를 사용자 정의하여 Analytics 데이터에서 더 많은 것을 얻을 수 있습니다.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -64,7 +64,7 @@ ht-degree: 100%
       + [동적 변수](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
       + [eVar (머천다이징)](vars/page-vars/evar-merchandising.md)
-      + 이벤트 {#events}
+      + events {#events}
          + [이벤트 개요](vars/page-vars/events/events-overview.md)
          + [구매 이벤트](vars/page-vars/events/event-purchase.md)
          + [이벤트 직렬화](vars/page-vars/events/event-serialization.md)
@@ -80,7 +80,7 @@ ht-degree: 100%
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [server](vars/page-vars/server.md)
       + [state](vars/page-vars/state.md)
-      + [timestamp](vars/page-vars/timestamp.md)
+      + [타임스탬프](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
    + 함수 및 메서드 {#functions}
@@ -148,8 +148,8 @@ ht-degree: 100%
    + [기존 Adobe Analytics 구현 관리](prepare/existing-implementation.md)
 + Experience Platform Edge를 사용하여 Analytics 구현 {#aep-edge}
    + [Experience Edge 개요](aep-edge/overview.md)
-   + [데이터 오브젝트 변수 매핑](aep-edge/data-var-mapping.md)
-   + [XDM 오브젝트 변수 매핑](aep-edge/xdm-var-mapping.md)
+   + [데이터 오브젝트 필드 매핑](aep-edge/data-var-mapping.md)
+   + [XDM 오브젝트 필드 매핑](aep-edge/xdm-var-mapping.md)
    + [Edge Network 이벤트 유형](aep-edge/hit-types.md)
    + Web SDK {#web-sdk}
       + [Web SDK 개요](aep-edge/web-sdk/overview.md)

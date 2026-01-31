@@ -1,31 +1,31 @@
 ---
-title: Adobe Analytics로 데이터 오브젝트 변수 매핑
+title: Adobe Analytics에 대한 데이터 개체 필드 매핑
 description: Experience Platform Edge가 자동으로 분석 변수에 매핑되는 데이터 오브젝트 필드를 확인합니다.
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
+source-git-commit: b3546e67cccc37cbdb89db2e80b3b34b2dbe417b
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 77%
 
 ---
 
-# Adobe Analytics로 데이터 오브젝트 변수 매핑
+# Adobe Analytics에 대한 데이터 개체 필드 매핑
 
-다음 테이블에서는 Adobe Experience Platform Edge Network를 Adobe Analytics에 자동으로 매핑하는 데이터 오브젝트 변수를 보여 줍니다. 이러한 데이터 오브젝트 필드 경로를 사용하는 경우 Adobe Analytics로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다.
+다음 표는 Adobe Experience Platform Edge Network이 Adobe Analytics에 자동으로 매핑하는 데이터 개체 필드를 보여줍니다. 이러한 데이터 오브젝트 필드 경로를 사용하는 경우 Adobe Analytics로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다.
 
 향후 Customer Journey Analytics를 사용하려는 경우 이러한 필드를 사용하는 것이 좋습니다. 이 구현 방법을 사용하면 조직이 XDM 스키마를 준수하지 않고 웹 SDK를 사용하여 Adobe로 데이터를 전송할 수 있습니다. 조직에서 Adobe Experience Platform으로 데이터를 보낼 준비가 되면 [데이터 스트림 매핑](https://experienceleague.adobe.com/kr/docs/experience-platform/datastreams/data-prep#mapping)을 사용하여 해당 XDM 필드로 데이터 오브젝트 필드를 지정할 수 있습니다.
 
 ## 값 우선순위
 
-이 테이블의 데이터 오브젝트 필드는 대부분 [매핑된 XDM 필드](xdm-var-mapping.md)와 일치합니다. 지정된 데이터 오브젝트 필드와 해당 XDM 필드를 모두 설정하면 데이터 오브젝트 필드가 우선합니다. 예를 들어 필드 `data.__adobe.analytics.events`가 있으면 모든 이벤트 관련 XDM 오브젝트 필드를 덮어씁니다.
+이 테이블의 데이터 개체 필드는 대부분 [매핑된 XDM 필드](xdm-var-mapping.md)에 해당합니다. Adobe Analytics 수집 중에 값은 먼저 XDM에서 Analytics 변수로 매핑됩니다. 인식된 데이터 개체 필드는 매핑되며 동일한 Analytics 변수에 매핑될 때 이전에 설정된 모든 값을 덮어씁니다. 예를 들어 `data.__adobe.analytics.events`이(가) 있으면 XDM에서 파생되는 전체 이벤트 집합이 대체됩니다. 이벤트는 두 소스 모두에서 결합되지 않습니다. 데이터 개체 필드의 빈 문자열(`""`)은 해당 XDM 필드에 값이 포함된 경우에도 히트에 대해 매핑된 Analytics 변수를 비워 둡니다.
 
 일부 데이터 오브젝트 필드는 해당 [쿼리 매개변수 값](../validate/query-parameters.md)도 축약 값으로 지원합니다. 표준 데이터 오브젝트 필드와 축약 데이터 오브젝트 필드는 각각 고유 변수에 해당하는 한 서로 교환하여 사용할 수 있습니다. 표준 데이터 오브젝트 필드와 각 축약 데이터 오브젝트 필드를 동시에 설정하지 마십시오. Adobe는 어떤 분야가 우선시되는지 보장할 수 없습니다.
 
 ## 데이터 오브젝트 필드 매핑
 
-이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.ko-KR/commits/main/help/implement/aep-edge/data-var-mapping.md)에서 확인할 수 있습니다. AppMeasurement 변수와 마찬가지로 모든 데이터 오브젝트 필드는 대/소문자를 구분합니다.
+이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)에서 확인할 수 있습니다. AppMeasurement 변수와 마찬가지로 모든 데이터 오브젝트 필드는 대/소문자를 구분합니다.
 
 | 데이터 오브젝트 필드 경로 | Analytics 변수 및 설명 |
 | --- | --- |
