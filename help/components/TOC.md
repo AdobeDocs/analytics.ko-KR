@@ -247,7 +247,7 @@ ht-degree: 98%
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
 + 크로스 디바이스 분석 {#cda}
    + [크로스 디바이스 분석 개요](cda/overview.md)
-   + [필드 기반 스티칭](cda/field-based-stitching.md)
+   + [필드 기반 결합](cda/field-based-stitching.md)
    + [디바이스 그래프](cda/device-graph.md)
    + [크로스 디바이스 분석 설정](cda/setup.md)
    + [재생 작동 방식](cda/replay.md)
