@@ -72,7 +72,7 @@ Report Builder 허브에는 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!U
 >
 >[보고서 세트 선택](select-report-suite.md)
 >[날짜 범위 선택](select-date-range.md)
->[필터 ](work-with-segments.md) 작업
+>[필터 &#x200B;](work-with-segments.md) 작업
 >
 
 <!--
