@@ -1,126 +1,90 @@
 ---
-title: Adobe Analytics의 Report Builder에서 데이터 범위를 선택하는 방법
-description: Report Builder for Adobe Analytics에서 달력, 순환 날짜 및 사용자 지정 표현식을 사용하는 방법을 설명합니다
+title: Report Builder에서 데이터 범위 선택
+description: Report Builder에서 날짜 범위를 선택하는 방법을 알아봅니다.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 85%
+source-wordcount: '853'
+ht-degree: 46%
 
 ---
 
 # 날짜 범위 선택
 
-기존 데이터 블록의 날짜 범위를 변경하려면 데이터 블록 편집을 선택하거나 빠른 편집 패널을 사용합니다.
+기존 데이터 블록의 날짜 범위를 변경하려면 다음을 수행합니다.
+
+- **[!UICONTROL 데이터 블록 편집]**&#x200B;을 선택하거나
+- **[!UICONTROL 빠른 편집]**&#x200B;에서 **[!UICONTROL 날짜 범위]** 링크를 선택하십시오.
 
 다음 옵션을 사용하여 데이터 블록의 날짜 범위를 변경할 수 있습니다.
 
-**달력**
+## 캘린더
 
-달력을 사용하면 다음 옵션을 사용하여 고정 날짜 또는 순환 날짜를 만들 수 있습니다.
+**[!UICONTROL 달력]** 옵션을 사용하면 다음 옵션을 사용하여 고정 날짜 또는 순환 날짜를 만들 수 있습니다.
 
-- 날짜 범위 필드
-- 달력
-- 사전 설정 드롭다운 메뉴
-- 순환 날짜 모드
-- 표현식 사용자 정의
+### 날짜 범위
 
+날짜 범위 필드는 데이터 블록 요청에 대한 현재 날짜 범위를 표시합니다. 날짜를 직접 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 지정할 수 있습니다.
 
-**셀에서**
+![날짜 범위 일정](assets/date-range-calendar.png){zoomable="yes"}
 
-**[!UICONTROL 셀에서]** 옵션을 사용하면 워크시트 셀에 입력된 날짜를 참조할 수 있습니다.
+### 사전 설정
 
-선택한 날짜 범위에서 오늘을 제외할 수 있습니다.
+사전 설정 드롭다운 메뉴를 사용하여 사전 설정을 선택합니다. 텍스트를 입력하여 사전 설정을 검색할 수도 있습니다.
 
-![달력이 선택되고 오늘 제외가 선택된 Report Builder 빠른 편집 창.](./assets/image17.png)
-
-## 달력 사용
-
-**달력**&#x200B;을 사용할 때 날짜 범위 필드는 데이터 블록 요청에 대한 현재 날짜 범위를 표시합니다. 날짜 범위 필드에 직접 날짜를 입력하거나 데이터 범위 선택 옵션을 사용할 수 있습니다.
-
-### 날짜 범위 필드
-
-날짜 범위 필드에 날짜를 직접 입력하려면
-
-1. 달력 아이콘 옆에 있는 날짜 범위 필드를 클릭합니다.
-
-1. 날짜 범위의 시작 날짜와 종료 날짜를 입력합니다.
-
-### 달력
-
-달력을 사용하여 날짜를 선택하려면
-
-1. 달력 아이콘을 클릭하면 월별 달력이 표시됩니다.
-
-1. 시작 날짜를 클릭합니다.
-
-1. 종료 날짜를 클릭합니다.
-
-날짜 범위를 반대로 설정하려면 먼저 종료 날짜를 클릭한 다음 시작 날짜를 클릭합니다.
-
-![일정, 종료 날짜 및 선택한 시작 날짜를 표시하는 Report Builder 날짜 범위 창](./assets/image18.png)
-
-### 사전 설정 드롭다운 메뉴
+![날짜 범위 사전 설정](assets/date-range-presets.png){zoomable="yes"}
 
 사전 설정 드롭다운 메뉴에는 저장한 보고서 세트 또는 사용자와 공유된 보고서 세트에 대한 사전 설정 날짜 범위 및 날짜 범위 구성 요소의 표준 세트가 포함됩니다.
 
 ### 순환 날짜
 
-순환 날짜 옵션을 사용하면 순환 날짜를 사용하여 날짜 범위를 선택할 수 있습니다.
+순환 일자를 정의하려면
 
-1. **순환 날짜 사용**&#x200B;을 선택합니다.
+![순환 날짜](assets/date-range-rolling-date.png){zoomable="yes"}
 
-1. 시작 및/또는 종료 날짜에 대한 순환 표현식을 선택합니다.
+1. **[!UICONTROL 순환 날짜 사용]**&#x200B;을 선택하여 순환 날짜 정의에 대한 논리를 정의합니다. 대괄호 안의 텍스트(예: **[!UICONTROL 고정된 시작 - 매일 롤링]**)를 선택하여 패널을 확장하고 **[!UICONTROL 시작]** 및 **[!UICONTROL 종료]**&#x200B;에 대한 세부 정보를 지정할 수 있습니다.
 
-   ![선택한 순환 날짜와 순환 식을 표시하는 Report Builder 날짜 범위 창입니다.](./assets/image19.png)
+1. **[!UICONTROL 시작]**, **[!UICONTROL 종료]** 또는 **[!UICONTROL 고정일]**&#x200B;을 선택합니다.
 
-   **시작 날짜** — 일, 주, 월, 분기 또는 연도의 시작을 선택할 수 있습니다.
+   - **[!UICONTROL 시작]** 또는 **[!UICONTROL 종료]**&#x200B;를 선택한 경우 전체 표현식을 작성할 수 있습니다. 예: **[!UICONTROL 현재 연도]** **[!UICONTROL 종료]** **[!UICONTROL +]** `1` **[!UICONTROL 일]**. 표현식의 각 개별 부분에 적합한 값을 선택합니다.
 
-   **종료 날짜** — 일, 주, 월, 분기 또는 연도의 종료를 선택할 수 있습니다.
+      - 현재 값을 선택합니다. 예: **[!UICONTROL 현재 연도]**.
+      - 선택적 추가 계산을 위한 값을 선택합니다. 예: **[!UICONTROL 더하기]**.
+      - 추가 계산이 지정된 경우 값을 지정합니다. (예: `1`)
+      - 추가 계산이 지정된 경우 계산에 사용할 기간을 선택합니다. 예: **[!UICONTROL 일]**.
 
-   **고정일** — 다른 날짜가 순환되는 동안 시작 또는 종료 날짜를 고정할 수 있습니다.
+   - **[!UICONTROL 고정 날짜]**&#x200B;를 선택한 경우 고정 날짜를 지정하거나 선택기를 사용하여 날짜를 선택하십시오.
 
-1. 순환 기간으로 일, 주, 월, 분기 또는 연도를 선택합니다.
+1. 순환 날짜 계산에 대한 세부 정보를 숨기려면 **[!UICONTROL 숨기기]**&#x200B;를 선택하십시오.
 
-   ![선택한 현재 날짜를 표시하는 Report Builder 날짜 범위 창](./assets/image20.png)
-
-1. 순환 날짜에서 일, 주, 월, 분기 또는 연도를 더하거나 뺍니다.
-
-   ![현재 날짜와 선택한 14일을 보여 주는 Report Builder 날짜 범위 창](./assets/image21.png)
-
-1. 다음을 클릭하여 데이터 범위를 정의합니다.
-
-   날짜 미리보기를 사용하여 결과 날짜 범위가 원하는 범위인지 확인합니다.
 
 ### 사용자 정의 표현식
 
 사용자 정의 표현식 옵션을 사용하면 사용자 정의 표현식을 작성하여 날짜 범위를 변경하거나 산술 공식을 입력할 수 있습니다.
 
-1. **순환 날짜 사용**&#x200B;을 선택합니다.
+![날짜 범위 사용자 지정 식](assets/date-range-custom-expression.png){zoomable="yes"}
 
-1. **사용자 정의 표현식**&#x200B;을 선택합니다.
+1. **[!UICONTROL 순환 날짜 사용]**&#x200B;을 선택합니다.
 
-   **사용자 정의 표현식 사용** 옵션을 선택하면 표준 순환 날짜 범위 컨트롤이 비활성화됩니다.
+1. **[!UICONTROL 사용자 정의 표현식]**&#x200B;을 선택합니다.
 
-   ![tm-1m에서 td-1d까지 표시하는 사용자 지정 식 사용을 선택합니다.](./assets/custom_expression.png)
+   **[!UICONTROL 사용자 지정 식 사용]**&#x200B;을 선택하면 표준 순환 날짜 범위 컨트롤이 비활성화됩니다.
 
-1. 사용자 정의 표현식을 입력합니다.
+1. [사용자 지정 식](#create-a-custom-expression)을 입력하세요.
 
-   사용자 정의 표현식의 샘플 목록은 **날짜 표현식**&#x200B;을 참조하십시오.
-
-1. 날짜 미리보기를 사용하여 결과 날짜 범위가 원하는 범위인지 확인합니다.
+1. **[!UICONTROL 날짜 미리 보기]**&#x200B;를 사용하여 결과 날짜 범위를 확인하세요.
 
 #### 사용자 지정 표현식 만들기
 
-1. **날짜 참조**&#x200B;를 입력합니다.
+1. [날짜 참조](#date-references)을(를) 입력하십시오.
 
-1. **날짜 연산자**&#x200B;를 추가하여 날짜를 과거 또는 미래로 이동합니다.
+1. 날짜를 과거 또는 미래로 이동하려면 선택적 [날짜 연산자](#date-operators)를 추가하십시오.
 
-여러 연산자(예: ```tm-11m-1d```)가 포함된 사용자 정의 날짜 표현식을 입력할 수 있습니다.
+여러 연산자(예: `tm-11m-1d`)가 포함된 사용자 지정 식을 입력할 수 있습니다.
 
 #### 날짜 참조
 
@@ -128,12 +92,12 @@ ht-degree: 85%
 
 | 날짜 참조 | 유형 | 설명 |
 |----------------|--------------|----------------------------|
-| 1/1/10 | 정적 날짜 | ISO 날짜 형식으로 입력됨 |
-| td | 순환 날짜 | 현재 날짜의 시작 |
-| tw | 순환 날짜 | 현재 주의 시작 |
-| tm | 순환 날짜 | 현재 월의 시작 |
-| tq | 순환 날짜 | 현재 분기의 시작 |
-| ty | 순환 날짜 | 현재 연도의 시작 |
+| `1/1/10` | 정적 날짜 | ISO 날짜 형식으로 입력됨 |
+| `td` | 순환 날짜 | 현재 날짜의 시작 |
+| `tw` | 순환 날짜 | 현재 주의 시작 |
+| `tm` | 순환 날짜 | 현재 월의 시작 |
+| `tq` | 순환 날짜 | 현재 분기의 시작 |
+| `ty` | 순환 날짜 | 현재 연도의 시작 |
 
 #### 날짜 연산자
 
@@ -141,11 +105,11 @@ ht-degree: 85%
 
 | 날짜 연산자 | 단위 | 설명 |
 |----------------|---------|--------------------|
-| +6d | 일 | 날짜 참조에 6일 추가 |
-| +1w | 주 | 날짜 참조에 1주일 추가 |
-| -2m | 월 | 날짜 참조에서 2개월 빼기 |
-| -4q | 분기 | 날짜 참조에서 4분기 빼기 |
-| -1y | 년 | 날짜 참조에서 1년 빼기 |
+| `+6d` | 일 | 날짜 참조에 6일 추가 |
+| `+1w` | 주 | 날짜 참조에 1주일 추가 |
+| `-2m` | 월 | 날짜 참조에서 2개월 빼기 |
+| `-4q` | 분기 | 날짜 참조에서 4분기 빼기 |
+| -`1y` | 년 | 날짜 참조에서 1년 빼기 |
 
 #### 날짜 표현식
 
@@ -153,23 +117,26 @@ ht-degree: 85%
 
 | 날짜 표현식 | 의미 |
 |-----------------|--------------------------------------|
-| td-1w | 지난주의 첫날 |
-| tm-1d | 지난달의 마지막 날 |
-| td-52w | 52주 전 같은 날 |
-| tm-11m-1d | 작년 같은 달의 마지막 날 |
-| &quot;2020-09-06&quot; | 2020년 9월 9일 |
+| `td` | 오늘 |
+| `td-1w` | 지난주의 첫날 |
+| `tm-1d` | 지난달의 마지막 날 |
+| `td-52w` | 52주 전 같은 날 |
+| `tm-11m-1d` | 작년 같은 달의 마지막 날 |
+| `"2020-09-06"` | 특정 날짜, 2020년 9월 9일 |
+
+
 
 ## 셀의 날짜 범위
 
-날짜 범위는 워크시트 셀에 지정할 수 있습니다. **셀의 날짜 범위** 옵션을 사용하여 선택한 셀에서 데이터 블록 시작 및 종료 날짜를 선택합니다. **셀에서** 옵션을 선택하면 패널에 셀 위치를 입력할 수 있는 **From** 및 **To** 필드가 표시됩니다.
+날짜 범위는 워크시트 셀에 지정할 수 있습니다. **[!UICONTROL 셀의 날짜 범위]** 옵션을 사용하여 선택한 셀에서 데이터 블록 시작 및 종료 날짜를 선택합니다. **[!UICONTROL 셀에서]** 옵션을 선택하면 패널에 셀 위치를 입력하거나 **[!UICONTROL DataBlockSelector]**&#x200B;를 사용하여 현재 선택한 셀을 선택할 수 있는 **[!UICONTROL From]** 및 ![To](/help/assets/icons/DataBlockSelector.svg) 필드가 표시됩니다.
 
-![Sheet1!H4에서 Sheet1!I4로 선택](./assets/image23.png)
+![Sheet1!H4에서 Sheet1!I4로 선택](./assets/date-range-from-cell.png){zoomable="yes"}
+
 
 ## 오늘 제외
 
-선택한 날짜 범위에서 오늘을 제외하려면 **오늘 제외** 옵션을 선택합니다. 오늘을 포함하도록 선택하면 오늘의 불완전한 데이터를 가져올 수 있습니다.
+선택한 날짜 범위에서 오늘을 제외하려면 **[!UICONTROL 오늘 제외]**&#x200B;를 선택하십시오. 날짜 범위를 정의하는 데 사용되는 모든 모드(달력, 순환 날짜 또는 사용자 정의 표현식)에서 현재 날짜가 제외됩니다.
 
-선택하면 **오늘 제외** 옵션은 달력, 순환 날짜 또는 사용자 정의 표현식을 포함한 모든 날짜 범위 모드에서 현재 날짜를 제외합니다.
 
 ## 유효한 날짜 범위
 
@@ -179,27 +146,212 @@ ht-degree: 85%
 
 - 시작 날짜는 종료 날짜 이전이거나 같아야 합니다. 두 날짜 모두 미래로 설정할 수 있습니다.
 
-- 순환 날짜를 사용할 때 시작 날짜는 오늘이나 과거의 날짜여야 합니다. **오늘 제외**&#x200B;가 선택된 경우 과거의 날짜여야 합니다.
+- 순환 날짜를 사용할 때 시작 날짜는 오늘이나 과거의 날짜여야 합니다. **[!UICONTROL 오늘 제외]**&#x200B;를 선택한 경우 시작일은 과거여야 합니다.
 
 - 미래를 위한 정적 날짜 범위 세트를 만들 수 있습니다. 예를 들어 다음 주에 시작하는 마케팅 캠페인을 위해 미래 날짜를 설정해야 할 수 있습니다. 이 옵션은 사전에 캠페인에 대한 통합 문서 모니터링을 만듭니다.
 
 ## 날짜 범위 변경
 
-명령 패널에서 데이터 블록 편집을 선택하거나 빠른 편집 패널에서 날짜 범위 링크를 선택하여 기존 데이터 블록의 날짜 범위를 편집할 수 있습니다.
+기존 데이터 블록의 날짜 범위를 편집할 수 있습니다.
 
-**데이터 블록 편집** — 단일 데이터 블록의 경우, 날짜 범위를 포함한 여러 데이터 블록 매개변수를 편집할 수 있습니다.
+1. 데이터 블록의 셀을 선택합니다.
 
-**빠른 편집:날짜 범위** — 하나 이상의 데이터 블록의 날짜 범위를 편집할 수 있습니다.
+- **[!UICONTROL 명령]** 패널에서 **[!UICONTROL 데이터 블록 편집]**&#x200B;을 선택하거나
+- **[!UICONTROL 빠른 편집]** 패널에서 **[!UICONTROL 날짜 범위]** 링크를 선택하십시오.
 
-패널에서 날짜 범위를 편집하려면
+1. 사용 가능한 날짜 선택 옵션을 사용하여 날짜 범위를 수정합니다.
 
-1. 워크시트에 있는 하나 이상의 데이터 블록 내에서 셀을 선택합니다.
-
-1. 빠른 편집 패널에서 **날짜 범위** 링크를 클릭합니다.
-
-1. 날짜 선택 옵션을 사용하여 날짜 범위를 선택합니다.
-
-1. **적용**&#x200B;을 클릭합니다.
-
+1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 Report Builder는 선택 항목의 모든 데이터 블록에 새 날짜 범위를 적용합니다.
+
+<!--
+To change the date range of an existing data block, select Edit a data block or use the QUICK EDIT panel.
+
+Use the following options to change a date range for a data block.
+
+**Calendar**
+
+ The Calendar allows you to create static or rolling dates using the following options:
+
+- Date range field
+- Calendar
+- Preset drop-down menu
+- Rolling date mode
+- Customize expressions
+
+
+**From cell**
+
+The **[!UICONTROL From cell]** option allows you to reference dates entered in worksheet cells.
+
+You have the option to exclude today on any selected date range.
+
+ ![Report Builder Quick edit pane with calendar selected and Exclude today selected.](./assets/image17.png)
+
+## Use the Calendar
+
+When you use the **Calendar**, the date range field displays the current date range for the data block request. You can enter dates directly into the date range field or use a data range selection option.
+
+### Date range field
+
+To enter dates directly into the date range field
+
+1. Click the date range field next to the calendar icon.
+
+1. Enter start and end dates for your date range.
+
+### Calendar
+
+To select dates using the calendar
+
+1. Click the calendar icon to display a monthly calendar.
+
+1. Click a start date.
+
+1. Click an end date.
+
+To set a date range in reverse, click the end date first and then click the start date.
+
+![Report Builder date range pane showing the calendar and the end date and the start date selected.](./assets/image18.png)
+
+### Preset drop down menu
+
+The preset drop-down menu includes a standard set of preset date ranges and date range components for a report suite that you saved or a report suite that was shared with you.
+
+### Rolling dates
+
+The rolling dates option allows you to select a date range using rolling dates.
+
+1. Select **Use rolling dates**.
+
+1. Select a rolling expression for your start and or end date.
+
+    ![Report Builder date range pane showing Use rolling dates selected and the rolling expression.](./assets/image19.png)
+
+    **Start of** — Allows you to select the beginning of a day, week, month, quarter, or year.
+
+    **End of** — Allows you to select the end of a day, week, month, quarter, or year.
+
+    **Fixed day** — Allows you to fix a start or end date while the other date is rolling.
+
+1. Choose day, week, month, quarter, or year as the rolling period.
+
+    ![Report Builder date range pane showing the current day selected.](./assets/image20.png)
+
+1. Add or subtract days, weeks, months, quarters, or years from your rolling date.
+
+    ![Report Builder date range pane showing the current day plus 14 days selected.](./assets/image21.png)
+
+1. Click Next to define the data range.
+
+    Use the date preview to confirm the resulting date range is the desired range.
+
+### Custom expressions
+
+The custom expression option allows you to change the date range by building a custom expression or you can enter an arithmetic formula.
+
+1. Select **Use rolling dates**.
+
+1. Select **Use custom expression**.
+
+    When you select the **Use custom expression** option, the standard rolling date range controls are disabled.
+
+    ![Select Use custom expression showing tm-1m to td-1d.](./assets/custom_expression.png)
+
+1. Enter a custom expression.
+
+    For a sample list of custom expressions, see **Date expressions**.
+
+1. Use the date preview to verify the resulting date range is the desired range.
+
+#### Create a custom expression
+
+1. Enter a **Date reference**.
+
+1. Add **Date operators** to move the date to the past or future.
+
+You can enter a custom date expression that includes multiple operators, such as ```tm-11m-1d```.
+
+#### Date references
+
+The following table lists date reference examples.
+
+| Date Reference | Type         | Description                |
+|----------------|--------------|----------------------------|
+| 1/1/10         | Static Date  | Entered in ISO Date format |
+| td             | Rolling Date | Start of current day       |
+| tw             | Rolling Date | Start of current week      |
+| tm             | Rolling Date | Start of current month     |
+| tq             | Rolling Date | Start of current quarter   |
+| ty             | Rolling Date | Start of current year      |
+
+#### Date operators
+
+The following table lists date operator examples.
+
+| Date Operators | Unit    | Description   |
+|----------------|---------|--------------------|
+| +6d            | Day     | Add 6 days to the Date Reference |
+| +1w            | Week    | Add one full week to the Date Reference |
+| -2m            | Month   | Subtract 2 full months to the Date Reference |
+| -4q            | Quarter | Subtract 4 quarters to the Date Reference |
+| -1y            | Year    | Subtract one year to the Date Reference |
+
+#### Date expressions
+
+The following table lists date expression examples.
+
+| Date Expression | Meaning                              |
+|-----------------|--------------------------------------|
+| td-1w           | First day of last week               |
+| tm-1d           | Last day of previous month           |
+| td-52w          | Same day, 52 weeks ago               |
+| tm-11m-1d       | Last day of the same month last year |
+| "2020-09-06"    | Sept 9th, 2020                       |
+
+## Date range from cell
+
+The date range can be specified in worksheet cells. Use the **Date range from cell** option to choose the data block start and end date from selected cells. When you select the **From cell** option, the panel displays **From** and **To** fields where you can enter a cell location.
+
+![Select From cell Sheet1!H4 to Sheet1!I4](./assets/image23.png)
+
+## Exclude today
+
+Choose the **Exclude today** option to exclude today from a selected date range. Choosing to include today may pull incomplete data for today.
+
+When selected, the **Exclude today** option excludes the current day from all date range modes including calendar, rolling dates, or custom expressions.
+
+## Valid date ranges
+
+The following list describe valid date range formats.
+
+- The start and end dates must be in the following format: YYYY-MM-DD
+
+- The start date must be earlier to or equal to the end date. Both dates can be set to the future.
+
+- When using rolling dates, the start date must be today or in the past. It must be in the past if **Exclude today** is checked.
+
+- You can create a static date range set for the future. For example, you may need to set a future date for a marketing campaign launch next week. This option creates a workbook monitoring for a campaign ahead of time.
+
+## Change the date range
+
+You can edit the date range of an existing data block by selecting Edit data block in the COMMANDS panel or by selecting the date range link in the QUICK EDIT panel.
+
+**Edit data block** — Allows you to edit multiple data block parameters, including date range, for a single data block.
+
+**Quick Edit: Date range** — Allows you to edit the date range of one or more data blocks.
+
+To edit the date range from the QUICK EDIT panel
+
+1. Select cells within one or more data blocks in a worksheet.
+
+1. Click the **Date range** link in the QUICK EDIT panel.
+
+1. Select the date range using any of the date selection options.
+
+1. Click **Apply**.
+
+
+Report Builder applies the new date range to all data blocks in the selection.
+-->

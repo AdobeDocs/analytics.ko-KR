@@ -1,21 +1,21 @@
 ---
-title: Adobe Analytics에서 Report Builder을 설정하는 방법
+title: Report Builder 설정
 description: Adobe Analytics에서 Report Builder을 설정하는 방법을 설명합니다.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
-source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
+source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 68%
+source-wordcount: '497'
+ht-degree: 67%
 
 ---
 
 # Report Builder 설치
 
-Excel 추가 기능 메뉴를 사용하여 Report Builder에 빠르게 액세스할 수 있습니다.
+이 문서에서는 Microsoft Excel에서 Report Builder for Adobe Analytics을 사용하기 위한 요구 사항을 간략하게 설명합니다. 및 추가 기능 설치 및 설정 방법
 
 ## 요구 사항
 

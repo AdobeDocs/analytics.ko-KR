@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 340baffc3c870ffec136a0800f71a293099e4d9f
+source-git-commit: 288ca753157a6ed388a37a1ef01481cd83191b85
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -177,7 +177,6 @@ ht-degree: 100%
    + [이메일용 통합 문서 예약](report-builder/schedule-reportbuilder.md)
    + [클라우드 내보내기용 통합 문서 예약](/help/analyze/report-builder/report-builder-export.md)
    + [예약된 통합 문서 관리](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
-   + [제한된 레이블](report-builder/restricted-labels.md)
    + [Report Builder 설정](report-builder/report-builder-settings.md)
 + 레거시 Report Builder {#legacy-report-builder}
    + [레거시 Adobe Report Builder 도움말](legacy-report-builder/home.md)

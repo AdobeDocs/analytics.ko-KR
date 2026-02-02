@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4b39947796d09a58089c846c21b26201a891f1c2
+source-git-commit: 10deaf5370661bbe5058b65e4f6b6339e54d878c
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3005'
 ht-degree: 87%
 
 ---
@@ -11,10 +11,10 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->간소화된 새 [Report Builder](/help/analyze/report-builder/rb-overview.md)이(가) 2024년 10월 16일에 릴리스되었습니다. Mac, Windows 및 웹 브라우저에서 지원됩니다.
+>간소화된 새 [Report Builder](/help/analyze/report-builder/rb-overview.md)은(는) 2024년 10월 16일부터 사용할 수 있습니다. 이 Report Builder은 macOS, Windows 및 웹 브라우저에서 지원되며 Adobe Analytics 및 Customer Journey Analytics과 함께 사용할 수 있습니다.
 >이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [기존 통합 문서를 새 Report Builder으로 변환](/help/analyze/report-builder/convert-workbooks.md)할 수 있습니다.
 
-## Reports & Analytics 서비스 종료 공지 {#ra-eol}
+## Reports &amp; Analytics 서비스 종료 공지 {#ra-eol}
 
 >[!IMPORTANT]
 >

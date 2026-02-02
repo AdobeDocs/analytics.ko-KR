@@ -1,14 +1,14 @@
 ---
-title: Adobe Analytics에서 Report Builder으로 예약된 통합 문서를 관리하는 방법
-description: Report Builder에서 예약된 통합 문서를 관리하는 방법 알아보기
+title: Report Builder에서 예약된 통합 문서 관리
+description: Report Builder에서 예약된 통합 문서를 관리하는 방법에 대해 알아봅니다.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
-source-git-commit: 6ec04fcc250b2858987ac7d70255310be910386f
+source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '326'
 ht-degree: 3%
 
 ---
