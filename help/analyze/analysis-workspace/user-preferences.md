@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 프로젝트 환경 설정 방법에 대
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d9fbc4a69030f9633046920f023473261cea6f28
+source-git-commit: 3d786731c959da9a5eb02572394aced6ffd0deb1
 workflow-type: tm+mt
-source-wordcount: '3485'
-ht-degree: 98%
+source-wordcount: '3456'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/3429994/?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -98,10 +98,12 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 
 각 환경 설정에 대한 자세한 내용과 컨텍스트를 보려면 링크된 환경 설정 제목을 클릭합니다.
 
+<!--
 >[!IMPORTANT]
 >
->**[!UICONTROL 사용자 환경 설정]**&#x200B;의 **[!UICONTROL 프로젝트 및 분석]** > **[!UICONTROL 데이터]** 섹션에서 더 이상 숫자 형식을 정의할 수 없습니다. 로그인한 사용자에 대해 [구성된 기본 언어](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/browser-language)에 의해 숫자 형식이 자동으로 결정됩니다.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
+-->
 
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
@@ -112,6 +114,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 |  | [보고서 세트](/help/analyze/analysis-workspace/c-panels/panels.md) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
 |  | [달력](/help/analyze/analysis-workspace/c-panels/panels.md) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |
 |  | [패널 유형](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>자유 형식 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
+|  | 번호 형식 | <ul><li>1,000.00 (기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 예를 들어 이 설정(활성화된 경우)은 동일한 페이지에 대한 여러 개의 연속 페이지 조회수를 여러 페이지 조회수로 처리합니다. 이 설정을 끄면 단일 페이지 조회수로 카운트됩니다. <p>**참고:** 이 설정은 특정 지표(예: 단일 페이지 방문)에만 영향을 주고 흐름 또는 폴아웃 시각화에 적용되지 않습니다.</p> |
 |  | CSV 구분자 | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
 |  | 주석 표시 | 프로젝트에 주석을 표시할지 여부를 선택합니다. 주석에 대한 자세한 내용은 [주석 개요](/help/analyze/analysis-workspace/components/annotations/overview.md)를 참조하십시오. |
