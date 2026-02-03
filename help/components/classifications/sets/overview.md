@@ -3,9 +3,9 @@ title: 분류 세트 개요
 description: 분류 세트를 사용하여 분류 데이터를 관리하는 방법을 알아봅니다. 분류 세트가 이전 분류와 어떻게 다른지 이해합니다.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
+source-git-commit: e1ccd006336f10b8f843d59cfdcd220064524349
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -123,8 +123,3 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 >[!IMPORTANT]
 >
 >분류 세트 성능은 주로 데이터가 포함된 고유 키 값의 수에 따라 달라집니다. 변수에 고유 값이 많이 포함되어 있을 때는 주의하여야 합니다. 특히 여러 보고서 세트와 차원의 이러한 변수를 하나의 분류 세트로 결합할 때 더욱 그렇습니다.
-
-## 제한 사항
-
-* 분류 세트는 아직 규칙을 지원하지 않습니다. [이전 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md) 기능을 사용할 수 없게 되기 전에는 규칙 기능이 분류 세트 인터페이스에 추가됩니다.
-* 이전 분류 규칙 및 구성을 분류 세트로 마이그레이션하지 않습니다. 이전 분류 기능을 사용할 수 없게 되기 전에는 마이그레이션 유틸리티가 분류 세트 인터페이스에 추가됩니다.
