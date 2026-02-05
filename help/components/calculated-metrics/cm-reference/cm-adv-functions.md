@@ -4,9 +4,9 @@ description: 고급 계산된 지표 함수에 대해 알아보십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: b04625391d5d0d6a6a8c7780115bf5b3029af3bb
 workflow-type: tm+mt
-source-wordcount: '5020'
+source-wordcount: '4807'
 ht-degree: 99%
 
 ---
@@ -228,29 +228,29 @@ CDF-Z(-3) ? 0.0013499
 | 지표 | 반올림할 지표 |
 
 
-## 신뢰도 {#confidence}
+<!-- Only available in CJA 
 
-<!-- markdownlint-disable MD034 -->
+## Confidence {#confidence}
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
->title="신뢰도"
->abstract="[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도를 계산합니다."
+>title="Confidence"
+>abstract="Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476)."
 
-<!-- markdownlint-enable MD034 -->
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(표준화 컨테이너, 성공 지표, 제어, 유의성 임계값)]**
+Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476).
 
-[시간-균일 중심극한정리와 점근적 신뢰구간](https://arxiv.org/pdf/2103.06476)에 설명된 대로 WASKR 방법을 사용하여 언제든지 유효한 신뢰도를 계산합니다.
+Confidence is a probabilistic measure of how much evidence there is that a given variant is the same as the control variant. A higher confidence indicates less evidence for the assumption that control and non-control variant have equal performance. 
 
-신뢰도는 주어진 변형이 제어 변형과 동일하다는 증거가 얼마나 있는지에 대한 확률론적 척도입니다. 신뢰도가 높을수록 제어 변형과 비제어 변형의 성과가 동일하다는 가정의 증거가 적다는 것을 나타냅니다.
-
-| 인수 | 설명 |
+| Argument | Description |
 | --- | --- |
-| 표준화 컨테이너 | 테스트를 실행할 기준(사용자, 세션 또는 이벤트)입니다. |
-| 성공 지표 | 사용자가 변형을 비교하는 지표입니다. |
-| 제어 | 실험의 다른 모든 변형과 비교되는 변형입니다. 제어 변형 차원 항목의 이름을 입력하십시오. |
-| 유의성 임계값 | 이 함수에서의 임계값은 95%의 기본값으로 설정됩니다. |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
+| significance-threshold | The threshold in this function is set to a default of 95%. |
+
+-->
 
 
 ## 신뢰도(하한) {#confidence-lower}
@@ -728,25 +728,24 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 `Metric 1 <= Metric 2`
 
 
+<!-- Only available in CJA 
 
-## 상승도(#lift)
+## Lift (#lift)
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
->title="상승도"
->abstract="제어 값과 비교한 비율의 상승도입니다."
+>title="Lift"
+>abstract="The lift of the ratio compared to the control value."
 
-<!-- markdownlint-enable MD034 -->
 
-| 인수 | 설명 |
+| Argument | Description |
 | --- | --- |
-| 표준화 컨테이너 | 테스트를 실행할 기준(사용자, 세션 또는 이벤트)입니다. |
-| 성공 지표 | 사용자가 변형을 비교하는 지표입니다. |
-| 제어 | 실험의 다른 모든 변형과 비교되는 변형입니다. 제어 변형 차원 항목의 이름을 입력하십시오. |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 
-
+-->
 
 ## 선형 회귀: 상관 계수 {#linear-regression-correlation-coefficient}
 
