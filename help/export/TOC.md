@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드와 Data Warehouse를 사용해 데이터 출력을 검색하는 방법에 대해 알아봅니다.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
       + [동적 조회](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [머천다이징 eVar 조회](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [특수 문자](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
-      + [늦게 도착하는 히트](analytics-data-feed/c-df-contents/late-arriving-hits.md)
+      + [늦게 도착하는 조회수](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [데이터 피드 FAQ](analytics-data-feed/df-faq.md)
    + [데이터 피드 모범 사례](analytics-data-feed/data-feeds-best-practices.md)
    + [데이터 피드 문제 해결](analytics-data-feed/troubleshooting.md)

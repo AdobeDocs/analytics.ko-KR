@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 계정 구성
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 55%
+source-wordcount: '1583'
+ht-degree: 68%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 55%
 
 기존 계정을 보고 삭제하는 방법에 대한 자세한 내용은 [위치 관리자](/help/components/locations/locations-manager.md)를 참조하세요.
 
-클라우드 가져오기 또는 내보내기 계정을 구성하려면 다음을 수행합니다.
+## 계정 페이지에서 계정 만들기 또는 편집 시작
 
 1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **위치**]&#x200B;를 선택합니다.
 1. [!UICONTROL 위치] 페이지에서 [!UICONTROL **위치 계정**] 탭을 선택합니다.
@@ -46,18 +46,24 @@ ht-degree: 55%
 
    [!UICONTROL **계정 추가**] 대화 상자가 표시됩니다.
 
+1. [위치 계정 구성](#configure-a-location-account)을 계속합니다.
+
+## 위치 계정 구성
+
+클라우드 가져오기 또는 내보내기 계정을 만들거나 편집한 후 구성하려면 다음 작업을 수행하십시오.
+
 1. 다음 정보를 지정합니다.
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름입니다. 위치가 생성되면 이 이름이 표시됩니다. |
+   | [!UICONTROL **위치 계정 이름**] | 위치 계정의 이름. 위치가 생성되면 이 이름이 표시됩니다. |
    | [!UICONTROL **위치 계정 설명**] | 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다. |
-   | [!UICONTROL **조직의 모든 사용자가 사용할 수 있는 계정을 만듭니다**] | 조직의 다른 사용자가 계정을 사용할 수 있도록 하려면 이 옵션을 활성화합니다.<p>계정을 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 계정은 공유 해제할 수 없습니다.</li><li>공유 계정은 계정 소유자만 편집할 수 있습니다.</li><li>누구나 공유 계정의 위치를 만들 수 있습니다.</li></ul> |
+   | [!UICONTROL **조직의 모든 사용자들이 계정을 사용할 수 있도록 설정**] | 조직의 다른 사용자가 계정을 사용할 수 있도록 하려면 이 옵션을 활성화합니다.<p>계정을 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 계정은 공유 해제할 수 없습니다.</li><li>공유 계정은 계정 소유자만 편집할 수 있습니다.</li><li>누구나 공유 계정의 위치를 만들 수 있습니다.</li></ul> |
    | [!UICONTROL **계정 유형**] | 클라우드 계정 유형을 선택합니다. 각 계정 유형에 대해 단일 계정을 사용하고 해당 계정 내에서 필요에 따라 여러 위치를 사용하는 것이 좋습니다.<p>시스템 관리자는 [사용자가 계정을 만들 수 있는지 여부 구성](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)에 설명된 대로 사용자가 만들 수 있는 계정 유형을 제한할 수 있습니다. 이 섹션에 설명된 대로 계정을 만들 수 없는 경우 시스템 관리자에게 문의하십시오.</p> |
 
-1. [!UICONTROL **계정 속성**] 섹션에서 선택한 계정 유형과 관련된 정보를 지정합니다.
+1. [!UICONTROL **계정 속성**] 섹션에서 선택된 계정 유형과 관련된 정보를 지정합니다.
 
-   구성 지침을 보려면 선택한 [!UICONTROL **계정 유형**]&#x200B;에 해당하는 아래 섹션을 확장하세요. (추가적인 레거시 계정 유형도 사용할 수 있지만 권장되지는 않습니다.)
+   구성 지침을 보려면 선택한 [!UICONTROL **계정 유형**]&#x200B;에 해당하는 아래 섹션을 확장합니다. (추가 이전 계정 유형을 사용할 수도 있지만 권장되지 않습니다.)
 
    **계정 유형**
 
@@ -95,8 +101,8 @@ ht-degree: 55%
    |---------|----------|
    | [!UICONTROL **애플리케이션 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
    | [!UICONTROL **테넌트 ID**] | 만든 Azure 애플리케이션에서 이 ID를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **개요** 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
-   | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS 토큰에 대한 경로입니다.  Azure SAS를 구성하려면 Azure 키 자격 증명 모음을 사용하여 SAS 토큰을 비밀로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>Key Vault URI가 만들어지면 Key Vault에 액세스 정책을 추가하여 만든 Azure 애플리케이션에 권한을 부여합니다. 자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p> |
-   | [!UICONTROL **키 자격 증명 모음 암호 이름**] | Azure Key Vault에 암호를 추가할 때 만든 암호 이름입니다. Microsoft Azure에서 이 정보는 **주요 자격 증명 모음** 설정 페이지에서 만든 주요 자격 증명 모음에 있습니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오. |
+   | [!UICONTROL **키 자격 증명 모음 URI**] | <p>Azure Key Vault의 SAS 토큰에 대한 경로입니다.  Azure SAS를 구성하려면 Azure Key Vault를 사용하여 SAS 토큰을 암호로 저장해야 합니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오.</p><p>키 자격 증명 모음 URI가 만들어지면 키 자격 증명 모음에 액세스 정책을 추가하여 만든 Azure 애플리케이션에 권한을 부여합니다. 자세한 내용은 [Azure 키 액세스 정책을 할당하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/ko-kr/azure/key-vault/general/assign-access-policy?tabs=azure-portal)를 참조하십시오.</p> |
+   | [!UICONTROL **키 자격 증명 모음 암호 이름**] | Azure Key Vault에 암호를 추가할 때 만든 암호 이름 이 정보는 Microsoft Azure의 **키 자격 증명 모음** 설정 페이지에서 만든 키 자격 증명 모음에 있습니다. 자세한 내용은 [Azure Key Vault에서 암호를 설정 및 검색하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)를 참조하십시오. |
    | [!UICONTROL **위치 계정 암호**] | 만든 Azure 애플리케이션에서 암호를 복사합니다. 이 정보는 Microsoft Azure의 애플리케이션 내부 **인증서 및 암호** 애플리케이션 탭에 있습니다. 자세한 내용은 [Microsoft ID 플랫폼으로 애플리케이션을 등록하는 방법에 대한 Microsoft Azure 설명서](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오. |
 
    {style="table-layout:auto"}
@@ -139,7 +145,7 @@ ht-degree: 55%
 
    +++FTP
 
-   데이터 피드 데이터는 Adobe 또는 고객이 호스팅하는 FTP 위치에 전달할 수 있습니다. FTP 호스트, 사용자 이름 및 암호가 필요합니다. 폴더에 피드 파일을 배치하려면 경로 필드를 사용하십시오. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않을 경우 피드에서 오류가 발생합니다.
+   데이터 피드 데이터는 Adobe 또는 고객이 호스팅하는 FTP 위치로 전달될 수 있습니다. FTP 호스트, 사용자 이름 및 암호가 필요합니다. 폴더에 피드 파일을 배치하려면 경로 필드를 사용하십시오. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않을 경우 피드에서 오류가 발생합니다.
 
    | 필드 | 함수 |
    |---------|----------|
@@ -154,7 +160,14 @@ ht-degree: 55%
 
    +++SFTP
 
-   데이터 피드에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RSA 또는 DSA 공개 키를 포함하기 위해 SFTP 호스트, 사용자 이름 및 대상 사이트가 필요합니다. 피드를 만들 때 적절한 공개 키를 다운로드할 수 있습니다.
+   데이터 피드에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RSA 또는 DSA 공개 키를 포함하려면 SFTP 호스트, 사용자 이름 및 대상 사이트가 필요합니다. 피드를 만들 때 적절한 공개 키를 다운로드할 수 있습니다.
+
+   데이터 피드에 대한 RSA 또는 DSA 공개 키를 다운로드할 때 다음 중 하나를 수행하십시오.
+
+   * 다운로드한 공개 키 파일의 이름을 `authorized_keys`(으)로 바꾼 다음 파일을 SFTP 서버의 `.ssh` 폴더로 업로드합니다.
+
+   * 이미 다른 키를 포함하고 있는 기존 `authorized_keys` 파일이 있는 경우 Adobe에서 제공한 키를 기존 `authorized_keys` 파일에 추가하여 기존 키를 덮어쓰지 않도록 하십시오.
+
 
    +++
 
@@ -174,7 +187,7 @@ ht-degree: 55%
    * us-east-1
    * us-west-1
    * us-west-2
-   * ap-남-1
+   * ap-south-1
    * ap-northeast-2
    * ap-southeast-1
    * ap-southeast-2

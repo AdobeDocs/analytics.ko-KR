@@ -3,10 +3,10 @@ title: 데이터 피드 관리
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다. 데이터 피드를 만들고, 편집하고, 보는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 21%
+source-wordcount: '1257'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://video.tv.adobe.com/v/3428565?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -25,16 +25,16 @@ ht-degree: 21%
 ## 데이터 피드 보기
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
-1. 오른쪽 상단의 9제곱 아이콘을 선택한 다음 [!UICONTROL **Analytics**]&#x200B;을 선택합니다.
-1. 상단 탐색 모음에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**] (으)로 이동합니다.
+1. 오른쪽 상단에 있는 9제곱 아이콘을 선택한 다음 [!UICONTROL **Analytics**]&#x200B;을 선택합니다.
+1. 맨 위 탐색 막대에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**]&#x200B;로 이동합니다.
 
    액세스 권한이 있는 모든 보고서 세트에 대한 데이터 피드가 표시됩니다. 또는 구성된 피드가 없는 경우 페이지에 [!UICONTROL 새 데이터 피드 만들기] 단추가 표시됩니다.
 
-   ![데이터 피드](assets/feeds.png)
+   ![데이터 피드 관리자](assets/data-feed-manager.png)
 
 ## 데이터 피드 만들기
 
-[!UICONTROL 추가] 단추를 사용하면 새 피드를 만들 수 있습니다. 자세한 내용은 [데이터 피드 만들기](create-feed.md)를 참조하십시오.
+**[!UICONTROL 데이터 피드 만들기]** 단추를 사용하면 새 피드를 만들 수 있습니다. 자세한 내용은 [데이터 피드 만들기](create-feed.md)를 참조하십시오.
 
 ## 데이터 피드 편집
 
@@ -45,6 +45,8 @@ ht-degree: 21%
 1. [!UICONTROL **피드 이름**] 열에서 데이터 피드를 선택하십시오.
 
 1. 데이터 피드를 원하는 대로 변경합니다.
+
+   데이터 피드 옵션에 대한 자세한 내용은 [데이터 피드 만들기](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)에서 [데이터 피드 만들기 및 구성](/help/export/analytics-data-feed/create-feed.md)을 참조하십시오.
 
    편집 중인 데이터 피드에 대한 [!UICONTROL **대상**] 섹션을 업데이트할 때 [!UICONTROL **계정**] 및 [!UICONTROL **위치**] 드롭다운 필드에서 새 데이터 피드에 사용할 다른 계정 및 위치를 선택할 수 있습니다.
 
@@ -62,9 +64,9 @@ ht-degree: 21%
 
    * 검색 필드에서 피드 이름을 입력하세요. 일치하는 피드만 사용 가능한 피드 목록에 표시됩니다.
 
-   * 맨 왼쪽에서 필터 아이콘을 클릭하여 필터링 옵션을 표시하거나 숨깁니다. 필터는 범주별로 구성되어 있습니다. 필터링 범주를 축소하거나 확장할 수 있습니다. 적용할 필터 옆의 확인란을 선택합니다.
+   * 맨 왼쪽에서 필터 아이콘을 선택하여 필터링 옵션을 표시하거나 숨깁니다. 필터는 **[!UICONTROL 보고서 세트]**, **[!UICONTROL 소유자]**, **[!UICONTROL 상태]** 및 **[!UICONTROL 태그]**&#x200B;를 포함하여 범주별로 구성되어 있습니다. 필터링 범주를 축소하거나 확장할 수 있습니다. 적용할 필터 옆의 확인란을 선택합니다.
 
-![필터](assets/filters.png)
+     ![필터](assets/filters.png)
 
 ## 데이터 피드 작업 보기
 

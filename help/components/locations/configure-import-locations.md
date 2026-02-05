@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 위치 구성
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 30%
+source-wordcount: '1703'
+ht-degree: 33%
 
 ---
 
@@ -59,7 +59,9 @@ ht-degree: 30%
    | [!UICONTROL **조직의 모든 사용자가 사용할 수 있는 위치 만들기**] | 조직의 다른 사용자가 위치를 사용할 수 있도록 하려면 이 옵션을 활성화합니다.<p>위치를 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 위치는 공유 해제할 수 없습니다.</li><li>공유 위치는 해당 위치의 소유자만 편집할 수 있습니다.</li><li>위치가 연결된 계정도 공유된 경우에만 위치를 공유할 수 있습니다.</li></ul> |
    | [!UICONTROL **위치 계정**] | 이 위치를 만들 위치 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md)을 참조하십시오. |
 
-1. 위치 구성 양식을 작성하려면 [!UICONTROL **위치 계정**] 필드에서 선택한 계정 유형에 해당하는 아래 섹션을 계속 사용하십시오. (추가적인 레거시 계정 유형도 사용할 수 있지만 권장되지는 않습니다.)
+1. 위치 구성을 위한 양식을 작성하려면 [위치 구성](#configure-a-location)을 계속하십시오. [!UICONTROL **위치 계정**] 필드에서 선택한 계정 유형에 해당하는 섹션의 정보를 사용합니다. (추가 이전 계정 유형을 사용할 수도 있지만 권장되지 않습니다.)
+
+## 위치 구성
 
 ### Amazon S3 Role ARN
 
@@ -85,7 +87,7 @@ Amazon S3 역할 ARN 위치를 구성하려면 다음 정보를 지정합니다.
    >   이전에 [FTP를 사용하여 분류를 Adobe Analytics으로 가져오기](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md)한 경우 FIN 파일을 업로드해야 합니다. 클라우드 계정에서 가져올 때는 이 FIN 파일이 필요하지 않습니다.
 
 
-### Google Cloud Platform
+### Google Cloud 플랫폼
 
 Google Cloud Platform 위치를 구성하려면 다음 정보를 지정합니다.
 
@@ -141,7 +143,7 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **계정**] | Azure 스토리지 계정입니다. |
+   | [!UICONTROL **계정**] | Azure 스토리지 계정. |
    | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. 앞서 만든 Azure 애플리케이션에 파일을 업로드할 권한을 부여하고 있는지 확인합니다. |
    | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
 
@@ -180,7 +182,7 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 
 +++FTP
 
-데이터 피드 데이터는 Adobe 또는 고객이 호스팅하는 FTP 위치에 전달할 수 있습니다. 디렉토리 지정 경로 필드를 사용하여 폴더에 피드 파일을 저장합니다.
+데이터 피드 데이터는 Adobe 또는 고객이 호스팅하는 FTP 위치로 전달될 수 있습니다. 디렉토리 지정 경로 필드를 사용하여 폴더에 피드 파일을 저장합니다.
 
 | 필드 | 함수 |
 |---------|----------|
@@ -218,7 +220,7 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 * us-east-1
 * us-west-1
 * us-west-2
-* ap-남-1
+* ap-south-1
 * ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2
