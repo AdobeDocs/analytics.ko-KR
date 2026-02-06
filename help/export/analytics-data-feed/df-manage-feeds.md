@@ -3,7 +3,7 @@ title: 데이터 피드 관리
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다. 데이터 피드를 만들고, 편집하고, 보는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 728e807764901ad2bd6834339e5e75348dd5a988
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 20%
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://video.tv.adobe.com/v/3428565?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ ht-degree: 20%
 
    또는
 
-   특정 데이터 피드에 대한 작업을 보려면 하나 이상의 데이터 피드 옆에 있는 확인란을 선택한 다음 [!UICONTROL **작업 기록**]&#x200B;을 선택하십시오.
+   특정 데이터 피드에 대한 작업 기록을 보려면 데이터 피드 옆에 있는 확인란을 선택한 다음 [!UICONTROL **작업 기록**]&#x200B;을 선택하십시오.
 
    자세한 내용은 [데이터 피드 작업 관리](df-manage-jobs.md)를 참조하십시오.
 
