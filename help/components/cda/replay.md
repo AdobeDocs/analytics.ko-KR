@@ -4,7 +4,7 @@ description: 크로스 디바이스 분석의 "재생" 개념 이해
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 89%
@@ -31,7 +31,7 @@ ht-degree: 89%
 *수집된 날짜에 나타나는 데이터:*
 
 | 타임스탬프 | ECID | eVar1 또는 CustomerID | 히트 설명 | 필드 기반 결합을 사용하는 사람 지표(누적) |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob이 데스크탑 컴퓨터에 있음, 인증되지 않음 | `1`  (246) |
 | `2` | `246` | `Bob` | Bob이 데스크탑에서 로그인함 | `2` (246 및 Bob) |
 | `3` | `3579` | - | Bob이 모바일 디바이스에 있음, 인증되지 않음 | `3`  (246, Bob 및 3579) |
