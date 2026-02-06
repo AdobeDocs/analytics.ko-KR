@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics에 대해 자주 묻는 질문
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 23%
@@ -50,6 +50,8 @@ prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 �
 +++ 새 Analytics 대상을 만들었지만 사용 가능한 세그먼트의 대상 매핑 섹션에 표시되지 않습니다. 그 목적지는 어디로 갔나요, 아니면 어떻게 찾을 수 있나요?
 
 **[!UICONTROL 세그먼트 매핑]**&#x200B;에서 **[!UICONTROL 자동으로 모든 현재 및 향후 세그먼트 매핑]** 옵션을 선택하면 세그먼트의 대상 매핑 섹션에서 Analytics 대상이 사라집니다. 이를 방지하려면 자동 옵션 대신 **[!UICONTROL 수동으로 세그먼트 매핑]**&#x200B;을 선택하십시오.
+
++++
 
 +++ 이렇게 하면 Analytics의 Adobe Audience Manager에서 모든 정보를 제공합니까?
 
