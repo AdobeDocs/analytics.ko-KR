@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: d7832dc56eb680f57a6875cf32e29fd5a8858098
+source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 변환](https://video.tv.adobe.com/v/3446189?captions=kor&quality=12&learn=on){target="_blank"}을 참조하세요.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 변환](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -38,13 +38,7 @@ ht-degree: 1%
 
 레거시 통합 문서를 열려면 다음을 수행할 수 있습니다.
 
-* 로컬 컴퓨터나 네트워크에서 직접 레거시 통합 문서를 엽니다. 이전 통합 문서가 Excel에 열려 있는 경우:
-
-   1. Excel 리본 표시줄에서 ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;을(를) 선택합니다.
-   1. **[!UICONTROL 로그인]**&#x200B;을 선택하고 Report Builder에 로그인합니다.
-   1. [기존 통합 문서를 변환](#convert-a-workbook)합니다.
-
-* **[!UICONTROL Report Builder 허브]**&#x200B;의 [예약](report-builder-hub.md) 탭에서 예약된 레거시 통합 문서를 엽니다. 이렇게 하려면 다음 작업을 수행하십시오.
+* **[!UICONTROL Report Builder 허브]**&#x200B;의 [예약](report-builder-hub.md) 탭에서 예약된 레거시 통합 문서를 엽니다. 예약된 기존 통합 문서에 대해 선호되는 방법입니다. [전환된 레거시 통합 문서를 예약](#schedule-a-converted-legacy-workbook)하는 즉시 레거시 통합 문서와 연결된 일정을 사용할 수 있는 옵션이 제공됩니다.
 
    1. Excel을 열고 Excel 리본 표시줄에서 ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;을(를) 선택합니다.
 
@@ -56,6 +50,13 @@ ht-degree: 1%
       ![레거시 워크플로](assets/upgrade-legacy-schedule.png)
 
    1. 목록에서 변환할 예약된 통합 문서를 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택하고 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다. 통합 문서가 다운로드되어 Excel의 새 창에 열립니다. 이제 [기존 Report Builder 통합 문서를 변환](#convert-a--workbook)할 수 있습니다.
+
+
+* 로컬 컴퓨터나 네트워크에서 직접 레거시 통합 문서를 엽니다. 이 방법을 사용하면 기존 통합 문서와 연결할 수 있는 일정을 사용할 수 없습니다. <br/>이전 통합 문서가 Excel에 열려 있는 경우:
+
+   1. Excel 리본 표시줄에서 ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;을(를) 선택합니다.
+   1. **[!UICONTROL 로그인]**&#x200B;을 선택하고 Report Builder에 로그인합니다.
+   1. [기존 통합 문서를 변환](#convert-a-workbook)합니다.
 
 
 ## 레거시 통합 문서 변환
@@ -89,14 +90,14 @@ ht-degree: 1%
 
      ![Excel Report Builder 업그레이드 보고서 통합 문서](assets/upgrade-report.png)
 
-이제 [데이터 블록을 관리](/help/analyze/report-builder/manage-reportbuilder.md)할 수 있습니다.
+이제 통합 문서에서 [데이터 블록을 관리](/help/analyze/report-builder/manage-reportbuilder.md)할 수 있습니다. 이러한 데이터 블록은 업그레이드 결과이며 기존 Report Builder 요청을 대체합니다.
 
 
 ## 전환된 레거시 통합 문서 예약
 
 Report Builder 허브의 **[!UICONTROL 예약]** 탭에서 다운로드하고 연 기존 통합 문서의 예약 세부 정보를 사용할 수 있는 옵션이 있습니다. 로컬 컴퓨터 또는 네트워크에서 여는 일정 세부 정보가 있는 레거시 통합 문서에는 이 옵션을 사용할 수 없습니다.
 
-1. 통합 문서를 예약합니다. 변환된 이전 통합 문서를 이전 일정으로 예약하려면 다음과 같이 하십시오.
+1. 변환된 이전 통합 문서를 이전 일정으로 예약하려면 다음과 같이 하십시오.
 
    * Report Builder 허브에서 **[!UICONTROL 통합 문서 보내기]**&#x200B;를 선택하거나
    * Report Builder의 **[!UICONTROL 일정]** 탭에서 사용할 수 있는 **[!UICONTROL 통합 문서]** 탭에서 **[!UICONTROL 통합 문서 예약]**&#x200B;을 선택합니다.
