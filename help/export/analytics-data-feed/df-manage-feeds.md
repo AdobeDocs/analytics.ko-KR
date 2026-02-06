@@ -17,7 +17,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://video.tv.adobe.com/v/3428565?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
