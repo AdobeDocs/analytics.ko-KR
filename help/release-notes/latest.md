@@ -3,9 +3,9 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: dabcb339238813b1da605a62f9a70599fbcef1bf
+source-git-commit: d1d08ded701ad68628179874aa6ac21e59ad08dc
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1440'
 ht-degree: 45%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 45%
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
 | **개선된 데이터 피드** <p>이제 데이터 피드에 다음과 같은 개선 사항을 사용할 수 있습니다.</p><ul><li>사용자 경험이 개선되었습니다.</li><li>열 템플릿을 만들고 관리할 수 있는 새로운 환경.</li><li>이제 향후 데이터 피드에서 재사용할 열 템플릿을 만들 시기를 선택할 수 있습니다. 템플릿을 삭제, 편집 및 복사할 수도 있습니다.<br/>이전에는 만들어진 각 데이터 피드에 새 열 템플릿이 추가되어 사용하지 않는 열 템플릿이 대량으로 나타나며 삭제하거나 관리할 방법이 없었습니다.</li><li>태그를 기준으로 추가 및 필터링합니다.</li><li>데이터 피드 작업 내역 보기 (요청 기간이 시작되고, 시작되고, 완료되는 등의 시간.)</li><li>데이터 피드를 다시 보내거나 다시 처리합니다. (작업 내역 페이지에서)</li><li>늦게 도착하는 히트를 허용합니다. 이제 데이터 피드 작업이 설정된 보고 빈도 내에서 데이터 처리를 완료한 후에 도착하는 데이터를 포함할 수 있습니다.</li><li>데이터 피드에 대한 종료 날짜를 선택할 때 선택한 종료 날짜가 데이터 피드의 마지막 날로 포함됩니다.<br/>이전에는 데이터 피드에서 종료 날짜가 제외되었습니다.</li><li>이제 15분 내보내기 빈도가 가능하지만 기본적으로 사용할 수 없습니다. 이 옵션을 사용자 환경에서 사용하려면 먼저 Adobe 고객 지원 센터에 문의하여 보고서 세트가 15분 내보내기를 지원하도록 구성되었는지 요청해야 합니다.</li></ul><p>**참고:** 이러한 개선 사항으로 Adobe Analytics의 데이터 피드 페이지에 대한 URL도 업데이트됩니다. 2026년 4월 30일까지 새 데이터 피드 페이지를 가리키도록 기존 책갈피를 업데이트하십시오.</p><p>자세한 내용은 [데이터 피드 만들기](/help/export/analytics-data-feed/create-feed.md) 및 [데이터 피드 관리](/help/export/analytics-data-feed/df-manage-feeds.md)를 참조하십시오.</p> | 2026년 1월 20일 수요일 | 2026년 2월 24일 수요일<p>(원래 2026년 2월 10일 수요일 릴리스로 계획됨)</p> |
-| **여러 열을 기준으로 테이블 정렬** <p>이제 Analysis Workspace에서 자유 형식 테이블의 데이터를 차원 또는 지표와 관계없이 여러 열을 기준으로 정렬할 수 있습니다.</p><p>여러 열에 대해 데이터를 정렬할 때 데이터는 각 열에 할당한 우선순위에 따라 정렬됩니다. 우선순위 번호는 정렬 아이콘 옆에 표시됩니다.</p><p>자세한 내용은 [자유 형식 테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)을 참조하십시오.</p> | 2026년 1월 28일 | 2026년 2월 18일 |
+| **여러 열을 기준으로 테이블 정렬** <p>이제 Analysis Workspace에서 자유 형식 테이블의 데이터를 차원 또는 지표와 관계없이 여러 열을 기준으로 정렬할 수 있습니다.</p><p>여러 열에 대해 데이터를 정렬할 때 데이터는 각 열에 할당한 우선순위에 따라 정렬됩니다. 우선순위 번호는 정렬 아이콘 옆에 표시됩니다.</p><p>자세한 내용은 [자유 형식 테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)을 참조하십시오.</p> | 2026년 1월 28일 | 3월 <p>(원래 2026년 2월 18일 목요일로 계획됨)</p> |
 | **근사 고유 개수 함수 업데이트**<p>근사 고유 개수 함수에서 사용되는 HLL 확률적 알고리즘은 곧 업데이트될 것이다. 이 함수를 사용하는 숫자에 대한 결과 출력은 다음과 같이 과거 숫자에서 약간 변경될 수 있습니다.</p><ul><li>매우 적은 양의 고유 값을 계산할 때 추정치를 사용하지 않고 정확한 개수를 사용하도록 결과가 개선됩니다.</li><li>더 큰 값을 계산할 때 예상 횟수는 이 업데이트 전과 동일한 정확도를 유지합니다(예상 횟수는 정확한 횟수의 5%, 시간의 95% 내에서 정확함).</li></ul><p>근사 고유 개수 함수에 대한 자세한 내용은 [고급 함수](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct)에서 [근사 고유 개수](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)를 참조하십시오.</p> |  | 2026년 3월 |
 | **스트리밍 미디어 서비스: 일정 데이터 지원** <p>이제 과거 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청자 수를 보다 쉽고 정확하게 추적할 수 있습니다.</p><p>다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.</p><ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul><p>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다.</p><p>이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.</p><p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다.</p><p>자세한 내용은 [라이브 콘텐츠를 추적할 일정 데이터 업로드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-use-cases/track-schedule-data)를 참조하십시오.</p> | 2025년 10월 29일 | 2026년 상반기<p>(원래 2025년 10월 29일 릴리스로 계획됨)</p> |
 | **새 Adobe Analytics 2.0 보고서 세트 API 안내서** <p>보고서 세트 API를 만들고, 검색하고, 업데이트하고, 삭제합니다. 자세한 내용은 [Adobe Analytics 2.0 보고서 세트 API 참조 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/apis/report-suites/) 및 [Adobe Analytics 2.0 보고서 세트 API 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/report-suites/)를 참조하십시오.</p> | | 지금 사용 가능 |
@@ -62,6 +62,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
-* [Adobe Experience Cloud 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
