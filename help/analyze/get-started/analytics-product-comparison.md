@@ -3,10 +3,10 @@ description: Analysis Workspace, Report Builder, Data Warehouse 및 Data Workben
 title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: c4cd152d021615e32a690f0591575639c3939dbc
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 68%
 
 ---
 
@@ -38,3 +38,4 @@ ht-degree: 100%
 | **예약된 게재** | 예 | 예 | 예 | 예 | 아니요 |
 | **게재 대상** | 이메일 | 이메일, FTP, SFTP, [Microsoft PowerBI에 게시](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC 및 이메일 | Amazon S3, Azure RBAC, Azure SAS 및 Google Cloud Platform | - |
 | **가상 보고서 세트 보고서 시간 처리** <br> [자세히 알아보기](/help/components/vrs/vrs-report-time-processing.md) | 예 | 아니요 | 아니요 | 아니요 | 예 |
+| **지역 및 기술 보고서** | 예 <p>게시물 필드가 아닌 mid 값을 사용합니다. 방문 첫 번째 히트 논리는 `post_cust_hit_time_gmt` 대신 `visit_page_num=1`을(를) 기반으로 합니다. IP가 방문 중간에 변경되거나, 히트가 잘못된 순서로 도달하거나, 방문이 월 경계를 넘는 경우 결과는 다른 도구와 다를 수 있습니다.</p> | 예 <p>게시물 필드가 아닌 mid 값을 사용합니다. 방문 첫 번째 히트 논리는 `post_cust_hit_time_gmt` 대신 `visit_page_num=1`을(를) 기반으로 합니다. IP가 방문 중간에 변경되거나, 히트가 잘못된 순서로 도달하거나, 방문이 월 경계를 넘는 경우 결과는 다른 도구와 다를 수 있습니다.</p> | 예 <p>게시물 값과 `visit_page_num=1`을(를) 사용하여 방문의 첫 번째 히트를 결정합니다. 첫 번째 히트의 값을 이러한 차원에 대한 방문의 모든 히트에 적용합니다.</p> | 예 <p>게시물 값과 `visit_page_num=1`을(를) 사용하여 방문의 첫 번째 히트를 결정합니다. 첫 번째 히트의 값을 이러한 차원에 대한 방문의 모든 히트에 적용합니다.</p> | 예 <p>게시물 필드가 아닌 mid 값을 사용합니다. 방문 첫 번째 히트 논리는 `post_cust_hit_time_gmt` 대신 `visit_page_num=1`을(를) 기반으로 합니다. IP가 방문 중간에 변경되거나, 히트가 잘못된 순서로 도달하거나, 방문이 월 경계를 넘는 경우 결과는 다른 도구와 다를 수 있습니다.</p> |
