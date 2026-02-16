@@ -4,9 +4,9 @@ description: 기본적인 계산된 지표 함수에 대해 알아보십시오.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2579f33a57b2dfaf6d63470f42286bf782675c68
+source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3600'
 ht-degree: 49%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->[IF](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)&#x200B;(**Revenue** = *열 최대값&#x200B;**(Revenue*), 1, 0)과 같은 &#x200B;** IF** 문을 사용하여 분류에서 가장 성과가 좋은 항목을 강조 표시합니다.
+>[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)&#x200B;(**Revenue** = *열 최대값**(Revenue*), 1, 0)과 같은 **IF** 문을 사용하여 분류에서 가장 성과가 좋은 항목을 강조 표시합니다.
 >
 
 ## 열 최솟값 {#column-minimum}
@@ -123,7 +123,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->[IF](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)&#x200B;(**Revenue** = *열 최소값&#x200B;**(Revenue*), 1, 0)과 같은 &#x200B;** IF** 문을 사용하여 분류에서 성과가 가장 낮은 항목을 강조 표시하십시오.
+>[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)&#x200B;(**Revenue** = *열 최소값**(Revenue*), 1, 0)과 같은 **IF** 문을 사용하여 분류에서 성과가 가장 낮은 항목을 강조 표시하십시오.
 >
 
 
@@ -205,9 +205,9 @@ ht-degree: 49%
 |---|---|
 | 지표 | 밑 e에 적용된 지수. |
 
-**사용 사례**: 값을 제곱하거나 지수 증가 계수를 적용하는 등 지정한 거듭제곱으로 숫자나 지표를 늘립니다. 이는 증가 트렌드를 모델링하거나 지표를 기하급수적으로 확장할 때 유용합니다.
+**사용 사례**: *e*&#x200B;을(를) 지정한 숫자 또는 지표의 거듭제곱으로 늘립니다. 이는 증가 트렌드를 모델링하거나 지표를 기하급수적으로 확장할 때 유용합니다.
 
-**계산된 지표 빌더에서**: 지표와 거듭제곱 값으로 **Exponent**&#x200B;을(를) 사용합니다. 예: **Exponent**(*방문*, 2) *방문* 지표의 제곱을 지정합니다.
+**계산된 지표 빌더에서**: 지표에 **Exponent**&#x200B;을(를) 사용합니다. 예를 들어 **Exponent**(*방문 횟수*)는 *방문 횟수* 지표의 힘으로 *e*&#x200B;을(를) 증가시킵니다.
 
 >[!TIP]
 >
