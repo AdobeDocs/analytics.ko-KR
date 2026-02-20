@@ -58,4 +58,4 @@ s.visitorID = "abc123";
 
 ## 웹 SDK을 사용하는 방문자 ID
 
-Adobe Experience Platform Edge Network을 사용하면 XDM의 [ID 맵](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)을 사용하여 여러 식별자를 제공할 수 있습니다. ID 맵의 각 ID에는 다른 네임스페이스가 있습니다. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)의 일부로 방문자 ID에 사용할 네임스페이스를 지정할 수 있습니다. 이 필드가 구성되면 이 네임스페이스에 대해 지정된 값으로 이벤트를 보낼 때 Analytics에서 방문자 ID로 자동으로 사용됩니다.
+Adobe Experience Platform Edge Network을 사용하면 XDM의 [ID 맵](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=ko#using-identitymap)을 사용하여 여러 식별자를 제공할 수 있습니다. ID 맵의 각 ID에는 다른 네임스페이스가 있습니다. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko#analytics)의 일부로 방문자 ID에 사용할 네임스페이스를 지정할 수 있습니다. 이 필드가 구성되면 이 네임스페이스에 대해 지정된 값으로 이벤트를 보낼 때 Analytics에서 방문자 ID로 자동으로 사용됩니다.
