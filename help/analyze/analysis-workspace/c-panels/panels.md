@@ -91,7 +91,7 @@ ht-degree: 99%
 
 ## 보고서 세트
 
-각 패널은 [리포트 세트](/help/admin/tools/manage-rs/report-suites-admin.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *리포트 세트&#x200B;*]**로 식별됩니다.
+각 패널은 [리포트 세트](/help/admin/tools/manage-rs/report-suites-admin.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *리포트 세트&#x200B;*]**&#x200B;로 식별됩니다.
 
 새 패널을 만들면 기본 리포트 세트는 Analysis Workspace 프로젝트에서 마지막으로 작업한 패널의 리포트 세트를 기반으로 합니다.
 
@@ -146,7 +146,7 @@ ht-degree: 99%
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
-1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+1. **[!UICONTROL 적용]**&#x200B;을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
 
 
@@ -184,7 +184,7 @@ ht-degree: 99%
 
 정적 드롭다운 세그먼트를 사용하여 여러 프로젝트를 하나로 통합할 수도 있습니다. 예를 들어 다른 국가 세그먼트가 적용된 동일한 프로젝트의 여러 버전이 있는 경우 모든 버전을 단일 프로젝트로 통합하고 국가 드롭다운 세그먼트를 추가할 수 있습니다.
 
-![시장 채널 “직접” 필터가 강조 표시된 정적 드롭다운 세그먼트입니다. ](assets/dropdown-filter-intro.png)
+![시장 채널 “직접” 필터가 강조 표시된 정적 드롭다운 세그먼트입니다. &#x200B;](assets/dropdown-filter-intro.png)
 
 ##### 정적 드롭다운 세그먼트 만들기
 
