@@ -15,7 +15,7 @@ ht-degree: 41%
 Advertising Analytics 구성 워크플로우는 다음 단계로 구성됩니다.
 
 <!--
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
+>[!VIDEO](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
 1. [보고서 세트별로 Advertising Analytics 보고를 사용합니다](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Experience Cloud 지원 보고서 세트에[!UICONTROL Advertising Analytics] 보고를 사용합니다.

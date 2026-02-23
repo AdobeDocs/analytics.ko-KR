@@ -43,7 +43,7 @@ Analytics 데이터 처리 중에 데이터는 데이터 수집 파이프라인�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [이벤트로 새 방문 시작](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [이벤트로 새 방문 시작](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 

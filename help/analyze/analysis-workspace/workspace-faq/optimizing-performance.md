@@ -64,7 +64,7 @@ insight을 Analysis Workspace의 성능으로 전환하려면 다음을 수행�
 | 자유 형식 셀 개수 | 모든 테이블의 행과 열을 곱하여 계산한 프로젝트의 총 자유 형식 테이블 셀 수입니다. 이 값은 숨겨진 데이터 소스를 제외했습니다. 지침은 4,000개입니다. | 테이블의 열 수를 가장 관련성이 높은 데이터 포인트로만 줄입니다. 표시된 행 수를 조정하거나 테이블 필터를 적용하거나 세그먼트를 적용하여 테이블의 행 수를 줄입니다. |
 | 사용 가능한 구성 요소 | 프로젝트의 모든 보고서 세트에 걸쳐 프로젝트의 왼쪽 레일에서 검색된 총 구성 요소 수입니다. 이 값은 왼쪽 레일이 로드되는 속도와 검색 결과가 반환되는 속도에 영향을 줍니다. 지침은 2,000개입니다. | 구성 요소 세트가 더욱 맞춤화되는 선별된 가상 보고서 세트를 만드는 방법은 제품 관리자에게 문의하십시오. |
 | 사용된 구성 요소 | 프로젝트에서 사용되는 총 구성 요소 수입니다. 지침은 100개입니다. | 사용된 구성 요소 수는 성능에 직접적인 영향을 주지 않습니다. 그러나 이러한 구성 요소의 복잡성은 프로젝트 성능에 영향을 줍니다. 아래의 A[추가 요소](#additional-factors) 섹션에서 최적화를 참조하십시오. |
-| 가장 긴 날짜 범위 | 이 요소에는 프로젝트에서 사용되는 가장 긴 날짜 범위가 표시됩니다. 지침은 1년입니다. | 가능하면 필요 이상의 데이터를 가져오지 마십시오. 패널 달력의 범위를 분석 관련 날짜로 좁힙니다. 또는 자유 형식 테이블에서 날짜 범위 구성 요소를 사용합니다. 테이블에 사용된 날짜 범위는 패널 날짜 범위를 덮어씁니다. 예를 들어 지난 달, 지난 주 및 어제를 테이블 열에 추가하여 해당하는 특정 데이터 범위를 요청할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace)에서 확인하십시오. <br><br>프로젝트에서 사용되는 연도별 비교 횟수도 최소화합니다. 연도별 비교가 계산되면 계산은 관심 월 사이의 전체 13개월 데이터를 살펴봅니다. 이 비교는 패널 날짜 범위를 지난 13개월로 변경하는 것과 동일한 영향을 줍니다. |
+| 가장 긴 날짜 범위 | 이 요소에는 프로젝트에서 사용되는 가장 긴 날짜 범위가 표시됩니다. 지침은 1년입니다. | 가능하면 필요 이상의 데이터를 가져오지 마십시오. 패널 달력의 범위를 분석 관련 날짜로 좁힙니다. 또는 자유 형식 테이블에서 날짜 범위 구성 요소를 사용합니다. 테이블에 사용된 날짜 범위는 패널 날짜 범위를 덮어씁니다. 예를 들어 지난 달, 지난 주 및 어제를 테이블 열에 추가하여 해당하는 특정 데이터 범위를 요청할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace)에서 확인하십시오. <br><br>프로젝트에서 사용되는 연도별 비교 횟수도 최소화합니다. 연도별 비교가 계산되면 계산은 관심 월 사이의 전체 13개월 데이터를 살펴봅니다. 이 비교는 패널 날짜 범위를 지난 13개월로 변경하는 것과 동일한 영향을 줍니다. |
 
 ## 요청 요소
 
@@ -111,7 +111,7 @@ insight을 Analysis Workspace의 성능으로 전환하려면 다음을 수행�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [생산성 향상을 위한 팁](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/tips-to-increase-productivity-in-analysis-workspace){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [생산성 향상을 위한 팁](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/tips-to-increase-productivity-in-analysis-workspace){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 

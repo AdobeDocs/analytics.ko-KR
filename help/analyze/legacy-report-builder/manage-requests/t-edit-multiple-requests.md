@@ -49,4 +49,4 @@ ht-degree: 52%
 
 다음은 이러한 프로세스를 보여 주는 비디오입니다.
 
-https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
+https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

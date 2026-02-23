@@ -27,4 +27,4 @@ Analytics 제품 및 사용자를 관리하려면 [Adobe Admin Console](https://
 
 Adobe Analytics에서 관리자를 추가하는 방법을 알아보려면 다음 비디오를 보십시오.
 
-[Adobe Analytics에서 관리자 추가](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}
+[Adobe Analytics에서 관리자 추가](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}
