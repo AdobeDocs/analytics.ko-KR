@@ -4,9 +4,9 @@ description: 알고리즘 속성 모델의 세부 사항을 이해합니다.
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 42%
 
 ---
@@ -18,7 +18,7 @@ Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [알고리즘 속성](https://video.tv.adobe.com/v/40052?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [알고리즘 속성](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

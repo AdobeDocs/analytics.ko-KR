@@ -4,9 +4,9 @@ description: Analysis Workspace에서 미디어 재생 소요 시간 패널을 �
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1167'
 ht-degree: 90%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 미디어 재생 소요 시간 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)Customer Journey Analytics_ ![버전은 &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**미디어 재생 시간 소요 패널**&#x200B;을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 미디어 재생 소요 시간 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)Customer Journey Analytics_ ![버전은 ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**미디어 재생 시간 소요 패널**&#x200B;을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 재생 소요 시간 패널](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -147,7 +147,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
 
 ## Use the Media Playback Time Spent panel
 

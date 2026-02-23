@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 95%
+source-wordcount: '297'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 플로우 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [플로우](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)를 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 플로우 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [플로우](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -47,12 +47,12 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화](https://video.tv.adobe.com/v/3410744?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
-## 차원 간 플로우
+## 차원 간 흐름
 
 [차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 흐름은 홈 페이지에서 “남성” 페이지로 이동한 다음 “신발” 부문으로 이동할 수 있습니다.
 
@@ -68,7 +68,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화의 추가 기능](https://video.tv.adobe.com/v/30878?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [플로우 시각화의 추가 기능](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/understand-your-data-fallout-flow){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

@@ -4,10 +4,10 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트 만들기
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 62%
+source-wordcount: '675'
+ht-degree: 53%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 62%
 
 | 요소 | 설명 |
 | --- |--- |
-| 이름 | 가상 보고서 세트 이름은 상위 보고서 세트에서 상속되지 않으므로 구분해야 합니다. |
-| 설명 | 비즈니스 사용자의 혜택에 대한 설명을 추가합니다. |
+| 이름 | 가상 보고서 세트의 이름은 상위 보고서 세트에서 상속되지 않으며 고유해야 합니다. |
+| 설명 | 비즈니스 사용자의 이익을 위해 적절한 설명을 추가합니다. |
 | 태그 | 태그를 추가하여 보고서 세트를 구성할 수 있습니다. |
-| 소스 | 이 가상 보고서 세트에 다음 설정을 상속하는 보고서 세트입니다. 대부분의 서비스 수준 및 기능 (예: eVar 설정, 처리 규칙, 분류 등)이 상속됩니다. 가상 보고서 세트에서 상속한 이러한 설정을 변경하려면 상위 보고서 세트를 편집해야 합니다(관리 > 보고서 세트). |
+| 소스 | 이 가상 보고서 세트가 상속되는 보고서 세트는 다음 설정을 상속합니다. 대부분의 서비스 수준 및 기능 (예: eVar 설정, 처리 규칙, 분류 등)이 상속됩니다. 가상 보고서 세트에서 상속한 이러한 설정을 변경하려면 상위 보고서 세트를 편집해야 합니다(관리 > 보고서 세트). |
 | 시간대 | 시간대 선택은 선택 사항입니다. 시간대를 선택하면 가상 보고서 세트와 함께 저장됩니다. 시간대를 선택하지 않으면 상위 보고서 세트의 시간대가 사용됩니다.  가상 보고서 세트를 편집할 때 가상 보고서 세트와 함께 저장된 시간대가 드롭다운 선택기에 표시됩니다. 가상 보고서 세트가 시간대 지원이 추가되기 전에 만들어진 경우 상위 보고서 세트의 시간대가 드롭다운 선택기에 표시됩니다. |
 | 세그먼트 | 한 개 세그먼트를 추가하거나 세그먼트를 스택할 수 있습니다.   참고: 2개의 세그먼트를 스택할 때 AND 문으로 연결됩니다. 이것을 OR 문으로 변경할 수 없습니다. 현재 가상 보고서 세트에 사용된 세그먼트를 삭제하거나 수정하려고 하면 경고가 표시됩니다. |
 
@@ -46,19 +46,19 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [방문 정의 조정](https://video.tv.adobe.com/v/3428476?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [방문 정의 조정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 | 요소 | 설명 |
 | --- |--- |
 | **방문 정의 구성** |  |
-| 보고서 시간 처리 활성화 | 보고서 시간 처리를 사용하여 기본 방문 시간 초과 길이를 변경합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. [추가 정보](/help/components/vrs/vrs-report-time-processing.md) |
+| 보고서 시간 처리 활성화 | 보고서 시간 처리를 사용하여 기본 방문 시간 초과 길이를 변경합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. [자세히 알아보기](/help/components/vrs/vrs-report-time-processing.md) |
 | 방문 시간 초과 | 새로운 방문이 자동으로 시작되기 전에 고유 방문자가 보유해야 하는 비활성의 양을 정의합니다. 방문 횟수 지표, 방문 세그먼트 컨테이너 및 방문 시 만료되는 eVar에 영향을 미칩니다. |
 | 이벤트로 새 방문 시작 | 세션의 시간이 초과되었는지 여부와 상관없이 지정된 이벤트가 발생하는 경우 새 세션을 시작합니다. |
 | **모바일 앱 방문 설정** | Adobe의 Mobile SDK에서 수집한 모바일 앱 조회수에 대해 방문 횟수가 정의되는 방식을 수정합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. |
 | 배경 조회수로 인해 새로운 방문이 시작되지 않도록 차단 | 배경 조회수로 인해 새로운 방문이 시작되지 않고 방문 횟수 및 고유 방문자 지표가 부풀려지지 않도록 차단합니다. |
-| 앱 실행 시마다 새 방문 시작 | 앱 실행이 발생하면 새 세션을 시작합니다. [추가 정보](/help/components/vrs/vrs-mobile-visit-processing.md) |
+| 앱 실행 시마다 새 방문 시작 | 앱 실행이 발생하면 새 세션을 시작합니다. [자세히 알아보기](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## 구성 요소를 포함하고 이름을 변경합니다
 

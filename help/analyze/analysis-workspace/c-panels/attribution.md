@@ -4,7 +4,7 @@ description: Analysis Workspace에서 속성 패널을 사용하고 해석하는
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 94%
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 속성 패널에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 속성 패널에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 * 무제한 속성 모델 비교를 사용: 원하는 수만큼 모델을 동적으로 비교합니다.
 * 구현 변경 방지: 보고서 처리 시간 및 컨텍스트 인식 세션으로 고객 여정 컨텍스트를 구축하고 런타임에 적용할 수 있습니다.
 * 사용자의 속성 시나리오와 일치하는 세션을 생성합니다.
-* 세그먼트별 속성 분류: 중요한 모든 세그먼트(예: 신규 및 반복 고객, 제품 X와 제품 Y, 로열티 수준 또는 CLV)에서 마케팅 채널의 실적을 쉽게 비교할 수 있습니다.
+* 세그먼트별 속성 분류: 중요한 모든 세그먼트(예: 신규 및 반복 고객, 제품 X와 제품 Y, 로열티 등급 또는 CLV)에서 마케팅 채널의 실적을 쉽게 비교할 수 있습니다.
 * 채널 교차 및 다중 터치 분석: 벤 다이어그램, 히스토그램 및 트렌드 속성 결과를 사용합니다.
 * 주요 마케팅 시퀀스를 시각적으로 분석: 다중 노드 플로우 및 폴아웃 시각화를 통해 시각적으로 전환된 경로를 탐색합니다.
 * 계산된 지표 작성: 여러 속성 할당 방법을 사용합니다.
@@ -88,7 +88,7 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 * **추세적 성과**: 최상위 차원 항목에 대한 속성 전환 추세를 표시합니다. 인접 자유 형식 테이블에서 다른 행을 선택하면 선택 사항을 반영하도록 시각화가 업데이트됩니다.
 * **플로우**: 어떤 채널과 가장 일반적으로 상호 작용하는지 그리고 방문자의 여정에서 어떤 순서로 상호 작용하는지 확인할 수 있습니다.
 
-## 속성 모델
+## 기여도 모델
 
 {{attribution-models-details}}
 
@@ -114,7 +114,7 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/33011/?quality=12&captions=kor)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
 
 ## Create an attribution panel
 

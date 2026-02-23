@@ -3,9 +3,9 @@ description: 가상 보고서 세트의 컨텍스트 인식 세션은 Adobe Anal
 title: 컨텍스트 인식 세션
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 50f04ed366bf973fac43a29d6291afb017eb1f85
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1578'
 ht-degree: 87%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [컨텍스트 인식 세션](https://video.tv.adobe.com/v/3428476?captions=kor&quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [컨텍스트 인식 세션](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

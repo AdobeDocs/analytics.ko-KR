@@ -4,10 +4,10 @@ description: 집단 분석을 통해 대상자에 대한 데이터를 더 깊이
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 90%
+source-wordcount: '705'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 코호트 테이블에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 코호트 테이블에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 [!UICONTROL 코호트 테이블]로 수행할 수 있는 작업의 예:
 
 * 원하는 액션에 박차를 가할 수 있도록 설계된 캠페인 시작.
-* 고객 라이프사이클에서 적시에 마케팅 예산 전환.
+* 고객 라이프사이클에서 적시에 마케팅 예산을 이동합니다.
 * 체험판이나 오퍼를 종료하여 가치를 극대화할 시점 인식.
 * 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
 
@@ -57,7 +57,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 코호트 테이블](https://video.tv.adobe.com/v/3430073/?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -128,7 +128,7 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/3430088?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/overview-of-cohort-tables-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -153,7 +153,7 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/3430171?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/calculate-rolling-retention-in-cohort-tables){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +167,7 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/3430160?quality=12&learn=on&captions=kor){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/churn-analysis-with-cohort-tables){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

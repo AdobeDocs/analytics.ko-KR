@@ -5,10 +5,10 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 92%
+source-wordcount: '168'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 트리맵 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [트리맵](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/treemap)을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 트리맵 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [트리맵](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/treemap)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [트리맵 시각화](https://video.tv.adobe.com/v/3416857/?quality=12&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [트리맵 시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -48,6 +48,6 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

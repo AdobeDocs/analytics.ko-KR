@@ -5,9 +5,9 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '334'
 ht-degree: 96%
 
 ---
@@ -16,11 +16,15 @@ ht-degree: 96%
 
 차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다.
 
+<!-- 
+
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [차원 간 흐름](https://video.tv.adobe.com/v/30905?quality=12&learn=on&captions=kor){target="_blank"}을 확인하십시오.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensional flows](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
+
+-->
 
 이 문서에서는 모바일 앱 상호작용 및 이벤트 사용 사례에서 이 흐름을 사용하는 방법과 캠페인이 웹 방문을 유도하는 방법을 보여 줍니다.
 

@@ -4,9 +4,9 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1178'
 ht-degree: 79%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://video.tv.adobe.com/v/345340/?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

@@ -1,39 +1,39 @@
 ---
-description: Adobe Audience Manager(Adobe Audience Manager)는 퍼스트 파티, 세컨드 파티/파트너 및 서드 파티 데이터 통합에서 고유한 대상 프로필을 구축할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. 광고주의 경우 이러한 대상 프로필은 디지털 채널에서 사용할 가장 중요한 세그먼트를 정의할 수 있도록 지원합니다.
+description: Adobe Audience Manager(Adobe Audience Manager)는 퍼스트 파티, 세컨드 파티/파트너 및 서드 파티 데이터 통합에서 고유한 대상 프로필을 구축할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. 광고주에게 이러한 대상 프로필은 모든 디지털 채널에서 사용할 가장 중요한 세그먼트를 정의하는 데 도움이 됩니다.
 solution: Experience Cloud
 title: Audience Analytics 개요
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 42%
+source-wordcount: '479'
+ht-degree: 23%
 
 ---
 
 # Audience Analytics 개요
 
-Adobe Audience Manager(Adobe Audience Manager)는 퍼스트 파티, 세컨드 파티/파트너 및 서드 파티 데이터 통합에서 고유한 대상 프로필을 구축할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. 광고주의 경우 이러한 대상 프로필은 디지털 채널에서 사용할 가장 중요한 세그먼트를 정의할 수 있도록 지원합니다.
+Adobe Audience Manager(Adobe Audience Manager)는 퍼스트 파티, 세컨드 파티/파트너 및 서드 파티 데이터 통합에서 고유한 대상 프로필을 구축할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. 광고주에게 이러한 대상 프로필은 모든 디지털 채널에서 사용할 가장 중요한 세그먼트를 정의하는 데 도움이 됩니다.
 
 Audience Analytics 통합이 제대로 이루어지면 인구 통계학적 정보 (예: 성별 또는 수입 수준), 대상 데이터 (예: 인구 통계 정보), 사이코그래프 정보 (예: 관심사 및 취미), CRM 데이터 및 광고 노출 데이터와 같은 Adobe Audience Manager 대상 데이터를 Analytics 워크플로에 통합할 수 있습니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/40737?quality=12&learn=on&captions=kor){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 
 
 ## 주요 이점 {#benefits}
 
-Audience Analytics의 통합은 다음과 같은 주요 이점을 제공합니다.
+Audience Analytics 통합에는 다음과 같은 주요 이점이 있습니다.
 
 * 이는 시장에서 DMP (데이터 관리 플랫폼)와 분석 엔진 간에 처음으로 제품화된 통합입니다.
 * 실시간으로 대상 검색, 세그먼테이션 및 최적화를 알리기 위해 Adobe Audience Manager에서 Analytics로 세그먼트가 공유됩니다.
 * 모든 Adobe Audience Manager 세그먼트는 기본적으로 공유되므로 Analytics에서 고객 프로필을 충분히 향상시킬 수 있습니다.
-* 솔루션 관리자는 최소한의 코드 변경만으로 사용자 인터페이스를 통해 통합할 수 있습니다.
-* Audience Manager 데이터 내보내기 제어를 준수하는 세그먼트만 공유됩니다.
+* 솔루션 관리자는 필요한 최소한의 코드 변경으로 사용자 인터페이스를 통한 통합을 활성화할 수 있습니다.
+* Audience Manager 데이터 내보내기 컨트롤을 준수하는 세그먼트만 공유됩니다.
 
 ## Audience Analytics 작동 방식 {#works}
 
@@ -51,10 +51,10 @@ Adobe Audience Manager 세그먼트는 동일한 히트 기준으로 삽입되�
 
 다음 사전 요구 사항이 적용되었는지 확인합니다.
 
-* Audience Manager와 Adobe Analytics의 고객입니다.
+* Audience Manager 및 Adobe Analytics의 고객입니다.
 * Audience Manager 관리자입니다.
 * Identity Service v1.5 이상을 사용하고 있습니다.
 * Adobe Audience Manager 및 Adobe Analytics 보고서 세트는 동일한 Experience Cloud 조직에 매핑됩니다.
-* [서버측 전달](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko) (DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
+* [서버측 전달](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
 
 이러한 사전 요구 사항은 [Audience Analytics 워크플로](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)에 설명되어 있습니다.

@@ -3,10 +3,10 @@ description: THEN 연산자를 사용하여 일련의 세그먼트 조건을 정
 title: SequentialSegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '2375'
-ht-degree: 5%
+source-wordcount: '2376'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [순차적 세그먼테이션](https://video.tv.adobe.com/v/32591?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [순차적 세그먼테이션](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ ht-degree: 5%
 1. ![시계](/help/assets/icons/Clock.svg)를 선택합니다.
 1. 컨텍스트 메뉴에서 **[!UICONTROL Within]** 또는 **[!UICONTROL After]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 년]**&#x200B;까지 기간(**[!UICONTROL 분]**, **[!UICONTROL 시간]**)을 지정하십시오.
-1. ![-](/help/assets/icons/ChevronDown.svg) 또는 **[!UICONTROL *+*]**&#x200B;을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면&#x200B;**[!UICONTROL &#x200B; VDown &#x200B;]**&#x200B;**[!UICONTROL &#x200B; number &#x200B;]**&#x200B;을(를) 선택하십시오.
+1. ![-](/help/assets/icons/ChevronDown.svg) 또는 **[!UICONTROL *+*]**을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면**[!UICONTROL  VDown ]****[!UICONTROL  number ]**을(를) 선택하십시오.
 
 시간 제약 조건을 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 사용하십시오.
 
@@ -87,7 +87,7 @@ ht-degree: 5%
 | 연산자 | 설명 |
 |--- |--- |
 | **[!UICONTROL 이후]** | [!UICONTROL After] 연산자는 두 체크포인트 사이의 시간에 대한 최소 한도 지정에 사용됩니다. After 값 설정 시 시간 제한은 세그먼트가 적용될 때 시작됩니다. 예를 들어, 페이지 A를 방문하지만 하루가 지날 때까지 페이지 B를 방문하러 돌아오지 않는 방문자를 파악하기 위해 [!UICONTROL After] 연산자를 컨테이너에 설정한 경우, 방문자가 페이지 A를 나갈 때 해당 날짜가 시작됩니다.  방문자가 세그먼트에 포함되려면 페이지 B를 보기 위해 페이지 A를 나간 후 최소 1440분(하루)이 지나야 합니다. |
-| **[!UICONTROL 내부]** | [!UICONTROL Within] 연산자는 두 체크포인트 사이의 시간에 대한 최대 한도 지정에 사용됩니다. 예를 들어, 페이지 A를 방문한 다음 하루 안에 페이지 B를 다시 방문하는 방문자를 식별하기 위해 [!UICONTROL Within] 연산자가 컨테이너에 설정된 경우 방문자가 페이지 A를 나갈 때 해당 날짜가 시작됩니다. 세그먼트에 포함되기 위해 방문자는 페이지 B를 열기 전에 최대 하루의 시간을 갖습니다. 방문자가 세그먼트에 포함되려면 페이지 B를 보기 위해 페이지 A를 나간 후 최대 1440분(하루) 이내에 페이지 B를 열어야 합니다. |
+| **[!UICONTROL 내부]** | [!UICONTROL Within] 연산자는 두 체크포인트 사이의 시간에 대한 최대 제한을 지정하는 데 사용됩니다. 예를 들어, 페이지 A를 방문한 다음 하루 안에 페이지 B를 다시 방문하는 방문자를 식별하기 위해 [!UICONTROL Within] 연산자가 컨테이너에 설정된 경우 방문자가 페이지 A를 나갈 때 해당 날짜가 시작됩니다. 세그먼트에 포함되기 위해 방문자는 페이지 B를 열기 전에 최대 하루의 시간을 갖습니다. 방문자가 세그먼트에 포함되려면 페이지 B를 보기 위해 페이지 A를 나간 후 최대 1440분(하루) 이내에 페이지 B를 열어야 합니다. |
 | **[!UICONTROL 다음 이후지만]** 이내 | [!UICONTROL After] 및 [!UICONTROL Within] 연산자를 모두 사용하는 경우 두 연산자 모두 순차적이 아니라 나란히 시작하고 끝납니다. <br/>예를 들어 컨테이너를 `After = 1 Week(s) and Within = 2 Week(s)`(으)로 설정하여 세그먼트를 만듭니다.<br/>이 세그먼트의 방문자를 식별하는 조건은 1주와 2주 사이에만 충족됩니다. 두 조건 모두 첫 번째 페이지 보기 시부터 적용됩니다. |
 
 
@@ -115,14 +115,14 @@ ht-degree: 5%
 
 한 페이지를 방문한 다음 2주 후, 그러나 1개월 내에 다른 페이지를 방문한 방문자를 식별합니다. 예를 들어 홈 페이지를 방문한 다음 2주 후 그리고 1개월 내에 여성을 방문한 방문자 | 신발 페이지.
 
-![다음 이후지만 &#x200B;](assets/sequence-afterbutwithin.png) 이내에 시퀀스
+![다음 이후지만 ](assets/sequence-afterbutwithin.png) 이내에 시퀀스
 
 2024년 6월 1일에 홈 페이지를 히트하고 여성 을(를) 방문하기 위해 돌아오는 모든 방문자 | 2019년 6월 15일 이후, 그러나 2019년 7월 1일 이전에 게시된 신발 페이지는 세그먼트에 해당됩니다.:01
 
 
 ### [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL Dimension] 제한
 
-![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 히트, 방문 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 히트]**, **[!UICONTROL 방문]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**&#x200B;을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
+![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 히트, 방문 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 히트]**, **[!UICONTROL 방문]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
 
 #### 예
 
@@ -302,4 +302,4 @@ An example of a complex sequential segment if you want to find the visitors that
 
 >[!MORELIKETHIS]
 >
-> * [AA 및 CJA에서 순차적 논리 마스터하기: THEN 소개](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=ko)
+> * [AA 및 CJA에서 순차적 논리 마스터하기: THEN 소개](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

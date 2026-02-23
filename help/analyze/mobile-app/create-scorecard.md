@@ -4,10 +4,10 @@ title: 모바일 스코어카드 만들기 및 공유
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '2524'
-ht-degree: 100%
+source-wordcount: '2528'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://video.tv.adobe.com/v/38159?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -87,7 +87,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 바로 드롭합니다.
 
-스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko)합니다.
+스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe Analytics Workspace에서 수행한 것과 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)합니다.
 
 ![필터용 세그먼트 빌드](assets/segment_ui.png)
 
@@ -130,7 +130,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://video.tv.adobe.com/v/3445773?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://video.tv.adobe.com/v/3413790?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 사용자 정의 세부 정보 보기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://video.tv.adobe.com/v/3420563?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

@@ -4,10 +4,10 @@ title: 자주 묻는 질문
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '554'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 �
 특별한 구현은 필요하지 않습니다. Analysis Workspace는 Analytics Standard 또는 Premium이 있는 모든 회사에서 사용할 수 있습니다. 그렇지만 콘텐츠(예: 보고서 세트 및 프로젝트 구성 요소)에 대한 표준 권한이 적용되고 프로젝트를 조정하고 공유할 수 있습니다. [관리 및 액세스 요구 사항](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)을 참조하십시오.
 +++
 
-+++Data Warehouse에 Analysis Workspace을 사용할 수 있습니까?
++++Data Warehouse용 Analysis Workspace을 사용할 수 있습니까?
 Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다. 대시보드와 유사한 분석 프로젝트를 만드는 시각화 작업 영역입니다.
 +++
 
@@ -45,13 +45,13 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 
 +++데이터를 Analysis Workspace 프로젝트에 포함시키는 방법
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace로의 데이터](https://video.tv.adobe.com/v/33282?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace로의 데이터](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"}를 확인하십시오.
 
 +++
 
 +++Workspace 사용을 추적하는 방법
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [로그 추적](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [로그 추적](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"}을 참조하십시오.
 
 +++
 
@@ -68,7 +68,7 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 * 보고서 세트를 다시 확인하여 데이터가 채워져 있는지 확인하십시오.
 * 보고서에서 세그먼트를 적용했다면 세그먼트 기준이 데이터와 일치하지 않을 수 있습니다. 세그먼트를 제거하거나 세그먼트 정의를 조정해 보십시오.
 * 오른쪽 상단의 날짜 범위를 확인하고 예상한 값으로 설정되어 있는지 확인하십시오.
-* 웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)를 사용하여 데이터가 수집되고 있는지 확인하십시오.
+* 웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)를 사용하여 데이터가 수집되고 있는지 확인하십시오.
 
 
 +++

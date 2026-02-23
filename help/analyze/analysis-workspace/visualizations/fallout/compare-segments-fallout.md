@@ -5,10 +5,10 @@ title: 폴아웃 분석에서 세그먼트 적용
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 42%
+source-wordcount: '436'
+ht-degree: 41%
 
 ---
 
@@ -51,12 +51,6 @@ ht-degree: 42%
 
 폴아웃 시각화에서는 세그먼트를 무제한으로 비교할 수 있습니다. (아래 비디오에는 최대 3개의 세그먼트를 비교할 수 있다고 나와 있는데, 이는 잘못된 것입니다.)
 
-
->[!BEGINSHADEBOX]
-
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [폴아웃 시각화에서 세그먼트 비교](https://video.tv.adobe.com/v/30863?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
-
->[!ENDSHADEBOX]
 
 
 1. 왼쪽의 [!UICONTROL 세그먼트] 패널에서 비교할 세그먼트를 선택합니다. 예제에서는 두 개의 세그먼트를 선택합니다. **[!UICONTROL iOS]** 및 **[!UICONTROL Android]**.

@@ -4,10 +4,10 @@ description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 99%
 
 ---
 
@@ -53,28 +53,28 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 속성](https://video.tv.adobe.com/v/33015?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 속성](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표의 속성](https://video.tv.adobe.com/v/30857?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표의 속성](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/attribution-iq-in-calculated-metrics){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 패널 사용](https://video.tv.adobe.com/v/33011?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 패널 사용](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 모델의 병렬 비교 추가](https://video.tv.adobe.com/v/327799?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [속성 모델의 병렬 비교 추가](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/adding-side-by-side-comparisons-of-attribution-iq-models){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

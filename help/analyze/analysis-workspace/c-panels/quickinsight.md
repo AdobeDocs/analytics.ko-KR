@@ -4,7 +4,7 @@ title: 빠른 인사이트 패널
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 91%
@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 빠른 인사이트 패널에 대해 설명합니다._<br/>_이 문서의 [&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/quickinsight.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대한 _&#x200B;**빠른 인사이트 패널**&#x200B;을 참조하세요._
+_이 문서에서는_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 빠른 인사이트 패널에 대해 설명합니다._<br/>_이 문서의 [ ](/help/analyze/analysis-workspace/c-panels/quickinsight.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대한 _**빠른 인사이트 패널**&#x200B;을 참조하세요._
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +103,7 @@ _이 문서에서는_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 1. 하나 이상의 차원과 지표를 추가한 경우 결과를 조회할 수 있습니다.
 
-   ![차원을 세로로 표시하고 지표를 가로로 표시한 자유 형식 테이블입니다.](assets/quick-insights-output.png)
+   ![The 자유 형식 테이블 showing the dimension vertically and the metric horizontally.](assets/quick-insights-output.png)
 
    * [!UICONTROL 최근 12개월] 동안 [!UICONTROL 검색 엔진] [!UICONTROL 방문 수]에 따라 세그먼트화된 차원([!UICONTROL 국가 사이트])과 지표([!UICONTROL 방문 수])가 포함된 자유 형식 테이블.
 
@@ -131,7 +131,7 @@ _이 문서에서는_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _
 
    * **[!UICONTROL 필터링 기준]**: 최대 2개의 세그먼트를 추가할 수 있습니다. 예를 들어 예약을 세그먼트로 추가하고, 해당 세그먼트를 자주 방문하는 예약자 세그먼트, 처음 여행하는 고객 세그먼트와 결합하여 비교합니다. ➏, ➐ 및 ➑을(를) 참조하십시오.
 
-   * 범위: 날짜 범위를 지정할 수 있습니다. 자세한 내용은 ➒를 참조하십시오.
+   * 범위: 날짜 범위를 지정할 수 있습니다. ➒을(를) 참조하십시오.
 
 ## 알려진 제한 사항
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326703/?quality=12&captions=kor)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace)
 
 ## Basic key terminology
 

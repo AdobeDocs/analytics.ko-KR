@@ -4,10 +4,10 @@ keywords: 계산된 지표
 title: 계산된 지표 개요
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 99%
 
 ---
 
@@ -59,13 +59,13 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표](https://video.tv.adobe.com/v/32607?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [계산된 지표](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 내 세그먼트화된 계산된 지표](https://video.tv.adobe.com/v/32602?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 내 세그먼트화된 계산된 지표](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[지표 만들기](/help/components/calculated-metrics/workflow/cm-workflow.md)
->>[지표 빌드](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
->>[함수 사용](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+>[지표 빌드](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>[함수 사용](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >

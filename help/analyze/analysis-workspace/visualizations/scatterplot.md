@@ -3,9 +3,9 @@ title: 분산
 description: Analysis Workspace에서 분산형 시각화를 만들고 해석하여 차원 항목과 최대 3개의 지표 간 관계를 분석하는 방법에 대해 알아봅니다.
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '232'
 ht-degree: 65%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 산포도 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [산포도](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)를 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 산포도 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [산포도](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -37,12 +37,12 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 * 세 번째 열은 점의 반경을 결정합니다.
 * 자유 형식 테이블의 모든 후속 열은 산포도 시각화에 의해 무시됩니다.
 
-![여러 항목을 보여 주는 산포도의 예 &#x200B;](assets/scatter.png)
+![여러 항목을 보여 주는 산포도의 예 ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://video.tv.adobe.com/v/3416862/?captions=kor&quality=12){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

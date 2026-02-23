@@ -3,10 +3,10 @@ description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작
 title: 세그먼트 정보
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 100%
+source-wordcount: '988'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 세그먼트는 다음 값을 기반으로 할 수 있습니다.
 
-- 속성 기반 방문자: 브라우저 유형, 디바이스, 방문 수, 국가, 성별
+- 속성 기준 방문자: 브라우저 유형, 장치, 방문 수, 국가, 성별
 - 상호 작용 기준 방문자: 캠페인, 키워드 검색, 검색 엔진
 - 종료 및 시작 기준 방문자: Facebook, 정의된 랜딩 페이지, 참조 도메인의 방문자
 - 사용자 정의 변수 기준 방문자: 양식 필드, 정의된 카테고리, 고객 ID
@@ -89,7 +89,7 @@ ht-degree: 100%
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">또는</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">OR</td></td>
 </tr>
 
 <tr>
@@ -108,7 +108,7 @@ ht-degree: 100%
 
 이러한 유형의 세그먼트는 [!UICONTROL AND] 및 [!UICONTROL OR] 연산자를 사용하여 연결된 특성에 따라 데이터 세트를 필터링합니다.
 
-- [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)할 수 있습니다.
+- [보고서 또는 프로젝트에 여러 세그먼트를 적용](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)할 수 있습니다.
 - 세그먼트는 모든 보고서 세트에 범용입니다.
 - [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)는 세그먼트 생성을 단순화합니다.
 - [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 설정할 수 있습니다.
@@ -218,7 +218,7 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>또는</td></td>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>OR</td></td>
 </tr>
 
 <tr>
@@ -240,16 +240,16 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://video.tv.adobe.com/v/3429105?quality=12&learn=on&captions=kor){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
 
 ## 권한 {#permissions}
 
-+++ **세그먼트를 사용하고 만들고 관리하는 데 필요한 권한**
++++ **세그먼트를 사용, 생성 및 관리하는 데 필요한 권한과 권한은 무엇입니까?**
 
-기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](/help/admin/admin-console/home.md)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
+기본적으로 모든 사용자는 개인 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](/help/admin/admin-console/home.md)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
 관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [역할별 세그먼트 권한](/help/components/segmentation/seg-reference/seg-rights.md)
 

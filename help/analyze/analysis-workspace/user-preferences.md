@@ -4,9 +4,9 @@ description: 사용자를 위한 일반 프로젝트 환경 설정 방법에 대
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 3d786731c959da9a5eb02572394aced6ffd0deb1
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '3456'
+source-wordcount: '3457'
 ht-degree: 99%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://video.tv.adobe.com/v/3429994/?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 

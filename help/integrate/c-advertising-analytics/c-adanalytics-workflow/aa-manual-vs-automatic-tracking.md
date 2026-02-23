@@ -3,10 +3,10 @@ description: 추적 유형은 Adobe Analytics 구현이 검색 엔진 데이터�
 title: 추적 유형
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 29%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 29%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/33294/?quality=12&captions=kor)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -33,11 +33,11 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 **[!UICONTROL 자동]** 유형의 검색 엔진 계정을 구성하려면 다음 작업을 수행해야 합니다.
 
 * `s_kwcid` 매개 변수 및 값이 추가되는 계정의 계정 추적 템플릿 또는 랜딩 페이지 URL에 추가됩니다. 이 매개 변수와 값은 URL 끝에 삽입됩니다. 웹 서버에서 URL 끝에 특정 `key=value` 쌍이 필요한 경우 추가 작업이 필요할 수 있습니다. 또는 URL에서 새 `key=value` 쌍을 지원하는 업데이트입니다. 추가된 URL 매개 변수가 최종 랜딩 페이지에 올바르게 유지되는지는 사용자가 확인해야 합니다.
-* 또한 `s_kwcid` 값의 일부로 랜딩 URL에 키워드를 삽입할 수 있습니다. 특수 문자 또는 기호를 포함하는 경우 웹 서버에서 이러한 문자를 지원할 수 있는지 확인하십시오. 예를 들어 일반적인 특수 문자는 &quot;Broad Match Modified&quot; 키워드에 사용되는 `+`입니다.
+* 또한 `s_kwcid` 값의 일부로 랜딩 URL에 키워드를 삽입할 수 있습니다. 특수 문자 또는 기호가 포함되어 있는 경우 웹 서버에서 이러한 문자를 지원할 수 있는지 확인하십시오. 예를 들어 일반적인 특수 문자는 &quot;Broad Match Modified&quot; 키워드에 사용되는 `+`입니다.
 
 >[!IMPORTANT]
 >
->`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/ko/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보십시오.
+>`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보십시오.
 
 ## 수동 추적 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +98,7 @@ Microsoft Advertising 계정에 추가해야 하는 문자열이 아래에 표�
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_값 (아래에&#x200B;**굵게**&#x200B;표시됨)은 제네릭이므로,**특정 계정 ID 문자열로 대체해야**&#x200B;합니다. 계정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
+>_`<Advertising Analytics ID>`_값 (아래에&#x200B;**굵게**표시됨)은 제네릭이므로,**특정 계정 ID 문자열로 대체해야**합니다. 계정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
 
 **캠페인에 대한 추적 문자열:**
 

@@ -4,9 +4,9 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1241'
 ht-degree: 95%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
->title="미디어 동시 시청자"
+>title="미디어 동시 뷰어"
 >abstract="특정 콘텐츠나 특정 기간 동안의 미디어 평균 분당 시청 대상자를 분석하는 패널을 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
->title="미디어 동시 시청자"
+>title="미디어 동시 뷰어"
 >abstract="시간 경과에 따른 동시 시청자를 분석하고, 최대 동시 시청을 확인하거나 분류 및 비교합니다.<br/><br>**세부 기간**: 동시 시청자를 확인할 수 있는 기간을 선택합니다.<br/>**패널 요약 숫자**:<br/>이 옵션은 각 행의 날짜 또는 시간 세부 정보가 포함된 요약 숫자를 표시합니다. 최대값은 최대 동시 시청에 대한 세부 정보를 표시합니다. 최소값은 저점에 대한 세부 정보를 보여 줍니다.<br/>**시리즈 분류(선택 사항)**: 세그먼트, 차원, 차원 항목 또는 날짜 범위별로 시각화를 분류합니다. 한 번에 최대 10개의 줄을 확인합니다. 분류는 단일 수준으로 제한됩니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 미디어 동시 뷰어 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)Customer Journey Analytics_ ![버전은 &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**미디어 동시 뷰어 패널**&#x200B;을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 미디어 동시 뷰어 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)Customer Journey Analytics_ ![버전은 ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**미디어 동시 뷰어 패널**&#x200B;을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Analysis Workspace에서 동시 시청자 지표는 세션 수에 관계없이 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://video.tv.adobe.com/v/342839?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342839/?captions=kor&quality=12)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace)
 
 ## Panel Inputs {#Input}
 

@@ -1,30 +1,30 @@
 ---
-description: 가상 보고서 세트는 Analysis Workspace에 구성 요소를 포함하거나 제외하도록 큐레이션할 수 있습니다.
+description: Analysis Workspace에서 구성 요소를 포함 및 제외하도록 가상 보고서 세트를 선별할 수 있습니다.
 title: 가상 보고서 세트 구성 요소 큐레이션
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 92%
+source-wordcount: '415'
+ht-degree: 44%
 
 ---
 
 # 가상 보고서 세트 구성 요소 큐레이션
 
-가상 보고서 세트는 Analysis Workspace에 구성 요소를 포함하거나 제외하도록 큐레이션할 수 있습니다.
+Analysis Workspace에서 구성 요소를 포함 및 제외하도록 가상 보고서 세트를 선별할 수 있습니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 큐레이션](https://video.tv.adobe.com/v/3425527?quality=12&learn=on&captions=kor){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 큐레이션](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->구성 요소 관리자 및 비관리자가 선별된 Workspace 프로젝트 및 선별된 가상 보고서 세트에서 볼 수 있도록 변경되었습니다. 이전에는 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. [업데이트된 조정 환경](/help/analyze/analysis-workspace/curate-share/curate.md)에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.
+>구성 요소 관리자 및 비관리자가 선별된 Workspace 프로젝트 및 선별된 가상 보고서 세트에서 볼 수 있도록 변경되었습니다. 이전에는 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. [업데이트된 큐레이션 경험](/help/analyze/analysis-workspace/curate-share/curate.md)을 통해 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.
 
 구성 요소 큐레이션을 사용하려면 다음을 수행하십시오.
 
@@ -37,14 +37,14 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >**&#x200B;** 구성 요소 사용자 지정을 활성화한 경우 가상 보고서 세트는 Analysis Workspace에서만 액세스할 수 있고, 다음에서는 액세스할 수 없습니다.
+   >**** 구성 요소 사용자 지정을 활성화한 경우 가상 보고서 세트는 Analysis Workspace에서만 액세스할 수 있고, 다음에서는 액세스할 수 없습니다.
    >
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
    >* Analytics Reporting API
 
-   이 옵션을 선택하면 &quot;제외된 구성 요소&quot; 열의 해당 구성 요소를 &quot;포함된 구성 요소&quot; 열로 드래그하여 가상 보고서 세트에 포함할 구성 요소를 추가할 수 있습니다. 포함하거나 제외할 수 있는 구성 요소는 다음과 같습니다.
+   선택하면, &quot;제외된 구성 요소&quot; 열에서 &quot;포함된 구성 요소&quot; 열로 해당 구성 요소를 끌어 가상 보고서 세트에 포함할 구성 요소를 추가할 수 있습니다. 포함 및 제외할 수 있는 구성 요소는 다음과 같습니다.
 
    * 차원
    * 지표
@@ -61,17 +61,17 @@ ht-degree: 92%
 
 ## 구성 요소 이름 바꾸기 {#section_0F7CD9F684FE4765BC00A2AFED56550E}
 
-가상 보고서 세트와 관련된 포함된 구성 요소의 표시 이름을 변경할 수 있습니다. 예를 들어 페이지 이름을 가상 보고서 세트에 포함하되, 모바일 친화적인 이름으로 변경하려면 앱 화면으로 변경할 수 있습니다. 이 가상 보고서 세트를 사용할 때마다 Analysis Workspace에 새 이름이 표시됩니다.
+가상 보고서 세트와 관련된 포함된 구성 요소의 표시 이름을 변경할 수 있습니다. 예를 들어, 가상 보고서 세트에 페이지 이름 을 포함하지만 보다 모바일 친화적인 컨텍스트로 이름을 바꾸려는 경우 앱 Screens으로 변경할 수 있습니다. 이 가상 보고서 세트를 사용할 때마다 Analysis Workspace에 새 이름이 표시됩니다.
 
 ![](assets/vrs-rename-component.png)
 
-Analysis Workspace에서 포함된 구성 요소의 정보 아이콘을 클릭하여 이름이 바뀐 구성 요소의 원래 이름을 표시합니다.
+Analysis Workspace에서 포함된 구성 요소에 대한 정보 아이콘을 클릭하여 이름이 변경된 구성 요소의 원래 이름을 표시합니다.
 
 ![](assets/vrs-aw-renamed.png)
 
 ## 구성 요소 그룹 {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
-구성 요소 그룹을 사용하여 가상 보고서 세트에 대량 구성 요소를 추가하십시오. 예를 들어 모바일 앱 분석과 관련된 기본 구성 요소 세트를 가져오려면 모바일 앱 그룹을 선택하십시오. 해당 차원 및 지표 세트 (이미 이름이 변경됨)는 가상 보고서 세트의 포함된 목록에 자동으로 추가됩니다.
+가상 보고서 세트에 일괄 구성 요소를 추가하려면 구성 요소 그룹을 사용하십시오. 예를 들어 모바일 앱 분석과 관련된 기본 구성 요소 세트를 가져오려면 모바일 앱 그룹을 선택합니다. 해당 차원 및 지표 세트 (이미 이름이 변경됨)는 가상 보고서 세트의 포함된 목록에 자동으로 추가됩니다.
 
 ![](assets/vrs-comp-grp.png)
 

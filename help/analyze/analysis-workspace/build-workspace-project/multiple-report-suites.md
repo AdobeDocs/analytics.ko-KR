@@ -4,9 +4,9 @@ description: 하나의 Analysis Workspace 프로젝트에서 여러 보고서 �
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [여러 보고서 세트](https://video.tv.adobe.com/v/37038?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [여러 보고서 세트](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

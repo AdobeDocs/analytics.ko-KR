@@ -3,9 +3,9 @@ title: 데이터 피드 관리
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다. 데이터 피드를 만들고, 편집하고, 보는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1278'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://video.tv.adobe.com/v/3428565?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
