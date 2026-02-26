@@ -156,14 +156,14 @@ ht-degree: 4%
 >id="classificationsets_schema_automate_locationaccount"
 >title="위치 계정"
 >abstract="분류 데이터 가져오기를 지원하는 계정 유형의 위치 계정 목록입니다. 새 위치 계정을 만들려면 **[!UICONTROL 새 계정]**&#x200B;을 선택하세요."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="클라우드 가져오기 및 내보내기 계정 구성"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=ko" text="클라우드 가져오기 및 내보내기 계정 구성"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="위치"
 >abstract="분류 데이터 가져오기를 지원하는 선택한 위치 계정의 위치 목록입니다. 새 위치를 만들려면 **[!UICONTROL 새 위치]**&#x200B;를 선택하십시오."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="클라우드 가져오기 및 내보내기 위치 구성"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=ko" text="클라우드 가져오기 및 내보내기 위치 구성"
 
 클라우드 계정 및 클라우드 위치의 구성 및 사용을 통해 분류 데이터 수집을 자동화할 수 있습니다.
 
