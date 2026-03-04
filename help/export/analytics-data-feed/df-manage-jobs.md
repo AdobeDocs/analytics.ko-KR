@@ -3,18 +3,27 @@ title: 데이터 피드 작업 관리
 description: 데이터 피드에서 개별 작업을 관리하는 방법을 알아봅니다. 인터페이스를 탐색하고 필터 및 검색을 사용하고 열 정의를 찾습니다.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 11%
+source-wordcount: '541'
+ht-degree: 8%
 
 ---
 
-# 데이터 피드 작업 관리
+# 데이터 피드 작업 관리 {#manage-data-feed-jobs}
 
 작업은 압축된 파일을 출력하는 개별 작업입니다. 피드에 의해 만들어지고 제어됩니다.
 
 각 데이터 피드에 대한 작업 내역을 보거나, 작업을 다시 보내거나, 작업을 다시 처리할 수 있습니다.
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_job_history"
+>title="데이터 피드 작업 내역"
+>abstract="이 페이지에서 주어진 데이터 피드에 대한 데이터 피드 작업 목록을 볼 수 있습니다. 요청 ID 또는 요청 기간 시작 날짜별로 작업을 검색합니다. 사용 가능한 열에는 각 작업에 대한 정보가 표시됩니다. 동일한 데이터가 있는 작업을 다시 보내거나 작업의 소스 데이터를 다시 처리하기 전에 다시 처리할 수도 있습니다."
+
+<!-- markdownlint-enable MD034 -->
 
 ## 데이터 피드에 대한 작업 내역 보기
 
@@ -68,6 +77,8 @@ ht-degree: 11%
 
 1. 다시 전송할 작업이 포함된 데이터 피드 옆의 확인란을 선택한 다음 [!UICONTROL **작업 기록**]&#x200B;을 선택합니다.
 
+1. (선택 사항) 검색 필드에서 데이터 피드 작업 목록을 검색하려면 요청 ID 또는 요청 기간 시작 날짜로 검색합니다.
+
 1. 하나 이상의 데이터 피드 작업 옆의 확인란을 선택한 다음 **[!UICONTROL 다시 보내기]**&#x200B;를 선택합니다. <!-- What does the status need to be? Error, ... -->
 
    ![데이터 피드 작업 재처리](assets/data-feed-job-resend.png)
@@ -81,6 +92,8 @@ ht-degree: 11%
 1. Adobe Analytics에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**]&#x200B;를 선택합니다.
 
 1. 다시 처리할 작업이 포함된 데이터 피드 옆의 확인란을 선택한 다음 [!UICONTROL **작업 기록**]&#x200B;을 선택합니다.
+
+1. (선택 사항) 검색 필드에서 데이터 피드 작업 목록을 검색하려면 요청 ID 또는 요청 기간 시작 날짜로 검색합니다.
 
 1. 하나 이상의 데이터 피드 작업 옆의 확인란을 선택한 다음 **[!UICONTROL 재처리]**&#x200B;를 선택합니다. <!-- What does the status need to be? Error, ... -->
 

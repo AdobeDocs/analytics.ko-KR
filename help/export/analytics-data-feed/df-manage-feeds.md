@@ -3,23 +3,32 @@ title: 데이터 피드 관리
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다. 데이터 피드를 만들고, 편집하고, 보는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1310'
 ht-degree: 15%
 
 ---
 
-# 데이터 피드 관리
+# 데이터 피드 관리 {#manage-data-feeds}
 
 데이터 피드 관리자는 조직의 데이터 피드를 생성, 편집 및 삭제할 수 있도록 해 줍니다. 데이터 피드 관리자에 액세스할 수 있는 권한이 있으면 표시되는 모든 보고서 세트에 대한 데이터 피드를 관리할 수 있습니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 관리](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_manager"
+>title="데이터 피드 관리"
+>abstract="이 페이지에서 데이터 피드를 보고, 만들고, 관리할 수 있습니다. 이름 또는 ID로 피드를 검색하거나 필터 아이콘을 선택하여 사용 가능한 필터를 확인합니다."
+
+<!-- markdownlint-enable MD034 -->
 
 
 ## 데이터 피드 보기
@@ -62,7 +71,7 @@ ht-degree: 15%
 
 1. 검색 또는 필터를 사용하여 특정 피드를 찾습니다.
 
-   * 검색 필드에서 피드 이름을 입력하세요. 일치하는 피드만 사용 가능한 피드 목록에 표시됩니다.
+   * 검색 필드에 피드의 이름 또는 ID를 입력합니다. 일치하는 피드만 사용 가능한 피드 목록에 표시됩니다.
 
      ![검색](assets/search.png)
 
