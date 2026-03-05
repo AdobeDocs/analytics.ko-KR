@@ -33,7 +33,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 Target용 Analytics 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_에서 다양한 사용자 경험, 마케팅 또는 메시징의 변형을 비교하는 방법에 대한 정보는 [실험 패널](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)을 참조하십시오.
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 Target용 Analytics 패널에 대해 설명합니다._<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_에서 다양한 사용자 경험, 마케팅 또는 메시징의 변형을 비교하는 방법에 대한 정보는 [실험 패널](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
