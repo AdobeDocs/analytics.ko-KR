@@ -6,7 +6,7 @@ exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 21%
+ht-degree: 41%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_late_hits"
 >title="늦게 도착하는 히트 허용"
->abstract="데이터 피드 작업이 설정된 보고 빈도(일반적으로 일별 또는 시간별) 내에서 데이터 처리를 완료한 후에 도착하는 데이터를 포함하려면 이 옵션을 선택합니다. 이 옵션이 활성화되면 데이터 피드는 데이터를 처리할 때마다 도착한 모든 늦게 도착하는 히트를 조회하고 전송된 다음 데이터 피드 파일로 배치합니다."
+>abstract="이 옵션을 선택하면 데이터 피드 작업이 완료된 후에 도착한 데이터를 설정된 보고 빈도(보통 일별 또는 시간별) 내에 포함합니다. 이 옵션이 활성화되면 데이터 피드에서 데이터를 처리할 때마다 데이터 피드는 늦게 도착하는 모든 히트를 조회하고 전송된 다음번 데이터 피드 파일과 함께 배치합니다."
 
 <!-- markdownlint-enable MD034 -->
 

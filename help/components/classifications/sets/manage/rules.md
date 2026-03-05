@@ -6,7 +6,7 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1683'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 13%
 1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트]** 관리자에서 규칙을 정의할 분류 세트를 선택합니다.
-1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**&#x200B;대화 상자에서&#x200B;**[!UICONTROL 규칙]**&#x200B;탭을 선택합니다.
+1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**대화 상자에서&#x200B;**[!UICONTROL 규칙]**탭을 선택합니다.
 
    * 분류 세트에 대해 처음으로 **[!UICONTROL 규칙]** 인터페이스에 액세스하거나 지금까지 기존 규칙 빌더 인터페이스를 계속 사용하기로 결정했다면 시작하는 방법을 선택할 수 있는 대화 상자가 표시됩니다. 옵션은 다음과 같습니다.
 
@@ -48,12 +48,12 @@ ht-degree: 13%
 
 
 
-## 규칙 세트 인터페이스 {#rule-set-interface}
+## 규칙 집합 인터페이스 {#rule-set-interface}
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_rules_samplekeys"
 >title="샘플 키"
->abstract="테스트 키를 입력하거나 붙여 넣어 규칙 세트를 테스트합니다. 각 줄은 별도의 키 값입니다. 결과가 포함된 대화 상자를 표시하려면 **[!UICONTROL 테스트 규칙 집합]**&#x200B;을(를) 선택하십시오."
+>abstract="규칙 세트를 테스트하려면 테스트 키를 입력하거나 붙여넣습니다. 각 행은 별도의 키 값입니다. 결과가 포함된 대화 상자를 표시하려면 **[!UICONTROL 규칙 세트 테스트]**&#x200B;를 선택합니다."
 
 
 규칙을 만들거나 편집하려면 규칙 세트 인터페이스를 사용하십시오.
@@ -283,7 +283,7 @@ ht-degree: 13%
 
 #### 사용 사례
 
-**&#x200B;**&#x200B;토큰&#x200B;**[!UICONTROL 을(를) 기반으로 주요 차원 내부 캠페인의 값을]**&#x200B;채널&#x200B;**[!UICONTROL ,]**&#x200B;유형`:` 및 **[!UICONTROL 연도]** 분류로 분할하는 규칙을 정의하려고 합니다.
+****&#x200B;토큰&#x200B;**[!UICONTROL 을(를) 기반으로 주요 차원 내부 캠페인의 값을]**&#x200B;채널&#x200B;**[!UICONTROL ,]**&#x200B;유형`:` 및 **[!UICONTROL 연도]** 분류로 분할하는 규칙을 정의하려고 합니다.
 
 >[!BEGINTABS]
 

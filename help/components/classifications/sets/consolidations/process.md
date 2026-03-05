@@ -6,7 +6,7 @@ feature: Classifications
 source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '983'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
->title="분류 세트 우선 순위"
->abstract="![Key](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *분류 세트*&#x200B;은(는) 기본 분류 세트이며 전체 스키마를 정의하며 병합 충돌에서 우선합니다. 다른 분류 세트는 위에서 아래로 순서대로 적용됩니다."
+>title="분류 세트 우선순위"
+>abstract="![핵심](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *분류 세트*&#x200B;는 기본 분류 세트로, 전체 스키마를 정의하며 모든 병합 충돌에서 우선합니다. 다른 분류 세트는 위에서 아래로 순서대로 적용됩니다."
 
 
 분류 통합을 만들려면 기본 Adobe Analytics 인터페이스에서 다음을 수행합니다.
@@ -61,19 +61,19 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="불일치"
->abstract="통합 분류 세트의 값이 소스 분류 세트와 일치하지 않는 경우 키 불일치율의 백분율을 구합니다."
+>abstract="통합 분류 세트의 값이 소스 분류 세트와 일치하지 않는 경우의 키 불일치 백분율입니다."
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"
 >title="없음"
->abstract="통합 분류 세트에 있지만 소스 분류 세트에는 없는 키의 백분율입니다."
+>abstract="소스 분류 세트에는 없지만 통합 분류 세트에 있는 키의 백분율입니다."
 
 분류 통합을 편집하려면 기본 Adobe Analytics 인터페이스에서 다음을 수행합니다.
 
 1. **[!UICONTROL 구성 요소]** 메뉴에서 **[!UICONTROL 분류 집합]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 분류 세트]** 관리자에서 **[!UICONTROL 통합]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트 통합]** 관리자에서:
-   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**&#x200B;대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
+   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
 
       | 사용 가능한 작업 | 설명 |
       |---|---|
