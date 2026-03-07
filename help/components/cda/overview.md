@@ -17,7 +17,7 @@ ht-degree: 56%
 
 >[!WARNING]
 >
->교차 장치 분석 내의 Device Graph는 [사용되지 않음](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)이며 **2025년 12월 31일**&#x200B;에 더 이상 사용할 수 없습니다. 현재 Device Graph 사용 가상 보고서 세트를 [필드 기반 메서드](/help/components/cda/field-based-stitching.md)(으)로 전환하십시오.
+>교차 장치 분석 내의 Device Graph는 [사용되지 않음](https://experienceleague.adobe.com/ko/docs/discontinued/using/device-graph)이며 **2025년 12월 31일**&#x200B;에 더 이상 사용할 수 없습니다. 현재 Device Graph 사용 가상 보고서 세트를 [필드 기반 메서드](/help/components/cda/field-based-stitching.md)(으)로 전환하십시오.
 >
 
 
