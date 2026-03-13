@@ -4,7 +4,7 @@ description: 고급 계산된 지표 함수에 대해 알아보십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: fd4d0a9f7c3083720f9d69a0299bb02426dbe451
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '4799'
 ht-degree: 98%
@@ -228,7 +228,8 @@ CDF-Z(-3) ? 0.0013499
 | 지표 | 반올림할 지표 |
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Confidence {#confidence}
 
@@ -249,7 +250,6 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | success-metric | The metric or metrics that a user is comparing variants with. |
 | control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 | significance-threshold | The threshold in this function is set to a default of 95%. |
-
 -->
 
 
@@ -397,7 +397,6 @@ x열의 마지막 n개 요소 평균을 반환합니다. n > 0이면 마지막 n
 >[!NOTE]
 >
 >이 함수는 1인당 수익과 같은 요금 지표에서는 작동하지 않습니다. 이 함수는 마지막 N에 대한 수익을 합산하고 마지막 N에 대한 사람들을 합산한 다음 나누는 대신 요금의 평균을 구합니다. <br/>대신 [**[!UICONTROL CUMULATIVE(수익)]**](#cumulative) ![나누기](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(사람)]**](#cumulative)을 사용합니다.
->
 
 
 ## Equal {#equal}
@@ -728,7 +727,8 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 `Metric 1 <= Metric 2`
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Lift (#lift)
 

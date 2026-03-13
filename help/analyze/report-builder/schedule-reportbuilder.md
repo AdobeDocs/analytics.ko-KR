@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: cbf448d668df0fc7795b3b5f385bd3d362dc492e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 26%
@@ -28,7 +28,7 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 예약](https://video.tv.adobe.com/v/3417507?captions=kor&quality=12&learn=on){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [통합 문서 예약](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -74,7 +74,8 @@ ht-degree: 26%
    * **[!UICONTROL ISO 날짜 형식]**&#x200B;입니다. 이 경우 `YYYY-MM-DD`이(가) 파일 이름에 추가됩니다.
    * **[!UICONTROL ISO 날짜 형식 + 타임스탬프]**&#x200B;입니다. 그러면 `YYYY-MM-DD_HH-MM-SS`이(가) 파일 이름에 추가됩니다.
 
-<!-- Does no longer seem to be an option? 
+<!--
+Does no longer seem to be an option? 
 1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
 
     When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.
@@ -122,7 +123,7 @@ ht-degree: 26%
    | **[!UICONTROL 매년 해당 월의 날짜별로 보내기]** | **[!UICONTROL 요일]**&#x200B;을 선택하고 **[!UICONTROL 주]**&#x200B;을 선택한 다음 **[!UICONTROL 월별]**&#x200B;을(를) 선택합니다. |
    | **[!UICONTROL 특정 날짜까지 연간 전송]** | **[!UICONTROL 월(한 해 기준)]**&#x200B;을 선택하고 **[!UICONTROL 이 날짜에 보내기]**&#x200B;에서 값을 선택합니다. |
 
-### 보내기
+### 전송
 
 통합 문서를 보내려면:
 

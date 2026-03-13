@@ -3,7 +3,7 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 30%
@@ -201,7 +201,8 @@ Adobe 동일한 열을 사용하는 여러 데이터 피드를 만들 때는 열
 <!-- why would you want to do this? -->
 
 
-<!-- I don't think we need anything after this, but saving here just in case:
+<!--
+I don't think we need anything after this, but saving here just in case:
 
 1. In the [!UICONTROL **Feed Information**] section, complete the following fields:
    
