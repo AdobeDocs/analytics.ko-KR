@@ -6,7 +6,7 @@ exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 8%
+ht-degree: 20%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
->title="데이터 피드 작업 내역"
->abstract="이 페이지에서 주어진 데이터 피드에 대한 데이터 피드 작업 목록을 볼 수 있습니다. 요청 ID 또는 요청 기간 시작 날짜별로 작업을 검색합니다. 사용 가능한 열에는 각 작업에 대한 정보가 표시됩니다. 동일한 데이터가 있는 작업을 다시 보내거나 작업의 소스 데이터를 다시 처리하기 전에 다시 처리할 수도 있습니다."
+>title="데이터 피드 작업 기록"
+>abstract="이 페이지에서 해당 데이터 피드에 대한 데이터 피드 작업 목록을 볼 수 있습니다. 요청 ID 또는 요청 기간 시작 일자별로 작업을 검색합니다. 각 작업에 대한 정보는 사용 가능한 열에 표시됩니다. 동일한 데이터로 작업을 다시 보내거나, 작업을 다시 보내기 전에 원본 데이터를 다시 처리할 수도 있습니다."
 
 <!-- markdownlint-enable MD034 -->
 
