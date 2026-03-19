@@ -17,7 +17,7 @@ ht-degree: 3%
 
 이 차원은 여러 가지 방법으로 값을 수집합니다.
 
-* 클릭스루 트래픽의 경우 일반적으로 광고 기반 트래픽이 사이트로 들어오는 페이지에서 `s_kwcid`페이지 URL[의 ](page-url.md) 쿼리 문자열 매개 변수에서 데이터가 수집됩니다.
+* 클릭스루 트래픽의 경우 일반적으로 광고 기반 트래픽이 사이트로 들어오는 페이지에서 `s_kwcid`페이지 URL[의 &#x200B;](page-url.md) 쿼리 문자열 매개 변수에서 데이터가 수집됩니다.
 * URL에 추적 코드가 포함되어 있지 않지만 Adobe Advertising JavaScript이 이전 2분 내에 클릭을 감지하면 클릭스루 트래픽을 캡처할 수도 있습니다.
 * 지원되는 뷰스루 트래픽의 경우 Adobe Advertising에서 보충 ID(`SDID`)를 사용하여 백엔드의 값을 보완합니다.
 
@@ -137,26 +137,26 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 | 분류 | 설명 | DSP | 검색,<br>소셜, 및<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL 계정]** | 계정 이름. | &amp;check; | &amp;check; |
-| **[!UICONTROL 광고 표시 URL]** | 광고에 표시되는 URL. | | &amp;check; |
-| **[!UICONTROL 광고 설명]** | 광고 설명(DSP) 또는 광고 본문(검색, 소셜 및 Commerce)입니다. | &amp;check; | &amp;check; |
-| **[!UICONTROL 광고 대상 URL]** | 광고의 대상 URL입니다. | | &amp;check; |
-| **[!UICONTROL 광고 그룹]** | 광고 그룹 이름입니다. | | &amp;check; |
-| **[!UICONTROL 광고 플랫폼]** | 광고 DSP 또는 검색 엔진 이름. | &amp;check; | &amp;check; |
-| **[!UICONTROL 광고 제목]** | 광고 유형(DSP) 또는 광고 제목(검색, 소셜 및 Commerce)입니다. | &amp;check; | &amp;check; |
-| **[!UICONTROL 광고 유형]** | 광고 유형(예: `text`, `video`, `display` 또는 `native`). | &amp;check; | &amp;check; |
-| **[!UICONTROL AdCloud 특성 1]** -<br>**[!UICONTROL AdCloud 특성 5 ]** | 향후 사용자 지정 속성에 예약된 자리 표시자 분류. 현재 사용되지 않습니다. | | |
-| **[!UICONTROL Campaign]** | 캠페인 이름. | &amp;check; | &amp;check; |
-| **[!UICONTROL Creative 경험 이름]** | 테스트 또는 개인화에 사용된 크리에이티브 변형 그룹을 나타내는 광고 상호 작용과 연관된 크리에이티브 경험의 이름입니다. | &amp;check; | |
-| **[!UICONTROL Creative 분기 이름]** | 크리에이티브 실험의 특정 변형 또는 경로를 나타내는 크리에이티브 경험 내의 분기 이름. | &amp;check; | |
-| **[!UICONTROL Creative 분기 ID]** | 크리에이티브 경험 내의 크리에이티브 분기에 할당된 고유 식별자. | &amp;check; | |
-| **[!UICONTROL Creative 이름]** | 사용자에게 제공된 특정 광고 크리에이티브 에셋의 이름입니다. | &amp;check; | |
-| **[!UICONTROL Creative 변형 이름]** | 크리에이티브 경험 또는 분기 내에서 사용되는 크리에이티브의 특정 변형 이름. | &amp;check; | |
-| **[!UICONTROL 키워드]** | 키워드. | | &amp;check; |
-| **[!UICONTROL 키워드 일치 유형]** | 키워드 및 일치 유형입니다. | | &amp;check; |
-| **[!UICONTROL 랜딩 유형]** | 랜딩 페이지 항목이 뷰스루인지 또는 클릭스루인지 여부를 나타냅니다. | &amp;check; | &amp;check; |
-| **[!UICONTROL 일치 유형]** | 검색 일치 유형입니다. | | &amp;check; |
-| **[!UICONTROL 네트워크]** | RTB(DSP) 또는 광고 네트워크 이름(검색, 소셜 및 Commerce)입니다. | &amp;check; | &amp;check; |
-| **[!UICONTROL 최적화]** | 패키지 이름(DSP) 또는 포트폴리오 이름(검색, 소셜 및 Commerce)입니다. | &amp;check; | &amp;check; |
-| **[!UICONTROL 배치]** | 배치 이름입니다. | &amp;check; | |
-| **[!UICONTROL 제품 대상]** | 제품 목록 광고에 대한 제품 타겟. | | &amp;check; |
+| **[!UICONTROL 계정]** | 계정 이름. | &check; | &check; |
+| **[!UICONTROL 광고 표시 URL]** | 광고에 표시되는 URL. | | &check; |
+| **[!UICONTROL 광고 설명]** | 광고 설명(DSP) 또는 광고 본문(검색, 소셜 및 Commerce)입니다. | &check; | &check; |
+| **[!UICONTROL 광고 대상 URL]** | 광고의 대상 URL입니다. | | &check; |
+| **[!UICONTROL 광고 그룹]** | 광고 그룹 이름입니다. | | &check; |
+| **[!UICONTROL 광고 플랫폼]** | 광고 DSP 또는 검색 엔진 이름. | &check; | &check; |
+| **[!UICONTROL 광고 제목]** | 광고 유형(DSP) 또는 광고 제목(검색, 소셜 및 Commerce)입니다. | &check; | &check; |
+| **[!UICONTROL 광고 유형]** | 광고 유형(예: `text`, `video`, `display` 또는 `native`). | &check; | &check; |
+| **[!UICONTROL AdCloud 특성 1]** -<br>**[!UICONTROL AdCloud 특성 5 &#x200B;]** | 향후 사용자 지정 속성에 예약된 자리 표시자 분류. 현재 사용되지 않습니다. | | |
+| **[!UICONTROL Campaign]** | 캠페인 이름. | &check; | &check; |
+| **[!UICONTROL Creative 경험 이름]** | 테스트 또는 개인화에 사용된 크리에이티브 변형 그룹을 나타내는 광고 상호 작용과 연관된 크리에이티브 경험의 이름입니다. | &check; | |
+| **[!UICONTROL Creative 분기 이름]** | 크리에이티브 실험의 특정 변형 또는 경로를 나타내는 크리에이티브 경험 내의 분기 이름. | &check; | |
+| **[!UICONTROL Creative 분기 ID]** | 크리에이티브 경험 내의 크리에이티브 분기에 할당된 고유 식별자. | &check; | |
+| **[!UICONTROL Creative 이름]** | 사용자에게 제공된 특정 광고 크리에이티브 에셋의 이름입니다. | &check; | |
+| **[!UICONTROL Creative 변형 이름]** | 크리에이티브 경험 또는 분기 내에서 사용되는 크리에이티브의 특정 변형 이름. | &check; | |
+| **[!UICONTROL 키워드]** | 키워드. | | &check; |
+| **[!UICONTROL 키워드 일치 유형]** | 키워드 및 일치 유형입니다. | | &check; |
+| **[!UICONTROL 랜딩 유형]** | 랜딩 페이지 항목이 뷰스루인지 또는 클릭스루인지 여부를 나타냅니다. | &check; | &check; |
+| **[!UICONTROL 일치 유형]** | 검색 일치 유형입니다. | | &check; |
+| **[!UICONTROL 네트워크]** | RTB(DSP) 또는 광고 네트워크 이름(검색, 소셜 및 Commerce)입니다. | &check; | &check; |
+| **[!UICONTROL 최적화]** | 패키지 이름(DSP) 또는 포트폴리오 이름(검색, 소셜 및 Commerce)입니다. | &check; | &check; |
+| **[!UICONTROL 배치]** | 배치 이름입니다. | &check; | |
+| **[!UICONTROL 제품 대상]** | 제품 목록 광고에 대한 제품 타겟. | | &check; |
