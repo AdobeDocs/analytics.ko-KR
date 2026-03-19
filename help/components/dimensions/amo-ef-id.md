@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # AMO EF ID
 
-**[!UICONTROL AMO EF ID]**&#x200B;은(는) Adobe Advertising 통합에 사용되는 광고 클릭 식별자입니다. Adobe Advertising이 방문자 수준에서 활동을 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다.
+**[!UICONTROL AMO EF ID]**&#x200B;은(는) Adobe Advertising 통합에 사용되는 광고 클릭 식별자입니다. Adobe Advertising이 방문자 수준에서 활동을 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. [Analytics for Advertising](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다.
 
 ## 이 차원을 데이터로 채우기
 

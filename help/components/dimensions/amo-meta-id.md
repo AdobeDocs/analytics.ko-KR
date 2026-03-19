@@ -11,7 +11,7 @@ ht-degree: 10%
 
 # AMO 메타 광고 클릭 ID
 
-**[!UICONTROL AMO Meta 광고 클릭 ID]**&#x200B;은(는) Adobe Advertising 통합에 사용되는 광고 클릭 식별자입니다. [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다. 주로 사람이 읽을 수 있는 보고 차원이 아닌 원시 추적 식별자로 유용합니다.
+**[!UICONTROL AMO Meta 광고 클릭 ID]**&#x200B;은(는) Adobe Advertising 통합에 사용되는 광고 클릭 식별자입니다. [Analytics for Advertising](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다. 주로 사람이 읽을 수 있는 보고 차원이 아닌 원시 추적 식별자로 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 

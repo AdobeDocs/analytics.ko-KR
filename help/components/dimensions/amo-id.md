@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # AMO ID
 
-**[!UICONTROL AMO ID]**&#x200B;은(는) Adobe Advertising 통합에서 사용되는 연결된 식별자의 컬렉션입니다. 이 차원에 저장된 값은 Analytics 보고에서 사용하기 위해 사람이 인식할 수 있는 별도의 분류 차원으로 자동 구성됩니다. [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다.
+**[!UICONTROL AMO ID]**&#x200B;은(는) Adobe Advertising 통합에서 사용되는 연결된 식별자의 컬렉션입니다. 이 차원에 저장된 값은 Analytics 보고에서 사용하기 위해 사람이 인식할 수 있는 별도의 분류 차원으로 자동 구성됩니다. [Analytics for Advertising](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다.
 
 ## 이 차원을 데이터로 채우기
 
@@ -133,7 +133,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## 분류
 
-[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 다음 분류가 자동으로 만들어집니다. 분류 값은 통합에 의해 자동으로 유지 관리됩니다.
+[Analytics for Advertising](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 다음 분류가 자동으로 만들어집니다. 분류 값은 통합에 의해 자동으로 유지 관리됩니다.
 
 | 분류 | 설명 | DSP | 검색,<br>소셜, 및<br>Commerce |
 | --- | --- | :---: | :---: |

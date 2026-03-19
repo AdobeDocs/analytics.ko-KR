@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Advertising 지표
 
-이러한 지표는 [Advertising용 Analytics](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정할 때 자동으로 만들어집니다. 자세한 내용은 Adobe Advertising 설명서의 [Analysis Workspace의 Adobe Advertising 지표](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)를 참조하십시오.
+이러한 지표는 [Advertising용 Analytics](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정할 때 자동으로 만들어집니다. 자세한 내용은 Adobe Advertising 설명서의 [Analysis Workspace의 Adobe Advertising 지표](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)를 참조하십시오.
 
 | 지표 | 설명 |
 | --- | --- |
