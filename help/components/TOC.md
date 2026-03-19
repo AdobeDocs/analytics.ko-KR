@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '745'
 ht-degree: 98%
 
 ---
@@ -25,6 +25,9 @@ ht-degree: 98%
    + [Activity Map 영역](dimensions/activity-map-region.md)
    + [광고 플랫폼 동의](dimensions/ad-consent.md)
    + [모든 검색 페이지 등급](dimensions/all-search-page-rank.md)
+   + [AMO ID](dimensions/amo-id.md)
+   + [AMO EF ID](dimensions/amo-ef-id.md)
+   + [AMO 메타 광고 클릭 ID](dimensions/amo-meta-id.md)
    + [오전/오후](dimensions/am-pm.md)
    + [봇 이름](dimensions/bot-name.md)
    + [브라우저 높이](dimensions/browser-height.md)
@@ -120,7 +123,7 @@ ht-degree: 98%
    + [우편번호](dimensions/zip-code.md)
 + 지표 {#metrics}
    + [지표 개요](metrics/overview.md)
-   + [반복 인스턴스 계산](metrics/count-repeat-instances.md)
+   + [Advertising 지표](metrics/amo-metrics.md)
    + [평균 페이지 깊이](metrics/average-page-depth.md)
    + [방문당 평균 페이지 조회수](metrics/average-page-views-per-visit.md)
    + [평균 세션 길이](metrics/average-session-length.md)
