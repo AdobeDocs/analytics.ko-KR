@@ -19,7 +19,7 @@ ht-degree: 2%
 1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트]** 관리자에서 스키마를 편집할 분류 세트를 선택합니다.
-1. **[!UICONTROL 분류 집합: _분류 집합_]**대화 상자에서 설정을 편집하려면&#x200B;**[!UICONTROL 설정]**탭을 선택하십시오.
+1. **[!UICONTROL 분류 집합: _분류 집합_]**&#x200B;대화 상자에서 설정을 편집하려면&#x200B;**[!UICONTROL 설정]**&#x200B;탭을 선택하십시오.
 
    ![분류 집합 - 설정](assets/classification-sets-settings.png)
 
