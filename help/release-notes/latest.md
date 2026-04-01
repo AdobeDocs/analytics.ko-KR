@@ -3,10 +3,10 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c86e1ef4a93591e7623fe5a9f2f9d92529773516
+source-git-commit: 89cc33528d3907d955a543f3e43774a1065e149a
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 44%
+source-wordcount: '1468'
+ht-degree: 40%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 44%
 | **Report Builder: 예약된 모든 통합 문서에 대한 관리자 가시성**<br/> Report Builder Excel 추가 기능에는 예약된 사용자에 관계없이 관리자가 특정 조직의 예약된 모든 통합 문서를 볼 수 있는 새로운 필터 옵션이 포함되어 있습니다. 이 필터 옵션은 Analytics 관리자만 사용할 수 있습니다. 예약된 통합 문서를 볼 때 통합 문서 탭과 레거시 탭 모두에서 사용할 수 있습니다.<p>모든 예약된 통합 문서를 보는 기능은 관리자가 마이그레이션하기 전에 모든 이전 통합 문서를 쉽게 찾을 수 있도록 해 주기 때문에 분산 팀에서 통합 문서를 마이그레이션할 때 특히 유용합니다.</p><p>이전에는 관리자가 다른 사용자가 예약한 통합 문서가 아니라 예약한 통합 문서만 볼 수 있었습니다.</p><p>자세한 내용은 [관리되는 예약된 통합 문서](/help/analyze/report-builder/manage-schedules-reportbuilder.md)를 참조하십시오.</p> | | 2026년 3월 10일 수요일 |
 | **근사 고유 개수 함수 업데이트**<br/>&#x200B;근사 고유 개수 함수에 사용되는 HLL 확률적 알고리즘이 곧 업데이트됩니다. 이 함수를 사용하는 숫자에 대한 결과 출력은 다음과 같이 과거 숫자에서 약간 변경될 수 있습니다.</p><ul><li>매우 적은 양의 고유 값을 계산할 때 추정치를 사용하지 않고 정확한 개수를 사용하도록 결과가 개선됩니다.</li><li>더 큰 값을 계산할 때 예상 횟수는 이 업데이트 전과 동일한 정확도를 유지합니다(예상 횟수는 정확한 횟수의 5%, 시간의 95% 내에서 정확함).</li></ul><p>근사 고유 개수 함수에 대한 자세한 내용은 [고급 함수](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct)에서 [근사 고유 개수](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)를 참조하십시오.</p> | | 2026년 3월 10일 수요일 |
 | **Analysis Workspace을 위한 실습 자습서**<br/>&#x200B;이제 새로운 실습 자습서를 통해 새로운 사용자에게 Analysis Workspace의 패널, 시각화 및 구성 요소 사용에 대한 기본 사항을 안내할 수 있습니다. <p>자세한 내용은 [Adobe Analytics 랜딩 페이지](/help/analyze/landing.md)를 참조하세요.</p> | | 2026년 3월 18일 목요일 |
+| **폴아웃 시각화 개선 사항**<br/>&#x200B;폴아웃 시각화에는 다음과 같은 개선 사항이 포함되어 있습니다.<ul><li>향상된 드래그 앤 드롭 경험입니다.<br/>터치포인트 위로 마우스를 가져간 후 시각화 내의 새 위치로 끌기만 하면 됩니다.<br/>이전에는 터치포인트를 드래그하기 전에 터치포인트의 편집 아이콘을 클릭해야 했습니다.</li><li>드래그 앤 드롭을 사용하여 터치포인트를 결합할 때 더 명확한 언어입니다.<br/>터치포인트를 다른 터치포인트로 드래그하면 &quot;결합&quot; 텍스트가 표시되어 두 터치포인트가 결합되어 있음을 나타냅니다.<br/>이전에는 터치포인트가 시각화 내의 새 위치로 이동되었는지 또는 다른 터치포인트와 결합되었는지 여부에 관계없이 &quot;추가&quot; 텍스트가 표시되었습니다.</li><li>도구 설명을 다시 디자인했습니다.<br/>터치포인트 위로 마우스를 가져갈 때 표시되는 도구 설명이 보다 직관적이고 읽기 쉽습니다.</li><li>검색 가능한 추가 컨텍스트 메뉴.<br/>도구 설명에 터치포인트의 상황에 맞는 메뉴에 편리하게 액세스할 수 있는 새로운 &quot;분석하려면 클릭&quot; 옵션이 포함되어 있습니다.<br/>이전에는 터치포인트를 마우스 오른쪽 단추로 클릭할 때만 상황에 맞는 메뉴를 사용할 수 있었습니다.</li></ul><p>자세한 내용은 [폴아웃 시각화 구성](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md)을 참조하십시오.</p> | | 2026년 3월 25일 목요일 |
 | **패널에 분류 적용**<br/>&#x200B;이제 패널에 분류를 적용할 수 있습니다. 패널 수준에서 분류를 적용하면 패널 내의 모든 자유 형식 테이블의 모든 열에 분류가 적용됩니다. | 2026년 3월 | 2026년 5월 |
 | **스트리밍 미디어 서비스: 일정 데이터 지원** <br/>이제 이전 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청률을 보다 쉽고 정확하게 추적할 수 있습니다.<p>다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.</p><ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul><p>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다.</p><p>이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.</p><p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다.</p><p>자세한 내용은 [라이브 콘텐츠를 추적할 일정 데이터 업로드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-use-cases/track-schedule-data)를 참조하십시오.</p> | 2025년 10월 29일 | 2026년 상반기<p>(원래 2025년 10월 29일 릴리스로 계획됨)</p> |
 
@@ -62,6 +63,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
-* [Adobe Experience Cloud 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
