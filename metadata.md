@@ -2,12 +2,14 @@
 cloud: Experience Cloud
 product: analytics
 solution: Analytics
+landing-page-name: analytics
+landing-page-breadcrumb-title: Analytics
 git-repo: https://github.com/AdobeDocs/analytics.ko-KR
 type: Documentation
 index: true
 feature-set: Analytics
 role: User, Admin
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d876f191b2b10dd29b50fae53235e194e29ed1d1
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
@@ -17,7 +19,7 @@ ht-degree: 100%
 
 # 내부용 메타데이터
 
-metadata.md 파일에는 저장소의 사용 안내서 TOC.md 파일에 전달되는 저장소 수준 메타데이터가 포함되어 있습니다. 모든 사용 안내서를 위한 metadata.md 콘텐츠를 변경하려면 TOC.md 파일에서 이 작업을 수행하십시오.
+metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 사용 안내서의 metadata.md 내용을 변경하려면 TOC.md 파일에서 이 작업을 수행하세요.
 
 | 메타데이터 | 기능 |
 |--- |--- |

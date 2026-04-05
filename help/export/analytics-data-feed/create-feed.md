@@ -3,7 +3,7 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 30%
@@ -155,7 +155,7 @@ ht-degree: 30%
 
 ### 열 템플릿 만들기
 
-Adobe 동일한 열을 사용하는 여러 데이터 피드를 만들 때는 열 템플릿을 만드는 것이 좋습니다. 사용자가 만드는 모든 열 템플릿은 조직의 모든 사용자가 사용할 수 있습니다.
+동일한 열을 사용하는 여러 데이터 피드를 만들 때는 열 템플릿을 만드는 것이 좋습니다. 사용자가 만드는 모든 열 템플릿은 조직의 모든 사용자가 사용할 수 있습니다.
 
 열 템플릿을 만들려면 다음 작업을 수행하십시오.
 
