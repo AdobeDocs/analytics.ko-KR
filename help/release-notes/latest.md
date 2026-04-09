@@ -3,45 +3,44 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 89cc33528d3907d955a543f3e43774a1065e149a
+source-git-commit: 5dde5298f522d6045f8872c878f6796dcfa0f710
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 40%
+source-wordcount: '1086'
+ht-degree: 52%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보 (2026년 3월)
+# 최신 Adobe Analytics 릴리스 정보 (2026년 4월)
 
-**마지막 업데이트**: 2026년 3월 11일 목요일
+**마지막 업데이트**: 2026년 4월 9일 금요일
 
-이 릴리스 노트는 2026년 3월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이러한 릴리스 노트는 한 달에 여러 번 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2026년 4월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이러한 릴리스 노트는 한 달에 여러 번 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
-| **패널 분류**<br/>&#x200B;이제 패널의 놓기 영역에 차원을 기반으로 패널을 [분류](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)(세그먼트 대신)하는 추가 기능이 제공됩니다. | 2026년 3월 31일 수요일 | 2026년 3월 31일 수요일 |
-| **여러 열로 테이블을 정렬합니다** <br/>이제 Analysis Workspace에서 자유 형식 테이블의 데이터를 차원이든 지표든 여러 열로 정렬할 수 있습니다.<p>여러 열에 대해 데이터를 정렬할 때 데이터는 각 열에 할당한 우선순위에 따라 정렬됩니다. 우선순위 번호는 정렬 아이콘 옆에 표시됩니다.</p><p>자세한 내용은 [자유 형식 테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)을 참조하십시오.</p> | 2026년 1월 28일 | 2026년 3월 4일 목요일 <p>(원래 2026년 2월 18일 목요일로 계획됨)</p> |
-| **Report Builder: 예약된 모든 통합 문서에 대한 관리자 가시성**<br/> Report Builder Excel 추가 기능에는 예약된 사용자에 관계없이 관리자가 특정 조직의 예약된 모든 통합 문서를 볼 수 있는 새로운 필터 옵션이 포함되어 있습니다. 이 필터 옵션은 Analytics 관리자만 사용할 수 있습니다. 예약된 통합 문서를 볼 때 통합 문서 탭과 레거시 탭 모두에서 사용할 수 있습니다.<p>모든 예약된 통합 문서를 보는 기능은 관리자가 마이그레이션하기 전에 모든 이전 통합 문서를 쉽게 찾을 수 있도록 해 주기 때문에 분산 팀에서 통합 문서를 마이그레이션할 때 특히 유용합니다.</p><p>이전에는 관리자가 다른 사용자가 예약한 통합 문서가 아니라 예약한 통합 문서만 볼 수 있었습니다.</p><p>자세한 내용은 [관리되는 예약된 통합 문서](/help/analyze/report-builder/manage-schedules-reportbuilder.md)를 참조하십시오.</p> | | 2026년 3월 10일 수요일 |
-| **근사 고유 개수 함수 업데이트**<br/>&#x200B;근사 고유 개수 함수에 사용되는 HLL 확률적 알고리즘이 곧 업데이트됩니다. 이 함수를 사용하는 숫자에 대한 결과 출력은 다음과 같이 과거 숫자에서 약간 변경될 수 있습니다.</p><ul><li>매우 적은 양의 고유 값을 계산할 때 추정치를 사용하지 않고 정확한 개수를 사용하도록 결과가 개선됩니다.</li><li>더 큰 값을 계산할 때 예상 횟수는 이 업데이트 전과 동일한 정확도를 유지합니다(예상 횟수는 정확한 횟수의 5%, 시간의 95% 내에서 정확함).</li></ul><p>근사 고유 개수 함수에 대한 자세한 내용은 [고급 함수](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct)에서 [근사 고유 개수](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)를 참조하십시오.</p> | | 2026년 3월 10일 수요일 |
-| **Analysis Workspace을 위한 실습 자습서**<br/>&#x200B;이제 새로운 실습 자습서를 통해 새로운 사용자에게 Analysis Workspace의 패널, 시각화 및 구성 요소 사용에 대한 기본 사항을 안내할 수 있습니다. <p>자세한 내용은 [Adobe Analytics 랜딩 페이지](/help/analyze/landing.md)를 참조하세요.</p> | | 2026년 3월 18일 목요일 |
-| **폴아웃 시각화 개선 사항**<br/>&#x200B;폴아웃 시각화에는 다음과 같은 개선 사항이 포함되어 있습니다.<ul><li>향상된 드래그 앤 드롭 경험입니다.<br/>터치포인트 위로 마우스를 가져간 후 시각화 내의 새 위치로 끌기만 하면 됩니다.<br/>이전에는 터치포인트를 드래그하기 전에 터치포인트의 편집 아이콘을 클릭해야 했습니다.</li><li>드래그 앤 드롭을 사용하여 터치포인트를 결합할 때 더 명확한 언어입니다.<br/>터치포인트를 다른 터치포인트로 드래그하면 &quot;결합&quot; 텍스트가 표시되어 두 터치포인트가 결합되어 있음을 나타냅니다.<br/>이전에는 터치포인트가 시각화 내의 새 위치로 이동되었는지 또는 다른 터치포인트와 결합되었는지 여부에 관계없이 &quot;추가&quot; 텍스트가 표시되었습니다.</li><li>도구 설명을 다시 디자인했습니다.<br/>터치포인트 위로 마우스를 가져갈 때 표시되는 도구 설명이 보다 직관적이고 읽기 쉽습니다.</li><li>검색 가능한 추가 컨텍스트 메뉴.<br/>도구 설명에 터치포인트의 상황에 맞는 메뉴에 편리하게 액세스할 수 있는 새로운 &quot;분석하려면 클릭&quot; 옵션이 포함되어 있습니다.<br/>이전에는 터치포인트를 마우스 오른쪽 단추로 클릭할 때만 상황에 맞는 메뉴를 사용할 수 있었습니다.</li></ul><p>자세한 내용은 [폴아웃 시각화 구성](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md)을 참조하십시오.</p> | | 2026년 3월 25일 목요일 |
-| **패널에 분류 적용**<br/>&#x200B;이제 패널에 분류를 적용할 수 있습니다. 패널 수준에서 분류를 적용하면 패널 내의 모든 자유 형식 테이블의 모든 열에 분류가 적용됩니다. | 2026년 3월 | 2026년 5월 |
+| **Activity Map 개선 사항**<br/> Activity Map에는 다음과 같은 개선 사항이 포함되어 있습니다.</p><ul><li>Adobe Analytics의 웹 SDK 구현으로 Activity Map 오버레이 확장 지원.</li><li>WebSDK 추적 지원(추적이 Analytics로 이동하는 경우).</li><li>사용자 인터페이스 전체에서 스타일이 업데이트되었습니다.</li></ul><p>(참조할 설명서 링크입니다.)</p> | | 2026년 4월 |
+| **Adobe Analytics용 MCP 서버** <br/>이제 MCP(Model Context Protocol)를 사용하여 Adobe Analytics을 기존 에이전트 워크플로에 연결할 수 있습니다. 자연어를 사용하여 보고서와 통찰력을 요청할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 4월 말 |
 | **스트리밍 미디어 서비스: 일정 데이터 지원** <br/>이제 이전 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청률을 보다 쉽고 정확하게 추적할 수 있습니다.<p>다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.</p><ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul><p>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다.</p><p>이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.</p><p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다.</p><p>자세한 내용은 [라이브 콘텐츠를 추적할 일정 데이터 업로드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-use-cases/track-schedule-data)를 참조하십시오.</p> | 2025년 10월 29일 | 2026년 상반기<p>(원래 2025년 10월 29일 릴리스로 계획됨)</p> |
+| **추가 API 날짜 범위 서식**<br/>&#x200B;이제 Analytics 2.0 API 보고서 요청에서 날짜 범위를 지정하는 데 두 가지 새로운 형식이 지원됩니다. 여기에는 날짜 수식과 혼합 형식이 포함됩니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | 2026년 3월 |
+| **API 보고서 요청의 선택적 차원**<br/>&#x200B;보고서 API 요청에는 차원 개체가 필요하지 않습니다. 차원을 지정하지 않으면 총계 보고서에 대한 데이터가 응답에 표시됩니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | 2026년 3월 |
+| **날짜 트렌드 고급 API 보고서**<br/>&#x200B;새 Adobe Analytics 2.0 API 날짜 트렌드 고급 보고서 안내서입니다. 날짜 범위 비교 및 세그먼트를 사용하여 고급 날짜 트렌드 API 보고서를 만듭니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced/) | | 2026년 3월 |
 
 ## Adobe Analytics의 수정 사항
 
 **Activity Map**:
-**Analysis Workspace**: AN-440336, AN-440216, AN-440121, AN-438445, AN-438216, AN-437856, AN-437776, AN-437765, AN-437365, AN-432793, AN-432094, AN-431557, AN-431200, AN-429621, AN-429424, AN-427973, AN-426089, AN-425883 424359
-**분류**: AN-440143, AN-439891, AN-439844, AN-438994, AN-438057, AN-438052, AN-437986, AN-437896, AN-435387, AN-435335, AN-435150, AN-433050, AN-432062, AN-431873 429642
-**데이터 피드 및 Data Warehouse**: AN-439441, AN-437086, AN-433064, AN-432121, AN-431755, AN-428239, AN-427049, AN-425036, AN-424972, AN-423509, AN-335417, AN-283958, AN-256948
-**마이그레이션**:
-**내보내기**: AN-432030
-**Report Builder**: AN-437895, AN-437083, AN-434288, AN-434209, AN-433224, AN-430622
-**보고**: AN-434545, AN-431206, AN-428043
+**Analysis Workspace**: AN-442813, AN-442410, AN-441943, AN-441717, AN-434855, AN-431409, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
+**분류**: AN-443453, AN-443275, AN-443148, AN-442906, AN-442232, AN-442207, AN-442148, AN-442133, AN-441937, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441149, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440511 440496 432100
+**데이터 피드 및 Data Warehouse**: AN-442211, AN-441719, AN-441183, AN-441011, AN-440625, AN-438953
+**마이그레이션**: AN-442467, AN-440380, AN-440357
+**내보내기**:
+**Report Builder**: AN-441136, AN-438147, AN-425150
+**보고**: AN-441506, AN-440919, AN-440545, AN-440300
+**보고서 세트**: AN-439429, AN-439423, AN-430988
 **예약된 보고서**:
 **세그먼테이션**:
-**기타**: AN-440076, AN-434783, AN-434542, AN-434233, AN-433368, AN-432138, AN-431322, AN-431012, AN-429067, AN-423285
+**기타**: AN-423359, AN-406242, AN-397985
 
 
 ## 서비스 종료(EOL) 알림 {#eol}
@@ -63,6 +62,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
-* [Adobe Experience Cloud 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
