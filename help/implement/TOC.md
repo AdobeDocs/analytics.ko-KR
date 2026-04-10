@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. 수집할 데이터를 사용자 정의하여 Analytics 데이터에서 더 많은 것을 얻을 수 있습니다.
-source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [Analytics 변수에 태그 데이터 요소 매핑](launch/elements-to-variable.md)
 + JavaScript를 사용하여 Analytics 구현 {#js}
    + [JavaScript 개요](js/overview.md)
-   + [구현 옵트아웃 링크](js/opt-out.md)
+   + {hide-from-toc}[구현 옵트아웃 링크](js/opt-out.md)
    + [변수 무시](js/overrides.md)
    + [H 코드에서 마이그레이션](js/migrate-from-hcode.md)
    + H 코드 {#h-code}
