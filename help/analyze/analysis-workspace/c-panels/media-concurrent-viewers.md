@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 미디어 동시 뷰어 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)Customer Journey Analytics_ ![버전은 ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**미디어 동시 뷰어 패널**&#x200B;을 참조하십시오._
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 미디어 동시 뷰어 패널에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)Customer Journey Analytics_ ![버전은 &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**미디어 동시 뷰어 패널**&#x200B;을 참조하십시오._
 
 >[!ENDSHADEBOX]
 

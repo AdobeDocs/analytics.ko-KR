@@ -16,7 +16,7 @@ ht-degree: 63%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 요약 번호 및 요약 변경 시각화를 설명합니다._<br/>_이 문서의 [ ](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대한 _**요약 번호 및 요약 변경**&#x200B;을 참조하세요._
+_이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 요약 번호 및 요약 변경 시각화를 설명합니다._<br/>_이 문서의 [&#x200B; &#x200B;](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대한 _&#x200B;**요약 번호 및 요약 변경**&#x200B;을 참조하세요._
 
 >[!ENDSHADEBOX]
 
