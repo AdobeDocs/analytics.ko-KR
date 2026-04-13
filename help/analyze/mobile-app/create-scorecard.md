@@ -25,7 +25,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모바일 스코어카드 빌더](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +130,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [시각화](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 사용자 정의 세부 정보 보기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 사용자 정의 세부 정보 보기](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 스토리 만들기](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

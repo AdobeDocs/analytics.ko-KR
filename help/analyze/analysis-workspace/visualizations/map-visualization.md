@@ -46,7 +46,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 맵 시각화에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)_ Customer Journey Analytics![&#x200B; 버전에 대한 &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg)맵&#x200B;_&#x200B;**을(를) 참조하십시오.**&#x200B;_
+_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 맵 시각화에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/map)_ Customer Journey Analytics![&#x200B; 버전에 대한 &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg)맵&#x200B;_&#x200B;**을(를) 참조하십시오.**&#x200B;_
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 맵 시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 맵 시각화](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 
 Here is a video on the topic:
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
+>[!VIDEO](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 
