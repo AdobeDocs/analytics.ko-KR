@@ -1,6 +1,6 @@
 ---
-title: 기여도 분석 패널
-description: Analysis Workspace에서 속성 패널을 사용하고 해석하는 방법을 알아봅니다.
+title: Attribution Panel
+description: Learn how to use and interpret the attribution panel in Analysis Workspace.
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
@@ -66,7 +66,7 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
    ![여러 개의 선택된 차원과 지표를 보여 주는 속성 패널 창.](assets/attribution-panel.png)
 
-1. 비교에 사용할 [포함된 모델](#attribution-models)에서 **[!UICONTROL 속성 모델]**, [컨테이너](#container)에서 **[!UICONTROL 컨테이너]** 및 [전환 확인 기간](#lookback-window)에서 **[!UICONTROL 전환 확인 기간]**&#x200B;을 하나 이상 선택하십시오.
+1. Select one or more [attribution models](#attribution-models) from **[!UICONTROL Included models]**, the [container](#container) from **[!UICONTROL Container]**, and a [lookback window](#lookback-window) from **[!UICONTROL Lookback window]** that you want to use for comparison.
 
 1. 패널에서 시각화를 빌드하려면 **[!UICONTROL 빌드]**&#x200B;를 선택합니다.
 

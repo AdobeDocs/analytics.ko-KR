@@ -1,6 +1,6 @@
 ---
-title: 자유 형식 테이블 개요
-description: Analysis Workspace에서 데이터 분석을 위한 기반인 자유 형식 테이블을 사용하는 방법에 대해 알아봅니다.
+title: Freeform Table Overview
+description: Learn how to use freeform tables, which are the foundation for data analysis in Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
