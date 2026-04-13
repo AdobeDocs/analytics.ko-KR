@@ -5,7 +5,7 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -43,7 +43,7 @@ ht-degree: 67%
    1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
    1. `trackingServer` 변수 값을 확인합니다.
 
-* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ko) 사용:
+* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html) 사용:
    1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
    1. Experience Cloud Debugger를 열고 [!UICONTROL 네트워크 탭]으로 이동합니다.
    1. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
