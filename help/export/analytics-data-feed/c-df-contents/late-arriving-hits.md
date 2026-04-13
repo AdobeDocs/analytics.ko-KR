@@ -1,6 +1,6 @@
 ---
-title: 늦게 도착하는 조회수
-description: 데이터 피드에서 늦게 도착하는 히트를 처리하는 방법을 알아봅니다.
+title: Late-arriving hits
+description: Learn how data feeds treat late-arriving hits.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
@@ -21,19 +21,19 @@ ht-degree: 41%
 
 <!-- markdownlint-enable MD034 -->
 
-## 늦게 도착하는 히트 이해
+## Understand late-arriving hits
 
-데이터 피드에서 지정된 시간 또는 일수(예: 타임스탬프가 지정된 히트 또는 데이터 소스) 동안 작업 처리를 완료한 후에 내역 데이터가 도착할 수 있습니다.
+Historical data can arrive after a data feed job finishes processing for a given hour or day, such as through timestamped hits or data sources.
 
 데이터 피드는 일반적으로 데이터를 처리할 때 보고 창 내에서만 데이터를 조회합니다 (일반적으로 가장 최근 시간 또는 일수). 피드에서 해당 보고 기간의 처리를 마친 후에 데이터가 도착하는 경우 해당 데이터는 데이터 피드에 포함되지 않습니다.
 
-늦게 도착하는 히트가 활성화되면 이 데이터를 포함하도록 처리 방법이 변경됩니다. 데이터 피드는 데이터를 처리할 때마다 도착한 모든 히트를 조회하고 전송된 다음 데이터 피드 파일에 데이터를 배치합니다.
+With late-arriving hits enabled, the processing method changes to include this data. 데이터 피드는 데이터를 처리할 때마다 도착한 모든 히트를 조회하고 전송된 다음 데이터 피드 파일에 데이터를 배치합니다.
 
-## 늦게 도착하는 히트 활성화
+## Enable late-arriving hits
 
-데이터 피드에 대해 늦게 도착하는 히트를 허용하는 옵션을 활성화하기 전에 다음을 고려하십시오.
+Before enabling the option to allow late-arriving hits for a data feed, consider the following:
 
-* 늦게 도착하는 히트가 활성화되면 다른 날짜의 데이터가 데이터 피드에 자주 표시됩니다. 데이터 피드를 수집하는 데 사용하는 플랫폼이 동일한 파일 내에서 다른 요일의 데이터를 수용할 수 있는지 확인합니다.
-* 데이터 피드 파일이 다시 처리되는 경우 처음 5일 이내에 다시 처리되면 원본 파일에 포함된 늦게 도착하는 히트가 다시 처리된 파일에 포함됩니다. 5일 후에는 늦게 도착하는 히트가 재처리된 파일에 포함되지 않습니다.
+* Data for different days frequently appear in data feeds when late-arriving hits are enabled. 데이터 피드를 수집하는 데 사용하는 플랫폼이 동일한 파일 내에서 다른 요일의 데이터를 수용할 수 있는지 확인합니다.
+* If a data feed file is reprocessed, the late-arriving hits that were included in the original file are included in the reprocessed file when reprocessing occurs within the first 5 days. After 5 days, late-arriving hits are not included in the reprocessed file.
 
-**[!UICONTROL 데이터 피드 만들기]**&#x200B;에 설명된 대로 [늦게 도착하는 히트 허용](/help/export/analytics-data-feed/create-feed.md) 옵션을 활성화하여 데이터 피드를 만들거나 편집할 때 늦게 도착하는 히트를 활성화할 수 있습니다.
+You can enable late-arrive hits when creating or editing a data feed by enabling the option, **[!UICONTROL Allow late-arriving hits]**, as described in [Create a data feed](/help/export/analytics-data-feed/create-feed.md).
