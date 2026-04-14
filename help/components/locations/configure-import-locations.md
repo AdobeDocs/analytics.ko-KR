@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 위치 구성
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
+source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 33%
@@ -241,7 +241,7 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 
 +++Azure Blob
 
-Data Warehouse는 Azure Blob 대상을 지원합니다. 컨테이너, 계정 및 키가 필요합니다. Amazon은 데이터를 사용하지 않을 때 자동으로 암호화합니다. 데이터를 다운로드할 때 데이터 암호화는 자동으로 해제됩니다. 자세한 내용은 Microsoft Azure 문서 내에서 [저장소 계정 만들기](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)를 참조하십시오.
+Data Warehouse는 Azure Blob 대상을 지원합니다. 컨테이너, 계정 및 키가 필요합니다. Azure은 사용하지 않는 데이터를 자동으로 암호화합니다. 데이터를 다운로드할 때 데이터 암호화는 자동으로 해제됩니다. 자세한 내용은 Microsoft Azure 문서 내에서 [저장소 계정 만들기](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)를 참조하십시오.
 
 >[!NOTE]
 >
