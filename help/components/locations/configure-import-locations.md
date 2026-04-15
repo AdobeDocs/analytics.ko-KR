@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 위치 구성
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
+source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1711'
 ht-degree: 33%
 
 ---
@@ -78,7 +78,7 @@ Amazon S3 역할 ARN 위치를 구성하려면 다음 정보를 지정합니다.
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
-   이제 구성한 계정 및 위치로 데이터를 가져오거나 내보낼 수 있습니다. 데이터를 내보내려면 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 또는 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을(를) 사용하십시오. 데이터를 가져오려면 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하십시오.
+   이제 구성한 계정 및 위치로 데이터를 가져오거나 내보낼 수 있습니다. 데이터를 내보내려면 [데이터 피드](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [Report Builder](/help/analyze/report-builder/report-builder-export.md)를 사용하십시오. 데이터를 가져오려면 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하십시오.
 
    가져온 데이터는 가져온 후 클라우드 대상에서 삭제되지 않습니다.
 
@@ -102,7 +102,7 @@ Google Cloud Platform 위치를 구성하려면 다음 정보를 지정합니다
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
-   이제 구성한 계정 및 위치로 데이터를 가져오거나 내보낼 수 있습니다. 데이터를 내보내려면 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 또는 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을(를) 사용하십시오. 데이터를 가져오려면 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하십시오.
+   이제 구성한 계정 및 위치로 데이터를 가져오거나 내보낼 수 있습니다. 데이터를 내보내려면 [데이터 피드](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [Report Builder](/help/analyze/report-builder/report-builder-export.md)를 사용하십시오. 데이터를 가져오려면 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하십시오.
 
    가져온 데이터는 가져온 후 클라우드 대상에서 삭제되지 않습니다.
 
@@ -126,7 +126,7 @@ Azure SAS 위치를 구성하려면 다음 정보를 지정합니다.
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
-   이제 구성한 계정 및 위치로 데이터를 가져오거나 내보낼 수 있습니다. 데이터를 내보내려면 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 또는 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을(를) 사용하십시오. 데이터를 가져오려면 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하십시오.
+   이제 구성한 계정 및 위치로 데이터를 가져오거나 내보낼 수 있습니다. 데이터를 내보내려면 [데이터 피드](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [Report Builder](/help/analyze/report-builder/report-builder-export.md)를 사용하십시오. 데이터를 가져오려면 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하십시오.
 
    가져온 데이터는 가져온 후 클라우드 대상에서 삭제되지 않습니다.
 
@@ -151,7 +151,7 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 
 1. [!UICONTROL **저장**]&#x200B;을 선택합니다.
 
-   이제 구성한 계정 및 위치로 데이터를 가져오거나 내보낼 수 있습니다. 데이터를 내보내려면 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 또는 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)을(를) 사용하십시오. 데이터를 가져오려면 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하십시오.
+   이제 구성한 계정 및 위치로 데이터를 가져오거나 내보낼 수 있습니다. 데이터를 내보내려면 [데이터 피드](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [Report Builder](/help/analyze/report-builder/report-builder-export.md)를 사용하십시오. 데이터를 가져오려면 [분류 세트](/help/components/classifications/sets/overview.md)를 사용하십시오.
 
    가져온 데이터는 가져온 후 클라우드 대상에서 삭제되지 않습니다.
 
