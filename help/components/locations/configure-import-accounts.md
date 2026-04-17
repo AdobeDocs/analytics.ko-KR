@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 계정 구성
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
+source-git-commit: abdb37626f8f81a1a8a57bb818565856af3a3714
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 68%
+source-wordcount: '1597'
+ht-degree: 66%
 
 ---
 
@@ -145,14 +145,19 @@ ht-degree: 68%
 
    +++FTP
 
-   데이터 피드 데이터는 Adobe 또는 고객이 호스팅하는 FTP 위치로 전달될 수 있습니다. FTP 호스트, 사용자 이름 및 암호가 필요합니다. 폴더에 피드 파일을 배치하려면 경로 필드를 사용하십시오. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않을 경우 피드에서 오류가 발생합니다.
+   >[!IMPORTANT]
+   >
+   >FTP는 데이터가 일반 텍스트로 인터넷을 통해 흐르기 때문에 사용하면 안 됩니다.
+
+
+   데이터 피드 데이터는 Adobe 또는 고객이 호스팅하는 FTP 위치로 전달될 수 있습니다. FTP 호스트, 사용자 이름 및 암호가 필요합니다.
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **호스트**] | 원하는 FTP 대상 URL을 입력합니다. (예: `ftp.adobe.com`) |
-   | [!UICONTROL **경로**] | 비워 둘 수 있습니다. |
+   | [!UICONTROL **호스트 이름**] | 원하는 FTP 대상 URL을 입력합니다. (예: `ftp.adobe.com`) |
+   | [!UICONTROL **포트**] | 비워 둘 수 있습니다. 이 필드를 사용하여 폴더에 피드 파일을 배치합니다. 폴더는 이미 있어야 합니다. 지정된 포트가 없는 경우 피드에서 오류가 발생합니다. |
    | [!UICONTROL **사용자 이름**] | FTP 사이트에 로그인할 사용자 이름을 입력합니다. |
-   | [!UICONTROL **암호 및 암호 확인**] | FTP 사이트에 로그인할 암호를 입력합니다. |
+   | [!UICONTROL **위치 계정 암호**] | FTP 사이트에 로그인할 암호(암호)를 입력합니다. |
 
    {style="table-layout:auto"}
 
@@ -160,9 +165,9 @@ ht-degree: 68%
 
    +++SFTP
 
-   데이터 피드에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RSA 또는 DSA 공개 키를 포함하려면 SFTP 호스트, 사용자 이름 및 대상 사이트가 필요합니다. 피드를 만들 때 적절한 공개 키를 다운로드할 수 있습니다.
+   데이터 피드에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RSA 또는 ed25519 공개 키를 포함하려면 SFTP 호스트, 사용자 이름 및 대상 사이트가 필요합니다. 피드를 만들 때 적절한 공개 키를 다운로드할 수 있습니다.
 
-   데이터 피드에 대한 RSA 또는 DSA 공개 키를 다운로드할 때 다음 중 하나를 수행하십시오.
+   데이터 피드에 대한 RSA 또25519 ed 공개 키를 다운로드할 때 다음 중 하나를 수행하십시오.
 
    * 다운로드한 공개 키 파일의 이름을 `authorized_keys`(으)로 바꾼 다음 파일을 SFTP 서버의 `.ssh` 폴더로 업로드합니다.
 

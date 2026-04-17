@@ -3,7 +3,7 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d2ceb1ae2cd6856a0c595a4c37e795b83dbaec68
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 30%
@@ -120,7 +120,7 @@ ht-degree: 30%
    >
    >보고서 대상 구성 시 다음과 같은 사항을 고려하십시오.
    >
-   >* Adobe에서는 보고서 대상에 클라우드 계정을 사용하는 것이 좋습니다. [이전 FTP 및 SFTP 계정](#legacy-destinations)은 사용할 수 있지만 권장되지 않습니다.
+   >* Adobe에서는 보고서 대상에 클라우드 계정을 사용하는 것이 좋습니다. [이전 FTP 및 SFTP 계정](/help/components/locations/configure-import-accounts.md)은 사용할 수 있지만 권장되지 않습니다.
    >* 이전에 구성한 모든 클라우드 계정은 데이터 피드에 사용할 수 있습니다. 다음 방법 중 하나로 클라우드 계정을 구성할 수 있습니다.
    >
    >   * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)에 대한 클라우드 계정을 구성할 때
