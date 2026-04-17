@@ -4,16 +4,14 @@ title: 보고 활동 관리자 개요
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
 
 # 보고 활동 관리자 개요
-
-[!UICONTROL 보고 활동 관리자]는 관리자에게 제공됩니다.
 
 보고가 가장 많은 시간대에 보고 성능이 저하되는 경우, 보고 활동 관리자를 통해 Adobe 고객 지원 센터의 개입 없이도 용량 문제를 자가 진단하고 해결할 수 있습니다. 하나의 인터페이스 내에서 보고 대기열을 손쉽게 관리하고 즉각적인 조치를 취해 사용자 경험을 개선할 수 있습니다.
 
