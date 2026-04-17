@@ -4,10 +4,10 @@ description: 보고서 세트 도구에서 각 권한 항목을 파악합니다.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 76%
+source-wordcount: '622'
+ht-degree: 72%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 76%
 | [!UICONTROL 실시간 보고서] | Adobe 템플릿의 참여 > 실시간에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 활동 관리자 관리 보고] | 사용되지 않습니다 |
 | [!UICONTROL 활동 관리자 액세스 보고] | 사용되지 않습니다 |
-| [!UICONTROL 보고서 세트 관리] | 보고서 세트 관리자에 대한 액세스 권한을 부여하지만 변경을 허용하지 않습니다. |
+| [!UICONTROL 보고서 세트 관리] | 보고서 세트 관리자에 대한 액세스 권한을 부여합니다. 보고서 세트 만들기를 허용하지만 &#39;[!UICONTROL 설정 편집]&#39; 아래의 항목에 대한 액세스 권한을 부여하지 않습니다. [[!UICONTROL 보고서 세트 관리자 UI 액세스]](analytics-tools.md)도 참조하세요. |
 | [!UICONTROL 재방문] | 사용되지 않습니다 |
 | [!UICONTROL R&amp;A 대시보드 회사 요약 리포트릿] | 사용되지 않습니다 |
 | [!UICONTROL R&amp;A 대시보드 외부 Reportlet] | 사용되지 않습니다 |
@@ -60,5 +60,3 @@ ht-degree: 76%
 | [!UICONTROL 트래픽 변수] | 보고서 세트 관리자의 트래픽 > 트래픽 변수에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 고유 방문자 수] | 전환 > 고유 방문자 변수에 대한 액세스 권한을 부여합니다. 일반적으로 최신 구현에서는 사용되지 않습니다. |
 | [!UICONTROL URL 필터] | 보고서 세트 관리자의 일반 > 내부 URL 필터에 대한 액세스 권한을 부여합니다. |
-
-{style="table-layout:auto"}
