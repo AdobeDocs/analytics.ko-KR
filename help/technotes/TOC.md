@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료를 찾아봅니다.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
       + [획득](ga-to-aa/reports/acquisition-reports.md)
       + [비헤이비어](ga-to-aa/reports/behavior-reports.md)
       + [전환](ga-to-aa/reports/conversions-reports.md)
-   + [FAQ](ga-to-aa/faq.md)
+   + [자주 묻는 질문](ga-to-aa/faq.md)
    + [플랫폼 간의 처리 차이점](ga-to-aa/processing-differences.md)
    + [데이터와 서드파티 제품 비교](ga-to-aa/compare-data.md)
 + [AI 트래픽 분석](/help/technotes/ai-traffic.md)
@@ -62,6 +62,7 @@ ht-degree: 100%
 + [점진적 웹 앱](pwa.md)
 + [리디렉션 및 별칭](redirects.md)
 + [보안 리소스](security.md)
++ [FTP 및 SFTP 보안](sftp-password-rotation.md)
 + [사용된 용어 (용어)](terms.md)
 + [로그인 문제 해결](troubleshoot-login.md)
 + [로그아웃 문제 해결](troubleshoot-sessions.md)
