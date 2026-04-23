@@ -3,16 +3,16 @@ title: 분류 세트 스키마
 description: 개별 분류 세트에 대한 스키마를 보고 편집하는 방법을 알아봅니다.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d93f0cac9744f22bcd93f046503cf7822e5ebc41
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1616'
 ht-degree: 7%
 
 ---
 
 # 분류 세트 스키마
 
-스키마는 분류 세트에 대해 정의한 주요 차원에 적용할 분류 목록입니다. 예를 들어, 제품을 키 차원으로 정의했으며 이 필드에 제품 SKU가 포함되어 있는 경우 스키마를 사용하여 제품 이름, 제품 색상, 제품 크기 등과 같은 분류를 추가합니다.
+스키마는 분류 세트에 대해 정의한 주요 차원에 적용할 분류 목록입니다. 예를 들어, 제품을 키 차원으로 정의했으며 이 필드에 제품 SKU가 포함되어 있는 경우 스키마를 사용하여 제품 이름, 색상 및 크기와 같은 분류를 추가합니다.
 
 분류 세트에 대한 스키마를 편집하려면 다음을 수행하십시오.
 
@@ -107,7 +107,7 @@ ht-degree: 7%
 **[!UICONTROL _분류 집합 이름_]**&#x200B;에 대한 데이터 다운로드 대화 상자에서:
 
 1. 다운로드할 **[!UICONTROL 행]**&#x200B;의 수를 입력하십시오. 예: `10000`.
-1. 분류 데이터 행을 다운로드할 기간을 선택하려면 **[!UICONTROL 다음 기간 사이에 받은 행 다운로드]**&#x200B;에 대한 시작 및 종료 데이터를 입력하십시오. 또는 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 기간을 선택하는 달력 팝업을 사용합니다.
+1. 분류 데이터 행을 다운로드할 기간을 선택하려면 **[!UICONTROL 다음 기간 사이에 받은 행 다운로드]**&#x200B;의 시작 날짜와 종료 날짜를 입력하십시오. 또는 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 기간을 선택하는 달력 팝업을 사용합니다.
 1. 반환할 데이터를 선택하려면 **[!UICONTROL 반환된 데이터]**&#x200B;에서 옵션을 선택하십시오.
 
    * **[!UICONTROL 모든 값]**&#x200B;은(는) 현재 분류 데이터에 대한 모든 값을 반환합니다.
@@ -119,7 +119,7 @@ ht-degree: 7%
    * **[!UICONTROL 쉼표로 구분된 값]**(CSV).
    * **[!UICONTROL Excel 탭으로 구분된 값]**(TSV 또는 TAB).
 
-1. 파일을 다운로드할 때 [파일 인코딩](/help/components/classifications/sets/data-files.md#general-file-requirements)을 선택하려면 [파일 인코딩] 드롭다운 메뉴에서 옵션을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
+1. 파일을 다운로드할 때 [파일 인코딩](/help/components/classifications/sets/data-files.md#general-file-requirements)을 선택하려면 2를 사용합니다. 파일을 다운로드할 때 [파일 인코딩](/help/components/classifications/sets/data-files.md#general-file-requirements)을 선택하려면 [파일 인코딩] 드롭다운 메뉴에서 옵션을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -146,7 +146,7 @@ ht-degree: 7%
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
-1. 분류 데이터 템플릿을 다운로드하려면 **[!UICONTROL 다운로드]**&#x200B;를 선택하십시오. 다운로드한 파일은 브라우저의 기본 다운로드 디렉터리에 있으며 제목이 <code><i>분류 세트</i>입니다.<i>csv</i>|<i>tsv</i></code>. 파일이 이미 있는 경우 시퀀스 번호 <code>(<i>x</i>)</code> 가 파일 이름에 추가됩니다.
+1. 분류 데이터 템플릿을 다운로드하려면 **[!UICONTROL 다운로드]**&#x200B;를 선택하십시오. 브라우저의 기본 다운로드 디렉토리에서 다운로드한 파일을 찾을 수 있습니다. 파일 제목이 <code><i>분류 집합</i>입니다.<i>csv</i>|<i>tsv</i></code>. 파일이 이미 있는 경우 시퀀스 번호 <code>(<i>x</i>)</code> 가 파일 이름에 추가됩니다.
 
 
 ### 자동화 {#automate}
@@ -166,8 +166,6 @@ ht-degree: 7%
 >additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=ko" text="클라우드 가져오기 및 내보내기 위치 구성"
 
 클라우드 계정 및 클라우드 위치의 구성 및 사용을 통해 분류 데이터 수집을 자동화할 수 있습니다.
-
-
 
 >[!IMPORTANT]
 >클라우드 계정에서 분류 수집을 자동화하려면 사용자(또는 네트워크 관리자)가 데이터를 네트워크로 수집할 수 있도록 IP 주소 범위를 지정해야 합니다. 사용하는 Analytics 데이터 센터의 위치에 따라 하나 이상의 IP 주소 범위를 구성합니다.
@@ -206,14 +204,18 @@ ht-degree: 7%
    * **[!UICONTROL Latin-1]**.
 
 1. 수집 작업이 완료되었음을 사용자에게 알리려면 **[!UICONTROL 수집 작업이 완료되었을 때 알릴 전자 메일(쉼표로 구분)]**&#x200B;에 대한 전자 메일 주소를 쉼표로 구분하여 입력하십시오.
-1. **[!UICONTROL 유효성 검사]**&#x200B;를 선택합니다. 클라우드 위치에 대한 연결이 확인되었습니다.
-1. 유효성 검사가 성공하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 위치 유효성 검사가 성공했음을 보여 주는 toast 메시지가 표시됩니다. 클라우드 스토리지에 대한 연결이 확인되었습니다.클라우드 연결에 대한 연결을 만든 경우 &#x200B;]**<br/>**[!UICONTROL &#x200B;저장&#x200B;]**&#x200B;을 선택합니다. 그렇지 않으면&#x200B;**[!UICONTROL &#x200B;업데이트&#x200B;]**&#x200B;를 선택하십시오. 또는&#x200B;**[!UICONTROL &#x200B;취소&#x200B;]**&#x200B;를 선택하여 클라우드 위치 구성을 취소하세요.
+1. **[!UICONTROL 유효성 검사]**&#x200B;를 선택합니다. 클라우드 위치에 대한 연결이 확인되었습니다. 확인에 성공하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 위치 확인에 성공한 것으로 표시되는 알림 메시지가 나타납니다. 클라우드 스토리지에 대한 연결이 확인되었습니다.클라우드 연결에 대한 연결을 만든 경우 &#x200B;]**<br/>**[!UICONTROL &#x200B;저장&#x200B;]**&#x200B;을 선택합니다. 그렇지 않으면&#x200B;**[!UICONTROL &#x200B;업데이트&#x200B;]**&#x200B;를 선택하십시오. 또는&#x200B;**[!UICONTROL &#x200B;취소&#x200B;]**&#x200B;를 선택하여 클라우드 위치 구성을 취소하세요.
 
 파일을 클라우드 위치에 업로드할 때 15분 이내에 파일이 검색되어 가져오기 작업으로 제출됩니다. 가져오기 작업의 결과는 [분류 작업 관리자](/help/components/classifications/sets/job-manager.md)에 보고됩니다. 수집 작업 완료를 알릴 사용자 목록에 추가되면 이메일 메시지도 수신하게 됩니다.
 
 예:
 
 ![분류 세트 - 작업 확인 전자 메일](assets/job-failed-validation.png){width="400"}
+
+>[!IMPORTANT]
+>
+>파일을 성공적으로 가져오고 처리한 후 수동으로 또는 파일 순환을 사용하여 클라우드 위치에서 파일을 제거합니다. 그렇지 않으면 파일을 다시 가져와서 다음 가져오기 작업 시 다시 처리합니다.
+
 
 
 ## 작업 표시줄
