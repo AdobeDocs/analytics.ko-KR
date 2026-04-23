@@ -3,9 +3,9 @@ title: 분류 세트 스키마
 description: 개별 분류 세트에 대한 스키마를 보고 편집하는 방법을 알아봅니다.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
+source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1605'
 ht-degree: 7%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 7%
    * **[!UICONTROL 쉼표로 구분된 값]**(CSV).
    * **[!UICONTROL Excel 탭으로 구분된 값]**(TSV 또는 TAB).
 
-1. 파일을 다운로드할 때 [파일 인코딩](/help/components/classifications/sets/data-files.md#general-file-requirements)을 선택하려면 2를 사용합니다. 파일을 다운로드할 때 [파일 인코딩](/help/components/classifications/sets/data-files.md#general-file-requirements)을 선택하려면 [파일 인코딩] 드롭다운 메뉴에서 옵션을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
+1. 파일을 다운로드할 때 [파일 인코딩](/help/components/classifications/sets/data-files.md#general-file-requirements)을 선택하려면 **[!UICONTROL 파일 인코딩]** 드롭다운 메뉴에서 옵션을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
