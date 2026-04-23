@@ -4,16 +4,16 @@ keywords: ftp, sftp
 title: FTP로 엔지니어링 서비스 참여
 feature: FTP Export
 exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 90%
+source-wordcount: '156'
+ht-degree: 76%
 
 ---
 
-# FTP로 엔지니어링 서비스 참여
+# FTP 또는 SFTP를 통한 엔지니어링 서비스 참여
 
-많은 Adobe 엔지니어링 서비스 참여에 데이터 교환이 포함되며, 이러한 데이터 교환에 FTP가 필요한 경우가 많습니다.
+많은 Adobe 엔지니어링 서비스 참여에는 데이터 교환이 포함되며, 이러한 데이터 교환에는 FTP 또는 SFTP가 필요한 경우가 많습니다.
 
 이러한 참여에 [!UICONTROL DB VISTA] 및 사용자 정의 프로젝트가 포함됩니다.
 
