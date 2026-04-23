@@ -32,7 +32,7 @@ ht-degree: 2%
 >FTP 및 SFTP는 기존 대상 유형입니다. 이 문서에 설명된 대로 FTP 계정을 SFTP로 업그레이드하고 SFTP 암호를 순환하지 않고, Adobe에서 최신 클라우드 대상 유형(예: Amazon S3, Google Cloud Platform 또는 Azure)으로 이동하는 것이 좋습니다. 이러한 클라우드 대상은 더 높은 수준의 보안을 제공합니다. 자세한 내용은 [클라우드 가져오기 및 내보내기 계정 구성](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-accounts)을 참조하십시오.
 >
 >* **FTP 및 SFTP 계정이 분류에만 사용되는 경우 분류 세트로 마이그레이션하십시오.**
->FTP 또는 SFTP 계정이 분류에만 사용되는 경우 이 문서에 설명된 대로 FTP 계정을 SFTP로 업그레이드하고 SFTP 암호를 순환하지 않고 **분류 가져오기**&#x200B;에서 **분류 세트**(으)로 마이그레이션해야 합니다. 분류 가져오기는 더 이상 사용되지 않으며 **2026년 8월 31일** 이후에 더 이상 액세스할 수 없습니다. 자세한 내용은 [분류 집합 개요](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview)를 참조하십시오.
+>FTP 또는 SFTP 계정이 분류에만 사용되는 경우 이 문서에 설명된 대로 FTP 계정을 SFTP로 업그레이드하고 SFTP 암호를 순환하지 않고 **분류 가져오기**&#x200B;에서 **분류 세트**(으)로 마이그레이션해야 합니다. 분류 가져오기는 더 이상 사용되지 않으며 **2026년 8월 31일** 이후에 더 이상 액세스할 수 없습니다. 자세한 내용은 [분류 집합 개요](https://experienceleague.adobe.com/ko/docs/analytics/components/classifications/sets/overview)를 참조하십시오.
 
 ## 사전 요구 사항
 
