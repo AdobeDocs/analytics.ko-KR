@@ -3,25 +3,25 @@ title: Analytics 통합
 description: 다른 위치의 데이터를 Adobe Analytics에 통합하는 방법을 살펴보십시오.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 99%
+source-wordcount: '167'
+ht-degree: 72%
 
 ---
 
 # Analytics 통합
 
-이 안내서는 Audience Manager, Advertising Cloud 또는 Target과 같은 기타 Adobe Experience Cloud 솔루션과의 통합에 중점을 두고 있습니다. 이러한 서비스에는 다음이 포함됩니다.
+이 안내서는 Audience Manager, Advertising 또는 Target과 같은 여러 Adobe Experience Cloud 솔루션 통합에 중점을 두고 있습니다. 이러한 서비스에는 다음이 포함됩니다.
 
 * **Audience Analytics:** Adobe Audience Manager를 Adobe Analytics와 통합합니다.
 * **Advertising Analytics:** 유료 검색 데이터를 Adobe Analytics 데이터와 나란히 볼 수 있습니다.
-* **Advertising Cloud DSP용 Analytics:** Adobe Analytics와 Adobe Advertising Cloud를 통합하여 각 제품의 기능을 확장하고 향상합니다.
+* **Advertising DSP용 Analytics:** Adobe Analytics과 Adobe Advertising을 통합하여 각 제품의 기능을 확장하고 향상합니다.
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud용 Analytics](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}를 확인하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising용 분석](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 99%
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://experienceleague.adobe.com/ko?support-solution=Analytics#support)
-* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko)
-* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ko)
+* [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)
