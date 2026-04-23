@@ -1,14 +1,15 @@
 ---
 title: 분류 세트 스키마
-description: 개별 분류 세트에 대한 스키마를 보고 편집하는 방법을 알아봅니다.
+description: Adobe Analytics에서 분류 세트에 대한 스키마를 보고 편집하는 방법을 알아봅니다. 클라우드 위치를 사용하여 분류 데이터를 추가, 업로드, 다운로드 또는 자동화합니다.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
+source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1618'
 ht-degree: 7%
 
 ---
+
 
 # 분류 세트 스키마
 
@@ -36,7 +37,7 @@ ht-degree: 7%
 | 열 | 설명 |
 |---|---|
 | **[!UICONTROL 분류 이름]** | 분류에 제공한 이름입니다. |
-| **[!UICONTROL ID 이름]** | 시스템에서 분류에 대해 파생된 이름입니다. 이 이름은 읽기 전용 값이며 ID 이름을 사용할 수 있습니다 |
+| **[!UICONTROL ID 이름]** | 분류에 대해 시스템에서 생성한 이름입니다. 이 이름은 읽기 전용 값이며 ID 이름을 사용할 수 있습니다. |
 | **[!UICONTROL 분류자]** | 사용하는 경우 이 분류를 분류하는 데 사용되는 조회 분류 세트에 대한 링크입니다. |
 
 
@@ -65,8 +66,6 @@ ht-degree: 7%
 ![분류 세트 - 스키마에 분류 추가](assets/classification-sets-schema-add-classification.png)
 
 **[!UICONTROL _분류 집합 이름_]**&#x200B;에 대한 새 분류 추가 대화 상자에서&#x200B;**[!UICONTROL 분류 이름]**&#x200B;을 입력하고&#x200B;**[!UICONTROL 추가]**&#x200B;를 선택합니다. 분류가 목록에 추가됩니다.
-
-
 
 ### 업로드
 
@@ -141,7 +140,7 @@ ht-degree: 7%
    * **[!UICONTROL 쉼표로 구분된 값]**&#x200B;입니다.
    * **[!UICONTROL Excel 탭으로 구분된 값]**.
 
-1. 파일을 다운로드할 때 [파일 인코딩](/help/components/classifications/sets/data-files.md#general-file-requirements)을 선택하려면 [파일 인코딩] 드롭다운 메뉴에서 옵션을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
+1. 파일을 다운로드할 때 [파일 인코딩](/help/components/classifications/sets/data-files.md#general-file-requirements)을 선택하려면 **[!UICONTROL 파일 인코딩]** 드롭다운 메뉴에서 옵션을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -204,7 +203,7 @@ ht-degree: 7%
    * **[!UICONTROL Latin-1]**.
 
 1. 수집 작업이 완료되었음을 사용자에게 알리려면 **[!UICONTROL 수집 작업이 완료되었을 때 알릴 전자 메일(쉼표로 구분)]**&#x200B;에 대한 전자 메일 주소를 쉼표로 구분하여 입력하십시오.
-1. **[!UICONTROL 유효성 검사]**&#x200B;를 선택합니다. 클라우드 위치에 대한 연결이 확인되었습니다. 확인에 성공하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 위치 확인에 성공한 것으로 표시되는 알림 메시지가 나타납니다. 클라우드 스토리지에 대한 연결이 확인되었습니다.클라우드 연결에 대한 연결을 만든 경우 &#x200B;]**<br/>**[!UICONTROL &#x200B;저장&#x200B;]**&#x200B;을 선택합니다. 그렇지 않으면&#x200B;**[!UICONTROL &#x200B;업데이트&#x200B;]**&#x200B;를 선택하십시오. 또는&#x200B;**[!UICONTROL &#x200B;취소&#x200B;]**&#x200B;를 선택하여 클라우드 위치 구성을 취소하세요.
+1. **[!UICONTROL 유효성 검사]**&#x200B;를 선택합니다. 클라우드 위치에 대한 연결이 확인되었습니다. 유효성 검사가 성공하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 위치 유효성 검사가 성공한 것으로 표시되는 toast 메시지가 나타납니다. 클라우드 스토리지에 대한 연결이 확인되었습니다.클라우드 연결에 대한 연결을 만든 경우 &#x200B;]**<br/>**[!UICONTROL &#x200B;저장&#x200B;]**&#x200B;을 선택합니다. 그렇지 않으면&#x200B;**[!UICONTROL &#x200B;업데이트&#x200B;]**&#x200B;를 선택하십시오. 또는&#x200B;**[!UICONTROL &#x200B;취소&#x200B;]**&#x200B;를 선택하여 클라우드 위치 구성을 취소하세요.
 
 파일을 클라우드 위치에 업로드할 때 15분 이내에 파일이 검색되어 가져오기 작업으로 제출됩니다. 가져오기 작업의 결과는 [분류 작업 관리자](/help/components/classifications/sets/job-manager.md)에 보고됩니다. 수집 작업 완료를 알릴 사용자 목록에 추가되면 이메일 메시지도 수신하게 됩니다.
 
