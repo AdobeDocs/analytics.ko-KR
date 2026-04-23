@@ -3,16 +3,16 @@ title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7a245e2c24e8763c93150aa5b9f3ac2d197f6f1f
+source-git-commit: 907f510e02a0f5cb378c139a20cc147304ad0d70
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1103'
+ht-degree: 91%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2026년 4월)
 
-**마지막 업데이트**: 2026년 4월 9일
+**마지막 업데이트**: 2026년 4월 22일 목요일
 
 이 릴리스 정보에는 2026년 4월 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
-| **Adobe Analytics용 MCP 서버** <br/>이제 MCP(Model Context Protocol)를 사용하여 Adobe Analytics을 기존의 에이전틱 워크플로에 연결할 수 있습니다. 자연어를 사용하여 보고서와 인사이트를 요청할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 4월 말 |
+| **Adobe Analytics용 MCP 서버** <br/>Analytics MCP(Model Context Protocol) 서버를 사용하면 지원되는 MCP 클라이언트를 Adobe Analytics에 연결할 수 있습니다. 연결되면 MCP 클라이언트는 제품별 도구를 호출하여 데이터를 검색하거나 쿼리를 실행하거나 LLM 또는 에이전트 워크플로우의 일부로 지원되는 작업을 수행할 수 있습니다. 자세한 내용은 [Analytics MCP 서버](https://developer.adobe.com/analytics-mcp/docs/)를 참조하십시오.<p>Beta 기간 동안 이러한 MCP 서버를 사용한 경우 Beta와 프로덕션 엔드포인트 간에 서로 다른 URL이 있습니다. 베타 기간 동안 만들어진 모든 에이전트 워크플로가 5월 31일 이전에 프로덕션 끝점을 사용하도록 업데이트되었는지 확인하십시오.</p> | | 2026년 4월 29일 목요일 |
 | **스트리밍 미디어 서비스: 일정 데이터 지원** <br/>이제 과거 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청자 수를 보다 쉽고 정확하게 추적할 수 있습니다.<p>다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.</p><ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul><p>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다.</p><p>이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.</p><p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다.</p><p>자세한 내용은 [라이브 콘텐츠를 추적할 일정 데이터 업로드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-use-cases/track-schedule-data)를 참조하십시오.</p> | 2025년 10월 29일 | 2026년 상반기<p>(원래 2025년 10월 29일 릴리스로 계획됨)</p> |
 | **추가 API 날짜 범위 형식**<br/>&#x200B;이제 Analytics 2.0 API 보고서 요청에서 날짜 범위를 지정하는 두 가지 새로운 형식이 지원됩니다. 여기에는 날짜 수식과 혼합 형식이 포함됩니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | 2026년 3월 |
 | **API 보고서 요청의 선택적 차원**<br/>&#x200B;보고서 API 요청에는 차원 오브젝트가 필요하지 않습니다. 차원이 지정되지 않으면 응답에 총합 보고서에 대한 데이터가 표시됩니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | 2026년 3월 |
@@ -61,6 +61,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
-* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ko)
-* [Adobe Experience Cloud 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
