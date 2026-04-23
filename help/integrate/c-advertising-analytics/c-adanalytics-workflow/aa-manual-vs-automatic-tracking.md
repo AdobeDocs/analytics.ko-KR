@@ -18,7 +18,7 @@ ht-degree: 25%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -37,7 +37,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보십시오.
+>`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/ko/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보십시오.
 
 ## 수동 추적 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
