@@ -3,9 +3,9 @@ title: 분류 세트 스키마
 description: 개별 분류 세트에 대한 스키마를 보고 편집하는 방법을 알아봅니다.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: d93f0cac9744f22bcd93f046503cf7822e5ebc41
+source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1617'
 ht-degree: 7%
 
 ---
@@ -214,7 +214,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->파일을 성공적으로 가져오고 처리한 후 수동으로 또는 파일 순환을 사용하여 클라우드 위치에서 파일을 제거합니다. 그렇지 않으면 파일을 다시 가져와서 다음 가져오기 작업 시 다시 처리합니다.
+>파일을 성공적으로 가져오고 처리한 후 수동으로 또는 파일 순환 정책을 사용하여 클라우드 위치에서 파일을 제거합니다. 그렇지 않으면 파일을 다시 가져와서 다음 가져오기 작업 시 다시 처리합니다.
 
 
 
