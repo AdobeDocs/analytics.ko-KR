@@ -3,16 +3,16 @@ title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 60%
+source-wordcount: '894'
+ht-degree: 53%
 
 ---
 
 # Analytics 차원 호환성
 
-이 페이지에는 각 Analytics 기능에서 지원되는 [차원](overview.md)이 나열됩니다.
+This page lists [dimensions](overview.md) supported in their respective Analytics capabilities.
 
 >[!NOTE]
 >
@@ -30,10 +30,10 @@ ht-degree: 60%
 | [도시](cities.md) | `geocity` |
 | [색상 깊이](color-depth.md) | `colordepth` |
 | [연결 유형](connection-type.md) | `connectiontype` |
-| [쿠키 지원](cookie-support.md) | `cookie` |
+| [Cookie Support](cookie-support.md) | `cookie` |
 | [국가](countries.md) | `geocountry` |
 | [고객 충성도](customer-loyalty.md) | `customerloyalty` |
-| [사용자 지정 전환 변수](evar.md) | `evar1`, `evar2` 등 |
+| [Custom Conversion Vars](evar.md) | `evar1`, `evar2` 등 |
 | [Custom Insight 변수](prop.md) | `prop1`, `prop2` 등 |
 | [사용자 지정 링크](custom-link.md) | `customlink` |
 | [첫 구매까지 소요된 일 수](days-before-first-purchase.md) | `daysbeforefirstpurchase` |
@@ -55,10 +55,10 @@ ht-degree: 60%
 | [모바일 통신사](mobile-dimensions.md) | `mobilecarrier` |
 | [모바일 색상 깊이](mobile-dimensions.md) | `mobilecolordepth` |
 | [모바일 쿠키 지원](mobile-dimensions.md) | `mobilecookiesupport` |
-| [모바일 장치](mobile-dimensions.md) | `mobiledevicename` |
-| [모바일 장치 유형](mobile-dimensions.md) | `mobiledevicetype` |
-| [모바일 최대 전자 메일 길이](mobile-dimensions.md) | `mobileemaillength` |
-| [모바일 이미지 지원](mobile-dimensions.md) | `mobileimagesupport` |
+| [Mobile Device](mobile-dimensions.md) | `mobiledevicename` |
+| [Mobile Device Type](mobile-dimensions.md) | `mobiledevicetype` |
+| [Mobile Max Email Length](mobile-dimensions.md) | `mobileemaillength` |
+| [Mobile Image Support](mobile-dimensions.md) | `mobileimagesupport` |
 | [모바일 제조업체](mobile-dimensions.md) | `mobilemanufacturer` |
 | [모바일 운영 체제(더 이상 사용되지 않음)](mobile-dimensions.md) | `mobileos` |
 | [모바일 화면 높이](mobile-dimensions.md) | `mobilescreenheight` |
@@ -81,17 +81,17 @@ ht-degree: 60%
 | [검색 엔진](search-engine.md) | `searchengine` |
 | [검색 키워드](search-keyword.md) | `searchenginekeyword` |
 | [검색 엔진 - 자연어](search-engine.md) | `searchenginenatural` |
-| [검색 엔진 - 유료](search-engine.md) | `searchenginepaid` |
-| [검색 키워드 - 자연어](search-keyword.md) | `searchenginenaturalkeyword` |
-| [검색 키워드 - 유료](search-keyword.md) | `searchenginepaidkeyword` |
+| [Search Engine - Paid](search-engine.md) | `searchenginepaid` |
+| [Search Keyword - Natural](search-keyword.md) | `searchenginenaturalkeyword` |
+| [Search Keyword - Paid](search-keyword.md) | `searchenginepaidkeyword` |
 | [모든 검색 페이지 등급](all-search-page-rank.md) | `searchenginepagerank` |
 | [서버](server.md) | `server` |
 | [단일 페이지 방문 횟수](single-page-visits.md) | `singlepagevisits` |
-| [사이트 섹션](site-section.md) | `sitesections` |
-| [방문당 체류 시간 - 세부기간](time-spent-per-visit.md) | `sitetime` |
+| [Site Section](site-section.md) | `sitesections` |
+| [Time Spent per Visit - Granular](time-spent-per-visit.md) | `sitetime` |
 | [추적 코드](tracking-code.md) | `campaign` |
 | [US DMA](us-dma.md) | `geodma` |
-| [미국 주](us-states.md) | `state` |
+| [US States](us-states.md) | `state` |
 | [이벤트까지 남은 시간](time-prior-to-event.md) | `timeprior` |
 | [방문당 체류 시간 - 그룹화됨](time-spent-per-visit.md) | `timespent` |
 | [방문 깊이](visit-depth.md) | `pathlength` |
@@ -148,60 +148,60 @@ ht-degree: 60%
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
-| Activity Map XY | `clickmapxy` |
+| Activity Map | `clickmapxy` |
 | 미디어 세션 ID | `videosessionid` |
 | Nielsen 액세스 방법 | `nielsenaccmethod` |
 | Nielsen 앱 ID | `nielsenappid` |
 | Channel 채널 자산 | `nielsenchannelasset` |
 | Nielsen 콘텐츠 유형 | `nielsencontenttype` |
 
-## Analysis Workspace에서 지원하는 컨텐츠 인식 차원
+## Content-aware dimensions supported by Analysis Workspace
 
 ### 비디오(스트리밍 미디어 서비스)
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | [콘텐츠](sm-core.md) | `video` |
-| [컨텐츠 세그먼트](sm-core.md) | `videosegment` |
-| [컨텐츠 유형](sm-core.md) | `videocontenttype` |
+| [콘텐츠 세그먼트](sm-core.md) | `videosegment` |
+| [콘텐츠 형식](sm-core.md) | `videocontenttype` |
 | [광고 플레이어 이름](sm-ads.md) | `videoadplayername` |
-| [Pod의 광고 위치](sm-ads.md) | `videoadinpod` |
-| [드롭된 프레임](sm-quality.md) | `videoqoedroppedframecountevar` |
+| [Pod 위치의 광고](sm-ads.md) | `videoadinpod` |
+| [삭제된 프레임](sm-quality.md) | `videoqoedroppedframecountevar` |
 | [오류](sm-quality.md) | `videoqoeerrorcountevar` |
 | [평균 비트율](sm-quality.md) | `videoqoebitrateaverageevar` |
 | [비트율 변경](sm-quality.md) | `videoqoebitratechangecountevar` |
-| [총 버퍼 지속 시간](sm-quality.md) | `videoqoebuffertimeevar` |
-| [버퍼 이벤트](sm-quality.md) | `videoqoebuffercountevar` |
-| [시작 시간](sm-quality.md) | `videoqoetimetostartevar` |
-| [광고 Pod](sm-ads.md) | `videoadpod` |
-| [미디어 경로](sm-core.md) | `videopath` |
+| [Total Buffer Duration](sm-quality.md) | `videoqoebuffertimeevar` |
+| [Buffer Events](sm-quality.md) | `videoqoebuffercountevar` |
+| [Time to Start](sm-quality.md) | `videoqoetimetostartevar` |
+| [Ad Pod](sm-ads.md) | `videoadpod` |
+| [Media Path](sm-core.md) | `videopath` |
 | [광고](sm-ads.md) | `videoad` |
-| [컨텐츠 플레이어 이름](sm-core.md) | `videoplayername` |
-| [컨텐츠 채널](sm-core.md) | `videochannel` |
+| [콘텐츠 플레이어 이름](sm-core.md) | `videoplayername` |
+| [콘텐츠 채널](sm-core.md) | `videochannel` |
 | [챕터](sm-chapters.md) | `videochapter` |
-| [컨텐츠 이름(변수)](sm-core.md) | `videoname` |
-| [컨텐츠 길이(변수)](sm-core.md) | `videolength` |
+| [콘텐츠 이름(변수)](sm-core.md) | `videoname` |
+| [콘텐츠 길이(변수)](sm-core.md) | `videolength` |
 | [광고 이름(변수)](sm-ads.md) | `videoadname` |
 | [광고 길이(변수)](sm-ads.md) | `videoadlength` |
-| [정보](sm-video-metadata.md) | `videoshow` |
+| [표시](sm-video-metadata.md) | `videoshow` |
 | [시즌](sm-video-metadata.md) | `videoseason` |
 | [에피소드](sm-video-metadata.md) | `videoepisode` |
 | [네트워크](sm-video-metadata.md) | `videonetwork` |
-| [표시 유형](sm-video-metadata.md) | `videoshowtype` |
+| [표시 형식](sm-video-metadata.md) | `videoshowtype` |
 | [광고 로드](sm-ads.md) | `videoadload` |
 | [MVPD](sm-video-metadata.md) | `videomvpd` |
-| [방송 시간대](sm-video-metadata.md) | `videodaypart` |
+| [일 파트](sm-video-metadata.md) | `videodaypart` |
 | [광고주](sm-ads.md) | `videoadadvertiser` |
 | [캠페인 ID](sm-ads.md) | `videoadcampaign` |
 | [장르](sm-video-metadata.md) | `videogenre` |
-| [스트림 유형](sm-core.md) | `videostreamtype` |
+| [스트림 형식](sm-core.md) | `videostreamtype` |
 | [플레이어 SDK 오류 ID](sm-quality.md) | `videoqoeplayersdkerrors` |
 | [외부 오류 ID](sm-quality.md) | `videoqoeextneralerrors` |
 | [미디어 피드 유형](sm-video-metadata.md) | `videofeedtype` |
-| [시작 미디어 경로](entry-dimensions.md) | `entryvideopath` |
-| [미디어 경로 종료](exit-dimensions.md) | `exitvideopath` |
-| [시작 장르](entry-dimensions.md) | `entryvideogenre` |
-| [장르 종료](exit-dimensions.md) | `exitvideogenre` |
+| [Entry Media Path](entry-dimensions.md) | `entryvideopath` |
+| [Exit Media Path](exit-dimensions.md) | `exitvideopath` |
+| [Entry Genre](entry-dimensions.md) | `entryvideogenre` |
+| [Exit Genre](exit-dimensions.md) | `exitvideogenre` |
 | [시작 플레이어 SDK 오류 ID](entry-dimensions.md) | `entryvideoqoeplayersdkerrors` |
 | [종료 플레이어 SDK 오류 ID](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
 | [항목 외부 오류 ID](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
@@ -209,7 +209,7 @@ ht-degree: 60%
 
 ### Adobe Social
 
-Adobe Social이 사용 중단되었습니다.
+Adobe Social is retired.
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
@@ -235,8 +235,8 @@ Adobe Social이 사용 중단되었습니다.
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
-| [첫 번째 실행 날짜](lifecycle-dimensions.md) | `mobileinstalldate` |
-| [앱 ID](lifecycle-dimensions.md) | `mobileappid` |
+| [First Launch Date](lifecycle-dimensions.md) | `mobileinstalldate` |
+| [App Id](lifecycle-dimensions.md) | `mobileappid` |
 | [시작 번호](lifecycle-dimensions.md) | `mobilelaunchnumber` |
 | [최초 사용 이후 일 수](lifecycle-dimensions.md) | `mobiledayssincefirstuse` |
 | [마지막 사용 이후 일 수](lifecycle-dimensions.md) | `mobiledayssincelastuse` |
@@ -264,11 +264,11 @@ Adobe Social이 사용 중단되었습니다.
 | [시작 비콘 Minor](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
 | [종료 비콘 Minor](lifecycle-dimensions.md) | `exitmobilebeaconminor` |
 | [시작 비콘 UUID](lifecycle-dimensions.md) | `entrymobilebeaconuuid` |
-| [종료 비콘 UUID](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |
-| [시작 비콘 Proximity](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
-| [종료 비콘 Proximity](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
+| [Exit Beacon UUID](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |
+| [Entry Beacon Proximity](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
+| [Exit Beacon Proximity](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
-### AMO (Adobe Advertising Cloud)
+### Adobe Advertising
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
@@ -279,18 +279,18 @@ Adobe Social이 사용 중단되었습니다.
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
-| 지역별 [Activity Map 링크](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [지역별 Activity Map 링크](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
 | [Activity Map 지역](activity-map-region.md) | `clickmapregion` |
 | [Activity Map 링크](activity-map-link.md) | `clickmaplink` |
 | [Activity Map 페이지](activity-map-page.md) | `clickmappage` |
 
 ### Nielsen 통합
 
-이 통합을 구현하는 방법에 관한 자세한 내용은 Adobe Exchange에서 [Nielsen Extension](https://exchange.adobe.com/apps/ec/101361)을 참조하십시오.
+For more information on how to implement this integration, see the [Nielsen Extension](https://exchange.adobe.com/apps/ec/101361) on the Adobe Exchange.
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
-| Nielsen 광고 모델 | `nielsenadmodel` |
+| Nielsen Ad Model | `nielsenadmodel` |
 | Nielsen 세그먼트 C | `nielsensegmentc` |
 | Nielsen 세그먼트 B | `nielsensegmentb` |
 | Nielsen 세그먼트 A | `nielsensegmenta` |
@@ -321,4 +321,4 @@ Adobe Social이 사용 중단되었습니다.
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
-| Adobe Campaign 수행된 배달 ID | `ac_delivery_internal_name` |
+| Adobe Campaign 실행 게재 ID | `ac_delivery_internal_name` |
