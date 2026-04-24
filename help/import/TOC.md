@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Analytics 가져오기 안내서
 breadcrumb-title: 가져오기 안내서
 user-guide-description: 데이터를 일괄 방식 또는 실시간으로 외부 소스에서 Adobe Analytics로 가져옵니다.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+index: true
+source-git-commit: d1ce4b6a6db2d8016559f2553e7f94d240a16c71
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
