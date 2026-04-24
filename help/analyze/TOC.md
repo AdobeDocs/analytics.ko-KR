@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+index: true
+source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 100%
          + [폴더 관리](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [프로젝트를 추가하거나 이동](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [단축키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [핫키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
       + [디버거](analysis-workspace/build-workspace-project/debugger.md)
@@ -110,7 +111,7 @@ ht-degree: 100%
       + [히스토그램](analysis-workspace/visualizations/histogram.md)
       + [가로 막대(스택)](analysis-workspace/visualizations/horizontal-bar.md)
       + [주요 지표 요약](analysis-workspace/visualizations/key-metric.md)
-      + [선](analysis-workspace/visualizations/line.md)
+      + [라인](analysis-workspace/visualizations/line.md)
       + [맵](analysis-workspace/visualizations/map-visualization.md)
       + [분산](analysis-workspace/visualizations/scatterplot.md)
       + [섹션 헤더](/help/analyze/analysis-workspace/visualizations/section-header.md)
@@ -174,8 +175,8 @@ ht-degree: 100%
    + [세그먼트를 사용한 작업](report-builder/work-with-segments.md)
    + [차원 필터링](report-builder/filter-dimensions.md)
    + [데이터 블록 관리](report-builder/manage-reportbuilder.md)
-   + [이메일용 통합 문서 예약](report-builder/schedule-reportbuilder.md)
-   + [클라우드 내보내기용 통합 문서 예약](/help/analyze/report-builder/report-builder-export.md)
+   + [이메일용 일정 워크북](report-builder/schedule-reportbuilder.md)
+   + [클라우드 내보내기용 일정 워크북](/help/analyze/report-builder/report-builder-export.md)
    + [예약된 통합 문서 관리](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Report Builder 설정](report-builder/report-builder-settings.md)
 + 레거시 Report Builder {#legacy-report-builder}
