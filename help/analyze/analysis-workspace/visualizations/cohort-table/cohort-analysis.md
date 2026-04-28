@@ -35,7 +35,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;에 있는 집단 테이블을 설명합니다._<br/>__&#x200B;에 대한 [집단 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전._
+_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 있는 집단 테이블을 설명합니다._<br/>__&#x200B;에 대한 [집단 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 

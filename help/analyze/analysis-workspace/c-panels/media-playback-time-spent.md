@@ -34,7 +34,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;에 있는 미디어 재생 소요 시간 패널을 설명합니다._<br/>_[미디어 재생 소요 시간 패널 참조](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전을 참조하십시오._
+_이 문서에서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 있는 미디어 재생 소요 시간 패널을 설명합니다._<br/>_[미디어 재생 소요 시간 패널 참조](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
