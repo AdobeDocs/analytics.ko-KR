@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 88%
+source-wordcount: '738'
+ht-degree: 86%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 코호트 테이블에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [코호트 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오._
+_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 있는 집단 테이블을 설명합니다._<br/>__&#x200B;에 대한 [집단 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)을 참조하십시오![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Adobe Analytics의 집단 테이블은 이중 기반(또는 모든 숫자 기반
 
 ![코호트에 대한 반환 기준을 충족하지 못한 사람들의 단위와 비율을 보여 주는 이탈 테이블.](assets/churn-report.png)
 
-### 순환 계산
+### 롤링 계산
 
 포함된 열이 아닌 이전 열을 기준으로 유지 또는 이탈을 계산할 수 있으며, 이를 순환 계산이라고 합니다.
 

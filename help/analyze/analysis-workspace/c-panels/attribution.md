@@ -1,13 +1,13 @@
 ---
-title: Attribution Panel
-description: Learn how to use and interpret the attribution panel in Analysis Workspace.
+title: 기여도 분석 패널
+description: Analysis Workspace에서 속성 패널을 사용하고 해석하는 방법을 알아봅니다.
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 94%
+source-wordcount: '714'
+ht-degree: 91%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="속성 패널"
->abstract="차원 및 전환 지표를 사용하여 여러 속성 모델을 빠르게 비교하고 시각화합니다.<br/><br/>**매개변수&#x200B;**<br/>**채널**<br/>&#x200B;이 차원은 속성의 대상입니다. 이 차원은 마케팅 채널, 캠페인 또는 다른 차원일 수 있습니다.<br/>**모델**<br/>&#x200B;모델은 크레딧이 터치포인트에 어떻게 지정되는지 결정합니다.<br/>**전환 확인 기간**<br/>&#x200B;이 설정은 각 변환에 적용되는 데이터 속성의 기간을 결정합니다."
+>abstract="차원 및 전환 지표를 사용하여 여러 속성 모델을 빠르게 비교하고 시각화합니다.<br/><br/>**매개변수&#x200B;**<br/>**채널**<br/>&#x200B;이 차원은 속성의 대상입니다. 이 차원은 마케팅 채널, 캠페인 또는 다른 차원일 수 있습니다.<br/>**모델**<br/>&#x200B;모델은 크레딧이 접점에 어떻게 지정되는지 결정합니다.<br/>**전환 확인 기간**<br/>&#x200B;이 설정은 각 변환에 적용되는 데이터 속성의 기간을 결정합니다."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 패널"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 속성 패널에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하십시오._
+_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 속성 패널을 설명합니다._<br/>_자세한 내용은 [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하십시오_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
    ![여러 개의 선택된 차원과 지표를 보여 주는 속성 패널 창.](assets/attribution-panel.png)
 
-1. Select one or more [attribution models](#attribution-models) from **[!UICONTROL Included models]**, the [container](#container) from **[!UICONTROL Container]**, and a [lookback window](#lookback-window) from **[!UICONTROL Lookback window]** that you want to use for comparison.
+1. 비교에 사용할 **[!UICONTROL 포함된 모델]**&#x200B;에서 [속성 모델](#attribution-models), **[!UICONTROL 컨테이너]**&#x200B;에서 [컨테이너](#container) 및 **[!UICONTROL 전환 확인 기간]**&#x200B;에서 [전환 확인 기간](#lookback-window)을 하나 이상 선택하십시오.
 
 1. 패널에서 시각화를 빌드하려면 **[!UICONTROL 빌드]**&#x200B;를 선택합니다.
 

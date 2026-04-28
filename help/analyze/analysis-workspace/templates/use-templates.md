@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
-source-wordcount: '18674'
+source-wordcount: '18746'
 ht-degree: 99%
 
 ---
@@ -39,7 +39,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
    * **[!UICONTROL Adobe 템플릿]**: Adobe에서 제공하는 모든 템플릿을 보여 줍니다.
 
-   * **[!UICONTROL _login_company_name _템플릿]**: 조직을 위해 만들어진 모든 회사 템플릿을 보여 줍니다.
+   * **[!UICONTROL _login _company_name_ 템플릿]**: 조직을 위해 만들어진 모든 회사 템플릿을 보여 줍니다.
 
      관리자만 회사 템플릿을 만들 수 있습니다. 회사 템플릿을 만드는 방법에 대한 자세한 내용은 [템플릿 만들기 및 관리](/help/analyze/analysis-workspace/templates/create-templates.md)를 참조하십시오.
 
@@ -314,7 +314,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 >[!CONTEXTUALHELP]
 >id="aa-template--falloutReport"
 >title="미리 정의된 페이지 시퀀스를 통해 사람들이 어디에서 떠나거나 계속 읽는지 확인할 수 있습니다."
->abstract="**이를 통해** 사용자가 사용자 여정 중 어디에서 이탈하는지 더 잘 이해할 있습니다.<br/>**학습한 내용을 바탕으로** 사이트의 특정 프로세스(예: 구매 또는 등록 프로세스)를 통한 전환율을 분석하거나 사이트에서 발생하는 이벤트 간의 상관 관계를 분석하는 등 다양한 작업을 수행할 수 있습니다. 예를 들어 개인정보 처리방침을 본 사람 중 실제로 제품을 구매한 사람의 비율을 확인할 수 있습니다. 또한 이 템플릿을 사용하여 동일한 보고서에서 두 개의 서로 다른 세그먼트를 나란히 비교할 수도 있습니다.<br/>이 템플릿은 폴아웃 시각화를 사용합니다."
+>abstract="**이를 통해** 사용자가 사용자 여정 중 어디에서 이탈하는지 더 잘 이해할 있습니다.<br/>**학습한 내용을 바탕으로** 사이트의 특정 프로세스(예: 구매 또는 등록 프로세스)를 통한 전환율을 분석하거나 사이트에서 발생하는 이벤트 간의 상관 관계를 분석하는 등 다양한 작업을 수행할 수 있습니다. (예: 개인정보 처리방침을 본 사람 중 실제로 제품을 구매한 사람의 비율) 이 템플릿을 사용하여 동일한 보고서에서 두 개의 다른 세그먼트를 나란히 비교할 수도 있습니다.<br/>이 템플릿은 폴아웃 시각화를 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -403,7 +403,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 >[!CONTEXTUALHELP]
 >id="aa-template--formsPerformanceOverview"
->title="Adobe Experience Manager 양식의 성과 데이터를 확인할 수 있습니다."
+>title="Adobe Experience Manager Forms의 성과 데이터를 확인할 수 있습니다."
 >abstract="**이를 통해** Adobe Experience Manager의 가치 실현을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** Experience Manager 설정을 최적화하는 등 다양한 작업을 수행할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -498,7 +498,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 | [!UICONTROL **웹 콘텐츠 사용량**] | 어떤 웹 콘텐츠가 가장 많이 소비되고 사용자의 관심을 끌었는지 확인할 수 있습니다.<p>**이를 통해** 사람들이 사이트에 처음 들어오는 위치, 사이트에서 사람들이 가장 많이 방문하는 섹션, 사이트에서 사람들을 멀어지게 할 가능성이 가장 높은 페이지를 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 사이트에서 가장 중요한 페이지로 이동하는 경로와 사이트에서 사람들을 멀어지게 할 가능성이 높은 페이지를 평가하는 등 다양한 작업을 수행할 수 있습니다.</p> <p>이 템플릿은 [페이지 차원](/help/components/dimensions/page.md)과 [페이지 조회수 지표](/help/components/metrics/page-views.md), [방문 횟수 지표](/help/components/metrics/visits.md), [고유 방문자 수 지표](/help/components/metrics/unique-visitors.md), [진입률 지표](/help/components/metrics/entries.md), [바운스 비율 지표](/help/components/metrics/bounce-rate.md), [이탈률 지표](/help/components/metrics/exits.md), [콘텐츠 속도 지표](/help/components/metrics/content-velocity.md)를 사용합니다. 또한 진입, 종료 및 상위 섹션에 [플로우 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 사용합니다.</p> |
 | [!UICONTROL **미디어 콘텐츠 사용량**] | 어떤 미디어 콘텐츠가 가장 많이 소비되고 사용자의 관심을 끌고 있는지 확인할 수 있습니다.<p>**이를 통해** 사람들이 사이트에 처음 들어오는 위치, 사이트에서 사람들이 가장 많이 방문하는 섹션, 사이트에서 사람들을 멀어지게 할 가능성이 가장 높은 페이지를 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 사이트에서 가장 중요한 페이지로 이동하는 경로와 사이트에서 사람들을 멀어지게 할 가능성이 높은 페이지를 평가하는 등 다양한 작업을 수행할 수 있습니다.</p> <p>이 템플릿은 [페이지 차원](/help/components/dimensions/page.md)과 [페이지 조회수 지표](/help/components/metrics/page-views.md), [방문 횟수 지표](/help/components/metrics/visits.md), [고유 방문자 수 지표](/help/components/metrics/unique-visitors.md), [진입률 지표](/help/components/metrics/entries.md), [바운스 비율 지표](/help/components/metrics/bounce-rate.md), [이탈률 지표](/help/components/metrics/exits.md), [콘텐츠 속도 지표](/help/components/metrics/content-velocity.md)를 사용합니다. 또한 진입, 종료 및 상위 섹션에 [플로우 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md), 가장 일반적인 페이지에 대한 페이지 조회수를 표시하는 [산포도 시각화](/help/analyze/analysis-workspace/visualizations/scatterplot.md), 버킷 시간별 페이지 조회수를 표시하는 [막대 시각화](/help/analyze/analysis-workspace/visualizations/bar.md), 사이트에서 보낸 평균 시간에 대한 트렌드 보기를 표시하는 [라인 시각화](/help/analyze/analysis-workspace/visualizations/line.md)도 사용합니다.</p> |
 | [!UICONTROL **다음 및 이전 페이지 플로우**] | 특정 장소 방문 전 또는 후에 사람들이 가장 많이 가는 장소를 확인할 수 있습니다.<p>**이를 통해** 사람들이 사이트에 처음 들어오는 위치, 사이트에서 사람들이 가장 많이 방문하는 섹션, 사람들이 사이트를 떠나기 전에 방문할 가능성이 가장 높은 페이지를 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 사이트에서 가장 중요한 페이지로 이동하는 경로와 사이트에서 사람들을 멀어지게 할 가능성이 높은 페이지를 평가하는 등 다양한 작업을 수행할 수 있습니다.</p> <p>이 템플릿은 [페이지 차원](/help/components/dimensions/page.md)과 [페이지 조회수 지표](/help/components/metrics/page-views.md), [방문 횟수 지표](/help/components/metrics/visits.md), [고유 방문자 수 지표](/help/components/metrics/unique-visitors.md), [진입률 지표](/help/components/metrics/entries.md), [바운스 비율 지표](/help/components/metrics/bounce-rate.md), [이탈률 지표](/help/components/metrics/exits.md), [콘텐츠 속도 지표](/help/components/metrics/content-velocity.md)를 사용합니다. 또한 진입, 종료 및 상위 섹션에 [플로우 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md), 가장 일반적인 페이지에 대한 페이지 조회수를 표시하는 [산포도 시각화](/help/analyze/analysis-workspace/visualizations/scatterplot.md), 버킷 시간별 페이지 조회수를 표시하는 [막대 시각화](/help/analyze/analysis-workspace/visualizations/bar.md), 사이트에서 보낸 평균 시간에 대한 트렌드 보기를 표시하는 [라인 시각화](/help/analyze/analysis-workspace/visualizations/line.md)도 사용합니다.</p> |
-| [!UICONTROL **폴아웃**] | 미리 정의된 페이지 시퀀스를 통해 사람들이 어디에서 떠나거나 계속 읽는지 확인할 수 있습니다.<p>**이를 통해** 사용자가 사용자 여정 중 어디에서 이탈하는지 더 잘 이해할 있습니다.</p><p>**학습한 내용을 바탕으로** 사이트의 특정 프로세스(예: 구매 또는 등록 프로세스)를 통한 전환율을 분석하거나 사이트에서 발생하는 이벤트 간의 상관 관계를 분석하는 등 다양한 작업을 수행할 수 있습니다. 예를 들어 개인정보 처리방침을 본 사람 중 실제로 제품을 구매한 사람의 비율을 확인할 수 있습니다. 또한 이 템플릿을 사용하여 동일한 보고서에서 두 개의 서로 다른 세그먼트를 나란히 비교할 수도 있습니다.</p> <p>이 템플릿은 [폴아웃 시각화](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)를 사용합니다.</p> |
+| [!UICONTROL **폴아웃**] | 미리 정의된 페이지 시퀀스를 통해 사람들이 어디에서 떠나거나 계속 읽는지 확인할 수 있습니다.<p>**이를 통해** 사용자가 사용자 여정 중 어디에서 이탈하는지 더 잘 이해할 있습니다.</p><p>**학습한 내용을 바탕으로** 사이트의 특정 프로세스(예: 구매 또는 등록 프로세스)를 통한 전환율을 분석하거나 사이트에서 발생하는 이벤트 간의 상관 관계를 분석하는 등 다양한 작업을 수행할 수 있습니다. (예: 개인정보 처리방침을 본 사람 중 실제로 제품을 구매한 사람의 비율) 이 템플릿을 사용하여 동일한 보고서에서 두 개의 다른 세그먼트를 나란히 비교할 수도 있습니다.</p> <p>이 템플릿은 [폴아웃 시각화](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)를 사용합니다.</p> |
 | [!UICONTROL **크로스 디바이스 분석**] | 여정의 모든 지점에서 사람들이 사용한 디바이스를 확인할 수 있습니다.<p>**이를 통해** 얼마나 많은 사람들이 브랜드와 상호 작용하는지, 그들이 사용하는 디바이스 유형은 무엇인지와 여러 디바이스를 사용하는 것이 사용자 경험에 어떤 영향을 미치는지 더 잘 이해할 수 있습니다. 예를 들어 사람들이 모바일 디바이스에서 작업을 시작한 다음 나중에 데스크탑 PC로 이동하여 작업을 완료하는 빈도는 얼마나 됩니까? 사용자가 하나의 디바이스에서 다른 디바이스로 이동하는 가장 일반적인 경로는 무엇입니까? 어디에서 중단됩니까? 어디에서 성공합니까? 등의 질문에 대한 답을 구할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 모바일 경험에 대해 사용자 여정의 특정 부분을 최적화하는 등 다양한 작업을 수행할 수 있습니다.</p> <p>이 템플릿은 [플로우 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md), [폴아웃 시각화](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md), [코호트 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), 사[용자 지표](/help/components/metrics/people.md) 및 [고유 디바이스 지표](/help/components/metrics/unique-devices.md)를 사용합니다.</p> |
 | [!UICONTROL **웹 유지**] | 사이트에서 충성도가 높은 사용자가 누구인지, 그들이 사이트에서 무엇을 하고 있는지 확인할 수 있습니다.<p>**이를 통해** 일반 사용자가 사이트를 방문하는 횟수, 사람들이 사이트에 재방문하는 빈도 및 재방문 사이의 일 수를 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 사용자를 사이트를 재방문하도록 하는데 가장 효과적인 콘텐츠가 무엇인지 분석하는 등 다양한 작업을 수행할 수 있습니다.<p>이 템플릿은 [방문 횟수 지표](/help/components/metrics/visits.md)와 [고유 방문자 수 지표](/help/components/metrics/unique-visitors.md)를 사용합니다.</p> |
 | [!UICONTROL **스트리밍 미디어 사용량**] | 모든 디지털 디바이스에 걸쳐 미디어 오디오 소비 트렌드 및 상위 지표를 확인할 수 있습니다.<p>**이를 통해** 방문자가 사이트에서 오디오 콘텐츠를 어떻게 소비하는지 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 가장 많이 소비되는 콘텐츠가 무엇인지 분석하는 등 다양한 작업을 수행할 수 있습니다.<p>이 템플릿은 [방문 횟수 지표](/help/components/metrics/visits.md)와 [고유 방문자 수 지표](/help/components/metrics/unique-visitors.md)를 사용합니다.</p> |
