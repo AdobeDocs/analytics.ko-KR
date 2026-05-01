@@ -1,32 +1,33 @@
 ---
 cloud: Experience Cloud
-product: analytics
+product: analytics 
 solution: Analytics
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 landing-page-name: analytics
 landing-page-breadcrumb-title: Analytics
-git-repo: https://github.com/AdobeDocs/analytics.ko-KR
+git-repo: https://github.com/AdobeDocs/analytics.en
 type: Documentation
 index: true
 feature-set: Analytics
 role: User, Admin
-source-git-commit: d876f191b2b10dd29b50fae53235e194e29ed1d1
+source-git-commit: 2a171cd0154e96873b12c962eca2d35effa057e8
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: 124
+ht-degree: 96%
 
 ---
 
 
 # 내부용 메타데이터
 
-metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 사용 안내서의 metadata.md 내용을 변경하려면 TOC.md 파일에서 이 작업을 수행하세요.
+metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 사용 안내서의 metadata.md 콘텐츠를 변경하려면 TOC.md 파일에서 이 작업을 수행해야 합니다.
 
 | 메타데이터 | 기능 |
 |--- |--- |
-| solution-title | 문서 헤더에 링크로 사용됨 |
-| solution-hub-url | Helpx Hub 페이지 열기 |
-| solution-icon | 솔루션 제목 옆에 솔루션 아이콘이 표시됩니다. 아직 구현되지 않음 |
-| getting-started-url | Helpx 시작 페이지로 연결되는 링크 |
-| tutorials-url | 비디오 튜토리얼 — Helpx 튜토리얼 또는 KT 튜토리얼 링크 |
-| mini-toc-levels | 오른쪽 레일에 표시되는 제목 수준의 개수를 결정합니다. 기본값은 2입니다. |
-| git-repo | 내부용 마스터 리포지토리의 위치 지정 |
+| solution-title | 문서 헤더에서 링크로 사용 |
+| solution-hub-url | helpx 허브 페이지 열기 |
+| solution-icon | 솔루션 제목 옆에 솔루션 아이콘 표시 아직 구현되지 않음 |
+| getting-started-url | helpx 시작 페이지 링크 |
+| tutorials-url | 비디오 튜토리얼(helpx 튜토리얼 또는 KT 튜토리얼) 링크 |
+| mini-toc-levels | 오른쪽 레일에 나타나는 제목 수준의 수 결정. 기본값은 2 |
+| git-repo | 내부 사용을 위한 마스터 리포지토리의 위치 지정 |
