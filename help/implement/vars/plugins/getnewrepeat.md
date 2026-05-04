@@ -4,9 +4,9 @@ description: 신규 방문자와 재방문자의 활동을 추적합니다.
 feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+source-git-commit: 53f44c09cd68fce618f08ea0042c411cfc6d1681
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '681'
 ht-degree: 71%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 71%
 
 {{plug-in}}
 
-`getNewRepeat` 플러그인을 사용하면 원하는 일 수 내에 사이트 방문자가 신규 방문자인지 재방문자인지를 파악할 수 있습니다. 사용자 지정 일 수를 사용하여 방문자를 &quot;신규&quot;로 식별하려면 이 플러그인을 사용하는 것이 좋습니다. Analysis Workspace의 &#39;[!UICONTROL 새 방문자]&#39; 및 &#39;[!UICONTROL 재방문자]&#39; 세그먼트가 조직의 요구 사항을 충족하면 이 플러그인은 필요하지 않습니다.
+`getNewRepeat` 플러그인을 사용하면 원하는 일 수 내에 사이트 방문자가 신규 방문자인지 재방문자인지를 파악할 수 있습니다. 사용자 지정 일 수를 사용하여 방문자를 &quot;신규&quot;로 식별하려면 이 플러그인을 사용하는 것이 좋습니다. Analysis Workspace의 [!UICONTROL 처음 방문] 및 [!UICONTROL 다시 방문] 세그먼트가 조직의 요구 사항을 충족하면 이 플러그인은 필요하지 않습니다.
 
 ## 웹 SDK 확장을 사용하여 플러그인 설치
 
