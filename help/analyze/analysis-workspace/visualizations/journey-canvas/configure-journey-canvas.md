@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_&#x200B;이 문서에 대한 [여정 캔버스 시각화 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하십시오._![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;버전._
+_이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_&#x200B;이 문서에 대한 [여정 캔버스 시각화 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하십시오._![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**버전._
 
 >[!ENDSHADEBOX]
 
