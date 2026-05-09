@@ -3,10 +3,10 @@ title: 데이터 피드 관리
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다. 데이터 피드를 만들고, 편집하고, 보는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 17%
+source-wordcount: '1329'
+ht-degree: 18%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 17%
 
 1. 데이터 피드를 원하는 대로 변경합니다.
 
-   데이터 피드 옵션에 대한 자세한 내용은 [데이터 피드 만들기](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)에서 [데이터 피드 만들기 및 구성](/help/export/analytics-data-feed/create-feed.md)을 참조하십시오.
+   데이터 피드 옵션에 대한 자세한 내용은 [데이터 피드 만들기](/help/export/analytics-data-feed/create-feed.md)에서 [데이터 피드 만들기 및 구성](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)을 참조하십시오.
 
    편집 중인 데이터 피드에 대한 [!UICONTROL **대상**] 섹션을 업데이트할 때 [!UICONTROL **계정**] 및 [!UICONTROL **위치**] 드롭다운 필드에서 새 데이터 피드에 사용할 다른 계정 및 위치를 선택할 수 있습니다.
 

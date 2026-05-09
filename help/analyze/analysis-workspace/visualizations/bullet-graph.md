@@ -4,10 +4,10 @@ title: 글머리 기호
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 90%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 글머리 기호 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [글머리 기호](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)를 참조하십시오._
+_이 문서에서는 글머리 기호 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전에 대한 [글머리 기호](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!MORELIKETHIS]
 >
->[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

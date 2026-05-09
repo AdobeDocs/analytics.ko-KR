@@ -4,7 +4,7 @@ title: 여정 캔버스 개요
 feature: Visualizations
 hide: true
 role: User, Admin
-source-git-commit: fee3fe30f695c0ef151e998abe45c54c3bce9d31
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 88%
@@ -54,6 +54,8 @@ ht-degree: 88%
 _이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 여정 캔버스 시각화를 설명합니다.<br/><br/>_&#x200B;자세한 내용은 [여정 캔버스 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)를 참조하십시오&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;버전._
 
 >[!ENDSHADEBOX]
+
+{{release-limited-testing}}
 
 여정 캔버스 시각화는 사용자와 고객에게 제공하는 여정을 분석하고 깊이 있는 인사이트를 얻을 수 있습니다. 이를 통해 여정을 정의한 다음 사람들이 여정을 떠나고(폴아웃) 계속 따라가는(폴스루) 방법을 확인할 수 있습니다.
 

@@ -1,14 +1,14 @@
 ---
-description: Learn how tuse a histogram, which is similar to a bar chart, but groups numbers into ranges (buckets).
+description: 막대 그래프와 유사하지만 숫자를 범위(버킷)로 그룹화하는 히스토그램을 사용하는 방법에 대해 알아봅니다.
 title: 히스토그램
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 84%
+source-wordcount: '371'
+ht-degree: 74%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 히스토그램 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [히스토그램](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/histogram)을 참조하십시오._
+_이 문서에서는 히스토그램 시각화를 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전에 대한 [히스토그램](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/histogram)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
 
-![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화는 [!UICONTROL 막대] 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 “버킷하는 것”을 자동화하지만 [고급 설정](#advanced-settings)에서 설정을 변경할 수 있습니다.
+![히스토그램](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화는 [!UICONTROL 막대] 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 “버킷하는 것”을 자동화하지만 [고급 설정](#advanced-settings)에서 설정을 변경할 수 있습니다.
 
 ## 사용
 
 히스토그램을 만드는 방법:
 
 1. ![히스토그램](/help/assets/icons/Histogram.svg) **[!UICONTROL 히스토그램]** 시각화를 추가합니다. [패널 내에 시각화 추가](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)를 참조하십시오.
-1. Drag a metric from the **[!UICONTROL Metrics]** component list, or select a metric from the [!UICONTROL *Add a metric*] drop-down menu.
+1. **[!UICONTROL 지표]** 구성 요소 목록에서 지표를 드래그하거나 [!UICONTROL *지표 추가*] 드롭다운 메뉴에서 지표를 선택합니다.
 1. (옵션) **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택합니다. [고급 설정](#advanced-settings)을 확인합니다.
 1. **[!UICONTROL 빌드]**&#x200B;를 선택합니다.
 
@@ -52,9 +52,9 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 | 히스토그램 설정 | 설명 |
 |---|---|
-| **[!UICONTROL 버킷 시작]** | Determines which bucket the histogram starts with. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다(음수는 안 됨). |
-| **[!UICONTROL 지표 버킷]** | 데이터 범위(버킷)의 개수를 늘리거나 줄일 수 있습니다. 버킷의 최대 개수는 50개입니다. |
-| **[!UICONTROL 지표 버킷 크기]** | Lets you set the size of each bucket. 예를 들어 버킷 크기를 페이지 보기 1개에서 페이지 보기 2개로 변경할 수 있습니다. |
+| **[!UICONTROL 버킷 시작]** | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다(음수는 안 됨). |
+| **[!UICONTROL 지표 버킷]** | 데이터 범위(버킷)의 수를 늘이거나 줄일 수 있습니다. 최대 버킷 수는 50개입니다. |
+| **[!UICONTROL 지표 버킷 크기]** | 각 버킷의 크기를 설정할 수 있습니다. 예를 들어 버킷 크기를 페이지 보기 1개에서 페이지 보기 2개로 변경할 수 있습니다. |
 | **[!UICONTROL 계산 방법]** | **[!UICONTROL 개인]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 이벤트]** 중에서 선택합니다. 예를 들면 세션 당 페이지 조회수, 개인별 페이지 보기 수 또는 이벤트 당 페이지 조회수 중에서 선택할 수 있습니다. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
@@ -68,8 +68,8 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!MORELIKETHIS]
 >
->[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[시각화 상황에 맞는 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >[히스토그램을 사용하여 예상치 못한 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=ko)
 

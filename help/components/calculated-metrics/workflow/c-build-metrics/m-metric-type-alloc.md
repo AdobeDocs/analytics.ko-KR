@@ -3,9 +3,9 @@ description: 지표 유형 및 속성에 대해 알아봅니다.
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---

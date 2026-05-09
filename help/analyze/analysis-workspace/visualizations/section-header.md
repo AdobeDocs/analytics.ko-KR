@@ -4,10 +4,10 @@ description: 섹션 머리글을 사용하여 Analysis Workspace 프로젝트에
 feature: Visualizations
 role: User
 exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 83%
+source-wordcount: '108'
+ht-degree: 58%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 >[!BEGINSHADEBOX]
 
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 섹션 헤더 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [섹션 헤더](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/section-header)를 참조하십시오._
+_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 있는 섹션 헤더 시각화를 설명합니다._<br/>_자세한 내용은 [섹션 헤더](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/section-header)을 참조하십시오_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -39,7 +39,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!MORELIKETHIS]
 >
->[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

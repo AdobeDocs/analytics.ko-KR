@@ -4,10 +4,10 @@ title: 폴아웃 개요
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 75%
+source-wordcount: '289'
+ht-degree: 65%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 75%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 폴아웃 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [폴아웃](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)을 참조하십시오._
+_이 문서에서는 폴아웃 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전에 대한 [폴아웃](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 

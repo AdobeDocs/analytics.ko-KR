@@ -5,10 +5,10 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '205'
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 영역 및 스택 영역 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [영역 및 스택 영역](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/area)을 참조하십시오._
+_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 있는 영역 및 스택 영역 시각화를 설명합니다._<br/>_자세한 내용은 [영역 및 스택 영역](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/area)을 참조하십시오_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!MORELIKETHIS]
 >
->[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

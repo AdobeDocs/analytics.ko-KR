@@ -3,7 +3,7 @@ title: 동적 조회
 description: 동적 조회가 무엇이며 이를 활성화하는 방법에 대해 알아봅니다. 통신사, 모바일 속성 및 운영 체제 유형을 포함합니다.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 20%

@@ -4,7 +4,7 @@ description: 집단 분석을 통해 대상자에 대한 데이터를 더 깊이
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 86%

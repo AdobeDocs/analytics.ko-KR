@@ -3,10 +3,10 @@ title: 분류 세트 스키마
 description: Adobe Analytics에서 분류 세트에 대한 스키마를 보고 편집하는 방법을 알아봅니다. 클라우드 위치를 사용하여 분류 데이터를 추가, 업로드, 다운로드 또는 자동화합니다.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 7%
+source-wordcount: '1654'
+ht-degree: 9%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 7%
 
    열에 대한 분류 집합에 분류가 정의되지 않은 경우 경고 ![Alert](/help/assets/icons/Alert.svg)이(가) 표시됩니다. 기존 분류 스키마 세트에 분류가 없고 가져올 때 생성된다는 경고가 표시됩니다.
 
-1. **[!UICONTROL 충돌 시 데이터 덮어쓰기를 선택하시겠습니까?현재 분류 데이터를 가져온 새 데이터로 덮어쓰려는 경우]**. 예:
+1. **[!UICONTROL 충돌 시 데이터를 덮어쓰시겠습니까?]** 현재 분류 데이터를 새로 가져온 데이터로 덮어쓰려는 경우 예:
 
    | | 키 | 현재 제품 색상 | 파일 가져오기 | 새 제품 색상 |
    |---|---|---|---|---|
@@ -133,7 +133,7 @@ ht-degree: 7%
 
 ![분류 세트 스키마 - 템플릿 다운로드](assets/classification-sets-schema-download-template.png)
 
-**[!UICONTROL 분류 세트 이름&#x200B;_에 대한_]**&#x200B;템플릿 다운로드 대화 상자에서:
+_분류 세트 이름&#x200B;_&#x200B;**에 대한**&#x200B;템플릿 다운로드 대화 상자에서:
 
 1. 다운로드한 분류 데이터의 [파일 형식](/help/components/classifications/sets/data-files.md#general-file-requirements)을(를) 선택하려면 **[!UICONTROL 파일 형식]** 드롭다운 메뉴에서 옵션을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
 
@@ -145,7 +145,7 @@ ht-degree: 7%
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
-1. 분류 데이터 템플릿을 다운로드하려면 **[!UICONTROL 다운로드]**&#x200B;를 선택하십시오. 브라우저의 기본 다운로드 디렉토리에서 다운로드한 파일을 찾을 수 있습니다. 파일 제목이 <code><i>분류 집합</i>입니다.<i>csv</i>|<i>tsv</i></code>. 파일이 이미 있는 경우 시퀀스 번호 <code>(<i>x</i>)</code> 가 파일 이름에 추가됩니다.
+1. 분류 데이터 템플릿을 다운로드하려면 **[!UICONTROL 다운로드]**&#x200B;를 선택하십시오. 브라우저의 기본 다운로드 디렉토리에서 다운로드한 파일을 찾을 수 있습니다. 파일 제목이 <code><i>분류 세트</i>.<i>csv</i>|<i>tsv</i>입니다.</code>. 파일이 이미 있는 경우 시퀀스 번호 <code>(<i>x</i>)</code> 가 파일 이름에 추가됩니다.
 
 
 ### 자동화 {#automate}
@@ -223,7 +223,7 @@ ht-degree: 7%
 
 | 아이콘 | 액션 | 설명 |
 |---|---|---|
-| ![찾아보기](/help/assets/icons/Browse.svg) | **[!UICONTROL 조회 추가]** | 분류 세트를 조회(하위 분류)로 추가합니다.<br/>조회 첨부&#x200B;**[!UICONTROL 테이블의]**: <ol><li>**[!UICONTROL 분류 이름]** 드롭다운 메뉴에서 조회 분류를 선택합니다.</li><li>**[!UICONTROL 추가]**&#x200B;를 선택합니다.</li></ol>조회 분류가 분류에 추가되고 내부 ID를 사용하여 **[!UICONTROL 분류자]** 열에 나열됩니다. |
-| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 조회 제거]** | 조회로 분류 세트를 제거합니다. 분류에서 조회를 영구적으로 삭제하려면 **[!UICONTROL 분류&#x200B;_확인 대화 상자에서__분류 세트 제거_]**&#x200B;에서&#x200B;**[!UICONTROL 삭제]**&#x200B;를 선택합니다. |
+| ![찾아보기](/help/assets/icons/Browse.svg) | **[!UICONTROL 조회 추가]** | 분류 집합을 조회(하위 분류)로 추가합니다.<br/>**[!UICONTROL 조회 첨부]** 테이블에서: <ol><li>**[!UICONTROL 분류 이름]** 드롭다운 메뉴에서 조회 분류를 선택합니다.</li><li>**[!UICONTROL 추가]**&#x200B;를 선택합니다.</li></ol>조회 분류가 분류에 추가되고 내부 ID를 사용하여 **[!UICONTROL 분류자]** 열에 나열됩니다. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 조회 제거]** | 조회로 분류 세트를 제거합니다. 분류에서 조회를 영구적으로 삭제하려면 _분류&#x200B;_&#x200B;**확인 대화 상자에서**&#x200B;_&#x200B;분류 세트 제거&#x200B;_에서&#x200B;**[!UICONTROL 삭제]**&#x200B;를 선택합니다. |
 | ![이름 바꾸기](/help/assets/icons/Rename.svg) | **[!UICONTROL 이름 바꾸기]** | 분류의 **[!UICONTROL 분류 이름]** 이름을 바꾸십시오. **[!UICONTROL 이름 바꾸기: _분류 이름_]**&#x200B;대화 상자에서 새 이름을 입력하고&#x200B;**[!UICONTROL 이름 바꾸기]**&#x200B;를 선택합니다. |
 | ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 분류를 삭제합니다. **[!UICONTROL _분류 이름 삭제_]**&#x200B;대화 상자가 나타납니다. 분류를 삭제하려면&#x200B;**[!UICONTROL 삭제]**&#x200B;를 선택하십시오. |

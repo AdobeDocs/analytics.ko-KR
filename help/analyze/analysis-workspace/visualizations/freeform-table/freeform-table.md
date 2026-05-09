@@ -1,13 +1,13 @@
 ---
-title: Freeform Table Overview
-description: Learn how to use freeform tables, which are the foundation for data analysis in Analysis Workspace.
+title: 자유 형식 테이블 개요
+description: Analysis Workspace에서 데이터 분석을 위한 기반인 자유 형식 테이블을 사용하는 방법에 대해 알아봅니다.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 97%
+source-wordcount: '878'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 자유 형식 테이블 시각화에 대해 설명합니다._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [자유 형식 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)을 참조하십시오._
+_이 문서에서는 자유 형식 테이블 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전에 대한 [자유 형식 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -134,7 +134,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 >[!MORELIKETHIS]
 >
->[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -4,10 +4,10 @@ title: 프로젝트 만들기
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 89%
+source-wordcount: '408'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Analysis Workspace의 [프로젝트](/help/analyze/analysis-workspace/build-work
 
 1. **빈 Workspace 프로젝트**&#x200B;를 선택하여 브라우저를 통해 Workspace 프로젝트를 만듭니다.
 
-   모바일 앱을 사용하여 다른 관련자와 공유할 수 있는 모바일 스코어카드 프로젝트를 만드는 방법에 대한 자세한 내용은 [빈 모바일 스코어카드](/help/analyze/mobile-app/curator.md)를 참조하십시오.
+   모바일 앱을 통해 다른 관련자와 공유할 수 있는 모바일 스코어카드 프로젝트를 만드는 방법에 대한 자세한 내용은 [빈 모바일 스코어카드](/help/analyze/mobile-app/curator.md)를 참조하십시오.
 
 1. [!UICONTROL **만들기**]&#x200B;를 선택합니다.
 

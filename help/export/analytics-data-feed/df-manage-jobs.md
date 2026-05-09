@@ -1,11 +1,11 @@
 ---
-title: Manage Data Feed Jobs
-description: Learn how to manage individual jobs in data feeds. Navigate the interface, use filters and search, and find column definitions.
+title: 데이터 피드 작업 관리
+description: 데이터 피드에서 개별 작업을 관리하는 방법을 알아봅니다. 인터페이스를 탐색하고 필터 및 검색을 사용하고 열 정의를 찾습니다.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '545'
 ht-degree: 20%
 
 ---
@@ -49,9 +49,9 @@ ht-degree: 20%
 
    다음 열을 사용할 수 있습니다.
 
-   * **[!UICONTROL Request period begin]**
+   * **[!UICONTROL 요청 기간 시작]**
 
-   * **[!UICONTROL Request period end]**
+   * **[!UICONTROL 요청 기간 종료]**
 
    * **[!UICONTROL 예약됨]**
 
@@ -71,11 +71,11 @@ ht-degree: 20%
 
 데이터 피드 작업을 다시 보내면 파일이 원래 전송될 때와 동일한 데이터 및 처리로 데이터 피드 파일이 다시 전송됩니다. 또는 [데이터 피드 작업을 다시 처리](#reprocess-data-feed-jobs)할 수 있습니다.
 
-To resend one or more data feed jobs:
+하나 이상의 데이터 피드 작업을 다시 보내려면 다음을 수행하십시오.
 
 1. Adobe Analytics에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**]&#x200B;를 선택합니다.
 
-1. Select the checkbox next to the data feed that contains the jobs that you want to resend, then select [!UICONTROL **Job history**].
+1. 다시 전송할 작업이 포함된 데이터 피드 옆의 확인란을 선택한 다음 [!UICONTROL **작업 기록**]&#x200B;을 선택합니다.
 
 1. (선택 사항) 검색 필드에서 데이터 피드 작업 목록을 검색하려면 요청 ID 또는 요청 기간 시작 날짜로 검색합니다.
 
@@ -91,10 +91,10 @@ To resend one or more data feed jobs:
 
 1. Adobe Analytics에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**]&#x200B;를 선택합니다.
 
-1. Select the checkbox next to the data feed that contains the jobs that you want to reprocess, then select [!UICONTROL **Job history**].
+1. 다시 처리할 작업이 포함된 데이터 피드 옆의 확인란을 선택한 다음 [!UICONTROL **작업 기록**]&#x200B;을 선택합니다.
 
 1. (선택 사항) 검색 필드에서 데이터 피드 작업 목록을 검색하려면 요청 ID 또는 요청 기간 시작 날짜로 검색합니다.
 
-1. Select the checkbox next to one or more data feed jobs, then select **[!UICONTROL Reprocess]**. <!-- What does the status need to be? Error, ... -->
+1. 하나 이상의 데이터 피드 작업 옆의 확인란을 선택한 다음 **[!UICONTROL 재처리]**&#x200B;를 선택합니다. <!-- What does the status need to be? Error, ... -->
 
    ![데이터 피드 작업 재처리](assets/data-feed-job-reprocess.png)

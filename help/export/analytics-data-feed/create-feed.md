@@ -3,10 +3,10 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법과 Adobe에 제공할 파일 정보에 대해 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d2ceb1ae2cd6856a0c595a4c37e795b83dbaec68
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '2137'
-ht-degree: 30%
+source-wordcount: '2151'
+ht-degree: 31%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 30%
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **이름**] | 데이터 피드의 이름. 이름은 선택한 보고서 세트 내에서 고유해야 하며 최대 255자까지 사용할 수 있습니다. [자세히 알아보기](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **태그**] | 쉽게 분류할 수 있도록 데이터 피드에 태그를 적용합니다. [데이터 피드 관리](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)에서 [데이터 피드 목록 필터링 및 검색](/help/export/analytics-data-feed/df-manage-feeds.md)에 설명된 대로 태그를 필터링할 수 있습니다. |
+   | [!UICONTROL **태그**] | 쉽게 분류할 수 있도록 데이터 피드에 태그를 적용합니다. [데이터 피드 관리](/help/export/analytics-data-feed/df-manage-feeds.md)에서 [데이터 피드 목록 필터링 및 검색](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)에 설명된 대로 태그를 필터링할 수 있습니다. |
    | [!UICONTROL **설명**] | 데이터 피드에 대한 설명을 지정합니다. 추가한 설명은 데이터 피드를 편집할 때 표시됩니다. |
 
 1. [!UICONTROL **데이터 서식**] 섹션에서 다음 정보를 지정하십시오.
@@ -78,12 +78,12 @@ ht-degree: 30%
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **압축 포맷**] | 사용된 압축 유형. **Gzip**&#x200B;은 파일을 `.tar.gz` 포맷으로 출력합니다. **Zip**&#x200B;은 파일을 `.zip` 포맷으로 출력합니다. |
-   | [!UICONTROL **패키징 유형**] | 대부분의 데이터 피드에 대해 [!UICONTROL **여러 파일**]&#x200B;을 선택합니다. 이 옵션은 데이터를 압축되지 않은 2GB 청크로 페이지를 매깁니다. [!UICONTROL **여러 파일**] 옵션을 선택하고 보고 기간의 압축되지 않은 데이터가 2GB 미만이면 하나의 파일이 전송됩니다.) **단일 파일**&#x200B;을 선택하면 `hit_data.tsv` 파일이 하나의 파일로 출력됩니다. |
-   | [!UICONTROL **매니페스트**] | 각 데이터 피드 배달에 매니페스트 파일을 포함할지 여부를 선택합니다. <p>다음 옵션 중에서 선택할 수 있습니다.</p><ul><li>**[!UICONTROL 매니페스트 파일]**: 데이터 피드에 포함된 각 파일에 대한 정보를 포함합니다.</li><li>**[!UICONTROL 파일 완료(레거시)]**: 데이터 피드가 성공적으로 완료되었음을 나타냅니다. 다른 정보는 포함되어 있지 않습니다. 이 옵션은 재처리해야 하는 이 옵션을 원래 사용한 기존 피드에 적합합니다. 데이터 피드 데이터를 단일 패키지로 보낼 때만 사용할 수 있습니다. </li><li>**[!UICONTROL 없음]**: 파일이 포함되지 않았습니다.</li></ul> |
+   | [!UICONTROL **패키징 유형**] | 대부분의 데이터 피드에 대해 [!UICONTROL **여러 파일**]&#x200B;을 선택합니다. 이 옵션은 데이터를 압축되지 않은 2GB 청크로 페이지를 매깁니다. [!UICONTROL **여러 파일**] 옵션을 선택한 경우 보고 기간의 압축되지 않은 데이터가 2GB 미만이면 하나의 파일이 전송됩니다. **단일 파일**&#x200B;을 선택하면 `hit_data.tsv` 파일이 단일 파일로 출력됩니다. |
+   | [!UICONTROL **매니페스트**] | 각 데이터 피드 게재에 매니페스트 파일을 포함할지 여부를 선택합니다. <p>다음 옵션 중에서 선택할 수 있습니다.</p><ul><li>**[!UICONTROL 매니페스트 파일]**: 데이터 피드에 포함된 각 파일에 대한 정보를 포함합니다.</li><li>**[!UICONTROL 파일 완료(레거시)]**: 데이터 피드가 성공적으로 완료되었음을 나타냅니다. 다른 정보는 포함되어 있지 않습니다. 이 옵션은 재처리해야 하는 이 옵션을 원래 사용한 기존 피드에 적합합니다. 데이터 피드 데이터를 단일 패키지로 보낼 때만 사용할 수 있습니다. </li><li>**[!UICONTROL 없음]**: 파일이 포함되지 않았습니다.</li></ul> |
    | 데이터가 없는 경우에도 [!UICONTROL **매니페스트를 보냅니다**] | 피드 간격에 대한 데이터가 수집되지 않을 때 Adobe에서 [매니페스트 파일](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest)을 대상에 전송할지 여부를 결정합니다. **매니페스트 파일**&#x200B;을(를) 선택하면 데이터가 수집되지 않을 때 다음과 유사한 매니페스트 파일이 수신됩니다.<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **운영 체제 문자열 바꾸기**] | 데이터를 수집할 때 일부 문자(예: 새 줄)가 문제를 초래할 수 있습니다. 피드 파일에서 이러한 문자를 제거하려면 이 옵션을 선택하십시오.<p>이 옵션은 고객 데이터에 포함된 다음 문자열 시퀀스를 검색하여 공백으로 바꿉니다.</p> <ul><li>**Windows:** CRLF, CR 또는 TAB</li><li>**Mac 및 Linux:** \n, \r 또는 \t</li></ul> |
    | [!UICONTROL **동적 조회 사용**] | 동적 조회를 사용하면 데이터 피드에서 사용할 수 없는 추가 조회 파일을 받을 수 있습니다. 이 설정으로 각 데이터 피드 파일과 함께 다음 조회 테이블을 전송할 수 있습니다.<ul><li> **통신사 이름**</li><li>**모바일 특성**</li><li>**운영 체제 유형**</li></ul><p>자세한 내용은 [동적 조회](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)를 참조하십시오.</p> |
-   | **늦게 도착하는 히트 허용** | 데이터 피드에서 지정된 시간 또는 일수(예: 타임스탬프가 지정된 히트 또는 데이터 소스) 동안 작업 처리를 완료한 후에 내역 데이터가 도착할 수 있습니다.<p>이 옵션을 선택하면 데이터 피드 작업이 완료된 후에 도착한 데이터를 설정된 보고 빈도(보통 일별 또는 시간별) 내에 포함합니다. 이 옵션이 활성화되면 데이터 피드에서 데이터를 처리할 때마다 데이터 피드는 늦게 도착하는 모든 히트를 조회하고 전송된 다음번 데이터 피드 파일과 함께 배치합니다.</p><p>자세한 내용은 [늦게 도착하는 조회수](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md)를 참조하세요.</p> |
+   | **늦게 도착하는 히트 허용** | 데이터 피드에서 지정된 시간 또는 일수 (예: 타임스탬프가 지정된 히트 또는 데이터 소스) 동안 작업 처리를 완료한 후에 내역 데이터가 도착할 수 있습니다.<p>이 옵션을 선택하면 데이터 피드 작업이 완료된 후에 도착한 데이터를 설정된 보고 빈도(보통 일별 또는 시간별) 내에 포함합니다. 이 옵션이 활성화되면 데이터 피드에서 데이터를 처리할 때마다 데이터 피드는 늦게 도착하는 모든 히트를 조회하고 전송된 다음번 데이터 피드 파일과 함께 배치합니다.</p><p>자세한 내용은 [늦게 도착하는 조회수](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md)를 참조하세요.</p> |
    | **전환 확인 기간**(늦게 도착하는 히트의 경우) | 이 옵션은 **[!UICONTROL 늦게 도착하는 히트 허용]** 옵션이 활성화된 경우 표시됩니다. 전환 확인 기간을 선택하여 포함된 지연 히트의 시간대를 제한합니다. 얼마나 늦었는지에 관계없이 늦게 도착하는 모든 히트를 허용하려면 **[!UICONTROL 무제한]**&#x200B;을(를) 선택하십시오. **[!UICONTROL 1시간]**, **[!UICONTROL 2시간]**, **[!UICONTROL 1주]**, **[!UICONTROL 2주]** 등과 같이 미리 설정된 간격을 선택할 수 있습니다. 또는 **[!UICONTROL 사용자 지정 전환 확인 기간]**&#x200B;을 선택한 다음 **[!UICONTROL 사용자 지정 전환 확인 기간]** 필드에서 전환 확인 기간을 최대 26,280시간으로 지정하십시오. |
 
 1. [!UICONTROL **데이터 구조**] 섹션의 **[!UICONTROL 보고서 세트]** 필드에서 내보낼 데이터가 포함된 소스 보고서 세트를 선택합니다. <p>보고서 세트를 선택할 때는 다음 사항을 고려하십시오.</p> <ul><li>동일한 보고서 세트에 대해 여러 데이터 피드를 만드는 경우 각 데이터 피드에 서로 다른 열 정의가 있어야 합니다.</li><li>소스 보고서 세트만 데이터 피드를 지원합니다. 가상 보고서 세트는 지원되지 않습니다.</li><li>사용 가능한 열 목록은 선택한 보고서 세트가 속한 로그인 회사에 따라 다릅니다. 보고서 세트를 변경하면 사용 가능한 열 목록이 변경될 수 있습니다. </li></ul>
@@ -133,12 +133,12 @@ ht-degree: 30%
    >
    >* [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)의 위치 관리자에서 생성한 모든 위치를 편집할 수 있습니다.
 
-   다음 필드를 완료합니다. 
+   다음 필드를 완료합니다.
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **계정**] | 다음 중 하나를 수행합니다.<ul><li>**기존 계정 사용:** **[!UICONTROL 계정]** 필드 옆에 있는 드롭다운 메뉴를 선택합니다. 또는 계정 이름을 입력한 다음 드롭다운 메뉴에서 선택합니다. <p>계정을 구성했거나 속해 있는 조직과 공유하는 경우에만 계정을 사용할 수 있습니다.</p></li><li>**새 계정 만들기:** **[!UICONTROL 계정]** 필드 아래에서 **[!UICONTROL 새로 추가]**&#x200B;를 선택합니다. 계정 구성 방법에 대한 자세한 내용은 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md#configure-a-location-account)에서 [위치 계정 구성](/help/components/locations/configure-import-accounts.md)을 참조하십시오.</li></ul> |
-   | [!UICONTROL **위치**] | 다음 중 하나를 수행합니다.<ul><li>**기존 위치 사용:** **[!UICONTROL 위치]** 필드 옆에 있는 드롭다운 메뉴를 선택합니다. 또는 위치 이름을 입력한 다음 드롭다운 메뉴에서 선택합니다.</li><li>**새 위치 만들기:** **[!UICONTROL 위치]** 필드 아래에서 **[!UICONTROL 새로 추가]**&#x200B;를 선택합니다. 위치 구성 방법에 대한 자세한 내용은 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md#configure-a-location)에서 [위치 구성](/help/components/locations/configure-import-locations.md)을 참조하십시오.</li></ul> |
+   | [!UICONTROL **계정**] | 다음 중 하나를 수행합니다.<ul><li>**기존 계정 사용:** **[!UICONTROL 계정]** 필드 옆에 있는 드롭다운 메뉴를 선택합니다. 또는 계정 이름을 입력한 다음 드롭다운 메뉴에서 선택합니다. <p>계정을 구성했거나 속해 있는 조직과 공유하는 경우에만 계정을 사용할 수 있습니다.</p></li><li>**새 계정 만들기:** **[!UICONTROL 계정]** 필드 아래에서 **[!UICONTROL 새로 추가]**&#x200B;를 선택합니다. 계정 구성 방법에 대한 자세한 내용은 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md)에서 [위치 계정 구성](/help/components/locations/configure-import-accounts.md#configure-a-location-account)을 참조하십시오.</li></ul> |
+   | [!UICONTROL **위치**] | 다음 중 하나를 수행합니다.<ul><li>**기존 위치 사용:** **[!UICONTROL 위치]** 필드 옆에 있는 드롭다운 메뉴를 선택합니다. 또는 위치 이름을 입력한 다음 드롭다운 메뉴에서 선택합니다.</li><li>**새 위치 만들기:** **[!UICONTROL 위치]** 필드 아래에서 **[!UICONTROL 새로 추가]**&#x200B;를 선택합니다. 위치 구성 방법에 대한 자세한 내용은 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에서 [위치 구성](/help/components/locations/configure-import-locations.md#configure-a-location)을 참조하십시오.</li></ul> |
    | [!UICONTROL **완료 시 알림**] | 데이터 피드가 성공적으로 전송되거나 전송이 실패한 후 알림을 배달해야 하는 이메일 주소를 하나 이상 지정합니다. 여러 이메일 주소는 쉼표로 구분해야 합니다. |
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.

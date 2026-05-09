@@ -4,10 +4,10 @@ title: 보고 활동 관리자
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 100%
+source-wordcount: '2000'
+ht-degree: 99%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 100%
 | [!UICONTROL **대기 시간**] | 요청이 처리되기 전에 대기한 시간. 일반적으로 용량이 충분할 때 이 값은 “0”입니다. |
 | [!UICONTROL **애플리케이션**] | [!UICONTROL 보고 활동 관리자]에서 지원하는 애플리케이션은 다음과 같습니다. <ul><li>Analysis Workspace UI</li><li>Workspace 예약된 프로젝트</li><li>Report Builder</li><li>빌더 UI: 세그먼트, 계산된 지표, 주석, 대상자 등</li><li>1.4 또는 2.0 API의 API 호출</li><li>경고</li><li>모든 사용자와 링크 공유</li><li>Analytics 보고 엔진을 쿼리하는 기타 애플리케이션</li></ul> |
 | [!UICONTROL **사용자**] | 요청을 시작한 사용자. <p>**참고**: 이 열의 값이 [!UICONTROL **인식되지 않음**]&#x200B;인 경우, 사용자가 관리 권한이 없는 로그인 회사에 있다는 것을 의미합니다.</p> |
-| [!UICONTROL **프로젝트**] | 저장된 Workspace 프로젝트 이름, API 보고서 ID 등입니다. (메타데이터는 다양한 애플리케이션에 따라 다를 수 있습니다.) |
+| [!UICONTROL **프로젝트**] | 저장된 Workspace 프로젝트 이름, API 보고서 ID 등(메타데이터는 다양한 애플리케이션에 따라 다를 수 있음) |
 | [!UICONTROL **상태**] | 상태 표시기: <ul><li>**실행 중**: 현재 요청을 처리 중입니다.</li><li>**보류 중**: 요청이 처리되기를 대기하고 있습니다.</li></ul> |
 | [!UICONTROL **복잡성**] | 모든 요청이 동일한 처리 시간을 요구하는 것은 아닙니다. 요청 복잡성은 요청을 처리하는 데 필요한 시간을 위한 일반적인 아이디어를 제공해 줄 수 있습니다. <p>가능한 값은 다음과 같습니다.</p> <ul><li>[!UICONTROL **낮음**]</li><li>[!UICONTROL **보통**]</li><li>[!UICONTROL **높음**]</li></ul>이 값은 다음 열의 값에 영향을 받습니다.<ul><li>[!UICONTROL **월 경계**]</li><li>[!UICONTROL **열**]</li><li>[!UICONTROL **세그먼트**]</li></ul> |
 | [!UICONTROL **월 경계**] | 요청에 포함되는 월 수. 더 많은 월 경계에 요청의 복잡성이 가중됩니다. |
@@ -216,7 +216,7 @@ ht-degree: 100%
 | [!UICONTROL **애플리케이션**] | 요청이 시작된 애플리케이션. |
 | [!UICONTROL **요청 수**] | 애플리케이션과 관련된 요청 수. |
 | [!UICONTROL **사용자 수**] | 애플리케이션과 관련된 사용자 수. <!--???--> |
-| [!UICONTROL **프로젝트 수**] | 프로젝트와 관련된 사용자 수. <!--???--> |
+| [!UICONTROL **프로젝트 수**] | 애플리케이션과 관련된 프로젝트 수. <!--???--> |
 | [!UICONTROL **평균 복잡성**] | 애플리케이션과 관련된 요청의 평균 복잡성. <p>모든 요청이 동일한 처리 시간을 요구하는 것은 아닙니다. 요청 복잡성은 요청을 처리하는 데 필요한 시간을 위한 일반적인 아이디어를 제공해 줄 수 있습니다.</p><p>이 열의 값은 다음 열의 값에 따라 결정되는 점수를 기반으로 합니다.</p>이 열의 값은 다음 열의 값에 따라 결정되는 점수를 기반으로 합니다.<ul><li>[!UICONTROL **평균 월 경계**]</li><li>[!UICONTROL **평균 열**]</li><li>[!UICONTROL **평균 세그먼트**]</li></ul> |
 | [!UICONTROL **평균 월 경계**] | 요청에 포함되는 평균 월 수. 더 많은 월 경계에 요청의 복잡성이 가중됩니다. |
 | [!UICONTROL **평균 열**] | 포함된 요청의 평균 지표와 분류 수. 더 많은 열에 요청의 복잡성이 가중됩니다. |
