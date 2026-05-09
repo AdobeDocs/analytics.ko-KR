@@ -4,10 +4,10 @@ description: 고급 계산된 지표 함수에 대해 알아보십시오.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '4799'
-ht-degree: 98%
+source-wordcount: '4863'
+ht-degree: 96%
 
 ---
 
@@ -674,7 +674,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 |---|---|
 | logical_test | 필수. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식 |
 | value_if_true | logical_test 인수가 TRUE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
-| value_if_false | logical_test 인수가 FALSE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
+| value_if_false | logical_test 인수가 FALSE로 평가되는 경우 반환할 값입니다. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
 
 
 ## 보다 작음 {#less-than}
@@ -754,14 +754,14 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-linear"
 >title="선형 회귀: 상관 계수"
->abstract="선형 회귀: Y = a X + b. 상관 계수를 반환합니다."
+>abstract="선형 회귀: Y = a X + b.  상관 계수를 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b. 상관 계수를 반환합니다.
+[!BADGE 테이블]{type="Neutral"} 선형 회귀: Y = a X + b.  상관 계수를 반환합니다.
 
 
 | 인수 | 설명 |

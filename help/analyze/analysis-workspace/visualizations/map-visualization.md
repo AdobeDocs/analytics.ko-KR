@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 76%
+source-wordcount: '727'
+ht-degree: 73%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 맵 시각화에 대해 설명합니다._<br/>_이 문서의 [CustomerJourneyAnalytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/map)_ Customer Journey Analytics![&#x200B; 버전에 대한 &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg)맵&#x200B;_&#x200B;**을(를) 참조하십시오.**&#x200B;_
+_이 문서에서는 맵 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [맵](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 맵 시각화](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 맵 시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -98,7 +98,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
       * *퍼센트* 유형의 지표를 사용하면 클러스터링에서 백분율의 평균을 함께 계산합니다.
       * 녹색/빨간색 구성표: 양수/음수
 
-   * **Ctrl** 키를 누른 채 맵을 이동하여 2D 또는 3D로 맵을 회전[!UICONTROL 합니다.]
+   * **Ctrl] 키를 누른 채 맵을 이동하여 2D 또는 3D로 맵을 회전**&#x200B;합니다.[!UICONTROL 
 
    * **전환** - 아래 설명된 [설정](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)을 사용하여 히트맵(열 지도)과 같은 다른 보기로 전환할 수 있습니다. 버블 보기가 기본 설정입니다.
 
@@ -132,7 +132,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 
 Here is a video on the topic:
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 

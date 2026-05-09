@@ -4,7 +4,7 @@ title: 여정 캔버스 시각화 구성
 feature: Visualizations
 hide: true
 role: User, Admin
-source-git-commit: fee3fe30f695c0ef151e998abe45c54c3bce9d31
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '5614'
 ht-degree: 96%
@@ -15,9 +15,11 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_&#x200B;이 문서에 대한 [여정 캔버스 시각화 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하십시오._![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;버전._
+_이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_&#x200B;이 문서에 대한 [여정 캔버스 시각화 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하십시오._![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**버전._
 
 >[!ENDSHADEBOX]
+
+{{release-limited-testing}}
 
 여정 캔버스 시각화는 사용자와 고객에게 제공하는 여정을 분석하고 깊이 있는 인사이트를 얻을 수 있습니다.
 

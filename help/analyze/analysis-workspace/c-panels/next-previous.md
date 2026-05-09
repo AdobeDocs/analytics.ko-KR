@@ -4,10 +4,10 @@ title: 다음 또는 이전 항목 패널
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 88%
+source-wordcount: '471'
+ht-degree: 85%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="다음 또는 이전 항목"
->abstract="방문자들이 이전에 왔거나 다음으로 이동하는 가장 일반적인 장소를 분석합니다.<br/><br/>**차원**: 차원을 선택합니다. 예: **페이지**.<br/>**차원 항목**: 특정 차원 항목을 선택합니다. 예: **홈 페이지**.<br/>**방향**: **다음**&#x200B;을 선택하여 선택한 차원 항목 바로 다음에 차원 항목을 표시합니다. **이전**&#x200B;을 선택하여 선택한 차원 항목으로 이어지는 차원 항목을 표시합니다.<br/>**컨테이너**: **세션**&#x200B;을 선택하여 동일한 세션 내에서 다음/이전 차원 항목을 표시하거나 **사용자**&#x200B;를 선택하여 동일한 사용자의 다음/이전 차원 항목을 표시합니다."
+>abstract="방문자들이 이전에 왔거나 다음으로 이동하는 가장 일반적인 장소를 분석합니다.<br/><br/>**차원**: 차원을 선택합니다. 예를 들어 **페이지**.<br/>**차원 항목**: 특정 차원 항목을 선택합니다. 예를 들어 **홈 페이지**.<br/>**방향**: **다음**&#x200B;을 선택하여 선택한 차원 항목 바로 다음에 차원 항목을 표시합니다. **이전**&#x200B;을 선택하여 선택한 차원 항목으로 이어지는 차원 항목을 표시합니다.<br/>**컨테이너**: **세션**&#x200B;을 선택하여 동일한 세션 내에서 다음/이전 차원 항목을 표시하거나 **사용자**&#x200B;를 선택하여 동일한 사용자의 다음/이전 차원 항목을 표시합니다."
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 다음 또는 이전 항목 패널에 대해 설명합니다._<br/>_이 문서의 [&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/next-previous.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대해 _&#x200B;**다음 또는 이전 항목 패널**&#x200B;을 참조하세요._
+_이 문서에서는 다음 또는 이전 항목 패널을 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_다음 또는 이전 항목 패널](/help/analyze/analysis-workspace/c-panels/next-previous.md)에서_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전을 확인하세요._[
 
 >[!ENDSHADEBOX]
 

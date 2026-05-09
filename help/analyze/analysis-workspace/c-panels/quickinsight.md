@@ -4,10 +4,10 @@ title: 빠른 인사이트 패널
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 91%
+source-wordcount: '1157'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 빠른 인사이트 패널에 대해 설명합니다._<br/>_이 문서의 [&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/quickinsight.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대한 _&#x200B;**빠른 인사이트 패널**&#x200B;을 참조하세요._
+_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;에 있는 빠른 인사이트 패널을 설명합니다._<br/>_자세한 내용은 [빠른 인사이트 패널](/help/analyze/analysis-workspace/c-panels/quickinsight.md)을 참조하십시오_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -38,7 +38,7 @@ _이 문서에서는_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _
 * 어떤 차원 및 지표가 인사이트를 용이하게 하는지,
 * 항목을 끌어다 놓을 위치,
 * 필터를 만들 위치 등을
-* 궁금해 할 수 있습니다.
+* 등
 
 이러한 질문에 도움이 되도록 [!UICONTROL 빠른 인사이트]에서는 회사에서 사용하는 가장 인기 있는 차원, 지표, 세그먼트 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 이 알고리즘은 [!UICONTROL Analysis Workspace]에서 귀사의 데이터 구성 요소 사용을 기반으로 합니다. 실제로 다음과 같이 드롭다운 목록에서 [!UICONTROL 인기]로 태그가 지정된 차원, 지표 및 세그먼트가 표시됩니다.
 
@@ -94,7 +94,7 @@ _이 문서에서는_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _
 
 * 왼쪽 패널에서 구성 요소를 드래그 앤 드롭합니다.
 * 빌딩 블록 필드 중 하나에 입력을 시작합니다. 입력이 발견되면 가능한 값이 빌딩 블록 필드에 자동으로 채워집니다.
-* 빌딩 블록 드롭다운(예: **[!UICONTROL Analyze]**&#x200B;의 **[!UICONTROL Country]**)을 지정하고 사용할 값(예: ![국가 코드](/help/assets/icons/ChevronRight.svg))에 대해 가능한 값 목록(**[!UICONTROL V자형 화살표]** 사용)을 검색합니다.
+* 빌딩 블록 드롭다운(예: **[!UICONTROL Analyze]**&#x200B;의 **[!UICONTROL Country]**)을 지정하고 사용할 값(예: **[!UICONTROL 국가 코드]**)에 대해 가능한 값 목록(![V자형 화살표](/help/assets/icons/ChevronRight.svg) 사용)을 검색합니다.
 
 **[!UICONTROL 지우기]**&#x200B;를 선택하여 입력 필드를 모두 지웁니다.
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace)
 
 ## Basic key terminology
 

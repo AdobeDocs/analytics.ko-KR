@@ -4,10 +4,10 @@ title: 콤보
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 96%
+source-wordcount: '618'
+ht-degree: 95%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 콤보 시각화에 대해 설명합니다._
+_이 문서에서는_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;의 콤보 시각화에 대해 설명합니다._
 
-_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전은 [콤보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)를 참조하십시오._
+_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전은 [콤보](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)를 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ _이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAn
 
    출력은 다음과 유사합니다.
 
-   ![막대 차트로 표시된 현재 기간과 선 차트로 표시된 비교 기간을 포함한 콤보 차트 &#x200B;](assets/combo-output.png)
+   ![막대 차트로 표시된 현재 기간과 선 차트로 표시된 비교 기간을 포함한 콤보 차트 ](assets/combo-output.png)
 
    현재 기간은 막대 차트로 표시됩니다. 비교 기간은 선 차트로 표시됩니다. 선 차트의 점을 “*바벨*”이라고 합니다.
 
@@ -98,7 +98,7 @@ _이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAn
 
 >[!MORELIKETHIS]
 >
->[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

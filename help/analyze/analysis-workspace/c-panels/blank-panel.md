@@ -4,10 +4,10 @@ title: 빈 패널
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 88%
+source-wordcount: '255'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;의 빈 패널에 대해 설명합니다._<br/>_이 문서의 [&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/blank-panel.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 버전에 대해 _&#x200B;**빈 패널**&#x200B;을 참조하세요._
+_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;에 있는 빈 패널을 설명합니다._<br/>_자세한 내용은 [빈 패널](/help/analyze/analysis-workspace/c-panels/blank-panel.md)을 참조하십시오_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -72,7 +72,7 @@ _이 문서에서는_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) 
   | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [도넛](/help/analyze/analysis-workspace/visualizations/donut.md) |
   | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md) |
-  | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [분산](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |
+  | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [산포도](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |
   | ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) |
   | ![GraphTree](/help/assets/icons/GraphTree.svg) | [트리맵](/help/analyze/analysis-workspace/visualizations/treemap.md) |
 

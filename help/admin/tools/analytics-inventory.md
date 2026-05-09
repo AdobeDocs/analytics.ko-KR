@@ -4,10 +4,10 @@ title: Analytics 인벤토리
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 19%
+source-wordcount: '1224'
+ht-degree: 22%
 
 ---
 
@@ -108,11 +108,11 @@ Analytics 인벤토리는 [Adobe Admin Console](/help/admin/admin-console/admin-
    | 요소 | 설명 |
    | --- | --- |
    | 이름 | 보고서 세트의 이름 |
-   | ID | 보고서 세트 ID(rsid)입니다. 영숫자만 포함할 수 있는 고유 ID를 지정합니다. 이 ID는 만들어진 후에는 변경할 수 없습니다. Adobe은 필수 ID 접두사를 설정하며 어느 것도 변경할 수 없습니다. |
+   | ID | 보고서 세트 ID(rsid)입니다. 영숫자만 포함할 수 있는 고유 ID를 지정합니다. 이 ID는 만들어진 후에는 변경할 수 없습니다. Adobe가 필수 ID 접두사를 설정하므로 어느 것도 변경할 수 없습니다. |
    | 발생 횟수 (최근 90일) | 발생 횟수 지표는 주어진 차원이 설정되거나 지속된 히트의 수를 보여줍니다. 지난 90일 동안 이 보고서 세트가 받은 히트는 몇 개입니까? |
    | 지표 | 이 보고서 세트에 정의된 지표는 몇 개입니까? |
    | 차원 | 이 보고서 세트에는 몇 개의 차원이 정의되어 있습니까? |
-   | A4T(Analytics for Target) 활성화됨 | [기본적으로 숨겨짐] 이 보고서 세트가 [Analytics for Target](https://experienceleague.adobe.com/ko/docs/target/using/integrate/a4t/a4t)에 대해 활성화되어 있습니까? |
+   | A4T(Analytics for Target) 활성화됨 | [기본적으로 숨겨짐] 이 보고서 세트가 [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)에 대해 활성화되어 있습니까? |
    | 마케팅 채널 활성화됨 | [기본적으로 숨김] 이 보고서 세트가 [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)에 대해 활성화되어 있습니까? |
    | 소스 커넥터 활성화됨 | 이 보고서 세트는 Adobe Experience Platform의 보고서 세트 데이터용 [Adobe Analytics Source Connector](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/analytics)에 대해 활성화됩니까? 즉, Analytics Source 커넥터를 사용하여 이 보고서 세트를 Customer Journey Analytics으로 마이그레이션할 수 있습니까? |
    | 캘린더 유형 | [기본적으로 숨김] 자세한 내용은 [사용자 지정 달력](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)을 참조하세요. |
