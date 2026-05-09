@@ -24,7 +24,7 @@ ht-degree: 52%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_&#x200B;의 분산 시각화에 대해 설명합니다![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_&#x200B;에 대한 [분산](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) 참조![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전._
+_이 문서에서는_&#x200B;의 분산 시각화에 대해 설명합니다![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_&#x200B;에 대한 [분산](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) 참조![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ _이 문서에서는_&#x200B;의 분산 시각화에 대해 설명합니다![Ado
 * 세 번째 열은 점의 반경을 결정합니다.
 * 자유 형식 테이블의 모든 후속 열은 산포도 시각화에 의해 무시됩니다.
 
-![여러 항목을 보여 주는 산포도의 예 ](assets/scatter.png)
+![여러 항목을 보여 주는 산포도의 예 &#x200B;](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]

@@ -46,7 +46,7 @@ ht-degree: 73%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 맵 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [맵](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)을 참조하십시오._
+_이 문서에서는 맵 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전에 대한 [맵](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -98,7 +98,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
       * *퍼센트* 유형의 지표를 사용하면 클러스터링에서 백분율의 평균을 함께 계산합니다.
       * 녹색/빨간색 구성표: 양수/음수
 
-   * **Ctrl] 키를 누른 채 맵을 이동하여 2D 또는 3D로 맵을 회전**&#x200B;합니다.[!UICONTROL 
+   * **Ctrl 키를 누른 채 맵을 이동하여 2D 또는 3D로 맵을 회전**&#x200B;합니다.
 
    * **전환** - 아래 설명된 [설정](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)을 사용하여 히트맵(열 지도)과 같은 다른 보기로 전환할 수 있습니다. 버블 보기가 기본 설정입니다.
 

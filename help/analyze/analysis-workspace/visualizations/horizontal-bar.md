@@ -16,7 +16,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 가로 막대 및 가로 막대 누적 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_&#x200B;에 대한 [가로 막대 및 가로 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar)을 참조하십시오. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전._
+_이 문서에서는 가로 막대 및 가로 막대 누적 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_&#x200B;에 대한 [가로 막대 및 가로 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar)을 참조하십시오. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 

@@ -34,7 +34,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는_&#x200B;의 페이지 요약 패널을 설명합니다.![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_에 해당하는 패널이 없습니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_이 문서는_&#x200B;의 페이지 요약 패널을 설명합니다.![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_에 해당하는 패널이 없습니다._ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
