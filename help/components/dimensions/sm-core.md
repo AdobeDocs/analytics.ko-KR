@@ -3,37 +3,43 @@ title: Streaming Media 서비스 핵심 차원
 description: 보고서 세트에 대해 [!UICONTROL 미디어 코어]을(를) 사용하도록 설정하는 경우 사용할 수 있는 차원입니다.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
+TQID: https://experienceleague.adobe.com/JYaEwFPGW4YHtZySogcJkYvDCHPJy-l0JlGxh9eFHSQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 6%
+source-wordcount: 275
+ht-degree: 1%
 
 ---
 
 # Streaming Media 서비스 핵심 차원
 
-*이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 코어]을(를) 사용할 때 사용할 수 있는 차원을 설명합니다. 사용 가능한 지표는 [스트리밍 미디어 서비스 핵심 지표](../metrics/sm-core.md)를 참조하십시오.*
+Streaming Media 서비스 핵심 차원은 Streaming Media 컬렉션 라이브러리를 통해 수집된 데이터에 대한 기본 보고 기능을 제공합니다. 이러한 차원에는 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-Streaming Media 서비스 핵심 차원은 Streaming Media 서비스 라이브러리를 통해 수집된 데이터에 기본 보고 기능을 제공합니다. 이 차원을 사용하려면 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+이 차원을 사용하려면 보고서 세트에 대해 [[!UICONTROL 미디어 보고]](/help/admin/tools/manage-rs/edit-settings/media-management.md)에서 **[!UICONTROL 미디어 코어]**&#x200B;을(를) 사용하도록 설정하십시오.
 
-**[!UICONTROL 미디어 보고]**&#x200B;에서 [미디어 코어](/help/admin/tools/manage-rs/edit-settings/media-management.md)을(를) 사용하도록 설정하면 다음 차원을 사용할 수 있습니다.
+다음 차원을 사용할 수 있습니다.
 
-| 차원 이름 | 설명 | 전송 시점 | 컨텍스트 데이터 변수 | XDM 필드 |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 콘텐츠]** | 콘텐츠의 콘텐츠 ID. | 미디어 시작, 미디어 종료 | `a.media.`<br>`name` | `xdm.mediaCollection.`<br>`sessionDetails.name`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.name` |
-| **[!UICONTROL 콘텐츠 채널]** | 콘텐츠가 재생되는 배포 스테이션 또는 채널. 모든 문자열 값이 유효합니다. | 미디어 시작, 미디어 종료 | `a.media.`<br>`channel` | `xdm.mediaCollection.`<br>`sessionDetails.channel`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.channel` |
-| **[!UICONTROL 콘텐츠 길이(변수)]** | 소비된 콘텐츠의 최대 길이(또는 기간)입니다(초). 이 차원은 &#39;[!UICONTROL 분당 평균 시청 시간]&#39;을(를) 포함한 여러 지표에 필요합니다. 이 차원이 설정되지 않은 경우 종속 지표를 사용할 수 없습니다.<br><br>유사한 목적을 제공하는 &#39;[!UICONTROL 비디오 길이]&#39;(이)라는 분류 차원도 사용할 수 있습니다. 이 차원과 분류는 두 개의 고유한 차원으로 처리됩니다. | 미디어 시작, 미디어 종료 | `a.media.`<br>`length` | `xdm.mediaCollection.`<br>`sessionDetails.length`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.length` |
-| **[!UICONTROL 콘텐츠 이름(변수)]** | 콘텐츠의 알기 쉬운 이름. 유사한 목적을 제공하는 &#39;[!UICONTROL 비디오 이름]&#39; 분류도 사용할 수 있습니다. 이 차원과 분류는 두 개의 고유한 차원으로 처리됩니다. | 미디어 시작, 미디어 종료 | `a.media.`<br>`friendlyName` | `xdm.mediaCollection.`<br>`sessionDetails.friendlyName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.friendlyName` |
-| **[!UICONTROL 콘텐츠 플레이어 이름]** | 콘텐츠 플레이어의 이름입니다. | 미디어 시작, 미디어 종료 | `a.media.`<br>`playerName` | `xdm.mediaCollection.`<br>`sessionDetails.playerName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.playerName` |
-| **[!UICONTROL 콘텐츠 세그먼트]** | 본 콘텐츠 부분을 설명하는 간격(분)입니다. 세그먼트는 재생 세션 중 최대 및 최소 플레이헤드 값으로 계산됩니다. | 미디어 닫기 | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
-| **[!UICONTROL 콘텐츠 형식]** | 콘텐츠 유형. 유효한 값에는 `song`, `podcast`, `audiobook`, `radio`, `VoD`, `Live`, `Linear`, `UGC`, `DVoD` 또는 사용자 지정 값이 포함됩니다. | 미디어 시작, 미디어 종료 | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
-| **[!UICONTROL 미디어 경로]** | 방문자가 콘텐츠에 도달하기 위해 사용한 경로입니다. | 미디어 시작 | `a.media.path` | |
-| **[!UICONTROL 미디어 세션 ID]** | 개별 재생에 고유한 콘텐츠 스트림의 인스턴스를 식별합니다. | 미디어 시작, 미디어 종료 | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
-| **[!UICONTROL 스트림 형식]** | 스트림 유형입니다. 유효한 값은 `audio`, `video`입니다. | 미디어 시작, 미디어 종료 | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
+* [[!UICONTROL 콘텐츠]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL 콘텐츠 채널]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL 콘텐츠 길이(변수)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL 콘텐츠 이름(변수)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL 콘텐츠 플레이어 이름]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL 콘텐츠 세그먼트]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL 콘텐츠 형식]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL 미디어 경로]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL 미디어 세션 ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL 스트림 형식]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 위의 차원 외에도 Adobe은 자동으로 다음 분류 차원을 생성합니다. 이러한 차원을 사용하는 보고서를 보려면 분류 데이터를 업로드해야 합니다.
 
-| 분류 이름 | 상위 차원 | 설명 |
-| --- | --- | --- |
-| **[!UICONTROL 비디오 길이]** | [!UICONTROL 콘텐츠] | 소비된 콘텐츠의 최대 길이(또는 기간)입니다(초). 콘텐츠 길이에 의존하는 지표는 이 분류를 사용할 수 없습니다. 이 분류를 사용하여 &#39;[!UICONTROL 분당 평균 시청 시간]&#39;과 같은 지표를 얻으려면 계산된 지표를 만들어야 합니다. |
-| **[!UICONTROL 비디오 이름]** | [!UICONTROL 콘텐츠] | 콘텐츠의 알기 쉬운 이름. &#39;[!UICONTROL 콘텐츠 이름(변수)]&#39;에 해당하는 분류입니다. |
+| 분류 이름 | 상위 차원 |
+| --- | --- |
+| [[!UICONTROL 비디오 길이]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL 콘텐츠] |
+| [[!UICONTROL 비디오 이름]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL 콘텐츠] |
+
+해당 지표는 [Streaming Media 서비스 핵심 지표](../metrics/sm-core.md)를 참조하십시오.

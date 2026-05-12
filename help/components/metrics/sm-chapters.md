@@ -3,23 +3,29 @@ title: Streaming Media 서비스 챕터 지표
 description: 보고서 세트에 대해 [!UICONTROL 미디어 챕터]을(를) 사용하도록 설정할 때 사용 가능한 지표입니다.
 feature: Metrics
 exl-id: bef379d5-9dc9-404f-8197-1ba66d11299d
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/RE2A8dWALCgLL1J3t-kR62wOarFsFIGFgh9Pb-E2-Iw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 5%
+source-wordcount: 125
+ht-degree: 0%
 
 ---
 
 # Streaming Media 서비스 챕터 지표
 
-*이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 챕터]를 사용할 때 사용할 수 있는 지표를 설명합니다. 사용 가능한 차원은 [스트리밍 미디어 서비스 챕터 차원](../dimensions/sm-chapters.md)을 참조하십시오.*
+Streaming Media 서비스 챕터 지표는 스트리밍 미디어 컬렉션 라이브러리를 통해 수집된 데이터에 대한 보충 보고 기능을 제공합니다. 이러한 지표를 사용하려면 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-스트리밍 미디어 서비스 챕터 지표는 스트리밍 미디어 서비스 컬렉션 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 지표를 사용하려면 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+이 지표를 사용하려면 보고서 세트에 대해 [[!UICONTROL 미디어 보고]](/help/admin/tools/manage-rs/edit-settings/media-management.md)에서 **[!UICONTROL 미디어 챕터]**&#x200B;을(를) 사용하도록 설정하십시오.
 
-**[!UICONTROL 미디어 보고]**&#x200B;에서 [미디어 챕터](/help/admin/tools/manage-rs/edit-settings/media-management.md)을(를) 사용하도록 설정하면 다음 지표를 사용할 수 있습니다.
+다음 지표를 사용할 수 있습니다.
 
-| 지표 이름 | 설명 | 전송 시점 | 컨텍스트 데이터 변수 | XDM 필드 |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 챕터 완료]** | 챕터가 완료되면 트리거되는 부울입니다. | 챕터 닫기 | `a.media.chapter.complete` | `xdm.mediaReporting.`<br>`chapterDetails.isCompleted` |
-| **[!UICONTROL 챕터 시작]** | 챕터가 시작될 때 트리거되는 부울입니다. | 챕터 시작 | `a.media.chapter.view` | `xdm.mediaReporting.`<br>`chapterDetails.isStarted` |
-| **[!UICONTROL 챕터 체류 시간]** | 챕터에서 보낸 시간(초)입니다. | 챕터 닫기 | `a.media.chapter.timePlayed` | `xdm.mediaReporting.`<br>`chapterDetails.timePlayed` |
+* [[!UICONTROL 챕터 완료]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-completes)
+* [[!UICONTROL 챕터 시작]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-starts)
+* [[!UICONTROL 챕터 체류 시간]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
+
+해당 차원에 대해서는 [스트리밍 미디어 서비스 챕터 차원](../dimensions/sm-chapters.md)을 참조하십시오.
