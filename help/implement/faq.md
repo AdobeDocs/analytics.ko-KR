@@ -4,9 +4,28 @@ description: 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/Hm9pIJE9P3jEljJAgB69k2M9-fTa9G0wsCjfvN4xH3E
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: c77ba355-6681-41fe-b719-563d3f507fdb
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: 512
 ht-degree: 100%
 
 ---
@@ -21,7 +40,7 @@ ID 서비스는 Experience Cloud에 있는 다른 솔루션 간에 공유할 수
 
 ## 하트비트 비디오 추적은 어떻게 구현합니까?
 
-[Adobe Analytics에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)을 참조하십시오.
+[Adobe Analytics에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview)을 참조하십시오.
 
 ## Adobe의 서비스 중단이 성능에 영향을 줄 수 있습니까?
 

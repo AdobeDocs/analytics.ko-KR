@@ -1,33 +1,47 @@
 ---
-title: Streaming Media 챕터 차원
+title: 스트리밍 미디어 서비스 챕터 차원
 description: 보고서 세트에 대해 [!UICONTROL 미디어 챕터]을(를) 사용하도록 설정하는 경우 사용할 수 있는 차원입니다.
 feature: Dimensions
 exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/AfI1gvM3quhjC1zV6oRKx86vS-aLDIRNtuw1vEhuK4A
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 4%
+source-wordcount: 192
+ht-degree: 1%
 
 ---
 
 # 스트리밍 미디어 서비스 챕터 차원
 
-*이 페이지에서는 보고서 세트에 대해 [!UICONTROL 미디어 챕터]를 사용할 때 사용할 수 있는 차원을 설명합니다. 사용 가능한 지표는 [스트리밍 미디어 서비스 챕터 지표](../metrics/sm-chapters.md)를 참조하십시오.*
+Streaming Media 서비스 챕터 차원은 스트리밍 미디어 컬렉션 라이브러리를 통해 수집된 데이터에 대한 보충 보고 기능을 제공합니다. 이러한 차원에는 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-Streaming Media 서비스 챕터 차원은 Streaming Media 서비스 라이브러리를 통한 데이터 수집에 대한 보충 보고 기능을 제공합니다. 이 차원을 사용하려면 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+이 차원을 사용하려면 보고서 세트에 대해 [[!UICONTROL 미디어 보고]](/help/admin/tools/manage-rs/edit-settings/media-management.md)에서 **[!UICONTROL 미디어 챕터]**&#x200B;을(를) 사용하도록 설정하십시오.
 
-**[!UICONTROL 미디어 보고]**&#x200B;에서 [미디어 챕터](/help/admin/tools/manage-rs/edit-settings/media-management.md)을(를) 사용하도록 설정하면 다음 차원을 사용할 수 있습니다.
+다음 차원을 사용할 수 있습니다.
 
-| 차원 이름 | 설명 | 전송 시점 | 컨텍스트 데이터 변수 | XDM 필드 |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 챕터]** | 자동으로 생성된 챕터 ID입니다. | 챕터 닫기 | `a.media.chapter.name` | `xdm.mediaReporting.`<br>`chapterDetails.ID` |
+* [[!UICONTROL 챕터]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter)
 
 위의 차원 외에도 Adobe은 자동으로 다음 분류 차원을 생성합니다. 이러한 차원을 사용하는 보고서를 보려면 분류 데이터를 업로드해야 합니다.
 
-| 분류 이름 | 상위 차원 | 설명 |
-| --- | --- | --- |
-| **[!UICONTROL 작성자]** | [[!UICONTROL 콘텐츠]](sm-core.md) | 콘텐츠 작성자입니다. |
-| **[!UICONTROL 챕터 길이]** | [!UICONTROL 챕터] | 챕터의 길이(초)입니다. |
-| **[!UICONTROL 챕터 이름]** | [!UICONTROL 챕터] | 챕터의 알기 쉬운 이름. |
-| **[!UICONTROL 챕터 오프셋]** | [!UICONTROL 챕터] | 처음부터 콘텐츠 내에 있는 챕터의 오프셋(초)입니다. |
-| **[!UICONTROL 챕터 위치]** | [!UICONTROL 챕터] | 컨텐츠에서 챕터의 색인 위치입니다. |
+| 분류 이름 | 상위 차원 |
+| --- | --- |
+| [[!UICONTROL 작성자]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL 콘텐츠]](sm-core.md) |
+| [[!UICONTROL 챕터 길이]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL 챕터] |
+| [[!UICONTROL 챕터 이름]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL 챕터] |
+| [[!UICONTROL 챕터 오프셋]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL 챕터] |
+| [[!UICONTROL 챕터 위치]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL 챕터] |
+
+해당 지표는 [스트리밍 미디어 서비스 챕터 지표](../metrics/sm-chapters.md)를 참조하십시오.
