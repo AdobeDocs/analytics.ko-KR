@@ -2,12 +2,11 @@
 description: 여정 캔버스 시각화를 구성하는 방법을 이해합니다.
 title: 여정 캔버스 시각화 구성
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
-source-wordcount: '5614'
-ht-degree: 96%
+source-wordcount: '5783'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_&#x200B;이 문서에 대한 [여정 캔버스 시각화 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하십시오._![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;버전._
+_이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_&#x200B;이 문서에 대한 [여정 캔버스 시각화 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하십시오._![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**버전._
 
 >[!ENDSHADEBOX]
 
@@ -147,7 +146,7 @@ _이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![Ad
 
 1. 이 프로세스를 반복하여 노드를 계속 추가함으로써 여정을 빌드합니다.
 
-1. 아래 섹션에 설명된 대로 여정 사용자 지정을 계속합니다. 노드 연결, 노드 이름 변경, 분류 적용, 대상자 만들기, 시간 제한 추가 등을 수행할 수 있습니다.
+1. 아래 섹션에 설명된 대로 여정 사용자 지정을 계속합니다. 노드 연결, 노드 이름 변경, 분류 적용, 시간 제한 추가 등을 수행할 수 있습니다.
 
 ### 기존 노드를 기반으로 상위 노드 표시
 
@@ -441,6 +440,8 @@ To change the color of a node or arrow:
 
 * 노드 사이의 여러 화살표
 
+* 폴아웃 데이터 (폴아웃이 노드에 표시되는 경우)
+
 분류를 적용할 때는 다음 사항을 고려합니다.
 
 * 분류는 기본 지표에 적용됩니다. 보조 지표는 영향을 받지 않습니다.
@@ -451,15 +452,17 @@ To change the color of a node or arrow:
 
 * 여정의 이전 시점에 변경 사항이 적용되면 분류 데이터가 업데이트됩니다.
 
-#### 하나 이상의 노드 또는 화살표에 분류 적용
+#### 노드, 화살표 또는 폴아웃 데이터에 분류 적용
 
-1. 여정 캔버스 시각화에서 분류를 적용할 노드를 하나 이상 선택한 다음 선택한 노드 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
+1. 여정 캔버스 시각화에서 다음 중 하나를 수행합니다.
 
-   또는
+   * 분류를 적용할 노드(폴아웃이 표시될 때)에서 파생되는 폴아웃을 마우스 오른쪽 버튼으로 클릭합니다.
 
-   여정 캔버스 시각화에서 분류를 적용할 2개 노드 사이의 화살표를 하나 이상 선택한 다음 선택한 화살표 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
+   * 분류를 적용할 노드를 하나 이상 선택한 다음 선택한 노드 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 
-   여러 노드 또는 화살표를 선택하려면 Command(Mac) 또는 Ctrl(Windows)을 누릅니다.
+   * 분류를 적용할 2개 노드 사이의 화살표를 하나 이상 선택한 다음 선택한 화살표 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
+
+     여러 노드 또는 화살표를 선택하려면 Command(Mac) 또는 Ctrl(Windows)을 누릅니다.
 
 1. [!UICONTROL **분류**]&#x200B;를 선택합니다.
 
@@ -505,21 +508,33 @@ To change the color of a node or arrow:
 
 * 노드 사이의 여러 화살표
 
+* 폴아웃 데이터 (폴아웃이 노드에 표시되는 경우)
+
 트렌드 데이터를 보려면 다음을 수행합니다.
 
-1. 여정 캔버스 시각화에서 트렌드 데이터를 보려는 노드를 하나 이상 선택한 다음, 선택한 노드 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
+1. 여정 캔버스 시각화에서 다음 중 하나를 수행합니다.
 
-   또는
+   * 트렌드 데이터를 보려는 노드(폴아웃이 표시된 경우)에서 나오는 폴아웃을 마우스 오른쪽 버튼으로 클릭합니다.
 
-   여정 캔버스 시각화에서 트렌드 데이터를 보려는 2개 노드 사이에서 하나 이상의 화살표를 선택한 다음, 선택한 화살표 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
+   * 트렌드 데이터를 보려는 노드를 하나 이상 선택한 다음 선택한 노드 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 
-   여러 노드 또는 화살표를 선택하려면 Command(Mac) 또는 Ctrl(Windows)을 누릅니다.
+   * 추세 데이터를 보려는 두 노드 사이에 하나 이상의 화살표를 선택한 다음 선택한 화살표 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
+
+     여러 노드 또는 화살표를 선택하려면 Command(Mac) 또는 Ctrl(Windows)을 누릅니다.
 
 1. [!UICONTROL **트렌드**]&#x200B;를 선택합니다.
 
-### 노드 또는 화살표를 기반으로 세그먼트 만들기
+### 노드, 화살표 또는 폴아웃을 기반으로 세그먼트 만들기
 
-여정 내 노드나 화살표를 기반으로 새 세그먼트를 만들 수 있습니다. 세그먼트가 만들어지면 Analysis Workspace의 어디에서나 사용할 수 있습니다.
+캔버스의 다음 오브젝트에서 세그먼트를 만드는 옵션을 사용할 수 있습니다.
+
+* 개별 노드
+
+* 노드 사이의 화살표
+
+* 폴아웃 데이터 (폴아웃이 노드에 표시되는 경우)
+
+세그먼트가 만들어지면 Analysis Workspace의 어디에서나 사용할 수 있습니다.
 
 여정 캔버스에서 만든 세그먼트는 [순차적 세그먼트](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 사용합니다. 즉, 세그먼트는 THEN 연산자를 사용하여 사람들이 이동한 이벤트 시퀀스(여정)를 함께 연결하며 선택한 노드 또는 화살표로 이어집니다. 선택한 노드 또는 화살표와 일치하는 모든 이벤트는 세그먼트에 포함됩니다.
 
@@ -527,9 +542,9 @@ To change the color of a node or arrow:
 
 세그먼트를 만들려면 다음을 수행합니다.
 
-1. 여정 캔버스 시각화에서 세그먼트를 만드는 데 사용할 노드 또는 화살표를 마우스 오른쪽 버튼으로 클릭합니다.
+1. 여정 캔버스 시각화에서 세그먼트를 만드는 데 사용할 노드, 화살표 또는 폴아웃 데이터를 마우스 오른쪽 버튼으로 클릭합니다.
 
-1. [!UICONTROL **노드에서 세그먼트 만들기**] 또는 [!UICONTROL **화살표에서 세그먼트 만들기**]&#x200B;를 선택합니다.
+1. [!UICONTROL **노드에서 세그먼트 만들기**], [!UICONTROL **화살표에서 세그먼트 만들기**] 또는 [!UICONTROL **폴아웃에서 세그먼트 만들기**]&#x200B;를 선택합니다.
 
    세그먼트 빌더가 표시됩니다. [!UICONTROL **정의**] 섹션에서 세그먼트 정의는 선택한 노드 또는 화살표와 여정 내의 해당 컨텍스트를 기반으로 만들어집니다.
 
@@ -546,6 +561,22 @@ To change the color of a node or arrow:
 1. 여정 캔버스 시각화에서 삭제할 노드를 하나 이상 선택한 다음, 선택한 노드 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 
 1. [!UICONTROL **삭제**]&#x200B;를 선택합니다.
+
+### 노드 제외
+
+여정에서 노드를 제외할 때 해당 노드를 거친 여정을 제외하도록 여정 데이터가 업데이트됩니다. 해당 노드를 거친 여정을 제외하도록 여정에 대한 세그먼트 정의도 업데이트됩니다.
+
+여정에서 노드를 제외하려면 다음 작업을 수행하십시오.
+
+1. 여정 캔버스 시각화에서 제외할 노드를 마우스 오른쪽 단추로 클릭합니다.
+
+1. [!UICONTROL **여정에서 제외**]&#x200B;를 선택합니다.
+
+제외된 노드를 여정에 다시 포함하려면 다음을 수행하십시오.
+
+1. 여정 캔버스 시각화에서 제외된 노드를 마우스 오른쪽 단추로 클릭합니다.
+
+1. [!UICONTROL **여정 제외 제거**]&#x200B;를 선택합니다.
 
 ### 노드 사이의 화살표 삭제
 
