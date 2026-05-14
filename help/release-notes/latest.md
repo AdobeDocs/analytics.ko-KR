@@ -21,10 +21,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7c04b33e94152be8826005cb9617cb49dadbdcb9
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
-source-wordcount: 1340
-ht-degree: 62%
+source-wordcount: 1365
+ht-degree: 61%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 62%
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
 | **Adobe Analytics용 MCP 서버** <br/>Analytics MCP(Model Context Protocol) 서버를 사용하면 지원되는 MCP 클라이언트를 Adobe Analytics에 연결할 수 있습니다. 연결되면 MCP 클라이언트는 제품별 도구를 호출하여 데이터를 검색하거나 쿼리를 실행하거나 LLM 또는 에이전트 워크플로우의 일부로 지원되는 작업을 수행할 수 있습니다. 자세한 내용은 [Analytics MCP 서버](https://developer.adobe.com/analytics-mcp/docs/)를 참조하십시오.<p>Beta 기간 동안 이러한 MCP 서버를 사용한 경우 Beta와 프로덕션 엔드포인트 간에 서로 다른 URL이 있습니다. 베타 기간 동안 만들어진 모든 에이전트 워크플로가 5월 31일 이전에 프로덕션 끝점을 사용하도록 업데이트되었는지 확인하십시오.</p> | | 2026년 5월 5일 |
-| **Adobe Analytics의 여정 캔버스** <br/>여정 캔버스는 Analysis Workspace의 시각화로서, 사용자가 여정을 통해 진행하거나 폴아웃하는 방법을 분석하여 정의된 사용자 여정에 대한 심도 있는 통찰력을 얻을 수 있습니다. 여정에 포함된 이벤트, 차원 항목 및 세그먼트의 조합을 나타내는 노드 및 화살표의 유연한 그래프를 생성할 수 있습니다. 노드를 캔버스로 드래그하거나 여정의 이벤트 및 조건을 재배열하면 데이터가 업데이트됩니다.<p>여정 캔버스는 이전에는 Customer Journey Analytics에서만 사용할 수 있었습니다.</p><p>(참조할 설명서 링크입니다.)<!--To learn more about Journey canvas in Adobe Analytics, see Journey canvas overview. To learn how to build a Journey canvas visualization in Adobe Analytics, see Configure Journey canvas.--></p> | 2026년 5월 18일 | 2026년 6월 5일 |
+| **Adobe Analytics의 여정 캔버스** <br/>여정 캔버스는 Analysis Workspace의 시각화로서, 사용자가 여정을 통해 진행하거나 폴아웃하는 방법을 분석하여 정의된 사용자 여정에 대한 심도 있는 통찰력을 얻을 수 있습니다. 여정에 포함된 이벤트, 차원 항목 및 세그먼트의 조합을 나타내는 노드 및 화살표의 유연한 그래프를 생성할 수 있습니다. 노드를 캔버스로 드래그하거나 여정의 이벤트 및 조건을 재배열하면 데이터가 업데이트됩니다.<p>여정 캔버스는 이전에는 Customer Journey Analytics에서만 사용할 수 있었습니다.</p><p>Adobe Analytics의 여정 캔버스에 대한 자세한 내용은 [여정 캔버스 개요](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)를 참조하세요. </p><p>Adobe Analytics에서 여정 캔버스 시각화를 만드는 방법에 대해 알아보려면 [여정 캔버스 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하세요.</p> | 2026년 5월 18일 | 2026년 6월 5일 |
 | **속성 모델 API 보고 가이드** <br/>새로운 Adobe Analytics 2.0 API 속성 모델 보고서 가이드를 사용할 수 있습니다. 이 안내서에서는 Dimension API 보고서에 속성 모델 개체 데이터를 포함하는 방법을 다룹니다.<p>자세한 내용은 [Dimension API 속성 모델](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel)을 참조하십시오.</p> | | 2026년 5월 |
 | **스트리밍 미디어 서비스: 일정 데이터 지원** <br/>이제 과거 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청자 수를 보다 쉽고 정확하게 추적할 수 있습니다.<p>다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.</p><ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul><p>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다.</p><p>이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.</p><p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다.</p><p>자세한 내용은 [라이브 콘텐츠를 추적할 일정 데이터 업로드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-use-cases/track-schedule-data)를 참조하십시오.</p> | 2025년 10월 29일 | 2026년 상반기<p>(원래 2025년 10월 29일 릴리스로 계획됨)</p> |
 

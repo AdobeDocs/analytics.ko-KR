@@ -2,9 +2,8 @@
 description: Analysis Workspace에서 여정 캔버스 시각화를 사용하여 사용자 여정, 폴아웃 및 다중 경로 전환을 분석하는 방법에 대해 알아봅니다.
 title: 여정 캔버스 문제 해결
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
