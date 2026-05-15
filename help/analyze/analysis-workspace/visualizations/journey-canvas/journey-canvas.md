@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="여정 캔버스"
->abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여 줍니다. 여러 진입점 및 경로가 있는 여정에 를 사용합니다."
+>abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여 줍니다. 여러 진입 지점과 경로가 있는 여정에 사용하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -35,7 +35,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="여정 캔버스"
->abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여 줍니다. 여러 진입점 및 경로가 있는 여정에 를 사용합니다."
+>abstract="사람들이 일련의 터치포인트를 어떻게 진행하거나 이탈하는지 보여 줍니다. 여러 진입 지점과 경로가 있는 여정에 사용하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
