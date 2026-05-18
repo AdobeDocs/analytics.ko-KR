@@ -4,10 +4,31 @@ title: Analysis Workspace의 패널 개요
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f290b859f6e41de15bc115c8f4e90b616c9a1d8c
+TQID: https://experienceleague.adobe.com/VmKuk8QK2OTHkHxEL-Ptu7qvwVnq-0a1yvqftpofHvw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2769'
-ht-degree: 42%
+source-wordcount: 2858
+ht-degree: 40%
 
 ---
 
@@ -22,7 +43,7 @@ ht-degree: 42%
 | 패널 이름 | 설명 |
 | --- | --- |
 | [빈 패널](/help/analyze/analysis-workspace/c-panels/blank-panel.md) | 사용 가능한 패널 및 시각화 중에서 선택하여 분석을 시작합니다. |
-| [속성](attribution.md) | 차원 및 전환 지표를 사용하여 여러 속성 모델을 빠르게 비교하고 시각화합니다. |
+| [속성](attribution.md) | 차원 및 전환 지표를 사용하여 여러 기여도 모델을 빠르게 비교하고 시각화합니다. |
 | [Target용 Analytics](a4t-panel.md) | Analysis Workspace에서 Target 활동 및 경험을 분석합니다. |
 | [자유 형식](freeform-panel.md) | 무제한 비교 및 분석을 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
 | [미디어 평균 분당 시청 대상자](average-minute-audience-panel.md) | 특정 콘텐츠 또는 사용자 정의된 기간 전체에 대해 평균 분당 시청 대상자를 분석합니다. |
@@ -70,7 +91,7 @@ ht-degree: 42%
   | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [도넛](/help/analyze/analysis-workspace/visualizations/donut.md) |
   | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [요약 변경](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![히스토그램](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md) |
-  | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [분산](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |
+  | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [산포도](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |
   | ![유형](/help/assets/icons/TwoDots.svg) | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) |
   | ![GraphTree](/help/assets/icons/GraphTree.svg) | [트리맵](/help/analyze/analysis-workspace/visualizations/treemap.md) |
 
@@ -85,7 +106,7 @@ ht-degree: 42%
 
 * 패널을 숨기려면 ![ChevronDown](/help/assets/icons/ChevronDown.svg)을 선택합니다.
 * 숨겨진 패널을 표시하려면 ![ChevronLeft](/help/assets/icons/ChevronLeft.svg)를 선택합니다.
-* 패널을 삭제하려면 ![CrossSize200](/help/assets/icons/CrossSize200.svg)을(를) 선택하십시오. 실행을 취소하려면 **[!UICONTROL 편집]** > **[!UICONTROL 실행 취소]**(**[!UICONTROL *cmd *+*z *]**|**[!UICONTROL * ctrl *+* z *]**)를 선택하십시오.
+* 패널을 삭제하려면 ![CrossSize200](/help/assets/icons/CrossSize200.svg)을(를) 선택하십시오. 실행을 취소하려면 **[!UICONTROL 편집]** > **[!UICONTROL 실행 취소]**(**[!UICONTROL *cmd *+*z *]**)를 선택하십시오. |**[!UICONTROL * ctrl *+* z *]**).
 * 패널을 이동하려면 ![이동](/help/assets/icons/Move.svg)이 표시될 때마다(보통 헤더 위로 마우스를 가져갈 때) 패널을 끌어서 놓습니다.
 
 
@@ -174,14 +195,14 @@ ht-degree: 42%
    ![놓기 영역에 추가 또는 바꾸기](assets/add-or-replace-to-drop-zone.png)
 
    * 선택 항목을 놓아 다음 구성 요소를 만듭니다.
-      * [을(를) 놓는 모든 세그먼트 구성 요소에 대한 &#x200B;](#segment)세그먼트❷.
-      * [을(를) 삭제한 세그먼트가 아닌 구성 요소(날짜 범위, 지표, 차원, 차원 항목)에 대한 &#x200B;](#quick-segment)빠른 세그먼트❸.
+      * ❷을(를) 놓는 모든 세그먼트 구성 요소에 대한 [세그먼트](#segment).
+      * ❸을(를) 삭제한 세그먼트가 아닌 구성 요소(날짜 범위, 지표, 차원, 차원 항목)에 대한 [빠른 세그먼트](#quick-segment).
    * 다음 구성 요소를 만들려면 **누른 상태에서**⇧(Shift) 선택 항목을 드롭하십시오.
-      * [을(를) 놓는 선택한 세그먼트에 대해 필터링할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴❹입니다.
-      * [을(를) 삭제한 선택한 날짜 범위에 대해 필터링할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴❺입니다.
-      * [을(를) 삭제한 선택한 지표에 대해 필터링할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴❻입니다.
-      * [을(를) 삭제한 선택한 차원 &#x200B;](#drop-down-menu)항목[에 대해 필터링하거나 분류할 항목이 있는 정적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴&#x200B;*또는 분류*&#x200B;드롭다운 메뉴❼.
-      * [을(를) 놓는 선택한 차원에 대해 필터링하거나 분류할 항목이 있는 동적 세그먼트 &#x200B;](#drop-down-menu)드롭다운 메뉴[&#x200B; 또는 분류 &#x200B;](#drop-down-menu)드롭다운 메뉴❽.
+      * ❹을(를) 놓는 선택한 세그먼트에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
+      * ❺을(를) 삭제한 선택한 날짜 범위에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
+      * ❻을(를) 삭제한 선택한 지표에 대해 필터링할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu)입니다.
+      * ❼을(를) 삭제한 선택한 차원 *항목*&#x200B;에 대해 필터링하거나 분류할 항목이 있는 정적 세그먼트 [드롭다운 메뉴](#drop-down-menu) 또는 분류 [드롭다운 메뉴](#drop-down-menu).
+      * ❽을(를) 놓는 선택한 차원에 대해 필터링하거나 분류할 항목이 있는 동적 세그먼트 [드롭다운 메뉴](#drop-down-menu) 또는 분류 [드롭다운 메뉴](#drop-down-menu).
 
 
 ### 세그먼트
@@ -226,16 +247,16 @@ ht-degree: 42%
 
 **⇧ 동안**&#x200B;놓는 지표, 세그먼트 또는 날짜 범위 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 이 드롭다운 메뉴를 사용하면 드롭된 구성 요소에 사용할 수 있는 항목을 기반으로 패널을 필터링할 수 있습니다.
 
-*놓는 동안*⇧ 놓는 **차원** 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 이 드롭다운 메뉴를 사용하면 드롭된 차원 항목([정적](#static) 세그먼트 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 세그먼트 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 필터링할 수 있습니다. 세그먼트를 사용하여 패널을 필터링하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
+**놓는 동안**⇧ 놓는 *차원* 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 이 드롭다운 메뉴를 사용하면 드롭된 차원 항목([정적](#static) 세그먼트 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 세그먼트 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 필터링할 수 있습니다. 세그먼트를 사용하여 패널을 필터링하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
 
-* ![분류](/help/assets/icons/Breakdown.svg)을(를) 선택하고 ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 세그먼트]** | **[!UICONTROL 구성 요소]**&#x200B;에 대한 컨텍스트 메뉴에서 패널의 데이터를 필터링❾합니다.
+* ![분류](/help/assets/icons/Breakdown.svg)를 선택하고 ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 세그먼트]**&#x200B;를 선택합니다. | **[!UICONTROL 구성 요소 ❾에 대한 컨텍스트 메뉴에서]** 패널의 데이터를 필터링합니다.
 
 
 #### 패널 분류
 
-*놓는 동안*⇧ 놓는 **차원** 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 드롭된 차원 항목([정적](#static) 분류 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 분류 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 분류하도록 드롭다운 메뉴를 구성할 수 있습니다. 분류를 사용하여 패널을 분류하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
+**놓는 동안**⇧ 놓는 *차원* 구성 요소의 경우 세그먼트 드롭다운 메뉴가 만들어집니다. 드롭된 차원 항목([정적](#static) 분류 드롭다운 메뉴) 또는 차원 구성 요소([동적](#dynamic) 분류 드롭다운 메뉴)에 사용할 수 있는 항목을 기반으로 패널을 분류하도록 드롭다운 메뉴를 구성할 수 있습니다. 분류를 사용하여 패널을 분류하도록 드롭다운 메뉴를 명시적으로 구성하려면 다음을 수행합니다.
 
-* ![필터](/help/assets/icons/Filter.svg)를 선택하고 ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]** | **[!UICONTROL 구성 요소]**&#x200B;에 대한 컨텍스트 메뉴에서 패널의 데이터 분류❾를 선택합니다.
+* ![필터](/help/assets/icons/Filter.svg)를 선택하고 ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 분류]**&#x200B;를 선택합니다. | **[!UICONTROL 구성 요소 ❾에 대한 컨텍스트 메뉴에서]** 패널의 데이터를 분류합니다.
 
 >[!IMPORTANT]
 >
@@ -250,13 +271,13 @@ ht-degree: 42%
 
 * 패널 내에서 속성 활성화 지표를 사용하는 경우 세그먼트는 종종 속성 활성화 지표를 지웁니다. 분류는 패널에 대한 데이터를 검색하기 위해 실행되는 쿼리 내의 다른 지점에 적용됩니다. 따라서 분류는 이러한 속성 활성화 지표를 지우지 않습니다.
 
-  예를 들어, **[!UICONTROL Luma: 제품 범주]** **[!UICONTROL 필터]** ![여성](/help/assets/icons/Filter.svg) 세그먼트를 사용할 때의 특성 기반 **[!UICONTROL 온라인 매출]** 지표와 **[!UICONTROL Luma: 제품 범주]** ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 여성]** 분류 간의 차이를 볼 수 있습니다.
+  예를 들어, **[!UICONTROL Luma: 제품 범주]** ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 여성]** 세그먼트를 사용할 때의 특성 기반 **[!UICONTROL 온라인 매출]** 지표와 **[!UICONTROL Luma: 제품 범주]** ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL 여성]** 분류 간의 차이를 볼 수 있습니다.
 
   ![특성 기반 지표: 필터링 대 분류](assets/attribute-filter-breakdown.png)
 
 * 분류 드롭다운 메뉴 내에서 하위 이벤트 수준 차원을 사용하는 경우 분류는 해당 하위 이벤트 수준에서 실행됩니다. 대신 세그먼트 드롭다운 메뉴 내의 세그먼트는 이벤트 수준에서 실행됩니다.
 
-  예를 들어, **[!UICONTROL Luma: 제품 하위 범주]** **[!UICONTROL 필터]** ![Tops](/help/assets/icons/Filter.svg) 세그먼트와 **[!UICONTROL Luma: 제품 하위 범주]** **[!UICONTROL 분류]** ![Tops](/help/assets/icons/Breakdown.svg) 분류를 사용할 때의 **[!UICONTROL 온라인 매출]** 지표의 차이점을 참조하십시오. 분류는 하위 이벤트 수준에서 쿼리를 명시적으로 실행하는 반면 세그먼트는 이벤트 수준에서 쿼리를 실행합니다.
+  예를 들어, **[!UICONTROL Luma: 제품 하위 범주]** ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL Tops]** 세그먼트와 **[!UICONTROL Luma: 제품 하위 범주]** ![분류](/help/assets/icons/Breakdown.svg) **[!UICONTROL Tops]** 분류를 사용할 때의 **[!UICONTROL 온라인 매출]** 지표의 차이점을 참조하십시오. 분류는 하위 이벤트 수준에서 쿼리를 명시적으로 실행하는 반면 세그먼트는 이벤트 수준에서 쿼리를 실행합니다.
 
   ![하위 이벤트 기반 지표: 필터링 대 분류](assets/sub-event-filter-breakdown.png)
 
