@@ -33,7 +33,7 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [상속된 구현 플레이북 사용](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [상속된 구현 플레이북 사용](https://video.tv.adobe.com/v/3438762?captions=kor&quality=12&learn=on){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
