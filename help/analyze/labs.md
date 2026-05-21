@@ -4,16 +4,22 @@ description: Adobe Analytics용 프로토타입 프로젝트 미리 보기
 feature: Labs
 role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+TQID: https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: 436
 ht-degree: 100%
 
 ---
 
-# [!UICONTROL Labs 사용 안내서]
+# [!UICONTROL Labs] 사용 안내서
 
-[!UICONTROL Labs]를 사용하면 초기 단계 아이디어를 더 빨리 시제품화할 수 있습니다. Labs는 도구와 프로세스의 결합으로서, 고객을 중심으로 하여 개발을 투명하게 가속화합니다. Labs를 통해 최신 기술을 이해하고 귀중한 통찰력을 얻을 수 있으며 향후 기능 개발 및 우선 순위에 영향을 줄 수 있습니다. Labs를 사용하여 Adobe Analytics의 혁신적인 기능을 일찍 액세스하고 비즈니스 사용 사례 및 데이터의 컨텍스트에서 곧 출시될 기능을 평가할 수 있습니다.
+[!UICONTROL Labs]를 사용하면 초기 단계 아이디어를 더 빨리 시제품화할 수 있습니다. Labs는 도구와 프로세스의 결합으로서, 고객을 중심으로 하여 개발을 투명하게 가속화합니다. Labs를 통해 최신 기술을 이해하고 귀중한 인사이트를 얻을 수 있으며 향후 기능 개발 및 우선 순위에 영향을 줄 수 있습니다. Labs를 사용하여 Adobe Analytics의 혁신적인 기능을 일찍 액세스하고 비즈니스 사용 사례 및 데이터의 컨텍스트에서 곧 출시될 기능을 평가할 수 있습니다.
 
 ## 요구 사항
 
@@ -25,7 +31,7 @@ ht-degree: 100%
 
 [!UICONTROL Labs]에 액세스하려면:
 
-1. [!UICONTROL 작업 공간 ] 및 [!UICONTROL Labs]에 대한 액세스 권한이 없는 경우 관리자에게 권한을 요청하십시오.
+1. [!UICONTROL 작업 영역 ] 및 [!UICONTROL Labs]에 대한 액세스 권한이 없는 경우 관리자에게 권한을 요청하십시오.
 
 1. **[!UICONTROL Labs]** 탭을 클릭합니다.
 

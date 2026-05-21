@@ -2,10 +2,16 @@
 description: AI 챗봇의 트래픽을 보고하는 방법을 이해할 수 있습니다
 title: AI 챗봇의 트래픽 분석
 feature: Metrics, Data Configuration and Collection
-source-git-commit: d16214865a037efe41b9f95682758daa577a12ed
+exl-id: 0b013b7d-02a2-405d-bdd6-c991f0baac8e
+TQID: https://experienceleague.adobe.com/lyzSP-7iZ8Y5XiTG1t7Axsg1f5AJf6BbcZbu7MmkwWU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 0%
+source-wordcount: 643
+ht-degree: 2%
 
 ---
 
@@ -57,4 +63,3 @@ Analysis Workspace의 레퍼러 유형 차원을 사용하여 다음 유형의 A
 ### 보트 감지를 사용하여 AI 트래픽 분석
 
 Analysis Workspace에서 보트 감지를 사용하여 사전 교육에서 발생하는 AI 트래픽을 분석할 수 있습니다.
-

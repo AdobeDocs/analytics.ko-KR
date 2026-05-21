@@ -1,12 +1,17 @@
 ---
-description: 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. 규칙 세트에 변수를 적용합니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다.
+description: 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. 규칙 세트에 변수를 적용합니다. 하나의 변수에 대해 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다.
 title: 분류 규칙 세트
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 89%
+source-wordcount: 407
+ht-degree: 58%
 
 ---
 
@@ -16,13 +21,13 @@ ht-degree: 89%
 
 *이 페이지에서는 [분류 규칙 빌더](classification-rule-builder.md)의 일부로 분류 규칙 집합에 대해 설명합니다. Adobe Analytics에서 데이터를 분류하는 현재 방법은 [분류 세트](../sets/overview.md)를 참조하십시오.*
 
-규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. 규칙 세트에 변수를 적용합니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다.
+규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. 규칙 세트에 변수를 적용합니다. 하나의 변수에 대해 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다.
 
 ## 분류 규칙 빌더 페이지 {#section_C60B0888C76D49C596EF19F11808B718}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 분류 규칙 빌더]**
 
-다음 필드와 옵션은 [!UICONTROL 분류 규칙 빌더]에서 사용할 수 있습니다.
+[!UICONTROL 분류 규칙 빌더]에서 다음 필드와 옵션을 사용할 수 있습니다.
 
 <table id="table_A5D92409969747E39E041216A5AA32CD"> 
  <thead> 
@@ -38,15 +43,15 @@ ht-degree: 89%
   </tr> 
   <tr> 
    <td colname="col1"> <p>규칙 </p> </td> 
-   <td colname="col2"> 세트에 포함된 규칙 수를 표시합니다. </td> 
+   <td colname="col2"> 집합에 포함된 규칙 수를 표시합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>상태 </p> </td> 
-   <td colname="col2"> 초안 또는 활성과 같은 규칙 세트의 활동 상태를 표시합니다. 활성 규칙은 매일 처리되며, 일반적으로 한 달 이전의 분류 데이터를 조사합니다. 이 규칙은 자동으로 새로운 값을 확인하고 분류를 업로드합니다. </td> 
+   <td colname="col2"> 초안 또는 활성 등 규칙 세트의 활동 상태를 표시합니다. 활성 규칙은 매일 처리되며, 일반적으로 한 달 이전의 분류 데이터를 검사합니다. 규칙은 자동으로 새 값을 확인하고 분류를 업로드합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마지막 변경 </p> </td> 
-   <td colname="col2"> 규칙 세트가 언제 편집되었는지 나타냅니다. </td> 
+   <td colname="col2"> 규칙 세트가 편집된 시기를 나타냅니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>복제 </p> </td> 
@@ -78,6 +83,6 @@ ht-degree: 89%
 
    보고서 세트 및 변수 목록은 로그인 회사의 모든 보고서 세트에서 사용할 수 있는 모든 분류된 변수로 채워집니다. 보고서 세트의 단일 변수는 하나의 규칙 세트에만 속할 수 있습니다.
 
-   자세한 내용은 *`Variable`*&#x200B;분류 규칙 빌더[&#x200B; 페이지의 정의에서 &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md)을(를) 참조하십시오.
+   자세한 내용은 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-definitions.md) 페이지의 정의에서 *`Variable`*&#x200B;을(를) 참조하십시오.
 1. 사용할 보고서 세트와 변수를 지정한 다음, **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 규칙 세트에 [분류 규칙을 추가](/help/components/classifications/crb/classification-rule-set.md)하여 계속 진행합니다.

@@ -3,10 +3,16 @@ title: 발생 횟수
 description: 변수가 설정되었거나 지속된 히트의 수입니다.
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
-source-git-commit: 0c5062363e10d9b545a3209ebaefcc6fa5d02c8b
+TQID: https://experienceleague.adobe.com/04bDCj1dkVb9gIDMbpvvGea92oOzd-N0XLfzf4t-6iA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 57%
+source-wordcount: 280
+ht-degree: 66%
 
 ---
 
@@ -25,6 +31,6 @@ ht-degree: 57%
 
 ## 지속성
 
-지속성 은 특정 차원 값과 설정된 이벤트에서 벗어난 지표의 관계를 설정할 수 있습니다. 할당과 만료의 조합을 사용합니다. 단일 열에서 한 번에 두 개 이상의 차원 항목이 지속되는 경우 할당을 통해 보존되는 값을 결정할 수 있습니다. 만료 설정을 통해 설정된 이벤트에서 벗어난 차원 항목의 지속 기간을 결정할 수 있습니다.
+지속성 은 특정 차원 값과 설정된 이벤트에서 벗어난 지표의 관계를 설정할 수 있습니다. 지속성은 할당과 만료의 조합입니다. 단일 열에서 한 번에 두 개 이상의 차원 항목이 지속되는 경우 할당을 통해 보존되는 값을 결정할 수 있습니다. 만료 설정을 통해 설정된 이벤트에서 벗어난 차원 항목의 지속 기간을 결정할 수 있습니다.
 
-지속성 은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 필터링이나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다. 지속성이 활성화되지 않은 경우 차원은 동일한 이벤트에 존재하는 지표에만 관련됩니다.
+지속성 은 차원에서만 사용할 수 있고 적용 대상 데이터에 대해 소급적입니다. 필터링이나 다른 분석 작업이 적용되기 전에 발생하는 즉각적인 데이터 변환입니다. 지속성 설정이 활성화되지 않으면 차원은 동일한 이벤트에 존재하는 지표에만 관련됩니다.

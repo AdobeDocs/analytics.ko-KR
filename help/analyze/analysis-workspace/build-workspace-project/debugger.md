@@ -5,10 +5,15 @@ feature: Workspace Basics
 title: 프로젝트 디버거
 role: User
 exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
-source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
+TQID: https://experienceleague.adobe.com/-A6Q0J2-zNTdnl-DamTjPURbBU5epwoPsAqdPoDtuvc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 3%
+source-wordcount: 466
+ht-degree: 4%
 
 ---
 
@@ -75,7 +80,7 @@ ht-degree: 3%
    * JSON (응답)
    * cURL 요청
 
-1. 요청을 클립보드에 복사하려면 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 클립보드에 복사]** cURL 요청&#x200B;**[!UICONTROL 아래의]**&#x200B;을(를) 사용합니다.
+1. 요청을 클립보드에 복사하려면 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 클립보드에 복사**[!UICONTROL  cURL 요청&#x200B;]**아래의]**&#x200B;을(를) 사용합니다.
 1. **[!UICONTROL 요청]** 또는 **[!UICONTROL 응답]** 텍스트 영역 위로 마우스를 가져간 후 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 클립보드에 복사]**&#x200B;를 선택하여 해당 텍스트 영역(XML 또는 JSON)의 내용을 클립보드에 복사합니다.
 
 1. 복사한 정보와 Adobe 지원에서 Analysis Workspace 프로젝트의 시각화 문제를 해결하기 위해 요청한 정보를 교환합니다.

@@ -3,10 +3,16 @@ title: 분류 개요
 description: 차원 항목 그룹을 사용자 정의합니다.
 feature: Classifications
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: 2e07f1b9495801383b030b2396e5468c39299f50
+TQID: https://experienceleague.adobe.com/raB90u-JEBgDroQPLC1eCSmxs4V-J7Av8Snr6oeKwvk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 71%
+source-wordcount: 309
+ht-degree: 84%
 
 ---
 
@@ -18,8 +24,8 @@ ht-degree: 71%
 
 * **이전 분류**&#x200B;는 데이터를 분류하는 이전 분류 방법을 문서화합니다. 이러한 메서드는 가까운 시일 내에 더 이상 사용되지 않으며 더 이상 액세스할 수 없습니다.
 
-   * [분류 규칙](/help/components/classifications/crb/classification-rule-builder.md): 분류 차원 항목에 주어진 차원 항목을 할당하는 규칙을 만듭니다. 데이터를 분류하는 이 방법은 차원에 새로운 고유 값이 자주 발생하거나, 수동 분류가 잦고 부담스러울 때 가장 좋습니다. 이 기능은 2027년 2월 28일 이후 더 이상 사용되지 않습니다.
+   * [분류 규칙](/help/components/classifications/crb/classification-rule-builder.md): 분류 차원 항목에 주어진 차원 항목을 할당하는 규칙을 만듭니다. 이러한 데이터 분류 방법은 차원에 새 고유 값이 자주 발생하거나 빈번한 수동 분류가 부담이 되는 경우 가장 적합합니다. 이 기능은 2027년 2월 28일 이후 더 이상 사용되지 않습니다.
 
-   * [분류 가져오기 도구](/help/components/classifications/importer/c-working-with-saint.md): 각 행의 차원 항목이 포함된 템플릿 스프레드시트를 내보냅니다. 열은 차원에 대한 각 분류를 나타냅니다. 데이터를 분류하는 이 방법은 모든 차원 항목을 알고 있으며 자주 업데이트하지 않아도 되는 경우에 가장 좋습니다. 이 기능은 2026년 8월 31일 이후 더 이상 사용되지 않습니다. 사용이 중단되면 더 이상 표준 FTP를 사용하여 분류를 가져올 수 없습니다.
+   * [분류 가져오기 도구](/help/components/classifications/importer/c-working-with-saint.md): 각 행의 차원 항목이 포함된 템플릿 스프레드시트를 내보냅니다. 열은 차원에 대한 각 분류를 나타냅니다. 이러한 데이터 분류 방법은 모든 차원 항목이 알려진 경우 가장 적합하며, 자주 업데이트할 필요가 없습니다. 이 기능은 2026년 8월 31일 이후 더 이상 사용되지 않습니다. 사용이 중단되면 더 이상 표준 FTP를 사용하여 분류를 가져올 수 없습니다.
 
 단일 차원에는 여러 분류 차원이 있을 수 있습니다. 예를 들어 제품 이름, 색상, 크기, 설명 및 SKU와 같은 추가 제품 속성을 사용하여 [!UICONTROL 제품 ID]를 분류할 수 있습니다. 이 속성 각각은 동일한 상위 차원에 속하는 별도의 분류 차원이 될 것입니다. 이러한 속성으로 보고서를 보강하면 보다 심층적이고 복잡한 보고 기회를 얻을 수 있습니다. 차원에 분류 데이터가 포함되면 분류 차원은 분류 차원 항목만 포함된 보고에 사용할 수 있습니다. 분류 값을 포함하지 않는 모든 상위 차원 항목은 [지정되지 않음](/help/technotes/unspecified.md) 아래에 그룹화됩니다.

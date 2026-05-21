@@ -3,9 +3,14 @@ title: 분류 세트 개요
 description: 분류 세트를 사용하여 분류 데이터를 관리하는 방법을 알아봅니다. 분류 세트가 이전 분류와 어떻게 다른지 이해합니다.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: e1ccd006336f10b8f843d59cfdcd220064524349
+TQID: https://experienceleague.adobe.com/e0kjSA-GjsEVp9Qd-sblXdq4uvwgcUGdmeTtrEUIOjM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: 905
 ht-degree: 100%
 
 ---

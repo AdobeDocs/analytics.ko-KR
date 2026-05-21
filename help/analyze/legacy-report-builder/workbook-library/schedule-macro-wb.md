@@ -5,10 +5,14 @@ uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
 role: User, Admin
 exl-id: 34b8ffc7-646a-4472-a99a-4b8876ea7b16
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/9LFw7NCIWaFALUD5TfCMiv2x3H7VkXf6zB4J8jyt1fk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 77%
+source-wordcount: 110
+ht-degree: 33%
 
 ---
 
@@ -22,6 +26,6 @@ Adobe Report Builder는 매크로가 활성화된 통합 문서를 예약할 수
 
 >[!IMPORTANT]
 >
->Report Builder를 사용하여 매크로가 있는 통합 문서를 예약할 수 있지만 이러한 매크로는 예약된 각 실행 중에는 적용되지 않으며 일반 Microsoft Excel 응용 프로그램 내에서 통합 문서를 열 때만 적용됩니다.
+>Report Builder를 사용하여 매크로가 있는 통합 문서를 예약할 수 있지만 이러한 매크로는 예약된 각 실행 중에는 적용되지 않으며 이 이벤트는 기본 Microsoft Excel 응용 프로그램 내에서 통합 문서가 열려 있을 때만 실행됩니다.
 
-매크로를 포함하는 예약된 통합 문서는 매크로가 활성화된 형식(.xlsm)으로만 전달할 수 있습니다. 지원되는 다른 모든 형식(xls, xlsx, pdf, word, csv 또는 txt)은 통합 문서에서 매크로를 제거하므로 사용할 수 없습니다.
+매크로가 있는 예약된 통합 문서는 매크로 사용 형식(.xlsm)으로만 배달될 수 있습니다. 지원되는 다른 모든 형식(xls, xlsx, pdf, word, csv 또는 txt)은 통합 문서에서 매크로를 제거하기 때문입니다.

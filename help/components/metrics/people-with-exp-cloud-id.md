@@ -1,22 +1,27 @@
 ---
-title: Experience Cloud ID를 가진 사용자
+title: Experience Cloud ID를 보유한 사용자
 description: Experience Cloud ID를 가진 크로스 디바이스 분석 사용자의 수.
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+TQID: https://experienceleague.adobe.com/w85poHKHnDYQ0iTItr2r26q1aRpN50AsdYzg6v82Jpk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 83%
+source-wordcount: 137
+ht-degree: 85%
 
 ---
 
-# Experience Cloud ID를 가진 사용자
+# Experience Cloud ID를 보유한 사용자
 
 ‘Experience Cloud ID를 가진 사용자’는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하여 Adobe가 확인한 [사용자](people.md) 수를 보여 주는 [크로스 디바이스 분석](../cda/overview.md) 지표입니다.
 
 ## 이 지표의 계산 방법
 
-각 [사용자](people.md)(확인되거나 미확인된)을 고려하여, 히트에 [&#x200B; 쿼리 문자열이 포함된 경우 이 &#x200B;](overview.md)지표`mid`이(가) 증가합니다([`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko) 쿠키 기반).
+각 [사용자](people.md)(확인되거나 미확인된)을 고려하여, 히트에 `mid` 쿼리 문자열이 포함된 경우 이 [지표](overview.md)이(가) 증가합니다([`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR) 쿠키 기반).
 
 ID 서비스를 사용하여 계산된 지표 `[People with ECID] ÷ [People]`을 만들어 사이트 방문자의 백분율을 구할 수 있습니다.
 

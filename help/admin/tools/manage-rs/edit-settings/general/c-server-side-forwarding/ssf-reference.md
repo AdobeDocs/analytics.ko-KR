@@ -4,10 +4,15 @@ title: 서버측 전달 데이터 및 코드 참조
 feature: Report Suite Settings
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/DuHi1F4wU6EfxGe8s9EWZ54TX7KnkN3MmAOUE8a9oqw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 97%
+source-wordcount: 561
+ht-degree: 88%
 
 ---
 
@@ -17,7 +22,7 @@ ht-degree: 97%
 
 ## 구성 변수 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-`d_*`라는 접두사가 있는 매개변수는 DCS([데이터 수집 서버](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ko-KR))에서 사용되는 특별한 시스템 수준의 키-값 쌍을 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ko-KR)을 참조하십시오.
+`d_*`라는 접두사가 있는 매개변수는 DCS([데이터 수집 서버](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ko-KR))에서 사용되는 특별한 시스템 수준의 키-값 쌍을 식별합니다. [DCS API 호출에 지원되는 특성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ko-KR)도 참조하세요.
 
 | 매개변수 | 설명 |
 |--- |--- |
@@ -28,22 +33,22 @@ ht-degree: 97%
 
 ## HTTP 헤더 {#section_0549705E76004F9585224AEF872066C0}
 
-이 헤더는 HTTP 호출에서 데이터 및 응답 요청과 같은 정보를 포함하는 필드입니다.
+이러한 헤더는 HTTP 호출의 데이터 및 응답에 대한 요청과 같은 정보를 포함하는 필드입니다.
 
 | HTTP 헤더 | 설명 | Audience Manager가 허용한 h_key |
 | --- | --- | --- |
-| 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은 `host name .demdex.net`으로 나타납니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)를 참조 하십시오. | `h_host` |
+| 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은 `host name .demdex.net`으로 나타납니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)를 참조 하십시오. | `h_host` |
 | User-Agent | Analytics에 전달된 User-Agent 헤더로 설정합니다. | `h_user-agent` |
 | Accept-Language | Analytics에 전달된 `Accept-Language` 헤더로 설정합니다. | `h_accept-language` |
 | Referer | Analytics로 전달되거나 Analytics로 전달된 `Referer` 헤더에서 수집한 페이지 URL로 설정합니다. | `h_referer` |
-| 레퍼러 | Analytics로 전달되거나 Analytics로 전달된 `Referrer` 헤더에서 수집한 페이지 URL로 설정합니다. | `h_referrer` |
+| 리퍼러 | Analytics로 전달되거나 Analytics로 전달된 `Referrer` 헤더에서 수집한 페이지 URL로 설정합니다. | `h_referrer` |
 | 날짜 | Analytics에 전달된 `Date` 헤더로 설정합니다. | `h_date` |
 
 또한 `h_ip` 시그널은 DCS에 요청을 보내는 호스트의 IP에서 수집됩니다.
 
 ## 고객 정의 신호 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-`c_` 접두사가 있는 매개변수는 고객 정의 변수를 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ko-KR)을 참조하십시오.
+`c_` 접두사가 있는 매개변수는 고객 정의 변수를 식별합니다. [DCS API 호출에 지원되는 특성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ko-KR)도 참조하세요.
 
 | 신호 | 설명 |
 | --- |--- |
@@ -54,12 +59,12 @@ ht-degree: 97%
 | `c_colorDepth` | 16비트 또는 32비트 색상으로 지정됩니다. |
 | `c_connectionType` | 연결 유형을 지정합니다. 옵션은 다음과 같습니다.<ul><li>modem</li><li>lan</li></ul> |
 | `c_contextData.*` | 예:<ul><li>AppMeasurement: `s.contextData`</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>신호: `c_contextData.category=news`</li></ul> |
-| `c_cookiesEnabled` | 쿠키를 사용할 수 있는지 여부를 지정합니다. 옵션에는 예, 아니요, 알 수 없음 이 포함됩니다. |
+| `c_cookiesEnabled` | 쿠키를 활성화할 수 있는지 여부를 지정합니다. 옵션에는 예, 아니요, 알 수 없음 이 포함됩니다. |
 | `c_currencyCode` | 거래에 사용된 통화 유형입니다. |
 | `c_evar#` | 사용자 정의 eVar |
 | `c_events` | `s.events`로 설정. |
 | `c_hier#` | 사용자 정의 계층 변수입니다. |
-| `c_javaEnabled` | Java를 사용할 수 있는지 여부를 지정합니다. 옵션에는 예, 아니요, 알 수 없음 이 포함됩니다. |
+| `c_javaEnabled` | Java를 활성화할 수 있는지 여부를 지정합니다. 옵션에는 예, 아니요, 알 수 없음 이 포함됩니다. |
 | `c_javaScriptVersion` | 브라우저가 지원하는 JavaScript 버전입니다. |
 | `c_latitude` | 숫자 위도입니다. |
 | `c_linkClick` | 옵션 포함 사항: 사용자 정의, 다운로드 종료 |
@@ -68,7 +73,7 @@ ht-degree: 97%
 | `c_linkExitURL` | 종료 링크 URL입니다. |
 | `c_list#` | 사용자 정의 목록 변수입니다. |
 | `c_longitude` | 숫자 경도입니다. |
-| `c_mediaPlayerType` | 미디어 스트림 추적 요청용입니다. 옵션: 기타, primetime |
+| `c_mediaPlayerType` | 미디어 스트림 추적 요청의 경우. 옵션: 기타, primetime |
 | `c_pageName` | 페이지 이름(설정된 경우)입니다. |
 | `c_pageURL` | 브라우저의 주소 표시줄에 있는 페이지의 주소입니다. |
 | `c_products` | 제품 문자열(`s.products`에 의해 설정됨)입니다. |

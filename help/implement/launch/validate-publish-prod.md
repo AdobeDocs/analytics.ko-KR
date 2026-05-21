@@ -4,10 +4,15 @@ description: Adobe Experience Platform 태그를 사용하여 Adobe Analytics를
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+TQID: https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 89%
+source-wordcount: 635
+ht-degree: 78%
 
 ---
 
@@ -19,13 +24,13 @@ ht-degree: 89%
 
 [개발 환경에 Adobe Analytics 배포](deploy-dev.md): 이 페이지를 따라 진행하려면 개발 환경에 Analytics 구현을 게시해야 합니다.
 
-## Experience Cloud 디버거를 사용하여 개발 구현 확인
+## CX 엔터프라이즈 디버거를 사용하여 개발 구현 확인
 
-Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그를 표시하는 확장 프로그램입니다.
+CX 엔터프라이즈 디버거는 페이지에 있는 모든 CX 엔터프라이즈 태그를 표시하는 확장 프로그램입니다.
 
 1. [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 또는 Firefox용 확장을 설치합니다.
 2. 태그를 구현한 개발 웹 사이트로 이동합니다.
-3. 브라우저에 있는 Adobe Experience Cloud 디버거 아이콘을 클릭합니다.
+3. 브라우저에서 Adobe CX Enterprise Debugger 아이콘을 클릭합니다.
 4. 모든 항목이 올바르게 구현되면 Adobe Analytics 내 콘텐츠, 태그 및 Adobe Experience Cloud 방문자 ID 서비스가 표시됩니다.
 
 ## 스테이징/프로덕션에 개발 구현 배포
@@ -47,7 +52,7 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 
 사이트의 라이브 버전에서 데이터가 표시되는지 확인하고 Adobe Analytics에 대한 공식 데이터 수집을 시작합니다.
 
-1. 웹 사이트 소유자가 프로덕션에 태그 코드를 푸시했음을 확인한 후, Chrome에서 웹 사이트 홈페이지로 이동하고 [!UICONTROL Adobe Experience Cloud Debugger]를 엽니다.
+1. 웹 사이트 소유자가 프로덕션에 태그 코드를 푸시했음을 확인한 후, Chrome에서 웹 사이트 홈페이지로 이동하고 Adobe CX 엔터프라이즈 디버거를 엽니다.
 2. 모든 기능이 작동하면 개발 환경의 테스트와 유사한 데이터가 표시됩니다. 이제 사이트에서 데이터를 수집하고 있으므로 Adobe Analytics를 사용하여 보고를 시작할 수 있습니다.
 
 ## 문제 해결

@@ -1,26 +1,31 @@
 ---
-description: 트래픽 분류를 사용하면 트래픽 변수(prop)를 분류할 수 있습니다. 트래픽 분류에는 텍스트 분류만 사용할 수 있습니다.
+description: 트래픽 분류를 사용하면 트래픽 변수(prop)를 분류할 수 있습니다. 트래픽 분류는 텍스트 분류만 사용할 수 있습니다.
 subtopic: Classifications
 title: 트래픽 분류
 feature: Admin Tools
 role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/I834qVgOoOjpjwrrX3Lmp-NvV98hxXlgJXNA9DiSpKA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: 174
+ht-degree: 64%
 
 ---
 
 # 트래픽 분류
 
-트래픽 분류를 사용하면 트래픽 변수(prop)를 분류할 수 있습니다. 트래픽 분류에는 텍스트 분류만 사용할 수 있습니다.
+트래픽 분류를 사용하면 트래픽 변수(prop)를 분류할 수 있습니다. 트래픽 분류는 텍스트 분류만 사용할 수 있습니다.
 
 ## 트래픽 분류
 
-트래픽 분류를 사용하면 트래픽 변수(prop)를 분류할 수 있습니다. 트래픽 분류에는 텍스트 분류만 사용할 수 있습니다.
+트래픽 분류를 사용하면 트래픽 변수(prop)를 분류할 수 있습니다. 트래픽 분류는 텍스트 분류만 사용할 수 있습니다.
 
-트래픽 분류 페이지에서 선택된 보고서 세트에 대한 분류를 만들 수 있습니다. 한 번 분류하면 키 데이터를 사용하여 생성할 수 있는 모든 보고서를 연관된 속성을 사용하여 생성할 수 있습니다.
+트래픽 분류 페이지를 사용하여 선택한 보고서 세트에 대한 분류를 만들 수 있습니다. 한 번 분류하면 키 데이터를 사용하여 생성할 수 있는 모든 보고서를 연관된 속성을 사용하여 생성할 수 있습니다.
 
 ## 트래픽 분류 추가
 
@@ -39,4 +44,4 @@ ht-degree: 100%
    **[!UICONTROL 이름:]** 분류 이름을 지정합니다.
 
    **[!UICONTROL 설명]**: 더 자세한 설명을 제공합니다.
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장을]** 클릭합니다.

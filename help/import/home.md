@@ -3,10 +3,15 @@ title: Analytics 가져오기 안내서
 description: 이 안내서에서는 데이터 소스 및 데이터 삽입 API를 사용하여 Analytics로 데이터를 가져오는 방법을 설명합니다.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+TQID: https://experienceleague.adobe.com/umLLEQAAmvcloxJ8HF-eWfdkZac5PHya0jKeUA8TSv4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 100%
+source-wordcount: 179
+ht-degree: 93%
 
 ---
 
@@ -32,11 +37,11 @@ ht-degree: 100%
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko)
+[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://experienceleague.adobe.com/ko?support-solution=Analytics#support)
-* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko)
-* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ko)
+* [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

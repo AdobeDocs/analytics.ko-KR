@@ -3,10 +3,16 @@ title: 데이터 보존 정책
 description: 데이터 보존 정책은 Adobe가 데이터를 저장하는 기간을 결정합니다.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+TQID: https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 95%
+source-wordcount: 617
+ht-degree: 92%
 
 ---
 
@@ -35,7 +41,7 @@ Adobe는 데이터 프로세서로서 고객이 개인의 액세스, 삭제 및 
 
 ## 현재 데이터 보존 정책 보기/관리
 
-[!UICONTROL 관리자] 도구의 데이터 거버넌스 대화 상자에서는 데이터 거버넌스용으로 구성된 보고서 세트에 대한 개요를 제공합니다. 또한 Experience Cloud 조직에 매핑되었는지 여부와 이 보고서 세트에 대한 데이터 보존 정책이 있는지 여부도 표시됩니다.
+[!UICONTROL 관리자] 도구의 데이터 거버넌스 대화 상자에서는 데이터 거버넌스용으로 구성된 보고서 세트에 대한 개요를 제공합니다. 또한 CX 엔터프라이즈 조직에 매핑되었는지 여부와 이 보고서 세트에 대한 데이터 보존 정책이 있는지 여부도 표시됩니다.
 
 ## 자주 묻는 질문
 

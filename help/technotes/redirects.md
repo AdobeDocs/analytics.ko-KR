@@ -4,10 +4,15 @@ keywords: Analytics 구현
 title: 리디렉션 및 별칭
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 99%
+source-wordcount: 1139
+ht-degree: 83%
 
 ---
 
@@ -19,13 +24,13 @@ ht-degree: 99%
 
 리디렉션은 사용자 상호 작용 없이 브라우저를 새 위치로 지정합니다. 리디렉션은 웹 브라우저 (클라이언트측 리디렉션) 또는 웹 서버 (서버측 리디렉션)에서 실행됩니다.
 
-리디렉션은 사용자 조정이 필요 없으므로, 종종 사용자도 모르게 리디렉션이 실행됩니다. 리디렉션이 발생했음을 나타내는 유일한 단서는 브라우저의 주소 표시줄입니다. 주소 표시줄이 브라우저가 초기에 요청한 링크와 다른 URL을 표시합니다.
+리디렉션은 사용자 상호 작용이 필요하지 않으므로 사용자가 알지 못하는 경우에도 리디렉션이 실행되는 경우가 많습니다. 리디렉션이 발생했음을 나타내는 유일한 것은 브라우저의 주소 표시줄입니다. 주소 표시줄에 브라우저가 처음 요청한 링크와 다른 URL이 표시됩니다.
 
-두 가지 유형의 리디렉션만 있더라도, 다양한 방법으로 리디렉션을 구현할 수 있습니다. 예를 들어 사용자가 자신의 브라우저를 향해 있는 웹 페이지에는 브라우저를 다른 URL로 리디렉션하는 스크립팅 또는 특수 HTML 코드가 들어 있으므로 클라이언트측 리디렉션이 발생할 수 있습니다. 서버측 리디렉션은 페이지가 서버측 스크립팅을 포함하거나 사용자가 다른 URL로 향하도록 웹 서버가 구성되었기 때문에 발생할 수 있습니다.
+리디렉션의 유형은 두 가지에 불과하지만, 다양한 방식으로 구현될 수 있습니다. 예를 들어 사용자가 자신의 브라우저를 향해 있는 웹 페이지에는 브라우저를 다른 URL로 리디렉션하는 스크립팅 또는 특수 HTML 코드가 들어 있으므로 클라이언트측 리디렉션이 발생할 수 있습니다. 페이지에 서버측 스크립팅이 포함되어 있거나 웹 서버가 사용자를 다른 URL로 안내하도록 구성되었기 때문에 서버측 리디렉션이 발생할 수 있습니다.
 
 ## Analytics 및 리디렉션 {#aa-redirects}
 
-[!DNL Analytics]는 브라우저에서 일부 데이터를 수집하고 특정 브라우저 속성에 의존합니다. 이러한 속성 중 &quot;참조 URL&quot; (또는 &quot;레퍼러&quot;)과 &quot;현재 URL&quot; 속성은 서버측 리디렉션으로 변경될 수 있습니다. 브라우저는, 한 URL이 요청되었지만 다른 URL이 반환되었음을 인식하므로, 참조 URL을 지웁니다. 그 결과, 참조 URL은 공백이 되고, [!DNL Analytics]가 페이지에 대한 레퍼러가 없음을 보고할 수 있습니다.
+[!DNL Analytics]는 브라우저에서 일부 데이터를 수집하고 특정 브라우저 속성에 의존합니다. 이러한 속성 중 &quot;참조 URL&quot; (또는 &quot;레퍼러&quot;)과 &quot;현재 URL&quot; 속성은 서버측 리디렉션으로 변경될 수 있습니다. 브라우저는 한 URL이 요청되었지만 다른 URL이 반환되었음을 인식하기 때문에 참조 URL이 지워집니다. 그 결과, 참조 URL은 공백이 되고, [!DNL Analytics]가 페이지에 대한 레퍼러가 없음을 보고할 수 있습니다.
 
 ## 예: 리디렉션 없이 찾아보기 {#browse-without}
 
@@ -38,7 +43,7 @@ ht-degree: 99%
 
 ## 예: 리디렉션을 사용하여 찾아보기 {#browse-with}
 
-리디렉션으로 인해 브라우저는 실제 참조 URL을 완전히 지울 수 있습니다. 다음 시나리오를 참조하십시오.
+리디렉션으로 인해 브라우저가 실제 참조 URL을 비워둘 수 있습니다. 다음 시나리오를 참조하십시오.
 
 1. 사용자는 브라우저가 `https://www.google.com`을 가리키게 하고 검색 필드에 *할인 항공 티켓*&#x200B;을 입력한 다음 **[!UICONTROL 검색]** 버튼을 클릭합니다.
 1. 브라우저 창의 주소 표시줄에 사용자가 검색 필드에 입력한 검색어 (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다. 또한 브라우저는 도메인 이름 중 하나 ( [!DNL https://www.flytohawaii.example/] )에 대한 링크를 포함하는 검색 결과를 포함하는 페이지를 표시합니다. *vanity* 도메인은 사용자를 `https://www.example.com/` 으로 리디렉션하도록 구성되었습니다.
@@ -46,7 +51,7 @@ ht-degree: 99%
 
 ## 구현 리디렉션 {#implement}
 
-리디렉션에서 [!DNL Analytics]&#x200B;[!DNL AppMeasurement] 데이터를 캡처하려면 리디렉션 및 JavaScript용 파일을 만드는 코드에 대해 4가지 사항을 조정해야 합니다.
+리디렉션에서 [!DNL Analytics][!DNL AppMeasurement] 데이터를 캡처하려면 리디렉션 및 JavaScript용 파일을 만드는 코드에 대해 4가지 사항을 조정해야 합니다.
 
 다음 단계를 완료하면 원래 레퍼러 (예: 위의 시나리오에서 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 사용자 사이트에 전달하는 정보는 그대로 유지됩니다.
 
@@ -117,14 +122,14 @@ s.pageURL="https://www.flytohawaii.example"
 
 테스트를 실행하여 레퍼러, 원래 URL (*`s_server`*) 및 캠페인 변수가 캡처되고 있는지 확인합니다.
 
-이러한 변수는 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)에 다음 매개 변수로 표현되지 않습니다.
+이러한 변수는 [CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)에서 다음 매개 변수로 표시됩니다.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
   <tr> 
    <th class="entry"> </th> 
    <th class="entry"> <b>URL 또는 쿼리 문자열 값</b> </th> 
-   <th class="entry"> <b>DigitalPulse Debugger에 표시된 값</b> </th> 
+   <th class="entry"> <b>DigitalPulse 디버거에 표시된 값</b> </th> 
   </tr> 
  </thead>
  <tbody> 

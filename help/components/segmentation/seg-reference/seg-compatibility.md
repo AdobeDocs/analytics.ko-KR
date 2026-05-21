@@ -3,10 +3,15 @@ description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Wareho
 title: Data Warehouse 세그먼트 호환성
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+TQID: https://experienceleague.adobe.com/7CrArNYD-8ZXVpfO86d1l42ySkTuv8V04PWJFeNWx3s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 80%
+source-wordcount: 345
+ht-degree: 66%
 
 ---
 
@@ -26,7 +31,7 @@ ht-degree: 80%
   <tr> 
    <td > <b>컨테이너 제외</b> </td> 
    <td> 모든 수준에서 지원됨 </td> 
-   <td> 최상위 수준의 특수 경우에만 지원됨 </td> 
+   <td> 최상위 수준의 특별한 경우에만 지원됨 </td> 
   </tr> 
   <tr> 
    <td> <b>순차적 세그먼트</b> </td> 
@@ -34,12 +39,12 @@ ht-degree: 80%
    <td> 지원되지 않음 </td> 
   </tr> 
   <tr> 
-   <td> <b>AND 및 OR은 제한없이 조합할 수 있음</b> </td> 
+   <td> <b>AND와 OR은 제한 없이 결합할 수 있습니다</b> </td> 
    <td> 지원됨 </td> 
    <td> 일부 제한 적용. 테이블 아래의 *참고*를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td> <b>중첩 컨테이너</b> </td> 
+   <td> <b>중첩된 컨테이너</b> </td> 
    <td> 지원됨 </td> 
    <td> 일부 제한 적용 (범위가 감소해야 함. 예를 들어 방문자는 히트를 포함할 수 있지만 그 반대는 가능하지 않음) </td> 
   </tr> 
@@ -48,8 +53,8 @@ ht-degree: 80%
    <td>세그먼트 빌더의 <span class="uicontrol"> 정의</span> 필드로 차원을 끌어다 놓아 제품 호환성을 확인합니다. 예를 들어 다음 차원은 Analysis Workspace, Reports &amp; Analytics에서만 지원됩니다. 
     <ul> 
      <li>시작 서버 </li> 
-     <li>시작 카테고리 </li> 
-     <li>시작 날짜 </li> 
+     <li>시작 범주 </li> 
+     <li>입력 일자 </li> 
      <li>모든 검색 페이지 등급 </li> 
     </ul> </td> 
    <td> 세그먼트 빌더의 <span class="uicontrol"> 정의</span> 필드로 차원을 끌어다 놓아 제품 호환성을 확인합니다. 예를 들어 다음 차원은 Data Warehouse에서만 지원됩니다. 
@@ -62,16 +67,16 @@ ht-degree: 80%
     <ul> 
      <li>모든 검색 페이지 등급 </li> 
      <li>오전/오후 </li> 
-     <li>날짜(월 기준) </li> 
+     <li>날짜 (월 기준) </li> 
      <li>요일 </li> 
      <li>일(한 해 기준) </li> 
-     <li>비즈니스 단위 입력 </li> 
+     <li>입력 비즈니스 단위 </li> 
      <li>입력 (입력으로 시작하는 모든 차원, 시작 페이지 제외) </li> 
      <li>종료 (종료로 시작하는 모든 차원, 종료 링크 및 종료 페이지 제외) </li> 
      <li>계층 (계층으로 시작하는 모든 차원) </li> 
      <li>히트 깊이 </li> 
      <li>히트 유형 </li> 
-     <li>시간(일) </li> 
+     <li>시간 </li> 
      <li>월(연 기준) </li> 
      <li>페이지를 찾을 수 없음 </li> 
      <li>유료 검색 </li> 
@@ -99,4 +104,4 @@ ht-degree: 80%
  </tbody> 
 </table>
 
-*참고: Data Warehouse는 `AND/OR`을 사용할 때 `exclusion` 또는 `without` 컨테이너를 사용하는 모든 경우를 지원하지는 않습니다. 이러한 조합을 사용하는 경우 Data Warehouse에서는 `A AND NOT B` (또는&#x200B;**이 특성을 포함**&#x200B;하고&#x200B;**이 특성을 제외**)로 다시 쓸 수 있는 세그먼트만 지원합니다.*
+*참고: Data Warehouse는 `AND/OR`을 사용할 때 `exclusion` 또는 `without` 컨테이너를 사용하는 모든 경우를 지원하지는 않습니다. 이러한 조합을 사용하는 경우 Data Warehouse에서는 `A AND NOT B` (또는&#x200B;**이 특성을 포함**하고&#x200B;**이 특성을 제외**)로 다시 쓸 수 있는 세그먼트만 지원합니다.*

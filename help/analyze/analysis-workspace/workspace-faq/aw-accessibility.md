@@ -4,13 +4,18 @@ title: Analysis Workspace 액세스 가능 여부
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/qT9P5156x2J9nRupDY-fgf6ArTnhIPvSg88YyKfQ9n4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: 547
 ht-degree: 100%
 
 ---
-
 
 # Analysis Workspace 액세스 가능 여부
 
@@ -35,7 +40,7 @@ Customer Journey Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspac
 * **[!UICONTROL F6]** 키는 프로젝트의 첫 번째 패널로 이동하고 해당 패널 내의 시각화 간에 이동합니다. 그런 다음 프로젝트의 다음 패널로 이동하여 반복합니다.
 * 보이는 키보드 사용자가 현재 포커스가 있는 UI 요소를 명확하게 나타낼 수 있도록 포커스 표시기가 적용됩니다. 표시기에는 포커스가 있는 패널에 파란색 테두리가 표시됩니다. 최근 선택한 기능과 기능 내 선택 항목에 회색 배경이 표시됩니다. 예시에서 최근 [!UICONTROL 구성 요소] 및 페이지 차원이 선택되었습니다.
 
-  ![Freeform table showing a focus ndicator of a blue border around the Freeform table.](assets/focus-indicator.png)
+  ![자유 형식 테이블 showing a focus ndicator of a blue border around the 자유 형식 테이블.](assets/focus-indicator.png)
 
 ### 메뉴 모음의 키보드 탐색
 

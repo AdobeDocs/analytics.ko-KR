@@ -3,10 +3,16 @@ title: 모바일 조회 차원
 description: 디바이스의 IP 주소 및 사용자 에이전트를 기반으로 하는 차원입니다.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+TQID: https://experienceleague.adobe.com/X80x0MIx5gd16J20VU37fNSExDO2NSXPrHR8EKqsMqw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 100%
+source-wordcount: 961
+ht-degree: 98%
 
 ---
 
@@ -26,7 +32,7 @@ ht-degree: 100%
 이러한 차원의 가용성은 구현 유형에 따라 다릅니다.
 
 * AppMeasurement 구현의 경우 이러한 차원은 즉시 작동합니다.
-* Web SDK 구현의 경우 [ 데이터스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)할 때 [!UICONTROL 지역 조회] (이동통신사) 또는 [!UICONTROL 디바이스 조회] (다른 모든 차원)를 활성화하십시오.
+* Web SDK 구현의 경우 [ 데이터스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)할 때 [!UICONTROL 지역 조회] (이동통신사) 또는 [!UICONTROL 디바이스 조회] (다른 모든 차원)를 활성화하십시오.
 
 ## 모바일 차원 설명
 
@@ -54,7 +60,7 @@ ht-degree: 100%
 * **[!UICONTROL 모바일 운영 체제(사용 중지)]**: 대신 [운영 체제](operating-systems.md) 차원을 사용하십시오.
 * **[!UICONTROL 모바일 대화 푸시]**: 모바일 디바이스가 양방향 라디오와 유사하게 작동할 수 있도록 해 주는 PTT(Push to Talk)를 디바이스가 지원하는지 여부를 결정합니다. 최신 디바이스는 일반적으로 이 기능을 보고하지 않습니다.
 * **[!UICONTROL 모바일 화면 높이]**: 화면의 픽셀 단위 높이입니다. iPhone은 iPhone 디바이스 버전을 확인할 수 없어서 항상 `"480"`을 보고합니다. iPhone 디바이스 버전 확인에 대해서는 아래 섹션을 참조하십시오.
-* **[!UICONTROL 모바일 화면 크기]**: 모바일 디바이스의 픽셀 단위 전체 크기입니다. 보고된 화면 크기는 디바이스의 방향을 의미하지 않습니다. 화면 방향과 상관없이 각 디바이스는 보고서에서 화면 해상도를 고정했습니다. 이 크기는 좀 더 가능성이 있는 방향을 결정하는 연구에 기반을 두고 있습니다. 각각의 크기가 하나 이상의 각기 다른 디바이스를 나타내는 동일한 보고서에서 `"768x1024"` 및 `"1024x768"`과 같은 크기를 볼 수 있습니다.
+* **[!UICONTROL 모바일 화면 크기]**: 모바일 디바이스의 픽셀 단위 전체 크기입니다. 보고된 화면 크기는 디바이스의 방향을 의미하지 않습니다. 화면 방향과 상관없이 각 디바이스는 보고서에서 화면 해상도를 고정했습니다. 이 크기는 어떤 방향성이 더 가능성이 높은지를 결정하는 연구를 기반으로 한다. 각각의 크기가 하나 이상의 각기 다른 디바이스를 나타내는 동일한 보고서에서 `"768x1024"` 및 `"1024x768"`과 같은 크기를 볼 수 있습니다.
 * **[!UICONTROL 모바일 화면 너비]**: 화면의 픽셀 단위 너비입니다.
 * **[!UICONTROL 모바일 비디오 지원]**: 모바일 디바이스가 지원하는 비디오 파일 형식 및 코덱입니다. MP4 및 3GPP 파일의 다양한 코덱에 대해 여러 차원 항목이 존재합니다. 이 차원의 값은 함께 사용할 수 있습니다. 단일 히트가 여러 차원 항목에 기여할 수 있습니다.
 

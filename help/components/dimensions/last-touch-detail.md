@@ -3,9 +3,14 @@ title: 마지막 터치 채널 세부 사항
 description: 방문자의 참여 만료 내 가장 최근 마케팅 채널에 대한 세부 사항입니다.
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/bVZVCTQQ1tZVB0qF9fxeCU1Ec6bjcspymoyOY-AQATU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 327
 ht-degree: 80%
 
 ---
@@ -29,4 +34,4 @@ ht-degree: 80%
 
 Dimension 항목은 해당 마케팅 채널 처리 규칙의 드롭다운 목록에 나열된 채널 값에 따라 다릅니다. 예를 들어 채널의 값을 &#39;페이지 URL&#39;로 설정하면 차원 항목에 사이트의 페이지 URL이 포함됩니다. 채널의 값을 참조 도메인으로 설정하면, 차원 항목에는 방문자가 사이트에 액세스하기 위해 클릭스루한 도메인이 포함됩니다. 이 차원은 차원 항목이 속한 채널에 관계없이 모든 세부 차원 값을 집계합니다.
 
-채널 세부 정보에 대한 통찰력을 위해 마케팅 채널과 관련된 채널 값을 설정하는 것이 좋습니다.
+채널 세부 정보에 대한 인사이트를 위해 마케팅 채널과 관련된 채널 값을 설정하는 것이 좋습니다.

@@ -4,9 +4,15 @@ description: Adobe Analytics가 제공하는 구성 요소와 Analysis Workspace
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
+TQID: https://experienceleague.adobe.com/JSXJRs6kWPgiKkG2Gp0ElMAb9fnEFxAQ9jyigwUZssQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79eid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 941
 ht-degree: 100%
 
 ---
@@ -64,7 +70,7 @@ Analysis Workspace의 **[!UICONTROL 구성 요소]** 메뉴를 사용하여 새 
 
    | 구성 요소 작업 | 설명 |
    |--- |--- |
-   | ![레이블](/help/assets/icons/Label.svg) [!UICONTROL **태그**] | 구성 요소에 태그를 적용하여 구성 요소를 구성하거나 관리합니다. 그런 다음 ![Filter](/help/assets/icons/Filter.svg) 필터를 선택하거나 `#`을 입력하여 왼쪽 패널에서 태그로 검색할 수 있습니다. 태그는 구성 요소 관리자에서 필터 역할도 합니다. |
+   | ![레이블](/help/assets/icons/Label.svg)[!UICONTROL **태그**] | 구성 요소에 태그를 적용하여 구성 요소를 구성하거나 관리합니다. 그런 다음 ![Filter](/help/assets/icons/Filter.svg) 필터를 선택하거나 `#`을 입력하여 왼쪽 패널에서 태그로 검색할 수 있습니다. 태그는 구성 요소 관리자에서 필터 역할도 합니다. |
    | ![Star](/help/assets/icons/Star.svg) [!UICONTROL **즐겨찾기**] | 구성 요소를 즐겨찾기 목록에 추가합니다. 태그와 마찬가지로 왼쪽 패널에서 즐겨찾기로 검색하고 구성 요소 관리자에서 즐겨찾기별로 필터링할 수 있습니다. |
    | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL 즐겨찾기에서 제거]** | 즐겨찾기 목록에서 구성 요소를 제거합니다. |
    | ![체크 표시](/help/assets/icons/Checkmark.svg) [!UICONTROL **승인**] | 구성 요소를 승인됨으로 표시하여 해당 구성 요소가 조직에서 승인되었음을 사용자에게 알립니다. 태그와 마찬가지로 왼쪽 패널에서 승인됨으로 검색하고 승인됨별로 필터링할 수 있습니다. ![체크 표시](/help/assets/icons/Checkmark.svg)는 승인된 구성 요소를 식별합니다. |

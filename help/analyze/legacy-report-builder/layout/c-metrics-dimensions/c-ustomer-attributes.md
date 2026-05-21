@@ -1,13 +1,17 @@
 ---
-description: 사용자 특성은 VisAttr이라는 새로운 유형의 요소에 저장되며 이것은 차원이나 지표로 구성할 수 있습니다.
+description: 고객 속성은 VisAttr이라는 새로운 유형의 요소에 저장되며 이것은 차원이나 지표로 구성할 수 있습니다.
 title: 고객 속성
 feature: Report Builder
 role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/J-KoYBPg-bECW1utOk2L0YLtBWd9-jHT6gwAEm54fs4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 83%
+source-wordcount: 135
+ht-degree: 69%
 
 ---
 
@@ -15,9 +19,9 @@ ht-degree: 83%
 
 {{legacy-arb}}
 
-사용자 특성은 VisAttr이라는 새로운 유형의 요소에 저장되며 이것은 차원이나 지표로 구성할 수 있습니다.
+고객 속성은 VisAttr이라는 새로운 유형의 요소에 저장되며 이것은 차원이나 지표로 구성할 수 있습니다.
 
-사용자 특성을 업로드하는 방법에 대한 자세한 내용은 [Experience Cloud 도움말](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko)을 참조하십시오.
+고객 특성을 업로드하는 방법에 대한 자세한 내용은 [CX Enterprise 도움말](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
 
 * 지표로 구성된 경우 VisAttr은 지표와 &quot;차원&quot;으로 모두 노출됩니다.
 

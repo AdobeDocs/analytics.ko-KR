@@ -5,20 +5,24 @@ uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
 role: User, Admin
 exl-id: b3f71fd2-4081-4eaa-a9d6-4007446c1802
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/KnIi9Ft8W-7GV1Wkgs3Yj6QW-Y7eTktRmWhhPAJEYGI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 70%
+source-wordcount: 91
+ht-degree: 14%
 
 ---
 
-# 사용자 지정 레이아웃 구성
+# 사용자 정의 레이아웃 구성
 
 {{legacy-arb}}
 
-사용자 지정 레이아웃에서는 피벗 레이아웃이 가지고 있는 대부분의 기능을 사용할 수 있지만, 스프레드시트에서 그리드에 있는 각 항목을 찾아야 하는 위치를 선택할 수도 있습니다. 이 레이아웃에서는 분류 및 마이크로차트 추가를 비롯하여 이전 릴리스에서 사용할 수 있는 유연성을 이용할 수 있습니다.
+사용자 지정 레이아웃은 피벗 레이아웃의 대부분의 기능을 제공하지만, 이를 사용하여 스프레드시트에서 그리드의 각 항목을 배치할 위치를 선택할 수 있습니다. 이 레이아웃은 분류 및 마이크로차트 추가를 포함하여 이전 릴리스에서 사용할 수 있는 유연성을 제공합니다.
 
-다음 항목들은 [!UICONTROL 사용자 지정 레이아웃]에만 해당합니다.
+다음 항목은 [!UICONTROL 사용자 지정 레이아웃]에 고유합니다.
 
 * [지표 및 차원을 셀에 매핑](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
 * [마이크로차트 만들기](/help/analyze/legacy-report-builder/layout/t-create-a-microchart.md)

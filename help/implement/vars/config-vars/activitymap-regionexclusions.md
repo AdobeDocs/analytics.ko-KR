@@ -4,10 +4,14 @@ description: 지역별로 Activity Map 데이터를 필터링합니다.
 role: Admin, Developer
 feature: Appmeasurement Implementation
 exl-id: 353282aa-860c-45dc-a6b0-8d9f1fa09f13
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/zUbYze30ROCQXroX3h85fwC-YMzJDyTKpnMgealhAZA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 13%
+source-wordcount: 198
+ht-degree: 18%
 
 ---
 
@@ -21,7 +25,7 @@ ht-degree: 13%
 
 ## 웹 SDK JavaScript 라이브러리의 영역 제외
 
-[`clickCollectionEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)이(가) 활성화되면 `filterClickDetails` 개체에서 `clickCollection` 콜백을 사용합니다. 이 콜백 내에서 `linkRegion`의 값을 확인하고 값을 변경하거나 링크 추적 데이터 수집을 중단할 수 있습니다.
+[`clickCollectionEnabled`](https://experienceleague.adobe.com/kr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)이(가) 활성화되면 `clickCollection` 개체에서 `filterClickDetails` 콜백을 사용합니다. 이 콜백 내에서 `linkRegion`의 값을 확인하고 값을 변경하거나 링크 추적 데이터 수집을 중단할 수 있습니다.
 
 ```js
 alloy("configure", {

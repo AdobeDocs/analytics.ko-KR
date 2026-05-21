@@ -4,10 +4,16 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트와 다중 세트 태깅 고려 사항
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5id: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 79%
+source-wordcount: 1657
+ht-degree: 72%
 
 ---
 
@@ -17,7 +23,7 @@ ht-degree: 79%
 
 대부분의 경우 가상 보고서 세트를 사용하여 다중 세트 태깅을 바꿀 수 있습니다. 가상 보고서 세트로 전환하면 [보조 서버 호출](/help/admin/tools/server-call-usage/overage-overview.md)에 대한 필요성을 효과적으로 제거할 수 있습니다. 예를 들어 조직에 6개의 서로 다른 웹 사이트가 있고, 각 웹 사이트가 데이터를 자체 보고서 세트 및 통합 글로벌 보고서 세트에 보내는 경우, 각 사이트는 보조 서버 호출을 발생시킵니다. 하나를 개별 브랜드 보고서 세트에 보내고, 두 번째를 글로벌 보고서 세트에 보냅니다. 대신에, 모든 사이트에서 오로지 글로벌 보고서 세트로만 데이터를 보낸 다음, 여러 가상 보고서 세트를 사용하여 각 브랜드를 분리할 수 있습니다.
 
-다중 세트 태깅을 글로벌 보고서 세트 및 가상 보고서 세트로 대체하면 Adobe Analytics 구현을 단순화하고 서버 호출 소비를 줄일 수 있으므로 모범 사례로 권장됩니다. 그러나 가상 보고서 세트의 몇 가지 중요한 제한 사항이 있습니다. 다음 지침은 글로벌 보고서 세트에 빌드된 가상 보고서 세트를 구현하는 것이 적합한 방식인지를 정하는 데 도움이 될 수 있습니다.
+다중 세트 태깅을 글로벌 보고서 세트 및 가상 보고서 세트로 대체하면 Adobe Analytics 구현을 단순화하고 서버 호출 소비를 줄일 수 있으므로 모범 사례로 권장됩니다. 그러나 가상 보고서 세트의 몇 가지 중요한 제한 사항이 있습니다. 다음 지침은 글로벌 보고서 세트를 기반으로 가상 보고서 세트를 구현하는 것이 자신에게 적합한 접근 방식인지 여부를 결정하는 데 도움이 될 수 있습니다.
 
 ## 지침
 
@@ -25,11 +31,11 @@ ht-degree: 79%
 
 다중 세트 태깅 또는 가상 보고서 세트를 사용해야 하는지 결정할 때에는 다음 사항을 고려하십시오.
 
-### Adobe Experience Cloud에 세그먼트 게시
+### Adobe CX Enterprise에 세그먼트 게시
 
-가상 보고서 세트에서 Adobe Experience Cloud에 세그먼트를 공유하는 기능은 지원되지 않습니다. Experience Cloud에 세그먼트를 공유하려는 사용자는 소스 보고서 세트에 액세스할 수 있어야 합니다.
+가상 보고서 세트에서는 Adobe CX Enterprise에 세그먼트를 공유할 수 없습니다. CX Enterprise에 세그먼트를 공유하려는 사용자는 소스 보고서 세트에 액세스할 수 있어야 합니다.
 
-아직은 개인화 및 타기팅을 위해 세그먼트를 가상 보고서 세트에서 Adobe Experience Cloud에 게시할 수 없습니다. 이러한 목적을 위해서는 세그먼트를 게시하는 모든 사용자가 소스 보고서 세트에 액세스해야 합니다. 예를 들어 지리적 영역에 대한 데이터에만 액세스할 수 있는 사용자가 Adobe Target에 타기팅할 세그먼트를 Adobe Analytics에서 만들고 Adobe Experience Cloud에 공유하도록 할 수 있습니다. 이 경우 다중 세트 태깅을 사용하는 것이 좋습니다. 사용자가 글로벌 보고서 세트에 액세스할 수 있어도 괜찮거나 다른 솔루션에서 사용할 세그먼트를 게시할 필요가 없는 경우 가상 보고서 세트를 사용할 수 있습니다.
+아직은 개인화 및 타깃팅을 위해 세그먼트를 가상 보고서 세트에서 Adobe CX Enterprise에 게시할 수 없습니다. 이러한 목적을 위해서는 세그먼트를 게시하는 모든 사용자가 소스 보고서 세트에 액세스해야 합니다. 예를 들어 지리적 영역에 대한 데이터에만 액세스할 수 있는 사용자가 Adobe Target에서 타깃팅할 세그먼트를 Adobe Analytics에서 Adobe CX Enterprise로 만들고 공유하도록 할 수 있습니다. 이 경우 다중 세트 태깅을 사용하는 것이 좋습니다. 사용자가 글로벌 보고서 세트에 액세스할 수 있어도 괜찮거나 다른 솔루션에서 사용할 세그먼트를 게시할 필요가 없는 경우 가상 보고서 세트를 사용할 수 있습니다.
 
 ### 고유(낮은 트래픽) 제한
 

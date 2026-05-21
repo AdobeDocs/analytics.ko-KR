@@ -5,9 +5,14 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/x5ln-HzjHf2kK-mmCJxoLHxbkzox7BpN2i-G5-oAsc8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: 727
 ht-degree: 73%
 
 ---
@@ -46,7 +51,7 @@ ht-degree: 73%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 맵 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전에 대한 [맵](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/map)을 참조하십시오._
+_이 문서에서는 맵 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [맵](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +68,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 맵 시각화](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 맵 시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -98,7 +103,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
       * *퍼센트* 유형의 지표를 사용하면 클러스터링에서 백분율의 평균을 함께 계산합니다.
       * 녹색/빨간색 구성표: 양수/음수
 
-   * **Ctrl 키를 누른 채 맵을 이동하여 2D 또는 3D로 맵을 회전**&#x200B;합니다.
+   * **Ctrl] 키를 누른 채 맵을 이동하여 2D 또는 3D로 맵을 회전**&#x200B;합니다.[!UICONTROL 
 
    * **전환** - 아래 설명된 [설정](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)을 사용하여 히트맵(열 지도)과 같은 다른 보기로 전환할 수 있습니다. 버블 보기가 기본 설정입니다.
 
@@ -132,7 +137,7 @@ Analysis Workspace의 ![세계](/help/assets/icons/Globe.svg) **[!UICONTROL 맵]
 
 Here is a video on the topic:
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 

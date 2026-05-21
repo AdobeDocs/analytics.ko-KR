@@ -1,13 +1,19 @@
 ---
-description: 실시간 요청 날짜를 구성하는 방법을 설명하는 단계.
+description: 실시간 요청 날짜를 구성하는 방법을 설명하는 단계입니다.
 title: 실시간 요청 구성
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/qXZLxRetXZPviC02dJfP58Q9EXRjo0gXA-8EEJt5p4U
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 80%
+source-wordcount: 120
+ht-degree: 35%
 
 ---
 
@@ -26,5 +32,5 @@ ht-degree: 80%
 
    ![최근 60분이 선택된 시간 범위 선택 옵션을 보여 주는 스크린샷입니다.](assets/real_time_select_date.png)
 
-   실시간 보고는 지난 20시간 동안에만 사용할 수 있습니다. 세부기간의 경우 1분에서 30분까지 선택하는 옵션이 있습니다.
+   실시간 보고는 지난 20시간 동안만 사용할 수 있습니다. 세부 기간의 경우 1분 세부 기간에서 30분을 선택할 수 있습니다.
 1. **[!UICONTROL 다음]**&#x200B;을 클릭하고 [요청 레이아웃 구성](/help/analyze/legacy-report-builder/layout/layout.md)을 계속합니다.

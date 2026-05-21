@@ -4,10 +4,15 @@ keywords: Analysis Workspace
 title: 폴더 관리
 feature: Workspace Basics
 exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+TQID: https://experienceleague.adobe.com/hRmCSe6CBQX68BmeF53-xK65ZHSXFhNnt5QYw-hRQ-Q
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 86%
+source-wordcount: 431
+ht-degree: 81%
 
 ---
 
@@ -24,13 +29,13 @@ Workspace에서 폴더 이름을 바꾸는 방법:
 * [프로젝트 목록](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)에서 이름을 바꾸려는 폴더를 선택합니다.
 
    1. 선택한 폴더의 ![More](/help/assets/icons/More.svg) 컨텍스트 메뉴 또는 파란색 작업 표시줄에 제공되는 [액션](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)에서 **[!UICONTROL 이름 바꾸기]**&#x200B;를 선택합니다.
-   1. **[!UICONTROL 이름 바꾸기: *폴더 이름&#x200B;*]**&#x200B;대화 상자에서 이름을 새로 입력하고&#x200B;**[!UICONTROL 저장&#x200B;]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL 이름 바꾸기: *폴더 이름&#x200B;*]**대화 상자에서 이름을 새로 입력하고**[!UICONTROL 저장&#x200B;]**을 선택합니다.
 
 * 이름을 바꾸려는 폴더 내부.
 
    1. [제목 영역](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)의 ![More](/help/assets/icons/More.svg)에서 **[!UICONTROL 폴더 이름 바꾸기]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL 이름 바꾸기: *폴더 이름&#x200B;*]**&#x200B;대화 상자에서 이름을 새로 입력하고&#x200B;**[!UICONTROL 저장&#x200B;]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL 이름 바꾸기: *폴더 이름&#x200B;*]**대화 상자에서 이름을 새로 입력하고**[!UICONTROL 저장&#x200B;]**을 선택합니다.
 
 
 ## 폴더 이동
@@ -70,13 +75,13 @@ Workspace에서 폴더를 삭제하려면
 
    1. 선택한 폴더의 ![More](/help/assets/icons/More.svg) 컨텍스트 메뉴 또는 파란색 작업 표시줄에 제공되는 [액션](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)에서 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
-   1. **[!UICONTROL 계속 진행하시겠습니까?]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 선택하여 폴더를 삭제합니다.
+   1. **[!UICONTROL 계속하시겠습니까?]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 선택하여 폴더를 삭제합니다.
 
 * 삭제하려는 폴더 내부.
 
    1. [제목 영역](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)의 ![More](/help/assets/icons/More.svg)에서 **[!UICONTROL 폴더 삭제]**&#x200B;를 선택합니다.
 
-   1. 폴더를 **[!UICONTROL 삭제하고 폴더&#x200B;*이름을 변경*하시겠습니까?]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL *이름* 폴더를 삭제하시겠습니까?]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 
 
 <!-- 

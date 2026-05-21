@@ -1,18 +1,22 @@
 ---
 description: 사용자 지정된 표현식에서 날짜 범위를 사용하는 것에 대한 예, 참고 사항 및 구문 참고 사항.
-title: 사용자 지정된 표현식을 사용한 날짜 범위의 예
+title: 사용자 정의된 표현식을 사용한 날짜 범위의 예
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
 role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/Iv-JLj5I9MBHo3TDAXOnddUY83sV8079XnXb8Svs8G8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: 396
 ht-degree: 13%
 
 ---
 
-# 사용자 지정된 표현식을 사용한 날짜 범위의 예
+# 사용자 정의된 표현식을 사용한 날짜 범위의 예
 
 {{legacy-arb}}
 

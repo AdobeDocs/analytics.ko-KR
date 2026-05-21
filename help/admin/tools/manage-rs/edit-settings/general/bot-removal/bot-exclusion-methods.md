@@ -4,10 +4,14 @@ description: 봇을 제외하는 다양한 방법을 비교할 수 있습니다.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
 role: Admin
 feature: Bot Removal
-source-git-commit: 75c1585f88d9d3adcf66632c52cecf2a97fa2632
+TQID: https://experienceleague.adobe.com/zm3kClXgzo6sKMk20XKWGI66s2kjk4VZ2ohDj41JAes
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 45%
+source-wordcount: 327
+ht-degree: 46%
 
 ---
 
@@ -15,7 +19,7 @@ ht-degree: 45%
 
 다음 표는 봇을 제외하는 다양한 방법과 어떻게 서로 비교하는지를 보여 줍니다.
 
-| 메서드 | 보트 규칙 | IP 주소로 제외 | 사용자 속성 | 세그먼테이션 | 서드파티 채점 + 세분 | 런타임 시 봇에 대한 서버 호출 억제 | 사용자 지정 DB VISTA 규칙 |
+| 메서드 | 보트 규칙 | IP 주소로 제외 | 고객 속성 | 세그먼테이션 | 서드파티 채점 + 세분 | 런타임 시 봇에 대한 서버 호출 억제 | 사용자 지정 DB VISTA 규칙 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **데이터 제외 방법 설명** | 사용자 에이전트, IP 주소 또는 IP 주소 범위를 기준으로 제외 | IP 주소 | ECID를 봇으로 식별하는 고객 속성의 플래그 | 봇 행동을 기반으로 알려진 봇을 식별하는 Analytics 세그먼트의 기준 | [Perimeter X](https://www.perimeterx.com) 또는 [Akamai Bot Manager](https://www.akamai.com/us/en/products/security/bot-manager.jsp)와 같은 서드파티는 봇일 가능성에 대한 점수를 각 페이지 보기에 할당합니다. 점수가 Analytics로 전송되고 세그먼트는 점수에 따라 데이터를 필터링하는 데 사용될 수 있습니다. | 클라이언트측 논리는 봇에 대한 Analytics 서버 호출 실행을 중지합니다. | VISTA 규칙은 특정 기준을 충족하는 봇의 트래픽을 별도의 보고서 세트로 이동합니다. |
 | **보고에 봇 이름을 사용할 수 있습니까?** | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 | 예 |

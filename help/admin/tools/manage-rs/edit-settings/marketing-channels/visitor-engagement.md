@@ -5,10 +5,14 @@ title: 마케팅 채널 만료
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/Og6HFSObiTqFg-HRqVzQWWnaGP0J--cJ9N8wvfuKsJc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: 393
+ht-degree: 82%
 
 ---
 
@@ -40,9 +44,9 @@ ht-degree: 100%
 
 | 필드 | 정의 |
 |--- |--- |
-| 활동하지 않은 일 수 | 방문자의 첫 번째 접촉 유도가 만료되기 전까지 경과해야 하는 일 수. 기본값은 30입니다. |
-| 절대 안 함 | 방문자의 유도 기간이 만료되지 않습니다. |
-| 채널 재설정 | 모든 방문자 참여 기간이 만료됩니다.  모든 마케팅 채널 데이터를 재설정해야 할 경우 모든 방문자 참여 기간을 만료할 수 있습니다. 처리 규칙이 이전에 잘못 구성되어 있는 경우 데이터를 재설정해야 할 수도 있습니다. 첫 번째 및 마지막 접촉 채널 값은 모두 즉시 만료되며 방문자가 돌아오면 재설정됩니다. |
+| 활동하지 않은 일 수 | 방문자의 첫 번째 터치 참여가 만료되기 전에 경과해야 하는 일 수입니다. 기본값은 30입니다. |
+| 절대 안 함 | 방문자의 참여 기간이 만료되지 않습니다. |
+| 채널 재설정 | 모든 방문자 참여 기간이 만료됩니다.  모든 마케팅 채널 데이터를 재설정해야 하는 경우 모든 방문자 참여 기간을 만료할 수 있습니다. 처리 규칙이 이전에 잘못 구성된 경우 데이터를 재설정해야 할 수 있습니다. 첫 번째 및 마지막 터치 채널 값은 모두 즉시 만료되며 방문자가 돌아오면 재설정됩니다. |
 
 ## 마케팅 채널 만료 정의 {#define-expiration}
 

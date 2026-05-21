@@ -4,10 +4,15 @@ description: 이미지 요청에서 Activity Map 데이터를 볼 수 없는 이
 feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+TQID: https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 15%
+source-wordcount: 429
+ht-degree: 16%
 
 ---
 
@@ -19,7 +24,7 @@ Activity Map 차원에 대한 데이터가 표시되지 않는 경우 이 페이
 
 먼저, AppMeasurement에서 Activity Map 데이터를 올바르게 수집하는지 확인하십시오.
 
-1. [Adobe Experience Cloud Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/ko/docs/experience-platform/debugger/home)을 다운로드하여 설치하십시오.
+1. [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)을 다운로드하여 설치합니다.
 2. 웹 페이지로 이동한 다음 링크를 클릭합니다.
 3. 후속 페이지가 로드되면 디버거를 엽니다. `activitymap.`과(와) `.activitymap` 사이에 있는 Activity Map 컨텍스트 데이터 변수가 표시되는지 확인합니다.
 
@@ -30,7 +35,7 @@ Activity Map 차원에 대한 데이터가 표시되지 않는 경우 이 페이
 * **AppMeasurement 버전**: Activity Map은 v1.6 이상에서 지원됩니다. 안정적인 최신 버전의 AppMeasurement으로 업그레이드할 때 많은 에지 사례 문제가 해결됩니다.
 * **Activity Map 모듈**: `AppMeasurement_Module_Activity_Map` 모듈이 `AppMeasurement.js` 파일에 있는지 확인하십시오. 구현에서 Adobe Experience Platform을 사용하여 데이터를 수집하는 경우 **[!UICONTROL 링크 추적]**&#x200B;에서 Analytics 확장을 구성할 때 **[!UICONTROL ClickMap 사용]**&#x200B;을(를) 선택해야 합니다.
 * **`s_sq` 쿠키**: Activity Map은 데이터 수집을 위한 `s_sq` 쿠키에 따라 다릅니다.
-   * 특히 `cookieDomainPeriods` 또는 `*.co.uk`과(와) 같은 지역 도메인의 경우 `*.co.jp` 변수가 올바르게 설정되었는지 확인하십시오.
+   * 특히 `*.co.uk` 또는 `*.co.jp`과(와) 같은 지역 도메인의 경우 `cookieDomainPeriods` 변수가 올바르게 설정되었는지 확인하십시오.
    * `linkInternalFilters` 변수가 원하는 값으로 설정되어 있는지 확인하십시오. 클릭한 링크가 내부 필터와 일치하지 않으면 Activity Map은 종료 링크로 간주하여 데이터를 수집하지 않습니다.
 * **Activity Map 오버레이 실행 중**: Activity Map 오버레이가 활성화되면 AppMeasurement에서 웹 페이지에 대한 클릭 데이터를 추적하지 않습니다.
 

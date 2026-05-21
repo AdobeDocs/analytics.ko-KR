@@ -1,13 +1,19 @@
 ---
 title: 마케팅 채널에서의 분류
-description: 값을 관련 그룹으로 분류하고 그룹 수준으로 보고하는 데 분류를 사용합니다. 예를 들어 모든 유료 검색 캠페인을 비디오 카드와 같은 카테고리로 분류할 수 있습니다. 그런 다음 인스턴스(또는 클릭스루)와 같은 지표와 관련하여 해당 카테고리의 성공 여부를 보고할 수 있습니다.
+description: 분류를 사용하여 값을 관련 그룹으로 분류하고 그룹 수준에서 보고할 수 있습니다. 예를 들어 모든 유료 검색 캠페인을 비디오 카드와 같은 카테고리로 분류할 수 있습니다. 그런 다음 인스턴스(또는 클릭스루)와 같은 지표와 관련하여 해당 카테고리의 성공 여부를 보고할 수 있습니다.
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/cCpJd0drkr-y-9YsDQqICBkEIj4uGRd40gYBWz9u9bo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 100%
+source-wordcount: 312
+ht-degree: 72%
 
 ---
 
@@ -21,7 +27,7 @@ ht-degree: 100%
 
 **[!UICONTROL 분석]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 분류]**.
 
-값을 관련 그룹으로 분류하고 그룹 수준으로 보고하는 데 분류를 사용합니다. 예를 들어 모든 유료 검색 캠페인을 비디오 카드와 같은 카테고리로 분류할 수 있습니다. 그런 다음 인스턴스(또는 클릭스루)와 같은 지표와 관련하여 해당 카테고리의 성공 여부를 보고할 수 있습니다.
+분류를 사용하여 값을 관련 그룹으로 분류하고 그룹 수준에서 보고할 수 있습니다. 예를 들어 모든 유료 검색 캠페인을 비디오 카드와 같은 카테고리로 분류할 수 있습니다. 그런 다음 인스턴스(또는 클릭스루)와 같은 지표와 관련하여 해당 카테고리의 성공 여부를 보고할 수 있습니다.
 
 이 절차에서 추가하는 분류는 [!UICONTROL 채널 값]으로 [!UICONTROL 마케팅 채널 개요] 보고서에 표시됩니다. 채널 값은 채널 세부 사항에서 분류되지 않은 값입니다.
 
@@ -34,8 +40,8 @@ ht-degree: 100%
 | 용어 | 정의 |
 |--- |--- |
 | 텍스트 분류 | 보고 목적으로 변수 데이터를 그룹화할 수 있는 분류 카테고리 유형을 지정합니다. |
-| 이름 | 분류의 이름. 추가하는 분류는 마케팅 채널 관리자에서 채널 분류 옵션으로 나타납니다. |
-| 옵션 | 분류의 이름. 추가하는 분류는 마케팅 채널 관리자에서 채널 분류 옵션으로 나타납니다. |
+| 이름 | 분류의 이름입니다. 추가하는 분류는 마케팅 채널 관리자에서 채널 분류 옵션으로 나타납니다. |
+| 옵션 | 분류의 이름입니다. 추가하는 분류는 마케팅 채널 관리자에서 채널 분류 옵션으로 나타납니다. |
 
 ## 마케팅 채널 분류 만들기 {#create-mktg-channel-classifications}
 

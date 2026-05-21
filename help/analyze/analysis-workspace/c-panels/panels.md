@@ -5,26 +5,11 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 TQID: https://experienceleague.adobe.com/VmKuk8QK2OTHkHxEL-Ptu7qvwVnq-0a1yvqftpofHvw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 2858
@@ -112,7 +97,7 @@ ht-degree: 40%
 
 ## 보고서 세트
 
-각 패널은 [리포트 세트](/help/admin/tools/manage-rs/report-suites-admin.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *리포트 세트&#x200B;*]**&#x200B;로 식별됩니다.
+각 패널은 [리포트 세트](/help/admin/tools/manage-rs/report-suites-admin.md)와 연결되고, 패널 오른쪽 상단의 드롭다운 메뉴에서 ![데이터](/help/assets/icons/Data.svg) **[!UICONTROL *리포트 세트&#x200B;*]**로 식별됩니다.
 
 새 패널을 만들면 기본 리포트 세트는 Analysis Workspace 프로젝트에서 마지막으로 작업한 패널의 리포트 세트를 기반으로 합니다.
 
@@ -167,7 +152,7 @@ ht-degree: 40%
 
      **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 선택하여 순환 날짜 계산에 대한 세부 정보를 숨깁니다.
 
-1. **[!UICONTROL 적용]**&#x200B;을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
+1. **[!UICONTROL 적용]**을 선택하여 캘린더를 호출한 패널에 날짜 범위를 적용합니다.
 **[!UICONTROL 모든 패널에 적용]**&#x200B;을 선택하여 Workspace 프로젝트의 모든 패널에 날짜 범위를 적용합니다.
 
 
@@ -304,13 +289,13 @@ ht-degree: 40%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 필터 사용](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}을 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace에서 필터 사용](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 메뉴](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 드롭다운 메뉴](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}를 참조하십시오.
 
 {{videocja}}
 

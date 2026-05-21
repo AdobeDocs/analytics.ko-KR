@@ -4,10 +4,16 @@ title: Adobe ID에 대한 Analytics 사용자 계정 마이그레이션
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/bD-qiEI3KbDBNe4aO01-MqzjoZ-OMcGAnd9vnMTBmZs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 99%
+source-wordcount: 405
+ht-degree: 72%
 
 ---
 
@@ -17,15 +23,15 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Experience Cloud를 통해 로그인하지 않은 관리자가 사용자 ID 마이그레이션 도구에 액세스하려고 하면 Experience Cloud 로그인 페이지로 리디렉션됩니다.
+>CX Enterprise에 로그인하지 않은 관리자가 사용자 ID 마이그레이션 도구에 액세스하려고 하면 CX Enterprise 로그인 페이지로 리디렉션됩니다.
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 ID 마이그레이션]**&#x200B;으로 이동합니다.
 
    ![](/help/admin/tools/user-management/user-migration/assets/migration-progress.png)
 
-   [사용자 ID 마이그레이션] 페이지에는 *마이그레이션 진행* 및 *사용자 정보*&#x200B;와 같은 두 개의 섹션이 있습니다.
+   사용자 ID 마이그레이션 페이지에는 *마이그레이션 진행 상황* 및 *사용자 정보*&#x200B;의 두 섹션이 있습니다.
 
-## 마이그레이션 진행
+## 마이그레이션 진행률
 
 <table id="table_F9F1CFF762C745E198CB075A02BA2DDA"> 
    <thead> 
@@ -36,19 +42,19 @@ ht-degree: 99%
    </thead>
    <tbody> 
    <tr> 
-      <td colname="col1"> <p>마이그레이션 완료 </p> </td> 
+      <td colname="col1"> <p>마이그레이션 완료됨 </p> </td> 
       <td colname="col2"> <p>사용자가 초대를 수락했습니다. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>기존 로그인이 비활성화됨 </p> </td> 
-      <td colname="col2"> <p>회사 ID를 사용하는 기존 로그인이 비활성화되었습니다. 이제 사용자는 Adobe ID 또는 Enterprise ID를 사용하여 Experience Cloud에 액세스합니다. 모든 사용자가 이 단계에 도달했으면 마이그레이션을 완료했습니다. </p> <p>마이그레이션 시 기존 로그인이 비활성화됩니다. 사용자는 <span class="filepath"> experiencecloud.adobe.com</span>으로 리디렉션되며 Adobe ID 또는 Enterprise ID를 사용하여 로그인해야 합니다. </p> </td> 
+      <td colname="col2"> <p>회사 ID를 사용한 기존 로그인은 비활성화됩니다. 이제 사용자는 Adobe ID 또는 Enterprise ID을 사용하여 CX Enterprise에 액세스합니다. 모든 사용자가 이 단계에 도달하면 마이그레이션을 완료했습니다. </p> <p>마이그레이션 시 기존 로그인이 비활성화됩니다. 사용자는 <span class="filepath"> experiencecloud.adobe.com</span>으로 리디렉션되며 Adobe ID 또는 Enterprise ID를 사용하여 로그인해야 합니다. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
 ## 사용자 정보
 
-사용자 정보는 조직의 사용자를 도메인 이름으로 구분하여 설명합니다.
+사용자 정보는 도메인 이름으로 구분된 조직의 사용자를 간략하게 설명합니다.
 
 <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
 <thead> 
@@ -60,7 +66,7 @@ ht-degree: 99%
 <tbody> 
 <tr> 
    <td colname="col1"> <p>도메인 </p> </td> 
-   <td colname="col2"> <p>도메인은 현재 Analytics 사용자 기반의 이메일 ID에 해당합니다. 하나의 조직에서만 도메인을 요구할 수 있으며 시스템 관리자만 도메인을 요구할 수 있습니다. 자세한 내용은 <a href="https://helpx.adobe.com/kr/enterprise/help/request-access-to-claimed-domain.html">요구한 도메인에 대한 액세스 권한 요청</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>도메인은 현재 Analytics 사용자 기반의 이메일 ID에 따라 다릅니다. 하나의 조직에서만 도메인을 요구할 수 있으며 시스템 관리자만 도메인을 요구할 수 있습니다. 자세한 내용은 <a href="https://helpx.adobe.com/kr/enterprise/help/request-access-to-claimed-domain.html">요구한 도메인에 대한 액세스 권한 요청</a>을 참조하십시오. </p> </td> 
 </tr> 
 <tr> 
    <td colname="col1"> <p>승인 요청한 도메인 </p> </td> 

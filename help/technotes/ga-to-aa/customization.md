@@ -3,9 +3,15 @@ title: Adobe Analytics의 보고서 사용자 지정
 description: Adobe Analytics에서 보고서를 사용자 지정하는 방법 알아보기
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/vvVKR7JKV12zgIic0rso4OihH5kyAoZBV983R3VmOic
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 609
 ht-degree: 94%
 
 ---
@@ -35,7 +41,7 @@ Google Analytics와 같은 타사 플랫폼에서 여러 가지 사용자 지정
 * **파이 위젯**&#x200B;은 도넛 시각화와 거의 같습니다.
 * **막대 위젯**&#x200B;은 막대 시각화와 거의 같습니다.
 
-[!UICONTROL Analysis Workspace에는 보고 요구 사항에 가장 적합한 방식으로 데이터를 제공하기 위한 다양한 시각화 옵션이 포함되어 있습니다. &#x200B;] 자세한 내용은 분석 사용 안내서의 [Analysis Workspace에서 시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 참조하십시오.
+[!UICONTROL Analysis Workspace에는 보고 요구 사항에 가장 적합한 방식으로 데이터를 제공하기 위한 다양한 시각화 옵션이 포함되어 있습니다. ] 자세한 내용은 분석 사용 안내서의 [Analysis Workspace에서 시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 참조하십시오.
 
 ### 프로젝트 공유
 
@@ -62,7 +68,7 @@ Google Analytics에서 사용자 지정 보고서를 만들 때 필수 필드는
 
 계산된 지표를 만들려면:
 
-1. 지표 목록 근처에 있는 **+**&#x200B;[!UICONTROL &#x200B; 아이콘을 클릭하여 계산된 지표 빌더를 엽니다].
+1. 지표 목록 근처에 있는 **+**[!UICONTROL  아이콘을 클릭하여 계산된 지표 빌더를 엽니다].
 2. 계산된 지표에 이름을 지정하고 형식을 지정합니다.
 3. 지표 구성 요소를 정의 영역으로 끌어서 놓고 각 구성 요소 사이의 드롭다운 목록을 사용하여 연산자를 지정합니다.
 4. 계산된 지표에 원하는 공식이 포함되면 저장을 클릭하여 작업 공간으로 다시 돌아갑니다.

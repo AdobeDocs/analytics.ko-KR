@@ -3,10 +3,16 @@ title: eVar (머천다이징 차원)
 description: 제품 차원에 연결된 사용자 지정 변수입니다.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/No-Va3JzN6Qz9hBu73A5ZzKudEB1Tqa4sNPKVKAASGI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 92%
+source-wordcount: 437
+ht-degree: 79%
 
 ---
 
@@ -16,7 +22,7 @@ ht-degree: 92%
 
 머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)을 참조하십시오.
 
-일반적으로 외부 캠페인 또는 외부 검색 용어의 성공을 측정할 때는 하나의 값이 성공 이벤트 발생 요인으로 인정되기를 원할 것입니다. 예를 들어 고객이 이메일 캠페인의 링크를 클릭하여 웹 사이트를 방문하면 그에 따라 이루어진 모든 구매가 해당 캠페인 덕분인 것으로 됩니다.
+외부 캠페인 또는 외부 검색어의 성공을 측정할 때 일반적으로 발생하는 모든 성공 이벤트에 대한 크레딧을 받을 단일 값을 원합니다. 예를 들어 고객이 이메일 캠페인의 링크를 클릭하여 웹 사이트를 방문하는 경우 그 결과로 이루어진 모든 구매는 해당 캠페인에 대한 크레딧이 있어야 합니다.
 
 내부 검색 또는 고객이 여러 항목을 찾을 때 카테고리 탐색으로 인해 발생한 이벤트의 경우 어떻습니까? 예를 들어 고객이 귀하의 사이트에서 `"goggles"`를 검색하여 찾은 후 장바구니에 추가합니다.
 
@@ -28,9 +34,9 @@ ht-degree: 92%
 
 방문자가 이 구매를 완료하면 고글 구매가 반영된 `"winter coat"`에 대한 내부 검색이 이루어집니다(eVar가 &#39;가장 최근 항목&#39;의 기본 할당을 사용한다고 가정). 이는 `"winter coat"`에는 좋지만 마케팅 의사 결정에는 적합하지 않습니다.
 
-| 내부 검색어 | 수입 |
+| 내부 검색어 | 매출 |
 |---|---|
-| 겨울 코트 | 157달러 |
+| 겨울 외투 | 157달러 |
 
 ## 머천다이징 변수로 이 문제를 해결하는 방법
 
@@ -38,9 +44,9 @@ ht-degree: 92%
 
 이전 예에서 eVar에 대해 머천다이징이 활성화되었다면 `"goggles"`라는 검색어가 스키용 고글에 연결되고 `"winter coat"`라는 검색어가 다운 재킷에 연결됩니다. 머천다이징 eVar는 제품 수준에서 매출을 할당하므로 각 용어가 이와 연결된 제품 수익 금액에 대한 요인으로 인정됩니다.
 
-| 내부 검색어 | 수입 |
+| 내부 검색어 | 매출 |
 |---|---|
-| 겨울 코트 | 119달러 |
+| 겨울 외투 | 119달러 |
 | 고글 | $38 |
 
 구현 지침이 필요하면 [머천다이징 eVar](/help/implement/vars/page-vars/evar-merchandising.md)를 참조하십시오.

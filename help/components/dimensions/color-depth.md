@@ -1,16 +1,22 @@
 ---
-title: 색상 깊이
+title: 색상 심도
 description: 디바이스의 색상 깊이입니다.
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+TQID: https://experienceleague.adobe.com/JLxm06wch2r7RslhdKx-gFLBLhMSXuWkb-0EYM7nT5s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: 228
 ht-degree: 94%
 
 ---
 
-# 색상 깊이
+# 색상 심도
 
 색상 깊이 [차원](overview.md)은(는) 장치가 지원하는 색상의 수를 보고합니다. 이 차원은 1,600만 색상을 지원하지 않는 디바이스에서 트래픽이 발생하는 정도를 파악하는 데 유용합니다. 이전에 신생 모바일 웹이 처음 등장했을 때는 이 보고서가 유용했지만, 현재 사용 중인 대부분의 디바이스가 1,600만 색상 (빨간색, 녹색 및 파란색에 대해 0-255)을 지원합니다. <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 

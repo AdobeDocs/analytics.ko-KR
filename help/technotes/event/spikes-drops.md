@@ -3,9 +3,14 @@ title: 데이터 증가 및 감소 문제 해결
 description: 트렌드 보고서에서 극적인 증가 또는 감소를 볼 수 있는 가능한 이유를 알아봅니다.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: 856
 ht-degree: 100%
 
 ---
@@ -25,7 +30,7 @@ ht-degree: 100%
 * **보고서 세트 지연**: 간혹 보고서 세트는 많은 요인으로 인해 [지연](../latency.md)을 경험할 수 있습니다. 지연 문제 대부분은 1시간 이내에 해결됩니다. 특정 보고서 세트에 관심이 있는 경우 영향을 받는 보고서 세트 ID를 사용하여 Adobe 고객 지원 센터에 문의하십시오.
 * **구현 제거**: 조직에서 구현을 변경하거나 사이트를 재구성할 때 Analytics를 다시 구현하는 것은 간과되는 경우가 있습니다. 조직의 개발자와 협력하여 사이트의 코드를 다시 구현하십시오.
 * **Analytics 인터페이스/캐싱 문제**: 드문 경우, 브라우저의 캐시에 모든 보고서가 0을 반환하도록 하는 잘못된 데이터가 포함됩니다. 브라우저의 쿠키와 캐시를 지우면 문제가 해결됩니다. 쿠키/캐시를 지워도 문제가 해결되지 않으면, 고객 지원 센터에 연락하여 누락된 보고서와 날짜 범위를 알려 주십시오. 담당자가 문제를 재현하여 추가 정보를 제공할 수 있습니다.
-* **Analytics 가용성**: 데이터 수집이나 처리와 관련한 문제에 대해서는 [status.adobe.com](https://status.adobe.com/kr/products/1173/)에서 확인하십시오.
+* **Analytics 가용성**: 데이터 수집이나 처리와 관련한 문제에 대해서는 [status.adobe.com](https://status.adobe.com/products/1173/)에서 확인하십시오.
 
 ### 데이터 부분 누락 또는 트래픽 감소의 잠재적 원인
 

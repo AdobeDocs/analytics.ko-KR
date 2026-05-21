@@ -3,10 +3,16 @@ title: 모니터 해상도
 description: 방문자 모니터의 해상도(픽셀 단위)입니다.
 feature: Dimensions
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
-source-git-commit: e3a1c1fde3809cb73b1bda091b8be43778515d1a
+TQID: https://experienceleague.adobe.com/d3AuMT0seRbZpuKVGPeWo98Bkhc8tcJIP6gt4y-rq38
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 72%
+source-wordcount: 261
+ht-degree: 82%
 
 ---
 
@@ -26,7 +32,7 @@ ht-degree: 72%
 
 이 차원은 이미지 요청의 [`s` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `screen.width` 및 `screen.height`를 사용하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 이 차원은 즉시 작동합니다.
 
-AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우(API 등을 통해)에는 이미지 요청에 `s` 쿼리 문자열 매개 변수를 포함해야 합니다. `s` 쿼리 문자열이 없거나 데이터 수집 라이브러리에서 모니터 해상도를 수집할 수 없는 경우 해당 데이터가 [!UICONTROL `Not Specified`] 아래에 나열됩니다.
+AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 이미지 요청에 `s` 쿼리 문자열 매개 변수를 포함해야 합니다. `s` 쿼리 문자열이 없거나 데이터 수집 라이브러리에서 모니터 해상도를 수집할 수 없는 경우 해당 데이터가 [!UICONTROL `Not Specified`] 아래에 나열됩니다.
 
 ## 차원 항목
 

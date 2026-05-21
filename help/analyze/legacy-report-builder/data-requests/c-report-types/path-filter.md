@@ -4,10 +4,14 @@ title: 요청 마법사를 사용하여 경로 보고서 필터링
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/DQ75Rl9mhTocg9aDfBfTYvwUZxb875iEynjc7BCcy90
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 62%
+source-wordcount: 427
+ht-degree: 57%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 62%
 
 경로 지정 보고서에 필터를 적용하는 단계에 대해 설명합니다.
 
-이 예제에서는 사이트 섹션 경로를 사용합니다.
+이 예에서는 사이트 섹션 경로를 사용합니다.
 
 1. Adobe Report Builder에서 **[!UICONTROL 만들기]**&#x200B;를 클릭하여 요청 마법사를 엽니다.
 1. 적절한 보고서 세트를 선택합니다.
@@ -56,13 +60,13 @@ ht-degree: 62%
 
 패턴을 선택한 후 미리 정의된 패턴을 편집할 수 있습니다.
 
-1. 위의 단계에서 계속 패턴을 선택합니다. 얘를 들어 **[!UICONTROL 종료한 사이트 패턴]**&#x200B;을 선택합니다.
+1. 위의 단계에서 계속 패턴을 선택합니다. 예를 들어 **[!UICONTROL 종료한 사이트 패턴]**&#x200B;을(를) 선택합니다.
 
    ![선택한 패턴을 강조 표시하는 스크린샷](assets/exited_site_pattern.png)
 
 1. 종료하기 전에 사용자가 이동하는 사이트 섹션 경로를 정의합니다. **[!UICONTROL 특정 항목: 0개 선택함]**&#x200B;을 클릭합니다. 기존 요청을 편집하는 경우 셀 범위에서 선택하거나 섹션 목록에서 선택하여 이 경로를 정의할 수 있습니다.
 
-1. 이전 요청의 셀 범위에서 선택하려면 **[!UICONTROL 셀 범위에서]**&#x200B;를 선택하고 셀 선택기 아이콘을 클릭합니다. 그런 후 보고서에서 셀을 선택합니다.
+1. 이전 요청의 셀 범위에서 선택하려면 **[!UICONTROL 셀 범위에서]**&#x200B;를 선택하고 셀 선택기 아이콘을 클릭합니다. 그런 다음 보고서에서 셀을 선택합니다.
 
    ![셀 범위 또는 목록에서 선택하는 옵션을 보여 주는 스크린샷입니다.](assets/choose_site_section_paths.png)
 

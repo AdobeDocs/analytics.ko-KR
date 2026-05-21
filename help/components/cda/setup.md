@@ -4,10 +4,15 @@ description: CDA를 사용하도록 가상 보고서 세트를 구성합니다.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 84%
+source-wordcount: 547
+ht-degree: 82%
 
 ---
 
@@ -21,11 +26,11 @@ ht-degree: 84%
 >
 >이 절차를 수행하기 전에 모든 전제 조건을 충족해야 합니다. 모든 전제 조건을 충족하지 않으면 기능을 사용할 수 없거나 기능이 작동하지 않습니다. 필수 구성 요소 및 제한 사항에 대해서는 [개요 페이지](overview.md) 및 원하는 연결 방법([필드 기반 연결](field-based-stitching.md))을 참조하십시오.
 
-## &#x200B;1. 고객 지원 센터에서 티켓을 열어 크로스 디바이스 보고서 세트에 CDA를 프로비저닝합니다
+## &#x200B;1. 고객 지원 센터에서 티켓을 열어 크로스 디바이스 보고서 세트에 CDA를 프로비저닝하십시오
 
 CDA는 Adobe 엔지니어링 팀을 통해 크로스 디바이스 보고서 세트에 생성됩니다. 이 프로세스를 시작하려면 고객 지원 센터에 연락하여 다음 정보를 제공할 준비를 하십시오.
 
-* Adobe Experience Cloud 조직 ID (@AdobeOrg로 끝나는 영숫자 문자열)
+* Adobe CX Enterprise 조직 ID(@AdobeOrg으로 끝나는 영숫자 문자열)
 * CDA를 활성화할 크로스 디바이스 보고서 세트에 대한 보고서 세트 ID
 * 사용할 CDA의 방법(필드 기반 결합)
 * 필드 기반 스티칭을 사용하려면 prop 또는 eVar에 사용자 ID가 포함되어야 합니다.

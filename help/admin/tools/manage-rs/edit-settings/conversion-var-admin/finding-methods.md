@@ -1,19 +1,24 @@
 ---
-description: '[검색 방법] 페이지에서는 다양한 검색 방법 보고서가 사용자 사이트에서의 전환 성공 이벤트에 대한 크레딧을 받는 방법을 식별합니다. 예를 들어 검색 엔진이 구매하는 방문자를 해당 사이트로 안내하는 경우, 검색 방법은 검색 엔진이 참조에 대한 크레딧을 받는 방법을 지정합니다.'
+description: '[검색 방법] 페이지에서는 다양한 검색 방법 보고서가 사용자 사이트에서의 전환 성공 이벤트에 대한 크레딧을 받는 방법을 식별합니다. 예를 들어 검색 엔진이 구매를 수행하는 사이트 방문자를 참조하는 경우 검색 방법은 검색 엔진이 조회에 대한 크레딧을 받는 방법을 지정합니다.'
 title: 검색 방법
 feature: Admin Tools
 role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/eIZhSAm5tZsV4bY3Bznamfq87nhWd82ZwL-M4OIkFSM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 97%
+source-wordcount: 319
+ht-degree: 70%
 
 ---
 
 # 검색 방법
 
-[검색 방법] 페이지에서는 다양한 검색 방법 보고서가 사용자 사이트에서의 전환 성공 이벤트에 대한 크레딧을 받는 방법을 식별합니다. 예를 들어 검색 엔진이 구매하는 방문자를 해당 사이트로 안내하는 경우, 검색 방법은 검색 엔진이 참조에 대한 크레딧을 받는 방법을 지정합니다.
+[검색 방법] 페이지에서는 다양한 검색 방법 보고서가 사용자 사이트에서의 전환 성공 이벤트에 대한 크레딧을 받는 방법을 식별합니다. 예를 들어 검색 엔진이 구매를 수행하는 사이트 방문자를 참조하는 경우 검색 방법은 검색 엔진이 조회에 대한 크레딧을 받는 방법을 지정합니다.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 방법 찾기]**
 
@@ -33,7 +38,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> 할당 </td> 
-   <td colname="col2"> 참조에 대한 크레딧을 적용하는 방법을 지정합니다. 지원되는 할당 옵션에는 다음이 포함됩니다. <p> <span class="uicontrol"> 가장 최근 (마지막):</span> 모든 크레딧을 마지막 레퍼러에게 줍니다(기본값). </p> <p> <span class="uicontrol"> 원래 값:</span> 첫 레퍼러에 모든 크레딧을 줍니다. </p> <p> <span class="uicontrol"> 선형:</span> 모든 레퍼러에 균등하게 크레딧을 배분합니다. </p> </td> 
+   <td colname="col2"> 참조에 대한 크레딧을 적용하는 방법을 지정합니다. 지원되는 할당 옵션은 다음과 같습니다. <p> <span class="uicontrol"> 가장 최근 (마지막):</span> 모든 크레딧을 마지막 레퍼러에게 줍니다(기본값). </p> <p> <span class="uicontrol"> 원래 값:</span> 첫 레퍼러에 모든 크레딧을 줍니다. </p> <p> <span class="uicontrol"> 선형:</span> 모든 레퍼러에 균등하게 크레딧을 배분합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 다음 시기 이후에 만료 </td> 
@@ -56,4 +61,4 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->모든 검색 방법은 방문이 종료될 때 만료됩니다. 다른 이벤트(예: 장바구니 체크아웃) 이후에 만료되도록 선택하면 방문 중에 장바구니 체크아웃이 발생할 때 검색 방법이 만료됩니다. 방문 중에 장바구니 체크아웃이 발생하지 않으면 방문이 종료될 때 검색 방법이 만료됩니다.
+>모든 검색 방법은 방문이 종료될 때 만료됩니다. 다른 이벤트(예: 장바구니 체크아웃) 이후에 만료되도록 선택하면 방문 중에 장바구니 체크아웃이 발생할 때 검색 방법이 만료됩니다. 방문 중에 장바구니 체크아웃이 발생하지 않으면 방문이 종료될 때 검색 방법이 계속 만료됩니다.

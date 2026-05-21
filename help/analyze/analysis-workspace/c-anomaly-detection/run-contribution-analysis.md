@@ -4,10 +4,16 @@ title: 기여도 분석 실행
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/gRnQxBkxEqtDdZ-zbgeg4Oe0MweTmqKwtThl3NYPpgs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 14%
+source-wordcount: 554
+ht-degree: 13%
 
 ---
 
@@ -49,7 +55,7 @@ ht-degree: 14%
 
    * [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) 시각화.
    * 월별 트렌드 [선](/help/analyze/analysis-workspace/visualizations/line.md) 시각화.
-   * **[!UICONTROL 기여도 점수]**&#x200B;별로 정렬된 이 예외 항목에 기여하는 상위 항목을 표시하는 [상위 항목](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) [자유 형식 테이블](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis). 추가 열에는 해당 지표와 컨텍스트를 제공하는 **[!UICONTROL 고유 방문자 수]** 지표가 표시됩니다.
+   * [기여도 점수](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)별로 정렬된 이 예외 항목에 기여하는 상위 항목을 표시하는 **[!UICONTROL 상위 항목]** [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). 추가 열에는 해당 지표와 컨텍스트를 제공하는 **[!UICONTROL 고유 방문자 수]** 지표가 표시됩니다.
 
    * **[!UICONTROL 생성된 세그먼트(상위 항목 클러스터)]** [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)은(는) 기여도 점수, 예외 항목 발생 횟수 및 이상 지표에 기여하는 전체적인 비율을 기반으로 상위 항목의 연결을 식별합니다. 그런 다음 이 연관은 대상 세그먼트(기여도 세그먼트 1, 기여도 세그먼트 2 등)로 캡처됩니다. 세그먼트가 구성되는 상위 항목을 포함하여 세그먼트의 정의를 표시하려면 ![정보](/help/assets/icons/Info.svg)을(를) 선택하십시오.
 

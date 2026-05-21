@@ -3,10 +3,15 @@ title: SFTP 서비스 업그레이드 - FAQ
 description: 예정된 SFTP 서비스 업그레이드에 대해 자주 묻는 질문입니다.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/HKI-iOTx-gHbsmL8BJszgs5e5nlflk67s64eqs2dd-k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: 444
+ht-degree: 95%
 
 ---
 
@@ -26,7 +31,7 @@ ht-degree: 100%
 
 * [분류](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
-* [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ko)
+* [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
 * [데이터 피드](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 
@@ -38,7 +43,8 @@ ht-degree: 100%
 
 ## 이 업데이트에 포함된 특정 변경 사항은 무엇입니까?
 
-다음은 제거되고 지원되는 연결 및 알고리즘에 대한 상세 목록입니다.
+다음은 제거되고 표시되는 연결 및 알고리즘에 대한 세부 목록입니다.
+지원됨:
 
 * SFTP 프로토콜 mac 알고리즘:
 

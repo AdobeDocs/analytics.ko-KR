@@ -4,9 +4,13 @@ title: 글머리 기호
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/i3W28GubHz49z-R-QTSCcNoah6rirrmvnbcEvCMrYhU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: 295
 ht-degree: 77%
 
 ---
@@ -33,7 +37,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 글머리 기호 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전에 대한 [글머리 기호](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)을 참조하십시오._
+_이 문서에서는 글머리 기호 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [글머리 기호](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +49,7 @@ _이 문서에서는 글머리 기호 시각화에 대해 설명합니다._ ![Ad
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [글머리 기호 그래프 시각화](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [글머리 기호 그래프 시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +60,7 @@ _이 문서에서는 글머리 기호 시각화에 대해 설명합니다._ ![Ad
 
 | 설정 | 설명 |
 |---|---|
-| **[!UICONTROL 글머리 기호 옵션]** | [!UICONTROL 글머리 기호] 시각화에서 **[!UICONTROL 높은 목표]**, **[!UICONTROL 중간 목표]** 및 **[!UICONTROL 낮은 목표]** 값을 지정합니다. <br/>**[!UICONTROL 높은 목표&#x200B;]**&#x200B;는 사용자가 추구하는 주요 목표입니다.**[!UICONTROL &#x200B;낮은 목표&#x200B;]**&#x200B;와&#x200B;**[!UICONTROL &#x200B;중간 목표&#x200B;]**&#x200B;는 높은 목표보다 낮은 범위를 만듭니다. 참고:**[!UICONTROL &#x200B;백분율&#x200B;]**&#x200B;옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우. |
+| **[!UICONTROL 글머리 기호 옵션]** | [!UICONTROL 글머리 기호] 시각화에서 **[!UICONTROL 높은 목표]**, **[!UICONTROL 중간 목표]** 및 **[!UICONTROL 낮은 목표]** 값을 지정합니다. <br/>**[!UICONTROL 높은 목표&#x200B;]**는 사용자가 추구하는 주요 목표입니다.**[!UICONTROL &#x200B;낮은 목표&#x200B;]**와**[!UICONTROL &#x200B;중간 목표&#x200B;]**는 높은 목표보다 낮은 범위를 만듭니다. 참고:**[!UICONTROL &#x200B;백분율&#x200B;]**옵션을 선택할 때 목표를 정수로 입력합니다. 예: `20` 목표가 20%인 경우. |
 
 >[!MORELIKETHIS]
 >

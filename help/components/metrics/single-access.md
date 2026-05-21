@@ -3,10 +3,15 @@ title: 단일 액세스
 description: 방문에서 차원 항목이 변경되지 않은 횟수입니다.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+TQID: https://experienceleague.adobe.com/9rDXvGopDNEhkh6cA-JmkwazYWagbMDo1g7yZ2n-gLI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 15%
+source-wordcount: 484
+ht-degree: 19%
 
 ---
 
@@ -32,7 +37,7 @@ ht-degree: 15%
 
 [[!UICONTROL 반복 인스턴스 계산]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings)을 사용하지 않도록 설정하면 지표 정의가 약간 변경됩니다.
 
-* **단일 액세스**: 전체 방문에 대해 주어진 차원 항목이 변경되지 않은 방문의 수를 표시합니다.
+* **단일 액세스**: 전체 방문에 대해 주어진 차원 항목이 변경되지 않은 방문의 수를 보여줍니다.
 * **단일 페이지 방문**: 전체 방문에 대해 &#39;[!UICONTROL 페이지]&#39; 차원이 변경되지 않은 방문의 수를 표시합니다.
 
 예를 들어 다음 두 번의 히트 방문 예를 고려해 보십시오. 보고서의 차원은 [[!UICONTROL 사이트 섹션]](../dimensions/site-section.md)이며 &#39;[!UICONTROL 반복 인스턴스 계산]&#39;을(를) 사용할 수 없습니다.

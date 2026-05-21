@@ -3,16 +3,22 @@ title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/WntN8KyUXgQUt8vvoHUZyQfTtEUSS3aPOF6pIDbJynk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 53%
+source-wordcount: 905
+ht-degree: 54%
 
 ---
 
 # Analytics 차원 호환성
 
-This page lists [dimensions](overview.md) supported in their respective Analytics capabilities.
+이 페이지에는 각 Analytics 기능에서 지원되는 [차원](overview.md)이 나열됩니다.
 
 >[!NOTE]
 >
@@ -30,10 +36,10 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 | [도시](cities.md) | `geocity` |
 | [색상 깊이](color-depth.md) | `colordepth` |
 | [연결 유형](connection-type.md) | `connectiontype` |
-| [Cookie Support](cookie-support.md) | `cookie` |
+| [쿠키 지원](cookie-support.md) | `cookie` |
 | [국가](countries.md) | `geocountry` |
 | [고객 충성도](customer-loyalty.md) | `customerloyalty` |
-| [Custom Conversion Vars](evar.md) | `evar1`, `evar2` 등 |
+| [사용자 지정 전환 변수](evar.md) | `evar1`, `evar2` 등 |
 | [Custom Insight 변수](prop.md) | `prop1`, `prop2` 등 |
 | [사용자 지정 링크](custom-link.md) | `customlink` |
 | [첫 구매까지 소요된 일 수](days-before-first-purchase.md) | `daysbeforefirstpurchase` |
@@ -55,10 +61,10 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 | [모바일 통신사](mobile-dimensions.md) | `mobilecarrier` |
 | [모바일 색상 깊이](mobile-dimensions.md) | `mobilecolordepth` |
 | [모바일 쿠키 지원](mobile-dimensions.md) | `mobilecookiesupport` |
-| [Mobile Device](mobile-dimensions.md) | `mobiledevicename` |
-| [Mobile Device Type](mobile-dimensions.md) | `mobiledevicetype` |
-| [Mobile Max Email Length](mobile-dimensions.md) | `mobileemaillength` |
-| [Mobile Image Support](mobile-dimensions.md) | `mobileimagesupport` |
+| [모바일 장치](mobile-dimensions.md) | `mobiledevicename` |
+| [모바일 장치 유형](mobile-dimensions.md) | `mobiledevicetype` |
+| [모바일 최대 전자 메일 길이](mobile-dimensions.md) | `mobileemaillength` |
+| [모바일 이미지 지원](mobile-dimensions.md) | `mobileimagesupport` |
 | [모바일 제조업체](mobile-dimensions.md) | `mobilemanufacturer` |
 | [모바일 운영 체제(더 이상 사용되지 않음)](mobile-dimensions.md) | `mobileos` |
 | [모바일 화면 높이](mobile-dimensions.md) | `mobilescreenheight` |
@@ -81,17 +87,17 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 | [검색 엔진](search-engine.md) | `searchengine` |
 | [검색 키워드](search-keyword.md) | `searchenginekeyword` |
 | [검색 엔진 - 자연어](search-engine.md) | `searchenginenatural` |
-| [Search Engine - Paid](search-engine.md) | `searchenginepaid` |
-| [Search Keyword - Natural](search-keyword.md) | `searchenginenaturalkeyword` |
-| [Search Keyword - Paid](search-keyword.md) | `searchenginepaidkeyword` |
+| [검색 엔진 - 유료](search-engine.md) | `searchenginepaid` |
+| [검색 키워드 - 자연어](search-keyword.md) | `searchenginenaturalkeyword` |
+| [검색 키워드 - 유료](search-keyword.md) | `searchenginepaidkeyword` |
 | [모든 검색 페이지 등급](all-search-page-rank.md) | `searchenginepagerank` |
 | [서버](server.md) | `server` |
 | [단일 페이지 방문 횟수](single-page-visits.md) | `singlepagevisits` |
-| [Site Section](site-section.md) | `sitesections` |
-| [Time Spent per Visit - Granular](time-spent-per-visit.md) | `sitetime` |
+| [사이트 섹션](site-section.md) | `sitesections` |
+| [방문당 체류 시간 - 세부기간](time-spent-per-visit.md) | `sitetime` |
 | [추적 코드](tracking-code.md) | `campaign` |
 | [US DMA](us-dma.md) | `geodma` |
-| [US States](us-states.md) | `state` |
+| [미국 주](us-states.md) | `state` |
 | [이벤트까지 남은 시간](time-prior-to-event.md) | `timeprior` |
 | [방문당 체류 시간 - 그룹화됨](time-spent-per-visit.md) | `timespent` |
 | [방문 깊이](visit-depth.md) | `pathlength` |
@@ -148,14 +154,14 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
-| Activity Map | `clickmapxy` |
+| Activity Map XY | `clickmapxy` |
 | 미디어 세션 ID | `videosessionid` |
 | Nielsen 액세스 방법 | `nielsenaccmethod` |
 | Nielsen 앱 ID | `nielsenappid` |
 | Channel 채널 자산 | `nielsenchannelasset` |
 | Nielsen 콘텐츠 유형 | `nielsencontenttype` |
 
-## Content-aware dimensions supported by Analysis Workspace
+## Analysis Workspace에서 지원하는 컨텐츠 인식 차원
 
 ### 비디오(스트리밍 미디어 서비스)
 
@@ -170,11 +176,11 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 | [오류](sm-quality.md) | `videoqoeerrorcountevar` |
 | [평균 비트율](sm-quality.md) | `videoqoebitrateaverageevar` |
 | [비트율 변경](sm-quality.md) | `videoqoebitratechangecountevar` |
-| [Total Buffer Duration](sm-quality.md) | `videoqoebuffertimeevar` |
-| [Buffer Events](sm-quality.md) | `videoqoebuffercountevar` |
-| [Time to Start](sm-quality.md) | `videoqoetimetostartevar` |
-| [Ad Pod](sm-ads.md) | `videoadpod` |
-| [Media Path](sm-core.md) | `videopath` |
+| [총 버퍼 지속 시간](sm-quality.md) | `videoqoebuffertimeevar` |
+| [버퍼 이벤트](sm-quality.md) | `videoqoebuffercountevar` |
+| [시작 시간](sm-quality.md) | `videoqoetimetostartevar` |
+| [광고 창](sm-ads.md) | `videoadpod` |
+| [미디어 경로](sm-core.md) | `videopath` |
 | [광고](sm-ads.md) | `videoad` |
 | [콘텐츠 플레이어 이름](sm-core.md) | `videoplayername` |
 | [콘텐츠 채널](sm-core.md) | `videochannel` |
@@ -198,10 +204,10 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 | [플레이어 SDK 오류 ID](sm-quality.md) | `videoqoeplayersdkerrors` |
 | [외부 오류 ID](sm-quality.md) | `videoqoeextneralerrors` |
 | [미디어 피드 유형](sm-video-metadata.md) | `videofeedtype` |
-| [Entry Media Path](entry-dimensions.md) | `entryvideopath` |
-| [Exit Media Path](exit-dimensions.md) | `exitvideopath` |
-| [Entry Genre](entry-dimensions.md) | `entryvideogenre` |
-| [Exit Genre](exit-dimensions.md) | `exitvideogenre` |
+| [시작 미디어 경로](entry-dimensions.md) | `entryvideopath` |
+| [미디어 경로 종료](exit-dimensions.md) | `exitvideopath` |
+| [시작 장르](entry-dimensions.md) | `entryvideogenre` |
+| [장르 종료](exit-dimensions.md) | `exitvideogenre` |
 | [시작 플레이어 SDK 오류 ID](entry-dimensions.md) | `entryvideoqoeplayersdkerrors` |
 | [종료 플레이어 SDK 오류 ID](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
 | [항목 외부 오류 ID](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
@@ -209,7 +215,7 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 
 ### Adobe Social
 
-Adobe Social is retired.
+Adobe Social이 사용 중단되었습니다.
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
@@ -235,8 +241,8 @@ Adobe Social is retired.
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
-| [First Launch Date](lifecycle-dimensions.md) | `mobileinstalldate` |
-| [App Id](lifecycle-dimensions.md) | `mobileappid` |
+| [첫 번째 실행 날짜](lifecycle-dimensions.md) | `mobileinstalldate` |
+| [앱 ID](lifecycle-dimensions.md) | `mobileappid` |
 | [시작 번호](lifecycle-dimensions.md) | `mobilelaunchnumber` |
 | [최초 사용 이후 일 수](lifecycle-dimensions.md) | `mobiledayssincefirstuse` |
 | [마지막 사용 이후 일 수](lifecycle-dimensions.md) | `mobiledayssincelastuse` |
@@ -264,9 +270,9 @@ Adobe Social is retired.
 | [시작 비콘 Minor](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
 | [종료 비콘 Minor](lifecycle-dimensions.md) | `exitmobilebeaconminor` |
 | [시작 비콘 UUID](lifecycle-dimensions.md) | `entrymobilebeaconuuid` |
-| [Exit Beacon UUID](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |
-| [Entry Beacon Proximity](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
-| [Exit Beacon Proximity](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
+| [종료 비콘 UUID](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |
+| [시작 비콘 Proximity](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
+| [종료 비콘 Proximity](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
 ### Adobe Advertising
 
@@ -286,11 +292,11 @@ Adobe Social is retired.
 
 ### Nielsen 통합
 
-For more information on how to implement this integration, see the [Nielsen Extension](https://exchange.adobe.com/apps/ec/101361) on the Adobe Exchange.
+이 통합을 구현하는 방법에 관한 자세한 내용은 Adobe Exchange에서 [Nielsen Extension](https://exchange.adobe.com/apps/ec/101361)을 참조하십시오.
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
-| Nielsen Ad Model | `nielsenadmodel` |
+| Nielsen 광고 모델 | `nielsenadmodel` |
 | Nielsen 세그먼트 C | `nielsensegmentc` |
 | Nielsen 세그먼트 B | `nielsensegmentb` |
 | Nielsen 세그먼트 A | `nielsensegmenta` |

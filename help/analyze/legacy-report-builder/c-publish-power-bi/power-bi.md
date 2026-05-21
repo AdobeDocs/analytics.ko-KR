@@ -4,10 +4,16 @@ title: Power BI에 게시 - 개요
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/cbxgWbtfj-VSPgIoc9WTd3COG8EL6Vg-U-WRv11KZaY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 100%
+source-wordcount: 1181
+ht-degree: 77%
 
 ---
 
@@ -15,7 +21,7 @@ ht-degree: 100%
 
 {{legacy-arb}}
 
-Microsoft Power BI는 데이터를 분석하고 통찰력을 공유할 수 있는 비즈니스 분석 대시보드 세트입니다. Power BI와의 Adobe Analytics 통합을 통해 Microsoft Power BI 내에서 Report Builder Analytics 데이터를 시각화하고 조직에서 쉽게 공유할 수 있습니다.
+Microsoft Power BI은 데이터를 분석하고 통찰력을 공유하기 위한 비즈니스 분석 대시보드 세트입니다. Power BI과 Adobe Analytics 통합을 사용하면 Microsoft Power BI 내에서 Report Builder Analytics 데이터를 시각화하고 조직 간에 쉽게 공유할 수 있습니다.
 
 분석가의 경우 이전에는 이메일 또는 ftp를 사용하여 Report Builder 통합 문서 배포를 예약했습니다. 이제는 비즈니스 사용자 관련자들에게 플랫폼 및 디바이스에서 액세스할 수 있는 웹 기반 환경의 정확한 최신 데이터에 대한 액세스 권한을 Power BI 계정 내에서 제공할 수 있습니다.
 
@@ -34,17 +40,17 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
 **Report Builder에서 통합 문서 게시**
 
-1. Report Builder에서, 통합 문서를 생성하고 저장합니다.
+1. Report Builder에서 통합 문서를 생성하고 저장합니다.
 1. Report Builder 도구 모음에서 **[!UICONTROL 예약]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
-1. 기본 예약 마법사에서, **[!UICONTROL Microsoft Power BI에 통합 문서 게시]** 옆에 있는 상자를 선택합니다.
+1. 기본 예약 마법사에서 **[!UICONTROL Microsoft Power BI에 통합 문서 게시]** 옆에 있는 상자를 선택합니다.
 
    ![Microsoft Power BI에 통합 문서 게시 옵션을 확인하는 옵션을 보여 주는 Report Builder 예약 마법사 스크린샷.](assets/simple-schedule-wizard.png)
 
 1. 이메일을 지정하고 즉시 전송하거나 예약 빈도를 지정합니다 (시간별, 일별 등).
-1. **[!UICONTROL 확인]**&#x200B;을 클릭하여 게시합니다.
+1. 게시하려면 **[!UICONTROL 확인]**&#x200B;을 클릭하세요.
 1. 이제 Microsoft 계정에 로그인하라는 메시지가 표시됩니다. 자격 증명을 제공합니다.
-1. Report Builder 통합 문서가 예약되어 Power BI에 게시됩니다.
+1. Report Builder 통합 문서가 예약되고 Power BI에 게시됩니다.
 
    예약된 각 인스턴트의 Report Builder 예약 프로세스에서 업데이트된 Analytics 데이터를 사용하여 통합 문서가 새로 고침되면 통합 문서가 Microsoft Power BI에 게시됩니다.
 
@@ -66,7 +72,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
 전체 통합 문서를 가져오는 대신 통합 문서 내의 모든 형식이 지정된 테이블의 콘텐츠만 가져올 수 있습니다.
 
-**사용 사례**: 여러 Report Builder 요청에서 데이터를 가져오고 공식이 많은 요약 표를 만드는 Excel 통합 문서가 있을 경우, 요약 테이블만 Power BI에 가져오고 이를 위한 시각화를 생성할 수 있습니다.
+**사용 사례**: 여러 Report Builder 요청에서 데이터를 가져오고 수식이 많은 요약 표를 만드는 Excel 통합 문서가 있습니다. 요약 테이블만 Power BI에 가져오고 이를 위한 시각화를 생성할 수 있습니다.
 
 **Report Builder에서 형식이 지정된 테이블 게시**
 
@@ -88,7 +94,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
    ![보고서 생성을 강조 표시하는 Power BI 데이터 세트 메뉴를 표시하는 스크린샷.](assets/datasets-menu.png)
 
-1. 게시한 데이터 세트를 선택하고 그 옆에 있는 [!UICONTROL 보고서 만들기] 아이콘을 클릭합니다. 표가 필드로 나타납니다.
+1. 게시한 데이터 세트를 선택하고 옆에 있는 [!UICONTROL 보고서 만들기] 아이콘을 클릭합니다. 표는 필드로 표시됩니다.
 
    ![필드로서 테이블을 나열하는 선택한 게시된 데이터 세트를 표시하는 스크린샷.](assets/formatted-tables.png)
 
@@ -96,7 +102,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
    ![연결된 열이 포함된 선택한 테이블을 표시하는 스크린샷](assets/view-table-dataset.png)
 
-1. [!UICONTROL 시각화] 메뉴에서 Power BI에서 표를 시각화하는 방법을 선택할 수 있습니다. 예를 들어 데이터를 선 그래프로 표시하도록 선택할 수 있습니다.
+1. [!UICONTROL 시각화] 메뉴에서 Power BI에서 표를 시각화하는 방법을 선택할 수 있습니다. 예를 들어 데이터를 선 그래프로 나타내도록 선택할 수 있습니다.
 
    ![시각화 메뉴 및 데이터 선 그래프를 표시하는 스크린샷.](assets/bi-line-graph.png)
 
@@ -110,7 +116,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 >
 >통합 문서가 100개가 넘는 요청을 포함하는 경우, 처음 100개 요청만 Power BI에 게시됩니다. 또한 Power BI에 게시된 각 요청에 대해 데이터의 처음 10,000개 행만 게시됩니다. 따라서 이 요청이 예약을 통해 성공적으로 제공되면 Power BI에 대한 게시 범위가 제한됩니다.
 
-1. Report Builder에서 Report Builder 요청으로 통합 문서를 열거나 만듭니다.
+1. Report Builder에서 Report Builder 요청이 있는 통합 문서를 열거나 만듭니다.
 1. Report Builder 도구 모음에서 **[!UICONTROL 예약]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
 1. 기본 예약 마법사에서 **[!UICONTROL 고급 예약 옵션]**&#x200B;을 클릭합니다.
@@ -120,13 +126,13 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
 **Power BI에서 요청 데이터 보기**
 
-각각의 예약된 Report Builder 요청은 데이터 세트에서 표로 게시됩니다. 각 요청 표의 이름은 요청에서 기본 차원 다음에 지정되고 여기에는 [!UICONTROL 보고서 세트]와 [!UICONTROL 세그먼트] 열이 있습니다.
+예약된 각 Report Builder 요청은 데이터 세트에 표로 게시됩니다. 각 요청 테이블은 요청의 기본 차원 이름을 따라 지정되며 [!UICONTROL 보고서 세트] 및 [!UICONTROL 세그먼트] 열이 있습니다.
 
 1. Power BI에서 **[!UICONTROL Workspace]** > **[!UICONTROL 데이터 세트]** 메뉴로 이동합니다.
 
-1. 게시한 요청을 선택하고 그 옆에 있는 [!UICONTROL 보고서 만들기] 아이콘을 클릭합니다.
+1. 게시한 요청을 선택하고 옆에 있는 [!UICONTROL 보고서 만들기] 아이콘을 클릭합니다.
 
-   요청은 [!UICONTROL 필드] 메뉴에서 표로 나타납니다.
+   요청이 [!UICONTROL 필드] 메뉴에 표로 표시됩니다.
 
    ![2차원, 단일 머리글 행 형식으로 게시된 선택한 요청을 표시하는 스크린샷.](assets/published-requests.png)
 
@@ -134,6 +140,6 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
    >
    >워크시트에서 레이아웃 (표시되는 피벗 레이아웃, 사용자 정의 레이아웃, 일부 열)을 지정할 Report Builder 요청을 구성한 방법에 상관없이, Report Builder는 항상 동일한 2차원, 단일 머리글 행 형식 (날짜, 차원, 지표, 보고서 세트, 세그먼트)으로 요청을 게시합니다.
 
-1. 또한 **[!UICONTROL 범례]**&#x200B;라는 추가적인 표가 있습니다. 요청을 Report Builder 컨텍스트에서 떨어뜨리면 각 요청이 나타내는 사항을 기억하기 어려울 수 있습니다. 범례 테이블의 목적은 테이블 ID 아래에 각 요청의 이름을 사용자에게 보여 주는 것입니다. 다른 범례 열을 추가하여 요청의 전체 모습을 알 수도 있습니다.
+1. 또한 **[!UICONTROL 범례]**&#x200B;라는 추가 테이블이 있습니다. 요청을 Report Builder 컨텍스트에서 떨어뜨리면 각 요청이 나타내는 사항을 기억하기 어려울 수 있습니다. 범례 테이블의 목적은 테이블 ID 아래에 각 요청의 이름을 사용자에게 보여 주는 것입니다. 다른 범례 열을 추가하여 요청의 전체 보기를 가져올 수도 있습니다.
 
    ![테이블 ID 아래에 각 요청의 이름을 보여 주는 범례 테이블을 표시하는 스크린샷.](assets/legend-table.png)

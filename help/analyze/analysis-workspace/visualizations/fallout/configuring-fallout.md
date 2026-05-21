@@ -4,10 +4,15 @@ title: 폴아웃 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 121fac9958dc34be513a23d5c3ad76d5f0e6b665
+TQID: https://experienceleague.adobe.com/878FKpZVmm9-cCzRv0liWtppRRnHV3NqU1fMneDz4EU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 35%
+source-wordcount: 898
+ht-degree: 32%
 
 ---
 
@@ -95,13 +100,13 @@ ht-degree: 35%
 | **[!UICONTROL 터치포인트 트렌드]** | 터치포인트에 대한 트렌드 데이터를 사전 빌드된 일부 예외 항목 탐지 데이터가 있는 선 그래프로 확인하십시오. |
 | **[!UICONTROL 터치포인트 트렌드(%)]** | 총 폴아웃 비율의 트렌드를 표시합니다. |
 | **[!UICONTROL 모든 터치포인트의 트렌드 표시(%)]** | 동일한 차트에서 폴아웃(**[!UICONTROL 모든 방문자]**&#x200B;가 포함된 경우 제외)의 모든 터치포인트 비율 트렌드를 표시합니다. |
-| **[!UICONTROL 이 터치포인트에서 분류 폴스루]** | 방문자가 다음 터치포인트로 계속 이동하는 경우 두 터치포인트 (이 터치포인트와 다음 터치포인트) 간 수행한 작업을 봅니다. 이 옵션을 사용하면 차원을 표시하는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 바꿀 수 있습니다. 예를 들어, 레이블이 **[!UICONTROL 폴스루: 모든 방문자 > 페이지가 홈]** 중 하나와 같고 차원으로 **[!UICONTROL 페이지]**&#x200B;와 지표로 **[!UICONTROL 프로젝트 전용 빠른 세그먼트]** [폴스루: 모든 방문자 > 페이지가 홈](/help/components/segmentation/segmentation-workflow/seg-quick.md) 중 하나와 같음&#x200B;**[!UICONTROL 고유 방문자]**&#x200B;를 포함하는 테이블이 있습니다. 세그먼트를 검사하여 폴스루 세그먼트가 결정되는 방법을 이해합니다. |
-| 이 터치포인트에서 **[!UICONTROL 분류 폴아웃]** | funnel을 통과하지 않은 방문자가 선택한 단계 직후 수행한 작업을 확인합니다. 이 옵션을 사용하면 차원을 표시하는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 바꿀 수 있습니다. 예를 들어, 레이블이 **[!UICONTROL 폴아웃: 모든 방문자 > 페이지는 모든 홈]**&#x200B;과 같으며 차원으로 **[!UICONTROL 페이지]**&#x200B;과(와) 지표로 **[!UICONTROL 프로젝트 전용 빠른 세그먼트]** [폴스루: 모든 방문자 > 페이지가 홈](/help/components/segmentation/segmentation-workflow/seg-quick.md) 세그먼트 중 하나와 같다는 **[!UICONTROL 고유 방문자]**&#x200B;를 포함하는 테이블이 있습니다. 세그먼트를 검사하여 폴아웃 세그먼트가 결정되는 방식을 이해합니다. |
+| **[!UICONTROL 이 터치포인트에서 분류 폴스루]** | 방문자가 다음 터치포인트로 계속 이동하는 경우 두 터치포인트 (이 터치포인트와 다음 터치포인트) 간 수행한 작업을 봅니다. 이 옵션을 사용하면 차원을 표시하는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 바꿀 수 있습니다. 예를 들어, 레이블이 **[!UICONTROL 폴스루: 모든 방문자 > 페이지가 홈]** 중 하나와 같고 차원으로 **[!UICONTROL 페이지]**&#x200B;와 지표로 [프로젝트 전용 빠른 세그먼트](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL 폴스루: 모든 방문자 > 페이지가 홈]** 중 하나와 같음&#x200B;**[!UICONTROL 고유 방문자]**&#x200B;를 포함하는 테이블이 있습니다. 세그먼트를 검사하여 폴스루 세그먼트가 결정되는 방법을 이해합니다. |
+| 이 터치포인트에서 **[!UICONTROL 분류 폴아웃]** | funnel을 통과하지 않은 방문자가 선택한 단계 직후 수행한 작업을 확인합니다. 이 옵션을 사용하면 차원을 표시하는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 바꿀 수 있습니다. 예를 들어, 레이블이 **[!UICONTROL 폴아웃: 모든 방문자 > 페이지는 모든 홈]**&#x200B;과 같으며 차원으로 **[!UICONTROL 페이지]**&#x200B;과(와) 지표로 [프로젝트 전용 빠른 세그먼트](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL 폴스루: 모든 방문자 > 페이지가 홈]** 세그먼트 중 하나와 같다는 **[!UICONTROL 고유 방문자]**&#x200B;를 포함하는 테이블이 있습니다. 세그먼트를 검사하여 폴아웃 세그먼트가 결정되는 방식을 이해합니다. |
 | **[!UICONTROL 터치포인트에서 세그먼트 만들기]** | 선택한 터치포인트에서 새 세그먼트를 만듭니다. |
 
 >[!MORELIKETHIS]
 >
->[패널 내에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[시각화 컨텍스트 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

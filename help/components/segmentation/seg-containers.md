@@ -4,13 +4,18 @@ keywords: 세그먼테이션;세그먼트
 title: 세그먼트 컨테이너
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '3564'
+source-wordcount: 3545
 ht-degree: 96%
 
 ---
-
 
 # 세그먼트 컨테이너
 
@@ -47,7 +52,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 컨테이너](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -81,7 +86,7 @@ ht-degree: 96%
 히트 컨테이너에는 단일 페이지 분류에 따른 값이 포함되어 있습니다.
 
 - 제품
-- 목록 Props
+- 모든 prop
 - 목록 eVar
 - 머천다이징 eVar (이벤트 컨텍스트)
 

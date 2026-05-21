@@ -4,9 +4,15 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/JuuU7Hs7JTl4Q9qOlfcYHvlpGHxHea-56K3N-3CKZos
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: 1691
 ht-degree: 86%
 
 ---
@@ -175,7 +181,7 @@ ht-degree: 86%
 | **[!UICONTROL 항목 제외]** 또는 **[!UICONTROL 제외된 항목 복원]** | 열에서 특정 노드를 제거하고 열 맨 위에 필터로 자동으로 만듭니다. 제외된 항목을 복원하려면 컨텍스트 메뉴에서 **[!UICONTROL 제외된 항목 복원]**&#x200B;을 선택합니다. 또한 열의 맨 위에 있는 필터를 열고 방금 제외한 항목이 있는 필박스를 제거할 수도 있습니다. |
 | **[!UICONTROL 트렌드]** | 노드에 대한 트렌드 다이어그램을 만듭니다. |
 | **[!UICONTROL 다음 열 표시]** / **[!UICONTROL 이전 열 표시]** | 시각화의 다음(오른쪽) 또는 이전(왼쪽) 열을 표시합니다. |
-| **[!UICONTROL 열 숨기기]**&#x200B;n | 시각화에서 선택한 열을 숨깁니다. |
+| **[!UICONTROL 열 숨기기]**n | 시각화에서 선택한 열을 숨깁니다. |
 | **[!UICONTROL 전체 열 확장]** | 열을 확장하여 모든 노드를 표시합니다. 기본적으로 상위 5개 노드만 표시됩니다. |
 | **[!UICONTROL 선택 항목으로 대상자 만들기]** | 선택된 열에 따라 대상자를 만듭니다. |
 | **[!UICONTROL 전체 열 축소]** | 열에 있는 모든 노드를 숨깁니다. |

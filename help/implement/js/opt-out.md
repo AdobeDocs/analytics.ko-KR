@@ -5,10 +5,16 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
+TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 67%
+source-wordcount: 638
+ht-degree: 65%
 
 ---
 
@@ -16,12 +22,11 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> 이 문서에서는 웹 사이트에서 Adobe Analytics을 구현&#x200B;**할** Adobe Analytics 고객에게 웹 사이트 사용자에게 옵트아웃 링크를 제공하는 방법에 대한 지침을 제공합니다. <p><p>
-> **Adobe Analytics을 구현한 웹 사이트를 방문하는 중**&#x200B;이고 옵트아웃하려는 경우 **<span style="color:red">이 문서는 사용자의 것이 아닙니다</span>**. Adobe에서 회원님의 정보를 사용하는 방법을 제어하려면 [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html)을 참조하세요.
+> 이 문서에서는 웹 사이트에서 Adobe Analytics을 구현&#x200B;**할** Adobe Analytics 고객에게 웹 사이트 사용자에게 옵트아웃 링크를 제공하는 방법에 대한 지침을 제공합니다. <p><p>> **Adobe Analytics을 구현한 웹 사이트를 방문하는 중**&#x200B;이고 옵트아웃하려는 경우 **<span style="color:red">이 문서는 사용자의 것이 아닙니다</span>**. Adobe에서 회원님의 정보를 사용하는 방법을 제어하려면 [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html)을 참조하세요.
 
 웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe은 웹 사이트 방문자가 분석 대상 정보를 옵트아웃할 수 있는 기능을 제공합니다.
 
-옵트아웃 링크는 웹 사이트 방문자가 Analytics 보고에서 데이터를 생략하도록 허용하는 방법입니다. 이러한 링크는 AppMeasurement 구현으로 제한됩니다. Adobe에서는 대신 [Adobe Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)를 사용하는 것이 좋습니다. 옵트인 서비스는 보다 강력하며 Adobe Analytics 및 AppMeasurement을 포함한 여러 Adobe Experience Cloud 제품에서 작동합니다.
+옵트아웃 링크는 웹 사이트 방문자가 Analytics 보고에서 데이터를 생략하도록 허용하는 방법입니다. 이러한 링크는 AppMeasurement 구현으로 제한됩니다. Adobe에서는 대신 [Adobe CX 엔터프라이즈 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)를 사용하는 것이 좋습니다. 옵트인 서비스는 보다 강력하며 Adobe Analytics 및 AppMeasurement을 비롯한 여러 Adobe CX 엔터프라이즈 제품에서 작동합니다.
 
 방문자가 옵트아웃 URL에 도달하면 옵트아웃 쿠키를 설치하라는 메시지가 표시됩니다. 사용자가 추적되지 않도록 선택하고 옵트아웃 쿠키가 설정된 경우 AppMeasurement은 Adobe으로 데이터를 계속 전송합니다. 하지만 이 데이터는 처리되거나 보고서에 포함되지 않습니다.
 
@@ -43,9 +48,9 @@ ht-degree: 67%
    1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
    1. `trackingServer` 변수 값을 확인합니다.
 
-* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ko) 사용:
+* [Adobe CX Enterprise Debugger 사용](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
-   1. Experience Cloud Debugger를 열고 [!UICONTROL 네트워크 탭]으로 이동합니다.
+   1. CX 엔터프라이즈 디버거를 연 다음 [!UICONTROL 네트워크 탭]&#x200B;(으)로 이동합니다.
    1. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
 
 구현의 `trackingServer` 도메인을 찾으면 경로 `/optout.html`을 끝에 추가합니다. 예:

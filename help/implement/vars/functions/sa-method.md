@@ -4,10 +4,14 @@ description: 구현에서 언제든지 보고서 세트를 변경합니다.
 feature: Appmeasurement Implementation
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/aXnW1J-jlBhItkstKeO7gyp8zQw5qotZpY95WMSELWU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 42%
+source-wordcount: 447
+ht-degree: 44%
 
 ---
 
@@ -32,9 +36,9 @@ ht-degree: 42%
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음 **[!UICONTROL Adobe Experience Platform Web SDK]** 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음 [!UICONTROL Adobe Experience Platform Web SDK] 아래의 **[!UICONTROL 구성]** 단추를 클릭합니다.
 1. [!UICONTROL 데이터스트림]에서 각 환경의 드롭다운 목록에서 원하는 데이터스트림을 선택합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장을]** 클릭합니다.
 
 ## 웹 SDK을 수동으로 구현하여 원하는 데이터 스트림 설정
 

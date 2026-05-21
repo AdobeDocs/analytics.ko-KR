@@ -4,19 +4,24 @@ description: Amazon Alexa 또는 Google Home과 같은 Digital Assistant에 Adob
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/7OjV45T7dNKjgFkjdq8C-y4kISqd4kycvVDk5RyLF0s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 97%
+source-wordcount: 1284
+ht-degree: 80%
 
 ---
 
 # Analytics for Digital Assistants 구현
 
-클라우드 컴퓨팅, 기계 학습 및 자연어 처리 분야의 최근 발전을 통해 Digital Assistant는 일상 생활의 일부가 되고 있습니다. 소비자는 디바이스와 대화를 시작하고 디바이스가 인간과 같은 방식으로 이해하고 반응하기를 기대하고 있습니다. 디지털 도우미 플랫폼이 더욱 확실히 자리를 잡아가면서 관련 서비스 제공업체들은 사실적이며 실제와 같이 서비스를 소비자에게 제공할 수 있게 되었습니다. 예를 들면 소비자는 다음과 같은 작업을 요청할 수 있습니다.
+클라우드 컴퓨팅, 기계 학습 및 자연어 처리 분야의 최근 발전을 통해 Digital Assistant는 일상 생활의 일부가 되고 있습니다. 소비자는 디바이스와 대화를 시작하고 디바이스가 인간과 같은 방식으로 이해하고 반응하기를 기대하고 있습니다. 디지털 도우미 플랫폼이 더욱 확실히 자리를 잡아가면서 관련 서비스 제공업체들은 사실적이며 실제와 같이 서비스를 소비자에게 제공할 수 있게 되었습니다. 예를 들어, 소비자는 다음과 같은 질문을 할 수 있습니다.
 
-* &quot;Alexa, 자동차 오일을 바꿔야 하는지 확인해 봐.&quot;
-* &quot;Cortana, 내 결제 계좌의 잔액이 얼마야?&quot;
+* &quot;알렉사, 내 차에 오일 교환이 필요할 때 물어보세요.&quot;
+* &quot;Cortana, 내 당좌 예금 잔액이 얼마야?&quot;
 * &quot;Siri야, 내 뱅킹 앱에서 어제 저녁 값으로 존에게 20달러 보내 줘.&quot;
 
 이 페이지에서는 Adobe Analytics를 사용하여 이러한 유형의 환경을 평가하고 최적화하는 방법에 대한 개요를 제공합니다.
@@ -28,12 +33,12 @@ ht-degree: 97%
 오늘날 대부분의 Digital Assistant는 다음과 유사한 높은 수준의 아키텍처를 따릅니다.
 
 1. **디바이스**: 사용자가 질문을 할 수 있는 마이크가 있는 디바이스 (예: Amazon Echo 또는 전화기)가 있습니다.
-1. **Digital Assistant**: 이 디바이스는 Digital Assistant를 구동하는 서비스와 상호 작용합니다. 여기서 음성은 시스템이 이해할 수 있는 의도로 변환되고 요청 세부 사항이 구문 분석됩니다. 사용자의 의도를 이해한 경우 Digital Assistant가 의도 및 요청 세부 사항을 요청을 처리하는 앱에 전달합니다.
-1. **&quot;앱&quot;**: 앱은 전화기의 앱 또는 음성 앱일 수 있습니다. 앱이 요청에 응답합니다. 앱이 Digital Assistant에 응답하면 Digital Assistant가 사용자에게 응답합니다.
+1. **Digital Assistant**: 이 디바이스는 Digital Assistant를 구동하는 서비스와 상호 작용합니다. 이 단계에서 음성을 기계가 이해할 수 있는 의도로 전환하고 요청의 세부 사항을 구문 분석합니다. 사용자의 의도가 이해되면 Digital Assistant는 의도 및 요청 세부 사항을 요청을 처리하는 앱에 전달합니다.
+1. **&quot;앱&quot;**: 앱은 전화기의 앱 또는 음성 앱일 수 있습니다. 앱은 요청에 응답할 책임이 있습니다. 이는 Digital Assistant에 응답하고 Digital Assistant는 사용자에 응답합니다.
 
 ## Analytics 구현 위치
 
-Analytics를 구현하는 가장 적합한 위치 중 하나가 앱입니다. 이 앱은 Digital Assistant로부터 의도와 세부 사항을 받은 다음, 응답하는 방법을 결정합니다.
+Analytics를 구현하는 가장 좋은 위치 중 하나는 앱에 있습니다. 이 앱은 Digital Assistant로부터 의도와 세부 사항을 받은 다음, 응답하는 방법을 결정합니다.
 
 요청 중에는 Adobe Analytics에 데이터를 전송하는 데 도움이 될 수 있는 두 번의 시기가 있습니다.
 
@@ -87,11 +92,11 @@ Cache-Control: no-cache
 
 ## 세션
 
-Digital Assistant는 대화식이므로 세션의 개념이 있습니다. 예:
+Digital Assistant는 대화형이므로 세션 개념이 있는 경우가 많습니다. 예:
 
-**소비자:** &quot;Ok Google, 택시를 불러 줘.&quot;
+**소비자:** &quot;Google 확인, 택시 좀 불러 주세요&quot;
 
-**Google:** &quot;예, 몇 시에 불러드릴까요?&quot;
+**Google:**: &quot;몇 시로 하시겠습니까?&quot;
 
 **소비자:** &quot;8:30pm&quot;
 
@@ -110,7 +115,7 @@ Cache-Control: no-cache
 
 ## 의도
 
-각 Digital Assistant에는 의도를 감지한 다음 &quot;앱&quot;에 그 의도를 전달하는 알고리즘이 있으므로 앱이 수행할 작업을 알고 있습니다. 이러한 의도는 요청의 간결한 표현입니다.
+각 Digital Assistant에는 의도를 감지한 다음 그 의도를 &quot;앱&quot;에 전달하는 알고리즘이 있어 앱이 무엇을 해야 하는지 알 수 있습니다. 이러한 의도는 요청을 간결하게 표현한 것입니다.
 
 예를 들어 사용자가 &quot;Siri야, 내 뱅킹 앱에서 어제 저녁 값으로 존에게 20달러 보내 줘.&quot;라고 말하면 의도는 *sendMoney*&#x200B;와 같을 수 있습니다.
 
@@ -135,8 +140,8 @@ Cache-Control: no-cache
 의도 외에, Digital Assistant에는 종종 의도의 세부 사항을 제공하는 키/값 쌍 세트가 있습니다. 이를 슬롯, 엔티티 또는 매개변수라고 할 수 있습니다. 예를 들어 &quot;Siri야, 내 뱅킹 앱에서 어제 저녁 값으로 존에게 20달러 보내 줘.&quot;에는 다음과 같은 매개변수가 있습니다.
 
 * Who = John
-* Amount = 20
-* Why = Dinner
+* 금액 = 20
+* 이유 = 저녁 식사
 
 일반적으로 앱에는 유한한 수의 이러한 값이 있습니다. Analytics에서 이러한 값을 추적하려면 컨텍스트 데이터 변수로 보낸 다음, 각 매개변수를 eVar에 매핑하십시오.
 
@@ -160,7 +165,7 @@ Cache-Control: no-cache
 
 ## 디바이스 기능
 
-대부분의 플랫폼은 사용자가 말한 디바이스를 노출하지 않지만 디바이스의 기능은 노출합니다. 예를 들어 오디오, 화면, 비디오 등과 같은 기능이 있을 수 있습니다. 이 정보는 사용자와 상호 작용할 때 사용할 수 있는 콘텐츠 유형을 정의하므로 유용합니다. 디바이스 기능을 평가할 때는 기능들을 알파벳순으로 연결하는 것이 가장 좋습니다.
+대부분의 플랫폼은 사용자가 말한 디바이스를 노출하지 않지만 디바이스의 기능은 노출합니다. 예를 들어 오디오, 화면, 비디오 등이 있습니다. 이 정보는 사용자와 상호 작용할 때 사용할 수 있는 콘텐츠 유형을 정의하므로 유용합니다. 디바이스 기능을 평가할 때는 기능들을 알파벳순으로 연결하는 것이 가장 좋습니다.
 
 예: `":Audio:Camera:Screen:Video:"`
 
@@ -171,7 +176,7 @@ Cache-Control: no-cache
 
 ## 예
 
-| 사람 | 디바이스 응답 | 작업/의도 | GET 요청 |
+| 개인 | 디바이스 응답 | 작업/의도 | GET 요청 |
 |---|---|---|---|
 | Spoofify 설치 | 응답 없음 | 설치 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
 | Spoofify 재생 | &quot;예, Spoofify를 재생합니다&quot; | 재생 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |

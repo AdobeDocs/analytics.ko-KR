@@ -3,9 +3,13 @@ title: 데이터 피드 문제 해결
 description: 데이터 피드 작업이 데이터를 처리하거나 전달하지 못할 수 있는 이유에 대해 알아봅니다. 데이터 피드로 잠재적 문제를 해결합니다.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+TQID: https://experienceleague.adobe.com/JkayhoeQk24AwoDkz25lvZBzq-xNcFjW6l-cN-TwuKk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 471
 ht-degree: 95%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 95%
 
 매시간 또는 매일 정상적으로 작동하는 데이터 피드가 최근에 실패할 경우 다음의 각 사항을 확인합니다.
 
-* [Adobe 상태 도구](https://status.adobe.com/ko-kr/experience_cloud)를 사용하면 예정된 관리 기간 또는 이용도 문제가 있는지 확인할 수 있습니다. 해당 시점에 알려진 문제가 있을 경우 Adobe는 일단 서비스가 복구되면 자동으로 예정된 데이터 피드를 처리합니다.
+* [Adobe 상태 도구](https://status.adobe.com/en/experience_cloud)를 사용하면 예정된 관리 기간 또는 이용도 문제가 있는지 확인할 수 있습니다. 해당 시점에 알려진 문제가 있을 경우 Adobe는 일단 서비스가 복구되면 자동으로 예정된 데이터 피드를 처리합니다.
 * FTP 사이트에 충분한 사용 공간이 있는지 확인하십시오. FTP 사이트의 디스크 공간이 부족할 경우 서버에서 일부 파일을 삭제해서 새로운 파일을 위한 공간을 만드십시오.
 * 알려진 문제가 없고 FTP 사이트의 디스크 공간이 충분하면 데이터 피드를 다시 전송할 수 있습니다.
 

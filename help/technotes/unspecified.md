@@ -3,10 +3,16 @@ description: Adobe Analytics의 다양한 보고서에는 조회하는 보고서
 title: 보고에서 지정되지 않음, 없음, 기타 및 알 수 없음
 feature: Analytics Basics
 exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
-source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
+TQID: https://experienceleague.adobe.com/JWT1oVZ-3Qcg9IxtPcEw9R9b8WHpe0O5GhDb3q-l7jo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 96%
+source-wordcount: 527
+ht-degree: 88%
 
 ---
 
@@ -28,7 +34,7 @@ Adobe Analytics의 다양한 보고서에는 조회하는 보고서에 따라 &q
 보고에서 드문 경우이긴 하지만 &quot;기타&quot;는 다음과 같은 여러 상황에서 발생할 수 있습니다.
 
 * **페이지가 내부 URL 필터 외부에서 실행됨:** 이 값은 다른 조직이 소스 코드를 훔쳐서 자체 사이트에서 구현하는 경우와 같이 데이터 사기를 방지하기 위해 사용됩니다. 이 문제를 해결하려면 코드가 구현된 모든 URL이 보고서 세트 설정의 내부 URL 필터와 일치하는지 확인합니다.
-* **자주 사용되지 않는 브라우저를 사용하는 방문자:** 브라우저 유형 보고서에서 방문자가 일반적으로 사용되지 않는 브라우저 유형을 사용하는 경우 &quot;기타&quot;가 분류로 표시됩니다. 브라우저를 만드는 조직은 많습니다. 규모가 큰 조직에서 만들지 않은 모든 브라우저는 보고서가 불필요하게 되지 않도록 &quot;기타&quot;로 그룹화됩니다.
+* **자주 사용하지 않는 브라우저를 사용하는 방문자:** 방문자가 자주 사용하는 브라우저 유형이 아닌 브라우저를 사용하는 경우 브라우저 유형 보고서에서 &quot;기타&quot;가 분류로 표시됩니다. 브라우저를 생산하는 조직이 많이 있습니다. 규모가 큰 조직에서 만들지 않은 모든 브라우저는 보고서가 불필요하게 되지 않도록 &quot;기타&quot;로 그룹화됩니다.
 
 ## 보고의 &quot;알 수 없음&quot; {#unknown}
 

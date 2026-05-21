@@ -4,10 +4,14 @@ description: Adobe에 히트를 보낸 후 콜백 함수를 만듭니다.
 feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/gBtDAy-MkoRGQNdG2L2zNp7jX8OjpZGAMnyRstgX6z0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 73%
+source-wordcount: 367
+ht-degree: 70%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 73%
 
 >[!WARNING]
 >
->[`t()`](t-method.md) 변수 내에서 [`tl()`](tl-method.md) 또는 `registerPostTrackCallback`과(와) 같은 추적 호출을 하지 마십시오. 이 변수에서 추적 호출을 설정하면 이미지 요청의 무한 루프가 발생합니다.
+>`registerPostTrackCallback` 변수 내에서 [`t()`](t-method.md) 또는 [`tl()`](tl-method.md)과(와) 같은 추적 호출을 하지 마십시오. 이 변수에서 추적 호출을 설정하면 이미지 요청의 무한 루프가 발생합니다.
 
 `registerPostTrackCallback` 변수를 호출할 때마다 이미지 요청이 성공적으로 전송된 직후 해당 함수를 실행하도록 후크합니다. 동일한 페이지 로드에서 동일한 함수를 여러 번 등록하지 마십시오.
 
@@ -41,7 +45,7 @@ alloy("sendEvent",{
 });
 ```
 
-자세한 내용은 웹 SDK 설명서의 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#handling-responses-from-events)를 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)를 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 사후 추적 콜백 등록
 

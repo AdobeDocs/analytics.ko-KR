@@ -5,10 +5,16 @@ title: 성공 이벤트 개요
 feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/wOWG6t9fsrfkd4FE-BNkwIrPW6DEGxBKDc2XItyRaoc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 36%
+source-wordcount: 962
+ht-degree: 35%
 
 ---
 
@@ -16,7 +22,7 @@ ht-degree: 36%
 
 성공 이벤트(전환 이벤트 또는 사용자 지정 이벤트라고도 함)는 추적할 수 있는 작업입니다. 성공 이벤트가 무엇인지 결정합니다. 예를 들어 방문자가 품목을 구매하면 구매 이벤트를 성공 이벤트로 간주할 수 있습니다.
 
-성공 이벤트에 대한 비디오 개요는 Analytics 자습서 안내서에서 [전환 이벤트 소개](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)를 참조하십시오.
+성공 이벤트에 대한 비디오 개요는 Analytics 자습서 안내서에서 [전환 이벤트 소개](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)를 참조하십시오.
 
 ## 성공 이벤트 예
 
@@ -70,8 +76,8 @@ ht-degree: 36%
 
    | 설정 | 다음에서 표시: | 에 표시되지 않음 |
    |---------|----------|---------|
-   | [!UICONTROL **항상 표시**] | <ul><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> | 해당 없음 |
-   | [!UICONTROL **빌더**] | <ul><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li><li>Analysis Workspace</li></ul> |  |
+   | [!UICONTROL **항상 표시**] | <ul><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> | 해당 사항 없음 |
+   | [!UICONTROL **빌더**] | <ul><li>세그먼트 빌더</li><li>계산된 지표 빌더</li><li>Analysis Workspace</li></ul> |  |
    | [!UICONTROL **항상 숨김**] | 해당 사항 없음 | <ul><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> |
 
 1. [!UICONTROL **설명**] 열에서 확인란을 선택한 다음 설명을 제공합니다.

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드와 Data Warehouse를 사용해 데이터 출력을 검색하는 방법에 대해 알아봅니다.
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 99%
+source-wordcount: '267'
+ht-degree: 94%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 99%
    + [Data Warehouse에서 지원되는 구성 요소](data-warehouse/component-support.md)
    + [Data Warehouse 모범 사례](data-warehouse/data-warehouse-bp.md)
 + FTP 및 SFTP {#ftp-and-sftp}
-   + [Adobe Experience Cloud와 FTP 및 SFTP 사용](ftp-and-sftp/ftp-overview.md)
+   + [Adobe CX Enterprise와 FTP 및 SFTP 사용](ftp-and-sftp/ftp-overview.md)
    + Adobe에서 호스팅하는 FTP 계정 설정 {#set-up-ftp-accounts}
       + [FTP 계정 설정 - 개요](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [분류](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
@@ -73,4 +73,4 @@ ht-degree: 99%
       + [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [SFTP 서버로 Data Warehouse 요청 보내기](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [SFTP를 통해 암호 없이 Adobe에 연결](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Adobe Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)
++ [ADOBE ANALYTICS API](https://developer.adobe.com/analytics-apis/docs/2.0/)

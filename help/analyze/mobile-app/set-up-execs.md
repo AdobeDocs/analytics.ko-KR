@@ -4,10 +4,16 @@ title: 앱을 사용하여 경영진 준비
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+TQID: https://experienceleague.adobe.com/mejoGlgRAOHkpBAXtlVef4LcheWPXtg9TT7hHYIPtHU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: 755
+ht-degree: 96%
 
 ---
 
@@ -17,7 +23,7 @@ ht-degree: 100%
 
 ## 앱 사용자에게 Adobe Analytics 액세스 권한 부여
 
-1. [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md)에서 새 사용자를 설정합니다.
+1. [CX Enterprise Admin Console](/help/admin/admin-console/permissions/product-profile.md)에서 새 사용자를 설정합니다.
 
 1. 스코어카드를 공유할 수 있으려면 앱 사용자에게 Analysis Workspace, 스코어카드의 기반이 되는 보고서 세트, 세그먼트, 지표 및 차원과 같은 구성 요소에 액세스할 수 있는 권한을 부여해야 합니다.
 
@@ -54,7 +60,7 @@ ht-degree: 100%
 
    **[!UICONTROL 회사 선택]** 화면이 표시됩니다. 이 화면에 경영진 사용자가 속한 로그인 회사가 나열됩니다.
 
-1. 공유한 스코어카드에 적용되는 로그인 회사 또는 Experience Cloud 조직의 이름을 경영진이 탭하도록 합니다.
+1. 공유한 스코어카드에 적용되는 로그인 회사 또는 CX 엔터프라이즈 조직의 이름을 경영진이 탭하도록 합니다.
 
    스코어카드 목록에는 해당 로그인 회사 아래에 경영진과 공유된 모든 스코어카드가 표시됩니다.
 
@@ -75,7 +81,7 @@ ht-degree: 100%
 
 타일에 대한 추가 정보:
 
-* 스파크라인의 세부기간은 날짜 범위의 길이에 따라 달라집니다.
+* 스파크라인의 세부 기간은 날짜 범위의 길이에 따라 달라집니다.
 * 하루는 시간별 트렌드를 표시함
    * 이틀 이상 및 1년 미만은 일별 트렌드를 표시함
    * 1년 이상은 주별 트렌드를 표시함

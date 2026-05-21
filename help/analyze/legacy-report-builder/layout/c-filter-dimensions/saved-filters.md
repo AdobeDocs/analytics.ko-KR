@@ -5,10 +5,14 @@ uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
 role: User, Admin
 exl-id: 0986b6e3-8708-4513-af8d-523fe7e616a3
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/yISnYE1C3fJ36n1EhWfoKHEF3kf9pKcge15hvlbB7PM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 14%
+source-wordcount: 118
+ht-degree: 3%
 
 ---
 
@@ -18,6 +22,6 @@ ht-degree: 14%
 
 Report Builder에서 필터 또는 기타 매개 변수를 저장하고 다른 워크시트 또는 통합 문서에서 사용할 수 있습니다. 이러한 매개 변수는 다른 컴퓨터의 다른 Report Builder 사용자가 사용할 수 있도록 Analytics에 저장됩니다.
 
-필터를 만들면 [!UICONTROL 페이지 선택] 양식에서 필터를 저장합니다. 이 프로시저의 예제는 [특정 필터](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)를 참조하십시오.
+필터를 만들 때 [!UICONTROL 페이지 선택] 양식에 필터를 저장합니다. 이 프로시저의 예제는 [특정 필터](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)를 참조하십시오.
 
 ![가장 자주 사용하는 필터, 특정 필터 및 저장된 필터 페이지 옵션 선택 양식 스크린샷](assets/choose_page_saved.png)

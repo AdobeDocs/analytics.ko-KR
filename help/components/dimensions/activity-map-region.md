@@ -4,9 +4,15 @@ description: 클릭한 사이트의 영역입니다.
 feature: Dimensions
 role: User, Admin
 exl-id: e262e537-ce73-492a-8ab3-b88cd77cb8c5
-source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
+TQID: https://experienceleague.adobe.com/mmLp5-dgKGeovIOMPZxliyhfbpUSMLXca-3Qs6QA0SA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 5%
 
 ---
@@ -22,7 +28,7 @@ ht-degree: 5%
 클릭된 특정 링크에 대해 상위 DOM 요소에서 다음 (순서대로)을 확인하십시오.
 
 * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)이(가) 설정한 특성 값 - 기본적으로 `id` 특성으로 설정됨
-* `aria-label` 특성을 사용하는 경우 `role="region"` 특성의 값입니다.
+* `role="region"` 특성을 사용하는 경우 `aria-label` 특성의 값입니다.
 * 의미 체계 요소 `<header>`, `<main>`, `<footer>` 또는 `<nav>`(웹 SDK 전용)
 
 상위 DOM 요소가 위의 기준 중 어느 것도 충족하지 않는 경우 DOM 계층 위쪽으로 계속 재귀적으로 검색합니다. 일치하는 요소가 없으면 값 `BODY`이(가) 반환됩니다.

@@ -5,20 +5,24 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/sLCDl784a7PTv9SUWUj7sc1z-hmfjrP3AzRNeVqtuSU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 96%
+source-wordcount: 1082
+ht-degree: 90%
 
 ---
-
 
 # 행 설정
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -28,7 +32,7 @@ ht-degree: 96%
 
 | 설정 | 설명 |
 | --- | --- |
-| **[!UICONTROL 위치별 분류]** | 기본적으로 이 설정은 비활성화되며 분류는 정적 행 항목에 고정됩니다. 예를 들어 마케팅 채널별로 상위 3개 페이지 차원 항목(홈 페이지, 검색 결과, 체크아웃)을 분류한다고 가정합니다. 그런 다음 프로젝트를 떠났다가 2주 후에 돌아옵니다. 프로젝트를 다시 열면 상위 3개 페이지가 변경되고 대신 이제 홈 페이지, 검색 결과 및 체크아웃이 상위 4-6개 페이지가 됩니다. 기본적으로 마케팅 채널 분류는 4-6행에 있는 경우에도 여전히 홈 페이지, 검색 결과 및 체크아웃 아래에 표시됩니다. <br> 반면 **위치별 분류**&#x200B;는 상위 3개 항목이 무엇인지에 관계없이 항상 상위 3개 항목을 분류합니다. 예를 다시 참조하면, 프로젝트를 다시 열면 마케팅 채널 분류가 표의 상위 3페이지에 연결됩니다. 홈 페이지, 검색 결과 및 체크아웃은 이제 4~6행에 있습니다. |
+| **[!UICONTROL 위치별 분류]** | 기본적으로 이 설정은 비활성화되며 분류는 정적 행 항목에 고정됩니다. 예를 들어 마케팅 채널별로 상위 3개 페이지 차원 항목(홈 페이지, 검색 결과, 체크아웃)을 분류한다고 가정합니다. 그런 다음 프로젝트를 떠났다가 2주 후에 돌아옵니다. 프로젝트를 다시 열면 상위 3개 페이지가 변경되고 대신 이제 홈 페이지, 검색 결과 및 체크아웃이 상위 4-6개 페이지가 됩니다. 기본적으로 마케팅 채널 분류는 4-6행에 있는 경우에도 여전히 홈 페이지, 검색 결과 및 체크아웃 아래에 표시됩니다. <br> 반면 **위치별 분류**&#x200B;은(는) 상위 3개 항목이 무엇인지에 관계없이 항상 상위 3개 항목을 분류합니다. 예를 다시 참조하면, 프로젝트를 다시 열면 마케팅 채널 분류가 표의 상위 3페이지에 연결됩니다. 홈 페이지, 검색 결과 및 체크아웃은 이제 4~6행에 있습니다. |
 | **[!UICONTROL 백분율]** | **열별 백분율 계산**(기본값): 셀에 표시되는 백분율은 열 합계를 기반으로 계산됩니다. <br>**행별 백분율 계산**: 셀의 백분율은 열 방향이 아니라 행 방향으로 계산되며, 총 합계가 분모입니다. 이 계산은 특히 트렌드 백분율에 유용합니다. |
 | **[!UICONTROL 열 합계]** | 이 설정들은 [정적 행](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)에만 사용할 수 있습니다. <br> **현재 행의 합계로 표시**&#x200B;는 테이블에서 행의 클라이언트측 합계를 보여 주며 이는 합계가 방문 또는 개인과 같은 지표에 대한 중복 제거를 수행하지 *않음*&#x200B;을 의미합니다. <br> **총계 표시**&#x200B;는 서버측 합계를 보여 줍니다. 이는 중복 제거된 지표의 합계를 의미합니다. |
 

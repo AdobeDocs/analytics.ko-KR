@@ -4,10 +4,15 @@ description: Facebook 인스턴트 아티클 페이지에서 Adobe Analytics를 
 feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/S2ljH7WOuX6qvYplo-6k-MXw6FKG-vhk78EiGQFiImg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: 470
+ht-degree: 88%
 
 ---
 
@@ -24,11 +29,11 @@ Adobe Analytics를 구현하는 주요 워크플로는 다음과 같습니다.
 1. `stats.html` 페이지를 만듭니다. 이 페이지를 코딩하여 URL에서 쿼리 문자열 매개 변수를 가져오고 각 매개 변수를 Analytics 변수에 지정하십시오.
 1. 웹 서버에서 `stats.html` 페이지를 호스팅합니다.
 1. iframe의 `stats.html` 파일을 참조하여 Facebook 인스턴트 아티클에 Analytics를 구현합니다.
-1. iframe `src` 특성에 쿼리 문자열 매개 변수를 포함합니다.
+1. iframe `src` 속성에 쿼리 문자열 매개 변수를 포함합니다.
 
 ### 1단계: `stats.html` 페이지 만들기
 
-아래의 샘플 HTML을 사용하여 인스턴트 문서에서 통계를 캡처할 수 있습니다. 이 파일은 일반적으로 회사 웹 서버 중 하나에서 호스트됩니다. 인스턴트 아티클이 로드될 때마다 iframe에 파일이 로드되고, 그러면 데이터가 Adobe에 전송되기 시작합니다.
+아래 샘플 HTML을 사용하여 해당 문서에서 통계를 캡처할 수 있습니다. 이 파일은 일반적으로 회사 웹 서버 중 하나에서 호스팅됩니다. 인스턴트 아티클이 로드될 때마다 iframe에 파일이 로드되고, 그러면 데이터가 Adobe에 전송되기 시작합니다.
 
 ```html
 <html>
@@ -93,4 +98,4 @@ Facebook 인스턴트 아티클 콘텐츠를 만들 때 분석 HTML 콘텐츠를
 
 ## Facebook 인스턴트 아티클 및 개인 정보
 
-분석 HTML 페이지가 웹 서버에 호스팅되는 한, Adobe에서는 모든 Facebook 인스턴트 아티클에서 기존의 개인정보 처리방침을 지원합니다. 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 Facebook 인스턴트 아티클의 추적 또한 옵트 아웃됩니다. 또한 유틸리티 페이지가 Facebook 인스턴트 아티클 데이터를 Experience Cloud의 나머지 데이터와 통합할 수 있도록 Adobe Experience Cloud ID 서비스를 지원합니다.
+분석 HTML 페이지가 웹 서버에 호스팅되는 한, Adobe에서는 모든 Facebook 인스턴트 아티클에서 기존의 개인정보 처리방침을 지원합니다. 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 Facebook 인스턴트 아티클의 추적 또한 옵트 아웃됩니다. 이 유틸리티 페이지는 또한 Adobe Experience Cloud 인스턴트 아티클 데이터를 나머지 CX Enterprise와 통합할 수 있도록 Facebook Identity 서비스를 지원합니다.

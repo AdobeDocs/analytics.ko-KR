@@ -3,9 +3,14 @@ title: Advertising Analytics에서 광고 계정을 설정하는 방법
 description: 이 문서에서는 새 광고 계정을 만들고 여러 계정을 여러 보고서 세트에 매핑하는 방법에 대해 설명합니다.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/UAPEgVKZ4EW-GMvHGgz9tMHi36M2HazOuEBHOtJ1OUY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: 660
 ht-degree: 21%
 
 ---
@@ -40,7 +45,7 @@ Adobe Analytics 관리자는 새 광고 계정을 만들고 여러 계정을 여
 
    | 설정 | 설명 |
    | --- | --- |
-   | 유형 | <ul><li>**자동**: Adobe Advertising 엔진은 추적 매개 변수가 의 추적 템플릿/대상 URL에 추가되는 방법을 결정합니다. [!UICONTROL 자동 유형 추적]은(는) 가장 간단한 방법이지만 최상의 통합 데이터 집합을 만들지 못할 수 있습니다.<br>**중요:** [!UICONTROL 자동 유형 추적]을 사용하여 검색 엔진 계정을 구성하려면 다음 작업을 수행해야 합니다.<ul><li>`s_kwcid` 매개 변수 및 값이 추가되는 계정의 계정 추적 템플릿 또는 랜딩 페이지 URL에 추가됩니다. 매개 변수와 값은 URL 끝에 삽입됩니다. 웹 서버에서 URL 끝에 특정 `key=value` 쌍이 필요한 경우 추가 작업이 필요할 수 있습니다. 또는 URL에서 새 `key=value` 쌍을 지원하는 업데이트가 필요합니다. **참고**: 이 매개 변수를 [콘텐츠 보안 정책](https://experienceleague.adobe.com/ko/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보세요.</li><li>또한 `s_kwcid` 값의 일부로 랜딩 URL에 키워드를 삽입할 수 있습니다. 키워드에 특수 문자 또는 기호가 포함되어 있는 경우 웹 서버에서 해당 문자를 지원할 수 있는지 확인하십시오. 일반적인 특수 문자의 예로는 `+`이(가) 있으며, 이 문자는 &quot;Broad Match Modified&quot; 키워드에 사용됩니다.</li></ul></li><li>**수동**: 추적 매개 변수가 검색 엔진의 추적 템플릿/대상 URL에 추가되는 방식을 관리할 수 있습니다. [각 검색 엔진에 대한 이러한 수동 추적 예를 참조하십시오](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
+   | 유형 | <ul><li>**자동**: Adobe Advertising 엔진은 추적 매개 변수가 의 추적 템플릿/대상 URL에 추가되는 방법을 결정합니다. [!UICONTROL 자동 유형 추적]은(는) 가장 간단한 방법이지만 최상의 통합 데이터 집합을 생성하지 않을 수 있습니다.<br>**중요:** [!UICONTROL 자동 유형 추적]을(를) 사용하여 검색 엔진 계정을 구성하려면 다음 작업을 수행해야 합니다.<ul><li>`s_kwcid` 매개 변수 및 값이 추가되는 계정의 계정 추적 템플릿 또는 랜딩 페이지 URL에 추가됩니다. 매개 변수와 값은 URL 끝에 삽입됩니다. 웹 서버에서 URL 끝에 특정 `key=value` 쌍이 필요한 경우 추가 작업이 필요할 수 있습니다. 또는 URL에서 새 `key=value` 쌍을 지원하는 업데이트가 필요합니다. **참고**: 이 매개 변수를 [콘텐츠 보안 정책](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보세요.</li><li>또한 `s_kwcid` 값의 일부로 랜딩 URL에 키워드를 삽입할 수 있습니다. 키워드에 특수 문자 또는 기호가 포함되어 있는 경우 웹 서버에서 해당 문자를 지원할 수 있는지 확인하십시오. 일반적인 특수 문자의 예로는 `+`이(가) 있으며, 이 문자는 &quot;Broad Match Modified&quot; 키워드에 사용됩니다.</li></ul></li><li>**수동**: 추적 매개 변수가 검색 엔진의 추적 템플릿/대상 URL에 추가되는 방식을 관리할 수 있습니다. [각 검색 엔진에 대한 이러한 수동 추적 예를 참조하십시오](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 면책조항에 주의 사항 목록이 표시됩니다. 이 계약서를 읽고 이해했는지 확인합니다. 확인란을 선택한 다음 **[!UICONTROL 확인]**&#x200B;을 선택합니다.

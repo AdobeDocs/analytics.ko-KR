@@ -3,9 +3,15 @@ title: 동의 관리 옵트아웃
 description: 방문자가 옵트아웃한 개인 정보 설정을 확인합니다.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/tsMhHR84qhEUZIZjPTluCJOHMPc37-JRwLsipAycgJI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: 265
 ht-degree: 93%
 
 ---
@@ -28,6 +34,6 @@ ht-degree: 93%
 
 차원 항목에는 다음 세 가지 값이 포함됩니다.
 
-* **`SSF`**: 방문자가 [서버측 전달](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)을 옵트아웃했습니다. 이 차원 항목은 컨텍스트 데이터 변수 `cm.ssf`가 `1`인 경우에 존재합니다. 자세한 내용은 Audience Manager 사용 안내서의 [데이터 개인정보 보호 개요](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=ko)를 참조하십시오. 해당 히트는 Adobe Audience Manager로 전달되지 않습니다.
+* **`SSF`**: 방문자가 [서버측 전달](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)을 옵트아웃했습니다. 이 차원 항목은 컨텍스트 데이터 변수 `cm.ssf`가 `1`인 경우에 존재합니다. 자세한 내용은 Audience Manager 사용 안내서의 [데이터 개인정보 보호 개요](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html)를 참조하십시오. 해당 히트는 Adobe Audience Manager로 전달되지 않습니다.
 * **`DMP`**: 방문자가 데이터 관리 플랫폼에 대한 공유를 옵트아웃했습니다. 이 차원 항목은 컨텍스트 데이터 변수 `opt.dmp`가 `N`인 경우에 존재합니다. `SSF`와 마찬가지로, 해당 히트는 Adobe Audience Manager로 전달되지 않습니다.
 * **`SELL`**: 방문자가 데이터를 서드파티에 공유하거나 판매하는 것을 옵트아웃했습니다. 이 차원은 컨텍스트 데이터 변수 `opt.sell`가 `N`인 경우에 존재합니다.

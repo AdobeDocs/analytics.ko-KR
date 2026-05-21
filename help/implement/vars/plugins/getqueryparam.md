@@ -4,9 +4,13 @@ description: URL의 쿼리 문자열 매개 변수의 값을 추출합니다.
 feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/tOnM8riIh4sIxv7To1XbHreisuudElDqONBcZouvk0k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: 803
 ht-degree: 73%
 
 ---
@@ -17,7 +21,7 @@ ht-degree: 73%
 
 `getQueryParam` 플러그인을 사용하면 URL에 포함된 모든 쿼리 문자열 매개 변수의 값을 추출할 수 있습니다. 이 플러그인은 랜딩 페이지 URL에서 내부와 외부의 캠페인 코드를 모두 추출하는 데 유용하며, 검색어 또는 기타 쿼리 문자열 매개 변수를 추출할 때에도 유용합니다.
 
-이 플러그인은 여러 쿼리 문자열 매개 변수를 포함하는 해시 및 URL을 포함하여 복잡한 URL을 구문 분석하는 데 강력한 기능을 제공합니다. Adobe 간단한 쿼리 문자열 매개 변수만 필요한 경우에는 Web SDK 또는 Adobe Analytics 확장을 사용하거나 AppMeasurement에 포함된 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 메서드를 사용하는 URL 매개 변수 기능을 사용하는 것이 좋습니다.
+이 플러그인은 여러 쿼리 문자열 매개 변수를 포함하는 해시 및 URL을 포함하여 복잡한 URL을 구문 분석하는 데 강력한 기능을 제공합니다. 간단한 쿼리 문자열 매개 변수만 필요한 경우에는 Web SDK 또는 Adobe Analytics 확장을 사용하거나 AppMeasurement에 포함된 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 메서드를 사용하는 URL 매개 변수 기능을 사용하는 것이 좋습니다.
 
 ## 웹 SDK 확장을 사용하여 플러그인 설치
 

@@ -5,10 +5,14 @@ uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
 role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/p-nsvA1hqNBbwXesj5cumraamq2nEk1zVHgbby-XwEA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 71%
+source-wordcount: 229
+ht-degree: 40%
 
 ---
 
@@ -18,16 +22,16 @@ ht-degree: 71%
 
 Adobe Report Builder에는 Analytics 관리 도구의 권한 설정과 유사한 권한 설정이 있습니다.
 
-관리자가 아닌 사용자는 이전에 액세스 권한이 없는 차원 및 지표를 가리키는 요청이 있는 통합 문서를 만들었을 수 있습니다. 이러한 권한이 이제 적용됩니다.
+관리자가 아닌 사용자는 액세스 권한이 없는 차원 및 지표를 가리키는 요청이 있는 통합 문서를 이전에 생성했을 수 있습니다. 이제 이러한 권한이 강제 적용됩니다.
 
 예를 들어 액세스 권한이 없는 차원 또는 지표가 포함된 요청을 새로 고치면 제한된 권한 오류가 발생합니다. 오류 메시지에는 관리자 권한으로 인해 사용자 계정에 요청을 사용할 수 없다고 표시됩니다.
 
 ![제한된 권한 오류 메시지를 표시하는 스크린샷입니다.](assets/arb_restrc_perm.png)
 
-유지 관리하는 **각** Report Builder 통합 문서에 대한 다음 지침을 따르십시오.
+유지 관리하는 **각** Report Builder 통합 문서에 대해 다음 지침을 따르십시오.
 
 1. 통합 문서를 엽니다.
-1. 모든 요청 새로 고침.
+1. 모든 요청을 새로 고칩니다.
 1. 사용자 액세스 권한 오류가 표시되면 **[!UICONTROL CSV 파일 열기]**&#x200B;를 클릭하여 제한된 권한 오류 목록에 액세스할 수 있습니다.
 1. 파일 “AllRestrictedPermissionErrors.xlsx”를 만들고 CSV 파일의 제한된 권한 오류 목록을 복사한 후 이 파일에 붙여넣습니다.
 1. Report Builder 통합 문서를 닫습니다.

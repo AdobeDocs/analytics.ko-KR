@@ -3,10 +3,13 @@ title: 속성 모범 사례
 description: 모범 사례를 이해하고 사용할 속성 모델을 결정합니다.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/3h12v3wRMC0SY63jsXBbG6kkTM8ArVOz6ctJVikdKb4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 66%
+source-wordcount: 444
+ht-degree: 64%
 
 ---
 
@@ -63,4 +66,4 @@ ht-degree: 66%
 
 * Analysis Workspace에 의존하지 않고 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
 * Adobe 데이터 피드에서와 같이 원시 데이터를 사용할 수 있습니다.
-* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.
+* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.

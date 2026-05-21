@@ -4,10 +4,15 @@ keywords: Analysis Workspace
 title: 클라우드 가져오기 및 내보내기 위치 구성
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
+TQID: https://experienceleague.adobe.com/Q0cJR470jmLkrurcF20vP72mJyJ18Kd6DWICWVLp5ws
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 33%
+source-wordcount: 1769
+ht-degree: 38%
 
 ---
 
@@ -71,7 +76,7 @@ Amazon S3 역할 ARN 위치를 구성하려면 다음 정보를 지정합니다.
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>Adobe에서 제공한 사용자 ARN에 이 버킷에 파일을 업로드할 수 있는 `S3:PutObject` 권한이 있는지 확인하십시오. </p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들면 3~63자 사이여야 하며 소문자, 숫자, 점(.), 하이픈(-)만 사용할 수 있고 문자나 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>이 버킷에 파일을 업로드하려면 Adobe에서 제공한 사용자 ARN에 `S3:PutObject` 권한이 있는지 확인합니다. </p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들면 3~63자 사이여야 하며 소문자, 숫자, 점(.), 하이픈(-)만 사용할 수 있고 문자나 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
    {style="table-layout:auto"}
@@ -95,7 +100,7 @@ Google Cloud Platform 위치를 구성하려면 다음 정보를 지정합니다
 
    | 필드 | 함수 |
    |---------|----------|
-   | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내의 버킷입니다. 이 버킷에 파일을 업로드할 수 있도록 Adobe에서 제공한 주도자에 대한 권한을 부여했는지 확인하십시오. |
+   | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내부 버킷입니다. 이 버킷에 파일을 업로드할 수 있도록 Adobe에서 제공한 주도자에 대한 권한을 부여했는지 확인하십시오. |
    | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
    {style="table-layout:auto"}
@@ -186,7 +191,7 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 
 | 필드 | 함수 |
 |---------|----------|
-| [!UICONTROL **디렉터리 경로**] | FTP 서버의 디렉터리 경로를 입력합니다. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않는 경우 피드에서 오류가 발생합니다. </br>예: `/folder_name/folder_name`. |
+| [!UICONTROL **디렉터리 경로**] | FTP 서버의 디렉터리 경로를 입력합니다. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않을 경우 피드에서 오류가 발생합니다. </br>예: `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 
@@ -198,7 +203,7 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 
 | 필드 | 함수 |
 |---------|----------|
-| [!UICONTROL **디렉터리 경로**] | FTP 서버의 디렉터리 경로를 입력합니다. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않는 경우 피드에서 오류가 발생합니다. </br>예: `/folder_name/folder_name`. |
+| [!UICONTROL **디렉터리 경로**] | FTP 서버의 디렉터리 경로를 입력합니다. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않을 경우 피드에서 오류가 발생합니다. </br>예: `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 

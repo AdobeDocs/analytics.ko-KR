@@ -4,10 +4,15 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트 만들기
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 53%
+source-wordcount: 697
+ht-degree: 44%
 
 ---
 
@@ -46,15 +51,15 @@ ht-degree: 53%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [방문 정의 조정](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [방문 정의 조정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 | 요소 | 설명 |
 | --- |--- |
 | **방문 정의 구성** |  |
-| 보고서 시간 처리 활성화 | 보고서 시간 처리를 사용하여 기본 방문 시간 초과 길이를 변경합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. [자세히 알아보기](/help/components/vrs/vrs-report-time-processing.md) |
-| 방문 시간 초과 | 새로운 방문이 자동으로 시작되기 전에 고유 방문자가 보유해야 하는 비활성의 양을 정의합니다. 방문 횟수 지표, 방문 세그먼트 컨테이너 및 방문 시 만료되는 eVar에 영향을 미칩니다. |
+| 보고서 시간 처리 활성화 | 보고서 처리 시간 을 사용하여 기본 방문 시간 초과 길이를 변경합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. [자세히 알아보기](/help/components/vrs/vrs-report-time-processing.md) |
+| 방문 시간 초과 | 새 방문이 자동으로 시작되기 전에 고유 방문자가 보유해야 하는 비활성의 양을 정의합니다. 방문 횟수 지표, 방문 세그먼트 컨테이너 및 방문 시 만료되는 eVar에 영향을 줍니다. |
 | 이벤트로 새 방문 시작 | 세션의 시간이 초과되었는지 여부와 상관없이 지정된 이벤트가 발생하는 경우 새 세션을 시작합니다. |
 | **모바일 앱 방문 설정** | Adobe의 Mobile SDK에서 수집한 모바일 앱 조회수에 대해 방문 횟수가 정의되는 방식을 수정합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. |
 | 배경 조회수로 인해 새로운 방문이 시작되지 않도록 차단 | 배경 조회수로 인해 새로운 방문이 시작되지 않고 방문 횟수 및 고유 방문자 지표가 부풀려지지 않도록 차단합니다. |

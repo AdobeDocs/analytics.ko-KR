@@ -5,10 +5,14 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/yNIeTJwwWtjXkbi47lX1Ve-Rbz6lF1PazD4YxxXa0Ac
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 91%
+source-wordcount: 336
+ht-degree: 60%
 
 ---
 
@@ -18,7 +22,7 @@ ht-degree: 91%
 
 특정 차원 용어를 적용하는 필터.
 
-정확한 기준을 만족하는 필터를 만들어 특정 차원 항목에서 검색할 수 있습니다. 예를 들어 page in [!DNL homepage.htm], [!DNL contact_us.html], [!DNL corporate_info.html]과 같은 필터 유형을 만들 수 있습니다.
+정확한 기준과 일치하는 필터를 만들어 특정 차원 항목을 검색할 수 있습니다. 예를 들어 page in [!DNL homepage.htm], [!DNL contact_us.html], [!DNL corporate_info.html]과 같은 필터 유형을 만들 수 있습니다.
 
 **특정 필터 만드는 방법**
 
@@ -35,8 +39,8 @@ ht-degree: 91%
 1. 다음 특정 옵션 중 하나를 활성화합니다.
 
    * **셀 범위에서:** 셀에서 데이터를 선택할 수 있도록 해 줍니다. 다음 항목을 선택할 수 있습니다.
-      * **범위의 모든 셀:** 범위의 모든 셀을 매핑할 수 있도록 해 줍니다. 설명 텍스트가 선택해야 하는 셀 그룹의 수를 알려 줍니다. 셀 그룹을 두 개 이상 매핑하려면 Ctrl 키를 눌러 연속적으로 선택합니다. 매핑해야 하는 범위에 셀이 하나만 있을 경우 이 선택 사항은 사용할 수 있는 유일한 선택 사항입니다.
-      * **범위의 첫 번째 셀:** 범위의 상단 왼쪽 셀만 선택한 다음 데이터의 방향을 선택합니다. 그리고 요청에 여러 기간이 있을 경우에는 기간의 방향을 선택하고 기간 사이에 있는 설정된 셀 수를 건너뛸지 여부를 선택합니다.
+      * **범위의 모든 셀:** 범위의 모든 셀을 매핑할 수 있도록 해 줍니다. 설명 텍스트가 선택해야 하는 셀 그룹의 수를 알려 줍니다. 셀 그룹을 두 개 이상 매핑하려면 Ctrl 키를 누른 채 연속적으로 선택합니다. 매핑해야 하는 범위에 셀이 하나만 있는 경우 이 옵션만 사용할 수 있습니다
+      * **범위의 첫 번째 셀:** 범위의 왼쪽 위 셀만 선택한 다음 데이터 방향을 선택하면 됩니다. 또한 요청에 여러 개의 기간이 있는 경우 기간의 방향을 선택하고 기간 사이에 설정된 셀 수를 건너뛸 것인지 여부를 선택합니다.
    * **목록에서:** 데이터를 추가할 수 있는 목록에서 데이터를 선택할 수 있도록 해 줍니다.
 1. **[!UICONTROL 목록에서]**&#x200B;를 사용하는 경우 사용할 수 있는 나열된 항목들을 선택하거나 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 

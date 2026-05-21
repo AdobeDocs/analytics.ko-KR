@@ -4,10 +4,16 @@ description: 구매 이벤트를 사용하여 '주문', '판매량' 및 '수입'
 feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/r-L330P6HA5qWBmEW-2LwECo-d3dhVK1ovWsfraErXE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 70%
+source-wordcount: 474
+ht-degree: 66%
 
 ---
 
@@ -30,7 +36,7 @@ ht-degree: 70%
 [**XDM 개체**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 구매 이벤트는 다음 XDM 필드를 사용합니다.
 
 * 주문은 `xdm.commerce.purchases.value`에 매핑됩니다.
-* 단위는 모든 `xdm.productListItems[].quantity` 필드의 합으로 매핑됩니다. 자세한 내용은 [`products`](../products.md)을(를) 참조하십시오.
+* 단위는 모든 `xdm.productListItems[].quantity` 필드의 합계에 매핑됩니다. 자세한 내용은 [`products`](../products.md)을(를) 참조하십시오.
 * 매출은 모든 `xdm.productListItems[].priceTotal` 필드의 합계에 매핑됩니다.
 
 ```json
@@ -65,7 +71,7 @@ ht-degree: 70%
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics으로 설정하고 [!UICONTROL 작업 유형]을(를) [!UICONTROL 변수 설정]&#x200B;(으)로 설정합니다.
+5. [!UICONTROL 확장 기능] 드롭다운 목록을 Adobe Analytics로 설정하고 [!UICONTROL 액션 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
 6. [!UICONTROL 이벤트] 섹션을 찾아 [!UICONTROL 이벤트] 드롭다운 목록을 [!UICONTROL 구매]&#x200B;(으)로 설정합니다.
 
 `products` 및 `purchaseID`과(와) 같은 다른 종속 변수에는 Adobe Experience Platform 데이터 수집 내의 Analytics 확장에 전용 필드가 없습니다. 이 변수에 대한 AppMeasurement 구문 이후에 사용자 지정 코드 편집기를 사용하십시오.
@@ -87,5 +93,5 @@ s.events = "purchase,event1,event2";
 구매 이벤트를 실행하면 Adobe에서는 다음 사항을 확인합니다.
 
 * 히트에 `purchaseID` 변수가 포함되어 있습니까? 그렇지 않은 경우 Adobe는 히트의 정보를 사용하여 &quot;임시 구매 ID&quot;를 만듭니다. 이 임시 구매 ID는 해당 히트의 방문자에게만 적용됩니다. 이전 5개의 임시 구매 ID는 보고서 세트에 대한 각 방문자 ID용으로 저장됩니다.
-* 임시 구매 ID가 마지막 5개의 저장된 임시 구매 ID 중 하나와 일치합니까? 일치하는 경우 이미지 요청이 중복 구입으로 간주됩니다. 구매 이벤트를 포함한 모든 전환 변수가 보고에 표시되지 않습니다.
-* `purchaseID` 변수가 정의되어 있다면, 해당 값이 모든 방문자에 대해 보고서 세트에 이미 수집된 값과 일치합니까? 일치하는 경우 이미지 요청이 중복 구입으로 간주됩니다. 구매 이벤트를 포함한 모든 전환 변수가 보고에 표시되지 않습니다.
+* 임시 구매 ID가 마지막 5개의 저장된 임시 구매 ID 중 하나와 일치합니까? 이 경우 이미지 요청은 중복 구매로 간주됩니다. 구매 이벤트를 포함한 모든 전환 변수는 보고에 표시되지 않습니다.
+* `purchaseID` 변수가 정의되어 있다면, 해당 값이 모든 방문자에 대해 보고서 세트에 이미 수집된 값과 일치합니까? 이 경우 이미지 요청은 중복 구매로 간주됩니다. 구매 이벤트를 포함한 모든 전환 변수는 보고에 표시되지 않습니다.

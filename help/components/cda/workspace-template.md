@@ -1,17 +1,23 @@
 ---
-title: CDA 작업 공간 템플릿
+title: CDA 작업 영역 템플릿
 description: Analysis Workspace 내의 CDA 템플릿에 있는 각 필드에 대해 설명합니다.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
 role: Admin
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+TQID: https://experienceleague.adobe.com/Zui1m27pi3eQnm-dac2akfGRF01IbPaQ0SwLD01iDAE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 93%
+source-wordcount: 391
+ht-degree: 92%
 
 ---
 
-# CDA 작업 공간 템플릿
+# CDA 작업 영역 템플릿
 
 {{available-existing-customers}}
 
@@ -32,7 +38,7 @@ Adobe는 중요한 교차 장치 성능 데이터를 볼 수 있는 템플릿을
    * 로그인 비율: 사이트에 로그인하는 사용자가 많을수록 Adobe가 장치들 간에 더 많은 방문자를 식별하고 결합할 수 있습니다. 로그인 비율이 낮은 사이트는 압축률도 낮습니다.
    * Experience Cloud ID 범위: ECID가 있는 방문자만 결합할 수 있습니다. ECID를 사용하는 사이트에 대한 방문자의 낮은 비율은 낮은 압축률과 상호 연관성이 있습니다.
    * 여러 장치 사용: 사이트 방문자가 여러 장치를 사용하지 않는다면 압축률도 낮습니다.
-   * 보고 세부기간: 일별 압축은 일반적으로 월별 또는 연별 압축보다 작습니다. 개인이 여러 장치를 사용할 가능성은 범위가 한 달일 때보다 하루일 때 더 작아집니다. 세그먼트화, 필터링 또는 분류 차원 사용 시에도 압축률이 더 낮아질 수 있습니다.
+   * 보고 세부 기간: 일별 압축은 일반적으로 월별 또는 연별 압축보다 작습니다. 개인이 여러 장치를 사용할 가능성은 범위가 한 달일 때보다 하루일 때 더 작아집니다. 세그먼트화, 필터링 또는 분류 차원 사용 시에도 압축률이 더 낮아질 수 있습니다.
 * **사람 기반 세그먼트**: 장치별 데이터를 볼 수 있는 세그먼트 드롭다운 목록을 포함합니다. 이 패널에서는 디바이스 유형을 포함하거나 제외하는 것이 보고서에 어떤 영향을 미치는지 세그먼트로 실험해 볼 것을 권장합니다.
 * **크로스 디바이스 움직임 분석**: 디바이스 유형에 따라 플로우 및 폴아웃 보고서를 제공합니다.
 * **장치 간 특성**: 장치 간 분석 기능과 특성을 함께 결합합니다.

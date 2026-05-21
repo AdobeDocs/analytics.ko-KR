@@ -4,9 +4,14 @@ title: 총계
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/wxOqh9uQC1oDpjGjZwp-A4Ir0PfH1cH8y5l9IYM-3io
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: 504
 ht-degree: 78%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 78%
 ![총 합계와 테이블 합계를 강조 표시한 자유 형식 테이블.](assets/total-row.png)
 
 * **[!UICONTROL 테이블 합계]** ➊ - 이 합계는 일반적으로 [!UICONTROL 총계]와 같거나 그 하위 집합입니다. 합계는 [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다.
-* **[!UICONTROL 총계]**(**개 중**&#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 조건과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
+* **[!UICONTROL 총계]**(]**개 중**[!UICONTROL &#x200B;개 *개* 중 개) ➋ - 이 합계는 수집된 모든 이벤트를 나타냅니다. 필터가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 필터 조건과 일치하는 모든 이벤트를 반영하도록 조정됩니다.
 
 
 

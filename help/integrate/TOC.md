@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 통합 안내서
 breadcrumb-title: 통합 안내서
-user-guide-description: Audience Manager 및 Advertising과 같은 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+user-guide-description: Audience Manager 및 Advertising과 같은 다른 Adobe CX 엔터프라이즈 솔루션과의 통합을 구성합니다.
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 88%
+source-wordcount: '186'
+ht-degree: 82%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 88%
       + [Advertising Analytics 문제 해결](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [자주 묻는 질문](c-advertising-analytics/aa-faq.md)
 + [Advertising용 Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=ko-KR)
-+ [Target용 Adobe Analytics - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko)
++ [Target용 Adobe Analytics - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
 + [Adobe Analytics의 Adobe Campaign 보고](adobe-campaign.md)
 + [Adobe Analytics 데이터를 Adobe Campaign Classic과 통합](analytics-to-campaign-classic.md)
 + [AEM Assets 보고](aem-assets-reporting.md)

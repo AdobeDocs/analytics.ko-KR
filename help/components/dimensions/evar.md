@@ -3,9 +3,15 @@ title: eVar(차원)
 description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/id82CsXfjfKjzNiM36Ny97bcZ8a-TR7QDq5-mx7xP7w
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: 854
 ht-degree: 100%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 100%
 
 *이 도움말 페이지에서는 eVar가 [차원](overview.md)으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 정의 [차원](overview.md)입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md) [!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다].
+eVar는 원하는 대로 사용할 수 있는 사용자 정의 [차원](overview.md)입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)[!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다].
 
 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. Adobe 아키텍처에서 eVar 지속성이 작동하는 방식에 대한 자세한 내용은 아래의 [eVar 작동 방식](#how-evars-work) 및 [eVar를 지표에 연결하는 방식](#how-evars-tie-to-metrics) 섹션을 참조하십시오. [!UICONTROL 보고서 세트 설정]의 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)에서 만료와 할당을 활성화, 비활성화 또는 사용자 정의할 수 있습니다. 다음 이미지는 전환 변수 인터페이스에서 eVar정의의 예입니다.
 

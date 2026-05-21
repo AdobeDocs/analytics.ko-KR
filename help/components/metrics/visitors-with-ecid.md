@@ -3,10 +3,16 @@ title: Experience Cloud ID를 가진 방문자
 description: Adobe Experience Cloud ID 서비스를 사용하는 고유 방문자의 수입니다.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: e6c28e30-8689-4bf4-8fa8-561343d308a9id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: 378
+ht-degree: 76%
 
 ---
 
@@ -16,7 +22,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->이 지표는 Adobe Target 또는 Adobe Audience Manager과 같은 여러 Experience Cloud 서비스를 사용하는 경우 디버깅에 특히 중요합니다. Experience Cloud 제품 간에 공유된 세그먼트에는 Experience Cloud ID가 없는 방문자가 포함되지 않습니다.
+>이 지표는 Adobe Target 또는 Adobe Audience Manager과 같은 여러 CX 엔터프라이즈 서비스를 사용하는 경우 디버깅에 특히 중요합니다. CX 엔터프라이즈 제품 간에 공유된 세그먼트에는 Experience Cloud ID가 없는 방문자가 포함되지 않습니다.
 
 ## 이 지표의 계산 방법
 
@@ -24,7 +30,7 @@ ht-degree: 93%
 
 ## Experience Cloud ID 설정 디버깅
 
-Experience Cloud ID를 가진 방문자 지표는 Experience Cloud 통합 문제 해결이나 ID 서비스가 배포되지 않은 사이트 영역 식별에 유용합니다.
+Experience Cloud ID를 가진 방문자 지표는 CX 엔터프라이즈 통합 문제를 해결하거나 ID 서비스가 배포되지 않은 사이트 영역을 식별하는 데 유용합니다.
 
 Experience Cloud ID를 가진 방문자를 고유 방문자 수와 나란하도록 드래그하여 비교할 수 있습니다.
 

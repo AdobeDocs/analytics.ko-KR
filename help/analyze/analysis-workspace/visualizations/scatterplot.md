@@ -3,9 +3,14 @@ title: 분산
 description: Analysis Workspace에서 분산형 시각화를 만들고 해석하여 차원 항목과 최대 3개의 지표 간 관계를 분석하는 방법에 대해 알아봅니다.
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/ZOXJhKIfhAbOy-59euomHil358R09yjcnvgpzq9Qzog
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 252
 ht-degree: 52%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 52%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는_&#x200B;의 분산 시각화에 대해 설명합니다![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_&#x200B;에 대한 [분산](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) 참조![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전._
+_이 문서에서는_&#x200B;의 분산 시각화에 대해 설명합니다![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_&#x200B;에 대한 [분산](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) 참조![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -37,12 +42,12 @@ _이 문서에서는_&#x200B;의 분산 시각화에 대해 설명합니다![Ado
 * 세 번째 열은 점의 반경을 결정합니다.
 * 자유 형식 테이블의 모든 후속 열은 산포도 시각화에 의해 무시됩니다.
 
-![여러 항목을 보여 주는 산포도의 예 &#x200B;](assets/scatter.png)
+![여러 항목을 보여 주는 산포도의 예 ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [산포도 시각화](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 

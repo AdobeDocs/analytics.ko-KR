@@ -4,10 +4,15 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트 워크플로
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/psqP8b-OG8WguflQ1pPJZrEDbxR-pyuFaNTq3nl-Np4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 74%
+source-wordcount: 208
+ht-degree: 63%
 
 ---
 
@@ -23,7 +28,7 @@ ht-degree: 74%
 
 가상 보고서 세트는 **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**&#x200B;를 통해 사용할 수 있는 가상 보고서 세트 관리자에서 만듭니다.
 
-가상 보고서 세트가 만들어지면 UI에서 기본 보고서 세트처럼 처리되고 일반적으로 가장 확장된 기능에 대해 지원됩니다. 예를 들어 가상 보고서 세트는 보고서 세트 선택기에 표시되며 다른 보고서 세트처럼 개별적으로 선택할 수 있습니다.
+가상 보고서 세트가 만들어지면 UI에서 기본 보고서 세트처럼 처리되고 일반적으로 가장 확장된 기능에 대해 지원됩니다. 예를 들어 가상 보고서 세트는 보고서 세트 선택기에 표시되며 다른 보고서 세트와 마찬가지로 개별적으로 선택할 수 있습니다.
 
 보고서 세트 이름 옆에 있는 정보 아이콘을 클릭하여 [보고서 세트에 대한 정보를 봅니다](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
