@@ -26,7 +26,7 @@ ht-degree: 32%
 
 일부 방화벽 구성은 Adobe 데이터 수집 서버나 데이터에 액세스하는 서버에서 오는 IP 주소를 차단합니다. 이 범위 목록을 사용하여 액세스를 허용하고 조직 내에서 데이터를 전송할 수 있도록 조직의 방화벽 설정을 변경할 수 있습니다.
 
-중국 성능 최적화 추가 기능 패키지를 제외하고 Adobe Analytics에서 사용하는 모든 IP 주소는 [CX Enterprise에서 사용하는 IP 주소](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)의 일부입니다.
+중국 성능 최적화 추가 기능 패키지를 제외하고 Adobe Analytics에서 사용하는 모든 IP 주소는 [CX Enterprise에서 사용하는 IP 주소](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/ip-addresses)의 일부입니다.
 
 ## 중국 성능 최적화 IP 주소
 
@@ -48,6 +48,6 @@ ht-degree: 32%
 
 >[!MORELIKETHIS]
 >
->[CX Enterprise에서 사용하는 IP 주소](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>[CX Enterprise에서 사용하는 IP 주소](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Adobe Analytics에서 사용하는 도메인](domains.md)

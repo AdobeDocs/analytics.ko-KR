@@ -38,7 +38,7 @@ ht-degree: 95%
 
 * [분류](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
-* [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
+* [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ko)
 
 * [데이터 피드](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 

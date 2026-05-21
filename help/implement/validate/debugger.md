@@ -27,7 +27,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)을 사용하는 것이 좋습니다.
+>이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)을 사용하는 것이 좋습니다.
 
 [!UICONTROL 기존 디버거]는 대부분의 Adobe CX 엔터프라이즈 서비스용 태그를 검사합니다. 디버거를 사용하면 사이트의 지정된 페이지에서 어떤 데이터가 Adobe에 전송되는지 볼 수 있습니다. 이 정보를 사용하여 조직의 구현 문제를 해결하거나 유효성을 검사할 수 있습니다.
 

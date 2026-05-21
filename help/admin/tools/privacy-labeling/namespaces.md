@@ -33,7 +33,7 @@ ht-degree: 85%
 * 대부분의 Adobe Analytics 요청에 대해 &quot;analytics&quot; 값을 포함하는 &quot;type&quot; 필드입니다.
 * Analytics가 각 보고서 세트의 연결된 네임스페이스 변수에서 검색해야 하는 ID가 포함된 &quot;값&quot; 필드.
 
-자세한 내용과 [표준 ID 네임스페이스 목록](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/appendix#standard-namespaces)은 [CX 엔터프라이즈 데이터 개인 정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)를 참조하십시오. 샘플 요청을 확인하려면 [액세스/삭제 작업 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/privacy-jobs#access-delete)를 참조하십시오.
+자세한 내용과 [표준 ID 네임스페이스 목록](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/appendix#standard-namespaces)은 [CX 엔터프라이즈 데이터 개인 정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko)를 참조하십시오. 샘플 요청을 확인하려면 [액세스/삭제 작업 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/privacy-jobs#access-delete)를 참조하십시오.
 
 ## 쿠키 ID
 
