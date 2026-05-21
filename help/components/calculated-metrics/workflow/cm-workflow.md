@@ -4,10 +4,15 @@ title: 계산된 지표 만들기
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
 TQID: https://experienceleague.adobe.com/KuWD2kus9wcFW7yULWbLwfj4hfVHJgTjDeCJzEWwKFU
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 367
@@ -44,5 +49,5 @@ ht-degree: 18%
 | [승인](cm-approving.md) 계산된 지표 | 계산된 지표를 승인하여 표준 지표로 만듭니다. |
 | 계산된 지표 사용 | 프로젝트에서 계산된 지표를 사용합니다. |
 | [계산된 지표 공유](cm-sharing.md) | 계산된 지표를 다른 개인, 그룹 또는 조직과 공유합니다. |
-| [계산된 지표 ](cm-filter.md)개 필터링 | 태그, 소유자 및 기타 필터(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)로 계산된 지표를 필터링합니다. |
+| [계산된 지표 &#x200B;](cm-filter.md)개 필터링 | 태그, 소유자 및 기타 필터(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)로 계산된 지표를 필터링합니다. |
 | 계산된 지표를 [즐겨찾기](cm-finding.md)(으)로 표시 | 지표를 즐겨찾기로 표시하는 것은 쉽게 사용할 수 있게 구성하는 또 다른 방법입니다. |

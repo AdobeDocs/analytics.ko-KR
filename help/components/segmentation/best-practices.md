@@ -4,10 +4,16 @@ description: 세분화 모범 사례에 대해 알아봅니다.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
 TQID: https://experienceleague.adobe.com/PJi-kkv6HL3jHEKArltzxMGk9BVtZ-Mr1ivHMkhxt88
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 304
@@ -21,7 +27,7 @@ ht-degree: 60%
 
 ## 마지막 수단으로 `Contains` 연산자만 사용
 
-[**[!UICONTROL 포함&#x200B;]**연산자](/help/components/segmentation/seg-reference/seg-operators.md)는 연산자가 모든 값의 전체 내용을 분석해야 하므로 세그먼테이션에서 처리가 가장 많은 기능 중 하나입니다. 원하는 값이 문자열의 시작 또는 끝에 있는 경우**[!UICONTROL &#x200B;다음으로 시작&#x200B;]**또는**[!UICONTROL &#x200B;다음으로 끝남&#x200B;]**과 같은 다른 연산자를 사용하는 것이 좋습니다.
+[**[!UICONTROL 포함&#x200B;]**&#x200B;연산자](/help/components/segmentation/seg-reference/seg-operators.md)는 연산자가 모든 값의 전체 내용을 분석해야 하므로 세그먼테이션에서 처리가 가장 많은 기능 중 하나입니다. 원하는 값이 문자열의 시작 또는 끝에 있는 경우&#x200B;**[!UICONTROL &#x200B;다음으로 시작&#x200B;]**&#x200B;또는&#x200B;**[!UICONTROL &#x200B;다음으로 끝남&#x200B;]**&#x200B;과 같은 다른 연산자를 사용하는 것이 좋습니다.
 
 세그먼트에 있는 **[!UICONTROL Contains]** 연산자가 많은 결과를 반환하는 경우 일반적으로 보고서가 시간 초과됩니다. 예를 들어, **[!UICONTROL 레퍼러]** **[!UICONTROL 같음]** `"."`인 세그먼트를 만든 경우 세그먼트는 모든 값의 콘텐츠를 검색합니다. 대신 **[!UICONTROL 존재]** 연산자를 사용하는 것이 좋습니다.
 

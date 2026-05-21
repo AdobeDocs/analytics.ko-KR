@@ -5,9 +5,14 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 12c5f5a6-a90f-471a-91c3-0fd8c8b1d3a0
 TQID: https://experienceleague.adobe.com/AODpS3mnwp8rghMW9IDOLJ82tiT-0UXxQHY7PuG3jdI
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 251
@@ -41,5 +46,5 @@ ht-degree: 96%
    각 버전마다 목록에는 타임스탬프, 편집기 및 저장된 메모가 표시됩니다.
 
 
-1. 이전 버전을 선택하고 **[!UICONTROL 로드]**를 클릭합니다.
+1. 이전 버전을 선택하고 **[!UICONTROL 로드]**&#x200B;를 클릭합니다.
 그러면 이전 버전은 알림과 함께 로드됩니다. 이전 버전은 **[!UICONTROL 저장]**&#x200B;을 클릭할 때까지는 현재 저장된 프로젝트 버전이 되지 않습니다. 로드된 버전에서 벗어나 탐색하면 이전 버전을 다시 열고 싶을 때 마지막으로 저장된 버전이 표시됩니다.

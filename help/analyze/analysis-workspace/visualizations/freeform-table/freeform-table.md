@@ -5,10 +5,19 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 TQID: https://experienceleague.adobe.com/03oGltlXUfi3TG82i1UyHvCRWoCKy8j10KpcBEkpk0k
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 878
@@ -31,7 +40,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 자유 형식 테이블 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [자유 형식 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)을 참조하십시오._
+_이 문서에서는 자유 형식 테이블 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전에 대한 [자유 형식 테이블](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +63,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 먼저 테이블에 여러 구성 요소를 추가한 다음 데이터를 렌더링하려는 경우 **[!UICONTROL 테이블 빌더 활성화]**&#x200B;를 선택할 수 있습니다. 테이블 빌더를 활성화한 상태에서 차원, 분류, 지표 및 필터를 끌어다 놓아 더 복잡한 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. **[!UICONTROL 빌드]**&#x200B;를 선택하면 데이터가 업데이트됩니다.
 
-![자유 형식 테이블 빌더 표시 ](assets/table-builder.png)
+![자유 형식 테이블 빌더 표시 &#x200B;](assets/table-builder.png)
 
 ## 상호 작용
 
@@ -103,7 +112,7 @@ Analysis Workspace에서 ![테이블](/help/assets/icons/Table.svg) **[!UICONTRO
 
 | 옵션 | 설명 |
 | --- | --- |
-| **[!UICONTROL 복사된 시각화 삽입]**n | 복사한 시각화를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣기(삽입)할 수 있습니다. |
+| **[!UICONTROL 복사된 시각화 삽입]**&#x200B;n | 복사한 시각화를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣기(삽입)할 수 있습니다. |
 | **[!UICONTROL 클립보드에 데이터 복사]** | 시각화에서 클립보드로 데이터를 복사합니다. |
 | **[!UICONTROL 클립보드에 선택 항목 복사]** | 시각화에서 클립보드로 선택 항목을 복사합니다. |
 | **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | 시각화의 차원 항목(최대 50,000개)을 로컬 디바이스에 즉시 다운로드합니다. 선택한 차원에 최대 50,000개의 차원 항목. |

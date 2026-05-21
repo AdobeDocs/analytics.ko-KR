@@ -4,11 +4,17 @@ title: SequentialSegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 TQID: https://experienceleague.adobe.com/Wvy6Kl84IzHS1VpA0k0H2rUIGMgpDIhEuG4kK-qAwt4
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 2424
@@ -84,7 +90,7 @@ ht-degree: 4%
 1. ![시계](/help/assets/icons/Clock.svg)를 선택합니다.
 1. 컨텍스트 메뉴에서 **[!UICONTROL Within]** 또는 **[!UICONTROL After]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 년]**&#x200B;까지 기간(**[!UICONTROL 분]**, **[!UICONTROL 시간]**)을 지정하십시오.
-1. **[!UICONTROL -]** 또는 **[!UICONTROL +]**&#x200B;을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면 ![VDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**을(를) 선택하십시오.
+1. **[!UICONTROL -]** 또는 **[!UICONTROL +]**&#x200B;을(를) 사용하여 숫자를 입력하거나 지정할 수 있는 팝업을 열려면 ![VDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;을(를) 선택하십시오.
 
 시간 제약 조건을 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 사용하십시오.
 
@@ -121,14 +127,14 @@ ht-degree: 4%
 
 한 페이지를 방문한 다음 2주 후, 그러나 1개월 내에 다른 페이지를 방문한 방문자를 식별합니다. 예를 들어 홈 페이지를 방문한 다음 2주 후 그리고 1개월 내에 여성을 방문한 방문자 | 신발 페이지.
 
-![다음 이후지만 ](assets/sequence-afterbutwithin.png) 이내에 시퀀스
+![다음 이후지만 &#x200B;](assets/sequence-afterbutwithin.png) 이내에 시퀀스
 
 2024년 6월 1일에 홈 페이지를 히트하고 여성 을(를) 방문하기 위해 돌아오는 모든 방문자 | 2019년 6월 15일 이후, 그러나 2019년 7월 1일 이전에 신발 페이지가 세그먼트에 적합합니다.:01
 
 
 ### [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL Dimension] 제한
 
-![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 히트, 방문 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 히트]**, **[!UICONTROL 방문]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
+![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** 및 ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 제약 조건을 사용하면 시간 제약 조건뿐만 아니라 히트, 방문 또는 차원 제약 조건도 지정할 수 있습니다. **[!UICONTROL 히트]**, **[!UICONTROL 방문]** 또는 **[!UICONTROL 기타 차원]** ![V자형 화살표](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension 이름&#x200B;*]**&#x200B;을 선택합니다. [!UICONTROL *검색*] 필드를 사용하여 차원을 검색할 수 있습니다.
 
 #### 예
 

@@ -5,11 +5,24 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 TQID: https://experienceleague.adobe.com/etNwY5Q1n5Mv2olhGc1qyNAxAkv1o-mTh2O9JZe0QfM
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: eb853e43-1634-4181-adf2-a44d64395ec3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
 workflow-type: tm+mt
 source-wordcount: 1422
@@ -61,11 +74,11 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 
 키보드에서 다음 기호를 사용해야 합니다.
 
-- **[!UICONTROL *Shift *]**의 경우**⇧**
-- **⌘****[!UICONTROL *Cmd *]**(명령)의 경우.
-- **⌃****[!UICONTROL *Ctrl *]**(제어)의 경우.
-- **⌥****[!UICONTROL *Opt *]**(옵션)의 경우.
-- **⎇****[!UICONTROL *Alt *]**(대체)의 경우.
+- **[!UICONTROL *Shift *]**&#x200B;의 경우&#x200B;**⇧**
+- **⌘**&#x200B;**[!UICONTROL *Cmd *]**(명령)의 경우.
+- **⌃**&#x200B;**[!UICONTROL *Ctrl *]**(제어)의 경우.
+- **⌥**&#x200B;**[!UICONTROL *Opt *]**(옵션)의 경우.
+- **⎇**&#x200B;**[!UICONTROL *Alt *]**(대체)의 경우.
 
 사용 가능한 메뉴 개요는 아래 테이블을 참조하십시오.
 
@@ -103,7 +116,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 | **[!UICONTROL 자유 형식 테이블]** | **[!UICONTROL *Opt+1 *]** | **[!UICONTROL *Alt+1 *]** | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화를 삽입합니다. |
 | **[!UICONTROL 라인]** | **[!UICONTROL *Opt+2 *]** | **[!UICONTROL *Alt+2 *]** | [라인](/help/analyze/analysis-workspace/visualizations/line.md) 시각화를 삽입합니다. |
 | **[!UICONTROL 막대]** | **[!UICONTROL *Opt+3 *]** | **[!UICONTROL *Alt+3 *]** | [막대](/help/analyze/analysis-workspace/visualizations/bar.md) 시각화를 삽입합니다. |
-| **[!UICONTROL 콤보]** | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** | [ 콤보](/help/analyze/analysis-workspace/visualizations/combo-charts.md) 시각화를 삽입하다. |
+| **[!UICONTROL 콤보]** | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** | [&#x200B; 콤보](/help/analyze/analysis-workspace/visualizations/combo-charts.md) 시각화를 삽입하다. |
 
 
 | **[!UICONTROL 구성 요소]** | 단축키 Mac | 단축키 Windows | 설명 |

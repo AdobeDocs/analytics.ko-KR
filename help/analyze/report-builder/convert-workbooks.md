@@ -7,11 +7,21 @@ type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 TQID: https://experienceleague.adobe.com/0nmyJL9FDtcP8FTaJXbLCdBSZ0Nnb8U7g0Ox5xH40yw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1202
@@ -150,7 +160,7 @@ Report Builder 허브의 **[!UICONTROL 예약]** 탭에서 다운로드하고 �
       1. 복사한 셀 범위를 붙여 넣을 셀을 선택합니다.
       1. [Report Builder 허브](/help/analyze/report-builder/report-builder-hub.md)에서 ![붙여넣기](/help/assets/icons/Paste.svg) **[!UICONTROL 데이터 블록 붙여넣기]**&#x200B;를 선택합니다.
 
-* **날짜 범위**. Report Builder은 기존 Report Builder의 날짜 범위에 대한 행 레이블에 적용된 날짜 범위 서식 옵션 **[!UICONTROL 시작 및 종료 기간을]**(으)로 표시]를 마이그레이션하지 않습니다.
+* **날짜 범위**. Report Builder은 기존 Report Builder의 날짜 범위에 대한 행 레이블에 적용된 날짜 범위 서식 옵션 **[!UICONTROL 시작 및 종료 기간을]**(으)로 표시&rbrack;를 마이그레이션하지 않습니다.
 
 * **평균**. Report Builder은 선택한 서식 옵션 **[!UICONTROL 평균 옵션]**(**[!UICONTROL 일별 평균]** ~ **[!UICONTROL 연간 평균]**)을(를) 기존 Report Builder의 지표에 적용하지 않습니다. 계산된 지표를 사용하여 선택한 옵션을 대체합니다.
 
