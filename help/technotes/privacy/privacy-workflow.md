@@ -30,7 +30,7 @@ ht-degree: 59%
 
 이 워크플로에서는 데이터 주체의 데이터 개인정보 보호 액세스 및 삭제 권한을 지원하도록 Adobe Analytics를 구현하기 위해 수행해야 하는 단계를 간략하게 설명합니다.
 
-1. Adobe Experience Platform의 [Privacy Service 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) 페이지에서 시작하여 Analytics 데이터에 레이블을 지정하기 전에 필요한 질문에 대해 알아보십시오.
+1. Adobe Experience Platform의 [Privacy Service 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko) 페이지에서 시작하여 Analytics 데이터에 레이블을 지정하기 전에 필요한 질문에 대해 알아보십시오.
 1. **데이터 보존 정책을 설정합니다.** Adobe이 데이터 개인 정보 보호 데이터 액세스/삭제 요청을 처리하려면 데이터 유지 정책이 필요합니다.  자세한 내용은 [데이터 보존 FAQ](/help/technotes/data-retention.md)를 참조하십시오. Privacy Service API를 사용하려면 Adobe Analytics 내에 데이터 보존 기간이 설정되어 있는지 확인해야 합니다.
 1. **데이터 개인 정보 보호 레이블, Adobe Analytics ID 및 네임스페이스에 대해 숙지하십시오.** [Analytics 변수의 데이터 개인 정보 보호 레이블](/help/admin/tools/privacy-labeling/labels.md) 및 [레이블 지정 모범 사례](/help/admin/tools/privacy-labeling/best-practices.md)를 참조하십시오.
 1. **ID, 민감도 및 데이터 거버넌스 레이블을 보고서 세트의 각 변수에 지정합니다.** 새 보고서 세트를 작성할 때마다 또는 기존 보고서 세트 내에서 새 변수를 활성화하는 경우 레이블 지정을 검토해야 합니다. 또한 새로운 솔루션 통합이 활성화된 경우 레이블 지정이 필요할 수 있는 새로운 변수를 노출할 수 있으므로 레이블 지정을 검토해야 합니다. 모바일 앱 또는 웹 사이트를 재구현하면 기존 변수가 사용되는 방식이 변경될 수 있으며, 이로 인해 레이블 업데이트가 필요할 수도 있습니다. [보고서 세트 데이터에 레이블 지정](/help/admin/tools/privacy-labeling/namespaces.md)을 참조하십시오.
