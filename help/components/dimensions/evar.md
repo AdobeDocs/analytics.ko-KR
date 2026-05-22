@@ -36,7 +36,7 @@ ht-degree: 100%
 
 *이 도움말 페이지에서는 eVar가 [차원](overview.md)으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 정의 [차원](overview.md)입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)[!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다].
+eVar는 원하는 대로 사용할 수 있는 사용자 정의 [차원](overview.md)입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md) [!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다].
 
 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. Adobe 아키텍처에서 eVar 지속성이 작동하는 방식에 대한 자세한 내용은 아래의 [eVar 작동 방식](#how-evars-work) 및 [eVar를 지표에 연결하는 방식](#how-evars-tie-to-metrics) 섹션을 참조하십시오. [!UICONTROL 보고서 세트 설정]의 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)에서 만료와 할당을 활성화, 비활성화 또는 사용자 정의할 수 있습니다. 다음 이미지는 전환 변수 인터페이스에서 eVar정의의 예입니다.
 
