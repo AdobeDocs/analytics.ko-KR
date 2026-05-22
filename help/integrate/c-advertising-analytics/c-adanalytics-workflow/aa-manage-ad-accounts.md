@@ -5,10 +5,14 @@ feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 autotag-review: '2026-05-19T13:32:36.907Z'
 TQID: 'https://experienceleague.adobe.com/AeGIKH9eB-OcGqN9iSpMRRtBLFiCU2eNdmQtiK7g9gU'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2: id: fe0a7292-80bc-407a-b456-64170267d1cc
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 552
@@ -40,7 +44,7 @@ ht-degree: 18%
 - 보고서 세트, 유형 및 상태별로 목록을 필터링하려면 ![필터](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)를 선택하세요.
 - ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용하여 광고 계정을 검색합니다.
 - 테이블에서 활성 계정을 선택하려면 **[!UICONTROL 활성 계정]**&#x200B;을 확인하세요.
-- 테이블에 표시할 열을 정의하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을(를) 선택합니다. <br/>테이블 사용자 지정&#x200B;]**대화 상자에서:**[!UICONTROL 
+- 테이블에 표시할 열을 정의하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을(를) 선택합니다. <br/>테이블 사용자 지정&#x200B;**대화 상자에서:**
    - 표시할 열을 선택합니다.
    - **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 

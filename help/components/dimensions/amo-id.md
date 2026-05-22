@@ -4,10 +4,18 @@ description: Adobe Advertising 통합에 사용되는 Adobe Media Optimizer ID.
 feature: Dimensions
 exl-id: 90642896-43dd-4ac0-bfb8-7fe34c0e0302
 TQID: 'https://experienceleague.adobe.com/SzHWYAzd9iYcd5AU86TVL6Bfca4UsuijV141jBuS0y8'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 793
@@ -143,26 +151,26 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 | 분류 | 설명 | DSP | 검색,<br>소셜, 및<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL 계정]** | 계정 이름. | &amp;check; | &amp;check; |
-| **[!UICONTROL 광고 표시 URL]** | 광고에 표시되는 URL. | | &amp;check; |
-| **[!UICONTROL 광고 설명]** | 광고 설명(DSP) 또는 광고 본문(검색, 소셜 및 Commerce)입니다. | &amp;check; | &amp;check; |
-| **[!UICONTROL 광고 대상 URL]** | 광고의 대상 URL입니다. | | &amp;check; |
-| **[!UICONTROL 광고 그룹]** | 광고 그룹 이름입니다. | | &amp;check; |
-| **[!UICONTROL 광고 플랫폼]** | 광고 DSP 또는 검색 엔진 이름. | &amp;check; | &amp;check; |
-| **[!UICONTROL 광고 제목]** | 광고 유형(DSP) 또는 광고 제목(검색, 소셜 및 Commerce)입니다. | &amp;check; | &amp;check; |
-| **[!UICONTROL 광고 유형]** | 광고 유형(예: `text`, `video`, `display` 또는 `native`). | &amp;check; | &amp;check; |
-| **[!UICONTROL AdCloud 특성 1]** -<br>**[!UICONTROL AdCloud 특성 5 ]** | 향후 사용자 지정 속성에 예약된 자리 표시자 분류. 현재 사용되지 않습니다. | | |
-| **[!UICONTROL Campaign]** | 캠페인 이름. | &amp;check; | &amp;check; |
-| **[!UICONTROL Creative 경험 이름]** | 테스트 또는 개인화에 사용된 크리에이티브 변형 그룹을 나타내는 광고 상호 작용과 연관된 크리에이티브 경험의 이름입니다. | &amp;check; | |
-| **[!UICONTROL Creative 분기 이름]** | 크리에이티브 실험의 특정 변형 또는 경로를 나타내는 크리에이티브 경험 내의 분기 이름. | &amp;check; | |
-| **[!UICONTROL Creative 분기 ID]** | 크리에이티브 경험 내의 크리에이티브 분기에 할당된 고유 식별자. | &amp;check; | |
-| **[!UICONTROL Creative 이름]** | 사용자에게 제공된 특정 광고 크리에이티브 에셋의 이름입니다. | &amp;check; | |
-| **[!UICONTROL Creative 변형 이름]** | 크리에이티브 경험 또는 분기 내에서 사용되는 크리에이티브의 특정 변형 이름. | &amp;check; | |
-| **[!UICONTROL 키워드]** | 키워드. | | &amp;check; |
-| **[!UICONTROL 키워드 일치 유형]** | 키워드 및 일치 유형입니다. | | &amp;check; |
-| **[!UICONTROL 랜딩 유형]** | 랜딩 페이지 항목이 뷰스루인지 또는 클릭스루인지 여부를 나타냅니다. | &amp;check; | &amp;check; |
-| **[!UICONTROL 일치 유형]** | 검색 일치 유형입니다. | | &amp;check; |
-| **[!UICONTROL 네트워크]** | RTB(DSP) 또는 광고 네트워크 이름(검색, 소셜 및 Commerce)입니다. | &amp;check; | &amp;check; |
-| **[!UICONTROL 최적화]** | 패키지 이름(DSP) 또는 포트폴리오 이름(검색, 소셜 및 Commerce)입니다. | &amp;check; | &amp;check; |
-| **[!UICONTROL 배치]** | 배치 이름입니다. | &amp;check; | |
-| **[!UICONTROL 제품 대상]** | 제품 목록 광고에 대한 제품 타겟. | | &amp;check; |
+| **[!UICONTROL 계정]** | 계정 이름. | &check; | &check; |
+| **[!UICONTROL 광고 표시 URL]** | 광고에 표시되는 URL. | | &check; |
+| **[!UICONTROL 광고 설명]** | 광고 설명(DSP) 또는 광고 본문(검색, 소셜 및 Commerce)입니다. | &check; | &check; |
+| **[!UICONTROL 광고 대상 URL]** | 광고의 대상 URL입니다. | | &check; |
+| **[!UICONTROL 광고 그룹]** | 광고 그룹 이름입니다. | | &check; |
+| **[!UICONTROL 광고 플랫폼]** | 광고 DSP 또는 검색 엔진 이름. | &check; | &check; |
+| **[!UICONTROL 광고 제목]** | 광고 유형(DSP) 또는 광고 제목(검색, 소셜 및 Commerce)입니다. | &check; | &check; |
+| **[!UICONTROL 광고 유형]** | 광고 유형(예: `text`, `video`, `display` 또는 `native`). | &check; | &check; |
+| **[!UICONTROL AdCloud 특성 1]** -<br>**[!UICONTROL AdCloud 특성 5 &#x200B;]** | 향후 사용자 지정 속성에 예약된 자리 표시자 분류. 현재 사용되지 않습니다. | | |
+| **[!UICONTROL Campaign]** | 캠페인 이름. | &check; | &check; |
+| **[!UICONTROL Creative 경험 이름]** | 테스트 또는 개인화에 사용된 크리에이티브 변형 그룹을 나타내는 광고 상호 작용과 연관된 크리에이티브 경험의 이름입니다. | &check; | |
+| **[!UICONTROL Creative 분기 이름]** | 크리에이티브 실험의 특정 변형 또는 경로를 나타내는 크리에이티브 경험 내의 분기 이름. | &check; | |
+| **[!UICONTROL Creative 분기 ID]** | 크리에이티브 경험 내의 크리에이티브 분기에 할당된 고유 식별자. | &check; | |
+| **[!UICONTROL Creative 이름]** | 사용자에게 제공된 특정 광고 크리에이티브 에셋의 이름입니다. | &check; | |
+| **[!UICONTROL Creative 변형 이름]** | 크리에이티브 경험 또는 분기 내에서 사용되는 크리에이티브의 특정 변형 이름. | &check; | |
+| **[!UICONTROL 키워드]** | 키워드. | | &check; |
+| **[!UICONTROL 키워드 일치 유형]** | 키워드 및 일치 유형입니다. | | &check; |
+| **[!UICONTROL 랜딩 유형]** | 랜딩 페이지 항목이 뷰스루인지 또는 클릭스루인지 여부를 나타냅니다. | &check; | &check; |
+| **[!UICONTROL 일치 유형]** | 검색 일치 유형입니다. | | &check; |
+| **[!UICONTROL 네트워크]** | RTB(DSP) 또는 광고 네트워크 이름(검색, 소셜 및 Commerce)입니다. | &check; | &check; |
+| **[!UICONTROL 최적화]** | 패키지 이름(DSP) 또는 포트폴리오 이름(검색, 소셜 및 Commerce)입니다. | &check; | &check; |
+| **[!UICONTROL 배치]** | 배치 이름입니다. | &check; | |
+| **[!UICONTROL 제품 대상]** | 제품 목록 광고에 대한 제품 타겟. | | &check; |
