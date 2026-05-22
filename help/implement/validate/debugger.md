@@ -4,19 +4,12 @@ description: 기존 디버거를 설치합니다. 이 디버거는 Analytics, Ta
 feature: Implementation Basics
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 role: Admin, Developer, Leader, User
-TQID: https://experienceleague.adobe.com/igbKBwN0NmXCPRi9Rc1UtG7Ty1ffpd0rwyWEOTWPWdk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 681
 ht-degree: 75%
@@ -27,7 +20,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)을 사용하는 것이 좋습니다.
+>이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)을 사용하는 것이 좋습니다.
 
 [!UICONTROL 기존 디버거]는 대부분의 Adobe CX 엔터프라이즈 서비스용 태그를 검사합니다. 디버거를 사용하면 사이트의 지정된 페이지에서 어떤 데이터가 Adobe에 전송되는지 볼 수 있습니다. 이 정보를 사용하여 조직의 구현 문제를 해결하거나 유효성을 검사할 수 있습니다.
 

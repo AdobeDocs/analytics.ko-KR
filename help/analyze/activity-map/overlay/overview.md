@@ -5,20 +5,13 @@ uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-TQID: https://experienceleague.adobe.com/d62-fefaDOC5lOHBnGKgrTzD4euEMcnMlBArhi8RfMc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/d62-fefaDOC5lOHBnGKgrTzD4euEMcnMlBArhi8RfMc'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 681
 ht-degree: 2%
@@ -63,7 +56,7 @@ Activity Map 확장을 사용하면 웹 사이트에 오버레이된 클릭 데�
 * **[!UICONTROL 설정 표시]**: 변경할 수 있는 설정 메뉴를 엽니다(톱니바퀴 아이콘).
    * **[!UICONTROL 설정]**: 확장의 [설정](settings.md)을 엽니다.
    * **[!UICONTROL 도움말]**: Experience League에 대한 설명서를 엽니다(이 페이지).
-   * **[!UICONTROL Adobe 커뮤니티]**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/?profile.language=ko)를 엽니다.
+   * **[!UICONTROL Adobe 커뮤니티]**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/)를 엽니다.
    * **[!UICONTROL 정보]**: 확장 버전을 표시합니다.
    * **[!UICONTROL 로그아웃]**: 확장에서 로그아웃하므로 다시 로그인해야 합니다.
 * **[!UICONTROL Activity Map 종료]**: 확장에 대한 모든 오버레이를 닫습니다(X 아이콘).

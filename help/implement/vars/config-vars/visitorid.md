@@ -4,18 +4,13 @@ description: 사용자 지정 방문자 ID를 사용합니다.
 feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/NVNZ5qIzAa3ztoH2JIHxpGGskQAATqA0EUOZbspauzY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/2lfkJimoLDCqVNqTDE1bsN92ulwvtZftXF-x0990Udw'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 510
 ht-degree: 20%
@@ -69,4 +64,4 @@ s.visitorID = "abc123";
 
 ## 웹 SDK을 사용하는 방문자 ID
 
-Adobe Experience Platform Edge Network을 사용하면 XDM의 [ID 맵](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=ko#using-identitymap)을 사용하여 여러 식별자를 제공할 수 있습니다. ID 맵의 각 ID에는 다른 네임스페이스가 있습니다. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko#analytics)의 일부로 방문자 ID에 사용할 네임스페이스를 지정할 수 있습니다. 이 필드가 구성되면 이 네임스페이스에 대해 지정된 값으로 이벤트를 보낼 때 Analytics에서 방문자 ID로 자동으로 사용됩니다.
+Adobe Experience Platform Edge Network을 사용하면 XDM의 [ID 맵](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)을 사용하여 여러 식별자를 제공할 수 있습니다. ID 맵의 각 ID에는 다른 네임스페이스가 있습니다. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)의 일부로 방문자 ID에 사용할 네임스페이스를 지정할 수 있습니다. 이 필드가 구성되면 이 네임스페이스에 대해 지정된 값으로 이벤트를 보낼 때 Analytics에서 방문자 ID로 자동으로 사용됩니다.

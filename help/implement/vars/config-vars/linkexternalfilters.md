@@ -4,17 +4,13 @@ description: linkExternalFilters 변수를 사용하여 자동 종료 링크 추
 feature: Appmeasurement Implementation
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/7AYwaaBFmauwEwQgSG50dLj4XWIVKUzcpcjoldyDgw0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/mTFSu9z4xpENpqGTdzND5IvLqFsaV7GjWlY2WxtCTGc'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 91%
@@ -37,7 +33,7 @@ AppMeasurement는 사이트 외부를 가리키는 링크를 자동으로 추적
 
 링크 대상 도메인이 현재 `window.location.hostname`과 다른 경우 링크는 자동으로 종료 링크로 간주됩니다. Web SDK는 자동 종료 링크 감지를 수정하기 위한 구성 변수를 제공하지 않습니다. 종료 링크로 적합한 도메인을 사용자 정의해야 하는 경우 `onBeforeEventSend` 콜백에서 사용자 정의 논리를 사용할 수 있습니다.
 
-자세한 내용은 Web SDK 설명서의 [자동 링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ko#automaticLinkTracking)을 참조하십시오.
+자세한 내용은 Web SDK 설명서의 [자동 링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)을 참조하십시오.
 
 ## 아웃바운드 링크 - Adobe Analytics 확장을 사용하여 추적
 

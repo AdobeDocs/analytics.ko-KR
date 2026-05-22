@@ -4,18 +4,13 @@ description: 태그 및 Analytics 확장을 사용하는 Adobe Analytics 구현 
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+TQID: 'https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 396
 ht-degree: 69%
@@ -24,7 +19,7 @@ ht-degree: 69%
 
 # Analytics 확장을 사용하여 Adobe Analytics 구현
 
-Adobe Analytics의 서비스 제공 기간 동안 Adobe는 데이터 수집을 위해 사이트에서 코드를 구현하는 여러 가지 방법을 제공해 왔습니다. Adobe의 현재 권장 메서드는 Adobe Experience Platform에서 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 통해 사용해야 합니다.
+Adobe Analytics의 서비스 제공 기간 동안 Adobe는 데이터 수집을 위해 사이트에서 코드를 구현하는 여러 가지 방법을 제공해 왔습니다. Adobe의 현재 권장 메서드는 Adobe Experience Platform에서 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 통해 사용해야 합니다.
 
 Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함께 Analytics 코드를 배포할 수 있도록 해 주는 태그 관리 솔루션입니다. Adobe는 다른 솔루션 및 제품과의 통합을 제공하며 사용자 정의 코드를 배포할 수 있도록 해 줍니다. 따라서 사이트에서 코드를 업데이트하기 위해 조직의 개발 팀에 의존하지 않고도 이러한 모든 작업을 수행할 수 있습니다.
 
@@ -64,7 +59,7 @@ Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함
 
 <tr>
 <td>4</td><td>태그 속성에 <b>Analytics 확장을 설치</b>합니다. 데이터를 Adobe Analytics에 전송하도록 Analytics 확장을 구성합니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=ko">Adobe Analytics 확장 개요</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html">Adobe Analytics 확장 개요</a></td>
 </tr>
 
 <tr>
@@ -76,7 +71,7 @@ Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함
 <tr>
 <td>6</td> 
 <td><b>유효성을 검사하고 프로덕션에 게시합니다</b>. 웹 사이트 페이지에 태그 속성을 포함하는 코드를 포함합니다. 그런 다음 데이터 요소, 규칙 등을 사용하여 구현을 사용자 정의하십시오.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=ko#embed-code">포함 코드</a><br/><a href="./validate-publish-prod.md">개발 구현 유효성 검사 및 프로덕션에 게시</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">포함 코드</a><br/><a href="./validate-publish-prod.md">개발 구현 유효성 검사 및 프로덕션에 게시</a></td>
 </tr>
 
 </table>

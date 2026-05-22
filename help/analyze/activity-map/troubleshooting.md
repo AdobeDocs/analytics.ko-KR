@@ -4,21 +4,13 @@ description: 이미지 요청에서 Activity Map 데이터를 볼 수 없는 이
 feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-TQID: https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+TQID: 'https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 429
 ht-degree: 16%
@@ -33,7 +25,7 @@ Activity Map 차원에 대한 데이터가 표시되지 않는 경우 이 페이
 
 먼저, AppMeasurement에서 Activity Map 데이터를 올바르게 수집하는지 확인하십시오.
 
-1. [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/ko/docs/experience-platform/debugger/home)을 다운로드하여 설치합니다.
+1. [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)을 다운로드하여 설치합니다.
 2. 웹 페이지로 이동한 다음 링크를 클릭합니다.
 3. 후속 페이지가 로드되면 디버거를 엽니다. `activitymap.`과(와) `.activitymap` 사이에 있는 Activity Map 컨텍스트 데이터 변수가 표시되는지 확인합니다.
 
