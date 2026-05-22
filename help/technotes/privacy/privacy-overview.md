@@ -4,22 +4,42 @@ keywords: 개인정보 보호
 title: 개인정보 보호 개요
 feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 98%
+source-wordcount: 1004
+ht-degree: 88%
 
 ---
 
 # 개인정보 보호 개요
 
-Adobe는 귀하의 조직이 해당 법률 및 규정을 준수할 수 있도록 지원하고자 합니다. 자세한 내용은 [Adobe Experience Cloud 개인 정보](https://www.adobe.com/kr/privacy/experience-cloud.html){target=_blank}를 참조하십시오. Adobe Analytics와 귀하의 조직 사이에서 Adobe는 “데이터 처리자” 역할을 하며 귀하는 “데이터 컨트롤러” 역할(또는 관련 개인정보 보호 및 데이터 보호법에 따라 이에 상응하는 역할)을 합니다. 조직에서 Adobe의 솔루션 구현 방법을 독점적으로 제어하기 때문에 Adobe 제품 및 서비스의 사용 방법은 조직의 판단에 따라 공개합니다. Adobe Analytics를 사용하는 동안 귀하의 조직은 자체 개인정보 처리방침, Adobe와의 서비스 계약 및 모든 관련 법률을 준수할 책임이 있습니다.
+Adobe는 귀하의 조직이 해당 법률 및 규정을 준수할 수 있도록 지원하고자 합니다. 자세한 내용은 [Adobe CX Enterprise 개인 정보](https://www.adobe.com/kr/privacy/experience-cloud.html){target=_blank}를 참조하십시오. Adobe Analytics와 귀하의 조직 사이에서 Adobe는 “데이터 처리자” 역할을 하며 귀하는 “데이터 컨트롤러” 역할(또는 관련 개인정보 보호 및 데이터 보호법에 따라 이에 상응하는 역할)을 합니다. 조직에서 Adobe의 솔루션 구현 방법을 독점적으로 제어하기 때문에 Adobe 제품 및 서비스의 사용 방법은 조직의 판단에 따라 공개합니다. Adobe Analytics를 사용하는 동안 귀하의 조직은 자체 개인정보 처리방침, Adobe와의 서비스 계약 및 모든 관련 법률을 준수할 책임이 있습니다.
 
 Adobe는 다음과 같은 중요한 개념을 준수할 것을 강력히 권장합니다.
 
-* **개인 데이터를 수집하는 경우 개인정보 보호 법률 및 규정을 준수하는지 확인합니다.** 사용자 정의 변수를 사용하면 액세스 가능한 거의 모든 것을 수집할 수 있습니다. 단, 조직의 개인정보 처리방침과 해당 법률도 고려해야 합니다.
-* **조직의 개인정보 보호 정보를 찾기 쉽고 이해하기 쉽게 고객에게 제공합니다.** 유용한 정보에는 옵트아웃 링크, 찾아보기 데이터가 사용되는 방식, Adobe 서비스 사용 방법 또는 사용 계획 등이 포함됩니다.
-* **적용되는 현지 법률과 국제 법률을 모두 숙지합니다.** 조직이 글로벌 규모로 운영되는 경우 일부 국제 법률이 적용될 수 있습니다.
+* **개인 데이터를 수집하는 경우 개인 정보 보호 법률 및 규정을 준수하는지 확인하십시오.** 사용자 지정 변수를 사용하면 액세스할 수 있는 거의 모든 항목을 수집할 수 있습니다. 그러나 조직의 개인정보 처리방침 및 해당 법도 고려해야 합니다.
+* **고객에게 조직의 찾기 쉽고 이해하기 쉬운 개인 정보 정보를 제공합니다.** 유용한 정보에는 옵트아웃 링크, 탐색 데이터 사용 방법, Adobe 서비스 사용 방법 또는 사용 계획이 포함되어 있습니다.
+* **본인에게 적용되는 국내법과 국제법을 모두 숙지하십시오.** 조직이 전세계적인 규모로 운영되는 경우 일부 국제법을 적용할 수 있습니다.
 
 ## 데이터 수집 분류
 

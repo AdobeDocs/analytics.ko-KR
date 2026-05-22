@@ -5,9 +5,25 @@ keywords: Analysis Workspace;세그먼트 IQ
 role: User, Admin
 exl-id: 8b8f63ae-2697-474d-9c51-5d90d31f55ef
 feature: Visualizations
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+autotag-review: '2026-05-22T09:21:43.384Z'
+TQID: 'https://experienceleague.adobe.com/oUwUsqeZJoE0JdRusG23kMrPHx0W-i91UYxQ-Krn5yo'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: 139
 ht-degree: 100%
 
 ---
@@ -16,7 +32,7 @@ ht-degree: 100%
 
 분석가들은 조직의 지표 및 차원에 걸쳐 세그먼트 간의 적절한 차이점을 검색하느라 몇 시간, 심지어 며칠씩 소비할 수도 있습니다. 이런 분석은 지루하고 시간이 많이 소요됩니다. 타기팅된 마케팅 활동에 중대한 영향을 줄 수 있는 세그먼트의 주요 차이점을 놓칠 수도 있습니다.
 
-실제 시나리오를 위한 [세그먼트 비교 사용 사례](c-panels/c-segment-comparison/segment-compare-use-cases.md)는 조직이 세그먼트에 대한 귀중한 통찰력을 얻고 세그먼트를 비교하는 방법을 파악하는 데 도움이 됩니다.
+실제 시나리오를 위한 [세그먼트 비교 사용 사례](c-panels/c-segment-comparison/segment-compare-use-cases.md)는 조직이 세그먼트에 대한 귀중한 인사이트를 얻고 세그먼트를 비교하는 방법을 파악하는 데 도움이 됩니다.
 
 세그먼트 비교 기능은 다음과 같습니다.
 

@@ -4,9 +4,25 @@ description: 동일한 히트에 여러 값이 있는 사용자 정의 변수입
 feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/LpUX55ZGYgm7Z2-P4uAwH-rV88JMbi2661i4f9RYd-Q
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: 503
 ht-degree: 74%
 
 ---
@@ -19,7 +35,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->목록 변수는 [!UICONTROL 보고서 세트 설정]의 [최대 값](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md) 설정을 기반으로 방문자당 가장 최근 값을 저장합니다. 최대 250개의 값이 지원됩니다. [!UICONTROL 최대 값] 설정에서 허용하는 것보다 더 많은 고유 값이 있는 경우 가장 오래된 값은 지표에 귀속되지 않습니다.
+>목록 변수는 [보고서 세트 설정](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)의 [!UICONTROL 최대 값] 설정을 기반으로 방문자당 가장 최근 값을 저장합니다. 최대 250개의 값이 지원됩니다. [!UICONTROL 최대 값] 설정에서 허용하는 것보다 더 많은 고유 값이 있는 경우 가장 오래된 값은 지표에 귀속되지 않습니다.
 
 ## 보고서 세트 설정에서 목록 변수 설정
 

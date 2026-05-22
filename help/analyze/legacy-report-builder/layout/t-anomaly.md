@@ -5,10 +5,22 @@ uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/9qyfB3mtj7QKDNLL1PRrQ2-3lzrb19-7gL4rnfxbph4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 72%
+source-wordcount: 188
+ht-degree: 54%
 
 ---
 
@@ -19,11 +31,11 @@ ht-degree: 72%
 Report Builder에서 예외 항목 탐지 요청을 만들려면:
 
 1. **[!UICONTROL 사이트 지표]** > **[!UICONTROL 트래픽]** 보고서 등과 같이 트렌드 보고서를 선택합니다.
-1. [!UICONTROL 세부기간 적용] 메뉴에서 **[!UICONTROL 일]**&#x200B;을 선택합니다.
+1. [!UICONTROL 세부 기간 적용] 메뉴에서 **[!UICONTROL 일]**&#x200B;을 선택합니다.
 
    >[!NOTE]
    >
-   >[!UICONTROL 예외 항목 탐지] 메뉴는 일 세부기간을 선택하는 경우에만 사용할 수 있습니다. 선택하는 날짜 범위와 관계없이 통계 데이터 교육 기간으로 이전 30일의 데이터가 사용됩니다.
+   >[!UICONTROL 예외 항목 탐지] 메뉴는 일 세부 기간을 선택하는 경우에만 사용할 수 있습니다. 선택하는 날짜 범위와 관계없이 통계 데이터 교육 기간으로 이전 30일의 데이터가 사용됩니다.
 
 1. 날짜 범위 구성 후 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
@@ -37,7 +49,7 @@ Report Builder에서 예외 항목 탐지 요청을 만들려면:
 
    ![요청 마법사 2단계 - 트래픽 보고서를 보여 주는 스크린샷입니다.](assets/anomaly_visit.png)
 
-   이러한 옵션 중 하나를 선택하면 원래 지표의 예외 항목 탐지 복사본이 만들어집니다. 예를 들어 방문 지표의 경우 하한 방문 지표가 [!UICONTROL 지표] 그룹에 추가됩니다.
+   이러한 옵션 중 하나를 선택하면 원본 지표의 예외 항목 탐지 복사본이 만들어집니다. 예를 들어 방문 지표의 경우, 하한값 방문 지표가 [!UICONTROL 지표] 그룹에 추가됩니다.
 1. **[!UICONTROL 마침]**&#x200B;을 클릭하고 Excel에 출력할 셀을 선택합니다.
 
    [예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)에서 정의를 참조하십시오.

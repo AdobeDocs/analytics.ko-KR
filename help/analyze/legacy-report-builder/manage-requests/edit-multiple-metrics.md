@@ -4,10 +4,20 @@ title: 여러 요청에 대한 지표를 편집하는 방법
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/epK-BLSIpnZV1-0eqPxb2aGXSbon4Oc1mRDnRljpCxI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 28%
+source-wordcount: 598
+ht-degree: 16%
 
 ---
 
@@ -34,7 +44,7 @@ ht-degree: 28%
 
    ![요청 편집, 지표 추가 옵션을 선택한 스크린샷을 보여 줍니다.](assets/add_metric.png)
 
-1. 요청을 새로 고침하여 실제 데이터를 확인합니다. 오프라인 데이터는 데이터를 새로 고칠 때까지 표시됩니다.
+1. 실제 데이터를 보려면 요청을 새로 고침하십시오. 오프라인 데이터는 데이터를 새로 고칠 때까지 표시됩니다.
 
 ## 지표 바꾸기
 
@@ -47,7 +57,7 @@ ht-degree: 28%
    * **피벗 레이아웃**&#x200B;에서 피벗 레이아웃 요청이 날짜, 방문, 방문자, 일별 고유 값을 출력하고 *방문자*&#x200B;가 *매출*(으)로 대체되면 업데이트된 요청 레이아웃은 날짜, 방문, 매출 및 일별 고유 값이 됩니다.
    * **사용자 지정 레이아웃**&#x200B;에서 *방문자* 지표가 셀 F11에 출력된 경우 업데이트된 요청 레이아웃은 동일한 셀 F11에 *수입*&#x200B;을 표시합니다.
 
-* 대체되는 지표에 적용된 작업(평균, 앞에 추가되는 텍스트, 뒤에 추가되는 텍스트, 마이크로차트)이 있는 경우 해당 작업은 새 지표에도 적용됩니다.
+* 대체된 지표에 일부 작업(평균, 사전 첨부된 텍스트, 사후 펜딩된 텍스트, 마이크로차트)이 적용된 경우 이러한 작업은 새 지표에도 적용됩니다.
 
 지표를 바꾸려면 다음 작업을 수행하십시오.
 

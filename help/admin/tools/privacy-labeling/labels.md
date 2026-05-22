@@ -4,10 +4,29 @@ title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '3757'
-ht-degree: 84%
+source-wordcount: 3848
+ht-degree: 83%
 
 ---
 
@@ -43,7 +62,7 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 | 레이블 | 정의 |
 | --- | --- |
 | S1 | 디바이스의 정확한 위치를 판별하는 데 사용할 수 있는 위도 및 경도와 관련된 정확한 지리적 위치 데이터입니다(100m 이내). |
-| S2 | 광범위하게 정의된 지리적 펜스 영역을 결정하는 데 사용할 수 있는 지리적 위치 데이터입니다. |
+| S2 | 광범위하게 정의된 geo-fence 영역을 판별하는 데 사용할 수 있는 지리적 위치 데이터입니다. |
 
 {style="table-layout:auto"}
 
@@ -67,7 +86,7 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 
 다른 레이블과 달리 이러한 삭제 레이블은 함께 사용할 수 없습니다. 둘 다 또는 없음 중 하나를 선택할 수 있습니다. [!UICONTROL 없음] 레이블은 삭제 옵션 중 하나를 선택하지 않음으로써 간단하게 [!UICONTROL 없음]이 표시되므로 별도로 필요하지 않습니다.
 
-삭제 레이블은 히트를 데이터 주체(즉, 데이터 주체를 식별할 수 있는 주체)와 연결할 수 있는 값이 포함된 필드에만 필요합니다. 기타 개인 정보(즐겨찾기, 탐색/구매 내역, 건강 상태 등)는 데이터 주체와의 연결이 끊어지므로 삭제할 필요가 없습니다.
+삭제 레이블은 히트를 데이터 주체(즉, 데이터 주체를 식별할 수 있는 주체)와 연결할 수 있는 값이 포함된 필드에만 필요합니다. 기타 개인 정보(즐겨찾기, 탐색/구입 내역, 건강 상태 등) 데이터 주체와의 연결이 끊기므로 삭제할 필요가 없습니다.
 
 | 레이블 | 정의 | 기타 요구 사항 |
 | --- | --- | --- |
@@ -136,7 +155,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
 
 | 변수 유형 | 지원되는 레이블 | 지원되지 않는 레이블 |
 |--- |--- |--- |
-| <ul><li>사용자 정의 성공 이벤트</li><li>머천다이징 eVar</li><li>다중 값 변수 (mvVars)</li><li>계층 변수</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| <ul><li>사용자 지정 성공 이벤트</li><li>머천다이징 eVar</li><li>다중 값 변수 (mvVars)</li><li>계층 변수</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | 분류 | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>트래픽 변수 (Prop)</li><li>상거래 변수 (비머천다이징 eVar)</li></ul> | 모든 레이블 | - |
 | 대부분의 다른 변수 (*예외 사항은 아래 표 참조*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
@@ -167,7 +186,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
   </tr>
   <tr> 
    <td colname="col1"> <p>트래픽 변수 </p> </td> 
-   <td colname="col2"> <p>목록 Prop </p> </td> 
+   <td colname="col2"> <p>모든 prop </p> </td> 
    <td colname="col3"> <p>없음/S1/S2 </p> </td> 
    <td colname="col4"> <p>목록 Prop에는 여러 값이 포함될 수 있으며 개인정보 보호 식별자로 허용되지 않습니다.</p> </td> 
   </tr> 

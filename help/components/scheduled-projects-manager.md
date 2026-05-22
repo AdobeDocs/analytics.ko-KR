@@ -3,9 +3,26 @@ description: 예약된 프로젝트를 관리하는 방법을 알아봅니다.
 title: 예약된 프로젝트
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: 'https://experienceleague.adobe.com/yLFSPLIjDENmo92-l64bKxb7C6U-UFs75W6BNcQaRwk'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: dee9fe88-97f4-4ee3-915e-9abf8abf2b46
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+industry_v2:
+  - id: f1f252c9-6b50-4b00-a024-2a4326e7992d
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: 793
 ht-degree: 41%
 
 ---
@@ -67,7 +84,7 @@ ht-degree: 41%
 
 ## 필터
 
-[&#x200B; 필터 패널을 사용하여 예약된 프로젝트 &#x200B;](#scheduled-project-list)예약된 프로젝트 목록➌을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
+➌ 필터 패널을 사용하여 예약된 프로젝트 [예약된 프로젝트 목록](#scheduled-project-list)을(를) 필터링할 수 있습니다. 필터 패널을 표시하거나 숨기려면 ![필터](/help/assets/icons/Filter.svg)를 사용합니다.
 
 필터 패널은 다음 섹션으로 구성되어 있습니다.
 
@@ -75,21 +92,21 @@ ht-degree: 41%
 
 | 태그 | 설명 |
 |---|---|
-| ![태그](/help/components/assets/scheduledprojects-filter-tags.png){width="300"} | **[!UICONTROL 태그]** 섹션에서는 태그를 필터링할 수 있습니다. <ul><li>![검색](/help/assets/icons/Search.svg) **[!UICONTROL 태그 검색]**&#x200B;을 사용하면 필터링할 태그를 검색할 수 있습니다.</li><li>둘 이상의 태그를 선택할 수 있습니다. 사용할 수 있는 태그는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>⃣7︎: 특정 태그와 연결된 예약된 프로젝트 수입니다.</li></ul></li></ul> |
+| ![태그](/help/components/assets/scheduledprojects-filter-tags.png){width="300"} | **[!UICONTROL 태그]** 섹션에서는 태그를 필터링할 수 있습니다. <ul><li>![검색](/help/assets/icons/Search.svg) **[!UICONTROL 태그 검색]**&#x200B;을 사용하면 필터링할 태그를 검색할 수 있습니다.</li><li>둘 이상의 태그를 선택할 수 있습니다. 사용할 수 있는 태그는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>7︎: 특정 태그와 연결된 예약된 프로젝트 수입니다.</li></ul></li></ul> |
 
 
 ### 소유자
 
 | 소유자 | 설명 |
 |---|---|
-| ![소유자](/help/components/assets/scheduledprojects-filter-owners.png){width="300"} | **[!UICONTROL 소유자]** 섹션에서는 소유자를 필터링할 수 있습니다. <ul><li>![검색](/help/assets/icons/Search.svg) *소유자 검색*&#x200B;을 사용하여 필터링할 소유자를 검색합니다.</li><li>둘 이상의 소유자를 선택할 수 있습니다. 사용할 수 있는 소유자는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>⃣4︎: 특정 소유자와 연결된 예약된 프로젝트 수입니다.</li></ul></li></ul> |
+| ![소유자](/help/components/assets/scheduledprojects-filter-owners.png){width="300"} | **[!UICONTROL 소유자]** 섹션에서는 소유자를 필터링할 수 있습니다. <ul><li>![검색](/help/assets/icons/Search.svg) *소유자 검색*&#x200B;을 사용하여 필터링할 소유자를 검색합니다.</li><li>둘 이상의 소유자를 선택할 수 있습니다. 사용할 수 있는 소유자는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>4︎: 특정 소유자와 연결된 예약된 프로젝트 수입니다.</li></ul></li></ul> |
 
 
 ### 기타 필터
 
 | 기타 필터 | 설명 |
 |---|---|
-| ![기타 필터](/help/components/assets/scheduledprojects-filter-otherfilters.png){width="300"} | **[!UICONTROL 기타 필터]** 섹션에서는 미리 정의된 다른 필터를 필터링할 수 있습니다.<ul><li>다음 옵션 중 하나 이상을 선택할 수 있습니다.<ul><li> **[!UICONTROL 만료됨]**: 만료된 예약된 프로젝트를 필터링합니다.</li><li>**[!UICONTROL 실패]**: 예약에 실패한 예약된 프로젝트를 필터링합니다.</li></ul>선택할 수 있는 내용은 역할과 권한에 따라 달라집니다.</li><li>둘 이상의 기타 필터를 선택할 수 있습니다. 사용할 수 있는 기타 필터는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>⃣4︎: 특정 다른 필터와 연결된 예약된 프로젝트 수입니다.</li></ul></li></ul> |
+| ![기타 필터](/help/components/assets/scheduledprojects-filter-otherfilters.png){width="300"} | **[!UICONTROL 기타 필터]** 섹션에서는 미리 정의된 다른 필터를 필터링할 수 있습니다.<ul><li>다음 옵션 중 하나 이상을 선택할 수 있습니다.<ul><li> **[!UICONTROL 만료됨]**: 만료된 예약된 프로젝트를 필터링합니다.</li><li>**[!UICONTROL 실패]**: 예약에 실패한 예약된 프로젝트를 필터링합니다.</li></ul>선택할 수 있는 내용은 역할과 권한에 따라 달라집니다.</li><li>둘 이상의 기타 필터를 선택할 수 있습니다. 사용할 수 있는 기타 필터는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>4︎: 특정 다른 필터와 연결된 예약된 프로젝트 수입니다.</li></ul></li></ul> |
 
 
 <!--

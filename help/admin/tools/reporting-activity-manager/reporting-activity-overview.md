@@ -4,9 +4,22 @@ title: 보고 활동 관리자 개요
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
+TQID: 'https://experienceleague.adobe.com/ooOVEtcjfU99QHDkVKE3DDEWHkkcvScBtpL6SFE7POc'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: e499b847-6dc4-408a-9f0b-70d35ce9b711
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 264
 ht-degree: 100%
 
 ---

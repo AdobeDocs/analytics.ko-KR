@@ -4,10 +4,22 @@ description: 데이터 소스 관리 인터페이스를 탐색합니다.
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: 'https://experienceleague.adobe.com/FgAo4CzdiJlB9u-XJX2XfWL0Zt8Wzg3Uk08Cw17stsw'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 7%
+source-wordcount: 664
+ht-degree: 6%
 
 ---
 
@@ -50,7 +62,7 @@ ht-degree: 7%
 
 **[!UICONTROL 만들기]** 탭에는 데이터 원본 만들기 마법사의 시작점이 표시됩니다.
 
-![만들기](assets/create.png)
+![선택 사항에서](assets/create.png)
 
 데이터 소스의 카테고리와 유형은 이전 버전의 Adobe Analytics에서 더 중요했습니다. 그러나 여전히 제한적으로 사용할 수 있습니다.
 

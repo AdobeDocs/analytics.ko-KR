@@ -3,14 +3,29 @@ title: 브라우저 너비 - 전체기간
 description: 브라우저 창의 폭(픽셀 단위)입니다.
 feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: 2601b0e5c3fa78237ce693801b8dd8c95b853b81
+TQID: https://experienceleague.adobe.com/f9AknIwL-9ZMJ8tnGMxpUNmlkQiFmbjI3gtlP3KZtSQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: 274
 ht-degree: 81%
 
 ---
 
-# 브라우저 너비
+# 브라우저 폭
 
 &#39;브라우저 너비 - 전체기간&#39; [차원](overview.md)은(는) 사전 정의된 그룹으로 분류된 브라우저 창의 너비를 표시합니다. 이 차원은 방문자가 콘텐츠를 보는 너비를 이해하려 할 때 유용합니다. 일반적으로 콘텐츠가 표시되는 너비를 이해하면 해당 콘텐츠를 최적화할 수 있습니다.
 

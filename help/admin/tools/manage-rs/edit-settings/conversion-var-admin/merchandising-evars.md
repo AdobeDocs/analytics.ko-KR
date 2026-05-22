@@ -4,10 +4,26 @@ description: 머천다이징 eVar 이면의 개념과 데이터를 처리하고 
 feature: Admin Tools
 role: Admin
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/ualdvwO-ym7q9XtStQQ4GIHUJ5-P6pv3MXd-z5JWvOs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '5279'
-ht-degree: 95%
+source-wordcount: 5323
+ht-degree: 94%
 
 ---
 
@@ -208,7 +224,7 @@ s.events="purchase";
 
 제품 구문을 사용하는 대부분의 경우 검색 방법이 실제로 사용된 페이지(예: 키워드 검색 결과 페이지, 찾아보기 페이지, 내부 캠페인 랜딩 페이지 등)가 아닌 제품 세부 사항 페이지에서 제품 검색 방법 eVar가 설정되어야 합니다. 방문자가 어느 정도 제품과 상호 작용할 때까지는 제품이 진정으로 &quot;발견&quot;되지 않았다고 가정하는 것이 합리적입니다. 따라서, 이러한 페이지에는 여러 제품이 (일반적으로) 표시되는 점을 고려할 때 이러한 eVar(제품 구문 사용)는 검색 방법 페이지에서 설정하지 않아야 합니다. 우리의 목표는 방문자가 실제 상호 작용한 제품에만 검색 방법 값을 바인딩하는 것입니다.
 
-이외에도 방문자는 검색 방법 페이지를 보는 동안 개별 제품 세부 사항 페이지로 이동하는 링크를 클릭하거나 개별 제품을 검색 방법 페이지에서 바로 장바구니에 추가할 수 있습니다. &quot;샌들&quot; 검색 키워드 예시를 사용하자면, 방문자가 &quot;sandal123&quot; 제품을 키워드 검색 결과 페이지에서 바로 장바구니에 추가하는 경우, 장바구니에 추가 버튼의 onClick 이벤트 등을 통해 장바구니 추가를 캡처하기 위한 코드는 장바구니 추가가 발생할 때 동적으로 생성되거나 페이지 코드 또는 태그 관리 시스템을 통해 직접 &quot;하드 코딩&quot;되어야 합니다.  둘 중 어느 방식이든 간에 이러한 경우에서 실행될 코드는 다음과 같습니다.
+이외에도 방문자는 검색 방법 페이지를 보는 동안 개별 제품 세부 사항 페이지로 이동하는 링크를 클릭하거나 개별 제품을 검색 방법 페이지에서 바로 장바구니에 추가할 수 있습니다. &quot;샌들&quot; 검색 키워드 예시를 사용하자면, 방문자가 &quot;sandal123&quot; 제품을 키워드 검색 결과 페이지에서 바로 장바구니에 추가하는 경우, 장바구니에 추가 버튼을 클릭하는 등의 작업을 통해 장바구니 추가를 캡처하기 위한 코드 장바구니 추가가 발생할 때 동적으로 생성되거나 페이지 코드 또는 태그 관리 시스템을 통해 직접 &quot;하드 코딩&quot;되어야 합니다.  둘 중 어느 방식이든 간에 이러한 경우에서 실행될 코드는 다음과 같습니다.
 
 ```js
 s.linkTrackVars="products,events";
@@ -300,7 +316,7 @@ s.eVar5="non-cross sell";
 
 앞에서 설명한 바와 같이, 전환 변수 구문을 사용하는 모든 머천다이징 eVar에는 &quot;가장 최근(마지막)&quot;이라는 할당 설정이 있습니다. eVar가 어떤 값과 동일하게 설정되고 나면 해당 값은 모든 후속 히트에서 지속됩니다(post_evar 열을 통해). 이 값은 다른 값으로 설정되거나 eVar가 만료될 때까지 지속됩니다. 따라서 eVar가 설정된 후 누구에 의해서든 상호 작용되는 모든 제품은 그 eVar에 아직 바인딩되지 않은 경우 eVar에 전달된 &quot;가장 최근 (마지막)&quot; 값에 바인딩됩니다.
 
-위의 예에서 설명하자면 `eVar2` 값 &quot;샌들&quot;과 eVar1 값 &quot;내부 키워드 검색&quot; 등이 키워드 검색 발생 후에 보는 표시되는 페이지에서 지속됩니다. 이는 eVar가 다른 값으로 덮어쓰여질 때까지 지속됩니다. 방문자가 키워드 검색 결과 페이지에서 &quot;sandal123&quot; 제품 ID에 대한 제품 세부 사항 페이지의 링크를 클릭한다고 가정해 봅시다.  이때 &quot;sandal123&quot; 제품 ID(아직 바인딩되지 않은 경우)는 post_evar 열에 포함된 각 값 또는 이전(검색 결과) 페이지에서 수집된 eVar 값에 바인딩됩니다.
+위의 예에서 `eVar2` 값 &quot;샌들&quot;과 eVar1 값 &quot;내부 키워드 검색&quot; 등은 키워드 검색이 발생한 후 표시되는 모든 페이지에서 지속됩니다. 이는 eVar가 다른 값으로 덮어쓰여질 때까지 지속됩니다. 방문자가 키워드 검색 결과 페이지에서 &quot;sandal123&quot; 제품 ID에 대한 제품 세부 사항 페이지의 링크를 클릭한다고 가정해 봅시다.  이때 &quot;sandal123&quot; 제품 ID(아직 바인딩되지 않은 경우)는 post_evar 열에 포함된 각 값 또는 이전(검색 결과) 페이지에서 수집된 eVar 값에 바인딩됩니다.
 
 전환 변수 구문에 대해 재고해야 할 사항이 한 가지 더 있습니다. eVar 값을 제품에 바인딩하려면 바인딩 이벤트를 설정해야 합니다. Adobe Analytics 이미지 요청에서 제품(제품 변수 내)과 함께 머천다이징 eVar(자체 변수)를 설정하는 것만으로 eVar 값이 제품에 반드시 바인딩되지는 않습니다.  보고서 세트 관리자에서 설정된 머천다이징 바인딩 이벤트 설정이 eVar 값을 제품에 바인딩하는 기준을 결정합니다.
 
@@ -374,7 +390,7 @@ post_events="prodView";
 post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
 ```
 
-post_products 열에 포함된 값이 익숙하실 수도 있습니다. 이 문서에서 위로 스크롤하여 이 post_products 값과 s.products 값을 비교해 보십시오.  post_products 열은 제품 변수 구문을 사용하여 설정된다는 점을 알 수 있습니다.
+post_products 열에 포함된 값이 익숙하실 수도 있습니다. 이 문서에서 위로 스크롤하여 이 post_products 값과 s.products 값을 비교해 보십시오. post_products 열은 제품 변수 구문을 사용하여 설정된다는 점을 알 수 있습니다.
 
 즉, 제품 구문을 통해 바인딩은 전환 변수 구문 eVar 값을 제품 변수로 &quot;복사&quot;합니다. 이 복사 작업은 제품 변수와 바인딩 이벤트(eVar 구성을 통해 설정)가 동일한 요청에 포함되어 있는 경우에만 수행됩니다. 이 시점에서 post_eVar 열에 포함된 값은 제품에 바인딩됩니다. 이 바인딩은 post_products 열에 저장된 제품 구문을 통해 표시됩니다.
 

@@ -37,7 +37,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4148
 ht-degree: 78%
@@ -134,7 +134,7 @@ ht-degree: 78%
 | | **`latlon1`** | 위치 (10km까지) | varchar (255) |
 | | **`latlon23`** | 위치 (100m까지) | varchar (255) |
 | | **`latlon45`** | 위치 (1m까지) | varchar (255) |
-| | **`mcvisid`** | Experience Cloud 방문자 ID. 19자리에 채워진 두 개의 연결된 64비트 숫자로 구성된 128비트 숫자. | varchar (255) |
+| | **`mcvisid`** | CX Enterprise 방문자 ID. 19자리에 채워진 두 개의 연결된 64비트 숫자로 구성된 128비트 숫자. | varchar (255) |
 | **`post_`** | **`mc_audiences`** | 방문자가 속한 Audience Manager 세그먼트 ID 목록입니다. `post_mc_audiences` 열은 구분 기호를 `--**--`로 변경합니다. | 텍스트 |
 | **`post_`** | **`mobileaction`** | 모바일 작업입니다. 모바일 구현에서 `trackAction`이 호출되면 자동으로 수집됩니다. 앱에서 경로를 지정하는 자동 작업을 허용합니다. | varchar (100) |
 | **`post_`** | **`mobileappid`** | 모바일 앱 ID입니다. 애플리케이션 이름과 버전을 다음 포맷으로 저장: `[AppName] [BundleVersion]` | varchar (255) |

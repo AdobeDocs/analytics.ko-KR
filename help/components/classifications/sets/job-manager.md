@@ -3,9 +3,21 @@ title: 분류 작업 관리자
 description: 분류 세트에서 생성된 현재 및 완료된 분류 작업을 보는 방법에 대해 알아봅니다.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+TQID: https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: 644
 ht-degree: 2%
 
 ---
@@ -38,7 +50,7 @@ ht-degree: 2%
 | **[!UICONTROL 분류 집합]** | 분류 작업과 연결된 분류 세트입니다. |
 | **[!UICONTROL 크기]** | 분류 작업의 일부로 내보내거나 가져온 파일의 크기입니다. |
 | **[!UICONTROL 상태]** | 분류 작업의 상태입니다. 가능한 값은 **[!UICONTROL 생성됨]**, **[!UICONTROL 큐에 있음]**, **[!UICONTROL 확인됨]**, **[!UICONTROL 유효성 검사 실패]**, **[!UICONTROL 처리]**, **[!UICONTROL 처리 완료]**, **[!UICONTROL 처리 실패]**, **[!UICONTROL 완료됨]** 또는 **[!UICONTROL 진행]**&#x200B;입니다. 표시되는 경우 경고 ![경고](/help/assets/icons/Alert.svg) 위로 마우스를 가져가면 추가 정보가 표시됩니다. |
-| **[!UICONTROL 파일 이름]** | 분류 작업의 일부로 파일을 가져오거나 내보내는 데 사용되는 이름 또는 기능을 식별합니다. 가능한 값은 다음과 같습니다. <ul><li>*값 없음*</li><li>분류 작업의 일부로 처리되는 파일의 이름입니다.</li><li>**[!UICONTROL SAINT 내보내기]**: 작업은 [레거시 분류 인터페이스](/help/components/classifications/importer/c-working-with-saint.md)에서 내보내는 작업입니다.</li><li>**[!UICONTROL timestamp _에_분류 집합&#x200B;_에 대한_]**&#x200B;내보내기: 작업은 [스키마](manage/schema.md#download) 인터페이스에서 다운로드한 작업입니다.</li></ul> |
+| **[!UICONTROL 파일 이름]** | 분류 작업의 일부로 파일을 가져오거나 내보내는 데 사용되는 이름 또는 기능을 식별합니다. 가능한 값은 다음과 같습니다. <ul><li>*값 없음*</li><li>분류 작업의 일부로 처리되는 파일의 이름입니다.</li><li>**[!UICONTROL SAINT 내보내기]**: 작업은 [레거시 분류 인터페이스](/help/components/classifications/importer/c-working-with-saint.md)에서 내보내는 작업입니다.</li><li>_timestamp _&#x200B;**에_분류 집합&#x200B;_에 대한**&#x200B;내보내기: 작업은 [스키마](manage/schema.md#download) 인터페이스에서 다운로드한 작업입니다.</li></ul> |
 | **[!UICONTROL 작업 유형]** | 분류 작업 유형. 가능한 값은 **[!UICONTROL 가져오기]** 또는 **[!UICONTROL 내보내기]**&#x200B;입니다. |
 | **[!UICONTROL 소스]** | 분류 작업의 소스. 가능한 값은 **[!UICONTROL 웹 API]**, **[!UICONTROL 직접 API 업로드]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** 또는 **[!UICONTROL 알 수 없음]**&#x200B;입니다. |
 | **[!UICONTROL 수정된 줄]** | 분류 작업이 수정한 수정된 라인 수. |
@@ -69,7 +81,7 @@ ht-degree: 2%
 
 ### 필터 패널
 
-분류 작업 목록을 필터링할 수 있는 필터 패널 ![을(를) 표시하려면 &#x200B;](/help/assets/icons/Filter.svg)필터➌을(를) 선택하십시오. 다음을 필터링할 수 있습니다.
+분류 작업 목록을 필터링할 수 있는 필터 패널 ➌을(를) 표시하려면 ![필터](/help/assets/icons/Filter.svg)을(를) 선택하십시오. 다음을 필터링할 수 있습니다.
 
 * **[!UICONTROL 분류 집합]**. 하나 이상의 분류 세트를 선택하여 분류 작업 목록을 필터링합니다.
 * **[!UICONTROL 완료 시간]**. 가능한 값 중 하나를 선택하여 완료 시간에 분류 작업 목록을 필터링합니다.

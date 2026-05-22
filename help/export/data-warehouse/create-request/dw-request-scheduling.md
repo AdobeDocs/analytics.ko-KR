@@ -3,9 +3,20 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: 'https://experienceleague.adobe.com/3M2cNjsk8KP356ES66AaXpSXJ6IvxWDtFcx7gYvlKeQ'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: 292
 ht-degree: 33%
 
 ---
@@ -26,7 +37,7 @@ Data Warehouse 요청에 대한 예약 옵션을 구성하려면 다음 작업�
 
    ![보고서 대상 탭](assets/dw-scheduling-options.png) <!-- update screenshot -->
 
-1. 다음 필드를 완료합니다. 
+1. 다음 필드를 완료합니다.
 
    | 옵션 | 함수 |
    |---------|----------|

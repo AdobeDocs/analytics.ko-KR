@@ -4,10 +4,22 @@ description: Adobe Analytics 시작, 일반 역할 유형, UI에 로그인하는
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/zw5i-IcWrh9hlcYExqh8Wkukxa5dBlmF34oDbScnwBQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 96%
+source-wordcount: 1155
+ht-degree: 90%
 
 ---
 
@@ -17,10 +29,10 @@ Adobe Analytics는 다양한 유형의 관리자를 지원합니다. Adobe Analy
 
 >[!NOTE]
 >
->Adobe Analytics에서 사용자에게 역할을 할당하려면 먼저 사용자를 Experience Cloud에서 첫 번째 관리자로 지정해야 합니다. 그러면 첫 번째 관리자는 이 문서에 설명된 대로 다른 주요 역할을 가진 조직의 사용자를 프로비저닝할 수 있습니다. 첫 번째 관리자에 대한 자세한 내용은 [Adobe Analytics 첫 번째 관리자 안내서](/help/admin/admin-console/first-admin-guide.md)를 참조하십시오.
+>모든 사용자에게 Adobe Analytics에서 역할을 할당하려면 먼저 사용자를 CX Enterprise의 첫 번째 관리자로 할당해야 합니다. 그러면 첫 번째 관리자는 이 문서에 설명된 대로 다른 주요 역할을 가진 조직의 사용자를 프로비저닝할 수 있습니다. 첫 번째 관리자에 대한 자세한 내용은 [Adobe Analytics 첫 번째 관리자 안내서](/help/admin/admin-console/first-admin-guide.md)를 참조하십시오.
 
 
-## Experience Cloud 및 Adobe Analytics의 주요 역할
+## CX Enterprise 및 Adobe Analytics의 주요 역할
 
 Adobe Analytics를 사용할 때 다음 주요 역할을 고려하십시오.
 
@@ -47,7 +59,7 @@ Adobe Analytics를 사용할 때 다음 주요 역할을 고려하십시오.
 모든 권한 범주에 대해 위의 단계를 반복합니다.
 1. 모든 권한 범주가 이 프로필에 부여되고 나면 맨 위의 **[!UICONTROL 제품]**&#x200B;을 클릭해 제품 페이지로 돌아갑니다.
 1. Adobe Analytics 타일에서 **[!UICONTROL 사용자 할당]**&#x200B;을 클릭합니다.
-1. 전체 Analytics 액세스 권한을 부여할 이메일 주소를 입력하고 새로 만든 전체 관리자 액세스 프로필을 지정합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 전체 Analytics 액세스 권한을 부여할 이메일 주소를 입력하고 새로 만든 전체 관리자 액세스 프로필을 지정합니다. **[!UICONTROL 저장을]** 클릭합니다.
 
 이제 사용자는 Adobe Analytics에 대한 전체 액세스 권한을 갖습니다.
 
@@ -63,7 +75,7 @@ Experience Platform의 데이터 수집에 대한 제품 관리자 액세스 권
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 모든 권한 범주에 대해 위의 단계를 반복합니다.
 1. 모든 권한 범주가 이 프로필에 부여되고 나면 맨 위의 **[!UICONTROL 개요]**&#x200B;를 클릭해 개요 페이지로 돌아갑니다.
 1. [!UICONTROL Experience Platform Launch] 타일 아래에서 **[!UICONTROL 사용자 할당]**&#x200B;을 클릭합니다.
-1. 전체 Analytics 액세스 권한을 부여할 이메일 주소를 입력하고 새로 만든 전체 관리자 액세스 프로필을 지정합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 전체 Analytics 액세스 권한을 부여할 이메일 주소를 입력하고 새로 만든 전체 관리자 액세스 프로필을 지정합니다. **[!UICONTROL 저장을]** 클릭합니다.
 1. 이제 사용자가 Experience Platform의 데이터 수집에 대해 완전한 액세스 권한을 보유합니다.
 
 ## 제품 프로필에 대한 전체 제품 관리자 액세스 권한 부여
@@ -77,9 +89,9 @@ Experience Platform의 데이터 수집에 대한 제품 관리자 액세스 권
 
 [Analytics 태그 속성 만들기](/help/implement/launch/create-analytics-property.md): 데이터 수집 관리자가 도구에 로그인하여 사이트에 구현할 속성을 만들 수 있습니다.
 
-Adobe Analytics에서 사용자에게 역할을 할당하려면 먼저 사용자를 Experience Cloud에서 첫 번째 관리자로 지정해야 합니다. 그러면 첫 번째 관리자는 이 문서에 설명된 대로 다른 주요 역할을 가진 조직의 사용자를 프로비저닝할 수 있습니다.
+모든 사용자에게 Adobe Analytics에서 역할을 할당하려면 먼저 사용자를 CX Enterprise의 첫 번째 관리자로 할당해야 합니다. 그러면 첫 번째 관리자는 이 문서에 설명된 대로 다른 주요 역할을 가진 조직의 사용자를 프로비저닝할 수 있습니다.
 
-첫 번째 관리자는 조직의 나머지 부분이 각 Experience Cloud 솔루션을 사용할 수 있도록 하는 시작점입니다.
+첫 번째 관리자는 조직의 나머지 부분이 각 CX 엔터프라이즈 솔루션을 사용할 수 있도록 하는 시작점입니다.
 
 계약 체결 후
 

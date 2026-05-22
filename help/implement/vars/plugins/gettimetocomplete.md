@@ -4,10 +4,24 @@ description: 작업을 완료하는 데 걸린 시간을 측정합니다.
 feature: Appmeasurement Implementation
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/GbehSttxbJlbYKbBIHCUy34Bz5JN7LsRMOEO5wAfmg8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 89%
+source-wordcount: 638
+ht-degree: 88%
 
 ---
 
@@ -15,7 +29,7 @@ ht-degree: 89%
 
 {{plug-in}}
 
-`getTimeToComplete` 플러그인은 사용자가 사이트에서 프로세스를 완료하는 데 걸리는 시간을 추적합니다. 시계는 `start` 작업이 호출될 때 시작되고 `stop` 작업이 호출될 때 종료됩니다. 사이트에서 완료하는 데 시간이 걸리는 워크플로가 있고 방문자가 완료하는 데 걸리는 시간을 알고 싶은 경우 이 플러그인을 사용하는 것이 좋습니다. 세부 기간이 단 1초로만 줄어들기 때문에 사이트의 워크플로가 소요되는 시간이 짧은 경우 (3초 미만) 이 플러그인을 사용할 필요가 없습니다.
+`getTimeToComplete` 플러그인은 사용자가 사이트에서 프로세스를 완료하는 데 걸리는 시간을 추적합니다. 시계는 `start` 작업이 호출될 때 시작되고 `stop` 작업이 호출될 때 종료됩니다. 사이트에서 완료하는 데 시간이 걸리는 워크플로가 있고 방문자가 완료하는 데 걸리는 시간을 알고 싶은 경우 이 플러그인을 사용하는 것이 좋습니다. 세부 기간이 1초 단위까지밖에 제공되지 않으므로, 사이트의 워크플로 소요 시간이 짧은 경우(3초 미만)에는 이 플러그인을 사용할 필요가 없습니다.
 
 ## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
 

@@ -1,16 +1,32 @@
 ---
-title: 우편 번호
+title: 우편번호
 description: 방문자의 우편 번호입니다.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/XHrUXKHrXiH0wsUr0klmPmA-DEq5T5yu18KLNT7oYeo
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 79%
+source-wordcount: 272
+ht-degree: 80%
 
 ---
 
-# 우편 번호
+# 우편번호
 
 &#39;우편 번호&#39; [차원](overview.md)은(는) 방문자의 우편 번호를 보고합니다. 이 차원을 사용하면 성공적인 로컬 광고에 대해 더 깊이 이해하거나 전 세계에서 사이트 성과가 가장 좋은 곳을 알 수 있습니다.
 
@@ -26,7 +42,7 @@ ht-degree: 79%
 geo zip 과 관련된 옵션을 사용하도록 선택하는 경우:
 
 * AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
-* 웹 SDK 구현의 경우 [!UICONTROL 데이터 스트림을 구성]할 때 [지역 조회](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)를 사용하도록 설정하십시오.
+* 웹 SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)할 때 [!UICONTROL 지역 조회]를 사용하도록 설정하십시오.
 
 ## 차원 항목
 

@@ -1,14 +1,23 @@
 ---
 description: 사용자 지정 표현식을 만들어 복합적인 날짜 범위를 지정할 수 있습니다.
-title: 사용자 지정된 날짜 표현식 - 개요
+title: 사용자 정의된 날짜 표현식 - 개요
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
 role: User, Admin
 exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/s6Q9D3KoMLw0-95kydXM0IyO-NjaSNF6hKcHK25KMH0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 25%
+source-wordcount: 281
+ht-degree: 12%
 
 ---
 
@@ -18,7 +27,7 @@ ht-degree: 25%
 
 사용자 지정 표현식을 만들어 복합적인 날짜 범위를 지정할 수 있습니다.
 
-표현식을 작성할 때 달력을 참조하여 주 및 일 수를 올바르게 지정하십시오. Excel에는 날짜 간의 일, 업무일, 월 및 년 수를 계산할 수 있도록 해주는 몇 가지 내장 함수들이 있습니다. 공식에 이 함수들을 사용하여 주 수 및 분기 수와 같은 다른 간격들을 계산할 수 있습니다.
+표현식을 작성할 때 달력을 참조하여 주 및 일 수를 올바르게 지정하십시오. Excel에는 날짜 사이의 일, 일, 월, 년 수를 계산할 수 있는 몇 가지 기본 제공 함수가 있습니다. 수식에서 이러한 함수를 사용하여 주 및 분기와 같은 다른 간격을 계산할 수 있습니다.
 
 **사용자 지정 표현식을 활성화하는 방법**
 

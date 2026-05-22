@@ -3,9 +3,21 @@ title: 분류 세트 만들기 및 편집
 description: 기본 및 조회 분류 유형, 구독 및 작업 알림을 포함하여 Adobe Analytics에서 분류 세트를 만들고 편집하는 방법을 알아봅니다.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 9feefd318d5239812f62afd727836e8aa203a4b2
+TQID: https://experienceleague.adobe.com/b-q3Dk14UUhBEzfhXvkPF1Zh56GrmpXh6N4Mtkiyl-c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: 502
 ht-degree: 2%
 
 ---
@@ -39,7 +51,7 @@ ht-degree: 2%
       1. **[!UICONTROL 성공 이메일 수신자]**&#x200B;에 쉼표로 구분된 이메일 주소를 하나 이상 지정하십시오.
 1. **[!UICONTROL 구독]** 섹션에서 **[!UICONTROL 기본]**&#x200B;을(를) 선택한 경우 하나 이상의 **[!UICONTROL 구독]**&#x200B;을(를) 입력하십시오.  분류 세트에 여러 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL Dimension]** 조합을 정의할 수 있습니다.
 
-   * ![보고서 세트](/help/assets/icons/CrossSize400.svg) 및 **[!UICONTROL 키 Dimension]** 조합을 삭제하려면 **[!UICONTROL CrossSize400]**&#x200B;을(를) 선택하십시오.
+   * **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]** 조합을 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
    다른 분류 세트에 이미 있는 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]** 조합을 추가하면 빨간색 메시지가 표시됩니다.
 다음과 같은 작업을 수행할 수 있습니다.

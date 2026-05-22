@@ -4,16 +4,31 @@ description: Adobe Analytics 대시보드에 대한 제품 설명서 및 자체 
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+TQID: https://experienceleague.adobe.com/Zm19V8KugWZqEC1g-HcUM4kV9hXA4ksNGYhZS9c-KQw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: 231
 ht-degree: 100%
 
 ---
 
 # Adobe Analytics [!UICONTROL 대시보드] - 개요
 
-**Adobe Analytics [!UICONTROL 대시보드]**&#x200B;는 Adobe Analytics를 통해 언제 어디서나 통찰력을 제공합니다. 이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
+**Adobe Analytics [!UICONTROL 대시보드]**&#x200B;는 Adobe Analytics를 통해 언제 어디서나 인사이트를 제공합니다. 이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
 Adobe Analytics [!UICONTROL 대시보드]에대한 자세한 내용은 다음 리소스를 참조하십시오.
 

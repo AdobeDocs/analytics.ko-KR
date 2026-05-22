@@ -24,7 +24,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 197233b18a57ac67d4b56ddd34f296d88dd9c4b2
+source-git-commit: 29d1585ad3d00922a7e39bf1b4da64089d9168c7
 workflow-type: tm+mt
 source-wordcount: 814
 ht-degree: 83%
@@ -106,7 +106,7 @@ Adobe Analytics를 서버측에 구현할 때에는 다음과 같은 옵션이 �
 * [Experience Platform의 태그 속성 만들기](launch/create-analytics-property.md)
 * [AppMeasurement 업데이트](appmeasurement-updates.md)
 * [Platform Web SDK 튜토리얼을 사용하여 Adobe Analytics 설정](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=ko)
-* [모바일 앱에서 Adobe Experience Cloud 구현 자습서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko-KR)
+* [모바일 앱에서 Adobe CX Enterprise 구현 자습서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ko-KR)
 
 
 ## 주요 Analytics 리소스

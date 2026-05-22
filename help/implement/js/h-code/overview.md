@@ -4,10 +4,19 @@ description: 사이트에서 H 코드를 구현하는 워크플로에 대해 알
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: 'https://experienceleague.adobe.com/-d3QyBm0RW5arsRHNHY4ov7YJxVFZrNdvXhVIuU6Ih4'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: 388
+ht-degree: 78%
 
 ---
 
@@ -33,11 +42,11 @@ ht-degree: 100%
    >
    >H 코드를 사용하려면 `s_code.js` 스크립트가 `<body>` 태그 내에 호출되어 있어야 합니다. 이는 다른 구현 메서드와 다르며, 대부분은 스크립트 참조가 `<head>` 태그에 있어야 합니다.
 1. **각 페이지에서 페이지별 변수 정의**: 각 페이지에는 페이지 이름이나 eVar와 같은 개별 변수가 정의되어 있어야 합니다. 개별 변수는 일반적으로 각 페이지에서 인라인 `<script>` 태그로 정의됩니다.
-1. **디버거를 사용하여 데이터 수집 확인**: [Experience Cloud Debugger](../../validate/debugger.md)를 다운로드하고 설치하여 데이터가 Adobe에 전송되고 페이지 변수가 올바로 정의되어 있는지 확인합니다.
+1. **디버거를 사용하여 데이터 수집을 확인**: [CX Enterprise 디버거를 다운로드하여 설치](../../validate/debugger.md)하여 데이터가 Adobe으로 전송되고 페이지 변수가 올바르게 정의되었는지 확인하십시오.
 
-## 캐시
+## 캐싱
 
-JavaScript 파일은 처음에 로드된 후 방문자의 브라우저에 캐싱되며 일반적으로 세션당 한 번 이상 다운로드되지 않습니다. 이 파일은 사이트의 모든 페이지에서 사용되더라도 각 페이지에서 다운로드되지 않습니다. 대부분의 웹 사이트에서 사용자는 평균적으로 세션당 여러 번 페이지를 보기 때문에 여러 번 사용되는 JavaScript를 이 파일로 전송하면 다운로드되는 전체 데이터가 줄어들 수 있습니다.
+JavaScript 파일은 처음에 로드된 후 방문자의 브라우저에 캐시되며, 일반적으로 세션당 두 번 이상 다운로드되지 않습니다. 이 파일은 사이트의 모든 페이지에서 사용되더라도 각 페이지에서 다운로드되지 않습니다. 대부분의 웹 사이트에서 사용자는 평균적으로 세션당 몇 번 이상의 페이지 보기를 가지므로 여러 번 사용되는 JavaScript을 이 파일로 전송하면 다운로드되는 전체 데이터가 줄어들 수 있습니다.
 
 ## H 코드 압축
 

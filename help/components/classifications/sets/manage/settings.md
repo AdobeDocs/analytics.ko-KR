@@ -3,9 +3,19 @@ title: 분류 세트 설정
 description: Adobe Analytics에 있는 기존 분류 세트의 이름, 설명, 태그, 작업 알림 및 구독을 편집하는 방법을 알아봅니다.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 47a88c1bf56acfc26794e5b9d5d6af41b697eed9
+TQID: https://experienceleague.adobe.com/D-6P27NSFWF5tHze-wopbkHrDMpMUQWA-zlEbZbzSzk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 253
 ht-degree: 2%
 
 ---
@@ -35,7 +45,7 @@ ht-degree: 2%
          1. **[!UICONTROL 성공 이메일 수신자]**&#x200B;에 쉼표로 구분된 이메일 주소를 하나 이상 지정하십시오.
    1. **[!UICONTROL 구독]**&#x200B;을(를) 편집합니다.
       * 분류 세트에 여러 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL Dimension]** 조합을 정의할 수 있습니다.
-      * ![보고서 세트](/help/assets/icons/CrossSize400.svg) 및 **[!UICONTROL 키 Dimension]** 조합을 삭제하려면 **[!UICONTROL CrossSize400]**&#x200B;을(를) 선택하십시오.
+      * **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]** 조합을 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
       자세한 내용은 [분류 집합 만들기](/help/components/classifications/sets/manage-sets.md)를 참조하십시오.
    1. 설정을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 선택하세요. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다.

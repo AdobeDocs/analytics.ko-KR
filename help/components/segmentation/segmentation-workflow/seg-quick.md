@@ -4,10 +4,26 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/hxMHHZM2tzrv7RRhK3sToyihGG12i0KVzSzN8LNnlCk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 79%
+source-wordcount: 1192
+ht-degree: 77%
 
 ---
 
@@ -85,7 +101,7 @@ ht-degree: 79%
 
 | 요소 | 설명 |
 |---|---|
-| **[!UICONTROL Dimension]**<br/>**[!UICONTROL 지표]**<br/>**[!UICONTROL 날짜 범위]** | 드롭다운 메뉴 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 차원, 지표 또는 날짜 범위에 대한 조건을 지정할지 여부를 선택합니다. |
+| **[!UICONTROL 차원]**<br/>**[!UICONTROL 지표]**<br/>**[!UICONTROL 날짜 범위]** | 드롭다운 메뉴 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 차원, 지표 또는 날짜 범위에 대한 조건을 지정할지 여부를 선택합니다. |
 | **[!UICONTROL *구성 요소&#x200B;*]** | 조건에 대한 구성 요소 필드. 구성 요소를 [!UICONTROL *입력하여 추가*]&#x200B;하거나 목록에서 구성 요소를 선택하거나 구성 요소 패널에서 구성 요소를 드래그 앤 드롭할 수 있습니다. 조건의 구성 요소 필드에만 유사한 구성 요소를 놓을 수 있습니다. 예를 들어 차원 조건에만 구성 요소 패널의 차원 구성 요소를 놓을 수 있습니다. <br/>기존 구성 요소를 끌어다 놓아서 바꿀 수도 있습니다.<br/>![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택해 구성 요소 필드에서 구성 요소를 삭제합니다. |
 | **[!UICONTROL *연산자&#x200B;*]** | 구성 요소의 연산자. 자세한 내용은 [연산자](../seg-reference/seg-operators.md)를 참조하십시오. 차원 및 지표에만 사용할 수 있습니다. |
 | **[!UICONTROL *값&#x200B;*]** | 조건에 대한 값. 선택한 연산자에 따라 목록에서 값을 선택하거나 값을 입력할 수 있습니다. |
@@ -98,7 +114,7 @@ ht-degree: 79%
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | 두 개 이상의 조건을 정의한 경우에만 사용할 수 있습니다. 조건 사이의 드롭다운 메뉴 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 선택합니다. 선택은 빠른 세그먼트에 대한 부울 논리를 결정합니다. 세 가지 조건이 있는 경우 논리를 섞을 수 없습니다. 부울 논리는 **[!UICONTROL AND]** 또는 **[!UICONTROL OR]**&#x200B;입니다. |
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | 빠른 세그먼트에 다른 조건을 추가합니다. 이 버튼은 빠른 세그먼트에 대해 하나 또는 두 개의 조건을 정의한 경우에만 사용할 수 있습니다. |
 | **[!UICONTROL 적용]** | 빠른 세그먼트에 변경 사항을 적용합니다. |
-| **[!UICONTROL 빌더 열기]** | **[!UICONTROL 확실합니까?]** 대화 상자의 확인 메시지가 표시됩니다. **[!UICONTROL 확인]**&#x200B;을 선택하면 더 이상 [빠른 세그먼트 빌더](#quick-segment-builder)의 세그먼트를 수정할 수 없습니다. 빠른 세그먼트의 이름이 **[!UICONTROL 세그먼트]**&#x200B;로 바뀌고 이제 왼쪽에 더 진한 파란색의 얇은 막대가 생겼습니다.<br/>일반 [세그먼트 빌더](seg-build.md)는 **[!UICONTROL 모든 프로젝트에 이 세그먼트를 사용할 수 있도록 설정하고 구성 요소 목록에 추가]**&#x200B;하는 옵션과 함께 열립니다. <ul><li>이 옵션을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트가 구성 요소 패널의 ![세그먼트](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소 목록에 추가됩니다.</li><li>이 옵션을 선택하지 않고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트는 Workspace 프로젝트 전용 세그먼트로 유지됩니다.</li></ul> |
+| **[!UICONTROL 빌더 열기]** | **[!UICONTROL 확인 메시지가 표시됩니다. 계속하시겠습니까?]** 대화 상자. **[!UICONTROL 확인]**&#x200B;을 선택하면 더 이상 [빠른 세그먼트 빌더](#quick-segment-builder)의 세그먼트를 수정할 수 없습니다. 빠른 세그먼트의 이름이 **[!UICONTROL 세그먼트]**&#x200B;로 바뀌고 이제 왼쪽에 더 진한 파란색의 얇은 막대가 생겼습니다.<br/>일반 [세그먼트 빌더](seg-build.md)는 **[!UICONTROL 모든 프로젝트에 이 세그먼트를 사용할 수 있도록 설정하고 구성 요소 목록에 추가]**&#x200B;하는 옵션과 함께 열립니다. <ul><li>이 옵션을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트가 구성 요소 패널의 ![세그먼트](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]** 구성 요소 목록에 추가됩니다.</li><li>이 옵션을 선택하지 않고 **[!UICONTROL 적용]**&#x200B;을 선택하면 세그먼트는 Workspace 프로젝트 전용 세그먼트로 유지됩니다.</li></ul> |
 | **[!UICONTROL 취소]** | 빠른 세그먼트 생성 또는 편집을 취소하려면 선택합니다. |
 
 ## 빠른 세그먼트와 세그먼트

@@ -5,10 +5,23 @@ title: 처리 규칙에 사용 가능한 차원 및 지표
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 10%
+source-wordcount: 721
+ht-degree: 15%
 
 ---
 
@@ -27,8 +40,8 @@ ht-degree: 10%
 
 | 속성 | 읽기/쓰기 상태 | 설명 |
 | --- | --- | --- |
-| **페이지 URL** | 읽기 + 쓰기 | [페이지 URL](/help/components/dimensions/page-url.md) 차원. 링크 추적 히트는 처리 규칙에 도달하기 전에 이 차원을 제거합니다. 처리 규칙을 사용하여 페이지 URL 값을 다시 삽입하는 경우 히트는 [페이지 이벤트](/help/components/metrics/page-views.md)가 아닌 [페이지 보기](/help/components/metrics/page-events.md)로 간주됩니다. Adobe에서는 페이지 차원의 값을 수정하기 전에 해당 값을 확인하는 것이 좋습니다. |
-| **페이지 이름** | 읽기 + 쓰기 | [페이지](/help/components/dimensions/page.md) 차원입니다. 링크 추적 히트는 처리 규칙에 도달하기 전에 이 차원을 제거합니다. 처리 규칙을 사용하여 페이지 값을 다시 삽입하는 경우 히트는 [페이지 이벤트](/help/components/metrics/page-views.md)가 아닌 [페이지 보기](/help/components/metrics/page-events.md)로 간주됩니다. Adobe에서는 페이지 차원의 값을 수정하기 전에 해당 값을 확인하는 것이 좋습니다. |
+| **페이지 URL** | 읽기 + 쓰기 | [페이지 URL](/help/components/dimensions/page-url.md) 차원. 링크 추적 히트는 처리 규칙에 도달하기 전에 이 차원을 제거합니다. 처리 규칙을 사용하여 페이지 URL 값을 다시 삽입하는 경우 히트는 [페이지 이벤트](/help/components/metrics/page-events.md)가 아닌 [페이지 보기](/help/components/metrics/page-views.md)로 간주됩니다. Adobe에서는 페이지 차원의 값을 수정하기 전에 해당 값을 확인하는 것이 좋습니다. |
+| **페이지 이름** | 읽기 + 쓰기 | [페이지](/help/components/dimensions/page.md) 차원. 링크 추적 히트는 처리 규칙에 도달하기 전에 이 차원을 제거합니다. 처리 규칙을 사용하여 페이지 값을 다시 삽입하는 경우 히트는 [페이지 이벤트](/help/components/metrics/page-events.md)가 아닌 [페이지 보기](/help/components/metrics/page-views.md)로 간주됩니다. Adobe에서는 페이지 차원의 값을 수정하기 전에 해당 값을 확인하는 것이 좋습니다. |
 | **보고서 세트 ID** | 읽기 전용 | 처리 규칙이 실행되는 보고서 세트입니다. 이 보고서 세트는 VISTA 규칙을 사용할 때와 같이 AppMeasurement을 통해 원래 전송된 보고서 세트와 다를 수 있습니다. |
 | **AppMeasurement 코드 버전** | 읽기 전용 | 이미지 요청을 생성하는 데 사용되는 AppMeasurement 라이브러리 버전입니다. |
 | **IP 주소** | 읽기 전용 | 방문자의 IP 주소입니다. |
@@ -50,12 +63,12 @@ ht-degree: 10%
 | 변수 | 읽기/쓰기 상태 | 설명 |
 | --- | --- | --- |
 | **eVar 1-250** | 읽기 + 쓰기 | [eVar](/help/components/dimensions/evar.md) 차원. |
-| **Campaign** | 읽기 + 쓰기 | [추적 코드](/help/components/dimensions/tracking-code.md) 차원입니다. |
-| **구매 ID** | 읽기 + 쓰기 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 구현 변수입니다. |
+| **Campaign** | 읽기 + 쓰기 | [추적 코드](/help/components/dimensions/tracking-code.md) 차원. |
+| **구매 ID** | 읽기 + 쓰기 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 구현 변수. |
 | **주/도** | 읽기 + 쓰기 | (중단됨) [`state`](/help/implement/vars/page-vars/state.md) 구현 변수입니다. |
-| **Zip** | 읽기 + 쓰기 | [우편 번호](/help/components/dimensions/zip-code.md) 차원. |
-| **통화 코드** | 읽기 + 쓰기 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 구현 변수입니다. 중요: 이 변수를 잘못된 값으로 설정하면 히트가 무시됩니다. |
-| **거래 ID** | 읽기 + 쓰기 | [`transactionID`](/help/import/data-sources/transactionid.md) 구현 변수입니다. |
+| **Zip** | 읽기 + 쓰기 | [우편번호](/help/components/dimensions/zip-code.md) 차원. |
+| **통화 코드** | 읽기 + 쓰기 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 구현 변수. 중요: 이 변수를 잘못된 값으로 설정하면 히트가 무시됩니다. |
+| **거래 ID** | 읽기 + 쓰기 | [`transactionID`](/help/import/data-sources/transactionid.md) 구현 변수. |
 
 >[!NOTE]
 >Adobe에서는 처리 규칙을 사용하여 [`products`](/help/implement/vars/page-vars/products.md) 구현 변수를 설정할 수 없습니다.
@@ -89,5 +102,5 @@ ht-degree: 10%
 | **체크아웃** | 쓰기 전용 | [체크아웃](/help/components/metrics/checkouts.md) 지표입니다. |
 | **장바구니 추가** | 쓰기 전용 | [장바구니 추가](/help/components/metrics/cart-additions.md) 지표. |
 | **장바구니 제거 수** | 쓰기 전용 | [장바구니 제거](/help/components/metrics/cart-removals.md) 지표입니다. |
-| **이벤트 1-1000** | 쓰기 전용 | [사용자 지정 이벤트](/help/components/metrics/custom-events.md). |
+| **이벤트 1-1000** | 쓰기 전용 | [사용자 정의 이벤트](/help/components/metrics/custom-events.md). |
 | **제품 보기** | 쓰기 전용 | [제품 보기](/help/components/metrics/product-views.md) 지표입니다. |

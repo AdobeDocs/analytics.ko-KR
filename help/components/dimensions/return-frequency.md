@@ -3,14 +3,27 @@ title: 재방문 빈도
 description: 현재 방문과 이전 방문 사이의 버킷된 시간입니다.
 feature: Dimensions
 exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+TQID: https://experienceleague.adobe.com/k0H7kOCgrBRY3cZckPXaJ9UgLBPTYWHxKT8gzeMQjcI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 93%
+source-wordcount: 267
+ht-degree: 94%
 
 ---
 
-# 반환 빈도
+# 재방문 빈도
 
 &#39;재방문 주기&#39; [차원](overview.md)은(는) 재방문자의 방문 사이에 경과된 시간을 보여줍니다. 방문자가 사이트를 재방문할 때 Adobe는 이전 방문이 얼마나 오래 전에 있었는지 확인하고 해당 히트를 적절한 차원 항목으로 버킷합니다. 해당 기간에 방문자에 대한 웹 사이트의 호소력과 적절성을 측정하는 데 도움이 되는 귀중한 차원입니다. 사이트 콘텐츠와 판촉 행사가 방문자에게 미치는 영향을 식별하는 데에도 도움이 될 수 있습니다.
 

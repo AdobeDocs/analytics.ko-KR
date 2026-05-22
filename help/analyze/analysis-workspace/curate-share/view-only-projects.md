@@ -5,10 +5,24 @@ title: 읽기 전용 프로젝트
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+TQID: https://experienceleague.adobe.com/8PyU15pb5sDqq-qZE-T8ceuDJdXDUXyxPQvJYJGUfwg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 50%
+source-wordcount: 327
+ht-degree: 52%
 
 ---
 
@@ -16,7 +30,7 @@ ht-degree: 50%
 
 [공유 기능](share-projects.md)을 통해 받는 사람에게 프로젝트를 읽기 전용으로 공유할 수 있습니다. **[!UICONTROL 읽기 전용]** 역할에 배치된 수신자는 보다 제한된 프로젝트 경험을 받게 됩니다.
 
-일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Adobe Analytics에 익숙하지 않지만 안전한 환경에서 데이터와 통찰력을 소비하려는 사용자에게 프로젝트를 공유하는 경우 이러한 작업이 필요할 수 있습니다.
+일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Adobe Analytics에 익숙하지 않지만 안전한 환경에서 데이터와 인사이트를 소비하려는 사용자에게 프로젝트를 공유하는 경우 이러한 작업이 필요할 수 있습니다.
 
 ![읽기 전용으로 공유](assets/read-only-project-sender.png)
 

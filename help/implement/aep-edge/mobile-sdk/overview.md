@@ -4,16 +4,31 @@ description: Adobe Experience Platform 데이터 수집에서 Mobile SDK 확장 
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/ooh8s8pNYbbsD9BmF48Nv3OyHN5JtDQonQw0Z1t4XXc'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: c77ba355-6681-41fe-b719-563d3f507fdb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 99%
+source-wordcount: 565
+ht-degree: 94%
 
 ---
 
 # Adobe Experience Platform Mobile SDK를 사용하여 Adobe Analytics 구현
 
-Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 강화하는 데 도움이 됩니다. Android™, iOS, 다양한 크로스 플랫폼 개발 프레임워크에서 사용할 수 있습니다. 구성은 Adobe Experience Platform 데이터 수집을 통해 처리됩니다.
+Adobe Experience Platform Mobile SDK은 Adobe의 CX 엔터프라이즈 솔루션과 서비스를 모바일 앱에서 제공하는 데 도움이 됩니다. Android™, iOS, 다양한 크로스 플랫폼 개발 프레임워크에서 사용할 수 있습니다. 구성은 Adobe Experience Platform 데이터 수집을 통해 처리됩니다.
 
 >[!IMPORTANT]
 >
@@ -128,4 +143,4 @@ Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience 
 
 - [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR#)
 
-- [Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/)
+- [모바일 SDK 설명서](https://developer.adobe.com/client-sdks/documentation/)

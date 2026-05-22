@@ -3,16 +3,31 @@ title: 지역
 description: 방문자의 지리적 영역입니다.
 feature: Dimensions
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+TQID: https://experienceleague.adobe.com/Yjy-VGZ0alwfMR408QClnOEIB2z-rfgH5XCn9K0bE1A
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: 382
 ht-degree: 87%
 
 ---
 
 # 지역
 
-&#39;지역&#39; [차원](overview.md)은(는) 방문자의 지리적 지역을 보고합니다. 국가보다는 작지만 도시보다는 큰 지리적 영역입니다. 일부 국가의 경우 지역이 주, 도 또는 현입니다. 기타 영역에서는 자치국, 부서 또는 대도시권입니다. 이 차원을 사용하는 것은 [국가](countries.md)보다 세부적인 통찰력을 원하지만 [도시](cities.md)만큼 세부적인 것을 원하지는 않는 경우 유용합니다.
+&#39;지역&#39; [차원](overview.md)은(는) 방문자의 지리적 지역을 보고합니다. 국가보다는 작지만 도시보다는 큰 지리적 영역입니다. 일부 국가의 경우 지역이 주, 도 또는 현입니다. 기타 영역에서는 자치국, 부서 또는 대도시권입니다. 이 차원을 사용하는 것은 [국가](countries.md)보다 세부적인 인사이트를 원하지만 [도시](cities.md)만큼 세부적인 것을 원하지는 않는 경우 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 

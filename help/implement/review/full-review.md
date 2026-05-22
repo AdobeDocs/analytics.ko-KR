@@ -4,10 +4,26 @@ description: 6개월마다 구현을 검토하여 비즈니스 요구 사항과 
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/YQL-V84ZWAr8NqRp1snYZBgl7-3iIhhxWkWh6KTFKNM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 80%
+source-wordcount: 404
+ht-degree: 73%
 
 ---
 
@@ -15,11 +31,11 @@ ht-degree: 80%
 
 6개월마다 구현을 검토해야 하는 이유는 무엇입니까? 비즈니스 요구 사항에 맞게 구현하고 있는지 확인해야 하기 때문입니다. 이해 관계자의 신뢰도를 손상시킬 수 있는 주요 데이터 문제로 확대되기 전에 규모가 작은 데이터 품질 문제를 해결하려는 경우도 있습니다. 6개월마다 수행하는 전체 검토 외에도 각 웹 사이트 릴리스 이후 [집중 검토](/help/implement/review/focused-review.md)도 수행해야 합니다.
 
-## &#x200B;1. 구현이 비즈니스 요구 사항에 부합하는지 확인합니다
+## &#x200B;1. 구현이 비즈니스 요구 사항에 부합하는지 확인합니다.
 
 변화하는 비즈니스 요구 사항을 검토하려면 비즈니스 소유자 및/또는 분석가와 만나보십시오. 구현에서 현재 충족되지 않는 요구 사항이나 측정 기회에 대해 KPI 및 측정 계획을 업데이트하는 방법을 알아봅니다. [BRD 및 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=ko#implementation)에 변경 내용을 기록해야 합니다.
 
-## &#x200B;2. 지표 및 변수가 계속 제대로 작동하는지 확인합니다
+## &#x200B;2. 지표와 변수가 계속 제대로 작동하는지 확인하십시오
 
 비즈니스에 중요한 순서대로 모든 지표와 변수를 간단히 검토하여 데이터가 올바르게 수집되는지 확인합니다. 가장 중요한 지표 및 변수 ([상위 5개의 KPI](/help/implement/review/define-kpis.md#review)와 연관된 지표 및 변수)로 시작합니다. 다음 작업을 수행하십시오.
 
@@ -28,6 +44,6 @@ ht-degree: 80%
 
 필요하지 않은 지표 및 변수로 구현을 활성화하지 마십시오. 비즈니스에 더 이상 필요하지 않거나 사용하지 않는 지표 또는 변수를 비활성화합니다. 삭제하거나 나중에 재사용할 수 있습니다.
 
-## &#x200B;3. KPI를 새로 고칩니다
+## &#x200B;3. KPI 새로 고침
 
 비즈니스 목표에 대한 보기가 갱신되었으므로 5개의 *가장* 중요한 KPI (Key Performance Indicator)를 실제로 선택했는지 다시 평가합니다. 5개만 사용할 수 있습니다. 이러한 KPI는 매출과 같은 지표나 방문당 매출과 같은 계산된 지표가 될 수 있으며 지표에도 변수가 있을 수 있습니다. 자세한 내용은 [상위 5개 KPI 정의](/help/implement/review/define-kpis.md)를 참조하십시오.

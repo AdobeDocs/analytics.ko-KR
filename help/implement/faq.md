@@ -23,10 +23,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 512
-ht-degree: 100%
+source-wordcount: 511
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## Experience Cloud 방문자 ID와 Analytics 방문자 ID의 차이점은 무엇입니까?
 
-ID 서비스는 Experience Cloud에 있는 다른 솔루션 간에 공유할 수 있는 고유한 영구 식별자를 지정합니다. Analytics 방문자 ID는 Analytics에서만 사용됩니다. 구현에서는 Experience Cloud 방문자 ID 서비스를 사용하는 것이 좋습니다.
+ID 서비스는 CX Enterprise의 다른 솔루션 간에 공유할 수 있는 고유한 영구 식별자를 지정합니다. Analytics 방문자 ID는 Analytics에서만 사용됩니다. 구현에서는 Experience Cloud 방문자 ID 서비스를 사용하는 것이 좋습니다.
 
 ## 하트비트 비디오 추적은 어떻게 구현합니까?
 

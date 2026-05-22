@@ -5,10 +5,22 @@ title: 세그먼트 비교에 사용되는 통계 테스트
 feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+TQID: https://experienceleague.adobe.com/49kZ6LC9OMizQvqxE2PCq1LtqhUHtf5iKQUgpgqSmmE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 43%
+source-wordcount: 451
+ht-degree: 33%
 
 ---
 
@@ -31,4 +43,4 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->세 가지 테이블 모두, 통계적으로 정확성을 유지하면서 가능한 한 빨리 프로세스를 실행하기 위해, 차이점 통계는 적절한 방문자 샘플을 기준으로 계산됩니다. 차이 점수는 샘플을 기준으로 하지만 테이블에 표시되는 결과는 샘플링되지 않습니다. 의의도를 보장하기 위해 각 통계 테스트는 좀 더 작은 세그먼트에 오차가 3% 미만인 샘플 크기가 포함되도록 하는 다이내믹 할당 알고리즘에 의존합니다. 세그먼트에 매우 적은 수의 방문자 (1,000명 미만)가 포함되어 있는 경우 차이 점수를 계산하기 위해 샘플 대신 사용 가능한 모든 데이터가 사용됩니다.
+>세 가지 테이블 모두, 통계적으로 정확성을 유지하면서 가능한 한 빨리 프로세스를 실행하기 위해, 차이점 통계는 적절한 방문자 샘플을 기준으로 계산됩니다. 차이 점수는 표본을 기반으로 하는 반면 표에 제시된 결과는 표본이 되지 않는다. 통계적 유의성을 보장하기 위해, 각 통계적 테스트는 동적 할당 알고리즘에 의존하여 더 작은 세그먼트가 3% 미만의 오차 한계를 제공하는 샘플 크기를 포함합니다. 세그먼트에 매우 적은 수의 방문자 (1,000명 미만)가 포함되어 있는 경우 차이 점수를 계산하기 위해 샘플 대신 사용 가능한 모든 데이터가 사용됩니다.

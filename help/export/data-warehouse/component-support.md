@@ -3,10 +3,24 @@ title: Data Warehouse의 구성 요소 지원
 description: Data Warehouse에서 사용할 수 있는 추가 차원 및 지표와 지원되지 않는 항목을 알아봅니다.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/NhSEyPN3093B9M0SngJluJdZScI2lXvRyHkXQd8gg-4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 45%
+source-wordcount: 580
+ht-degree: 47%
 
 ---
 
@@ -61,7 +75,7 @@ Data Warehouse에서 사용할 수 있는 일부 차원 및 지표는 Adobe Anal
 ### 지표가 지원되지 않음
 
 * 다음을 포함한 일부 경로 지정 기반 지표:
-   * 바운스 수
+   * 바운스
    * 항목
    * 종료
    * 다시 로드
@@ -81,7 +95,7 @@ Data Warehouse에서 사용할 수 있는 일부 차원 및 지표는 Adobe Anal
 * 시간
 * 분
 
-그러나 이러한 차원을 사용할 때는 날짜 출력이 표준이 아닙니다.
+단, 이들 차원을 사용할 때 날짜 출력은 표준이 아닙니다.
 
 Data Warehouse에서 날짜의 출력을 계산할 때에는 다음 사항을 고려하십시오.
 

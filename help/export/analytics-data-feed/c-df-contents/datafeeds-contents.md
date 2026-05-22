@@ -5,10 +5,22 @@ subtopic: data feeds
 title: 데이터 피드 콘텐츠 - 개요
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
+TQID: 'https://experienceleague.adobe.com/Kz7pQS0KRjABbAx84Q16K1cA5zEB28Zx9lDoOTGSKAE'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 100%
+source-wordcount: 1004
+ht-degree: 98%
 
 ---
 
@@ -28,7 +40,7 @@ ht-degree: 100%
 
 1. `.tar.gz` 파일 확장자를 지원하는 프로그램을 사용하여 압축 파일의 압축을 해제합니다.
 
-1. 원하는 스프레드시트나 데이터베이스 애플리케이션에서 `hit_data.tsv` 파일을 열어 해당 날의 원시 데이터를 확인합니다. -->
+1. 원하는 스프레드시트나 데이터베이스 애플리케이션에서 `hit_data.tsv` 파일을 열어 해당 날짜의 원시 데이터를 확인합니다. -->
 
 ## 매니페스트 파일 {#feed-manifest}
 

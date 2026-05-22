@@ -4,10 +4,24 @@ title: 코드 관리자
 feature: Admin Tools
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/QsTTPsRQRqM8c0Ub-N2MmLbn-vFpZR32kWq15OQ9fJw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: b050cc98-f34e-478a-b02a-37bf7229e5ae
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: 131
+ht-degree: 73%
 
 ---
 
@@ -23,7 +37,7 @@ ht-degree: 100%
 
 | 열 | 설명 |
 |--- |--- |
-| [!UICONTROL  이름 ] | 이 이름은 데이터 수집을 활성화할 플랫폼과 일치합니다. 이 열에 나열된 각 플랫폼에 대해 기본 라이브러리가 제공됩니다. |
-| [!UICONTROL 유형] | 각 라이브러리를 사용하여 측정할 수 있는 애플리케이션 유형입니다. |
-| [!UICONTROL 버전] | 라이브러리의 최신 버전을 나열합니다. 버전 번호를 클릭하여 [출시 내역](/help/implement/appmeasurement-updates.md)을 봅니다. |
-| [!UICONTROL 설명서] | 라이브러리 참조 설명서를 봅니다. |
+| [!UICONTROL 이름] | 이 이름은 데이터 수집을 활성화할 플랫폼과 일치합니다. 기본 라이브러리는 이 열에 나열된 각 플랫폼에 대해 제공됩니다. |
+| [!UICONTROL 유형] | 각 라이브러리를 사용하여 측정할 수 있는 응용 프로그램 유형입니다. |
+| [!UICONTROL 버전] | 라이브러리의 최신 버전을 나열합니다. 버전 번호를 클릭하여 [릴리스 내역](/help/implement/appmeasurement-updates.md)을 확인하십시오. |
+| [!UICONTROL 설명서] | 라이브러리 참조 설명서를 참조하십시오. |

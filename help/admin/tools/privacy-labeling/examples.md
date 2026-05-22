@@ -4,10 +4,24 @@ title: 레이블 지정의 예
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
+TQID: 'https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 79%
+source-wordcount: 734
+ht-degree: 84%
 
 ---
 
@@ -78,9 +92,9 @@ ht-degree: 79%
   <tr>
     <td>user=Mary</td>
     <td>false</td>
-    <td>개인</td>
+    <td>사람</td>
     <td>Mary</td>
-    <td>77,88,99</td>
+    <td>77, 88, 99</td>
     <td>A, B, C</td>
     <td>M, N, O</td>
     <td>X, Y, Z</td>
@@ -88,9 +102,9 @@ ht-degree: 79%
   <tr>
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
-    <td>개인</td>
+    <td>사람</td>
     <td>Mary</td>
-    <td>77,88,99</td>
+    <td>77, 88, 99</td>
     <td>A, B, C</td>
     <td>M, N, O</td>
     <td>X, Y, Z</td>
@@ -98,7 +112,7 @@ ht-degree: 79%
   <tr>
     <td>디바이스</td>
     <td>없음</td>
-    <td>77,88</td>
+    <td>77, 88</td>
     <td>A, B, C</td>
     <td>N, P</td>
     <td>우, 우</td>
@@ -106,9 +120,9 @@ ht-degree: 79%
   <tr>
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
-    <td>개인</td>
+    <td>사람</td>
     <td>Mary</td>
-    <td>77,88,99</td>
+    <td>77, 88, 99</td>
     <td>A, B, C</td>
     <td>M, N, O</td>
     <td>X, Y, Z</td>
@@ -116,7 +130,7 @@ ht-degree: 79%
   <tr>
     <td>디바이스</td>
     <td>없음</td>
-    <td>66,77,88</td>
+    <td>66, 77, 88</td>
     <td>A, B, C</td>
     <td>N, P</td>
     <td>U, W, Z</td>
@@ -126,7 +140,7 @@ ht-degree: 79%
     <td>false</td>
     <td>디바이스</td>
     <td>없음</td>
-    <td>55,77</td>
+    <td>55, 77</td>
     <td>없음</td>
     <td>M, R</td>
     <td>X</td>
@@ -136,7 +150,7 @@ ht-degree: 79%
     <td>true</td>
     <td>디바이스</td>
     <td>없음</td>
-    <td>55,77</td>
+    <td>55, 77</td>
     <td>없음</td>
     <td>M, P, R</td>
     <td>W, X</td>

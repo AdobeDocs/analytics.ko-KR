@@ -5,16 +5,31 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+TQID: https://experienceleague.adobe.com/kVm6VfN3c-u3V2GHMz59QuB2uGi4DEozs1i-h4pJZOg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 95%
+source-wordcount: 320
+ht-degree: 82%
 
 ---
 
 # 주석 개요
 
-주석을 사용하면 상황별 데이터 뉘앙스와 인사이트를 효과적으로 조직의 다른 관련자에게 전달할 수 있습니다. 주석을 사용하면 캘린더 이벤트를 특정 차원 및 지표에 연결할 수 있습니다. 알려진 데이터 문제, 공휴일, 캠페인 시작 등으로 날짜 또는 날짜 범위에 주석을 달아 그런 다음 이벤트를 그래픽으로 표시하고 캠페인이나 다른 이벤트가 사이트 트래픽, 모바일 앱 사용량, 매출 또는 기타 지표에 영향을 미치는지 여부를 확인할 수 있습니다.
+주석을 사용하면 상황별 데이터 뉘앙스와 인사이트를 효과적으로 조직의 다른 관련자에게 전달할 수 있습니다. 주석을 사용하면 캘린더 이벤트를 특정 차원 및 지표에 연결할 수 있습니다. 알려진 데이터 문제, 공휴일, 캠페인 시작 등으로 날짜 또는 날짜 범위에 주석을 달 수 있습니다. 그런 다음 이벤트를 그래픽으로 표시하고 캠페인이나 다른 이벤트가 사이트 트래픽, 모바일 앱 사용, 매출 또는 기타 지표에 영향을 미치는지 여부를 확인할 수 있습니다.
 
 예를 들어 조직과 프로젝트를 공유하고 있습니다. 고유 방문자 수가 눈에 띄게 감소한 경우, **방문자 감소 중** 주석을 만들어 전체 보고서 세트에 적용할 수 있습니다. 사용자가 해당 날짜가 포함된 보고서 세트를 볼 때 데이터와 함께 프로젝트 내의 주석을 볼 수 있습니다.
 

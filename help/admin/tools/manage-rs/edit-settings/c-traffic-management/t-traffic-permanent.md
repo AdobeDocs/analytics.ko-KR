@@ -1,13 +1,24 @@
 ---
-description: 영구 트래픽 섹션에서 예상되는 트래픽 수준을 변경하면 Adobe에서 리소스를 재지정하여 새 트래픽 수준을 처리할 수 있습니다.
+description: 영구 트래픽 섹션을 통해 예상 트래픽 수준을 변경할 수 있으므로 Adobe은 새 트래픽 수준을 처리하기 위해 리소스를 재할당할 수 있습니다.
 title: 영구 트래픽 증가 지정
 feature: Report Suite Settings
 role: Admin
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/rG7MvWBCPQulpbjqU9x11TfLW8nFUX-cFii-ya1gCWU'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: 169
+ht-degree: 87%
 
 ---
 

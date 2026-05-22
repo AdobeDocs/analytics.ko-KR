@@ -3,9 +3,24 @@ description: Data Warehouse 요청을 만드는 방법을 설명하는 단계입
 title: Data Warehouse 요청에 대한 보고서 옵션 구성
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: 'https://experienceleague.adobe.com/WngJlzAVsWsC9dzQ2Dg-78FqUjXxkU9SUnJVzhFECXs'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 454
 ht-degree: 17%
 
 ---
@@ -26,7 +41,7 @@ Data Warehouse 요청에 대한 보고서 옵션을 구성하려면 다음 작�
 
    ![보고서 대상 탭](assets/dw-report-options.png) <!-- update screenshot to include Sort by metrics -->
 
-1. 다음 필드를 완료합니다. 
+1. 다음 필드를 완료합니다.
 
    | 옵션 | 함수 |
    |---------|----------|

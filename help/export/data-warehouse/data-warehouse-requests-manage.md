@@ -4,10 +4,21 @@ title: Data Warehouse 요청 관리
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: 'https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 4%
+source-wordcount: 1150
+ht-degree: 10%
 
 ---
 
@@ -23,7 +34,7 @@ ht-degree: 4%
 
 Data Warehouse 요청을 보려면 다음 작업을 수행하십시오.
 
-1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을(를) 선택합니다.
+1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;를 선택합니다.
 
    Data Warehouse 페이지에 수행한 모든 요청이 표시됩니다. 데이터는 각 열에 표시됩니다. 표시할 열을 [구성](#configure-columns)할 수 있습니다.
 
@@ -49,7 +60,7 @@ Data Warehouse 요청을 보려면 다음 작업을 수행하십시오.
 
 예약된 요청을 편집하려면:
 
-1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을(를) 선택합니다.
+1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;를 선택합니다.
 
 1. Data Warehouse 페이지에서 편집할 요청을 선택합니다.
 
@@ -67,7 +78,7 @@ Data Warehouse 요청을 보려면 다음 작업을 수행하십시오.
 
 Data Warehouse 요청 내역을 볼 수 있습니다.
 
-1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을(를) 선택합니다.
+1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;를 선택합니다.
 
 1. Data Warehouse 페이지에서 내역을 보려는 요청을 선택합니다.
 
@@ -109,7 +120,7 @@ Data Warehouse 요청 내역을 볼 수 있습니다.
 
 요청을 복사하면 모든 구성 옵션이 원래 요청에서 복사됩니다.
 
-1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을(를) 선택합니다.
+1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;를 선택합니다.
 
 1. Data Warehouse 페이지에서 복사할 요청을 선택합니다.
 
@@ -131,7 +142,7 @@ Data Warehouse 요청 내역을 볼 수 있습니다.
 
 예약된 요청을 취소하려면 다음 작업을 수행하십시오.
 
-1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;을(를) 선택합니다.
+1. Adobe Analytics에서 [!UICONTROL **도구**] > [!UICONTROL **Data Warehouse**]&#x200B;를 선택합니다.
 
 1. Data Warehouse 페이지에서 편집할 요청을 선택합니다.
 

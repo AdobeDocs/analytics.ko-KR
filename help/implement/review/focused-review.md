@@ -4,10 +4,25 @@ description: 다음 단계에 따라 구현 오류를 방지하고 KPI를 관리
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/C57qRRa4-WDgJDgvtLebgy-0DAPvMUreSrGfuA67N4o
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 68%
+source-wordcount: 535
+ht-degree: 62%
 
 ---
 
@@ -19,7 +34,7 @@ ht-degree: 68%
 
 상위 5개의 주요 성과 지표 (KPI)를 파악하면 검토해야 하는 관련 지표와 차원을 결정하는 데 도움이 됩니다. 지난 6개월 동안 KPI를 새로 고치지 않았거나 아직 회사의 KPI를 만들지 않은 경우에는 [다음 지침](/help/implement/review/define-kpis.md)을 따릅니다.
 
-## &#x200B;2. KPI 지표와 변수가 계속 제대로 작동하는지 확인합니다
+## &#x200B;2. KPI 지표와 변수가 계속 제대로 작동하는지 확인하십시오
 
 시간의 경과에 따라 코드를 업데이트하면 의도하지 않은 결과를 초래할 수 있습니다. [상위 5개의 KPI](/help/implement/review/define-kpis.md)에 연결된 모든 지표 및 차원이 계속 제대로 작동하는지 확인해야 합니다. 가장 좋은 방법은 웹 사이트 릴리스 직후 수행하는 것입니다. 지난 몇 달 동안 작업을 수행하지 않았다면 *지금*&#x200B;하세요. 다음 작업을 수행하십시오.
 
@@ -32,7 +47,7 @@ ht-degree: 68%
 
 가장 최근의 사이트 릴리스가 사이트의 해당 섹션에 대한 데이터 수집에 부정적인 영향을 주지 않는지 확인합니다. 해당 섹션에 해당하는 모든 코드와 변수를 검토하여 새 추적이 설계된 대로 작동하는지 확인합니다.
 
-## &#x200B;4. 설명서를 업데이트합니다.
+## &#x200B;4. 설명서 업데이트
 
 최근 지표나 변수를 추가하거나 변경한 경우 BRD (Business Requirements Document) 및 SDR (Solution Design Reference)을 업데이트해야 합니다.
 
@@ -47,7 +62,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구현 검토](https://video.tv.adobe.com/v/3440176?quality=12&learn=on&captions=kor){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구현 검토](https://video.tv.adobe.com/v/3440176?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

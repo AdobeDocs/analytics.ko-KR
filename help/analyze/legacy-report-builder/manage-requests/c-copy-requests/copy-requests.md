@@ -5,10 +5,19 @@ uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
 role: User, Admin
 exl-id: 14578c79-a9e6-4587-b91b-f590453df347
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/9HsICf4VKtAaDlime8Y9RAJjEPCra-KvMpIhUedBpWc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 87%
+source-wordcount: 144
+ht-degree: 17%
 
 ---
 
@@ -18,6 +27,6 @@ ht-degree: 87%
 
 두 개 이상의 요청과 매핑된 셀을 복사하고 그 내용을 스프레드시트의 비어 있는 선택된 영역에 붙여넣을 수 있습니다.
 
-셀을 복사하면 Report Builder와 Excel은 최소한의 사본을 붙여넣는 데 필요한 영역을 판단합니다. 영역이 충분히 크면 붙여넣기 작업에 의해 모든 요청의 사본이 만들어지고 이 때 각각의 붙여넣기가 수행된 요청은 원래의 요청과 동일한 공간 배치 및 서식을 갖게 됩니다.
+셀을 복사하면 Report Builder 및 Excel에서 최소 복사량을 붙여넣는 데 필요한 영역을 결정합니다. 영역이 충분히 큰 경우 붙여넣기를 수행하면 모든 요청의 사본이 만들어지고, 여기에서 붙여넣은 각 요청의 공간 배열 및 서식은 원본 요청과 동일합니다.
 
-이러한 과정을 요청을 전파한다라고 하며, 긴 보고서를 만드는 쉽고 빠른 방법입니다. Report Builder는 먼저 대상 붙여넣기 영역에 셀에 있는 모든 요청을 붙여넣어 요청을 전파한 다음, 해당 요청들에 대해 설정된 보고서 날짜를 기반으로 셀을 새로 고칩니다.
+이를 요청 전파라고 합니다. 이것은 긴 보고서를 빠르고 쉽게 만들 수 있는 방법입니다. Report Builder은 먼저 대상 붙여넣기 영역에 대한 셀의 모든 요청을 붙여 넣어 요청을 전파한 다음 요청에 대해 설정한 보고서 날짜를 기준으로 셀을 새로 고칩니다.

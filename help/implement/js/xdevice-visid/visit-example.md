@@ -6,10 +6,21 @@ title: 크로스 디바이스 방문자 식별 예
 feature: Implementation Basics
 exl-id: c68bb745-29de-48e3-8731-d714503a2447
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: 'https://experienceleague.adobe.com/7LNBm0sMRamj4Qvhl2HcelDXcY8Y8DgTaCcc3vpoWK0'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: 386
+ht-degree: 87%
 
 ---
 
@@ -23,13 +34,13 @@ ht-degree: 100%
 
 | 서버 호출 | 작업 | 방문자 ID 쿠키 | 방문자 ID 변수 | 유효 방문자 ID | 방문 페이지 번호 | 방문 횟수 |
 |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 방문자가 마케팅 이메일에 있는 링크를 클릭하고 집 컴퓨터에서 사이트를 방문합니다. 이 방문자는 과거에 사이트를 7번 더 방문했습니다. | 1 | - | 1 | 1 | 8 |
-| 2-8 | 사이트에서 7개의 페이지를 더 방문합니다. | 1 | - | 1 | 2-8 | 8 |
-| 9 | 집 컴퓨터를 인증합니다. | 1 | CID1 | CID1 | 9 <br> (CID1의 첫 번째 히트이므로 방문자 ID 1의 방문자 프로필에서 가져와서 계속 사용합니다.) | 8 |
-| 10 | 한 페이지를 더 방문합니다. | 1 | CID1 | CID1 | 10 | 8 |
+| 1 | 방문자가 마케팅 이메일에 있는 링크를 클릭하고 집 컴퓨터에서 사이트를 방문합니다. 이 방문자는 과거에 7번 사이트를 방문했습니다. | 1 | - | 1 | 1 | 8 |
+| 2-8 | 사이트에서 7개의 추가 페이지를 방문합니다. | 1 | - | 1 | 2-8 | 8 |
+| 9 | 홈 컴퓨터에서 인증합니다. | 1 | CID1 | CID1 | 9 <br> (CID1의 첫 번째 히트이므로 방문자 ID 1의 방문자 프로필에서 가져와서 계속 사용합니다.) | 8 |
+| 10 | 방문 횟수 1 추가 페이지. | 1 | CID1 | CID1 | 10 | 8 |
 | 11 | 사무실 노트북에서 사이트를 엽니다. 이 방문자는 이 디바이스를 사용하기 전에는 여러분의 사이트를 방문한 적이 없습니다. | 2 | - | 2 | 1 | 1 |
 | 12 | 노트북을 인증합니다. | 2 | CID1 | CID1 | 1 | 9 |
-| 13 | 한 페이지를 더 봅니다. | 2 | CID1 | CID1 | 2 | 9 |
+| 13 | 1개의 추가 페이지를 봅니다. | 2 | CID1 | CID1 | 2 | 9 |
 
 ## 방문 카운트
 

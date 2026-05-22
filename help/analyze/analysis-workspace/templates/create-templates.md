@@ -4,9 +4,18 @@ title: 템플릿 만들기 및 관리
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: 'https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+subfeature_v2:
+  - id: afb76b85-c4c7-4167-959c-8c31401f54be
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 726
 ht-degree: 100%
 
 ---
@@ -45,7 +54,7 @@ ht-degree: 100%
 
 관리자는 회사 템플릿을 편집하거나 삭제할 수 있습니다.
 
-1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 **[!UICONTROL _login_company_name _템플릿]**을 선택합니다.
+1. Analysis Workspace에서 [!UICONTROL **Workspace**] 탭을 선택한 다음 **[!UICONTROL _login _company_name_ 템플릿]**을 선택합니다.
 
 1. 열 보기 ![열 보기 아이콘](assets/column-view-icon.png)에서 템플릿을 보는 방법:
 
@@ -65,7 +74,7 @@ ht-degree: 100%
 
       ![회사 템플릿 카드 보기](assets/company-template-cards.png)
 
-   1. 더 보기 아이콘을 선택한 다음 **[!UICONTROL 편집]** 또는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+   1. 자세히 아이콘을 선택한 다음 **[!UICONTROL 편집]** 또는 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
       ![회사 템플릿 카드 편집 또는 삭제](assets/company-template-card-edit-delete.png)
 

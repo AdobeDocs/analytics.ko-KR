@@ -4,10 +4,22 @@ title: Analytics 사용자 및 자산 관리
 feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: 'https://experienceleague.adobe.com/d8CK9Vf-eaEU6P9386J1eO-JpD5u4l3VoqRcMwvXcW0'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 4%
+source-wordcount: 455
+ht-degree: 9%
 
 ---
 
@@ -22,7 +34,7 @@ ht-degree: 4%
 | [!UICONTROL 사용자 ID] | 사용자가 Adobe Analytics에 로그인하는 데 사용하는 사용자 ID입니다. |
 | [!UICONTROL 이름] | 사용자의 이름입니다. |
 | [!UICONTROL 마이그레이션 상태] | 기존 사용자 계정에서 Enterprise ID 또는 Adobe ID으로의 마이그레이션 상태입니다.  상태가 시작되지 않음, 큐에 있음 또는 마이그레이션됨일 수 있습니다. |
-| [!UICONTROL 이메일] | 사용자의 이메일입니다. |
+| [!UICONTROL 이메일] | 사용자의 이메일. |
 | [!UICONTROL 기존 로그인] | 활성화 또는 비활성화가 가능한 기존 로그인의 상태입니다. |
 | [!UICONTROL 생성된 일자] | Adobe Analytics에서 사용자 계정이 생성된 타임스탬프. |
 | [!UICONTROL 마지막 Analytics 액세스] | Adobe Analytics에 대한 사용자 계정의 최신 액세스 타임스탬프 |

@@ -5,10 +5,24 @@ title: 서버측 전달 구현 확인 방법
 feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/FpB4dk9D87gc24t5KG6WRJ-r8GFOvOEUlRTTjc6XFYI'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: c354699e-6555-4397-8706-1a9a89984069
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 86%
+source-wordcount: 246
+ht-degree: 60%
 
 ---
 
@@ -18,8 +32,8 @@ ht-degree: 86%
 
 서버측 전달의 상태를 확인하려면 다음 작업을 수행하십시오.
 
-1. 업데이트 된 AppMeasurement 코드가 포함된 테스트 페이지를 로드합니다.
-1. 브라우저의 디버깅 도구나 프록시 소프트웨어를 사용하여 Analytics 추적 요청의 HTTP 응답을 검사합니다(&#39;b/ss&#39;가 포함된 경로를 선택하여 쉽게 필터링할 수 있습니다.).
+1. 업데이트된 AppMeasurement 코드가 포함된 테스트 페이지를 로드합니다.
+1. 브라우저의 디버깅 도구에서 또는 프록시 소프트웨어를 사용하여 Analytics의 추적 요청에서 HTTP 응답을 검사합니다(&quot;b/ss&quot;가 포함된 경로를 선택하여 쉽게 필터링할 수 있음).
 1. HTTP 응답을 검사합니다. 응답에 Audience Manager 데이터가 있으면(아래 그림 참조) 서버측 전달이 작동하고 있습니다.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/ssf-succeed.png)

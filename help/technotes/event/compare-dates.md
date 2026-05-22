@@ -3,9 +3,20 @@ title: 이벤트의 영향을 받은 날짜를 이전 범위와 비교
 description: 이전 트렌드와 비교하여 구현 문제 또는 중단과 같은 이벤트의 영향에 대해 알아봅니다.
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
 feature: Curate and Share
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+TQID: https://experienceleague.adobe.com/g9-IhtHCTJQ0C7wF-FxwHkYuH7QnOLtEvH20JwBz0lE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: 627
 ht-degree: 0%
 
 ---
@@ -20,7 +31,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 구성 요소]** > **[!UICONTROL 날짜 범위]**(으)로 이동합니다.
 2. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-3. 이벤트가 발생한 날짜 범위를 선택합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+3. 이벤트가 발생한 날짜 범위를 선택합니다. **[!UICONTROL 저장을]** 클릭합니다.
 
    ![날짜 범위 빌더](assets/date_range_builder.png)
 

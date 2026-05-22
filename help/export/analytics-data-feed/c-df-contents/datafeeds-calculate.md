@@ -4,10 +4,21 @@ keywords: 데이터 피드, 작업, 지표, 이전 열, 이후 열, 보트 수, 
 title: 지표 계산
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
+TQID: https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: 500
+ht-degree: 95%
 
 ---
 
@@ -42,7 +53,7 @@ ht-degree: 100%
 
 ## 방문자 수
 
-Adobe가 고유 방문자 수(사용자 정의 방문자 ID, Experience Cloud ID 서비스 등)를 식별하는 데 사용하는 모든 방법은 궁극적으로 모두 `post_visid_high` 및 `post_visid_low`의 값으로 계산됩니다. 이러한 두 열의 연결은 고유 방문자로 식별된 방식과 관계없이 고유 방문자 수를 식별하는 표준으로 사용될 수 있습니다. Adobe가 고유 방문자를 식별하는 데 사용한 방법을 이해하려면 열 `post_visid_type`을 사용하십시오.
+Adobe이 고유 방문자 수 (사용자 지정 방문자 ID, Experience Cloud ID 서비스 등)를 식별하는 데 사용하는 모든 방법은 궁극적으로 모두 `post_visid_high` 및 `post_visid_low`의 값으로 계산됩니다. 이러한 두 열의 연결은 고유 방문자로 식별된 방식과 관계없이 고유 방문자 수를 식별하는 표준으로 사용될 수 있습니다. Adobe가 고유 방문자를 식별하는 데 사용한 방법을 이해하려면 열 `post_visid_type`을 사용하십시오.
 
 1. `post_visid_high`와 `post_visid_low`를 연결합니다.
 2. 고유 값 수를 카운트합니다.

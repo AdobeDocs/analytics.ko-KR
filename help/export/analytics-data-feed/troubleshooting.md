@@ -3,9 +3,19 @@ title: 데이터 피드 문제 해결
 description: 데이터 피드 작업이 데이터를 처리하거나 전달하지 못할 수 있는 이유에 대해 알아봅니다. 데이터 피드로 잠재적 문제를 해결합니다.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 471
 ht-degree: 95%
 
 ---

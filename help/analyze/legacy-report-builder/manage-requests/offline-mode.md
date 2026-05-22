@@ -5,10 +5,20 @@ uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/HKk--fSRTABpRb8Q9yOeySHyAVSR-W2Ktzldmp7UeJQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 33%
+source-wordcount: 200
+ht-degree: 12%
 
 ---
 
@@ -26,8 +36,8 @@ ht-degree: 33%
 
    오프라인 코드가 선택된 옵션 화면의 ![스크린샷입니다.](assets/offline_mode.png)
 
-1. **[!UICONTROL 요청 생성 및 편집을 위한 오프라인 모드를 켭니다.]** 옆의 확인란을 선택합니다.
-1. **[!UICONTROL 지표 데이터를 다음으로 표시]** 필드에 요청에서 반환하려는 자리 표시자 데이터를 입력합니다. 예를 들어 &quot;1&quot;을 입력합니다.
+1. **[!UICONTROL 요청을 만들고 편집하기 위해 오프라인 모드 사용]** 옆에 있는 확인란을 선택하십시오.
+1. **[!UICONTROL 지표 데이터를 다른 이름으로 표시]** 필드에 요청에서 반환할 자리 표시자 데이터를 입력합니다. 예를 들어 &quot;1&quot;을 입력합니다.
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 1. 요청 마법사를 사용하여 요청을 오프라인 모드로 만들고 실행합니다. 다음 스크린샷은 자리 표시자 데이터로 &quot;1&quot;이 있는 요청의 예를 보여줍니다.
 

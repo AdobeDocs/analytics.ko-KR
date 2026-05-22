@@ -1,9 +1,27 @@
 ---
 title: AppMeasurement을 사용한 방문자 식별
 description: AppMeasurement을 사용하여 Adobe Analytics을 구현할 때 방문자를 올바르게 식별합니다.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+exl-id: 38797ca5-dc53-431e-95df-3c9e68aead94
+TQID: https://experienceleague.adobe.com/vWLzF0HXreytCKr01H4-gKzNlO36ySHA2vbcHvT3cIw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: c069c44e-5426-4c1a-accc-8028662f2fde
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 512
 ht-degree: 0%
 
 ---
@@ -20,8 +38,8 @@ AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaSc
 * 개발 [보고서 세트 ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)에 대해 원하는 에지 도메인입니다.
 * IMS 조직 ID:
-   1. Adobe ID 자격 증명을 사용하여 [experience.adobe.com](https://experience.adobe.com)에 로그인합니다.
-   1. Experience Cloud 인터페이스의 모든 곳에서 `[Cmd]` + `[I]`(iOS) 또는 `[Ctrl]` + `[I]`(Windows)을 누릅니다.
+   1. Adobe ID 자격 증명을 사용하여 [Adobe CX Enterprise](https://experience.adobe.com)에 로그인합니다.
+   1. CX 엔터프라이즈 인터페이스의 모든 위치에서 `[Cmd]` + `[I]`(iOS) 또는 `[Ctrl]` + `[I]`(Windows)을 누릅니다.
    1. **[!UICONTROL 사용자 데이터 디버거]**&#x200B;가 나타납니다. **[!UICONTROL 할당된 조직]** 탭을 선택합니다.
    1. 원하는 IMS 조직을 확장합니다.
    1. **[!UICONTROL ID]** 필드를 찾습니다.
@@ -50,7 +68,7 @@ AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaSc
 
 >[!TIP]
 >
->`Visitor`의 사용자 지정 변수에 [`doPlugins`](/help/implement/vars/functions/doplugins.md)의 존재를 할당하여 히트가 방문자 ID 서비스를 사용하는지 추적할 수 있습니다.
+>[`doPlugins`](/help/implement/vars/functions/doplugins.md)의 사용자 지정 변수에 `Visitor`의 존재를 할당하여 히트가 방문자 ID 서비스를 사용하는지 추적할 수 있습니다.
 >
 >```js
 >s.doPlugins = function() {

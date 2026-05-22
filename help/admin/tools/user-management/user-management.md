@@ -5,10 +5,21 @@ title: 사용자 및 제품 관리
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 role: Admin
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/NSfOfy6aLyM69Xqgn-bXb5PHzbI1eIWg4Q5pf8mXvSA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 90%
+source-wordcount: 266
+ht-degree: 87%
 
 ---
 
@@ -25,7 +36,7 @@ Adobe Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니
 | 작업 또는 리소스 | 설명 |
 | --- | --- |
 | Analytics 사용자 ID를 Adobe Admin Console로 마이그레이션 | Adobe은 Analytics 관리자가 사용자 ID를 Adobe Admin Console으로 마이그레이션할 수 있도록 지원합니다. 이러한 노력은 파급될 것이다. 여러분이 사용자를 마이그레이션해야 하는 경우 Adobe는 이메일로 Analytics 관리자에게 지침을 알려 줍니다. 마이그레이션 도구는 이 작업을 단순화할 수 있는 [Analytics User Management](/help/admin/tools/user-management/user-migration/c-migration-tool.md) 기능을 제공합니다.<p>**중요**: 이전의 권한 그룹은 사용자의 마이그레이션 당일 자동으로 Adobe Admin Console에 복사됩니다. 더 이상 Analytics 관리 도구에서 새 사용자를 초대하거나 새 그룹을 만들 수 없게 됩니다. 마이그레이션 준비 그리고 그에 영향을 받는 관리 기능에 대한 더 자세한 내용은 FAQ와 Adobe Admin Console로 Analytics 사용자 마이그레이션 도움말에서 확인할 수 있습니다. |
-| Adobe Admin Console 시작 | 사용자 계정이 마이그레이션되면 Adobe Admin Console의 모든 솔루션에서 사용자와 제품을 관리할 수 있습니다. `https://adminconsole.adobe.com/enterprise/`로 이동합니다. [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko)도 참조할 수 있습니다. |
+| Adobe Admin Console 시작 | 사용자 계정이 마이그레이션되면 Adobe Admin Console의 모든 솔루션에서 사용자와 제품을 관리할 수 있습니다. `https://adminconsole.adobe.com/enterprise/`로 이동합니다. [CX 엔터프라이즈 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko)도 참조하세요. |
 | Adobe Analytics 제품 프로필, 사용자 그리고 권한을 관리합니다. | [Adobe Admin Console의 Analytics](/help/admin/admin-console/home.md)를 참조하십시오. |
 
 <!--

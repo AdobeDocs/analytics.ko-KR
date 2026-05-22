@@ -1,15 +1,26 @@
 ---
-description: 상호 장치 방문자 식별은 여러 장치의 방문자들을 연결하는 데 도움이 됩니다.
+description: 크로스 디바이스 방문자 식별은 여러 디바이스의 방문자들을 연결하는 데 도움이 됩니다.
 keywords: Analytics 구현
 subtopic: Visitors
 title: 여러 디바이스에서 사용자 연결
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
 role: Developer
-source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
+TQID: 'https://experienceleague.adobe.com/t4NC8Wdgldm6iFgdJ5EtrU13kOnUBuEGKhWnKExf614'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 95%
+source-wordcount: 389
+ht-degree: 94%
 
 ---
 
@@ -32,4 +43,4 @@ ht-degree: 95%
 자체 사용자 지정 방문자 ID를 사용하면 방문자 식별 방식을 더 자유롭게 제어할 수 있지만 그에 따른 제한 사항이 있습니다.
 
 * **방문자 중복 제거는 소급적용되지 않습니다**: 방문자가 처음으로 사이트에 액세스한 후 인증하면 두 명의 고유 방문자가 계산됩니다. 일반 Analytics ID에 대한 고유 방문자 수 중 하나는 자동으로 생성되며, 다른 고유 방문자 수는 로그인할 때 사용자 지정 방문자 ID에 대해 계산됩니다. 방문자가 새 디바이스를 사용하거나 쿠키를 지울 때마다 이러한 고유 방문자 중복이 존재합니다.
-* **Experience Cloud ID 서비스에 대한 비호환성**: 크로스 디바이스 방문자 식별이 도입된 이후 Adobe는 여러 디바이스에서 방문자를 추적하는 보다 강력하고 안정적인 방법을 발표했습니다. 이러한 새로운 식별 방법은 사용자 지정 방문자 ID 무시와 함께 사용할 수 없습니다. Adobe ID 서비스 또는 CDA(Cross-Device Analytics)를 사용할 계획이라면 `visitorID` 변수를 사용하지 않는 것이 좋습니다.
+* **Experience Cloud ID 서비스에 대한 비호환성**: 크로스 디바이스 방문자 식별이 도입된 이후 Adobe는 여러 디바이스에서 방문자를 추적하는 보다 강력하고 안정적인 방법을 발표했습니다. 이러한 새로운 식별 방법은 사용자 지정 방문자 ID 무시와 함께 사용할 수 없습니다. ID 서비스 또는 CDA(Cross-Device Analytics)를 사용할 계획이라면 `visitorID` 변수를 사용하지 않는 것이 좋습니다.

@@ -4,10 +4,26 @@ description: 전체 처리 데이터 소스의 서비스 종료 공지에 대해
 exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: 'https://experienceleague.adobe.com/3NSbjRWl0GsomjsEXo8XczQ1RWOPGpqW4OM2YeUo3Wk'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 4%
+source-wordcount: 415
+ht-degree: 8%
 
 ---
 
@@ -25,7 +41,7 @@ ht-degree: 4%
 * 대량 데이터 삽입에는 방문자 식별 열, `pageName`(또는 이에 상응하는 링크), `reportSuiteID`, `timestamp` 및 `userAgent`과(와) 같은 일부 추가 필수 필드가 있습니다.
 * 방문자 연속성과 속성을 보장하기 위해 Bulk data insertion은 파일 내의 행을 시간순으로 정렬합니다. 파일 간 방문자 활동 순서에 대해 알아보려면 [방문자 그룹](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/)을 참조하십시오.
 * 대량 데이터 삽입을 사용하려면 파일이 .gzip 형식으로 .csv 압축되어야 합니다.
-* BDIA는 `timestamp` 대신 `date`을(를) 사용합니다.
+* BDIA는 `date` 대신 `timestamp`을(를) 사용합니다.
 
 ## BDIA와 전체 처리 데이터 소스 간의 변수 비교
 

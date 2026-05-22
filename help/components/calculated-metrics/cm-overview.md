@@ -4,10 +4,26 @@ keywords: 계산된 지표
 title: 계산된 지표 개요
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+autotag-review: '2026-05-22T11:11:01.439Z'
+TQID: 'https://experienceleague.adobe.com/JjrOp20i9YXIvlNjvUIyPoyoqOaAlYzIi2r25IXogHQ'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 99%
+source-wordcount: 317
+ht-degree: 75%
 
 ---
 
@@ -17,7 +33,7 @@ ht-degree: 99%
 
 계산된 지표는 기존 지표에서 생성할 수 있는 사용자 정의 지표입니다. 계산된 지표에서는 구현을 변경하지 않고도 데이터를 분석할 수 있는 사용자 정의 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다.
 
-계산된 지표는 각 [!DNL Analytics] 패키지에서 사용할 수 있지만 Experience Cloud용 Adobe Analytics Foundation Pack은 [포맷 유형(소수점, 시간, 백분율, 통화)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [할당 변경(기본값, 선형, 참여도 등)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [지표 유형(표준, 총계)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) 및 [기본 연산자](workflow/c-build-metrics/cm-build-metrics.md#operators)(더하기, 빼기, 곱하기, 나누기)를 포함한 기본 계산된 지표로 제한됩니다.
+계산된 지표는 각 [!DNL Analytics] 패키지에서 사용할 수 있지만 CX Enterprise용 Adobe Analytics Foundation 팩은 [형식 유형(십진수, 시간, 퍼센트, 통화)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [할당 변경 사항(기본값, 선형, 기여도 등)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [지표 유형(표준, 합계)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) 및 [기본 연산자](workflow/c-build-metrics/cm-build-metrics.md#operators)(더하기, 빼기, 곱하기, 나누기)을 포함하는 기본 계산된 지표로 제한됩니다.
 
 
 자세한 정보는 [Adobe Analytics 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-analytics.html)을 참조하십시오.
@@ -85,6 +101,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[지표 만들기](/help/components/calculated-metrics/workflow/cm-workflow.md)
->[지표 빌드](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>[지표 작성](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
 >[함수 사용](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >

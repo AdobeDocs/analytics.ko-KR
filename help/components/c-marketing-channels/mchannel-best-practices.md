@@ -3,10 +3,23 @@ title: Adobe Analytics 마케팅 채널 구현을 위한 모범 사례
 description: 업데이트된 Attribution 및 Customer Journey Analytics와 함께 마케팅 채널을 사용하기 위한 모범 사례
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
+TQID: https://experienceleague.adobe.com/mKq-l0nm-MFJjcvWoIwUfQ2QM-dYD6VlcfH-CszsUv8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 81%
+source-wordcount: 669
+ht-degree: 78%
 
 ---
 
@@ -27,7 +40,7 @@ ht-degree: 81%
 ![](assets/attribution.png)
 
 * 차원 마케팅 채널 및 마케팅 채널 세부 정보의 구성은 각 마케팅 채널 인스턴스에 해당하는 터치포인트를 설정하여 평가합니다.
-* 지표 분석의 경우 조직에서 하나 이상의 속성 모델에 맞춰 조정해야 합니다. 쉽게 재사용할 수 있도록 이 모델을 사용하여 사용자 정의 지표를 저장합니다.
+* 지표 분석의 경우 조직에서 하나 이상의 속성 모델에 맞춰 조정해야 합니다. 쉽게 재사용할 수 있도록 이 모델을 사용하여 사용자 지정 지표를 저장합니다.
 * 기본적으로 데이터는 마지막 접점 및 방문자 참여 기간 설정을 사용하여 할당됩니다. 속성 지표 모델을 [알고리즘 속성](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace)를 포함하여 전환 확인 기간에 대한 더 큰 통제력과 더 많은 다양성을 제공합니다.
 
 ## 모범 사례 #2: 직접 및 세션 새로 고침 채널 정의 없음

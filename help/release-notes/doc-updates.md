@@ -5,9 +5,35 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b7156124-d291-4de4-ac0c-ed17d8078449
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2:
+  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '7327'
+source-wordcount: 7326
 ht-degree: 95%
 
 ---
@@ -321,7 +347,7 @@ ht-degree: 95%
 | 2020년 4월 28일 수요일 | [콘텐츠 속도](/help/components/metrics/content-velocity.md) 지표에 대한 설명서가 추가되었습니다. |
 | 2020년 4월 16일 금요일 | 빈 상태에서 [!UICONTROL 자유 형식 테이블]을 자동으로 작성하는 방법에 대한 설명서입니다. 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 드롭할 수 없었습니다. 자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 드롭할 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 작성됩니다. 또한 빈 [!UICONTROL 자유 형식 테이블]에 함께 드롭할 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
 | **2020년 3월** |  |
-| 2020년 3월 12일 금요일 | [Experience Cloud에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)에 대한 업데이트가 추가되었습니다. |
+| 2020년 3월 12일 금요일 | [CX Enterprise에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)에 대한 업데이트를 추가했습니다. |
 | 2020년 3월 12일 금요일 | CDA 결합 지연에 대한 업데이트. |
 | 2020년 3월 12일 금요일 | 작업 영역에서 여러 보고서 세트를 지원합니다. 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와서 나란히 볼 수 있습니다. [자세히 알아보기...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
 | 2020년 3월 12일 금요일 | 작업 영역의 교육용 튜토리얼 템플릿입니다. 이 새로운 표준 템플릿은 작업 영역에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다. [자세히 알아보기...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |

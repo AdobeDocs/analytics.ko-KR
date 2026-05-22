@@ -3,10 +3,25 @@ title: 마케팅 채널 분석
 description: Workspace에서 마케팅 채널 차원을 사용하는 방법을 알아봅니다.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/XWjRuwOusH-TsOb5rzG8rAIkye3faYxfZzyQOMrav3Q
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 90%
+source-wordcount: 435
+ht-degree: 77%
 
 ---
 
@@ -18,7 +33,7 @@ ht-degree: 90%
 >
 >Analytics 관리자는 [마케팅 채널 관리](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)에 설명된 대로 조직의 마케팅 채널을 관리할 수 있습니다.
 
-어느 마케팅 채널이 가장 효과적인지 알고 싶을 것입니다. 그러한 채널을 이용하여 노력을 향상시키고 최적의 마케팅 효과를 얻을 수 있습니다. Adobe Analytics에서는 Workspace의 마케팅 채널 차원 및 지표가 주문, 매출 등에 대한 다양한 채널의 영향을 추적하는 데 도움이 되는 도구 중 하나이며, 유용한 채널 인사이트를 제공합니다. 마케팅 채널과 관련하여 사용할 수 있는 차원 및 지표는 다음과 같습니다.
+어느 마케팅 채널이 가장 효과적인지 알고 싶을 것입니다. 그러한 채널을 이용하여 노력을 향상시키고 최적의 마케팅 효과를 얻을 수 있습니다. Adobe Analytics에서 Workspace의 마케팅 채널 차원 및 지표는 주문, 매출 등에 대한 다양한 채널의 영향을 추적하고 유용한 채널 통찰력을 제공하는 도구 중 하나입니다. 마케팅 채널과 관련하여 사용할 수 있는 차원 및 지표는 다음과 같습니다.
 
 ![](assets/mc-dims.png)
 
@@ -46,7 +61,7 @@ ht-degree: 90%
 
 ## 고급 분석
 
-마케팅 채널 세부 정보는 각 채널을 더 깊이 있게 분석하여 특정 캠페인, 배치 등을 보여 줍니다. 각 마케팅 채널을 다음과 같이 세부적으로 분류할 수 있습니다.
+마케팅 채널 세부 정보는 각 채널을 더 깊이 있게 분석하여 특정 캠페인, 배치 등을 보여줍니다. 각 마케팅 채널을 다음과 같이 세부적으로 분류할 수 있습니다.
 
 ![](assets/mc-viz4.png)
 

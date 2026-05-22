@@ -4,10 +4,28 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 6b291ec1f9477bf814a26da35138449bfcb013a0
+TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b54aca0d-8aee-45f3-9966-1a84bd7bef52
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 87%
+source-wordcount: 1511
+ht-degree: 85%
 
 ---
 
@@ -85,7 +103,7 @@ Adobe Analytics의 프로젝트에 액세스하려면:
 | [!UICONTROL Workspace 프로젝트] | 사용자가 설계하고 빌드할 빈 [Workspace 프로젝트](/help/analyze/analysis-workspace/home.md)를 만듭니다. |
 | [!UICONTROL 모바일 스코어카드] | 사용자가 설계하고 빌드할 빈 [모바일 스코어카드](/help/analyze/mobile-app/curator.md)를 만듭니다. |
 | [!UICONTROL 교육 튜토리얼 열기] | 단계별 튜토리얼로 새로운 시작 프로젝트를 빌드하는 과정을 안내하는 작업 영역 교육 튜토리얼을 엽니다. |
-| [!UICONTROL 릴리스 정보 열기] | 최신 Adobe Experience Cloud 릴리스 정보의 Adobe Analytics 섹션을 엽니다. |
+| [!UICONTROL 릴리스 정보 열기] | 최신 Adobe CX Enterprise 릴리스 정보의 Adobe Analytics 섹션을 엽니다. |
 | 필터 아이콘 | 태그, 보고서 세트, 소유자, 유형 및 기타 필터(내 소유, 나와 공유, 즐겨찾기, 승인됨)별로 필터링합니다. |
 | 검색 창 | 테이블의 모든 열을 검색합니다. |
 | 선택 상자 | 수행할 수 있는 프로젝트 관리 액션(**삭제**, **공유**, **이름 바꾸기**, **복사**, **고정 해제**, **위로 이동**, **아래로 이동**, **태그**, **승인**, **CSV로 내보내기** 및 **다음으로 이동**)을 표시할 프로젝트를 하나 이상 선택합니다. 나열된 모든 액션을 수행할 권한이 없을 수도 있습니다. |

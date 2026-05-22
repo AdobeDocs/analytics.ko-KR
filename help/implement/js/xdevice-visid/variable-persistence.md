@@ -5,10 +5,22 @@ title: 속성 및 지속성
 feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
 role: Developer
-source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
+TQID: https://experienceleague.adobe.com/rEt9Nkt-c4sU08h-iYozgQmc1-N7RKWGNHzc-MOWja4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2:
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 95%
+source-wordcount: 558
+ht-degree: 86%
 
 ---
 
@@ -21,8 +33,8 @@ ht-degree: 95%
 방문자 프로필이 동일한 방문자 ID 변수와 연결된 후 병합되면, 내역 데이터 세트에서 속성이 변경되지 않습니다.
 
 * `visitorID` 변수가 설정되어 히트 시 전송되면 Adobe에서는 방문자 ID가 일치하는 다른 방문자 프로필이 있는지 확인합니다.
-* 일치하는 프로필이 있으면 그때부터 이미 시스템에 있는 방문자 프로필을 사용하고, 이전 방문자 프로필은 더 이상 사용하지 않습니다.
-* 일치하는 방문자 ID가 없으면, 새 프로필이 만들어집니다.
+* 프로필이 존재하면 해당 시점부터 시스템에 이미 있는 방문자 프로필이 사용되고 이전 방문자 프로필은 더 이상 사용되지 않습니다.
+* 일치하는 방문자 ID가 없으면 새 프로필이 만들어집니다.
 
 인증되지 않은 고객이 먼저 사이트에 도달하면, 해당 고객은 Adobe Analytics에 의해 방문자 프로필에 지정됩니다. 새 프로필이 만들어지면, 한 방문이 종료되고 다른 방문이 시작됩니다.
 

@@ -3,10 +3,21 @@ title: Adobe Analytics의 세션 문제 해결
 description: Adobe Analytics에서 로그아웃되는 것과 관련된 문제를 해결하는 방법을 알아봅니다.
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+TQID: https://experienceleague.adobe.com/b8dTBhP3a6FZSmABKtQKTp9XkmYIjfS5--Vbzl6xRGE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 99%
+source-wordcount: 367
+ht-degree: 80%
 
 ---
 
@@ -20,7 +31,7 @@ ht-degree: 99%
 
 많은 조직에서는 보안을 강화하기 위해 프록시 서버 또는 방화벽과 같은 추가 네트워크 기능을 배포합니다. 이러한 사용자 지정은 경우에 따라 Adobe Analytics에서 활성 세션을 유지하는 기능을 방해할 수 있습니다.
 
-연결되어 있는 회사 네트워크로 인해 Adobe Analytics 사용에 문제가 발생할 수 있는지 확인하려면 회사 네트워크 외부의 장치에서 Experience Cloud 로그인 자격 증명을 사용합니다. 장치의 예로는 홈 네트워크 또는 모바일 장치의 데이터 플랜이 있습니다. 로그아웃하지 않고 페이지 간에 성공적으로 이동할 수 있다면, Adobe Analytics에서 로그아웃된 원인이 조직의 네트워크 문제일 수 있습니다.
+연결되어 있는 회사 네트워크로 인해 Adobe Analytics 사용에 문제가 발생하는지 확인하려면 회사 네트워크 외부의 장치에서 CX 엔터프라이즈 로그인 자격 증명을 사용합니다. 장치의 예로는 홈 네트워크 또는 모바일 장치의 데이터 플랜이 있습니다. 로그아웃하지 않고 페이지 간에 성공적으로 이동할 수 있다면, Adobe Analytics에서 로그아웃된 원인이 조직의 네트워크 문제일 수 있습니다.
 
 ## 프록시로 인한 문제 {#proxy}
 

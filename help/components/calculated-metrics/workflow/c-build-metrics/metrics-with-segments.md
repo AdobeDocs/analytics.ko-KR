@@ -3,14 +3,27 @@ description: 동일한 시각화 내에서 지표 비교를 수행할 수 있도
 title: 세그먼트화된 지표
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/t1HtjinGP02YSBQk1Z95t6wIQ0OhuFb14GKfpd8Y9Eg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: 463
 ht-degree: 1%
 
 ---
 
-# 세그먼트화된 지표
+# 세분화된 지표
 
 [계산된 지표 빌더](cm-build-metrics.md#definition-builder)에서 지표 정의 내에 세그먼트를 적용할 수 있습니다. 분석에서 데이터 하위 집합에 대한 지표를 사용하려는 경우 세그먼트를 적용하는 것이 유용합니다.
 
@@ -29,7 +42,7 @@ ht-degree: 1%
 
 ## 방문 빈도가 높은 페이지
 
-1. [(이)라는 Workspace 프로젝트에서 &#x200B;](../cm-workflow.md)계산된 지표를 만듭니다`Germany`.
+1. `Germany`(이)라는 Workspace 프로젝트에서 [계산된 지표를 만듭니다](../cm-workflow.md).
 1. [계산된 지표 빌더](cm-build-metrics.md)에서 국가 필드를 사용하는 [세그먼트 만들기](/help/components/segmentation/segmentation-workflow/seg-build.md)(`Germany`).
 
    >[!TIP]

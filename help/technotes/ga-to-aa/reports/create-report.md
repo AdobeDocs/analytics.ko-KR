@@ -3,16 +3,34 @@ title: Analysis Workspace에서 기본 보고서 만들기
 description: Google Analytics 등 서드파티 도구에 익숙한 사용자에 초점을 맞춘 방식으로 Analysis Workspace에서 기본 보고서를 만드는 방법을 알아봅니다.
 feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+TQID: https://experienceleague.adobe.com/huQkwfObQW132aNeBiEMuPPeJ5H-6UaaVdJX77dHHUY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: 869
 ht-degree: 100%
 
 ---
 
 # Analysis Workspace에서 Google Analytics 사용자를 위한 기본 보고서 만들기
 
-Analysis Workspace (Adobe Analytics 내에 있는 주요 기능 중 하나)는 사용자가 수집된 데이터에 대한 통찰력을 얻을 수 있는 강력한 영역을 제공합니다. Google Analytics와 Adobe Analytics의 보고는 서로 전혀 다릅니다.
+Analysis Workspace(Adobe Analytics 내에 있는 주요 기능 중 하나)는 사용자가 수집된 데이터에 대한 인사이트를 얻을 수 있는 강력한 영역을 제공합니다. Google Analytics와 Adobe Analytics의 보고는 서로 전혀 다릅니다.
 
 * Google Analytics의 보고 구조를 사용하면 지역 위치 또는 참조 트래픽 같은 특정 유형의 데이터를 선택할 수 있습니다. 플랫폼은 이 데이터를 보는 최선의 방법을 기반으로 미리 작성된 보고 보기를 사용합니다.
 * Analysis Workspace의 보고 구조는 빈 캔버스를 제공하므로 정확한 보고 요구 사항을 더 유연하게 충족할 수 있습니다.
@@ -57,9 +75,9 @@ Analysis Workspace는 미리 작성된 보고서라기보다는 캔버스와 더
 
 ## 도구 실험
 
-Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 구성 요소를 프로젝트에 마구잡이로 드래그하여 놓아서 어떤 것이 효과가 있는지를 확인하는 데에는 아무 영향이 없습니다. 다양한 차원과 지표의 조합을 작업 영역 프로젝트에 드래그하여 사용 가능한 조합을 확인하십시오.
+Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 구성 요소를 프로젝트에 마구잡이로 끌어와서 어떤 것이 효과가 있는지를 확인하는 데에는 아무 영향이 없습니다. 다양한 차원과 지표의 조합을 Workspace 프로젝트로 드래그하여 사용 가능한 조합을 확인하십시오.
 
-실수로 유효하지 않은 구성 요소를 작업 영역 프로젝트에 드래그하거나 단계를 다시 수행하려면 Ctrl+Z (Windows) 또는 Cmd+Z (Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. 왼쪽 위 메뉴에서 *[!UICONTROL 프로젝트] > [!UICONTROL 신규]*&#x200B;를 클릭하여 깨끗한 슬레이트로 시작할 수도 있습니다.
+실수로 유효하지 않은 구성 요소를 Workspace 프로젝트에 끌어오거나 단계를 다시 수행하려면 Ctrl+Z(Windows) 또는 Cmd+Z(Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. 왼쪽 위 메뉴에서 *[!UICONTROL 프로젝트] > [!UICONTROL 신규]*&#x200B;를 클릭하여 깨끗한 슬레이트로 시작할 수도 있습니다.
 
 Adobe는 마우스 오른쪽 버튼 클릭 컨텍스트 메뉴에 Analysis Workspace의 많은 기능을 배치했습니다. 대부분의 시각화 및 구성 요소를 마우스 오른쪽 버튼으로 클릭하여 보다 자세한 분석과 상호 작용을 수행할 수 있습니다. 작업 영역에서 구성 요소를 마우스 오른쪽 버튼으로 클릭하여 사용 가능한 옵션을 확인합니다.
 

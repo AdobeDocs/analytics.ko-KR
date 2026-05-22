@@ -3,9 +3,21 @@ description: 보고서에 고유 값이 많은 경우 Adobe는 낮은 트래픽 
 title: Adobe Analytics의 낮은 트래픽 값
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 42d044c3c56f13a232b721ef60f64bcf622ffa9f
+TQID: https://experienceleague.adobe.com/LxgSEq4RMCwf38uY6HxfhQ7SZxw0e5nupJTAfA1gpbY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: 938
 ht-degree: 8%
 
 ---
@@ -68,4 +80,4 @@ ht-degree: 8%
 * **세그먼테이션:** 세그먼트 기준에 고유 값이 많은 차원이 포함된 경우 [!UICONTROL 낮은 트래픽]에 캡처된 값은 포함되지 않습니다.
 * **분류:** 분류 보고서는 고유한 제한을 받습니다. 분류의 상위 차원 항목이 [!UICONTROL 낮은 트래픽] 아래에 포함된 경우 값이 분류되지 않습니다.
    * 가져오기를 통해 분류된 [!UICONTROL 낮은 트래픽] 값은 Data Warehouse에서 볼 수 있습니다. <!-- AN-115871 -->
-   * 규칙 빌더 [!UICONTROL 을(를) 통해 분류된 &#x200B;]낮은 트래픽&#x200B;*값은 Data Warehouse에서 볼 수 없습니다*. <!-- AN-122872 -->
+   * 규칙 빌더 *을(를) 통해 분류된 [!UICONTROL 낮은 트래픽] 값은 Data Warehouse에서 볼 수 없습니다*. <!-- AN-122872 -->
