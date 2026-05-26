@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1654
 ht-degree: 9%
@@ -26,7 +26,6 @@ ht-degree: 9%
 스키마는 분류 세트에 대해 정의한 주요 차원에 적용할 분류 목록입니다. 예를 들어, 제품을 키 차원으로 정의했으며 이 필드에 제품 SKU가 포함되어 있는 경우 스키마를 사용하여 제품 이름, 색상 및 크기와 같은 분류를 추가합니다.
 
 분류 세트에 대한 스키마를 편집하려면 다음을 수행하십시오.
-
 
 1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.

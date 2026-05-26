@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 45%
@@ -109,3 +109,4 @@ Report Builder에서는 보고서 세트에서 데이터 요청을 만들려면 
 
 1. **[!UICONTROL 옵션]** 선택
 1. **[!UICONTROL 로컬 파일에 Report Builder 요청 기록(문제 해결)]**&#x200B;을 선택하십시오.<br/>요청은 **[!UICONTROL Documents]** 폴더 내의 **[!UICONTROL ReportBuilderLogs]** 디렉터리에 있는 로컬 날짜 스탬프 파일에 저장됩니다.
+
