@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f571897740322c1f10255c54fbf745091752a507
 workflow-type: tm+mt
-source-wordcount: 1427
-ht-degree: 46%
+source-wordcount: 1471
+ht-degree: 45%
 
 ---
 
@@ -102,3 +102,10 @@ Report Builder에서는 보고서 세트에서 데이터 요청을 만들려면 
    4. 콘텐츠를 다시 압축하고 파일 확장자를 다시 `.xlsx`로 변경합니다.
    5. Excel에서 통합 문서를 열고 모든 Report Builder 요청을 새로 고칩니다.
 * **입력 필터 또는 출력 범위와 관련된 Excel 셀이 삭제되었을 수 있습니다**: Report Builder는 Excel 이름을 사용하여 데이터 요청을 셀에 첨부합니다. 이름 관리자에서 Excel 이름을 삭제하면 이 오류가 표시됩니다. Excel 이름이 삭제되면 요청을 복구할 수 없습니다. 통합 문서가 예약된 경우 일정 관리자에서 복사본을 다운로드하거나 이전에 제공된 통합 문서 복사본을 열 수 있습니다.
+
+## 로그 요청
+
+문제 해결 목적으로 요청을 기록하려면 기존 Report Builder 추가 기능에서 다음을 수행합니다.
+
+1. **[!UICONTROL 옵션]** 선택
+1. **[!UICONTROL 로컬 파일에 Report Builder 요청 기록(문제 해결)]**&#x200B;을 선택하십시오.<br/>요청은 **[!UICONTROL Documents]** 폴더 내의 **[!UICONTROL ReportBuilderLogs]** 디렉터리에 있는 로컬 날짜 스탬프 파일에 저장됩니다.
