@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
 source-wordcount: 1432
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="CX 엔터프라이즈 게시"
->abstract="Target 및 기타 CX 엔터프라이즈 솔루션의 마케팅 활동에 대상을 사용할 수 있는 대상 라이브러리에 대상을 게시할 수 있습니다."
+>title="CX Enterprise 게시"
+>abstract="대상자를 대상자 라이브러리에 게시하여 해당 대상자를 Target 및 기타 CX Enterprise 솔루션에서 마케팅 활동에 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"
