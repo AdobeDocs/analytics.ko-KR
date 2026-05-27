@@ -5,20 +5,14 @@ feature: Components
 role: Admin
 exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
 TQID: https://experienceleague.adobe.com/q-wAiW4oUc9kH-ywKVLfNKtXHdEfnIr01GXSK-g0YqY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
 source-wordcount: 361
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +23,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_share_primary"
 >title="기본 구성 요소 공유"
->abstract="이 옵션을 선택하면 기본 구성 요소가 중복 구성 요소에 액세스할 수 있는 모든 사람(소유자 및 구성 요소를 공유하는 모든 사람)과 공유됩니다. 그런 다음 이러한 사용자는 향후 프로젝트에 대한 구성 요소 목록에서 기본 구성 요소를 선택할 수 있습니다. 그러나 통합한 중복 구성 요소의 소유자일 경우에도 구성 요소를 편집할 수 없습니다. <br/>이 옵션은 기본 구성 요소가 세그먼트, 계산된 지표 또는 날짜 범위인 경우에만 사용할 수 있습니다. 지표 및 차원은 항상 모든 사용자가 사용할 수 있습니다."
+>abstract="이 옵션을 선택하면 기본 구성 요소가 중복 구성 요소에 액세스할 수 있는 모든 사람(소유자 및 구성 요소를 공유하는 모든 사람)과 공유됩니다. 공유 받은 사용자는 향후 프로젝트에 대한 구성 요소 목록에서 기본 구성 요소를 선택할 수 있습니다. 그러나 통합된 중복 구성 요소의 소유자일 경우에도 구성 요소를 편집할 수 없습니다. <br/>이 옵션은 기본 구성 요소가 세그먼트, 계산된 지표 또는 날짜 범위인 경우에만 사용할 수 있습니다. 지표 및 차원은 항상 모든 사용자가 사용할 수 있습니다.
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 
@@ -39,8 +33,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_delete_duplicates"
->title="교체된 중복 항목 삭제"
->abstract="이 옵션을 선택하면 통합된 복제본을 더 이상 사용할 수 없습니다. 복제가 계속 사용 가능하도록 하려면 이 옵션을 선택 취소합니다."
+>title="교체된 중복 요소 삭제"
+>abstract="이 옵션을 선택하면 통합된 중복 요소를 더 이상 사용할 수 없습니다. 중복 요소를 계속 사용하려면 이 옵션을 선택 취소합니다."
 
 <!-- markdownlint-enable MD034 -->
 
