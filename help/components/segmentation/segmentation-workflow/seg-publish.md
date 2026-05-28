@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1432
 ht-degree: 31%
@@ -84,7 +84,7 @@ Analytics 세그먼트를 8시간 이내에 CX Enterprise에 게시할 수 있�
 1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**&#x200B;를 선택하십시오.
    ![CX Enterprise 게시](assets/publish-ec.png)
 1. 세그먼트의 제목과 설명을 입력합니다. 이러한 필드는 세그먼트를 저장하기 전에 필요합니다.
-1. **[!UICONTROL CX Enterprise 게시]** 섹션에서 **[!UICONTROL 이 세그먼트를 CX Enterprise에 게시(*보고서 세트*용)]** 옵션을 선택합니다.
+1. **[!UICONTROL Experience Cloud 게시]** 섹션에서 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]** 옵션을 선택합니다.
 
    >[!IMPORTANT]
    >
