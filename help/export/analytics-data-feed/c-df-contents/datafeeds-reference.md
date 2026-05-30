@@ -224,49 +224,49 @@ ht-degree: 78%
 | | **`va_finder_id`** | [첫 번째 터치 채널](/help/components/dimensions/first-touch-channel.md) 차원을 식별하는 숫자 ID. 이 ID에 대한 조회는 마케팅 채널 관리자에서 찾을 수 있습니다. | tinyint 부호 없음 |
 | | **`va_instance_event`** | 마케팅 채널 [인스턴스](/help/components/metrics/instances.md)를 식별하는 플래그. | tinyint 부호 없음 |
 | | **`va_new_engagement`** | 마케팅 채널 [새 참여](/help/components/metrics/new-engagements.md)를 식별하는 플래그. | tinyint 부호 없음 |
-| **`post_`** | **`video`** | [콘텐츠](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoad`** | [광고](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoadinpod`** | [창 위치의 광고](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoadlength`** | [광고 길이(변수)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) 스트리밍 미디어 서비스 차원. | 정수 |
-| **`post_`** | **`videoadname`** | [광고 이름(변수)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoadplayername`** | [광고 플레이어 이름](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoadpod`** | [광고 창](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoadvertiser`** | [광고주](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| | **`videoaudioalbum`** | [앨범](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| | **`videoaudioartist`** | [아티스트](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| | **`videoaudioauthor`** | [작성자](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| | **`videoaudiolabel`** | [레이블](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| | **`videoaudiopublisher`** | [게시자](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| | **`videoaudiostation`** | [방송국](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videocampaign`** | [캠페인 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videochannel`** | [콘텐츠 채널](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videochapter`** | [챕터](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videocontenttype`** | [콘텐츠 유형](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videodaypart`** | [방송 시간대](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoepisode`** | [에피소드](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videofeedtype`** | [미디어 피드 유형](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videogenre`** | [장르](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 쉼표로 구분된 여러 값을 사용할 수 있습니다. | 텍스트 |
-| **`post_`** | **`videolength`** | [콘텐츠 길이(변수)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) 스트리밍 미디어 서비스 차원. | 정수 |
-| **`post_`** | **`videomvpd`** | [MVPD](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoname`** | [콘텐츠 이름(변수)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videonetwork`** | [네트워크](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videopath`** | [미디어 경로](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path) 스트리밍 미디어 서비스 차원. | varchar(100) |
-| **`post_`** | **`videoplayername`** | [콘텐츠 플레이어 이름](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoqoebitrateaverageevar`** | [평균 비트율](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoqoebitratechangecountevar`** | [비트율 변경](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoqoebuffercountevar`** | [버퍼 이벤트](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoqoebuffertimeevar`** | [총 버퍼 지속 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoqoedroppedframecountevar`** | [드롭된 프레임](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoqoeerrorcountevar`** | [오류](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| | **`videoqoeextneralerrors`** | [외부 오류 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 여러 값을 사용할 수 있습니다. | 텍스트 |
-| **`post_`** | **`videoqoeplayersdkerrors`** | [플레이어 SDK 오류 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 여러 값을 사용할 수 있습니다. | 텍스트 |
-| **`post_`** | **`videoqoetimetostartevar`** | [시작 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoseason`** | [시즌](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videosegment`** | [콘텐츠 세그먼트](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videosessionid`** | [미디어 세션 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id) 스트리밍 미디어 서비스 차원입니다. | varchar (255) |
-| **`post_`** | **`videoshow`** | [표시](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoshowtype`** | [표시 유형](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| | **`videostreamtype`** | [스트림 유형](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`video`** | [콘텐츠](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoad`** | [광고](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoadinpod`** | [창 위치의 광고](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoadlength`** | [광고 길이(변수)](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-length) 스트리밍 미디어 서비스 차원. | 정수 |
+| **`post_`** | **`videoadname`** | [광고 이름(변수)](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-name) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoadplayername`** | [광고 플레이어 이름](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-player-name) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoadpod`** | [광고 창](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-pod) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoadvertiser`** | [광고주](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/advertiser) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| | **`videoaudioalbum`** | [앨범](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/album) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| | **`videoaudioartist`** | [아티스트](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/artist) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| | **`videoaudioauthor`** | [작성자](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/author) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| | **`videoaudiolabel`** | [레이블](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/label) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| | **`videoaudiopublisher`** | [게시자](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/publisher) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| | **`videoaudiostation`** | [방송국](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/station) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videocampaign`** | [캠페인 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/campaign-id) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videochannel`** | [콘텐츠 채널](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-channel) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videochapter`** | [챕터](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/chapter) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videocontenttype`** | [콘텐츠 유형](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-type) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videodaypart`** | [방송 시간대](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/day-part) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoepisode`** | [에피소드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/episode) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videofeedtype`** | [미디어 피드 유형](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-feed-type) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videogenre`** | [장르](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/genre) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 쉼표로 구분된 여러 값을 사용할 수 있습니다. | 텍스트 |
+| **`post_`** | **`videolength`** | [콘텐츠 길이(변수)](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-length) 스트리밍 미디어 서비스 차원. | 정수 |
+| **`post_`** | **`videomvpd`** | [MVPD](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/mvpd) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoname`** | [콘텐츠 이름(변수)](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-name) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videonetwork`** | [네트워크](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/network) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videopath`** | [미디어 경로](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-path) 스트리밍 미디어 서비스 차원. | varchar(100) |
+| **`post_`** | **`videoplayername`** | [콘텐츠 플레이어 이름](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-player-name) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoqoebitrateaverageevar`** | [평균 비트율](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/average-bitrate) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoqoebitratechangecountevar`** | [비트율 변경](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/bitrate-changes) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoqoebuffercountevar`** | [버퍼 이벤트](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/buffer-events) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoqoebuffertimeevar`** | [총 버퍼 지속 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/total-buffer-duration) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoqoedroppedframecountevar`** | [드롭된 프레임](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/dropped-frames) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoqoeerrorcountevar`** | [오류](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/errors) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| | **`videoqoeextneralerrors`** | [외부 오류 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/external-error-ids) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 여러 값을 사용할 수 있습니다. | 텍스트 |
+| **`post_`** | **`videoqoeplayersdkerrors`** | [플레이어 SDK 오류 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 여러 값을 사용할 수 있습니다. | 텍스트 |
+| **`post_`** | **`videoqoetimetostartevar`** | [시작 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/time-to-start) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoseason`** | [시즌](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/season) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videosegment`** | [콘텐츠 세그먼트](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-segment) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videosessionid`** | [미디어 세션 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-session-id) 스트리밍 미디어 서비스 차원입니다. | varchar (255) |
+| **`post_`** | **`videoshow`** | [표시](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/show) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoshowtype`** | [표시 유형](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/show-type) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| | **`videostreamtype`** | [스트림 유형](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/stream-type) 스트리밍 미디어 서비스 차원. | varchar (255) |
 | **`post_`** | **`visid_high`** | 방문자를 고유하게 식별하기 위해 `visid_low`와 함께 사용됩니다. | bigint 부호 없음 |
 | **`post_`** | **`visid_low`** | 방문자를 고유하게 식별하기 위해 `visid_high`와 함께 사용됩니다. | bigint 부호 없음 |
 | | **`visid_new`** | 히트에 새로 생성된 방문자 ID가 포함되어 있는지 여부를 결정하는 플래그. | char (1) |

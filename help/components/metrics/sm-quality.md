@@ -32,17 +32,17 @@ Streaming Media 서비스 품질 지표는 Streaming Media 수집 라이브러�
 
 다음 지표를 사용할 수 있습니다.
 
-* [[!UICONTROL 평균 비트율]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-bitrate)
-* [[!UICONTROL 비트율 변경의 영향을 받은 스트림]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
-* [[!UICONTROL 비트율 변경]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-changes)
-* [[!UICONTROL 버퍼 영향을 받은 스트림]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
-* [[!UICONTROL 버퍼 이벤트]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-events)
-* [[!UICONTROL 총 버퍼 지속 시간]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
-* [[!UICONTROL 시작 전 드롭]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/drops-before-start)
-* [[!UICONTROL 삭제된 프레임]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frames)
-* [[!UICONTROL 드롭된 프레임 영향을 받은 스트림]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
-* [[!UICONTROL 오류 영향을 받은 스트림]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
-* [[!UICONTROL 오류 이벤트]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-events)
-* [[!UICONTROL 시작 시간]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start)
+* [[!UICONTROL 평균 비트율]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/average-bitrate)
+* [[!UICONTROL 비트율 변경의 영향을 받은 스트림]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
+* [[!UICONTROL 비트율 변경]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/bitrate-changes)
+* [[!UICONTROL 버퍼 영향을 받은 스트림]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
+* [[!UICONTROL 버퍼 이벤트]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/buffer-events)
+* [[!UICONTROL 총 버퍼 지속 시간]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
+* [[!UICONTROL 시작 전 드롭]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/drops-before-start)
+* [[!UICONTROL 삭제된 프레임]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/dropped-frames)
+* [[!UICONTROL 드롭된 프레임 영향을 받은 스트림]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
+* [[!UICONTROL 오류 영향을 받은 스트림]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
+* [[!UICONTROL 오류 이벤트]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/error-events)
+* [[!UICONTROL 시작 시간]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/time-to-start)
 
 해당 차원에 대해서는 [스트리밍 미디어 서비스 품질 차원](../dimensions/sm-quality.md)을 참조하십시오.
