@@ -35,14 +35,14 @@ ht-degree: 0%
 
 다음 차원을 사용할 수 있습니다.
 
-* [[!UICONTROL 평균 비트율]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)
-* [[!UICONTROL 비트율 변경]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
-* [[!UICONTROL 버퍼 이벤트]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)
-* [[!UICONTROL 총 버퍼 지속 시간]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)
-* [[!UICONTROL 삭제된 프레임]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)
-* [[!UICONTROL 오류]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors)
-* [[!UICONTROL 외부 오류 ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids)
-* [[!UICONTROL 플레이어 SDK 오류 ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)
-* [[!UICONTROL 시작 시간]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)
+* [[!UICONTROL 평균 비트율]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/average-bitrate)
+* [[!UICONTROL 비트율 변경]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
+* [[!UICONTROL 버퍼 이벤트]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/buffer-events)
+* [[!UICONTROL 총 버퍼 지속 시간]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)
+* [[!UICONTROL 삭제된 프레임]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/dropped-frames)
+* [[!UICONTROL 오류]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/errors)
+* [[!UICONTROL 외부 오류 ID]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/external-error-ids)
+* [[!UICONTROL 플레이어 SDK 오류 ID]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)
+* [[!UICONTROL 시작 시간]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/time-to-start)
 
 해당 지표는 [스트리밍 미디어 서비스 품질 지표](../metrics/sm-quality.md)를 참조하십시오.
