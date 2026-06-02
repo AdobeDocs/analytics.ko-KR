@@ -1,18 +1,25 @@
 ---
-source-git-commit: 851e0aaa0b19e95dca057dbc30d9466a897145a6
+source-git-commit: 8522c9129a88366fdc953d825c8935e4251487a0
 workflow-type: tm+mt
-source-wordcount: '3044'
-ht-degree: 98%
+source-wordcount: '3188'
+ht-degree: 93%
 
 ---
 # 스니펫
 
-## 레거시 Report Builder {#legacy-arb}
+## 레거시 Report Builder EOL {#legacy-arb}
+
+>[!WARNING]
+>
+>레거시 Report Builder은 2026년 6월에 사용이 종료됩니다. 2026년 7월 1일부터 기존 Report Builder을 사용하여 예약된 통합 문서는 더 이상 제공되지 않습니다. <ul><li>2026년 8월 12일까지 통합 문서를 기존 Report Builder에서 새 Report Builder으로 마이그레이션해야 합니다. 자세한 내용은 [기존 통합 문서 변환](/help/analyze/report-builder/convert-workbooks.md)을 참조하십시오.</li><li>Adobe Analytics 1.4 API의 수명이 종료됨에 따라 기존 Report Builder 추가 기능을 더 이상 다운로드할 수 없습니다.</li><li>2026년 8월 12일 이후, 마이그레이션이 필요한 통합 문서를 보유한 고객은 고객 지원 센터에 연락하여 원래 통합 문서를 받아야 합니다. 이러한 통합 문서는 [기존 통합 문서를 변환](/help/analyze/report-builder/convert-workbooks.md)하는 방법으로 마이그레이션해야 합니다.</li></ul> 간소화된 새 [Report Builder](/help/analyze/report-builder/rb-overview.md)는 2024년 10월 16일부터 사용할 수 있습니다. 이 Report Builder은 macOS, Windows 및 웹 브라우저에서 지원되며 Adobe Analytics 및 Customer Journey Analytics과 함께 사용할 수 있습니다. FTP 서버 및 Power BI으로 예약된 내보내기는 Report Builder에서 더 이상 지원되지 않습니다. 기존 Report Builder에서 이러한 기능을 사용하는 고객은 Report Builder에서 [내보내기 클라우드 대상](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations)을 사용해야 합니다.
+
+
+## 레거시 Report Builder {#legacy-arb-old}
 
 >[!IMPORTANT]
 >
->간소화된 새 [Report Builder](/help/analyze/report-builder/rb-overview.md)는 2024년 10월 16일부터 사용할 수 있습니다. 이 Report Builder은 macOS, Windows 및 웹 브라우저에서 지원되며 Adobe Analytics 및 Customer Journey Analytics과 함께 사용할 수 있습니다.
->이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [레거시 통합 문서를](/help/analyze/report-builder/convert-workbooks.md) 새 Report Builder으로 변환할 수 있습니다.
+>간소화된 새 [Report Builder](/help/analyze/report-builder/rb-overview.md)은(는) 2024년 10월 16일부터 사용할 수 있습니다. 이 Report Builder은 macOS, Windows 및 웹 브라우저에서 지원되며 Adobe Analytics 및 Customer Journey Analytics과 함께 사용할 수 있습니다.
+>이 레거시 Report Builder 추가 기능 버전은 여전히 작동합니다. [기존 통합 문서를 새 Report Builder으로 변환](/help/analyze/report-builder/convert-workbooks.md)할 수 있습니다.
 
 ## Reports & Analytics 서비스 종료 공지 {#ra-eol}
 
