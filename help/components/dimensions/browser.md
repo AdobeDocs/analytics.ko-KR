@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bdd7a704c94394d6f6cedfbc07988bde69993691
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 59%
+source-wordcount: 280
+ht-degree: 43%
 
 ---
 
@@ -42,3 +42,5 @@ ht-degree: 59%
 차원 항목에는 사용된 브라우저 이름과 버전이 포함됩니다. 동일한 브라우저의 다른 버전은 별도의 차원 항목입니다.
 
 일부 차원 항목은 버전 번호 대신 `"(unknown version)"`을 포함합니다. 이 차원 항목은 Adobe이 조회 테이블에 아직 추가하지 않은 최근 브라우저 릴리스를 참조합니다. 브라우저는 자주 업데이트되므로 주어진 브라우저에 대해 `"(unknown version)"`은 일반적이고 일시적입니다. Adobe는 일반적으로 월별 유지 관리 릴리스 동안 조회 테이블을 업데이트합니다.
+
+일부 차원 항목에는 `"Chrome 148.999"`과(와) 같이 `.999`이(가) 부 버전 번호로 포함되어 있습니다. 이 값은 Adobe이 브라우저의 부 버전을 안정적으로 확인할 수 없음을 나타냅니다. Chrome 또는 Edge 브라우저에서 [클라이언트 힌트](/help/technotes/client-hints.md) 없이 요청을 보낼 때 사용자 에이전트 문자열의 부 버전은 신뢰할 수 없는 것으로 간주됩니다. Adobe은 부정확할 수 있는 부 버전으로 차원 항목을 부풀리는 대신 해당 부 버전을 `.999`(으)로 바꿉니다. 마찬가지로, 브라우저가 비정상적으로 높은 버전 번호(99999 이상)를 보고하는 경우 Adobe은 이를 `999.999`(으)로 표준화합니다.
