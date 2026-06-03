@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
+source-git-commit: 0e43265266d1fe8447d0f63cb17e0c7a94be7954
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: 1676
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 9%
 | 열 | 설명 |
 |---|---|
 | **[!UICONTROL 분류 이름]** | 분류에 제공한 이름입니다. |
-| **[!UICONTROL ID 이름]** | 분류에 대해 시스템에서 생성한 이름입니다. 이 이름은 읽기 전용 값이며 ID 이름을 사용할 수 있습니다. |
+| **[!UICONTROL ID 이름]** | 분류에 대해 시스템에서 생성한 이름입니다. 이 이름은 읽기 전용 값이며 초기 분류 이름에서 파생됩니다. ID 이름은 분류를 지속하기 위해 내부적으로 사용되며 보고 가능한 차원의 ID로 작동하며 변경할 수 없습니다. |
 | **[!UICONTROL 분류자]** | 사용하는 경우 이 분류를 분류하는 데 사용되는 조회 분류 세트에 대한 링크입니다. |
 
 
