@@ -33,14 +33,14 @@ Streaming Media 서비스 비디오 메타데이터 차원은 Streaming Media �
 다음 차원을 사용할 수 있습니다.
 
 * [[!UICONTROL 광고 로드]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-load-type)
-* [[!UICONTROL 일 파트]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)
-* [[!UICONTROL 에피소드]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)
-* [[!UICONTROL 미디어 피드 유형]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)
-* [[!UICONTROL 장르]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)
-* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
-* [[!UICONTROL 네트워크]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)
-* [[!UICONTROL 시즌]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
-* [[!UICONTROL 표시]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)
-* [[!UICONTROL 표시 형식]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)
+* [[!UICONTROL 일 파트]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/day-part)
+* [[!UICONTROL 에피소드]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/episode)
+* [[!UICONTROL 미디어 피드 유형]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-feed-type)
+* [[!UICONTROL 장르]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/genre)
+* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/mvpd)
+* [[!UICONTROL 네트워크]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/network)
+* [[!UICONTROL 시즌]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/season)
+* [[!UICONTROL 표시]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/show)
+* [[!UICONTROL 표시 형식]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/show-type)
 
 해당 지표는 [스트리밍 미디어 서비스 비디오 메타데이터 지표](../metrics/sm-video-metadata.md)를 참조하십시오.
