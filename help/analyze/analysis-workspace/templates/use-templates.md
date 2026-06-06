@@ -35,7 +35,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
 source-wordcount: 18746
 ht-degree: 99%
@@ -145,7 +145,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--unitsOvertimeReport"
+>id="aa-template--unitsovertimereport"
 >title="모든 주문 내에서 구매된 상품의 총 개수를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다."
 >abstract="**이를 통해** 시간이 지남에 따라 판매량이 어떻게 증가하거나 감소하는지 더 잘 이해하는 데 도움이 될 수 있습니다. 세그먼트를 적용하여 가장 많은 상품을 구매하는 고객 또는 지역과 시간 경과에 따른 판매량 트렌딩을 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 캠페인이 시작되기 전과 후의 판매량을 비교하여 최근에 시작된 마케팅 캠페인의 효과를 평가하는 등 다양한 작업을 수행할 수 있습니다. 또는 전년 대비 휴일 기간 동안의 판매량을 비교할 수도 있습니다.<br/>이 템플릿은 일 차원과 판매량 지표를 사용합니다."
 
@@ -165,7 +165,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--pagesRankedReport"
+>id="template--pagesrankedreport"
 >title="방문 빈도가 가장 높은 페이지와 가장 낮은 페이지를 파악합니다."
 >abstract="**이를 통해** 대상자와 대상자가 가장 관심을 갖는 정보의 유형을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 조회수가 적은 페이지의 가시성을 높이기 위해 페이지 메타데이터를 조정하거나 가장 많이 조회된 페이지의 콘텐츠를 향상시키는 데 시간을 할애하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 페이지 차원과 페이지 조회수 지표를 사용합니다."
 
@@ -174,7 +174,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--pageViewsOvertimeReport"
+>id="template--pageviewsovertimereport"
 >title="총 페이지 조회수를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다. "
 >abstract="**이를 통해** 사이트의 트래픽이 시간이 지남에 따라 어떻게 증가하거나 감소하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 캠페인이 시작되기 전과 후의 사이트 트래픽을 비교하여 최근에 시작된 마케팅 캠페인의 효과를 평가하는 등 다양한 작업을 수행할 수 있습니다. 또는 전년 대비 휴일 트래픽을 비교할 수도 있습니다.<br/>이 템플릿은 일 차원과 페이지 조회수 지표를 사용합니다."
 
@@ -183,7 +183,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--visitsOvertimeReport"
+>id="template--visitsovertimereport"
 >title="총 방문 횟수를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다."
 >abstract="**이를 통해** 사이트의 트래픽이 시간이 지남에 따라 어떻게 증가하거나 감소하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 캠페인이 시작되기 전과 후의 사이트 트래픽을 비교하여 최근에 시작된 마케팅 캠페인의 효과를 평가하는 등 다양한 작업을 수행할 수 있습니다. 또는 전년 대비 휴일 트래픽을 비교할 수도 있습니다.<br/>이 템플릿은 일 차원과 방문 횟수 지표를 사용합니다."
 
@@ -192,7 +192,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--visitorsOvertimeReport"
+>id="template--visitorsovertimereport"
 >title="총 고유 방문자 수를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다. "
 >abstract="**이를 통해** 사이트의 도달 범위와 대상자 수가 시간이 지남에 따라 또는 이전 기간과 비교하여 어떻게 증가하거나 감소하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 최근 시작된 마케팅 캠페인이 캠페인 시작 전후의 고유 방문자 수를 비교하여 새로운 사람들을 사이트로 유치하는 데 성공했는지 평가하는 등 다양한 작업을 수행할 수 있습니다. 또는 휴일 기간에 방문하는 사람 수를 전년 대비 비교할 수도 있습니다.<br/>이 템플릿은 일 차원과 고유 방문자 수 지표를 사용합니다. "
 
@@ -201,7 +201,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--keyMetricsReport"
+>id="template--keymetricsreport"
 >title="페이지 조회수, 방문자 수, 고유 방문자 수 지표를 나란히 표시한 보고서를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다."
 >abstract="**이를 통해** 이러한 중요한 지표를 비교하여 사이트를 방문한 고유 사용자 수, 페이지 방문 횟수 및 세션 수를 보다 완벽하게 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 특정 주 또는 월에 사이트를 방문한 사람별로 조회한 평균 페이지 수, 일년 중 특정 시간대 또는 마케팅 캠페인이 실행되기 전과 후에 어떻게 변화했는지 평가하는 등 다양한 작업을 수행할 수 있습니다. <br/>이 템플릿은 일 차원, 페이지 조회수 지표, 방문자 수 지표, 고유 방문자 수 지표를 사용합니다."
 
@@ -210,7 +210,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--siteSectionRankedReport"
+>id="template--sitesectionrankedreport"
 >title="사이트의 최고 인기 항목이나 성과가 가장 높은 섹션을 확인할 수 있습니다."
 >abstract="**이렇게 하면** 사이트에서 가장 많이 방문하는 섹션을 더 잘 파악할 수 있습니다.<br>**학습한 내용을 바탕으로** 제공하는 제품이나 서비스 중 어느 것이 가장 많은 관심을 불러일으키는지를 평가하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 사이트 섹션 차원과 방문자 수 지표를 사용합니다."
 
@@ -237,7 +237,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--campaignRankedReport"
+>id="template--campaignrankedreport"
 >title="사이트로 트래픽을 유도하는 데 가장 성공한 링크를 확인할 수 있습니다."
 >abstract="**이를 통해** 사이트에 접속하는 데 가장 많이 사용된 추적 코드(및 해당 코드와 연결된 링크)를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사이트에 링크를 추가하는 위치에 대한 전략을 조정하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 추적 코드 차원과 방문 횟수 지표를 사용합니다."
 
@@ -246,7 +246,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--productsRankedReport"
+>id="template--productsrankedreport"
 >title="제품별 주문 수를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시됩니다."
 >abstract="**이를 통해** 어떤 제품의 수요가 가장 높거나 가장 낮은지 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 마케팅 전략을 조정하여 성과가 높은 제품을 홍보하거나 성과가 저조한 제품을 개선하거나 중단하는 등 다양한 작업을 수행할 수 있습니다. 데이터 분석을 기반으로 제품 재고를 조정할 수도 있습니다.<br/>이 템플릿은 제품 차원과 주문 지표를 사용합니다."
 
@@ -255,7 +255,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--lastTouchChannelRankedReport"
+>id="template--lasttouchchannelrankedreport"
 >title="방문자가 참여 기간(기본 30일) 동안 매칭되는 최신 마케팅 채널을 확인할 수 있습니다."
 >abstract="**이를 통해** 전환하는 사람들을 사이트로 유도하는 데 가장 효과적인 마케팅 채널을 이해하는 데 도움이 될 수 있습니다.<br/>**학습한 내용을 바탕으로** 성과가 좋은 채널에 더 많은 리소스를 할당하거나 성능이 저조한 채널에 더 적은 리소스를 할당하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 마지막 터치 채널 차원과 고유 방문자 수 지표를 사용합니다."
 
@@ -264,7 +264,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--lastTouchChannelDetailRankedReport"
+>id="template--lasttouchchanneldetailrankedreport"
 >title="방문자가 참여 기간(기본은 30일) 동안 매칭되는 최신 마케팅 채널의 세부 정보를 확인할 수 있습니다."
 >abstract="**이를 통해** 전환을 유도하는 데 가장 효과적이었던 마케팅 채널뿐만 아니라 해당 마케팅 채널에 대한 세부 정보를 파악할 수 있습니다. 예를 들어 방문자가 사이트에 도달하고 &#39;유료 검색&#39; 마케팅 채널과 일치하는 경우 채널 세부 사항을 사용하여 사용한 검색 엔진 또는 검색한 키워드를 확인할 수 있습니다.<br/>**학습한 내용을 바탕으로** 성과가 좋은 채널에 더 많은 리소스를 할당하거나 성능이 저조한 채널에 더 적은 리소스를 할당하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 마지막 터치 채널 세부 정보 차원과 고유 방문자 수 지표를 사용합니다. "
 
@@ -273,7 +273,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--revenueOvertimeReport"
+>id="template--revenueovertimereport"
 >title="모든 주문 내에서 모든 구매된 제품의 통화량을 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다."
 >abstract="**이를 통해** 시간이 지남에 따라 수익이 어떻게 증가하거나 감소하는지 이해하는 데 도움이 될 수 있습니다. 이 지표를 임의의 차원과 결합하여 매출에 기여한 차원 항목을 알아볼 수 있습니다.<br/>**학습한 내용을 바탕으로** 이전 트렌드를 기반으로 미래 수익을 예측하는 등 다양한 작업을 수행할 수 있습니다. 추적 코드 차원과 같은 다른 차원을 추가하여 가장 많은 수익을 창출하는 캠페인을 알아볼 수도 있습니다.<br/>이 템플릿은 일 차원과 매출 지표를 사용합니다."
 
@@ -282,7 +282,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--ordersOvertimeReport"
+>id="template--ordersovertimereport"
 >title="총 구매 이벤트 수를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다."
 >abstract="**이를 통해** 시간이 지남에 따라 제품 및 서비스에 대한 관심이 어떻게 증가하거나 감소하는지 더 잘 이해할 수 있습니다. 세그먼트를 적용하여 가장 많은 주문을 하는 고객 또는 지역과 시간 경과에 따른 주문 트렌딩을 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 캠페인이 시작되기 전과 후의 주문을 비교하여 최근에 시작된 마케팅 캠페인의 효과를 평가하는 등 다양한 작업을 수행할 수 있습니다. 또는 전년 대비 휴일 주문을 비교할 수도 있습니다.<br/>이 템플릿은 일 차원과 주문 지표를 사용합니다."
 
@@ -325,7 +325,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--timeSpentVisitOvertimeReport"
+>id="aa-template--timespentvisitovertimereport"
 >title="방문자가 사이트를 방문할 때마다 소비한 평균 시간을 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다."
 >abstract="**이를 통해** 방문자 참여 수준과 방문자가 사이트에 체류한 시간을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사이트를 변경하면 방문자가 사이트에 체류하는 시간이 늘어나는지를 평가하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 일 차원과 방문당 체류 시간(초) 차원을 사용합니다."
 
@@ -334,7 +334,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--timePriorRankedReport"
+>id="aa-template--timepriorrankedreport"
 >title="성공 이벤트가 발생하기 전까지 사용자가 소비한 평균 시간을 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자가 구매 등 원하는 액션을 수행하는 데 소요되는 시간을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사이트 변경이 방문자의 성공 이벤트에 빠르게 도달할 수 있는지를 평가하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 이벤트까지 남은 시간 차원과 고유 방문자 수 지표를 사용합니다."
 
@@ -343,7 +343,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--falloutReport"
+>id="aa-template--falloutreport"
 >title="미리 정의된 페이지 시퀀스를 통해 사람들이 어디에서 떠나거나 계속 읽는지 확인할 수 있습니다."
 >abstract="**이를 통해** 사용자가 사용자 여정 중 어디에서 이탈하는지 더 잘 이해할 있습니다.<br/>**학습한 내용을 바탕으로** 사이트의 특정 프로세스(예: 구매 또는 등록 프로세스)를 통한 전환율을 분석하거나 사이트에서 발생하는 이벤트 간의 상관 관계를 분석하는 등 다양한 작업을 수행할 수 있습니다. (예: 개인정보 처리방침을 본 사람 중 실제로 제품을 구매한 사람의 비율) 이 템플릿을 사용하여 동일한 보고서에서 두 개의 다른 세그먼트를 나란히 비교할 수도 있습니다.<br/>이 템플릿은 폴아웃 시각화를 사용합니다."
 
@@ -388,7 +388,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--reloadsRankedReport"
+>id="aa-template--reloadsrankedreport"
 >title="다시 로드 중 차원 항목이 있었던 횟수를 확인할 수 있습니다. 방문자가 브라우저를 새로 고치는 것이 다시 로드를 트리거하는 가장 일반적인 방법입니다."
 >abstract="**이를 통해** 특정 페이지에서 방문자가 페이지를 다시 로드해야 하는 문제가 발생하는 경우를 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 어떤 페이지에 해결해야 할 문제가 있는지 평가하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 다시 로드 지표를 사용합니다."
 
@@ -397,7 +397,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--timeSpentPageRankedReport"
+>id="aa-template--timespentpagerankedreport"
 >title="방문자가 사이트를 방문할 때마다 소비한 평균 시간을 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다."
 >abstract="**이를 통해** 방문자 참여 수준과 방문자가 사이트에 체류한 시간을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사이트를 변경하면 방문자가 사이트에 체류하는 시간이 늘어나는지를 평가하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 일 차원과 방문당 체류 시간(초) 차원을 사용합니다."
 
@@ -406,7 +406,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--entryPageOriginalRankedReport"
+>id="aa-template--entrypageoriginalrankedreport"
 >title="사용자가 사이트를 처음 방문했을 때 액세스하는 상위 페이지를 확인할 수 있습니다."
 >abstract="**이를 통해** 사이트에 가장 많은 트래픽이 유입되는 페이지를 더 잘 이해하거나 방문자가 사이트에 대해 갖는 첫인상을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사람들이 사이트에서 처음 접하는 초기 경험을 최적화하거나 사이트에 들어갈 때 처음 보는 페이지가 환영하는 분위기이고 사이트의 다른 영역에 대한 필요한 링크를 제공하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 세션 지표를 사용합니다. 또한 막대 시각화와 자유 형식 테이블 시각화도 사용합니다."
 
@@ -415,7 +415,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--singlePageVisitsRankedReport"
+>id="aa-template--singlepagevisitsrankedreport"
 >title="단일 고유 페이지로 구성된 방문 횟수를 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자 참여 수준과 방문자가 사이트에 체류한 시간을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사이트를 변경하면 방문자가 사이트에 체류하는 시간이 늘어나는지를 평가하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 단일 페이지 방문 횟수 차원을 사용합니다."
 
@@ -424,7 +424,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--sitePerformanceOverview"
+>id="aa-template--siteperformanceoverview"
 >title="Adobe Experience Manager 사이트의 성과 데이터를 확인할 수 있습니다."
 >abstract="**이를 통해** Adobe Experience Manager의 가치 실현을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** Experience Manager 설정을 최적화하는 등 다양한 작업을 수행할 수 있습니다."
 
@@ -433,7 +433,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--formsPerformanceOverview"
+>id="aa-template--formsperformanceoverview"
 >title="Adobe Experience Manager Forms의 성과 데이터를 확인할 수 있습니다."
 >abstract="**이를 통해** Adobe Experience Manager의 가치 실현을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** Experience Manager 설정을 최적화하는 등 다양한 작업을 수행할 수 있습니다."
 
@@ -498,7 +498,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--entryPageRankedReport"
+>id="template--entrypagerankedreport"
 >title="사용자가 사이트를 처음 방문했을 때 액세스하는 상위 페이지를 확인할 수 있습니다."
 >abstract="**이를 통해** 사이트에 가장 많은 트래픽이 유입되는 페이지를 더 잘 이해하거나 방문자가 사이트에 대해 갖는 첫인상을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사람들이 사이트에서 처음 접하는 초기 경험을 최적화하거나 사이트에 들어갈 때 처음 보는 페이지가 환영하는 분위기이고 사이트의 다른 영역에 대한 필요한 링크를 제공하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 세션 지표를 사용합니다. 또한 막대 시각화와 자유 형식 테이블 시각화도 사용합니다."
 
@@ -507,7 +507,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--exitPageRankedReport"
+>id="template--exitpagerankedreport"
 >title="사이트를 떠나기 직전에 사람들이 액세스하는 상위 페이지를 확인할 수 있습니다."
 >abstract="**이를 통해** 사람들이 사이트에서 어떤 페이지 기피하고 있는지 더 잘 파악할 수 있습니다. <br/>**학습한 내용을 바탕으로** 사람들이 떠나기 전에 경험하는 것을 최적화하기 위해 일반 종료 페이지를 업데이트하거나 사용자가 사이트에 머물도록 유도하는 콘텐츠 또는 링크를 포함하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 세션 지표를 사용합니다. 또한 막대 시각화와 자유 형식 테이블 시각화도 사용합니다."
 
@@ -552,7 +552,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--categoryRankedReport"
+>id="aa-template--categoryrankedreport"
 >title="사이트의 각 제품 카테고리와 연계된 방문 횟수를 확인할 수 있습니다. 이 기능은 제품 변수를 사용하고 제품 카테고리에 대한 지표를 보려는 구현에 유용합니다. 사이트에 제품이 없을 경우 이 템플릿을 채우는 차원을 의도적으로 비워 둘 수 있습니다."
 >abstract="**이를 통해** 가장 많이 판매되는 제품 또는 가장 많이 본 제품을 파악할 수 있습니다. &lt;/br/>**학습한 내용을 바탕으로** 특정 제품의 마케팅 캠페인 효과를 측정하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 카테고리 차원과 방문 횟수 지표를 사용합니다. "
 
@@ -572,7 +572,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--productConversionReport"
+>id="template--productconversionreport"
 >title="장바구니, 체크아웃, 주문을 표시하는 단계 시각화에서 제품 전환을 확인할 수 있습니다. 전환율, 매출 평균, 단위 평균, 주문 평균을 확인할 수도 있습니다."
 >abstract="**이를 통해** 사람들이 전환 프로세스를 어떻게 진행하고 드롭 오프하는지 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 웹 사이트를 개선하여 체크아웃 프로세스를 더욱 원활하게 진행하는 등 다양한 작업을 수행할 수 있습니다."
 
@@ -590,7 +590,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cartConversionReport"
+>id="template--cartconversionreport"
 >title="장바구니에 제품 추가, 장바구니 보기, 장바구니에서 제품 제거, 체크아웃 등 주요 체크아웃 이벤트를 수행한 횟수를 확인할 수 있습니다."
 >abstract="**이를 통해** 체크아웃 프로세스의 어떤 부분이 전환으로 이어지는지, 어떤 부분이 장바구니 포기 가능성이 높은지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 체크아웃 프로세스의 특정 단계에서 마찰을 줄이는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 다음을 사용합니다."
 
@@ -599,7 +599,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cartsOvertimeReport"
+>id="template--cartsovertimereport"
 >title="장바구니에 제품을 추가한 사람의 수를 확인할 수 있습니다."
 >abstract="**이를 통해** 장바구니에 추가되는 전체 제품 수 대비 장바구니에 제품을 추가하는 사람의 수를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 제품 페이지의 효과를 측정하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 장바구니 지표를 사용합니다."
 
@@ -608,7 +608,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cartViewsOvertimeReport"
+>id="template--cartviewsovertimereport"
 >title="사람들이 장바구니를 조회한 횟수를 확인할 수 있습니다."
 >abstract="**이를 통해** 장바구니 포기율을 낮추기 위해 체크아웃 경험을 더 잘 이해하거나 다양한 제품 간의 장바구니 추가와 체크아웃 사이의 시간을 분석할 수 있습니다.<br/>**학습한 내용을 바탕으로** 장바구니에 가장 오래 보관되어 포기 위험이 가장 큰 제품에 대한 프로모션을 제공하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 장바구니 조회수 지표를 사용합니다."
 
@@ -617,7 +617,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cartAdditionsOvertimeReport"
+>id="template--cartadditionsovertimereport"
 >title="사람들이 장바구니에 제품을 추가한 횟수를 확인할 수 있습니다."
 >abstract="**이를 통해** 제품에 대한 고객의 관심이 장바구니에 추가할 만큼 높은 전환 단계 부분을 더 잘 이해하는 데 도움이 될 수 있습니다.<br/>**학습한 내용을 바탕으로** 모든 고객을 위한 제품 추천 개선과 같은 다양한 작업을 수행할 수 있습니다. 이 작업은 동일한 장바구니에 자주 추가되는 제품을 분석하고 이미 장바구니에 있는 품목을 기준으로 관련 제품을 제안함으로써 이루어질 수 있습니다."
 
@@ -626,7 +626,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cartRemovalsOvertimeReport"
+>id="template--cartremovalsovertimereport"
 >title="사람들이 장바구니에서 제품을 제거한 횟수를 확인할 수 있습니다."
 >abstract="**이를 통해** 고객이 더 이상 제품에 관심이 없는 전환 단계 부분을 더 잘 이해하거나 체크아웃 프로세스에서 문제가 발생할 수 있는 부분을 이해하는 데 도움이 될 수 있습니다.<br/>**학습한 내용을 바탕으로** 복잡한 사용자 경험 등 체크아웃 프로세스에 존재할 수 있는 잠재적 장벽을 제거하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 장바구니 제거 수 지표를 사용합니다."
 
@@ -635,7 +635,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--purchaseConversionReport"
+>id="template--purchaseconversionreport"
 >title="세션, 장바구니, 주문을 표시하는 단계 시각화에서 구매 전환을 확인할 수 있습니다. 전환율, 매출 평균, 단위 평균, 주문 평균을 확인할 수도 있습니다."
 >abstract="**이를 통해** 사람들이 전환 프로세스를 어떻게 진행하고 드롭 오프하는지 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 웹 사이트를 개선하여 체크아웃 프로세스를 더욱 원활하게 진행하는 등 다양한 작업을 수행할 수 있습니다."
 
@@ -703,7 +703,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--timeZoneRankedReport"
+>id="aa-template--timezonerankedreport"
 >title="방문자가 사이트에 액세스하는 상위 시간대를 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자가 어느 시간대에 활동하고 있는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 적은 사용자에게 영향을 미치는 시간대로 사이트 유지 관리를 조정하는 등 여러 가지 작업을 수행할 수 있습니다."
 
@@ -721,7 +721,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--domainRankedReport"
+>id="aa-template--domainrankedreport"
 >title="방문자가 사이트에 액세스하는 상위 도메인을 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자가 어떤 조직에 속해 있는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 큰 고객을 겨냥한 콘텐츠를 제작하는 등 다양한 작업을 수행할 수 있습니다."
 
@@ -730,7 +730,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--topLevelDomainRankedReport"
+>id="aa-template--topleveldomainrankedreport"
 >title="방문자가 사이트에 액세스하는 상위 도메인을 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자가 어떤 조직에 속해 있는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 큰 고객을 겨냥한 콘텐츠를 제작하는 등 다양한 작업을 수행할 수 있습니다."
 
@@ -739,7 +739,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--browserWidthRankedReport"
+>id="aa-template--browserwidthrankedreport"
 >title="사람들이 사이트에 액세스하는 데 사용하는 상위 브라우저 폭을 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자에게 콘텐츠가 어떻게 표시되는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 일반적인 브라우저 폭을 사용하여 사이트의 새 버전을 테스트하여 사이트 품질을 개선하는 등 다양한 작업을 수행할 수 있습니다. 이렇게 하면 품질 관리 노력의 효과를 극대화할 수 있습니다.<br/>이 템플릿은 브라우저 차원을 사용합니다."
 
@@ -748,7 +748,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--browserHeightRankedReport"
+>id="aa-template--browserheightrankedreport"
 >title="사람들이 사이트에 액세스하는 데 사용하는 상위 브라우저 높이를 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자에게 콘텐츠가 어떻게 표시되는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 일반적인 브라우저 높이를 사용하여 사이트의 새 버전을 테스트하여 사이트 품질을 개선하는 등 다양한 작업을 수행할 수 있습니다. 이렇게 하면 품질 관리 노력의 효과를 극대화할 수 있습니다.<br/>이 템플릿은 브라우저 차원을 사용합니다. "
 
@@ -757,7 +757,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--operatingSystemRankedReport"
+>id="aa-template--operatingsystemrankedreport"
 >title="사용자가 사이트에 액세스하는 데 사용하는 운영 체제와 버전을 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자가 가장 많이 사용하는 운영 체제와 버전을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 상위 운영 체제 및 버전을 사용하여 사이트의 새 버전을 테스트하여 사이트 품질을 개선하는 등 다양한 작업을 수행할 수 있습니다. 이렇게 하면 품질 관리 노력의 효과를 극대화할 수 있습니다."
 
@@ -766,7 +766,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--operatingSystemTypeRankedReport"
+>id="aa-template--operatingsystemtyperankedreport"
 >title="사용자가 사이트에 액세스하는 데 사용하는 운영 체제를 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자가 가장 많이 사용하는 운영 체제를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 상위 운영 체제를 사용하여 사이트의 새 버전을 테스트하여 사이트 품질을 개선하는 등 다양한 작업을 수행할 수 있습니다. 이렇게 하면 품질 관리 노력의 효과를 극대화할 수 있습니다."
 
@@ -775,7 +775,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--returnFrequencyRankedReport"
+>id="aa-template--returnfrequencyrankedreport"
 >title="사용자가 사이트에 액세스하는 데 사용하는 모바일 디바이스에 셀룰러 네트워크 연결을 제공하는 통신 회사를 확인할 수 있습니다."
 >abstract="**이를 통해** 사용자 사이에서 가장 인기 있는 이동통신사를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 다양한 통신사의 네트워크 기능을 기반으로 콘텐츠 게재를 맞춤화하여 원활한 사용자 경험을 보장하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 이동통신사 차원을 사용합니다."
 
@@ -784,7 +784,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--returnVisitorsOvertimeReport"
+>id="aa-template--returnvisitorsovertimereport"
 >title="사용자가 사이트에 액세스하는 데 사용하는 모바일 디바이스에 셀룰러 네트워크 연결을 제공하는 통신 회사를 확인할 수 있습니다."
 >abstract="**이를 통해** 사용자 사이에서 가장 인기 있는 이동통신사를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 다양한 통신사의 네트워크 기능을 기반으로 콘텐츠 게재를 맞춤화하여 원활한 사용자 경험을 보장하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 이동통신사 차원을 사용합니다."
 
@@ -793,7 +793,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--visitNumberRankedReport"
+>id="aa-template--visitnumberrankedreport"
 >title="방문자 한 명이 사이트를 몇 번 방문했는지 확인할 수 있습니다."
 >abstract="**이렇게 하면** 방문자가 사이트를 재방문할 때의 참여도를 더 잘 이해할 수 있습니다. 이는 프로젝트 날짜 범위와 상관없이 방문자의 라이프타임에 적용됩니다.<br/>**학습한 내용을 바탕으로** 자주 방문하는 고객을 대상으로 마케팅 활동을 조정하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 방문 횟수 차원을 사용합니다."
 
@@ -802,7 +802,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--customerLoyaltyRankedReport"
+>id="aa-template--customerloyaltyrankedreport"
 >title="이전 구매 횟수가 0회, 이전 구매 횟수가 1회, 이전 구매 횟수가 2회 또는 이전 구매 횟수가 3회 이상인 사이트 방문자 수를 확인할 수 있습니다."
 >abstract="**이를 통해** 사이트가 구매 행동에 어떤 영향을 미치는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 재방문하여 구매하는 방문자에 초점을 맞추는 등 다양한 작업을 수행하여 신규 방문자에게도 비슷한 행동을 장려할 수 있습니다.<br/>이 템플릿은 고객 충성도 차원을 사용합니다."
 
@@ -811,7 +811,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--daysBeforeFirstPurchaseRankedReport"
+>id="aa-template--daysbeforefirstpurchaserankedreport"
 >title="방문자가 사이트에 처음 방문한 후 구매를 수행하는 시점까지 경과된 시간(일)을 확인할 수 있습니다. 예를 들어 방문자가 처음 방문한 다음 하루 후에 구매한다면 그 이후의 모든 방문 또는 이벤트는 1일 차원 항목에 속합니다."
 >abstract="**이를 통해** 방문자가 구매하는 데 소요되는 시간을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사이트를 업데이트하여 더 빠른 고객 확보를 촉진하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 첫 구매까지 소요된 일 수 차원을 사용합니다."
 
@@ -820,7 +820,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--daysSinceLastPurchaseRankedReport"
+>id="aa-template--dayssincelastpurchaserankedreport"
 >title="방문자의 현재 히트와 해당 시점의 가장 최근 구매 사이에 경과된 시간을 확인할 수 있습니다."
 >abstract="**이렇게 하면** 방문자가 사용자의 사이트에서 구매를 한 후 취하는 행동을 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사이트를 업데이트하여 후속 구매를 장려하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 마지막 구매 이후 일수 차원을 사용합니다."
 
@@ -829,7 +829,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--mobileScreenSizeRankedReport"
+>id="aa-template--mobilescreensizerankedreport"
 >title="사용자가 사이트에 액세스하는 데 사용하는 상위 모바일 화면 크기를 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자에게 콘텐츠가 어떻게 표시되는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 일반적인 모바일 화면 크기를 사용하여 사이트의 새 버전을 테스트하여 사이트 품질을 개선하는 등 다양한 작업을 수행할 수 있습니다. 이렇게 하면 품질 관리 노력의 효과를 극대화할 수 있습니다."
 
@@ -838,7 +838,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--mobileScreenHeightRankedReport"
+>id="aa-template--mobilescreenheightrankedreport"
 >title="사용자가 사이트에 액세스하는 데 사용하는 상위 모바일 화면 높이를 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자에게 콘텐츠가 어떻게 표시되는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 일반적인 모바일 화면 높이를 사용하여 사이트의 새 버전을 테스트하여 사이트 품질을 개선하는 등 다양한 작업을 수행할 수 있습니다. 이렇게 하면 품질 관리 노력의 효과를 극대화할 수 있습니다."
 
@@ -847,7 +847,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--mobileScreenWidthRankedReport"
+>id="aa-template--mobilescreenwidthrankedreport"
 >title="사용자가 사이트에 액세스하는 데 사용하는 상위 모바일 화면 폭을 확인할 수 있습니다."
 >abstract="**이를 통해** 방문자에게 콘텐츠가 어떻게 표시되는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 일반적인 모바일 화면 폭을 사용하여 사이트의 새 버전을 테스트하여 사이트 품질을 개선하는 등 다양한 작업을 수행할 수 있습니다. 이렇게 하면 품질 관리 노력의 효과를 극대화할 수 있습니다."
 
@@ -858,7 +858,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--countryGeoReport"
+>id="template--countrygeoreport"
 >title="사이트를 방문하는 사람들의 출신 국가를 확인할 수 있습니다."
 >abstract="**이를 통해** 어느 국가에서 가장 많이 사이트에 방문하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 데이터를 사용하여 해당 국가에서 마케팅 활동에 집중하거나 기본 언어가 다른 국가에서 사이트 경험이 최적화되도록 하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 국가 차원을 사용합니다."
 
@@ -867,7 +867,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--stateGeoReport"
+>id="template--stategeoreport"
 >title="사이트를 방문하는 사람들이 (미국) 어느 주에서 왔는지 확인할 수 있습니다. 이 차원은 미국에만 해당된다는 점을 제외하면 지리적 지역 템플릿과 유사합니다."
 >abstract="**이를 통해** 미국 어디에서 가장 많이 사이트에 방문하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 데이터를 사용하여 해당 주에서 마케팅 활동에 집중하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 미국 주 차원을 사용합니다."
 
@@ -876,7 +876,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--regionGeoReport"
+>id="template--regiongeoreport"
 >title="사이트를 방문한 사람들이 어느 지리적 지역에서 왔는지 확인할 수 있습니다. 한 지역은 국가보다는 작지만 도시보다는 큰 지리적 영역입니다. 일부 국가의 경우 지역이 주, 도 또는 현입니다. 기타 영역에서는 자치국, 부서 또는 대도시권입니다. "
 >abstract="**이를 통해** 어느 지역에서 가장 많이 사이트에 방문하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 데이터를 사용하여 해당 지역에서 마케팅 활동에 집중하거나 기본 언어가 다른 지역에서 사이트 경험이 최적화되도록 하는 등 다양한 작업을 수행할 수 있습니다. <br/>이 템플릿은 ID(변수/지리국가) 및 지역 차원을 사용합니다. "
 
@@ -885,7 +885,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cityGeoReport"
+>id="template--citygeoreport"
 >title="사이트를 방문하는 사람들의 출신 도시를 확인할 수 있습니다."
 >abstract="**이를 통해** 어느 도시에서 가장 많이 사이트에 방문하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 데이터를 사용하여 해당 도시에서 마케팅 활동에 집중하는 등 다양한 작업을 수행할 수 있습니다. <br/>이 템플릿은 도시 차원을 사용합니다."
 
@@ -894,7 +894,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--dmaGeoReport"
+>id="template--dmageoreport"
 >title="사이트 방문자가 미국 내 지정 마케팅 지역(DMA) 중 어디에서 가장 많이 방문했는지 확인할 수 있습니다."
 >abstract="**이를 통해** 어느 지역에서 가장 많이 사이트에 방문하는지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 데이터를 사용하여 가장 성공적인 지역에서 마케팅 활동에 집중하는 등 다양한 작업을 수행할 수 있습니다. "
 
@@ -903,7 +903,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--languageRankedReport"
+>id="template--languagerankedreport"
 >title="방문자가 콘텐츠를 보기 위해 선호하는 상위 언어를 확인할 수 있습니다."
 >abstract="**이를 통해** 가장 자주 선호하는 방문자 언어를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 인기 있는 언어에 대한 집중 현지화 노력이나 마케팅 활동과 같은 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 언어 차원을 사용합니다."
 
@@ -921,7 +921,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--browserRankedReport"
+>id="template--browserrankedreport"
 >title="사용자가 사이트에 액세스하는 데 사용하는 상위 브라우저의 이름과 버전을 확인할 수 없습니다."
 >abstract="**이를 통해** 방문자가 가장 많이 사용하는 브라우저를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 상위 브라우저를 사용하여 사이트의 새 버전을 테스트하여 사이트 품질을 개선하는 등 다양한 작업을 수행할 수 있습니다. 이렇게 하면 품질 관리 노력의 효과를 극대화할 수 있습니다.<br/>이 템플릿은 브라우저 차원을 사용합니다."
 
@@ -930,7 +930,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--browserTypeRankedReport"
+>id="template--browsertyperankedreport"
 >title="사용자가 사이트에 액세스하는 데 사용하는 상위 브라우저를 만든 조직의 이름을 확인할 수 있습니다. 이는 동일한 브라우저의 다른 버전을 별도의 차원 항목으로 나열하지 않는다는 점에서 브라우저 템플릿과 다릅니다."
 >abstract="**이를 통해** 방문자가 가장 많이 사용하는 브라우저를 더 잘 이해할 수 있습니다. <br/>**학습한 내용을 바탕으로** 상위 브라우저를 사용하여 사이트의 새 버전을 테스트하여 사이트 품질을 개선하는 등 다양한 작업을 수행할 수 있습니다. 이렇게 하면 품질 관리 노력의 효과를 극대화할 수 있습니다. <br/>이 템플릿은 브라우저 유형 차원을 사용합니다. "
 
@@ -1069,7 +1069,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--advertisingAnalyticsPaidSearch"
+>id="aa-template--advertisinganalyticspaidsearch"
 >title="모든 Google Ads 및 Microsoft Advertising 유료 검색 데이터를 함께 조회하십시오."
 >abstract="**이를 통해** 사이트로 유입되는 트래픽 양과 고객이 전환되는지 여부를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 광고 캠페인의 비용 효율을 예측하는 등 다양한 작업을 수행할 수 있습니다."
 
@@ -1078,7 +1078,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--searchEngineRankRankedReport"
+>id="aa-template--searchenginerankrankedreport"
 >title="방문자가 사이트에 접속하기 위해 클릭한 검색 결과 페이지를 확인할 수 있습니다. 예를 들어 사이트가 검색 엔진의 검색 결과 중 두 번째 페이지에 나타나는 경우 이 변수의 차원 항목은 검색 페이지 2입니다."
 >abstract="**이렇게 하면** 검색 결과에서 페이지 순위가 얼마나 높은지 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 콘텐츠가 검색 결과 중 첫 번째 페이지에 나타나도록 SEO 전략을 개선하는 등 다양한 작업을 수행할 수 있습니다."
 
@@ -1098,7 +1098,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--firstouchChannelRankedReport"
+>id="template--firstouchchannelrankedreport"
 >title="방문자의 참여 기간(기본 30일) 동안 방문자가 매칭한 첫 번째 마케팅 채널을 확인할 수 있습니다."
 >abstract="**이를 통해** 사이트로 초기 트래픽을 유도하는 마케팅 채널을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 효과적인 분야에 마케팅 활동을 집중하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 첫 번째 터치 채널 차원을 사용합니다."
 
@@ -1107,7 +1107,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--firstouchChannelDetailRankedReport"
+>id="template--firstouchchanneldetailrankedreport"
 >title="방문자의 참여 기간(기본 30일) 동안 방문자가 매칭한 첫 번째 마케팅 채널의 세부 정보를 확인할 수 있습니다."
 >abstract="**이를 통해** 마케팅 채널과 일치하는 히트의 요소를 더 잘 이해할 수 있습니다. 예를 들어 방문자가 사이트에 도달하고 “유료 검색” 마케팅 채널과 일치하는 경우 채널 세부 사항을 사용하여 사용한 검색 엔진 또는 검색한 키워드를 확인할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 효과적인 분야에 마케팅 활동을 집중하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 첫 번째 터치 채널 세부 정보 차원을 사용합니다."
 
@@ -1116,7 +1116,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--campaignConversionReport"
+>id="template--campaignconversionreport"
 >title="캠페인에 대한 클릭스루 수와 체크아웃 수를 확인할 있습니다."
 >abstract="**이를 통해** 마케팅 캠페인으로 전환을 유도하는 방법을 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 많은 ROI를 생성하는 마케팅 캠페인을 확인하는 등 다양한 작업을 수행할 수 있습니다."
 
@@ -1143,7 +1143,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchKeywordRankedReport"
+>id="template--searchkeywordrankedreport"
 >title="유료 검색이든 자연어 검색이든, 방문자가 사이트에 접속하는 데 사용하는 검색 키워드를 확인할 수 있습니다."
 >abstract="**이를 통해** 검색에서 사용자가 사이트 트래픽을 초래하는 키워드를 더 잘 이해할 수 있습니다. <br/>**학습한 내용을 바탕으로** 사용 중인 키워드와 사이트 트래픽을 유발하는 키워드 간의 SEO 격차를 파악하고 채우는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 검색 키워드 차원을 사용합니다."
 
@@ -1152,7 +1152,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchPaidKeywordRankedReport"
+>id="template--searchpaidkeywordrankedreport"
 >title="방문자가 사이트에 도달하는 데 사용하는 검색 키워드를 확인할 수 있으며, 이 키워드는 유료 검색 감지와 일치합니다."
 >abstract="**이를 통해** 검색에서 사용자가 사이트 트래픽을 초래하는 키워드를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사용 중인 키워드와 사이트 트래픽을 유발하는 키워드 간의 SEO 격차를 파악하고 채우는 등 다양한 작업을 수행할 수 있습니다. <br/>이 템플릿은 검색 키워드 - 유료 차원을 사용합니다. "
 
@@ -1161,7 +1161,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchNaturalKeywordRankedReport"
+>id="template--searchnaturalkeywordrankedreport"
 >title="방문자가 사이트에 도달하는 데 사용하는 검색 키워드를 확인할 수 있으며, 이 키워드는 유료 검색 감지와 일치하지 않습니다."
 >abstract="**이를 통해** 검색에서 사용자가 사이트 트래픽을 초래하는 키워드를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사용 중인 키워드와 사이트 트래픽을 유발하는 키워드 간의 SEO 격차를 파악하고 채우는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 검색 키워드 - 자연어 차원을 사용합니다. "
 
@@ -1170,7 +1170,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchRankedReport"
+>id="template--searchrankedreport"
 >title="유료 검색이든 자연어 검색이든, 방문자가 사이트에 접속하는 데 사용하는 검색 엔진을 확인할 수 있습니다."
 >abstract="**이를 통해**&#x200B;사용자가 사용 시 사이트 트래픽을 초래하는 검색 엔진을 더 잘 이해할 수 있습니다. <br/>**학습한 내용을 바탕으로** 사이트에 가장 많은 트래픽을 유도하는 검색 엔진에 SEO 작업을 집중하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 검색 엔진 차원을 사용합니다. "
 
@@ -1179,7 +1179,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchPaidRankedReport"
+>id="template--searchpaidrankedreport"
 >title="방문자가 사이트에 도달하는 데 사용하는 검색 엔진을 확인할 수 있으며, 이 키워드는 유료 검색 감지와 일치합니다."
 >abstract="**이를 통해**&#x200B;사용자가 사용 시 사이트 트래픽을 초래하는 검색 엔진을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사이트에 가장 많은 트래픽을 유도하는 검색 엔진에 SEO 작업을 집중하는 등 다양한 작업을 수행할 수 있습니다. <br/>이 템플릿은 검색 엔진 - 유료 차원을 사용합니다."
 
@@ -1188,7 +1188,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchNaturalRankedReport"
+>id="template--searchnaturalrankedreport"
 >title="방문자가 사이트에 도달하는 데 사용하는 검색 키워드를 확인할 수 있으며, 이 키워드는 유료 검색 감지와 일치하지 않습니다."
 >abstract="**이를 통해**&#x200B;사용자가 사용 시 사이트 트래픽을 초래하는 검색 엔진을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 사이트에 가장 많은 트래픽을 유도하는 검색 엔진에 SEO 작업을 집중하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 검색 엔진 - 자연어 차원을 사용합니다."
 
@@ -1197,7 +1197,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--referringDomainRankedReport"
+>id="template--referringdomainrankedreport"
 >title="사용자가 사이트에 액세스하기 위해 클릭하는 도메인을 확인할 수 있습니다."
 >abstract="**이를 통해** 트래픽이 가장 많이 발생하는 서드파티 사이트를 파악할 수 있습니다. (링크는 외부 사이트에 있어야 하며, 차원 항목을 표시하려면 방문자가 링크를 클릭해야 합니다.)<br/>**학습한 내용을 바탕으로** 최고 상위 참조 도메인에서 오는 방문자의 관심사에 더 잘 부합하는 콘텐츠를 만들거나 조정하는 등 다양한 작업을 수행할 수 있습니다. <br/>이 템플릿은 참조 도메인 차원을 사용합니다."
 
@@ -1206,7 +1206,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--referringDomainOriginalRankedReport"
+>id="template--referringdomainoriginalrankedreport"
 >title="사용자가 사이트에 도달하기 위해 클릭한 첫 번째 참조 도메인을 확인할 수 있습니다. (설정되면 해당 방문자 ID의 전체 라이프타임 동안 동일한 값을 포함합니다.)"
 >abstract="**이를 통해** 원래 사이트로 트래픽을 유도하는 서드파티 사이트를 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 최초 상위 참조 도메인에서 오는 방문자의 관심사에 더 잘 부합하도록 콘텐츠를 만들거나 조정하는 등 다양한 작업을 수행할 수 있습니다. <br/>이 템플릿은 최초 참조 도메인 차원을 사용합니다."
 
@@ -1215,7 +1215,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--referrerRankedReport"
+>id="template--referrerrankedreport"
 >title="방문자가 사이트에 접속하기 위해 클릭했던 URL을 확인할 수 있습니다. (링크는 외부 URL에 있어야 하며, 차원 항목을 표시하려면 방문자가 링크를 클릭해야 합니다.)"
 >abstract="**이를 통해** 사이트에 가장 많은 트래픽을 전송하는 특정 URL을 파악할 수 있습니다.<br/>**학습한 내용을 바탕으로** 상위 URL에서 오는 방문자의 관심사에 더 잘 부합하도록 콘텐츠를 만들거나 조정하는 등 다양한 작업을 수행할 수 있습니다. <br/>이 템플릿은 참조 도메인 차원을 사용합니다.</p>"
 
@@ -1224,7 +1224,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--referrerTypeRankedReport"
+>id="template--referrertyperankedreport"
 >title="방문자가 사이트에 접속하기 위해 클릭한 일반 채널을 확인할 수 있습니다. Adobe는 각 채널에 대한 규칙을 유지 관리합니다. 가능한 채널로는 검색 엔진, 소셜 네트워크, 다른 웹 사이트, 하드 드라이브 또는 이메일 등이 있습니다."
 >abstract="**이를 통해** 사이트에 가장 많은 트래픽을 유도하는 리퍼러 유형을 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 특정 채널에서 오는 방문자의 관심사에 더 잘 부합하도록 콘텐츠를 만들거나 조정하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 리퍼러 유형 차원을 사용합니다."
 
@@ -1262,7 +1262,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--mobileCarrierRankedReport"
+>id="template--mobilecarrierrankedreport"
 >title="사용자가 사이트에 액세스하는 데 사용하는 모바일 디바이스에 셀룰러 네트워크 연결을 제공하는 통신 회사를 확인할 수 있습니다."
 >abstract="**이를 통해** 사용자 사이에서 가장 인기 있는 이동통신사를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 다양한 통신사의 네트워크 기능을 기반으로 콘텐츠 게재를 맞춤화하여 원활한 사용자 경험을 보장하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 이동통신사 차원을 사용합니다."
 
@@ -1271,7 +1271,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--mobileDeviceNameRankedReport"
+>id="template--mobiledevicenamerankedreport"
 >title="사람들이 귀하의 사이트에 접속하는 데 사용하는 모바일 디바이스의 제조사와 모델을 확인할 수 있습니다."
 >abstract="**이를 통해** 사용자 사이에서 가장 인기 있는 모바일 디바이스를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 일반적인 모바일 디바이스에 맞게 사이트 렌더링을 최적화하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 모바일 디바이스 이름 차원을 사용합니다."
 
@@ -1280,7 +1280,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--mobileDeviceTypeRankedReport"
+>id="template--mobiledevicetyperankedreport"
 >title="휴대폰 및 태블릿과 같이 사용자가 사이트에 액세스하는 데 사용하는 모바일 디바이스 유형을 확인할 수 있습니다."
 >abstract="**이를 통해** 사이트에 액세스하는 데 사용되는 다양한 종류의 모바일 디바이스를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 가장 많이 사용되는 모바일 디바이스 유형에 맞게 사이트를 최적화하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 모바일 디바이스 유형 차원을 사용합니다."
 
@@ -1289,7 +1289,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--mobileManufacturerRankedReport"
+>id="template--mobilemanufacturerrankedreport"
 >title="Apple 및 삼성과 같이 사용자가 사이트에 액세스하는 데 사용하는 모바일 디바이스를 생산하는 제조업체를 확인할 수 있습니다."
 >abstract="**이를 통해** 사용자 사이에서 가장 인기 있는 제조업체를 더 잘 이해할 수 있습니다.<br/>**학습한 내용을 바탕으로** 다양한 제조업체의 기능을 기반으로 콘텐츠 게재를 맞춤화하여 원활한 사용자 경험을 보장하는 등 다양한 작업을 수행할 수 있습니다.<br/>이 템플릿은 모바일 디바이스 제조업체 차원을 사용합니다."
 
