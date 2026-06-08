@@ -3,7 +3,7 @@ description: Analysis Workspace에서 여정 캔버스 시각화를 사용하여
 title: 여정 캔버스 문제 해결
 feature: Visualizations
 role: User, Admin
-source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
+source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -17,8 +17,6 @@ ht-degree: 91%
 _이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 여정 캔버스 시각화를 설명합니다.<br/><br/>_&#x200B;자세한 내용은 [여정 캔버스 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)를 참조하십시오&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;버전._
 
 >[!ENDSHADEBOX]
-
-{{release-limited-testing}}
 
 여정 캔버스 시각화는 사용자와 고객에게 제공하는 여정을 분석하고 깊이 있는 인사이트를 얻을 수 있습니다.
 
