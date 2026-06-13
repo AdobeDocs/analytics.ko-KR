@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료를 찾아봅니다.
-source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
-workflow-type: ht
-source-wordcount: '221'
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+workflow-type: tm+mt
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
@@ -16,21 +16,6 @@ ht-degree: 100%
 
 + [Analytics 기술 노트](home.md)
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/ko/docs/analytics/release-notes/latest)
-+ Google Analytics 사용자를 위한 Adobe Analytics {#ga-to-aa}
-   + [Google Analytics 사용자를 위한 Adobe Analytics 도움말](ga-to-aa/home.md)
-   + [계정 및 보고서 세트](ga-to-aa/accounts.md)
-   + [보고서 보기 사용자 정의](ga-to-aa/customization.md)
-   + Google Analytics 보고서 {#reports}
-      + [GA 사용자를 위한 Analysis Workspace에서 기본 보고서 만들기](ga-to-aa/reports/create-report.md)
-      + [다른 Analytics 플랫폼에 사용되는 일반적인 지표](ga-to-aa/reports/common-metrics.md)
-      + [실시간](ga-to-aa/reports/realtime-reports.md)
-      + [대상자](ga-to-aa/reports/audience-reports.md)
-      + [획득](ga-to-aa/reports/acquisition-reports.md)
-      + [비헤이비어](ga-to-aa/reports/behavior-reports.md)
-      + [전환](ga-to-aa/reports/conversions-reports.md)
-   + [자주 묻는 질문](ga-to-aa/faq.md)
-   + [플랫폼 간의 처리 차이점](ga-to-aa/processing-differences.md)
-   + [데이터와 서드파티 제품 비교](ga-to-aa/compare-data.md)
 + [AI 트래픽 분석](/help/technotes/ai-traffic.md)
 + 이벤트의 영향을 받는 데이터 분석 {#event}
    + [이벤트 개요의 영향을 받는 데이터 분석](event/overview.md)
