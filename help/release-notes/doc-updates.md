@@ -31,10 +31,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
 workflow-type: tm+mt
-source-wordcount: 7326
-ht-degree: 95%
+source-wordcount: 7375
+ht-degree: 94%
 
 ---
 
@@ -51,6 +51,8 @@ ht-degree: 95%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2026년 6월** | |
+| GA를 AA 안내서로 대체함 | GA에서 AA로의 안내는 2023년에 종료되었던 Universal Analytics를 참조하였다. 새 가이드가 대체되었습니다. [Google Analytics 4에서 Customer Journey Analytics으로 전환](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **2026년 5월** | |
 | Streaming Media 차원 및 지표 | 스트리밍 미디어 설명서에 대한 중요 업데이트. 예제 링크에는 [Streaming Media 서비스 핵심 차원](/help/components/dimensions/sm-core.md) 및 [Streaming Media 서비스 핵심 지표](/help/components/metrics/sm-core.md)가 포함됩니다. |
 | **2026년 3월** | |
