@@ -25,25 +25,25 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1365
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보 (2026년 5월)
+# 최신 Adobe Analytics 릴리스 정보(2026년 5월)
 
 **마지막 업데이트**: 2026년 5월 13일
 
-이 릴리스 정보는 2026년 5월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보에는 2026년 5월 릴리스 기간이 포함됩니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
-| **Adobe Analytics용 MCP 서버** <br/>Analytics MCP(Model Context Protocol) 서버를 사용하면 지원되는 MCP 클라이언트를 Adobe Analytics에 연결할 수 있습니다. 연결되면 MCP 클라이언트는 제품별 도구를 호출하여 데이터를 검색하거나 쿼리를 실행하거나 LLM 또는 에이전트 워크플로우의 일부로 지원되는 작업을 수행할 수 있습니다. 자세한 내용은 [Analytics MCP 서버](https://developer.adobe.com/analytics-mcp/docs/)를 참조하십시오.<p>Beta 기간 동안 이러한 MCP 서버를 사용한 경우 Beta와 프로덕션 엔드포인트 간에 서로 다른 URL이 있습니다. 베타 기간 동안 만들어진 모든 에이전트 워크플로가 5월 31일 이전에 프로덕션 끝점을 사용하도록 업데이트되었는지 확인하십시오.</p> | | 2026년 5월 5일 |
-| **Adobe Analytics의 여정 캔버스** <br/>여정 캔버스는 Analysis Workspace의 시각화로서, 사용자가 여정을 통해 진행하거나 폴아웃하는 방법을 분석하여 정의된 사용자 여정에 대한 심도 있는 통찰력을 얻을 수 있습니다. 여정에 포함된 이벤트, 차원 항목 및 세그먼트의 조합을 나타내는 노드 및 화살표의 유연한 그래프를 생성할 수 있습니다. 노드를 캔버스로 드래그하거나 여정의 이벤트 및 조건을 재배열하면 데이터가 업데이트됩니다.<p>여정 캔버스는 이전에는 Customer Journey Analytics에서만 사용할 수 있었습니다.</p><p>Adobe Analytics의 여정 캔버스에 대한 자세한 내용은 [여정 캔버스 개요](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)를 참조하세요. </p><p>Adobe Analytics에서 여정 캔버스 시각화를 만드는 방법에 대해 알아보려면 [여정 캔버스 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하세요.</p> | 2026년 5월 18일 | 2026년 6월 5일 |
-| **속성 모델 API 보고 가이드** <br/>새로운 Adobe Analytics 2.0 API 속성 모델 보고서 가이드를 사용할 수 있습니다. 이 안내서에서는 Dimension API 보고서에 속성 모델 개체 데이터를 포함하는 방법을 다룹니다.<p>자세한 내용은 [Dimension API 속성 모델](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel)을 참조하십시오.</p> | | 2026년 5월 |
+| **Adobe Analytics용 MCP 서버** <br/>Analytics MCP(Model Context Protocol) 서버를 사용하면 지원되는 MCP 클라이언트를 Adobe Analytics에 연결할 수 있습니다. 연결되면 MCP 클라이언트는 LLM 또는 에이전틱 워크플로의 일부로 제품별 도구를 호출하여 데이터를 검색하거나 쿼리를 실행하거나 지원되는 작업을 수행할 수 있습니다. 자세한 내용은 [Analytics MCP 서버](https://developer.adobe.com/analytics-mcp/docs/)를 참조하십시오.<p>Beta 기간 동안 이 MCP 서버를 사용한 경우 Beta와 프로덕션 엔드포인트 간에 서로 다른 URL이 있습니다. Beta 기간 동안 만들어진 모든 에이전틱 워크플로가 5월 31일 이전에 프로덕션 엔드포인트를 사용하도록 업데이트되었는지 확인합니다.</p> | | 2026년 5월 5일 |
+| **Adobe Analytics의 여정 캔버스** <br/>여정 캔버스는 Analysis Workspace에서 정의된 사용자 여정에 대한 심층적인 인사이트를 얻을 수 있도록 해 주는 시각화 도구입니다. 사용자가 여정을 진행하거나 이탈하는 방식을 분석할 수 있습니다. 여정에 포함된 이벤트, 차원 항목 및 세그먼트의 조합을 나타내는 노드 및 화살표의 유연한 그래프를 생성할 수 있습니다. 노드를 캔버스로 드래그하거나 여정의 이벤트와 조건을 재배열할 때 데이터가 업데이트됩니다.<p>여정 캔버스는 이전에는 Customer Journey Analytics에만 사용할 수 있었습니다.</p><p>Adobe Analytics의 여정 캔버스에 대해 자세히 알아보려면 [여정 캔버스 개요](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)를 참조하십시오. </p><p>Adobe Analytics의 여정 캔버스 시각화를 빌드하는 방법에 대해 알아보려면 [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오.</p> | 2026년 5월 18일 | 2026년 6월 5일 |
+| **속성 모델 API 보고 안내서** <br/>새로운 Adobe Analytics 2.0 API 속성 모델 보고서 안내서를 사용할 수 있습니다. 이 안내서에서는 차원 API 보고서에 속성 모델 오브젝트 데이터를 포함하는 방법을 다룹니다.<p>자세한 내용은 [차원 API 속성 모델](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel)을 참조하십시오.</p> | | 2026년 5월 |
 | **스트리밍 미디어 서비스: 일정 데이터 지원** <br/>이제 과거 라이브 스트리밍 미디어 콘텐츠의 예약된 데이터를 업로드하여 시청자 수를 보다 쉽고 정확하게 추적할 수 있습니다.<p>다음은 일정 데이터 업로드가 지원되는 라이브 콘텐츠의 예입니다.</p><ul><li>FAST(무료 광고 지원 TV) 플랫폼</li><li>로컬 스트림</li><li>라이브 스포츠</li></ul><p>일정 데이터를 업로드하면 업로드 파일에서 지정한 시간 동안 실행된 개별 프로그램의 시청자 수 데이터를 추적할 수 있습니다. 특정 주제나 프로그램 세그먼트에 대한 시청자 수 데이터를 수집할 수도 있습니다.</p><p>이러한 기능은 스트리밍 미디어 컬렉션을 어떻게 구현하든 관계없이 사용할 수 있습니다.</p><p>이전에는 라이브 콘텐츠를 분석할 때 주어진 세션을 특정 프로그램에 정확하게 연결하는 것이 어려웠고, 주어진 세션을 개별 주제나 프로그램 세그먼트에 연결하는 것도 불가능했습니다.</p><p>자세한 내용은 [라이브 콘텐츠를 추적할 일정 데이터 업로드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-use-cases/track-schedule-data)를 참조하십시오.</p> | 2025년 10월 29일 | 2026년 상반기<p>(원래 2025년 10월 29일 릴리스로 계획됨)</p> |
 
 {style="table-layout:auto"}
@@ -51,16 +51,16 @@ ht-degree: 60%
 ## Adobe Analytics의 수정 사항
 
 **Activity Map**:
-**Analysis Workspace**: AN-446522, AN-445779, AN-445759, AN-444676, AN-442813, AN-441943, AN-441717, AN-441538, AN-441123, AN-440976, AN-440952, AN-440919, AN-440599, AN-439797, AN-434855, AN-429777, AN-429048, AN-428892, AN-428189 425215
-**분류**: AN-447743, AN-447296, AN-447130, AN-446552, AN-446324, AN-446040, AN-445841, AN-445753, AN-444992, AN-444979, AN-444428, AN-444332, AN-443507, AN-442906, AN-442232, AN-442207, AN-442133, AN-442035, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441267, AN-441132, AN-441085, AN-441048, AN-440846, an-440727, an-440716, an 440496, AN-440429 432100
+**Analysis Workspace**: AN-446522, AN-445779, AN-445759, AN-444676, AN-442813, AN-441943, AN-441717, AN-441538, AN-441123, AN-440976, AN-440952, AN-440919, AN-440599, AN-439797, AN-434855, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
+**분류**: AN-447743, AN-447296, AN-447130, AN-446552, AN-446324, AN-446040, AN-445841, AN-445753, AN-444992, AN-444979, AN-444428, AN-444332, AN-443507, AN-442906, AN-442232, AN-442207, AN-442133, AN-442035, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441267, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440496, AN-440429, AN-432100
 **데이터 피드 및 Data Warehouse**: AN-447344, AN-446654, AN-445126, AN-444492, AN-442802, AN-442211, AN-442048, AN-441719, AN-441534, AN-441300, AN-441183, AN-441011, AN-440625
 **마이그레이션**: AN-442467, AN-440380, AN-440357
 **내보내기**:
 **Report Builder**: AN-448697, AN-447128, AN-441148, AN-441136, AN-438147, AN-425150
-**보고**: AN-445123, AN-444869, AN-443453, AN-443275, AN-443148, AN-442464, AN-442148, AN-441811, AN-441506, AN-441149, AN-441119, AN-440545, AN-440511, AN-440300, AN-431409, AN-423359 406242
+**보고**: AN-445123, AN-444869, AN-443453, AN-443275, AN-443148, AN-442464, AN-442148, AN-441811, AN-441506, AN-441149, AN-441119, AN-440545, AN-440511, AN-440300, AN-431409, AN-423359, AN-406242
 **보고서 세트**:
 **예약된 보고서**:
-**세그먼테이션**:
+**세분화**:
 **기타**: AN-449159, AN-444661, AN-439429, AN-439423, AN-430988, AN-397985
 
 
@@ -83,6 +83,6 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 ## 관련 리소스
 
 * [2025년 이전 릴리스 정보](/help/release-notes/2025.md)
-* [Customer Journey Analytics 릴리스 노트](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
+* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
 * [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/ko/docs/media-analytics/using/release-notes/release-notes)
-* [Adobe CX 엔터프라이즈 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
+* [Adobe CX Enterprise 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
