@@ -58,7 +58,7 @@ ht-degree: 69%
    1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
    1. `trackingServer` 변수 값을 확인합니다.
 
-* [Adobe CX Enterprise Debugger 사용](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
+* [Adobe CX Enterprise Debugger 사용](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ko):
    1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
    1. CX 엔터프라이즈 디버거를 연 다음 [!UICONTROL 네트워크 탭]&#x200B;(으)로 이동합니다.
    1. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
