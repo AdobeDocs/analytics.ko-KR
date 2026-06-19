@@ -1,133 +1,89 @@
 ---
 title: Data Warehouse의 구성 요소 지원
-description: Data Warehouse에서 사용할 수 있는 추가 차원 및 지표와 지원되지 않는 항목을 알아봅니다.
+description: Data Warehouse 요청을 작성할 때 사용할 수 있는 차원 및 지표, 사용할 수 없는 차원 및 동작 방식을 알아봅니다.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 TQID: https://experienceleague.adobe.com/NhSEyPN3093B9M0SngJluJdZScI2lXvRyHkXQd8gg-4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 580
-ht-degree: 47%
+source-wordcount: 362
+ht-degree: 11%
 
 ---
 
 # Data Warehouse의 구성 요소 지원
 
-Data Warehouse 아키텍처의 고유한 처리를 통해 Adobe Analytics의 다른 기능에서 일반적으로 사용할 수 없는 일부 구성 요소를 사용할 수 있습니다. 고유한 아키텍처로 인해 일부 구성 요소는 보고서나 세그먼트에서 사용할 수 없습니다. 이 페이지에서 사용할 수 있는 것과 사용할 수 없는 것을 파악합니다.
+이 페이지에서는 Data Warehouse 요청을 작성할 때 사용할 수 있는 차원 및 지표에 대해 설명합니다. 섹션에는 사용 가능한 구성 요소, 사용할 수 없는 구성 요소 및 다른 Adobe Analytics 도구에서와 다르게 작동하는 구성 요소가 포함됩니다.
 
-## Data Warehouse에 고유한 구성 요소
+## Data Warehouse 전용 차원
 
-Data Warehouse에서 사용할 수 있는 일부 차원 및 지표는 Adobe Analytics의 다른 기능을 사용할 때 사용할 수 없습니다.
+다음 차원은 Data Warehouse에서 사용할 수 있지만 다른 Adobe Analytics 기능에서는 사용할 수 없습니다.
 
-### 전용 차원 지원
+* [[!UICONTROL Experience Cloud 방문자 ID]](/help/components/dimensions/experience-cloud-visitor-id.md)
+* [[!UICONTROL IP 주소]](/help/components/dimensions/ip-address.md)
+* [[!UICONTROL 페이지 URL]](/help/components/dimensions/page-url.md)
+* [[!UICONTROL 구매 ID]](/help/components/dimensions/purchase-id.md)
+* [[!UICONTROL 방문자 ID]](/help/components/dimensions/visitor-id.md)
 
-* **Experience Cloud ID**: ECID(Experience Cloud ID Service)를 사용하는 구현의 경우 연결된 두 개의 64비트 숫자로 구성된 128비트 숫자를 19자리로 채워줍니다.
-* **페이지 URL**: 히트가 발생한 페이지 URL.
-* **구매 ID**: purchaseID 변수를 사용하여 설정한 구매에 대한 고유 식별자입니다.
-* **방문자 ID**: 방문자에 대한 고유 식별자를 제공합니다. 이 값은 데이터 피드에서 `visid_high` 및 `visid_low` 열의 연결된 값과 동일합니다. 자세한 내용은 데이터 피드 아래의 [데이터 열 참조](../analytics-data-feed/c-df-contents/datafeeds-reference.md)를 참조하십시오.
+## 차원이 지원되지 않음
 
-### 전용 지원 지표
+Data Warehouse 보고서 또는 세그먼트에서는 다음 차원을 사용할 수 없습니다.
 
-* **방문 횟수**: Data Warehouse 컨텍스트에서 이 지표는 비영구 쿠키 방문 횟수를 제외합니다.
-* **방문 횟수 - 모든 방문자 수**: Data Warehouse 컨텍스트에서 이 지표는 Adobe Analytics 내의 다른 도구에 있는 방문 횟수 지표와 더 가깝게 일치합니다.
+* [[!UICONTROL 오전/오후]](/help/components/dimensions/am-pm.md)
+* 허용되는 [[!UICONTROL 시작 페이지]](/help/components/dimensions/entry-dimensions.md) 및 [[!UICONTROL 원래 시작 페이지]](/help/components/dimensions/entry-dimensions.md)을 제외한 모든 시작 차원
+* 허용되는 [[!UICONTROL 종료 페이지]](/help/components/dimensions/exit-dimensions.md) 및 [[!UICONTROL 종료 링크]](/help/components/dimensions/exit-link.md)를 제외한 모든 종료 차원
+* [[!UICONTROL 히트 깊이]](/help/components/dimensions/hit-depth.md)
+* [[!UICONTROL 반환 빈도]](/help/components/dimensions/return-frequency.md)
+* [[!UICONTROL 이벤트까지 남은 시간]](/help/components/dimensions/time-prior-to-event.md)
+* [[!UICONTROL 페이지 체류 시간 - 그룹화됨]](/help/components/dimensions/time-spent-on-page.md)
+* [[!UICONTROL 방문당 체류 시간 - 그룹화됨]](/help/components/dimensions/time-spent-per-visit.md)
+* [[!UICONTROL 모든 검색 페이지 등급]](/help/components/dimensions/all-search-page-rank.md)
+* [[!UICONTROL 계층]](/help/components/dimensions/overview.md#retired-dimensions) 변수
+* [[!UICONTROL 히트 유형]](/help/components/dimensions/hit-type.md)
+* [[!UICONTROL 유료 검색]](/help/components/dimensions/paid-search.md)
+* [[!UICONTROL 단일 페이지 방문 횟수]](/help/components/dimensions/single-page-visits.md)
+* [[!UICONTROL 옵트아웃 이유 추적]](/help/components/dimensions/tracking-opt-out-reason.md)
+* [[!UICONTROL 미국 주]](/help/components/dimensions/us-states.md)
 
-## Data Warehouse에서 지원되지 않는 구성 요소
+일부 차원은 Data Warehouse 요청에서 사용할 수 있지만 세그먼트 내에서 사용할 수는 없습니다. 자세한 내용은 [Data Warehouse 세그먼트 호환성](segment-compatibility.md)을 참조하십시오.
 
-일부 차원 및 지표는 Data Warehouse에서 지원되지 않습니다.
+## 비표준 날짜 서식이 있는 차원
 
->[!NOTE]
->
->차원 또는 지표가 Data Warehouse에서 지원되지 않는 경우 이러한 구성 요소를 사용하는 세그먼트도 지원되지 않습니다. 세그먼트를 만들거나 편집할 때 항상 제품 호환성을 확인하십시오.
+Data Warehouse 보고서에서는 다음 시간 기반 차원이 지원되지만 출력은 비표준 형식을 사용합니다.
 
-### 차원이 지원되지 않음
+* [[!UICONTROL 년]](/help/components/dimensions/year.md)
+* [[!UICONTROL 분기]](/help/components/dimensions/quarter.md)
+* [[!UICONTROL 월]](/help/components/dimensions/month.md)
+* [[!UICONTROL 주]](/help/components/dimensions/week.md)
+* [[!UICONTROL 일]](/help/components/dimensions/day.md)
+* [[!UICONTROL 시간]](/help/components/dimensions/hour.md)
+* [[!UICONTROL 분]](/help/components/dimensions/minute.md)
 
-* 오전/오후
-* 다음을 포함한 일부 경로 지정 기반 차원:
-   * 시작 페이지를 제외한 모든 시작 차원
-   * 종료 페이지 및 종료 링크를 제외한 모든 종료 차원
-   * 히트 깊이
-   * 반환 빈도
-   * 이벤트까지 남은 시간
-   * 페이지 체류 시간 - 버킷 지정됨
-   * 방문당 체류 시간 - 그룹화됨
-* 모든 검색 페이지 등급
-* 계층 변수
-* 히트 유형
-* 페이지를 찾을 수 없음(차원으로 사용 가능, 세그멘테이션을 지원하지 않음)
-* 유료 검색
-* 단일 페이지 방문 횟수
-* 옵트아웃 이유 추적
-* 미국 주
+날짜 값이 `1YYMMDDHHMM` 형식으로 출력됩니다.
 
-### 지표가 지원되지 않음
+* **연도(YY)**: 1900까지 오프셋합니다. 처음 세 자리 숫자에 `1900`을(를) 추가합니다. 예를 들어 `125` = **2025**&#x200B;입니다.
+* **개월**: 0부터 시작. 1월 = `00`, 2월 = `01`, ..., 12월 = `11`.
 
-* 다음을 포함한 일부 경로 지정 기반 지표:
-   * 바운스
-   * 항목
-   * 종료
-   * 다시 로드
-   * 단일 액세스
-   * 체류 시간 지표
-* 기여도 지표([기여도 지표 작성](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)에 설명되어 있음)
+예를 들어 날짜 범위 주 필드에 `1260901`이(가) 표시되면 연도는 1900 + 126 = **2026**&#x200B;이고 월은 09 = **10월**&#x200B;입니다.
 
-### 다른 방식으로 지원되는 차원 (비표준 날짜 형식)
+## Data Warehouse에서 다르게 정의된 지표
 
-지원되는 시간 기반 차원은 다음과 같습니다.
+* **[[!UICONTROL 방문 횟수]](/help/components/metrics/visits.md)**: 다른 Adobe Analytics 도구의 방문 횟수 지표와 달리 영구적이지 않은 쿠키 방문 횟수를 제외합니다.
+* **[[!UICONTROL 방문 횟수 - 모든 방문자 수]](/help/components/metrics/visits.md)**: 지속되지 않는 쿠키가 있는 방문자를 포함하여 모든 방문자를 계산하여 Adobe Analytics의 다른 곳에서 사용되는 표준 [!UICONTROL 방문 횟수] 지표와 거의 비슷하게 만듭니다.
 
-* 년
-* 분기
-* 월
-* 주
-* 일
-* 시간
-* 분
+## 지표가 지원되지 않음
 
-단, 이들 차원을 사용할 때 날짜 출력은 표준이 아닙니다.
+Data Warehouse에서는 다음 지표를 사용할 수 없습니다.
 
-Data Warehouse에서 날짜의 출력을 계산할 때에는 다음 사항을 고려하십시오.
-
-* 날짜 차원은 `1YYMMDDHHMM` 형식으로 표시됩니다.
-
-* 연도(YY)는 1900으로 오프셋됩니다. 즉, 날짜 필드의 처음 3개 값에 `1900`을(를) 추가합니다.
-
-  예를 들어 Data Warehouse의 날짜 범위 주 필드 값이 `1250901`이면 1900에서 125를 추가하고 2025년이 됩니다.
-
-* 모든 달은 0을 기준으로 하며 1월은 00, 2월은 01 등으로 표시됩니다.
-
-   * 00: 1월
-   * 01: 2월
-   * 02: 3월
-   * 03: 4월
-   * 04: 5월
-   * 5: 6월
-   * 06: 7월
-   * 07: 8월
-   * 8: 9월
-   * 09: 10월
-   * 10: 11월
-   * 11: 12월
-
-  예를 들어, Data Warehouse의 날짜 범위 주 필드 값이 `1250901`이면 월은 10월을 나타내는 09로 표시됩니다.
-
-
-
-
-## Data Warehouse에서 차원으로서의 세그먼트
-
-Data Warehouse에서 세그먼트를 차원으로 사용하면 보고서는 `"0"` 또는 `"1"`가 포함된 열을 반환합니다.
-
-* **`"0"`**: 차원 항목이 세그먼트의 기준을 충족하지 않았습니다.
-* **`"1"`**: 차원 항목이 세그먼트의 기준을 충족했습니다.
+* [[!UICONTROL 바운스]](/help/components/metrics/bounces.md)
+* [[!UICONTROL 진입]](/help/components/metrics/entries.md)
+* [[!UICONTROL 종료]](/help/components/metrics/exits.md)
+* [[!UICONTROL 다시 로드]](/help/components/metrics/reloads.md)
+* [[!UICONTROL 단일 액세스]](/help/components/metrics/single-access.md)
+* 모든 [[!UICONTROL 체류 시간]](/help/components/metrics/time-spent.md) 지표
+* [기여도](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md) 속성 모델을 사용하는 모든 지표

@@ -6,22 +6,15 @@ feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 15%
+source-wordcount: 723
+ht-degree: 14%
 
 ---
 
@@ -64,21 +57,21 @@ ht-degree: 15%
 | --- | --- | --- |
 | **eVar 1-250** | 읽기 + 쓰기 | [eVar](/help/components/dimensions/evar.md) 차원. |
 | **Campaign** | 읽기 + 쓰기 | [추적 코드](/help/components/dimensions/tracking-code.md) 차원. |
-| **구매 ID** | 읽기 + 쓰기 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 구현 변수. |
-| **주/도** | 읽기 + 쓰기 | (중단됨) [`state`](/help/implement/vars/page-vars/state.md) 구현 변수입니다. |
+| **구매 ID** | 읽기 + 쓰기 | [구매 ID](/help/components/dimensions/purchase-id.md) 차원. |
+| **주/도** | 읽기 + 쓰기 | (중단됨) [방문자 상태](/help/components/dimensions/overview.md#retired-dimensions) 차원입니다. |
 | **Zip** | 읽기 + 쓰기 | [우편번호](/help/components/dimensions/zip-code.md) 차원. |
 | **통화 코드** | 읽기 + 쓰기 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 구현 변수. 중요: 이 변수를 잘못된 값으로 설정하면 히트가 무시됩니다. |
 | **거래 ID** | 읽기 + 쓰기 | [`transactionID`](/help/import/data-sources/transactionid.md) 구현 변수. |
 
 >[!NOTE]
->Adobe에서는 처리 규칙을 사용하여 [`products`](/help/implement/vars/page-vars/products.md) 구현 변수를 설정할 수 없습니다.
+>Adobe에서는 처리 규칙을 사용하여 [Product](/help/components/dimensions/product.md) 차원을 설정할 수 없습니다.
 
 ## 트래픽 변수
 
 | 변수 | 읽기/쓰기 상태 | 설명 |
 | --- | --- | --- |
 | **Prop 1-75** | 읽기 + 쓰기 | [Prop](/help/components/dimensions/prop.md) 차원. |
-| **계층 구조 1-5** | 읽기 + 쓰기 | (중단됨) [계층](/help/components/dimensions/hierarchy.md) 차원. |
+| **계층 구조 1-5** | 읽기 + 쓰기 | (중단됨) [계층](/help/components/dimensions/overview.md#retired-dimensions) 차원. |
 | **서버** | 읽기 + 쓰기 | [서버](/help/components/dimensions/server.md) 차원. |
 | **Channel** | 읽기 + 쓰기 | [사이트 섹션](/help/components/dimensions/site-section.md) 차원. |
 

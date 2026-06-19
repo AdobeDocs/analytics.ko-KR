@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 98%
+source-wordcount: '774'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
    + [모든 검색 페이지 등급](dimensions/all-search-page-rank.md)
    + [AMO ID](dimensions/amo-id.md)
    + [AMO EF ID](dimensions/amo-ef-id.md)
-   + [AMO 메타 광고 클릭 ID](dimensions/amo-meta-id.md)
+   + [AMO Meta 광고 클릭 ID](dimensions/amo-meta-id.md)
    + [오전/오후](dimensions/am-pm.md)
    + [봇 이름](dimensions/bot-name.md)
    + [브라우저 높이](dimensions/browser-height.md)
@@ -59,14 +59,15 @@ ht-degree: 98%
    + [eVar (머천다이징)](dimensions/evar-merchandising.md)
    + [종료 차원](dimensions/exit-dimensions.md)
    + [종료 링크](dimensions/exit-link.md)
+   + [Experience Cloud 방문자 ID](dimensions/experience-cloud-visitor-id.md)
    + [첫 번째 터치 채널](dimensions/first-touch-channel.md)
    + [첫 번째 터치 채널 세부 사항](dimensions/first-touch-detail.md)
-   + [계층](dimensions/hierarchy.md)
    + [히트 깊이](dimensions/hit-depth.md)
    + [히트 유형](dimensions/hit-type.md)
    + [시간 (일 기준)](dimensions/hour-of-day.md)
    + [시간](dimensions/hour.md)
    + [확인된 상태](dimensions/identified-state.md)
+   + [IP 주소](dimensions/ip-address.md)
    + [Java 활성화](dimensions/java-enabled.md)
    + [언어](dimensions/language.md)
    + [마지막 터치 채널](dimensions/last-touch-channel.md)
@@ -89,6 +90,7 @@ ht-degree: 98%
    + [영구적 쿠키 지원](dimensions/persistent-cookie-support.md)
    + [제품](dimensions/product.md)
    + [Prop](dimensions/prop.md)
+   + [구매 ID](dimensions/purchase-id.md)
    + [사분기](dimensions/quarter-of-year.md)
    + [분기](dimensions/quarter.md)
    + [리퍼러 유형](dimensions/referrer-type.md)
@@ -117,6 +119,7 @@ ht-degree: 98%
    + [음성 차원](dimensions/voice-dimensions.md)
    + [방문 깊이](dimensions/visit-depth.md)
    + [방문 횟수](dimensions/visit-number.md)
+   + [방문자 ID](dimensions/visitor-id.md)
    + [주](dimensions/week.md)
    + [평일/주말](dimensions/weekday-weekend.md)
    + [년](dimensions/year.md)
@@ -201,7 +204,6 @@ ht-degree: 98%
       + [세그먼트 사용](segmentation/segmentation-workflow/t-seg-apply.md)
    + 참조 {#segment-reference}
       + [연산자](segmentation/seg-reference/seg-operators.md)
-      + [Data Warehouse 세그먼트 호환성](segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
    + [이전 세그먼트 FAQ](segmentation/seg-transition.md)
