@@ -3,11 +3,9 @@ title: 하위 히트 분석
 description: 하위 히트 분석을 통해 Adobe Analytics의 히트 내에서 개별 제품을 필터링하여 제품 보고서에서 속성 출혈을 제거하는 방법에 대해 알아봅니다.
 feature: Segmentation
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 68469e0359deed0d642b1d00d55259c33c410fd4
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -28,7 +26,7 @@ Adobe Analytics에서 [제품 변수](/help/components/dimensions/product.md)은
 
 남성 범주의 온라인 매출만 측정하려 합니다. 하위 히트 분석이 없으면 Men에 대한 세그먼트를 적용하면 Men 카테고리가 있는 제품이 하나 이상 포함된 주문(히트)에 있는 모든 제품의 수익이 포함됩니다. 하위 히트 분석을 사용하면 필터를 제품 수준으로 확장하고 Men 카테고리의 제품에 대한 매출만 반환합니다.
 
-또한 남성 범주를 제외한 다른 모든 범주의 온라인 수익을 측정하려 합니다.
+또한 남성 범주를 제외한 다른 모든 범주의 온라인 매출을 측정하려고 합니다.
 
 >[!BEGINTABS]
 
