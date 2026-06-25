@@ -3,11 +3,9 @@ title: 하위 히트 분석
 description: 하위 히트 분석을 통해 Adobe Analytics의 히트 내에서 개별 제품을 필터링하여 제품 보고서에서 속성 출혈을 제거하는 방법에 대해 알아봅니다.
 feature: Segmentation
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: f56d4b675d55608d4049fcebaf2de549aca40a5c
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -17,7 +15,6 @@ ht-degree: 0%
 # 하위 히트 분석
 
 하위 히트 분석을 사용하면 히트 수준보다 더 세분화된 수준에서 제품 데이터를 분석할 수 있습니다. 전체 히트에 대해 필터링하는 대신 히트 내의 개별 제품에 대해 세그먼트화할 수 있습니다. 예를 들어 동일한 순서로 구매한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리로 세그먼트화할 수 있습니다.
-
 
 Adobe Analytics에서 [제품 변수](/help/components/dimensions/product.md)은(는) 하나의 히트에서 여러 제품을 캡처할 수 있습니다. 하위 히트 분석이 없으면 제품 속성에 대해 세그먼트화하면 히트 내의 모든 제품이 제품 속성과 일치하는 모든 히트가 반환됩니다. 그 결과가 잘못된 속성 및 부풀려진 매출 지표입니다. 하위 히트 분석은 필터를 히트 내의 개별 제품 행으로 범위를 지정하고 이러한 문제를 해결합니다.
 
