@@ -5,23 +5,15 @@ feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
 TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 39%
+source-wordcount: 887
+ht-degree: 42%
 
 ---
 
@@ -39,8 +31,7 @@ Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호
 
 ## 사전 요구 사항 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **권한:** 서버 호출 사용량 대시보드와 경고 빌더 또는 경고 관리자에 액세스하려면 Adobe Analytics 관리자여야 합니다.
-* **권한:** 관리자는 관리자가 아닌 사용자에게 액세스 권한을 부여할 수 있습니다. 이 권한을 **[!UICONTROL 서버 호출 사용량]**&#x200B;이라고 합니다. [서버 호출 사용 권한](#server-call-usage-permission)을 참조하세요.
+* **권한:** Adobe Analytics 관리자 액세스 권한 또는 Adobe Admin Console의 [서버 호출 사용량](/help/admin/admin-console/permissions/analytics-tools.md) 권한 항목이 있어야 합니다. 관리자는 제품 프로필을 통해 관리자가 아닌 사용자에게 이 권한 항목을 할당할 수 있습니다.
 
 ## 중요한 용어 {#terminology}
 
@@ -70,7 +61,7 @@ Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>참고: 청구 회사 내의 <u>모든</u> 보고서 세트에 대한 서버 호출 사용량 데이터는 해당 <a href="/help/admin/tools/server-call-usage/overage-overview.md">권한</a>이 있는 모든 사용자가 볼 수 있습니다. </p> </td> 
+    </ul> <p>참고: 청구 회사 내의 <u>모든</u> 보고서 세트에 대한 서버 호출 사용량 데이터는 해당 <a href="/help/admin/admin-console/permissions/analytics-tools.md">권한</a>이 있는 모든 사용자가 볼 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CX 엔터프라이즈 조직 </p> </td> 
@@ -87,40 +78,6 @@ Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호
   <tr> 
    <td colname="col1"> <p>계약 기간 </p> </td> 
    <td colname="col2"> <p>계약 기간은 여러 해를 넘길 수 있습니다. 예를 들어 귀사에서 3년 계약 기간 동안 600만 번의 호출을 약속하는 서버 호출을 보유하고 있다고 가정해 보겠습니다. 서버 호출 사용량을 모니터링하기 위해 이 3년을 더 작은 사용 기간으로 구분하면 연차별로 쉽게 비교할 수 있습니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## 서버 호출 사용량 권한 {#permission}
-
-서버 호출 사용량 권한은 Analytics 관리자에게 자동으로 부여됩니다. 대시보드를 보고 서버 호출 경고를 만들 수 있습니다. 관리자는 관리자가 아닌 사용자에게 이 권한을 부여하도록 선택할 수 있습니다.
-
->[!NOTE]
->
->귀사는 서버 호출 사용량에 접근할 수 있는 로그인 회사를 선택할 수 있습니다.
-
-<table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 권한 이름 </th> 
-   <th colname="col3" class="entry"> Adobe Analytics (기존 로그인)에 로그인한 경우 권한 부여 </th> 
-   <th colname="col4" class="entry"> Adobe CX Enterprise에 로그인한 경우 권한 부여 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>서버 호출 사용량 </p> </td> 
-   <td colname="col3"> 
-    <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
-     <li id="li_ACDA518C7D184084AC1DFA7B38C67314">sc.omniture.com을 통해 Analytics에 로그인합니다. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A"><span class="ignoretag"> <span class="uicontrol"> 관리자 </span> &gt; <span class="uicontrol"> 모든 관리자 </span> &gt; <span class="uicontrol"> 사용자 관리 </span> &gt; <span class="uicontrol"> 그룹 </span> &gt; <span class="uicontrol"> 모든 보고서 액세스 편집 </span> &gt; <span class="uicontrol"> Analytics 도구 </span> &gt; <span class="uicontrol"> 사용자 지정 </span> &gt; <span class="uicontrol"> 서버 호출 사용량 </span> </span>(으)로 이동합니다. </li> 
-    </ol> </td> 
-   <td colname="col4"> 
-    <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">login.experiencecloud.adobe.com에 로그인합니다.</li> 
-     <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9"><span class="uicontrol">Analytics</span>를 클릭합니다. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF"><span class="ignoretag"> <span class="uicontrol"> 제품 </span> &gt; <span class="uicontrol"> 제품 프로필 </span> &gt; <span class="uicontrol"> 권한 </span> &gt; <span class="uicontrol"> Analytics 도구 </span> &gt; <span class="uicontrol"> 서버 호출 사용량 </span> </span>(으)로 이동합니다. </li> 
-    </ol> </td> 
   </tr> 
  </tbody> 
 </table>
