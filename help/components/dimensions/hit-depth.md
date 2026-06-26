@@ -4,30 +4,21 @@ description: 방문의 히트 수입니다.
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
 TQID: https://experienceleague.adobe.com/dH1ItdXZTw9vcqvej3VOQDM-J9FFA38f4bq8HTJbKMo
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 262
-ht-degree: 94%
+source-wordcount: 314
+ht-degree: 74%
 
 ---
 
 # 히트 깊이
 
-&#39;히트 깊이&#39; [차원](overview.md)은(는) 주어진 히트가 방문까지 얼마나 진행되었는지 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 중요합니다. 히트 깊이는 페이지 보기 ([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트 ([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
+&#39;히트 깊이&#39; [차원](overview.md)은(는) 주어진 히트가 방문까지 얼마나 진행되었는지 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 중요합니다. 히트 깊이는 페이지 보기([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
 
 ## 이 차원을 데이터로 채우기
 
@@ -36,6 +27,10 @@ ht-degree: 94%
 ## 차원 항목
 
 차원 항목에는 문자열 `"Hit Depth"`가 포함되며 그 뒤에는 방문까지의 히트 수를 나타내는 숫자가 옵니다. `"Hit Depth 1"`이라는 차원 항목은 방문의 첫 번째 히트를 나타내고 차원 항목 `"Hit Depth 8"`은 방문의 8번째 히트를 나타냅니다.
+
+>[!NOTE]
+>
+>Adobe Analytics은 두 번째 수준 정밀도에서만 타임스탬프를 기록합니다. 동일한 타임스탬프를 두 번째로 공유하는 히트의 경우 Adobe은 보고에 반영된 순서가 히트가 발생한 순서와 동일하다고 보장할 수 없습니다. 밀리초 수준의 정밀도가 조직의 우선 순위인 경우 Customer Journey Analytics 사용을 고려해 보십시오.
 
 ## 방문 깊이와 비교
 
