@@ -18,16 +18,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 262
-ht-degree: 94%
+source-wordcount: 314
+ht-degree: 74%
 
 ---
 
 # 히트 깊이
 
-&#39;히트 깊이&#39; [차원](overview.md)은(는) 주어진 히트가 방문까지 얼마나 진행되었는지 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 중요합니다. 히트 깊이는 페이지 보기 ([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트 ([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
+&#39;히트 깊이&#39; [차원](overview.md)은(는) 주어진 히트가 방문까지 얼마나 진행되었는지 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 중요합니다. 히트 깊이는 페이지 보기([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
 
 ## 이 차원을 데이터로 채우기
 
@@ -36,6 +36,10 @@ ht-degree: 94%
 ## 차원 항목
 
 차원 항목에는 문자열 `"Hit Depth"`가 포함되며 그 뒤에는 방문까지의 히트 수를 나타내는 숫자가 옵니다. `"Hit Depth 1"`이라는 차원 항목은 방문의 첫 번째 히트를 나타내고 차원 항목 `"Hit Depth 8"`은 방문의 8번째 히트를 나타냅니다.
+
+>[!NOTE]
+>
+>Adobe Analytics은 두 번째 수준 정밀도에서만 타임스탬프를 기록합니다. 동일한 타임스탬프를 두 번째로 공유하는 히트의 경우 Adobe은 보고에 반영된 순서가 히트가 발생한 순서와 동일하다고 보장할 수 없습니다. 밀리초 수준의 정밀도가 조직의 우선 순위인 경우 Customer Journey Analytics 사용을 고려해 보십시오.
 
 ## 방문 깊이와 비교
 
