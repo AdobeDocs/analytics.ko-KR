@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 273
-ht-degree: 87%
+source-wordcount: 295
+ht-degree: 81%
 
 ---
 
@@ -36,6 +36,10 @@ console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${scre
 ```
 
 브라우저 높이는 브라우저 탐색 영역이나 테두리가 포함되지 않으므로 항상 화면 높이보다 작거나 같습니다.
+
+>[!NOTE]
+>
+>Data Warehouse은 또한 값을 사전 정의된 버킷으로 그룹화하는 대신 정확한 픽셀 높이를 보고하는 &#39;[!UICONTROL 브라우저 높이 - 세부기간]&#39; 차원을 제공합니다.
 
 ## 이 차원을 데이터로 채우기
 

@@ -20,7 +20,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 8%
@@ -51,12 +51,12 @@ ht-degree: 8%
 * **`contextData.key`**: [컨텍스트 데이터 변수](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: Experience Cloud ID 서비스 변수. `id`, `authState`및 `isMCSeed`를 포함합니다.
 * **`hints`**: [클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko) 변수. `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` 및 `wow64`을(를) 포함합니다.
-* **`ipaddress`**: 방문자의 IP 주소입니다.
+* **`ipaddress`**: [IP 주소](/help/components/dimensions/ip-address.md) 차원.
 * **`language`**: [언어](/help/components/dimensions/language.md) 차원.
 * **`list1`** - **`list3`**: [목록 변수](/help/implement/vars/page-vars/list.md).
 * **`marketingCloudVisitorID`**: 방문자의 Experience Cloud ID.
 * **`tnta`**: [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko) 통합에 사용되는 Target 데이터 페이로드입니다.
-* **`trackingServer`**: [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 변수입니다.
+* **`trackingServer`**: [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md) 변수입니다.
 * **`transactionID`**: [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 변수입니다.
 * **`userAgent`**: 장치의 사용자 에이전트 문자열입니다.
 

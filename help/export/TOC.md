@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드와 Data Warehouse를 사용해 데이터 출력을 검색하는 방법에 대해 알아봅니다.
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '271'
 ht-degree: 94%
 
 ---
@@ -49,6 +49,7 @@ ht-degree: 94%
    + [지표로 정렬](data-warehouse/sorting-by-metric.md)
    + [Data Warehouse 요청 관리](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse에서 지원되는 구성 요소](data-warehouse/component-support.md)
+   + [Data Warehouse 세그먼트 호환성](data-warehouse/segment-compatibility.md)
    + [Data Warehouse 모범 사례](data-warehouse/data-warehouse-bp.md)
 + FTP 및 SFTP {#ftp-and-sftp}
    + [Adobe CX Enterprise와 FTP 및 SFTP 사용](ftp-and-sftp/ftp-overview.md)

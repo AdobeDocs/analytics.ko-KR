@@ -20,16 +20,20 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 141
-ht-degree: 54%
+source-wordcount: 162
+ht-degree: 47%
 
 ---
 
 # 도메인
 
 &#39;도메인&#39; [차원](overview.md)은(는) 방문자가 인터넷에 액세스하는 데 사용하는 액세스 지점을 보고합니다.
+
+>[!NOTE]
+>
+>Data Warehouse에는 유사한 정보를 보고하는 중단된 &#39;[!UICONTROL 도메인]&#39;(plural) 차원이 포함되어 있습니다. Adobe에서는 일관성을 위해 &#39;[!UICONTROL 도메인]&#39;(단일) 차원을 사용하는 것이 좋습니다.
 
 ## 이 차원을 데이터로 채우기
 

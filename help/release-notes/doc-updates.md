@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 7375
+source-wordcount: 7391
 ht-degree: 94%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 94%
 | 기능 | 설명 |
 | --- | --- |
 | **2026년 6월** | |
+| 쿼리 문자열 참조 업데이트 | [데이터 수집 쿼리 매개 변수](/help/implement/validate/query-parameters.md)에 대한 중요 수정 사항입니다. |
+| Data Warehouse의 세그먼트 | [Data Warehouse 세그먼트 호환성](/help/export/data-warehouse/segment-compatibility.md)이 업데이트되었습니다. |
 | GA를 AA 안내서로 대체함 | GA에서 AA로의 안내는 2023년에 종료되었던 Universal Analytics를 참조하였다. 새 가이드가 대체되었습니다. [Google Analytics 4에서 Customer Journey Analytics으로 전환](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **2026년 5월** | |
 | Streaming Media 차원 및 지표 | 스트리밍 미디어 설명서에 대한 중요 업데이트. 예제 링크에는 [Streaming Media 서비스 핵심 차원](/help/components/dimensions/sm-core.md) 및 [Streaming Media 서비스 핵심 지표](/help/components/metrics/sm-core.md)가 포함됩니다. |
 | **2026년 3월** | |
-| 패널 분류 | 새로운 [분류](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) 기능을 지원하도록 패널의 [놓기 영역](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)에 대한 설명서를 재구성했습니다. |
+| 패널 분류 | 새로운 [분류](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) 기능을 지원하도록 [패널의 드롭 영역](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)에 대한 설명서를 재구성했습니다. |
 | 새 보고서 세트에 대한 IP 난독화의 기본 옵션을 확인했습니다 | **IP 주소 제거**&#x200B;가 새 보고서 세트의 기본 [IP 난독화 옵션](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)이라는 정보가 추가되었습니다. |
 | 처리 순서 점검 | [Adobe Analytics의 처리 순서](/help/technotes/processing-order.md)가 크게 개선되었습니다. |
 | Adobe Advertising 통합 | [AMO ID](/help/components/dimensions/amo-id.md)를 포함한 Adobe Advertising 통합 차원 및 지표의 추가 사항입니다. |
@@ -78,7 +80,7 @@ ht-degree: 94%
 | 기여도 구성 | 모델, 컨테이너 및 전환 확인 기간에 대한 새 기여도 구성 옵션을 반영하도록 추가 업데이트 |
 | 추가 방문자 식별 개선 사항 | 모든 구현 유형 전반에서 방문자를 식별하는 권장 방법을 설명하는 [방문자 식별](/help/implement/id/overview.md) 섹션이 추가되었습니다. |
 | **2025년 9월** | |
-| 방문자 식별 개선 사항 | 방문자 식별에 관한 모범 사례를 명확히 하고, AppMeasurement에서 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 및 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) 변수의 목적에 중점을 두었습니다. |
+| 방문자 식별 개선 사항 | 방문자 식별에 관한 모범 사례를 명확히 하고, AppMeasurement에서 `trackingServer` 및 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) 변수의 목적에 중점을 두었습니다. |
 | **2025년 8월** | |
 | 고유한 데이터 피드 이름 | [데이터 피드 이름이 고유해야 하는 이유](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)를 명확히 했습니다. |
 | 사용 중단 경고 | [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md) 및 [분류 가져오기 도구](/help/components/classifications/importer/c-working-with-saint.md) 섹션의 문서에 사용 중단 경고가 추가되었습니다. |
@@ -92,7 +94,7 @@ ht-degree: 94%
 | **2025년 3월** |  |
 | Analytics 인벤토리 | [Analytics 인벤토리](/help/admin/tools/analytics-inventory.md)에서는 프로젝트 및 구성 요소 수, 보고서 세트, 사용자 등을 포함하여 Adobe Analytics 환경에 대한 포괄적인 개요를 제공합니다. |
 | Customer Journey Analytics 업그레이드 안내서 | Adobe Analytics에서 Customer Journey Analytics로 업그레이드하기 위한 [단계별 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)를 생성할 수 있습니다. |
-| 명확한 Data Warehouse 내보내기 날짜 형식 | Data Warehouse 내보내기의 시간 기반 차원 값에 비표준 날짜 형식이 적용됩니다. Data Warehouse 내보내기에서 날짜 값을 해석하는 방법을 설명하는 정보가 추가되었습니다. <p>[다른 방식(비표준 날짜 형식)으로 지원되는 차원](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)에 대한 자세한 내용은 [Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md)을 참조하십시오.</p> |
+| 명확한 Data Warehouse 내보내기 날짜 형식 | Data Warehouse 내보내기의 시간 기반 차원 값에 비표준 날짜 형식이 적용됩니다. Data Warehouse 내보내기에서 날짜 값을 해석하는 방법을 설명하는 정보가 추가되었습니다. <p>[Data Warehouse의 구성 요소 지원](/help/export/data-warehouse/component-support.md)에서 [비표준 날짜 형식을 사용하는 차원](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)을 참조하십시오.</p> |
 | IP 제외에 대해 업데이트된 정보 | [IP 제외](/help/admin/tools/exclude-ip.md)가 적용되기까지 최대 5분 정도 소요될 수 있으며, 변경 사항은 새로운 히트에만 적용된다는 내용(제외가 설정되기 전에 캡처된 데이터는 영향을 받지 않음)을 설명하는 정보가 추가되었습니다. <p>또한 가독성을 높이기 위해 콘텐츠 레이아웃도 업데이트되었습니다.</p> |
 | **2025년 2월** |  |
 | 데이터 피드 일시 중지 및 재활성화에 대한 정보 업데이트 | [데이터 피드를 일시 중지하고 다시 활성화](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)할 때 라이브 피드의 동작이 보다 명확하게 설명됩니다. 피드가 일시 중지된 시점부터 다시 활성화될 때까지 데이터 처리는 발생하지 않습니다. |
@@ -124,7 +126,7 @@ ht-degree: 94%
 | **2024년 6월** | |
 | 스트리밍 미디어 서비스 기능을 참조하는 업데이트된 제품 이름 | 스트리밍 미디어 데이터를 수집하고 이를 Analysis Workspace에 표시하는 스트리밍 미디어 기능 세트를 참조할 때 “미디어 분석” 및 “스트리밍 미디어” 인스턴스가 “스트리밍 미디어 컬렉션 추가 기능” 및 “스트리밍 미디어 컬렉션”이라는 이름으로 대체되었습니다. <p>이번 업데이트는 Adobe Analytics 설명서와 [스트리밍 미디어 컬렉션 설명서](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview) 전체에 적용됩니다.</p> |
 | 개선된 경고 설명서 | 경고에 대한 업데이트되고 개선된 설명서입니다. 이러한 업데이트에는 [경고 만들기](/help/components/alerts/alert-builder.md), [경고 관리](/help/components/alerts/alert-manager.md) 및 [정보 개요](/help/components/alerts/alerts-overview.md)에 대한 정보가 포함되어 있습니다. |
-| 더 이상 사용되지 않는 `cookieDomainPeriods` | 이제 AppMeasurement가 쿠키를 설정할 올바른 도메인을 자동으로 감지하므로 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 변수는 더 이상 사용되지 않습니다. |
+| 더 이상 사용되지 않는 `cookieDomainPeriods` | 이제 AppMeasurement가 쿠키를 설정할 올바른 도메인을 자동으로 감지하므로 [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 변수는 더 이상 사용되지 않습니다. |
 | Data Connectors 설명서 사용 중단 | Data Connectors 서비스 종료 페이지가 [단종 제품](https://experienceleague.adobe.com/ko/docs/discontinued/using/data-connectors)으로 이동되었습니다. |
 | **2024년 5월** | |
 | 데이터 피드 및 Data Warehouse에서 Google Cloud Platform과 함께 조직 정책 제한 사항을 사용할 때 필요한 정보 | Adobe 소유의 Google Cloud Platform 조직 ID가 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 및 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 설명서에 추가되었습니다. <p>이 정보는 Google Cloud Platform에서 [조직 정책 제한 사항](https://cloud.google.com/storage/docs/org-policy-constraints)을 사용하는 조직에만 필요합니다.</p> |
@@ -137,7 +139,7 @@ ht-degree: 94%
 | 분류 세트에서 &quot;소유자&quot; 관련 문서 제거 | [분류 세트 관리자](/help/components/classifications/sets/manage-sets.md)에서 “소유자” 필터 및 열이 제거되었으며 [분류 세트 설정](/help/components/classifications/sets/manage/settings.md)에서 “소유자” 필드가 제거되었습니다. <p>설명서가 업데이트되어 이 필터, 열 및 필드가 제거되었습니다.</p> |
 | 클라우드 가져오기 및 내보내기 위치 구성에 대한 문서에서 축소 가능한 섹션 제거 | 클라우드 계정 유형을 설명하는 정보를 보기 위해 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에서 축소 가능한 섹션이 제거되었습니다. |
 | **2024년 3월** | |
-| AppMeasurement 업데이트 | [&#128279;](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
+| AppMeasurement 업데이트 | [&#128279;](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
 | &quot;다음에서 사용&quot; 열에 대한 사용량 정보는 2023년 9월 이후부터 사용 가능 | [프로젝트 랜딩 페이지](/help/analyze/landing.md)의 **다음에서 사용** 열에 대한 사용량 정보는 2023년 9월 이후부터 제공된다는 점을 명확히 했습니다. |
 | **2024년 2월** | |
 | Data Warehouse 요청 관리에 대한 내용 업데이트 | 기본적으로 사용자는 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md) 시에 직접 만든 요청만 볼 수 있음을 명시했습니다. |

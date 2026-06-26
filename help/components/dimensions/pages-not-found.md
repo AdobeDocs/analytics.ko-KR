@@ -16,10 +16,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 78%
+source-wordcount: 232
+ht-degree: 75%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 78%
 
 * [흐름 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)에서 이 차원을 사용하여 방문자가 어느 페이지를 클릭스루하여 오류에 도달하는지 확인할 수 있습니다. 확인이 되면 조직의 개발 팀과 협력하여 각 페이지에서 링크를 수정할 수 있습니다.
 * [레퍼러](referrer.md) 차원과 함께 이 차원을 사용하면 방문자가 외부 링크에서 사이트에 도착하는 위치를 확인할 수 있습니다. 그런 다음 원하는 위치로의 리디렉션을 구현하거나, 서드파티와 협력하여 링크를 수정할 수 있습니다.
+
+>[!NOTE]
+>
+>Data Warehouse에서 이 차원의 이름은 &#39;[!UICONTROL 페이지 유형 오류]&#39;입니다.
 
 ## 이 차원을 데이터로 채우기
 
