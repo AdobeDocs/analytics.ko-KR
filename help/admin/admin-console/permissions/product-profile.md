@@ -5,22 +5,12 @@ exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
 TQID: https://experienceleague.adobe.com/pEMsqMvXmpASV9-DOBoZHzbWp88v5kJioww9H1nJkzY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e681610c8238aa4940053a28ee60ea54492cba8b
 workflow-type: tm+mt
 source-wordcount: 686
 ht-degree: 62%
@@ -42,7 +32,7 @@ ht-degree: 62%
 * 제품 프로필 관리자는 제품 프로필을 사용자 그룹에 할당하거나 제거할 수 있습니다.
 * 제품 프로필 관리자는 팀을 위해 Adobe Analytics에 대한 액세스 권한을 부여하거나 관리해야 하는 팀 리더 또는 관리자에게 이상적입니다. 개인이 Adobe Analytics에 대한 액세스 권한을 부여하기 위해 시스템 관리자나 제품 관리자를 귀찮게 할 필요는 없습니다.
 
-제품 프로필 관리자를 지정하는 방법에 대한 자세한 내용은 Enterprise 사용 안내서의 [Enterprise 사용자의 제품 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html) 문서의 “제품 프로필 관리자 관리”
+제품 프로필 관리자를 지정하는 방법에 대한 자세한 내용은 Enterprise 사용 안내서의 [Enterprise 사용자의 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 문서의 “제품 프로필 관리자 관리”
 섹션을 참조하십시오.
 
 ## Adobe Analytics 권한 항목
@@ -78,6 +68,6 @@ Analytics 도구 권한 항목은 보고서 세트 설정과 독립적인 기능
 
 ## 제품 프로필 개발자
 
-개발자는 Adobe Developer에서 CX Enterprise API를 사용할 수 있는 권한이 부여된다는 점을 제외하면 사용자와 유사합니다. 자세한 내용은 Enterprise 사용 안내서의 [개발자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)를 참조하십시오. 사용자에게 프로필에 대한 개발자 액세스 권한이 부여된 경우 Dev Console (console.adobe.io)에 액세스하고 Adobe Analytics 통합을 편집할 수 있습니다. 사용자에 대해 승인된 Analytics API 호출 및 응답은 사용자가 액세스할 수 있는 모든 프로필의 순 권한에 따라 다릅니다.
+개발자는 Adobe Developer에서 Experience Cloud API를 사용할 수 있는 권한이 부여된다는 점을 제외하면 사용자와 유사합니다. 자세한 내용은 Enterprise 사용 안내서의 [개발자 관리](https://helpx.adobe.com/enterprise/using/manage-developers.html)를 참조하십시오. 사용자에게 프로필에 대한 개발자 액세스 권한이 부여된 경우 Dev Console (console.adobe.io)에 액세스하고 Adobe Analytics 통합을 편집할 수 있습니다. 사용자에 대해 승인된 Analytics API 호출 및 응답은 사용자가 액세스할 수 있는 모든 프로필의 순 권한에 따라 다릅니다.
 
 예를 들어, 모든 지표, 모든 차원 및 하나의 보고서 세트를 포함하는 프로필 권한을 사용하여 개발자는 해당 보고서 세트 내의 모든 구성 요소와 관련된 API 호출을 수행할 수 있습니다. 예외 항목 탐지 권한 항목이 추가되면 API 응답에 예외 데이터가 포함될 수 있습니다. 일반적으로, 프로필에서 Adobe Analytics 인터페이스 내의 시나리오에 대한 액세스 권한을 부여하면, 유사하게 정의된 프로필에 대한 개발자 액세스가 해당 API 호출 및 응답을 활성화합니다.
