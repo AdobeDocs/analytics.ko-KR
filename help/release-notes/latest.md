@@ -2,6 +2,7 @@
 title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -24,24 +25,27 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
+source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 72%
+source-wordcount: 998
+ht-degree: 56%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보 (2026년 6월)
+# 최신 Adobe Analytics 릴리스 정보 (2026년 7월)
 
-**마지막 업데이트**: 2026년 6월 25일
+**마지막 업데이트**: 2026년 7월 8일
 
-이 릴리스 노트는 2026년 6월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2026년 7월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
-| **Adobe Analytics의 여정 캔버스** <br/>여정 캔버스는 Analysis Workspace에서 정의된 사용자 여정에 대한 심층적인 인사이트를 얻을 수 있도록 해 주는 시각화 도구입니다. 사용자가 여정을 진행하거나 이탈하는 방식을 분석할 수 있습니다. 여정에 포함된 이벤트, 차원 항목 및 세그먼트의 조합을 나타내는 노드 및 화살표의 유연한 그래프를 생성할 수 있습니다. 노드를 캔버스로 드래그하거나 여정의 이벤트와 조건을 재배열할 때 데이터가 업데이트됩니다.<p>여정 캔버스는 이전에는 Customer Journey Analytics에만 사용할 수 있었습니다.</p><p>Adobe Analytics의 여정 캔버스에 대해 자세히 알아보려면 [여정 캔버스 개요](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)를 참조하십시오. </p><p>Adobe Analytics의 여정 캔버스 시각화를 빌드하는 방법에 대해 알아보려면 [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오.</p> | 2026년 5월 18일 | 2026년 6월 5일 |
+| **하위 히트 분석** <br/>하위 히트 분석을 사용하면 히트 수준보다 더 세분화된 수준에서 제품 데이터를 분석할 수 있습니다. 전체 히트에 대해 필터링하는 대신 히트 내의 개별 제품에 대해 세그먼트화할 수 있습니다. 예를 들어 동일한 순서로 구매한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리로 세그먼트화할 수 있습니다. | 7월 8일 | 2026년 7월 말 |
+| **AA 2.0 API 검색 기능 안내서** <br/>검색 기능을 사용하여 [보고서에 차원 항목의 하위 집합을 반환](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)합니다. | | 2026년 7월 1일 |
+| **AA API를 사용하여 반복 보고서 자동화** <br/>[보고서 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)를 사용하여 일정에 따라 새로운 지표를 사용하여 데이터 파이프라인에 대한 자동 반복 분석 보고서를 설정합니다. | | 2026년 7월 1일 |
+| **AA에 대한 새 확장 매개 변수** <br/>새 Dimension API 확장 매개 변수를 사용하여 할당 유형, 만료, 데이터 유형 및 머천다이징에 대한 eVar 구성 필드를 검색합니다. <p>자세한 내용은 [API 참조](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) 및 [차원 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)를 참조하십시오.</p> | | 2026년 7월 1일 |
 
 ### Adobe Analytics의 수정 사항
 
