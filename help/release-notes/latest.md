@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 13d4b15d7069a52f4953a49aa0f1f5b7cb16ae77
+source-git-commit: 0d5c4866332fcbc8195e59babd01abc95444ffac
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 63%
+source-wordcount: 959
+ht-degree: 59%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 63%
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
 | **하위 히트 분석** <br/>하위 히트 분석을 사용하면 히트 수준보다 더 세분화된 수준에서 제품 데이터를 분석할 수 있습니다. 전체 히트에 대해 필터링하는 대신 히트 내의 개별 제품에 대해 세그먼트화할 수 있습니다. <p>예를 들어 동일한 주문에서 구입한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리에 대해 세그먼트화할 수 있습니다.</p><p>자세한 내용은 [하위 히트 분석](/help/components/segmentation/sub-hit.md)을 참조하세요.</p> | 7월 8일 | 2026년 7월 말 |
+| **Activity Map 확장: 웹 SDK 지원 및 UI 새로 고침** <br/>Adobe Analytics의 웹 SDK 구현에서는 이제 Activity Map 오버레이 확장을 사용하여 웹 사이트에 오버레이된 클릭 데이터를 볼 수 있습니다.<p>이전에는 Activity Map 오버레이 확장을 AppMeasurement 구현에만 사용할 수 있었습니다.</p> <p>웹 SDK 지원 외에도 Activity Map 오버레이 확장에는 업데이트된 모양과 느낌도 포함되어 있습니다.</p><p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 말 |
 | **AA 2.0 API 검색 기능 안내서** <br/>검색 기능을 사용하여 [보고서에 차원 항목의 하위 집합을 반환](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)합니다.<p>자세한 내용은 Adobe Developer의 보고서 끝점 안내서에서 [기능 검색](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)을 참조하십시오. | | 2026년 7월 1일 |
 | **AA API를 사용하여 되풀이 보고서 자동화** <br/>보고서 API를 사용하여 일정에 따라 새로운 지표를 사용하여 데이터 파이프라인에 대한 자동 되풀이 Adobe Analytics 보고서를 설정합니다. <p>자세한 내용은 Adobe Developer에서 [반복 Analytics 보고서 자동화 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)를 참조하십시오.</p> | | 2026년 7월 1일 |
 | **AA에 대한 새 확장 매개 변수** <br/>새 Dimension API 확장 매개 변수를 사용하여 할당 유형, 만료, 데이터 유형 및 머천다이징에 대한 eVar 구성 필드를 검색합니다. <p>자세한 내용은 Adobe Developer의 [API 참조](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) 및 [차원 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)를 참조하십시오.</p> | | 2026년 7월 1일 |
