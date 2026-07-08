@@ -15,10 +15,10 @@ subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 371
-ht-degree: 74%
+source-wordcount: 375
+ht-degree: 66%
 
 ---
 
@@ -65,7 +65,7 @@ _이 문서에서는 히스토그램 시각화를 설명합니다._ ![AdobeAnaly
 | **[!UICONTROL 버킷 시작]** | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다(음수는 안 됨). |
 | **[!UICONTROL 지표 버킷]** | 데이터 범위(버킷)의 수를 늘이거나 줄일 수 있습니다. 최대 버킷 수는 50개입니다. |
 | **[!UICONTROL 지표 버킷 크기]** | 각 버킷의 크기를 설정할 수 있습니다. 예를 들어 버킷 크기를 페이지 보기 1개에서 페이지 보기 2개로 변경할 수 있습니다. |
-| **[!UICONTROL 계산 방법]** | **[!UICONTROL 개인]**, **[!UICONTROL 세션]** 또는 **[!UICONTROL 이벤트]** 중에서 선택합니다. 예를 들면 세션 당 페이지 조회수, 개인별 페이지 보기 수 또는 이벤트 당 페이지 조회수 중에서 선택할 수 있습니다. |
+| **[!UICONTROL 계산 방법]** | **[!UICONTROL 개인]**, **[!UICONTROL 세션]**, **[!UICONTROL 이벤트]** 또는 **[!UICONTROL 제품]**&#x200B;에서 선택하십시오([하위 히트 분석](/help/components/segmentation/sub-hit.md)의 경우). 예를 들어, 세션당 페이지 보기 수, 사용자당 페이지 보기 수, 이벤트당 페이지 보기 수 또는 제품당 페이지 보기 수 중에서 선택할 수 있습니다. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -78,8 +78,5 @@ _이 문서에서는 히스토그램 시각화를 설명합니다._ ![AdobeAnaly
 
 >[!MORELIKETHIS]
 >
->[패널에 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[시각화 상황에 맞는 메뉴](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->[히스토그램을 사용하여 예상치 못한 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=ko)
+>[패널에 시각화 추가시각화 설정시각화 상황에 맞는 메뉴히스토그램을 사용하여 예상치 못한 데이터 값 식별](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=ko)
 

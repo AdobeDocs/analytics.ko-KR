@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 97%
+source-wordcount: 2004
+ht-degree: 88%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 97%
 정의의 유형과 범위를 구성할 수 있습니다.
 
 1. 정의 유형을 지정하려면 포함 정의를 작성할지, 제외 정의를 작성할지 지정합니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 옵션]**&#x200B;을 선택하고 드롭다운 메뉴에서 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]**&#x200B;를 선택합니다.
-1. 정의 범위를 지정하려면 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 정의 범위를 **[!UICONTROL 히트 수]**, **[!UICONTROL 방문 횟수]** 또는 **[!UICONTROL 방문자 수]**&#x200B;로 설정할지 선택합니다.
+1. 정의 범위를 지정하려면 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 정의 범위를 **[!UICONTROL 히트]**, **[!UICONTROL 방문]**, **[!UICONTROL 방문자]** 또는 **[!UICONTROL 제품]** 중 하나로 지정할지 여부를 선택합니다. [하위 히트 분석](/help/components/segmentation/sub-hit.md) 사용 사례에 **[!UICONTROL 제품]**&#x200B;을(를) 사용합니다.
 
 나중에 언제든지 이러한 설정을 변경할 수 있습니다.
 
@@ -96,7 +96,9 @@ ht-degree: 97%
 
 구성 요소를 추가하는 방법은 다음과 같습니다.
 
-1. 구성 요소 패널에서 구성 요소를 **[!UICONTROL 지표, 세그먼트 및/또는 차원을 여기에 드래그 앤 드롭]**&#x200B;으로 끌어다 놓습니다. 특정 구성 요소를 검색하려면 구성 요소 표시줄의 ![검색](/help/assets/icons/Search.svg)을 사용할 수 있습니다.
+1. 구성 요소 패널에서 구성 요소를 **[!UICONTROL 지표, 세그먼트 및/또는 차원을 여기에 드래그 앤 드롭]**&#x200B;으로 끌어다 놓습니다.
+   * 구성 요소 모음에서 ![검색](/help/assets/icons/Search.svg)을 사용하여 특정 구성 요소를 검색할 수 있습니다.
+   * 구성 요소 표시줄의 ![필터](/help/assets/icons/Filter.svg)를 사용하여 ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL 승인]**, ![별](/help/assets/icons/Star.svg) **[!UICONTROL 즐겨찾기]**, ![데이터 차원](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 차원]**, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**, ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]**, ![일정](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 및 ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL 제품]** 구성 요소를 필터링할 수 있습니다. ![레이블](/help/assets/icons/Label.svg) 태그를 필터링할 수도 있습니다.
 1. 구성 요소에 대한 세부 정보를 지정합니다. 예를 들어 **[!UICONTROL 값 선택]**&#x200B;에서 값을 선택합니다. 또는 값을 입력합니다. 하나 이상의 값을 지정하는 방법은 구성 요소와 연산자에 따라 다릅니다.
 1. 필요한 경우 기본 연산자를 수정합니다. 예: **[!UICONTROL 다음과 같음]**&#x200B;에서 **[!UICONTROL 다음 중 하나 이상의 항목과 같음]**&#x200B;으로 수정. 사용 가능한 연산자에 대한 자세한 개요는 [연산자](../seg-reference/seg-operators.md)를 참조하십시오.
 
@@ -121,7 +123,7 @@ ht-degree: 97%
 * 컨테이너에 다른 구성 요소를 추가하려면 구성 요소 패널에서 컨테이너로 구성 요소를 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
 * 컨테이너 외부에 다른 구성 요소를 추가하려면 구성 요소 패널에서 구성 요소를 컨테이너 외부가 아닌 기본 정의 컨테이너 내부로 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
 * 컨테이너 내 구성 요소 간, 컨테이너 간 또는 컨테이너와 구성 요소 간의 논리를 수정하려면 적절한 **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**&#x200B;을 선택합니다. **[!UICONTROL Then]**&#x200B;을 선택하면 세그먼트가 순차적 세그먼트로 전환됩니다. 자세한 내용은 [순차적 세그먼트 만들기](seg-sequential-build.md)를 참조하십시오.
-* 컨테이너 수준을 전환하려면 ![웹 페이지](/help/assets/icons/WebPage.svg) **[!UICONTROL 히트 수]**, ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 방문 횟수]** 또는 ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 방문자 수]**&#x200B;을 선택합니다.
+* 컨테이너 수준을 전환하려면 ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 히트]**, ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 방문]**, ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 방문자]** 또는 ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 제품]**&#x200B;을 선택하십시오.
 
 다음 액션을 위해 컨테이너에서 ![설정](/help/assets/icons/Setting.svg)을 사용할 수 있습니다.
 
@@ -133,6 +135,9 @@ ht-degree: 97%
 | **[!UICONTROL 이름 컨테이너]** | 기본 설명에서 컨테이너의 이름을 바꿉니다. 텍스트 필드에 이름을 입력합니다. 아무런 입력도 하지 않으면 기본 설명이 사용됩니다. |
 | **[!UICONTROL 컨테이너 삭제]** | 정의에서 컨테이너를 삭제합니다. |
 
+제품 차원 또는 지표를 세그먼트 빌더로 드래그하면 시스템이 **[!UICONTROL 제품]** 컨테이너를 자동으로 선택하고 기본 **[!UICONTROL 히트]** 컨테이너를 사용하지 않습니다. 이 비헤이비어는 세그먼트 범위를 전체 히트가 아닌 개별 제품으로 유지합니다.
+
+제품 수준 및 히트 수준 구성 요소를 모두 단일 세그먼트 규칙으로 드래그하면 시스템에서 가장 높은(세분화되지 않은) 공유 컨테이너인 **[!UICONTROL Hit]** 컨테이너를 사용합니다. 세그먼트 규칙의 일부인 모든 구성 요소가 제품 수준인 경우 **[!UICONTROL Products]** 컨테이너가 사용됩니다.
 
 ## 날짜 범위
 
