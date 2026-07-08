@@ -5,25 +5,14 @@ feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
 TQID: https://experienceleague.adobe.com/hxMHHZM2tzrv7RRhK3sToyihGG12i0KVzSzN8LNnlCk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 77%
+source-wordcount: 1292
+ht-degree: 70%
 
 ---
 
@@ -36,7 +25,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -91,9 +80,9 @@ ht-degree: 77%
 | 요소 | 설명 |
 |---|---|
 | **[!UICONTROL 이름]** | 이름은 빠른 세그먼트 정의에서 자동으로 파생됩니다. |
-| **[!UICONTROL 사용자]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![경고](/help/assets/icons/Alert.svg) | 빠른 세그먼트로 얻은 데이터의 시각적 미리보기. 막대와 백분율은 빠른 세그먼트의 결과에 포함된 전체 데이터의 비율이 얼마인지에 대한 인사이트를 제공합니다. ![경고](/help/assets/icons/AlertRed.svg)는 빠른 세그먼트가 데이터를 반환하지 않는다는 신호를 보냅니다. |
+| **[!UICONTROL _지표_]** <br/>![확인 표시 원](/help/assets/icons/CheckmarkCircle.svg) ![경고](/help/assets/icons/Alert.svg) | 빠른 세그먼트로 인한 지표 데이터의 시각적 미리보기. 막대와 백분율은 빠른 세그먼트의 결과에 포함된 전체 데이터의 비율이 얼마인지에 대한 인사이트를 제공합니다. ![경고](/help/assets/icons/AlertRed.svg)는 빠른 세그먼트가 데이터를 반환하지 않는다는 신호를 보냅니다. |
 | **[!UICONTROL 포함]**<br/>**[!UICONTROL 제외]** | 패널의 데이터에 빠른 세그먼트의 결과를 포함할지 또는 제외할지 여부를 드롭다운 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 선택합니다. |
-| **[!UICONTROL 이벤트]**<br/>**[!UICONTROL 세션]**<br/>**[!UICONTROL 개인]** | 드롭다운 메뉴 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 빠른 세그먼트의 범위를 선택합니다. |
+| **[!UICONTROL 이벤트]**<br/>**[!UICONTROL 세션]**<br/>**[!UICONTROL 개인]**<br/>**[!UICONTROL 제품]** | 드롭다운 메뉴 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 빠른 세그먼트의 범위를 선택합니다. [하위 히트 분석](/help/components/segmentation/sub-hit.md) 사용 사례에 **[!UICONTROL 제품]**&#x200B;을(를) 사용합니다.<ul><li>제품 차원 또는 제품 지표를 빠른 세그먼트 패널로 드래그하면 시스템이 **[!UICONTROL 제품]** 컨테이너를 자동으로 선택하고 기본 **[!UICONTROL 히트]** 컨테이너를 사용하지 않습니다. 이 비헤이비어는 세그먼트 범위를 전체 히트가 아닌 개별 제품으로 유지합니다.</li><li>제품 수준 및 히트 수준 구성 요소를 모두 단일 세그먼트 규칙으로 드래그하면 시스템에서 가장 높은(세분화되지 않은) 공유 컨테이너인 **[!UICONTROL Hit]** 컨테이너를 사용합니다. 세그먼트 규칙의 일부인 모든 구성 요소가 제품 수준인 경우 **[!UICONTROL Products]** 컨테이너가 사용됩니다.</li></ul> |
 
 ### 조건 영역
 

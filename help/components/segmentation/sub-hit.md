@@ -2,25 +2,26 @@
 title: 하위 히트 분석
 description: 하위 히트 분석을 통해 Adobe Analytics의 히트 내에서 개별 제품을 필터링하여 제품 보고서에서 속성 출혈을 제거하는 방법에 대해 알아봅니다.
 feature: Segmentation
-hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 0168cf33d647c5edb367094d57ad9ea3ee253844
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: 576
 ht-degree: 0%
 
 ---
 
 # 하위 히트 분석
 
+{{release-limited-testing}}
+
 하위 히트 분석을 사용하면 히트 수준보다 더 세분화된 수준에서 제품 데이터를 분석할 수 있습니다. 전체 히트에 대해 필터링하는 대신 히트 내의 개별 제품에 대해 세그먼트화할 수 있습니다. 예를 들어 동일한 순서로 구매한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리로 세그먼트화할 수 있습니다.
+
+Adobe Analytics 하위 히트 분석에서는 특히 **[!UICONTROL Products]** 변수에 적용됩니다. **[!UICONTROL Products]** 변수는 Adobe Analytics에서 하위 히트 분석을 지원하는 유일한 다중 값 개체입니다.
 
 Adobe Analytics에서 [제품 변수](/help/components/dimensions/product.md)은(는) 하나의 히트에서 여러 제품을 캡처할 수 있습니다. 하위 히트 분석이 없으면 제품 속성에 대해 세그먼트화하면 히트 내의 모든 제품이 제품 속성과 일치하는 모든 히트가 반환됩니다. 그 결과가 잘못된 속성 및 부풀려진 매출 지표입니다. 하위 히트 분석은 필터를 히트 내의 개별 제품 행으로 범위를 지정하고 이러한 문제를 해결합니다.
 
-하위 히트 분석에서 제외 논리는 제품 변수에 대한 표준 히트 수준 제외와 다르게 동작합니다. [!UICONTROL Product] 컨테이너 내에서 제품 특성을 제외하면 세그먼트는 **제품이 있음**&#x200B;을 반환하지만 제외 기준과 일치하지 않는 히트를 반환합니다. 세그먼트는 제품이 없는 히트를 전혀 반환하지 않습니다.
+하위 히트 분석에서 제외 논리는 제품 변수에 대한 표준 히트 수준 제외와 다르게 동작합니다. [!UICONTROL 제품] 컨테이너 내에서 제품 특성을 제외하면 세그먼트는 **제품이 있음**&#x200B;을 반환하지만 제외 기준과 일치하지 않는 히트를 반환합니다. 세그먼트는 제품이 없는 히트를 전혀 반환하지 않습니다.
 
 ## 예
 
@@ -36,8 +37,7 @@ Adobe Analytics에서 [제품 변수](/help/components/dimensions/product.md)은
 
 ![제품 범주 남성에 대한 히트 수준의 세그먼테이션을 보여 주는 패널](./assets/product-category-segmentation-hits.png)
 
-따라서 최소 한 개 이상의 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;가 포함된 모든 주문이 고려되며 이러한 주문의 다른 제품 매출은 **[!UICONTROL 온라인 매출]** 지표에 포함됩니다.
-카테고리에 대해 보고할 때 **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**&#x200B;와 함께 제품을 포함하는 주문의 일부인 **[!UICONTROL Retail: Fashion Product Category]**&#x200B;에 대한 다른 모든 값이 보고됩니다.
+따라서 최소 한 개 이상의 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;가 포함된 모든 주문이 고려되며 이러한 주문의 다른 제품 매출은 **[!UICONTROL 온라인 매출]** 지표에 포함됩니다.카테고리를 보고할 때 **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**&#x200B;와(과) 함께 제품을 포함하는 주문의 일부인 **[!UICONTROL Retail: Fashion Product Category]**&#x200B;에 대한 다른 모든 값이 보고됩니다.
 
 >[!TAB 하위 히트 분석]
 
@@ -45,8 +45,7 @@ Adobe Analytics에서 [제품 변수](/help/components/dimensions/product.md)은
 
 ![제품 범주 남성의 하위 히트 수준에 대한 세분화를 보여 주는 패널](./assets/product-category-segmentation-sub-hits.png)
 
-그 결과, 최소 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;을 포함하는 모든 주문이 고려되며 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;에 속하는 제품의 매출만 **[!UICONTROL 온라인 매출]** 지표에 포함됩니다.
-카테고리에 대해 보고할 때 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 카테고리]**&#x200B;만 보고됩니다.
+그 결과, 최소 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;을 포함하는 모든 주문이 고려되며 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;에 속하는 제품의 매출만 **[!UICONTROL 온라인 매출]** 지표에 포함됩니다.범주를 보고할 때 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;만 보고됩니다.
 
 >[!TAB 하위 히트 분석(제외)]
 
@@ -57,33 +56,3 @@ Adobe Analytics에서 [제품 변수](/help/components/dimensions/product.md)은
 제품 수준에서 제외하려면 하나 이상의 제품이 포함된 히트가 포함된 다음 하위 히트 수준의 제외가 해당 범위 내에 적용됩니다. 이 제외는 전체 히트를 제외하는 히트 수준 제외와 다릅니다.
 
 >[!ENDTABS]
-
-Adobe Analytics 하위 히트 분석에서는 특히 **[!UICONTROL Products]** 변수에 적용됩니다. **[!UICONTROL Products]** 변수는 Adobe Analytics에서 하위 히트 분석을 지원하는 유일한 다중 값 개체입니다.
-
-
->[!WARNING]
->
->다음 섹션은 이 기능이 릴리스될 때 관련 문서(세그먼트 빌더, 빠른 세그먼트, 히스토그램 등)로 이동됩니다. 그리고 이 문서는 하위 히트 분석이 무엇인지에 대한 참조를 위해 이 문서를 참조합니다. 기능을 사용할 수 없는 동안 고객을 혼동하지 않도록 현재 이 작업은 수행되지 않습니다.
-
-## 컨테이너 자동 추론
-
-제품 차원 또는 지표를 세그먼트 빌더 또는 빠른 세그먼트 패널로 드래그하면 시스템이 **[!UICONTROL 제품]** 컨테이너를 자동으로 선택하고 기본 **[!UICONTROL 히트]** 컨테이너를 사용하지 않습니다. 이 비헤이비어는 세그먼트 범위를 전체 히트가 아닌 개별 제품으로 유지합니다.
-
-## 혼합 컨테이너 동작
-
-제품 수준 및 히트 수준 구성 요소를 모두 단일 세그먼트 규칙으로 드래그하면 시스템에서 가장 높은(세분화되지 않은) 공유 컨테이너인 **[!UICONTROL Hit]** 컨테이너를 사용합니다. 세그먼트 규칙의 일부인 모든 구성 요소가 제품 수준인 경우 **[!UICONTROL Product]** 컨테이너가 사용됩니다.
-
-## 왼쪽 레일의 제품 필터
-
-세그먼트 빌더에는 제품 차원 및 지표만 표시할 수 있는 새 필터 옵션이 왼쪽 레일에 포함되어 있습니다. 이렇게 하면 하위 히트 세그먼트를 작성할 때 제품 수준 구성 요소를 더 쉽게 찾을 수 있습니다.
-
->[!NOTE]
->
->이 필터 옵션은 세그먼트 빌더에서만 사용할 수 있습니다. Analysis Workspace 패널 또는 시각화 등의 다른 왼쪽 레일에서 사용할 수 없습니다.
-
-## 히스토그램 시각화
-
-히스토그램 시각화에는 새로운 하위 히트 컨테이너 드롭다운 메뉴가 포함되어 있습니다. 이렇게 하면 제품 수준에서 지표 값을 버킷할 수 있습니다. 예를 들어, 히트 당 대신 주문 당 제품 발생을 카운트합니다.
-
-히스토그램은 하위 히트 컨테이너를 선택해야 하는 유일한 시각화입니다. 다른 모든 패널 및 시각화는 추가 구성 없이 하위 히트 분석 데이터와 함께 작동합니다.
-
