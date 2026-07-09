@@ -4,20 +4,13 @@ description: 분류 세트에서 생성된 현재 및 완료된 분류 작업을
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 TQID: https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 781
 ht-degree: 2%
 
 ---
@@ -50,9 +43,9 @@ ht-degree: 2%
 | **[!UICONTROL 분류 집합]** | 분류 작업과 연결된 분류 세트입니다. |
 | **[!UICONTROL 크기]** | 분류 작업의 일부로 내보내거나 가져온 파일의 크기입니다. |
 | **[!UICONTROL 상태]** | 분류 작업의 상태입니다. 가능한 값은 **[!UICONTROL 생성됨]**, **[!UICONTROL 큐에 있음]**, **[!UICONTROL 확인됨]**, **[!UICONTROL 유효성 검사 실패]**, **[!UICONTROL 처리]**, **[!UICONTROL 처리 완료]**, **[!UICONTROL 처리 실패]**, **[!UICONTROL 완료됨]** 또는 **[!UICONTROL 진행]**&#x200B;입니다. 표시되는 경우 경고 ![경고](/help/assets/icons/Alert.svg) 위로 마우스를 가져가면 추가 정보가 표시됩니다. |
-| **[!UICONTROL 파일 이름]** | 분류 작업의 일부로 파일을 가져오거나 내보내는 데 사용되는 이름 또는 기능을 식별합니다. 가능한 값은 다음과 같습니다. <ul><li>*값 없음*</li><li>분류 작업의 일부로 처리되는 파일의 이름입니다.</li><li>**[!UICONTROL SAINT 내보내기]**: 작업은 [레거시 분류 인터페이스](/help/components/classifications/importer/c-working-with-saint.md)에서 내보내는 작업입니다.</li><li>_timestamp _&#x200B;**에_분류 집합&#x200B;_에 대한**&#x200B;내보내기: 작업은 [스키마](manage/schema.md#download) 인터페이스에서 다운로드한 작업입니다.</li></ul> |
+| **[!UICONTROL 파일 이름]** | 분류 작업의 일부로 파일을 가져오거나 내보내는 데 사용되는 이름 또는 기능을 식별합니다. 가능한 값은 다음과 같습니다. <ul><li>*값 없음*</li><li>분류 작업의 일부로 처리되는 파일의 이름입니다.</li><li>**[!UICONTROL SAINT 내보내기]**: 작업은 [레거시 분류 인터페이스](/help/components/classifications/importer/c-working-with-saint.md)에서 내보내는 작업입니다.</li><li>_timestamp _]**에_분류 집합&#x200B;_에 대한**[!UICONTROL 내보내기: 작업은 [스키마](manage/schema.md#download) 인터페이스에서 다운로드한 작업입니다.</li></ul> |
 | **[!UICONTROL 작업 유형]** | 분류 작업 유형. 가능한 값은 **[!UICONTROL 가져오기]** 또는 **[!UICONTROL 내보내기]**&#x200B;입니다. |
-| **[!UICONTROL 소스]** | 분류 작업의 소스. 가능한 값은 **[!UICONTROL 웹 API]**, **[!UICONTROL 직접 API 업로드]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** 또는 **[!UICONTROL 알 수 없음]**&#x200B;입니다. |
+| **[!UICONTROL 소스]** | 분류 작업의 소스. 가능한 원본에 대한 자세한 내용은 [필터 패널](#filter-panel)을 참조하세요. |
 | **[!UICONTROL 수정된 줄]** | 분류 작업이 수정한 수정된 라인 수. |
 | **[!UICONTROL 총 줄 수]** | 분류 작업이 처리한 총 라인 수입니다. |
 | **[!UICONTROL 완료 시간]** | 분류 작업의 완료 시간입니다. |
@@ -88,6 +81,21 @@ ht-degree: 2%
 * **[!UICONTROL 상태]**. 가능한 값 중 하나를 선택하여 상태의 분류 작업 목록을 필터링합니다.
 * **[!UICONTROL 작업 유형]**. 가능한 값 중 하나를 선택하여 작업 유형에 대한 분류 작업 목록을 필터링합니다.
 * **[!UICONTROL Source]**. 가능한 값 중 하나를 선택하여 소스의 분류 작업 목록을 필터링합니다.
+
+  **[!UICONTROL Source]**&#x200B;에 사용할 수 있는 값은 다음과 같습니다.
+
+  | 소스 | 설명 |
+  |---|---|
+  | **[!UICONTROL Adobe]** | Adobe이 내부 프로세스의 일부로 만든 작업 예: 통합. |
+  | **[!UICONTROL 백엔드]** | 더 이상 사용되지 않는 FTP 가져오기 프로세스로 생성된 작업입니다. |
+  | **[!UICONTROL 클라우드 수집]** | 클라우드 위치에서 분류 데이터를 가져온 결과인 작업. |
+  | **[!UICONTROL 직접 API 내보내기]** | Adobe Analytics 2.0 API를 사용하여 분류 데이터를 내보낸 작업 |
+  | **[!UICONTROL 직접 API 업로드]** | Adobe Analytics 2.0 API를 사용하여 분류 데이터를 업로드한 결과인 작업. |
+  | **[!UICONTROL 다시 게시]** | 다시 게시의 결과인 작업. |
+  | **[!UICONTROL 규칙 기반 분류]** | 규칙 기반 분류의 결과인 작업. |
+  | **[!UICONTROL 성인]** | 기존 규칙 기반 분류의 결과인 작업. |
+  | **[!UICONTROL 웹 API]** | 웹 API를 사용하여 분류 데이터를 내보내거나 업로드한 결과인 작업. |
+  | **[!UICONTROL 알 수 없음]** | 소스를 알 수 없는 작업. |
 
 
 필터 패널을 숨기려면 ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL 필터 숨기기]**&#x200B;를 선택하십시오.
