@@ -6,10 +6,31 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b7156124-d291-4de4-ac0c-ed17d8078449
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2:
+  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 7390
@@ -44,7 +65,7 @@ ht-degree: 94%
 | **2026년 2월** |  |
 | 지역 및 기술 보고서 사용에 대한 정보가 추가되었습니다 | 다양한 Analytics 제품에서 지역 및 기술 보고서를 사용할 때 [차이점에 대한 정보가 추가되었습니다](/help/analyze/get-started/analytics-product-comparison.md) 문서. |
 | **2026년 1월** | |
-| 분류 세트 규칙 빌더 | 분류 세트](/help/components/classifications/sets/manage/rules.md) 기능의 새 [규칙 빌더 기능에 대한 설명서입니다. |
+| 분류 세트 규칙 빌더 | 분류 세트[&#128279;](/help/components/classifications/sets/manage/rules.md) 기능의 새 규칙 빌더 기능에 대한 설명서입니다. |
 | 디바이스 그래프 | [중단된 장치 그래프 기능](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)에 대한 참조를 제거했습니다. |
 
 ### 2025 {#year2025}
@@ -118,7 +139,7 @@ ht-degree: 94%
 | 분류 세트에서 &quot;소유자&quot; 관련 문서 제거 | [분류 세트 관리자](/help/components/classifications/sets/manage-sets.md)에서 “소유자” 필터 및 열이 제거되었으며 [분류 세트 설정](/help/components/classifications/sets/manage/settings.md)에서 “소유자” 필드가 제거되었습니다. <p>설명서가 업데이트되어 이 필터, 열 및 필드가 제거되었습니다.</p> |
 | 클라우드 가져오기 및 내보내기 위치 구성에 대한 문서에서 축소 가능한 섹션 제거 | 클라우드 계정 유형을 설명하는 정보를 보기 위해 [클라우드 가져오기 및 내보내기 위치 구성](/help/components/locations/configure-import-locations.md)에서 축소 가능한 섹션이 제거되었습니다. |
 | **2024년 3월** | |
-| AppMeasurement 업데이트 | [](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
+| AppMeasurement 업데이트 | [&#128279;](/help/implement/appmeasurement-updates.md)AppMeasurement 업데이트 v2.26.0.<br/>릴리스 정보에는 [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 구성 변수 설명서에 대한 참조 및 업데이트가 포함되어 있습니다. |
 | &quot;다음에서 사용&quot; 열에 대한 사용량 정보는 2023년 9월 이후부터 사용 가능 | [프로젝트 랜딩 페이지](/help/analyze/landing.md)의 **다음에서 사용** 열에 대한 사용량 정보는 2023년 9월 이후부터 제공된다는 점을 명확히 했습니다. |
 | **2024년 2월** | |
 | Data Warehouse 요청 관리에 대한 내용 업데이트 | 기본적으로 사용자는 [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md) 시에 직접 만든 요청만 볼 수 있음을 명시했습니다. |
