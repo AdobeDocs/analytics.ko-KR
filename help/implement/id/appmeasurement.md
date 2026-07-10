@@ -19,16 +19,16 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 512
-ht-degree: 0%
+source-wordcount: 519
+ht-degree: 1%
 
 ---
 
 # AppMeasurement을 사용한 방문자 식별
 
-AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaScript 라이브러리입니다. AppMeasurement은 자체적으로 방문자를 식별하는 기본 방법을 제공하지만, 많은 최신 브라우저는 설정하려고 하는 서드파티 쿠키를 거부합니다. Adobe은 모든 구현에서 최신 브라우저 개인 정보 보호 표준을 준수하도록 Adobe Experience Cloud 방문자 ID 서비스 를 사용할 것을 강력히 권장합니다. AppMeasurement의 모든 버전은 방문자 ID 서비스를 구현하는 데 사용되는 JavaScript 라이브러리인 `VisitorAPI.js`과(와) 함께 제공됩니다.
+AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaScript 라이브러리입니다. AppMeasurement은 자체적으로 방문자를 식별하는 기본 방법을 제공하지만, 많은 최신 브라우저는 설정하려고 하는 서드파티 쿠키를 거부합니다. Adobe에서는 모든 구현에서 최신 브라우저 개인 정보 보호 표준을 준수하도록 [Adobe 방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 사용할 것을 강력히 권장합니다. AppMeasurement의 모든 버전은 방문자 ID 서비스를 구현하는 데 사용되는 JavaScript 라이브러리인 `VisitorAPI.js`과(와) 함께 제공됩니다.
 
 ## 방문자 ID 서비스를 사용한 방문자 식별(권장)
 
@@ -82,7 +82,7 @@ AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaSc
 >
 >Adobe에서는 방문자를 식별하기 위해 이 방법을 사용하지 않는 것이 좋습니다.
 
-조직에서 방문자 ID 서비스를 사용하지 않는 경우 AppMeasurement은 자체 방문자 ID 양식을 사용합니다. 방문자가 사이트에 처음 도달하면 라이브러리에서 [`s_vi`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키를 확인합니다. 이 쿠키는 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)(HTTPS의 경우) 또는 `trackingServer`(HTTP의 경우)과 일치하는 도메인에서 설정됩니다.
+조직에서 방문자 ID 서비스(`VisitorAPI.js`)를 사용하지 않는 경우 AppMeasurement은 자체 기존 형식의 방문자 ID를 사용합니다. 방문자가 사이트에 처음 도달하면 라이브러리에서 [`s_vi`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키를 확인합니다. 이 쿠키는 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)(HTTPS의 경우) 또는 `trackingServer`(HTTP의 경우)과 일치하는 도메인에서 설정됩니다.
 
 * [관리 인증서 프로그램](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/adobe-managed-cert)에 참여하는 경우 추적 서버는 일반적으로 자사 도메인이므로 `s_vi` 쿠키를 자사 쿠키로 만듭니다.
 * 관리 인증서 프로그램에 참여하지 않는 경우 추적 서버는 일반적으로 `adobedc.net`, `omtrdc.net` 또는 `2o7.net`의 하위 도메인이며 `s_vi` 쿠키를 타사 쿠키로 만듭니다. 최신 브라우저 개인 정보 보호 표준으로 인해 서드파티 쿠키는 대부분의 브라우저에서 거부됩니다. 거부되면 AppMeasurement은 대신 자사 대체 쿠키(`fid`)를 설정하려고 합니다.

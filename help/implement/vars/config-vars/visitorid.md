@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 510
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe에서는 여러 가지 방법을 사용하여 사이트에서 방문자를
 
 >[!IMPORTANT]
 >
->이 변수는 사용하지 않는 것이 좋습니다. 대신 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하십시오.
+>이 변수는 사용하지 않는 것이 좋습니다. 대신 [Adobe 방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 사용하십시오.
 
 ## Analytics에서 `visitorID`을(를) 사용하는 방법
 

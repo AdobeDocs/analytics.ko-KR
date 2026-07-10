@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 18%
+source-wordcount: 383
+ht-degree: 19%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 18%
 * **`fpCookieDomainPeriods`**: 자사 도메인의 접미사에 `example.co.uk` 등의 추가 기간이 포함된 경우 올바른 위치에 쿠키를 설정하는 데 사용되는 `cookieDomainPeriods`과(와) 동등한 자사. 현재 버전의 AppMeasurement은 올바른 도메인을 자동으로 검색하므로 이 변수는 더 이상 사용되지 않습니다.
 * **`trackingServer`**: HTTP를 통해 Adobe으로 데이터를 보내는 데 사용되는 도메인을 지정했습니다. HTTPS보다 안전한 데이터 수집을 위해 더 이상 사용되지 않습니다. 대신 [`trackingServerSecure`](trackingserversecure.md)를 사용하십시오.
 * **`trackInlineStats`**: 이전 버전의 [Activity Map](/help/analyze/activity-map/overview.md)을(를) 사용하거나 사용하지 않도록 설정했습니다.
-* **`visitorMigrationKey`**: 방문자를 서드파티 쿠키에서 자사 쿠키로 마이그레이션하는 데 사용되는 키를 포함했습니다. 최신 라이브러리가 자사 대체 쿠키(`fid`)를 설정하고 ID를 Experience Cloud ID 서비스에 의존하기 때문에 사용이 중단되었습니다.
+* **`visitorMigrationKey`**: 방문자를 서드파티 쿠키에서 자사 쿠키로 마이그레이션하는 데 사용되는 키를 포함했습니다. 최신 라이브러리가 자사 대체 쿠키(`fid`)를 설정하고 ID를 방문자 ID 서비스에 의존하기 때문에 사용이 중단되었습니다.
 * **`visitorMigrationServer`**: 서드파티에서 퍼스트 파티 쿠키로 마이그레이션하는 동안 사용되는 서버를 지정했습니다.
 * **`visitorMigrationServerSecure`**: `visitorMigrationServer`에 해당하는 HTTPS입니다.
-* **`visitorNameSpace`**: 타사 쿠키 도메인을 확인하는 데 도움이 되었습니다. Experience Cloud ID 서비스를 사용하지 않는 구현에 [`trackingServerSecure`](trackingserversecure.md) 변수를 사용하는 대신 사용이 중단되었습니다.
+* **`visitorNameSpace`**: 타사 쿠키 도메인을 확인하는 데 도움이 되었습니다. 방문자 ID 서비스를 사용하지 않는 구현의 경우 [`trackingServerSecure`](trackingserversecure.md) 변수 사용을 위해 사용이 중단됩니다.

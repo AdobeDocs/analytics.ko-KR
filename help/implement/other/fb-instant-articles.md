@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 470
-ht-degree: 88%
+source-wordcount: 468
+ht-degree: 89%
 
 ---
 
@@ -107,4 +107,4 @@ Facebook 인스턴트 아티클 콘텐츠를 만들 때 분석 HTML 콘텐츠를
 
 ## Facebook 인스턴트 아티클 및 개인 정보
 
-분석 HTML 페이지가 웹 서버에 호스팅되는 한, Adobe에서는 모든 Facebook 인스턴트 아티클에서 기존의 개인정보 처리방침을 지원합니다. 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 Facebook 인스턴트 아티클의 추적 또한 옵트 아웃됩니다. 이 유틸리티 페이지는 또한 Adobe Experience Cloud 인스턴트 아티클 데이터를 나머지 CX Enterprise와 통합할 수 있도록 Facebook Identity 서비스를 지원합니다.
+분석 HTML 페이지가 웹 서버에 호스팅되는 한, Adobe에서는 모든 Facebook 인스턴트 아티클에서 기존의 개인정보 처리방침을 지원합니다. 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 Facebook 인스턴트 아티클의 추적 또한 옵트 아웃됩니다. 이 유틸리티 페이지는 또한 방문자 ID 서비스를 지원하므로 Facebook 인스턴트 아티클 데이터를 나머지 CX Enterprise와 통합할 수 있습니다.

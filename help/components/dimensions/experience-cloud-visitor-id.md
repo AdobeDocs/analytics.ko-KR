@@ -14,16 +14,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 105
+source-wordcount: 106
 ht-degree: 21%
 
 ---
 
 # Experience Cloud 방문자 ID
 
-&#39;Experience Cloud 방문자 ID&#39; [차원](overview.md)은(는) 각 방문자에 대한 Experience Cloud ID(ECID)를 제공합니다. 이 숫자는 연결된 두 개의 64비트 숫자로 구성된 128비트 숫자로 19자리로 채워집니다.
+Experience Cloud 방문자 ID [차원](overview.md)은(는) 각 방문자에 대한 ECID를 제공합니다. 이 숫자는 연결된 두 개의 64비트 숫자로 구성된 128비트 숫자로 19자리로 채워집니다.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원에는 Experience Cloud ID 서비스(ECID)를 사용하는 구현이 필요합니다. 데이터 피드의 `mcvisid` 열에 해당합니다. 자세한 내용은 [데이터 열 참조](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)를 참조하십시오.
+이 차원에는 방문자 ID 서비스(VisitorAPI) 또는 Experience Platform ID 서비스를 사용하는 구현이 필요합니다. 데이터 피드의 `mcvisid` 열에 해당합니다. 자세한 내용은 [데이터 열 참조](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)를 참조하십시오.
 
 ## 차원 항목
 

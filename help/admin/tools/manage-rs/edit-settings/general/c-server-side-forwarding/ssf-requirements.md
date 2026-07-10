@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: 326
 ht-degree: 57%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 57%
 
 ## 서비스 요구 사항
 
-서버측 전달을 사용하려면 [ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)가 필요합니다. ID 서비스는 CX Enterprise의 모든 솔루션에서 사이트 방문자를 식별하는 범용 ID를 제공합니다. 서버측 전달이 작동하려면 ID 서비스를 구현해야 합니다.
+서버측 전달을 사용하려면 [ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)가 필요합니다. ID 서비스는 CX Enterprise의 모든 솔루션에서 사이트 방문자를 식별하는 범용 ID를 제공합니다. 서버측 전달이 작동하려면 ID 서비스를 구현해야 합니다.
 
 ## 코드 버전
 

@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: 497
 ht-degree: 95%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 95%
 
 ## 방문자 수
 
-Adobe이 고유 방문자 수 (사용자 지정 방문자 ID, Experience Cloud ID 서비스 등)를 식별하는 데 사용하는 모든 방법은 궁극적으로 모두 `post_visid_high` 및 `post_visid_low`의 값으로 계산됩니다. 이러한 두 열의 연결은 고유 방문자로 식별된 방식과 관계없이 고유 방문자 수를 식별하는 표준으로 사용될 수 있습니다. Adobe가 고유 방문자를 식별하는 데 사용한 방법을 이해하려면 열 `post_visid_type`을 사용하십시오.
+Adobe이 고유 방문자 수 (사용자 지정 방문자 ID, ECID 등)를 식별하는 데 사용하는 모든 방법은 궁극적으로 모두 `post_visid_high` 및 `post_visid_low`의 값으로 계산됩니다. 이러한 두 열의 연결은 고유 방문자로 식별된 방식과 관계없이 고유 방문자 수를 식별하는 표준으로 사용될 수 있습니다. Adobe가 고유 방문자를 식별하는 데 사용한 방법을 이해하려면 열 `post_visid_type`을 사용하십시오.
 
 1. `post_visid_high`와 `post_visid_low`를 연결합니다.
 2. 고유 값 수를 카운트합니다.

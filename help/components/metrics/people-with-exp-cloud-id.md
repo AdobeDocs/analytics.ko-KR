@@ -13,20 +13,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 137
-ht-degree: 85%
+source-wordcount: 151
+ht-degree: 58%
 
 ---
 
 # Experience Cloud ID를 보유한 사용자
 
-‘Experience Cloud ID를 가진 사용자’는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하여 Adobe가 확인한 [사용자](people.md) 수를 보여 주는 [크로스 디바이스 분석](../cda/overview.md) 지표입니다.
+&#39;Experience Cloud ID를 가진 사용자&#39;는 [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home) 또는 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)를 사용하여 Adobe에서 식별한 [사용자](people.md)의 수를 표시하는 [크로스 디바이스 분석](../cda/overview.md) 지표입니다.
 
 ## 이 지표의 계산 방법
 
-각 [사용자](people.md)(확인되거나 미확인된)을 고려하여, 히트에 `mid` 쿼리 문자열이 포함된 경우 이 [지표](overview.md)이(가) 증가합니다([`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR) 쿠키 기반).
+각 [사용자](people.md)(확인되거나 미확인된)을 고려하여, 히트에 `mid` 쿼리 문자열이 포함된 경우 이 [지표](overview.md)이(가) 증가합니다([`s_ecid`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키 기반).
 
 ID 서비스를 사용하여 계산된 지표 `[People with ECID] ÷ [People]`을 만들어 사이트 방문자의 백분율을 구할 수 있습니다.
 

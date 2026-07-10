@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 7391
+source-wordcount: 7390
 ht-degree: 94%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 94%
 | Workspace 캘린더 및 날짜 범위 | 관련 날짜 범위, 수식 계산 업데이트 및 캘린더 UI 변경 사항을 설명하도록 콘텐츠가 업데이트되었습니다. [상대 패널 날짜 범위 정보](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)를 참조하십시오. |
 | 모바일 스코어카드 | 비교 날짜 범위를 표시하고 숨기는 방법을 설명하는 새로운 문서 섹션. Customer Journey Analytics의 [비교 날짜 범위 표시](/help/analyze/mobile-app/create-scorecard.md)를 참조하십시오. |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/)는 완전히 다시 작성되었으며, 이제 Adobe Developer에 게시됩니다. |
-| 구현 유형 간 추적 | Experience Cloud ID 서비스를 수용하도록 [다양한 구현 유형 간 추적](../implement/id/cross-type-implementation.md) 사용 사례가 업데이트되었습니다. |
+| 구현 유형 간 추적 | 방문자 ID 서비스를 수용하도록 사용 사례 [다양한 구현 유형 추적](../implement/id/cross-type-implementation.md)을 업데이트했습니다. |
 | **2023년 1월** | |
 | 테이블 필터링 및 정렬 | [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서의 내용이 업데이트되었습니다(절차 추가 및 사용 가능한 옵션 설명 포함). 이 문서의 이름이 “테이블 페이지 매김, 필터링 및 정렬”에서 다른 이름으로 변경되었습니다. |
 | 폴더 | [폴더 관리](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) 전용 페이지. |
