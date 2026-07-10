@@ -5,27 +5,14 @@ feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 TQID: https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c77ba355-6681-41fe-b719-563d3f507fdb
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2340
+source-wordcount: 2341
 ht-degree: 82%
 
 ---
@@ -67,8 +54,8 @@ I1, I2, S1 및 S2 레이블은 Adobe Experience Platform의 동일한 이름을 
   <tr> 
    <td colname="col1"> <p>쿠키 ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ko"> (기존) Analytics 쿠키 </a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> 이전에 MCID(Marketing Cloud ID)로 알려진 ECID(<a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko">ID 서비스 쿠키</a>) </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html"> (기존) Analytics 쿠키 </a> </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> 이전에 MCID(Marketing Cloud ID)로 알려진 ECID(<a href="https://experienceleague.adobe.com/kr/docs/id-service/using/home">ID 서비스 쿠키</a>) </li> 
     </ul> </td> 
    <td colname="col2"> <p>이러한 쿠키는 디바이스, 그중에서도 디바이스 사용자의 브라우저를 식별합니다. 공통 로그인이 사용되는 공유된 디바이스의 경우 이 ID는 디바이스의 모든 사용자에게 적용될 수 있습니다. Adobe는 사용자가 이러한 쿠키를 데이터 개인정보 보호 요청에 사용할 수 있도록 하려는 경우 해당 쿠키를 수집하기 위해 웹 사이트에 배치할 수 있는 일부 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">통합 JavaScript</a>를 만들었습니다. </p> <p>Adobe Analytics Mobile SDK 사용자도 ECID(Experience Cloud ID)가 있습니다. SDK 내에 이 ID를 읽는 API 호출이 있으므로 데이터 개인정보 보호 요청에 대해 해당 ID를 수집하도록 앱을 향상시킬 수 있습니다. </p> <p>많은 회사에서 브라우저 쿠키 ID를 공유된 디바이스의 ID로 간주합니다. 따라서 법무팀과 상의하여 데이터 개인 정보 보호 요청 시 허용 가능한 ID로 사용하는 것을 지원하지 않도록 선택할 수 있습니다. 또는 이러한 ID를 사용될 때 매우 제한된 양의 데이터만 반환하도록 선택하거나 삭제 요청에 대해서만 허용할 수 있습니다. </p> <p>이러한 쿠키에는 변경할 수 없는 ID-DEVICE 레이블(및 I2 및 DEL-DEVICE 레이블)이 있습니다. 기본 Adobe Analytics 구성은 장치 유형, OS, 브라우저 등과 같은 장치에 대한 일반 정보와 이러한 ID를 사용할 때 웹 사이트를 방문한 시간/날짜만 반환합니다. 그러나 데이터 개인정보 보호 요청에 대해 이러한 ID를 지원하도록 선택하는 경우, 아래 설명된 대로 ACC-ALL 레이블을 추가하거나 제거하여 데이터 개인정보 보호 액세스 요청에 대해 반환하려는 정확한 필드 집합을 구성할 수 있습니다. </p> <p>보고서 세트가 로그인이 필요한 모바일 앱에 해당하는 경우, 디바이스의 Experience Cloud ID가 특정 사용자에 해당하는지 결정할 수 있습니다. 이 경우 방문한 페이지 이름, 본 제품 등을 포함하여 더 많은 필드에 ACC-ALL 레이블을 지정할 수 있습니다. </p> </td> 
   </tr> 

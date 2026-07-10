@@ -5,29 +5,15 @@ feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 44%
+source-wordcount: 1111
+ht-degree: 46%
 
 ---
 
@@ -37,8 +23,8 @@ ht-degree: 44%
 
 | 매개변수 | Analytics 구현 변수 | 설명 |
 | --- | --- | --- |
-| `aamlh` | 없음 | Audience Manager 위치 힌트입니다. Experience Cloud ID 서비스를 통해 Audience Manager ID 동기화에 사용되는 지역 데이터 센터를 식별합니다. |
-| `aamb` | 없음 | Audience Manager blob. Experience Cloud ID 서비스를 통해 ID 동기화 중에 전달된 인코딩된 Audience Manager 프로필 데이터입니다. |
+| `aamlh` | 없음 | Audience Manager 위치 힌트입니다. 방문자 ID 서비스를 통해 Audience Manager ID 동기화에 사용되는 지역 데이터 센터를 식별합니다. |
+| `aamb` | 없음 | Audience Manager blob. ID 동기화 중에 방문자 ID 서비스를 통해 전달된 인코딩된 Audience Manager 프로필 데이터입니다. |
 | `aid` | 없음 | `s_vi` 쿠키에 저장된 이전 Analytics 방문자 ID입니다. 최신 구현에서 `mid` 매개 변수로 대체되었습니다. |
 | `AQB` | 없음 | 이미지 요청 쿼리 문자열의 시작을 나타냅니다. |
 | `AQE` | 없음 | 이미지 요청의 끝, 즉 요청이 잘리지 않았음을 나타냅니다. |
@@ -71,7 +57,7 @@ ht-degree: 44%
 | `lat` | 없음 | **더 이상 사용되지 않습니다.** 위도. 기존 모바일 SDK 구현으로 설정되며, 현재 모바일 구현은 데이터스트림을 통해 지리적 위치를 전송합니다. |
 | `lon` | 없음 | **더 이상 사용되지 않습니다.** 경도. 기존 모바일 SDK 구현으로 설정되며, 현재 모바일 구현은 데이터스트림을 통해 지리적 위치를 전송합니다. |
 | `lrt` | 없음 | 마지막 요청의 왕복 시간인 &quot;마지막 요청 시간&quot;(밀리초)입니다. 단일 페이지 애플리케이션(SPA)에서와 같이 단일 페이지에서 두 개 이상의 요청이 전송되는 경우에만 전송됩니다. |
-| `mcorgid` | 없음 | Experience Cloud 조직 ID: Experience Cloud ID 서비스에 조직을 식별합니다. |
+| `mcorgid` | 없음 | 방문자 ID 서비스에 조직을 식별하는 IMS 조직 ID입니다. |
 | `mid` | 없음 | [[!UICONTROL Experience Cloud 방문자 ID]](/help/components/dimensions/experience-cloud-visitor-id.md) 차원에 사용됩니다. |
 | `ms_a` | 없음 | 추적된 스트리밍 미디어가 비디오가 아닌 오디오인 경우 Media SDK에서 `1`(으)로 설정합니다. |
 | `ndh` | 없음 | AppMeasurement에서 생성하는 모든 이미지 요청에 추가됩니다. 하드코딩된 요청에서는 일반적으로 이 히트가 생략되므로 이 히트가 AppMeasurement에서 왔음을 나타냅니다. |

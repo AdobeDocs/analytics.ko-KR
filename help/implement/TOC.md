@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. 수집할 데이터를 사용자 정의하여 Analytics 데이터에서 더 많은 것을 얻을 수 있습니다.
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '445'
 ht-degree: 98%
 
 ---
@@ -172,11 +172,6 @@ ht-degree: 98%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H 코드 문제 해결](js/h-code/troubleshooting.md)
-   + 기존 크로스 디바이스 식별 {#xdevice-visid}
-      + [여러 디바이스의 사용자 연결 개요](js/xdevice-visid/xdevice-connecting.md)
-      + [변수 지속성](js/xdevice-visid/variable-persistence.md)
-      + [방문 예](js/xdevice-visid/visit-example.md)
-      + [기존 크로스 디바이스 FAQ](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement 문제 해결](js/troubleshooting.md)
 + 다른 플랫폼에서 Analytics 구현 {#other}
    + [하드코딩된 이미지 요청을 사용하여 Analytics 구현](other/hardcoded.md)

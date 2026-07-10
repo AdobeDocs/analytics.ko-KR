@@ -5,23 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/2lfkJimoLDCqVNqTDE1bsN92ulwvtZftXF-x0990Udw'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 510
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -31,7 +23,7 @@ Adobe에서는 여러 가지 방법을 사용하여 사이트에서 방문자를
 
 >[!IMPORTANT]
 >
->이 변수는 사용하지 않는 것이 좋습니다. 대신 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하십시오.
+>이 변수는 사용하지 않는 것이 좋습니다. 대신 [Adobe 방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 사용하십시오.
 
 ## Analytics에서 `visitorID`을(를) 사용하는 방법
 
@@ -72,4 +64,4 @@ s.visitorID = "abc123";
 
 ## 웹 SDK을 사용하는 방문자 ID
 
-Adobe Experience Platform Edge Network을 사용하면 XDM의 [ID 맵](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=ko#using-identitymap)을 사용하여 여러 식별자를 제공할 수 있습니다. ID 맵의 각 ID에는 다른 네임스페이스가 있습니다. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko#analytics)의 일부로 방문자 ID에 사용할 네임스페이스를 지정할 수 있습니다. 이 필드가 구성되면 이 네임스페이스에 대해 지정된 값으로 이벤트를 보낼 때 Analytics에서 방문자 ID로 자동으로 사용됩니다.
+Adobe Experience Platform Edge Network을 사용하면 XDM의 [ID 맵](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)을 사용하여 여러 식별자를 제공할 수 있습니다. ID 맵의 각 ID에는 다른 네임스페이스가 있습니다. [데이터 스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)의 일부로 방문자 ID에 사용할 네임스페이스를 지정할 수 있습니다. 이 필드가 구성되면 이 네임스페이스에 대해 지정된 값으로 이벤트를 보낼 때 Analytics에서 방문자 ID로 자동으로 사용됩니다.
