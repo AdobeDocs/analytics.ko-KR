@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 6%
+source-wordcount: '240'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 1. **[!UICONTROL 지표]** 구성 요소에서 **[!UICONTROL 온라인 주문]** 지표를 선택하고 지표를 **[!UICONTROL 정의]** 영역으로 끌어서 놓습니다.
 
    1. 지표에 대해 ![설정](/help/assets/icons/Setting.svg)을(를) 선택합니다.
-   1. **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 선택합니다.
    1. **[!UICONTROL 열 속성 모델]**&#x200B;에서 속성 모델을 조정합니다.
       1. **[!UICONTROL 모델]**&#x200B;에 대해 **[!UICONTROL 사용자 지정]**&#x200B;을(를) 선택하십시오. **[!UICONTROL Starter]**&#x200B;을(를) `0`(으)로, **[!UICONTROL Player]**&#x200B;을(를) `100`(으)로, **[!UICONTROL Closer]**&#x200B;을(를) `0`(으)로 설정합니다.
       1. **[!UICONTROL 컨테이너]**&#x200B;에 대해 **[!UICONTROL 방문자]**&#x200B;을(를) 선택하십시오.
@@ -41,4 +41,4 @@ ht-degree: 6%
 
 1. (선택 사항) [계산된 지표 공유](/help/components/calculated-metrics/workflow/cm-sharing.md)에 설명된 대로 조직의 다른 사용자와 지표를 공유합니다.
 
-이는 마케팅 채널에서 주문을 지원하는 방법을 쉽게 구분하는 방법입니다. 또는 자유 형식 테이블에서 지표를 선택하고 컨텍스트 메뉴에서 속성 모델을 테이블에서 직접 조정할 수 있습니다.
+이는 주문 제작에 도움이 되는 마케팅 채널을 쉽게 알 수 있는 방법입니다. 또는 자유 형식 테이블에서 지표를 선택하고 컨텍스트 메뉴에서 속성 모델을 테이블에서 직접 조정할 수 있습니다.
