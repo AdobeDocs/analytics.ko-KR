@@ -4,30 +4,15 @@ description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d5c4866332fcbc8195e59babd01abc95444ffac
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
 workflow-type: tm+mt
-source-wordcount: 959
-ht-degree: 59%
+source-wordcount: 922
+ht-degree: 61%
 
 ---
 
@@ -42,7 +27,7 @@ ht-degree: 59%
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
 | **하위 히트 분석** <br/>하위 히트 분석을 사용하면 히트 수준보다 더 세분화된 수준에서 제품 데이터를 분석할 수 있습니다. 전체 히트에 대해 필터링하는 대신 히트 내의 개별 제품에 대해 세그먼트화할 수 있습니다. <p>예를 들어 동일한 주문에서 구입한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리에 대해 세그먼트화할 수 있습니다.</p><p>자세한 내용은 [하위 히트 분석](/help/components/segmentation/sub-hit.md)을 참조하세요.</p> | 7월 8일 | 2026년 7월 말 |
-| **Activity Map 확장: 웹 SDK 지원 및 UI 새로 고침** <br/>Adobe Analytics의 웹 SDK 구현에서는 이제 Activity Map 오버레이 확장을 사용하여 웹 사이트에 오버레이된 클릭 데이터를 볼 수 있습니다.<p>이전에는 Activity Map 오버레이 확장을 AppMeasurement 구현에만 사용할 수 있었습니다.</p> <p>웹 SDK 지원 외에도 Activity Map 오버레이 확장에는 업데이트된 모양과 느낌도 포함되어 있습니다.</p><p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 말 |
+| **Activity Map 확장: UI 새로 고침** <br/>Activity Map 오버레이 확장에 업데이트된 모양과 느낌, 향후 개선 사항을 지원하는 기본 개선 사항이 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 말 |
 | **AA 2.0 API 검색 기능 안내서** <br/>검색 기능을 사용하여 [보고서에 차원 항목의 하위 집합을 반환](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)합니다.<p>자세한 내용은 Adobe Developer의 보고서 끝점 안내서에서 [기능 검색](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)을 참조하십시오. | | 2026년 7월 1일 |
 | **AA API를 사용하여 되풀이 보고서 자동화** <br/>보고서 API를 사용하여 일정에 따라 새로운 지표를 사용하여 데이터 파이프라인에 대한 자동 되풀이 Adobe Analytics 보고서를 설정합니다. <p>자세한 내용은 Adobe Developer에서 [반복 Analytics 보고서 자동화 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)를 참조하십시오.</p> | | 2026년 7월 1일 |
 | **AA에 대한 새 확장 매개 변수** <br/>새 Dimension API 확장 매개 변수를 사용하여 할당 유형, 만료, 데이터 유형 및 머천다이징에 대한 eVar 구성 필드를 검색합니다. <p>자세한 내용은 Adobe Developer의 [API 참조](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) 및 [차원 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)를 참조하십시오.</p> | | 2026년 7월 1일 |
@@ -83,7 +68,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 >[!MORELIKETHIS]
 >
 >* [2026년 이전 릴리스 정보](/help/release-notes/2026.md)
->* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
+>* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 >* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/ko/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
+>* [Adobe CX Enterprise 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
 
