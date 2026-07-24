@@ -3,10 +3,10 @@ description: Analysis Workspace에서 여정 캔버스를 사용하는 방법을
 title: 여정 캔버스 개요
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 82f2811e559aa37ddda9e7d94f79889016b9782c
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 89%
+source-wordcount: '1118'
+ht-degree: 88%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;에 여정 캔버스 시각화를 설명합니다.<br/><br/>_자세한 내용은 [여정 캔버스 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)를 참조하십시오_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전._
+_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;에 여정 캔버스 시각화를 설명합니다.<br/><br/>_자세한 내용은 [여정 캔버스 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)를 참조하십시오_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
@@ -49,6 +49,10 @@ _이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytic
 [노드는 &quot;최종 경로&quot;로 연결](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)됩니다. 즉, 방문자는 두 노드 사이에서 발생하는 모든 이벤트에 관계없이 한 노드에서 다른 노드로 이동하는 한 계산됩니다. 사용자가 경로를 따라 이동할 수 있는 시간은 컨테이너 설정에 따라 결정됩니다.
 
 ![여정 캔버스](assets/journey-canvas.png)
+
+## 액세스 요구 사항
+
+여정 캔버스는 Adobe Analytics [Prime](https://www.adobe.com/kr/data-analytics-cloud/analytics/prime.html) 및 [Ultimate](https://www.adobe.com/kr/data-analytics-cloud/analytics/ultimate.html) 고객이 사용할 수 있습니다.
 
 ## 주요 기능
 
@@ -144,4 +148,4 @@ Analysis Workspace에서 사용할 수 있는 모든 차원이나 지표를 기�
 
 >[!MORELIKETHIS]
 >
-> * [Adobe Customer Journey Analytics의 여정 캔버스 시각화 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=ko)
+> * [Adobe Customer Journey Analytics의 여정 캔버스 시각화 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
