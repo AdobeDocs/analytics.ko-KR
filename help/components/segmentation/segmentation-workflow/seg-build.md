@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
+source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 88%
+source-wordcount: 1963
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="제품 호환성"
->abstract="사용 가능한 세그먼트 기준 중 일부는 일부 Adobe Analytics 도구와 호환되지 않습니다. 이 목록에는 해당 세그먼트와 호환되는 도구가 표시됩니다. 세그먼트를 모든 Adobe Analytics 도구와 호환되게 하려면 현재 설정되어 있는 기준을 편집하십시오."
+>abstract="일부 세그먼트 기준은 특정 Adobe Analytics 도구와 호환되지 않습니다. 이 목록에는 호환 가능한 도구가 표시되어 있습니다. 호환성을 보장하려면 기준을 편집하십시오."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +38,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="데이터 미리보기"
->abstract="이 세그먼트의 데이터를 보고서 세트의 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안의 연결 총 수를 기준으로 합니다.<br><br/>미리보기가 로드되지 않는다면 연결이 아직 다시 채우는 중일 수 있습니다."
+>abstract="세그먼트 데이터를 보고서 세트 데이터와 비교합니다. 미리 보기 비율은 **최근 90일**&#x200B;을(를) 기반으로 합니다.<br><br/>미리 보기를 로드하지 않는 경우 연결이 다시 채워집니다."
 
 
 **[!UICONTROL 세그먼트 빌더]** 대화 상자를 사용하여 세그먼트를 새로 만들거나 기존 필터를 편집합니다. 대화 상자 제목은 [[!UICONTROL 세그먼트] 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에서 만들거나 관리하는 세그먼트에 대한 **[!UICONTROL 새로운 세그먼트]** 또는 **[!UICONTROL 필터 세그먼트]**&#x200B;으로 지정됩니다.
@@ -83,7 +83,7 @@ ht-degree: 88%
 
 정의의 유형과 범위를 구성할 수 있습니다.
 
-1. 정의 유형을 지정하려면 포함 정의를 작성할지, 제외 정의를 작성할지 지정합니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 옵션]**&#x200B;을 선택하고 드롭다운 메뉴에서 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]**&#x200B;를 선택합니다.
+1. 정의 유형을 지정하려면 포함 또는 제외 정의를 빌드할지 여부를 지정합니다. ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 옵션]**&#x200B;을 선택하고 드롭다운 메뉴에서 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]**&#x200B;를 선택합니다.
 1. 정의 범위를 지정하려면 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 정의 범위를 **[!UICONTROL 히트]**, **[!UICONTROL 방문]**, **[!UICONTROL 방문자]** 또는 **[!UICONTROL 제품]** 중 하나로 지정할지 여부를 선택합니다. [하위 히트 분석](/help/components/segmentation/sub-hit.md) 사용 사례에 **[!UICONTROL 제품]**&#x200B;을(를) 사용합니다.
 
 나중에 언제든지 이러한 설정을 변경할 수 있습니다.
@@ -122,7 +122,7 @@ ht-degree: 88%
 * 컨테이너에 기존 구성 요소를 추가하려면 구성 요소를 컨테이너로 끌어다 놓습니다.
 * 컨테이너에 다른 구성 요소를 추가하려면 구성 요소 패널에서 컨테이너로 구성 요소를 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
 * 컨테이너 외부에 다른 구성 요소를 추가하려면 구성 요소 패널에서 구성 요소를 컨테이너 외부가 아닌 기본 정의 컨테이너 내부로 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
-* 컨테이너 내 구성 요소 간, 컨테이너 간 또는 컨테이너와 구성 요소 간의 논리를 수정하려면 적절한 **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**&#x200B;을 선택합니다. **[!UICONTROL Then]**&#x200B;을 선택하면 세그먼트가 순차적 세그먼트로 전환됩니다. 자세한 내용은 [순차적 세그먼트 만들기](seg-sequential-build.md)를 참조하십시오.
+* 구성 요소, 컨테이너 또는 해당 조합의 논리를 수정하려면 해당 **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**&#x200B;을(를) 선택하십시오. **[!UICONTROL Then]**&#x200B;을 선택하면 세그먼트가 순차적 세그먼트로 전환됩니다. 자세한 내용은 [순차적 세그먼트 만들기](seg-sequential-build.md)를 참조하십시오.
 * 컨테이너 수준을 전환하려면 ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 히트]**, ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 방문]**, ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 방문자]** 또는 ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 제품]**&#x200B;을 선택하십시오.
 
 다음 액션을 위해 컨테이너에서 ![설정](/help/assets/icons/Setting.svg)을 사용할 수 있습니다.
@@ -141,7 +141,7 @@ ht-degree: 88%
 
 ## 날짜 범위
 
-순환 날짜 범위를 포함하는 세그먼트를 만들 수 있습니다. 따라서 진행 중인 캠페인이나 이벤트에 대한 질문에 답변할 수 있습니다. 예를 들면 *지난 60일 동안 온라인으로 구매한 모든 사람*&#x200B;을 포함하는 세그먼트를 작성할 수 있습니다.
+순환 날짜 범위를 포함하는 세그먼트를 만들 수 있습니다. 따라서 진행 중인 캠페인이나 이벤트에 대한 질문에 답변할 수 있습니다. 예를 들어 *지난 60일 동안 온라인 구매를 한 모든 사람*&#x200B;을 포함하는 세그먼트를 만들 수 있습니다.
 
 ![순환 날짜 범위를 사용하여 세분화](assets/segment-rolling-date-range.png)
 
@@ -157,11 +157,11 @@ ht-degree: 88%
 
 세그먼트를 사용하여 세그먼트를 작성할 수 있습니다. 세그먼트에서 세그먼트를 사용하면 세그먼트를 최적화하고 복잡성을 줄일 수 있습니다.
 
-상호작용 채널(5)과 미국 주(50)의 조합을 세분화하려고 한다고 가정해 보겠습니다. 각각 디바이스 유형(휴대전화와 태블릿)과 미국 주의 고유한 조합에 따라 250개의 세그먼트를 만들 수 있습니다. 캘리포니아의 태블릿 사용자를 얻으려면 250개 세그먼트 중 하나를 사용하면 됩니다.
+상호 작용 채널 (5)와 미국 상태 (50)의 조합으로 세분화하려는 시나리오를 고려하십시오. 각각 디바이스 유형(휴대전화와 태블릿)과 미국 주의 고유한 조합에 따라 250개의 세그먼트를 만들 수 있습니다. 캘리포니아에서 태블릿 사용자를 가져오려면 250개 세그먼트 중 하나를 사용합니다.
 
 ![캘리포니아 및 태블릿용 간단한 세그먼트](assets/segment-ca-tablet-single.png)
 
-또는 55개 세그먼트를 정의할 수 있습니다. 50개의 세그먼트는 미국 주에 대한 것이고, 5개의 세그먼트는 존재 가능한 상호작용 채널에 대한 것입니다. 그런 다음 세그먼트를 누적하여 동일한 결과를 얻을 수 있습니다. 캘리포니아의 모바일 앱 사용자를 얻으려면 두 가지 세그먼트를 적용해야 합니다.
+또는 55개의 세그먼트(미국 주는 50개 세그먼트, 가능한 상호 작용 채널은 5개 세그먼트)를 정의합니다. 동일한 결과를 얻으려면 세그먼트를 스택합니다. California 모바일 앱 사용자를 가져오려면 두 개의 세그먼트를 스택합니다.
 
 ![CA 및 태블릿용 스택 세그먼트](assets/segment-ca-tablet-stacked.png)
 
@@ -188,7 +188,7 @@ ht-degree: 88%
 
 
 
-세그먼트 빌더에서 차원을 사용하면 해당 차원에 대한 속성 모델을 지정하는 옵션이 제공됩니다. 선택한 속성 모델은 차원 구성 요소에 대해 지정한 조건에 데이터가 적합한지 여부를 결정합니다.
+세그먼트 빌더에서 차원을 사용하는 경우 해당 차원에 대한 속성 모델을 지정하는 옵션이 있습니다. 선택한 속성 모델은 차원 구성 요소에 대해 지정한 조건에 데이터가 적합한지 여부를 결정합니다.
 
 차원 구성 요소 내에서 ![설정](/help/assets/icons/Setting.svg)을 선택하고 팝업에서 속성 모델 중 하나를 선택합니다.
 
@@ -196,7 +196,7 @@ ht-degree: 88%
 |---|---|
 | **[!UICONTROL 반복 모델 (기본값)]** | 선별을 결정하기 위해 차원에 대한 인스턴스 값과 지속되는 값을 포함합니다. |
 | **[!UICONTROL 인스턴스]** | 선별을 결정하기 위해 차원에 대한 인스턴스 값만 포함합니다. |
-| **[!UICONTROL 비반복 인스턴스]** | 선별을 결정하기 위해 차원에 대한 고유한 인스턴스(비반복) 값을 포함합니다. |
+| **[!UICONTROL 비반복 인스턴스]** | 선별을 결정하기 위해 차원에 대한 고유한 인스턴스(비반복) 값을 포함합니다. 비반복 인스턴스는 반복 인스턴스가 제외될 때 플로우에 적용되는 모델입니다. |
 
 
 ![세그먼트 빌드 시 차원에 대한 속성 모델](assets/segment-dimension-attribution.png)
@@ -213,16 +213,11 @@ ht-degree: 88%
 아래 테이블은 각 속성 모델에 대해 해당 조건에 적합한 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)에 해당하는 수신 이벤트를 설명합니다.
 
 
-| 여성 페이지 - 속성 - <br/>*속성 모델* | 이벤트 1:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 2:<br/>페이지 이름이 남성과 같음<br/> | 이벤트 3:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 4:<br/>페이지 이름이<br/>여성과 같음<br/>(지속) | 이벤트 5:<br/>페이지 이름이 체크아웃과 같음<br/> | 이벤트 6:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 7:<br/>페이지 이름이 홈과 같음<br/> |
+| 여성 페이지 - 속성 - <br/>*속성 모델* | 이벤트 1:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 2:<br/>페이지 이름이 남성과 같음<br/> | 이벤트 3:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 4:<br/>페이지 이름이<br/>여성과 같음<br/>(지속) | 이벤트 5:<br/>페이지 이름이 체크아웃과 같음<br/> | 이벤트 6:<br/>페이지 이름이 여성과 같음<br/> | 이벤트 7:<br/>페이지 이름이 <br/>여성과 같음(명시적으로 설정됨) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| 반복 (기본값) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
-| 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
+| 반복 (기본값) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 비반복 인스턴스 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) | ![제거](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![제거](/help/assets/icons/Remove.svg) |
-
-세 가지 세그먼트를 사용한 이벤트 보고서의 예는 다음과 같습니다.
-
-![세그먼트 속성 모델 결과](assets/segment-dimension-attribution-results.png)
-
 
 
 <!--
@@ -380,7 +375,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## 세그먼트 템플릿 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-세그먼트 템플릿은 **[!UICONTROL 처음 방문]** 또는 **[!UICONTROL 모바일 디바이스에서 방문]**&#x200B;과 같은 일반적인 세그먼테이션 사용을 위해 제공됩니다. Workspace 프로젝트와 세그먼트 빌더에서 새 세그먼트에 대한 빌딩 블록으로 사용할 수 있습니다.
+세그먼트 템플릿은 **[!UICONTROL 처음 방문]** 또는 **[!UICONTROL 모바일 디바이스에서 방문]**&#x200B;과 같은 일반적인 세그먼테이션 사용을 위해 제공됩니다. Workspace 프로젝트 및 세그먼트 빌더에서 새 세그먼트를 위한 기본 요소로 사용할 수 있습니다.
 
 Adobe 로고 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)는 템플릿을 식별합니다. 사용 가능한 템플릿 샘플은 아래에 나와 있습니다.
 
