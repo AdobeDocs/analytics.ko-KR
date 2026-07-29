@@ -7,35 +7,25 @@ type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 TQID: https://experienceleague.adobe.com/0nmyJL9FDtcP8FTaJXbLCdBSZ0Nnb8U7g0Ox5xH40yw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: b5f2841adb79c985720711ce2197bb1ec39e6821
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1219
 ht-degree: 1%
 
 ---
 
 # 기존 Report Builder 통합 문서 변환
 
-레거시 Report Builder은 2026년 6월에 사용이 종료됩니다. 통합 문서를 기존 Report Builder에서 새 Report Builder으로 마이그레이션해야 합니다. 새 Report Builder은 기존 Report Builder으로 생성된 통합 문서를 신속하게 마이그레이션할 수 있는 편리한 방법을 제공합니다.
+레거시 Report Builder은 2026년 6월에 사용이 종료됩니다. 통합 문서를 기존 Report Builder에서 새 Report Builder으로 마이그레이션합니다. 새 Report Builder은 기존 Report Builder으로 생성된 통합 문서를 신속하게 마이그레이션하는 편리한 방법을 제공합니다.
 
 >[!IMPORTANT]
 >
->각 통합 문서를 복제하고 기존 통합 문서를 변환하기 전에 한 가지 버전의 이름을 변경합니다. 필요한 경우 원본 레거시 통합 문서의 복사본을 항상 유지할 수 있습니다.
+>각 통합 문서를 복제하고 기존 통합 문서를 변환하기 전에 한 가지 버전의 이름을 변경합니다. 이를 통해 필요한 경우 항상 원본 레거시 통합 문서의 복사본을 가질 수 있습니다.
 
 
 >[!BEGINSHADEBOX]
@@ -56,23 +46,23 @@ ht-degree: 1%
 
 * [Report Builder 허브](report-builder-hub.md)의 **[!UICONTROL 예약]** 탭에서 예약된 레거시 통합 문서를 엽니다. 이 작업은 예약된 기존 통합 문서에 대해 선호되는 방법입니다. [전환된 레거시 통합 문서를 예약](#schedule-a-converted-legacy-workbook)하는 즉시 레거시 통합 문서와 연결된 일정을 사용할 수 있는 옵션이 제공됩니다.
 
-   1. [!DNL Excel]을(를) 열고 [!DNL Excel] 리본 모음에서 ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;을(를) 선택합니다.
+  1. [!DNL Excel]을(를) 열고 [!DNL Excel] 리본 모음에서 ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;을(를) 선택합니다.
 
-   1. **[!UICONTROL 로그인]**&#x200B;을 선택하고 Report Builder에 로그인합니다.
+  1. **[!UICONTROL 로그인]**&#x200B;을 선택하고 Report Builder에 로그인합니다.
 
-   1. [Report Builder 허브](report-builder-hub.md)에서 **[!UICONTROL 예약]**&#x200B;을 선택하세요.
-   1. **[!UICONTROL 레거시]** 탭을 선택합니다. 탭에는 사용자가 만든 레거시 Report Builder 기반 예약 통합 문서가 나열됩니다.
+  1. [Report Builder 허브](report-builder-hub.md)에서 **[!UICONTROL 예약]**&#x200B;을 선택하세요.
+  1. **[!UICONTROL 레거시]** 탭을 선택합니다. 탭에는 사용자가 만든 레거시 Report Builder 기반 예약 통합 문서가 나열됩니다.
 
-      ![레거시 워크플로](assets/upgrade-legacy-schedule.png)
+     ![레거시 워크플로](assets/upgrade-legacy-schedule.png)
 
-   1. 목록에서 변환할 예약된 통합 문서를 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택하고 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다. 통합 문서가 다운로드되어 [!DNL Excel]의 새 창에서 열립니다. 이제 [기존 Report Builder 통합 문서를 변환](#convert-a--workbook)할 수 있습니다.
+  1. 목록에서 변환할 예약된 통합 문서를 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택하고 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다. 통합 문서가 다운로드되어 새 [!DNL Excel] 창에 열립니다. 이제 [기존 Report Builder 통합 문서를 변환](#convert-a--workbook)할 수 있습니다.
 
 
-* 로컬 컴퓨터나 네트워크에서 직접 레거시 통합 문서를 엽니다. 이 방법을 사용하면 기존 통합 문서와 연결할 수 있는 일정을 사용할 수 없습니다. <br/>이전 통합 문서가 [!DNL Excel]에 열려 있는 경우:
+* 로컬 컴퓨터나 네트워크에서 직접 레거시 통합 문서를 엽니다. 이 방법을 사용하면 기존 통합 문서와 연결된 일정이 제공되지 않습니다. <br/>이전 통합 문서가 [!DNL Excel]에 열려 있는 경우:
 
-   1. [!DNL Excel] 리본 표시줄에서 ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;을(를) 선택합니다.
-   1. **[!UICONTROL 로그인]**&#x200B;을 선택하고 Report Builder에 로그인합니다.
-   1. [기존 통합 문서를 변환](#convert-a-workbook)합니다.
+  1. [!DNL Excel] 리본 표시줄에서 ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;을(를) 선택합니다.
+  1. **[!UICONTROL 로그인]**&#x200B;을 선택하고 Report Builder에 로그인합니다.
+  1. [기존 통합 문서를 변환](#convert-a-workbook)합니다.
 
 
 ## 레거시 통합 문서 변환
@@ -116,7 +106,7 @@ Report Builder 허브의 **[!UICONTROL 예약]** 탭에서 다운로드하고 �
 1. 변환된 이전 통합 문서를 이전 일정으로 예약하려면 다음과 같이 하십시오.
 
    * Report Builder 허브에서 **[!UICONTROL 통합 문서 보내기]**&#x200B;를 선택하거나
-   * Report Builder의 **[!UICONTROL 일정]** 탭에서 사용할 수 있는 **[!UICONTROL 통합 문서]** 탭에서 **[!UICONTROL 통합 문서 예약]**&#x200B;을 선택합니다.
+   * Report Builder **[!UICONTROL 일정]** 탭의 **[!UICONTROL 통합 문서]** 탭에서 **[!UICONTROL 통합 문서 예약]**&#x200B;을 선택합니다.
 
 1. 기존 통합 문서의 일정 세부 정보를 기본 일정 설정으로 사용할 수 있습니다.
 
@@ -143,24 +133,25 @@ Report Builder 허브의 **[!UICONTROL 예약]** 탭에서 다운로드하고 �
 
 * **방문자 지표**. 보고 결과가 정확히 일치하지 않더라도 다음 지표는 변환된 레거시 통합 문서에서 *고유 방문자*(으)로 변환됩니다. `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` 및 `visitorsyearly`. 이 변환은 `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` 및 `mobilevisitorsyearly`에도 적용됩니다.
 
+* **세부 기간**: Report Builder에는 기존 Report Builder과 같은 세부 기간에 대한 특정 옵션이 없습니다. 보고서에 세부 기간 수준을 적용하려면 요청에 날짜 차원을 사용하십시오.
 * **자동 재인증**. 새 [!DNL Excel] 파일을 열 때 명시적으로 다시 인증해야 합니다. 이 재인증은 [!DNL Office Add-ins] 기능의 보안 기능입니다.
 
-* **데이터 블록 그룹이 있는 워크시트를 복사합니다**. 두 개 이상의 데이터 블록이 포함된 워크시트의 복사를 지원하려면 다음 작업을 수행하십시오.
+* **데이터 블록 그룹이 있는 워크시트를 복사합니다**. 두 개 이상의 데이터 블록이 포함된 워크시트의 복사를 지원하려면 다음을 수행합니다.
 
-   1. [!DNL Excel] 통합 문서에서 복사할 워크시트 탭을 선택합니다.
-   1. 탭의 컨텍스트 메뉴에서 **[!UICONTROL 이동 또는 복사...]**&#x200B;를 선택합니다.
-   1. **[!UICONTROL 이동 또는 복사]** 대화 상자에서:
-      1. 복사한 워크시트를 복사할 위치를 선택합니다.
-      1. **[!UICONTROL 복사본 만들기]**&#x200B;를 사용하도록 설정해야 합니다.
-      1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
-   1. 소스 워크시트에서
-      1. 모든 데이터 블록을 포함하는 셀 범위를 선택합니다.
-      1. [Report Builder 허브](/help/analyze/report-builder/report-builder-hub.md)에서 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 데이터 블록 복사]**&#x200B;를 선택합니다.
-   1. 대상 워크시트에서
-      1. 복사한 셀 범위를 붙여 넣을 셀을 선택합니다.
-      1. [Report Builder 허브](/help/analyze/report-builder/report-builder-hub.md)에서 ![붙여넣기](/help/assets/icons/Paste.svg) **[!UICONTROL 데이터 블록 붙여넣기]**&#x200B;를 선택합니다.
+  1. [!DNL Excel] 통합 문서에서 복사할 워크시트 탭을 선택합니다.
+  1. 탭의 컨텍스트 메뉴에서 **[!UICONTROL 이동 또는 복사...]**&#x200B;를 선택합니다.
+  1. **[!UICONTROL 이동 또는 복사]** 대화 상자에서:
+     1. 복사한 워크시트를 복사할 위치를 선택합니다.
+     1. **[!UICONTROL 복사본 만들기]**&#x200B;를 사용하도록 설정해야 합니다.
+     1. **[!UICONTROL 확인]**&#x200B;을 선택합니다.
+  1. 소스 워크시트에서
+     1. 모든 데이터 블록을 포함하는 셀 범위를 선택합니다.
+     1. [Report Builder 허브](/help/analyze/report-builder/report-builder-hub.md)에서 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 데이터 블록 복사]**&#x200B;를 선택합니다.
+  1. 대상 워크시트에서
+     1. 복사한 셀 범위를 붙여 넣을 셀을 선택합니다.
+     1. [Report Builder 허브](/help/analyze/report-builder/report-builder-hub.md)에서 ![붙여넣기](/help/assets/icons/Paste.svg) **[!UICONTROL 데이터 블록 붙여넣기]**&#x200B;를 선택합니다.
 
-* **날짜 범위**. Report Builder은 기존 Report Builder의 날짜 범위에 대한 행 레이블에 적용된 날짜 범위 서식 옵션 **[!UICONTROL 시작 및 종료 기간을]**(으)로 표시&rbrack;를 마이그레이션하지 않습니다.
+* **날짜 범위**. Report Builder은 기존 Report Builder의 날짜 범위에 대한 행 레이블에 적용된 날짜 범위 서식 옵션 **[!UICONTROL 시작 및 종료 기간을]**(으)로 표시]를 마이그레이션하지 않습니다.
 
 * **평균**. Report Builder은 선택한 서식 옵션 **[!UICONTROL 평균 옵션]**(**[!UICONTROL 일별 평균]** ~ **[!UICONTROL 연간 평균]**)을(를) 기존 Report Builder의 지표에 적용하지 않습니다. 계산된 지표를 사용하여 선택한 옵션을 대체합니다.
 
