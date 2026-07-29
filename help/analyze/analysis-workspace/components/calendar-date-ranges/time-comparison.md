@@ -5,35 +5,27 @@ feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 TQID: https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: f1c344895b5ad9ff2db00d04c6e5873a0de1da31
 workflow-type: tm+mt
-source-wordcount: 768
-ht-degree: 95%
+source-wordcount: 804
+ht-degree: 71%
 
 ---
 
 # 날짜 비교
 
-Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
+Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비 또는 전월 대비 같은 일반 날짜 비교를 만들 수 있습니다.
 
 ## 기간 비교
 
-분석하려면 컨텍스트가 필요하며, 해당 컨텍스트를 이전 기간에서 제공하는 경우가 종종 있습니다. 예를 들어, *작년 이맘때와 비교하여 현재 얼마나 더 좋아졌습니까, 더 나빠졌습니까?*&#x200B;라는 질문이 있습니다. 은 귀하의 비즈니스를 이해하는 데 기본적입니다. 날짜 비교에 *차이점* 열이 자동으로 포함되는데, 이 열은 지정된 기간과 비교한 백분율 변경을 표시합니다.
+분석에는 컨텍스트가 필요하며 이전 기간은 종종 해당 컨텍스트를 제공합니다. 예를 들어, *작년 이맘때와 비교하여 현재 얼마나 더 좋아졌습니까, 더 나빠졌습니까?*&#x200B;라는 질문이 있습니다. 은 귀하의 비즈니스를 이해하는 데 필수적입니다. 날짜 비교에 *차이점* 열이 자동으로 포함되는데, 이 열은 지정된 기간과 비교한 백분율 변경을 표시합니다.
 
 1. 기간을 비교할 차원 및 지표를 사용하여 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)을 만듭니다.
-1. 패널 또는 열에서 기간을 설정하여 비교 시간대를 결정하고, 이것이 순환 시간 비교인지 고정 시간 비교인지 결정합니다.
+1. 비교 시간대와 롤링 또는 고정 시간 비교인지 확인하려면 패널 또는 열에서 기간을 설정합니다.
 
    순환 시간 비교를 생성하려면, 패널 또는 컬럼의 날짜 범위를 순환 날짜 범위(예: **[!UICONTROL 지난 7일]**, **[!UICONTROL 지난 30일]** 등)로 설정합니다.
 
@@ -66,7 +58,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 ## 비교할 기간 열 추가
 
-이제 테이블의 각 열에 기간을 추가하여 캘린더에 설정된 기간과 다른 기간을 추가할 수 있습니다.
+이제 테이블의 각 열에 기간을 추가할 수 있습니다. 이렇게 하면 달력이 설정된 기간과 다른 기간을 추가할 수 있습니다.
 
 1. 테이블에서 열을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 기간 열 추가]**&#x200B;를 선택합니다.
 
@@ -96,20 +88,21 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 각 열의 날짜가 같은 행에서 시작하도록 맞출 수 있습니다.
 
-예를 들어 지난주(2024년 10월 5일 종료)와 그 이전 주의 일별 비교를 수행합니다. 기본적으로 왼쪽 열은 9월 22일부터 시작하고 오른쪽 열은 9월 29일부터 시작합니다.
+예를 들어 지난 주(2024년 10월 5일 종료) 및 이전 주에 대해 전일 비교를 수행합니다. 기본적으로 왼쪽 열은 9월 22일로 시작되고 오른쪽 열은 9월 29일로 시작됩니다.
 
 ![날짜가 정렬되지 않았습니다](assets/not-align-dates.png)
 
-자유 형식 테이블 시각화에서 열 날짜를 같은 행에서 시작하도록 정렬하려면 [설정](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1)에서 **[!UICONTROL 각 열의 날짜를 모두 같은 행에서 시작하도록 정렬]**&#x200B;을 활성화할 수 있습니다.
+자유 형식 테이블 시각화에서 열 날짜를 같은 행에서 시작하도록 정렬하려면 [설정](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1)에서 **[!UICONTROL 각 열의 날짜를 모두 같은 행에서 시작하도록 정렬]**&#x200B;을 활성화할 수 있습니다. 첫 번째 열이 이 정렬에 사용됩니다.
 
 ![](assets/align-dates.png)
 
 이 옵션을 사용할 때 다음 사항을 고려합니다.
 
-* 이 설정은 모든 새 프로젝트에서 기본적으로 활성화됩니다.
+* 시스템은 모든 새 프로젝트에 대해 기본적으로 이 설정을 활성화합니다.
 
 * 이 설정은 전체 테이블에 적용됩니다. 예를 들어 테이블 내 분류에 대한 이 설정을 변경하면 전체 테이블의 설정이 적용됩니다.
 
+* 이 설정을 활성화하면 모든 열 셀의 오른쪽 위 모서리에 작은 날짜 레이블이 표시되어 적절한 날짜(해당하는 경우 시간)로 셀에 주석을 답니다.
 
 <!--
 # Date comparison
@@ -119,7 +112,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
