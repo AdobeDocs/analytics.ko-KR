@@ -5,30 +5,15 @@ feature: Release Notes
 hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2eae8a2c631717f67abba1c17a4f61975bb99a18
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 27661f5ca52e35b03d0d7eff8c39491b0a198aea
 workflow-type: tm+mt
-source-wordcount: 897
-ht-degree: 64%
+source-wordcount: 907
+ht-degree: 63%
 
 ---
 
@@ -42,9 +27,9 @@ ht-degree: 64%
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
+| **Activity Map 확장: UI 새로 고침** <br/>Activity Map 오버레이 확장에 업데이트된 모양과 느낌, 향후 개선 사항을 지원하는 기본 개선 사항이 있습니다.<p>Activity Map 오버레이 확장에 대한 자세한 내용은 [Activity Map 확장 인터페이스](/help/analyze/activity-map/overlay/overview.md)를 참조하십시오.</p> | | 2026년 8월 5일<p>(원래 7월 말로 계획됨)</p> |
 | **LLM Optimizer에서 Analytics 데이터 사용**<br> LLM Optimizer을 조직의 Customer Journey Analytics 데이터와 연결하면 AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 14일 |
 | **여정 캔버스 개선 사항**<br>&#x200B;다음 여정 캔버스 개선 사항을 사용할 수 있습니다.<ul><li>여정을 이전 시간대와 비교합니다. 4주 전, 2분기 전, 1년 전 여정 또는 사용자 지정 날짜 범위와 현재 여정을 비교합니다.</li><li>선택한 노드의 경우 여정의 임의의 지점에서 선택한 노드 뒤에 오는 상위 차원 항목을 표시합니다. 선택한 노드가 분석의 주요 이벤트이고 이후에 사람들이 무슨 작업을 수행하는지 보려는 경우 사용합니다.<p>이전에는 선택한 노드의 앞 또는 뒤에 바로 위 노드만 표시할 수 있었습니다. </p></li><li>노드 사이의 화살표 모양 및 스타일을 변경합니다. 노드 사이에 화살표를 드래그하여 화살표의 모양(곡선화)을 변경하고, 화살표를 마우스 오른쪽 버튼으로 클릭하여 스타일을 단색, 파선, 점선, 파선 점 또는 애니메이션 중 하나로 변경합니다.</li></ul><p></p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오. | | 2026년 8월 18일 |
-| **Activity Map 확장: UI 새로 고침** <br/>Activity Map 오버레이 확장에 업데이트된 모양과 느낌, 향후 개선 사항을 지원하는 기본 개선 사항이 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월<p>(원래 7월 말로 계획됨)</p> |
 | **마이그레이션 플래너: Adobe Analytics에서 Customer Journey Analytics으로**<br>&#x200B;마이그레이션 플래너는 XDM 스키마 만들기 및 AppMeasurement 또는 Analytics 확장 프로그램(태그)에서 Experience Platform Web SDK으로 마이그레이션하는 작업을 포함하여 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 작업과 관련된 가장 복잡하고 시간이 오래 걸리는 작업 중 일부를 자동화하는 마이그레이션 마법사를 제공합니다. <p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 또는 9월 말 |
 
 ### Adobe Analytics의 수정 사항
@@ -83,7 +68,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 >[!MORELIKETHIS]
 >
 >* [2026년 이전 릴리스 정보](/help/release-notes/2026.md)
->* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
+>* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 >* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/ko/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
+>* [Adobe CX Enterprise 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
 
