@@ -2,6 +2,7 @@
 title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -24,43 +25,45 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
+source-git-commit: 3516dded61a29a1137a554a5f3ebf46f7c81903f
 workflow-type: tm+mt
-source-wordcount: 922
-ht-degree: 61%
+source-wordcount: 1016
+ht-degree: 56%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보 (2026년 7월)
+# 최신 Adobe Analytics 릴리스 정보 (2026년 8월)
 
-**마지막 업데이트**: 2026년 7월 8일
+**마지막 업데이트**: 2026년 8월 4일
 
-이 릴리스 정보는 2026년 7월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2026년 8월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
-| **하위 히트 분석** <br/>하위 히트 분석을 사용하면 히트 수준보다 더 세분화된 수준에서 제품 데이터를 분석할 수 있습니다. 전체 히트에 대해 필터링하는 대신 히트 내의 개별 제품에 대해 세그먼트화할 수 있습니다. <p>예를 들어 동일한 주문에서 구입한 다른 모든 제품을 포함하지 않고 특정 제품 카테고리에 대해 세그먼트화할 수 있습니다.</p><p>자세한 내용은 [하위 히트 분석](/help/components/segmentation/sub-hit.md)을 참조하세요.</p> | 7월 8일 | 2026년 7월 말 |
-| **Activity Map 확장: UI 새로 고침** <br/>Activity Map 오버레이 확장에 업데이트된 모양과 느낌, 향후 개선 사항을 지원하는 기본 개선 사항이 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 7월 말 |
-| **AA 2.0 API 검색 기능 안내서** <br/>검색 기능을 사용하여 [보고서에 차원 항목의 하위 집합을 반환](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)합니다.<p>자세한 내용은 Adobe Developer의 보고서 끝점 안내서에서 [기능 검색](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)을 참조하십시오. | | 2026년 7월 1일 |
-| **AA API를 사용하여 되풀이 보고서 자동화** <br/>보고서 API를 사용하여 일정에 따라 새로운 지표를 사용하여 데이터 파이프라인에 대한 자동 되풀이 Adobe Analytics 보고서를 설정합니다. <p>자세한 내용은 Adobe Developer에서 [반복 Analytics 보고서 자동화 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)를 참조하십시오.</p> | | 2026년 7월 1일 |
-| **AA에 대한 새 확장 매개 변수** <br/>새 Dimension API 확장 매개 변수를 사용하여 할당 유형, 만료, 데이터 유형 및 머천다이징에 대한 eVar 구성 필드를 검색합니다. <p>자세한 내용은 Adobe Developer의 [API 참조](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) 및 [차원 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)를 참조하십시오.</p> | | 2026년 7월 1일 |
+| **Activity Map 확장: UI 새로 고침** <br/>Activity Map 오버레이 확장에 업데이트된 모양과 느낌, 향후 개선 사항을 지원하는 기본 개선 사항이 있습니다.<p>Activity Map 오버레이 확장에 대한 자세한 내용은 [Activity Map 확장 인터페이스](/help/analyze/activity-map/overlay/overview.md)를 참조하십시오.</p> | | 2026년 8월 5일<p>(원래 7월 말로 계획됨)</p> |
+| **LLM Optimizer에서 Analytics 데이터 사용**<br> LLM Optimizer을 조직의 Customer Journey Analytics 데이터와 연결하면 AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 14일 |
+| **여정 캔버스 개선 사항**<br>&#x200B;다음 여정 캔버스 개선 사항을 사용할 수 있습니다.<ul><li>여정을 이전 시간대와 비교합니다. 4주 전, 2분기 전, 1년 전 여정 또는 사용자 지정 날짜 범위와 현재 여정을 비교합니다.</li><li>선택한 노드의 경우 여정의 임의의 지점에서 선택한 노드 뒤에 오는 상위 차원 항목을 표시합니다. 선택한 노드가 분석의 주요 이벤트이고 이후에 사람들이 무슨 작업을 수행하는지 보려는 경우 사용합니다.<p>이전에는 선택한 노드의 앞 또는 뒤에 바로 위 노드만 표시할 수 있었습니다. </p></li><li>노드 사이의 화살표 모양 및 스타일을 변경합니다. 노드 사이에 화살표를 드래그하여 화살표의 모양(곡선화)을 변경하고, 화살표를 마우스 오른쪽 버튼으로 클릭하여 스타일을 단색, 파선, 점선, 파선 점 또는 애니메이션 중 하나로 변경합니다.</li></ul><p></p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오. | | 2026년 8월 18일 |
+| **마이그레이션 플래너: Adobe Analytics에서 Customer Journey Analytics으로**<br>&#x200B;마이그레이션 플래너는 XDM 스키마 만들기 및 AppMeasurement 또는 Analytics 확장 프로그램(태그)에서 Experience Platform Web SDK으로 마이그레이션하는 작업을 포함하여 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 작업과 관련된 가장 복잡하고 시간이 오래 걸리는 작업 중 일부를 자동화하는 마이그레이션 마법사를 제공합니다. <p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 또는 9월 말 |
+| **Analytics API 마케팅 채널 참조**<br/> Adobe Analytics 2.0 API 마케팅 채널 참조를 사용하여 Analytics 마케팅 채널 정보를 검색합니다. [Analytics API 마케팅 채널 참조](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels)를 참조하세요. | | 2026년 8월 1일 |
+| **Analytics API 마케팅 채널 끝점 가이드**<br/> Adobe Analytics 2.0 API 마케팅 채널 끝점 가이드는 끝점 사용에 대한 지침과 예를 제공합니다. [Analytics API 마케팅 채널 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels)를 참조하십시오. | | 2026년 8월 1일 |
+| **Analytics 1.4 API EOL 고객 FAQ**<br/> Analytics 1.4 API EOL 고객 FAQ는 1.4 API를 종료하는 고객을 지원하기 위한 최신 2.0 API 개발에 대한 정보를 제공합니다. | | 2026년 8월 10일 |
 
 ### Adobe Analytics의 수정 사항
 
 **Activity Map**:
-**Analysis Workspace**: AN-449890, AN-457527, AN-451161, AN-459034, AN-458071, AN-458398
-**분류**: AN-453318, AN-456739, AN-455828, AN-455270, AN-460272, AN-459367, AN-459239, AN-458418, AN-458417
-**데이터 피드 및 Data Warehouse**: AN-456945, AN-460700
+**Analysis Workspace**:
+**분류**:
+**데이터 피드 및 Data Warehouse**:
 **마이그레이션**:
 **내보내기**:
-**Report Builder**: AN-457533, AN-453683
-**보고**: AN-447692, AN-451259, AN-455713
+**Report Builder**:
+**보고**:
 **보고서 세트**:
-**예약된 보고서**: AN-450715
+**예약된 보고서**:
 **세분화**:
-**기타**: AN-453982, AN-455771
+**기타**:
 
 ### 서비스 종료(EOL) 알림 {#eol}
 
