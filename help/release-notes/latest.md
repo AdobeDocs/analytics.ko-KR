@@ -2,7 +2,6 @@
 title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -25,16 +24,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 26759b2b3290cbfdda78aa0a5b45fc3ade43c37e
+source-git-commit: fb075dbb41d961c625a6af24e70e07b398203b39
 workflow-type: tm+mt
 source-wordcount: 1270
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2026년 8월)
 
-**마지막 업데이트**: 2026년 8월 4일
+**마지막 업데이트**: 2026년 8월 5일
 
 이 릴리스 정보는 2026년 8월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -44,7 +43,7 @@ ht-degree: 44%
 | ----------- | ---------- | ---- |
 | **Activity Map 확장: UI 새로 고침** <br/>Activity Map 오버레이 확장에 업데이트된 모양과 느낌, 향후 개선 사항을 지원하는 기본 개선 사항이 있습니다.<p>Activity Map 오버레이 확장에 대한 자세한 내용은 [Activity Map 확장 인터페이스](/help/analyze/activity-map/overlay/overview.md)를 참조하십시오.</p> | | 2026년 8월 5일<p>(원래 7월 말로 계획됨)</p> |
 | **LLM Optimizer에서 Analytics 데이터 사용**<br> LLM Optimizer을 조직의 Customer Journey Analytics 데이터와 연결하면 AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있습니다.<p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 14일 |
-| **여정 캔버스 개선 사항**<br>&#x200B;다음 여정 캔버스 개선 사항을 사용할 수 있습니다.<ul><li>여정을 이전 시간대와 비교합니다. 4주 전, 2분기 전, 1년 전 여정 또는 사용자 지정 날짜 범위와 현재 여정을 비교합니다.</li><li>선택한 노드의 경우 여정의 임의의 지점에서 선택한 노드 뒤에 오는 상위 차원 항목을 표시합니다. 선택한 노드가 분석의 주요 이벤트이고 이후에 사람들이 무슨 작업을 수행하는지 보려는 경우 사용합니다.<p>이전에는 선택한 노드의 앞 또는 뒤에 바로 위 노드만 표시할 수 있었습니다. </p></li><li>노드 사이의 화살표 모양 및 스타일을 변경합니다. 노드 사이에 화살표를 드래그하여 화살표의 모양(곡선화)을 변경하고, 화살표를 마우스 오른쪽 버튼으로 클릭하여 스타일을 단색, 파선, 점선, 파선 점 또는 애니메이션 중 하나로 변경합니다.</li></ul><p></p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오. | | 2026년 8월 18일 |
+| **여정 캔버스 개선 사항**<br>&#x200B;다음 여정 캔버스 개선 사항을 사용할 수 있습니다.<ul><li>여정을 이전 시간대와 비교합니다. 4주 전, 2분기 전, 1년 전 여정 또는 사용자 지정 날짜 범위와 현재 여정을 비교합니다.</li><li>선택한 노드의 경우 여정의 임의의 지점에서 선택한 노드 뒤에 오는 상위 차원 항목을 표시합니다. 선택한 노드가 분석의 주요 이벤트이고 이후에 사람들이 무슨 작업을 수행하는지 보려는 경우 사용합니다.<p>이전에는 선택한 노드의 앞 또는 뒤에 바로 위 노드만 표시할 수 있었습니다. </p></li><li>노드 사이의 화살표 모양 및 스타일을 변경합니다. 노드 사이에 화살표를 드래그하여 화살표의 모양(곡률)을 변경하고, 화살표를 마우스 오른쪽 버튼으로 클릭하여 스타일을 단색, 파선, 점선, 파선 점 또는 애니메이션 중 하나로 변경합니다.</li></ul><p></p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오. | | 2026년 8월 18일 |
 | **마이그레이션 플래너: Adobe Analytics에서 Customer Journey Analytics으로**<br>&#x200B;마이그레이션 플래너는 XDM 스키마 만들기 및 AppMeasurement 또는 Analytics 확장 프로그램(태그)에서 Experience Platform Web SDK으로 마이그레이션하는 작업을 포함하여 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드하는 작업과 관련된 가장 복잡하고 시간이 오래 걸리는 작업 중 일부를 자동화하는 마이그레이션 마법사를 제공합니다. <p>(참조할 설명서 링크입니다.)</p> | | 2026년 8월 또는 9월 말 |
 | **Analytics API 마케팅 채널 참조**<br/> Adobe Analytics 2.0 API 마케팅 채널 참조를 사용하여 Analytics 마케팅 채널 정보를 검색합니다. [Analytics API 마케팅 채널 참조](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels)를 참조하세요. | | 2026년 8월 1일 |
 | **Analytics API 마케팅 채널 끝점 가이드**<br/> Adobe Analytics 2.0 API 마케팅 채널 끝점 가이드는 끝점 사용에 대한 지침과 예를 제공합니다. [Analytics API 마케팅 채널 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels)를 참조하십시오. | | 2026년 8월 1일 |
