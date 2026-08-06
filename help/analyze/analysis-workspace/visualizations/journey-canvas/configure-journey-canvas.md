@@ -3,10 +3,10 @@ description: 여정 캔버스 시각화를 구성하는 방법을 이해합니�
 title: 여정 캔버스 시각화 구성
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 9f5b9cdd90892f7efa65f09831daaf307e16c7d7
 workflow-type: tm+mt
-source-wordcount: '5783'
-ht-degree: 90%
+source-wordcount: '5926'
+ht-degree: 91%
 
 ---
 
@@ -69,6 +69,33 @@ _이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![Ad
 >id="aa_journeycanvas_percentage_value"
 >title="백분율 계산 방법 선택"
 >abstract="각 노드에 표시되는 백분율은 사용자가 구성하는 기본 및 보조 지표를 기반으로 합니다. 백분율이 시작 노드, 이전 노드 또는 보고서 세트의 모든 데이터와 관련되는지 여부를 선택할 수 있습니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_arrow_settings"
+>title="화살표 설정"
+>abstract="캔버스에서 레이블을 표시할지 또는 숨길지 여부를 선택합니다. 레이블은 여정 캔버스 내에서 생성된 사용자 정의 이름입니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_show_fallout"
+>title="폴아웃 표시"
+>abstract="폴아웃 데이터는 여정의 각 노드에서 다음 노드에 도달하지 못한 사람 또는 세션의 백분율과 숫자를 보여줍니다. 이들은 사이트에서 다른 액션을 수행했을 수도 있지만, 여정의 다음 노드에서 정의된 기준을 충족하지 못했습니다.<br/>폴아웃 데이터는 사람 또는 세션을 표시하며(선택한 기본 지표에 관계 없이) 여정 캔버스 컨테이너 설정을 기반으로 합니다."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_compare"
+>title="비교 대상"
+>abstract="이전 기간 대비 현재 여정 데이터를 비교하는 데 사용되는 날짜 범위입니다. 비교 날짜 범위를 선택하면 여정의 각 노드에는 기본 지표를 기반으로 현재 날짜 범위와 선택한 비교 날짜 범위 간의 백분율 변동 정보가 표시됩니다. "
 
 <!-- markdownlint-enable MD034 -->
 
