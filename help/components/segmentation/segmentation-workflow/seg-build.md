@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
 source-wordcount: 1963
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="제품 호환성"
->abstract="일부 세그먼트 기준은 특정 Adobe Analytics 도구와 호환되지 않습니다. 이 목록에는 호환 가능한 도구가 표시되어 있습니다. 호환성을 보장하려면 기준을 편집하십시오."
+>abstract="일부 세그먼트 기준이 특정 Adobe Analytics 도구와 호환되지 않습니다. 이 목록에 호환되는 도구가 표시되어 있습니다. 호환성을 보장하려면 기준을 편집해 주십시오."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +38,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="데이터 미리보기"
->abstract="세그먼트 데이터를 보고서 세트 데이터와 비교합니다. 미리 보기 비율은 **최근 90일**&#x200B;을(를) 기반으로 합니다.<br><br/>미리 보기를 로드하지 않는 경우 연결이 다시 채워집니다."
+>abstract="세그먼트 데이터를 보고서 세트 데이터와 비교합니다. 미리보기 비율은 **지난 90일** 동안을 기준으로 합니다.<br><br/>미리보기가 로드되지 않는다면 연결이 아직 다시 채워지는 중입니다."
 
 
 **[!UICONTROL 세그먼트 빌더]** 대화 상자를 사용하여 세그먼트를 새로 만들거나 기존 필터를 편집합니다. 대화 상자 제목은 [[!UICONTROL 세그먼트] 관리자](/help/components/segmentation/segmentation-workflow/seg-manage.md)에서 만들거나 관리하는 세그먼트에 대한 **[!UICONTROL 새로운 세그먼트]** 또는 **[!UICONTROL 필터 세그먼트]**&#x200B;으로 지정됩니다.
