@@ -4,33 +4,27 @@ description: Adobe Analytics에서 분류 세트에 대한 스키마를 보고 �
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
 TQID: 'https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bceid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 852737398297f5317ab781f2c7dceb8ab72e7ee8
 workflow-type: tm+mt
-source-wordcount: 1895
+source-wordcount: 1937
 ht-degree: 9%
 
 ---
 
 # 분류 세트 스키마
 
-스키마는 분류 세트에 대해 정의한 주요 차원에 적용할 분류 목록입니다. 예를 들어, 제품을 키 차원으로 정의했으며 이 필드에 제품 SKU가 포함되어 있는 경우 스키마를 사용하여 제품 이름, 색상 및 크기와 같은 분류를 추가합니다.
+스키마는 분류 세트에 대해 정의한 주요 차원에 적용할 분류 목록입니다. 예를 들어 product가 키 차원인 경우 스키마를 사용하여 제품 이름, 색상 및 크기와 같은 분류를 추가합니다.
 
 분류 세트에 대한 스키마를 편집하려면 다음을 수행하십시오.
 
 1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트]** 관리자에서 스키마를 편집할 분류 세트를 선택합니다.
-1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**&#x200B;대화 상자에서&#x200B;**[!UICONTROL 스키마]**&#x200B;탭을 선택합니다. 해당 탭은 다음 인터페이스 요소로 구성됩니다.
+1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**대화 상자에서&#x200B;**[!UICONTROL 스키마]**탭을 선택합니다. 해당 탭은 다음 인터페이스 요소로 구성됩니다.
 
    ![분류 집합 - 스키마](assets/classification-sets-schema.png)
 
@@ -74,7 +68,7 @@ ht-degree: 9%
 
 ![분류 세트 - 스키마에 분류 추가](assets/classification-sets-schema-add-classification.png)
 
-**[!UICONTROL _분류 집합 이름_]**&#x200B;에 대한 새 분류 추가 대화 상자에서&#x200B;**[!UICONTROL 분류 이름]**&#x200B;을 입력하고&#x200B;**[!UICONTROL 추가]**&#x200B;를 선택합니다. 분류가 목록에 추가됩니다.
+**[!UICONTROL _분류 집합 이름_]**에 대한 새 분류 추가 대화 상자에서&#x200B;**[!UICONTROL 분류 이름]**을 입력하고&#x200B;**[!UICONTROL 추가]**를 선택합니다. 분류가 목록에 추가됩니다.
 
 ### 업로드
 
@@ -92,7 +86,7 @@ ht-degree: 9%
 
    열에 대한 분류 집합에 분류가 정의되지 않은 경우 경고 ![Alert](/help/assets/icons/Alert.svg)이(가) 표시됩니다. 기존 분류 스키마 세트에 분류가 없고 가져올 때 생성된다는 경고가 표시됩니다.
 
-1. **[!UICONTROL 충돌 시 데이터를 덮어쓰시겠습니까?]** 현재 분류 데이터를 새로 가져온 데이터로 덮어쓰려는 경우 예:
+1. **[!UICONTROL 충돌 시 데이터를 덮어쓰시겠습니까?]** 현재 분류 데이터를 새로 가져온 데이터로 덮어쓰려는 경우. 예:
 
    | | 키 | 현재 제품 색상 | 파일 가져오기 | 새 제품 색상 |
    |---|---|---|---|---|
@@ -112,7 +106,7 @@ ht-degree: 9%
 
 ![분류 세트 - 스키마 분류 데이터 다운로드](assets/classification-sets-schema-download-file.png)
 
-**[!UICONTROL _분류 집합 이름_]**&#x200B;에 대한 데이터 다운로드 대화 상자에서:
+**[!UICONTROL _분류 집합 이름_]**에 대한 데이터 다운로드 대화 상자에서:
 
 1. 다운로드할 **[!UICONTROL 행]**&#x200B;의 수를 입력하십시오. 예: `10000`.
 1. 분류 데이터 행을 다운로드할 기간을 선택하려면 **[!UICONTROL 다음 기간 사이에 받은 행 다운로드]**&#x200B;의 시작 날짜와 종료 날짜를 입력하십시오. 또는 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 기간을 선택하는 달력 팝업을 사용합니다.
@@ -133,7 +127,7 @@ ht-degree: 9%
    * **[!UICONTROL Latin-1]**.
 
 
-1. 분류 데이터를 다운로드하려면 **[!UICONTROL 다운로드]**&#x200B;를 선택하십시오. 다운로드한 파일은 브라우저의 기본 다운로드 디렉터리에 있으며 제목은 <code><i>분류 세트</i>입니다.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. 파일이 이미 있는 경우 시퀀스 번호 <code>(<i>x</i>)</code> 가 파일 이름에 추가됩니다.<br/>데이터를 반환하지 않는 옵션을 지정한 경우 반환된 날짜 범위 및 데이터에 대한 옵션을 변경하도록 알리는 **[!UICONTROL 알림]** 대화 상자가 표시됩니다.
+1. 분류 데이터를 다운로드하려면 **[!UICONTROL 다운로드]**&#x200B;를 선택하십시오. 다운로드한 파일은 브라우저의 기본 다운로드 디렉터리에 있으며 제목은 <code><i>분류 세트</i>입니다.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. 파일이 있는 경우 시퀀스 번호 <code>(<i>x</i>)</code> 가 파일 이름에 추가됩니다.<br/>데이터가 반환되지 않으면 **[!UICONTROL 알림]** 대화 상자에 날짜 범위 또는 데이터 옵션을 조정하라는 메시지가 표시됩니다.
 
 
 ### 템플릿
@@ -142,7 +136,7 @@ ht-degree: 9%
 
 ![분류 세트 스키마 - 템플릿 다운로드](assets/classification-sets-schema-download-template.png)
 
-_분류 세트 이름&#x200B;_&#x200B;**에 대한**&#x200B;템플릿 다운로드 대화 상자에서:
+_분류 세트 이름&#x200B;_]**에 대한**[!UICONTROL 템플릿 다운로드 대화 상자에서:
 
 1. 다운로드한 분류 데이터의 [파일 형식](/help/components/classifications/sets/data-files.md#general-file-requirements)을(를) 선택하려면 **[!UICONTROL 파일 형식]** 드롭다운 메뉴에서 옵션을 선택하십시오. 사용 가능한 옵션은 다음과 같습니다.
 
@@ -164,19 +158,19 @@ _분류 세트 이름&#x200B;_&#x200B;**에 대한**&#x200B;템플릿 다운로�
 >id="classificationsets_schema_automate_locationaccount"
 >title="위치 계정"
 >abstract="분류 데이터 가져오기를 지원하는 계정 유형의 위치 계정 목록입니다. 새 위치 계정을 만들려면 **[!UICONTROL 새 계정]**&#x200B;을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=ko" text="클라우드 가져오기 및 내보내기 계정 구성"
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-accounts" text="클라우드 가져오기 및 내보내기 계정 구성"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="위치"
 >abstract="분류 데이터 가져오기를 지원하는 선택한 위치 계정의 위치 목록입니다. 새 위치를 만들려면 **[!UICONTROL 새 위치]**&#x200B;를 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=ko" text="클라우드 가져오기 및 내보내기 위치 구성"
+>additional-url="https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-locations" text="클라우드 가져오기 및 내보내기 위치 구성"
 
-클라우드 계정 및 클라우드 위치의 구성 및 사용을 통해 분류 데이터 수집을 자동화할 수 있습니다.
+클라우드 계정 및 클라우드 위치를 구성 및 사용하여 분류 데이터 수집을 자동화할 수 있습니다.
 
 >[!IMPORTANT]
->클라우드 계정에서 분류 수집을 자동화하려면 사용자(또는 네트워크 관리자)가 데이터를 네트워크로 수집할 수 있도록 IP 주소 범위를 지정해야 합니다. 사용하는 Analytics 데이터 센터의 위치에 따라 하나 이상의 IP 주소 범위를 구성합니다.
+>클라우드 계정에서 분류 수집을 자동화하려면 사용자(또는 네트워크 관리자)가 네트워크에 데이터를 수집할 수 있도록 IP 주소 범위를 지정해야 합니다. 사용하는 Analytics 데이터 센터의 위치에 따라 하나 이상의 IP 주소 범위를 구성합니다.
 >
 >| Analytics 데이터 센터 위치 | 이 IP 주소 범위를 네트워크의 허용 목록에 추가하다에 추가합니다. |
 >|---|---:|
@@ -190,7 +184,7 @@ _분류 세트 이름&#x200B;_&#x200B;**에 대한**&#x200B;템플릿 다운로�
 
 ![분류 세트 스키마 - 자동화](assets/classification-sets-schema-automate.png)
 
-**[!UICONTROL _분류 집합 이름_]**&#x200B;에 대한 수집 위치 연결/업데이트 대화 상자에서:
+**[!UICONTROL _분류 집합 이름_]**에 대한 수집 위치 연결/업데이트 대화 상자에서:
 
 1. 클라우드 위치를 선택하려면 **[!UICONTROL 위치 계정]**&#x200B;에서 옵션을 선택하십시오. 분류 데이터를 가져올 수 있는 [지원되는 계정 유형의 위치 계정](https://experienceleague.adobe.com/ko/docs/analytics/components/locations/configure-import-accounts)만 표시됩니다. 새 계정을 만들려면 **[!UICONTROL 새 계정]**&#x200B;을 선택하세요.
 1. 위치를 선택하려면 **[!UICONTROL 위치]**&#x200B;에서 옵션을 선택하십시오. 분류 데이터를 가져오기 위해 선택한 계정 유형의 위치만 표시됩니다. 새 위치를 만들려면 **[!UICONTROL 새 위치]**&#x200B;를 선택하세요.
@@ -212,8 +206,8 @@ _분류 세트 이름&#x200B;_&#x200B;**에 대한**&#x200B;템플릿 다운로�
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
-1. 수집 작업이 완료되었음을 사용자에게 알리려면 **[!UICONTROL 수집 작업이 완료되었을 때 알릴 전자 메일(쉼표로 구분)]**&#x200B;에 대한 전자 메일 주소를 쉼표로 구분하여 입력하십시오.
-1. **[!UICONTROL 유효성 검사]**&#x200B;를 선택합니다. 클라우드 위치에 대한 연결이 확인되었습니다. 유효성 검사가 성공하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 위치 유효성 검사가 성공한 것으로 표시되는 toast 메시지가 나타납니다. 클라우드 스토리지에 대한 연결이 확인되었습니다.클라우드 연결에 대한 연결을 만든 경우 &#x200B;]**<br/>**[!UICONTROL &#x200B;저장&#x200B;]**&#x200B;을 선택합니다. 그렇지 않으면&#x200B;**[!UICONTROL &#x200B;업데이트&#x200B;]**&#x200B;를 선택하십시오. 또는&#x200B;**[!UICONTROL &#x200B;취소&#x200B;]**&#x200B;를 선택하여 클라우드 위치 구성을 취소하세요.
+1. 수집 작업이 완료되었음을 사용자에게 알리려면 **[!UICONTROL 수집 작업이 완료되었을 때(쉼표로 구분) 알릴]**&#x200B;에 대한 전자 메일 주소를 쉼표로 구분하여 입력하십시오.
+1. **[!UICONTROL 유효성 검사]**&#x200B;를 선택합니다. 클라우드 위치에 대한 연결이 확인되었습니다. 유효성 검사가 성공하면 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 위치 유효성 검사가 성공한 것으로 표시되는 toast 메시지가 나타납니다. 클라우드 스토리지에 대한 연결이 확인되었습니다.클라우드 연결에 대한 연결을 만든 경우 ]**<br/>**[!UICONTROL &#x200B;저장&#x200B;]**을 선택합니다. 그렇지 않으면**[!UICONTROL &#x200B;업데이트&#x200B;]**를 선택하십시오. 또는**[!UICONTROL &#x200B;취소&#x200B;]**를 선택하여 클라우드 위치 구성을 취소하세요.
 
 파일을 클라우드 위치에 업로드할 때 15분 이내에 파일이 검색되어 가져오기 작업으로 제출됩니다. 가져오기 작업의 결과는 [분류 작업 관리자](/help/components/classifications/sets/job-manager.md)에 보고됩니다. 수집 작업 완료를 알릴 사용자 목록에 추가되면 이메일 메시지도 수신하게 됩니다.
 
@@ -250,6 +244,33 @@ _분류 세트 이름&#x200B;_&#x200B;**에 대한**&#x200B;템플릿 다운로�
 | 아이콘 | 액션 | 설명 |
 |---|---|---|
 | ![찾아보기](/help/assets/icons/Browse.svg) | **[!UICONTROL 조회 추가]** | 분류 집합을 조회(하위 분류)로 추가합니다.<br/>**[!UICONTROL 조회 첨부]** 테이블에서: <ol><li>**[!UICONTROL 분류 이름]** 드롭다운 메뉴에서 조회 분류를 선택합니다.</li><li>**[!UICONTROL 추가]**&#x200B;를 선택합니다.</li></ol>조회 분류가 분류에 추가되고 내부 ID를 사용하여 **[!UICONTROL 분류자]** 열에 나열됩니다. |
-| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 조회 제거]** | 조회로 분류 세트를 제거합니다. 분류에서 조회를 영구적으로 삭제하려면 _분류&#x200B;_&#x200B;**확인 대화 상자에서**&#x200B;_&#x200B;분류 세트 제거&#x200B;_에서&#x200B;**[!UICONTROL 삭제]**&#x200B;를 선택합니다. |
-| ![이름 바꾸기](/help/assets/icons/Rename.svg) | **[!UICONTROL 이름 바꾸기]** | 분류의 **[!UICONTROL 분류 이름]** 이름을 바꾸십시오. **[!UICONTROL 이름 바꾸기: _분류 이름_]**&#x200B;대화 상자에서 새 이름을 입력하고&#x200B;**[!UICONTROL 이름 바꾸기]**&#x200B;를 선택합니다. |
-| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 분류를 삭제합니다. **[!UICONTROL _분류 이름 삭제_]**&#x200B;대화 상자가 나타납니다. 분류를 삭제하려면&#x200B;**[!UICONTROL 삭제]**&#x200B;를 선택하십시오. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 조회 제거]** | 조회로 분류 세트를 제거합니다. 분류에서 조회를 영구적으로 삭제하려면 _분류&#x200B;_]**확인 대화 상자에서**[!UICONTROL _&#x200B;분류 세트 제거&#x200B;_에서&#x200B;**[!UICONTROL 삭제]**를 선택합니다. |
+| ![이름 바꾸기](/help/assets/icons/Rename.svg) | **[!UICONTROL 이름 바꾸기]** | 분류의 **[!UICONTROL 분류 이름]** 이름을 바꾸십시오. **[!UICONTROL 이름 바꾸기: _분류 이름_]**대화 상자에서 새 이름을 입력하고&#x200B;**[!UICONTROL 이름 바꾸기]**를 선택합니다. |
+| ![삭제](/help/assets/icons/Delete.svg) | **[!UICONTROL 삭제]** | 분류를 삭제합니다. **[!UICONTROL _분류 이름 삭제_]**대화 상자가 나타납니다. 분류를 삭제하려면&#x200B;**[!UICONTROL 삭제]**를 선택하십시오. |
+
+
+## 분류되지 않은 데이터
+
+보고에 `none`(으)로 표시되는 가져오기 후 분류되지 않은 데이터가 발생하는 경우 `None` 분류 키의 이름을 바꿀 수 있습니다.
+
+1. 로컬 파일에 분류를 [다운로드](#download)합니다.
+1. 로컬 파일에 행을 추가하고 키 열에 `~none~`을(를) 입력합니다. 해당 열에 좀 더 설명적인 분류 이름을 입력합니다.
+
+   예:
+
+   * JSON
+
+     ```json
+     {"key": "~none~", "enc": "DEFAULT", "action": "update", "data": {"Product Name": "Unknown Product Name", "Product Category": "Unknown Product Category"}}
+     ...
+     ```
+
+   * CSV:
+
+     ```csv
+     Key, Product Name, Product Category
+     ~none~, Unknown Product Name, Unknown Product Category
+     ...
+     ```
+
+1. 데이터를 Adobe Analytics에 다시 [업로드](#upload).
