@@ -4,15 +4,12 @@ description: FTP 및 SFTP 서버의 보안 요구 사항에 대해 알아봅니�
 feature: Data Configuration and Collection
 role: Admin
 TQID: 'https://experienceleague.adobe.com/qbBCeUihfvRTQm7LvR8jylRWf8rRlzFoZfs62l0fito'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: 1933
+source-wordcount: 1985
 ht-degree: 100%
 
 ---
@@ -158,7 +155,7 @@ FTP 서버에서 데이터를 다운로드하기 위한 보안 전송을 설정�
 1. 다음을 따라 [!DNL `authorized_keys`] 파일을 FTP 서버에 업로드합니다.
 
    1. FTP 서버에 연결하고 사용자 이름과 암호로 로그인합니다.
-이 서버는 Adobe에서 호스팅하는 FTP 서버이거나 자체 FTP 서버일 수 있습니다.
+      이 서버는 Adobe에서 호스팅하는 FTP 서버이거나 자체 FTP 서버일 수 있습니다.
    1. [!DNL .ssh] 디렉토리가 없는 경우 디렉토리를 만듭니다.
    1. [!DNL `authorized_keys`] 파일을 [!DNL .ssh] 디렉토리에 업로드합니다.
 

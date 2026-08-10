@@ -3,21 +3,11 @@ title: Adobe Analytics의 방문자 식별
 description: 최신 모범 사례를 사용하여 Adobe Analytics에서 방문자를 식별하는 방법을 알아봅니다.
 exl-id: 8d26a556-84fe-4fb5-98d6-a16b69423e5b
 TQID: https://experienceleague.adobe.com/uwEv9cl3234uiWhZEZLqgAVo42b-9L-9YEIGD97Pw-Q
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 652
@@ -41,9 +31,9 @@ Adobe이 히트를 받으면 다음 검사가 순서대로 수행됩니다. 주�
 | 사용된 명령 | 쿼리 매개변수 | 제공 시점 |
 |---|---|---|
 | **1<sup>번째</sup>** | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 변수가 설정되어 있습니다. |
-| **2<sup>번째</sup>** | `aid` | 방문자에게 기존 [`s_vi`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있습니다. 방문자 ID 서비스를 구현하지 않은 상태에서 또는 구현하기 전에 구현을 설정하십시오. |
-| **3<sup>rd</sup>** | `mid` | [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 사용하는 AppMeasurement 기반 구현(Analytics 태그 확장 포함)의 경우 방문자에게 기존 [`s_ecid`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 또는 `AMCV` 쿠키가 있습니다. 웹 SDK 기반 구현의 경우 방문자에게 기존 [`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/web-sdk) 또는 `AMCV` 쿠키가 있습니다. Adobe에서는 가능한 경우 모든 구현에 대한 방문자 식별의 기본 양식으로 ECID를 사용할 것을 권장합니다. |
-| **4<sup>번째</sup>** | `fid` | 방문자에게 기존 [`s_fid`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있습니다. 어떤 이유로든 `aid` 및 `mid`을(를) 설정할 수 없는 경우 AppMeasurement에서 대체 ID를 자동으로 생성합니다. |
+| **2<sup>번째</sup>** | `aid` | 방문자에게 기존 [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있습니다. 방문자 ID 서비스를 구현하지 않은 상태에서 또는 구현하기 전에 구현을 설정하십시오. |
+| **3<sup>rd</sup>** | `mid` | [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 사용하는 AppMeasurement 기반 구현(Analytics 태그 확장 포함)의 경우 방문자에게 기존 [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 또는 `AMCV` 쿠키가 있습니다. 웹 SDK 기반 구현의 경우 방문자에게 기존 [`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/web-sdk) 또는 `AMCV` 쿠키가 있습니다. Adobe에서는 가능한 경우 모든 구현에 대한 방문자 식별의 기본 양식으로 ECID를 사용할 것을 권장합니다. |
+| **4<sup>번째</sup>** | `fid` | 방문자에게 기존 [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키가 있습니다. 어떤 이유로든 `aid` 및 `mid`을(를) 설정할 수 없는 경우 AppMeasurement에서 대체 ID를 자동으로 생성합니다. |
 | **5<sup>번째</sup>** | IP 주소 + 사용자 에이전트 | 방문자의 브라우저가 쿠키를 허용하지 않는 경우 고유 방문자를 식별하는 마지막 수단으로 사용됩니다. 해시된 방문자 ID는 [IP 난독화](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) 전에 생성됩니다. IP 주소를 사용할 수 없는 경우 다른 IP 세부 정보(예: 게이트웨이 IP)가 대신 사용됩니다. |
 
 그러면 선택한 방문자 ID가 해시되고 해당 서버측 식별자가 됩니다. 이 서버측 식별자는 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)에서 `visid_high` + `visid_low`(으)로 사용할 수 있습니다.
