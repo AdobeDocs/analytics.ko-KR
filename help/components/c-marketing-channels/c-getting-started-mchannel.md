@@ -4,17 +4,10 @@ description: 마케팅 채널 워크플로, 자동 설정 및 템플릿 보고�
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 TQID: https://experienceleague.adobe.com/ZPF3XewOODBtH3XFLBoULMQmdkcQnCsF08KN-1QbSjI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 812
@@ -49,7 +42,7 @@ ht-degree: 97%
 
 권장 채널 목록은 [FAQ 및 예제](/help/components/c-marketing-channels/c-faq.md)에서 확인할 수 있습니다. 채널을 만들 때 더 쉽게 활성화 및 정의할 수 있도록 사용할 채널 목록을 만듭니다.
 
-![](assets/step2_icon.png) [!UICONTROL &#x200B; 마케팅 채널 관리자] 페이지에서 마케팅 채널을 추가합니다.
+![](assets/step2_icon.png) [!UICONTROL  마케팅 채널 관리자] 페이지에서 마케팅 채널을 추가합니다.
 
 추적할 채널을 정의하고 나면 **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;에서 활성화합니다.
 
@@ -61,7 +54,7 @@ ht-degree: 97%
 >
 >마케팅 채널이 이전에 구성된 적이 없다면 [자동 설정](/help/components/c-marketing-channels/c-getting-started-mchannel.md)이 표시됩니다. 이 설정에서는 사용자 정의가 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
 
-![](assets/step3_icon.png) [!UICONTROL &#x200B; 마케팅 채널 처리 규칙] 페이지에서 각 채널의 규칙을 구성하거나 세분화합니다.
+![](assets/step3_icon.png)[!UICONTROL  마케팅 채널 처리 규칙] 페이지에서 각 채널의 규칙을 구성하거나 세분화합니다.
 
 [!UICONTROL 마케팅 채널 관리자] 페이지에서 채널을 만들고 나면 채널에서 데이터를 검색하고 보고할 수 있도록 규칙을 구성합니다.
 

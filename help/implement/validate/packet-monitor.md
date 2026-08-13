@@ -6,21 +6,11 @@ feature: Implementation Basics
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2:
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cd
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 679
@@ -65,8 +55,8 @@ AppMeasurement가 Adobe 데이터 수집 서버에 데이터를 보내면 서버
 
 * **200 OK**: 데이터 수집 서버의 가장 일반적인 응답입니다. 이미지 요청을 성공적으로 수신했으며 투명한 이미지가 반환되었습니다.
 * **302 발견됨**: 이 응답을 수신하는 두 가지 가능한 이유가 있습니다.
-   * 방문자의 첫 번째 이미지 요청: 사용자가 사이트를 처음 방문하는 경우 리디렉션이 발생합니다. 이 리디렉션은 방문자 쿠키를 가져오는 것입니다. 데이터 수집에는 영향을 주지 않습니다.
-   * Comscore와 Adobe 간의 통합: 조직에서 Comscore/Analytics 통합을 사용하는 경우 각 이미지 요청은 항상 302 응답을 표시합니다.
+  * 방문자의 첫 번째 이미지 요청: 사용자가 사이트를 처음 방문하는 경우 리디렉션이 발생합니다. 이 리디렉션은 방문자 쿠키를 가져오는 것입니다. 데이터 수집에는 영향을 주지 않습니다.
+  * Comscore와 Adobe 간의 통합: 조직에서 Comscore/Analytics 통합을 사용하는 경우 각 이미지 요청은 항상 302 응답을 표시합니다.
 * **404 찾을 수 없음**: 이 응답은 이미지 요청을 찾을 수 없으며 데이터가 Adobe 데이터 수집 서버에 전송되지 않음을 의미합니다. 이 응답은 하드 코딩된 이미지 요청의 형식이 올바로 지정되지 않은 경우에도 가능합니다. Analytics를 구현한 개인 또는 팀과 함께 이 문제를 해결하십시오.
 
 ## 응답 코드의 NS_BINDING_ABORTED

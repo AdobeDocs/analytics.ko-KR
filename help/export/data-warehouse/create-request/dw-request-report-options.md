@@ -4,20 +4,11 @@ title: Data Warehouse 요청에 대한 보고서 옵션 구성
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
 TQID: 'https://experienceleague.adobe.com/WngJlzAVsWsC9dzQ2Dg-78FqUjXxkU9SUnJVzhFECXs'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: f47edbe0-f963-46ff-a667-71011396f5f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 454
@@ -45,7 +36,7 @@ Data Warehouse 요청에 대한 보고서 옵션을 구성하려면 다음 작�
 
    | 옵션 | 함수 |
    |---------|----------|
-   | [!UICONTROL **파일 이름**] | 보고서를 식별합니다. <p>파일 이름에 다음 특수 문자가 사용되는 경우 요청을 저장할 수 없습니다. <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &grave; { } \| ~</code> </p><p>% 문자 다음에 &quot;R&quot;, &quot;rsid&quot; 또는 &quot;id&quot;가 오는 경우에만 사용할 수 있습니다. <code>%R</code>, <code>%rsid</code>, 및 <code>%id</code>.</p> |
+   | [!UICONTROL **파일 이름**] | 보고서를 식별합니다. <p>파일 이름에 다음 특수 문자가 사용되는 경우 요청을 저장할 수 없습니다. <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>% 문자 다음에 &quot;R&quot;, &quot;rsid&quot; 또는 &quot;id&quot;가 오는 경우에만 사용할 수 있습니다. <code>%R</code>, <code>%rsid</code>, 및 <code>%id</code>.</p> |
    | [!UICONTROL **파일 이름에 보고서 날짜 범위 추가**] | 보고서 파일 이름에 날짜 범위를 추가합니다. <p>예를 들어 2024년 5월 1일부터 2024년 5월 7일까지의 데이터를 요청하는 경우 파일 이름에 20240501 - 20240507 날짜 범위가 포함됩니다.</p> |
    | [!UICONTROL **CSV**] | 스프레드시트에서 데이터를 보기 위해 보고서를 CSV 파일 형식으로 전달합니다. |
    | [!UICONTROL **타블로(TDE)**] | 보고서를 TDE(타블로 데이터 추출) 파일 형식으로 전달합니다. 이 파일 형식은 타블로 내에서 추가 데이터로 데이터와 레이어를 시각화하는 데 사용할 수 있습니다. |

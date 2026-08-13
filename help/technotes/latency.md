@@ -5,18 +5,10 @@ title: 데이터 가용성 및 지연
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 TQID: https://experienceleague.adobe.com/tUoPm4FFCjyp9J4w6fHMMe-guBoVzLwbpU0Tbk-lgCA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 823
@@ -58,10 +50,10 @@ Adobe CX Enterprise의 일부 기능은 표준 처리 시간 외에 기본적인
 * **예상되는 트래픽 스파이크에 대해 Adobe에 알림:** 사이트의 모든 트래픽 스파이크를 예상할 수는 없지만 트래픽이 크게 증가할 것으로 예상되는 경우가 있을 수 있습니다. 예를 들면 특히 성공적인 휴일 기간 또는 대규모 캠페인 푸시 직후 등이 포함됩니다. 그런 경우 Adobe에서 제공하는 방법을 통해 조직에서 예상되는 트래픽 증가에 대해 알리면 보고서 세트에 추가 처리 리소스를 할당할 수 있습니다. Adobe에 트래픽 증가를 알리는 방법에 대한 자세한 내용은 관리 사용 안내서의 [트래픽 스파이크 예약](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)을 참조하십시오.
 * **새 기능을 활성화할 때 처리 부담 고려:** 일부 기능은 다른 기능에 비해 처리 부담이 큽니다. 보고서 세트에서 활성화된 기능이 많을수록 지연 시간을 복구하는 것이 더 어렵습니다. 보고서 세트에서 기능을 활성화할 때 처리할 데이터의 양을 늘리는 다음 기능에 유의하십시오.
 
-   * 동일한 페이지에서 20개 이상의 이벤트 구현
-   * 복잡한 VISTA 규칙
-   * products 변수에 20개 이상의 값이 있습니다.
-   * 이벤트 직렬화
+  * 동일한 페이지에서 20개 이상의 이벤트 구현
+  * 복잡한 VISTA 규칙
+  * products 변수에 20개 이상의 값이 있습니다.
+  * 이벤트 직렬화
 
 * IAB 보트 필터링 활성화: [보트 필터링](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)은 보고서 세트에 보트나 크롤러가 많이 등장하는 경우 지연을 줄이는 데 효과적입니다. IAB 보트 목록은 [Interactive Advertising Bureau](https://www.iab.net/about_the_iab)에서 업데이트 및 유지 관리되므로 이 목록을 사용하는 것이 좋습니다. 사용자가 보트 규칙을 사용자 지정하여 IAB의 규칙을 보완할 수도 있습니다.
 

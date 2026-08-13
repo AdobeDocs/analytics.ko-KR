@@ -4,8 +4,7 @@ title: 트래픽 증가에 대한 필수 리드 타임
 feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 TQID: 'https://experienceleague.adobe.com/NJpOBQXD9CulN-UjbKnQiPzPWusWzLEo0RgvBioJe3I'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 328
@@ -58,9 +57,9 @@ Adobe에서는 새 계정 설정, 트래픽 스파이크 및 트래픽 증가에
 * 시작하거나 증가하여 위에 나열된 숫자로 합산되는 여러 개의 보고서 세트가 있는 경우 리드 타임은 각 보고서 세트에 대해 예상된 트래픽의 합으로 적용됩니다.
 * 트래픽 변경을 제출하려면 다음 정보를 준비하십시오.
 
-   * 보고서 세트 ID
-   * 일당 예상 히트 수
-   * Go Live 날짜
+  * 보고서 세트 ID
+  * 일당 예상 히트 수
+  * Go Live 날짜
 
 * 클라이언트 경고는 트래픽이 감소하거나 특정 보고서 세트를 더 이상 사용하지 않을 때에도 필요합니다.
 

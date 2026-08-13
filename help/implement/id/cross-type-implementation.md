@@ -5,23 +5,11 @@ exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
 role: Admin, Developer, Leader
 TQID: https://experienceleague.adobe.com/FM6c33rpXxzy1huu8KE0VBkfe4FGIySczmVMrprFEUY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 612
@@ -44,8 +32,8 @@ Adobe Analytics 구현의 핵심 아키텍처는 모든 구현 유형에서 일�
 | 변수 | 웹 SDK 태그 확장 기능 | 웹 SDK(Alloy) | Analytics 확장 기능 | AppMeasurement | 하드코딩된 이미지 요청 |
 |---|---|---|---|---|---|
 | 보고서 세트 ID | 서비스로 Adobe Analytics 추가([데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) 시) | 서비스로 Adobe Analytics 추가([데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) 시) | [!UICONTROL 라이브러리 관리] 섹션의 [!UICONTROL 보고서 세트] ([확장 구성](https://experienceleague.adobe.com/kr/docs/experience-platform/tags/extensions/client/analytics/overview) 시) | [`s_gi`](../vars/functions/s-gi.md)의 문자열 인수 | URL `pathname`의 일부(`/b/ss/` 다음) |
-| 방문자 ID 서비스 | 기본적으로 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)가 포함됩니다. 방문자 ID 서비스 쿠키를 읽으려면 [`idMigrationEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)이(가) 필요합니다. | 기본적으로 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)가 포함됩니다. 방문자 ID 서비스 쿠키를 읽으려면 [[!UICONTROL ECID를 VisitorAPI에서 웹 SDK으로 마이그레이션]](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity)해야 합니다. | [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 구현하는 [&#39;[!UICONTROL Experience Cloud ID 서비스]&#39; 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. | [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)&#x200B;(`VisitorAPI.js`) 구현 | 원하는 ID를 얻으려면 [방문자 ID 서비스에 대한 개별 호출](https://experienceleague.adobe.com/ko/docs/id-service/using/implementation/direct-integration)을 수행하고 쿼리 문자열에 `mid`을(를) 포함하십시오 |
-| Edge 도메인 | [확장을 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)할 때 [!UICONTROL Edge 도메인] 필드 | `edgeDomain` 속성([Web SDK 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 시) | [확장을 구성](https://experienceleague.adobe.com/kr/docs/experience-platform/tags/extensions/client/analytics/overview)할 때 [!UICONTROL 일반] 섹션에서 [!UICONTROL SSL 추적 서버] | [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 변수 | 이미지 요청 URL의 `hostname` |
+| 방문자 ID 서비스 | 기본적으로 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)가 포함됩니다. 방문자 ID 서비스 쿠키를 읽으려면 [`idMigrationEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)이(가) 필요합니다. | 기본적으로 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)가 포함됩니다. 방문자 ID 서비스 쿠키를 읽으려면 [[!UICONTROL ECID를 VisitorAPI에서 웹 SDK으로 마이그레이션]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity)해야 합니다. | [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 구현하는 [&#39;[!UICONTROL Experience Cloud ID 서비스]&#39; 태그 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. | [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)&#x200B;(`VisitorAPI.js`) 구현 | 원하는 ID를 얻으려면 [방문자 ID 서비스에 대한 개별 호출](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration)을 수행하고 쿼리 문자열에 `mid`을(를) 포함하십시오 |
+| Edge 도메인 | [확장을 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)할 때 [!UICONTROL Edge 도메인] 필드 | `edgeDomain` 속성([Web SDK 구성](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 시) | [확장을 구성](https://experienceleague.adobe.com/kr/docs/experience-platform/tags/extensions/client/analytics/overview)할 때 [!UICONTROL 일반] 섹션에서 [!UICONTROL SSL 추적 서버] | [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 변수 | 이미지 요청 URL의 `hostname` |
 
 >[!NOTE]
 >

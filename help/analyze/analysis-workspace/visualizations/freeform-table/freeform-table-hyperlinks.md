@@ -5,16 +5,10 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
 TQID: https://experienceleague.adobe.com/AOjXIFy8Vdjzay-aka5rFhLZIyvwlvF-PGOr1iycypw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1621
@@ -55,8 +49,8 @@ ht-degree: 96%
 
 * 하이퍼링크를 생성할 때 URL의 유효성을 검사하지 않습니다. 만약
 
-   * 잘못된 URL이 있는 하이퍼링크를 만들거나
-   * URL 값이 없는 차원 항목 참조 하이퍼링크를 만듭니다(차원 항목을 직접 참조하거나 `$value` 또는 `$breakdown` 변수),
+  * 잘못된 URL이 있는 하이퍼링크를 만들거나
+  * URL 값이 없는 차원 항목 참조 하이퍼링크를 만듭니다(차원 항목을 직접 참조하거나 `$value` 또는 `$breakdown` 변수),
 
   그러면 하이퍼링크를 클릭한 사용자에게 URL이 잘못되었다는 오류 메시지가 표시됩니다.
 
@@ -70,23 +64,23 @@ ht-degree: 96%
 
    * **단일 차원 항목에 대한 하이퍼링크 만들기:** 하이퍼링크를 만들려는 테이블 내의 차원 항목을 마우스 오른쪽 버튼으로 클릭한 다음 [!UICONTROL **하이퍼링크 만들기**]&#x200B;를 선택합니다.
 
-      1. 차원 항목의 컨텍스트 메뉴를 엽니다.
-      1. 컨텍스트 메뉴에서 [!UICONTROL **하이퍼링크 만들기**]&#x200B;를 선택합니다.
+     1. 차원 항목의 컨텍스트 메뉴를 엽니다.
+     1. 컨텍스트 메뉴에서 [!UICONTROL **하이퍼링크 만들기**]&#x200B;를 선택합니다.
 
-         [!UICONTROL **하이퍼링크 만들기**] 대화 상자가 표시됩니다. 하이퍼링크를 만들려는 차원 항목의 이름이 대화 상자에 표시됩니다.
+        [!UICONTROL **하이퍼링크 만들기**] 대화 상자가 표시됩니다. 하이퍼링크를 만들려는 차원 항목의 이름이 대화 상자에 표시됩니다.
 
-         ![단일 항목 대화 상자에 대한 하이퍼링크 만들기](assets/hyperlink-dialog-single.png)
+        ![단일 항목 대화 상자에 대한 하이퍼링크 만들기](assets/hyperlink-dialog-single.png)
 
    * **차원 열의 모든 차원 항목에 대한 하이퍼링크 만들기:** 차원 열 머리글에서 차원 이름을 마우스 오른쪽 버튼으로 클릭한 다음 [!UICONTROL **모든 차원 항목에 대한 하이퍼링크 만들기**]&#x200B;를 선택합니다.
 
-      1. 차원 열 머리글에서 컨텍스트 메뉴를 엽니다.
-      1. 컨텍스트 메뉴에서 [!UICONTROL **모든 차원 항목에 대한 하이퍼링크 만들기**]&#x200B;를 선택합니다.
+     1. 차원 열 머리글에서 컨텍스트 메뉴를 엽니다.
+     1. 컨텍스트 메뉴에서 [!UICONTROL **모든 차원 항목에 대한 하이퍼링크 만들기**]&#x200B;를 선택합니다.
 
-         <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
+        <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
 
-         [!UICONTROL **모든 차원 항목에 대한 하이퍼링크 만들기**] 대화 상자가 표시됩니다. 하이퍼링크를 만들려는 차원의 이름이 대화 상자에 표시됩니다.
+        [!UICONTROL **모든 차원 항목에 대한 하이퍼링크 만들기**] 대화 상자가 표시됩니다. 하이퍼링크를 만들려는 차원의 이름이 대화 상자에 표시됩니다.
 
-         ![하이퍼링크 대화 상자 만들기](assets/hyperlink-dialog-multiple.png)
+        ![하이퍼링크 대화 상자 만들기](assets/hyperlink-dialog-multiple.png)
 
 1. 다음 선택 사항 중 하나를 선택합니다.
 
@@ -123,15 +117,15 @@ ht-degree: 96%
 
    * **단일 차원 항목에 대한 하이퍼링크 편집:**
 
-      1. 차원 항목의 컨텍스트 메뉴를 엽니다.
-      1. 컨텍스트 메뉴에서 [!UICONTROL **하이퍼링크 편집**]&#x200B;을 선택합니다.
+     1. 차원 항목의 컨텍스트 메뉴를 엽니다.
+     1. 컨텍스트 메뉴에서 [!UICONTROL **하이퍼링크 편집**]&#x200B;을 선택합니다.
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a single dimension item](assets/hyperlink-single-edit.png)-->
 
    * **차원 열의 모든 차원 항목에 대한 하이퍼링크를 편집합니다.**
 
-      1. 차원 열 머리글에서 컨텍스트 메뉴를 엽니다.
-      1. 컨텍스트 메뉴에서 **[!UICONTROL 모든 차원 항목에 대한 하이퍼링크 편집]**&#x200B;을 선택합니다.
+     1. 차원 열 머리글에서 컨텍스트 메뉴를 엽니다.
+     1. 컨텍스트 메뉴에서 **[!UICONTROL 모든 차원 항목에 대한 하이퍼링크 편집]**&#x200B;을 선택합니다.
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a dimension](assets/hyperlink-dimension-edit.png)-->
 
@@ -157,14 +151,14 @@ ht-degree: 96%
 
    * **단일 차원 항목에서 하이퍼링크 제거:**
 
-      1. 차원 항목의 컨텍스트 메뉴를 엽니다.
-      1. 컨텍스트 메뉴에서 [!UICONTROL **하이퍼링크 제거**]를 선택합니다.
-         <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
+     1. 차원 항목의 컨텍스트 메뉴를 엽니다.
+     1. 컨텍스트 메뉴에서 [!UICONTROL **하이퍼링크 제거**]를 선택합니다.
+        <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
 
    * **차원 열의 모든 차원 항목에서 하이퍼링크 제거:**
 
-      1. 차원 열 머리글에서 컨텍스트 메뉴를 엽니다.
-      1. 컨텍스트 메뉴에서 **[!UICONTROL 모든 차원 항목에 대한 하이퍼링크 제거]**&#x200B;를 선택합니다.
+     1. 차원 열 머리글에서 컨텍스트 메뉴를 엽니다.
+     1. 컨텍스트 메뉴에서 **[!UICONTROL 모든 차원 항목에 대한 하이퍼링크 제거]**&#x200B;를 선택합니다.
 
      <!-- Do we really need a screenshot? [Remove hyperlink from a dimension](assets/hyperlink-dimension-remove.png)-->
 

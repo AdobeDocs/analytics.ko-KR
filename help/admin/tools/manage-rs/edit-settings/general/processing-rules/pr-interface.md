@@ -5,18 +5,11 @@ feature: Processing Rules
 role: Admin
 exl-id: 897d2bb6-cc10-43b1-b436-20985d24d998
 TQID: https://experienceleague.adobe.com/Ah57YA-n9UY-OLwpdKSheSqm53nXa-KoTkPuX8CBTfU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 476
@@ -50,9 +43,9 @@ ht-degree: 0%
 * **규칙 제목**: 규칙의 레이블입니다. 처리 규칙 논리에는 영향을 주지 않지만 규칙이 수행하는 작업을 추적하는 데 유용합니다.
 * **조건**: &quot;[!UICONTROL 다음 중 하나 또는 모두가 참인 경우]&quot; 텍스트로 표시됩니다. 조건을 포함하지 않으면 규칙은 항상 모든 히트에서 실행됩니다.
 * **작업**: 조건이 없으면 텍스트는 &quot;[!UICONTROL 항상 실행]&quot;으로 표시됩니다. 조건이 있으면 텍스트는 &quot;[!UICONTROL 다음]&quot;과 같이 표시됩니다. 위의 조건이 `true`(으)로 평가되면 이 섹션에 나열된 모든 작업이 실행될 수 있습니다. 규칙의 조건 외에 개별 작업에 조건을 _또한_&#x200B;첨부할 수 있습니다. 다음 작업을 사용할 수 있습니다.
-   * **[!UICONTROL 값 덮어쓰기]**: 원하는 변수를 다른 변수, 정적 값 또는 연결된 값으로 덮어씁니다.
-   * **[!UICONTROL 다음 값 삭제]**: 해당 히트에 대해 원하는 변수 값을 삭제합니다.
-   * **[!UICONTROL 이벤트 설정]**: 원하는 이벤트를 트리거합니다. 일반적으로 이벤트를 사용자 지정 값 `1`(으)로 설정합니다. 이벤트를 `1` 이외의 값으로 설정하거나 컨텍스트 데이터 변수에 설정된 값으로 설정하는 것도 허용됩니다.
+  * **[!UICONTROL 값 덮어쓰기]**: 원하는 변수를 다른 변수, 정적 값 또는 연결된 값으로 덮어씁니다.
+  * **[!UICONTROL 다음 값 삭제]**: 해당 히트에 대해 원하는 변수 값을 삭제합니다.
+  * **[!UICONTROL 이벤트 설정]**: 원하는 이벤트를 트리거합니다. 일반적으로 이벤트를 사용자 지정 값 `1`(으)로 설정합니다. 이벤트를 `1` 이외의 값으로 설정하거나 컨텍스트 데이터 변수에 설정된 값으로 설정하는 것도 허용됩니다.
 * **다른 작업**: 조건이 있는 경우 이 섹션은 &quot;[!UICONTROL 다른 방법은 다음]&quot;을(를) 수행합니다. 위의 조건이 `false`(으)로 평가되면 이 섹션에 나열된 모든 작업이 실행될 수 있습니다. 이 섹션은 값을 덮어쓰고, 값을 삭제하고, 이벤트를 설정하는 기능을 포함하여 위와 동일한 규칙 작업을 따릅니다.
 * **이유**: 규칙을 요청한 사용자와 규칙이 종속된 내용을 기록합니다. 처리 규칙 논리에는 영향을 주지 않지만 규칙이 존재하는 이유를 추적하는 데 유용합니다.
 

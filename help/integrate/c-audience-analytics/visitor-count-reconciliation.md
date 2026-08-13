@@ -4,18 +4,11 @@ title: 방문자 수 차이
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 TQID: 'https://experienceleague.adobe.com/ksfYYDZ6G9vH7WEZVh-JsN93Rl-jsZTe9-CQADSwnfI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2:
-  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 312
@@ -50,20 +43,20 @@ Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 
    <td colname="col3"> <p>보고 기간 동안 사용자의 속성에 도달한 고유 방문자 수를 보여 줍니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analytics: Experience Cloud ID를 가진 방문자 수 </p> </td> 
-   <td colname="col3"> <p>보고 기간 동안 Experience Cloud ID를 사용하여 속성에 도달한 고유 방문자 수를 보여줍니다. </p> </td> 
+   <td colname="col2"> <p>Analytics: Experience Cloud ID를 가진 방문자 </p> </td> 
+   <td colname="col3"> <p>보고 기간 동안 Experience Cloud ID를 사용하여 속성에 도달한 고유 방문자 수를 보여 줍니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Adobe Audience Manager 실시간 세그먼트 모집단과 Audience Analytics 보고 내에서 사용되는 Experience Cloud ID가 있는 Analytics 방문자 수가 가장 비슷할 것입니다. 그러나 단기적으로는 몇 가지 요인으로 인해 둘 사이에 약간의 불일치가 있을 것입니다. 기여 요인은 다음과 같습니다.
+Adobe Audience Manager 실시간 세그먼트 모집단과 Audience Analytics 보고 내에서 사용되는 Experience Cloud ID가 있는 Analytics 방문자 수가 가장 비슷합니다. 그러나 단기적으로는 몇 가지 요인으로 인해 둘 사이에 약간의 불일치가 있을 것입니다. 기여 요인은 다음과 같습니다.
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 요소 </th> 
    <th colname="col2" class="entry"> Adobe Audience Manager: 실시간 세그먼트 채우기 </th> 
-   <th colname="col3" class="entry"> Analytics: Experience Cloud ID를 가진 방문자 수 </th> 
+   <th colname="col3" class="entry"> Analytics: Experience Cloud ID를 가진 방문자 </th> 
   </tr>
  </thead>
  <tbody> 

@@ -4,15 +4,10 @@ description: Adobe Analytics에 로그인할 수 없는 경우 취해야 할 단
 feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 TQID: https://experienceleague.adobe.com/akXZpx8BUywqvI2NGvk9dqIBL-pHEAza1-I05pC89io
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 607
@@ -30,7 +25,7 @@ Adobe Analytics는 여러 인증 방법을 사용하여 로그인합니다.
 
 **정기적으로 Analytics에 액세스하며 로그인 문제가 발생하기 시작하는 경우 브라우저의 쿠키와 캐시를 지우면 대부분의 문제가 해결됩니다.**
 
-때때로 가용성 문제가 로그인 기능에 영향을 미칠 수 있습니다. 진행 중인 인시던트에 대해서는 [status.adobe.com](https://status.adobe.com/ko-kr)를 확인하십시오. 그렇지 않으면 조직의 인증 방법에 따라 적절한 섹션을 사용하십시오.
+때때로 가용성 문제가 로그인 기능에 영향을 미칠 수 있습니다. 진행 중인 인시던트에 대해서는 [status.adobe.com](https://status.adobe.com)를 확인하십시오. 그렇지 않으면 조직의 인증 방법에 따라 적절한 섹션을 사용하십시오.
 
 ## Adobe ID
 

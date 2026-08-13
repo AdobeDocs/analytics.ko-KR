@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/mZDvJ4k5jqazEdHUywoGhHNG9KhDF1JxpdtrwiB5jVc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 712
@@ -79,22 +71,22 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 * **`cb`** (필수, 문자열): 플러그인이 Analytics 변수를 조작하는 데 사용하는 콜백 함수의 이름입니다. `cleanStr`과 같은 Adobe 기능이나 사용자 지정 기능을 사용할 수 있습니다.
 * **`l`** (선택 사항, 문자열): 조작하려는 Analytics 변수의 쉼표로 구분된 목록입니다. 설정하지 않으면 기본값은 다음을 포함한 모든 Adobe Analytics 변수로 설정됩니다.
-   * `pageName`
-   * `purchaseID`
-   * `channel`
-   * `server`
-   * `pageType`
-   * `campaign`
-   * `state`
-   * `zip`
-   * `events`
-   * `products`
-   * `transactionID`
-   * 모든 prop
-   * 모든 eVar
-   * 모든 계층 변수
-   * 모든 목록 변수
-   * 모든 컨텍스트 데이터 변수
+  * `pageName`
+  * `purchaseID`
+  * `channel`
+  * `server`
+  * `pageType`
+  * `campaign`
+  * `state`
+  * `zip`
+  * `events`
+  * `products`
+  * `transactionID`
+  * 모든 prop
+  * 모든 eVar
+  * 모든 계층 변수
+  * 모든 목록 변수
+  * 모든 컨텍스트 데이터 변수
 * **`Il`** (선택 사항, 부울): `l` 인수에 선언된 변수 목록을 포함하지 않고 *제외*&#x200B;하려면 `false`로 설정하십시오. 기본값은 `true`입니다.
 
 이 함수를 호출하면 아무 것도 반환되지 않습니다. 대신 원하는 콜백 함수를 기반으로 Analytics 변수의 값을 변경합니다.

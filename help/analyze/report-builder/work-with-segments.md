@@ -7,14 +7,9 @@ type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
 TQID: https://experienceleague.adobe.com/oY3qEglLOmMH-VdZuq0190iQxG6FHUWBRUGTAI9LvMw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 641
@@ -38,15 +33,15 @@ ht-degree: 6%
 
 * 또는
 
-   1. **[!UICONTROL 테이블]** 창에서 특정 지표에 대해 ![MoreSmall](/help/assets/icons/MoreSmall.svg)을 선택한 다음 **[!UICONTROL 지표 필터링]**&#x200B;을 선택합니다.
+  1. **[!UICONTROL 테이블]** 창에서 특정 지표에 대해 ![MoreSmall](/help/assets/icons/MoreSmall.svg)을 선택한 다음 **[!UICONTROL 지표 필터링]**&#x200B;을 선택합니다.
 
-      지표를 표시하는 ![세그먼트 탭](./assets/filter-metric.png){zoomable="yes"}
+     지표를 표시하는 ![세그먼트 탭](./assets/filter-metric.png){zoomable="yes"}
 
-   1. **[!UICONTROL 세그먼트]** 드롭다운 메뉴에서 하나 이상의 세그먼트를 선택하십시오. 세그먼트가 **[!UICONTROL 적용된 세그먼트]** 목록에 추가됩니다.
+  1. **[!UICONTROL 세그먼트]** 드롭다운 메뉴에서 하나 이상의 세그먼트를 선택하십시오. 세그먼트가 **[!UICONTROL 적용된 세그먼트]** 목록에 추가됩니다.
 
-      ![적용된 세그먼트](assets/segments-applied.png)
-   1. **[!UICONTROL 적용된 세그먼트]** 목록에서 세그먼트를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오. 또는 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하여 **[!UICONTROL 적용된 세그먼트]** 목록에서 모든 세그먼트를 제거합니다.
-   1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
+     ![적용된 세그먼트](assets/segments-applied.png)
+  1. **[!UICONTROL 적용된 세그먼트]** 목록에서 세그먼트를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 선택하십시오. 또는 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하여 **[!UICONTROL 적용된 세그먼트]** 목록에서 모든 세그먼트를 제거합니다.
+  1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 적용된 필터를 보려면 테이블 창에서 지표 위로 마우스를 이동하거나 선택합니다. 세그먼트가 적용된 지표에는 세그먼트 아이콘이 표시됩니다.
 

@@ -5,23 +5,10 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b54aca0d-8aee-45f3-9966-1a84bd7bef52
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1511
@@ -43,7 +30,7 @@ Adobe Analytics 랜딩 페이지에는 다음 하위 탭이 포함되어 있습�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics의 랜딩 페이지](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics의 랜딩 페이지](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -89,7 +76,7 @@ Adobe Analytics의 프로젝트에 액세스하려면:
 | [!UICONTROL **마지막으로 연 날짜**] | 현재 프로젝트 페이지를 보고 있는 사용자가 프로젝트를 마지막으로 연 일자를 나타냅니다. |
 | [!UICONTROL **마지막 사용**] | 조직의 사용자가 프로젝트를 마지막으로 연 일자와 시간을 표시해 주므로 프로젝트가 조직 내 사용자에게 가치가 있는지 여부를 판단하는 데 도움이 됩니다.<p>이 열을 조회할 때 다음 사항을 고려하십시오.</p><ul><li>사용량 정보는 2023년 9월부터의 자료만 제공됩니다.</li><li>이 열은 시스템 관리자만 사용할 수 있습니다.</li></ul> |
 | [!UICONTROL **프로젝트 ID**] | 프로젝트 디버깅에 사용할 수 있습니다. |
-| [!UICONTROL **&#x200B;**] | 가장 긴 날짜 범위는 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. |
+| [!UICONTROL ****] | 가장 긴 날짜 범위는 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. |
 | [!UICONTROL **쿼리 개수**] | 프로젝트가 로드될 때 Analytics에 대해 수행된 총 요청 개수입니다. 프로젝트 쿼리 수가 많으면 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. 이 데이터는 프로젝트가 로드되거나 예약된 프로젝트가 전송된 후에만 사용할 수 있습니다. |
 | [!UICONTROL **위치**] | 프로젝트가 위치한 폴더를 표시합니다. |
 
@@ -144,8 +131,8 @@ Adobe Analytics의 학습 페이지를 사용하여 Adobe Analytics의 초급, �
 * **콘텐츠 필터링:** 왼쪽 레일의 필터 아이콘을 사용하여 경험 수준(초급, 중급 또는 고급)과 콘텐츠 유형(문서, 비디오 둘러보기 및 튜토리얼)에 따라 학습 콘텐츠를 필터링할 수 있습니다.
 * **진행 상황 추적:** 콘텐츠 일부를 선택하면 **[!UICONTROL 조회함]** 태그가 표시됩니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. **[!UICONTROL 조회함]** 태그를 선택하여 콘텐츠 일부에서 제거할 수 있습니다.
 * **추가 콘텐츠 보기:** 비디오를 시청하는 동안 **[!UICONTROL 자세히 알아보기]** 버튼을 선택하여 Experience League에 대한 관련 설명서 콘텐츠를 볼 수 있습니다. 아니면 학습 페이지에서 다음 옵션 중 하나를 선택하여 추가 콘텐츠를 봅니다.
-   * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록을 봅니다.
-   * [!UICONTROL **Experience League 방문**]: Experience League의 전체 Adobe Analytics 설명서 세트를 봅니다.
+  * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록을 봅니다.
+  * [!UICONTROL **Experience League 방문**]: Experience League의 전체 Adobe Analytics 설명서 세트를 봅니다.
 * **신규 사용자를 위한 기본 사항:** [!UICONTROL 작업 영역 기본 사항] 둘러보기는 신규 사용자에게 권장되는 사항입니다. 이 둘러보기는 작업 영역으로 바로 이동하여 가장 일반적인 작업을 안내합니다. 이 둘러보기는 패널 헤더의 도구 설명 팝업을 통해 작업 영역에서 다시 실행할 수도 있습니다.
 
 ## 랜딩 페이지 설정 {#set-landing}

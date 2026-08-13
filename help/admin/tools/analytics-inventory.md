@@ -5,23 +5,11 @@ feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 TQID: https://experienceleague.adobe.com/C9HUL-UJiicjOhUX8wjq4HFgAsr2eqLghtRLfnnG-zc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b22bc0f7-b089-4966-95a1-31e7b3b69b79id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1224
@@ -48,13 +36,13 @@ Analytics 인벤토리의 목표는 다음 질문에 답변하는 데 도움이 
 
 * 마이그레이션해야 하는 자산을 결정했으면 다음과 같이 하십시오.
 
-   * 이 업그레이드 전에 에셋 정리를 수행해야 합니까?
+  * 이 업그레이드 전에 에셋 정리를 수행해야 합니까?
 
-   * 프로세스의 일부로 자산 통합을 수행해야 합니까?
+  * 프로세스의 일부로 자산 통합을 수행해야 합니까?
 
-   * 자산에 대한 업그레이드 시퀀스는 무엇입니까?
+  * 자산에 대한 업그레이드 시퀀스는 무엇입니까?
 
-   * 첫 번째 또는 마지막 보고서 세트를 업그레이드해야 합니까?
+  * 첫 번째 또는 마지막 보고서 세트를 업그레이드해야 합니까?
 
 ## 권한
 
@@ -130,7 +118,7 @@ Analytics 인벤토리는 [Adobe Admin Console](/help/admin/admin-console/admin-
    | 발생 횟수 (최근 90일) | 발생 횟수 지표는 주어진 차원이 설정되거나 지속된 히트의 수를 보여줍니다. 지난 90일 동안 이 보고서 세트가 받은 히트는 몇 개입니까? |
    | 지표 | 이 보고서 세트에 정의된 지표는 몇 개입니까? |
    | 차원 | 이 보고서 세트에는 몇 개의 차원이 정의되어 있습니까? |
-   | A4T(Analytics for Target) 활성화됨 | [기본적으로 숨겨짐] 이 보고서 세트가 [Analytics for Target](https://experienceleague.adobe.com/ko/docs/target/using/integrate/a4t/a4t)에 대해 활성화되어 있습니까? |
+   | A4T(Analytics for Target) 활성화됨 | [기본적으로 숨겨짐] 이 보고서 세트가 [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)에 대해 활성화되어 있습니까? |
    | 마케팅 채널 활성화됨 | [기본적으로 숨김] 이 보고서 세트가 [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)에 대해 활성화되어 있습니까? |
    | 소스 커넥터 활성화됨 | 이 보고서 세트는 Adobe Experience Platform의 보고서 세트 데이터용 [Adobe Analytics Source Connector](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/adobe-applications/analytics)에 대해 활성화됩니까? 즉, Analytics Source 커넥터를 사용하여 이 보고서 세트를 Customer Journey Analytics으로 마이그레이션할 수 있습니까? |
    | 캘린더 유형 | [기본적으로 숨김] 자세한 내용은 [사용자 지정 달력](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)을 참조하세요. |

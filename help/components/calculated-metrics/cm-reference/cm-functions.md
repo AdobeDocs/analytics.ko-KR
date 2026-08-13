@@ -5,18 +5,11 @@ feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
 TQID: 'https://experienceleague.adobe.com/0IC-0OshuRgClzQ56xAGIZhsCeCrFH9b5ZIo-s5iv-c'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 3642
@@ -106,7 +99,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->**IF**(*Revenue* = **열 최대값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 가장 성과가 좋은 항목을 강조 표시합니다.
+>**IF**(*Revenue* = **열 최대값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 가장 성과가 좋은 항목을 강조 표시합니다.
 >
 
 ## 열 최솟값 {#column-minimum}
@@ -136,7 +129,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->**IF**(*Revenue* = **열 최소값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 성과가 가장 낮은 항목을 강조 표시하십시오.
+>**IF**(*Revenue* = **열 최소값***(Revenue*), 1, 0)과 같은 [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) 문을 사용하여 분류에서 성과가 가장 낮은 항목을 강조 표시하십시오.
 >
 
 

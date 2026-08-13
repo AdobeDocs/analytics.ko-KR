@@ -6,27 +6,11 @@ role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 autotag-review: '2026-05-22T09:22:51.975Z'
 TQID: 'https://experienceleague.adobe.com/AuXKVYYgnGJ11GtZVv5hO2CIJwiyuRrvv2tv10kFyvM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 3534
@@ -41,7 +25,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +50,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 일반 환경 설정�
 | --- | --- |
 | 랜딩 페이지 | Adobe Analytics에 액세스할 때 기본 페이지로 표시되는 페이지를 선택합니다. <ul><li>프로젝트 목록 (기본값)</li><li>빈 프로젝트</li><li>목록에서 선택된 특정 프로젝트</li></ul> |
 | 팁 표시 | Analysis Workspace 오른쪽 아래 영역의 파란색 상자에 팁을 표시합니다. <p>이 옵션은 기본적으로 활성화되어 있습니다.</p> |
-| 왼쪽 레일 그룹에 표시되는 구성 요소 | 왼쪽 레일의 구성 요소 메뉴에 표시할 각 구성 요소의 수를 선택합니다. <p>0을 선택하는 경우 Workspace의 왼쪽 레일에서 구성 요소에 더 이상 액세스할 수 없습니다.</p><p>기본적으로 다음 각 항목에 대해 5개의 구성 요소가 표시됩니다.</p> <ul><li>측정 기준</li><li>지표</li><li>필터</li><li>날짜 범위</li></ul> <p>Analysis Workspace의 구성 요소에 대한 자세한 내용은 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)를 참조하십시오.</p> |
+| 왼쪽 레일 그룹에 표시되는 구성 요소 | 왼쪽 레일의 구성 요소 메뉴에 표시할 각 구성 요소의 수를 선택합니다. <p>0을 선택하는 경우 Workspace의 왼쪽 레일에서 구성 요소에 더 이상 액세스할 수 없습니다.</p><p>기본적으로 다음 각 항목에 대해 5개의 구성 요소가 표시됩니다.</p> <ul><li>차원</li><li>지표</li><li>필터</li><li>날짜 범위</li></ul> <p>Analysis Workspace의 구성 요소에 대한 자세한 내용은 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)를 참조하십시오.</p> |
 
 ## 회사 환경 설정 {#company-preferences}
 
@@ -124,22 +108,22 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
 | **표시** | | |
-|  | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>작게</li><li>무난</li><li>확장됨 (기본값)</li></ul> |
+|  | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에 표시해야 할 콘텐츠 양을 선택합니다. <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
 | | [색상 팔레트](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Analysis Workspace에 사용되는 시각화 색상 팔레트를 선택합니다.<ul><li>**카테고리별 팔레트**: Analysis Workspace의 여러 시각화에 적용됩니다. 각 색상은 고유한 카테고리 값을 나타냅니다. Adobe에서 제공하는 옵션 중에서 선택하거나 쉼표로 구분된 16진수 값으로 정의된 맞춤형 팔레트를 입력합니다.</li><li>**다양한 팔레트**: Analysis Workspace의 집단 테이블에 적용됩니다. 이 팔레트는 두 개의 극단과 중간에 기준선이 있는 숫자 의미를 보유합니다.</li><li>**순차적 팔레트**: 빈도 트렌드(스택 막대) 안내 분석에 적용됩니다. 이 팔레트는 밝음부터 어두움까지의 숫자 의미를 보유합니다.</li></ul> |
 | **데이터** | | |
 |  | [보고서 세트](/help/analyze/analysis-workspace/c-panels/panels.md) | 테이블 및 시각화가 데이터를 도출하는 위치에서 선택합니다. <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
 |  | [캘린더](/help/analyze/analysis-workspace/c-panels/panels.md) | 다음 목록에서 선택: <ul><li>Adobe 제공 범위 (기본값은 이번 달)</li><li>사용자 정의 범위</li></ul> |
-|  | [패널 유형](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>자유 형식 (기본값)</li><li>빈 패널</li><li>빠른 인사이트</li></ul> |
+|  | [패널 유형](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>자유 형식 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
 |  | 번호 형식 | <ul><li>1,000.00(기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다. 예를 들어 이 설정(활성화된 경우)은 동일한 페이지에 대한 여러 개의 연속 페이지 조회수를 여러 페이지 조회수로 처리합니다. 이 설정을 끄면 단일 페이지 조회수로 카운트됩니다. <p>**참고:** 이 설정은 특정 지표(예: 단일 페이지 방문)에만 영향을 주고 흐름 또는 폴아웃 시각화에 적용되지 않습니다.</p> |
-|  | CSV 구분 문자 | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>마침표</li><li>공백</li><li>탭</li></ul> |
+|  | CSV 구분자 | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
 |  | 주석 표시 | 프로젝트에 주석을 표시할지 여부를 선택합니다. 주석에 대한 자세한 내용은 [주석 개요](/help/analyze/analysis-workspace/components/annotations/overview.md)를 참조하십시오. |
 
 ## 자유 형식 테이블 환경 설정 {#freeform-table-preferences}
@@ -171,7 +155,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | --- | --- | --- |
 | **테이블** | | |
 | | 테이블 유형 | <ul><li>자유 형식</li><li>테이블 빌더</li></ul> |
-| | 기본 테이블 지표 | <ul><li>발생 횟수</li><li>고유 방문자</li><li>방문 횟수</li></ul> |
+| | 기본 테이블 지표 | <ul><li>발생 횟수</li><li>고유 방문자 수</li><li>방문 횟수</li></ul> |
 | | 기본 테이블 차원 | 분, 시간, 일, 주, 월, 분기 또는 연도 중에서 선택합니다. |
 | | 날짜 정렬 | 이 옵션을 선택하여 각 열의 날짜가 같은 행에서 시작하도록 맞춥니다. |
 | **[열](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
@@ -253,7 +237,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 | | 계산 방법 | 다음 선택 사항 중 하나를 선택합니다. <ul><li>히트</li><li>방문</li><li>방문자</li></ul> <p>예를 들어 페이지 조회수와 함께 사용될 때 사용자당 페이지 조회수, 방문 페이지 조회수 또는 방문자 히트당 페이지 조회수를 선택할 수 있습니다. 히트의 경우 “발생 횟수”는 자유 형식 테이블에서 Y축 지표로 사용됩니다.</p> |
 | **[맵](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | 플로팅 차원 | <ul><li>모바일 위도/경도</li><li>지역 차원</li></ul> |
-| | 맵 유형 | <ul><li>거품</li><li>히트맵</li></ul> |
+| | 맵 유형 | <ul><li>버블</li><li>히트맵</li></ul> |
 | | 색상 테마 | 코랄, 빨강, 녹색, 파랑, 히트맵, 양수/음수 중에서 선택합니다. |
 | | 맵 스타일 | 기본, 도로, 더 밝게, 밝게, 어둡게, 위성 중에서 선택합니다. |
 | **[요약 변경](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
