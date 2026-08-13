@@ -6,9 +6,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 TQID: https://experienceleague.adobe.com/TLo2RytIM7ZQlpFMqXsTdoz7vFAXnwqoTJGHDG7gWLg
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 633
@@ -22,7 +28,7 @@ ht-degree: 33%
 
 AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등급 및 조건부 필터.
 
-가장 자주 사용하는 필터는 [!UICONTROL Includs All], [!UICONTROL Includes Any] 또는 [!UICONTROL Excludes All]과 같은 조건 또는 조건 그룹과 함께 [!UICONTROL Page does not contain ]*`<product name>`*과 같이 AND/OR 조건이 있는 부울 로직을 사용하여 구성하는 표현식 필터입니다. 이 통합 문서 또는 다른 통합 문서에서 다른 요청에 대해 이러한 표현식을 [저장](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)할 수 있습니다.
+가장 자주 사용하는 필터는 [!UICONTROL Includs All], [!UICONTROL Includes Any] 또는 [!UICONTROL Excludes All]과 같은 조건 또는 조건 그룹과 함께 [!UICONTROL Page does not contain &#x200B;]*`<product name>`*과 같이 AND/OR 조건이 있는 부울 로직을 사용하여 구성하는 표현식 필터입니다. 이 통합 문서 또는 다른 통합 문서에서 다른 요청에 대해 이러한 표현식을 [저장](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)할 수 있습니다.
 
 **가장 자주 사용하는 필터를 만드는 방법**
 

@@ -4,11 +4,21 @@ description: '유료 검색 지표(예: Google 광고, Microsoft Advertising 등
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
 TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1206
@@ -64,7 +74,7 @@ ht-degree: 82%
    ![데이터 소스](assets/data-sources.png)
 
 1. **[!UICONTROL 유형 선택]**&#x200B;에서 **[!UICONTROL 범용 클릭당 과금 서비스]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 활성화]**를 클릭합니다.
+1. **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
 [!UICONTROL 데이터 소스 활성화 마법사]가 표시됩니다.
 
    ![활성화 마법사](assets/ds-activation-wizard.png)
@@ -84,7 +94,7 @@ ht-degree: 82%
    ![요약](assets/data-source-summary.png)
 
 1. **[!UICONTROL 저장을]** 클릭합니다.
-1. **[!UICONTROL 다운로드]**를 클릭하여 이 데이터 소스의 템플릿 파일을 다운로드합니다.
+1. **[!UICONTROL 다운로드]**&#x200B;를 클릭하여 이 데이터 소스의 템플릿 파일을 다운로드합니다.
 파일 이름은 처음에 지정한 데이터 소스 유형과 일치합니다. - 이 경우 “범용 클릭당 과금 서비스 template.txt”입니다.
 1. 즐겨 사용하는 텍스트 편집기에서 템플릿을 엽니다.
 파일은 이미 지표와 차원 및 해당 매핑으로 채워져 있습니다.
@@ -106,9 +116,9 @@ Google 광고, Microsoft Advertising 및 기타 PPC 계정에 대해 작동하�
 1. 맨 위에 있는 추가 행을 삭제합니다.
 1. 대상 URL에서 추적 코드를 분리하려면 다음을 수행하십시오.
 a. 모든 열에서 데이터를 복사하여 붙여넣습니다.
-b. **[!UICONTROL 데이터 > 텍스트 나누기]**를 클릭합니다.
-c. 마법사의 1단계에서 **[!UICONTROL 구분]**&#x200B;이 선택되었는지 확인하고 **[!UICONTROL 다음]**을 클릭합니다.
-d. 마법사의 2단계에서 URL을 만든 방법에 따라 구분 기호를 지정합니다(? 또는 &amp;) **[!UICONTROL 다음]**을 클릭합니다.
+b. **[!UICONTROL 데이터 > 텍스트 나누기]**&#x200B;를 클릭합니다.
+c. 마법사의 1단계에서 **[!UICONTROL 구분]**&#x200B;이 선택되었는지 확인하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+d. 마법사의 2단계에서 URL을 만든 방법에 따라 구분 기호를 지정합니다(? 또는 &amp;) **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 e. 마법사의 3단계에서 데이터를 미리 보고 열 중 하나가 &quot;trackingcodename=trackingcode&quot;인지 확인합니다. 추가 변수가 있는 경우 이 단계를 반복합니다(구분 기호로 &amp; 사용).
 f. 추적 코드, 노출수, 클릭수 및 비용을 제외한 모든 열을 삭제합니다. 날짜라는 새 열을 추가하고 날짜 :: 추적 코드 :: 노출수 :: 클릭수 :: 비용의 순서로 열을 구성합니다.
 1. 위의 “데이터 소스 설정” 섹션에서 다운로드한 템플릿에 이 데이터를 추가합니다.

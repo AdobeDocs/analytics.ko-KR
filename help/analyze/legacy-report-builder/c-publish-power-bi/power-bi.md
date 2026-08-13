@@ -5,11 +5,20 @@ feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 TQID: https://experienceleague.adobe.com/cbxgWbtfj-VSPgIoc9WTd3COG8EL6Vg-U-WRv11KZaY
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1181
@@ -77,7 +86,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 **Report Builder에서 형식이 지정된 테이블 게시**
 
 1. Report Builder에서, 뒤에 데이터 행이 오는 머리글 행을 포함하는 데이터 테이블을 생성합니다.
-1. 테이블을 선택하고 [!UICONTROL 홈] 메뉴에서 **[!UICONTROL 테이블로 형식 지정]**&#x200B;을 선택합니다. 테이블은 기본적으로 이름이 지정되지만 (테이블 1, 테이블 2 등), [!UICONTROL 디자인 ]메뉴에서 이름을 변경할 수 있습니다.
+1. 테이블을 선택하고 [!UICONTROL 홈] 메뉴에서 **[!UICONTROL 테이블로 형식 지정]**&#x200B;을 선택합니다. 테이블은 기본적으로 이름이 지정되지만 (테이블 1, 테이블 2 등), [!UICONTROL 디자인 &#x200B;]메뉴에서 이름을 변경할 수 있습니다.
 
 1. Report Builder 도구 모음에서 **[!UICONTROL 예약]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 

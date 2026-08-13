@@ -5,10 +5,23 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b54aca0d-8aee-45f3-9966-1a84bd7bef52
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1511
@@ -76,7 +89,7 @@ Adobe Analytics의 프로젝트에 액세스하려면:
 | [!UICONTROL **마지막으로 연 날짜**] | 현재 프로젝트 페이지를 보고 있는 사용자가 프로젝트를 마지막으로 연 일자를 나타냅니다. |
 | [!UICONTROL **마지막 사용**] | 조직의 사용자가 프로젝트를 마지막으로 연 일자와 시간을 표시해 주므로 프로젝트가 조직 내 사용자에게 가치가 있는지 여부를 판단하는 데 도움이 됩니다.<p>이 열을 조회할 때 다음 사항을 고려하십시오.</p><ul><li>사용량 정보는 2023년 9월부터의 자료만 제공됩니다.</li><li>이 열은 시스템 관리자만 사용할 수 있습니다.</li></ul> |
 | [!UICONTROL **프로젝트 ID**] | 프로젝트 디버깅에 사용할 수 있습니다. |
-| [!UICONTROL ****] | 가장 긴 날짜 범위는 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. |
+| [!UICONTROL **&#x200B;**] | 가장 긴 날짜 범위는 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. |
 | [!UICONTROL **쿼리 개수**] | 프로젝트가 로드될 때 Analytics에 대해 수행된 총 요청 개수입니다. 프로젝트 쿼리 수가 많으면 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. 이 데이터는 프로젝트가 로드되거나 예약된 프로젝트가 전송된 후에만 사용할 수 있습니다. |
 | [!UICONTROL **위치**] | 프로젝트가 위치한 폴더를 표시합니다. |
 

@@ -5,9 +5,14 @@ feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 TQID: https://experienceleague.adobe.com/I1Lw6gp33QByF6J9SZRgTdn30CpdhJH3yWZ5XwOkBqc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 603
@@ -42,7 +47,7 @@ ht-degree: 33%
 1. 예를 들어 요청 마법사의 1단계에서 **[!UICONTROL 페이지]** 보고서를 선택합니다.
 1. **[!UICONTROL 일반적으로 사용되는 날짜]** 드롭다운 옆에 있는 **[!UICONTROL 컨트롤 설정]** 아이콘을 클릭합니다.
 
-   컨트롤 설정 아이콘을 강조 표시하는 요청 마법사 1단계의 ![스크린샷입니다. ](assets/date_range_control.png)
+   컨트롤 설정 아이콘을 강조 표시하는 요청 마법사 1단계의 ![스크린샷입니다. &#x200B;](assets/date_range_control.png)
 
 1. 컨트롤 설정 대화 상자에서 양방향 컨트롤에 표시할 날짜 범위 항목을 모두 선택합니다. 또한 컨트롤의 왼쪽 상단 셀 위치를 지정합니다.
 
