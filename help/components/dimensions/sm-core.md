@@ -31,22 +31,22 @@ Streaming Media 서비스 핵심 차원은 Streaming Media 컬렉션 라이브�
 
 다음 차원을 사용할 수 있습니다.
 
-* [[!UICONTROL 콘텐츠]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
-* [[!UICONTROL 콘텐츠 채널]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
-* [[!UICONTROL 콘텐츠 길이(변수)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
-* [[!UICONTROL 콘텐츠 이름(변수)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
-* [[!UICONTROL 콘텐츠 플레이어 이름]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL 콘텐츠]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL 콘텐츠 채널]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL 콘텐츠 길이(변수)]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL 콘텐츠 이름(변수)]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL 콘텐츠 플레이어 이름]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-player-name)
 * [[!UICONTROL 콘텐츠 세그먼트]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
-* [[!UICONTROL 콘텐츠 형식]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
-* [[!UICONTROL 미디어 경로]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
-* [[!UICONTROL 미디어 세션 ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
-* [[!UICONTROL 스트림 형식]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
+* [[!UICONTROL 콘텐츠 형식]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL 미디어 경로]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL 미디어 세션 ID]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL 스트림 형식]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 위의 차원 외에도 Adobe은 자동으로 다음 분류 차원을 생성합니다. 이러한 차원을 사용하는 보고서를 보려면 분류 데이터를 업로드해야 합니다.
 
 | 분류 이름 | 상위 차원 |
 | --- | --- |
-| [[!UICONTROL 비디오 길이]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL 콘텐츠] |
-| [[!UICONTROL 비디오 이름]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL 콘텐츠] |
+| [[!UICONTROL 비디오 길이]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL 콘텐츠] |
+| [[!UICONTROL 비디오 이름]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL 콘텐츠] |
 
 해당 지표는 [Streaming Media 서비스 핵심 지표](../metrics/sm-core.md)를 참조하십시오.
