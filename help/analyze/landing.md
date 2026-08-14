@@ -144,8 +144,8 @@ Adobe Analytics의 학습 페이지를 사용하여 Adobe Analytics의 초급, �
 * **콘텐츠 필터링:** 왼쪽 레일의 필터 아이콘을 사용하여 경험 수준(초급, 중급 또는 고급)과 콘텐츠 유형(문서, 비디오 둘러보기 및 튜토리얼)에 따라 학습 콘텐츠를 필터링할 수 있습니다.
 * **진행 상황 추적:** 콘텐츠 일부를 선택하면 **[!UICONTROL 조회함]** 태그가 표시됩니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. **[!UICONTROL 조회함]** 태그를 선택하여 콘텐츠 일부에서 제거할 수 있습니다.
 * **추가 콘텐츠 보기:** 비디오를 시청하는 동안 **[!UICONTROL 자세히 알아보기]** 버튼을 선택하여 Experience League에 대한 관련 설명서 콘텐츠를 볼 수 있습니다. 아니면 학습 페이지에서 다음 옵션 중 하나를 선택하여 추가 콘텐츠를 봅니다.
-   * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록을 봅니다.
-   * [!UICONTROL **Experience League 방문**]: Experience League의 전체 Adobe Analytics 설명서 세트를 봅니다.
+  * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록을 봅니다.
+  * [!UICONTROL **Experience League 방문**]: Experience League의 전체 Adobe Analytics 설명서 세트를 봅니다.
 * **신규 사용자를 위한 기본 사항:** [!UICONTROL 작업 영역 기본 사항] 둘러보기는 신규 사용자에게 권장되는 사항입니다. 이 둘러보기는 작업 영역으로 바로 이동하여 가장 일반적인 작업을 안내합니다. 이 둘러보기는 패널 헤더의 도구 설명 팝업을 통해 작업 영역에서 다시 실행할 수도 있습니다.
 
 ## 랜딩 페이지 설정 {#set-landing}

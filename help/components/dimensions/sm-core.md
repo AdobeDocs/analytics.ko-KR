@@ -36,7 +36,7 @@ Streaming Media 서비스 핵심 차원은 Streaming Media 컬렉션 라이브�
 * [[!UICONTROL 콘텐츠 길이(변수)]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-length)
 * [[!UICONTROL 콘텐츠 이름(변수)]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-name)
 * [[!UICONTROL 콘텐츠 플레이어 이름]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-player-name)
-* [[!UICONTROL 콘텐츠 세그먼트]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL 콘텐츠 세그먼트]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
 * [[!UICONTROL 콘텐츠 형식]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-type)
 * [[!UICONTROL 미디어 경로]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-path)
 * [[!UICONTROL 미디어 세션 ID]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-session-id)

@@ -80,4 +80,5 @@ ht-degree: 95%
 
 >[!MORELIKETHIS]
 >
->[다중 세트 태깅에서 글로벌 보고서 세트 및 가상 보고서 세트로 이동롤업과 글로벌 보고서 세트 비교](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[다중 세트 태깅에서 글로벌 보고서 세트 및 가상 보고서 세트로 이동](../../components/vrs/vrs-considerations.md)
+>[롤업과 글로벌 보고서 세트 비교](../../admin/tools/manage-rs/rollup-report-suite.md)

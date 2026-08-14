@@ -51,15 +51,15 @@ Analysis Workspace의 [프로젝트](/help/analyze/analysis-workspace/build-work
 * [패널](/help/analyze/analysis-workspace/c-panels/panels.md)를 프로젝트에 추가합니다. (예: **[!DNL Example Panel]** ➊).
 
 * [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 패널에 추가합니다. 예:
-   * **[!DNL Line]** [라인](/help/analyze/analysis-workspace/visualizations/line.md) 시각화 ➋
-   * **[!DNL US States]** [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화➌
+  * **[!DNL Line]** [라인](/help/analyze/analysis-workspace/visualizations/line.md) 시각화 ➋
+  * **[!DNL US States]** [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화➌
 * [구성 요소](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)를 시각화에 추가합니다. 예:
-   * **[!DNL US States]** [차원](/help/components/dimensions/overview.md) ➍
-   * **[!DNL Unique Visitors]** [지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
-   * **[!DNL Average Revenue Per Order]** [계산된 지표](/help/components/calculated-metrics/cm-overview.md) ➏
-   * **[!DNL Visits from Mobile Devices]** [세그먼트](/help/components/segmentation/seg-overview.md) ➐
-   * **[!DNL Last Month]** [날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
-   * **[!DNL Example]** [주석](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
+  * **[!DNL US States]** [차원](/help/components/dimensions/overview.md) ➍
+  * **[!DNL Unique Visitors]** [지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
+  * **[!DNL Average Revenue Per Order]** [계산된 지표](/help/components/calculated-metrics/cm-overview.md) ➏
+  * **[!DNL Visits from Mobile Devices]** [세그먼트](/help/components/segmentation/seg-overview.md) ➐
+  * **[!DNL Last Month]** [날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
+  * **[!DNL Example]** [주석](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 
 
 ## 프로젝트 정보 및 설정 {#project-info-settings}

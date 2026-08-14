@@ -20,7 +20,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 146
+source-wordcount: 147
 ht-degree: 76%
 
 ---
@@ -35,4 +35,4 @@ ht-degree: 76%
 
 ## 차원 항목
 
-차원 항목에는 해당 날짜와 함께 보고서의 날짜 범위 내에 지정된 분이 포함됩니다. 형식은 `HH:MM YYYY-MM-DD`를 사용합니다. `00:00`(으)로 시작하는 Dimension 항목은 해당 날짜의 자정과 같고, `23:59`(으)로 시작하는 값은 해당 날짜의 오후 11:59(과)와 같습니다.
+차원 항목에는 해당 날짜와 함께 보고서의 날짜 범위 내에 지정된 분이 포함됩니다. 형식은 `HH:MM YYYY-MM-DD`를 사용합니다. `00:00`(으)로 시작하는 Dimension 항목은 해당 날짜의 자정과 같고, `23:59`(으)로 시작하는 값은 해당 날짜의 오후 11:59과 같습니다.

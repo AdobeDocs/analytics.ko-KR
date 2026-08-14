@@ -38,11 +38,11 @@ AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaSc
 * 개발 [보고서 세트 ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)에 대해 원하는 에지 도메인입니다.
 * IMS 조직 ID:
-   1. Adobe ID 자격 증명을 사용하여 [Adobe CX Enterprise](https://experience.adobe.com)에 로그인합니다.
-   1. CX 엔터프라이즈 인터페이스의 모든 위치에서 `[Cmd]` + `[I]`(iOS) 또는 `[Ctrl]` + `[I]`(Windows)을 누릅니다.
-   1. **[!UICONTROL 사용자 데이터 디버거]**&#x200B;가 나타납니다. **[!UICONTROL 할당된 조직]** 탭을 선택합니다.
-   1. 원하는 IMS 조직을 확장합니다.
-   1. **[!UICONTROL ID]** 필드를 찾습니다.
+  1. Adobe ID 자격 증명을 사용하여 [Adobe CX Enterprise](https://experience.adobe.com)에 로그인합니다.
+  1. CX 엔터프라이즈 인터페이스의 모든 위치에서 `[Cmd]` + `[I]`(iOS) 또는 `[Ctrl]` + `[I]`(Windows)을 누릅니다.
+  1. **[!UICONTROL 사용자 데이터 디버거]**&#x200B;가 나타납니다. **[!UICONTROL 할당된 조직]** 탭을 선택합니다.
+  1. 원하는 IMS 조직을 확장합니다.
+  1. **[!UICONTROL ID]** 필드를 찾습니다.
 
 위의 리소스가 있는 경우, 다음 기본 예제 페이지에는 Adobe Analytics으로 데이터를 전송하는 데 필요한 최소 호출이 포함되어 있습니다.
 
@@ -98,9 +98,9 @@ AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaSc
 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 변수를 사용하면 조직에서 방문자를 식별하는 독립적인 제어를 완료할 수 있습니다. `visitorID`을(를) 사용하는 경우 다음 제한 사항에 유의하십시오.
 
 * 모든 히트는 단일 방문자로 계산되려면 동일한 `visitorID` 값을 포함해야 합니다.
-   * `visitorID`을(를) 생략한 모든 히트는 자동으로 다른 방문자 식별 방법을 사용하려고 시도하여 별도의 방문자로 취급됩니다.
-   * 이전 히트와 다른 `visitorID` 값을 포함하는 모든 히트는 별도의 방문자로 처리됩니다.
-   * Adobe은 Adobe Analytics에서 서로 다른 방문자 ID를 사용하여 히트를 결합하는 방법을 제공하지 않습니다.
+  * `visitorID`을(를) 생략한 모든 히트는 자동으로 다른 방문자 식별 방법을 사용하려고 시도하여 별도의 방문자로 취급됩니다.
+  * 이전 히트와 다른 `visitorID` 값을 포함하는 모든 히트는 별도의 방문자로 처리됩니다.
+  * Adobe은 Adobe Analytics에서 서로 다른 방문자 ID를 사용하여 히트를 결합하는 방법을 제공하지 않습니다.
 * 공유 대상, Analytics for Target 및 고객 특성은 `visitorID`을(를) 사용하여 식별된 방문자에서 지원되지 않습니다.
 
 이 변수를 사용하는 구현 지침은 [`visitorID`](/help/implement/vars/config-vars/visitorid.md)을(를) 참조하십시오.

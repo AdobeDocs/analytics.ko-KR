@@ -55,7 +55,7 @@ Adobe Admin Console 사용의 이점은 다음과 같습니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>SSO (Single Sign-On) </p> </td> 
+   <td colname="col1"> <p>단일 사인온 </p> </td> 
    <td colname="col2"> <p>Analytics 사용자는 Adobe ID 또는 Enterprise ID을 사용하여 CX Enterprise 및 모든 솔루션에 로그인할 수 있습니다. 이 로그인을 사용하면 CX Enterprise의 통합 솔루션 및 핵심 서비스에 액세스할 수 있습니다. </p> <p>마이그레이션 후 기존 로그인(<span class="filepath">my.omniture.com</span> 및 <span class="filepath">sc.omniture.com</span>)을 통해 로그인하려는 사용자는 <span class="filepath">experiencecloud.adobe.com</span>으로 리디렉션됩니다. </p> </td> 
   </tr> 
   <tr> 

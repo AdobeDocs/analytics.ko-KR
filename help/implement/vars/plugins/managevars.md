@@ -79,22 +79,22 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 * **`cb`** (필수, 문자열): 플러그인이 Analytics 변수를 조작하는 데 사용하는 콜백 함수의 이름입니다. `cleanStr`과 같은 Adobe 기능이나 사용자 지정 기능을 사용할 수 있습니다.
 * **`l`** (선택 사항, 문자열): 조작하려는 Analytics 변수의 쉼표로 구분된 목록입니다. 설정하지 않으면 기본값은 다음을 포함한 모든 Adobe Analytics 변수로 설정됩니다.
-   * `pageName`
-   * `purchaseID`
-   * `channel`
-   * `server`
-   * `pageType`
-   * `campaign`
-   * `state`
-   * `zip`
-   * `events`
-   * `products`
-   * `transactionID`
-   * 모든 prop
-   * 모든 eVar
-   * 모든 계층 변수
-   * 모든 목록 변수
-   * 모든 컨텍스트 데이터 변수
+  * `pageName`
+  * `purchaseID`
+  * `channel`
+  * `server`
+  * `pageType`
+  * `campaign`
+  * `state`
+  * `zip`
+  * `events`
+  * `products`
+  * `transactionID`
+  * 모든 prop
+  * 모든 eVar
+  * 모든 계층 변수
+  * 모든 목록 변수
+  * 모든 컨텍스트 데이터 변수
 * **`Il`** (선택 사항, 부울): `l` 인수에 선언된 변수 목록을 포함하지 않고 *제외*&#x200B;하려면 `false`로 설정하십시오. 기본값은 `true`입니다.
 
 이 함수를 호출하면 아무 것도 반환되지 않습니다. 대신 원하는 콜백 함수를 기반으로 Analytics 변수의 값을 변경합니다.

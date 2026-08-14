@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 91%
+source-wordcount: '1671'
+ht-degree: 92%
 
 ---
 
@@ -121,7 +121,7 @@ Adobe Analytics의 프로젝트에 액세스하려면 **[!UICONTROL Workspace]**
 
 | 보고서 세트 | 설명 |
 |---|---|
-| ![보고서 세트](assets/projects-filters-reportsuites.png){width="300"} | **[!UICONTROL 보고서 세트]** 섹션을 통해 보고서 세트를 필터링할 수 있습니다. <ul><li>![검색](/help/assets/icons/Search.svg) *보고서 세트 검색*&#x200B;을 사용하여 필터링하는 데 사용할 보고서 세트를 검색합니다.</li><li>두 개 이상의 보고서 세트를 선택할 수 있습니다. 사용 가능한 보고서 세트는 필터 패널의 다른 섹션에서 선택한 항목에 따라 다릅니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**3︎⃣**: 현재 필터로 인해 프로젝트에 사용할 수 있는 보고서 세트 수입니다.</li><li>⃣4︎: 특정 보고서 세트와 연결된 프로젝트 수입니다.</li></ul></li></ul> |
+| ![보고서 세트](assets/projects-filters-reportsuites.png){width="300"} | **[!UICONTROL 보고서 세트]** 섹션을 통해 보고서 세트를 필터링할 수 있습니다. <ul><li>![검색](/help/assets/icons/Search.svg) *보고서 세트 검색*&#x200B;을 사용하여 필터링하는 데 사용할 보고서 세트를 검색합니다.</li><li>둘 이상의 보고서 세트를 선택할 수 있습니다. 사용할 수 있는 보고서 세트는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**⃣**: 현재 필터로 인해 프로젝트에 사용할 수 있는 보고서 세트 수입니다.</li><li>4︎: 특정 보고서 세트와 연결된 프로젝트 수입니다.</li></ul></li></ul> |
 
 
 ### 소유자
@@ -157,6 +157,6 @@ Adobe Analytics의 프로젝트에 액세스하려면 **[!UICONTROL Workspace]**
 
 * 필드 제거 방법:
 
-   1. **[!UICONTROL *x *필터]**![ChevronDown](/help/assets/icons/ChevronDown.svg)를 사용하여 필터 유형과 개별 필터를 나열하는 컨텍스트 메뉴를 엽니다.
-   1. 필터를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용합니다.
+  1. **[!UICONTROL *x *필터]**![ChevronDown](/help/assets/icons/ChevronDown.svg)를 사용하여 필터 유형과 개별 필터를 나열하는 컨텍스트 메뉴를 엽니다.
+  1. 필터를 제거하려면 ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 사용합니다.
 

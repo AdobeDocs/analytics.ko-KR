@@ -93,7 +93,7 @@ ht-degree: 35%
    | 설정 | 다음에서 표시: | 에 표시되지 않음 |
    |---------|----------|---------|
    | [!UICONTROL **항상 표시**] | <ul><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> | 해당 사항 없음 |
-   | [!UICONTROL **빌더**] | <ul><li>세그먼트 빌더</li><li>계산된 지표 빌더</li><li>Analysis Workspace</li></ul> |  |
+   | [!UICONTROL **빌더**] | <ul><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li><li>Analysis Workspace</li></ul> |  |
    | [!UICONTROL **항상 숨김**] | 해당 사항 없음 | <ul><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> |
 
 1. [!UICONTROL **설명**] 열에서 확인란을 선택한 다음 설명을 제공합니다.
