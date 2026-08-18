@@ -5,11 +5,36 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 TQID: https://experienceleague.adobe.com/1UUQ-01VPJWZmSReen7PjTBozBcMr2LgKDHpO8LcKew
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e7d92df1-c5ba-4e93-85df-f83171b889beid: e9cb007b-c8b7-4975-bc81-11a788c535faid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
 source-wordcount: 18746
@@ -265,7 +290,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **교육 튜토리얼**] | 일반적인 Analysis Workspace 용어와 첫 번째 분석 빌드 단계 알아보기 |
 | [!UICONTROL **페이지**] | <!--duplicated in Engagement section--> 방문 빈도가 가장 높은 페이지와 가장 낮은 페이지를 파악합니다. <p>**이를 통해** 대상자와 대상자가 가장 관심을 갖는 정보의 유형을 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 조회수가 적은 페이지의 가시성을 높이기 위해 페이지 메타데이터를 조정하거나 가장 많이 조회된 페이지의 콘텐츠를 향상시키는 데 시간을 할애하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 [페이지 차원](/help/components/dimensions/page.md)과 [페이지 조회수 지표](/help/components/metrics/page-views.md)를 사용합니다.</p> |
@@ -490,7 +515,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **주요 지표**] | <!--duplicated in Most popular section--> 페이지 조회수, 방문자 수, 고유 방문자 수 지표를 나란히 표시한 보고서를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다. <p>**이를 통해** 이러한 중요한 지표를 비교하여 사이트를 방문한 고유 사용자 수, 페이지 방문 횟수 및 세션 수를 보다 완벽하게 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 특정 주 또는 월에 사이트를 방문한 사람별로 조회한 평균 페이지 수, 일년 중 특정 시간대 또는 마케팅 캠페인이 실행되기 전과 후에 어떻게 변화했는지 평가하는 등 다양한 작업을 수행할 수 있습니다. </p><p>이 템플릿은 [일 차원](/help/components/dimensions/day.md), [페이지 조회수 지표](/help/components/metrics/page-views.md), [방문 횟수 지표](/help/components/metrics/visits.md), [고유 방문자 수 지표](/help/components/metrics/unique-visitors.md)를 사용합니다.</p> |
 | [!UICONTROL **페이지 조회수**] | <!--duplicated in Most popular section-->총 페이지 조회수를 확인할 수 있습니다. 데이터는 일정 기간 동안 표시되며 이전 기간과 비교됩니다. <p>**이를 통해** 사이트의 트래픽이 시간이 지남에 따라 어떻게 증가하거나 감소하는지 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 캠페인이 시작되기 전과 후의 사이트 트래픽을 비교하여 최근에 시작된 마케팅 캠페인의 효과를 평가하는 등 다양한 작업을 수행할 수 있습니다. 또는 전년 대비 휴일 트래픽을 비교할 수도 있습니다.</p><p>이 템플릿은 [일 차원](/help/components/dimensions/day.md)과 [페이지 조회수 지표](/help/components/metrics/page-views.md)를 사용합니다.</p> |
@@ -618,7 +643,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **제품 전환 단계**] | 장바구니, 체크아웃, 주문을 표시하는 단계 시각화에서 제품 전환을 확인할 수 있습니다. 전환율, 매출 평균, 단위 평균, 주문 평균을 확인할 수도 있습니다.<p>**이를 통해** 사람들이 전환 프로세스를 어떻게 진행하고 드롭 오프하는지 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 웹 사이트를 개선하여 체크아웃 프로세스를 더욱 원활하게 진행하는 등 다양한 작업을 수행할 수 있습니다.</p> |
 | **제품** | 어떤 제품이 최상위 판매자 또는 가장 많이 본 제품 등의 주요 지표를 주도하는지 확인합니다. <p>**이를 통해** 어떤 제품이 가장 성공적인지 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 성공적인 제품에 대한 자금 지원을 늘리고 덜 성공적인 제품에 대한 자금 지원을 줄이는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 주문 지표와 제품 차원을 사용합니다. |
@@ -987,7 +1012,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **사용자 지표**] | 브랜드와 상호 작용하는 사람의 수를 확인할 수 있습니다. <p>**이를 통해** 사이트의 사용 추세를 파악할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 사이트의 새 방문자를 생성하는 데 있어 최근 마케팅 활동의 효과를 측정하는 등 다양한 작업을 수행할 수 있습니다.</p> |
 | **방문자 프로필** > **위치 개요** | 맵 시각화를 통해 방문자 위치 개요를 확인할 수 있습니다.<p>**이를 통해** 사이트 방문자의 위치를 파악할 수 있습니다. </p><p>**학습한 내용을 바탕으로** 가장 많은 관심과 기회가 표시된 위치에서 마케팅 리소스를 집중하는 등 다양한 작업을 수행할 수 있습니다.</p><!-- This template uses the --> |
@@ -1207,7 +1232,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **마케팅 채널**] > [!UICONTROL **채널 개요 보고서**] | 사용자 정의 기여도를 사용할 때 이 템플릿은 방문자가 사이트에 접속하는 방법을 보여 줍니다.<p>**이를 통해** 어떤 마케팅 채널이 가장 효과적인지 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 효과적인 마케팅 채널에 더 많이 투자하고 효과가 낮은 마케팅 채널에서 철수하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 ID(variables/marketingchannel) 차원과 매출 지표를 사용합니다.</p> |
 | [!UICONTROL **마케팅 채널**] > [!UICONTROL **첫 번째 터치 채널**] | 방문자의 참여 기간(기본 30일) 동안 방문자가 매칭한 첫 번째 마케팅 채널을 확인할 수 있습니다. <p>**이를 통해** 사이트로 초기 트래픽을 유도하는 마케팅 채널을 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 가장 효과적인 분야에 마케팅 활동을 집중하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 첫 번째 터치 채널 차원을 사용합니다.</p> |
@@ -1272,7 +1297,7 @@ Analysis Workspace의 템플릿(또는 회사 템플릿)은 가장 일반적인 
 
 다음 템플릿을 사용할 수 있습니다.
 
-| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 템플릿 이름 | 이 템플릿을 사용하는 이유 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **이동통신사**] | 사용자가 사이트에 액세스하는 데 사용하는 모바일 디바이스에 셀룰러 네트워크 연결을 제공하는 통신 회사를 확인할 수 있습니다.<p>**이를 통해** 사용자 사이에서 가장 인기 있는 이동통신사를 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 다양한 통신사의 네트워크 기능을 기반으로 콘텐츠 게재를 맞춤화하여 원활한 사용자 경험을 보장하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 이동통신사 차원을 사용합니다.</p> |
 | **디바이스** | 사람들이 귀하의 사이트에 접속하는 데 사용하는 모바일 디바이스의 제조사와 모델을 확인할 수 있습니다.<p>**이를 통해** 사용자 사이에서 가장 인기 있는 모바일 디바이스를 더 잘 이해할 수 있습니다.</p><p>**학습한 내용을 바탕으로** 가장 일반적인 모바일 디바이스에 맞게 사이트 렌더링을 최적화하는 등 다양한 작업을 수행할 수 있습니다.</p><p>이 템플릿은 모바일 디바이스 이름 차원을 사용합니다.</p> |
