@@ -1,22 +1,14 @@
 ---
-description: 지표 유형 및 속성에 대해 알아봅니다.
-title: 지표 유형 및 속성
+description: 지표 유형 및 기여도에 대해 알아봅니다.
+title: 지표 유형 및 기여도
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 TQID: https://experienceleague.adobe.com/ZfZZhXUrpGIzpfmIatSmbRAy1UJ-B6dDmZDeC1YSMjU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 615
@@ -42,16 +34,16 @@ ht-degree: 100%
 
    * **[!UICONTROL 속성]**&#x200B;을 지정합니다.
 
-      1. 다음과 같은 작업을 수행할 수 있습니다.
+     1. 다음과 같은 작업을 수행할 수 있습니다.
 
-         * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 비활성화하여 30일의 전환 확인 기간이 있는 마지막 터치의 기본 열 속성 모델을 사용합니다.
-         * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 활성화합니다. **[!UICONTROL 열 속성 모델]** 대화 상자에서
+        * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 비활성화하여 30일의 전환 확인 기간이 있는 마지막 터치의 기본 열 속성 모델을 사용합니다.
+        * **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 활성화합니다. **[!UICONTROL 열 속성 모델]** 대화 상자에서
 
-            * [속성 모델](#attribution-models)에서 **[!UICONTROL 모델]**&#x200B;을 선택합니다.
-            * **[!UICONTROL 컨테이너]** 옵션에서 [컨테이너](#container)를 선택합니다.
-            * **[!UICONTROL 전환 확인 기간]** 옵션에서 [전환 확인 기간](#lookback-window)을 선택합니다. **[!UICONTROL 사용자 정의 시간]**&#x200B;을 선택하면 **[!UICONTROL 분]** 단위에서 최대 **[!UICONTROL 분기]** 단위로 기간을 정의할 수 있습니다.
+          * [속성 모델](#attribution-models)에서 **[!UICONTROL 모델]**&#x200B;을 선택합니다.
+          * **[!UICONTROL 컨테이너]** 옵션에서 [컨테이너](#container)를 선택합니다.
+          * **[!UICONTROL 전환 확인 기간]** 옵션에서 [전환 확인 기간](#lookback-window)을 선택합니다. **[!UICONTROL 사용자 정의 시간]**&#x200B;을 선택하면 **[!UICONTROL 분]** 단위에서 최대 **[!UICONTROL 분기]** 단위로 기간을 정의할 수 있습니다.
 
-      1. 비기본 속성 모델을 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택합니다. 취소하려면 취소를 선택합니다.
+     1. 비기본 속성 모델을 적용하려면 **[!UICONTROL 적용]**&#x200B;을 선택합니다. 취소하려면 취소를 선택합니다.
 
      비기본 속성 모델을 이미 정의한 경우 **[!UICONTROL 편집]**&#x200B;을 선택해 선택 항목을 수정합니다.
 
@@ -62,23 +54,23 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
->title="비기본 속성 모델 사용"
->abstract="선택한 지표에 기본이 아닌 속성 모델을 사용합니다."
+>title="비기본 기여도 모델 사용"
+>abstract="선택한 지표에 대해 기본이 아닌 기여도 모델을 활성화합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="모델"
->abstract="지표에 대한 속성 모델을 선택합니다."
+>abstract="지표에 대한 기여도 모델을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="마지막 터치"
->abstract="100%의 크레딧이 방문자가 본 마지막 차원 값으로 이동합니다."
+>abstract="크레딧의 100%가 방문자가 본 마지막 차원 값에 할당됩니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="첫 번째 터치"
->abstract="100%의 크레딧이 방문자가 본 첫 번째 차원 값으로 이동합니다."
+>abstract="크레딧의 100%가 방문자가 본 첫 번째 차원 값에 할당됩니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
@@ -128,22 +120,22 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="시간 감소"
->abstract="시간적으로 변환에 가장 가까운 차원 값에 가장 많은 크레딧이 제공됩니다."
+>abstract="전환 시점에 가장 가까운 차원 값이 가장 많은 기여도를 받습니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="사용자 정의"
->abstract="고유한 위치 기반 속성 가중치를 정의합니다."
+>abstract="고유한 위치 기반 기여도 가중치를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_positionbased"
 >title="사용자 정의"
->abstract="고유한 위치 기반 속성 가중치를 정의합니다."
+>abstract="고유한 위치 기반 기여도 가중치를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="알고리즘"
->abstract="크레딧은 통계적 알고리즘에 따라 동적으로 결정합니다."
+>abstract="크레딧은 통계적 알고리즘에 따라 동적으로 결정됩니다."
 
 {{attribution-models-details}}
 
@@ -163,7 +155,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="전환 확인 기간"
->abstract="이 설정은 각 변환에 적용될 데이터 속성의 기간을 결정합니다."
+>abstract="이 설정은 각 전환에 적용될 데이터 기여도 기간을 결정합니다."
 
 {{attribution-lookback-window}}
 

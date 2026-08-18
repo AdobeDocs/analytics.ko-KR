@@ -6,14 +6,10 @@ exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 autotag-review: '2026-05-22T11:11:45.846Z'
 TQID: 'https://experienceleague.adobe.com/7dHbhdyNtBxVeSQVPNZMLEBBcuwipxEqbx1Nq0900XE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 4863
@@ -59,7 +55,7 @@ ht-degree: 96%
 
 | 인수 | 설명 |
 |---|---|
-| logical_test | 하나 이상의 매개변수가 필요하지만 여러 개의 매개변수를 사용할 수 있습니다. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식 |
+| logical_test | 하나 이상의 매개변수가 필요하지만 매개변수 개수에는 제한이 없습니다. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식 |
 
 
 ## 대략적인 고유 개수 {#approximate_count_distinct}
@@ -96,14 +92,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="functions-acos"
 >title="아크코사인"
->abstract="지표의 아크코사인 또는 코사인의 역함수를 반환합니다. 아크코사인은 코사인이 숫자인 각도입니다. 반환된 각도는 0(영)~pi 범위의 라디안으로 주어집니다. 라디안 결과를 도 단위로 변환하려면 결과에 180/PI()를 곱하십시오."
+>abstract="지표의 아크코사인 또는 코사인의 역함수를 반환합니다. 아크코사인은 코사인이 해당 숫자인 각도입니다. 반환된 각도는 0(영)~pi 범위의 라디안으로 주어집니다. 라디안 결과를 도 단위로 변환하려면 결과에 180/PI()를 곱하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(지표)]**
 
 
-[!BADGE 행]{type="Neutral"} 지표의 아크코사인 또는 코사인의 역함수를 반환합니다. 아크코사인은 코사인이 숫자인 각도입니다. 반환된 각도는 0(영)~pi 범위의 라디안으로 주어집니다. 라디안 결과를 도 단위로 변환하려면 결과에 180/PI()를 곱하십시오.
+[!BADGE 행]{type="Neutral"} 지표의 아크코사인 또는 코사인의 역함수를 반환합니다. 아크코사인은 코사인이 해당 숫자인 각도입니다. 반환된 각도는 0(영)~pi 범위의 라디안으로 주어집니다. 라디안 결과를 도 단위로 변환하려면 결과에 180/PI()를 곱하십시오.
 
 
 | 인수 | 설명 |
@@ -119,14 +115,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="functions-asin"
 >title="아크사인"
->abstract="숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오."
+>abstract="숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(지표)]**
 
 
-[!BADGE 행]{type="Neutral"} 숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각도입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오.
+[!BADGE 행]{type="Neutral"} 숫자의 아크사인 또는 사인의 역함수를 반환합니다. 아크사인은 사인이 숫자인 각입니다. 반환된 각도는 -pi/2~pi/2 범위의 라디안으로 주어집니다. 아크사인을 도 단위로 표현하려면 결과에 180/PI()를 곱하십시오.
 
 
 | 인수 | 설명 |
@@ -165,13 +161,13 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="functions-cdf-t"
 >title="Cdf-T"
->abstract="자유도가 n인 학생 t 분포를 사용하는 확률변수에 col보다 적은 z 점수가 있는 확률을 반환합니다."
+>abstract="자유도가 n인 학생 t 분포를 따르는 확률변수가 col보다 작은 z 점수를 가질 확률을 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(지표, 숫자)]**
 
-자유도가 n인 학생 t 분포를 사용하는 확률변수에 col보다 적은 z 점수가 있는 확률을 반환합니다.
+자유도가 n인 학생 t 분포를 따르는 확률변수가 col보다 작은 z 점수를 가질 확률을 반환합니다.
 
 | 인수 | 설명 |
 |---|---|
@@ -196,7 +192,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 >[!CONTEXTUALHELP]
 >id="functions-cdf-z"
 >title="Cdf-Z"
->abstract="정규 분포를 사용하는 확률변수에 col보다 적은 z 점수가 있는 확률을 반환합니다."
+>abstract="정규 분포를 따르는 확률변수의 z 점수가 col보다 작을 확률을 반환합니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -206,7 +202,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 표준 정규 분포의 누적 분포 함수를 원하는 지표 |
+| 지표 | 표준 정규 분포의 누적 분포 함수를 구하려는 지표 |
 
 ### 예
 
@@ -285,7 +281,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | 표준화 컨테이너 | 테스트를 실행할 기준(사용자, 세션 또는 이벤트)입니다. |
 | 성공 지표 | 사용자가 변형을 비교하는 지표입니다. |
 | 제어 | 실험의 다른 모든 변형과 비교되는 변형입니다. 제어 변형 차원 항목의 이름을 입력하십시오. |
-| 유의성 임계값 | 이 함수에서의 임계값은 95%의 기본값으로 설정됩니다. |
+| 유의성 임계값 | 이 함수의 임계값은 기본값인 95%로 설정됩니다. |
 
 ## 신뢰도(상한) {#confidence-upper}
 
@@ -309,7 +305,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | 표준화 컨테이너 | 테스트를 실행할 기준(사용자, 세션 또는 이벤트)입니다. |
 | 성공 지표 | 사용자가 변형을 비교하는 지표입니다. |
 | 제어 | 실험의 다른 모든 변형과 비교되는 변형입니다. 제어 변형 차원 항목의 이름을 입력하십시오. |
-| 유의성 임계값 | 이 함수에서의 임계값은 95%의 기본값으로 설정됩니다. |
+| 유의성 임계값 | 이 함수의 임계값은 기본값인 95%로 설정됩니다. |
 
 
 ## 코사인 {#cosine}
@@ -406,7 +402,7 @@ x열의 마지막 n개 요소 평균을 반환합니다. n > 0이면 마지막 n
 
 >[!NOTE]
 >
->이 함수는 1인당 수익과 같은 요금 지표에서는 작동하지 않습니다. 이 함수는 마지막 N에 대한 수익을 합산하고 마지막 N에 대한 사람들을 합산한 다음 나누는 대신 요금의 평균을 구합니다. <br/>대신 [**[!UICONTROL CUMULATIVE(수익)]**](#cumulative) ![나누기](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(사람)]**](#cumulative)을 사용합니다.
+>이 함수는 1인당 매출과 같은 비율 지표에서는 작동하지 않습니다. 이 함수는 마지막 N에 대한 매출을 합산하고 마지막 N에 대한 사람 수를 합산한 다음 나누는 대신 비율의 평균을 구합니다. <br/>대신 [**[!UICONTROL CUMULATIVE(수익)]**](#cumulative) ![나누기](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(사람)]**](#cumulative)을 사용합니다.
 
 
 ## Equal {#equal}
@@ -670,7 +666,7 @@ Equal. 출력은 0(false) 또는 1(true)입니다.
 >[!CONTEXTUALHELP]
 >id="functions-if"
 >title="조건"
->abstract="조건 매개변수 값이 0이 아닌 경우(참) 결과는 value_if_참 매개변수 값입니다. 그렇지 않으면 value_if_false 매개변수 값입니다."
+>abstract="조건 매개변수 값이 0이 아닌 경우(참) 결과는 value_if_true 매개변수 값입니다. 그렇지 않으면 value_if_false 매개변수 값입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -984,7 +980,7 @@ Only available in CJA
 
 | 인수 | 설명 |
 |---|---|
-| 지표 | 자연 로그가 필요한 양의 실수 |
+| 지표 | 자연 로그를 구하려는 양의 실수 |
 
 
 
@@ -1016,7 +1012,7 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ne"
 >title="같지 않음"
->abstract="같지 않음. 출력은 0(false) 또는 1(true)입니다."
+>abstract="같지 않음. 출력은 0(거짓) 또는 1(참)입니다."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1414,7 +1410,7 @@ T 점수가 x이고 자유도가 n인 m측 검증 T 테스트를 수행합니다
 |---|---|
 | 지표 | T 테스트를 수행하려는 지표 |
 | 도 | 자유도 |
-| 꼬리 | T 테스트를 수행하는 데 사용할 꼬리의 길이 |
+| 꼬리 | T 테스트를 수행하는 데 사용할 테일의 길이 |
 
 ### 세부 사항
 
@@ -1515,11 +1511,11 @@ Z 점수가 x인 n측 검증 Z 테스트를 수행합니다.
 | 인수 | 설명 |
 |---|---|
 | 지표 | Z 테스트를 수행하려는 지표 |
-| 꼬리 | Z 테스트를 수행하는 데 사용할 꼬리의 길이 |
+| 꼬리 | Z 테스트를 수행하는 데 사용할 테일의 길이 |
 
 >[!NOTE]
 >
->값은 정상적으로 배분된다고 가정합니다.
+>값이 정규 분포를 따른다고 가정합니다.
 
 
 
