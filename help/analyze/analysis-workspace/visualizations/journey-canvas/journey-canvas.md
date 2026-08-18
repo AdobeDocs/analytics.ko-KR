@@ -148,4 +148,4 @@ Analysis Workspace에서 사용할 수 있는 모든 차원이나 지표를 기�
 
 >[!MORELIKETHIS]
 >
-> * [Adobe Customer Journey Analytics의 여정 캔버스 시각화 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+> * [Adobe Customer Journey Analytics의 여정 캔버스 시각화 안내서](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=ko)
