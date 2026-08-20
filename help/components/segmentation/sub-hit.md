@@ -2,13 +2,11 @@
 title: 하위 히트 분석
 description: 하위 히트 분석을 통해 Adobe Analytics의 히트 내에서 개별 제품을 필터링하여 제품 보고서에서 속성 출혈을 제거하는 방법에 대해 알아봅니다.
 feature: Segmentation
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0168cf33d647c5edb367094d57ad9ea3ee253844
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 21f7902e034a998be1f5cc6a1ea19bff5f12584d
 workflow-type: tm+mt
-source-wordcount: 576
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -23,7 +21,9 @@ Adobe Analytics 하위 히트 분석에서는 특히 **[!UICONTROL Products]** �
 
 Adobe Analytics에서 [제품 변수](/help/components/dimensions/product.md)은(는) 하나의 히트에서 여러 제품을 캡처할 수 있습니다. 하위 히트 분석이 없으면 제품 속성에 대해 세그먼트화하면 히트 내의 모든 제품이 제품 속성과 일치하는 모든 히트가 반환됩니다. 그 결과가 잘못된 속성 및 부풀려진 매출 지표입니다. 하위 히트 분석은 필터를 히트 내의 개별 제품 행으로 범위를 지정하고 이러한 문제를 해결합니다.
 
-하위 히트 분석에서 제외 논리는 제품 변수에 대한 표준 히트 수준 제외와 다르게 동작합니다. [!UICONTROL 제품] 컨테이너 내에서 제품 특성을 제외하면 세그먼트는 **제품이 있음**&#x200B;을 반환하지만 제외 기준과 일치하지 않는 히트를 반환합니다. 세그먼트는 제품이 없는 히트를 전혀 반환하지 않습니다.
+하위 히트 분석에서 제외 논리는 제품 변수에 대한 표준 히트 수준 제외와 다르게 동작합니다. [!UICONTROL 제품] 컨테이너 내에서 제품 특성을 제외하면 세그먼트는 **제품이 있음**&#x200B;을 반환하지만 제외 기준과 일치하지 않는 히트를 반환합니다.
+
+Adobe Analytics에서는 히트에 제품 ID가 없어도 모든 히트에는 제품 목록 항목이 있습니다. 따라서 하위 히트 분석 제외 로직은 제품이 전혀 없는 히트를 반환합니다.
 
 ## 예
 
@@ -39,7 +39,8 @@ Adobe Analytics에서 [제품 변수](/help/components/dimensions/product.md)은
 
 ![제품 범주 남성에 대한 히트 수준의 세그먼테이션을 보여 주는 패널](./assets/product-category-segmentation-hits.png)
 
-따라서 최소 한 개 이상의 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;가 포함된 모든 주문이 고려되며 이러한 주문의 다른 제품 매출은 **[!UICONTROL 온라인 매출]** 지표에 포함됩니다.카테고리를 보고할 때 **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**&#x200B;와(과) 함께 제품을 포함하는 주문의 일부인 **[!UICONTROL Retail: Fashion Product Category]**&#x200B;에 대한 다른 모든 값이 보고됩니다.
+따라서 최소 한 개 이상의 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;가 포함된 모든 주문이 고려되며 이러한 주문의 다른 제품 매출은 **[!UICONTROL 온라인 매출]** 지표에 포함됩니다.
+카테고리를 보고할 때 **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**&#x200B;와(과) 함께 제품을 포함하는 주문의 일부인 **[!UICONTROL Retail: Fashion Product Category]**&#x200B;에 대한 다른 모든 값이 보고됩니다.
 
 >[!TAB 하위 히트 분석]
 
@@ -47,7 +48,8 @@ Adobe Analytics에서 [제품 변수](/help/components/dimensions/product.md)은
 
 ![제품 범주 남성의 하위 히트 수준에 대한 세분화를 보여 주는 패널](./assets/product-category-segmentation-sub-hits.png)
 
-그 결과, 최소 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;을 포함하는 모든 주문이 고려되며 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;에 속하는 제품의 매출만 **[!UICONTROL 온라인 매출]** 지표에 포함됩니다.범주를 보고할 때 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;만 보고됩니다.
+그 결과, 최소 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;을 포함하는 모든 주문이 고려되며 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;에 속하는 제품의 매출만 **[!UICONTROL 온라인 매출]** 지표에 포함됩니다.
+범주를 보고할 때 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;만 보고됩니다.
 
 >[!TAB 하위 히트 분석(제외)]
 
