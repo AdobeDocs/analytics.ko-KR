@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bffce151c74eda5cf27b838e184b0ae9e81f6cd8
 workflow-type: tm+mt
-source-wordcount: 1110
+source-wordcount: 1169
 ht-degree: 1%
 
 ---
@@ -38,7 +38,8 @@ ht-degree: 1%
 
 * **JSON**: 구조화된 데이터가 있는 JavaScript 개체 표기법 파일
 * **CSV**: 쉼표로 구분된 값 파일
-* **TSV 또는 TAB**: 탭으로 구분된 값 파일
+* **TSV**: 탭으로 구분된 값 파일
+* **TAB**: `.tab` 확장명을 가진 탭으로 구분된 값 파일(브라우저 업로드만 해당, API에서 지원되지 않음)
 
 ## 일반 파일 요구 사항
 
@@ -63,12 +64,12 @@ JSON 파일 형식은 JSON 라인(JSONL)에 대한 규칙을 따릅니다. 파�
 * `key`(필수): 분류 레코드에 대한 고유 식별자
 * `data`(업데이트에 필요): 분류 열 이름 및 해당 값이 포함된 개체
 * `action`(선택 사항): 수행할 작업입니다. 지원되는 값은 다음과 같습니다.
-   * `update`(작업이 지정되지 않은 경우 기본 작업)
-   * `delete-field`
-   * `delete-key`
+  * `update`(작업이 지정되지 않은 경우 기본 작업)
+  * `delete-field`
+  * `delete-key`
 * `enc`(선택 사항): 데이터 인코딩 사양입니다. 지원되는 값은 다음과 같습니다.
-   * `utf8` 또는 `UTF8`(기본값)
-   * `latin1` 또는 `LATIN1`
+  * `utf8` 또는 `UTF8`(기본값)
+  * `latin1` 또는 `LATIN1`
 
 모든 JSON 필드 이름(`key`, `data`, `action`, `enc`)은 대/소문자를 구분하며 소문자여야 합니다.
 
@@ -167,6 +168,10 @@ product456,,~empty~,~empty~,79.99
 +++
 
 +++ TSV 및 탭 형식 세부 정보
+
+>[!NOTE]
+>
+>확장명이 `.tab`인 파일은 브라우저 업로드에만 지원됩니다. [분류 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)은(는) 파일 내용이 탭으로 구분된 경우에도 `.tab` 파일 형식을 허용하지 않습니다. API 업로드의 경우 대신 `.tsv` 확장을 사용합니다(또는 `.json` 또는 `.csv`).
 
 TSV(탭으로 구분된 값) 및 TAB 파일은 탭 문자를 사용하여 분류 데이터 필드를 구분합니다.
 
