@@ -4,22 +4,14 @@ title: 세그먼트 빌드
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 78%
+source-wordcount: 2082
+ht-degree: 74%
 
 ---
 
@@ -100,13 +92,24 @@ ht-degree: 78%
    * 구성 요소 모음에서 ![검색](/help/assets/icons/Search.svg)을 사용하여 특정 구성 요소를 검색할 수 있습니다.
    * 구성 요소 표시줄의 ![필터](/help/assets/icons/Filter.svg)를 사용하여 ![확인 표시](/help/assets/icons/Checkmark.svg) **[!UICONTROL 승인]**, ![별](/help/assets/icons/Star.svg) **[!UICONTROL 즐겨찾기]**, ![데이터 차원](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 차원]**, ![이벤트](/help/assets/icons/Event.svg) **[!UICONTROL 지표]**, ![세그먼테이션](/help/assets/icons/Segmentation.svg) **[!UICONTROL 세그먼트]**, ![일정](/help/assets/icons/Calendar.svg) **[!UICONTROL 날짜 범위]** 및 ![레이어](/help/assets/icons/Layer.svg) **[!UICONTROL 제품]** 구성 요소를 필터링할 수 있습니다. ![레이블](/help/assets/icons/Label.svg) 태그를 필터링할 수도 있습니다.
 1. 구성 요소에 대한 세부 정보를 지정합니다. 예를 들어 **[!UICONTROL 값 선택]**&#x200B;에서 값을 선택합니다. 또는 값을 입력합니다. 하나 이상의 값을 지정하는 방법은 구성 요소와 연산자에 따라 다릅니다.
-1. 필요한 경우 기본 연산자를 수정합니다. 예: **[!UICONTROL 다음과 같음]**&#x200B;에서 **[!UICONTROL 다음 중 하나 이상의 항목과 같음]**&#x200B;으로 수정. 사용 가능한 연산자에 대한 자세한 개요는 [연산자](../seg-reference/seg-operators.md)를 참조하십시오.
+
+1. (선택 사항) [!UICONTROL **결과를 보고 날짜 범위로 제한**]&#x200B;하는 옵션을 활성화합니다.
+
+   세그먼트에 날짜 범위 구성 요소가 포함된 경우 Workspace 보고서의 데이터는 보고 날짜 범위 이상으로 확장될 수 있습니다.
+
+   세그먼트에 포함된 날짜 구성 요소에 관계없이 결과를 보고 날짜 범위로 제한하려면 이 옵션을 활성화합니다.
+
+   이 옵션은 **[!UICONTROL 포함]** 또는 **[!UICONTROL 제외]** 드롭다운 메뉴에서 [!UICONTROL **개인**]&#x200B;을(를) 정의의 범위(컨테이너)로 선택한 경우에만 표시됩니다.
+
+   **참고**: 이 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Customer Journey Analytics 릴리스 프로세스에 대한 정보는 [Adobe Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
+
+1. (선택 사항) 기본 연산자를 수정합니다. 예: **[!UICONTROL 다음과 같음]**&#x200B;에서 **[!UICONTROL 다음 중 하나 이상의 항목과 같음]**&#x200B;으로 수정. 사용 가능한 연산자에 대한 자세한 개요는 [연산자](../seg-reference/seg-operators.md)를 참조하십시오.
 
 구성 요소 편집 방법:
 
 * 연산자 드롭다운 메뉴에서 구성 요소에 대한 새 연산자를 선택합니다.
 * 적절한 경우 연산자에 대해 다른 값을 선택하거나 지정합니다.
-* 구성 요소 유형이 차원인 경우, 속성 모델을 정의할 수 있습니다. 자세한 내용은 [속성 모델](#attribution)을 참조하십시오.
+* 구성 요소 유형이 차원인 경우 기여도 모델을 정의할 수 있습니다. 자세한 내용은 [속성 모델](#attribution)을 참조하십시오.
 
 구성 요소 삭제 방법:
 
@@ -121,7 +124,7 @@ ht-degree: 78%
 * 컨테이너를 추가하려면 ![설정](/help/assets/icons/Setting.svg) **[!UICONTROL 옵션]**&#x200B;에서 **[!UICONTROL 컨테이너 추가]**&#x200B;를 선택합니다.
 * 컨테이너에 기존 구성 요소를 추가하려면 구성 요소를 컨테이너로 끌어다 놓습니다.
 * 컨테이너에 다른 구성 요소를 추가하려면 구성 요소 패널에서 컨테이너로 구성 요소를 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
-* 컨테이너 외부에 다른 구성 요소를 추가하려면 구성 요소 패널에서 구성 요소를 컨테이너 외부가 아닌 기본 정의 컨테이너 내부로 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
+* 컨테이너 외부에 다른 구성 요소를 추가하려면 구성 요소 패널에서 구성 요소를 컨테이너 외부이지만 기본 정의 컨테이너 내부로 끌어다 놓습니다. 파란색 삽입선을 가이드로 활용합니다.
 * 구성 요소, 컨테이너 또는 해당 조합의 논리를 수정하려면 해당 **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**&#x200B;을(를) 선택하십시오. **[!UICONTROL Then]**&#x200B;을 선택하면 세그먼트가 순차적 세그먼트로 전환됩니다. 자세한 내용은 [순차적 세그먼트 만들기](seg-sequential-build.md)를 참조하십시오.
 * 컨테이너 수준을 전환하려면 ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL 히트]**, ![방문](/help/assets/icons/Visit.svg) **[!UICONTROL 방문]**, ![사용자](/help/assets/icons/User.svg) **[!UICONTROL 방문자]** 또는 ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 제품]**&#x200B;을 선택하십시오.
 
@@ -131,7 +134,7 @@ ht-degree: 78%
 |---|---|
 | **[!UICONTROL 컨테이너 추가]** | 컨테이너에 중첩된 컨테이너를 추가합니다. |
 | **[!UICONTROL 제외]** | 세그먼트 정의의 컨테이너에서 결과를 제외합니다. 가는 빨간색 왼쪽 막대가 제외 컨테이너를 식별합니다. |
-| **[!UICONTROL 포함]** | 세그먼트 정의의 컨테이너에서 결과를 포함합니다. 포함이 기본값입니다. 가는 회색 왼쪽 막대는 포함 컨테이너를 식별합니다. |
+| **[!UICONTROL 포함]** | 세그먼트 정의에 컨테이너의 결과를 포함합니다. 포함이 기본값입니다. 가는 회색 왼쪽 막대는 포함 컨테이너를 식별합니다. |
 | **[!UICONTROL 이름 컨테이너]** | 기본 설명에서 컨테이너의 이름을 바꿉니다. 텍스트 필드에 이름을 입력합니다. 아무런 입력도 하지 않으면 기본 설명이 사용됩니다. |
 | **[!UICONTROL 컨테이너 삭제]** | 정의에서 컨테이너를 삭제합니다. |
 
@@ -148,7 +151,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트별 롤링 날짜 범위](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -171,7 +174,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="반복"
->abstract="차원에 대한 인스턴스 및 지속된 값 포함"
+>abstract="차원에 대한 인스턴스 및 지속된 값을 포함합니다."
 
 
 >[!CONTEXTUALHELP]
@@ -188,7 +191,7 @@ ht-degree: 78%
 
 
 
-세그먼트 빌더에서 차원을 사용하는 경우 해당 차원에 대한 속성 모델을 지정하는 옵션이 있습니다. 선택한 속성 모델은 차원 구성 요소에 대해 지정한 조건에 데이터가 적합한지 여부를 결정합니다.
+세그먼트 빌더에서 차원을 사용하는 경우 해당 차원에 대한 속성 모델을 지정하는 옵션이 있습니다. 선택한 기여도 모델은 차원 구성 요소에 대해 지정한 조건에 데이터가 적합한지 여부를 결정합니다.
 
 차원 구성 요소 내에서 ![설정](/help/assets/icons/Setting.svg)을 선택하고 팝업에서 속성 모델 중 하나를 선택합니다.
 
@@ -203,11 +206,11 @@ ht-degree: 78%
 
 ### 예
 
-세그먼트 정의의 일부로 다음 조건을 지정했습니다. 페이지 이름이 여성과 같다. 위의 예와 유사합니다. 나머지 두 가지 속성 모델을 사용하여 이 세그먼트 정의를 반복합니다. 따라서 각각 고유한 속성 모델이 있는 세 개의 세그먼트가 있습니다.
+세그먼트 정의의 일부로 다음 조건을 지정했습니다. 페이지 이름이 여성과 같다. 위의 예와 유사합니다. 나머지 두 가지 기여도 모델을 사용하여 이 세그먼트 정의를 반복합니다. 따라서 각각 고유한 기여도 모델이 있는 세 개의 세그먼트가 있습니다.
 
 * 여성 페이지 - 속성 - 반복 (기본값)
-* 여성 페이지 - 속성 - 인스턴스
-* 여성 페이지 - 속성 - 비반복 인스턴스
+* 여성 페이지 - 기여도 - 인스턴스
+* 여성 페이지 - 기여도 - 비반복 인스턴스
 
 
 아래 테이블은 각 속성 모델에 대해 해당 조건에 적합한 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)에 해당하는 수신 이벤트를 설명합니다.
@@ -271,7 +274,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -332,7 +335,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -400,7 +403,7 @@ Adobe 로고 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)는 템플�
    <td colname="col2">주문 이벤트에 참가하지 않은 방문자에 대한 데이터를 조회합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 단일 페이지 방문 횟수 아님 (바운스 아님) </td> 
+   <td colname="col1"> 단일 페이지가 아닌 방문(바운스 아님) </td> 
    <td colname="col2">두 번 이상 방문한 방문자의 데이터를 조회합니다.</p> </td> 
   </tr> 
   <tr> 
@@ -425,7 +428,7 @@ Adobe 로고 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)는 템플�
   </tr> 
   <tr> 
    <td colname="col1"> 캠페인에서 방문 </td> 
-   <td colname="col2">캠페인에서 참조한 방문자에 대한 데이터를 표시합니다. </td> 
+   <td colname="col2">캠페인을 통해 유입된 방문자의 데이터를 표시합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 모바일 디바이스를 통한 방문 </td> 
@@ -436,7 +439,7 @@ Adobe 로고 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)는 템플�
    <td colname="col2">유료 검색에서 시작하지 않은 방문자의 데이터를 조회합니다.  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 비모바일 디바이스에서 시작된 방문 </td> 
+   <td colname="col1"> 비모바일 디바이스의 방문 </td> 
    <td colname="col2">모바일 디바이스를 사용하지 않은 방문자의 데이터를 조회합니다. </td> 
   </tr> 
   <tr> 
@@ -445,19 +448,19 @@ Adobe 로고 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)는 템플�
   </tr> 
   <tr> 
    <td colname="col1"> 검색 엔진에서 시작된 방문 </td> 
-   <td colname="col2">검색 엔진에서 참조한 방문자에 대한 데이터를 표시합니다.</td> 
+   <td colname="col2">검색 엔진에서 유입된 방문자의 데이터를 표시합니다.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> 소셜 사이트로부터의 방문 </td> 
-   <td colname="col2">소셜 사이트에서 참조한 방문자에 대한 데이터를 조회합니다.</td> 
+   <td colname="col2">소셜 사이트에서 유입된 방문자의 데이터를 조회합니다.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> 태블릿에서 시작된 방문 </td> 
    <td colname="col2">태블릿을 사용한 방문자의 데이터를 조회합니다.</td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 방문자 ID를 갖는 방문 </td> 
-   <td colname="col2">영구적 쿠키가 필요한 사이트의 방문자에 대한 데이터를 표시합니다.</td> 
+   <td colname="col1"> 방문자 ID 쿠키가 있는 방문 </td> 
+   <td colname="col2">영구적 쿠키가 필요한 사이트 방문자의 데이터를 표시합니다.</td> 
   </tr> 
  </tbody> 
 </table>
