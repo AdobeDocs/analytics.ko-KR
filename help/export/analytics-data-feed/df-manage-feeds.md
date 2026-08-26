@@ -4,24 +4,20 @@ description: 데이터 피드 인터페이스를 탐색하는 방법을 알아�
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
 workflow-type: tm+mt
 source-wordcount: 1329
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
 # 데이터 피드 관리 {#manage-data-feeds}
 
-데이터 피드 관리자는 조직의 데이터 피드를 생성, 편집 및 삭제할 수 있도록 해 줍니다. 데이터 피드 관리자에 액세스할 수 있는 권한이 있으면 표시되는 모든 보고서 세트에 대한 데이터 피드를 관리할 수 있습니다.
+데이터 피드 관리자는 조직의 데이터 피드를 생성, 편집 및 취소할 수 있도록 해 줍니다. 데이터 피드 관리자에 액세스할 수 있는 권한이 있으면 표시되는 모든 보고서 세트에 대한 데이터 피드를 관리할 수 있습니다.
 
 
 >[!BEGINSHADEBOX]
@@ -140,15 +136,15 @@ ht-degree: 24%
 
 1. 활성화하려는 비활성 데이터 피드 옆의 확인란을 선택한 다음 [!UICONTROL **활성화**]&#x200B;를 선택합니다.
 
-## 데이터 피드 삭제
+## 데이터 피드 취소
 
-데이터 피드를 삭제하면 해당 상태가 [!UICONTROL 삭제됨]&#x200B;(으)로 설정됩니다. 삭제하기 전에 데이터 피드의 상태가 [!UICONTROL 활성]이어야 합니다.
+데이터 피드를 취소하면 데이터 피드의 상태가 [!UICONTROL 취소됨]&#x200B;(으)로 설정됩니다. 데이터 피드는 [!UICONTROL 활성] 상태여야 취소할 수 있습니다.
 
-데이터 피드를 삭제하려면
+데이터 피드를 취소하려면 다음 작업을 수행하십시오.
 
 1. Adobe Analytics에서 [!UICONTROL **관리자**] > [!UICONTROL **데이터 피드**]&#x200B;를 선택합니다.
 
-1. 삭제할 데이터 피드 옆의 확인란을 선택한 다음 [!UICONTROL **삭제**]&#x200B;를 선택합니다.
+1. 취소할 데이터 피드 옆의 확인란을 선택한 다음 [!UICONTROL **취소**]&#x200B;를 선택합니다.
 
 ## 데이터 피드 관리자에서 열 정렬 및 사용자 지정
 
@@ -179,7 +175,7 @@ ht-degree: 24%
    * **상태**: 피드의 상태입니다.
      * 활성: 피드가 작동 중입니다.
      * 승인 보류: 일부 상황에서 피드가 작업 생성을 시작할 수 있으려면 먼저 Adobe에서 피드를 승인해야 합니다.
-     * 삭제됨: 피드가 삭제되었습니다.
+     * 취소됨: 피드가 취소되었습니다.
      * 완료: 피드의 처리가 완료되었습니다. 완료된 피드를 편집하거나, 보류하거나, 취소할 수 있습니다.
      * 보류 중: 피드가 만들어졌지만 아직 활성 상태가 아닙니다. 피드가 짧은 전환 시간 동안 이 상태로 유지됩니다.
      * 비활성: &#39;일시 중지됨&#39; 또는 &#39;보류 중&#39; 상태에 해당합니다. 비활성 피드가 다시 활성화될 때 채우기 피드 및 라이브 피드에 발생하는 사항에 대한 자세한 내용은 [데이터 피드 활성화](#activate-a-data-feed)를 참조하십시오.
