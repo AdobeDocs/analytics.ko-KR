@@ -7,25 +7,15 @@ type: Documentation
 solution: Analytics
 exl-id: 5829482b-3a5e-416b-9c82-404face30b29
 TQID: https://experienceleague.adobe.com/GQb-eyhHPlUC3rweaoprqj6LO34gSymgC1buu2gl9iw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 69d0c283625c9146b6dd9659353f0b4ae0a0f35b
 workflow-type: tm+mt
-source-wordcount: 1263
-ht-degree: 33%
+source-wordcount: 1297
+ht-degree: 32%
 
 ---
 
@@ -53,10 +43,6 @@ Report Builder에서 클라우드로 통합 문서를 내보낼 때 다음 프�
 ![1~4단계에 설명된 내보내기 프로세스입니다.](assets/report-builder-export-process.png)
 
 ## Report Builder에서 보고서 내보내기
-
->[!NOTE]
->
->이 섹션에 설명된 대로 데이터를 내보내기 전에 위의 섹션에서 [내보내기 프로세스](#understand-the-export-process)에 대해 자세히 알아보세요.
 
 Report Builder에서 보고서를 내보내려면 다음을 수행하십시오.
 
@@ -86,11 +72,11 @@ Report Builder에서 보고서를 내보내려면 다음을 수행하십시오.
    | **[!UICONTROL 통합 문서 암호 보호]** | 암호를 가진 사용자만 액세스할 수 있도록 내보낸 파일을 보호하는 암호를 지정합니다. <p>암호는 8자 이상이어야 하며 1개 이상의 숫자와 1개의 특수 문자(`!`,`@`,`#` 및 `$`)를 포함해야 합니다.</p> |
    | **[!UICONTROL 이메일]** | 파일을 특정 이메일 주소로 보내려면 이 옵션을 선택합니다. 자세한 내용은 [전자 메일을 통해 공유하여 통합 문서 예약](schedule-reportbuilder.md)을 참조하세요. |
    | **[!UICONTROL 기타 게재]** | 파일을 클라우드 계정으로 보내려면 이 옵션을 선택하고 아래에 설명된 **[!UICONTROL 계정]** 및 **[!UICONTROL 위치]** 드롭다운 메뉴를 사용하여 계정과 위치를 선택하십시오. |
-   | **[!UICONTROL 계정]** | 데이터를 전송할 클라우드 내보내기 계정을 선택합니다. <p>또는 사용하려는 클라우드 계정을 아직 구성하지 않은 경우 새 계정을 구성할 수 있습니다.<ol><li>[!UICONTROL **계정 추가**]&#x200B;를 선택하고 다음 정보를 지정합니다.<ul><li>[!UICONTROL **위치 계정 이름**]: 위치 계정의 이름을 지정합니다. 위치가 생성되면 이 이름이 표시됩니다. </li><li>[!UICONTROL **위치 계정 설명**]: 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다.</li><li>**[!UICONTROL 조직의 모든 사용자가 계정을 사용할 수 있도록 합니다]**: 조직의 다른 사용자가 계정을 사용할 수 있도록 하려면 이 옵션을 선택하십시오. 계정을 공유할 때는 다음 사항을 고려하십시오.<ul><li>공유하는 계정은 공유 해제할 수 없습니다.</li><li>공유 계정은 계정 소유자만 편집할 수 있습니다.</li><li>누구나 공유 계정의 위치를 만들 수 있습니다.</li></ul></li><li>[!UICONTROL **계정 유형**]: 내보내는 클라우드 계정 유형을 선택하십시오. 사용 가능한 계정 유형은 Amazon S3 Role ARN, Google Cloud Platform, Azure SAS 및 Azure RBAC입니다.</li></ul><li>계정 구성을 마치려면 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md)의 6단계를 계속한 다음 선택한 [!UICONTROL **계정 유형**]&#x200B;에 해당하는 섹션을 확장합니다. <p>다음 계정 유형을 사용할 수 있습니다.</p><ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
+   | **[!UICONTROL 계정]** | 데이터를 전송할 클라우드 내보내기 계정을 선택합니다. <p>또는 사용하려는 클라우드 계정을 아직 구성하지 않은 경우 새 계정을 구성할 수 있습니다.<ol><li>[!UICONTROL **계정 추가**]&#x200B;를 선택하고 다음 정보를 지정합니다.<ul><li>[!UICONTROL **위치 계정 이름**]: 위치 계정의 이름을 지정합니다. 위치가 생성되면 이 이름이 표시됩니다. </li><li>[!UICONTROL **위치 계정 설명**]: 동일한 계정 유형의 다른 계정과 구분할 수 있도록 계정에 대한 간단한 설명을 제공합니다.</li><li>**[!UICONTROL 조직의 모든 사용자가 계정을 사용할 수 있도록 합니다]**: 조직의 다른 사용자가 계정을 사용할 수 있도록 하려면 이 옵션을 선택하십시오. 계정을 공유할 때는 다음 사항을 고려하십시오.<ul><li>공유하는 계정은 공유 해제할 수 없습니다.</li><li>공유 계정은 계정 소유자만 편집할 수 있습니다.</li><li>누구나 공유 계정의 위치를 만들 수 있습니다.</li></ul></li><li>[!UICONTROL **계정 유형**]: 내보내는 클라우드 계정 유형을 선택하십시오. 사용 가능한 계정 유형은 Amazon S3 Role ARN, Google Cloud Platform, Azure SAS 및 Azure RBAC입니다.</li></ul><li>계정 구성을 마치려면 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md)의 6단계를 계속한 다음 선택한 [!UICONTROL **계정 유형**]&#x200B;에 해당하는 섹션을 확장합니다. <p>다음 계정 유형을 사용할 수 있습니다.</p><ul><li>Amazon S3 Role ARN</li><li>Google Cloud 플랫폼</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
    | **[!UICONTROL 위치]** | 내보내기 데이터를 보낼 계정의 위치를 선택합니다.<p>또는 선택한 계정에서 사용하려는 위치를 아직 구성하지 않은 경우 새 위치를 구성할 수 있습니다.<ol><li>[!UICONTROL **위치 추가**]&#x200B;를 선택하고 다음 정보를 지정합니다. <ul><li>[!UICONTROL **이름**]: 위치 이름.</li><li>[!UICONTROL **설명**]: 계정의 다른 위치와 구분할 수 있도록 위치에 대한 간단한 설명을 제공합니다.</li><li>**[!UICONTROL 조직의 모든 사용자가 위치를 사용할 수 있도록 설정]**: 조직의 다른 사용자가 위치를 사용할 수 있도록 하려면 이 옵션을 선택하십시오. 계정을 공유할 때는 다음 사항을 고려하십시오.<ul><li>공유하는 위치는 공유 해제할 수 없습니다.</li><li>공유 위치는 계정 소유자만 편집할 수 있습니다.</li><li>위치가 연결된 계정도 공유된 경우에만 위치를 공유할 수 있습니다.</li></ul></li><li>[!UICONTROL **위치 계정**]: 위치를 만들려는 계정을 선택합니다.</li></ul><li>위치 구성을 완료하려면 [!UICONTROL **위치 계정**] 필드에서 선택한 계정 유형에 해당하는 아래 링크를 계속 진행합니다.<ul><li>[Amazon S3 Role ARN](/help/components/locations/configure-import-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/locations/configure-import-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/locations/configure-import-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/locations/configure-import-locations.md#azure-rbac)</li></ul> |
    | **[!UICONTROL 예약 옵션 표시]** | 내보내기 예약에 대한 추가 옵션을 보려면 이 옵션을 선택합니다. 내보내기를 한 번만 전송하려면 이 옵션을 선택하지 않은 상태로 둡니다. 이 옵션을 선택하지 않으면 내보내기가 즉시 시작됩니다. |
    | **[!UICONTROL 시작 날짜]** | 예약된 내보내기가 시작되어야 하는 날짜 및 시간. <p>이 옵션은 예약된 내보내기 빈도를 선택할 때만 사용할 수 있습니다.</p> |
-   | **에**&#x200B;종료 | 예약된 내보내기가 만료되는 날짜 및 시간. 예약된 내보내기 작업은 설정한 날짜 및 시간 이후에는 더 이상 실행되지 않습니다. <p>이 옵션은 예약된 내보내기 빈도를 선택할 때만 사용할 수 있습니다.</p> |
+   | ]**에**[!UICONTROL &#x200B;종료 | 예약된 내보내기가 만료되는 날짜 및 시간. 예약된 내보내기 작업은 설정한 날짜 및 시간 이후에는 더 이상 실행되지 않습니다. <p>이 옵션은 예약된 내보내기 빈도를 선택할 때만 사용할 수 있습니다.</p> |
    | **[!UICONTROL 빈도]** | 특정 날짜의 빈도를 시간대별, 일일, 주간, 월간 또는 연간으로 설정할 수 있습니다. 예를 들어, 수신자가 월요일 아침에 받은 편지함에 이메일을 먼저 보낼 수 있도록 통합 문서를 그 달의 첫 번째 일요일 밤에 보내도록 일정을 설정할 수 있습니다. |
 
    {style="table-layout:auto"}
@@ -99,6 +85,9 @@ Report Builder에서 보고서를 내보내려면 다음을 수행하십시오.
 
    데이터는 사용자가 지정한 빈도로 지정한 클라우드 계정으로 전송됩니다.
 
+>[!NOTE]
+>
+>일정은 일정을 만들 때 있었던 통합 문서 버전을 내보냅니다. 나중에 통합 문서를 변경하고 저장하는 경우 기존 일정이 해당 변경 사항을 선택하지 않고 원본 버전을 계속 내보냅니다. 업데이트된 통합 문서를 내보내려면 변경 내용을 저장한 후 새 일정을 만듭니다.
 
 ## 클라우드로 내보낼 때의 이점
 
