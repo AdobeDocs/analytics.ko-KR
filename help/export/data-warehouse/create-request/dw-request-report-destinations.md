@@ -4,27 +4,20 @@ title: Data Warehouse 요청에 대한 보고서 대상 구성
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 TQID: 'https://experienceleague.adobe.com/Afs4vP-j7tHMr2yx8Evojy-el6insIxLa4VRq0f9OSo'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: f47edbe0-f963-46ff-a667-71011396f5f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 31fb96e33bec21fd80b5ccaf2d46f607c25d880d
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
 # Data Warehouse 요청에 대한 보고서 대상 구성
 
-Data Warehouse 요청을 만들 때 사용할 수 있는 다양한 구성 옵션이 있습니다. 다음 정보는 요청에 대한 보고자 대상을 구성하는 방법을 설명합니다.
+Data Warehouse 요청을 만들 때 사용할 수 있는 다양한 구성 옵션이 있습니다. 다음 정보는 요청에 대한 보고서 대상을 구성하는 방법을 설명합니다.
 
 요청 만들기를 시작하는 방법과 다른 중요 구성 옵션 링크에 대한 자세한 내용은 [Data Warehouse 요청 만들기](/help/export/data-warehouse/create-request/t-dw-create-request.md)을 참조하십시오.
 
@@ -42,11 +35,11 @@ Data Warehouse 요청을 만들 때 사용할 수 있는 다양한 구성 옵션
 >   
 >   * [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)의 위치 관리자에서
 >
->* 클라우드 계정은 Adobe Analytics 사용자 계정과 연계되어 있습니다. 다른 사용자는 구성된 클라우드 계정을 사용하거나 볼 수 없습니다.
+>* 클라우드 계정은 Adobe Analytics 사용자 계정과 연계되어 있습니다. 다른 사용자는 구성한 클라우드 계정을 사용하거나 볼 수 없습니다.
 >
 >* [구성 요소 > 위치](/help/components/locations/configure-import-accounts.md)의 위치 관리자에서 생성한 모든 위치를 편집할 수 있습니다.
 
-Data Warehouse 보고서가 전송되는 대상을 구성하려면
+Data Warehouse 보고서가 전송되는 대상을 구성하려면:
 
 1. **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **추가**]&#x200B;를 선택하여 Adobe Analytics에서 요청 만들기를 시작하십시오.
 
@@ -103,7 +96,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       | 필드 | 함수 |
       |---------|----------|
-      | [!UICONTROL **Role ARN**] | Adobe가 Amazon S3 계정에 액세스하는 데 사용할 수 있는 Role ARN(Amazon 리소스 이름)을 제공해야 합니다. 이렇게 하려면 소스 계정에 대한 권한 정책을 만들고 해당 정책을 사용자에게 첨부한 다음 대상 계정에 대한 역할을 생성합니다. 자세한 내용은 [이 AWS 설명서](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/)를 참조하십시오. |
+      | [!UICONTROL **Role ARN**] | Adobe가 Amazon S3 계정에 액세스하는 데 사용할 수 있는 Role ARN(Amazon 리소스 이름)을 제공해야 합니다. 이렇게 하려면 소스 계정에 대한 IAM 권한 정책을 만들고 해당 정책을 사용자에게 첨부한 다음 대상 계정에 대한 역할을 생성합니다. 자세한 내용은 [이 AWS 설명서](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/)를 참조하십시오. |
 
       {style="table-layout:auto"}
 
@@ -155,7 +148,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
       >[!NOTE]
       >
-      >이메일 계정은 [데이터 피드](/help/export/analytics-data-feed/create-feed.md)에서만 사용할 수 있습니다. (이메일 계정은 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 또는 [분류 세트](/help/components/classifications/sets/overview.md)에서 지원되지 않습니다.)
+      >이메일 계정은 Data Warehouse에서만 사용할 수 있습니다. (전자 메일 계정은 [데이터 피드](/help/export/analytics-data-feed/create-feed.md) 또는 [분류 세트](/help/components/classifications/sets/overview.md)에서 지원되지 않습니다.)
 
       Azure RBAC 계정을 구성하려면 다음 정보를 지정합니다.
 
@@ -181,7 +174,7 @@ Data Warehouse 보고서가 전송되는 대상을 구성하려면
 
 Data Warehouse 데이터는 Adobe 또는 고객이 호스팅하는 FTP 위치에 전달될 수 있습니다. FTP 호스트, 사용자 이름 및 암호가 필요합니다. 폴더에 피드 파일을 배치하려면 경로 필드를 사용하십시오. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않을 경우 피드에서 오류가 발생합니다.
 
-사용 가능한 필드가 완료되면 다음 정보를 사용합니다.
+사용 가능한 필드를 작성할 때는 다음 정보를 사용합니다.
 
 #### 계정 필드
 
@@ -209,9 +202,9 @@ Data Warehouse 데이터는 Adobe 또는 고객이 호스팅하는 FTP 위치에
 
 ### SFTP
 
-Data Warehouse에 대한 SFTP 지원을 사용할 수 있습니다. 유효한 RSA 또는 DSA 공개 키를 포함하기 위해 SFTP 호스트, 사용자 이름 및 대상 사이트가 필요합니다. Data Warehouse 대상을 만들 때 적절한 공개 키를 다운로드할 수 있습니다.
+Data Warehouse에 대한 SFTP 지원을 사용할 수 있습니다. SFTP 호스트, 사용자 이름 및 유효한 RSA 또는 DSA 공개 키가 포함된 대상 사이트가 필요합니다. Data Warehouse 대상을 만들 때 적절한 공개 키를 다운로드할 수 있습니다.
 
-사용 가능한 필드가 완료되면 다음 정보를 사용합니다.
+사용 가능한 필드를 작성할 때는 다음 정보를 사용합니다.
 
 #### 계정 필드
 
@@ -276,7 +269,7 @@ SFTP 구성에 대한 자세한 내용은 [SFTP 서버로 Data Warehouse 요청 
 
 ### Azure Blob
 
-Data Warehouse는 Azure Blob 대상을 지원합니다. 컨테이너, 계정 및 키가 필요합니다. Amazon은 데이터를 사용하지 않을 때 자동으로 암호화합니다. 데이터를 다운로드할 때 데이터 암호화는 자동으로 해제됩니다. 자세한 내용은 Microsoft Azure 문서 내에서 [저장소 계정 만들기](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)를 참조하십시오.
+Data Warehouse는 Azure Blob 대상을 지원합니다. 컨테이너, 계정 및 키가 필요합니다. Amazon은 저장 중인 데이터를 자동으로 암호화합니다. 데이터를 다운로드하면 자동으로 암호화가 해제됩니다. 자세한 내용은 Microsoft Azure 문서 내에서 [저장소 계정 만들기](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)를 참조하십시오.
 
 >[!NOTE]
 >
