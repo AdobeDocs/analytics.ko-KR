@@ -83,7 +83,7 @@ _이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytic
 >
 >[!UICONTROL 코호트 분석]은 필터링할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생을 지원하지 않습니다. 필터에 사용할 수 있는 지표만 [!UICONTROL 코호트 분석]에 사용될 수 있으며 한번에 1 이상으로 증분될 수 있습니다.
 
-Adobe Analytics의 집단 테이블은 이중 기반(또는 모든 숫자 기반) 지표를 지원합니다. 예를 들어 Purchase.Value(double)는 포함/반환 지표로 사용될 수 있습니다. 또한 Analytics 소스 커넥터를 통해 Adobe Experience Platform에 전달되는 모든 지표도 두 배가 됩니다.
+Adobe Analytics의 집단 테이블은 이중 기반(또는 모든 숫자 기반) 지표를 지원합니다. 예를 들어 Purchase.Value(double)는 포함/반환 지표로 사용될 수 있습니다. 또한 Analytics 소스 커넥터를 통해 Adobe Experience Platform에 전달되는 모든 지표도 double입니다.
 
 ## 코호트 테이블 기능
 

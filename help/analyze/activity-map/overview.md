@@ -41,17 +41,17 @@ Adobe Analytics Activity Map은 웹 페이지 및 모바일 앱에서의 사용�
 
 * **보고서 세트 설정**: 보고서 세트를 사용하려면 먼저 Activity Map을 활성화해야 합니다. 보고서 세트 설정에서 [Activity Map 보고](/help/admin/tools/manage-rs/edit-settings/activity-map.md)를 참조하십시오.
 * **구현**: 대부분의 Activity Map 보고는 기본으로 사용할 수 있습니다. 그러나 일부 웹 사이트에서는 링크 추적을 최대한 활용하기 위해 추가 구현이 필요할 수 있습니다. 다음과 같은 구현 변수를 사용할 수 있습니다.
-   * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): 링크 이름별로 클릭 데이터를 필터링합니다.
-   * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): 지역 이름별로 클릭 데이터를 필터링합니다.
-   * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Activity Map 지역 차원을 채우는 속성을 변경합니다.
-   * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Activity Map이 Activity Map 링크 차원을 채우기 위해 사용하는 논리를 사용자 정의합니다.
-   * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Activity Map이 Activity Map 지역 차원을 채우기 위해 사용하는 논리를 사용자 정의합니다.
+  * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): 링크 이름별로 클릭 데이터를 필터링합니다.
+  * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): 지역 이름별로 클릭 데이터를 필터링합니다.
+  * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Activity Map 지역 차원을 채우는 속성을 변경합니다.
+  * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Activity Map이 Activity Map 링크 차원을 채우기 위해 사용하는 논리를 사용자 정의합니다.
+  * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Activity Map이 Activity Map 지역 차원을 채우기 위해 사용하는 논리를 사용자 정의합니다.
 * **오버레이**: 웹 사이트에 오버레이된 클릭 데이터를 볼 수 있는 브라우저 확장 기능. 자세한 내용은 [Activity Map 확장 기능 인터페이스](overlay/overview.md)를 참조하십시오. 이 기능은 웹 SDK 구현에 사용할 수 없습니다.
 * **차원**: Activity Map에서는 오버레이 확장 기능 외에도 Analysis Workspace에서 사용할 수 있는 여러 차원을 제공합니다.
-   * [Activity Map 링크](/help/components/dimensions/activity-map-link.md): 클릭한 링크 이름.
-   * [Activity Map 지역](/help/components/dimensions/activity-map-region.md): 클릭한 지역 이름.
-   * [Activity Map 페이지](/help/components/dimensions/activity-map-page.md): 링크를 클릭한 시점의 페이지 이름.
-   * [지역별 Activity Map 링크](/help/components/dimensions/activity-map-link-by-region.md): Activity Map 링크와 Activity Map 지역의 연결된 값.
+  * [Activity Map 링크](/help/components/dimensions/activity-map-link.md): 클릭한 링크 이름.
+  * [Activity Map 지역](/help/components/dimensions/activity-map-region.md): 클릭한 지역 이름.
+  * [Activity Map 페이지](/help/components/dimensions/activity-map-page.md): 링크를 클릭한 시점의 페이지 이름.
+  * [지역별 Activity Map 링크](/help/components/dimensions/activity-map-link-by-region.md): Activity Map 링크와 Activity Map 지역의 연결된 값.
 
 ## 기능 및 이점
 

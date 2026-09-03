@@ -36,7 +36,7 @@ ht-degree: 100%
 
 *이 도움말 페이지에서는 eVar가 [차원](overview.md)으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 정의 [차원](overview.md)입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md) [!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다].
+eVar는 원하는 대로 사용할 수 있는 사용자 정의 [차원](overview.md)입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)[!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다].
 
 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. Adobe 아키텍처에서 eVar 지속성이 작동하는 방식에 대한 자세한 내용은 아래의 [eVar 작동 방식](#how-evars-work) 및 [eVar를 지표에 연결하는 방식](#how-evars-tie-to-metrics) 섹션을 참조하십시오. [!UICONTROL 보고서 세트 설정]의 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)에서 만료와 할당을 활성화, 비활성화 또는 사용자 정의할 수 있습니다. 다음 이미지는 전환 변수 인터페이스에서 eVar정의의 예입니다.
 
@@ -54,11 +54,11 @@ JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일
 
 ## 차원 항목
 
-eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 각 eVar의 목적과 일반적인 차원 항목을 기록해야 합니다.
+eVar에는 구현에서 사용하는 사용자 정의 문자열이 포함되므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 각 eVar의 목적과 일반적인 차원 항목을 기록해야 합니다.
 
 ## eVar 작동 방식
 
-데이터를 Adobe Analytics로 보내면 데이터 수집 서버에서 히트를 수백 개의 열이 있는 단일 데이터 행으로 변환합니다. 두 개의 열이 각 eVar에 전용으로 사용됩니다. 하나는 직접 데이터 수집에 사용되고, 다른 하나는 지속 값에 사용됩니다.
+데이터를 Adobe Analytics로 보내면 데이터 수집 서버에서 히트를 수백 개의 열이 있는 단일 데이터 행으로 변환합니다. 두 개의 열이 각 eVar에 전용으로 사용됩니다. 하나는 직접 데이터 수집에 사용되고, 다른 하나는 값을 유지하는 데 사용됩니다.
 
 * 표준 열에는 이미지 요청에서 Adobe로 전송된 데이터가 포함됩니다.
 * 게시물 열에는 일관된 데이터가 들어 있으며, 이는 eVar의 만료 및 할당에 따라 달라집니다.
@@ -67,9 +67,9 @@ eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각
 
 ### eVar를 지표에 연결하는 방법
 
-성공 이벤트와 eVar는 다른 시간대에 자주 정의됩니다. `post_evar` 열에서 eVar 값을 이벤트에 연결하여 보고에 데이터를 표시할 수 있습니다. 예를 들어 다음 방문을 수행합니다.
+성공 이벤트와 eVar는 서로 다른 시점에 자주 정의됩니다. `post_evar` 열에서 eVar 값을 이벤트에 연결하여 보고에 데이터를 표시할 수 있습니다. 예를 들어 다음 방문을 살펴보겠습니다.
 
-1. 방문자가 홈 페이지의 사이트에 도달합니다.
+1. 방문자가 홈 페이지를 통해 사이트에 도착합니다.
 2. 사이트의 내부 검색을 사용하여 &quot;cats&quot;를 검색합니다. 구현에서는 내부 검색에 eVar1을 사용합니다.
 3. 제품을 보고 체크아웃 프로세스를 진행합니다.
 
@@ -92,7 +92,7 @@ eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각
 
 ### 데이터 수집을 보고로 번역
 
-Analysis Workspace와 같은 Adobe Analytics의 도구는 수집된 이러한 데이터에서 작동합니다. 예를 들어 eVar1을 차원으로 사용하고 주문을 지표로 사용하여 보고서를 가져오면 다음과 유사한 보고서가 표시됩니다.
+Analysis Workspace와 같은 Adobe Analytics의 도구는 이렇게 수집된 데이터를 기반으로 작동합니다. 예를 들어 eVar1을 차원으로 사용하고 주문을 지표로 사용하여 보고서를 가져오면 다음과 유사한 보고서가 표시됩니다.
 
 | `Internal search term (eVar1)` | `Orders` |
 | --- | --- |
@@ -116,10 +116,10 @@ Analysis Workspace에서 다음 논리를 사용하여 이 보고서를 가져�
 
 ## prop에 대한 eVar의 값
 
-대부분의 경우 다음과 같이 지원되는 eVar를 사용하는 것이 좋습니다.
+Adobe는 대부분의 경우 eVar 사용을 권장하며, 그 근거는 다음과 같습니다.
 
 * eVar는 보고서에서 255바이트로 제한됩니다. Prop은 100바이트로 제한됩니다.
-* 기본적으로 prop은 prop이 설정된 히트 이후에 지속되지 않습니다. eVar에는 사용자 정의 만료가 있으므로, eVar가 후속 이벤트에 대한 크레딧을 더 이상 받지 않는 시기를 결정할 수 있습니다. 하지만 [보고서 시간 처리](/help/components/vrs/vrs-report-time-processing.md)를 사용하는 경우 속성과 eVar 모두 사용자 정의 속성 모델을 사용할 수 있습니다.
+* 기본적으로 prop은 prop이 설정된 히트 이후에 지속되지 않습니다. eVar에는 사용자 정의 만료가 있으므로, 후속 이벤트에 대해 eVar에 더 이상 크레딧이 부여되지 않는 시기를 결정할 수 있습니다. 하지만 [보고서 시간 처리](/help/components/vrs/vrs-report-time-processing.md)를 사용하는 경우 속성과 eVar 모두 사용자 정의 속성 모델을 사용할 수 있습니다.
 * Adobe는 최대 250개의 eVar를 지원하며 prop은 75개만 지원합니다.
 
 prop과 eVar 간의 비교 내용을 더 알려면 [prop](prop.md)을 참조하십시오.

@@ -75,7 +75,7 @@ ht-degree: 38%
    | [!UICONTROL **조직의 모든 사용자가 사용할 수 있는 위치 만들기**] | 조직의 다른 사용자가 위치를 사용할 수 있도록 하려면 이 옵션을 활성화합니다.<p>위치를 공유할 때는 다음 사항을 고려하십시오.</p><ul><li>공유하는 위치는 공유 해제할 수 없습니다.</li><li>공유 위치는 해당 위치의 소유자만 편집할 수 있습니다.</li><li>위치가 연결된 계정도 공유된 경우에만 위치를 공유할 수 있습니다.</li></ul> |
    | [!UICONTROL **위치 계정**] | 이 위치를 만들 위치 계정을 선택합니다. 계정을 만드는 방법에 대한 자세한 내용은 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md)을 참조하십시오. |
 
-1. 위치 구성을 위한 양식을 작성하려면 [위치 구성](#configure-a-location)을 계속하십시오. [!UICONTROL **위치 계정**] 필드에서 선택한 계정 유형에 해당하는 섹션의 정보를 사용합니다. (추가 이전 계정 유형을 사용할 수도 있지만 권장되지 않습니다.)
+1. 위치 구성을 위한 양식을 작성하려면 [위치 구성](#configure-a-location)을 계속하십시오. [!UICONTROL **위치 계정**] 필드에서 선택한 계정 유형에 해당하는 섹션의 정보를 사용합니다. (추가 이전 계정 유형도 사용할 수 있지만 권장되지는 않습니다.)
 
 ## 위치 구성
 
@@ -88,7 +88,7 @@ Amazon S3 역할 ARN 위치를 구성하려면 다음 정보를 지정합니다.
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 Amazon S3 계정 내부 버킷입니다. <p>이 버킷에 파일을 업로드하려면 Adobe에서 제공한 사용자 ARN에 `S3:PutObject` 권한이 있는지 확인합니다. </p><p>버킷 이름은 특정 이름 지정 규칙을 충족해야 합니다. 예를 들면 3~63자 사이여야 하며 소문자, 숫자, 점(.), 하이픈(-)만 사용할 수 있고 문자나 숫자로 시작하고 끝나야 합니다. [이름 지정 규칙의 전체 목록은 AWS 설명서에서 확인할 수 있습니다](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
-   | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
+   | [!UICONTROL **접두사**] | 데이터를 저장할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
    {style="table-layout:auto"}
 
@@ -112,7 +112,7 @@ Google Cloud Platform 위치를 구성하려면 다음 정보를 지정합니다
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **버킷**] | Adobe Analytics 데이터를 전송할 GCP 계정 내부 버킷입니다. 이 버킷에 파일을 업로드할 수 있도록 Adobe에서 제공한 주도자에 대한 권한을 부여했는지 확인하십시오. |
-   | [!UICONTROL **접두사**] | 데이터를 입력할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
+   | [!UICONTROL **접두사**] | 데이터를 저장할 버킷 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 폴더 이름/ |
 
    {style="table-layout:auto"}
 
@@ -160,7 +160,7 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
    | 필드 | 함수 |
    |---------|----------|
    | [!UICONTROL **계정**] | Azure 스토리지 계정. |
-   | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. 앞서 만든 Azure 애플리케이션에 파일을 업로드할 권한을 부여하고 있는지 확인합니다. |
+   | [!UICONTROL **컨테이너**] | Adobe Analytics 데이터 전송 위치를 지정한 계정 내 컨테이너입니다. 앞서 만든 Azure 애플리케이션에 파일을 업로드할 권한을 부여했는지 확인합니다. |
    | [!UICONTROL **접두사**] | 데이터를 입력할 컨테이너 내부 폴더입니다. 폴더 이름을 지정한 다음 이름 뒤에 백슬래시를 추가하여 폴더를 만듭니다. 예를 들어 `folder_name/` |
 
    {style="table-layout:auto"}
@@ -257,7 +257,7 @@ Azure RBAC 위치를 구성하려면 다음 정보를 지정합니다.
 
 +++Azure Blob
 
-Data Warehouse는 Azure Blob 대상을 지원합니다. 컨테이너, 계정 및 키가 필요합니다. Azure은 사용하지 않는 데이터를 자동으로 암호화합니다. 데이터를 다운로드할 때 데이터 암호화는 자동으로 해제됩니다. 자세한 내용은 Microsoft Azure 문서 내에서 [저장소 계정 만들기](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)를 참조하십시오.
+Data Warehouse는 Azure Blob 대상을 지원합니다. 컨테이너, 계정 및 키가 필요합니다. Azure은 사용하지 않는 데이터를 자동으로 암호화합니다. 데이터를 다운로드하면 자동으로 암호화가 해제됩니다. 자세한 내용은 Microsoft Azure 문서 내에서 [저장소 계정 만들기](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)를 참조하십시오.
 
 >[!NOTE]
 >

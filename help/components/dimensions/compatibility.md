@@ -36,7 +36,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->사용자 정의 변수 이름, 분류 및 방문자 속성은 이 목록에서 생략됩니다. 이러한 차원 항목은 개별 보고서 세트에 따라 다릅니다.
+>사용자 정의 변수 이름, 분류 및 방문자 속성은 이 목록에서 생략됩니다. 이러한 차원 항목은 개별 보고서 세트에만 해당합니다.
 
 ## Analysis Workspace에서 지원되는 차원
 
@@ -306,7 +306,7 @@ Adobe Social이 사용 중단되었습니다.
 
 ### Nielsen 통합
 
-이 통합을 구현하는 방법에 관한 자세한 내용은 Adobe Exchange에서 [Nielsen Extension](https://exchange.adobe.com/apps/ec/101361)을 참조하십시오.
+이 통합을 구현하는 방법에 관한 자세한 내용은 Adobe Exchange의 [Nielsen 확장](https://exchange.adobe.com/apps/ec/101361)을 참조하십시오.
 
 | 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |

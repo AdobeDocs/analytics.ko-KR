@@ -32,7 +32,7 @@ ht-degree: 42%
 
 또한 중요한 데이터를 네트워크를 통해 안전하게 수집하고 인증해야 하는 경우 Edge Network API를 고려하십시오. 자세한 내용은 [인증](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)을 참조하세요.
 
-구현 작업에 대한 개략적인 개요:
+구현 작업에 대한 상위 수준 개요:
 
 ![Analytics 확장 워크플로를 사용하는 Adobe Analytics](../../assets/edge-network-server-api-annotated.png)
 

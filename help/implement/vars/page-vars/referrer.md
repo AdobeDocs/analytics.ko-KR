@@ -1,6 +1,6 @@
 ---
 title: 레퍼러
-description: 히트에 대해 자동으로 수집된 레퍼러를 무시합니다.
+description: 히트에 대해 자동으로 수집된 레퍼러를 재정의합니다.
 feature: Appmeasurement Implementation
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
@@ -51,7 +51,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 레�
 5. [!UICONTROL 확장 기능] 드롭다운 목록을 Adobe Analytics로 설정하고 [!UICONTROL 액션 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
 6. [!UICONTROL 레퍼러] 섹션을 찾습니다.
 
-레퍼러를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
+레퍼러를 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.referrer
 
@@ -73,7 +73,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 ## 예
 
-많은 조직은 리디렉션에 따라 구현을 처리합니다. 사이트가 레퍼러를 포함하는 경우 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 유틸리티를 사용하여 URL에서 레퍼러를 얻을 수 있습니다. URL이 쿼리 문자열에 포함된 모든 값을 인코딩하는지 확인하십시오.
+많은 조직이 리디렉션과 관련된 구현을 처리합니다. 사이트가 레퍼러를 포함하는 경우 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 유틸리티를 사용하여 URL에서 레퍼러를 얻을 수 있습니다. 쿼리 문자열에 포함된 모든 값을 URL 인코딩해야 합니다.
 
 ```js
 // Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org

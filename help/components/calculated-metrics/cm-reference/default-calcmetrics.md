@@ -59,7 +59,7 @@ Adobe Analytics는 가장 일반적인 사용 사례를 다루기 위해 다양�
 | 콘텐츠 속도 | 새 콘텐츠가 제작되고 사이트에 게시되는 속도와 이러한 콘텐츠에서 사용자 참여가 발생하는 속도. | `[Page Views] / [Visits]` |
 | 전환율 | 구매와 같이 원하는 액션을 수행한 방문자의 비율. | `[Orders] / [Visits]` |
 | 시작 비율 | 사이트의 총 세션 수와 비교하여 주어진 페이지에서 사이트에 들어온 방문자의 비율. | `[Entries] / [Visits]` |
-| 예상되는 고유 방문자 (ITP 2.1) | ITP 방문자(Safari 브라우저 사용자)의 경우, 고유 방문자를 2명 이하로 나눕니다. 이 계산된 지표는 클라이언트측 JavaScript를 사용하여 쿠키를 설정한다고 가정합니다(CNAME 구현을 사용하지 않음). 클라이언트측 JavaScript을 사용하여 쿠키를 설정하는 구현은 ITP 2.1부터 영향을 받았습니다. 자세한 내용은 [지능형 추적 방지](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)를 참조하십시오. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| 예상 고유 방문자 (ITP 2.1) | ITP 방문자(Safari 브라우저 사용자)의 경우, 고유 방문자를 2 이하로 나눕니다. 이 계산된 지표는 클라이언트측 JavaScript를 사용하여 쿠키를 설정한다고 가정합니다(CNAME 구현을 사용하지 않음). 클라이언트측 JavaScript을 사용하여 쿠키를 설정하는 구현은 ITP 2.1부터 영향을 받았습니다. 자세한 내용은 [지능형 추적 방지](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)를 참조하십시오. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud ID 범위 | Experience Cloud ID를 보유한 방문자의 비율. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 이탈률 | 특정 페이지를 본 후 사이트를 떠나는 방문자의 비율. | `[Exits] / [Visits]` |
 | ITP 2.1 고유 방문자 / 고유 방문자 | ITP 2.1 쿠키 제한의 영향을 받는 브라우저를 사용하는 고유 방문자의 비율. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
@@ -73,7 +73,7 @@ Adobe Analytics는 가장 일반적인 사용 사례를 다루기 위해 다양�
 | 다시 로드 수 / 페이지 조회수 | 페이지 다시 로드 또는 새로 고침으로 이어진 페이지 조회수의 비율. | `[Reloads] / [Page Views]` |
 | 매출 / 주문 수 | 사이트에서 완료된 각 거래 또는 주문에 의해 생성된 평균 매출. | `[Revenue] / [Orders]` |
 | 매출 / 방문 수 | 사이트 1회 방문으로 생성된 평균 매출. | `[Revenue] / [Visits]` |
-| 매출 / 방문자 수 | 사이트의 개별 방문자가 생성한 평균 매출. | `[Revenue] / [Unique Visitors]` |
+| 매출 / 방문자 수 | 사이트의 개별 방문자 1인당 생성된 평균 매출. | `[Revenue] / [Unique Visitors]` |
 | 상태 보기 수 | 앱의 다른 상태 또는 화면에 대한 조회수 | `[Mobile App Users] (segment)`<br>`[Page Views] (metric)` |
 | 사용 시간/사용자 (상태) | 평균 방문자가 사이트에 있는 동안 특정 상태에서 보내는 시간 | `[Mobile App Users] (segment)`<br>`[Time Spent per Visitor (Seconds)] (metric)` |
 | 고유 방문자 / 7일 후 돌아오는 고유 방문자 | 7일 이상의 기간 후에 돌아오는 고유 방문자 비율. | `[Unique Visitors metric with Users returning after 7 days segment] / [Unique Visitors]` |

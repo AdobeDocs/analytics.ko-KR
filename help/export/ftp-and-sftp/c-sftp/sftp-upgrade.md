@@ -31,9 +31,9 @@ ht-degree: 95%
 
 ## 현재 조직에서 사용 중인 알고리즘, 연결 유형 및 프로토콜을 확인하려면 어떻게 해야 합니까?
 
-사용 중인 FTP/SFTP 소프트웨어는 Adobe Analytics와 데이터를 교환하기 위해 구성한 연결에서 어떤 특정 설정이 사용되고 있는지 표시해야 합니다. 이 소프트웨어에는 연결에 사용할 수 있는 다양한 옵션에 대한 설명서도 포함되어야 합니다. 이 업데이트 이후에 지원되는 옵션은 업계에서 널리 지원되고 수용됩니다.
+사용 중인 FTP/SFTP 소프트웨어는 Adobe Analytics와 데이터를 교환하기 위해 구성한 연결에서 어떤 특정 설정이 사용되고 있는지 표시해야 합니다. 이 소프트웨어에는 연결에 사용할 수 있는 다양한 옵션에 대한 설명서도 포함되어야 합니다. 이 업데이트 이후에 지원되는 옵션은 업계에서 널리 지원되고 인정받고 있습니다.
 
-제거될 연결 옵션은 일반적으로 더 이상 사용하지 않는 것으로 간주되며 현재 소프트웨어에서 사용되지 않습니다. 지난 3년 이내에 FTP/SFTP 소프트웨어를 업그레이드했다면 이미 호환되는 연결이 있을 수 있습니다.
+제거될 연결 옵션은 일반적으로 구식으로 간주되며 현재 소프트웨어에서는 사용되지 않습니다. 지난 3년 이내에 FTP/SFTP 소프트웨어를 업그레이드했다면 이미 호환되는 연결이 있을 수 있습니다.
 
 ## 데이터 수집에 SFTP를 사용하는 Adobe Analytics 기능은 무엇입니까?
 
@@ -58,24 +58,24 @@ ht-degree: 95%
 
 * SFTP 프로토콜 mac 알고리즘:
 
-   * 더 이상 지원되지 않음: hmac-md5, hmac-md5-96, hmac-ripemd160, hmacripemd160@openssh.com, hmac-sha1, hmac-sha1-96, hmac-sha1-etm@openssh.com, umac-64-etm@openssh.com, umac-64@openssh.com
+  * 더 이상 지원되지 않음: hmac-md5, hmac-md5-96, hmac-ripemd160, hmacripemd160@openssh.com, hmac-sha1, hmac-sha1-96, hmac-sha1-etm@openssh.com, umac-64-etm@openssh.com, umac-64@openssh.com
 
-   * 다음만 지원됨: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512, hmacsha2-256, umac-128@openssh.com
+  * 다음만 지원됨: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512, hmacsha2-256, umac-128@openssh.com
 
 * SFTP 프로토콜 암호 알고리즘:
 
-   * 더 이상 지원되지 않음: 3des-cbc, aes128-cbc, aes128-gcm@openssh.com, aes192-cbc, aes256-cbc, aes256-gcm@openssh.com, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc, rijndael-cbc@lysator.liu.se
+  * 더 이상 지원되지 않음: 3des-cbc, aes128-cbc, aes128-gcm@openssh.com, aes192-cbc, aes256-cbc, aes256-gcm@openssh.com, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc, rijndael-cbc@lysator.liu.se
 
-   * 다음만 지원됨: aes128-ctr, aes192-ctr, aes256-ctr
+  * 다음만 지원됨: aes128-ctr, aes192-ctr, aes256-ctr
 
 * SFTP 프로토콜 지원 연결:
 
-   * 더 이상 scp 및 rsync 명령의 사용이나 SFTP 프로토콜을 통한 연결을 지원하지 않습니다.
+  * 더 이상 scp 및 rsync 명령의 사용이나 SFTP 프로토콜을 통한 연결을 지원하지 않습니다.
 
-   * 순수 SFTP 프로토콜 연결만 지원합니다.
+  * 순수 SFTP 프로토콜 연결만 지원합니다.
 
 * FTP/SFTP 클라이언트/프로토콜 지원:
 
-   * FTP: vsftpd 버전 3.0.2-25 이상
+  * FTP: vsftpd 버전 3.0.2-25 이상
 
-   * SFTP: openssh 버전 7.4p1-21 이상
+  * SFTP: openssh 버전 7.4p1-21 이상

@@ -48,7 +48,7 @@ ht-degree: 86%
 | **[!UICONTROL ID]** | ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개인에게 연락할 수 있는 데이터를 카테고리화하는 데 사용됩니다. [자세히 알아보기](/help/admin/tools/privacy-labeling/labels.md#data-privacy-identity-labels) |
 | **[!UICONTROL 민감도]** | 중요 데이터 “S” 레이블은 지리 데이터와 같은 중요 데이터를 카테고리화하는 데 사용됩니다. 추가적인 중요 데이터 레이블은 다른 유형의 중요 정보를 식별하기 위해 나중에 도입됩니다. [자세히 알아보기](/help/admin/tools/privacy-labeling/labels.md#sensitive-data-labels) |
 | **[!UICONTROL GDPR 액세스]** | 데이터 거버넌스 레이블은 규정 및 기업 정책을 준수하도록 개인정보 보호 관련 고려 사항 및 계약 조건을 반영하여 데이터를 분류하는 기능을 제공합니다. [자세히 알아보기](/help/admin/tools/privacy-labeling/labels.md#data-privacy-access-labels) |
-| **[!UICONTROL GDPR 삭제]** | 삭제 레이블은 히트를 데이터 주체(즉, 데이터 주체를 식별할 수 있는 주체)와 연결할 수 있는 값이 포함된 필드에만 필요합니다. [자세히 알아보기](/help/admin/tools/privacy-labeling/labels.md#data-privacy-delete-labels) |
+| **[!UICONTROL GDPR 삭제]** | 삭제 레이블은 히트를 데이터 주체(즉, 데이터 주체를 식별할 수 있게 하는 값)와 연결할 수 있는 값이 포함된 필드에만 필요합니다. [자세히 알아보기](/help/admin/tools/privacy-labeling/labels.md#data-privacy-delete-labels) |
 | **[!UICONTROL 네임스페이스]** | 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스를 제공하라는 메시지가 표시됩니다. 이전에 정의된 네임스페이스를 사용하거나 새 네임스페이스를 정의할 수 있습니다. |
 | **[!UICONTROL 카테고리]** | 표준 구성 요소, 전환 변수 등 구성 요소의 유형을 의미합니다. |
 
@@ -56,7 +56,7 @@ ht-degree: 86%
 
 ## 보고서 세트에 개인정보 보호 레이블 복사  {#copy-to-rs}
 
-동일한 데이터 개인정보 보호 설정을 둘 이상의 보고서 세트에 적용하려는 경우 다음 단계를 따릅니다.
+동일한 개인정보 보호 설정을 둘 이상의 보고서 세트에 적용하려는 경우 다음 단계를 따릅니다.
 
 1. 복사하려는 변수를 선택합니다. 한 번에 하나의 변수에 대한 레이블만 복사할 수 있습니다.
 1. 데이터 거버넌스 대화 상자 아래에 있는 **[!UICONTROL 보고서 세트로 복사]**&#x200B;를 클릭합니다.

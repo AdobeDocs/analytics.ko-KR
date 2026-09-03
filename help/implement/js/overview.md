@@ -28,7 +28,7 @@ ht-degree: 100%
 
 AppMeasurement for JavaScript는 지금까지 Adobe Analytics를 구현하는 일반적인 방법이었습니다. 그러나 태그 관리 시스템의 인기가 높아짐에 따라 [Adobe Experience Platform의 태그](../launch/overview.md)를 사용하는 것이 권장됩니다.
 
-구현 작업에 대한 개략적인 개요:
+구현 작업에 대한 개요:
 
 ![이 섹션에 설명된 대로 Javascript용 AppMeasurement을 사용하여 Adobe Analytics를 구현하는 방법.](../assets/appmeasurement-annotated.png)
 

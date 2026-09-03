@@ -44,9 +44,9 @@ eVar는 다음 변수에 매핑됩니다.
 * [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` ~ `xdm._experience.analytics.customDimensions.eVars.eVar250`
 * [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1`에서 `data.__adobe.analytics.eVar250`까지 또는 `data.__adobe.analytics.v1`에서 `data.__adobe.analytics.v250`까지
 
-## Adobe Analytics 확장을 사용한 eVar
+## Adobe Analytics 확장 기능을 사용한 eVar
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 eVar을 설정할 수 있습니다.
+Analytics 확장 기능(전역 변수)을 구성하는 동안 또는 규칙에서 eVar를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
@@ -57,9 +57,9 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 eVar�
 
 eVar를 값 또는 데이터 요소로 설정할 수 있습니다. 다른 Analytics 변수에서 값을 복사할 수도 있습니다.
 
-## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.eVar1 - s.eVar250
+## AppMeasurement 및 Analytics 확장 기능 사용자 정의 코드 편집기의 s.eVar1 - s.eVar250
 
-각 eVar는 조직에 관련된 사용자 정의 값을 포함하는 문자열입니다. 최대 길이는 255바이트이고, 255바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
+각 eVar는 조직별 사용자 정의 값을 포함하는 문자열입니다. 최대 길이는 255바이트이고, 255바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
 
 ```js
 s.eVar1 = "Example custom value";

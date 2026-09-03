@@ -92,7 +92,7 @@ Advertising Analytics은 Analysis Workspace, Report Builder 및 Analytics Report
 | **[!UICONTROL 광고 표시 URL(AMO ID)]** | 광고에 사용되는 광고 표시 URL 오브젝트입니다. |
 | **[!UICONTROL 광고 대상 URL(AMO ID)]** | 광고에 할당된 랜딩 페이지 URL 또는 최종 URL입니다. |
 | **[!UICONTROL 네트워크(AMO ID)]** | 광고가 게재되는 네트워크입니다. Advertising Analytics의 경우 이 값은 항상 “Search”입니다. |
-| **[!UICONTROL 배치(AMO ID)]** | 관리되는 게재위치 웹 사이트입니다 (콘텐츠 네트워크의 경우). 관리되는 배치만 이 차원을 사용합니다. |
+| **[!UICONTROL 배치(AMO ID)]** | 관리되는 배치 웹 사이트입니다 (콘텐츠 네트워크의 경우). 관리되는 배치만 이 차원을 사용합니다. |
 | **[!UICONTROL 제품 대상(AMO ID)]** | PLA 광고에 사용되는 제품 대상 이름입니다 (실제 제품을 구매하지 않음). |
 | **[!UICONTROL 최적화(AMO ID)]** | Advertising Analytics에서 사용되지 않습니다. Adobe Advertising 고객만 사용합니다. |
 | **[!UICONTROL 장치(AMO ID)]** | 오늘은 사용되지 않습니다. 광고의 지정된 대상 디바이스 유형(예: 모바일, 데스크탑)에 대한 잠재적 향후 제품 개선을 위한 자리표시자 (방문자의 실제 디바이스가 아님)입니다. |

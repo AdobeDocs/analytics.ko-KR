@@ -71,7 +71,7 @@ ht-degree: 76%
     1. DIL 코드를 제거하고 [대상자 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko) 페이지 코드를 설치합니다.
     1. 3단계에서 설명한 대로 Analytics 관리 UI에서 서버측 전달을 활성화합니다. DIL 코드를 제거하기 전에 이 설정을 활성화하면 데이터가 복제되고 Audience Manager에 대한 추가 청구된 서버 호출이 생성됩니다.
 
-  * **새 Adobe Audience Manager 고객** - [대상자 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko) 페이지 코드를 설치하고 3단계로 진행합니다. 3단계에서 서버측 전달 기능이 켜지기 전까지는 데이터가 Audience Manager에게 전송되지 않습니다.
+  * **새 Adobe Audience Manager 고객** - [대상자 관리 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko) 페이지 코드를 설치하고 3단계로 진행합니다. 3단계에서 서버측 전달 기능이 켜지기 전까지는 데이터가 Audience Manager에 전송되지 않습니다.
 
 ## ![step3_icon.png 이미지](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) 보고서 세트의 서버측 전달 구현 확인
 

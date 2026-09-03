@@ -1,6 +1,6 @@
 ---
 title: 리퍼러
-description: 방문자가 사이트를 클릭스루하기 전에 있었던 URL입니다.
+description: 방문자가 사이트로 연결되는 링크를 클릭하기 전에 있었던 URL입니다.
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
 TQID: https://experienceleague.adobe.com/VE1bJD2ah1N9t-fHKc5GC0-pC4YmXEDkCwhVmI5rHZQ

@@ -32,11 +32,11 @@ Adobe Experience Platform Mobile SDK은 Adobe의 CX 엔터프라이즈 솔루션
 
 >[!IMPORTANT]
 >
->Adobe Analytics 확장은 Adobe Experience Platform 데이터 수집 UI에서도 사용할 수 있습니다. 이 확장을 설치하는 경우 XDM 또는 Edge Network를 사용하지 않습니다.
+>Adobe Analytics 확장은 Adobe Experience Platform 데이터 수집 UI에서도 사용할 수 있습니다. 이 확장 기능을 설치하는 경우 XDM 또는 Edge Network를 사용하지 않습니다.
 
 ## Adobe Experience Platform SDK
 
-구현 작업에 대한 개략적인 개요:
+구현 작업에 대한 개요:
 
 ![Analytics 확장 워크플로를 사용하는 Adobe Analytics](../../assets/mobilesdk-annotated.png)
 
@@ -65,7 +65,7 @@ Adobe Experience Platform Mobile SDK은 Adobe의 CX 엔터프라이즈 솔루션
 
 <tr>
 <td>4</td>
-<td><b>모바일 속성을 만듭니다</b>. 속성은 확장, 규칙, 데이터 요소 및 라이브러리로 채우는 컨테이너입니다.</td>
+<td><b>모바일 속성을 만듭니다</b>. 속성은 확장 기능, 규칙, 데이터 요소 및 라이브러리로 채우는 컨테이너입니다.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">모바일 속성 설정</a></tr>
 
 <tr>
@@ -97,7 +97,7 @@ Adobe Experience Platform Mobile SDK은 Adobe의 CX 엔터프라이즈 솔루션
 
 ## Adobe Analytics 확장.
 
-구현 작업에 대한 개략적인 개요:
+구현 작업에 대한 개요:
 
 ![Analytics 확장 워크플로를 사용하는 Adobe Analytics](../../assets/mobilesdk-analytics-annotated.png)
 

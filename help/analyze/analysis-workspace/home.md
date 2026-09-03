@@ -1,6 +1,6 @@
 ---
 title: Analysis Workspace 개요
-description: Adobe Analytics의 고급 분석 도구인 Analysis Workspace에 대해 알아봅니다. 프로젝트, 패널, 테이블, 시각화 및 기타 구성 요소를 사용하여 데이터를 생생하게 표현하고 분석을 조정하여 공유할 수 있습니다.
+description: Adobe Analytics의 고급 분석 도구인 Analysis Workspace에 대해 알아봅니다. 프로젝트, 패널, 테이블, 시각화 및 기타 구성 요소를 사용하여 데이터를 생생하게 표현하고 분석을 선별하여 공유할 수 있습니다.
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
@@ -74,7 +74,7 @@ Analysis Workspace의 기능 대부분은 드래그 앤 드롭을 통해, 패널
 
 Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할 수 있습니다. 단축키는 브라우저가 실행 중인 운영 체제에 따라 다릅니다. 개요는 아래 테이블을 참조하십시오.
 
-키보드에서 다음 기호를 사용해야 합니다.
+키보드에서 다음 기호가 사용될 수 있습니다.
 
 - **[!UICONTROL *Shift *]**&#x200B;의 경우&#x200B;**⇧**
 - **⌘**&#x200B;**[!UICONTROL *Cmd *]**(명령)의 경우.
@@ -141,7 +141,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 |---|---|
 | **[!UICONTROL 비디오]** | 새 브라우저 탭에서 Customer Journey Analytics YouTube 채널을 엽니다. |
 | **[!UICONTROL 도움말 설명서]** | 설명서를 엽니다(실제로 지금 읽고 있는 중...) 새 브라우저 탭에서. |
-| **[!UICONTROL 도움말 포럼]** | 새 브라우저 탭에서 Adobe Analytics Experience League 커뮤니티 포럼을 엽니다. |
+| **[!UICONTROL 도움말 포럼]** | 새 브라우저 탭에서 Adobe Analytics Experience League Communities 포럼을 엽니다. |
 | **[!UICONTROL 핫키]** | Workspace에서 사용할 수 있는 핫키(단축키)에 대한 개요를 표시합니다. |
 | **[!UICONTROL 디버거 활성화]** | 디버거를 활성화합니다. 프로젝트가 다시 로드됩니다. |
 | **[!UICONTROL 디버거 비활성화]** | 디버거를 비활성화합니다. 프로젝트가 다시 로드됩니다. |

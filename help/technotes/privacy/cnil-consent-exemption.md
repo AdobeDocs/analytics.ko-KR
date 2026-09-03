@@ -34,7 +34,7 @@ ht-degree: 91%
 
 2020년 10월 1일, 프랑스 데이터 보호 당국(이하 “CNIL”)은 사용자 디바이스 또는 브라우저에서 필수가 아닌 쿠키 및 유사 기술을 저장하거나 읽기 위해 사용자 동의를 구하는 것에 대한 쿠키 가이드라인(“가이드라인”)의 개정된 버전과 최종 권장 사항(“권장 사항”)을 발표했습니다.
 
-가이드라인은 동의 요구 사항에 대한 제한적인 면제를 규정합니다(“동의 면제”). 동의 면제는 웹 게시자를 대신하여 사이트 또는 앱의 대상자만 측정하는 제한적인 용도를 가진 분석 쿠키에 적용됩니다. 가이드라인은 동의 면제를 적용하려면 다음 조건을 구현해야 한다고 규정합니다.
+가이드라인은 동의 요구 사항에 대한 제한적인 면제를 규정합니다(“동의 면제”). 동의 면제는 웹 게시자를 대신하여 사이트 또는 앱의 대상자를 측정하는 용도로만 제한되는 분석 쿠키에 적용됩니다. 가이드라인은 동의 면제를 적용하려면 다음 조건을 구현해야 한다고 규정합니다.
 
 * 최대 25개월 데이터 보존.  현재 데이터 보존 설정은 [!UICONTROL 분석] > [!UICONTROL 관리] > [!UICONTROL 데이터 거버넌스]에서 검토할 수 있습니다.  [데이터 보존](/help/technotes/data-retention.md)
 * ECID에서 서드파티 쿠키를 비활성화합니다. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=ko-KR#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=ko-KR#id-service-api), [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=ko-KR#id-service-api)
@@ -54,7 +54,7 @@ ht-degree: 91%
 * Adobe Analytics는 미국, 영국 및 싱가포르에서 데이터 처리 센터를 운영하여 모든 고객에게 데이터를 지역적으로 수집하고, 처리하고, 저장할 수 있는 유연성을 제공합니다. 고객은 Adobe Analytics의 초기 설정 구성 시 원하는 데이터 처리 센터 위치를 선택할 수 있습니다. 고객 데이터는 최종적으로 핵심 Analytics 제품에 대해 고객이 선택한 지역 내에 저장됩니다.
 * 세분화를 위해, 가상 보고서 세트를 위해 또는 별도의 엔드포인트로 라우팅하기 위해 옵트인 데이터를 옵트아웃 데이터와 분리하려면 Analytics 변수에서 옵트인 상태를 수집하는 것이 좋습니다.
 * 사전 동의 없이 사이트 또는 앱 외부에서 측정하지 않습니다. 예를 들어 오프사이트 캠페인, 이메일 캠페인 또는 iFrame이 금지됩니다.
-* 사용자 동의 없이는 개인정보 변수의 수집이 허용되지 않습니다. [사용자 동의에 따라 CX 엔터프라이즈 활동 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ko-KR#implementing-opt-in-on-the-page)
+* 사용자 동의 없이는 변수에 개인정보를 수집하는 것이 허용되지 않습니다. [사용자 동의에 따라 CX 엔터프라이즈 활동 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ko-KR#implementing-opt-in-on-the-page)
 * 데이터는 다른 데이터와 결합하지 않고 익명 통계를 생성하는 데만 사용됩니다.
 * 데이터는 상호 참조 작업에 사용되지 않습니다.
 * GPS 지리적 위치 데이터는 수집되지 않습니다.

@@ -40,18 +40,18 @@ ht-degree: 33%
 
   이 확인란을 사용하여 스트리밍 미디어 서비스와 관련된 차원 및 지표를 활성화할 수 있습니다.
 
-   * [미디어 코어 차원](/help/components/dimensions/sm-core.md)
-   * [미디어 코어 지표](/help/components/metrics/sm-core.md)
-   * [미디어 광고 차원](/help/components/dimensions/sm-ads.md)
-   * [미디어 광고 지표](/help/components/metrics/sm-ads.md)
-   * [미디어 챕터 차원](/help/components/dimensions/sm-chapters.md)
-   * [미디어 챕터 지표](/help/components/metrics/sm-chapters.md)
-   * [미디어 품질 차원](/help/components/dimensions/sm-quality.md)
-   * [미디어 품질 지표](/help/components/metrics/sm-quality.md)
-   * [비디오 메타데이터 차원](/help/components/dimensions/sm-video-metadata.md)
-   * [비디오 메타데이터 지표](/help/components/metrics/sm-video-metadata.md)
-   * [오디오 메타데이터 차원](/help/components/dimensions/sm-audio-metadata.md)
-   * [플레이어 상태 추적 지표](/help/components/metrics/sm-player-state.md)
+  * [미디어 코어 차원](/help/components/dimensions/sm-core.md)
+  * [미디어 코어 지표](/help/components/metrics/sm-core.md)
+  * [미디어 광고 차원](/help/components/dimensions/sm-ads.md)
+  * [미디어 광고 지표](/help/components/metrics/sm-ads.md)
+  * [미디어 챕터 차원](/help/components/dimensions/sm-chapters.md)
+  * [미디어 챕터 지표](/help/components/metrics/sm-chapters.md)
+  * [미디어 품질 차원](/help/components/dimensions/sm-quality.md)
+  * [미디어 품질 지표](/help/components/metrics/sm-quality.md)
+  * [비디오 메타데이터 차원](/help/components/dimensions/sm-video-metadata.md)
+  * [비디오 메타데이터 지표](/help/components/metrics/sm-video-metadata.md)
+  * [오디오 메타데이터 차원](/help/components/dimensions/sm-audio-metadata.md)
+  * [플레이어 상태 추적 지표](/help/components/metrics/sm-player-state.md)
 
 * [!UICONTROL **미디어 분류**]
 

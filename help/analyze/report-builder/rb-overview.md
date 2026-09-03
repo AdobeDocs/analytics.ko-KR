@@ -30,7 +30,7 @@ ht-degree: 81%
 
 # Report Builder 개요
 
-Report Builder는 Adobe Analytics 데이터를 사용하여 맞춤형 보고서를 쉽게 생성하고 편집하고 새로 고칠 수 있습니다. Report Builder의 간단하고 유연한 드래그 앤 드롭 UI를 사용하여 Excel 내의 모든 Adobe Analytics 데이터에서 복잡한 데이터 쿼리와 사용자 정의 보고서를 만들 수 있습니다.
+Report Builder는 Adobe Analytics 데이터를 사용하여 사용자 정의 보고서를 쉽게 생성하고 편집하고 새로 고칠 수 있습니다. Report Builder의 간단하고 유연한 드래그 앤 드롭 UI를 사용하면 Excel 내에서 Adobe Analytics 데이터로 복잡한 데이터 쿼리와 사용자 정의 보고서를 만들 수 있습니다.
 
 Adobe Analytics용 Report Builder을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -51,7 +51,7 @@ Report Builder for Adobe Analytics은 Microsoft Excel 추가 기능입니다. �
 
 - 데이터 블록 생성 및 관리 워크플로가 개선되어, 더 유연한 데이터 블록 설정을 포함해 Excel에서 인사이트를 더 빠르고 쉽게 찾을 수 있습니다.
 - 크로스 플랫폼: 이제 PC, Mac 및 Excel Online을 지원하므로 VM에 로그인하지 않고도 Report Builder를 사용할 수 있습니다.
-- API 2.0 업그레이드로 인해 데이터 블록 반환 시간이 더욱 빨라졌습니다.
+- API 2.0 업그레이드 덕분에 데이터 블록이 반환되기를 기다리는 시간이 줄어듭니다.
 - 속도 향상
 
 레거시 Report Builder 도구 사용자는 [기존 통합 문서를 새로운 Report Builder로 변환](/help/analyze/report-builder/convert-workbooks.md)할 수 있습니다.
@@ -86,7 +86,7 @@ Report Builder for Adobe Analytics은 Microsoft Excel 추가 기능입니다. �
 
 >[!IMPORTANT]
 >
->이 개요 비디오에서는 Customer Journey Analytics의 Report Builder 사용자 인터페이스를 보여 줍니다. Adobe Analytics에서 Report Builder을 사용할 때 일부 사용자 인터페이스와 용어는 다릅니다. 하지만 사용자 경험은 동일합니다.
+>이 소개 영상에서는 Customer Journey Analytics의 Report Builder 사용자 인터페이스를 보여 줍니다. Adobe Analytics에서 Report Builder을 사용할 때 일부 사용자 인터페이스와 용어는 다릅니다. 그 외에는 사용자 경험이 동일합니다.
 
 
 >[!BEGINSHADEBOX]

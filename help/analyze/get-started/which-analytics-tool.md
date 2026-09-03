@@ -48,15 +48,15 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 >[!ENDSHADEBOX]
 
 
-## Adobe Analytics 보고 사용자 인터페이스 {#user-interfaces}
+## Adobe Analytics 보고용 사용자 인터페이스 {#user-interfaces}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/home.md)**&#x200B;는 모든 보고 및 분석 요구를 위해 꼭 이용하는 사용자 인터페이스여야 합니다. Adobe는 이 제품에 대한 투자와 월별 업데이트 릴리스를 계속 수행합니다. Analysis Workspace에서 작업을 수행할 수 없는 경우 아래의 다른 인터페이스를 고려하십시오.**
+**[Analysis Workspace](/help/analyze/analysis-workspace/home.md)**&#x200B;는 모든 보고 및 분석 요구를 위해 꼭 이용하는 사용자 인터페이스여야 합니다. Adobe는 이 제품에 계속 투자하고 매월 업데이트를 출시합니다. Analysis Workspace에서 작업을 수행할 수 없는 경우 아래의 다른 인터페이스를 고려하십시오.**
 
-**[Adobe Analytics 대시보드](/help/analyze/mobile-app/home.md)**&#x200B;를 통해 직관적인 스코어카드에 사용자가 모바일 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
+**[Adobe Analytics 대시보드](/help/analyze/mobile-app/home.md)**&#x200B;를 통해 직관적인 스코어카드에 사용자가 모바일 액세스할 수 있습니다. 스코어카드는 타일식 레이아웃으로 표시되는 주요 지표 및 기타 구성 요소의 컬렉션이며, 이를 탭하면 더 자세한 분류와 추세 보고서를 볼 수 있습니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
-**[Report Builder](/help/analyze/report-builder/rb-overview.md)**&#x200B;는 Mac, Windows 및 웹 브라우저에서 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)**&#x200B;는 Mac, Windows 및 웹 브라우저에서 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터를 사용하여 맞춤화된 요청을 작성할 수 있으며 이러한 요청을 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, 요청을 업데이트하고 Report Builder에서 데이터를 표시하는 방식을 사용자 정의할 수 있습니다.
 
-**[레거시 Report Builder](/help/analyze/legacy-report-builder/home.md)**&#x200B;는 Windows에서만 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
+**[레거시 Report Builder](/help/analyze/legacy-report-builder/home.md)**&#x200B;는 Windows에서만 실행되는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터를 사용하여 맞춤화된 요청을 작성할 수 있으며 이러한 요청을 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다.
 
 **[Activity Map](/help/analyze/activity-map/overview.md)**&#x200B;은 웹 페이지 및 모바일 앱에서의 사용자 참여를 시각적으로 표현하는 Adobe Analytics의 기능입니다. 이를 통해 마케팅 담당자와 분석가는 클릭, 호버링 및 스크롤 동작과 같은 사용자 상호 작용을 추적하고 분석할 수 있습니다.
 
@@ -64,14 +64,14 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[분류](/help/components/classifications/classifications-overview.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* eVar, Prop, 마케팅 채널 등의 수집 값에 연결하려는 메타데이터가 있는 경우. Adobe는 [분류 세트](/help/components/classifications/sets/overview.md)를 사용할 것을 권장합니다. 분류 규칙 빌더와 분류 가져오기 도구는 분류 데이터를 Adobe Analytics로 가져오기 위한 기존 방법입니다.
+* eVar, prop, 마케팅 채널 등의 수집 값에 연결하려는 메타데이터가 있는 경우. Adobe는 [분류 세트](/help/components/classifications/sets/overview.md)를 사용할 것을 권장합니다. 분류 규칙 빌더와 분류 가져오기 도구는 분류 데이터를 Adobe Analytics로 가져오는 레거시 방법입니다.
 
 **[Data Sources](/help/import/data-sources/overview.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* Adobe Analytics에 영구적으로 작성하려는 오프라인 데이터가 있을 때
+* Adobe Analytics에 영구적으로 기록할 오프라인 데이터가 있을 때
 * 옵션:
-   * 요약: 일별 또는 제한된 차원별 간단한 데이터 업로드
-   * 거래 ID: 온라인 엔드포인트를 오프라인 데이터에 연결하고 가져온 데이터를 온라인으로 캡처한 방문자 스냅숏에 완전히 연관시키는 데이터 업로드 (예: 온라인으로 주문하고 오프라인으로 반환)
+  * 요약: 일별 또는 제한된 차원별 간단한 데이터 업로드
+  * 거래 ID: 온라인 엔드포인트를 오프라인 데이터에 연결하고 가져온 데이터를 온라인으로 캡처한 방문자 스냅숏에 완전히 연관시키는 데이터 업로드 (예: 온라인으로 주문하고 오프라인으로 반환)
 
 **[Adobe Exchange 통합](https://www.adobeexchange.com/experiencecloud.html)**&#x200B;은 다음의 경우에 사용되어야 합니다.
 
@@ -107,7 +107,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* UI에 숨겨진 변수에 액세스 - IP 주소, Experience Cloud ID, Analytics 방문자 ID, 페이지 URL)
+* UI에서 숨김 처리된 변수에 액세스 - IP 주소, Experience Cloud ID, Analytics 방문자 ID, 페이지 URL)
 * UI보다 세부적인 데이터에 액세스 (비정규화된 테이블 보기)
 * 피벗 테이블 입력에 적합한 형식으로 데이터를 다운로드하려면
 * 클라이언트에서 Adobe 데이터를 서드파티 데이터 시각화 도구에 입력하려는 경우 (히트 수준은 아니며 약간 요약됨)

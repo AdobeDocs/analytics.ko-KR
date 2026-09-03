@@ -1,5 +1,5 @@
 ---
-description: 테이블을 조회하여 페이지 이벤트를 기준으로 히트의 유형을 파악합니다.
+description: 페이지 이벤트를 기준으로 히트 유형을 확인하는 조회 테이블입니다.
 keywords: page;event;page_event;post_page_event
 title: 페이지 이벤트 조회
 feature: Data Feeds

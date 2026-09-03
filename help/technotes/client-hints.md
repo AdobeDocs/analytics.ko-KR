@@ -28,7 +28,7 @@ ht-degree: 78%
 
 # 클라이언트 힌트 개요 및 FAQ
 
-클라이언트 힌트는 사용자 디바이스에 대한 개별 정보입니다. Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 사용할 수 있습니다. 이들 브라우저의 경우 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체합니다. Adobe Analytics는 사용자 에이전트뿐만 아니라 클라이언트 힌트를 사용하여 디바이스 정보를 확인하도록 디바이스 조회 프로세스를 업데이트합니다.
+클라이언트 힌트는 사용자 디바이스에 대한 개별 정보입니다. Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 제공됩니다. 이들 브라우저의 경우 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체합니다. Adobe Analytics는 사용자 에이전트뿐만 아니라 클라이언트 힌트를 사용하여 디바이스 정보를 확인하도록 디바이스 조회 프로세스를 업데이트합니다.
 
 ## 낮은 엔트로피 및 높은 엔트로피 클라이언트 힌트
 
@@ -38,7 +38,7 @@ Google은 사용자 에이전트 클라이언트 힌트를 낮은 엔트로피 �
 
 * **높은 엔트로피** 힌트에는 보다 자세한 정보가 포함되어 있습니다. 이들 힌트는 요청 시에만 사용할 수 있습니다. AppMeasurement 및 Web SDK는 모두 높은 엔트로피 힌트를 요청하도록 구성할 수 있습니다. 기본적으로 두 라이브러리 모두 높은 엔트로피 힌트를 요청하지 **않습니다**.
 
-2022년 10월부터 Chromium 브라우저의 새 버전은 사용자 에이전트 문자열에 표시된 운영 체제 버전을 “중단”했습니다. 운영 체제 버전은 높은 엔트로피 힌트이므로 보고에서 운영 체제 버전의 정확도를 유지하려면 이러한 높은 엔트로피 힌트를 수집하도록 수집 라이브러리를 구성해야 합니다. 시간이 지남에 따라 사용자 에이전트의 다른 디바이스 정보가 동결되어 디바이스 보고의 정확도를 유지하기 위한 클라이언트 힌트가 필요합니다.
+2022년 10월부터 Chromium 브라우저의 새 버전은 사용자 에이전트 문자열에 표시된 운영 체제 버전을 &#39;고정&#39;하기 시작했습니다. 운영 체제 버전은 높은 엔트로피 힌트이므로 보고에서 운영 체제 버전의 정확도를 유지하려면 이러한 높은 엔트로피 힌트를 수집하도록 수집 라이브러리를 구성해야 합니다. 시간이 지남에 따라 사용자 에이전트의 다른 디바이스 정보가 동결되어 디바이스 보고의 정확도를 유지하기 위한 클라이언트 힌트가 필요합니다.
 
 클라이언트 힌트는 2023년 3월 2일에 Analytics 디바이스 조회 프로세스에 통합되었습니다. 이 변경 사항은 AppMeasurement 및 Web SDK 구현 모두에 적용됩니다.
 
@@ -54,7 +54,7 @@ Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔
 
 +++**클라이언트 힌트 수집을 활성화하려면 어떻게 해야 합니까?**
 
-낮은 엔트로피 힌트는 브라우저에서 자동으로 제공되며 디바이스 가져오기 및 브라우저 정보 프로세스용으로 수집됩니다. Web SDK(2.12.0부터 시작) 및 AppMeasurement(2.23.0부터 시작)의 최신 버전은 해당 태그 확장을 통해 또는 구성 옵션을 통해 직접 높은 엔트로피 힌트를 수집하도록 구성할 수 있습니다. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko-KR#enabling-high-entropy-client-hints) 및 [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md)에 대한 방향을 참조하십시오.
+낮은 엔트로피 힌트는 브라우저에서 자동으로 제공되며 디바이스 및 브라우저 정보를 도출하기 위해 수집됩니다. Web SDK(2.12.0부터 시작) 및 AppMeasurement(2.23.0부터 시작)의 최신 버전은 해당 태그 확장을 통해 또는 구성 옵션을 통해 직접 높은 엔트로피 힌트를 수집하도록 구성할 수 있습니다. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko-KR#enabling-high-entropy-client-hints) 및 [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md)에 대한 방향을 참조하십시오.
 
 두 라이브러리 모두에서 높은 엔트로피 힌트 수집은 **기본적으로 비활성화**&#x200B;되어 있습니다.
 

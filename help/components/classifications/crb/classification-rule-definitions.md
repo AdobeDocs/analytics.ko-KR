@@ -1,5 +1,5 @@
 ---
-description: 분류 규칙 빌더에서 페이지의 인터페이스 요소를 정의한 것입니다.
+description: 분류 규칙 빌더의 페이지에 있는 인터페이스 요소에 대한 정의입니다.
 title: 분류 규칙 - 정의
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
@@ -16,8 +16,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 861
-ht-degree: 61%
+source-wordcount: 865
+ht-degree: 62%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 61%
 
 {{classification-rulebuilder-deprecation}}
 
-분류 규칙 빌더에서 페이지의 인터페이스 요소를 정의한 것입니다.
+분류 규칙 빌더의 페이지에 있는 인터페이스 요소에 대한 정의입니다.
 
 ## 규칙 페이지
 

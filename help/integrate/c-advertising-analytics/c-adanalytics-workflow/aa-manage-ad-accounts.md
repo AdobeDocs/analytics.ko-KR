@@ -45,8 +45,8 @@ ht-degree: 18%
 - ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 검색 필드를 사용하여 광고 계정을 검색합니다.
 - 테이블에서 활성 계정을 선택하려면 **[!UICONTROL 활성 계정]**&#x200B;을 확인하세요.
 - 테이블에 표시할 열을 정의하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을(를) 선택합니다. <br/>테이블 사용자 지정&#x200B;**대화 상자에서:**
-   - 표시할 열을 선택합니다.
-   - **[!UICONTROL 적용]**&#x200B;을 선택합니다.
+  - 표시할 열을 선택합니다.
+  - **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
 하나 이상의 광고 계정을 선택할 때 선택한 계정의 상태에 따라 파란색 작업 표시줄을 사용하면 ![편집](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 이름 바꾸기]**, ![새로 고침](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 보고서 세트 매핑]**, ![재생](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL 활성화]** 또는 ![일시 중지](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 일시 중지]**&#x200B;할 수 있습니다.
 

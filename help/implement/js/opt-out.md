@@ -23,8 +23,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 603
-ht-degree: 69%
+source-wordcount: 653
+ht-degree: 64%
 
 ---
 
@@ -32,7 +32,8 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
-> 이 문서에서는 웹 사이트에서 Adobe Analytics을 구현&#x200B;**할** Adobe Analytics 고객에게 웹 사이트 사용자에게 옵트아웃 링크를 제공하는 방법에 대한 지침을 제공합니다. <p><p>> Adobe Analytics을 구현한 웹 사이트를 **방문 중**&#x200B;이고 옵트아웃하려는 경우 **<span style="color:red">이 문서는 사용자의 것이 아닙니다</span>**. Adobe에서 회원님의 정보를 사용하는 방법을 제어하려면 [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html)을 참조하세요.
+> 이 문서에서는 웹 사이트에서 Adobe Analytics을 구현&#x200B;**할** Adobe Analytics 고객에게 웹 사이트 사용자에게 옵트아웃 링크를 제공하는 방법에 대한 지침을 제공합니다. <p><p>
+> **Adobe Analytics을 구현한 웹 사이트를 방문하는 중**&#x200B;이고 옵트아웃하려는 경우 **<span style="color:red">이 문서는 사용자의 것이 아닙니다</span>**. Adobe에서 회원님의 정보를 사용하는 방법을 제어하려면 [Adobe 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html)을 참조하세요.
 
 웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe은 웹 사이트 방문자가 분석 대상 정보를 옵트아웃할 수 있는 기능을 제공합니다.
 
@@ -49,19 +50,19 @@ ht-degree: 69%
 조직에 대한 옵트아웃 페이지는 구현의 [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 변수 값에 따라 다릅니다.
 
 * Analytics 확장에서:
-   1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
-   1. 원하는 태그 속성을 클릭합니다.
-   1. [!UICONTROL 확장] 탭을 클릭한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
-   1. [!UICONTROL 일반] 아코디언을 클릭하고 [!UICONTROL 추적 서버] 값을 확인합니다.
+  1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
+  1. 원하는 태그 속성을 클릭합니다.
+  1. [!UICONTROL 확장] 탭을 클릭한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
+  1. [!UICONTROL 일반] 아코디언을 클릭하고 [!UICONTROL 추적 서버] 값을 확인합니다.
 
 * JavaScript 구현에서:
-   1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
-   1. `trackingServer` 변수 값을 확인합니다.
+  1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
+  1. `trackingServer` 변수 값을 확인합니다.
 
 * [Adobe CX Enterprise Debugger 사용](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ko):
-   1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
-   1. CX 엔터프라이즈 디버거를 연 다음 [!UICONTROL 네트워크 탭]&#x200B;(으)로 이동합니다.
-   1. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
+  1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
+  1. CX 엔터프라이즈 디버거를 연 다음 [!UICONTROL 네트워크 탭]&#x200B;(으)로 이동합니다.
+  1. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
 
 구현의 `trackingServer` 도메인을 찾으면 경로 `/optout.html`을 끝에 추가합니다. 예:
 

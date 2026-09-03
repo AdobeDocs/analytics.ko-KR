@@ -1,6 +1,6 @@
 ---
 title: 함수 및 메서드
-description: Adobe가 구현에서 제공하는 함수와 메서드를 사용할 수 있는 방법을 알아봅니다.
+description: 구현에서 Adobe가 제공하는 함수와 메서드를 사용할 수 있는 방법을 알아봅니다.
 feature: Appmeasurement Implementation
 exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
 role: Admin, Developer
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 # 함수 및 메서드
 
-Adobe는 구현에 사용할 수 있는 몇 가지 함수와 메서드를 제공합니다. 이러한 함수 또는 메서드를 참조할 때 단일 코드 행을 사용하여 일반적인 작업을 수행합니다.
+Adobe는 구현에 사용할 수 있는 몇 가지 함수와 메서드를 제공합니다. 이러한 함수 또는 메서드를 참조하면 한 줄의 코드로 일반적인 작업을 수행합니다.
 
 이러한 단일 코드 행 중 일부는 다음 범주에 속합니다.
 

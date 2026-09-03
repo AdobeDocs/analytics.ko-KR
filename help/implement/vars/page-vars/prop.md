@@ -63,7 +63,7 @@ prop을 값 또는 데이터 요소로 설정할 수 있습니다. 다른 Analyt
 
 ## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.prop1 - s.prop75
 
-각 prop 변수는 조직에 관련된 사용자 정의 값을 포함하는 문자열입니다. 최대 길이는 100바이트이고, 100바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
+각 prop 변수는 조직별 사용자 정의 값을 포함하는 문자열입니다. 최대 길이는 100바이트이고, 100바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
 
 ```js
 s.prop1 = "Example custom value";
@@ -87,7 +87,7 @@ s.prop1 = "Example custom value";
 
 [**데이터 개체**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;를 사용하는 경우 목록 prop은 표준 prop과 동일한 필드를 사용하며 AppMeasurement 구문을 따릅니다.
 
-### Adobe Analytics 확장 프로그램 및 AppMeasurement를 사용하여 목록 prop 설정
+### Adobe Analytics 확장 기능 및 AppMeasurement를 사용하여 목록 prop 설정
 
 원하는 구분 기호가 있는 보고서 세트 설정에서 목록 prop을 구성하면 구분 기호를 사용하는 것 외에는 구현에 차이가 없습니다.
 
@@ -100,4 +100,4 @@ s.prop1 = "value1,value2,value3";
 >
 >목록 prop은 여전히 100바이트라는 최대 길이의 영향을 받습니다. 목록 prop은 여러 값을 포함할 수 있으므로 이 제한에 더 쉽게 도달하고 잘립니다. 이 100바이트 제한에 도달할 수 있는 경우에는 약어 또는 단축 값을 사용하는 것이 좋습니다.
 
-목록 속성에서 동일한 값을 두 번 이상 설정하면 보고에서 중복되지 않습니다. Analysis Workspace는 값이 표시되는 히트 수를 계산하며, 데이터에 값이 존재하는 회수를 계산하지 않습니다.
+목록 속성에서 동일한 값을 두 번 이상 설정하면 보고에서 중복이 제거됩니다. Analysis Workspace는 값이 표시되는 히트 수를 계산하며, 데이터에 값이 존재하는 회수를 계산하지 않습니다.

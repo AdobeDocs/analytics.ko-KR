@@ -88,7 +88,7 @@ Analytics 세그먼트를 8시간 이내에 CX Enterprise에 게시할 수 있�
 
    >[!IMPORTANT]
    >
-   >Experience Cloud 숫자를 Audience Manager 숫자와 비교할 때 **[!UICONTROL 고유 방문자 수]** 대신 **[!UICONTROL 데이터 미리 보기]**&#x200B;에서 **[!UICONTROL Adobe Analytics ID를 가진 방문자 수]**&#x200B;를 모니터링해야 합니다.
+   >Adobe Analytics 숫자를 Audience Manager 숫자와 비교할 때 **[!UICONTROL 고유 방문자 수]** 대신 **[!UICONTROL 데이터 미리 보기]**&#x200B;에서 **[!UICONTROL Experience Cloud ID를 가진 방문자]**&#x200B;를 모니터링해야 합니다.
    >
 
 | 요소 | 설명 |
@@ -103,7 +103,7 @@ Analytics 세그먼트를 8시간 이내에 CX Enterprise에 게시할 수 있�
 
 >[!CAUTION]
 >
->CX Enterprise에 게시된 세그먼트를 삭제하려면 먼저 세그먼트 게시를 취소해야 합니다. 세그먼트 게시를 취소하려면 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]**&#x200B;의 선택을 취소하십시오.
+>CX Enterprise에 게시된 세그먼트를 삭제하려면 먼저 세그먼트 게시를 취소해야 합니다. 세그먼트 게시를 취소하려면 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]**&#x200B;의 선택을 취소하면 됩니다.
 
 
 >[!NOTE]
@@ -155,7 +155,7 @@ Demdex 쿠키(아래 예에서 [adobe.demdex.net](https://experienceleague.adobe
 
 Adobe Audience Manager에서는 주어진 세그먼트에 대한 ECID를 가진 방문자 목록이 평가되는 반면 Analytics는 CX Enterprise와 세그먼트를 공유합니다.
 
-1. Audience Manager에서 **[!UICONTROL 대상 데이터]** > **[!UICONTROL 트레이트]** > **[!UICONTROL 분석 트레이트]**&#x200B;로 이동합니다. CX 엔터프라이즈 조직에 매핑된 각 Analytics 보고서 세트에 대한 폴더가 표시됩니다. 이러한 폴더 (트레이트, 세그먼트 및 Data Sources용)는 프로필 및 대상자/사용자 핵심 서비스가 시작되거나 이 서비스에 대한 사용 권한이 제공되면 생성됩니다.
+1. Audience Manager에서 **[!UICONTROL 대상 데이터]** > **[!UICONTROL 트레이트]** > **[!UICONTROL 분석 트레이트]**&#x200B;로 이동합니다. CX 엔터프라이즈 조직에 매핑된 각 Analytics 보고서 세트에 대한 폴더가 표시됩니다. 이러한 폴더(트레이트, 세그먼트 및 데이터 소스용)는 프로필 및 대상자/사용자 핵심 서비스가 시작되거나 프로비저닝되면 생성됩니다.
 1. Audience Manager과 공유하려는 세그먼트를 이전에 만든 보고서 세트의 폴더를 선택합니다. 만든 세그먼트/대상이 표시됩니다. 세그먼트를 공유할 때 Audience Manager에는 다음 두 가지 상황이 발생합니다.
    * 우선 데이터가 없는 트레이트가 만들어집니다. 세그먼트가 세그먼트가 [!DNL Analytics]에 게시되고 8시간 후 ECID 목록이 온보딩되고 Audience Manager 및 다른 CX 엔터프라이즈 솔루션과 공유됩니다.
 

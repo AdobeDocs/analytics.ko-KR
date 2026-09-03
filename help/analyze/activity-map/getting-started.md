@@ -39,13 +39,13 @@ ht-degree: 97%
 Adobe Analytics의 Activity Map은 네 가지 주요 요소로 구성됩니다.
 
 * **보고서 세트 설정**: 보고서 세트 설정에서 Activity Map을 사용하도록 설정해야 합니다. 활성화되면 보고서 세트는 Activity Map 차원 및 지표에 대해 예약된 변수를 여러 개 만듭니다.
-* **구현**: 웹 사이트 또는 속성에서 Activity Map 데이터를 수집합니다. 데이터 수집 방법을 사용자 정의하면 보고서의 품질과 경험을 향상시킬 수 있습니다.
+* **구현**: 웹 사이트 또는 속성에서 Activity Map 데이터를 수집합니다. 데이터 수집 방법을 사용자 정의하면 보고서의 품질과 사용자 경험을 향상시킬 수 있습니다.
 * **Workspace 차원 및 지표**: 구현이 올바르게 구성되면 Analysis Workspace에서 Activity Map 차원 및 지표를 사용할 수 있습니다.
 * **오버레이**: Adobe는 웹 사이트 컨텍스트에서 Activity Map 데이터를 볼 수 있는 브라우저 확장 기능을 제공합니다. 이 기능은 웹 SDK 구현에 사용할 수 없습니다.
 
 ## 보고서 세트 설정 활성화
 
-데이터 수집을 시작하려면 보고서 세트에 Activity Map 보고를 활성화해야 합니다. 구현에서 Activity Map 보고 기능을 활성화하지 않은 상태에서 Activity Map 데이터를 보고서 세트로 전송하는 경우 Activity Map 데이터가 히트에 포함되지 않습니다.
+데이터 수집을 시작하려면 보고서 세트에 Activity Map 보고를 활성화해야 합니다. 구현에서 Activity Map 보고가 활성화되지 않은 보고서 세트로 Activity Map 데이터를 전송하는 경우 Activity Map 데이터가 히트에 포함되지 않습니다.
 
 **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > 보고서 세트 선택 > **[!UICONTROL 설정 편집]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 보고]** > **[!UICONTROL Activity Map 보고서 활성화]**
 
@@ -79,7 +79,7 @@ Activity Map 데이터 수집을 사용하려면 **[!UICONTROL Adobe Experience 
 
 Activity Map 데이터 수집을 사용하려면 웹 SDK JavaScript 라이브러리 v2.20 이상이 필요합니다. v2.15까지의 라이브러리 버전은 지원이 제한되어 있습니다. 이전 라이브러리 버전은 Activity Map 데이터를 나머지 데이터와 별도의 이벤트로 보냅니다. 이 추가 이벤트는 Adobe Analytics 또는 Adobe Experience Platform으로 보내는 히트 수를 증가시킵니다.
 
-웹 SDK 구성 변수 [`clickCollectionEnabled`](https://experienceleague.adobe.com/kr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)는 Activity Map 데이터의 자동 수집을 처리합니다. 명시적으로 비활성화되지 않는 한 기본값은 활성화되어 있습니다.
+웹 SDK 구성 변수 [`clickCollectionEnabled`](https://experienceleague.adobe.com/kr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)는 Activity Map 데이터의 자동 수집을 처리합니다. 명시적으로 비활성화하지 않는 한 기본적으로 활성화되어 있습니다.
 
 ```js
 alloy("configure", {
@@ -103,7 +103,7 @@ alloy("configure", {
 1. 설치된 확장 기능 목록에서 **[!UICONTROL Adobe Analytics]**&#x200B;를 선택한 다음 오른쪽의 **[!UICONTROL 구성]**&#x200B;을 선택합니다.
 1. **[!UICONTROL Activity Map 사용]** 확인란이 활성화되어 있는지 확인합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-1. 필요한 경우 라이브러리에 변경 사항을 작성하고 프로덕션에 대한 변경 사항을 게시합니다.
+1. 필요한 경우 변경 사항을 라이브러리로 빌드하고 변경 사항을 운영 환경에 게시합니다.
 
 자세한 정보는 [Adobe Analytics 확장 기능 개요](https://experienceleague.adobe.com/kr/docs/experience-platform/tags/extensions/client/analytics/overview)를 참조하십시오.
 

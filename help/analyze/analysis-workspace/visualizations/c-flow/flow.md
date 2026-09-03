@@ -65,7 +65,7 @@ _이 문서에서는 플로우 시각화에 대해 설명합니다._ ![AdobeAnal
 
 ## 차원 간 흐름
 
-[차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 흐름은 홈 페이지에서 “남성” 페이지로 이동한 다음 “신발” 부문으로 이동할 수 있습니다.
+[차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 부서를 결합할 수도 있습니다. 이 경우, 사용자의 흐름은 홈 페이지에서 “남성” 페이지로 이동한 다음 “신발” 부문으로 이동할 수 있습니다.
 
 각 열에는 다른 차원이 표시될 수 있습니다. 차원을 드래그하여 드롭 영역에 놓아 해당 차원을 다이어그램에 추가합니다.
 

@@ -33,7 +33,7 @@ ht-degree: 92%
 
 # 자주 묻는 질문
 
-+++Analysis Workspace을 사용하기 위한 사전 요구 사항은 무엇입니까?
++++Analysis Workspace를 사용하기 위한 사전 요구 사항은 무엇입니까?
 [Adobe Analytics 확장 기능을 사용하여 Adobe Analytics에 데이터 보내기](/help/implement/launch/validate-publish-prod.md): Analysis Workspace를 사용하려면 실제로 구현해야 합니다. 도구를 사용하기 전에 조직에서 Adobe에 데이터를 보내도록 하십시오. DTM이나 기존의 수동 구현과 같은 다른 구현도 작동할 수 있습니다.
 +++
 
@@ -41,8 +41,8 @@ ht-degree: 92%
 [관리 요구 사항](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)을 참조하십시오.
 +++
 
-+++Analysis Workspace을 사용하는 것이 데이터 수집에 영향을 줍니까?
-Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 구성 요소를 프로젝트에 마구잡이로 끌어와서 어떤 것이 효과가 있는지를 확인하는 데에는 아무 영향이 없습니다. 다양한 차원과 지표의 조합을 Workspace 프로젝트로 드래그하여 사용 가능한 조합을 확인하십시오. 실수로 유효하지 않은 구성 요소를 Workspace 프로젝트에 끌어오거나 단계를 다시 수행하려면 Ctrl+Z(Windows) 또는 Cmd+Z(Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. 왼쪽 위 메뉴에서 **[!UICONTROL 프로젝트]** > **[!UICONTROL 신규]**&#x200B;를 클릭하여 깨끗한 슬레이트로 시작할 수도 있습니다.
++++Analysis Workspace를 사용하는 것이 데이터 수집에 영향을 줍니까?
+Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 어떤 것이 효과가 있는지 확인하기 위해 구성 요소를 프로젝트에 마구잡이로 끌어다 놓아도 불이익은 없습니다. 다양한 차원과 지표의 조합을 Workspace 프로젝트로 드래그하여 사용 가능한 조합을 확인하십시오. 실수로 유효하지 않은 구성 요소를 Workspace 프로젝트에 끌어오거나 단계를 다시 수행하려면 Ctrl+Z(Windows) 또는 Cmd+Z(Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. 왼쪽 위 메뉴에서 **[!UICONTROL 프로젝트]** > **[!UICONTROL 신규]**&#x200B;를 클릭하여 깨끗한 슬레이트로 시작할 수도 있습니다.
 +++
 
 +++Analysis Workspace 프로젝트에는 몇 개의 보고서 세트를 표시할 수 있습니까?
@@ -50,7 +50,7 @@ Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 �
 +++
 
 +++Analysis Workspace는 어떻게 구현합니까?
-특별한 구현은 필요하지 않습니다. Analysis Workspace는 Analytics Standard 또는 Premium이 있는 모든 회사에서 사용할 수 있습니다. 그렇지만 콘텐츠(예: 보고서 세트 및 프로젝트 구성 요소)에 대한 표준 권한이 적용되고 프로젝트를 조정하고 공유할 수 있습니다. [관리 및 액세스 요구 사항](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)을 참조하십시오.
+특별한 구현은 필요하지 않습니다. Analysis Workspace는 Analytics Standard 또는 Premium이 있는 모든 회사에서 사용할 수 있습니다. 그렇지만 콘텐츠(예: 보고서 세트 및 프로젝트 구성 요소)와 프로젝트 선별 및 공유에는 표준 권한이 적용됩니다. [관리 및 액세스 요구 사항](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)을 참조하십시오.
 +++
 
 +++Data Warehouse용 Analysis Workspace을 사용할 수 있습니까?
@@ -77,7 +77,7 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 
 +++지표를 드래그하면 “잘못된 데이터”라고 표시됩니다. 이 문제를 해결하려면 어떻게 해야 합니까?
 
-잘못된 데이터는 Adobe가 보고서에 사용된 차원과 지표의 조합을 사용하여 데이터를 반환할 수 없음을 의미합니다. 예를 들어 서로 위에 스택된 두 개의 지표는 이런 식으로 두 개의 지표를 표시할 수 있는 방법이 없으므로 데이터로 반환되지 않습니다. 대신 지표를 나란히 배치합니다.
+잘못된 데이터는 Adobe가 보고서에 사용된 차원과 지표의 조합을 사용하여 데이터를 반환할 수 없음을 의미합니다. 예를 들어 두 개의 지표를 서로 위에 쌓아 놓은 경우에는 그런 방식으로 두 개의 지표를 표시할 수 없으므로 데이터로 반환할 수 없습니다. 대신 지표를 나란히 배치합니다.
 
 +++
 

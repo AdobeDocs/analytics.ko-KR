@@ -1,6 +1,6 @@
 ---
 title: Analytics for Digital Assistants 구현
-description: Amazon Alexa 또는 Google Home과 같은 Digital Assistant에 Adobe Analytics를 구현합니다.
+description: Amazon Alexa 또는 Google Home과 같은 디지털 어시스턴트에 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
@@ -20,8 +20,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1284
-ht-degree: 75%
+source-wordcount: 1286
+ht-degree: 74%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 75%
 
 ## Analytics 구현 위치
 
-Analytics를 구현하는 가장 좋은 위치 중 하나는 앱에 있습니다. 이 앱은 Digital Assistant로부터 의도와 세부 사항을 받은 다음, 응답하는 방법을 결정합니다.
+Analytics를 구현하는 가장 좋은 위치 중 하나는 앱에 있습니다. 이 앱은 디지털 어시스턴트로부터 의도와 세부 사항을 받은 다음, 응답하는 방법을 결정합니다.
 
 요청 중에는 Adobe Analytics에 데이터를 전송하는 데 도움이 될 수 있는 두 번의 시기가 있습니다.
 
@@ -73,7 +73,7 @@ Host:
 
 ## 여러 개의 Assistant 또는 여러 앱
 
-조직에서는 여러 플랫폼용 앱을 원할 수 있습니다. 가장 좋은 방법은 각 요청에 앱 ID를 포함하는 것입니다. 이 변수는 `a.AppID` 컨텍스트 데이터 변수에서 설정할 수 있습니다. `[AppName] [BundleVersion]` 형식을 따르십시오. 예를 들어 BigMac for Alexa 1.2의 경우 다음과 같습니다.
+조직에서는 여러 플랫폼용 앱을 원할 수 있습니다. 모범 사례는 각 요청에 앱 ID를 포함하는 것입니다. 이 변수는 `a.AppID` 컨텍스트 데이터 변수에서 설정할 수 있습니다. `[AppName] [BundleVersion]` 형식을 따르십시오. 예를 들어 BigMac for Alexa 1.2의 경우 다음과 같습니다.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
@@ -107,11 +107,11 @@ Digital Assistant는 대화형이므로 세션 개념이 있는 경우가 많습
 
 **Google:**: &quot;몇 시로 하시겠습니까?&quot;
 
-**소비자:** &quot;8:30pm&quot;
+**소비자:** &quot;오후 8시 30분&quot;
 
-**Google:** &quot;좋습니다. 드라이버가 8:30pm에 도착할 예정입니다.&quot;
+**Google:** &quot;좋습니다. 운전사가 오후 8시 30분에 도착할 예정입니다.&quot;
 
-세션은 컨텍스트를 유지하는 데 중요하며, 더 많은 세부 정보를 수집하여 보다 자연스러운 Digital Assistant를 만드는 데 도움이 됩니다. 대화에 대한 Analytics를 구현할 때 새 세션이 시작되면 수행할 작업이 두 가지가 있습니다.
+세션은 컨텍스트를 유지하는 데 중요하며, 더 많은 세부 정보를 수집하여 디지털 어시스턴트를 보다 자연스럽게 만드는 데 도움이 됩니다. 대화에 대한 Analytics를 구현할 때 새 세션이 시작되면 수행할 작업이 두 가지가 있습니다.
 
 1. **Audience Manager에 연결**: 응답을 사용자 정의할 수 있도록 사용자가 속해 있는 관련 세그먼트를 가져옵니다. (예를 들면 이 사람은 현재 다중 채널 할인에 적격입니다.)
 2. **새 세션 또는 실행 이벤트에 보내기**: Analytics에 첫 번째 응답을 보낼 때 실행 이벤트를 포함합니다. 일반적으로 `a.LaunchEvent=1`의 컨텍스트 데이터를 설정하여 보낼 수 있습니다.
@@ -128,7 +128,7 @@ Cache-Control: no-cache
 
 예를 들어 사용자가 &quot;Siri야, 내 뱅킹 앱에서 어제 저녁 값으로 존에게 20달러 보내 줘.&quot;라고 말하면 의도는 *sendMoney*&#x200B;와 같을 수 있습니다.
 
-이러한 각 요청을 eVar로 보냄으로써, 대화형 앱에 대해 각 의도에 대한 경로 지정 보고서를 실행할 수 있습니다. 앱에서 의도하지 않은 요청도 처리할 수 있는지 확인하십시오. 변수를 생략하는 대신 “지정된 의도 없음”을 의도 컨텍스트 데이터 변수에 전달하는 것이 좋습니다.
+이러한 각 요청을 eVar로 보냄으로써, 대화형 앱에 대해 각 의도에 대한 경로 지정 보고서를 실행할 수 있습니다. 앱에서 의도 없이 들어오는 요청도 처리할 수 있는지 확인하십시오. 변수를 생략하는 대신 &#39;No Intent Specified&#39;를 의도 컨텍스트 데이터 변수에 전달하는 것이 좋습니다.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
@@ -162,7 +162,7 @@ Cache-Control: no-cache
 
 ## 오류 상태
 
-Digital Assistant에서 처리 방법을 모르는 입력을 앱에 제공하는 경우가 있습니다. 예를 들어 &quot;Siri야, 내 뱅킹 앱에서 어제 저녁 값으로 존에게 석탄 20가방을 보내 줘.&quot;와 같은 경우입니다.
+디지털 어시스턴트가 처리 방법을 모르는 입력을 앱에 제공하는 경우가 있습니다. 예를 들어 &quot;Siri야, 내 뱅킹 앱에서 어제 저녁 값으로 존에게 석탄 20가방을 보내 줘.&quot;와 같은 경우입니다.
 
 이러한 상황이 발생하면 앱이 명확한 설명을 요구하게 하십시오. 또한 발생한 오류 유형을 지정하는 eVar와 함께 앱에 오류 상태가 있음을 나타내는 데이터를 Adobe에 보내십시오. 입력이 올바르지 않은 오류와 앱에 문제가 있는 오류를 포함해야 합니다.
 
@@ -174,11 +174,11 @@ Cache-Control: no-cache
 
 ## 디바이스 기능
 
-대부분의 플랫폼은 사용자가 말한 디바이스를 노출하지 않지만 디바이스의 기능은 노출합니다. 예를 들어 오디오, 화면, 비디오 등이 있습니다. 이 정보는 사용자와 상호 작용할 때 사용할 수 있는 콘텐츠 유형을 정의하므로 유용합니다. 디바이스 기능을 평가할 때는 기능들을 알파벳순으로 연결하는 것이 가장 좋습니다.
+대부분의 플랫폼은 사용자가 말을 건 디바이스를 노출하지 않지만 디바이스의 기능은 노출합니다. 예를 들어 오디오, 화면, 비디오 등이 있습니다. 이 정보는 사용자와 상호 작용할 때 사용할 수 있는 콘텐츠 유형을 정의하므로 유용합니다. 디바이스 기능을 평가할 때는 기능들을 알파벳순으로 연결하는 것이 가장 좋습니다.
 
 예: `":Audio:Camera:Screen:Video:"`
 
-선행 및 후행 콜론 기능은 세그먼트를 만들 때 도움이 됩니다. 예를 들어 `:Audio:` 기능이 있는 모든 히트를 표시합니다.
+앞뒤에 오는 콜론은 세그먼트를 만들 때 도움이 됩니다. 예를 들어 `:Audio:` 기능이 있는 모든 히트를 표시합니다.
 
 * Amazon Alexa를 사용한 [Amazon 기능](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
 * Google에서 작업을 사용하는 [Google 기능](https://developers.google.com/actions/assistant/surface-capabilities)

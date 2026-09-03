@@ -39,7 +39,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트(Analytics 포�
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. **[!UICONTROL 새 속성]**&#x200B;을 클릭합니다.
 1. 속성 이름을 웹 사이트의 제목 등으로 지정하고 Analytics를 구현할 도메인을 입력합니다. **[!UICONTROL 저장을]** 클릭합니다.
-1. 새로 만든 태그 속성을 클릭하여 해당 설정을 입력합니다.
+1. 새로 만든 태그 속성을 클릭하여 해당 설정으로 들어갑니다.
 1. **[!UICONTROL 확장]** 탭을 클릭한 다음 **[!UICONTROL 카탈로그]**&#x200B;를 클릭합니다.
 1. “Experience Cloud ID 서비스”를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. IMS 조직 ID를 포함한 모든 설정은 이미 작성되어 있어야 합니다. **[!UICONTROL 저장을]** 클릭합니다.
@@ -63,7 +63,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트(Analytics 포�
 
      >[!NOTE]
      >
-     >이 값은 시작하는 데 도움이 되는 예제입니다. 조직에서 페이지 이름에 데이터 계층 값과 같은 값을 정의한 경우 해당 값을 여기에 입력할 수 있습니다.
+     >이 값은 시작하는 데 도움이 되는 예제입니다. 조직에서 데이터 레이어 값과 같이 페이지 이름에 더 적합한 값을 정의한 경우 해당 값을 여기에 입력할 수 있습니다.
    * 텍스트 정리 선택
    * 저장소 유지 시간: 없음
 1. **[!UICONTROL 저장을]** 클릭합니다.
@@ -86,7 +86,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트(Analytics 포�
    * 페이지 이름: 컨테이너 아이콘을 클릭하고 `Page Name` 데이터 요소를 선택합니다.
    * 캠페인: 값이 `cid`인 쿼리 매개변수
 1. **[!UICONTROL 변경사항 유지]**&#x200B;를 클릭합니다.
-1. 다른 작업을 추가할 작업 옆에 있는 더하기 기호를 클릭하고 다음 설정을 입력합니다.
+1. 다른 액션을 추가하려면 액션 옆에 있는 더하기 기호를 클릭하고 다음 설정을 입력합니다.
    * 확장: Adobe Analytics
    * 작업 유형: 비콘 전송
    * 이름: Adobe Analytics - 비콘 전송
