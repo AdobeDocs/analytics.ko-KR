@@ -35,7 +35,7 @@ ht-degree: 25%
 
 ## 이 지표의 계산 방법
 
-이 지표는 [고유 방문자 수](unique-visitors.md) 지표를 기반으로 합니다. 단, [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키 기반 `mid` 쿼리 문자열을 사용하여 식별된 개인만 포함합니다.
+이 지표는 [고유 방문자 수](unique-visitors.md) 지표를 기반으로 합니다. 단, [`s_ecid`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키 기반 `mid` 쿼리 문자열을 사용하여 식별된 개인만 포함합니다.
 
 ## ECID 설정 디버깅
 

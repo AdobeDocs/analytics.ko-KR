@@ -129,7 +129,7 @@ s.pageURL="https://www.flytohawaii.example"
 
 테스트를 실행하여 레퍼러, 원래 URL (*`s_server`*) 및 캠페인 변수가 캡처되고 있는지 확인합니다.
 
-이러한 변수는 [CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)에서 다음 매개 변수로 표시됩니다.
+이러한 변수는 [CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)에서 다음 매개 변수로 표시됩니다.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 

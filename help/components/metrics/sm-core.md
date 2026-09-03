@@ -28,17 +28,17 @@ ht-degree: 1%
 
 다음 지표를 사용할 수 있습니다.
 
-* [[!UICONTROL 평균 분당 시청 대상자]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-minute-audience)
-* [[!UICONTROL 컨텐츠 완료]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes)
-* [[!UICONTROL 일시 중지된 영향을 받은 스트림]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/paused-impacted-streams)
-* [[!UICONTROL 이벤트 일시 중지]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/pause-events)
-* [[!UICONTROL 총 일시 중단 기간]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration)
-* [[!UICONTROL 콘텐츠 시작]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-starts)
-* [[!UICONTROL 진행률 마커]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)
-* [[!UICONTROL 콘텐츠 다시 시작]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes)
-* [[!UICONTROL 콘텐츠 세그먼트 보기]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views)
-* [[!UICONTROL 미디어 시작]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts)
-* [[!UICONTROL 콘텐츠 체류 시간]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent)
-* [[!UICONTROL 재생된 고유 시간]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/unique-time-played)
+* [[!UICONTROL 평균 분당 시청 대상자]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/average-minute-audience)
+* [[!UICONTROL 컨텐츠 완료]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/content-completes)
+* [[!UICONTROL 일시 중지된 영향을 받은 스트림]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/paused-impacted-streams)
+* [[!UICONTROL 이벤트 일시 중지]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/pause-events)
+* [[!UICONTROL 총 일시 중단 기간]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/total-pause-duration)
+* [[!UICONTROL 콘텐츠 시작]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/content-starts)
+* [[!UICONTROL 진행률 마커]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/progress-markers)
+* [[!UICONTROL 콘텐츠 다시 시작]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/content-resumes)
+* [[!UICONTROL 콘텐츠 세그먼트 보기]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/content-segment-views)
+* [[!UICONTROL 미디어 시작]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/media-starts)
+* [[!UICONTROL 콘텐츠 체류 시간]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/content-time-spent)
+* [[!UICONTROL 재생된 고유 시간]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/unique-time-played)
 
 해당 차원에 대해서는 [Streaming Media 서비스 핵심 차원](../dimensions/sm-core.md)을 참조하십시오.
