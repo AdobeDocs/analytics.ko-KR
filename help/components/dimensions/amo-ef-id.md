@@ -4,15 +4,10 @@ description: Adobe Advertising 통합에 사용되는 Adobe Media Optimizer EF I
 feature: Dimensions
 exl-id: 129b0235-9b00-4d75-8b02-0443dfdef091
 TQID: 'https://experienceleague.adobe.com/gye9CwGtFwPppmrTbpB5CErZjIdKeAtSPr6VPUtPod4'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 299
@@ -22,7 +17,7 @@ ht-degree: 4%
 
 # AMO EF ID
 
-**[!UICONTROL AMO EF ID]**&#x200B;은(는) Adobe Advertising 통합에 사용되는 광고 클릭 식별자입니다. Adobe Advertising이 방문자 수준에서 활동을 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. [Analytics for Advertising](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다.
+**[!UICONTROL AMO EF ID]**&#x200B;은(는) Adobe Advertising 통합에 사용되는 광고 클릭 식별자입니다. Adobe Advertising이 방문자 수준에서 활동을 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다.
 
 ## 이 차원을 데이터로 채우기
 
@@ -67,9 +62,9 @@ Dimension 항목에는 지원되는 광고 네트워크에서 생성한 광고 �
 * **`amovid`**: 서퍼 ID라고도 하는 Adobe Advertising 방문자 ID입니다.
 * **`ts`**: Adobe Advertising에서 생성된 타임스탬프입니다.
 * **`channel`**: 클릭 또는 노출을 담당하는 채널 유형:
-   * **`d`**: DSP 디스플레이 광고 클릭(디스플레이 클릭스루)입니다.
-   * **`i`**: DSP 디스플레이 광고(디스플레이 뷰스루)의 노출 횟수입니다.
-   * **`s`**: 검색 광고 클릭(검색 클릭스루).
+  * **`d`**: DSP 디스플레이 광고 클릭(디스플레이 클릭스루)입니다.
+  * **`i`**: DSP 디스플레이 광고(디스플레이 뷰스루)의 노출 횟수입니다.
+  * **`s`**: 검색 광고 클릭(검색 클릭스루).
 
 ### 예
 

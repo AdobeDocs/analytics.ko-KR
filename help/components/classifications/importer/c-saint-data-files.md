@@ -4,18 +4,11 @@ title: 분류 데이터 파일
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 TQID: https://experienceleague.adobe.com/NKh-IIAZg2rqdpsJJrM765aXYvKGtpLjGWdwWhbiGTw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1045
@@ -42,7 +35,7 @@ ht-degree: 57%
 데이터 파일은 다음 구조 규칙을 준수해야 합니다.
 
 * 분류는 0(영) 값을 가질 수 없습니다.
-* 가져오기 및 내보내기 열의 수는 30개로 제한하는 것이 좋습니다.
+* Adobe에서는 가져오기 및 내보내기 열 수를 30개로 제한할 것을 권장합니다.
 * 업로드된 파일은 BOM 문자 인코딩 없이 UTF-8을 사용해야 합니다.
 * v2.1 파일 형식이 지정되고 셀이 적절히 [이스케이프되는](/help/components/classifications/importer/importer-faq.md) 경우 탭, 줄바꿈, 따옴표와 같은 특수 문자가 셀 내부에 임베드될 수 있습니다. 특수 문자는 다음과 같습니다.
 
@@ -65,10 +58,10 @@ ht-degree: 57%
 * 분류 내보내기에는 키의 새 줄 문자로 인해 중복 키가 생길 수 있습니다. 이 문제는 FTP 또는 브라우저 내보내기에서 FTP 계정에 대해 따옴표 기능을 사용하여 해결할 수 있습니다. 줄바꿈 문자가 있는 각 키 주위에 따옴표를 배치합니다.
 * 가져오기 파일의 첫 번째 줄에 있는 셀 C1에는 분류가 파일의 나머지 부분에서 따옴표 사용을 처리하는 방법을 결정하는 버전 식별자가 포함되어 있습니다.
 
-   * v2.0에서는 인용 부호를 무시하고, 지정된 키 및 값의 모든 부분이라고 가정합니다. 예를 들어 이 값을 &quot;This is &quot;&quot;some value&quot;&quot;&quot;라고 생각해 보십시오. v2.0은 이를 &quot;This is &quot;&quot;some value&quot;&quot;&quot;라고 문자 그대로 해석합니다.
-   * v2.1에서는 분류에게 인용 부호가 Excel 파일에 사용된 파일 형식의 일부라고 가정하도록 합니다. 따라서 v2.1은 위의 예제를 &quot;some value&quot;로 형식을 지정합니다.
-   * 파일에 v2.1이 지정되어 있지만, 실제로 원하는 것은 v2.0이면 문제가 발생할 수 있습니다. 즉, 인용 부호가 Excel 형식에서 잘못된 방법으로 사용되는 경우 문제가 발생할 수 있습니다. 예를 들어 다음 값이 있는 경우: &quot;VP NO REPS&quot; S/l Dress w/ Overlay v2.1에서, 이는 잘못된 형식(값을 여는 따옴표와 닫는 따옴표로 둘러싸야 하며, 실제 값의 일부인 따옴표는 따옴표로 이스케이프 처리를 해야 함)이며, 이 이후에는 분류가 작동하지 않습니다.
-   * 따라서, 반드시 업로드하는 파일에서 헤더(셀 C1)를 변경하여 파일 형식을 v2.0으로 변경하거나, 파일 전체에서 Excel 인용 부호 사용을 제대로 구현하십시오.
+  * v2.0에서는 인용 부호를 무시하고, 이를 모두 지정된 키 및 값의 일부라고 가정합니다. 예를 들어 이 값을 &quot;This is &quot;&quot;some value&quot;&quot;&quot;라고 생각해 보십시오. v2.0은 이를 &quot;This is &quot;&quot;some value&quot;&quot;&quot;라고 문자 그대로 해석합니다.
+  * v2.1에서는 분류가 인용 부호를 Excel 파일에 사용되는 파일 형식의 일부로 간주합니다. 따라서 v2.1은 위의 예제를 &quot;some value&quot;로 형식을 지정합니다.
+  * 파일에 v2.1이 지정되어 있지만, 실제로 원하는 것은 v2.0이면 문제가 발생할 수 있습니다. 즉, 인용 부호가 Excel 형식에서 잘못된 방법으로 사용되는 경우 문제가 발생할 수 있습니다. 예를 들어 다음 값이 있는 경우: &quot;VP NO REPS&quot; S/l Dress w/ Overlay. v2.1에서, 이는 잘못된 형식(값을 여는 따옴표와 닫는 따옴표로 둘러싸야 하며, 실제 값의 일부인 따옴표는 따옴표로 이스케이프 처리를 해야 함)이며, 이 이후에는 분류가 작동하지 않습니다.
+  * 다음 중 하나를 수행해야 합니다. 업로드하는 파일에서 헤더(셀 C1)를 변경하여 파일 형식을 v2.0으로 변경하거나, 파일 전체에서 Excel 인용 부호 사용을 제대로 구현하십시오.
 
 * 데이터 파일의 첫 번째(설명이 아닌) 행에는 해당 열에서 분류 데이터를 식별하는 데 사용되는 열 제목이 포함됩니다. 가져오기에는 열 제목에 대한 특정 형식이 필요합니다. 자세한 내용은 [열 제목 형식](/help/components/classifications/importer/c-saint-data-files.md)을 참조하십시오.
 * 데이터 파일에서 헤더 행 바로 뒤에 오는 것은 데이터 행입니다. 각 데이터 줄에는 각 열 머리글에 대한 데이터 필드가 포함되어야 합니다.
@@ -121,7 +114,7 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->[!UICONTROL 분류] 열 제목의 값은 분류 명명 규칙과 정확히 일치해야 하며, 그렇지 않은 경우 가져오기에 실패합니다. 예를 들어 관리자가 [!UICONTROL 캠페인]을 [!UICONTROL 캠페인 설정 관리자]의 [!UICONTROL 내부 캠페인 이름]으로 변경하는 경우 파일 열 제목을 일치하도록 변경해야 합니다. “키”는 예약된 분류(헤더) 값입니다. “키”라는 새 분류는 지원되지 않습니다.
+>[!UICONTROL 분류] 열 제목의 값은 분류 명명 규칙과 정확히 일치해야 하며, 그렇지 않은 경우 가져오기에 실패합니다. 예를 들어 관리자가 [!UICONTROL 캠페인]을 [!UICONTROL 캠페인 설정 관리자]의 [!UICONTROL 내부 캠페인 이름]으로 변경하는 경우 파일 열 제목을 일치하도록 변경해야 합니다. &quot;Key&quot;는 예약된 분류(헤더) 값입니다. &quot;Key&quot;라는 새 분류는 지원되지 않습니다.
 
 또한 데이터 파일은 하위 분류 및 기타 전문 데이터 열을 식별하기 위해 다음과 같은 추가 제목 규칙을 지원합니다.
 

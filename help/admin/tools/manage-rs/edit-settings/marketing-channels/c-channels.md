@@ -6,19 +6,11 @@ feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 role: Admin
 TQID: 'https://experienceleague.adobe.com/iA1x22LASs8YEFNmh1lgy0cr6pggrW9kI9Qd-S2JlvI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 746
@@ -89,7 +81,7 @@ ht-degree: 100%
 |--- |--- |
 | 활성화됨 | 이 마케팅 채널을 활성 또는 비활성화합니다. |
 | 채널 이름 | 마케팅 채널에 대한 알기 쉬운 이름입니다. |
-| 마지막 접촉 채널 무시 | 영구적인 기존의 마지막 접촉 채널을 선택한 채널로 대체할지 여부를 선택할 수 있습니다. 이 확인란을 선택하면 모든 채널(직접 및 내부 포함)이 기존 마지막 접촉 채널을 덮어씁니다. 크레딧을 받은 자격이 없는 채널이 전환되는 문제가 발생할 수 있습니다. 예를 들어 이 옵션은 자연어 검색 채널을 통해 사용자를 이미 획득한 경우, 직접 채널이 전환 크레딧을 받지 못하도록 할 수 있습니다. |
+| 마지막 접촉 채널 무시 | 영구적인 기존 마지막 접촉 채널을 선택한 채널로 재정의할지 여부를 선택할 수 있습니다. 이 확인란을 선택하면 모든 채널(직접 및 내부 포함)이 기존 마지막 접촉 채널을 덮어씁니다. 그 결과 크레딧을 받을 자격이 없을 수도 있는 채널에 전환이 귀속될 수 있습니다. 예를 들어 이 옵션은 자연어 검색 채널을 통해 사용자를 이미 획득한 경우, 직접 채널이 전환 크레딧을 받지 못하도록 할 수 있습니다. |
 | 채널 분류 | 이 값을 기준으로 채널을 분류할 수 있습니다. [마케팅 채널 분류](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)를 만들 때 가능한 채널 분류(하위 채널)를 추가할 수 있습니다. |
 | 유형 | 사용자를 사이트로 인도한 방식을 지정합니다. 온라인 또는 오프라인을 선택할 수 있습니다. 검색 엔진 또는 이메일 캠페인을 통해 방문한 방문자에 대해 온라인 채널을 사용합니다. 오프라인 채널은 신문 쿠폰이나 잡지 광고를 보고 사이트를 방문한 방문자에게 적용됩니다. 오프라인 채널에는 일반적으로 보고 데이터 소스를 통해 가져온 데이터가 포함됩니다. [데이터 소스](/help/import/data-sources/overview.md)를 참조하십시오. [오프라인 데이터 추가](/help/components/c-marketing-channels/c-getting-started-mchannel.md)를 참조하십시오. |
 
@@ -107,6 +99,6 @@ Adobe는 [자동 설정](/help/components/c-marketing-channels/c-getting-started
 
 >[!NOTE]
 >
->Adobe에서는 테스트 목적의 템플릿으로 사용할 수 있도록 보고서 세트에서 보고서를 설정할 것을 권장합니다. 템플릿을 사용하여 하나 이상의 프로덕션 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
+>Adobe에서는 테스트 목적으로 템플릿으로 사용할 수 있는 보고서 세트에서 보고서를 설정할 것을 권장합니다. 템플릿을 사용하여 하나 이상의 프로덕션 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
 >
 >[여러 보고서 세트에 템플릿 보고서 세트 설정 적용](/help/components/c-marketing-channels/c-getting-started-mchannel.md)을 참조하십시오.

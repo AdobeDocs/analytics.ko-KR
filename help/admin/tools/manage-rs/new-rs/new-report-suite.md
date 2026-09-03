@@ -5,20 +5,11 @@ feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 TQID: https://experienceleague.adobe.com/9wZ2rIgzZtJduhFAx6XcD53H2qzB2SZMr0pbxCopBvk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 541
@@ -38,7 +29,7 @@ ht-degree: 84%
 
 | 요소 | 설명 |
 | --- | --- |
-| 보고서 세트 ID | 영숫자만 포함할 수 있는 고유 ID를 지정합니다. 이 ID는 만들어진 후에는 변경할 수 없습니다. Adobe가 필수 ID 접두사를 설정하므로 어느 것도 변경할 수 없습니다.  여러 보고서 세트를 생성할 경우, 고유한 보고서 세트 ID를 보장할 수 있는 이름 지정 규칙을 사용해야 합니다. |
+| 보고서 세트 ID | 영숫자만 포함할 수 있는 고유 ID를 지정합니다. 이 ID는 만들어진 후에는 변경할 수 없습니다. Adobe가 필수 ID 접두사를 설정하며, 이 접두사도 변경할 수 없습니다.  여러 보고서 세트를 생성할 경우, 고유한 보고서 세트 ID를 보장할 수 있는 이름 지정 규칙을 사용해야 합니다. |
 | 사이트 제목 | 관리 도구에서 보고서 세트를 식별합니다. 이 제목은 세트 헤더의 보고서 세트 드롭다운 목록에서도 사용됩니다. |
 | 시간대 | 이벤트 및 타임스탬프 데이터를 예약합니다. |
 | 기본 URL | (선택 사항) 보고서 세트의 기본 도메인을 정의합니다. 이 URL은 보고서 세트에 대한 내부 URL 필터를 명시적으로 정의하지 않는 경우 내부 URL 필터로 작동합니다. |

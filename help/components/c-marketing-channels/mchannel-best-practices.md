@@ -1,21 +1,14 @@
 ---
 title: Adobe Analytics 마케팅 채널 구현을 위한 모범 사례
-description: 업데이트된 Attribution 및 Customer Journey Analytics와 함께 마케팅 채널을 사용하기 위한 모범 사례
+description: 업데이트된 기여도 및 Customer Journey Analytics와 함께 마케팅 채널을 사용하기 위한 모범 사례
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
 TQID: https://experienceleague.adobe.com/mKq-l0nm-MFJjcvWoIwUfQ2QM-dYD6VlcfH-CszsUv8
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 669
@@ -23,29 +16,29 @@ ht-degree: 78%
 
 ---
 
-# 속성과 마케팅 채널 - 모범 사례
+# 기여도와 마케팅 채널 - 모범 사례
 
-[마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 관한 현재 지침은 [속성](/help/analyze/analysis-workspace/attribution/overview.md) 또는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko#cja-usecases)가 존재하지 않았을 때 작성되었습니다.
+[마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 관한 현재 지침은 [속성](/help/analyze/analysis-workspace/attribution/overview.md) 또는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases)가 존재하지 않았을 때 작성되었습니다.
 
-마케팅 채널 구현의 미래를 보장하고 Attribution 및 Customer Journey Analytics와의 보고 일관성을 보장하기 위해 Adobe는 업데이트된 모범 사례 세트를 발표하고 있습니다. 이미 마케팅 채널을 사용하고 있는 경우 이러한 새로운 지침 중에서 최상의 옵션을 선택할 수 있습니다. 마케팅 채널을 처음 사용하는 경우 모든 새로운 모범 사례를 준수하는 것이 좋습니다.
+마케팅 채널 구현의 미래를 보장하고 기여도 및 Customer Journey Analytics와의 보고 일관성을 보장하기 위해 Adobe는 업데이트된 모범 사례 세트를 발표하고 있습니다. 이미 마케팅 채널을 사용하고 있는 경우 이러한 새로운 지침 중에서 최상의 옵션을 선택할 수 있습니다. 마케팅 채널을 처음 사용하는 경우 모든 새로운 모범 사례를 준수하는 것이 좋습니다.
 
-마케팅 채널이 처음 도입되었을 때는 첫 번째 접점 차원과 마지막 접점 차원에서만 제공되었습니다. 현재 버전의 속성을 사용할 경우 명확한 첫 번째/마지막 접촉 차원이 더 이상 필요하지 않습니다. Adobe는 일반 &#39;마케팅 채널&#39; 및 &#39;마케팅 채널 세부 정보&#39; 차원을 제공하므로 원하는 속성 모델과 함께 사용할 수 있습니다. 이러한 일반 차원은 마지막 접점 채널 차원과 동일하게 작동하지만 다른 속성 모델과 함께 마케팅 채널을 사용할 때 혼동을 방지하기 위해 레이블이 다르게 지정됩니다.
+마케팅 채널이 처음 도입되었을 때는 첫 번째 접점 차원과 마지막 접점 차원에서만 제공되었습니다. 현재 버전의 속성을 사용할 경우 명확한 첫 번째/마지막 접촉 차원이 더 이상 필요하지 않습니다. Adobe는 일반 &#39;마케팅 채널&#39; 및 &#39;마케팅 채널 세부 정보&#39; 차원을 제공하므로 원하는 기여도 모델과 함께 사용할 수 있습니다. 이러한 일반 차원은 마지막 접점 채널 차원과 동일하게 작동하지만 다른 기여도 모델과 함께 마케팅 채널을 사용할 때 혼동을 방지하기 위해 레이블이 다르게 지정됩니다.
 
-마케팅 채널 차원은 기존 방문 정의 (처리 규칙으로 정의됨)에 따라 다르므로 이 차원의 방문 정의는 가상 보고서 세트를 사용하여 변경할 수 없습니다. 이러한 수정된 사례는 기여도 분석과 Adobe Analytics을 통해 명확하고 통제된 전환 확인 기간을 사용할 수 있습니다.
+마케팅 채널 차원은 기존 방문 정의(처리 규칙으로 정의됨)에 따라 다르므로 이 차원의 방문 정의는 가상 보고서 세트를 사용하여 변경할 수 없습니다. 이러한 수정된 사례는 기여도 분석과 Adobe Analytics을 통해 명확하고 통제된 전환 확인 기간을 사용할 수 있습니다.
 
-## 모범 사례 #1: 통제된 분석을 위해 속성 활용
+## 모범 사례 #1: 통제된 분석을 위해 기여도 활용
 
-기존 마케팅 채널 속성 대신 [속성](/help/analyze/analysis-workspace/attribution/overview.md)을 사용하여 마케팅 채널 분석을 미세 조정하는 것이 좋습니다. 속성을 사용한 분석에 대한 일관성과 강력한 통제력을 보장하기 위해 다른 모범 사례에 따르십시오.
+기존 마케팅 채널 속성 대신 [속성](/help/analyze/analysis-workspace/attribution/overview.md)을 사용하여 마케팅 채널 분석을 미세 조정하는 것이 좋습니다. 기여도를 사용한 분석에 대한 일관성과 강력한 통제력을 보장하기 위해 다른 모범 사례에 따르십시오.
 
 ![](assets/attribution.png)
 
-* 차원 마케팅 채널 및 마케팅 채널 세부 정보의 구성은 각 마케팅 채널 인스턴스에 해당하는 터치포인트를 설정하여 평가합니다.
+* 마케팅 채널 및 마케팅 채널 세부 정보 차원의 구성은 각 마케팅 채널 인스턴스에 해당하는 평가 대상 터치포인트를 설정합니다.
 * 지표 분석의 경우 조직에서 하나 이상의 속성 모델에 맞춰 조정해야 합니다. 쉽게 재사용할 수 있도록 이 모델을 사용하여 사용자 지정 지표를 저장합니다.
 * 기본적으로 데이터는 마지막 접점 및 방문자 참여 기간 설정을 사용하여 할당됩니다. 속성 지표 모델을 [알고리즘 속성](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace)를 포함하여 전환 확인 기간에 대한 더 큰 통제력과 더 많은 다양성을 제공합니다.
 
 ## 모범 사례 #2: 직접 및 세션 새로 고침 채널 정의 없음
 
-직접 및 내부/세션 새로 고침 채널은 사용자 정의 속성 모델(속성)과 함께 사용하지 않는 것이 좋습니다.
+직접 및 내부/세션 새로 고침 채널은 사용자 정의 기여도 모델과 함께 사용하지 않는 것이 좋습니다.
 
 조직에 이미 직접 및 세션 새로 고침이 구성되어 있는 경우 어떻게 합니까? 이 경우 Adobe에서는 첫 번째 터치/마지막 터치에 대해 [분류를 만들고](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) 직접 및 세션 새로 고침 채널은 분류되지 않은 상태로 두는 것이 좋습니다. 분류된 차원은 해당 채널이 구성된 적이 없는 경우와 유사한 기여도 분석 결과를 산출합니다.
 
@@ -57,13 +50,13 @@ ht-degree: 78%
 
 ## 모범 사례 #3: 모든 채널에 대해 마지막 접점 채널 재정의 활성화
 
-Workspace에서 마케팅 채널 차원과 함께 사용되는 사용자 정의 속성 모델은 이 설정이 활성화된 경우 가장 잘 작동합니다. 이 설정을 활성화하면 새 채널/세부 정보가 발견될 때 마케팅 채널 인스턴스가 계산됩니다. 사용자 정의 속성 모델과 함께 사용하는 것이 더 이상 권장되지 않는 직접 또는 내부/세션 새로 고침을 제외한 모든 채널에 대해 이 기능을 활성화해야 합니다.
+Workspace에서 마케팅 채널 차원과 함께 사용되는 사용자 정의 속성 모델은 이 설정이 활성화된 경우 가장 잘 작동합니다. 이 설정을 활성화하면 새 채널/세부 정보가 발견될 때 마케팅 채널 인스턴스가 계산됩니다. 사용자 정의 기여도 모델과 함께 사용하는 것이 더 이상 권장되지 않는 직접 또는 내부/세션 새로 고침을 제외한 모든 채널에 대해 이 기능을 활성화해야 합니다.
 
 ![](assets/override.png)
 
 ## 모범 사례 #4: 방문자 참여 기간 최소화
 
-방문자 참여 기간을 최소 “1일”로 설정하면 값이 지속될 가능성이 최소화됩니다. 사용자 정의 속성 모델(AIQ)은 유연한 전환 확인 기간을 허용하므로 이 설정의 영향을 최소화하기 위해 최소값을 설정하는 것이 좋습니다.
+방문자 참여 기간을 최소 “1일”로 설정하면 값이 지속될 가능성이 최소화됩니다. 사용자 정의 기여도 모델(AIQ)은 유연한 전환 확인 기간을 허용하므로 이 설정의 영향을 최소화하기 위해 최소값을 설정하는 것이 좋습니다.
 
 ![](assets/expiration.png)
 

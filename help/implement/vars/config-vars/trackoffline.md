@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/6VDAO0-QMXqia2Ddy1uPcxnTrlJi49B8zjaLcC0HawU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 283
@@ -40,8 +32,8 @@ ht-degree: 89%
 * 이미지 요청을 컴파일할 때 타임스탬프 쿼리 문자열 매개 변수가 포함됩니다.
 * 디바이스가 Adobe 데이터 수집 서버에 연결할 수 없는 경우 히트는 디바이스에 로컬로 저장됩니다.
 * 이후 각 히트 동안 AppMeasurement는 이미지 요청을 Adobe에 전송하려고 시도합니다.
-   * Adobe 데이터 수집 서버에 연결할 수 없는 경우 히트는 디바이스의 큐에 추가됩니다.
-   * Adobe 데이터 수집 서버에 도달할 수 있는 경우에는 디바이스가 오프라인일 때 히트와 히트 큐가 전송됩니다.
+  * Adobe 데이터 수집 서버에 연결할 수 없는 경우 히트는 디바이스의 큐에 추가됩니다.
+  * Adobe 데이터 수집 서버에 도달할 수 있는 경우에는 디바이스가 오프라인일 때 히트와 히트 큐가 전송됩니다.
 
 ## 웹 SDK을 사용한 오프라인 추적
 

@@ -1,24 +1,15 @@
 ---
 title: 함수 및 메서드
-description: Adobe가 구현에서 제공하는 함수와 메서드를 사용할 수 있는 방법을 알아봅니다.
+description: 구현에서 Adobe가 제공하는 함수와 메서드를 사용할 수 있는 방법을 알아봅니다.
 feature: Appmeasurement Implementation
 exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/dKPvTPeRa7-SIFyIDU-7Mlob-3jsrfvhWmKeAveHGEc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: c8add8f2-4250-4fd9-9cde-9707036c567did: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 142
@@ -28,7 +19,7 @@ ht-degree: 100%
 
 # 함수 및 메서드
 
-Adobe는 구현에 사용할 수 있는 몇 가지 함수와 메서드를 제공합니다. 이러한 함수 또는 메서드를 참조할 때 단일 코드 행을 사용하여 일반적인 작업을 수행합니다.
+Adobe는 구현에 사용할 수 있는 몇 가지 함수와 메서드를 제공합니다. 이러한 함수 또는 메서드를 참조하면 한 줄의 코드로 일반적인 작업을 수행합니다.
 
 이러한 단일 코드 행 중 일부는 다음 범주에 속합니다.
 

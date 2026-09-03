@@ -5,21 +5,11 @@ feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
 TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 583
@@ -36,7 +26,7 @@ ht-degree: 98%
 1. [추적 코드 데이터를 포함하도록 Adobe Analytics 구현 설정 또는 조정](#include-campaign-variables-in-your-implementation)
 1. [Analysis Workspace에서 보고서 보기](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/kr/products/campaign/adobe-campaign.html)은 이러한 각 단계를 단순화하여 마케팅 활동에서 최대한의 가치를 이끌어내는 데 도움이 될 수 있습니다. 자세한 내용은 Adobe 영업 담당자에게 문의하십시오.
+[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html)은 이러한 각 단계를 단순화하여 마케팅 활동에서 최대한의 가치를 이끌어내는 데 도움이 될 수 있습니다. 자세한 내용은 Adobe 영업 담당자에게 문의하십시오.
 
 ## 추적 코드 생성 프로세스 설정
 

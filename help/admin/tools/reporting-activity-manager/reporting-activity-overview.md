@@ -5,18 +5,11 @@ feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
 TQID: 'https://experienceleague.adobe.com/ooOVEtcjfU99QHDkVKE3DDEWHkkcvScBtpL6SFE7POc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: e499b847-6dc4-408a-9f0b-70d35ce9b711
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: e499b847-6dc4-408a-9f0b-70d35ce9b711
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 264
@@ -35,7 +28,7 @@ ht-degree: 100%
 * 조직 내 각 보고서 세트에 대한 보고 용량을 모니터링하고 관리할 수 있습니다.
 * 보고서 세트 전체에 걸쳐 실시간으로 현재 보고 용량에 대해 알려 줍니다.
 * 대기열에 있거나 진행 중인지 여부에 관계없이 현재 보고 요청에 대해 상세한 보고서 정보를 제공합니다.
-* 용량을 확보하기 위해 일부 보고 요청의 우선순위를 지정하고 다른 보고 요청을 취소하여 보고 대기열을 최적화하도록 해 줍니다. 이 보고서는 다음과 같은 질문에 대한 답을 제공합니다. 이 보고서가 지금 필요합니까, 아니면 더 긴급한 보고서를 위해 취소할 수 있습니까?
+* 용량을 확보하기 위해 일부 보고 요청의 우선순위를 지정하고 다른 보고 요청을 취소하여 보고 대기열을 최적화하도록 해 줍니다. 이는 다음과 같은 질문에 대한 답을 제공합니다. 이 보고서가 지금 필요합니까, 아니면 더 긴급한 보고서를 위해 취소할 수 있습니까?
 * 지정된 기간 동안의 향후 요청을 제한할 수 있습니다. 특정 요청을 제한할 수도 있고, 특정 사용자의 요청이나 특정 프로젝트와 관련된 모든 요청을 제한할 수도 있습니다.
 
 ## 권한

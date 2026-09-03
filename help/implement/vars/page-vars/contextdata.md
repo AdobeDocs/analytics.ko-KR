@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/cjYWsTTkNg9zSeHux-iN17ewd80Wg4LGFZcxHTqboUE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 601
@@ -29,7 +21,7 @@ ht-degree: 64%
 
 컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽을 수 있는 각 페이지에서 사용자 정의 변수를 정의할 수 있습니다. 코드에서 값을 Analytics 변수에 명시적으로 할당하는 대신 컨텍스트 데이터 변수에 데이터를 보낼 수 있습니다. 그러면 처리 규칙이 컨텍스트 데이터 변수 값을 가져와 각 Analytics 변수에 전달합니다. 관리자 사용 안내서의 [처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)을 참조하십시오.
 
-컨텍스트 데이터 변수는 개발 팀이 번호가 매겨진 변수 대신 명명된 요소의 데이터를 수집하는 데 유용합니다. 예를 들어 개발 팀에게 페이지의 작성자를 `eVar10`에 할당하도록 요청하는 대신 `s.contextData["author"]`에 할당하도록 요청할 수 있습니다. 그런 다음 조직의 Analytics 관리자는 처리 규칙을 만들어 컨텍스트 데이터 변수를 보고를 위한 분석 변수에 매핑할 수 있습니다. 개발 팀은 궁극적으로 Adobe이 제공하는 많은 페이지 변수 대신 컨텍스트 데이터 변수만 걱정하게 됩니다.
+컨텍스트 데이터 변수는 개발 팀이 번호가 매겨진 변수 대신 명명된 요소에서 데이터를 수집하는 데 유용합니다. 예를 들어 개발 팀에게 페이지의 작성자를 `eVar10`에 할당하도록 요청하는 대신 `s.contextData["author"]`에 할당하도록 요청할 수 있습니다. 그런 다음 조직의 Analytics 관리자는 처리 규칙을 만들어 컨텍스트 데이터 변수를 보고를 위한 분석 변수에 매핑할 수 있습니다. 개발 팀은 궁극적으로 Adobe이 제공하는 많은 페이지 변수 대신 컨텍스트 데이터 변수만 걱정하게 됩니다.
 
 키 및 값을 포함하여 결합된 모든 컨텍스트 데이터 변수의 최대 크기는 32KB입니다.
 
@@ -58,7 +50,7 @@ alloy("sendEvent", {
 
 ## Adobe Analytics 확장을 사용한 컨텍스트 데이터 변수
 
-Adobe Experience Platform 데이터 수집에는 컨텍스트 데이터 변수를 설정하는 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
+Adobe Experience Platform 데이터 수집에는 컨텍스트 데이터 변수를 설정하는 전용 필드가 없습니다. AppMeasurement 구문에 따라 사용자 정의 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.contextData
 
@@ -86,7 +78,7 @@ s.contextData["example_variable"] = "Example value";
 4. Analytics 변수를 컨텍스트 데이터 변수 값으로 설정하는 처리 규칙을 만듭니다.
 5. 변경 사항을 저장합니다.
 
-처리 규칙은 저장 후 즉시 적용됩니다. 이전 데이터에는 적용되지 않습니다.
+처리 규칙은 저장 후 즉시 적용됩니다. 내역 데이터에는 적용되지 않습니다.
 
 ## 링크 추적 호출에서 컨텍스트 데이터 보내기
 

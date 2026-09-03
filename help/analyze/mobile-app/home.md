@@ -5,20 +5,11 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 TQID: https://experienceleague.adobe.com/Zm19V8KugWZqEC1g-HcUM4kV9hXA4ksNGYhZS9c-KQw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 231
@@ -34,11 +25,11 @@ Adobe Analytics [!UICONTROL 대시보드]에대한 자세한 내용은 다음 �
 
 * [큐레이터 리소스](/help/analyze/mobile-app/curator.md): 데이터 큐레이터가 [!UICONTROL 대시보드]에서 경영진 사용자를 위해 스코어카드를 구성할 수 있도록 지원하기 위한 것입니다. 큐레이터는 조직 관리자이거나 스코어카드 설정을 담당하는 다른 역할의 사람일 수 있습니다.
 
-   * [스코어카드 만들기](/help/analyze/mobile-app/create-scorecard.md)
-   * [앱 설정 및 앱 사용에 대한 경영진 지원](/help/analyze/mobile-app/set-up-execs.md)
-   * 큐레이션 경험에 대한 비디오 개요를 보려면 [Adobe Analytics 대시보드 스코어카드 빌더](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=ko-KR)를 참조하십시오.
+  * [스코어카드 만들기](/help/analyze/mobile-app/create-scorecard.md)
+  * [앱 설정 및 앱 사용에 대한 경영진 지원](/help/analyze/mobile-app/set-up-execs.md)
+  * 큐레이션 경험에 대한 비디오 개요를 보려면 [Adobe Analytics 대시보드 스코어카드 빌더](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=ko-KR)를 참조하십시오.
 
 
 * [경영진 사용자 빠른 시작 안내서](/help/analyze/mobile-app/executive.md): 이 안내서는 경영진 사용자가 [!UICONTROL 대시보드]에서 스코어카드를 읽고 해석할 수 있도록 돕기 위한 것입니다. 이 앱을 사용하면 보유한 모바일 디바이스에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다.
 
-   * 이 정보를 강조하는 비디오는 [Adobe Analytics 대시보드 인앱 경험](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=ko-KR)을 참조하십시오.
+  * 이 정보를 강조하는 비디오는 [Adobe Analytics 대시보드 인앱 경험](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=ko-KR)을 참조하십시오.

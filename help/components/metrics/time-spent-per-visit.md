@@ -4,16 +4,10 @@ description: 차원 항목에 대한 방문당 체류 시간입니다.
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 TQID: https://experienceleague.adobe.com/X1RtHTTmu0VIblFC3jANE7d6bIbtm4W5OvqFZDp8bLE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 263
@@ -33,14 +27,14 @@ ht-degree: 90%
 
 이 지표는 [`[Total seconds spent]`](total-seconds-spent.md) `divided by (`[`[Visits]`](visits.md) `minus` [`[Bounces]`](bounces.md)`)` 공식을 사용합니다.
 
-## 사이트의 평균 시간과 비교
+## 사이트에서 보낸 평균 시간과 비교
 
-이 지표와 [사이트의 평균 시간](average-time-on-site.md)은 비슷하지만 몇 가지 주요 차이점이 있습니다. 두 지표 모두 &#39;총 체류 시간 (초)&#39;을 분자로 사용하지만, 사이트의 평균 시간은 차원 항목을 분모로 포함하는 시퀀스를 사용합니다. 반면에 방문당 체류 시간은 방문 횟수를 분모로 사용합니다.
+이 지표와 [사이트의 평균 시간](average-time-on-site.md)은 비슷하지만 몇 가지 주요 차이점이 있습니다. 두 지표 모두 &#39;총 체류 시간 (초)&#39;을 분자로 사용하지만, &#39;사이트에서 보낸 평균 시간&#39;은 차원 항목을 분모로 포함하는 시퀀스를 사용합니다. 반면에 방문당 체류 시간은 방문 횟수를 분모로 사용합니다.
 
 따라서, 이 지표들은 방문 수준에서는 비슷한 결과를 산출하지만 히트 수준에서는 다릅니다.
 
 ## 100%를 넘는 백분율
 
-이 지표에는 100%를 넘는 백분율이 자주 포함됩니다. 분모는 전체 차원의 방문당 체류 시간이고 분자는 차원 항목의 방문당 체류 시간입니다. 전체 차원의 방문당 체류 시간이 주어진 차원 항목의 방문당 체류 시간보다 낮은 경우 백분율이 100%보다 높게 표시됩니다. 이 지표로 등급 보고서를 정렬하면 예외적인 방문당 체류 시간 값이 표시되는데, 이는 일반적으로 중요하지 않습니다. Adobe에서는 등급 보고서에서 [방문 횟수](visits.md)와 같은 다른 지표로 정렬하는 것을 권장합니다.
+이 지표에는 100%를 넘는 백분율이 자주 포함됩니다. 분모는 전체 차원의 방문당 체류 시간이고 분자는 차원 항목의 방문당 체류 시간입니다. 전체 차원의 방문당 체류 시간이 주어진 차원 항목의 방문당 체류 시간보다 낮은 경우 백분율이 100%보다 높게 표시됩니다. 이 지표로 등급 보고서를 정렬하면 비정상적인 방문당 체류 시간 값이 표시되는데, 이는 일반적으로 중요하지 않습니다. Adobe에서는 등급 보고서에서 [방문 횟수](visits.md)와 같은 다른 지표로 정렬하는 것을 권장합니다.
 
 체류 시간에 대한 일반적인 정보가 필요하면 [체류 시간 개요](time-spent.md)를 참조하십시오.

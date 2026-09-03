@@ -1,27 +1,15 @@
 ---
-description: 웹 페이지 트래픽을 표시하며 실시간으로 페이지 조회수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
+description: 웹 페이지 트래픽을 표시하고 페이지 조회수를 실시간으로 순위를 매깁니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
 title: 실시간 보고 개요
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
 TQID: https://experienceleague.adobe.com/2QizNDKGlAUqX7IbHANm-nGMicLXDfKSnl7nYGkETxQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 633
@@ -51,7 +39,7 @@ ht-degree: 60%
 
 ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report-realtime.png)
 
-대시보드는 동적 뉴스 및 소매 웹 사이트의 트래픽 및 페이지 보기 트렌드를 시각적으로 보고하기 위해 Adobe Analytics의 빈도가 높은 지표 및 사이트 분석을 포함합니다. 실시간은 모음이 발생하자 마자 분 단위로 데이터의 트렌드를 파악합니다. 콘텐츠의 실시간 상관 관계와 추적 및 일부 전환을 사용하여 데이터를 수집하고 자동 업데이트 UI에 스트리밍합니다.
+대시보드는 동적 뉴스 및 소매 웹 사이트의 트래픽 및 페이지 보기 트렌드를 시각적으로 보고하기 위해 Adobe Analytics의 빈도가 높은 지표 및 사이트 분석을 포함합니다. 실시간은 데이터가 수집된 후 몇 초 이내에 분 단위로 데이터의 트렌드를 파악합니다. 콘텐츠의 실시간 상관 관계와 추적 및 일부 전환을 사용하여 데이터를 수집하고 자동 업데이트 UI에 스트리밍합니다.
 
 가장 일반적인 사용 시나리오 중 두 가지에는 사용자 활동 변경에 따라 스토리를 홍보/강등하려는 게시자와 새 제품 라인의 출시를 추적하려는 마케터가 포함됩니다.
 
@@ -69,9 +57,9 @@ ht-degree: 60%
 
 * 예를 들면 지난 주의 값을 작년 값 (및 오늘 합계)과 비교합니다.
 
-지속성 개념이 없으므로 eVar (전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 차원과 동일한 페이지에서 설정되어 있는 경우에만 작동합니다. 자세한 내용은 [실시간 보고서 설정](/help/components/c-real-time-reporting/t-realtime-admin.md)에서 캡처한 경고 메시지를 참조하십시오.
+지속성 개념이 없으므로 eVar (전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수는 있지만, 전환 지표는 차원과 동일한 페이지에서 설정된 경우에만 작동합니다. 자세한 내용은 [실시간 보고서 설정](/help/components/c-real-time-reporting/t-realtime-admin.md)에서 캡처한 경고 메시지를 참조하십시오.
 
-실시간 보고서를 설정하고 보는 것은 관리자와 &quot;모든 보고서 액세스&quot; 및 &quot;고급 보고&quot; 권한 그룹의 사용자에게로 제한됩니다. 하지만, 실시간 보고서는 권한을 준수합니다. 예를 들어 수입을 볼 수 있는 권한이 없는 경우 수입 데이터가 포함된 실시간 보고서를 볼 수 없습니다.
+실시간 보고서를 설정하고 보는 것은 관리자와 &quot;모든 보고서 액세스&quot; 및 &quot;고급 보고&quot; 권한 그룹의 사용자로 제한됩니다. 하지만, 실시간 보고서는 권한을 준수합니다. 예를 들어 수입을 볼 수 있는 권한이 없는 경우 수입 데이터가 포함된 실시간 보고서를 볼 수 없습니다.
 
 ## A4T 구성 결과로 데이터 지연 {#latency-a4t}
 

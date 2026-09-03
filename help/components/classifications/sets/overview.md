@@ -4,16 +4,10 @@ description: 분류 세트를 사용하여 분류 데이터를 관리하는 방�
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
 TQID: https://experienceleague.adobe.com/e0kjSA-GjsEVp9Qd-sblXdq4uvwgcUGdmeTtrEUIOjM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 905
@@ -28,7 +22,7 @@ ht-degree: 100%
 
 ## 분류 세트 및 이전 분류
 
-분류 세트와 이전 분류의 주요 차이점은 이전 분류가 세 가지 인터페이스에 의존하는 하나의 인터페이스에서 모든 기능을 결합한다는 점입니다.
+분류 세트와 이전 분류의 주요 차이점은 분류 세트는 모든 기능을 하나의 인터페이스에 결합하는 반면, 이전 분류는 세 가지 인터페이스에 의존한다는 점입니다.
 
 ### 이전 분류
 
@@ -125,7 +119,7 @@ Adobe Analytics 인터페이스의 **[!UICONTROL 구성 요소]** 메뉴에서 *
 * 분류를 관리하기 위해 사용자 인터페이스 재설계.
 * [분류 데이터용 Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/kr/docs/experience-platform/sources/connectors/adobe-applications/classifications)를 통해 Adobe Experience Platform에서 분류 데이터를 사용하는 옵션.
 
-또한 분류 세트와 함께 출시된 백엔드 아키텍처에는 몇 가지 개선 사항이 포함되어 있습니다.
+또한 분류 세트와 함께 출시된 백엔드 아키텍처에는 몇 가지 변경 사항이 포함되어 있습니다.
 
 * 브라우저 또는 자동화된 가져오기를 사용하는 경우, **[!UICONTROL 충돌 시 덮어쓰기]**&#x200B;가 항상 활성화됩니다.
 * 브라우저 또는 자동화된 가져오기를 사용할 때 가져오기 직후 내보내기 옵션은 더 이상 지원되지 않습니다. 내보내기는 별도로 시작해야 합니다.

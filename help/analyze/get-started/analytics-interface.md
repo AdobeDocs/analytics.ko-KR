@@ -4,27 +4,10 @@ title: Analytics 인터페이스 이해
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c457b289-f974-4a67-a5b6-dec3ffa77675
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1993
@@ -68,10 +51,10 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    | 제품 기능 | 함수 | 추가 정보 |
    |---------|----------|----------|
    | 세그먼트 | Adobe Analytics을 사용하면 Analytics 기능, Adobe CX Enterprise, Adobe Target 및 기타 통합 Adobe 제품을 사용하여 강력하고 집중적인 대상 세그먼트를 작성하고 관리하고 공유하고 보고서에 적용할 수 있습니다. | [Analytics 세분화](/help/components/segmentation/seg-home.md) |
-   | 계산된 지표 | 계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 정의 지표입니다.  이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 Analytics 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. | [계산된 지표 및 고급 계산된 지표](/help/components/calculated-metrics/cm-overview.md) |
+   | 계산된 지표 | 계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 정의 지표입니다.  마케터, 제품 관리자 및 분석가는 Analytics 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. | [계산된 지표 및 고급 계산된 지표](/help/components/calculated-metrics/cm-overview.md) |
    | 날짜 범위 | Analysis Workspace에는 사용자가 분석을 빌드할 때 사용할 수 있는 기본 날짜 범위 목록이 포함되어 있습니다. 또한 사용자 정의 날짜 범위를 만들고 Analysis Workspace에서 사용자가 사용할 수 있도록 설정할 수 있습니다. | [사용자 정의 날짜 범위 만들기](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 가상 보고서 세트 | 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼트로 분할하므로 각 세그먼트에 대한 액세스를 제어할 수 있습니다. | [가상 보고서 세트 개요](/help/components/vrs/vrs-about.md) |
-   | 경고 | 경고 기능은 경고를 더욱 세밀하게 제어할 수 있도록 해 주며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다. | [경고 개요](/help/components/alerts/alerts-overview.md) |
+   | 경고 | 경고를 사용하면 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지가 경고 시스템과 통합됩니다. | [경고 개요](/help/components/alerts/alerts-overview.md) |
    | 주석 | 작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 인사이트를 조직에 효과적으로 전달할 수 있습니다. 캘린더 이벤트를 특정 차원 및 지표에 연결할 수 있습니다. | [주석 관리](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md) |
    | 분류 세트 | 분류 세트는 분류 및 규칙을 관리할 수 있는 단일 인터페이스를 제공합니다. <p>분류란 Analytics 변수 데이터를 카테고리별로 분류하여 보고서를 생성할 때 여러 다른 방법으로 데이터를 표시하는 방법입니다. 변수 값 및 해당 값과 관련된 메타데이터 간의 관계를 설정합니다. 추적 코드, Prop 및 eVar와 같은 대부분의 사용자 정의 차원에서 분류를 사용할 수 있습니다.</p> | [분류 세트 개요](/help/components/classifications/sets/overview.md) |
    | 위치 | 클라우드 대상에서 Adobe Analytics 분류 데이터를 가져오려면 먼저 분류 데이터를 수집할 위치를 추가하고 구성해야 합니다. 위치를 만들고, 편집하거나 삭제할 수 있습니다. | [위치 관리자](/help/components/locations/locations-manager.md) |
@@ -95,12 +78,12 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    | 제품 기능 | 함수 | 추가 정보 |
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 정의 보고서에 대한 Analytics 데이터 사본을 의미합니다. <p>요청 관리자에서 요청을 보고, 복제하고, 요청의 우선순위를 변경할 수 있습니다.</p> | [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
-   | Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크에 대한 등급을 지정하고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상자 참여를 모니터링하도록 설계되었습니다. 이를 통해 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고, 대상자의 필요 사항과 행동에 따라 대응할 수 있습니다. | [Activity Map 개요](/help/analyze/activity-map/overview.md) |
-   | 추천 Classic | 추천은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자의 흥미를 끌 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시하는 Adobe Target 기능입니다. | [추천](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=ko) |
+   | Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크 활동의 순위를 매기고 웹 페이지의 대상자 참여를 모니터링할 수 있는 실시간 분석 대시보드를 제공하도록 설계되었습니다. 이를 통해 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고, 대상자의 필요 사항과 행동에 따라 대응할 수 있습니다. | [Activity Map 개요](/help/analyze/activity-map/overview.md) |
+   | 추천 Classic | 추천은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자가 관심을 가질 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시하는 Adobe Target 기능입니다. | [추천](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 이 기능은 더 이상 지원되지 않습니다. |  |
    | 모바일 서비스 | 이 기능은 더 이상 지원되지 않습니다. |  |
    | Analytics 대시보드 (모바일 앱) | Adobe Analytics 대시보드 앱은 언제 어디서나 Adobe Analytics를 통해 인사이트를 제공합니다. 사용자는 앱을 통해 Adobe Analytics 데스크탑 UI를 사용하여 만든 직관적인 스코어카드를 볼 수 있습니다. | iOS App Store 또는 Google Play 스토어의 Adobe Analytics 대시보드 앱 |
-   | Report Builder | Adobe Report Builder는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터로 만들어진 맞춤화된 요청을 작성할 수 있고 이러한 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder란 무엇입니까?](/help/analyze/report-builder/rb-overview.md) |
+   | Report Builder | Adobe Report Builder는 Microsoft Excel용 추가 기능입니다. Adobe Analytics 데이터를 사용하여 맞춤형 요청을 작성할 수 있으며, 이러한 요청을 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. | [Report Builder란 무엇입니까?](/help/analyze/report-builder/rb-overview.md) |
 
    {style="table-layout:auto"}
 
@@ -123,22 +106,22 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    | 보고서 세트 액세스 | 보고서 세트 도구에 대한 액세스 권한을 부여하는 방법이 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자를 위한 보고서 세트 액세스 권한을 부여합니다. | [보고서 세트 도구에 대한 제품 프로필 권한](/help/admin/admin-console/permissions/report-suite-tools.md) |
    | 관리 도구 홈 | Analytics 관리 도구 영역은 Adobe Analytics 인스턴스를 관리하기 위한 기본 영역입니다. 이곳에서 대부분의 관리 작업을 수행할 수 있습니다. | [관리 도구 개요](/help/admin/tools/c-admin-tools.md) |
    | 보고서 세트 | 보고서 세트에서의 데이터 처리 방법을 제어하는 규칙을 정의해 보십시오. | [보고서 세트 관리자](/help/admin/tools/manage-rs/report-suites-admin.md) |
-   | Analytics 사용자 및 자산 | 사용자 및 자산 관리 기능은 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자를 위한 사용자 권한 관리를 시작하십시오. | [Adobe Admin Console의 Analytics](/help/admin/admin-console/home.md) |
+   | Analytics 사용자 및 에셋 | 사용자 및 자산 관리 기능은 Adobe Admin Console로 이동되었습니다. Adobe Admin Console을 사용하여 Adobe Analytics 사용자를 위한 사용자 권한 관리를 시작하십시오. | [Adobe Admin Console의 Analytics](/help/admin/admin-console/home.md) |
    | 분류 가져오기 도구 | 가져오기 도구를 사용하여 분류를 Adobe Analytics에 업로드합니다. 데이터를 가져오기 전에 업데이트를 위해 데이터를 내보낼 수도 있습니다. | [분류 가져오기 도구 개요](/help/components/classifications/importer/c-working-with-saint.md) |
    | 분류 규칙 빌더 | 추적 코드를 변경할 때마다 분류를 유지 관리하고 업로드하는 대신 규칙 기반의 자동 분류를 만들어 여러 보고서 세트에 적용할 수 있습니다. | [분류 규칙 빌더 워크플로](/help/components/classifications/crb/classification-rule-builder.md) |
    | 데이터 소스 | 데이터 소스 관리자를 사용하여 데이터 소스를 생성, 편집 또는 비활성화합니다. 또한 이 인터페이스를 사용하여 데이터 소스 FTP 위치에 업로드된 파일 상태를 추적할 수도 있습니다. | [데이터 소스 관리](/help/import/data-sources/manage.md) |
    | 코드 관리자 | 코드 관리자에서는 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 수 있습니다 | [코드 관리자](/help/admin/tools/code-manager-admin.md) |
    | 트래픽 관리 | [트래픽 관리] 페이지에서는 예상 트래픽 볼륨 변경 사항을 지정할 수 있습니다. 이러한 설정을 사용하여 Adobe은 적절한 리소스를 할당하여 트래픽을 적시에 추적 및 처리할 수 있습니다. | [트래픽 관리 개요](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
-   | 서버 호출 사용량 | 서버 호출은 데이터를 처리할 수 있도록 Adobe 서버로 보내는 인스턴스로서 “히트” 또는 “이미지 요청”이라고도 합니다. 서버 호출 사용량 대시보드에서 서버 호출 사용량 데이터를 추적하고, 계약상 한도와 비교할 수 있습니다. 초과분을 방지하도록 경고를 설정할 수 있습니다. | [서버 호출 사용량 개요](/help/admin/tools/server-call-usage/overage-overview.md) |
-   | 로그 | 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일입니다. | [로그](/help/admin/tools/logs.md) |
+   | 서버 호출 사용량 | 서버 호출은 데이터를 처리하기 위해 Adobe 서버로 전송하는 인스턴스로, &quot;히트&quot; 또는 &quot;이미지 요청&quot;이라고도 합니다. 서버 호출 사용량 대시보드에서 서버 호출 사용량 데이터를 추적하고, 계약상 한도와 비교할 수 있습니다. 초과분을 방지하도록 경고를 설정할 수 있습니다. | [서버 호출 사용량 개요](/help/admin/tools/server-call-usage/overage-overview.md) |
+   | 로그 | 사용자의 로그인 시점, 사용량, 액세스, 보고서 세트 및 관리자 변경 사항을 확인하는 데 도움이 되는 로그 파일입니다. | [로그](/help/admin/tools/logs.md) |
    | Advertising Analytics | 모든 Google 광고 및 Microsoft Advertising 유료 검색 데이터를 나란히 표시하도록 Adobe Analytics을 구성합니다. | [Advertising Analytics 구성](/help/admin/tools/manage-rs/edit-settings/advertising-analytics-config.md) |
    | 데이터 피드 | 데이터 피드는 Adobe Analytics에서 원시 데이터를 가져오는 강력한 방법입니다. 이러한 원시 데이터는 Adobe 외부의 다른 플랫폼에서 조직의 재량에 따라 사용할 수 있습니다. | [Analytics 데이터 피드 개요](/help/export/analytics-data-feed/data-feed-overview.md) |
-   | IP 주소별 제외 | 보고서에서 내부 웹 사이트 활동, 사이트 테스트 및 직원 사용과 같은 특정 IP 주소의 데이터를 제거할 수 있습니다. IP 주소 데이터를 제외하여 데이터를 제외하면 보고서 정확도가 향상됩니다. 또한 보고서 데이터를 왜곡할 수 있는 서비스 거부나 기타 악의적인 이벤트의 데이터를 제거할 수 있습니다. 제외를 구성하거나 방화벽을 사용할 수 있습니다. | [IP 주소별 제외](/help/admin/tools/exclude-ip.md) |
+   | IP 주소별 제외 | 보고서에서 내부 웹 사이트 활동, 사이트 테스트 및 직원 사용과 같은 특정 IP 주소의 데이터를 제거할 수 있습니다. IP 주소 데이터를 제외하면 보고서 정확도가 향상됩니다. 또한 보고서 데이터를 왜곡할 수 있는 서비스 거부나 기타 악의적인 이벤트의 데이터를 제거할 수 있습니다. 제외를 구성하거나 방화벽을 사용할 수 있습니다. | [IP 주소별 제외](/help/admin/tools/exclude-ip.md) |
    | 보고 활동 관리자 | 보고 활동 관리자를 사용하면 조직의 각 보고서 세트에 대한 보고 용량을 확인할 수 있습니다. 보고 사용량에 대해 상세한 가시성을 제공하며, 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다. | [보고 활동 관리자](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
    | 데이터 거버넌스 프라이버시 라벨링 | 보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. | [개인정보 보호 레이블 지정](/help/admin/tools/privacy-labeling/labeling-overview.md) |
    | 회사 설정 홈 | 회사 설정 페이지에서는 조직에서 관리하는 모든 보고서 세트에 적용되는 설정을 구성할 수 있습니다. | [회사 설정 개요](/help/admin/tools/company/c-company-settings.md) |
    | 보안 관리자 | 보안 관리자를 사용하여 보고 데이터에 대한 액세스를 제어할 수 있습니다. 강력한 암호, 암호 만료일, IP 로그인 제한 및 이메일 도메인 제한 옵션이 제공됩니다. | [보안 관리자](/help/admin/tools/company/security-manager.md) |
-   | 웹 서비스 | 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다. | [웹 서비스](/help/admin/tools/company/web-services-admin.md) |
+   | 웹 서비스 | 웹 서비스 API는 마케팅 보고서 및 기타 Suite 서비스에 프로그래밍 방식으로 액세스할 수 있게 해 주며, 이를 통해 Analytics 인터페이스에서 사용할 수 있는 기능을 복제하고 확장할 수 있습니다. | [웹 서비스](/help/admin/tools/company/web-services-admin.md) |
    | Report Builder 보고서 | Report Builder 사용자에 할당된 라이선스 관리 | [Report Builder 보고서](/help/admin/tools/company/report-builder-reports-admin.md) |
    | SSO(Single Sign-On) 서비스 | Adobe CX Enterprise에서 단일 사인온은 Admin Console을 통해 구현됩니다. | [Adobe Admin Console의 Analytics](/help/admin/admin-console/home.md) |
    | 보고서 세트 숨기기 | 귀하와 귀하의 사용자가 보고서 세트를 더 이상 사용할 수 없도록 Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 수 있습니다. | [보고서 세트 숨기기](/help/admin/tools/company/c-hide-report-suites.md) |

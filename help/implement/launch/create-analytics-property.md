@@ -5,18 +5,11 @@ feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/2cZHjGRwvLZPL-jmGLOQpgSXr5Rib8nMeqFWj2cCKAA'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 519
@@ -39,13 +32,13 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트(Analytics 포�
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. **[!UICONTROL 새 속성]**&#x200B;을 클릭합니다.
 1. 속성 이름을 웹 사이트의 제목 등으로 지정하고 Analytics를 구현할 도메인을 입력합니다. **[!UICONTROL 저장을]** 클릭합니다.
-1. 새로 만든 태그 속성을 클릭하여 해당 설정을 입력합니다.
+1. 새로 만든 태그 속성을 클릭하여 해당 설정으로 들어갑니다.
 1. **[!UICONTROL 확장]** 탭을 클릭한 다음 **[!UICONTROL 카탈로그]**&#x200B;를 클릭합니다.
 1. “Experience Cloud ID 서비스”를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. IMS 조직 ID를 포함한 모든 설정은 이미 작성되어 있어야 합니다. **[!UICONTROL 저장을]** 클릭합니다.
 1. 확장 카탈로그로 돌아가 Adobe Analytics를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 
-자세한 내용은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko)에 대한 모든 내용이 들어 있는 문서를 참조하십시오.
+자세한 내용은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)에 대한 모든 내용이 들어 있는 문서를 참조하십시오.
 
 ## Adobe Analytics용 데이터 요소 만들기
 
@@ -63,7 +56,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트(Analytics 포�
 
      >[!NOTE]
      >
-     >이 값은 시작하는 데 도움이 되는 예제입니다. 조직에서 페이지 이름에 데이터 계층 값과 같은 값을 정의한 경우 해당 값을 여기에 입력할 수 있습니다.
+     >이 값은 시작하는 데 도움이 되는 예제입니다. 조직에서 데이터 레이어 값과 같이 페이지 이름에 더 적합한 값을 정의한 경우 해당 값을 여기에 입력할 수 있습니다.
    * 텍스트 정리 선택
    * 저장소 유지 시간: 없음
 1. **[!UICONTROL 저장을]** 클릭합니다.
@@ -86,7 +79,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트(Analytics 포�
    * 페이지 이름: 컨테이너 아이콘을 클릭하고 `Page Name` 데이터 요소를 선택합니다.
    * 캠페인: 값이 `cid`인 쿼리 매개변수
 1. **[!UICONTROL 변경사항 유지]**&#x200B;를 클릭합니다.
-1. 다른 작업을 추가할 작업 옆에 있는 더하기 기호를 클릭하고 다음 설정을 입력합니다.
+1. 다른 액션을 추가하려면 액션 옆에 있는 더하기 기호를 클릭하고 다음 설정을 입력합니다.
    * 확장: Adobe Analytics
    * 작업 유형: 비콘 전송
    * 이름: Adobe Analytics - 비콘 전송

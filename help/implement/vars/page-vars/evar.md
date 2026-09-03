@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/7GS-wW0K3hh-uZ4fTi8yajH9wgFGBW-BQjT9m1mhXuU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 409
@@ -44,9 +36,9 @@ eVar는 다음 변수에 매핑됩니다.
 * [XDM 개체](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` ~ `xdm._experience.analytics.customDimensions.eVars.eVar250`
 * [데이터 개체](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1`에서 `data.__adobe.analytics.eVar250`까지 또는 `data.__adobe.analytics.v1`에서 `data.__adobe.analytics.v250`까지
 
-## Adobe Analytics 확장을 사용한 eVar
+## Adobe Analytics 확장 기능을 사용한 eVar
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 eVar을 설정할 수 있습니다.
+Analytics 확장 기능(전역 변수)을 구성하는 동안 또는 규칙에서 eVar를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
@@ -57,9 +49,9 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 eVar�
 
 eVar를 값 또는 데이터 요소로 설정할 수 있습니다. 다른 Analytics 변수에서 값을 복사할 수도 있습니다.
 
-## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.eVar1 - s.eVar250
+## AppMeasurement 및 Analytics 확장 기능 사용자 정의 코드 편집기의 s.eVar1 - s.eVar250
 
-각 eVar는 조직에 관련된 사용자 정의 값을 포함하는 문자열입니다. 최대 길이는 255바이트이고, 255바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
+각 eVar는 조직별 사용자 정의 값을 포함하는 문자열입니다. 최대 길이는 255바이트이고, 255바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
 
 ```js
 s.eVar1 = "Example custom value";

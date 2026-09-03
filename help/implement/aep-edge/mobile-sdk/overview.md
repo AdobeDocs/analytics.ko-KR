@@ -5,20 +5,11 @@ exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/ooh8s8pNYbbsD9BmF48Nv3OyHN5JtDQonQw0Z1t4XXc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c77ba355-6681-41fe-b719-563d3f507fdb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 565
@@ -32,11 +23,11 @@ Adobe Experience Platform Mobile SDK은 Adobe의 CX 엔터프라이즈 솔루션
 
 >[!IMPORTANT]
 >
->Adobe Analytics 확장은 Adobe Experience Platform 데이터 수집 UI에서도 사용할 수 있습니다. 이 확장을 설치하는 경우 XDM 또는 Edge Network를 사용하지 않습니다.
+>Adobe Analytics 확장은 Adobe Experience Platform 데이터 수집 UI에서도 사용할 수 있습니다. 이 확장 기능을 설치하는 경우 XDM 또는 Edge Network를 사용하지 않습니다.
 
 ## Adobe Experience Platform SDK
 
-구현 작업에 대한 개략적인 개요:
+구현 작업에 대한 개요:
 
 ![Analytics 확장 워크플로를 사용하는 Adobe Analytics](../../assets/mobilesdk-annotated.png)
 
@@ -55,17 +46,17 @@ Adobe Experience Platform Mobile SDK은 Adobe의 CX 엔터프라이즈 솔루션
 <tr>
 <td>2</td>
 <td><b>데이터스트림을 구성합니다</b>. 데이터스트림은 Adobe Experience Platform Web SDK 구현 시 서버측 구성을 나타냅니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko">데이터스트림 구성<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">데이터스트림 구성<a></td> 
 </tr>
 
 <td>3</td>
 <td>데이터스트림에 <b>Adobe Analytics 서비스를 추가</b>합니다. 이 서비스는 데이터가 Adobe Analytics로 전송되는지 여부와 그 방법을 제어합니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">데이터스트림에 Adobe Analytics 서비스 추가</a></td>
 </tr>
 
 <tr>
 <td>4</td>
-<td><b>모바일 속성을 만듭니다</b>. 속성은 확장, 규칙, 데이터 요소 및 라이브러리로 채우는 컨테이너입니다.</td>
+<td><b>모바일 속성을 만듭니다</b>. 속성은 확장 기능, 규칙, 데이터 요소 및 라이브러리로 채우는 컨테이너입니다.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">모바일 속성 설정</a></tr>
 
 <tr>
@@ -97,7 +88,7 @@ Adobe Experience Platform Mobile SDK은 Adobe의 CX 엔터프라이즈 솔루션
 
 ## Adobe Analytics 확장.
 
-구현 작업에 대한 개략적인 개요:
+구현 작업에 대한 개요:
 
 ![Analytics 확장 워크플로를 사용하는 Adobe Analytics](../../assets/mobilesdk-analytics-annotated.png)
 

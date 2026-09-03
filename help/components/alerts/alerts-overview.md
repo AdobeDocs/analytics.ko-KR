@@ -4,17 +4,10 @@ title: 경고 개요
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 TQID: 'https://experienceleague.adobe.com/FDzJzBjxMc-EkhW0k0NiENt-g53sRnzXQDs1XQWFseI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 435
@@ -34,13 +27,13 @@ Adobe Analytics 패키지를 기반으로 예외 항목 임계값에 따라 경�
 * 자동 생성된 Analysis Workspace 프로젝트에 대한 링크가 있는 이메일 또는 SMS로 경고를 보냅니다.
 * 하나의 경고에서 여러 지표를 캡처하는 *누적된* 경고를 만듭니다.
 * 다음 기준에 따라 경고 작성:
-   * 존재하는 지표의 예외 항목이 예상 임계값 초과 또는 미만입니다.
+  * 존재하는 지표의 예외 항목이 예상 임계값 초과 또는 미만입니다.
 
-     [예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)는 이전 데이터를 사용하여 예상 값과 상한 및 하한을 빌드합니다. 실제 지표 값이 임계값으로 정의된 상한 또는 하한 미만이면 이 이벤트는 임계값 신뢰 수준에서 예외 항목으로 간주되고 경고를 트리거합니다. 높은 임계값(예: 99% 또는 99.9%)은 더 넓은 대역을 의미하므로 더 극단적인 예외 항목으로 인해 발생하는 경고 수가 줄어듭니다. 낮은 임계값(예: 90%)은 더 좁은 대역을 의미하며, 이로 인해 덜 극단적인 예외로 인해 더 많은 경고가 발생합니다.
-   * 특정 비율에 따른 지표 변경.
-   * 특정 값 이상, 미만 또는 동일한 지표. (Select, Prime 또는 Ultimate 패키지를 사용하는 Adobe Analytics 고객만 사용 가능)
+    [예외 항목 탐지](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)는 이전 데이터를 사용하여 예상 값과 상한 및 하한을 빌드합니다. 실제 지표 값이 임계값으로 정의된 상한 또는 하한 미만이면 이 이벤트는 임계값 신뢰 수준에서 예외 항목으로 간주되고 경고를 트리거합니다. 높은 임계값(예: 99% 또는 99.9%)은 더 넓은 대역을 의미하므로 더 극단적인 예외 항목으로 인해 발생하는 경고 수가 줄어듭니다. 낮은 임계값(예: 90%)은 더 좁은 대역을 의미하며, 이로 인해 덜 극단적인 예외로 인해 더 많은 경고가 발생합니다.
+  * 특정 비율에 따른 지표 변경.
+  * 특정 값 이상, 미만 또는 동일한 지표. (Select, Prime 또는 Ultimate 패키지를 사용하는 Adobe Analytics 고객만 사용 가능)
 
-이 [비디오 튜토리얼](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/data-science/intelligent-alerts)에서는 경고에 대한 기본 개요를 제공합니다.
+이 [비디오 튜토리얼](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts)에서는 경고에 대한 기본 개요를 제공합니다.
 
 
 ## 경고 예외 항목 살펴보기

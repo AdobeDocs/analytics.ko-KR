@@ -4,12 +4,9 @@ description: FTP 및 SFTP 서버의 보안 요구 사항에 대해 알아봅니�
 feature: Data Configuration and Collection
 role: Admin
 TQID: 'https://experienceleague.adobe.com/qbBCeUihfvRTQm7LvR8jylRWf8rRlzFoZfs62l0fito'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1985
@@ -45,7 +42,7 @@ ht-degree: 100%
 
 ### FTP 계정 인벤토리 작성
 
-데이터 피드 또는 Data Warehouse과 함께 사용되는 모든 FTP 사이트에 대해 이 페이지에서 SFTP 업그레이드 단계를 완료해야 합니다.
+데이터 피드 또는 Data Warehouse와 함께 사용되는 모든 FTP 사이트에 대해 이 페이지에서 SFTP 업그레이드 단계를 완료해야 합니다.
 
 따라서 데이터 피드 또는 Data Warehouse에 대한 데이터를 수신하는 모든 FTP 계정을 식별해야 합니다. 이 정보는 [클라우드 가져오기 및 내보내기 계정 구성](/help/components/locations/configure-import-accounts.md)이라는 문서의 [기존 계정 유형](/help/components/locations/configure-import-accounts.md#configure-a-location-account) 섹션에 설명된 대로 FTP 구성 설정에 표시됩니다.
 
@@ -85,7 +82,7 @@ FTP 서버에서 데이터를 다운로드하기 위한 보안 전송을 설정�
 
 1. 보안 전송에 사용할 공개/비공개 키 쌍을 생성합니다.
 
-   Adobe에서 호스팅하는 SFTP 서버를 사용하는 경우 Adobe는 RSA 및 ED25519 키를 지원합니다.
+   Adobe에서 호스팅하는 SFTP 서버를 사용하는 경우 Adobe는 RSA 및 ed25519 키를 지원합니다.
 
    * **Linux 환경**: 다음 명령을 실행하여 ed25519 키 쌍을 생성합니다.
 
@@ -162,7 +159,7 @@ FTP 서버에서 데이터를 다운로드하기 위한 보안 전송을 설정�
    1. [!DNL .ssh] 디렉토리가 없는 경우 디렉토리를 만듭니다.
    1. [!DNL `authorized_keys`] 파일을 [!DNL .ssh] 디렉토리에 업로드합니다.
 
-1. SFTP 서버에서 인바운드 연결을 허용하도록 방화벽 설정을 업데이트합니다. Adobe가 호스팅하는 SFTP 서버를 사용하는 경우 포트 22에서 Adobe의 IP 범위에서 인바운드 연결을 허용합니다.
+1. SFTP 서버에서 인바운드 연결을 허용하도록 방화벽 설정을 업데이트합니다. Adobe가 호스팅하는 SFTP 서버를 사용하는 경우 Adobe의 IP 범위에서 오는 인바운드 연결을 포트 22에서 허용합니다.
 
 1. SFTP 클라이언트를 사용하여 서버에 로그인하여 연결을 테스트합니다.
 
@@ -174,7 +171,7 @@ FTP 서버에서 데이터를 다운로드하기 위한 보안 전송을 설정�
 
 1. [!UICONTROL **위치**] 탭에서 [!UICONTROL **위치 추가**]&#x200B;를 선택합니다.
 
-1. 이름, 설명 및 이 위치를 데이터 피드와 함께 사용할지, 아니면 Data Warehouse과 함께 사용할지 여부를 지정합니다.
+1. 이름, 설명 및 이 위치를 데이터 피드와 함께 사용할지, 아니면 Data Warehouse와 함께 사용할지 여부를 지정합니다.
 
 1. [!UICONTROL **위치 계정**] 필드에서 방금 만든 계정을 선택합니다.
 

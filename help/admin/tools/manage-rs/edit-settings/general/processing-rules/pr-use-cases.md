@@ -6,18 +6,11 @@ feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
 TQID: 'https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 832
@@ -42,7 +35,7 @@ ht-degree: 21%
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | `search_term`(컨텍스트 데이터)이(가) 설정됨 |
-| 액션 | [!UICONTROL eVar3 값 &#x200B;]을(를) `search_term`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | [!UICONTROL eVar3 값 ]을(를) `search_term`(컨텍스트 데이터)로 덮어쓰기 |
 
 ![컨텍스트 데이터 변수의 사용을 보여 주는 처리 규칙 인터페이스의 스크린샷](assets/set-context-data.png)
 
@@ -52,9 +45,9 @@ ht-degree: 21%
 
 | 규칙 세트 | 값 |
 | --- | --- |
-| 액션 | [!UICONTROL 값 &#x200B;] eVar55를 `spa.billing_customer_name`(컨텍스트 데이터)로 덮어쓰기 |
-| 액션 | `testhierarchy`(컨텍스트 데이터)이 설정된 경우 [!UICONTROL Prop7의 값 &#x200B;]을(를) `testhierarchy`(컨텍스트 데이터)로 덮어쓰기 |
-| 액션 | [!UICONTROL eVar8 값 &#x200B;]을(를) `spa.ims_org`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | [!UICONTROL 값 ] eVar55를 `spa.billing_customer_name`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | `testhierarchy`(컨텍스트 데이터)이 설정된 경우 [!UICONTROL Prop7의 값 ]을(를) `testhierarchy`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | [!UICONTROL eVar8 값 ]을(를) `spa.ims_org`(컨텍스트 데이터)로 덮어쓰기 |
 
 ![값을 조건부로 설정하는 방법을 보여 주는 처리 규칙 인터페이스의 스크린샷](assets/add-conditional.png)
 
@@ -88,7 +81,7 @@ ht-degree: 21%
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | 캠페인이 설정되지 않음 |
-| 액션 | [!UICONTROL 캠페인 값 &#x200B;]을(를) [!UICONTROL 쿼리 문자열 매개 변수] `cpid`(으)로 덮어쓰기 |
+| 액션 | [!UICONTROL 캠페인 값 ]을(를) [!UICONTROL 쿼리 문자열 매개 변수] `cpid`(으)로 덮어쓰기 |
 
 ![조건부 캠페인 논리를 표시하는 처리 규칙 인터페이스의 스크린샷](assets/set-campaign-conditionally.png)
 
@@ -121,7 +114,7 @@ ht-degree: 21%
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | 없음(항상 실행) |
-| 액션 | [!UICONTROL 값을 &#x200B;] eVar1에 [!UICONTROL 연결된 값] 범주 + 페이지 이름으로 덮어쓰기 |
+| 액션 | [!UICONTROL 값을 ] eVar1에 [!UICONTROL 연결된 값] 범주 + 페이지 이름으로 덮어쓰기 |
 
 연결된 값을 표시하는 처리 규칙 인터페이스의 ![스크린샷](assets/add-subcategory-using-concat.png)
 
@@ -136,7 +129,7 @@ Adobe에서는 원하지 않는 덮어쓰기를 방지하기 위해 가능한 �
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | prop1 [!UICONTROL 다음으로 시작] &quot;[!DNL Shoping]&quot; |
-| 액션 | [!UICONTROL Prop1의 &#x200B;] 값을 [!UICONTROL 사용자 지정 값] &quot;[!DNL Shopping]&quot;(으)로 덮어쓰기 |
+| 액션 | [!UICONTROL Prop1의 ] 값을 [!UICONTROL 사용자 지정 값] &quot;[!DNL Shopping]&quot;(으)로 덮어쓰기 |
 
 오타를 수정하는 방법을 보여 주는 처리 규칙 인터페이스의 ![스크린샷](assets/clean-up-values-in-report.png)
 

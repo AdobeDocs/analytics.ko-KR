@@ -4,16 +4,10 @@ title: Adobe Analytics 기능 릴리스
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 TQID: 'https://experienceleague.adobe.com/gDUf5ZiM-DUiG52nlMIFMbXc4NPNTI7bLrugWGicjgI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 395
@@ -31,7 +25,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 확장 가능한 단계별 
 
 * **제한된 테스트**: 단계적인 릴리스는 내부 Adobe 사용자에 의한 테스트부터 시작됩니다. 그런 다음 소수의 고객 계정 그룹에 공개되어 기능이 고객의 요구와 기대를 충족하는지 확인합니다.
 
-* **롤아웃 시작**: 단계적인 릴리스 롤아웃은 제한된 테스트 단계부터 시작됩니다. 그런 다음 고객들에 대한 릴리스의 가용성은 몇 개월 동안 0%에서 100%로 확장됩니다. 단계적 롤아웃은 CX Enterprise 조직 수준에서 발생하므로 조직에서 권한이 있는 모든 사용자는 동일한 경험을 합니다.
+* **롤아웃 시작**: 단계적인 릴리스 롤아웃은 제한된 테스트 단계부터 시작됩니다. 그런 다음 몇 개월에 걸쳐 고객에게 제공되는 릴리스 범위가 0%에서 100%로 확대됩니다. 단계적 롤아웃은 CX Enterprise 조직 수준에서 발생하므로 조직에서 권한이 있는 모든 사용자는 동일한 경험을 합니다.
 
 * **GA(일반 배포)**: 권한이 있는 CX Enterprise 조직의 100%가 이 기능을 사용할 수 있으며 기능 릴리스가 완료되었습니다.
 
@@ -45,7 +39,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 확장 가능한 단계별 
 
 ## 이점
 
-단계별 릴리스를 통해 Adobe는 소프트웨어 배포 프로세스를 보다 효과적으로 확장할 수 있으며 GA 전에 기능을 완전히 확정할 수 있습니다. 또한 고정된 월별 릴리스 기간에 얽매이지 않고 기능을 개발하자마자 출시할 수 있습니다.
+단계별 릴리스를 통해 Adobe는 소프트웨어 배포 프로세스를 보다 효과적으로 확장하고 기능이 GA 전에 완전히 안정화되도록 할 수 있습니다. 또한 고정된 월별 릴리스 기간에 얽매이지 않고 기능을 개발하자마자 출시할 수 있습니다.
 
 ## FAQ
 

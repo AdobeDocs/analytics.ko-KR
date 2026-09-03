@@ -4,13 +4,9 @@ description: 모범 사례를 이해하고 사용할 속성 모델을 결정합�
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 TQID: 'https://experienceleague.adobe.com/3h12v3wRMC0SY63jsXBbG6kkTM8ArVOz6ctJVikdKb4'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 444
@@ -20,7 +16,7 @@ ht-degree: 64%
 
 # 속성 모범 사례
 
-조직에 적합한 속성 모델을 선택하는 것은 여러 고려 사항에 따라 다릅니다. 이 문서에서는 방법론과 몇 가지 일반적인 모범 사례에 대해 알아봅니다.
+조직에 적합한 기여도 모델을 선택하는 것은 여러 고려 사항에 따라 다릅니다. 이 문서에서는 방법론과 몇 가지 일반적인 모범 사례에 대해 알아봅니다.
 
 * [탐색적 분석](#exploratory-analysis)
 * [규칙 기반 속성](#rule-base-attribution)
@@ -29,7 +25,7 @@ ht-degree: 64%
 ## 탐색적 분석
 
 >[!NOTE]
->이 분석은 속성 모델을 선택하기 전에 먼저 수행되어야 합니다.
+>이 분석은 기여도 모델을 선택하기 전에 먼저 수행되어야 합니다.
 
 이 단계는 먼저 고객 행동을 이해하고 전환 지표를 정의하는 절차로 구성됩니다. 전환 지표를 기반으로 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)(원시 데이터용) 또는 Analysis Workspace와 같은 도구를 통해
 
@@ -37,7 +33,7 @@ ht-degree: 64%
 * 이러한 행동의 비율/분포를 보다 쉽게 이해할 수 있습니다.
 
 예를 들어 고객의 50%가 전환하기 전에 세 개의 채널을 터치한다면 이들 세 개의 채널 사이에 인터랙션이 있습니까?
-그런 다음 상위 및 하위 단계 분석을 수행하여 이해를 확장할 수 있습니다.
+그런 다음 상위 및 하위 퍼널 분석을 수행하여 이해를 확장할 수 있습니다.
 
 ### 상위 단계 분석
 
@@ -65,10 +61,10 @@ ht-degree: 64%
 
 ## 알고리즘 속성 사용
 
-모든 질문에 만족스러운 답변을 제공하는 기여도 모델이 아직 없는 경우 [알고리즘 기여도](/help/analyze/analysis-workspace/attribution/algorithmic.md)를 사용할 수 있습니다. 많은 수의 가능한 가설과 조합을 검증하는 것은 매우 어렵기 때문에, 알고리즘 속성은 기본 제공 알고리즘을 사용하여 차원 항목에 크레딧을 할당합니다.
+모든 질문에 만족스러운 답변을 제공하는 기여도 모델이 아직 없는 경우 [알고리즘 기여도](/help/analyze/analysis-workspace/attribution/algorithmic.md)를 사용할 수 있습니다. 많은 수의 가능한 가설과 조합을 검증하는 것은 매우 어렵기 때문에, 알고리즘 기여도는 기본 제공 알고리즘을 사용하여 차원 항목에 크레딧을 할당합니다.
 
 ## 기타 고려 사항
 
-* Analysis Workspace에 의존하지 않고 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
+* Analysis Workspace에만 의존하는 대신 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
 * Adobe 데이터 피드에서와 같이 원시 데이터를 사용할 수 있습니다.
-* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.
+* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) 사용을 고려해 보십시오.

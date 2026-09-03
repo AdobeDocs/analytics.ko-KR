@@ -7,18 +7,10 @@ type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
 TQID: https://experienceleague.adobe.com/YyGOeSkPtmEW-8NzCGQ3niglLGcLG5DsPZw-TRwX-xU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 993
@@ -118,7 +110,7 @@ Customer Journey Analytics에서 일부 차원은 *값 없음* 항목을 수집�
 
 #### 기준별 필터링
 
-모든 기준이 충족되는지 또는 충족되는 기준이 있는지 여부에 따라 차원 항목을 필터링할 수 있습니다.
+모든 기준이 충족되는지 또는 하나 이상의 기준이 충족되는지 여부에 따라 차원 항목을 필터링할 수 있습니다.
 
 필터링 기준을 설정하려면 다음을 수행합니다.
 
@@ -158,7 +150,7 @@ Customer Journey Analytics에서 일부 차원은 *값 없음* 항목을 수집�
 
 1. **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
-Report Builder는 적용한 특정 필터링을 표시하도록 목록을 업데이트합니다.
+Report Builder는 적용한 특정 필터가 표시되도록 목록을 업데이트합니다.
 
 #### 셀 범위에서
 

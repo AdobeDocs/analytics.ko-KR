@@ -4,17 +4,10 @@ description: 차원이 무엇이고 Adobe Analytics에서 차원이 어떻게 �
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 TQID: https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 436
@@ -24,7 +17,7 @@ ht-degree: 37%
 
 # 차원 개요
 
-차원은 일반적으로 문자열 값을 포함하는 Adobe Analytics의 변수입니다. 일반적인 차원은 [페이지](page.md), [참조 도메인](referring-domain.md) 또는 [eVar](evar.md)를 포함합니다. 반면에, [지표](../metrics/overview.md)는 차원에 연결된 숫자 값을 포함합니다. 기본 보고서는 숫자 값 (지표) 열에 대해 문자열 값 (차원) 행을 보여 줍니다.
+차원은 일반적으로 문자열 값을 포함하는 Adobe Analytics의 변수입니다. 일반적인 차원은 [페이지](page.md), [참조 도메인](referring-domain.md) 또는 [eVar](evar.md)를 포함합니다. 반면에, [지표](../metrics/overview.md)는 차원에 연결된 숫자 값을 포함합니다. 기본 보고서는 숫자 값(지표) 열에 대해 문자열 값(차원) 행을 보여 줍니다.
 
 예를 들어 **[!UICONTROL 페이지]** 차원을 **[!UICONTROL 방문 횟수]** 지표와 결합하면 방문 횟수가 가장 많은 페이지를 보여 주는 등급 보고서가 만들어집니다.
 
@@ -52,7 +45,7 @@ Analytics 관리자는 보고서 세트 내에서 또는 Analysis Workspace 내�
 * **JavaScript 버전**: 방문자의 브라우저가 지원하는 JavaScript 버전을 보고했습니다. 더 이상 수집되지 않는 이전 차원입니다.
 * **다음 페이지**: 방문자가 본 다음 페이지를 표시하는 경로 지정 차원입니다. 현재 경로 지정 차원에는 Analysis Workspace의 [흐름 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 사용하십시오.
 * **이전 페이지**: 방문자가 본 이전 페이지를 표시하는 경로 지정 차원입니다. 현재 경로 지정 차원에는 Analysis Workspace의 [흐름 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 사용하십시오.
-* **시간대**: AppMeasurement 이미지 요청의 타임스탬프 오프셋에서 파생된 방문자의 시간대입니다. 웹 SDK에서 [`placeContext`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/context)을(를) 사용하여 시간대를 수집합니다.
+* **시간대**: AppMeasurement 이미지 요청의 타임스탬프 오프셋에서 파생된 방문자의 시간대입니다. 웹 SDK에서 [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context)을(를) 사용하여 시간대를 수집합니다.
 * **최상위 도메인**: 방문자 액세스 지점의 최상위 도메인입니다. 기존 Reports &amp; Analytics 보고서입니다. 대신 [도메인](domain.md) 차원을 사용하십시오.
 * **방문 페이지 번호**: 방문 내의 페이지 번호입니다. 기존 Reports &amp; Analytics 보고서입니다. 대신 [히트 깊이](hit-depth.md) 차원을 사용하십시오.
 * **방문자 상태**: `s.state` 변수에서 미국 상태를 보고했습니다. 지리 특성을 사용하는 [미국 주](us-states.md) 차원을 위해 사용이 중단됩니다.

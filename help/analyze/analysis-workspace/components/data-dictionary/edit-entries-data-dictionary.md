@@ -1,22 +1,14 @@
 ---
-description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승인, 중복 등의 Analysis Workspace의 다양한 구성 요소를 분류하고 추적할 수 있습니다.
+description: Analysis Workspace의 데이터 사전을 사용하면 의도된 용도, 승인 여부, 중복 여부 등을 포함하여 Analysis Workspace의 다양한 구성 요소를 분류하고 추적할 수 있습니다.
 title: 데이터 사전의 항목 편집
 feature: Components
 role: Admin
 exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
 TQID: https://experienceleague.adobe.com/qik-sXUm4ldjmWLyjowFcz0EVYDWU9ex0dyPsE-BiRU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79eid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1207
@@ -57,7 +49,7 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 
    | **[!UICONTROL 모두 표시]** | 모든 구성 요소. 이 옵션은 관리자만 사용할 수 있습니다. |
    | **[!UICONTROL 승인되지 않음]** | 아직 관리자가 승인됨으로 표시하지 않은 구성 요소만 해당됩니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | **[!UICONTROL 설명 누락]** | 설명 필드에 아직 설명이 없는 구성 요소만 표시됩니다. 이 옵션은 관리자만 사용할 수 있습니다. |
-   | **[!UICONTROL 중복 항목 표시]** | <p>선택한 보고서 세트에 있는 다른 구성 요소와 이름 또는 정의가 동일한 구성 요소만 해당됩니다. 이름 또는 정의가 정확히 일치하는 항목만 중복 항목으로 표시할 수 있습니다.</p><p>이 옵션은 관리자만 사용할 수 있습니다.</p><p>**참고:** 정의의 경우 여기에는 사용자가 만든 구성 요소는 물론 Adobe에서 제공하는 구성 요소도 포함됩니다. 이름의 경우 여기에는 사용자가 만든 구성 요소만 포함되고 Adobe에서 제공하는 구성 요소는 포함되지 않습니다. Adobe 제공 구성 요소의 중복 이름 표시는 향후 릴리스에 추가될 예정입니다.</p> |
+   | **[!UICONTROL 중복 항목 표시]** | <p>선택한 보고서 세트에 있는 다른 구성 요소와 이름 또는 정의가 동일한 구성 요소만 해당됩니다. 이름 또는 정의가 정확히 일치하는 항목만 중복 항목으로 표시할 수 있습니다.</p><p>이 옵션은 관리자만 사용할 수 있습니다.</p><p>**참고:** 정의의 경우 여기에는 사용자가 만든 구성 요소는 물론 Adobe에서 제공하는 구성 요소도 포함됩니다. 이름의 경우 여기에는 사용자가 만든 구성 요소만 포함되고 Adobe에서 제공하는 구성 요소는 포함되지 않습니다. Adobe 제공 구성 요소의 중복 이름 표시는 향후 출시에 추가될 예정입니다.</p> |
    | **[!UICONTROL 최근 데이터 없음]** | 지난 90일 동안 데이터를 수집하지 않은 구성 요소만 해당됩니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | **[!UICONTROL Adobe에서 생성됨]** <!-- I don't see this option--> | Adobe에서 제작한 구성 요소만 표시합니다.  Adobe Target을 예로 들 수 있습니다. 조직의 관리자 또는 다른 사용자가 만든 구성 요소는 표시되지 않습니다. |
 

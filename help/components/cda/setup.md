@@ -5,14 +5,10 @@ exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 535
@@ -32,14 +28,14 @@ ht-degree: 82%
 
 ## &#x200B;1. 고객 지원 센터에서 티켓을 열어 크로스 디바이스 보고서 세트에 CDA를 프로비저닝하십시오
 
-CDA는 Adobe 엔지니어링 팀을 통해 크로스 디바이스 보고서 세트에 생성됩니다. 이 프로세스를 시작하려면 고객 지원 센터에 연락하여 다음 정보를 제공할 준비를 하십시오.
+CDA는 Adobe 엔지니어링 팀에 의해 크로스 디바이스 보고서 세트에 프로비저닝됩니다. 이 프로세스를 시작하려면 고객 지원 센터에 연락하여 다음 정보를 제공할 준비를 하십시오.
 
 * IMS 조직 ID(@AdobeOrg으로 끝나는 영숫자 문자열)
 * CDA를 활성화할 크로스 디바이스 보고서 세트에 대한 보고서 세트 ID
 * 사용할 CDA의 방법(필드 기반 결합)
-* 필드 기반 스티칭을 사용하려면 prop 또는 eVar에 사용자 ID가 포함되어야 합니다.
-* 재생 빈도 및 전환 길이에 대한 사용자 기본 설정입니다. 옵션으로 7일 전환 확인 기간이 있는 일주일에 한 번 재생 또는 1일 전환 확인 기간이 있는 매일 재생이 있습니다.
-기본값은 7일 전환 확인 기간을 갖는 주간 재생입니다. 이 경우 지난 주 내의 데이터는 변경될 수 있습니다(점진적으로 결합 및 업데이트됨에 따라).
+* 필드 기반 스티칭을 사용하려는 경우 사용자 ID가 포함된 prop 또는 eVar
+* 재생 빈도 및 전환 확인 기간에 대한 사용자 기본 설정입니다. 옵션으로 7일 전환 확인 기간이 있는 일주일에 한 번 재생 또는 1일 전환 확인 기간이 있는 매일 재생이 있습니다.
+기본값은 7일 전환 확인 기간의 주간 재생입니다. 이 경우 지난 주 내의 데이터는 변경될 수 있습니다(점진적으로 결합 및 업데이트됨에 따라).
 
 고객 지원 센터에 이 정보를 제공하면 Adobe Engineering과 협력하여 CDA 처리를 위해 고객이 선택한 보고서 세트를 활성화합니다.
 
@@ -63,7 +59,7 @@ CDA는 Adobe 엔지니어링 팀을 통해 크로스 디바이스 보고서 세�
 
 가상 보고서 세트에서 크로스 디바이스 분석이 활성화되면 다음 변경 사항에 유의하십시오.
 
-* 가상 보고서 세트 이름 옆에 새 디바이스 간 아이콘이 나타납니다. 이 아이콘은 디바이스 간 가상 보고서 세트에만 사용할 수 있습니다.
+* 가상 보고서 세트 이름 옆에 새 디바이스 간 아이콘이 나타납니다. 이 아이콘은 디바이스 간 가상 보고서 세트에만 해당합니다.
 * [확인된 상태](../dimensions/identified-state.md)라는 새 차원을 사용할 수 있습니다.
 * 레이블이 [사용자](../metrics/people.md), [고유 디바이스](../metrics/unique-devices.md), [확인된 사용자](../metrics/identified-people.md), [미확인된 사용자](../metrics/unidentified-people.md) 및 [Experience Cloud ID가 있는 사용자](../metrics/people-with-exp-cloud-id.md)로 지정된 새 지표를 사용할 수 있습니다.
 * [고유 방문자 수](../metrics/unique-visitors.md) 지표는 &#39;사람&#39; 및 &#39;고유 디바이스&#39;로 대체되므로 사용할 수 없습니다.

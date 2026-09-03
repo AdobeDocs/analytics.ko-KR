@@ -218,7 +218,7 @@ ht-degree: 97%
     + [계산된 지표 빌드](calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
     + [간단한 예](calculated-metrics/workflow/c-build-metrics/cm-pvv.md)
     + [더 복잡한 예](calculated-metrics/workflow/c-build-metrics/cm-orders-participation.md)
-    + [지표 유형 및 속성](calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)
+    + [지표 유형 및 기여도](calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)
     + [참여도 지표](calculated-metrics/workflow/c-build-metrics/participation-metric.md)
     + [세분화된 지표](calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)
     + [세그먼트 스택 및 바꾸기](calculated-metrics/workflow/c-build-metrics/cm-stack-seg.md)

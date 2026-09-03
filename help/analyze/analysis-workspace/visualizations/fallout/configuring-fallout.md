@@ -5,23 +5,14 @@ feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 TQID: https://experienceleague.adobe.com/878FKpZVmm9-cCzRv0liWtppRRnHV3NqU1fMneDz4EU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 898
-ht-degree: 32%
+source-wordcount: 908
+ht-degree: 33%
 
 ---
 
@@ -33,7 +24,7 @@ ht-degree: 32%
 
 폴아웃 시각화는 추가할 수 있는 터치포인트의 수나 사용할 수 있는 구성 요소의 수에 대한 제한이 없습니다.
 
-차원, 지표 및 세그먼트에 대한 경로를 지정할 수 있습니다. 예를 들어 어떤 사람이 한 페이지에서 `shoes, shirt`을(를) 보고 있고 다음 페이지에서는 `shirt, socks`을(를) 보고 있다고 가정해 보겠습니다. 신발의 다음 제품 플로우 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다.
+차원, 지표 및 세그먼트에서 경로 지정을 수행할 수 있습니다. 예를 들어 어떤 사람이 한 페이지에서 `shoes, shirt`을(를) 보고 있고 다음 페이지에서는 `shirt, socks`을(를) 보고 있다고 가정해 보겠습니다. 신발의 다음 제품 플로우 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다.
 
 ## 사용
 
@@ -81,7 +72,7 @@ ht-degree: 32%
 
 | 폴아웃 컨테이너 | 설명 |
 |--- |--- |
-| **[!UICONTROL 방문]** 또는 **[!UICONTROL 방문자]** | [!UICONTROL 방문]과(와) [!UICONTROL 방문자] 간에 전환하여 개인 경로 지정을 분석하십시오. 기본값은 [!UICONTROL 방문자]입니다. 이 설정은 방문들에 대해 방문자 수준에서 방문자 참여를 이해하거나 분석을 단일 방문으로 제한하는 데 도움이 됩니다. |
+| **[!UICONTROL 방문]** 또는 **[!UICONTROL 방문자]** | [!UICONTROL 방문]과(와) [!UICONTROL 방문자] 간에 전환하여 개인 경로 지정을 분석하십시오. 기본값은 [!UICONTROL 방문자]입니다. 이 설정은 여러 방문에 걸친 방문자 수준의 방문자 참여를 이해하거나 분석을 단일 방문으로 제한하는 데 도움이 됩니다. |
 
 
 ## 컨텍스트 메뉴

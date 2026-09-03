@@ -6,21 +6,11 @@ exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
 autotag-review: '2026-05-22T12:17:50.968Z'
 TQID: 'https://experienceleague.adobe.com/r-zrWBcHhMkxptxKlfZ0Xaw-UsYc9QIIqQgSbyTertA'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: b13acd70-7a51-4028-8c44-5f3b1bbe3ad4
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: b13acd70-7a51-4028-8c44-5f3b1bbe3ad4id: fe0a7292-80bc-407a-b456-64170267d1ccid: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 520
@@ -38,7 +28,7 @@ ht-degree: 82%
 Adobe Analytics와 Adobe Campaign Standard를 통합하면 다음이 적용됩니다.
 
 * KPI(핵심 성능 지표) 데이터를 Adobe Campaign Standard에서 Adobe Analytics에 공유할 수 있습니다.
-* Adobe Analytics 매개변수를 사용하는 수식 추적 기능이 향상됩니다.
+* 추적 수식이 Adobe Analytics 매개변수로 강화됩니다.
 * **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL Adobe Campaign]** 아래에 새 보고서가 추가됩니다.
 * 5개의 새로운 Adobe Campaign 분류가 추가됩니다.
 * 9개의 새로운 Adobe Campaign 지표가 추가됩니다.
@@ -96,5 +86,5 @@ Adobe Analytics 보고서 세트의 Campaign에서 다음 **차원**&#x200B;을(
 | 캠페인 레이블 | 캠페인 ID 레이블 |
 | 게재 ID | 기간 동안 KPI가 전송된 모든 게재의 ID. 반복 게재 및 트랜잭션 게재에 대한 마스터 게재의 ID도 포함합니다. 예: 반복 게재 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 게재의 하위 게재입니다.  게재 ID는 모든 게재(DM1~DM5)의 결과를 표시합니다. |
 | 게재 레이블 | 게재 ID의 레이블 |
-| 수행된 게재 ID | 수행된 게재 전용 ID입니다. 반복/트랜잭션 마스터 게재의 ID가 없습니다. 예: 반복 게재 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 게재의 하위 게재입니다. 수행된 게재 ID는 DM2에서 DM5로 시작하는 모든 게재(실제로 수행된 게재)의 결과를 표시합니다. |
+| 수행된 게재 ID | 수행된 게재 전용 ID입니다. 반복/트랜잭션 마스터 게재의 ID가 없습니다. 예: 반복 게재 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 게재의 하위 게재입니다. 수행된 게재 ID는 DM2부터 DM5까지의 모든 게재(실제로 수행된 게재)의 결과를 표시합니다. |
 | 수행된 게재 레이블 | 수행된 게재 ID의 레이블 |

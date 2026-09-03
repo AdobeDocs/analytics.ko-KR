@@ -5,18 +5,10 @@ feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 TQID: https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: f1c344895b5ad9ff2db00d04c6e5873a0de1da31
 workflow-type: tm+mt
 source-wordcount: 804
@@ -58,7 +50,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
    >
    >사용자 정의 일수를 선택한 경우, 예를 들어 10월 7일 ~ 10월 20일(14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 이 날짜 범위에 해당하는 사용자 정의 날짜 범위]**, 이렇게 2가지 옵션만 제공됩니다.
 
-1. 결과 비교 모양은 다음과 같습니다.
+1. 결과 비교는 다음과 같습니다.
 
    ![날짜 범위와 변화율을 비교한 자유 형식 테이블입니다.](assets/compare-time-result.png)
 
@@ -90,7 +82,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 1. 원하는 만큼 여러 번 열을 추가하고 다른 날짜 범위를 조합할 수 있습니다.
 
-1. 또한 각 열을 정렬하여 정렬하는 열에 따라 일 순서를 변경할 수 있습니다.
+1. 또한 각 열을 정렬할 수 있으며, 이렇게 하면 정렬하는 열에 따라 일 순서가 변경됩니다.
 
 ## 열 날짜를 같은 행의 시작으로 정렬
 
@@ -104,11 +96,11 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 ![](assets/align-dates.png)
 
-이 옵션을 사용할 때 다음 사항을 고려합니다.
+이 옵션을 사용할 때는 다음 사항을 고려하십시오.
 
 * 시스템은 모든 새 프로젝트에 대해 기본적으로 이 설정을 활성화합니다.
 
-* 이 설정은 전체 테이블에 적용됩니다. 예를 들어 테이블 내 분류에 대한 이 설정을 변경하면 전체 테이블의 설정이 적용됩니다.
+* 이 설정은 전체 테이블에 적용됩니다. 예를 들어 테이블 내 분류에 대해 이 설정을 변경하면 이 설정이 전체 테이블에 적용됩니다.
 
 * 이 설정을 활성화하면 모든 열 셀의 오른쪽 위 모서리에 작은 날짜 레이블이 표시되어 적절한 날짜(해당하는 경우 시간)로 셀에 주석을 답니다.
 
@@ -120,7 +112,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

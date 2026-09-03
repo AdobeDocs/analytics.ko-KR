@@ -5,17 +5,10 @@ feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 TQID: https://experienceleague.adobe.com/Mrn0LGvyOIX9Ko1odTRC8bUU-OD4YQYuwjqa3gYSLSs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 971
@@ -28,12 +21,12 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_keymetricsummary_button"
 >title="주요 지표 요약"
->abstract="선, 요약 변경 및 요약 숫자 차트의 조합으로 구성된 시각화를 만듭니다. 이 시각화를 사용하여 두 기간 간에 지표가 얼마나 중요한 트렌드인지 비교합니다."
+>abstract="선, 요약 변경 및 요약 숫자 차트의 조합으로 구성된 시각화를 만듭니다. 이 시각화를 사용하여 중요한 지표가 두 기간 사이에서 어떻게 트렌딩되는지 비교합니다."
 
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 주요 지표 요약 시각화를 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전에 대한 [주요 지표 요약](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)을 참조하십시오._
+_이 문서에서는 주요 지표 요약 시각화를 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전에 대한 [주요 지표 요약](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +45,7 @@ _이 문서에서는 주요 지표 요약 시각화를 설명합니다._ ![Adobe
 
 * 이번 달 영업 기회 창출이 지난해 같은 기간과 비교해 어떤 모습이었는지 이해하려는 분석가.
 
-* 특정 리드 유형에 대한 리드 생성 방식이 이번 달부터 지난 달까지 어떻게 변화했는지 살펴보는 마케터.
+* 특정 리드 유형에 대한 리드 생성이 이번 달부터 지난달까지 어떻게 변화했는지 살펴보는 마케터.
 
 * 이전 분기와 비교하여 신규 예약이 어떻게 변경되었는지 알고자 하는 임원.
 
@@ -69,7 +62,7 @@ _이 문서에서는 주요 지표 요약 시각화를 설명합니다._ ![Adobe
    | **[!UICONTROL 지표]** | 검사할 지표를 선택합니다. 모든 지표가 지원됩니다. |
    | **[!UICONTROL 기본 날짜 범위]** | 자유 형식 테이블의 현재 날짜 범위입니다.<p>보고서 세트에서 사용 가능한 날짜 범위를 선택합니다.</p> <p>시각화가 위치한 패널에서 사용 중인 날짜 범위와 동일한 날짜 범위를 사용하려면 [!UICONTROL **패널 날짜 범위**]&#x200B;를 선택합니다.</p> |
    | **[!UICONTROL 비교 날짜 범위]** | 기본 날짜 범위와 비교하는 날짜 범위. |
-   | **[!UICONTROL 세그먼트(선택 사항)]** | 이 요약에 관심이 있는 모든 세그먼트. |
+   | **[!UICONTROL 세그먼트(선택 사항)]** | 이 요약에서 관심 있는 모든 세그먼트. |
 
    {style="table-layout:auto"}
 
@@ -111,18 +104,18 @@ _이 문서에서는 주요 지표 요약 시각화를 설명합니다._ ![Adobe
 
 | 설정 | 설명 |
 | --- | --- |
-| **[!UICONTROL 백분율 변경 강조]** | 시각화 중앙에 눈에 띄는 볼드체로 요약 변경 사항 표시 |
+| **[!UICONTROL 백분율 변경 강조]** | 시각화 중앙에 눈에 띄는 볼드체로 요약 변경 표시 |
 | **[!UICONTROL 숫자 값 강조]** | 시각화 중앙에 눈에 띄는 볼드체로 요약 숫자 표시 |
 | **[!UICONTROL 범례 표시]** | 시각화 하단에 범례 표시 또는 숨기기 |
 | **[!UICONTROL 주석 표시]** | 관리자가 추가한 주석 표시 또는 숨기기 |
 | **[!UICONTROL 제목 숨기기]** | 시각화의 제목을 숨깁니다. |
 | **[!UICONTROL 백분율]** | 숫자 대신 백분율로 시각화를 표시합니다. |
 | **[!UICONTROL 트렌드 라인 표시]** | 시각화에 트렌드 라인을 표시합니다. |
-| **[!UICONTROL 트렌드 라인에서 최대 및 최소 표시]** | 기본 및 비교 선 차트에서 최소값 및 최대값 표시 또는 숨기기 |
+| **[!UICONTROL 트렌드 라인에서 최대 및 최소 표시]** | 기본 및 비교 선 그래프에서 최소값 및 최대값 표시 또는 숨기기 |
 | **[!UICONTROL 비교 백분율 및 트렌드 라인 표시]** | 비교 데이터를 표시하거나 숨깁니다. 숨겨진 경우 보기에서 비교 선 차트와 요약 변경 오브젝트가 모두 표시되지 않습니다. |
 | **[!UICONTROL 총 숫자 표시]** | 요약 숫자 표시 또는 숨기기 |
 | **[!UICONTROL 원시 차이 표시]** | 기본 날짜 범위와 보조 날짜 범위의 총 지표 값 간의 원시 차이를 표시하거나 숨깁니다. |
-| **[!UICONTROL 값 생략]** | 숫자 값을 지능적으로 축약하도록 **[!UICONTROL 값 생략]**&#x200B;을 선택합니다. 선택하면 숫자를 입력하여 축약 수를 정의합니다. 예:<br/><table><tr><td>**원래 값**</td><td>**축약**</td><td>**결과**</td></tr><tr><td>$12,011,141.25</td><td>선택되지 않음</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, 1로 설정</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, 2로 설정</td><td align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, 2로 설정</td><td align="right">$12.011M</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, 3으로 설정</td><td align="right">$12.011M</td></tr></table> |
+| **[!UICONTROL 값 생략]** | 숫자 값을 지능적으로 축약하도록 **[!UICONTROL 값 생략]**&#x200B;을 선택합니다. 선택하면 숫자를 입력하여 축약 정도를 정의합니다. 예:<br/><table><tr><td>**원래 값**</td><td>**축약**</td><td>**결과**</td></tr><tr><td>$12,011,141.25</td><td>선택되지 않음</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, 1로 설정</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, 2로 설정</td><td align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, 2로 설정</td><td align="right">$12.011M</td></tr><tr><td>$12,011,141.25</td><td>선택된 경우, 3으로 설정</td><td align="right">$12.011M</td></tr></table> |
 
 ## 시각화 편집
 

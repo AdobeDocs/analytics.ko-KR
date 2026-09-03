@@ -6,23 +6,11 @@ feature: Report Builder
 role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 TQID: https://experienceleague.adobe.com/P2dvU8YgWcjCZ6h4oTxK-2-z1X3-wl-oMp70UIJGeXo
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: c67272a6-888e-425e-9e97-a87304637eedid: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 511
@@ -34,12 +22,12 @@ ht-degree: 18%
 
 {{legacy-arb}}
 
-이상 현상 발견 기능에서는 통계적 모델링 방법을 사용하여 데이터에서 예상치 않은 트렌드를 자동으로 찾습니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상치 않은 범위를 파악합니다. 예상치 않은 급등이나 하락이 발생하면 보고서에 경고가 표시됩니다.
+이상 현상 발견 기능에서는 통계적 모델링 방법을 사용하여 데이터에서 예상치 않은 트렌드를 자동으로 찾습니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상 범위를 파악합니다. 예상치 않은 급등이나 하락이 발생하면 보고서에 경고가 표시됩니다.
 
 조사할 수 있는 이상 현상의 예에는 다음 내용이 포함됩니다.
 
 * 평균 주문 가격의 급격한 하락
-* 매출액이 낮은 주문의 급등
+* 매출이 낮은 주문의 급등
 * 체험판 등록 급등 또는 하락
 * 랜딩 페이지 조회수의 하락
 * 비디오 버퍼 이벤트의 향신료

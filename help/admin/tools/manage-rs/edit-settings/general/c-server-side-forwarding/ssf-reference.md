@@ -5,20 +5,11 @@ feature: Report Suite Settings
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 role: Admin
 TQID: 'https://experienceleague.adobe.com/DuHi1F4wU6EfxGe8s9EWZ54TX7KnkN3MmAOUE8a9oqw'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c354699e-6555-4397-8706-1a9a89984069
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c354699e-6555-4397-8706-1a9a89984069
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 561
@@ -47,8 +38,8 @@ ht-degree: 88%
 
 | HTTP 헤더 | 설명 | Audience Manager가 허용한 h_key |
 | --- | --- | --- |
-| 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은 `host name .demdex.net`으로 나타납니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)를 참조 하십시오. | `h_host` |
-| User-Agent | Analytics에 전달된 User-Agent 헤더로 설정합니다. | `h_user-agent` |
+| 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은 `host name .demdex.net`으로 나타납니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)를 참조 하십시오. | `h_host` |
+| User-Agent | Analytics에 전달된 User-Agent 헤더로 설정됩니다. | `h_user-agent` |
 | Accept-Language | Analytics에 전달된 `Accept-Language` 헤더로 설정합니다. | `h_accept-language` |
 | Referer | Analytics로 전달되거나 Analytics로 전달된 `Referer` 헤더에서 수집한 페이지 URL로 설정합니다. | `h_referer` |
 | 리퍼러 | Analytics로 전달되거나 Analytics로 전달된 `Referrer` 헤더에서 수집한 페이지 URL로 설정합니다. | `h_referrer` |
@@ -89,7 +80,7 @@ ht-degree: 88%
 | `c_products` | 제품 문자열(`s.products`에 의해 설정됨)입니다. |
 | `c_prop` | 사용자 정의 Prop입니다. |
 | `c_purchaseID` | 구매에 대한 고유 ID입니다. |
-| `c_referrer` | 현재 페이지의 앞 페이지입니다. |
+| `c_referrer` | 현재 페이지의 이전 페이지입니다. |
 | `c_screenResolution` | 화면 너비와 높이(픽셀 단위)입니다. |
 | `c_server` | 웹 서버 이름(`s.server`에 의해 설정됨)입니다. |
 | `c_state` | 지역(`s.state`에 의해 설정됨)입니다. |

@@ -6,24 +6,11 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 TQID: https://experienceleague.adobe.com/5yrcNh-n0rOA-PZr5hmZD4ykJCKBE-EId9eVY5rOj54
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 908
@@ -38,7 +25,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [자유 형식 테이블의 행 및 열 설정](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +41,7 @@ ht-degree: 89%
 | --- | --- |
 | **[!UICONTROL 합계 표시]** | 열의 클라이언트측 합계를 표시합니다. 이 합계는 세션이나 개인 등의 지표를 중복 제거하지 **않습니다**. |
 | **[!UICONTROL 총 합계 표시]** | 열의 서버측 합계를 표시합니다. 총계는 세션이나 개인 등의 지표를 중복 제거합니다. |
-| **[!UICONTROL 스파크라인 표시]** | 열 머리글에 선 차트를 표시합니다. |
+| **[!UICONTROL 스파크라인 표시]** | 열 머리글에 선 그래프를 표시합니다. |
 | **[!UICONTROL 숫자]** | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 숫자 값은 행 항목에 대한 페이지 조회수입니다. |
 | **[!UICONTROL Percent]** | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면, 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확성을 보장하기 위해 100%보다 큰 백분율도 가능합니다. 열 너비가 너무 커지는 것을 방지하기 위해 상한값을 1,000%까지 조정할 수 있습니다. |
 | **[!UICONTROL 예외 항목 표시]** | 이 열의 값에 대해 예외 항목 탐지가 실행되는지 여부를 결정합니다. |
@@ -65,28 +52,28 @@ ht-degree: 89%
 | **[!UICONTROL 막대 그래프]** | 열에 대한 합계와 상대적인 셀 값을 나타내는 수평 막대 그래프를 표시합니다. |
 | **[!UICONTROL 조건부 서식]** | 조건부 서식 사용. 아래 [섹션](#conditional-formatting)을 참조하십시오. |
 | **[!UICONTROL 테이블 셀 미리보기]** | 각 셀이 현재 선택된 서식 선택 사항이 적용되면 어떻게 나타나는지 미리보기. |
-| **[!UICONTROL 비기본 속성 모델 사용]** | 비기본 속성 모델 사용. 아래 [섹션](#use-non-default-attribution-model)을 참조하십시오. |
+| **[!UICONTROL 비기본 속성 모델 사용]** | 비기본 기여도 모델 사용. 아래 [섹션](#use-non-default-attribution-model)을 참조하십시오. |
 
 ## 조건부 서식 {#conditional-formatting}
 
-조건부 서식을 지정하면 정의할 수 있는 상한, 중간점 및 하한에 서식이 적용됩니다. 자유 형식 테이블 내 조건부 서식도 [!UICONTROL 사용자 정의] 제한을 선택하지 않은 경우 분류에서 자동으로 적용할 수 있게 됩니다.
+조건부 서식은 정의할 수 있는 상한, 중간점 및 하한에 서식을 적용합니다. 자유 형식 테이블 내 조건부 서식도 [!UICONTROL 사용자 정의] 제한을 선택하지 않은 경우 분류에서 자동으로 적용할 수 있게 됩니다.
 
 ![조건부 서식](./assets/conditional-formatting.png)
 
 | 조건부 서식 옵션 | 설명 |
 | --- | --- |
 | **[!UICONTROL 백분율 제한값 사용]** | 절댓값이 아니라 백분율에 따라 제한 범위 변경. 백분율 제한값 범위는 비율만을 기반으로 하는 지표(예: 바운스 비율) 및 개수와 비율이 있는 지표(예: 페이지 조회수)에서 작동합니다. |
-| **[!UICONTROL 자동 생성]** | 데이터를 기반으로 상한/중간/하한을 자동으로 계산. 상한은 이 열에서 가장 큰 값입니다. 하한값은 가장 낮고, 중간값은 상한 및 하한값의 평균값이다. |
-| **[!UICONTROL 사용자 정의]** | **[!UICONTROL 상한]**, **[!UICONTROL 중간점]** 및 **[!UICONTROL 하한]**&#x200B;을 수동으로 할당합니다. 제한값을 통해 열 값이 양호, 평균 또는 나쁨일 때를 유연하게 확인할 수 있습니다. |
+| **[!UICONTROL 자동 생성]** | 데이터를 기반으로 상한/중간/하한을 자동으로 계산합니다. 상한은 이 열에서 가장 큰 값입니다. 하한값은 가장 낮고, 중간값은 상한 및 하한값의 평균값이다. |
+| **[!UICONTROL 사용자 정의]** | **[!UICONTROL 상한]**, **[!UICONTROL 중간점]** 및 **[!UICONTROL 하한]**&#x200B;을 수동으로 할당합니다. 제한값을 사용하면 열 값이 양호, 평균 또는 나쁨이 되는 시점을 유연하게 결정할 수 있습니다. |
 | **[!UICONTROL 조건부 서식 팔레트]** | 미리 구성된 색상 세트를 셀에 적용합니다. 사용 가능한 네 가지 색상 구성표 중 어떤 색상 구성표를 선택하느냐에 따라 서로 다른 색상이 높은 값, 중간점 값 및 낮은 값에 할당됩니다. <br> 테이블에서 차원을 바꾸면 조건부 서식 제한이 재설정됩니다. 지표를 바꾸면 해당 열에 대한 제한이 재계산됩니다(지표는 X축에 있고 차원은 Y축에 있음). |
 
-## 비기본 속성 모델 사용 {#use-non-default-attribution-model}
+## 비기본 기여도 모델 사용 {#use-non-default-attribution-model}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_column_usenondefaultattributionmodel"
->title="비기본 속성 모델 사용"
+>title="비기본 기여도 모델 사용"
 >abstract="선택한 열에 기본이 아닌 속성 모델을 사용합니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -95,7 +82,7 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
->title="비기본 속성 모델 사용"
+>title="비기본 기여도 모델 사용"
 >abstract="이 지표에는 기본이 아닌 속성 모델을 사용할 수 없습니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -113,7 +100,7 @@ ht-degree: 89%
 
 Analysis Workspace에서 지표에 대해 비기본 속성 모델을 사용하는 방법:
 
-1. **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 선택합니다. 이미 선택한 경우 **[!UICONTROL 편집]**&#x200B;을 사용하여 속성 모델을 편집합니다. 또는 기본 속성 모델로 돌아가려면 선택을 취소합니다.
+1. **[!UICONTROL 비기본 속성 모델 사용]**&#x200B;을 선택합니다. 이미 선택한 경우 **[!UICONTROL 편집]**&#x200B;을 사용하여 속성 모델을 편집합니다. 또는 기본 기여도 모델로 돌아가려면 선택을 취소합니다.
 
    ![데이터 설정 옵션을 강조한 열 설정 옵션: 비기본 속성 모드를 사용합니다.](assets/attribution-checkbox.png)
 
@@ -148,7 +135,7 @@ Analysis Workspace에서 지표에 대해 비기본 속성 모델을 사용하�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 열](https://video.tv.adobe.com/v/33022?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 열](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 

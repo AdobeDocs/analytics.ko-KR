@@ -5,21 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 952
@@ -35,7 +25,7 @@ ht-degree: 96%
 
 * `currencyCode`가 정의되지 않은 경우 Adobe는 모든 통화 값이 보고서 세트의 통화라고 가정합니다. 보고서 세트의 통화를 확인하려면 보고서 세트 설정에서 [일반 계정 설정](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)을 참조하십시오.
 * `currencyCode`가 정의되어 있고 보고서 세트의 통화와 일치하는 경우 통화 전환이 적용되지 않습니다.
-* `currencyCode`가 정의되어 있고 보고서 세트의 통화와 다른 경우에는 Adobe가 현재 날짜의 환율을 기준으로 통화 변환을 적용합니다. Adobe는 [XE](https://xe.com)와 협력하여 매일 통화를 변환합니다. 보고서 세트에 저장된 모든 값은 보고서 세트의 통화로 있습니다.
+* `currencyCode`가 정의되어 있고 보고서 세트의 통화와 다른 경우에는 Adobe가 현재 날짜의 환율을 기준으로 통화 변환을 적용합니다. Adobe는 [XE](https://xe.com)와 협력하여 매일 통화를 변환합니다. 보고서 세트에 저장된 모든 값은 보고서 세트의 통화로 저장됩니다.
 * `currencyCode`이(가) 잘못된 값으로 설정되어 있으면 **전체 히트가 삭제되어 데이터가 손실됩니다.** 이 변수가 사용될 때마다 올바르게 정의되었는지 확인하십시오.
 
 이 변수는 히트 간에 지속되지 않습니다. 이 변수가 보고서 세트의 기본 통화와 일치하지 않는 매출 또는 통화 이벤트를 포함하는 모든 페이지에서 정의되었는지 확인하십시오.
@@ -74,7 +64,7 @@ ht-degree: 96%
 
 사전 설정된 통화 코드나 사용자 정의 통화 코드를 사용할 수 있습니다. 사용자 정의 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.
 
-## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.currencyCode
+## AppMeasurement 및 Analytics 확장 기능 사용자 정의 코드 편집기의 s.currencyCode
 
 `s.currencyCode` 변수는 페이지의 통화를 나타내는 3자로 된 대문자 코드를 포함하는 문자열입니다. 값은 대소문자를 구분합니다.
 

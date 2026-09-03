@@ -6,37 +6,11 @@ title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9id: e7d92df1-c5ba-4e93-85df-f83171b889beid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fe0a7292-80bc-407a-b456-64170267d1cc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4163
@@ -50,7 +24,7 @@ ht-degree: 78%
 
 >[!IMPORTANT]
 >
->제공된 열(예: 255자로 정의된 열)에 대해 데이터 피드는 문자열의 값을 이스케이프 처리하는 문자 추가로 인해 추가 문자를 보낼 수 있습니다. 구현에서 문자 제한을 초과하는 값을 정기적으로 전송하는 경우 이러한 추가 문자를 염두에 두십시오.
+>특정 열(예: 255자로 정의된 열)의 경우 문자열의 값을 이스케이프 처리하는 문자가 추가되므로 데이터 피드에서 추가 문자를 보낼 수 있습니다. 구현에서 문자 제한을 초과하는 값을 정기적으로 전송하는 경우 이러한 추가 문자를 염두에 두십시오.
 
 ## 열, 설명 및 데이터 유형
 
@@ -58,15 +32,15 @@ ht-degree: 78%
 >
 >열 대부분은 `post_`라는 접두어가 있는 유사한 열을 포함합니다. 이후 열에는 서버측 논리, 처리 규칙 및 VISTA 규칙 다음의 값이 있습니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다. 자세한 내용은 [데이터 피드 FAQ](../df-faq.md)를 참조하십시오.
 
-이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.ko-KR/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에서 확인할 수 있습니다.
+이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에서 확인할 수 있습니다.
 
 | Post | 열 이름 | 열 설명 | 데이터 유형 |
 | ---: | :--- | --- | --- |
-| | **`accept_language`** | 이미지 요청의 Accept-Language HTTP 헤더에 표시된 대로 모든 수락된 언어를 나열합니다. | char (20) |
+| | **`accept_language`** | 이미지 요청의 Accept-Language HTTP 헤더에 표시된 대로 허용되는 모든 언어를 나열합니다. | char (20) |
 | **`post_`** | **`adload`** | 미디어 광고 로드 | varchar (255) |
 | **`post_`** | **`aemassetid`** | Adobe Experience Manager Assets 세트의 자산 ID(GUID)에 해당하는 다중 값 변수입니다. 노출 이벤트를 증가시킵니다. | 텍스트 |
-| **`post_`** | **`aemassetsource`** | 자산 이벤트의 소스를 식별합니다. Adobe Experience Manager에서 사용됩니다. | varchar (255) |
-| **`post_`** | **`aemclickedassetid`** | Adobe Experience Manager 자산의 자산 ID입니다. 클릭 이벤트를 증가시킵니다. | varchar (255) |
+| **`post_`** | **`aemassetsource`** | 에셋 이벤트의 소스를 식별합니다. Adobe Experience Manager에서 사용됩니다. | varchar (255) |
+| **`post_`** | **`aemclickedassetid`** | Adobe Experience Manager 에셋의 에셋 ID입니다. 클릭 이벤트를 증가시킵니다. | varchar (255) |
 | **`post_`** | **`amo_cid`** | Adobe Advertising 통합에 사용되는 [AMO ID](/help/components/dimensions/amo-id.md) 차원입니다. | varchar (255) |
 | **`post_`** | **`amo_ef_id`** | Adobe Advertising 통합에 사용되는 [AMO EF ID](/help/components/dimensions/amo-ef-id.md) 차원입니다. | varchar (255) |
 | | **`browser`** | 브라우저를 나타내는 숫자 ID. `browser.tsv` 조회 테이블을 참조합니다. | int 부호 없음 |
@@ -111,7 +85,7 @@ ht-degree: 78%
 | | **`first_hit_referrer`** | 방문자의 첫 번째 참조 URL. | varchar (255) |
 | | **`first_hit_ref_domain`** | [원래 참조 도메인](/help/components/dimensions/original-referring-domain.md) 차원. `first_hit_referrer`를 기반으로 합니다. 방문자의 첫 번째 참조 도메인입니다. | varchar (100) |
 | | **`first_hit_ref_type`** | 방문자의 최초 레퍼러 유형을 나타내는 숫자 ID. `referrer_type.tsv` 조회 테이블을 참조합니다. | tinyint 부호 없음 |
-| | **`first_hit_time_gmt`** | UNIX® 시간에서 방문자의 첫 번째 히트 타임스탬프입니다. | int |
+| | **`first_hit_time_gmt`** | 방문자의 첫 번째 히트의 타임스탬프(UNIX® 시간)입니다. | int |
 | | **`geo_city`** | IP를 기반으로 하는 히트가 발생한 시/군/구의 이름. [도시](/help/components/dimensions/cities.md) 차원에 사용됩니다. | char (32) |
 | | **`geo_country`** | IP를 기반으로 하는 히트가 발생한 국가의 약어. [국가](/help/components/dimensions/countries.md) 차원에 사용됩니다. | char (4) |
 | | **`geo_dma`** | IP를 기반으로 하는 히트가 발생한 인구 통계학적 지역의 숫자 ID. [US DMA](/help/components/dimensions/us-dma.md) 차원에 사용됩니다. | int 부호 없음 |
@@ -120,7 +94,7 @@ ht-degree: 78%
 | | **`hitid_high`** | 히트를 식별하기 위해 `hitid_low`와 함께 사용됩니다. | bigint 부호 없음 |
 | | **`hitid_low`** | 히트를 식별하기 위해 `hitid_high`와 함께 사용됩니다. | bigint 부호 없음 |
 | | **`hit_source`** | 히트가 발생한 소스. 히트 소스 1과 2가 청구됩니다. <br>1: 타임스탬프가 없는 표준 이미지 요청 <br>2: 타임스탬프가 있는 표준 이미지 요청 <br>3: 타임스탬프가 있는 라이브 데이터 소스 업로드 <br>4: 사용되지 않음 <br>5: 일반 데이터 소스 업로드 <br>6: 더 이상 사용되지 않음, 데이터 소스 업로드 전체 처리 <br>7: TransactionID 데이터 소스 업로드 <br>8: 더 이상 사용되지 않음, Adobe Advertising 데이터 소스의 이전 버전 <br>9: 더 이상 사용되지 않음, Adobe Social 요약 지표 <br>10: Audience Manager 서버측 전달이 사용됨 | tinyint 부호 없음 |
-| | **`hit_time_gmt`** | 히트 Adobe 데이터 수집 서버의 타임스탬프가 UNIX® 시간을 기준으로 히트를 받았습니다. | int |
+| | **`hit_time_gmt`** | Adobe 데이터 수집 서버가 히트를 수신한 시점의 타임스탬프(UNIX® 시간 기준)입니다. | int |
 | | **`hourly_visitor`** | 히트가 새로운 시간별 방문자인지 판별하는 플래그. | tinyint 부호 없음 |
 | | **`ip`** | 이미지 요청의 HTTP 헤더를 기반으로 한 IPv4 주소입니다. `ipv6`과 상호 배타적입니다. 이 열에 난독화되지 않은 IP 주소가 포함된 경우 `ipv6`은 비어 있습니다. | char (20) |
 | | **`ipv6`** | 압축된 IPv6 주소입니다(사용 가능한 경우). `ip`과 상호 배타적입니다. 이 열에 난독화되지 않은 IP 주소가 포함된 경우 `ip`은 비어 있습니다. | varchar(40) |
@@ -132,19 +106,19 @@ ht-degree: 78%
 | | **`last_purchase_num`** | [고객 충성도](/help/components/dimensions/customer-loyalty.md) 차원. 방문자가 수행한 이전 구매 횟수입니다. <br>0: 이전 구매 없음 (고객이 아님) <br>1: 1회 이전 구매 (신규 고객) <br>2: 2회 이전 구매 (재방문 고객) <br>3: 3회 이상 이전 구매 (단골 고객) | int 부호 없음 |
 | | **`last_purchase_time_gmt`** | [[!UICONTROL 마지막 구매 이후 일수]](/help/components/dimensions/days-since-last-purchase.md) 차원을 계산하는 데 사용됩니다. 마지막으로 수행한 구매의 타임스탬프(UNIX® 시간)입니다. 이전에 구입한 적이 없는 최초 구매 및 방문자의 경우 이 값은 `0`입니다. | int |
 | | **`latlon1`** | 위치 (10km까지) | varchar (255) |
-| | **`latlon23`** | 위치 (100m까지) | varchar (255) |
-| | **`latlon45`** | 위치 (1m까지) | varchar (255) |
+| | **`latlon23`** | 위치 (100 m까지) | varchar (255) |
+| | **`latlon45`** | 위치 (1 m까지) | varchar (255) |
 | | **`mcvisid`** | CX Enterprise 방문자 ID. 19자리에 채워진 두 개의 연결된 64비트 숫자로 구성된 128비트 숫자. | varchar (255) |
 | **`post_`** | **`mc_audiences`** | 방문자가 속한 Audience Manager 세그먼트 ID 목록입니다. `post_mc_audiences` 열은 구분 기호를 `--**--`로 변경합니다. | 텍스트 |
-| **`post_`** | **`mobileaction`** | 모바일 작업입니다. 모바일 구현에서 `trackAction`이 호출되면 자동으로 수집됩니다. 앱에서 경로를 지정하는 자동 작업을 허용합니다. | varchar (100) |
+| **`post_`** | **`mobileaction`** | 모바일 작업입니다. 모바일 구현에서 `trackAction`이 호출되면 자동으로 수집됩니다. 앱에서 자동 액션 경로 지정을 허용합니다. | varchar (100) |
 | **`post_`** | **`mobileappid`** | 모바일 앱 ID입니다. 애플리케이션 이름과 버전을 다음 포맷으로 저장: `[AppName] [BundleVersion]` | varchar (255) |
 | | **`mobileappperformanceappid`** | Apteligent Data Connector에서 사용됩니다. Apteligent에 사용되는 앱 ID입니다. | varchar (255) |
 | | **`mobileappperformancecrashid`** | Apteligent Data Connector에서 사용됩니다. Apteligent에 사용되는 충돌 ID입니다. | varchar (255) |
-| | **`mobileappstoreobjectid`** | [!DNL Appfigures] Data Connector에서 사용됩니다. 앱스토어 오브젝트 ID. | varchar (255) |
-| | **`mobilebeaconmajor`** | Mobile Services 비콘 Major | varchar (100) |
-| | **`mobilebeaconminor`** | Mobile Services 비콘 Minor | varchar (100) |
-| | **`mobilebeaconproximity`** | Mobile Services 비콘 Proximity | varchar (255) |
-| | **`mobilebeaconuuid`** | Mobile Services 비콘 UUID | varchar (100) |
+| | **`mobileappstoreobjectid`** | [!DNL Appfigures] Data Connector에서 사용됩니다. 앱 스토어 오브젝트 ID. | varchar (255) |
+| | **`mobilebeaconmajor`** | 모바일 서비스 비콘 Major | varchar (100) |
+| | **`mobilebeaconminor`** | 모바일 서비스 비콘 Minor | varchar (100) |
+| | **`mobilebeaconproximity`** | 모바일 서비스 비콘 Proximity | varchar (255) |
+| | **`mobilebeaconuuid`** | 모바일 서비스 비콘 UUID | varchar (100) |
 | **`post_`** | **`mobilecampaigncontent`** | 링크를 표시한 콘텐츠의 이름 또는 ID. 모바일 앱 획득을 통해 채워집니다. | varchar (255) |
 | **`post_`** | **`mobilecampaignmedium`** | 배너 또는 이메일과 같은 마케팅 매체. 모바일 앱 획득을 통해 채워집니다. | varchar (255) |
 | **`post_`** | **`mobilecampaignname`** | 캠페인 변수에도 저장되는 캠페인의 이름. 모바일 앱 획득을 통해 채워집니다. | varchar (255) |
@@ -161,36 +135,36 @@ ht-degree: 78%
 | **`post_`** | **`mobilemessagebuttonname`** | 컨텍스트 데이터 변수 `a.message.button.id`에서 수집됩니다. 메시지를 닫은 버튼을 식별하는 인앱 메시지에 사용됩니다. | varchar (100) |
 | **`post_`** | **`mobilemessageid`** | 인앱 메시지 ID | varchar (255) |
 | **`post_`** | **`mobilemessageonline`** | 인앱 메시지 온라인 | varchar (255) |
-| **`post_`** | **`mobilemessagepushoptin`** | 컨텍스트 데이터 변수 `a.push.optin`에서 수집됩니다. 사용자가 푸시 메시지를 사용할 때 “true”로 설정됩니다. 그러지 않는 경우에는 값이 “false”입니다. | varchar (255) |
+| **`post_`** | **`mobilemessagepushoptin`** | 컨텍스트 데이터 변수 `a.push.optin`에서 수집됩니다. 사용자가 푸시 메시지 수신에 동의하면 “true”로 설정되고, 그렇지 않으면 값은 “false”입니다. | varchar (255) |
 | **`post_`** | **`mobilemessagepushpayloadid`** | 컨텍스트 데이터 변수 `a.push.payloadid`에서 수집됩니다. 푸시 메시지에 페이로드 식별자로 사용됩니다. | varchar (255) |
-| **`post_`** | **`mobileosversion`** | Mobile Services 운영 체제 버전 | varchar (255) |
+| **`post_`** | **`mobileosversion`** | 모바일 서비스 운영 체제 버전 | varchar (255) |
 | | **`mobileplaceaccuracy`** | 컨텍스트 데이터 변수 `a.loc.acc`에서 수집됩니다. 수집 시 GPS의 정확도를 미터 단위로 나타냅니다. | varchar (255) |
 | | **`mobileplacecategory`** | 컨텍스트 데이터 변수 `a.loc.category`에서 수집됩니다. 특정 위치의 카테고리를 설명합니다. | varchar (255) |
 | | **`mobileplaceid`** | 컨텍스트 데이터 변수 `a.loc.id`에서 수집됩니다. 지정된 관심 영역에 대한 식별자입니다. | varchar (255) |
 | **`post_`** | **`mobilepushoptin`** | 모바일 서비스 푸시 옵트인 | varchar (255) |
 | **`post_`** | **`mobilepushpayloadid`** | 모바일 서비스 푸시 페이로드 ID | varchar (255) |
 | | **`mobilerelaunchcampaigncontent`** | Mobile Services 실행 콘텐츠 | varchar (255) |
-| | **`mobilerelaunchcampaignmedium`** | Mobile Services 실행 미디어 | varchar (255) |
+| | **`mobilerelaunchcampaignmedium`** | 모바일 서비스 실행 미디어 | varchar (255) |
 | | **`mobilerelaunchcampaignsource`** | Mobile Services 실행 소스 | varchar (255) |
 | | **`mobilerelaunchcampaignterm`** | Mobile Services 실행 용어 | varchar (255) |
 | | **`mobilerelaunchcampaigntrackingcode`** | 컨텍스트 데이터 변수 `a.launch.campaign.trackingcode`에서 수집됩니다. 실행 캠페인에 대한 추적 코드로 획득에 사용됩니다. | varchar (255) |
 | **`post_`** | **`mobileresolution`** | 모바일 디바이스의 해상도입니다. `[Width] x [Height]` 픽셀 단위. | varchar (255) |
 | | **`mobile_id`** | 사용자가 모바일 디바이스를 사용하는 경우 디바이스의 숫자 ID입니다. `mobile_attributes.tsv`[동적 조회](dynamic-lookups.md)의 키 값입니다. | int |
-| | **`monthly_visitor`** | 해당 방문자가 현재 월에 처음 방문하는 방문자인지 여부를 판단하는 플래그. | tinyint 부호 없음 |
+| | **`monthly_visitor`** | 해당 방문자가 현재 월에 고유한 방문자인지 여부를 판단하는 플래그. | tinyint 부호 없음 |
 | **`post_`** | **`mvvar1`** - **`mvvar3`** | [목록 변수](/help/implement/vars/page-vars/list.md) 값. 구현에 따라 구분된 사용자 정의 값 목록을 포함합니다. `post_mvvar1` - `post_mvvar3`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | 텍스트 |
 | **`post_`** | **`mvvar1_instances`** - **`mvvar3_instances`** | 현재 히트에 설정된 목록 변수 값입니다. 원래 구분 기호를 `--**--`로 바꿉니다. 일반적으로 `post` 열에는 데이터가 없습니다. | 텍스트 |
-| | **`new_visit`** | 현재 히트가 새 방문인지를 판별하는 플래그. 30분 동안 방문 활동이 없으면 Adobe 서버에서 설정합니다. | tinyint 부호 없음 |
+| | **`new_visit`** | 현재 히트가 새 방문인지를 판별하는 플래그. 30분 동안 방문 활동이 없으면 Adobe에서 설정합니다. | tinyint 부호 없음 |
 | | **`os`** | 방문자의 운영 체제를 나타내는 숫자 ID. `user_agent` 열을 기반으로 합니다. `operating_system.tsv` 표준 조회 및 `operating_system_type.tsv` [동적 조회](dynamic-lookups.md)의 키 값입니다. | int 부호 없음 |
 | **`post_`** | **`pagename`** | [페이지](/help/components/dimensions/page.md) 차원. [`pagename`](/help/implement/vars/page-vars/pagename.md) 변수가 비어 있으면 Analytics가 `page_url`을 대신 사용합니다. | varchar (100) |
 | **`post_`** | **`pagename_no_url`** | `pagename`과 비슷하지만 `page_url`로 대체되지 않습니다. `post` 열만 사용할 수 있습니다. | varchar (100) |
-| **`post_`** | **`page_event`** | 이미지 요청(표준 히트, 다운로드 링크, 사용자 정의 링크, 종료 링크)에서 전송된 히트 유형입니다. [페이지 이벤트 조회](datafeeds-page-event.md)를 참조하십시오. | tinyint 부호 없음 |
-| **`post_`** | **`page_event_var1`** | 링크 추적 이미지 요청에서만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 정의 링크의 URL입니다. | 텍스트 |
+| **`post_`** | **`page_event`** | 이미지 요청(표준 히트, 다운로드 링크, 사용자 지정 링크, 종료 링크)에서 전송된 히트 유형입니다. [페이지 이벤트 조회](datafeeds-page-event.md)를 참조하십시오. | tinyint 부호 없음 |
+| **`post_`** | **`page_event_var1`** | 링크 추적 이미지 요청에서만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 지정 링크의 URL입니다. | 텍스트 |
 | **`post_`** | **`page_event_var2`** | 링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 지정 이름 (지정된 경우). `page_event`의 값에 따라 [사용자 정의 링크](/help/components/dimensions/custom-link.md), [다운로드 링크](/help/components/dimensions/download-link.md) 또는 [종료 링크](/help/components/dimensions/exit-link.md)를 설정합니다. | varchar(100) |
 | **`post_`** | **`page_type`** | 일반적으로 404 페이지에 사용되는 [페이지를 찾을 수 없음](/help/components/dimensions/pages-not-found.md) 차원. | char (20) |
 | **`post_`** | **`page_url`** | **`page_url`**: 히트의 URL입니다. 텍스트 데이터 형식을 사용합니다.<br>**`post_page_url`**: 링크 추적 이미지 요청([`tl()`](/help/implement/vars/functions/tl-method.md))을 제거했습니다. varchar(255)의 데이터 형식을 사용합니다. | text<br>varchar(255) |
-| | **`paid_search`** | 히트가 유료 검색 발견과 일치하는 지 판별하는 플래그. | tinyint 부호 없음 |
-| **`post_`** | **`persistent_cookie`** | [영구적 쿠키 지원](/help/components/dimensions/persistent-cookie-support.md) 차원에 사용되는 변수입니다. 방문자가 각 히트 후 삭제되지 않은 쿠키를 지원하는지 여부를 나타냅니다. | char (1) |
-| **`post_`** | **`pointofinterest`** | Mobile Services 관심 영역 이름 | varchar (255) |
+| | **`paid_search`** | 히트가 유료 검색 감지와 일치하는지 판별하는 플래그. | tinyint 부호 없음 |
+| **`post_`** | **`persistent_cookie`** | [영구적 쿠키 지원](/help/components/dimensions/persistent-cookie-support.md) 차원에 사용되는 변수입니다. 각 히트 후 삭제되지 않는 쿠키를 방문자가 지원하는지 여부를 나타냅니다. | char (1) |
+| **`post_`** | **`pointofinterest`** | 모바일 서비스 관심 영역 이름 | varchar (255) |
 | **`post_`** | **`pointofinterestdistance`** | Mobile Services 관심 영역 중앙까지의 거리 | varchar (255) |
 | **`post_`** | **`product_list`** | [`products`](/help/implement/vars/page-vars/products.md) 페이지 변수. [카테고리](/help/components/dimensions/category.md), [제품](/help/components/dimensions/product.md), [판매량](/help/components/metrics/units.md), [매출](/help/components/metrics/revenue.md)등 여러 차원과 지표를 채우는 데 도움이 됩니다. | 텍스트 |
 | **`post_`** | **`prop1`** - **`prop75`** | 사용자 정의 트래픽 변수 1 - 75. [Prop](/help/components/dimensions/prop.md) 차원에 사용됩니다. | varchar (100) |
@@ -200,9 +174,9 @@ ht-degree: 78%
 | | **`ref_domain`** | [참조 도메인](/help/components/dimensions/referring-domain.md) 차원. `referrer` 열을 기반으로 합니다. | varchar(100) |
 | | **`ref_type`** | 히트에 대한 참조 유형을 나타내는 숫자 ID. [레퍼러 유형](/help/components/dimensions/referrer-type.md) 차원에 사용됩니다.<br>1: 사이트 내부<br>2: 기타 웹 사이트<br>3: 검색 엔진<br>4: 하드 드라이브<br>5: USENET<br>6: 입력/책갈피 표시(레퍼러 없음)<br>7: 이메일<br>8: JavaScript 없음<br>9: 소셜 네트워크<br>10: 대화형 AI 도구 | tinyint 부호 없음 |
 | | **`resolution`** | 모니터의 해상도를 나타내는 숫자 ID. [모니터 해상도](/help/components/dimensions/monitor-resolution.md) 차원에 사용됩니다. `resolution.tsv` 조회 테이블을 사용합니다. | smallint 부호 없음 |
-| **`post_`** | **`search_engine`** | 방문자에게 사이트를 참조하도록 하는 검색 엔진을 나타내는 숫자 ID. [검색 엔진](/help/components/dimensions/search-engine.md) 차원에 사용됩니다. `search_engines.tsv` 조회 테이블을 참조합니다. | smallint 부호 없음 |
-| | **`search_page_num`** | [모든 검색 페이지 등급](/help/components/dimensions/all-search-page-rank.md) 차원에 사용됩니다. 사용자가 사이트를 클릭하기 전에 사이트가 표시된 검색 결과 페이지를 나타냅니다. | smallint 부호 없음 |
-| | **`secondary_hit`** | 히트가 보조 히트인지 여부를 결정하는 플래그. 이 플래그는 일반적으로 히트 수를 복사하는 다중 세트 태그 지정 및 VISTA 규칙에서 시작됩니다. | tinyint 부호 없음 |
+| **`post_`** | **`search_engine`** | 방문자를 사이트로 유입시킨 검색 엔진을 나타내는 숫자 ID. [검색 엔진](/help/components/dimensions/search-engine.md) 차원에 사용됩니다. `search_engines.tsv` 조회 테이블을 참조합니다. | smallint 부호 없음 |
+| | **`search_page_num`** | [모든 검색 페이지 등급](/help/components/dimensions/all-search-page-rank.md) 차원에 사용됩니다. 사용자가 사이트를 클릭하기 전에 사이트가 표시된 검색 결과의 어느 페이지였는지를 나타냅니다. | smallint 부호 없음 |
+| | **`secondary_hit`** | 히트가 보조 히트인지 여부를 결정하는 플래그. 이 플래그는 일반적으로 히트를 복사하는 다중 세트 태그 지정 및 VISTA 규칙에서 시작됩니다. | tinyint 부호 없음 |
 | | **`sourceid`** | 소스 ID | int 부호 없음 |
 | | **`stats_server`** | 사용하지 않습니다. 히트를 처리한 Adobe 내부 서버입니다. | char (30) |
 | **`post_`** | **`s_kwcid`** | Adobe Advertising 통합에 사용되는 키워드 ID입니다. | varchar (255) |
@@ -216,7 +190,7 @@ ht-degree: 78%
 | | **`userid`** | 사용하지 않습니다. 보고서 세트 ID의 숫자 ID. 대신 `username`를 사용하십시오. | int 부호 없음 |
 | | **`username`** | 히트에 대한 보고서 세트 ID. | char (40) |
 | | **`user_agent`** | 이미지 요청의 HTTP 헤더에서 전송된 사용자 에이전트 문자열. | 텍스트 |
-| | **`user_hash`** | 사용하지 않습니다. 보고서 세트 ID의 해시. 대신 `username`를 사용하십시오. | int 부호 없음 |
+| | **`user_hash`** | 사용하지 않습니다. 보고서 세트 ID의 해시 값입니다. 대신 `username`를 사용하십시오. | int 부호 없음 |
 | **`post_`** | **`user_server`** | [서버](/help/components/dimensions/server.md) 차원에 사용됩니다. | varchar(100) |
 | | **`va_closer_detail`** | [마지막 터치 세부 사항](/help/components/dimensions/last-touch-detail.md) 차원. | varchar(255) |
 | | **`va_closer_id`** | [마지막 터치 채널](/help/components/dimensions/last-touch-channel.md) 차원을 식별하는 숫자 ID. 이 ID에 대한 조회는 마케팅 채널 관리자에서 찾을 수 있습니다. | tinyint 부호 없음 |
@@ -224,49 +198,49 @@ ht-degree: 78%
 | | **`va_finder_id`** | [첫 번째 터치 채널](/help/components/dimensions/first-touch-channel.md) 차원을 식별하는 숫자 ID. 이 ID에 대한 조회는 마케팅 채널 관리자에서 찾을 수 있습니다. | tinyint 부호 없음 |
 | | **`va_instance_event`** | 마케팅 채널 [인스턴스](/help/components/metrics/instances.md)를 식별하는 플래그. | tinyint 부호 없음 |
 | | **`va_new_engagement`** | 마케팅 채널 [새 참여](/help/components/metrics/new-engagements.md)를 식별하는 플래그. | tinyint 부호 없음 |
-| **`post_`** | **`video`** | [콘텐츠](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoad`** | [광고](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoadinpod`** | [창 위치의 광고](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoadlength`** | [광고 길이(변수)](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-length) 스트리밍 미디어 서비스 차원. | 정수 |
-| **`post_`** | **`videoadname`** | [광고 이름(변수)](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-name) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoadplayername`** | [광고 플레이어 이름](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-player-name) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoadpod`** | [광고 창](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-pod) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoadvertiser`** | [광고주](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/advertiser) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| | **`videoaudioalbum`** | [앨범](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/album) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| | **`videoaudioartist`** | [아티스트](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/artist) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| | **`videoaudioauthor`** | [작성자](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/author) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| | **`videoaudiolabel`** | [레이블](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/label) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| | **`videoaudiopublisher`** | [게시자](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/publisher) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| | **`videoaudiostation`** | [방송국](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/station) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videocampaign`** | [캠페인 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/campaign-id) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videochannel`** | [콘텐츠 채널](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-channel) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videochapter`** | [챕터](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/chapter) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videocontenttype`** | [콘텐츠 유형](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-type) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videodaypart`** | [방송 시간대](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/day-part) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoepisode`** | [에피소드](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/episode) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videofeedtype`** | [미디어 피드 유형](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-feed-type) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videogenre`** | [장르](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/genre) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 쉼표로 구분된 여러 값을 사용할 수 있습니다. | 텍스트 |
-| **`post_`** | **`videolength`** | [콘텐츠 길이(변수)](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-length) 스트리밍 미디어 서비스 차원. | 정수 |
-| **`post_`** | **`videomvpd`** | [MVPD](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/mvpd) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoname`** | [콘텐츠 이름(변수)](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-name) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videonetwork`** | [네트워크](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/network) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videopath`** | [미디어 경로](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-path) 스트리밍 미디어 서비스 차원. | varchar(100) |
-| **`post_`** | **`videoplayername`** | [콘텐츠 플레이어 이름](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-player-name) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videoqoebitrateaverageevar`** | [평균 비트율](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/average-bitrate) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoqoebitratechangecountevar`** | [비트율 변경](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/bitrate-changes) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoqoebuffercountevar`** | [버퍼 이벤트](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/buffer-events) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoqoebuffertimeevar`** | [총 버퍼 지속 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/total-buffer-duration) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoqoedroppedframecountevar`** | [드롭된 프레임](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/dropped-frames) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoqoeerrorcountevar`** | [오류](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/errors) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| | **`videoqoeextneralerrors`** | [외부 오류 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/external-error-ids) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 여러 값을 사용할 수 있습니다. | 텍스트 |
-| **`post_`** | **`videoqoeplayersdkerrors`** | [플레이어 SDK 오류 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 여러 값을 사용할 수 있습니다. | 텍스트 |
-| **`post_`** | **`videoqoetimetostartevar`** | [시작 시간](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/time-to-start) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoseason`** | [시즌](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/season) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videosegment`** | [콘텐츠 세그먼트](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-segment) 스트리밍 미디어 서비스 차원. | varchar (255) |
-| **`post_`** | **`videosessionid`** | [미디어 세션 ID](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-session-id) 스트리밍 미디어 서비스 차원입니다. | varchar (255) |
-| **`post_`** | **`videoshow`** | [표시](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/show) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| **`post_`** | **`videoshowtype`** | [표시 유형](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/show-type) 스트리밍 미디어 서비스 차원. | varchar(255) |
-| | **`videostreamtype`** | [스트림 유형](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/stream-type) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`video`** | [콘텐츠](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoad`** | [광고](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoadinpod`** | [창 위치의 광고](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoadlength`** | [광고 길이(변수)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) 스트리밍 미디어 서비스 차원. | 정수 |
+| **`post_`** | **`videoadname`** | [광고 이름(변수)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoadplayername`** | [광고 플레이어 이름](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoadpod`** | [광고 창](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoadvertiser`** | [광고주](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| | **`videoaudioalbum`** | [앨범](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| | **`videoaudioartist`** | [아티스트](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| | **`videoaudioauthor`** | [작성자](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| | **`videoaudiolabel`** | [레이블](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| | **`videoaudiopublisher`** | [게시자](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| | **`videoaudiostation`** | [방송국](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videocampaign`** | [캠페인 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videochannel`** | [콘텐츠 채널](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videochapter`** | [챕터](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videocontenttype`** | [콘텐츠 유형](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videodaypart`** | [방송 시간대](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoepisode`** | [에피소드](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videofeedtype`** | [미디어 피드 유형](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videogenre`** | [장르](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 쉼표로 구분된 여러 값을 사용할 수 있습니다. | 텍스트 |
+| **`post_`** | **`videolength`** | [콘텐츠 길이(변수)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) 스트리밍 미디어 서비스 차원. | 정수 |
+| **`post_`** | **`videomvpd`** | [MVPD](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoname`** | [콘텐츠 이름(변수)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videonetwork`** | [네트워크](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videopath`** | [미디어 경로](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path) 스트리밍 미디어 서비스 차원. | varchar(100) |
+| **`post_`** | **`videoplayername`** | [콘텐츠 플레이어 이름](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videoqoebitrateaverageevar`** | [평균 비트율](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoqoebitratechangecountevar`** | [비트율 변경](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoqoebuffercountevar`** | [버퍼 이벤트](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoqoebuffertimeevar`** | [총 버퍼 지속 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoqoedroppedframecountevar`** | [드롭된 프레임](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoqoeerrorcountevar`** | [오류](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| | **`videoqoeextneralerrors`** | [외부 오류 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 여러 값을 사용할 수 있습니다. | 텍스트 |
+| **`post_`** | **`videoqoeplayersdkerrors`** | [플레이어 SDK 오류 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) 스트리밍 미디어 서비스 차원. 이 차원을 사용하면 동일한 히트에서 여러 값을 사용할 수 있습니다. | 텍스트 |
+| **`post_`** | **`videoqoetimetostartevar`** | [시작 시간](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoseason`** | [시즌](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videosegment`** | [콘텐츠 세그먼트](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment) 스트리밍 미디어 서비스 차원. | varchar (255) |
+| **`post_`** | **`videosessionid`** | [미디어 세션 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id) 스트리밍 미디어 서비스 차원입니다. | varchar (255) |
+| **`post_`** | **`videoshow`** | [표시](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| **`post_`** | **`videoshowtype`** | [표시 유형](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type) 스트리밍 미디어 서비스 차원. | varchar(255) |
+| | **`videostreamtype`** | [스트림 유형](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type) 스트리밍 미디어 서비스 차원. | varchar(255) |
 | **`post_`** | **`visid_high`** | 방문자를 고유하게 식별하기 위해 `visid_low`와 함께 사용됩니다. | bigint 부호 없음 |
 | **`post_`** | **`visid_low`** | 방문자를 고유하게 식별하기 위해 `visid_high`와 함께 사용됩니다. | bigint 부호 없음 |
 | | **`visid_new`** | 히트에 새로 생성된 방문자 ID가 포함되어 있는지 여부를 결정하는 플래그. | char (1) |

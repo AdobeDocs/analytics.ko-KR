@@ -5,21 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/4321rEzlE5cFkTZTHsyyG17E3cl3wXHeJ6BZxdoe6xQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 857
@@ -37,7 +27,7 @@ Analysis Workspace는 형식이 이 플러그인과 약간 다르게 지정된 �
 
 >[!IMPORTANT]
 >
->이 플러그인의 버전 4.0 이상은 이전 버전과 상당히 다릅니다. 따라서 이 플러그인을 &quot;처음부터&quot;로 새로 구현하는 것이 좋습니다. 버전 4.0 이전의 플러그인을 참조하는 코드는 이 플러그인의 현재 버전과 호환되지 않습니다.
+>이 플러그인의 버전 4.0 이상은 이전 버전과 상당히 다릅니다. Adobe는 이 플러그인을 &quot;처음부터&quot; 구현할 것을 강력히 권장합니다. 버전 4.0 이전의 플러그인을 참조하는 코드는 이 플러그인의 현재 버전과 호환되지 않습니다.
 
 ## 웹 SDK 확장을 사용하여 플러그인 설치
 
@@ -70,9 +60,9 @@ Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인�
    * 조건: 없음
    * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
-   * 확장: 일반적인 Analytics 플러그인
+   * 확장 기능: Common Analytics Plugins
    * 작업 유형: getTimeParting 초기화
-1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
+1. 변경 사항을 저장하고 규칙에 게시합니다.
 
 ## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
@@ -165,7 +155,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 6.0 (2018년 8월 14일)
 
-* 국제 표준에 맞게 전체 재작성. 이제 일광 절약 시간과 모든 시간대를 적절하게 변환합니다.
+* 국제 표준에 맞게 전체 재작성. 이제 일광 절약 시간제와 모든 시간대를 적절하게 변환합니다.
 
 ### 5.0 (2018년 4월 17일)
 
@@ -174,7 +164,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->이 플러그인의 이전 버전은 미래의 모든 연도를 수용하지 못했습니다. 이 플러그인의 이전 버전을 사용하는 경우 JavaScript 오류 및 데이터 손실을 방지하려면 최신 버전으로 업그레이드하는 것이 좋습니다. 이 플러그인을 업그레이드할 수 없는 경우 플러그인 코드의 `s._tpdst` 변수에 미래의 해당 연도가 포함되어 있는지 확인하십시오.
+>이 플러그인의 이전 버전은 미래의 모든 연도를 지원하지 않았습니다. 이 플러그인의 이전 버전을 사용하는 경우 JavaScript 오류 및 데이터 손실을 방지하려면 최신 버전으로 업그레이드하는 것이 좋습니다. 이 플러그인을 업그레이드할 수 없는 경우 플러그인 코드의 `s._tpdst` 변수에 미래의 해당 연도가 포함되어 있는지 확인하십시오.
 
 ### 4.0 (2016년 8월 22일)
 

@@ -4,23 +4,11 @@ description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 TQID: https://experienceleague.adobe.com/2WMG5X3GNmogf-9Bbapq78pjVg5ibQQw7Bgb0qNpF1E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 475
@@ -54,11 +42,11 @@ prop은 구현의 사용자 지정 문자열을 포함하므로 조직에서 각
 
 기본적으로 Prop은 대/소문자를 구분하지 않습니다. 같은 값을 대소문자를 달리하여 (예: `"DOG"` 및 `"Dog"`)에 보낼 경우, Analysis Workspace는 동일한 차원 항목으로 함께 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대소문자가 사용됩니다. Data Warehouse는 요청 기간 동안 발생한 첫 번째 값을 표시합니다.
 
-prop 대/소문자를 구분하도록 지정할 수 있습니다. 어떤 prop에 대해서든 대소문자 구분을 활성화한 후 비활성화할 수도 있습니다. 대/소문자 구분을 전환하려면 보고서 세트 ID와 원하는 변수를 사용하여 Adobe 고객 지원 센터에 문의하십시오.
+prop 대/소문자를 구분하도록 지정할 수 있습니다. 어떤 prop에 대해서든 대소문자 구분을 활성화한 후 비활성화할 수도 있습니다. 보고서 세트 ID와 원하는 변수를 포함하여 대/소문자 구분을 전환하려면 Adobe 고객 지원 센터에 문의하십시오.
 
 >[!WARNING]
 >
->대/소문자 구분을 전환하면 차원 항목을 클리프할 수 있고, 세그먼트에 예기치 않은 결과가 발생하며, 필터에 문제가 발생합니다. 이 설정은 한 달 또는 1년의 시작과 같이 주요한 두 기간 간에 전환하는 것이 좋습니다.
+>대/소문자 구분을 전환하면 차원 항목을 클리프할 수 있고, 세그먼트에 예기치 않은 결과가 발생하며, 필터에 문제가 발생합니다. Adobe는 이 설정을 한 달 또는 1년의 시작과 같은 두 주요 기간 사이에 전환할 것을 강력히 권장합니다.
 
 ## eVar에 대한 prop 값
 

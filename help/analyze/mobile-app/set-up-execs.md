@@ -5,20 +5,11 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 TQID: https://experienceleague.adobe.com/mejoGlgRAOHkpBAXtlVef4LcheWPXtg9TT7hHYIPtHU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 755
@@ -59,7 +50,7 @@ ht-degree: 96%
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
-다운로드하여 설치했으면 경영진 사용자가 자신의 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
+다운로드하여 설치했으면 경영진 사용자가 자신의 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다. Adobe ID와 Enterprise/Federated ID를 모두 지원합니다.
 
 ![앱 시작 화면](assets/welcome.png)
 
@@ -98,11 +89,11 @@ ht-degree: 96%
   * 화면을 아래로 당기면 스코어카드를 새로 고칠 수 있습니다.
 
 
-1. 타일에 대한 세부 분류가 어떻게 작동하는지 표시하려면 타일을 탭합니다.
+1. 타일에 대한 세부 분류가 어떻게 작동하는지 보려면 타일을 탭합니다.
 
    ![분류 보기](assets/sparkline.png)
 
-   * 스파크라인의 아무 지점이나 눌러 해당 포인트와 연관된 데이터를 라인에서 볼 수 있습니다.
+   * 스파크라인의 아무 지점이나 눌러 해당 지점과 연관된 데이터를 볼 수 있습니다.
 
    * 타일에 추가된 차원의 데이터를 표시하는 테이블이 포함됩니다. 아래쪽 화살표를 눌러 차원을 선택합니다. 타일에 추가된 차원이 없으면 테이블에 차트 데이터가 표시됩니다.
 
@@ -129,4 +120,4 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->2020년 10월부터 Adobe에서는 “Adobe Analytics 대시보드” 앱의 성능을 최적화하기 위해 일련의 향상된 기능을 출시하고 있습니다. 이러한 개선 사항은 스코어카드를 날짜로 채우는 데 사용되는 내역 Analytics 데이터를 캐시하는 데 중점을 둡니다(현재 날짜 제외). 이 데이터는 보안 Microsoft Azure 공용 클라우드 저장소 계정에서 최대 24시간 동안 캐시됩니다. 이러한 성능 개선 기능을 사용하지 않으려면 Adobe 계정 팀에 문의하십시오.
+>2020년 10월부터 Adobe에서는 “Adobe Analytics 대시보드” 앱의 성능을 최적화하기 위해 일련의 향상된 기능을 출시하고 있습니다. 이러한 개선 사항은 날짜가 포함된 스코어카드를 채우는 데 사용되는 과거 Analytics 데이터를 캐싱하는 데 중점을 둡니다(현재 날짜 제외). 이 데이터는 보안 Microsoft Azure 공용 클라우드 스토리지 계정에서 최대 24시간 동안 캐시됩니다. 이러한 성능 개선 기능을 사용하지 않으려면 Adobe 계정 팀에 문의하십시오.

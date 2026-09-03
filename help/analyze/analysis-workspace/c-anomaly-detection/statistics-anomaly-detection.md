@@ -5,21 +5,11 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 TQID: 'https://experienceleague.adobe.com/4DIICc89-1ppuJWmUpJBrDrOU7MH78dYBTCHTqkBE2E'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eed
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1101
@@ -40,9 +30,9 @@ Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기�
 시계열 모델의 선택은 오류 유형, 트렌드 및 시즌 (ETS)에 대한 다음의 조합을 기반으로 합니다 ([Hyndman et al. (2008)](https://link.springer.com/book/10.1007/978-3-540-71918-2). 특히 이 알고리즘은 다음 조합을 시도합니다.
 
 1. ANA (additive error, no trend, additive seasonality)
-1. AAA (additive error, additive trend, additive seasonality)
+1. AAA (가산 오류, 가산 추세, 가산 계절성)
 1. MNM (multiplicative error, no trend, multiplicative seasonality)
-1. MNA (multiplicative error, no trend, additive seasonality)
+1. MNA (승산 오류, 추세 없음, 가산 계절성)
 1. AAN (additive error, additive trend, no seasonality)
 
 알고리즘에서는 MAPE(mean absolute percentage error)가 가장 좋은 조합을 선택하여 각 조합의 적합성을 테스트합니다. 그러나 가장 좋은 시계열 모델의 MAPE가 15%보다 크면 기능 필터링이 적용됩니다. 일반적으로, 반복 내용이 많은 데이터(예: 주 단위 또는 월 단위 반복)는 시계열 모델에 가장 적합합니다.
@@ -76,9 +66,9 @@ Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기�
 
 ## 시간별 세부 기간에 대한 예외 항목 탐지
 
-시간별 데이터는 일별 세부 기간 알고리즘이 수행되는 것과 동일한 시계열 알고리즘 접근 방식에 따라 다릅니다. 하지만, 이는 주말/주중 주기와 24시간 주기, 이렇게 두 개의 트렌드 패턴에도 강하게 의존합니다. 이 두 개의 시즌 효과를 캡처하기 위해 시간별 알고리즘은 위에 요약된 동일한 접근 방식을 사용하여 주말 및 주중에 대한 별도의 두 모델을 구성합니다.
+시간별 데이터는 일별 세부 기간 알고리즘과 동일한 시계열 알고리즘 접근 방식을 사용합니다. 하지만, 이는 주말/주중 주기와 24시간 주기, 이렇게 두 개의 트렌드 패턴에도 강하게 의존합니다. 이 두 개의 시즌 효과를 캡처하기 위해 시간별 알고리즘은 위에 요약된 동일한 접근 방식을 사용하여 주말 및 주중에 대한 별도의 두 모델을 구성합니다.
 
-시간별 트렌드에 대한 교육 기간은 336시간 전환 확인 기간에 따라 다릅니다.
+시간별 트렌드의 학습 기간은 336시간의 전환 확인 기간에 의존합니다.
 
 ## 주별 및 월별 세부 기간에 대한 예외 항목 탐지
 
@@ -91,7 +81,7 @@ Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기�
 
 ## 기여도 분석에 사용된 통계 기법
 
-기여도 분석은 Adobe Analytics에서 관찰된 예외 항목에 기여한 사항을 드러내도록 설계된 집중 머신 러닝 프로세스입니다. 이 프로세스의 목적은 사용자가 집중 영역이나 추가 분석 기회를 원래 가능한 것보다 훨씬 더 빨리 찾는 것을 돕는 것입니다.
+기여도 분석은 Adobe Analytics에서 관찰된 이상 현상에 기여하는 요인을 밝혀내도록 설계된 집중 머신 러닝 프로세스입니다. 이 프로세스의 목적은 사용자가 집중 영역이나 추가 분석 기회를 원래 가능한 것보다 훨씬 더 빨리 찾는 것을 돕는 것입니다.
 
 기여도 분석은 사용자의 기여도 분석 보고서에 사용할 수 있는 모든 단일 차원 항목에 대해 두 부분으로 구성된 알고리즘을 수행합니다. 알고리즘은 다음 순서로 작동합니다.
 

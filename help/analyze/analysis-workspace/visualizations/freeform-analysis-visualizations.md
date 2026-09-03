@@ -6,24 +6,11 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 TQID: https://experienceleague.adobe.com/5a9a3HwQ5kwfnE7Co55yPS4rIGJho4yXmWJb4Kv46bs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1725
@@ -33,7 +20,7 @@ ht-degree: 88%
 
 # 시각화 개요
 
-Workspace는 데이터를 시각적으로 나타내는 다양한 시각화를 생성할 수 있도록 해 줍니다. 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산포도 등과 같은 데이터.
+Workspace는 데이터를 시각적으로 나타내는 다양한 시각화를 생성할 수 있도록 해 줍니다. 예를 들어 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산포도 등이 있습니다.
 
 ## 유형
 
@@ -52,10 +39,10 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 시각화는 방문자가 페이지의 사전 정의된 순서를 떠나고(폴아웃) 계속 따라가는(폴스루) 위치를 보여 줍니다. |
 | ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [플로우](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | 플로우 시각화는 고객이 웹 사이트 및 앱을 통과하는 정확한 경로를 보여 줍니다. |
 | ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블 시각화는 대화형 시각화입니다. 자유 형식 테이블 시각화는 Workspace의 데이터 분석을 위한 기반입니다. |
-| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md) | 히스토그램 시각화는 지표 볼륨을 기반으로 사람, 방문자 또는 이벤트를 버킷으로 버킷화합니다. |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md) | 히스토그램 시각화는 지표 볼륨을 기준으로 사람, 방문 또는 이벤트를 버킷으로 그룹화합니다. |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [가로 막대](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 가로 막대 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 보여 줍니다. |
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [스택 가로 막대](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 스택 가로 막대 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 보여 줍니다. |
-| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [주요 지표 요약](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 주요 지표 요약 시각화는 라인, 요약 변경 사항 및 요약 숫자 시각화를 결합합니다. |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [주요 지표 요약](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 주요 지표 요약 시각화는 라인, 요약 변경 및 요약 숫자 시각화를 결합합니다. |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [라인](/help/analyze/analysis-workspace/visualizations/line.md) | 라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 x축을 따라 시간을 사용합니다. |
 | ![지구](/help/assets/icons/Globe.svg) | [맵](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있도록 해 줍니다 |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [산포도](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 산포도 시각화는 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
@@ -110,7 +97,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
    * Workspace **[!UICONTROL 삽입]** 메뉴를 사용하여 시각화를 삽입합니다.
 
-   * 자유 형식 테이블의 컨텍스트 메뉴에서 **[!UICONTROL 시각화]**&#x200B;를 선택합니다. 그런 다음 하위 메뉴에서 시각화를 선택합니다. 테이블의 현재 선택에 따라 Workspace는 제공할 시각화를 결정하고 요청된 시각화를 구축하기 위해 데이터를 해석합니다.
+   * 자유 형식 테이블의 컨텍스트 메뉴에서 **[!UICONTROL 시각화]**&#x200B;를 선택합니다. 그런 다음 하위 메뉴에서 시각화를 선택합니다. 테이블의 현재 선택에 따라 Workspace는 제공할 시각화를 결정하고 요청된 시각화를 작성하기 위해 데이터를 해석합니다.
 
 [Bar](bar.md)의 [Line](line.md) 시각화와 같은 간단한 시각화를 추가하면 시각화는 가장 가까운 자유 형식 테이블을 데이터 소스로 사용합니다. 항상 시각화의 [데이터 원본](#data-source)을(를) 수정할 수 있습니다.
 
@@ -168,9 +155,9 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | **[!UICONTROL 시각화 유형]** | 데이터를 시각화하는 데 사용되는 시각화 유형을 변경합니다. |
 | **[!UICONTROL 세부 기간]** | 트렌드 시각화의 세부 기간을 변경합니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
 | **[!UICONTROL 백분율]** | 값을 백분율로 표시합니다. |
-| **[!UICONTROL 100% 스택]** | 차트를 100% 스택 시각화로 바꿉니다.  영역, 막대, 가로 막대로 구성된 스택 시각화에만 적용됩니다. |
+| **[!UICONTROL 100% 스택]** | 차트를 100% 누적 시각화로 바꿉니다.  영역, 막대 및 가로 막대 누적 시각화에만 적용됩니다. |
 | **[!UICONTROL 범례 표시]** | 범례 텍스트를 표시합니다. |
-| **[!UICONTROL 최대 항목 수 제한]** | 시각화에 표시되는 항목 수를 제한합니다. 선택하면 최대 항목 수를 정의합니다. |
+| **[!UICONTROL 최대 항목 수 제한]** | 시각화에 표시되는 항목 수를 제한합니다. 선택하면 최대 항목 수를 지정합니다. |
 | **[!UICONTROL 주석 표시]** | 이 시각화를 위해 작성된 주석을 표시합니다. |
 | **[!UICONTROL 제목 숨기기]** | 시각화의 제목을 숨깁니다. |
 | **[!UICONTROL Y축을 0에 고정]** | Y축의 하단을 0으로 강제 적용합니다. 차트에 표시된 모든 값이 0보다 매우 큰 경우 차트 기본값에 따라 Y축의 하단이 0이 아닌 값으로 지정됩니다. 이 옵션을 활성화하면 Y축이 0으로 강제 설정되고 차트가 다시 그려집니다. |
@@ -178,7 +165,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | **[!UICONTROL X축 표시]** | 시각화에 X축을 표시합니다. |
 | **[!UICONTROL Y축 표시]** | 시각화에 Y축을 표시합니다. |
 | **[!UICONTROL 라인에 바벨 표시]** | 콤보 차트 시각화에서 라인 시각화에 바벨을 표시합니다. |
-| **[!UICONTROL 표준화]** | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의의 크기가 다를 때는 동일한 비율이 도움이 됩니다. |
+| **[!UICONTROL 표준화]** | 지표를 등분 비례에 강제 적용합니다. 그려진 지표의 크기가 다를 때는 동일한 비율이 도움이 됩니다. |
 | **[!UICONTROL 예외 항목 표시]** | 예외 항목 탐지를 표시하여 선 그래프 및 자유 형식 테이블을 향상시킵니다. 라인 시각화의 예외 항목 탐지에는 예상 값(파선)과 예상 범위(음영 처리된 띠)가 포함됩니다. |
 | **[!UICONTROL 예측 표시]** | 예측 값을 표시하여 선 그래프와 자유 형식 테이블을 향상시킵니다. |
 | **[!UICONTROL 최소 표시]** | 시각화에 최소값을 보여 줍니다. |
@@ -199,11 +186,11 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | **[!UICONTROL 복사된 시각화 삽입]** | 복사한 시각화를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣기(삽입)할 수 있습니다. |
 | **[!UICONTROL 클립보드에 데이터 복사]** | 시각화에서 클립보드로 [데이터를 복사](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard)합니다. |
 | **[!UICONTROL 클립보드에 선택 항목 복사]** | 시각화에서 클립보드로 [선택 항목을 복사](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard)합니다. |
-| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | [로컬 장치에 시각화의 차원 항목을 다운로드](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv)(최대 50,000개)합니다. 선택한 차원에 최대 50,000개의 차원 항목. |
+| **[!UICONTROL CSV로 항목 다운로드(*차원 이름*)]** | [로컬 장치에 시각화의 차원 항목을 다운로드](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv)(최대 50,000개)합니다. 선택한 차원에는 최대 50,000개의 차원 항목을 사용할 수 있습니다. |
 | **[!UICONTROL 시각화 복사]** | 시각화를 복사하여 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 삽입할 수 있습니다. |
 | **[!UICONTROL 데이터 CSV 다운로드]** | 로컬 장치에 시각화의 [표시된 데이터를 다운로드합니다](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv). |
-| **[!UICONTROL 시각화 복제]** | 시각화를 정확하게 복제합니다. |
-| **[!UICONTROL 설명 편집]** | 시각화에 대한 텍스트 설명을 추가 (또는 편집)합니다. [텍스트](text.md)를 확인합니다. |
+| **[!UICONTROL 시각화 복제]** | 시각화의 동일한 복사본을 만듭니다. |
+| **[!UICONTROL 설명 편집]** | 시각화에 대한 텍스트 설명을 추가(또는 편집)합니다. [텍스트](text.md)를 확인합니다. |
 | **[!UICONTROL 시각화 링크 가져오기]** | 시각화에 대한 링크를 직접 복사하여 공유합니다. 링크 공유 대화 상자에 링크가 표시됩니다. 복사를 선택하면 링크를 클립보드에 복사할 수 있습니다. |
 | **[!UICONTROL 시작]** | 현재 시각화에 대한 구성을 삭제하여 처음부터 다시 구성할 수 있습니다. |
 

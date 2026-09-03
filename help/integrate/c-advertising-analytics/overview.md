@@ -4,27 +4,11 @@ title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 TQID: https://experienceleague.adobe.com/BY9Zpnhu8FzGDHePD-MuWtyMWOuJKRgC-wTr42-rlyU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1132
@@ -92,7 +76,7 @@ Advertising Analytics은 Analysis Workspace, Report Builder 및 Analytics Report
 | **[!UICONTROL 광고 표시 URL(AMO ID)]** | 광고에 사용되는 광고 표시 URL 오브젝트입니다. |
 | **[!UICONTROL 광고 대상 URL(AMO ID)]** | 광고에 할당된 랜딩 페이지 URL 또는 최종 URL입니다. |
 | **[!UICONTROL 네트워크(AMO ID)]** | 광고가 게재되는 네트워크입니다. Advertising Analytics의 경우 이 값은 항상 “Search”입니다. |
-| **[!UICONTROL 배치(AMO ID)]** | 관리되는 게재위치 웹 사이트입니다 (콘텐츠 네트워크의 경우). 관리되는 배치만 이 차원을 사용합니다. |
+| **[!UICONTROL 배치(AMO ID)]** | 관리되는 배치 웹 사이트입니다 (콘텐츠 네트워크의 경우). 관리되는 배치만 이 차원을 사용합니다. |
 | **[!UICONTROL 제품 대상(AMO ID)]** | PLA 광고에 사용되는 제품 대상 이름입니다 (실제 제품을 구매하지 않음). |
 | **[!UICONTROL 최적화(AMO ID)]** | Advertising Analytics에서 사용되지 않습니다. Adobe Advertising 고객만 사용합니다. |
 | **[!UICONTROL 장치(AMO ID)]** | 오늘은 사용되지 않습니다. 광고의 지정된 대상 디바이스 유형(예: 모바일, 데스크탑)에 대한 잠재적 향후 제품 개선을 위한 자리표시자 (방문자의 실제 디바이스가 아님)입니다. |

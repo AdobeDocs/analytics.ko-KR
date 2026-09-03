@@ -5,19 +5,11 @@ feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
 role: Developer
 TQID: 'https://experienceleague.adobe.com/S2ljH7WOuX6qvYplo-6k-MXw6FKG-vhk78EiGQFiImg'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cd
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 468
@@ -29,13 +21,13 @@ ht-degree: 89%
 
 Facebook 인스턴트 아티클을 사용하면 게시자가 Facebook에서 빠른 대화형 문서를 만들기 수 있습니다. 인스턴트 아티클은 모바일 웹보다 최고 10배 더 빠르게 콘텐츠를 로드할 수 있습니다.
 
-Facebook 인스턴트 아티클에 Adobe Analytics를 임베드하여 방문자 행동을 추적할 수 있습니다. 게시자 콘텐츠는 게시자의 웹 사이트가 아니라 Facebook 앱 내에 있으므로, 태깅 접근 방식은 표준 Analytics 구현과는 다소 다릅니다.
+Facebook 인스턴트 아티클에 Adobe Analytics를 임베드하여 방문자 행동을 추적할 수 있습니다. 게시자 콘텐츠는 게시자의 웹 사이트가 아니라 Facebook 앱 내에 있으므로, 태그 지정 접근 방식은 표준 Analytics 구현과는 다소 다릅니다.
 
 ## 워크플로
 
 Adobe Analytics를 구현하는 주요 워크플로는 다음과 같습니다.
 
-1. `stats.html` 페이지를 만듭니다. 이 페이지를 코딩하여 URL에서 쿼리 문자열 매개 변수를 가져오고 각 매개 변수를 Analytics 변수에 지정하십시오.
+1. `stats.html` 페이지를 만듭니다. 이 페이지를 코딩하여 URL에서 쿼리 문자열 매개변수를 가져오고 각 매개변수를 Analytics 변수에 할당하십시오.
 1. 웹 서버에서 `stats.html` 페이지를 호스팅합니다.
 1. iframe의 `stats.html` 파일을 참조하여 Facebook 인스턴트 아티클에 Analytics를 구현합니다.
 1. iframe `src` 속성에 쿼리 문자열 매개 변수를 포함합니다.
@@ -107,4 +99,4 @@ Facebook 인스턴트 아티클 콘텐츠를 만들 때 분석 HTML 콘텐츠를
 
 ## Facebook 인스턴트 아티클 및 개인 정보
 
-분석 HTML 페이지가 웹 서버에 호스팅되는 한, Adobe에서는 모든 Facebook 인스턴트 아티클에서 기존의 개인정보 처리방침을 지원합니다. 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 Facebook 인스턴트 아티클의 추적 또한 옵트 아웃됩니다. 이 유틸리티 페이지는 또한 방문자 ID 서비스를 지원하므로 Facebook 인스턴트 아티클 데이터를 나머지 CX Enterprise와 통합할 수 있습니다.
+Adobe Analytics HTML 페이지가 웹 서버에 호스팅되는 한, Adobe에서는 모든 Facebook 인스턴트 아티클에서 기존의 개인정보 처리방침을 지원합니다. 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 Facebook 인스턴트 아티클의 추적 또한 옵트 아웃됩니다. 이 유틸리티 페이지는 또한 방문자 ID 서비스를 지원하므로 Facebook 인스턴트 아티클 데이터를 나머지 CX Enterprise와 통합할 수 있습니다.

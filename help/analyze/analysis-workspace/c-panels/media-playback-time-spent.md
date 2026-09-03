@@ -5,20 +5,11 @@ feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
 TQID: https://experienceleague.adobe.com/Zv10pLom7fLV8lQvzkzxtxb-uERQzxA8baXBseCKqiE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1197
@@ -49,7 +40,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 있는 미디어 재생 소요 시간 패널을 설명합니다._<br/>_[미디어 재생 소요 시간 패널 참조](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전을 참조하십시오._
+_이 문서에서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;에 있는 미디어 재생 소요 시간 패널을 설명합니다._<br/>_[미디어 재생 소요 시간 패널 참조](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -75,7 +66,7 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -98,19 +89,19 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 
 | 설정 | 설명 |
 |---|---|
-| 패널 날짜 범위 | 패널 날짜 범위 기본값은 오늘입니다. 단 하루 또는 여러 달이 보이도록 편집할 수 있습니다.<br>이 시각화는 1440개의 데이터 행으로 제한됩니다(예: 분 단위 세부 기간에서 24시간). 날짜 범위와 세부 기간 조합의 결과 행이 1440개를 초과하는 경우 전체 날짜 범위를 수용하도록 세부 기간이 자동으로 업데이트됩니다. |
-| 세부 기간 | 세부 기간 기본값은 분입니다.<br>이 시각화는 1440개의 데이터 행으로 제한됩니다(예: 분 단위 세부 기간에서 24시간). 날짜 범위와 세부 기간 조합의 결과 행이 1440개를 초과하는 경우 전체 날짜 범위를 수용하도록 세부 기간이 자동으로 업데이트됩니다. |
-| 패널 요약 숫자 | 재생 소요 시간의 날짜 또는 시간 세부 정보를 보려면 요약 숫자를 사용할 수 있습니다. 최대값은 최대 동시 시청에 대한 세부 정보를 표시합니다. 최소값은 저점에 대한 세부 정보를 보여 줍니다. 합계는 선택에 소요된 총 재생 시간을 합산합니다. 패널 기본값은 최대값만 표시하지만 최소값, 합계 또는 세 가지 조합을 표시하도록 변경할 수 있습니다.<br>분류를 사용하는 경우 각각에 대한 요약 숫자가 표시됩니다. |
+| 패널 날짜 범위 | 패널 날짜 범위 기본값은 오늘입니다. 단 하루 또는 여러 달이 보이도록 편집할 수 있습니다.<br>이 시각화는 1440개의 데이터 행으로 제한됩니다(예: 분 단위 세부 기간에서 24시간). 날짜 범위와 세부 기간 조합으로 인해 1440개가 넘는 행이 생성되는 경우 전체 날짜 범위를 수용하도록 세부 기간이 자동으로 업데이트됩니다. |
+| 세부 기간 | 세부 기간 기본값은 분입니다.<br>이 시각화는 1440개의 데이터 행으로 제한됩니다(예: 분 단위 세부 기간에서 24시간). 날짜 범위와 세부 기간 조합으로 인해 1440개가 넘는 행이 생성되는 경우 전체 날짜 범위를 수용하도록 세부 기간이 자동으로 업데이트됩니다. |
+| 패널 요약 숫자 | 재생 소요 시간의 날짜 또는 시간 세부 정보를 보려면 요약 수치를 사용할 수 있습니다. 최대값은 최대 동시 시청에 대한 세부 정보를 표시합니다. 최소값은 저점에 대한 세부 정보를 보여 줍니다. 합계는 선택에 소요된 총 재생 시간을 합산합니다. 패널 기본값은 최대값만 표시하지만 최소값, 합계 또는 세 가지 조합을 표시하도록 변경할 수 있습니다.<br>분류를 사용하는 경우 각각에 대한 요약 숫자가 표시됩니다. |
 | 시리즈 분류 | 필요에 따라 필터, 차원, 차원 항목 또는 날짜 범위별로 시각화를 분류할 수 있습니다.<p>- 한 번에 최대 10개의 줄을 볼 수 있습니다. 분류는 단일 수준으로 제한됩니다.</p><p>- 차원을 끌어오면 선택한 패널 날짜 범위를 기반으로 최상위 차원 항목이 자동으로 선택됩니다.</p>- 날짜 범위를 비교하려면 2개 이상의 날짜 범위를 시리즈 분류 필터로 끌어옵니다. |
 | 시간 형식 | `Hours:Minutes:Seconds`(기본값) 또는 `Minutes`(0.5로 반올림된 정수로 표시됨)으로 소요된 재생 시간을 볼 수 있습니다. |
-| 날짜 시퀀스 표시 | 두 개 이상의 날짜 범위 필터를 시리즈 분류로 배치한 경우 오버레이(기본값) 또는 순차적 중에서 선택하는 옵션이 표시됩니다. 오버레이는 공통 x축으로 시작하는 선을 표시하여 병렬로 실행되는 반면, 순차적 옵션은 특정 x축으로 시작하는 선을 표시합니다. 데이터가 정렬되면(예: 필터 1이 오후 8시 44분에 끝나고 필터 2가 오후 8시 45분에 시작됨) 선이 순차적으로 표시됩니다. |
+| 날짜 시퀀스 표시 | 두 개 이상의 날짜 범위 필터를 시리즈 분류로 배치한 경우 오버레이(기본) 또는 순차 중에서 선택하는 옵션이 표시됩니다. 오버레이는 공통 x축으로 시작하는 선을 표시하여 병렬로 실행되는 반면, 순차적 옵션은 특정 x축으로 시작하는 선을 표시합니다. 데이터가 정렬되면(예: 필터 1이 오후 8시 44분에 끝나고 필터 2가 오후 8시 45분에 시작됨) 선이 순차적으로 표시됩니다. |
 
 
 ![미디어 플레이북 소요 시간 기본 보기.](assets/mpts_default_view.png)
 
 ### 패널 출력
 
-미디어 재생 소요 시간 패널은 최대, 최소 및/또는 소요 재생 시간 합계에 대한 세부 정보를 포함하는 라인 차트와 요약 숫자를 반환합니다. 패널 맨 위에는 선택한 패널 설정을 알려 주는 요약 줄이 제공됩니다.
+미디어 재생 소요 시간 패널은 최대, 최소 및/또는 재생 소요 시간 합계에 대한 세부 정보를 포함하는 선 그래프와 요약 숫자를 반환합니다. 패널 맨 위에는 선택한 패널 설정을 알려 주는 요약 줄이 제공됩니다.
 
 언제든지 ![미디어 재생 소요 시간 패널 편집](/help/assets/icons/Edit.svg)을 선택하여 패널을 편집하고 다시 빌드할 수 있습니다.
 
@@ -120,7 +111,7 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 
 ### 데이터 소스
 
-이 패널에서 사용할 수 있는 유일한 지표는 재생 시간입니다.
+이 패널에서 사용할 수 있는 유일한 지표는 재생 소요 시간입니다.
 
 | 지표 | 설명 |
 |---|---|
@@ -130,10 +121,10 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 
 | 질문 | 답변 |
 |---|---|
-| 자유 형식 테이블은 어디에 있습니까? 데이터 소스는 어떻게 볼 수 있습니까? | <p></p><p>이 보기에서는 자유 형식 테이블을 사용할 수 없습니다. 데이터 소스를 다운로드하려면 선형 차트의 컨텍스트 메뉴에서 CSV 파일을 다운로드하는 옵션을 선택합니다.</p> |
+| 자유 형식 테이블은 어디에 있습니까? 데이터 소스는 어떻게 볼 수 있습니까? | <p></p><p>이 보기에서는 자유 형식 테이블을 사용할 수 없습니다. 데이터 소스를 다운로드하려면 선 그래프의 컨텍스트 메뉴에서 CSV 파일을 다운로드하는 옵션을 선택합니다.</p> |
 | <p>세부 기간이 변경된 이유는 무엇입니까?</p> | <p>이 시각화는 1440개의 데이터 행으로 제한됩니다(예: 분 단위 세부 기간에서 24시간). 날짜 범위와 세부 기간 조합의 결과 행이 1440개를 초과하는 경우 전체 날짜 범위를 수용하도록 세부 기간이 자동으로 업데이트됩니다.</p><p></p><p>큰 날짜 범위에서 작은 날짜 범위로 변경하는 경우 날짜 범위가 변경되면 세부 기간이 허용되는 가장 낮은 세부 항목으로 업데이트됩니다. 더 높은 수준의 세부 기간으로 보려면 패널을 편집하고 다시 빌드하십시오.</p> |
-| <p></p><p>비디오 이름, 필터, 콘텐츠 유형 등을 비교하려면 어떻게 해야 합니까?</p> | <p>단일 시각화에서 이들을 비교하려면 시리즈 분석 필터에서 필터, 차원 또는 특정 차원 항목을 끌어옵니다.</p><p></p><p>보기는 10개의 분류로 제한됩니다. 10개 이상을 보려면 여러 패널을 사용해야 합니다.</p> |
-| 날짜 범위는 어떻게 비교합니까? | 단일 시각화에서 날짜 범위를 비교하려면 2개 이상의 날짜 범위를 끌어서 시리즈 분류를 사용합니다. 이러한 날짜 범위는 패널 날짜 범위보다 우선 적용됩니다. |
+| <p></p><p>비디오 이름, 필터, 콘텐츠 유형 등을 비교하려면 어떻게 해야 합니까?</p> | <p>단일 시각화에서 이들을 비교하려면 시리즈 분류 필터에서 필터, 차원 또는 특정 차원 항목을 끌어옵니다.</p><p></p><p>보기는 10개의 분류로 제한됩니다. 10개 이상을 보려면 여러 패널을 사용해야 합니다.</p> |
+| 날짜 범위는 어떻게 비교합니까? | 단일 시각화에서 날짜 범위를 비교하려면 2개 이상의 날짜 범위를 끌어서 시리즈 분류를 사용합니다. 이러한 날짜 범위는 패널 날짜 범위를 재정의합니다. |
 | 시각화 유형은 어떻게 변경합니까? | <p></p><p>이 패널은 시계열에 대한 라인 시각화만 허용합니다.</p> |
 | 예외 항목 탐지를 실행할 수 있습니까? | <p></p><p>아니요. 이 패널에서는 예외 항목 탐지를 사용할 수 없습니다.</p> |
 
@@ -162,7 +153,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
 
 ## Use the Media Playback Time Spent panel
 

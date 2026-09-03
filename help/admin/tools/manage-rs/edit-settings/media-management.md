@@ -5,22 +5,11 @@ feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
 TQID: https://experienceleague.adobe.com/O-5lvUKHMEU-k-HCAKNJzwv1Rv4G-KrCQBsCGi5ieUE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 229
@@ -40,18 +29,18 @@ ht-degree: 33%
 
   이 확인란을 사용하여 스트리밍 미디어 서비스와 관련된 차원 및 지표를 활성화할 수 있습니다.
 
-   * [미디어 코어 차원](/help/components/dimensions/sm-core.md)
-   * [미디어 코어 지표](/help/components/metrics/sm-core.md)
-   * [미디어 광고 차원](/help/components/dimensions/sm-ads.md)
-   * [미디어 광고 지표](/help/components/metrics/sm-ads.md)
-   * [미디어 챕터 차원](/help/components/dimensions/sm-chapters.md)
-   * [미디어 챕터 지표](/help/components/metrics/sm-chapters.md)
-   * [미디어 품질 차원](/help/components/dimensions/sm-quality.md)
-   * [미디어 품질 지표](/help/components/metrics/sm-quality.md)
-   * [비디오 메타데이터 차원](/help/components/dimensions/sm-video-metadata.md)
-   * [비디오 메타데이터 지표](/help/components/metrics/sm-video-metadata.md)
-   * [오디오 메타데이터 차원](/help/components/dimensions/sm-audio-metadata.md)
-   * [플레이어 상태 추적 지표](/help/components/metrics/sm-player-state.md)
+  * [미디어 코어 차원](/help/components/dimensions/sm-core.md)
+  * [미디어 코어 지표](/help/components/metrics/sm-core.md)
+  * [미디어 광고 차원](/help/components/dimensions/sm-ads.md)
+  * [미디어 광고 지표](/help/components/metrics/sm-ads.md)
+  * [미디어 챕터 차원](/help/components/dimensions/sm-chapters.md)
+  * [미디어 챕터 지표](/help/components/metrics/sm-chapters.md)
+  * [미디어 품질 차원](/help/components/dimensions/sm-quality.md)
+  * [미디어 품질 지표](/help/components/metrics/sm-quality.md)
+  * [비디오 메타데이터 차원](/help/components/dimensions/sm-video-metadata.md)
+  * [비디오 메타데이터 지표](/help/components/metrics/sm-video-metadata.md)
+  * [오디오 메타데이터 차원](/help/components/dimensions/sm-audio-metadata.md)
+  * [플레이어 상태 추적 지표](/help/components/metrics/sm-player-state.md)
 
 * [!UICONTROL **미디어 분류**]
 

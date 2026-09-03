@@ -4,19 +4,11 @@ description: 방문이 걸린 총 시간입니다.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
 TQID: 'https://experienceleague.adobe.com/jtBAAq-Pe0PyCQJPwvzwnK9eLv14CxTvrVQP4lvWy7k'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 304
@@ -38,7 +30,7 @@ ht-degree: 92%
 
 >[!TIP]
 >
->체류 시간은 시간을 측정하기 위해 방문에서 적어도 두 개의 히트를 필요로 합니다. 하나의 히트로 구성된 방문은 이 차원에 나타나지 않습니다.
+>체류 시간을 측정하려면 방문 내에 최소 두 개의 히트가 필요합니다. 하나의 히트로 구성된 방문은 이 차원에 나타나지 않습니다.
 
 이 차원은 방문을 기반으로 합니다. 이는 값이 방문 내의 모든 히트에 적용되며 변경되지 않음을 의미합니다. 이 차원을 히트 기반 차원인 [페이지에서 보낸 시간](time-spent-on-page.md)과 비교해 보십시오.
 
@@ -46,7 +38,7 @@ ht-degree: 92%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 모든 구현에 대해 즉시 작동합니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
+이 차원은 모든 구현에서 별도의 설정 없이 바로 사용할 수 있습니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
 
 ## 차원 항목
 

@@ -4,18 +4,11 @@ description: 제품 차원에 연결된 사용자 지정 변수입니다.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 TQID: https://experienceleague.adobe.com/No-Va3JzN6Qz9hBu73A5ZzKudEB1Tqa4sNPKVKAASGI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 437
@@ -31,7 +24,7 @@ ht-degree: 79%
 
 외부 캠페인 또는 외부 검색어의 성공을 측정할 때 일반적으로 발생하는 모든 성공 이벤트에 대한 크레딧을 받을 단일 값을 원합니다. 예를 들어 고객이 이메일 캠페인의 링크를 클릭하여 웹 사이트를 방문하는 경우 그 결과로 이루어진 모든 구매는 해당 캠페인에 대한 크레딧이 있어야 합니다.
 
-내부 검색 또는 고객이 여러 항목을 찾을 때 카테고리 탐색으로 인해 발생한 이벤트의 경우 어떻습니까? 예를 들어 고객이 귀하의 사이트에서 `"goggles"`를 검색하여 찾은 후 장바구니에 추가합니다.
+고객이 여러 항목을 찾을 때 내부 검색이나 카테고리 탐색에 의해 발생하는 이벤트는 어떻습니까? 예를 들어 고객이 귀하의 사이트에서 `"goggles"`를 검색하여 찾은 후 장바구니에 추가합니다.
 
 ![고글 예](assets/merch-example-goggles.png)
 
@@ -47,7 +40,7 @@ ht-degree: 79%
 
 ## 머천다이징 변수로 이 문제를 해결하는 방법
 
-머천다이징 evar를 통해 성공 이벤트가 발생하는 시점에 eVar의 현재 값을 제품에 할당할 수 있습니다. 이 값은 나중에 특정 eVar에 대해 새로운 값이 하나 이상 설정되어도 제품과의 연결을 유지합니다.
+머천다이징 eVar를 통해 성공 이벤트가 발생하는 시점에 eVar의 현재 값을 제품에 할당할 수 있습니다. 이 값은 나중에 특정 eVar에 대해 새로운 값이 하나 이상 설정되어도 제품과의 연결을 유지합니다.
 
 이전 예에서 eVar에 대해 머천다이징이 활성화되었다면 `"goggles"`라는 검색어가 스키용 고글에 연결되고 `"winter coat"`라는 검색어가 다운 재킷에 연결됩니다. 머천다이징 eVar는 제품 수준에서 매출을 할당하므로 각 용어가 이와 연결된 제품 수익 금액에 대한 요인으로 인정됩니다.
 
@@ -64,9 +57,9 @@ ht-degree: 79%
 
 * 제품 구문을 사용하는 머천다이징 변수의 경우 인스턴스가 전혀 증가하지 않습니다.
 * 전환 변수 구문을 사용하는 머천다이징 변수의 경우 eVar가 설정될 때마다 인스턴스가 계산됩니다. 하지만 이는 동일한 히트에서 다음 경우가 모두 발생하지 않는 한 차원 항목 `"None"`에 기여합니다.
-   * 머천다이징 eVar가 값으로 설정되어 있습니다.
-   * `products` 변수가 값으로 정의되어 있습니다.
-   * 결합 이벤트가 설정되었습니다.
+  * 머천다이징 eVar가 값으로 설정되어 있습니다.
+  * `products` 변수가 값으로 정의되어 있습니다.
+  * 바인딩 이벤트가 설정되었습니다.
 
 ```js
 // This merchandising eVar uses conversion variable syntax, and counts an instance.
