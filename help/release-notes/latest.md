@@ -2,66 +2,51 @@
 title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2258ee4b539ec7ce7366c427fede2c5b8483db7f
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8645907799594d2eb2d6bcf56f93ac1cc42578f8
 workflow-type: tm+mt
-source-wordcount: 1246
-ht-degree: 43%
+source-wordcount: 1098
+ht-degree: 50%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보 (2026년 8월)
+# 최신 Adobe Analytics 릴리스 정보 (2026년 9월)
 
-**마지막 업데이트**: 2026년 8월 5일
+**마지막 업데이트**: 2026년 9월 8일
 
-이 릴리스 정보는 2026년 8월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+이 릴리스 정보는 2026년 9월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 새로운 기능 또는 개선 사항 {#features}
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
-| **Activity Map 확장: UI 새로 고침** <br/>Activity Map 오버레이 확장에 업데이트된 모양과 느낌, 향후 개선 사항을 지원하는 기본 개선 사항이 있습니다.<p>Activity Map 오버레이 확장에 대한 자세한 내용은 [Activity Map 확장 인터페이스](/help/analyze/activity-map/overlay/overview.md)를 참조하십시오.</p> | | 2026년 8월 5일<p>(원래 7월 말로 계획됨)</p> |
-| **여정 캔버스 개선 사항**<br>&#x200B;다음 여정 캔버스 개선 사항을 사용할 수 있습니다.<ul><li>여정을 이전 시간대와 비교합니다. 4주 전, 2분기 전, 1년 전 여정 또는 사용자 지정 날짜 범위와 현재 여정을 비교합니다.</li><li>선택한 노드의 경우 여정의 임의의 지점에서 선택한 노드 뒤에 오는 상위 차원 항목을 표시합니다. 선택한 노드가 분석의 주요 이벤트이고 이후에 사람들이 무슨 작업을 수행하는지 보려는 경우 사용합니다.<p>이전에는 선택한 노드의 앞 또는 뒤에 바로 위 노드만 표시할 수 있었습니다. </p></li><li>노드 사이의 화살표 모양 및 스타일을 변경합니다. 노드 사이에 화살표를 드래그하여 화살표의 모양(곡률)을 변경하고, 화살표를 마우스 오른쪽 버튼으로 클릭하여 스타일을 단색, 파선, 점선, 파선 점 또는 애니메이션 중 하나로 변경합니다.</li></ul><p></p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)을 참조하십시오. | | 2026년 8월 18일 |
 | **세그먼트를 보고 날짜 범위로 제한**<br/>&#x200B;세그먼트에 날짜 범위 구성 요소가 포함된 경우 Workspace 보고서의 데이터는 보고 날짜 범위를 초과할 수 있습니다.<p>이제 세그먼트에 포함된 날짜 구성 요소에 관계없이 결과를 보고 날짜 범위로 제한할 수 있는 새 옵션을 사용할 수 있습니다. <p>이 옵션은 최상위 컨테이너가 방문자인 세그먼트를 만들거나 수정할 때 사용할 수 있습니다.</p><p>자세한 내용은 [세그먼트 빌드](/help/components/segmentation/segmentation-workflow/seg-build.md#components)를 참조하세요.</p> | 2026년 8월 26일 | 2026년 9월 9일 |
-| **Analytics API 마케팅 채널 참조**<br/> Adobe Analytics 2.0 API 마케팅 채널 참조를 사용하여 Analytics 마케팅 채널 정보를 검색합니다. [Analytics API 마케팅 채널 참조](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels)를 참조하세요. | | 2026년 8월 1일 |
-| **Analytics API 마케팅 채널 끝점 가이드**<br/> Adobe Analytics 2.0 API 마케팅 채널 끝점 가이드는 끝점 사용에 대한 지침과 예를 제공합니다. [Analytics API 마케팅 채널 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels)를 참조하십시오. | | 2026년 8월 1일 |
-| **Analytics 1.4 API EOL 고객 FAQ**<br/> Analytics 1.4 API EOL 고객 FAQ는 1.4 API를 종료하는 고객을 지원하기 위한 최신 2.0 API 개발에 대한 정보를 제공합니다. | | 2026년 8월 10일 |
+| **보트 검색 업데이트**<br/> Web SDK에서 Edge Data Collection을 사용할 때 다음 보트 검색 업데이트를 사용할 수 있습니다.<ul><li>이제 보트 탐지 규칙을 만들어 보트 생성으로 처리되는 트래픽의 예외를 식별할 수 있습니다. 기존 규칙과 향후 규칙은 일치하는 트래픽을 보트 생성으로 계속 표시합니다.</li><li>이제 사용자 지정 보트 규칙이 IAB 보트 감지 규칙보다 먼저 실행됩니다. 이 변경 사항은 보트 점수에 영향을 주지 않지만, 이벤트와 연결된 보트 규칙 이름은 변경될 수 있습니다.</li></ul><p>참고: 이 업데이트는 웹 SDK을 사용하는 Edge 데이터 수집 구현에만 적용됩니다. AppMeasurement과 같은 이전 라이브러리에는 적용되지 않습니다.</p></p><p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 9월 초 |
+| **Adobe Brand Visibility 통합**<br/> AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있도록 Adobe Brand Visibility을 조직의 Adobe Analytics 데이터와 연결합니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 9월 |
+| **분류 세트 API 업데이트**<br/>&#x200B;이제 분류 세트 API 설명서에 분류 세트 API 요청을 구성하기 위한 업데이트된 끝점과 매개 변수 정보가 포함되어 있습니다.<p>자세한 내용은 [분류 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)를 참조하십시오.</p> | 2026년 9월 5일 | 2026년 9월 30일 |
+| **2.0 API 보고서 안내서의 날짜 항목 ID 인코딩 지침**<br/>&#x200B;이제 Adobe Analytics 2.0 API 날짜 트렌드 보고서 안내서에 날짜 `itemId` 매개 변수와 값이 인코딩되는 방법을 설명하는 새로운 섹션이 포함됩니다. 이제 더 이상 사용되지 않는 1.4 API에서 2.0 API 서비스를 구성하고 마이그레이션하는 데 도움이 될 수 있습니다.<p>자세한 내용은 [KPI 보고서 가이드](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) 및 [고급 보고서 가이드](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)를 참조하십시오.</p> | 2026년 9월 5일 | 2026년 9월 30일 |
 
 ### Adobe Analytics의 수정 사항
 
-**Activity Map**: AN-404862
-**Analysis Workspace**: AN-466867, AN-465995, AN-465315, AN-465313, AN-464375, AN-463634, AN-463248, AN-463175, AN-463049, AN-462347, AN-462124, AN-461922, AN-458398, AN-457849, AN-455002, AN-453357, AN-456863, AN-459816, AN-459034, AN-460774, AN-460671 457760 443594
-**분류**: AN-467138, AN-467118, AN-467069, AN-466054, AN-465987, AN-465636, AN-465380, AN-464650, AN-464286, AN-463688, AN-462413, AN-462252, AN-462141, AN-462063, AN-462005, AN-461862, AN-461806, AN-461777, AN-461158, AN-460954, AN-460905, AN-460850, AN-460803, AN-460272, AN-460023, AN-459814, AN-459367, AN-459328, an-459300, an-459279, an AN-459006, AN-458417, AN-458403, AN-457829, AN-457400, AN-454408, AN-449670, AN-460956, AN-459269, AN-458789, AN-461778, AN-461191, AN-460996, AN-460506, AN-459988, AN-459854, AN-458994, AN-457561, AN-457055, AN-454224, AN-454172, AN-459473, AN-459277, AN-459026 455270
-**데이터 피드 및 Data Warehouse**: AN-465273, AN-464245, AN-462435, AN-461000, AN-460700, AN-459225, AN-459192
-**마이그레이션**: AN-458185, AN-454285, AN-459239
-**내보내기**:
-**Report Builder**: AN-465346, AN-464768, AN-464580, AN-464301, AN-463048, AN-462800, AN-457042, AN-461033, AN-459042, AN-454250, AN-451735, AN-450776, AN-450200 451665
-**보고**: AN-467107, AN-459010, AN-455619, AN-459530, AN-454103
-**보고서 세트**: AN-464246, AN-463756, AN-462101
-**예약된 보고서**: AN-455009, AN-460037, AN-462093
-**세그먼테이션**: AN-459002, AN-457730, AN-457146
-**기타**: AN-467386, AN-466935, AN-462116, AN-458836, AN-451292, AN-454160, AN-458354, AN-455771, AN-426869, AN-437975
+**Activity Map**: AN-488579, AN-487247
+**Analysis Workspace**: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373
+**분류**: AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616, AN-465380, AN-464911, AN-464338, AN-463677, AN-462729 462577 461040 459316
+**데이터 피드 및 Data Warehouse**: AN-487624, AN-487287, AN-479923, AN-479166, AN-479109, AN-468483
+**마이그레이션**:
+**내보내기**: AN-467131
+**Report Builder**: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695
+**보고**: AN-468621, AN-465383, AN-463924
+**보고서 세트**: AN-468484, AN-468460, AN-465385
+**예약된 보고서**:
+**세그먼테이션**: AN-486561
+**기타**: AN-488549, AN-467426, AN-465265, AN-464645, AN-459714, AN-459323, AN-454514
 
 ### 서비스 종료(EOL) 알림 {#eol}
 
@@ -84,7 +69,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 >[!MORELIKETHIS]
 >
 >* [2026년 이전 릴리스 정보](/help/release-notes/2026.md)
->* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
+>* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 >* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/ko/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
+>* [Adobe CX Enterprise 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
 
