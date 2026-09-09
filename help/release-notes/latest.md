@@ -5,30 +5,15 @@ feature: Release Notes
 hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6dd4e1e089cf72c03c8d2fd43ac87e919efa0602
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 47%
+source-wordcount: 1061
+ht-degree: 49%
 
 ---
 
@@ -44,7 +29,6 @@ ht-degree: 47%
 | ----------- | ---------- | ---- |
 | **세그먼트를 보고 날짜 범위로 제한**<br/>&#x200B;세그먼트에 날짜 범위 구성 요소가 포함된 경우 Workspace 보고서의 데이터는 보고 날짜 범위를 초과할 수 있습니다.<p>이제 세그먼트에 포함된 날짜 구성 요소에 관계없이 결과를 보고 날짜 범위로 제한할 수 있는 새 옵션을 사용할 수 있습니다.</p><p>이 옵션은 최상위 컨테이너가 방문자인 세그먼트를 만들거나 수정할 때 사용할 수 있습니다.</p><p>자세한 내용은 [세그먼트 빌드](/help/components/segmentation/segmentation-workflow/seg-build.md#components)를 참조하세요.</p> | 2026년 8월 26일 | 2026년 9월 9일 |
 | **보트 검색 업데이트**<br/> Web SDK에서 Edge Data Collection을 사용할 때 다음 보트 검색 업데이트를 사용할 수 있습니다.<ul><li>이제 보트 탐지 규칙을 만들어 보트 생성으로 처리되는 트래픽의 예외를 식별할 수 있습니다. 기존 규칙과 향후 규칙은 일치하는 트래픽을 보트 생성으로 계속 표시합니다.</li><li>이제 사용자 지정 보트 규칙이 IAB 보트 감지 규칙보다 먼저 실행됩니다. 이 변경 사항은 보트 점수에 영향을 주지 않지만, 이벤트와 연결된 보트 규칙 이름은 변경될 수 있습니다.</li></ul><p>참고: 이 업데이트는 웹 SDK을 사용하는 Edge 데이터 수집 구현에만 적용됩니다. AppMeasurement과 같은 이전 라이브러리에는 적용되지 않습니다.</p><p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 9월 초 |
-| **Adobe Brand Visibility 통합**<br/> AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있도록 Adobe Brand Visibility을 조직의 Adobe Analytics 데이터와 연결합니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 9월 |
 | **분류 세트 API 업데이트**<br/>&#x200B;이제 분류 세트 API 설명서에 분류 세트 API 요청을 구성하기 위한 업데이트된 끝점과 매개 변수 정보가 포함되어 있습니다.<p>자세한 내용은 [분류 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)를 참조하십시오.</p> | 2026년 9월 5일 | 2026년 9월 30일 |
 | **2.0 API 보고서 안내서의 날짜 항목 ID 인코딩 지침**<br/>&#x200B;이제 Adobe Analytics 2.0 API 날짜 트렌드 보고서 안내서에 날짜 `itemId` 매개 변수와 값이 인코딩되는 방법을 설명하는 새로운 섹션이 포함됩니다. 이제 더 이상 사용되지 않는 1.4 API에서 2.0 API 서비스를 구성하고 마이그레이션하는 데 도움이 될 수 있습니다.<p>자세한 내용은 [KPI 보고서 가이드](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) 및 [고급 보고서 가이드](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)를 참조하십시오.</p> | 2026년 9월 5일 | 2026년 9월 30일 |
 
@@ -84,7 +68,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 >[!MORELIKETHIS]
 >
 >* [2026년 이전 릴리스 정보](/help/release-notes/2026.md)
->* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
+>* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 >* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/ko/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
+>* [Adobe CX Enterprise 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
 
