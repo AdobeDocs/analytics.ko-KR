@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. Analytics 데이터를 최대한 활용할 수 있도록 수집할 데이터를 사용자 정의하십시오.
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 98%
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
@@ -144,6 +144,8 @@ ht-degree: 98%
   + [Edge Network 이벤트 유형](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Web SDK 개요](aep-edge/web-sdk/overview.md)
+    + 마이그레이션 플래너 {#planner}
+      + [플래너 개요](aep-edge/web-sdk/planner/overview.md)
     + [태그를 사용하여 Web SDK로 마이그레이션](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [JavaScript를 사용하여 Web SDK로 마이그레이션](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [태그를 사용한 새로운 구현](aep-edge/web-sdk/web-sdk-tag-extension.md)
