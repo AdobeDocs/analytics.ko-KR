@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 7421
+source-wordcount: 7447
 ht-degree: 93%
 
 ---
@@ -51,6 +51,8 @@ ht-degree: 93%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2026년 9월** | |
+| 새 크기 조정 바로 가기 작업 | 이제 Analysis Workspace의 새 키보드 단축키를 사용하여 [패널 또는 시각화 크기 조정](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)을 더 넓게, 더 좁게, 더 높이 또는 더 짧게 수행할 수 있습니다. |
 | **2026년 8월** | |
 | 레퍼러 유형 차원에 새 대화형 AI 도구를 추가했습니다 | 이제 &#39;레퍼러 유형&#39; 차원에 Adobe에서 사용하는 조회 테이블에 다음 추가 [대화형 AI 도구](/help/components/dimensions/referrer-type.md#conversational-ai-tools)가 포함됩니다.<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **2026년 6월** | |

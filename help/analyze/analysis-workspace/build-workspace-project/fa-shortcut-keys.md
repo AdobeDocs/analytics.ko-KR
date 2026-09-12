@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 89%
+source-wordcount: 488
+ht-degree: 78%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 탐색, 분석 및 민주화를 수행할 수 있습니다.
 
-키보드에서 다음 기호를 사용해야 합니다.
+키보드에서는 다음 기호가 사용될 수 있습니다.
 
 - **[!UICONTROL **&#x200B; Shift &#x200B;**]&#x200B;**&#x200B;의 경우 &#x200B;**⇧**
 - **⌘**&#x200B;**[!UICONTROL **&#x200B; Cmd &#x200B;**]**(명령)의 경우.
@@ -91,6 +91,17 @@ Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 �
 | --- | --- | --- |
 | 패널을 위로 이동 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + 위쪽&#x200B;*]** |
 | 패널 아래로 이동 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
+
+## 패널 또는 시각화 액션 크기 조정
+
+| 액션 | 단축키 Mac | 단축키 Windows |
+| --- | --- | --- |
+| 더 넓게 크기 조정 | **[!UICONTROL *cmd + opt + shift + right *]** | **[!UICONTROL *ctrl + alt + shift + right *]** |
+| 더 좁게 크기 조정 | **[!UICONTROL *cmd + opt + shift + left *]** | **[!UICONTROL *ctrl + alt + shift + left *]** |
+| 더 크게 크기 조정 | **[!UICONTROL *cmd + opt + shift + down *]** | **[!UICONTROL *ctrl + alt + shift + down *]** |
+| 더 짧게 크기 조정 | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *ctrl + alt + shift + 위쪽&#x200B;*]** |
+
+너비는 한 격자 열의 단계에서 크기가 조정되고, 높이는 한 격자 셀의 단계에서 크기가 조정됩니다(약 25픽셀).
 
 ## 민주화 동작
 
