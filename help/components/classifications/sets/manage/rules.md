@@ -6,26 +6,33 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: f502a9ffc4d68ed8fc6011366a16c73ac12d0ebc
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: '1694'
 ht-degree: 13%
-
 ---
-
 # 분류 세트 규칙
 
-주요 차원이 지속적으로 변경되는 시나리오에서 규칙을 사용하여 자동 분류를 지원합니다. [업로드](/help/components/classifications/sets/manage/schema.md#upload) 또는 [자동화](/help/components/classifications/sets/manage/schema.md#automate)를 통한 분류 업데이트는 번거로운 프로세스가 되거나 새 차원 값에 대한 적절한 분류가 지연됩니다. 예: 내부 캠페인, 추적 코드 또는 제품 SKU.
+주요 차원이 지속적으로 변경되는 시나리오에서 규칙을 사용하여 자동 분류를 지원합니다. [업로드](/help/components/classifications/sets/manage/schema.md#upload) 또는 [자동화](/help/components/classifications/sets/manage/schema.md#automate)를 통한 분류 업데이트는 번거로운 프로세스가 되거나 새 차원 값에 대한 적절한 분류가 부족합니다. 예: 내부 캠페인, 추적 코드 또는 제품 SKU.
 
 차원에는 차원 값에서 분류 데이터를 추출할 수 있도록 하나 이상의 규칙을 적용할 수 있는 값이 포함되어야 합니다.
 
 분류 세트의 컨텍스트 내에서 규칙을 정의합니다. 이 컨텍스트는 분류 세트를 구독하는 모든 보고서 세트 및 키 차원 조합에 규칙이 적용됨(활성화된 경우)을 의미합니다. 이 구현은 기존 분류 규칙 빌더 작동 방식과 다릅니다. 분류 규칙 빌더에서 하나 이상의 규칙을 규칙 세트의 일부로 별도로 정의한 다음 규칙 세트를 하나 이상의 보고서 세트와 연결합니다. 새 인터페이스에서 분류 세트 내의 규칙을 규칙 세트라고도 합니다. 하지만 규칙 세트는 다른 분류 세트 속성을 구성하는 동일한 인터페이스 내에서 정의됩니다.
+
+>[!IMPORTANT]
+>
+>새 규칙 빌더가 사용하는 다른 컨텍스트는 하위 분류가 원래 루트 차원 값이 아니라 바로 위 상위 분류 열의 값에 대해 평가됨을 의미합니다.
+
 
 
 분류 세트에 대한 규칙 세트를 정의하려면 다음을 수행합니다.
@@ -33,9 +40,9 @@ ht-degree: 13%
 1. Adobe Analytics 상단 메뉴 모음에서 **[!UICONTROL 구성 요소]**&#x200B;를 선택한 다음 **[!UICONTROL 분류 세트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 분류 세트]**&#x200B;에서 **[!UICONTROL 분류 세트]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트]** 관리자에서 규칙을 정의할 분류 세트를 선택합니다.
-1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**&#x200B;대화 상자에서&#x200B;**[!UICONTROL 규칙]**&#x200B;탭을 선택합니다.
+1. **[!UICONTROL 분류 집합: _분류 집합 이름_]**대화 상자에서&#x200B;**[!UICONTROL 규칙]**탭을 선택합니다.
 
-   * 분류 세트에 대해 처음으로 **[!UICONTROL 규칙]** 인터페이스에 액세스하거나 지금까지 기존 규칙 빌더 인터페이스를 계속 사용하기로 결정했다면 시작하는 방법을 선택할 수 있는 대화 상자가 표시됩니다. 옵션은 다음과 같습니다.
+   * **[!UICONTROL 규칙]** 인터페이스에 처음 액세스하거나 기존 빌더를 사용하는 경우 시작하는 데 도움이 되는 대화 상자가 나타납니다. 옵션은 다음과 같습니다.
 
      * **기존 규칙을 마이그레이션**. 현재 분류 규칙을 가져오고 새 인터페이스에서 이러한 규칙을 계속 사용합니다. 기존 규칙이 유지되고 새 형식으로 변환됩니다.
        * 계속하려면 **[!UICONTROL 규칙 마이그레이션]**&#x200B;을 선택하십시오.
@@ -228,7 +235,7 @@ ht-degree: 13%
 
 #### 사용 사례
 
-정규식 `^(.+)\:(.+)\:FY(.+)$`을(를) 적용하고 키 차원 내부 캠페인에 대한 값에 일치 그룹(`$1`, `$2` 및 `$3`)을 사용하여 **[!UICONTROL 채널]**, **[!UICONTROL 유형]** 및 **[!UICONTROL 연도]** 분류에 값을 할당하는 규칙을 정의하려고 합니다.
+정규 표현식 `^(.+)\:(.+)\:FY(.+)$`을(를) 적용하고 내부 캠페인 키 차원에 일치 그룹(`$1`, `$2` 및 `$3`)을 사용하여 **[!UICONTROL 채널]**, **[!UICONTROL 유형]** 및 **[!UICONTROL 연도]** 분류에 값을 할당하는 규칙을 정의합니다.
 
 >[!BEGINTABS]
 
@@ -315,7 +322,7 @@ ht-degree: 13%
 * 키 차원 값이 여러 규칙과 일치합니다.
 * 규칙 집합에 동일한 **[!UICONTROL 분류 설정]** 작업을 사용하는 규칙이 있습니다.
 
-따라서 가장 중요한 **[!UICONTROL 분류 설정]** 작업의 등급을 규칙 집합의 마지막 규칙의 일부로 지정해야 합니다.
+가장 중요한 **[!UICONTROL 분류 설정]** 작업의 순위를 규칙 집합의 마지막 규칙의 일부로 지정합니다.
 
 동일한 **[!UICONTROL 분류 설정]** 작업을 공유하지 않는 규칙을 여러 개 만드는 경우 처리 순서는 문제가 되지 않습니다.
 
