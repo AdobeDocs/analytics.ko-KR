@@ -1,9 +1,8 @@
 ---
 title: 브랜드 가시성 통합
 description: CAdobe Analytics와 브랜드 가시성 통합
-feature:
 role: User
-source-git-commit: 841b09d487fb965fb2a5fce4a39a7480a5b01012
+source-git-commit: 8a2a4637f21bbbe02ea88292d2ca503f4c667ebc
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -29,7 +28,7 @@ AI는 주요 검색 채널이 되었습니다. ChatGPT, Copilot, Copilot, 크롤
 >
 >이 통합의 일부로, 미국에서 브랜드 가시성 데이터의 일부 임시 처리가 발생합니다. 데이터는 Adobe Analytics 계약에 구성된 대로 지정된 영역에 최종적으로 저장됩니다.
 
-Customer Analytics를 사용하는 경우 별도의 더 풍부한 인바운드 통합이 Adobe Experience Platform을 통해 동일한 기본 CDN 여정 데이터를 Customer Journey Analytics으로 보냅니다. 현재 이 통합을 사용할 수 있습니다. [Customer Journey Analytics과 브랜드 가시성 통합](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/bv)을 참조하세요. Customer Journey Analytics이 있는 경우 더 많은 필드를 노출하고 다른 데이터 세트와 브랜드 가시성 데이터 결합을 지원하므로 먼저 해당 통합을 검토하십시오. 이 안내서에 설명된 Analytics 통합은 Customer Journey Analytics에 대한 액세스 권한이나 라이선스가 없이 Adobe Analytics을 사용하는 고객을 위해 설계되었습니다.
+Customer Analytics를 사용하는 경우 별도의 더 풍부한 인바운드 통합이 Adobe Experience Platform을 통해 동일한 기본 CDN 여정 데이터를 Customer Journey Analytics으로 보냅니다. 현재 이 통합을 사용할 수 있습니다. [Customer Journey Analytics과 브랜드 가시성 통합](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)을 참조하세요. Customer Journey Analytics이 있는 경우 더 많은 필드를 노출하고 다른 데이터 세트와 브랜드 가시성 데이터 결합을 지원하므로 먼저 해당 통합을 검토하십시오. 이 안내서에 설명된 Analytics 통합은 Customer Journey Analytics에 대한 액세스 권한이나 라이선스가 없이 Adobe Analytics을 사용하는 고객을 위해 설계되었습니다.
 
 
 ## 사용 사례
@@ -74,7 +73,7 @@ Customer Analytics를 사용하는 경우 별도의 더 풍부한 인바운드 �
 >
 >BYOCDN 로그 전달은 에이전트 트래픽 분석에 사용되는 서버측 CDN 요청 데이터를 제공합니다. 데이터는 브라우저에서 실행되는 JavaScript 태그에 따라 달라지지 않습니다. 필수 CDN 로그 피드가 없으면 커넥터에 보고서 세트로 가져올 트래픽 데이터가 없습니다.
 >
->자세한 내용은 [BYOCDN 로그 전달 참조](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)를 참조하십시오.
+>자세한 내용은 [BYOCDN 로그 전달 참조](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)를 참조하십시오.
 
 
 >[!IMPORTANT]
@@ -94,9 +93,9 @@ Adobe Analytics 통합→ 인바운드 브랜드 가시성이 **예약된 변수
 |---|---|---|
 | URL | 치수 | 요청과 연결된 페이지 URL입니다. |
 | 봇 유형 | 치수 | 요청을 수행한 봇 또는 자동화된 에이전트 유형(예: 명명된 AI 웹 크롤러). |
-| 사용자 에이전트 | 차원 | 봇 또는 에이전트에서 보고한 사용자 에이전트 문자열입니다. |
-| 상태 | 차원 | 요청에 대해 반환된 HTTP 상태 코드입니다. |
-| Referer | 차원 | 요청에 대한 HTTP 레퍼러 값(존재하는 경우). |
+| 사용자 에이전트 | 치수 | 봇 또는 에이전트에서 보고한 사용자 에이전트 문자열입니다. |
+| 상태 | 치수 | 요청에 대해 반환된 HTTP 상태 코드입니다. |
+| Referer | 치수 | 요청에 대한 HTTP 레퍼러 값(존재하는 경우). |
 | 요청 | 지표 | 봇 및 에이전트 CDN 요청 수 |
 
 
@@ -106,10 +105,10 @@ CJA 인바운드 통합은 더 광범위한 CDN 요청 요약 데이터 세트�
 
 #### 중요한 제한 사항
 
-&#x200B;- 방문자 ID, ECID, 방문 횟수 또는 고유 사용자 데이터가 포함되지 않습니다. 이는 집계된, 방문자와 연결되지 않은 요약 데이터입니다.
-&#x200B;- 예약된 변수는 방문자에 연결되지 않으므로 할당 유형 또는 만료 유형 설정을 지원하지 않습니다.
-&#x200B;- 데이터는 Customer Journey Analytics에서 수행할 수 있는 방식으로 다른 Analytics 데이터 세트 또는 차원과 결합할 수 없습니다.
-&#x200B;- **요청** 지표를 사용하여 보트 및 에이전트 트래픽 볼륨을 측정합니다. 보고서 세트의 다른 곳에서 방문 또는 히트 기반 지표와 상호 교환하여 사용하지 마십시오.
+- 방문자 ID, ECID, 방문 횟수 또는 고유 사용자 데이터가 포함되지 않습니다. 이는 집계된, 방문자와 연결되지 않은 요약 데이터입니다.
+- 예약된 변수는 방문자에 연결되지 않으므로 할당 유형 또는 만료 유형 설정을 지원하지 않습니다.
+- 데이터는 Customer Journey Analytics에서 수행할 수 있는 방식으로 다른 Analytics 데이터 세트 또는 차원과 결합할 수 없습니다.
+- **요청** 지표를 사용하여 보트 및 에이전트 트래픽 볼륨을 측정합니다. 보고서 세트의 다른 곳에서 방문 또는 히트 기반 지표와 상호 교환하여 사용하지 마십시오.
 
 커넥터가 활성화된 후 보고서 세트의 변수 구성에 대해 사용 가능한 정확한 필드 세트를 확인해야 합니다.
 
@@ -135,10 +134,10 @@ CJA 인바운드 통합은 더 광범위한 CDN 요청 요약 데이터 세트�
 
 커넥터를 활성화하기 전에 다음 사항을 확인하십시오.
 
-&#x200B;- 연결하려는 사이트에 대한 Adobe Brand Visibility 온보딩을 완료했습니다.
-&#x200B;- 해당 사이트에 대해 BYOCDN 로그 전달이 설정되고 확인되었습니다([prequisites](#inbound-integration) 참조).
-&#x200B;- 해당 사이트에 대한 데이터가 Adobe Brand Visibility 에이전트 트래픽 대시보드에 표시됩니다.
-&#x200B;- 사이트를 연결할 보고서 세트를 알고 있습니다.
+- 연결하려는 사이트에 대한 Adobe Brand Visibility 온보딩을 완료했습니다.
+- 해당 사이트에 대해 BYOCDN 로그 전달이 설정되고 확인되었습니다([prequisites](#inbound-integration) 참조).
+- 해당 사이트에 대한 데이터가 Adobe Brand Visibility 에이전트 트래픽 대시보드에 표시됩니다.
+- 사이트를 연결할 보고서 세트를 알고 있습니다.
 
 각 Adobe Brand Visibility 사이트는 정확히 하나의 보고서 세트에 연결됩니다. 두 개 이상의 브랜드 가시성 사이트에 대한 데이터를 가져오려면 각 사이트를 별도의 보고서 세트에 연결합니다.
 
@@ -226,31 +225,29 @@ CJA 인바운드 통합은 더 광범위한 CDN 요청 요약 데이터 세트�
 
 | 문제 | 문제 해결 |
 |---|---|
-| 커넥터가 활성화되지 않거나 사이트 목록이 비어 있습니다. | 다음 여부를 확인합니다.<ul><li>사이트에 대한 Adobe Brand Visibility 온보딩이 완료되었습니다.</li><li>사이트에 대해 BYOCDN 로그 전달이 구성 및 확인되었습니다.</li><li>올바른 보고서 세트에서 작업 중입니다.</li><ul> |
+| 커넥터가 활성화되지 않거나 사이트 목록이 비어 있습니다. | 다음 여부를 확인합니다.<ul><li>사이트에 대한 Adobe Brand Visibility 온보딩이 완료되었습니다.</li><li>사이트에 대해 BYOCDN 로그 전달이 구성 및 확인되었습니다.</li><li>올바른 보고서 세트에서 작업 중입니다.</li></ul> |
 | 커넥터를 사용할 수 있지만 데이터가 표시되지 않습니다. | 다음 여부를 확인합니다. <ul><li>연결된 사이트에 대한 데이터가 에이전트 트래픽 대시보드에 표시됩니다(표시되지 않는 경우 문제가 Analytics의 업스트림).</li><li>초기 90일 채우기 및 최소 1시간별 동기화에 충분한 시간이 경과되었습니다.</li><li>- 보고서에서 선택한 날짜 범위에는 커넥터가 활성화된 이후의 기간이 포함됩니다.</li></ul> |
 | 데이터가 불완전하거나 예기치 않은 것으로 나타납니다. | 다음 여부를 확인합니다. <ul><li>보고서 세트는 다른 브랜드 가시성 사이트(각 보고서 세트가 정확히 하나의 사이트에 연결됨)에 대한 데이터도 받을 것으로 예상되지 않습니다.</li><li>보고서 세트의 다른 곳에서 행이나 히트를 계산하지 않고 **요청** 지표를 읽고 있습니다.</li><li>보고 있는 차원은 섹션 4의 목록과 일치합니다. 동일한 보고서 세트에서 관련 없는 evar 또는 이벤트는 이 통합의 일부가 아닙니다.</li></ul> |
 
 >[!MORELIKETHIS]
 >
->[브랜드 가시성 /LLMO 통합 참조](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/bv)
->[BYOCDN 로그 전달 참조](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
-
-&#x200B;---
+>[브랜드 가시성 /LLMO 통합 참조](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
+>[BYOCDN 로그 전달 참조](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
 ## 문서 초안 메모(발행용 아님)
 
 이 섹션은 내부 검토용이며 게시하기 전에 제거해야 합니다.
 
-&#x200B;- **사용된 진실의 Source:** 필드 이름, 예약된 변수 목록 및 Report Suite Manager 워크플로는 [AN-468884](https://jira.corp.adobe.com/browse/AN-468884)&#x200B;(David Wardell, 2026-08-28년 현재 상태가 신규)에서 가져온 것이며, 이는 원래 문서 요청 [AN-449989](https://jira.corp.adobe.com/browse/AN-449989)&#x200B;(Rob In der Maur, 상태가 신규)보다 최신 상태이며 보다 구체적입니다. 프로비전/프로비전 해제 화면의 페이지 사본에는 2026-08-28 내부 검토(`2026-08-28-an468884-abv-report-suite-ui-review.md`)의 단어 세분화가 통합되어 있으며, 이는 고객 응대 텍스트에서 원시 티켓의 &quot;ABV&quot; 약어를 &quot;Adobe Brand Visibility&quot;로 대체했습니다.
-&#x200B;- **게시 전에 조정할 필드 집합 불일치:** AN-449989의 원래 차원 목록은 단일 에이전트 요청 수 지표를 가진 호스트, URL/페이지 경로, CDN 공급자, 사용자 에이전트 및 LLM 보트 유형입니다. AN-468884의 실제 예약 변수 목록은 단일 요청 이벤트가 있는 URL, 보트 유형, 사용자 에이전트, 상태 및 레퍼러입니다. 호스트 및 CDN 공급자는 AN-468884에서 별도의 예약된 변수로 표시되지 않습니다. 상태는 신규입니다. 이 초안은 eng 티켓에 따라 권한이 있는 AN-468884을 따르지만, 고객이 보는 필드 이름이 이전 AN-449989 언어를 사용하여 설명한 계정 팀과 일치하지 않을 수 있으므로 이 초안을 완료하기 전에 두 가지를 Aaron Kern / David Wardell과 조정해야 합니다.
-&#x200B;- **아직 확인되지 않음, 게시된 버전에 사실로 표시하지 않음:**
-  &#x200B;- 정확한 GA 날짜. AN-431416은 FixVersion H2 2026(2026-11-30 릴리스 창)을 전달하며 2026-09-01부터 실행 상태입니다. AN-468884(예약된 변수 구현) 및 AN-449989(이 문서)은 모두 새로운 상태입니다. eng 가 배송될 때까지 게시하지 마십시오.
-  &#x200B;- 프로덕션의 예약된 evar에서 할당 유형/만료 유형이 완전히 억제되는지 여부. 2026-08-28 리뷰에서는 테스트 보고서 세트에 현재 할당이 &quot;가장 최근(마지막)&quot;으로 설정된 이러한 evar가 표시된다고 플래그를 지정했습니다. 이 값은 확인된 최종 동작이 아니라 지워야 하는 기본값일 수 있습니다.
-  &#x200B;- IMS 조직별로 ABV 사이트를 나열하기 위한 LLMO API 엔드포인트(사이트 선택 드롭다운이 채워짐)와 프로비저닝 취소/비활성화 API는 모두 2026-08-26 티켓 댓글로 Joe Bass에서 아직 보류 중이었습니다.
-  &#x200B;- 정확한 CJA 필드 수 비교. AN-449989의 원래 티켓은 CJA에 &quot;9개의 추가 차원&quot;과 &quot;5개의 추가 지표&quot;가 있다고 주장하지만 이러한 지표 중 일부(LLM 세션 버킷, LLM 고유 세션 수, LLM 요청 복제 수)가 2026-06-18 검토 현재 전달된 `cdn-requests-summary` 필드 그룹에 없는 것으로 확인되었습니다. 이 초안은 그러한 이유로 CJA 비교에서 특정 수를 인용하는 것을 의도적으로 회피합니다.
-  &#x200B;- 이 AA 경로에 대한 동기화 케이던스는 여기에 매시간, AN-468884의 티켓 언어와 일치한다고 명시되어 있습니다(&quot;매시간 동기화 실행&quot; / &quot;매시간 동기화 프로세스&quot;). 이는 CJA 케이던스가 있었던 방식과 같은 프로덕션 AA 데이터 소스 동작에 대해 독립적으로 확인되지 않았습니다.
+- **사용된 진실의 Source:** 필드 이름, 예약된 변수 목록 및 Report Suite Manager 워크플로는 [AN-468884](https://jira.corp.adobe.com/browse/AN-468884)&#x200B;(David Wardell, 2026-08-28년 현재 상태가 신규)에서 가져온 것이며, 이는 원래 문서 요청 [AN-449989](https://jira.corp.adobe.com/browse/AN-449989)&#x200B;(Rob In der Maur, 상태가 신규)보다 최신 상태이며 보다 구체적입니다. 프로비전/프로비전 해제 화면의 페이지 사본에는 2026-08-28 내부 검토(`2026-08-28-an468884-abv-report-suite-ui-review.md`)의 단어 세분화가 통합되어 있으며, 이는 고객 응대 텍스트에서 원시 티켓의 &quot;ABV&quot; 약어를 &quot;Adobe Brand Visibility&quot;로 대체했습니다.
+- **게시 전에 조정할 필드 집합 불일치:** AN-449989의 원래 차원 목록은 단일 에이전트 요청 수 지표를 가진 호스트, URL/페이지 경로, CDN 공급자, 사용자 에이전트 및 LLM 보트 유형입니다. AN-468884의 실제 예약 변수 목록은 단일 요청 이벤트가 있는 URL, 보트 유형, 사용자 에이전트, 상태 및 레퍼러입니다. 호스트 및 CDN 공급자는 AN-468884에서 별도의 예약된 변수로 표시되지 않습니다. 상태는 신규입니다. 이 초안은 eng 티켓에 따라 권한이 있는 AN-468884을 따르지만, 고객이 보는 필드 이름이 이전 AN-449989 언어를 사용하여 설명한 계정 팀과 일치하지 않을 수 있으므로 이 초안을 완료하기 전에 두 가지를 Aaron Kern / David Wardell과 조정해야 합니다.
+- **아직 확인되지 않음, 게시된 버전에 사실로 표시하지 않음:**
+  - 정확한 GA 날짜. AN-431416은 FixVersion H2 2026(2026-11-30 릴리스 창)을 전달하며 2026-09-01부터 실행 상태입니다. AN-468884(예약된 변수 구현) 및 AN-449989(이 문서)은 모두 새로운 상태입니다. eng 가 배송될 때까지 게시하지 마십시오.
+  - 프로덕션의 예약된 evar에서 할당 유형/만료 유형이 완전히 억제되는지 여부. 2026-08-28 리뷰에서는 테스트 보고서 세트에 현재 할당이 &quot;가장 최근(마지막)&quot;으로 설정된 이러한 evar가 표시된다고 플래그를 지정했습니다. 이 값은 확인된 최종 동작이 아니라 지워야 하는 기본값일 수 있습니다.
+  - IMS 조직별로 ABV 사이트를 나열하기 위한 LLMO API 엔드포인트(사이트 선택 드롭다운이 채워짐)와 프로비저닝 취소/비활성화 API는 모두 2026-08-26 티켓 댓글로 Joe Bass에서 아직 보류 중이었습니다.
+  - 정확한 CJA 필드 수 비교. AN-449989의 원래 티켓은 CJA에 &quot;9개의 추가 차원&quot;과 &quot;5개의 추가 지표&quot;가 있다고 주장하지만 이러한 지표 중 일부(LLM 세션 버킷, LLM 고유 세션 수, LLM 요청 복제 수)가 2026-06-18 검토 현재 전달된 `cdn-requests-summary` 필드 그룹에 없는 것으로 확인되었습니다. 이 초안은 그러한 이유로 CJA 비교에서 특정 수를 인용하는 것을 의도적으로 회피합니다.
+  - 이 AA 경로에 대한 동기화 케이던스는 여기에 매시간, AN-468884의 티켓 언어와 일치한다고 명시되어 있습니다(&quot;매시간 동기화 실행&quot; / &quot;매시간 동기화 프로세스&quot;). 이는 CJA 케이던스가 있었던 방식과 같은 프로덕션 AA 데이터 소스 동작에 대해 독립적으로 확인되지 않았습니다.
 
 
 ## 아웃바운드 통합
 
-이 안내서에서는 Analytics 보고서 세트에 보트 및 자동화된 에이전트 트래픽 데이터를 추가하는 인바운드 브랜드 가시성 통합만 다룹니다. 게시된 통합 설명서는 브랜드 가시성 제품 내에서 브랜드 가시성이 Analytics 성능 데이터를 사용할 수 있도록 하는 아웃바운드 방향도 설명합니다. 해당 방향은 이 안내서에서 다루지 않습니다. 아웃바운드 통합에 대한 자세한 내용은 [브랜드 가시성 설명서](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/resources/adobe-analytics-integration)를 참조하세요.
+이 안내서에서는 Analytics 보고서 세트에 보트 및 자동화된 에이전트 트래픽 데이터를 추가하는 인바운드 브랜드 가시성 통합만 다룹니다. 게시된 통합 설명서는 브랜드 가시성 제품 내에서 브랜드 가시성이 Analytics 성능 데이터를 사용할 수 있도록 하는 아웃바운드 방향도 설명합니다. 해당 방향은 이 안내서에서 다루지 않습니다. 아웃바운드 통합에 대한 자세한 내용은 [브랜드 가시성 설명서](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration)를 참조하세요.

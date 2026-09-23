@@ -1,40 +1,57 @@
 ---
 title: 마지막 터치 채널
-description: 방문자의 참여 만료 내 가장 최근 마케팅 채널입니다.
+description: 방문자의 참여 만료 기간 내 가장 최근의 마케팅 채널입니다.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
 TQID: https://experienceleague.adobe.com/wUNsv-0snBfk6EE6yeCEuT8-hGvBu9U8tjKDfxhVRA0
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 337
-ht-degree: 67%
-
+source-wordcount: '375'
+ht-degree: 49%
 ---
-
 # 마지막 터치 채널
 
 마지막 터치 채널 [차원](overview.md)은(는) 해당 방문자의 참여 기간(기본적으로 30일) 동안 방문자가 일치하는 가장 최근 마케팅 채널을 보고합니다. 이 차원은 전환으로 이어지는 사이트 트래픽을 유도하는 마케팅 채널을 파악하여 가장 효과적인 영역에서 마케팅 활동에 집중할 수 있도록 하는 데 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 [마케팅 채널 관리자](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)에서 정의한 채널 이름을 직접 참조합니다.
+이 차원은 마케팅 채널 처리 규칙에 의해 파생됩니다. [마케팅 채널 관리자](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)에서 정의한 채널 이름을 직접 참조합니다. 모든 히트는 해당 마케팅 채널을 히트에 연결하는 일치 항목을 찾을 때까지 보고서 세트의 마케팅 채널 처리 규칙을 숫자 순서로 실행합니다. 설정할 변수가 없습니다.
 
-Adobe 데이터 수집 서버로 전송된 모든 히트는 보고서 세트의 마케팅 채널 처리 규칙을 통해 실행됩니다. 해당 마케팅 채널이 히트와 연결되는 일치를 찾을 때까지 각 규칙을 숫자 순서로 반복합니다. 마지막 터치 채널은 방문자 참여 기간 (기본적으로 30일)보다 오랫동안 방문자가 사이트를 방문하지 않을 때까지 방문자와 함께 유지됩니다.
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(마케팅 채널 처리 규칙에 의해 파생) |
+| **웹 SDK/XDM 필드** | 없음(마케팅 채널 처리 규칙에 의해 파생) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 구성 가능 |
+
+마지막 터치 채널은 방문자 참여 기간 (기본적으로 30일)보다 오랫동안 방문자가 사이트를 방문하지 않을 때까지 방문자와 함께 유지됩니다.
 
 이 차원을 특정 값으로 설정하려면 다음 단계를 수행해야 합니다.
 

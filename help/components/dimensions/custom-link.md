@@ -6,44 +6,52 @@ exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
 TQID: https://experienceleague.adobe.com/x4IAGJjozPnLsft1e9xs68L6TNDJbHW0H4Z23p9EDNg
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 9b4525e014170b72688044a6ead344b1bde8c39b
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 21%
-
+source-wordcount: '268'
+ht-degree: 20%
 ---
-
 # 사용자 정의 링크
 
 &#39;사용자 지정 링크&#39; [차원](overview.md)은(는) 사이트에 구현된 사용자 지정 링크의 이름을 보고합니다. 사용자 지정 링크는 파일 다운로드나 아웃바운드 탐색이 아닌 모든 상호 작용에 대한 유연한 추적 메커니즘입니다. 일반적인 예로는 버튼 클릭, 내부 탐색 또는 양식 상호 작용이 있습니다. 이 차원은 방문자가 가장 많이 참여하는 상호 작용을 이해하려 할 때 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 `pe` 쿼리 문자열의 값에 따라 이미지 요청의 [`pev2` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. `pe` 쿼리 문자열은 `pev2` 값을 받는 링크 차원을 결정합니다.
-
-* **사용자 지정 링크**(이 페이지): `lnk_o`
-* **[다운로드 링크](download-link.md)**: `lnk_d`
-* **[종료 링크](exit-link.md)**: `lnk_e`
-
-`pev2`이(가) 제공되지 않으면 링크 URL(`pev1`)이 대신 차원 값으로 사용됩니다. 링크 이름이 명시적으로 제공된 경우 최대 길이는 100바이트입니다. 링크 URL에서 파생된 값은 이 제한을 받지 않습니다.
-
-AppMeasurement을 사용하여 이 차원을 채우려면 `"o"`의 링크 유형 인수로 [`tl()`](/help/implement/vars/functions/tl-method.md) 이미지 요청을 보냅니다. 링크 이름 인수를 원하는 값으로 설정합니다.
+이 차원은 [링크 추적 호출(`tl()`)](/help/implement/vars/functions/tl-method.md)로 채워집니다. 설정할 전용 변수가 없습니다. 대신 링크 형식 인수가 `"o"`인 `tl()` 이미지 요청을 보내고 링크 이름 인수를 원하는 값으로 설정하십시오. `pe` 쿼리 문자열은 링크 이름을 올바른 링크 차원으로 라우팅합니다([사용자 지정 링크](custom-link.md)의 경우 `lnk_o`, [다운로드 링크](download-link.md)의 경우 `lnk_d`, [종료 링크](exit-link.md)의 경우 `lnk_e`). 링크 이름이 제공되지 않으면 링크 URL이 차원 값으로 대신 사용되며 URL에서 파생된 값은 바이트 제한의 적용을 받지 않습니다.
 
 ```js
 s.tl(true,"o","Example custom link");
 ```
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | [`tl()`](/help/implement/vars/functions/tl-method.md) |
+| **웹 SDK/XDM 필드** | 없음 |
+| **쿼리 매개 변수** | [`pev2`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML 태그** | [`<linkName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **바이트 제한** | 100바이트 |
+| **지속성** | 히트 |
 
 ## 차원 항목
 

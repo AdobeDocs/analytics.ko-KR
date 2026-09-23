@@ -6,28 +6,41 @@ exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
 TQID: https://experienceleague.adobe.com/duNfZhq3nb1kAjVkbUEUkuFPixk-FaTZX3-TA25AifQ
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 362
-ht-degree: 82%
-
+source-wordcount: '413'
+ht-degree: 73%
 ---
-
 # 첫 번째 터치 채널 세부 사항
 
-첫 번째 터치 채널 세부 사항&#39; [차원](overview.md)은(는) 방문자의 참여 기간(기본적으로 30일) 동안 방문자가 일치하는 첫 번째 마케팅 채널에 대한 세부 사항을 보고합니다. 이 차원은 마케팅 채널과 일치하는 히트에 기여한 사항을 이해하는 데 유용합니다. 예를 들어 방문자가 사이트에 도달하고 &#39;유료 검색&#39; 마케팅 채널과 일치하는 경우 채널 세부 사항을 사용하여 사용한 검색 엔진 또는 검색한 키워드를 확인할 수 있습니다.
+첫 번째 터치 채널 세부 사항&#39; [차원](overview.md)은(는) 방문자의 참여 기간(기본적으로 30일) 동안 방문자가 일치하는 첫 번째 마케팅 채널에 대한 세부 사항을 보고합니다. 이 차원은 마케팅 채널과 일치하는 히트에 기여한 사항을 이해하는 데 유용합니다. 예를 들어 방문자가 사이트에 도착하여 &#39;유료 검색&#39; 마케팅 채널과 일치하는 경우 채널 세부 사항을 사용하여 어떤 검색 엔진이 사용되었는지 또는 어떤 키워드를 검색했는지 확인할 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 다른 변수의 값을 복사합니다. 사용된 변수는 각 [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) 내의 채널 값을 참조합니다. 히트가 마케팅 채널 처리 규칙과 일치하면 [마지막 터치 채널](last-touch-channel.md) 차원이 채널 이름으로 설정되고 이 차원은 규칙에 설정된 채널 값으로 설정됩니다.
+이 차원은 다른 변수의 값을 복사하는 마케팅 채널 처리 규칙에 의해 파생됩니다. 사용된 변수는 각 [마케팅 채널 처리 규칙](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) 내의 채널 값을 참조합니다. 히트가 마케팅 채널 처리 규칙과 일치하면 [마지막 터치 채널](last-touch-channel.md) 차원이 채널 이름으로 설정되고 이 차원은 규칙에 설정된 채널 값으로 설정됩니다. 설정할 변수가 없습니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(마케팅 채널 처리 규칙에 의해 파생) |
+| **웹 SDK/XDM 필드** | 없음(마케팅 채널 처리 규칙에 의해 파생) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 해당 없음 |
 
 이 차원을 특정 값으로 설정하려면 다음 단계를 수행해야 합니다.
 
@@ -40,6 +53,6 @@ ht-degree: 82%
 
 ## 차원 항목
 
-Dimension 항목은 해당 마케팅 채널 처리 규칙의 드롭다운 목록에 나열된 채널 값에 따라 다릅니다. 예를 들어 채널의 값을 &#39;페이지 URL&#39;로 설정하면 차원 항목에 사이트의 페이지 URL이 포함됩니다. 채널의 값을 참조 도메인으로 설정하면, 차원 항목에는 방문자가 사이트에 액세스하기 위해 클릭스루한 도메인이 포함됩니다. 이 차원은 차원 항목이 속한 채널에 관계없이 모든 세부 차원 값을 집계합니다.
+Dimension 항목은 해당 마케팅 채널 처리 규칙의 드롭다운 목록에 나열된 채널 값에 따라 다릅니다. 예를 들어 채널의 값을 &#39;페이지 URL&#39;로 설정하면 차원 항목에 사이트의 페이지 URL이 포함됩니다. 채널의 값을 참조 도메인으로 설정하면 차원 항목에는 방문자가 사이트에 도달하기 위해 클릭한 도메인이 포함됩니다. 이 차원은 차원 항목이 속한 채널에 관계없이 모든 세부 차원 항목을 집계합니다.
 
 채널 세부 정보에 대한 인사이트를 위해 마케팅 채널과 관련된 채널 값을 설정하는 것이 좋습니다.

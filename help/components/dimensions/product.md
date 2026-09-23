@@ -6,31 +6,46 @@ exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
 TQID: https://experienceleague.adobe.com/SMFFeSTkQyQoSWNFc8qHJRxYkJQmiJoKd0v4rS6xRKc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 142
-ht-degree: 91%
-
+source-wordcount: '191'
+ht-degree: 58%
 ---
-
 # 제품
 
 &#39;Product&#39; [차원](overview.md)은(는) 히트에서 제품 이름을 보고합니다. 이 차원은 `products` 변수를 사용하고 최상위 판매자나 가장 많이 본 항목과 같은 제품 관련 지표를 보려는 구현에 유용합니다. 사이트에 제품이 없을 경우 의도적으로 이 차원을 비워 둘 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 [`products`](/help/implement/vars/page-vars/products.md) 변수에 있는 문자열의 두 번째 부분을 참조합니다. 첫 번째 및 두 번째 세미콜론 (`;`) 사이의 문자가 이 차원을 채웁니다.
+이 차원은 첫 번째 및 두 번째 세미콜론(`;`) 사이의 문자열인 [`products`](/help/implement/vars/page-vars/products.md) 변수의 제품 이름을 참조합니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | [`products`](/help/implement/vars/page-vars/products.md) |
+| **웹 SDK/XDM 필드** | [`productListItems[].name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **쿼리 매개 변수** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML 태그** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **바이트 제한** | 100바이트 |
+| **지속성** | 히트 |
 
 ## 차원 항목
 

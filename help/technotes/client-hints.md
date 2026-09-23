@@ -7,25 +7,33 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/0dV7b-gqSjMC-4anyH9dTzXCiv4Yfi1tKijaDQw2dSE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Customer journeys
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1283
-ht-degree: 78%
-
+source-wordcount: '1278'
+ht-degree: 76%
 ---
-
 # 클라이언트 힌트 개요 및 FAQ
 
 클라이언트 힌트는 사용자 디바이스에 대한 개별 정보입니다. Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 제공됩니다. 이들 브라우저의 경우 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체합니다. Adobe Analytics는 사용자 에이전트뿐만 아니라 클라이언트 힌트를 사용하여 디바이스 정보를 확인하도록 디바이스 조회 프로세스를 업데이트합니다.
@@ -58,7 +66,7 @@ Adobe Audience Manager의 경우 전체 기능을 유지하기 위해 높은 엔
 
 두 라이브러리 모두에서 높은 엔트로피 힌트 수집은 **기본적으로 비활성화**&#x200B;되어 있습니다.
 
-[데이터 삽입 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 또는 [대량 데이터 삽입 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)와 같이 API를 통해 제출된 데이터의 경우 힌트가 페이로드에 명시적으로 포함되어야 합니다. 자세한 내용은 각각의 설명서를 참조하십시오.
+[데이터 삽입 API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) 또는 [대량 데이터 삽입 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)와 같이 API를 통해 제출된 데이터의 경우 힌트가 페이로드에 명시적으로 포함되어야 합니다. 자세한 내용은 각각의 설명서를 참조하십시오.
 
 +++
 
@@ -152,7 +160,7 @@ Adobe는 클라이언트 힌트와 사용자 에이전트를 모두 사용하여
 
 +++**API 제출을 사용할 때 클라이언트 힌트 데이터를 포함하는 방법은 무엇입니까?**
 
-[대량 데이터 삽입 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/)를 통해 이들 데이터를 포함하는 방법에 대한 설명서를 참조하십시오.
+[대량 데이터 삽입 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/)를 통해 이들 데이터를 포함하는 방법에 대한 설명서를 참조하십시오.
 
 +++
 

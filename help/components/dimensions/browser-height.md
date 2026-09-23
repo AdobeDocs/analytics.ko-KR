@@ -6,25 +6,32 @@ exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 TQID: https://experienceleague.adobe.com/-MSFtBJDaiG0yYL6ZdpzbPY80uFJbdxB0gyBtKAkFzY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 295
-ht-degree: 81%
-
+source-wordcount: '318'
+ht-degree: 40%
 ---
-
 # 브라우저 높이
 
 &#39;브라우저 높이 - 전체기간&#39; [차원](overview.md)은(는) 사전 정의된 그룹으로 분류된 브라우저 창의 높이를 보여줍니다. 이 차원은 방문자에 대한 사이트에서 폴드 (fold)가 있는 위치를 알려 할 때 유용합니다. 폴드 위치를 알면 콘텐츠를 보는 데 최적화할 수 있습니다.
@@ -35,7 +42,7 @@ ht-degree: 81%
 console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${screen.height} pixels`);
 ```
 
-브라우저 높이는 브라우저 탐색 영역이나 테두리가 포함되지 않으므로 항상 화면 높이보다 작거나 같습니다.
+브라우저 높이는 브라우저 탐색 영역이나 테두리가 포함되지 않으므로 일반적으로 화면 높이보다 작거나 같습니다.
 
 >[!NOTE]
 >
@@ -43,9 +50,16 @@ console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${scre
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 이미지 요청의 [`bh` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `window.innerHeight`를 사용하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 각 방문의 첫 번째 히트에서 `bh` 쿼리 문자열 매개 변수를 포함해야 합니다.
+브라우저 높이는 브라우저의 `window.innerHeight` 속성에서 클라이언트측에서 자동으로 수집됩니다. AppMeasurement 또는 Web SDK(태그) 구현에서 즉시 작동하며 설정할 변수가 없습니다. AppMeasurement 또는 웹 SDK 외부의 데이터를 수집하는 경우(API 등을 통해)에는 각 방문의 첫 번째 히트에서 값을 보냅니다. 브라우저 높이를 중간에 조정하면 조정이 기록되지 않습니다.
 
-Adobe는 방문에 대해 브라우저 높이를 유지합니다. 브라우저 높이를 중간에 조정하면 조정이 기록되지 않습니다.
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(자동 수집됨) |
+| **웹 SDK/XDM 필드** | 없음(자동 수집됨) |
+| **쿼리 매개 변수** | [`bh`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML 태그** | [`<browserHeight>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **값 범위** | 0-65,535 |
+| **지속성** | 방문 |
 
 ## 차원 항목
 

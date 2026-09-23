@@ -7,22 +7,26 @@ role: Admin
 TQID: https://experienceleague.adobe.com/aOyIlKV8OwvmigJ7RFcNQsrsBiHbrC0a-IPN4xR0OZc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 554
-ht-degree: 8%
-
+source-wordcount: '552'
+ht-degree: 6%
 ---
-
 # 데이터 소스 파일 형식
 
 데이터 소스 파일에는 다음 속성이 있습니다.
@@ -75,12 +79,12 @@ ht-degree: 8%
 | [체크아웃](/help/components/metrics/checkouts.md) | `Checkouts` |
 | [사용자 지정 이벤트](/help/components/metrics/custom-events.md) | `Event 1` - `Event 1000` |
 | [주문](/help/components/metrics/orders.md) | `Orders` |
-| [매출 &#x200B;](/help/components/metrics/revenue.md) | `Price` |
+| [매출 ](/help/components/metrics/revenue.md) | `Price` |
 | [판매량](/help/components/metrics/units.md) | `Quantity` |
 
 {style="table-layout:auto"}
 
-Adobe은 다른 차원 또는 지표에 대한 데이터 소스를 지원하지 않습니다. 위의 표에 나열된 변수 이외의 변수가 필요한 경우 대신 [대량 데이터 삽입 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)를 사용해 보십시오.
+Adobe은 다른 차원 또는 지표에 대한 데이터 소스를 지원하지 않습니다. 위의 표에 나열된 변수 이외의 변수가 필요한 경우 대신 [대량 데이터 삽입 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)를 사용해 보십시오.
 
 ## 날짜
 

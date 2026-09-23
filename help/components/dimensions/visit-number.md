@@ -6,31 +6,46 @@ exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
 TQID: https://experienceleague.adobe.com/C6fccfJFGSA4iLuhp2X80aPym4ZcwbrLMaUS2LUfosg
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 164
-ht-degree: 100%
-
+source-wordcount: '201'
+ht-degree: 77%
 ---
-
 # 방문 횟수
 
 방문 번호 [차원](overview.md)은 현재 방문자가 있는 방문이 어느 것인지 보고합니다. 새 방문이 시작되면 이 차원 항목이 1씩 증가합니다. 이 차원은 사이트로 돌아올 때 방문자의 참여도를 이해하려 할 때 유용합니다. 방문 기반 차원으로서 전체 방문에 대해 동일한 값을 포함하고 변경할 수 없음을 의미합니다. 프로젝트 날짜 범위와 상관없이 방문자의 라이프타임에 적용됩니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 모든 구현에 대해 즉시 작동합니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
+Adobe은 방문자의 방문 기록에서 이 차원 서버측을 계산합니다. 설정할 변수가 없습니다. 모든 구현에 대해 즉시 작동합니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(Adobe에서 계산) |
+| **웹 SDK/XDM 필드** | 없음(Adobe에서 계산) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 방문 |
 
 ## 차원 항목
 

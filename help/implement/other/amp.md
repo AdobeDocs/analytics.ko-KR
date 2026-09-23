@@ -7,28 +7,38 @@ role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+    internal-label: CX Enterprise integration
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 939
-ht-degree: 66%
-
+source-wordcount: '949'
+ht-degree: 65%
 ---
-
 # AMP를 사용한 구현
 
 [AMP](https://amp.dev)는 빠르고 매끄럽게 로딩되는 웹 페이지를 손쉽게 만들 수 있는 방법을 제공하는 오픈 소스 HTML 프레임워크입니다.
@@ -46,13 +56,13 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 
 |   | **`"adobeanalytics"`템플릿** | **`"adobeanalytics_nativeConfig"`템플릿** |
 |---|---|---|
-| 기존 보고서 세트의 방문자/방문수 | 높은 인플레이션 | 최소 인플레이션 |
+| 기존 보고서 세트의 방문자/방문 수 | 높은 인플레이션 | 최소 인플레이션 |
 | 별도의 보고서 세트 사용 | 권장 | 필요 없음 |
 | 신규 방문자와 재방문자 비교 | 지원되지 않음 | 지원됨 |
 | 방문자 ID 서비스(`VisitorAPI.js`) | 지원되지 않음 | 지원됨 |
 | 비디오 및 링크 추적 | 부분 지원 | 아직 지원되지 않음 |
 | 구현의 어려움 | 어려움 | 비교적 쉬우 |
-| Adobe CX 엔터프라이즈 통합 | 지원되지 않음 | 부분 지원 |
+| Adobe CX Enterprise 통합 | 지원되지 않음 | 부분 지원 |
 
 장단점을 따져 조직에 가장 적합한 구현 방법을 선택할 수 있습니다.
 
@@ -101,7 +111,7 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 
 >[!NOTE]
 >
->이 방법을 사용하여 Adobe으로 전송된 이미지 요청에는 많은 기본 보고서(예: 브라우저, 화면 크기 또는 레퍼러)에 대한 데이터가 포함되지 않습니다. 히트에 이 정보를 포함하려면 이 정보가 이미지 요청 쿼리 문자열의 일부로 포함되었는지 확인하십시오. 이미지 요청 쿼리 매개 변수 및 관련 변수의 전체 목록은 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
+>이 방법을 사용하여 Adobe으로 전송된 이미지 요청에는 많은 기본 보고서(예: 브라우저, 화면 크기 또는 레퍼러)에 대한 데이터가 포함되지 않습니다. 히트에 이 정보를 포함하려면 이 정보가 이미지 요청 쿼리 문자열의 일부로 포함되었는지 확인하십시오. 이미지 요청 쿼리 매개 변수 및 관련 변수의 전체 목록은 [데이터 수집 쿼리 매개 변수](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)를 참조하십시오.
 
 Adobe는 기본 제공 AMP 함수를 사용하여 방문자를 식별하고 쿠키 `adobe_amp_id`를 설정합니다. 이 방문자 ID는 Adobe Analytics에서 설정한 다른 모든 ID에 대해 고유합니다. 방문자가 콘텐츠를 검색하는 각 CDN에 대해 서로 다른 고유 방문자가 계산되어 고유 방문자 수가 부풀려질 수 있습니다. AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별도의 보고서 세트를 사용하는 것이 좋습니다. Adobe 방문자 ID 서비스는 지원되지 않습니다.
 
@@ -171,7 +181,7 @@ Adobe는 기본 제공 AMP 함수를 사용하여 방문자를 식별하고 쿠�
 >
 >`stats.html` 페이지는 AMP 자체가 호스팅되는 도메인과는 별도의 하위 도메인에서 호스팅되어야 합니다. AMP 프레임워크는 AMP 페이지 자체가 존재하고 있는 것과 동일한 하위 도메인의 iframe을 허용하지 않습니다. 예를 들어 AMP가 `amp.example.com`에서 호스팅된다면 `stats.html` 페이지를 반드시 `ampmetrics.example.com`과 같은 별도의 하위 도메인에서 호스팅하십시오.
 
-이 방법을 사용하면 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 AMP의 추적 또한 옵트 아웃하게 됩니다. 또한 이 유틸리티 페이지를 사용한다는 것은 AMP가 Adobe 방문자 ID 서비스를 지원할 수 있음을 의미합니다. 별도의 보고서 세트는 필요하지 않습니다.
+이 방법을 사용하면 사용자가 기본 사이트에서 추적을 거부하는 경우 모든 AMP에서도 추적이 거부됩니다. 또한 이 유틸리티 페이지를 사용한다는 것은 AMP가 Adobe 방문자 ID 서비스를 지원할 수 있음을 의미합니다. 별도의 보고서 세트는 필요하지 않습니다.
 
 링크 추적 및 비디오 추적은 이 방법에서 사용할 수 없습니다. AMP의 `iframeMessage` 태그는 페이지당 한 번만 로드될 수 있으므로 프레임이 로드된 후 다른 이미지 요청을 전송할 수 없습니다. 또한 이 메서드를 실행하려면 더 많은 처리 리소스가 필요하며 이는 스크롤 성능에 영향을 줄 수 있습니다. 모든 리소스는 비동기적으로 로드되므로 이 방법은 페이지 로드 시간에는 영향을 주지 않습니다.
 

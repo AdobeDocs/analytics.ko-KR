@@ -6,31 +6,45 @@ exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 TQID: https://experienceleague.adobe.com/2WMG5X3GNmogf-9Bbapq78pjVg5ibQQw7Bgb0qNpF1E
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 93%
-
+source-wordcount: '515'
+ht-degree: 82%
 ---
-
 # Prop
 
+>[!BEGINSHADEBOX]
+
 *이 도움말 페이지에서는 prop이 [차원](overview.md)(으)로 작동하는 방식을 설명합니다. prop 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [prop](/help/implement/vars/page-vars/prop.md)을 참조하십시오.*
+
+>[!ENDSHADEBOX]
 
 prop은 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. prop이 설정된 히트 이후에는 지속되지 않습니다.
 
@@ -42,9 +56,16 @@ prop은 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. 
 
 ## 데이터로 prop 채우기
 
-각 prop은 이미지 요청의 [`c1` - `c75` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. 예를 들어 `c1` 쿼리 문자열 매개 변수는 prop1에 대한 데이터를 수집하는 반면 `c68` 쿼리 문자열 매개 변수는 prop68에 대한 데이터를 수집합니다.
+각 prop은 AppMeasurement에서 해당 [`prop1` - `prop75`](/help/implement/vars/page-vars/prop.md) 변수를 사용하여 데이터를 수집합니다. 예를 들어 `prop1` 변수는 prop1 차원을 채우는 반면 `prop68` 변수는 prop68 차원을 채웁니다.
 
-JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일하는 AppMeasurement는 변수 `prop1` - `prop75`을 사용합니다. 구현 지침이 필요하면 구현 사용 안내서의 [prop](/help/implement/vars/page-vars/prop.md)을 참조하십시오.
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | [`prop1` - `prop75`](/help/implement/vars/page-vars/prop.md) |
+| **웹 SDK/XDM 필드** | [`_experience.analytics.customDimensions.props.prop1` - `prop75`](https://experienceleague.adobe.com/kr/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **쿼리 매개 변수** | [`c1` - `c75`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML 태그** | [`<prop1>` - `<prop75>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **바이트 제한** | 100바이트 |
+| **지속성** | 히트 |
 
 ## 차원 항목
 

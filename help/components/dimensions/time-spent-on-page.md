@@ -6,36 +6,41 @@ exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 TQID: https://experienceleague.adobe.com/2WS7gBdkpaYUvVqgoR5QTrPes2T2GJT5AEFyj9POcHA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 85%
-
+source-wordcount: '335'
+ht-degree: 70%
 ---
-
 # 페이지에서 보낸 시간
 
 &#39;페이지에서 보낸 시간&#39; [차원](overview.md)은 방문자가 페이지에서 보낸 시간을 기록합니다. 다음 절차를 사용하여 계산을 측정합니다.
 
 1. 주어진 히트의 타임스탬프를 확인합니다.
-2. 이 히트를 방문에서 다음 히트의 타임스탬프와 비교합니다. 페이지 보기와 링크 추적 히트가 모두 계산됩니다.
+2. 이 히트를 방문 중 다음 히트의 타임스탬프와 비교합니다. 페이지 조회수와 링크 추적 히트가 모두 집계됩니다.
 3. 이 두 히트 사이에 경과된 시간이 페이지에서 보낸 시간에 기여합니다.
 
-이 차원은 방문자가 사이트에서 주어진 지표와 상호 작용하는 시간의 크기를 이해하려는 경우 유용합니다.
+이 차원은 방문자가 사이트에서 주어진 지표와 얼마나 오래 상호 작용하는지 이해하려는 경우 유용합니다.
 
 >[!TIP]
 >
->경과 시간을 측정할 후속 이미지 요청이 없기 때문에 페이지에서 체류한 시간은 방문의 마지막 히트에 대해서는 측정되지 않습니다. 이 개념은 단일 히트 (바운스)로 구성된 방문에도 적용됩니다.
+>경과 시간을 측정할 후속 이미지 요청이 없기 때문에 체류 시간은 방문의 마지막 히트에 대해서는 측정되지 않습니다. 이 개념은 단일 히트 (바운스)로 구성된 방문에도 적용됩니다.
 
 이 차원은 히트 기반입니다. 즉, 모든 히트에 대해 값이 다릅니다. 이 차원을 방문 기반 차원인 [방문당 체류 시간](time-spent-per-visit.md)과 비교합니다. 높은 체류 시간은 페이지 (히트)에서 방문자가 오래 머물렀음을 의미합니다.
 
@@ -43,7 +48,16 @@ ht-degree: 85%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 모든 구현에 대해 즉시 작동합니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
+Adobe은 각 히트와 방문의 다음 히트 사이의 경과 시간으로부터 이 차원 서버측을 계산합니다. 설정할 변수가 없습니다. 모든 구현에 대해 즉시 작동합니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(Adobe에서 계산) |
+| **웹 SDK/XDM 필드** | 없음(Adobe에서 계산) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 히트 |
 
 ## 차원 항목
 

@@ -6,32 +6,48 @@ exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
 TQID: https://experienceleague.adobe.com/dH1ItdXZTw9vcqvej3VOQDM-J9FFA38f4bq8HTJbKMo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 74%
-
+source-wordcount: '355'
+ht-degree: 63%
 ---
-
 # 히트 깊이
 
-&#39;히트 깊이&#39; [차원](overview.md)은(는) 주어진 히트가 방문까지 얼마나 진행되었는지 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 중요합니다. 히트 깊이는 페이지 보기([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
+&#39;히트 깊이&#39; [차원](overview.md)은(는) 주어진 히트가 방문까지 얼마나 진행되었는지 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 시점이 방문 중 어느 정도인지 이해하는 데 유용합니다. 히트 깊이는 페이지 보기([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 모든 구현에 대해 즉시 작동합니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
+Adobe은 각 방문의 히트 시퀀스로부터 이 차원 서버측을 계산합니다. 설정할 변수가 없습니다. 모든 구현에 대해 즉시 작동합니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(Adobe에서 계산) |
+| **웹 SDK/XDM 필드** | 없음(Adobe에서 계산) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 해당 사항 없음 |
 
 ## 차원 항목
 
@@ -43,7 +59,7 @@ ht-degree: 74%
 
 ## 방문 깊이와 비교
 
-히트 깊이는 페이지 보기와 링크 추적 히트를 포함하여 모든 유형의 히트를 계산합니다. 방문 깊이는 페이지 보기 히트에 대해서만 증가&#x200B;_하며_ [페이지](page.md) 차원 항목은 이전 페이지의 값과 동일하지 않습니다. 또한 방문 깊이는 방문 기반 차원으로서, 이것은 방문 깊이가 방문의 모든 히트에 대해 동일한 값임을 의미합니다. 다음 테이블에서는 방문 예와 방문이 히트 깊이 + 방문 깊이를 고려하는 방식에 대해 설명합니다.
+히트 깊이는 페이지 조회수와 링크 추적 히트를 포함하여 모든 유형의 히트를 계산합니다. 방문 깊이는 페이지 보기 히트에 대해서만 증가&#x200B;_하며_ [페이지](page.md) 차원 항목은 이전 페이지의 값과 동일하지 않습니다. 방문 깊이는 또한 방문 기반 차원이므로 방문의 모든 히트에서 값이 동일합니다. 다음 테이블에서는 방문 예와 이 방문에서 히트 깊이 + 방문 깊이가 어떻게 고려되는지 설명합니다.
 
 | 페이지 시퀀스 | 히트 깊이 | 방문 깊이에 포함됩니까? | 방문 깊이 |
 | --- | --- | --- | --- |

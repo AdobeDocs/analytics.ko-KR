@@ -6,23 +6,28 @@ exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
 TQID: https://experienceleague.adobe.com/Qek7BUR15HjFpK-XaYQ-J9fkJQiBfNi-ZoqXqaACP0A
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 224
-ht-degree: 95%
-
+source-wordcount: '238'
+ht-degree: 52%
 ---
-
 # 페이지 URL
 
 &#39;페이지 URL&#39; [차원](overview.md)은(는) 사이트의 URL을 나열합니다.
@@ -33,11 +38,16 @@ ht-degree: 95%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 [페이지 조회수 호출 (`t()`)](/help/implement/vars/functions/t-method.md)의 [`g` 및 `-g` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. [링크 추적 호출 (`tl()`)](/help/implement/vars/functions/tl-method.md)은 `g` 쿼리 문자열이 있는 경우에도 항상 이 차원을 제거합니다.
+AppMeasurement은 각 [페이지 보기 호출(`t()`)](/help/implement/vars/functions/t-method.md)에서 페이지 URL을 자동으로 수집합니다. [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 변수를 사용하여 수집된 값을 재정의할 수 있습니다. URL이 255바이트보다 긴 경우 오버플로는 `-g` 쿼리 문자열 매개 변수에 저장됩니다. URL의 프로토콜 및 쿼리 문자열이 포함됩니다. [링크 추적 호출(`tl()`)](/help/implement/vars/functions/tl-method.md)은(는) URL 값이 있어도 항상 이 차원을 제거합니다.
 
-경우에 따라 URL이 255바이트보다 길 수 있습니다. AppMeasurement는 이미지 요청에 있는 URL의 처음 255바이트에 대해 `g` 쿼리 문자열 매개 변수를 사용합니다. URL이 255바이트보다 긴 경우 URL의 나머지 부분은 `-g` 쿼리 문자열 매개 변수에 저장됩니다. URL의 프로토콜 및 쿼리 문자열은 이 변수에 포함됩니다.
-
-AppMeasurement는 페이지의 URL을 기반으로 이 데이터를 자동으로 수집합니다. [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 변수를 사용하여 수집된 값을 재정의할 수 있습니다.
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
+| **웹 SDK/XDM 필드** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **쿼리 매개 변수** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML 태그** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **바이트 제한** | 255바이트(오버플로가 있는 고정 제한 없음) |
+| **지속성** | 히트 |
 
 ## eVar를 URL로 채우기
 

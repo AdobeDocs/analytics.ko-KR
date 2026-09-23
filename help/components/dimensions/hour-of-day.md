@@ -1,39 +1,55 @@
 ---
 title: 시간 (일 기준)
-description: 일에 상관없이 그 날의 숫자 시간입니다.
+description: 어느 일자인지와 관계없이 하루 중 숫자 시간입니다.
 feature: Dimensions
 exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 TQID: https://experienceleague.adobe.com/cktusukSxy7fHIIUi-7MSmx8Gl9FlUObfmJGS3VC3Jw
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 364
-ht-degree: 81%
-
+source-wordcount: '413'
+ht-degree: 69%
 ---
-
 # 시간 (일 기준)
 
 &#39;시간&#39; [차원](overview.md)은(는) 주어진 날의 숫자 시간을 차원 항목으로 보고합니다. 예를 들어, 1월 1일 - 1월 7일 범위의 보고서가 있을 경우, 각 날의 첫 번째 시간은 동일한 차원 항목으로 그룹화됩니다. 이 보고서는 일의 상대적 시간별로 구분된 보고서가 필요하지만 차원 항목으로 정적 시간을 원하지 않는 경우 유용합니다. 이 차원은 선택한 날짜 범위에 실행되므로 특히나 예약된 보고서에서 차원으로서 중요합니다.
 
-이 차원은 보고서 세트의 시간대를 기반으로 하며 방문자의 현지 시간대은 기반으로 하지 않습니다. 예를 들어 보고서 세트가 산악 시간이고 캘리포니아에 있는 방문자가 태평양 표준시 오전 10:00에 사이트를 방문하는 경우 히트는 `11:00 AM` 차원 항목 아래에 그룹화됩니다. 로컬 방문자의 시간을 기록하는 차원을 원하는 경우 [getTimeParting](/help/implement/vars/plugins/gettimeparting.md) 플러그인을 사용하는 것이 좋습니다.
+이 차원은 보고서 세트의 시간대를 기반으로 하며 방문자의 현지 시간대를 기반으로 하지는 않습니다. 예를 들어 보고서 세트가 산악 시간이고 캘리포니아에 있는 방문자가 태평양 표준시 오전 10:00에 사이트를 방문하는 경우 히트는 `11:00 AM` 차원 항목 아래에 그룹화됩니다. 로컬 방문자의 시간을 기록하는 차원을 원하는 경우 [getTimeParting](/help/implement/vars/plugins/gettimeparting.md) 플러그인을 사용하는 것이 좋습니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 모든 구현에 대해 즉시 작동합니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
+이 차원은 각 히트의 타임스탬프에서 파생되며 설정할 변수가 없습니다. 위에서 언급했듯이 시간은 방문자의 현지 시간대가 아닌 보고서 세트의 시간대를 반영합니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(히트 타임스탬프에서 파생) |
+| **웹 SDK/XDM 필드** | 없음(히트 타임스탬프에서 파생) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 히트 |
 
 ## 차원 항목
 
@@ -44,4 +60,4 @@ ht-degree: 81%
 일광 절약 시간제는 봄에는 시계를 1시간 앞당기고 가을에는 1시간 뒤로 설정하는 방식입니다. 보고서 세트의 시간대에서 일광 절약 시간제를 사용하는 경우 Adobe는 그에 따라 해당 시간에 대한 데이터를 조정합니다.
 
 * **일광 절약 시간제가 시작되는 시기**: 3월 보고서 데이터에서 일반적으로 1시간 차이가 나타납니다. 여기가 일광 절약 시간제가 시작되는 곳입니다. 해당 시간이 존재하지 않으므로 이 시간은 데이터 수집에 포함되지 않습니다. 적은 양의 데이터가 여전히 이 시간에 포함될 수 있습니다. Adobe 데이터 수집 서버는 일광 절약 시간 조정을 고려하는데 수 초 (최대 1분)가 소요됩니다.
-* **일광 절약 시간제가 끝나는 시기**: 11월 보고서에는 일반적으로 2배 누적 시간이 나타납니다. 이 때가 일광 절약 시간제가 끝나는 곳입니다. 시간이 두 번 발생했으므로 양쪽 모두 보고서에서 집계됩니다.
+* **일광 절약 시간제가 끝나는 시기**: 11월 보고서에는 일반적으로 2배 누적 시간이 나타납니다. 이 때가 일광 절약 시간제가 끝나는 곳입니다. 시간이 두 번 발생했으므로 두 시간 모두 보고서에서 집계됩니다.

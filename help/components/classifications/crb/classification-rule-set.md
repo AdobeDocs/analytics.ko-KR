@@ -6,25 +6,32 @@ exl-id: 5c118541-d143-4947-b693-514d7042abe6
 TQID: https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 407
+source-wordcount: '407'
 ht-degree: 58%
-
 ---
-
 # 분류 규칙 세트 (기존)
 
 {{classification-rulebuilder-deprecation}}
 
+>[!BEGINSHADEBOX]
+
 *이 페이지에서는 [분류 규칙 빌더](classification-rule-builder.md)의 일부로 분류 규칙 집합에 대해 설명합니다. Adobe Analytics에서 데이터를 분류하는 현재 방법은 [분류 세트](../sets/overview.md)를 참조하십시오.*
+
+>[!ENDSHADEBOX]
 
 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. 규칙 세트에 변수를 적용합니다. 하나의 변수에 대해 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다.
 
@@ -86,7 +93,7 @@ ht-degree: 58%
 
 1. **[!UICONTROL 보고서 세트 및 변수 선택]**&#x200B;을 클릭합니다.
 
-   보고서 세트 및 변수 목록은 로그인 회사의 모든 보고서 세트에서 사용할 수 있는 모든 분류된 변수로 채워집니다. 보고서 세트의 단일 변수는 하나의 규칙 세트에만 속할 수 있습니다.
+   보고서 세트 및 변수 목록은 로그인한 회사의 모든 보고서 세트에서 사용할 수 있는 모든 분류된 변수로 채워집니다. 보고서 세트의 단일 변수는 하나의 규칙 세트에만 속할 수 있습니다.
 
    자세한 내용은 [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-definitions.md) 페이지의 정의에서 *`Variable`*&#x200B;을(를) 참조하십시오.
 1. 사용할 보고서 세트와 변수를 지정한 다음, **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

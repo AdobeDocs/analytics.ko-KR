@@ -6,36 +6,52 @@ exl-id: 3517b417-1a44-4d3e-ac16-93fdc5f36404
 TQID: 'https://experienceleague.adobe.com/3G1qDbtVnRj8At-FU1fNaI8KLboMQvo8NKktinrTbs8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 155
-ht-degree: 93%
-
+source-wordcount: '203'
+ht-degree: 63%
 ---
-
 # 카테고리
 
 &#39;범주&#39; [차원](overview.md)은(는) 히트의 제품 범주를 보고합니다. 이 차원은 `products` 변수를 사용하고 최상위 판매자나 가장 많이 본 항목과 같은 제품 카테고리 관련 지표를 보려는 구현에 유용합니다. 사이트에 제품이 없을 경우 의도적으로 이 차원을 비워 둘 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 [`products`](/help/implement/vars/page-vars/products.md) 변수에 있는 문자열의 첫 부분을 참조합니다. 첫 번째 세미콜론 (`;`) 앞의 모든 내용이 이 차원을 채웁니다.
+이 차원은 첫 번째 세미콜론(`;`) 앞의 모든 항목인 [`products`](/help/implement/vars/page-vars/products.md) 변수의 제품 범주를 참조합니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | [`products`](/help/implement/vars/page-vars/products.md) |
+| **웹 SDK/XDM 필드** | [`productListItems[].productCategories[].categoryID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **쿼리 매개 변수** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML 태그** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **바이트 제한** | 100바이트 |
+| **지속성** | 히트 |
 
 ## 차원 항목
 
-이 변수는 구현의 사용자 지정 문자열에 기반하므로 조직에서 차원 항목을 결정합니다. 제품과 카테고리 차원을 모두 사용하여 개별 제품을 의미 있는 카테고리로 그룹화하는 것이 좋습니다.
+이 변수는 구현의 사용자 지정 문자열에 기반하므로 조직에서 차원 항목을 결정합니다. &#39;제품&#39; 및 &#39;카테고리&#39; 차원을 모두 사용하여 개별 제품을 의미 있는 카테고리로 그룹화하는 것이 좋습니다.
 
 >[!TIP]
 >

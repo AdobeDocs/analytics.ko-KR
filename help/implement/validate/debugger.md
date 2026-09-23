@@ -7,31 +7,38 @@ role: Admin, Developer, Leader, User
 TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 75%
-
+source-wordcount: '691'
+ht-degree: 74%
 ---
-
 # 기존 디버거
 
 >[!IMPORTANT]
 >
->이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)을 사용하는 것이 좋습니다.
+>이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)을 사용하는 것이 좋습니다.
 
-[!UICONTROL 기존 디버거]는 대부분의 Adobe CX 엔터프라이즈 서비스용 태그를 검사합니다. 디버거를 사용하면 사이트의 지정된 페이지에서 어떤 데이터가 Adobe에 전송되는지 볼 수 있습니다. 이 정보를 사용하여 조직의 구현 문제를 해결하거나 유효성을 검사할 수 있습니다.
+[!UICONTROL 기존 디버거]는 대부분의 Adobe CX Enterprise 서비스용 태그를 검사합니다. 디버거를 사용하면 사이트의 특정 페이지에서 어떤 데이터가 Adobe에 전송되는지 볼 수 있습니다. 이 정보를 사용하여 조직의 구현 문제를 해결하거나 구현을 검증할 수 있습니다.
 
 ## 기존 디버거 설치
 
@@ -67,7 +74,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Edge
 
-Edge에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을 편집하여 북마클릿에 포함할 수는 있습니다.
+Edge에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을 편집하여 북마클릿으로 만들 수는 있습니다.
 
 1. URL 필드의 오른쪽에 있는 별 아이콘을 클릭하여 현재 페이지를 책갈피로 지정합니다.
 2. 책갈피 이름을 &quot;Legacy Debugger&quot;로 지정하고 원하는 위치에 저장합니다.
@@ -77,7 +84,7 @@ Edge에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을
 
 #### Safari
 
-Safari에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을 편집하여 북마클릿에 포함할 수는 있습니다.
+Safari에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을 편집하여 북마클릿으로 만들 수는 있습니다.
 
 1. 오른쪽 상단의 공유 아이콘을 클릭하여 책갈피 모달 창을 엽니다.
 2. 책갈피 이름을 &quot;Legacy Debugger&quot;로 지정하고 원하는 위치에 저장합니다.
@@ -94,9 +101,9 @@ Safari에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL�
 
 디버거에는 데이터 표시 방식을 사용자 지정하는 몇 가지 옵션이 있습니다. 이 옵션들은 데이터 수집에 영향을 주지 않습니다.
 
-* **[!UICONTROL 표시된 Experience Cloud 제품]**: 각 CX 엔터프라이즈 제품에 대한 이미지 요청을 표시하거나 숨깁니다.
+* **[!UICONTROL 표시된 Experience Cloud 제품]**: 각 CX Enterprise 제품에 대한 이미지 요청을 표시하거나 숨깁니다.
 * **[!UICONTROL URL 디코딩]**: URL은 이미지 요청을 보고에 표시되는 내용과 일치하도록 디코딩합니다. 이 상자는 선택된 채로 두는 것이 좋습니다.
 * **[!UICONTROL 자동 새로 고침]**: 팝업을 몇 초마다 자동으로 새로 고쳐 페이지에서 더 많은 이미지 요청을 확인합니다. 디버거에서 콘텐츠를 복사하거나 붙여넣으려면 선택 내용이 유지되도록 자동 새로 고침을 비활성화하십시오.
-* **[!UICONTROL 친숙한 형식]**: 이미지 요청에서 유용한 레이블과 원시 쿼리 문자열 간 표시 형식을 전환합니다. 자세한 내용은 [데이터 수집 쿼리 매개 변수](query-parameters.md)를 참조하십시오.
+* **[!UICONTROL 친숙한 형식]**: 이미지 요청에서 유용한 레이블과 원시 쿼리 문자열 간 표시 형식을 전환합니다. 자세한 내용은 [데이터 수집 쿼리 매개 변수](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)를 참조하십시오.
 
 디버거에 대한 기본 표시 옵션을 저장하려면 오른쪽 상단에 있는 &#39;Adobe Debugger&#39; 링크를 마우스 오른쪽 버튼으로 클릭한 다음 링크 주소를 복사합니다. 현재 디버거 북마클릿을 편집하고 업데이트된 코드 스니펫을 URL 필드에 붙여넣으십시오.

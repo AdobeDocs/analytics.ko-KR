@@ -6,24 +6,32 @@ exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 TQID: https://experienceleague.adobe.com/X1RtHTTmu0VIblFC3jANE7d6bIbtm4W5OvqFZDp8bLE
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: '263'
 ht-degree: 90%
-
 ---
-
 # 방문당 체류 시간 (초)
 
+>[!BEGINSHADEBOX]
+
 *이 도움말 페이지에서는 &#39;방문당 체류 시간&#39;이 지표로 작동하는 방식을 설명합니다. 자세한 내용은 [방문당 체류 시간](../dimensions/time-spent-per-visit.md) 차원을 참조하십시오.*
+
+>[!ENDSHADEBOX]
 
 방문당 체류 시간(초) [지표](overview.md)은 방문자가 각 방문 동안 주어진 차원 항목과 상호 작용하는 평균 시간을 보여 줍니다.
 

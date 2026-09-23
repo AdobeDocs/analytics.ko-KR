@@ -6,27 +6,36 @@ exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
 TQID: https://experienceleague.adobe.com/KTpLeq4YjWgaFR-xcq1PBENAO5mb-wV-71BODlRGGlM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: '187'
 ht-degree: 88%
-
 ---
-
 # 종료
+
+>[!BEGINSHADEBOX]
 
 *이 도움말 페이지에서는 종료가 지표로 작동하는 방식을 설명합니다. 종료가 차원으로 작동하는 방법에 대한 자세한 내용은 [종료 차원](../dimensions/exit-dimensions.md)을 참조하십시오.*
 
-종료 [지표](overview.md)은(는) 주어진 차원 항목이 방문에서 마지막 값으로 캡처된 횟수를 보여줍니다. 이 지표는 방문자가 사이트를 떠나기 전에 마지막으로 본 사항에 대해 더 알려고 할 때 유용합니다. 차원의 마지막 값을 확인하는 것은 방문자가 사이트를 떠나기 전에 느낀 경험을 이해하고 최적화하는 데 도움이 될 수 있습니다.
+>[!ENDSHADEBOX]
+
+종료 [지표](overview.md)은(는) 주어진 차원 항목이 방문에서 마지막 값으로 캡처된 횟수를 보여줍니다. 이 지표는 방문자가 사이트를 떠나기 전에 마지막으로 본 사항에 대해 더 알려고 할 때 유용합니다. 차원의 마지막 값을 확인하면 방문자가 떠나기 전에 얻게 되는 경험을 이해하고 최적화하는 데 도움이 될 수 있습니다.
 
 ## 이 지표의 계산 방법
 

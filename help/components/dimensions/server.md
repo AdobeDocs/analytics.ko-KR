@@ -6,23 +6,28 @@ exl-id: c2454c0d-497e-46f8-8569-7d0517097cab
 TQID: https://experienceleague.adobe.com/BDVwwy3jCtHrcWLy2nOHVnDRbFiAoR-EeOzp-35XjBs
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 136
-ht-degree: 92%
-
+source-wordcount: '183'
+ht-degree: 61%
 ---
-
 # 서버
 
 &#39;서버&#39; [차원](overview.md)은(는) 일반적으로 사이트의 호스트 이름을 나열합니다. 여러 도메인 또는 하위 도메인을 결합하는 보고서 세트의 경우, 이 차원은 성과가 가장 좋은 도메인이나 하위 도메인을 확인하는 데 중요합니다.
@@ -31,8 +36,17 @@ ht-degree: 92%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 이미지 요청의 [`server` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 [`server`](/help/implement/vars/page-vars/server.md) 변수를 사용하여 이 데이터를 수집합니다.
+AppMeasurement은 prop과 기능적으로 동일한 [`server`](/help/implement/vars/page-vars/server.md) 변수를 사용하여 이 데이터를 수집합니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | [`server`](/help/implement/vars/page-vars/server.md) |
+| **웹 SDK/XDM 필드** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **쿼리 매개 변수** | [`server`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML 태그** | [`<server>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **바이트 제한** | 100바이트 |
+| **지속성** | 히트 |
 
 ## 차원 항목
 
-차원 항목은 사이트의 서버를 포함합니다. 조직은 사용자가 사용하려는 특정 차원 항목을 파악합니다. 일부 조직에서는 `window.location.hostname`을 사용하는 반면, 다른 조직에서는 사용자 지정 값을 만듭니다. 어떤 방법을 사용하든 일관된 방법을 사용하고 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 기록하도록 하십시오.
+차원 항목은 사이트의 서버를 포함합니다. 조직에서 사용할 특정 차원 항목을 결정합니다. 일부 조직에서는 `window.location.hostname`을 사용하는 반면, 다른 조직에서는 사용자 지정 값을 만듭니다. 어떤 방법을 사용하든 일관된 방법을 사용하고 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 기록하도록 하십시오.
