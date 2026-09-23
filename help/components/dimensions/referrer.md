@@ -55,7 +55,7 @@ AppMeasurement은 브라우저의 `document.referrer` 값에서 레퍼러를 자
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | [`referrer`](/help/implement/vars/page-vars/referrer.md) |
-| **웹 SDK/XDM 필드** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/web-information) |
+| **웹 SDK/XDM 필드** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-types/web-information) |
 | **쿼리 매개 변수** | [`r`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<referrer>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 255바이트 |

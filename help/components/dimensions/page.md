@@ -47,7 +47,7 @@ ht-degree: 54%
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | [`pageName`](/help/implement/vars/page-vars/pagename.md) |
-| **웹 SDK/XDM 필드** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **웹 SDK/XDM 필드** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-types/webpage-details) |
 | **쿼리 매개 변수** | [`pageName`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<pageName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 100바이트 |

@@ -52,7 +52,7 @@ AppMeasurement는 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 변�
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | [`pageType`](/help/implement/vars/page-vars/pagetype.md) |
-| **웹 SDK/XDM 필드** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **웹 SDK/XDM 필드** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-types/webpage-details) |
 | **쿼리 매개 변수** | [`pageType`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<pageType>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 해당 없음 |

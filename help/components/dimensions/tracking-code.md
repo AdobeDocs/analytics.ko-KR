@@ -41,7 +41,7 @@ AppMeasurement는 [`campaign`](/help/implement/vars/page-vars/campaign.md) 변�
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **웹 SDK/XDM 필드** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **웹 SDK/XDM 필드** | [`marketing.trackingCode`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **쿼리 매개 변수** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 255바이트 |

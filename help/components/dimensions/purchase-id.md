@@ -41,7 +41,7 @@ ht-degree: 18%
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) |
-| **웹 SDK/XDM 필드** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **웹 SDK/XDM 필드** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **쿼리 매개 변수** | [`purchaseID`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<purchaseId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 20바이트 |

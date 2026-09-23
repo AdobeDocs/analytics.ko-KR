@@ -50,7 +50,7 @@ Adobe은 `User-Agent` HTTP 헤더에서 이 차원을 파생하여 Adobe이 [Dev
 | **지속성** | 해당 없음 |
 
 * AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
-* 웹 SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)할 때 [!UICONTROL 장치 조회]를 사용하도록 설정하십시오.
+* 웹 SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)할 때 [!UICONTROL 장치 조회]를 사용하도록 설정하십시오.
 
 ## 차원 항목
 

@@ -41,7 +41,7 @@ AppMeasurement은 prop과 기능적으로 동일한 [`server`](/help/implement/v
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | [`server`](/help/implement/vars/page-vars/server.md) |
-| **웹 SDK/XDM 필드** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **웹 SDK/XDM 필드** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-types/webpage-details) |
 | **쿼리 매개 변수** | [`server`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<server>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 100바이트 |

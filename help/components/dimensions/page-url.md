@@ -43,7 +43,7 @@ AppMeasurement은 각 [페이지 보기 호출(`t()`)](/help/implement/vars/func
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
-| **웹 SDK/XDM 필드** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **웹 SDK/XDM 필드** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-types/webpage-details) |
 | **쿼리 매개 변수** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 255바이트(오버플로가 있는 고정 제한 없음) |

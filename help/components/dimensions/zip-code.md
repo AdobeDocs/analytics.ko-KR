@@ -43,14 +43,14 @@ ht-degree: 61%
 이 차원은 데이터로 채우는 여러 가지 방법을 포함하고 있다는 점에서 독특합니다. 다음 중 하나 또는 두 가지를 조합하여 사용할 수 있습니다.
 
 * [`zip`](/help/implement/vars/page-vars/zip.md) 변수를 사용하여 바로 우편 번호를 설정합니다.
-* 지리적 위치 데이터에서 가져오도록 구성합니다. geo zip 을 사용하면 변수가 설정되지 않습니다. AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다. 웹 SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)할 때 [!UICONTROL 지역 조회]를 사용하도록 설정하십시오.
+* 지리적 위치 데이터에서 가져오도록 구성합니다. geo zip 을 사용하면 변수가 설정되지 않습니다. AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다. 웹 SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)할 때 [!UICONTROL 지역 조회]를 사용하도록 설정하십시오.
 
 [!UICONTROL 일반 계정 설정] 아래의 [Zip 옵션](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)은 이 차원을 채울 방법을 제어합니다. 아래 참조 테이블은 `zip` 변수를 직접 설정하는 경우에 적용됩니다.
 
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | [`zip`](/help/implement/vars/page-vars/zip.md) |
-| **웹 SDK/XDM 필드** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **웹 SDK/XDM 필드** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-types/geo) |
 | **쿼리 매개 변수** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 50바이트 |

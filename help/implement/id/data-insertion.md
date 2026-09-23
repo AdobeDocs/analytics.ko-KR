@@ -47,20 +47,20 @@ Adobe은 표준 [작업 순서](overview.md): `vid`, `aid`, `mid`, `fid`, 마지
 
 ECID(`mid`(으)로 전송됨)는 Adobe Analytics, Adobe Target 및 Adobe Audience Manager에서 공유되는 최신 교차 솔루션 방문자 식별자입니다. Adobe은 가능한 모든 곳에서 사용할 것을 권장합니다.
 
-[방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)&#x200B;(`VisitorAPI.js`)를 사용하여 ECID를 얻습니다. 브라우저에서 [`getInstance`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getinstance)을(를) 사용하여 IMS 조직 ID로 서비스를 초기화한 다음 [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)을(를) 사용하여 ECID를 읽습니다.
+[방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)&#x200B;(`VisitorAPI.js`)를 사용하여 ECID를 얻습니다. 브라우저에서 [`getInstance`](https://experienceleague.adobe.com/ko/docs/id-service/using/id-service-api/methods/getinstance)을(를) 사용하여 IMS 조직 ID로 서비스를 초기화한 다음 [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/ko/docs/id-service/using/id-service-api/methods/getmcvid)을(를) 사용하여 ECID를 읽습니다.
 
 ```js
 var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-각 히트에서 해당 값을 `mid` 쿼리 매개 변수 또는 `<marketingCloudVisitorId>` XML 태그로 보냅니다. 데이터가 Audience Manager으로 전송되는 경우 [`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint)에서 지역도 `aamlh` 매개 변수(또는 `<imsRegion>` 태그)로 보냅니다. 자신의 고객 식별자를 방문자와 연결하려면 [`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids)을(를) 사용합니다.
+각 히트에서 해당 값을 `mid` 쿼리 매개 변수 또는 `<marketingCloudVisitorId>` XML 태그로 보냅니다. 데이터가 Audience Manager으로 전송되는 경우 [`getLocationHint`](https://experienceleague.adobe.com/ko/docs/id-service/using/id-service-api/methods/getlocationhint)에서 지역도 `aamlh` 매개 변수(또는 `<imsRegion>` 태그)로 보냅니다. 자신의 고객 식별자를 방문자와 연결하려면 [`setCustomerIDs`](https://experienceleague.adobe.com/ko/docs/id-service/using/id-service-api/methods/setcustomerids)을(를) 사용합니다.
 
-서버측 수집의 경우 클라이언트에서 ECID를 가져와서 각 히트를 전송할 서버에 전달합니다. 클라이언트 없이 서버측에서 ECID를 완전히 생성하려면 ID 서비스의 [직접 통합](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration)을 사용하십시오.
+서버측 수집의 경우 클라이언트에서 ECID를 가져와서 각 히트를 전송할 서버에 전달합니다. 클라이언트 없이 서버측에서 ECID를 완전히 생성하려면 ID 서비스의 [직접 통합](https://experienceleague.adobe.com/ko/docs/id-service/using/implementation/direct-integration)을 사용하십시오.
 
 ## Analytics 방문자 ID 사용
 
-Analytics 방문자 ID(`aid`)가 [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키에 저장되어 있습니다. 식별자 없이 히트가 도착하면 수집 서버가 `aid`을(를) 할당하고 응답 본문에 반환합니다. 일부 [응답 형식](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)은(는) 이 식별자도 응답 본문에 포함합니다. 해당 ID를 저장하고 다시 전송하는 사용자는 두 구현 스타일의 차이점입니다.
+Analytics 방문자 ID(`aid`)가 [`s_vi`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키에 저장되어 있습니다. 식별자 없이 히트가 도착하면 수집 서버가 `aid`을(를) 할당하고 응답 본문에 반환합니다. 일부 [응답 형식](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)은(는) 이 식별자도 응답 본문에 포함합니다. 해당 ID를 저장하고 다시 전송하는 사용자는 두 구현 스타일의 차이점입니다.
 
 * **클라이언트측(직접 이미지 요청).** 브라우저는 서버가 반환한 `s_vi` 쿠키를 저장하고 나중에 요청이 있을 때마다 동일한 수집 도메인으로 보내므로 방문자는 자동으로 인식됩니다. 이를 수행하려면 수집 도메인이 쿠키를 설정하고 읽을 수 있어야 합니다(자사 CNAME 추적 서버 사용). 이 모델은 쿠키에 따라 다르므로, 브라우저가 쿠키를 제한하는 위치를 저하합니다(타사 쿠키 차단, 지능형 추적 방지). 지속적인 ID를 위해 ECID를 선호합니다.
 
