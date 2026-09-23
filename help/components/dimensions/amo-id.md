@@ -6,28 +6,45 @@ exl-id: 90642896-43dd-4ac0-bfb8-7fe34c0e0302
 TQID: 'https://experienceleague.adobe.com/SzHWYAzd9iYcd5AU86TVL6Bfca4UsuijV141jBuS0y8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Personalization
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 793
-ht-degree: 2%
-
+source-wordcount: '855'
+ht-degree: 3%
 ---
-
 # AMO ID
 
 **[!UICONTROL AMO ID]**&#x200B;은(는) Adobe Advertising 통합에서 사용되는 연결된 식별자의 컬렉션입니다. 이 차원에 저장된 값은 Analytics 보고에서 사용하기 위해 사람이 인식할 수 있는 별도의 분류 차원으로 자동 구성됩니다. [Analytics for Advertising](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다.
 
 ## 이 차원을 데이터로 채우기
+
+이 차원은 [Advertising용 Analytics](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview) 통합에 의해 자동으로 채워집니다. 설정할 변수가 없습니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(Adobe Advertising 통합으로 채워짐) |
+| **웹 SDK/XDM 필드** | 없음(Adobe Advertising 통합으로 채워짐) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 해당 없음 |
 
 이 차원은 여러 가지 방법으로 값을 수집합니다.
 

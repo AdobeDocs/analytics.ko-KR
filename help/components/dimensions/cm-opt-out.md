@@ -6,24 +6,30 @@ feature: Dimensions
 TQID: https://experienceleague.adobe.com/tsMhHR84qhEUZIZjPTluCJOHMPc37-JRwLsipAycgJI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 93%
-
+source-wordcount: '278'
+ht-degree: 83%
 ---
-
 # 동의 관리 옵트아웃
 
 &#39;동의 관리 옵트아웃&#39; [차원](overview.md)은(는) 방문자가 명시적으로 옵트아웃한 개인 정보 설정을 표시합니다. 이 차원을 사용하여 개인 정보 설정을 기반으로 데이터를 필터링하거나 가장 일반적인 개인 정보 옵트아웃 이유를 확인할 수 있습니다.
@@ -36,7 +42,16 @@ ht-degree: 93%
 * `N`으로 설정된 경우 `contextData.['opt.dmp']` `opt.dmp`가 `Y`이면 [동의 관리 옵트인](cm-opt-in.md) 차원이 대신 채워집니다.
 * `N`으로 설정된 경우 `contextData.['opt.sell']` `opt.sell`가 `Y`이면 [동의 관리 옵트인](cm-opt-in.md) 차원이 대신 채워집니다.
 
-조직은 이러한 컨텍스트 데이터 변수를 구현하는 논리를 결정합니다. 이러한 데이터는 설정된 히트 이후에 유지되지 않으므로 각 페이지에서 각 컨텍스트 데이터 변수를 설정해야 합니다.
+조직은 이러한 컨텍스트 데이터 변수를 구현하는 논리를 결정합니다. 모든 페이지에서 각 컨텍스트 데이터 변수를 설정합니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(동의 신호를 통해 설정) |
+| **웹 SDK/XDM 필드** | 없음 |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 100바이트 |
+| **지속성** | 히트 |
 
 ## 차원 항목
 

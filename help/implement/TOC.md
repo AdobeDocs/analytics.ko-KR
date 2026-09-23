@@ -4,13 +4,11 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. Analytics 데이터를 최대한 활용할 수 있도록 수집할 데이터를 사용자 정의하십시오.
-source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 97%
-
+source-wordcount: '444'
+ht-degree: 96%
 ---
-
 
 # Adobe Analytics 구현 안내서 {#implementation}
 
@@ -128,6 +126,7 @@ ht-degree: 97%
   + [Web SDK 사용하기 (Alloy)](id/alloy.md)
   + [Analytics 확장 기능 사용하기](id/analytics-extension.md)
   + [AppMeasurement 사용하기](id/appmeasurement.md)
+  + [Data Insertion API 사용](id/data-insertion.md)
   + [방문자 ID 서비스로 마이그레이션](id/migration.md)
   + [구현 유형 간 추적](id/cross-type-implementation.md)
 + Adobe Analytics 구현 준비 {#prepare}
@@ -176,7 +175,6 @@ ht-degree: 97%
     + [H 코드 문제 해결](js/h-code/troubleshooting.md)
   + [AppMeasurement 문제 해결](js/troubleshooting.md)
 + 다른 플랫폼에서 Analytics 구현 {#other}
-  + [하드코딩된 이미지 요청을 사용하여 Analytics 구현](other/hardcoded.md)
   + [Ajax에서 Analytics 구현](other/ajax.md)
   + [AMP에서 Analytics 구현](other/amp.md)
   + [Digital Assistant에서 Analytics 구현](other/digital-assistants.md)
@@ -187,7 +185,6 @@ ht-degree: 97%
   + [캠페인 추적 워크플로](use-cases/campaign-tracking.md)
 + 구현 유효성 검사 {#validate}
   + [기존 디버거](validate/debugger.md)
-  + [데이터 수집 쿼리 매개변수](validate/query-parameters.md)
   + [패킷 모니터](validate/packet-monitor.md)
   + [해시 충돌](validate/hash-collisions.md)
 + [자주 묻는 질문](faq.md)

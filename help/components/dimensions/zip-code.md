@@ -6,43 +6,55 @@ exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 TQID: https://experienceleague.adobe.com/XHrUXKHrXiH0wsUr0klmPmA-DEq5T5yu18KLNT7oYeo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 272
-ht-degree: 80%
-
+source-wordcount: '330'
+ht-degree: 61%
 ---
-
 # 우편번호
 
-&#39;우편 번호&#39; [차원](overview.md)은(는) 방문자의 우편 번호를 보고합니다. 이 차원을 사용하면 성공적인 로컬 광고에 대해 더 깊이 이해하거나 전 세계에서 사이트 성과가 가장 좋은 곳을 알 수 있습니다.
+&#39;우편 번호&#39; [차원](overview.md)은(는) 방문자의 우편 번호를 보고합니다. 이 차원을 사용하면 로컬 광고의 성공에 대해 더 깊이 이해하거나 전 세계에서 사이트 성과가 가장 좋은 곳을 알 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 데이터로 채우는 여러 가지 방법을 포함하고 있다는 점에서 독특합니다. 다음 중 하나를 사용하거나 두 가지를 조합하여 사용할 수 있습니다.
+이 차원은 데이터로 채우는 여러 가지 방법을 포함하고 있다는 점에서 독특합니다. 다음 중 하나 또는 두 가지를 조합하여 사용할 수 있습니다.
 
-* `zip` 변수를 사용하여 바로 우편 번호를 설정합니다. 또는
-* 지리적 위치 데이터에서 가져오도록 구성합니다.
+* [`zip`](/help/implement/vars/page-vars/zip.md) 변수를 사용하여 바로 우편 번호를 설정합니다.
+* 지리적 위치 데이터에서 가져오도록 구성합니다. geo zip 을 사용하면 변수가 설정되지 않습니다. AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다. 웹 SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)할 때 [!UICONTROL 지역 조회]를 사용하도록 설정하십시오.
 
-[!UICONTROL 일반 계정 설정] 아래의 [Zip 옵션](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)은 이 차원을 채울 방법을 제어합니다.
+[!UICONTROL 일반 계정 설정] 아래의 [Zip 옵션](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)은 이 차원을 채울 방법을 제어합니다. 아래 참조 테이블은 `zip` 변수를 직접 설정하는 경우에 적용됩니다.
 
-geo zip 과 관련된 옵션을 사용하도록 선택하는 경우:
-
-* AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
-* 웹 SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)할 때 [!UICONTROL 지역 조회]를 사용하도록 설정하십시오.
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | [`zip`](/help/implement/vars/page-vars/zip.md) |
+| **웹 SDK/XDM 필드** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-types/geo) |
+| **쿼리 매개 변수** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML 태그** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **바이트 제한** | 50바이트 |
+| **지속성** | 히트 |
 
 ## 차원 항목
 

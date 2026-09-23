@@ -6,31 +6,45 @@ exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 TQID: https://experienceleague.adobe.com/X80x0MIx5gd16J20VU37fNSExDO2NSXPrHR8EKqsMqw
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 961
+source-wordcount: '961'
 ht-degree: 98%
-
 ---
-
 # 모바일 조회 차원
 
+>[!BEGINSHADEBOX]
+
 *이 페이지는 웹 사이트에 액세스하는 모바일 디바이스의 속성을 참조합니다. 모바일 앱 내 추적은 [모바일 라이프사이클 차원](lifecycle-dimensions.md) 또는 [모바일 라이프사이클 지표](../metrics/lifecycle-metrics.md)를 참조하십시오.*
+
+>[!ENDSHADEBOX]
 
 모바일 조회 [차원](overview.md)은 사이트를 방문하는 모바일 디바이스의 속성에 대한 인사이트를 제공합니다. 이러한 속성은 사용자 에이전트 및 히트의 IP 주소를 기반으로 합니다. 이 차원을 사용하여 모바일 디바이스가 지원하는 기능을 이해할 수 있습니다.
 

@@ -7,23 +7,28 @@ exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 626
-ht-degree: 78%
-
+source-wordcount: '636'
+ht-degree: 77%
 ---
-
 # Adobe Analytics에 대한 데이터 개체 필드 매핑
 
 다음 표는 Adobe Experience Platform Edge Network이 Adobe Analytics에 자동으로 매핑하는 데이터 개체 필드를 보여줍니다. 이러한 데이터 오브젝트 필드 경로를 사용하는 경우 Adobe Analytics로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다.
@@ -34,7 +39,7 @@ ht-degree: 78%
 
 이 테이블의 데이터 개체 필드는 대부분 [매핑된 XDM 필드](xdm-var-mapping.md)에 해당합니다. Adobe Analytics 수집 중에 값은 먼저 XDM에서 Analytics 변수로 매핑됩니다. 인식된 데이터 개체 필드는 매핑되며 동일한 Analytics 변수에 매핑될 때 이전에 설정된 모든 값을 덮어씁니다. 예를 들어 `data.__adobe.analytics.events`이(가) 있으면 XDM에서 파생되는 전체 이벤트 집합이 대체됩니다. 이벤트는 두 소스 모두에서 결합되지 않습니다. 데이터 개체 필드의 빈 문자열(`""`)은 해당 XDM 필드에 값이 포함된 경우에도 히트에 대해 매핑된 Analytics 변수를 비워 둡니다.
 
-일부 데이터 오브젝트 필드는 해당 [쿼리 매개변수 값](../validate/query-parameters.md)도 축약 값으로 지원합니다. 표준 데이터 오브젝트 필드와 축약 데이터 오브젝트 필드는 각각 고유 변수에 해당하는 한 서로 교환하여 사용할 수 있습니다. 표준 데이터 오브젝트 필드와 각 축약 데이터 오브젝트 필드를 동시에 설정하지 마십시오. Adobe는 어떤 분야가 우선시되는지 보장할 수 없습니다.
+일부 데이터 오브젝트 필드는 해당 [쿼리 매개변수 값](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)도 축약 값으로 지원합니다. 표준 데이터 오브젝트 필드와 축약 데이터 오브젝트 필드는 각각 고유 변수에 해당하는 한 서로 교환하여 사용할 수 있습니다. 표준 데이터 오브젝트 필드와 각 축약 데이터 오브젝트 필드를 동시에 설정하지 마십시오. Adobe는 어떤 필드가 우선순위를 갖는지 보장할 수 없습니다.
 
 ## 데이터 오브젝트 필드 매핑
 

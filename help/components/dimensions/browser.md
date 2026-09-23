@@ -6,33 +6,50 @@ exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
 TQID: https://experienceleague.adobe.com/J6rDfVwmRZpRLrultdurQkRih2HcPygjcjwO0bkms5E
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: bdd7a704c94394d6f6cedfbc07988bde69993691
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 280
-ht-degree: 43%
-
+source-wordcount: '310'
+ht-degree: 35%
 ---
-
 # 브라우저
 
 &#39;[!UICONTROL 브라우저]&#39; [차원](overview.md)에서 히트를 보내는 브라우저의 이름과 버전을 보고합니다. 이 차원은 방문자가 사용하는 가장 일반적인 브라우저를 측정하려는 경우에 유용합니다. 사이트의 새 버전을 테스트할 때 이 차원의 상위 브라우저에서 이러한 테스트를 실행하여 품질 관리 노력을 극대화할 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 Adobe 내부의 조회 테이블을 참조합니다. 조회 값은 이미지 요청에 있는 `User-Agent` HTTP 헤더를 기반으로 합니다. Adobe은 사용자 에이전트와 브라우저 간 조회를 유지 관리하기 위해 [DeviceAtlas](https://deviceatlas.com/)와(과) 파트너 관계를 맺고 있습니다.
+Adobe은 `User-Agent` HTTP 헤더에서 이 차원을 파생하여 Adobe이 [DeviceAtlas](https://deviceatlas.com/)와(과) 협력하여 유지 관리하는 내부 조회 테이블에 대해 이 차원을 일치시킵니다. 설정할 변수가 없습니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(사용자 에이전트에서 파생) |
+| **웹 SDK/XDM 필드** | 없음(사용자 에이전트에서 파생) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 해당 없음 |
 
 * AppMeasurement 구현의 경우 이 차원은 즉시 작동합니다.
 * 웹 SDK 구현의 경우 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)할 때 [!UICONTROL 장치 조회]를 사용하도록 설정하십시오.

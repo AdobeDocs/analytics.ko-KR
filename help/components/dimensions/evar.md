@@ -6,37 +6,55 @@ exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 TQID: https://experienceleague.adobe.com/id82CsXfjfKjzNiM36Ny97bcZ8a-TR7QDq5-mx7xP7w
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 854
-ht-degree: 100%
-
+source-wordcount: '892'
+ht-degree: 93%
 ---
-
 # eVar
+
+>[!BEGINSHADEBOX]
 
 *이 도움말 페이지에서는 eVar가 [차원](overview.md)으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 정의 [차원](overview.md)입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)[!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다].
+>[!ENDSHADEBOX]
+
+eVar는 원하는 대로 사용할 수 있는 사용자 정의 [차원](overview.md)입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md) [!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다].
 
 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. Adobe 아키텍처에서 eVar 지속성이 작동하는 방식에 대한 자세한 내용은 아래의 [eVar 작동 방식](#how-evars-work) 및 [eVar를 지표에 연결하는 방식](#how-evars-tie-to-metrics) 섹션을 참조하십시오. [!UICONTROL 보고서 세트 설정]의 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)에서 만료와 할당을 활성화, 비활성화 또는 사용자 정의할 수 있습니다. 다음 이미지는 전환 변수 인터페이스에서 eVar정의의 예입니다.
 
@@ -48,9 +66,16 @@ eVar는 원하는 대로 사용할 수 있는 사용자 정의 [차원](overview
 
 ## 데이터로 eVar 채우기
 
-각 eVar는 이미지 요청의 [`v1` - `v250` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. 예를 들어 `v1` 쿼리 문자열 매개변수는 eVar1에 대한 데이터를 수집하는 반면 `v222` 쿼리 문자열 매개변수는 eVar222에 대한 데이터를 수집합니다.
+구현에서 eVar를 명시적으로 설정합니다. 값은 유지되며 할당 및 만료에 따라 지표에 연결됩니다. 아래의 [eVar 작동 방식](#how-evars-work)을 참조하십시오.
 
-JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일하는 AppMeasurement는 변수 `eVar1` - `eVar250`을 사용합니다. 구현 지침이 필요하면 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | [`eVar1` - `eVar250`](/help/implement/vars/page-vars/evar.md) |
+| **웹 SDK/XDM 필드** | [`xdm._experience.analytics.customDimensions.eVars.eVar1` - `eVar250`](https://experienceleague.adobe.com/kr/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **쿼리 매개 변수** | [`v1` - `v250`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML 태그** | [`<eVar1>` - `<eVar250>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **바이트 제한** | 255바이트 |
+| **지속성** | 구성 가능 |
 
 ## 차원 항목
 

@@ -7,29 +7,37 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3NSbjRWl0GsomjsEXo8XczQ1RWOPGpqW4OM2YeUo3Wk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 414
-ht-degree: 8%
-
+source-wordcount: '410'
+ht-degree: 5%
 ---
-
 # 전체 처리 데이터 소스의 서비스 종료
 
-전체 처리 데이터 소스는 지금까지 조직에서 히트 수준 데이터를 Adobe Analytics에 제출할 수 있도록 해 주었습니다. 이 데이터는 AppMeasurement과 같은 전통적인 데이터 수집 수단을 통해 수집된 데이터와 동일한 방식으로 처리되었다. 2020년 Adobe은 전체 처리 데이터 소스와 동일한 기능을 수행하지만 추가 기능이 포함된 [Bulk data insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)를 출시했습니다. 이 페이지에서는 Bulk data insertion API에서 제공하는 추가 기능에 대한 세부 정보를 제공하며 파일 형식의 차이점을 간략하게 설명합니다.
+전체 처리 데이터 소스는 지금까지 조직에서 히트 수준 데이터를 Adobe Analytics에 제출할 수 있도록 해 주었습니다. 이 데이터는 AppMeasurement과 같은 전통적인 데이터 수집 수단을 통해 수집된 데이터와 동일한 방식으로 처리되었다. 2020년 Adobe은 전체 처리 데이터 소스와 동일한 기능을 수행하지만 추가 기능이 포함된 [Bulk data insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)를 출시했습니다. 이 페이지에서는 Bulk data insertion API에서 제공하는 추가 기능에 대한 세부 정보를 제공하며 파일 형식의 차이점을 간략하게 설명합니다.
 
 2021년 3월 25일, Adobe에서 새로운 전체 처리 데이터 소스 연결이 생성되지 않았습니다. 2022년 1월 31일에 모든 전체 처리 데이터 서비스가 비활성화되었습니다.
 
@@ -39,7 +47,7 @@ ht-degree: 8%
 * Bulk Data Insertion에는 데이터 유효성 검사 및 오류 처리 기능이 있으므로 히트 데이터를 제출하는 관리 작업의 일부를 생략할 수 있습니다.
 * 대량 데이터 삽입은 여러 방문자 ID 식별 방법을 지원합니다.
 * 대량 데이터 삽입에는 방문자 식별 열, `pageName`(또는 이에 상응하는 링크), `reportSuiteID`, `timestamp` 및 `userAgent`과(와) 같은 일부 추가 필수 필드가 있습니다.
-* 방문자 연속성과 속성을 보장하기 위해 Bulk data insertion은 파일 내의 행을 시간순으로 정렬합니다. 파일 간 방문자 활동 순서에 대해 알아보려면 [방문자 그룹](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/)을 참조하십시오.
+* 방문자 연속성과 속성을 보장하기 위해 Bulk data insertion은 파일 내의 행을 시간순으로 정렬합니다. 파일 간 방문자 활동 순서에 대해 알아보려면 [방문자 그룹](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/)을 참조하십시오.
 * 대량 데이터 삽입을 사용하려면 파일이 .gzip 형식으로 .csv 압축되어야 합니다.
 * BDIA는 `date` 대신 `timestamp`을(를) 사용합니다.
 

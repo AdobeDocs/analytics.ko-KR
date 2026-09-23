@@ -6,27 +6,37 @@ exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
 TQID: 'https://experienceleague.adobe.com/jtBAAq-Pe0PyCQJPwvzwnK9eLv14CxTvrVQP4lvWy7k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 304
-ht-degree: 92%
-
+source-wordcount: '349'
+ht-degree: 78%
 ---
-
 # 방문당 체류 시간
 
+>[!BEGINSHADEBOX]
+
 *이 도움말 페이지에서는 &#39;방문당 체류 시간&#39;이 각각의 [차원](overview.md)(으)로 작동하는 방식을 설명합니다. 자세한 내용은 [방문당 체류 시간](../metrics/time-spent-per-visit.md) 지표를 참조하십시오.*
+
+>[!ENDSHADEBOX]
 
 방문당 체류 시간 차원은 방문자가 전체 방문에서 보낸 시간을 기록합니다. 다음 절차를 사용하여 계산을 측정합니다.
 
@@ -46,7 +56,16 @@ ht-degree: 92%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 모든 구현에서 별도의 설정 없이 바로 사용할 수 있습니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
+Adobe은 방문의 첫 번째 히트와 마지막 히트 사이의 경과 시간으로부터 서버측에서 이 차원을 계산합니다. 설정할 변수가 없습니다. 모든 구현에 대해 즉시 작동합니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(Adobe에서 계산) |
+| **웹 SDK/XDM 필드** | 없음(Adobe에서 계산) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 방문 |
 
 ## 차원 항목
 

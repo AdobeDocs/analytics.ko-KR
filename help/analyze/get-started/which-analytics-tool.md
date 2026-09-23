@@ -6,34 +6,50 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 TQID: https://experienceleague.adobe.com/xk485fKU7Q2DeZIYaTtN-a4JKnyVamAygW03z7ffAOk
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: '1172'
 ht-degree: 78%
-
 ---
-
 # 어떤 Adobe Analytics 도구를 사용해야 합니까?
 
 이 도움말 페이지에는 각 Adobe Analytics 도구에 대한 권장 사용 사례가 포함되어 있습니다. 도구는 나열된 순서대로 고려해야 합니다. 특정 도구가 요구 조건을 충족하지 못한다면 그 다음 도구를 사용해 볼 것을 고려해 보십시오.
@@ -77,7 +93,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 * 지원되는 Adobe Analytics 연결을 구축한 서드파티 공급자와 일하는 경우. 통합 앱은 일반적으로 요약 수준 데이터를 Adobe Analytics에 영구적으로, 자동으로 그리고 반복적으로 통합합니다.
 
-**[대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+**[대량 데이터 삽입 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)**
 
 * 대량 데이터 삽입 API는 한 행에 한 이벤트씩, 이벤트 데이터를 포함하는 CSV 형식의 파일을 수락합니다. Adobe는 서버측 코드가 필요하거나 AppMeasurement 또는 Web SDK를 사용하여 데이터를 수집할 수 없는 모든 구현에 대량 삽입 API를 사용할 것을 권장합니다.
 
@@ -87,7 +103,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko)**&#x200B;은 다음 경우에 사용합니다.
 
-* CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하고 이 데이터를 CX Enterprise에 업로드하려는 경우.
+* CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하고, 이 데이터를 CX Enterprise에 업로드하려는 경우.
 * CRM 데이터를 Analytics에서 더 자세한 분석에 사용하거나 Adobe Target에서 타기팅 기준으로 사용하려는 경우.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**&#x200B;는 다음 경우에 사용합니다.

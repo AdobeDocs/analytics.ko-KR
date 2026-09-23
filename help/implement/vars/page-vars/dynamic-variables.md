@@ -7,31 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/1fooxiu-eZGsWtpSQ-illBbooJveqzPIEvEHevc-ukM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 444
-ht-degree: 82%
-
+source-wordcount: '454'
+ht-degree: 80%
 ---
-
 # 다이내믹 변수
 
 동적 변수를 사용하면 이미지 요청 길이를 늘리지 않고도 한 변수에서 다른 변수로 값을 복사할 수 있습니다. 이 변수는 여러 변수에서 동일한 데이터를 캡처할 때 유용합니다.
 
 이전 버전의 Analytics에서는 데이터가 잘리지 않도록 하는 데 이미지 요청 길이가 중요했습니다. AppMeasurement의 향상된 기능을 사용하면 이미지 요청 쿼리 문자열이 훨씬 길어질 수 있으므로 동적 변수가 일반적으로 필요하지 않습니다.
 
-동적 변수는 이미지 요청에서 쿼리 문자열 매개 변수 또는 HTTP 헤더를 지원합니다. 참조할 수 있는 매개 변수의 전체 목록이 필요하면 [데이터 수집 쿼리 매개 변수](../../validate/query-parameters.md)를 참조하십시오. 참조할 수 있는 HTTP 요청 필드의 전체 목록이 필요하면 위키백과의 [표준 요청 필드](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)를 참조하십시오.
+동적 변수는 이미지 요청에서 쿼리 문자열 매개 변수 또는 HTTP 헤더를 지원합니다. 참조할 수 있는 매개 변수의 전체 목록이 필요하면 [데이터 수집 쿼리 매개 변수](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)를 참조하십시오. 참조할 수 있는 HTTP 요청 필드의 전체 목록이 필요하면 위키백과의 [표준 요청 필드](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)를 참조하십시오.
 
 Adobe는 동적 변수 접두사를 인식하면 보고서 세트의 쿼리 문자열 또는 HTTP 헤더 값을 자동으로 복사합니다. 이 작업은 처리 규칙 및 VISTA 규칙을 포함한 다른 처리 전에 수행됩니다.
 
@@ -51,7 +57,7 @@ Adobe는 동적 변수 접두사를 인식하면 보고서 세트의 쿼리 문�
 
 ## Adobe Analytics 확장을 사용하는 동적 변수
 
-문자열을 허용하는 차원 필드에서 동적 변수를 사용할 수 있습니다. 차원 항목은 일반적으로 Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 설정됩니다.
+문자열을 허용하는 차원 필드에서 동적 변수를 사용할 수 있습니다. 차원 항목은 일반적으로 Analytics 확장 기능(전역 변수)을 구성하는 동안 또는 규칙에서 설정됩니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.

@@ -7,30 +7,37 @@ role: Admin
 TQID: https://experienceleague.adobe.com/f6gcSRLmsupsIVKYH-bF1T7vuVhoj9Ef8zVh3t6vU2Q
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 590
-ht-degree: 98%
-
+source-wordcount: '587'
+ht-degree: 97%
 ---
-
 # 브라우저 쿠키 제안의 영향을 경감하기 위한 옵션
 
 이 문서에서는 주요 브라우저가 쿠키에 대한 추적 방지 디바이스를 구현할 때 여러 속성과 솔루션에서 지속적인 방문자 식별을 유지하는 방법에 대해 다룹니다.
 
-Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 기록합니다. Analytics는 또한 서드파티 쿠키를 기반으로 소유 중인 다른 도메인에서 이루어지는 활동 같이 방문자의 현장 활동을 기록합니다. 서드파티 쿠키는 많은 브라우저에서 차단되며, 출시 예정인 Chrome의 지원 제거에서는 대개 사용할 수 없습니다(현재 2024년 말 예정). 자사 쿠키가 모든 브라우저에서 허용되는 것은 아니지만 사용할 수 있는 것은 Apple의 [ITP 추적 방지](https://webkit.org/tracking-prevention) 조치에 따라 Safari 및 다른 브라우저에 대한 만료가 제한되어 있습니다. 브라우저 쿠키에 대한 현재의 제한과 관련된 자세한 내용은 [Adobe Analytics 및 브라우저 쿠키](cookies.md)를 참조하십시오.
+Adobe Analytics는 자사 쿠키를 기반으로 방문자의 사이트 내 활동을 기록합니다. Analytics는 또한 서드파티 쿠키를 기반으로 소유 중인 다른 도메인에서 이루어지는 활동 같이 방문자의 현장 활동을 기록합니다. 서드파티 쿠키는 많은 브라우저에서 차단되며, 출시 예정인 Chrome의 지원 제거에서는 대개 사용할 수 없습니다(현재 2024년 말 예정). 자사 쿠키가 모든 브라우저에서 허용되는 것은 아니지만 사용할 수 있는 것은 Apple의 [ITP 추적 방지](https://webkit.org/tracking-prevention) 조치에 따라 Safari 및 다른 브라우저에 대한 만료가 제한되어 있습니다. 브라우저 쿠키에 대한 현재의 제한과 관련된 자세한 내용은 [Adobe Analytics 및 브라우저 쿠키](cookies.md)를 참조하십시오.
 
 이러한 브라우저 제한은 익명으로 서드파티를 추적하는 경향에서 사용자와 사용자가 신뢰하는 브랜드가 정보를 명시적으로 공유하는 경향으로 폭넓게 이동하는 것을 반영합니다. 이러한 변화를 지원하기 위해, Adobe는 자사와 관계를 통해 수집된 오래 지속되는 식별자를 포함하여 고객이 전통적인 쿠키를 보완하는 방법을 제공합니다.
 
@@ -44,9 +51,9 @@ Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 �
 
 ## 서버측 데이터 수집
 
-서버측 수집에서는 유연성을 제공하여 자신의 쿠키 설정을 위한 브라우저 메커니즘에 의존하기 보다는 식별자를 제공합니다.
+서버측 수집은 쿠키 설정을 위한 브라우저 메커니즘에 의존하지 않고 자체 식별자를 제공할 수 있는 유연성을 제공합니다.
 
-[Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 또는 [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)를 사용하여 Analytics 서버측에 데이터를 제출할 수 있습니다. 새로운 서버측 구현에는 Bulk Data Insertion API를 사용하는 것이 좋습니다. 두 API를 비교하려면 “[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/analyze/get-started/which-analytics-tool.md)”를 참조하십시오.
+[Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) 또는 [Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)를 사용하여 Analytics 서버측에 데이터를 제출할 수 있습니다. 새로운 서버측 구현에는 Bulk Data Insertion API를 사용하는 것이 좋습니다. 두 API를 비교하려면 “[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/analyze/get-started/which-analytics-tool.md)”를 참조하십시오.
 
 ## Web SDK를 사용한 자사 디바이스 ID(FPID)
 

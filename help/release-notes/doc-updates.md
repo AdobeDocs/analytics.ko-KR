@@ -8,36 +8,55 @@ mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
+    internal-label: Insights
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 7447
-ht-degree: 93%
-
+source-wordcount: '7484'
+ht-degree: 92%
 ---
-
 # Adobe Analytics에 대한 기술 설명서 업데이트
 
 2019년 1월 이후 Adobe Analytics 설명서 세트에 대한 콘텐츠 업데이트입니다.
@@ -53,10 +72,11 @@ ht-degree: 93%
 | --- | --- |
 | **2026년 9월** | |
 | 새 크기 조정 바로 가기 작업 | 이제 Analysis Workspace의 새 키보드 단축키를 사용하여 [패널 또는 시각화 크기 조정](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)을 더 넓게, 더 좁게, 더 높이 또는 더 짧게 수행할 수 있습니다. |
+| [Adobe Analytics 데이터 수집 API](https://developer.adobe.com/analytics-collection-apis/) | AppMeasurement 또는 태그를 사용하지 않고 Adobe Analytics에 대한 데이터 수집 전략을 집계하고 현대화하는 새 개발자 저장소입니다. |
 | **2026년 8월** | |
 | 레퍼러 유형 차원에 새 대화형 AI 도구를 추가했습니다 | 이제 &#39;레퍼러 유형&#39; 차원에 Adobe에서 사용하는 조회 테이블에 다음 추가 [대화형 AI 도구](/help/components/dimensions/referrer-type.md#conversational-ai-tools)가 포함됩니다.<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **2026년 6월** | |
-| 쿼리 문자열 참조 업데이트 | [데이터 수집 쿼리 매개 변수](/help/implement/validate/query-parameters.md)에 대한 중요 수정 사항입니다. |
+| 쿼리 문자열 참조 업데이트 | [데이터 수집 쿼리 매개 변수](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)에 대한 중요 수정 사항입니다. |
 | Data Warehouse의 세그먼트 | [Data Warehouse 세그먼트 호환성](/help/export/data-warehouse/segment-compatibility.md)이 업데이트되었습니다. |
 | GA를 AA 안내서로 대체함 | GA에서 AA로의 안내는 2023년에 종료되었던 Universal Analytics를 참조하였다. 새 가이드가 대체되었습니다. [Google Analytics 4에서 Customer Journey Analytics으로 전환](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **2026년 5월** | |
@@ -348,7 +368,7 @@ ht-degree: 93%
 | 2020년 6월 18일 금요일 | 공유 Workspace 프로젝트의 [프로젝트 역할](/help/analyze/analysis-workspace/curate-share/share-projects.md)에 대한 새로운 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자에게 세 가지 프로젝트 역할 중 하나를 지정할 수 있습니다(편집, 복제 및 보기). |
 | 2020년 6월 18일 금요일 | [공동 편집 Workspace 프로젝트](/help/analyze/analysis-workspace/curate-share/share-projects.md)에 대한 새로운 설명서입니다. “편집 가능” 역할에 추가된 수신자는 자신에게 공유된 프로젝트를 덮어써서 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. |
 | **2020년 5월** |  |
-| 2020년 5월 31일 월요일 | [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)에 대한 새로운 설명서 |
+| 2020년 5월 31일 월요일 | [Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)에 대한 새로운 설명서 |
 | 2020년 5월 21일 금요일 | [Adobe Analytics 대시보드](/help/analyze/mobile-app/home.md)에 대한 새로운 설명서 |
 | 2020년 5월 21일 금요일 | 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 Analysis Workspace의 [접근성 향상](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md)에 대한 새로운 설명서입니다. |
 | **2020년 4월** |  |

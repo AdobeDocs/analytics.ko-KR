@@ -1,31 +1,39 @@
 ---
 title: 시작 차원
 description: 시작 차원 및 그 사용을 나열합니다.
-keywords: 시작 페이지, 시작 사이트 섹션, 시작 서버, 시작 고객 인사이트
+keywords: 시작 페이지, 시작 사이트 섹션, 시작 서버, 시작 사용자 정의 인사이트
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 TQID: https://experienceleague.adobe.com/6a6Xy8SEqjcnuB1Acbwkesw6OA7Nggld5ppWtjYaj5k
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 292
-ht-degree: 75%
-
+source-wordcount: '351'
+ht-degree: 65%
 ---
-
 # 시작 차원
 
+>[!BEGINSHADEBOX]
+
 *이 도움말 페이지에서는 항목이 [차원](overview.md)(으)로 작동하는 방식을 설명합니다. 시작이 지표로 작동하는 방식에 대한 자세한 내용은 [시작](../metrics/entries.md) 지표를 참조하십시오.*
+
+>[!ENDSHADEBOX]
 
 시작 차원은 [방문 기반](../metrics/visits.md)입니다. 첫 번째 차원 항목을 기록하고 해당 방문의 전체 기간 동안 유지합니다. 시작 차원은 보고서 세트 설정의 [트래픽 변수](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) 아래에서 경로 지정이 활성화된 모든 변수에 사용할 수 있습니다.
 
@@ -34,7 +42,16 @@ ht-degree: 75%
 
 ## 데이터로 시작 차원 채우기
 
-지정된 항목 [차원](overview.md)은(는) 연결된 트래픽 변수를 기반으로 합니다. 시작이 아닌 변수에 데이터가 있는 경우 해당 관련 시작 차원도 데이터를 포함합니다. 트래픽 변수에 데이터가 포함된 경우 시작 차원에 대한 구현 변경은 필요하지 않습니다.
+지정된 항목 [차원](overview.md)은(는) 연결된 트래픽 변수를 기반으로 합니다. Adobe은 방문 중에 해당 변수에 대해 표시된 첫 번째 값에서 각 시작 차원을 파생합니다. 설정할 전용 변수는 없습니다. 비시작 변수가 데이터를 포함하는 경우 연결된 시작 차원에도 데이터가 포함됩니다. 트래픽 변수에 데이터가 포함된 경우 시작 차원에 대한 구현 변경은 필요하지 않습니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(방문자의 첫 번째 히트에서 파생됨) |
+| **웹 SDK/XDM 필드** | 없음(방문자의 첫 번째 히트에서 파생됨) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 방문 |
 
 ## 차원 항목
 

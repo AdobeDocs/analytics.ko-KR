@@ -6,25 +6,32 @@ feature: Dimensions
 TQID: https://experienceleague.adobe.com/lJn65s1JtcJf7WobPEeouvwlk7G5qd8XtgxvGLY-zu8
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 218
-ht-degree: 7%
-
+source-wordcount: '253'
+ht-degree: 11%
 ---
-
 # 봇 이름
 
 &#39;보트 이름&#39; [차원](overview.md)은(는) [보트 규칙](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)을(를) 사용하여 검색된 보트 이름을 표시합니다. 이러한 규칙은 기본 IAB 규칙 또는 조직에서 구성하는 사용자 지정 보트 규칙일 수 있습니다. 이 메서드는 사이트를 방문하는 보트나 가장 많은 트래픽을 발생시키는 봇에 대해 자세히 알아보고자 하는 경우에 유용합니다.
@@ -43,6 +50,15 @@ ht-degree: 7%
 ## 이 차원을 데이터로 채우기
 
 [보트 규칙](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)을(를) 사용하도록 설정한 경우 이 차원은 자동으로 데이터를 수집합니다. [!UICONTROL 보트 규칙]을 아직 활성화하지 않은 경우 이 차원이 Analysis Workspace에 표시되지 않습니다.
+
+| 속성 | 값 |
+| --- | --- |
+| **AppMeasurement 변수** | 없음(보트 탐지 규칙으로 파생) |
+| **웹 SDK/XDM 필드** | 없음(보트 탐지 규칙으로 파생) |
+| **쿼리 매개 변수** | 해당 없음 |
+| **XML 태그** | 해당 없음 |
+| **바이트 제한** | 해당 없음 |
+| **지속성** | 해당 사항 없음 |
 
 ## 차원 항목
 

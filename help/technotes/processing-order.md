@@ -1,31 +1,40 @@
 ---
 title: Adobe Analytics의 데이터 처리 순서
-description: Adobe Analytics에서 데이터를 처리하는 구성 요소 순서 및 서비스에 대해 알아봅니다.
+description: Adobe Analytics에서 데이터를 처리하는 구성 요소와 서비스의 순서에 대해 알아봅니다.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 37%
-
+source-wordcount: '1103'
+ht-degree: 36%
 ---
-
 # Adobe Analytics의 데이터 처리 순서
 
 Adobe는 보고에 표시되기 전에 데이터를 변경하거나 조작할 수 있는 다양한 방법을 제공합니다. 이 페이지에는 다양한 Adobe Analytics 기능이 데이터를 처리하는 순서가 표시됩니다. 이 목록을 사용하면 데이터 불일치 문제 해결이나 데이터 조정이 필요한 경우 사용할 최적의 기능을 결정할 수 있습니다.
@@ -38,10 +47,10 @@ Adobe는 보고에 표시되기 전에 데이터를 변경하거나 조작할 �
 
 * **AppMeasurement**: 사이트에서 호스팅되고 각 페이지에서 참조되는 JavaScript 파일. 데이터는 Adobe Analytics로 직접 전송됩니다.
 * **Adobe Experience Platform Web SDK**: 사이트에서 호스팅되고 각 페이지에서 참조되는 JavaScript 파일. 데이터는 Adobe Experience Platform Edge Network으로 전송됩니다.
-* **Adobe Experience Platform 데이터 수집의 태그**: 각 페이지에서 참조되는 JavaScript 파일로, 데이터 수집 UI 내에서 만들어진 규칙이 포함되어 있습니다. Adobe Analytics 확장을 사용하면 AppMeasurement를 보다 쉽게 구현할 수 있습니다. Web SDK 확장을 사용하면 Web SDK를 보다 쉽게 구현할 수 있습니다.
-* **API**: AppMeasurement과 Edge Network은 모두 Adobe에 데이터를 보내기 위한 프로그래밍 방법을 제공합니다. AppMeasurement은 [데이터 삽입 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 및 [대량 데이터 삽입 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)를 제공합니다. Edge Network은 [데이터 수집 API](https://developer.adobe.com/data-collection-apis/docs/)를 제공합니다.
+* **Adobe Experience Platform 데이터 수집의 태그**: 각 페이지에서 참조되는 JavaScript 파일로, 데이터 수집 UI 내에서 만들어진 규칙이 포함되어 있습니다. Adobe Analytics 확장 기능을 사용하면 AppMeasurement를 보다 쉽게 구현할 수 있습니다. Web SDK 확장 기능을 사용하면 Web SDK를 보다 쉽게 구현할 수 있습니다.
+* **API**: AppMeasurement과 Edge Network은 모두 Adobe에 데이터를 보내기 위한 프로그래밍 방법을 제공합니다. AppMeasurement은 [데이터 삽입 API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) 및 [대량 데이터 삽입 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)를 제공합니다. Edge Network은 [데이터 수집 API](https://developer.adobe.com/data-collection-apis/docs/)를 제공합니다.
 
-Edge Network으로 데이터를 전송하는 경우 Adobe Analytics(및 기타 많은 Adobe CX 엔터프라이즈 솔루션)로 데이터를 전송하도록 구성할 수 있습니다. 구현 방법에 관계없이 수집된 히트 데이터는 최종적으로 구문 분석할 수 있는 형식으로 Adobe Analytics 처리 서버에 도달합니다.
+Edge Network으로 데이터를 전송하는 경우 Adobe Analytics(및 기타 많은 Adobe CX Enterprise 솔루션)로 데이터를 전송하도록 구성할 수 있습니다. 구현 방법에 관계없이 수집된 히트 데이터는 최종적으로 구문 분석할 수 있는 형식으로 Adobe Analytics 처리 서버에 도달합니다.
 
 ## Adobe Analytics 컬렉션의 사전 처리
 
