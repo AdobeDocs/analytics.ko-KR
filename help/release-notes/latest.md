@@ -6,31 +6,44 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6d07329547684e8bee712628a53092eb34e0141a
+    internal-label: Privacy
+source-git-commit: 7e61f4cc5b87712012ff894878dd0aba7ceccd4f
 workflow-type: tm+mt
-source-wordcount: 1305
+source-wordcount: '1311'
 ht-degree: 40%
-
 ---
-
 # 최신 Adobe Analytics 릴리스 정보 (2026년 9월)
 
 **마지막 업데이트**: 2026년 9월 11일
@@ -43,7 +56,7 @@ ht-degree: 40%
 | ----------- | ---------- | ---- |
 | **세그먼트를 보고 날짜 범위로 제한**<br/>&#x200B;세그먼트에 날짜 범위 구성 요소가 포함된 경우 Workspace 보고서의 데이터는 보고 날짜 범위를 초과할 수 있습니다.<p>이제 세그먼트에 포함된 날짜 구성 요소에 관계없이 결과를 보고 날짜 범위로 제한할 수 있는 새 옵션을 사용할 수 있습니다.</p><p>이 옵션은 최상위 컨테이너가 방문자인 세그먼트를 만들거나 수정할 때 사용할 수 있습니다.</p><p>자세한 내용은 [세그먼트 빌드](/help/components/segmentation/segmentation-workflow/seg-build.md#components)를 참조하세요.</p> | 2026년 8월 26일 | 2026년 9월 9일 |
 | **보트 검색 업데이트**<br/> Web SDK에서 Edge Data Collection을 사용할 때 다음 보트 검색 업데이트를 사용할 수 있습니다.<ul><li>이제 보트 탐지 규칙을 만들어 보트 생성으로 처리되는 트래픽의 예외를 식별할 수 있습니다. 기존 규칙과 향후 규칙은 일치하는 트래픽을 보트 생성으로 계속 표시합니다.</li><li>이제 사용자 지정 보트 규칙이 IAB 보트 감지 규칙보다 먼저 실행됩니다. 이 변경 사항은 보트 점수에 영향을 주지 않지만, 이벤트와 연결된 보트 규칙 이름은 변경될 수 있습니다.</li></ul><p>참고: 이 업데이트는 웹 SDK을 사용하는 Edge 데이터 수집 구현에만 적용됩니다. AppMeasurement과 같은 이전 라이브러리에는 적용되지 않습니다.</p><p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 9월 초 |
-| **CX Enterprise Coworker: 공동 작업자 채팅에서 Adobe Analytics 데이터 분석** <br/>Adobe CX Enterprise Coworker 채팅에서 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. 동료 채팅은 Adobe Analytics 보고서 세트의 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 9월 25일 |
+| **CX Enterprise Coworker: 공동 작업자 채팅에서 Adobe Analytics 데이터 분석** <br/>Adobe CX Enterprise Coworker 채팅에서 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. 동료 채팅은 Adobe Analytics 보고서 세트의 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 9월 29일<p>(원래 2026년 9월 25일로 계획됨)</p> |
 | **CX Enterprise Coworker: 근본 원인 분석 스킬** <br/>Adobe CX Enterprise Coworker 채팅을 통해 이제 변경된 사항뿐만 아니라 지표가 변경된 이유를 설명하는 근본 원인 분석을 수행할 수 있습니다. Coworker Chat은 작업 교대가 발생한 날짜를 식별하고, 작업 교대 이전과 이후의 데이터를 비교한 다음 변경 사항을 해당 작업을 구동하는 차원과 그 크기로 분류합니다(백분율과 절대값 모두 표시). 의미 있는 변화가 감지되지 않을 경우, 코워커 채팅은 원인 추측이 아닌 알려준다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 10월 2일 |
 | **CX Enterprise Coworker: Analysis Workspace에서 시각화 열기** <br/>공동 작업자 채팅에서 데이터 분석을 시작한 다음 Analysis Workspace에서 직접 분석을 시각화로 열어 구축, 개선 및 탐색을 계속합니다.</p><p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 10월 2일 |
 | **분류 세트 API 업데이트**<br/>&#x200B;이제 분류 세트 API 설명서에 분류 세트 API 요청을 구성하기 위한 업데이트된 끝점과 매개 변수 정보가 포함되어 있습니다.<p>자세한 내용은 [분류 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)를 참조하십시오.</p> | 2026년 9월 5일 | 2026년 9월 30일 |
