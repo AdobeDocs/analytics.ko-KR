@@ -4,34 +4,44 @@ title: 데이터 거버넌스를 위한 개인정보 보호 레이블 지정 보
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
+TQID: 'https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: '815'
 ht-degree: 86%
-
 ---
-
 # 데이터 거버넌스를 위한 개인정보 보호 레이블 지정 보기/관리
 
 **[!UICONTROL 데이터 거버넌스를 위한 개인정보 보호 레이블 지정]** 대화 상자는 보고서 세트의 개인정보 보호 레이블 및 네임스페이스에 대한 개요를 제공합니다. 여기에서 설정을 .csv 파일로 내보낼 수도 있습니다.
 
 ## 개인정보 보호 레이블 보기 {#view-privacy}
 
-1. Adobe CX Enterprise에 로그인합니다.
+1. Adobe CX Enterprise에 로그인.
 2. **[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 구성 및 수집]** > **[!UICONTROL 데이터 거버넌스]**&#x200B;로 이동합니다.
 
    >[!NOTE]
@@ -69,7 +79,7 @@ ht-degree: 86%
 
    >[!IMPORTANT]
    >
-   >선택한 모든 보고서 세트는 CX 엔터프라이즈 조직에 매핑되어야 합니다.
+   >선택하는 모든 보고서 세트는 CX Enterprise 조직에 매핑되어야 합니다.
 
    변수 또는 변수 세트에 대한 레이블을 다른 보고서 세트에 복사하면 복사본이 대상 보고서 세트의 해당 위치에 있는 변수로 이동합니다. 표준 구성 요소, 목록 변수, 성공 이벤트의 경우 레이블이 대상 보고서 세트에서 **동일한 이름**&#x200B;을 가진 변수에 복사됩니다.
 

@@ -3,32 +3,44 @@ title: 데이터 보존 정책
 description: 데이터 보존 정책은 Adobe가 데이터를 저장하는 기간을 결정합니다.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-TQID: https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio
+TQID: 'https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 92%
-
 ---
-
 # 데이터 보존 정책
 
-Adobe Analytics에서 수집한 데이터는 일정 기간 동안 보관됩니다. Adobe에서 이 데이터를 보관하는 시간은 계약에 따라 다르며 조직의 데이터 보존 정책에 요약되어 있습니다. 이 정책은 데이터 자체에 적용됩니다. 즉, 모든 Analytics 보고 기능(Analysis Workspace, 보고 API 등)에 영향을 줍니다.
+Adobe Analytics에서 수집한 데이터는 일정 기간 동안 보관됩니다. Adobe가 이 데이터를 보관하는 기간은 계약에 따라 다르며 조직의 데이터 보존 정책에 명시되어 있습니다. 이 정책은 데이터 자체에 적용됩니다. 즉, 모든 Analytics 보고 기능(Analysis Workspace, 보고 API 등)에 영향을 줍니다.
 
 **Adobe Analytics의 기본 데이터 보존 정책은 25개월입니다.** 계약에 따라 조직의 보존 정책이 다를 수 있습니다.
 
@@ -41,9 +53,9 @@ Adobe Analytics에서 수집한 데이터는 일정 기간 동안 보관됩니�
 * 기본 데이터 보존 기간을 줄이는 데 드는 비용은 없습니다.
 * 데이터 보존 기간을 기본 보존 기간인 25개월 이상으로 연장하려면 1년 단위로 연장할 수 있는 확장 기능을 구입해야 합니다. 총 10년 1개월 동안 최대 8개의 확장 기능을 구입할 수 있습니다(기본 보존 2년 1개월 + 8년 구입).
 
-## 데이터 보존 및 데이터 개인 정보
+## 데이터 보존 및 개인정보 보호
 
-Adobe는 데이터 프로세서로서 고객이 개인의 액세스, 삭제 및 기타 요청을 이행할 수 있게 지원하기 위해 적절한 조치를 취해야 합니다. 적절하고 안전하며 시기 적절한 삭제 정책을 적용하는 것은 이 의무를 준수하는 데 있어 중요한 부분입니다. GDPR은 유럽 시민의 정보를 판매 또는 처리하는 모든 고객에게 적용됩니다. CCPA는 캘리포니아 시민의 정보를 판매 또는 처리하는 모든 고객에게 적용됩니다. 따라서 데이터 개인 정보는 전 세계 규정 변경 사항입니다.
+Adobe는 데이터 프로세서로서 고객이 개인의 액세스, 삭제 및 기타 요청을 이행할 수 있게 지원하기 위해 적절한 조치를 취해야 합니다. 적절하고 안전하며 시기 적절한 삭제 정책을 적용하는 것은 이 의무를 준수하는 데 있어 중요한 부분입니다. GDPR은 EU 시민을 대상으로 마케팅하거나 해당 시민의 정보를 처리하는 모든 고객에게 적용됩니다. CCPA는 캘리포니아 시민을 대상으로 마케팅하거나 그 정보를 처리하는 모든 고객에게 적용됩니다. 따라서 데이터 개인 정보는 전 세계 규정 변경 사항입니다.
 
 ## 데이터 삭제
 
@@ -51,7 +63,7 @@ Adobe는 데이터 프로세서로서 고객이 개인의 액세스, 삭제 및 
 
 ## 현재 데이터 보존 정책 보기/관리
 
-[!UICONTROL 관리자] 도구의 데이터 거버넌스 대화 상자에서는 데이터 거버넌스용으로 구성된 보고서 세트에 대한 개요를 제공합니다. 또한 CX 엔터프라이즈 조직에 매핑되었는지 여부와 이 보고서 세트에 대한 데이터 보존 정책이 있는지 여부도 표시됩니다.
+[!UICONTROL 관리자] 도구의 데이터 거버넌스 대화 상자에서는 데이터 거버넌스용으로 구성된 보고서 세트에 대한 개요를 제공합니다. 또한 CX Enterprise 조직에 매핑되었는지 여부와 이 보고서 세트에 대한 데이터 보존 정책이 있는지 여부도 표시됩니다.
 
 ## 자주 묻는 질문
 
@@ -67,7 +79,7 @@ Adobe는 데이터 프로세서로서 고객이 개인의 액세스, 삭제 및 
 
 +++
 
-+++ 삭제하기 전에 데이터 사본을 요청할 수 있습니까?
++++ 데이터가 삭제되기 전에 데이터 사본을 요청할 수 있습니까?
 
 예. Adobe는 원시 히트 수준 데이터의 이전 데이터 덤프를 제공할 수 있습니다. 자세한 내용은 내보내기 사용 안내서에서 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)를 참조하십시오. UI에서 제공할 수 있는 범위를 벗어나는 데이터 내보내기 요구 사항이 있는 경우 Adobe 계정 팀에 문의하십시오. 특별한 조절이 가능합니다. 비용은 다를 수 있습니다.
 
@@ -75,7 +87,7 @@ Adobe는 데이터 프로세서로서 고객이 개인의 액세스, 삭제 및 
 
 +++ Adobe는 언제 데이터를 삭제합니까?
 
-Adobe 계정 팀에 데이터 삭제가 예정된 특정 시간을 문의하십시오. 데이터는 일반적으로 매월 롤링을 기준으로 삭제됩니다.
+Adobe 계정 팀에 데이터 삭제가 예정된 특정 시간을 문의하십시오. 데이터는 일반적으로 매월 순차적으로 삭제됩니다.
 
 +++
 

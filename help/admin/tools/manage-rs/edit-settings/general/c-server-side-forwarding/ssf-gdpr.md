@@ -7,32 +7,45 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/MH--f5MxzLFOkDV8B-JzqMULLbY1ota6efoJ8T1ne58'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '588'
 ht-degree: 41%
-
 ---
-
 # GDPR/ePrivacy 준수 및 서버측 전달
 
 이 섹션에서는 2017년 9월 30일에 발효된 [EU 쿠키 준수 규정](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies)에 의해 촉발된 서버측 전달 개선 사항에 대해 설명합니다.
 
-서버측 전달은 Adobe Analytics의 데이터를 Audience Manager과 같은 다른 CX 엔터프라이즈 솔루션에 실시간으로 공유하는 데 사용됩니다. 활성화되면 Analytics에서 서버측 전달을 통해 데이터를 다른 CX 엔터프라이즈 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션에서 데이터를 Analytics에 푸시할 수 있습니다.
+서버측 전달은 Adobe Analytics의 데이터를 Audience Manager과 같은 다른 CX Enterprise 솔루션과 실시간으로 공유하는 데 사용됩니다. 활성화되면 Analytics에서 서버측 전달을 통해 데이터를 다른 CX Enterprise 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션에서 데이터를 Analytics에 푸시할 수 있습니다.
 
 이전에 서버측 전달에는 동의와 사전 동의 이벤트/히트를 구분하는 방법이 없었습니다. 2018년 11월 1일부터, 데이터 컨트롤러(Adobe Analytics 고객)로서 사전 동의한 데이터를 Adobe Analytics으로 제한하여 Adobe Audience Manager으로 전달되지 않도록 하는 옵션이 제공됩니다. 새 구현 컨텍스트 변수를 사용하여 동의를 받지 못한 히트에 플래그를 지정할 수 있습니다. 변수를 설정하면 동의를 받을 때까지 이러한 히트가 Adobe Audience Manager에 전송되지 않습니다.
 

@@ -4,29 +4,41 @@ description: Adobe Analytics를 사용하여 마케팅 활동을 추적하십시
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
+TQID: 'https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 98%
-
 ---
-
 # 캠페인 추적 워크플로
 
 조직에서 마케팅 활동의 성과 및 클릭스루 비율을 추적하려는 경우 다음 프로세스를 사용할 수 있습니다. 이러한 각 단계에는 아래에 더 자세한 내용이 포함된 전용 섹션이 있습니다.
@@ -36,17 +48,17 @@ ht-degree: 98%
 1. [추적 코드 데이터를 포함하도록 Adobe Analytics 구현 설정 또는 조정](#include-campaign-variables-in-your-implementation)
 1. [Analysis Workspace에서 보고서 보기](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/kr/products/campaign/adobe-campaign.html)은 이러한 각 단계를 단순화하여 마케팅 활동에서 최대한의 가치를 이끌어내는 데 도움이 될 수 있습니다. 자세한 내용은 Adobe 영업 담당자에게 문의하십시오.
+[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html)은 이러한 각 단계를 단순화하여 마케팅 활동에서 최대한의 가치를 이끌어내는 데 도움이 될 수 있습니다. 자세한 내용은 Adobe 영업 담당자에게 문의하십시오.
 
 ## 추적 코드 생성 프로세스 설정
 
-추적 코드에 대한 요구 사항은 조직마다 다릅니다. 수동으로 작성한 추적 코드로도 충분할 경우 일부 조직은 필요한 사항이 최소화될 수 있습니다. 다른 조직에서는 추적에 대한 더 많은 제어를 원하고 원하는 추적 코드를 생성하기 위한 여러 시스템을 갖추고 있을 수 있습니다. 조직에서 Adobe Analytics와 함께 Google Analytics를 사용하는 경우 이미 `utm` 추적 코드 모델을 갖추고 있는 것입니다.
+추적 코드에 대한 요구 사항은 조직마다 다릅니다. 일부 조직은 요구 사항이 많지 않아 수동으로 만든 추적 코드만으로도 충분할 수 있습니다. 다른 조직에서는 추적에 대한 더 많은 제어를 원하고 원하는 추적 코드를 생성하기 위한 여러 시스템을 갖추고 있을 수 있습니다. 조직에서 Adobe Analytics와 함께 Google Analytics를 사용하는 경우 이미 `utm` 추적 코드 모델을 갖추고 있는 것입니다.
 
 추적 코드를 만들거나 생성하는 방법에 관계없이 일관된 시스템을 갖추면 조직에서 보고용 추적 코드를 훨씬 간편하게 그룹화할 수 있습니다. 일관되게 구성된 추적 코드를 사용하면 [분류 규칙](/help/components/classifications/crb/classification-rule-builder.md)을 만들어 범주별 성능에 대한 인사이트를 얻을 수 있습니다.
 
 ## URL에 원하는 추적 코드 추가
 
-광고, 소셜 미디어 또는 이메일과 같이 온라인에 게시하는 모든 링크에 원하는 추적 코드 값을 추가할 수 있습니다. 이러한 추적 코드를 추가하는 작업은 일반적으로 링크의 쿼리 문자열에서 이루어집니다. 사용하는 쿼리 문자열 매개 변수는 조직의 추적 요구 사항에 따라 다릅니다. 일반적인 쿼리 문자열 매개변수는 `cid`입니다(캠페인 ID의 약자). Google Analytics도 함께 사용하는 일부 조직에는 이미 `utm_source`, `utm_medium` 등과 같은 여러 캠페인 쿼리 문자열 매개 변수가 있을 수 있습니다.
+광고, 소셜 미디어 또는 이메일과 같이 온라인에 게시하는 모든 링크에 원하는 추적 코드 값을 추가할 수 있습니다. 이러한 추적 코드는 일반적으로 링크의 쿼리 문자열에 추가됩니다. 사용하는 쿼리 문자열 매개 변수는 조직의 추적 요구 사항에 따라 다릅니다. 일반적인 쿼리 문자열 매개변수는 `cid`입니다(캠페인 ID의 약자). Google Analytics도 함께 사용하는 일부 조직에는 이미 `utm_source`, `utm_medium` 등과 같은 여러 캠페인 쿼리 문자열 매개 변수가 있을 수 있습니다.
 
 이메일의 링크에 쿼리 문자열을 추가한 모습은 다음과 유사합니다.
 
@@ -62,7 +74,7 @@ Adobe Analytics에는 조직 전체의 다양한 마케팅 활동을 측정하�
 
 조직에서 `utm` 쿼리 문자열을 수집하는 경우 다음 중 하나를 선택할 수 있습니다.
 
-* 모든 `utm` 쿼리 문자열을 연결된 값으로 추적 코드 차원에 전송합니다. 그런 다음 [분류 규칙](/help/components/classifications/crb/classification-rule-builder.md)을 사용하여 `utm` 매개 변수에 중점을 두는 추가 차원을 만들 수 있습니다. 이 방법은 학습 곡선이 더 복잡하지만 추가 eVar를 사용하지 않습니다.
+* 모든 `utm` 쿼리 문자열을 연결된 값으로 추적 코드 차원에 전송합니다. 그런 다음 [분류 규칙](/help/components/classifications/crb/classification-rule-builder.md)을 사용하여 `utm` 매개 변수에 중점을 두는 추가 차원을 만들 수 있습니다. 이 방법은 익히기가 더 어렵지만 추가 eVar를 사용하지 않습니다.
 * 각 `utm` 쿼리 문자열을 별도의 [eVar](/help/components/dimensions/evar.md)로 전송합니다. 이 방법은 전반적으로 구현하기가 더 간단하지만 추가 eVar를 사용해야 합니다.
 
 ## Analysis Workspace에서 보고서 보기

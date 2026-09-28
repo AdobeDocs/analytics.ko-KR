@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/LKwWo4v7B8bcwsqsezBt4trAiOQRdIWDm2moqNJLY04'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: '598'
 ht-degree: 71%
-
 ---
-
 # Adobe 플러그인: getGeoCoordinates
 
 {{plug-in}}
@@ -91,7 +99,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 `getGeoCoordinates` 함수는 인수를 사용하지 않습니다. 다음 값 중 하나를 반환합니다.
 
-* `"geo coordinates not available"`: 플러그인이 실행되는 시점에 사용할 수 있는 지리적 위치 데이터가 없는 디바이스의 경우. 이 값은 방문의 첫 번째 히트에서 일반적입니다. 특히 방문자가 위치 추적에 대해 먼저 동의해야 할 때 사용됩니다.
+* `"geo coordinates not available"`: 플러그인이 실행되는 시점에 사용할 수 있는 지리적 위치 데이터가 없는 디바이스의 경우. 이 값은 방문의 첫 번째 히트에서 흔히 나타나며, 특히 방문자가 자신의 위치 추적에 먼저 동의해야 하는 경우에 그렇습니다.
 * `"error retrieving geo coordinates"`: 디바이스의 위치를 검색하려고 할 때 플러그인에 오류가 발생하는 경우.
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: 여기서 [LATITUDE]/[LONGITUDE]는 각각 위도와 경도입니다.
 

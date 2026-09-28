@@ -4,24 +4,32 @@ keywords: 데이터 피드, 작업, 지표, 이전 열, 이후 열, 보트 수, 
 title: 지표 계산
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-TQID: https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o
+TQID: 'https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 95%
-
 ---
-
 # 데이터 피드를 사용한 일반 지표 계산
 
 데이터 피드를 사용한 일반 지표 계산 방법을 설명합니다.
@@ -80,7 +88,7 @@ Adobe이 고유 방문자 수 (사용자 지정 방문자 ID, ECID 등)를 식�
 3. 히트가 방문의 마지막 히트가 아닌 경우 후속 히트의 `post_cust_hit_time` 값에서 `post_cust_hit_time` 값을 뺍니다.
 4. 이 숫자는 히트에 걸린 시간 (초)입니다. 필터를 적용하여 차원 항목 또는 이벤트에 중점을 둘 수 있습니다.
 
-## 주문 수, 판매량 및 매출량
+## 주문 수, 판매량 및 매출
 
 히트의 `currency` 값이 보고서 세트의 통화와 일치하지 않으면 해당 날짜의 전환율을 사용하여 변환됩니다. `post_product_list` 열은 변환된 통화 값을 사용하므로 모든 히트가 이 열에서 동일한 통화를 사용합니다.
 

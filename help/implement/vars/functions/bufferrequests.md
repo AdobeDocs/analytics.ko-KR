@@ -4,25 +4,35 @@ description: 페이지를 즉시 언로드하는 브라우저에 대한 링크 �
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/HJdo1hCpisjHdOaTi8OP2tWSP2yAftEqfkCNXycFcrM
+TQID: 'https://experienceleague.adobe.com/HJdo1hCpisjHdOaTi8OP2tWSP2yAftEqfkCNXycFcrM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 7%
-
 ---
-
 # bufferRequests
 
 `bufferRequests()` 메서드를 사용하면 이미지 요청을 Adobe으로 보내는 대신 현재 페이지에서 캐시할 수 있습니다. 이 메서드를 트리거하는 것은 브라우저가 [`navigator.sendBeacon()`](https://developer.mozilla.org/ko-KR/docs/Web/API/Navigator/sendBeacon)을(를) 지원하지 않거나 페이지를 언로드할 때 이미지 요청을 취소하는 시나리오에서 유용합니다. Safari와 같은 많은 버전의 WebKit 브라우저는 일반적으로 링크를 클릭할 때 이미지 요청을 중지하는 동작을 보여 줍니다. `bufferRequests()` 메서드는 모든 버전의 AppMeasurement v2.25.0 이상에서 사용할 수 있습니다.

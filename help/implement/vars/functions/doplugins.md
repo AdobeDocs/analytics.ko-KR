@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/ZS7Kpl1vxzJIGLzk1AkZBNEpPdGd-8NQq1-HW-zqDck'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 61%
-
 ---
-
 # doPlugins
 
 `doPlugins` 변수는 구현에서 값을 설정하는 &#39;마지막 호출&#39; 역할을 합니다. 이미지 요청이 전송되기 전에 [플러그인 메서드](../plugins/impl-plugins.md)를 호출하고 원하는 변수를 설정하는 것이 좋습니다. [`usePlugins`](../config-vars/useplugins.md)가 활성화된 경우 다음을 포함한 모든 유형의 이미지 요청이 컴파일되어 Adobe에 전송되기 바로 전에 자동으로 실행됩니다.
@@ -46,7 +54,7 @@ ht-degree: 61%
 
 ## 웹 SDK을 수동으로 구현하는 `onBeforeEventSend` 사용
 
-웹 SDK에서 `doPlugins` 대신 유사한 기능을 사용하는 `onBeforeEventSend`을(를) 사용합니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko#modifying-events-globally)을 참조하십시오.
+웹 SDK에서 `doPlugins` 대신 유사한 기능을 사용하는 `onBeforeEventSend`을(를) 사용합니다. 자세한 내용은 웹 SDK 설명서에서 [전역 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)을 참조하십시오.
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -89,4 +97,4 @@ s.doPlugins = function() {
 
 >[!NOTE]
 >
->이전 버전의 AppMeasurement에는 약간 다른 `doPlugins()` 코드가 있었습니다. 위의 형식을 우수 사례로 사용하는 것이 좋습니다.
+>이전 버전의 AppMeasurement에는 약간 다른 `doPlugins()` 코드가 있었습니다. 위의 형식을 모범 사례로 사용하는 것이 좋습니다.

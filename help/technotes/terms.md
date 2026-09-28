@@ -3,45 +3,73 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
+TQID: 'https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+    internal-label: Cohort Analysis
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
   - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2638
+source-wordcount: '2638'
 ht-degree: 86%
-
 ---
-
 # Adobe Analytics에 사용되는 용어
 
 이 용어집을 사용하여 Adobe Analytics에서 사용하는 많은 용어의 의미를 파악합니다.
@@ -61,7 +89,7 @@ ht-degree: 86%
 * **캠페인:** 다음을 의미할 수 있습니다.
   * 추적 코드 차원을 채우는 Campaign 변수. 구현 사용 안내서에서 [캠페인](../implement/vars/page-vars/campaign.md)을 참조하십시오.
   * 추적 코드 차원의 기본 분류. 모든 보고서 세트에 대해 자동으로 만들어집니다.
-  * Adobe CX Enterprise의 일부인 Adobe Campaign [Adobe.com](https://www.adobe.com/kr/marketing/campaign.html)에 대한 자세한 정보입니다.
+  * Adobe Campaign, Adobe CX Enterprise 일부. [Adobe.com](https://www.adobe.com/kr/marketing/campaign.html)에 대한 자세한 정보입니다.
 * **채널:** 다음을 의미할 수 있습니다.
   * 사이트 섹션 차원을 채우는 채널 변수. 구현 사용 안내서에서 [페이지 변수](/help/implement/vars/page-vars/page-variables.md)를 참조하십시오.
   * 사용자가 사이트에 도착하는 방법을 이해하는 데 도움이 되는 구성 요소인 마케팅 채널. 구성 요소 사용 안내서에서 [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)을 참조하십시오.
@@ -75,7 +103,7 @@ ht-degree: 86%
 * **전환 변수:** eVar라고도 합니다. 사용자 정의 값을 저장하고 만료될 때까지 변수 값을 유지합니다. 구성 요소 사용 안내서에서 [eVar](/help/components/dimensions/evar.md) 차원을 참조하십시오.
 * **상관 관계:** 더 이상 사용하지 않는 용어입니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. Analytics 도구 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 * **사용자 정의 링크:** 페이지 조회수 데이터가 아닌 데이터가 포함된 히트 유형입니다. 구현 사용 안내서에서 [s.tl () 함수](../implement/vars/functions/tl-method.md)를 참조하십시오. 히트도 참조하십시오.
-* **고객 특성:** 특성 데이터를 업로드할 수 있는 CX 엔터프라이즈 기능입니다. 핵심 서비스 사용 안내서에서 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)을 참조하십시오.
+* **고객 특성:** 특성 데이터를 업로드할 수 있는 CX Enterprise 기능입니다. 핵심 서비스 사용 안내서에서 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)을 참조하십시오.
 * **데이터 수집 서버:** 데이터를 받고 처리하는 Adobe 소유 서버입니다. 이미지 요청은 보고에 사용하기 위해 Adobe의 데이터 수집 서버로 전송됩니다.
 * **Data Connectors:** 타사에서 Adobe Analytics으로 데이터 업로드를 자동화할 수 있는 폐기된 개발 솔루션입니다. 해당 서드파티 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. [Adobe Exchange 마켓플레이스](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE)&#x200B;(으)로 대체되었습니다.
 * **데이터 피드:** 모든 히트를 행으로 나열하고 변수를 별도의 열로 나열하는 원시 데이터 내보내기입니다. Adobe Analytics 데이터를 서드파티 데이터베이스로 내보내는 데 가장 일반적으로 사용됩니다. 내보내기 사용 안내서에서 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)를 참조하십시오.
@@ -99,14 +127,14 @@ ht-degree: 86%
   * 사용자 정의 트래픽 변수의 이전 이름인 사용자 정의 인사이트.
 * **KPI:** 주요 성능 표시기의 약어입니다. 비즈니스가 사이트의 성과를 이해하는 데 도움이 되는 지표입니다. 각 조직에는 비즈니스의 서로 다른 측면을 측정하는 다른 KPI가 있습니다. 구현 사용 안내서에서 [솔루션 디자인 문서 만들기](/help/implement/prepare/solution-design.md)를 참조하십시오.
 * **지연:** 데이터가 수집되는 시간과 보고서에서 사용할 수 있는 시간 사이의 대기 시간입니다. 보고서 세트의 일반적인 지연 시간은 30~90분입니다. 기술 정보 사용 안내서에서 [지연](/help/technotes/latency.md)을 참조하십시오.
-* **Launch:** 더 이상 사용하지 않는 용어입니다. Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 태그에 대한 구 축약 명칭입니다. Adobe Experience Platform 사용 안내서의 [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 참조하십시오.
+* **Launch:** 더 이상 사용하지 않는 용어입니다. Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 태그에 대한 구 축약 명칭입니다. Adobe Experience Platform 사용 안내서의 [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 참조하십시오.
 * **목록 속성:** 일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 이 설정이 활성화되면 모든 사용자 정의 트래픽 변수가 목록 속성이 될 수 있습니다. 구현 사용 안내서에서 [속성](../implement/vars/page-vars/prop.md)을 참조하십시오.
 * **목록 변수:** 전환 변수와 별도의 고유한 변수입니다. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 변수 값은 전환 변수와 마찬가지로 방문 시 보존됩니다. 조직에서는 목록 변수를 세 개만 사용할 수 있습니다. 구현 사용 안내서에서 [목록](/help/implement/vars/page-vars/list.md)을 참조하십시오.
 * **로그인 회사:** 조직에서 사용한 보고서 세트들의 모음입니다. 일부 조직에는 조직의 여러 부분에 해당되는 여러 로그인 회사가 있습니다.
 * **마케팅 채널:** 히트가 사이트에 도착한 방법별로 히트를 분류하는 Adobe Analytics의 기능입니다. 히트를 분류하는 데 사용되는 로직은 마케팅 채널 처리 규칙을 사용하여 사용자 정의할 수 있습니다. 구성 요소 사용 안내서에서 [마케팅 채널 시작하기](/help/components/c-marketing-channels/c-getting-started-mchannel.md)를 참조하십시오.
 * **지표:** 수량 데이터를 포함하는 구성 요소 유형입니다. 지표 값에는 일반적으로 페이지 조회수, 방문 횟수 및 매출과 같은 숫자가 포함됩니다. 차원은 일반적으로 차원 상대가 있습니다.
 * **모바일 앱:** **Adobe Analytics [!UICONTROL 대시보드]**&#x200B;라고도 하는 모바일 앱을 통해 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 주요 지표와 기타 구성 요소를 타일식 레이아웃으로 표시한 컬렉션이며, 이를 탭하여 더 자세한 분류와 트렌드 보고서를 볼 수 있습니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
-* **Mobile Services:** Adobe CX Enterprise에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 통합한 은퇴한 Adobe 제품으로, 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해 줍니다.
+* **Mobile Services:** Adobe CX Enterprise에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 통합한 은퇴한 Adobe 제품으로서, 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해 줍니다.
 * **다중 세트 태그 지정:** 동일한 히트를 여러 보고서 세트로 보내는 방법입니다. 가상 보고서 세트를 도입하면서 이 방법은 더 이상 필요하지 않습니다. 대부분의 다중 세트 태그 지정 작업은 글로벌 보고서 세트를 만드는 데 도움이 됩니다.
 * **표준화:** 모든 지표를 가져와 동일한 비율로 적용함으로써 트렌드를 보다 쉽게 비교할 수 있도록 시각화를 구성하는 방법입니다.
 * **발생 횟수:** 차원 항목이 설정되거나 지속된 히트 수를 보여 주는 지표 유형입니다. 구성 요소 사용 안내서에서 [발생 횟수](/help/components/metrics/occurrences.md) 지표를 참조하십시오.
@@ -123,7 +151,7 @@ ht-degree: 86%
 * **실시간:** 지연이 거의 없는 상태로 구성된 변수를 수집하는 즉시 표시합니다. 관리 사용 안내서에서 [실시간 보고서](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md)를 참조하십시오.
 * **Report Builder:** Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md) 추가 기능을 사용하여 Adobe Analytics 데이터에서 사용자 지정 요청을 작성할 수 있습니다.
 * **보고서 세트:** 데이터를 보내는 중요한 컨테이너입니다. Adobe Analytics의 모든 보고서는 보고서 세트를 참조합니다.
-* **Reports &amp; Analytics:** 이 도구는 [사용 중지](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ko)되었습니다.
+* **Reports &amp; Analytics:** 이 도구는 [사용 중지](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)되었습니다.
 * **롤링 날짜 범위:** 시간이 경과함에 따라 변경되는 상대적 날짜 범위의 유형입니다. 예를 들어 최근 7일을 보여 주는 보고서를 롤링 날짜 범위로 간주할 수 있습니다. 정적 날짜 범위도 참조하십시오.
 * **RSID:** 보고서 세트 ID의 약어입니다. 보고서 세트에는 친숙한 이름과 보고서 세트 ID가 모두 있습니다.
 * **s.t ():** 페이지 조회수 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()`을 대신 사용합니다. 구현 사용 안내서에서 [t](../implement/vars/functions/t-method.md)를 참조하십시오.

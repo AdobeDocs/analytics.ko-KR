@@ -15,21 +15,26 @@ feature_v2:
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
     internal-label: Dimensions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 7%
 ---
 # AMO Meta 광고 클릭 ID
 
-**[!UICONTROL AMO Meta 광고 클릭 ID]**&#x200B;은(는) Adobe Advertising 통합에 사용되는 광고 클릭 식별자입니다. [Analytics for Advertising](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다. 주로 사람이 읽을 수 있는 보고 차원이 아닌 원시 추적 식별자로 유용합니다.
+**[!UICONTROL AMO Meta 광고 클릭 ID]**&#x200B;은(는) Adobe Advertising 통합에 사용되는 광고 클릭 식별자입니다. [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 통합을 사용하도록 설정하면 차원이 자동으로 만들어집니다. 주로 사람이 읽을 수 있는 보고 차원이 아닌 원시 추적 식별자로 유용합니다.
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 [Advertising용 Analytics](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview) 통합에 의해 자동으로 채워집니다. 설정할 변수가 없습니다.
+이 차원은 [Advertising용 Analytics](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 통합에 의해 자동으로 채워집니다. 설정할 변수가 없습니다.
 
 | 속성 | 값 |
 | --- | --- |

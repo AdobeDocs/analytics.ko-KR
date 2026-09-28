@@ -2,7 +2,13 @@
 title: 브랜드 가시성 통합
 description: CAdobe Analytics와 브랜드 가시성 통합
 role: User
-source-git-commit: 8a2a4637f21bbbe02ea88292d2ca503f4c667ebc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -28,7 +34,7 @@ AI는 주요 검색 채널이 되었습니다. ChatGPT, Copilot, Copilot, 크롤
 >
 >이 통합의 일부로, 미국에서 브랜드 가시성 데이터의 일부 임시 처리가 발생합니다. 데이터는 Adobe Analytics 계약에 구성된 대로 지정된 영역에 최종적으로 저장됩니다.
 
-Customer Analytics를 사용하는 경우 별도의 더 풍부한 인바운드 통합이 Adobe Experience Platform을 통해 동일한 기본 CDN 여정 데이터를 Customer Journey Analytics으로 보냅니다. 현재 이 통합을 사용할 수 있습니다. [Customer Journey Analytics과 브랜드 가시성 통합](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/bv)을 참조하세요. Customer Journey Analytics이 있는 경우 더 많은 필드를 노출하고 다른 데이터 세트와 브랜드 가시성 데이터 결합을 지원하므로 먼저 해당 통합을 검토하십시오. 이 안내서에 설명된 Analytics 통합은 Customer Journey Analytics에 대한 액세스 권한이나 라이선스가 없이 Adobe Analytics을 사용하는 고객을 위해 설계되었습니다.
+Customer Analytics를 사용하는 경우 별도의 더 풍부한 인바운드 통합이 Adobe Experience Platform을 통해 동일한 기본 CDN 여정 데이터를 Customer Journey Analytics으로 보냅니다. 현재 이 통합을 사용할 수 있습니다. [Customer Journey Analytics과 브랜드 가시성 통합](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)을 참조하세요. Customer Journey Analytics이 있는 경우 더 많은 필드를 노출하고 다른 데이터 세트와 브랜드 가시성 데이터 결합을 지원하므로 먼저 해당 통합을 검토하십시오. 이 안내서에 설명된 Analytics 통합은 Customer Journey Analytics에 대한 액세스 권한이나 라이선스가 없이 Adobe Analytics을 사용하는 고객을 위해 설계되었습니다.
 
 
 ## 사용 사례
@@ -73,7 +79,7 @@ Customer Analytics를 사용하는 경우 별도의 더 풍부한 인바운드 �
 >
 >BYOCDN 로그 전달은 에이전트 트래픽 분석에 사용되는 서버측 CDN 요청 데이터를 제공합니다. 데이터는 브라우저에서 실행되는 JavaScript 태그에 따라 달라지지 않습니다. 필수 CDN 로그 피드가 없으면 커넥터에 보고서 세트로 가져올 트래픽 데이터가 없습니다.
 >
->자세한 내용은 [BYOCDN 로그 전달 참조](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)를 참조하십시오.
+>자세한 내용은 [BYOCDN 로그 전달 참조](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)를 참조하십시오.
 
 
 >[!IMPORTANT]
@@ -92,8 +98,8 @@ Adobe Analytics 통합→ 인바운드 브랜드 가시성이 **예약된 변수
 | 다음으로 보고됨 | 유형 | 참고 |
 |---|---|---|
 | URL | 치수 | 요청과 연결된 페이지 URL입니다. |
-| 봇 유형 | 치수 | 요청을 수행한 봇 또는 자동화된 에이전트 유형(예: 명명된 AI 웹 크롤러). |
-| 사용자 에이전트 | 치수 | 봇 또는 에이전트에서 보고한 사용자 에이전트 문자열입니다. |
+| 봇 유형 | 차원 | 요청을 수행한 봇 또는 자동화된 에이전트 유형(예: 명명된 AI 웹 크롤러). |
+| 사용자 에이전트 | 차원 | 봇 또는 에이전트에서 보고한 사용자 에이전트 문자열입니다. |
 | 상태 | 치수 | 요청에 대해 반환된 HTTP 상태 코드입니다. |
 | Referer | 치수 | 요청에 대한 HTTP 레퍼러 값(존재하는 경우). |
 | 요청 | 지표 | 봇 및 에이전트 CDN 요청 수 |
@@ -231,8 +237,8 @@ CJA 인바운드 통합은 더 광범위한 CDN 요청 요약 데이터 세트�
 
 >[!MORELIKETHIS]
 >
->[브랜드 가시성 /LLMO 통합 참조](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/bv)
->[BYOCDN 로그 전달 참조](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
+>[브랜드 가시성 /LLMO 통합 참조](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
+>[BYOCDN 로그 전달 참조](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
 ## 문서 초안 메모(발행용 아님)
 
@@ -250,4 +256,4 @@ CJA 인바운드 통합은 더 광범위한 CDN 요청 요약 데이터 세트�
 
 ## 아웃바운드 통합
 
-이 안내서에서는 Analytics 보고서 세트에 보트 및 자동화된 에이전트 트래픽 데이터를 추가하는 인바운드 브랜드 가시성 통합만 다룹니다. 게시된 통합 설명서는 브랜드 가시성 제품 내에서 브랜드 가시성이 Analytics 성능 데이터를 사용할 수 있도록 하는 아웃바운드 방향도 설명합니다. 해당 방향은 이 안내서에서 다루지 않습니다. 아웃바운드 통합에 대한 자세한 내용은 [브랜드 가시성 설명서](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/resources/adobe-analytics-integration)를 참조하세요.
+이 안내서에서는 Analytics 보고서 세트에 보트 및 자동화된 에이전트 트래픽 데이터를 추가하는 인바운드 브랜드 가시성 통합만 다룹니다. 게시된 통합 설명서는 브랜드 가시성 제품 내에서 브랜드 가시성이 Analytics 성능 데이터를 사용할 수 있도록 하는 아웃바운드 방향도 설명합니다. 해당 방향은 이 안내서에서 다루지 않습니다. 아웃바운드 통합에 대한 자세한 내용은 [브랜드 가시성 설명서](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration)를 참조하세요.

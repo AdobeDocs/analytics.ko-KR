@@ -4,46 +4,68 @@ title: Analysis Workspace 성능 최적화
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-TQID: https://experienceleague.adobe.com/NXu-UU13cywEFx7FKmny4EmvRxsQgZirTsCpZ5gZyvo
+TQID: 'https://experienceleague.adobe.com/NXu-UU13cywEFx7FKmny4EmvRxsQgZirTsCpZ5gZyvo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Optimization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: '2547'
 ht-degree: 41%
-
 ---
-
 # Analysis Workspace 성능 최적화
 
 Analysis Workspace 내의 프로젝트 성능에 영향을 주는 요소는 다양합니다.  이러한 요소를 이해하려면 최적의 방법으로 프로젝트를 계획 및 빌드하는 데 도움이 됩니다.
 
 insight을 Analysis Workspace의 성능으로 전환하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 도움말] > [!UICONTROL 성능]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 도움말] > [!UICONTROL 성능]**을 선택합니다.
 네트워크, 브라우저 및 프로젝트 요소를 포함하여 프로젝트 성능에 영향을 주는 요소를 표시하는 양식 대화 상자를 볼 수 있습니다. 가장 정확한 결과를 얻으려면 먼저 프로젝트를 로드할 수 있도록 하십시오.
 
    * **[!UICONTROL 현재 프로젝트]** 열에는 현재 프로젝트 및 사용자 환경에 대한 결과가 표시됩니다.
@@ -90,7 +112,7 @@ insight을 Analysis Workspace의 성능으로 전환하려면 다음을 수행�
 | 자유 형식 셀 개수 | 모든 테이블의 행과 열을 곱하여 계산한 프로젝트의 총 자유 형식 테이블 셀 수입니다. 이 값은 숨겨진 데이터 소스를 제외했습니다. 지침은 4,000개입니다. | 테이블의 열 수를 가장 관련성이 높은 데이터 포인트만 남도록 줄입니다. 표시된 행 수를 조정하거나 테이블 필터를 적용하거나 세그먼트를 적용하여 테이블의 행 수를 줄입니다. |
 | 사용 가능한 구성 요소 | 프로젝트의 모든 보고서 세트에 걸쳐 프로젝트의 왼쪽 레일에서 검색된 총 구성 요소 수입니다. 이 값은 왼쪽 레일이 로드되는 속도와 검색 결과가 반환되는 속도에 영향을 줍니다. 지침은 2,000개입니다. | 더욱 맞춤화된 구성 요소 세트가 있는 선별된 가상 보고서 세트를 만드는 것에 대해 제품 관리자에게 문의하십시오. |
 | 사용된 구성 요소 | 프로젝트에서 사용되는 총 구성 요소 수입니다. 지침은 100개입니다. | 사용된 구성 요소 수는 성능에 직접적인 영향을 주지 않습니다. 그러나 이러한 구성 요소의 복잡성은 프로젝트 성능에 영향을 줍니다. 아래의 A[추가 요소](#additional-factors) 섹션에서 최적화를 참조하십시오. |
-| 가장 긴 날짜 범위 | 이 요소에는 프로젝트에서 사용되는 가장 긴 날짜 범위가 표시됩니다. 지침은 1년입니다. | 가능하면 필요 이상의 데이터를 가져오지 마십시오. 패널 달력의 범위를 분석 관련 날짜로 좁힙니다. 또는 자유 형식 테이블에서 날짜 범위 구성 요소를 사용합니다. 테이블에 사용된 날짜 범위는 패널 날짜 범위를 재정의합니다. 예를 들어 지난 달, 지난 주 및 어제를 테이블 열에 추가하여 해당하는 특정 데이터 범위를 요청할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace)에서 확인하십시오. <br><br>프로젝트에서 사용되는 연도별 비교 횟수도 최소화합니다. 연도별 비교가 계산되면 계산은 관심 월 사이의 전체 13개월 데이터를 살펴봅니다. 이 비교는 패널 날짜 범위를 지난 13개월로 변경하는 것과 동일한 영향을 줍니다. |
+| 가장 긴 날짜 범위 | 이 요소에는 프로젝트에서 사용되는 가장 긴 날짜 범위가 표시됩니다. 지침은 1년입니다. | 가능하면 필요 이상의 데이터를 가져오지 마십시오. 패널 달력의 범위를 분석 관련 날짜로 좁힙니다. 또는 자유 형식 테이블에서 날짜 범위 구성 요소를 사용합니다. 테이블에 사용된 날짜 범위는 패널 날짜 범위를 재정의합니다. 예를 들어 지난 달, 지난 주 및 어제를 테이블 열에 추가하여 해당하는 특정 데이터 범위를 요청할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace)에서 확인하십시오. <br><br>프로젝트에서 사용되는 연도별 비교 횟수도 최소화합니다. 연도별 비교가 계산되면 계산은 관심 월 사이의 전체 13개월 데이터를 살펴봅니다. 이 비교는 패널 날짜 범위를 지난 13개월로 변경하는 것과 동일한 영향을 줍니다. |
 
 ## 요청 요소
 
@@ -137,7 +159,7 @@ insight을 Analysis Workspace의 성능으로 전환하려면 다음을 수행�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [생산성 향상을 위한 팁](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/tips-to-increase-productivity-in-analysis-workspace){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [생산성 향상을 위한 팁](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/tips-to-increase-productivity-in-analysis-workspace){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 

@@ -6,23 +6,30 @@ exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 TQID: 'https://experienceleague.adobe.com/ksfYYDZ6G9vH7WEZVh-JsN93Rl-jsZTe9-CQADSwnfI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 312
+source-wordcount: '312'
 ht-degree: 56%
-
 ---
-
 # 방문자 수 차이
 
 Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 여러 가지 이유로 인해 100% 정렬되지 않은 방문자 지표가 있습니다.
@@ -75,7 +82,7 @@ Adobe Audience Manager 실시간 세그먼트 모집단과 Audience Analytics �
   <tr> 
    <td colname="col1"> <p>사용자 정의 필터 </p> </td> 
    <td colname="col2"> <p>아니요 </p> </td> 
-   <td colname="col3"> <p>예. 예: IP 필터, 보트 필터 </p> </td> 
+   <td colname="col3"> <p>예. 예: IP 필터, 봇 필터 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>150개 세그먼트 제한 </p> </td> 

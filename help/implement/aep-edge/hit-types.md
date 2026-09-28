@@ -4,27 +4,37 @@ description: Adobe Analytics가 Edge Network에서 받은 이벤트를 해석하
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 31085025-9c38-4375-8dfb-4fded6542ca7
-TQID: https://experienceleague.adobe.com/Bf-OnlQu7TFYb1V4uKCVVoQkaPP4MuhyVWSdgjlZ6e8
+TQID: 'https://experienceleague.adobe.com/Bf-OnlQu7TFYb1V4uKCVVoQkaPP4MuhyVWSdgjlZ6e8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Personalization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 100%
-
 ---
-
 # Adobe Analytics의 Edge Network 이벤트 유형
 
 Adobe Analytics는 AppMeasurement에서 호출하는 함수에 따라 히트를 다르게 처리합니다. 예를 들어 [`s.t`](/help/implement/vars/functions/t-method.md)와 [`s.tl`](/help/implement/vars/functions/tl-method.md)는 특정 차원을 포함하거나 생략하고 [페이지 조회수](/help/components/metrics/page-views.md)를 다르게 증가시킵니다. Adobe Experience Platform에는 [`sendEvent`](https://experienceleague.adobe.com/kr/docs/experience-platform/collection/js/commands/sendevent/overview) 명령만 포함됩니다. [`xdm`](https://experienceleague.adobe.com/kr/docs/experience-platform/collection/js/commands/sendevent/xdm) 또는 [`data`](https://experienceleague.adobe.com/kr/docs/experience-platform/collection/js/commands/sendevent/data) 페이로드 내의 특정 속성은 Adobe Analytics에서 해당 데이터를 해석하는 방법을 결정합니다.
@@ -141,7 +151,7 @@ Edge Network는 다음 논리를 사용하여 Adobe Analytics [페이지 조회�
 
 ## A4T 및 의사 결정 관련 이벤트
 
-페이지 조회수와 링크 이벤트를 구분하는 것 외에도 다음 논리는 특정 의사 결정 이벤트가 A4T로 분류되는지 또는 삭제되는지 여부를 결정합니다.
+페이지 조회수와 링크 이벤트를 구분하는 것 외에도 다음 논리는 특정 의사 결정 이벤트가 A4T로 분류되는지 또는 무시되는지 여부를 결정합니다.
 
 | XDM 페이로드에는 다음이 포함됩니다. | Adobe Analytics... |
 |---|---|
@@ -153,7 +163,7 @@ Edge Network는 다음 논리를 사용하여 Adobe Analytics [페이지 조회�
 
 >[!TIP]
 >
->다음 `eventType` 값은 더 이상 사용하지 않습니다. 이러한 값은 현재 대응 항목과 동일한 방식으로 논리에 영향을 줍니다.
+>다음 `eventType` 값은 더 이상 사용하지 않습니다. 이러한 값은 현재 대응 항목과 동일한 방식으로 논리에 영향을 준다는 점에 유의하십시오.
 >
 >* 이벤트 유형 `display`는 더 이상 사용하지 않습니다. 대신 `decisioning.propositionDisplay`를 사용하십시오.
 >* 이벤트 유형 `click`은 더 이상 사용하지 않습니다. 대신 `decisioning.propositionInteract`를 사용하십시오.

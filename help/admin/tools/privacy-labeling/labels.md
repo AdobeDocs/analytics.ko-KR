@@ -4,32 +4,47 @@ title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-TQID: https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0
+TQID: 'https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3848
+source-wordcount: '3848'
 ht-degree: 83%
-
 ---
-
 # Analytics 변수의 데이터 개인정보 보호 레이블
 
 Adobe의 고객은 데이터 제어자로서 일반 데이터 보호 규정(GDPR) 및 캘리포니아 소비자 개인정보 보호법(CCPA)과 같은 관련 개인정보 보호법을 준수할 책임이 있습니다. 고객은 데이터 개인정보 보호법을 준수하여 데이터를 처리하는 방법을 결정하기 위해 자체 법무팀과 상의해야 합니다. Adobe는 각 고객이 데이터 개인정보 보호와 관련하여 고유한 요구 사항을 가지고 있음을 이해하며, Adobe는 고객이 데이터 개인정보 보호 데이터 처리에 대해 원하는 설정을 사용자 정의할 수 있도록 합니다. 그러면 각 고유 고객이 자신의 브랜드 및 고유 데이터 세트에 가장 적합한 방식으로 개인정보 보호 요청을 처리할 수 있습니다.
@@ -99,7 +114,7 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 
 | 레이블 | 정의 | 기타 요구 사항 |
 | --- | --- | --- |
-| 없음 | 이 변수는 데이터 개인정보 보호 요청에 사용될 ID를 포함하지 않습니다. | 이 필드에 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko) 또는 UI를 통해 액세스 또는 삭제 요청을 제출할 때 사용할 ID가 포함된 경우에만 이러한 다른 레이블 중 하나를 설정해야 합니다. |
+| 없음 | 이 변수는 데이터 개인정보 보호 요청에 사용될 ID를 포함하지 않습니다. | 이 필드에 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 또는 UI를 통해 액세스 또는 삭제 요청을 제출할 때 사용할 ID가 포함된 경우에만 이러한 다른 레이블 중 하나를 설정해야 합니다. |
 | ID-DEVICE | 이 필드에는 개인정보 보호 요청에 대해 디바이스를 식별하는 데 사용할 수 있는 ID가 포함되어 있지만 공유 디바이스의 서로 다른 사용자를 구별할 수 없습니다.  ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. | I1 또는 I2 레이블도 필요함.<ul><li>이벤트에 설정할 수 없음</li><li>머천다이징 eVar에 대해 설정할 수 없음</li><li>분류에 설정할 수 없음</li></ul> |
 | ID-PERSON | 이 필드에는 데이터 개인정보 보호 요청에 대해 인증된 사용자(특정 사용자)를 식별하는 데 사용할 수 있는 ID가 포함됩니다.  ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. | <ul><li>I1 또는 I2 레이블도 필요함.</li><li>이벤트에 설정할 수 없음</li><li>머천다이징 eVar에 대해 설정할 수 없음</li><li>분류에 설정할 수 없음</li></ul> |
 
@@ -113,7 +128,7 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 
 로그인 회사의 보고서 세트 중 하나에서 다른 변수에 ID 레이블을 이전에 할당한 경우 이러한 기존 네임스페이스 중 하나를 선택할 수 있습니다. 이 변수에 이미 이 네임스페이스로 레이블이 지정된 다른 변수와 동일한 유형의 ID가 포함되어 있고 요청을 제출할 때 해당 ID를 모두 검색하려는 경우 네임스페이스를 재사용해야 합니다.
 
-1. **[!UICONTROL 네임스페이스 선택]**&#x200B;을 클릭하고 기존 네임스페이스 중 하나를 선택합니다.
+1. **[!UICONTROL 네임스페이스 선택]**을 클릭하고 기존 네임스페이스 중 하나를 선택합니다.
    ![](assets/namespace.png)
 1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 

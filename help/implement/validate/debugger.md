@@ -8,9 +8,14 @@ TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +32,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 74%
@@ -36,7 +41,7 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)을 사용하는 것이 좋습니다.
+>이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe CX Enterprise Debugger Chrome 확장 프로그램](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)을 사용하는 것이 좋습니다.
 
 [!UICONTROL 기존 디버거]는 대부분의 Adobe CX Enterprise 서비스용 태그를 검사합니다. 디버거를 사용하면 사이트의 특정 페이지에서 어떤 데이터가 Adobe에 전송되는지 볼 수 있습니다. 이 정보를 사용하여 조직의 구현 문제를 해결하거나 구현을 검증할 수 있습니다.
 

@@ -3,23 +3,30 @@ description: 세그먼트 빌더로 세그먼트를 만들고 세그먼트 관�
 title: 세그먼테이션 워크플로 개요
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-TQID: https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY
+TQID: 'https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: '265'
 ht-degree: 33%
-
 ---
-
 # 세분화 워크플로 개요
 
 이 문서에서는 세그먼트 빌더로 세그먼트를 만들고 세그먼트 관리자를 통해 세그먼트를 관리하는 권장 워크플로우에 대해 설명합니다.
@@ -35,7 +42,7 @@ ht-degree: 33%
 | 6 | [세그먼트 사용](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | 세그먼트 구성 요소의 세그먼트를 보고서에 직접 적용할 수 있습니다. |
 | 7 | [세그먼트 공유](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 다른 Analytics 도구, Adobe Target 및 Adobe CX Enterprise에서 의도한 대상과 세그먼트를 공유할 수 있습니다. |
 | 8 | [세그먼트 필터링](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | 태그, 소유자 및 기타 필터 기준 필터링 (모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시) |
-| 9 | [세그먼트를 즐겨찾기로 표시](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | 세그먼트를 즐겨찾기로 표시하는 것은 쉽게 사용할 수 있게 구성하는 또 다른 방법입니다. |
+| 9 | [세그먼트를 즐겨찾기로 표시](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | 세그먼트를 즐겨찾기로 표시하는 것도 쉽게 사용할 수 있도록 구성하는 또 다른 방법입니다. |
 
 ## 세그먼트 관리
 

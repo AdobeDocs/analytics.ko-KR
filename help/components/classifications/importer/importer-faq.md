@@ -3,27 +3,35 @@ title: 분류 FAQ
 description: 분류 사용에 대한 FAQ입니다.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-TQID: https://experienceleague.adobe.com/pIwAdewnHA4AB9hyRDRkH6xXvyxx-BceWvDXMydX-ew
+TQID: 'https://experienceleague.adobe.com/pIwAdewnHA4AB9hyRDRkH6xXvyxx-BceWvDXMydX-ew'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 86%
-
 ---
-
 # 분류 가져오기 FAQ
 
 {{classification-importer-deprecation}}
@@ -53,7 +61,7 @@ ht-degree: 86%
 
 Adobe Analytics에서 자동으로 빈 문자를 자르기 때문에 두 분류 데이터 및 히트 데이터에서 선행 및 후행 빈 공백을 사용할 수 없습니다.
 
-보고에 쉼표나 큰따옴표와 같은 특수 문자를 사용하는 것은 일반적으로 권장되지 않습니다. 그러나 사용해야 하는 경우가 있습니다. 보고 값에 분류할 문자가 포함되어 있는 경우 다음 절차를 수행하십시오.
+보고에 쉼표나 큰따옴표와 같은 특수 문자를 사용하는 것은 일반적으로 권장되지 않습니다. 그러나 경우에 따라 이러한 문자를 사용해야 할 수도 있습니다. 보고 값에 분류할 문자가 포함되어 있는 경우 다음 절차를 수행하십시오.
 
 1. Adobe Analytics에 로그인한 다음, **[!UICONTROL 관리]** > **[!UICONTROL 분류 임포터]**&#x200B;로 이동합니다.
 2. **[!UICONTROL 브라우저 내보내기]** 탭을 클릭합니다.

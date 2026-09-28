@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/fmbMByXfPMR4C0gUmt3HIAoY1vwIXqTVzE97o9F1rK0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: '873'
 ht-degree: 62%
-
 ---
-
 # tl
 
 `tl()` 메서드는 Adobe Analytics의 중요한 핵심 구성 요소입니다. 이 메서드는 페이지에 정의된 모든 Analytics 변수를 가져와 이미지 요청에 컴파일한 다음, 해당 데이터를 Adobe 데이터 수집 서버에 보냅니다. 이것은 [`t()`](t-method.md) 메서드와 유사하지만 페이지 보기 수를 증가시키지는 않습니다. 또한 이 메서드는 전체 페이지 로드로 간주되지 않는 링크 및 기타 요소를 추적하는 데 유용합니다.
@@ -162,7 +170,7 @@ HTML 링크 내에서 바로 기본 링크 추적 호출을 전송하십시오.
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
 ```
 
-메서드 인수를 사용하여 기본 링크 추적 호출을 만들도록 JavaScript를 사용합니다.
+메서드 인수를 사용하여 기본 링크 추적 호출을 만들려면 JavaScript를 사용합니다.
 
 ```JavaScript
 s.tl(true,"o","Example link");
@@ -195,7 +203,7 @@ function trackClickInteraction(name){
 
 `trackDownloadLinks` 또는 `trackExternalLinks`가 활성화되어 있으면 올바른 필터가 일치하는 경우 AppMeasurement가 자동으로 링크 추적 호출을 생성합니다. 이러한 링크 클릭에 대해 수동으로도 `s.tl()`을 호출하는 경우 중복 데이터를 Adobe에 보낼 수 있습니다. 중복 데이터는 보고서 수치들을 부풀려서 정확성을 떨어뜨립니다.
 
-예를 들어 다음 함수는 동일한 링크 클릭에 대해 두 개의 링크 추적 호출 (수동 및 자동 다운로드 링크)을 보냅니다.
+예를 들어 다음 함수는 동일한 링크 클릭에 대해 두 개의 링크 추적 호출(수동 및 자동 다운로드 링크)을 보냅니다.
 
 ```JavaScript
 function trackDownload(obj) {

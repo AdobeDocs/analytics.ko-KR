@@ -1,43 +1,63 @@
 ---
-title: JavaScript 릴리스 정보의 AppMeasurement
+title: JavaScript용 AppMeasurement 출시 정보
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
+TQID: 'https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2880
+source-wordcount: '2880'
 ht-degree: 60%
-
 ---
-
-# JavaScript 릴리스 정보의 AppMeasurement
+# JavaScript용 AppMeasurement 출시 정보
 
 >[!IMPORTANT]
 >
@@ -156,7 +176,7 @@ ht-degree: 60%
 
 릴리스 일자: **2019년 7월 15일**
 
-* ActivityMap 스크롤 도달 추적이 Activity Map 확장에 추가되었습니다(AN -172949).
+* ActivityMap 스크롤 도달 추적이 Activity Map 확장 기능에 추가되었습니다(AN-172949).
 * AppMeasurement에 DIL 9.2가 추가되었습니다(AN-182472).
 
 ## 버전 2.14.0
@@ -374,7 +394,7 @@ s_gl이 호출될 때 AppMeasurement 라이브러리가 올바른 계정 조합�
 릴리스 일자: **2015년 11월 5일**
 
 * 방문자 API 1.5.3 포함.
-* URL Truncation 2047에 대한 IE11 검색 수정(AN-114914)
+* URL Truncation 2047에 대한 IE11 감지 수정(AN-114914)
 
 ## 버전 1.5.1
 
@@ -408,7 +428,7 @@ s_gl이 호출될 때 AppMeasurement 라이브러리가 올바른 계정 조합�
 
 릴리스 일자: **2015년 4월 16일**
 
-* 이제 라이프사이클 지표가 있는 사용자 정의 컨텍스트 데이터 변수를 포함할 수 있습니다.
+* 이제 라이프사이클 지표와 함께 사용자 정의 컨텍스트 데이터 변수를 포함할 수 있습니다.
 * 이제 PhoneGap에서 `trackBeacon` 및 `clearCurrentBeacon` 호출을 사용할 수 있습니다.
 * `trackLight` 호출 후에 경량 서버 호출 프로필 ID를 지우도록 약간 수정되었습니다.
 
@@ -416,7 +436,7 @@ s_gl이 호출될 때 AppMeasurement 라이브러리가 올바른 계정 조합�
 
 릴리스 일자: **2015년 2월 19일**
 
-* 지연된 추적 호출의 모든 처리가 일관되도록 했습니다. 이에 따라 클릭한 오브젝트와 같이 지연 동안 백업한 변수 관련 문제가 수정되었습니다.
+* 지연된 추적 호출의 모든 처리가 일관되도록 했습니다. 이에 따라 클릭한 오브젝트와 같이 지연 동안 누적된 변수 관련 문제가 수정되었습니다.
 * *`s.referrer`*&#x200B;이(가) 수동으로 설정되었을 때 두 번째, 세 번째 등의 추적 호출(일반적으로 링크 추적)이 두 번 계산되지 않도록 첫 번째 추적 호출 이후에 자동 레퍼러 추적을 수행하지 않도록 변경되었습니다.
 * 배포 zip이 방문자 API 1.3.5를 포함하도록 업데이트되었습니다.
 
@@ -431,7 +451,7 @@ s_gl이 호출될 때 AppMeasurement 라이브러리가 올바른 계정 조합�
 
 릴리스 일자: **2014년 9월 18일**
 
-* 구현 시 추가적인 대시 문자 구분 기호와 함께 버전 문자열에 추가되는 최대 4개의 문자를 지정할 수 있도록 해 주는 `tagContainerMarker` 변수를 추가했습니다. 이는 Dynamic Tag Management에서 사용됩니다.
+* 구현 시 추가적인 대시 문자 구분 기호와 함께 버전 문자열에 추가되는 최대 4개의 문자를 지정할 수 있도록 해 주는 `tagContainerMarker` 변수를 추가했습니다. 이는 동적 태그 관리에서 사용됩니다.
 
   ```js
   // JavaScript
@@ -450,7 +470,7 @@ s_gl이 호출될 때 AppMeasurement 라이브러리가 올바른 계정 조합�
 
   >[!IMPORTANT]
   >
-  >Analytics 호출이 AppMeasurement에서 `GET` 메서드(IE의 [잘린 URL](/help/implement/js/troubleshooting.md)을(를) 해결하는 메서드) 대신 `POST` 메서드를 사용하도록 하려면 CX Enterprise에 대해 최신 방문자 ID 서비스 구현을 사용해야 합니다.
+  >Analytics 호출이 AppMeasurement에서 `GET` 메서드(IE에서 [잘린 URL](/help/implement/js/troubleshooting.md)을(를) 해결하는 메서드) 대신 `POST` 메서드를 사용하도록 하려면 CX Enterprise에 대해 최신 방문자 ID 서비스 구현을 사용해야 합니다.
 
 ## 버전 1.4
 
@@ -516,7 +536,7 @@ s_gl이 호출될 때 AppMeasurement 라이브러리가 올바른 계정 조합�
 
 ## 버전 1.1.1
 
-* &quot;opera:&quot;로 시작하는 링크의 경우 링크 추적 호출이 Opera 브라우저에서 전송되지 않았습니다(&quot;opera:&quot;는 다른 브라우저에서 &quot;about:&quot; 및 &quot;chrome:&quot;과 유사함).
+* &quot;opera:&quot;로 시작하는 링크의 경우 Opera 브라우저에서 링크 추적 호출이 전송되지 않도록 했습니다(&quot;opera:&quot;는 다른 브라우저의 &quot;about:&quot; 및 &quot;chrome:&quot;과 유사함).
 * Accessible Video and Communications Act(비디오 및 통신 접근성 법률)를 준수하도록 모든 이미지 오브젝트에 `alt=""`가 추가되었습니다.
 
 ## 버전 1.1
@@ -543,7 +563,7 @@ s_gl이 호출될 때 AppMeasurement 라이브러리가 올바른 계정 조합�
   <a href="index.htm#anchor.pdf">Test Link</a>
   ```
 
-  이제 해시/단편이 무시되므로 파일 이름이 일치하는 확장명으로 끝나는 경우에만 해당 링크가 추적됩니다.
+  이제 해시/단편이 무시되므로 파일 이름이 일치하는 확장자로 끝나는 경우에만 해당 링크가 추적됩니다.
 
 ## 버전 1.0.1
 
@@ -552,6 +572,6 @@ s_gl이 호출될 때 AppMeasurement 라이브러리가 올바른 계정 조합�
 이제 코드 관리자에서 새 JavaScript AppMeasurement 라이브러리를 사용할 수 있습니다. 이 라이브러리는 `s_code.js`의 동일한 핵심 기능을 제공하면서도, 모바일 사이트와 데스크탑 사이트 모두에서 사용할 수 있도록 보다 가볍고 빠릅니다.
 
 * H.25 코드보다 3~7배 더 빠릅니다.
-* 21k만 압축 해제되어 있고 8k는 gzip이 사용되었습니다(H.25 코드는 33k 압축 해제되어 있고 13k gzip이 사용됨).
+* 압축되지 않은 상태에서는 21k이고 gzip 압축 시에는 8k입니다(H.25 코드는 압축되지 않은 상태에서는 33k이고 gzip 압축 시에는 13k임).
 * 쿼리 매개변수 가져오기, 쿠키 읽기 및 쓰기, 고급 링크 추적 수행과 같은 기본 지원을 제공합니다.
 * 모바일 사이트에서 사용할 수 있을 만큼 작고 빠르고 데스크탑 웹에서 사용할 수 있을 만큼 강력하므로, 모든 웹 환경에서 단일 라이브러리를 사용할 수 있습니다.

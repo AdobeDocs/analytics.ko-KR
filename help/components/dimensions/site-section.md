@@ -3,16 +3,20 @@ title: 사이트 섹션
 description: 사이트 섹션의 이름입니다.
 feature: Dimensions
 exl-id: 349bace0-4596-4b4c-bf29-6cd8866c246b
-TQID: https://experienceleague.adobe.com/fZwN-24--98XULDEgHR-5dcIsiYXspaSOsv1t-M0iys
+TQID: 'https://experienceleague.adobe.com/fZwN-24--98XULDEgHR-5dcIsiYXspaSOsv1t-M0iys'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,7 +27,7 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 66%
@@ -41,7 +45,7 @@ AppMeasurement는 [`channel`](/help/implement/vars/page-vars/channel.md) 변수�
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | [`channel`](/help/implement/vars/page-vars/channel.md) |
-| **웹 SDK/XDM 필드** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/data-types/webpage-details) |
+| **웹 SDK/XDM 필드** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
 | **쿼리 매개 변수** | [`ch`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<channel>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 100바이트 |

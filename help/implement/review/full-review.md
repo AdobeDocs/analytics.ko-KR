@@ -4,36 +4,48 @@ description: 6개월마다 구현을 검토하여 비즈니스 요구 사항과 
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-TQID: https://experienceleague.adobe.com/YQL-V84ZWAr8NqRp1snYZBgl7-3iIhhxWkWh6KTFKNM
+TQID: 'https://experienceleague.adobe.com/YQL-V84ZWAr8NqRp1snYZBgl7-3iIhhxWkWh6KTFKNM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '404'
 ht-degree: 73%
-
 ---
+# 전체 검토 (연 2회 구현 검토)
 
-# 전체 검토 (2년마다 구현 검토)
-
-6개월마다 구현을 검토해야 하는 이유는 무엇입니까? 비즈니스 요구 사항에 맞게 구현하고 있는지 확인해야 하기 때문입니다. 이해 관계자의 신뢰도를 손상시킬 수 있는 주요 데이터 문제로 확대되기 전에 규모가 작은 데이터 품질 문제를 해결하려는 경우도 있습니다. 6개월마다 수행하는 전체 검토 외에도 각 웹 사이트 릴리스 이후 [집중 검토](/help/implement/review/focused-review.md)도 수행해야 합니다.
+6개월마다 구현을 검토해야 하는 이유는 무엇입니까? 구현이 비즈니스 요구 사항에 계속 부합하는지 확인해야 하기 때문입니다. 이해 관계자의 신뢰도를 손상시킬 수 있는 주요 데이터 문제로 확대되기 전에 규모가 작은 데이터 품질 문제를 해결하려는 경우도 있습니다. 6개월마다 수행하는 전체 검토 외에도 각 웹 사이트 릴리스 이후 [집중 검토](/help/implement/review/focused-review.md)도 수행해야 합니다.
 
 ## &#x200B;1. 구현이 비즈니스 요구 사항에 부합하는지 확인합니다.
 
-변화하는 비즈니스 요구 사항을 검토하려면 비즈니스 소유자 및/또는 분석가와 만나보십시오. 구현에서 현재 충족되지 않는 요구 사항이나 측정 기회에 대해 KPI 및 측정 계획을 업데이트하는 방법을 알아봅니다. [BRD 및 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=ko#implementation)에 변경 내용을 기록해야 합니다.
+변화하는 비즈니스 요구 사항을 검토하려면 비즈니스 소유자 및/또는 분석가와 만나보십시오. 구현에서 현재 충족되지 않는 요구 사항이나 측정 기회에 대해 KPI 및 측정 계획을 업데이트하는 방법을 알아봅니다. [BRD 및 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation)에 변경 내용을 기록해야 합니다.
 
 ## &#x200B;2. 지표와 변수가 계속 제대로 작동하는지 확인하십시오
 
@@ -42,7 +54,7 @@ ht-degree: 73%
 * 대시보드를 만들어 지표와 변수의 월별 트렌드 보기를 보거나 각 요소에 대해 [경고](/help/components/alerts/alerts-overview.md)를 설정하여 예상한 데이터를 얻고 데이터가 정확한지 확인할 수 있습니다. 불일치가 발견되면 데이터 레이어, 태그 관리자 규칙 및 처리 규칙을 검토하여 그 이유를 확인하십시오.
 * 지표 및 변수의 광범위한 트렌드를 모니터링하려면 [Analytics 상태 대시보드](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c)를 다시 실행하십시오.
 
-필요하지 않은 지표 및 변수로 구현을 활성화하지 마십시오. 비즈니스에 더 이상 필요하지 않거나 사용하지 않는 지표 또는 변수를 비활성화합니다. 삭제하거나 나중에 재사용할 수 있습니다.
+필요하지 않은 지표 및 변수로 구현을 활성화하지 마십시오. 비즈니스에서 더 이상 필요로 하거나 사용하지 않는 지표 또는 변수를 비활성화합니다. 삭제하거나 나중에 재사용할 수 있습니다.
 
 ## &#x200B;3. KPI 새로 고침
 

@@ -1,36 +1,41 @@
 ---
 description: Analytics의 데이터 피드 처리 및 배달에 대한 모범 사례에 대해 알아봅니다.
-keywords: 데이터 피드, 모범 사례, 트래픽 스파이크, 시간별, ftp
+keywords: 데이터 피드;모범 사례;트래픽 스파이크;시간별;ftp
 title: 모범 사례 및 일반 정보
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 TQID: 'https://experienceleague.adobe.com/-8EoregiCONFrXywjKP5zMdypH-FM67ij1nVfxupBdY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 84%
-
 ---
-
 # 데이터 피드 우수 사례
 
-다음은 데이터 피드 처리 및 배달에 대한 몇 가지 모범 사례입니다.
+다음은 데이터 피드 처리 및 게재에 대한 몇 가지 모범 사례입니다.
 
-* 미리 예상되는 모든 트래픽 스파이크를 전달했는지 확인합니다. 지연은 데이터 피드의 처리 시간에 직접적으로 영향을 줍니다. 관리자 사용 안내서의 [트래픽 스파이크 예약](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)을 참조하십시오.
+* 예상되는 트래픽 스파이크가 있으면 미리 전달해야 합니다. 지연은 데이터 피드의 처리 시간에 직접적으로 영향을 줍니다. 관리자 사용 안내서의 [트래픽 스파이크 예약](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)을 참조하십시오.
 
 * 데이터 피드는 Adobe와의 계약에 명시적으로 명시되어 있지 않는 한 서비스 수준 계약서를 포함하지 않습니다. 피드는 일반적으로 보고 기간이 지난 후 몇 시간 내에 전달되지만 가끔 최대 12시간 이상 걸릴 수 있습니다.
 
-* 다중 파일 전달을 사용하는 시간별 피드가 가장 빨리 처리합니다. 조직에서 시기 적절한 전달을 우선으로 하는 경우 시간별 다중 파일 피드를 사용하는 것이 좋습니다.
+* 다중 파일 전달을 사용하는 시간별 피드가 가장 빠르게 처리됩니다. 조직에서 시기 적절한 전달을 우선으로 하는 경우 시간별 다중 파일 피드를 사용하는 것이 좋습니다.
 
 * 피드 수집 프로세스를 자동화하는 경우 히트 및 파일이 두 번 이상 전송될 수 있는 가능성을 고려하십시오. 피드 수집 프로세스는 오류나 데이터 중복 없이 중복 히트 및 중복 파일을 처리해야 합니다. 히트를 고유하게 식별하려면 `hitid_high` 및 `hitid_low` 열의 조합을 사용하는 것이 좋습니다.
 

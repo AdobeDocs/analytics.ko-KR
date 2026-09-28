@@ -4,29 +4,41 @@ description: Analytics 구현에서 데이터 레이어가 무엇이고 Adobe An
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/JmxM3-AVA5--7Xt4kuES35KFtYbicdGO9JZXsygzuuE
+TQID: 'https://experienceleague.adobe.com/JmxM3-AVA5--7Xt4kuES35KFtYbicdGO9JZXsygzuuE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 100%
-
 ---
-
 # 데이터 레이어 만들기
 
 데이터 레이어는 Analytics 구현에 사용된 변수 값을 포함하는 사이트의 JavaScript 오브젝트의 프레임워크로서, Analytics 변수에 값을 할당할 때 보다 세밀하게 제어하고 쉽게 유지 관리할 수 있습니다.
@@ -43,7 +55,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >다음의 Adobe 권장 데이터 레이어 사양은 선택 사항입니다. 이미 데이터 레이어가 있거나 Adobe의 사양을 따르지 않기로 선택하는 경우, 따로 따라야 할 사양을 조직이 충족하도록 해야 합니다.
+   >Adobe의 권장 데이터 레이어 사양을 따르는 것은 선택 사항입니다. 이미 데이터 레이어가 있거나 Adobe의 사양을 따르지 않기로 선택하는 경우 조직에서 어떤 사양을 따를지 합의해야 합니다.
 
 1. **브라우저 콘솔을 사용하여 데이터 레이어의 유효성 검사**: 데이터 레이어가 만들어지면 브라우저의 개발자 콘솔을 사용하여 데이터 레이어가 작동하는지 확인할 수 있습니다. `F12` 키를 사용하면 대부분의 브라우저에서 개발자 콘솔을 열 수 있습니다. 변수 값의 예는 `adobeDataLayer.page.title`입니다.
 1. **Adobe Experience Platform 데이터 수집을 사용하여 데이터 레이어 오브젝트를 데이터 요소에 매핑**: 이 단계는 조직의 구현 방법에 따라 다릅니다.
@@ -60,7 +72,7 @@ ht-degree: 100%
 
 ## 데이터 레이어 값 설정
 
-데이터 레이어는 일반적으로 서버측을 생성하며 사이트 콘텐츠를 작성하는 데 사용되는 것과 동일한 오브젝트를 참조합니다. 조직의 [솔루션 디자인 문서](solution-design.md)에 설정된 추적 요구 사항을 기반으로 사이트의 데이터 레이어를 설정하십시오.
+데이터 레이어는 일반적으로 서버측에서 생성되며 사이트 콘텐츠를 작성하는 데 사용되는 것과 동일한 오브젝트를 참조합니다. 조직의 [솔루션 디자인 문서](solution-design.md)에 설정된 추적 요구 사항을 기반으로 사이트의 데이터 레이어를 설정하십시오.
 
 ## 다음 단계
 

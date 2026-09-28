@@ -7,29 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/4OF7xoZs8bLS4UW8wfJYHqSyc-gNVLAfPs5j3NwZCcM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: '244'
 ht-degree: 95%
-
 ---
-
 # campaign
 
 `campaign` 변수는 사이트에서 추적 코드를 수집하는 데 사용됩니다. 이전 버전의 Adobe Analytics에는 대부분의 차원에 대한 분류로 사용할 수 있는 특별 처리 방법이 있었습니다. 현재 버전의 Adobe Analytics에서는 이 변수가 eVar와 동일하게 작동합니다.
 
-이 변수는 [추적 코드](/help/components/dimensions/tracking-code.md) 차원을 채웁니다. 일반적으로 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 유틸리티 메서드를 사용하여 쿼리 문자열에서 값을 가져옵니다. 그러나 이 변수의 설정 방법을 정확히 결정하는 것은 조직입니다.
+이 변수는 [추적 코드](/help/components/dimensions/tracking-code.md) 차원을 채웁니다. 일반적으로 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 유틸리티 메서드를 사용하여 쿼리 문자열에서 값을 가져옵니다. 그러나 이 변수를 정확히 어떻게 설정할지는 조직에서 결정합니다.
 
 ## Web SDK를 사용한 캠페인
 
@@ -51,7 +59,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 캠�
 
 캠페인을 값 또는 쿼리 문자열 매개 변수로 설정할 수 있습니다.
 
-## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.campaign
+## AppMeasurement 및 Analytics 확장 기능 사용자 지정 코드 편집기의 s.campaign
 
 `s.campaign` 변수는 일반적으로 마케팅 활동에 사용되는 추적 코드를 포함하는 문자열입니다. 최대 길이는 255바이트이고, 255바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
 

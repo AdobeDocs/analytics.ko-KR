@@ -4,25 +4,35 @@ keywords: Analytics 구현
 title: 리디렉션 및 별칭
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
+TQID: 'https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: '1139'
 ht-degree: 83%
-
 ---
-
 # 리디렉션 및 별칭
 
 리디렉션은 사용자 상호 작용 없이 브라우저를 새 위치로 지정합니다. 리디렉션은 웹 브라우저 (클라이언트측 리디렉션) 또는 웹 서버 (서버측 리디렉션)에서 실행됩니다.
@@ -33,7 +43,7 @@ ht-degree: 83%
 
 리디렉션은 사용자 상호 작용이 필요하지 않으므로 사용자가 알지 못하는 경우에도 리디렉션이 실행되는 경우가 많습니다. 리디렉션이 발생했음을 나타내는 유일한 것은 브라우저의 주소 표시줄입니다. 주소 표시줄에 브라우저가 처음 요청한 링크와 다른 URL이 표시됩니다.
 
-리디렉션의 유형은 두 가지에 불과하지만, 다양한 방식으로 구현될 수 있습니다. 예를 들어 사용자가 자신의 브라우저를 향해 있는 웹 페이지에는 브라우저를 다른 URL로 리디렉션하는 스크립팅 또는 특수 HTML 코드가 들어 있으므로 클라이언트측 리디렉션이 발생할 수 있습니다. 페이지에 서버측 스크립팅이 포함되어 있거나 웹 서버가 사용자를 다른 URL로 안내하도록 구성되었기 때문에 서버측 리디렉션이 발생할 수 있습니다.
+리디렉션의 유형은 두 가지에 불과하지만, 다양한 방식으로 구현될 수 있습니다. 예를 들어 사용자가 자신의 브라우저를 가리키는 웹 페이지에 브라우저를 다른 URL로 리디렉션하는 스크립팅 또는 특수 HTML 코드가 포함되어 있으므로 클라이언트측 리디렉션이 발생할 수 있습니다. 페이지에 서버측 스크립팅이 포함되어 있거나 웹 서버가 사용자를 다른 URL로 안내하도록 구성되었기 때문에 서버측 리디렉션이 발생할 수 있습니다.
 
 ## Analytics 및 리디렉션 {#aa-redirects}
 
@@ -58,7 +68,7 @@ ht-degree: 83%
 
 ## 구현 리디렉션 {#implement}
 
-리디렉션에서 [!DNL Analytics]&#x200B;[!DNL AppMeasurement] 데이터를 캡처하려면 리디렉션 및 JavaScript용 파일을 만드는 코드에 대해 4가지 사항을 조정해야 합니다.
+리디렉션에서 [!DNL Analytics][!DNL AppMeasurement] 데이터를 캡처하려면 리디렉션 및 JavaScript용 파일을 만드는 코드에 대해 4가지 사항을 조정해야 합니다.
 
 다음 단계를 완료하면 원래 레퍼러 (예: 위의 시나리오에서 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 사용자 사이트에 전달하는 정보는 그대로 유지됩니다.
 
@@ -129,7 +139,7 @@ s.pageURL="https://www.flytohawaii.example"
 
 테스트를 실행하여 레퍼러, 원래 URL (*`s_server`*) 및 캠페인 변수가 캡처되고 있는지 확인합니다.
 
-이러한 변수는 [CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)에서 다음 매개 변수로 표시됩니다.
+이러한 변수는 [CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)에서 다음 매개 변수로 표시됩니다.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 

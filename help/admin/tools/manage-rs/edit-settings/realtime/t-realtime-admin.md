@@ -3,25 +3,33 @@ description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-TQID: https://experienceleague.adobe.com/HTu1UvUUIGK0SzAQWEFBclV-P1JaPCJUp6j5MiYC3A0
+TQID: 'https://experienceleague.adobe.com/HTu1UvUUIGK0SzAQWEFBclV-P1JaPCJUp6j5MiYC3A0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+subfeature_v2:
+  - id: e3f5b014-59dd-41c0-90f5-c405dcfaed07
+    internal-label: Real time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: '226'
 ht-degree: 76%
-
 ---
-
 # 실시간 보고서 구성
 
 실시간 보고서를 설정하는 관리 단계입니다.
@@ -40,7 +48,7 @@ Adobe Analytics에서 실시간 보고서를 설정하는 절차에는 보고서
 
    지원되는 실시간 지표 및 차원에 대한 자세한 내용은 [지원되는 지표 및 차원](/help/admin/tools/manage-rs/edit-settings/realtime/realtime-metrics.md)을 참조하십시오.
 
-   분류를 생성한 경우, 분류가 정의된 차원 아래에 분류가 들여 써진 채로 표시됩니다.
+   분류를 생성한 경우, 분류가 정의된 차원 아래에 분류가 들여쓴 상태로 표시됩니다.
 
    ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/classifications.png)
 
@@ -56,7 +64,7 @@ Adobe Analytics에서 실시간 보고서를 설정하는 절차에는 보고서
 
 1. **[!UICONTROL 저장을]** 클릭합니다.
 
-   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터 데이터를 즉시 사용할 수 있습니다.
+   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데 최대 20분이 소요될 수 있습니다. 그때부터 데이터를 즉시 사용할 수 있습니다.
 
 1. 실시간 보고서를 보려면 다음 위치로 이동합니다.
 

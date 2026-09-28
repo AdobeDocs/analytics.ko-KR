@@ -4,30 +4,36 @@ title: 글로벌 보고서 세트
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-TQID: https://experienceleague.adobe.com/IcE0DXKBiNdfunqOMbeAQPV-m4zXR1PiVIXSGQqnd9E
+TQID: 'https://experienceleague.adobe.com/IcE0DXKBiNdfunqOMbeAQPV-m4zXR1PiVIXSGQqnd9E'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '413'
 ht-degree: 94%
-
 ---
-
 # 글로벌 보고서 세트
 
 글로벌 보고서 세트는 조직이 소유하는 모든 도메인 및 앱에서 데이터를 수집합니다. 모든 이미지 요청을 단일 보고서 세트로 보내려면 구현이 필요합니다.
 
-대부분의 경우 글로벌 보고서 세트를 구현하는 것이 좋습니다. 글로벌 보고서 세트 구현의 이점은 “[글로벌 보고서 세트 고려 사항](/help/implement/prepare/global-rs.md)”을 참조하십시오.
+Adobe는 대부분의 경우 글로벌 보고서 세트를 구현할 것을 권장합니다. 글로벌 보고서 세트 구현의 이점은 “[글로벌 보고서 세트 고려 사항](/help/implement/prepare/global-rs.md)”을 참조하십시오.
 
 *다중 세트 태그 지정* 및 *가상 보고서 세트* 접근 방식을 사용하여 회사의 글로벌 보고서 세트 데이터 하위 집합을 다양한 최종 사용자에게 제공할 수 있습니다.
 

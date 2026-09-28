@@ -7,22 +7,36 @@ exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 TQID: 'https://experienceleague.adobe.com/dFgB2YaXB7vihIOV8bcVGpg96UnT5pkNvjJaok319nU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+subfeature_v2:
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: '569'
 ht-degree: 98%
-
 ---
-
 # Analytics 도구 안내서
 
 ![Banner](../../assets/doc_banner_analyze.png)
@@ -36,7 +50,7 @@ Analytics 도구 안내서에는 다음 Analytics 도구에 대한 제품 기능
 | **[Activity Map](/help/analyze/activity-map/overview.md)** | Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급을 매기고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상자 참여를 모니터링하도록 설계된 Adobe Analytics 애플리케이션입니다. <br>Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고, 대상자의 요구 사항과 행동에 따라 대응할 수 있습니다. |
 | **[Report Builder](/help/analyze/report-builder/rb-overview.md)** | Microsoft Excel용 새로운 Report Builder 추가 기능은 Mac, Windows 및 웹 브라우저에서 지원됩니다. Report Builder를 사용하면 Excel 워크시트에 삽입되는 Adobe Analytics 데이터에서 사용자 정의 요청을 작성할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며 Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. |
 | **[레거시 Report Builder](/help/analyze/legacy-report-builder/home.md)** | 레거시 Report Builder는 Microsoft Excel용 추가 기능으로, Microsoft Windows에서만 지원됩니다. Report Builder를 사용하면 Excel 워크시트에 삽입되는 Adobe Analytics 데이터에서 사용자 정의 요청을 작성할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며 Report Builder의 데이터 표시 방식을 업데이트하고 사용자 정의할 수 있습니다. |
-| **[Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Analytics API를 사용하면 Adobe 서버를 직접 호출하여 사용자 인터페이스에서 수행할 수 있는 작업의 대부분을 수행할 수 있습니다. 데이터에 대해 탐색하고 인사이트를 얻거나 중요한 질문에 답변이 되는 보고서를 생성할 수 있습니다. 세그먼트 생성 또는 계산된 지표와 같은 Adobe Analytics의 구성 요소를 관리할 수도 있습니다. |
+| **[Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Analytics API를 사용하면 Adobe 서버를 직접 호출하여 사용자 인터페이스에서 수행할 수 있는 거의 모든 작업을 수행할 수 있습니다. 데이터에 대해 탐색하고 인사이트를 얻거나 중요한 질문에 답변이 되는 보고서를 생성할 수 있습니다. 세그먼트 생성 또는 계산된 지표와 같은 Adobe Analytics의 구성 요소를 관리할 수도 있습니다. |
 
 Adobe Analytics 기본 사항에 대해 알아보려면 아래 *Adobe Analytics 소개 - 스킬 빌더 웨비나* 비디오를 참조하십시오. 이 비디오는 데이터를 캡처하는 방법, 데이터가 Adobe Analytics로 전송되는 방법 및 Adobe Analytics에서 사용할 수 있는 시각화 기능에 대한 기본 사항을 소개합니다. 이 비디오는 데이터를 빌드, 배포, 수집 및 해석할 수 있는 기반을 제공하여 수집된 데이터를 기반으로 실행 가능한 인사이트 및 권장 사항을 제공할 수 있도록 지원합니다.
 
@@ -55,8 +69,8 @@ Adobe Analytics 기능 및 사용 방법에 대한 자세한 내용은 [Analytic
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://experienceleague.adobe.com/ko?support-solution=Analytics#support)
-* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko)
+* [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)
 

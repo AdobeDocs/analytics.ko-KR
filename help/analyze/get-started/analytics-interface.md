@@ -6,32 +6,52 @@ exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1993
+source-wordcount: '1993'
 ht-degree: 94%
-
 ---
-
 # Analytics 인터페이스 이해
 
 Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, 구성 요소 관리, 도구 및 관리자 기능을 위한 탭을 포함하여 다음과 같은 주요 영역으로 구성됩니다.
@@ -67,7 +87,7 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
 
    | 제품 기능 | 함수 | 추가 정보 |
    |---------|----------|----------|
-   | 세그먼트 | Adobe Analytics을 사용하면 Analytics 기능, Adobe CX Enterprise, Adobe Target 및 기타 통합 Adobe 제품을 사용하여 강력하고 집중적인 대상 세그먼트를 작성하고 관리하고 공유하고 보고서에 적용할 수 있습니다. | [Analytics 세분화](/help/components/segmentation/seg-home.md) |
+   | 세그먼트 | Adobe Analytics을 사용하면 Analytics 기능, Adobe CX Enterprise, Adobe Target 및 기타 통합 Adobe 제품을 사용하여 강력하고 집중된 대상 세그먼트를 작성하고 관리하고 공유하고 보고서에 적용할 수 있습니다. | [Analytics 세분화](/help/components/segmentation/seg-home.md) |
    | 계산된 지표 | 계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 정의 지표입니다.  마케터, 제품 관리자 및 분석가는 Analytics 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. | [계산된 지표 및 고급 계산된 지표](/help/components/calculated-metrics/cm-overview.md) |
    | 날짜 범위 | Analysis Workspace에는 사용자가 분석을 빌드할 때 사용할 수 있는 기본 날짜 범위 목록이 포함되어 있습니다. 또한 사용자 정의 날짜 범위를 만들고 Analysis Workspace에서 사용자가 사용할 수 있도록 설정할 수 있습니다. | [사용자 정의 날짜 범위 만들기](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 가상 보고서 세트 | 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼트로 분할하므로 각 세그먼트에 대한 액세스를 제어할 수 있습니다. | [가상 보고서 세트 개요](/help/components/vrs/vrs-about.md) |
@@ -96,7 +116,7 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 정의 보고서에 대한 Analytics 데이터 사본을 의미합니다. <p>요청 관리자에서 요청을 보고, 복제하고, 요청의 우선순위를 변경할 수 있습니다.</p> | [Data Warehouse 요청 관리](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | Activity Map은 시각적 오버레이를 사용하여 링크 활동의 순위를 매기고 웹 페이지의 대상자 참여를 모니터링할 수 있는 실시간 분석 대시보드를 제공하도록 설계되었습니다. 이를 통해 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고, 대상자의 필요 사항과 행동에 따라 대응할 수 있습니다. | [Activity Map 개요](/help/analyze/activity-map/overview.md) |
-   | 추천 Classic | 추천은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자가 관심을 가질 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시하는 Adobe Target 기능입니다. | [추천](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=ko) |
+   | 추천 Classic | 추천은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자가 관심을 가질 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시하는 Adobe Target 기능입니다. | [추천](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 이 기능은 더 이상 지원되지 않습니다. |  |
    | 모바일 서비스 | 이 기능은 더 이상 지원되지 않습니다. |  |
    | Analytics 대시보드 (모바일 앱) | Adobe Analytics 대시보드 앱은 언제 어디서나 Adobe Analytics를 통해 인사이트를 제공합니다. 사용자는 앱을 통해 Adobe Analytics 데스크탑 UI를 사용하여 만든 직관적인 스코어카드를 볼 수 있습니다. | iOS App Store 또는 Google Play 스토어의 Adobe Analytics 대시보드 앱 |
@@ -140,7 +160,7 @@ Adobe Analytics 인터페이스는 Analysis Workspace의 프로젝트 관리, �
    | 보안 관리자 | 보안 관리자를 사용하여 보고 데이터에 대한 액세스를 제어할 수 있습니다. 강력한 암호, 암호 만료일, IP 로그인 제한 및 이메일 도메인 제한 옵션이 제공됩니다. | [보안 관리자](/help/admin/tools/company/security-manager.md) |
    | 웹 서비스 | 웹 서비스 API는 마케팅 보고서 및 기타 Suite 서비스에 프로그래밍 방식으로 액세스할 수 있게 해 주며, 이를 통해 Analytics 인터페이스에서 사용할 수 있는 기능을 복제하고 확장할 수 있습니다. | [웹 서비스](/help/admin/tools/company/web-services-admin.md) |
    | Report Builder 보고서 | Report Builder 사용자에 할당된 라이선스 관리 | [Report Builder 보고서](/help/admin/tools/company/report-builder-reports-admin.md) |
-   | SSO(Single Sign-On) 서비스 | Adobe CX Enterprise에서 단일 사인온은 Admin Console을 통해 구현됩니다. | [Adobe Admin Console의 Analytics](/help/admin/admin-console/home.md) |
+   | SSO(Single Sign-On) 서비스 | Adobe CX Enterprise의 SSO(Single Sign-On)는 Admin Console을 통해 구현됩니다. | [Adobe Admin Console의 Analytics](/help/admin/admin-console/home.md) |
    | 보고서 세트 숨기기 | 귀하와 귀하의 사용자가 보고서 세트를 더 이상 사용할 수 없도록 Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 수 있습니다. | [보고서 세트 숨기기](/help/admin/tools/company/c-hide-report-suites.md) |
 
    {style="table-layout:auto"}

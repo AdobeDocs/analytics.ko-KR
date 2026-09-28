@@ -1,30 +1,38 @@
 ---
 title: getQueryParam
-description: URL의 쿼리 문자열 매개 변수의 값을 추출합니다.
+description: URL의 쿼리 문자열 매개변수 값을 추출합니다.
 feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/R5uYQzbQiyGuvM9ng4Eux7pNdPoecJl4rLQ5L18seak'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: '803'
 ht-degree: 73%
-
 ---
-
 # Adobe 플러그인: getQueryParam
 
 {{plug-in}}
@@ -64,7 +72,7 @@ Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인�
    * 조건: 없음
    * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
-   * 확장: 일반적인 Analytics 플러그인
+   * 확장 기능: Common Analytics Plugins
    * 작업 유형: getQueryParam 초기화
 1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
@@ -77,7 +85,7 @@ Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인�
 1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
 1. [!UICONTROL 사용자 정의 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
 1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
-1. 변경 사항을 저장하고 Analytics 확장에 게시합니다.
+1. 변경 사항을 저장하고 Analytics 확장 기능에 게시합니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -145,7 +153,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 4.0.1(2021년 3월 26일)
 
-* 쿼리 문자열에 쿼리 매개 변수가 없을 때 “” 대신 정의되지 않음이 반환되는 문제가 업데이트되었습니다.
+* 쿼리 문자열에 쿼리 매개 변수가 없을 경우 &quot;&quot; 대신 undefined가 반환되던 문제를 수정했습니다.
 
 ### 4.0 (2021년 3월 19일)
 
@@ -154,7 +162,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 3.3 (2019년 9월 24일)
 
-* 코드 크기를 줄이기 위해 불필요한 논리를 무시했습니다.
+* 코드 크기를 줄이기 위해 불필요한 논리를 우회했습니다.
 
 ### 3.2 (2018년 5월 15일)
 

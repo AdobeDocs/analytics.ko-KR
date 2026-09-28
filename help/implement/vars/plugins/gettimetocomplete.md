@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/GbehSttxbJlbYKbBIHCUy34Bz5JN7LsRMOEO5wAfmg8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 638
+source-wordcount: '638'
 ht-degree: 88%
-
 ---
-
 # Adobe 플러그인: getTimeToComplete
 
 {{plug-in}}
@@ -80,7 +88,7 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 * **`sos`** (선택 사항, 문자열): 타이머를 시작하려면 `"start"`으로 설정합니다. 타이머를 중지하려면 `"stop"`으로 설정합니다. 기본값은 `"start"`입니다.
 * **`cn`** (선택 사항, 문자열): 시작 시간을 저장할 쿠키의 이름입니다. 기본값은 `"s_gttc"`입니다.
 * **`exp`**(선택 사항, 정수): 쿠키(및 타이머)가 만료되는 초, 시간 또는 일 수(`tp` 시간 분할 인수에 따라 다름)입니다. 기본값은 30분입니다.
-* **`tp`**(선택 사항, 문자열): `exp` 인수와 함께 사용되는 쿠키(및 타이머)가 만료되는 시간 분할 문자열입니다. 날짜는 “d”, 시간은 “h”, 초는 “s”로 설정합니다. 설정되지 않은 경우 쿠키(및 타이머) 만료는 `exp` 인수가 무엇으로 설정되었는지에 관계없이 기본적으로 30분으로 설정됩니다.
+* **`tp`**(선택 사항, 문자열): `exp` 인수와 함께 사용되는 쿠키(및 타이머)가 만료되는 시간 분할 문자열입니다. 날짜는 &quot;d&quot;, 시간은 &quot;h&quot;, 초는 &quot;s&quot;로 설정합니다. 설정되지 않은 경우 쿠키(및 타이머) 만료는 `exp` 인수가 무엇으로 설정되었는지에 관계없이 기본적으로 30분으로 설정됩니다.
 
 이 함수를 호출하면 `"start"` 작업과 `"stop"` 작업 사이에 걸린 일, 시간, 분 및/또는 초가 포함된 문자열이 반환됩니다.
 

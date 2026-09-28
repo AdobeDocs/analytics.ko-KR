@@ -1,29 +1,38 @@
 ---
 title: 동적 계정 개요
-description: H 코드를 사용하여 보고서 세트를 동적으로 선택하는 방법에 대한 워크플로에 대해 알아봅니다.
+description: H 코드를 사용하여 보고서 세트를 동적으로 선택하는 워크플로를 알아봅니다.
 feature: Implementation Basics
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 role: Developer
-TQID: https://experienceleague.adobe.com/PCeDSQpYH3wym7oG5CYbQblnXkiOQRF4YlcHU6zYfKA
+TQID: 'https://experienceleague.adobe.com/PCeDSQpYH3wym7oG5CYbQblnXkiOQRF4YlcHU6zYfKA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 243
+source-wordcount: '243'
 ht-degree: 100%
-
 ---
-
 # 동적 계정 개요
 
 >[!IMPORTANT]
@@ -39,7 +48,7 @@ ht-degree: 100%
 보고서 세트를 동적으로 선택하는 데에는 3개의 변수가 사용됩니다.
 
 * [`dynamicAccountSelection`](dynamicaccountselection.md): 동적 계정 선택을 활성화하거나 비활성화합니다.
-* [`dynamicAccountMatch`](dynamicaccountmatch.md): URL이나 쿼리 문자열과 같은 관찰할 값을 결정합니다.
+* [`dynamicAccountMatch`](dynamicaccountmatch.md): URL이나 쿼리 문자열과 같은 관찰할 값을 예를 들어 URL 또는 쿼리 문자열입니다.
 * [`dynamicAccountList`](dynamicaccountlist.md): 값을 `dynamicAccountMatch`와 비교하고, 일치하는 값이 발견되면 `account` 변수를 채웁니다.
 
 `dynamicAccountSelection = true`인 경우, `dynamicAccountMatch` 내의 값은 `dynamicAccountList`와 비교됩니다. `dynamicAccountList`의 값이 일치하면 보고서 세트 ID가 `account` 변수에 포함됩니다.
@@ -59,7 +68,7 @@ s.dynamicAccountList="examplersiddev=dev.example.com;examplersidprod=example.com
 
 ## 다중 세트 태그 지정
 
-다중 세트 태깅은 동적 계정 선택과 함께 사용할 수 있습니다. 예:
+다중 세트 태그 지정은 동적 계정 선택과 함께 사용할 수 있습니다. 예:
 
 ```js
 s.dynamicAccountSelection = true;

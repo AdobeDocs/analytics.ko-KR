@@ -1,32 +1,42 @@
 ---
 title: getPercentPageViewed
-description: 방문자가 본 페이지의 비율을 검색합니다.
+description: 방문자가 본 페이지의 비율을 가져옵니다.
 feature: Appmeasurement Implementation
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/eOAPLlR2hFz2q9-3MrwDCTANtKwwR6wvZW3fxsj-1gc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '804'
 ht-degree: 83%
-
 ---
-
 # Adobe 플러그인: getPercentPageViewed
 
 {{plug-in}}
@@ -90,7 +100,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 * `window._ppvFinalPercentViewed`: 방문자가 현재 페이지로 이동한 시점에 표시되었던 이전 페이지의 비율입니다. 이 값은 초기 조회 비율보다 크거나 같으며 최고 페이지 조회 비율보다 작거나 같습니다.
 * `window._ppvHighestPixelsSeen`: 방문자가 이전 페이지를 스크롤할 때 본 가장 큰 총 픽셀 수.
 * `window._ppvFoldsAvailable`: 이전 페이지에서 아래로 스크롤할 수 있는 총 “페이지 접기” 수입니다. 전체 페이지가 처음 로드될 때 표시되면 이 값은 `1`입니다.
-* `window._ppvFoldsSeen`: 방문자가 이전 페이지를 스크롤할 때 도달한 가장 큰 “페이지 접기” 수입니다. 이 변수에는 “페이지 상단” 접기가 포함됩니다. 전체 페이지가 처음 로드될 때 표시되면 이 값은 `1`입니다.
+* `window._ppvFoldsSeen`: 방문자가 이전 페이지를 스크롤할 때 도달한 가장 큰 “페이지 접기” 수입니다. 이 변수에는 “페이지 상단” 폴드가 포함됩니다. 전체 페이지가 처음 로드될 때 표시되면 이 값은 `1`입니다.
 
 보고서에서 차원 데이터를 보려면 이러한 변수 중 하나 이상을 eVar에 지정하십시오.
 
@@ -127,7 +137,7 @@ if(_ppvPreviousPage)
 
 ## 버전 내역
 
-### 5.1(2022년 12월 8일)
+### 5.1 (2022년 12월 8일)
 
 * `_finalPercentViewed` 솔루션이 추가되었습니다.
 
@@ -145,7 +155,7 @@ if(_ppvPreviousPage)
 
 ### v3.01 (2018년 8월 13일)
 
-* 페이지에 여러 AppMeasurement 오브젝트가 있는 페이지의 문제가 해결되었습니다.
+* 페이지에 여러 AppMeasurement 오브젝트가 있는 경우의 문제가 해결되었습니다.
 
 ### v3.0 (2018년 4월 13일)
 

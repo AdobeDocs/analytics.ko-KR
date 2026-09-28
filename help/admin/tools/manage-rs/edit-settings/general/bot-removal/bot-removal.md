@@ -1,31 +1,41 @@
 ---
-title: Adobe Analytics에서 보트 제거
-description: Adobe Analytics에서 보트를 제거하는 방법
+title: Adobe Analytics에서 봇 제거
+description: Adobe Analytics에서 봇을 제거하는 방법
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-TQID: https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M
+TQID: 'https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
+  - id: ec140990-1570-4311-94d4-2d6b38511bbe
+    internal-label: Bot removal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 784
+source-wordcount: '784'
 ht-degree: 56%
-
 ---
-
-# Adobe Analytics에서 보트 제거
+# Adobe Analytics에서 봇 제거
 
 Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션을 제공합니다.
 
@@ -35,8 +45,8 @@ Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션�
 
 | 규칙 유형 | 설명 |
 |--- |--- |
-| 표준 IAB 보트 규칙 | **[!UICONTROL IAB 보트 필터링 규칙 사용]**&#x200B;을 선택하면 [IAB](https://www.iab.com/) (International Advertising Bureau) International Spiders &amp; Bots List를 사용하여 보트 트래픽을 제거합니다. 대부분의 고객은 최소한 이 옵션을 선택합니다. |
-| 사용자 정의 보트 규칙 | 사용자 에이전트, IP 주소 또는 IP 범위를 기반으로 하여 사용자 정의 보트 규칙을 정의하고 추가할 수 있습니다. |
+| 표준 IAB 봇 규칙 | **[!UICONTROL IAB 보트 필터링 규칙 사용]**&#x200B;을 선택하면 [IAB](https://www.iab.com/) (International Advertising Bureau) International Spiders &amp; Bots List를 사용하여 보트 트래픽을 제거합니다. 대부분의 고객은 최소한 이 옵션을 선택합니다. |
+| 사용자 정의 보트 규칙 | 사용자 에이전트, IP 주소 또는 IP 범위를 기반으로 하여 사용자 정의 봇 규칙을 정의하고 추가할 수 있습니다. |
 
 자세한 내용은 [보트 규칙 이해 및 구성](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)을 참조하십시오.
 
@@ -46,7 +56,7 @@ Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션�
 
 ### 1단계: 방문자의 Experience Cloud ID를 새로 선언된 ID에 전달
 
-시작하려면 [사람 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
+시작하려면 [사람 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -54,7 +64,7 @@ Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션�
 
 `return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();`
 
-이 데이터 요소가 설정되면 [다음 지침](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)에 따라 Adobe Experience Platform의 태그를 사용하여 선언된 ID를 ECID 도구에 전달합니다.
+이 데이터 요소가 설정되면 [다음 지침](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)에 따라 Adobe Experience Platform의 태그를 사용하여 선언된 ID를 ECID 도구에 전달합니다.
 
 ### 2단계: 세그먼테이션을 사용하여 보트 식별
 
@@ -64,7 +74,7 @@ Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션�
 
 ### 3단계: Data Warehouse를 통해 세그먼트에서 모든 [!DNL Experience Cloud IDs] 내보내기
 
-세그먼트를 사용하여 보트를 식별했으므로 다음 단계는 Data Warehouse를 활용하여 이 세그먼트와 연결된 모든 Experience Cloud ID를 추출하는 것입니다. 이 스크린샷은 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) 요청을 설정하는 방법을 보여 줍니다.
+세그먼트를 사용하여 봇을 식별했으므로 다음 단계는 Data Warehouse를 활용하여 이 세그먼트와 연결된 모든 Experience Cloud ID를 추출하는 것입니다. 이 스크린샷은 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) 요청을 설정하는 방법을 보여 줍니다.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
@@ -72,7 +82,7 @@ Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션�
 
 ### 4단계: 이 목록을 다시 Adobe에 고객 속성으로 전달
 
-Data Warehouse 보고서가 도착하면 내역 데이터에서 필터링해야 하는 ECID 목록이 제공됩니다. 이러한 ECID를 복사하여 ECID 열과 보트 플래그 열만 있는 빈 .CSV 파일에 붙여넣습니다.
+Data Warehouse 보고서가 도착하면 내역 데이터에서 필터링해야 하는 ECID 목록이 제공됩니다. 이러한 ECID를 복사하여 ECID 열과 봇 플래그 열만 있는 빈 .CSV 파일에 붙여넣습니다.
 
 * **ECID**: 이 열 헤더가 위에서 선언한 새 ID에 지정한 이름과 일치하는지 확인합니다.
 * **보트 플래그**: &#39;보트 플래그&#39;를 사용자 특성 스키마 차원으로 추가합니다.
@@ -97,11 +107,11 @@ Data Warehouse 보고서가 도착하면 내역 데이터에서 필터링해야 
 
 ### 7단계: 2~4단계를 정기적으로 반복 수행
 
-정기적으로 예약된 분석을 수행하기 전에 적어도 월별 미리 알림을 설정하여 새 보트를 식별하고 필터링합니다.
+정기적으로 예약된 분석을 수행하기 전에 적어도 월별 미리 알림을 설정하여 새 봇을 식별하고 필터링합니다.
 
 >[!MORELIKETHIS]
 >
->* [향상된 봇 차단(1부): 기본 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=ko)
->* [향상된 보트 차단(2부): 보트 식별 및 CIDR 활용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=ko)
->* [향상된 봇 차단(3부): 히트 관리자](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=ko)
+>* [향상된 봇 차단(1부): 기본 사항](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [향상된 보트 차단(2부): 보트 식별 및 CIDR 활용](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [향상된 봇 차단(3부): 히트 관리자](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

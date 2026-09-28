@@ -7,29 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/FiC4yXkRmNoY0PPO9ouC8-hX5xqWhkbcDVht5f05Yqk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: '195'
 ht-degree: 83%
-
 ---
-
 # offlineThrottleDelay
 
 오프라인 추적은 Adobe Analytics에서 데이터를 수집할 때 선택할 수 있는 방법입니다. 방문자가 인터넷 연결이 끊겼지만 사이트를 계속 탐색하는 경우 디바이스가 인터넷에 다시 연결되기 전까지 히트는 오프라인 큐에 저장됩니다. 오프라인 추적은 대개 모바일 애플리케이션에 사용됩니다.
 
-디바이스가 다시 온라인으로 돌아오면 디바이스에 저장된 모든 히트는 Adobe 데이터 수집 서버로 전송됩니다. 큐에 있는 히트 수가 많으면 이전 디바이스의 성능에 영향을 줄 수 있습니다. 큐에 있는 히트가 Adobe에 전송되는 빈도를 설정하려면 `offlineThrottleDelay` 변수를 사용하십시오.
+디바이스가 다시 온라인으로 돌아오면 디바이스에 저장된 모든 히트는 Adobe 데이터 수집 서버로 전송됩니다. 큐에 있는 히트 수가 많으면 오래된 디바이스의 성능에 영향을 줄 수 있습니다. 큐에 있는 히트가 Adobe에 전송되는 빈도를 설정하려면 `offlineThrottleDelay` 변수를 사용하십시오.
 
 ## 웹 SDK을 사용한 오프라인 스로틀 지연
 

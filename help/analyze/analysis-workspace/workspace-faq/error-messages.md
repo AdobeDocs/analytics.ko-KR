@@ -4,31 +4,45 @@ title: 오류 및 문제 해결
 feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-TQID: https://experienceleague.adobe.com/Kr34CyT7YxRqKRdwpaLN-DZwHhLbaT663Gj-pc5Wd8s
+TQID: 'https://experienceleague.adobe.com/Kr34CyT7YxRqKRdwpaLN-DZwHhLbaT663Gj-pc5Wd8s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Optimization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '588'
 ht-degree: 100%
-
 ---
-
 # 오류 및 문제 해결
 
 Analysis Workspace와 상호 작용할 때 기능 또는 성능에도 영향을 주는 오류가 발생할 수 있습니다. 다음은 가장 일반적인 오류 유형, 오류 발생 이유 및 적용할 수 있는 최적화의 목록입니다.
@@ -54,7 +68,7 @@ Analysis Workspace를 사용할 때 아래 정보를 사용하여 몇 가지 일
 | 문제 | 문제 해결 방법 |
 |---|---|
 | 지표를 드래그하면 *잘못된 데이터*&#x200B;라고 표시됩니다. | 잘못된 데이터는 Adobe가 보고서에 사용된 차원과 지표의 조합을 사용하여 데이터를 반환할 수 없음을 의미합니다. 예를 들어 두 개의 지표를 서로 위에 쌓아 놓은 경우에는 그런 방식으로 두 개의 지표를 표시할 수 없으므로 데이터로 반환할 수 없습니다. 대신 지표를 나란히 배치합니다. |
-| 지표를 드래그하면 실제 데이터가 표시되지 않고, 0만 표시됩니다. | Workspace 보고서를 만들었지만 데이터가 없다면 확인할 수 있는 몇 가지 사항이 있습니다.<ul><li>보고서에서 세그먼트를 적용했다면 세그먼트 기준이 데이터와 일치하지 않을 수 있습니다. 세그먼트를 제거하거나 세그먼트 정의를 조정해 보십시오.</li><li>오른쪽 상단의 날짜 범위를 확인하고 예상한 값으로 설정되어 있는지 확인합니다.</li><li>웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)를 사용하여 데이터가 수집되고 있는지 확인합니다.</li></ul> |
+| 지표를 드래그하면 실제 데이터가 표시되지 않고, 0만 표시됩니다. | Workspace 보고서를 만들었지만 데이터가 없다면 확인할 수 있는 몇 가지 사항이 있습니다.<ul><li>보고서에서 세그먼트를 적용했다면 세그먼트 기준이 데이터와 일치하지 않을 수 있습니다. 세그먼트를 제거하거나 세그먼트 정의를 조정해 보십시오.</li><li>오른쪽 상단의 날짜 범위를 확인하고 예상한 값으로 설정되어 있는지 확인합니다.</li><li>웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)를 사용하여 데이터가 수집되고 있는지 확인합니다.</li></ul> |
 
 
 

@@ -3,35 +3,43 @@ title: 모범 사례
 description: 세분화 모범 사례에 대해 알아봅니다.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-TQID: https://experienceleague.adobe.com/PJi-kkv6HL3jHEKArltzxMGk9BVtZ-Mr1ivHMkhxt88
+TQID: 'https://experienceleague.adobe.com/PJi-kkv6HL3jHEKArltzxMGk9BVtZ-Mr1ivHMkhxt88'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 60%
-
 ---
-
 # 세그먼테이션 우수 사례
 
 원하는 데이터를 얻기 위해서는 복잡한 세그먼트가 필요한 경우가 많습니다. 복잡한 세그먼트가 비효율적이고 큰 보고서 세트에서 사용되는 경우 보고서를 실행하는 데 상당히 오래 걸립니다. 세그먼트를 만들거나 편집할 때 다음 리소스를 참고하여 복잡성을 최소화하십시오.
 
 ## 마지막 수단으로 `Contains` 연산자만 사용
 
-[**[!UICONTROL 포함&#x200B;]**&#x200B;연산자](/help/components/segmentation/seg-reference/seg-operators.md)는 연산자가 모든 값의 전체 내용을 분석해야 하므로 세그먼테이션에서 처리가 가장 많은 기능 중 하나입니다. 원하는 값이 문자열의 시작 또는 끝에 있는 경우&#x200B;**[!UICONTROL &#x200B;다음으로 시작&#x200B;]**&#x200B;또는&#x200B;**[!UICONTROL &#x200B;다음으로 끝남&#x200B;]**&#x200B;과 같은 다른 연산자를 사용하는 것이 좋습니다.
+[**[!UICONTROL 포함&#x200B;]**연산자](/help/components/segmentation/seg-reference/seg-operators.md)는 연산자가 모든 값의 전체 내용을 분석해야 하므로 세그먼테이션에서 처리가 가장 많은 기능 중 하나입니다. 원하는 값이 문자열의 시작 또는 끝에 있는 경우**[!UICONTROL &#x200B;다음으로 시작&#x200B;]**또는**[!UICONTROL &#x200B;다음으로 끝남&#x200B;]**과 같은 다른 연산자를 사용하는 것이 좋습니다.
 
 세그먼트에 있는 **[!UICONTROL Contains]** 연산자가 많은 결과를 반환하는 경우 일반적으로 보고서가 시간 초과됩니다. 예를 들어, **[!UICONTROL 레퍼러]** **[!UICONTROL 같음]** `"."`인 세그먼트를 만든 경우 세그먼트는 모든 값의 콘텐츠를 검색합니다. 대신 **[!UICONTROL 존재]** 연산자를 사용하는 것이 좋습니다.
 
-## 분류를 사용하여 차원 항목 그룹화
+## 분류를 사용하여 차원 항목을 그룹화합니다.
 
 많은 세그먼트 조건이 있는 경우 세그먼트 성능이 빠르게 저하될 수 있습니다. 예를 들어 **[!UICONTROL 페이지]** **[!UICONTROL 같음]** `X` **[!UICONTROL 또는]** **[!UICONTROL 페이지]** **[!UICONTROL 같음]** `Y` **[!UICONTROL 또는]** **[!UICONTROL 페이지]** **[!UICONTROL 같음]** `Z`이(가) 수백 개의 다른 값으로 반복되었습니다. 이러한 수백 개의 조건을 작성하는 대신 원하는 모든 값을 세그먼트로 분류한 후 세그먼트에서 분류된 값을 사용하십시오.
 

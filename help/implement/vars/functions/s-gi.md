@@ -4,35 +4,44 @@ description: AppMeasurement 인스턴스를 생성하고 추적합니다.
 feature: Appmeasurement Implementation
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/N-D1e7uZDRz0s0ZxLeFK7RRYfc5EL4-vQbQUl0OIyxY
+TQID: 'https://experienceleague.adobe.com/N-D1e7uZDRz0s0ZxLeFK7RRYfc5EL4-vQbQUl0OIyxY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: '499'
 ht-degree: 100%
-
 ---
-
 # s_gi
 
 `s_gi()` 함수는 보고서 세트 ID로 AppMeasurement 인스턴스를 인스턴스화하거나 찾습니다. AppMeasurement는 생성된 모든 인스턴스를 추적하고 `s_gi()`는 보고서 세트에 대한 기존 인스턴스가 존재하면 이를 반환합니다. 인스턴스가 존재하지 않는 경우에는 새로운 인스턴스가 생성됩니다.
 
-## Web SDK 확장을 사용하여 추적 오브젝트 인스턴스화
+## Web SDK 확장 기능을 사용하여 추적 오브젝트 인스턴스화
 
-Web SDK 확장은 추적 오브젝트를 인스턴스화하고 관리합니다. 그러나 확장 설정에서 추적 오브젝트 이름을 사용자 정의할 수 있습니다.
+Web SDK 확장 기능은 추적 오브젝트를 인스턴스화하고 관리합니다. 그러나 확장 기능 설정에서 추적 오브젝트 이름을 사용자 정의할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
@@ -55,9 +64,9 @@ Web SDK 확장은 추적 오브젝트를 인스턴스화하고 관리합니다. 
 
 자세한 내용은 Web SDK 설명서의 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR?lang=ko-KR)를 참조하십시오.
 
-## Adobe Analytics 확장을 사용하여 추적 오브젝트 인스턴스화
+## Adobe Analytics 확장 기능을 사용하여 추적 오브젝트 인스턴스화
 
-Analytics 확장은 추적 오브젝트를 인스턴스화하고 관리합니다. 그러나 Adobe Analytics 확장을 구성할 때 [!UICONTROL 라이브러리 관리] 아코디언에서 전역 추적 오브젝트를 설정할 수도 있습니다.
+Analytics 확장 기능은 추적 오브젝트를 인스턴스화하고 관리합니다. 그러나 Adobe Analytics 확장을 구성할 때 [!UICONTROL 라이브러리 관리] 아코디언에서 전역 추적 오브젝트를 설정할 수도 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
@@ -66,7 +75,7 @@ Analytics 확장은 추적 오브젝트를 인스턴스화하고 관리합니다
 
 전역 변수 텍스트 필드를 사용하면 사용자 지정 추적 오브젝트를 설정할 수 있습니다. 기본값은 `s`입니다.
 
-## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s_gi()
+## AppMeasurement 및 Analytics 확장 기능 사용자 정의 코드 편집기의 s_gi()
 
 추적 오브젝트를 인스턴스화하려면 `s_gi()` 함수를 호출하십시오. 이 함수의 유일한 인수에는 쉼표로 구분된 보고서 세트 ID 문자열이 들어 있습니다. 보고서 세트 ID 인수는 필수입니다.
 
@@ -88,7 +97,7 @@ var s = s_gi("examplersid1,examplersid2");
 
 ## 다양한 추적 오브젝트를 사용한 여러 구현 관리
 
-여러 추적 오브젝트를 인스턴스화하는 경우 다양한 데이터를 다양한 보고서 세트에 보낼 수 있습니다. 다음 두 추적 오브젝트는 서로 독립적으로 작동합니다.
+여러 추적 오브젝트를 인스턴스화하는 경우 다양한 데이터를 다양한 보고서 세트에 보낼 수 있습니다. 이 두 추적 오브젝트는 서로 독립적으로 작동합니다.
 
 ```js
 // Instantiate two separate tracking objects to two different report suites
@@ -127,7 +136,7 @@ s = s_gi("examplersid");
 s.t();
 ```
 
-## 여러 변수가 있는 동일한 추적 오브젝트 참조
+## 여러 변수로 동일한 추적 오브젝트 참조
 
 두 변수가 동일한 보고서 세트로 동일한 `s_gi()` 함수를 참조하는 경우 변수를 서로 교환하여 사용할 수 있습니다.
 

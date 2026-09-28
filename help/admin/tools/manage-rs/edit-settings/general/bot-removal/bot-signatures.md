@@ -7,28 +7,33 @@ exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
 TQID: 'https://experienceleague.adobe.com/BRcyAaCSCmRppDClCroSL-vGpe7PuU-UEuRhGaKOCHY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: ec140990-1570-4311-94d4-2d6b38511bbe
+    internal-label: Bot removal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: '536'
 ht-degree: 94%
-
 ---
-
 # 일반 보트 서명
 
 환경에 따라 데이터 세트에서 봇을 식별하는 것은 다르지만 다음은 봇을 식별하는 몇 가지 일반적인 방법입니다.
 
 ## 높은 방문당 페이지 조회수
 
-IP 주소, 페이지 조회수, 고유 방문자가 포함된 Data Warehouse 보고서를 가져올 수 있습니다. 그런 다음 방문당 페이지 조회수를 Excel로 계산하고 가장 높은 것에서 가장 낮은 것 순으로 정렬합니다. 봇은 일반적으로 방문당 페이지 조회수가 매우 높습니다 (수백에서 수천). 실제 진짜 트래픽으로 이동하면 급격한 감소를 확인할 수 있습니다.
+IP 주소, 페이지 조회수, 고유 방문자가 포함된 Data Warehouse 보고서를 가져올 수 있습니다. 그런 다음 Excel에서 방문당 페이지 조회수에 대한 계산을 만들고 가장 높은 것에서 가장 낮은 것 순으로 정렬합니다. 봇은 일반적으로 방문당 페이지 조회수가 매우 높습니다(수백에서 수천). 실제 진짜 트래픽으로 이동하면 급격한 감소를 확인할 수 있습니다.
 
 ## 레퍼러 없음
 
@@ -40,7 +45,7 @@ IP 주소, 페이지 조회수, 고유 방문자가 포함된 Data Warehouse 보
 
 ## Linux 또는 “지정되지 않은” 운영 체제
 
-훌륭한 오픈 소스 Linux 운영 체제의 평판을 망치려는 의도는 아니지만 봇이 설정하기 좋아하는 운영 체제인 것으로 여겨집니다. 그러나 Linux 사용자의 합법적인 트래픽을 제외하지 않도록 주의해야 합니다. 봇은 또한 `Operating System &#x200B;equals Not Specified`로 분할할 수 있는 운영 체제는 설정하지 않는 것을 좋아합니다.
+훌륭한 오픈 소스 Linux 운영 체제의 평판을 망치려는 의도는 아니지만 봇이 설정하기 좋아하는 운영 체제인 것으로 여겨집니다. 그러나 Linux 사용자의 정상적인 트래픽을 제외하지 않도록 주의해야 합니다. 봇은 또한 `Operating System &#x200B;equals Not Specified`로 분할할 수 있는 운영 체제는 설정하지 않는 것을 좋아합니다.
 
 ## 페이지 조회수 = 방문 횟수 = 고유 방문자
 
@@ -66,7 +71,7 @@ IP 주소, 페이지 조회수, 고유 방문자가 포함된 Data Warehouse 보
 
 ## 국가 + 시간대 불일치
 
-시작된 국가와 시간대 사이의 불일치를 알아차릴 수 있을 것 있습니다. 예를 들어 위치는 미국이지만 시간대는 GMT일 수 있습니다.
+원래 국가와 시간대 사이에 불일치가 있음을 알 수 있습니다. 예를 들어 위치는 미국이지만 시간대는 GMT일 수 있습니다.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bots-country-time-zone.png)
 

@@ -4,34 +4,49 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트와 다중 세트 태그 지정 고려 사항
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
+TQID: 'https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Personalization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1657
+source-wordcount: '1657'
 ht-degree: 72%
-
 ---
-
 # 가상 보고서 세트와 다중 세트 태그 지정 고려 사항
 
 가상 보고서 세트를 사용하면 디지털 속성에서 데이터를 수집하지만 세그먼트가 영구적으로 적용되는 보고서 세트의 데이터를 볼 수 있습니다.
@@ -50,7 +65,7 @@ ht-degree: 72%
 
 가상 보고서 세트에서는 Adobe CX Enterprise에 세그먼트를 공유할 수 없습니다. CX Enterprise에 세그먼트를 공유하려는 사용자는 소스 보고서 세트에 액세스할 수 있어야 합니다.
 
-아직은 개인화 및 타깃팅을 위해 세그먼트를 가상 보고서 세트에서 Adobe CX Enterprise에 게시할 수 없습니다. 이러한 목적을 위해서는 세그먼트를 게시하는 모든 사용자가 소스 보고서 세트에 액세스해야 합니다. 예를 들어 지리적 영역에 대한 데이터에만 액세스할 수 있는 사용자가 Adobe Target에서 타깃팅할 세그먼트를 Adobe Analytics에서 Adobe CX Enterprise로 만들고 공유하도록 할 수 있습니다. 이 경우 다중 세트 태깅을 사용하는 것이 좋습니다. 사용자가 글로벌 보고서 세트에 액세스할 수 있어도 괜찮거나 다른 솔루션에서 사용할 세그먼트를 게시할 필요가 없는 경우 가상 보고서 세트를 사용할 수 있습니다.
+아직은 개인화 및 타깃팅을 위해 세그먼트를 가상 보고서 세트에서 Adobe CX Enterprise에 게시할 수 없습니다. 이러한 목적을 위해서는 세그먼트를 게시하는 모든 사용자가 소스 보고서 세트에 액세스해야 합니다. 예를 들어 지리적 영역에 대한 데이터에만 액세스할 수 있는 사용자가 Adobe Target에서 타깃팅할 세그먼트를 Adobe Analytics에서 Adobe CX Enterprise으로 만들고 공유할 수 있도록 하려는 경우, 이 경우 다중 세트 태깅을 사용하는 것이 좋습니다. 사용자가 글로벌 보고서 세트에 액세스할 수 있어도 괜찮거나 다른 솔루션에서 사용할 세그먼트를 게시할 필요가 없는 경우 가상 보고서 세트를 사용할 수 있습니다.
 
 ### 고유(낮은 트래픽) 제한
 

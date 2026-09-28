@@ -7,27 +7,35 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/dv564yEz9tChaxot0w65ZGIc1T0Jqdnp1Mua0QUbn5Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 81%
-
 ---
-
 # zip
 
-보고서 세트 설정의 [!UICONTROL Zip 옵션]이 허용하는 경우 `zip` 변수를 사용하여 &#39;우편번호&#39; 차원을 수동으로 채울 수 있습니다. 이전 버전의 Adobe Analytics에서는 일반적으로 리테일 사이트에 배송 정보를 입력할 때 이 변수를 수동으로만 설정할 수 있었습니다. Adobe Analytics의 개선된 기능을 사용하면 지리적 위치 데이터를 사용하여 이 변수를 자동으로 설정할 수 있습니다. 이 변수는 이 변수가 설정된 히트 이후로 지속되지 않습니다.
+보고서 세트 설정의 [!UICONTROL Zip 옵션]이 허용하는 경우 `zip` 변수를 사용하여 &#39;우편번호&#39; 차원을 수동으로 채울 수 있습니다. 이전 버전의 Adobe Analytics에서는 일반적으로 리테일 사이트에 배송 정보를 입력할 때 이 변수를 수동으로만 설정할 수 있었습니다. Adobe Analytics의 개선 사항으로 지리적 위치 데이터를 사용하여 이 변수를 자동으로 설정할 수 있습니다. 이 변수는 이 변수가 설정된 히트 이후로 지속되지 않습니다.
 
 >[!IMPORTANT]
 >
@@ -51,7 +59,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 우�
 5. [!UICONTROL 확장 기능] 드롭다운 목록을 Adobe Analytics로 설정하고 [!UICONTROL 액션 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
 6. [!UICONTROL Zip] 섹션을 찾습니다.
 
-우편번호를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
+우편번호를 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.zip
 

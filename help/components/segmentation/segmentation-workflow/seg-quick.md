@@ -4,29 +4,42 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-TQID: https://experienceleague.adobe.com/hxMHHZM2tzrv7RRhK3sToyihGG12i0KVzSzN8LNnlCk
+TQID: 'https://experienceleague.adobe.com/hxMHHZM2tzrv7RRhK3sToyihGG12i0KVzSzN8LNnlCk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
+    internal-label: Segment Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
+    internal-label: User
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1292
+source-wordcount: '1292'
 ht-degree: 70%
-
 ---
-
 # 빠른 세그먼트
 
 
@@ -36,7 +49,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace의 빠른 세그먼트](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -90,7 +103,7 @@ ht-degree: 70%
 
 | 요소 | 설명 |
 |---|---|
-| **[!UICONTROL 이름]** | 이름은 빠른 세그먼트 정의에서 자동으로 파생됩니다. |
+| **[!UICONTROL 이름]** | 이름은 빠른 세그먼트 정의를 기반으로 자동으로 생성됩니다. |
 | **[!UICONTROL _지표_]** <br/>![확인 표시 원](/help/assets/icons/CheckmarkCircle.svg) ![경고](/help/assets/icons/Alert.svg) | 빠른 세그먼트로 인한 지표 데이터의 시각적 미리보기. 막대와 백분율은 빠른 세그먼트의 결과에 포함된 전체 데이터의 비율이 얼마인지에 대한 인사이트를 제공합니다. ![경고](/help/assets/icons/AlertRed.svg)는 빠른 세그먼트가 데이터를 반환하지 않는다는 신호를 보냅니다. |
 | **[!UICONTROL 포함]**<br/>**[!UICONTROL 제외]** | 패널의 데이터에 빠른 세그먼트의 결과를 포함할지 또는 제외할지 여부를 드롭다운 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 선택합니다. |
 | **[!UICONTROL 이벤트]**<br/>**[!UICONTROL 세션]**<br/>**[!UICONTROL 개인]**<br/>**[!UICONTROL 제품]** | 드롭다운 메뉴 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 빠른 세그먼트의 범위를 선택합니다. [하위 히트 분석](/help/components/segmentation/sub-hit.md) 사용 사례에 **[!UICONTROL 제품]**&#x200B;을(를) 사용합니다.<ul><li>제품 차원 또는 제품 지표를 빠른 세그먼트 패널로 드래그하면 시스템이 **[!UICONTROL 제품]** 컨테이너를 자동으로 선택하고 기본 **[!UICONTROL 히트]** 컨테이너를 사용하지 않습니다. 이 비헤이비어는 세그먼트 범위를 전체 히트가 아닌 개별 제품으로 유지합니다.</li><li>제품 수준 및 히트 수준 구성 요소를 모두 단일 세그먼트 규칙으로 드래그하면 시스템에서 가장 높은(세분화되지 않은) 공유 컨테이너인 **[!UICONTROL Hit]** 컨테이너를 사용합니다. 세그먼트 규칙의 일부인 모든 구성 요소가 제품 수준인 경우 **[!UICONTROL Products]** 컨테이너가 사용됩니다.</li></ul> |
@@ -102,7 +115,7 @@ ht-degree: 70%
 | 요소 | 설명 |
 |---|---|
 | **[!UICONTROL 차원]**<br/>**[!UICONTROL 지표]**<br/>**[!UICONTROL 날짜 범위]** | 드롭다운 메뉴 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)에서 차원, 지표 또는 날짜 범위에 대한 조건을 지정할지 여부를 선택합니다. |
-| **[!UICONTROL *구성 요소&#x200B;*]** | 조건에 대한 구성 요소 필드. 구성 요소를 [!UICONTROL *입력하여 추가*]&#x200B;하거나 목록에서 구성 요소를 선택하거나 구성 요소 패널에서 구성 요소를 드래그 앤 드롭할 수 있습니다. 조건의 구성 요소 필드에만 유사한 구성 요소를 놓을 수 있습니다. 예를 들어 차원 조건에만 구성 요소 패널의 차원 구성 요소를 놓을 수 있습니다. <br/>기존 구성 요소를 끌어다 놓아서 바꿀 수도 있습니다.<br/>![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택해 구성 요소 필드에서 구성 요소를 삭제합니다. |
+| **[!UICONTROL *구성 요소&#x200B;*]** | 조건에 대한 구성 요소 필드. 구성 요소를 [!UICONTROL *입력하여 추가*]&#x200B;하거나 목록에서 구성 요소를 선택하거나 구성 요소 패널에서 구성 요소를 드래그 앤 드롭할 수 있습니다. 조건의 구성 요소 필드에는 유사한 구성 요소만 놓을 수 있습니다. 예를 들어 차원 조건에만 구성 요소 패널의 차원 구성 요소를 놓을 수 있습니다. <br/>기존 구성 요소를 끌어다 놓아서 바꿀 수도 있습니다.<br/>![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택해 구성 요소 필드에서 구성 요소를 삭제합니다. |
 | **[!UICONTROL *연산자&#x200B;*]** | 구성 요소의 연산자. 자세한 내용은 [연산자](../seg-reference/seg-operators.md)를 참조하십시오. 차원 및 지표에만 사용할 수 있습니다. |
 | **[!UICONTROL *값&#x200B;*]** | 조건에 대한 값. 선택한 연산자에 따라 목록에서 값을 선택하거나 값을 입력할 수 있습니다. |
 | ![CrossSize75](/help/assets/icons/CrossSize75.svg) | 빠른 세그먼트에서 조건을 삭제하려면 선택합니다. |
@@ -119,7 +132,7 @@ ht-degree: 70%
 
 ## 빠른 세그먼트와 세그먼트
 
-빠른 세그먼트는 이름에서 알 수 있듯이 빠른 세그먼트입니다. 빠른 세그먼트를 빠르게 인라인으로 만들고 편집한 후 패널에서 효과를 즉시 확인할 수 있습니다.
+빠른 세그먼트는 이름 그대로입니다. 빠른 세그먼트를 빠르게 인라인으로 만들고 편집한 후 패널에서 효과를 즉시 확인할 수 있습니다.
 
 세그먼트는 빠른 세그먼트에 비해 다음과 같은 장점이 있습니다.
 

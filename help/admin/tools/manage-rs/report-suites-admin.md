@@ -3,24 +3,33 @@ description: 보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 �
 title: 보고서 세트 관리자
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-TQID: https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo
+TQID: 'https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 423
+source-wordcount: '423'
 ht-degree: 79%
-
 ---
-
 # 보고서 세트 관리자
 
 보고서 세트는 다음 데이터 저장소에 대한 완전하고 독립적인 보고를 정의합니다.
@@ -29,7 +38,7 @@ ht-degree: 79%
 
 * 단일 웹 사이트의 일부 또는 하위 집합
 
-* 합계를 얻기 위해 여러 사이트의 번호로 구성된 글로벌 세그먼트
+* 합계를 얻기 위해 여러 사이트의 수치로 구성된 글로벌 세그먼트
 
 Analytics 솔루션은 이러한 데이터 스토어를 집계하고 보고합니다. 관리 보고서 세트 관리자를 사용하면 보고서 세트에서 데이터가 처리되는 방식을 제어하는 규칙을 정의할 수 있습니다.
 
@@ -97,7 +106,7 @@ Adobe Analytics 솔루션에 로그인하면 사용할 보고서 세트 하나�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 사이트 제목</span> </td> 
-   <td colname="col2"> <p>관리 도구 및 마케팅 보고 머리글의 보고서 세트 드롭다운 목록에서 보고서 세트를 식별합니다. </p> <p><a href="/help/admin/tools/manage-rs/new-rs/new-report-suite.md">새 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>관리 도구와 마케팅 보고서 헤더의 보고서 세트 드롭다운 목록에서 보고서 세트를 식별합니다. </p> <p><a href="/help/admin/tools/manage-rs/new-rs/new-report-suite.md">새 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 기본 URL</span> </td> 

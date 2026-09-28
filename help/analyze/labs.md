@@ -4,28 +4,39 @@ description: Adobe Analytics용 프로토타입 프로젝트 미리 보기
 feature: Labs
 role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
-TQID: https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI
+TQID: 'https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: e69d6e08-d70a-4d1e-9168-b9061b2e860c
+    internal-label: Labs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 100%
-
 ---
-
 # [!UICONTROL Labs] 사용 안내서
 
 [!UICONTROL Labs]를 사용하면 초기 단계 아이디어를 더 빨리 시제품화할 수 있습니다. Labs는 도구와 프로세스의 결합으로서, 고객을 중심으로 하여 개발을 투명하게 가속화합니다. Labs를 통해 최신 기술을 이해하고 귀중한 인사이트를 얻을 수 있으며 향후 기능 개발 및 우선 순위에 영향을 줄 수 있습니다. Labs를 사용하여 Adobe Analytics의 혁신적인 기능을 일찍 액세스하고 비즈니스 사용 사례 및 데이터의 컨텍스트에서 곧 출시될 기능을 평가할 수 있습니다.
@@ -64,7 +75,7 @@ ht-degree: 100%
 
 * 프로토타입 내에서 변경하는 내용은 데이터 수집 또는 처리에 영향을 주지 않습니다.
 
-* 세그먼트, 계산된 지표 및 경고를 만들거나 수정하여 변경한 사항은 프로토타입 환경 외부에 유지됩니다.
+* 세그먼트, 계산된 지표 및 경고를 만들거나 수정하여 변경한 사항은 프로토타입 환경 밖에서도 유지됩니다.
 
 ## 피드백 남기기
 
@@ -82,5 +93,5 @@ ht-degree: 100%
 
 ## 추가 정보
 
-* [!UICONTROL Labs] 내의 일부 프로토타입은 Adobe Analytics 기능이 되고, 다른 프로토타입은 그렇지 않을 수 있습니다. 사용자의 피드백이 이러한 결정에 영향을 주므로 프로토타입을 검토하여 해당 프로토타입의 가치를 Adobe에 알려 주십시오.
-* Labs는 모든 SKU 자격에서 사용할 수 있습니다.
+* [!UICONTROL Labs] 내의 일부 프로토타입은 Adobe Analytics 기능이 되고, 다른 프로토타입은 그렇지 않을 수 있습니다. 사용자의 피드백이 결정을 좌우하므로 프로토타입을 검토하여 해당 프로토타입의 가치를 Adobe에 알려 주십시오.
+* Labs는 모든 SKU 자격에 대해 사용할 수 있습니다.

@@ -3,27 +3,37 @@ title: Streaming Media 서비스 비디오 메타데이터 차원
 description: 보고서 세트에 대해 [!UICONTROL 비디오 메타데이터]을(를) 사용하도록 설정하는 경우 사용할 수 있는 차원입니다.
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
-TQID: https://experienceleague.adobe.com/Xgz-L8hPTQCfW6n-OEaw7u-8qNEGaXGVZTg3IBRbfKw
+TQID: 'https://experienceleague.adobe.com/Xgz-L8hPTQCfW6n-OEaw7u-8qNEGaXGVZTg3IBRbfKw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: dff998aaa4a262883badaec17d2e6281dc856252
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '209'
 ht-degree: 0%
-
 ---
-
 # Streaming Media 서비스 비디오 메타데이터 차원
 
 Streaming Media 서비스 비디오 메타데이터 차원은 Streaming Media 수집 라이브러리를 통해 수집된 데이터에 대한 보충 보고 기능을 제공합니다. 이러한 차원에는 **[!UICONTROL 스트리밍 미디어용 Adobe Analytics 추가 기능]**&#x200B;이 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
@@ -32,15 +42,15 @@ Streaming Media 서비스 비디오 메타데이터 차원은 Streaming Media �
 
 다음 차원을 사용할 수 있습니다.
 
-* [[!UICONTROL 광고 로드]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-load-type)
-* [[!UICONTROL 일 파트]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/day-part)
-* [[!UICONTROL 에피소드]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/episode)
-* [[!UICONTROL 미디어 피드 유형]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/media-feed-type)
-* [[!UICONTROL 장르]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/genre)
-* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/mvpd)
-* [[!UICONTROL 네트워크]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/network)
-* [[!UICONTROL 시즌]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/season)
-* [[!UICONTROL 표시]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/show)
-* [[!UICONTROL 표시 형식]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/show-type)
+* [[!UICONTROL 광고 로드]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-load-type)
+* [[!UICONTROL 일 파트]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)
+* [[!UICONTROL 에피소드]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)
+* [[!UICONTROL 미디어 피드 유형]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)
+* [[!UICONTROL 장르]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)
+* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
+* [[!UICONTROL 네트워크]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)
+* [[!UICONTROL 시즌]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
+* [[!UICONTROL 표시]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)
+* [[!UICONTROL 표시 형식]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)
 
 해당 지표는 [스트리밍 미디어 서비스 비디오 메타데이터 지표](../metrics/sm-video-metadata.md)를 참조하십시오.

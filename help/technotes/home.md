@@ -3,36 +3,52 @@ title: Analytics 기술 노트
 description: 이 안내서는 특정 분석 도구 또는 구성 요소에 속하지 않는 주제에 대한 유용한 정보를 제공합니다.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-TQID: https://experienceleague.adobe.com/FL2bY4bWuO8V8RCwqXmqYYkv0O1l63kVKuqJTIPvBqc
+TQID: 'https://experienceleague.adobe.com/FL2bY4bWuO8V8RCwqXmqYYkv0O1l63kVKuqJTIPvBqc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
+  - id: e3f5b014-59dd-41c0-90f5-c405dcfaed07
+    internal-label: Real time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+    internal-label: Machine learning
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '440'
 ht-degree: 97%
-
 ---
-
 # Analytics 기술 노트
 
 이 안내서는 특정 분석 도구 또는 구성 요소에 속하지 않는 주제에 대한 유용한 정보를 제공합니다.
 
 Adobe Analytics는 기업이 디지털 마케팅 활동을 측정, 분석 및 최적화할 수 있게 해 주는 웹 분석 솔루션입니다. 웹 사이트 및 모바일 앱 성능, 고객 행동 및 마케팅 캠페인 효과에 대한 실시간 인사이트를 제공하는 클라우드 기반 플랫폼이기도 합니다.
 
-이 플랫폼을 통해 웹 및 모바일 앱 데이터, 서드파티 데이터, 오프라인 데이터 및 CRM 데이터를 포함한 다양한 데이터 소스를 사용하여 여러 채널에서 고객 상호 작용을 완벽하게 파악할 수 있습니다. Adobe Analytics는 기업이 데이터 기반 의사 결정을 내리고 디지털 혁신을 추진할 수 있도록 지원하는 다양한 기능을 제공합니다.
+이 플랫폼을 통해 웹 및 모바일 앱 데이터, 제3자 데이터, 오프라인 데이터 및 CRM 데이터를 포함한 다양한 데이터 소스를 사용하여 여러 채널에서 고객 상호 작용을 완벽하게 파악할 수 있습니다. Adobe Analytics는 기업이 데이터 기반 의사 결정을 내리고 디지털 혁신을 추진할 수 있도록 지원하는 다양한 기능을 제공합니다.
 
 다음은 Adobe Analytics의 몇 가지 주요 기능입니다.
 
@@ -44,11 +60,11 @@ Adobe Analytics는 기업이 디지털 마케팅 활동을 측정, 분석 및 �
 
 * 고급 분석: 이 플랫폼은 기업이 숨겨진 패턴을 발견하고 고객 행동을 더 심층적으로 이해할 수 있도록 하는 예측 분석, 머신 러닝 및 AI 기반 인사이트를 포함한 고급 분석 기능을 제공합니다.
 
-* 속성: Adobe Analytics에는 기업이 다양한 채널과 접점에서 마케팅 캠페인의 영향을 이해함으로써 마케팅 지출을 최적화하고 ROI를 개선할 수 있도록 지원하는 속성 모델링 도구가 포함되어 있습니다.
+* 기여도: Adobe Analytics에는 기업이 다양한 채널과 접점에서 마케팅 캠페인의 영향을 이해함으로써 마케팅 지출을 최적화하고 ROI를 개선할 수 있도록 지원하는 기여도 모델링 도구가 포함되어 있습니다.
 
-* 보고: 이 플랫폼은 예약된 보고서, 애드혹 보고서, 맞춤형 대시보드를 비롯한 다양한 보고 옵션을 제공하여 기업이 관련자와 인사이트를 공유하고 데이터 기반 의사 결정 과정에서 협업할 수 있도록 합니다.
+* 보고: 이 플랫폼은 예약된 보고서, 애드 혹 보고서, 맞춤형 대시보드를 비롯한 다양한 보고 옵션을 제공하여 기업이 관련자와 인사이트를 공유하고 데이터 기반 의사 결정 과정에서 협업할 수 있도록 합니다.
 
-요약하면 Adobe Analytics는 기업의 디지털 마케팅 활동 측정, 분석 및 최적화를 위해 필요한 도구를 제공하는 강력한 웹 분석 솔루션입니다. 실시간 데이터, 고급 분석 및 속성 모델링을 통해 기업은 디지털 혁신을 주도하고 ROI를 개선하는 데이터 기반 의사 결정을 내릴 수 있습니다.
+요약하면 Adobe Analytics는 기업의 디지털 마케팅 활동 측정, 분석 및 최적화를 위해 필요한 도구를 제공하는 강력한 웹 분석 솔루션입니다. 실시간 데이터, 고급 분석 및 기여도 모델링을 통해 기업은 디지털 혁신을 주도하고 ROI를 개선하는 데이터 기반 의사 결정을 내릴 수 있습니다.
 
 ## 기타 Analytics 사용 안내서
 
@@ -56,7 +72,7 @@ Adobe Analytics는 기업이 디지털 마케팅 활동을 측정, 분석 및 �
 
 ## 기타 Analytics 리소스
 
-* [고객 지원 문의](https://experienceleague.adobe.com/ko?support-solution=Analytics#support)
-* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko)
+* [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

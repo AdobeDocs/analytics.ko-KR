@@ -1,38 +1,47 @@
 ---
 title: 모듈 통합
-description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
+description: Integrate 모듈을 사용하면 Adobe 파트너가 해당 데이터 수집 활동을 조직과 통합할 수 있습니다.
 feature: Appmeasurement Implementation
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/4RfEY-mGPVvRz5OQuGe5DwoCKThVHtNf3pMUFfFzqoE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 889
+source-wordcount: '889'
 ht-degree: 98%
-
 ---
-
 # 모듈 통합
 
 Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다. 이 통합은 양방향 데이터 연결을 위한 기회를 제공합니다. 일반적으로 모듈 통합 사용은 Adobe 파트너에 의해 결정됩니다.
 
 >[!NOTE]
 >
->구현에서 파트너 데이터를 요청하면 페이지 로드와 Adobe 데이터 수집 서버로 전송된 데이터 간의 지연이 늘어날 수 있습니다. 방문자가 데이터를 보내기 전에 새 페이지를 로드하면 해당 페이지가 기록되지 않습니다.
+>구현에서 파트너 데이터를 요청하면 페이지 로드와 Adobe 데이터 수집 서버로 데이터가 전송되는 시점 사이의 지연이 늘어날 수 있습니다. 방문자가 데이터를 보내기 전에 새 페이지를 로드하면 해당 페이지가 기록되지 않습니다.
 
 ## 모듈 통합 워크플로
 
@@ -50,7 +59,7 @@ Adobe 파트너와 협력하는 조직은 이러한 단계를 사용하여 모�
 모듈 코드를 얻으려면 사용자에게 제품 관리자 액세스 권한이 있거나 코드 관리자에 액세스할 수 있는 제품 프로필에 속해 있어야 합니다. 모듈 코드를 얻는 방법은 Adobe Experience Platform의 태그를 비롯한 모든 구현 방법에 대해 동일합니다.
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
-1. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
+1. 오른쪽 상단에 있는 9칸 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
 1. 상단 탐색에서 **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 코드 관리자]**&#x200B;를 클릭합니다.
 1. 최신 JavaScript AppMeasurement 라이브러리를 다운로드합니다.
 1. 이 라이브러리가 다운로드되면 파일의 압축을 풀고 `AppMeasurement_Module_Integrate.js`를 찾습니다.
@@ -105,7 +114,7 @@ s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 * **JSON 개체의 URL:** 이미지 요청에 통합할 파트너 변수가 들어 있는 JSON 개체의 URL입니다.
 * **쿼리 문자열 매개 변수:** 파트너 시스템에서 조직을 식별하는 파트너 계정 정보입니다. Adobe 파트너는 이 정보를 사용하여 사용자의 데이터 세트를 식별합니다.
 
-모듈 통합은 URL에 더 많은 쿼리 문자열을 자동으로 추가합니다. var 쿼리 문자열은 모듈이 파트너로부터 다시 기대하는 JSON 개체의 이름을 지정합니다. 브라우저 캐싱을 방지하기 위해 임의 번호도 추가됩니다.
+통합 모듈은 URL에 더 많은 쿼리 문자열을 자동으로 추가합니다. var 쿼리 문자열은 모듈이 파트너로부터 받을 것으로 예상하는 JSON 개체의 이름을 지정합니다. 브라우저 캐싱을 방지하기 위해 임의 번호도 추가됩니다.
 
 ### ready
 

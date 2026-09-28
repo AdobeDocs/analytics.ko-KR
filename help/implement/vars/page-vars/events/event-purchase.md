@@ -1,31 +1,42 @@
 ---
 title: 구매 이벤트
-description: 구매 이벤트를 사용하여 '주문', '판매량' 및 '수입' 지표에 대한 데이터를 수집합니다.
+description: 구매 이벤트를 사용하여 '주문', '단위' 및 '매출' 지표에 대한 데이터를 수집합니다.
 feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/r-L330P6HA5qWBmEW-2LwECo-d3dhVK1ovWsfraErXE
+TQID: 'https://experienceleague.adobe.com/r-L330P6HA5qWBmEW-2LwECo-d3dhVK1ovWsfraErXE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 66%
-
 ---
-
 # 구매 이벤트
 
 구매 이벤트는 `events` 변수의 값입니다. 이 값은 사이트가 생성하는 수입에 대한 데이터를 수집하려는 조직에 유용하며 [`products`](../products.md) 및 [`purchaseID`](../purchaseid.md) 변수에 크게 의존합니다.
@@ -83,11 +94,11 @@ ht-degree: 66%
 5. [!UICONTROL 확장 기능] 드롭다운 목록을 Adobe Analytics로 설정하고 [!UICONTROL 액션 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
 6. [!UICONTROL 이벤트] 섹션을 찾아 [!UICONTROL 이벤트] 드롭다운 목록을 [!UICONTROL 구매]&#x200B;(으)로 설정합니다.
 
-`products` 및 `purchaseID`과(와) 같은 다른 종속 변수에는 Adobe Experience Platform 데이터 수집 내의 Analytics 확장에 전용 필드가 없습니다. 이 변수에 대한 AppMeasurement 구문 이후에 사용자 지정 코드 편집기를 사용하십시오.
+`products` 및 `purchaseID`과(와) 같은 다른 종속 변수에는 Adobe Experience Platform 데이터 수집 내의 Analytics 확장에 전용 필드가 없습니다. 이러한 변수에는 AppMeasurement 구문에 따라 사용자 지정 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기에서 구매 이벤트 설정
 
-구매 이벤트는 events 변수의 일부로 설정되는 문자열입니다.
+구매 이벤트는 이벤트 변수의 일부로 설정되는 문자열입니다.
 
 ```js
 // Set the purchase event by itself

@@ -3,18 +3,30 @@ description: Analysis Workspace에서 여정 캔버스 시각화를 사용하여
 title: 여정 캔버스 문제 해결
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
-
 ---
-
 # 여정 캔버스 문제 해결
 
 >[!BEGINSHADEBOX]
 
-_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 여정 캔버스 시각화를 설명합니다.<br/><br/>_&#x200B;자세한 내용은 [여정 캔버스 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)를 참조하십시오&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;버전._
+_이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**에 여정 캔버스 시각화를 설명합니다.<br/><br/>_&#x200B;자세한 내용은 [여정 캔버스 개요](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)를 참조하십시오&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**버전._
 
 >[!ENDSHADEBOX]
 
@@ -28,7 +40,7 @@ _이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytic
 
 여정 캔버스에서 여정의 뒤에 나타나는 노드의 경우 여정 앞에 나타나는 노드보다 더 높은 비율이나 숫자가 표시될 수 있습니다.
 
-즉, 항상 단계 형태로서 각 단계에 따라 참여도가 감소하는 폴아웃 시각화와는 달리, 여정 캔버스 시각화는 이전 단계보다 여정의 이후 단계에서 참여도가 더 높을 수 있습니다.
+즉, 항상 퍼널 형태이며 각 단계마다 참여도가 감소하는 폴아웃 시각화와는 달리, 여정 캔버스 시각화는 이전 단계보다 여정의 이후 단계에서 참여도가 더 높을 수 있습니다.
 
 이는 다음과 같은 시나리오에서 발생할 수 있습니다.
 
@@ -54,9 +66,9 @@ _이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytic
 
 이제 사용자 A가 이후 세션에서 사이트를 다시 방문한다고 가정해 보겠습니다. 사용자 A는 이미 이전 세션에서 여정 경로를 따라 여정을 완료했기 때문에 사용자 A가 현재 세션에서 여정 경로를 따르지 않았더라도 사용자 A에게 여정의 노드와 일치하는 이벤트가 있을 때마다 여정의 해당 노드에서 이벤트가 집계됩니다. 예를 들어 사용자 A가 체크아웃하면 이벤트가 &#39;체크아웃&#39; 노드에서 집계됩니다. 이렇게 하면 이전 노드인 &#39;제품 A 보기&#39;보다 &#39;체크아웃&#39; 노드에서 백분율 및 숫자가 높아질 수 있습니다.
 
-이 예제에서 여정의 컨테이너 설정인 &#39;개인&#39;은 세 번째 노드(&#39;체크아웃&#39;)의 이벤트가 후속 세션에서 집계되는지 확인하는 데 중요한 역할을 합니다.
+이 예제에서 여정의 컨테이너 설정인 &quot;Person&quot;은 세 번째 노드(&quot;체크아웃&quot;)의 이벤트가 후속 세션에서 집계되는지 확인하는 데 중요한 역할을 합니다.
 
-또는 여정 설정이 &#39;세션&#39;으로 설정된 경우 컨테이너에 표시된 통계가 특정 개인에 대해 정의된 단일 세션으로 제한되므로 후속 방문의 세 번째 노드에서만 발생한 이벤트는 여정에서 집계되지 않습니다. 컨테이너 설정에 대한 자세한 내용은 문서 [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)에서 [여정 캔버스 시각화 만들기 시작](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)을 참조하세요.
+또는 컨테이너 설정이 &#39;세션&#39;으로 설정된 경우, 여정에 표시된 통계가 특정 개인에 대해 정의된 단일 세션으로 제한되므로 후속 방문의 세 번째 노드에서만 발생한 이벤트는 여정에서 집계되지 않습니다. 컨테이너 설정에 대한 자세한 내용은 문서 [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)에서 [여정 캔버스 시각화 만들기 시작](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization)을 참조하세요.
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
@@ -68,7 +80,7 @@ _이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytic
 
 ### 여정은 여러 경로가 단일 노드로 수렴합니다
 
-여정 캔버스를 사용하면 단일 여정에 여러 시작 노드를 포함할 수 있으므로 여러 경로가 생성됩니다. 이러한 여정은 공통 노드로 수렴하여 여정의 뒤에 나타나는 노드가 앞에 나타나는 노드보다 더 높은 백분율 또는 숫자를 표시할 수 있습니다.
+여정 캔버스를 사용하면 단일 여정에 여러 시작 노드를 포함할 수 있으므로 여러 경로가 생성됩니다. 이러한 경로는 공통 노드로 수렴하여 여정의 뒤에 나타나는 노드가 앞에 나타나는 노드보다 더 높은 백분율 또는 숫자를 표시할 수 있습니다.
 
 ![여러 경로가 단일 노드로 수렴하는 여정](assets/journey-canvas-percentage-converge.png)
 
@@ -116,7 +128,7 @@ When a journey contains multiple paths that converge into a single node, the two
 |---------|----------|
 | 노드 1 - &#39;사이트 방문&#39; | 이 여정에서 보고 날짜 범위 내에 사이트에서 발생한 이벤트는 여정의 시작 노드인 &#39;사이트 방문&#39;에 표시된 바와 같이 354,147건입니다. |
 | 노드 2 - &#39;제품 A 보기&#39; | 이전 노드에 표시된 총 이벤트 수 중 14%(48,394)가 여정의 두 번째 노드인 &#39;제품 A 보기&#39;의 기준과 일치했습니다. |
-| 노드 3 - &#39;체크아웃&#39; | 이전 노드에 표시된 총 이벤트 수 중 100%(113,782) 이상이 여정의 세 번째 노드인 &#39;체크아웃&#39;의 기준과 일치했습니다. |
+| 노드 3 - &#39;체크아웃&#39; | 이전 노드에 표시된 총 이벤트 수 중 100% 초과(113,782)가 여정의 세 번째 노드인 &#39;체크아웃&#39;의 기준과 일치했습니다. |
 
 +++
 
@@ -130,7 +142,7 @@ When a journey contains multiple paths that converge into a single node, the two
 |---------|----------|
 | 노드 1 - &#39;사이트 방문&#39; | 이 여정에서 보고 날짜 범위 내에 사이트에서 발생한 이벤트는 여정의 시작 노드인 &#39;사이트 방문&#39;에 표시된 바와 같이 354,147건입니다. |
 | 노드 2 - &#39;제품 A 보기&#39; | 전체 이벤트 중에 여정의 두 번째 노드인 &#39;제품 A 보기&#39;의 기준과 일치하는 이벤트는 1% 미만(48,394)이었습니다. |
-| 노드 3 - &#39;체크아웃&#39; | 전체 이벤트 중에 1%(113,782))가 여정의 세 번째 노드인 &#39;체크아웃&#39;의 기준과 일치했습니다. |
+| 노드 3 - &#39;체크아웃&#39; | 전체 이벤트 중에 1%(113,782)가 여정의 세 번째 노드인 &#39;체크아웃&#39;의 기준과 일치했습니다. |
 
 +++
 

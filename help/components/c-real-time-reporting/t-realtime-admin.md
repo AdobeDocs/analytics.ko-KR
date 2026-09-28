@@ -3,30 +3,41 @@ description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-TQID: https://experienceleague.adobe.com/wmZj-F8P4ectiMUnpy9yYT-pviys2m2aBGAVtP5kNNI
+TQID: 'https://experienceleague.adobe.com/wmZj-F8P4ectiMUnpy9yYT-pviys2m2aBGAVtP5kNNI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: e3f5b014-59dd-41c0-90f5-c405dcfaed07
+    internal-label: Real time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 288
+source-wordcount: '288'
 ht-degree: 74%
-
 ---
-
 # 실시간 보고서 구성
 
 다음 정보에는 실시간 보고서를 설정하는 관리 단계가 포함되어 있습니다.
@@ -41,7 +52,7 @@ ht-degree: 74%
 
       ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report_suite_selector.png)
 
-      실시간 보고에 대해 설정되지 않은 보고서 세트에 대한 실시간 보고서를 보려고 하면 보고서 세트를 설정할 수 있다는 메시지가 표시됩니다.
+      실시간 보고에 대해 설정되지 않은 보고서 세트의 실시간 보고서를 보려고 하면 보고서 세트를 설정할 수 있도록 하는 메시지가 표시됩니다.
 
       ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/rep_suite_not_set_up.png)
 
@@ -56,7 +67,7 @@ ht-degree: 74%
 
    지원되는 실시간 지표 및 차원에 대한 자세한 내용은 [지원되는 지표 및 차원](/help/admin/tools/manage-rs/edit-settings/realtime/realtime-metrics.md)을 참조하십시오.
 
-   분류를 생성한 경우, 분류가 정의된 차원 아래에 분류가 들여 써진 채로 표시됩니다.
+   분류를 생성한 경우, 분류가 정의된 차원 아래에 분류가 들여쓴 상태로 표시됩니다.
 
    ![](assets/classifications.png)
 
@@ -72,6 +83,6 @@ ht-degree: 74%
 
 1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 보고서 저장 및 보기]**&#x200B;를 선택하십시오.
 
-   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터 데이터를 즉시 사용할 수 있습니다.
+   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데 최대 20분이 소요될 수 있습니다. 그때부터 데이터를 즉시 사용할 수 있습니다.
 
 1. 기본적으로 실시간 보고서에 대한 액세스 권한은 모든 사용자에게 있습니다.

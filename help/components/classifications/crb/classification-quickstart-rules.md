@@ -3,27 +3,35 @@ description: 분류 규칙은 분류되지 않은 용어를 정기적으로 찾�
 title: 분류 규칙
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+TQID: 'https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1981
+source-wordcount: '1981'
 ht-degree: 87%
-
 ---
-
 # 분류 규칙(이전)
 
 {{classification-rulebuilder-deprecation}}
@@ -101,7 +109,7 @@ about_classification_rules.xml
 
   >[!NOTE]
   >
-  >보고서에서 분류는 키가 존재하는 지정된 모든 기간에 적용됩니다. 보고서 날짜 범위는 보고에 영향을 주지 않습니다.
+  >보고서에서 분류는 키가 존재하는 지정된 모든 시간대에 적용됩니다. 보고서 날짜 범위는 보고에 영향을 주지 않습니다.
 
 ![](assets/overwrite_keys.png)
 
@@ -147,7 +155,7 @@ about_classification_rules.xml
 
 | 규칙 유형 선택 | 일치 기준 입력 | 분류 설정 | 종료 |
 |---|---|---|---|
-| 정규 표현식 | &Hat;(.+)\:(.+)\:(.+)$ | 캠페인 날짜 | $3 |
+| 정규 표현식 | &amp;Hat;(.+)\:(.+)\:(.+)$ | 캠페인 날짜 | $3 |
 
 **구문**
 
@@ -238,7 +246,7 @@ c:d:yoyo
 
 | 표현식 | 설명 |
 |---|---|
-| `(?ms)` | 전체 정규 표현식을 여러 줄 입력과 일치시켜서, 와일드카드가 모든 새 줄 문자와 일치하게 합니다. |
+| `(?ms)` | 전체 정규 표현식을 여러 줄 입력과 일치시켜 .을(를) 사용할 수 있게 합니다. 와일드카드가 모든 새 줄 문자와 일치하게 합니다. |
 | (`?i`) | 전체 정규 표현식에서 대/소문자를 구분하지 않게 합니다. |
 | [`abc`] | 단일 문자 a, b 또는 c |
 | [`^abc`] | a, b 또는 c를 제외한 모든 단일 문자 |
@@ -269,7 +277,7 @@ c:d:yoyo
 
 ## 규칙 우선 순위 정보
 
-키가 여러 규칙과 일치하고 [!UICONTROL 분류 설정] 열에 표시된 동일한 분류 열을 설정하는 경우 마지막 규칙이 사용됩니다. 이와 같이 규칙 세트에서 가장 중요한 마지막 규칙의 등급을 지정하려고 할 수 있습니다.
+키가 여러 규칙과 일치하고 [!UICONTROL 분류 설정] 열에 표시된 동일한 분류 열을 설정하는 경우 마지막 규칙이 사용됩니다. 따라서 규칙 세트에서 가장 중요한 규칙을 마지막에 오도록 순위를 지정할 수 있습니다.
 
 <!-- 
 
@@ -279,7 +287,7 @@ rule_priority.xml
 
 동일한 분류를 공유하지 않는 규칙을 여러 개 만든 경우 처리 순서는 문제가 되지 않습니다.
 
-운동 선수에 대한 검색 유형을 분류하는 검색어 규칙을 따르는 예
+다음은 운동선수의 검색 유형을 분류하는 검색어 규칙의 예입니다.
 
 | 규칙 번호 | 규칙 유형 | 일치 | 분류 설정 | 종료 |
 |---|---|---|---|---|
@@ -310,7 +318,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->이 절차에서 규칙을 하나 이상의 보고서 세트에 적용할 수 있습니다. 규칙 세트의 규칙 수는 제한은 없지만 500~1000개 사이가 좋습니다. 규칙이 100개를 초과하는 경우 [하위 분류](/help/components/classifications/importer/subclassifications.md)을 사용하여 규칙 집합을 단순화하는 것이 좋습니다.
+>이 절차에서는 규칙을 하나 이상의 보고서 세트에 적용해야 합니다. 규칙 세트의 규칙 수는 제한은 없지만 500~1000개 사이가 좋습니다. 규칙이 100개를 초과하는 경우 [하위 분류](/help/components/classifications/importer/subclassifications.md)을 사용하여 규칙 집합을 단순화하는 것이 좋습니다.
 
 분류 규칙을 추가 또는 편집하려면 다음 작업을 수행합니다.
 
@@ -370,7 +378,7 @@ t_classifications_test_rule.xml
 
 1. [분류 규칙 세트를 만듭니다](/help/components/classifications/crb/classification-rule-set.md).
 1. [!UICONTROL 분류 규칙 빌더]에서 규칙 세트 이름을 클릭합니다.
-1. 규칙 세트가 보고서 세트와 연관이 있는지 확인합니다.
+1. 규칙 세트가 보고서 세트와 연관되어 있는지 확인합니다.
 1. 규칙 편집기에서 **[!UICONTROL 테스트 규칙 세트]**&#x200B;를 클릭합니다.
 
    ![단계 결과](assets/classification_test_rule_set.png)
@@ -407,6 +415,6 @@ t_validate_rules.xml
 
 1. (선택 사항) 분류를 덮어쓰려면 **[!UICONTROL 분류 덮어쓰기]** &lt;*선택*&#x200B;을 활성화합니다.
 
-   이 옵션을 사용하여 영향 받는 키의 기존 분류를 덮어쓸 수 있습니다.
+   이 옵션을 사용하여 영향받는 키의 기존 분류를 덮어쓸 수 있습니다.
 
    이 옵션 정의에 대해서는 [규칙 페이지](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529)를 참조하십시오.

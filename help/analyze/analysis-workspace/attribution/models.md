@@ -1,29 +1,37 @@
 ---
 title: 속성 구성 요소
-description: 속성을 정의하는 구성 요소에 대해 알아봅니다.
+description: 기여도를 정의하는 구성 요소에 대해 알아봅니다.
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 TQID: 'https://experienceleague.adobe.com/MTNpygpH4BiCFULvhUiv8yj3QocsNHI6z2Ko3hvbi90'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Customer engagement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 84
+source-wordcount: '84'
 ht-degree: 100%
-
 ---
-
 # 속성 구성 요소
 
-Adobe Analytics의 속성 개념에는 세 가지 구성 요소가 포함됩니다.
+Adobe Analytics의 기여도 개념에는 세 가지 구성 요소가 포함됩니다.
 
 * **속성 모델**: 이 [모델](#attribution-model)은 그룹의 히트에 대한 전환 분포를 설명합니다. 예를 들어 첫 번째 터치 또는 마지막 터치가 있습니다.
 * **컨테이너**: [컨테이너](#container)는 속성 범위 또는 각 모델의 히트를 그룹화하는 방법을 정의합니다.
@@ -79,7 +87,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/custom-lookback-windows-in-attribution-iq){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/custom-lookback-windows-in-attribution-iq){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

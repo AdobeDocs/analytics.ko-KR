@@ -7,25 +7,36 @@ role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/lvnplKx6dPwmmbZWgSShGvZXD2TtUoigi-HNiKutZSg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b3e5f43e-2e2f-43c0-810a-044a5f91e31a
+    internal-label: Experience Platform Edge integration
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '332'
 ht-degree: 42%
-
 ---
-
 # Adobe Experience Platform Edge Network API를 사용하여 Adobe Analytics 구현
 
 일반적으로 Experience Platform Edge Network API를 사용하여 클라이언트측이 아닌 서버측에서 데이터를 수집하고, IoT 장치, 셋톱 박스, 데스크탑 애플리케이션과 같은 장치에서 데이터를 수집할 때. 그런 다음 해당 데이터를 Edge 네트워크 및 Adobe Analytics과 같은 서비스로 전송합니다.
@@ -57,13 +68,13 @@ ht-degree: 42%
 <tr>
 <td>3</td>
 <td><b>데이터스트림을 구성합니다</b>. Adobe Experience Platform Edge Network API에서 API를 사용할 때 데이터 스트림은 서버측 구성을 나타냅니다.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko">데이터스트림 구성<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">데이터스트림 구성<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
 <td>단일 이벤트 데이터 및 일괄 이벤트 데이터 수집 API를 사용하여 <b>데이터 수집을 구현하고 테스트합니다</b>.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR">단일 이벤트 데이터 수집</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=ko">일괄 이벤트 데이터 수집</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR">단일 이벤트 데이터 수집</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">일괄 이벤트 데이터 수집</a>
 </tr>
 
 <td>5</td>

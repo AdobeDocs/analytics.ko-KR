@@ -3,36 +3,49 @@ title: 이벤트의 영향을 받는 데이터 분석
 description: 이벤트의 영향을 받은 데이터가 전체 데이터 품질에 어떻게 기여하는지 이해합니다.
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
 feature: Curate and Share
-TQID: https://experienceleague.adobe.com/DJoJwtp9CkgrCfA1DwW8rKX2x3ssfzLCo7vCfhdLusg
+TQID: 'https://experienceleague.adobe.com/DJoJwtp9CkgrCfA1DwW8rKX2x3ssfzLCo7vCfhdLusg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 408
+source-wordcount: '408'
 ht-degree: 90%
-
 ---
-
 # 이벤트의 영향을 받는 데이터 분석
 
 경우에 따라 이벤트는 조직의 데이터 품질에 영향을 줄 수 있습니다. 해당 예는 다음과 같습니다.
 
-* 매출 수백만 달러와 같이 보다 특이한 데이터를 전송하는 보트
-* 조직에서 Analytics 구현에 부정적인 영향을 준 웹 사이트에 업데이트를 푸시함
+* 매출 수백만 달러와 같이 보다 특이한 데이터를 전송하는 봇
+* 조직에서 웹 사이트에 업데이트를 푸시하여 Analytics 구현에 부정적인 영향을 줌
 * 데이터 품질 또는 완전성에 영향을 주는 기타 문제
 
 사이트에서 데이터 품질 문제가 발생했다면 그에 대한 비즈니스 결정을 내리는 것을 방지하기 위해 보고에서 제외할 수 있습니다. 이벤트가 데이터에 미치는 영향을 측정하고 진행할 방법을 결정하려면 다음 섹션들을 사용하십시오.
@@ -51,11 +64,11 @@ Adobe Analytics는 세그먼테이션을 사용하여 데이터에 집중하거�
 
 ## 계산된 지표를 사용하여 데이터 유도
 
-세그먼트를 만들고 날짜 비교를 사용하면 이러한 개념을 모두 결합하고 계산된 지표를 사용하여 트렌드 데이터를 수정할 수 있습니다. 계산된 지표 내에 세그먼트를 포함시킨 다음, 날짜 비교 시 발견된 오프셋에 영향을 받는 일 수를 곱하십시오. [이벤트의 영향을 받는 데이터 가져오기](calcmetrics.md)를 참조하십시오.
+세그먼트를 만들고 날짜 비교를 사용하면 이러한 개념을 모두 결합하고 계산된 지표를 사용하여 트렌드 데이터를 수정할 수 있습니다. 계산된 지표 내에 세그먼트를 포함시킨 다음, 영향을 받은 날짜에 날짜 비교 시 발견된 오프셋을 곱하십시오. [이벤트의 영향을 받는 데이터 가져오기](calcmetrics.md)를 참조하십시오.
 
 ## 조직의 사용자에게 영향 전달
 
-의도한 이벤트 처리 방법과 관련하여 준비가 되면 [조직의 사용자에게 전달](communicate.md)할 수 있습니다. Adobe에서는 발생한 사항과 사용자가 사용할 수 있는 구성 요소를 사용자에게 전달하기 위해 텍스트를 배치할 수 있는 몇 개의 Analytics 내 위치를 제공합니다.
+의도한 이벤트 처리 방법과 관련하여 준비가 되면 [조직의 사용자에게 전달](communicate.md)할 수 있습니다. Adobe는 Analytics 내에서 발생한 사항과 사용자가 사용할 수 있는 구성 요소를 사용자에게 전달할 수 있도록 텍스트를 배치할 수 있는 여러 위치를 제공합니다.
 
 ## 비디오
 

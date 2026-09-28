@@ -7,19 +7,30 @@ exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1120'
 ht-degree: 23%
-
 ---
-
 # FAQ
 
 Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입니다.
@@ -36,7 +47,7 @@ prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 �
 
 이러한 사항은 Adobe Analytics 데이터를 Adobe Audience Manager으로 전송하는 데는 적용되지 않습니다. 자문해 보십시오.
 
-* MCA 차원과 Analytics 공유 세그먼트를 다시 CX Enterprise로 공유하시겠습니까?
+* Analytics 공유 세그먼트를 MCA 차원과 다시 CX Enterprise으로 공유하시겠습니까?
 
 * 이러한 목적에 사용되는 BI (비즈니스 인텔리전스) 시스템으로 데이터 피드 등을 통해 내보내시겠습니까?
 
@@ -64,13 +75,13 @@ prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 �
 
 +++ 이렇게 하면 Analytics의 Adobe Audience Manager에서 모든 정보를 제공합니까?
 
-아니요. Audience Manager 대상 지원 중 또는 후에 그리고 세그먼트 선별 중/후에 사이트를 방문한 사람과 관련된 데이터만 제공합니다.
+아니요. Audience Manager 대상자 활성화 중 또는 이후와 세그먼트 선별 중/이후에 사이트를 방문한 사람과 관련된 데이터만 제공합니다.
 
 +++
 
 +++ 이렇게 하면 세그먼트당 총 주소 지정 가능한 대상이 제공됩니까?
 
-그렇진 않아 세그먼트 선별 중 또는 후에 사이트로 돌아온 해당 세그먼트의 방문자 수를 알려 줍니다.
+그렇진 않아 세그먼트 선별 중 또는 후에 사이트를 방문한 해당 세그먼트의 방문자 수를 알려 줍니다.
 
 +++
 
@@ -142,7 +153,7 @@ prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 �
 
 +++ Analytics 관리자의 SSF에 대한 특정 보고서 세트를 켤 수 없는 이유는 무엇입니까?
 
-CX 엔터프라이즈 조직에 매핑된 세트만 활성화할 수 있습니다.
+CX Enterprise 조직에 매핑된 세트만 활성화할 수 있습니다.
 
 이 항목에 대한 자세한 FAQ는 [서버측 전달 FAQ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)를 참조하십시오.
 
@@ -164,7 +175,7 @@ CX 엔터프라이즈 조직에 매핑된 세트만 활성화할 수 있습니�
 
 +++ Adobe Audience Manager에서 통합된 고객 특성과 고객 데이터의 차이점은 무엇입니까?
 
-고객 속성은 시간을 기반으로 하지 않습니다. 소급하여 적용됩니다. Adobe Audience Manager 통합 데이터는 시간 기반이며 앞으로 나아갈 때에만 사용됩니다. 또한 고객 속성은 CX 엔터프라이즈 방문자 ID에 대한 조회 테이블이지만 Adobe Audience Manager 통합은 방문자에 대한 각 히트에 결합된 데이터입니다.
+고객 속성은 시간을 기반으로 하지 않습니다. 소급하여 적용됩니다. Adobe Audience Manager 통합 데이터는 시간 기반이며 앞으로 나아갈 때에만 사용됩니다. 또한 고객 속성은 CX Enterprise 방문자 ID에 대한 조회 테이블이지만, Adobe Audience Manager 통합은 방문자에 대한 각 히트에 결합된 데이터입니다.
 
 +++
 
