@@ -44,27 +44,27 @@ Streaming Media 서비스 및 차원은 Streaming Media 수집 라이브러리�
 
 다음 차원을 사용할 수 있습니다.
 
-* [[!UICONTROL 광고]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)
-* [[!UICONTROL Pod 위치의 광고]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
-* [[!UICONTROL 광고 길이(변수)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)
-* [[!UICONTROL 광고 이름(변수)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)
-* [[!UICONTROL 광고 플레이어 이름]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)
-* [[!UICONTROL 광고 pod]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod)
-* [[!UICONTROL 광고주]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)
-* [[!UICONTROL 캠페인 ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id)
+* [[!UICONTROL 광고]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad)
+* [[!UICONTROL Pod 위치의 광고]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
+* [[!UICONTROL 광고 길이(변수)]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-length)
+* [[!UICONTROL 광고 이름(변수)]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-name)
+* [[!UICONTROL 광고 플레이어 이름]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-player-name)
+* [[!UICONTROL 광고 pod]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-pod)
+* [[!UICONTROL 광고주]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/advertiser)
+* [[!UICONTROL 캠페인 ID]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/campaign-id)
 
 위의 차원 외에도 Adobe은 자동으로 다음 분류 차원을 생성합니다. 이러한 차원을 사용하는 보고서를 보려면 분류 데이터를 업로드해야 합니다.
 
 | 분류 이름 | 상위 차원 |
 | --- | --- |
-| [[!UICONTROL 자산 ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL 콘텐츠]](sm-core.md) |
-| [[!UICONTROL 콘텐츠 등급]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL 콘텐츠]](sm-core.md) |
-| [[!UICONTROL 첫 방송 날짜]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL 콘텐츠]](sm-core.md) |
-| [[!UICONTROL 첫 번째 디지털 날짜]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL 콘텐츠]](sm-core.md) |
-| [[!UICONTROL 광고 길이]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL 광고] |
-| [[!UICONTROL 광고 이름]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL 광고] |
-| [[!UICONTROL Creative ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL 광고] |
-| [[!UICONTROL Pod 이름]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL 광고 pod] |
-| [[!UICONTROL Pod 위치]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL 광고 pod] |
+| [[!UICONTROL 자산 ID]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL 콘텐츠]](sm-core.md) |
+| [[!UICONTROL 콘텐츠 등급]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL 콘텐츠]](sm-core.md) |
+| [[!UICONTROL 첫 방송 날짜]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL 콘텐츠]](sm-core.md) |
+| [[!UICONTROL 첫 번째 디지털 날짜]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL 콘텐츠]](sm-core.md) |
+| [[!UICONTROL 광고 길이]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL 광고] |
+| [[!UICONTROL 광고 이름]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL 광고] |
+| [[!UICONTROL Creative ID]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL 광고] |
+| [[!UICONTROL Pod 이름]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL 광고 pod] |
+| [[!UICONTROL Pod 위치]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL 광고 pod] |
 
 해당 지표는 [스트리밍 미디어 서비스 광고 지표](../metrics/sm-ads.md)를 참조하십시오.

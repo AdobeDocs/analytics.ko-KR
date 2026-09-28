@@ -64,14 +64,14 @@ ht-degree: 37%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 찾기 및 만들기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"}를 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 찾기 및 만들기](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트의 롤링 기간](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트의 롤링 기간](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Analysis Workspace에서 다음과 같이 서로 다른 유형의 세그먼트�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트를 적용하는 다른 방법](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트를 적용하는 다른 방법](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 

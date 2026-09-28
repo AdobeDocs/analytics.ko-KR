@@ -42,9 +42,9 @@ Streaming Media 서비스 오디오 메타데이터 차원은 Streaming Media �
 
 다음 차원을 사용할 수 있습니다.
 
-* [[!UICONTROL 앨범]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)
-* [[!UICONTROL 아티스트]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)
-* [[!UICONTROL 작성자]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)
-* [[!UICONTROL 레이블]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)
-* [[!UICONTROL 게시자]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)
-* [[!UICONTROL 스테이션]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)
+* [[!UICONTROL 앨범]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/album)
+* [[!UICONTROL 아티스트]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/artist)
+* [[!UICONTROL 작성자]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/author)
+* [[!UICONTROL 레이블]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/label)
+* [[!UICONTROL 게시자]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/publisher)
+* [[!UICONTROL 스테이션]](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/station)
