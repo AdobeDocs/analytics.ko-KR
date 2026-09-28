@@ -1,30 +1,38 @@
 ---
 title: t
-description: Adobe에 페이지 보기 추적 호출을 보냅니다.
+description: Adobe에 페이지 조회수 추적 호출을 보냅니다.
 feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/WYNldeJM0szf8-LeEzUZL0NLq8j5NtH-Sz2Yo6Pmkks'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 55%
-
 ---
-
 # t()
 
 `t()` 메서드는 Adobe Analytics의 중요한 핵심 구성 요소입니다. 이 메서드는 페이지에 정의된 모든 Analytics 변수를 가져와 이미지 요청에 컴파일한 다음, 해당 데이터를 Adobe 데이터 수집 서버에 보냅니다.
@@ -71,7 +79,7 @@ alloy("sendEvent", {
 });
 ```
 
-자세한 내용은 웹 SDK 설명서의 [`sendEvent`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/sendevent/overview)을(를) 참조하십시오.
+자세한 내용은 웹 SDK 설명서의 [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)을(를) 참조하십시오.
 
 ## Adobe Analytics 확장을 사용한 페이지 보기 추적 호출
 
@@ -92,7 +100,7 @@ Adobe Experience Platform 데이터 수집의 Adobe Analytics 확장에는 페�
 s.t();
 ```
 
-원할 경우 개체를 인수로 사용하여 변수 값을 무시할 수 있습니다. 자세한 내용은 [변수 무시](../../js/overrides.md)를 참조하십시오.
+원할 경우 개체를 인수로 사용하여 변수 값을 재정의할 수 있습니다. 자세한 내용은 [변수 무시](../../js/overrides.md)를 참조하십시오.
 
 ```js
 var y = new Object();
