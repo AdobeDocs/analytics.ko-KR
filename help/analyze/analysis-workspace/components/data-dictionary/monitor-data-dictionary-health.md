@@ -7,21 +7,25 @@ exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
 TQID: https://experienceleague.adobe.com/q-wAiW4oUc9kH-ywKVLfNKtXHdEfnIr01GXSK-g0YqY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 100%
-
 ---
-
 # 데이터 사전 상태 모니터링 {#monitor-data-dictionary}
 
 <!-- markdownlint-disable MD034 -->
@@ -48,11 +52,11 @@ Analytics 관리자는 데이터 사전을 정상적으로 유지 관리해야 �
 
 ## 정상적인 데이터 사전의 특징
 
-정상적인 데이터 사전의 모든 구성 요소는 다음과 같습니다.
+정상적인 데이터 사전은 모든 구성 요소가 다음과 같은 상태입니다.
 
 * 사용 중이며 데이터 수집 중임
 
-* 사용자가 가장 잘 사용하는 방법을 알 수 있도록 유용한 설명 포함
+* 사용자가 이를 가장 잘 사용하는 방법을 알 수 있도록 유용한 설명 포함
 
 * 불필요한 중복이 없음
 
