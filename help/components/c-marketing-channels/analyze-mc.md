@@ -3,28 +3,39 @@ title: 마케팅 채널 분석
 description: Workspace에서 마케팅 채널 차원을 사용하는 방법을 알아봅니다.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-TQID: https://experienceleague.adobe.com/XWjRuwOusH-TsOb5rzG8rAIkye3faYxfZzyQOMrav3Q
+TQID: 'https://experienceleague.adobe.com/XWjRuwOusH-TsOb5rzG8rAIkye3faYxfZzyQOMrav3Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '435'
 ht-degree: 77%
-
 ---
-
 # 마케팅 채널 분석
 
 >[!NOTE]
@@ -33,15 +44,15 @@ ht-degree: 77%
 >
 >Analytics 관리자는 [마케팅 채널 관리](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)에 설명된 대로 조직의 마케팅 채널을 관리할 수 있습니다.
 
-어느 마케팅 채널이 가장 효과적인지 알고 싶을 것입니다. 그러한 채널을 이용하여 노력을 향상시키고 최적의 마케팅 효과를 얻을 수 있습니다. Adobe Analytics에서 Workspace의 마케팅 채널 차원 및 지표는 주문, 매출 등에 대한 다양한 채널의 영향을 추적하고 유용한 채널 통찰력을 제공하는 도구 중 하나입니다. 마케팅 채널과 관련하여 사용할 수 있는 차원 및 지표는 다음과 같습니다.
+어느 마케팅 채널이 가장 효과적인지, 그리고 누구에게 효과적인지 알면 노력을 더 효과적으로 집중하고 마케팅 비용 대비 더 나은 수익을 얻을 수 있습니다. Adobe Analytics에서 Workspace의 마케팅 채널 차원 및 지표는 주문, 매출 등에 대한 다양한 채널의 영향을 추적하고 유용한 채널 통찰력을 제공하는 도구 중 하나입니다. 마케팅 채널과 관련하여 사용할 수 있는 차원 및 지표는 다음과 같습니다.
 
 ![](assets/mc-dims.png)
 
 | 차원/지표 | 정의 |
 | --- | --- |
-| 마케팅 채널 | 권장 마케팅 채널 차원입니다. 런타임 시 속성 모델을 적용할 수 있습니다. 이 차원은 마지막 터치 채널 차원과 동일하게 동작하지만 다른 속성 모델과 함께 이 차원을 사용할 때 혼동을 방지하기 위해 레이블이 다르게 지정됩니다. |
-| 마지막 터치 채널 | 마지막 터치 속성 모델이 사전 적용되어 변경할 수 없는 기존 차원입니다. |
-| 첫 번째 터치 채널 | 첫 번째 터치 속성 모델이 사전 적용되어 변경할 수 없는 기존 차원입니다. |
+| 마케팅 채널 | 권장 마케팅 채널 차원입니다. 런타임 시 속성 모델을 적용할 수 있습니다. 이 차원은 마지막 터치 채널 차원과 동일하게 동작하지만 다른 기여도 모델과 함께 이 차원을 사용할 때 혼동을 방지하기 위해 레이블이 다르게 지정됩니다. |
+| 마지막 터치 채널 | 마지막 터치 기여도 모델이 사전 적용되어 변경할 수 없는 기존 차원입니다. |
+| 첫 번째 터치 채널 | 첫 번째 터치 기여도 모델이 사전 적용되어 변경할 수 없는 기존 차원입니다. |
 | 마케팅 채널 인스턴스 | 이 지표는 표준 페이지 보기 수 및 사용자 지정 링크 호출을 포함하여 마케팅 채널이 이미지 요청에 정의된 횟수를 측정합니다. 지속되는 값을 포함하지 않습니다. |
 | 새 참여 횟수 | 이 지표는 인스턴스와 유사하지만 첫 번째 접점 마케팅 채널이 이미지 요청에 정의될 때만 증가합니다. |
 
@@ -75,7 +86,7 @@ ht-degree: 77%
 
 ## 교차 탭 마케팅 분석
 
-기존의 첫 번째 접점 채널과 마지막 접점 채널을 사용하면 채널 상호 작용에 도움이 되는 보기를 얻을 수 있습니다.
+기존의 첫 번째 접점 채널과 마지막 접점 채널을 사용하면 채널 상호 작용을 유용하게 파악할 수 있습니다.
 
 ![](assets/mc-viz6.png)
 

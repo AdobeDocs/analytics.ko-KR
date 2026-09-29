@@ -4,32 +4,47 @@ title: 프로젝트에서 구성 요소 사용
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-TQID: https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s
+TQID: 'https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 954
-ht-degree: 77%
-
+source-wordcount: '986'
+ht-degree: 74%
 ---
-
 # 프로젝트에서 구성 요소 사용
 
 구성 요소는 Analysis Workspace에서 모든 프로젝트의 실제 데이터를 구성합니다. 구성 요소는 차원, 지표, 세그먼트 및 날짜 범위로 구성됩니다. 시각화나 패널로 구성 요소를 드래그하여 프로젝트에 구성 요소를 추가할 수 있습니다.
@@ -65,7 +80,7 @@ ht-degree: 77%
 
 ### 프로젝트에 차원 추가
 
-[차원](/help/components/dimensions/overview.md)은(는) 일반적으로 문자열 값을 포함하는 Adobe Analytics의 변수입니다. 반면에, [지표](/help/components/calculated-metrics/cm-overview.md)는 차원에 연결된 숫자 값을 포함합니다. 기본 보고서는 숫자 값 (지표) 열에 대해 문자열 값 (차원) 행을 보여 줍니다.
+[차원](/help/components/dimensions/overview.md)은(는) 일반적으로 문자열 값을 포함하는 Adobe Analytics의 변수입니다. 반면에, [지표](/help/components/calculated-metrics/cm-overview.md)는 차원에 연결된 숫자 값을 포함합니다. 기본 보고서에는 문자열 값(차원) 행과 숫자 값(지표) 열이 표시됩니다.
 
 1. Analysis Workspace에서 [프로젝트에 구성 요소 추가](#add-components-to-a-project)에 설명된 대로 차원을 추가하기 시작합니다.
 

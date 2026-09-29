@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/vpopS2WlO27GSPIGw5sn-Zm-X7UsGq5P-My-n9tGmG0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '410'
 ht-degree: 79%
-
 ---
-
 # transactionID
 
 `transactionID` 변수는 [거래 ID 데이터 원본](/help/import/data-sources/transactionid.md)을 통해 업로드된 데이터에 히트가 차원 값을 제공할 수 있도록 거래를 고유하게 식별합니다. 이 변수는 온라인 채널 데이터에서 수집된 값으로 오프라인 채널 데이터를 작성하려는 경우에 유용합니다.
@@ -44,7 +52,7 @@ ht-degree: 79%
 
 ## Adobe Analytics 확장을 사용한 거래 ID
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 거래 ID를 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 트랜잭션 ID를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
@@ -53,17 +61,17 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 거�
 5. [!UICONTROL 확장 기능] 드롭다운 목록을 Adobe Analytics로 설정하고 [!UICONTROL 액션 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
 6. [!UICONTROL 거래 ID] 섹션을 찾습니다.
 
-거래 ID를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
+거래 ID를 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.transactionID
 
-`s.transactionID` 변수는 거래의 고유 식별자를 포함하는 문자열입니다. 유효한 값에는 최대 100바이트 길이의 영숫자 문자가 포함됩니다. 기본값은 빈 문자열입니다.
+`s.transactionID` 변수는 거래의 고유 식별자를 포함하는 문자열입니다. 유효한 값은 최대 100바이트 길이의 영숫자입니다. 기본값은 빈 문자열입니다.
 
 ```js
 s.transactionID = "ABC123";
 ```
 
-히트에 대한 거래 ID가 두 개 이상 있는 경우 각각 쉼표로 구분할 수 있습니다. 여러 거래 ID에도 여전히 100바이트 제한이 적용됩니다.
+히트에 대한 트랜잭션 ID가 두 개 이상 있는 경우 각각 쉼표로 구분할 수 있습니다. 여러 거래 ID에도 여전히 100바이트 제한이 적용됩니다.
 
 ```js
 s.transactionID = "ABC123,XYZ456";
@@ -71,4 +79,4 @@ s.transactionID = "ABC123,XYZ456";
 
 >[!TIP]
 >
->이 변수를 사용하여 여러 오프라인 채널을 통합하는 경우 다른 채널이 거래 ID와 겹치지 않도록 하십시오. 예를 들어 `1234`라는 콜 센터 거래 ID 값과 `1234`라는 영업 리드 거래 ID 값이 있는 경우, 이 값들이 충돌하여 예상치 않은 결과가 발생할 수 있습니다. 거래 ID에 각 오프라인 채널에 대해 고유한 형식이 포함되어 있는지 확인하고 필요한 경우 구분해야 합니다. 예를 들어 Data Sources와 AppMeasurement 모두에서 콜 센터 거래 ID를 `call_1234`로 설정하고 영업 리드 거래 ID를 `lead_1234`로 설정합니다.
+>이 변수를 사용하여 여러 오프라인 채널을 통합하는 경우 서로 다른 채널 간에 거래 ID가 겹치지 않도록 하십시오. 예를 들어 `1234`라는 콜 센터 거래 ID 값과 `1234`라는 영업 리드 거래 ID 값이 있는 경우, 이 값들이 충돌하여 예상치 않은 결과가 발생할 수 있습니다. 거래 ID에 각 오프라인 채널에 대해 고유한 형식이 포함되어 있는지 확인하고 필요한 경우 구분해야 합니다. 예를 들어 Data Sources와 AppMeasurement 모두에서 콜 센터 거래 ID를 `call_1234`로 설정하고 영업 리드 거래 ID를 `lead_1234`로 설정합니다.

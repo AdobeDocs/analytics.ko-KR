@@ -31,6 +31,11 @@ feature_v2:
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
     internal-label: Release notes
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -52,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7522'
 ht-degree: 92%
 ---
 # Adobe Analytics에 대한 기술 설명서 업데이트
@@ -71,6 +76,7 @@ ht-degree: 92%
 | 기능 | 설명 |
 | --- | --- |
 | **2026년 9월** | |
+| 화살표 및 폴아웃에 대한 여정 캔버스 비교 | [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &#39;[!UICONTROL 비교 대상]&#39; 설정을 업데이트하여 날짜 범위 간 비율 변경이 이제 여정의 각 노드, 화살표 및 폴아웃에 표시됨을 표시합니다. |
 | 새 크기 조정 바로 가기 작업 | 이제 Analysis Workspace의 새 키보드 단축키를 사용하여 [패널 또는 시각화 크기 조정](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)을 더 넓게, 더 좁게, 더 높이 또는 더 짧게 수행할 수 있습니다. |
 | [Adobe Analytics 데이터 수집 API](https://developer.adobe.com/analytics-collection-apis/) | AppMeasurement 또는 태그를 사용하지 않고 Adobe Analytics에 대한 데이터 수집 전략을 집계하고 현대화하는 새 개발자 저장소입니다. |
 | **2026년 8월** | |

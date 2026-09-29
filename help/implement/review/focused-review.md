@@ -1,31 +1,42 @@
 ---
 title: 집중 검토 (각 웹 사이트 릴리스 이후)
-description: 다음 단계에 따라 구현 오류를 방지하고 KPI를 관리하십시오.
+description: 다음 단계에 따라 구현에 오류가 없고 KPI에 부합하도록 하십시오.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-TQID: https://experienceleague.adobe.com/C57qRRa4-WDgJDgvtLebgy-0DAPvMUreSrGfuA67N4o
+TQID: 'https://experienceleague.adobe.com/C57qRRa4-WDgJDgvtLebgy-0DAPvMUreSrGfuA67N4o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '535'
 ht-degree: 62%
-
 ---
-
 # 집중 검토 (각 웹 사이트 릴리스 이후)
 
 몇 개월마다 구현을 검토해야 하는 이유는 무엇입니까? 문제가 커지기 전에 데이터 품질 문제를 해결할 수 있습니다. 각 웹 사이트 릴리스 후에 이 집중 검토를 정기적으로 수행하면 2년 마다 수행되는 [전체 검토](/help/implement/review/full-review.md)가 훨씬 더 수월해집니다. 또한 사소한 문제가 이해 관계자의 신뢰를 손상시킬 수 있는 빅 데이터 문제로 번지지 않도록 방지할 수 있습니다.
@@ -45,11 +56,11 @@ ht-degree: 62%
 
 ## &#x200B;3. 사이트의 업데이트된 섹션에서 데이터를 철저히 검사합니다.
 
-가장 최근의 사이트 릴리스가 사이트의 해당 섹션에 대한 데이터 수집에 부정적인 영향을 주지 않는지 확인합니다. 해당 섹션에 해당하는 모든 코드와 변수를 검토하여 새 추적이 설계된 대로 작동하는지 확인합니다.
+가장 최근의 사이트 출시가 사이트의 해당 섹션에 대한 데이터 수집에 부정적인 영향을 주지 않았는지 확인합니다. 해당 섹션에 해당하는 모든 코드와 변수를 검토하여 새 추적이 설계된 대로 작동하는지 확인합니다.
 
 ## &#x200B;4. 설명서 업데이트
 
-최근 지표나 변수를 추가하거나 변경한 경우 BRD (Business Requirements Document) 및 SDR (Solution Design Reference)을 업데이트해야 합니다.
+최근 지표나 변수를 추가하거나 변경한 경우 BRD (Business Requirement Document) 및 SDR (Solution Design Reference)을 업데이트해야 합니다.
 
 구현 설명서가 없는 경우 변수 목록을 내보내고 [이 템플릿](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=ko#implementation)을 사용하여 BRD 또는 SDR을 만드십시오.
 

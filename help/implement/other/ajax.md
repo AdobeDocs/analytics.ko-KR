@@ -1,6 +1,6 @@
 ---
 title: AJAX를 사용하여 구현
-description: AJAX를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
+description: AJAX를 사용하여 사이트에 Adobe Analytics를 구현하는 방법을 알아봅니다.
 feature: Implementation Basics
 exl-id: 3286bf97-3a66-4f68-9053-bf84269962fd
 role: Developer
@@ -8,28 +8,37 @@ autotag-review: '2026-05-22T08:06:40.936Z'
 TQID: 'https://experienceleague.adobe.com/M0MNFZRcHpPwxL-ZtTky67DHDr1A0fL-peaGKicXgIM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 373
+source-wordcount: '373'
 ht-degree: 100%
-
 ---
-
 # AJAX를 사용하여 구현
 
 AJAX는 새 페이지를 로드하지 않고 JavaScript 및 HTML을 사용하여 콘텐츠를 지우고 생성하는 방법입니다.
 
-Adobe Analytics는 일반적으로 페이지 재로드를 통해 Analytics 추적 개체를 재설정합니다. 사용자가 다른 URL로 이동할 때마다 모든 Analytics 변수는 재설정되고 다시 정의할 수 있습니다. 사이트에서 AJAX를 사용할 때에는 페이지 새로 고침 부족 문제와 관련하여 구현을 조정함으로써 히트 간에 데이터가 잘못 지속되지 않도록 하십시오.
+Adobe Analytics는 일반적으로 페이지를 다시 로드하여 Analytics 추적 오브젝트를 재설정합니다. 사용자가 다른 URL로 이동할 때마다 모든 Analytics 변수는 재설정되고 다시 정의할 수 있습니다. 사이트에서 AJAX를 사용할 때는 페이지가 새로 고쳐지지 않는 점을 고려하여 구현을 조정해 히트 간에 데이터가 잘못 지속되지 않도록 하십시오.
 
 변수 값을 지우기 위한 적절한 수단이 준비되면 AJAX를 사용하는 사이트에서 Adobe Analytics를 구현하는 것은 대체로 다른 구현 방법과 동일합니다.
 
@@ -48,7 +57,7 @@ AJAX를 사용하는 페이지는 일반적으로 다시 로드되지 않으므�
 
 ## 각 페이지에서 변수 지우기
 
-페이지가 다시 로드되지 않으므로 변수 값은 AJAX를 사용하여 페이지에서 지속됩니다. 따라서, 변수 값이 히트 간에 잘못 지속되지 않도록 지우려면 특별한 방법이 필요하므로 습니다. Adobe에서는 변수 값을 쉽게 지울 수 있는 [`clearVars`](../vars/functions/clearvars.md) 함수를 제공합니다. 각 히트를 Adobe에 보낸 후 다음 히트에 대한 변수 값을 설정하기 전에 이 함수를 사용해야 합니다.
+페이지가 다시 로드되지 않으므로 AJAX를 사용하는 페이지에서는 변수 값이 지속됩니다. 따라서, 변수 값이 히트 간에 잘못 지속되지 않도록 지우려면 특별한 방법이 필요하므로 습니다. Adobe에서는 변수 값을 쉽게 지울 수 있는 [`clearVars`](../vars/functions/clearvars.md) 함수를 제공합니다. 각 히트를 Adobe에 보낸 후 다음 히트에 대한 변수 값을 설정하기 전에 이 함수를 사용해야 합니다.
 
 >[!TIP]
 >

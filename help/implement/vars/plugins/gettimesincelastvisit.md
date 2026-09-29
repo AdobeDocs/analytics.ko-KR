@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/fuC5ynpIfCd4vyoeo9WwfxhCUH8KJiKB4bxB11H7NRY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: '624'
 ht-degree: 73%
-
 ---
-
 # Adobe 플러그인: getTimeSinceLastVisit
 
 {{plug-in}}
@@ -89,7 +97,7 @@ Analytics 추적 오브젝트가 인스턴스화 ([`s_gi`](../functions/s-gi.md)
 
 ## 플러그인 사용
 
-`getTimeSinceLastVisit` 함수는 인수를 사용하지 않습니다. 이 메서드는 방문자가 마지막으로 사이트를 방문한 이후 경과된 시간을 반환합니다(다음 형식으로 변환됨).
+`getTimeSinceLastVisit` 함수는 인수를 사용하지 않습니다. 이 메서드는 방문자가 마지막으로 사이트를 방문한 이후 경과된 시간을 다음 형식으로 구분하여 반환합니다.
 
 * 마지막 방문 이후 30분에서 1시간 사이의 시간이 가장 가까운 0.5분 벤치마크로 설정됩니다. 예: `"30.5 minutes"`, `"53 minutes"`
 * 1시간과 1일 사이의 시간은 가장 가까운 1/4시간 벤치마크로 반올림됩니다. 예: `"2.25 hours"`, `"7.5 hours"`
@@ -98,7 +106,7 @@ Analytics 추적 오브젝트가 인스턴스화 ([`s_gi`](../functions/s-gi.md)
 
 >[!NOTE]
 >
->이 플러그인은 방문의 첫 번째 히트에 대한 값만 반환합니다.
+>이 플러그인은 방문의 첫 번째 히트에서만 값을 반환합니다.
 
 이 플러그인은 현재 시간의 Unix 타임스탬프로 설정된 `"s_tslv"`라는 자사 쿠키를 만듭니다. 이 쿠키는 2년 동안 활동이 없으면 만료됩니다.
 

@@ -4,25 +4,33 @@ description: 주요 성과 지표와 관련 지표 및 차원이 비즈니스 �
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 role: Admin, Leader
-TQID: https://experienceleague.adobe.com/5gk97uJXKiJqu9E6uv-U6jk1vmovfyVeiUVgMwwc8hQ
+TQID: 'https://experienceleague.adobe.com/5gk97uJXKiJqu9E6uv-U6jk1vmovfyVeiUVgMwwc8hQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '319'
 ht-degree: 72%
-
 ---
-
 # 상위 5개의 KPI 정의
 
 단순히 모든 것을 측정할 수는 없으며, 비즈니스에 가장 중요한 것을 우선적으로 측정한다면 Adobe Analytics 구현이 가장 성공적일 것입니다. 비즈니스 리더와 협력하여 비즈니스에 가장 영향을 미치는 주요 성과 지표(KPI)를 정의하십시오. 그런 다음 해당 KPI를 지원하는 지표와 변수에 집중하십시오.
@@ -53,4 +61,4 @@ ht-degree: 72%
 
 ## &#x200B;5. 정기적으로 KPI 검토
 
-최소한 6개월마다 KPI를 새로 고치십시오. 비즈니스 요구 사항은 자주 바뀐다는 것을 명심하십시오!
+최소한 6개월마다 KPI를 검토하십시오. 비즈니스 요구 사항은 자주 바뀐다는 것을 명심하십시오!

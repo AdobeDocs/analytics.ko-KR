@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/YCY2XuAIxZ89vqX6ENve2d6aAL3TltlYhAHartYdMgM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: '742'
 ht-degree: 77%
-
 ---
-
 # Adobe 플러그인: p_fo (첫 번째 페이지만)
 
 {{plug-in}}
@@ -99,7 +107,7 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ### 예 #1
 
-다음 코드는 페이지 내에 &quot;myobject&quot; 개체가 있는지 확인합니다.  myobject 개체가 없으면 코드는 &quot;myobject&quot; 개체를 만들고 true 값을 반환합니다.  따라서 조건문 (즉, Console.log (&#39;hello&#39;);) 내의 코드가 실행됩니다.
+다음 코드는 페이지 내에 &quot;myobject&quot; 개체가 있는지 확인합니다.  &quot;myobject&quot; 개체가 없으면 코드는 &quot;myobject&quot; 개체를 만들고 true 값을 반환합니다.  따라서 조건문 (즉, Console.log(&#39;hello&#39;);) 내의 코드가 실행됩니다.
 
 반면에 p_fo 호출이 발생할 때 &quot;myobject&quot; 개체가 이미 있으면 p_fo 함수는 false 값을 반환하며, 따라서 조건문은 false로 간주됩니다.  이 경우 조건문 내의 코드는 실행되지 않습니다.
 

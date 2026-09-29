@@ -7,29 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/czmpdg5-e3fQre5aPKg9uWGpHW-JzIPuOv0kCyETGeo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 91%
-
 ---
-
 # Adobe 플러그인: getTimeBetweenEvents
 
 {{plug-in}}
 
-`getTimeBetweenEvents` 플러그인을 사용하면 장바구니 및 사용자 지정 이벤트를 포함하여 두 Analytics 이벤트 간의 시간을 추적할 수 있습니다. 이 플러그인은 체크아웃 프로세스가 완료되는 데 걸리는 시간이나 시간을 측정하려는 기타 프로세스를 추적하는 데 유용하며, 소요 시간을 측정하려는 변환 프로세스가 없는 경우에는 필요하지 않습니다.
+`getTimeBetweenEvents` 플러그인을 사용하면 장바구니 및 사용자 지정 이벤트를 포함하여 두 Analytics 이벤트 간의 시간을 추적할 수 있습니다. 이 플러그인은 체크아웃 프로세스가 완료되는 데 걸리는 시간이나 시간을 측정하려는 기타 프로세스를 추적하는 데 유용하며, 소요 시간을 측정하려는 전환 프로세스가 없는 경우에는 필요하지 않습니다.
 
 ## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
 
@@ -87,15 +95,15 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 * **`cn`** (선택 사항, 문자열): 첫 번째 이벤트의 시간이 저장되는 쿠키 이름입니다. 기본값은 `"s_tbe"`입니다.
 * **`etd`** (선택 사항, 정수): 일 단위의 쿠키 만료 시간입니다. 브라우저 세션이 끝날 때 만료되도록 하려면 `0`으로 설정하십시오. 설정하지 않으면 기본값이 1일로 설정됩니다.
 * **`fmt`** (선택 사항, 문자열): 초 수가 반환되는 시간 형식(기본값은 nothing)입니다.
-   * `"s"` - 초
-   * `"m"` - 분
-   * `"h"` - 시간
-   * `"d"` - 일
-   * 설정하지 않으면 반환 값의 형식은 다음 규칙을 기반으로 합니다.
-      * 1분 미만의 시간은 가장 가까운 5초 벤치마크로 반올림됩니다. 예를 들어 10초, 15초.
-      * 1분과 1시간 사이의 모든 시간은 가장 가까운 1/2분 벤치마크로 반올림됩니다. 예를 들어 30.5분, 31분.
-      * 1시간과 1일 사이의 모든 시간은 가장 가까운 1/4시간 벤치마크로 반올림됩니다. 예를 들어 2.25시간, 3.5시간
-      * 하루보다 큰 모든 시간은 가장 가까운 일 벤치마크로 반올림됩니다. 예를 들어 1일, 3일, 9일
+  * `"s"` - 초
+  * `"m"` - 분
+  * `"h"` - 시간
+  * `"d"` - 일
+  * 설정하지 않으면 반환 값의 형식은 다음 규칙을 기반으로 합니다.
+    * 1분 미만의 시간은 가장 가까운 5초 벤치마크로 반올림됩니다. 예를 들어 10초, 15초.
+    * 1분과 1시간 사이의 모든 시간은 가장 가까운 1/2분 벤치마크로 반올림됩니다. 예를 들어 30.5분, 31분.
+    * 1시간과 1일 사이의 모든 시간은 가장 가까운 1/4시간 벤치마크로 반올림됩니다. 예를 들어 2.25시간, 3.5시간
+    * 하루보다 큰 모든 시간은 가장 가까운 일 벤치마크로 반올림됩니다. 예를 들어 1일, 3일, 9일
 * **`bml`** (선택 사항, 숫자): `fmt` 인수의 형식에 따른 반올림 벤치마크의 길이입니다. 예를 들어 `fmt` 인수가 `"s"`이고 이 인수가 `2`인 경우 반환 값은 가장 가까운 2초 벤치마크로 반올림됩니다. `fmt` 인수가 `"m"`이고 이 인수가 `0.5`인 경우 반환 값은 가장 가까운 1/2분 벤치마크로 반올림됩니다.
 * **`rte`** (선택 사항, 문자열): 타이머를 제거하거나 삭제하는 Analytics 이벤트들을 쉼표로 구분한 문자열입니다. 기본값은 nothing입니다.
 

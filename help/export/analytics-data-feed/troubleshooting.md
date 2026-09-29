@@ -6,20 +6,26 @@ exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Troubleshooting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: '471'
 ht-degree: 95%
-
 ---
-
 # 데이터 피드 문제 해결
 
 작업의 처리 또는 게재가 실패할 수 있는 가능한 이유를 파악합니다.
@@ -29,12 +35,12 @@ ht-degree: 95%
 매시간 또는 매일 정상적으로 작동하는 데이터 피드가 최근에 실패할 경우 다음의 각 사항을 확인합니다.
 
 * [Adobe 상태 도구](https://status.adobe.com/ko-kr/experience_cloud)를 사용하면 예정된 관리 기간 또는 이용도 문제가 있는지 확인할 수 있습니다. 해당 시점에 알려진 문제가 있을 경우 Adobe는 일단 서비스가 복구되면 자동으로 예정된 데이터 피드를 처리합니다.
-* FTP 사이트에 충분한 사용 공간이 있는지 확인하십시오. FTP 사이트의 디스크 공간이 부족할 경우 서버에서 일부 파일을 삭제해서 새로운 파일을 위한 공간을 만드십시오.
+* FTP 사이트에 충분한 사용 가능한 공간이 있는지 확인하십시오. FTP 사이트의 디스크 공간이 부족할 경우 서버에서 일부 파일을 삭제해서 새로운 파일을 위한 공간을 만드십시오.
 * 알려진 문제가 없고 FTP 사이트의 디스크 공간이 충분하면 데이터 피드를 다시 전송할 수 있습니다.
 
-   1. Adobe Analytics에 로그인한 다음 **[!UICONTROL 관리]** > **[!UICONTROL 데이터 피드]**&#x200B;로 이동합니다.
-   2. 원하는 데이터 피드를 찾은 다음 다시 실행하고자 하는 각 피드 옆에 있는 확인란을 클릭합니다.
-   3. **[!UICONTROL 다시 실행]**&#x200B;을 클릭합니다.
+  1. Adobe Analytics에 로그인한 다음 **[!UICONTROL 관리]** > **[!UICONTROL 데이터 피드]**&#x200B;로 이동합니다.
+  2. 원하는 데이터 피드를 찾은 다음 다시 실행하고자 하는 각 피드 옆에 있는 확인란을 클릭합니다.
+  3. **[!UICONTROL 다시 실행]**&#x200B;을 클릭합니다.
 
   ![다시 실행](assets/rerun.png)
 
@@ -48,7 +54,7 @@ ht-degree: 95%
 
    ![파일 탐색기](assets/file_explorer.png)
 
-2. 사용자 이름과 암호를 묻는 팝업이 나타납니다. 인증 자격 증명을 입력합니다. 자격 증명이 수락되면 창에 FTP 사이트의 현재 콘텐츠가 표시됩니다. 자격 증명이 승인되지 않을 경우 FTP 소유주와 협의하여 사용자 이름과 암호가 정확한지 확인하십시오. SFTP를 사용할 경우 [SFTP 안내서](../ftp-and-sftp/c-sftp/ftp-sftp.md)의 각 단계를 따라하십시오. Adobe는 SFTP의 일부 사용 사례를 지원하지 않습니다.
+2. 사용자 이름과 암호를 묻는 팝업이 나타납니다. 인증 자격 증명을 입력합니다. 자격 증명이 수락되면 창에 FTP 사이트의 현재 내용이 표시됩니다. 자격 증명이 승인되지 않을 경우 FTP 소유주와 협의하여 사용자 이름과 암호가 정확한지 확인하십시오. SFTP를 사용할 경우 [SFTP 안내서](../ftp-and-sftp/c-sftp/ftp-sftp.md)의 각 단계를 따라하십시오. Adobe는 SFTP의 일부 사용 사례를 지원하지 않습니다.
 3. 파일을 인증된 창으로 끌어 놓아 FTP 사이트에 업로드합니다. 어떤 이미지나 텍스트 문서든 상관없습니다. 파일을 FTP 사이트에 배치하려고 할 때 오류가 발생하면 FTP 소유자와 함께 디스크 공간이 충분하고 사용 중인 사용자 이름에 FTP 사이트에 대한 쓰기 권한이 있는지 확인합니다.
 4. 파일이 FTP 사이트에 있음을 확인했으면 이전 단계에서 업로드한 파일을 삭제해도 됩니다.
 

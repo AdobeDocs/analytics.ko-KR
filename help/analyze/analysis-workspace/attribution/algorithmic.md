@@ -7,17 +7,23 @@ exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 TQID: 'https://experienceleague.adobe.com/jPLoQcRU8bpCGjKJ37mioUdZOFDUwNehmyBhdx7lj8c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '296'
 ht-degree: 38%
-
 ---
-
 # 알고리즘 속성
 
 Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기법을 사용하여 보고서나 자유 형식 테이블의 차원 항목에 크레딧을 할당한다는 점에서 다른 모델과 다릅니다. Analysis Workspace의 다른 모든 속성 모델과 마찬가지로 모든 차원 또는 지표에서 알고리즘 속성을 사용할 수 있습니다. 알고리즘 속성은 무제한 세그먼테이션 및 분류를 지원하고, 테이블의 하나 이상의 차원에 100% 전환을 분배합니다(&quot;분수&quot; 속성이라고도 함).
@@ -41,4 +47,4 @@ Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기�
 
 >[!NOTE]
 >
->주어진 전환 창 내에 여러 접점이 있을 때 알고리즘 속성의 결과는 다른 모델과 다릅니다. 단일 접점을 사용하는 전환은 속성 모델에 상관없이 100% 크레딧을 받습니다.
+>주어진 전환 창 내에 여러 접점이 있을 때 알고리즘 속성의 결과는 다른 모델과 다릅니다. 단일 접점이 있는 전환은 기여도 모델에 관계없이 100% 크레딧을 받습니다.

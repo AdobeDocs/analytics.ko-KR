@@ -3,25 +3,31 @@ title: 분류 세트 만들기 및 편집
 description: 기본 및 조회 분류 유형, 구독 및 작업 알림을 포함하여 Adobe Analytics에서 분류 세트를 만들고 편집하는 방법을 알아봅니다.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-TQID: https://experienceleague.adobe.com/b-q3Dk14UUhBEzfhXvkPF1Zh56GrmpXh6N4Mtkiyl-c
+TQID: 'https://experienceleague.adobe.com/b-q3Dk14UUhBEzfhXvkPF1Zh56GrmpXh6N4Mtkiyl-c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Metadata
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: '502'
 ht-degree: 2%
-
 ---
-
 # 분류 세트 만들기 및 편집
 
 분류 세트 관리자에서 [만들기](#create-a-classification-set) 및 [편집](#edit-a-classification-set) 분류 세트를 만듭니다.
@@ -44,17 +50,17 @@ ht-degree: 2%
       * **[!UICONTROL 조회]**. 일반적으로 하위 또는 하위 분류라고 하는 조회 테이블은 기본 분류의 분류입니다. 조회는 원래 차원이 아닌 분류 값에 대한 메타데이터입니다. 예를 들어 *Product* 차원의 기본 분류는 *색상 코드*&#x200B;일 수 있습니다. *색상 이름*&#x200B;의 조회 테이블을 *색상 코드*&#x200B;에 연결하여 각 색상 코드를 설명할 수 있습니다.
 1. **[!UICONTROL 작업 알림]** 섹션에서 분류 세트 작업의 실패 또는 성공 시 알릴 사용자를 선택합니다.
    * 실패 시 사용자에게 알리려면
-      1. **[!UICONTROL 실패 시 알림]**&#x200B;을 사용하도록 설정합니다.
-      1. **[!UICONTROL 실패 전자 메일 받는 사람]**&#x200B;에 쉼표로 구분된 전자 메일 주소를 하나 이상 지정하십시오.
+     1. **[!UICONTROL 실패 시 알림]**&#x200B;을 사용하도록 설정합니다.
+     1. **[!UICONTROL 실패 전자 메일 받는 사람]**&#x200B;에 쉼표로 구분된 전자 메일 주소를 하나 이상 지정하십시오.
    * 성공 여부를 사용자에게 알리려면 다음을 수행합니다.
-      1. **[!UICONTROL 성공 시 알림]**&#x200B;을 사용하도록 설정합니다.
-      1. **[!UICONTROL 성공 이메일 수신자]**&#x200B;에 쉼표로 구분된 이메일 주소를 하나 이상 지정하십시오.
+     1. **[!UICONTROL 성공 시 알림]**&#x200B;을 사용하도록 설정합니다.
+     1. **[!UICONTROL 성공 이메일 수신자]**&#x200B;에 쉼표로 구분된 이메일 주소를 하나 이상 지정하십시오.
 1. **[!UICONTROL 구독]** 섹션에서 **[!UICONTROL 기본]**&#x200B;을(를) 선택한 경우 하나 이상의 **[!UICONTROL 구독]**&#x200B;을(를) 입력하십시오.  분류 세트에 여러 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL Dimension]** 조합을 정의할 수 있습니다.
 
    * **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]** 조합을 삭제하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
    다른 분류 세트에 이미 있는 **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]** 조합을 추가하면 빨간색 메시지가 표시됩니다.
-다음과 같은 작업을 수행할 수 있습니다.
+   다음과 같은 작업을 수행할 수 있습니다.
    * **[!UICONTROL 기존 항목에 추가]**&#x200B;를 선택하여 다른 분류 집합을 열고 [스키마에 분류 추가](manage/schema.md)를 선택합니다.
    * **[!UICONTROL 보고서 세트]** 및 **[!UICONTROL 키 Dimension]**&#x200B;을(를) 다른 분류 집합을 구독하지 않은 조합으로 변경하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 선택하여 분류 집합을 저장합니다. 정의를 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.

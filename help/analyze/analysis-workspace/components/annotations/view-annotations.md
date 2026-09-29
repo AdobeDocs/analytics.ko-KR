@@ -4,24 +4,32 @@ description: Analysis Workspace에서 주석을 보는 방법에 대해 알아�
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-TQID: https://experienceleague.adobe.com/ygnFKygSc1tTf-oH8qiMEBtGrMUZDhp3qxZCZr8okhc
+TQID: 'https://experienceleague.adobe.com/ygnFKygSc1tTf-oH8qiMEBtGrMUZDhp3qxZCZr8okhc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: e1cb59ec-5b9a-407a-a184-15400a765082
+    internal-label: Annotations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: '211'
 ht-degree: 83%
-
 ---
-
 # 주석 보기
 
 주석은 표시되는 위치와 하루 또는 날짜 범위에 따라 약간 다르게 나타납니다.
@@ -32,13 +40,13 @@ ht-degree: 83%
 | --- | --- |
 | **라인&#x200B;**<br/>**하루** | 라인 시각화에서 ![Annotate](/help/assets/icons/Annotate.svg)를 선택하면 주석 세부 정보가 포함된 팝업이 표시됩니다.<br/>![Annotation single day](assets/annotation-single-day.png)<br/> [주석 빌더](create-annotations.md#annotation-builder)에서 주석을 편집하려면 ![Edit](/help/assets/icons/Edit.svg)을 선택합니다. 주석을 삭제하려면 ![Delete](/help/assets/icons/Delete.svg)를 선택합니다. |
 | **라인&#x200B;**<br/>**날짜 범위** | ![AnnotateRange](/help/assets/icons/AnnotateRange.svg)를 선택하면 주석 세부 정보가 포함된 팝업과 날짜 범위를 나타내는 하단의 라인이 표시됩니다.<br/>![Annotation range](assets/annotation-range.png) [주석 빌더](create-annotations.md#annotation-builder)에서 주석을 편집하려면 ![Edit](/help/assets/icons/Edit.svg)을 선택합니다. 주석을 삭제하려면 ![Delete](/help/assets/icons/Delete.svg)를 선택합니다. |
-| **자유 형식 테이블** | 자유 형식 테이블에서 시각화 오른쪽 상단에 있는 주석 버튼의 모든 주석에 액세스할 수 있습니다. ![Annotate](/help/assets/icons/Annotate.svg)를 선택하여 모든 주석의 (스크롤 목록)을 확인합니다.각 주석의 <br/>![Annotations table](assets/annotations-table.png)<br/>에서 ![Edit](/help/assets/icons/Edit.svg)을 선택하여 [주석 빌더](create-annotations.md#annotation-builder)에서 주석을 편집하고 ![Delete](/help/assets/icons/Delete.svg)를 선택하여 주석을 삭제할 수 있습니다. |
+| **자유 형식 테이블** | 자유 형식 테이블에서 시각화 오른쪽 상단에 있는 주석 버튼을 통해 모든 주석에 액세스할 수 있습니다. ![Annotate](/help/assets/icons/Annotate.svg)를 선택하여 모든 주석의 (스크롤 목록)을 확인합니다.각 주석의 <br/>![Annotations table](assets/annotations-table.png)<br/>에서 ![Edit](/help/assets/icons/Edit.svg)을 선택하여 [주석 빌더](create-annotations.md#annotation-builder)에서 주석을 편집하고 ![Delete](/help/assets/icons/Delete.svg)를 선택하여 주석을 삭제할 수 있습니다. |
 
 {style="table-layout:auto"}
 
 ## PDF에서 주석 보기
 
-프로젝트를 PDF로 다운로드하거나 프로젝트를 PDF로 전송하면 주석은 주석 요약 섹션에 PDF로 요약됩니다.
+프로젝트를 PDF로 다운로드하거나 프로젝트를 PDF로 전송하면 주석이 PDF의 주석 요약 섹션에 요약됩니다.
 
 ![Highlighted view of a .pdf file showing explanations of annotations.](assets/annotations-pdf.png)
 

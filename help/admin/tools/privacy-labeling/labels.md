@@ -4,32 +4,47 @@ title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-TQID: https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0
+TQID: 'https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3848
+source-wordcount: '3848'
 ht-degree: 83%
-
 ---
-
 # Analytics 변수의 데이터 개인정보 보호 레이블
 
 Adobe의 고객은 데이터 제어자로서 일반 데이터 보호 규정(GDPR) 및 캘리포니아 소비자 개인정보 보호법(CCPA)과 같은 관련 개인정보 보호법을 준수할 책임이 있습니다. 고객은 데이터 개인정보 보호법을 준수하여 데이터를 처리하는 방법을 결정하기 위해 자체 법무팀과 상의해야 합니다. Adobe는 각 고객이 데이터 개인정보 보호와 관련하여 고유한 요구 사항을 가지고 있음을 이해하며, Adobe는 고객이 데이터 개인정보 보호 데이터 처리에 대해 원하는 설정을 사용자 정의할 수 있도록 합니다. 그러면 각 고유 고객이 자신의 브랜드 및 고유 데이터 세트에 가장 적합한 방식으로 개인정보 보호 요청을 처리할 수 있습니다.

@@ -1,29 +1,37 @@
 ---
-description: 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다.
+description: 웹 서비스 API는 Analytics 인터페이스를 통해 사용할 수 있는 기능을 복제하고 확장할 수 있는 마케팅 보고서 및 기타 Suite 서비스에 프로그래밍 방식으로 액세스할 수 있도록 합니다.
 title: 웹 서비스
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 role: Admin
-TQID: https://experienceleague.adobe.com/q0Ji-KYZJS486CKtHaDttXs3coS5hSYQd-cArPK1mCU
+TQID: 'https://experienceleague.adobe.com/q0Ji-KYZJS486CKtHaDttXs3coS5hSYQd-cArPK1mCU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+    internal-label: Company Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 303
+source-wordcount: '303'
 ht-degree: 53%
-
 ---
-
 # 웹 서비스
 
-웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다.
+웹 서비스 API는 Analytics 인터페이스를 통해 사용할 수 있는 기능을 복제하고 확장할 수 있는 마케팅 보고서 및 기타 Suite 서비스에 프로그래밍 방식으로 액세스할 수 있도록 합니다.
 
 **[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 웹 서비스]** 또는 **[!UICONTROL API 액세스]**
 

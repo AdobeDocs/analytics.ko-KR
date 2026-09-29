@@ -3,29 +3,41 @@ title: 유료 검색 지표 가져오기
 description: '유료 검색 지표(예: Google 광고, Microsoft Advertising 등)를 추적하도록 Adobe Analytics을 구성하는 단계입니다. Data Sources 사용.'
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
+TQID: 'https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 82%
-
 ---
-
 # [!UICONTROL 데이터 소스]를 사용하여 [!UICONTROL 유료 검색] 지표 가져오기
 
 많은 마케팅 조직에서 신규 고객에게 도달하고 기존 고객을 유지하는 가장 유용하고 믿을 수 있는 방법 중 하나가 유료 검색입니다. Adobe Analytics의 [!UICONTROL Data Sources] 기능을 사용하면 Google Ads와 같은 디지털 광고 플랫폼에서 고급 유료 검색 데이터를 쉽게 가져올 수 있습니다. 현장 행동 및 고객 속성 데이터와 더불어, 마케팅 데이터의 나머지 부분과 통합하여 조직의 유료 검색 활동에 대한 더 나은 인사이트를 얻을 수 있습니다.

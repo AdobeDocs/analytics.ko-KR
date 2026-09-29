@@ -5,31 +5,45 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
+TQID: 'https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2059
+source-wordcount: '2059'
 ht-degree: 89%
-
 ---
-
 # 프로젝트 공유 {#share-projects}
 
 >[!CONTEXTUALHELP]
@@ -80,7 +94,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 * 프로젝트 역할(**[!UICONTROL 원본 편집]**, **[!UICONTROL 사본 편집]** 및 **[!UICONTROL 읽기 전용]**)은 사용자 및 특정 프로젝트 ID에 연결되어 있습니다. 프로젝트 역할은 [Adobe CX Enterprise 관리 콘솔](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR)에서 관리되는 사용자 권한과 독립적입니다.
 
-* Adobe Analytics에서 그룹은 [Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR)에서 제품 프로필로 정의됩니다. 관리자는 “모두”를 비롯한 모든 그룹과 공유할 수 있습니다. 관리자가 아닌 사용자는 “모두”를 제외하고 자신이 멤버로 있는 그룹과 공유할 수 있습니다.
+* Adobe Analytics에서 그룹은 [Adobe CX Enterprise 관리 콘솔](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR)에서 제품 프로필로 정의됩니다. 관리자는 “모두”를 비롯한 모든 그룹과 공유할 수 있습니다. 관리자가 아닌 사용자는 “모두”를 제외하고 자신이 멤버로 있는 그룹과 공유할 수 있습니다.
 
 * 여러 역할에 배치된 사용자는 항상 가장 높은 경험을 받게 됩니다. 이러한 상황은 사용자가 개인으로도 추가되고 그룹의 일부로도 추가되는 경우 발생할 수 있습니다. 예를 들어 사용자에게 개인으로서 **[!UICONTROL 원본 편집]** 역할이 주어지고 및 그룹의 멤버로 **[!UICONTROL 읽기 전용]** 역할이 주어지면 해당 사용자에게는 **[!UICONTROL 원본 편집]** 프로젝트 경험이 제공됩니다.
 
@@ -198,15 +212,15 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
 
 1. 다음 보안 옵션을 활성화할지 여부를 선택합니다(이 옵션은 Analytics 관리자가 제어 가능).
 
-   * **[!UICONTROL CX 엔터프라이즈 인증 필요]:**
+   * **[!UICONTROL CX Enterprise 인증 필요]:**
 
-     이 옵션이 활성화된 경우 프로젝트에 액세스할 수 있는 사용자는 공유 중인 프로젝트가 생성된 Adobe CX 엔터프라이즈 조직에 로그인할 수 있는 사용자만 됩니다. 그러나 공유받는 사용자가 Adobe Analytics에 액세스할 필요는 없습니다.
+     이 옵션이 활성화된 경우 프로젝트에 액세스할 수 있는 사용자는 공유 중인 프로젝트가 생성된 Adobe CX Enterprise 조직에 로그인할 수 있는 사용자만 됩니다. 그러나 공유받는 사용자가 Adobe Analytics에 액세스할 필요는 없습니다.
 
      Analytics 관리자는 [환경 설정](/help/analyze/analysis-workspace/user-preferences.md)에 설명된 대로 회사에 대해 이 환경 설정을 구성할 수 있습니다. 관리자가 이 옵션을 구성한 방식에 따라 다음 시나리오가 발생할 수 있습니다.
 
      * 이 옵션이 표시되지 않으면 Analytics 관리자가 이 기능을 활성화하지 않은 것입니다.
 
-     * 이 옵션이 활성화되고 흐리게 표시되는 경우 Analytics 관리자는 Analysis Workspace 프로젝트에 액세스하는 모든 사용자에게 CX 엔터프라이즈 인증이 필요합니다.
+     * 이 옵션이 활성화되고 흐리게 표시되는 경우 Analytics 관리자는 Analysis Workspace 프로젝트에 액세스하는 모든 사용자에게 CX Enterprise 인증이 필요합니다.
 
 1. **[!UICONTROL 모두와 공유(로그인 필요 없음)]** 필드 옆의 **링크 복사** 아이콘 ![링크 복사 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)을 클릭하여 링크를 시스템 클립보드에 복사합니다.
 

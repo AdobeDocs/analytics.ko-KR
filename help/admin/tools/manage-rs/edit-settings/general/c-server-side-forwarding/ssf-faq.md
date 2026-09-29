@@ -7,24 +7,34 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/av541DJd5Ga5QaK2856YBHWW1M-JjkbzRs8JXxYma6c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 707
+source-wordcount: '707'
 ht-degree: 65%
-
 ---
-
 # 서버측 전달 FAQ
 
 서버측 전달과 관련된 기능과 문제점에 대한 FAQ.
@@ -41,11 +51,11 @@ ht-degree: 65%
 | 질문 | 답변 |
 |--- |--- |
 | Q: 내 사이트에 다중 세트 태그 지정이 있다면 어떻게 합니까? 서버측 전달로 인해 Audience Manager에 대한 내 서버 호출이 두 배가 됩니까? | 아니요. Analytics에서 Audience Manager로 전달되는 히트는 히트에 포함된 보고서 세트의 수에 관계없이 Audience Manager로 한 번만 전달됩니다. 히트에 있는 각 보고서 세트에 대해 Audience Manager에 해당 데이터 소스가 있는 경우 각 보고서 세트는 해당 단일 히트로부터 적절하게 채워집니다.  그러나 현재 클라이언트측 데이터 수집(DIL)을 사용하고 고객 관리 모듈을 설치하지 않고 서버측 전달을 사용하는 경우에는 Analytics 히트에 있는 보고서 세트의 수에 관계없이 Audience Manager에 대한 서버 호출을 두 배로 늘릴 수 있습니다. |
-| Q: 별도의 CX 엔터프라이즈 조직에 매핑되는 다중 세트 태그가 지정된 보고서 세트가 있는 경우 어떻게 합니까? | 단일 Analytics 히트에서 개별 CX 엔터프라이즈 조직에 속하는 두 개의 보고서 세트로 데이터를 전송해서는 안 되지만, 이 경우 이 페이지의 ID 서비스 설정과 일치하는 CX 엔터프라이즈 조직에만 히트가 전달됩니다. |
-| Q: 다중 세트 태깅이 있고 내 보고서 세트 중 하나만 내 CX 엔터프라이즈 조직에 매핑되고 나머지는 매핑되지 않을 경우 어떻게 합니까? | 매핑된 보고서 세트의 CX 엔터프라이즈 조직에 대한 해당 데이터 수집 서버로 히트를 전달하지만, 매핑되지 않은 보고서 세트에는 Audience Manager에 연결된 데이터 소스가 없으므로 Audience Manager의 매핑되지 않은 보고서 세트에 대해서는 데이터가 기록되지 않습니다. |
-| Q: 여러 CX 엔터프라이즈 조직에 매핑되는 보고서 세트가 있는 경우 어떻게 합니까? | Analytics는 이 보고서 세트를 매핑되지 않은 것으로 간주하므로 이 보고서 세트에 대해서는 서버측 전달 기능을 활성화할 수 없습니다. 이 매핑 문제를 해결하려면 고객 지원 센터에 문의하십시오. |
+| Q: 별도의 CX Enterprise 조직에 매핑되는 다중 세트 태그가 지정된 보고서 세트가 있는 경우 어떻게 합니까? | 단일 Analytics 히트에서 개별 CX Enterprise 조직에 속하는 두 개의 보고서 세트로 데이터를 전송해서는 안 되지만, 전송하면 히트가 페이지의 ID 서비스 설정과 일치하는 CX Enterprise 조직으로만 전달됩니다. |
+| Q: 다중 세트 태깅이 있고 내 보고서 세트 중 하나만 내 CX Enterprise 조직에 매핑되고 나머지는 매핑되지 않을 경우 어떻게 합니까? | 매핑된 보고서 세트의 CX Enterprise 조직에 대한 해당 데이터 수집 서버로 히트를 전달하지만, 매핑되지 않은 보고서 세트에는 Audience Manager에 연결된 데이터 소스가 없으므로 Audience Manager의 매핑되지 않은 보고서 세트에 대해서는 데이터가 기록되지 않습니다. |
+| Q: 여러 CX Enterprise 조직에 매핑된 보고서 세트가 있는 경우 어떻게 합니까? | Analytics는 이 보고서 세트를 매핑되지 않은 것으로 간주하므로 이 보고서 세트에 대해서는 서버측 전달 기능을 활성화할 수 없습니다. 이 매핑 문제를 해결하려면 고객 지원 센터에 문의하십시오. |
 | Q: 보고서 세트 기반의 서버측 전달 방법이 추적 서버 기반의 서버측 전달보다 느립니까? | 아니요. 응답 시간은 동일합니다. |
-| Q: 두 개의 CX 엔터프라이즈 조직(또는 Adobe Audience Manager 인스턴스)이 있고 두 CX 엔터프라이즈 조직 간에 데이터를 공유하려는 경우 어떻게 해야 합니까? 단일 Analytics 히트를 여러 CX 엔터프라이즈 조직에 서버 측 전달로 수행할 수 있습니까? | 아니요. 한 CX Enterprise 조직에 수집된 데이터를 다른 CX Enterprise 조직에 공유해야 하는 경우 대상 마켓플레이스를 사용하여 한 Audience Manager 인스턴스에서 다른 CX Enterprise 조직으로 적용 가능한 대상을 전송하는 것이 좋습니다. |
+| Q: 두 개의 CX Enterprise 조직(또는 Adobe Audience Manager 인스턴스)이 있고 두 CX Enterprise 조직 간에 데이터를 공유하려면 어떻게 해야 합니까? 단일 Analytics 히트를 여러 CX Enterprise 조직에 서버측 전달로 수행할 수 있습니까? | 아니요. 한 CX Enterprise 조직에 수집된 데이터를 다른 CX Enterprise 조직과 공유해야 하는 경우 대상 마켓플레이스를 사용하여 한 Audience Manager 인스턴스에서 다른 인스턴스로 적용 가능한 대상을 보내는 것이 좋습니다. |
 | Q: 서버측 전달로 인해 Audience Manager 또는 Analytics에서 추가 과금이 발생합니까? | Analytics에서는 추가 과금이 발생하지 않습니다. Audience Manager에서 전달된 히트는 다른 히트와 동일하게 처리되며 과금됩니다.  이것이 DIL과 서버측 전달을 동시에 활성화하지 않도록 하는 것이 중요한 이유입니다. 동시에 활성화하면 이중 청구와 데이터 중복이 발생할 수 있습니다. |
 
 >[!MORELIKETHIS]

@@ -4,25 +4,33 @@ description: 필드 기반 결합을 사용하여 데이터 결합의 사전 요
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70
+TQID: 'https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 83%
-
 ---
-
 # 필드 기반 결합
 
 {{available-existing-customers}}
@@ -48,7 +56,7 @@ ht-degree: 83%
 * 필드 기반 결합은 대소문자를 구분하므로 Adobe는 필드 기반 결합에 사용되고 있는 prop 또는 eVar에 적용되는 VISTA 규칙 또는 처리 규칙을 검토할 것을 권장합니다. 이러한 규칙 중 동일한 ID의 새로운 형식을 도입하는 규칙이 없는지 확인하기 위해 검토해야 합니다. 예를 들어 VISTA 또는 처리 규칙이 히트의 일부에서만 prop 또는 eVar에 소문자를 도입하지 않는지 확인해 보아야 합니다.
 * 필드 기반 결합은 결합 목적으로 둘 이상의 prop 또는 eVar 사용을 지원하지 않습니다. 예를 들어 eVar12에 로그인 ID가 포함되어 있고 eVar20에 이메일 ID가 포함되어 있는 경우 그 중 하나를 선택해야 합니다.
 * 필드 기반 결합은 필드를 결합하거나 연결하지 않습니다(예: eVar10 + prop5).
-* prop 또는 eVar에는 단일 유형의 ID를 포함해야 합니다. 예를 들어 prop 또는 eVar는 로그인 ID와 이메일 ID의 조합을 포함해서는 안 됩니다.
+* prop 또는 eVar에는 단일 유형의 ID가 포함되어야 합니다. 예를 들어 prop 또는 eVar는 로그인 ID와 이메일 ID의 조합을 포함해서는 안 됩니다.
 * 동일한 방문자에 대해 동일한 타임스탬프를 가진 여러 히트가 발생하지만 결합 prop 또는 eVar에 다른 값이 있는 경우, CDA는 알파벳 순서를 기반으로 선택하게 됩니다. 따라서 방문자 A에 동일한 타임스탬프를 가진 두 개의 히트가 있고 히트 중 하나가 “Bob”을 지정하고 다른 하나는 “Ann”을 지정하는 경우 CDA는 “Ann”을 선택합니다.
 
 

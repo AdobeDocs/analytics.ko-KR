@@ -4,36 +4,55 @@ description: 글로벌 보고서 세트 사용에 대한 장점과 요구 사항
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/Y96K5iwjDCqXBzMeYVGJA06e115acL3aZOJl8oCBBEs
+TQID: 'https://experienceleague.adobe.com/Y96K5iwjDCqXBzMeYVGJA06e115acL3aZOJl8oCBBEs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 885
+source-wordcount: '885'
 ht-degree: 95%
-
 ---
-
 # 글로벌 보고서 세트 고려 사항
 
 글로벌 보고서 세트는 조직이 소유하는 모든 도메인 및 앱에서 데이터를 수집하는 보고서 세트입니다. 이 데이터 수집 기술을 사용하려면 준비가 필요하며 조직 내 팀 간의 조정도 필요할 수 있습니다.
@@ -43,11 +62,11 @@ ht-degree: 95%
 대부분의 경우 글로벌 보고서 세트를 구현하는 것이 좋습니다.
 
 * **집계된 데이터:** 글로벌 보고서 세트를 사용하면 소유한 사이트 간에 KPI와 성공 이벤트를 볼 수 있습니다. 세그먼테이션 및 가상 보고서 세트를 사용하여 사이트별 데이터를 볼 수 있습니다.
-* **크로스 디바이스 분석 지원:** CDA를 사용하려면 웹 사이트 및 모바일 앱과 같이, 여러 위치에서 데이터를 수집하는 보고서 세트가 필요합니다. 올바로 구현된 경우 별도의 디바이스로 데이터를 함께 연결할 수 있습니다. 자세한 내용은 구성 요소 사용 안내서의 [크로스 디바이스 분석](../../components/cda/overview.md)을 참조하십시오.
+* **크로스 디바이스 분석 지원:** CDA를 사용하려면 웹 사이트 및 모바일 앱과 같이, 여러 위치에서 데이터를 수집하는 보고서 세트가 필요합니다. 올바르게 구현된 경우 별도의 디바이스에서 데이터를 함께 연결할 수 있습니다. 자세한 내용은 구성 요소 사용 안내서의 [크로스 디바이스 분석](../../components/cda/overview.md)을 참조하십시오.
 * **두 개 이상의 보고서 세트가 필요하지 않음:** 모든 데이터는 단일 보고서 세트에 수집할 수 있으므로 개발자가 실수로 데이터를 잘못된 보고서 세트로 보낼 가능성이 적습니다.
 * **롤업이 필요 없음:** 롤업은 개별 보고서 세트 데이터를 일별로 집계하는 상당히 오래된 기능입니다. 롤업은 방문 또는 방문자 데이터를 중복 제거하지 않으므로 숫자가 부풀려질 수 있습니다. 자세한 내용은 관리자 사용 안내서의 [롤업](../../admin/tools/manage-rs/rollup-report-suite.md)을 참조하십시오.
 * **시간 절약:** 작업 영역 프로젝트, 분류, 세그먼트 및 계산된 지표는 동일한 글로벌 보고서 세트에 연결되어 있습니다. 관리자는 이러한 구성 요소 및 데이터 거버넌스 관리에 드는 시간을 줄일 수 있습니다.
-* **더 정확한 브랜드 간 기여도 분석:** 방문이 한 사이트에서 시작된 다음, 성공 이벤트를 트리거하기 전에 소유한 다른 사이트로 클릭하여 이동하는 경우 기여도 분석이 정확하게 수집됩니다. 예를 들어 방문자가 유료 검색 링크를 클릭하고 사이트 A에 도달합니다. 그러면 사이트 B를 연결하는 링크를 클릭한 다음, 구매를 수행합니다. 글로벌 보고서 세트는 해당 구매를 유료 검색의 기여로 처리합니다.
+* **더 정확한 브랜드 간 기여도 분석:** 방문이 한 사이트에서 시작된 다음, 성공 이벤트를 트리거하기 전에 소유한 다른 사이트로 클릭하여 이동하는 경우 기여도 분석이 정확하게 수집됩니다. 예를 들어 방문자가 유료 검색 링크를 클릭하고 사이트 A에 도달합니다. 그러면 사이트 B를 연결하는 링크를 클릭한 다음, 구매를 수행합니다. 글로벌 보고서 세트는 해당 구매를 유료 검색에 올바르게 귀속합니다.
 * **간소화된 구현:** 모든 브랜드/사이트가 데이터를 동일한 보고서 세트에 보내기 때문에 각 사이트 간 구현이 일치합니다. 이러한 강제 거버넌스는 특정 차원이나 지표가 동일한 eVar 또는 이벤트에 저장되도록 합니다. 관리자, 테스터, 태그 관리 소유자 및 분석가는 이러한 간소화를 통해 많은 이점을 얻을 수 있습니다.
 
 >[!NOTE]
@@ -60,7 +79,7 @@ ht-degree: 95%
 
 1. Adobe Analytics에서 글로벌 보고서 세트를 만듭니다. 자세한 내용은 관리자 사용 안내서의 [보고서 세트 만들기](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)를 참조하십시오.
 1. 각 도메인을 담당하는 조직의 팀과 작업합니다. 많은 팀에는 해당 비즈니스 영역에만 해당하는 보고 요구 사항이 있습니다.
-1. 이러한 모든 요구 사항을 [솔루션 디자인 문서](solution-design.md)에서 기록하고 집계합니다. 여러 팀에 차원에 대한 유사한 요구 사항이 있는 경우 동일한 사용자 지정 변수를 사용할 수 있습니다. 예를 들어 사이트 A와 사이트 B가 모두 탐색 표시 차원을 필요로 하는 경우 두 사이트에 대한 구현은 eVar1을 통해 해당 데이터를 전송할 수 있습니다.
+1. 이러한 모든 요구 사항을 [솔루션 디자인 문서](solution-design.md)에서 기록하고 집계합니다. 여러 팀에 차원에 대한 유사한 요구 사항이 있는 경우 동일한 사용자 지정 변수를 사용할 수 있습니다. 예를 들어 사이트 A와 사이트 B가 모두 경로 차원을 필요로 하는 경우 두 사이트에 대한 구현은 eVar1을 통해 해당 데이터를 전송할 수 있습니다.
 
    >[!IMPORTANT]
    >
@@ -75,7 +94,7 @@ ht-degree: 95%
 
 1. 기존 보고서 세트 중 하나를 사용할지, 새 보고서 세트로 새로 시작할지를 결정합니다. 구현에서 기존 변수의 사용을 변경하려는 경우에는 새 보고서 세트로 시작하는 것이 좋습니다.
 2. 글로벌 보고서 세트로 전환할 날짜를 결정합니다. 가장 좋은 전환 시기는 중요한 두 보고 기간 사이 또는 사이트에 주요 변경 사항이 있을 때입니다. 예로는 회계 분기 또는 연도 시작, 사이트 새로 고침 중 또는 새 태그 관리 시스템으로 변경할 때가 있습니다.
-3. 위의 절차를 따릅니다(보고서 세트를 만들고, 솔루션 디자인 문서에서 보고 요구 사항을 수집하고, 각 사이트에 데이터 레이어를 설정). Adobe Experience Platform의 태그를 구현할 때에는 웹 사이트의 개발 버전을 사용하여 구현의 유효성을 검사하십시오.
+3. 위의 절차를 따릅니다(보고서 세트를 만들고, 솔루션 디자인 문서에서 보고 요구 사항을 수집하고, 각 사이트에 데이터 레이어를 설정합니다). Adobe Experience Platform에서 태그를 구현할 때에는 웹사이트의 개발 버전을 사용하여 구현의 유효성을 검사하십시오.
 4. 개발 버전에서 구현이 작동하는 것을 확인했으면 전환 날짜에 태그 구현을 라이브로 푸시합니다.
 
 >[!MORELIKETHIS]

@@ -7,22 +7,30 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/yjYX-h-8jJA7k-jzRMOJ0l2BxN5-no2kCfySkGYss8w'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: '539'
 ht-degree: 5%
-
 ---
-
 # 해시 충돌
 
 Adobe Analytics의 차원은 문자열 값을 수집합니다. 때로는 이러한 문자열의 길이가 수백 자인 반면 때로는 짧습니다. 성능을 향상시키기 위해 이 문자열 값은 보고서 처리 시간에 직접 사용되지 않습니다. 대신 각 값에 대해 해시가 계산되어 균일 크기의 식별자를 생성합니다. 대부분의 필드의 경우 해시 전에 값이 소문자로 변환되므로 총 고유 값 수가 줄어듭니다. 모든 보고서는 이러한 해시된 값에서 실행되므로 성능이 크게 향상됩니다.

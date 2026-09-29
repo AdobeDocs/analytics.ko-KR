@@ -4,27 +4,35 @@ description: linkInternalFilters 변수를 사용하여 자동 종료 링크 추
 feature: Appmeasurement Implementation
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/st-CkocgfEJIAQs1JTiY0DpUNuo2uU-CR-o8togtLGg
+TQID: 'https://experienceleague.adobe.com/st-CkocgfEJIAQs1JTiY0DpUNuo2uU-CR-o8togtLGg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 100%
-
 ---
-
 # linkInternalFilters
 
 AppMeasurement는 사이트 외부를 가리키는 링크를 자동으로 추적하는 기능을 제공합니다. [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) 또는 [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK)가 활성화된 경우 방문자가 링크를 클릭하여 사이트를 떠날 때 이미지 요청이 Adobe로 바로 전송됩니다. [`linkExternalFilters`](linkexternalfilters.md) 및 `linkInternalFilters` 변수는 내부/외부로 간주되는 링크를 파악합니다.
@@ -37,7 +45,7 @@ Activity Map은 이 변수를 사용하여 사이트 내부 링크를 판별하�
 
 >[!NOTE]
 >
->`linkInternalFilters`와 [내부 URL 필터](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)는 별개의 목적을 수행하는 별개의 기능입니다. `linkInternalFilters` 변수는 특히 종료 링크 추적에 작동합니다. 내부 URL 필터는 참조 도메인같은 트래픽 소스 차원에 도움이 되는 관리 설정입니다.
+>`linkInternalFilters`와 [내부 URL 필터](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)는 별개의 목적을 수행하는 별개의 기능입니다. `linkInternalFilters` 변수는 특히 종료 링크 추적에 작동합니다. 내부 URL 필터는 참조 도메인 같은 트래픽 소스 차원에 도움이 되는 관리 설정입니다.
 
 ## Web SDK의 종료 링크
 
@@ -45,7 +53,7 @@ Activity Map은 이 변수를 사용하여 사이트 내부 링크를 판별하�
 
 자세한 내용은 Web SDK 설명서의 [자동 링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ko#automaticLinkTracking)을 참조하십시오.
 
-## 아웃바운드 링크 - Adobe Analytics 확장을 사용하여 추적하지 않음
+## 아웃바운드 링크 - Adobe Analytics 확장 기능을 사용하여 추적하지 않음
 
 추적 안 함 필드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 링크 추적] 아코디언 아래에 있는 쉼표로 구분된 필터 목록(일반적으로 도메인)입니다.
 
@@ -56,7 +64,7 @@ Activity Map은 이 변수를 사용하여 사이트 내부 링크를 판별하�
 
 이 필드에는 종료 링크로 추적하지 않을 필터를 배치하십시오. 여러 도메인은 공백 없이 쉼표로 구분합니다.
 
-## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 linkInternalFilters
+## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.linkInternalFilters
 
 `s.linkInternalFilters` 변수는 사이트 내부로 간주하는 필터 (예: 도메인)가 포함된 문자열입니다. 여러 필터는 공백 없이 쉼표로 구분하십시오.
 

@@ -1,5 +1,5 @@
 ---
-description: 서버측 전달은 Analytics의 데이터를 다른 CX 엔터프라이즈 솔루션에 실시간으로 공유하려는 고객을 위해 설계되었습니다. 활성화되면 Analytics에서 서버측 전달을 통해 데이터를 다른 CX 엔터프라이즈 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션에서 데이터를 Analytics에 푸시할 수 있습니다.
+description: 서버측 전달은 Analytics의 데이터를 다른 CX Enterprise 솔루션에 실시간으로 공유하려는 고객을 위해 설계되었습니다. 활성화되면 Analytics에서 서버측 전달을 통해 데이터를 다른 CX Enterprise 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션에서 데이터를 Analytics에 푸시할 수 있습니다.
 solution: Analytics
 title: 서버측 전달 개요
 feature: Report Suite Settings
@@ -8,34 +8,46 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3Jing56TCBeoAFOXowaXAXoTDkXgQB0-j5jFmVOTsrw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 76%
-
 ---
-
 # 서버측 전달 개요
 
-서버측 전달은 Analytics의 데이터를 다른 CX 엔터프라이즈 솔루션에 실시간으로 공유하려는 고객을 위해 설계되었습니다. 활성화되면 Analytics에서 서버측 전달을 통해 데이터를 다른 CX 엔터프라이즈 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션에서 데이터를 Analytics에 푸시할 수 있습니다.
+서버측 전달은 Analytics의 데이터를 다른 CX Enterprise 솔루션에 실시간으로 공유하려는 고객을 위해 설계되었습니다. 활성화되면 Analytics에서 서버측 전달을 통해 데이터를 다른 CX Enterprise 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션에서 데이터를 Analytics에 푸시할 수 있습니다.
 
 다음과 같은 이유로 데이터 수집 시 서버측 전달이 향상됩니다.
 
 * 페이지 호출이 줄어듭니다. 서버측 전달을 사용하면 DIL이 Analytics에서 전달되므로 [!DNL Audience Manager] 고객은 더 이상 데이터 수집에 DIL을 사용할 필요가 없습니다. DIL을 제거하면 `"/event"` 호출이 제거됩니다. 호출이 줄면 페이지 로드 시간이 향상되므로 사이트의 고객 경험이 향상됩니다.
-* CX 엔터프라이즈 솔루션 간 데이터 공유를 활용할 수 있습니다.
+* CX Enterprise 솔루션 간에 데이터를 공유할 수 있습니다.
 * Audience Manager 코드 구현 및 배포에 대한 모범 사례를 준수합니다.
 
 >[!TIP]
@@ -87,4 +99,4 @@ Analytics에서 어떤 데이터가 공유되는지를 더 세부적으로 제�
 
 >[!NOTE]
 >
->3개의 단계가 모두 완료되기 전까지는 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=ko) 또는 [대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)과 같은 다른 CX 엔터프라이즈 솔루션에 데이터가 표시되지 않습니다. 활성화한 후 이 설정이 적용되는 데에는 몇 시간이 걸립니다.
+>3개의 단계가 모두 완료되기 전까지는 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=ko) 또는 [대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)과 같은 다른 CX Enterprise 솔루션에 데이터가 표시되지 않습니다. 활성화한 후 이 설정이 적용되는 데에는 몇 시간이 걸립니다.

@@ -4,27 +4,38 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트 만들기
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
+TQID: 'https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 697
-ht-degree: 44%
-
+source-wordcount: '702'
+ht-degree: 43%
 ---
-
 # 가상 보고서 세트 만들기
 
 다음은 가상 보고서 세트 만들기를 시작하기 전에 주의해야 할 몇 가지 사항입니다.
@@ -67,7 +78,7 @@ ht-degree: 44%
 | 요소 | 설명 |
 | --- |--- |
 | **방문 정의 구성** |  |
-| 보고서 시간 처리 활성화 | 보고서 처리 시간 을 사용하여 기본 방문 시간 초과 길이를 변경합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. [자세히 알아보기](/help/components/vrs/vrs-report-time-processing.md) |
+| 보고 시점 처리 활성화 | 보고서 처리 시간 을 사용하여 기본 방문 시간 초과 길이를 변경합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. [자세히 알아보기](/help/components/vrs/vrs-report-time-processing.md) |
 | 방문 시간 초과 | 새 방문이 자동으로 시작되기 전에 고유 방문자가 보유해야 하는 비활성의 양을 정의합니다. 방문 횟수 지표, 방문 세그먼트 컨테이너 및 방문 시 만료되는 eVar에 영향을 줍니다. |
 | 이벤트로 새 방문 시작 | 세션의 시간이 초과되었는지 여부와 상관없이 지정된 이벤트가 발생하는 경우 새 세션을 시작합니다. |
 | **모바일 앱 방문 설정** | Adobe의 Mobile SDK에서 수집한 모바일 앱 조회수에 대해 방문 횟수가 정의되는 방식을 수정합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. |

@@ -4,27 +4,37 @@ title: 다중 세트 태그 지정 구현
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/djrzQEjvc--wnh2wR1HNV-LVEn6RPcyiaLKLha5pfSY
+TQID: 'https://experienceleague.adobe.com/djrzQEjvc--wnh2wR1HNV-LVEn6RPcyiaLKLha5pfSY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '302'
 ht-degree: 93%
-
 ---
-
 # 다중 세트 태그 지정 구현
 
 [다중 세트 태그 지정](/help/admin/tools/manage-rs/rollup-report-suite.md)을 사용하면 글로벌 보고서 세트뿐만 아니라 개별 하위 보고서 세트에도 이미지 요청을 보낼 수 있으므로 회사 글로벌 보고서 세트 데이터의 하위 집합을 다른 최종 사용자에게 제공할 수 있습니다.
@@ -39,7 +49,7 @@ ht-degree: 93%
 
 >[!TIP]
 >
-> 가장 좋은 방법은 글로벌 보고서 세트 또는 보고서 세트 ID를 먼저 나열하는 것입니다.
+> 모범 사례는 글로벌 보고서 세트 또는 보고서 세트 ID를 먼저 나열하는 것입니다.
 
 다중 세트 태그 지정은 글로벌 보고서 세트에 대한 기본 호출과 각 하위 보고서 세트에 대한 보조 호출 등 각 이미지 요청에 대해 여러 서버 호출을 발생시킵니다.
 
@@ -49,6 +59,6 @@ ht-degree: 93%
 
 ## 다중 세트 태그 지정 또는 가상 보고서 세트를 구현해야 합니까?
 
-다중 세트 태그 지정 대신 가상 보고서 세트를 사용하는 것이 모범 사례인 경우가 많지만 조직에 가장 적합한 보고서 세트 접근 방식을 비즈니스 요구 사항에 의해 결정됩니다.
+다중 세트 태그 지정 대신 가상 보고서 세트를 사용하는 것이 모범 사례인 경우가 많지만 조직에 가장 적합한 보고서 세트 접근 방식은 비즈니스 요구 사항에 따라 결정됩니다.
 
 가상 보고서 세트가 최상의 접근 방식인지 파악하려면 “[가상 보고서 세트 및 다중 세트 태그 지정 고려 사항](/help/components/vrs/vrs-considerations.md)”을 참조하십시오. 다중 세트 태그 지정과 가상 보고서 세트 기능을 비교하려면 &quot;[가상 보고서 세트와 다중 세트 태그 지정 비교](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot;도 참조하십시오.

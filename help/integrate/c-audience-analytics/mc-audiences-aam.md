@@ -7,27 +7,40 @@ exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
 TQID: 'https://experienceleague.adobe.com/WPB1fEJx1MaWpUNRCZ48ghAVyKyc5IwoGOdgQQ-tPhI'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Customer profiles
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: '522'
 ht-degree: 25%
-
 ---
-
 # Audience Analytics 개요
 
 Adobe Audience Manager(Adobe Audience Manager)는 퍼스트 파티, 세컨드 파티/파트너 및 서드 파티 데이터 통합에서 고유한 대상 프로필을 구축할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. 광고주에게 이러한 대상 프로필은 모든 디지털 채널에서 사용할 가장 중요한 세그먼트를 정의하는 데 도움이 됩니다.
@@ -60,18 +73,18 @@ Audience Analytics 통합에는 다음과 같은 주요 이점이 있습니다.
 1. [서버측 전달](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)을 사용하면 Analytics에서 수신한 각 히트가 자동으로 실시간으로 Adobe Audience Manager으로 전송됩니다.
 1. Audience Analytics 통합을 통해 각 히트에 대해 Adobe Audience Manager에서 방문자의 대상 멤버십을 조회하고 세그먼트 ID 목록을 실시간으로 처리하기 위해 Analytics에 반환됩니다.
 
-Adobe Audience Manager 세그먼트는 동일한 히트 기준으로 삽입되므로 Adobe Audience Manager에서 방문자에 대해 사용할 수 있는 모든 데이터가 누락되지 않고 해당 히트에 대해 최신 상태인지 확인할 수 있습니다. 이 기능은 (현재 히트가 아닌) 플러그인이 다음 히트에서만 사용할 수 있는 세그먼트를 만들 수 있으므로 AppMeasurement 플러그인보다 뛰어납니다.
+Adobe Audience Manager 세그먼트는 동일한 히트 기준으로 삽입되므로 Adobe Audience Manager에서 방문자에 대해 사용할 수 있는 모든 데이터가 누락되지 않고 해당 히트에 대해 최신 상태인지 확인할 수 있습니다. 플러그인은 해당 세그먼트를 다음 히트에서만 사용할 수 있게 하고 현재 히트에서는 사용할 수 없으므로, 이 기능은 AppMeasurement 플러그인보다 뛰어납니다.
 
 또한 Adobe Audience Manager 세그먼트 ID를 사용자에게 친숙한 이름으로 자동으로 분류하므로 Analytics 보고서에서 영숫자 ID를 확인하지 않아도 됩니다.
 
 ## 사전 요구 사항 {#prerequisites}
 
-다음 사전 요구 사항이 적용되었는지 확인합니다.
+다음 사전 요구 사항이 충족되었는지 확인합니다.
 
 * Audience Manager 및 Adobe Analytics의 고객입니다.
 * Audience Manager 관리자입니다.
 * Identity Service v1.5 이상을 사용하고 있습니다.
-* Adobe Audience Manager 및 Adobe Analytics 보고서 세트는 동일한 CX 엔터프라이즈 조직에 매핑됩니다.
+* Adobe Audience Manager 및 Adobe Analytics 보고서 세트는 동일한 CX Enterprise 조직에 매핑됩니다.
 * [서버측 전달](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko) (DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
 
 이러한 사전 요구 사항은 [Audience Analytics 워크플로](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)에 설명되어 있습니다.

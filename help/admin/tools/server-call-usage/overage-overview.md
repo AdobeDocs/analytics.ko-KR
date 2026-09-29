@@ -4,27 +4,37 @@ title: 서버 호출 사용량 개요
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
+TQID: 'https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 42%
-
 ---
-
 # 서버 호출 사용량
 
 Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호출 사용량 데이터 모두에 대한 투명성 요청을 해결합니다. 여기에서 다음에 액세스할 수 있습니다.
@@ -59,11 +69,11 @@ Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호
   </tr> 
   <tr> 
    <td colname="col1"> <p>청구 회사(청구 ID) </p> </td> 
-   <td colname="col2"> <p>서버 호출에 대해 청구되는 법인입니다. 예: adobe.com. 각 청구 회사에는 청구 고객을 고유하게 식별하는 데 사용되는 청구 ID가 있습니다. 과금 ID는 여러 CX 엔터프라이즈 조직에 연결될 수 있으며 조직과 과금 ID 간에 항상 1:1 관계가 있는 것은 아닙니다. </p> </td> 
+   <td colname="col2"> <p>서버 호출에 대해 청구되는 법인입니다. 예: adobe.com. 각 청구 회사에는 청구 고객을 고유하게 식별하는 데 사용되는 청구 ID가 있습니다. 청구 ID는 여러 CX Enterprise 조직에 연결될 수 있습니다. 조직과 청구 ID 간에 항상 1:1 관계가 있는 것은 아닙니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>로그인 회사 </p> </td> 
-   <td colname="col2"> <p>한 청구 회사에 <a href="https://helpx.adobe.com/kr/analytics/kb/multiple-login-companies.html">여러 로그인 회사</a>가 있을 수 있습니다. 로그인 회사는 조직에서 사용한 보고서 세트들의 컬렉션입니다. 일부 조직에는 조직의 여러 부분에 해당되는 여러 로그인 회사가 있습니다. 이 기능은 많은 보고서 세트를 회사의 다른 사용자에게 적용할 수 없는 다양한 비즈니스 단위를 처리하는 대규모 조직에 특히 유용합니다. </p> <p>종종 이들은 기업의 지역 자회사입니다. 다음 예에서는 로그인 회사 및 관련 보고서 세트를 보여 줍니다. </p> 
+   <td colname="col2"> <p>한 청구 회사에 <a href="https://helpx.adobe.com/kr/analytics/kb/multiple-login-companies.html">여러 로그인 회사</a>가 있을 수 있습니다. 로그인 회사는 조직에서 사용하는 보고서 세트의 컬렉션입니다. 일부 조직에는 조직의 서로 다른 부분에 적용되는 여러 로그인 회사가 있습니다. 이 기능은 많은 보고서 세트를 회사의 다른 사용자에게 적용할 수 없는 다양한 비즈니스 단위를 처리하는 대규모 조직에 특히 유용합니다. </p> <p>종종 이들은 기업의 지역 자회사입니다. 다음 예에서는 로그인 회사 및 관련 보고서 세트를 보여 줍니다. </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide: RS1, RS2, RS3, RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
@@ -72,8 +82,8 @@ Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호
     </ul> <p>참고: 청구 회사 내의 <u>모든</u> 보고서 세트에 대한 서버 호출 사용량 데이터는 해당 <a href="/help/admin/admin-console/permissions/analytics-tools.md">권한</a>이 있는 모든 사용자가 볼 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CX 엔터프라이즈 조직 </p> </td> 
-   <td colname="col2"> <p>조직은 관리자가 그룹과 사용자를 구성하고, CX Enterprise에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 항목입니다. 조직은 모든 CX 엔터프라이즈 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. </p> <p>대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다. </p> </td> 
+   <td colname="col1"> <p>CX Enterprise 조직 </p> </td> 
+   <td colname="col2"> <p>조직은 관리자가 그룹과 사용자를 구성하고, CX Enterprise에서 단일 사인온을 제어할 수 있도록 하는 항목입니다. 조직은 모든 CX Enterprise 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. </p> <p>대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>서버 호출 약정 </p> </td> 

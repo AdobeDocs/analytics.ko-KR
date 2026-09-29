@@ -1,30 +1,38 @@
 ---
 title: writeSecureCookies
-description: AppMeasurement가 Secure 속성을 사용하여 쿠키를 설정할 수 있도록 허용합니다.
+description: AppMeasurement가 Secure 속성이 있는 쿠키를 설정할 수 있도록 허용합니다.
 feature: Appmeasurement Implementation
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/Eifs1WrhCzcOdHJ2HJADqZrIkNFgC7h76do3W56otjA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: '278'
 ht-degree: 77%
-
 ---
-
 # writeSecureCookies
 
 `writeSecureCookies` 변수를 사용하면 AppMeasurement가 Analytics에 대한 [보안 쿠키](https://en.wikipedia.org/wiki/Secure_cookie)를 설정할 수 있습니다. 이 설정은 AppMeasurement에서 설정한 방문자 ID 쿠키와 `Util.CookieWrite()` 메서드를 사용하여 설정한 쿠키에 모두 적용됩니다. 이렇게 하려면 AppMeasurement 2.18.0 이상이 필요합니다.

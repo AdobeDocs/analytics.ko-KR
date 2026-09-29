@@ -7,24 +7,32 @@ exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 TQID: 'https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 84%
-
 ---
-
 # 레이블 지정의 예
 
 ## 샘플 히트 데이터 {#hit}
@@ -51,7 +59,7 @@ ht-degree: 84%
 
 액세스 요청을 제출하면 데이터 주체에게 반환할 수 있는 두 개의 파일을 받게 됩니다. 한 파일은 데이터 주체에 대해 수신된 각 히트에 대한 행과 각 변수에 대해 적절한 액세스 레이블이 포함된 열을 가진 CSV 파일입니다. 다른 파일은 각 변수를 나열하고, 해당 변수에 대해 데이터 주체의 고유 값과 각 고유 값이 나타난 횟수를 포함하는 요약 HTML 파일입니다.
 
-예를 들어 요약 파일에는 아래 표에 표시된 값이 포함되어 있습니다. 요청은 디바이스 파일만 반환하거나 개인 파일만 반환할 수 있습니다(즉, 각각에 대해 하나). 개인 ID가 사용되고 `expandIds`가 true인 경우에만 두 개의 요약 파일이 반환됩니다.
+예를 들어 요약 파일에는 아래 표에 표시된 값이 포함되어 있습니다. 요청은 디바이스 파일만 반환하거나 개인 파일만 반환하거나 각각 하나씩 반환할 수 있습니다. 개인 ID가 사용되고 `expandIds`가 true인 경우에만 두 개의 요약 파일이 반환됩니다.
 
 <table>
   <tr>

@@ -7,19 +7,28 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/-d3QyBm0RW5arsRHNHY4ov7YJxVFZrNdvXhVIuU6Ih4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 77%
-
 ---
-
 # H 코드 JavaScript 구현 개요
 
 >[!IMPORTANT]
@@ -42,7 +51,7 @@ ht-degree: 77%
    >
    >H 코드를 사용하려면 `s_code.js` 스크립트가 `<body>` 태그 내에 호출되어 있어야 합니다. 이는 다른 구현 메서드와 다르며, 대부분은 스크립트 참조가 `<head>` 태그에 있어야 합니다.
 1. **각 페이지에서 페이지별 변수 정의**: 각 페이지에는 페이지 이름이나 eVar와 같은 개별 변수가 정의되어 있어야 합니다. 개별 변수는 일반적으로 각 페이지에서 인라인 `<script>` 태그로 정의됩니다.
-1. **디버거를 사용하여 데이터 수집을 확인**: [CX Enterprise 디버거를 다운로드하여 설치](../../validate/debugger.md)하여 데이터가 Adobe으로 전송되고 페이지 변수가 올바르게 정의되었는지 확인하십시오.
+1. **디버거를 사용하여 데이터 수집을 확인합니다**: [CX Enterprise 디버거](../../validate/debugger.md)를 다운로드하여 설치하여 데이터가 Adobe으로 전송되고 페이지 변수가 올바르게 정의되었는지 확인합니다.
 
 ## 캐싱
 

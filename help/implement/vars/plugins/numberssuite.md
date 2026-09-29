@@ -7,29 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/YFelBs9LtJboFZKcwBCn5SX47SZtOPDFWkLEB59VSo0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 645
+source-wordcount: '645'
 ht-degree: 88%
-
 ---
-
-# Adobe 플러그인: 숫자 세트
+# Adobe 플러그인: Numbers Suite
 
 {{plug-in}}
 
-숫자 세트는 일련의 JavaScript 함수입니다. 여기에는 다음 플러그인이 포함되어 있습니다.
+Numbers Suite는 일련의 JavaScript 함수입니다. 여기에는 다음 플러그인이 포함되어 있습니다.
 
 * **`zeroPad`**: 숫자의 시작 부분에 특정 개수의 0을 추가합니다. 이 플러그인은 JavaScript 날짜 개체를 사용하여 작업하고 한 자리 숫자가 아닌 두 자리 숫자로 날짜의 달과 일의 서식을 지정하려는 경우와 같이 변수에 특정 자릿수를 사용해야 할 경우에 유용합니다. 예를 들어 `1/9/2020` 대신 `01/09/2020`을 사용해야 할 경우가 있습니다.
 * **`randomNumber`**: 특정 자릿수를 사용하는 난수를 생성합니다. 이 플러그인은 서드파티 태그를 배포하고 캐시 무효화 난수를 원하는 경우에 유용합니다.

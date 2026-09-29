@@ -4,33 +4,47 @@ title: 개인 정보 보호 레이블 지정 개요
 feature: Data Governance
 role: Admin
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-TQID: https://experienceleague.adobe.com/xEs37qiYjTVJWRDKa7HwJqfTtyBYKstA6ehq1-0qKt0
+TQID: 'https://experienceleague.adobe.com/xEs37qiYjTVJWRDKa7HwJqfTtyBYKstA6ehq1-0qKt0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 534
+source-wordcount: '534'
 ht-degree: 94%
-
 ---
-
 # 개인 정보 보호 레이블 지정 개요
 
 보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. 먼저 [레이블 및 해당 정의](/help/admin/tools/privacy-labeling/labels.md)를 숙지하십시오.
@@ -52,7 +66,7 @@ ht-degree: 94%
 1. 왼쪽의 필터 섹션에서 레이블을 지정할 변수 그룹을 선택합니다. 한 번에 하나의 변수 그룹만 레이블을 지정할 수 있습니다.
 
    * **표준 구성 요소** - 표준 구성 요소는 Analytics 구현 내에서 기본적으로 수집되는 기본 제공 Analytics 차원 및 지표입니다.
-   * **전환 변수** - 사용자 정의 전환 변수 (또는 eVar)는 사이트에서 선택된 웹 페이지의 Adobe 코드에 삽입됩니다. eVar의 기본 목적은 사용자 정의 마케팅 보고서의 전환 성공 지표를 세그먼트화하는 것입니다. eVar는 방문 기준이며 쿠키와 유사한 기능을 수행할 수 있습니다. eVar 변수로 전달된 값은 사전 결정된 기간 동안 사용자를 따릅니다.
+   * **전환 변수** - 사용자 정의 전환 변수 (또는 eVar)는 사이트에서 선택된 웹 페이지의 Adobe 코드에 삽입됩니다. eVar의 기본 목적은 사용자 정의 마케팅 보고서의 전환 성공 지표를 세그먼트화하는 것입니다. eVar는 방문 기준이며 쿠키와 유사한 기능을 수행할 수 있습니다. eVar 변수로 전달된 값은 미리 정해진 기간 동안 사용자에게 계속 적용됩니다.
    * **목록 변수** - 목록 변수는 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. 이 변수는 동일한 히트에서 여러 값을 포함할 수 있다는 점을 제외하면 eVar와 유사하게 작동합니다. 목록 변수에는 문자 제한이 없습니다.
    * **트래픽 변수** - 사용자 정의 인사이트 트래픽 변수(또는 prop)를 사용하여 사용자 정의 데이터를 특정 트래픽 관련 이벤트에 연관시킬 수 있습니다. prop 변수는 웹 사이트의 각 페이지에 있는 구현 코드에 임베드됩니다.
    * **성공 이벤트** - 성공 이벤트(전환 이벤트 또는 사용자 정의 이벤트라고도 함)는 추적할 수 있는 작업입니다. 성공 이벤트가 무엇인지 결정합니다. 예를 들어 방문자가 품목을 구매하면 구매 이벤트를 성공 이벤트로 간주할 수 있습니다.

@@ -3,24 +3,33 @@ title: 이벤트의 영향을 받은 날짜를 이전 범위와 비교
 description: 이전 트렌드와 비교하여 구현 문제 또는 중단과 같은 이벤트의 영향에 대해 알아봅니다.
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
 feature: Curate and Share
-TQID: https://experienceleague.adobe.com/g9-IhtHCTJQ0C7wF-FxwHkYuH7QnOLtEvH20JwBz0lE
+TQID: 'https://experienceleague.adobe.com/g9-IhtHCTJQ0C7wF-FxwHkYuH7QnOLtEvH20JwBz0lE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: '627'
 ht-degree: 0%
-
 ---
-
 # 이벤트의 영향을 받은 날짜를 이전 범위와 비교
 
 [이벤트의 영향을 받은 데이터](overview.md)가 있는 경우 이전 추세를 확인하여 영향을 측정할 수 있습니다. 이 비교는 이벤트가 데이터에 미치는 영향의 정도를 이해하는 데 유용합니다. 따라서 데이터를 제외할지, 보고서에 메모를 추가할지 또는 무시할지 여부를 결정할 수 있습니다.

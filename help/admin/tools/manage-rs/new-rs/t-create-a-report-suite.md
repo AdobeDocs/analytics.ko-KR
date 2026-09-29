@@ -3,28 +3,37 @@ description: Adobe Analytics에서 데이터 수집을 위한 기본 컨테이�
 title: 보고서 세트 만들기
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-TQID: https://experienceleague.adobe.com/ZmPcYHvXOhaXXnqsSVUh1bpvignxomS3d4S76iMCAa4
+TQID: 'https://experienceleague.adobe.com/ZmPcYHvXOhaXXnqsSVUh1bpvignxomS3d4S76iMCAa4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 312
+source-wordcount: '312'
 ht-degree: 87%
-
 ---
-
 # 보고서 세트 만들기
 
 보고서 세트는 Adobe Analytics가 보고서를 가져오는 데 사용하는 데이터의 사일로입니다. 조직에는 여러 개의 보고서 세트가 있을 수 있으며, 각 보고서 세트에는 서로 다른 데이터 세트가 포함되어 있습니다. 이전에는 개별 보고서 세트가 중요했지만 단일 보고서 세트가 더 유용해졌습니다. [가상 보고서 세트](/help/components/vrs/vrs-about.md#virtual-report-suites)및 보고서 처리 시간을 도입하면 관리자가 고유한 데이터 하위 집합을 만들 수 있으므로 전역 데이터와 사이트별 데이터를 모두 유연하게 얻을 수 있습니다.
@@ -33,7 +42,7 @@ ht-degree: 87%
 
 ## 사전 요구 사항
 
-[Adobe Analytics 첫 번째 관리 안내서](/help/admin/admin-console/first-admin-guide.md): 시스템 수준 관리자가 CX 엔터프라이즈 Admin Console을 통해 Adobe Analytics에 대한 액세스 권한을 부여했는지 확인하십시오.
+[Adobe Analytics 첫 번째 관리 안내서](/help/admin/admin-console/first-admin-guide.md): 시스템 수준 관리자가 CX Enterprise Admin Console을 통해 Adobe Analytics에 대한 액세스 권한을 부여했는지 확인하십시오.
 
 ## 보고서 세트 만들기 {#create-report-suite}
 

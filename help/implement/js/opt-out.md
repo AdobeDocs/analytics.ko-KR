@@ -1,33 +1,45 @@
 ---
 title: 옵트아웃 링크
-description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
+description: 사이트 방문자를 위한 옵트아웃 링크를 만들고 구현하는 방법을 알아봅니다.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+TQID: 'https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 653
+source-wordcount: '653'
 ht-degree: 64%
-
 ---
-
 # 구현 옵트아웃 링크
 
 >[!IMPORTANT]
@@ -37,7 +49,7 @@ ht-degree: 64%
 
 웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe은 웹 사이트 방문자가 분석 대상 정보를 옵트아웃할 수 있는 기능을 제공합니다.
 
-옵트아웃 링크는 웹 사이트 방문자가 Analytics 보고에서 데이터를 생략하도록 허용하는 방법입니다. 이러한 링크는 AppMeasurement 구현으로 제한됩니다. Adobe에서는 대신 [Adobe CX 엔터프라이즈 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)를 사용하는 것이 좋습니다. 옵트인 서비스는 보다 강력하며 Adobe Analytics 및 AppMeasurement을 비롯한 여러 Adobe CX 엔터프라이즈 제품에서 작동합니다.
+옵트아웃 링크는 웹 사이트 방문자가 Analytics 보고에서 데이터를 생략하도록 허용하는 방법입니다. 이러한 링크는 AppMeasurement 구현으로 제한됩니다. Adobe에서는 대신 [Adobe CX Enterprise 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)를 사용하는 것이 좋습니다. 옵트인 서비스는 보다 강력하며 Adobe Analytics 및 AppMeasurement을 포함한 여러 Adobe CX Enterprise 제품에서 작동합니다.
 
 방문자가 옵트아웃 URL에 도달하면 옵트아웃 쿠키를 설치하라는 메시지가 표시됩니다. 사용자가 추적되지 않도록 선택하고 옵트아웃 쿠키가 설정된 경우 AppMeasurement은 Adobe으로 데이터를 계속 전송합니다. 하지만 이 데이터는 처리되거나 보고서에 포함되지 않습니다.
 
@@ -59,9 +71,9 @@ ht-degree: 64%
   1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
   1. `trackingServer` 변수 값을 확인합니다.
 
-* [Adobe CX Enterprise Debugger 사용](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ko):
+* [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ko) 사용:
   1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
-  1. CX 엔터프라이즈 디버거를 연 다음 [!UICONTROL 네트워크 탭]&#x200B;(으)로 이동합니다.
+  1. CX Enterprise Debugger를 열고 [!UICONTROL 네트워크 탭]&#x200B;(으)로 이동합니다.
   1. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
 
 구현의 `trackingServer` 도메인을 찾으면 경로 `/optout.html`을 끝에 추가합니다. 예:
@@ -75,7 +87,7 @@ ht-degree: 64%
 
 ### 로케일
 
-`locale` 쿼리 문자열 매개 변수를 포함하여 옵트아웃 페이지의 언어를 자동으로 전환하십시오. 이 쿼리 문자열 매개 변수는 다음 값 중 하나를 지정합니다.
+`locale` 쿼리 문자열 매개 변수를 포함하여 옵트아웃 페이지의 언어를 자동으로 전환하십시오. 이 쿼리 문자열 매개변수에 다음 값 중 하나를 할당합니다.
 
 * `en_US`(영어, 기본값)
 * `bg_BG`(불가리아어)
@@ -110,7 +122,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->이전에는 이 쿼리 문자열 매개 변수를 사용하여 팝업 창을 만들었습니다. 그러나 대부분의 최신 브라우저는 최종 사용자가 팝업을 제어할 수 있도록 합니다.
+>이전에는 이 쿼리 문자열 매개변수가 팝업 창을 강제로 표시했습니다. 그러나 대부분의 최신 브라우저는 최종 사용자가 팝업을 제어할 수 있도록 합니다.
 
 ### 옵트아웃 한 번 클릭
 

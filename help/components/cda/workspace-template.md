@@ -4,31 +4,45 @@ description: Analysis Workspace 내의 CDA 템플릿에 있는 각 필드에 대
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/Zui1m27pi3eQnm-dac2akfGRF01IbPaQ0SwLD01iDAE
+TQID: 'https://experienceleague.adobe.com/Zui1m27pi3eQnm-dac2akfGRF01IbPaQ0SwLD01iDAE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Experimentation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '391'
 ht-degree: 92%
-
 ---
-
 # CDA 작업 영역 템플릿
 
 {{available-existing-customers}}
@@ -41,14 +55,14 @@ Adobe는 중요한 교차 장치 성능 데이터를 볼 수 있는 템플릿을
 1. “크로스 디바이스 분석” 템플릿을 찾은 다음 [!UICONTROL 만들기]를 클릭합니다.
 1. 메시지가 표시되면 보고서 세트를 CDA를 지원하는 보고서 세트로 변경합니다.
 
-여러 패널이 포함된 Analysis Workspace 프로젝트가 만들어집니다. 맨 위에는 콘텐츠와 소개 테이블이 표시되어 보고서에 대한 컨텍스트와 개별 보고서에 대한 탐색을 허용할 수 있습니다. 목차 내의 링크를 클릭하거나 패널의 아코디언을 확장하여 그러한 보고서를 봅니다.
+여러 패널이 포함된 Analysis Workspace 프로젝트가 만들어집니다. 맨 위에는 목차와 소개가 표시되어 보고서에 대한 컨텍스트와 개별 보고서로의 탐색을 제공합니다. 목차 내의 링크를 클릭하거나 패널의 아코디언을 확장하여 그러한 보고서를 봅니다.
 
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **사용자 식별**: 크로스 디바이스 분석을 기반으로 한 메서드를 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
 * **대상자 크기 측정**: &#39;사람&#39; 대비 &#39;고유 디바이스&#39;의 비교를 보여 줍니다. 이 두 숫자의 비율을 &#39;크로스 디바이스 압축&#39;이라고 하며, 이 패널에 표시되는 계산된 지표입니다. 이 압축 지표는 다양한 요인에 따라 다릅니다.
   * 로그인 비율: 사이트에 로그인하는 사용자가 많을수록 Adobe가 장치들 간에 더 많은 방문자를 식별하고 결합할 수 있습니다. 로그인 비율이 낮은 사이트는 압축률도 낮습니다.
-  * Experience Cloud ID 범위: ECID가 있는 방문자만 결합할 수 있습니다. ECID를 사용하는 사이트에 대한 방문자의 낮은 비율은 낮은 압축률과 상호 연관성이 있습니다.
+  * Experience Cloud ID 범위: ECID가 있는 방문자만 결합할 수 있습니다. 사이트 방문자 중 ECID를 사용하는 비율이 낮을수록 압축률도 낮아집니다.
   * 여러 장치 사용: 사이트 방문자가 여러 장치를 사용하지 않는다면 압축률도 낮습니다.
   * 보고 세부 기간: 일별 압축은 일반적으로 월별 또는 연별 압축보다 작습니다. 개인이 여러 장치를 사용할 가능성은 범위가 한 달일 때보다 하루일 때 더 작아집니다. 세그먼트화, 필터링 또는 분류 차원 사용 시에도 압축률이 더 낮아질 수 있습니다.
 * **사람 기반 세그먼트**: 장치별 데이터를 볼 수 있는 세그먼트 드롭다운 목록을 포함합니다. 이 패널에서는 디바이스 유형을 포함하거나 제외하는 것이 보고서에 어떤 영향을 미치는지 세그먼트로 실험해 볼 것을 권장합니다.

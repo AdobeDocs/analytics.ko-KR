@@ -7,33 +7,47 @@ exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 TQID: 'https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: '1004'
 ht-degree: 88%
-
 ---
-
 # 개인정보 보호 개요
 
-Adobe는 귀하의 조직이 해당 법률 및 규정을 준수할 수 있도록 지원하고자 합니다. 자세한 내용은 [Adobe CX Enterprise 개인 정보](https://www.adobe.com/kr/privacy/experience-cloud.html){target=_blank}를 참조하십시오. Adobe Analytics와 귀하의 조직 사이에서 Adobe는 “데이터 처리자” 역할을 하며 귀하는 “데이터 컨트롤러” 역할(또는 관련 개인정보 보호 및 데이터 보호법에 따라 이에 상응하는 역할)을 합니다. 조직에서 Adobe의 솔루션 구현 방법을 독점적으로 제어하기 때문에 Adobe 제품 및 서비스의 사용 방법은 조직의 판단에 따라 공개합니다. Adobe Analytics를 사용하는 동안 귀하의 조직은 자체 개인정보 처리방침, Adobe와의 서비스 계약 및 모든 관련 법률을 준수할 책임이 있습니다.
+Adobe는 귀하의 조직이 해당 법률 및 규정을 준수할 수 있도록 지원하고자 합니다. 자세한 내용은 [Adobe CX Enterprise 개인 정보](https://www.adobe.com/kr/privacy/experience-cloud.html){target=_blank}를 참조하십시오. Adobe Analytics와 귀하의 조직 사이에서 Adobe는 “데이터 처리자” 역할을 하며 귀하는 “데이터 컨트롤러” 역할(또는 관련 개인정보 보호 및 데이터 보호법에 따라 이에 상응하는 역할)을 합니다. 조직에서 Adobe의 솔루션 구현 방법을 독점적으로 제어하기 때문에 Adobe 제품 및 서비스를 어떻게 사용하는지 공개하는 것은 조직의 책임입니다. Adobe Analytics를 사용하는 동안 귀하의 조직은 자체 개인정보 처리방침, Adobe와의 서비스 계약 및 모든 관련 법률을 준수할 책임이 있습니다.
 
 Adobe는 다음과 같은 중요한 개념을 준수할 것을 강력히 권장합니다.
 
@@ -55,10 +69,10 @@ Adobe Analytics는 다음 유형의 데이터를 수집할 수 있습니다.
 | --- | --- | --- |
 | 사이트에 있는 웹 페이지의 페이지 이름 또는 URL | Adobe Analytics가 작동하려면 이 데이터가 필요합니다. 모든 히트에는 URL 또는 페이지 이름이 필요합니다. | [페이지](/help/components/dimensions/page.md), [페이지 URL](/help/components/dimensions/page-url.md) |
 | 시간 기반 데이터 | Adobe Analytics가 작동하려면 이 데이터가 필요합니다. 데이터 수집에는 타임스탬프가 필요하며, 시간 기반 데이터는 타임스탬프에서 파생됩니다. | [페이지에서 보낸 시간](/help/components/dimensions/time-spent-on-page.md), [시간(일 기준)](/help/components/dimensions/hour-of-day.md), [오전/오후](/help/components/dimensions/am-pm.md), [평일/주말](/help/components/dimensions/weekday-weekend.md), [요일](/help/components/dimensions/day-of-week.md), [월(연 기준)](/help/components/dimensions/month-of-year.md) |
-| 레퍼러 데이터 | 데이터 수집 라이브러리는 방문자가 웹 사이트에 도착할 때 기본적으로 참조 URL을 수집합니다. 레퍼러의 쿼리 문자열 내에서 데이터를 수집하도록 구현을 사용자 정의할 수 있습니다. 이 방법은 캠페인 및 광고 성과 추적에 일반적입니다. | [레퍼러](/help/components/dimensions/referrer.md), [참조 도메인](/help/components/dimensions/referring-domain.md) |
-| 익명화된 방문자 ID | 데이터 수집 라이브러리는 사이트를 방문하는 각 브라우저에 대한 방문자 ID를 생성하고 참조합니다. 이 ID는 쿠키에 저장됩니다. 데이터 수집 라이브러리가 쿠키 식별자를 설정할 수 없는 경우 라이브러리는 익명 방문자 식별이라는 대체 방법을 사용합니다. 이 방법에는 방문자의 IP 주소와 사용자 에이전트 문자열을 사용하여 관련 히트를 동일한 방문에 연결하는 작업이 포함됩니다. 조직에서 IP 난독화가 활성화된 경우 이 설정이 적용됩니다. 자세한 내용은 [Adobe Analytics 및 브라우저 쿠키](../cookies/cookies.md)를 참조하십시오. | [고유 방문자 수](/help/components/metrics/unique-visitors.md) |
+| 레퍼러 데이터 | 데이터 수집 라이브러리는 방문자가 웹 사이트에 도착할 때 기본적으로 참조 URL을 수집합니다. 레퍼러의 쿼리 문자열 내에서 데이터를 수집하도록 구현을 사용자 정의할 수 있습니다. 이 방법은 캠페인 및 광고 성과 추적에 일반적으로 사용됩니다. | [레퍼러](/help/components/dimensions/referrer.md), [참조 도메인](/help/components/dimensions/referring-domain.md) |
+| 익명화된 방문자 ID | 데이터 수집 라이브러리는 사이트를 방문하는 각 브라우저에 대한 방문자 ID를 생성하고 참조합니다. 이 ID는 쿠키에 저장됩니다. 데이터 수집 라이브러리가 쿠키 식별자를 설정할 수 없는 경우 라이브러리는 익명 방문자를 식별하는 대체 방법을 사용합니다. 이 방법에는 방문자의 IP 주소와 사용자 에이전트 문자열을 사용하여 관련 히트를 동일한 방문에 연결하는 작업이 포함됩니다. 조직에서 IP 난독화가 활성화된 경우 이 설정이 적용됩니다. 자세한 내용은 [Adobe Analytics 및 브라우저 쿠키](../cookies/cookies.md)를 참조하십시오. | [고유 방문자 수](/help/components/metrics/unique-visitors.md) |
 | 식별 가능한 방문자 ID | Adobe는 사용자 정의 방문자 ID를 자동으로 수집하지 않습니다. 그러나 이 데이터를 수집하도록 구현을 사용자 정의할 수 있습니다. | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) |
-| 외부 검색어 | 외부 검색 데이터에는 검색 엔진에서 발생한 키워드가 포함됩니다. 데이터 수집 라이브러리는 참조 URL을 기반으로 이 데이터를 찾습니다. 그러나 대다수의 최신 검색 엔진에 더 이상 이 정보가 포함되지 않습니다. | [검색 키워드](/help/components/dimensions/search-keyword.md) |
+| 외부 검색어 | 외부 검색 데이터에는 검색 엔진에서 유래한 키워드가 포함됩니다. 데이터 수집 라이브러리는 참조 URL을 기반으로 이 데이터를 찾습니다. 그러나 대다수의 최신 검색 엔진에 더 이상 이 정보가 포함되지 않습니다. | [검색 키워드](/help/components/dimensions/search-keyword.md) |
 | 내부 검색어 | 내부 검색 데이터에는 웹 사이트나 앱의 검색 기능 내에서 발생한 키워드가 포함됩니다. Adobe는 내부 검색 데이터를 자동으로 수집하지 않습니다. 그러나 이 데이터를 수집하도록 구현을 사용자 정의할 수 있습니다. 이 방법은 Adobe Analytics를 사용하는 조직에서 일반적입니다. | [eVar](/help/components/dimensions/evar.md) |
 | 컴퓨터 및 브라우저 사양 | 데이터 수집 라이브러리는 브라우저 유형, 운영 체제 유형, 디바이스가 데스크탑인지 모바일인지 여부 등 낮은 엔트로피 브라우저 힌트를 자동으로 수집합니다. 브라우저의 특정 버전/빌드, 디바이스 모델 또는 운영 체제 버전과 같은 높은 엔트로피 힌트를 수집하려면 사용자 정의 구성이 필요합니다. 자세한 내용은 [클라이언트 힌트 개요](../client-hints.md)를 참조하십시오. | [브라우저](/help/components/dimensions/browser.md), [운영 체제](/help/components/dimensions/operating-systems.md), [모바일 차원](/help/components/dimensions/mobile-dimensions.md), [모니터 해상도](/help/components/dimensions/monitor-resolution.md) |
 | 지리적 위치 정보 | Adobe는 IP 주소의 마지막 옥텟을 0으로 설정하여 자세한 지리적 위치를 방지하는 기능을 제공합니다. 이 기능은 지리적 정보의 정확성을 낮추는 역할을 하며, [보고서 세트 설정](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)에서 설정할 수 있습니다. | [도시](/help/components/dimensions/cities.md), [지역](/help/components/dimensions/regions.md), [국가](/help/components/dimensions/countries.md) |

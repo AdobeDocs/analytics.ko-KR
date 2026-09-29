@@ -3,27 +3,37 @@ description: 모바일 서비스 처리 규칙을 Adobe Analytics로 마이그�
 title: 모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-TQID: https://experienceleague.adobe.com/ISDjTVU-ro6M-zZmIvUHlvQKo8VsiCvyXlhaq-O7H58
+TQID: 'https://experienceleague.adobe.com/ISDjTVU-ro6M-zZmIvUHlvQKo8VsiCvyXlhaq-O7H58'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
+  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: '701'
 ht-degree: 89%
-
 ---
-
 # 모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션
 
 이 문서는 모바일 서비스 UI에서 생성한 추가 처리 규칙 (라이프사이클 지표 이외)을 Adobe Analytics로 마이그레이션하는 방법에 대한 지침을 제공합니다.
@@ -34,17 +44,17 @@ ht-degree: 89%
 
 ## 처리 규칙 마이그레이션
 
-처리 규칙 및 사용 현황 보고 기능과 같은 무료 기능에 모바일 서비스를 활용하는 경우 분석 UI (처리 규칙 UI 또는 Analysis Workspace)로 원활하게 이동하여 이러한 기능을 수행할 수 있습니다. 라이프사이클 지표 또는 AA 처리 규칙 UI에서 설정된 규칙의 경우 마이그레이션을 수행할 필요가 없습니다. 라이프사이클 지표는 모바일 SDK가 앱에서 처음 구현될 때 자동으로 수집되는 “기본 제공” 지표입니다.
+처리 규칙 및 사용 현황 보고 기능과 같은 무료 기능에 모바일 서비스를 활용하는 경우 Analytics UI (처리 규칙 UI 또는 Analysis Workspace)로 원활하게 이동하여 이러한 기능을 수행할 수 있습니다. 라이프사이클 지표 또는 AA 처리 규칙 UI에서 설정된 규칙의 경우 마이그레이션을 수행할 필요가 없습니다. 라이프사이클 지표는 모바일 SDK가 앱에서 처음 구현될 때 자동으로 수집되는 “기본 제공” 지표입니다.
 
 그러나 모바일 서비스 UI (라이프사이클 지표 이외)에서 추가 처리 규칙을 설정한 경우 모바일 서비스에 대한 액세스 권한을 잃은 후에 Analytics에서 편집/삭제할 수 있도록 이를 마이그레이션해야 합니다.
 
 1. `experience.adobe.com`에 로그인하고 모바일 서비스로 이동합니다.
-1. 컨텍스트 변수 매핑을 Adobe Analytics로 마이그레이션하려는 모바일 앱의 톱니 바퀴 아이콘을 클릭합니다.
+1. 컨텍스트 변수 매핑을 Adobe Analytics로 마이그레이션하려는 모바일 앱의 톱니바퀴 아이콘을 클릭합니다.
 1. **[!UICONTROL 변수 및 지표 관리]** 메뉴 항목을 클릭한 다음&#x200B;**[!UICONTROL 사용자 지정 변수]** 탭을 클릭합니다. 여기에서 구성에 추가된 컨텍스트 변수 매핑 (컨텍스트 데이터)을 확인할 수 있습니다. 이러한 구성을 기록해 두거나 스크린 샷을 찍으십시오. 예:
 
    ![컨텍스트 변수](assets/context-var.png)
 
-1. CX Enterprise에서 Adobe Analytics으로 전환하고 Mobile Services에서 보고 있었던 모바일 보고서 세트와 동일한 세트에 있는지 확인합니다.
+1. CX Enterprise에서 Adobe Analytics으로 전환하고 Mobile Services에서 보고 있었던 모바일 보고서 세트와 동일한 것에 있는지 확인합니다.
 1. **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 처리 규칙]**&#x200B;으로 이동합니다.
 1. **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
 1. 조건을 무시하고 계속해서 모바일 서비스에 존재하는 동일한 컨텍스트 변수를 추가합니다.

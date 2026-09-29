@@ -4,28 +4,39 @@ description: 표시되거나 장바구니에 있는 제품에 대한 데이터�
 feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo
+TQID: 'https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: '663'
 ht-degree: 100%
-
 ---
-
 # products
 
 `products` 변수는 제품과 제품에 연결된 속성을 추적하는데 일반적으로 개별 제품 페이지, 장바구니 페이지 및 구매 확인 페이지에서 설정됩니다. 이 변수는 여러 값을 갖는 변수입니다. 이것은 동일한 히트에서 여러 제품을 보낼 수 있고 Adobe가 값을 별도의 차원 항목으로 구문 분석함을 의미합니다.
@@ -34,7 +45,7 @@ ht-degree: 100%
 >
 >히트에서 이 변수가 [`events`](events/events-overview.md) 변수 없이 설정되면 [제품 보기](/help/components/metrics/product-views.md) 지표가 1만큼 증가합니다. `products` 변수가 있는 각 히트에 대해 적합한 이벤트를 설정해야 합니다.
 
-## 웹 SDK을 사용하는 제품
+## 웹 SDK를 사용하는 제품
 
 [**XDM 오브젝트**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;를 사용하는 경우 제품은 다음 변수에 매핑됩니다.
 
@@ -118,7 +129,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->제품 이름, 카테고리 및 머천다이징 eVar 값에서 모든 세미콜론, 쉼표 및 파이프를 제거하십시오. 제품 이름에 쉼표가 포함되어 있으면 AppMeasurement가 해당 쉼표를 새 제품의 시작으로 구문 분석합니다. 이렇게 잘못된 구문 분석이 제품 문자열의 나머지 부분에서 발생하면 차원 및 보고서에서 잘못된 데이터가 생성됩니다.
+>제품 이름, 카테고리 및 머천다이징 eVar 값에서 모든 세미콜론, 쉼표 및 파이프를 제거하십시오. 제품 이름에 쉼표가 포함되어 있으면 AppMeasurement가 해당 쉼표를 새 제품의 시작으로 구문 분석합니다. 이 잘못된 구문 분석으로 인해 제품 문자열의 나머지 부분이 틀어져 차원 및 보고서에 잘못된 데이터가 발생합니다.
 
 ## 예
 

@@ -6,20 +6,30 @@ exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 TQID: 'https://experienceleague.adobe.com/RjKoKg5fyxSwXNSQRCGHhJQcfjkwLIrVsKDBCFpJ5Ac'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 28%
-
 ---
-
 # Analytics 및 Audience Manager의 세그먼트 이해
 
 Analytics와 Audience Manager은 모두 세그먼트를 사용합니다. 그러나 Analytics 세그먼트는 Audience Manager 세그먼트와 정확히 동일하지 않습니다. 이러한 차이는 부분적으로 Analytics 및 Audience Manager 보고서에 표시되는 불일치를 초래합니다. 따라서 이러한 두 솔루션의 세그먼트를 사용하여 작업을 시작할 때 이러한 차이점을 이해하고 사용하는 것이 중요하며 유용합니다.
@@ -41,7 +51,7 @@ Audience Manager 세그먼트는 Analytics에서 대상자로 표시됩니다.
 
 ## Analytics 세그먼트 {#analytics-segments}
 
-Analytics 세그먼트는 보고서의 데이터를 필터링하는 메커니즘입니다. 필터링은 방문자, 방문 또는 히트 수준에서 발생할 수 있으며, Audience Manager에서와 마찬가지로 방문자 수준에서 다소 엄격할 수 있습니다. Analytics 세그먼트를 Audience Manager 세그먼트와 비교할 때 고려해야 할 몇 가지 중요한 요소가 있습니다.
+Analytics 세그먼트는 보고서의 데이터를 필터링하는 메커니즘입니다. 필터링은 Audience Manager처럼 방문자 수준에만 엄격히 적용되는 것이 아니라 방문자, 방문 또는 히트 수준에서 발생할 수 있습니다. Analytics 세그먼트를 Audience Manager 세그먼트와 비교할 때 고려해야 할 몇 가지 중요한 요소가 있습니다.
 
 * Analytics 세그먼트는 Audience Manager 세그먼트와 다른 데이터 세트에서 작동합니다. 데이터 수집 중에 Analytics는 Audience Manager에서 사용할 수 없는 데이터에 다양한 후 처리 단계를 적용합니다. 후 처리에는 eVar 지속성, 처리 규칙, 조회 (지리적 위치, 모바일 디바이스), VISTA 등이 포함될 수 있습니다. Audience Manager는 서버측 전달 (또는 DIL)을 통해 사전 처리된 데이터를 수신합니다.
 

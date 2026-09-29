@@ -4,28 +4,37 @@ title: 새 보고서 세트 - 설정
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-TQID: https://experienceleague.adobe.com/9wZ2rIgzZtJduhFAx6XcD53H2qzB2SZMr0pbxCopBvk
+TQID: 'https://experienceleague.adobe.com/9wZ2rIgzZtJduhFAx6XcD53H2qzB2SZMr0pbxCopBvk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+    internal-label: Traffic Management
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 541
+source-wordcount: '541'
 ht-degree: 84%
-
 ---
-
 # 새 보고서 세트 - 설정
 
 사전 정의된 템플릿을 선택하거나 기존 보고서 세트 중 하나를 모델로 사용하여 새 보고서 세트를 생성할 수 있습니다.
@@ -46,7 +55,7 @@ ht-degree: 84%
 | Go-Live 날짜 | 이 보고서 세트가 활성화될 것으로 예상하는 날짜를 Adobe에 알려 줍니다. 배포 일정이 변경되면 트래픽 관리에서 영구적인 예상 트래픽 도구를 사용하여 업데이트된 예상 트래픽을 제공합니다. |
 | 일별 예상 페이지 조회수 | 이 보고서 세트가 하루에 지원할 수 있을 것으로 예상되는 페이지 조회수를 식별합니다. 트래픽 볼륨이 크면 승인 프로세스에 더 오랜 시간이 걸립니다. 처리 지연을 방지하려면 이 추정치를 사용하여 가능한 한 정확해야 합니다. |
 | 기본 통화 | 모든 통화 데이터를 저장하는 데 사용되는 기본 통화를 지정합니다. Analytics는 데이터를 받을 때 현재 전환율을 사용하여 다른 통화의 거래를 기본 통화로 전환합니다. Analytics 보고는 currencyCode JavaScript 변수를 사용하여 주어진 거래 통화를 확인합니다. |
-| 일본어 키워드 처리 사용 | 보고서 세트에 대한 멀티바이트 문자 지원을 활성화합니다. 멀티바이트 문자 지원을 비활성화하면 시스템에서는 데이터를 `ISO-8859-1` 형식으로 간주합니다. 웹 페이지는 charSet JavaScript 변수에서 해당 문자 세트를 지정해야 합니다. <p>멀티바이트 문자 지원은 UTF-8을 사용하여 보고서 세트의 문자를 저장합니다. 수신 시 시스템에서는 웹 페이지의 문자 세트 데이터를 UTF-8 문자 세트로 전환하므로 마케팅 보고서에서 모든 언어를 사용할 수 있습니다.  기존 보고서 세트에 대한 멀티바이트 문자 지원을 변경하려면 Adobe 계정 팀 또는 고객 지원 센터에 문의하십시오. |
+| 일본어 키워드 처리 사용 | 보고서 세트에 대한 멀티바이트 문자 지원을 활성화합니다. 멀티바이트 문자 지원을 비활성화하면 시스템에서는 데이터를 `ISO-8859-1` 형식으로 간주합니다. 웹 페이지는 charSet JavaScript 변수에서 해당 문자 세트를 지정해야 합니다. <p>멀티바이트 문자 지원은 UTF-8을 사용하여 보고서 세트의 문자를 저장합니다. 수신 시 시스템에서는 웹 페이지의 문자 세트에서 데이터를 UTF-8 문자 세트로 변환하므로 마케팅 보고서에서 모든 언어를 사용할 수 있습니다.  기존 보고서 세트에 대한 멀티바이트 문자 지원을 변경하려면 Adobe 계정 팀 또는 고객 지원 센터에 문의하십시오. |
 | 단순화된 탐색 메뉴 사용 | 이 기능은 더 이상 지원되지 않는 [Reports &amp; Analytics](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?)의 일부입니다. |
 
 {style="table-layout:auto"}

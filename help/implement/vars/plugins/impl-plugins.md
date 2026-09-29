@@ -4,29 +4,39 @@ description: 사이트에 코드를 붙여넣어 새로운 기능을 도입할 �
 feature: Appmeasurement Implementation
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/ImzoBRU0DajPc99vRlu1698CteFNk9dOS2OZrN9DBZs
+TQID: 'https://experienceleague.adobe.com/ImzoBRU0DajPc99vRlu1698CteFNk9dOS2OZrN9DBZs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '410'
 ht-degree: 79%
-
 ---
-
 # 플러그인 개요
 
 플러그인은 Analytics 구현에 도움이 되는 몇 가지 고급 기능을 수행하는 코드 조각입니다. 이러한 플러그인은 JavaScript의 기능을 확장함으로써 기본 구현으로는 사용할 수 없는 기능들을 브라우저에서 사용할 수 있도록 해 줍니다. Adobe에서는 고급 솔루션의 일부로서 다른 플러그인도 많이 제공하고 있습니다.
@@ -36,7 +46,7 @@ ht-degree: 79%
 Adobe에서는 특정 플러그인을 설치하는 몇 가지 방법을 제공합니다.
 
 * Adobe Analytics 확장을 사용하여 &#39;일반적인 Analytics 플러그인&#39; 확장 사용
-* 사용자 지정 코드 편집기를 사용하여 플러그인 코드 붙여넣기
+* 사용자 지정 코드 편집기를 사용하여 플러그인 코드를 붙여넣기
 * 플러그인 코드를 `AppMeasurement.js` 파일에 붙여넣기
 
 각 조직에는 서로 다른 구현 요구 사항이 있으므로 구현에 이러한 요구 사항을 포함할 방법을 결정할 수 있습니다. 사이트에 코드를 포함할 때에는 다음 기준을 충족하는지 확인하십시오.
@@ -52,7 +62,7 @@ Adobe에서는 특정 플러그인을 설치하는 몇 가지 방법을 제공�
    * 태그가 활성화된 사이트 내외의 모든 구현은 JavaScript를 사용하여 플러그인을 호출합니다. 해당 플러그인 페이지에 설명된 형식을 사용하여 플러그인을 호출하십시오.
 4. 구현의 유효성을 검사하고 게시합니다.
 
-많은 조직이 [`doPlugins`](../functions/doplugins.md) 기능을 사용하여 플러그인을 호출합니다. 이 기능이 필수는 아니지만 Adobe는 가장 좋은 사용 방법으로 간주하고 있습니다. AppMeasurement는 이미지 요청을 컴파일하고 전송하기 직전에 이 함수를 호출합니다. 몇 가지 플러그인은 다른 Analytics 변수에 따라 다르므로 이렇게 하는 것은 이상적입니다.
+많은 조직이 [`doPlugins`](../functions/doplugins.md) 기능을 사용하여 플러그인을 호출합니다. 이 함수는 필수는 아니지만 Adobe는 이를 사용하는 것을 모범 사례로 간주합니다. AppMeasurement는 이미지 요청을 컴파일하고 전송하기 직전에 이 함수를 호출합니다. 몇 가지 플러그인은 다른 Analytics 변수에 따라 다르므로 이렇게 하는 것은 이상적입니다.
 
 ## 사용 중지된 플러그인
 

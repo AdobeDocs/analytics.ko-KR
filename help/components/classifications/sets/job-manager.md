@@ -3,25 +3,32 @@ title: 분류 작업 관리자
 description: 분류 세트에서 생성된 현재 및 완료된 분류 작업을 보는 방법에 대해 알아봅니다.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-TQID: https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4
+TQID: 'https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: '781'
 ht-degree: 2%
-
 ---
-
 # 분류 작업 보기 및 조치
 
 분류 작업 관리자에는 분류 세트에 대해 생성된 현재 및 완료된 분류 작업이 표시됩니다. 관리자를 사용하여 특정 작업에 대한 분류 데이터 또는 템플릿을 다운로드할 수도 있습니다.

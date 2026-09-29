@@ -1,5 +1,5 @@
 ---
-description: 서버측 전달을 구현하려면 이러한 CX 엔터프라이즈 솔루션, 서비스 및 코드 요구 사항을 충족해야 합니다. 이러한 요구 사항에는 코드 버전을 확인하는 방법과 최신 코드 라이브러리를 가져올 위치에 대한 지침도 포함되어 있습니다.
+description: 서버측 전달을 구현하려면 이러한 CX Enterprise 솔루션, 서비스 및 코드 요구 사항을 충족해야 합니다. 이러한 요구 사항에는 코드 버전을 확인하는 방법과 최신 코드 라이브러리를 가져올 위치에 대한 지침도 포함되어 있습니다.
 solution: Analytics
 title: 서버측 전달 요구 사항
 feature: Report Suite Settings
@@ -8,28 +8,39 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/1GCflxlY4IpT-pPTr93FuOmxkJLC4baJe3Z2SGjj1So'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 57%
-
 ---
-
 # 서버측 전달 요구 사항
 
-서버측 전달을 구현하려면 이러한 CX 엔터프라이즈 솔루션, 서비스 및 코드 요구 사항을 충족해야 합니다. 이러한 요구 사항에는 코드 버전을 확인하는 방법과 최신 코드 라이브러리를 가져올 위치에 대한 지침도 포함되어 있습니다.
+서버측 전달을 구현하려면 이러한 CX Enterprise 솔루션, 서비스 및 코드 요구 사항을 충족해야 합니다. 이러한 요구 사항에는 코드 버전을 확인하는 방법과 최신 코드 라이브러리를 가져올 위치에 대한 지침도 포함되어 있습니다.
 
 ## 솔루션 요구 사항
 

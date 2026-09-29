@@ -4,33 +4,42 @@ description: 데이터 레이어에서 읽을 태그를 구성합니다.
 feature: Tags
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/MmwNCdmt9TwNojJEyzbfTukeh4sKITk06gY-EBzjZPw
+TQID: 'https://experienceleague.adobe.com/MmwNCdmt9TwNojJEyzbfTukeh4sKITk06gY-EBzjZPw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 312
+source-wordcount: '312'
 ht-degree: 93%
-
 ---
-
 # 데이터 레이어 오브젝트를 데이터 요소에 매핑
 
 조직이 사이트에서 데이터 레이어를 설정하고 구현하면 태그 내의 데이터 요소에 데이터 레이어 오브젝트를 매핑할 수 있습니다.
 
 ## 사전 요구 사항
 
-[데이터 레이어 만들기](../prepare/data-layer.md): 사이트에 데이터 레이어가 있는지 확인합니다. 기술적으로 모든 JavaScript 오브젝트를 매핑하거나 페이지에서 직접 CSS 요소를 스크랩할 수 있지만 Adobe에서는 이 방법을 마지막 수단으로 권장합니다. 사이트 레이아웃이 변경되면 태그에 사용된 CSS 선택기의 작동이 중지되어 데이터가 손실됩니다.
+[데이터 레이어 만들기](../prepare/data-layer.md): 사이트에 데이터 레이어가 있는지 확인합니다. 기술적으로 모든 JavaScript 오브젝트를 매핑하거나 페이지에서 직접 CSS 요소를 스크랩할 수 있지만 Adobe에서는 이 방법을 마지막 수단으로 권장합니다. 사이트 레이아웃이 변경되면 태그에 사용된 CSS 선택기가 더 이상 작동하지 않아 데이터가 손실됩니다.
 
 ## 태그를 사용하여 데이터 요소 만들기
 

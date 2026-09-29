@@ -2,7 +2,13 @@
 title: 브랜드 가시성 통합
 description: CAdobe Analytics와 브랜드 가시성 통합
 role: User
-source-git-commit: 8a2a4637f21bbbe02ea88292d2ca503f4c667ebc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -92,8 +98,8 @@ Adobe Analytics 통합→ 인바운드 브랜드 가시성이 **예약된 변수
 | 다음으로 보고됨 | 유형 | 참고 |
 |---|---|---|
 | URL | 치수 | 요청과 연결된 페이지 URL입니다. |
-| 봇 유형 | 치수 | 요청을 수행한 봇 또는 자동화된 에이전트 유형(예: 명명된 AI 웹 크롤러). |
-| 사용자 에이전트 | 치수 | 봇 또는 에이전트에서 보고한 사용자 에이전트 문자열입니다. |
+| 봇 유형 | 차원 | 요청을 수행한 봇 또는 자동화된 에이전트 유형(예: 명명된 AI 웹 크롤러). |
+| 사용자 에이전트 | 차원 | 봇 또는 에이전트에서 보고한 사용자 에이전트 문자열입니다. |
 | 상태 | 치수 | 요청에 대해 반환된 HTTP 상태 코드입니다. |
 | Referer | 치수 | 요청에 대한 HTTP 레퍼러 값(존재하는 경우). |
 | 요청 | 지표 | 봇 및 에이전트 CDN 요청 수 |

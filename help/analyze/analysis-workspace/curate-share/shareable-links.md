@@ -5,28 +5,39 @@ title: 공유 가능한 링크 만들기
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-TQID: https://experienceleague.adobe.com/eR53u4V-gSwhSRXrSmGlyuMx68cO-7kU1XKgz7teSjE
+TQID: 'https://experienceleague.adobe.com/eR53u4V-gSwhSRXrSmGlyuMx68cO-7kU1XKgz7teSjE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 61%
-
 ---
-
 # 공유 가능한 링크 만들기
 
 Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대한 링크를 가져오는 기능을 포함하여 사용자에게 프로젝트를 공유할 수 있는 다양한 방법을 제공합니다. 일부 링크 유형에서는 수신자가 Adobe Analytics에 로그인해야 프로젝트에 액세스할 수 있지만 다른 링크 유형에서는 그렇지 않습니다.
@@ -45,7 +56,7 @@ Adobe Analytics에 대한 액세스 권한이 없는 사용자와 Analysis Works
 
 ## 패널 또는 시각화 링크 가져오기
 
-패널 또는 개별 시각화 등 프로젝트의 특정 부분에 대한 링크를 공유할 수도 있습니다. 이를 내부 연결이라고도 합니다. 이 기능은 프로젝트 내의 주요 인사이트에 사용자의 주의를 기울이는 데 유용할 수 있습니다.
+패널 또는 개별 시각화 등 프로젝트의 특정 부분에 대한 링크를 공유할 수도 있습니다. 이를 내부 연결이라고도 합니다. 이 기능은 프로젝트 내의 주요 인사이트에 사용자의 주의를 끄는 데 유용할 수 있습니다.
 
 * 패널 헤더의 컨텍스트 메뉴에서 **[!UICONTROL 패널 링크 가져오기]**&#x200B;를 선택합니다.
 * 시각화 헤더의 컨텍스트 메뉴에서 **[!UICONTROL 시각화 링크 가져오기]**&#x200B;를 선택합니다.

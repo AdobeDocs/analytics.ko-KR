@@ -4,23 +4,28 @@ description: Analysis Workspace에서 사용할 수 있는 날짜 범위를 만�
 feature: Date Ranges
 role: User
 exl-id: 62ce2ca5-4df1-43bf-88ce-3c9f106f4a59
-TQID: https://experienceleague.adobe.com/79QwrgEU9OG45PKPlMW6bmO916hUNwSAfYKpTC7zft4
+TQID: 'https://experienceleague.adobe.com/79QwrgEU9OG45PKPlMW6bmO916hUNwSAfYKpTC7zft4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: 48da7efd-b4e7-5fc2-85c1-7983bf649b9e
+    internal-label: Date Ranges
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: User
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: '542'
 ht-degree: 96%
-
 ---
-
 # 날짜 범위 만들기
 
 누구나 사용자 정의 날짜 범위를 만들 수 있습니다. 다음과 같은 방법으로 날짜 범위를 만들 수 있습니다.
@@ -70,7 +75,7 @@ Should we really mention API here. If so, we can do it all over the place in the
 1. 필요한 경우 **[!UICONTROL 고급 설정 표시]**&#x200B;를 선택하여 다음 작업을 수행하십시오.
 
    * 기본 `12:00 AM`(`0:00`) 및 `11:59 PM`(`23:59`)가 아닌 다른 **[!UICONTROL 시작 시간]** 및 **[!UICONTROL 종료 시간]**&#x200B;을 지정합니다. 종료 시간은 항상 59초를 포함합니다. 날짜 범위가 여러 날에 걸친 경우 시작 시간은 날짜 범위의 첫 번째 날에 적용되고 종료 시간은 날짜 범위의 마지막 날에 적용됩니다. **[!UICONTROL (시간 값 재설정)]**&#x200B;을 사용하여 시작 및 종료 시간을 기본값으로 재설정합니다.
-   * **[!UICONTROL 순환 날짜 사용]**. 활성화되면 현재 날짜와 시간이 경과함에 따라 **[!UICONTROL 지난 7일]**&#x200B;과 같은 사전 설정 날짜 범위가 동적으로 업데이트됩니다. 비활성화되면 해당 사전 설정이 적용되어 업데이트되지 않습니다.
+   * **[!UICONTROL 순환 날짜 사용]**. 활성화되면 현재 날짜와 시간이 경과함에 따라 **[!UICONTROL 지난 7일]**&#x200B;과 같은 사전 설정 날짜 범위가 동적으로 업데이트됩니다. 비활성화되면 이러한 사전 설정은 한 번 적용된 후에는 업데이트되지 않습니다.
 
      대괄호 안의 텍스트를 선택하여(예: **[!UICONTROL 고정된 시작 - 분기별 롤링]**) 패널을 확장하고 **[!UICONTROL 시작]** 및 **[!UICONTROL 종료]**&#x200B;에 대한 세부 정보를 지정할 수 있습니다.
 

@@ -1,5 +1,5 @@
 ---
-description: Analytics 전체에서 Adobe Audience Manager 대상 차원을 사용할 수 있습니다. 통합된 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며 Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 "mc_audiences" 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상자 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.
+description: Analytics 전체에서 Adobe Audience Manager 대상 차원을 사용할 수 있습니다. 통합된 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며 Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상자 ID는 "mc_audiences" 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상자 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.
 solution: Analytics
 title: Analytics에서 대상자 데이터 사용
 feature: Audience Analytics
@@ -7,23 +7,30 @@ exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 TQID: 'https://experienceleague.adobe.com/HrTqqIUJD3KivNI331cWjeyWSPA3ZT2k05KZJulAhDs'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: '570'
 ht-degree: 58%
-
 ---
-
 # Analytics에서 대상자 데이터 사용
 
-Analytics 전체에서 Adobe Audience Manager 대상 차원을 사용할 수 있습니다. 통합된 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며 Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 &quot;mc_audiences&quot; 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.
+Analytics 전체에서 Adobe Audience Manager 대상 차원을 사용할 수 있습니다. 통합된 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며 Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상자 ID는 &quot;mc_audiences&quot; 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.
 
 ## Analysis Workspace {#workspace}
 
@@ -51,7 +58,7 @@ Analysis Workspace에서 Adobe Audience Manager 세그먼트는 두 개의 차�
 
    ![](assets/aud-segcompare.png)
 
-## Analysis Workspace에서의 고객 움직임 (플로우) {#flow}
+## Analysis Workspace에서의 Customer Journey(플로우) {#flow}
 
 Adobe Audience Manager 세그먼트 데이터는 히트 단위로 Analytics에 전달되며, 해당 시점의 방문자에 대한 대상 멤버십을 나타냅니다. 즉, 방문자는 한 세그먼트 (예: &quot;인지도&quot;)에 속할 수 있으므로 나중에 더 적절한 세그먼트 (예: &quot;고려 사항&quot;) 대상일 수 있습니다. Analysis Workspace에서 [플로우](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)를 사용하여 방문자가 대상자 사이를 이동하는 경로를 시각화할 수 있습니다.
 

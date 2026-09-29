@@ -1,5 +1,5 @@
 ---
-description: 검색할 수 있도록 하려는 각 ID에는 네임스페이스가 지정됩니다. 이 네임스페이스는 모든 보고서 세트에서 해당 ID가 사용되는 변수에 있는 각 ID를 식별하는 사용자 정의 문자열입니다.
+description: 검색할 수 있도록 하려는 각 ID에는 네임스페이스가 할당되며, 이 네임스페이스는 모든 보고서 세트에서 해당 ID가 사용되는 모든 변수에서 그 ID를 식별하는 사용자 정의 문자열입니다.
 title: 네임스페이스
 feature: Data Governance
 role: Admin
@@ -7,25 +7,34 @@ exl-id: 421572c2-2789-48bc-b530-d48216799724
 TQID: 'https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: '942'
 ht-degree: 85%
-
 ---
-
 # 네임스페이스
 
 검색할 수 있도록 하려는 각 ID에는 네임스페이스가 지정됩니다. 이 네임스페이스는 모든 보고서 세트에서 해당 ID가 사용되는 변수에 있는 각 ID를 식별하는 사용자 정의 문자열입니다.
@@ -36,7 +45,7 @@ ht-degree: 85%
 * 대부분의 Adobe Analytics 요청에 대해 &quot;analytics&quot; 값을 포함하는 &quot;type&quot; 필드입니다.
 * Analytics가 각 보고서 세트의 연결된 네임스페이스 변수에서 검색해야 하는 ID가 포함된 &quot;값&quot; 필드.
 
-자세한 내용과 [표준 ID 네임스페이스 목록](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/appendix#standard-namespaces)은 [CX 엔터프라이즈 데이터 개인 정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko)를 참조하십시오. 샘플 요청을 확인하려면 [액세스/삭제 작업 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/privacy-jobs#access-delete)를 참조하십시오.
+자세한 내용 및 [표준 ID 네임스페이스 목록](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/appendix#standard-namespaces)은(는) [CX Enterprise 데이터 개인 정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko)를 참조하십시오. 샘플 요청을 확인하려면 [액세스/삭제 작업 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/privacy-jobs#access-delete)를 참조하십시오.
 
 ## 쿠키 ID
 
@@ -76,7 +85,7 @@ Legacy Analytics Tracking Cookie 또한 Adobe Analytics ID(AAID)로 알려져 �
 }
 ```
 
-값은 38자리 10진수로 지정해야 합니다. 데이터 피드 또는 Data Warehouse 보고서에서 2개의 mcvisid\_high/low 또는 post\_msvisid\_high/low 열로 이 수를 늘리는 경우에는 두 숫자를 각각을 0으로 채워 19자리를 만든 다음 이를 먼저 높은 값으로 연결해야 합니다.
+값은 38자리 10진수로 지정해야 합니다. 데이터 피드 또는 Data Warehouse 보고서의 두 mcvisid\_high/low 또는 post\_msvisid\_high/low 열에서 이 숫자를 가져오는 경우, 두 숫자를 각각 19자리로 0 채움한 다음 높은 값을 먼저 오도록 연결해야 합니다.
 
 또한 `"namespaceId": 4`을 `"namespace": "ECID"` 대신 또는 추가로 사용할 수 있으며, 일부 다른 Adobe 제품에서 해당 양식을 사용할 수도 있습니다.
 

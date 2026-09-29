@@ -7,25 +7,34 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/20feFPXM4DBWp41J8WDrCgZmcrfnrhYFHL46MnNRtxE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 390
+source-wordcount: '390'
 ht-degree: 80%
-
 ---
-
 # s_objectID
 
 `s_objectID` 변수는 링크에 대한 고유 식별자를 제공합니다. 이 변수는 [Activity Map](/help/analyze/activity-map/overview.md)의 보고서를 더 정확하게 만드는 데 사용됩니다. 자주 변경되는 페이지에 링크가 있는 경우 데이터를 원하는 대로 올바로 그룹화할 수 있도록 `s_objectID` 변수를 사용하여 Activity Map에 고유한 링크 위치를 알려 줄 수 있습니다.
@@ -48,7 +57,7 @@ Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니�
 
 >[!NOTE]
 >
->항상 JavaScript 문을 완료하는 세미콜론을 포함하십시오. Activity Map이 기능하려면 세미콜론이 필요합니다.
+>항상 JavaScript 문을 완료하는 세미콜론을 포함하십시오. Activity Map이 제대로 작동하려면 세미콜론이 필요합니다.
 
 ## 사용 사례
 
@@ -68,7 +77,7 @@ Activity Map은 링크가 가리키는 위치나 이러한 링크를 변경하�
 
 ### 페이지에서 링크를 개별적으로 유지
 
-일부 사이트에는 서로 다른 곳에서 동일한 위치를 가리키는 링크가 있습니다. 예를 들어 사이트의 머리글과 바닥글 모두에서 홈 페이지에 연결되는 링크가 있을 수 있습니다. 이러한 링크에는 동일한 URL이 있으므로 Activity Map이 해당 데이터를 집계합니다. 그러면 `s_objectID` 변수를 사용하여 분리할 수 있습니다.
+일부 사이트에는 서로 다른 곳에서 동일한 위치를 가리키는 링크가 있습니다. 예를 들어 사이트의 머리글과 바닥글 모두에서 홈 페이지에 연결되는 링크가 있을 수 있습니다. 이러한 링크는 동일한 URL을 가지므로 Activity Map이 해당 데이터를 집계합니다. 그러면 `s_objectID` 변수를 사용하여 분리할 수 있습니다.
 
 ```HTML
 <a href="index.html" onClick="s_objectID='Header home link';">Example link in Header</a>

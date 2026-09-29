@@ -4,28 +4,40 @@ title: 프로젝트 및 데이터 다운로드
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-TQID: https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk
+TQID: 'https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: '1131'
 ht-degree: 25%
-
 ---
-
 # 프로젝트 및 데이터 다운로드
 
 Analysis Workspace 프로젝트 및 데이터를 로컬 장치에 다운로드할 수 있습니다. 이 다운로드는 데이터, CSV(쉼표로 구분된 값 데이터) 파일 또는 PDF(휴대용 문서 형식) 문서를 복사할 수 있습니다.
@@ -143,7 +155,7 @@ Only relevant as soon as CJA supports Map visualization
 | 질문 | 답변 |
 | --- | --- |
 | 다운로드한 PDF이 한 페이지로만 구성되는 이유는 무엇입니까? | [PDF 다운로드](#download-as-csv-or-pdf) 기능은 다운로드한 PDF에 페이지를 매기지 않습니다. |
-| **[!UICONTROL CSV로 항목 다운로드]** 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 테이블의 정렬을 변경하여 롱테일 항목을 검색하거나 필터를 적용하여 더 많은 특정 항목을 다운로드할 수 있습니다. |
+| **[!UICONTROL CSV로 항목 다운로드]** 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 테이블의 정렬을 변경하여 더 긴 테일 항목을 가져오거나 필터를 적용하여 더 구체적인 항목을 다운로드할 수 있습니다. |
 | **[!UICONTROL 시각화 복사]**&#x200B;의 기능은 무엇입니까? | [!UICONTROL **클립보드에 데이터 복사**] 또는 [!UICONTROL **클립보드에 선택 항목 복사**]&#x200B;와 달리 **[!UICONTROL 시각화 복사]** 상황에 맞는 메뉴 옵션은 내보내기 옵션이 아닙니다. 이 옵션을 사용하면 Workspace의 한 위치에서 다른 위치로 [시각화를 복사](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) 또는 [패널을 복사](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu)할 수 있습니다. 예를 들어 동일한 프로젝트의 한 패널에서 다른 패널로 또는 한 프로젝트에서 다른 프로젝트로 복사할 수 있습니다. |
 
 

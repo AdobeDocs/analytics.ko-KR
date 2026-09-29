@@ -4,31 +4,45 @@ description: 사이트에 대한 대부분의 지표를 제어하는 events 변�
 feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM
+TQID: 'https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 100%
-
 ---
-
 # events
 
 차원 및 지표는 보고서에 중요한 구성 요소입니다. `events` 변수는 사이트에서 많은 지표의 데이터 수집을 담당합니다. 이벤트는 일반적으로 보고서에서 [지표](/help/components/metrics/overview.md)를 증가시킵니다.
@@ -74,9 +88,9 @@ Analytics 확장 기능(전역 변수)을 구성하는 동안 또는 규칙에�
 * 포함할 이벤트를 선택할 수 있는 드롭다운 목록
 * 직렬화를 위한 선택적 텍스트 필드. 자세한 내용은 [이벤트 직렬화](event-serialization.md)를 참조하십시오.
 * 이벤트 값에 대한 선택적 텍스트 필드. 통화 이벤트를 위한 통화를 포함하거나, 비통화 이벤트를 위한 정수를 포함하여 여러 번 증가시킬 수 있습니다. 예를 들어 드롭다운 목록 아래에서 `event1`을 선택하고 이 필드에 `10`을 포함하면 보고에서 `event1`이 10만큼 증가합니다.
-* 다른 이벤트를 추가하는 버튼. 이유 내에서 단일 규칙에 원하는 만큼 이벤트를 추가할 수 있습니다.
+* 다른 이벤트를 추가하는 버튼. 합리적인 범위 내에서 단일 규칙에 원하는 만큼 이벤트를 추가할 수 있습니다.
 
-## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.events
+## AppMeasurement 및 Analytics 확장 기능 사용자 정의 코드 편집기의 s.events
 
 `s.events` 변수는 히트에 포함할 이벤트에 대한 쉼표로 구분된 목록을 포함하는 문자열입니다. 변수는 최대 64k 바이트까지 허용하므로 히트에 필요한 만큼의 이벤트를 효과적으로 허용합니다. 유효 값 항목:
 
@@ -91,7 +105,7 @@ Analytics 확장 기능(전역 변수)을 구성하는 동안 또는 규칙에�
 
 >[!NOTE]
 >
->이 변수는 대/소문자를 구분합니다. 정확한 데이터 수집을 위해 이벤트 값을 대/소문자로 잘못 변경하지 마십시오.
+>이 변수는 대/소문자를 구분합니다. 정확한 데이터 수집을 위해 이벤트 값의 대/소문자를 잘못 사용하지 마십시오.
 
 ```js
 // Set the events variable to a single value
@@ -119,7 +133,7 @@ s.events = "event1=2,event2";
 
 ### 통화 이벤트 사용
 
-사용자 정의 이벤트를 변경하여 정수 대신 통화를 사용할 수 있습니다. 보고서 세트 통화와 `currencyCode` 변수가 일치하지 않는 경우 통화 이벤트가 보고서 세트의 통화로 자동 변환됩니다. 이 이벤트는 배송비, 할인 또는 환불을 계산하는 데 유용합니다. 이벤트를 해당 제품에만 연결하려는 경우 `products` 변수에서 통화 이벤트를 설정할 수 있습니다.
+사용자 지정 이벤트를 변경하여 정수 대신 통화를 사용할 수 있습니다. 보고서 세트 통화와 `currencyCode` 변수가 일치하지 않는 경우 통화 이벤트가 보고서 세트의 통화로 자동 변환됩니다. 이 이벤트는 배송비, 할인 또는 환불을 계산하는 데 유용합니다. 이벤트를 해당 제품에만 연결하려는 경우 `products` 변수에서 통화 이벤트를 설정할 수 있습니다.
 
 통화 이벤트를 구현하려면 먼저 보고서 세트 설정의 [성공 이벤트](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) 아래에서 원하는 이벤트를 &#39;통화&#39;로 설정해야 합니다.
 
@@ -140,7 +154,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 ### 숫자 이벤트 사용
 
-사용자 정의 이벤트를 변경하여 정수 대신 소수점 값을 허용할 수 있습니다. 숫자 이벤트는 통화 변환을 사용하지 않는다는 점을 제외하면 통화 이벤트와 유사하게 동작합니다. 이벤트를 해당 제품에만 연결하려는 경우 `products` 변수에서 숫자 이벤트를 설정할 수 있습니다.
+사용자 지정 이벤트를 변경하여 정수 대신 소수점 값을 허용할 수 있습니다. 숫자 이벤트는 통화 변환을 사용하지 않는다는 점을 제외하면 통화 이벤트와 유사하게 동작합니다. 이벤트를 해당 제품에만 연결하려는 경우 `products` 변수에서 숫자 이벤트를 설정할 수 있습니다.
 
 숫자 이벤트를 구현하려면 먼저 보고서 세트 설정의 [성공 이벤트](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) 아래에서 원하는 이벤트를 &#39;숫자&#39;로 설정해야 합니다.
 

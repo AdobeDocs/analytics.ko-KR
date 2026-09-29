@@ -3,25 +3,34 @@ title: 차원 개요
 description: 차원이 무엇이고 Adobe Analytics에서 차원이 어떻게 사용되는지 알아봅니다.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-TQID: https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ
+TQID: 'https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 37%
-
 ---
-
 # 차원 개요
 
 차원은 일반적으로 문자열 값을 포함하는 Adobe Analytics의 변수입니다. 일반적인 차원은 [페이지](page.md), [참조 도메인](referring-domain.md) 또는 [eVar](evar.md)를 포함합니다. 반면에, [지표](../metrics/overview.md)는 차원에 연결된 숫자 값을 포함합니다. 기본 보고서는 숫자 값(지표) 열에 대해 문자열 값(차원) 행을 보여 줍니다.
