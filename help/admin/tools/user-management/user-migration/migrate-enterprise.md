@@ -7,21 +7,24 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Administration
+source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '769'
 ht-degree: 72%
-
 ---
-
 # Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 
 Analytics 사용자 계정을 Adobe Admin Console에 Enterprise ID 또는 Federated ID로 마이그레이션하는 방법입니다.
@@ -40,7 +43,7 @@ Adobe Admin Console에서 사용자를 관리하기 위한 전제 조건입니�
 
 다른 사업부나 팀이 다른 조직에 디렉터리를 이미 만든 경우 [디렉터리 신뢰](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html#Directorytrusting)의 단계에 따라 Analytics에 사용하는 조직에 디렉터리를 설정합니다.
 
-## Enterprise 및 Federated ID에 대한 사용자 계정 마이그레이션 {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
+## 기업 및 페더레이션된 ID에 대한 사용자 계정 마이그레이션 {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 이 절차에서는 다음과 같은 작업을 수행합니다.
 
@@ -92,7 +95,7 @@ Adobe Admin Console에서 사용자를 관리하기 위한 전제 조건입니�
 
       >[!IMPORTANT]
       >
-      >중복 항목을 찾으면 Analytics [!DNL User Logins List.csv] 파일에서 삭제하십시오. 이 단계는 Adobe Admin Console에서 기존 CX Enterprise 사용자 권한을 덮어쓰는 것을 방지하고 마이그레이션할 계정 목록을 제공하는 데 도움이 됩니다.
+      >중복 항목을 찾으면 Analytics [!DNL User Logins List.csv] 파일에서 삭제하십시오. 이 단계는 Adobe Admin Console에서 기존 CX Enterprise 사용자 권한을 겹쳐 쓰지 못하게 하고 마이그레이션할 계정 목록을 제공하는 데 도움이 됩니다.
 
 1. Adobe Admin Console에서 CSV 템플릿 다운로드:
    1. 사용자 탭에서 **[!UICONTROL CSV로 사용자 추가]**&#x200B;를 클릭한 다음 **[!UICONTROL CSV 템플릿 다운로드]**&#x200B;를 클릭합니다.
@@ -113,46 +116,46 @@ Adobe Admin Console에서 사용자를 관리하기 위한 전제 조건입니�
 
 1. 템플릿([!DNL sample.csv])에서 다음 필수 필드를 완료하십시오.
 
-<table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 필드 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>이메일 </p> </td> 
-   <td colname="col2"> <p><span class="filepath">User Logins List.tab</span>에서 복사됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>이름 </p> </td> 
-   <td colname="col2"> <p><span class="filepath">User Logins List.tab</span>에서 복사됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>성 </p> </td> 
-   <td colname="col2"> <p><span class="filepath">User Logins List.tab</span>에서 복사됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID 유형 </p> </td> 
-   <td colname="col2"> <p><span class="term"> Federated ID</span> 또는 <span class="term"> Enterprise ID</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>도메인 </p> </td> 
-   <td colname="col2"> <p><span class="term"> 도메인</span> 및 <span class="term"> 전자 메일</span> 열의 도메인이 필수 구성 요소에 설정된 도메인과 일치하는지 확인합니다</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>국가 코드 </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
+   <thead> 
+   <tr> 
+      <th colname="col1" class="entry"> 필드 </th> 
+      <th colname="col2" class="entry"> 설명 </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+      <td colname="col1"> <p>이메일 </p> </td> 
+      <td colname="col2"> <p><span class="filepath">User Logins List.tab</span>에서 복사됩니다. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>이름 </p> </td> 
+      <td colname="col2"> <p><span class="filepath">User Logins List.tab</span>에서 복사됩니다. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>성 </p> </td> 
+      <td colname="col2"> <p><span class="filepath">User Logins List.tab</span>에서 복사됩니다. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>ID 유형 </p> </td> 
+      <td colname="col2"> <p><span class="term"> Federated ID</span> 또는 <span class="term"> Enterprise ID</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>도메인 </p> </td> 
+      <td colname="col2"> <p><span class="term"> 도메인</span> 및 <span class="term"> 전자 메일</span> 열의 도메인이 필수 구성 요소에 설정된 도메인과 일치하는지 확인합니다</a>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>국가 코드 </p> </td> 
+      <td colname="col2"> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
-[!DNL .csv] 파일의 필드에 대한 자세한 내용은 [CSV 파일 형식](https://helpx.adobe.com/kr/enterprise/using/users.html)을 참조하십시오.
+   [!DNL .csv] 파일의 필드에 대한 자세한 내용은 [CSV 파일 형식](https://helpx.adobe.com/kr/enterprise/using/users.html)을 참조하십시오.
 
->[!NOTE]
->
->[!UICONTROL 제품 구성] 및 [!UICONTROL 관리자 역할]과 같은 다른 열은 비어 있을 수 있습니다.
+   >[!NOTE]
+   >
+   >[!UICONTROL 제품 구성] 및 [!UICONTROL 관리자 역할]과 같은 다른 열은 비어 있을 수 있습니다.
 
 1. Adobe Admin Console의 사용자 탭에서 **[!UICONTROL CSV로 사용자 추가]**&#x200B;를 클릭하여 템플릿 파일을 업로드합니다(3단계에서 설명).
 1. [Analytics 사용자 계정 마이그레이션](/help/admin/tools/user-management/user-migration/t-migrate-users.md)에 설명된 대로 Analytics에서 마이그레이션 도구를 실행합니다.
