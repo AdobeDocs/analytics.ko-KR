@@ -3,14 +3,12 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
-user-guide-description: CX Enterprise Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+user-guide-description: CX Enterprise Admin Console의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 95%
-
 ---
-
 
 # Adobe Analytics 관리 안내서 {#admin}
 
@@ -18,7 +16,7 @@ ht-degree: 95%
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/ko/docs/analytics/release-notes/latest)
 + Adobe Admin Console {#admin-console}
   + [개요](admin-console/home.md)
-  + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
+  + [Adobe Analytics 첫 관리 안내서](admin-console/first-admin-guide.md)
   + [Adobe Analytics의 관리자 역할](admin-console/admin-roles-in-analytics.md)
   + Analytics 도구 권한 요약 {#permissions}
     + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
@@ -56,7 +54,7 @@ ht-degree: 95%
           + [사용 사례](tools/manage-rs/edit-settings/general/processing-rules/pr-use-cases.md)
         + 보트 규칙 {#bot-removal}
           + [보트 제거](tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)
-          + [보트 규칙 이해 및 구성](tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)
+          + [봇 규칙 이해 및 구성](tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)
           + [일반 보트 서명](tools/manage-rs/edit-settings/general/bot-removal/bot-signatures.md)
           + [보트 제외 방법](tools/manage-rs/edit-settings/general/bot-removal/bot-exclusion-methods.md)
         + [개인정보 보호 설정](tools/manage-rs/edit-settings/general/privacy-settings.md)
@@ -82,7 +80,6 @@ ht-degree: 95%
         + [성공 이벤트](tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)
         + [분류 계층](tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)
         + [목록 변수](tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)
-        + [머천다이징 eVar](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
       + 마케팅 채널 {#marketing-channels}
         + [마케팅 채널 관리자](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
         + [마케팅 채널 처리 규칙](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
@@ -140,8 +137,8 @@ ht-degree: 95%
     + [기능 액세스 수준](tools/company/feature-access-levels.md)
   + 개인정보 보호 라벨링 {#privacy-labeling}
     + [개요](tools/privacy-labeling/labeling-overview.md)
-    + [Analytics 구성 요소의 데이터 개인 정보 보호 레이블](tools/privacy-labeling/labels.md)
-    + [보고서 세트의 개인 정보 보호 레이블 보기/관리](tools/privacy-labeling/view-settings.md)
+    + [Analytics 구성 요소의 개인정보 보호 레이블](tools/privacy-labeling/labels.md)
+    + [보고서 세트의 개인정보 보호 레이블 보기/관리](tools/privacy-labeling/view-settings.md)
     + [레이블 지정 모범 사례](tools/privacy-labeling/best-practices.md)
     + [레이블 지정 예](tools/privacy-labeling/examples.md)
     + [네임스페이스](tools/privacy-labeling/namespaces.md)
