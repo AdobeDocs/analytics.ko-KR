@@ -159,7 +159,7 @@ Analysis Workspace에서 지표에 대해 비기본 속성 모델을 사용하�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 열](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [동적 열](https://video.tv.adobe.com/v/33022?captions=kor&quality=12&learn=on){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
