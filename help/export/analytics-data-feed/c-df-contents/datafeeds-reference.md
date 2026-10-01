@@ -67,10 +67,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 371cf3de49f5a4a001ae6058e7f6422c23334e39
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 78%
+source-wordcount: '4286'
+ht-degree: 75%
 ---
 # 데이터 열 참조
 
@@ -235,8 +235,8 @@ ht-degree: 78%
 | | **`stats_server`** | 사용하지 않습니다. 히트를 처리한 Adobe 내부 서버입니다. | char (30) |
 | **`post_`** | **`s_kwcid`** | Adobe Advertising 통합에 사용되는 키워드 ID입니다. | varchar (255) |
 | | **`s_resolution`** | Raw 화면 해상도 값입니다. JavaScript 함수 `screen.width x screen.height`를 사용하여 수집됩니다. | char (20) |
-| **`post_`** | **`tnt`** | Adobe Target 통합에서 사용됩니다. 현재 자격이 있는 모든 테스트를 나타냅니다. 포맷: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`입니다. | 텍스트 |
-| **`post_`** | **`tnt_action`** | Adobe Target 통합에서 사용됩니다. 히트 자격이 있는 모든 테스트를 나타냅니다. | 텍스트 |
+| **`post_`** | **`tnt`** | Adobe Target 통합에서 사용됩니다. 방문자가 자격을 부여받은 Target 활동 및 경험을 나열합니다. `post_tnt` 열은 eVar와 유사하게 이전 히트의 값을 유지합니다. 현재 히트에 대한 활동 및 이벤트만 보려면 `tnt_action`을(를) 사용하십시오. 여러 항목은 쉼표로 구분됩니다. 각 항목은 `tnt_action`과(와) 동일한 형식을 사용하지만 이벤트 ID는 사용하지 않습니다. | 텍스트 |
+| **`post_`** | **`tnt_action`** | Adobe Target 통합에서 사용됩니다. 현재 히트에 대해 자격이 있는 Target 활동 및 경험과 관련 이벤트만 나열합니다. `post_tnt`과(와) 달리 값은 이전 히트에서 지속되지 않습니다. 여러 항목은 쉼표로 구분됩니다. 각 항목은 다음 형식 중 하나를 사용합니다.<ul><li>대부분의 활동: `activityID:experienceID:trafficType\|eventID`</li><li>자동 타겟과 같은 일부 자동화된 활동: `activityID:experienceID:trafficType:algorithmID\|eventID`</li></ul>알고리즘 ID 값은 Target 내부에 있습니다. 일부 이벤트에는 `\|value`(으)로 추가된 값이 포함됩니다. 이벤트 ID에는 `0`(활동 항목), `1`(방문), `2`(노출) 및 `32767`(전환)이(가) 포함됩니다. 히트에 동일한 활동 및 경험에 대한 이벤트가 여러 개 있는 경우 각 이벤트는 별도의 항목입니다. | 텍스트 |
 | | **`tnt_instances`** | Adobe Target 통합에서 사용됩니다. 대상 인스턴스 변수 | 텍스트 |
 | **`post_`** | **`transactionid`** | 데이터 소스를 통해 나중에 다양한 데이터 포인트를 업로드할 수 있는 고유 식별자입니다. [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 변수를 사용하여 수집됩니다. | 텍스트 |
 | | **`truncated_hit`** | 이미지 요청이 잘렸음을 나타내는 플래그(부분 히트가 수신됨)입니다. <br>Y: 히트가 잘림, 일부 히트 수신 <br>N: 히트가 잘리지 않음, 전체 히트 수신 | char (1) |

@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '7522'
+source-wordcount: '7553'
 ht-degree: 92%
 ---
 # Adobe Analytics에 대한 기술 설명서 업데이트
@@ -77,6 +77,7 @@ ht-degree: 92%
 | --- | --- |
 | **2026년 9월** | |
 | 화살표 및 폴아웃에 대한 여정 캔버스 비교 | [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &#39;[!UICONTROL 비교 대상]&#39; 설정을 업데이트하여 날짜 범위 간 비율 변경이 이제 여정의 각 노드, 화살표 및 폴아웃에 표시됨을 표시합니다. |
+| 머천다이징 eVar | 머천다이징 변수 설명서를 관련 구성 요소로 개선 및 통합했습니다.<ul><li>구성 요소 안내서의 [eVar(머천다이징)](/help/components/dimensions/evar-merchandising.md) 차원</li><li>구현 안내서의 [eVar(머천다이징)](/help/implement/vars/page-vars/evar-merchandising.md) 변수</li><li>관리 가이드의 [전환 변수](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)</li></ul> |
 | 새 크기 조정 바로 가기 작업 | 이제 Analysis Workspace의 새 키보드 단축키를 사용하여 [패널 또는 시각화 크기 조정](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)을 더 넓게, 더 좁게, 더 높이 또는 더 짧게 수행할 수 있습니다. |
 | [Adobe Analytics 데이터 수집 API](https://developer.adobe.com/analytics-collection-apis/) | AppMeasurement 또는 태그를 사용하지 않고 Adobe Analytics에 대한 데이터 수집 전략을 집계하고 현대화하는 새 개발자 저장소입니다. |
 | **2026년 8월** | |
@@ -84,7 +85,7 @@ ht-degree: 92%
 | **2026년 6월** | |
 | 쿼리 문자열 참조 업데이트 | [데이터 수집 쿼리 매개 변수](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)에 대한 중요 수정 사항입니다. |
 | Data Warehouse의 세그먼트 | [Data Warehouse 세그먼트 호환성](/help/export/data-warehouse/segment-compatibility.md)이 업데이트되었습니다. |
-| GA를 AA 안내서로 대체함 | GA에서 AA로의 안내는 2023년에 종료되었던 Universal Analytics를 참조하였다. 새 가이드가 대체되었습니다. [Google Analytics 4에서 Customer Journey Analytics으로 전환](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
+| GA를 AA 안내서로 대체함 | GA에서 AA로의 안내는 2023년에 종료되었던 Universal Analytics를 참조하였다. 새 가이드가 대체되었습니다. [Google Analytics 4에서 Customer Journey Analytics으로 전환](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **2026년 5월** | |
 | Streaming Media 차원 및 지표 | 스트리밍 미디어 설명서에 대한 중요 업데이트. 예제 링크에는 [Streaming Media 서비스 핵심 차원](/help/components/dimensions/sm-core.md) 및 [Streaming Media 서비스 핵심 지표](/help/components/metrics/sm-core.md)가 포함됩니다. |
 | **2026년 3월** | |
@@ -317,7 +318,7 @@ ht-degree: 92%
 | 2021년 8월 5일 금요일 | [템플릿](/help/components/classifications/importer/c-download-saint-data.md), [브라우저 가져오기](/help/components/classifications/importer/browser-import.md) 및 [브라우저 내보내기](/help/components/classifications/importer/browser-export.md)에 대한 분류 설명서를 업데이트하여 새 분류 아키텍처에 대해 활성화된 보고서 세트에 사용할 수 없는 옵션을 나타냅니다. |
 | 2021년 8월 2일 화요일 | [Adobe Experience Platform Launch](/help/implement/launch/overview.md)의 리브랜딩을 반영하도록 여러 페이지 업데이트 |
 | **2021년 7월** |  |
-| 2021년 7월 23일 토요일 | [머천다이징 eVar](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)에 대한 새로운 심층 토론 |
+| 2021년 7월 23일 토요일 | [머천다이징 eVar](/help/components/dimensions/evar-merchandising.md)에 대한 새로운 심층 토론 |
 | 2021년 7월 15일 금요일 | 새 [Adobe Analytics 랜딩 페이지](/help/analyze/landing.md)에 새 설명서 추가 |
 | **2021년 6월** |  |
 | 2021년 6월 15일 수요일 | 업데이트된 [마케팅 채널 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md) |

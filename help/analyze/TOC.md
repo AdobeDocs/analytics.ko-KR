@@ -5,13 +5,11 @@ user-guide-title: Analytics 도구 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder, 레거시 Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
 index: true
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
-
+source-wordcount: '892'
+ht-degree: 99%
 ---
-
 # Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 도구 안내서](home.md)
@@ -34,6 +32,7 @@ ht-degree: 100%
     + [프로젝트 만들기](analysis-workspace/build-workspace-project/create-projects.md)
     + [프로젝트 열기](analysis-workspace/build-workspace-project/open-projects.md)
     + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
+    + {hide-from-toc}[캐시된 결과 사용](analysis-workspace/build-workspace-project/cached-results.md)
     + [목차](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Workspace의 폴더 {#workspace-folders}
       + [개요](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
