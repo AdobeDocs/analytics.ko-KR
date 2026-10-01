@@ -51,7 +51,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->지속된 값을 제품이 아닌 차원에 바인딩하려면 Customer Journey Analytics에서 [[!UICONTROL 바인딩 차원]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension)을 사용하는 것이 좋습니다.
+>지속된 값을 제품이 아닌 차원에 바인딩하려면 Customer Journey Analytics에서 [[!UICONTROL 바인딩 차원]](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension)을 사용하는 것이 좋습니다.
 
 ## 머천다이징 eVar를 사용하는 이유
 
