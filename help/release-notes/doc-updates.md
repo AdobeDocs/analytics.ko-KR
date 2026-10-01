@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '7553'
-ht-degree: 92%
+source-wordcount: '7541'
+ht-degree: 91%
 ---
 # Adobe Analytics에 대한 기술 설명서 업데이트
 
@@ -223,7 +223,7 @@ ht-degree: 92%
 | **2023년 5월** | |
 | 딥 링크(모바일 앱) 설명서 | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Analytics 대시보드 앱(모바일 앱)에 대한 홈 화면 업데이트 설명서 | 새롭게 업데이트된 홈 화면에서는 모든 스코어카드를 하나의 통합된 스코어카드 목록에서 볼 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/executive.md#use-dashboards) |
-| 스펙트럼 아이콘 | 설명서의 사용자 인터페이스 아이콘 스크린샷을 [Adobe의 스펙트럼 설계 시스템](https://spectrum.adobe.com/page/icons/)의 해당 아이콘에 대한 참조로 대체하였습니다. |
+| 스펙트럼 아이콘 | 설명서의 사용자 인터페이스 아이콘 스크린샷을 [Adobe의 스펙트럼 디자인 시스템](https://spectrum.adobe.com)에 있는 실제 아이콘에 대한 참조로 적절히 대체했습니다. |
 | 보고 활동 관리자 | 이 Beta 설명서, 특히 [개별 보고서 모음에 대한 보고 활동 보기 섹션](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)이 업데이트되었습니다. |
 | Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md)가 업데이트되었습니다. |
 | 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |

@@ -6,20 +6,23 @@ exl-id: bef185d6-72c0-4068-80f8-57261369573f
 TQID: https://experienceleague.adobe.com/KATQCXbw-92hpWIzjMMl8K6WCB4ePASY0fZ7g0zRYtc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 5%
-
+source-wordcount: '185'
+ht-degree: 2%
 ---
-
 # 참여도 지표
 
 
@@ -29,7 +32,7 @@ ht-degree: 5%
 
 1. [계산된 지표를 만듭니다](../cm-workflow.md). [계산된 지표 빌더](cm-build-metrics.md)에서 지표 이름을 `Orders (Visit Participation)` 또는 이와 유사하게 지정합니다.
 1. 성공 이벤트(예: [!DNL Online Orders])가 포함된 지표를 [!UICONTROL **[!UICONTROL 정의]**] 영역으로 끌어서 놓습니다.
-1. 지표에 대해 ![톱니바퀴](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)를 선택합니다.
+1. 지표에 대해 ![톱니바퀴](/help/assets/icons/Setting.svg)를 선택합니다.
 1. 표시되는 팝업에서 **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 선택하여 해당 이벤트의 [속성 모델](m-metric-type-alloc.md#attribution-models)을(를) **[!UICONTROL 참여]**&#x200B;에 정의하고 [!UICONTROL 컨테이너]에 대해 **[!UICONTROL 방문]**&#x200B;을(를) 선택합니다. **[!UICONTROL 적용]**&#x200B;을 선택하여 확인하십시오.
 
 

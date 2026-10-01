@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '3545'
 ht-degree: 96%
@@ -50,18 +50,18 @@ ht-degree: 96%
 <table style="table-layout: fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 방문자 수</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> 방문자 수</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> 방문 횟수</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 히트 수</td>
 </tr>
 </table>
 
@@ -160,18 +160,18 @@ Country = United States + Order = True
 <table style="table-layout:fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 방문자 수</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> 방문자 수</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="h../../assets/icons/Visit.svg"/> 방문 횟수</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 히트 수</td>
 </tr>
 </table>
 
@@ -185,18 +185,18 @@ Country = United States + Order = True
 
 <tr>
 
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 방문자 수</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> 방문자 수</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> 방문 횟수</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 히트 수</td>
 </tr>
 
 <tr>
@@ -205,13 +205,13 @@ Country = United States + Order = True
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> 방문 횟수</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 히트 수</td>
 </tr>
 </table>
 
@@ -222,18 +222,18 @@ Country = United States + Order = True
 <table style="table-layout:fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 방문자 수</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> 방문자 수</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> 방문 횟수</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 히트 수</td>
 </tr>
 
 <tr>
@@ -242,19 +242,19 @@ Country = United States + Order = True
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Group_18_N.svg"/> 그룹</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Group.svg"/> 그룹</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 히트 수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 히트 수</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Visit.svg"/> 방문 횟수</td>
 </tr>
 
 </table>
@@ -285,12 +285,12 @@ Country = United States + Order = True
 <tr>
 <tr>
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
+<img src="../../assets/icons/User.svg"/>
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>홈</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 의류</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 코트</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>$100 구매</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>홈</td>!
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>겨울 의류</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>겨울 코트</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>$100 구매</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -303,12 +303,12 @@ Country = United States + Order = True
 <tr style="border: 0;">
 
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
+<img src="../../assets/icons/User.svg"/>
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 의류</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 부츠</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 의류</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>겨울 모자</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons//ArrowRight.svg"/><br/>겨울 의류</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons//ArrowRight.svg"/><br/>겨울 부츠</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>겨울 의류</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>겨울 모자</td>
 
 </table>
 
@@ -327,7 +327,7 @@ Country = United States + Order = True
 
 히트 컨테이너에서 보고하면 서로 다른 컨테이너에서의 보고가 전체 보고 값에 어떤 영향을 미치는지 확인할 수 있습니다. 세그먼트 보고서를 보면 페이지 조회수가 방문 수와 거의 비슷하고 (약 2,000명의 방문자가 한 번의 방문에서 중복된 페이지를 열람하여 총 페이지 조회수로 계산됨) 고유 방문자 수가 방문 수와 거의 비슷하다는 사실을 알 수 있습니다(약 2,000명의 고유 방문자가 두 번 이상 방문함).
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 지표 | # | % |
 |---|---|--:|--:|
 | | 페이지 조회수:<br/>조회수<br/>: 고유 방문자: | **351,292회** 중 69,252회&#x200B;<br/>**165,175회** 중 67,554회&#x200B;<br/>**113,169명** 중 63,541명 | **19%**<br/>**40%**<br/>**56%** |
 
@@ -353,7 +353,7 @@ Country = United States + Order = True
 
 방문 컨테이너의 세그먼트 값을 표시하면 페이지 조회수가 크게 증가했음을 알 수 있습니다. 이러한 증가는 방문 컨테이너에서 보고할 때 조건을 충족하는 모든 페이지와 해당 방문에서 열람된 다른 모든 페이지를 식별하기 때문입니다(각 방문 컨테이너에서 모든 페이지 조회수가 캡처됨).
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 지표 | # | % |
 |---|---|--:|--:|
 | | 페이지 조회수:<br/>조회수<br/>: 고유 방문자: | **351,292회** 중 226,193회&#x200B;<br/>**165,175회** 중 67,554회&#x200B;<br/>**113,169명** 중 63,541명 | **64%**<br/>**40%**<br/>**56%** |
 
@@ -389,7 +389,7 @@ Country = United States + Order = True
 
 방문자 컨테이너의 세그먼트를 표시하면 해당 페이지 조회수 및 방문 수가 증가했음을 알 수 있습니다. 이 증가는 방문자 수준에서 방문자가 겨울 코트 페이지를 한 번 방문한 경우(해당 조건 충족) 해당 방문자에 대해 다른 모든 페이지 조회수 및 다른 모든 방문이 캡처되기 때문입니다.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 지표 | # | % |
 |---|---|--:|--:|
 | | 페이지 조회수:<br/>조회수<br/>: 고유 방문자: | **351,292회** 중 240,094회&#x200B;<br/>**165,175회** 중 83,823회&#x200B;<br/>**113,169명** 중 63,541명 | **68%**<br/>**50%**<br/>**56%** |
 
@@ -449,12 +449,12 @@ Country = United States + Order = True
 <tr>
 <tr>
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
+<img src="../../assets/icons/User.svg"/><br/>aol.com
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>홈</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 의류</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 코트</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>$100 구매</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>홈</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>겨울 의류</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>겨울 코트</td>
+<td style="background-color: #FFFFFF;"><img src="h../../assets/icons/WebPage.svg"><br/>$100 구매</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -467,12 +467,12 @@ Country = United States + Order = True
 <tr style="border: 0;">
 
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>weather.com
+<img src="../../assets/icons/User.svg"/><br/>weather.com
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 의류</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 부츠</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 의류</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>겨울 모자</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>겨울 의류</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>겨울 부츠</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>겨울 의류</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>겨울 모자</td>
 
 </table>
 
@@ -495,7 +495,7 @@ Country = United States + Order = True
 
 히트 컨테이너의 데이터를 보면 32,000명이 조금 넘는 방문자가 33,000회가 넘는 방문에서 92,000회가 조금 넘는 페이지 조회를 기록했습니다. 평균적으로 각 방문당 3번의 페이지 조회수가 있었으며 거의 모든 방문이 고유 방문자에 의한 것이었습니다.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 지표 | # | % |
 |---|---|--:|--:|
 | | 페이지 조회수:<br/>조회수<br/>: 고유 방문자: | **351,165회** 중 98,234회&#x200B;<br/>**165,173회** 중 33,203회&#x200B;<br/>**113,110명** 중 32,269명 | **27%**<br/>**20%**<br/>**28%** |
 
@@ -516,7 +516,7 @@ Country = United States + Order = True
 
 모든 페이지는 방문을 기준으로 동일한 참조 도메인 값을 가지므로 방문 컨테이너 수준의 보고서는 페이지 조회수 컨테이너의 보고서와 (거의) 동일합니다. 데이터 오류로 인해 미미한 차이(98,234~98,248)가 있습니다.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 지표 | # | % |
 |---|---|--:|--:|
 | | 페이지 조회수:<br/>조회수<br/>: 고유 방문자: | **351,165회** 중 98,248회&#x200B;<br/>**165,173회** 중 33,203회&#x200B;<br/>**113,110명** 중 32,269명 | **27%**<br/>**20%**<br/>**28%** |
 
@@ -556,7 +556,7 @@ Country = United States + Order = True
 
 방문자 컨테이너에서 데이터를 볼 때는 페이지 조회수가 크게 증가했다는 사실을 알 수 있습니다(98,248에서 112,925로 증가). 이 증가는 해당 방문자의 모든 페이지 조회수가 포함되었기 때문입니다(방문자 컨테이너 수준에 저장된 다른 참조 도메인 값이 있는 해당 페이지 포함). 해당 방문자의 추가 방문이 포함되어 방문이 33,203에서 43,448로 증가했습니다.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 지표 | # | % |
 |---|---|--:|--:|
 | | 페이지 조회수:<br/>조회수<br/>: 고유 방문자: | **351,165회** 중 112,925회&#x200B;<br/>**165,173회** 중 43,448회&#x200B;<br/>**113,110명** 중 32,269명 | **32%**<br/>**26%**<br/>**28%** |
 

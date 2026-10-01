@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 41%
+source-wordcount: '425'
+ht-degree: 39%
 ---
 # 세그먼트 공유
 
@@ -57,7 +57,7 @@ ht-degree: 41%
 
 
 
-   세그먼트 옆에 공유 아이콘이 표시됩니다.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+   세그먼트 옆에 공유 아이콘이 표시됩니다. ![](/help/assets/icons/Share.svg)
 
 1. **[!UICONTROL 필터]** > **[!UICONTROL 기타 필터]** > **[!UICONTROL 나와 공유]**&#x200B;로 이동하여 사용자와 공유되는 세그먼트를 필터링할 수 있습니다.
 

@@ -6,23 +6,29 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 TQID: 'https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f6053eab-d6c4-429b-b1a9-91ef921d3480
+    internal-label: Segmentation workflow
   - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: '567'
 ht-degree: 64%
-
 ---
-
 # 세그먼트 관리
 
 
@@ -53,7 +59,7 @@ ht-degree: 64%
 | **[!UICONTROL 보고서 세트]** | 이 세그먼트가 적용되는 보고서 세트입니다. |
 | **[!UICONTROL 소유자]** | 세그먼트 소유자입니다. 사용자가 소유한 세그먼트 또는 사용자와 공유된 주석만 표시합니다. |
 | **[!UICONTROL 태그]** | 이 세그먼트의 태그입니다. |
-| **[!UICONTROL 다음 사용자와 공유]** | 세그먼트를 공유한 개인 또는 그룹 수입니다. **[!UICONTROL 구성 요소 공유]** 대화 상자를 열지 선택합니다. 자세한 내용은 [세그먼트 공유](t-seg-share.md)를 참조하십시오. |
+| **[!UICONTROL 다음 사용자와 공유]** | 세그먼트를 공유한 대상인 개인 또는 그룹 수입니다. **[!UICONTROL 구성 요소 공유]** 대화 상자를 열지 선택합니다. 자세한 내용은 [세그먼트 공유](t-seg-share.md)를 참조하십시오. |
 | **[!UICONTROL 게시됨]** | [세그먼트가 CX Enterprise에 게시되었는지 여부](seg-publish.md). |
 | **[!UICONTROL 수정한 날짜]** | 세그먼트를 마지막으로 수정한 날짜 및 시간입니다. |
 
@@ -100,7 +106,7 @@ The Analytics Segment manager shows you all the segments you own and that have b
 
    Or 
 
-   In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
+    In an existing report, select the Segments icon ![](/help/assets/icons/Segmentation.svg) in the left navigation, then select **[!UICONTROL Manage]**.
 
 ## Available actions in the Segment manager
 

@@ -7,23 +7,29 @@ exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
 TQID: https://experienceleague.adobe.com/qik-sXUm4ldjmWLyjowFcz0EVYDWU9ex0dyPsE-BiRU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 1207
+source-wordcount: '1153'
 ht-degree: 89%
-
 ---
-
 # 데이터 사전의 구성 요소 항목 편집
 
 Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 구성 요소 항목을 편집할 수 있습니다. 모든 변경 사항은 보고서 세트의 모든 사용자에게 표시됩니다.
@@ -42,9 +48,9 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 
 
 1. (선택 사항) 검색 필드에서 편집하려는 구성 요소의 이름을 입력하기 시작합니다.
 
-   구성 요소 유형은 색상 및 아이콘으로 식별할 수 있습니다. **차원**(![차원 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg))은 주황색, **세그먼트**(![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg))는 파란색, **날짜 범위**(![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg))는 보라색, **지표**(![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))는 녹색입니다. Adobe 아이콘은 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타내고 계산기 아이콘(![계산기 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg))은 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
+   구성 요소 유형은 색상 및 아이콘으로 식별할 수 있습니다. **차원**(![차원 아이콘](/help/assets/icons/Data.svg))은 주황색, **세그먼트**(![세그먼트 아이콘](/help/assets/icons/Segmentation.svg))는 파란색, **날짜 범위**(![날짜 범위 아이콘](/help/assets/icons/Calendar.svg))는 보라색, **지표**(![지표 아이콘](/help/assets/icons/Event.svg))는 녹색입니다. Adobe 아이콘은 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타내고 계산기 아이콘(![계산기 아이콘](/help/assets/icons/Calculator.svg))은 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
 
-1. (선택 사항) **필터** 아이콘 ![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
+1. (선택 사항) **필터** 아이콘 ![데이터 사전 필터 아이콘](/help/assets/icons/Filter.svg)을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
 
    | 옵션 | 함수 |
    |---------|----------|
@@ -63,7 +69,7 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 
 
    {style="table-layout:auto"}
 
-1. (선택 사항) 구성 요소 목록을 정렬하려면 **정렬** 아이콘 ![구성 요소 정렬 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)을 선택한 후 다음 필터링 옵션 중 하나를 선택하십시오.
+1. (선택 사항) 구성 요소 목록을 정렬하려면 **정렬** 아이콘 ![구성 요소 정렬 아이콘](/help/assets/icons/SortOrderDown.svg)을 선택한 후 다음 필터링 옵션 중 하나를 선택하십시오.
 
    | 옵션 | 함수 |
    |---------|----------|
@@ -75,7 +81,7 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 
 
 1. 구성 요소 목록에서 편집할 구성 요소를 선택합니다.
 
-1. 구성 요소 이름 옆에 있는 **편집** 아이콘 ![데이터 사전 편집 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)을 선택합니다.
+1. 구성 요소 이름 옆에 있는 **편집** 아이콘 ![데이터 사전 편집 아이콘](/help/assets/icons/Edit.svg)을 선택합니다.
 
 1. 구성 요소에 대한 다음 정보를 편집합니다.
 
@@ -94,4 +100,4 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 
 
    {style="table-layout:auto"}
 
-1. **저장** 아이콘 ![데이터 사전 저장 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg)을 클릭하여 변경 사항을 저장합니다.
+1. **저장** 아이콘 ![데이터 사전 저장 아이콘](/help/assets/icons/SaveFloppy.svg)을 클릭하여 변경 사항을 저장합니다.

@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2047'
 ht-degree: 89%
 ---
 # 프로젝트 공유 {#share-projects}
@@ -222,13 +222,13 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
 
      * 이 옵션이 활성화되고 흐리게 표시되는 경우 Analytics 관리자는 Analysis Workspace 프로젝트에 액세스하는 모든 사용자에게 CX Enterprise 인증이 필요합니다.
 
-1. **[!UICONTROL 모두와 공유(로그인 필요 없음)]** 필드 옆의 **링크 복사** 아이콘 ![링크 복사 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)을 클릭하여 링크를 시스템 클립보드에 복사합니다.
+1. **[!UICONTROL 모두와 공유(로그인 필요 없음)]** 필드 옆의 **링크 복사** 아이콘 ![링크 복사 아이콘](/help/assets/icons/Link.svg)을 클릭하여 링크를 시스템 클립보드에 복사합니다.
 
 1. 프로젝트에 액세스하도록 할 사람에게 링크를 공유합니다. 예를 들어 이메일에 링크를 붙여넣을 수 있습니다.
 
    링크를 공유받은 사람은 누구나 Analysis Workspace 프로젝트를 볼 수 있습니다.
 
-1. (선택 사항) **새 링크 생성** 아이콘 ![링크 생성 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 클릭하여 이전에 프로젝트 링크를 받은 사용자의 액세스 권한을 제거할 수 있습니다. 프로젝트에 액세스하도록 할 사용자와 공유할 수 있는 새 링크가 생성됩니다.
+1. (선택 사항) **새 링크 생성** 아이콘 ![링크 생성 아이콘](/help/assets/icons/Refresh.svg)을 클릭하여 이전에 프로젝트 링크를 받은 사용자의 액세스 권한을 제거할 수 있습니다. 프로젝트에 액세스하도록 할 사용자와 공유할 수 있는 새 링크가 생성됩니다.
 
 1. **[!UICONTROL 닫기]**&#x200B;를 선택하여 공유 대화 상자를 닫습니다. 변경 내용은 자동으로 저장됩니다.
 
