@@ -7,22 +7,27 @@ exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 TQID: https://experienceleague.adobe.com/0n3erBFX--uMJmm9OW80ZKK82rQdYYSk5n53k44ItDo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 22%
-
+source-wordcount: '964'
+ht-degree: 20%
 ---
-
 # 세그먼트 관리
 
 {{legacy-arb}}
@@ -37,7 +42,7 @@ Report Builder에는 세그먼트를 만들고 관리할 수 있도록 하는 �
 
 >[!NOTE]
 >
->세그먼트를 추가하거나 편집할 수 있게 Report Builder 세그먼트 인터페이스는 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션이 활성 상태로 유지됩니다. 이 작업에는 Internet Explorer 이외의 브라우저가 지원되지 않습니다.
+>세그먼트를 추가하거나 편집하려면 Report Builder 세그먼트 인터페이스가 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 실행합니다. Report Builder 세션이 활성 상태로 유지됩니다. 이 작업에는 Internet Explorer 이외의 브라우저가 지원되지 않습니다.
 
 1. 요청 마법사의 1단계에 있는 세그먼트 패널에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 1. Analytics 세그먼트 빌더 인터페이스를 여는 Internet Explorer 창이 실행됩니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [분석 세그먼트](/help/components/segmentation/seg-home.md)를 참조하십시오.
@@ -66,7 +71,7 @@ Report Builder에는 세그먼트를 만들고 관리할 수 있도록 하는 �
 
 ## 세그먼트 검색 및 적용
 
-Reports &amp; Analytics(사용 종료), Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 클릭합니다.
+Reports &amp; Analytics(사용 종료), Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘 ![](/help/assets/icons/Refresh.svg)을(를) 클릭합니다.
 
 주어진 요청에 하나 이상의 세그먼트를 적용할 수 있습니다. 여기에는 순차적 세그먼트가 포함됩니다.
 
@@ -82,7 +87,7 @@ Reports &amp; Analytics(사용 종료), Report Builder 또는 Data Warehouse에�
 
 ## 세그먼트 필터링 {#filter}
 
-필터 아이콘 ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 클릭하여 **필터** 세그먼트
+필터 아이콘 ![필터 아이콘](/help/assets/icons/Filter.svg)을 클릭하여 **필터** 세그먼트
 
 사용 가능한 필터는 다음과 같습니다.
 
@@ -92,7 +97,7 @@ Reports &amp; Analytics(사용 종료), Report Builder 또는 Data Warehouse에�
 | 소유자 | 소유자별로 세그먼트를 필터링할 수 있습니다. 소유자 필터는 OR 연산자를 사용합니다. 두 명의 소유자를 확인하면 오른쪽 창에 **한 명 중** 소유자가 소유한 세그먼트가 표시됩니다. |
 | 기타 필터 > *보고서 세트 이름*&#x200B;만 | Adobe Analytics의 세그먼트 빌더에서 &quot;*보고서 세트 이름*&#x200B;만&quot; 필터를 적용한 다음 [!DNL Report Builder]에 고급 필터를 표시하면 고급 필터에 선택한 보고서 세트에 대한 세그먼트만 표시됩니다. |
 | 기타 필터 > 내 소유 | 소유한 모든 세그먼트를 표시합니다. |
-| 기타 필터 > 나와 공유 | 다른 사용자가 사용자와 공유한 모든 세그먼트를 표시합니다. |
+| 기타 필터 > 나와 공유됨 | 다른 사용자가 사용자와 공유한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 즐겨찾기 | 즐겨찾기로 표시한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 승인됨 | 공식적으로 승인된 모든 세그먼트를 표시합니다. |
 
@@ -100,7 +105,7 @@ Reports &amp; Analytics(사용 종료), Report Builder 또는 Data Warehouse에�
 
 세그먼트 컨트롤을 추가하면 요청 마법사로 이동할 필요 없이 통합 문서 내에서 세그먼트 간을 전환할 수 있습니다.
 
-1. 세그먼트 드롭다운 옆에 있는 컨트롤 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을(를) 클릭합니다.
+1. 세그먼트 드롭다운 옆에 있는 컨트롤 아이콘 ![](/help/assets/icons/Filter.svg)을(를) 클릭합니다.
 
 1. 세그먼트 컨트롤에 표시할 모든 세그먼트를 선택하거나 **[!UICONTROL 모두 선택]**&#x200B;을 선택합니다.
 
@@ -119,7 +124,7 @@ Reports &amp; Analytics(사용 종료), Report Builder 또는 Data Warehouse에�
 
 ## 세그먼트 목록 새로 고침 {#refresh}
 
-언제든지 새 세그먼트를 추가하거나 기존 세그먼트를 편집할 때는 새로 고침 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 클릭하여 캐시된 세그먼트 목록을 새로 고쳐야 합니다.
+언제든지 새 세그먼트를 추가하거나 기존 세그먼트를 편집할 때는 새로 고침 아이콘 ![](/help/assets/icons/Refresh.svg)을 클릭하여 캐시된 세그먼트 목록을 새로 고쳐야 합니다.
 
 ## 요청에 있는 세그먼트 관리 {#manage}
 

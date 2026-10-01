@@ -9,18 +9,20 @@ exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
 TQID: https://experienceleague.adobe.com/QbA2xh07-E4WMt70tLIoR-TL30qfnvFSCToTVi3COXU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: User
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 383
-ht-degree: 6%
-
+source-wordcount: '381'
+ht-degree: 4%
 ---
-
 # 예약된 통합 문서 관리
 
 다음 문서에 설명된 대로 이메일을 통해 공유하거나 클라우드 대상으로 내보내는 방식으로 통합 문서를 예약할 수 있습니다.
@@ -49,7 +51,7 @@ ht-degree: 6%
 
    * 표시할 열을 정의하려면 열 아이콘 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 선택하십시오.
 
-   * 필터 아이콘 ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 선택한 다음 [!UICONTROL **모두 표시**]&#x200B;를 선택하여 지정된 조직에 대해 예약된 통합 문서를 모두 표시합니다.
+   * 필터 아이콘 ![필터 아이콘](/help/assets/icons/Filter.svg)을 선택한 다음 [!UICONTROL **모두 표시**]&#x200B;를 선택하여 지정된 조직에 대해 예약된 통합 문서를 모두 표시합니다.
 
 1. 통합 문서를 하나 이상 선택합니다.
 
@@ -78,7 +80,7 @@ ht-degree: 6%
    ![예약된 내역](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    목록에서 특정 통합 문서를 검색하려면 ![Search](/help/assets/icons/Search.svg)을(를) 사용하십시오.
-표시할 열을 정의하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 사용하십시오.
+   표시할 열을 정의하려면 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 사용하십시오.
 
    **[!UICONTROL 기록]** 탭에서 예약된 각 작업의 상태를 검토할 수 있습니다. 각 예약된 작업에 대한 상태 변경 내용은 별도의 행에 설명되어 있습니다.
 

@@ -7,29 +7,36 @@ exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
 TQID: https://experienceleague.adobe.com/N4hzk5uKr5Mh3FA6V1x8KqyCod6ZIK8TO7l2TZvzR4A
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: '1095'
 ht-degree: 98%
-
 ---
-
 # 데이터 사전의 구성 요소 정보 보기
 
 데이터 사전을 사용하면 구성 요소 설명, 유사한 구성 요소, 구성 요소가 자주 사용되는 다른 구성 요소 등 구성 요소에 대한 정보를 볼 수 있습니다.
 
-데이터 사전의 구성 요소에 대한 정보 보기:
+데이터 사전에서 구성 요소에 대한 정보를 보려면:
 
 1. 확인할 구성 요소가 포함된 Analysis Workspace 프로젝트로 이동합니다.
 
@@ -41,13 +48,13 @@ ht-degree: 98%
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. 보려는 구성 요소가 포함된 보고서 세트가 드롭다운 메뉴에서 선택되어 있는지 확인합니다. 기본적으로 이미 있는 보고서 세트가 표시됩니다.
+1. 보려는 구성 요소가 포함된 보고서 세트가 드롭다운 메뉴에서 선택되어 있는지 확인합니다. 기본적으로 현재 있는 보고서 세트가 표시됩니다.
 
 1. (선택 사항) 검색 필드에서 확인하려는 구성 요소의 이름을 입력하기 시작합니다.
 
-   구성 요소 유형은 색상 및 아이콘으로 식별할 수 있습니다. **차원**(![차원 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg))은 주황색, **세그먼트**(![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg))는 파란색, **날짜 범위**(![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg))는 보라색, **지표**(![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))는 녹색입니다. Adobe 아이콘은 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타내고 계산기 아이콘(![계산기 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg))은 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
+   구성 요소 유형은 색상 및 아이콘으로 식별할 수 있습니다. **차원**(![차원 아이콘](/help/assets/icons/Data.svg))은 주황색, **세그먼트**(![세그먼트 아이콘](/help/assets/icons/Segmentation.svg))는 파란색, **날짜 범위**(![날짜 범위 아이콘](/help/assets/icons/Calendar.svg))는 보라색, **지표**(![지표 아이콘](/help/assets/icons/Event.svg))는 녹색입니다. Adobe 아이콘은 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타내고 계산기 아이콘(![계산기 아이콘](/help/assets/icons/Calculator.svg))은 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
 
-1. (선택 사항) **필터** 아이콘 ![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
+1. (선택 사항) **필터** 아이콘 ![데이터 사전 필터 아이콘](/help/assets/icons/Filter.svg)을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
 
    | 옵션 | 함수 |
    |---------|----------|
@@ -58,15 +65,15 @@ ht-degree: 98%
    | [!UICONTROL **세그먼트**] | 세그먼트인 구성 요소만 표시합니다. (이 옵션은 데이터 사전에 처음 액세스할 때 [!UICONTROL **빠른 필터**] 탭에서도 사용할 수 있음) |
    | [!UICONTROL **날짜 범위**] | 날짜 범위인 구성 요소만 표시합니다. (이 옵션은 데이터 사전에 처음 액세스할 때 [!UICONTROL **빠른 필터**] 탭에서도 사용할 수 있음) |
    | [!UICONTROL **모두 표시**] | 모든 구성 요소를 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
-   | [!UICONTROL **승인되지 않음**] | 관리자가 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
+   | [!UICONTROL **승인되지 않음**] | 관리자가 아직 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **설명 누락**] | 설명 필드에 아직 설명이 없는 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
-   | [!UICONTROL **중복 항목 표시**] | <p>선택한 보고서 세트의 다른 구성 요소와 동일한 이름 또는 정의가 있는 구성 요소만 표시합니다. 이름 또는 정의가 정확히 일치하는 항목만 중복 항목으로 표시할 수 있습니다.</p><p>이 옵션은 관리자만 사용할 수 있습니다.</p><p>**참고:** 정의의 경우 여기에는 사용자가 만든 구성 요소는 물론 Adobe에서 제공하는 구성 요소도 포함됩니다. 이름의 경우 여기에는 사용자가 만든 구성 요소만 포함되고 Adobe에서 제공하는 구성 요소는 포함되지 않습니다. Adobe 제공 구성 요소의 중복 이름 표시는 향후 릴리스에 추가될 예정입니다.</p> |
+   | [!UICONTROL **중복 항목 표시**] | <p>선택한 보고서 세트의 다른 구성 요소와 동일한 이름 또는 정의가 있는 구성 요소만 표시합니다. 이름 또는 정의가 정확히 일치하는 항목만 중복 항목으로 표시할 수 있습니다.</p><p>이 옵션은 관리자만 사용할 수 있습니다.</p><p>**참고:** 정의의 경우 여기에는 사용자가 만든 구성 요소는 물론 Adobe에서 제공하는 구성 요소도 포함됩니다. 이름의 경우 여기에는 사용자가 만든 구성 요소만 포함되고 Adobe에서 제공하는 구성 요소는 포함되지 않습니다. Adobe 제공 구성 요소의 중복 이름 표시는 향후 출시에 추가될 예정입니다.</p> |
    | [!UICONTROL **최근 데이터 없음**] | 지난 90일 동안 데이터를 수집하지 않은 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **Adobe에서 생성됨**] <!-- I don't see this option--> | Adobe에서 제작한 구성 요소만 표시합니다. 조직의 관리자 또는 다른 사용자가 만든 구성 요소는 표시되지 않습니다. |
 
    {style="table-layout:auto"}
 
-1. (선택 사항) 구성 요소 목록을 정렬하려면 **정렬** 아이콘 ![구성 요소 정렬 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)을 선택한 후 다음 필터링 옵션 중 하나를 선택하십시오.
+1. (선택 사항) 구성 요소 목록을 정렬하려면 **정렬** 아이콘 ![구성 요소 정렬 아이콘](/help/assets/icons/SortOrderDown.svg)을 선택한 후 다음 필터링 옵션 중 하나를 선택하십시오.
 
    {{components-sort-options}}
 

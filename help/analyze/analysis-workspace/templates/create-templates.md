@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '720'
 ht-degree: 100%
 ---
 # 템플릿 만들기 및 관리
@@ -114,7 +114,7 @@ ht-degree: 100%
 
    회사 템플릿 목록이 표시됩니다. 고정되지 않은 모든 일반 프로젝트는 표시되지 않습니다.
 
-   회사 템플릿은 템플릿 이름 앞에 있는 ![템플릿 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)으로 식별할 수 있습니다.
+   회사 템플릿은 템플릿 이름 앞에 있는 ![템플릿 아이콘](/help/assets/icons/FileTemplate.svg)으로 식별할 수 있습니다.
 
    ![회사 템플릿 필터 표시](assets/company-templates-filter.png)
 

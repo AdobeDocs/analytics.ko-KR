@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2047'
 ht-degree: 89%
 ---
 # 프로젝트 공유 {#share-projects}
@@ -73,7 +73,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 공유](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [프로젝트 공유](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -114,7 +114,7 @@ Analysis Workspace 프로젝트를 다음 유형의 사람과 공유할 수 있�
 
    또는
 
-   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**&#x200B;를 선택합니다.
+   개별 프로젝트만 공유하려면 공유하려는 프로젝트를 연 다음 **[!UICONTROL 공유]** > **[!UICONTROL Workspace 사용자와 공유]**를 선택합니다.
    저장되지 않은 변경 사항이 있는 경우 먼저 프로젝트를 저장하라는 메시지가 표시됩니다.
 
    프로젝트 공유 대화 상자가 표시됩니다. 대화 상자의 [!UICONTROL **링크로 공유**] 및 [!UICONTROL **설정**] 섹션은 단일 프로젝트를 공유하는 경우에만 표시됩니다.
@@ -189,7 +189,7 @@ Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모든 사람과 링크 공유](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}를 참조하세요.
+데모 비디오가 필요하면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [모든 사람과 링크 공유](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}를 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -222,13 +222,13 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
 
      * 이 옵션이 활성화되고 흐리게 표시되는 경우 Analytics 관리자는 Analysis Workspace 프로젝트에 액세스하는 모든 사용자에게 CX Enterprise 인증이 필요합니다.
 
-1. **[!UICONTROL 모두와 공유(로그인 필요 없음)]** 필드 옆의 **링크 복사** 아이콘 ![링크 복사 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)을 클릭하여 링크를 시스템 클립보드에 복사합니다.
+1. **[!UICONTROL 모두와 공유(로그인 필요 없음)]** 필드 옆의 **링크 복사** 아이콘 ![링크 복사 아이콘](/help/assets/icons/Link.svg)을 클릭하여 링크를 시스템 클립보드에 복사합니다.
 
 1. 프로젝트에 액세스하도록 할 사람에게 링크를 공유합니다. 예를 들어 이메일에 링크를 붙여넣을 수 있습니다.
 
    링크를 공유받은 사람은 누구나 Analysis Workspace 프로젝트를 볼 수 있습니다.
 
-1. (선택 사항) **새 링크 생성** 아이콘 ![링크 생성 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)을 클릭하여 이전에 프로젝트 링크를 받은 사용자의 액세스 권한을 제거할 수 있습니다. 프로젝트에 액세스하도록 할 사용자와 공유할 수 있는 새 링크가 생성됩니다.
+1. (선택 사항) **새 링크 생성** 아이콘 ![링크 생성 아이콘](/help/assets/icons/Refresh.svg)을 클릭하여 이전에 프로젝트 링크를 받은 사용자의 액세스 권한을 제거할 수 있습니다. 프로젝트에 액세스하도록 할 사용자와 공유할 수 있는 새 링크가 생성됩니다.
 
 1. **[!UICONTROL 닫기]**&#x200B;를 선택하여 공유 대화 상자를 닫습니다. 변경 내용은 자동으로 저장됩니다.
 
@@ -244,7 +244,7 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [포함된 구성 요소 공유](https://video.tv.adobe.com/v/30902?captions=kor&quality=12&learn=on){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [포함된 구성 요소 공유](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 

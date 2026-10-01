@@ -7,22 +7,26 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/d8CK9Vf-eaEU6P9386J1eO-JpD5u4l3VoqRcMwvXcW0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 455
-ht-degree: 9%
-
+source-wordcount: '399'
+ht-degree: 5%
 ---
-
 # 기존 사용자 계정, 자산, 만료 관리
 
 **[!UICONTROL 관리자] > [!UICONTROL 모든 관리자] > [!UICONTROL Analytics 사용자 및 관리자]**&#x200B;를 사용하여 이전 사용자 계정, 마이그레이션 상태, 만료 데이터, 다른 사용자로의 자산 전송 등을 관리할 수 있습니다.
@@ -42,18 +46,18 @@ ht-degree: 9%
 
 ![사용자](assets/users.png) 참조
 
-- 특정 사용자를 검색하려면 ![검색](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *제목별 검색* 필드를 사용하십시오.
-- 마이그레이션 상태에서 목록을 필터링하려면 ![V자형 화살표](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL 마이그레이션 상태]**&#x200B;를 선택하십시오.
-- 기존 로그인 상태에서 목록을 필터링하려면 ![V자형 화살표](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL 기존 로그인]**&#x200B;을 선택하십시오.
-- 열 표시를 변경하려면 ![열 설정](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)을 선택하고 팝업에서 열을 선택합니다.
+- 특정 사용자를 검색하려면 ![검색](/help/assets/icons/Search.svg) *제목별 검색* 필드를 사용하십시오.
+- 마이그레이션 상태에서 목록을 필터링하려면 ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 마이그레이션 상태]**&#x200B;를 선택하십시오.
+- 기존 로그인 상태에서 목록을 필터링하려면 ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL 기존 로그인]**&#x200B;을 선택하십시오.
+- 열 표시를 변경하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을 선택하고 팝업에서 열을 선택합니다.
 
 목록에서 사용자를 한 명 이상 선택할 때 다양한 작업을 적용할 수 있습니다.
 
 | 액션 | 설명 |
 |---|---|
-| ![마이그레이션](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL 마이그레이션]** | 한 명 이상의 사용자를 Enterprise ID 또는 Adobe ID로 마이그레이션할 수 있습니다. |
-| ![일정 잠김](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL 만료 설정]** | 선택한 사용자의 기존 Adobe Analytics 로그인을 사용하기 위한 만료 날짜를 설정할 수 있습니다.  달력 팝업을 사용할 날짜를 선택하여 날짜를 지정합니다. **[!UICONTROL 완료]**&#x200B;를 선택하여 만료를 확인합니다. |
-| ![자산 전송](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL 자산 전송]** | 이 작업은 한 명의 사용자를 선택하는 경우에만 사용할 수 있습니다. 사용자에게 양도 가능한 에셋이 있는 경우 계정 항목(예: 책갈피, 대시보드 등)을 선택할 수 있습니다. 전송을 완료하려면 **[!UICONTROL 전송]**&#x200B;을 선택하십시오.<br/>![자산 전송](assets/transfer-assets.png) |
-| ![계정 삭제](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 계정 삭제]** | 선택한 계정의 삭제를 확인하는 대화 상자가 표시됩니다. 계정을 삭제하려면 **[!UICONTROL 확인]**&#x200B;을 선택하세요. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다. |
-| ![CSV로 내보내기](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL CSV로 내보내기]** | 이 작업은 선택한 사용자의 세부 사항(이름, 마이그레이션 상태, 이메일 등)을 쉼표로 구분한 값 목록이 포함된 파일을 즉시 다운로드합니다. |
+| ![마이그레이션](/help/assets/icons/Briefcase.svg) **[!UICONTROL 마이그레이션]** | 한 명 이상의 사용자를 Enterprise ID 또는 Adobe ID로 마이그레이션할 수 있습니다. |
+| ![일정 잠김](/help/assets/icons/CalendarLocked.svg) **[!UICONTROL 만료 설정]** | 선택한 사용자의 기존 Adobe Analytics 로그인을 사용하기 위한 만료 날짜를 설정할 수 있습니다.  달력 팝업을 사용할 날짜를 선택하여 날짜를 지정합니다. **[!UICONTROL 완료]**&#x200B;를 선택하여 만료를 확인합니다. |
+| ![자산 전송](/help/assets/icons/Switch.svg) **[!UICONTROL 자산 전송]** | 이 작업은 한 명의 사용자를 선택하는 경우에만 사용할 수 있습니다. 사용자에게 양도 가능한 에셋이 있는 경우 계정 항목(예: 책갈피, 대시보드 등)을 선택할 수 있습니다. 전송을 완료하려면 **[!UICONTROL 전송]**&#x200B;을 선택하십시오.<br/>![자산 전송](assets/transfer-assets.png) |
+| ![계정 삭제](/help/assets/icons/Delete.svg) **[!UICONTROL 계정 삭제]** | 선택한 계정의 삭제를 확인하는 대화 상자가 표시됩니다. 계정을 삭제하려면 **[!UICONTROL 확인]**&#x200B;을 선택하세요. 취소하려면 **[!UICONTROL 취소]**&#x200B;를 선택합니다. |
+| ![CSV로 내보내기](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]** | 이 작업은 선택한 사용자의 세부 사항(이름, 마이그레이션 상태, 이메일 등)을 쉼표로 구분한 값 목록이 포함된 파일을 즉시 다운로드합니다. |
 

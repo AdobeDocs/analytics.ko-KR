@@ -7,29 +7,40 @@ exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 TQID: https://experienceleague.adobe.com/wRVKkpOExKTLChrmJmVw610EENDyL3qgMjxJDMrwxNo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 919
+source-wordcount: '906'
 ht-degree: 19%
-
 ---
-
 # 지표
 
 지표를 사용하면 Analysis Workspace에서 데이터 포인트를 수량화할 수 있습니다. 이들은 일반적으로 시각화에서 열로 사용되며 차원에 연결됩니다.
@@ -50,7 +61,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 * **계산된 지표 템플릿** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): 계산된 지표와 유사하게 작동하는 Adobe 정의 지표입니다. Workspace 프로젝트에서 그대로 사용하거나 복사본을 저장하여 논리를 사용자 정의할 수 있습니다. 계산된 지표 템플릿은 사용 가능한 구성 요소 목록에 Adobe 아이콘을 표시합니다.
 
-지표가 승인되었는지 ![승인됨 아이콘](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)을 확인할 수 있습니다. 지표에 대한 자세한 내용을 보려면 지표 위로 마우스를 가져간 후 ![정보 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)을 선택하세요. 자세한 내용은 [구성 요소 정보](use-components-in-workspace.md#component-info)를 참조하세요.
+지표가 승인되었는지 ![승인됨 아이콘](/help/assets/icons/Checkmark.svg)을 확인할 수 있습니다. 지표에 대한 자세한 내용을 보려면 지표 위로 마우스를 가져간 후 ![정보 아이콘](/help/assets/icons/InfoOutline.svg)을 선택하세요. 자세한 내용은 [구성 요소 정보](use-components-in-workspace.md#component-info)를 참조하세요.
 
 
 ## Analysis Workspace에서 지표 사용
@@ -60,7 +71,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [지표 사용](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"}을 참조하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [지표 사용](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"}을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -120,10 +131,10 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
    * [!UICONTROL **백분율 변경**]: 선택한 두 열 사이의 백분율 변경을 표시하는 새 열을 만듭니다.
 
-[계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics)&#x200B;(3:42)
+[계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics)&#x200B;(3:42)
 
 
-## 다양한 속성 모델과 지표 비교
+## 다양한 기여도 모델과 지표 비교
 
 한 속성 모델을 다른 속성 모델과 빠르게 비교하려면 지표를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 속성 모델 비교]**&#x200B;를 선택하십시오.
 
@@ -138,7 +149,7 @@ Adobe는 Analysis Workspace에서 사용할 수 있는 여러 유형의 지표�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [누적 평균](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [누적 평균](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 

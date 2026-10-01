@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 72%
@@ -151,11 +151,11 @@ Adobe Admin Console에서 사용자를 관리하기 위한 전제 조건입니�
    </tbody> 
    </table>
 
-   [!DNL .csv] 파일의 필드에 대한 자세한 내용은 [CSV 파일 형식](https://helpx.adobe.com/kr/enterprise/using/users.html)을 참조하십시오.
+[!DNL .csv] 파일의 필드에 대한 자세한 내용은 [CSV 파일 형식](https://helpx.adobe.com/kr/enterprise/using/users.html)을 참조하십시오.
 
-   >[!NOTE]
-   >
-   >[!UICONTROL 제품 구성] 및 [!UICONTROL 관리자 역할]과 같은 다른 열은 비어 있을 수 있습니다.
+>[!NOTE]
+>
+>[!UICONTROL 제품 구성] 및 [!UICONTROL 관리자 역할]과 같은 다른 열은 비어 있을 수 있습니다.
 
 1. Adobe Admin Console의 사용자 탭에서 **[!UICONTROL CSV로 사용자 추가]**&#x200B;를 클릭하여 템플릿 파일을 업로드합니다(3단계에서 설명).
 1. [Analytics 사용자 계정 마이그레이션](/help/admin/tools/user-management/user-migration/t-migrate-users.md)에 설명된 대로 Analytics에서 마이그레이션 도구를 실행합니다.

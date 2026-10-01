@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 10%
+source-wordcount: '992'
+ht-degree: 9%
 ---
 # 분류 통합 생성 및 편집
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="분류 세트 우선순위"
->abstract="![핵심](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *분류 세트*&#x200B;는 기본 분류 세트로, 전체 스키마를 정의하며 모든 병합 충돌에서 우선합니다. 다른 분류 세트는 위에서 아래로 순서대로 적용됩니다."
+>abstract="![핵심](/help/assets/icons/Key.svg) *분류 세트*&#x200B;는 기본 분류 세트로, 전체 스키마를 정의하며 모든 병합 충돌에서 우선합니다. 다른 분류 세트는 위에서 아래로 순서대로 적용됩니다."
 
 
 분류 통합을 만들려면 기본 Adobe Analytics 인터페이스에서 다음을 수행합니다.
@@ -90,7 +90,7 @@ ht-degree: 10%
 1. **[!UICONTROL 구성 요소]** 메뉴에서 **[!UICONTROL 분류 집합]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL 분류 세트]** 관리자에서 **[!UICONTROL 통합]** 탭을 선택합니다.
 1. **[!UICONTROL 분류 세트 통합]** 관리자에서:
-   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**&#x200B;대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
+   1. 분류 통합의 이름을 선택합니다. **[!UICONTROL 통합: _분류 통합 이름_]**대화 상자가 나타납니다. 모양새 및 사용 가능한 작업은 통합의 현재 상태와 분류 통합을 수정할 수 있는 옵션이 있는지 여부에 따라 달라집니다.
 
       | 사용 가능한 작업 | 설명 |
       |---|---|
