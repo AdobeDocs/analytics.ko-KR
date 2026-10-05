@@ -20,13 +20,13 @@ role_v2:
 source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
 source-wordcount: '6563'
-ht-degree: 80%
+ht-degree: 81%
 ---
 # 여정 캔버스 시각화 구성 {#configure-journey-canvas}
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_&#x200B;이 문서에 대한 [여정 캔버스 시각화 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하십시오._![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;버전._
+_이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_&#x200B;이 문서에 대한 [여정 캔버스 시각화 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하십시오._![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**버전._
 
 >[!ENDSHADEBOX]
 
@@ -107,7 +107,7 @@ _이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![Ad
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare"
 >title="비교 대상"
->abstract="이전 기간 대비 현재 여정 데이터를 비교하는 데 사용되는 날짜 범위입니다. 비교 날짜 범위를 선택하면 여정의 각 노드, 화살표 및 폴아웃에 기본 지표를 기준으로 현재 날짜 범위와 선택한 비교 날짜 범위 간의 퍼센트 변경 사항이 표시됩니다. "
+>abstract="이전 기간 대비 현재 여정 데이터를 비교하는 데 사용되는 날짜 범위입니다. 비교 날짜 범위를 선택하면 여정의 각 노드, 화살표, 폴아웃에는 기본 지표를 기반으로 현재 날짜 범위와 선택한 비교 날짜 범위 간의 백분율 변동 정보가 표시됩니다. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -127,7 +127,7 @@ _이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![Ad
    |---------|----------|
    | [!UICONTROL **백분율 값**] | 여정의 각 노드에 표시되는 백분율 값입니다.<p>![백분율 값](assets/journey-canvas-percentage.png)</p> <p>여정의 노드에 표시된 백분율 값을 구성할 때는 다음 사항을 고려합니다.</p><ul><li>기본 지표에 대한 각 노드의 백분율이 표시됩니다. 보조 지표가 구성된 경우 보조 지표에 대한 백분율도 표시됩니다. 기본 및 보조 지표 설정에 대한 자세한 내용은 [여정 캔버스 시각화 빌드 시작](#begin-building-a-journey-canvas-visualization)을 참조하십시오.</li><li>백분율에는 패널의 날짜 범위 내에 보고서 세트에 포함된 모든 사람 또는 세션이 포함됩니다. _인원_ 또는 _세션_ 사용 여부는 컨테이너 설정에 따라 다릅니다. 컨테이너 설정에 대한 자세한 내용은 [여정 캔버스 시각화 빌드 시작](#begin-building-a-journey-canvas-visualization)을 참조하십시오.</li></ul> <p>다음 선택 사항 중 하나를 선택합니다.</p> <ul><li>[!UICONTROL **시작 노드의 백분율**]: 시작 노드와 관련하여 각 노드에 표시된 백분율을 계산합니다. 백분율은 선택한 기본 및 보조 지표를 기반으로 합니다. <p>_시작 노드_&#x200B;는 앞에 연결된 노드가 없는 노드입니다.</p><p>한 여정에 여러 시작 노드가 포함될 수 있습니다. 그러나 여정에 공통 노드로 이어지는 시작 노드가 2개 이상 포함된 경우 [!UICONTROL **총계 백분율**]&#x200B;이 사용됩니다. [!UICONTROL **시작 노드의 백분율**]&#x200B;을 사용하려면 여정의 각 노드를 단일 시작 노드로 다시 추적할 수 있도록 여정을 업데이트하십시오.</p></li><li>[!UICONTROL **기존 노드의 백분율**]: 기존 노드와 관련하여 각 노드에 표시된 백분율을 계산합니다. 백분율은 선택한 기본 및 보조 지표를 기반으로 합니다.</li><li>[!UICONTROL **합계의 백분율**]: 보고서 세트의 모든 데이터와 관련하여 각 노드에 표시된 백분율을 계산합니다. 백분율은 선택한 기본 및 보조 지표를 기반으로 합니다.</li></ul> |
    | [!UICONTROL **화살표 설정**] | 여정 캔버스에서 노드 사이에 나타나는 화살표는 사용자 정의 레이블 및 값을 표시하도록 구성할 수 있습니다. <p>![화살표 설정](assets/journey-canvas-arrow-settings.png)</p><p>_레이블_&#x200B;은(는) [화살표에 레이블 추가 또는 업데이트](#add-or-update-a-label-on-an-arrow)에 설명된 대로 여정 캔버스 내에 추가할 수 있는 사용자 지정 이름입니다.</li></ol><p>_값_&#x200B;은 화살표에 표시되는 숫자와 백분율이며 여정의 한 노드에서 다음 노드로 이동한 사람 또는 세션을 나타냅니다. (즉, 특정 단계에서 여정에서 이탈하지 않은 사람들입니다.) </p><p>다음 옵션을 사용할 수 있습니다.</p><ul><li>[!UICONTROL **레이블 없음**]: 여정의 화살표에 레이블이 표시되지 않습니다. </br> 이 옵션은에서 여정이 수정된 경우에만 사용할 수 있습니다 </li><li>[!UICONTROL **레이블만**]: 여정의 화살표에 레이블이 표시됩니다.</li></ul> |
-   | [!UICONTROL **비교 대상**] | 이전 기간 대비 현재 여정 데이터를 비교하는 데 사용되는 날짜 범위입니다. 비교할 날짜 범위는 다음 중 하나를 선택할 수 있습니다.<ul><li>**[!UICONTROL 4주 전]**</li><li>**[!UICONTROL 2분기 이전]**</li><li>**[!UICONTROL 1년 전]**</li><li>**[!UICONTROL 사용자 지정 날짜 범위]**</li></ul><p>비교 날짜 범위를 선택하면 여정의 각 노드, 화살표 및 폴아웃에 기본 지표를 기준으로 현재 날짜 범위와 선택한 비교 날짜 범위 간의 퍼센트 변경 사항이 표시됩니다. 이를 통해 여정의 성과가 이전 기간과 비교하여 낫거나 나쁨을 식별할 수 있습니다.</p> |
+   | [!UICONTROL **비교 대상**] | 이전 기간 대비 현재 여정 데이터를 비교하는 데 사용되는 날짜 범위입니다. 비교할 날짜 범위는 다음 중 하나를 선택할 수 있습니다.<ul><li>**[!UICONTROL 4주 전]**</li><li>**[!UICONTROL 2분기 이전]**</li><li>**[!UICONTROL 1년 전]**</li><li>**[!UICONTROL 사용자 지정 날짜 범위]**</li></ul><p>비교 날짜 범위를 선택하면 여정의 각 노드, 화살표, 폴아웃에는 기본 지표를 기반으로 현재 날짜 범위와 선택한 비교 날짜 범위 간의 백분율 변동 정보가 표시됩니다. 이를 통해 여정의 성과가 이전 기간과 비교하여 낫거나 나쁨을 식별할 수 있습니다.</p> |
    | [!UICONTROL **폴아웃 표시**] | 폴아웃 데이터는 여정의 각 노드에서 이탈하는 백분율 및 숫자를 보여 줍니다. 폴아웃 데이터는 여정의 컨테이너 설정과 연결된 지표를 기반으로 하며, 기본 또는 보조 지표를 기반으로 하지 않습니다. <p>![폴아웃](assets/journey-canvas-fallout.png)</p><p>기본적으로 컨테이너는 _개인_&#x200B;이므로 폴아웃 데이터에 사용되는 지표는 _인원_&#x200B;입니다. 컨테이너를 _세션_(으)로 변경하면 폴아웃 데이터에 사용되는 지표는 _세션_&#x200B;입니다.</p><p>예를 들어 컨테이너 설정으로 _개인_&#x200B;을 사용하는 폴아웃은 여정의 각 노드에서 바로 다음 노드에 도달하지 못한 사람의 백분율 및 수를 표시합니다. 사이트에서 다른 작업을 수행했을 가능성이 있으나, 바로 다음에 오는 노드에 의해 정의된 기준을 충족하지 않은 경우입니다.</p> <p>여정 캔버스 컨테이너 설정에 대한 자세한 내용은 [여정 캔버스 시각화 빌드 시작](#begin-building-a-journey-canvas-visualization)을 참조하십시오. |
    | **컨트롤** | 캔버스의 오른쪽 위 모서리에서 다음 컨트롤을 사용할 수 있습니다.<ul><li>**화면 맞춤** ![화면 맞춤 아이콘](assets/fill-screen-icon.png): 전체 시각화로 화면을 채우도록 현재 확대/축소 및 패닝 설정을 조정합니다.</li><li>**구성** ![구성 아이콘](assets/organize.svg): 노드 연결을 기반으로 교차 화살표를 최소화하고 간격을 최적화하도록 노드를 다시 정렬합니다. </li><li>**확대** ![확대 아이콘](assets/zoom-in-icon.png): 시각화의 특정 영역을 확대합니다.<p>트랙패드에서 핀치하는 것과 같은 마우스 제어를 사용할 수도 있습니다.</li><li>**축소** ![축소 아이콘](assets/zoom-out-icon.png): 캔버스에 더 많은 공간이 생기도록 시각화를 축소합니다.<p>트랙패드에서 핀치하는 것과 같은 마우스 제어를 사용할 수도 있습니다.</p></li></ul><p>확대/축소 후 캔버스를 패닝하려면 마우스를 클릭하고 원하는 위치로 드래그합니다.</p> |
 
