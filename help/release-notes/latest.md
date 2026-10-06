@@ -2,6 +2,7 @@
 title: 현재 Adobe Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -39,10 +40,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e799ccd83844b80268377a1b7094baee6a1cbc0e
+source-git-commit: 2a63351b022c63d7c2cd5d89b9ca4598c63952d0
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 44%
+source-wordcount: '957'
+ht-degree: 54%
 ---
 # 최신 Adobe Analytics 릴리스 정보 (2026년 9월)
 
@@ -54,11 +55,9 @@ ht-degree: 44%
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
-| **세그먼트를 보고 날짜 범위로 제한**<br/>&#x200B;세그먼트에 날짜 범위 구성 요소가 포함된 경우 Workspace 보고서의 데이터는 보고 날짜 범위를 초과할 수 있습니다.<p>이제 세그먼트에 포함된 날짜 구성 요소에 관계없이 결과를 보고 날짜 범위로 제한할 수 있는 새 옵션을 사용할 수 있습니다.</p><p>이 옵션은 최상위 컨테이너가 방문자인 세그먼트를 만들거나 수정할 때 사용할 수 있습니다.</p><p>자세한 내용은 [세그먼트 빌드](/help/components/segmentation/segmentation-workflow/seg-build.md#components)를 참조하세요.</p> | 2026년 8월 26일 | 2026년 9월 9일 |
-| **보트 검색 업데이트**<br/> Web SDK에서 Edge Data Collection을 사용할 때 다음 보트 검색 업데이트를 사용할 수 있습니다.<ul><li>이제 보트 탐지 규칙을 만들어 보트 생성으로 처리되는 트래픽의 예외를 식별할 수 있습니다. 기존 규칙과 향후 규칙은 일치하는 트래픽을 보트 생성으로 계속 표시합니다.</li><li>이제 사용자 지정 보트 규칙이 IAB 보트 감지 규칙보다 먼저 실행됩니다. 이 변경 사항은 보트 점수에 영향을 주지 않지만, 이벤트와 연결된 보트 규칙 이름은 변경될 수 있습니다.</li></ul><p>참고: 이 업데이트는 웹 SDK을 사용하는 Edge 데이터 수집 구현에만 적용됩니다. AppMeasurement과 같은 이전 라이브러리에는 적용되지 않습니다.</p><p>자세한 내용은 [데이터 스트림에 대한 보트 검색 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/bot-detection)을 참조하십시오.</p> | | 2026년 9월 초 |
+| **구성 요소 설명 자동 생성** <br/>이제 차원, 지표, 계산된 지표, 세그먼트 및 날짜 범위에 대한 설명을 자동으로 생성할 수 있습니다. 이를 통해 Workspace 사용자는 특히 큰 구성 요소 라이브러리가 있는 조직에서 사용할 구성 요소를 이해할 수 있습니다. <p>단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다.</p> <p>(참조할 설명서 링크입니다.)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026년 10월 28일 |
+| **Adobe Brand Visibility 통합**<br/> AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있도록 Adobe Brand Visibility을 조직의 Adobe Analytics 데이터와 연결합니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 10월</p> |
 | **CX Enterprise Coworker: 공동 작업자 채팅에서 Adobe Analytics 데이터 분석** <br/>Adobe CX Enterprise Coworker 채팅에서 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. 동료 채팅은 Adobe Analytics 보고서 세트의 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | 2026년 10월 2일 | TBD<p>(원래 2026년 9월 25일로 계획됨)</p> |
-| **분류 세트 API 업데이트**<br/>&#x200B;이제 분류 세트 API 설명서에 분류 세트 API 요청을 구성하기 위한 업데이트된 끝점과 매개 변수 정보가 포함되어 있습니다.<p>자세한 내용은 [분류 끝점 안내서](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)를 참조하십시오.</p> | 2026년 9월 5일 | 2026년 9월 30일 |
-| **2.0 API 보고서 안내서의 날짜 항목 ID 인코딩 지침**<br/>&#x200B;이제 Adobe Analytics 2.0 API 날짜 트렌드 보고서 안내서에 날짜 `itemId` 매개 변수와 값이 인코딩되는 방법을 설명하는 새로운 섹션이 포함됩니다. 이제 더 이상 사용되지 않는 1.4 API에서 2.0 API 서비스를 구성하고 마이그레이션하는 데 도움이 될 수 있습니다.<p>자세한 내용은 [KPI 보고서 가이드](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) 및 [고급 보고서 가이드](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)를 참조하십시오.</p> | 2026년 9월 5일 | 2026년 9월 30일 |
 
 ### Adobe Analytics의 수정 사항
 
