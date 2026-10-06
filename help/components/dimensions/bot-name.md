@@ -31,23 +31,25 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 11%
+source-wordcount: '265'
+ht-degree: 10%
 ---
 # 봇 이름
 
 &#39;보트 이름&#39; [차원](overview.md)은(는) [보트 규칙](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)을(를) 사용하여 검색된 보트 이름을 표시합니다. 이러한 규칙은 기본 IAB 규칙 또는 조직에서 구성하는 사용자 지정 보트 규칙일 수 있습니다. 이 메서드는 사이트를 방문하는 보트나 가장 많은 트래픽을 발생시키는 봇에 대해 자세히 알아보고자 하는 경우에 유용합니다.
 
-[!UICONTROL 보트 규칙]과 일치하는 히트는 이 차원, [보트 발생 횟수](../metrics/bot-occurrences.md) 및 [보트 페이지 보기](../metrics/bot-page-views.md)를 제외하고 모든 Analytics 보고에서 자동으로 필터링됩니다. 이 차원과 이 두 지표를 사용하여 나머지 보고서에서 제외되는 보트 데이터를 확인할 수 있습니다.
+[!UICONTROL 보트 규칙]과 일치하는 히트는 이 차원, [보트 발생 횟수](../metrics/bot-occurrences.md), [보트 페이지 보기 수](../metrics/bot-page-views.md) 및 [보트 제품 발생 횟수](../metrics/bot-product-occurrences.md)를 제외하고 모든 Analytics 보고에서 자동으로 필터링됩니다. 이 차원과 이 세 가지 지표를 사용하여 나머지 보고서에서 제외되는 보트 데이터를 확인할 수 있습니다.
 
 보트 보고는 보고서 세트의 나머지 데이터와 분리되어 있으므로 이 차원에서는 다음 차원 및 지표만 지원됩니다.
 
 * [페이지](page.md)
+* [제품](product.md)([봇 제품 발생 횟수만](../metrics/bot-product-occurrences.md))
 * 시간 기반 차원(예: [일](day.md), [주](week.md) 또는 [월](month.md))
 * [봇 발생 횟수](../metrics/bot-occurrences.md)
 * [봇 페이지 조회수](../metrics/bot-page-views.md)
+* [봇 제품 발생 횟수](../metrics/bot-product-occurrences.md)
 
 이 차원과 함께 다른 차원 또는 지표를 사용하면 데이터가 반환되지 않습니다.
 
