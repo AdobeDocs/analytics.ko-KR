@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 77%
+source-wordcount: '393'
+ht-degree: 78%
 ---
 # H 코드 JavaScript 구현 개요
 
@@ -51,7 +51,7 @@ ht-degree: 77%
    >
    >H 코드를 사용하려면 `s_code.js` 스크립트가 `<body>` 태그 내에 호출되어 있어야 합니다. 이는 다른 구현 메서드와 다르며, 대부분은 스크립트 참조가 `<head>` 태그에 있어야 합니다.
 1. **각 페이지에서 페이지별 변수 정의**: 각 페이지에는 페이지 이름이나 eVar와 같은 개별 변수가 정의되어 있어야 합니다. 개별 변수는 일반적으로 각 페이지에서 인라인 `<script>` 태그로 정의됩니다.
-1. **디버거를 사용하여 데이터 수집을 확인합니다**: [CX Enterprise 디버거](../../validate/debugger.md)를 다운로드하여 설치하여 데이터가 Adobe으로 전송되고 페이지 변수가 올바르게 정의되었는지 확인합니다.
+1. **디버거를 사용하여 데이터 수집을 확인**: [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ko/docs/experience-platform/debugger/home)을(를) 다운로드하고 설치하여 데이터가 Adobe으로 전송되고 페이지 변수가 올바르게 정의되었는지 확인하십시오.
 
 ## 캐싱
 

@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 18%
 ---
 # Experience Cloud 방문자 ID
@@ -44,8 +44,8 @@ Experience Cloud 방문자 ID [차원](overview.md)은(는) 각 방문자에 대
 
 | 속성 | 값 |
 | --- | --- |
-| **AppMeasurement 변수** | 없음(Experience Cloud 방문자 ID 서비스에 의해 설정됨) |
-| **웹 SDK/XDM 필드** | 없음(Experience Cloud Identity 서비스에 의해 설정됨) |
+| **AppMeasurement 변수** | 없음(Adobe 방문자 ID 서비스에 의해 설정됨) |
+| **웹 SDK/XDM 필드** | 없음(Experience Platform Identity 서비스에 의해 설정됨) |
 | **쿼리 매개 변수** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 해당 없음 |
@@ -53,4 +53,4 @@ Experience Cloud 방문자 ID [차원](overview.md)은(는) 각 방문자에 대
 
 ## 차원 항목
 
-Dimension 항목에는 각 방문자의 Experience Cloud ID가 포함됩니다.
+Dimension 항목에는 각 방문자의 ECID가 포함됩니다.

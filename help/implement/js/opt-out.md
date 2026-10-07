@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 64%
+ht-degree: 65%
 ---
 # 구현 옵트아웃 링크
 
@@ -71,9 +71,9 @@ ht-degree: 64%
   1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
   1. `trackingServer` 변수 값을 확인합니다.
 
-* [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ko) 사용:
+* [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ko/docs/experience-platform/debugger/home) 사용:
   1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
-  1. CX Enterprise Debugger를 열고 [!UICONTROL 네트워크 탭]&#x200B;(으)로 이동합니다.
+  1. Adobe Experience Platform Debugger을 열고 [!UICONTROL 네트워크 탭]&#x200B;(으)로 이동합니다.
   1. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
 
 구현의 `trackingServer` 도메인을 찾으면 경로 `/optout.html`을 끝에 추가합니다. 예:

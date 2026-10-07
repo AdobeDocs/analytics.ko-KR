@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '857'
+ht-degree: 98%
 ---
 # 데이터 증가 및 감소 문제 해결
 
@@ -53,11 +53,11 @@ ht-degree: 100%
 * **보고서 세트 지연**: 간혹 보고서 세트는 많은 요인으로 인해 [지연](../latency.md)을 경험할 수 있습니다. 지연 문제 대부분은 1시간 이내에 해결됩니다. 특정 보고서 세트에 관심이 있는 경우 영향을 받는 보고서 세트 ID를 사용하여 Adobe 고객 지원 센터에 문의하십시오.
 * **구현 제거**: 조직에서 구현을 변경하거나 사이트를 재구성할 때 Analytics를 다시 구현하는 것은 간과되는 경우가 있습니다. 조직의 개발자와 협력하여 사이트에 코드를 다시 구현하십시오.
 * **Analytics 인터페이스/캐싱 문제**: 드문 경우, 브라우저의 캐시에 모든 보고서가 0을 반환하도록 하는 잘못된 데이터가 포함됩니다. 브라우저의 쿠키와 캐시를 지우면 문제가 해결됩니다. 쿠키/캐시를 지워도 문제가 해결되지 않으면, 고객 지원 센터에 연락하여 누락된 보고서와 날짜 범위를 알려 주십시오. 담당자가 문제를 재현하여 추가 정보를 제공할 수 있습니다.
-* **Analytics 가용성**: 데이터 수집이나 처리와 관련한 문제에 대해서는 [status.adobe.com](https://status.adobe.com/kr/products/1173/)에서 확인하십시오.
+* **Analytics 가용성**: 데이터 수집이나 처리와 관련한 문제에 대해서는 [status.adobe.com](https://status.adobe.com/products/1173/)에서 확인하십시오.
 
 ### 데이터 부분 누락 또는 트래픽 감소의 잠재적 원인
 
-* **구현 변경**: [디버거](/help/implement/validate/debugger.md)를 사용하여 원하는 차원이 작동하는지 확인하십시오.
+* **구현 변경**: [디버깅 도구](/help/implement/validate/debugging-tools.md)를 사용하여 원하는 차원이 작동하는지 확인하십시오.
 * **참조 트래픽 감소**: 다른 사이트의 인기 있는 배너 광고나 하이퍼링크를 제거하면 트래픽이 크게 감소할 수 있습니다. 더 자세히 조사하려면 감소 전후의 [참조 도메인](/help/components/dimensions/referring-domain.md) 차원에 대한 트렌드를 확인합니다.
 * **사이트 성능 문제**: 로드 밸런서를 통한 트래픽 분배가 잘못되거나 사이트를 호스팅하는 서버에 문제가 있으면 Analytics 보고에서 감소가 발생할 수 있습니다. 조직 내에서 사이트의 무결성과 상태를 관리하는 팀과 협력하여 가능한 모든 성능 문제를 조사하십시오.
 * **자연어 검색 순위 변경**: 다른 사이트가 일부 키워드에 대한 자연어 검색 등급을 배제하는 경우 트래픽이 잠재적으로 감소할 수 있습니다. 사이트가 더 이상 검색 결과의 첫 페이지에 있지 않다면 이러한 감소는 특히 두드러질 수 있습니다. 더 자세히 조사하려면 [검색 엔진](/help/components/dimensions/search-engine.md) 차원의 트렌드를 확인하십시오.

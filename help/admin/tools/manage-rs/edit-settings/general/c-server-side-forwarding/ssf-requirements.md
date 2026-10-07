@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 57%
+source-wordcount: '333'
+ht-degree: 47%
 ---
 # 서버측 전달 요구 사항
 
@@ -44,7 +44,7 @@ ht-degree: 57%
 
 ## 솔루션 요구 사항
 
-서버측 전달은 [Analytics](https://www.adobe.com/kr/data-analytics-cloud/analytics.html)와 [Audience Manager](https://www.adobe.com/kr/data-analytics-cloud/audience-manager.html) 및/또는 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)에서 작동합니다.
+서버측 전달은 [Analytics](https://www.adobe.com/kr/data-analytics-cloud/analytics.html)와 [Audience Manager](https://www.adobe.com/kr/data-analytics-cloud/audience-manager.html) 및/또는 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)에서 작동합니다.
 
 ## 서비스 요구 사항
 
@@ -62,5 +62,5 @@ ht-degree: 57%
 
 브라우저가 수행한 HTTP 요청을 모니터링하는 도구에서 AppMeasurement 및 Visitor API 코드의 버전 번호를 표시할 수 있습니다. `AppMeasurement_Module_AudienceManagement.js`는 버전 ID를 포함하지 않거나 반환하지 않습니다. 다음 예제는 버전 ID가 `AppMeasurement.js` 및 `VisitorAPI.js` 코드처럼 표시되는 코드 라이브러리를 보여 줍니다.
 
-* `AppMeasurement.js`: [Adobe Debugger](/help/implement/validate/debugger.md)가 다음과 같은 AppMeasurement 버전을 반환합니다. `Version of Code | JS-1.5.1` 다른 도구는 다른 레이블을 사용할 수 있지만 값은 항상 `JS-X.X.X` 패턴을 따르며, 여기서 `X`는 버전 번호입니다.
+* `AppMeasurement.js`: `/b/ss/examplersid/1/JS-X.X.X/s234234238479`과(와) 같이 응답 형식 뒤에 버전이 요청 URL에 나타납니다. 요청을 디코딩하는 [디버깅 도구](/help/implement/validate/debugging-tools.md)에서 다른 레이블을 사용할 수 있지만 값은 항상 `JS-X.X.X` 패턴을 따릅니다. 여기서 `X`은(는) 버전 번호입니다.
 * `VisitorAPI.js`: `d_visid_ver` 매개 변수를 찾습니다. 다음과 같은 방문자 ID 서비스를 표시합니다. `d_visid_ver: 1.5.5`. 버전 1.5.2 이전의 방문자 API 코드에는 버전 번호가 포함되어 있지 않습니다. 모니터링 결과가 버전 번호를 반환하지 않는 경우 이전 코드 라이브러리를 사용하고 있으며 업그레이드해야 할 수도 있습니다.

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '318'
+ht-degree: 96%
 ---
 # iframe과 함께 AppMeasurement 사용
 
@@ -89,5 +89,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * 다른 JavaScript 코드와 마찬가지로 iframe은 도메인과 프로토콜이 일치할 때만 통신할 수 있습니다. 이 예제는 iframe 콘텐츠가 상위 페이지와 다른 도메인에 있는 경우 작동하지 않습니다.
 * AppMeasurement가 iframe에 있는 경우 [`referrer`](../vars/page-vars/referrer.md) 변수는 실제 참조 URL이 아닌 상위 URL로 설정됩니다. `referrer` 변수를 수동으로 설정하여 이 문제를 해결할 수 있습니다.
-* [Adobe CX Enterprise debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)이(가) iframe 내에서 트리거된 이미지 요청을 인식하지 않습니다.
+* [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ko/docs/experience-platform/debugger/home)은(는) iframe 내에서 트리거된 이미지 요청을 인식하지 않습니다.
 * Activity Map은 iframe 내에서 클릭된 링크 위에 히트맵을 표시하지 않습니다. 대신 전체 iframe이 강조 표시됩니다.
