@@ -50,7 +50,7 @@ ht-degree: 93%
 ## 브라우저는 쿠키 사용을 어떻게 제한했습니까?
 
 >[!NOTE]
->[Cross-Device Analytics](/help/components/cda/overview.md#cda) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics)는 해시된 로그인 id와 같은 사용자 ID를 사용하여 쿠키 간에 연결할 수 있습니다.
+>[Cross-Device Analytics](/help/components/cda/overview.md#cda) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko#comparing-cja-to-traditional-adobe-analytics)는 해시된 로그인 id와 같은 사용자 ID를 사용하여 쿠키 간에 연결할 수 있습니다.
 
 ### 서드파티 쿠키 제한
 
@@ -85,8 +85,8 @@ ITP 정책은 자주 변경됩니다. 최신 정책은 Apple의 [Webkit의 Track
 Adobe가 설정한 모든 자사 쿠키 및 관련 JavaScript 라이브러리는 ITP 정책의 영향을 받습니다.
 
 * ECID(Adobe 방문자 ID 서비스) 라이브러리에서 설정한 [&quot;AMCV&quot; 쿠키](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)
-* Analytics 레거시 [&quot;s_vi&quot; 쿠키](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics), CNAME를 사용하는 자사 데이터 컬렉션으로 구성된 경우
-* Analytics 레거시 [&quot;s_fid&quot; 쿠키](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics), &quot;s_vi&quot;를 설정할 수 없는 경우에 사용되는 폴백 쿠키
+* Analytics 레거시 [&quot;s_vi&quot; 쿠키](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics), CNAME를 사용하는 자사 데이터 컬렉션으로 구성된 경우
+* Analytics 레거시 [&quot;s_fid&quot; 쿠키](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics), &quot;s_vi&quot;를 설정할 수 없는 경우에 사용되는 폴백 쿠키
 
 #### ITP는 Analytics의 Safari에 어떤 영향이 있습니까?
 
@@ -210,4 +210,4 @@ CNAME 구현이 자신의 웹 사이트와 동일한 도메인에 설정되어 �
 >[!MORELIKETHIS]
 >
 >[브라우저 쿠키 제한의 영향을 완화하는 옵션](cookieless.md)
->[Apple의 Adobe Analytics에 대한 New App Tracking Transparency Framework](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)
+>[Apple의 Adobe Analytics에 대한 New App Tracking Transparency Framework](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=ko)

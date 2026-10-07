@@ -113,4 +113,4 @@ Adobe Experience Platform Web SDK을 사용하는 구현의 경우 다음을 위
 
 취소된 요청이 반드시 데이터가 손실되었음을 의미하지는 않습니다. 브라우저가 전체 요청을 보냈을 수 있으며 응답을 기다리는 중만 중지되었을 수 있습니다. 브라우저 개발자 도구는 일반적으로 차이를 표시할 수 없지만 HTTP 디버깅 프록시는 차이를 표시할 수 있습니다.
 
-`navigator.sendBeacon()`(으)로 보낸 요청은 탐색 시 취소되지 않습니다. AppMeasurement은 종료 링크에 `sendBeacon`을(를) 사용하며 [`useBeacon`](/help/implement/vars/config-vars/usebeacon.md)이(가) 활성화될 때마다 사용합니다. 웹 SDK은 [`documentUnloading`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/documentunloading)&#x200B;(으)로 전송된 이벤트에 이 태그를 사용합니다. 링크 추적 요청이 자주 취소되는 경우 다음 옵션을 사용합니다.
+`navigator.sendBeacon()`(으)로 보낸 요청은 탐색 시 취소되지 않습니다. AppMeasurement은 종료 링크에 `sendBeacon`을(를) 사용하며 [`useBeacon`](/help/implement/vars/config-vars/usebeacon.md)이(가) 활성화될 때마다 사용합니다. 웹 SDK은 [`documentUnloading`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/sendevent/documentunloading)&#x200B;(으)로 전송된 이벤트에 이 태그를 사용합니다. 링크 추적 요청이 자주 취소되는 경우 다음 옵션을 사용합니다.
