@@ -69,7 +69,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-새 스키마를 만들 때 업그레이드 도우미가 표준 또는 사용자 지정 필드 그룹을 선호하는지 여부도 선택합니다. 표준 필드 그룹은 Adobe에서 정의하는 반면, 사용자 지정 필드 그룹은 조직에서 정의합니다. XDM 설명서에서 [필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#field-group)을(를) 참조하십시오.
+새 스키마를 만들 때 업그레이드 도우미가 표준 또는 사용자 지정 필드 그룹을 선호하는지 여부도 선택합니다. 표준 필드 그룹은 Adobe에서 정의하는 반면, 사용자 지정 필드 그룹은 조직에서 정의합니다. XDM 설명서에서 [필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)을(를) 참조하십시오.
 
 ## 매핑 검토 {#review}
 
