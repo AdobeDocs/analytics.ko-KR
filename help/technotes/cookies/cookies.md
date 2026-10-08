@@ -7,30 +7,42 @@ role: Admin
 TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 2104
+source-wordcount: '2102'
 ht-degree: 93%
-
 ---
-
 # Adobe Analytics 및 브라우저 쿠키
 
 이 문서에서는 주요 브라우저의 추적 방지 조치가 Adobe Analytics에서 설정한 서드파티 및 자사 쿠키에 미치는 영향을 설명합니다. 여기에는 Apple의 ITP(Intelligent Tracking Prevention) 프로그램에 대한 정보와 SameSite 속성을 통한 서드파티 쿠키에 대한 Chrome의 제한 사항이 포함됩니다.
@@ -66,13 +78,13 @@ Adobe의 자사 쿠키는 7일의 만료 기간으로 제한되거나 Apple이 �
 * 2019년 4월, [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/): 참조 도메인이 a) 교차 사이트 추적 및 b) 조각 식별자에 포함된 쿼리 스트링 및/또는 최종 URL에 포함된 경우에는 클라이언트측 쿠키는 광고 클릭에 대해 24시간으로 제한됩니다.
 * 2020년 11월, [CNAME 클로킹 및 바운스 추적 디펜스](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/): ITP 제한이 CNAME 구현으로 확장되었습니다.
 
-ITP 정책은 자주 발전하고 있습니다. 최신 정책은 Apple의 [Webkit의 Tracking Prevention](https://webkit.org/tracking-prevention)을 참조하십시오.
+ITP 정책은 자주 변경됩니다. 최신 정책은 Apple의 [Webkit의 Tracking Prevention](https://webkit.org/tracking-prevention)을 참조하십시오.
 
 #### 영향을 받는 Adobe 자사 쿠키는 어떤 것입니까?
 
 Adobe가 설정한 모든 자사 쿠키 및 관련 JavaScript 라이브러리는 ITP 정책의 영향을 받습니다.
 
-* Adobe Experience Cloud 방문자 ID(ECID) 서비스 라이브러리가 설정한 [&quot;AMCV&quot; 쿠키](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)
+* ECID(Adobe 방문자 ID 서비스) 라이브러리에서 설정한 [&quot;AMCV&quot; 쿠키](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)
 * Analytics 레거시 [&quot;s_vi&quot; 쿠키](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics), CNAME를 사용하는 자사 데이터 컬렉션으로 구성된 경우
 * Analytics 레거시 [&quot;s_fid&quot; 쿠키](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics), &quot;s_vi&quot;를 설정할 수 없는 경우에 사용되는 폴백 쿠키
 
@@ -83,7 +95,7 @@ ITP 제한의 영향은 사용자의 동작에 따라 크게 달라집니다. IT
 이러한 제한이 데이터에 영향을 주는 경우는 다음과 같습니다.
 
 1. 재방문자의 쿠키가 만료되어 신규 방문자로 처리되었기 때문에 방문자 수가 늘어났습니다. (방문자당 판매 같은) 방문자 지표를 기준으로 하는 지표도 영향을 받습니다.
-2. 속성에 대한 변경 사항. 속성은 변환 이벤트를 동일한 방문자의 이전 활동과 연결하는 것을 기반으로 합니다. 쿠키가 만료되면 후속 이벤트가 새 방문자와 연결됩니다. 새 방문자의 활동은 이전 방문자의 활동과 연결될 수 없습니다.
+2. 속성에 대한 변경 사항. 기여도는 전환 이벤트를 동일한 방문자의 이전 활동과 연결하는 것을 기반으로 합니다. 쿠키가 만료되면 후속 이벤트가 새 방문자와 연결됩니다. 새 방문자의 활동은 이전 방문자의 활동과 연결될 수 없습니다.
 
 >[!NOTE]
 >
@@ -103,15 +115,15 @@ ITP 제한의 영향은 사용자의 동작에 따라 크게 달라집니다. IT
 
 자사 쿠키는 도메인에 고유하며, 고객 웹 사이트에 의해 만들어지고 사용자가 웹 사이트를 방문할 때 고객 브라우저에 저장됩니다. [Safari가 일정한 유형의 자사 쿠키에 대한 만료를 제한하지만](#limitations-first-party-cookies), 모든 브라우저에서는 일반적으로 자사 쿠키를 수락합니다.
 
-자사 쿠키는 Analytics이 구현되는 범위 내에서 사이트에 있는 사용자를 식별하므로 사용자 활동에 대한 모든 분석을 지원하는 데 사용됩니다. 서드파티 쿠키가 현장 활동을 이해할 필요는 없습니다.
+자사 쿠키는 Analytics이 구현되는 범위 내에서 사이트에 있는 사용자를 식별하므로 사용자 활동에 대한 모든 분석을 지원하는 데 사용됩니다. 사이트 내 활동을 이해하는 데 서드파티 쿠키는 필요하지 않습니다.
 
 자세한 내용은 [자사 쿠키 정보](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=ko-KR)를 참조하십시오.
 
 ![쿠키 비교](/help/technotes/assets/cookies2.png)
 
-## SameSite 쿠키 속성이란 무엇이며 Analytics에 어떤 영향을 줍니까? {#samesite-effect}
+## SameSite 쿠키 속성이란 무엇이며 Analytics 쿠키에 어떤 영향을 줍니까? {#samesite-effect}
 
-2020년 2월에 Chrome 80 브라우저가 출시되고 Firefox 및 Edge 브라우저의 후속 버전이 출시됨에 따라 SameSite 쿠키 속성은 서드파티 컨텍스트에서 쿠키를 사용할 수 있는지 여부를 결정하는 세 가지 다른 값에 대한 사양을 적용합니다.
+2020년 2월에 Chrome 80 브라우저가 출시되고 Firefox 및 Edge 브라우저의 후속 버전이 출시됨에 따라 SameSite 쿠키 속성은 제3자 컨텍스트에서 쿠키를 사용할 수 있는지 여부를 결정하는 세 가지 다른 값에 대한 사양을 적용합니다.
 
 * `None`: 이 설정을 사용하면 사이트 간 액세스가 가능하고 쿠키를 서드파티 컨텍스트에서 전달할 수 있습니다. 이 속성을 지정하려면 `Secure`도 지정해야 하며 모든 브라우저 요청이 HTTPS를 따라야 합니다. 예를 들어 쿠키를 설정할 때 속성 값을 다음과 같이 쌍으로 묶습니다. `Set-Cookie: example_session=test12; SameSite=None; Secure`. 레이블이 제대로 지정되지 않은 경우, 쿠키는 최신 브라우저에서 사용할 수 없으며 거부됩니다.
 
@@ -137,7 +149,7 @@ Analytics 레거시 식별자(`s_vi` 및 `s_fid` 쿠키)를 사용하는 고객�
 
 ![쿠키 테이블](/help/technotes/assets/cookies1.png)
 
-### 내 사이트에서는 SameSite 속성을 어떻게 해결할 수 있습니까?
+### 내 사이트에서 SameSite 속성 요구 사항을 어떻게 해결할 수 있습니까?
 
 #### HTTPS로 모든 사이트 페이지 제공
 
@@ -157,33 +169,33 @@ CNAME 구현이 자신의 웹 사이트와 동일한 도메인에 설정되어 �
 
 ## Safari 변화가 비즈니스에 영향을 주는지 어떻게 판단할 수 있습니까? {#measure-itp-effect}
 
-고객은 데이터 수집을 변경하기 전에 자신의 회사 내에서 어떤 영향이 있는지 측정하는 것이 좋습니다. Analysis Workspace를 사용하여 ITP 추적이 개인 비즈니스에 어떤 영향을 주는지 측정할 수 있습니다.
+고객은 데이터 수집을 변경하기 전에 자신의 회사 내에서 어떤 영향이 있는지 측정하는 것이 좋습니다. Analysis Workspace를 사용하여 ITP 추적 방지가 개별 비즈니스에 미치는 영향을 측정할 수 있습니다.
 
 * ITP 적용 브라우저에서 트래픽의 비율을 측정합니다.
 
-   1. 세그먼트를 만들어 ITP 플랫폼을 사용하는 방문자의 수를 확인합니다.
+  1. 세그먼트를 만들어 ITP 플랫폼을 사용하는 방문자의 수를 확인합니다.
 
-      >[!NOTE]
-      >
-      >ITP의 영향을 받는 특정 브라우저는 사용자가 CNAME 구현을 사용했는지 여부에 따라 달라집니다. 자세한 내용은 &quot;[ITP 정책의 주요 변경 타임라인](#ITP-timeline)&quot;을 참조하십시오.
+     >[!NOTE]
+     >
+     >ITP의 영향을 받는 특정 브라우저는 CNAME 구현을 사용하고 있었는지 여부에 따라 달라집니다. 자세한 내용은 &quot;[ITP 정책의 주요 변경 타임라인](#ITP-timeline)&quot;을 참조하십시오.
 
-      ![ITP 방문자에 대한 세그먼트](/help/technotes/assets/itp-visitor-segment.png)
+     ![ITP 방문자에 대한 세그먼트](/help/technotes/assets/itp-visitor-segment.png)
 
-   2. 세그먼트를 방문자의 수에 적용하여 사용자 기반에서 Safari의 상대적인 사용을 이해합니다. 이렇게 하면 다음과 같이 테이블을 만들 수 있습니다.
+  2. 세그먼트를 방문자의 수에 적용하여 사용자 기반에서 Safari의 상대적인 사용을 이해합니다. 이렇게 하면 다음과 같이 테이블을 만들 수 있습니다.
 
-      ![ITP 방문자별 방문 비율](/help/technotes/assets/visits-vs-safari-visits.png)
+     ![ITP 방문자별 방문 비율](/help/technotes/assets/visits-vs-safari-visits.png)
 
-* 7일 안에 돌아오지 않는 비Safari 방문자를 사용하여 방문자의 비율을 측정합니다. 비Safari 방문자가 7일 안에 반복해서 돌아오는 경우에는 Safari 트래픽이 크게 영향을 받지 않을 수 있습니다.
+* Safari 이외의 브라우저를 사용하는 방문자 중 7일 이내에 다시 방문하지 않는 방문자의 비율을 측정합니다. 비Safari 방문자가 7일 안에 반복해서 돌아오는 경우에는 Safari 트래픽이 크게 영향을 받지 않을 수 있습니다.
 
-   1. 비Safari 트래픽에 대해 다음과 같이 세그먼트를 만듭니다.
+  1. 비Safari 트래픽에 대해 다음과 같이 세그먼트를 만듭니다.
 
-      ![7일 후에 돌아오는 방문자에 대한 세그먼트](/help/technotes/assets/visits-after-seven-days.png)
+     ![7일 후에 돌아오는 방문자에 대한 세그먼트](/help/technotes/assets/visits-after-seven-days.png)
 
-   2. 세그먼트를 방문자의 수에 적용하여 사용자 기반에서 Safari의 상대적인 사용을 이해합니다. 이렇게 하면 다음과 같이 테이블을 만들 수 있습니다.
+  2. 세그먼트를 방문 횟수에 적용하여 사용자 기반에서 Safari의 상대적인 사용을 이해합니다. 이렇게 하면 다음과 같이 테이블을 만들 수 있습니다.
 
-      ![7일 후에 돌아오는 방문자의 비율에](/help/technotes/assets/percent-visits-after-seven-days.png)
+     ![7일 후에 돌아오는 방문자의 비율에](/help/technotes/assets/percent-visits-after-seven-days.png)
 
-### 보고하는 동안 데이터를 조정하는 방법
+### 보고 중 데이터를 조정하는 방법
 
 비즈니스가 ITP 추적 방지의 영향을 받는 경우, 다음과 같은 조치를 취하여 보고하는 동안 데이터를 조정할 수 있습니다.
 
@@ -197,4 +209,5 @@ CNAME 구현이 자신의 웹 사이트와 동일한 도메인에 설정되어 �
 
 >[!MORELIKETHIS]
 >
->[브라우저 쿠키 제한의 영향을 완화하는 옵션Apple의 Adobe Analytics에 대한 New App Tracking Transparency Framework](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=ko)
+>[브라우저 쿠키 제한의 영향을 완화하는 옵션](cookieless.md)
+>[Apple의 Adobe Analytics에 대한 New App Tracking Transparency Framework](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=ko)

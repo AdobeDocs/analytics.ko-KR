@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 89%
+source-wordcount: '267'
+ht-degree: 90%
 ---
 # s.dynamicAccountList
 
@@ -81,4 +81,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * 일치하는 규칙이 없을 경우에는 `s_account`의 기본 보고서 세트가 사용됩니다.
 * 페이지가 누군가의 하드 드라이브에 저장되거나 웹 기반 번역 엔진을 통해 번역되는 경우 (Google의 번역된 페이지)에는, 동적 계정 선택 기능이 작동하지 않을 수 있습니다.
 * `dynamicAccountSelection` 규칙은 `dynamicAccountMatch`에 지정된 URL의 섹션에만 적용됩니다.
-* Adobe CX Enterprise Debugger를 사용하여 대상 보고서 세트를 테스트합니다.
+* Adobe Experience Platform Debugger을 사용하여 대상 보고서 세트를 테스트합니다.

@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '857'
+ht-degree: 98%
 ---
 # 데이터 증가 및 감소 문제 해결
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 ### 데이터 부분 누락 또는 트래픽 감소의 잠재적 원인
 
-* **구현 변경**: [디버거](/help/implement/validate/debugger.md)를 사용하여 원하는 차원이 작동하는지 확인하십시오.
+* **구현 변경**: [디버깅 도구](/help/implement/validate/debugging-tools.md)를 사용하여 원하는 차원이 작동하는지 확인하십시오.
 * **참조 트래픽 감소**: 다른 사이트의 인기 있는 배너 광고나 하이퍼링크를 제거하면 트래픽이 크게 감소할 수 있습니다. 더 자세히 조사하려면 감소 전후의 [참조 도메인](/help/components/dimensions/referring-domain.md) 차원에 대한 트렌드를 확인합니다.
 * **사이트 성능 문제**: 로드 밸런서를 통한 트래픽 분배가 잘못되거나 사이트를 호스팅하는 서버에 문제가 있으면 Analytics 보고에서 감소가 발생할 수 있습니다. 조직 내에서 사이트의 무결성과 상태를 관리하는 팀과 협력하여 가능한 모든 성능 문제를 조사하십시오.
 * **자연어 검색 순위 변경**: 다른 사이트가 일부 키워드에 대한 자연어 검색 등급을 배제하는 경우 트래픽이 잠재적으로 감소할 수 있습니다. 사이트가 더 이상 검색 결과의 첫 페이지에 있지 않다면 이러한 감소는 특히 두드러질 수 있습니다. 더 자세히 조사하려면 [검색 엔진](/help/components/dimensions/search-engine.md) 차원의 트렌드를 확인하십시오.

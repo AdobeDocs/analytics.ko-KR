@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. Analytics 데이터를 최대한 활용할 수 있도록 수집할 데이터를 사용자 정의하십시오.
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 96%
+source-wordcount: '459'
+ht-degree: 92%
 ---
 
 # Adobe Analytics 구현 안내서 {#implementation}
@@ -143,8 +143,15 @@ ht-degree: 96%
   + [Edge Network 이벤트 유형](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Web SDK 개요](aep-edge/web-sdk/overview.md)
-    + 마이그레이션 플래너 {#planner}
-      + [플래너 개요](aep-edge/web-sdk/planner/overview.md)
+    + 업그레이드 도우미 {#upgrade-assistant}
+      + [업그레이드 도우미 개요](aep-edge/web-sdk/upgrade-assistant/overview.md)
+      + [마이그레이션 관리](aep-edge/web-sdk/upgrade-assistant/manager.md)
+      + [구성 요소 선택](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
+      + [감사 결과](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
+      + [보고서 세트 확인](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [XDM 매핑](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
+      + [웹 SDK 구현](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [최종 검토](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [태그를 사용하여 Web SDK로 마이그레이션](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [JavaScript를 사용하여 Web SDK로 마이그레이션](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [태그를 사용한 새로운 구현](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -184,8 +191,7 @@ ht-degree: 96%
   + [iFrame에서 AppMeasurement 사용](use-cases/iframe.md)
   + [캠페인 추적 워크플로](use-cases/campaign-tracking.md)
 + 구현 유효성 검사 {#validate}
-  + [기존 디버거](validate/debugger.md)
-  + [패킷 모니터](validate/packet-monitor.md)
+  + [디버깅 도구](validate/debugging-tools.md)
   + [해시 충돌](validate/hash-collisions.md)
 + [자주 묻는 질문](faq.md)
 + 구현 검토 {#review}

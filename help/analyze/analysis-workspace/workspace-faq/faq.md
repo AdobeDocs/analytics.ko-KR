@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 92%
+source-wordcount: '601'
+ht-degree: 89%
 ---
 # 자주 묻는 질문
 
@@ -104,7 +104,7 @@ Analysis Workspace는 일괄 데이터 내보내기에 권장되지 않습니다
 * 보고서 세트를 다시 확인하여 데이터가 채워져 있는지 확인하십시오.
 * 보고서에서 세그먼트를 적용했다면 세그먼트 기준이 데이터와 일치하지 않을 수 있습니다. 세그먼트를 제거하거나 세그먼트 정의를 조정해 보십시오.
 * 오른쪽 상단의 날짜 범위를 확인하고 예상한 값으로 설정되어 있는지 확인하십시오.
-* 웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko)를 사용하여 데이터가 수집되고 있는지 확인하십시오.
+* 웹 사이트로 이동하고 [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ko/docs/experience-platform/debugger/home)을(를) 사용하여 데이터가 수집되고 있는지 확인하십시오.
 
 
 +++
