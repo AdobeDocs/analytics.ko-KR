@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '534'
 ht-degree: 3%
 ---
 # 웹 SDK 업그레이드 도우미
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 1. **[구성 요소 선택](component-selection.md)**: 마이그레이션에 포함할 규칙, 데이터 요소 및 확장을 선택합니다.
 1. **[감사 결과](audit-findings.md)**: 선택한 구성 요소에 대한 선택적 정리 권장 사항을 검토합니다.
-1. **[보고서 세트 확인](rs-verification.md)**: 보고서 세트의 Analytics 변수를 검토하고 전달할 변수를 선택하십시오.
+1. **[매퍼 준비](mapper-prep.md)**: 보고서 세트의 Analytics 변수를 검토하고 전달할 변수를 선택하십시오.
 1. **[XDM 매핑](xdm-mapping.md)**: Analytics 변수를 XDM 스키마의 필드에 매핑합니다.
 1. **[웹 SDK 구현](web-sdk-implementation.md)**: 업그레이드 도우미가 규칙에 추가하는 웹 SDK 작업을 검토하십시오.
 1. **[최종 검토](final-review.md)**: Experience Platform 샌드박스를 선택하고 마이그레이션이 만드는 내용을 검토하고 마이그레이션을 완료합니다.
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 | 액세스 유형 | 필수 여부 |
 | --- | --- |
-| [Experience Platform 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 스키마 보기]</li><li>[!UICONTROL 스키마 관리]</li><li>[!UICONTROL 데이터 세트 보기]</li><li>[!UICONTROL 데이터 세트 관리]</li><li>[!UICONTROL ID 네임스페이스 보기]</li></ul> |
+| [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 스키마 보기]</li><li>[!UICONTROL 스키마 관리]</li><li>[!UICONTROL 데이터 세트 보기]</li><li>[!UICONTROL 데이터 세트 관리]</li><li>[!UICONTROL ID 네임스페이스 보기]</li></ul> |
 | 제품 액세스 | <ul><li>데이터 수집(태그)</li><li>Adobe Analytics</li></ul> |
 | [태그 권한](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL 속성 관리] |
 

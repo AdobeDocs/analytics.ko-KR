@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # XDM 매핑
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-웹 SDK은 [XDM(Experience Data Model)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 필드를 사용하여 데이터를 전송하므로 [보고서 세트 확인](rs-verification.md)에서 전달하는 각 Analytics 변수에는 XDM 스키마의 일치하는 필드가 필요합니다. 이 단계에서는 스키마를 선택하고 변수를 해당 필드에 매핑합니다.
+웹 SDK은 [XDM(Experience Data Model)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 필드를 사용하여 데이터를 전송하므로 [Mapper 준비](mapper-prep.md)에서 전달하는 각 Analytics 변수에는 XDM 스키마에서 일치하는 필드가 필요합니다. 이 단계에서는 스키마를 선택하고 변수를 해당 필드에 매핑합니다.
 
 ## 스키마 선택 {#schema}
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-새 스키마를 만들 때 업그레이드 도우미가 표준 또는 사용자 지정 필드 그룹을 선호하는지 여부도 선택합니다. 표준 필드 그룹은 Adobe에서 정의하는 반면, 사용자 지정 필드 그룹은 조직에서 정의합니다. XDM 설명서에서 [필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#field-group)을(를) 참조하십시오.
+새 스키마를 만들 때 업그레이드 도우미가 표준 또는 사용자 지정 필드 그룹을 선호하는지 여부도 선택합니다. 표준 필드 그룹은 Adobe에서 정의하는 반면, 사용자 지정 필드 그룹은 조직에서 정의합니다. XDM 설명서에서 [필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)을(를) 참조하십시오.
 
 ## 매핑 검토 {#review}
 
