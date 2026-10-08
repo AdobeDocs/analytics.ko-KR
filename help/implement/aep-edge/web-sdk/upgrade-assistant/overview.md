@@ -79,7 +79,7 @@ ht-degree: 3%
 
 | 액세스 유형 | 필수 여부 |
 | --- | --- |
-| [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 스키마 보기]</li><li>[!UICONTROL 스키마 관리]</li><li>[!UICONTROL 데이터 세트 보기]</li><li>[!UICONTROL 데이터 세트 관리]</li><li>[!UICONTROL ID 네임스페이스 보기]</li></ul> |
+| [Experience Platform 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 스키마 보기]</li><li>[!UICONTROL 스키마 관리]</li><li>[!UICONTROL 데이터 세트 보기]</li><li>[!UICONTROL 데이터 세트 관리]</li><li>[!UICONTROL ID 네임스페이스 보기]</li></ul> |
 | 제품 액세스 | <ul><li>데이터 수집(태그)</li><li>Adobe Analytics</li></ul> |
 | [태그 권한](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL 속성 관리] |
 
