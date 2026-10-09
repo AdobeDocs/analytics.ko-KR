@@ -52,7 +52,7 @@ Audience Analytics 통합이 제대로 이루어지면 인구 통계학적 정�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"}을 참조하세요.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"}을 참조하세요.
 
 >[!ENDSHADEBOX]
 
@@ -87,6 +87,6 @@ Adobe Audience Manager 세그먼트는 동일한 히트 기준으로 삽입되�
 * Audience Manager 관리자입니다.
 * Identity Service v1.5 이상을 사용하고 있습니다.
 * Adobe Audience Manager 및 Adobe Analytics 보고서 세트는 동일한 CX Enterprise 조직에 매핑됩니다.
-* [서버측 전달](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
+* [서버측 전달](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko) (DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
 
 이러한 사전 요구 사항은 [Audience Analytics 워크플로](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)에 설명되어 있습니다.
