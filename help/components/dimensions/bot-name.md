@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 10%
 ---
 # 봇 이름
@@ -45,7 +45,6 @@ ht-degree: 10%
 보트 보고는 보고서 세트의 나머지 데이터와 분리되어 있으므로 이 차원에서는 다음 차원 및 지표만 지원됩니다.
 
 * [페이지](page.md)
-* [제품](product.md)([봇 제품 발생 횟수만](../metrics/bot-product-occurrences.md))
 * 시간 기반 차원(예: [일](day.md), [주](week.md) 또는 [월](month.md))
 * [봇 발생 횟수](../metrics/bot-occurrences.md)
 * [봇 페이지 조회수](../metrics/bot-page-views.md)

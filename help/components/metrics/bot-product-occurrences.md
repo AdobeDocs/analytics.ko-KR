@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 5%
 ---
 # 봇 제품 발생 횟수
@@ -33,7 +33,6 @@ ht-degree: 5%
 보트 보고는 보고서 세트의 나머지 데이터와 분리되므로 이 지표는 다음 차원에서만 작동합니다.
 
 * [봇 이름](../dimensions/bot-name.md)
-* [제품](../dimensions/product.md)
 * 시간 기반 차원(예: [일](../dimensions/day.md), [주](../dimensions/week.md) 또는 [월](../dimensions/month.md))
 
 이 지표와 함께 다른 차원을 사용하면 데이터가 반환되지 않습니다.
