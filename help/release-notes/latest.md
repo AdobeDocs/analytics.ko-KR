@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b72328485bde3759519f77c1c3e9509ade6ce2d4
+source-git-commit: cf020d4d2b873668a17c978ed69a311db37e7cd0
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 53%
+source-wordcount: '974'
+ht-degree: 52%
 ---
 # 최신 Adobe Analytics 릴리스 정보 (2026년 10월)
 
@@ -54,7 +54,7 @@ ht-degree: 53%
 
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
-| **Adobe Analytics MCP 서버에 대한 읽기 전용 권한**<br/>&#x200B;이제 관리자는 사용자에게 Adobe Analytics MCP 서버에 대한 읽기 전용 액세스 권한을 부여할 수 있습니다. 새 [!UICONTROL MCP 읽기 전용] 권한 항목은 사용자에게 프로젝트, 세그먼트 또는 계산된 지표를 만들지 않고도 모든 읽기 전용 도구에 액세스할 수 있도록 합니다.<p>기존 [!UICONTROL MCP 액세스] 권한 항목의 이름이 [!UICONTROL MCP 전체 액세스]&#x200B;(으)로 변경되었습니다. 이 권한이 있는 사용자는 구성 요소를 만들거나, 변경하거나, 삭제하는 도구를 포함하여 모든 도구에 대한 액세스 권한을 유지합니다.</p><p>자세한 내용은 [Adobe Analytics MCP 서버](https://developer.adobe.com/analytics-mcp/docs/aa/)를 참조하십시오.</p> | | 2026년 10월 6일 |
+| **Adobe Analytics MCP 서버에 대한 읽기 전용 권한**<br/>&#x200B;이제 관리자는 사용자에게 Adobe Analytics MCP 서버에 대한 읽기 전용 액세스 권한을 부여할 수 있습니다. 새 [!UICONTROL MCP 읽기 전용 액세스] 권한 항목은 사용자에게 프로젝트, 세그먼트 또는 계산된 지표를 만들지 않고도 모든 읽기 전용 도구에 액세스할 수 있도록 합니다.<p>기존 [!UICONTROL MCP 액세스] 권한 항목의 이름이 [!UICONTROL MCP 전체 액세스]&#x200B;(으)로 변경되었습니다. 이 권한이 있는 사용자는 구성 요소를 만들거나, 변경하거나, 삭제하는 도구를 포함하여 모든 도구에 대한 액세스 권한을 유지합니다.</p><p>자세한 내용은 Adobe Analytics MCP 서버 설명서에서 [권한 설정](https://developer.adobe.com/analytics-mcp/docs/guides/permissions)을 참조하십시오.</p> | | 2026년 10월 6일 |
 | **구성 요소 설명 자동 생성** <br/>이제 차원, 지표, 계산된 지표, 세그먼트 및 날짜 범위에 대한 설명을 자동으로 생성할 수 있습니다. 이는 Workspace 사용자가 특히 큰 구성 요소 라이브러리가 있는 조직에서 사용할 구성 요소를 이해하는 데 도움이 됩니다. <p>단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다.</p> <p>(참조할 설명서 링크입니다.)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026년 10월 28일 |
 | **Adobe Brand Visibility 통합**<br/> AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있도록 Adobe Brand Visibility을 조직의 Adobe Analytics 데이터와 연결합니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 10월 |
 | **CX Enterprise Coworker: 공동 작업자 채팅에서 Adobe Analytics 데이터 분석** <br/>Adobe CX Enterprise Coworker 채팅에서 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. 동료 채팅은 Adobe Analytics 보고서 세트의 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | 2026년 10월 2일 | TBD<p>(원래 2026년 9월 25일로 계획됨)</p> |
