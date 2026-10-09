@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. Analytics 데이터를 최대한 활용할 수 있도록 수집할 데이터를 사용자 정의하십시오.
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 92%
+source-wordcount: '458'
+ht-degree: 93%
 ---
 
 # Adobe Analytics 구현 안내서 {#implementation}
@@ -148,7 +148,7 @@ ht-degree: 92%
       + [마이그레이션 관리](aep-edge/web-sdk/upgrade-assistant/manager.md)
       + [구성 요소 선택](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
       + [감사 결과](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
-      + [보고서 세트 확인](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [매퍼 준비](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
       + [XDM 매핑](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
       + [웹 SDK 구현](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
       + [최종 검토](aep-edge/web-sdk/upgrade-assistant/final-review.md)

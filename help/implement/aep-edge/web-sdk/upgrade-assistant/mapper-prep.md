@@ -1,5 +1,5 @@
 ---
-title: 웹 SDK 업그레이드 도우미의 보고서 세트 확인
+title: 웹 SDK 업그레이드 도우미의 매퍼 준비
 description: 보고서 세트에서 Analytics 변수를 검토하고 XDM 매핑으로 진행할 변수를 선택합니다.
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -35,18 +35,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '507'
 ht-degree: 0%
 ---
-# 보고서 세트 확인
+# 매퍼 준비
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification"
->title="보고서 세트 확인"
+>id="aa_upgradeassistant_mapperprep"
+>title="매퍼 준비"
 >abstract="태그 속성이 각 보고서 세트에 보내는 Analytics 변수를 검토합니다. 여기서 선택하는 변수는 XDM 매핑으로 전달됩니다. 탭을 사용하여 최근 데이터를 확인하고, 중복 변수를 찾고, 보고서 세트 간 설정을 비교할 수 있습니다."
 
 <!-- markdownlint-enable MD034 -->
@@ -80,7 +80,7 @@ Tags 속성이 둘 이상의 보고서 세트에 데이터를 전송하는 경�
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification_refresh"
+>id="aa_upgradeassistant_mapperprep_refresh"
 >title="보고서 세트 데이터 새로 고침"
 >abstract="변수 설정 및 최근 데이터를 포함하여 이 태그 속성에 연결된 보고서 세트를 다시 검사한 다음 변수 분석을 다시 실행합니다. 업그레이드 도우미가 보고서 세트를 아직 찾지 못한 경우 먼저 태그 속성에서 찾습니다. 선택 및 결정은 유지됩니다."
 

@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 2%
 ---
 # 감사 결과
@@ -58,7 +58,7 @@ ht-degree: 2%
 * 통합할 수 있는 중복 데이터 요소
 * 사용하지 않을 수 있으며 비활성화할 수 있는 데이터 요소
 
-데이터 소스에 이벤트에 설명을 추가합니다. 원하는 만큼 결과를 확인하거나 [보고서 세트 확인](rs-verification.md)을 바로 계속할 수 있습니다.
+데이터 소스에 이벤트에 설명을 추가합니다. 원하는 만큼 결과를 확인하거나 [Mapper 준비](mapper-prep.md)를 바로 계속할 수 있습니다.
 
 ## 검색 결과 검토 {#review}
 

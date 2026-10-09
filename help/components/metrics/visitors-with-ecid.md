@@ -3,35 +3,42 @@ title: Experience Cloud ID를 가진 방문자
 description: ECID를 사용하는 고유 방문자 수입니다.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-TQID: https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8
+TQID: 'https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+    internal-label: Experience Cloud integration
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Troubleshooting
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '384'
 ht-degree: 25%
-
 ---
-
 # Experience Cloud ID를 가진 방문자
 
 &#39;[!UICONTROL Experience Cloud ID를 가진 방문자]&#39; [지표](overview.md)은(는) ECID를 가진 Adobe에서 식별한 고유 방문자 수([방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home) 또는 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home) 사용)를 표시합니다. 이 지표는 사이트 방문자의 대다수가 ECID를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 대부분에서 이 식별자를 사용하지 않는 경우 구현 내의 문제를 나타낼 수 있습니다.
 
 >[!NOTE]
 >
->이 지표는 Adobe Target 또는 Adobe Audience Manager과 같은 여러 CX 엔터프라이즈 서비스를 사용하는 경우 디버깅에 특히 중요합니다. CX 엔터프라이즈 제품 간에 공유된 세그먼트에는 ECID가 없는 방문자가 포함되지 않습니다.
+>이 지표는 Adobe Target 또는 Adobe Audience Manager과 같은 여러 CX Enterprise 서비스를 사용하는 경우 디버깅에 특히 중요합니다. CX Enterprise 제품 간에 공유된 세그먼트에는 ECID가 없는 방문자가 포함되지 않습니다.
 
 ## 이 지표의 계산 방법
 
@@ -39,7 +46,7 @@ ht-degree: 25%
 
 ## ECID 설정 디버깅
 
-Experience Cloud ID를 가진 &#39;[!UICONTROL 방문자 수]&#39; 지표는 CX 엔터프라이즈 통합 문제 해결이나 방문자 ID 서비스 또는 Experience Platform ID 서비스가 배포되지 않은 사이트 영역 식별에 유용합니다.
+Experience Cloud ID를 가진 &#39;[!UICONTROL 방문자 수]&#39; 지표는 CX Enterprise 통합 문제를 해결하거나 방문자 ID 서비스 또는 Experience Platform ID 서비스가 배포되지 않은 사이트 영역을 식별하는 데 유용합니다.
 
 Experience Cloud ID가 인 &#39;방문자&#39;를 고유 방문자와 나란히 드래그하여 비교하십시오.
 

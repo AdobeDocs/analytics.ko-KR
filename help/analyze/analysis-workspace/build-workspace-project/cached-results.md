@@ -10,24 +10,26 @@ product_v2:
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
     internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '1322'
-ht-degree: 0%
+ht-degree: 5%
 ---
 
-# Workspace 프로젝트에서 캐시된 결과 사용
+# 작업 영역 프로젝트에서 캐시된 결과 사용
 
 >[!CONTEXTUALHELP]
 >id="aa_project_cached_results"
 >title="더 빠른 로드를 위해 캐시된 결과 사용"
->abstract="활성화되면 사용자가 프로젝트를 처음 열거나 일정에 의해 전달된 후 12시간 동안 결과가 즉시 로드됩니다. 해당 시간 동안 프로젝트를 여는 모든 사용자는 데이터가 백그라운드에서 계속 전송되더라도 동일한 결과를 볼 수 있습니다. 최신 결과를 로드하려면 개별 패널 또는 전체 프로젝트를 새로 고칩니다."
+>abstract="이 기능을 활성화하면 사용자가 프로젝트를 처음 열거나 일정에 따라 프로젝트가 전달된 후 12시간 동안 결과가 즉시 로드됩니다. 이 시간 동안 프로젝트를 여는 모든 사용자는 데이터가 백그라운드에서 계속 전송되더라도 동일한 결과를 볼 수 있습니다. 최신 결과를 로드하려면 개별 패널 또는 전체 프로젝트를 새로 고치십시오."
 
 {{release-limited-testing}}
 
