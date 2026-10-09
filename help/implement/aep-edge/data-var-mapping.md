@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c7bf23667e8dad862d73106345c08047039e945a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 77%
+source-wordcount: '645'
+ht-degree: 66%
 ---
 # Adobe Analytics에 대한 데이터 개체 필드 매핑
 
 다음 표는 Adobe Experience Platform Edge Network이 Adobe Analytics에 자동으로 매핑하는 데이터 개체 필드를 보여줍니다. 이러한 데이터 오브젝트 필드 경로를 사용하는 경우 Adobe Analytics로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다.
 
-향후 Customer Journey Analytics를 사용하려는 경우 이러한 필드를 사용하는 것이 좋습니다. 이 구현 방법을 사용하면 조직이 XDM 스키마를 준수하지 않고 웹 SDK를 사용하여 Adobe로 데이터를 전송할 수 있습니다. 조직에서 Adobe Experience Platform으로 데이터를 보낼 준비가 되면 [데이터 스트림 매핑](https://experienceleague.adobe.com/kr/docs/experience-platform/datastreams/data-prep#mapping)을 사용하여 해당 XDM 필드로 데이터 오브젝트 필드를 지정할 수 있습니다.
+나중에 Customer Journey Analytics으로 이동하려면 이러한 필드를 사용하는 것이 좋습니다. 이 구현 방법을 사용하면 조직이 XDM 스키마를 준수하지 않고 웹 SDK을 사용하여 Adobe Analytics에 데이터를 전송할 수 있습니다. 이러한 매핑은 Adobe Analytics에만 적용됩니다. 조직에서 Adobe Experience Platform으로 데이터를 보낼 준비가 되면 [데이터스트림 매핑](https://experienceleague.adobe.com/kr/docs/experience-platform/datastreams/data-prep#mapping)을 사용하여 데이터 개체 필드를 XDM 스키마의 필드에 매핑합니다.
 
 ## 값 우선순위
 
@@ -47,7 +47,7 @@ ht-degree: 77%
 
 ## 데이터 오브젝트 필드 매핑
 
-이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.ko-KR/commits/main/help/implement/aep-edge/data-var-mapping.md)에서 확인할 수 있습니다. AppMeasurement 변수와 마찬가지로 모든 데이터 오브젝트 필드는 대/소문자를 구분합니다.
+이 테이블에 대한 이전 업데이트는 이 페이지의 [GitHub의 커밋 기록](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)에서 확인할 수 있습니다. AppMeasurement 변수와 마찬가지로 모든 데이터 오브젝트 필드는 대/소문자를 구분합니다.
 
 | 데이터 오브젝트 필드 경로 | Analytics 변수 및 설명 |
 | --- | --- |
