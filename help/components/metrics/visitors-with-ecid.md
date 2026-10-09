@@ -48,11 +48,11 @@ ht-degree: 25%
 
 Experience Cloud ID를 가진 &#39;[!UICONTROL 방문자 수]&#39; 지표는 CX Enterprise 통합 문제를 해결하거나 방문자 ID 서비스 또는 Experience Platform ID 서비스가 배포되지 않은 사이트 영역을 식별하는 데 유용합니다.
 
-Experience Cloud ID가 ]인 &#39;[!UICONTROL 방문자&#39;를 고유 방문자와 나란히 드래그하여 비교하십시오.
+Experience Cloud ID가 인 &#39;방문자&#39;를 고유 방문자와 나란히 드래그하여 비교하십시오.
 
 ![고유 방문자 비교](assets/metric-mcvid1.png)
 
-이 예제에서는 각 페이지의 &#39;[!UICONTROL 고유 방문자 수]&#39;이(가) &#39;[!UICONTROL Experience Cloud ID를 가진 방문자 수]&#39;와(과) 동일합니다. 그러나 총 &#39;[!UICONTROL 고유 방문자 수]&#39;은(는) Experience Cloud ID가 ]인 총 &#39;[!UICONTROL 방문자 수 보다 큽니다. 다음 정의를 사용하여 ECID를 사용하지 않는 페이지를 찾기 위해 [계산된 지표](../calculated-metrics/cm-overview.md)을(를) 만들 수 있습니다.
+이 예제에서는 각 페이지의 &#39;[!UICONTROL 고유 방문자 수]&#39;이(가) &#39;[!UICONTROL Experience Cloud ID를 가진 방문자 수]&#39;와(과) 동일합니다. 그러나 총 &#39;[!UICONTROL 고유 방문자 수]&#39;은(는) Experience Cloud ID가 인 총 &#39;방문자 수 보다 큽니다. 다음 정의를 사용하여 ECID를 사용하지 않는 페이지를 찾기 위해 [계산된 지표](../calculated-metrics/cm-overview.md)을(를) 만들 수 있습니다.
 
 ![계산된 지표 정의](assets/metric-mcvid2.png)
 
