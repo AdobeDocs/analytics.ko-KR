@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 21%
 ---
 # 구성 요소 선택
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection"
 >title="구성 요소 선택"
->abstract="이 마이그레이션에 포함할 규칙, 데이터 요소 및 확장을 선택합니다. Adobe Analytics 구현에 적극적으로 기여하는 구성 요소가 기본적으로 선택됩니다. 이후 단계는 여기에서 선택한 구성 요소에서만 작동합니다."
+>abstract="이 마이그레이션에 포함할 규칙, 데이터 요소, 확장을 선택합니다. Adobe Analytics 구현에 적극적으로 기여하는 구성 요소는 기본적으로 선택되어 있습니다. 이후 단계는 여기에서 선택한 구성 요소만을 대상으로 진행됩니다."
 
 구성 요소 선택은 마이그레이션의 첫 번째 단계입니다. 이를 사용하여 마이그레이션에 포함할 태그 속성에서 규칙, 데이터 요소 및 확장을 선택합니다.
 
@@ -59,17 +59,17 @@ Adobe Target, Adobe Audience Manager 또는 타사 확장용 구성 요소와 �
 
 선택하는 구성 요소에 따라 이후 단계 작동이 결정됩니다. 예를 들어, [감사 결과](audit-findings.md)에서 정리용으로 플래그를 지정할 수 있도록 아무 것도 참조하지 않는 데이터 요소를 포함할 수 있습니다.
 
-## 구성 요소 세부 사항 보기 {#details}
+## 구성 요소 세부 정보 보기 {#details}
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_tagsusage"
->title="태그 사용"
->abstract="이 구성 요소를 사용하는 규칙, 데이터 요소 및 확장입니다. 확장 사용에는 확장 구성 설정만 포함됩니다. 규칙 내의 사용량은 규칙 사용량에 나타납니다."
+>title="태그 사용 현황"
+>abstract="이 구성 요소를 사용하는 규칙, 데이터 요소, 확장입니다. 확장 사용 현황에는 확장 구성 설정만 포함됩니다. 규칙 내부에서의 사용 현황은 규칙 사용 현황 아래에 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_analyticsusage"
->title="분석 사용"
->abstract="이 구성 요소가 할당되는 Adobe Analytics 변수는 변수 유형별로 그룹화됩니다."
+>title="Analytics 사용 현황"
+>abstract="이 구성 요소가 할당되는 Adobe Analytics 변수이며 변수 유형별로 그룹화됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

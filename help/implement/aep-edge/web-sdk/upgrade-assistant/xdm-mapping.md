@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 3%
+ht-degree: 22%
 ---
 # XDM 매핑
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping"
 >title="XDM 매핑"
->abstract="선택한 Analytics 변수를 XDM 스키마의 필드에 매핑합니다. 업그레이드 도우미는 AI가 제안하는 매핑을 사용하여 새 스키마를 생성하거나 이미 가지고 있는 스키마에 변수를 매핑할 수 있습니다. 계속하기 전에 모든 매핑을 검토하십시오."
+>abstract="선택한 Analytics 변수를 XDM 스키마의 필드에 매핑합니다. 업그레이드 어시스턴트가 AI가 제안하는 매핑을 사용하여 새 스키마를 만들거나 이미 보유하고 있는 스키마에 변수를 직접 매핑할 수도 있습니다. 계속하기 전에 모든 매핑을 검토하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,11 +65,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping_fieldgroups"
 >title="필드 그룹 환경 설정"
->abstract="업그레이드 도우미가 스키마를 빌드할 때 선호하는 필드 그룹 유형을 선택합니다. 표준 필드 그룹은 Adobe에 의해 정의됩니다. 사용자 정의 필드 그룹은 조직에서 정의합니다."
+>abstract="업그레이드 어시스턴트가 스키마를 빌드할 때 우선적으로 처리할 필드 그룹 유형을 선택합니다. 표준 필드 그룹은 Adobe가 정의합니다. 사용자 정의 필드 그룹은 조직이 정의합니다."
 
 <!-- markdownlint-enable MD034 -->
 
-새 스키마를 만들 때 업그레이드 도우미가 표준 또는 사용자 지정 필드 그룹을 선호하는지 여부도 선택합니다. 표준 필드 그룹은 Adobe에서 정의하는 반면, 사용자 지정 필드 그룹은 조직에서 정의합니다. XDM 설명서에서 [필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#field-group)을(를) 참조하십시오.
+새 스키마를 만들 때 업그레이드 도우미가 표준 또는 사용자 지정 필드 그룹을 선호하는지 여부도 선택합니다. 표준 필드 그룹은 Adobe에서 정의하는 반면, 사용자 지정 필드 그룹은 조직에서 정의합니다. XDM 설명서에서 [필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)을(를) 참조하십시오.
 
 ## 매핑 검토 {#review}
 

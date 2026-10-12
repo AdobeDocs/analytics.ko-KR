@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 0%
+ht-degree: 18%
 ---
 # 매퍼 준비
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep"
 >title="매퍼 준비"
->abstract="태그 속성이 각 보고서 세트에 보내는 Analytics 변수를 검토합니다. 여기서 선택하는 변수는 XDM 매핑으로 전달됩니다. 탭을 사용하여 최근 데이터를 확인하고, 중복 변수를 찾고, 보고서 세트 간 설정을 비교할 수 있습니다."
+>abstract="태그 속성이 각 보고서 세트에 보내는 Analytics 변수를 검토합니다. 여기에서 선택한 변수는 XDM 매핑으로 전달됩니다. 탭을 사용하여 최근 데이터를 확인하고, 중복 변수를 찾고, 보고서 세트 간에 적용된 설정을 비교하십시오."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -82,7 +82,7 @@ Tags 속성이 둘 이상의 보고서 세트에 데이터를 전송하는 경�
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep_refresh"
 >title="보고서 세트 데이터 새로 고침"
->abstract="변수 설정 및 최근 데이터를 포함하여 이 태그 속성에 연결된 보고서 세트를 다시 검사한 다음 변수 분석을 다시 실행합니다. 업그레이드 도우미가 보고서 세트를 아직 찾지 못한 경우 먼저 태그 속성에서 찾습니다. 선택 및 결정은 유지됩니다."
+>abstract="변수 설정과 최근 데이터를 포함하여 이 태그 속성에 연결된 보고서 세트를 다시 확인한 후 변수 분석을 다시 실행합니다. 업그레이드 어시스턴트가 아직 어떠한 보고서 세트도 찾지 못한 경우 먼저 태그 속성에서 보고서 세트를 검색합니다. 선택 항목과 결정 사항은 그대로 유지됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
