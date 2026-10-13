@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 16%
 ---
-# 웹 SDK 구현
+# Web SDK 구현
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_websdkimplementation"
->title="웹 SDK 구현"
->abstract="업그레이드 도우미가 규칙에 추가하는 웹 SDK 작업을 검토합니다. Adobe Analytics 작업이 그대로 유지됩니다. 구성 요소를 선택하여 현재 구성과 웹 SDK 구성을 나란히 비교합니다. 대기열에 넣은 구성 요소만 마이그레이션에 추가됩니다."
+>title="Web SDK 구현"
+>abstract="업그레이드 어시스턴트가 규칙에 추가하는 Web SDK 작업을 검토합니다. Adobe Analytics 작업은 그대로 유지됩니다. 구성 요소를 선택하여 현재 구성과 Web SDK 구성을 나란히 비교하십시오. 대기열에 넣은 구성 요소만 마이그레이션에 추가됩니다."
 
 <!-- markdownlint-enable MD034 -->
 

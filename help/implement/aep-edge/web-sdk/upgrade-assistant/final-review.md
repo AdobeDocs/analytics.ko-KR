@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 13%
 ---
 # 최종 검토
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_finalreview"
 >title="최종 검토"
->abstract="사용할 Experience Platform 샌드박스를 선택한 다음 이 마이그레이션이 만들거나 변경하는 모든 것을 검토합니다. 마이그레이션을 완료할 때까지 아무 것도 변경되지 않습니다. 완료되면 업그레이드 도우미가 모든 항목을 한 번에 만들고, 태그 변경 내용을 새 라이브러리에 추가하고, 이 마이그레이션을 읽기 전용으로 만듭니다. 그런 다음 해당 라이브러리를 프로덕션에 직접 게시합니다."
+>abstract="사용할 Experience Platform 샌드박스를 선택한 후 이 마이그레이션으로 인해 생성되거나 변경되는 모든 항목을 검토합니다. 마이그레이션을 완료하기 전까지는 아무것도 변경되지 않습니다. 마이그레이션을 완료하면 업그레이드 어시스턴트가 모든 항목을 한 번에 만들고, 태그 변경 사항을 새 라이브러리에 추가하고, 이 마이그레이션을 읽기 전용으로 설정합니다. 그런 다음, 해당 라이브러리를 프로덕션에 직접 게시합니다."
 
 <!-- markdownlint-enable MD034 -->
 

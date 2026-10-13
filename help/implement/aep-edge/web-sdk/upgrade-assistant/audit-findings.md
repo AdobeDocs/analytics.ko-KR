@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 2%
+ht-degree: 17%
 ---
 # 감사 결과
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_auditfindings"
 >title="감사 결과"
->abstract="결과는 아무것도 참조하지 않는 데이터 요소와 같이 마이그레이션하기 전에 정리할 수 있는 규칙과 데이터 요소를 가리킵니다. 검색 결과를 수락하여 마이그레이션에 권장되는 변경 사항을 포함하거나, 구성 요소를 그대로 두는 것을 거부합니다. 데이터 소스에 이벤트에 설명을 추가합니다."
+>abstract="결과는 어떤 항목에서도 참조되지 않는 데이터 요소와 같이 마이그레이션하기 전에 정리하는 것이 좋은 규칙과 데이터 요소를 알려 줍니다. 결과를 수락하여 권장되는 변경 사항을 마이그레이션에 포함하거나 결과를 거부하여 구성 요소를 그대로 두십시오. 데이터 소스에 이벤트에 설명을 추가합니다."
 
 <!-- markdownlint-enable MD034 -->
 
