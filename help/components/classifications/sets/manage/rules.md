@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: adb1abb0c0eab08dff8debe57bb52ec098df2a56
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 13%
@@ -336,10 +336,10 @@ ht-degree: 13%
 
 ### 예
 
-사용자가 검색 문자열을 키 차원으로 사용하여 운동선수를 검색하는 방법을 **[!UICONTROL 유형]** 분류로 분류하려고 합니다. 예를 들어, 이 규칙 세트를 사용합니다.
+**[!UICONTROL 유형]** 분류로 검색 문자열을 키 차원으로 사용하여 사용자가 수행하는 검색 유형을 분류하려고 합니다. 예를 들어, 이 규칙 세트를 사용합니다.
 
 ![규칙 우선 순위](assets/rule-priority.png)
 
-* 사용자가 `Cowboys Fantasy Tony Romo`을(를) 검색할 때 `Romo`이(가) **[!UICONTROL Type]**(으)로 분류됩니다.
-* 사용자가 `Cowboys Fantasy Tony Romeo`을(를) 검색할 때 `Fantasy`이(가) **[!UICONTROL Type]**(으)로 분류됩니다.
+* 사용자가 `Cowboys with Tony Romo`을(를) 검색할 때 `Team`이(가) **[!UICONTROL Type]**(으)로 분류됩니다.
+* 사용자가 `Cowboys vs. Broncos with Tony Romeo`을(를) 검색할 때 `Player`이(가) **[!UICONTROL Type]**(으)로 분류됩니다.
 * 사용자가 `Cowboys vs. Broncos`을(를) 검색할 때 `Team`이(가) **[!UICONTROL Type]**(으)로 분류됩니다.
