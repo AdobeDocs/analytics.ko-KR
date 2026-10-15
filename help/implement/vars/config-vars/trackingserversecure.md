@@ -7,26 +7,34 @@ role: Admin, Developer
 TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 15%
-
+source-wordcount: '753'
+ht-degree: 11%
 ---
-
 # trackingServerSecure
 
 `trackingServerSecure` 변수는 AppMeasurement이 HTTPS를 통해 Adobe으로 데이터를 전송하는 데 사용하는 도메인을 결정합니다. 이 변수가 올바르게 정의되지 않으면 구현에서 데이터 손실이 발생할 수 있습니다.
@@ -34,8 +42,6 @@ ht-degree: 15%
 >[!NOTE]
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables)은(는) 이 변수의 사용되지 않는 변형입니다. HTTP를 통해 전송되는 데이터에 대한 도메인을 지정했습니다. HTTPS가 널리 사용되는 경우 대신 `trackingServerSecure`을(를) 사용하십시오. `s.trackingServerSecure`이(가) 비어 있으면 AppMeasurement이 `s.trackingServer` 값으로 돌아갑니다.
-
-[Adobe 방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)&#x200B;(`VisitorAPI.js`) 전에 이 변수는 타사 쿠키가 설정된 위치도 확인했습니다. Adobe은 가능한 모든 구현에서 방문자 ID 서비스 를 사용하는 것을 강력히 권장합니다.
 
 ## Web SDK 확장을 사용한 Edge 도메인
 
@@ -54,7 +60,7 @@ ht-degree: 15%
 
 ## Edge 도메인 수동으로 웹 SDK 구현
 
-[`edgeDomain`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/edgedomain)을(를) 사용하여 SDK을 구성하십시오. 필드는 데이터를 보낼 도메인을 결정하는 문자열입니다.
+[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)을(를) 사용하여 SDK을 구성하십시오. 필드는 데이터를 보낼 도메인을 결정하는 문자열입니다.
 
 ```json
 alloy("configure", {
@@ -78,35 +84,21 @@ alloy("configure", {
 `s.trackingServerSecure` 변수는 Adobe으로 데이터를 보낼 도메인을 포함하는 문자열입니다. 이는 도메인에만 해당되며, 프로토콜, 경로, 포트 및 슬래시를 생략합니다. 이 변수가 비어 있으면 `s.trackingServer` 변수의 값을 사용합니다. `s.trackingServerSecure`과(와) `s.trackingServer`이(가) 모두 비어 있으면 기본값은 `[rsid].2o7.net`입니다.
 
 ```js
-// Example value when participating in the Adobe-managed certificate program
+// Example value when using a first-party domain
 s.trackingServerSecure = "data.example.com";
 
-// Example value sending data directly to Adobe
+// Example value when using a third-party domain
 s.trackingServerSecure = "example.data.adobedc.net";
 ```
 
-## `trackingServerSecure`의 값을 결정할 때 고려 사항
+## `trackingServerSecure`의 값을 결정하기 위한 고려 사항
 
-`trackingServerSecure`(또는 `edgeDomain`)에 사용하는 값은 여러 요인에 따라 다릅니다.
+`trackingServerSecure`(또는 `edgeDomain`)에 사용하는 값은 조직에서 Adobe에 데이터를 보내는 방식에 따라 다릅니다.
 
-* [Adobe 관리 인증서 프로그램](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/adobe-managed-cert)에 참여
-* [Adobe 방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 구현하고 올바르게 설정한 경우
+* **조직에서 자사 도메인을 사용하는 경우**(예: [Adobe 관리 인증서 프로그램](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), [고객 관리 인증서](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) 또는 [CDN(Content Delivery Network)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)) 값을 해당 도메인으로 설정하십시오. 예, `data.example.com`.
+* **조직에서 타사 도메인을 사용하는 경우** 값을 테넌트 ID 하위 도메인 `data.adobedc.net`(으)로 설정하십시오. 예, `example.data.adobedc.net`.
 
-**조직에서 Adobe 관리 인증서 프로그램에 참여하는 경우** 값을 인증서를 설정할 때 선택한 자사 도메인으로 설정하십시오. 일반적으로 이 값은 조직이 소유한 하위 도메인입니다. 예, `data.example.com`. 조직의 CNAME 레코드는 해당 데이터를 Adobe으로 리디렉션합니다.
-
-**인증서 프로그램에 참여하지 않는 경우** 값을 `data.adobedc.net`의 하위 도메인으로 설정하십시오. Adobe에서는 일관성을 유지하기 위해 조직의 회사 ID를 사용하는 것이 좋습니다. 예, `example.data.adobedc.net`. 회사 ID를 확인하려면 다음 단계를 수행하십시오.
-
-1. Adobe ID 자격 증명을 사용하여 [Adobe CX Enterprise](https://experience.adobe.com)에 로그인합니다.
-1. CX 엔터프라이즈 인터페이스의 모든 위치에서 `[Cmd]` + `[I]`(iOS) 또는 `[Ctrl]` + `[I]`(Windows)을 누릅니다.
-1. **[!UICONTROL 사용자 데이터 디버거]**&#x200B;가 나타납니다. **[!UICONTROL 할당된 조직]** 탭을 선택합니다.
-1. 원하는 IMS 조직을 확장합니다.
-1. **[!UICONTROL 테넌트]** 필드를 찾습니다. 이 값은 `data.adobedc.net`의 권장 하위 도메인입니다.
-
->[!NOTE]
->
->`example.data.adobedc.net`보다 더 아래의 하위 도메인은 사용하지 마십시오. 예를 들어 `custom.example.data.adobedc.net`은 올바른 추적 서버가 아닙니다.
-
-이전 구현에는 `sc.omtrdc.net` 또는 `2o7.net` 같은 값이 있을 수 있습니다. 이 도메인들은 주로 이전 버전의 Adobe Analytics에서 사용되었으며 여전히 유효합니다.
+테넌트 ID를 찾는 방법을 포함하여 각 옵션에 대한 자세한 내용은 CX Enterprise 인터페이스 및 관리 안내서의 [데이터 수집 도메인 선택](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)을 참조하십시오.
 
 Adobe은 조직 전체에서 일관성을 유지하기 위해 [솔루션 디자인 문서](../../prepare/solution-design.md)에서 이 정보를 유지할 것을 적극 권장합니다.
 
@@ -114,8 +106,8 @@ Adobe은 조직 전체에서 일관성을 유지하기 위해 [솔루션 디자�
 
 Adobe에서는 모든 구현에서 방문자 ID의 기본 형식으로 ECID를 사용할 것을 강력히 권장합니다. ECID 수집은 구현 유형에 따라 여러 가지 방법으로 구현할 수 있습니다.
 
-* 수동 AppMeasurement 구현에서는 `VisitorAPI.js`을(를) 사용하고 `getInstance` 메서드를 호출합니다. 자세한 내용은 [Analytics용 방문자 ID 서비스 구현](https://experienceleague.adobe.com/ko/docs/id-service/using/implementation/setup-analytics)을 참조하십시오.
-* Adobe Analytics 태그 확장을 사용하는 구현에서는 방문자 ID 서비스를 구현하는 [[!UICONTROL Experience Cloud ID 서비스] 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. 추가되면 추가 구성이 필요하지 않습니다.
+* 수동 AppMeasurement 구현에서는 `VisitorAPI.js`을(를) 사용하고 `getInstance` 메서드를 호출합니다. 자세한 내용은 [Analytics용 방문자 ID 서비스 구현](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)을 참조하십시오.
+* Adobe Analytics 태그 확장을 사용하는 구현에서는 방문자 ID 서비스를 구현하는 [[!UICONTROL Experience Cloud ID 서비스] 태그 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. 추가되면 추가 구성이 필요하지 않습니다.
 * 모든 형식의 웹 SDK(`alloy.js` 또는 Web SDK 태그 확장)를 사용하는 구현에는 Experience Platform ID 서비스가 자동으로 포함됩니다. `edgeDomain` 값을 설정하는 외에 구성이 필요하지 않습니다.
 
 **구현에서 ECID를 사용하지 않는 경우** 구현에 미치는 영향을 고려하십시오.
