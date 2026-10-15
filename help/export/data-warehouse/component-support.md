@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 11%
+source-wordcount: '477'
+ht-degree: 8%
 ---
 # Data Warehouse의 구성 요소 지원
 
@@ -88,6 +88,15 @@ Data Warehouse 보고서에서는 다음 시간 기반 차원이 지원되지만
 * **개월**: 0부터 시작. 1월 = `00`, 2월 = `01`, ..., 12월 = `11`.
 
 예를 들어 날짜 범위 주 필드에 `1260901`이(가) 표시되면 연도는 1900 + 126 = **2026**&#x200B;이고 월은 09 = **10월**&#x200B;입니다.
+
+## Data Warehouse의 분류 차원 {#classifications}
+
+{{release-limited-testing-section}}
+
+Data Warehouse 보고서는 [분류 세트](/help/components/classifications/sets/overview.md)에서 직접 분류 데이터를 가져옵니다. 따라서 Data Warehouse 보고서의 분류 차원은 Analysis Workspace의 동일한 차원과 다를 수 있습니다.
+
+* **삭제된 분류 값이 공백으로 표시됩니다**: 분류 세트에서 분류 데이터를 삭제하면 Data Warehouse 보고서에 해당 분류에 대한 빈 값이 표시됩니다. 분류 데이터를 삭제하는 방법은 [분류 세트 파일 형식](/help/components/classifications/sets/data-files.md)을 참조하세요.
+* **Analysis Workspace에 하나의 분류 값이 표시되는 경우 여러 개의 분류 값이 나타날 수 있습니다(일반적이지 않음)**: 일반적으로 Analysis Workspace에는 여러 개의 다른 분류 값이 단일 값으로 표시됩니다. Data Warehouse에는 이러한 각 값이 표시됩니다. 그 결과 Data Warehouse과 Analysis Workspace 간에 분류 값이 다를 수 있습니다.
 
 ## Data Warehouse에서 다르게 정의된 지표
 
