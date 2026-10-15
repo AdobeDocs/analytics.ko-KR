@@ -60,7 +60,7 @@ ht-degree: 11%
 
 ## Edge 도메인 수동으로 웹 SDK 구현
 
-[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)을(를) 사용하여 SDK을 구성하십시오. 필드는 데이터를 보낼 도메인을 결정하는 문자열입니다.
+[`edgeDomain`](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/edgedomain)을(를) 사용하여 SDK을 구성하십시오. 필드는 데이터를 보낼 도메인을 결정하는 문자열입니다.
 
 ```json
 alloy("configure", {
@@ -95,7 +95,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 `trackingServerSecure`(또는 `edgeDomain`)에 사용하는 값은 조직에서 Adobe에 데이터를 보내는 방식에 따라 다릅니다.
 
-* **조직에서 자사 도메인을 사용하는 경우**(예: [Adobe 관리 인증서 프로그램](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), [고객 관리 인증서](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) 또는 [CDN(Content Delivery Network)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)) 값을 해당 도메인으로 설정하십시오. 예, `data.example.com`.
+* **조직에서 자사 도메인을 사용하는 경우**(예: [Adobe 관리 인증서 프로그램](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/adobe-managed-cert), [고객 관리 인증서](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) 또는 [CDN(Content Delivery Network)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)) 값을 해당 도메인으로 설정하십시오. 예, `data.example.com`.
 * **조직에서 타사 도메인을 사용하는 경우** 값을 테넌트 ID 하위 도메인 `data.adobedc.net`(으)로 설정하십시오. 예, `example.data.adobedc.net`.
 
 테넌트 ID를 찾는 방법을 포함하여 각 옵션에 대한 자세한 내용은 CX Enterprise 인터페이스 및 관리 안내서의 [데이터 수집 도메인 선택](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)을 참조하십시오.
@@ -106,8 +106,8 @@ Adobe은 조직 전체에서 일관성을 유지하기 위해 [솔루션 디자�
 
 Adobe에서는 모든 구현에서 방문자 ID의 기본 형식으로 ECID를 사용할 것을 강력히 권장합니다. ECID 수집은 구현 유형에 따라 여러 가지 방법으로 구현할 수 있습니다.
 
-* 수동 AppMeasurement 구현에서는 `VisitorAPI.js`을(를) 사용하고 `getInstance` 메서드를 호출합니다. 자세한 내용은 [Analytics용 방문자 ID 서비스 구현](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)을 참조하십시오.
-* Adobe Analytics 태그 확장을 사용하는 구현에서는 방문자 ID 서비스를 구현하는 [[!UICONTROL Experience Cloud ID 서비스] 태그 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. 추가되면 추가 구성이 필요하지 않습니다.
+* 수동 AppMeasurement 구현에서는 `VisitorAPI.js`을(를) 사용하고 `getInstance` 메서드를 호출합니다. 자세한 내용은 [Analytics용 방문자 ID 서비스 구현](https://experienceleague.adobe.com/ko/docs/id-service/using/implementation/setup-analytics)을 참조하십시오.
+* Adobe Analytics 태그 확장을 사용하는 구현에서는 방문자 ID 서비스를 구현하는 [[!UICONTROL Experience Cloud ID 서비스] 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. 추가되면 추가 구성이 필요하지 않습니다.
 * 모든 형식의 웹 SDK(`alloy.js` 또는 Web SDK 태그 확장)를 사용하는 구현에는 Experience Platform ID 서비스가 자동으로 포함됩니다. `edgeDomain` 값을 설정하는 외에 구성이 필요하지 않습니다.
 
 **구현에서 ECID를 사용하지 않는 경우** 구현에 미치는 영향을 고려하십시오.
