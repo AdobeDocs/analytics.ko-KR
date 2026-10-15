@@ -26,7 +26,7 @@ ht-degree: 81%
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_&#x200B;이 문서에 대한 [여정 캔버스 시각화 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하십시오._![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;버전._
+_이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_&#x200B;이 문서에 대한 [여정 캔버스 시각화 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)을 참조하십시오._![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**버전._
 
 >[!ENDSHADEBOX]
 
@@ -116,7 +116,7 @@ _이 문서에서는 여정 캔버스 시각화에 대해 설명합니다._ ![Ad
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare_percentages"
 >title="백분율 비교"
->abstract="기본 지표를 기준으로 현재 날짜 범위와 선택한 비교 날짜 범위 사이의 여정에 있는 각 노드, 화살표 및 폴아웃의 백분율 변경을 비교합니다. 이 옵션을 비활성화하면 백분율 변경 대신 원시 값 백분율이 표시됩니다."
+>abstract="기본 지표를 기반으로 현재 날짜 범위와 선택한 비교 날짜 범위 간의 여정의 각 노드, 화살표, 폴아웃에 대한 백분율 변화를 비교합니다. 이 옵션을 비활성화하면 백분율 변화 대신 원시 값 백분율이 표시됩니다."
 
 <!-- markdownlint-enable MD034 -->
 
