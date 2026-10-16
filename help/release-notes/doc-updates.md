@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
 workflow-type: tm+mt
-source-wordcount: '7591'
-ht-degree: 91%
+source-wordcount: '7621'
+ht-degree: 90%
 ---
 # Adobe Analytics에 대한 기술 설명서 업데이트
 
@@ -76,6 +76,7 @@ ht-degree: 91%
 | 기능 | 설명 |
 | --- | --- |
 | **2026년 10월** | |
+| CDN을 통한 데이터 수집 | CDN을 통해 [Route 데이터 수집](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)을(를) CX Enterprise 인터페이스 및 관리 가이드에 추가했습니다. |
 | 봇 제품 발생 횟수 지표 | 보트 규칙과 일치하는 제품 문자열 하위 히트의 수를 표시하는 [보트 제품 발생 횟수](/help/components/metrics/bot-product-occurrences.md) 지표를 추가했습니다. <p>새 지표를 참조하도록 [보트 이름](/help/components/dimensions/bot-name.md) 차원 및 [보트 발생 횟수](/help/components/metrics/bot-occurrences.md) 지표도 업데이트했습니다.</p> |
 | **2026년 9월** | |
 | 화살표 및 폴아웃에 대한 여정 캔버스 비교 | [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &#39;[!UICONTROL 비교 대상]&#39; 설정을 업데이트하여 날짜 범위 간 비율 변경이 이제 여정의 각 노드, 화살표 및 폴아웃에 표시됨을 표시합니다. |
