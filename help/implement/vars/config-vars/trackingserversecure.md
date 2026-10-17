@@ -95,10 +95,10 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 `trackingServerSecure`(또는 `edgeDomain`)에 사용하는 값은 조직에서 Adobe에 데이터를 보내는 방식에 따라 다릅니다.
 
-* **조직에서 자사 도메인을 사용하는 경우**(예: [Adobe 관리 인증서 프로그램](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/adobe-managed-cert), [고객 관리 인증서](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) 또는 [CDN(Content Delivery Network)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)) 값을 해당 도메인으로 설정하십시오. 예, `data.example.com`.
+* **조직에서 자사 도메인을 사용하는 경우**(예: [Adobe 관리 인증서 프로그램](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/adobe-managed-cert), [고객 관리 인증서](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/customer-managed-cert) 또는 [CDN(Content Delivery Network)](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cdn)) 값을 해당 도메인으로 설정하십시오. 예, `data.example.com`.
 * **조직에서 타사 도메인을 사용하는 경우** 값을 테넌트 ID 하위 도메인 `data.adobedc.net`(으)로 설정하십시오. 예, `example.data.adobedc.net`.
 
-테넌트 ID를 찾는 방법을 포함하여 각 옵션에 대한 자세한 내용은 CX Enterprise 인터페이스 및 관리 안내서의 [데이터 수집 도메인 선택](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)을 참조하십시오.
+테넌트 ID를 찾는 방법을 포함하여 각 옵션에 대한 자세한 내용은 CX Enterprise 인터페이스 및 관리 안내서의 [데이터 수집 도메인 선택](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/collection-domain)을 참조하십시오.
 
 Adobe은 조직 전체에서 일관성을 유지하기 위해 [솔루션 디자인 문서](../../prepare/solution-design.md)에서 이 정보를 유지할 것을 적극 권장합니다.
 
