@@ -39,14 +39,14 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
+source-git-commit: feac0c7f16b2477ec12112a49d9359e3ef9bfc3a
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 45%
+source-wordcount: '1197'
+ht-degree: 42%
 ---
 # 최신 Adobe Analytics 릴리스 정보 (2026년 10월)
 
-**마지막 업데이트**: 2026년 10월 14일
+**마지막 업데이트**: 2026년 10월 19일
 
 이 릴리스 정보는 2026년 10월 릴리스 기간을 다룹니다. Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -55,9 +55,10 @@ ht-degree: 45%
 | 기능 및 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ---- |
 | **Adobe Analytics MCP 서버에 대한 읽기 전용 권한**<br/>&#x200B;이제 관리자는 사용자에게 Adobe Analytics MCP 서버에 대한 읽기 전용 액세스 권한을 부여할 수 있습니다. 새 [!UICONTROL MCP 읽기 전용 액세스] 권한 항목은 사용자에게 프로젝트, 세그먼트 또는 계산된 지표를 만들지 않고도 모든 읽기 전용 도구에 액세스할 수 있도록 합니다.<p>기존 [!UICONTROL MCP 액세스] 권한 항목의 이름이 [!UICONTROL MCP 전체 액세스]&#x200B;(으)로 변경되었습니다. 이 권한이 있는 사용자는 구성 요소를 만들거나, 변경하거나, 삭제하는 도구를 포함하여 모든 도구에 대한 액세스 권한을 유지합니다.</p><p>자세한 내용은 Adobe Analytics MCP 서버 설명서에서 [권한 설정](https://developer.adobe.com/analytics-mcp/docs/guides/permissions)을 참조하십시오.</p> | | 2026년 10월 6일 |
-| **Data Warehouse 보고서의 분류 데이터 개선**<br/> 이제 Data Warehouse 보고서에서 분류 데이터가 더 정확합니다. 이러한 개선 사항을 통해 Data Warehouse 보고서에서 다음과 같은 차이점을 발견할 수 있습니다.<ul><li>**이전에 분류 값을 보았던 빈 값**: 분류 세트에서 분류 값을 삭제하면 이제 Data Warehouse에 공백이 올바르게 표시됩니다. 이전에는 삭제된 분류 값이 이후 보고서에 계속 나타날 수 있었습니다.</li><li>**전체 분류 값 추가**: 경우에 따라 Data Warehouse은 이전에 여러 다른 분류 값 중 하나만 표시했습니다. 이제 Data Warehouse에 각 값이 표시됩니다.</li><li>**Analysis Workspace에서 분류 값이 다르게 표시될 수 있습니다(일반적이지 않음)**: Analysis Workspace은 연결된 모든 분류 값을 표시할 수 있지만 Data Warehouse은 단일 값을 표시합니다. 그 결과 Data Warehouse과 Analysis Workspace 간에 분류 값이 다를 수 있습니다.</li></ul><p>자세한 내용은 [Data Warehouse의 분류 차원](/help/export/data-warehouse/component-support.md#classifications)을 참조하십시오.</p> | 2026년 10월 14일 | 2027년 1월 |
+| **여정 캔버스: 백분율 비교**<br/>&#x200B;여정을 이전 기간과 비교할 때 이제 새로운 [!UICONTROL 백분율 비교] 옵션을 활성화하여 각 노드, 화살표 및 폴아웃의 백분율 점수 변경을 표시할 수 있습니다. 이 기능은 여정의 사람 수가 날짜 범위 간에 다른 경우에도 비교가 정확하게 유지되므로 노드 간 유지나 폴아웃과 같은 비율을 비교할 때 유용합니다.<p>자세한 내용은 [여정 캔버스 시각화 구성](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)에서 &quot;백분율 비교&quot;를 참조하십시오.</p> | | 2026년 10월 19일 |
 | **구성 요소 설명 자동 생성** <br/>이제 차원, 지표, 계산된 지표, 세그먼트 및 날짜 범위에 대한 설명을 자동으로 생성할 수 있습니다. 이는 Workspace 사용자가 특히 큰 구성 요소 라이브러리가 있는 조직에서 사용할 구성 요소를 이해하는 데 도움이 됩니다. <p>단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다.</p> <p>(참조할 설명서 링크입니다.)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026년 10월 28일 |
 | **Adobe Brand Visibility 통합**<br/> AI 기반 검색이 실제 웹 사이트 참여 및 비즈니스 성과로 이어지는 방식을 측정할 수 있도록 Adobe Brand Visibility을 조직의 Adobe Analytics 데이터와 연결합니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | | 2026년 10월 |
+| **Data Warehouse 보고서의 분류 데이터 개선**<br/> 이제 Data Warehouse 보고서에서 분류 데이터가 더 정확합니다. 이러한 개선 사항을 통해 Data Warehouse 보고서에서 다음과 같은 차이점을 발견할 수 있습니다.<ul><li>**이전에 분류 값을 보았던 빈 값**: 분류 세트에서 분류 값을 삭제하면 이제 Data Warehouse에 공백이 올바르게 표시됩니다. 이전에는 삭제된 분류 값이 이후 보고서에 계속 나타날 수 있었습니다.</li><li>**전체 분류 값 추가**: 경우에 따라 Data Warehouse은 이전에 여러 다른 분류 값 중 하나만 표시했습니다. 이제 Data Warehouse에 각 값이 표시됩니다.</li><li>**Analysis Workspace에서 분류 값이 다르게 표시될 수 있습니다(일반적이지 않음)**: Analysis Workspace은 연결된 모든 분류 값을 표시할 수 있지만 Data Warehouse은 단일 값을 표시합니다. 그 결과 Data Warehouse과 Analysis Workspace 간에 분류 값이 다를 수 있습니다.</li></ul><p>자세한 내용은 [Data Warehouse의 분류 차원](/help/export/data-warehouse/component-support.md#classifications)을 참조하십시오.</p> | 2026년 10월 14일 | 2027년 1월 |
 | **CX Enterprise Coworker: 공동 작업자 채팅에서 Adobe Analytics 데이터 분석** <br/>Adobe CX Enterprise Coworker 채팅에서 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. 동료 채팅은 Adobe Analytics 보고서 세트의 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.<p>(설명서 링크는 추후 제공됩니다.)</p> | 2026년 10월 2일 | TBD<p>(원래 2026년 9월 25일로 계획됨)</p> |
 
 ### Adobe Analytics의 수정 사항
@@ -96,7 +97,7 @@ AppMeasurement 릴리스에 대한 최신 업데이트는 [AppMeasurement 릴리
 >[!MORELIKETHIS]
 >
 >* [2026년 이전 릴리스 정보](/help/release-notes/2026.md)
->* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
+>* [Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 >* [스트리밍 미디어 서비스 릴리스 정보](https://experienceleague.adobe.com/ko/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 제품](https://business.adobe.com/kr/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
+>* [Adobe CX Enterprise 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트
 
