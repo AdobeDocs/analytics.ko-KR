@@ -101,4 +101,4 @@ ht-degree: 89%
 
 * 확보 링크의 경우 Adobe 파트너로 안내하여 그러한 요구를 충족시킬 수 있습니다.
 * 푸시 메시징 및 인앱 메시징은 Adobe Campaign Standard 및 Adobe Campaign Classic (푸시 전용)에서 사용할 수 있습니다. 그러나 타겟팅에 사용되는 기본 데이터 세트는 다릅니다. 메시징 데이터에 대한 마이그레이션 옵션을 결정하기 위해 Adobe 계정 팀과 협력하는 것이 좋습니다.
-* 위치 기능의 경우 모든 Adobe Experience Platform 고객에게 무료로 제공되는 새로운 [Adobe Experience Platform 위치 서비스](https://www.adobe.com/experience-platform/location-service.html)를 채택하는 것이 좋습니다.
+* 위치 기능의 경우 모든 Adobe Experience Platform 고객에게 무료로 제공되는 새로운 [Adobe Experience Platform 위치 서비스](https://www.adobe.com/kr/experience-platform/location-service.html)를 채택하는 것이 좋습니다.

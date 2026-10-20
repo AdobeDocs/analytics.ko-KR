@@ -30,7 +30,7 @@ ht-degree: 31%
 ---
 # Adobe Analytics 보안 리소스
 
-Adobe은 업계에서 인정하는 표준, 규정 및 인증을 준수하기 위해 확립된 보안 프로세스와 제어를 따릅니다. Adobe의 회사 전체 보안 방침에 대한 자세한 내용은 [Adobe 보안](https://www.adobe.com/trust/security.html)을 참조하십시오.
+Adobe은 업계에서 인정하는 표준, 규정 및 인증을 준수하기 위해 확립된 보안 프로세스와 제어를 따릅니다. Adobe의 회사 전체 보안 방침에 대한 자세한 내용은 [Adobe 보안](https://www.adobe.com/kr/trust/security.html)을 참조하십시오.
 
 Adobe Analytics 관련 사례에 대한 정보는 [Adobe Analytics 보안 개요](https://www.adobe.com/kr/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf)에 있습니다. 아키텍처, 인증, 데이터 센터, 네트워크 및 직원과 관련된 프로세스를 간략하게 설명합니다.
 
