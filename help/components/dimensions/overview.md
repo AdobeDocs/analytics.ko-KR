@@ -60,7 +60,7 @@ Analytics 관리자는 보고서 세트 내에서 또는 Analysis Workspace 내�
 * **JavaScript 지원**: 방문자의 브라우저에서 JavaScript을 지원하는지 여부를 나타냈습니다. 최신 측정에는 더 이상 의미가 없는 레거시 차원입니다.
 * **다음 페이지**: 방문자가 본 다음 페이지를 표시하는 경로 지정 차원입니다. 현재 경로 지정 차원에는 Analysis Workspace의 [흐름 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 사용하십시오.
 * **이전 페이지**: 방문자가 본 이전 페이지를 표시하는 경로 지정 차원입니다. 현재 경로 지정 차원에는 Analysis Workspace의 [흐름 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 사용하십시오.
-* **시간대**: AppMeasurement 이미지 요청의 타임스탬프 오프셋에서 파생된 방문자의 시간대입니다. 웹 SDK에서 [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context)을(를) 사용하여 시간대를 수집합니다.
+* **시간대**: AppMeasurement 이미지 요청의 타임스탬프 오프셋에서 파생된 방문자의 시간대입니다. 웹 SDK에서 [`placeContext`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/context)을(를) 사용하여 시간대를 수집합니다.
 * **최상위 도메인**: 방문자 액세스 지점의 최상위 도메인입니다. 기존 Reports &amp; Analytics 보고서입니다. 대신 [도메인](domain.md) 차원을 사용하십시오.
 * **방문 페이지 번호**: 방문 내의 페이지 번호입니다. 기존 Reports &amp; Analytics 보고서입니다. 대신 [히트 깊이](hit-depth.md) 차원을 사용하십시오.
 * **방문자 상태**: `s.state` 변수에서 미국 상태를 보고했습니다. 지리 특성을 사용하는 [미국 주](us-states.md) 차원을 위해 사용이 중단됩니다.
