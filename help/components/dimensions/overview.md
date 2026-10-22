@@ -26,10 +26,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 37%
+source-wordcount: '418'
+ht-degree: 38%
 ---
 # 차원 개요
 
@@ -58,7 +58,6 @@ Analytics 관리자는 보고서 세트 내에서 또는 Analysis Workspace 내�
 * **계층**: 보고를 위해 사이트의 계층 구조를 캡처하는 데 사용되는 사용자 지정 차원(`hier1`-`hier5`)입니다. 사용이 중단되었으며 Analysis Workspace에서 사용할 수 없습니다. 대신 [eVars](evar.md) 및 분류를 사용하십시오.
 * **홈 페이지**: 현재 페이지가 방문자의 브라우저 홈 페이지인지 여부를 나타내는 플래그입니다. 최신 브라우저 개인 정보 보호 정책으로 인해 현대적인 것과 동등한 요소가 없는 레거시 차원입니다.
 * **JavaScript 지원**: 방문자의 브라우저에서 JavaScript을 지원하는지 여부를 나타냈습니다. 최신 측정에는 더 이상 의미가 없는 레거시 차원입니다.
-* **JavaScript 버전**: 방문자의 브라우저가 지원하는 JavaScript 버전을 보고했습니다. 더 이상 수집되지 않는 이전 차원입니다.
 * **다음 페이지**: 방문자가 본 다음 페이지를 표시하는 경로 지정 차원입니다. 현재 경로 지정 차원에는 Analysis Workspace의 [흐름 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 사용하십시오.
 * **이전 페이지**: 방문자가 본 이전 페이지를 표시하는 경로 지정 차원입니다. 현재 경로 지정 차원에는 Analysis Workspace의 [흐름 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 사용하십시오.
 * **시간대**: AppMeasurement 이미지 요청의 타임스탬프 오프셋에서 파생된 방문자의 시간대입니다. 웹 SDK에서 [`placeContext`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/context)을(를) 사용하여 시간대를 수집합니다.

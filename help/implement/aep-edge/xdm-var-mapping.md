@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1978'
 ht-degree: 75%
 ---
 # Adobe Analytics에 대한 XDM 개체 필드 매핑
@@ -84,6 +84,7 @@ ht-degree: 75%
 | `xdm.environment.browserDetails.acceptLanguage` | [언어](/help/components/dimensions/language.md) 차원을 설정하는 데 도움이 됩니다. |
 | `xdm.environment.browserDetails.cookiesEnabled` | [쿠키 지원](/help/components/dimensions/cookie-support.md) 차원을 설정합니다. 유효한 값에는 `Y`(브라우저에서 쿠키를 수락) 및 `N`(브라우저에서 쿠키를 거부)이 포함됩니다. |
 | `xdm.environment.browserDetails.javaEnabled` | [Java 활성화](/help/components/dimensions/java-enabled.md) 차원을 설정합니다. 유효한 값에는 `Y`(Java가 활성화됨) 및 `N`(Java가 비활성화됨)이 포함됩니다. |
+| `xdm.environment.browserDetails.javaScriptVersion` | [JavaScript 버전](/help/components/dimensions/javascript-version.md) 차원을 설정합니다. |
 | `xdm.environment.browserDetails.userAgent` | 대체 [고유 방문자](/help/components/metrics/unique-visitors.md) 식별 방법으로 사용됩니다 일반적으로 `User-Agent` HTTP 요청 헤더를 사용하여 채워집니다. 보고서에서 이 필드를 사용하려는 경우 이 필드를 eVar에 매핑할 수 있습니다. |
 | `xdm.environment.browserDetails.viewportHeight` | [브라우저 높이](/help/components/dimensions/browser-height.md) 차원을 설정합니다. |
 | `xdm.environment.browserDetails.viewportWidth` | [브라우저 너비](/help/components/dimensions/browser-width.md) 차원을 설정합니다. |
@@ -163,7 +164,7 @@ ht-degree: 75%
 
 {style="table-layout:auto"}
 
-<!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+<!-- `web.webPageDetails.homePage` was included in the original table, but it no longer exists in Analytics. -->
 
 ## Analytics 변수에 다른 XDM 필드 매핑
 
