@@ -5,10 +5,10 @@ user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
 nudge: red
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 97%
+source-wordcount: '782'
+ht-degree: 96%
 ---
 # [!DNL Adobe Analytics] 구성 요소 안내서 {#components}
 
@@ -67,6 +67,7 @@ ht-degree: 97%
   + [확인된 상태](dimensions/identified-state.md)
   + [IP 주소](dimensions/ip-address.md)
   + [Java 활성화](dimensions/java-enabled.md)
+  + [JavaScript 버전](dimensions/javascript-version.md)
   + [언어](dimensions/language.md)
   + [마지막 터치 채널](dimensions/last-touch-channel.md)
   + [마지막 터치 채널 세부 사항](dimensions/last-touch-detail.md)
