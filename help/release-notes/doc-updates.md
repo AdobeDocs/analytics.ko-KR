@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
+source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
 workflow-type: tm+mt
-source-wordcount: '7653'
-ht-degree: 90%
+source-wordcount: '7701'
+ht-degree: 89%
 ---
 # Adobe Analytics에 대한 기술 설명서 업데이트
 
@@ -76,6 +76,7 @@ ht-degree: 90%
 | 기능 | 설명 |
 | --- | --- |
 | **2026년 10월** | |
+| 시각화에 대한 선택 잠금 | 구성된 데이터 원본 설정과 선택 항목을 잠그지 않도록 [데이터 원본 관리](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)를 재구성했습니다. 또한 시각화가 자유 형식 테이블의 행에 잠겨 있을 때 [선택 잠금](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection)이 작동하는 방식을 명확히 설명했습니다. 잠긴 분류 행이 더 이상 테이블에 없을 때 수행되는 작업도 포함됩니다. |
 | 표 열의 키보드 탐색 | 화면 판독기 피드백을 포함하여 키보드를 사용하여 Analysis Workspace에서 테이블 열을 [크기 조정](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) 및 [다시 정렬](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)하는 방법을 문서화했습니다. 또한 [테이블 열 작업](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) 섹션이 핫키에 추가되었습니다. |
 | CDN을 통한 데이터 수집 | CDN을 통해 [Route 데이터 수집](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cdn)을(를) CX Enterprise 인터페이스 및 관리 가이드에 추가했습니다. |
 | 봇 제품 발생 횟수 지표 | 보트 규칙과 일치하는 제품 문자열 하위 히트의 수를 표시하는 [보트 제품 발생 횟수](/help/components/metrics/bot-product-occurrences.md) 지표를 추가했습니다. <p>새 지표를 참조하도록 [보트 이름](/help/components/dimensions/bot-name.md) 차원 및 [보트 발생 횟수](/help/components/metrics/bot-occurrences.md) 지표도 업데이트했습니다.</p> |
