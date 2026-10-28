@@ -6,33 +6,41 @@ exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
 TQID: https://experienceleague.adobe.com/MneXzLSy9umkfoSWXFBrUn3zc-exo2OUTbiQZ1N3ZbA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1052'
 ht-degree: 8%
-
 ---
-
 # Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비
 
-[Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](/help/admin/tools/component-migration/component-migration.md)에 설명된 대로 조직의 모든 사용자가 프로젝트 마이그레이션을 시작하기 전에 다음 섹션을 완료하십시오.
+[Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](/help/admin/tools/component-migration/component-migration.md) 또는 [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja)에 설명된 대로 조직의 모든 사용자가 프로젝트 마이그레이션을 시작하기 전에 다음 섹션을 완료하십시오.
 
 ## 사전 요구 사항
 
-프로젝트 및 관련 구성 요소를 마이그레이션할 준비가 되기 전에 먼저 Adobe Customer Journey Analytics 안내서의 [Adobe Analytics에서 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ko)에 나와 있는 단계를 따라야 합니다. 이러한 단계는 다음과 같습니다.
+프로젝트 및 관련 구성 요소를 마이그레이션할 준비가 되기 전에 먼저 Adobe Customer Journey Analytics 안내서의 [Adobe Analytics에서 진화](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html)에 나와 있는 단계를 따라야 합니다. 이러한 단계는 다음과 같습니다.
 
 1. Customer Journey Analytics에서 Adobe Analytics 보고서 세트 데이터를 보려면 다음 방법 중 하나를 사용하여 데이터를 Adobe Experience Platform에 수집합니다.
 
@@ -43,21 +51,21 @@ ht-degree: 8%
 
    * Adobe Analytics 소스 커넥터를 사용하려면 다음을 수행해야 합니다.
 
-     1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집하기 위한 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ko#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집하기 위한 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
      1. [데이터 수집 및 사용](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ko-KR)
 
    * WebSDK를 사용하려면 다음을 수행해야 합니다.
 
-     1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집하기 위한 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ko#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Adobe Experience Platform 및 Customer Journey Analytics에 수집하기 위한 보고서 세트 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-     1. [Adobe Experience Platform 웹 SDK을 통해 데이터 수집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=ko)
+     1. [Adobe Experience Platform 웹 SDK을 통해 데이터 수집](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. 수집된 데이터를 사용하여 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=ko) 및 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko)를 만듭니다.
+1. 수집된 데이터를 사용하여 [연결](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) 및 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)를 만듭니다.
 
 1. Customer Journey Analytics의 사용자가 데이터가 매핑되는 데이터 보기에 프로비저닝되었는지 확인합니다.
 
-   자세한 내용은 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ko)에서 [Admin Console의 Customer Journey Analytics 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ko#customer-journey-analytics-permissions-in-admin-console)을 참조하십시오.
+   자세한 내용은 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)에서 [Admin Console의 Customer Journey Analytics 권한](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)을 참조하십시오.
 
    권한 탭은 Admin Console의 각 제품 프로필에 포함되어 있습니다. 특정 제품 프로필에 사용자를 추가할 수 있습니다. 그런 다음 특정 데이터 보기에 권한을 할당하고 제품 프로필의 사용자에게 부여할 권한을 지정합니다.
 
@@ -128,6 +136,12 @@ Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 �
 * [페이지 요약](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
 * [기여도 분석](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
+
+### 지원되지 않는 보고서 세트
+
+<!-- FLAG: Sourced from Coworker's response in the Coworker UI (October 2026), not from engineering. Confirm that panels that use a virtual report suite can't be migrated, in both Coworker and the Adobe Analytics user interface. -->
+
+[가상 보고서 세트](/help/components/vrs/vrs-about.md)를 사용하는 패널은 마이그레이션할 수 없습니다. 프로젝트의 모든 패널에서 기본 보고서 세트를 사용하도록 합니다.
 
 ## 구성 요소를 매핑할 방법을 조직으로 결정
 

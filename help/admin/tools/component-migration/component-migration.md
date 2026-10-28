@@ -6,23 +6,29 @@ exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
 TQID: https://experienceleague.adobe.com/vTGy--9PQ9T5HTYm3ISws71ItH2DBBJFrk-XdaguBjU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
 workflow-type: tm+mt
-source-wordcount: 1666
+source-wordcount: '1691'
 ht-degree: 5%
-
 ---
-
 # Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션
 
 Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics로 마이그레이션할 수 있습니다.
@@ -41,22 +47,26 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 >
 >이 페이지의 정보에서는 사용자 인터페이스로 프로젝트 및 관련 구성 요소를 마이그레이션하는 방법을 설명합니다.
 >
->또는 API를 사용하여 마이그레이션을 수행할 수 있습니다. 자세한 내용은 [Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs)를 참조하십시오. **[!UICONTROL 정의 선택]** 드롭다운 메뉴에서 모든 API 정의를 사용할 수 있습니다.
+>또는 다음 방법 중 하나를 사용하여 마이그레이션을 수행할 수 있습니다. [!UICONTROL 구성 요소 마이그레이션] 권한이 있는 사용자는 관리자가 아닌 경우에도 이러한 메서드를 사용할 수 있습니다.<!-- FLAG: Non-admin access with the Component migration permission, for both the APIs and Coworker, is from SME Scott Tomko (October 2026). The intro says only administrators can migrate in the user interface, but analytics-tools.md says the Component migration permission grants access to Admin > All admin > Component migration. Confirm which is correct. -->
+>
+>* Adobe Analytics API. 자세한 내용은 [Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs)를 참조하십시오. **[!UICONTROL 정의 선택]** 드롭다운 메뉴에서 모든 API 정의를 사용할 수 있습니다.
+>
+>* Adobe CX Enterprise Coworker. 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [Coworker를 사용하여 Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja)을 참조하십시오.
 
 
 ## 마이그레이션 준비
 
-프로젝트를 Customer Journey Analytics으로 마이그레이션하기 전에 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](/help/admin/tools/component-migration/prepare-component-migration.md)에서 프로젝트 마이그레이션에 대해 자세히 알아보세요.
+프로젝트를 Customer Journey Analytics으로 마이그레이션하기 전에:
 
-또한 Analytics 관리자가 사용할 수 있는 도구를 사용하여 [Adobe Analytics 인벤토리](/help/admin/tools/analytics-inventory.md)를 실행하십시오.
+* [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비](/help/admin/tools/component-migration/prepare-component-migration.md)에서 프로젝트 마이그레이션에 대해 자세히 알아보세요.
+
+* Analytics 관리자가 사용할 수 있는 도구를 사용하여 [Adobe Analytics 인벤토리](/help/admin/tools/analytics-inventory.md)를 실행하십시오.
 
 ## Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션
 
->[!NOTE]
+>[!IMPORTANT]
 >
->이 섹션에 설명된 대로 프로젝트를 Customer Journey Analytics으로 마이그레이션하기 전에 [구성 요소와 프로젝트를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션 준비](/help/admin/tools/component-migration/prepare-component-migration.md)에서 프로젝트 마이그레이션에 대해 자세히 알아보십시오.
->
->**매핑하는 모든 차원 또는 지표는 마이그레이션을 수행하는 사용자에 관계없이 전체 IMS 조직의 향후 프로젝트와 모든 프로젝트에 적용됩니다. 향후 프로젝트를 마이그레이션할 때 이러한 매핑을 업데이트할 수 있습니다.**
+>매핑하는 모든 차원 또는 지표는 마이그레이션을 수행하는 사용자에 관계없이 전체 IMS 조직의 이 프로젝트 및 향후 모든 프로젝트에 적용됩니다. 향후 프로젝트를 마이그레이션할 때 이러한 매핑을 업데이트할 수 있습니다.
 
 1. Adobe Analytics에서 [!UICONTROL **관리**] 탭을 선택한 다음 [!UICONTROL **모든 관리자**]&#x200B;를 선택합니다.
 
@@ -138,7 +148,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 
    ![차원 및 지표 매핑](assets/schema-manual-map-drop-down.png)
 
-   차원 또는 지표가 매핑되면 경고 아이콘이 사라지고 [!UICONTROL **상태**] 열이 녹색 점이 있는 [!UICONTROL **매핑됨**] (으)로 변경됩니다. (회색 점이 있는 [!UICONTROL **매핑됨**] 상태는 차원 또는 지표가 이전 마이그레이션 중에 매핑되었음을 나타냅니다. 이전 매핑은 업데이트할 수 없습니다.)
+   차원 또는 지표가 매핑되면 경고 아이콘이 사라지고 [!UICONTROL **상태**] 열이 녹색 점이 있는 [!UICONTROL **매핑됨**](으)로 변경됩니다. (회색 점이 있는 [!UICONTROL **매핑됨**] 상태는 차원 또는 지표가 이전 마이그레이션 중에 매핑되었음을 나타냅니다. 이전 매핑은 업데이트할 수 없습니다.)
 
    경고 아이콘이 포함된 각 차원 또는 지표에 대해 이 프로세스를 반복합니다.
 

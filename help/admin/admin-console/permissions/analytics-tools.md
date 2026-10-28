@@ -7,32 +7,46 @@ role: Admin
 TQID: https://experienceleague.adobe.com/ksQBbvkW4IlqqenSnciCc3rxrKlUzN4rokYJ1fLm7SY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+    internal-label: Traffic Management
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f2ebe32aed6555a81f9d51e10a297679df5b8d4c
+    internal-label: Administration
+source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
 workflow-type: tm+mt
-source-wordcount: 552
-ht-degree: 59%
-
+source-wordcount: '569'
+ht-degree: 57%
 ---
-
 # Analytics 도구에 대한 제품 프로필 권한
 
 Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세스 권한을 부여합니다. Analytics 도구 권한 항목은 보고서 세트에 적용되지 않고 Adobe Analytics 전체에 적용됩니다.
@@ -49,7 +63,7 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | [!UICONTROL 코드 관리자] | 관리자 > 모든 관리자 > 코드 관리자에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 코드 관리자 - 웹 서비스] | 1.4 API를 통해 코드 관리자에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 회사 설정 UI 액세스] | 사용되지 않습니다 |
-| [!UICONTROL 구성 요소 마이그레이션] | 관리자 > 모든 관리자 > 구성 요소 마이그레이션에 대한 액세스 권한을 부여합니다. |
+| [!UICONTROL 구성 요소 마이그레이션] | 관리자 > 모든 관리자 > 구성 요소 마이그레이션 또는 Adobe CX Enterprise Coworker을 통해 [Customer Journey Analytics으로 프로젝트 및 구성 요소를 마이그레이션](/help/admin/tools/component-migration/component-migration.md)하는 기능을 부여합니다. |
 | [!UICONTROL 현재 데이터] | 사용되지 않습니다 |
 | [!UICONTROL 데이터 거버넌스 및 개인 정보 보호 레이블 UI 액세스] | 관리자 > 데이터 거버넌스 개인 정보 보호 레이블에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL Excel 라이선스 사용자] | 사용되지 않습니다 |
@@ -70,7 +84,7 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | [!UICONTROL Reports &amp; Analytics 액세스] | 사용되지 않습니다 |
 | [!UICONTROL 보안] | 관리자 > 모든 관리자 > 회사 설정 > 보안 관리자에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 세그먼트 만들기] | 모든 Analytics 기능에 대해 세그먼트를 만들고 공유할 수 있는 기능을 부여합니다. |
-| [!UICONTROL 세그먼트 퍼블리싱] | 세그먼트를 만들거나 편집할 때 세그먼트를 CX 엔터프라이즈 대상으로 만들 수 있는 기능을 부여합니다. |
+| [!UICONTROL 세그먼트 퍼블리싱] | 세그먼트를 만들거나 편집할 때 세그먼트를 CX Enterprise 대상으로 만들 수 있는 기능을 부여합니다. |
 | [!UICONTROL 서버 호출 사용] | 관리자 > 서버 호출 사용량에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 모든 사람과 프로젝트 링크 공유] | Adobe Analytics에 대한 액세스 권한이 없는 사람에게 Analysis Workspace 프로젝트에 대한 읽기 전용 액세스 권한을 부여하는 기능을 부여합니다. |
 | [!UICONTROL 지원] | 관리자 > 모든 관리자 > 회사 설정 > 지원 정보에 대한 액세스 권한을 부여합니다. |
