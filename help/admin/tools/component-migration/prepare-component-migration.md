@@ -6,29 +6,37 @@ exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
 TQID: https://experienceleague.adobe.com/MneXzLSy9umkfoSWXFBrUn3zc-exo2OUTbiQZ1N3ZbA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: db58d6fc510998d56794678c94d8a97f0563beb4
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1056'
 ht-degree: 8%
-
 ---
-
 # Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비
 
-[Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](/help/admin/tools/component-migration/component-migration.md)에 설명된 대로 조직의 모든 사용자가 프로젝트 마이그레이션을 시작하기 전에 다음 섹션을 완료하십시오.
+[Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](/help/admin/tools/component-migration/component-migration.md) 또는 [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)에 설명된 대로 조직의 모든 사용자가 프로젝트 마이그레이션을 시작하기 전에 다음 섹션을 완료하십시오.
 
 ## 사전 요구 사항
 
@@ -128,6 +136,12 @@ Customer Journey Analytics에 아직 존재하지 않는 세그먼트, 날짜 �
 * [페이지 요약](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
 * [기여도 분석](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
+
+### 지원되지 않는 보고서 세트
+
+<!-- FLAG: Sourced from Coworker's response in the Coworker UI (October 2026), not from engineering. Confirm that panels that use a virtual report suite can't be migrated, in both Coworker and the Adobe Analytics user interface. -->
+
+[가상 보고서 세트](/help/components/vrs/vrs-about.md)를 사용하는 패널은 마이그레이션할 수 없습니다. 프로젝트의 모든 패널에서 기본 보고서 세트를 사용하도록 합니다.
 
 ## 구성 요소를 매핑할 방법을 조직으로 결정
 
