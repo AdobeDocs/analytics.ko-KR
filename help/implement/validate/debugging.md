@@ -44,7 +44,7 @@ ht-degree: 2%
 | --- | --- | --- |
 | AppMeasurement 또는 Analytics 태그 확장 | 브라우저에서 Analytics 데이터 수집 서버로 직접 요청 | [AppMeasurement](#appmeasurement) |
 | Web SDK | Edge 추적, Edge Network에서 이벤트를 Analytics 히트로 전환한 후 | [웹 SDK](#web-sdk) |
-| Mobile SDK | Assurance의 Analytics 이벤트 보기. Edge Network 또는 Edge Bridge 확장을 사용하는 경우 **[!UICONTROL Analytics Edge 보기]**&#x200B;를 켭니다. | [Assurance의 Adobe Analytics 이벤트 보기](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/adobe-analytics) |
+| Mobile SDK | Assurance의 Analytics 이벤트 보기. Edge Network 또는 Edge Bridge 확장을 사용하는 경우 **[!UICONTROL Analytics Edge 보기]**&#x200B;를 켭니다. | [Assurance의 Adobe Analytics 이벤트 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/view/adobe-analytics) |
 | 데이터 삽입 API | 서버의 보내는 요청 및 응답 | [데이터 삽입 API 요청 문제 해결](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting) |
 
 ## AppMeasurement 및 Analytics 확장 {#appmeasurement}
@@ -81,7 +81,7 @@ AppMeasurement은 [`useBeacon`](../vars/config-vars/usebeacon.md)이(가) 활성
 
 Web SDK을 사용하면 브라우저가 Analytics에 직접 연결하는 대신 Edge Network에 이벤트를 보내므로 `/b/ss/` 요청이 표시되지 않습니다. [Edge Network 요청을 검사하고](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) 다음을 확인하십시오.
 
-* `configId` 매개 변수는 예상한 보고서 세트와 함께 [Adobe Analytics 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#analytics)가 활성화된 데이터 스트림과 일치합니다.
+* `configId` 매개 변수는 예상한 보고서 세트와 함께 [Adobe Analytics 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure#analytics)가 활성화된 데이터 스트림과 일치합니다.
 * 페이로드는 페이지 보기 또는 링크 이벤트로 유효합니다. Analytics에서는 페이지 세부 사항이나 웹 상호 작용 유형을 포함하지 않는 페이로드를 무시합니다. [Adobe Analytics의 Edge Network 이벤트 유형](../aep-edge/hit-types.md)을 참조하세요.
 
 ### Analytics가 받은 항목 확인 {#web-sdk-contents}
