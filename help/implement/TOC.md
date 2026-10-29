@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. Analytics 데이터를 최대한 활용할 수 있도록 수집할 데이터를 사용자 정의하십시오.
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 93%
+source-wordcount: '460'
+ht-degree: 95%
 ---
 
 # Adobe Analytics 구현 안내서 {#implementation}
@@ -150,7 +150,7 @@ ht-degree: 93%
       + [감사 결과](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
       + [매퍼 준비](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
       + [XDM 매핑](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
-      + [웹 SDK 구현](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [Web SDK 구현](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
       + [최종 검토](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [태그를 사용하여 Web SDK로 마이그레이션](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [JavaScript를 사용하여 Web SDK로 마이그레이션](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
@@ -191,7 +191,7 @@ ht-degree: 93%
   + [iFrame에서 AppMeasurement 사용](use-cases/iframe.md)
   + [캠페인 추적 워크플로](use-cases/campaign-tracking.md)
 + 구현 유효성 검사 {#validate}
-  + [디버깅 도구](validate/debugging-tools.md)
+  + [Analytics 데이터 수집 디버그](validate/debugging.md)
   + [해시 충돌](validate/hash-collisions.md)
 + [자주 묻는 질문](faq.md)
 + 구현 검토 {#review}
