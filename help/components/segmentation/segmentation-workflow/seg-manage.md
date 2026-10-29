@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 64%
+source-wordcount: '632'
+ht-degree: 58%
 ---
 # 세그먼트 관리
 
@@ -79,6 +79,7 @@ ht-degree: 64%
 | ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL 이름 바꾸기]** | 선택한 단일 세그먼트 이름을 바꿉니다. 선택한 경우 세그먼트 이름을 인라인으로 바꿀 수 있습니다. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 승인]** | 선택한 세그먼트를 승인합니다. 자세한 내용은 [세그먼트 승인](seg-approve.md)을 참조하십시오. |
 | ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL 복사]** | 선택한 세그먼트를 복사합니다. 새로운 세그먼트가 동일한 이름에 접미사 `(Copy)`가 추가되어 생성됩니다. |
+| ![AI](/help/assets/icons/AI.svg) **[!UICONTROL 설명 생성]** | <p>기존 설명을 대체하여 선택한 세그먼트에 대한 설명을 생성합니다.</p><p>기존 설명을 덮어쓰지 않도록 하려면 먼저 [filter](#filter-panel) 목록에 설명 없는 세그먼트만 표시합니다(필터에서 [!UICONTROL **기타 필터**]&#x200B;에서 [!UICONTROL **설명 없음**]&#x200B;을 선택).</p><p>확인 메시지가 표시됩니다. 큰 요청은 백그라운드에서 실행되며 완료될 때 알림을 받습니다.</p><p>자세한 내용은 [자동으로 설명 생성](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하십시오.</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV로 내보내기]** | 세그먼트를 `Segments List.csv` 파일로 내보냅니다. |
 
 ### 활성 필터 표시줄
@@ -156,6 +157,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=ko) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->
