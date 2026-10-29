@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 96%
+source-wordcount: '589'
+ht-degree: 89%
 ---
 # 날짜 범위 만들기
 
@@ -68,6 +68,11 @@ Should we really mention API here. If so, we can do it all over the place in the
 
 1. 날짜 범위의 **[!UICONTROL 제목]**&#x200B;을 지정합니다. 예: **[!UICONTROL 분기별]**.
 1. 원할 경우, **[!UICONTROL 설명]**&#x200B;을 지정합니다.
+
+   Adobe에서 설명을 생성하려면 **[!UICONTROL 설명 생성]**&#x200B;을 선택하세요. 이 옵션은 날짜 범위 정의를 생성할 때까지 사용할 수 없습니다.
+
+   생성된 설명에는 **[!UICONTROL AI를 사용하여 Adobe에서 생성됨]** 텍스트가 포함되어 있으며 생성된 후에는 편집할 수 있습니다. 자세한 내용은 [자동으로 설명 생성](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하세요.
+
 1. 하나 이상의 **[!UICONTROL 태그]**&#x200B;를 만들거나 적용하여 세그먼트를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
 1. 시작 일자를 먼저 선택한 다음 종료 일자를 선택하여 **[!UICONTROL 날짜 범위]**&#x200B;를 선택합니다.
 또는 [!UICONTROL *사전 설정 선택*] 드롭다운 메뉴에서 **[!UICONTROL 사전 설정]**&#x200B;을 선택할 수 있습니다.

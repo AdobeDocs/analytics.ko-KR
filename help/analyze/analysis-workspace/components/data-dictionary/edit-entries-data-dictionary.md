@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 89%
+source-wordcount: '1420'
+ht-degree: 71%
 ---
 # 데이터 사전의 구성 요소 항목 편집
 
@@ -82,6 +82,7 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 
 1. 구성 요소 목록에서 편집할 구성 요소를 선택합니다.
 
 1. 구성 요소 이름 옆에 있는 **편집** 아이콘 ![데이터 사전 편집 아이콘](/help/assets/icons/Edit.svg)을 선택합니다.
+   ![데이터 사전의 구성 요소 편집 대화 상자](assets/data-dictionary-edit-component.png)
 
 1. 구성 요소에 대한 다음 정보를 편집합니다.
 
@@ -89,7 +90,7 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 
    |---------|----------|
    | **[!UICONTROL 승인됨]** | <p>관리자가 구성 요소를 검토하고 승인했음을 나타냅니다.</p><p>구성 요소가 승인된 후 관리자는 **승인됨** 버튼을 선택하여 승인을 제거할 수 있습니다.</p> |
    | **[!UICONTROL 승인 필요]** | <p>관리자가 아직 구성 요소를 검토하고 승인하지 않았음을 나타냅니다.</p><p>관리자에게는 **[!UICONTROL 승인]** 옵션이 표시됩니다. 이 옵션을 선택하면 구성 요소가 사용자에게 “승인됨”으로 표시됩니다.</p> |
-   | **[!UICONTROL 설명]** | 구성 요소의 의도된 기능을 설명합니다. (이 정보는 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md)에 설명된 대로 Analytics 관리자가 추가함) |
+   | **[!UICONTROL 설명]** | 구성 요소의 의도된 기능을 설명합니다. Analytics 관리자만 구성 요소 설명을 추가할 수 있습니다. <p>다음 방법 중 하나로 설명을 추가할 수 있습니다.</p><ul><li>수동으로 설명 입력</li><li>Adobe에서 설명을 생성하도록 하려면 **[!UICONTROL 설명 생성]**&#x200B;을 선택하십시오. <p>생성된 설명에는 **[!UICONTROL AI를 사용하여 Adobe에서 생성됨]** 텍스트가 포함되어 있으며 생성된 후에는 편집할 수 있습니다.</p><p>여러 구성 요소에 대한 설명을 동시에 생성하려면 [여러 구성 요소에 대한 설명 생성](#generate-descriptions-for-multiple-components)을 참조하십시오.</p></li></ul> <p>자세한 내용은 [자동으로 설명 생성](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하세요.</p> |
    | **[!UICONTROL 다음과 함께 자주 사용됨]** | <p>현재 보고 있는 구성 요소와 함께 가장 일반적으로 사용되는 구성 요소를 표시합니다.</p><p>지표, 계산된 지표, 차원, 세그먼트 및 날짜 범위의 5가지 기본 구성 요소 유형에서 최대 5가지 구성 요소가 표시됩니다.</p><p>이 목록은 지난 90일 동안의 데이터를 기반으로 합니다. 볼 수 있는 액세스 권한이 있는 구성 요소만 표시됩니다.</p><p>관리자는 **[!UICONTROL 항상 포함]** 및 **[!UICONTROL 항상 제외]** 드롭다운 영역에서 원하는 구성 요소를 선택해서 이 섹션에서 사용자에게 표시되는 구성 요소를 조정할 수 있습니다. 사용자에게 표시되는 구성 요소를 조정하기 전에 먼저 **모두 표시** 필터를 적용하여 나와 공유되지 않은 구성 요소가 표시되는지 확인합니다.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
    | **[!UICONTROL 다음과 유사]** | <p>현재 보고 있는 구성 요소와 유사한 이름이 있는 구성 요소를 표시합니다.</p><p>지표, 계산된 지표, 차원, 세그먼트 및 날짜 범위의 5가지 기본 구성 요소 유형에서 최대 5가지 구성 요소가 표시됩니다.</p><p>볼 수 있는 액세스 권한이 있는 구성 요소만 표시됩니다.</p><p>보고서 세트의 모든 중복 구성 요소도 여기에 표시됩니다. Analytics 관리자는 [데이터 사전 상태 모니터링](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)에 설명된 대로 모든 중복 구성 요소를 식별하고 제거해야 합니다.</p><p>관리자는 **[!UICONTROL 항상 포함]** 및 **[!UICONTROL 항상 제외]** 드롭다운 영역에서 원하는 구성 요소를 선택해서 이 섹션에서 사용자에게 표시되는 구성 요소를 조정할 수 있습니다. 사용자에게 표시되는 구성 요소를 조정하기 전에 먼저 **모두 표시** 필터를 적용하여 나와 공유되지 않은 구성 요소가 표시되는지 확인합니다.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**참고:** 현재 **다음과 유사** 섹션에는 사용자가 만든 구성 요소만 포함되고 Adobe에서 제공하는 구성 요소는 포함되지 않습니다. Adobe 제공 구성 요소는 향후 릴리스에 추가될 예정입니다.</p> |
    | **[!UICONTROL 태그]** | 구성 요소에 적용된 모든 태그가 표시됩니다. 관리자 액세스 권한이 있는 사용자는 구성 요소를 편집할 때 태그를 추가할 수 있습니다. |
@@ -101,3 +102,29 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 
    {style="table-layout:auto"}
 
 1. **저장** 아이콘 ![데이터 사전 저장 아이콘](/help/assets/icons/SaveFloppy.svg)을 클릭하여 변경 사항을 저장합니다.
+
+## 여러 구성 요소에 대한 설명 생성
+
+Analytics 관리자는 Adobe에서 여러 구성 요소에 대한 설명을 동시에 생성하도록 할 수 있습니다. 자세한 내용은 [자동으로 설명 생성](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하세요.
+
+>[!IMPORTANT]
+>
+>여러 구성 요소에 대한 설명을 생성하면 선택한 구성 요소에 대한 기존 설명이 바뀝니다. 기존 설명을 덮어쓰지 않도록 하려면 구성 요소를 선택하기 전에 아직 설명이 없는 구성 요소만 표시하도록 목록을 필터링합니다.
+
+데이터 사전에 있는 여러 구성 요소에 대한 설명을 생성하려면 다음을 수행합니다.
+
+1. [데이터 사전 액세스](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)에 설명된 대로 데이터 사전을 엽니다.
+
+1. 드롭다운 메뉴에서 올바른 보고서 세트가 선택되었는지 확인합니다.
+
+1. (권장) **필터** 아이콘 ![데이터 사전 필터 아이콘](/help/assets/icons/Filter.svg)을 선택한 다음 **[!UICONTROL 설명 누락]**&#x200B;을 선택하여 설명이 없는 구성 요소만 표시합니다.
+
+1. 설명을 생성할 구성 요소를 선택합니다.
+
+1. 구성 요소 목록 위에서 ![AI](/help/assets/icons/AI.svg) **[!UICONTROL 설명 생성]**&#x200B;을 선택합니다.
+
+1. **[!UICONTROL 설명 생성]**&#x200B;을(를) 선택하여 확인합니다.
+
+   확인 메시지에 추가된 설명 수가 표시됩니다.
+
+   많은 구성 요소를 선택한 경우 배경에 설명이 생성됩니다. 요청이 완료되면 생성된 설명 수와 실패한 설명 수를 보여 주는 인앱 [알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#view-notifications)을 받게 됩니다.

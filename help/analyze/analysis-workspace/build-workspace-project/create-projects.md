@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspace에서 기본 프로젝트를 만드는 방법을 알아봅니다.
+description: Analysis Workspace에서 프로젝트를 만드는 방법을 알아봅니다.
 title: 프로젝트 만들기
 feature: Workspace Basics
 role: User, Admin
@@ -33,13 +33,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 408
-ht-degree: 95%
-
+source-wordcount: '463'
+ht-degree: 84%
 ---
-
 # 프로젝트 만들기 {#create-projects}
 
 
@@ -56,7 +54,7 @@ Analysis Workspace의 [프로젝트](/help/analyze/analysis-workspace/build-work
 1. [!UICONTROL **만들기**]&#x200B;를 선택합니다.
 
 
-빈 Workspace 프로젝트를 만들고 나면 [Analysis Workspace](/help/analyze/analysis-workspace/home.md) 사용자 인터페이스를 잘 알고 있는지 확인합니다. 확인되면 프로젝트를 빌드할 수 있습니다. 이렇게 하려면 다음 작업을 수행하십시오.
+빈 Workspace 프로젝트를 만들고 나면 [Analysis Workspace](/help/analyze/analysis-workspace/home.md) 사용자 인터페이스를 잘 알고 있는지 확인합니다. 익숙해지면 프로젝트를 작성할 수 있습니다. 이렇게 하려면 다음 작업을 수행하십시오.
 
 ![예제 프로젝트](assets/example-project.png)
 
@@ -105,11 +103,11 @@ Analysis Workspace의 [프로젝트](/help/analyze/analysis-workspace/build-work
 | 소유자 | 프로젝트 소유자 이름 |
 | 마지막 수정 | 프로젝트의 마지막 수정 날짜. |
 | 태그 | 더 쉬운 분류를 위해 프로젝트에 적용된 모든 태그를 나열합니다. |
-| 설명 | 설명은 프로젝트의 목적을 명확하게 하는 데 유용합니다. 설명을 더블 클릭하여 편집할 수 있습니다. |
+| 설명 | 설명은 프로젝트의 목적을 명확하게 하는 데 유용합니다. 설명을 더블 클릭하여 편집할 수 있습니다. <p>Adobe에서 설명을 생성하려면 설명 필드 위에서 **[!UICONTROL 설명 생성]**&#x200B;을 선택하십시오. Adobe은 프로젝트의 여러 패널을 분석하고 설명으로 요약합니다. 생성된 설명에는 **[!UICONTROL AI를 사용하여 Adobe에서 생성됨]** 텍스트가 포함되어 있으며 편집할 수 있습니다. 이 옵션을 사용하려면 조직에서 특정 생성 AI 법률 약관에 동의해야 합니다.</p> |
 | 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다. 참고: 이 설정은 흐름 또는 폴아웃 시각화에 적용되지 않습니다. |
 | 주석 표시 | 이 프로젝트의 주석을 표시할지 여부를 지정합니다. |
 | [프로젝트 색상 팔레트](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | 색맹 사용자에 최적화된 비맞춤형 팔레트에서 선택하거나 맞춤형 팔레트를 지정하여 Workspace에서 사용되는 카테고리별 색상 팔레트를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 영역의 많은 사항에 영향을 줍니다. |
-| [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 자유 형식 테이블 및 코호트 테이블에서 왼쪽 패널의 수직 안쪽 여백을 줄여 화면에서 더 많은 데이터를 볼 수 있습니다. |
+| [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 왼쪽 패널, 자유 형식 테이블 및 코호트 테이블의 수직 안쪽 여백을 줄여 화면에서 더 많은 데이터를 볼 수 있습니다. |
 
 
 

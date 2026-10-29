@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 2082
-ht-degree: 74%
-
+source-wordcount: '2128'
+ht-degree: 73%
 ---
-
 # 세그먼트 빌드
 
 >[!CONTEXTUALHELP]
@@ -70,14 +68,14 @@ ht-degree: 74%
    | **[!UICONTROL 보고서 세트]** | 세그먼트에 대한 보고서 세트를 선택할 수 있습니다. |
    | **[!UICONTROL 프로젝트 전용 세그먼트]** | 세그먼트가 생성된 프로젝트에서만 볼 수 있다는 것을 설명하는 정보 상자입니다. 또한 해당 세그먼트는 구성 요소 목록에 추가되지 않습니다. **[!UICONTROL 이 세그먼트가 모든 프로젝트에 사용할 수 있도록 설정하기 및 구성 요소 목록 추가하기]**&#x200B;를 활성화하여 해당 설정을 변경합니다. 이 정보 상자는 [빠른 세그먼트](seg-quick.md)를 만들고 **[!UICONTROL 빠른 세그먼트]** 인터페이스의 [!UICONTROL 빌더 열기]를 사용하여 빠른 세그먼트 정보를 일반 세그먼트로 전환할 때만 표시됩니다. |
    | **[!UICONTROL 제목]** ![필수](/help/assets/icons/Required.svg) | 세그먼트의 이름을 지정합니다(예: `Last month mobile visitors`). |
-   | **[!UICONTROL 설명]** | 세그먼트에 대한 설명을 입력합니다(예: `Segment to define the mobile customers for the last month`). |
+   | **[!UICONTROL 설명]** | <p>세그먼트에 대한 설명을 입력합니다(예: `Segment to define the mobile customers for the last month`).</p><p>Adobe에서 설명을 생성하려면 **[!UICONTROL 설명 생성]**&#x200B;을 선택하세요. 세그먼트 정의를 생성할 때까지 이 옵션을 사용할 수 없습니다.</p><p>생성된 설명에는 **[!UICONTROL AI를 사용하여 Adobe에서 생성됨]** 텍스트가 포함되어 있으며 생성된 후에는 편집할 수 있습니다. 자세한 내용은 [자동으로 설명 생성](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)을 참조하세요.</p> |
    | **[!UICONTROL 태그]** | 하나 이상의 태그를 만들거나 적용하여 세그먼트를 구성합니다. 이름을 입력하여 선택할 수 있는 기존 태그를 찾습니다. 또는 **[!UICONTROL ENTER]** 키를 눌러 새 태그를 추가합니다. ![CrossSize75](/help/assets/icons/CrossSize75.svg)를 선택하여 태그를 제거합니다. |
    | **[!UICONTROL 정의]** ![필수](/help/assets/icons/Required.svg) | [정의 빌더](#definition-builder)를 사용하여 세그먼트를 정의합니다. |
 
    {style="table-layout:auto"}
 
 1. 세그먼트 정의가 올바른지 확인하려면 오른쪽 상단에서 지속적으로 업데이트되는 세그먼트 결과의 미리보기를 사용합니다.
-1. 세그먼트를 CX Enterprise에 게시하려면 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]**&#x200B;을(를) 선택합니다. 자세한 내용은 [CX Enterprise에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)를 참조하십시오.
+1. 세그먼트를 CX Enterprise에 게시하려면 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]**&#x200B;을(를) 선택하십시오. 자세한 내용은 [CX Enterprise에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)를 참조하십시오.
 1. 다음을 선택합니다.
    * **[!UICONTROL 저장]**: 세그먼트를 저장합니다.
    * **[!UICONTROL 다른 이름으로 저장]**: 세그먼트 사본을 저장합니다.
