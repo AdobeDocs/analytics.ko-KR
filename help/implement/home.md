@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 82%
 ---
 # Adobe Analytics 구현
@@ -118,7 +118,7 @@ Adobe Analytics를 서버측에 구현할 때에는 다음과 같은 옵션이 �
 ## 주요 Analytics 구현 문서
 
 * [기존 Adobe Analytics 구현 관리](/help/implement/prepare/existing-implementation.md)
-* [디버깅 도구](validate/debugging-tools.md)
+* [Analytics 데이터 수집 디버그](validate/debugging.md)
 * [Experience Platform의 태그 속성 만들기](launch/create-analytics-property.md)
 * [AppMeasurement 업데이트](appmeasurement-updates.md)
 * [Platform Web SDK 튜토리얼을 사용하여 Adobe Analytics 설정](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=ko)

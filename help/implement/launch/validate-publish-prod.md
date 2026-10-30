@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 75%
+source-wordcount: '516'
+ht-degree: 66%
 ---
 # 개발 구현 유효성 검사 및 프로덕션에 게시
 
@@ -80,14 +80,7 @@ Adobe Experience Platform Debugger은 페이지에 있는 모든 CX Enterprise �
 
 ## 문제 해결
 
-**디버거에 데이터가 표시되지 않습니다.**
-
-사이트에서 브라우저의 개발자 콘솔을 엽니다(일반적으로 F12). 페이지의 소스 코드를 보고 다음 사항이 충족되는지 확인합니다.
-
-* 콘솔에 JavaScript 오류가 없습니다. 조직의 웹 사이트 소유자와 함께 모든 JS 오류가 해결되었는지 확인합니다.
-* 헤더 코드가 올바르게 구현됨: 헤더 코드가 `<head>` 태그 내에 있고 파일이 있는지 확인합니다.
-* AppMeasurement 라이브러리가 있음: JS 소스로 직접 이동하여 JS 파일에 코드가 포함되어 있는지 확인합니다. 코드가 포함되어 있지 않으면 각 환경이 만들어졌는지, 라이브러리가 각각의 환경에 게시되었는지 확인합니다.
-* 확장 프로그램 방해: 광고 차단기와 같은 일부 확장 프로그램으로 인해 이미지 요청이 실행되지 않을 수 있습니다. Adobe로 데이터가 전송되지 않도록 하는 확장 프로그램을 비활성화합니다.
+디버거에 Analytics 데이터가 표시되지 않거나 예상한 데이터가 아닌 경우 [Analytics 데이터 수집 디버그](../validate/debugging.md#appmeasurement)를 참조하십시오.
 
 ## 다음 단계
 
