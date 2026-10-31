@@ -51,7 +51,7 @@ Adobe Analytics 관리자는 Adobe Analytics 프로젝트 및 관련 구성 요�
 >
 >* Adobe Analytics API. 자세한 내용은 [Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs)를 참조하십시오. **[!UICONTROL 정의 선택]** 드롭다운 메뉴에서 모든 API 정의를 사용할 수 있습니다.
 >
->* Adobe CX Enterprise Coworker. 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [Coworker를 사용하여 Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)을 참조하십시오.
+>* Adobe CX Enterprise Coworker. 자세한 내용은 Adobe CX Enterprise Coworker 설명서에서 [Coworker를 사용하여 Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)을 참조하십시오.
 
 
 ## 마이그레이션 준비

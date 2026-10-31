@@ -41,7 +41,7 @@ ht-degree: 42%
 
 일반적으로 Experience Platform Edge Network API를 사용하여 클라이언트측이 아닌 서버측에서 데이터를 수집하고, IoT 장치, 셋톱 박스, 데스크탑 애플리케이션과 같은 장치에서 데이터를 수집할 때. 그런 다음 해당 데이터를 Edge 네트워크 및 Adobe Analytics과 같은 서비스로 전송합니다.
 
-또한 중요한 데이터를 네트워크를 통해 안전하게 수집하고 인증해야 하는 경우 Edge Network API를 고려하십시오. 자세한 내용은 [인증](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)을 참조하세요.
+또한 중요한 데이터를 네트워크를 통해 안전하게 수집하고 인증해야 하는 경우 Edge Network API를 고려하십시오. 자세한 내용은 [인증](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=ko)을 참조하세요.
 
 구현 작업에 대한 상위 수준 개요:
 
