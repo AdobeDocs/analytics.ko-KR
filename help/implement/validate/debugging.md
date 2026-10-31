@@ -38,7 +38,7 @@ ht-degree: 2%
 
 이 문서에서는 Adobe Analytics으로 전송된 데이터를 디버깅할 때 확인할 사항을 설명합니다. 다음 표에서 구현 방법을 찾아 해당 섹션을 따르십시오. 예기치 않은 보고서 데이터를 조사하는 경우 [요청과 보고서 비교](#reports)(으)로 시작하십시오.
 
-네트워크 요청 캡처, 디버그 로깅 활성화, 취소된 요청 조사와 같이 모든 Adobe 데이터 수집에 적용되는 단계 및 도구는 [데이터 수집 디버깅 및 문제 해결](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/overview)을 참조하십시오.
+네트워크 요청 캡처, 디버그 로깅 활성화, 취소된 요청 조사와 같이 모든 Adobe 데이터 수집에 적용되는 단계 및 도구는 [데이터 수집 디버깅 및 문제 해결](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/debugging/overview)을 참조하십시오.
 
 | 구현 방식 | Analytics에서 수신하는 데이터를 볼 수 있는 위치 | 지침 |
 | --- | --- | --- |
@@ -51,12 +51,12 @@ ht-degree: 2%
 
 ### 요청 찾기 {#appmeasurement-find}
 
-[네트워크 요청을 캡처](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#web)하고 `/b/ss/`을(를) 필터링합니다. Adobe Experience Platform Debugger과 같은 태그 디버거는 이러한 요청을 식별하고 디코딩합니다.
+[네트워크 요청을 캡처](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/debugging/inspect-requests#web)하고 `/b/ss/`을(를) 필터링합니다. Adobe Experience Platform Debugger과 같은 태그 디버거는 이러한 요청을 식별하고 디코딩합니다.
 
 `/b/ss/` 요청이 표시되지 않는 경우:
 
 * 브라우저 콘솔에서 JavaScript 오류를 확인합니다.
-* Analytics 태그 확장을 사용하는 경우 태그 포함 코드가 페이지의 `<head>` 요소 내에 있고 라이브러리가 테스트 중인 환경에 게시되었는지 확인합니다. [태그 디버그 모드](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/logging)에서는 히트를 보내는 규칙이 실행되었는지 여부를 보여 줍니다.
+* Analytics 태그 확장을 사용하는 경우 태그 포함 코드가 페이지의 `<head>` 요소 내에 있고 라이브러리가 테스트 중인 환경에 게시되었는지 확인합니다. [태그 디버그 모드](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/debugging/logging)에서는 히트를 보내는 규칙이 실행되었는지 여부를 보여 줍니다.
 * AppMeasurement을 직접 호스팅하는 경우 라이브러리의 URL을 직접 열어 파일이 로드되고 코드가 포함되어 있는지 확인합니다.
 * 요청이 전송되지 않도록 하는 브라우저 확장 기능(예: 광고 차단기)을 비활성화합니다.
 * 디버거가 iframe 내에서 전송된 요청을 인식하지 않습니다. 대신 브라우저 개발자 도구를 사용합니다. [iFrame에서 AppMeasurement 사용](../use-cases/iframe.md)을 참조하세요.
@@ -73,20 +73,20 @@ ht-degree: 2%
 
 `2xx` 응답은 데이터 수집 서버가 요청을 수신했는지 확인하기만 하고 히트가 기록되지 않았는지 확인합니다. 기본 응답 유형을 사용하면 히트가 삭제되더라도 요청이 성공을 반환할 수 있습니다. 새 방문자의 첫 번째 요청에 `302` 응답이 필요합니다. [HTTP 응답 코드](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting#http-response-codes)를 참조하세요.
 
-AppMeasurement은 [`useBeacon`](../vars/config-vars/usebeacon.md)이(가) 활성화된 경우 `navigator.sendBeacon()`과(와) 함께 종료 링크 요청 및 모든 요청을 보냅니다. 개발자 도구는 브라우저가 이러한 요청을 보냈을 때에도 이러한 요청에 취소된 것으로 레이블을 지정할 수 있습니다. [중단된 요청](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests)을 참조하십시오.
+AppMeasurement은 [`useBeacon`](../vars/config-vars/usebeacon.md)이(가) 활성화된 경우 `navigator.sendBeacon()`과(와) 함께 종료 링크 요청 및 모든 요청을 보냅니다. 개발자 도구는 브라우저가 이러한 요청을 보냈을 때에도 이러한 요청에 취소된 것으로 레이블을 지정할 수 있습니다. [중단된 요청](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests)을 참조하십시오.
 
 ## Web SDK {#web-sdk}
 
 ### 요청 찾기 {#web-sdk-find}
 
-Web SDK을 사용하면 브라우저가 Analytics에 직접 연결하는 대신 Edge Network에 이벤트를 보내므로 `/b/ss/` 요청이 표시되지 않습니다. [Edge Network 요청을 검사하고](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) 다음을 확인하십시오.
+Web SDK을 사용하면 브라우저가 Analytics에 직접 연결하는 대신 Edge Network에 이벤트를 보내므로 `/b/ss/` 요청이 표시되지 않습니다. [Edge Network 요청을 검사하고](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) 다음을 확인하십시오.
 
 * `configId` 매개 변수는 예상한 보고서 세트와 함께 [Adobe Analytics 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure#analytics)가 활성화된 데이터 스트림과 일치합니다.
 * 페이로드는 페이지 보기 또는 링크 이벤트로 유효합니다. Analytics에서는 페이지 세부 사항이나 웹 상호 작용 유형을 포함하지 않는 페이로드를 무시합니다. [Adobe Analytics의 Edge Network 이벤트 유형](../aep-edge/hit-types.md)을 참조하세요.
 
 ### Analytics가 받은 항목 확인 {#web-sdk-contents}
 
-[Edge 추적](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/edge-trace)을(를) 시작하고 작업을 재현합니다. **[!UICONTROL Analytics 자동 매핑]**(으)로 시작하는 행을 찾은 다음 `mappedQueryParams` 및 그 아래의 보고서 세트 ID를 확장합니다.
+[Edge 추적](https://experienceleague.adobe.com/ko/docs/experience-platform/debugger/edge-trace)을(를) 시작하고 작업을 재현합니다. **[!UICONTROL Analytics 자동 매핑]**(으)로 시작하는 행을 찾은 다음 `mappedQueryParams` 및 그 아래의 보고서 세트 ID를 확장합니다.
 
 * **변수**: 매핑된 값은 AppMeasurement 요청과 동일한 쿼리 매개 변수 이름을 사용하며, 경우에 따라 페이지 이름의 경우 `gn`, 제품의 경우 `pl`과(와) 같은 약식 형식일 수 있습니다. [XDM 개체 필드 매핑](../aep-edge/xdm-var-mapping.md) 및 [데이터 개체 필드 매핑](../aep-edge/data-var-mapping.md)을 참조하세요.
 * **컨텍스트 데이터**: Analytics 변수에 매핑되지 않는 XDM 필드는 `c.a.x.` 접두사가 있는 컨텍스트 데이터로 표시됩니다. [처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)을(를) 사용하여 변수에 할당합니다.

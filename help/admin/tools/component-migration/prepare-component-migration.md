@@ -36,7 +36,7 @@ ht-degree: 8%
 ---
 # Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션 준비
 
-[Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](/help/admin/tools/component-migration/component-migration.md) 또는 [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)에 설명된 대로 조직의 모든 사용자가 프로젝트 마이그레이션을 시작하기 전에 다음 섹션을 완료하십시오.
+[Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](/help/admin/tools/component-migration/component-migration.md) 또는 [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)에 설명된 대로 조직의 모든 사용자가 프로젝트 마이그레이션을 시작하기 전에 다음 섹션을 완료하십시오.
 
 ## 사전 요구 사항
 

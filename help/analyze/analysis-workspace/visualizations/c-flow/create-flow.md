@@ -32,11 +32,9 @@ topic_v2:
     internal-label: Reporting
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1704
+source-wordcount: '1704'
 ht-degree: 87%
-
 ---
-
 # 플로우 시각화 구성 {#configure-a-flow-visualization}
 
 >[!CONTEXTUALHELP]
