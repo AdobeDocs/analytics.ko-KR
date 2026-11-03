@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 2%
-
+source-wordcount: '681'
+ht-degree: 0%
 ---
-
 # 대화형 AI 도구에서 트래픽 분석
 
 Adobe Analytics은 웹 사이트에서 AI 트래픽을 분석하는 도구를 제공합니다.
@@ -72,9 +70,11 @@ Analysis Workspace의 레퍼러 유형 차원을 사용하여 다음 유형의 A
 
 * 에이전트 워크플로
 
-레퍼러 유형 차원에는 [대화형 AI 도구 차원 항목](/help/components/dimensions/referrer-type.md#conversational-ai-tools)이 포함됩니다. 이 차원 항목에는 사전 정의된 AI 챗봇 목록이 포함됩니다.
+레퍼러 유형 차원에는 [대화형 AI 도구 차원 항목](/help/components/dimensions/referrer-type.md#conversational-ai-tools)이 포함됩니다. 이 차원 항목에는 사전 정의된 AI 챗봇 목록의 레퍼러가 있는 방문만 포함됩니다.
 
-자세한 내용은 [레퍼러 유형](/help/components/dimensions/referrer-type.md)을 참조하세요.
+>[!IMPORTANT]
+>
+>ChatGPT와 같은 일부 대화형 AI 도구는 링크를 열 때 레퍼러를 보내지 않으므로 방문은 이 차원 항목에 포함되지 않습니다. 자세한 내용은 [레퍼러가 없는 AI 트래픽 포함](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer)을 참조하십시오.
 
 ### 보트 감지를 사용하여 AI 트래픽 분석
 

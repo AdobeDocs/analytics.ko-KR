@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 76%
+source-wordcount: '871'
+ht-degree: 47%
 ---
 # 리퍼러 유형
 
@@ -50,7 +50,7 @@ Adobe은 각 히트의 [레퍼러](referrer.md)에서 이 차원을 파생하여
 
 차원 항목에는 히트의 레퍼러 유형이 포함됩니다. 구체적인 값으로는 다음 항목이 있습니다.
 
-* **입력/책갈피 표시**: 히트에 대한 레퍼러 데이터가 없습니다.
+* **입력/책갈피 표시**: 히트에 대한 레퍼러 데이터가 없습니다. 이 값에는 레퍼러 없이 링크를 여는 [대화형 AI 도구의 방문](#include-ai-traffic-that-has-no-referrer)이 포함됩니다.
 * **검색 엔진**: 이 레퍼러는 키워드 쿼리 문자열을 포함하는 잘 알려진 검색 엔진에서 왔습니다.
 * **대화형 AI 도구**: 레퍼러가 인식된 대화형 AI 도구에서 왔습니다.
 * **소셜 네트워크:**: 레퍼러 데이터가 Adobe에서 인정한 소셜 네트워크에 속했습니다.
@@ -60,6 +60,10 @@ Adobe은 각 히트의 [레퍼러](referrer.md)에서 이 차원을 파생하여
 * **이메일**: 레퍼러가 `imap://` 또는 `mail://`의 프로토콜을 사용하는 URL에서 유래했습니다. 일반적으로 `https://` 프로토콜을 사용하기 때문에 온라인 이메일 서비스를 포함하지 않습니다.
 
 ### 대화형 AI 도구
+
+>[!IMPORTANT]
+>
+>이 값에는 다음 목록에 있는 레퍼러가 있는 방문만 포함됩니다. ChatGPT와 같은 일부 대화형 AI 도구는 링크를 열 때 레퍼러를 보내지 않으므로 방문이 포함되지 않습니다. 자세한 내용은 [레퍼러가 없는 AI 트래픽 포함](#include-ai-traffic-that-has-no-referrer)을 참조하십시오.
 
 다음 목록은 Adobe이 사용하는 &#39;대화형 AI 도구&#39; 조회 테이블을 참조합니다. Adobe에서는 Adobe Analytics 고객을 위해 이 목록을 제공합니다. Adobe가 이 목록에 도메인을 추가하도록 권유하려면 조직의 지원 담당자를 통해 고객 지원 팀에 연락하십시오.
 
@@ -84,6 +88,18 @@ Adobe은 각 히트의 [레퍼러](referrer.md)에서 이 차원을 파생하여
 * `https://chat.mistral.ai`
 * `https://meta.ai`
 * `https://you.com`
+
+#### 레퍼러가 없는 AI 트래픽 포함
+
+ChatGPT를 포함한 일부 대화형 AI 도구는 레퍼러를 보내지 않고 링크를 엽니다. Adobe은 이러한 방문을 &#39;대화형 AI 도구&#39; 대신 &#39;입력/책갈피 표시&#39;로 보고합니다. AI 도구는 언제든지 링크를 여는 방법을 변경할 수 있습니다. &#39;대화형 AI 도구&#39; 트래픽이 감소하면 도구에서 레퍼러 전송을 중지했을 수 있습니다. 이 감소가 Adobe Analytics이 데이터를 잃었다는 것을 의미하지는 않습니다.
+
+이러한 도구 중 일부는 레퍼러 대신 UTM 쿼리 문자열 매개 변수를 열려 있는 링크(예: `utm_source=chatgpt.com` 또는 `utm_source=perplexity`)에 추가합니다. 대화형 AI 도구에서 더 많은 트래픽을 가져오려면 &#39;대화형 AI 도구&#39; 값과 함께 UTM 매개 변수를 사용하십시오.
+
+* **변수에서 UTM 매개 변수를 캡처합니다**: eVar을 랜딩 페이지 URL의 `utm_source` 값으로 설정합니다. [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 플러그인, 웹 SDK 또는 Adobe Analytics 확장의 URL 매개 변수 기능 또는 쿼리 문자열 매개 변수를 읽는 [처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-use-cases.md)을 사용하십시오.
+* **AI 도구에 대한 마케팅 채널 만들기**: 해당 조건이 참인 경우 일치하는 [마케팅 채널 처리 규칙을 만들기](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)합니다. AI 도구에서 사용하는 각 값(예: `chatgpt.com` 또는 `perplexity`)에 대해 **[!UICONTROL 레퍼러가 대화형 AI임]** 조건과 **[!UICONTROL 쿼리 문자열 매개 변수]** `utm_source` 조건을 추가하십시오.
+* **세그먼트 만들기**: &#39;레퍼러 유형&#39;이 &#39;대화형 AI 도구&#39;와 일치하거나 UTM eVar에 AI 도구가 사용하는 값이 포함된 [세그먼트](/help/components/segmentation/seg-overview.md)를 만듭니다. [페이지 URL](page-url.md) 차원에 쿼리 문자열이 포함되어 있으므로 페이지 URL에 `utm_source=chatgpt.com`이(가) 포함되어 있는지 확인할 수도 있습니다. 이 옵션은 구현 변경 없이 작동합니다.
+
+일부 AI 도구는 레퍼러나 UTM 매개 변수를 전송하지 않습니다. 이러한 도구의 트래픽을 AI 트래픽으로 식별할 수 없습니다.
 
 ### 소셜 네트워크
 
