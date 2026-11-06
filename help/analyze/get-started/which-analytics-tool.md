@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 78%
+source-wordcount: '1170'
+ht-degree: 76%
 ---
 # 어떤 Adobe Analytics 도구를 사용해야 합니까?
 
@@ -59,7 +59,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [도구 비교](https://video.tv.adobe.com/v/30447?captions=kor&quality=12&learn=on){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [도구 비교](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 * Adobe Analytics로 데이터를 가져와야 하지만 AppMeasurement, Web SDK 또는 대량 데이터 삽입 API를 사용할 수 없는 경우.
 
-**[고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko)**&#x200B;은 다음 경우에 사용합니다.
+**[고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)**&#x200B;은 다음 경우에 사용합니다.
 
 * CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하고, 이 데이터를 CX Enterprise에 업로드하려는 경우.
 * CRM 데이터를 Analytics에서 더 자세한 분석에 사용하거나 Adobe Target에서 타기팅 기준으로 사용하려는 경우.
@@ -123,7 +123,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* UI에서 숨김 처리된 변수에 액세스 - IP 주소, Experience Cloud ID, Analytics 방문자 ID, 페이지 URL)
+* UI에 숨겨진 변수에 액세스 - IP 주소, ECID, Analytics 방문자 ID, 페이지 URL)
 * UI보다 세부적인 데이터에 액세스 (비정규화된 테이블 보기)
 * 피벗 테이블 입력에 적합한 형식으로 데이터를 다운로드하려면
 * 클라이언트에서 Adobe 데이터를 서드파티 데이터 시각화 도구에 입력하려는 경우 (히트 수준은 아니며 약간 요약됨)

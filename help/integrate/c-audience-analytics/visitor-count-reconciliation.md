@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 56%
+source-wordcount: '306'
+ht-degree: 44%
 ---
 # 방문자 수 차이
 
@@ -46,11 +46,11 @@ Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ko-KR"  > Adobe Audience Manager: 총 세그먼트 채우기</a> </p> </td> 
-   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 멤버였던 디바이스(Experience Cloud ID)의 개수입니다. </p> </td> 
+   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 회원이었던 장치(ECID)의 개수입니다. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ko-KR"  > Adobe Audience Manager: 실시간 세그먼트 채우기</a> </p> </td> 
-   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 멤버였으며, 속성을 방문한 디바이스(Experience Cloud ID)의 개수입니다. </p> </td> 
+   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 멤버였으며, 속성을 방문한 ECID(장치)의 개수입니다. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: 고유 방문자 </p> </td> 
@@ -58,7 +58,7 @@ Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: Experience Cloud ID를 가진 방문자 </p> </td> 
-   <td colname="col3"> <p>보고 기간 동안 Experience Cloud ID를 사용하여 속성에 도달한 고유 방문자 수를 보여 줍니다. </p> </td> 
+   <td colname="col3"> <p>보고 기간 동안 ECID를 사용하여 속성에 도달한 고유 방문자 수를 보여 줍니다. </p> </td>
   </tr> 
  </tbody> 
 </table>

@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1438'
 ht-degree: 31%
 ---
 # 세그먼트 게시 {#publish-segments}
@@ -56,7 +56,7 @@ Analytics 세그먼트를 8시간 이내에 CX Enterprise에 게시할 수 있�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 게시](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [세그먼트 게시](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Analytics 세그먼트를 8시간 이내에 CX Enterprise에 게시할 수 있�
 ## 사전 요구 사항
 
 * 이 세그먼트를 저장할 보고서 세트가 CX Enterprise에 대해 [사용](/help/components/segmentation/segmentation-workflow/seg-publish.md)되어 있는지 확인하십시오. 그렇지 않으면 CX Enterprise에 게시할 수 없습니다.
-* 조직이 Experience Cloud ID를 사용하고 있는지 확인합니다.
+* 조직에서 ECID를 사용하고 있는지 확인합니다.
 * 세그먼트를 게시하려면 먼저 관리자가 [Admin Console의](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/admin-tool-experience-cloud) 제품 프로필에 [!UICONTROL 세그먼트 게시] 권한을 할당하고 사용자를 제품 프로필에 추가해야 합니다.
 
 ## 고려 사항
@@ -92,7 +92,7 @@ Analytics 세그먼트를 8시간 이내에 CX Enterprise에 게시할 수 있�
 ## [!UICONTROL 세그먼트 빌더]에서 세그먼트 게시
 
 1. Adobe Analytics에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**(으)로 이동
-1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**&#x200B;를 선택하십시오.
+1. 새 세그먼트를 만들려면 **[!UICONTROL 추가]**를 선택하십시오.
    ![CX Enterprise 게시](assets/publish-ec.png)
 1. 세그먼트의 제목과 설명을 입력합니다. 이러한 필드는 세그먼트를 저장하기 전에 필요합니다.
 1. **[!UICONTROL Experience Cloud 게시]** 섹션에서 **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]** 옵션을 선택합니다.
@@ -153,20 +153,20 @@ Analytics 세그먼트를 8시간 이내에 CX Enterprise에 게시할 수 있�
 
 1. 페이지를 로드하기 전에 Chrome 개발자 도구를 실행합니다.
 1. 페이지를 로드하고 애플리케이션 > 쿠키를 선택합니다. Adobe Audience Manager UUID는 서드파티에서 설정해야 합니다
-Demdex 쿠키(아래 예에서 [adobe.demdex.net](https://experienceleague.adobe.com/ko/docs/audience-manager/user-guide/reference/demdex-calls)). 필드 demdex는 Adobe Audience Manager UUID 세트입니다
+Demdex 쿠키(아래 예에서 [adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)). 필드 demdex는 Adobe Audience Manager UUID 세트입니다
 브라우저(아래 예에서 `35721780439475290181087231320657663953`)에서.
 
    ![Chrome Developer Tools](assets/devtools.png)
 
 ## Audience Manager [!UICONTROL 방문자 프로필 뷰어] 사용
 
-[!UICONTROL 방문자 프로필 뷰어]를 로드하면 기본적으로 브라우저의 Adobe Audience Manager UUID가 사용됩니다. 다른 사용자에 대한 트레이트 인식을 확인하는 경우 UUID 필드에 UUID를 입력하고 [!UICONTROL 새로 고침]을 클릭합니다. 자세한 내용은 [방문자 프로필 뷰어](https://experienceleague.adobe.com/ko/docs/audience-manager/user-guide/features/visitor-profile-viewer)를 참조하십시오.
+[!UICONTROL 방문자 프로필 뷰어]를 로드하면 기본적으로 브라우저의 Adobe Audience Manager UUID가 사용됩니다. 다른 사용자에 대한 트레이트 인식을 확인하는 경우 UUID 필드에 UUID를 입력하고 [!UICONTROL 새로 고침]을 클릭합니다. 자세한 내용은 [방문자 프로필 뷰어](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer)를 참조하십시오.
 
 ## Audience Manager에서 세그먼트 트레이트 보기
 
 Adobe Audience Manager에서는 지정된 세그먼트에 대한 ECID가 있는 방문자 목록이 평가되는 반면 Analytics는 CX Enterprise과 세그먼트를 공유합니다.
 
-1. Audience Manager에서 **[!UICONTROL 대상 데이터]** > **[!UICONTROL 트레이트]** > **[!UICONTROL 분석 트레이트]**&#x200B;로 이동합니다. CX Enterprise 조직에 매핑된 각 Analytics 보고서 세트에 대한 폴더가 표시됩니다. 이러한 폴더(트레이트, 세그먼트 및 데이터 소스용)는 프로필 및 대상자/사용자 핵심 서비스가 시작되거나 프로비저닝되면 생성됩니다.
+1. Audience Manager에서 **[!UICONTROL 대상 데이터]** > **[!UICONTROL 트레이트]** > **[!UICONTROL 분석 트레이트]**&#x200B;로 이동합니다. Adobe 조직에 매핑된 각 Analytics 보고서 세트에 대한 폴더가 표시됩니다. 이러한 폴더(트레이트, 세그먼트 및 데이터 소스용)는 프로필 및 대상자/사용자 핵심 서비스가 시작되거나 프로비저닝되면 생성됩니다.
 1. Audience Manager과 공유하려는 세그먼트를 이전에 만든 보고서 세트의 폴더를 선택합니다. 만든 세그먼트/대상이 표시됩니다. 세그먼트를 공유할 때 Audience Manager에는 다음 두 가지 상황이 발생합니다.
    * 우선 데이터가 없는 트레이트가 만들어집니다. 세그먼트가 세그먼트가 [!DNL Analytics]에 게시되고 8시간 후 ECID 목록이 온보딩되고 Audience Manager 및 기타 CX Enterprise 솔루션과 공유됩니다.
 

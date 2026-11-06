@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 5%
 ---
 # 전체 처리 데이터 소스의 서비스 종료
@@ -58,12 +58,12 @@ ht-degree: 5%
 * **`aamlh`**: Adobe Audience Manager 위치 힌트입니다.
 * **`contextData.key`**: [컨텍스트 데이터 변수](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: 방문자 ID 서비스 변수입니다. `id`, `authState`및 `isMCSeed`를 포함합니다.
-* **`hints`**: [클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko) 변수. `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` 및 `wow64`을(를) 포함합니다.
+* **`hints`**: [클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) 변수. `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` 및 `wow64`을(를) 포함합니다.
 * **`ipaddress`**: [IP 주소](/help/components/dimensions/ip-address.md) 차원.
 * **`language`**: [언어](/help/components/dimensions/language.md) 차원.
 * **`list1`** - **`list3`**: [목록 변수](/help/implement/vars/page-vars/list.md).
-* **`marketingCloudVisitorID`**: 방문자의 Experience Cloud ID.
-* **`tnta`**: [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko) 통합에 사용되는 Target 데이터 페이로드입니다.
+* **`marketingCloudVisitorID`**: 방문자의 ECID.
+* **`tnta`**: [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 통합에 사용되는 Target 데이터 페이로드입니다.
 * **`trackingServer`**: [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md) 변수입니다.
 * **`transactionID`**: [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 변수입니다.
 * **`userAgent`**: 장치의 사용자 에이전트 문자열입니다.

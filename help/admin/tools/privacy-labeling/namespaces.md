@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 85%
+source-wordcount: '939'
+ht-degree: 83%
 ---
 # 네임스페이스
 
@@ -45,7 +45,7 @@ ht-degree: 85%
 * 대부분의 Adobe Analytics 요청에 대해 &quot;analytics&quot; 값을 포함하는 &quot;type&quot; 필드입니다.
 * Analytics가 각 보고서 세트의 연결된 네임스페이스 변수에서 검색해야 하는 ID가 포함된 &quot;값&quot; 필드.
 
-자세한 내용 및 [표준 ID 네임스페이스 목록](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/appendix#standard-namespaces)은(는) [CX Enterprise 데이터 개인 정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko)를 참조하십시오. 샘플 요청을 확인하려면 [액세스/삭제 작업 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/privacy-jobs#access-delete)를 참조하십시오.
+자세한 내용 및 [표준 ID 네임스페이스 목록](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/appendix#standard-namespaces)은(는) [CX Enterprise 데이터 개인 정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)를 참조하십시오. 샘플 요청을 확인하려면 [액세스/삭제 작업 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/privacy-jobs#access-delete)를 참조하십시오.
 
 ## 쿠키 ID
 
@@ -91,7 +91,7 @@ Legacy Analytics Tracking Cookie 또한 Adobe Analytics ID(AAID)로 알려져 �
 
 >[!NOTE]
 >
->ECID(Experience Cloud ID)는 이전에 MCID(Marketing Cloud ID)라고 했으며, 일부 기존 설명서에서는 여전히 이 이름으로 언급되어 있습니다.
+>ECID는 이전에 MCID(Marketing Cloud ID)라고 했으며, 일부 기존 설명서에서는 여전히 이 이름으로 언급되어 있습니다.
 >
 >해당 ID는 &quot;analytics&quot;가 아닌 다른 &quot;type&quot; 값을 사용하는, Analytics에서 지원하는 유일한 ID입니다.
 

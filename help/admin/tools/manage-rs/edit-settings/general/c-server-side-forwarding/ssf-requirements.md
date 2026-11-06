@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 47%
+source-wordcount: '336'
+ht-degree: 38%
 ---
 # 서버측 전달 요구 사항
 
@@ -44,11 +44,11 @@ ht-degree: 47%
 
 ## 솔루션 요구 사항
 
-서버측 전달은 [Analytics](https://www.adobe.com/kr/data-analytics-cloud/analytics.html)와 [Audience Manager](https://www.adobe.com/kr/data-analytics-cloud/audience-manager.html) 및/또는 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)에서 작동합니다.
+서버측 전달은 [Analytics](https://www.adobe.com/kr/data-analytics-cloud/analytics.html)와 [Audience Manager](https://www.adobe.com/kr/data-analytics-cloud/audience-manager.html) 및/또는 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)에서 작동합니다.
 
 ## 서비스 요구 사항
 
-서버측 전달을 사용하려면 [ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)가 필요합니다. ID 서비스는 CX Enterprise의 모든 솔루션에서 사이트 방문자를 식별하는 범용 ID를 제공합니다. 서버측 전달이 작동하려면 ID 서비스를 구현해야 합니다.
+서버측 전달을 사용하려면 [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)가 필요합니다. 방문자 ID 서비스는 CX Enterprise의 모든 솔루션에서 사이트 방문자를 식별하는 범용 ID를 제공합니다. 서버측 전달이 작동하려면 방문자 ID 서비스를 구현해야 합니다.
 
 ## 코드 버전
 

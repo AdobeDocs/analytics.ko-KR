@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 33%
 ---
 # Advertising Analytics용 보고서 세트 활성화
@@ -36,7 +36,7 @@ Analytics에서 Advertising Analytics 검색 데이터를 보려면 Advertising 
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동합니다.
 
-1. CX Enterprise 조직에 매핑된 보고서 세트를 선택합니다.
+1. Adobe 조직에 매핑된 보고서 세트를 선택합니다.
 1. **[!UICONTROL 설정 편집]** > **[!UICONTROL Advertising Analytics 구성]**&#x200B;을 클릭합니다.
 
    ![보고](assets/aa-reporting.png)

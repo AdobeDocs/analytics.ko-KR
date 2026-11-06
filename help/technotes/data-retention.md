@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '616'
 ht-degree: 92%
 ---
 # 데이터 보존 정책
@@ -63,7 +63,7 @@ Adobe는 데이터 프로세서로서 고객이 개인의 액세스, 삭제 및 
 
 ## 현재 데이터 보존 정책 보기/관리
 
-[!UICONTROL 관리자] 도구의 데이터 거버넌스 대화 상자에서는 데이터 거버넌스용으로 구성된 보고서 세트에 대한 개요를 제공합니다. 또한 CX Enterprise 조직에 매핑되었는지 여부와 이 보고서 세트에 대한 데이터 보존 정책이 있는지 여부도 표시됩니다.
+[!UICONTROL 관리자] 도구의 데이터 거버넌스 대화 상자에서는 데이터 거버넌스용으로 구성된 보고서 세트에 대한 개요를 제공합니다. 또한 Adobe 조직에 매핑되었는지 여부와 이 보고서 세트에 대한 데이터 보존 정책이 있는지 여부도 표시됩니다.
 
 ## 자주 묻는 질문
 

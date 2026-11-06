@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 46%
+source-wordcount: '617'
+ht-degree: 43%
 ---
 # 다양한 구현 유형 추적
 
@@ -53,16 +53,16 @@ Adobe Analytics 구현의 핵심 아키텍처는 모든 구현 유형에서 일�
 
 >[!NOTE]
 >
->모든 구현 유형은 동일한 방문자 식별 유형(기존 Analytics ID, 방문자 ID 서비스 또는 Experience Platform Identity 서비스)을 사용해야 합니다. Adobe에서는 가능한 모든 구현에서 ECID를 사용하는 것이 좋습니다.
+>모든 구현 유형은 동일한 방문자 식별 유형(기존 Analytics ID, 방문자 ID 서비스 또는 웹 SDK)을 사용해야 합니다. Adobe에서는 가능한 모든 구현에서 ECID를 사용하는 것이 좋습니다.
 
 | 변수 | 웹 SDK 태그 확장 기능 | 웹 SDK(Alloy) | Analytics 확장 기능 | AppMeasurement | 하드코딩된 이미지 요청 |
 |---|---|---|---|---|---|
 | 보고서 세트 ID | 서비스로 Adobe Analytics 추가([데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) 시) | 서비스로 Adobe Analytics 추가([데이터스트림 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) 시) | [!UICONTROL 라이브러리 관리] 섹션의 [!UICONTROL 보고서 세트] ([확장 구성](https://experienceleague.adobe.com/kr/docs/experience-platform/tags/extensions/client/analytics/overview) 시) | [`s_gi`](../vars/functions/s-gi.md)의 문자열 인수 | URL `pathname`의 일부(`/b/ss/` 다음) |
-| 방문자 ID 서비스 | 기본적으로 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)가 포함됩니다. 방문자 ID 서비스 쿠키를 읽으려면 [`idMigrationEnabled`](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)이(가) 필요합니다. | 기본적으로 [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)가 포함됩니다. 방문자 ID 서비스 쿠키를 읽으려면 [[!UICONTROL ECID를 VisitorAPI에서 웹 SDK으로 마이그레이션]](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity)해야 합니다. | [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 구현하는 [&#39;[!UICONTROL Experience Cloud ID 서비스]&#39; 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. | [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)&#x200B;(`VisitorAPI.js`) 구현 | 원하는 ID를 얻으려면 [방문자 ID 서비스에 대한 개별 호출](https://experienceleague.adobe.com/ko/docs/id-service/using/implementation/direct-integration)을 수행하고 쿼리 문자열에 `mid`을(를) 포함하십시오 |
-| Edge 도메인 | [확장을 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)할 때 [!UICONTROL Edge 도메인] 필드 | `edgeDomain` 속성([Web SDK 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/overview) 시) | [확장을 구성](https://experienceleague.adobe.com/kr/docs/experience-platform/tags/extensions/client/analytics/overview)할 때 [!UICONTROL 일반] 섹션에서 [!UICONTROL SSL 추적 서버] | [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 변수 | 이미지 요청 URL의 `hostname` |
+| 방문자 ID 서비스 | 기본적으로 [Edge Network ID](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)이(가) 포함됩니다. 방문자 ID 서비스 쿠키를 읽으려면 [`idMigrationEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)이(가) 필요합니다. | 기본적으로 [Edge Network ID](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)이(가) 포함됩니다. 방문자 ID 서비스 쿠키를 읽으려면 [[!UICONTROL VisitorAPI에서 웹 SDK으로 ECID를 마이그레이션]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity)해야 합니다. | [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 구현하는 [&#39;[!UICONTROL Experience Cloud ID 서비스]&#39; 태그 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. | [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)&#x200B;(`VisitorAPI.js`) 구현 | 원하는 ID를 얻으려면 [방문자 ID 서비스에 대한 개별 호출](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration)을 수행하고 쿼리 문자열에 `mid`을(를) 포함하십시오 |
+| Edge 도메인 | [확장을 구성](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)할 때 [!UICONTROL Edge 도메인] 필드 | `edgeDomain` 속성([Web SDK 구성](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 시) | [확장을 구성](https://experienceleague.adobe.com/kr/docs/experience-platform/tags/extensions/client/analytics/overview)할 때 [!UICONTROL 일반] 섹션에서 [!UICONTROL SSL 추적 서버] | [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 변수 | 이미지 요청 URL의 `hostname` |
 
 >[!NOTE]
 >
->AppMeasurement 기반 구현(Analytics 태그 확장 포함)은 [Experience Platform Identity 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)와 호환되지 않습니다. 여러 구현 유형(일반적으로 [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)&#x200B;(`VisitorAPI.js`))을 동기화하려면 가장 낮은 공통 분모 형식의 방문자 식별을 사용해야 합니다.
+>AppMeasurement 기반 구현(Analytics 태그 확장 포함)은 [Edge Network id](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)와 호환되지 않습니다. 여러 구현 유형(일반적으로 [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)&#x200B;(`VisitorAPI.js`))을 동기화하려면 가장 낮은 공통 분모 형식의 방문자 식별을 사용해야 합니다.
 
 이러한 변수가 각 구현 유형에서 일관되지 않으면 Adobe은 이러한 변수를 별도의 방문자로 간주할 수 있습니다. 사이트의 구현 유형 간에 방문자를 원활하게 추적하지 않는 경우 가장 일반적인 이유는 방문자 식별이 잘못 구성되기 때문입니다. 각 구현 유형이 사이트에서 동일한 ECID(`mid` [쿼리 문자열](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference))를 올바르게 가져오는지 확인하십시오.

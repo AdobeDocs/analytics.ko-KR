@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 86%
+source-wordcount: '814'
+ht-degree: 87%
 ---
 # 데이터 거버넌스를 위한 개인정보 보호 레이블 지정 보기/관리
 
@@ -79,7 +79,7 @@ ht-degree: 86%
 
    >[!IMPORTANT]
    >
-   >선택하는 모든 보고서 세트는 CX Enterprise 조직에 매핑되어야 합니다.
+   >선택하는 모든 보고서 세트는 Adobe 조직에 매핑되어야 합니다.
 
    변수 또는 변수 세트에 대한 레이블을 다른 보고서 세트에 복사하면 복사본이 대상 보고서 세트의 해당 위치에 있는 변수로 이동합니다. 표준 구성 요소, 목록 변수, 성공 이벤트의 경우 레이블이 대상 보고서 세트에서 **동일한 이름**&#x200B;을 가진 변수에 복사됩니다.
 

@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 96%
-
+source-wordcount: '777'
+ht-degree: 95%
 ---
-
 # 기본 계산된 지표
 
 Adobe Analytics는 가장 일반적인 사용 사례를 다루기 위해 다양한 계산된 지표를 제공합니다. 이러한 계산된 지표는 기본적으로 Analysis Workspace에서 사용할 수 있습니다.
@@ -44,7 +42,7 @@ Adobe Analytics는 가장 일반적인 사용 사례를 다루기 위해 다양�
 >
 >다음과 같은 작업을 수행할 수 있습니다.
 >
-> * [계산된 지표](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/calculated-metrics)에 설명된 대로 스트리밍 미디어 서비스에 대한 기본 계산된 지표 추가
+> * [계산된 지표](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)에 설명된 대로 스트리밍 미디어 서비스에 대한 기본 계산된 지표 추가
 > * [계산 및 고급 계산 지표](/help/components/calculated-metrics/cm-overview.md)에 설명된 대로 기존 지표에서 사용자 정의 계산된 지표를 생성합니다.
 >
 
@@ -68,7 +66,7 @@ Adobe Analytics는 가장 일반적인 사용 사례를 다루기 위해 다양�
 | 전환율 | 구매와 같이 원하는 액션을 수행한 방문자의 비율. | `[Orders] / [Visits]` |
 | 시작 비율 | 사이트의 총 세션 수와 비교하여 주어진 페이지에서 사이트에 들어온 방문자의 비율. | `[Entries] / [Visits]` |
 | 예상 고유 방문자 (ITP 2.1) | ITP 방문자(Safari 브라우저 사용자)의 경우, 고유 방문자를 2 이하로 나눕니다. 이 계산된 지표는 클라이언트측 JavaScript를 사용하여 쿠키를 설정한다고 가정합니다(CNAME 구현을 사용하지 않음). 클라이언트측 JavaScript을 사용하여 쿠키를 설정하는 구현은 ITP 2.1부터 영향을 받았습니다. 자세한 내용은 [지능형 추적 방지](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)를 참조하십시오. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Experience Cloud ID 범위 | Experience Cloud ID를 보유한 방문자의 비율. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
+| Experience Cloud ID 범위 | ECID가 있는 방문자의 비율입니다. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 이탈률 | 특정 페이지를 본 후 사이트를 떠나는 방문자의 비율. | `[Exits] / [Visits]` |
 | ITP 2.1 고유 방문자 / 고유 방문자 | ITP 2.1 쿠키 제한의 영향을 받는 브라우저를 사용하는 고유 방문자의 비율. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | 주문 지원 | 채널 또는 소스가 고객의 구매 여정에 기여했지만 최종 구매로는 이어지지 않은 횟수. | `[Orders (Visit Participation)] - [Orders]` |

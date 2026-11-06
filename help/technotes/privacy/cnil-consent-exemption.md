@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 91%
+source-wordcount: '772'
+ht-degree: 90%
 ---
 # CNIL 동의 면제
 
@@ -50,11 +50,11 @@ ht-degree: 91%
 가이드라인은 동의 요구 사항에 대한 제한적인 면제를 규정합니다(“동의 면제”). 동의 면제는 웹 게시자를 대신하여 사이트 또는 앱의 대상자를 측정하는 용도로만 제한되는 분석 쿠키에 적용됩니다. 가이드라인은 동의 면제를 적용하려면 다음 조건을 구현해야 한다고 규정합니다.
 
 * 최대 25개월 데이터 보존.  현재 데이터 보존 설정은 [!UICONTROL 분석] > [!UICONTROL 관리] > [!UICONTROL 데이터 거버넌스]에서 검토할 수 있습니다.  [데이터 보존](/help/technotes/data-retention.md)
-* ECID에서 서드파티 쿠키를 비활성화합니다. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=ko-KR#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=ko-KR#id-service-api), [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=ko-KR#id-service-api)
+* 방문자 ID 서비스에서 서드파티 쿠키를 비활성화합니다. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=ko-KR#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=ko-KR#id-service-api), [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=ko-KR#id-service-api)
 * 13개월 쿠키 제한.  `cookieLifetime` 변수를 사용하여 분석 쿠키 만료를 재정의할 수 있습니다. Analytics 및 ECID를 포함한 CX Enterprise 쿠키는 방문할 때마다 쿠키 만료일을 연장합니다.  고정적이고 비순환하는 쿠키 만료일을 설정하려면 (1) 사용자 지정 코드를 작성하여 쿠키를 삭제할 날짜를 설정하거나 (2) CMP를 시용하여 쿠키 재설정 날짜를 제어합니다.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) 및 [CX Enterprise 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ko-KR#ec-cookies)
 * 제한적 범위. 쿠키의 범위는 단일 사이트 또는 애플리케이션으로 제한되어야 합니다. [브라우저 쿠키](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * 익명화. IP 주소의 마지막 옥텟을 익명화합니다. [일반 계정 설정](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
-* 보고에서 방문자 ID를 숨깁니다.  방문자 ID는 기본적으로 Adobe Workspace 및 Adobe Reports &amp; Analytics에 표시되지 않습니다.  방문자 ID는 데이터 피드 및 Data Warehouse에서 제공됩니다.  데이터 피드 및 Data Warehouse에 대한 액세스는 [Admin Console의 액세스 권한](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko) 및 [데이터 피드 열 참조](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 의해 제한될 수 있습니다.
+* 보고에서 방문자 ID를 숨깁니다.  방문자 ID는 기본적으로 Adobe Workspace 및 Adobe Reports &amp; Analytics에 표시되지 않습니다.  방문자 ID는 데이터 피드 및 Data Warehouse에서 제공됩니다.  데이터 피드 및 Data Warehouse에 대한 액세스는 [Admin Console의 액세스 권한](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 및 [데이터 피드 열 참조](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 의해 제한될 수 있습니다.
 * 지리적 위치 매개변수. 지리적 위치는 우편번호 수준보다 정확할 수 없습니다. [우편번호 옵션](/help/implement/vars/page-vars/zip.md) 및 [일반 계정 설정](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * 옵트인 옵션 설정.  옵트인 서비스를 사용하면 방문자가 사용자의 사이트를 방문할 때 사용자의 디바이스 또는 브라우저에 쿠키를 설정할 수 있는지 확인할 수 있도록 프로토콜을 설정할 수 있습니다. [옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)
 * 데이터 공유 방지.  Adobe Audience Manager에 대한 데이터 공유를 금지하려면 `opt.dmp` [개인정보 보고 변수](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)에 대해 컨텍스트 변수를 사용하여 히트가 공유되지 않도록 차단합니다.

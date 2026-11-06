@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2094'
 ht-degree: 85%
 ---
 # Adobe Analytics 개인 정보 FAQ
@@ -87,11 +87,11 @@ ht-degree: 85%
 
 일반적으로 Analytics 고객은 일반 대중에게 출시하기 전에 기능을 검증하기 위해 일부 테스트 보고서 세트를 설정합니다. 사전 프로덕션 웹 사이트 또는 앱은 테스트/dev/QA 보고서 세트에 데이터를 전송하여 실제 트래픽이 프로덕션 보고서 세트로 전송되기 전에 코드가 릴리스될 때 작동 방식을 평가할 수 있습니다.
 
-그러나 일반 구성의 경우 프로덕션 보고서 세트에 요청을 적용하기 전에 GPDR 요청 처리를 이러한 테스트 보고서 세트에서 먼저 테스트할 수 없습니다. 이는 데이터 개인 정보 보호 요청이 CX Enterprise 조직의 모든 보고서 세트(일반적으로 사용자 회사의 모든 보고서 세트)에 자동으로 적용되기 때문입니다.
+그러나 일반 구성의 경우 프로덕션 보고서 세트에 요청을 적용하기 전에 GPDR 요청 처리를 이러한 테스트 보고서 세트에서 먼저 테스트할 수 없습니다. 이는 데이터 개인 정보 보호 요청이 Adobe 조직의 모든 보고서 세트(일반적으로 사용자 회사의 모든 보고서 세트)에 자동으로 적용되기 때문입니다.
 
-모든 보고서 세트에 적용하기 전에 여전히 데이터 개인 정보 보호 처리를 테스트할 수 있는 몇 가지 방법이 있습니다.
+모든 보고서 세트에 적용하기 전에 여전히 개인정보 보호 처리를 테스트할 수 있는 몇 가지 방법이 있습니다.
 
-* 한 가지 옵션은 테스트 보고서 세트만 포함하는 별도의 CX Enterprise 조직을 설정하는 것입니다. 그런 다음 실제 데이터 개인정보 보호 처리 시 사용자의 데이터 개인정보 보호 테스트 및 일반적인 CX Enterprise 조직에 대해 이 CX Enterprise 조직을 사용하십시오.
+* 한 가지 옵션은 테스트 보고서 세트만 포함하는 별도의 조직을 설정하는 것입니다. 그런 다음 실제 데이터 개인 정보 보호 처리 시 사용자의 데이터 개인 정보 보호 테스트 및 일반 조직에 이 조직을 사용하십시오.
 
 * 또 다른 옵션은 테스트 보고서 세트의 ID와 프로덕션 보고서 세트의 ID에 서로 다른 네임스페이스를 할당하는 것입니다. 예를 들어 테스트 보고서 세트에 &quot;qa-&quot;를 사용하여 각 네임스페이스에 접두사를 추가할 수 있습니다. qa 접두사가 있는 네임스페이스로만 데이터 개인정보 보호 요청을 제출하면 이러한 요청은 테스트 보고서 세트에 대해서만 실행됩니다. 나중에 qa 접두사 없이 요청을 제출할 때 프로덕션 보고서 세트에 적용됩니다. **이 방법은 `visitorId`, AAID, ECID 또는 `customVisitorId` 네임스페이스를 사용하지 않는 경우 권장됩니다. 이러한 네임스페이스는 하드코딩되어 있으며 테스트 보고서 세트에서 대체 이름을 지정할 수 없습니다.**
 
@@ -157,4 +157,4 @@ Adobe 계정 팀에 문의하여 PII 또는 데이터 문제를 없애는 데 �
 
 * [GDPR 공통 약관](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf)
 * CX Enterprise 데이터 개인 정보 보호 [Care 패키지](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf)
-* 경험적 개인정보[&#x200B; 블로그 게시물](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/)
+* 경험적 개인정보[ 블로그 게시물](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/)
