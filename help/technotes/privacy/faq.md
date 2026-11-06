@@ -157,4 +157,4 @@ Adobe 계정 팀에 문의하여 PII 또는 데이터 문제를 없애는 데 �
 
 * [GDPR 공통 약관](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf)
 * CX Enterprise 데이터 개인 정보 보호 [Care 패키지](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf)
-* 경험적 개인정보[ 블로그 게시물](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/)
+* 경험적 개인정보[&#x200B; 블로그 게시물](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/)
