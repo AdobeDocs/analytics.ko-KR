@@ -25,11 +25,11 @@ ht-degree: 28%
 ---
 # Experience Cloud ID를 보유한 사용자
 
-&#39;Experience Cloud ID를 가진 사용자&#39;는 [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home) 또는 [웹 SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)를 사용하여 Adobe에서 식별한 [사용자](people.md)의 수를 표시하는 [크로스 디바이스 분석](../cda/overview.md) 지표입니다.
+&#39;Experience Cloud ID를 가진 사용자&#39;는 [방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home) 또는 [웹 SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/identity/overview)를 사용하여 Adobe에서 식별한 [사용자](people.md)의 수를 표시하는 [크로스 디바이스 분석](../cda/overview.md) 지표입니다.
 
 ## 이 지표의 계산 방법
 
-각 [사용자](people.md)(확인되거나 미확인된)을 고려하여, 히트에 `mid` 쿼리 문자열이 포함된 경우 이 [지표](overview.md)이(가) 증가합니다([`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키 기반).
+각 [사용자](people.md)(확인되거나 미확인된)을 고려하여, 히트에 `mid` 쿼리 문자열이 포함된 경우 이 [지표](overview.md)이(가) 증가합니다([`s_ecid`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키 기반).
 
 ID 서비스를 사용하여 계산된 지표 `[People with ECID] ÷ [People]`을 만들어 사이트 방문자의 백분율을 구할 수 있습니다.
 

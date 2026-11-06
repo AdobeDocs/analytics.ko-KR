@@ -34,7 +34,7 @@ ht-degree: 23%
 ---
 # Experience Cloud ID를 가진 방문자
 
-&#39;[!UICONTROL Experience Cloud ID를 가진 방문자]&#39; [지표](overview.md)은(는) ECID를 가진 Adobe에서 식별한 고유 방문자 수([방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home) 또는 [웹 SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview) 사용)를 보여줍니다. 이 지표는 사이트 방문자의 대다수가 ECID를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 대부분에서 이 식별자를 사용하지 않는 경우 구현 내의 문제를 나타낼 수 있습니다.
+&#39;[!UICONTROL Experience Cloud ID를 가진 방문자]&#39; [지표](overview.md)은(는) ECID를 가진 Adobe에서 식별한 고유 방문자 수([방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home) 또는 [웹 SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/identity/overview) 사용)를 보여줍니다. 이 지표는 사이트 방문자의 대다수가 ECID를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 대부분에서 이 식별자를 사용하지 않는 경우 구현 내의 문제를 나타낼 수 있습니다.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 23%
 
 ## 이 지표의 계산 방법
 
-이 지표는 [고유 방문자 수](unique-visitors.md) 지표를 기반으로 합니다. 단, [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) 쿠키 기반 `mid` 쿼리 문자열을 사용하여 식별된 개인만 포함합니다.
+이 지표는 [고유 방문자 수](unique-visitors.md) 지표를 기반으로 합니다. 단, [`s_ecid`](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics) 쿠키 기반 `mid` 쿼리 문자열을 사용하여 식별된 개인만 포함합니다.
 
 ## ECID 설정 디버깅
 

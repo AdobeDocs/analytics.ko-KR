@@ -42,7 +42,7 @@ Adobe Analytics는 가장 일반적인 사용 사례를 다루기 위해 다양�
 >
 >다음과 같은 작업을 수행할 수 있습니다.
 >
-> * [계산된 지표](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)에 설명된 대로 스트리밍 미디어 서비스에 대한 기본 계산된 지표 추가
+> * [계산된 지표](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/calculated-metrics)에 설명된 대로 스트리밍 미디어 서비스에 대한 기본 계산된 지표 추가
 > * [계산 및 고급 계산 지표](/help/components/calculated-metrics/cm-overview.md)에 설명된 대로 기존 지표에서 사용자 정의 계산된 지표를 생성합니다.
 >
 
