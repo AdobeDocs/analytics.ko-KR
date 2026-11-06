@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1119'
 ht-degree: 23%
 ---
 # FAQ
@@ -155,7 +155,7 @@ prop 또는 eVar에 이메일/주소 등이 있는 경우 수집하는 동안 �
 
 +++ Analytics 관리자의 SSF에 대한 특정 보고서 세트를 켤 수 없는 이유는 무엇입니까?
 
-CX Enterprise 조직에 매핑된 세트만 활성화할 수 있습니다.
+Adobe 조직에 매핑된 세트만 활성화할 수 있습니다.
 
 이 항목에 대한 자세한 FAQ는 [서버측 전달 FAQ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)를 참조하십시오.
 

@@ -24,20 +24,18 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 2%
-
+source-wordcount: '677'
+ht-degree: 0%
 ---
-
 # Adobe Analytics에 대한 방문자 ID 서비스 마이그레이션 고려 사항
 
 기존 Analytics 구현을 사용하여 방문자 ID 서비스로 이동하려는 경우 고려해야 할 몇 가지 중요한 주제가 있습니다. 이러한 고려 사항을 사용하면 방문자 ID 무결성을 유지하고 기존 Analytics 구현이 있을 때 방문자 ID 서비스가 작동하는 방식을 이해할 수 있습니다.
 
 >[!TIP]
 >
->이 페이지는 기존 AppMeasurement 또는 Analytics 확장 구현에만 적용되며 방문자 ID 서비스를 추가하거나 웹 SDK 구현으로 업그레이드하고 있습니다. 즉, 구현은 기존 Analytics ID(`aid`)를 사용하며 ECID(`mid`)를 사용하는 방향으로 가고 있습니다. 모든 웹 SDK 구현에서는 기본적으로 ECID(`mid`)를 사용하는 [Experience Platform Identity 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)를 사용합니다.
+>이 페이지는 기존 AppMeasurement 또는 Analytics 확장 구현에만 적용되며 방문자 ID 서비스를 추가하거나 웹 SDK 구현으로 업그레이드하고 있습니다. 즉, 구현은 기존 Analytics ID(`aid`)를 사용하며 ECID(`mid`)를 사용하는 방향으로 가고 있습니다. 모든 웹 SDK 구현에서는 기본적으로 ECID(`mid`)를 사용하는 [Edge Network ID](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/identity/overview)를 사용합니다.
 
 ## 방문자 ID 서비스가 기존 Analytics 방문자 쿠키와 상호 작용하는 방법
 

@@ -46,13 +46,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '527'
 ht-degree: 67%
-
 ---
-
 # Analytics 제품 비교 및 요구 사항
 
 이 페이지에는 Analysis Workspace, Report Builder, Data Warehouse, 데이터 피드 및 Analytics API 2.0 등 다양한 Adobe Analytics 제품의 비교가 포함되어 있습니다.
@@ -63,10 +61,10 @@ ht-degree: 67%
 |---|---|---|---|---|---|
 | **액세스 방법** | [브라우저](/help/analyze/get-started/sys-reqs.md) | [Windows용 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | 브라우저를 통해 설정합니다. [자세히 알아보기](/help/analyze/get-started/sys-reqs.md) | 브라우저를 통해 설정합니다. [자세히 알아보기](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 도구. Adobe Developer 자격 증명으로 로그인합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **데이터 세부 기간** | 집계됨 | 집계됨 | 집계됨 | 히트 | 집계됨 |
-| **Experience Cloud ID (ECID) 사용 가능** | 아니요 | 아니요 | 예 | 예 | 아니요 |
+| **ECID 사용 가능** | 아니요 | 아니요 | 예 | 예 | 아니요 |
 | **타임스탬프 사용 가능** | 아니요 | 아니요 | 아니요 | 예 | 아니요 |
 | **처리 수준** | 완전히 처리됨 | 완전히 처리됨, 별도의 [실시간 보고서](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) 사용 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 |
-| **관리 보트 필터 데이터 포함** <br> [자세히 알아보기](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | 아니요 | 예 - 별도의 보트 보고서 | 아니요 | 아니요 | 아니요 |
+| **관리 보트 필터 데이터 포함** <br> [자세히 알아보기](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | 아니요 | 예 - 별도의 봇 보고서 | 아니요 | 아니요 | 아니요 |
 | **낮은 트래픽 (고유 수가 초과되었습니다) 표시** <br> [자세히 알아보기](/help/technotes/low-traffic.md) | 예 | 예 | 아니요 | 아니요 | 예 |
 | **표시 행 제한 (페이지 매김 전)** | 400 | 50000 | 제한 없음 | 제한 없음 | 50000 |
 | **여러 보고서 세트** | [예](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 예 | 아니요 | 예 | 아니요 |

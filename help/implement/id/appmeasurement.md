@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 1%
-
 ---
-
 # AppMeasurement을 사용한 방문자 식별
 
 AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaScript 라이브러리입니다. AppMeasurement은 자체적으로 방문자를 식별하는 기본 방법을 제공하지만, 많은 최신 브라우저는 설정하려고 하는 서드파티 쿠키를 거부합니다. Adobe에서는 모든 구현에서 최신 브라우저 개인 정보 보호 표준을 준수하도록 [Adobe 방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home)를 사용할 것을 강력히 권장합니다. AppMeasurement의 모든 버전은 방문자 ID 서비스를 구현하는 데 사용되는 JavaScript 라이브러리인 `VisitorAPI.js`과(와) 함께 제공됩니다.
@@ -50,7 +48,7 @@ AppMeasurement은 데이터 수집을 위한 Adobe Analytics의 레거시 JavaSc
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)에 대해 원하는 에지 도메인입니다.
 * IMS 조직 ID:
   1. Adobe ID 자격 증명을 사용하여 [Adobe CX Enterprise](https://experience.adobe.com)에 로그인합니다.
-  1. CX 엔터프라이즈 인터페이스의 모든 위치에서 `[Cmd]` + `[I]`(iOS) 또는 `[Ctrl]` + `[I]`(Windows)을 누릅니다.
+  1. CX Enterprise 인터페이스의 모든 곳에서 `[Cmd]` + `[I]`(iOS) 또는 `[Ctrl]` + `[I]`(Windows)을 누릅니다.
   1. **[!UICONTROL 사용자 데이터 디버거]**&#x200B;가 나타납니다. **[!UICONTROL 할당된 조직]** 탭을 선택합니다.
   1. 원하는 IMS 조직을 확장합니다.
   1. **[!UICONTROL ID]** 필드를 찾습니다.

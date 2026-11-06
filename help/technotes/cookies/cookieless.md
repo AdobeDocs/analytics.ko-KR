@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 97%
+source-wordcount: '584'
+ht-degree: 92%
 ---
 # 브라우저 쿠키 제안의 영향을 경감하기 위한 옵션
 
@@ -57,7 +57,7 @@ Adobe Analytics는 자사 쿠키를 기반으로 방문자의 사이트 내 활�
 
 ## Web SDK를 사용한 자사 디바이스 ID(FPID)
 
-Adobe Experience Platform Web SDK를 사용하면 Adobe에서 생성한 Experience Cloud ID(ECID) 대신 자신의 디바이스 식별자를 설정하고 관리하도록 선택할 수 있습니다. 이를 자사 디바이스 ID(FPID)라고 합니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ko)에서 추가 정보를 확인하십시오.
+Adobe Experience Platform Web SDK을 사용하면 Adobe 생성 ECID 대신 자신의 장치 식별자를 설정하고 관리할 수 있습니다. 이를 자사 디바이스 ID(FPID)라고 합니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ko)에서 추가 정보를 확인하십시오.
 
 ## 추가 정보
 

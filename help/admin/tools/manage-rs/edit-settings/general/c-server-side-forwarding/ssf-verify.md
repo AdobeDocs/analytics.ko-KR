@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 60%
+source-wordcount: '247'
+ht-degree: 44%
 ---
 # 서버측 전달 구현 확인 방법
 
@@ -50,7 +50,7 @@ ht-degree: 60%
 
 >[!CAUTION]
 >
->응답에 키 값 쌍 `"status":"SUCCESS"` 또는 2 x 2 이미지가 있는 경우 서버측 전달이 제대로 구성되지 *않은* 것입니다. ID 서비스가 제대로 배포되었는지, App Measurement 모듈을 배포했는지, 해당 보고서 세트가 올바른 조직 ID에 매핑되었는지, Analytics 관리 도구에서 서버측 전달이 활성화되었는지 확인하십시오.
+>응답에 키 값 쌍 `"status":"SUCCESS"` 또는 2 x 2 이미지가 있는 경우 서버측 전달이 제대로 구성되지 *않은* 것입니다. 방문자 ID 서비스가 제대로 배포되었는지, 앱 측정 모듈을 배포했는지, 해당 보고서 세트가 올바른 조직 ID에 매핑되었는지, Analytics 관리 도구에서 서버 측 전달이 활성화되었는지 확인하십시오.
 
 >[!MORELIKETHIS]
 >

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 88%
+source-wordcount: '559'
+ht-degree: 87%
 ---
 # 서버측 전달 데이터 및 코드 참조
 
@@ -50,7 +50,7 @@ ht-degree: 88%
 | `d_rs` | (기존/추적 서버 기반 서버측 전달을 사용하여 세트 가져오기) <br>히트와 함께 Analytics에 전달된 보고서 세트로 설정합니다. |
 | `d_dst_filter` | (보고서 세트 기반 서버측 전달을 사용하여 세트 가져오기) <br>히트와 함께 Analytics에 전달된 보고서 세트 ID로 설정합니다. |
 | `d_dst` | Analytics에 대한 요청에서 대상에 대한 콘텐츠가 클라이언트로 다시 전송될 것으로 예상하는 경우 `d_dst=1`로 설정합니다.<br> |
-| `d_mid` | Analytics에 전달된 Experience Cloud ID입니다. |
+| `d_mid` | Analytics에 전달된 ECID입니다. |
 
 ## HTTP 헤더 {#section_0549705E76004F9585224AEF872066C0}
 

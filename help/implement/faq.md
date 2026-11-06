@@ -40,18 +40,18 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 92%
 ---
 # Analytics 구현에 대한 FAQ
 
 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
 
-## Experience Cloud 방문자 ID와 Analytics 방문자 ID의 차이점은 무엇입니까?
+## ECID와 Analytics 방문자 ID의 차이점은 무엇입니까? {#what-is-the-difference-between-the-experience-cloud-visitor-id-and-analytics-visitor-id}
 
-ID 서비스는 CX Enterprise의 다른 솔루션 간에 공유할 수 있는 고유한 영구 식별자를 지정합니다. Analytics 방문자 ID는 Analytics에서만 사용됩니다. 구현에서는 Experience Cloud 방문자 ID 서비스를 사용하는 것이 좋습니다.
+ID 서비스는 CX Enterprise의 다른 솔루션 간에 공유할 수 있는 고유한 영구 식별자를 지정합니다. Analytics 방문자 ID는 Analytics에서만 사용됩니다. Adobe에서는 구현에서 방문자 ID 서비스 를 사용하는 것이 좋습니다.
 
 ## 하트비트 비디오 추적은 어떻게 구현합니까?
 

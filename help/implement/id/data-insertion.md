@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 ---
 # 데이터 삽입 API를 사용한 방문자 식별
@@ -62,7 +62,7 @@ var ecid = visitor.getMarketingCloudVisitorID();
 
 각 히트에 대한 해당 값을 `mid` 쿼리 매개 변수로 보내고 IMS 조직 ID를 `mcorgid` 매개 변수로 보내면 ECID가 올바르게 확인됩니다. 데이터가 Audience Manager으로 전송되는 경우 [`getLocationHint`](https://experienceleague.adobe.com/ko/docs/id-service/using/id-service-api/methods/getlocationhint)에서 지역도 `aamlh` 매개 변수로 전송합니다. 자신의 고객 식별자를 방문자와 연결하려면 [`setCustomerIDs`](https://experienceleague.adobe.com/ko/docs/id-service/using/id-service-api/methods/setcustomerids)을(를) 사용합니다.
 
-서버측 수집의 경우 클라이언트에서 ECID를 가져와서 각 히트를 전송할 서버에 전달합니다. 클라이언트 없이 서버측에서 ECID를 완전히 생성하려면 ID 서비스의 [직접 통합](https://experienceleague.adobe.com/ko/docs/id-service/using/implementation/direct-integration)을 사용하십시오.
+서버측 수집의 경우 클라이언트에서 ECID를 가져와서 각 히트를 전송할 서버에 전달합니다. 클라이언트 없이 서버측에서 ECID를 완전히 생성하려면 방문자 ID 서비스의 [직접 통합](https://experienceleague.adobe.com/ko/docs/id-service/using/implementation/direct-integration)을 사용하십시오.
 
 ## Analytics 방문자 ID 사용
 

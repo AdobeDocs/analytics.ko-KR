@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '1977'
 ht-degree: 75%
 ---
 # Adobe Analytics에 대한 XDM 개체 필드 매핑
@@ -103,7 +103,7 @@ ht-degree: 75%
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | 해당 [Prop](/help/components/dimensions/prop.md) 차원을 설정합니다. |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 해당 [사용자 정의 이벤트](/help/components/metrics/custom-events.md) 지표에 적용합니다. 각 이벤트 ID는 100개의 상위 그룹에 있습니다. 예를 들어 직렬화를 `event678`에 적용하려면 `xdm._experience.analytics.event601to700.event678.id`를 사용합니다. |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | 원하는 수량만큼 해당 [사용자 정의 이벤트](/help/components/metrics/custom-events.md) 지표를 증가시킵니다. 각 이벤트는 100개의 상위 그룹에 있습니다. 예를 들어 `event567`에 대한 필드는 `xdm._experience.analytics.event501to600.event567.value`입니다. |
-| `xdm.identityMap.ECID[0].id` | [Adobe 방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home) 또는 [Experience Platform Identity 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home)를 사용하여 수집된 ECID입니다. |
+| `xdm.identityMap.ECID[0].id` | [Adobe 방문자 ID 서비스](https://experienceleague.adobe.com/kr/docs/id-service/using/home) 또는 [Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/identity/overview)를 사용하여 수집된 ECID입니다. |
 | `xdm.marketing.trackingCode` | [추적 코드](/help/components/dimensions/tracking-code.md) 차원을 설정합니다. |
 | `xdm.media.mediaTimed.completes.value` | 스트리밍 미디어 서비스 지표 [콘텐츠 완료](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/metrics/content-completes). |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`, `a.media.timePlayed`, `a.media.play` |

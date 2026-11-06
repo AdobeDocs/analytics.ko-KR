@@ -33,16 +33,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 13%
 ---
 # 옵트아웃 이유 추적
 
 >[!BEGINSHADEBOX]
 
-*이 페이지는 특정 보고서 세트 설정을 활성화함으로써 발생할 수 있는 데이터 영향을 확인할 수 있는 [차원](overview.md)을 참조합니다. [Adobe Experience Cloud ID 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)와(과) 관련이 없습니다.*
+*이 페이지는 특정 보고서 세트 설정을 활성화함으로써 발생할 수 있는 데이터 영향을 확인할 수 있는 [차원](overview.md)을 참조합니다. 방문자 ID 서비스 [옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)와(과) 관련이 없습니다.*
 
 >[!ENDSHADEBOX]
 

@@ -31,10 +31,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 42%
+ht-degree: 35%
 ---
 # 워크플로 개요
 
@@ -44,7 +44,7 @@ Advertising Analytics 구성 워크플로우는 다음 단계로 구성됩니다
 >[!VIDEO](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
-1. [보고서 세트별로 Advertising Analytics 보고를 사용합니다](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Experience Cloud 지원 보고서 세트에[!UICONTROL Advertising Analytics] 보고를 사용합니다.
+1. [보고서 세트별로 Advertising Analytics 보고를 사용합니다](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). CX-Enterprise 사용 보고서 세트에 대해 [!UICONTROL Advertising Analytics] 보고를 사용합니다.
 2. [Advertising Analytics 계정을 설정합니다](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Analytics 관리 도구에서 설정합니다.
 3. [Analytics의 광고 데이터에 대해 보고합니다](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). 검색 데이터는 Adobe Analytics 데이터 센터의 시간대를 기준으로 하여 오전 6시(06:00)에 검색 엔진에서 가져옵니다. Adobe Advertising 데이터가 수집되어 보고서 세트에 삽입됩니다. 그런 다음 데이터를 Analytics에 삽입할 때 보고서 세트 시간대로 변환됩니다. 보고는 Analysis Workspace(유료 검색 실적 템플릿), Report Builder 및 Analytics Reporting API에서 사용할 수 있습니다.
 4. [광고 계정을 관리합니다](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). 계정 상태를 확인하고, 계정을 편집/일시 정지할 수 있습니다.

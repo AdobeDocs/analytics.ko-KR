@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 76%
+source-wordcount: '888'
+ht-degree: 69%
 ---
 # 서버측 전달 개요
 
@@ -59,14 +59,14 @@ ht-degree: 76%
 
 서버측 전달을 구현하는 측면에서 조직의 위치를 이해하려면 다음 유효성 검사 절차를 수행하십시오.
 
-## ![step1_icon.png 이미지](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) ECID 서비스 구현 확인
+## ![step1_icon.png 이미지](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) 방문자 ID 서비스 구현 확인
 
-[Analytics 추적 요청](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=ko)을 검사하여 Experience Cloud ID(ECID) 서비스가 구현되었는지 확인합니다.
+[Analytics 추적 요청](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=ko)을 검사하여 방문자 ID 서비스가 구현되었는지 확인하십시오.
 
-요청 탭에서 ECID 값이 설정되어 있는지 확인하십시오. 이는 ID 서비스가 올바르게 구현되었음을 나타내며, 서버측 전달의 필수 조건입니다.
+요청 탭에서 ECID 값이 설정되어 있는지 확인합니다. 이는 방문자 ID 서비스가 올바르게 구현되었음을 나타내며, 서버측 전달의 필수 조건입니다.
 
 * ECID 값이 표시되면 2단계로 진행합니다.
-* ECID 값이 표시되지 않으면 2단계로 진행하기 전에 [ID 서비스를 구현](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko)합니다.
+* ECID 값이 표시되지 않으면 2단계로 진행하기 전에 [방문자 ID 서비스를 구현](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko)하십시오.
 
 ## ![step2_icon.png 이미지](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) 서버측 전달 구현 버전 확인
 

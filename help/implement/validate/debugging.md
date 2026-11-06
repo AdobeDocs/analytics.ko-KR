@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 2%
 ---
 # Analytics 데이터 수집 디버그
@@ -94,7 +94,7 @@ Web SDK을 사용하면 브라우저가 Analytics에 직접 연결하는 대신 
 
 ### 처리 확인 {#web-sdk-processing}
 
-Edge 추적이 열리는 Assurance 세션에서 `hitdebugger`에 대한 이벤트를 검색합니다. 이러한 이벤트는 공급업체 `com.adobe.analytics.hitdebugger`을(를) 사용하며, 페이로드는 Analytics 처리 후 Experience Cloud ID(`mcvisId`) 및 `pageName`과(와) 같은 값을 표시합니다.
+Edge 추적이 열리는 Assurance 세션에서 `hitdebugger`에 대한 이벤트를 검색합니다. 이러한 이벤트는 공급업체 `com.adobe.analytics.hitdebugger`을(를) 사용하며, 페이로드는 Analytics 처리 후 ECID(`mcvisId`) 및 `pageName`과(와) 같은 값을 표시합니다.
 
 자세한 내용은 [Adobe Experience Platform Web SDK을 사용하여 Adobe Analytics 설정](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics)을 참조하십시오.
 

@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '885'
 ht-degree: 42%
 ---
 # 서버 호출 사용량
@@ -69,7 +69,7 @@ Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호
   </tr> 
   <tr> 
    <td colname="col1"> <p>청구 회사(청구 ID) </p> </td> 
-   <td colname="col2"> <p>서버 호출에 대해 청구되는 법인입니다. 예: adobe.com. 각 청구 회사에는 청구 고객을 고유하게 식별하는 데 사용되는 청구 ID가 있습니다. 청구 ID는 여러 CX Enterprise 조직에 연결될 수 있습니다. 조직과 청구 ID 간에 항상 1:1 관계가 있는 것은 아닙니다. </p> </td> 
+   <td colname="col2"> <p>서버 호출에 대해 청구되는 법인입니다. 예: adobe.com. 각 청구 회사에는 청구 고객을 고유하게 식별하는 데 사용되는 청구 ID가 있습니다. 청구 ID는 여러 Adobe 조직에 연결될 수 있습니다. 조직과 청구 ID 간에 항상 1:1 관계가 있는 것은 아닙니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>로그인 회사 </p> </td> 
@@ -82,7 +82,7 @@ Adobe Analytics 서버 호출 사용량은 브라우저 및 모바일 서버 호
     </ul> <p>참고: 청구 회사 내의 <u>모든</u> 보고서 세트에 대한 서버 호출 사용량 데이터는 해당 <a href="/help/admin/admin-console/permissions/analytics-tools.md">권한</a>이 있는 모든 사용자가 볼 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CX Enterprise 조직 </p> </td> 
+   <td colname="col1"> <p>Adobe 조직 </p> </td> 
    <td colname="col2"> <p>조직은 관리자가 그룹과 사용자를 구성하고, CX Enterprise에서 단일 사인온을 제어할 수 있도록 하는 항목입니다. 조직은 모든 CX Enterprise 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. </p> <p>대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다. </p> </td> 
   </tr> 
   <tr> 

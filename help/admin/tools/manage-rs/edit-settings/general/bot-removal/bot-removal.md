@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 56%
+source-wordcount: '778'
+ht-degree: 48%
 ---
 # Adobe Analytics에서 봇 제거
 
@@ -54,9 +54,9 @@ Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션�
 
 또한 보트가 빠르게 변형되기 때문에 Adobe는 적절하게 정기적으로 조합해서 사용하면 이런 데이터 품질의 장애물을 제거하는 데 도움이 되는 몇 가지 강력한 기능도 제공합니다. 이러한 기능에는 방문자 ID 서비스, 세그먼테이션, Data Warehouse, 고객 속성 및 가상 보고서 세트가 있습니다. 이러한 도구를 활용하는 방법에 대한 개요입니다.
 
-### 1단계: 방문자의 Experience Cloud ID를 새로 선언된 ID에 전달
+### 1단계: 방문자의 ECID를 새로 선언된 ID에 전달 {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-시작하려면 [사람 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
+시작하려면 [사람 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)에서 새로 선언된 ID를 만듭니다. 방문자의 ECID를 새로 선언된 ID로 전달합니다. Adobe Experience Platform의 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)를 사용하면 이 작업을 빠르고 쉽게 수행할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -72,9 +72,9 @@ Adobe Analytics은 보고에서 보트 트래픽을 제거하는 여러 옵션�
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
-### 3단계: Data Warehouse를 통해 세그먼트에서 모든 [!DNL Experience Cloud IDs] 내보내기
+### 3단계: Data Warehouse를 통해 세그먼트에서 모든 [!DNL ECIDs] 내보내기 {#step-3-export-all-experience-cloud-ids-from-the-segment-via-data-warehouse}
 
-세그먼트를 사용하여 봇을 식별했으므로 다음 단계는 Data Warehouse를 활용하여 이 세그먼트와 연결된 모든 Experience Cloud ID를 추출하는 것입니다. 이 스크린샷은 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) 요청을 설정하는 방법을 보여 줍니다.
+세그먼트를 사용하여 보트를 식별했으므로 다음 단계는 Data Warehouse을 사용하여 이 세그먼트와 연결된 모든 ECID를 추출하는 것입니다. 이 스크린샷은 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) 요청을 설정하는 방법을 보여 줍니다.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 

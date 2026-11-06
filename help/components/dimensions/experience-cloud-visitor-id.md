@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud 방문자 ID
-description: 방문자의 ECID(Experience Cloud ID), Data Warehouse에서 사용할 수 있습니다.
+description: Data Warehouse에서 사용할 수 있는 방문자의 ECID입니다.
 feature: Dimensions
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 18%
+source-wordcount: '154'
+ht-degree: 19%
 ---
 # Experience Cloud 방문자 ID
 
@@ -40,12 +40,12 @@ Experience Cloud 방문자 ID [차원](overview.md)은(는) 각 방문자에 대
 
 ## 이 차원을 데이터로 채우기
 
-이 차원에는 방문자 ID 서비스(VisitorAPI) 또는 Experience Platform ID 서비스를 사용하는 구현이 필요합니다. 데이터 피드의 `mcvisid` 열에 해당합니다. 자세한 내용은 [데이터 열 참조](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)를 참조하십시오.
+이 차원에는 방문자 ID 서비스(VisitorAPI) 또는 웹 SDK을 사용하는 구현이 필요합니다. 데이터 피드의 `mcvisid` 열에 해당합니다. 자세한 내용은 [데이터 열 참조](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)를 참조하십시오.
 
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | 없음(Adobe 방문자 ID 서비스에 의해 설정됨) |
-| **웹 SDK/XDM 필드** | 없음(Experience Platform Identity 서비스에 의해 설정됨) |
+| **웹 SDK/XDM 필드** | 없음(Edge Network에 의해 설정됨) |
 | **쿼리 매개 변수** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 해당 없음 |

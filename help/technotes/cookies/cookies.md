@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2101'
 ht-degree: 93%
 ---
 # Adobe Analytics 및 브라우저 쿠키
@@ -84,7 +84,7 @@ ITP 정책은 자주 변경됩니다. 최신 정책은 Apple의 [Webkit의 Track
 
 Adobe가 설정한 모든 자사 쿠키 및 관련 JavaScript 라이브러리는 ITP 정책의 영향을 받습니다.
 
-* ECID(Adobe 방문자 ID 서비스) 라이브러리에서 설정한 [&quot;AMCV&quot; 쿠키](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)
+* Adobe 방문자 ID 서비스 라이브러리에서 설정한 [&quot;AMCV&quot; 쿠키](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)
 * Analytics 레거시 [&quot;s_vi&quot; 쿠키](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics), CNAME를 사용하는 자사 데이터 컬렉션으로 구성된 경우
 * Analytics 레거시 [&quot;s_fid&quot; 쿠키](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/cookies/analytics), &quot;s_vi&quot;를 설정할 수 없는 경우에 사용되는 폴백 쿠키
 
