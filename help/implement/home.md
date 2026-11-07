@@ -129,5 +129,5 @@ Adobe Analytics를 서버측에 구현할 때에는 다음과 같은 옵션이 �
 
 * [고객 지원 문의](https://experienceleague.adobe.com/ko?support-solution=Analytics#support)
 * [Experience League의 Adobe Analytics 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ko)
-* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
+* [Adobe Analytics 리소스](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ko)
 * [최신 릴리스 정보](../release-notes/latest.md)
