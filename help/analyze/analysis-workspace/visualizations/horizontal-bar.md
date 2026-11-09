@@ -24,22 +24,20 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 71%
-
+source-wordcount: '215'
+ht-degree: 65%
 ---
-
 # 가로 막대(스택)
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 가로 막대 및 가로 막대 누적 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_이 문서의_&#x200B;에 대한 [가로 막대 및 가로 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar)을 참조하십시오. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전._
+_이 문서에서는 가로 막대 및 가로 막대 누적 시각화에 대해 설명합니다._ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_이 문서의_&#x200B;에 대한 [가로 막대 및 가로 막대 누적](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar)을 참조하십시오. ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전._
 
 >[!ENDSHADEBOX]
 
-가로 막대 시각화에는 표준 옵션과 스택 옵션이 있습니다.
+가로 막대 시각화에는 표준 옵션과 누적 옵션이 있습니다.
 
 ## 가로 막대 {#horizontal-bar}
 
@@ -52,7 +50,7 @@ _이 문서에서는 가로 막대 및 가로 막대 누적 시각화에 대해 
 
 <!-- markdownlint-enable MD034 -->
 
-이 ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL 가로 막대]** 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 보여 줍니다.
+![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL 가로 막대]** 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다.
 
 ![페이지 조회수, 페이지 속도, 방문 수, 진입 수, 종료 수 등의 측정 항목을 보여 주는 가로 막대.](assets/horizontal-bar.png)
 
@@ -64,7 +62,7 @@ _이 문서에서는 가로 막대 및 가로 막대 누적 시각화에 대해 
 >[!CONTEXTUALHELP]
 >id="workspace_horizontalbarstacked_button"
 >title="스택 가로 막대"
->abstract="하나 이상의 스택 지표에서 다양한 값을 나타내는 가로 막대 시각화를 만듭니다."
+>abstract="하나 이상의 누적 지표에서 다양한 값을 나타내는 가로 막대 시각화를 만듭니다."
 
 <!-- markdownlint-enable MD034 -->
 

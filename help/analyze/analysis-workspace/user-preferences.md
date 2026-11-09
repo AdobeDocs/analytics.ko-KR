@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3534'
-ht-degree: 93%
+ht-degree: 92%
 ---
 # 사용자 환경 설정
 
@@ -59,7 +59,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [환경 설정 관리](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -142,7 +142,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 프로젝트 환경 �
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -198,7 +198,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 | | 총계 표시 | 이 합계는 수집된 모든 히트 수를 나타내며 *보고서 세트 합계*&#x200B;라고도 합니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 히트를 반영하도록 조정됩니다. [정적 행](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)이 있는 테이블 또는 분류에서는 총 합계가 지원되지 않습니다. |
 | | 스파크라인 표시 | 차트 하단에 선 차트를 표시하거나 숨깁니다. 범례가 숨겨져 있으면 더 이상 시각적으로 선을 참조하지 않습니다. |
 | | 숫자 | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 숫자 값은 행 항목에 대한 페이지 조회수입니다. |
-| | 비율 | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  메모: 더 정확하게 말하면 100%보다 큰 백분율이 표시되는 경우도 있습니다. 열 너비를 훨씬 더 크게 늘릴 수 있도록 상한이 1,000%로 높아집니다. |
+| | 비율 | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확하게 말하자면 100%보다 큰 백분율이 표시되는 경우가 있습니다. 열 너비를 훨씬 더 크게 늘릴 수 있도록 상한이 1,000%로 높아집니다. |
 | | 예외 항목 표시 | 이 열의 값에 대해 예외 항목 탐지가 실행되는지 여부를 결정합니다. |
 | | 0을 값없음으로 해석 | 값이 0인 셀에 대해, 0을 표시할지 아니면 빈 셀을 표시할지를 결정합니다. 달의 각 날에 대한 데이터를 보고 일부 날은 아직 일어나지 않은 경우 유용합니다.  차후의 날짜에 대해 0을 표시하는 대신 빈 셀을 표시할 수 있습니다. 차트에 이 설정도 적용됩니다(즉, 이 설정을 선택한 경우 차트에 값이 0인 선 또는 막대가 표시되지 않습니다). |
 | | 배경 | 막대 그래프 및 조건부 서식을 포함하여, 셀에 모든 셀 서식을 표시할지 또는 숨길지를 결정합니다 <ul><li>막대 그래프</li> 열 합계에 대한 셀 값의 상대적 크기를 나타내는 수평 막대 그래프입니다. <li>조건부 서식</li>조건부 서식에 대한 자세한 내용은 [열 설정](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)의 “조건부 서식”을 참조하십시오.</ul> |

@@ -27,10 +27,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 71%
+ht-degree: 70%
 ---
 # 날짜 비교
 
@@ -94,7 +94,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 1. 선택한 열 맨 위에 기간이 삽입됩니다.
 
-   ![현재 캘린더 기간과 지난 달의 발생 건수를 보여 주는 자유 형식 테이블입니다.](assets/add-time-period-column2.png)
+   ![현재 일정 기간과 이전 달력의 발생 횟수를 보여 주는 자유 형식 테이블.](assets/add-time-period-column2.png)
 
 1. 원하는 만큼 여러 번 열을 추가하고 다른 날짜 범위를 조합할 수 있습니다.
 
@@ -128,7 +128,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

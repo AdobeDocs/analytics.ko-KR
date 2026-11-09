@@ -25,20 +25,18 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 21%
-
 ---
-
 # 처리 규칙 사용 사례
 
 조직에서 처리 규칙을 사용할 수 있는 방법에 대한 응용 프로그램이 광범위합니다. 다음 섹션에서는 유용하도록 사용할 수 있는 몇 가지 일반적인 방법에 대해 자세히 설명합니다.
 
 +++eVar에 컨텍스트 데이터 변수 복사
 
-처리 규칙은 [컨텍스트 데이터 변수](/help/implement/vars/page-vars/contextdata.md)에서 [Props](/help/components/dimensions/prop.md) 및 [eVars](/help/components/dimensions/evar.md)(으)로 값을 이동하는 데 사용됩니다. 처리 규칙이 없으면 컨텍스트 데이터 변수는 의미가 없으며 Analytics에 보고서를 채우지 않습니다.
+처리 규칙은 [컨텍스트 데이터 변수](/help/implement/vars/page-vars/contextdata.md)에서 [Props](/help/components/dimensions/prop.md) 및 [eVars](/help/components/dimensions/evar.md)(으)로 값을 이동하는 데 사용됩니다. 처리 규칙이 없으면 컨텍스트 데이터 변수는 의미가 없으며 Adobe Analytics의 어떤 보고서에도 값이 채워지지 않습니다.
 
 [!UICONTROL 컨텍스트 변수] 목록에는 지난 30일 동안 보고서 세트로 전송된 모든 변수가 포함되어 있습니다. 컨텍스트 데이터 변수 이름은 알지만 현재 보고서 세트로 보내지 않았다면 수동으로 추가할 수 있습니다.
 
@@ -49,19 +47,19 @@ ht-degree: 21%
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | `search_term`(컨텍스트 데이터)이(가) 설정됨 |
-| 액션 | [!UICONTROL eVar3 값 &#x200B;]을(를) `search_term`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | [!UICONTROL eVar3 값 ]을(를) `search_term`(컨텍스트 데이터)로 덮어쓰기 |
 
 ![컨텍스트 데이터 변수의 사용을 보여 주는 처리 규칙 인터페이스의 스크린샷](assets/set-context-data.png)
 
-위의 예제는 채울 eVar가 몇 개만 있을 때 잘 작동합니다. 조직에 각각 고유한 eVar가 필요한 수백 개의 컨텍스트 데이터 변수가 있는 경우 조건문을 사용할 수 있습니다. 십여 개의 조건문을 단일 처리 규칙에 맞게 설정하여 조직에서 150개 처리 규칙 제한을 실행하지 않고도 한 보고서 세트에 모든 eVar를 채울 수 있습니다.
+위의 예제는 채울 eVar가 몇 개만 있을 때 잘 작동합니다. 조직에 각각 고유한 eVar가 필요한 수백 개의 컨텍스트 데이터 변수가 있는 경우 조건문을 사용할 수 있습니다. 수십 개의 조건문을 단일 처리 규칙 안에 넣을 수 있으므로 조직에서 150개 처리 규칙 제한에 도달하지 않고도 한 보고서 세트의 모든 eVar를 채울 수 있습니다.
 
 다음 예제에서는 여러 변수를 다양한 컨텍스트 데이터 변수로 채웁니다. 한 작업에는 조건문도 포함되어 있습니다.
 
 | 규칙 세트 | 값 |
 | --- | --- |
-| 액션 | [!UICONTROL 값 &#x200B;] eVar55를 `spa.billing_customer_name`(컨텍스트 데이터)로 덮어쓰기 |
-| 액션 | `testhierarchy`(컨텍스트 데이터)이 설정된 경우 [!UICONTROL Prop7의 값 &#x200B;]을(를) `testhierarchy`(컨텍스트 데이터)로 덮어쓰기 |
-| 액션 | [!UICONTROL eVar8 값 &#x200B;]을(를) `spa.ims_org`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | [!UICONTROL 값 ] eVar55를 `spa.billing_customer_name`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | `testhierarchy`(컨텍스트 데이터)이 설정된 경우 [!UICONTROL Prop7의 값 ]을(를) `testhierarchy`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | [!UICONTROL eVar8 값 ]을(를) `spa.ims_org`(컨텍스트 데이터)로 덮어쓰기 |
 
 ![값을 조건부로 설정하는 방법을 보여 주는 처리 규칙 인터페이스의 스크린샷](assets/add-conditional.png)
 
@@ -95,7 +93,7 @@ ht-degree: 21%
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | 캠페인이 설정되지 않음 |
-| 액션 | [!UICONTROL 캠페인 값 &#x200B;]을(를) [!UICONTROL 쿼리 문자열 매개 변수] `cpid`(으)로 덮어쓰기 |
+| 액션 | [!UICONTROL 캠페인 값 ]을(를) [!UICONTROL 쿼리 문자열 매개 변수] `cpid`(으)로 덮어쓰기 |
 
 ![조건부 캠페인 논리를 표시하는 처리 규칙 인터페이스의 스크린샷](assets/set-campaign-conditionally.png)
 
@@ -128,7 +126,7 @@ ht-degree: 21%
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | 없음(항상 실행) |
-| 액션 | [!UICONTROL 값을 &#x200B;] eVar1에 [!UICONTROL 연결된 값] 범주 + 페이지 이름으로 덮어쓰기 |
+| 액션 | [!UICONTROL 값을 ] eVar1에 [!UICONTROL 연결된 값] 범주 + 페이지 이름으로 덮어쓰기 |
 
 연결된 값을 표시하는 처리 규칙 인터페이스의 ![스크린샷](assets/add-subcategory-using-concat.png)
 
@@ -143,7 +141,7 @@ Adobe에서는 원하지 않는 덮어쓰기를 방지하기 위해 가능한 �
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | prop1 [!UICONTROL 다음으로 시작] &quot;[!DNL Shoping]&quot; |
-| 액션 | [!UICONTROL Prop1의 &#x200B;] 값을 [!UICONTROL 사용자 지정 값] &quot;[!DNL Shopping]&quot;(으)로 덮어쓰기 |
+| 액션 | [!UICONTROL Prop1의 ] 값을 [!UICONTROL 사용자 지정 값] &quot;[!DNL Shopping]&quot;(으)로 덮어쓰기 |
 
 오타를 수정하는 방법을 보여 주는 처리 규칙 인터페이스의 ![스크린샷](assets/clean-up-values-in-report.png)
 
@@ -157,6 +155,6 @@ Adobe에서는 원하지 않는 덮어쓰기를 방지하기 위해 가능한 �
 | 조건 | 없음(항상 실행) |
 | 작업 | [!UICONTROL Event1을 [!UICONTROL 사용자 지정 값] `0`(으)로 설정] |
 
-![이벤트를 제거하기 위해 표시되는 처리 규칙 인터페이스의 스크린샷](assets/remove_event.png)
+이벤트를 제거하는 방법을 보여 주는 처리 규칙 인터페이스의 ![스크린샷](assets/remove_event.png)
 
 +++

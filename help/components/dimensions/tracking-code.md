@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 88%
+source-wordcount: '624'
+ht-degree: 84%
 ---
 # 추적 코드
 
@@ -45,7 +45,7 @@ AppMeasurement는 [`campaign`](/help/implement/vars/page-vars/campaign.md) 변�
 | 속성 | 값 |
 | --- | --- |
 | **AppMeasurement 변수** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **웹 SDK/XDM 필드** | [`marketing.trackingCode`](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **웹 SDK/XDM 필드** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **쿼리 매개 변수** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML 태그** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **바이트 제한** | 255바이트 |
@@ -88,7 +88,7 @@ AppMeasurement는 [`campaign`](/help/implement/vars/page-vars/campaign.md) 변�
 3. 3주 후, 추적 코드나 마케팅 채널 없이 돌아왔다가 다시 떠납니다.
 4. 다른 2주 후 (첫 방문 후 5주), 추적 코드나 마케팅 채널 없이 돌아왔다가 구매합니다.
 
-사용자는 결국 30일 이상 지나서 구매했지만 30일 이상 동안 활동이 없는 상태는 아니었습니다. 이 경우, 수익은 추적 코드 마케팅 채널에 귀속되지만 추적 코드 차원 자체에는 귀속되지 않습니다.
+사용자는 결국 30일 이상 지나서 구매했지만 30일 이상 동안 활동이 없는 상태는 아니었습니다. 이 경우 추적 코드 마케팅 채널로 인한 매출이 표시되지만 추적 코드 차원 자체에 대해서는 표시되지 않습니다.
 
 
 

@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # Analysis Workspace 개요 {#analysis-workspace-overview}
 
@@ -54,7 +54,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -86,17 +86,17 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 ## 메뉴
 
-Analysis Workspace의 기능 대부분은 드래그 앤 드롭을 통해, 패널, 시각화 및 구성 요소 내 컨텍스트 메뉴를 통해 사용할 수 있습니다.
+Analysis Workspace의 기능 대부분은 드래그 앤 드롭과 패널, 시각화 및 구성 요소 내의 컨텍스트 메뉴를 통해 사용할 수 있습니다.
 
 Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할 수 있습니다. 단축키는 브라우저가 실행 중인 운영 체제에 따라 다릅니다. 개요는 아래 테이블을 참조하십시오.
 
 키보드에서 다음 기호가 사용될 수 있습니다.
 
-- **[!UICONTROL *Shift *]**&#x200B;의 경우&#x200B;**⇧**
-- **⌘**&#x200B;**[!UICONTROL *Cmd *]**(명령)의 경우.
-- **⌃**&#x200B;**[!UICONTROL *Ctrl *]**(제어)의 경우.
-- **⌥**&#x200B;**[!UICONTROL *Opt *]**(옵션)의 경우.
-- **⎇**&#x200B;**[!UICONTROL *Alt *]**(대체)의 경우.
+- **[!UICONTROL *Shift *]**의 경우**⇧**
+- **⌘****[!UICONTROL *Cmd *]**(명령)의 경우.
+- **⌃****[!UICONTROL *Ctrl *]**(제어)의 경우.
+- **⌥****[!UICONTROL *Opt *]**(옵션)의 경우.
+- **⎇****[!UICONTROL *Alt *]**(대체)의 경우.
 
 사용 가능한 메뉴 개요는 아래 테이블을 참조하십시오.
 
@@ -134,7 +134,7 @@ Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할
 | **[!UICONTROL 자유 형식 테이블]** | **[!UICONTROL *Opt+1 *]** | **[!UICONTROL *Alt+1 *]** | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 시각화를 삽입합니다. |
 | **[!UICONTROL 라인]** | **[!UICONTROL *Opt+2 *]** | **[!UICONTROL *Alt+2 *]** | [라인](/help/analyze/analysis-workspace/visualizations/line.md) 시각화를 삽입합니다. |
 | **[!UICONTROL 막대]** | **[!UICONTROL *Opt+3 *]** | **[!UICONTROL *Alt+3 *]** | [막대](/help/analyze/analysis-workspace/visualizations/bar.md) 시각화를 삽입합니다. |
-| **[!UICONTROL 콤보]** | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** | [&#x200B; 콤보](/help/analyze/analysis-workspace/visualizations/combo-charts.md) 시각화를 삽입하다. |
+| **[!UICONTROL 콤보]** | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** | [ 콤보](/help/analyze/analysis-workspace/visualizations/combo-charts.md) 시각화를 삽입하다. |
 
 
 | **[!UICONTROL 구성 요소]** | 단축키 Mac | 단축키 Windows | 설명 |

@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 2. 날짜 범위를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 기간 열 추가]** > **[!UICONTROL 이 날짜 범위에 사용자 지정 날짜 범위 추가]**&#x200B;를 클릭합니다.
    * 주별 비교를 위해 이벤트의 범위에서 7일을 뺀 범위를 선택합니다. 이벤트와 이 날짜 범위 사이의 요일이 정렬되었는지 확인합니다.
    * 월별 비교를 위해 지난달 이벤트 범위를 선택합니다. 요일을 맞추려면 이벤트 범위에서 28일을 뺀 값을 선택할 수도 있습니다.
-   * 연도별 비교에 대해 작년 이벤트 범위를 선택합니다.
+   * 연도별 비교를 위해 지난해 이벤트 범위를 선택합니다.
 3. 원하는 날짜 범위를 선택하면 자유 형식 테이블에 추가됩니다. 마우스 오른쪽 버튼을 클릭하고 비교하려는 만큼 날짜 범위를 추가할 수 있습니다.
 
    ![날짜 정렬 트렌드](assets/date_aligned_trends.png)

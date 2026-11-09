@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 89%
+ht-degree: 87%
 ---
 # Facebook 인스턴트 아티클로 구현
 
@@ -48,7 +48,7 @@ Adobe Analytics를 구현하는 주요 워크플로는 다음과 같습니다.
 1. `stats.html` 페이지를 만듭니다. 이 페이지를 코딩하여 URL에서 쿼리 문자열 매개변수를 가져오고 각 매개변수를 Analytics 변수에 할당하십시오.
 1. 웹 서버에서 `stats.html` 페이지를 호스팅합니다.
 1. iframe의 `stats.html` 파일을 참조하여 Facebook 인스턴트 아티클에 Analytics를 구현합니다.
-1. iframe `src` 속성에 쿼리 문자열 매개 변수를 포함합니다.
+1. iframe `src` 특성에 쿼리 문자열 매개 변수를 포함합니다.
 
 ### 1단계: `stats.html` 페이지 만들기
 

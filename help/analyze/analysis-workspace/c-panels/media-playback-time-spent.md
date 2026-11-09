@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1197
-ht-degree: 84%
-
+source-wordcount: '1197'
+ht-degree: 83%
 ---
-
 # 미디어 재생 소요 시간 패널 {#media-playback-time-spent-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -51,14 +49,14 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="미디어 재생 소요 시간"
->abstract="시간 경과에 따른 비디오 사용량을 분석하고, 다양한 세부 기간을 선택하고 분석 및 비교합니다.<br/><br/>**세부 기간**: 동시 뷰어를 확인할 수 있는 기간을 선택합니다.<br/>**패널 요약 숫자(선택 사항)**: 이 옵션은 각 행의 날짜 또는 시간 세부 정보가 포함된 요약 숫자를 표시합니다. 최대값은 최장 재생 체류 시간에 대한 세부 정보를 표시합니다. 최소값은 저점에 대한 세부 정보를 보여 줍니다. 합계는 재생 체류 시간의 총합에 대한 세부 정보를 보여 줍니다.<br/>**시리즈 분류(선택 사항)**: 세그먼트, 차원, 차원 항목 또는 날짜 범위별로 시각화를 분류합니다. 한 번에 최대 10개의 줄을 확인합니다. 분류는 단일 수준으로 제한됩니다.<br/>**시간 형식**: 이 옵션은 시각화에 대한 시간 형식을 시간 또는 분 단위로 표시합니다."
+>abstract="시간 경과에 따른 비디오 사용량을 분석하고, 다양한 세부 기간을 선택하고 분석 및 비교합니다.<br/><br/>**세부 기간**: 동시 뷰어를 확인할 수 있는 기간을 선택합니다.<br/>**패널 요약 숫자(선택 사항)**: 이 옵션은 각 행의 날짜 또는 시간 세부 정보가 포함된 요약 숫자를 표시합니다. 최대값은 최대 재생 소요 시간에 대한 세부 정보를 표시합니다. 최소값은 저점에 대한 세부 정보를 보여 줍니다. 합계는 재생 체류 시간의 총합에 대한 세부 정보를 보여 줍니다.<br/>**시리즈 분류(선택 사항)**: 세그먼트, 차원, 차원 항목 또는 날짜 범위별로 시각화를 분류합니다. 한 번에 최대 10개의 줄을 확인합니다. 분류는 단일 수준으로 제한됩니다.<br/>**시간 형식**: 이 옵션은 시각화에 대한 시간 형식을 시간 또는 분 단위로 표시합니다."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_이 문서에서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;에 있는 미디어 재생 소요 시간 패널을 설명합니다._<br/>_[미디어 재생 소요 시간 패널 참조](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 버전을 참조하십시오._
+_이 문서에서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;에 있는 미디어 재생 소요 시간 패널을 설명합니다._<br/>_[미디어 재생 소요 시간 패널 참조](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 버전을 참조하십시오._
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +82,7 @@ Analysis Workspace에서 재생 시간이란 특정 시점에서 미디어 스�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [미디어 재생 소요 시간 패널](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -171,7 +169,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
 
 ## Use the Media Playback Time Spent panel
 

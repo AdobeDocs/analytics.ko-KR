@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 95%
@@ -49,7 +49,7 @@ ht-degree: 95%
 * [데이터 피드 모범 사례](/help/export/analytics-data-feed/data-feeds-best-practices.md): 데이터 피드를 만들고 관리하기 위한 모범 사례.
 * [데이터 피드 만들기](create-feed.md): 개별 필드를 자세히 설명하는 데이터 피드 작성을 위한 기술 세부 정보
 * [데이터 피드 관리](df-manage-feeds.md): 데이터 피드 인터페이스 탐색에 대한 자세한 정보
-* [데이터 피드 콘텐츠](c-df-contents/datafeeds-contents.md): 압축 파일 <!-- Is this still the output users can download from the destination? I aske Jun. -->의 항목 이해
+* [데이터 피드 콘텐츠](c-df-contents/datafeeds-contents.md): 압축 파일 <!-- Is this still the output users can download from the destination? I asked Jun. -->의 항목 이해
 * [데이터 열 정의](c-df-contents/datafeeds-reference.md): 사용 가능한 모든 열의 포괄적인 목록.
 
 >[!BEGINSHADEBOX]
@@ -62,6 +62,6 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 ID 찾기](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}를 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [데이터 피드 ID 찾기](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}를 확인하십시오.
 
 >[!ENDSHADEBOX]

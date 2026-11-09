@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 4%
@@ -55,7 +55,7 @@ ht-degree: 4%
 - 보고서 세트, 유형 및 상태별로 목록을 필터링하려면 ![필터](/help/assets/icons/Filter.svg)를 선택하세요.
 - ![검색](/help/assets/icons/Search.svg) 검색 필드를 사용하여 광고 계정을 검색합니다.
 - 테이블에서 활성 계정을 선택하려면 **[!UICONTROL 활성 계정]**&#x200B;을 확인하세요.
-- 테이블에 표시할 열을 정의하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을(를) 선택합니다. <br/>테이블 사용자 지정&#x200B;**대화 상자에서:**
+- 테이블에 표시할 열을 정의하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을(를) 선택합니다. <br/>테이블 사용자 지정&#x200B;]**대화 상자에서:**[!UICONTROL 
   - 표시할 열을 선택합니다.
   - **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 

@@ -33,10 +33,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 25%
+source-wordcount: '1130'
+ht-degree: 24%
 ---
 # 프로젝트 및 데이터 다운로드
 
@@ -94,7 +94,7 @@ Adobe Analytics 데이터를 내보내는 추가 방법은 [내보내기 가이�
 >핫키 **_cmd + c_**(macOS) 또는 **_ctrl + c_**(Windows)을 사용하여 선택 항목을 클립보드에 복사할 수 있습니다. 그런 다음 **_cmd + v_**(macOS) 또는 **_ctrl + v_**(Windows)을 사용하여 데이터를 붙여넣으십시오.
 
 
-![선택 항목을 클립보드로 복사 옵션. &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
+![선택 항목을 클립보드로 복사 옵션. ](assets/copy-clipboard.png){zoomable="yes"}
 
 ## 시각화 내의 데이터를 CSV 파일로 다운로드
 
@@ -144,8 +144,8 @@ Only relevant as soon as CJA supports Map visualization
 
 파일이 다운로드되면 다음 알림이 표시됩니다.
 
-* 파란색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 요청되었습니다. 진행 상황을 나타내는_x _% 완료]**. 언제든지 다운로드를 취소하려면&#x200B;**[!UICONTROL 다운로드 취소]**&#x200B;를 선택하십시오. 메시지를 닫고 다운로드를 취소하지 않으려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하십시오.
-* 파일 다운로드가 완료되면 녹색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 다운로드되었습니다]**&#x200B;완료 알림이 표시됩니다. 파일이 브라우저에 대해 구성된 다운로드 폴더로 다운로드됩니다.
+* 파란색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 요청되었습니다. 진행 상황을 나타내는_x _% 완료]**. 언제든지 다운로드를 취소하려면&#x200B;**[!UICONTROL 다운로드 취소]**를 선택하십시오. 메시지를 닫고 다운로드를 취소하지 않으려면 ![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하십시오.
+* 파일 다운로드가 완료되면 녹색 **[!UICONTROL _테이블 이름&#x200B;_-_Dimension _.csv가 다운로드되었습니다]**완료 알림이 표시됩니다. 파일이 브라우저에 대해 구성된 다운로드 폴더로 다운로드됩니다.
 
 한 번에 두 개 이상의 다운로드를 요청하면 이전 다운로드가 완료될 때까지 각 추가 다운로드가 대기열에 있음을 알리는 알림을 받게 됩니다.
 
@@ -264,6 +264,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

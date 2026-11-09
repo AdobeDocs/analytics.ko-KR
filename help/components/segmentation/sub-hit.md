@@ -20,7 +20,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Adobe Analytics에서는 히트에 제품 ID가 없어도 모든 히트에는 �
 
 세그먼테이션 빌더에서 또는 **[!UICONTROL 빠른 세그먼트]**&#x200B;의 일부로 **[!UICONTROL 히트]** 컨테이너에 **[!UICONTROL Dimension]** **[!UICONTROL 소매: 패션 제품 범주]** **[!UICONTROL 같음]** **[!UICONTROL 남성]**&#x200B;을 **[!UICONTROL 포함]**&#x200B;하도록 지정합니다.
 
-![제품 범주 남성에 대한 히트 수준의 세그먼테이션을 보여 주는 패널](./assets/product-category-segmentation-hits.png)
+![제품 범주 남성에 대한 히트 수준의 세그먼테이션을 표시하는 패널](./assets/product-category-segmentation-hits.png)
 
 따라서 최소 한 개 이상의 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;가 포함된 모든 주문이 고려되며 이러한 주문의 다른 제품 매출은 **[!UICONTROL 온라인 매출]** 지표에 포함됩니다.
 카테고리를 보고할 때 **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**&#x200B;와(과) 함께 제품을 포함하는 주문의 일부인 **[!UICONTROL Retail: Fashion Product Category]**&#x200B;에 대한 다른 모든 값이 보고됩니다.
@@ -60,7 +60,7 @@ Adobe Analytics에서는 히트에 제품 ID가 없어도 모든 히트에는 �
 
 세그먼테이션 빌더에서 또는 **[!UICONTROL 빠른 세그먼트]**&#x200B;의 일부로 **[!UICONTROL 제품]** 컨테이너에 **[!UICONTROL Dimension]** **[!UICONTROL 소매: 패션 제품 범주]** **[!UICONTROL 같음]** **[!UICONTROL 남성]**&#x200B;을 **[!UICONTROL 포함]**&#x200B;하도록 지정합니다.
 
-![제품 범주 남성의 하위 히트 수준에 대한 세분화를 보여 주는 패널](./assets/product-category-segmentation-sub-hits.png)
+![제품 범주 남성에 대한 하위 히트 수준의 세그먼테이션을 표시하는 패널](./assets/product-category-segmentation-sub-hits.png)
 
 그 결과, 최소 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;을 포함하는 모든 주문이 고려되며 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;에 속하는 제품의 매출만 **[!UICONTROL 온라인 매출]** 지표에 포함됩니다.
 범주를 보고할 때 **[!UICONTROL 남성]** **[!UICONTROL 소매: 패션 제품 범주]**&#x200B;만 보고됩니다.
