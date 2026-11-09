@@ -47,7 +47,7 @@ ht-degree: 21%
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | `search_term`(컨텍스트 데이터)이(가) 설정됨 |
-| 액션 | [!UICONTROL eVar3 값 ]을(를) `search_term`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | [!UICONTROL eVar3 값 &#x200B;]을(를) `search_term`(컨텍스트 데이터)로 덮어쓰기 |
 
 ![컨텍스트 데이터 변수의 사용을 보여 주는 처리 규칙 인터페이스의 스크린샷](assets/set-context-data.png)
 
@@ -57,9 +57,9 @@ ht-degree: 21%
 
 | 규칙 세트 | 값 |
 | --- | --- |
-| 액션 | [!UICONTROL 값 ] eVar55를 `spa.billing_customer_name`(컨텍스트 데이터)로 덮어쓰기 |
-| 액션 | `testhierarchy`(컨텍스트 데이터)이 설정된 경우 [!UICONTROL Prop7의 값 ]을(를) `testhierarchy`(컨텍스트 데이터)로 덮어쓰기 |
-| 액션 | [!UICONTROL eVar8 값 ]을(를) `spa.ims_org`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | [!UICONTROL 값 &#x200B;] eVar55를 `spa.billing_customer_name`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | `testhierarchy`(컨텍스트 데이터)이 설정된 경우 [!UICONTROL Prop7의 값 &#x200B;]을(를) `testhierarchy`(컨텍스트 데이터)로 덮어쓰기 |
+| 액션 | [!UICONTROL eVar8 값 &#x200B;]을(를) `spa.ims_org`(컨텍스트 데이터)로 덮어쓰기 |
 
 ![값을 조건부로 설정하는 방법을 보여 주는 처리 규칙 인터페이스의 스크린샷](assets/add-conditional.png)
 
@@ -93,7 +93,7 @@ ht-degree: 21%
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | 캠페인이 설정되지 않음 |
-| 액션 | [!UICONTROL 캠페인 값 ]을(를) [!UICONTROL 쿼리 문자열 매개 변수] `cpid`(으)로 덮어쓰기 |
+| 액션 | [!UICONTROL 캠페인 값 &#x200B;]을(를) [!UICONTROL 쿼리 문자열 매개 변수] `cpid`(으)로 덮어쓰기 |
 
 ![조건부 캠페인 논리를 표시하는 처리 규칙 인터페이스의 스크린샷](assets/set-campaign-conditionally.png)
 
@@ -126,7 +126,7 @@ ht-degree: 21%
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | 없음(항상 실행) |
-| 액션 | [!UICONTROL 값을 ] eVar1에 [!UICONTROL 연결된 값] 범주 + 페이지 이름으로 덮어쓰기 |
+| 액션 | [!UICONTROL 값을 &#x200B;] eVar1에 [!UICONTROL 연결된 값] 범주 + 페이지 이름으로 덮어쓰기 |
 
 연결된 값을 표시하는 처리 규칙 인터페이스의 ![스크린샷](assets/add-subcategory-using-concat.png)
 
@@ -141,7 +141,7 @@ Adobe에서는 원하지 않는 덮어쓰기를 방지하기 위해 가능한 �
 | 규칙 세트 | 값 |
 | --- | --- |
 | 조건 | prop1 [!UICONTROL 다음으로 시작] &quot;[!DNL Shoping]&quot; |
-| 액션 | [!UICONTROL Prop1의 ] 값을 [!UICONTROL 사용자 지정 값] &quot;[!DNL Shopping]&quot;(으)로 덮어쓰기 |
+| 액션 | [!UICONTROL Prop1의 &#x200B;] 값을 [!UICONTROL 사용자 지정 값] &quot;[!DNL Shopping]&quot;(으)로 덮어쓰기 |
 
 오타를 수정하는 방법을 보여 주는 처리 규칙 인터페이스의 ![스크린샷](assets/clean-up-values-in-report.png)
 
