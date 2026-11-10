@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 11%
+source-wordcount: '734'
+ht-degree: 12%
 ---
 # trackingServerSecure
 
@@ -106,7 +106,7 @@ Adobe은 조직 전체에서 일관성을 유지하기 위해 [솔루션 디자�
 
 Adobe에서는 모든 구현에서 방문자 ID의 기본 형식으로 ECID를 사용할 것을 강력히 권장합니다. ECID 수집은 구현 유형에 따라 여러 가지 방법으로 구현할 수 있습니다.
 
-* 수동 AppMeasurement 구현에서는 `VisitorAPI.js`을(를) 사용하고 `getInstance` 메서드를 호출합니다. 자세한 내용은 [Analytics용 방문자 ID 서비스 구현](https://experienceleague.adobe.com/ko/docs/id-service/using/implementation/setup-analytics)을 참조하십시오.
+* 수동 AppMeasurement 구현에서는 `VisitorAPI.js`을(를) 사용하고 `getInstance` 메서드를 호출합니다. 자세한 내용은 [AppMeasurement을 사용한 방문자 식별](/help/implement/id/appmeasurement.md)을 참조하십시오.
 * Adobe Analytics 태그 확장을 사용하는 구현에서는 방문자 ID 서비스를 구현하는 [[!UICONTROL Experience Cloud ID 서비스] 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/id-service/overview)을 사용합니다. 추가되면 추가 구성이 필요하지 않습니다.
 * 모든 형식의 웹 SDK(`alloy.js` 또는 Web SDK 태그 확장)를 사용하는 구현에는 Edge Network ID가 자동으로 포함됩니다. `edgeDomain` 값을 설정하는 외에 구성이 필요하지 않습니다.
 

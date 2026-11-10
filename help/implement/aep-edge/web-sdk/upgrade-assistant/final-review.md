@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 13%
 ---
 # 최종 검토
@@ -86,4 +86,4 @@ ht-degree: 13%
 1. 승인을 위해 라이브러리를 제출하고 스테이징 환경에서 테스트합니다.
 1. 라이브러리를 승인하고 프로덕션에 게시합니다.
 
-태그 사용 안내서에서 [게시 흐름](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/publishing-flow)을 참조하십시오.
+태그 사용 안내서에서 [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/publishing-flow)을 참조하십시오.
