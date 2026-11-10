@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 5%
 ---
 # 해시 충돌
@@ -64,7 +64,7 @@ Adobe Analytics은 대부분의 차원에 32비트 해시를 사용하므로 가
 * **날짜 범위를 변경합니다**: 해시 테이블이 매월 변경됩니다. 날짜 범위를 다른 달에 걸쳐 변경하면 각 값에 충돌하지 않는 서로 다른 해시가 제공될 수 있습니다. 일반적으로 특정 보고서에서 표시되는 예외 항목을 지우는 가장 빠른 방법입니다.
 * **고유 값의 수를 줄입니다**: 구현을 조정하거나 [처리 규칙](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)을 사용하여 차원에서 수집하는 고유 값의 수를 줄일 수 있습니다. 예를 들어 차원에서 URL을 수집하는 경우 쿼리 문자열 또는 프로토콜을 제거할 수 있습니다.
 * **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md) 또는 [데이터 피드 사용](/help/export/analytics-data-feed/data-feed-overview.md)**: 이 도구는 해시 테이블에 의존하지 않습니다.
-* **[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko-KR)**(으)로 이동: Customer Journey Analytics에는 해시 레이어가 없으며 [차원에 대한 카디널리티 제한 없음](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html). 해시 충돌 또는 [[!UICONTROL 낮은 트래픽]](/help/technotes/low-traffic.md)이 보고서에 자주 영향을 주는 경우 이 제품으로 이동하는 것이 좋습니다.
+* **[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko-KR)**(으)로 이동: Customer Journey Analytics에는 해시 레이어가 없으며 [차원에 대한 카디널리티 제한 없음](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/dimensions/high-cardinality). 해시 충돌 또는 [[!UICONTROL 낮은 트래픽]](/help/technotes/low-traffic.md)이 보고서에 자주 영향을 주는 경우 이 제품으로 이동하는 것이 좋습니다.
 
 >[!MORELIKETHIS]
 >

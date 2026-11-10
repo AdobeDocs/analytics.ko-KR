@@ -25,26 +25,14 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: '338'
 ht-degree: 95%
-
 ---
-
 # 차원 간 흐름
 
 차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다.
-
-<!-- 
-
->[!BEGINSHADEBOX]
-
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensional flows](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
--->
 
 이 문서에서는 모바일 앱 상호작용 및 이벤트 사용 사례에서 이 흐름을 사용하는 방법과 캠페인이 웹 방문을 유도하는 방법을 보여 줍니다.
 
