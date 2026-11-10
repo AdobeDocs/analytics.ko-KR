@@ -20,13 +20,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 110
+source-wordcount: '110'
 ht-degree: 20%
-
 ---
-
 # 경고 사용 사례
 
 [경고 만들기](alert-builder.md)에 설명된 대로 경고를 만들 수 있습니다.
@@ -44,6 +42,6 @@ ht-degree: 20%
 
 ## 경고 스택
 
-여러 경고를 만드는 대신 경고를 통합(스택)할 수 있습니다. 경고를 스택하면 경고들이 결합되고 별도의 경고 수를 얻지 못합니다. 아래 예에서는 지표 임계값 중 하나가 트리거되면 경고가 전송됩니다.
+여러 경고를 만드는 대신 경고를 통합(스택)할 수 있습니다. 경고를 스택하면 경고들이 결합되고 별도의 경고 수를 얻지 못합니다. 아래 예에서 지표 임계값 중 하나가 트리거되면 경고가 전송됩니다.
 
 ![](assets/alerts-example2.png)

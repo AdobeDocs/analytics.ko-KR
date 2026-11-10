@@ -1,5 +1,5 @@
 ---
-description: 귀사에 부여된 Adobe Analytics 패키지 및 기능에 대한 액세스 수준을 볼 수 있는 방법입니다.
+description: 귀사에 부여된 Adobe Analytics 패키지 및 기능에 대한 액세스 수준을 보는 방법.
 title: 기능 액세스 수준
 feature: Company Settings
 exl-id: 9aca4a61-d9a6-4ba1-863c-2686b73f381e
@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 82
-ht-degree: 100%
-
+source-wordcount: '81'
+ht-degree: 76%
 ---
-
 # 기능 액세스 수준
 
 **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 기능 액세스 수준 보기]**

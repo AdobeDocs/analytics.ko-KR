@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7789'
 ht-degree: 88%
 ---
 # Adobe Analytics에 대한 기술 설명서 업데이트
@@ -206,7 +206,7 @@ ht-degree: 88%
 | **2023년 9월** | |
 | 미디어 재생 소요 시간 패널에 대한 문서의 구조가 업데이트되었습니다 | 미디어 재생 소요 시간이라는 폴더를 제거하고 해당 폴더의 내용을 단일 문서([미디어 재생 소요 시간 패널](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))로 결합했습니다. <p>이 변경 사항으로 다른 패널의 설명서와 함께 더 일관된 형태를 갖추게 되었습니다.</p> |
 | 시작 콘텐츠 개선 사항 | 관리자, 분석가, 최종 사용자 및 개발자를 위한 주요 시작 작업 및 리소스에 대해 간략하게 설명하는 정보가 추가되었습니다. 이제 다음 문서를 사용할 수 있습니다. <ul><li>[시작하기 (역할별)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics 인터페이스 이해](/help/analyze/get-started/analytics-interface.md)<li>[사용 사례](/help/analyze/get-started/use-cases.md)</li></ul> |
-| 스트리밍 미디어 컬렉션에 대한 보고 문서 개선 사항 | API 설명서를 자체 섹션에 통합하고 일부 문서의 순서를 조정하는 것을 포함하여 스트리밍 미디어 컬렉션 안내서의 보고 섹션에 있는 일부 콘텐츠를 재구성했습니다. |
+| 스트리밍 미디어 컬렉션에 대한 보고 문서 개선 사항 | API 설명서를 해당 섹션에 통합하고 일부 문서의 순서를 조정하는 등 스트리밍 미디어 컬렉션 안내서의 보고 섹션에서 일부 콘텐츠를 재구성했습니다. |
 | **2023년 8월** | |
 | 데이터 피드 설명 | 내역 데이터에 대한 데이터 피드를 처리할 때 데이터 수집 시 시작 일자를 원하는 과거의 일자로 설정할 수 있도록 [시작 및 종료 일자 정의](/help/export/analytics-data-feed/create-feed.md)가 업데이트되었습니다. |
 | Adobe Experience Platform Edge Network 데이터 처리 | Adobe Analytics에서 [Edge Network의 데이터를 처리](../implement/aep-edge/overview.md)하는 방법과 관련된 콘텐츠를 추가합니다. |
@@ -240,7 +240,7 @@ ht-degree: 88%
 | **2023년 4월** | |
 | 사용자 자산 전송 및 계정 만료 설정 | [사용자 자산을 전송하고 계정 만료를 설정](/help/admin/tools/user-management/users-assets.md)하는 방법에 대한 정보가 추가되었습니다. |
 | Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 안내서 | <ul><li>[Analytics 차원 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
-| 프로젝트 세그먼트 (애드혹 및 빠른 세그먼트) | 프로젝트 세그먼트에 대한 문서가 간소화되고 중복된 정보가 제거되었습니다. 애드혹 세그먼트를 만드는 단계는 이제 [빠른 세그먼트를 만드는 단계](/help/analyze/analysis-workspace/components/segments/quick-segments.md)와 결합됩니다. |
+| 프로젝트 세그먼트(애드혹 및 빠른 세그먼트) | 프로젝트 세그먼트에 대한 설명서가 간소화되고 중복된 정보가 제거되었습니다. 애드혹 세그먼트를 만드는 단계는 이제 [빠른 세그먼트를 만드는 단계](/help/analyze/analysis-workspace/components/segments/quick-segments.md)와 결합됩니다. |
 | 동적 조회 | [동적 조회](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)에 대한 추가 정보가 추가되었습니다. 이전에는 여러 동적 조회 중 하나인 모바일 속성에 대한 정보만 존재했습니다. |
 | **2023년 3월** | |
 | Activity Map에 대한 Web SDK 지원 | [Adobe Analytics 구현](/help/implement/home.md)이 업데이트되었습니다. |

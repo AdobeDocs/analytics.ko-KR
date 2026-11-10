@@ -8,7 +8,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -98,8 +98,8 @@ Adobe Analytics 통합→ 인바운드 브랜드 가시성이 **예약된 변수
 | 다음으로 보고됨 | 유형 | 참고 |
 |---|---|---|
 | URL | 치수 | 요청과 연결된 페이지 URL입니다. |
-| 봇 유형 | 차원 | 요청을 수행한 봇 또는 자동화된 에이전트 유형(예: 명명된 AI 웹 크롤러). |
-| 사용자 에이전트 | 차원 | 봇 또는 에이전트에서 보고한 사용자 에이전트 문자열입니다. |
+| 봇 유형 | 치수 | 요청을 수행한 봇 또는 자동화된 에이전트 유형(예: 명명된 AI 웹 크롤러). |
+| 사용자 에이전트 | 치수 | 봇 또는 에이전트에서 보고한 사용자 에이전트 문자열입니다. |
 | 상태 | 치수 | 요청에 대해 반환된 HTTP 상태 코드입니다. |
 | Referer | 치수 | 요청에 대한 HTTP 레퍼러 값(존재하는 경우). |
 | 요청 | 지표 | 봇 및 에이전트 CDN 요청 수 |
@@ -141,7 +141,7 @@ CJA 인바운드 통합은 더 광범위한 CDN 요청 요약 데이터 세트�
 커넥터를 활성화하기 전에 다음 사항을 확인하십시오.
 
 - 연결하려는 사이트에 대한 Adobe Brand Visibility 온보딩을 완료했습니다.
-- 해당 사이트에 대해 BYOCDN 로그 전달이 설정되고 확인되었습니다([prequisites](#inbound-integration) 참조).
+- 해당 사이트에 대해 BYOCDN 로그 전달이 설정되고 확인되었습니다([필수 구성 요소](#inbound-integration) 참조).
 - 해당 사이트에 대한 데이터가 Adobe Brand Visibility 에이전트 트래픽 대시보드에 표시됩니다.
 - 사이트를 연결할 보고서 세트를 알고 있습니다.
 

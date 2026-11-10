@@ -26,13 +26,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: '822'
 ht-degree: 4%
-
 ---
-
 # 마케팅 채널 처리 규칙
 
 _이 페이지는 히트에 마케팅 채널을 할당하는 처리 규칙을 참조합니다. 데이터 수집 방법을 조정할 수 있는 기능에 대해서는 [처리 규칙](../general/processing-rules/pr-overview.md)을 참조하십시오._
@@ -102,6 +100,6 @@ _이 페이지는 히트에 마케팅 채널을 할당하는 처리 규칙을 �
 
 **전환 변수**&#x200B;를 사용하면 사용자 지정 eVar, 일치하는 연산자 및 찾을 값을 지정할 수 있습니다.
 
-| 전환 변수 조건 | 설명 |
+| 대화 변수 조건 | 설명 |
 |---|---|
 | **eVar 1-250** | 연결된 [eVar](/help/components/dimensions/evar.md) 차원입니다. |

@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 87%
+source-wordcount: '1703'
+ht-degree: 86%
 ---
 # 플로우 시각화 구성 {#configure-a-flow-visualization}
 
@@ -156,7 +156,7 @@ ht-degree: 87%
 
 플로우 구성의 요약이 시각화의 맨 위에 나타납니다. 다이어그램의 경로는 비례합니다. 활동이 많은 경로일수록 더 두껍게 표시됩니다.
 
-![방문 횟수로 끝남, 경로 지정 차원: 페이지 및 플로우 컨테이너: 방문자를 보여 주는 플로우 출력 예.](assets/flow-output.png)
+![방문, 경로 지정 차원: 페이지, 흐름 컨테이너: 방문자로 끝을 보여 주는 흐름 출력 예](assets/flow-output.png)
 
 데이터를 더 자세히 드릴다운하려면 다음과 같은 몇 가지 옵션이 있습니다.
 
@@ -199,7 +199,7 @@ ht-degree: 87%
 | **[!UICONTROL 항목 제외]** 또는 **[!UICONTROL 제외된 항목 복원]** | 열에서 특정 노드를 제거하고 해당 노드를 열 맨 위에 필터로 자동으로 만듭니다. 제외된 항목을 복원하려면 컨텍스트 메뉴에서 **[!UICONTROL 제외된 항목 복원]**&#x200B;을 선택합니다. 또한 열의 맨 위에 있는 필터를 열고 방금 제외한 항목이 있는 필박스를 제거할 수도 있습니다. |
 | **[!UICONTROL 트렌드]** | 노드에 대한 트렌드 다이어그램을 만듭니다. |
 | **[!UICONTROL 다음 열 표시]** / **[!UICONTROL 이전 열 표시]** | 시각화의 다음(오른쪽) 또는 이전(왼쪽) 열을 표시합니다. |
-| **[!UICONTROL 열 숨기기]**&#x200B;n | 시각화에서 선택한 열을 숨깁니다. |
+| **[!UICONTROL 열 숨기기]** | 시각화에서 선택한 열을 숨깁니다. |
 | **[!UICONTROL 전체 열 확장]** | 열을 확장하여 모든 노드를 표시합니다. 기본적으로 상위 5개 노드만 표시됩니다. |
 | **[!UICONTROL 선택 항목으로 대상자 만들기]** | 선택된 열에 따라 대상자를 만듭니다. |
 | **[!UICONTROL 전체 열 축소]** | 열에 있는 모든 노드를 숨깁니다. |

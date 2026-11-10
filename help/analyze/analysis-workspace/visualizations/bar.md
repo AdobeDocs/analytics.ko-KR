@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 77%
-
+source-wordcount: '222'
+ht-degree: 71%
 ---
-
 # 막대(스택)
 
 >[!BEGINSHADEBOX]
@@ -55,9 +53,9 @@ _이 문서는 이 문서의_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytic
 
 ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 막대]** 시각화는 하나 이상 지표에서 다양한 값을 나타내는 세로 막대를 표시합니다.
 
-![페이지 조회수, 방문 수, 진입 수, 종료 수 등 여러 지표를 보여 주는 가상 막대 시각화.](assets/bar.png)
+![페이지 보기 수, 방문 횟수, 시작 횟수 및 종료 횟수 등 여러 지표를 보여주는 세로 막대 시각화.](assets/bar.png)
 
-시각화 설정의 세부 기간 드롭다운을 사용하면 트렌드 시각화 (예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
+시각화 설정의 세부 기간 드롭다운을 사용하면 트렌드 시각화(예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
 
 ## 스택 막대 {#bar-stacked}
 

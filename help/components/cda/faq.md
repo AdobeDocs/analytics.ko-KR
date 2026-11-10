@@ -44,10 +44,10 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # 자주 묻는 질문
 
@@ -59,7 +59,7 @@ ht-degree: 96%
 
 1. Adobe Analytics에 로그인하고 새 빈 Workspace 프로젝트를 만듭니다.
 2. 왼쪽의 시각화 탭을 클릭하고 플로우 시각화를 오른쪽의 캔버스로 드래그합니다.
-3. 왼쪽의 구성 요소 탭을 클릭하고 &#39;모바일 디바이스 유형&#39; 차원을 &#39;차원 또는 항목&#39;이라고 표시된 가운데 위치로 드래그합니다.
+3. 왼쪽의 구성 요소 탭을 클릭하고 &#39;모바일 장치 유형&#39; 차원을 &#39;Dimension 또는 항목&#39;이라는 레이블이 지정된 가운데 위치로 드래그합니다.
 4. 이 플로우 보고서는 대화형입니다. 플로우를 다음 또는 이전 페이지로 확장하려면 값을 클릭합니다. 마우스 오른쪽 버튼 클릭 메뉴를 사용하여 열을 확장하거나 접으십시오. 동일한 플로우 보고서 내에서 다양한 차원을 사용할 수도 있습니다.
 
 +++

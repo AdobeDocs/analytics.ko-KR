@@ -18,13 +18,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 86%
-
+source-wordcount: '216'
+ht-degree: 82%
 ---
-
 # 시각화 색상 팔레트 {#visualization-color-palette}
 
 <!-- markdownlint-disable MD034 -->
@@ -37,7 +35,7 @@ ht-degree: 86%
 <!-- markdownlint-enable MD034 -->
 
 
-Analysis에 사용되는 시각화 색상 팔레트를 선택할 수 있습니다. 미리 정의된 색상 팔레트를 선택하거나 회사의 브랜딩 색상과 일치하는 팔레트를 직접 지정할 수 있습니다. 이 기능은 Workspace의 대부분의 시각화에 영향을 주지만 요약 변경 사항, 자유 형식 테이블의 조건부 서식 설정, 맵 시각화에는 영향을 미치지 **않습니다**.
+작업 영역에 사용되는 시각화 색상 팔레트를 변경할 수 있습니다. 미리 정의된 색상 팔레트를 선택하거나 회사의 브랜딩 색상과 일치하는 팔레트를 직접 지정할 수 있습니다. 이 기능은 Workspace의 대부분의 시각화에 영향을 주지만 요약 변경 사항, 자유 형식 테이블의 조건부 서식 설정, 맵 시각화에는 영향을 미치지 **않습니다**.
 
 >[!NOTE]
 >
@@ -48,7 +46,7 @@ Analysis에 사용되는 시각화 색상 팔레트를 선택할 수 있습니�
 다음 사항에 주의하십시오.
 
 * 6개의 사전 설정된 색상 팔레트 중에서 선택할 수 있습니다. 기본 팔레트와 나열된 두 번째 팔레트는 대비를 이루도록 최적화되었으며, 색맹인 사용자들이 더 쉽게 접근할 수 있습니다.
-* 다른 팔레트는 색상 조화를 위해 최적화되었습니다.
+* 다른 팔레트는 색상 조화에 최적화되었습니다.
 
 ## 색상 팔레트 변경:
 

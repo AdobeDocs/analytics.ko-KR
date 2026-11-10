@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspace에서 집단 타겟을 만들고 구성하고 집단 분석 보고서를 실행하는 방법에 대해 알아봅니다.
+description: Analysis Workspace에서 집단 테이블을 만들고 구성하고 집단 분석 보고서를 실행하는 방법에 대해 알아봅니다.
 keywords: Analysis Workspace
 title: 집단 테이블 구성
 feature: Visualizations
@@ -30,13 +30,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: '907'
 ht-degree: 90%
-
 ---
-
 # 집단 테이블 구성
 
 [!UICONTROL 코호트 테이블]을 만들고 구성하는 방법:

@@ -1,5 +1,5 @@
 ---
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3238'
 ht-degree: 93%
@@ -10,7 +10,7 @@ ht-degree: 93%
 
 >[!WARNING]
 >
->레거시 Report Builder은 2026년 6월에 사용이 종료됩니다. 2026년 7월 1일부터 기존 Report Builder을 사용하여 예약된 통합 문서는 더 이상 제공되지 않습니다. <ul><li>2026년 8월 12일까지 통합 문서를 기존 Report Builder에서 새 Report Builder으로 마이그레이션해야 합니다. 자세한 내용은 [기존 통합 문서 변환](/help/analyze/report-builder/convert-workbooks.md)을 참조하십시오.</li><li>Adobe Analytics 1.4 API의 수명이 종료됨에 따라 기존 Report Builder 추가 기능을 더 이상 다운로드할 수 없습니다.</li><li>2026년 8월 12일 이후, 마이그레이션이 필요한 통합 문서를 보유한 고객은 고객 지원 센터에 연락하여 원래 통합 문서를 받아야 합니다. 이러한 통합 문서는 [기존 통합 문서를 변환](/help/analyze/report-builder/convert-workbooks.md)하는 방법으로 마이그레이션해야 합니다.</li></ul> 간소화된 새 [Report Builder](/help/analyze/report-builder/rb-overview.md)는 2024년 10월 16일부터 사용할 수 있습니다. 이 Report Builder는 macOS, Windows 및 웹 브라우저에서 지원되며 Adobe Analytics 및 Customer Journey Analytics와 함께 사용할 수 있습니다. FTP 서버 및 Power BI으로 예약된 내보내기는 Report Builder에서 더 이상 지원되지 않습니다. 기존 Report Builder에서 이러한 기능을 사용하는 고객은 Report Builder에서 [내보내기 클라우드 대상](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations)을 사용해야 합니다.
+>레거시 Report Builder은 2026년 6월에 사용이 종료됩니다. 2026년 7월 1일부터 기존 Report Builder을 사용하여 예약된 통합 문서는 더 이상 제공되지 않습니다. <ul><li>2026년 8월 12일까지 통합 문서를 기존 Report Builder에서 새 Report Builder으로 마이그레이션해야 합니다. 자세한 내용은 [기존 통합 문서 변환](/help/analyze/report-builder/convert-workbooks.md)을 참조하십시오.</li><li>Adobe Analytics 1.4 API의 수명이 종료됨에 따라 기존 Report Builder 추가 기능을 더 이상 다운로드할 수 없습니다.</li><li>2026년 8월 12일 이후, 마이그레이션이 필요한 통합 문서를 보유한 고객은 고객 지원 센터에 연락하여 원본 통합 문서를 받아야 합니다. 이러한 통합 문서는 [기존 통합 문서를 변환](/help/analyze/report-builder/convert-workbooks.md)하는 방법으로 마이그레이션해야 합니다.</li></ul> 간소화된 새 [Report Builder](/help/analyze/report-builder/rb-overview.md)는 2024년 10월 16일부터 사용할 수 있습니다. 이 Report Builder는 macOS, Windows 및 웹 브라우저에서 지원되며 Adobe Analytics 및 Customer Journey Analytics와 함께 사용할 수 있습니다. FTP 서버 및 Power BI으로 예약된 내보내기는 Report Builder에서 더 이상 지원되지 않습니다. 기존 Report Builder에서 이러한 기능을 사용하는 고객은 Report Builder에서 [내보내기 클라우드 대상](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations)을 사용해야 합니다.
 
 
 ## 레거시 Report Builder {#legacy-arb-old}
@@ -165,7 +165,7 @@ Customer Journey Analytics의 다양한 시각화는 고객에게 제공하는 �
 
 | 보고서 세트 | 설명 |
 |---|---|
-| ![보고서 세트](/help/assets/filter-reportsuite.png){width="300"} | **[!UICONTROL 보고서 세트]** 섹션을 사용하면 보고서 세트를 필터링할 수 있습니다. <ul><li>![보고서 세트 검색](/help/assets/icons/Search.svg)을 *검색*&#x200B;하여 필터링할 보고서 세트를 검색할 수 있습니다.</li><li>둘 이상의 보고서 세트를 선택할 수 있습니다. 사용할 수 있는 보고서 세트는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**(2)**: 선택된 보고서 세트의 수(하나 이상의 보고서 세트가 선택된 경우)</li><li>**3︎⃣**: 현재 필터에 따라 생성된 항목에 사용할 수 있는 보고서 세트 수</li><li>4︎⃣: 특정 보고서 세트와 연관된 항목 수</li></ul></li></ul> |
+| ![보고서 세트](/help/assets/filter-reportsuite.png){width="300"} | **[!UICONTROL 보고서 세트]** 섹션을 통해 보고서 세트를 필터링할 수 있습니다. <ul><li>![보고서 세트 검색](/help/assets/icons/Search.svg)을 *검색*&#x200B;하여 필터링할 보고서 세트를 검색할 수 있습니다.</li><li>둘 이상의 보고서 세트를 선택할 수 있습니다. 사용할 수 있는 보고서 세트는 필터 패널의 다른 섹션에서 선택한 내용에 따라 달라집니다.</li><li>숫자는 다음을 나타냅니다.<ul><li>**(2)**: 선택된 보고서 세트의 수(하나 이상의 보고서 세트가 선택된 경우)</li><li>**3︎⃣**: 현재 필터에 따라 생성된 항목에 사용할 수 있는 보고서 세트 수</li><li>4︎⃣: 특정 보고서 세트와 연관된 항목 수</li></ul></li></ul> |
 
 ## 활성화된 상태 필터 섹션 {#enabledstatusfiltersection}
 

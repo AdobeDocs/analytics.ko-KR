@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # Analysis Workspace 개요 {#analysis-workspace-overview}
 
@@ -86,7 +86,7 @@ Analysis Workspace를 사용하면 분석을 신속하게 빌드하여 인사이
 
 ## 메뉴
 
-Analysis Workspace의 기능 대부분은 드래그 앤 드롭을 통해, 패널, 시각화 및 구성 요소 내 컨텍스트 메뉴를 통해 사용할 수 있습니다.
+Analysis Workspace의 기능 대부분은 드래그 앤 드롭과 패널, 시각화 및 구성 요소 내의 컨텍스트 메뉴를 통해 사용할 수 있습니다.
 
 Workspace 메뉴 및 단축키 또는 핫키를 통해서도 기능을 사용할 수 있습니다. 단축키는 브라우저가 실행 중인 운영 체제에 따라 다릅니다. 개요는 아래 테이블을 참조하십시오.
 

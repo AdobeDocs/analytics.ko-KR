@@ -19,13 +19,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 503
+source-wordcount: '502'
 ht-degree: 6%
-
 ---
-
 # Microsoft Excel에서 Report Builder 함수 사용
 
 {{legacy-arb}}
@@ -48,7 +46,7 @@ Report Builder 사용자 인터페이스에 액세스하지 않고도 Report Bui
 | AsyncRefreshActiveWorksheet() | 문자열 | 활성 워크시트에 있는 모든 Report Builder 요청을 새로 고칩니다. |
 | AsyncRefreshWorksheet(string worksheetName) | 문자열 | 지정된 워크시트(탭에 나타나는 워크시트 이름)에 있는 모든 Report Builder 요청을 새로 고칩니다. |
 | AsyncRefreshWorksheetAltTextParam(); | 문자열 | Ms Form Control의 대체 텍스트를 통해 전달된 특정 워크시트 이름에 있는 모든 Report Builder 요청을 새로 고칩니다. |
-| tring GetLastRunStatus() | 문자열 | 마지막 실행 상태를 설명하는 문자열을 반환합니다. |
+| GetLastRunStatus() | 문자열 | 마지막 실행 상태를 설명하는 문자열을 반환합니다. |
 
 Report Builder 함수에 액세스하려면 **[!UICONTROL 수식]** > **[!UICONTROL 함수 삽입]**(으)로 이동하십시오. 검색 필드를 사용하여 기능을 검색하거나 범주를 선택하여 해당 범주에 있는 기능을 나열합니다.
 

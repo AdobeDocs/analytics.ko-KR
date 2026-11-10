@@ -67,13 +67,11 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1699
+source-wordcount: '1699'
 ht-degree: 98%
-
 ---
-
 # 관리자, 분석가, 최종 사용자 및 개발자용 시작하기
 
 일반적인 조직에는 4가지 유형의 Adobe Analytics 사용자가 있습니다.
