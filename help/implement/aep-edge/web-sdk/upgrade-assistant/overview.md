@@ -71,7 +71,7 @@ ht-degree: 3%
 
 * 업그레이드 도우미에 필요한 [권한](#permissions)입니다.
 * Adobe Analytics 확장을 사용하는 태그 속성입니다.
-* 마이그레이션할 구현이 포함된 해당 속성의 라이브러리입니다. 라이브러리는 published를 포함하여 모든 상태에 있을 수 있습니다. 태그 사용 안내서에서 [라이브러리](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries)를 참조하십시오.
+* 마이그레이션할 구현이 포함된 해당 속성의 라이브러리입니다. 라이브러리는 published를 포함하여 모든 상태에 있을 수 있습니다. 태그 사용 안내서에서 [라이브러리](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/libraries)를 참조하십시오.
 
 ### 권한 {#permissions}
 
@@ -79,8 +79,8 @@ ht-degree: 3%
 
 | 액세스 유형 | 필수 여부 |
 | --- | --- |
-| [Experience Platform 권한](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 스키마 보기]</li><li>[!UICONTROL 스키마 관리]</li><li>[!UICONTROL 데이터 세트 보기]</li><li>[!UICONTROL 데이터 세트 관리]</li><li>[!UICONTROL ID 네임스페이스 보기]</li></ul> |
+| [Experience Platform 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 스키마 보기]</li><li>[!UICONTROL 스키마 관리]</li><li>[!UICONTROL 데이터 세트 보기]</li><li>[!UICONTROL 데이터 세트 관리]</li><li>[!UICONTROL ID 네임스페이스 보기]</li></ul> |
 | 제품 액세스 | <ul><li>데이터 수집(태그)</li><li>Adobe Analytics</li></ul> |
-| [태그 권한](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL 속성 관리] |
+| [태그 권한](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL 속성 관리] |
 
 준비가 되면 [마이그레이션을 만듭니다](manager.md#create).

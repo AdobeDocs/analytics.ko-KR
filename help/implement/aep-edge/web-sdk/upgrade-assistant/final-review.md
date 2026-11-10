@@ -86,4 +86,4 @@ ht-degree: 13%
 1. 승인을 위해 라이브러리를 제출하고 스테이징 환경에서 테스트합니다.
 1. 라이브러리를 승인하고 프로덕션에 게시합니다.
 
-태그 사용 안내서에서 [게시 흐름](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)을 참조하십시오.
+태그 사용 안내서에서 [게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/publishing-flow)을 참조하십시오.
