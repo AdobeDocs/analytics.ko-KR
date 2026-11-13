@@ -45,7 +45,7 @@ ht-degree: 46%
 
 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ko-KR)는 Adobe Experience Platform 데이터 수집의 구성 요소로서 도구 전반에서 사용할 수 있습니다. 데이터 요소를 사용하여 Adobe Analytics 확장 기능에서 변수 값을 할당할 수 있습니다.
 
-다음 단계에서는 태그 속성에 설치해야 하는 [Adobe 클라이언트 데이터 레이어 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview)을 사용합니다.
+다음 단계에서는 태그 속성에 설치해야 하는 [Adobe 클라이언트 데이터 레이어 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/client-data-layer/overview)을 사용합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 선택합니다.
