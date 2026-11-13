@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 83%
+source-wordcount: '217'
+ht-degree: 73%
 ---
 # channel
 
@@ -65,8 +65,8 @@ Analytics 확장 기능(전역 변수)을 구성하는 동안 또는 규칙에�
 s.channel = "Example site section";
 ```
 
-`digitalData` [데이터 레이어](../../prepare/data-layer.md)를 사용하는 경우:
+[Adobe 클라이언트 데이터 레이어](../../prepare/data-layer.md)를 사용하는 경우 `getState()`을(를) 사용하여 값을 읽으십시오. 호출할 때는 [AppMeasurement으로 데이터 레이어 읽기](../../prepare/data-layer.md#appmeasurement)를 참조하십시오.
 
 ```js
-s.channel = digitalData.page.category.primaryCategory;
+s.channel = adobeDataLayer.getState("page.section");
 ```
