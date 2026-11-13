@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 93%
+source-wordcount: '407'
+ht-degree: 46%
 ---
 # 데이터 레이어 오브젝트를 데이터 요소에 매핑
 
@@ -45,17 +45,25 @@ ht-degree: 93%
 
 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ko-KR)는 Adobe Experience Platform 데이터 수집의 구성 요소로서 도구 전반에서 사용할 수 있습니다. 데이터 요소를 사용하여 Adobe Analytics 확장 기능에서 변수 값을 할당할 수 있습니다.
 
+다음 단계에서는 태그 속성에 설치해야 하는 [Adobe 클라이언트 데이터 레이어 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/client-data-layer/overview)을 사용합니다.
+
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
-1. 원하는 태그 속성을 클릭합니다.
-1. **[!UICONTROL 데이터 요소]** 탭을 클릭한 다음 **[!UICONTROL 데이터 요소 추가]**&#x200B;를 클릭합니다.
+1. 원하는 태그 속성을 선택합니다.
+1. **[!UICONTROL 데이터 요소]** 탭을 선택한 다음 **[!UICONTROL 데이터 요소 추가]**&#x200B;를 선택합니다.
 
    ![데이터 요소 만들기](assets/createelement.png)
 
-1. 데이터 요소의 이름을 입력합니다. 추적하려는 데이터 레이어의 JavaScript 변수에 해당하는 간단한 레이블이 될 수 있습니다.
-1. **[!UICONTROL 확장]** 드롭다운 목록에서 **[!UICONTROL 코어]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL 데이터 요소 유형]** 드롭다운 목록에서 **[!UICONTROL JavaScript 변수]**&#x200B;을(를) 선택합니다. 이 데이터 요소에 매핑할 JavaScript 변수를 입력할 수 있는 텍스트 필드가 오른쪽에 나타납니다.
-1. 원하는 Javascript 변수를 일반적으로 데이터 레이어 내에 입력합니다. 예를 들어 조직의 데이터 레이어가 Adobe의 권장 방식과 거의 일치하는 경우 값은 `digitalData.page.pageInfo.pageName`가 될 수 있습니다. 브라우저의 콘솔을 사용하여 JavaScript 변수 구문 및 값의 유효성을 확인할 수 있습니다.
-1. **[!UICONTROL 저장을]** 클릭합니다.
+1. 데이터 요소의 이름을 입력하십시오(예: `Page name`).
+1. **[!UICONTROL 확장]** 드롭다운 목록에서 **[!UICONTROL Adobe 클라이언트 데이터 레이어]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 데이터 요소 유형]** 드롭다운 목록에서 **[!UICONTROL 데이터 계층 계산 상태]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 반환 값]**&#x200B;에서 **[!UICONTROL 특정 경로]**&#x200B;을(를) 선택한 다음 데이터 계층에 있는 값에 대한 경로를 입력합니다(예: `page.name`). 경로의 유효성을 검사하려면 브라우저의 콘솔에서 `adobeDataLayer.getState("page.name")`을(를) 실행하십시오.
+1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+
+확장의 **[!UICONTROL 데이터 레이어 푸시]** 이벤트가 트리거되는 규칙에서 이러한 데이터 요소를 사용하여 데이터 레이어가 로드되고 푸시의 데이터를 포함합니다. [데이터 요소 형식](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)을 참조하세요.
+
+### 개체 기반 데이터 레이어 {#object-based}
+
+데이터 레이어가 CEDL `digitalData` 개체와 같은 JavaScript 개체인 경우 대신 **[!UICONTROL Core]** 확장의 **[!UICONTROL JavaScript 변수]** 데이터 요소 유형을 사용하십시오. 값의 경로를 입력하십시오(예: `digitalData.page.pageInfo.pageName`). 이 데이터 요소 유형은 개체 속성이 아닌 계산된 상태로 데이터를 저장하는 Adobe 클라이언트 데이터 레이어를 읽을 수 없습니다.
 
 ## 다음 단계
 

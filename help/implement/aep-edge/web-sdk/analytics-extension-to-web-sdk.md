@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 6%
-
+source-wordcount: '1728'
+ht-degree: 7%
 ---
-
 # Adobe Analytics 태그 확장 프로그램에서 웹 SDK 태그 확장 프로그램으로 마이그레이션
 
 이 구현 경로에는 Adobe Analytics 태그 확장에서 웹 SDK 태그 확장으로 이동하는 메소드 마이그레이션 접근 방식이 포함됩니다. 다른 구현 경로는 별도의 페이지에서 다룹니다.
@@ -106,7 +104,7 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 만듭�
 1. 태그 인터페이스의 왼쪽 탐색에서 **[!UICONTROL 데이터 요소]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 데이터 요소 추가]** 선택
 1. 데이터 요소에 다음 설정을 지정합니다.
-   * [!UICONTROL 이름]: &quot;데이터 레이어&quot; 또는 &quot;데이터 개체&quot;와 같이 원하는 모든 항목
+   * [!UICONTROL 이름]: &quot;데이터 개체&quot;와 같이 원하는 모든 항목
    * [!UICONTROL 확장]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL 데이터 요소 형식]: [!UICONTROL 변수]
    * 확인란은 그대로 남아 있을 수 있습니다

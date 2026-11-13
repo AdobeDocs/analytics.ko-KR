@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: '1475'
 ht-degree: 9%
-
 ---
-
 # AppMeasurement에서 웹 SDK으로 마이그레이션
 
 이 구현 경로에는 AppMeasurement 구현에서 웹 SDK JavaScript 라이브러리 구현으로 이동하는 메서드 마이그레이션 접근 방식이 포함됩니다. 다른 구현 경로는 별도의 페이지에서 다룹니다.
@@ -105,7 +103,7 @@ alloy("configure", {
 
 +++**4. JSON 페이로드를 사용하도록 코드 논리 업데이트**
 
-`AppMeasurement.js` 또는 `s` 개체에 의존하지 않도록 Analytics 구현을 변경하십시오. 대신 변수를 올바른 형식의 JavaScript 개체에 설정합니다. 이 개체는 Adobe에 전송될 때 JSON 개체로 변환됩니다. 사이트에 [데이터 레이어](../../prepare/data-layer.md)가 있으면 동일한 값을 계속 참조할 수 있으므로 값을 설정할 때 많은 도움이 됩니다.
+`AppMeasurement.js` 또는 `s` 개체에 의존하지 않도록 Analytics 구현을 변경하십시오. 대신 변수를 올바른 형식의 JavaScript 개체에 설정합니다. 이 개체는 Adobe에 전송될 때 JSON 개체로 변환됩니다. 사이트에 [데이터 레이어](../../prepare/data-layer.md)가 있으면 동일한 값을 계속 참조할 수 있으므로 값을 설정할 때 많은 도움이 됩니다. 사이트에서 Adobe 클라이언트 데이터 레이어를 사용하는 경우 `sendEvent`을(를) 호출할 때 데이터 레이어 값을 읽는 방법에 대해 알아보려면 [웹 SDK과 함께 Adobe 클라이언트 데이터 레이어 데이터 보내기](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk)를 참조하십시오.
 
 Adobe Analytics으로 데이터를 보내려면 웹 SDK 페이로드에서 `data.__adobe.analytics`을(를) 이 개체 내에 설정된 모든 분석 변수와 함께 사용해야 합니다. 이 개체 내의 변수는 AppMeasurement 변수 상대가 공유하는 것과 동일한 이름과 형식을 공유합니다. 예를 들어 `products` 변수를 설정하는 경우 XDM을 사용하는 것처럼 개별 개체로 분할하지 마십시오. 대신 `s.products` 변수를 설정하는 경우 문자열로 포함하십시오.
 

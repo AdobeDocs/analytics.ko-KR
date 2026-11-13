@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 85%
 ---
 # 변수, 함수, 메서드 및 플러그인 개요
 
@@ -58,8 +58,8 @@ Adobe에서는 Adobe Analytics를 구현하는 방법을 여러 가지 제공합
 
 Adobe Analytics가 게시한 AppMeasurement 라이브러리는 데이터를 Adobe에 전송할 때 특정 순서를 따릅니다. 이러한 작업을 순서대로 실행하지 않을 경우 데이터가 불완전할 수 있습니다.
 
-1. 사이트에서 데이터 레이어를 사용하는 경우 적용 가능한 모든 변수가 채워졌는지 우선 확인합니다. 예를 들어 `adobeDataLayer.page.title`을 페이지 제목으로 채웁니다. 자세한 내용은 [데이터 레이어](../prepare/data-layer.md)을 참조하십시오.
-2. 데이터 레이어를 사용하여 Analytics 변수를 채웁니다. <br/>Adobe Experience Platform에서 태그를 사용하는 경우, 이 작업은 중간에 데이터 요소를 사용하여 수행됩니다. 데이터 요소는 데이터 레이어의 값으로 채워집니다. 예를 들어 데이터 요소 `Page Title`은 데이터 레이어 변수 `adobeDataLayer.page.title`에서 값을 가져옵니다. <br/>그런 다음 데이터 요소를 사용하여 Analytics 변수를 채울 수 있습니다. 예를 들어 `eVar4`는 데이터 요소 `Page Title`에서 값을 가져옵니다. <br/>자세한 내용은 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ko-KR), [데이터 레이어 오브젝트를 데이터 요소에 매핑](../launch/layer-to-elements.md), [태그 데이터 요소를 Analytics 변수에 매핑](../launch/elements-to-variable.md)을 참조하십시오.
+1. 사이트에서 데이터 레이어를 사용하는 경우 적용 가능한 모든 변수가 채워졌는지 우선 확인합니다. 예를 들어 [Adobe 클라이언트 데이터 레이어](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview)를 사용하면 사이트 코드가 페이지 이름을 `adobeDataLayer.push({ page: { name: "Home" } })`(으)로 푸시합니다. 자세한 내용은 [데이터 레이어](../prepare/data-layer.md)을 참조하십시오.
+2. 데이터 레이어를 사용하여 Analytics 변수를 채웁니다. <br/>Adobe Experience Platform에서 태그를 사용하는 경우, 이 작업은 중간에 데이터 요소를 사용하여 수행됩니다. 데이터 요소는 데이터 레이어의 값으로 채워집니다. 예를 들어 데이터 요소 `Page name`은(는) Adobe 클라이언트 데이터 레이어 확장의 [데이터 레이어 계산 상태](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state) 데이터 요소 유형을 사용하여 데이터 레이어의 경로 `page.name`에서 값을 가져옵니다. <br/>그런 다음 데이터 요소를 사용하여 Analytics 변수를 채울 수 있습니다. 예를 들어 `eVar4`는 데이터 요소 `Page name`에서 값을 가져옵니다. <br/>자세한 내용은 [데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ko-KR), [데이터 레이어 오브젝트를 데이터 요소에 매핑](../launch/layer-to-elements.md), [태그 데이터 요소를 Analytics 변수에 매핑](../launch/elements-to-variable.md)을 참조하십시오.
 3. 마지막으로 추적 함수를 호출합니다. 대부분의 AppMeasurement 라이브러리는 `t()` 메서드를 사용하지만 일부 모바일 SDK는 `track()`을 사용합니다. 추적 함수가 호출되면 Analytics 오브젝트에 정의된 모든 지원되는 변수가 이미지 요청 형태로 Adobe에 전송됩니다.
 
 ## 잘못된 문자
