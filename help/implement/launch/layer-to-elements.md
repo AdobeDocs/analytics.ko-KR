@@ -59,7 +59,7 @@ ht-degree: 46%
 1. **[!UICONTROL 반환 값]**&#x200B;에서 **[!UICONTROL 특정 경로]**&#x200B;을(를) 선택한 다음 데이터 계층에 있는 값에 대한 경로를 입력합니다(예: `page.name`). 경로의 유효성을 검사하려면 브라우저의 콘솔에서 `adobeDataLayer.getState("page.name")`을(를) 실행하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-확장의 **[!UICONTROL 데이터 레이어 푸시]** 이벤트가 트리거되는 규칙에서 이러한 데이터 요소를 사용하여 데이터 레이어가 로드되고 푸시의 데이터를 포함합니다. [데이터 요소 형식](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)을 참조하세요.
+확장의 **[!UICONTROL 데이터 레이어 푸시]** 이벤트가 트리거되는 규칙에서 이러한 데이터 요소를 사용하여 데이터 레이어가 로드되고 푸시의 데이터를 포함합니다. [데이터 요소 형식](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)을 참조하세요.
 
 ### 개체 기반 데이터 레이어 {#object-based}
 
