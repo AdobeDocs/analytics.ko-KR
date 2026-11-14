@@ -49,7 +49,7 @@ ht-degree: 7%
 
 ## 데이터 레이어 사양 선택 {#specifications}
 
-Adobe에서는 새 구현 또는 재구성된 구현을 위해 [ACDL(Adobe 클라이언트 데이터 레이어)](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview)을(를) 권장합니다. ACDL은 데이터와 이벤트를 전역 `adobeDataLayer` 배열로 푸시할 수 있는 표준 방법을 사이트에 제공하는 오픈 소스 JavaScript 라이브러리입니다. 태그, 웹 SDK 및 AppMeasurement을 모두 읽을 수 있으며 Adobe Experience Manager 핵심 구성 요소가 자동으로 태그를 채울 수 있습니다.
+Adobe에서는 새 구현 또는 재구성된 구현을 위해 [ACDL(Adobe 클라이언트 데이터 레이어)](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/acdl/overview)을(를) 권장합니다. ACDL은 데이터와 이벤트를 전역 `adobeDataLayer` 배열로 푸시할 수 있는 표준 방법을 사이트에 제공하는 오픈 소스 JavaScript 라이브러리입니다. 태그, 웹 SDK 및 AppMeasurement을 모두 읽을 수 있으며 Adobe Experience Manager 핵심 구성 요소가 자동으로 태그를 채울 수 있습니다.
 
 조직은 전역 `digitalData` 개체에 데이터를 저장하는 [CEDL(Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf)) 또는 사용자 지정 사양과 같은 다른 사양을 자유롭게 사용할 수 있습니다. 가장 중요한 것은 조직이 요구 사항을 충족하는 하나의 세부 항목에 맞추는 것입니다.
 
@@ -98,8 +98,8 @@ ACDL은 모든 푸시를 구현에서 읽는 계산된 상태라는 단일 개�
 
 데이터 레이어를 사용하여 Adobe Analytics를 구현하는 절차는 일반적으로 다음과 같습니다.
 
-1. **사이트 개발 팀과 협력하여 데이터 레이어를 구현하십시오**: 사이트 개발 팀은 데이터 레이어에 올바른 값이 포함되어 있는지 확인하는 작업을 주로 수행합니다. 사이트 개발 팀과 함께 이 페이지를 검토하여 팀 간의 기대 내용이 일치하는지 확인합니다. [Adobe 클라이언트 데이터 레이어 설치](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install)를 참조하십시오.
-1. **브라우저 콘솔을 사용하여 데이터 계층의 유효성 검사**: 브라우저의 개발자 콘솔을 엽니다. 이 작업은 `F12` 키로 대부분의 브라우저에서 수행할 수 있습니다. 계산된 상태를 보려면 `adobeDataLayer.getState()`을(를) 실행하고 단일 값을 보려면 `adobeDataLayer.getState("page.name")`을(를) 실행하십시오. [설치 확인](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install#verify)을 참조하세요.
+1. **사이트 개발 팀과 협력하여 데이터 레이어를 구현하십시오**: 사이트 개발 팀은 데이터 레이어에 올바른 값이 포함되어 있는지 확인하는 작업을 주로 수행합니다. 사이트 개발 팀과 함께 이 페이지를 검토하여 팀 간의 기대 내용이 일치하는지 확인합니다. [Adobe 클라이언트 데이터 레이어 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/acdl/install)를 참조하십시오.
+1. **브라우저 콘솔을 사용하여 데이터 계층의 유효성 검사**: 브라우저의 개발자 콘솔을 엽니다. 이 작업은 `F12` 키로 대부분의 브라우저에서 수행할 수 있습니다. 계산된 상태를 보려면 `adobeDataLayer.getState()`을(를) 실행하고 단일 값을 보려면 `adobeDataLayer.getState("page.name")`을(를) 실행하십시오. [설치 확인](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/acdl/install#verify)을 참조하세요.
 1. **데이터 레이어를 Adobe Analytics에 연결**: 이 단계는 조직의 구현 방법에 따라 다릅니다. [데이터 레이어를 Adobe Analytics에 연결](#connect)을 참조하십시오.
 
 ## 데이터 레이어를 Adobe Analytics에 연결 {#connect}
@@ -108,8 +108,8 @@ ACDL은 모든 푸시를 구현에서 읽는 계산된 상태라는 단일 개�
 
 | 구현 방식 | 데이터 레이어를 읽는 방법 | 추가 정보 |
 | --- | --- | --- |
-| 웹 SDK 태그 확장 기능 | Adobe 클라이언트 데이터 레이어 확장에서 **데이터 레이어 푸시** 이벤트를 사용하여 규칙을 트리거합니다. 웹 SDK **변수 업데이트** 작업을 사용하여 데이터 레이어 값을 XDM 필드 또는 `data` 개체에 매핑한 다음 **이벤트 보내기** 작업을 사용하여 보냅니다. | [웹 SDK과 함께 Adobe 클라이언트 데이터 레이어 데이터 보내기](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk), [XDM 개체 필드 매핑](../aep-edge/xdm-var-mapping.md) 및 [데이터 개체 필드 매핑](../aep-edge/data-var-mapping.md) |
-| 웹 SDK JavaScript 라이브러리 | `addEventListener()`을(를) 사용하여 데이터 레이어 이벤트를 수신하고 `sendEvent`을(를) 호출할 때 데이터 레이어에서 XDM 또는 `data` 필드를 설정합니다. | [웹 SDK과 함께 Adobe 클라이언트 데이터 레이어 데이터 보내기](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk), [XDM 개체 필드 매핑](../aep-edge/xdm-var-mapping.md) 및 [데이터 개체 필드 매핑](../aep-edge/data-var-mapping.md) |
+| 웹 SDK 태그 확장 기능 | Adobe 클라이언트 데이터 레이어 확장에서 **데이터 레이어 푸시** 이벤트를 사용하여 규칙을 트리거합니다. 웹 SDK **변수 업데이트** 작업을 사용하여 데이터 레이어 값을 XDM 필드 또는 `data` 개체에 매핑한 다음 **이벤트 보내기** 작업을 사용하여 보냅니다. | [웹 SDK과 함께 Adobe 클라이언트 데이터 레이어 데이터 보내기](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/acdl/web-sdk), [XDM 개체 필드 매핑](../aep-edge/xdm-var-mapping.md) 및 [데이터 개체 필드 매핑](../aep-edge/data-var-mapping.md) |
+| 웹 SDK JavaScript 라이브러리 | `addEventListener()`을(를) 사용하여 데이터 레이어 이벤트를 수신하고 `sendEvent`을(를) 호출할 때 데이터 레이어에서 XDM 또는 `data` 필드를 설정합니다. | [웹 SDK과 함께 Adobe 클라이언트 데이터 레이어 데이터 보내기](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/acdl/web-sdk), [XDM 개체 필드 매핑](../aep-edge/xdm-var-mapping.md) 및 [데이터 개체 필드 매핑](../aep-edge/data-var-mapping.md) |
 | Analytics 확장 기능 | **데이터 레이어 푸시** 이벤트를 사용하여 규칙을 트리거하고 Adobe 클라이언트 데이터 레이어 확장에서 **데이터 레이어 계산 상태**&#x200B;를 만듭니다. **변수 설정** 작업에서 Analytics 변수에 데이터 요소를 할당한 다음 **비콘 보내기** 작업으로 데이터를 보냅니다. | [데이터 레이어 개체를 데이터 요소에 매핑](../launch/layer-to-elements.md) 및 [데이터 요소를 Analytics 변수에 매핑](../launch/elements-to-variable.md) |
 | AppMeasurement | ACDL이 로드된 후 `getState()`을(를) 사용하여 값을 읽은 다음 `s.t()`을(를) 호출하십시오. | [AppMeasurement으로 데이터 레이어 읽기](#appmeasurement) |
 
@@ -135,4 +135,4 @@ window.adobeDataLayer.push(function(dl) {
 ## 다음 단계
 
 * [데이터 레이어 개체를 데이터 요소에 매핑](../launch/layer-to-elements.md): Adobe Experience Platform 태그에서 사이트의 데이터 레이어를 사용합니다.
-* [Adobe 클라이언트 데이터 레이어 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview): 모든 ACDL 메서드, 이벤트 및 모범 사례에 대해 알아봅니다.
+* [Adobe 클라이언트 데이터 레이어 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/acdl/overview): 모든 ACDL 메서드, 이벤트 및 모범 사례에 대해 알아봅니다.
