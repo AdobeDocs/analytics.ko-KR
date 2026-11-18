@@ -74,7 +74,7 @@ Analytics for Target 패널을 사용하면 Analysis Workspace에서 Adobe Targe
 
 >[!BEGINSHADEBOX]
 
-데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target 패널](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"}을 확인하십시오.
+데모 비디오를 보려면 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target 패널](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"}을 확인하십시오.
 
 >[!ENDSHADEBOX]
 
