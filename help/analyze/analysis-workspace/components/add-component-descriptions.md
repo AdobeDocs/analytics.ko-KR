@@ -29,7 +29,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: 279113d8dc171e867e1ef4b7bac4784e0635b999
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 20%
@@ -54,7 +54,7 @@ Analytics 관리자는 보고서 세트 내에 있거나 Analysis Workspace 내�
 
 >[!BEGINSHADEBOX]
 
-데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 설명 추가](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}를 참조하십시오.
+데모 비디오는 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [구성 요소 설명 추가](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +74,6 @@ Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두�
 >
 
 ## 자동으로 설명 생성
-
-{{release-limited-testing-section}}
 
 Adobe Analytics은 각 설명을 수동으로 작성하는 대신 생성 AI를 사용하여 설명을 작성할 수 있습니다. 단일 구성 요소에 대한 설명을 생성하거나 동시에 여러 구성 요소에 대한 설명을 생성할 수 있습니다.
 
