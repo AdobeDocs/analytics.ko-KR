@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1f0522de93ef1abc183887d4dfad0465059ee48f
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '588'
 ht-degree: 25%
-
 ---
-
 # 추적 유형
 
 추적 유형은 Adobe Analytics 구현이 검색 엔진 데이터를 추적하는 방법을 결정합니다. 이 추적 유형은 검색 엔진 데이터를 사용하여 Adobe Analytics 데이터를 적절하게 늘리는 데 필요한 단계입니다.
@@ -42,7 +40,7 @@ ht-degree: 25%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -61,7 +59,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/ko/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보십시오.
+>`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)에 추가해야 하는지에 대해 자세히 알아보십시오.
 
 ## 수동 추적 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -82,7 +80,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![Google 광고 캠페인 추적 코드](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
 
 다양한 추적 템플릿 형식의 추적 코드 예제:
 
@@ -122,7 +120,7 @@ Microsoft Advertising 계정에 추가해야 하는 문자열이 아래에 표�
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_값 (아래에&#x200B;**굵게**&#x200B;표시됨)은 제네릭이므로,**특정 계정 ID 문자열로 대체해야**&#x200B;합니다. 계정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
+>_`<Advertising Analytics ID>`_값 (아래에&#x200B;**굵게**표시됨)은 제네릭이므로,**특정 계정 ID 문자열로 대체해야**합니다. 계정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
 
 **캠페인에 대한 추적 문자열:**
 
