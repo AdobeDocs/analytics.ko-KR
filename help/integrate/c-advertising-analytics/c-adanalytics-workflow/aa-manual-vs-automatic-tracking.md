@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1f0522de93ef1abc183887d4dfad0465059ee48f
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '588'
 ht-degree: 25%
-
 ---
-
 # 추적 유형
 
 추적 유형은 Adobe Analytics 구현이 검색 엔진 데이터를 추적하는 방법을 결정합니다. 이 추적 유형은 검색 엔진 데이터를 사용하여 Adobe Analytics 데이터를 적절하게 늘리는 데 필요한 단계입니다.
@@ -82,7 +80,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![Google 광고 캠페인 추적 코드](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
 
 다양한 추적 템플릿 형식의 추적 코드 예제:
 
